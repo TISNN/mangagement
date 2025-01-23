@@ -24,7 +24,6 @@ function ApplicationDetailPage({ setCurrentPage }: ApplicationDetailPageProps) {
       <div className="flex justify-between items-center">
         <div>
           <h1 className="text-2xl font-bold dark:text-white">张明的申请</h1>
-          <p className="text-sm text-gray-500 dark:text-gray-400">伦敦大学学院 · 计算机科学</p>
         </div>
         <div className="flex gap-4">
           <button className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded-xl text-sm font-medium transition-colors dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-300">

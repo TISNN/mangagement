@@ -10,15 +10,15 @@ import {
   UserPlus, ChevronLeft, Mail, Phone, MapPin,
   Filter, Plus, MoreVertical,
   Globe, Languages, TrendingUp, Building, Plane,
-  Bot, Brain, LogOut, // 添加 LogOut 图标用于退出系统
-  FileContract // 添加合同图标
+  Bot, Brain, LogOut, Share2
 } from 'lucide-react';
 import SettingsPage from './pages/SettingsPage';
 import CaseStudiesPage from './pages/CaseStudiesPage';
-import ApplicationDetailPage from './pages/ApplicationDetailPage'; // 添加申请详情页面
-import AIModelPage from './pages/AIModelPage'; // 导入 AI 大模型页面
-import LoginPage from './pages/LoginPage'; // 导入登录页面
-import ContractsPage from './pages/ContractsPage'; // 导入 ContractsPage 组件
+import ApplicationDetailPage from './pages/ApplicationDetailPage';
+import AIModelPage from './pages/AIModelPage';
+import LoginPage from './pages/LoginPage';
+import ContractsPage from './pages/ContractsPage';
+import SocialMediaPage from './pages/SocialMediaPage'; // 导入社媒运营页面组件
 
 function App() {
   const [currentPage, setCurrentPage] = useState('login'); // 默认显示登录页面
@@ -33,19 +33,20 @@ function App() {
   }, [isDark]);
 
   const pages = {
-    login: <LoginPage setCurrentPage={setCurrentPage} />, // 添加登录页面
+    login: <LoginPage setCurrentPage={setCurrentPage} />,
     dashboard: <DashboardPage />,
     students: <StudentsPage />,
     projects: <ProjectsPage setCurrentPage={setCurrentPage} />,
     applications: <ApplicationsPage setCurrentPage={setCurrentPage} />,
-    applicationDetail: <ApplicationDetailPage setCurrentPage={setCurrentPage} />, // 添加申请详情页面
-    aiModel: <AIModelPage />, // 添加 AI 大模型页面
+    applicationDetail: <ApplicationDetailPage setCurrentPage={setCurrentPage} />,
+    aiModel: <AIModelPage />,
     leads: <LeadsPage />,
     mentors: <MentorsPage />,
     mentorProfile: <MentorProfilePage />,
     knowledge: <KnowledgeBasePage />,
     cases: <CaseStudiesPage />,
-    contracts: <ContractsPage />, // 添加合同管理页面
+    contracts: <ContractsPage />,
+    social: <SocialMediaPage setCurrentPage={setCurrentPage} />, // 添加社媒运营页面
     finance: <FinancePage />,
     settings: <SettingsPage />,
   };
@@ -110,17 +111,18 @@ function App() {
           <nav className="flex items-center gap-2">
             {[
               { icon: LayoutGrid, text: '控制台', id: 'dashboard' },
-              { icon: Users, text: '学生管理', id: 'students' },
-              { icon: Briefcase, text: '项目管理', id: 'projects' },
+              { icon: Users, text: '学生', id: 'students' },
+              { icon: Briefcase, text: '服务项目', id: 'projects' },
               { icon: FileCheck, text: '申请进度', id: 'applications' },
-              { icon: MessagesSquare, text: '线索管理', id: 'leads' },
+              { icon: MessagesSquare, text: '线索', id: 'leads' },
               { icon: UserSquare2, text: '导师库', id: 'mentors' },
               { icon: Library, text: '知识库', id: 'knowledge' },
-              { icon: Bot, text: 'AI大模型', id: 'aiModel' }, // 添加 AI 大模型导航项
+              { icon: Bot, text: 'AI大模型', id: 'aiModel' },
               { icon: ClipboardList, text: '案例库', id: 'cases' },
-              { icon: FileText, text: '合同管理', id: 'contracts' }, // 添加合同管理按钮
-              { icon: Wallet, text: '财务管理', id: 'finance' },
-              { icon: Settings, text: '系统设置', id: 'settings' },
+              { icon: FileText, text: '合同', id: 'contracts' },
+              { icon: Share2, text: '社媒运营', id: 'social' },
+              { icon: Wallet, text: '财务', id: 'finance' },
+              { icon: Settings, text: '系统', id: 'settings' },
             ].map((item) => {
               const isActive = currentPage === item.id;
               return (
@@ -912,7 +914,7 @@ function LeadsPage() {
           { title: '本月新增', value: '156', change: '+12.5%', icon: UserPlus, color: 'blue' },
           { title: '跟进中', value: '86', change: '+8.2%', icon: MessagesSquare, color: 'yellow' },
           { title: '已约访', value: '45', change: '+15.4%', icon: Calendar, color: 'purple' },
-          { title: '已成交', value: '32', change: '+18.3%', icon: FileCheck, color: 'green' },
+          { title: '已签约', value: '32', change: '+18.3%', icon: FileCheck, color: 'green' },
         ].map((stat, index) => (
           <div key={index} className="bg-white rounded-2xl p-6 dark:bg-gray-800">
             <div className="flex items-center justify-between mb-4">
@@ -934,7 +936,7 @@ function LeadsPage() {
       <div className="bg-white rounded-2xl shadow-sm overflow-hidden dark:bg-gray-800">
         <div className="p-6 border-b border-gray-100 dark:border-gray-700">
           <div className="flex items-center gap-4">
-            {['全部线索', '未跟进', '跟进中', '已约访', '已成交'].map((tab, index) => (
+            {['全部线索', '未跟进', '跟进中', '已约访', '已签约'].map((tab, index) => (
               <button
                 key={index}
                 className={`px-4 py-2 rounded-xl text-sm font-medium transition-colors ${
@@ -976,7 +978,7 @@ function LeadsPage() {
                 name: '李华',
                 source: '朋友推荐',
                 project: '美国研究生申请',
-                status: '已成交',
+                status: '已签约',
                 lastContact: '2024-03-14',
                 owner: '刘老师',
                 phone: '139****9999',
@@ -1014,7 +1016,7 @@ function LeadsPage() {
                 <td className="py-4 px-6 dark:text-gray-300">{lead.project}</td>
                 <td className="py-4 px-6">
                   <span className={`px-3 py-1 rounded-full text-xs font-medium ${
-                    lead.status === '已成交'
+                    lead.status === '已签约'
                       ? 'bg-green-50 text-green-700 dark:bg-green-900/20 dark:text-green-400'
                       : lead.status === '已约访'
                       ? 'bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400'

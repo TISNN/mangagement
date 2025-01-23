@@ -16,20 +16,6 @@ import {
 function AIModelPage() {
   return (
     <div className="space-y-6">
-      {/* 页面标题 */}
-      <div className="flex justify-between items-center">
-        <h1 className="text-2xl font-bold dark:text-white">AI 大模型</h1>
-        <div className="flex gap-4">
-          <div className="relative">
-            <Search className="h-4 w-4 text-gray-400 absolute left-3 top-1/2 -translate-y-1/2" />
-            <input
-              type="text"
-              placeholder="搜索功能..."
-              className="pl-9 pr-4 py-2 bg-gray-50 border border-gray-200 rounded-xl w-64 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-800 dark:border-gray-700 dark:text-gray-300"
-            />
-          </div>
-        </div>
-      </div>
 
       {/* AI 功能卡片 */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
