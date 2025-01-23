@@ -8,6 +8,7 @@ import {
   ArrowRight,
   Navigation
 } from 'lucide-react';
+import './LoginPage.css'; // 添加新的 CSS 文件
 
 interface LoginPageProps {
   setCurrentPage: (page: string) => void;
@@ -154,14 +155,37 @@ function LoginPage({ setCurrentPage }: LoginPageProps) {
 
       {/* 右侧品牌展示区域 */}
       <div className="w-1/2 bg-gradient-to-br from-blue-500 to-indigo-600 p-8 flex items-center justify-center relative overflow-hidden">
-        {/* 简化装饰元素 - 只保留一个大圆形作为背景 */}
-        <div className="absolute w-[800px] h-[800px] rounded-full -top-1/4 -right-1/4 backdrop-blur-3xl" />
+        {/* 背景动画元素 */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="stars-container">
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+          </div>
+          <div className="shooting-star"></div>
+          <div className="shooting-star delay-2s"></div>
+        </div>
+        
+        {/* 主圆形背景 */}
+        <div className="absolute w-[800px] h-[800px] rounded-full -top-1/4 -right-1/4 backdrop-blur-3xl animate-pulse-slow" />
         
         {/* 品牌理念展示 */}
         <div className="relative text-white text-center space-y-8 max-w-lg">
           <div className="flex justify-center mb-12">
-            <div className="w-40 h-40 backdrop-blur-sm rounded-full flex items-center justify-center">
-              <Navigation className="h-20 w-20 text-white transform" />
+            <div className="w-40 h-40 backdrop-blur-sm rounded-full flex items-center justify-center hover-float">
+              <Navigation className="h-20 w-20 text-white transform compass-spin" />
             </div>
           </div>
           <div className="space-y-4">
