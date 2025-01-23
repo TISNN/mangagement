@@ -10,13 +10,15 @@ import {
   UserPlus, ChevronLeft, Mail, Phone, MapPin,
   Filter, Plus, MoreVertical,
   Globe, Languages, TrendingUp, Building, Plane,
-  Bot, Brain, LogOut // 添加 LogOut 图标用于退出系统
+  Bot, Brain, LogOut, // 添加 LogOut 图标用于退出系统
+  FileContract // 添加合同图标
 } from 'lucide-react';
 import SettingsPage from './pages/SettingsPage';
 import CaseStudiesPage from './pages/CaseStudiesPage';
 import ApplicationDetailPage from './pages/ApplicationDetailPage'; // 添加申请详情页面
 import AIModelPage from './pages/AIModelPage'; // 导入 AI 大模型页面
 import LoginPage from './pages/LoginPage'; // 导入登录页面
+import ContractsPage from './pages/ContractsPage'; // 导入 ContractsPage 组件
 
 function App() {
   const [currentPage, setCurrentPage] = useState('login'); // 默认显示登录页面
@@ -43,8 +45,9 @@ function App() {
     mentorProfile: <MentorProfilePage />,
     knowledge: <KnowledgeBasePage />,
     cases: <CaseStudiesPage />,
+    contracts: <ContractsPage />, // 添加合同管理页面
     finance: <FinancePage />,
-    settings: <SettingsPage />
+    settings: <SettingsPage />,
   };
 
   // 如果是登录页面，直接返回登录组件
@@ -115,6 +118,7 @@ function App() {
               { icon: Library, text: '知识库', id: 'knowledge' },
               { icon: Bot, text: 'AI大模型', id: 'aiModel' }, // 添加 AI 大模型导航项
               { icon: ClipboardList, text: '案例库', id: 'cases' },
+              { icon: FileText, text: '合同管理', id: 'contracts' }, // 添加合同管理按钮
               { icon: Wallet, text: '财务管理', id: 'finance' },
               { icon: Settings, text: '系统设置', id: 'settings' },
             ].map((item) => {
