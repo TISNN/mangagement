@@ -10,15 +10,16 @@ import {
   UserPlus, ChevronLeft, Mail, Phone, MapPin,
   Filter, Plus, MoreVertical,
   Globe, Languages, TrendingUp, Building, Plane,
-  Bot, Brain // 添加 Bot 图标和 Brain 图标用于 AI 大模型
+  Bot, Brain, LogOut // 添加 LogOut 图标用于退出系统
 } from 'lucide-react';
 import SettingsPage from './pages/SettingsPage';
 import CaseStudiesPage from './pages/CaseStudiesPage';
 import ApplicationDetailPage from './pages/ApplicationDetailPage'; // 添加申请详情页面
 import AIModelPage from './pages/AIModelPage'; // 导入 AI 大模型页面
+import LoginPage from './pages/LoginPage'; // 导入登录页面
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('dashboard');
+  const [currentPage, setCurrentPage] = useState('login'); // 默认显示登录页面
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
@@ -30,6 +31,7 @@ function App() {
   }, [isDark]);
 
   const pages = {
+    login: <LoginPage setCurrentPage={setCurrentPage} />, // 添加登录页面
     dashboard: <DashboardPage />,
     students: <StudentsPage />,
     projects: <ProjectsPage setCurrentPage={setCurrentPage} />,
@@ -45,6 +47,12 @@ function App() {
     settings: <SettingsPage />
   };
 
+  // 如果是登录页面，直接返回登录组件
+  if (currentPage === 'login') {
+    return <LoginPage setCurrentPage={setCurrentPage} />;
+  }
+
+  // 其他页面显示完整布局
   return (
     <div className="min-h-screen bg-[#f8fafc] dark:bg-gray-900">
       {/* 顶部导航 */}
@@ -71,6 +79,13 @@ function App() {
               <button className="relative p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300">
                 <Bell className="h-5 w-5" />
                 <span className="absolute top-1 right-1 h-2 w-2 bg-red-500 rounded-full"></span>
+              </button>
+              {/* 修改退出按钮样式 */}
+              <button 
+                onClick={() => setCurrentPage('login')} // 修改为正确的页面 key
+                className="p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+              >
+                <LogOut className="h-5 w-5" />
               </button>
               <div className="flex items-center gap-3">
                 <img
