@@ -1,9 +1,11 @@
 import React, { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { Brain, Sparkles, Rocket, Users, LineChart, School, Target, Award, BookOpen, Zap, MessageSquare } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const HomePage: React.FC = () => {
   const controls = useAnimation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     controls.start({
@@ -16,22 +18,20 @@ const HomePage: React.FC = () => {
     });
   }, []);
 
+  const handleTryClick = () => {
+    navigate('/admin');
+  };
+
   return (
     <div className="min-h-screen bg-black text-white relative overflow-hidden">
-      {/* 背景动效 */}
-      <div className="absolute inset-0 opacity-30">
-        <motion.div 
-          animate={controls}
-          className="absolute top-0 left-0 w-full h-full"
-        />
-        <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_50%,rgba(0,112,243,0.1),transparent_50%)]"></div>
-        <div className="absolute w-[500px] h-[500px] bg-blue-500/30 rounded-full blur-3xl -top-40 -left-40 mix-blend-overlay animate-blob"></div>
-        <div className="absolute w-[500px] h-[500px] bg-purple-500/30 rounded-full blur-3xl top-40 right-0 mix-blend-overlay animate-blob animation-delay-2000"></div>
-        <div className="absolute w-[500px] h-[500px] bg-blue-500/30 rounded-full blur-3xl bottom-0 left-20 mix-blend-overlay animate-blob animation-delay-4000"></div>
-      </div>
-
       {/* Hero Section */}
       <section className="relative py-32 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-blue-900/20 to-black/95">
+          <div className="absolute inset-0 opacity-30">
+            <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_50%,rgba(0,112,243,0.1),transparent_50%)]"></div>
+          </div>
+        </div>
+        
         <div className="container mx-auto px-4 relative">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -60,11 +60,12 @@ const HomePage: React.FC = () => {
               通过智能化工具、专业知识库和数字化服务，重新定义留学申请体验。
             </p>
             <motion.button 
+              onClick={handleTryClick}
               className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-8 py-4 rounded-full text-lg font-medium relative overflow-hidden group"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <span className="relative z-10">立刻起航</span>
+              <span className="relative z-10">免费开始使用</span>
               <motion.div 
                 className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600"
                 initial={{ x: '100%' }}
@@ -116,34 +117,12 @@ const HomePage: React.FC = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: item.delay }}
-                whileHover={{ 
-                  scale: 1.05,
-                  boxShadow: "0 0 20px rgba(59,130,246,0.3)"
-                }}
-                className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl text-center transform transition-all duration-300"
+                className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl text-center"
               >
-                <motion.div
-                  whileHover={{ rotate: 360 }}
-                  transition={{ duration: 0.5 }}
-                >
-                  <item.icon className="w-8 h-8 mx-auto mb-4 text-blue-400" />
-                </motion.div>
-                <motion.div 
-                  className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-2"
-                  animate={{ 
-                    backgroundPosition: ['0%', '100%', '0%'],
-                  }}
-                  transition={{
-                    duration: 5,
-                    repeat: Infinity,
-                    ease: "linear"
-                  }}
-                  style={{
-                    backgroundSize: '200% auto'
-                  }}
-                >
+                <item.icon className="w-8 h-8 mx-auto mb-4 text-blue-400" />
+                <div className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-2">
                   {item.value}
-                </motion.div>
+                </div>
                 <h3 className="text-lg font-semibold text-white mb-2">
                   {item.label}
                 </h3>
@@ -157,7 +136,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* 核心功能 */}
-      <section className="py-24 relative">
+      <section className="py-24 relative bg-gradient-to-b from-black to-blue-900/20">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0 }}
@@ -216,40 +195,20 @@ const HomePage: React.FC = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: item.delay }}
-                whileHover={{ 
-                  scale: 1.03,
-                  boxShadow: "0 0 20px rgba(59,130,246,0.3)"
-                }}
-                className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl relative group"
+                className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl"
               >
-                <motion.div
-                  whileHover={{ rotate: 360 }}
-                  transition={{ duration: 0.5 }}
-                >
-                  <item.icon className="w-8 h-8 text-blue-400 mb-6" />
-                </motion.div>
+                <item.icon className="w-8 h-8 text-blue-400 mb-6" />
                 <h3 className="text-2xl font-semibold mb-6 text-white">
                   {item.title}
                 </h3>
                 <ul className="space-y-4">
                   {item.features.map((feature, featureIndex) => (
-                    <motion.li 
-                      key={featureIndex} 
-                      className="flex items-start text-gray-300"
-                      initial={{ opacity: 0, x: -20 }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      transition={{ delay: item.delay + featureIndex * 0.1 }}
-                    >
+                    <li key={featureIndex} className="flex items-start text-gray-300">
                       <Sparkles className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0 mt-1" />
                       <span>{feature}</span>
-                    </motion.li>
+                    </li>
                   ))}
                 </ul>
-                <motion.div
-                  className="absolute inset-0 border-2 border-blue-400/0 rounded-2xl"
-                  whileHover={{ borderColor: "rgba(59,130,246,0.4)" }}
-                  transition={{ duration: 0.3 }}
-                />
               </motion.div>
             ))}
           </div>
@@ -307,29 +266,15 @@ const HomePage: React.FC = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: item.delay }}
-                whileHover={{ 
-                  scale: 1.05,
-                  boxShadow: "0 0 20px rgba(59,130,246,0.3)"
-                }}
-                className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl text-center relative group"
+                className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl text-center"
               >
-                <motion.div
-                  whileHover={{ rotate: 360 }}
-                  transition={{ duration: 0.5 }}
-                >
-                  <item.icon className="w-8 h-8 mx-auto mb-4 text-blue-400" />
-                </motion.div>
+                <item.icon className="w-8 h-8 mx-auto mb-4 text-blue-400" />
                 <h3 className="text-lg font-semibold text-white mb-2">
                   {item.title}
                 </h3>
                 <p className="text-gray-300">
                   {item.description}
                 </p>
-                <motion.div
-                  className="absolute inset-0 border-2 border-blue-400/0 rounded-2xl"
-                  whileHover={{ borderColor: "rgba(59,130,246,0.4)" }}
-                  transition={{ duration: 0.3 }}
-                />
               </motion.div>
             ))}
           </div>
@@ -337,7 +282,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* 用户反馈 */}
-      <section className="py-24 relative">
+      <section className="py-24 relative bg-gradient-to-b from-black to-blue-900/20">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0 }}
@@ -381,11 +326,7 @@ const HomePage: React.FC = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: item.delay }}
-                whileHover={{ 
-                  scale: 1.05,
-                  boxShadow: "0 0 20px rgba(59,130,246,0.3)"
-                }}
-                className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl relative group"
+                className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl"
               >
                 <p className="text-gray-300 mb-8 italic">
                   "{item.content}"
@@ -395,18 +336,8 @@ const HomePage: React.FC = () => {
                     <p className="text-white font-semibold">{item.author}</p>
                     <p className="text-blue-400">{item.school}</p>
                   </div>
-                  <motion.div
-                    whileHover={{ rotate: 360 }}
-                    transition={{ duration: 0.5 }}
-                  >
-                    <Award className="w-6 h-6 text-blue-400" />
-                  </motion.div>
+                  <Award className="w-6 h-6 text-blue-400" />
                 </div>
-                <motion.div
-                  className="absolute inset-0 border-2 border-blue-400/0 rounded-2xl"
-                  whileHover={{ borderColor: "rgba(59,130,246,0.4)" }}
-                  transition={{ duration: 0.3 }}
-                />
               </motion.div>
             ))}
           </div>
@@ -430,6 +361,7 @@ const HomePage: React.FC = () => {
                 立即体验AI驱动的智能留学服务，让申请变得更简单、更高效
               </p>
               <motion.button 
+                onClick={handleTryClick}
                 className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-8 py-4 rounded-full text-lg font-medium relative overflow-hidden group"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
