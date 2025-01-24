@@ -227,7 +227,7 @@ const PricingPage: React.FC = () => {
               {
                 icon: Sparkles,
                 title: '智能化服务',
-                description: '基于GPT-4的AI模型，提供智能文书优化、选校匹配、申请管理等全方位服务',
+                description: '基于前沿的AI大模型，提供智能文书优化、选校匹配、申请管理等全方位服务',
                 delay: 0
               },
               {

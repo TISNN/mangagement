@@ -53,11 +53,15 @@ const HomePage: React.FC = () => {
                 backgroundSize: '200% auto'
               }}
             >
-              让留学申请更智能、更高效
+              让留学申请更加智能高效
             </motion.h1>
             <p className="text-xl text-gray-300 leading-relaxed mb-12">
-              首个整合AI技术的留学服务数字化平台，连接学生、顾问和机构的智能生态系统。
-              通过智能化工具、专业知识库和数字化服务，重新定义留学申请体验。
+              全球首个整合AI技术的留学服务数字化平台，连接学生、顾问和机构的智能生态系统。
+              通过智能化工具、专业知识库和数字化服务，定义留学新范式。
+            </p>
+            <p className="text-xl text-gray-300 leading-relaxed mb-12">
+              不仅仅是工具，而是学习与成长的生态系统。
+              重新定义学习与服务的未来。
             </p>
             <motion.button 
               onClick={handleTryClick}
@@ -77,145 +81,10 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* 核心数据 */}
-      <section className="py-24 relative">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            {[
-              {
-                icon: Target,
-                value: '30%',
-                label: '提升申请成功率',
-                description: '基于10000+真实申请案例',
-                delay: 0
-              },
-              {
-                icon: LineChart,
-                value: '60%',
-                label: '节省文书修改时间',
-                description: '从3小时缩短至1.2小时',
-                delay: 0.1
-              },
-              {
-                icon: Award,
-                value: '98%',
-                label: '用户满意度',
-                description: '来自最新用户调研数据',
-                delay: 0.2
-              },
-              {
-                icon: School,
-                value: '15-20',
-                label: '提升录取学校排名',
-                description: '平均提升名次区间',
-                delay: 0.3
-              }
-            ].map((item, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, delay: item.delay }}
-                className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl text-center"
-              >
-                <item.icon className="w-8 h-8 mx-auto mb-4 text-blue-400" />
-                <div className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-2">
-                  {item.value}
-                </div>
-                <h3 className="text-lg font-semibold text-white mb-2">
-                  {item.label}
-                </h3>
-                <p className="text-sm text-gray-300">
-                  {item.description}
-                </p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
 
-      {/* 核心功能 */}
-      <section className="py-24 relative bg-gradient-to-b from-black to-blue-900/20">
-        <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
-              智能化留学工具
-            </h2>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              基于GPT-4的AI技术，为您提供全方位的留学申请支持
-            </p>
-          </motion.div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                icon: Brain,
-                title: 'AI文书优化系统',
-                features: [
-                  '实时智能修改建议',
-                  '多语言文书润色',
-                  '文书查重对比',
-                  '院校风格匹配度分析'
-                ],
-                delay: 0
-              },
-              {
-                icon: Target,
-                title: '选校选专业AI助手',
-                features: [
-                  '基于大数据的院校匹配',
-                  '专业发展前景分析',
-                  '录取概率预测',
-                  '个性化申请策略制定'
-                ],
-                delay: 0.2
-              },
-              {
-                icon: BookOpen,
-                title: '标准化考试助手',
-                features: [
-                  '智能化学习规划',
-                  '个性化题库推荐',
-                  '成绩提升预测',
-                  '考试技巧指导'
-                ],
-                delay: 0.4
-              }
-            ].map((item, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, delay: item.delay }}
-                className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl"
-              >
-                <item.icon className="w-8 h-8 text-blue-400 mb-6" />
-                <h3 className="text-2xl font-semibold mb-6 text-white">
-                  {item.title}
-                </h3>
-                <ul className="space-y-4">
-                  {item.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="flex items-start text-gray-300">
-                      <Sparkles className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0 mt-1" />
-                      <span>{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
 
-      {/* 服务优势 */}
+
+      {/* 核心价值 */}
       <section className="py-24 relative">
         <div className="container mx-auto px-4">
           <motion.div
@@ -226,62 +95,125 @@ const HomePage: React.FC = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
-              为什么选择我们
+              产品核心价值
             </h2>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              专业的团队、创新的技术、可靠的服务
-            </p>
           </motion.div>
           
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            {[
-              {
-                icon: Users,
-                title: '专业团队',
-                description: '顶尖高校博士和行业专家组成的服务团队',
-                delay: 0
-              },
-              {
-                icon: Rocket,
-                title: '技术创新',
-                description: '基于GPT-4的AI模型，100万+训练样本',
-                delay: 0.1
-              },
-              {
-                icon: Zap,
-                title: '高效服务',
-                description: '文书修改和网申效率提升60-75%',
-                delay: 0.2
-              },
-              {
-                icon: MessageSquare,
-                title: '全程支持',
-                description: '7*24小时在线服务，专业顾问指导',
-                delay: 0.3
-              }
-            ].map((item, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, delay: item.delay }}
-                className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl text-center"
-              >
-                <item.icon className="w-8 h-8 mx-auto mb-4 text-blue-400" />
-                <h3 className="text-lg font-semibold text-white mb-2">
-                  {item.title}
-                </h3>
-                <p className="text-gray-300">
-                  {item.description}
-                </p>
-              </motion.div>
-            ))}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+            {/* 学生的全能助手 */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl"
+            >
+              <Brain className="w-8 h-8 text-blue-400 mb-6" />
+              <h3 className="text-2xl font-semibold mb-6 text-white">
+                学生的全能助手
+              </h3>
+              <ul className="space-y-4">
+                <li className="flex items-start text-gray-300">
+                  <Sparkles className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0 mt-1" />
+                  <span>AI文书优化与推荐：基于领先的AI模型，实时优化文书内容，提供院校与专业推荐</span>
+                </li>
+                <li className="flex items-start text-gray-300">
+                  <Sparkles className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0 mt-1" />
+                  <span>节点式学习与申请规划工具：动态可视化规划，轻松掌控整个申请流程</span>
+                </li>
+                <li className="flex items-start text-gray-300">
+                  <Sparkles className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0 mt-1" />
+                  <span>在线学习课程：从文书写作到科研方法，快速掌握关键技能</span>
+                </li>
+              </ul>
+            </motion.div>
+
+            {/* 留学机构的数字化转型伙伴 */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl"
+            >
+              <Target className="w-8 h-8 text-blue-400 mb-6" />
+              <h3 className="text-2xl font-semibold mb-6 text-white">
+                留学机构的数字化转型伙伴
+              </h3>
+              <ul className="space-y-4">
+                <li className="flex items-start text-gray-300">
+                  <Sparkles className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0 mt-1" />
+                  <span>智能CRM系统：提供从客户管理到数据分析的完整解决方案</span>
+                </li>
+                <li className="flex items-start text-gray-300">
+                  <Sparkles className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0 mt-1" />
+                  <span>自动化流程管理：支持院校推荐、文书批量优化和沟通管理</span>
+                </li>
+                <li className="flex items-start text-gray-300">
+                  <Sparkles className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0 mt-1" />
+                  <span>专业提升课程：帮助留学顾问掌握行业动态和专业技能</span>
+                </li>
+              </ul>
+            </motion.div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* 知识库的构建与售卖 */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl"
+            >
+              <BookOpen className="w-8 h-8 text-blue-400 mb-6" />
+              <h3 className="text-2xl font-semibold mb-6 text-white">
+                知识库的构建与售卖
+              </h3>
+              <ul className="space-y-4">
+                <li className="flex items-start text-gray-300">
+                  <Sparkles className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0 mt-1" />
+                  <span>定制化知识库：创建、发布和管理专业知识，实现知识变现</span>
+                </li>
+                <li className="flex items-start text-gray-300">
+                  <Sparkles className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0 mt-1" />
+                  <span>共享与社群支持：将知识库与留学社群无缝连接</span>
+                </li>
+              </ul>
+            </motion.div>
+
+            {/* 领先的技术基础 */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl"
+            >
+              <Zap className="w-8 h-8 text-blue-400 mb-6" />
+              <h3 className="text-2xl font-semibold mb-6 text-white">
+                领先的技术基础
+              </h3>
+              <ul className="space-y-4">
+                <li className="flex items-start text-gray-300">
+                  <Sparkles className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0 mt-1" />
+                  <span>自研留学AI大模型：结合真实案例与数据，提供精准解决方案</span>
+                </li>
+                <li className="flex items-start text-gray-300">
+                  <Sparkles className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0 mt-1" />
+                  <span>AI对话支持：从灵感探讨到申请细节，全程陪伴，实时答疑</span>
+                </li>
+                <li className="flex items-start text-gray-300">
+                  <Sparkles className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0 mt-1" />
+                  <span>数据可视化：将学习和申请过程数字化、透明化</span>
+                </li>
+              </ul>
+            </motion.div>
           </div>
         </div>
       </section>
 
-      {/* 用户反馈 */}
+      {/* 我们与众不同的地方 */}
       <section className="py-24 relative bg-gradient-to-b from-black to-blue-900/20">
         <div className="container mx-auto px-4">
           <motion.div
@@ -292,54 +224,145 @@ const HomePage: React.FC = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
-              用户反馈
+              我们与众不同的地方
             </h2>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              听听他们怎么说
-            </p>
           </motion.div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                content: '通过AI文书优化系统，我的文书质量得到了显著提升，最终成功申请到了理想的学校。整个过程高效且专业。',
-                author: '张同学',
-                school: '已录取 UCB',
-                delay: 0
-              },
-              {
-                content: 'AI选校助手帮我找到了最适合的学校和专业，录取概率预测非常准确，让申请更有方向。',
-                author: '李同学',
-                school: '已录取 CMU',
-                delay: 0.2
-              },
-              {
-                content: '标准化考试助手的个性化学习计划很实用，配合题库练习，托福成绩提高了15分，非常感谢！',
-                author: '王同学',
-                school: '已录取 Columbia',
-                delay: 0.4
-              }
-            ].map((item, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, delay: item.delay }}
-                className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl"
-              >
-                <p className="text-gray-300 mb-8 italic">
-                  "{item.content}"
-                </p>
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="text-white font-semibold">{item.author}</p>
-                    <p className="text-blue-400">{item.school}</p>
-                  </div>
-                  <Award className="w-6 h-6 text-blue-400" />
-                </div>
-              </motion.div>
-            ))}
+            {/* 超越传统的交互体验 */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl"
+            >
+              <Rocket className="w-8 h-8 text-blue-400 mb-6" />
+              <h3 className="text-2xl font-semibold mb-6 text-white">
+                超越传统的交互体验
+              </h3>
+              <p className="text-gray-300">
+                重新设计交互方式，将复杂任务拆解为动态节点，通过流程图式界面和实时Agent支持，实现学习与服务的全新升级。
+              </p>
+            </motion.div>
+
+            {/* 知识即价值 */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl"
+            >
+              <Award className="w-8 h-8 text-blue-400 mb-6" />
+              <h3 className="text-2xl font-semibold mb-6 text-white">
+                知识即价值
+              </h3>
+              <p className="text-gray-300">
+                通过定制化知识库，将专业知识体系化，支持发布与售卖功能，帮助用户将知识变现。
+              </p>
+            </motion.div>
+
+            {/* 打造超级智能的终极容器 */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl"
+            >
+              <Brain className="w-8 h-8 text-blue-400 mb-6" />
+              <h3 className="text-2xl font-semibold mb-6 text-white">
+                打造超级智能的终极容器
+              </h3>
+              <p className="text-gray-300">
+                学习与服务的未来不止于工具，而是与AI的深度共生。在这里，你将与AI共舞，解锁人机交互的新可能性。
+              </p>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* 商业模式 */}
+      <section className="py-24 relative">
+        <div className="container mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
+              商业模式：用户与机构的双向赋能
+            </h2>
+          </motion.div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* 学生端 */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl"
+            >
+              <Users className="w-8 h-8 text-blue-400 mb-6" />
+              <h3 className="text-2xl font-semibold mb-6 text-white">
+                学生端：灵活的服务体系
+              </h3>
+              <ul className="space-y-4">
+                <li className="flex items-start text-gray-300">
+                  <Sparkles className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0 mt-1" />
+                  <span>免费版：基础文书模板、节点规划工具和社群互动</span>
+                </li>
+                <li className="flex items-start text-gray-300">
+                  <Sparkles className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0 mt-1" />
+                  <span>订阅版：解锁AI文书优化、课程学习、知识库使用等高级功能</span>
+                </li>
+              </ul>
+            </motion.div>
+
+            {/* 机构端 */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl"
+            >
+              <Target className="w-8 h-8 text-blue-400 mb-6" />
+              <h3 className="text-2xl font-semibold mb-6 text-white">
+                机构端：模块化解决方案
+              </h3>
+              <ul className="space-y-4">
+                <li className="flex items-start text-gray-300">
+                  <Sparkles className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0 mt-1" />
+                  <span>按需求提供CRM、自动化流程工具和数据分析功能</span>
+                </li>
+                <li className="flex items-start text-gray-300">
+                  <Sparkles className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0 mt-1" />
+                  <span>提供行业培训与社群活动支持，助力机构保持竞争优势</span>
+                </li>
+              </ul>
+            </motion.div>
+
+            {/* 知识库变现 */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl"
+            >
+              <BookOpen className="w-8 h-8 text-blue-400 mb-6" />
+              <h3 className="text-2xl font-semibold mb-6 text-white">
+                知识库变现
+              </h3>
+              <p className="text-gray-300">
+                支持用户创建、发布与售卖知识库，为专业知识找到更多价值输出的可能。
+              </p>
+            </motion.div>
           </div>
         </div>
       </section>
@@ -355,10 +378,10 @@ const HomePage: React.FC = () => {
               transition={{ duration: 0.8 }}
             >
               <h2 className="text-4xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
-                开启您的留学之旅
+                与AI共舞，定义未来
               </h2>
               <p className="text-xl text-gray-300 mb-12">
-                立即体验AI驱动的智能留学服务，让申请变得更简单、更高效
+                突破界限，让灵感与技术相遇，重新定义学习与服务的未来
               </p>
               <motion.button 
                 onClick={handleTryClick}
