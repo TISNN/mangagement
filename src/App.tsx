@@ -59,56 +59,24 @@ function App() {
   // 其他页面显示完整布局
   return (
     <div className="min-h-screen bg-[#f8fafc] dark:bg-gray-900">
-      {/* 顶部导航 */}
-      <header className="bg-white/80 backdrop-blur-xl border-b border-gray-200 sticky top-0 z-10 dark:bg-gray-800/50 dark:border-gray-700">
-        {/* Logo 部分 */}
-        <div className="px-8 py-4 border-b border-gray-200 dark:border-gray-700">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div className="relative">
-                <GraduationCap className="h-8 w-8 text-blue-600 absolute" style={{ filter: 'blur(8px)' }} />
-                <GraduationCap className="h-8 w-8 text-blue-600 relative" />
-              </div>
-              <div>
-                <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 text-transparent bg-clip-text">Navra.ai</span>
-              </div>
+      {/* 左侧导航栏 */}
+      <header className="fixed left-0 top-0 h-full w-56 bg-white/80 backdrop-blur-xl dark:bg-gray-800/50">
+        {/* Logo */}
+        <div className="h-16 px-6 flex items-center">
+          <div className="flex items-center gap-3">
+            <div className="relative">
+              <GraduationCap className="h-8 w-8 text-blue-600 absolute" style={{ filter: 'blur(8px)' }} />
+              <GraduationCap className="h-8 w-8 text-blue-600 relative" />
             </div>
-            <div className="flex items-center gap-6">
-              <button 
-                onClick={() => setIsDark(!isDark)}
-                className="p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 bg-gray-100 rounded-xl dark:bg-gray-800"
-              >
-                {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
-              </button>
-              <button className="relative p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300">
-                <Bell className="h-5 w-5" />
-                <span className="absolute top-1 right-1 h-2 w-2 bg-red-500 rounded-full"></span>
-              </button>
-              {/* 修改退出按钮样式 */}
-              <button 
-                onClick={() => setCurrentPage('login')} // 修改为正确的页面 key
-                className="p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
-              >
-                <LogOut className="h-5 w-5" />
-              </button>
-              <div className="flex items-center gap-3">
-                <img
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                  alt="Profile"
-                  className="h-9 w-9 rounded-xl object-cover"
-                />
-                <div>
-                  <span className="text-sm font-medium text-gray-700 block dark:text-gray-300">Evan</span>
-                  <span className="text-xs text-gray-500 dark:text-gray-400">超级管理员</span>
-                </div>
-              </div>
-            </div>
+            <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 text-transparent bg-clip-text">
+              Navra.ai
+            </span>
           </div>
         </div>
 
         {/* 导航菜单 */}
-        <div className="px-8 py-2">
-          <nav className="flex items-center gap-2">
+        <div className="py-6 px-4">
+          <nav className="space-y-2">
             {[
               { icon: LayoutGrid, text: '控制台', id: 'dashboard' },
               { icon: Users, text: '学生', id: 'students' },
@@ -129,13 +97,13 @@ function App() {
                 <button
                   key={item.id}
                   onClick={() => setCurrentPage(item.id)}
-                  className={`group flex items-center gap-2 px-4 py-2 rounded-xl text-sm transition-all duration-200 ${
+                  className={`w-full flex items-center gap-3 px-4 py-2.5 rounded-xl text-sm transition-all duration-200 ${
                     isActive 
                       ? 'bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-400' 
                       : 'text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:hover:bg-gray-800/50'
                   }`}
                 >
-                  <item.icon className={`h-5 w-5 ${isActive ? 'text-blue-600 dark:text-blue-400' : ''}`} />
+                  <item.icon className={`h-5 w-5 flex-shrink-0 ${isActive ? 'text-blue-600 dark:text-blue-400' : ''}`} />
                   <span>{item.text}</span>
                 </button>
               );
@@ -144,8 +112,43 @@ function App() {
         </div>
       </header>
 
+      {/* 顶部用户信息栏 */}
+      <div className="fixed top-0 right-0 left-56 h-16 bg-white/80 backdrop-blur-xl dark:bg-gray-800/50 z-10">
+        <div className="flex items-center justify-end h-full px-6">
+          <div className="flex items-center gap-6">
+            <button 
+              onClick={() => setIsDark(!isDark)}
+              className="p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+            >
+              {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+            </button>
+            <button className="relative p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300">
+              <Bell className="h-5 w-5" />
+              <span className="absolute top-1 right-1 h-2 w-2 bg-red-500 rounded-full"></span>
+            </button>
+            <div className="flex items-center gap-3">
+              <img
+                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt="User"
+                className="h-8 w-8 rounded-xl object-cover"
+              />
+              <div>
+                <div className="font-medium dark:text-white">张明</div>
+                <div className="text-xs text-gray-500 dark:text-gray-400">管理员</div>
+              </div>
+            </div>
+            <button 
+              onClick={() => setCurrentPage('login')}
+              className="p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+            >
+              <LogOut className="h-5 w-5" />
+            </button>
+          </div>
+        </div>
+      </div>
+
       {/* 主内容区域 */}
-      <main className="p-8">
+      <main className="pl-72 pt-24 pr-8 pb-8">
         {pages[currentPage]}
       </main>
     </div>
@@ -176,14 +179,7 @@ function DashboardPage() {
             <h1 className="text-2xl font-bold dark:text-white">{getGreeting()}, Evan</h1>
             <p className="text-gray-500 dark:text-gray-400 mt-1">欢迎回到工作台，祝您开启愉快的一天</p>
           </div>
-          <div className="flex gap-4">
-            <button className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded-xl text-sm font-medium transition-colors dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-300">
-              导出报表
-            </button>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl text-sm font-medium transition-colors">
-              添加数据
-            </button>
-          </div>
+  
         </div>
       </div>
 

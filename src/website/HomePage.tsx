@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
-import { Brain, Sparkles, Rocket, Users, LineChart, School, Target, Award, BookOpen, Zap, MessageSquare } from 'lucide-react';
+import { Brain, Sparkles, Rocket, Users, Target, Award, BookOpen, Zap } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const HomePage: React.FC = () => {
@@ -347,7 +347,7 @@ const HomePage: React.FC = () => {
               </ul>
             </motion.div>
 
-            {/* 知识库变现 */}
+            {/* 独立顾问 */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -355,13 +355,20 @@ const HomePage: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl"
             >
-              <BookOpen className="w-8 h-8 text-blue-400 mb-6" />
+              <Users className="w-8 h-8 text-blue-400 mb-6" />
               <h3 className="text-2xl font-semibold mb-6 text-white">
-                知识库变现
+                独立顾问
               </h3>
-              <p className="text-gray-300">
-                支持用户创建、发布与售卖知识库，为专业知识找到更多价值输出的可能。
-              </p>
+              <ul className="space-y-4">
+                <li className="flex items-start text-gray-300">
+                  <Sparkles className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0 mt-1" />
+                  <span>提供专业的AI工具和资源支持，助力顾问提升服务质量</span>
+                </li>
+                <li className="flex items-start text-gray-300">
+                  <Sparkles className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0 mt-1" />
+                  <span>灵活的合作模式，帮助顾问拓展业务范围</span>
+                </li>
+              </ul>
             </motion.div>
           </div>
         </div>
