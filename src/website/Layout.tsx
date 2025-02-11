@@ -25,7 +25,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   };
 
   const handleTryClick = () => {
-    window.location.href = '/admin';
+    window.location.href = '/login';
   };
 
   return (
@@ -41,7 +41,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             {/* Logo */}
             <Link 
               to="/website" 
-              className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent hover:opacity-80 transition-opacity"
+              className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent hover:opacity-80 transition-opacity font-['Orbitron']"
             >
               Infinite.ai
             </Link>

@@ -46,7 +46,7 @@ const LoginPage: React.FC = () => {
                 <GraduationCap className="h-10 w-10 text-blue-600 absolute" style={{ filter: 'blur(8px)' }} />
                 <GraduationCap className="h-10 w-10 text-blue-600 relative" />
               </div>
-              <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 text-transparent bg-clip-text">
+              <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 text-transparent bg-clip-text font-['Orbitron']">
                 Infinite.ai
               </h1>
             </div>

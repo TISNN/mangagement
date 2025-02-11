@@ -19,7 +19,7 @@ const HomePage: React.FC = () => {
   }, []);
 
   const handleTryClick = () => {
-    navigate('/student');
+    navigate('/login');
   };
 
   return (
