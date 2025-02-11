@@ -36,7 +36,7 @@ const HomePage: React.FC = () => {
             className="absolute w-full h-full object-cover"
             style={{ filter: 'brightness(1.0)' }}
           >
-            <source src="/uni.mp4" type="video/mp4" />
+            <source src="/public/uni.mp4" type="video/mp4" />
           </video>
         </div>
         
