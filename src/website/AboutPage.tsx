@@ -51,7 +51,7 @@ const AboutPage: React.FC = () => {
                 className="inline-block mb-6 px-6 py-2 rounded-full bg-white/5 backdrop-blur-lg border border-white/10"
               >
                 <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
-                  Navra.ai
+                  Infinite.ai
                 </h2>
               </motion.div>
               <p className="text-xl text-gray-300 mb-8">
@@ -59,7 +59,7 @@ const AboutPage: React.FC = () => {
               </p>
               <div className="bg-white/5 backdrop-blur-lg border border-white/10 p-12 rounded-2xl">
                 <p className="text-lg text-gray-300 leading-relaxed">
-                  Navra.ai 源自"Navigation"（导航）与"Era"（时代）的创意组合，通过".ai"后缀彰显我们对人工智能技术的专注。
+                  Infinite.ai 源自"Navigation"（导航）与"Era"（时代）的创意组合，通过".ai"后缀彰显我们对人工智能技术的专注。
                   作为一家创新型教育科技公司，我们专注于将前沿AI技术与教育服务深度融合，打造了一个连接学习者、教育工作者和知识的
                   智能生态系统。通过技术创新重新定义学习体验，让教育服务更加智能、高效、个性化。在这里，每个人都能找到属于自己的
                   成长路径。

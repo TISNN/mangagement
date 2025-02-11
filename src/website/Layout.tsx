@@ -43,7 +43,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               to="/website" 
               className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent hover:opacity-80 transition-opacity"
             >
-              Navra.ai
+              Infinite.ai
             </Link>
 
             {/* 导航菜单 - 桌面端 */}
@@ -160,7 +160,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
             {/* 公司信息 */}
             <div>
-              <h3 className="text-lg font-semibold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">关于Navra.ai</h3>
+              <h3 className="text-lg font-semibold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">关于Infinite.ai</h3>
               <p className="text-gray-400 leading-relaxed">
                 AI驱动的留学全周期服务平台，让留学申请更智能、更高效。
               </p>
@@ -240,7 +240,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           </div>
 
           <div className="mt-12 pt-8 border-t border-white/5 text-center text-gray-400">
-            <p>© 2025 Navra.ai. All rights reserved.</p>
+            <p>© 2025 Infinite.ai. All rights reserved.</p>
           </div>
         </div>
       </footer>

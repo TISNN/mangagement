@@ -35,7 +35,7 @@ function LoginPage({ setCurrentPage }: LoginPageProps) {
                 <GraduationCap className="h-10 w-10 text-blue-600 relative" />
               </div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 text-transparent bg-clip-text">
-                Navra.ai
+                Infinite.ai
               </h1>
             </div>
           </div>

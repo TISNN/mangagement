@@ -48,26 +48,23 @@ const HomePage: React.FC = () => {
             className="max-w-4xl mx-auto text-center"
           >
             <motion.h1 
-              className="text-6xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400"
+              className="text-6xl font-bold mb-8 text-white"
               animate={{ 
-                backgroundPosition: ['0%', '100%', '0%'],
+                opacity: [0.8, 1, 0.8],
               }}
               transition={{
                 duration: 10,
                 repeat: Infinity,
                 ease: "linear"
               }}
-              style={{
-                backgroundSize: '200% auto'
-              }}
             >
               让留学申请更加智能高效
             </motion.h1>
-            <p className="text-xl text-gray-300 leading-relaxed mb-12">
+            <p className="text-xl text-white/90 leading-relaxed mb-12">
               全球首个整合AI技术的留学服务数字化平台，连接学生、顾问和机构的智能生态系统。
               通过智能化工具、专业知识库和数字化服务，定义留学新范式。
             </p>
-            <p className="text-xl text-gray-300 leading-relaxed mb-12">
+            <p className="text-xl text-white/80 leading-relaxed mb-12">
               不仅仅是工具，而是学习与成长的生态系统。
               重新定义学习与服务的未来。
             </p>

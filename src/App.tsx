@@ -69,7 +69,7 @@ function App() {
               <GraduationCap className="h-8 w-8 text-blue-600 relative" />
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 text-transparent bg-clip-text">
-              Navra.ai
+              Infinite.ai
             </span>
           </div>
         </div>
