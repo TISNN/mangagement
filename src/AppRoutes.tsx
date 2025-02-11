@@ -14,11 +14,11 @@ import LoginPage from './pages/LoginPage';
 const AppRoutes: React.FC = () => {
   return (
     <Routes>
-      {/* 登录页面路由 */}
-      <Route path="/login" element={<LoginPage />} />
-      
       {/* 官网路由 */}
       <Route path="/website/*" element={<WebsiteRoutes />} />
+      
+      {/* 登录页面路由 */}
+      <Route path="/login" element={<LoginPage />} />
       
       {/* 后台管理系统路由 */}
       <Route path="/admin/*" element={<App />} />
@@ -26,8 +26,8 @@ const AppRoutes: React.FC = () => {
       {/* 学生端路由 */}
       <Route path="/student/*" element={<App />} />
       
-      {/* 默认重定向到登录页面 */}
-      <Route path="/" element={<Navigate to="/login" replace />} />
+      {/* 默认重定向到官网首页 */}
+      <Route path="/" element={<Navigate to="/website" replace />} />
     </Routes>
   );
 };
