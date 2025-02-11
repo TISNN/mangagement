@@ -23,7 +23,7 @@ function ApplicationDetailPage({ setCurrentPage }: ApplicationDetailPageProps) {
       {/* 顶部导航 */}
       <div className="flex justify-between items-center">
         <div>
-          <h1 className="text-2xl font-bold dark:text-white">张明的申请</h1>
+          <h1 className="text-2xl font-bold dark:text-white">Evan的申请</h1>
         </div>
         <div className="flex gap-4">
           <button className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded-xl text-sm font-medium transition-colors dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-300">
@@ -393,7 +393,7 @@ function ApplicationDetailPage({ setCurrentPage }: ApplicationDetailPageProps) {
                     {
                       time: '14:30',
                       action: '提交了雅思成绩单',
-                      user: '张明',
+                      user: 'Evan',
                       type: 'document',
                       detail: 'Overall: 7.0 (L:7.0, R:7.0, W:6.5, S:7.0)'
                     },
@@ -412,7 +412,7 @@ function ApplicationDetailPage({ setCurrentPage }: ApplicationDetailPageProps) {
                     {
                       time: '16:45',
                       action: '上传推荐信',
-                      user: '张明',
+                      user: 'Evan',
                       type: 'document',
                       detail: '上传了来自王教授的学术推荐信'
                     },

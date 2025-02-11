@@ -19,7 +19,7 @@ const HomePage: React.FC = () => {
   }, []);
 
   const handleTryClick = () => {
-    navigate('/admin');
+    navigate('/student');
   };
 
   return (
@@ -36,7 +36,7 @@ const HomePage: React.FC = () => {
             className="absolute w-full h-full object-cover"
             style={{ filter: 'brightness(1.0)' }}
           >
-            <source src="/space.mp4" type="video/mp4" />
+            <source src="/daxue.mp4" type="video/mp4" />
           </video>
         </div>
         

@@ -2,18 +2,32 @@ import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import App from './App';
 import WebsiteRoutes from './website/routes';
+import StudentLayout from './pages/StudentLayout';
+import StudentDashboard from './pages/StudentDashboard';
+import DataAnalytics from './pages/DataAnalytics';
+import MaterialsCenter from './pages/MaterialsCenter';
+import Community from './pages/Community';
+import AIAssistant from './pages/AIAssistant';
+import LearningResources from './pages/LearningResources';
+import LoginPage from './pages/LoginPage';
 
 const AppRoutes: React.FC = () => {
   return (
     <Routes>
+      {/* 登录页面路由 */}
+      <Route path="/login" element={<LoginPage />} />
+      
       {/* 官网路由 */}
       <Route path="/website/*" element={<WebsiteRoutes />} />
       
       {/* 后台管理系统路由 */}
       <Route path="/admin/*" element={<App />} />
       
-      {/* 默认重定向到官网 */}
-      <Route path="/" element={<Navigate to="/website" replace />} />
+      {/* 学生端路由 */}
+      <Route path="/student/*" element={<App />} />
+      
+      {/* 默认重定向到登录页面 */}
+      <Route path="/" element={<Navigate to="/login" replace />} />
     </Routes>
   );
 };

@@ -30,7 +30,7 @@ function ApplicationsPage({ setCurrentPage }: ApplicationsPageProps) {
       <div className="space-y-4">
         {[
           {
-            student: '张明',
+            student: 'Evan',
             avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80',
             school: '伦敦大学学院',
             program: '计算机科学 本科',

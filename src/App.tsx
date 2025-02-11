@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { 
   Users, BookOpen, FileCheck, FolderKanban, 
   BarChart3, Settings, Bell, Search, 
@@ -21,8 +22,9 @@ import ContractsPage from './pages/ContractsPage';
 import SocialMediaPage from './pages/SocialMediaPage'; // 导入社媒运营页面组件
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('login'); // 默认显示登录页面
+  const [currentPage, setCurrentPage] = useState('dashboard'); // 默认显示控制台
   const [isDark, setIsDark] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     if (isDark) {
@@ -31,6 +33,11 @@ function App() {
       document.documentElement.classList.remove('dark');
     }
   }, [isDark]);
+
+  // 如果路径是 /login，不显示管理界面
+  if (location.pathname === '/login') {
+    return null;
+  }
 
   const pages = {
     login: <LoginPage setCurrentPage={setCurrentPage} />,
@@ -133,7 +140,7 @@ function App() {
                 className="h-8 w-8 rounded-xl object-cover"
               />
               <div>
-                <div className="font-medium dark:text-white">张明</div>
+                <div className="font-medium dark:text-white">Evan</div>
                 <div className="text-xs text-gray-500 dark:text-gray-400">管理员</div>
               </div>
             </div>
@@ -372,7 +379,7 @@ function DashboardPage() {
             </div>
             <div className="space-y-4">
               {[
-                { student: '张明', school: '伦敦大学学院', major: '计算机科学', status: '待处理' },
+                { student: 'Evan', school: '伦敦大学学院', major: '计算机科学', status: '待处理' },
                 { student: '李华', school: '多伦多大学', major: '金融经济', status: '材料审核' },
                 { student: '王芳', school: '墨尔本大学', major: '市场营销', status: '面试准备' },
                 { student: '赵伟', school: '新加坡国立大学', major: '工商管理', status: '已录取' },
@@ -411,7 +418,7 @@ function DashboardPage() {
             </div>
             <div className="space-y-4">
               {[
-                { title: '文书修改 - 张明', deadline: '今天 14:00', priority: '高' },
+                { title: '文书修改 - Evan', deadline: '今天 14:00', priority: '高' },
                 { title: '面试辅导 - 李华', deadline: '今天 16:30', priority: '中' },
                 { title: '选校咨询 - 王芳', deadline: '明天 10:00', priority: '中' },
                 { title: '材料整理 - 赵伟', deadline: '明天 15:00', priority: '低' },
@@ -522,7 +529,7 @@ function StudentsPage() {
           <tbody>
             {[
               {
-                name: '张明',
+                name: 'Evan',
                 email: 'zhang.ming@example.com',
                 avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80',
                 project: '本科申请',
@@ -690,7 +697,7 @@ function ApplicationsPage() {
         <div className="p-6 space-y-6">
           {[
             {
-              student: '张明',
+              student: 'Evan',
               avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80',
               school: '伦敦大学学院',
               program: '计算机科学 本科',
@@ -961,7 +968,7 @@ function LeadsPage() {
           <tbody>
             {[
               { 
-                name: '张明',
+                name: 'Evan',
                 source: '官网咨询',
                 project: '英国本科申请',
                 status: '已约访',

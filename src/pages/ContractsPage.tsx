@@ -118,7 +118,7 @@ function ContractsPage() {
               {
                 id: 'CT-2024001',
                 name: '留学申请服务协议',
-                party: '张明',
+                party: 'Evan',
                 amount: '¥15,800',
                 status: '已生效',
                 date: '2024-03-15'

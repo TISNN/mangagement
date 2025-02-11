@@ -1,25 +1,37 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { 
-  Mail, 
   Lock, 
   QrCode,
   User,
   GraduationCap,
   ArrowRight,
-  Navigation
+  Navigation,
+  UserCog,
+  Users
 } from 'lucide-react';
 import './LoginPage.css'; // 添加新的 CSS 文件
 
-interface LoginPageProps {
-  setCurrentPage: (page: string) => void;
-}
-
-function LoginPage({ setCurrentPage }: LoginPageProps) {
+const LoginPage: React.FC = () => {
+  const navigate = useNavigate();
   const [loginMethod, setLoginMethod] = useState<'password' | 'wechat'>('password');
+  const [userRole, setUserRole] = useState<'student' | 'admin'>('student');
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    setCurrentPage('dashboard'); // 登录成功后跳转到控制台
+    setError('');
+
+    // 验证用户名和密码
+    if (userRole === 'admin' && username === 'admin' && password === '123456') {
+      navigate('/admin/dashboard');
+    } else if (userRole === 'student' && username === 'student' && password === '123456') {
+      navigate('/student/dashboard');
+    } else {
+      setError('用户名或密码错误');
+    }
   };
 
   return (
@@ -71,17 +83,47 @@ function LoginPage({ setCurrentPage }: LoginPageProps) {
 
             {loginMethod === 'password' ? (
               // 账号密码登录
-              <form className="space-y-6">
+              <form onSubmit={handleLogin} className="space-y-6">
+                {/* 用户角色选择 */}
+                <div className="flex gap-4 mb-6">
+                  <button
+                    type="button"
+                    onClick={() => setUserRole('student')}
+                    className={`flex-1 flex items-center justify-center gap-2 p-3 rounded-xl border-2 transition-all ${
+                      userRole === 'student'
+                        ? 'border-blue-500 bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:border-blue-400'
+                        : 'border-gray-200 hover:border-gray-300 dark:border-gray-700 dark:hover:border-gray-600'
+                    }`}
+                  >
+                    <Users className="h-5 w-5" />
+                    <span>学生</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setUserRole('admin')}
+                    className={`flex-1 flex items-center justify-center gap-2 p-3 rounded-xl border-2 transition-all ${
+                      userRole === 'admin'
+                        ? 'border-blue-500 bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:border-blue-400'
+                        : 'border-gray-200 hover:border-gray-300 dark:border-gray-700 dark:hover:border-gray-600'
+                    }`}
+                  >
+                    <UserCog className="h-5 w-5" />
+                    <span>管理员</span>
+                  </button>
+                </div>
+
                 <div className="space-y-4">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                      邮箱
+                      用户名
                     </label>
                     <div className="relative">
-                      <Mail className="h-5 w-5 text-gray-400 absolute left-3 top-1/2 -translate-y-1/2" />
+                      <User className="h-5 w-5 text-gray-400 absolute left-3 top-1/2 -translate-y-1/2" />
                       <input
-                        type="email"
-                        placeholder="请输入邮箱"
+                        type="text"
+                        value={username}
+                        onChange={(e) => setUsername(e.target.value)}
+                        placeholder={userRole === 'admin' ? "请输入管理员用户名" : "请输入学生用户名"}
                         className="w-full pl-10 pr-4 py-2 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300"
                       />
                     </div>
@@ -94,12 +136,20 @@ function LoginPage({ setCurrentPage }: LoginPageProps) {
                       <Lock className="h-5 w-5 text-gray-400 absolute left-3 top-1/2 -translate-y-1/2" />
                       <input
                         type="password"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
                         placeholder="请输入密码"
                         className="w-full pl-10 pr-4 py-2 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300"
                       />
                     </div>
                   </div>
                 </div>
+
+                {error && (
+                  <div className="text-red-500 text-sm text-center">
+                    {error}
+                  </div>
+                )}
 
                 <div className="flex items-center justify-between">
                   <label className="flex items-center gap-2">
@@ -116,7 +166,6 @@ function LoginPage({ setCurrentPage }: LoginPageProps) {
 
                 <button
                   type="submit"
-                  onClick={handleLogin}
                   className="w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl text-sm font-medium transition-colors flex items-center justify-center gap-2"
                 >
                   <span>登录</span>
@@ -148,6 +197,36 @@ function LoginPage({ setCurrentPage }: LoginPageProps) {
                   立即注册
                 </button>
               </p>
+            </div>
+          </div>
+
+          {/* 账号密码提示 - 独立的白色背景文本框 */}
+          <div className="mt-6 bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-sm">
+            <div className="flex items-center gap-2 mb-4">
+              <User className="h-5 w-5 text-blue-500" />
+              <h3 className="text-lg font-medium dark:text-white">测试账号</h3>
+            </div>
+            <div className="space-y-4">
+              <div className="p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
+                <div className="flex items-center gap-2 mb-2">
+                  <Users className="h-4 w-4 text-blue-500" />
+                  <p className="text-blue-600 dark:text-blue-400 font-medium">学生账号</p>
+                </div>
+                <div className="space-y-1 ml-6">
+                  <p className="text-gray-600 dark:text-gray-300">用户名：<span className="font-medium">student</span></p>
+                  <p className="text-gray-600 dark:text-gray-300">密码：<span className="font-medium">123456</span></p>
+                </div>
+              </div>
+              <div className="p-4 bg-purple-50 dark:bg-purple-900/20 rounded-lg">
+                <div className="flex items-center gap-2 mb-2">
+                  <UserCog className="h-4 w-4 text-purple-500" />
+                  <p className="text-purple-600 dark:text-purple-400 font-medium">管理员账号</p>
+                </div>
+                <div className="space-y-1 ml-6">
+                  <p className="text-gray-600 dark:text-gray-300">用户名：<span className="font-medium">admin</span></p>
+                  <p className="text-gray-600 dark:text-gray-300">密码：<span className="font-medium">123456</span></p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -213,6 +292,6 @@ function LoginPage({ setCurrentPage }: LoginPageProps) {
       </div>
     </div>
   );
-}
+};
 
 export default LoginPage; 
