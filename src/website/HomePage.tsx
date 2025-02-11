@@ -25,14 +25,22 @@ const HomePage: React.FC = () => {
   return (
     <div className="min-h-screen bg-black text-white relative overflow-hidden">
       {/* Hero Section */}
-      <section className="relative py-32 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-900/20 to-black/95">
-          <div className="absolute inset-0 opacity-30">
-            <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_50%,rgba(0,112,243,0.1),transparent_50%)]"></div>
-          </div>
+      <section className="relative h-screen overflow-hidden">
+        {/* 视频背景 */}
+        <div className="absolute inset-0 w-full h-full flex items-center justify-center overflow-hidden">
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="absolute w-full h-full object-cover"
+            style={{ filter: 'brightness(1.0)' }}
+          >
+            <source src="/space.mp4" type="video/mp4" />
+          </video>
         </div>
         
-        <div className="container mx-auto px-4 relative">
+        <div className="container mx-auto px-4 relative z-20 h-full flex items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -63,20 +71,7 @@ const HomePage: React.FC = () => {
               不仅仅是工具，而是学习与成长的生态系统。
               重新定义学习与服务的未来。
             </p>
-            <motion.button 
-              onClick={handleTryClick}
-              className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-8 py-4 rounded-full text-lg font-medium relative overflow-hidden group"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <span className="relative z-10">免费开始使用</span>
-              <motion.div 
-                className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600"
-                initial={{ x: '100%' }}
-                whileHover={{ x: 0 }}
-                transition={{ duration: 0.3 }}
-              />
-            </motion.button>
+
           </motion.div>
         </div>
       </section>

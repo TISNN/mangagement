@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Infinite</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: black;
+            font-family: 'Orbitron', sans-serif;
+            color: white;
+        }
+
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .content {
+            text-align: center;
+            z-index: 10;
+        }
+
+        .logo {
+            font-size: 5rem;
+            color: rgba(255, 255, 255, 0.9);
+            text-shadow: 0 0 15px rgba(255, 255, 255, 0.7), 0 0 30px rgba(129, 127, 127, 0.6);
+            margin-bottom: 1rem;
+        }
+
+        .text {
+            font-size: 1.5rem;
+            line-height: 2rem;
+            color: rgba(255, 255, 255, 0.8);
+
+        }
+
+        .subtext {
+            margin-top: 1rem;
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <!-- 替换为本地或有效链接 -->
+    <video autoplay muted loop>
+        <source src="space.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <div class="content">
+        <div class="logo">∞ Infinite</div>
+        <div class="text">全球首个整合AI技术的留学服务数字化平台，连接学生、顾问和机构的智能生态系统。<br>
+            <br>
+            定义留学新范式<br>
+            重新定义学习与服务的未来</div>
+        <div class="subtext">// INITIALIZING Infinite V1.0<br>
+            // SELECT ALL FROM INFO_TABLE<br>
+            // WELCOME TO Infinite...</div>
+    </div>
+</body>
+</html>
