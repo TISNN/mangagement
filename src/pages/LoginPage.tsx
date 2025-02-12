@@ -28,7 +28,7 @@ const LoginPage: React.FC = () => {
     if (userRole === 'admin' && username === 'admin' && password === '123456') {
       navigate('/admin/dashboard');
     } else if (userRole === 'student' && username === 'student' && password === '123456') {
-      navigate('/student/dashboard');
+      navigate('/student');
     } else {
       setError('用户名或密码错误');
     }

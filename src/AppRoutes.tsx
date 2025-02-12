@@ -24,7 +24,14 @@ const AppRoutes: React.FC = () => {
       <Route path="/admin/*" element={<App />} />
       
       {/* 学生端路由 */}
-      <Route path="/student/*" element={<App />} />
+      <Route path="/student" element={<StudentLayout />}>
+        <Route index element={<StudentDashboard />} />
+        <Route path="analytics" element={<DataAnalytics />} />
+        <Route path="materials" element={<MaterialsCenter />} />
+        <Route path="community" element={<Community />} />
+        <Route path="ai" element={<AIAssistant />} />
+        <Route path="resources" element={<LearningResources />} />
+      </Route>
       
       {/* 默认重定向到官网首页 */}
       <Route path="/" element={<Navigate to="/website" replace />} />

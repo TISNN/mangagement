@@ -11,7 +11,7 @@ import {
   UserPlus, ChevronLeft, Mail, Phone, MapPin,
   Filter, Plus, MoreVertical,
   Globe, Languages, TrendingUp, Building, Plane,
-  Bot, Brain, LogOut, Share2
+  Bot, Brain, LogOut, Share2, School
 } from 'lucide-react';
 import SettingsPage from './pages/SettingsPage';
 import CaseStudiesPage from './pages/CaseStudiesPage';
@@ -20,6 +20,8 @@ import AIModelPage from './pages/AIModelPage';
 import LoginPage from './pages/LoginPage';
 import ContractsPage from './pages/ContractsPage';
 import SocialMediaPage from './pages/SocialMediaPage'; // 导入社媒运营页面组件
+import SchoolAssistantPage from './pages/SchoolAssistantPage'; // 导入选校助手页面组件
+import ProgramDetailPage from './pages/ProgramDetailPage';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('dashboard'); // 默认显示控制台
@@ -43,6 +45,7 @@ function App() {
     login: <LoginPage setCurrentPage={setCurrentPage} />,
     dashboard: <DashboardPage />,
     students: <StudentsPage />,
+    'school-assistant': <SchoolAssistantPage />,
     projects: <ProjectsPage setCurrentPage={setCurrentPage} />,
     applications: <ApplicationsPage setCurrentPage={setCurrentPage} />,
     applicationDetail: <ApplicationDetailPage setCurrentPage={setCurrentPage} />,
@@ -87,6 +90,7 @@ function App() {
             {[
               { icon: LayoutGrid, text: '控制台', id: 'dashboard' },
               { icon: Users, text: '学生', id: 'students' },
+              { icon: School, text: '选校助手', id: 'school-assistant' },
               { icon: Briefcase, text: '服务项目', id: 'projects' },
               { icon: FileCheck, text: '申请进度', id: 'applications' },
               { icon: MessagesSquare, text: '线索', id: 'leads' },
