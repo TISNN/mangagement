@@ -193,7 +193,7 @@ const AIAssistant: React.FC = () => {
                     <div className="h-6 w-6 rounded-full bg-white" />
                   )}
                 </div>
-                <div className="flex-1 bg-white dark:bg-gray-800 rounded-2xl p-6 text-gray-700 dark:text-gray-300 max-w-3xl shadow-sm border border-gray-100 dark:border-gray-700">
+                <div className="flex-1 bg-white dark:bg-gray-800 rounded-2xl p-6 text-gray-700 dark:text-gray-300 max-w-3xl shadow-sm border border-gray-100 dark:border-gray-700 whitespace-pre-wrap">
                   {message.content}
                 </div>
               </div>

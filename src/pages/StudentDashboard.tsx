@@ -4,22 +4,18 @@ import {
   FileText, 
   MessageSquare, 
   Calendar,
-  Brain,
-  Target,
-  Clock,
   ChevronRight,
   Bell,
   BookOpen,
   PenTool,
   BarChart2,
-  Rocket,
-  Sparkles,
   Globe,
   BookMarked,
   Lightbulb,
   Trophy,
   Users,
-  Timer
+  Timer,
+  Briefcase
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
@@ -48,29 +44,6 @@ const StudentDashboard: React.FC = () => {
               3
             </span>
           </button>
-        </div>
-      </div>
-
-      {/* AI助手快捷入口增强版 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl p-6 text-white">
-          <div className="flex justify-between items-center">
-            <div className="space-y-2">
-              <h2 className="text-xl font-semibold">AI文书助手</h2>
-              <p className="text-white/80">已完成3篇文书优化，点击继续编辑</p>
-            </div>
-            <Brain className="h-12 w-12 text-white/80" />
-          </div>
-        </div>
-        
-        <div className="bg-gradient-to-r from-green-500 to-teal-500 rounded-2xl p-6 text-white">
-          <div className="flex justify-between items-center">
-            <div className="space-y-2">
-              <h2 className="text-xl font-semibold">智能选校推荐</h2>
-              <p className="text-white/80">基于你的背景，为你推荐最适合的院校</p>
-            </div>
-            <Target className="h-12 w-12 text-white/80" />
-          </div>
         </div>
       </div>
 
@@ -292,7 +265,7 @@ const StudentDashboard: React.FC = () => {
               current: '320',
               target: '325',
               date: '2024.03.20',
-              icon: Brain,
+              icon: BookOpen,
               color: 'purple'
             },
             {
@@ -343,7 +316,6 @@ const StudentDashboard: React.FC = () => {
         <div className="bg-white dark:bg-gray-800 rounded-2xl p-6">
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-lg font-semibold dark:text-white">推荐院校</h2>
-            <Sparkles className="h-5 w-5 text-yellow-500" />
           </div>
           <div className="space-y-4">
             {[
@@ -377,7 +349,6 @@ const StudentDashboard: React.FC = () => {
         <div className="bg-white dark:bg-gray-800 rounded-2xl p-6">
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-lg font-semibold dark:text-white">学习建议</h2>
-            <Lightbulb className="h-5 w-5 text-yellow-500" />
           </div>
           <div className="space-y-4">
             {[
@@ -410,6 +381,54 @@ const StudentDashboard: React.FC = () => {
         </div>
       </div>
 
+      {/* 推荐活动 */}
+      <div className="bg-white dark:bg-gray-800 rounded-2xl p-6">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="text-lg font-semibold dark:text-white">推荐活动</h2>
+          <button className="text-sm text-blue-500 hover:text-blue-600 dark:text-blue-400">
+            查看全部
+          </button>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {[
+            {
+              title: '留学申请讲座',
+              date: '12月15日 19:00',
+              desc: '了解2025年申请趋势和策略',
+              icon: Lightbulb,
+              color: 'yellow'
+            },
+            {
+              title: '校友分享会',
+              date: '12月18日 20:00',
+              desc: '哈佛大学校友经验分享',
+              icon: Users,
+              color: 'blue'
+            },
+            {
+              title: '模拟面试训练',
+              date: '12月20日 15:00',
+              desc: '提前适应面试环境和问题',
+              icon: Trophy,
+              color: 'green'
+            }
+          ].map((event, index) => (
+            <div key={index} className="bg-gray-50 dark:bg-gray-700 rounded-xl p-4">
+              <div className="flex items-center justify-between mb-3">
+                <div className="flex items-center gap-2">
+                  <event.icon className={`h-5 w-5 text-${event.color}-500`} />
+                  <h3 className="font-medium dark:text-white">{event.title}</h3>
+                </div>
+                <div className="text-right">
+                  <p className="text-sm text-gray-500 dark:text-gray-400">{event.date}</p>
+                </div>
+              </div>
+              <p className="text-sm text-gray-500 dark:text-gray-400">{event.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
       {/* 快捷功能入口 */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
         {[
@@ -426,6 +445,27 @@ const StudentDashboard: React.FC = () => {
             icon: FileText,
             color: 'purple',
             path: '/student/materials'
+          },
+          {
+            title: '实习库',
+            desc: '实习机会',
+            icon: Briefcase,
+            color: 'indigo',
+            path: '/student/internships'
+          },
+          {
+            title: '我的选校',
+            desc: '选校记录',
+            icon: GraduationCap,
+            color: 'teal',
+            path: '/student/school-selection'
+          },
+          {
+            title: '竞赛库',
+            desc: '学术竞赛',
+            icon: Trophy,
+            color: 'amber',
+            path: '/student/competitions'
           },
           {
             title: '学习资源',

@@ -8,10 +8,12 @@ import {
   BookOpen,
   Settings,
   LogOut,
-  Brain,
   ChevronLeft,
   Bell,
-  Search
+  Search,
+  Briefcase,
+  GraduationCap,
+  Trophy
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -29,12 +31,6 @@ const StudentLayout: React.FC = () => {
       description: '查看学习进度和重要通知'
     },
     {
-      title: 'AI助手',
-      icon: Brain,
-      path: '/student/ai',
-      description: '智能辅导和答疑解惑'
-    },
-    {
       title: '数据分析',
       icon: BarChart2,
       path: '/student/analytics',
@@ -45,6 +41,24 @@ const StudentLayout: React.FC = () => {
       icon: FileText,
       path: '/student/materials',
       description: '管理申请相关材料'
+    },
+    {
+      title: '实习库',
+      icon: Briefcase,
+      path: '/student/internships',
+      description: '浏览实习和内推机会'
+    },
+    {
+      title: '我的选校',
+      icon: GraduationCap,
+      path: '/student/school-selection',
+      description: '管理和追踪选校记录'
+    },
+    {
+      title: '竞赛库',
+      icon: Trophy,
+      path: '/student/competitions',
+      description: '浏览适合参加的学术竞赛'
     },
     {
       title: '社区交流',
