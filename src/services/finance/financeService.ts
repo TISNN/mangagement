@@ -1,158 +1,300 @@
-import { supabase } from '../../supabase';
-import { Transaction, TransactionFilter } from '../../types/finance';
+import { supabase } from '../../lib/supabase';
+import { 
+  Transaction, 
+  TransactionFilter, 
+  TransactionForm,
+  Person,
+  Project,
+  ServiceType,
+  Category,
+  Account
+} from '../../types/finance';
 
-const TRANSACTIONS_TABLE = 'transactions';
+const TRANSACTIONS_TABLE = 'finance_transactions';
 
 export const financeService = {
-  // 获取所有交易记录
+  // 获取所有交易记录（包含关联数据）
   async getAllTransactions(): Promise<Transaction[]> {
-    const { data, error } = await supabase
-      .from(TRANSACTIONS_TABLE)
-      .select('*')
-      .order('created_at', { ascending: false });
-    
-    if (error) {
-      console.error('Error fetching transactions:', error);
+    try {
+      const { data, error } = await supabase
+        .from(TRANSACTIONS_TABLE)
+        .select(`
+          *,
+          person:person_id(*),
+          project:project_id(*),
+          service_type:service_type_id(*),
+          category:category_id(*),
+          account:account_id(*)
+        `)
+        .order('transaction_date', { ascending: false });
+      
+      if (error) {
+        throw error;
+      }
+      
+      return data as Transaction[];
+    } catch (error) {
+      console.error('获取交易记录失败', error);
       throw error;
     }
-    
-    return data || [];
   },
   
   // 根据过滤条件获取交易记录
   async getFilteredTransactions(filter: TransactionFilter): Promise<Transaction[]> {
-    let query = supabase.from(TRANSACTIONS_TABLE).select('*');
-    
-    if (filter.direction) {
-      query = query.eq('direction', filter.direction);
-    }
-    
-    if (filter.month) {
-      query = query.eq('month', filter.month);
-    }
-    
-    if (filter.personName) {
-      query = query.ilike('personName', `%${filter.personName}%`);
-    }
-    
-    if (filter.status) {
-      query = query.eq('status', filter.status);
-    }
-    
-    if (filter.serviceType) {
-      query = query.eq('serviceType', filter.serviceType);
-    }
-    
-    if (filter.startDate && filter.endDate) {
-      query = query.gte('date', filter.startDate).lte('date', filter.endDate);
-    }
-    
-    const { data, error } = await query.order('created_at', { ascending: false });
-    
-    if (error) {
-      console.error('Error fetching filtered transactions:', error);
+    try {
+      let query = supabase
+        .from(TRANSACTIONS_TABLE)
+        .select(`
+          *,
+          person:person_id(*),
+          project:project_id(*),
+          service_type:service_type_id(*),
+          category:category_id(*),
+          account:account_id(*)
+        `);
+      
+      if (filter.direction) {
+        query = query.eq('direction', filter.direction);
+      }
+      
+      if (filter.status) {
+        query = query.eq('status', filter.status);
+      }
+      
+      if (filter.startDate) {
+        query = query.gte('transaction_date', filter.startDate);
+      }
+      
+      if (filter.endDate) {
+        query = query.lte('transaction_date', filter.endDate);
+      }
+      
+      if (filter.categoryId) {
+        query = query.eq('category_id', filter.categoryId);
+      }
+      
+      if (filter.accountId) {
+        query = query.eq('account_id', filter.accountId);
+      }
+      
+      if (filter.personId) {
+        query = query.eq('person_id', filter.personId);
+      }
+      
+      const { data, error } = await query.order('transaction_date', { ascending: false });
+      
+      if (error) {
+        throw error;
+      }
+      
+      return data as Transaction[];
+    } catch (error) {
+      console.error('获取过滤交易记录失败', error);
       throw error;
     }
-    
-    return data || [];
   },
   
   // 添加交易记录
-  async addTransaction(transaction: Omit<Transaction, 'id' | 'created_at'>): Promise<Transaction> {
-    const { data, error } = await supabase
-      .from(TRANSACTIONS_TABLE)
-      .insert([transaction])
-      .select()
-      .single();
-    
-    if (error) {
-      console.error('Error adding transaction:', error);
+  async addTransaction(transaction: TransactionForm): Promise<Transaction> {
+    try {
+      const { data, error } = await supabase
+        .from(TRANSACTIONS_TABLE)
+        .insert([transaction])
+        .select(`
+          *,
+          person:person_id(*),
+          project:project_id(*),
+          service_type:service_type_id(*),
+          category:category_id(*),
+          account:account_id(*)
+        `)
+        .single();
+      
+      if (error) {
+        throw error;
+      }
+      
+      return data as Transaction;
+    } catch (error) {
+      console.error('添加交易记录失败', error);
       throw error;
     }
-    
-    return data;
   },
   
   // 更新交易记录
-  async updateTransaction(id: string, transaction: Partial<Transaction>): Promise<Transaction> {
-    const { data, error } = await supabase
-      .from(TRANSACTIONS_TABLE)
-      .update(transaction)
-      .eq('id', id)
-      .select()
-      .single();
-    
-    if (error) {
-      console.error('Error updating transaction:', error);
+  async updateTransaction(id: number, transaction: Partial<TransactionForm>): Promise<Transaction> {
+    try {
+      const { data, error } = await supabase
+        .from(TRANSACTIONS_TABLE)
+        .update(transaction)
+        .eq('id', id)
+        .select(`
+          *,
+          person:person_id(*),
+          project:project_id(*),
+          service_type:service_type_id(*),
+          category:category_id(*),
+          account:account_id(*)
+        `)
+        .single();
+      
+      if (error) {
+        throw error;
+      }
+      
+      return data as Transaction;
+    } catch (error) {
+      console.error('更新交易记录失败', error);
       throw error;
     }
-    
-    return data;
   },
   
   // 删除交易记录
-  async deleteTransaction(id: string): Promise<void> {
-    const { error } = await supabase
-      .from(TRANSACTIONS_TABLE)
-      .delete()
-      .eq('id', id);
-    
-    if (error) {
-      console.error('Error deleting transaction:', error);
+  async deleteTransaction(id: number): Promise<void> {
+    try {
+      const { error } = await supabase
+        .from(TRANSACTIONS_TABLE)
+        .delete()
+        .eq('id', id);
+      
+      if (error) {
+        throw error;
+      }
+    } catch (error) {
+      console.error('删除交易记录失败', error);
       throw error;
     }
   },
   
-  // 获取财务统计信息
-  async getFinanceSummary() {
-    // 总收入
-    const { data: incomeData, error: incomeError } = await supabase
-      .from(TRANSACTIONS_TABLE)
-      .select('amount')
-      .eq('direction', '收入');
-    
-    // 总支出
-    const { data: expenseData, error: expenseError } = await supabase
-      .from(TRANSACTIONS_TABLE)
-      .select('amount')
-      .eq('direction', '支出');
-    
-    // 当月收入
-    const currentMonth = new Date().toISOString().slice(0, 7); // 格式: YYYY-MM
-    const { data: currentMonthIncomeData, error: currentMonthIncomeError } = await supabase
-      .from(TRANSACTIONS_TABLE)
-      .select('amount')
-      .eq('direction', '收入')
-      .gte('date', `${currentMonth}-01`)
-      .lt('date', `${currentMonth}-31`);
-    
-    // 当月支出
-    const { data: currentMonthExpenseData, error: currentMonthExpenseError } = await supabase
-      .from(TRANSACTIONS_TABLE)
-      .select('amount')
-      .eq('direction', '支出')
-      .gte('date', `${currentMonth}-01`)
-      .lt('date', `${currentMonth}-31`);
-    
-    if (incomeError || expenseError || currentMonthIncomeError || currentMonthExpenseError) {
-      console.error('Error fetching finance summary', { 
-        incomeError, expenseError, currentMonthIncomeError, currentMonthExpenseError 
+  // 获取财务仪表盘数据
+  async getDashboardData() {
+    try {
+      const transactions = await this.getAllTransactions();
+      
+      // 收入交易
+      const incomeTransactions = transactions.filter(t => t.direction === '收入');
+      // 支出交易
+      const expenseTransactions = transactions.filter(t => t.direction === '支出');
+      
+      // 总收入
+      const totalIncome = incomeTransactions.reduce((sum, t) => sum + t.amount, 0);
+      // 总支出
+      const totalExpense = expenseTransactions.reduce((sum, t) => sum + t.amount, 0);
+      // 净余额
+      const balance = totalIncome - totalExpense;
+      
+      // 获取当前月份数据
+      const now = new Date();
+      const currentMonth = now.getMonth();
+      const currentYear = now.getFullYear();
+      
+      const currentMonthTransactions = transactions.filter(t => {
+        const date = new Date(t.transaction_date);
+        return date.getMonth() === currentMonth && date.getFullYear() === currentYear;
       });
-      throw new Error('获取财务统计信息失败');
+      
+      const monthlyIncome = currentMonthTransactions
+        .filter(t => t.direction === '收入')
+        .reduce((sum, t) => sum + t.amount, 0);
+        
+      const monthlyExpense = currentMonthTransactions
+        .filter(t => t.direction === '支出')
+        .reduce((sum, t) => sum + t.amount, 0);
+      
+      // 获取过去6个月的月度数据
+      const monthlyData = [];
+      
+      for (let i = 0; i < 6; i++) {
+        const date = new Date();
+        date.setMonth(date.getMonth() - i);
+        
+        const year = date.getFullYear();
+        const month = date.getMonth();
+        
+        const monthTransactions = transactions.filter(t => {
+          const tDate = new Date(t.transaction_date);
+          return tDate.getMonth() === month && tDate.getFullYear() === year;
+        });
+        
+        const income = monthTransactions
+          .filter(t => t.direction === '收入')
+          .reduce((sum, t) => sum + t.amount, 0);
+          
+        const expense = monthTransactions
+          .filter(t => t.direction === '支出')
+          .reduce((sum, t) => sum + t.amount, 0);
+        
+        monthlyData.push({
+          month: `${year}-${month + 1}`,
+          income,
+          expense,
+          profit: income - expense
+        });
+      }
+      
+      return {
+        totalIncome,
+        totalExpense,
+        balance,
+        monthlyIncome,
+        monthlyExpense,
+        monthlyData: monthlyData.reverse()
+      };
+    } catch (error) {
+      console.error('获取财务仪表盘数据失败', error);
+      throw error;
     }
-    
-    const totalIncome = incomeData?.reduce((sum, record) => sum + record.amount, 0) || 0;
-    const totalExpense = expenseData?.reduce((sum, record) => sum + record.amount, 0) || 0;
-    const monthlyIncome = currentMonthIncomeData?.reduce((sum, record) => sum + record.amount, 0) || 0;
-    const monthlyExpense = currentMonthExpenseData?.reduce((sum, record) => sum + record.amount, 0) || 0;
-    
-    return {
-      totalIncome,
-      totalExpense,
-      balance: totalIncome - totalExpense,
-      monthlyIncome,
-      monthlyExpense
-    };
+  },
+  
+  // 获取所有关联数据（分类、账户、人员、项目、服务类型）
+  async getRelatedData() {
+    try {
+      // 获取分类
+      const { data: categories, error: categoriesError } = await supabase
+        .from('finance_categories')
+        .select('*');
+        
+      if (categoriesError) throw categoriesError;
+      
+      // 获取账户
+      const { data: accounts, error: accountsError } = await supabase
+        .from('finance_accounts')
+        .select('*');
+        
+      if (accountsError) throw accountsError;
+      
+      // 获取人员
+      const { data: people, error: peopleError } = await supabase
+        .from('people')
+        .select('*');
+        
+      if (peopleError) throw peopleError;
+      
+      // 获取项目
+      const { data: projects, error: projectsError } = await supabase
+        .from('projects')
+        .select('*');
+        
+      if (projectsError) throw projectsError;
+      
+      // 获取服务类型
+      const { data: serviceTypes, error: serviceTypesError } = await supabase
+        .from('finance_service_types')
+        .select('*');
+        
+      if (serviceTypesError) throw serviceTypesError;
+      
+      return {
+        categories: categories as Category[],
+        accounts: accounts as Account[],
+        people: people as Person[],
+        projects: projects as Project[],
+        serviceTypes: serviceTypes as ServiceType[]
+      };
+    } catch (error) {
+      console.error('获取关联数据失败', error);
+      throw error;
+    }
   }
 };
 

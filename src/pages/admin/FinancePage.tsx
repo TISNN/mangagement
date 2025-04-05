@@ -1,187 +1,270 @@
-import React, { useState } from "react";
+// 新的FinancePage文件
+import React, { useState, useEffect } from "react";
 import { 
   DollarSign, 
   TrendingUp, 
   Search, 
   Filter, 
-  Calendar, 
   Plus, 
   FileText, 
-  Download,
-  ChevronDown,
-  Users,
   ArrowDownCircle,
   ArrowUpCircle,
   Clock,
-  CheckCircle,
-  XCircle
+  Upload
 } from "lucide-react";
+import { supabase } from "../../supabase";
+import {
+  Transaction,
+  TransactionForm,
+  Person,
+  Project,
+  ServiceType,
+  Category,
+  Account,
+  TransactionStatus,
+  TransactionDirection
+} from "../../types/finance";
+import financeService from "../../services/finance/financeService";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "../../components/ui/dialog";
+import { Input } from "../../components/ui/input";
+import { Label } from "../../components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "../../components/ui/select";
+import { toast } from "../../components/ui/use-toast";
+import ExcelImporter from "../../components/finance/ExcelImporter";
 
-interface Transaction {
-  id: string;
-  personName: string;
-  project: string;
-  serviceType: "留学咨询" | "留学申请" | "语言培训" | "职场规划" | "日常支出" | "其他服务";
-  amount: number;
-  direction: "收入" | "支出";
-  status: "已完成" | "待收款" | "待支付" | "已取消";
-  category: string;
-  date: string;
-  account: string;
-  month: string;
-}
+// 添加Supabase连接测试组件
+const SupabaseConnectionTest = () => {
+  const [connectionStatus, setConnectionStatus] = useState<string>('测试中...');
+  const [error, setError] = useState<string | null>(null);
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    async function testConnection() {
+      try {
+        // 尝试连接Supabase并获取数据
+        const { count, error } = await supabase
+          .from('finance_transactions')
+          .select('*', { count: 'exact', head: true }); 
+
+        if (error) {
+          console.error('Supabase连接错误:', error);
+          setConnectionStatus('连接失败');
+          setError(error.message);
+        } else {
+          console.log('Supabase连接成功:', count);
+          setConnectionStatus('连接成功!');
+        }
+      } catch (err) {
+        console.error('测试连接时发生异常:', err);
+        setConnectionStatus('连接发生异常');
+        setError(err instanceof Error ? err.message : String(err));
+      }
+    }
+
+    testConnection();
+  }, []);
+
+  if (!isVisible) return null;
+
+  return (
+    <div style={{ 
+      marginBottom: '20px', 
+      padding: '15px', 
+      border: '1px solid #ccc', 
+      borderRadius: '8px', 
+      position: 'relative' 
+    }}>
+      <button 
+        onClick={() => setIsVisible(false)} 
+        style={{ 
+          position: 'absolute', 
+          right: '10px', 
+          top: '10px',
+          background: 'none',
+          border: 'none',
+          cursor: 'pointer',
+          fontSize: '16px'
+        }}
+      >
+        ×
+      </button>
+      <h3 style={{ marginTop: 0 }}>Supabase 连接状态</h3>
+      <div style={{ 
+        padding: '10px', 
+        borderRadius: '4px', 
+        backgroundColor: connectionStatus.includes('成功') ? '#d1fae5' : '#fee2e2',
+        color: connectionStatus.includes('成功') ? '#065f46' : '#7f1d1d'
+      }}>
+        {connectionStatus}
+      </div>
+      {error && (
+        <div style={{ marginTop: '10px' }}>
+          <h4>错误信息:</h4>
+          <pre style={{ 
+            padding: '10px', 
+            backgroundColor: '#f3f4f6', 
+            borderRadius: '4px',
+            overflow: 'auto',
+            fontSize: '12px'
+          }}>
+            {error}
+          </pre>
+        </div>
+      )}
+    </div>
+  );
+};
 
 const FinancePage: React.FC = () => {
   const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] = useState(false);
+  const [isImportModalOpen, setIsImportModalOpen] = useState(false);
   const [currentTab, setCurrentTab] = useState("all");
-  const [transactions, setTransactions] = useState<Transaction[]>([
-    {
-      id: "1",
-      personName: "李润泽",
-      project: "意大利临床医学本科",
-      serviceType: "留学申请",
-      amount: 23000,
-      direction: "收入",
-      status: "已完成",
-      category: "学费付款",
-      date: "2024年1月1日",
-      account: "银行账户",
-      month: "一月"
-    },
-    {
-      id: "2",
-      personName: "段星宇",
-      project: "澳城保录设计学硕士 定金",
-      serviceType: "留学申请",
-      amount: 10000,
-      direction: "收入",
-      status: "待收款",
-      category: "定金",
-      date: "2024年3月23日",
-      account: "银行账户",
-      month: "三月"
-    },
-    {
-      id: "3",
-      personName: "小而美财税",
-      project: "企业代账费用",
-      serviceType: "日常支出",
-      amount: 2200,
-      direction: "支出",
-      status: "已完成",
-      category: "企业服务",
-      date: "2024年3月23日",
-      account: "微信/支付宝",
-      month: "三月"
-    },
-    {
-      id: "4",
-      personName: "小而美财税",
-      project: "营业执照闪送",
-      serviceType: "日常支出",
-      amount: 66,
-      direction: "支出",
-      status: "已完成",
-      category: "快递费用",
-      date: "2024年3月23日",
-      account: "微信/支付宝",
-      month: "三月"
-    },
-    {
-      id: "5",
-      personName: "美际",
-      project: "澳城保录设计学硕士 定金",
-      serviceType: "留学申请",
-      amount: 5000,
-      direction: "支出",
-      status: "待支付",
-      category: "渠道费用",
-      date: "2024年3月23日",
-      account: "银行账户",
-      month: "三月"
-    }
-  ]);
-  
-  const [newTransaction, setNewTransaction] = useState<Partial<Transaction>>({
-    serviceType: "留学申请",
-    direction: "收入",
-    status: "已完成",
-    category: "学费付款",
-    date: new Date().toISOString().split("T")[0],
-    month: getCurrentChineseMonth()
+  const [transactions, setTransactions] = useState<Transaction[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [financeSummary, setFinanceSummary] = useState({
+    totalIncome: 0,
+    totalExpense: 0,
+    balance: 0,
+    monthlyIncome: 0,
+    monthlyExpense: 0
   });
   
-  function getCurrentChineseMonth() {
-    const months = ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"];
-    const currentMonth = new Date().getMonth();
-    return months[currentMonth];
-  }
+  // 关联表数据
+  const [people, setPeople] = useState<Person[]>([]);
+  const [projects, setProjects] = useState<Project[]>([]);
+  const [serviceTypes, setServiceTypes] = useState<ServiceType[]>([]);
+  const [categories, setCategories] = useState<Category[]>([]);
+  const [accounts, setAccounts] = useState<Account[]>([]);
   
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setNewTransaction({
-      ...newTransaction,
-      [name]: value
-    });
+  // 交易表单
+  const [newTransaction, setNewTransaction] = useState<Partial<TransactionForm>>({
+    direction: "收入" as TransactionDirection,
+    status: "待支付" as TransactionStatus,
+    amount: 0,
+    transaction_date: new Date().toISOString().split('T')[0],
+  });
+  
+  // 刷新交易数据
+  const fetchTransactions = async () => {
+    try {
+      setIsLoading(true);
+      const transactions = await financeService.getAllTransactions();
+      setTransactions(transactions);
+      const summary = await financeService.getDashboardData();
+      setFinanceSummary(summary);
+      setIsLoading(false);
+    } catch (error) {
+      console.error('获取交易数据失败', error);
+      setIsLoading(false);
+    }
   };
   
-  const handleDirectionChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const direction = e.target.value as "收入" | "支出";
-    setNewTransaction({
-      ...newTransaction,
-      direction: direction,
-      serviceType: direction === "收入" ? "留学申请" : "日常支出",
-      status: direction === "收入" ? "待收款" : "待支付"
-    });
-  };
+  // 加载所有数据
+  useEffect(() => {
+    async function loadData() {
+      try {
+        setIsLoading(true);
+        
+        // 并行加载交易记录和关联数据
+        const [transactions, summary, relatedData] = await Promise.all([
+          financeService.getAllTransactions(),
+          financeService.getDashboardData(),
+          financeService.getRelatedData()
+        ]);
+        
+        setTransactions(transactions);
+        setFinanceSummary(summary);
+        
+        // 设置关联表数据
+        setPeople(relatedData.people);
+        setProjects(relatedData.projects);
+        setServiceTypes(relatedData.serviceTypes);
+        setCategories(relatedData.categories);
+        setAccounts(relatedData.accounts);
+        
+        // 如果有关联数据，设置默认选项
+        if (relatedData.serviceTypes.length > 0) {
+          setNewTransaction(prev => ({
+            ...prev,
+            service_type_id: relatedData.serviceTypes[0].id
+          }));
+        }
+        
+        if (relatedData.categories.length > 0) {
+          setNewTransaction(prev => ({
+            ...prev,
+            category_id: relatedData.categories[0].id
+          }));
+        }
+        
+        if (relatedData.accounts.length > 0) {
+          setNewTransaction(prev => ({
+            ...prev,
+            account_id: relatedData.accounts[0].id
+          }));
+        }
+        
+        setIsLoading(false);
+      } catch (error) {
+        console.error('加载数据失败', error);
+        setIsLoading(false);
+      }
+    }
+    
+    loadData();
+  }, []);
   
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    const newEntry: Transaction = {
-      id: Date.now().toString(),
-      personName: newTransaction.personName || "",
-      project: newTransaction.project || "",
-      serviceType: newTransaction.serviceType || "留学申请",
-      amount: Number(newTransaction.amount) || 0,
-      direction: newTransaction.direction || "收入",
-      status: newTransaction.status || "已完成",
-      category: newTransaction.category || "学费付款",
-      date: newTransaction.date || new Date().toISOString().split("T")[0],
-      account: newTransaction.account || "",
-      month: newTransaction.month || getCurrentChineseMonth()
-    };
-    
-    setTransactions([newEntry, ...transactions]);
+  // 处理添加交易
+  const handleAddTransaction = async () => {
+    try {
+      await financeService.addTransaction(newTransaction as TransactionForm);
+      
+      // 重新加载交易记录
+      const transactions = await financeService.getAllTransactions();
+      setTransactions(transactions);
+      
+      // 更新财务概览
+      const summary = await financeService.getDashboardData();
+      setFinanceSummary(summary);
+      
+      // 清空表单并关闭弹窗
+      setIsNewTransactionModalOpen(false);
     setNewTransaction({
-      serviceType: "留学申请",
-      direction: "收入",
-      status: "已完成",
-      category: "学费付款",
-      date: new Date().toISOString().split("T")[0],
-      month: getCurrentChineseMonth()
-    });
-    setIsNewTransactionModalOpen(false);
+        direction: "收入" as TransactionDirection,
+        status: "待支付" as TransactionStatus,
+        amount: 0,
+        transaction_date: new Date().toISOString().split('T')[0],
+        category_id: categories[0]?.id,
+        account_id: accounts[0]?.id,
+        service_type_id: serviceTypes[0]?.id
+      });
+      
+      // 显示成功消息
+      toast.success("交易记录已成功添加");
+    } catch (error) {
+      console.error('添加交易失败', error);
+      toast.error("添加交易记录时出错");
+    }
   };
-  
-  const totalCredit = transactions
-    .filter(t => t.direction === "收入")
-    .reduce((sum, t) => sum + t.amount, 0);
-    
-  const totalDebit = transactions
-    .filter(t => t.direction === "支出")
-    .reduce((sum, t) => sum + t.amount, 0);
-    
-  const balance = totalCredit - totalDebit;
-
-  const filteredTransactions = currentTab === "all" 
-    ? transactions
-    : currentTab === "income" 
-      ? transactions.filter(t => t.direction === "收入") 
-      : transactions.filter(t => t.direction === "支出");
   
   return (
     <div className="space-y-6">
+      {/* 添加Supabase连接测试组件 */}
+      <SupabaseConnectionTest />
+      
       {/* 页面标题和操作按钮 */}
       <div className="flex justify-between items-center">
         <h1 className="text-2xl font-bold text-gray-900 dark:text-white">财务管理</h1>
@@ -197,6 +280,14 @@ const FinancePage: React.FC = () => {
           <button className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded-xl text-sm font-medium transition-colors dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-300">
             <Filter className="h-4 w-4" />
           </button>
+          {/* 添加Excel导入按钮 */}
+          <button
+            onClick={() => setIsImportModalOpen(true)}
+            className="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-xl text-sm font-medium transition-colors"
+          >
+            <Upload className="h-4 w-4" />
+            批量导入
+          </button>
           <button
             onClick={() => setIsNewTransactionModalOpen(true)}
             className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl text-sm font-medium transition-colors"
@@ -207,426 +298,487 @@ const FinancePage: React.FC = () => {
         </div>
       </div>
       
-      {/* 财务概览 */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-sm">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="p-2 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
-              <ArrowDownCircle className="h-5 w-5 text-blue-600 dark:text-blue-400" />
+      {/* 财务概览卡片 */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mt-6">
+        <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm">
+          <div className="flex justify-between items-start">
+            <div>
+              <p className="text-sm font-medium text-gray-500 dark:text-gray-400">总收入</p>
+              <h3 className="text-2xl font-bold text-green-600 dark:text-green-500 mt-1">
+                ¥{financeSummary.totalIncome.toLocaleString()}
+              </h3>
             </div>
-            <h3 className="text-sm text-gray-500 dark:text-gray-400">总收入</h3>
+            <div className="bg-green-100 dark:bg-green-900 p-3 rounded-lg">
+              <TrendingUp className="text-green-600 dark:text-green-500" />
+            </div>
           </div>
-          <p className="text-2xl font-bold text-gray-900 dark:text-white">{totalCredit.toLocaleString()} 元</p>
-          <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">本月新增收入 33,000 元</p>
+          <div className="mt-4">
+            <p className="text-sm text-gray-500 dark:text-gray-400">本月: ¥{financeSummary.monthlyIncome.toLocaleString()}</p>
+          </div>
         </div>
         
-        <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-sm">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="p-2 bg-red-50 dark:bg-red-900/20 rounded-xl">
-              <ArrowUpCircle className="h-5 w-5 text-red-600 dark:text-red-400" />
+        <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm">
+          <div className="flex justify-between items-start">
+            <div>
+              <p className="text-sm font-medium text-gray-500 dark:text-gray-400">总支出</p>
+              <h3 className="text-2xl font-bold text-red-500 dark:text-red-400 mt-1">
+                ¥{financeSummary.totalExpense.toLocaleString()}
+              </h3>
             </div>
-            <h3 className="text-sm text-gray-500 dark:text-gray-400">总支出</h3>
+            <div className="bg-red-100 dark:bg-red-900 p-3 rounded-lg">
+              <TrendingUp className="text-red-500 dark:text-red-400" />
+            </div>
           </div>
-          <p className="text-2xl font-bold text-gray-900 dark:text-white">{totalDebit.toLocaleString()} 元</p>
-          <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">本月新增支出 7,266 元</p>
+          <div className="mt-4">
+            <p className="text-sm text-gray-500 dark:text-gray-400">本月: ¥{financeSummary.monthlyExpense.toLocaleString()}</p>
+          </div>
         </div>
         
-        <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-sm">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="p-2 bg-green-50 dark:bg-green-900/20 rounded-xl">
-              <TrendingUp className="h-5 w-5 text-green-600 dark:text-green-400" />
+        <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm">
+          <div className="flex justify-between items-start">
+            <div>
+              <p className="text-sm font-medium text-gray-500 dark:text-gray-400">净余额</p>
+              <h3 className={`text-2xl font-bold mt-1 ${
+                financeSummary.balance >= 0 ? 'text-blue-600 dark:text-blue-500' : 'text-red-500 dark:text-red-400'
+              }`}>
+                ¥{financeSummary.balance.toLocaleString()}
+              </h3>
             </div>
-            <h3 className="text-sm text-gray-500 dark:text-gray-400">净收益</h3>
+            <div className="bg-blue-100 dark:bg-blue-900 p-3 rounded-lg">
+              <DollarSign className="text-blue-600 dark:text-blue-500" />
+            </div>
           </div>
-          <p className="text-2xl font-bold text-gray-900 dark:text-white">{balance.toLocaleString()} 元</p>
-          <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">比上月增长 23.5%</p>
+          <div className="mt-4">
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              月度收支: ¥{(financeSummary.monthlyIncome - financeSummary.monthlyExpense).toLocaleString()}
+            </p>
+          </div>
+        </div>
+        
+        <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm">
+          <div className="flex justify-between items-start">
+            <div>
+              <p className="text-sm font-medium text-gray-500 dark:text-gray-400">总交易数</p>
+              <h3 className="text-2xl font-bold text-purple-600 dark:text-purple-500 mt-1">
+                {transactions.length}
+              </h3>
+            </div>
+            <div className="bg-purple-100 dark:bg-purple-900 p-3 rounded-lg">
+              <FileText className="text-purple-600 dark:text-purple-500" />
         </div>
       </div>
-      
-      {/* 交易记录 */}
-      <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-sm overflow-hidden">
-        <div className="p-6 border-b border-gray-100 dark:border-gray-700 flex justify-between items-center">
-          <div className="flex items-center gap-4">
-            {[
-              { id: 'all', name: '全部交易' },
-              { id: 'income', name: '收入记录' },
-              { id: 'expense', name: '支出记录' }
-            ].map((tab) => (
-              <button
-                key={tab.id}
-                onClick={() => setCurrentTab(tab.id)}
-                className={`px-4 py-2 rounded-xl text-sm font-medium transition-colors ${
-                  currentTab === tab.id
-                    ? 'bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-400'
-                    : 'text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300'
-                }`}
-              >
-                {tab.name}
-              </button>
-            ))}
+          <div className="mt-4">
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              {transactions.filter(t => {
+                const date = new Date(t.transaction_date);
+                const now = new Date();
+                return date.getMonth() === now.getMonth() && date.getFullYear() === now.getFullYear();
+              }).length} 条本月交易
+            </p>
+          </div>
           </div>
           
-          <div className="flex gap-3">
-            <div className="flex items-center gap-2 px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-xl">
-              <Calendar className="h-4 w-4 text-gray-500 dark:text-gray-400" />
-              <select className="bg-transparent text-sm text-gray-500 dark:text-gray-400 focus:outline-none">
-                <option value="">所有月份</option>
-                <option value="一月">一月</option>
-                <option value="二月">二月</option>
-                <option value="三月">三月</option>
-              </select>
-              <ChevronDown className="h-4 w-4 text-gray-500 dark:text-gray-400" />
+        <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm">
+          <div className="flex justify-between items-start">
+            <div>
+              <p className="text-sm font-medium text-gray-500 dark:text-gray-400">待处理交易</p>
+              <h3 className="text-2xl font-bold text-yellow-600 dark:text-yellow-500 mt-1">
+                {transactions.filter(t => t.status === '待支付').length}
+              </h3>
             </div>
-            
-            <div className="flex items-center gap-2 px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-xl">
-              <Users className="h-4 w-4 text-gray-500 dark:text-gray-400" />
-              <select className="bg-transparent text-sm text-gray-500 dark:text-gray-400 focus:outline-none">
-                <option value="">所有人员</option>
-                <option>李润泽</option>
-                <option>段星宇</option>
-                <option>小而美财税</option>
-                <option>美际</option>
-              </select>
-              <ChevronDown className="h-4 w-4 text-gray-500 dark:text-gray-400" />
+            <div className="bg-yellow-100 dark:bg-yellow-900 p-3 rounded-lg">
+              <Clock className="text-yellow-600 dark:text-yellow-500" />
             </div>
-            
-            <button className="flex items-center gap-2 px-4 py-2 bg-gray-50 dark:bg-gray-700 rounded-xl text-sm text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-600">
-              <Download className="h-4 w-4" />
-              导出
-            </button>
+          </div>
+          <div className="mt-4">
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              {transactions.filter(t => t.status === '已完成').length} 条已完成交易
+            </p>
           </div>
         </div>
+            </div>
+            
+      {/* 交易记录选项卡 */}
+      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm mt-6">
+        <div className="border-b border-gray-200 dark:border-gray-700">
+          <nav className="flex space-x-8 px-6" aria-label="Tabs">
+            <button
+              onClick={() => setCurrentTab("all")}
+              className={`py-4 px-1 inline-flex items-center border-b-2 font-medium text-sm ${
+                currentTab === "all"
+                  ? "border-blue-500 text-blue-600 dark:text-blue-500"
+                  : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-200 dark:text-gray-400 dark:hover:text-gray-300"
+              }`}
+            >
+              全部交易
+            </button>
+            <button
+              onClick={() => setCurrentTab("income")}
+              className={`py-4 px-1 inline-flex items-center border-b-2 font-medium text-sm ${
+                currentTab === "income"
+                  ? "border-green-500 text-green-600 dark:text-green-500"
+                  : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-200 dark:text-gray-400 dark:hover:text-gray-300"
+              }`}
+            >
+              <ArrowUpCircle className="mr-2 h-4 w-4" />
+              收入
+            </button>
+            <button
+              onClick={() => setCurrentTab("expense")}
+              className={`py-4 px-1 inline-flex items-center border-b-2 font-medium text-sm ${
+                currentTab === "expense"
+                  ? "border-red-500 text-red-600 dark:text-red-500"
+                  : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-200 dark:text-gray-400 dark:hover:text-gray-300"
+              }`}
+            >
+              <ArrowDownCircle className="mr-2 h-4 w-4" />
+              支出
+            </button>
+            <button
+              onClick={() => setCurrentTab("pending")}
+              className={`py-4 px-1 inline-flex items-center border-b-2 font-medium text-sm ${
+                currentTab === "pending"
+                  ? "border-yellow-500 text-yellow-600 dark:text-yellow-500"
+                  : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-200 dark:text-gray-400 dark:hover:text-gray-300"
+              }`}
+            >
+              <Clock className="mr-2 h-4 w-4" />
+              待处理
+            </button>
+          </nav>
+        </div>
         
-        <table className="w-full">
-          <thead>
-            <tr className="border-b border-gray-100 dark:border-gray-700 bg-gray-50 dark:bg-gray-800">
-              <th className="text-left py-4 px-6 text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">人员</th>
-              <th className="text-left py-4 px-6 text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">项目</th>
-              <th className="text-left py-4 px-6 text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">服务类型</th>
-              <th className="text-left py-4 px-6 text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">金额</th>
-              <th className="text-left py-4 px-6 text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">类别</th>
-              <th className="text-left py-4 px-6 text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">状态</th>
-              <th className="text-left py-4 px-6 text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">分类</th>
-              <th className="text-left py-4 px-6 text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">日期</th>
-              <th className="text-left py-4 px-6 text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">账户</th>
-              <th className="text-left py-4 px-6 text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">操作</th>
+        <div className="p-6">
+          {isLoading ? (
+            <div className="flex justify-center items-center h-64">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 dark:border-gray-100"></div>
+            </div>
+          ) : (
+            <div className="overflow-x-auto">
+              <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                <thead className="bg-gray-50 dark:bg-gray-800">
+                  <tr>
+                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-400">
+                      日期
+                    </th>
+                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-400">
+                      分类
+                    </th>
+                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-400">
+                      金额
+                    </th>
+                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-400">
+                      状态
+                    </th>
+                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-400">
+                      人员
+                    </th>
+                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-400">
+                      项目
+                    </th>
+                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-400">
+                      服务类型
+                    </th>
+                    <th scope="col" className="relative px-6 py-3">
+                      <span className="sr-only">操作</span>
+                    </th>
             </tr>
           </thead>
-          <tbody>
-            {filteredTransactions.map((transaction) => (
-              <tr key={transaction.id} className="border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-750">
-                <td className="py-4 px-6 text-sm font-medium text-gray-900 dark:text-white">
-                  {transaction.personName}
+                <tbody className="bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700">
+                  {transactions
+                    .filter(transaction => {
+                      if (currentTab === "all") return true;
+                      if (currentTab === "income") return transaction.direction === "收入";
+                      if (currentTab === "expense") return transaction.direction === "支出";
+                      if (currentTab === "pending") return transaction.status === "待支付";
+                      return true;
+                    })
+                    .map((transaction) => (
+                      <tr key={transaction.id}>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-300">
+                          {new Date(transaction.transaction_date).toLocaleDateString()}
                 </td>
-                <td className="py-4 px-6 text-sm font-medium text-gray-900 dark:text-white">{transaction.project}</td>
-                <td className="py-4 px-6">
-                  <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
-                    transaction.serviceType === "留学申请"
-                      ? "bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-300"
-                      : transaction.serviceType === "留学咨询" 
-                      ? "bg-purple-50 text-purple-700 dark:bg-purple-900/20 dark:text-purple-300"
-                      : transaction.serviceType === "语言培训"
-                      ? "bg-green-50 text-green-700 dark:bg-green-900/20 dark:text-green-300"
-                      : transaction.serviceType === "职场规划"
-                      ? "bg-yellow-50 text-yellow-700 dark:bg-yellow-900/20 dark:text-yellow-300"
-                      : "bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300"
-                  }`}>
-                    {transaction.serviceType}
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-300">
+                          {transaction.category?.name || '-'}
+                </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
+                          <span className={transaction.direction === "收入" ? "text-green-600 dark:text-green-500" : "text-red-600 dark:text-red-500"}>
+                            {transaction.direction === "收入" ? "+" : "-"}
+                            ¥{transaction.amount.toLocaleString()}
                   </span>
                 </td>
-                <td className="py-4 px-6 text-sm font-medium">
-                  <span className={transaction.direction === "收入" ? "text-green-600 dark:text-green-400" : "text-red-600 dark:text-red-400"}>
-                    {transaction.direction === "收入" ? "+" : "-"}{transaction.amount.toLocaleString()} 元
-                  </span>
-                </td>
-                <td className="py-4 px-6">
-                  <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
-                    transaction.direction === "收入"
-                      ? "bg-green-50 text-green-700 dark:bg-green-900/20 dark:text-green-300"
-                      : "bg-red-50 text-red-700 dark:bg-red-900/20 dark:text-red-300"
-                  }`}>
-                    {transaction.direction}
-                  </span>
-                </td>
-                <td className="py-4 px-6">
-                  <span className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium ${
+                        <td className="px-6 py-4 whitespace-nowrap text-sm">
+                          <span className={`px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${
                     transaction.status === "已完成"
-                      ? "bg-green-50 text-green-700 dark:bg-green-900/20 dark:text-green-300"
-                      : transaction.status === "待收款"
-                      ? "bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-300"
-                      : transaction.status === "待支付"
-                      ? "bg-yellow-50 text-yellow-700 dark:bg-yellow-900/20 dark:text-yellow-300"
-                      : "bg-red-50 text-red-700 dark:bg-red-900/20 dark:text-red-300"
-                  }`}>
-                    {transaction.status === "已完成" ? <CheckCircle className="h-3 w-3" /> 
-                      : transaction.status === "待收款" || transaction.status === "待支付" ? <Clock className="h-3 w-3" /> 
-                      : <XCircle className="h-3 w-3" />}
+                              ? "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300" 
+                              : "bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300"
+                          }`}>
                     {transaction.status}
                   </span>
                 </td>
-                <td className="py-4 px-6">
-                  <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-300">
-                    {transaction.category}
-                  </span>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-300">
+                          {transaction.person?.name || '-'}
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-300">
+                          {transaction.project?.name || '-'}
                 </td>
-                <td className="py-4 px-6 text-sm text-gray-600 dark:text-gray-300">{transaction.date}</td>
-                <td className="py-4 px-6">
-                  <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
-                    transaction.account === "银行账户"
-                      ? "bg-yellow-50 text-yellow-700 dark:bg-yellow-900/20 dark:text-yellow-300"
-                      : "bg-green-50 text-green-700 dark:bg-green-900/20 dark:text-green-300"
-                  }`}>
-                    {transaction.account}
-                  </span>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-300">
+                          {transaction.service_type?.name || '-'}
                 </td>
-                <td className="py-4 px-6">
-                  <div className="flex space-x-2">
-                    <button className="p-1.5 text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300 rounded-lg hover:bg-indigo-50 dark:hover:bg-indigo-900/10">
-                      <FileText className="h-4 w-4" />
+                        <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                          <button className="text-blue-600 hover:text-blue-900 dark:text-blue-500 dark:hover:text-blue-400">
+                            详情
                     </button>
-                    <button className="p-1.5 text-red-600 hover:text-red-800 dark:text-red-400 dark:hover:text-red-300 rounded-lg hover:bg-red-50 dark:hover:bg-red-900/10">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                      </svg>
-                    </button>
-                  </div>
                 </td>
               </tr>
             ))}
           </tbody>
         </table>
-        
-        {/* 分页 */}
-        <div className="p-6 border-t border-gray-100 dark:border-gray-700 flex justify-between items-center">
-          <p className="text-sm text-gray-500 dark:text-gray-400">显示 1 - {filteredTransactions.length} 条，共 {filteredTransactions.length} 条</p>
-          <div className="flex gap-2">
-            <button className="p-2 rounded-lg border border-gray-200 dark:border-gray-700 text-gray-500 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-700">
-              <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19l-7-7 7-7" />
-              </svg>
-            </button>
-            <button className="p-2 rounded-lg border border-gray-200 dark:border-gray-700 text-gray-500 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-700">
-              <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
-              </svg>
-            </button>
           </div>
+          )}
         </div>
       </div>
       
-      {/* 新增交易记录模态框 */}
-      {isNewTransactionModalOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-xl max-w-2xl w-full max-h-[90vh] overflow-hidden flex flex-col">
-            <div className="p-6 border-b border-gray-200 dark:border-gray-700 flex justify-between items-center">
-              <h2 className="text-xl font-semibold text-gray-900 dark:text-white">新增交易记录</h2>
-              <button 
-                onClick={() => setIsNewTransactionModalOpen(false)} 
-                className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-500 dark:text-gray-400"
-              >
-                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
+      {/* 新增交易弹窗 */}
+      <Dialog open={isNewTransactionModalOpen} onOpenChange={setIsNewTransactionModalOpen}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle>新增交易记录</DialogTitle>
+            <DialogDescription>
+              请填写交易的各项信息，带*为必填项。
+            </DialogDescription>
+          </DialogHeader>
+          
+          <div className="grid gap-4 py-4">
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <Label htmlFor="amount" className="text-right">
+                  金额*
+                </Label>
+                <Input
+                  id="amount"
+                  type="number"
+                  step="0.01"
+                  value={newTransaction.amount}
+                  onChange={(e) => setNewTransaction({ ...newTransaction, amount: parseFloat(e.target.value) })}
+                  className="w-full"
+                />
+              </div>
+              <div>
+                <Label htmlFor="direction" className="text-right">
+                  收支方向*
+                </Label>
+                <Select
+                  value={newTransaction.direction}
+                  onValueChange={(value) => setNewTransaction({ ...newTransaction, direction: value as TransactionDirection })}
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder="选择收支方向" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="收入">收入</SelectItem>
+                    <SelectItem value="支出">支出</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
             </div>
             
-            <div className="overflow-y-auto flex-1 p-6">
-              <form className="space-y-6" onSubmit={handleSubmit}>
-                <div className="bg-blue-50 dark:bg-blue-900/10 p-4 rounded-xl mb-6">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <Label htmlFor="category" className="text-right">
+                  分类*
+                </Label>
+                <Select
+                  value={newTransaction.category_id?.toString()}
+                  onValueChange={(value) => setNewTransaction({ ...newTransaction, category_id: parseInt(value) })}
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder="选择分类" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {categories
+                      .filter(category => category.direction === newTransaction.direction)
+                      .map(category => (
+                        <SelectItem key={category.id} value={category.id.toString()}>
+                          {category.name}
+                        </SelectItem>
+                      ))}
+                  </SelectContent>
+                </Select>
+              </div>
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        交易类型
-                      </label>
-                      <div className="flex gap-4">
-                        <label className="flex items-center gap-2">
-                          <input 
-                            type="radio" 
-                            name="direction" 
-                            value="收入" 
-                            checked={newTransaction.direction === "收入"} 
-                            onChange={handleDirectionChange}
-                            className="h-4 w-4 text-blue-600" 
-                          />
-                          <span>收入</span>
-                        </label>
-                        <label className="flex items-center gap-2">
-                          <input 
-                            type="radio" 
-                            name="direction" 
-                            value="支出" 
-                            checked={newTransaction.direction === "支出"}
-                            onChange={handleDirectionChange}
-                            className="h-4 w-4 text-blue-600" 
-                          />
-                          <span>支出</span>
-                        </label>
+                <Label htmlFor="account" className="text-right">
+                  账户*
+                </Label>
+                <Select
+                  value={newTransaction.account_id?.toString()}
+                  onValueChange={(value) => setNewTransaction({ ...newTransaction, account_id: parseInt(value) })}
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder="选择账户" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {accounts.map(account => (
+                      <SelectItem key={account.id} value={account.id.toString()}>
+                        {account.name}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
                       </div>
                     </div>
                     
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <Label htmlFor="status" className="text-right">
+                  状态*
+                </Label>
+                <Select
+                  value={newTransaction.status}
+                  onValueChange={(value) => setNewTransaction({ ...newTransaction, status: value as TransactionStatus })}
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder="选择状态" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="已完成">已完成</SelectItem>
+                    <SelectItem value="待支付">待支付</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        金额 (元)
-                      </label>
-                      <div className="relative">
-                        <span className="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-500 dark:text-gray-400">
-                          <DollarSign className="h-4 w-4" />
-                        </span>
-                        <input
-                          type="number"
-                          name="amount"
-                          value={newTransaction.amount || ""}
-                          onChange={handleInputChange}
-                          placeholder="输入金额"
-                          className="w-full pl-10 pr-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-                        />
-                      </div>
-                    </div>
+                <Label htmlFor="transaction_date" className="text-right">
+                  交易日期*
+                </Label>
+                <Input
+                  id="transaction_date"
+                  type="date"
+                  value={newTransaction.transaction_date}
+                  onChange={(e) => setNewTransaction({ ...newTransaction, transaction_date: e.target.value })}
+                  className="w-full"
+                />
                   </div>
                 </div>
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                      人员
-                    </label>
-                    <input
-                      type="text"
-                      name="personName"
-                      value={newTransaction.personName || ""}
-                      onChange={handleInputChange}
-                      placeholder="输入人员姓名"
-                      className="w-full p-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-                    />
+                <Label htmlFor="person" className="text-right">
+                  人员
+                </Label>
+                <Select
+                  value={newTransaction.person_id?.toString() || ''}
+                  onValueChange={(value) => setNewTransaction({ ...newTransaction, person_id: value ? parseInt(value) : undefined })}
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder="选择人员" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="">无</SelectItem>
+                    {people.map(person => (
+                      <SelectItem key={person.id} value={person.id.toString()}>
+                        {person.name}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
                   </div>
-                  
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                      服务类型
-                    </label>
-                    <select
-                      name="serviceType"
-                      value={newTransaction.serviceType || "留学申请"}
-                      onChange={handleInputChange}
-                      className="w-full p-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-                    >
-                      <option value="留学申请">留学申请</option>
-                      <option value="留学咨询">留学咨询</option>
-                      <option value="语言培训">语言培训</option>
-                      <option value="职场规划">职场规划</option>
-                      <option value="日常支出">日常支出</option>
-                      <option value="其他服务">其他服务</option>
-                    </select>
+                <Label htmlFor="project" className="text-right">
+                  项目
+                </Label>
+                <Select
+                  value={newTransaction.project_id?.toString() || ''}
+                  onValueChange={(value) => setNewTransaction({ ...newTransaction, project_id: value ? parseInt(value) : undefined })}
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder="选择项目" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="">无</SelectItem>
+                    {projects.map(project => (
+                      <SelectItem key={project.id} value={project.id.toString()}>
+                        {project.name}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
                   </div>
                 </div>
                 
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                    项目
-                  </label>
-                  <input
-                    type="text"
-                    name="project"
-                    value={newTransaction.project || ""}
-                    onChange={handleInputChange}
-                    placeholder="输入项目名称"
-                    className="w-full p-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-                  />
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                      状态
-                    </label>
-                    <select
-                      name="status"
-                      value={newTransaction.status || "已完成"}
-                      onChange={handleInputChange}
-                      className="w-full p-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-                    >
-                      <option value="已完成">已完成</option>
-                      <option value="待收款">待收款</option>
-                      <option value="待支付">待支付</option>
-                      <option value="已取消">已取消</option>
-                    </select>
+              <Label htmlFor="service_type" className="text-right">
+                服务类型
+              </Label>
+              <Select
+                value={newTransaction.service_type_id?.toString() || ''}
+                onValueChange={(value) => setNewTransaction({ ...newTransaction, service_type_id: value ? parseInt(value) : undefined })}
+              >
+                <SelectTrigger>
+                  <SelectValue placeholder="选择服务类型" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="">无</SelectItem>
+                  {serviceTypes.map(serviceType => (
+                    <SelectItem key={serviceType.id} value={serviceType.id.toString()}>
+                      {serviceType.name}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
                   </div>
                   
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                      分类
-                    </label>
-                    <select
-                      name="category"
-                      value={newTransaction.category || "学费付款"}
-                      onChange={handleInputChange}
-                      className="w-full p-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-                    >
-                      <option value="学费付款">学费付款</option>
-                      <option value="定金">定金</option>
-                      <option value="企业服务">企业服务</option>
-                      <option value="渠道费用">渠道费用</option>
-                      <option value="快递费用">快递费用</option>
-                      <option value="办公用品">办公用品</option>
-                    </select>
-                  </div>
-                </div>
-                
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                      日期
-                    </label>
-                    <div className="relative">
-                      <span className="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-500 dark:text-gray-400">
-                        <Calendar className="h-4 w-4" />
-                      </span>
-                      <input
-                        type="date"
-                        name="date"
-                        value={newTransaction.date || ""}
-                        onChange={handleInputChange}
-                        className="w-full pl-10 pr-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+              <Label htmlFor="notes" className="text-right">
+                备注
+              </Label>
+              <Input
+                id="notes"
+                value={newTransaction.notes || ''}
+                onChange={(e) => setNewTransaction({ ...newTransaction, notes: e.target.value })}
+                className="w-full"
                       />
                     </div>
                   </div>
                   
-                  <div>
-                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                      账户
-                    </label>
-                    <select
-                      name="account"
-                      value={newTransaction.account || ""}
-                      onChange={handleInputChange}
-                      className="w-full p-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-                    >
-                      <option value="">选择账户</option>
-                      <option value="银行账户">银行账户</option>
-                      <option value="微信/支付宝">微信/支付宝</option>
-                    </select>
-                  </div>
-                </div>
-                
-                <div className="p-6 border-t border-gray-200 dark:border-gray-700 flex justify-end gap-3 -mx-6 -mb-6 mt-6">
+          <DialogFooter>
                   <button
                     type="button"
                     onClick={() => setIsNewTransactionModalOpen(false)}
-                    className="px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300"
+              className="px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-md text-gray-800 text-sm font-medium transition-colors dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-300"
                   >
                     取消
                   </button>
                   <button
-                    type="submit"
-                    className="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white"
+              type="button"
+              onClick={handleAddTransaction}
+              className="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-md text-white text-sm font-medium transition-colors"
                   >
-                    保存
+              添加
                   </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+      
+      {/* Excel导入弹窗 */}
+      {isImportModalOpen && (
+        <Dialog open={isImportModalOpen} onOpenChange={setIsImportModalOpen}>
+          <DialogContent className="max-w-3xl">
+            <DialogHeader>
+              <DialogTitle>批量导入Excel交易数据</DialogTitle>
+              <DialogDescription>
+                请上传符合格式要求的Excel文件，系统将自动导入数据
+              </DialogDescription>
+            </DialogHeader>
+            <ExcelImporter 
+              onSuccess={() => {
+                fetchTransactions();
+                setIsImportModalOpen(false);
+                toast.success("Excel数据已成功导入系统");
+              }}
+              onClose={() => setIsImportModalOpen(false)}
+            />
+          </DialogContent>
+        </Dialog>
       )}
     </div>
   );

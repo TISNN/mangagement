@@ -30,12 +30,13 @@ import FinancePage from './pages/admin/FinancePage';
 import SocialMediaPage from './pages/admin/SocialMediaPage';
 import SettingsPage from './pages/admin/SettingsPage';
 import AttendancePage from './pages/admin/AttendancePage';
-import StudentsPage from './pages/admin/StudentsPage';
+import StudentsPage from './pages/admin/StudentsPage/StudentsPage';
 import ProjectsPage from './pages/admin/ProjectsPage';
 import LeadsPage from './pages/admin/LeadsPage';
 import MentorsPage from './pages/admin/MentorsPage';
 import KnowledgePage from './pages/admin/KnowledgePage';
 import KnowledgeDetailPage from './pages/admin/KnowledgeDetailPage';
+import DashboardPage from './pages/admin/DashboardPage';
 
 const AppRoutes: React.FC = () => {
   return (
@@ -51,7 +52,7 @@ const AppRoutes: React.FC = () => {
         <Route index element={<Navigate to="/admin/dashboard" replace />} />
         
         {/* 管理页面路由 */}
-        <Route path="dashboard" element={<TaskManagementPage />} />
+        <Route path="dashboard" element={<DashboardPage />} />
         <Route path="employees" element={<EmployeeManagementPage />} />
         <Route path="tasks" element={<TaskManagementPage />} />
         <Route path="interview" element={<InterviewPage />} />
