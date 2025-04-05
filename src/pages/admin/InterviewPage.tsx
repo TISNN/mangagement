@@ -16,7 +16,7 @@ import {
   Upload
 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { Training, getTrainings, saveTraining } from '../services/trainingService';
+import { Training, getTrainings, saveTraining } from '../../services/trainingService';
 
 interface TrainingForm {
   title: string;

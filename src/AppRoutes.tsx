@@ -2,23 +2,40 @@ import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import App from './App';
 import WebsiteRoutes from './website/routes';
-import StudentLayout from './pages/StudentLayout';
-import StudentDashboard from './pages/StudentDashboard';
-import DataAnalytics from './pages/DataAnalytics';
-import MaterialsCenter from './pages/MaterialsCenter';
-import Community from './pages/Community';
-import LearningResources from './pages/LearningResources';
+import StudentLayout from './pages/student/StudentLayout';
+import StudentDashboard from './pages/student/StudentDashboard';
+import DataAnalytics from './pages/student/DataAnalytics';
+import MaterialsCenter from './pages/student/MaterialsCenter';
+import Community from './pages/student/Community';
+import LearningResources from './pages/student/LearningResources';
 import LoginPage from './pages/LoginPage';
-import InterviewPage from './pages/InterviewPage';
-import TrainingDetailPage from './pages/TrainingDetailPage';
-import InternshipPage from './pages/InternshipPage';
-import InternshipDetailPage from './pages/InternshipDetailPage';
-import ReferralDetailPage from './pages/ReferralDetailPage';
-import SchoolSelectionPage from './pages/SchoolSelectionPage';
-import CompetitionPage from './pages/CompetitionPage';
-import CompetitionDetailPage from './pages/CompetitionDetailPage';
-import EmployeeManagementPage from './pages/EmployeeManagementPage';
-import TaskManagementPage from './pages/TaskManagementPage';
+import InterviewPage from './pages/admin/InterviewPage';
+import TrainingDetailPage from './pages/admin/TrainingDetailPage';
+import InternshipPage from './pages/student/InternshipPage';
+import InternshipDetailPage from './pages/student/InternshipDetailPage';
+import ReferralDetailPage from './pages/student/ReferralDetailPage';
+import SchoolSelectionPage from './pages/admin/SchoolSelectionPage';
+import CompetitionPage from './pages/student/CompetitionPage';
+import CompetitionDetailPage from './pages/student/CompetitionDetailPage';
+import EmployeeManagementPage from './pages/admin/EmployeeManagementPage';
+import TaskManagementPage from './pages/admin/TaskManagementPage';
+import ApplicationsPage from './pages/admin/ApplicationsPage';
+import ApplicationDetailPage from './pages/admin/ApplicationDetailPage';
+import PlanningDetailPage from './pages/admin/PlanningDetailPage';
+import AIModelPage from './pages/admin/AIModelPage';
+import SchoolAssistantPage from './pages/admin/SchoolAssistantPage';
+import CaseStudiesPage from './pages/admin/CaseStudiesPage';
+import ContractsPage from './pages/admin/ContractsPage';
+import FinancePage from './pages/admin/FinancePage';
+import SocialMediaPage from './pages/admin/SocialMediaPage';
+import SettingsPage from './pages/admin/SettingsPage';
+import AttendancePage from './pages/admin/AttendancePage';
+import StudentsPage from './pages/admin/StudentsPage';
+import ProjectsPage from './pages/admin/ProjectsPage';
+import LeadsPage from './pages/admin/LeadsPage';
+import MentorsPage from './pages/admin/MentorsPage';
+import KnowledgePage from './pages/admin/KnowledgePage';
+import KnowledgeDetailPage from './pages/admin/KnowledgeDetailPage';
 
 const AppRoutes: React.FC = () => {
   return (
@@ -29,17 +46,40 @@ const AppRoutes: React.FC = () => {
       {/* 登录页面路由 */}
       <Route path="/login" element={<LoginPage />} />
       
-      {/* 后台管理系统路由 */}
+      {/* 后台管理系统路由 - 所有Admin路由改为嵌套在App组件内 */}
       <Route path="/admin" element={<App />}>
         <Route index element={<Navigate to="/admin/dashboard" replace />} />
+        
+        {/* 管理页面路由 */}
+        <Route path="dashboard" element={<TaskManagementPage />} />
+        <Route path="employees" element={<EmployeeManagementPage />} />
+        <Route path="tasks" element={<TaskManagementPage />} />
+        <Route path="interview" element={<InterviewPage />} />
+        <Route path="interview/:id" element={<TrainingDetailPage />} />
+        
+        {/* 申请相关路由 */}
+        <Route path="applications" element={<ApplicationsPage setCurrentPage={() => {}} />} />
+        <Route path="applications/detail" element={<ApplicationDetailPage setCurrentPage={() => {}} />} />
+        <Route path="applications/planning-detail" element={<PlanningDetailPage setCurrentPage={() => {}} />} />
+        
+        {/* 知识库路由 */}
+        <Route path="knowledge" element={<KnowledgePage />} />
+        <Route path="knowledge/detail/:id" element={<KnowledgeDetailPage />} />
+        
+        {/* 添加缺失的其他路由 - 这些路由将使用App.tsx中定义的组件 */}
+        <Route path="students" element={<StudentsPage />} />
+        <Route path="school-assistant" element={<SchoolAssistantPage />} />
+        <Route path="projects" element={<ProjectsPage />} />
+        <Route path="leads" element={<LeadsPage />} />
+        <Route path="mentors" element={<MentorsPage />} />
+        <Route path="aiModel" element={<AIModelPage />} />
+        <Route path="cases" element={<CaseStudiesPage />} />
+        <Route path="contracts" element={<ContractsPage />} />
+        <Route path="social" element={<SocialMediaPage setCurrentPage={() => {}} />} />
+        <Route path="finance" element={<FinancePage />} />
+        <Route path="settings" element={<SettingsPage />} />
+        <Route path="attendance" element={<AttendancePage />} />
       </Route>
-      
-      {/* 管理页面路由 */}
-      <Route path="/admin/dashboard" element={<TaskManagementPage />} />
-      <Route path="/admin/employees" element={<EmployeeManagementPage />} />
-      <Route path="/admin/tasks" element={<TaskManagementPage />} />
-      <Route path="/admin/interview" element={<InterviewPage />} />
-      <Route path="/admin/interview/:id" element={<TrainingDetailPage />} />
       
       {/* 学生端路由 */}
       <Route path="/student" element={<StudentLayout />}>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Bot, X, Send, Image, Paperclip, Plus, Trash2, AlertTriangle, RefreshCw, Maximize, Minimize, Move } from 'lucide-react';
+import { Bot, X, Send, Image, Paperclip, Plus, Trash2, AlertTriangle, RefreshCw, Maximize, Minimize, Move, Database, Cloud } from 'lucide-react';
 import { sendChatMessage, formatMessagesForAPI, testConnection } from '../api/aiService';
 
 interface Message {
@@ -38,6 +38,7 @@ export default function AIAssistant() {
   const [isDragging, setIsDragging] = useState(false);
   const [dragStartPos, setDragStartPos] = useState({ x: 0, y: 0 });
   const [dragStartPosition, setDragStartPosition] = useState({ right: 6, bottom: 20 });
+  const [useLocalKnowledge, setUseLocalKnowledge] = useState(false);
   
   const fileInputRef = useRef<HTMLInputElement>(null);
   const imageInputRef = useRef<HTMLInputElement>(null);
@@ -215,18 +216,27 @@ export default function AIAssistant() {
     return () => clearInterval(interval);
   }, [isTyping]);
 
+  // 处理本地知识库的回复
+  const getLocalKnowledgeResponse = async (query: string) => {
+    // 这里可以实现本地知识库的查询逻辑
+    // 示例实现，实际项目中需要连接到真实的本地知识库
+    return {
+      content: `[本地知识库] 您好，这是来自本地知识库的回复。\n\n您的问题是: "${query}"\n\n由于这是一个示例实现，实际项目中这里应该返回从本地知识库中检索到的相关信息。\n\n如需使用在线AI服务，请点击右上角的切换按钮。`
+    };
+  };
+
   const handleSend = async () => {
     if ((!input.trim() && (!pendingMedia || pendingMedia.length === 0)) || isProcessing) return;
     
-    // 如果服务器状态离线，先尝试重新连接
-    if (serverStatus === 'offline') {
+    // 如果使用在线AI并且服务器状态离线，先尝试重新连接
+    if (!useLocalKnowledge && serverStatus === 'offline') {
       const result = await testConnection();
       if (!result.success) {
         // 显示尝试重连失败消息
         setMessages(prev => [...prev, {
           id: Date.now().toString(),
           type: 'assistant', 
-          content: '无法连接到AI服务器，请检查网络连接或稍后再试。',
+          content: '无法连接到AI服务器，请检查网络连接或稍后再试。您也可以切换到本地知识库模式。',
           timestamp: Date.now()
         }]);
         return;
@@ -256,18 +266,26 @@ export default function AIAssistant() {
     setInput('');
     setPendingMedia([]);
     
-    // 准备发送给API的消息
-    const apiMessages = formatMessagesForAPI([
-      ...messages.filter(msg => !msg.media || msg.media.length === 0), // 过滤掉带有媒体的消息，API不支持
-      userMessage
-    ]);
+    let response;
     
-    // 调用API获取响应 - 注意：sendChatMessage现在会返回而不是抛出错误
-    const response = await sendChatMessage(apiMessages);
-    
-    // 检查是否有API错误消息，如果是连接问题，则更新服务器状态
-    if (response.content.includes('连接') || response.content.includes('网络')) {
-      setServerStatus('offline');
+    if (useLocalKnowledge) {
+      // 使用本地知识库
+      response = await getLocalKnowledgeResponse(userMessage.content);
+    } else {
+      // 使用在线AI服务
+      // 准备发送给API的消息
+      const apiMessages = formatMessagesForAPI([
+        ...messages.filter(msg => !msg.media || msg.media.length === 0), // 过滤掉带有媒体的消息，API不支持
+        userMessage
+      ]);
+      
+      // 调用API获取响应
+      response = await sendChatMessage(apiMessages);
+      
+      // 检查是否有API错误消息，如果是连接问题，则更新服务器状态
+      if (response.content.includes('连接') || response.content.includes('网络')) {
+        setServerStatus('offline');
+      }
     }
     
     // 开始AI打字回复效果
@@ -449,29 +467,35 @@ export default function AIAssistant() {
                   <div className="flex items-center text-xs">
                     <span 
                       className={`inline-block w-2 h-2 rounded-full mr-2 ${
-                        serverStatus === 'online' 
+                        useLocalKnowledge 
                           ? 'bg-green-500' 
-                          : serverStatus === 'offline'
-                            ? 'bg-red-500'
-                            : 'bg-yellow-500'
+                          : serverStatus === 'online' 
+                            ? 'bg-green-500' 
+                            : serverStatus === 'offline'
+                              ? 'bg-red-500'
+                              : 'bg-yellow-500'
                       }`}
                     ></span>
                     <span 
-                      className={
-                        serverStatus === 'online' 
+                      className={`${
+                        useLocalKnowledge 
                           ? 'text-green-500' 
-                          : serverStatus === 'offline'
-                            ? 'text-red-500'
-                            : 'text-yellow-500'
-                      }
+                          : serverStatus === 'online' 
+                            ? 'text-green-500' 
+                            : serverStatus === 'offline'
+                              ? 'text-red-500'
+                              : 'text-yellow-500'
+                      }`}
                     >
-                      {serverStatus === 'online' 
-                        ? '服务正常' 
-                        : serverStatus === 'offline'
-                          ? '服务异常'
-                          : '状态未知'}
+                      {useLocalKnowledge 
+                        ? '本地知识库' 
+                        : serverStatus === 'online' 
+                          ? '在线AI服务' 
+                          : serverStatus === 'offline'
+                            ? 'AI服务异常'
+                            : '状态未知'}
                     </span>
-                    {(serverStatus === 'offline' || serverStatus === 'unknown') && (
+                    {(!useLocalKnowledge && (serverStatus === 'offline' || serverStatus === 'unknown')) && (
                       <button 
                         onClick={(e) => {
                           e.stopPropagation(); // 防止触发拖动
@@ -487,6 +511,20 @@ export default function AIAssistant() {
                 </div>
               </div>
               <div className="flex items-center">
+                {/* 添加切换知识库/AI服务按钮 */}
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation(); // 防止触发拖动
+                    setUseLocalKnowledge(!useLocalKnowledge);
+                  }}
+                  className="p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 mr-2"
+                  title={useLocalKnowledge ? "切换到在线AI" : "切换到本地知识库"}
+                >
+                  {useLocalKnowledge ? 
+                    <Cloud className="h-5 w-5" /> : 
+                    <Database className="h-5 w-5" />
+                  }
+                </button>
                 <button
                   onClick={(e) => {
                     e.stopPropagation(); // 防止触发拖动
@@ -521,22 +559,42 @@ export default function AIAssistant() {
 
             {/* 消息列表 */}
             <div className="flex-1 overflow-y-auto p-4 space-y-4">
-              {/* 服务器状态警告 */}
-              {serverStatus === 'offline' && (
+              {/* 服务器状态警告 - 只在使用在线AI且连接异常时显示 */}
+              {!useLocalKnowledge && serverStatus === 'offline' && (
                 <div className="bg-red-50 border border-red-200 rounded-lg p-3 text-red-700 dark:bg-red-900/30 dark:border-red-800 dark:text-red-400 mb-4 flex items-start">
                   <AlertTriangle className="h-5 w-5 mr-2 flex-shrink-0 mt-0.5" />
                   <div>
                     <p className="font-medium">AI服务连接异常</p>
                     <p className="text-sm">无法连接到AI服务器，请检查网络连接或稍后再试。</p>
-                    <button 
-                      onClick={checkServerStatus}
-                      className="mt-2 px-3 py-1 bg-red-100 hover:bg-red-200 dark:bg-red-800 dark:hover:bg-red-700 rounded text-xs flex items-center"
-                      disabled={isTestingConnection}
-                    >
-                      <RefreshCw className={`h-3 w-3 mr-1 ${isTestingConnection ? 'animate-spin' : ''}`} />
-                      重试连接
-                    </button>
+                    <div className="mt-2 flex gap-2">
+                      <button 
+                        onClick={checkServerStatus}
+                        className="px-3 py-1 bg-red-100 hover:bg-red-200 dark:bg-red-800 dark:hover:bg-red-700 rounded text-xs flex items-center"
+                        disabled={isTestingConnection}
+                      >
+                        <RefreshCw className={`h-3 w-3 mr-1 ${isTestingConnection ? 'animate-spin' : ''}`} />
+                        重试连接
+                      </button>
+                      <button 
+                        onClick={() => setUseLocalKnowledge(true)}
+                        className="px-3 py-1 bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 rounded text-xs flex items-center text-gray-700 dark:text-gray-300"
+                      >
+                        <Database className="h-3 w-3 mr-1" />
+                        切换到本地知识库
+                      </button>
+                    </div>
                   </div>
+                </div>
+              )}
+
+              {/* 本地知识库模式通知 */}
+              {useLocalKnowledge && messages.length === 0 && (
+                <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 text-blue-700 dark:bg-blue-900/30 dark:border-blue-800 dark:text-blue-400 mb-4">
+                  <div className="flex items-center font-medium mb-1">
+                    <Database className="h-4 w-4 mr-2" />
+                    本地知识库模式
+                  </div>
+                  <p className="text-sm">您正在使用本地知识库模式，回答将基于预先存储的知识内容，不会连接到在线AI服务。</p>
                 </div>
               )}
 
@@ -545,6 +603,12 @@ export default function AIAssistant() {
                   <div className="text-center">
                     <Bot className="h-16 w-16 mx-auto mb-4 text-gray-300 dark:text-gray-600" />
                     <p>您好，我是小IN，请问有什么可以帮助您的？</p>
+                    {useLocalKnowledge && (
+                      <p className="mt-2 text-sm flex items-center justify-center">
+                        <Database className="h-4 w-4 mr-1" />
+                        当前使用本地知识库提供答案
+                      </p>
+                    )}
                   </div>
                 </div>
               )}

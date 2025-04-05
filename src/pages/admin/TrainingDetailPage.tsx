@@ -17,7 +17,7 @@ import {
   X,
   Upload
 } from 'lucide-react';
-import { Training, getTraining, updateTraining } from '../services/trainingService';
+import { Training, getTraining, updateTraining } from '../../services/trainingService';
 
 const TrainingDetailPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
