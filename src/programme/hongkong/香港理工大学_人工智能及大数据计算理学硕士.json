@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "人工智能及大数据计算理学硕士",
+  "ename": "MSc Artificial Intelligence and Big Data Computing",
+  "tags": "工科,计算机,工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 358500港币/年",
+  "requirements": "具有学士学位，需要计算/计算机科学/工程、信息系统、数学或其他相关学科背景\n具有其他学科学士学位以及至少3年IT相关工作经验的申请者也将被考虑",
+  "objectives": "人工智能和大数据技术正在社会和行业中快速发展，香港理工大学人工智能及大数据计算理学硕士项目结合了计算机科学和机器学习的技术，旨在教授学生理解人工智能和大数据并从中创造价值。该课程的目标是从研究和实际应用的角度为学生提供人工智能和大数据的知识，以满足香港市场对具备人工智能和大数据计算专业知识的高素质人才日益增长的需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能与大数据计算编程 (Artificial Intelligence and Big Data Computing Programming)\n人工智能与大数据计算实践 (Artificial Intelligence and Big Data Computing in Practice)\n人工智能与大数据计算的新兴课题 (Emerging Topics in Artificial Intelligence and Big Data Computing)\n自然语言处理 (Natural Language Processing)\n人工智能概念 (Artificial Intelligence Concepts)\n计算机视觉与图像处理 (Computer Vision and Image Processing )\n机器学习与数据分析 (Machine Learning and Data Analytics)\n高级人工智能 (Advanced Artificial Intelligence)\n数据库系统与管理 (Database Systems and Management)\n数据结构与数据库系统 (Data Structures and Database Systems)\n数据挖掘与数据仓库应用 (Data Mining and Data Warehousing Applications)\n高级数据分析 (Advanced Data Analytics)\n大数据计算 (Big Data Computing)\n软件项目管理 (Software Project Management)\n软件工程与开发 (Software Engineering and Development)\n互联网基础设施与协议 (Internet Infrastructure and Protocols)\n网络及互联网安全 ( Cyber and Internet Security)\n优化与应用 (Optimization and Applications)\n统计推断 (Statistical Inference)\n独立研究 (Independent Study)\n论文 (Dissertation)",
+  "success_cases": ""
+}

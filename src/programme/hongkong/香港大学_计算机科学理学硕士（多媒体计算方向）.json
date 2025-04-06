@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "计算机科学理学硕士（多媒体计算方向）",
+  "ename": "MSc Computer Science (Multimedia Computing Stream)",
+  "tags": "工科,计算机,计算与数据科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 320000港币/年",
+  "requirements": "具有学士学位或同等学历",
+  "objectives": "香港大学计算机科学（多媒体计算方向）硕士学位课程侧重于多媒体计算、通信、分析、可视化和应用。学生将获得理论和实践技能，使他们能够开发创新和有创意的多媒体计算技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "图像处理与计算机视觉 (Image processing and computer vision)\n多媒体技术 (Multimedia technologies)\n模式识别与应用 (Pattern recognition and applications)\n用户界面设计和开发 (User interface design and development)\n智能手机应用开发 (Smart phone apps development)\n可视化与可视分析 (Visualization and visual analytics)\n数据驱动的电脑动画 (Data-driven computer animation)\n游戏设计与开发 (Game design and development)\n多媒体计算专题 (Topic in multimedia computing)",
+  "success_cases": ""
+}

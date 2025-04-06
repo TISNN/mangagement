@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "数学经济学与计量经济学理学硕士",
+  "ename": "MSc Mathematical Economics and Econometrics",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有英国strong 2:1荣誉学位或同等学历，需要经济学或定量学科背景如数学、物理、工程、精算科学、计算机科学，总体成绩至少达到65%或同等水平，学位必须包括一门有关概率的课程，相关经验、专业资格或其他资格也将被考虑\n一些申请者可能会收到有条件录取，需要成功完成暑期学前课程\n申请可以不提交GRE或GMAT，但如果提交G将有助于申请，如果申请者没有达到最低学术要求，学校可能要求学生提供GRE或GMAT（定量推理部分成绩需要达到85%或更高水平，在评估申请时不会正式考虑语言和分析部分的成绩）",
+  "objectives": "爱丁堡大学数学经济学与计量经济学硕士课程旨在让那些在数学、物理、工程和计算机科学等学科具有强大的定量背景的学生获得对经济学的硕士水平的理解。这是一个周期短、内容多的课程，为学生打下理解经济学和计量经济学最新研究方法的理论基础，为学员从事专业经济学家的职业生涯做好准备。那些计划学习国际博士课程的人也可能对此感兴趣。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "经济学基础 (Foundations of Economics)\n经济学深层主题 (Further Topics in Economics)\n计量经济学1 (Econometrics 1)\n宏观经济学1 (Macroeconomics 1)\n数学微观经济学1 (Mathematical Microeconomics 1)\n宏观经济学2 (Macroeconomics 2)\n微观经济学2 (Microeconomics 2)\n数学经济学与计量经济学论文 (Dissertation in Mathematical Economics and Econometrics)\n计量经济学工程 (Econometrics Project)\n计量经济学2-时间序列 (Econometrics 2 - Time Series)\n计量经济学2-应用微观经济学 (Econometrics 2 - Applied Microeconometrics)",
+  "success_cases": ""
+}

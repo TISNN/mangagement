@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "计算机与信息工程理学硕士（CUHK-Shenzhen）",
+  "ename": "MSc Computer and Information Engineering (CUHK-Shenzhen)",
+  "tags": "工科,计算机,深圳校区",
+  "introduction": "专业方向: 计算机\n入学时间: 1/8月\n项目时长: 2年\n项目学费: 140000人民币/年",
+  "requirements": "取得教育部认可的本科学历学位，并且：荣誉等级不低于二等；或平均成绩不低于“B”\n或者在高等教育机构完成了学业，并且获得了与荣誉学位相当的职业资格或类似资格",
+  "objectives": "香港中文大学（深圳）计算机与信息工程理学硕士项目是围绕计算机科学和信息工程技术领域开设的为期两年的全日制硕士项目，旨在培养计算机与信息工程相关领域的专业应用型人才。项目课程紧密结合全球计算机人工智能迅猛发展的潮流，涵盖计算机科学和信息工程领域内的基础理论知识与前沿技术，包括人工智能、AI芯片及应用、计算机科学、机器学习、区块链及元宇宙等，并将相关理论与现实应用有效结合，致力于培养具备扎实理论基础、卓越创新能力和国际竞争力的高素质专业人才，以满足大湾区乃至全球对计算机与信息工程领域专业人才的迫切需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "矩阵分析 (Matrix Analysis)\n高级计算机网络 (Advanced Computer Networks)\nAI芯片及应用 (AI Chip and Application)\n嵌入式系统及物联网 (Embedded Systems and Internet of Things)\n中国特色社会主义理论与实践研究 (Research on the Theory and Practice of Socialism with Chinese Characteristics)\n高级机器学习 (Advanced Machine Learning)\n高级计算机体系结构 (Advanced Computer Architecture)\n图像处理与计算机视觉 (Image Processing and Computer Vision)\n随机过程 (Random Process)\n数据分析 (Data Analysis)\n优化理论与算法 (Theory and Algorithms of Optimization)\n计算机与网络安全 (Computer and Network Security)\n移动网络 (Mobile Network)\n高级无线通信 (Advanced Wireless Communication)\n信息论 (Information Theory)\n深度学习基础及其应用 (Fundamentals of Deep Learning and its Applications)\n网络经济学 (Network Economics)\nCMOS数据集成电路设计 (CMOS Digital Integrated Circuits Design)\n机器人操作系统与编程 (Robot Operating Systems and Programming)\n区块链系统 (Blockchain System)\n云计算 (Cloud Computing)\n超大规模集成电路计算机辅助设计 (VLSI / CAD)\n自然语言处理 (Natural Language Processing)\n自然辨证法概论、马克思主义与社会科学方法论 (Introduction to Dialectics of Nature, Marxism and Social Sciences Methodology)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港教育大学",
+  "major_name": "对外英语教学文学硕士",
+  "ename": "MA Teaching English to Speakers of Other Languages",
+  "tags": "社科,教育,人文学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 150000港币/年",
+  "requirements": "申请者应持有认可的学士学位，并且最好满足以下至少一项要求：\n1. 受认可的语言教学资格；或\n2. 具备英语教学工作经验。\n持有英语以外学科学士学位的申请者也可能被考虑\n没有教师资格的申请者应该意识到MATESOL是一个高级学历，与研究生教育文凭（英语）（PGDE或同等条件）学历相结合时最有价值，入围申请者可能需要参加面试",
+  "objectives": "香港教育学院的英语教学文学硕士项目旨在使学生具备在香港或海外担任英语教师所需的学科知识。学生将通过香港教育学院对外英语教学文学硕士学位课程的学习，进一步了解英语语言结构及语用功能；对英语在世界上不同地方的地位和作用、英语地域变体以及英语作为一门国际性的语言有深层次的理解；对英语教学思想和社会语境对教学实践的影响有更深层次的认识；学会将母语习得和第二语言的学习理论运用到解决英语教学中的实际问题中去；掌握课程评估、教学材料编纂的能力；能将语言教与学的最新理论运用到独立调研及调研成果的撰写中去；拥有在专业学术背景下正确使用英语口语或书面语的能力；具有雅思7分或同等水平的英语熟练程度。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "英语教学法：创新与变革 (ELT methodology: Innovation and Change)\n第二语言研究方法 (Second Language Research Methods)\n英语语音学和音系学 (English Phonetics and Phonology)\n词汇、形态和语义学 (Lexis, Morphology and Semantics)\n教学语法 (Pedagogical Grammar)\n课程与评估 (Curriculum and Assessment)\n心理语言学和第二语言习得 (Psycholinguistics and Second Language Acquisition)\n社会语言学 (Sociolinguistics)\n书面语和口头语 (Written and Spoken Discourse)\n全球语境下的英语 (English in the Global Context)\n少儿英语教学 (Teaching English to Young Learners)\n英语教学中的儿童文学 (Children’s Literature in TESOL)\n英语教学中的文学和语言艺术 (Literature and Language Arts in TESOL)\n论文 (Dissertation)",
+  "success_cases": ""
+}

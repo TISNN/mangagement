@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "金融与会计理学硕士",
+  "ename": "MSc Finance and Accounting",
+  "tags": "商科,金融,管理学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 33970英镑/年",
+  "requirements": "具有2:1本科荣誉学位，不限专业",
+  "objectives": "谢菲尔德大学金融与会计理学硕士项目使学生进入账户和金融市场的世界。在处理现实世界的问题时，使学生像业内最优秀的人一样思考和行动。本课程旨在提升学生的职业生涯，培养学生对保持业务流动性、竞争力和盈利所涉及的挑战的知识和理解，并向学生介绍有关道德和可持续金融模式的问题。学生将发展理论和应用专业知识，以应对在金融环境中工作的挑战。在金融市场交易室学习交易工具，提供股票、债券、全球指数和利率的实时定价和新闻提要。学生将学习世界上通用的原则、策略和技术。学生将学习如何解释分析报告。该课程将向学生展示如何使用研究来获得洞察力、评估想法和做出决策。学生将学习如何解释会计报告以及财务能力所必需的关键技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融和会计定量方法 (Quantitative Methods for Finance and Accounting)\n公司金融 (Corporate Finance)\n金融和会计研究方法 (Research Methods for Finance and Accounting)\n比较金融和金融服务 (Comparative Finance and Financial Services)\n学术论文 (Dissertation)\n企业管制 (Corporate Governance)\n国际金融 (International Finance)\n金融问题 (Issues in Finance)\n风险和不确定性 (Risk and Uncertainty)\n管理会计 (Management Accounting)",
+  "success_cases": ""
+}

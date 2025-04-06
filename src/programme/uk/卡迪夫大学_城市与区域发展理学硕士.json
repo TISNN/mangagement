@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "城市与区域发展理学硕士",
+  "ename": "MSc Urban and Regional Development",
+  "tags": "社科,建筑,地理科学与规划学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 24700英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科领域背景，如建筑、艺术与设计规划、工程、环境设计/科学地理、城市设计；或者拥有专业经验，提供提交材料日期前6个月内的有雇主签名的推荐信",
+  "objectives": "卡迪夫大学城市与区域发展理学硕士项目适合想要深入学习空间发展理论与实践的学生，致力于培养学生解决城市与区域发展问题，探究乡镇、城市与地区的社会经济变革的能力。项目的重点在于帮助学生掌握关键理论工具、探索社会经济变革的性质与资源及其对世界各社会团体与地区的不同影响。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学位论文 (Dissertation)\n城市与区域动态 (Urban and Regional Dynamics)\n治理城市和区域经济 (Governing Urban and Regional Economies)\n实践中的城市与区域发展 (Urban and Regional Development in Practice)\n 研究方法 (Research Methods)",
+  "success_cases": ""
+}

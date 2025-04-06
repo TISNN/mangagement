@@ -1,0 +1,12 @@
+{
+  "school_name": "肯特大学",
+  "major_name": "计算机科学理学硕士",
+  "ename": "MSc Computer Science",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 23500英镑/年",
+  "requirements": "具有一等或二等荣誉学位或同等学历，不限专业背景，数学技能达到相当于GCSE数学grade C或以上的水平\n所有申请者都将根据具体情况予以考虑，其他资格、专业资格和相关经验也可能被考虑在内",
+  "objectives": "肯特大学计算机科学理学硕士课程旨在为学生提供广泛而均衡的计算机科学介绍，包括就业所需的关键技术和技能，学生还可以通过各种选修课程探索其个人兴趣，该项目将使学生具备在领先的软件公司、先进技术公司和商业部门担任技术角色或者作为系统分析师或顾问与客户打交道的能力。该课程的毕业生遍布全球范围，就职于IBM、思科、Logica/CMG、辉瑞、路透社、壳牌和苏黎世金融等公司。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "面向程序员的高级Java (Advanced Java for Programmers)\n面向对象编程 (Object-Oriented Programming)\n算法与逻辑 ( Algorithms and Logic)\n计算机系统 (Computer Systems)\n基于Web的信息系统开发 (Web-Based Information Systems Development)\n软件工程 (Software Engineering)\n项目与论文 (Project & Dissertation)\n数字取证 (Digital Forensics)\n网络安全中的人为因素 ( Human Factors in Cyber Security)\n数据科学基础 (Foundations of Data Science)",
+  "success_cases": ""
+}

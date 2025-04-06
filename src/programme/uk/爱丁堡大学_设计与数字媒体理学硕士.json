@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "设计与数字媒体理学硕士",
+  "ename": "MSc Design and Digital Media",
+  "tags": "社科,艺术,艺术学院",
+  "introduction": "专业方向: 艺术\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "通常具有英国2:1荣誉学位或同等学历，在这个领域学习的能力和投入比学科背景更重要\n之前的实践设计和/或技术经验的证据（无论是作为本科学位的一部分，还是个人和专业项目的一部分）是学校在考虑申请时使用的标准之一，这通常会反映在学术成绩单中。如果申请者具备同等的专业经验，学校也可能考虑其申请\n需要提交作品集作为申请的一部分\n没有设计/技术主导学位但具备行业或其他相关经验的申请者需要概述其对设计和数字项目的开发和交付的贡献",
+  "objectives": "爱丁堡大学设计与数字媒体理学硕士项目为学员提供了机会，让他们能在各种平台创造性地使用当前的新兴的数字媒体设计实践方面和技术方面的手段，产生全新的现有的技能和见解。该课程以活跃的、协作的环境为基础，提供给了学生一个批判性和反思性的框架，以探索商业、文化和社会背景下的实践导向设计和数字媒体。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "媒体与文化 (Media and Culture)\n数字设计概论 (Introduction to Digital Design)\n交互式媒体设计 (Design for Interactive Media)\n动态网页设计 (Dynamic Web Design)\n设计与数字媒体：最终项目 (Design and Digital Media: Final Project)\n数字媒体工作室项目 (Digital Media Studio Project)\n公共在线数字游乐场 (Digital Playgrounds for the Online Public)\n游戏设计工作室 (Game Design Studio)\n设计、创业和创新 (Design, Entrepreneurship and Innovation)\n数据设计 (Design with Data)\n互联网、社会与经济 (Internet, Society and Economy)",
+  "success_cases": ""
+}

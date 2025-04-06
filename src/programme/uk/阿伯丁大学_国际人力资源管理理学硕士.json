@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "国际人力资源管理理学硕士",
+  "ename": "MSc International Human Resource Management",
+  "tags": "商科,人力资源管理,商学院",
+  "introduction": "专业方向: 人力资源管理\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "不限专业背景，不需要在本科阶段完成商业、人力资源或管理学习，具有2:2荣誉学位或同等学历",
+  "objectives": "阿伯丁大学国际人力资源管理理学硕士课程旨在培养知识渊博、欣赏多元文化国际实践的从业人员。阿伯丁大学国际人力资源管理理学硕士课程将帮助学生能够批判性地衡量人力资源干预，使用定量/定性、科学和心理学的方法来管理人力资源。阿伯丁大学国际人力资源管理理学硕士课程还将使学生能够批判性检查和应用现代方法应对人力资源管理组织在全球环境中运作的问题。涵盖在全球人力资源管理中取得成功所需的财务、项目管理和人际关系技巧。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人力资源要素 (Human Resource Essentials)\n就业关系：国内与国际背景 (Employment Relations: the Domestic and International Context)\n领导力挑战 (The Leadership Challenge)\n变革管理 (Managing Change)\n研究实践 (Research Practice)\n论文：从人力资源的角度调查一个商业问题 (Dissertation: Investigating A Business Issue from A Hr Perspective)",
+  "success_cases": ""
+}

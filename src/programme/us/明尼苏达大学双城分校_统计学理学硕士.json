@@ -1,0 +1,12 @@
+{
+  "school_name": "明尼苏达大学双城分校",
+  "major_name": "统计学理学硕士",
+  "ename": "MS in Statistics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 2,381.5美元/学分",
+  "requirements": "建议GPA3.0",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

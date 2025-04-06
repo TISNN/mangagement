@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "电力电子与驱动理学硕士",
+  "ename": "MSc Power Electronics and Drives",
+  "tags": "工科,电气电子,电气与电子工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要电气工程或相关学科背景，申请者学习过的课程应涵盖：数学、电路、电力电子、电网/系统、控制工程、电机或相关关键技术课程",
+  "objectives": "诺丁汉大学电力电子与驱动理学硕士课程旨在提供电力电子和驱动技术方面的专业教育，涵盖关键的基本原理以及现代应用和当前实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级控制系统设计 (Advanced Control System Design)\n高级电力电子技术 (Advanced Power Electronics)\n硕士电气与电子基础 (Electrical and Electronic Fundamentals for Masters)\n航空航天、船舶与汽车用动力系统 (Power Systems for Aerospace, Marine and Automotive Applications)\n高级交流驱动器与项目 (Advanced AC Drives with Project)\n研究项目的组织与设计 (Research Project Organisation and Design)\n硕士项目 (MSc Project)\n电网 (Power Networks)\n可再生能源发电技术 (Renewable Generation Technologies)\n传感系统与信号处理 (Sensing Systems and Signal Processing)",
+  "success_cases": ""
+}

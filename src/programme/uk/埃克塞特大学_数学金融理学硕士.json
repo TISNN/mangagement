@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "数学金融理学硕士",
+  "ename": "MSc Mathematical Finance",
+  "tags": "商科,金工金数,工程、数学与物理科学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 34920英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，通常需要数学A级和/或在本科课程或专业经验中接受过定量技能培训",
+  "objectives": "埃克塞特大学数学金融理学硕士课程旨在为那些接受过或没有接受过专业数学或金融教育的学生提供坚实的金融和数学理论基础，学生将能够学习金融专业知识并获得数学技能，培养概率和随机分析、期权定价、风险分析和极值、使用 MATLAB/C 的计算方法、财务管理和投资分析等领域的基本补充技能，在选择的领域开展一个项目，发展研究、计算和建模技能，并得到在多个金融服务和保险行业拥有丰富经验的工作人员的支持。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数学金融案例研究 (Case Studies in Mathematical Finance)\n随机与金融方法 (Methods for Stochastics and Finance)\n金融分析与计算 (Analysis and Computation for Finance)\n财务管理基础 (Fundamentals of Financial Management)\n期权定价的数学理论 (Mathematical Theory of Option Pricing)\n精算与数学金融项目 (Actuarial and Mathematical Finance Project)\n投资分析 I (Investment Analysis 1)\n金融工具 (Financial Instruments)\n金融经济学专题 (Topics in Financial Economics)\n银行与金融服务 (Banking and Financial Services)\n衍生产品定价 (Derivatives Pricing)\n国内与国际投资组合管理 (Domestic and International Portfolio Management)\n投资分析 II (Investment Analysis II)\n财务建模 (Financial Modelling)\n高级公司财务 (Advanced Corporate Finance)",
+  "success_cases": ""
+}

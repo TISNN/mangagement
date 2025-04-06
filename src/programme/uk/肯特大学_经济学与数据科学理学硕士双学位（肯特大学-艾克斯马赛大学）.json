@@ -1,0 +1,12 @@
+{
+  "school_name": "肯特大学",
+  "major_name": "经济学与数据科学理学硕士双学位（肯特大学-艾克斯马赛大学）",
+  "ename": "Double Degree MSc Economics and Data Science (Kent-AMU)",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 2年\n项目学费: 20700英镑/年",
+  "requirements": "具有英国一等或二等荣誉学位或同等学历，需要经济学背景，或经济学与和其他学科的综合学位，申请者还必须具备良好的定量技能（例如数学方面的大学预科学历）\n所有申请者都将根据具体情况予以考虑，其他资格、专业资格和相关经验也可能被考虑在内",
+  "objectives": "肯特大学经济学与数据科学理学硕士双学位（肯特大学-艾克斯马赛大学）项目的学生在研究生阶段学习经济学，有机会提升其核心宏观经济学和微观经济学理论以及计量经济学方法和金融计量经济学知识，学习有助于理解复杂当代问题的理解理论概念和分析技巧，有机会专攻金融经济学、货币信贷等领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济学 (Microeconomics)\n计量经济方法 (Econometric Methods)\n宏观经济学 (Macroeconomics)\n经济学论文研究技能 (Research Skills for Economics Dissertation)\n经济学论文 (Economics Dissertation)\n机器学习：理论与应用（预测方法、机器学习与统计学习） (Machine Learning: Theory and Applications (Forecasting Methods, Machine learning and statistical learning))\n高级计量经济学 I：理论与应用（非参数方法与信息约简方法） (Advanced Econometrics I: Theory and Applications (Non-parametric Methods and information Reduction Methods))\n高级计量经济学II：理论与应用（模拟方法） (Advanced Econometrics II: Theory and Applications (Simulation Methods))\n大数据语言与软件 (Language and Software for Big Data)\n非线性模型与多变量：理论与应用（过渡模型、截尾变量模型、多变量非线性时间序列） (Non-linear Models and Multivariate: Theory and Application (Transition Models, Truncated and Censored Variable Models, Multivariate Non-linear Time-Series))\n实习与口头答辩 (Internship and Viva)\n国际经济学 (International Economics)\n国际金融学 (International Finance)\n金融经济学 (Financial Economics)\n可持续经济增长与环境评估 (Sustainable Economic Growth and Environmental Valuation)\n货币与信贷 (Money and Credit)\n发展经济学 (Development Economics)\n大数据与经济学 (Big Data and Economics)\n大数据与定量营销 (Big Data and Quantitative Marketing)\n大数据与金融学 (Big Data and Finance)\n大数据：其他应用 (Big Data: Other Applications)",
+  "success_cases": ""
+}

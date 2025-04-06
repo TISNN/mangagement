@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "医疗保健技术理学硕士",
+  "ename": "MSc Healthcare Technologies",
+  "tags": "工科,生物工程,生命科学与药学学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 35800英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位或同等学历，第一学位需要是科学、技术、工程、数学或医学",
+  "objectives": "伦敦大学国王学院医疗保健技术理学硕士课程将对学生进行医疗保健工程方面的培训，培养他们对现代全球医疗保健技术问题和解决方案的临床和行业意识。该硕士课程将为学生获得博士研究学位或在医疗保健领域就业做好准备。该课程旨在让学生对现代全球医疗保健所面临的挑战有一个深入而全面的了解。该课程将使学生能够利用学院的广博知识，让他们了解医疗和外科干预领域最新的发展，并根据自己的职业抱负量身定制课程。课程模块将向学生介绍支持医疗保健技术最新进展的最重要概念和技术，如机器学习、医疗设备和机器人、最先进的医疗成像和智能分子。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "转化医疗保健的关键技能 (Critical Skills for Translational Healthcare)\n医疗保健技术的小组研究项目 (Group Research Project in Healthcare Technologies )\n医疗保健技术中的扩展个人研究项目 (Extended Individual Research Project in Healthcare Technologies)\n生物医学应用的机器学习 (Machine Learning for Biomedical Applications)\n推动机器学习 (Advance Machine Learning)\n科学编程 (Scientific Programming)\n计算机医疗影像 (Medical Image Computing )\n医学图像采集 (Medical Image Acquisition)\n医学影像重建 (Medical Image Reconstruction)\n医学影像在临床中的应用 (Medical Imaging in Clinical Applications)\n先进的成像先生 (Advanced MR Imaging)\n医学机器人：理论与应用 (Medical Robotics: Theory and Applications)\n软件与机器人集成 (Software and Robotic Integration)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学戴维斯分校",
+  "major_name": "电气与计算机工程理学硕士",
+  "ename": "MS in Electrical and Computer Engineering",
+  "tags": "工科,电气电子",
+  "introduction": "专业方向: 电气电子\n入学时间: 秋季\n项目时长: 3学期\n项目学费: 28710美元/年\n平均成绩: 3.5\n平均G: Q161，V152， A4.0",
+  "requirements": "建议GPA至少3.5",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

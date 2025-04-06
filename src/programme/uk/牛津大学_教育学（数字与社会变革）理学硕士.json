@@ -1,0 +1,12 @@
+{
+  "school_name": "牛津大学",
+  "major_name": "教育学（数字与社会变革）理学硕士",
+  "ename": "MSc Education (Digital and Social Change)",
+  "tags": "社科,教育,教育系",
+  "introduction": "专业方向: 教育\n入学时间: 10月\n项目时长: 1年\n项目学费: 38410英镑/年",
+  "requirements": "具有一等或strong 2:1荣誉学位，需要相关学科背景（偏好社会科学）\n对于拥有美国学士学位的申请者，通常需要满足本科水平要求的最低总体GPA为4.0分中的3.6分\n需要2篇written work（每篇不超过2000字）",
+  "objectives": "牛津大学教育学（数字与社会变革）理学硕士项目旨在发展学生对新技术/教育和社会的深刻理论理解。该项目的核心是对数字包容和社会公正的坚定承诺，以解决有关数字和社会变革对教育的影响的当代问题。学生将通过参与式方法来概念化和设计学习技术，研究它们如何影响英国和全球的边缘人群。牛津大学教育学（数字与社会变革）理学硕士项目旨在使学生批判性地评估和理解技术在整个生命过程中的教育作用，发展专业知识以应对数字不平等带来的挑战，了解如何在实践中嵌入创新的学习技术，培养设计原型的技能，理解社会公正、技术和学习之间的关系。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字教育与社会变革的关键概念 (Key Concepts in Digital Education and Social Change)\n社会正义与科技 (Social Justice and Technology)\n关键数字创新 (Critical Digital Innovation)\n教育、互联网与社会 (Education, the Internet and Society)\n教育研究基础 I (Foundations of Education Research I)\n教育研究基础 II或定性研究的观点与辩论 (Foundations of Education Research II (core) OR Perspectives and Debates in Qualitative Research)\n中间定量研究 (Intermediate Quantitative Research)\n高等教育全球化 (Globalisation in Higher Education)\n非洲教育 (Education in Africa)",
+  "success_cases": ""
+}

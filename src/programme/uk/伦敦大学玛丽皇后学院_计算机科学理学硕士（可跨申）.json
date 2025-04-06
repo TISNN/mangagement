@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "计算机科学理学硕士（可跨申）",
+  "ename": "MSc Computer Science (Conversion)",
+  "tags": "商科,信息系统,电子工程与计算机科学学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，要求本科背景是与计算机科学无关的学科或具有少于50%的计算机科学课程的学科",
+  "objectives": "伦敦大学玛丽皇后学院计算机科学理学硕士（可跨申）项目专为渴望进入科技行业的任意学科背景高度自我激励的毕业生而设计，即使学生不具备先前的计算经验，该项目准备利用计算机和信息系统来提高学生的就业能力，在整合现有知识和经验的同时发展其专业技术技能，学生们也有机会在暑期参加与工业相关的项目，但需要经过竞争性申请。\n伦敦大学玛丽皇后学院计算机科学理学硕士（可跨申）课程旨在培养学生在计算机科学方面的理论见解和实践技能，强调实际应用，侧重于软件工程、计算机系统及其在现实世界中的应用，核心课程介绍基本的计算概念，辅以数据库系统和软件工程的专业课程，这对有志于从事信息系统开发的专业人士至关重要。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "软件工程概论 (Introduction to Software Engineering)\n数据科学与人工智能的风险与决策 (Risk and Decision-Making for Data Science and AI)\n计算机体系结构与网络 (Computer Architecture and Networks)\n安全与认证 (Security and Authentication)\n数据库系统 (Database Systems)\n计算机编程 (Computer Programming)\n交互系统设计 (Interactive System Design)\n数据分析 (Data Analytics)\n移动业务 (Mobile Services)\n商业信息系统 (Business Information Systems)",
+  "success_cases": ""
+}

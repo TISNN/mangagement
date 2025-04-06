@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "专业会计硕士",
+  "ename": "Master of Professional Accounting",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 1年\n项目学费: 351000港币/年",
+  "requirements": "具有认可高等教育院校颁发的商科学士学位；或\n具有认可高等教育院校颁发的非商科学士学位，以及完成香港理工大学会计与金融学院认可的基础商科课程的证明。\n完成财务会计、经济学、商业法、统计学、管理与市场营销课程的申请者被视为商科学位持有者",
+  "objectives": "香港理工大学专业会计硕士学位课程旨在为工商专业的本科毕业生提供会计学及相关知识技能方面相对集中的教学。通过香港理工大学专业会计硕士学位课程的学习，学生将能够成为中国会计信息的主要使用者，以制定行政决策。\n在修完专业会计硕士学位课程之时，毕业生们将能够学会分析并评估会计学、财务和公司管治方面的理论框架；通过选修会计与财务领域的其它课程，培养起自己在会计、财务相关领域的专业知识，比如中国会计学理论与实践、香港与中国内地战略税务管理、财务报表分析、跨国公司财务、企业兼并与收购或者通过完成团队项目而获得的综合知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司会计 (Accounting for Corporations)\n战略管理会计 (Accounting for Strategic Management)\n审计学概论 (Auditing Framework)\n财务报告环境 (Financial Reporting Environment)\n香港税收框架 (Hong Kong Tax Framework)\n管理会计 (Management Accounting)\n管理财务 (Managerial Finance)\n会计理论 (Accounting Theory)\n企业管治 (Corporate Governance)\n跨国公司财务 (Finance for Multinational Corporations)\n财务报表分析 (Financial Statement Analysis)\n合并与收购 (Mergers & Acquisitions)\n课题项目研究 (Project)\n香港地区及中国内地税收战略管理 (Strategic Tax Management in Hong Kong & China)\n中国会计理论与实践 (Theory & Practice of Accounting in China)",
+  "success_cases": ""
+}

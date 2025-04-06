@@ -1,0 +1,12 @@
+{
+  "school_name": "香港岭南大学",
+  "major_name": "数码英语研究文学硕士",
+  "ename": "MA Digital English Studies",
+  "tags": "社科,语言,文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 150000港币/年",
+  "requirements": "申请者应持有由岭南大学认可的高等教育机构授予的相关学士学位，例如英语或其他与文学、语言学、传播学、传媒研究或商业相关的学科；或取得同等学历；或提供令人满意的学术和专业成就证据。",
+  "objectives": "数字英语研究可以广义地理解为数字时代的英语语言学，科技塑造了我们使用语言的方式，它不仅是语言信息的容器，而且对语言的变化和人类从事社会、文化、经济和政治活动的方式产生深远的影响，在当今世界，我们使用英语的方式与数字技术深深交织在一起，香港岭南大学数码英语研究文学硕士课程使学生能够应对数字化世界中正在发生的社会变化，并反思数字技术对英语学习、教学、研究和使用的影响，引导学生利用数字工具对数字信息进行语言、多模态和批判性分析，并在现实世界中产生影响。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字英语语言学：创新与发展 (Digital English Linguistics: Innovation and Development)\n新媒体、话语与社会 (New Media, Discourse, and Society)\n应用语言学研究方法 (Research Methods in Applied Linguistics)\n语料库语言学：基础与实践 (Corpus Linguistics: Fundamentals and Practice)\n顶点项目：解决现实世界的问题 (Capstone Project: Solving Real-world Issues)\n数字研究工具与资源概论 (Introduction to Digital Research Tools and Resources)\n数字英语语言学进展 (Advances in Digital English Linguistics)\n英语交流的数据可视化 (Data Visualisation for English Communication)\n数字文学文体学与创造性实践 (Digital Literary Stylistics and the Practice of Creativity)\n计算机辅助英语语言学习 (Computer-Assisted English Language Learning)\n写作技术：多模态与意义 (Technologies of Writing: Multimodality and Meaning)\n英语口语的数字化视角 (Digital Perspectives on Spoken English)\n研究实习 (Research Practicum)\n数字语言学专题 (Special Topics in Digital Linguistics)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学戴维斯分校",
+  "major_name": "计算机科学理学硕士",
+  "ename": "MS in Computer Science",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2-3年\n项目学费: 44,930美元\n平均成绩: 3.736",
+  "requirements": "具有扎实的计算机科学学术背景（包括计算机体系结构、操作系统、编程语言、理论基础和数学基础）。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

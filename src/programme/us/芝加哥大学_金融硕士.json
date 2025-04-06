@@ -1,0 +1,12 @@
+{
+  "school_name": "芝加哥大学",
+  "major_name": "金融硕士",
+  "ename": "Master in Finance",
+  "tags": "商科,金融",
+  "introduction": "专业方向: 金融\n项目类别: STEM\n入学时间: 秋季\n项目时长: 15个月\n项目学费: 115000美元",
+  "requirements": "无特定必修课，但建议申请人修读过advanced quantitative coursework，并对coding有了解。课程举例：线性代数、统计学、多变量微积分、Python、C等",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

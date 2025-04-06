@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "净零建筑服务工程理学硕士",
+  "ename": "MSc Net Zero Building Services Engineering",
+  "tags": "社科,建筑,架构、建筑与土木工程学院",
+  "introduction": "专业方向: 建筑\n入学时间: 10月\n项目时长: 1年\n项目学费: 25500英镑/年",
+  "requirements": "具有英国2:2荣誉学位（成绩达到55%）或同等学历，需要建筑环境相关的学科背景，专业机构的会员资格可能可以代替满足学位要求",
+  "objectives": "拉夫堡大学净零建筑服务工程理学硕士课程旨在提供对低能耗建筑、数字孪生、供暖、通风和空调（HVAC）以及建筑服务设计的原理和应用的全面了解，使毕业生能够为建筑环境中的低能耗解决方案和人工智能的未来做出贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "健康与室内环境 (Wellbeing and Indoor Environment)\n建筑热负荷与系统 (Building Thermal Loads and Systems)\n热建模与三维建筑信息模型 (Thermal Modelling and 3D Building Information Modelling (BIM))\n研究论文 (Research Dissertation)\n研究方法 (Research Methods)\n电气系统：建筑与可再生能源 (Electrical Systems: Buildings and Renewable Energy)\n建筑能源供应系统与区域能源网络 (Building Energy Supply Systems and District Energy Networks)\n净零建筑设计 (Net Zero Building Design)\n低能耗建筑的控制与调试 (Control and Commissioning for Low Energy Buildings)\n设计管理 (Design Management)\n联合建筑信息模型 (Federated Building Information Modelling)",
+  "success_cases": ""
+}

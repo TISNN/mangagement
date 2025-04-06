@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "生物技术与生物信息学理学硕士",
+  "ename": "MSc Biotechnology and Bioinformatics",
+  "tags": "理科,生物,医学，医学科学与营养学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "通常要求2:2荣誉学位或同等学历，需要生物或生物医学科学学科背景或相关学位",
+  "objectives": "阿伯丁大学生物技术与生物信息学理学硕士项目旨在帮助学生了解科学思想的商业化、生物企业的建立以及伴随这些知识而来的研究技能。工业生物技术和生物制药部门的增长为有经验的毕业生带来了令人兴奋的职业机会。阿伯丁大学生物技术与生物信息学理学硕士课程使学生可以获得高级生物技术和生物信息学的培训，以及生物商业和科学思想商业化的培训。本硕士课程是生命科学、药学和医学生物科学专业毕业生的理想选择，他们希望改善自己的职业前景，扩大与生物技术相关的知识基础和自己的科学兴趣，并对科学的商业化着迷。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "基本技能-归纳法 (Basic Skills - Induction)\n生物信息学 (Bioinformatics)\n生物技术 (Biotechnology)\n商业化与生物商业概论 (Introduction to Commercialisation and Bio - Business)\n小分子药物发现 (Small Molecule Drug Discovery)\n分子遗传学 (Molecular Genetics)\n微生物学概论 (Introduction to Microbiology)\n应用统计学 (Applied Statistics)\n高级生物商业与生物科学研究商业化 (Advanced Bio - Business and the Commercialisation of Bioscience Research)\n生物药物发现 (Biologic Drug Discovery)\n高级生物技术 (Advanced Biotechnology)\n高级生物信息学与基因组测序 (Advanced Bioinformatics and Genome Sequencing)\n研究项目 (MSc Ims Research Project)",
+  "success_cases": ""
+}

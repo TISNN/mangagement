@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "数据分析学理学硕士",
+  "ename": "MSc Data Analytics",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 35340英镑/年",
+  "requirements": "具有一等荣誉学位或high 2:1本科学位，需要计算机科学、数学、统计学、物理学或其他相关以定量为重点的学位",
+  "objectives": "华威大学数据分析学理学硕士项目是专为计算机科学、数学或物理科学专业有技术头脑的毕业生设计的。沃里克的计算机科学系在英国排名第二（REF 2014），是数据分析领域的研究领导者，将培训学生所需的技术技能和专业知识。该课程结合了计算机科学、商业、工程和数学的各个方面，为数据分析提供了独特的视角。除了课程开发的技术技能和专业知识外，学生可以在一门新兴学科的前沿寻找机会，这门学科将在未来几年继续为科学和工业带来革命。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据挖掘 (Data Mining)\n数据分析基础 (Foundations of Data Analytics)\n数据分析中的论文项目 (Dissertation Project in Data Analytics)\n研究方法 (Research Methods)\n计算基础 (Foundations of Computing)\n高性能计算 (High Performance Computing)\n算法博弈论 (Algorithmic Game Theory)\n图像和视频分析 (Image and Video Analysis)\n传感器网络和移动数据通信 (Sensor Networks and Mobile Data Communications)\n高级计算机安全 (Advanced Computer Security)\n社会信息学 (Social Informatics)\n自然语言处理 (Natural Language Processing)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "行为科学理学硕士",
+  "ename": "MSc Behavioural Science",
+  "tags": "商科,经济,商学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "1. 科学方向申请要求\n具有英国一等或2:1荣誉学位或同等学历，需要心理学、神经科学、社会学、工程学、数学、统计学或任何具有科学背景的学科\n2. 商业方向申请要求\n具有英国一等或2:1荣誉学位或同等学历，需要经济学、商业、金融、管理、市场营销、工程、数学或统计学背景，没有经济学学位的申请者必须在本科学习期间成功完成至少1门概率论和统计学或计量经济学入门课程",
+  "objectives": "格拉斯哥大学行为科学理学硕士是由亚当·斯密商学院和心理与神经科学学院共同举办的一个独特的新项目。它旨在通过跨学科项目塑造未来的行为科学家，该项目结合了经济学、商业、金融、心理学和神经科学等多个专业领域。学生将受益于新方法、新实验室设施和工业合作伙伴关系。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计量经济学 (Econometrics)\n行为经济学导论 (Introduction to Behavioral Economics)\n可重复研究的数据技能 (Data Skills for Reproducible Research)\n神经科学导论 (Introduction to Neuroscience)\n行为经济学高级主题 (Advanced Topics in Behavioral Economics)\n决策神经科学 (Decision Neuroscience)\n论文或行业项目 (Thesis or Industry Project)\n健康神经科学 (Health Neuroscience)\n气候变化心理学4H (Psychology of Climate Change 4H)\n从视觉意识到自由意志 (From Visual Awareness to Free Will)\n行为科学的实验设计和方法 (Experimental Design and Methods for Behavioral Sciences)\n管理组织中的多样性 (Managing Diversity in Organizations)\n商业决策的管理科学 (Management Science for Business Decision-making)\n感知和视觉认知 (Perception and Visual Cognition)\n行为经济学和个人理财 (Behavioral Economics and Personal Finance)\n行为金融学 (Behavioral Finance)\n神经经济学 (Neuroeconomics)",
+  "success_cases": ""
+}

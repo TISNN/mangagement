@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "微电子技术与材料理学硕士",
+  "ename": "MSc Microelectronics Technology and Materials",
+  "tags": "工科,电气电子,理学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 216000港币/年",
+  "requirements": "具有荣誉学士学位或同等学历，需要理工科背景，优先考虑具备微电子行业相关工作经验的申请者",
+  "objectives": "香港理工大学微电子技术与材料理学硕士项目旨在培养具备知识和动手能力的高素质人才，为蓬勃发展的半导体行业做出贡献。基于应用物理系在器件物理和材料科学研究方面的专业知识，这个一年制的课程为学生提供独特的、面向专业的微电子和集成电路设计、仿真、制造和加工、表征和检验的工艺流程教育。毕业生将具备微电子技术和材料的知识和技能，并能够应用他们的知识，在该领域展示专业精神和领导能力，能够在处理复杂的问题和情况时进行全面和分析的思考，具有良好的批判性和创造性思维能力，能够提出实用和创新的解决方案，通过对专业实践的探究和反思，增强持续专业发展的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "半导体材料与加工  (Semiconductor Materials and Processing)\n半导体器件与系统 (Semiconductor Devices and Systems)\n集成电路设计 (Integrated Circuits Design)\n集成电路加工与实验 (Integrated Circuit Processing and Laboratory )\n统计与数据分析 (Statistics and Data Analytics)\n高级材料分析与表征 (Advanced Materials Analysis and Characterisation)\n薄膜材料与制备技术 (Thin Film Materials and Preparation Technologies)\n微机电系统与传感器 (Microelectromechanical Systems (MEMS) and Sensors)\n微电子封装与可靠性 (Microelectronics Packaging and Reliability)\n新兴内存技术 (Emerging Memory Technologies )\n材料科学人工智能 (Artificial Intelligence for Materials Science)\n用于半导体制造与检测的机器视觉 (Machine Vision for Semiconductor Manufacturing and Inspections)",
+  "success_cases": ""
+}

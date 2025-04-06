@@ -1,0 +1,12 @@
+{
+  "school_name": "佐治亚大学",
+  "major_name": "物理学硕士",
+  "ename": "MS in Physics",
+  "tags": "理科,物理",
+  "introduction": "专业方向: 物理\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1.5-2年\n项目学费: 45,700美元",
+  "requirements": "申请者必须已经获得物理学、天文学或相关领域的学士学位，并且应该有杰出的本科成绩",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

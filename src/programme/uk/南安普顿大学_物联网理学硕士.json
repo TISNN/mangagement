@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "物联网理学硕士",
+  "ename": "MSc Internet of Things",
+  "tags": "工科,电气电子,电子与计算机科学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 33900英镑/年",
+  "requirements": "具有2:1学位，需要电子、计算机科学或相关学科背景，如计算机工程、电信或工程\n申请者必须在以下方面取得upper 2:1的成绩：\n- 1门高等数学课程，如：高等数学、应用数学、数学分析、工程数学、电气和电子工程师数学或纯数学\n- 1门编程课程（C, C, Python, Java）",
+  "objectives": "物联网理学硕士课程旨在帮助学生发展设计和建造下一代互联设备和系统所需的理论知识和实践技能，学生将了解关键的硬件和软件组件，以及保护和优化它们的工具和方法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目准备 (Project Preparation)\n安全硬件设计 (Secure Hardware Design)\n嵌入式物联网系统的基础 (Foundations of Embedded IoT Systems)\n物联网网络 (IoT Networks)\n生物识别 (Biometrics)\n开放数据创新 (Open Data Innovation)\n数据科学基础 (Foundations of Data Science)\n移动应用开发 (Mobile Applications Development)\n微传感器技术 (Microsensor Technologies)\n生物启发机器人 (Biologically Inspired Robotics)\n嵌入式处理器 (Embedded Processors)\n密码学 (Cryptography)\n无线通信的机器学习 (Machine Learning for Wireless Communications)",
+  "success_cases": ""
+}

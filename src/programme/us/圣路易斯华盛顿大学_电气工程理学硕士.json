@@ -1,0 +1,12 @@
+{
+  "school_name": "圣路易斯华盛顿大学",
+  "major_name": "电气工程理学硕士",
+  "ename": "MS in Electrical Engineering",
+  "tags": "工科,电气电子",
+  "introduction": "专业方向: 电气电子\n入学时间: 春季/秋季\n项目时长: 30学分\n项目学费: 61750美元/年",
+  "requirements": "1. 学士学位：工程或其他STEM学科2. 建议先修课：微积分和微分方程、概率论与统计、工程数学、矩阵代数、物理、计算机科学基础、信号与系统、电路",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "高级工程材料理学硕士",
+  "ename": "MSc Advanced Engineering Materials",
+  "tags": "工科,材料,材料学院",
+  "introduction": "专业方向: 材料\n入学时间: 9月\n项目时长: 1年\n项目学费: 35000英镑/年",
+  "requirements": "具有英国2:2荣誉学位或同等学历，需要材料科学、机械工程、物理学、冶金工程、生物材料或相关学科的背景，学校也会接受具有化学背景第一学位成绩达到2:1的申请者，其他背景也可能被考虑，如数学\n申请者如果是在读生，需要提供最后一年学习的课程列表及其学分权重",
+  "objectives": "曼彻斯特大学高级工程材料理学硕士项目使学生深入理解管理高级工程应用使用材料的设计、选择、加工、性能和稳定性的关键因素。\n曼彻斯特大学高级工程材料理学硕士项目旨在：\n教授关于当前顶尖材料系统的详细知识，着重复合材料、先进合金、功能和工程陶瓷；\n探索高级材料的制造与加工过程中使用的技术；\n使学生理解构成、微结构、加工和性能之间的关系；\n探索材料如何执行服务、如何存活于恶劣环境之中；\n培养学生掌握选择及设计下一代高性能工程材料所需的必要技能；\n使学生为将来从事产业或研究工作打下稳固的基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "PGT论文 (PGT Dissertation)\n材料科学概论 (Introduction to Materials Science)\n研究方法 (Research Methods)\n先进工程材料原理 (Principles of Advanced Engineering Materials)\n先进金属加工 (Advanced Metals Processing)\n高温合金和高性能材料 (Superalloys & High Performance Materials)\n先进复合材料 (Advanced Composites)\n石墨烯与纳米材料 (Graphene & Nanomaterials)",
+  "success_cases": ""
+}

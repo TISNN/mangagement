@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "供应链管理理学硕士",
+  "ename": "MSc Supply Chain Management",
+  "tags": "商科,供应链管理,商业经济学院",
+  "introduction": "专业方向: 供应链管理\n入学时间: 10月\n项目时长: 1年\n项目学费: 29500英镑/年",
+  "requirements": "具有2:2荣誉学位，至少达到55%，最好是以下学科之一：供应链管理与物流、运输、工商管理、管理学、经济学、工程学、运筹学、计算机科学、数学和统计学\n来自其他学科的申请者可能会根据具体情况被考虑，前提是他们能够表现出较强的定量能力\n相关的专业资格和/或经验也将被考虑",
+  "objectives": "供应链是全球贸易的动脉，随着世界比以往任何时候都更加紧密地联系在一起，集成供应链形成了容易受到外部因素和中断影响的复杂网络，当今的企业不仅面临着以合理的成本向客户无缝交付商品和服务的挑战，而且还需要考虑循环经济的原则和实践，以确保其运营的可持续性，这些挑战，再加上动态的国际环境，需要具有高能力的管理人员使用分析方法和数据科学的力量来设计、计划和管理供应链运营。拉夫堡大学供应链管理理学硕士课程适合具有供应链管理和物流、运输、工商管理、管理学、经济学、工业和其他相关工程学科、统计学、运筹学、计算机科学或数学等领域本科学位的申请者，另外，在供应链分析方面具备专业经验的学生可以通过本课程培养额外的分析和编程技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "发现分析 (Discovery Analytics)\n决策分析 (Decision Analytics)\n分析过程与编程 (Process and Programming for Analytics)\n物流系统 (Logistics Systems)\n供应链管理研究设计 (Supply Chain Management Research Design)\n客户分析 (Customer Analytics)\n供应链规划与网络设计 (Supply Chain Planning and Network Design)\n当代供应链管理专题 (Contemporary Supply Chain Management Topics)\n领导力与项目管理 (Leadership and Project Management)\n顶点项目 (Capstone Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学伯克利分校",
+  "major_name": "电气工程与计算机科学硕士",
+  "ename": "MEng in Electrical Engineering and Computer Science",
+  "tags": "工科,电气电子",
+  "introduction": "专业方向: 电气电子\n入学时间: 秋季\n项目时长: 1年\n项目学费: 60766.5美元\n平均成绩: 3.7\n平均G: Q>90%,V>70%,W>3.5",
+  "requirements": "GPA 至少达到 3.0\n具有本科或以上水平的编程、算法、数据结构和理论方面的经验",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

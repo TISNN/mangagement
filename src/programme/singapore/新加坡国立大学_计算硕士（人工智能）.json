@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "计算硕士（人工智能）",
+  "ename": "Master of Computing (Artificial Intelligence)",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 8月\n项目时长: 1.5年\n项目学费: 40694新币/年",
+  "requirements": "本课程专为在计算和数学方面有坚实基础并希望在工业或研究领域提高其在人工智能方面的技能的学生而设计\n申请者应该具备：\n- 具有良好的计算机荣誉学位；或\n- 具有良好的相关学科荣誉学位以及2年信息技术行业经验；或\n- 具有良好的计算机学士学位以及2年信息技术行业经验；或\n- 具有良好的商业相关学科学士学位或荣誉学位以及2年信息技术行业经验。\n优先考虑具备较强数学培训和相关项目或工作经验的申请者\n需要提交GRE/GMAT\n可以选择性提交存款证明，金额覆盖至少一学年学费",
+  "objectives": "人工智能越来越被认为是国家和全球经济增长的重要来源，导致对工业和研究领域以人工智能为重点的教育和培训的需求不断增长，新加坡国立大学计算硕士（人工智能）课程旨在满足这一需求，为人工智能的高级原理、算法和应用提供系统的广度和深度培训，侧重于智能系统（知识表示、机器学习和推理）的计算基础和原理，以及主要人工智能应用领域（视觉、语音和语言处理、数据分析和机器人）的最新技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "3D计算机视觉 (3D Computer Vision)\n智能机器人：算法与系统 (Intelligent Robots: Algorithms and Systems)\n人工智能规划与决策 (AI Planning and Decision Making)\n文本挖掘 (Text Mining)\n自然语言处理 (Natural Language Processing)\n值得信赖的机器学习 (Trustworthy Machine Learning)\n计算机科学专题：值得信赖的机器学习 (Topics in Computer Science: Trustworthy Machine Learning)\n人工智能伦理与治理 (AI Ethics and Governance)\n智能系统与人工智能治理 (Smart Systems and AI Governance)\n计算机视觉与模式识别 (Computer Vision and Pattern Recognition)\n高级自然语言处理 (Advanced Natural Language Processing)\n知识表示与推理 (Knowledge Representation and Reasoning)\n机器人高级专题 (Advanced Topics in Robotics)\n知识发现与数据挖掘 (Knowledge Discovery and Data Mining)\n神经网络与深度学习 (Neural Networks and Deep Learning)\n神经网络与深度学习 II (Neural Networks and Deep Learning II)\n机器学习理论与算法 (Theory and Algorithms for Machine Learning)\n人工智能中的不确定性建模 (Uncertainty Modelling in AI)\n数据驱动决策 (Data-Driven Decision Making)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "纳米技术与可再生能源理学硕士",
+  "ename": "MSc Nanotechnology and Renewable Energy",
+  "tags": "工科,能源,电气和电子工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 24900英镑/年",
+  "requirements": "具有2:2英国荣誉学位或受认可的同等学历，需要高级材料、电子工程、材料科学、纳米科学、化学或物理学背景\n如果申请者不符合以上要求，学校也会考虑其相关工作经验",
+  "objectives": "萨里大学纳米技术与可再生能源理学硕士课程将使学生了解纳米科学和量子工程、纳米材料以及用于可再生能源发电和存储的纳米技术的实际应用。学生将由先进技术学院的国际公认专家所教授，并通过研究小组中的单个研究项目，使用最新的先进设备和设施，获得专门技能。学生将学习纳米技术背后的基础知识，然后再讨论使用纳米材料（例如石墨烯，碳纳米管，2D材料和钙钛矿太阳能电池）的实现方法。学生将学习如何使用先进的纳米技术工具并了解未来的趋势以及能量产生和存储的应用。通过纳米技术和可再生能源理学硕士课程的学习，学生可以掌握这个快速发展的领域中职业所需的基本技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电池和电力系统 (BATTERY AND ELECTRICAL SYSTEMS)\n能源经济与技术 (ENERGY ECONOMICS AND TECHNOLOGY)\n纳米加工与特性 (NANOFABRICATION AND CHARACTERISATION)\n纳米科学与纳米技术 (NANOSCIENCE & NANOTECHNOLOGY)\n射频与微波基础 (RF AND MICROWAVE FUNDAMENTALS)\n射频系统与电路设计 (RF SYSTEMS AND CIRCUIT DESIGN  )\n纳米光子学的发展 (ADVANCES IN NANOPHOTONICS   )\n微波设计技术 (MICROWAVE DESIGN TECHNIQUES )\n纳米电子和设备 (NANOELECTRONICS & DEVICES)\n可再生能源与技术 (RENEWABLE ENERGY TECHNOLOGIES)\n60学分标准项目 (60 CREDIT STANDARD PROJECT)\n半导体器件和光电 (SEMICONDUCTOR DEVICES AND OPTOELECTRONICS)\n风能技术 (WIND ENERGY TECHNOLOGY)",
+  "success_cases": ""
+}

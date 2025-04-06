@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "材料化学理学硕士",
+  "ename": "MSc Materials Chemistry",
+  "tags": "理科,化学,化学学院",
+  "introduction": "专业方向: 化学\n入学时间: 9月\n项目时长: 1年\n项目学费: 40300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要化学或含有较强化学成分的密切相关学科背景，如化学工程或材料科学\n学校也可能考虑具有英国2:2荣誉学位或同等学历以及相关工作经验和支持性推荐信的申请者\n申请者应具有较强的化学背景，在整个学位期间至少连续3年学习化学课程，如果申请人有较强的理科背景，例如数学/物理学，学校可能会接受较少的化学课程\n申请人还应至少完成大学一年级水平的数学课程，如微积分或线性代数",
+  "objectives": "材料化学已成为化学中的一个重要分支学科，它跨越了传统有机/无机/物理中的化学边界，并与工程、生物科学等许多学科重叠。材料化学家现在在微电子学、聚合物科学、催化和纳米技术等领域发挥着主导作用，它们还对制药业等更为传统的化学领域做出了重要贡献，了解中间体和产品的“物理特性”则被视为优化药物活性成分的合成和性质的关键。爱丁堡大学材料化学理学硕士项目到英国工程师委员会充分认可，课程内容将由材料化学领域的优秀专家亲自授课，学生在课堂上可以与专家交流和互动，解除在化工行业最先进的技术和知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "功能材料化学 (Chemistry of Functional Materials PGT)\n理学硕士研究方法 (MSc Research Methods)\n材料化学 (Materials Chemistry (PGT))\n化学理学硕士论文 (MSc Dissertation in Chemistry)\n高等物理化学 (Advanced Physical Chemistry)\n高等无机化学 (Advanced Inorganic Chemistry)",
+  "success_cases": ""
+}

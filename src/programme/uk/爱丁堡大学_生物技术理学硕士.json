@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "生物技术理学硕士",
+  "ename": "MSc Biotechnology",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 43300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要在生物技术、生物化学、分子生物学、遗传学、化学、药学、化学工程、植物科学或相关科学方面有很强的背景，并具备定量和计算机科学技能",
+  "objectives": "人口结构的变化以及人们对粮食、燃料、农业和环境可持续性的日益增长的需求是当今世界面临的主要挑战之一。在爱丁堡大学生物技术理学硕士项目中，学生将学习研发技能，以创造新的产品和服务，同时，他们还将会调查当前生物技术结构和未来需求领域的经济基础，包括全球制药行业和碳封存。学生将会学习如何应用技术来解决紧迫的现实生物问题，并获得未来生物技术发展所需的技能和专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物技术产业的经济与创新 (Economics and Innovation in the Biotechnology Industry)\n智能农业 (Intelligent Agriculture)\n研究项目建议书 (Research Project Proposal)\n工业生物技术原理 (Principles of Industrial Biotechnology)\n微生物群落元基因组分析 (Metagenomic Analysis of Microbial Communities)\n合成生物学应用 (Applications of Synthetic Biology)\n自动化和工业 (Automation and Industry)\n生物商务 (Biobusiness)\n生物化学 A & B (Biochemistry A & B)\n生物设计 (Biodesign)\n生物信息学规划与系统管理 (Bioinformatics Programming & System Management)\n药物发现 (Drug Discovery)\n药物发现的商业方面 (Commercial Aspects of Drug Discovery)\n酶学与生物生产 (Enzymology and Biological Production)\n基因表达与微生物调控 (Gene Expression and Microbial Regulation)",
+  "success_cases": ""
+}

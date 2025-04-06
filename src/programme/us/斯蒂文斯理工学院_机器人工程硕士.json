@@ -1,0 +1,12 @@
+{
+  "school_name": "斯蒂文斯理工学院",
+  "major_name": "机器人工程硕士",
+  "ename": "MEng in Robotics",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 春季/夏季/秋季\n项目时长: 未标明\n项目学费: 43,528美元/年",
+  "requirements": "GPA3.0",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "语言学与语言科学哲学硕士",
+  "ename": "MPhil Linguistics and Language Sciences",
+  "tags": "社科,语言,现代和中世纪语言与语言学学院",
+  "introduction": "专业方向: 语言\n入学时间: 10月\n项目时长: 1年\n项目学费: 34254英镑/年",
+  "requirements": "申请者应该具有英国一等荣誉学位或同等学历\n课程竞争激烈，强烈建议一等荣誉学位，特殊情况下会考虑high 2.i荣誉学位\n语言学初学者建议不要申请，虽然高级研究哲学硕士课程在课程的第一学期包含授课部分，但它是为已经具有广泛语言学背景的学生准备的，并非旨在作为转换课程，部分情况下具有邻近学科学位（例如心理学、哲学或教育学）的学生也会被考虑录取，但他们必须证明自己熟悉理论语言学和应用语言学的概念、问题和理论，这使他们与其他申请者同等水平\n语言方向的申请者必须能够展示相关语言的高级阅读知识\n需要提供1篇Sample of work（约3000字）",
+  "objectives": "剑桥大学语言学与语言科学哲学硕士课程使用一系列方法和方法，为学生提供中级和高级水平的语言理论和相关主题的必要背景；通过特定语言（如有）或应用语言学等领域的语言学途径提供专业化机会，让学生有机会获得特定研究兴趣的专业知识；为继续博士研究提供基础；通过参加研究生研讨会和阅读小组，提供参与学院内外、语言科学界研究文化的机会；培养进行独立研究所需的研究技能，例如：制定切合实际的研究提案，适当界定目标、目的、方法、范围和预期结果；根据提案准备书面工作；选择和掌握合适的研究方法；收集相关文献；使用计算机数据库和语料库；使用相关软件，包括适当的统计软件包；向更广泛的研究社区提供有充分论证的学术材料。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语音学 (Phonetics)\n语音理论 (Phonological Theory)\n形态学 (Morphology)\n语法 (Syntax)\n语义学与语用学 (Semantics & Pragmatics)\n历史语言学 (Historical Linguistics)\n语言思想史 (History of Ideas on Language)\n英语史 (History of English)\n法语史 (History of the French Language)\n第一语言和第二语言习得 (First and Second Language Acquisition)\n语言加工与学习心理学 (Psychology of Language Processing and Learning)\n语言类型学 (Language Typology)\n计算语言学 (Computational Linguistics)",
+  "success_cases": ""
+}

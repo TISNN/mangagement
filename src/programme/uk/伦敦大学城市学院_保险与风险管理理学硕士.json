@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "保险与风险管理理学硕士",
+  "ename": "MSc Insurance and Risk Management",
+  "tags": "商科,金融,贝叶斯商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 27300英镑/年",
+  "requirements": "具有2:1学位或同等学历\n有一定程度的商业或金融学习经验者优先\n本课程不要求具备工作经验",
+  "objectives": "伦敦大学城市学院保险和风险管理硕士课程将提供在不断发展的保险，风险和风险管理领域取得成功所必需的全面知识和技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "保险法律法规 (Insurance Law and Regulation)\n财务原理与财务分析 (Principles of Finance and Financial Analysis)\n风险管理 (Risk Management)\n风险与保险市场理论 (Theory of Risk and Insurance Markets)\n保险业会计与财务管理 (Accounting and Financial Management in Insurance)\n保险与金融服务业的业务组织与企业战略 (Business Organisation and Corporate Strategy in Insurance and Financial Services)\n一般保险 (General Insurance)\n风险分析与建模 (Risk Analysis and Modelling)\n研究项目管理技能研讨会 (Research Project Management Skills Workshop)\n商业研究项目 (Business Research Project)\n操作风险管理 (Operational Risk Management)\n替代性风险转移和风险证券化 (Alternative Risk Transfer and Risk Securitisation)",
+  "success_cases": ""
+}

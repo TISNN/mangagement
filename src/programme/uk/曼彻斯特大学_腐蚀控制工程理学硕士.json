@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "腐蚀控制工程理学硕士",
+  "ename": "MSc Corrosion Control Engineering",
+  "tags": "工科,化工,材料学院",
+  "introduction": "专业方向: 化工\n入学时间: 9月\n项目时长: 1年\n项目学费: 35000英镑/年",
+  "requirements": "具有英国2:2荣誉学位或同等学历，需要材料科学、物理学、冶金工程和化学、化学工程背景（科学、工程或技术领域的其他学科背景也将被考虑，但需要具备英国2.1荣誉学位），专业经验可以根据具体情况予以考虑\n申请者如果是在读生，需要提供最后一年学习的课程列表及其学分权重",
+  "objectives": "曼彻斯特大学腐蚀控制工程理学硕士项目全面训练学生理解腐蚀及其控制。最初，学生将学习支撑腐蚀过程的基本化学、物理和冶金术。接着，学生将学习腐蚀控制的方法，包括材料选择、阴极保护、腐蚀抑制和防护涂层。最后，学生将结合产业情境学习最重要的腐蚀与控制知识，如石油生产。\n曼彻斯特大学腐蚀控制工程理学硕士项目为学生奠定良好基础，使其担任产业内的腐蚀科学家或工程师或从事尖端学术研究。\n曼彻斯特大学腐蚀控制工程理学硕士项目旨在：\n培养能干的、具有专业资格的学生，使学生接受适当的培训以便在英国、欧洲或海外产业中即时有效地担任报酬颇丰的腐蚀科学家或工程师；\n提供具有智力挑战性和产业相关性的转换训练；\n满足想要拓展腐蚀及腐蚀控制方法领域的专业技能的实践中的工程师、科学家及技术员的需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "PGT论文 (PGT Dissertation)\n材料科学概论 (Introduction to Materials Science)\n研究方法 (Research Methods)\n腐蚀原理 (Principles of Corrosion)\n腐蚀管理 (Corrosion Management)\n工业过程的腐蚀与控制 (Corrosion & Control for Industrial Processes)\n高温合金和高性能材料 (Superalloys & High Performance Materials)\n油田腐蚀与控制 (Oilfield Corrosion & Control)",
+  "success_cases": ""
+}

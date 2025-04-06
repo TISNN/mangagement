@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "再生医学干细胞工程理学硕士",
+  "ename": "MSc Stem Cell Engineering for Regenerative Medicine",
+  "tags": "社科,医学,分子生物科学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要生物医学工程学科背景，其中生物工程、细胞工程和生命科学课程的平均成绩为及格\n学校也接受牙科、动物学、兽医学、生命科学、生理学、生物化学、化学、物理学、材料科学、干细胞科学、医学和生物工程学位",
+  "objectives": "格拉斯哥大学再生医学干细胞工程理学硕士项目旨在培养具有再生医学领域干细胞培养、工程、调控和翻译专业知识的新一代研究人员，以帮助填补工业生命科学领域的技能短缺。英国和其他地方的再生医学部门快速增长，主要中心专注于细胞和非细胞疗法的生产和临床试验的增长。因此，对具有高度专业化再生医学经验的新员工的需求越来越大。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分子研究技能 (Molecular Research Skills)\n再生医学的干细胞科学与工程微环境 (Stem Cell Science and Engineering Microenvironments for Regenerative Medicine)\n细胞与系统生物物理学M (Biophysics of Cells and Systems M)\n重组蛋白表达 (Recombinant Protein Expression)\n支架与组织M (Scaffolds and Tissues M)\n生物科学研究的技术转让与商业化 (Technology Transfer and Commercialisation of Bioscience Research)\n设计研究项目:生物医学研究方法 (Designing a Research Project: Biomedical Research Methodology)\n新一代测序生物信息学概论 (Introduction to Next Generation Sequencing Bioinformatics)\n研究科学家的生物成像 (Bio-imaging for Research Scientists)\n生物医学的组学分析:从基因组学到代谢组学 (Omic Analyses for the Biomedical Sciences: from Genomics to Metabolomic)",
+  "success_cases": ""
+}

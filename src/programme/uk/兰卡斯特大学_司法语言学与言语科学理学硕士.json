@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "司法语言学与言语科学理学硕士",
+  "ename": "MSc Forensic Linguistics and Speech Science",
+  "tags": "社科,语言,语言学与英语语言学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 24830英镑/年",
+  "requirements": "通常需要具有相关学科的2:1学位。学校也会考虑具有其他学科2:2学位或同等学历和/或丰富相关经验的申请者，在这些情况下，申请者应该清楚地展示其经历和技能是如何为研究生学习做好准备的。",
+  "objectives": "兰卡斯特大学司法语言学与言语科学理学硕士项目的学生将有机会学习有助于司法语言分析的核心分析组件，例如语料库语言学、社会语言学、语音学和语音技术。学生将考虑该领域的紧迫问题和敏感性，包括道德考虑和监管问以及有机会参与能够实质性推动司法语言学和司法言语科学向前发展的研究项目。\n通过兰卡斯特大学司法语言学与言语科学理学硕士项目与安全组织和从业者的密切合作，学生将成为该领域积极工作人员之间进行对话的中心，因此，学生将了解在最前沿工作需要什么我们这个时代最关键、最危险的领域之一。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语料库语言学 (Corpus Linguistics)\n法医语言学 (Forensic Linguistics)\n法医言语科学 (Forensic Speech Science)\n言语科学基础 (Foundations of Speech Science)\n法医语言学的方法、伦理和问题 (Methods, Ethics, and Issues in Forensic Linguistics)\n实验语音学 (Experimental Phonetics)\n社会语言学 (Sociolinguistics)",
+  "success_cases": ""
+}

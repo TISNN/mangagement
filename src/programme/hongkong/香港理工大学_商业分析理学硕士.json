@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 241000港币/年",
+  "requirements": "具有学士学位或同等学术/专业资格，最好具备至少1年相关工作经验\n申请者（通常年龄在27岁或以上）具备其他高等教育学历以及至少6年工业、商业或公共管理工作经验（其中3年担任管理职务）亦可获考虑",
+  "objectives": "香港理工大学商务分析理学硕士学位课程以将分析技术应用于大数据来进行组织决策为基础，继而深入研究各种应用领域。该课程致力于传授商业分析的基本技能和知识，应用业务分析手段，同时涵盖了使用大数据进行决策的理论知识和研究成果，并且提供了将理论应用于调查和解决业务问题的机会，其还聚焦于商业分析技能和能力的系统培训和发展，并着力于增强学生解决大数据问题的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "决策模型应用 (Applications of Decision Making Models)\n电子商务 (E-Commerce)\n企业资源规划 (Enterprise Resource Planning)\n管理信息系统 (Management Information Systems)\n管理运营系统 (Managing Operations Systems)\n决策模型 (Models for Decision Making)\n研究方法 (Research Methods)\n社交媒体营销 (Social Media Marketing)\n战略性人力资源管理 (Strategic Human Resource Management)\n策略管理 (Strategic Management)\n技术创新与管理 (Technology Innovation and Management)\n商业分析学 (Business Analytics)\n商业智能与决策 (Business Intelligence and Decisions)\n组织与管理 (Organization and Management)\n营销管理 (Marketing Management)",
+  "success_cases": ""
+}

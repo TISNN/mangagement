@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "应用传染病流行病学理学硕士",
+  "ename": "MSc Applied Infectious Disease Epidemiology",
+  "tags": "社科,医学,人口健康科学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有英国大学颁发的相关学位（达到2:1荣誉学士学位）或同等学历，或具有同等的健康相关领域（医学或护理）专业资格，具备相关研究、工作或志愿者经验者优先考虑，学校可能会考虑没有达到最低学术标准但具备广泛相关工作或研究经验的申请者",
+  "objectives": "伦敦大学学院应用传染病流行病学理学硕士项目基于伦敦大学学院在传染病领域应用流行病学技能方面的研究优势，这个领域由于冠状病毒大流行目前已成为重要点。学生还将用于分析病原体及其应用于全球公共卫生挑战中的新技术(组学)。学生将有能力从事流行病学和生物科学交叉领域的工作，重点是公共健康医学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "感染与人口健康基本原则 (Fundamental Principles of Infection and Population Health)\n流行病学和传染病 (Epidemiology and Infectious Diseases)\n医学科学基础统计学 (Basic Statistics for Medical Sciences)\n传染病的分子流行病学 (Molecular Epidemiology for Infectious Diseases)\n回归模型 (Regression Modelling)\n论文 (Dissertation )",
+  "success_cases": ""
+}

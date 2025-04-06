@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "数字商务理学硕士",
+  "ename": "MSc Digital Business",
+  "tags": "商科,其他商科,商业与管理学院",
+  "introduction": "专业方向: 其他商科\n入学时间: 9月\n项目时长: 1年\n项目学费: 23900英镑/年",
+  "requirements": "除了具备相关学位者，具有相关专业资格或工作经验者也可以被考虑",
+  "objectives": "伦敦大学皇家霍洛威学院数字商务理学硕士课程针对的是希望在数字经济中提高就业能力的任何学科的应届毕业生，以及希望更新职场知识和技能的专业人士。该课程侧重于在商业创新的开发和交付中管理数字技术所需的知识和技能，它将使学生深入了解如何整合数字技术，如移动计算、社交媒体和数据分析工具，以创新商业实践。伦敦大学皇家霍洛威学院数字商务理学硕士项目的一个关键特点是通过行业联系和商业案例研究发展实践知识，同时为数字时代的企业管理提供强大的理论基础。毕业后学生将有能力分析商业创新的机会和挑战，并做出明智的战术和战略决策，能够有信心通过使用数据分析技能提出和评估商业问题的解决方案，并能够有效地将复杂的商业信息传达给专业和非专业受众。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业智能与数据分析 (Business Intelligence and Data Analytics)\n数字时代的咨询 (Consultancy in the Digital Era)\n数字战略与商业模式 (Digital Strategy and Business Models)\n负责任的数字创新 (Responsible Digital Innovation)\n商业中的新兴技术 (Emerging Technologies in Business)\n领先的在线协作 (Leading Online Collaborations)\n数字化转型与平台化 (Digital Transformation and Platformatisation)\n数字化管理的研究方法 (Research Methods for Digital Management)\n论文 (Dissertation)\n学术诚信 (Academic Integrity)",
+  "success_cases": ""
+}

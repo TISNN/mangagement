@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,克兰菲尔德管理学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 30900英镑/年",
+  "requirements": "具有数学、统计学、工程学、经济学等相关专业背景，有定量基础",
+  "objectives": "这门金融课程在国际商业排名中位列英国前10名和世界前40名。该课程为学生提供坚实的金融和管理原则基础，并提供相关工具和技术的严格培训，以及如何在全球金融工作场所实际应用它们。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计 (Accounting)\n金融市场经济学 (Economics for Financial Markets)\n金融市场监管和道德 (Financial Markets Regulation and Ethics)\n组织管理 (Organisational Management)\n金融研究方法 (Research Methods in Finance)\n金融统计分析 (Statistical Analysis for Finance)\n战略管理 (Strategic Management)\n估值和财务模型 (Valuation and Financial Modelling)\n国际公司金融 (International Corporate Finance)\n公司金融 (Corporate Finance)\n应用金融计量经济学 (Applied Financial Econometrics)\n公司重组 (Corporate Restructuring)\n创业融资 (Entrepreneurial Finance)\n私募股权 (Private Equity)\n战略管理会计与控制 (Strategic Management Accounting and Control)\n兼并收购 (Mergers and Acquisitions)\n基金管理 (Fund Management)\n固定利息证券 (Fixed Interest Securities)\n技术分析和交易系统 (Technical Analysis and Trading Systems)\n国际投资与新兴市场 (International Investment and Emerging Markets)\n区块链，加密货币和智能合约 (Blockchain, Cryptocurrencies and Smart Contracts)",
+  "success_cases": ""
+}

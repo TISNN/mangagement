@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "项目管理理学硕士",
+  "ename": "MSc Project Management",
+  "tags": "工科,工程管理,管理科学学系",
+  "introduction": "专业方向: 工程管理\n入学时间: 10月\n项目时长: 1年\n项目学费: 32760英镑/年",
+  "requirements": "具有英国2:2荣誉学位或同等学历，不限专业背景\n申请者在整个本科学习期间分数应该始终保持在2:2的水平\n学校也可能考虑非标准申请者，需要联系学校获取信息\n作为申请的一部分需要提供任何相关工作经验的详细信息",
+  "objectives": "项目在许多组织中起着关键作用，因为它们是围绕项目组织的，或者因为它们通过项目引入了变化。兰卡斯特大学项目管理理学硕士项目使学生能够使用项目管理工具和技术，吸引利益相关者，获得对项目的系统性见解，并给学生提供机会获得任何行业项目管理的实际经验。所有导师都有不同的行业经验，这影响了课程的方向，并证明了项目管理技能在行业和部门之间的可转移性。学生还将受益于与专业机构的联系，包括项目管理协会，这确保了课程的相关性和质量。在第一学期，学生将探索项目管理的原则。学生将通过模拟应用工具和技术，更好地理解与利益相关者的关系。第二学期建立在这些知识的基础上，将给学生机会将技能应用到实际项目中。该课程将教学生如何调查新事物以及如何导航。该课程将从心理学和社会学的角度来看待人员管理，并为学生提供项目管理的系统见解。该课程认真平衡学术观点、经验学习和实际应用，以最有效的方式提升知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目管理进展 (Advances in Project Management)\n业务、效益和战略 (Business, Benefits and Strategy)\n论文 (Disseration)\n跨文化咨询项目 (Intercultural Consultancy Project)\n项目管理工具、技术和理论 (Project Management Tools, Techniques and Theories)\n项目模拟 (Project Simulation)\n推理、研究与反思 (Reasoning, Research and Reflection)\n系统与改变 (Systems and Change)",
+  "success_cases": ""
+}

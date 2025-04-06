@@ -1,0 +1,12 @@
+{
+  "school_name": "马里兰大学帕克分校",
+  "major_name": "机器学习硕士",
+  "ename": "Machine Learning Master of Professional Studies",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 3,900美元/课程",
+  "requirements": "学过微积分、线性代数、统计学等课程，拥有较强编码能力",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

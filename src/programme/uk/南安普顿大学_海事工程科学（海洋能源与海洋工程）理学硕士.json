@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "海事工程科学（海洋能源与海洋工程）理学硕士",
+  "ename": "MSc Maritime Engineering Science (Ocean Energy & Offshore Engineering)",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位，需要以下背景：船舶或海事工程、造船学、船舶科学、航空航天工程、机械工程、通用工程、电气工程、物理学、数学\n申请者还需要在数学和力学课程中成绩达到2:1\n学校可能考虑具有海洋学或建筑学本科学位的申请者，或者来自海洋学院的申请者",
+  "objectives": "海事工程科学（海洋能源与海洋工程）理学硕士项目旨在为学生提供自然能源背后的科学专业知识。学生能够为一系列的海上工程专业做好准备，毕业后将具备在海事部门工作的技能。通过该课程学生将进行海上固定和浮动结构工程的结构和水动力分析，专注于如何将设计的可行性分析与运行气候的概率理论结合起来，探索热流体过程在可持续使用碳氢燃料技术中的作用。其中包括清洁燃烧、碳捕获和储存以及石油和天然气回收。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "固体力学中的有限元分析 (Finite Element Analysis in Solid Mechanics)\n船舶科学基础 (Fundmentals of Ship Science)\n海洋法与管理 (Marine Law and Management)\n计算流体动力学应用 (Applications of CFD)\n低碳能源热流体工学 (Thermofluid Engineering for Low Carbon Energy)\n船舶阻力与推进的研究进展 (Advances in Ship Resistance and Propulsion)\n海洋安全与环境工程 (Marine Safety and Environmental Engineering)\n船舶操纵与控制 (Ship Manoeuvring and Control)\n近海工程与分析 (Offshore Engineering and Analysis)\n流体中的海洋工程结构 (Marine Structures in Fluids)\n海洋机器人 (Maritime Robotics)\n海洋水动力学 (Marine Hydrodynamics)\n海洋工程结构 (Marine Structures)\n环境流中的可再生能源 (Renewable energy from environmental flows)",
+  "success_cases": ""
+}

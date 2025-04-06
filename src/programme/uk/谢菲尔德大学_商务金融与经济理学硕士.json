@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "商务金融与经济理学硕士",
+  "ename": "MSc Business Finance and Economics",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要经济学或其他能够满足以下课程要求的学位申请者应学习过数学、统计学或计量经济学",
+  "objectives": "谢菲尔德大学商务金融与经济理学硕士项目培养学生所需的专业知识和技能，以了解企业和组织管理者做出的关键经济决策。本课程为学生在商业公司、咨询公司或金融业担任经济学家做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济分析 (Microeconomic Analysis)\n宏观经济分析 (Macroeconomic Analysis)\n计量经济学方法 (Econometric Methods)\n现代银行与金融业理论 (Modern Theory of Banking and Finance)\n产业组织 (Industrial Organisation)\n商业金融 (Business Finance)\n国际货币与金融 (International Money and Finance)\n应用微观计量经济学 (Applied Microeconometrics)\n应用宏观计量经济学 (Applied Macroeconometrics)\n发展金融学 (Development Finance)\n国际贸易 (International Trade)\n公共经济学 (Public Economics)\n公共政策评估 (Public Policy Evaluation)",
+  "success_cases": ""
+}

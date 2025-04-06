@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "美术学文学硕士",
+  "ename": "MA Fine Art",
+  "tags": "社科,艺术,艺术学院",
+  "introduction": "专业方向: 艺术\n入学时间: 9月\n项目时长: 1年\n项目学费: 25850英镑/年",
+  "requirements": "具有二等或以上学位，需要提交作品集、研究计划、现有实践的书面说明",
+  "objectives": "雷丁大学美术学文学硕士由充满活力的知名国际艺术家和一位额外的客座艺术家提供，重点是展览和专业实践。学生将培养创造性的求知欲，并为专业艺术界或博士水平的进一步研究做好准备。我们的所有员工都是执业艺术家、策展人和作家，我们以研究为主导的教学为学生提供了参与展览和策展活动、理论文本和出版项目的机会。学生还将通过我们的访问艺术家讲座课程，接受一系列国际知名艺术家的授课。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工作室实习 (Studio Practice)\n艺术、权力、政治 (Art, Power, Politics)\n绘制艺术世界地图 (Mapping the Art World)\n论文 (Dissertation)",
+  "success_cases": ""
+}

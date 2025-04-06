@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "应用翻译研究文学硕士",
+  "ename": "MA Applied Translation Studies",
+  "tags": "社科,语言,语言、文化和社会学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 27000英镑/年",
+  "requirements": "具有2:1荣誉学士学位，学校欢迎来自不同学科的申请者，学校也可能考虑其他相关资格或经验（例如专业/工作/志愿经验）\n申请者需要完成所选语言组合的翻译测试",
+  "objectives": "利兹大学应用翻译研究文学硕士项目侧重于计算机辅助翻译，为学生提供专业实践中的本地化、项目和术语管理工具的宝贵经验。学习期间，学生还将与各种语言专业的学生一起开展多语言翻译项目。\n学生可以学习英语与其他一种或两种语言间的翻译，包括阿拉伯语、中文、法语、德语、意大利语、日语、葡萄牙语、俄语和西班牙语。此外，利兹大学应用翻译研究文学硕士项目开设丰富的选修课程供学生选择，例如视听翻译、机器翻译、体裁分析等。利兹大学应用翻译研究文学硕士项目由翻译研究中心的研究人员和签约职场人士授课，全面提升学生的知识和实践技能，为未来的职业生涯奠基。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机辅助翻译与本地化项目管理 (Computer-Assisted Translation  and Localisation Project Management)\n翻译研究方法 (Methods and Approaches in Translation Studies)\n机器翻译的原理和应用 (Principles and Applications of Machine Translation)\n影视翻译导论 (Introduction to Screen Translation)\n翻译语料库语言学 (Corpus Linguistics for Translators)\n翻译英语 (English for Translators)\n口译技能导论 (Introduction to Interpreting Skills)\n翻译体裁 (Genres in Translation)\n国际组织：背景、理论和实践 (International Organisations: Context、Theory and Practice)\n文学翻译 (Literary Translation)\n专业写作 (Writing for Professional Purposes)\n扩展翻译 (Extended Translations)",
+  "success_cases": ""
+}

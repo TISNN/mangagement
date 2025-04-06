@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "生物材料与组织工程理学硕士",
+  "ename": "MSc Biomaterials and Tissue Engineering",
+  "tags": "工科,生物工程,工程科学学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的二等学士学位或同等学历，需要与所选领域相关的学科背景",
+  "objectives": "伦敦大学学院生物材料与组织工程理学硕士项目是跨学科项目，由伦敦大学学院的专家和业界医疗慈善机构的知名客座专家教授，适合物理科学、工程和生命科学专业的本科生，也适合于拥有医学背景的学生，将使学生具备生物材料、生物工程、组织工程、医学工程及相关管理课题的最新知识。在伦敦大学学院生物材料与组织工程理学硕士项目中，学生将了解生物材料和组织工程相关课题，从安全、环境、社会和经济层面充分认识医疗保健工程的运营环境，同时学生也将掌握就业所需的知识和适应性技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物材料 (Biomaterials)\n组织工程 (Tissue Engineering)\n生物流体和医疗器械 (Biofluids and Medical Devices)\n生物力学和生物结构 (Biomechanics and Biostructures)\n生物医学工程应用 (Applications of Biomedical Engineering)\n生物工程 (Bioengineering)\n医学成像（电离和非电离） (Medical Imaging (ionising and non-ionising))\n商机评估和策划 (Evaluation and Planning of Business Opportunities)\n论文/报告 (Dissertation/report)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "专业会计理学硕士",
+  "ename": "MSc Professional Accountancy",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要会计或具有重要会计内容的相关学科背景。学校也可以考虑相关的专业会计经验",
+  "objectives": "邓迪大学专业会计理学硕士学位课程使学生培养雇主所认为的对于进入会计行业中具有回报性的职业领域至关重要的技能及技术。在邓迪大学专业会计理学硕士学位课程的学习中，学生将在日益全球化的会计与报告环境中更好理解会计实践、监管及准则；学生也将运用国际视角理解专业会计的理论与实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "专业的会计项目 (Professional Accountancy Project)\n专业财务管理 (Professional Financial Management)\n专业财务报告实务 (Professional Financial Reporting Practice)\n税务合规和财政研究 (Tax Compliance and Fiscal Studies)\n专业的管理会计 (Professional Management Accounting)\n审计、保证和职业道德 (Audit, Assurance and Professional Ethics)\n商务管理专业英语2 (Specialist Management English for Business 2)\n商务管理专业英语 1 (Specialist Management English for Business 1)",
+  "success_cases": ""
+}

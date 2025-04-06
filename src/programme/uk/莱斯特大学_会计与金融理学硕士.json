@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "会计与金融理学硕士",
+  "ename": "MSc Accounting and Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 23650英镑/年",
+  "requirements": "良好的英国荣誉学位或同等学历，或认可机构的研究生文凭，或相关的研究生水平专业资格",
+  "objectives": "莱斯特大学会计与金融理学硕士项目将培养学生透彻理解金融与会计领域的概念及其在组织中的应用。\n在莱斯特大学会计与金融理学硕士项目中，学生将学习国际背景下会计与金融的重要理论、工具、方法和技术，了解实际运用中每个主要方法或技术的优点、局限性以及典型应用。学生将能够批判思考目前会计与金融方面的专业和学术文献中的争论。\n莱斯特大学会计与金融理学硕士项目将促进学生掌握知识与技能，从而学生可以处理各种工作环境中的会计与金融复杂问题。莱斯特大学会计与金融理学硕士项目注重提升学生分析形势、制定合理战略决策的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "问责制、表现与控制 (Accountability, Representations and Control)\n会计分析和估值:私营和公共部门 (Accounting Analysis and Valuation: Private and Public Sectors)\n公司财务(财务理学硕士) (Corporate Finance (Finance MSc))\n金融分析投资 (Financial Analysis and Investment)\n财务报表:理论、实践与评论 (Financial Statement: Theory, Practice and Critique)\n管理会计 (Management Accounting)\n金融专业技巧 (Professional Skills in Finance)\n金融数学基础 (Foundations of Mathematics for Finance)",
+  "success_cases": ""
+}

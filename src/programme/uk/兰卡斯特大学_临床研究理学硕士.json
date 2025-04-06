@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "临床研究理学硕士",
+  "ename": "MSc Clinical Research",
+  "tags": "社科,医学,兰卡斯特医学院",
+  "introduction": "专业方向: 医学\n入学时间: 10月\n项目时长: 1年\n项目学费: 30310英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要相关学科背景，包括医学、护理、心理学、生物科学或相关学科，具备相关专业经验但没有第一学位的申请者应该联系课程主任\n学校也可能考虑非标准申请者，需要联系学校获取信息",
+  "objectives": "兰卡斯特大学临床研究理学硕士项目是一项深入的培训计划，建立在 PgCert 中临床研究的介绍以及循证医学和 PgDip 中获得的专业技能培训的基础上。兰卡斯特大学临床研究理学硕士项目介绍了临床研究和应用方法学技能，并使学生能够将研究转化为实践。 兰卡斯特大学临床研究理学硕士课程可以作为一年、两年或三年的课程。学生将开发并承担一个研究项目，以论文的形式提交。 这个研究项目是在学生自己的专业背景下，在学术监督下进行的。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "临床研究的生命周期 (Life Cycle of Clinical Research)\n将研究转化为医疗保健政策和实践 (Translating research into healthcare policy and practice)",
+  "success_cases": ""
+}

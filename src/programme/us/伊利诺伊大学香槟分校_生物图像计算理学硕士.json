@@ -1,0 +1,12 @@
+{
+  "school_name": "伊利诺伊大学香槟分校",
+  "major_name": "生物图像计算理学硕士",
+  "ename": "MS in Biomedical Image Computing",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2年\n项目学费: 75,048美元",
+  "requirements": "工程、科学或相关学科学士学位，\n本科学习最后两年的最低 GPA 3.0，需要有扎实的工程和计算机经历",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

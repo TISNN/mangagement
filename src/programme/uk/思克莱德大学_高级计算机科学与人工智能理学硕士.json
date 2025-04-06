@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "高级计算机科学与人工智能理学硕士",
+  "ename": "MSc Advanced Computer Science with Artificial Intelligence",
+  "tags": "工科,计算机,计算机与信息科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 30250英镑/年",
+  "requirements": "具有至少二等（2:2）荣誉学位，需要计算机科学或相关专业背景，有丰富的编程经验，熟悉命令式编程语言（如Java, Python等）者优先。大部分课程将使用Python。具有丰富编程经验的其他学科人士应与学校联系",
+  "objectives": "思克莱德大学高级计算机科学与人工智能理学硕士项目将培养您在许多最广泛使用的人工智能技术和应用方面的专业知识。您将了解人工智能算法和技术是如何设计、开发、优化和应用以满足业务目标的。您将学习使用一系列可用于构建可靠、可扩展和高质量人工智能解决方案的软件系统，以及如何通过实验设计和探索性建模应用严格的人工智能方法。学生还将学习人工智能应用的伦理，以及不同的应用如何需要不同的人工智能技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "信息社会的法律、伦理和职业问题 (Legal, Ethical & Professional Issues for the Information Society)\n人工智能的定量方法 (Quantitative Methods for Artificial Intelligence)\n深度学习理论与实践 (Deep Learning Theory & Practices)\n不确定规划 (Planning with Uncertainty)\n视觉计算应用中的深度学习 (Deep Learning in Visual Computing Applications)\n博弈论与多智能体系统 (Game Theory & Multi-agent Systems)\n研究方法 (Research Methods)\n移动软件和应用程序 (Mobile Software & Applications)\n金融AI (AI for Finance)\n分布式信息系统 (Distributed Information Systems)\n数据分析机器学习基础 (Fundamentals of Machine Learning for Data Analytics)\n信息检索 (Information Retrieval)\n商业分析 (Business Analysis)\n金融演化计算1 (Evolutionary Computation For Finance﻿ 1)\n大数据工具和技术 (Big Data Tools & Techniques)",
+  "success_cases": ""
+}

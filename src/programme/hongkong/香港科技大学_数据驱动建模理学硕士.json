@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "数据驱动建模理学硕士",
+  "ename": "MSc Data-Driven Modeling",
+  "tags": "理科,数学,理学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 220000港币/年",
+  "requirements": "具有学士学位或同等学历，需要：\n理工科背景学士学位；或\n其他学科背景学士学位，同时具备计算相关领域的相关工作经验以及掌握至少一门计算机语言的工作知识并受过微积分和线性代数的基础培训",
+  "objectives": "香港科技大学数据驱动建模理学硕士项目由物理系和数学系联合开设，旨在培养下一代在解决问题和逻辑思维方面的强大技能，使他们成为数据科学领域的能手。该专业为学生提供分析大量数据和从中提取重要特征的实践经验，从而为理解复杂情况提供有价值的见解，促进企业、行业和服务的智能决策。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算与建模工具介绍  (Introduction to Computational and Modeling Tools )\n科学规划与可视化  (Scientific Programming and Visualization )\n随机过程及其应用  (Stochastic Processes and Applications )\n科学中的数值方法和建模  (Numerical Methods and Modeling in Science )\n创新实践  (Innovation in Practice )\n用于建模的算法和面向对象编程  (Algorithm and Object-Oriented Programming for Modeling )\n时间序列定量分析  (Quantitative Analysis of Time Series )\n统计机器学习  (Statistical Machine Learning )\n网络建模  (Network Modeling )\n信息科学  (Information Science )\n数值优化与应用  (Numerical Optimization and Applications )\n计算建模与仿真项目  (Computational Modeling and Simulation Project )\n计算能源材料和电子结构模拟  (Computational Energy Materials and Electronic Structure Simulations )",
+  "success_cases": ""
+}

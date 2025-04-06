@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "资讯科技理学硕士",
+  "ename": "MSc (Information Technology)",
+  "tags": "理科,数据科学,创新工程学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 1/9月\n项目时长: 2年\n项目学费: 120000港币/年",
+  "requirements": "修读资讯科技或相关专业。色盲者不可报读",
+  "objectives": "奥么科技大学资讯科技理学硕士学位课程设置的目标是为廿一世纪培养具有坚实理论基础，宽广专业知识幷具有很强独立工作能力的资讯科技高水准人才。取得理学硕士学位者可以在资讯科技的企业事业单位、政府机关、应用部门从事资讯科技的研究、开发及应用工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "文献阅读与选题报告 (Literature Reading and Seminars)\n资讯科技研究方法 (Research Methods in Information Technology)\n算法分析与设计 (Analysis and Design of Algorithms)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "跨学科研究方法文学硕士",
+  "ename": "MA Interdisciplinary Research Methods",
+  "tags": "社科,社会学与社工,社会学院",
+  "introduction": "专业方向: 社会学与社工\n入学时间: 9月\n项目时长: 1年\n项目学费: 26750英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，大量相关经验也将被考虑",
+  "objectives": "杜伦大学跨学科研究方法文学硕士项目旨在提供用于解决当代社会现象的广泛研究方法的培训，与经济和社会研究委员会（ESRC）的学习成果保持一致，提供适当的跨学科研究方法培训。该课程为学生提供了在英国领先的研究方法中心之一学习的机会，教学由具备很强跨学科倾向的高素质员工提供，通过小组教学、工作坊、研讨会和实践课程，提供参与式和互动式的学习方法，鼓励并支持学生通过独立的研究项目和灵活的学生兴趣驱动的评估来追求个人研究兴趣。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "跨社会研究的跨学科观点与实践 (Interdisciplinary Perspectives and Practices across Social Research)\n定性方法与分析 (Qualitative Methods and Analysis)\n定量方法与分析 (Quantitative Methods and Analysis)\n跨学科研究的当前辩论 (Current Debates in Interdisciplinarity Research)\n决策的跨学科方法 (Interdisciplinarity Methods for Decision Making)\n论文 (Dissertation)\n系统综述 (Systematic Review)\n高级民族志研究 (Advanced Ethnographic Research)\n多级建模 (Multilevel Modelling)\n心理学与行为科学高级统计 (Advanced Statistics for Psychology and the Behavioural Sciences)\nR语言模拟数据 (Simulating Data in R)\n参与行动研究 (Participatory Action Research)\n分析纵向数据 (Analysing Longitudinal Data)\n教育实验 (Experiments in Education)\n计算社会科学 (Computational Social Science)",
+  "success_cases": ""
+}

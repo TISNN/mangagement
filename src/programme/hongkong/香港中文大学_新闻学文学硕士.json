@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "新闻学文学硕士",
+  "ename": "MA Journalism",
+  "tags": "社科,新闻,社会科学学院",
+  "introduction": "专业方向: 新闻\n入学时间: 9月\n项目时长: 1年\n项目学费: 180000港币/年",
+  "requirements": "需要提供B等级证明，懂广东话者优先",
+  "objectives": "香港中文大学新闻学文学硕士课程旨在为不同背景人士提供专业及学术新闻训练。有志从事新闻工作但本科未曾修读新闻与传播的本科毕业生，可以从中大新闻学课程中学习基本的新闻知识和技巧。现职新闻工作者或其他需要与媒体接触的专业人士，也可从课程的知识训练中得益，加深其对新闻和社会时事的认知。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用传播研究 (Applied Communication Research)\n中文新闻采访写作 (Chinese News Writing and Reporting)\n公共事务采访 (Public Affairs Reporting)\n传媒道德与法律 (Media Ethnics and Law)\n新闻理论与分析 (Journalism Theory and Analysis)\n英文新闻采访写作进阶 (Advanced English News Writing and Reporting)\n新闻学专题研究 (Topical Studies in Journalism I)\n财经采访与写作 (Financial Reporting and Writing)\n新闻特写 (Feature Writing)\n电台与电视新闻 (Radio and Television News)\n电台播音制作 (Radio Studio Production)\n网络与流动新闻 (Online and Mobile Journalism)\n公民新闻 (Citizen Journalism)\n人权与社会传媒 (Human Rights and Social Media )\n基本互动多媒体设计 (Fundamentals in Multimedia Design)",
+  "success_cases": ""
+}

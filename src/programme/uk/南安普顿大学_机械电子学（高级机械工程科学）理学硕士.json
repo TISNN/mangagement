@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "机械电子学（高级机械工程科学）理学硕士",
+  "ename": "MSc Mechatronics (Advanced Mechanical Engineering Science)",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33900英镑/年",
+  "requirements": "具有2:1学位，需要以下学科背景之一：机电一体化、电气或电子工程、航空航天工程、机械工程、汽车工程\n申请者还必须在以下主题列表的2门课程中取得2:1的成绩：机电一体化、电子学、控制、仪器、机器人、计算、编程\n需要ATAS认证\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "机械电子学是工程学科的分支，该学科将电气工程、机械工程与计算机工程的原理相结合。南安普顿大学机械电子学（高级机械工程科学）理学硕士项目探讨了现代高级机械工程科学中的学术议题，为学生提供专注于机械电子学的机会，适合工程、数学或物理科学专业、希望专注于高级机械工程科学或继续发展专业方向的学生，能使学生了解基础科学、方法、分析和工程应用，进而设计机器人和建筑机器，从而改变现代生活。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级机械工程科学入门 (Introduction to Advanced Mechanical Engineering Science (AMES))\n控制和仪表设备 (Control and Instrumentation)\n高级传感器和状态监测 (Advanced Sensors and Condition Monitoring)\n高级计算方法1 (Advanced Computational Methods I)\n固体力学有限元分析 (Finite Element Analysis in Solid Mechanics)\n燃料电池和光伏系统1 (Fuel Cells and Photovoltaic Systems 1)\n数理方法 (Numerical Methods)\n机器人系统 (Robotic Systems)\n硕士研究项目 (MSc Research Project)\n高级电气系统 (Advanced Electrical Systems)\n高级控制设计 (Advanced Control Design)\n汽车动力系统 (Automotive Propulsion)\n燃料电池和光伏系统2 (Fuel Cells and Photovoltaic Systems 2)\n工程设计管理 (Engineering Design with Management)",
+  "success_cases": ""
+}

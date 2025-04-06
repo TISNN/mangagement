@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "金融科技理学硕士（含工业实习）",
+  "ename": "MSc Financial Technology (Fintech) with Industrial Experience",
+  "tags": "商科,金工金数,商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 2年\n项目学费: 16020英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，学科中至少包含一个数学/定量课程并取得2:1以上。学校会考虑所有有证据表明在与学习课程相关的课程中表现优异、有丰富的相关工作经验或专业资格的申请",
+  "objectives": "埃克塞特大学的金融科技理学硕士（含工业实习）通过加深对先进技术和业务创新的了解，在竞争中取得领先；学习埃克塞特大学商学院在比特币和区块链方面的现有专业知识，以及该大学在经济、金融、数据科学、网络安全和法律方面更广泛的专业知识；在学校独特的“黑客马拉松”模块和各种其他创新教学方法中培养编码等实用技能；学生可以参与学校各个模块中的小组工作，以培养实用的团队合作和就业准备技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融科技基础知识 (Fundamentals of Financial Technology)\n应用计量经济学1 (Applied Econometrics 1)\n财务建模 (Financial Modelling)\n先进金融科技 (Advanced Financial Technology)\n银行和金融服务 (Banking and Financial Services)\n黑客马拉松项目 (Hackathon Project)\n业务分析编程 (Programming for Business Analytics)\n市场策略 (Marketing Strategy)\n金融工具 (Financial Instruments)\n衍生品定价 (Derivatives Pricing)\n应用计量经济学2 (Applied Econometrics 2)\n创业精神：新创企业 (Entrepreneurship: New Venture Creation)\n公共财政经济学 (Economics of Public Finance)\n国际银行法 (International Banking Law)\n服务设计与创新 (Service Design and Innovation)\n创新管理 (Innovation Management)\n公司治理与财务 (Corporate Governance and Finance)\n数字商业模式 (Digital Business Models)\n金融科技法 (Law for FinTech)\n智能合约 (Smart Contracts)",
+  "success_cases": ""
+}

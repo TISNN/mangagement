@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "勘探地球物理学理学硕士",
+  "ename": "MSc Exploration Geophysics",
+  "tags": "工科,地球科学,地球与环境学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 37500英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要地球科学（如地质学或地球物理学）或相关数学学科背景（如物理、数学或一些工程或计算学科），相关和丰富的行业经验也可以被考虑在内\n申请者的数学成绩必须至少达到良好的A-level等级（或同等水平），数学能力将在入学前进行评估并可能需要额外的培训。本课程是计算机密集型课程，学校假设申请者具备基本的计算机知识，包括Windows和MS Office，EDCL/ICDL资格不是正式要求的，但代表了预期的水平，熟悉Linux也是有利的，因为它构成了许多基于工作站的培训的平台\n满足以下其中一项的申请者将基于具体情况被考虑：\n- 具有2:2荣誉学士学位或同等学历，并且能够证明在相关专业领域具备相关工作经验或能力\n- 具有专业资格以及相关经验",
+  "objectives": "地球物理学是指通过物理技术对地球进行远程研究，主要是分析地震数据和运用重力法、磁性法、电磁法和电法。地球物理学是对油气、矿产勘探以及环境工程评估进行地质分析的一个关键因素。利兹大学勘探地球物理学理学硕士学位课程已经有50多年的历史，因此相当完善，与相关行业有着密切联系，每一个机构都联合起来支持地球科学专业知识在向清洁能源过渡的过程中的应用。本课程为学生提供广泛的实践技能，以理论理解为基础，使学生具备所选领域的专业技能。通过为期8个月的教学课程，将面对面接触与在线研讨会和基于研究的教学相结合，从理论和实践上理解各种勘探地球物理学概念，这是地球科学职业生涯的完美基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地球物理探索：项目和论文 (Exploration Geophysics: Project and Dissertation)\n计算逆问题理论 (Computational Inverse Theory)\n岩土物理和石油地质学 (Petrophysics and Petroleum Geology)\n地震储层评估和最新发展 (Seismic Reservoir Evaluation and Recent Developments)\n地理物理&地质实地调查法以及地质学解释 (Geophysical and Geological Field Methods and Geological Interpretation)\n重磁方法 (Gravity and Magnetic Methods)\n地震基础和采集 (Seismic Fundamentals and Acquisition)\n地震数据处理 (Seismic Data Processing)\n地震反射和层序地层学解释 (Seismic Reflection Interpretation and Sequence Stratigraphy)",
+  "success_cases": ""
+}

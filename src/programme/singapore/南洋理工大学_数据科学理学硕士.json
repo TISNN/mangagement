@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "数据科学理学硕士",
+  "ename": "MSc Data Science",
+  "tags": "理科,数据科学,计算机与数据科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 8月\n项目时长: 1.5年\n项目学费: 42147新币/年",
+  "requirements": "具有良好的相关学士学位\n有相关工作经验者优先考虑",
+  "objectives": "数据科学是一种数据驱动的解决问题和科学探索的方法，涉及收集、管理、分析、解释和可视化数据和分析结果的过程。南洋理工大学数据科学硕士项目旨在为数据科学领域的研究生提供强有力的培训。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学思维 (Data Science Thinking)\n面向数据科学的机器学习 (Machine L earning for Data Science)\n数据系统 (Data Systems)\n数据准备 (Data Preparation)\n数据可视化 (Data Visualisation)\n毕业项目 (Capstone Project)\nPython编程 (Python Programming)\n数据科学数学 (Mathematics for Data Science)\n数据科学概率与统计 (Probability and Statistics for Data Science)\n文本数据管理 (Text Data Management)\n时间序列与预测 (Time Series And Prediction)\n面向数据科学的深度学习 (Deep Learning for Data Science)\n可扩展数据系统 (Scalable Data Systems)\n网络科学 (Network Science)\n经济学导论 (Introduction to Economics)",
+  "success_cases": ""
+}

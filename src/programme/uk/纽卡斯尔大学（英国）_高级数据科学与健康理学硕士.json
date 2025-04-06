@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "高级数据科学与健康理学硕士",
+  "ename": "MSc Advanced Data Science with Health",
+  "tags": "理科,数据科学,数学、统计与物理学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 12月\n项目时长: 1年\n项目学费: 31700英镑/年",
+  "requirements": "具有2:1理学学士学位或同等学历，需要数学科学或其他具有正式数学成分的定量学位背景，示例包括但不限于计算机科学、经济学、工程学和类似学科学校鼓励非标准背景的申请者和具有丰富相关工作经验的个人申请，并将根据个人情况进行考虑",
+  "objectives": "医疗保健行业会产生大量数据，包括患者记录、临床试验、治疗结果和遗传信息。有效利用这些数据可以改善患者护理、简化运营并加强公共卫生战略。纽卡斯尔大学高级数据科学与健康理学硕士项目将使学生具备分析复杂数据集的技能，并使用它们来解决健康和医疗领域的现实挑战。通过加强学生的数据科学技能，学生将能够：改善医院的运作方式、帮助科学家理解他们的数据、预测患者结果。该项目提供了极大的灵活性，让学生可以根据自己的兴趣和职业目标设计学位。学生可以从广泛的课程中进行选择，个性化学习，并且学生将受益于多样化的研究专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学计算基础 (Computing Foundations of Data Science)\n图像信息学 (Image Informatics)\n机器学习与项目 (Machine Learning with Project)\n统计与数据科学研究生基础 (Graduate Foundations of Statistics and Data Science)\n机器学习统计基础与高级主题 (Statistical Foundations of Machine Learning with Advanced Topics)\n高级主题临床试验 (Clinical Trials with Advanced Topics)\n健康数据科学决策建模与高级主题 (Decision Modelling for Health Data Science with Advanced Topics)\n医学统计和健康数据科学高级主题 (Advanced Topics in Medical Statistics and Health Data Science)\n健康数据科学论文 (Dissertation In Health Data Science)\n统计与数据科学工业论文 (Industrial Dissertation in Statistics and Data Science)\n高级主题临床试验 (Clinical Trials with Advanced Topics)\n健康数据科学决策建模与高级主题 (Decision Modelling for Health Data Science with Advanced Topics)\n医学统计和健康数据科学高级主题 (Advanced Topics in Medical Statistics and Health Data Science)\n实验设计与高级主题 (Experimental Design with Advanced Topics)\n极值理论与高级主题 (Extreme Value Theory with Advanced Topics)\n运动建模与先进的主题 (Sports Modelling with Advanced Topics)\n生存分析与高级主题 (Survival Analysis with Advanced Topics)\n具有高级主题的时间序列 (Time Series with Advanced Topics)\n随机金融建模与高级主题 (Stochastic Financial Modelling with Advanced Topics)\n统计与数据科学高级主题 (Advanced Topics in Statistics and Data Science )",
+  "success_cases": ""
+}

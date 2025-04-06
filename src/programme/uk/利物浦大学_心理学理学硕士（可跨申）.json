@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "心理学理学硕士（可跨申）",
+  "ename": "MSc Psychology (Conversion)",
+  "tags": "社科,心理学,心理学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 26400英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要非心理学背景，或者未经英国心理协会认证的心理学位",
+  "objectives": "利物浦大学心理学理学硕士借鉴了我们的研究成果。我们对可转移技能的意味着利物浦的心理学学位将适用于广泛的职业选择。课程适用于拥有心理学以外学科学位的毕业生，或尚未获得英国心理学会认可的心理学学位的毕业生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "定量研究方法 (Quantitative Research Methods)\n定性研究方法 (Qualitative Research Methods)\n毕生发展 (Lifespan Development)\n认知心理学与神经科学 (Cognitive Psychology and Neuroscience)\n个体差异与社会心理 (Individual Differences and Social Psychology)\n心理学的生物学方面 (Biological Aspects of Psychology)",
+  "success_cases": ""
+}

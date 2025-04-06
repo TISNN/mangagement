@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "大数据科技理学硕士",
+  "ename": "MSc Big Data Technology",
+  "tags": "理科,数据科学,工程学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 300000港币/年",
+  "requirements": "具有学士学位或同等学历，需要：\n具有计算机工程、计算机科学、数学或相关领域背景；或\n具有其他学科背景并且具备信息技术或数学相关领域的相关工作经验",
+  "objectives": "大数据科技的兴起，正在改变我们的社会与商业模式，以及工程与科学的发展。理学硕士（大数据科技）课程由香港科技大学工学院计算机科学及数学系合办，把不同的学科整合起来，让学生了解大数据科技的所有重要特点，以及如何把它应用在现实社会中。\n香港科技大学理学硕士(大数据科技）课程旨在教导学员了解大数据和其相关方面，使学员熟悉大数据系统的作业流程和其对社会的影响。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据分析基础 (Foundations of Data Analytics)\n数据挖掘与知识发现 (Data Mining and Knowledge Discovery)\n大数据计算 (Big Data Computing)\n数据分析数学方法 (Mathematical Methods for Data Analysis)\n数据可视化 (Data Visualization)\n金融时间序列的定量分析 (Quantitative Analysis of Financial Time Series)\n优化和矩阵计算 (Optimization and Matrix Computation)\n社会计算概论 (Introduction to Social Computing)\n并行程序设计 (Parallel Programming)\n成像:数据分析和模式识别 (Imaging: Data Analytics and Pattern Recognition)\n高级统计学：理论和应用 (Advanced Statistics: Theory and Applications)\n机器学习 (Machine Learning)\n统计预测 (Statistical Prediction)\n独立研究项目 (Independent Project)",
+  "success_cases": ""
+}

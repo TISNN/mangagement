@@ -1,0 +1,12 @@
+{
+  "school_name": "华盛顿大学",
+  "major_name": "应用数学理学硕士",
+  "ename": "MS in Applied Mathematics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 36学分\n项目学费: 31,530美元/年\n项目规模: 25人",
+  "requirements": "GPA 3.2; 应持有相当于数学，应用数学或其他科学或工程分支的学士学位还应该完成微积分、微分方程、线性代数、数值分析或科学计算的课程能够使用Matlab，C，C，Python，Fortran或类似的科学计算语言进行编程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

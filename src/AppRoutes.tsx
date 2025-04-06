@@ -37,6 +37,7 @@ import MentorsPage from './pages/admin/MentorsPage';
 import KnowledgePage from './pages/admin/KnowledgePage';
 import KnowledgeDetailPage from './pages/admin/KnowledgeDetailPage';
 import DashboardPage from './pages/admin/DashboardPage';
+import StudentDetailPage from './pages/admin/StudentsPage/StudentDetailPage';
 
 const AppRoutes: React.FC = () => {
   return (
@@ -69,6 +70,7 @@ const AppRoutes: React.FC = () => {
         
         {/* 添加缺失的其他路由 - 这些路由将使用App.tsx中定义的组件 */}
         <Route path="students" element={<StudentsPage />} />
+        <Route path="students/:studentId" element={<StudentDetailPage />} />
         <Route path="school-assistant" element={<SchoolAssistantPage />} />
         <Route path="projects" element={<ProjectsPage />} />
         <Route path="leads" element={<LeadsPage />} />

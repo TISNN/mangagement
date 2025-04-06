@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "机械工程与管理理学硕士",
+  "ename": "MSc Mechanical Engineering & Management",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要任何工程学科，计算机科学或物理科学/数学学位背景，核心课程动力学、工程数学和/或数学、材料科学和热力学，平均成绩为2:1\n学校可能会考虑具有2:2学位但核心课程成绩达到2:1的申请者",
+  "objectives": "格拉斯哥大学机械工程与管理理学硕士课程为学生提供发展现代工程或技术管理所需知识和技能。课程内容包括设计工程和其他机械工程学科。该课程适合有机械工程背景，但缺乏管理经验，同时希望发展管理知识，加深机械工程知识的人群。学生将学习理解工程环境中的管理原则和实践，评估工程信息并应用业务和管理工具。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人力资源管理（工程）当代议题 (Contemporary issues in human resource management (engineering))\n创意和创新管理（工程） (Managing creativity and innovation (engineering))\n创新变革管理（工程） (Managing strategic change (engineering))\n营销管理（工程） (Marketing management (engineering))\n运营管理（工程） (Operations management (engineering))\n项目管理（工程） (Project management (engineering))\n高级控制 (Advanced control )\n高级热工学 (Advanced thermal engineering )\n自主车辆导航系统 (Autonomous vehicle guidance systems )\n力学 (Dynamics )",
+  "success_cases": ""
+}

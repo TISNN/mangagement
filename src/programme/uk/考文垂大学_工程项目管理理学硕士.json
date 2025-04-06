@@ -1,0 +1,12 @@
+{
+  "school_name": "考文垂大学",
+  "major_name": "工程项目管理理学硕士",
+  "ename": "MSc Engineering Project Management",
+  "tags": "工科,工程管理,工程、环境与计算学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 1/5/9月\n项目时长: 1年\n项目学费: 20050英镑/年",
+  "requirements": "具有2:2荣誉学位，不限专业，或适当的工作经验以及相关专业资格",
+  "objectives": "考文垂大学工程项目管理理学硕士课程旨在响应工程组织内部基于项目的工作的持续趋势，以及项目正在变得越来越广泛且技术上越来越复杂的事实。考文垂大学工程项目管理理学硕士课程旨在帮助学术通过项目管理和领导组织变革，并成为有效的变革推动者。对项目管理采取高层次、批判性和评估性的观点，为学生提供对交付成功项目所需的计划、监控和控制技术的理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目管理 (Project Management)\n高级体验式项目管理 (Advanced Experiential Project Management)\n工程项目管理框架（使用Agile PM） (Engineering Project Management Frameworks (with Agile PM))\n质量管理 (Management of Quality)\n变革管理 (Change Management)\n合同管理 (Contract Management)\n战略国际项目管理 (Strategic International Project Management)\n全球专业发展-咨询 (Global Professional Development - Consultancy)\n研究方法与项目建议 (Research Methods and Project Proposal)\n硕士论文/基于行业的硕士论文 (Masters Dissertation/Industry based Masters Dissertation)",
+  "success_cases": ""
+}

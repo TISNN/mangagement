@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "高级材料科学（能源存储）理学硕士",
+  "ename": "MSc Advanced Materials Science (Energy Storage)",
+  "tags": "工科,材料,数学与物理科学学院",
+  "introduction": "专业方向: 材料\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的二等学士学位或同等学历，需要ATAS认证",
+  "objectives": "伦敦大学学院高级材料科学（能源存储）理学硕士项目结合了伦敦大学学院的一线研究型教学，以培养下一代材料科学家。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级材料描述 (Advanced Materials Characterisation)\n高级材料加工与制造 (Advanced Materials Processing and Manufacturing)\n材料设计、选择与发现 (Materials Design, Selection and Discovery)\n高级材料中的微观结构控制 (Microstructural Control in Advanced Materials)\n研究方法 (Research Methodology)\n高级能源存储 (Advanced Energy Storage)",
+  "success_cases": ""
+}

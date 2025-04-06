@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "健康与材料化学技术理学硕士",
+  "ename": "MSc Chemical Technologies for Health and Materials",
+  "tags": "理科,化学,理学院",
+  "introduction": "专业方向: 化学\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 166680港币/年",
+  "requirements": "具有学士学位，需要理工科背景\n偏好专攻相关理工学科的申请者（如化学、生物化学、材料科学、生物技术、医学、健康科学、分析科学、化学工程、环境工程、材料或机械工程）",
+  "objectives": "香港大学健康与材料化学技术理学硕士项目为 1.5 学年课程。它致力于使毕业生具备相关学科领域的深入知识、先进的可转移技能和创新思维，使他们能够在工作和研究中取得突破。内容涵盖广泛的主题，从药物设计和合成、质量保证、现代分析技术到能量收集、转换和存储以及技术转让。除了核心和选修课程模块外，该课程还包括实验室和基于项目的实践课程，提供丰富的实践经验。学生毕业后将在学科领域拥有扎实的知识基础，在分析、综合和信息学方面具有高度可转移的技能，并在批判性思维、创造性推理、未来技术和创业潜力方面接受全面的培训。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级化学仪器和数据分析 (Advanced Chemical Instrumentation and Data Analysis)\n现代材料前沿 (Frontiers in Modern Materials)\n创新、技术转让和创业 (Innovation, Technology Transfer and Entrepreneurship)\n生物分析方法：原理和诊断应用 (Bioanalytical Methods: Principles and Diagnostic Applications)\n研究与开发研讨会 (Research and Development Seminar)\n药物和先进材料的合成 (Synthesis for Drugs and Advanced Materials)\n化学生物学新技术及应用 (New Technologies and Applications Chemical Biology)\n绿色和可持续化学 (Green and Sustainable Chemistry)\n质量保证和法规遵从 (Quality Assurance and Regulatory Compliance)\n分析科学中的大数据分析 (Big Data Analysis in Analytical Science)\n计算智能和机器学习 (Computational Intelligence and Machine Learning)\n数据挖掘技术 (Data Mining Techniques)\n高级材料 (Advanced Materials)\n药物化学 (Medicinal Chemistry)",
+  "success_cases": ""
+}

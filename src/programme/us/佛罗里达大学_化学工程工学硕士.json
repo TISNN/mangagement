@@ -1,0 +1,12 @@
+{
+  "school_name": "佛罗里达大学",
+  "major_name": "化学工程工学硕士",
+  "ename": "MEng in Chemical Engineering",
+  "tags": "工科,化工",
+  "introduction": "专业方向: 化工\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 30138美元/年",
+  "requirements": "专为已经拥有生物学、化学、物理学、数学或其他工程分支的理学学士学位的学生而设计。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "供应链管理学硕士",
+  "ename": "Master of Supply Chain Management",
+  "tags": "商科,供应链管理,商学院",
+  "introduction": "专业方向: 供应链管理\n入学时间: 9月\n项目时长: 2年\n项目学费: 120000港币/年",
+  "requirements": "不局限于任何专业",
+  "objectives": "随着经济结构调整、产业转型升级和全球化的发展，企业之间的竞争已经转变成供应链之间的竞争。实践证明，通过供应链管理可以大幅降低企业成本，提高企业生产率，推动企业快速发展。2017年10月13日国务院办公厅发佈了关于积极推进供应链创新与应用的指导意见，其中之一就是要求高等院校加快培养高层次供应链人才。同时，为适应澳门经济适度多元化的需要，顺应供应链全球化发展趋势，商学院于2020年新开设供应链管理硕士课程（MSCM）。\n在为期两年的全日制学习中，传授学生高阶的供应链管理理论、工具和分析方法，培养学生综合运用专业知识解决实际问题的研究能力，帮助学生挖掘自身的创新潜力，使之能够成为胜任供应链相关岗位、具备国际视野的高级供应链分析人才。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球营运与供应链管理 (Global Operations and Supply Chain Management)\n管理科学与实务 (Management Science with Practice)\n研究设计与分析 (Research Design and Analysis)\n供应链实证分析 (Empirical Analysis in Supply Chain Management)\n商务博弈论 (Business Game Theory)\n商务优化理论 (Business Optimization Theory)\n供应链建模与彷真方法 (Supply Chain Modeling and Simulation)\n会展项目管理 (Project Management in Convention and Exhibition)",
+  "success_cases": ""
+}

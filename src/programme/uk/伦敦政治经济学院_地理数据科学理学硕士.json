@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦政治经济学院",
+  "major_name": "地理数据科学理学硕士",
+  "ename": "MSc Geographic Data Science",
+  "tags": "工科,地球科学,地理与环境学系",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 28900英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要经济学或其他定量社会科学背景，并且具备良好的分析、定量和技术技能",
+  "objectives": "地理数据科学理学硕士项目旨在帮助学生发展定量数据分析的技能，以回答关于空间和地理社会科学课题的研究问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用地理信息系统 (Applied Geographical Information Systems)\n空间经济分析技术 (Techniques of Spatial Economic Analysis)\n论文 (Dissertation)",
+  "success_cases": ""
+}

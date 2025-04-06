@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "应用数学科学理学硕士",
+  "ename": "MSc Applied Mathematical Sciences",
+  "tags": "理科,数学,数学与计算机科学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 19816英镑/年",
+  "requirements": "要求获得2:1荣誉学位，需要数学、统计学或相关学科背景，且包含大量数学内容。学校将接受具有相关学术科目和相关专业资格的2:2学位申请者。项目面向数学知识和技能扎实的毕业生",
+  "objectives": "赫瑞-瓦特大学应用数学科学理学硕士旨在让学生掌握现代的、可转移的数学和统计技能，为他们在工业和研究领域的职业生涯做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "建模与工具 (Modelling and Tools)\n优化 (Optimisation)\n随机模拟 (Stochastic Simulation)\n应用线性代数 (Applied Linear Algebra)\n数学生物学与医学 (Mathematical Biology and Medicine)\n偏微分方程 (Partial Differential Equations)\n贝叶斯推理 (Bayesian Inference)\n数据同化及其在气候变化中的应用 (Data Assimilation with Applications to Climate Change)\n统计方法 (Statistical Methods)\n数学生态学 (Mathematical Ecology)\n功能分析 (Functional Analysis)\n整个生态系统的格局形成 (Pattern Formation of Whole Ecosystems)",
+  "success_cases": ""
+}

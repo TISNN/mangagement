@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "市场营销学理学硕士",
+  "ename": "MSc Marketing Science",
+  "tags": "商科,市场营销,商学院",
+  "introduction": "专业方向: 市场营销\n入学时间: 7月\n项目时长: 1年\n项目学费: 63220新币/年",
+  "requirements": "具有良好的学士学位，不限专业背景\n可选择性提交GMAT/GRE\n不要求具备工作经验",
+  "objectives": "南洋理工大学市场营销理学硕士旨在利用最新的思维、技术和工具开发全面的营销专业知识。该硕士课程给学生提供营销和消费者洞察的基本知识以及营销技术的最新知识，例如营销中的AR/VR和AI，使学生能够在这个数字时代领导营销活动。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "战略营销 (Strategic Marketing)\n品牌 (Branding)\n消费者心理学 (Consumer Psychology)\n数字营销 (Digital Marketing)\n人种学 (Ethnography)\n消费者神经科学和神经营销 (Consumer Neuroscience and Neuromarketing)\n市场营销分析 (Marketing Analytics)\n整合市场营销传播 (Integrated Marketing Communication)\n人工智能 (AI  )\n机器人学和产品创新 (Robotics and Product Innovation)",
+  "success_cases": ""
+}

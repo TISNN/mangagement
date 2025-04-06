@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "高级化学工程理学硕士",
+  "ename": "MSc Advanced Chemical Engineering",
+  "tags": "工科,化工,化学工程学院",
+  "introduction": "专业方向: 化工\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有英国2:2荣誉学位或同等学历，需要工程或物理科学背景，其他学术或专业资格将根据具体情况予以考虑",
+  "objectives": "本课程介绍全球化学工业的最新发展，为毕业生提供一套技能，使他们成为该领域最有竞争力的候选人之一。本课程旨在通过深入了解关键的化学和工业过程的基础知识，以及它们在实践中的应用来加深学生对化学和过程工程方面的理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "先进的工程分离 (Advanced Engineering Separations)\n化学工程系统的建模 (Modelling of Chemical Engineering Systems)\n清洁能源和可持续性 (Clean Energy and Sustainability)\n先进的生化工程 (Advanced Biochemical Engineering)\n强化 (Intensification)\n接口和胶体科学 (Interface and Colloid Science)\n先进的流程优化 (Advanced Process Optimisation)",
+  "success_cases": ""
+}

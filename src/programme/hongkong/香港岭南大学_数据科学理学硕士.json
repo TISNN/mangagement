@@ -1,0 +1,12 @@
+{
+  "school_name": "香港岭南大学",
+  "major_name": "数据科学理学硕士",
+  "ename": "MSc Data Science",
+  "tags": "理科,数据科学,研究生院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 287000港币/年",
+  "requirements": "申请者需持有本大学认可的高等教育机构授予的工程学、理学或其他同等学科学士学位；或取得同等学历；或提供令人满意的学术和专业成就证据。\n在数据科学和计算方面没有或只有有限背景的申请者需要在课程开始之前完成并通过以下相应的预科课程：\n- 计算机概论（15小时）\n- 统计学（15小时）",
+  "objectives": "香港岭南大学数据科学理学硕士项目以多学科方式设计，涵盖（生成）人工智能和多媒体技术（文本、图像等）等新兴技术主题的数据科学知识前沿。\n香港岭南大学数据科学理学硕士项目通过为个人提供在该领域脱颖而出所需的知识、技能和实践经验来满足专业需求。通过实践项目和实际应用，学生学习收集、分析和解释数据，使他们能够做出明智的决策并得出可行的见解。此外，数据科学项目需要跟上技术和行业趋势的进步。\n香港岭南大学数据科学理学硕士项目适合需要处理和分析大数据的专业人士、决策者和政策制定者，同时使医疗保健和公共事业等不同行业的从业者能够更深入地了解人工智能和商业分析的重要性，以提高社会质量和运作效率。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学编程 (Programming for Data Science)\n数据科学统计 (Statistics for Data Science)\n数据库管理 (Database Management)\n数据挖掘 (Data Mining)\n数据科学项目 (Data Science Project)\n人工智能基础 (Foundation of Artificial Intelligence)\n商业机器学习 (Machine Learning for Business)\n网络安全简介 (Introduction to Cyber Security)\n云计算 (Cloud Computing)\n自然语言处理 (Natural Language Processing)\n计算机视觉 (Computer Vision)\n运营管理 (Operations Management)\n数据可视化 (Data Visualization)\n社交计算 (Social Computing)\n移动边缘计算 (Mobile Edge Computing)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "商业分析：运筹学与风险分析理学硕士",
+  "ename": "MSc Business Analytics: Operational Research and Risk Analysis",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 34000英镑/年",
+  "requirements": "具有英国大学颁发的一等或2:1荣誉学位或同等学历（成绩达到2:1，均分60%），需要定量学科背景，如数学、统计学、物理学、工程学、计算机、管理科学或经济学\n在评估申请者的学习成绩时，学校会考虑其平均成绩、班级排名以及所就读院校的地位，学校特别欢迎来自高排名、声望高的机构的申请者",
+  "objectives": "在曼彻斯特大学商业分析：运筹学与风险分析理学硕士学位课程的学习中，学生将学习数据分析、决策科学、应用操作研究和统计的基本理论、方法和分析工具包。 曼彻斯特大学商业分析：运筹学与风险分析理学硕士学位课程旨在使学生获得坚实的理论基础和定量技能，以及实际解决问题的技巧；利用案例研究、个人和团队的咨询作业、演讲和软件工具，将知识应用于现实生活中的场景；使用SAS企业软件包作为 \"商业决策的数据分析\" 单元的一部分；从广泛的选项中选择，以满足学生的兴趣或职业抱负。 曼彻斯特大学商业分析：运筹学与风险分析理学硕士为学生在咨询、金融、零售、制造、政府分析单位、国防、IT系统、外包和电信领域的职业生涯奠定基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "风险，绩效和决策分析 (Risk, Performance and Decision Analysis)\n数学规划与优化 (Mathematical Programming and Optimisation)\n用于业务决策的数据分析 (Data Analytics for Business Decision Making)\n应用统计和业务预测 (Applied Statistics and Business Forecasting)\n模拟与风险分析 (Simulation & Risk Analysis)\n全球运营管理 (Global Operations Management)\n战略供应链管理 (Strategic Supply Chain Management)\n全球供应链管理：理论与实践 (Global Supply Chain Management: Theories and Practice)\n战略项目组织 (Strategic Project Organising)\n知识管理与数字战略 (Knowledge Management and Digital Strategy)\n决策行为，分析和支持 (Decision Behaviour, Analysis and Support)\n供应链物流管理 (Supply Chain Logistics Management)\n使用Python进行业务分析编程 (Programming in Python for Business Analytics)",
+  "success_cases": ""
+}

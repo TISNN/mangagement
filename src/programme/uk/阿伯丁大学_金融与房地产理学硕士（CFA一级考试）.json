@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "金融与房地产理学硕士（CFA一级考试）",
+  "ename": "MSc Finance and Real Estate (with CFA Level 1 Examination)",
+  "tags": "商科,房地产,商学院",
+  "introduction": "专业方向: 房地产\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "不限专业背景，不需要在本科阶段完成商业或管理学习，具有2:2荣誉学位或同等学历",
+  "objectives": "阿伯丁大学金融与房地产硕士课程专注于商业的真实需求，将使学生具备在该领域取得成功所需的知识和技能。阿伯丁大学金融与房地产硕士课程结合了两个互补的学科领域的学习和领先的行业认证和专业培训，以确保学生已经做好行业准备。该课程旨在扩展学生在房地产和房地产开发的所有金融方面的能力，特别国际房地产市场和商业房地产估值和投资。阿伯丁大学金融与房地产硕士课程获得了英国皇家特许测量师学会(RICS)的认证，毕业生可以继续参加RICS的专业能力评估。它也与全球认可的CFA一级资格考试并行，所以学生也有机会完成这个领先的职业资格考试。不仅如此，投资物业论坛已将这一课程列入其选定的研究生课程名单中，他们认为这一课程为从事物业投资市场的人士提供必要的相关技能。最后，该商学院还是国际公认的房地产研究中心的所在地，该中心是房地产投资和房地产市场分析领域的跨学科研究重点。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数量方法 (Quantitative Methods)\n会计 (Accounting)\n资产估值与金融 (Valuation and Finance)\n房地产经济学 (Real Estate Economics)\n资产组合分析 (Portfolio Analysis)\n金融分析与市场 (Financial Analysis and Markets)\n房地产开发与估价 (Real Estate Development and Appraisal)\n专业金融学 (Professional Finance)",
+  "success_cases": ""
+}

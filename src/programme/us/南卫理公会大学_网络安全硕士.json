@@ -1,0 +1,12 @@
+{
+  "school_name": "南卫理公会大学",
+  "major_name": "网络安全硕士",
+  "ename": "MS in Cybersecurity",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 春季/秋季/春季\n项目时长: 30学分\n项目学费: 1,200美元/学分",
+  "requirements": "1. 本科专业为定量科学，数学或计算机科学或工程学科之一\n2. 至少一年大学水平的微积分\n3. 至少两年的行业经验\n4. GPA3.0",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

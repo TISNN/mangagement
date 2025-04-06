@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "应用数据科学与统计理学硕士",
+  "ename": "MSc Applied Data Science and Statistics",
+  "tags": "理科,数据科学,工程、数学与物理科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 36360英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，数学成绩取得A级，并/或在本科课程中接受过定量技能培训，或拥有相关的专业经验，不需要有编码经验",
+  "objectives": "英国埃克塞特大学应用数据科学与统计理学硕士项目教授学生数据处理和统计分析方法来解决问题，以及教授多种数据科学语言，包括R语言和Python，旨在培养合格的数据分析师。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据处理 (Working with Data)\n数据科学与统计建模导论 (Introduction to Data Science and Statistical Modeling)\n数据科学与统计学应用 (Applications of Data Science and Statistics)\n参与研究 (Engaging with Research)\n高级统计学课题 (Advanced Topics in Statistics)\n高级统计建模 (Advanced Statistical Modelling)\n时空统计建模 (Statistical Modelling in Space and Time)\n数据治理与道德标准 (Data Governance and Ethics)\n数据科学与统计项目 (Data Science and Statistics Project)",
+  "success_cases": ""
+}

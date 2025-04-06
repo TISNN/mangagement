@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "会计、财务管理与数字商务理学硕士",
+  "ename": "MSc Accounting, Financial Management and Digital Business",
+  "tags": "商科,会计,亨利商学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 1年\n项目学费: 27500英镑/年",
+  "requirements": "具有good 2nd荣誉学位或同等学历",
+  "objectives": "雷丁大学会计、财务管理与数字商务理学硕士课程整合了学科领域和理论与实际应用相结合的方法，将为学生在广泛的商业生涯中开展工作做好准备。该课程具有独特的国际特色，侧重于分析全球商业挑战所需的国际商业概念，提供对当前管理理论和全球会计实践的批判性理解，涵盖与国际战略管理以及管理人员和组织有关的问题，还包括全球财务报告、公司治理、道德规范和市场营销的基础知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际战略管理 (International Strategic Management )\n国际财务会计 (International Financial Accounting)\n管理决策与绩效评价 (Management Decision Making and Performance Evaluation)\n商业金融 (Business Finance)\n引领数字组织 (Leading in the Digital Organisation)\n商业数据分析 (Business Data Analytics)\n商业大数据 (Big Data in Business)\n数字化创新 (Digital Innovation)\n金融大数据 (Big Data in Finance)\n公司治理与道德 (Corporate Governance & Ethics)\n会计信息系统 (Accounting Information Systems)\n当代管理会计实务 (Contemporary Management Accounting Practice)\n财务管理：案例与Excel建模应用 (Financial Management: Cases and Excel Modelling Applications)\n会计与金融项目 (Accounting and Finance Project)\n会计论文 (Accounting Dissertation)\n工作实习与项目 (Work Placement and Project)",
+  "success_cases": ""
+}

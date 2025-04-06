@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "电子学理学硕士",
+  "ename": "MSc Electronics",
+  "tags": "工科,电气电子,电气与电子工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 56157新币/年",
+  "requirements": "具有良好的相关学士学位\n有相关工作经验者优先考虑",
+  "objectives": "南洋理工大学电子学理学硕士学位课程旨在为电子学工程师提供电子学相关领域内的专业知识训练。课程内容广泛，包括集成电路设计、微电子制造和测试、光电产品制造等。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字集成电路设计 (Digital IC Design)\n模拟集成电路设计 (Analog IC Design)\n高级晶片加工 (Advanced Wafer Processing)\n质量管理与可靠性工程 (Quality and Reliability Engineering)\n半导体器件专题研究 (Advanced Topics in Semiconductor Devices)\n项目管理和科技创业 (Project Management & Technopreneurship)\n电磁兼容与干扰 (Electromagnetic Compatibility and Interference)\n集成电路封装 (Integrated Circuit (IC) Packaging)\nLED照明和显示技术 (LED Lighting and Display Technologies)\n数字通信系统 (Digital Communication System)\n计算机网络 (Computer Networks)\n光纤通讯 (Optical Fibre Communications)\n无线移动通信系统 (Wireless and Mobile Radio System)\n无线通信射频电路 (RF circuit for wireless communications)\n现代电气传动 (Modern Electrical Drives)",
+  "success_cases": ""
+}

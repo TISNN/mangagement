@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "建筑资产数字化管理理学硕士",
+  "ename": "MSc Digital Management of Built Assets",
+  "tags": "工科,工程管理,建筑学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 250080港币/年",
+  "requirements": "具有学士学位或同等学历",
+  "objectives": "香港大学建筑资产数字化管理理学硕士项目为在智能建筑环境中工作的专业人士提供创新和独特的管理教育。建筑环境面临数字化转型、健康与安全、数字信任、碳中和和其他可持续性问题。香港大学建筑资产数字化管理理学硕士项目在香港城市实验室i5 BIM研究实验室提供尖端知识和数字双胞胎技术、建筑信息模型 (BIM)、地理信息系统 (GIS)、人工智能/机器学习 (AI/ML)、ProTech、区块链和元宇宙/游戏技术的新方法，专注于国际化、创新、跨学科、影响力和人工智能。\n香港大学建筑资产数字化管理理学硕士项目凭借颠覆性数字技术的学习经验，使学生将能够在管理构建资产的同时缩小虚拟与现实之间的差距，例如，通过在通用数据环境 (CDE) 和其他环境中有效使用单一信息源，为资产所有者设置信息要求，制定成功的项目执行计划，了解整个生命周期的标准协调，以及集成系统和其他组织流程的系统，以确保构建的资产可以持续更长时间并表现更好。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "创新与流程 (Innovation and Processes)\n国际建筑采购 (International Construction Procurement)\n管理理论与协同项目管理 (Management Theory and Collaborative Project Management)\nBIM执行规划 (BIM Execution Planning)\n信息管理 (Information Management)\n科技与创新 (Technologies and Innovation)\n虚拟设施管理 (Virtual Facilities Management)\n顶点:了解已建成资产的数字化管理 (Capstone: Understanding Digital Management of Built Assets)\n设计与施工中的信息技术 (Information Technology in Design and Construction)\n元宇宙的构建资产:游戏和虚拟设计与施工 (Built Assets of the Metaverse: Gaming and VDC)\n了解行业实践 (Understanding Industry Practice)\n未来产业方向 (Future Industry Directions)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "智能电力系统理学硕士",
+  "ename": "MSc Smart Power Systems",
+  "tags": "工科,电气电子,电子工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23900英镑/年",
+  "requirements": "要求相关技术、计算、电力或系统工程背景背景",
+  "objectives": "伦敦大学皇家霍洛威学院智能电力系统理学硕士项目考察了当今现代电力系统的重大变化，以及可持续能源未来的发展。它将为学生在电力系统部门的各种工作做好准备，从智能电表和需求侧管理，负荷预测，分配或传输，能源生产，可再生能源或能源存储。完成本硕士课程后，学生将对以下内容有更深入的了解:\n-当前和未来的电力系统\n-机器学习，现代电力系统的许多领域都需要\n-覆盖对现代电力系统至关重要的通信系统\n-工程管理和专业实践方面的培训",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "团队项目 (Team Project)\n模式识别 (Pattern Recognition)\n可持续发电 (Sustainable Power Generation)\n电力系统 (Power Systems)\n先进通信系统 (Advanced Communication Systems)\n工程项目 (Engineering Project)\n敏捷工程 (Agile Engineering)",
+  "success_cases": ""
+}

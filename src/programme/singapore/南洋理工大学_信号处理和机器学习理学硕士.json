@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "信号处理和机器学习理学硕士",
+  "ename": "MSc Signal Processing and Machine Learning",
+  "tags": "工科,电气电子,电气与电子工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 56157新币/年",
+  "requirements": "具有良好的相关学士学位\n有相关工作经验者优先考虑",
+  "objectives": "南洋理工大学信号处理和机器学习理学硕士课程专为执业工程师、硬件与软件设计师、数据科学家、研发经理和行业规划师而设计，他们寻求了解数字信号处理和人工智能技术的当前方法和发展方向，该课程也适用于预计在未来将会参与这些领域的工程师和数据科学家。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "机器视觉 (Machine Vision)\n遗传算法和机器学习 (Genetic Algorithms and Machine Learning )\n高等数字信号处理 (Advanced Digital Signal Processing)\n实时DSP设计与应用 (Real-time DSP Design and Applications)\n自然语言处理 (Natural Language Processing)\n视频信号处理 (Video Signal Processing)\n合作研发 (Collaborative Research & Development)\n项目管理与科技创业 (Project Management & Technopreneurship)\n数字通信系统 (Digital Communication Systems)\n网络安全和区块链技术 (Cyber Security And Blockchain Technology)\n无线和移动无线电系统 (Wireless & Mobile Radio Systems)\n系统分析 (Systems Analysis)\n机器人与智能传感器 (Robotics & Intelligent Sensors)\n计算智能 (Computational Intelligence)\n医疗保健智能生物传感器和系统 (Smart Biosensors & Systems For Healthcare)\n分布式多媒体系统 (Distributed Multimedia Systems)\n信号处理专题 (Special Topics In Signal Processing)\n模式识别与深度学习  (Pattern Recognition & Deep Learning )\n线性系统 (Linear Systems)\n研究方法 (Research Methods)\n神经和模糊系统 (Neural And Fuzzy Systems)\n概率和随机过程 (Probability And Random Processes)\n统计信号处理 (Statistical Signal Processing)\n图像分析与模式识别 (Image Analysis And Pattern Recognition)\n人工智能和数据挖掘 (Artificial Intelligence And Data Mining )\n先进的模拟电路 (Advanced Analog Circuits )",
+  "success_cases": ""
+}

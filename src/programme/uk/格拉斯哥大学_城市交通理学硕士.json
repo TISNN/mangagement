@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "城市交通理学硕士",
+  "ename": "MSc Urban Transport",
+  "tags": "工科,交通运输,社会与政治科学学院",
+  "introduction": "专业方向: 交通运输\n入学时间: 9月\n项目时长: 1年\n项目学费: 25320英镑/年",
+  "requirements": "具有2:1荣誉学位或非英国同等学历，需要城市研究、土木工程、地理学、管理学或经济学背景；工作经验也会被考虑",
+  "objectives": "格拉斯哥大学城市交通理学硕士项目课程为当代城市地区最突出和最紧迫的问题之一的职业生涯提供了全面的学术方法；如何提供安全、包容、环保和高效的运输系统。该学位旨在确保学生熟悉规划和管理城市交通系统的多种方法。该课程将为学生提供在政府机构和私营部门咨询机构工作的理论和方法以及实践知识。\n格拉斯哥大学城市交通理学硕士项目帮助学员了解能源、环境、住房、土地使用、经济发展、劳工市场、规划程序等方面的相互联系和其中的利益相关者，并涉及城市交通的多种方式，包括公路、公共交通、交叉式交通等。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地理信息系统原理及应用 (Principles and applications of GIS)\n项目管理 (Project management)\n交通规划实验室 (Transport planning lab)\n交通规划方法 (Transport planning methods)\n运输研究 (Transport studies)\n定量数据分析 (Quantitative data analysis)\n大数据和城市分析 (Big data and urban analytics)\n国际城市挑战 (International urban challenges)\n城市分析编程工具 (Programming tools for urban analytics)\n地理信息系统编程 (Programming with GIS)\n空间规划策略 (Spatial planning strategies)\n可持续城市前景 (Sustainable urban future)",
+  "success_cases": ""
+}

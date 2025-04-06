@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "国防技术与系统硕士双学位",
+  "ename": "Double Degree Master of Defence Technology and Systems (NUS-Partner University)",
+  "tags": "工科,计算机,系统科学研究所",
+  "introduction": "专业方向: 计算机\n入学时间: 3月\n项目时长: 1.5年",
+  "requirements": "具有工学学士（荣誉）、物理学或数学理学学士学位（荣誉），或NUS以及NPS/AFIT/Cranfield接受的同等学历\n具备至少3年相关工作经验\n由申请者的雇主提供全额担保\nNUS：不要求提交GRE\nNPS：不要求提供GRE\nAFIT：要求提供GRE或GMAT，建议GRE verbal部分至少达到153、quantitative部分至少达到148，GMAT至少达到550",
+  "objectives": "新加坡国立大学国防技术与系统硕士双学位项目旨在为学生提供有关系统工程和关键国防技术介绍的广泛知识。这里，学习的重点是系统思维。它包括课程前两个季度在新加坡国立大学开设的课程清单。然后，学生们将前往 NPS、AFIT 或克兰菲尔德大学，在那里他们将在接下来的两个季度开始“整合项目”。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程数学 (Engineering Mathematics)\n概率与统计 (Probability and Statistics)\n大规模系统工程 (Large Scale Systems Engineering)\nC3系统 (C3 Systems)\n行动调查 (Operations Research)\n系统工程基础 (Fundamentals of Systems Engineering)\n人工智能与数据分析 (Artificial Intelligence & Data Analytics)\n传感器与智能 (Sensors & Intelligence)\n制导系统 (Guided Systems)\n网络安全 (Cybersecurity)\n系统设计项目 (Systems Design Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "气候变化、环境与社会理学硕士",
+  "ename": "MSc Climate Change, Environment and Society",
+  "tags": "工科,环境工程,地理学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 24300英镑/年",
+  "requirements": "具有2:1学位或同等学历，包括含有气候变化成分的学科背景或气候变化性质的一些职业经验",
+  "objectives": "诺丁汉大学气候变化、环境与社会理学硕士将培养学生如何在社会层面应对气候挑战。课程通过跨学科的视角，将气候变化的社会、物理方面内容与相关学科的组织、项目管理技能相结合。通过本课程可以深入了解当前社会面临的风险、如何有效管理这些风险以及如何适应未来。通过了解气候挑战的复杂性以及锻炼解决问题的技能，学生将能够评估气候变化的风险和不确定性，形成全球化背景下的不平等意识，获得组织和项目管理技能，完成成本效益和情景分析，拥有系统性思维。学生将有机会利用在课程中获得的知识和技能，设计现实生活中气候挑战的解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目准备、设计和管理 (Project Preparation Design and Management)\n项目 (Project)\n环境解决方案技术 (Techniques for Environmental Solutions)\n背景下的气候变化决策 (Climate Change Decision-Making in Context)\n环境与气候正义 (Environmental and Climate Justice)\n气候风险管理 (Climate Risk Management)\n公共卫生可持续性、气候和环境 (Public Health Sustainability, Climate and Environment)\n全球气候变化 (Global Climate Change)\n河流和集水区管理的进展 (Advances in Managing Rivers and Catchments)\n人与环境理论 (People and the Environment)\n气候变化的政治经济学 (Political Economy of Climate Change)\n气候变化法律与政策 (Climate Change Law and Policy)\n心理学的当前问题：辩论和应用 (Current Issues in Psychology: Debates and Applications)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "发展经济学理学硕士",
+  "ename": "MSc Development Economics",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 28200英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要包含大量经济学内容的学科背景，包括微观经济学、宏观经济学、统计学和计量经济学课程",
+  "objectives": "诺丁汉大学发展经济学理学硕士课程使用现代经济分析和实证方法来探索与发展中国家有关的理论、问题和证据。侧重于世界上一些最贫穷国家的具体经济挑战，并着眼于不同经济体的成功和失败。学生将跟随各自领域的专家学习，课程的教学以经济发展和国际贸易研究中心的研究为基础。经济发展和国际贸易研究中心的主要点是贸易政策、援助的宏观经济学、家庭调查分析和发展中国家的实验设计。学生将学习专业的核心模块，并从一系列适合个人兴趣的选项中进行选择。同时还将获得一对一的指导，来完成个人的研究项目。学生毕业时将具备在雇主面前脱颖而出所需的所有知识、实践技能和信心，并成为一名专业经济学家或学术研究员。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "发展政策分析 (Development Policy Analysis)\n发展微观经济学 (Development Microeconomics)\n微观经济学理论 (Microeconomic Theory)\n宏观经济学理论 (Macroeconomic Theory)\n计量经济学理论 (Econometric Theory)\n经济数据分析 (Economic Data Analysis)\n经济研究方法 (Economic Research Methodology)\n硕士论文：经济学 (MSc Dissertation: Economics)\n国际贸易理论 (International Trade Theory)\n贸易分析与政策 (Trade Analysis and Policy)\n高级微观经济学理论 (Advanced Microeconomic Theory)\n公共经济学 (Public Economics)\n行为经济学理论 (Behavioural Economic Theory)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "创新与技术管理理学硕士",
+  "ename": "MSc Innovation and Technology Management",
+  "tags": "商科,管理,管理学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要工程、管理或其他相关专业背景。在特殊情况下，相关工作经验可以代替学位要求。相关工作经验不超过三年",
+  "objectives": "本课程将帮助学生发展领导创新发展项目所需的商业知识和技能，获得创新工具、决策分析和产品设计的实践经验。学生还将发展项目管理、市场营销和战略技能，了解复杂的全球组织间网络中的管理和创新。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "新技术的商业化 (Commercialisation of new technology)\n工程管理概念 (Management Concepts for Engineering)\n项目和变更管理 (Project and Change Management)\nAY领导能力发展 (AY leadership skills development)\n创新管理 (Innovation Management)\n工程管理可持续的价值 (Engineering Management for Sustainable Value)\n创造力和创新 (Creativity and Innovation)",
+  "success_cases": ""
+}

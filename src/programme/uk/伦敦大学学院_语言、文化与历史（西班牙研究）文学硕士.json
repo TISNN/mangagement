@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "语言、文化与历史（西班牙研究）文学硕士",
+  "ename": "MA Language, Culture and History (Hispanic Studies)",
+  "tags": "社科,语言,艺术与人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要相关学科背景，西班牙语知识至少达到相当于CEFRL C1 (Advanced)的水平，没有西班牙语正式资格但该语言能力良好的学生的申请将被考虑",
+  "objectives": "伦敦大学学院语言、文化与历史（西班牙研究）文学硕士项目为学生提供了一个机会，在一个高级水平上发展对西班牙和葡语世界文化的了解。学生可以将他们对西班牙语和葡语研究的兴趣与性别研究、翻译研究和比较文学的选修模块结合起来。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "拉丁美洲电影传统1 (The Latin American Cinematic Tradition 1)\n拉丁美洲电影传统2 (The Latin American Cinematic Tradition 2)\n西班牙语高级翻译 (Advanced Translation from and into Spanish)\n拉丁美洲文化之城 (The City in Latin American Culture)\n当代西班牙小说中的记忆之争:向民主的过渡 (The Battle for Memory in Contemporary Spanish Novel: The Transition to Democracy)\n阿格达斯的安第斯世界 (The Andean World of Arguedas)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "考古学理学硕士",
+  "ename": "MSc Archaeology",
+  "tags": "社科,历史,地球科学学院",
+  "introduction": "专业方向: 历史\n入学时间: 9月\n项目时长: 1年\n项目学费: 22000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要考古学或相关学科背景\n或具有考古学或相关学科背景的2:2学位并具备相关工作经验",
+  "objectives": "阿伯丁大学考古学理学硕士这个一年制的硕士课程为来自不同学术背景的学生提供广泛的考古学研究生资格，但也可以选择专攻特定的考古学专业，包括海盗考古学、博物馆研究、生物考古学、骨考古学和古病理学。学生将学习考古学的理论和方法。学校提供的灵活性意味着学生可以根据兴趣选择课程，如北方世界或维京考古学。还可以学习在考古学中使用的关键地理信息系统(GIS)工具和技术，并开发地图绘制和地理可视化的实践技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究理论与方法 (Theory and Method in Research)\n北部世界 (Northern Worlds)\n维京考古 (Viking Archaeology)\n地理信息系统工具，技术，制图与地理可视化介绍 (Introduction to GIS Tools, Techniques, Cartography and Geovisualisation)\n博物馆思想 (The Museum Idea)\n高级考古方法 (Advanced Archaeological Approaches)\n北部人民与文化 (Northern Peoples and Culture)\n维京人的世界 (The World of Vikings)\n高级空间分析与编程 (Advanced Spatial Analysis and Programming)\n地理信息系统应用现状 (Current Applications of GIS)\n考古论文 (Dissertation in Archaeology)",
+  "success_cases": ""
+}

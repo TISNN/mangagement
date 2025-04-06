@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "信息技术（商业）理学硕士",
+  "ename": "MSc Information Technology (Business)",
+  "tags": "商科,信息系统,数学与计算机科学学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 25480英镑/年",
+  "requirements": "要求在数学学科领域获得good荣誉学位",
+  "objectives": "赫瑞-瓦特大学信息技术（商业）理学硕士提供分析，实践和理论课程，结合商业管理和软件工程的研究。它们涵盖了IT系统的设计和开发、数据和IT的管理、商业组织和战略、项目领导和电子商务。\n赫瑞-瓦特大学信息技术（商业）理学硕士课程不强调计算机编程，而是致力于培养具有良好分析和项目管理技能的毕业生，帮助他们成为软件开发人员和商业策略师之间的有效沟通者/管理者。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字与知识经济 (Digital and Knowledge Economy)\n数据库和信息系统 (Database and Information Systems)\n研究方法和项目计划 (Research Methods and Project Planning)\n硕士项目与论文 (Masters project and dissertation)\n大数据管理 (Big Data Management)\n竞争策略 (Competetive Strategy)\n信息系统方法论 (Information Systems Methodologies)\n创业与创造力 (Entrepreneurship & Creativity)\n电子商务技术 (e-Commerce Technology)\n项目管理 (Project Management)\n创业 (Entrepreneurial Venturing)\n软件工程基础 (Software Engineering Foundations)\n统计建模与分析 (Statistical Modelling and Analysis)",
+  "success_cases": ""
+}

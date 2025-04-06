@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "心理学理学硕士",
+  "ename": "MSc Psychology",
+  "tags": "社科,心理学,心理学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29450英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业。数学水平至少相当于GCSE的C/4级",
+  "objectives": "心理学是对自然界最复杂和最迷人的创造物——人类思维的系统和科学研究。卡迪夫大学心理学理学硕士项目探讨了一些人类最大的问题，并努力理解行为和思维是如何运作的。在这个为期一年的课程中，学生将获得开始从事心理学职业所需的所有技能，他们将从科学的角度学习心理学，重点是其在社会、认知和生物学方面，同时发展学生的定量和定性研究技能。该计划是一个转换课程，因此申请者不需要任何心理学知识即可申请。教学以研究为主导，这意味着学生将由心理学家教授，他们在世界各地的知识和生活质量方面取得了重大进展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "认知与社会心理学 (Cognitive and Social Psychology)\n发展与变态心理 (Developmental and Abnormal Psychology)\n研究方法 (Research Methods)\n研究项目 (Research Project)\n生物心理学与个体差异 (Biological Psychology and Individual Differences)\n实习 (Placement)",
+  "success_cases": ""
+}

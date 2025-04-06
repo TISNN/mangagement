@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "人类复杂性状遗传学理学硕士",
+  "ename": "MSc Human Complex Trait Genetics",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 43300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要生物或生物医学科学、医学、农业或动物科学背景，或具有数学、统计学或物理学学位打算转入生物科学的申请者\n学校也会考虑具有低于最低要求资格但可以表现出足够的额外相关经验（如相关学科的重要工作经历）的申请者\n申请必须显示出对遗传学和定量技能感兴趣",
+  "objectives": "爱丁堡大学人类复杂性状遗传学理学硕士项目将使学院获得将定量遗传学理论应用于生物医学行业实际问题以及进行定量和群体遗传学和基因组分析研究所需的知识和技能，彻底了解人口和数量遗传学和基因组学的一般概念，深入了解人类的复杂性状遗传学，打下定量生物学所需统计方法的坚实基础，通过个人小型和大型研究项目发展独立研究技能，发展个人通用技能（IT技能，撰写科学论文的经验，独立工作的能力），通过学生研讨会，项目工作的科学介绍和独立研究项目介绍技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人口与数量遗传学 (Population and Quantitative Genetics)\n基因解释 (Genetic Interpretation)\n基因组分析中的连锁与关联 (Linkage and Association in Genome Analysis)\n人类复杂性状遗传学 (Genetics of Human Complex Traits)\n定量遗传模型 (Quantitative Genetic Models)\n统计及数据分析 (Statistics and Data Analysis)\n分子系统发生学 (Molecular Phylogenetics)\n生命科学的生物信息学导论 (Introduction to Bioinformatics for Life Scientists)\n分子进化 (Molecular Evolution)\n功能基因组技术 (Functional Genomic Technologies)\n动物基因改良 (Animal Genetic Improvement)\n进化数量遗传学 (Evolutionary Quantitative Genetics)",
+  "success_cases": ""
+}

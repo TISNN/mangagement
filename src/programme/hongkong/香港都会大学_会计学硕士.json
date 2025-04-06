@@ -1,0 +1,12 @@
+{
+  "school_name": "香港都会大学",
+  "major_name": "会计学硕士",
+  "ename": "Master of Accountancy",
+  "tags": "商科,会计,李兆基商业管理学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 2年\n项目学费: 154213港币/年",
+  "requirements": "具有商业相关领域学科背景，或非商业领域学科背景需加上至少三年监督/管理经验，申请人若完成课程所提供的英语及/或翻译笔试，并获及格成绩，则可豁免雅思或托福要求。",
+  "objectives": "香港都会大学会计学硕士项目旨在通过全球综合方法培养学生的高级技能和知识，帮助他们获得专业资格。学生将在香港报读并准备澳大利亚会计师公会的CPA课程科目考试。毕业生将能够将实践经验与在香港都会大学会计学硕士课程中获得的全球商业和会计知识相结合，更适合从事需要具备更广阔视野的专业和管理职位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司会计 (Accounting for Corporations)\n税务体系 (Tax Framework)\n管理会计 (Management Accounting)\n道德与公司治理 (Ethics and Corporate Governance)\n全球战略与领导力 (Global Strategy and Leadership)\n国际财务报告问题 (International Financial Reporting Issues)\n高级审计 (Advanced Auditing)\n财政与财务管理 (Treasury and Financial Management)\n公司法 (Corporate Law)\n 高级税务 (Advanced Taxation)",
+  "success_cases": ""
+}

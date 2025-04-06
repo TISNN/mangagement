@@ -1,0 +1,12 @@
+{
+  "school_name": "马里兰大学帕克分校",
+  "major_name": "信息系统硕士",
+  "ename": "Master of Science in Information Systems",
+  "tags": "商科,信息系统",
+  "introduction": "专业方向: 信息系统\n项目类别: STEM\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 2015美元/学分\n平均成绩: 3.5\n平均G: 760/316\n男女比例: 27:73\n就业比例: 81%\n平均起薪: 77000美元",
+  "requirements": "需要修过统计课程,成绩达到B以上",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

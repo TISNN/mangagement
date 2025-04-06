@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "北部考古学理学硕士",
+  "ename": "MSc Archaeology of the North",
+  "tags": "社科,历史,地球科学学院",
+  "introduction": "专业方向: 历史\n入学时间: 9月\n项目时长: 1年\n项目学费: 22000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要考古学或相关学科背景\n或具有考古学或相关学科背景的2:2学位并具备相关工作经验",
+  "objectives": "阿伯丁大学北部考古理学硕士项目旨在发展学生的研究技能，以调查遥远北半球的物质文化和遗产，该区域包括苏格兰、北大西洋、斯堪的纳维亚和波罗的海欧洲、俄罗斯北部和西伯利亚、北太平洋和高纬度北美的环极地地区。阿伯丁大学北部考古理学硕士课调强调殖民、文化接触、生活方式和世界观，毕业生对北方考古学的理论和实践有全面的了解，并具备进一步学习或专业就业的基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "北部世界 (Northern Worlds)\n研究理论与方法 (Theory and Method in Research)\n北部人民与文化 (Northern Peoples and Culture)\n高级考古方法 (Advanced Archaeological Approaches)\n考古论文 (Dissertation in Archaeology)",
+  "success_cases": ""
+}

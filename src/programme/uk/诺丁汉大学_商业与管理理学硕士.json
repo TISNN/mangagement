@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "商业与管理理学硕士",
+  "ename": "MSc Business and Management",
+  "tags": "商科,管理,诺丁汉商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 32400英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要商业研究、经济或管理背景\n如果申请者尚未完成本科学位，需要提供最后一年要学习的课程列表",
+  "objectives": "诺丁汉大学商业与管理理学硕士课程将为学生提供一整套基本的商业和管理技能，帮助毕业生在世界各地的工业、商业或公共部门开始一段成功的报酬丰厚的职业生涯。课程的的核心模块将为学生提供管理科学所有关键原则的基础，包括企业财务战略、人员管理和管理经济学。学生还可以从与自己的职业目标一致的特定领域的一系列可选模块中进行选择，包括风险投资、行为经济学和人力资源管理。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "企业金融策略 (Corporate Financial Strategy)\n管理人员 (Managing People)\n管理学研究方法 (Research Methods for Management Studies)\n管理经济学 (Managerial Economics)\n行为经济学与决策制定 (Behavioural Economics and Decision Making)\n企业对企业营销 (Business to Business Marketing)\n企业管治 (Corporate Governance)\n企业创业与创新管理 (Corporate Entrepreneurship and Innovation Management)\n人力资源管理 (Human Resource Management)\n企业战略 (Corporate Strategy)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "测绘及地理资讯学理学硕士",
+  "ename": "MSc Geomatics",
+  "tags": "工科,地球科学,建筑及环境学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 192000港币/年",
+  "requirements": "具有荣誉学士学位，需要工程、科学或技术背景；或\n具有其他相关学科的荣誉学士学位（例如地理学荣誉文学学士）^；或\n具有专业资格以及与测量或GIS相关的工作经验^。\n^第2/3种情况的申请者可能需要参加面试以评估他们是否适合该课程",
+  "objectives": "香港理工大学测绘及地理资讯学理学硕士（地理资讯）课程专为地理信息系统(GIS)、测量学或相关范畴的专业人士而设，为学生提供专门从事GIS或地政及工程测量学所需的理论知识及实用方法。香港理工大学测绘及地理资讯学理学硕士（地理资讯）课程已获香港测量师学会(HKIS)、英国皇家特许测量师学会(RICS)、英国特许土木工程测量师学会(ICES)及香港工程测量师学会(HKIES)认可。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地理信息系统原理 (Principles of Geographic Information Systems)\n空间数据采集 (Spatial Data Acquisition)\n空间数据视像化与建模 (Spatial Data Visualization & Modeling)\n空间数据分析与挖掘 (Spatial Data Analysis & Mining )\n遥感图像处理 (Remote Sensing Image Processing)\n高级地理信息系统 (Advanced Geographic Information Systems)\n城市科学与系统 (Urban Science & Systems)\n城市信息学 (Urban Informatics)\n项目研究 (Project)\n硕士论文 (Dissertation)",
+  "success_cases": ""
+}

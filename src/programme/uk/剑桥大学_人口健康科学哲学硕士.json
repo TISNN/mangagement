@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "人口健康科学哲学硕士",
+  "ename": "MPhil Population Health Sciences",
+  "tags": "社科,公共卫生,公共卫生与初级护理学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 10月\n项目时长: 1年\n项目学费: 40272英镑/年",
+  "requirements": "申请者应该具有英国Good II.i荣誉学位或同等学历\n申请者通常具有定量科学的本科经历或健康相关领域的学位，其他相关经验也会被考虑学校希望申请者对人口健康科学（PHS）有明确的兴趣，对PHS职业有明确的承诺，并清楚地了解哲学硕士对申请人未来职业抱负的贡献\n不符合标准大学要求但具有临床学位或适当和补偿性工作经验的学生可以通过学校的非标准申请途径被考虑录取\n对于健康数据科学（HDS）主题的申请者来说，数学技能达到excellent A-level是最低要求，然而学校要求大多数申请者接受比A-level更高级的数学培训，仅满足最低数学要求的申请者将视为具备课程相关领域的本科学位，HDS申请者需要具备一定的计算机编程能力和经验",
+  "objectives": "剑桥大学人口健康科学哲学硕士课程为课程参与者提供必要的知识和技能，作为在学术、实践或其他环境中从事人口健康科学的基础。学生将接受流行病学、全球卫生、卫生数据科学、传染病、公共卫生和初级保健研究等相关学科所用核心研究方法的基本培训，然后将有机会进一步专攻自己感兴趣的领域。剑桥大学人口健康科学哲学硕士课程将教导学生如何评论和设计人口健康研究，并让他们有机会在密切监督下进行重点研究。最终，该课程希望学生能为研究和改善人口健康做出贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物统计学原理 (Principles of Biostatistics)\n健康数据科学统计 (Statistics for Health Data Science)\n流行病学原理 (Principles of Epidemiology)\n应用数据分析 (Applied Data Analysis)\n公共健康原则 (Principles of Public Health)\n研究技能 (Research Skills)\n流行病学 (Epidemiology)\n全球健康 (Global Health)\n健康数据科学（HDS） (Health Data Science (HDS))\n传染病 (Infectious Diseases)\n初级保健研究 (Primary Care Research)\n公共卫生 (Public Health)",
+  "success_cases": ""
+}

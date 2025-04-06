@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "人工智能与创新理学硕士",
+  "ename": "MSc Artificial Intelligence & Innovation",
+  "tags": "工科,计算机,继续与终生教育学院",
+  "introduction": "专业方向: 计算机\n入学时间: 8月\n项目时长: 1年\n项目学费: 54391新币/年",
+  "requirements": "具有学士学位（偏好4年制荣誉学位）\n具有3年制（非荣誉）学士学位的申请者需要具备至少1年工作经验\n特定的选修课程可能要求具备基本编程能力",
+  "objectives": "新加坡国立大学人工智能与创新理学硕士项目专注于利用人工智能的力量在不同的行业和企业进行创新，该专业的综合课程为来自科学、技术、工程与数学（STEM）和非STEM背景的学生提供人工智能方面的知识和技能，使他们能够在各个领域进行创新，为整个经济和社会的发展做出贡献。新加坡国立大学人工智能与创新理学硕士项目与新加坡政府的新加坡国家人工智能战略2.0相一致，为成人学习者提供毕业后的继续教育机会，以跟上行业和工作性质的变化。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能概论：概念、应用与评估 (Introduction to AI: Concepts, Applications, and Evaluation)\n利用人工智能管理技术创新 (Management of Technological Innovation with AI)\n人工智能中的创新与创业 (Innovation & Entrepreneurship in AI)\n人工智能治理与伦理 (AI Governance and Ethics)\n机器学习概要 (Essentials of Machine Learning)\n法律、算法与人工智能 (Law, Algorithms and Artificial Intelligence)\n数据隐私合规 (Data Privacy Compliance)\n创造力与问题解决能力 (Creativity and Problem-Solving Skills)\n文化分析与信息学 (Cultural Analytics and Informatics)\n深度学习与应用 (Deep Learning and Applications)\n定量与计算方法 (Quantitative & Computing Methods)\n机器学习与经济预测 (Machine Learning and Economic Forecasting)\n经济学家R语言编程 (R Programming for Economists)\n经济学家Python语言编程 (Python Programming for Economists)\n大数据分析与技术 (Big Data Analytics and Technologies)\n新风险投资 (New Venture Finance)\n碳市场与可持续融资 (Carbon Market & Sustainable Financing)\n软件开发基础 (Software Development Fundamentals)\n人工智能 (Artificial Intelligence)\n人工智能与创新选题 (Selected Topics in AI and Innovation)\n人工智能与创新顶点项目 (Capstone Project for AI and Innovation)\n技术预测、智能与预见 (Technology Forecasting, Intelligence & Foresighting)\n数字新闻、法律与社会 (Digital Journalism, Law, and Society)\n应用机器学习与数据科学 (Applied Machine Learning and Data Science)",
+  "success_cases": ""
+}

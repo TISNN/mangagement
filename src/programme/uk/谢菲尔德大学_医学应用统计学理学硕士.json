@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "医学应用统计学理学硕士",
+  "ename": "MSc Statistics with Medical Applications",
+  "tags": "理科,数学,数学与统计学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 27670英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要数据科学、数学、统计数据及相关学科背景申请者应在以下领域中至少学习一门课程：\n- 数学：代数/线性代数、微积分、数学方法；\n- 概率：马尔可夫链/流程、概率论/建模、随机过程/模型/建模；\n- 统计学：应用统计学、贝叶斯统计、计算统计数据、数据挖掘/分析、计量经济学、线性模型/广义线性模型、医学统计、多元统计/多变量统计、非参数统计、编程语言（如R, Python）、抽样/调查设计、统计分析/实验/建模、统计软件/计算、时间序列",
+  "objectives": "谢菲尔德大学医学应用统计学理学硕士项目旨在帮助学生学习如何应用先进的统计技术来解决医学和医疗保健方面的问题。课程培训学生使用对许多医学领域至关重要的统计工具：从临床试验到疾病建模，再到测量患者结果。学生将掌握基本的统计技术和概念的详细工作知识，包括线性和广义线性建模、贝叶斯统计和计算方法，并使用统计计算软件R建立编程和数据分析技能。学生将学习这些技能如何应用于临床试验，并从一系列可选模块中进行选择，这些模块侧重于统计在其他医学领域的作用，例如流行病学和评估医疗干预措施。大约三分之一的课程专门用于学生关于医疗或保健相关主题的论文。这可能侧重于调查数据集或更理论或方法论的主题。目的是为学生提供包含在简历中的技能培训，例如计划和研究项目、数据采集、问题规范、分析和报告发现。远程学习的学生通常会带着雇主设计的项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计学家工具包 (The Statistician's Toolkit)\n贝叶斯统计和计算方法 (Bayesian Statistics and Computational Methods)\n医学统计学 (Medical Statistics)\n论文 (Dissertation)\n经济评价 (Economic Evaluation)\n流行病学 (Epidemiology)\n系统评价与关键评价技术 (Systematic Reviews and Critical Appraisal Techniques)\n定性研究设计与分析 (Qualitative Research Design and Analysis)\n机器学习 (Machine Learning)\n抽样理论与实验设计 (Sampling Theory and Design of Experiments)\n时间序列 (Time Series)\n建立卫生技术评估的成本效益模型 (Building Cost-effectiveness Models for Health Technology Assessment)\n卫生技术评估中的效用和患者报告结果数据  (Utility and Patient-reported Outcomes Data in Health Technology Assessment)",
+  "success_cases": ""
+}

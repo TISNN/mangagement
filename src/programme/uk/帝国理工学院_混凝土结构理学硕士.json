@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "混凝土结构理学硕士",
+  "ename": "MSc Concrete Structures",
+  "tags": "工科,土木工程,土木与环境工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有2:1学位，需要土木工程、自然科学、地球科学或其他数学学科背景\n需要适当的数学基础，例如A-level数学Grade B\n不符合所列学术要求但具备丰富相关行业经验的申请者在完成“特殊资格考试”（SQE）后可能会被例外录取",
+  "objectives": "帝国理工学院混凝土结构理学硕士项目提供混凝土结构设计、分析和评估方面的培训，包括桥梁和建筑。旨在涵盖广泛的结构工程问题及其对钢筋和预应力混凝土结构的影响。\n课程主要由全职教师讲授，客座教授由知名工业家担任。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "预应力混凝土 (Prestressed Concrete)\n钢筋混凝土I (Reinforced Concrete I)\n结构分析 (Structural Analysis)\n非线性结构分析 (Nonlinear Structural Analysis)\n木材和砖石结构设计 (Design of Timber and Masonry Structures)\n结构可靠性理论 (Structural Reliability Theory)\n有限元分析 (Finite Element Analysis)\n壳体理论 (Theory of Shells)\n结构力学 (Structural Dynamics)\n结构稳定性 (Structural Stability)",
+  "success_cases": ""
+}

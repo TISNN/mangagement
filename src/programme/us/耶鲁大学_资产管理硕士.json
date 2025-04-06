@@ -1,0 +1,12 @@
+{
+  "school_name": "耶鲁大学",
+  "major_name": "资产管理硕士",
+  "ename": "Master’s Degree in Asset Management",
+  "tags": "商科,金融",
+  "introduction": "专业方向: 金融\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1年\n项目学费: 74500美元",
+  "requirements": "申请者应具有很强的定量背景,包括多元微积分、线性代数、微观经济理论和概率统计的课程；申请人还应该有一些计算机编程方面的课程或经验。该课程或经验不必在申请该计划时完成,但应在开课前完成。推荐微积分以外的高等数学和经济理论课程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

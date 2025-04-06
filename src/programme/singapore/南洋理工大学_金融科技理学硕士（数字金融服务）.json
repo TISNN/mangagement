@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "金融科技理学硕士（数字金融服务）",
+  "ename": "MSc Financial Technology (Digital Financial Services)",
+  "tags": "商科,金工金数,物理与数学科学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 8月\n项目时长: 1年\n项目学费: 63220新币/年",
+  "requirements": "具有良好的学士学位，需要相关专业背景（如量化专业、商科、工程等）\n具备良好的GRE或GMAT成绩者优秀考虑（不强制要求）\n具备至少2年工作经验者优先考虑（不强制要求）",
+  "objectives": "南洋理工大学金融科技理学硕士（数字金融服务）课程以数据科学、人工智能和信息技术为基础，为学生提供必要的金融科技技能，以应对金融行业的不断变化。学生将深入掌握金融领域的颠覆性技术，包括金融自动化(例如，机器人顾问)、金融密码学(例如，区块链技术)和数字金融服务(例如，金融普惠)。数字金融服务方向是为对金融科技管理方面感兴趣的学生设计的。选择这一方向的候选人应具有相关专业背景（如定量专业、商科等）或在金融行业的相关工作经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融中的机器学习 (Machine Learning in Finance)\n统计建模基础 (Foundations of Statistical Modelling)\n金融科技概论 (Introduction to ​FinTech)\n金融科技生态系统与创新 (FinTech Ecosystem and Innovations)\n金融与风险管理原理 (Principles of Finance and Risk Management)\nPython编程 (Python Programming)\nPython数据分析 (Python for Data Analysis)\n金融与风险分析 I (Financial and Risk Analytics I)\n金融与风险分析 II (Financial and Risk Analytics II)\n数据管理与商业智能 (Data Management and Business Intelligence)\n反金融犯罪与合规 (Anti-Financial Crime and Compliance)\n监管技术 (Regulatory Technology)\n普惠金融与分散金融 (Financial Inclusion and Decentralized Finance)\n金融科技创业基础 (Fundamentals of FinTech Entrepreneurship)\n金融科技创业实践 (FinTech Entrepreneurial Practice)",
+  "success_cases": ""
+}

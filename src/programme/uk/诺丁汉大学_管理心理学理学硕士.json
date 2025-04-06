@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "管理心理学理学硕士",
+  "ename": "MSc Management Psychology",
+  "tags": "社科,心理学,医学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 28200英镑/年",
+  "requirements": "具有2:1学位或同等学历，不限专业背景\n- 持有BPS认可的心理学学位\n如果申请者具有本科学位（2:1或以上水平）并授予GBC资格，则其更适合申请MSc Occupational Psychology\n- 持有非BPS认可的心理学学位\n如果申请者具有本科学位（2:1或以上水平）但未授予GBC资格，则其更适合申请MSc Work and Organisational Psychology",
+  "objectives": "诺丁汉大学管理心理学理学硕士课程让学生深入了解如何在工作场所使用心理学以及有效管理人员所需的工具。对于那些以前没有学习过心理学的人来说，这是一个理想的选择，因为他们不需要对研究方法有任何先验知识。学生将分析管理心理学的主要领域：学习、培训和发展；领导参与和激励；组织发展和变革；工作中的心理评估；工作设计和工作中的幸福感；战略人力资源管理和管理多样性。课程具有很强的实践性，毕业生将很好地掌握适用于工作场所的研究方法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "员工关系和激励 (Employee Relations & Motivation)\n战略和人力资源管理 (Strategic and Human Resource Management)\n管理心理学导论 (Introduction to Management Psychology)\n职场咨询与职业发展 (Workplace Counselling and Career Development)\n研究方法导论 (Introduction to Research Methods)\n咨询技巧 (Consultancy Skills)\n组织发展与变革 (Organisational Development & Change)\n组织培训 (Training in Organisations)\n职业选择与评价 (Occupational Selection & Assessment)\n定性研究方法 (Qualitative Research Methods)\n定量职场数据导论 (Introduction to Quantitative Workplace Data)\n应用研究项目 (Applied Research Project)",
+  "success_cases": ""
+}

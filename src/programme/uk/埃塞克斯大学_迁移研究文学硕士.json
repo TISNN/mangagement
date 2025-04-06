@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "迁移研究文学硕士",
+  "ename": "MA Migration Studies",
+  "tags": "社科,社会学与社工,社会学系",
+  "introduction": "专业方向: 社会学与社工\n入学时间: 10月\n项目时长: 1年\n项目学费: 21700英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要社会科学或人文学科或其他学科背景，必须包含至少2门人文或社会科学课程（可以包括研究项目/论文）低于2:2学位或同等学历或非社会科学学位的学生的申请将根据其相关专业或志愿经验、以前学习的课程和/或个人陈述进行考虑鼓励申请者直接联系学校进行初步询问并在申请前提交简短的research proposal",
+  "objectives": "移民、社会政策和福利之间的关系是什么？国际移民和强迫移民对移民输出国和接受国都带来了哪些社会和文化挑战？埃塞克斯大学迁移研究文学硕士课程从社会学角度独特地探索了移民研究，调查了这些挑战如何形成政策议程，并特别围绕社会融合、权利和多元文化主义的问题。埃塞克斯大学迁移研究文学硕士项目将社会学理论的洞见与政府、非政府组织和超国家机构强烈需求的方法论工具相结合，利用领先研究人员的专业知识，学生可以建立起强大的理论理解并解决与迁移有关的关键问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "迁移：理论、概念与特定问题 (Migration: Theory, Concepts and Selected Issues)\n社会学研究设计 (Sociological Research Design)\n论文 (Dissertation)\n融合背景：移民的起源、目的地和子女 (The Context of Integration: Origin, Destination and the Children of Immigrants)\n难民经历背景 (Contexts of Refugee Experience)\n公民身份、国际移徙与人权 (Citizenship, International Migration and Human Rights)",
+  "success_cases": ""
+}

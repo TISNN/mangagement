@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "人机交互理学硕士",
+  "ename": "MSc Human Computer Interaction",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 32400英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要计算机科学、工程学、自然科学、社会科学或艺术与设计学科背景",
+  "objectives": "诺丁汉大学人机交互理学硕士课程由计算机科学学院和工程系的学者教授。学生将学习涵盖混合现实和用户体验设计等主题的核心模块。可选模块为学生提供了学习游戏软件和虚拟现实等专业领域的灵活性。学生将学习如何开发软件和系统，以更好地响应消费者、委托人、用户的需求，开展用户研究和设计，以改进其产品和服务。所有学生都将承担一个单独的研究项目，这可以与行业合作伙伴或学校的研究小组进行合作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "个人项目：人机交互 (Individual Project: Human-Computer Interaction)\n人为表现研究 (Studying Human Performance)\n设计的认知工效学 (Cognitive Ergonomics in Design)\n编程 (Programming)\n设计民族志 (Design Ethnography )\n人机系统 (Human-Computer Systems)\n高级人为因素与人机交互研究方法 (Advanced Methods in Human Factors and Human-Computer Interaction)\n协作和通信技术 (Collaboration and Communication Technologies)\n信息可视化基础 (Fundamentals of Information Visualisation)",
+  "success_cases": ""
+}

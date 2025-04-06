@@ -1,0 +1,12 @@
+{
+  "school_name": "白金汉大学",
+  "major_name": "会计与金融理学硕士",
+  "ename": "MSc Accounting and Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 16480英镑/年",
+  "requirements": "具有一等或good second-class荣誉学位，需要会计、商业（仅限MSc Finance and Investment)、金融、投资或银行相关学科背景\n或具有获认可的专业金融从业资格以及相关工作经验",
+  "objectives": "白金汉大学会计与金融理学硕士项目旨在培养能够认识到企业需要服务于多种利益攸关方的未来经理人。白金汉大学会计与金融理学硕士项目涵盖了严谨高要求的核心课程和各种选修课程。其中核心课程包括：财务报告、公司财务、公司管治、研究方法、战略管理、会计与审计。公司管治是一门基础课程，探讨了股份权益持有者与股票持有者之间的基本关系，并且探究了问责、透明、企业社会责任、环境责任等热点议题，从而促进学生从更广泛的社会视角学习会计与金融。学位论文，作为白金汉大学会计与金融理学硕士项目评估的重要部分，将促进学生发展对会计与金融主流内容或该领域内更广泛的企业与社会层面的兴趣。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "问责制、责任和管治 (Accountability、Responsibility and Governance)\n高级公司财务 (Advanced Corporate Finance)\n审计和问责制 (Audit and Accountability)\n行为金融学 (Behavioural Finance)\n论文 (Dissertation)\n金融研究方法 (Finance Research Methods)\n财务报告 (Financial Reporting)\n金融风险管理 (Financial Risk Management)\n投资策略和资产组合管理 (Investment Strategy and Portfolio Management )\n统计学（商业和经济） (Statistics For Business and Economics)\n战略管理会计 (Strategic Management Accounting)",
+  "success_cases": ""
+}

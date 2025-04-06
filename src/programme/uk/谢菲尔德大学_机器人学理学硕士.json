@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "机器人学理学硕士",
+  "ename": "MSc Robotics",
+  "tags": "工科,计算机,自动化控制和系统工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要工程、数学或物理学科背景，学校也可能考虑相关学科\n申请者应学习至少一个数学课程和一个以下领域的课程：高等数学、物理、概率论与统计学、编程，学校也会考虑相关课程",
+  "objectives": "机器人技术对包括制造、医疗保健、航空航天、海洋等在内的各个领域越来越重要。信息物理系统，例如机器人和自主系统、物联网、智能电网和云计算，正在得到更广泛的应用。谢菲尔德大学机器人学理学硕士项目通过发展学生在机器人和自主系统关键领域的知识和技能，帮助学生转化现有的知识和技能。学生将学习感应和感知技术、认知和自主技术、控制和规划以及机器人设备和系统。学生将能够在许多工程学科中应用技能，并且学生将使用行业标准的CAD和硬件工具来设计和分析机电一体化系统。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据建模和机器智能 (Data Modelling and Machine Intelligence)\n机器人技术基础 (Foundations of Robotics)\n机器人机电一体化 (Mechatronics for Robotics)\n机械手机器人 (Manipulator Robotics)\n机器人和自动系统 (Robotics and Autonomous Systems)\n智能及视觉系统 (Intelligent and Vision Systems)\n多传感器和决策系统 (Multisensor and Decision Systems)\n机器人项目及论文 (Robotics Project and Dissertation)\n自然系统的建模和仿真 (Modelling and Simulation of Natural Systems)\n计算智能工业训练计划 (Industrial training programme (ITP) in Computational Intelligence)",
+  "success_cases": ""
+}

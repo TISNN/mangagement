@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "计算机科学理学硕士",
+  "ename": "MSc Computer Science",
+  "tags": "工科,计算机,工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 216000港币/年",
+  "requirements": "具有认可的学士学位或同等学历，需要计算学科背景，如计算机研究、信息技术、计算机工程、信息系统；或\n具有相关学科（如电子工程、应用数学、制造工程、定量分析）的学士学位或同等学历，并且具备信息技术方面适当工作经验",
+  "objectives": "香港城市大学计算机科学理学硕士项目的首要目标是让计算机专业人才系统地提升自己的技术能力，以满足计算机系统和服务发展过程中不断提高的要求。学生将更深入的了解当代计算机系统及服务，课程内容涵盖了计算机网络、互联网、软件工程、数据科学、信息安全以及多媒体、移动和电子商务技术领域的理论、技术和应用。香港城市大学计算机科学理学硕士项目也将为想要从事该行业中的高级创新型开发工作或者想要进一步研究深造的毕业生打下良好的知识基础。\n毕业后，学生将能够把所学到的理论和技术知识运用到计算机系统和服务业中的不同技术层面上去。香港城市大学计算机科学理学硕士项目也通过提供多种多样的选修课，使得学生们拥有更多的选课自由，以适应瞬息万变的行业需求，并满足学生的兴趣。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机网络与互联网 (Computer Networks and Internets)\n软件工程 (Software Engineering)\n数据工程 (Data Engineering)\n机器学习：原理与实践 (Machine Learning: Principles and Practice)\n自然语言处理 (Natural Language Processing)\n人工智能指导研究 (Guided Study in Artificial Intelligence)\n网络搜索的算法与技术 (Algorithms & Techniques for Web Searching)\n云计算：理论与实践 (Cloud Computing: Theory and Practice)\n机器学习：算法与应用 (Machine Learning: Algorithms and Applications)\nGuided Study in Data Science (Guided Study in Data Science)\n信息安全专题 (Topics on Information Security)\n隐私加强技术  (Privacy-enhancing Technologies)\n信息安全指导研究 (Guided Study in Information Security)\n虚拟现实技术与应用 (Virtual Reality Technologies and Applications)\n电脑游戏设计 (Computer Games Design)\n视觉与语言 (Vision and Language)\n算法分析与博弈论 (Algorithm Analysis and Game Theory)\n机器学习专题 (Topics in Machine Learning)\n项目 (Project)\n指导研究 (Guided Study)\n人工智能 (Artificial Intelligence)\n视觉与图像 (Vision and Image)\n智能系统 (Intelligent Systems)\n数据仓库与数据挖掘 (Data Warehousing and Data Mining)\n大数据算法与技术 (Big Data Algorithms and Techniques)\n电子商务信息安全 (Information Security for eCommerce)\n密码学：理论与实践 (Cryptography: Theory and Practice)\n信息安全技术管理 (Information Security Technology Management)\n计算机图形学 (Computer Graphics)\n多媒体技术与应用 (Multimedia Technologies and Applications)\n实用优化算法与技术 (Practical Optimization Algorithms and Techniques)\n软件质量工程 (Software Quality Engineering)\n虚拟现实与游戏引擎技术 (Virtual Reality and Game-Engine Technologies)\n优化及其在计算机科学中的应用专题 (Topics in Optimization and its Applications in Computer Science)\n电子商务概论 (Introduction to eCommerce)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "美术学艺术硕士",
+  "ename": "MFA Fine Art",
+  "tags": "社科,艺术,艺术与人文学院",
+  "introduction": "专业方向: 艺术\n入学时间: 9月\n项目时长: 2年\n项目学费: 36500英镑/年",
+  "requirements": "申请者通常应为在所选工作室专业领域具备高水平成就证据的研究生，特殊情况下学校可能会考虑以前的教育和专业经验被伦敦大学学院视为相当于研究生水平的申请者\n需要提交Study Proposal以及作品集",
+  "objectives": "伦敦大学学院美术学艺术硕士项目是一个以实践为基础、以研究为中心的项目。该项目由批判性研究和研讨会等组成，这些研讨会来自于学生和老师的创造性和批判性兴趣。在以研究为中心的课程中，学生可以选择绘画、雕塑或艺术媒体中的一个领域，包括电子媒体、摄影、印刷、电影和视频。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "所选专业的实践作品 (Years 1 and 2 Practice-based work in your chosen specialism)\n关键研究展示和文本 (Year 2 Critical Studies Presentation and Text)",
+  "success_cases": ""
+}

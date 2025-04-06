@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "地球、海洋与大气科学哲学硕士（HKUST(GZ)）",
+  "ename": "MPhil Earth, Ocean and Atmospheric Sciences (HKUST(GZ))",
+  "tags": "理科,生物,香港科技大学（广州）",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 2年\n项目学费: 150000人民币/年",
+  "requirements": "具有认可机构颁发的学士学位或同等学历",
+  "objectives": "地球，海洋和大气科学（EOAS）提供基础知识，建立我们对地球系统及其变化趋势的科学认识和理解。EOAS侧重于地球系统中海洋，大气和陆地表面过程之间相互作用的跨学科和跨学科研究，以促进可持续环境和气候变化。它涵盖了流域和河-流域物理、生物地球化学、地表科学和水文的多学科研究，用于陆-海、空-海、气-陆、陆-海-大气相互作用的耦合系统。\n地球，海洋和大气科学的研究型硕士（MPhil）课程旨在提供EOAS的严格培训和研究，使学生准备好面对区域和全球范围内不断变化的地球系统和可持续环境的挑战。\n硕士学位的候选人应展示该学科的知识，并综合和创造新知识，为该领域做出贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "海洋学概论 (Introduction to Oceanography)\n地表过程简介 (Introduction to Earth Surface Processes)\n大气科学导论 (Introduction to Atmospheric Science)\n大气-海洋动力学 (Atmosphere-Ocean Dynamics)\n海洋中的物理-生物地球化学耦合动力学 (Coupled Physical-Biogeochemical Dynamics in the Ocean)\n地球系统建模 (Earth System Modeling)\n全球碳循环与气候变化 (Global Carbon Cycle and Climate Change)",
+  "success_cases": ""
+}

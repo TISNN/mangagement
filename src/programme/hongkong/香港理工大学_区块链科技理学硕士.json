@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "区块链科技理学硕士",
+  "ename": "MSc Blockchain Technology",
+  "tags": "工科,计算机,工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 375000港币/年",
+  "requirements": "具有学士学位，需要计算/计算机科学/工程、信息系统、数学或其他相关学科背景\n具有其他学科学士学位以及至少3年IT相关工作经验的申请者也将被考虑",
+  "objectives": "香港理工大学区块链科技理学硕士课程专为精通区块链和相关技术的专业人士设计，以分析、设计、实施和评估金融科技和其他相关系统、产品和服务，涵盖关键的金融科技技术和应用，以及安全、合规和监管等其他方面，该项目旨在培养具有区块链技术专业知识，以及具有强大的智力、丰富的实践技能、批判性思维能力的优秀毕业生。同时，该课程还会培养学生的整体性和分析性思维能力，使其能够运用多领域技术，解决金融领域和其他相关学科有关的问题，有能力开发系统以及应用程序，使学生具备职业道德，社会责任感以及各方面能力，以为香港和大陆的发展做出贡献，它还致力于为学生提供金融科技及其他相关学科终身学习和发展所需的知识、支持和指导。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分布式账本技术、加密货币与电子支付   (Distributed Ledger Technology, Cryptocurrency and E-Payment)\n区块链分布式算法与协议 ( Distributed Algorithms and Protocols for Blockchains)\n分散应用基础与开发 ( Decentralized Apps Fundamentals and Development)\n分散式金融 ( Decentralized Finance)\n区块链与智能合约安全 ( Blockchain and Smart Contract Security)\n金融应用密码学 ( Applied Cryptography for Financial Applications)\n机器学习及其在金融中的应用 ( Machine Learning and Applications in Finance)\n金融科技监管与合规 ( Fintech Regulation and Compliance)\n金融分析经济学 (Economics for Financial Analysis)\n金融学定量分析方法 (Quantitative Methods for Finance)\n金融分析与估值 (Financial Analysis and Valuation)\n衍生证券 (Derivatives Securities)\n数据结构与数据库系统 (Data Structures and Database Systems)\n高级数据分析 (Advanced Data Analytics)\n软件项目管理 (Software Project Management)",
+  "success_cases": ""
+}

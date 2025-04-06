@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "认证化学理学硕士",
+  "ename": "MSc Accreditation Chemistry",
+  "tags": "理科,化学,理学院",
+  "introduction": "专业方向: 化学\n入学时间: 9月\n项目时长: 1年\n项目学费: 160200港币/年",
+  "requirements": "具有理学学士学位，需要科学或相关学科背景，需要提供B等级证明\n具备化学测试行业经验者优先考虑，但并非强制性要求",
+  "objectives": "香港中文大学认证化学理学硕士课程由香港中文大学的化学系开设，该专业由教育领域、检测部门和认证化学领域的专家（诸如大学教授、前政府实验室专业人员、前认证官、有丰富经验的香港认证服务评估专家和检测实验室的管理层）进行授课。\n香港中文大学认证化学理学硕士课程旨在帮助相关专业的学士毕业生深入了解实验操作的质量保证概念，并培养学生在化学测试不同领域的专业技术。通过中大认证化学理学硕士课程的学习，学生将掌握化学检测实验中所需的质量管理系统开发与实施所需的知识与技能；了解实验室认证的要求；了解与化学检测相关的地方性规范要求和国际贸易协议；了解食品、环境污染物、建筑材料、玩具等相关消费品的化学测试。希望从事化学测试和相关行业工作的学生将会从该项目中受益匪浅。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "基于ISO/IEC 17025的实验室认证 (Laboratory Accreditation Based on ISO/IEC 17025)\n测量不确定性 (Measurement Uncertainty)\n分析实验室方法验证与质量控制 (Method Validation and Quality Control in Analytical Laboratory)\n食物安全及检测 (Food Safety and Testing)\n法医分析中的化学应用 (Chemical Applications in Forensic Analysis)\n环境污染物、分析与监测 (Environmental Pollutants, Analysis and Monitoring)\n分析原子光谱学 (Analytical Atomic Spectroscopy)\n分析科学中色谱与质谱的原理与实践 (Principle and Practice of Chromatography and Mass Spectrometry in Analytical Sciences)\n理学硕士论文 (MSc Thesis)\n方法发展研究项目 (Research Project in Method Development)\n化学测试实验室的风险管理 (Risk Management in Chemical Testing Laboratory)\n化学计量学 (Metrology in Chemistry)\n消费性产品的化学测试 (Chemical Testing of Consumer Products)\n建筑材料的化学测试 (Chemical Testing of Construction Materials)\n药物测试与分析 (Pharmaceutical Testing and Analysis)\n饮用水处理工艺与水质测试 (Drinking Water Treatment Processes and Testing of Water Quality)\n表面处理与涂层的化学和分析方法 (Chemistry and Analytical Methods of Surface Finishing & Coatings)",
+  "success_cases": ""
+}

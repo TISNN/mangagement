@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,经济与金融学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有本科2:1学位或以上学历，学科背景不限，但是需要较好的统计和数学研究背景。定量性较高的学科有数学、科学、工程、计算机科学、经济学和金融\n如果申请者来自定量性较弱的学位，如会计学、管理学和政治学等专业，但是学习过程中涉及的定量内容较多，也可申请\n学校也将考虑申请者的专业资格，特别是CFA 1级及以上",
+  "objectives": "伦敦大学玛丽皇后学院金融学理学硕士学位课程聚焦各行业的金融议题，使学生全面掌握金融原理及应用，广泛进行定量技巧、技术性和概念性技能及行业方法的实践。伦敦大学玛丽皇后学院金融学理学硕士学位课程为学生将来在跨国金融组织中的一系列岗位就职奠定基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "投资学 (Investments)\n公司金融 (Corporate Finance)\n资产估值 (Valuation)\n金融计量经济学 (Econometrics for Finance)\n高级资产定价和建模 (Advanced Asset Pricing and Modelling)\n资产管理 (Asset Management)\nEviews应用金融 (Applied Finance with Eviews)\n私募股权和风险投资 (Private Equity and Venture Capital)\n公司金融案例 (Cases in Corporate Finance)",
+  "success_cases": ""
+}

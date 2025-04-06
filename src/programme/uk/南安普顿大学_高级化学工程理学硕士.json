@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "高级化学工程理学硕士",
+  "ename": "MSc Advanced Chemical Engineering",
+  "tags": "工科,化工,化学学院",
+  "introduction": "专业方向: 化工\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位，需要化学工程或密切相关学科背景\n密切相关学科包括环境工程、工程与技术以及应用化学，申请者必须完成并通过至少1门核心化学工程课程\n需要ATAS认证\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学高级化学工程理学硕士项目帮助学生成为可持续化学工程领域的领导者。学生将在实际工业问题上获得现实世界的洞察力，并将具备设计可持续技术和流程所需的专业技能。作为一名化学工程专业的毕业生，学生将在能源、制药和生物化工等领域拥有良好的工作前景。世界各地的公司都需要聘用人员在最先进的反应堆设计、对安全和风险管理的深入理解以及控制过程的计算机系统方面获得的技能。该化学工程学位重点可持续化学工程。完成后，学生将拥有帮助世界向更可持续的未来过渡的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "可持续处理反应堆设计 (Reactor Design for Sustainable Processing)\n工程专业 (Professional Aspects of Engineering)\n团体设计项目 (Group Design Project)\n航空航天控制设计 (Aerospace Control Design)\n微流控和芯片实验室 (Microfluidics and Lab-on-a-Chip)\n低碳能源的热流体工程 (Thermofluid Engineering for Low Carbon Energy)\n团体设计项目 (Group Design Project)\n先行控制设计 (Advanced Control Design)\n城市给水排水工程 (Urban Water and Wastewater Engineering)\n能源与工程 (Energy Resources and Engineering)\n生物能源 (Bioenergy)\n废水处理工程 (Wastewater Process Engineering)\n微尺度和中尺度流动的反应工程 (Reaction Engineering in Micro- and Meso- Scale Flow)",
+  "success_cases": ""
+}

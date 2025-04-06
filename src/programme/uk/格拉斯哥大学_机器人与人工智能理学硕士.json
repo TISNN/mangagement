@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "机器人与人工智能理学硕士",
+  "ename": "MSc Robotics & AI",
+  "tags": "工科,计算机,工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要包含可接受课程的任意工程学科、计算科学或物理科学/数学学位背景，并且电子与工程数学和数学的课程平均成绩为2:1\n学校可能会考虑具有2:2学位但可接受课程成绩达到2:1的申请者",
+  "objectives": "格拉斯哥大学机器人与人工智能理学硕士项目旨在向学生介绍机器人和智能系统发展的主要技术，包括机器学习和人工智能(AI)，感知并与物理环境交互。格拉斯哥大学机器人与人工智能理学硕士课程旨在通过核心主题为学生提供坚实的基础，同时提供灵活性，以定制其选修课，使学生专注于特定的专业学科领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "机器人技术M或机器人技术基础H (Robotics M or Robotics Foundations H)\n控制M (Control M)\n机器人团队设计项目M (Robotics Team Design Project M)\n理学硕士项目或计算科学理学硕士项目 (\nMsc Project or Msc Project for Computing Science+)\n高级控制5 (Advanced Control 5)\n自动车辆导航系统M (Autonomous Vehicle Guidance Systems M)\n语音接口(M) (Conversational Interfaces (M))\n计算社会智能(M) (Computational Social Intelligence (M))\n计算机视觉方法与应用(H) (Computer Vision Methods and Applications (H))\n网络安全基础(M) (Cyber Security Fundamentals (M))\n数字信号处理 (Digital Signal Processing)\n动力学5 (Dynamics 5)\n故障检测、隔离与恢复 (Fault Detection, Isolation and Recovery)\n人机交互(H)或人机交互设计与评估(M) (Human-Computer Interaction (H) or Human Computer Interaction Design and Evaluation (M))\n导航系统M (Navigation Systems M)",
+  "success_cases": ""
+}

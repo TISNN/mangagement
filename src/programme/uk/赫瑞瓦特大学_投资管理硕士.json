@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "投资管理硕士",
+  "ename": "MSc Investment Management",
+  "tags": "商科,金融,爱丁堡商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 21192英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要经济学、会计、金融、商业管理等相关学科背景，或具有计算能力的不相关学位",
+  "objectives": "赫瑞-瓦特大学投资管理硕士是CFA认证的学位，提供了领先金融学者和高级投资专业人士的专业知识，以及彭博交易终端的实际操作经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "资本市场 (Capital Markets)\n投资组合管理 (Portfolio Management)\n公司金融 (Corporate Finance)\n公司治理 (Corporate Governance)\n财务分析 (Financial Analysis)\n国际会计准则 (International Accounting Standards)\n投资管理最新话题 (Current Topics in Investment Management)\n研究方法 (Research Methods)\n比较财务报告 (Comparative Financial Reporting)\n衍生品 (Derivatives)\n新兴金融市场 (Emerging Financial Markets)\n金融研究 (Research in Finance)",
+  "success_cases": ""
+}

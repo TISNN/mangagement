@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "考古学文学硕士",
+  "ename": "MA Archaeology",
+  "tags": "社科,历史,历史、语言与文化学院",
+  "introduction": "专业方向: 历史\n入学时间: 9月\n项目时长: 1年\n项目学费: 24100英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要考古学或相关领域背景，例如（但不限于）人类学、其他理科学科（生物学、物理学、地质学、地球物理学）、历史学或地理学背景",
+  "objectives": "如果学生想研究人类社会的主要发展，从定居生活的起源到伟大文明的鼎盛时期，那么考古学硕士是一个理想的研究生学位。我们会教学生各种实用的考古技术，并深入介绍地中海地区、近东和北欧的史前历史或古典考古学。这个学位是一个研究学位的很好的准备，它所涵盖的实践技能也是学生职业生涯的很好的准备。学生将获得解决问题、分析和团队合作的技能，也可以应用到其他类型的工作中。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Ace MA and MSc Dissertation)\n研究技能 (Research Skills for Ace M-level Students)\n特殊项目 (Special Subject)\n新石器时代的近东研究 (Research Themes in the Neolithic of the Near East)\n埃及移民考古的问题 (Issues in Egyptian Settlement Archaeology)\n古代近东的经济和交流 (Economies and Exchange in the Ancient Near East)\n罗马边境制度:从共和国晚期到公元四世纪末 (Roman Frontier Systems: From the Late Republic to the End of the Fourth Century Ad)\n解读符号:理解最早的符号行为的方法 (Deciphering Symbols: Approaches to An Understanding of the Earliest Symbolic Behaviour)\n早期的技术 (Early Technologies)\n青铜时代和铁器时代的英国 (Bronze Age and Iron Age Britain)\n考古学家的地理信息系统和空间分析 (Gis and Spatial Analysis for Archaeologists)",
+  "success_cases": ""
+}

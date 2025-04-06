@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "地理信息技术与制图学理学硕士",
+  "ename": "MSc Geoinformation Technology & Cartography",
+  "tags": "工科,地球科学,地理和地球科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有建筑环境、计算机科学、艺术、应用图形学、平面设计、多媒体、环境科学、环境工程、建筑、心理学、社会科学或地理（含一些数学或统计学内容）、数学、统计学、城市/区域研究或规划（含数学/统计学内容）的2:1荣誉学位（或非英国同等学历），或者申请者在上述科目中拥有2:2荣誉学位\n学校也可以接受测绘学学位的2:2荣誉学位（或非英国同等学历），包括大地测量工程、大地测量科学、地理工程、地理信息系统、地理信息科学、地理空间科学、地理空间工程、土地测量、土地与地籍测量、测绘科学、测量学、测量工程、地形科学或地形测量",
+  "objectives": "格拉斯哥大学地质信息技术和制图理学硕士项目于运用地理信息系统和地理信息系统环境中的可视化及地图制作所需的定位数据的理解和管理，是英国唯一侧重于地图学的项目；格拉斯哥大学地质信息技术和制图理学硕士项目对基础测绘和制图输出的也极具独特性。\n私人和公共部门中存在就业机会，而掌握测量与绘图技能的人拥有无限可能，潜在的岗位包括地图出版公司、政府机构或私人服务机构的制图员；大型企业（银行、保险、零售）、环境咨询公司、地方政府、公用事业公司中的地理信息系统专家要职；或软件公司或地理信息数据提供商所需的测绘专家，甚至是邓迪市议会中的地理信息系统工作人员。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "测绘学基础（综合） (Fundamentals of geomatics (combined))\n制图设计与制作原理 (Principles of cartographic design & production)\n地理信息系统原理 (Principles of gis)\n土地测量原理 (Principles of land survey )\n地形测绘与景观监测 (Topographic mapping and landscape monitoring)\n应用地理信息系统 (Applied gis )\n地理空间数据基础设施和土地管理 (Geospatial data infrastructures and land administration)\n可视化和地图使用 (Visualisation & map use )\n网络和移动地图 (Web and mobile mapping )\n环境遥感 (Remote sensing of the environment )\n测绘学研究与专业问题 (Research & professional issues in geomatics )",
+  "success_cases": ""
+}

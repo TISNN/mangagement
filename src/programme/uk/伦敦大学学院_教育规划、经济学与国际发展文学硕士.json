@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "教育规划、经济学与国际发展文学硕士",
+  "ename": "MA Educational Planning, Economics and International Development",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 29800英镑/年",
+  "requirements": "通常具有英国大学颁发的2:1学士学位或同等学历，通常需要具备在中低收入环境/国家具备生活/工作的相关经验以及具备教育规划、教育经济学和/或国际发展相关经验。不符合以上要求的申请者有时可能会基于优秀的个人陈述被考虑",
+  "objectives": "伦敦大学学院教育规划、经济学与国际发展文学硕士项目主要教授学生在国际发展背景下从事教育规划、教育政策、教育管理以及教育行政相关工作所需具备的知识与技能，并将着重研究中低等收入国家环境下的相关议题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育政策的经济学视角 (Economic Perspectives of Education Policy)\n教育与国际发展：概念、理论与问题 (Education and International Development: Concepts、Theories and Issues)\n教育发展规划 (Planning for Education and Development)\n亚洲的教育与发展 (Education and Development in Asia)\n教育、冲突与人类脆弱性 (Education、Conflict and Fragility)\n评价方法影响因素 (Impact Evaluation Methods)\n教育测验 (Educational Testing)\n回归分析简介 (Introduction to Regression Analysis)",
+  "success_cases": ""
+}

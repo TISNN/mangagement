@@ -1,0 +1,12 @@
+{
+  "school_name": "纽约大学",
+  "major_name": "经济学硕士",
+  "ename": "Master of Arts in Economics",
+  "tags": "商科,经济",
+  "introduction": "专业方向: 经济\n项目类别: STEM\n入学时间: 秋季\n项目时长: 3个学期\n项目学费: 76780美元\n项目规模: 70人\n平均成绩: 3.5\n国际学生: 50%",
+  "requirements": "建议修过两门本科微积分课程(或一门微积分&一门线性代数课程)一门统计学课程和一门计量经济学课程中级微观经济学和中级宏观经济学,外加其他四门经济学本科课程本科总绩点3.5及以上。经济学和定量方法方面(本科阶段的经济学和数学课程中取得A-、A或A成绩)",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

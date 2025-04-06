@@ -1,0 +1,12 @@
+{
+  "school_name": "普林斯顿大学",
+  "major_name": "金融硕士",
+  "ename": "Master in Finance",
+  "tags": "商科,金融",
+  "introduction": "专业方向: 金融\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2年\n项目学费: 58790美元/年\n项目规模: 25人\n就业比例: 100%",
+  "requirements": "希望申请者在中级本科课程水平上熟悉数学,包括线性代数、多元微积分、微分方程以及概率和统计",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

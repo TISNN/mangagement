@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "高级建筑性能工程理学硕士",
+  "ename": "MSc Advanced Building Performance Engineering",
+  "tags": "社科,建筑,建筑与建筑环境学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要工程、科学或建筑学科背景",
+  "objectives": "诺丁汉大学高级建筑性能工程理学硕士课程旨在为学生提供能源转换过程中的高水平工程和技术专业知识，并结合管理相关问题的实践能力。该课程是为工程、科学和相关学科的毕业生量身定制的。对科学、技术和工程的高度重视专门针对可再生和可持续能源技术和建筑环境背景下的学科领域，并将其与有效的管理技能、经济评估和对当前政策和法规的理解独特地结合起来，可以在英国、欧盟和国际的现代工业中得到应用。课程提供了先进的工程和以技术为重点的研究的独特组合，并结合了管理、现行法规和审计技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "建筑服务技术（秋季） (Building Services Technologies (autumn))\n建筑物理学 (Building Physics)\n建筑信息建模与管理（全年） (Building Information Modelling and Management (full year))\n建筑模拟（全年）   (Building Simulation (full year) )\n能源与环境 (Energy and the Environment)\n研究和专业技能、工具和方法 (Research and Professional Skills, Tools and Methods (spring))\n论文、建筑与建筑环境（夏季） (Dissertation, Architecture and Built Environment (summer))",
+  "success_cases": ""
+}

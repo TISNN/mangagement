@@ -1,0 +1,12 @@
+{
+  "school_name": "范德堡大学",
+  "major_name": "生物医学信息学理学硕士",
+  "ename": "MS in Biomedical Informatics",
+  "tags": "理科,生物",
+  "introduction": "专业方向: 生物\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1年\n项目学费: 66,450美元",
+  "requirements": "计算机科学、工程学、生物学、生物化学、护理学、数学、统计学、物理学、信息管理、健康相关领域或类似学科的学士学位是进入研究生学位课程的基本要求。 鼓励没有计算背景的学生在进入该计划之前至少参加一门或多门计算机科学入门级课程。 生物学和统计学的一些背景是有帮助的，但不是必需的。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

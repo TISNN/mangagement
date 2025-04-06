@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "临床教育硕士",
+  "ename": "Master of Clinical Education",
+  "tags": "社科,医学,诺维奇医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 22700英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历，需要医疗保健职业背景\n学校也会考虑目前在适当的专业法定监管机构注册为医疗专业人员的申请者\n本课程也开放给想要在MBBS/MBChB的第4年之后插读的医学生",
+  "objectives": "东安格利亚大学临床教育硕士项目为您提供了在跨专业背景下向经验丰富的临床教育工作者学习的理想机会。我们的教学结合了研讨会和远程学习。我们的课程活动旨在促进批判性思维、协作、基于工作场所的反思和学习以及专业发展。您将探索临床教育理论和实践方面的进步，并将所学应用于基于工作的项目。你将增加你的知识和技能，拓宽你的视野。您还将获得新的见解，并有动力在临床教育中带来变革和促进卓越。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究论文 (Research Dissertation)\n引领当代临床教育 (Leading Contemporary Clinical Education)\n研究方法概论 (Introduction to Research Methods)\n临床教学中的导学与评价 (Leading Teaching Learning and Assessment in Clinical Education)\n系统综述与研究综述 (Systematic Reviews and Research Synthesis)\n进一步的定量研究方法 (Further Quantitative Research Methods)\n进一步的定性研究方法 (Further Qualitative Research Methods)",
+  "success_cases": ""
+}

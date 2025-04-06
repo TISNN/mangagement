@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "项目管理理学硕士",
+  "ename": "MSc Project Management",
+  "tags": "工科,工程管理,机械与航空航天工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 51503新币/年",
+  "requirements": "该专业面向以下申请者：\n- 目前担任项目管理相关职位\n- 具备项目管理相关职位工作经验\n- 具有认可大学颁发的学士学位或同等学历，需要相关学科背景",
+  "objectives": "在21世纪的复杂行业中，越来越需要有能力、合格的项目经理。南洋理工大学项目管理理学硕士课程旨在教育项目专业人士构思、规划、开发、实施和交付成功的项目，支持项目管理中的专业职业发展，并提高学生及其组织的能力概况。南洋理工大学项目管理理学硕士课程体现了批判性思维和实际应用。它促进和支持学生的实践社区，使他们能够与同龄人建立联系和交流，在广泛的项目环境中分享经验和实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "系统管理基础 (Fundamentals of Project Management)\n项目计划、进度和资源的管理 (Management of Project Plan, Schedule and Resources)\n项目预算和成本管理 (Project Budget and Cost Management)\n项目采购和合同管理 (Procurement and Contract Management in Projects)\n组织文化和项目领导 (Organization Culture and Leadership in Projects)\n系统工程基础 (Systems Engineering Fundamentals)\n项目战略、风险和质量管理 (Project Strategy, Risk and Quality Management)\n项目管理研究 (Research Project Management)",
+  "success_cases": ""
+}

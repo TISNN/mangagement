@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "教育领导力与管理文学硕士",
+  "ename": "MA Educational Leadership and Management",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 27150英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历\n具有2:2学位并且具备至少3年教育相关职位的全职相关专业经验的申请者可以被考虑，相关专业工作经验包括教学或直接从事教育工作的经验",
+  "objectives": "诺丁汉大学教育领导力与管理文学硕士课程将培养学生的基本领导和管理技能。学生将进行能够推动增长并增强您的专业实践的研究，以帮助在课堂或教育组织中发挥积极作用。学生将参与批判性讨论并探索在各种教育环境中支持有效领导的理论和问题。学生还将考虑可能影响领导角色的社会、政治、文化和政策因素。该课程非常适合那些希望进入或在教育领导角色中取得进展的人。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "有效领导和教育改革 (Effective Leadership and Change in Education)\n教育领导问题 (Issues in Educational Leadership )\n领导学习 (Leading Learning)\n基于实践的探究 (Practice Based Inquiry )\n论文 (Dissertation)",
+  "success_cases": ""
+}

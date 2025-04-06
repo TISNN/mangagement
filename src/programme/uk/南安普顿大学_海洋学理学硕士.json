@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "海洋学理学硕士",
+  "ename": "MSc Oceanography",
+  "tags": "理科,生物,海洋与地球科学学院，南安普顿国家海洋学中心",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 30300英镑/年",
+  "requirements": "具有2:1学位，需要以下学科背景之一：环境科学、地质学、物理学、自然地理学、生物科学、化学、数学\n如果申请者未明确满足申请要求，学校将基于申请者的以下情况考虑其申请：相关专业经验、学科知识、与该课程的适合性",
+  "objectives": "南安普顿大学海洋学理学硕士项目使学生与所在领域的专家一起学习如何成为一名海洋学家。学生将学习如何理解从海岸到广阔的未开发深海的海洋系统。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物海洋学导论 (Introduction to Biological Oceanography)\n物理海洋学导论 (Introduction to Physical Oceanography)\n化学海洋学导论 (Introduction to Chemical Oceanography)\n海洋地质学导论 (Introduction to Marine Geology)\n理学硕士研究项目 (MSc Research Project)\n应用与海洋地球物理 (Applied and Marine Geophysics)\n大规模的海洋过程和气候 (Large Scale Ocean Processes and Climate)\n地球系统的生物地球化学循环 (Biogeochemical Cycles in the Earth System)\n深海生态学 (Deep Sea Ecology)\n浮游动物生态学与过程 (Zooplankton Ecology and Processes)\n理学硕士关键技术及文献综述 (MSc Key Skills and Literature Review)\n气候动力学 (Climate Dynamics)\n海岸过程建模 (Modelling Coastal Processes)\n生态模拟 (Ecological Modelling)\n环境放射性与放射化学 (Environmental Radioactivity and Radiochemistry)",
+  "success_cases": ""
+}

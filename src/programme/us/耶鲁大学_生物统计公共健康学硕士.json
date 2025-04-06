@@ -1,0 +1,12 @@
+{
+  "school_name": "耶鲁大学",
+  "major_name": "生物统计公共健康学硕士",
+  "ename": "MPH Biostatistics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n入学时间: 夏季/秋季\n项目时长: 2年\n项目学费: 62826美元\n项目规模: 25人人\n平均成绩: 3.5",
+  "requirements": "生物统计学申请人必须完成多元微积分（微积分 III 或同等学历）课程,成绩为 B 或以上,线性代数课程成绩为 B 或以上。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

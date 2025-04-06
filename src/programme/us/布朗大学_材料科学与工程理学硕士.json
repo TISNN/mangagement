@@ -1,0 +1,12 @@
+{
+  "school_name": "布朗大学",
+  "major_name": "材料科学与工程理学硕士",
+  "ename": "Master in Materials Science and Engineering",
+  "tags": "工科,材料",
+  "introduction": "专业方向: 材料\n入学时间: 秋季\n项目时长: 3个学期\n项目学费: 9132美元/门课",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

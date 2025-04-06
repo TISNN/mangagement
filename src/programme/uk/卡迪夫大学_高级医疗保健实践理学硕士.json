@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "高级医疗保健实践理学硕士",
+  "ename": "MSc Advanced Healthcare Practice",
+  "tags": "社科,医学,医疗科学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 27450英镑/年",
+  "requirements": "具有医疗保健荣誉学位或文凭，至少有两年工作经验，并且目前从事与本项目相关的工作",
+  "objectives": "卡迪夫大学高级医疗保健实践理学硕士项目旨在培养学生对高级实践四大支柱的知识、理解和批判性欣赏。它为学生提供了应用学习来提升自己的领导力和管理能力、促进学习和教学以及临床实践技能的机会，所有这些都以证据、研究和服务改进为基础。\n卡迪夫大学高级医疗保健实践理学硕士项目适合那些正在迈向自主高级实践水平的人以及已经作为高级从业者工作的经验丰富的注册医疗保健专业人员。\n卡迪夫大学高级医疗保健实践理学硕士项目针对国内和国际学生，提供可选的模块选择，使您可以根据自己不同的临床和专业需求定制学习，并补充劳动力需求。学生将积极参与实践开发和领导力，该计划的必修研究、领导力和管理部分将为您提供分析、评估和监控不断变化的医疗保健场景的工具，并将学习应用到自己的工作中。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "医疗保健研究方法和数据分析 (Research methods and data analysis in healthcare)\n通过领导力转变护理、系统和服务 (Transforming Care, Systems and Services through Leadership)\n论文 (Dissertation)",
+  "success_cases": ""
+}

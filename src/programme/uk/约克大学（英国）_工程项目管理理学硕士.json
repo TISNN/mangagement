@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "工程项目管理理学硕士",
+  "ename": "MSc Engineering Project Management",
+  "tags": "工科,工程管理,电子工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 31900英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要工程或工程管理学位背景，学校也会考虑具备科学或商业管理背景的申请者",
+  "objectives": "工程项目有多个利益相关者、复杂的时间表、具有挑战性的可持续性要求和严格的预算，有效的项目管理技能将帮助学生实现目标，并为客户和利益相关者提供价值，约克大学工程项目管理理学硕士课程侧重于实际应用和与行业的相关性，结合了行业方法，如PRINCE2、Agile、Scrum和六西格玛，强调可持续性，帮助确保学生开发的项目持续交付，这种全面的培训和教育将为学生应对工程项目管理和咨询挑战的复杂性做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "管理工程项目 (Managing Engineering Projects)\n工程管理人员的研究与咨询技巧 (Research and Consultancy Skills for Project Managers)\n工程管理的可持续性 (Sustainability in Engineering Management)\n高级项目管理 - 敏捷、斯克拉姆与六西格玛 (Advanced Project Management- Agile, Scrum and Six Sigma)\n会计与金融基础 (Accounting and Finance Fundamentals)\n工程业务中的领导力 (Leadership in Engineering Business)",
+  "success_cases": ""
+}

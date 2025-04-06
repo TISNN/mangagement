@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "材料与分子建模理学硕士",
+  "ename": "MSc Materials and Molecular Modelling",
+  "tags": "理科,化学,数学与物理科学学院",
+  "introduction": "专业方向: 化学\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的二等学士学位或同等学历，需要理工科背景",
+  "objectives": "行业对受过计算分子和材料科学培训的员工的需求不断增长。伦敦大学学院材料与分子建模理学硕士课程将教授广泛应用的模拟工具，包括催化和能源材料、纳米技术和药物设计，并将提供可转移到其他领域的技能，从而拓宽就业前景。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "材料建模前沿 (Frontiers in Materials Modelling)\n硕士文学项目 (Masters Literature Project)\n分子模拟研究项目 (Molecular Modelling Research Project)\n材料化学中的模拟方法 (Simulation Methods in Materials Chemistry)\n现代化学主题 (Topics in Modern Chemistry)\n科学家可转移技能 (Transferable Skills for Scientists)",
+  "success_cases": ""
+}

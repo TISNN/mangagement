@@ -1,0 +1,12 @@
+{
+  "school_name": "斯蒂文斯理工学院",
+  "major_name": "信息系统硕士",
+  "ename": "MS in Information Systems",
+  "tags": "商科,信息系统",
+  "introduction": "专业方向: 信息系统\n项目类别: STEM\n入学时间: 秋季/春季/夏季\n项目时长: 36学分\n项目学费: 43,528美元/年",
+  "requirements": "本科为相关专业背景，GPA达到3.0以上",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "康奈尔大学",
+  "major_name": "生物统计学与数据科学硕士",
+  "ename": "MS in Biostatistics and Data Science",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 一年\n项目学费: 58,212美元",
+  "requirements": "学生应具备扎实的定量和编程背景。 例如，以下领域之一的本科专业：统计学、数学、应用数学、物理学、计算机科学或工程学将是一个很好的候选人。 我们也强烈鼓励来自其他专业的学生申请，但应该至少有两个学期大学水平的微积分、一些线性代数和强大的编程经验。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

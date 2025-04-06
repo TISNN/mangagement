@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "教育硕士",
+  "ename": "Master of Education",
+  "tags": "社科,教育,国际学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 2年\n项目学费: 125000港币/年",
+  "requirements": "具有学士学位，专业不限",
+  "objectives": "澳门科技大学教育硕士学位课程面向寻求教育知识与实践能力提升的应用型人士，旨在培养具有良好学术素养与职业技能，并能胜任未来多种职业选择的毕业生。毕业生须掌握专业知识，理解重要的教育问题，开展实践教育研究，用以分析评估教育问题，积极投入教育管理、教育课程设置、教育评估、教育研究、教育技术前沿等多种实践工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育管理概论 (Introduction to Education Administration)\n课程设置 (Curriculum Design)\n教育评估 (Educational Evaluation and Assessment)\n研究方法 (Research Method)\n教育技术前沿 (Educational Technology)\n论文 (Thesis)\n学习科学 (Science of Learning)\n教育心理学 (Educational Psychology)\n专题研习一 (Special Research Topic 1)\n专题研习二 (Special Research Topic 2)",
+  "success_cases": ""
+}

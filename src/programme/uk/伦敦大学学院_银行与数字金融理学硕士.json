@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "银行与数字金融理学硕士",
+  "ename": "MSc Banking and Digital Finance",
+  "tags": "商科,金融,工程科学学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 43500英镑/年",
+  "requirements": "具有2:1学士学位，需要适当学科背景如计算机科学、数学、经济学或其他高等数学学科的，需要具备数学方法和概率论与统计学的入门知识，申请者必须表现出对发展思维和问题解决能力的兴趣",
+  "objectives": "英国伦敦大学学院银行与数字金融理学硕士项目以研究为驱动力，为学生提供深入了解金融和银行业的工具和技能，注重银行业和数字银行业的主要实践和理论应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "银行与企业融资 (Banking and Corporate Finance)\n财务分析和机器学习 (Financial Analytics and Machine Learning)\n资产定价 (Asset Pricing)\n公司活动与资本结构 (Corporate Activity and Capital Structure)\n定量金融大数据 (Big Data in Quantitative Finance)\n金融与人工智能 (Finance and Artificial Intelligence)\n货币系统与数字金融 (Monetary System and Digital Finance)\n风险分析和资产定量分配 (Risk Analysis and Quantitative Asset Allocation)",
+  "success_cases": ""
+}

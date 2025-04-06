@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "机器人与人工智能理学硕士",
+  "ename": "MSc Robotics and Artificial Intelligence",
+  "tags": "工科,计算机,工程科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有2:1英国学士学位或同等学历，需要高度定量学科背景，如计算机科学、数学、电气或电子工程或物理科学，此外，申请者必须具备一定的编程语言经验，如C/C、Java、Python或Matlab，并且必须能够理解编程概念，如函数、类、继承、分支和循环",
+  "objectives": "通过伦敦大学学院机器人与人工智能理学硕士项目，学生可以获得快速发展的机器人和人工智能领域的深入专业知识。该项目汇集了计算机科学、人工智能以及电子和机械工程的教学，将理论与实践经验相结合，旨在帮助学生成为智能机器人、人工智能、技术、工程和金融领域未来的工程师、领导者和研究人员。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "建模和运动规划 (Modelling and Motion Planning)\n估计与控制 (Estimation and Control)\n计算机视觉与传感 (Computer Vision and Sensing)\n机器人机器学习 (Machine Learning for Robotics)\n机器人与人工智能理学硕士项目 (MSc Robotics and Artificial Intelligence Project)\n机器人视觉和导航 (Robot Vision and Navigation)\n情感计算与人机交互 (Affective Computing and Human-Robot Interaction)\n虚拟环境 (Virtual Environments)\n感知和界面 ( Perception and Interfaces)\n空中机器人：现实环境中实践的基础知识 (Aerial Robotics: Fundamentals to Practice in Real-World Environments)\n软机器人简介 (Introduction to Soft Robotics)\n腿式机器人系统 (Legged Robotics Systems)\n物体检测和分类 (Object Detection and Classification)\n机器人传感、操纵和交互 (Robotic Sensing, Manipulation and Interaction)\n传感器和位置 (Sensors and Location)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "数字金融与人工智能理学硕士",
+  "ename": "MSc Digital Finance and Artificial Intelligence",
+  "tags": "商科,金工金数,数字技术研究所",
+  "introduction": "专业方向: 金工金数\n入学时间: 10月\n项目时长: 1年\n项目学费: 29750英镑/年",
+  "requirements": "具有英国2:2荣誉学位（最后一年成绩达到50%）或同等学历，不限专业背景",
+  "objectives": "金融科技是一个快速发展的全球产业，预计到十年末，每年将产生近1.2万亿英镑的收入，从个性化的银行服务和产品，到预言和预测、商业智能和决策以及欺诈预防，人工智能技术正在推动这一转变，移动支付、区块链和开放API也在迅速改变银行和金融科技初创企业与客户竞争和互动的方式。在拉夫堡大学数字金融与人工智能理学硕士课程中，学生将培养人工智能和数据分析方面的实践技能，并对金融原理和全球金融科技生态系统有深刻的理解，并将使用这些技能和知识来解决基本问题，例如：人工智能如何创造下一代金融服务？加密货币将走向何方？传统银行和挑战者银行之间的竞争如何影响金融服务？金融机构是如何拥抱科技的，在本地和全球有什么影响和结果？",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "合作项目 (Collaborative Project)\n金融科技 (Financial Technologies)\n金融原理 (Finance Principles)\n论文 (Dissertation)\n数据科学原理 (Principles of Data Science)\n信息管理 (Information Management)\n数据应用发展 (Digital Application Development)\n金融领域的统计方法 (Statistical Methods in Finance)\n云应用和服务 (Cloud Applications and Services)\n市场分析的数字技术 (Digital Technologies for Market Analysis)\n信息系统安全 (Information Systems Security)\n高级大数据分析 (Advanced Big Data Analytics)\n游戏产业技术与体系 (Gaming Technologies and Systems)\n战略与规划 (Strategy and Planning)",
+  "success_cases": ""
+}

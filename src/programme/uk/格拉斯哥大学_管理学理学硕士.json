@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "管理学理学硕士",
+  "ename": "MSc Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 35640英镑/年",
+  "requirements": "具有2:1荣誉学位或非英国同等学历，不限专业背景\n只有符合或超过学校规定的入学要求的申请才会被考虑，任何不符合要求的申请将被自动拒绝。申请者将根据其相对于其他申请人的表现、当前的GPA或学位等级、学术背景的相关性被考虑录取",
+  "objectives": "格拉斯哥大学管理理学硕士项目适合没有商科教育背景但想要深入了解财务信息管理、组织员工管理、市场营销和战略等现代商业原则的学生。该项目将提供最新管理思想的先进导论，让学生通过实际训练、应用项目以及创新研讨会掌握重要的管理技能。学生将在该项目中获得担任国际或跨国企业管理职务所必须具备的知识和技能，以便快速步入富有挑战性的管理职位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "绩效创造 (Delivering performance)\n国际商务 (International business)\n财务信息管理 (Financial information management)\n营销管理 (Marketing management)\n组织中的人员 (People in organisations)\n战略管理 (Strategic management)\n中国商业环境 (The business environment in china)\n数字化转型：新的商业模式 (Digital transformation: new models of business)\n数字营销策略 (Digital marketing strategy)\n影响技能 (Influencing skills)\n市场规划与决策 (Market planning and decision making)",
+  "success_cases": ""
+}

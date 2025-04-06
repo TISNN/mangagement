@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "教育学硕士（资优教育与人才发展）",
+  "ename": "Master of Education (Gifted Education and Talent Development)",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 229800港币/年",
+  "requirements": "具有学士学位或同等学历",
+  "objectives": "香港大学教育学（资优教育与人才发展）硕士项目是一门专为管理人员、教师、丰富专家、学生事务专业人士和指导人员设计的专业研究生课程，涉及学校和类似环境下的资优教育和人才发展的各个方面。香港大学教育学（资优教育与人才发展）硕士课程不仅为资优教育提供了理论框架，而且为组织和实施旨在培养学生的创造力、才能发展、社会和情感发展以及职业准备的活动提供了实用的策略，侧重于参与者在实施学校范围内的资优教育和人才培养计划所需的关键能力方面的发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育问题与研究 (Educational Issues and Research)\n学校辅导、职业教育与人才发展 (Counselling, Career Education and Talent Development in Schools)\n培养创造力：理论与实践 (Nurturing Creativity: Theories and Practices)\n天才与人才的心理学与教育 (Psychology and Education of Gifted and Talented Individuals)\n天才个体的社会与情感需求 (Social and Emotional Needs of Gifted Individuals)\n资优教育与人才发展实践课程 (Practicum in Gifted Education and Talent Development)\n统计方法概论 (Introduction to Statistical Methods)\n定性研究方法：研究设计、数据收集与分析 (Qualitative Methods: Research Design, Data Collection and Analysis)\n研究项目或专业作品集 (Research Project or Professional Portfolio)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港浸会大学",
+  "major_name": "商业管理理学硕士",
+  "ename": "MSc Business Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 393000港币/年",
+  "requirements": "具有认可大学或类似机构颁发的学士学位或同等学历，具备良好的英语书面和口语能力，不强制要求但强烈鼓励申请者提交GMAT",
+  "objectives": "香港浸会大学商业管理硕士课程为学生提供一般商业和管理方面的知识；为学生在国际环境中应用和整合一般商业和管理知识做好准备；协助学生获得对他们的商业生涯和专业发展至关重要的专业技能；让学生了解企业可持续发展和商业道德的重要性，尤其是在全球商业环境中。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "企业会计 (Business Accounting)\n商业法及公司管治 (Business Law & Corporate Governance)\n企业运营管理 (Business Operations)\n企业研究方法论及应用 (Business Research Methodology & Application)\n企业战略 (Business Strategy)\n商业经济学 (Business Economics)\n企业财务管理 (Business Finance)\n人员管理 (Managing People)\n市场营销管理 (Managing Marketing)\n企业创造力 (Business Creativity)\n商业实地观察研究 (Business Field Study)\n中国营销与对外投资问题 (China Marketing & Foreign Investment Issues)\n中国智慧与管理 (Chinese Wisdom & Management)\n电子商务当前问题 (Current Issues in Electronic Commerce)\n衍生证券与风险管理 (Derivative Securities & Risk Management)",
+  "success_cases": ""
+}

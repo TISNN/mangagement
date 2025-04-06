@@ -1,0 +1,12 @@
+{
+  "school_name": "范德堡大学",
+  "major_name": "生物医学科学硕士",
+  "ename": "MS in Biomedical Sciences",
+  "tags": "社科,医学",
+  "introduction": "专业方向: 医学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1年\n项目学费: 60,780美元",
+  "requirements": "申请人应已完成学士学位，最低 GPA 为 3.2。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

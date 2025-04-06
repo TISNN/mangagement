@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "动物行为理学硕士",
+  "ename": "MSc Animal Behaviour",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 26900英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历，需要生命或物理科学专业背景",
+  "objectives": "东安格利亚大学动物行为理学硕士课程为学生提供了研究动物行为所必需的广泛而多功能的技能，学生将获得概念知识和实践经验，学校的动态课程强调了理解动物如何适应和应对环境的重要性，这是人类世时代的一个关键考虑因素，这些知识在认知心理学、同一健康、生物医学、人与动物的相互作用、福利、伦理和保护等领域越来越相关。学生将深入研究量化不同物种动物行为的关键方法，采用传统技术和尖端遥感技术，此外，学生将学习如何应对动物行为和认知方面的当代挑战，开发用于编译、处理和分析大型数据集的可转移技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究项目 (Research Project)\n科学中的有效沟通 (Effective Communication in Science)\n研究计划与管理 (Research Planning and Management)\n数据科学与生物信息学 (Data Science and Bioinformatics)\n生物科学中基于问题的学习 (Problem Based Learning in Biosciences)\n社会进化 (Social Evolution)\n生物科学前沿 (Frontiers in Biosciences)",
+  "success_cases": ""
+}

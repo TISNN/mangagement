@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡管理大学",
+  "major_name": "金融经济学理学硕士",
+  "ename": "MSc Financial Economics",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 54500新币/年",
+  "requirements": "- 具有良好的学士学位\n- 具有良好的GMAT（600）/GRE（Verbal和Quantitative均分156）/SMU入学考试（Verbal/Numerical/Integrated Reasoning均分55）成绩\n8月入学学费45,780新币，1月入学学费54,500新币",
+  "objectives": "新加坡管理大学金融经济学理学硕士课程解决了将经济学和计量经济学与金融联系起来的严格课程的需求。该计划旨在将新加坡管理大学的两大核心优势——计量经济学和金融——结合在一起，以满足行业对专业人员的巨大需求，这些专业人员具备在动态政策和监管的新时代深入分析日益复杂的金融问题的技能。该计划将传授经济学和计量经济学的基础知识以及金融市场运作的领域知识。该计划将教授学生如何将经济学和计量经济学中最先进的工具应用于金融。其主要优势在于该计划固有的多学科性质，涉及经济学、计量经济学和金融专业的教师，从而为学生创造了独特的“转型”学习体验。该计划利用新加坡管理大学关键地理位置，将提供极好的机会。为应用和研究方向的学生举办学术和行业研讨会的可能性将为技术熟练但以市场为导向的专业人士提供一个理想的跳板。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济学 (Microeconomics)\n宏观经济学 (Macroeconomics)\n计量经济学 (Econometrics)\n金融计量学 (Financial Econometrics)\n金融统计及计算 (Computational Statistics in Finance)\n公司财务 (Corporate Finance)\n实证金融学 (Empirical Finance)\n财务报表分析 (Financial Statement Analysis)\n资产定价的宏观经济基础 (Macro-Foundations of Asset Pricing)\n金融证券法规 (Financial Securities Regulations)\n股权分析及资产组合管理 (Equity Analysis and Portfolio Management)\n财务顾问与法律顾问 (Financial Advisors and the Law)\n计量经济学专题研究 (Topics in Econometrics)\n衍生证券 (Derivative Securities)\n微观经济学理论专题 (Topics in Microeconomics Theory)",
+  "success_cases": ""
+}

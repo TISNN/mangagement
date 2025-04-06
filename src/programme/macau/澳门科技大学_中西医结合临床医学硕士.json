@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "中西医结合临床医学硕士",
+  "ename": "Master of Integrated Traditional Chinese and Western Clinical Medicine",
+  "tags": "理科,生物,中医药学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 2.5年\n项目学费: 96000港币/年",
+  "requirements": "修读中、西医学专业（色盲、色弱者不可报读）。\n需要面试笔试。需提交一份研究计划。",
+  "objectives": "本课程旨在结合中西医学理论和临床诊疗方法，培养中西医结合临床医疗专门人才。本课程适用于获得中医学学士学位者，西医学院校毕业生，需补修一定科目的中医基础和临床课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "专业英语 (English for Specific Purposes (ESP))\n医学统计学 (Medical Statistics)\n中医文献学 (Philology of Traditional Chinese Medicine)\n中医各家学说 (Theories of the Various Schools of Thought in Traditional Chinese Medicine)\n中医药研究进展 (Advances in Traditional Chinese Medicine)\n西医内科学研究进展 (Advances in Western Internal Medicine)\n临床或实验研究 (Clinical or Experimental Research)",
+  "success_cases": ""
+}

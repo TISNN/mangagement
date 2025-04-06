@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "金融科技理学硕士",
+  "ename": "MSc Financial Technology",
+  "tags": "商科,金工金数,管理学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 31000英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，不限专业\n具有丰富的专业经验和/或其他资格的非毕业生也可以申请",
+  "objectives": "利物浦大学金融科技理学硕士旨在让学生充分理解不断发展和多方面空间的商业和技术基础，为学生提供新兴世界的学术和商业方面的专业知识。目标是面向未来的学习和就业能力，包括区块链、数字银行、全球支付的未来、加密货币、数字商业战略、大数据、法律技术、Python编程以及管理的未来。除了以上的学习领域外，学生还将接受严格的研究方法、伦理和管理会计和财务的定量方法的培训。/p>",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计与财务定量技术 (Quantitative Techniques for Accounting and Finance)\n加密货币、区块链与货币的未来 (Cryptocurrencies, Blockchain and Future of Money)\n管理金融 (Managerial Finance)\n编程入门(Python) (Introduction to Programming (Python))\n数字银行与全球支付系统 (Digital Banking and Global Payment Systems)\n法律技术、法规与道德 (LawTech, Regulation and Ethics)\n数字战略 (Digital Strategy)\n商业大数据分析 (Big Data Analytics for Business)\n技术创新与管理的未来 (Technology Innovation and the Future of Management)\n论文 (Dissertation)",
+  "success_cases": ""
+}

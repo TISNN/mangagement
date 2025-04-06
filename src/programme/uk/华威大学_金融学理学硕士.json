@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 43830英镑/年",
+  "requirements": "具有英国大学颁发的相关本科学科一等或2:1学位或全球认可机构颁发的同等学历，相关课程持续达到2:1成绩，优秀的申请者具备本科水平的金融学、经济学和计量经济学学术背景\n学校也鼓励对金融领域有抱负并修读过定量本科学位（如数学、统计学、物理学、计算机科学、数据科学和工程学）的学生申请，尤其是那些在以上专业中选择了金融学选修课程的学生\n对于具有本科水平的定量学位但尚未学习过金融学的申请者，学校提供了一系列线上补充课程，根据申请者的学术背景，学校可能会推荐或要求其参加部分或所有补充课程\n不强制要求GMAT或GRE成绩，但平衡良好的分数（700）以及较强的定量部分将有助于申请（相当于GMAT Focus Edition的645分或百分位排名86%）\n需要上传最后一年的课程列表",
+  "objectives": "英国《金融时报》将金融硕士课程排名英国第3位，世界第11位。华威商学院通过对金融和定量技能的理论和概念的深入理解，为您在金融领域的一系列职业生涯做准备。金融硕士课程将帮助学生发展金融的理论和概念知识和定量技能，为学生在金融行业的一系列职业生涯做准备。超越技能的应用，发展学生挑战、评估和重新思考既定模式的能力。随着人工智能对工作挑战的预期成为现实，我们旨在分享设计、开发和监管这些新形式的金融智能所需的技能和深度理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融定量方法 (Quantitative Methods for Finance)\n资产定价 (Asset Pricing)\n公司金融 (Corporate Finance)\n投资管理 (Investment Management)\n实证金融 (Empirical Finance)\n道德，财务监管和公司治理 (Ethics, Financial Regulation and Corporate Governance)\n研究方法论 (Research Methodology)\n行为金融 (Behavioural Finance)\n衍生证券 (Derivative Securities)\n财务报告和报表分析 (Financial Reporting and Statement Analysis)\n判断与决策 (Judgement and Decision-making)\n金融风险管理 (Financial Risk Management)\n固定收益和信用风险 (Fixed Income and Credit Risk)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "基因组医学哲学硕士",
+  "ename": "MPhil Genomic Medicine",
+  "tags": "社科,医学,医学遗传学系",
+  "introduction": "专业方向: 医学\n入学时间: 10月\n项目时长: 1年\n项目学费: 46806英镑/年",
+  "requirements": "申请者应该具有英国Good II.i荣誉学位或同等学历",
+  "objectives": "剑桥大学基因组医学哲学硕士项目旨在教育合格的学生，包括来自多专业团队的NHS医疗专业人员，为将来采用基因组技术和越来越多地使用基因组信息作为诊断和治疗途径的一部分做好准备。剑桥大学基因组医学哲学硕士课程将直接提供基因组学领域的相关专业培训和研究。学生可能是医学实习生和其他医疗保健专业人员，他们将利用这些技能和知识发展自己的角色，并为使用基因组信息和技术做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人类遗传学和基因组学导论 (An introduction to human genetics and genomics)\n组学技术及其在基因组医学中的应用 (Omics techniques and the application to genomic medicine)\n基因组医学的核心研究和统计技能 (Core research and statistical skills for Genomic Medicine)\n常见病和罕见病的基因组学 (Genomics of common and rare disease)\n肿瘤分子病理学及其在肿瘤诊断、筛选和治疗中的应用 (Molecular pathology of cancer and application in cancer diagnosis, screening, and treatment)\n基因组学在传染病研究中的应用 (Application of genomics to infectious disease)\n药物遗传学与分层保健 (Pharmacogenetics and stratified healthcare)\n基因组分析中的生物信息学、解释和数据质量保证 (Bioinformatics, interpretation, and data quality assurance in genome analysis)\n应用基因组学（ELSI）的伦理、法律和社会意义 (Ethical, legal and social implications in applied genomics (ELSI))\n基因组学咨询技巧 (Counselling skills for genomics)\n专业和研究技能 (Professional and research skills)\n高级生物信息学-从基因组到系统 (Advanced bioinformatics – from genomes to systems)\n表观遗传学和表观基因组学 (Epigenetics and epigenomics)\n基于工作场所的模块 (Workplace-based module)",
+  "success_cases": ""
+}

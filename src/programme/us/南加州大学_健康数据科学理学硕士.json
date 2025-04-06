@@ -1,0 +1,12 @@
+{
+  "school_name": "南加州大学",
+  "major_name": "健康数据科学理学硕士",
+  "ename": "MS in Healthcare Data Science",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 32学分\n项目学费: 73,888 美元",
+  "requirements": "申请者必须持有地区认可机构的工程,数学或医疗保健相关学士学位且GPA达到3.0及以上。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

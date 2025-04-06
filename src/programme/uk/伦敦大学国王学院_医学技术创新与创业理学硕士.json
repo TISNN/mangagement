@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "医学技术创新与创业理学硕士",
+  "ename": "MSc MedTech Innovation & Entrepreneurship",
+  "tags": "商科,创业与创新,生命科学与药学学院",
+  "introduction": "专业方向: 创业与创新\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，并提供以下至少2门课程的学习背景证明：统计学、管理学、生命科学、健康、自然数学和工程科学",
+  "objectives": "伦敦大学国王学院医学技术创新与创业理学硕士汇集了来自卫生、工程、设计、商业和创业领域的各种背景的才华横溢的学生和专业人员，他们致力于在卫生领域创造创新，使世界变得更加健康，课程旨在教授重要的商业知识和开发新医疗技术的艺术和科学，以解决未满足的临床需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "医疗技术创新，构思，设计与研究方法 (MedTech Innovation, Ideation, Design, and Research Methodologies)\n创业与管理基础 I：创业战略与成长 (Foundations of Entrepreneurship and Management I: Entrepreneurial Strategy and Growth)\n创业与管理基础 II：创业金融与营销 (Foundations of Entrepreneurship and Management II: Entrepreneurial Finance & Marketing)\n创业型领导 (Entrepreneurial Leadership)\n从理念到实践的医疗技术设计与发展路径 (Medical Technology Design and Development Pathways from Idea to Impact)\n质量管理体系，法规，知识产权，卫生技术评估 (Quality Management systems, Regulation, Intellectual Property Rights, Health Technology Assessment)\n项目开发（论文） (Project Development (Dissertation))\n全球健康价值驱动技术 (Value Driven Technologies for Global Health)",
+  "success_cases": ""
+}

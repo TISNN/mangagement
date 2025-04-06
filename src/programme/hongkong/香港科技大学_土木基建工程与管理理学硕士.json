@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "土木基建工程与管理理学硕士",
+  "ename": "MSc Civil Infrastructural Engineering and Management",
+  "tags": "工科,土木工程,工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 186900港币/年",
+  "requirements": "具有学士学位或同等学历并且达到二等荣誉学位，需要土木工程或相关工程领域背景。拥有非土木工程学位的申请人可能需要在学习之前完成补习土木工程课程",
+  "objectives": "香港科技大学土木基建工程及管理理学硕士课程为学员提供理论与实践并重的土木工程及管理课程，专为有意进修土木工程专业知识的工程系毕业生而设，旨在培训先进的工程技术及管理人才。香港科技大学土木基建工程及管理理学硕士课程设计灵活，不仅顾及学员个别需要和兴趣，也同时保证课程有足够广度。课程对学员选修学课的限制不多。学员可自行决定属于自己的专业进修范畴，可以只在其中个别专业范畴选修课程；也可以从多个不同范畴选修课程，从而涵盖广泛知识。学员可能在职业的不同阶段有不同需要，所以选修课的灵活度对学员尤其珍贵。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "风险评估与污染土地的清理 (Risk Assessment and Contaminated Land Cleanup)\n污水处理及回用 (Wastewater Treatment and Reuse)\n隧道与地下工程 (Tunnelling and Underground Engineering)\n高等基础工程 (Advanced Foundation Design)\n非饱和土力学与工程学 (Unsaturated Soil Mechanics and Engineering)\n土木基建工程及管理特别课题 (Topics in Civil Infrastructural Engineering and Management)\n风力对建筑物及结构的影响 (Wind Effects on Buildings and Structures)\n高层建筑物的计算机辅助设计优化 (Computer Aided Design Optimization of Tall Buildings)\n建设技术 (Construction Technology)\n建筑规划与建设 (Building Planning and Construction)\n高层建筑物的结构分析与设计 (Structural Analysis & Design of Tall Buildings)\n高等材料力学 (Advanced Mechanics of Materials)\n建设财政管理 (Construction Financial Management)\n工程风险、可靠性与决策 (Engineering Risk, Reliability and Decision)\n高级混凝土技术 (Advanced Concrete Technology)",
+  "success_cases": ""
+}

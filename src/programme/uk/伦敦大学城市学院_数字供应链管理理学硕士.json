@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "数字供应链管理理学硕士",
+  "ename": "MSc Digital Supply Chain Management",
+  "tags": "商科,供应链管理,贝叶斯商学院",
+  "introduction": "专业方向: 供应链管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 32600英镑/年",
+  "requirements": "具有2:1学位或同等学历\n本课程不要求具备工作经验",
+  "objectives": "伦敦大学城市学院全球供应链管理理学硕士旨在培养对关键供应链主题的知识和理解，从采购和运营到供应链分析。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计与金融基础 (Essentials of Accounting and Finance)\n创造价值的策略 (Strategy for Delivering Value)\n供应链管理分析 (Analytics for Supply Chain Management)\n营运管理 (Operations Management)\n供应链管理导论 (Introduction to Supply Chain Management)\n研究设计 (Research Design)\n项目管理 (Project Management)\n全球采购 (Global Procurement)\n应链金融 (Supply Chain Finance)\n物流与运输分析 (Logistics and Transportation Analytics)\n全球供应链管理咨询技巧 (Consulting Skills for Global Supply Chain Management)\n业务可持续发展 (Business Sustainability)",
+  "success_cases": ""
+}

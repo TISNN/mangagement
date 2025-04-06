@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence",
+  "tags": "工科,计算机,工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 360000港币/年",
+  "requirements": "申请者必须拥有计算机工程、计算机科学或相关学科的学士学位。其他学科的申请者必须具有至少两年与该课程相关的工作经验",
+  "objectives": "香港科技大学人工智能理学硕士项目旨在满足日益增长的对熟练的AI从业人员的需求，并针对的是既包括刚毕业的学生也包括希望提升自己在令人兴奋且快速发展的AI领域的专业技能的职场专业人士。\n香港科技大学人工智能理学硕士项目旨在使学生掌握先进的AI技术和最新知识，并培养下一代AI专业人员，以满足各应用领域的需求。通过课程和实践培训，学生将全面了解AI的基本原理和概念，从而能够设计、部署、评估和管理AI系统，同时遵循道德和法律标准。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能高级 Python 编程 (Advanced Python Programming for Artificial Intelligence)\n人工智能基础 (Foundations of Artificial Intelligence)\n机器学习基础 (Foundations of Machine Learning)\n人工智能伦理 (Artificial Intelligence Ethics)\n计算机视觉中的机器学习 (Machine Learning for Computer Vision)\n自然语言处理中的机器学习 (Machine Learning for Natural Language Processing)\n基础模型和生成式人工智能 (Foundation Models and Generative Artificial Intelligence)\n强化学习 (Reinforcement Learning)\n人机交互 (Human-Computer Interaction)\n医学图像分析 (Medical Image Analysis)\n网络安全中的人工智能 (Artificial Intelligence in Cybersecurity)\n医疗保健中的人工智能 (Artificial Intelligence in Healthcare)\n软件工程中的人工智能 (Artificial Intelligence in Software Engineering)\n特殊专题 (Special Topics)\n顶点项目 (Capstone Project)",
+  "success_cases": ""
+}

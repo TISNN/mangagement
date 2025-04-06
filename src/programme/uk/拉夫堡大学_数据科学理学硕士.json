@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "数据科学理学硕士",
+  "ename": "MSc Data Science",
+  "tags": "理科,数据科学,计算机科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有英国2:2荣誉学位或同等学历，不限专业背景（计算机科学除外）",
+  "objectives": "该项目为非计算机专业背景的毕业生提供了一个学习平台，以支持他们在数据科学、数据分析、数据管理或数据管家等相关领域的职业计划。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学导论 (Introduction to Data Science)\n数据科学编程 (Programming for Data Science)\n数据治理与道德 (Data Governance & Ethics)\n研究方法 (Research Methods)\n数据的统计处理方法 (Statistical Methods & Data Analysis)\n构建数据驱动策略 (Building Data Driven Strategy)\n应用机器学习 (Applied Machine Learning)\n数据挖掘技术 (Data Mining)\n人工智能驱动服务的设计思考 (Design Thinking for AI-driven services)\n故事作为数据:用故事的方式做决定 (Stories as Data: Storytelling approaches for decision making)\n人工智能和大数据 (Artificial Intelligence and Big Data)",
+  "success_cases": ""
+}

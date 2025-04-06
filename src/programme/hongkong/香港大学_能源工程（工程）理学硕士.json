@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "能源工程（工程）理学硕士",
+  "ename": "MSc(Eng) Energy Engineering",
+  "tags": "工科,能源,工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 320000港币/年",
+  "requirements": "具有学士学位或同等学历，需要相关领域（工程或相关科学）背景",
+  "objectives": "香港大学能源工程（工程）理学硕士学位课程由香港大学电气与电子工程系以及机械工程系合作设立，旨在为学生提供先进的能源工程教育和培训。课程内容主要各种能源技术，包括能源生产、能源转换、能源保护、能源效率和能源利用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "大型城市电能传输管理 (Power delivery management for metropolitan cities)\n节能照明 (Energy saving lighting )\n智能电网 (Smart grid)\n清洁电能与楼宇智能电网 (Clean electrical energy and smart-grids for buildings   )\n核能 (Nuclear energy)\n高级电动汽车技术 (Advanced electric vehicle technology)\n高级电力电子学 (Advanced power electronics )\n气候变化与可持续发展 (Sustainability and Climate Change)\n动力系统工程高级专题 (Advanced topics in power system engineering)\n建筑能源性能 (Energy performance of buildings)\n发电厂技术 (Power plant technology)\n能源节约与管理 (Energy conservation and management)\n可再生能源技术 I： 基本原理 (Renewable energy technology I: Fundamental)\n可再生能源技术 II：进阶原理 (Renewable energy technology II: Advanced)\n能源与碳审计 (Energy and carbon audit)",
+  "success_cases": ""
+}

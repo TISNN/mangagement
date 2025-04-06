@@ -1,0 +1,12 @@
+{
+  "school_name": "哥伦比亚大学",
+  "major_name": "运筹学理学硕士",
+  "ename": "MS in Operations Research",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n入学时间: 春季/秋季\n项目时长: 30学分\n项目学费: 68160美元",
+  "requirements": "1. 先修课（建议）：微积分,线代,概率论,统计,编程2. 学士学位：工程或理科背景",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

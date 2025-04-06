@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "数学理学硕士",
+  "ename": "MSc Mathematics",
+  "tags": "理科,数学,数学与统计学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要数学、统计学或有大量数学或统计内容的专业学科背景",
+  "objectives": "圣安德鲁大学数学理学硕士项目使学生提高他们应用分析技术的能力，并进行探索复杂模式、结构和问题所需的清晰逻辑思维和演绎推理能力。该计划特别适合那些在私营部门寻求学术数学研究或数学相关职业的人。该课程提供了一系列高级数学和统计模块选择，学生可以在高级水平上探索纯数学和应用数学的不同主题，为学生从事数学研究做好准备，学生将有机会分组授课，并在论文撰写过程中与各自领域的顶尖专家密切合作，学校内外的专家会定期开展研究活动。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高等分析技术 (Advanced Analytical Techniques)\n高等贝叶斯推理 (Advanced Bayesian Inference)\n高等组合 (Advanced Combinatorics)\n高等计算技术 (Advanced Computational Techniques)\n高等数据分析 (Advanced Data Analysis)\n高等流体动力学 (Advanced Fluid Dynamics)\n应用多元分析 (Applied Multivariate Analysis)\n高等太阳理论 (Advanced Solar Theory)\n高级符号计算 (Advanced Symbolic Computation)\n动物数量估算 (Estimating Animal Abundance)\n统计建模 (Statistical Modelling)\n数据分析 (Data Analysis)\n伽罗瓦理论 (Galois Theory)\n知识发现和数据挖掘 (Knowledge Discovery and Datamining)\n数学生物学2 (Mathematical Biology 2)",
+  "success_cases": ""
+}

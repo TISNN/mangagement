@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "可持续能源科技理学硕士",
+  "ename": "MSc Sustainable Energy Technologies",
+  "tags": "工科,能源,工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位， 需要以下背景之一：\n- 化学、机械、电气或土木工程\n- 数学\n- 物理学\n申请者还需要在数学课程中取得2:1的成绩\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学可持续能源科技理学硕士介绍了可持续发电的当前和现代能源技术。学生将获得能源研究领域的专业知识和实践技能，包括光伏、燃料电池、储能和电池、燃烧、电力系统以及风能、波浪能和潮汐能。可持续能源技术需要满足经济、社会和环境指标的一系列标准。本硕士课程将让学生了解可持续能源系统、资源和使用。学生将学习设计和评估燃料电池和光伏系统、风力发电和混合推进系统的性能，还将了解热流体工程过程如何用于生产低碳能源。学生还将了解其他可再生技术，并可以选择承担一系列专业模块，涵盖废物资源管理到生物能源等主题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "光伏原理，燃料电池和电池 (Principles of Photovoltaics, Fuel Cells and Batteries)\n能源技术，环境与可持续发展导论 (Introduction to Energy Technologies, Environment and Sustainability)\n可持续能源系统，资源和使用 (Sustainable energy systems, resources and usage)\n土木与环境工程数据分析与实验方法 (Data Analysis & Experimental Methods for Civil and Environmental Engineering)\n先进的电气系统 (Advanced Electrical Systems)\n低碳能源的热流体工程 (Thermofluid Engineering for Low Carbon Energy)\n海洋工程与分析 (Offshore Engineering & Analysis)\n先进的光伏，燃料电池和电池 (Advanced Photovoltaics, Fuel Cells and Batteries)\n可再生能源，储能和核能的应用 (Applications of Renewable Energy, Storage and Nuclear Energy)\n来自环境流的可再生能源：风，浪和潮汐 (Renewable Energy from Environmental Flows: Wind, Wave and Tide)\n废物资源管理 (Waste Resource Management)\n生物能源 (Bioenergy)\n建筑能源绩效评估 (Energy Performance Assessment of Buildings)",
+  "success_cases": ""
+}

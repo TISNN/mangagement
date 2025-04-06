@@ -1,0 +1,12 @@
+{
+  "school_name": "肯特大学",
+  "major_name": "计算机科学（网络安全）理学硕士",
+  "ename": "MSc Computer Science (Cyber Security)",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 23500英镑/年",
+  "requirements": "具有一等或二等荣誉学位或同等学历，不限专业背景，数学技能达到相当于GCSE数学grade C或以上的水平\n所有申请者都将根据具体情况予以考虑，其他资格、专业资格和相关经验也可能被考虑在内",
+  "objectives": "肯特大学计算机科学（网络安全）理学硕士课程旨在使学生有机会从技术和多学科角度建立网络安全基础，网络犯罪对社会、民主和组织的威胁越来越大，新闻中的网络安全案件越来越多，该课程旨在满足寻求保护有价值数据的组织的需求，为学生提供计算机科学和系统安全方面的关键技能和知识，以提升其在识别和解决复杂安全问题方面的职业前景。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "面向程序员的高级Java (Advanced Java for Programmers)\n面向对象编程 (Object-Oriented Programming)\n隐私与网络法 (Privacy & Cyber Law)\n网络犯罪与对抗行为 (Cybercrime and Adversarial Behaviours)\n计算机系统 (Computer Systems)\n网络安全中的人为因素 (Human Factors in Cyber Security)\n项目与论文 (Project & Dissertation)\n数字取证 (Digital Forensics)\n 软件工程 (Software Engineering)\n基于Web的信息系统开发 (Web-Based Information Systems Development)",
+  "success_cases": ""
+}

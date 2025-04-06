@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "石油与天然气法法学硕士（论文）",
+  "ename": "LLM Oil and Gas Law with Dissertation",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "通常具有2:1荣誉学位或同等学历，需要法律背景\n具备相关领域的相关实践经验也将有利于申请",
+  "objectives": "阿伯丁大学石油与天然气法法学硕士课程在国际石油和天然气法律界受到高度重视，并因此成为阿伯丁大学十多年来的一门受欢迎的课程。阿伯丁大学石油与天然气法法学硕士项目将构建学生的专业知识，增长联系，提高其智力、批判性和实践性技能，这是作为一个受过训练的专业人士在这个领域实践的基础，同时参与一个具有挑战性但非常值得学习的课题。学生将沉浸在当前油气法律的基础概念中，并将获得先进的专业知识，批判性分析，以及油气勘探和生产活动的法律管理所需的研究效率。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "批判性法律思维与学识 (Critical Legal Thinking and Scholarship)\n碳氢化合物国家管制 (State Control of Hydrocarbons)\n国际能源与环境法 (International Energy and Environmental Law)\n油气业务承包 (Contracting in Hydrocarbon Operations)\n企业环境责任 (Corporate Environmental Liability)\n国际仲裁：能源与自然资源 (International Arbitration: Energy & Natural Resources)\n法学硕士学位论文 (Master of Laws Dissertation)",
+  "success_cases": ""
+}

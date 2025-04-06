@@ -1,0 +1,12 @@
+{
+  "school_name": "密歇根大学安娜堡分校",
+  "major_name": "调查与数据科学理学硕士",
+  "ename": "MS in Survey and Data Science",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n入学时间: 秋季\n项目时长: 4学期\n项目学费: 50646.38美元/年\n平均成绩: 3.62",
+  "requirements": "statistical science方向,强烈推荐三门微积分课程、一门线性代数课程和一门统计学课程。 social and psychological science方向,推荐两门定量课程,其中至少一门必须是统计学课程,以及至少两门社会科学本科课程。 data science 方向的申请人应具有计算机科学背景,至少有两个学期的编程课程,以及至少一个学期的统计学。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

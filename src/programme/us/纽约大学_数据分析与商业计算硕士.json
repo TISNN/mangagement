@@ -1,0 +1,12 @@
+{
+  "school_name": "纽约大学",
+  "major_name": "数据分析与商业计算硕士",
+  "ename": "MS in Data Analytics and Business Computing（shanghai）",
+  "tags": "商科,商业分析",
+  "introduction": "专业方向: 商业分析\n入学时间: 夏季（6月初），秋季\n项目时长: 3学期\n项目学费: 60403美元\n项目规模: 27人\n平均成绩: 3.6\n平均G: 689/322\n国际学生: 95%\n男女比例: 43:57",
+  "requirements": "3学分的微积分课程,成绩至少达到B",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

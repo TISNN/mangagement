@@ -1,0 +1,12 @@
+{
+  "school_name": "牛津大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,赛德商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 83770英镑/年",
+  "requirements": "具有至少两年全职工作经验，需要提交GRE或GMAT，建议达到GMAT650或GRE320（verbal 160，quantitative 160），需要提交一篇written work",
+  "objectives": "牛津大学工商管理硕士是一门为期一年的顶级MBA课程，包括一系列的激励性讲座、充满活力的研讨会和小组合作，可以使学生前往世界上的任何地方。该课程帮助学生在为期一年的密集、浸入式和具有挑战性的经历中，具备逻辑思维、横向思维和独立思考的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计 (Accounting )\n分析学 (Analytics )\n商务金融 (Business Finance)\n公司和市场 (Firms and Markets)\n组织行为 (Organisational Behaviour)\n市场营销 (Marketing )",
+  "success_cases": ""
+}

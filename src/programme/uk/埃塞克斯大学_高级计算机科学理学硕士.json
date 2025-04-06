@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "高级计算机科学理学硕士",
+  "ename": "MSc Advanced Computer Science",
+  "tags": "工科,计算机,计算机科学与电子工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:1学位，本科背景涵盖以下一门或多门课程：数据库、Web开发、软件工程、操作系统、计算机架构、计算机系统以及以下一门或多门数学课程，如：数学、微积分、代数、微分方程、概率论与统计学以及以下一门或多门信号与系统课程，如：信号与系统、控制理论、计算机系统、嵌入式系统、微处理器、自动化与控制工程、控制技术、系统硬件基础、控制工程以及以下两门或多门编程课程：C、C#、C、Java、Python、MATLAB、面向对象编程/OOP、高级编程、编程入门、编程语言、软件工程、系统编程、算法、数据结构、编程元素",
+  "objectives": "埃塞克斯大学高级计算机科学理学硕士项目旨在培养学生在计算机科学领域的当代设计和实践方面的专业知识。学生毕业后将有能力进一步探索技术如何影响人们的生活。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "理学硕士项目与学位论文 (MSc Project and Dissertation)\n专业实践与研究方法 (Professional Practice and Research Methodology)\n团队项目 (Group Project)\n计算机安全 (Computer Security)\n智能系统与机器人技术 (Intelligent Systems and Robotics)\n文本分析 (Text Analytics)\n机器学习与数据挖掘 (Machine Learning and Data Mining)\n游戏人工智能 (Game Artificial Intelligence)\n基于物理原理的游戏 (Physics-Based Games)\n手机与社交应用程序编程 (Mobile and Social Application Programming)\n网络安全 (Network Security)\n使用Matlab的数学研究技术 (Mathematical Research Techniques Using Matlab)\n自然语言工程 (Natural Language Engineering)\n数据科学与决策 (Data Science and Decision Making)\n神经网络与深度学习 (Neural Networks and Deep Learning)",
+  "success_cases": ""
+}

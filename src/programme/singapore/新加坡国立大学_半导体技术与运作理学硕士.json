@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "半导体技术与运作理学硕士",
+  "ename": "MSc Semiconductor Technology and Operations",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 8月\n项目时长: 1年\n项目学费: 57880新币/年",
+  "requirements": "具有学士学位或同等学历（至少达到新加坡二等荣誉学位或同等水平），需要科学、技术、工程或数学（STEM）背景。不符合要求的申请者可根据具体情况酌情考虑录取，其中工作经验是一项重要标准。",
+  "objectives": "新加坡国立大学半导体技术与运作理学硕士课程旨在为对半导体技术和运作领域感兴趣的毕业生提供全面的基础知识，为毕业生提供有关材料、器件、制造、封装和测试的基础知识和最新的半导体技术，帮助学生了解半导体技术基础设施投资和供应链管理，审查与半导体芯片设计和制造相关的战略、战术和运营层面的关键成本和效益决策，了解完整的设计、技术开发和制造过程以及技术创新周期，了解技术开发过程过去和现在的商业模式。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "集成电路技术与设计 (Integrated Circuit Technology and Design)\n异构集成、集成电路封装与测试 (Heterogeneous Integration, IC Packaging and Testing)\n半导体产业的演变与转型 (Evolution and Transformation of Semiconductor Industry)\n半导体供应链与需求管理 (Semiconductor Supply Chain and Demand Management)\n光子集成电路 (Photonic Integrated Circuits)\n生物电子学 (Bioelectronics)\n半导体材料与器件 (Semiconductor Materials and Devices)\n半导体良率与失效分析 (Semiconductor Yield and Failure Analysis)\n材料表征方法 (Material Characterisation Methodology)\n过程设计与控制的统计方法 (Statistical Methods for Process Design and Control)\n可靠性工程 (Reliability Engineering)\n知识产权管理与创新战略 (Intellectual Property Management and Innovation Strategy)\n运作分析与管理 (Operations Analysis and Management)\n决策分析 (Decision Analysis)\n品质规划与管理 (Quality Planning and Management)\n工程领导力的概念与应用 (Concepts and Applications of Engineering Leadership)\n半导体技术与运作项目I或II (Semiconductor Technology and Operations Project I or II)\n半导体技术与运作实习 (Semiconductor Technology and Operations Internship)",
+  "success_cases": ""
+}

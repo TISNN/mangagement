@@ -1,0 +1,12 @@
+{
+  "school_name": "佐治亚理工学院",
+  "major_name": "网络安全硕士",
+  "ename": "MS in Cybersecurity",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 32学分\n项目学费: 17070美元/学期",
+  "requirements": "获得工程或计算机相关领域学位的学生有资格",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "纯数学与数理逻辑理学硕士",
+  "ename": "MSc Pure Mathematics and Mathematical Logic",
+  "tags": "理科,数学,数学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 34500英镑/年",
+  "requirements": "通常具有数学或数学相关学科的良好荣誉学位，或某一数学学科的同等学历\n申请者如果是在读生，需要提供最后一年学习的课程列表及其学分权重",
+  "objectives": "曼彻斯特大学纯粹数学与数理逻辑理学硕士旨在为学生提供纯数学与数理逻辑专业理论以及实践技能训练，使学生具备批判性数理思维，达到数学及逻辑学等领域的职业发展要求。适合希望在申请博士学位之前提高其背景知识的学生，也适合希望增强其抽象数学知识的学生。该课程的目的是提供与纯数学和数学逻辑相关的一系列主题的培训，鼓励对数学的复杂和批判性的方法，并培养有能力和愿望的学生在工业或研究领域作为专业数学家和逻辑学家。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士纯粹数学研究与项目技巧 (MSc Pure Mathematics Research and Project Skills)\n傅里叶分析与勒贝格积分 (Fourier Analysis and Lebesgue Integration)\n解析数论 (Analytic Number Theory)\n可微歧管 (Differentiable Manifolds)\n第二学期项目 (Project Semester Two)\n非可交换代数 (Noncommutative Algebra)\n组的表示和特征 (Representation and Characters of Groups)\n李代数 (Lie Algebras)\n加洛瓦理论 (Galois Theory)\n代数数论 (Algebraic Number Theory)\n分析，随机游走和分组 (Analysis, Random Walks and Groups)\n计算与复杂性 (Computation and Complexity)\n集合论 (Set Theory)\n模型理论 (Model theory)",
+  "success_cases": ""
+}

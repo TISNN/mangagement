@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "建筑学与城市化文学硕士",
+  "ename": "MA Architecture and Urbanism",
+  "tags": "社科,建筑,环境、教育与发展学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 28000英镑/年",
+  "requirements": "通常具有2:1英国本科荣誉学位或同等学历，需要相关领域背景，或相关领域丰富的经验\n需要提交作品集（不超过20页）",
+  "objectives": "曼彻斯特大学建筑学与城市化文学硕士项目将带领学生研究全球经济和文化的发展对现代城市的影响，并以20世纪城市理论为基础，以城市可持续发展为导向，探究城市环境的设计、功能及未来趋向。而且，曼彻斯特大学建筑学与城市化文学硕士项目鼓励学生进行独立研究，申请自己的研究项目，撰写论文，并为学生提供学术会议、展览、竞赛及出版等论文发表方式。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工作室A (STUDIO A)\n工作室B (STUDIO B)\n工作室C (STUDIO C)\n研究方法和事件 (RESEARCH METHODOLOGIES AND EVENTS)\n城市与城市：思想与未来 (CITIES AND URBANISM : IDEOLOGIES AND FUTURES)\n论文 (DISSERTATION)",
+  "success_cases": ""
+}

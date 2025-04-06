@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "物理学理学硕士",
+  "ename": "MSc Physics",
+  "tags": "理科,物理,理学院",
+  "introduction": "专业方向: 物理\n入学时间: 8月\n项目时长: 1年\n项目学费: 52320新币/年",
+  "requirements": "具有理学学士学位，需要物理学或应用物理学背景\n学校也可能考虑具有工程学学士学位（半导体、电子、光子学或材料科学专业）的申请者\n学校也可能考虑具有其他资格和成就被认为适合学习该课程的申请者\n需要提交存款证明45,000新币",
+  "objectives": "新加坡国立大学物理学理学硕士课程专注于高级实验物理学和理论物理学的培训。物理系和量子技术中心（CQT）提供的所有研究生课程都是物理学理学硕士学生的选修课。该硕士课程的毕业生有多种职业选择。学生可以作为研究助理、教育工作者加入研究所、大学或政府机构，或在私营部门从事科研人员、研发经理、项目经理等工作。扎实的理学硕士物理课程作为助推计划，为之后的物理博士研究做准备。物理教师和其他专业人士有机会进一步提升他们的专业技能和资格。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高等量子力学 (Advanced Quantum Mechanics)\n高等统计力学 (Advanced Statistical Mechanics)\n高等固体物理学 (Advanced Solid State Physics)\n高等动力学 (Advanced Dynamics)\n实验物理学原理 (Principles of Experimental Physics)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "达特茅斯学院",
+  "major_name": "工程管理硕士",
+  "ename": "Master of Engineering Management",
+  "tags": "工科,工程管理",
+  "introduction": "专业方向: 工程管理\n入学时间: 秋季\n项目时长: 4学期\n项目学费: 26921美元/学期",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "通信与信号处理理学硕士",
+  "ename": "MSc Communications and Signal Processing",
+  "tags": "工科,电气电子,电气与电子工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要电子与电气工程学科背景\n申请者应具备通信与信号处理工程基础知识，也具备良好的编程技能（如C、Java、MATLAB）\n在评估申请者的学习成绩时，学校会考虑其平均成绩（尤其相关课程单元）和所就读院校的地位\n申请者如果是在读生，需要提供最后一年学习的所有课程的正式列表",
+  "objectives": "曼切斯特大学通信与信号处理拓展研究理学硕士课程提供有关通信，信号处理和微波工程的全面，系统，广泛的教育。它涵盖了深入的材料，包括数字通信，无线通信，移动网络，数字信号处理，通信网络和光通信。此外，学生可以在专门研究信号和图像处理的课程单元之间进行选择，或者在天线和微波系统工程学之间进行选择。\n该课程针对那些具有通信和信号处理本科以上学历的人员，希望将其技能提高到高级水平，从而在相关行业中获得有价值的职业。毕业生还能够在世界领先的研究小组中进行博士学位研究，并为技术进步贡献新思想。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n数字通信工程 (Digital Communications Engineering)\n先进的数字信号处理 (Advanced Digital Signal Processing)\n通信与信号分析导论 (Introduction to Communication and Signal Analysis)\n网络与物联网 (Networks and Internet of Things)\n光通信系统和网络 (Optical Communication Systems and Networks)\n天线和射频系统 (Antennas and RF Systems)\n机器学习与优化技术 (Machine Learning and Optimisation Techniques)\n无线通信与移动网络 (Wireless Communications & Mobile Networks)\n多传感器信号处理与成像 (Multi-Sensor Signal Processing & Imaging)\n数字图像处理 (Digital Image Processing)\n微波电路原理与设计 (Microwave Circuit Principles and Design)",
+  "success_cases": ""
+}

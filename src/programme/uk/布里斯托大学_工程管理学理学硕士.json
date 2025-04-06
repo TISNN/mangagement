@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "工程管理学理学硕士",
+  "ename": "MSc Engineering with Management",
+  "tags": "工科,工程管理,土木、航空航天与设计工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 36600英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要航空航天、土木、设计或机械工程背景，电子或通信工程和计算机学位背景将不适合此项目。来自其他科学、技术、工程或数学学科的申请者需要学习过与其选择方向相关的课程，学校可能会基于申请者的学术和工作经验推荐其选择另一方向对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩\n学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们至少具备以下其中一项：\n- 在相关工程领域有重要的带薪工作经验（至少两年）；\n- 相关研究生学历\n如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关工作经验和/或资格",
+  "objectives": "英国布里斯托大学工程管理学理学硕士项目旨在培养学员在当今瞬息万变的环境中面对战略管理问题时需要的的分析能力和关键技能，工程设计和技术课程将提供现代工程世界所依赖的技术知识，介绍在全球挑战项目中学员所需要的理论基础、实用方法和工具。不确定性和风险管理部门提供相关技术来识别、量化和分析工程应用中的不确定性，以支持有关改进产品、流程和降低项目风险的明智决策。根据选择的途径，学生将有机会从可选单元（包括：智慧城市、自动化与智能制造、可持续能源技术经济学和影响、抗灾能力和可持续发展）进行选择。最后，学员还将完成一个受监督的基于研究的论文项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "不确定性和风险管理 (Uncertainty and Risk Management)\n跨学科研究技能 (Interdisciplinary Research Skills)\n工程设计与技术 (Engineering Design and Technology)\n工程师的战略业务管理 (Strategic Business Management for Engineers)\n学位论文项目 (Dissertation project)\n计算空气动力学 (Computational Aerodynamics)\n工程建模与仿真 (Engineering Modelling and Simulation)\n多学科设计中的先进技术 (Advanced Techniques in Multi-Disciplinary Design)\n空气动力学应用数值方法 (Applied Numerical Methods for Aerodynamics)\n基于计算机的建模4 (Computer Based Modelling 4)\n土木工程系统4 (Civil Engineering Systems 4)\n资产管理4 (Asset Management 4)\n国际发展工程 (Engineering for International Development)\n危害与基础设施 (Hazards and Infrastructure)\n智慧城市4 (Smart Cities 4)",
+  "success_cases": ""
+}

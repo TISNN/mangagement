@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门理工大学",
+  "major_name": "运动科技与创新理学硕士",
+  "ename": "MSc Sports Technology and Innovation",
+  "tags": "社科,体育,应用科学学院",
+  "introduction": "专业方向: 体育\n入学时间: 8月\n项目时长: 2年\n项目学费: 85000澳门币/年",
+  "requirements": "具有电脑学、运动科技、体育学或相关领域的学士学位或同等学历；或\n正修读上述学历课程最后一年。\n内地往届学士毕业生须提交应届内地全国研究生招生考试初试成绩，且达国家一区分数线或以上",
+  "objectives": "澳门理工大学运动科技与创新理学硕士课程教授运动科技相关的跨学科专业知识，重点数字技术和人工智能对健康和运动产业的变革性影响力。课程丰富毕业生的科创知识与能力，使他们能胜任运动数据分析专家、运动康复专家，以及体育行业的技术开发人员等运动技术领域的岗位。课程注重智慧健康产业的发展，培养学生在运动科技与健康管理之间的融合能力，使毕业生具备竞争优势。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "运动科学原理 (Principles of Sports Science)\n数据分析 (Data Analytics)\n应用机器学习 (Applied Machine Learning)\n运动科技 (Sports Technology)\n项目报告 (Project Report)\n智能康复治疗前沿 (Advanced Topics in Intelligent Rehabilitation Therapy)\n运动康复技术与先进工具 (Sports Rehabilitation Techniques and Advanced Tools)\n智能康复运动工程 (Intelligent Rehabilitation Sports Engineering\t)\n健康保健技术与创新 (Innovation and Technology in Health and Wellness)\n人工智能运动表现分析 (Artificial Intelligence Assisted Sports Performance Analysis)\n特选论题 I (Selected Topics I)\n特选论题 II (Selected Topics II)",
+  "success_cases": ""
+}

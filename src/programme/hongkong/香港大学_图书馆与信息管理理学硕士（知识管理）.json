@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "图书馆与信息管理理学硕士（知识管理）",
+  "ename": "MSc Library and Information Management (Knowledge Management)",
+  "tags": "商科,信息系统,教育学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 229800港币/年",
+  "requirements": "具有学士学位或同等学历",
+  "objectives": "香港大学图书馆与信息管理学硕士课程旨在使学生能够游刃有余地在香港或世界上其他知识经济快速发展的地区从事信息产业专业工作。课程得到了英国图书馆和信息专业人员特许协会（CILIP）的专业认证，该认证保证了课程为专业实践提供了良好的准备，并将为学生进入图书馆、数据、信息和知识部门奠定坚实的基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究与调查方法 (Methods of Research and Enquiry)\n工作场所中的领导与管理 (Leading and Managing in the Workplace)\n图书馆与信息科学基础 (Library and Information Science Foundation)\n档案管理 (Records Management)\n知识管理 (Knowledge Management)\n电子学习策略与管理 (E-learning Strategies and Management)\n毕业项目与论文 (Capstone Project and Dissertation)\n信息资源与服务 (Information Resources and Services)\n数字时代的青年文学 (Literature for Young People in a Digital Age)",
+  "success_cases": ""
+}

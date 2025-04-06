@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "公共健康硕士",
+  "ename": "Master of Public Health",
+  "tags": "社科,公共卫生,健康科学学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:2学位或同等学历，包括医学学位。学校也欢迎具备具备至少2年相关工作经验（如在卫生、人道主义或人类/社会发展部门）的申请者",
+  "objectives": "公共健康的本质是预防疾病，促进健康，延长寿命。约克大学公共健康硕士项目致力于将学生培养成为公共卫生专业人员，并且让他们具备随时解决当地的和全球的健康问题的能力，学员们还能够了解多学科以及循证方法。该课程还会邀请流行病学，证据综合，随机对照试验和社会医学方面的专家研究人员来为学生授课。该课程同时会为学生提供一系列选择，以便他们可以发展公共健康实践所需的核心学科知识，并对公共健康的许多方面（包括健康政策，公共健康研究和人道主义工作）进行研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公共健康基础与实践 (Public Health Foundations and Practice)\n流行病学 (Epidemiology)\n感染和疾病 (Infection and Disease)\n健康统计学导论 (Introduction to Health Statistics)\n健康研究的实践 (Health Research in Practice)\n健康和社会行为 (Health and Social Behaviour)\n全球公共健康 (Global Public Health)\n公共健康和道德 (Public Health and Ethics)\n健康经济学 (Health Economics)\n健康政策：原则、实践和证据基础 (Health Policy - Principles、Practice and the Evidence Base)\n回归分析导论 (Introduction to Regression Analysis)\n随机对照试验 (Randomised Controlled Trials)\n系统评论 (Systematic Reviews)\n定性健康研究 (Qualitative Health Research)\n进一步回归分析 (Further Regression Analysis)",
+  "success_cases": ""
+}

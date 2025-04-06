@@ -1,0 +1,12 @@
+{
+  "school_name": "肯特大学",
+  "major_name": "法学硕士（法律与社会）",
+  "ename": "LLM (Law and Society)",
+  "tags": "社科,法律,肯特法学院",
+  "introduction": "专业方向: 法律\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 20700英镑/年",
+  "requirements": "具有一等或2:1荣誉学位或同等学历，需要法律或相关学科背景，学校也欢迎具有2:2荣誉学位的申请者（将根据具体情况以及相关专业经验和其他资格予以考虑）\n所有申请者都将根据具体情况予以考虑，其他资格、专业资格和相关经验也可能被考虑在内",
+  "objectives": "肯特大学法学硕士（法律与社会）项目特别法律在实践中的运作方式。它将为学生提供有关法律和社会的理论和跨学科视角，并鼓励学生质疑法律如何在地方、国家和国际层面促进（或破坏）社会正义。\n肯特大学法学硕士（法律与社会）项目使学生能够从肯特大学法学院和社会政策、社会学和社会研究学院 (SSPSSR) 提供的一系列课程中进行选择，让学生有机会批判性地分析法律在当代全球中的作用社会，研究和理解法律和社会政策中的关键问题，并发展当代社会法律研究中使用的研究和数据分析技能。它适合任何对需要深入了解法律在社会中的运作、具有法律和社会研究技能的领域的职业感兴趣的人，包括来自非法律背景、希望发展研究技能的学生。它还为有兴趣攻读博士学位的学生提供了良好的基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "法律导论 (A Critical Introduction to Law)\n合同与侵权概论 (Introduction to Contract and Tort)\n物权法概论 (Introduction to Property Law)\n公法1 (Public Law 1)\n社会学基础 (Fundamentals of Sociology)\n社会学理论:经典 (Sociological Theory: The Classics)\n英国法律制度概论 (Introduction to the English Legal System)\n学术咨询会议第一阶段 (Academic Advice Meetings Stage 1)",
+  "success_cases": ""
+}

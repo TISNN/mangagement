@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "金融科技理学硕士",
+  "ename": "MSc Financial Technology",
+  "tags": "商科,金工金数,商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "不限专业背景，不需要在本科阶段完成计算或金融学习，具有2:2荣誉学位或同等学历",
+  "objectives": "阿伯丁大学金融科技理学硕士由阿伯丁大学商学院和自然与计算机科学学院联合提供，汇集了数学、计算机科学、金融和经济学方面的专业知识，以提供全面综合的金融技术学习经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "编程入门 (Introduction to Programming)\n数据库系统与大数据 (Database Systems and Big Data)\n离散时间模型 (Discrete Time Models)\n连续时间模型 (Continuous Time Models)\n金融领域机器学习的进展 (Advances in Machine Learning in Finance)\n应用计量经济学 (Applied Econometrics)\n金融犯罪与网络安全 (Financial Crime and Cyber Security)\n金融研究中的实证方法 (Empirical Methods in Finance Research)\n资产组合分析 (Portfolio Analysis)\n金融分析与市场 (Financial Analysis and Markets)\n金融数学论文 (Financial Mathematics Dissertation)",
+  "success_cases": ""
+}

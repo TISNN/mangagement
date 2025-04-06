@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "生态学、进化与生物多样性理学硕士",
+  "ename": "MSc Ecology, Evolution and Biodiversity",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 36000英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要生物学（包括生态学和动物学）或生物医学科学、医学、农业或环境科学背景\n学校也接受英国2:1荣誉学位或同等学历、具有地理学、数学、统计学或物理学背景打算转到生物科学的申请者\n学校也会考虑学历低于最低要求但可以表现出足够相关经验（如相关学科的重要工作经历）的申请者，申请必须表现出对生态学和进化的兴趣以及定量分析技能",
+  "objectives": "爱丁堡大学生态学、进化与生物多样性理学硕士项目旨在让学生在为这场全球变化危机制定解决方案的过程中发挥关键作用。该计划将为学生提供批判性评估和应用最先进的定量生态和进化方法的机会，结合实际的现场技能，并为从科学家到政府的各种受众量身定制沟通方式。\n爱丁堡大学生态学、进化与生物多样性理学硕士课程将借鉴跨不同生态系统的广泛案例研究，从长期脊椎动物研究到海洋微生物。将强调实践，包括实地考察、统计和编码。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生态学与进化专业技能 (Professional skills for ecology and evolution)\n压力下的生物多样性 (Biodiversity under pressure)\n数据分析统计 (Data analysis and statistics)\n对环境变化的生态进化反应 (Eco-evolutionary responses to environmental change)\n研究计划 (Research proposal)",
+  "success_cases": ""
+}

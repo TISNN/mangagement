@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "光学与光子学理学硕士",
+  "ename": "MSc Optics and Photonics",
+  "tags": "理科,物理,物理学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 38300英镑/年",
+  "requirements": "具有2:1学位，需要物理学、数学或电气工程背景\n具备适当资格证明的申请者也可能被考虑\n不符合所列学术要求但具备大量相关行业经验的申请者在完成特殊资格考试后可能会被例外录取\n需要申请ATAS证书",
+  "objectives": "帝国理工学院光学与光子学理学硕士项目包括大量的实验室和项目工作，通常以工业为基础。第二学期，学生将有机会在工业界、学术研究小组、或者国外完成一个为期四个月的自学项目，该项目通过书面报告和口头陈述来评估，旨在激励学生学习过程中的主动性和自足性，重在提升其知识迁移能力。帝国理工学院光学与光子学理学硕士项目的毕业生广泛任职于该行业的各个领域，也有学生在英国或国外继续攻读博士学位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "最终项目 (Final Project)\n影像学 (Imaging)\n实验室 (Laboratory)\n雷射 (Lasers)\n光学测量与设备 (Optical Measurement and Devices)\n自学项目 (Self-Study Project)\n光通信与信息论 (Optical Communications and Information Theory)\n等离子和超材料 (Plasmonics and Metamaterials)\n纳米光子学高级课题 (Advanced Topics in Nanophotonics)\n生物医学光学 (Biomedical Optics)\n激光光学 (Laser Optics)\n雷射技术 (Laser Technology)",
+  "success_cases": ""
+}

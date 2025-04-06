@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "高级计算机科学（数据分析）理学硕士",
+  "ename": "MSc Advanced Computer Science (Data Analytics)",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 33750英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要计算机科学背景，学校要求所有申请者学习过广泛的相关课程，包括大量编程、系统开发、数据结构与算法课程，并且在所有这些课程中取得高分\n满足以下其中一项的申请者将基于具体情况被考虑：\n- 在其他基于计算的学位中取得2:1荣誉学士学位\n- 具有专业资格以及相关工作经验",
+  "objectives": "大数据在科学、市场营销、工程药学和政府等领域中扮演着越来越重要的角色。利兹大学高级计算机科学（数据分析）理学硕士硕士项目将帮助学生掌握数据分析领域的专业知识，带领学生探索计算机科学领域中一系列先进课题。\n通过参与利兹大学高级计算机科学（数据分析）理学硕士硕士项目，学生将基本掌握诸如系统编程和算法等课题以及机器学习和知识表示的基础知识。学生也可选择重点围绕图像分析或文本分析等课题的选修课程，加深对诸如云计算等课题的认识。\n作为在文本、符号和科学/数值数据分析方面达到专业水准的少数学校之一，利兹大学能够给学生提供广泛的专业知识以储备专业技能。当学生在开发自己的主要课题项目时，甚至会有机会成为利兹大学级计算机科学理学硕士项目研究小组的成员。此外，利兹大学与处于大数据研究前沿的利兹数据分析研究所联系密切。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "大数据系统 (Big Data Systems )\n数据科学 (Data Science)\n并行和并发编程 (Parallel and Concurrent Programming)\n硕士项目 (MSc Project)\n生物启发计算 (Bio-Inspired Computing)\n知识表示和推理 (Knowledge Representation and Reasoning)\n云计算 (Cloud Computing)\n语义技术和应用 (Semantic Technologies and Applications)\n图像分析 (Image Analysis)\n调度 (Scheduling )\n科学计算 (Scientific Computation)\n图像理论：架构和算法 (Graph Theory: Structure and Algorithms)\n机器学习 (Machine Learning )\n信息可视化 (Information Visualisation)",
+  "success_cases": ""
+}

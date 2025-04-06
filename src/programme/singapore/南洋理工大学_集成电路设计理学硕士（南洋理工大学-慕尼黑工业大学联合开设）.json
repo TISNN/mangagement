@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "集成电路设计理学硕士（南洋理工大学-慕尼黑工业大学联合开设）",
+  "ename": "Joint MSc Integrated Circuit Design (NTU-TUM)",
+  "tags": "工科,电气电子,电气与电子工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 8月\n项目时长: 2年\n项目学费: 26705新币/年",
+  "requirements": "具有荣誉学士学位或同等学历且至少达到二等荣誉学位或同等水平，需要科学/电气/电子工程领域背景，或具有密切相关学科背景且成绩优秀\n需要APS认证",
+  "objectives": "由南洋理工大学与德国慕尼黑工业大学联合办学的集成电路设计理学硕士（南洋理工大学-慕尼黑工业大学联合开设）学位项目旨在为高速发展的半导体行业培养新一代专业工程师和创业型领袖。该项目侧重于集成电路设计的理论和实践。这个自筹资金的联合项目由两所大学的教师进行，并由德国科技学院-TUM Asia Pte Ltd 管理。在过去十年中，与便携式和紧凑型计算机、通信、音频和视频产品相关的快速技术进步引起了电子行业对集成电路（IC）设计领域的兴趣日益浓厚，电子硬件的持续和加速集成就是证明。集成电路设计理学硕士学位项目的开发是为了满足这种不断增长的需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字集成电路设计 (Digital IC Design )\n模拟集成电路设计 (Analog IC Design)\n系统集成芯片架构与解决方案 (System-on-Chip Solutions & Architecture  )\n集成电路设计方法学以及设计自动化 (Design Methodology & Automation )\n数字信号处理 (Digital Signal Processing)\n数模混合电路设计 (Mixed Signal Circuit Design)\n实验课1：模拟集成电路设计 (Lab 1: Analog IC Design )\n实验课2：数字集成电路设计 (Lab 2: Digital IC Design )\n商业与科技英语 (Business and Technical English)\n射频集成电路设计 (RF IC Design)\n模拟电路仿真和优化 (Simulation and Optimization of Analog Circuits)\n超大规模集成电路的可测试性设计 (Design for Testability of VLSI)\n高等场效应晶体管与新型设备 (IC packaging)\n纳米电子技术 (Nano-Electronics)\n嵌入式系统 (Embedded Systems)",
+  "success_cases": ""
+}

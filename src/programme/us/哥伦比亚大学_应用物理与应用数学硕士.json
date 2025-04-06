@@ -1,0 +1,12 @@
+{
+  "school_name": "哥伦比亚大学",
+  "major_name": "应用物理与应用数学硕士",
+  "ename": "M.S. in Applied Physics and Applied Mathematics",
+  "tags": "理科,物理",
+  "introduction": "专业方向: 物理\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2年\n项目学费: 56,688美元/年",
+  "requirements": "无",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

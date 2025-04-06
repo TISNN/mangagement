@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "能源与可持续性（能源、环境与建筑）理学硕士",
+  "ename": "MSc Energy and Sustainability (Energy, Environment and Buildings)",
+  "tags": "工科,能源,工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1工程学或理学学士学位，需要以下背景之一：工程学、物理学、数学、化学\n或者学位能够展示数学学习背景，例如通过以下学科：地理学、生物科学、环境科学\n申请者还需要在数学和物理学方面达到A-level成绩或同等水平\n需要ATAS认证",
+  "objectives": "南安普顿大学能源与可持续性（能源、环境与建筑）理学硕士项目使学生了解能源与环境之间的关系。该课程让学生有机会探索气候变化的当前和未来影响，以及这对能源行业意味着什么。学院与专家一起开发该硕士学位，以确保学生掌握评估建筑和城市形式的能源性能和气候设计的技能。学生将学习：应对气候变化、如何确保能源供应、管理建筑物的能源效率。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "能源资源与工程 (Energy Resources and Engineering)\n能源技术、环境与可持续发展概论 (Introduction to Energy Technologies、Environment and Sustainability)\n气候变化、能源和住区 (Climate Change、Energy and Settlements)\n数据分析与实验方法（土木与环境工程） (Data Analysis and Experimental Methods for Civil and Environmental Engineering)\n研究项目 (MSc Research Project)\n建筑与城市气候设计 (Climate Design of Buildings and Cities)\n建筑物的能源性能评价 (Energy Performance Assessment of Buildings)\n地理信息系统 (Geographic Information Systems)\n废弃物资源管理 (Waste Resource Management)\n生物能源 (Bioenergy)",
+  "success_cases": ""
+}

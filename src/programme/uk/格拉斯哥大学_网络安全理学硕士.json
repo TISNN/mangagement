@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "网络安全理学硕士",
+  "ename": "MSc Cybersecurity",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "至少2:1荣誉学位或同等学历，主修计算机。通常的要求是，在学位的最后两年，计算机科目至少占所有科目的50%",
+  "objectives": "格拉斯哥大学网络安全理学硕士项目为毕业生提供最先进的网络安全知识和技能。这是一个要求高、以实践为导向的授课型研究生课程，面向拥有计算机科学本科学位的学生，他们将受益于前沿的研究型教学。学生将有机会与科技行业的雇主见面，他们会来做招聘介绍，并在课程期间经常寻求招聘毕业生。学生还将受益于24小时使用，配备了最先进的硬件和软件的计算机实验室。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "编程与系统开发 (Programming and Systems Development )\n企业网络安全 (Enterprise Cyber Security )\n研究与专业技能 (Research and Professional Skills )\n安全设计系统工程 (Secure-by-Design Systems Engineering)\n网络安全中的新兴话题 (Emerging Topics in Cybersecurity)\n以人为本的安全性 (Human-Centred Security )\n计算机科学硕士项目 (MSc Project for Computing Science+)\n密码学和安全开发 (Cryptography and Secure Development)\n网络安全基础 (Cybersecurity Fundamentals for MSc)\n辩论术 (Forensics)\n安全软件工程硕士 (Secured Software Engineering for MSc)\nRust中的安全编程 (Secure Programming in Rust)",
+  "success_cases": ""
+}

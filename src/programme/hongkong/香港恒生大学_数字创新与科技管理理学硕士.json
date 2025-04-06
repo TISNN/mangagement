@@ -1,0 +1,12 @@
+{
+  "school_name": "香港恒生大学",
+  "major_name": "数字创新与科技管理理学硕士",
+  "ename": "MSc Digital Innovation and Technology Management",
+  "tags": "工科,计算机,决策科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 192000港币/年",
+  "requirements": "具有获认可的大学工商管理、资讯管理、营运管理、工业工程、计算机科学（或相关学科）的本科学位学历",
+  "objectives": "在数字转型和技术创新成为战略业务的时代，香港恒生大学数字创新与科技管理理学硕士课程提供了独特的战略和技术培训。该课程精心设计，旨在培养未来领导者，他们不仅能够应对最先进的技术，还能通过科技的战略执行不同组织的变革。\n香港恒生大学数字创新与科技管理理学硕士课程旨在为学生提供数字创新及科技管理的知识和实践经验，以应用于机构营运之中；培养学生全面理解国际及区域性的数字创新和科技发展趋势；建立学生在环球营运管理所需的科技管理技能；增强学生的决策分析知识和技巧，以推动数字创新和转型；提升学生与同侪、管理层及专家进行有效沟通的能力；深化学生对环球营运管理和协调的认识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "创新及科技管理 (Innovation and Technology Management)\n环球营运管理 (Global Operations Management)\n资讯系统管理 (Information Systems Management)\n商业及决策分析 (Business and Decision Analytics)\n资讯科技专案管理 (Information Technology Project Management)\n模拟系统数字孪生 (Systems Simulation for Digital Twin)\n服务创新管理 (Service Innovation Management)\n数字管理与领导 (Digital Management and Leadership)\n创新与科技管理专题研习 (Selected Topics in Innovation and Technology Management)\n供应链财务与风险管理 (Supply Chain Finance and Risk Management)\n电子商务与企业系统 (E-Business and Enterprise Systems)\n供应链模型与分析 (Supply Chain Modeling and Analytics)",
+  "success_cases": ""
+}

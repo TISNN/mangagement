@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "建筑学硕士",
+  "ename": "Master of Architecture",
+  "tags": "社科,建筑,建筑学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 2年\n项目学费: 230000港币/年",
+  "requirements": "具有建筑学研究文学学士学位或同等学历\n优先考虑具有工作经验的申请者（这些经验正向塑造了他们的实践和智力能力）\n需要提交作品集",
+  "objectives": "香港大学建筑学硕士（MArch）是香港大学建筑系下为期两年的全日制项目，课程内容注重当代设计与建造技术，同时使学生对建筑史与建筑理论有一个更深层次的理解。香港大学建筑学硕士课程课程使学生获得广泛的专业知识、技能和知识，以面对当代建筑话语、设计和实践的复杂性。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "建筑学与城市设计（一） (Architecture and urban design I )\n建筑学与城市设计（二） (Architecture and urban design II)\n专业实践（一） (Professional practice I)\n设计与建造沟通 (Design and construction communication)\n建筑学及其理论话语 (Architecture and its discourses)\n可持续建筑设计与技术 (Design and technology of sustainable buildings)\n建筑学与城市设计（三） (Architecture and urban design III)\n建筑学与城市设计（四） (Architecture and urban design IV )\n专业实践（二） (Professional practice II)\n研究讨论会 (Research seminar)\n建筑与记忆 (Architecture and memory)\n中国城市设计 (The design of Chinese cities )\n可持续设计方法 (Sustainable design methods)\n计算机辅助建筑设计方法 (Computer-aided architectural design methods)\n建筑实践中的建筑信息模型 (Building information modeling in architectural practice)",
+  "success_cases": ""
+}

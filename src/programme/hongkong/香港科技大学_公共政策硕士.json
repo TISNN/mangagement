@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "公共政策硕士",
+  "ename": "Master of Public Policy",
+  "tags": "社科,公共政策与事务,跨学科学院",
+  "introduction": "专业方向: 公共政策与事务\n入学时间: 9月\n项目时长: 2年\n项目学费: 154000港币/年",
+  "requirements": "具有学士学位或同等学历，至少达到二等荣誉学位\n不强制要求但是建议提交GMAT/GRE\n有相关工作或实习经验者优先考虑申请者可能需要接受面试",
+  "objectives": "香港科技大学公共政策硕士项目是一个跨学科的项目，使学生掌握科学和技术创新的全面影响的知识，以及制定和实施创新解决方案以应对当前和新兴全球挑战的专业技能。它为学生提供完整的专业培训，重点是以现实世界的案例和实例来解决问题的技能，如信息技术和电信、环境、能源、医疗保健、交通和金融。该项目强调知识、分析技能和管理能力，这些都是可以在不同部门、问题领域和全球区域高度转移的。\n香港科技大学公共政策硕士项目的毕业生可以在各种组织中担任分析师、经理、研究人员和顾问，包括政府机构、非营利组织和私营企业。该项目提供的培训对寻求在科技进步的前沿行业，如信息技术和电信、环境、能源、卫生保健、交通和金融等行业发展事业的政策专业人员特别有意义。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公共政策基础 (Foundation in Public Policy)\n微观经济学与公共政策 (Microeconomics and Public Policy)\n定量分析与实证方法 (Quantitative Analysis and Empirical Methods)\n公共政策分析 (Public Policy Analysis)\n公共政策中的证据 (Evidence in Public Policy)\n公共管理与领导力 (Public Management and Leadership)\n政策分析项目 (Policy Analysis Project)",
+  "success_cases": ""
+}

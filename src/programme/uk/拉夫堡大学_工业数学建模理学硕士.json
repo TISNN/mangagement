@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "工业数学建模理学硕士",
+  "ename": "MSc Industrial Mathematical Modelling",
+  "tags": "理科,数学,数学学院",
+  "introduction": "专业方向: 数学\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要数学、工程或科学背景，并且数学含量高（50%的学术课程必须与数学相关）",
+  "objectives": "本课程将教授学生工业数学领域所需的技能和技巧，包括应用数学中解决实际问题的能力，这些能力在工业和商业中都很受欢迎。工业数学是应用数学的一个分支，专注于建模、模拟和解决与工业相关的问题。本硕士项目使学生能够探索真实世界过程和形式的数学模型，强调这些技术如何应用于工业，课程最后是一个为期12周的暑期项目，通常是在当地企业内进行。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "定期和混沌动力学 (Regular and Chaotic Dynamics)\n编程和数值方法 (Programming and Numerical Methods)\n数学建模 (Mathematical Modelling)\n金融领域的随机模型 (Stochastic Models in Finance)\n跨学科科学的数学方法 (Mathematical Methods for Interdisciplinary Sciences)\n静态和动态优化 (Static and Dynamic Optimisation)\n数学建模 (Mathematical Modelling)\n流体力学 (Fluid Mechanics)\n工业数学模型研究项目 (Industrial Mathematical Modelling Research Project)",
+  "success_cases": ""
+}

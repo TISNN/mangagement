@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "辐射测量学：仪器与建模理学硕士",
+  "ename": "MSc Radiometrics: Instrumentation and Modelling",
+  "tags": "理科,物理,物理科学学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 26400英镑/年",
+  "requirements": "具有2:2荣誉学位，申请者必须已完成物理科学或密切相关学科的学位。相关行业经验也可以作为替代，但需提供推荐信\n学校也鼓励非传统背景的人申请，例如具有相关行业经验的人，代替学位。每份申请将根据其自身情况被评估，并依赖于推荐信",
+  "objectives": "利物浦大学辐射测量学：仪器与建模理学硕士项目为期一年，为学生提供辐射和辐射探测器行业的专业知识和技能培训。利物浦大学辐射测量学：仪器与建模理学硕士项目课程包括基本的辐射原理、检测系统和相关仪器应用以及建模，注重实践和实验室技术。利物浦大学辐射测量学：仪器与建模理学硕士项目的学生可以在核电、医药、环境保护、石油和采矿以及健康和安全等领域拥有就业优势。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "原子物理基础 (Basic Physics of the Atom)\n辐射检测原理 (Principles of Radiation Detection)\n简单建模 (Simple Modelling)\n高分辨率伽马谱仪 (High Resolution Gamma Spectrometry)\n伽马射线：探测与建模 (Gamma-rays: Detection and Modelling)\nAlpha谱仪 (Alpha Spectrometry)\n中子：探测与建模 (Neutrons: Detection and Modelling)\n核仪器 (Nuclear Instruments)\n统计 (Statistics)\n辐射防护与剂量学 (Radiation Protection and Dosimetry)\n环境角度 (Environmental Aspects)\n辐射屏蔽 (Radiation Shielding)\n高分辨率伽马谱仪应用 (Applied High Resolution Gamma Spectrometry)\n伽马射线应用：探测与建模 (Applied Gamma Ray: Detection and Modelling)\n中子应用：探测与建模 (Applied Neutrons: Detection and Modelling)",
+  "success_cases": ""
+}

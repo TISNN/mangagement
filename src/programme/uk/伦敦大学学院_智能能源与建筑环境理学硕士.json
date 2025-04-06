@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "智能能源与建筑环境理学硕士",
+  "ename": "MSc Smart Energy and the Built Environment",
+  "tags": "工科,能源,建筑环境学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "通常要求具有2:1英国学士学位或同等学历，需要相关学科背景（例如物理学或相关物理科学、工程、数学、地理学、心理学、社会科学、建筑学、规划或经济学）。欢迎具有不同学位学科背景但具备至少3年相关经验的申请者申请，并将根据个人情况进行评估。需要在个人陈述中清楚地说明其教育或就业背景（包括任何实习或项目）如何与申请专业相关以及希望通过学习实现什么目标。",
+  "objectives": "人类需要在建筑中如何生产、供应和消费能源之间建立一种新的关系，以改造全球能源系统，减少碳排放。伦敦大学学院新的跨学科智能能源与建筑环境理学硕士项目将培训学生成为能源和建筑环境革命的前沿。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "智能能源和建筑环境基础 (Fundamentals of Smart Energy and the Built Environment)\n社会中的能源系统 (Energy Systems in Society )\n智能能源数据和统计简介 (Introduction to Smart Energy Data and Statistics )\n模拟社区能源系统 (Modelling Community Energy Systems )\n智能分布式能源系统 (Smart Distributed Energy Systems )\n智能建筑环境中的数据分析 (Data Analytics in the Smart Built Environment)\n社会价值与新能源商业模式 (Social Value and New Energy Business Models)\n系统思维与系统动力学 (Systems Thinking and System Dynamics)",
+  "success_cases": ""
+}

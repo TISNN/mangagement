@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "应用经济学理学硕士",
+  "ename": "MSc Applied Economics",
+  "tags": "商科,经济,商学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 27800英镑/年",
+  "requirements": "具有至少二等荣誉学位或同等学历，专业背景不限",
+  "objectives": "在思克莱德大学应用经济学理学硕士学位课程中，学生将学习经济学分析的基本原则，从中分析得出自己的见解，提升技能，从而运用到特定情境中，如获取和分析信息、支持决策、解决问题、在私营或公共部门组织中制定政策。\n思克莱德大学应用经济学理学硕士学位课程适合有意在经济、银行业、能源、中央和当地政府、慈善机构和管理部门发展职业生涯的学生。思克莱德大学应用经济学理学硕士学位课程也面向领域内的职业人士，学生能够提升数据分析、决策制定、政策形成、沟通的技能，从而提高工作成效。\n通过思克莱德大学应用经济学理学硕士学位课程的学习，学生将：\n充分理解微观和宏观经济学理论；\n获取在公私营部门组织的政策发展和决策制定中运用相关经济理论的经验；\n了解市场的本质及职能，了解限制和决定政策选择的机构和决策环境；\n掌握统计和计量经济建模技术的应用知识，以便分析和决策制定；\n掌握项目经济评估的方法和技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济学基础 (Fundamentals of Microeconomics)\n宏观经济学基础 (Fundamentals of Macroeconomics)\n经济学家的专业发展 (Professional Development for Economists)\n经济评估和经济模型 (Economic Appraisal & Economic Modelling)\n经济数据分析 (Analysis of Economic Data)\n公共经济学议题 (Topics in Public Economics)\n不平等和包容性增长的经济学 (Economics of Inequality and Inclusive Growth)\n能源经济学 (Energy Economics)\n国际发展 (International Development)\n国际贸易和政策 (International Trade & Policy)\n策略博弈论 (Games of Strategy)\n环境经济学 (Environmental Economics)",
+  "success_cases": ""
+}

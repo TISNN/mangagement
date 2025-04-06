@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "电气与电子工程（工程）理学硕士 - 通信工程方向",
+  "ename": "MSc(Eng) Electrical and Electronic Engineering (Communications Engineering)",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 320000港币/年",
+  "requirements": "具有学士学位或同等学历，需要相关领域（工程或计算机科学）背景",
+  "objectives": "香港大学电气与电子工程系一直致力于追求高水平的教学以及保持较强的科研能力。香港大学工程学（电气与电子工程）理学硕士学位课程以前沿技术和管理科目的三个科目组为基础，旨在为从业人员和行业领导者提供一个具有挑战性的机会，以刷新他们的EEE知识。课程涵盖理论和实践的先进主题，如生物医学工程、计算机系统、多媒体系统、网络、电力系统、信号处理和无线通信。\n希望通过学习而掌握最先进的电气与电子工程基础知识的学生可以申请香港大学工程学（电气与电子工程）理学硕士学位课程的常规方向，而有志于从事电气与电子工程中某一专项领域研究的学生则可以申请通信工程或电力工程这两个具体研究方向。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "通信政策与规定 ( Communications Policy and Regulations)\n数字信号处理 (Digital Signal Processing)\n数据压缩 (Data Compression)\n电信系统与管理 (Telecommunications Systems and Management)\nIP网络 (IP Networks)\n电子与移动商务 (Electronic and Mobile Commerce)\n无线通信与网络 (Wireless Communications and Networking)\n数字通信 (Digital Communications)\n卫星通信 (Satellite Communications)\n通信理论与系统高级专题 (Advanced Topics in Communication Theory and Systems)\n多媒体信号与系统高级专题 (Advanced Topics in Multimedia Signals and Systems)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "银行与金融理学硕士",
+  "ename": "MSc Banking and Finance",
+  "tags": "商科,金融,诺丁汉商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 32400英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要金融、经济、会计、商业或管理背景，任何定量学科背景的优秀学位也会根据具体情况予以考虑，申请者必须具备很强的定量/数学背景，并且在至少2门课程中成绩达到2:1（60%），课程涵盖以下学科中至少2项：数学、统计学、定量方法、定量金融专业和计量经济学\n如果申请者尚未完成本科学位，需要提供最后一年要学习的课程列表",
+  "objectives": "诺丁汉大学银行与金融理学硕士课程的核心模块将有助于加深对基本领域的理解，而可选模块则允许学生根据自己的具体兴趣和职业目标定制课程。学生将能够了解和分析金融机构、市场、消费者需求和竞争，还将探索银行、政策、经济学和风险管理方面的最新概念。课程将帮助学生在快节奏的跨国银行和金融世界中增加获得报酬丰厚的工作机会，为学生提供专业技能与高级业务管理技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "银行理论、运营与管理 (Bank Theory, Operations and Management)\n消费者、道德与金融监管 (Consumers, Ethics and Regulation in Finance)\n银行业研究方法 (Research Methods for Banking)\n公司金融策略 (Corporate Financial Strategy)\n金融重组与银行业治理 (Financial Restructuring and Governance in Banking)\n银行业定量研究方法 (Quantitative Research Methods for Banking)\n银行风险度量与管理 (Bank Risk Measurement and Management)\n定量风险管理 (Quantitative Risk Management)\n金融安全评估 (Financial Security Valuation)\n银行业的当代问题 (Contemporary Issues in Banking)",
+  "success_cases": ""
+}

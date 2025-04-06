@@ -1,0 +1,12 @@
+{
+  "school_name": "牛津大学",
+  "major_name": "古代哲学研究硕士",
+  "ename": "MSt Ancient Philosophy",
+  "tags": "社科,哲学,哲学院",
+  "introduction": "专业方向: 哲学\n入学时间: 10月\n项目时长: 1年\n项目学费: 41250英镑/年",
+  "requirements": "具有一等或strong 2:1荣誉学位，需要哲学、古典文学或相关学科背景\n对于拥有美国学士学位的申请人，通常需要满足本科水平要求的最低总体 GPA3.6（满分 4.0）。但是，大多数成功申请者的GPA为3.7\n需要一篇4000-5000字的essay或两篇2000-2500字的essay",
+  "objectives": "牛津大学古代哲学研究硕士是一年的全日制研究生授课课程，提供高质量的古代哲学研究生培训，旨在为学生提供可以继续在该领域攻读博士学位的基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "柏拉图:共和国 (Plato: Republic)\n柏拉图在知识、语言、 (Plato on Knowledge, Language, & Reality in the Theaetetus & Sophist)\n亚里士多德:《尼各马可伦理学》 (Aristotle: Nicomachean Ethics)\n亚里士多德对自然、生命和心灵 (Aristotle on Nature, Life and Mind)\n在希腊哲学知识和怀疑 (Knowledge and Scepticism in Hellenistic Philosophy)\n拉丁哲学 (Latin Philosophy)",
+  "success_cases": ""
+}

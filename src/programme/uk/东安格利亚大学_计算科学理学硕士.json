@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "计算科学理学硕士",
+  "ename": "MSc Computing Science",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 24500英镑/年",
+  "requirements": "具有英国2:1学士学位或同等学历，不限专业背景（计算机科学除外），适合任何具有计算机能力的人（如网站工作或相关工作经验）\n该硕士课程主要针对那些以前没有学习过计算机学位或本科学位计算机知识有限的学生\n如果学生具有计算机学位，应仔细检查课程模块和内容，以确保该专业满足其需求和未来的职业抱负和要求，英国计算机学位学生学习背景涵盖太多本课程的内容，应该考虑高级计算机科学、网络安全或数据科学",
+  "objectives": "东安格利亚大学计算科学理学硕士项目适合想要开拓就业新方向的非计算机学科毕业生。东安格利亚大学计算科学理学硕士项目将帮助你奠定计算机学科基础。选定学习方向后，你也有机会选择其他方向进行学习，如你可以开发项目管理、研究、交际和团队合作等对潜在雇主非常有吸引力的技能。\n东安格利亚大学计算科学理学硕士项目的重点在于论文的撰写，论文让你有机会专注于特定课题，与世界领先的学者合作。东安格利亚大学在2014年卓越研究框架中享有好评，在诸多领域（如人工智能、音频和视频处理和数据挖掘等）拥有丰富的研究经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究技巧 (Research Techniques)\n论文 (Dissertation)\n应用程式编程 (Applications Programming)\n数据库操作 (Database Manipulation)\n互联网和多媒体技术 (Internet and Multimedia Technology)\n高级软件系统开发 (Advanced Software Systems Development)\n系统工程议题 (Systems Engineering Issues)\n计算机网络 (Computer Networks)\n分布式计算 (Distributed Computing)\n人工智能和算法 (Artificial Intelligence and Algorithmics)\n数据挖掘 (Data Mining)",
+  "success_cases": ""
+}

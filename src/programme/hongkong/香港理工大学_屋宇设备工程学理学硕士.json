@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "屋宇设备工程学理学硕士",
+  "ename": "MSc Building Services Engineering",
+  "tags": "工科,土木工程,建筑及环境学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 240000港币/年",
+  "requirements": "具有荣誉学士学位或同等学历，需要屋宇装备工程、机械或电气工程背景\n或具备专业资格，例如香港工程师学会或英国屋宇装备工程师学会的正式会员，并具备任何屋宇装备工程范畴的工作经验，例如设计及顾问、承包、建筑施工与维护、房地产开发与管理或研究\n雇主支持或赞助证明是有利的，具备建筑服务工程相关职位工作经验者优先考虑",
+  "objectives": "香港理工大学屋宇设备工程学理学硕士学位的目标在于：确立香港理工大学作为香港及珠三角地区提供高质素屋宇设备工程学教育、培训、研究及咨询的领导者地位；在强大的科研发展基础下，持续满足市场对屋宇设备工程学最新专业教育及培训的需求，并维持与香港及世界各地业界及专业团体的紧密连系；提升理大屋宇设备工程学毕业生及专业人士的专门技术，并满足各界，包括咨询、承包、屋宇管理、研究及发展等，对专业而富创意的屋宇设备工程师的需求；以及推动学生个人发展，并发挥其在屋宇设备工程学方面的领导才能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "照明工程 (Lighting Engineering)\n智能屋宇工程 (Engineering Intelligent Buildings )\n屋宇电气设备 (Electrical Installations in Buildings )\n空调控制与运行 (Air Conditioning Control and Operation)\n消防工程系统 (Fire Engineering Systems)\n建筑物音响学 (Building Acoustic)\n节能建筑 (Energy Efficient Buildings)\n建筑环境性能 (Building Environmental Performance)\n应用屋宇太阳能 (Applied Solar Energy in Buildings)\n室内空气质量工程 (Indoor Air Quality Engineering)\n研究方法 (Research Methods)\n可持续与建筑环境 (Sustainability and the Built Environment)\n消防安全管理法律视角 (Legislation Aspects of Fire Safety Management)\n施工过程中的安全视角 (Safety Aspects in Construction)\n消防安全管理设计思考 (Design Considerations for Fire Safety Management)",
+  "success_cases": ""
+}

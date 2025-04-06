@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "中医学硕士",
+  "ename": "Master of Chinese Medicine",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 4年\n项目学费: 191340港币/年",
+  "requirements": "需要提供B等级证明，申请者最好主修生物医学科学或相关领域，或已在认可的教育机构完成中医课程",
+  "objectives": "香港中文大学中医学硕士课程由香港中文大学中医学院开办，为有志于修读中医学理论及临床课程的非中医专业的大学毕业生提供专业训练。香港中文大学中医学硕士课程为全港唯一被香港中医药管理委员会认可的，其毕业生可申请参加香港中医药管理委员会中医执业资格试的中医全日制硕士课程。香港中文大学中医学硕士课程学生于首三年修读中医理论及中医分科等科目，并包括现代医学之基础课程。最后一年赴广州中医药大学附属医院或其他内地中医医院、以及本港中医诊所接受中医临床实习训练。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "中医学理论 (Principles of Chinese Medicine)\n中医诊断原则与方法 (Diagnostic Approaches in Chinese Medicine Practice)\n基础生物医学 (Fundamental Biomedical Science)\n内经 (Yellow Emperor’s Inner Canon)\n中医临床见习(一) (Chinese Medicine Clerkship I)\n临床中药学 (Chinese Materia Medica)\n现代医学(一) (Modern Medical Science I)\n中医经穴学 (The Meridian System)\n临床方剂学 (Chinese Medicine Formulae)\n内科学(中医)(一) (Internal Medicine (Chinese Medicine) I)\n中医针灸治疗学 (Acupuncture Therapy)\n中医推拿学 (Clinical Tui Na)\n伤寒论 (Treatise on Exogenous Febrile Diseases)\n金匮要略 (Golden Chamber)\n骨伤学（中医） (Orthopaedics and Traumatology (Chinese Medicine))",
+  "success_cases": ""
+}

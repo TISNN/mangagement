@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "热动力与推进理学硕士（航天推进）",
+  "ename": "MSc Thermal Power and Propulsion (Aerospace Propulsion)",
+  "tags": "工科,航空工程,航空航天",
+  "introduction": "专业方向: 航空工程\n入学时间: 3/10月\n项目时长: 1年\n项目学费: 24725英镑/年",
+  "requirements": "具有工程、数学、物理或应用科学背景",
+  "objectives": "克兰菲尔德大学热动力与推进理学硕士（航天推进）课程专为那些寻求推进系统设计、开发、操作和维护职业生涯的人设计，适合在既定的国际行业中寻求具有挑战性和回报的毕业生，毕业生掌握的技能使他们能够在要求非常高且回报丰厚的工作场所中获得立竿见影的效果，因此需求量很大。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "燃烧室 (Combustors)\n引擎系统 (Engine Systems)\n涡轮机械机械设计 (Mechanical Design of Turbomachinery)\n推进系统性能与集成 (Propulsion Systems Performance and Integration)\n技术管理 (Management for Technology)\n燃气轮机性能模拟与诊断 (Gas Turbine Performance Simulation and Diagnostics)\n涡轮机械与叶片冷却 (Turbomachinery and Blade Cooling)",
+  "success_cases": ""
+}

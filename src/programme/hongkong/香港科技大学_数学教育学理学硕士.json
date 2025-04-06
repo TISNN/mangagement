@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "数学教育学理学硕士",
+  "ename": "MSc Mathematics for Educators",
+  "tags": "社科,教育,理学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 130000港币/年",
+  "requirements": "具有学士学位或同等学历，需要数学或相关理科或工程领域背景，具备多元微积分、线性代数和微分方程知识",
+  "objectives": "数学是一门在定量研究和逻辑分析过程中不可或缺的学科。不管是在理科，工科，亦或金融学领域，数学都是一个强大的工具，因此数学的学习与教学也至关重要。香港科技大学数学教育学理学硕士项目旨在提升数学教师的知识基础，尤其是中学和课外培训机构的数学老师。香港科技大学数学教育学理学硕士项目不仅能提升数学教师的理论知识基础和教学技能，同时能促进数学教师自身职业发展，更重要的是为社会培养出更优秀的教师团队。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数学分析及其运用1 (Mathematical analysis and its applications I)\n经典和抽象代数 (Classical and abstract algebra)\n代数及其运用 1 (Algebra and its applications I)\n古典和现代几何 (Classical and modern geometry)\n问题解决策略 (Problem solving strategies)\n组合学 (Combinatorics)\n概率和统计 (Probablity and Statistics)\n数学议题 (Topics in Mathematics)\n科学计算 (Scientific computation)",
+  "success_cases": ""
+}

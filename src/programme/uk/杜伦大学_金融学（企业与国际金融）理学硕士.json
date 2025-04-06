@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "金融学（企业与国际金融）理学硕士",
+  "ename": "MSc Finance (Corporate and International Finance)",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 35500英镑/年",
+  "requirements": "金融硕士课程是为应届或近期毕业生设计的，那些已经在金融领域具备实践经验的人也可能对金融硕士课程中的某些方向感兴趣。准候选人必须持有英国一等或2:1荣誉学位或同等学历，不限专业背景，申请者还需要具备很强的定量分析能力，包括微积分和统计学的基本概念。因此，具备大学水平的相关数学/定量课程学习背景或至少达到A level数学（或同等水平）是准候选人的先决条件。",
+  "objectives": "杜伦大学金融学（企业与国际金融）理学硕士项目旨在提供严格的专业性培训，促进学生探讨前沿研究课题，培养学生具备全球雇主高度认可的高级分析能力与专业技术能力。该项目也适合想要继续攻读世界领先学术机构博士学位的学生。该项目已经与英国特许金融分析机构（CFA）建立了合作伙伴关系。英国特许金融分析机构是世界顶级的投资专家协会，是金融市场判断技术是否卓越的公认基准。该项目提供最高标准的课程，保证学生能够从中受益。学生可以参加英国特许金融分析机构举办的全球投资分析比赛和网络活动，也可有机会享受英国特许金融分析机构提供的奖学金。该项目由一系列必修和选修课程组成，学生最终需完成一项实践型商业项目或一篇研究型论文。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级金融理论 (Advanced Financial Theory)\n公司金融 (Corporate Finance)\n国际金融 (International Finance)\n兼并与收购 (Mergers and Acquisitions)\n计量经济学方法 (Econometric Methods)\n金融建模与商业预测 (Financial Modelling and Business Forecasting)\n审计与保险服务 (Auditing and Assurance Services)\n行为金融与经济学 (Behavioural Finance and Economics)\n衍生工具市场 (Derivative Markets)\n金融风险管理 (Financial Risk Management)\n资产组合管理 (Portfolio Management)\n论文 (Dissertation)\n商业实践项目 (Business Project)",
+  "success_cases": ""
+}

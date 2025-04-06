@@ -1,0 +1,12 @@
+{
+  "school_name": "弗吉尼亚理工大学",
+  "major_name": "会计与信息系统硕士",
+  "ename": "Master of Accounting and Information Systems",
+  "tags": "商科,会计",
+  "introduction": "专业方向: 会计\n入学时间: 春季/秋季/夏季\n项目时长: 30学分\n项目学费: 1,740.5美元/学分\n项目规模: 30人人",
+  "requirements": "GPA3.0，若GPA2.75-GPA3.0之间，可能会要求提供GMAT成绩",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

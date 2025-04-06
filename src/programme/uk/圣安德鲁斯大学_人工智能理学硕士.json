@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 29990英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要计算机科学或密切相关专业背景，需要具备编程语言（如Java, C, Python, C或JavaScript）实践经验",
+  "objectives": "圣安德鲁斯大学人工智能理学硕士项目是以研究为主导的高级项目。该项目包括人工智能，旨在开发学生在逻辑、约束编程、语言处理、机器学习及神经网络方面的技能。\n圣安德鲁斯大学人工智能理学硕士项目有以下亮点：\n圣安德鲁斯大学人工智能理学硕士项目是专业项目，但保留了课程的灵活性，除了必修专业模块外，学生可以选择计算机科学的其他领域。\n学生承担重要课题，课题包括广泛调查与大量软件开发，以及最终的论文。这些课题能够帮助他们巩固和扩展专业知识及批判性思维。\n学校设有现代化计算机实验室，实验室配备双屏计算机工作站及小组工作设施。学生有24小时访问现代化计算机实验室的权限。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能实践 (Artificial Intelligence Practice)\n人工智能原理 (Artificial Intelligence Principles:)\n目标导向建模，设计和变成 (Object-Oriented Modelling, Design and Programming)\n约束规划 (Constraint Programming)\n语言与计算 (Language and Computation)\n计算机通讯系统高级课题 (Advanced Topics in Computer Communication Systems)\n数据密集型系统 (Data-Intensive Systems)\n人机交互原理与方法 (Human Computer Interaction Principles and Methods)\n信息可视化 (Information Visualisation)\n知识发现与数据挖掘 (Knowledge Discovery and Datamining)\n软件构架 (Software Architecture)\n计算机绘图 (Computer Graphics)\n并发性与多核构架 (Concurrency and Multi-Core Architectures)\n逻辑与软件验证 (Logic and Software Verification)",
+  "success_cases": ""
+}

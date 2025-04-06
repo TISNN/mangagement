@@ -1,0 +1,12 @@
+{
+  "school_name": "德州农工大学",
+  "major_name": "机械工程理学硕士",
+  "ename": "Master of Science in Mechanical Engineering",
+  "tags": "工科,机械工程",
+  "introduction": "专业方向: 机械工程\n入学时间: 秋季/春季\n项目时长: 1年\n项目学费: 8666.6美元/学期",
+  "requirements": "不接受wes，只需申请系统上传学校官方成绩单",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

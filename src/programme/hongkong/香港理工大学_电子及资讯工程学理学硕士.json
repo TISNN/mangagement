@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "电子及资讯工程学理学硕士",
+  "ename": "MSc Electronic and Information Engineering",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 140000港币/年",
+  "requirements": "具有荣誉学位，需要工程、科学或技术背景，或具有特许工程师（CEng）身份，或具有同等资格\n没有荣誉学位但具有其他相关资格和/或适当工作经验的申请者也将被考虑\n个别情况下学院会根据个案考虑，申请者可能需要参加面试或笔试以进一步证明他们的语言能力",
+  "objectives": "香港理工大学电子及资讯工程学理学硕士学位课程为电子及资讯工程、电机工程、通讯工程、计算器科学和其他相关学科的毕业生提供研究生水平的进修机会。学生可修读多媒体技术、通讯和电子等内容充实丰富的核心科目，装备自己以面对新的挑战和把握新的机遇。学生亦可通过修读为研究专门领域而设的专修学科，从而获得最新的专业知识和技术。负责管理工作的学员更可根据兴趣和职业所需，选修商业或管理方面的学科。\n香港理工大学电子及资讯工程学理学硕士学位课程备有「多媒体信号处理及通讯」的选修专项，为学生提供专门的技术训练，使他们能够迎合有关多媒体科技专业领域的市场需求和商机。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "卫星通信 - 技术与应用 (Satellite Communications - Technology and Applications)\n超大规模集成电路系统设计 (VLSI System Design)\n高级光学通信系统 (Advanced Optical Communication Systems)\n模式识别：理论与应用 (Pattern Recognition: Theory and Applications)\n数字图象处理 (Digital Image Processing)\n视频技术 (Video Technology)\n数据通讯安全 (Security in Data Communication)\n计算智能及其应用  (Computational Intelligence and Its Applications)\n语音处理与识别 (Speech Processing and Recognition)\n数字音频处理 (Digital Audio Processing)\n无线通信 (Wireless Communications)\n无线电能传输技术 (Wireless Power Transfer Technologies)\n物联网 - 工具与应用 (IoT - Tools and Applications)\n传感器网络 (Sensor Networks)\n深度学习与光子学 (Deep Learning with Photonics)\n光子系统分析 (Photonic System Analysis)\n信息光子学 (Information Photonics)\n移动边缘计算 (Mobile Edge Computing)\n车辆通信与网络互联技术 (Vehicular Communications and Inter-Networking Technologies)\n光电设备 (Optoelectronic Devices)\n高级通信系统 (Advanced Telecommunication Systems)\n通信系统应用射频与微波集成电路 (Radio Frequency and Microwave Integrated Circuits for Communication System Applications)\n信道编码 (Channel Coding)\n无线数据网络 (Wireless Data Network)\n大数据计算 (Big Data Computing)",
+  "success_cases": ""
+}

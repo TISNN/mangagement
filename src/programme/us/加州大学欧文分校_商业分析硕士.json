@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学欧文分校",
+  "major_name": "商业分析硕士",
+  "ename": "Master of Science in Business Analytics",
+  "tags": "商科,商业分析",
+  "introduction": "专业方向: 商业分析\n项目类别: STEM\n入学时间: 夏季/秋季\n项目时长: 12个月\n项目学费: 55000美元/年\n项目规模: 104人\n平均成绩: 3.44\n男女比例: 60:40\n就业比例: 90%\n平均起薪: 83200美元",
+  "requirements": "大学毕业后在定量学科的工作或研究经验熟悉计算编程,如c或熟悉计算或风险管理工具有统计和经济应用经验,如SAS, STATA, MATLAB, R, S-Plus熟练使用数学工具,如MATLAB或Mathematica",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

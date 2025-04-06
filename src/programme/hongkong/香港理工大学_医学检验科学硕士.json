@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "医学检验科学硕士",
+  "ename": "Master of Medical Laboratory Science",
+  "tags": "社科,医学,医疗及社会科学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 2年\n项目学费: 314000港币/年",
+  "requirements": "具有知名大学颁发的学士学位，需要理科背景，偏好生物化学、生物科学、生命科学或与健康相关学科\n在入读本专业前已修满下列各门本科课程学分的申请者将获被优先考虑：人体生理学（3学分或同等水平），人体解剖学（3学分或同等水平），实验室技术与仪器（3学分或同等水平），人类生物化学（3学分或同等水平），细胞生物学（3学分或同等水平），人类遗传学（3学分或同等水平），分子生物学（3学分或同等水平），统计学/生物统计学（3学分或同等水平）",
+  "objectives": "香港理工大学医学检验科学硕士项目的目标是使学生成为合格的医学实验室技术人员 (MLT)，负责准确地进行测试、分析结果并为患者诊断和治疗提供基本信息。他们还在维护质量控制、管理实验室设备和数据以及与医疗保健专业人员合作以确保最佳的患者护理方面发挥作用。\n香港理工大学医学检验科学硕士项目的学生被培养为专业和科学医疗保健文献的终身学习者和批判性评估者，使他们能够参与研究、分析各种来源的信息并将其应用于临床实践。凭借强烈的职业承诺感，为毕业生提供高质量的服务，并为 MLT 专业的进步做出贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人体生理学 (Human Physiology)\n人类病理生理学 (Human Pathophysiology)\n临床实验室仪器 (Instrumentation in Clinical Laboratory)\n临床免疫学 (Clinical Immunology)\n临床病毒学 (Clinical Virology)\n医疗保健行业的法律和道德问题 (Legal and Ethical Issues for Healthcare Professions)\n医学检验科学的当前主题 (Current Topics in Medical Laboratory Science)\n医学分子诊断 (Molecular Diagnostics in Medicine)\n医学检验科学生物信息学 (Bioinformatics for Medical Laboratory Science)\n临床实验室分子技术 (Molecular Technology in Clinical Laboratory)\n先进分子诊断技术研讨会 (Workshops on Advanced Molecular Diagnostic Technology)\n顶点项目 (Capstone Project)\n基础细胞病理学 (Basic Cellular Pathology)\n基础临床化学 (Basic Clinical Chemistry)\n基础血液学 (Basic Haematology)",
+  "success_cases": ""
+}

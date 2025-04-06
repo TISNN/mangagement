@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "翻译与人工智能（中文）文学硕士",
+  "ename": "MA Translation and AI (Chinese)",
+  "tags": "社科,语言,文学和语言学院",
+  "introduction": "专业方向: 语言\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 21800英镑/年",
+  "requirements": "具有2:2学位，需要艺术、人文或社会科学（如经济学、管理学、旅游和酒店管理）学科背景，其他学科将由学院根据具体情况予以考虑",
+  "objectives": "萨里大学翻译与人工智能（中文）文学硕士项目提供经验丰富的学者和专业翻译团队的协调指导。学生将模拟现实生活中各种专业下的翻译场景，从而在语言、认知、技术（包括人工智能相关）、职业道德方面打下坚实的基础。本课程主要培养学生掌握快速发展的语言服务行业所需的解决问题、思维分析、语言转换技能，让学生能够在英译中和中译英两个方向上灵活地工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "翻译与口译研究论文 (Translation and Interpreting Studies Dissertation)\n翻译和口译的原则和挑战 (Principles and Challenges of Translation and Interpreting)\n翻译分析II（中译英） (Translation Analysis II (Chinese to English))\n翻译工作坊II（中译英） (Translation Workshop II (Chinese to English))\n翻译分析I（英译中） (Translation Analysis I (English to Chinese))\n翻译工作坊I（英译中） (Translation Workshop I (English to Chinese))\n人机交互翻译学 (Translation as Human-computer Interaction)\n翻译计算思维导论 (Introduction to Computational Thinking for Translators)\n翻译人员写作与润色 (Writing and Rewriting for Translators)\n智能翻译技术 (Smart Technologies Fortranslation)\n创意产业翻译 (Translation for the Creative Industries)",
+  "success_cases": ""
+}

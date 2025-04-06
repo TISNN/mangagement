@@ -1,0 +1,12 @@
+{
+  "school_name": "密歇根大学安娜堡分校",
+  "major_name": "制造业硕士",
+  "ename": "MEng in Manufacturing",
+  "tags": "工科,机械工程",
+  "introduction": "专业方向: 机械工程\n项目类别: STEM\n入学时间: 秋季/冬季\n项目时长: 30学分\n项目学费: 3628美元/学分\n男女比例: F:13%\n就业比例: 85%的毕业生在6个月内找到工作\n平均起薪: 79700美元",
+  "requirements": "1.美本GPA为B（3.0以上）\n2.美国 ABET 认可机构（或国际同等学历）的航空航天工程、化学工程、电气工程、工业工程或机械工程等工程学科的学士学位（不接受技术或工程技术学士学位）。\n3.至少两年的大学工程数学，包括概率和统计学。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

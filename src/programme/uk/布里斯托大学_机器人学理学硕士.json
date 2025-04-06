@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "机器人学理学硕士",
+  "ename": "MSc Robotics",
+  "tags": "工科,计算机,计算机科学、电气与电子工程和工程数学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 35400英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景，所有申请者必须具备C/C、Java、Python、MATLAB或类似的正式编程语言的经验，这可以通过名为C/C、Java、Python或MATLAB的课程来证明。对于不包含所需语言特定课程的学位，申请者必须提供书面编程声明，概述他们在应用程序中使用C/C、Python、Java或MATLAB的经验对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩\n学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们至少具备以下其中一项：\n- 大量（至少一年）机器人相关工作经验的证据；\n- 相关研究生学历\n如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关工作经验和/或资格",
+  "objectives": "布里斯托大学的机器人学理学硕士项目将帮助学生了解、设计和应用现代机器人系统。作为能与人类交互的自主和半自主系统，机器人学在制造业、医疗行业，以及敌对环境的远程探索（如空间和深海）等各个行业中的应用越来越突出。布里斯托大学的机器人学理学硕士项目将使学生有机会接触到广泛的高级工程和计算机科学概念，同时学生也将有机会参与布里斯托机器人实验室的机器人实践项目，该实验室配备了英国综合性最强的机器人创新设施之一。布里斯托大学的机器人学理学硕士项目由布里斯托大学和西英格兰大学联合授课，两所大学都设在布里斯托尔市，因此该项目融合了两所大学共同的专业知识、设施和资源。布里斯托尔机器人实验室是这两所大学的合作研究成果，旨在开拓性地提升最小人力监督智能机器人系统的性能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "机器人系统PG (Robotics Systems PG)\n机器人基础知识（UWE，UFMF4X-15-M） (Robotic Fundamentals (UWE, UFMF4X-15-M))\n机器人与自治系统的技术与背景 (Technology and Context of Robotics and Autonomous Systems)\n机器人技术研究准备 (Robotics Research Preparation)\n图像处理与计算机视觉 (Image Processing and Computer Vision)\n人工智能概论 (Introduction to Artificial Intelligence)\n论文（UWE，UFMED4-60-M） (Dissertation (UWE, UFMED4-60-M))\n智能自适应系统（UFME7K-15-M） (Intelligent Adaptive Systems (UFME7K-15-M))\n人机交互（UWE，UFMFHP-15-M） (Human-Robot Interaction (UWE, UFMFHP-15-M))\n生物启发的人工智能 (Bio-Inspired Artificial Intelligence)\n感官生态 (Sensory Ecology)\n设计验证 (Design Verification)\n先进的DSP和FPGA实现 (Advanced DSP & FPGA Implementation)\n智能系统的不确定性建模 (Uncertainty Modelling for Intelligent Systems)",
+  "success_cases": ""
+}

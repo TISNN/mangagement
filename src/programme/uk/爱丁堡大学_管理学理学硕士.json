@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "管理学理学硕士",
+  "ename": "MSc Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 33100英镑/年",
+  "requirements": "具有英国一等或2:1荣誉学位或同等学历，不限专业背景\n相关的工作经验不是必需的但可能有助于申请",
+  "objectives": "爱丁堡大学管理学理学硕士学位课程将让学生认识的不断变化的商业环境中存在的当代管理问题，并把握住运用这些知识解决实际问题的机会。良好的管理是企业成功的核心，没有它，就没有凝聚力。而没有团队合作，就没有真正的方向感。因此，本课程旨在深入了解成功管理所需的理论和实践技能，并通过这些理论和技能，打造成功企业。这对那些非商业背景（包括工程、科学、社会科学或艺术领域）的人尤其有益。对于那些尚未开始职业生涯的人来说，这与那些希望在已经开始的职业生涯中取得重大进展的人一样有益。爱丁堡管理学理学硕士学位课程将经典管理技术与最新的管理技术相结合，其旨在以实践为导向，通过对现代管理实践的深入了解，补充参与者在商业或本科学习中已经获得的知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "组织行为学 (Organisational Behaviour)\n会计与财务管理 (Accounting and Financial Management)\n营销管理 (Marketing Management)\n创业挑战：企业创建 (The Entrepreneurship Challenge: Creating a New Venture)\n服务管理 (Service Management)\n经济与商业分析 (Economics and Business Analytics)\n定量研究方法 (Quantitative Research Methods)\n市场营销服务 (Marketing of Services)\n公司战略 (Corporate Strategy)\n财务分析 (Financial Analysis)\n营销传播 (Marketing Communications)\n全球金融市场和新兴经济体 (Global Financial Markets and Emerging Economies)\n全球环境下的企业责任与治理 (Corporate Responsibility & Governance in a Global Context)\n就业法 (Employment Law)\n领导力与管理发展 (Leadership and Management Development)",
+  "success_cases": ""
+}

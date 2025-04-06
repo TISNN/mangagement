@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "生命科学理学硕士",
+  "ename": "MSc Life Sciences",
+  "tags": "理科,化学,教育学院",
+  "introduction": "专业方向: 化学\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 47415新币/年",
+  "requirements": "具有理学学士荣誉学位或同等学历，需要相关专业背景；或\n具有理学学士学位或同等学历，需要相关专业背景，并且具备1年专业工作经验。\n应届毕业生无法申请秋季入学",
+  "objectives": "南洋理工大学生命科学理学硕士旨在满足在职教师、理科毕业生或对生命科学感兴趣的专业人士的需求。该课程在可管理课程中进行选择和大规模定制来适应学生之前的教育背景。南洋理工大学生命科学理学硕士计划旨在为教师和理科毕业生提供生命科学领域的专业知识，不仅解决知识基础问题，而且教授所需的必要实验技能。在不牺牲生命科学多学科性质的必要广度和深度的情况下，学生将获得一个高度个性化的学习路线图，在这路线图中学习最新的科学发展，并讨论社会和生物伦理问题。专业方向有：清洁能源物理学，化学，环境生物学",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "科学传播 (Science Communication)\n生物系统化学 (Chemistry of Biological Systems)\n分离和分析化学 (Separation and Analytical Chemistry)\n材料化学 (Materials Chemistry)\n全球能源系统 (Global Energy Systems)\n光伏物理和太阳能电池 (Photovoltaic Physics and Solar Cells)\n核物理和裂变能 (Nuclear Physics and Fission Energy)\n全球环境变化和脆弱生态系统 (Global Environmental Change and Vulnerable Ecosystems)\n生态学进程 (Advances in Ecology )",
+  "success_cases": ""
+}

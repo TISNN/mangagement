@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "网络安全与数据分析理学硕士",
+  "ename": "MSc Cyber Security and Data Analytics",
+  "tags": "理科,数据科学,数字技术研究所",
+  "introduction": "专业方向: 数据科学\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有英国2:2荣誉学位（最后一年成绩达到50%）或同等学历，接受一系列学科背景，包括电子学、物理学、计算机工程、软件工程、计算或数学\n来自其他学科领域（包括商业、管理和社会科学学科）的申请者将根据具体情况予以考虑",
+  "objectives": "我们正被云计算、智能和可穿戴设备、移动网络技术和人工智能等高科技系统所包围，所有这些都使我们能够保持联系，轻松地进行我们的日常活动。这就是为什么本课程旨在培养未来的网络专业人才。传统的网络安全机制在应对不断变化的网络攻击方面的效率越来越低。为了与先进的网络威胁竞争，安全行业和专业人士正在寻求利用人工智能和大数据分析技术来检测和防止看不见的恶意软件和新兴的网络威胁。本课程就是为了掌握大数据分析在网络安全中的应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "合作项目 (Collaborative Project)\n数据科学原理 (Principles of Data Science)\n应用密码学 (Applied Cryptography)\n信息管理 (Information Management)\n网络安全和取证 (Cybersecurity and Forensics)\n数字应用程序开发 (Digital Application Development)\n高级大数据分析  (Advanced Big Data Analytics)\n云应用程序和服务 (Cloud Applications and Services)\n媒体处理 (Media Processing)\n物联网和应用程序 (Internet of Things and Applications)\n信息系统安全 (Information Systems Security)",
+  "success_cases": ""
+}

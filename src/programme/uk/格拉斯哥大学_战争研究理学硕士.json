@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "战争研究理学硕士",
+  "ename": "MSc War Studies",
+  "tags": "社科,国际关系,人文学院",
+  "introduction": "专业方向: 国际关系\n入学时间: 9月\n项目时长: 1年\n项目学费: 25320英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要艺术、人文、法律、政治或国际关系学科背景；学校也将接受其他学科的学位在英国皇家空军、海军或陆军担任军官的工作经验，或在非英国军队中担任同等职务的人将被考虑。海关人员、国防部退休人员和公务员也有资格被考虑",
+  "objectives": "对战争的好坏的理解，对于人们对国家和社会如何发展的理解至关重要。格拉斯哥大学战争研究理学硕士课程为学生提供了从中世纪到今天，从成因，过程到后果等各个方面研究战争和武装冲突的历史，理论和实践的机会。该课程旨在提供具有广度和专业性的知识，并允许学生从多种角度探索战争和武装冲突的历史。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "战争学核心课程 (The war studies core course )\n三门选修课 (Three optional courses )\n论文 (Dissertation )\n中世纪晚期欧洲的骑士精神与战争 (Chivalry and warfare in late medieval europe)\n早期全球化时代的军事苏格兰 (Military scotland in the age of proto-globalization)\n第一次世界大战后的和平与国际关系 (Peace-making and international relations after the first world war)\n美国的战争方式 (The american way of war)\n非殖民化战争与全球冷战的形成 (The wars of decolonization and the making of the global cold war)",
+  "success_cases": ""
+}

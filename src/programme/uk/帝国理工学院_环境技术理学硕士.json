@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "环境技术理学硕士",
+  "ename": "MSc Environmental Technology",
+  "tags": "工科,环境工程,环境政策中心",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33100英镑/年",
+  "requirements": "具有2:1学位，不限专业背景\n优先考虑科学、工程或社会科学学科，但其他学科领域也会被考虑",
+  "objectives": "帝国理工学院环境技术理学硕士学位课程侧重于应用科学知识、政策和工程来解决环境问题和解决可持续性问题。\n帝国理工学院环境技术理学硕士学位课程具有跨学科性质，学生将获得各种特定学科的问题解决框架，以解决当代环境问题，同时以真正的跨学科方式将自然科学和社会科学与工程和医学相结合。\n帝国理工学院环境技术理学硕士学位课程的一个主要重点是环境的运作方式以及可持续环境管理的兼容工具、替代技术和政策。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "核心环境技术 (Core Environmental Technology)\n研究项目 (Research Project )\n商业和环境 (Business and the Environment)\n能源政策 (Energy Policy)\n环境资源管理 (Environmental Resource Management)\n环境分析和管理 (Environmental Analysis and Management)\n环境经济和政策 (Environmental Economics and Policy)\n全球环境变化与政策 (Global Environmental Change and Policy)\n综合水管理 (Integrated Water Management)\n城市可持续环境 (Urban Sustainable Environments)",
+  "success_cases": ""
+}

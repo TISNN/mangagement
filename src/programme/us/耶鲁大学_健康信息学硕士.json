@@ -1,0 +1,12 @@
+{
+  "school_name": "耶鲁大学",
+  "major_name": "健康信息学硕士",
+  "ename": "MS in Health Informatics",
+  "tags": "社科,公共卫生",
+  "introduction": "专业方向: 公共卫生\n项目类别: STEM\n入学时间: 秋季\n项目时长: 两年\n项目学费: 46,900美元/年",
+  "requirements": "申请人通常应拥有健康、计算机科学或数学/统计学的本科学位。 拥有硕士学位或其他相关学位的学生可以被允许注册额外的选修课程来代替必修课程，如果他们能够证明他们已经精通必修课程。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

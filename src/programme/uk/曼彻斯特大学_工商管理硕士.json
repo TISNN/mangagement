@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 32667英镑/年",
+  "requirements": "具有良好的本科学位或同等学历（通常需要达到一等或2:1，班级排名前25%），不限专业背景\n毕业后具备至少3年工作经验，并有稳定的职业发展和成就\n需要提交令人满意的GMAT或GRE\n需要提交2篇Essay",
+  "objectives": "曼彻斯特工商管理硕士课程将培养出富有创造力、弹性和社会责任感的毕业生，他们将在技术时代茁壮成长。学生将学会驾驭不确定性，并自信地接受复杂的挑战。\n曼彻斯特工商管理硕士课程将培养学生的批判性思维、创造力和信心，提高学生的合作和沟通技巧，学习驾驭不确定的、复杂的情况，提高学生的抗压能力",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球环境下的领导和管理 (Leading and Managing in a Global Environment)\n商务会计和金融 (Business Accounting and Finance)\n策略和竞争 (Strategy and Competition)\n运营和市场营销 (Operations and Marketing)\n探索管理和商务练习 (Exploring Management & Business Practice)\n非盈利咨询项目 (Not-for-Profit Consultancy Project)\n合并和收购项目 (Mergers & Acquisitions Project)\n商业咨询项目 (Commercial Business Consultancy Project)\n国际商务咨询项目 (International Business Consultancy Project)\n高级战略管理 (Advanced Strategic Management)\n大数据分析 (Big Data Analytics)\n企业对企业营销 (Business-to-Business Marketing)\n当代中国商业 (Contemporary Chinese Business)\n公司转型和财务重组 (Corporate Turnaround and Finance Restructuring)\n电子经济 (Digital Economy)",
+  "success_cases": ""
+}

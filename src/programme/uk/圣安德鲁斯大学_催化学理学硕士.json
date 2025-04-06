@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "催化学理学硕士",
+  "ename": "MSc Catalysis",
+  "tags": "理科,化学,化学学院",
+  "introduction": "专业方向: 化学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29990英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要化学或密切相关学科背景",
+  "objectives": "圣安德鲁斯大学催化学理学硕士课程培养学生的现代催化学的高级知识和技能，使学生有能力为自己的论文承担重要的研究项目。催化学理学硕士课程旨在介绍催化作用在提高可持续性和解决化学制造中的环境问题的作用。催化学理学硕士课程结合工业和学术界的影响，帮助学生理解催化学，学生将学习催化学的主要分支，包括均匀和非均匀催化、有机催化、生物催化、不对称催化和配体设计。学生可以将自己所学的技能运用于一个简短、密集的项目。这一以研究为主导的教学内容符合圣安德鲁斯大学的研究期望。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "当代研究意识 (Contemporary Research Awareness )\n 均相催化 (Homogeneous Catalysis)\n硕士文献综述 (Literature Review for MSc)\n化学研究技巧 (Research Skills in Chemistry)\n表面科学与多相催化 (Surface Science and Heterogeneous Catalysis)\n高级金属科学 (Advanced Metal Chemistry)\n不对称合成 (Asymmetric Synthesis)\n杂环和周环化学 (Heterocyclic and Pericyclic Chemistry)",
+  "success_cases": ""
+}

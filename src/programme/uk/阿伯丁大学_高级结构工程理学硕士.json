@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "高级结构工程理学硕士",
+  "ename": "MSc Advanced Structural Engineering",
+  "tags": "工科,土木工程,工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要土木、机械、汽车、航空航天、能源或结构工程背景\n学校也可能会考虑具有相关工程学科2:2荣誉学位并且能够展示至少2年相关行业经验以及强烈动机的申请者",
+  "objectives": "阿伯丁大学高级结构工程理学硕士项目旨在培养下一代结构工程专业人员，使他们能够在建筑、航空航天、汽车、可再生能源、石油和天然气等广泛的工业领域应用他们的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级复合材料 (Advanced Composite Materials)\n结构振动 (Structural Vibrations )\n海上结构设计 (Offshore Structural Design)\n火灾与爆炸工程 (Fire and Explosion Engineering)\n计算流体动力学 (Computational Fluid Dynamics)\n数学优化 (Mathematical Optimisation)\n轻量级结构 (Lightweight Structures)\n隔水管系统与流体动力学 (Riser Systems and Hydrodynamics)\n工程风险与可靠性分析 (Engineering Risk and Reliability Analysis)\n有限元法 (Finite Element Methods)\n高级结构工程个人工程 (Advanced Structural Engineering Individual Project)",
+  "success_cases": ""
+}

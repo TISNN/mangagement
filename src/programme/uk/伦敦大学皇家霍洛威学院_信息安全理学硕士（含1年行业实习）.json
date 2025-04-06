@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "信息安全理学硕士（含1年行业实习）",
+  "ename": "MSc Information Security with a Year in Industry",
+  "tags": "工科,计算机,信息安全学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 2年\n项目学费: 17100英镑/年",
+  "requirements": "",
+  "objectives": "我们所处时代的特征之一就是电子数据的大量创建、传输和存储。尽管相关技术为我们带来了无尽的好处，但同时它们也使我们面临着许多威胁，需要网络安全专家的专业技能和经验来解决。伦敦大学皇家霍洛威学院信息安全理学硕士（含1年行业实习）项目为期两年，旨在为学生加入快速发展的信息安全领域做准备，学习所需的知识和技能。学生可以获得在专业团队工作的第一手经验，并将学术研究应用于解决现实世界的问题中。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "安全管理 (Security Management)\n密码学和安全机制简介 (Introduction to Cryptography and Security Mechanisms)\n项目 (Project)\n网络安全 (Network Security)\n计算机安全（操作系统） (Computer Security (Operating Systems))\n安全技术 (Security Technologies)\n安全业务架构 (Secure Business Architectures)\n信息安全的法律和法规方面 (Legal and Regulatory Aspects of Information Security)\n网络犯罪 (Cyber Crime)\n智能卡，RFID和嵌入式系统安全 (Smart Cards, RFIDs and Embedded Systems Security)\n软件安全性 (Software Security)\n数字取证 (Digital Forensics)\n安全测试 (Security Testing)\n网络安全 (Cyber Security)\n安全和隐私的人为方面 (Human Aspects of Security and Privacy)",
+  "success_cases": ""
+}

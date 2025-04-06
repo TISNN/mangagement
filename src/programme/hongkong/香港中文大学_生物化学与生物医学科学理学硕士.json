@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "生物化学与生物医学科学理学硕士",
+  "ename": "MSc Biochemical and Biomedical Sciences",
+  "tags": "工科,生物工程,理学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 157500港币/年",
+  "requirements": "具有认可大学获得的科学、医学或工程学科学士学位；或\n已在高等教育机构完成相当于学士学位的学习课程并具备大量相关专业工作经验。\n需要提供B等级证明",
+  "objectives": "香港中文大学生化科学是研究生物体内化学成分和化学过程本质的学科。生化科学强调以综合的、跨学科的研究方法来解开生命之谜。生化科学已经发展成为理解生物医学现象所需的基础背景知识。生物化学与临床医学的紧密联系以外，随着生物技术和基因技术的出现，生化科学也已在农业、转基因行业、以及药用和诊断传感器生产行业中得到新的应用。香港中文大学生命科学学院为学生提供研究生阶段最高水准的生物化学课程内容。学生在毕业时将具备批判性思维、积极负责的态度和有效的沟通技巧。同时，学生还将获得生化研究领域的专门训练，掌握最新的生化技术，并在生物化学领域打下扎实的知识基础。香港中文大学生物化学及生物医学科学理学硕士项目的培养目的如下：增强和更新学生在生物化学和生物医学领域的知识，为学生提供生物化学和生物医学方面顶尖技术与前沿研究方法的全面训练，培养学生研究、分析、创新思维的能力和理论联系实际的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生化科学视角解读 (Perspectives in Biochemical Sciences)\n生化遗传学、法医学 (Biochemical Genetics and Forensic Sciences)\n临床生物化学与疾病 (Clinical Biochemistry and Diseases)\n生化研究方法 (Methods in Biochemistry)\n生化技术（一） (Biochemical Technology I)\n生化技术（二） (Biochemical Technology II)\n生物化学与公共卫生 (Biochemistry and Public Health)\n硕士课题研究 (M.Sc. project)\n生化实验室管理与认证 (Management and Accreditation of Biochemical Laboratory)",
+  "success_cases": ""
+}

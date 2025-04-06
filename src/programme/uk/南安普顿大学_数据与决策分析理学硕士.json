@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "数据与决策分析理学硕士",
+  "ename": "MSc Data and Decision Analytics",
+  "tags": "理科,数据科学,数学科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 25400英镑/年",
+  "requirements": "具有2:1学位，需要定量学科背景（数学含量高），必须在数学课程和编程课程中取得高分",
+  "objectives": "南安普顿大学数据与决策分析理学硕士项目旨在帮助学生掌握数学建模、统计分析和计算等技能，帮助他们在数据的基础上做出更好的决策，并为在商业公司或公共部门从事各种各样职业做好准备。该项目旨在提供广泛的分析技能和软技能训练，为未来的职业生涯做准备，同时也为学生继续攻读运筹学、统计学或数据科学等专业的博士学位夯实基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用统计建模 (Applied Statistical Modelling)\n数据科学家的决定论或方法 (Deterministic OR Methods for Data Scientists)\nPython导论 (Introduction to Python)\n展示报告 (Presenting Reports)\n数据科学家的统计计算 (Statistical Computing for Data Scientists)\n数据科学家的统计理论 (Statistical Theory for Data Scientists)\n数据科学家的随机和方法 (Stochastic OR Methods for Data Scientists)\n分析咨询技巧 (Analytical Consultancy Skills)\n贝叶斯方法 (Bayesian Methods)\n数据分析 (Data Analytics)\n数据可视化 (Data Visualisation)\n金融投资组合理论 (Financial Portfolio Theory)\n预测 (Forecasting)\n生存分析 (Survival Analysis)\n项目 (Project)",
+  "success_cases": ""
+}

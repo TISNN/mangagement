@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "精算学与保险分析理学硕士",
+  "ename": "MSc Actuarial Science and Insurance Analytics",
+  "tags": "商科,金工金数,商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 330000港币/年",
+  "requirements": "具有认可大学颁发的学士学位或同等专业资格，通常达到二等荣誉学位或平均成绩不低于B不强制要求GMAT/GRE，但良好的GMAT/GRE成绩将有助于申请申请者应该参加并通过至少1门大学水平的微积分、概率、统计学或受认可的同等课程",
+  "objectives": "香港中文大学精算学与保险分析硕士是一项全日制硕士课程，旨在培养高素质的精算师，以满足亚洲日益增长的需求，帮助学生培养适用于保险公司、银行、金融机构、 或保险科技初创企业的适应各种精算或分析角色的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "精算师经济学 (Economics for Actuaries)\n会计与公司财务 (Accounting and Corporate Finance)\n概率在金融与保险中的应用   (Probability with Applications in Finance and Insurance)\n精算师金融数学 (Financial Mathematics for Actuaries)\n风险模型统计 (Statistics for Risk Modelling)\n长期保险精算数学 (Actuarial Mathematics for Long-Term Insurance)\n短期保险精算数学   (Actuarial Mathematics for Short-Term Insurance)\n精算师衍生产品 (Derivatives for Actuaries)\n保险分析数据科学 (Data Science for Insurance Analytics)\n保险分析统计模型 (Statistical Modelling for Insurance Analytics)\n保险与风险管理 (Insurance and Risk Management)\n人寿保险 (Life Insurance)\n责任与公司财产保险 (Liability and Corporate Property Insurance)\n高等寿险精算 (Advanced Life Contingencies)\n损失与生存模型 (Loss and Survival Models)",
+  "success_cases": ""
+}

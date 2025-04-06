@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "地理空间数据科学与建模理学硕士",
+  "ename": "MSc Geospatial Data Science & Modelling",
+  "tags": "工科,地球科学,地理和地球科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1或同等学位，需要相关领域背景如地理、地球或环境科学，该课程要求具备一定的基本数学能力，并建议通过苏格兰高等教育、GCE A Level/IB或达到同等数学水平。会大量使用计算机和信息技术，但没有特定的录取要求\n学校可能考虑具有high 2:2学位的申请者\n没有标准学历，或在相关工作中具有丰富实践经验的具有地理信息技术资格的申请者，将根据个人情况予以考虑",
+  "objectives": "格拉斯哥大学地理空间数据科学与建模理学硕士项目将为学生提供专业的地理空间、分析、编程和建模技能，这些技能可应用于广泛领域的数据。学生将获得实践经验并获得对地理空间统计的实际了解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "环境分析统计概论 (Introduction to Statistics for Environmental Analysis)\nGES PGT 的学术和专业技能 (Academic and Professional Skills for Ges Pgt)\nGIS 原理 (Principles of Gis)\nGES_空间数据分析 (Ges_spatial Data Analytics)\n地球动力学数值基础 (Numerical Foundations of Geodynamics)\n地理空间基础知识 (Geospatial Fundamentals)\n水环境建模 (Modelling Water Environments)\n地形建模和景观监测 (Topographic Modelling and Landscape Monitoring)\n地球系统问题的机器学习应用 (Machine Learning Applications for Earth Systems Problems)\n景观演化建模 (Modelling of Landscape Evolution)\nGES_固体地球动力学数值模拟 (Ges_numerical Modelling of Solid Earth Dynamics)\n应用地理信息系统 (Applied Gis)\n环境遥感 (Remote Sensing of the Environment)\n地理空间数据基础设施和土地管理 (Geospatial Data Infrastructures and Land Administration)\n网络和移动地图绘制 (Web and Mobile Mapping)",
+  "success_cases": ""
+}

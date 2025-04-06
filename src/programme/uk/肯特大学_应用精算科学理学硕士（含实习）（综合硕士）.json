@@ -1,0 +1,12 @@
+{
+  "school_name": "肯特大学",
+  "major_name": "应用精算科学理学硕士（含实习）（综合硕士）",
+  "ename": "MSc Applied Actuarial Science with Placement (Integrated Master's)",
+  "tags": "商科,金工金数,数学、统计学与精算科学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 3年\n项目学费: 24700英镑/年",
+  "requirements": "具有良好的第一学位，通常需要数学、统计学、经济学或物理学背景（或其他以数学为基础的学位），尽管具备良好非数学学位和数学A-level成绩（或同等学历）的申请者也将被考虑\n所有申请者都将根据具体情况予以考虑，其他资格、专业资格和相关经验也可能被考虑在内",
+  "objectives": "精算师资格是进入保险公司、投资、养老金、医疗保健和银行等各种职业的通行证——不仅在英国，而且在全世界，肯特大学应用精算科学理学硕士课程已经获得精算师协会和精算师学院的全面认证，相当于可跨申的精算学理学硕士，然后再获得为期一年的应用精算科学理学硕士。该课程的行业实习可以在英国或海外进行，不保证每个学生都能找到工作，那些没有获得实习的人将被转入不包含实习的硕士课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "精算科学概率与统计 (Probability and Statistics for Actuarial Science)\n金融数学 (Financial Mathematics)\n精算风险模型 (Actuarial Risk Modelling)\n金融经济学与衍生品 (Financial Economics and Derivatives)\n 精算数学 (Actuarial Mathematics)\n精算师统计建模 (Statistical Modelling for Actuaries)\n数据建模与咨询 (Data Modelling and Consultancy)\n精算师公司财务 (Corporate Finance for Actuaries)\n精算师经济学 (Economics for Actuaries)\n核心精算实践 1 (Core Actuarial Practice 1)\n核心精算实践 2 (Core Actuarial Practice 2)\n专业精算实践 (Specialist Actuarial Practice)\n时间序列预测算法建模概论 (Introduction to PROPHET Modelling)\n专业技能 (Professional Skills)\n建模实践 (Modelling Practice)\n贝叶斯机器学习 (Bayesian Machine Learning)\n人寿保险 (Life Insurance)\n投资与金融 (Investment and Finance)\n一般保险准备金与资本模型 (General Insurance Reserving and Capital Modelling)\n一般保险定价 (General Insurance Pricing)\n企业风险管理 ( Enterprise Risk Management)",
+  "success_cases": ""
+}

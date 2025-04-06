@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "数字营销理学硕士",
+  "ename": "MSc Digital Marketing",
+  "tags": "商科,市场营销,数字技术研究所",
+  "introduction": "专业方向: 市场营销\n入学时间: 1/10月\n项目时长: 1年\n项目学费: 30950英镑/年",
+  "requirements": "具有英国2:2荣誉学位（最后一年成绩达到50%）或同等学历，不限专业背景",
+  "objectives": "我们生活在一个人与物通过高速互联网连接在一起的世界。因此各组织希望利用这种连通性的性质，借助日益强大的数字化，使他们能够在向消费者提供产品和服务方面获得竞争优势，从而享受着不断增长的利润。这也给了我们这个数字营销硕士项目开设的契机。本课程将助你全面的理解数字技术和营销原则，使你能够以最有效的方式应对复杂的挑战。灵活的课程安排也可以让你选择自己感兴趣的课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "合作项目 (Collaborative Project)\n战略营销和管理 (Strategic Marketing and Management)\n用于市场分析的数字技术 (Digital Technologies for Market Analysis)\n客户互动数字实践 (Digital Practices for Customer Engagement)\n数码行业的设计实践 (Design Practices in Digital Industries)\n数字媒体的受众和市场 (Digital Media Audiences and Markets)\n数据科学原理 (Principles of Data Science)\n信息管理 (Information Management)\n高级大数据分析  (Advanced Big Data Analytics)\n国际营销 (International Marketing)\n战略和规划 (Strategy and Planning)",
+  "success_cases": ""
+}

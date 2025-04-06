@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "管理学理学硕士",
+  "ename": "MSc Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 44000英镑/年",
+  "requirements": "具有一等或2:1学位，不限专业背景\n如果申请者能提供良好的量化成绩证明，强烈建议但不强制要求申请者提交GMAT或GRE，GMAT百分位排名至少需要达到55%，如果参加了GMAT Exam (10th Edition)成绩需要至少达到600（当前平均分为666）\n具备GRE成绩（定量部分159分）也将有助于申请，强烈建议定量背景较弱的申请者提交GMAT或GRE\n该课程专为工作经验不超过2年的近期毕业生设计，强烈建议申请者具备相关实习和工作经验\n需要有一个经过充分研究的职业规划，包含明确的短期和长期目标",
+  "objectives": "帝国理工学院管理理学硕士项目旨在为应届毕业生在管理方面的广泛职业做准备，如咨询和金融服务。该课程内容让学生找到解决现实世界商业挑战的方法，并涵盖在动荡环境中管理所需的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计 (Accounting)\n商业经济 (Business Economics)\n公司金融 (Corporate Finance)\n全球运营和项目 (Global Operations and Projects)\n创新管理 (Innovation Management)\n营销决策 (Marketing Decisions)\n组织行为 (Organisational Behaviour)\n战略管理 (Strategic Management)\n创业精神 (Entrepreneurship)\n高级公司金融 (Advanced Corporate Finance)\n商业分析 (Business Analytics)\n创新设计思维 (Design Thinking for Innovation)\n消费者行为 (Consumer Behaviour)",
+  "success_cases": ""
+}

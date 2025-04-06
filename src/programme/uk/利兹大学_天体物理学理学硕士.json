@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "天体物理学理学硕士",
+  "ename": "MSc Astrophysics",
+  "tags": "理科,物理,物理与天文学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要物理学或相关学科（如地球物理学、自然科学或数学）背景\n满足以下其中一项的申请者可能会基于具体情况被考虑：\n- 具有工程学位，并且在以下至少两个领域具备很强的背景：天体物理学、量子物理学、生物物理学、软物质或凝聚态物质\n- 具有化学学位，并且具备很强的数学背景\n需要ATAS认证",
+  "objectives": "我们的天体物理学硕士学位不仅为您提供天体物理学概念的广泛基础，还为您提供观测天文学、数据分析和数字模拟的实用技能。现代天体物理学也是一个高度协作的领域，通常有大型团队处理来自望远镜或详细天体物理模拟的庞大数据集。\n交流高水平的科学概念、团队合作和展示您的研究是您在我们这里学习的核心部分。我们的目标是将您培养成一名全面发展、适应性强的科学家，同样有能力进一步研究天体物理学或将您的技能应用于工业。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "恒星和行星的形成 (Star and Planet Formation)\n宇宙学 (Cosmology)\n广义相对论 (General Relativity )\n风、气泡和爆炸 (Winds, Bubbles and Explosions)\n系外行星系统 (Exoplanetary Systems)\n天体物理学研究技能 (Research Skills in Astrophysics)\n当前物理学研究主题 (Current Research Topics in Physics)\n理学硕士研究项目 (MSc Research Project)",
+  "success_cases": ""
+}

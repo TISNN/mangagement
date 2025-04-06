@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,工商管理学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 8月\n项目时长: 2年\n项目学费: 102000澳门币/年",
+  "requirements": "申请人必须持有任何本科学习领域的认可机构的学士学位。具有至少3年的全职工作经验。如有必要，可能要求申请人提供证明全职工作经验的文件。申请人可以向学校提供GMAT或GRE成绩作为参考",
+  "objectives": "澳门大学的工商管理硕士课程（MBA）由来自世界各地的合格教师提供。我们的MBA课程旨在为希望从业人员提供实用的技能和专业知识以增强其未来职业的商业从业者，提供针对性强的商业管理计划。核心课程包括成功担任经理所必需的技能，知识和发展活动，并辅以来自各个商业学科的广泛选修课。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计 (Accounting)\n管理信息系统 (Management Information Systems)\n管理金融学 (Managerial Finance)\n市场营销管理 (Marketing Management)\n组织行为 (Organizational Behavior)\n战略管理 (Strategic Management)\n商业道德 (Business Ethics)\n项目报告 (Project Report)\n买方行为 (Buyer Behavior)\n全球业务 (Global Business)\n人力资源管理 (Human Resources Management)\n服务操作 (Service Operations)\n市场营销研究进展 (Advances in Marketing Studies)",
+  "success_cases": ""
+}

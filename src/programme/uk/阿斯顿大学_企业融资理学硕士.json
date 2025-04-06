@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "企业融资理学硕士",
+  "ename": "MSc Corporate Finance",
+  "tags": "商科,金融,阿斯顿商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 23500英镑/年",
+  "requirements": "鼓励具有经济、工程、金融、数学、统计学或相关学科背景的申请者。如果没有相关学位，需要证明本科期间学习过数学或统计学，并且达到50%的分数。雅思总分6.5（小分一项不低于5.5，其它项不低于6.0）PTE总分67（小分一项不低于59，其它项不低于64）",
+  "objectives": "阿斯顿大学企业融资理学硕士项目旨在帮助学生为在金融行业的最高水平上取得优异成绩做好准备。这门雄心勃勃的课程让您沉浸在公司财务的复杂理论、框架和模型中，使学生能够解决具有挑战性的财务决策，并评估其在各种市场变量和风险中对公司价值的影响。该计划将理论知识与实践经验相结合，使学生能够在我们的专用交易室中使用实时金融数据和行业领先的软件进行实践工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级企业财务 (Advanced Corporate Finance)\n金融市场和技术基础 (Foundations of Financial Market and Technology)\n财务报表分析 (Financial Statement Analysis)\n高级企业估值 (Advanced Corporate Valuation)\n企业风险管理 (Corporate Risk Management)\n道德、治理和监管 (Ethics, Governance and Regulation)\n阿斯顿全球优势 (The Aston Global Advantage)\n学术实践中的道德规范 (Ethics in Academic Practice)\n财务管理 (Treasury Management)\n私募股权和风险投资 (Private Equity and Venture Capital)\n国际金融 (International Finance)\n衍生品 (Derivatives)\n金融编程 (Python for Finance)",
+  "success_cases": ""
+}

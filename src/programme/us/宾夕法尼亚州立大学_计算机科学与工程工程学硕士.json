@@ -1,0 +1,12 @@
+{
+  "school_name": "宾夕法尼亚州立大学",
+  "major_name": "计算机科学与工程工程学硕士",
+  "ename": "MEng in Computer Science and Engineering",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1年\n项目学费: 43,260美元/学年",
+  "requirements": "GPA3.0，电气工程或相关领域的学士学位",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

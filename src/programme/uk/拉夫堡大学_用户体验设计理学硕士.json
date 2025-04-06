@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "用户体验设计理学硕士",
+  "ename": "MSc User Experience Design",
+  "tags": "社科,艺术,设计学院",
+  "introduction": "专业方向: 艺术\n入学时间: 10月\n项目时长: 1年\n项目学费: 30950英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，学校考虑来自与用户体验设计相关的一系列学科背景的学生（包括艺术与设计、计算机科学、媒体、心理学、商业）\n具有设计相关的背景都应提供1份作品集，能够展示与MSc User Experience Design相关的工作示例，长度10页左右\n如果申请者的学位/背景意味着其没有作品集，则个人陈述必须解释申请者对用户体验设计的兴趣，以及为什么想学习MSc User Experience Design课程",
+  "objectives": "本课程将培养您对交互设计、用户体验(UX)设计和服务设计中的主要问题的批判性认识，从而提高您作为行业内以用户为中心的设计师的效率。 本课程的内容使您能够发展您的技能和能力，以及在创造性和分析方面的用户体验，同时使学生能够胜任各种各样的项目。 包括在现实世界中设计嵌入数字的体验，或使用新的和新兴的技术，如人工智能(AI)和增强现实(AR)。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计行为改变 (Design for Behaviour Change)\n设计研究方法 (Design Research Methods)\n体验设计 (Experience Design)\n可用性原则和实践 (Usability, Principles and Practice)\n工业项目 (Industry Project)\n社会创新的服务设计 (Service Design for Social Innovation)\n用户体验设计的主要项目 (User Experience Design Major Project)",
+  "success_cases": ""
+}

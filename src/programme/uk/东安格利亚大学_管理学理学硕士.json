@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "管理学理学硕士",
+  "ename": "MSc Management",
+  "tags": "商科,管理,诺维奇商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 24300英镑/年",
+  "requirements": "具有英国2:1学士学位或同等学历，需要商业、管理、会计、金融、数学、经济、工程或定量学科背景或以上专业背景的组合",
+  "objectives": "学生有没有思考过学生了解什么，不了解什么，并想要更进一步学习呢？东安格利亚大学管理学理学硕士学位课程为学生提供了完善所学以及规划职业生涯的机会。在东安格利亚大学管理学理学硕士学位课程中，学生将掌握专业学科知识，并将其运用于工作或学术中，这意味着学生拥有职场必备的研究技能及可转换技能。学生还将获得有关金融、公司治理、市场营销、创新和组织行为等不同管理领域的先进知识。论文导师是学生所选专题内的专家，将全程指导学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级财务管理 (Advances in Financial Management)\n商业监管和企业管治 (Business Regulation and Corporate Governance)\n市场营销理论和时间 (Marketing Theory and Practice)\n提供高绩效 (Delivering High Performance)\n创新和技术管理 (Innovation and Technology Management)\n商业研究方法 (Business Research Methods)\n高级管理论文 (Advanced Management Dissertation)",
+  "success_cases": ""
+}

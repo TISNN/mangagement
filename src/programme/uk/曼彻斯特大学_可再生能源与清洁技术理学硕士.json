@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "可再生能源与清洁技术理学硕士",
+  "ename": "MSc Renewable Energy and Clean Technology",
+  "tags": "工科,能源,电气与电子工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "要求具有good 2:1荣誉学位或同等学历，需要以下任一背景：电气和电子工程、机械工程、工程学、物理学或同等科学学科（包含大量数学和工程内容）背景，其他学科领域背景（例如经济学、环境科学、金融学、商学）可能根据其数值分析和建模内容的水平逐案考虑\n具备替代资格以及适当行业经验的申请者将会被考虑\n在评估申请者的学习成绩时，学校会考虑其平均成绩（尤其相关课程单元）和所就读院校的地位\n申请者如果是在读生，需要提供最后一年学习的所有课程的正式列表",
+  "objectives": "曼彻斯特大学可再生能源与清洁技术理学硕士学位课程使学生详细了解主要可再生能源发电技术及影响技术开发的因素。\n在曼彻斯特大学可再生能源与清洁技术理学硕士学位课程的学习中，学生将理解太阳能、风能与海洋能技术的原理，了解可再生能源的有效分配及其在零碳基础设施中的综合使用，解决影响可再生能源选择的经济和环境议题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n智能电网与可持续电力系统 (Smart Grids & Sustainable Electricity Systems)\n研究与工业技术 (Techniques for Research and Industry)\n电力系统概论 (Introduction to Power Systems)\n连接清洁能源系统 (Interfacing clean energy systems)\n将能源理解为驱动现代社会的“系统” (Understanding Energy as a 'system' driving modern society)\n太阳能技术 (Solar Energy Technologies)\n零碳建筑基础设施 (Zero Carbon Built Infrastructure)\n海洋能源：风，浪和潮汐 (Marine Energy: Wind, Wave & Tidal)",
+  "success_cases": ""
+}

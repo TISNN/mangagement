@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "供应链管理理学硕士",
+  "ename": "MSc Supply Chain Management",
+  "tags": "商科,供应链管理,商学院",
+  "introduction": "专业方向: 供应链管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 34930英镑/年",
+  "requirements": "具有英国大学（或海外同等机构）颁发的荣誉学位（2:1或更高水平）或研究生文凭，不限专业背景\n相关经验不是严格的要求但将有助于申请",
+  "objectives": "如今，人们越来越依赖供应链来满足我们的每一个需求。它们必须在面对意想不到的变化和变革时具有弹性，以应对新的范式转变和技术，同时也要以负责任和可持续的方式进行管理，要实现这一目标，供应链专家和领导者需要具备特定的知识和技能来为未来做好准备。伯明翰大学供应链管理理学硕士课程正试图做到这一点，该课程由行业专家设计，旨在帮助学生在职业生涯中取得成功，并在未来的供应链管理中发挥关键和转型作用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "运营与供应链管理 (Operations and Supply Chain Management)\n构建可持续、诚信尽责以及有复原力的供应链 (Building Sustainable, Ethical and Resilient Supply Chains)\n采购、合同与供应商管理 (Procurement, Contracting and Supplier Management)\n数字化转型与供应链分析 (Digital Transformation and Supply Chain Analytics)\n供应链设计与绩效管理 (Supply Chain Design and Performance Management)\n供应链管理研究与分析 (Research and Analysis in Supply Chain Management)\n全球供应链与国际风险管理 (Global Supply Chains and International Risk Management)\n供应链技术与创新 ( Supply Chain Technology and Innovation)\n研究项目论文或公司项目 (Research Project Dissertation OR Company Project)",
+  "success_cases": ""
+}

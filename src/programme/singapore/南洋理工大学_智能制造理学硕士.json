@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "智能制造理学硕士",
+  "ename": "MSc Smart Manufacturing",
+  "tags": "工科,工业工程,机械与航空航天工程学院",
+  "introduction": "专业方向: 工业工程\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 52974新币/年",
+  "requirements": "具有良好的学士学位，需要机械或工业工程或相关学科背景并受过数学和生产方面的培训；或\n具有学士学位，需要工程或相关学科背景并受过数学训练，同时具备2年相关行业经验。\n相关学科包括但不限于南洋理工大学工程学院提供的学士学位课程",
+  "objectives": "智能制造理学硕士项目旨在以先进制造为关键课程来满足制造业的需求，课程为毕业生提供了一套在全球范围内管理制造业务的技能，包括适用于制造系统的方法论和流程。该硕士项目课程是为在制造业就业或寻求就业的工业工程师、主管和技术人员量身定做的。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生产控制与自动化 (Manufacturing Control and Automation)\n增材制造的基础与进展 (Fundamentals and Advances in Additive Manufacturing)\n智能工业中的激光与光学 (​Lasers and Optics in Smart Industry)\n全球制造管理 (Management of Global Manufacturing)\n系统工程基础 (Systems Engineering Fundamentals)\n先进制造工艺 (Advanced Manufacturing Processes)\n精密工程基础 (Fundamentals of Precision Engineering)\n高等可制造性设计 (Advanced Design for Manufacturing)\n机器学习与数据科学 (Machine Learning and Data Science)\n电子产品3D打印 (3D Printing of Electronics)\n循环经济中的制造业：工艺、技术与设计 (Manufacturing in the Circular Economy: Processes, Technologies and Design)\n系统仿真与建模 (Systems Simulation & Modeling)\n工程测量 (Engineering Measurements)\n工程计算方法 (Computational Methods in Engineering)",
+  "success_cases": ""
+}

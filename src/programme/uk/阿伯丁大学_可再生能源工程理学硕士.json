@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "可再生能源工程理学硕士",
+  "ename": "MSc Renewable Energy Engineering",
+  "tags": "工科,能源,工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要工程、物理、数学或化学任意分支专业背景\n学校也可能考虑具有2:2学位以及2年以上相关经验的学生\n学习背景必须涵盖的重点科目：数学\n需要申请ATAS",
+  "objectives": "随着各国政府和企业寻求能源多样化，减少碳排放，对可再生能源工程师的需求预计将继续增长。阿伯丁大学可再生能源工程理学硕士课程旨在教授设计、建造和优化未来可再生能源基础设施所需的高级技能。为学生提供所有主要可再生能源的详细知识，以及与之相关的工程技能，包括地热，太阳能，生物质能，水力，海洋和风能。此外，还有涵盖与可再生能源有关的立法、计划和经济考虑以及将可再生能源整合到电网中的课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "可再生工程电气系统 (Electrical Systems for Renewable Engineering)\n地热能与水能 (Geothermal and Hydro Energy)\n生物质能源 (Energy from Biomass)\n地热能与太阳能 (Geothermal and Solar Energy)\n海洋能与风能 (Marine and Wind Energy)\n能量转换与储存 (Energy Conversion and Storage)\n可再生能源整合到电网 (Renewable Energy Integration to Grid)\n立法、经济与安全 (Legislation, Economics and Safety)\n个人项目（可再生能源） (Individual Project (Renewable Energy))",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "精算管理理学硕士",
+  "ename": "MSc Actuarial Management",
+  "tags": "商科,金工金数,数学与计算机科学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 24176英镑/年",
+  "requirements": "要求学生拥有优秀的学士或硕士学位，并且必须学习并熟练掌握各种早期精算数学材料的应用。一般来说，学生需要已经涵盖了早期精算师协会和学院课程的大部分内容：CM1、CM2、CS1、CS2、CB1 和 CB2",
+  "objectives": "赫瑞瓦特大学的精算管理理学硕士是一个成熟和成功的课程，涵盖更先进的精算科目。攻读精算管理理学硕士学位是一个很好的方法，可以加速学生进入这个最负盛名的职业——它的目的是让学生几乎一路获得资格。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "精算风险管理 (Actuarial Risk Management)\n养老金 (Pensions)\n人寿保险 (Life Insurance)\n定量风险分析 (Quantitative Risk Analysis)\n衍生产品市场和定价 (Derivative Markets and Pricing)\n金融市场 (Financial Markets)\n风险管理：技术和工具 (Risk Management: Techniques and Tools)\n高级衍生产品定价 (Advanced Derivative Pricing)\n金融与投资 (Finance and Investment)\n理学硕士论文 (MSc Dissertation)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 588000港币/年",
+  "requirements": "具有学士学位或同等学历，需要提交GMAT/GRE成绩，具备至少2年毕业后全职工作经验",
+  "objectives": "香港大学工商管理硕士项目是一项密集的历时1年全日制课程。旨在为学生提供一流的教育、真实的经验、对亚洲和国际商业的深刻理解，以及对文化差异的真诚欣赏。核心课程和选修课程以亚洲为重点，让学生有机会目睹中国的经济景观和商业文化。课程着眼于中国与其它亚太地区，为工作在亚太地区的学生提供了独特优势。在最后四个月里，学生可以在伦敦商学院、哥伦比亚大学商学院或复旦大学管理学院选修课程，或者选择留在香港完成课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商务决策会计 (Accounting for Business Decisions)\n商务沟通 (Business Communications)\n商务数据分析 (Business Data Analysis)\n商业伦理 (Business Ethics)\n竞争战略 (Competitive Strategy)\n公司财务 (Corporate Finance)\n全球经济 (Global Economy)\n信息与运营管理 (Information and Operations Management)\n管理经济学 (Managerial Economics)\n组织领导学 (Organisational Leadership)\n战略营销管理 (Strategic Marketing Management)\n全球营销管理 (Global Marketing Management)\n供应链管理 (Supply Chain Management)\n管理咨询 (Management Consulting)\n新兴市场金融 (Emerging Market Finance)",
+  "success_cases": ""
+}

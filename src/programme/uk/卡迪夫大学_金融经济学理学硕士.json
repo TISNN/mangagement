@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "金融经济学理学硕士",
+  "ename": "MSc Financial Economics",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 30450英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，先前研究过微观经济学，宏观经济学和定量课程，成绩达到60%或2:1\n如果申请者没有相关领域学位，学校可能考虑专业经验，需要提供证据证明",
+  "objectives": "卡迪夫大学金融经济学理学硕士项目专为那些具有经济学基础知识的学生设计，该课程可以培养学生的专业技能和洞察力培养，以便在基金管理、股票经纪、投资银行、企业财务和其他金融部门角色中担任专业金融分析师。该课程将帮助学生了解金融机构如何根据微观经济原则和宏观经济环境的改变做出决策的动态调整，提供适用于金融业的数字和定量技术培训，使学生能够在考虑到一系列利益相关者利益的情况下做出明智的决定。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "宏观经济学 (Macroeconomics)\n定量方法 (Quantitative Methods)\n微观经济学：经济不确定性 (Microeconomics: Economics of Uncertainty)\n金融原理 (Principles of Finance)\n公司金融 (Corporate Finance)\n金融数学 (Mathematical Finance)\n金融衍生品 (Financial Derivatives)\n实证金融 (Empirical Finance)\n 论文 (Dissertation)",
+  "success_cases": ""
+}

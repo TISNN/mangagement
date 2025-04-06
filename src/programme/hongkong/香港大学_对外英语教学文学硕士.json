@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "对外英语教学文学硕士",
+  "ename": "MA Teaching English to Speakers of Other Languages",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 229800港币/年",
+  "requirements": "具有学士学位或同等学历，需要英语、语言学、英语语言教育或英语语言文学背景",
+  "objectives": "香港大学对外英语教学硕士学位课程由教育学院和文学院的应用英语研究中心联合提供，目标主要是，但不限于，为讲其他语言的人教授英语的教师。学生将与该学科经验丰富的教师和研究人员组成的强大团队合作，批判性地探索和反思该领域的既定和前沿问题。通过与当地学校和非政府组织的合作，香港大学对外英语教学硕士学位课程使学生有机会获得语言教学法的第一手经验，并批判性地反思理论与实践之间的关系。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "英语教学法 (English Language Teaching Methodology)\n语法教学 (Grammar and Pedagogy)\n第二语言习得 (Second Language Acquisition)\n社会语言学与英语教育 (Sociolinguistics and English Language Education)\n英语教学中的语音学与音系学 (Phonetics and Phonology for English Language Teaching)\n对外英语教学研究与调查方法 (Methods of Research and Enquiry in TESOL)\n课题研究 (Project by Independent Study)\n自主性语言学习 (Autonomy and Language Learning)\n口语与书面语分析 (Analysis of Spoken and Written Discourse)\n英语作为第二语言精选阅读 (Reading in English as a Second Language)\n第二语言写作教学 (Teaching Writing in a Second Language)\n学术英语 (English for Academic Purposes)\n技术与英语教学 (Technology and English Teaching and Learning)\n对外英语教学测试和评估 (Testing and Assessment in TESOL)\n文学在语言教学和学习 (Literature in Language Teaching and Learning)",
+  "success_cases": ""
+}

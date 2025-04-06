@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "高分子材料科学与工程理学硕士",
+  "ename": "MSc Polymer Materials Science and Engineering",
+  "tags": "工科,材料,材料学院",
+  "introduction": "专业方向: 材料\n入学时间: 9月\n项目时长: 1年\n项目学费: 37500英镑/年",
+  "requirements": "具有英国2:2荣誉学位或同等学历，需要材料科学、化学、化学工程、物理化学、高分子工程、复合材料与工程、生物功能材料、冶金与高分子材料与工程背景，学校可以根据具体情况考虑生物材料、材料物理和其他背景\n申请者如果是在读生，需要提供最后一年学习的课程列表及其学分权重",
+  "objectives": "曼彻斯特大学高分子材料科学与工程理学硕士项目具有跨学科性质。目的是让学生对聚合物的化学、特性、加工、特征和应用有丰富的了解。该课程考虑了广泛的聚合物，包括商品、特种和那些在生物医学、复合材料、纳米技术和电子方面的应用。曼彻斯特大学高分子材料科学与工程理学硕士项目的目标是将学生带到聚合物研究的最前沿，包括最新的材料和技术，有机会在世界领先的研究小组和设施中进行研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "PGT论文 (PGT Dissertation)\n材料科学概论 (Introduction to Materials Science)\n研究方法 (Research Methods)\n高分子原理 (Principles of Polymers)\n聚合反应的控制与设计 (Control & Design of Polymerisation Reactions)\n高分子物理与物理性质 (Polymer Physics & Physical Properties)\n先进复合材料 (Advanced Composites)\n软物质 (Soft Matter)",
+  "success_cases": ""
+}

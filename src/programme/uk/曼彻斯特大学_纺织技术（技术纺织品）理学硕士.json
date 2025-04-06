@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "纺织技术（技术纺织品）理学硕士",
+  "ename": "MSc Textile Technology (Technical Textiles)",
+  "tags": "工科,材料,材料学院",
+  "introduction": "专业方向: 材料\n入学时间: 9月\n项目时长: 1年\n项目学费: 35000英镑/年",
+  "requirements": "具有英国2:2荣誉学位或同等学历，需要科学、工程或技术领域背景\n申请者如果是在读生，需要提供最后一年学习的课程列表及其学分权重",
+  "objectives": "曼彻斯特大学纺织技术（技术纺织品）理学硕士项目将使学生了解高级技术纺织部门，为学生在纺织或相关行业中担任经理或研究员，或进行学术研究奠定基础。该项目旨在提供有关将纤维材料转化为纺织终端产品的整个过程的知识和理解，培养识别和分析特定最终产品的适当材料和生产路线的技能，培养对纺织产品进行质量评估的专业知识和技能，以及培养解决问题、项目管理和独立研究的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "PGT论文 (PGT Dissertation)\n材料科学概论 (Introduction to Materials Science)\n研究方法 (Research Methods)\n基本纺织技术 (Essential Textile Technology)\n先进的纺织技术 (Advanced Textile Technology)\n纺织品评估与服装 (Textiles Evaluation & Clothing)\n先进复合材料 (Advanced Composites)\n技术和生物医学纺织品 (Technical & Biomedical Textiles)",
+  "success_cases": ""
+}

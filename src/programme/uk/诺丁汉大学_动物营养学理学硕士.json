@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "动物营养学理学硕士",
+  "ename": "MSc Animal Nutrition",
+  "tags": "工科,食品科学,生物科学学院",
+  "introduction": "专业方向: 食品科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 32400英镑/年",
+  "requirements": "具有认可大学颁发的2:2学位或同等学历，需要生物、化学、生化工程或其他相关科学背景，相关工作经验也可能被接受",
+  "objectives": "诺丁汉大学动物营养学理学硕士课程将为学生提供农场、伴侣和动物园的动物营养以及国际动物饲料工业的研究。学生将了解动物营养的最新发展，并考虑与这些趋势相关的伦理影响。该课程涵盖营养原则，包括饮食在疾病、喂养系统和运营管理方面的作用。课程中包含的实地考察、案例研究和客座讲座将帮助学生积累行业知识。这有助于学生将科学应用于实际行业问题。修读课程期间，学生还将使用大学农场和奶制品中心。有一个关于研究技术的专用模块，包括写作和演讲技巧，以及科学交流。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "营养基础 (Fundamentals of Nutrition)\n非反刍动物营养 (Non-Ruminant Nutrition)\n反刍动物营养 (Ruminant Nutrition)\n饲料行业商业与案例研究 (Feed Industry Business and Case Studies )\n分子营养学 (Molecular Nutrition )\n陪伴和动物园动物营养学 (Companion and Zoo Animal Nutrition)\n动物营养研究方法 (Research Techniques in Animal Nutrition)",
+  "success_cases": ""
+}

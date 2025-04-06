@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "化学工艺工程理学硕士",
+  "ename": "MSc Chemical Process Engineering",
+  "tags": "工科,化工,工程科学学院",
+  "introduction": "专业方向: 化工\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要化学工程或相关学科背景（如机械或环境工程、化学和物理学）",
+  "objectives": "工艺工程通常涉及各个学科工程师及科学家的密切合作。伦敦大学学院化学工艺工程理学硕士学位课程致力于促进这种合作，使来自不同工程学及科学学科的本科毕业生获得进入化学或生物化学行业所需的先进训练。\n伦敦大学学院化学工艺工程理学硕士学位课程涵盖核心化学工程科目以及众多选修课。学生可以选择研究或高级设计项目。高级设计项目面向本科期间未曾开展过设计项目有意成为特许工程师的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "化学过程工程研究项目 (Chemical Process Engineering Research Project)\n过程工程建模与设计 (Process Engineering Modelling and Design)\n化学反应工程2 (Chemical Reaction Engineering II)\n电化学工程和电源 (Electrochemical Engineering and Power Sources)\n能源系统和可持续性发展 (Energy Systems and Sustainability)\n颗粒-流体系统 (Fluid Particle Systems)\n分子热力学 (Molecular Thermodynamics)\n自然启发的化学工程 (Nature Inspired Chemical Engineering)\n过程系统建模和设计 (Process Systems Modelling and Design )\n过程的动态特性与控制 (Process Dynamics & Control)\n分离过程 (Separation Processes)\n传递现象2 (Transport Phenomena II)\n高级生物反应工程 (Advanced Bioreactor Engineering)\n环境系统 (Environmental Systems)\n创业精讲 (Mastering Entrepreneurship)",
+  "success_cases": ""
+}

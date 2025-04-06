@@ -1,0 +1,12 @@
+{
+  "school_name": "南卫理公会大学",
+  "major_name": "计算机科学硕士",
+  "ename": "MS in Computer Science",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 春季/秋季/夏季\n项目时长: 30学分\n项目学费: 1,200美元/学分",
+  "requirements": "GPA3.0，本科毕业于计算机工程、计算机科学或相关专业；其他学科本科学位的申请人需参加预备课程。\n数学成熟度",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

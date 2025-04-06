@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "古生物学理学硕士",
+  "ename": "MSc Palaeobiology",
+  "tags": "理科,生物,地球科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要科学、技术、工程或数学学科背景（包括人类学和考古学），如果申请者能证明其在实验室或博物馆的相关工作经验，或具有科学、技术、工程、数学领域的职位（包括实地工作和大学职位），则学校可以根据具体情况考虑其他学位科目\n学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们至少具备以下其中一项：\n- 在实验室工作、博物馆工作、STEM大学工作、STEM行业工作、STEM实地工作（至少一周全职带薪或实习）的相关工作经验证明。在线STEM课程也可以被接受；\n- 上述认可科目的相关研究生学历。\n如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关工作经验和/或资格",
+  "objectives": "本项目弥合了生物学和地质学的鸿沟。学生将学习系统发育学、生物力学和宏观进化训练的最新技术，拥有研究博士学位或独立从事博物馆策展的坚实基础。学生将加入布里斯托尔成立的古生物学研究小组，参与目前在进化生物学、系统学和古生物学方面的研究。学生将学习如何定量分析问题和设计实验方法来解决宏观进化和古生物研究中的问题。学生将具备全面的技能，包括研究规划、解决问题和沟通交流。学生将掌握通过演讲、视觉展示和正式的书面报告的方式展示古生物学数据，具备发展数据处理、系统发育、宏观进化、功能和三维数字建模的计算技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文（古生物学硕士） (Thesis (MSc Palaeobiology))\n当前古生物学和宏观进化论的争论 (Current Controversies in Palaeobiology and Macroevolution)\n文献评论 (Literature Review)\n古生物学中的系统发生方法 (Phylogenetic Methods in Palaeobiology)\n古生物学研究方法 (Research Methods in Palaeobiology)\n研究古生物学家的地质 (Geology for Research Palaeobiologists)\n跟踪和观测地球系统（10周） (Tracing and Observing the Earth System (10cps))\n微古生物学 (Micropalaeontology)\n高级脊椎动物古生物学和生物力学 (Advanced Vertebrate Palaeobiology and Biomechanics)\n寒武纪爆发-动物身体计划的起源 (The Cambrian Explosion - the origin of animal body plans)\n气候与生态系统 (Climates and Ecosystems)",
+  "success_cases": ""
+}

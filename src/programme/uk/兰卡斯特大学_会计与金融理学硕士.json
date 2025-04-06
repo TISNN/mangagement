@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "会计与金融理学硕士",
+  "ename": "MSc Accounting and Finance",
+  "tags": "商科,会计,会计与金融学系",
+  "introduction": "专业方向: 会计\n入学时间: 10月\n项目时长: 1年\n项目学费: 32760英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要金融、会计、经济或其他商业相关学科背景，非商业领域但包含较强定量元素的毕业生也可能被考虑\n学校也可能考虑非标准申请者，需要联系学校获取信息",
+  "objectives": "兰卡斯特大学会计与金融理学硕士项目提供会计和财务管理知识前沿的学术培训。这是一个很好的基础，学生可以在此基础上在会计、投资银行或金融分析领域建立自己的职业生涯。在本课程期间，如果学生在第一学期达到最低成绩标准，将有机会在课程期间接受培训并参加特许金融分析师（CFA）1级专业考试。成功完成硕士课程后，学生还将根据第二学期的模块选择，自动获得特许注册会计师协会（ACCA）对大多数基础水平论文的豁免。该方案将理论与应用学习相平衡，利用实际工作实例提高技能和理解。学生将学习财务报告原则和财务基础，并有机会学习财务报表分析、高级管理会计或高级投资管理等模块。为了帮助解决行业技能差距，并在就业市场上为学生提供竞争优势，还将有机会发展关键的可转移就业市场技能，如数据分析和计算机编程（使用Python、R、Stata、MATLAB和SAS）；并将接受彭博社和FactSet等行业标准数据平台的培训。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融市场 (Financial Markets)\n金融学基础 (Foundations of Finance)\n财务报告原则 (Principles of Financial Reporting)\n定量方法导论 (Introduction to Quantitative Methods)\n金融学导论 (Introduction to Finance)\n会计学导论 (Introduction to Accounting)\n金融市场导论 (Introduction to Financial Markets)\n金融定量方法 (Quantitative Methods for Finance)\n金融数据平台 (Financial Data Platforms)\n高级公司财务 (Advanced Corporate Finance)\n高级投资管理 (Advanced Investment Management)\n复杂财务报告 (Financial Reporting for Complex Entities)\n衍生产品定价 (Derivatives Pricing)\n财务报告分析 (Financial Statement Analysis)",
+  "success_cases": ""
+}

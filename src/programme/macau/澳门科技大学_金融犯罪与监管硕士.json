@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "金融犯罪与监管硕士",
+  "ename": "Master of Financial Crime and Regulation",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 2年\n项目学费: 120000港币/年",
+  "requirements": "具有法学、经济学及管理学专业的本科毕业生；具有其他专业本科毕业生并具有法律、金融从业经验或资格之人士",
+  "objectives": "金融法以金融法基本理论问题及前沿和热点问题作为研究对象，在学习金融法基本理论的基础上分别讨论各个金融前沿课题的背景、研究现状和未来发展趋势，使学生在掌握一定的金融法知识基础后，能够跟踪当代的金融法理论发展，使之更好的指导未来的金融法律实践。本课程主要研究金融法基本理论，掌握主要国家及法域的金融体制、金融立法及发展趋势，学习掌握银行法律制度及货币法律制度。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融法 (FINANCIAL LAW)\n金融刑法 (FINANCIAL CRIMINAL LAW)\n反洗钱与金融犯罪 (FINANCIAL CRIMES AND ANTI-MONEY LAUNDERING)\n金融监管与合规管理 (FINANCIAL REGULATION AND COMPLIANCE MANAGEMENT)\n国际犯罪与跨国犯罪专题 (SPECIAL TOPICS IN INTERNATIONAL AND TRANSNATIONAL CRIMES)",
+  "success_cases": ""
+}

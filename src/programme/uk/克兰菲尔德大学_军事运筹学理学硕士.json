@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "军事运筹学理学硕士",
+  "ename": "MSc Military Operational Research",
+  "tags": "工科,其他工科,国防与安全",
+  "introduction": "专业方向: 其他工科\n入学时间: 9月\n项目时长: 1年\n项目学费: 24120英镑/年",
+  "requirements": "具有科学、工程或数学方面背景",
+  "objectives": "克兰菲尔德大学军事运筹学理学硕士课程提旨在详细介绍用于分析国防环境中日益复杂的问题并支持决策的背景、问题和方法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级模块＃1 (Advanced Module #1)\n高级模块＃2 (Advanced Module #2)\n高级模块＃3 (Advanced Module #3)\n高级模块＃4 (Advanced Module #4)\n决策分析 (Decision Analysis)\n离散与连续模拟 (Discrete and Continuous Simulation)\n智能系统 (Intelligent Systems)\n运筹学技术概论 (Introduction to Operational Research Techniques)\n物流建模 (Logistic Modelling)\n统计分析与试验 (Statistical Analysis and Trials)\n战争游戏与战斗模型 (War Gaming and Combat Modelling)\n武器系统性能评估 (Weapon System Performance Assessment)",
+  "success_cases": ""
+}

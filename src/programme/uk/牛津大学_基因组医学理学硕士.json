@@ -1,0 +1,12 @@
+{
+  "school_name": "牛津大学",
+  "major_name": "基因组医学理学硕士",
+  "ename": "MSc Genomic Medicine",
+  "tags": "社科,医学,纳菲尔德医学系",
+  "introduction": "专业方向: 医学\n入学时间: 10月\n项目时长: 1年\n项目学费: 48640英镑/年",
+  "requirements": "具有一等或strong 2:1荣誉学位，需要相关领域专业背景，如生物或生物医学科学、医学或护理、生物信息学或计算机科学、统计学或其他定量学科\n对于拥有美国学士学位的申请者，通常需要满足本科水平要求的最低总体 GPA 为 4.0 分中的 3.5 分\n学校通常会要求申请人拥有优秀的本科学位，但在特殊情况下，也可以通过丰富的相关专业经验来证明这一要求。具备在医院、生命科学或工业领域的相关研究或工作经验者优先",
+  "objectives": "牛津大学基因组医学理学硕士项目是一个全日制、为期一年的跨学科项目，受益于牛津大学在基因组科学方面世界领先的专业知识，以及与临床和转化医学的直接联系，课程旨在让来自不同学术和工作场所背景的学生掌握基因组科学的基本原理、技术和基础知识，以及如何将其转化为造福人类健康、经济和更广泛社会的知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人类遗传学和基因组学基础 (Fundamentals in Human Genetics and Genomics)\n常见和罕见遗传疾病的基因组学 (Genomics of Common and Rare Inherited Diseases)\n组学技术及其在基因组医学中的应用   (Omic Technologies and their Application to Genomic Medicine)\n基因组分析中的生物信息学、统计学和数据解释 (Bioinformatics, Statistics and Data Interpretation in Genomic Analysis)\n分子病理学与精准医学 (Molecular Pathology and Precision Medicine)\n高级定量方法(生物信息学和统计学) (Advanced Quantitative Methods (Bioinformatics and Statistics))\n基因组工程和基于基因的治疗 (Genome Engineering and Gene-based Therapeutics)\n-Omic方法的单细胞应用 (Single Cell Application of –Omic Approaches)\n基因组学临床实践 (Genomics in Clinical Practice)\n基因组学在治疗学、疫苗学和工业中的应用   (Application of Genomics for Therapeutics, Vaccinology and Industry)\n研究项目 (Research project)",
+  "success_cases": ""
+}

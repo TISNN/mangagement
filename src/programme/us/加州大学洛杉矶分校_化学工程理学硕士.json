@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学洛杉矶分校",
+  "major_name": "化学工程理学硕士",
+  "ename": "MS in Chemical Engineering",
+  "tags": "工科,化工",
+  "introduction": "专业方向: 化工\n入学时间: 秋季\n项目时长: 2年\n项目学费: 32858美元/年",
+  "requirements": "GPA要求达到3.2。具有数学、物理、化学和工程学背景。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

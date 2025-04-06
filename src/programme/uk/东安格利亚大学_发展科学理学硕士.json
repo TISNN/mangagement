@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "发展科学理学硕士",
+  "ename": "MSc Developmental Science",
+  "tags": "社科,心理学,心理学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 22700英镑/年",
+  "requirements": "具有英国2:1学士学位或同等学历，需要心理学或相关学位背景（如：医学、神经科学或生物科学）",
+  "objectives": "东安格利亚大学发展科学理学硕士项目面向心理学或相关学科的优秀毕业生，旨在帮助其掌握发展科学领域所需的专业研究方法和技能。项目能够让学生有机会亲身体验现代心理学研究方法，并参加贴合学生情况的实习工作，以培养学生相应的技能与能力。此外，项目还将培养学生理解人类发展、准备研究方案、进行原创研究、分析和整合等能力。东安格利亚大学发展科学理学硕士项目为学生开设了高质量的必修与选修课程，将研究方法训练与深度学习相结合，使学生能在研究人员的指导下，顺利完成毕业研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文写作 (Dissertation)\n发展科学 (Development Science )\n心理学实验技能 (Psychology Lab Skills)\n研究实习和专业技能 (Research Placement and Professional Skills)\n高级定性研究 (Further Qualitative Research)\n高级定量研究与统计 (Further Quantitative Research And Statistics)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "分子生物学与生物技术理学硕士",
+  "ename": "MSc Molecular Biology and Biotechnology",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要分子生物学或相关学科背景（如生物化学、遗传学、生物技术、微生物学）\n学校也接受希望插班学习的医学生\n如果申请者没有达到标准学术要求但具备相关专业经验，学校也可能考虑其申请，在这种情况下需要面试",
+  "objectives": "谢菲尔德大学分子生物学与生物技术理学硕士项目以研究为中心，让学生对基础理论和分子生物学领域的最新研究有一个独特的视角。本课程为期12个月，旨在培养学生的信心和独立性，使学生成为快速发展的生物技术行业中可靠的研究员或研究员。在整个学习过程中，学生将接触到生物学和工程的不同领域，将分子科学与化学和生物工程模块相结合，以加深学生对这些领域之间相互依赖关系的理解。通过以研究为中心的培训，学生将发展自己的实验规划和实施技能，通过分子生物学和生物技术实验解决科学问题，并使用革命性的实验室技术，包括CRISPR基因组编辑技术、西方分析和BLAST DNA序列分析，来解决这些问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分子生物技术实验技巧 (Laboratory Skills in Molecular Bioscience)\n细胞工厂 (Cells as Factories)\n高级研究专题 (Advanced Research Topics)\n文献综述与研究项目 (Literature Review、and Research Project)\nRNA世界 (The RNA World)\n植物生物技术 (Plant Biotechnology)\n极端环境中的微生物学 (Microbiology of Extreme Environments)\n高级生化工程 (Advanced Biochemical Engineering)\n高级生物过程设计项目 (Advanced Bioprocess Design Project)",
+  "success_cases": ""
+}

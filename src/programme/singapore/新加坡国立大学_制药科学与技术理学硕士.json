@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "制药科学与技术理学硕士",
+  "ename": "MSc Pharmaceutical Science & Technology",
+  "tags": "社科,药学,理学院",
+  "introduction": "专业方向: 药学\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 53792新币/年",
+  "requirements": "具有以下学位之一或同等学历，并达到二等二荣誉学位或同等水平：\n化学（荣誉）理学学士，或\n生命科学（荣誉）理学学士，或\n食品科学与技术（荣誉）应用科学学士，或\n应用化学（药物）（荣誉）应用科学学士，或\n药学（荣誉）理学学士，或\n化学工程（荣誉）工程学士。\n不强制要求提交GRE，但建议未达到规定学位/荣誉等级或持有海外大学同等学位的申请者提交\n需要提交存款证明45,000新币",
+  "objectives": "新加坡国立大学制药科学与技术理学硕士旨在培养精通专业知识，能够满足新加坡制药/生物制药行业需求（例如在配方、工艺和产品开发、质量保证和监管事务领域）的科学、药学和工程人员。为了使学生与未来的制药/生物制药行业相关，课程采用了基础广泛的方法，涵盖制药/生物制药发展的各个阶段。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "药物与生物医学分析 (Pharmaceutical and Biomedical Analysis)\n配方科学 (Formulation Science)\n产品开发方法 (Methodologies in Product Development)\n药剂学研究生研讨会 (Graduate Seminar Module in Pharmacy )\n药物科学基础专题 (Fundamental Topics in Pharmaceutical Science)\n制药工艺验证 (Pharmaceutical Process Validation)\n药片技术进展 (Advances in Tablet Technology)\n药物传输进展 (Advances in Drug Delivery)\n生物处理技术 (Bioprocess Technology)\n预制剂科学 (Preformulation Science )",
+  "success_cases": ""
+}

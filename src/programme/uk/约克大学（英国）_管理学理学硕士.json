@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "管理学理学硕士",
+  "ename": "MSc Management",
+  "tags": "商科,管理,管理学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 30950英镑/年",
+  "requirements": "具有2:2学位或同等学历",
+  "objectives": "约克大学管理学理学硕士学位课程让各专业本科毕业生广泛学习管理学各个领域，包括金融、人力资源、运营管理、战略和信息管理。约克大学管理学文学硕士学位课程具备国际化背景，体现容纳组织运作的全球经济的真实面貌。学生在第二学期可以就特定感兴趣领域进行专门研究。通过约克大学管理学理学硕士学位课程的学习，学生将具备在私人或公共部门机构从事众多管理岗位所需的知识及技能，完善从先前学习中获取的知识与技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商务资讯系统 (Business Information Systems)\n财务管理 (Financial Management)\n人力资源管理 (Management of Human Resources)\n组织分析 (Organisational Analysis)\n战略管理概论 (Introduction to Strategic Management)\n运营和项目管理 (Operations and Project Management)\n定性研究方法 (Qualitative Research Methods)\n营销传播 (Marketing Communications)\n组织持续性和变革 (Continuity and Change in Organisations)\n创新和技术管理 (Innovation and Technology Management)\n创业和内部企业家精神 (Entrepreneurship and Intrapreneurship)\n财政管理 (Managing Public Finances)\n战略人力资源管理 (Strategic Human Resource Management)\n战略管理案例研究 (Case Studies in Strategic Management)\n定量方法和数据分析 (Quantitative Methods and Data Analysis)",
+  "success_cases": ""
+}

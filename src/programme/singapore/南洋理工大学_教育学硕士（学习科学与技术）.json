@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "教育学硕士（学习科学与技术）",
+  "ename": "Master of Education (Learning Sciences and Technologies)",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 8月\n项目时长: 1年\n项目学费: 41900新币/年",
+  "requirements": "具有认可大学颁发的良好学士学位，或具有相关的南洋理工大学FlexiMasters且成绩优秀\n具有教师资格如新加坡国立教育学院颁发的教育研究生文凭，或具备至少1年教育相关工作经验",
+  "objectives": "教育学硕士课程主要面向在新加坡学校和教育部工作的教育工作者，学校也欢迎具有教育背景并希望提升教育知识和技能的大学毕业生申请。南洋理工大学教育学硕士（学习科学与技术）项目旨在培养对学习科学的深入理解，为学生提供研究知识和技能，以便其在自己的专业兴趣领域进行相关调查，课程通过拓宽和深化当前学习理论和研究趋势的知识，培养具有教育21世纪学习者的能力的执业教育人员，研究方法和学习技术的使用也将成为特色，学生将有机会对技术支持的教学法进行小规模研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育调查 (Educational Inquiry)\n学习科学基础 (Foundations of the Learning Sciences)\n学习科学研究方法 (Research Methodologies for the Learning Sciences)\n计算机支持的协作学习与知识构建 (Computer Supported Collaborative Learning and Knowledge Building)\n技术作为认知工具 (Technologies as Cognitive Tools)\n以技术为媒介的学习环境的设计 (Design of Technology-mediated Learning Environments)\n神经科学、技术与学习 (Neuroscience, Technology and Learning)\n交互式学习环境的设计 (Design of Interactive Learning Environments)\nICT整合的技术与教学考虑 (Technological and Pedagogical Considerations for ICT Integration)\n以技术为媒介的学习的教学领导 (Instructional Leadership for Technology-mediated Learning)\n混合式学习的设计 (Design for Blended Learning)\n技术支持评估 (Technology Supported Assessment)\n教育设计研究 (Educational Design Research)\n基于数字游戏的学习 (Digital Game-Based Learning)\n教育从业者学习分析 (Learning Analytics for Educational Practitioners)\n教育中的人工智能：教学范围 (Artificial Intelligence for Education: A Pedagogical Spectrum)",
+  "success_cases": ""
+}

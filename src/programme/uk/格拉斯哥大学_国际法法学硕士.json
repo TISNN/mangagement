@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "国际法法学硕士",
+  "ename": "LLM International Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 28500英镑/年",
+  "requirements": "具有2:1荣誉学位或非英国同等学历，需要法律背景学校也可以考虑英国2:1荣誉学位，或其国际同等学历，需要国际关系，政治学，或相关的社会科学或人文学科领域背景虽然学校欢迎来自非法律背景的申请者，但重要的是要注意，这个法学硕士仍然是一个以法律为重点的学位",
+  "objectives": "格拉斯哥大学国际法法学硕士课程反映了当代国际法的广度，涉及世界贸易争端、联合国维持和平、国际人权诉讼、国家责任和国际法院刑事审判等各种问题。该课程非常适合想要将视野扩大到超越国内法律秩序的国际平台的学生。具体授课模式为团队基础上的专题讨论教学方式，此外学校还开展一系列客座演讲活动和学术研讨会，学生可以与领域内尖端学者展开学术交流。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际刑法概论 (Advanced introduction to international criminal law)\n联合国法律导论 (Advanced introduction to the law of the united nations)\n国际法基础 (Foundations of international law)\n国际与欧洲人权法 (International and european human rights law)\n国际法庭 (International courts and tribunals)\n国际贸易法 (International trade law)\n国际投资法 (International investment law)\n国际法与国际经济治理 (International law and international economic governance)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "市场营销理学硕士",
+  "ename": "MSc Marketing",
+  "tags": "商科,市场营销,诺维奇商学院",
+  "introduction": "专业方向: 市场营销\n入学时间: 9月\n项目时长: 1年\n项目学费: 24300英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历，不限专业背景（但主要针对以前没有学习过商业相关学位/本科学位商业知识有限/具有普通商科学位现在想要专攻该领域的学生）",
+  "objectives": "东安格利亚大学市场营销理学硕士学位课程旨在提供关于市场营销研究的先进课程。在东安格利亚大学市场营销理学硕士学位课程的学习中，学生将了解管理中互相关联的职能，思考专业市场营销方法的含义。\n东安格利亚大学市场营销理学硕士学位课程致力于培养能适应复杂的动态商务环境的下一代营销经理。在东安格利亚大学市场营销理学硕士学位课程的学习中，通过增强与发展一般管理知识及技能中的更锐利的财务视角，学生将获取智力发展，将来能够在一系列商业部门中有效履行职责。\n东安格利亚大学市场营销理学硕士学位课程面向未曾专门学习过管理或在非英国的国家学习这门科目的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计和财务管理 (Accounting and Financial Management)\n管理学技能和个人发展 (Management Skills and Personal Development)\n人力和组织管理 (Managing People and Organisations)\n市场营销和战略：市场、竞争对手和客户 (Marketing and Strategy: Markets,Competitors and Customers)\n营销研究 (Marketing Research)\n全球品牌战略 (Global Brand Strategy)\n买方行为和互动营销 (Buyer Behaviour and Interactive Marketing)\n零售营销和管理 (Retail Marketing and Management)\n整合商务决策 (Integrated Business Decisions)\n整合营销传播 (Integrated Marketing Communications)",
+  "success_cases": ""
+}

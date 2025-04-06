@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "高级计算机科学理学硕士",
+  "ename": "MSc Advanced Computer Science",
+  "tags": "工科,计算机,工程与信息学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，拥有计算机、科学、数学或工程专业背景以及丰富的计算经验。如果申请者拥有其他专业资格或同等经验，也可能被考虑参加该课程",
+  "objectives": "萨塞克斯大学高级计算机科学理学硕士项目将为学生提供接触未来计算机系统的机会。计算机平台可能是移动、嵌入式、分布式、基于云或多核，需要采用新技术使软件变得高效、正确和可靠。网络则覆盖各种应用程序和社会联系，可有线或无线、特设或高供应计划、高带宽或缓慢不可靠。与此同时，计算机正在逐步意识到自身所处的环境：谁在使用他们，他们在哪里，什么接口是可用的，他们消耗多少能量和他们处理数据的语义。这些进步带来了新一轮挑战，弱化了计算机科学领域迄今为止的成就。为了成功应对这些挑战，计算机领域需要有专业科学家参与系统设计。萨塞克斯大学高级计算机科学理学硕士项目结合了信息学系的研究，同时保留了与软件工程和高级网络议题相关的实践环节，学生可选择诸如多媒体、网络系统、网络安全和商业等领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级软件工程 (Advanced Software Engineering)\n计算机科学专题 (Topics in Computer Science)\n高级计算机科学项目 (Advanced Computer Science Project)\nWeb应用程序和服务 (Web Applications and Services)\n密码学 (Cryptography)\n电子商务和电子商务系统 (E-Business and E-Commerce Systems )\n人机交互 (Human-Computer Interaction)\n网络计算 (Web Computing)\n三维建模与动画 (3D Modelling and Animation )\n自适应系统 (Adaptive Systems)\n工程可扩展和可靠的软件项目 (Engineering Scalable and Reliable Software Project)\n图像处理 (Image Processing)\n机器学习 (Machine Learning)\n移动3D应用程序 (Mobile 3D Applications)\n技术增强型学习环境 (Technology-Enhanced Learning Environments)\n无线通信专题 (Topics in Wireless Communications)",
+  "success_cases": ""
+}

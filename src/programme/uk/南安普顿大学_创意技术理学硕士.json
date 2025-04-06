@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "创意技术理学硕士",
+  "ename": "MSc Creative Technologies",
+  "tags": "社科,艺术,艺术学院",
+  "introduction": "专业方向: 艺术\n入学时间: 9月\n项目时长: 1年\n项目学费: 30300英镑/年",
+  "requirements": "具有2:2学位或同等学历，不限专业背景，或具备艺术、人文、设计、音乐、语言、计算或技术领域的相关工作经验，申请者应该提交作品集阐明在创意技术领域的兴趣和实践",
+  "objectives": "南安普顿大学创意技术理学硕士项目旨在发展学生的系统思维和设计方面的创造力和技术技能。学生将通过设计和构建沉浸式数字体验的项目来学习。这些体验将超越数字屏幕格式，包括制造、纺织品和 3D 打印。学生将使用行业标准设备，包括虚拟现实和增强现实系统。学生将学习编程并了解机器人设计。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "协作实践 (Collaborative Practices)\n创意产业研究 (Creative Industry Research)\n创意技术1：编码 (Creative Technologies 1: Coding)\n创意技术 2：环境 (Creative Technologies 2: Environments)\n创意技术期末项目 (Final Project in Creative Technologies)\n艺术与科技的理念 (Ideas in Art and Technology)\n实验出版 (Experimental Publishing)\n探索显示的视觉语言 (Exploring the Visual Language of Display)\n视觉文化 (Visual Culture)",
+  "success_cases": ""
+}

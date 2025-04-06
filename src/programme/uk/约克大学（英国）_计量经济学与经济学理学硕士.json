@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "计量经济学与经济学理学硕士",
+  "ename": "MSc Econometrics and Economics",
+  "tags": "商科,经济,经济与相关研究学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要包含足够计量经济学和经济学内容的学科背景，具备数学或统计学方面的强大背景将是一个优势\n如果申请者毕业已经有一段时间，或者在经济学或数学和统计学方面没有很强的背景，但具备其他相关资格或经验，作为录取条件申请者可能会被要求参加经济学和定量方法暑期课程，另外，该课程也可以作为独立课程进行",
+  "objectives": "约克大学计量经济学与经济学理学硕士学位课程通过高级经济学和计量学理论的核心课程及一系列选修课程，使学生掌握经济学和计量经济学与（或）数学的先进知识，全面了解应用和理论计量经济学。约克大学计量经济学与经济学理学硕士学位课程由诸如微观计量经济学、面板数据分析、时间序列、空间计量经济学和非参数建模等相关领域顶尖专家授课，使有意在应用经济学与计量经济学领域开展职业生涯或继续深入研究的学生掌握必备的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "新兴市场宏观经济学 (Emerging Market Macroeconomics)\n微观发展经济学 (Micro Development Theory)\n高级微观经济学 (Advanced Microeconomics)\n国际宏观经济学 (International Macroeconomics)\n统计和计量经济学 (Statistics and Econometrics)\n应用微观计量经济学 (Applied Microeconometrics)\n经济机制和机构设计与分析 (Design and Analysis of Mechanisms and Institutions)\n发展和金融 (Development and Finance)\n实验经济学 (Experimental Economics)\n金融与投资 (Finance and Investment)\n健康与发展 (Health and Development)\n医疗保健管理 (Health Care Management)\n劳动经济学 (Labour Economics)\n财政学 (Public Finance)\n公共部门经济学：微观经济学应用 (Public Sector Economics: Microeconomic Applications)",
+  "success_cases": ""
+}

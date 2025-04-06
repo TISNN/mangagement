@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "机电工程理学硕士",
+  "ename": "MSc Electromechanical Engineering",
+  "tags": "工科,机械工程,科技学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "持有澳门大学认可的学士学位或同等学历。申请人也可能被要求具备其他知识或专业经验。申请人必须在学士学位学习中达到相当于C级或更高的总成绩",
+  "objectives": "机电工程（EME）计划成立于1993年。该课程着重于机械工程（ME），同时教育学生利用现代电气，电子和信息技术在ME中的实际应用，例如建筑服务，运输工具，机器人，等等。我们的大多数毕业生在电气和机械工程咨询公司，建筑服务行业，政府部门，公共组织和研究机构中都有出色的职业生涯。澳门的许多毕业生都是天然气工程和城市建设（项目规划与设计）学科的注册工程师。此外，一些毕业生已在世界各地的知名大学进修研究生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究导论 (Introduction to Research)\n高等数学 (Advanced Mathematics)\n学术/应用论文 (Academic/Applied Thesis)\n材料物理 (Physics of Materials)\n变分原理及其应用 (Variational Principles and the Application)\n机电一体化 (Mechatronics)\n工艺传热 (Process Heat Transfer)\n对流换热 (Convective Heat Transfer)\n热流体系统的计算方法 (Computational Method for Thermo-Fluid System)\n能源转化与利用 (Energy Conversion and Utilization)\n先进的机器人与控制 (Advanced Robotics and Control)\n流体动力工程 (Fluid Power Engineering)\n汽车工程 (Automotive Engineering)",
+  "success_cases": ""
+}

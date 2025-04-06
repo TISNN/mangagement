@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "医学物理学理学硕士",
+  "ename": "MSc Medical Physics",
+  "tags": "理科,物理,医学，医学科学与营养学院",
+  "introduction": "专业方向: 物理\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "具有物理科学或工程二等荣誉学位，至少达到2:2，60%或GPA 2.4/4或3.0/5水平\n需要申请ATAS",
+  "objectives": "阿伯丁大学医学物理学硕士旨在提高学生对技术如何帮助诊断疾病的知识，学生将学习物理在现代临床/健康环境中的应用的所有主要方面。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "医疗保健科学中的生物医学与专业主题 (Biomedical and Professional Topics in Healthcare Science)\n医学成像 (Imaging in Medicine)\n医学辐射 (Radiation in Medicine)\n医学计算与电子学 (Computing and Electronics in Medicine)\n放射治疗及辐射物理学 (Radiotherapy and Radiation Physics)\n核医学与正电子发射断层摄影术 (Nuclear Medicine & Positron Emission Tomography)\n磁共振成像 (Magnetic Resonance Imaging)\n诊断放射学与辐射防护 (Diagnostic Radiology and Radiation Protection)",
+  "success_cases": ""
+}

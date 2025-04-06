@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "医学影像硕士",
+  "ename": "Master of Medical Imaging",
+  "tags": "社科,医学,医疗及社会科学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 2年\n项目学费: 353250港币/年",
+  "requirements": "具有香港理工大学或认可院校颁发的学士学位，需要理科背景（偏好物理学、生物科学或健康相关学科），其他资格可能根据个人情况予以考虑\n优先考虑能够使用英语及广东话进行有效沟通的申请者\n在入读本专业前已修满下列各门本科课程学分的申请者将获被优先考虑：人体生理学（3学分或同等水平），人体解剖学（3学分或同等水平）",
+  "objectives": "香港理工大学医学影像硕士项目旨在提供医学影像方面的基础教育和培训。该计划的目标是培养精通顶级医学成像服务、研究参与和临床实践问题解决的放射诊断技师。\n临床实习是香港理工大学医学影像硕士项目课程的关键部分，由医院管理局各部门负责协助。在该项目为期 2 年的时间里，学生获得了 1,344 小时的实践临床经验。这种广泛的临床培训是香港放射技师委员会认证的强制性要求。根据政府法令，此认证对于香港的放射技师（类别：诊断）职位至关重要。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人体解剖学与生理学 (Human Anatomy & Physiology)\n医学影像病理学 (Pathology for Medical Imaging)\n医学影像科学基础 (Foundations in Medical Imaging Science)\n放射生物学 (Radiation Biology)\n诊断放射学 物理学 (Diagnostic Radiology Physics)\n医学影像解剖学 (Medical Imaging Anatomy)\n诊断影像临床技能 (Clinical Skills in Diagnostic Imaging)\n诊断影像研究 I (Diagnostic Imaging Studies I)\n诊断影像仪器 (Diagnostic Imaging Instrumentation)\n医疗保健研究和信息学 (Healthcare Research and Informatics)\n医疗保健研究和信息学 (Radiation Safety & Protection)\n诊断影像研究 II (Diagnostic Imaging Studies II)\n医疗保健行业的法律和道德问题 (Legal and Ethical Issues for Healthcare Professions)\n高级医学影像信息学 (Advanced Medical Imaging Informatics)\n诊断成像研究 III (Diagnostic Imaging Studies III)",
+  "success_cases": ""
+}

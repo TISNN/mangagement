@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "国际商务理学硕士",
+  "ename": "MSc International Business",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有英国大学（或海外同等机构）颁发的荣誉学位（2:1或更高水平）或研究生文凭，不限专业背景\n能够证明超过最低入学要求的申请者将被优先考虑",
+  "objectives": "全球的组织都在寻求能够远离故土工作的动态管理者，而伯明翰大学国际商务理学硕士学位课程面向任意专业的毕业生。它为学生提供了关于当今国际问题的全面知识，并提供在世界各地就业的机会。伯明翰大学国际商务理学硕士学位课程涵盖全球化、经营与采购、电子商务、企业治理等专题，并在理论知识与实际应用之间达成了良好的平衡。伯明翰大学国际商务理学硕士学位课程旨在通过构建学生在国际商务关键领域的知识以帮助其提升职业前景。学生将有机会得到全球知名学者和教师的指导，他们的专业才能以及宽领域的教学大纲有助于学生开启崭新的国际职业生涯。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际商务 (International Business)\n国际战略 (International Strategy)\n国际商务实践与管理 (Practising and Managing International Business)\n论文 (Dissertation)\n国际商业数据分析 (International Business Data Analytics)\n国际商务中的合作策略 (Cooperative Strategy in International Business)\n国际创业与市场营销 (International Entrepreneurship and Marketing)\n全球运营与供应链管理 (Global Operations and Supply Chain Management)\n治理与全球责任 (Governance and Global Responsibility)\n颠覆性创新与国际商务 (Disruptive Innovation and International Business)",
+  "success_cases": ""
+}

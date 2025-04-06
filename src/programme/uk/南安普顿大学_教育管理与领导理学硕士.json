@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "教育管理与领导理学硕士",
+  "ename": "MSc Education Management and Leadership",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 25400英镑/年",
+  "requirements": "具有2:1学位以及至少3个月工作经验，其中应该包括与学习者群体的互动，而不是个人辅导，具备领导或管理经验者优先考虑",
+  "objectives": "南安普顿大学教育学理学硕士项目培养学生成为一名头脑清晰、自信和全面的教育领导者，了解专业发展以克服世界各地教育领导者面临的挑战的策略。该课程面向教师和那些在教育领域担任行政职务的人，正在寻找领导力和研究技能，以做出积极的改变。学生将学习如何在教育机构内发现改进机会，根据研究做出决策，并结果。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学习与教学 (Learning and Teaching)\n教育研究：实践与方法 (Education Research: Practice and Methods)\n理解教育研究 (Understanding Education Research)\n教育领导 (Leadership in Education)\n全球化与教育政策 (Globalisation and Education Policy)\n教育的社会背景与终身学习 (The Social context of education and lifelong learning)\n学位论文 (Dissertation)\n教育机构的管理 (Management in Education Organisations)",
+  "success_cases": ""
+}

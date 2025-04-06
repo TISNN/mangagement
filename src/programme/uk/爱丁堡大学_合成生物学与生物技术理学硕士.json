@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "合成生物学与生物技术理学硕士",
+  "ename": "MSc Synthetic Biology and Biotechnology",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 43300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要强大的分子生物学背景，申请者还应该在以下一个或多个领域有很强的背景：生物技术、生物化学、遗传学或相关科学，并具备定量和计算机科学技能的证据\n学校也可能考虑具备工程学（尤其是生物工程）、物理学或数学背景并能证明具备分子生物学知识的申请者",
+  "objectives": "爱丁堡大学合成生物学与生物技术理学硕士项目将使学生获得合成生物学和生物技术领域的丰富的背景知识，了解合成生物学这一新兴领域的局限性和公众的问题，包括对该领域周围的哲学、法律、伦理和社会问题的彻底审查，以及学生处理技术转让问题的能力，具备从科学和实际角度分析问题的技能。该课程将使学生了解生物技术与现实生物问题的关系，引导他们思考研究、技术、实施及其影响的未来发展的能力，让学生理解研究责任（包括严格和稳健的理论测试要求），以及在实验报告和审查中诚实和正直的需要。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "合成生物学应用 (Applications of Synthetic Biology)\n合成生物学工具 (Tools for Synthetic Biology)\n系统与合成生物学的社会维度 (Social Dimensions of Systems & Synthetic Biology)\n合成生物学生物技术研究项目建议书 (Research Project Proposal)\n微生物群落元基因组分析 (Metagenomic Analysis of Microbial Communities)\n生物化学实践技能 A (Practical Skills in Biochemistry A)\n工业生物技术原理 (Principles of Industrial Biotechnology)\n自动化与工业 (Automation and Industry)\n生物化学 A & B (Biochemistry A & B)\n生物设计 (Biodesign)\n生物信息学 1 (Bioinformatics 1)\n生物信息学编程与系统管理 (Bioinformatics Programming and System Management)\n生物物理化学 (Biophysical Chemistry for MSc Biochemistry)\n生物技术产业经济与创新 (Economics and Innovation in the Biotechnology Industry)\n酶学与生物生产 (Enzymology and Biological Production)",
+  "success_cases": ""
+}

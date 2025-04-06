@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "能源转换系统与技术理学硕士",
+  "ename": "MSc Energy Transition Systems and Technologies",
+  "tags": "工科,能源,工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要工程或相关领域背景（如自然科学，物理科学或数学）\n或具有工程或相关领域2:2荣誉学位或同等学历以及5年以上相关经验\n需要申请ATAS",
+  "objectives": "阿伯丁大学能源转换系统与技术理学硕士项目概述了包括技术和非技术（例如经济，政策）方面的各种挑战。旨在向学生介绍能源系统方面的系统思维，并培养学生学习用于系统级分析的相关方法（例如GIS，能源系统分析）。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "能源转型导论：需求、技术和经济 (Introduction to Energy Transition: Demand, Technology and Economics)\n碳捕获、利用和储存 (Carbon Capture, Utilisation and Storage)\n生物质能源 (Energy from Biomass)\n地热能与太阳能 (Geothermal and Solar Energy)\n地热能与水能 (Geothermal and Hydro Energy)\n定量方法 (Quantitative Methods)\n能源经济学概论 (Introduction to Energy Economics)\n地理信息系统工具、制图技术和地理可视化概论 (Introduction to GIS Tools, Techniques Cartography and Geovisualisation)\n能源系统分析与方案 (Energy Systems Analysis and Scenarios)\n能源系统整合 (Energy Systems Integration)\n能量转换与储存 (Energy Conversion and Storage)\n海洋能与风能 (Marine and Wind Energy)\n立法、经济与安全 (Legislation, Economics and Safety)\n能源转型项目 (Project in Energy Transition)",
+  "success_cases": ""
+}

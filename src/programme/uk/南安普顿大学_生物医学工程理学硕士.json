@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "生物医学工程理学硕士",
+  "ename": "MSc Biomedical Engineering",
+  "tags": "工科,生物工程,工程学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位，需要以下学科背景之一：生物医学工程、机械工程、物理学、数学、生物工程、航空航天工程、汽车工程、工程材料、机电一体化、电气工程、电子工程\n申请者还需要在至少1门高等数学课程中取得2:1的成绩\n学校也会考虑具有听力学本科学位的申请者\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学生物医学工程理学硕士项目将生物学、医学与工程学相结合。在学生选择的专业领域学习人类生物学，学习开发新工程解决方案的技能。准备在帮助医疗从业者和提供者改善和维护人民健康方面发挥领导作用。该课程适合工程、数学或物理学科毕业的学生或者想专攻生物医学工程或支持持续专业发展的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物医学工程导论 (Introduction to Biomedical Engineering)\n人类生物学和系统生理学 (Human Biology & Systems Physiology)\n临床听力学1 (Clinical Audiology 1)\n听觉生理学和心理学 (Physiology and Psychology of Hearing)\n听觉障碍康复 (Rehabilitation of Auditory Disorders)\n机器人系统 (Robotic Systems)\n生物纳米技术 (Bionanotechnology)\n固体力学有限元分析 (Finite Element Analysis in Solid Mechanics)\n工程学中的人为因素 (Human Factors in Engineering)\n高级计算方法1 (Advanced Computational Methods I)\n数理方法 (Numerical Methods)\n制造与材料 (Manufacturing and Materials)\n高级传感器和状态监测 (Advanced Sensors and Condition Monitoring)\n控制和仪器仪表 (Control and Instrumentation)\n骨科生物力学 (Orthopaedic Biomechanics)",
+  "success_cases": ""
+}

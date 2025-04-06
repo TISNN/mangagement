@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "高级管理人员工商管理硕士",
+  "ename": "EMBA",
+  "tags": "商科,工商管理,工商管理学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 9月\n项目时长: 2年\n项目学费: 275000澳门币/年",
+  "requirements": "持有澳门大学认可的学士学位或同等学历，拥有至少8年中级或高级管理经验",
+  "objectives": "采用国际课程和教与学的方法，以拓宽学生的心态和文化意识，培养专业，道德和社会责任感的领导者，培养学生的创新和批判性思维，以提高他们的解决问题的能力，提供务实且前沿的课程，以平衡理论与实践，与商界及知名从业者紧密合作，与世界顶尖大学的紧密合作为交流和实地考察提供了机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "财务报表分析 (Financial Statement Analysis)\n企业财务战略 (Corporate Financial Strategy)\n组织文化管理 (Management of Organizations and Culture)\n创新与企业家精神 (Innovation and Entrepreneurship)\n国际营销策略 (International Marketing Strategy)\n项目管理策略 (Project Management Strategy)\n战略管理 (Strategic Management)\n考察报告 I (Study Trip Group Report I)\n考察报告 II (Study Trip Group Report II)\n项目报告 (Project Report)\n区块链数字战略与金融科技发展 (Digital Strategy for Blockchain and Fintech Development)\n公司治理战略 (Corporate Governance Strategy)\n国际财务管理战略 (International Financial Management Strategy)\n全球业务与战略 (Global Business and Strategy)\n领导与组织变革 (Leadership and Organizational Change)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "哲学理学硕士",
+  "ename": "MSc Philosophy",
+  "tags": "社科,哲学,哲学、心理学与语言科学学院",
+  "introduction": "专业方向: 哲学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要提供Work Samples",
+  "objectives": "爱丁堡大学的哲学研究历史悠久，曾有大卫·休谟这样的大思想家闪耀哲学界。而爱丁堡大学哲学理学硕士项目秉承优秀的办学传统，致力于为学生营造创造性、支持性和有活力的学术氛围，给学生提供前沿的哲学理论与研究训练，帮助学生为未来继续攻读博士学位做好准备，是引导学生进一步研究和学习哲学的理想课程。并且，通过爱丁堡大学哲学理学硕士项目的系统学习，学生有望在认识论、形而上学、逻辑与语言哲学、道德和政治哲学、应用伦理学、哲学史包括古代哲学、伊斯兰哲学、近代早期哲学和启蒙哲学、元伦理学、心灵哲学、认知科学哲学和神经科学、种族和性别哲学、科学哲学等领域进行专业化进修，从而具备高水平专业能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "哲学方法 1 (Philosophical Methods I)\n哲学方法 2 (Philosophical Methods II)\n思维、语言与体验认知高级专题 (Advanced Topics in Mind, Language and Embodied Cognition)\n古代存在论 (Ancient Theories of Existence)\n认识论主题 (Themes in Epistemology)\n思维、语言与体验认知导论 (Introduction to Mind, Language and Embodied Cognition)\n元伦理学 (Meta-Ethics)",
+  "success_cases": ""
+}

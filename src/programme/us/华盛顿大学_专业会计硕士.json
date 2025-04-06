@@ -1,0 +1,12 @@
+{
+  "school_name": "华盛顿大学",
+  "major_name": "专业会计硕士",
+  "ename": "Master of Professional Accounting",
+  "tags": "商科,会计",
+  "introduction": "专业方向: 会计\n项目类别: STEM\n入学时间: 秋季\n项目时长: 9个月\n项目学费: 28,200美元/年\n项目规模: 50人",
+  "requirements": "拥有会计相关学位，持有商业学位的申请者需要在9月之前完成官网列出的先修课程。获得非美国地区学位者必须提供GMAT",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

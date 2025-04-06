@@ -1,0 +1,12 @@
+{
+  "school_name": "南卫理公会大学",
+  "major_name": "应用经济学文学硕士",
+  "ename": "MA in Applied Economics",
+  "tags": "商科,经济",
+  "introduction": "专业方向: 经济\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 1128美元/学分",
+  "requirements": "GPA3.0，完成统计学入门课程，\n微积分中的课程。\n如果本科GPA低于3.0,GRE须达到满意成绩才可以入学研究生。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

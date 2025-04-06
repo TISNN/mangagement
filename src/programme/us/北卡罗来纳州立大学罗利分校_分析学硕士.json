@@ -1,0 +1,12 @@
+{
+  "school_name": "北卡罗来纳州立大学罗利分校",
+  "major_name": "分析学硕士",
+  "ename": "Master of Science in Analytics",
+  "tags": "商科,商业分析",
+  "introduction": "专业方向: 商业分析\n项目类别: STEM\n入学时间: 夏季（6月）\n项目时长: 10个月\n项目学费: 47132美元\n就业比例: 100%\n平均起薪: 102800美元",
+  "requirements": "先修课程包括至少一个,但最好是两个学期的大学水平统计方法（包括涵盖回归分析的实质性课程）；要求能够使用一种或多种计算机编程语言进行编码（Python, R, SAS, SQL)",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

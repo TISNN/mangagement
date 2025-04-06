@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "语言、文化与历史（法语和法语国家研究）文学硕士",
+  "ename": "MA Language, Culture and History (French and Francophone Studies)",
+  "tags": "社科,语言,艺术与人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要相关学科背景，法语知识至少达到相当于CEFRL C1 (Advanced)的水平，没有法语正式资格但该语言能力良好的学生的申请将被考虑",
+  "objectives": "伦敦大学学院语言、文化与历史（法语和法语国家研究）文学硕士项目旨在鼓励对该领域的问题采取创新的方法，并提高学生的创造性和批判性回应。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "法国艾滋病文化:历史、政策与表现 (Culture of AIDS in France: History, Policy and Representation)\n性别、种族与性:法语文学与视觉文化的新解读 (Gender, Race and Sexuality: New Readings in Francophone Literature and Visual Culture)\n控制文本吗20世纪法国文学中的文学权力关系 (Dominating Texts Literary Power Relations in 20th Century French Literature)\n高级翻译 (Advanced Translation)\n翻译成法语 (Translation into French)\n小说与档案:近代早期法国犯罪小说的写作与改写 (Fiction and the Archives: Writing and Rewriting of Criminal Stories in Early Modern France)\n法国近代史主题:法国和第一次世界大战 (Topics in Modern French History: France and the First World War)\n19世纪法国的扭曲现实主义 (Realism Looking Awry in Nineteenth-Century France)",
+  "success_cases": ""
+}

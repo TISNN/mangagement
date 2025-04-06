@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "音乐文学硕士",
+  "ename": "MA Music",
+  "tags": "社科,艺术,文学院",
+  "introduction": "专业方向: 艺术\n入学时间: 9月\n项目时长: 1年\n项目学费: 29500英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要音乐背景\n申请作曲或表演方向需要提交作品集\n对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩\n学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们至少具备以下其中一项：\n- 在音乐行业有重要相关工作经验的证据；\n- 相关研究生学历\n如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关工作经验和/或资格",
+  "objectives": "该项目提供五个学科分支：作曲、中世纪音乐、音乐学、表演和俄罗斯音乐。每个分支都包括音乐培训单元和大量选修课程。音乐学需要完成论文或期刊，表演分支需要完成一个小型和一个大型的独奏曲目，作曲分支需要完成作品集。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "音乐学读物 (Readings In Musicology)\n中世纪拉丁语简介 (Introduction to Medieval Latin)\n音乐家的研究技能 (Research Skills for Musicians)\n论文 (Dissertation)\n音乐学读物 (Readings In Musicology)\n音乐家的研究技能 (Research Skills for Musicians)\n论文 (Dissertation)\n资料研究，古文字学和编辑实践 (Source Study, Paleography and Editorial Practices)\n音乐家的研究技能 (Research Skills for Musicians)\n专业作曲导论 (Introduction to Professional Composing)\n当代作曲思想与技巧 (Contemporary Compositional Ideas and Techniques)\n作曲作品集 (Composition Portfolio)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "神经康复理学硕士",
+  "ename": "MSc Neurological Rehabilitation",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "本科学位：\n具有第一学位，需要相关医疗保健学科背景，例如物理治疗、职业治疗、医生、护理，学校可能会根据具体情况考虑具有2:1学位或同等学历并且具备相关经验或学位的申请者\n附加信息：\n相关工作经验：虽然不是强制性要求，但具备医疗保健、工程学、心理学或科学研究方面的相关工作经验将有助于申请\n医疗保健：\n这包括但不限于物理治疗、职业治疗、护理或医学学位（MBBS或同等学历），其他相关医疗保健学科如言语和语言治疗、临床心理学和医疗保健管理也会被考虑\n工程学：\n学校鼓励具有工程学背景的申请者申请，特别是那些具有生物医学工程、电气工程、机械工程或其他相关工程领域学位的申请者，这使得将工程原理与康复技术相结合开发创新解决方案成为可能\n心理学及相关领域\n心理学、神经科学和认知科学的申请者适合本课程，这些领域为理解大脑-行为关系和康复的心理方面提供了坚实的基础\n科学\n这包括生物科学（如生物学、生物化学或生理学）、物理科学（如物理学或化学）和其他相关科学学科的学位，这些背景有助于全面理解支撑神经康复的科学原理",
+  "objectives": "诺丁汉大学神经康复理学硕士项目提供神经康复相关的科学原理、理论，规划、评估、实施神经运动功能障碍患者康复计划所需的技能和能力，培养学生批判性思维和解决问题的能力，使学生能够做出明智的临床决策并在工作中应用。本课程适应神经康复领域不断变化的趋势和发展所需的知识和技能，学生将有能力影响医疗实践和政策，并为提供可持续的康复服务，改善社会做出贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "恢复神经科学 (Rehabilitation Neuroscience)\n康复理论与模型 (Rehabilitation Theory and Models)\n康复研究方法 (Rehabilitation Research Methods)\n康复研究项目 (Rehabilitation Research Project)\n动作控制与学习 (Motor Control and Learning)\n神经康复的发展趋势 (Trends in Neurorehabilitation)\n康复技术 (Technology in Rehabilitation)\n疼痛管理康复 (Rehabilitation for Pain Management)",
+  "success_cases": ""
+}

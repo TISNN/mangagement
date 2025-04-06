@@ -1,0 +1,12 @@
+{
+  "school_name": "贝尔法斯特女王大学",
+  "major_name": "金融风险管理理学硕士",
+  "ename": "MSc Financial Risk Management",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 25800英镑/年",
+  "requirements": "通常具有strong 2:2荣誉学位（至少55%）或学校接受的同等学历，需要数学、会计、金融、经济学或其他相关定量学科背景，学校会考虑科学和工程学科背景（包含大量数学成分）的申请者，相关课程成绩必须达到英国2:2荣誉标准（至少55%或可接受的同等水平）\n学校欢迎各种各样的申请者申请，所以除了学历，学校也会考虑先前的工作经验。代替学历的定量分析、数学或金融基础学科方面的先前经验学习将根据具体情况予以考虑",
+  "objectives": "贝尔法斯特女王大学金融风险管理理学硕士项目适合对风险管理和金融监管感兴趣、想从事企业风险、合规、咨询或学术等领域的工作、希望豁免专业风险管理师（PRM）考试的人，学生将学习金融风险管理，着眼于组织和投资者应该如何理解、评估和解决相关风险，以最大限度地提高实现其目标的机会，该课程为学生提供领先金融公司和监管机构使用的尖端风险管理工具和策略，教授本课程的学者都处于各自领域的前沿，许多人还具备相关行业经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "资产定价 (Asset Pricing)\n公司金融 (Corporate Finance)\n金融监管与风险管理 (Financial Regulation and Risk Management)\n财务数据分析 (Financial Data Analytics)\n信贷风险管理 (Credit Risk Management)\n衍生产品 (Derivatives)\n企业风险管理与风险分析 (Enterprise Risk Management and Risk Analytics)\n高级财务数据分析 (Advanced Financial Data Analytics)\n论文 (Dissertation)\n应用研究项目 (Applied Research Project)",
+  "success_cases": ""
+}

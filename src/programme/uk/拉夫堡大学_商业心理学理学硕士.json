@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "商业心理学理学硕士",
+  "ename": "MSc Business Psychology",
+  "tags": "社科,心理学,商业经济学院",
+  "introduction": "专业方向: 心理学\n入学时间: 10月\n项目时长: 1年\n项目学费: 25500英镑/年",
+  "requirements": "具有英国良好荣誉学位（达到2:2学位或成绩达到55%）或同等学历，背景包含大量商业、管理或相关社会科学成分，并且掌握数值计算能力\n具有lower second class学位或其他学科背景的申请者可能会基于相关工作经验被考虑",
+  "objectives": "本课程为那些希望在商业心理学、人力资源管理或商业咨询方面发展事业的学生设计，得到了商业心理学协会的认可。经验丰富的研究人员和实践者将为学生提供深度培训和将心理学应用于广泛的重要业务问题的能力，例如变化管理、员工选拔与发展、领导力、工作动机、幸福感和绩效。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "在工作心理学中收集和使用证据 (Gathering and using Evidence in Work Psychology)\n领导和绩效管理 (Leadership and Performance Management)\n员工敬业度,动机和声音 (Employee Engagement, Motivation and Voice)\n福利和工作 (Well-being and Work)\n工作的设计、组织变革与发展 (Work Design, Organisational Change and Development)\n收集和使用工作心理学证据 (Gathering and using Evidence in Work Psychology)\n组织的心理评估 (Psychological Assessment in Organisations)\n职业发展 (Career Development)\n学习，发展&知识管理 (Learning, Development & Knowledge Management)\n工作心理学的实证研究项目 (Empirical Research Project in Work Psychology)",
+  "success_cases": ""
+}

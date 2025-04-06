@@ -1,0 +1,12 @@
+{
+  "school_name": "香港都会大学",
+  "major_name": "国际中文教学教育硕士",
+  "ename": "MEd Teaching Chinese as an International Language",
+  "tags": "社科,教育,教育及语文学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 114450港币/年",
+  "requirements": "持有认可的学士学位，主修对外汉语、语言研究及教育者优先",
+  "objectives": "香港都会大学国际中文教学教育硕士旨在深化学生对中文及中国文化的认识；让学生全面理解并掌握国际中文的教学专业；使学生掌握中文作为非母语学习的研究方法；加强学生对中文作为第二语言的理论探讨及实践；培养学生成为国际中文教学的专业教育者和领导者。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "汉语作为第二语言教学（一） (Teaching Chinese as A Second Language (i))\n汉语语言学导论 (Introduction to Chinese Linguistics)\n汉语第二语言习得 (Chinese Second Language acquisition)\n语言教育研究方法 (Language Education Research Methods)\n汉语作为第二语言教学（二） (Teaching Chinese as A Second Language (ii))\n第二语言教学与信息科技 (Second Language Teaching and Information Technology)\n国际中文课程与教学设计 (International Chinese Curriculum and Instructional Design)\n中华文化及跨文化交际 (Chinese Culture and Intercultural Communication)\n汉英语言对比研究 (Comparative Study of Chinese and English Languages)\n国际中文汉字与汉字教学 (International Chinese Characters and the Teaching of Chinese Characters)\n语言测试与教学评估 (Language Testing and Teaching Evaluation)\n国际中文教育专题研究 (International Chinese Education Thematic Research)",
+  "success_cases": ""
+}

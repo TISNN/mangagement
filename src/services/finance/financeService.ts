@@ -3,12 +3,14 @@ import {
   Transaction, 
   TransactionFilter, 
   TransactionForm,
-  Person,
   Project,
   ServiceType,
   Category,
   Account
 } from '../../types/finance';
+
+// 使用最新的Person类型
+import { Person as EnhancedPerson } from '../../types/people';
 
 const TRANSACTIONS_TABLE = 'finance_transactions';
 
@@ -263,7 +265,7 @@ export const financeService = {
         
       if (accountsError) throw accountsError;
       
-      // 获取人员
+      // 获取人员 - 更新为使用新的表结构
       const { data: people, error: peopleError } = await supabase
         .from('people')
         .select('*');
@@ -279,7 +281,7 @@ export const financeService = {
       
       // 获取服务类型
       const { data: serviceTypes, error: serviceTypesError } = await supabase
-        .from('finance_service_types')
+        .from('service_types')
         .select('*');
         
       if (serviceTypesError) throw serviceTypesError;
@@ -287,12 +289,91 @@ export const financeService = {
       return {
         categories: categories as Category[],
         accounts: accounts as Account[],
-        people: people as Person[],
+        people: people as EnhancedPerson[],  // 使用新的增强版Person类型
         projects: projects as Project[],
         serviceTypes: serviceTypes as ServiceType[]
       };
     } catch (error) {
       console.error('获取关联数据失败', error);
+      throw error;
+    }
+  },
+
+  // 获取与学生相关的财务数据
+  async getStudentFinancialData(studentId: number) {
+    try {
+      // 首先获取学生人员ID
+      const { data: studentProfile, error: studentError } = await supabase
+        .from('student_profiles')
+        .select('person_id')
+        .eq('id', studentId)
+        .single();
+
+      if (studentError) throw studentError;
+      if (!studentProfile) throw new Error('找不到学生资料');
+
+      const personId = studentProfile.person_id;
+
+      // 获取该学生的所有交易
+      const { data: transactions, error: transactionsError } = await supabase
+        .from(TRANSACTIONS_TABLE)
+        .select(`
+          *,
+          category:category_id(*),
+          account:account_id(*),
+          service_type:service_type_id(*)
+        `)
+        .eq('person_id', personId)
+        .order('transaction_date', { ascending: false });
+
+      if (transactionsError) throw transactionsError;
+
+      // 获取学生的所有服务
+      const { data: services, error: servicesError } = await supabase
+        .from('student_services')
+        .select(`
+          *,
+          service_type:service_type_id(*)
+        `)
+        .eq('student_id', studentId);
+
+      if (servicesError) throw servicesError;
+
+      // 计算汇总数据
+      const totalPaid = transactions
+        .filter(t => t.direction === '收入' && t.status === '已完成')
+        .reduce((sum, t) => sum + t.amount, 0);
+
+      const pendingPayments = transactions
+        .filter(t => t.direction === '收入' && t.status === '待收款')
+        .reduce((sum, t) => sum + t.amount, 0);
+
+      // 服务对应的收入
+      const serviceRevenue = services.map(service => {
+        const serviceTransactions = transactions.filter(
+          t => t.service_type_id === service.service_type_id && t.direction === '收入'
+        );
+        
+        return {
+          serviceId: service.id,
+          serviceName: service.service_type?.name || '未知服务',
+          totalAmount: serviceTransactions.reduce((sum, t) => sum + t.amount, 0),
+          paidAmount: serviceTransactions
+            .filter(t => t.status === '已完成')
+            .reduce((sum, t) => sum + t.amount, 0),
+          transactions: serviceTransactions
+        };
+      });
+
+      return {
+        transactions,
+        totalPaid,
+        pendingPayments,
+        serviceRevenue,
+        services
+      };
+    } catch (error) {
+      console.error('获取学生财务数据失败', error);
       throw error;
     }
   }

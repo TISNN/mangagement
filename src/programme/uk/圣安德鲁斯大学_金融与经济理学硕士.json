@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "金融与经济理学硕士",
+  "ename": "MSc Finance and Economics",
+  "tags": "商科,金融,经济与金融学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 29990英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要经济学或金融学专业背景（包含重要经济学成分），或者获得经济学和其他学科联合专业背景（包括微观经济学、宏观计量经济学和计量经济学的大量培训）",
+  "objectives": "圣安德鲁斯大学金融与经济理学硕士项目为学生提供了高级培训，涉及经济与金融理论工具和实证研究技术，旨在培养学生为从事国际银行业、金融行业和政府机构的工作做准备。优秀的学生将有机会在圣安德鲁斯大学金融与经济博士项目中继续深造。毕业生可以在经济、金融、贸易、保险、工业、学术界、外交部门以及银行等领域中从事工作，他们的工作地点不仅在英国、欧洲和北美国家，也在中国、台湾、香港、日本和泰国等地。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计量经济学方法与应用 (Econometrics Methods and Applications)\n投资分析 (Investment Analysis)\n宏观经济学 (Macroeconomics)\n微观经济学 (Microeconomics)\n公司金融 (Corporate Finance)\n货币政策 (Monetary Policy)\n金融中介 (Financial Intermediation)\n投资组合理论与管理 (Portfolio Theory and Management)\n实验经济学 (Experimental Economics)\n企业管治和风险 (Corporate Governance and Risk)\n兼并与收购 (Mergers & Acquisitions)\n风险管理 (Risk Management)\n论文 (Dissertation)",
+  "success_cases": ""
+}

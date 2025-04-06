@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "化学研究理学硕士",
+  "ename": "MSc Chemistry by Research",
+  "tags": "理科,化学,化学学院",
+  "introduction": "专业方向: 化学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位，需要以下背景：化学、生物化学、物理学、高分子科学、环境科学、材料科学、数学\n学位必须至少包含50%的化学内容\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学化学研究理学硕士项目旨在帮助学生在开展化学主要研究项目时增加其化学理论知识。学生将深入了解实践技能和所选领域，与众多化学研究小组之一合作，并受益于专业设施。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士研究项目 (MSc Research Project)\n化学硕士的科学写作与演讲技巧 (Scientific writing and presentation skills for Chemistry MSc)\n高级化学生物学 (Advanced Chemical Biology)\n高级有机化学(生物有机) (Advanced Organic Chemistry (Bioorganic))\n高级物理化学 (Advanced Physical Chemistry)\n高级光谱学与应用 (Advanced Spectroscopy and Applications)\n化学中的人工智能与机器学习 (Artificial Intelligence and Machine Learning in Chemistry)\n原子、分子和自旋:化学和光谱学中的量子力学 (Atoms, Molecules and Spins: Quantum Mechanics in Chemistry and Spectroscopy)\n电池材料与表征 (Battery Materials and Characterisation)\n电池技术及其应用 (Battery Technologies and their Applications)\n计算显微镜下的化学 (Chemistry through the Computational Microscope)\n色谱法:理论与应用 (Chromatography: Theory and Application)\n科学、工程和技术中的伦理:杰基尔与海德 (Ethics in Science, Engineering and Technology: Jekyll and Hyde)\n无机材料化学 (Inorganic Materials Chemistry)\n电化学导论 I (Introduction to Electrochemistry I)",
+  "success_cases": ""
+}

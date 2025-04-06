@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "化学理学硕士",
+  "ename": "MSc Chemistry",
+  "tags": "理科,化学,理学院",
+  "introduction": "专业方向: 化学\n入学时间: 9月\n项目时长: 1年\n项目学费: 186000港币/年",
+  "requirements": "具有学士学位或同等学历，需要相关科学学科背景，如化学、材料科学、分子生物学\n或具备学校接受的学术和专业成就证明\n优先考虑目前在测试和认证服务领域工作的申请者",
+  "objectives": "香港城市大学理学硕士（化学）学位课程提供众多高端化学学科，如催化，合成化学，材料&生物材料化学，分析&生物分析科学，计算化学，环境化学和化学生物学，旨在培养具备市场营销策略和经验的毕业生，以满足地方和全球工业，商业以及政府部门对研发专员的需求。学生也可以在当地和海外大学以及研究机构追求更高的研究学位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "先进化工仪表 (Advanced Chemical Instrumentation)\n化学生物学前沿 (Frontiers in Chemical Biology)\n化学&分子科学专论 (Selected Topics in Chemistry &Molecular Sciences)\n学术和工业研究，发展，创新 (Academic and Industrial Research,Development and Innovation)\n高端研讨会系列 (Advanced Seminar Series)\n硕士研讨会 (Postgraduate Symposium)\n论文 (Dissertation)",
+  "success_cases": ""
+}

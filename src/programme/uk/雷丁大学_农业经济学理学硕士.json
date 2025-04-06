@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "农业经济学理学硕士",
+  "ename": "MSc Agricultural Economics",
+  "tags": "商科,经济,农业、政策与发展学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 25850英镑/年",
+  "requirements": "具有high 2:2或以上学位。学校欢迎有相关职业经验的申请者申请申请者需要有微观经济学和定量方法的中级知识，几乎没有经济学方面培训的但是完成学期前经济学课程的优秀申请者可能会被学校录取",
+  "objectives": "随着世界人口和对世界有限资源的压力的日益增长，雷丁大学农业经济学理学硕士学位课程所涉及的农业经济学家的分析技能依旧与之息息相关。\n雷丁大学农业经济学理学硕士学位课程使学生在应用经济学、定量和定性研究方法上获取严谨、激励且有乐趣的训练；掌握在行业、政府和非政府组织中担任专业农业经济学家所需的技能。学生也可以选择专门学习发展分支专业，获得在农业发展领域就业所需的特殊技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "消费者和生产者理论 (Consumer and Producer Theory)\n资源和环境经济学 (Resource and Environmental Economics)\n计量经济学 (Econometrics)\n自主学习研究和学习技巧 (Research and Study Skills for Independent Learning)",
+  "success_cases": ""
+}

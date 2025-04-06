@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "高级细胞与基因治疗理学硕士",
+  "ename": "MSc Advanced Cell and Gene Therapies",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 32550英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要生物学、生物医学工程、生物医学科学、医药、神经科学、心理学学科背景学校也可以考虑其他医学、工程或科学学科的学位",
+  "objectives": "谢菲尔德大学高级细胞与基因治疗理学硕士项目旨在为学生提供该领域最新进展的知识，并提供全面的路线图，说明从发现到临床试验再到市场授权的高级治疗项目所需的步骤。谢菲尔德大学高级细胞与基因治疗理学硕士课程结合了学校医学院，牙科与卫生学院，学术和行业合作伙伴以及国际领先科学家的研究实力。学生将研究与罕见遗传病相关的遗传因素，以及如何采用基因和细胞疗法作为治疗选择，以及基因和细胞疗法的原理。还将探索针对个别患者量身定制的特定有效医疗方法的开发。在谢菲尔德大学高级细胞与基因治疗理学硕士课程中，学生将开发细胞和基因治疗产品的翻译途径的每个步骤的基本技能，包括：发现，载体设计，GLP临床前监管研究，GMP制造和分析，流程创新，质量控制，合格人员（QP），安全性，临床设计，商业化和市场授权。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人类遗传病概论 (An Introduction to Human Inherited Disease)\n基因和细胞疗法的原理 (Principles of Gene and Cell Therapies)\n基因和细胞疗法的原理 (Beyond Cell and Gene Therapy)\n组学技术及其在基因组医学中的应用 (Omics Techniques and their Application to Genomic Medicine)\n细胞和基因治疗学的临床发展 (Clinical Development of Cell and Gene Therapeutics)\n文献综述 (Literature Review)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

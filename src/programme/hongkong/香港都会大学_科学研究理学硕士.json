@@ -1,0 +1,12 @@
+{
+  "school_name": "香港都会大学",
+  "major_name": "科学研究理学硕士",
+  "ename": "MSc Scientific Research",
+  "tags": "工科,其他工科,科技学院",
+  "introduction": "专业方向: 其他工科\n入学时间: 9月\n项目时长: 1年\n项目学费: 177600港币/年",
+  "requirements": "具有科学和技术背景或科学背景的同等资格，申请人若完成课程所提供的英语及/或翻译笔试，并获及格成绩，则可豁免雅思或托福要求。",
+  "objectives": "香港都会大学科学研究理学硕士课程旨在为学生提供有关如何进行科学研究的关键知识和技能。学生还需要在应用科学的某些方面进行研究项目才能完成硕士学位。该项目旨在培养学生在科学研究方法方面的批判性和客观意识、知识和技，并使学生能够掌握并应用先进的实验技能进行研究项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "科学研究方法论 (Scientific Research Methodologies)\n实践中的研究与科学实验室 (Research and Science Laboratory in Practice)\n科学专业与研究技能 (Professional and Research Skills in Science)\n实践中的研究与技术实验室 (Research and Technology Laboratory in Practice)\n技术专业与研究技能   (Professional and Research Skills in Technology)\n论文 (Dissertation)",
+  "success_cases": ""
+}

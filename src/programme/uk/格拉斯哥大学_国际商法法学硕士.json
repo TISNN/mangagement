@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "国际商法法学硕士",
+  "ename": "LLM International Commercial Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 28500英镑/年",
+  "requirements": "具有2:1荣誉学位或非英国同等学历，需要法律或其他学科背景（包含至少50%的学分为法律课程）学校也可以接受其他科目的学位，辅修法律",
+  "objectives": "电子商务的不断发展并逐渐进军全球贸易市场意味着诸多工作岗位都需要掌握法律知识及技能，格拉斯哥大学国际商法法学硕士项目是法学院的优势项目，致力于培养在关键国际领域大展宏图的优秀人才。\n格拉斯哥大学有专门的的法学院图书馆，各图书馆收藏了大量法律资料和官方出版物，是欧洲文献中心之一。此外，学校开设各种实务模拟项目及模拟法庭，学生可以参加国内及国际比赛，往届成绩斐然。学生还可以积极参加学校举办的学术讲座，与优秀法官及律师展开学术交流。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级国际竞争法 (Advanced international competition law)\n公司财务 (Corporate finance)\n公司治理 (Corporate governance)\n企业社会责任与法律 (Corporate social responsibility and the law)\n担保金融法 (The law of secured finance)\n欧盟法 (European union law)\n国际竞争法 (International competition law)\n国际金融监管 (International financial regulation)\n国际贸易法 (International trade law)\n国际投资法 (International investment law)\n国际并购控制 (International merger control)\n法律与市场 (Law and markets)\n并购交易 (M & a transactions)",
+  "success_cases": ""
+}

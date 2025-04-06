@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学金史密斯学院",
+  "major_name": "计算认知神经科学理学硕士",
+  "ename": "MSc Computational Cognitive Neuroscience",
+  "tags": "工科,计算机,计算机系",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 20000英镑/年",
+  "requirements": "具有一等或2:1荣誉学位，需要相关学科（包括计算机科学、工程学、物理学、数学、统计学、生物学、心理学、医学）或密切相关领域背景\n理科、计算机科学或数学获得A-levels\n如果申请者不是毕业生或学位属于不相关的领域，但具有相关经验并能证明有能力在研究生阶段工作，也可能会被学校考虑",
+  "objectives": "理解大脑、认知和行为之间的关系是科学界目前正在研究的最大挑战之一。伦敦大学金史密斯学院计算认知神经科学理学硕士项目通过整合计算机建模和实验研究来解决这些长期存在的研究问题，该硕士课程旨在培养新一代的科学家，学生将接受神经计算建模和认知神经科学两方面的培训。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "神经科学基础 (Foundations of Neuroscience)\n统计方法 (Statistical Methods)\n皮层建模 (Cortical Modelling)\n认知神经科学 (Cognitive Neuroscience)\n认知功能建模 (Modelling Cognitive Functions)\n高级定量方法 (Advanced Quantitative Methods)\n数据编程 (Data Programming)\nMATLAB编程入门 (Introduction to coding with MATLAB)\n神经网络 (Neural Networks)\n机器学习 (Machine Learning)\n自然计算 (Natural Computing)\n研究设计与分析 (Research Design and Analysis)\n临界分析 (Critical Analysis)\n物理计算1 (Physical Computing 1)\n行为遗传学 (Behavioural Genetics)",
+  "success_cases": ""
+}

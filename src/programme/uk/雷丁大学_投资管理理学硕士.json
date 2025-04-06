@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "投资管理理学硕士",
+  "ename": "MSc Investment Management",
+  "tags": "商科,金融,亨利商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 29000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历。不限专业背景，但必须要有令人满意的计算水平",
+  "objectives": "雷丁大学投资管理理学硕士学位课程为学生将来进入快速发展且令人兴奋的投资行业奠定基础。在雷丁大学投资管理理学硕士学位课程的学习中，学生将掌握投资组合管理和定量金融的理论知识；从应用角度研究行业结构和趋势；同时受益于来自附近的伦敦全球投资行业中心的专业特邀演讲者的指导。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "证券、期货与期权 (Securities、Futures and Options)\n固定收益和股权投资 (Fixed Income and Equity Investments)\n金融市场 (Financial Markets)\n金融定量方法 (Quantitative Methods for Finance)\n投资组合管理 (Portfolio Management)\n投资管理当代议题 (Current Topics in Investment Management)\n投资管理道德 (Ethics in Investment Management)\n高级财务分析 (Advanced Financial Analysis)\n衍生证券：定价、套期保值和交易 (Derivatives Securities: Pricing、Hedging and Trading)\n外汇兑换和货币市场 (Foreign Exchange and Money Markets)\n研究项目 (Research Project)\n固定收益现金和衍生产品市场 (Fixed Income Cash and Derivative Markets)\n债券市场定价和交易战略 (Bond Market Pricing and Trading Strategies)\n公司金融 (Corporate Finance)\n衍生商品 (Commodity Derivatives)",
+  "success_cases": ""
+}

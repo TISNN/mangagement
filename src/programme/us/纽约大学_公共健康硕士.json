@@ -1,0 +1,12 @@
+{
+  "school_name": "纽约大学",
+  "major_name": "公共健康硕士",
+  "ename": "Master of Public Health",
+  "tags": "社科,公共卫生",
+  "introduction": "专业方向: 公共卫生\n项目类别: STEM\n入学时间: 春季\n项目时长: 两年\n项目学费: 60,690美元",
+  "requirements": "申请者必须持有地区认可机构的学士学位。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

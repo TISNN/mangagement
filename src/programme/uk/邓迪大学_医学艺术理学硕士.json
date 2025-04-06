@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "医学艺术理学硕士",
+  "ename": "MSc Medical Art",
+  "tags": "社科,医学,理工学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要艺术/设计或相关法医/解剖科学背景，需要一份跨传统和数字媒体能力的艺术作品集（10-15 张图片，包括一些直接观察的例子，例如人体素描或肖像雕塑）如果申请者没有研究生资格，相关的专业经验将被学校考虑在内",
+  "objectives": "邓迪大学医学艺术理学硕士课程首先为学生提供解剖学、观察绘图和解剖插图技能方面的坚实基础，然后在第二学期进入更专业的模块。学生将有机会与一系列专家一起制作现场简报，并将介绍更多专业软件，能够创建 3D 交互式模型、动画和虚拟现实体验。可以进入我们的艺术学校和我们的医学科学设施，并将从Thiel 防腐尸体和解剖学中学习解剖学。这些尸体是软修复的，保留了真实的品质，包括逼真的颜色、组织质量和灵活性。邓迪大学医学艺术理学硕士课程将由具有解剖学等科学背景的高度专业化的导师以及经验丰富的医学艺术监督员授课。这里的员工与NHS、医学插画家协会和英国医学艺术家协会密切合作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "解剖学：头颈部 (Anatomy: Head and Neck)\n研究方法 (Research Methods)\n解剖学：身体系统 (Anatomy: Body Systems)\n生活艺术 (Life Art)\n医学艺术1：当代理论与实践 (Medical Art 1: Contemporary Theory and Practice)\n医学艺术2：传播与教育 (Medical Art 2: Communication and Education)\n硕士论文 (MSc Dissertation)",
+  "success_cases": ""
+}

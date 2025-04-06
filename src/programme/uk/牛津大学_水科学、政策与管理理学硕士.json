@@ -1,0 +1,12 @@
+{
+  "school_name": "牛津大学",
+  "major_name": "水科学、政策与管理理学硕士",
+  "ename": "MSc Water Science, Policy and Management",
+  "tags": "工科,环境工程,地理与环境系",
+  "introduction": "专业方向: 环境工程\n入学时间: 10月\n项目时长: 1年\n项目学费: 34120英镑/年",
+  "requirements": "具有一等或strong 2:1荣誉学位，不限专业背景\n对于拥有美国学士学位的申请人，通常需要满足本科水平要求的最低总体 GPA 为 3.6（满分 4.0）。但是，候选人的选拔还取决于申请中的其他因素，大多数成功的申请人都取得了更高的 GPA 分数\n申请人应表现出对水相关问题的热情，最好有工作经验（如工作、教育、志愿者活动）\n需要1篇written work（不超过2000字）",
+  "objectives": "牛津大学水科学、政策与管理理学硕士项目旨在使下一代水事专业人员具备必要的综合技能,以便在水生态系统、粮食、能源、经济增长和人类消费等相互竞争的重点领域为可持续的水资源管理做出重大贡献。牛津大学水科学、政策与管理理学硕士项目涵盖三个主要研究方向，分别为水科学、水与社会以及水资源管理。水科学方向培养学生对温带、热带和半干旱地区的水科学物理、化学、生态和流行病的认知，为社会在改变自然水文过程和功能方面的作用以及对健康的影响提供基础。水与社会方向探讨了权力、利益和知识等领域如何影响水资源决策，包括水的安全和治理、法律法规、跨界水、水的获取、所有权和权利、发展用水以及不同的政治、文化、社会和经济背景下国家和民间社会的互动。水管理方向将帮助学生整合在其他方向培养的对水的认知，使学生能够更好地应对我们面临的重大水管理挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "气候和排水过程 (Climate and Catchment Processes)\n水的质量 (Water Quality)\n水与健康 (Water and Health)\n水政策 (Water Policy)\n机构治理和监管 (Institutional Governance and Regulation)\n经济环境的 (Economics of the Environment)\n论文 (Dissertation )",
+  "success_cases": ""
+}

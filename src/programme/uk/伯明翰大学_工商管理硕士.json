@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 37800英镑/年",
+  "requirements": "具有2:1良好荣誉学位或同等学历，如学位水平的专业资格\n学校也会考虑没有第一学位或专业资格但具备至少10年工作经验（包括大量管理职责）的申请者\n申请者必须具备至少3年专业经验，通常希望申请者具备至少5年专业经验，必须证明职业发展和管理职责（包括人员管理、预算管理或项目管理）",
+  "objectives": "伯明翰大学国际商务工商管理硕士（12个月课程）项目中，学生将与英国和海外的企业密切合作，体验各种层次的商业动态。学生能够不断地将理论应用于实践，能够立即将所学应用于实践，并对从事的行业产生持久的影响。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "发展战略 (Developing Strategy)\n人力资源管理 (Human Resource Management)\n国际企业 (International Business )\n营销理念与实践 (Marketing Concepts and Practice )\n运营管理 (Operations Management)\n业务战略分析 (Strategic Analysis of Business)\n企业金融学 (Entrepreneurial Finance)\n国际银行业:监管与监督 (International Banking: Regulation and Supervision)\n策略实施与管理变更 (Implementing Strategies and Managing Change )",
+  "success_cases": ""
+}

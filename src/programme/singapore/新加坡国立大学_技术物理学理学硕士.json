@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "技术物理学理学硕士",
+  "ename": "MSc Physics for Technology",
+  "tags": "理科,物理,理学院",
+  "introduction": "专业方向: 物理\n入学时间: 8月\n项目时长: 1年\n项目学费: 52320新币/年",
+  "requirements": "具有理学学士学位，需要物理学或应用物理学背景\n学校也可能考虑具有工程学学士学位（半导体、电子、光子学或材料科学专业）的申请者\n学校也可能考虑具有其他资格和成就被认为适合学习该课程的申请者\n需要提交存款证明45,000新币",
+  "objectives": "新加坡国立大学技术物理学理学硕士是一个多学科交叉专业，集物理学、光子学、电子学、材料科学和计算机科学为一体，以解决高技术领域的问题为目标。新加坡国立大学技术物理学硕士项目旨在为高科技研发专业人员和应届毕业生提供科学创新和技术方面的现有知识和技能。领域知识包括量子物理、固态物理、光子学、电子/光学材料和制造，以及计算方法。新加坡国立大学技术物理学硕士项目力求使学生既具备解决复杂问题的理论背景，又具备解决量子技术、半导体技术、光子技术和先进材料技术等方面的实际知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "物理学与技术 (Physics and Technology)\n工业物理学 (Physics in Industry)\n磁学与自旋电子学 (Magnetism and Spintronics)\n物理学与技术硕士课程论文 (M.Sc Coursework Thesis for Physics and Technology)\n量子技术器件物理学 (Device Physics for Quantum Technology)\n量子力学 III (Quantum Mechanics III)\n计算凝聚态物理学 (Computational Condensed Matter Physics)\n固体物理学 II (Solid State Physics II)\n统计力学 (Statistical Mechanics)\n电与磁 III (Electricity and Magnetism III)\n原子与分子物理学 II (Atomic and Molecular Physics II)\n粒子物理学 (Particle Physics)\n量子光学 (Quantum Optics)\n广义相对论 (General Relativity)\n天体物理学 II (Astrophysics II)",
+  "success_cases": ""
+}

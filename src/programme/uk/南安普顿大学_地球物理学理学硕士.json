@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "地球物理学理学硕士",
+  "ename": "MSc Geophysics",
+  "tags": "工科,地球科学,海洋与地球科学学院，南安普顿国家海洋学中心",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30300英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要以下学科背景之一：物理科学、数学、工程学、地球科学、化学\n学校将根据具体情况考虑其他学位资格\n如果申请者没有数学学位或者作为学位的一部分学习过一些数学，还需要在数学方面达到A level或同等学历",
+  "objectives": "地球物理学在了解地球表面下的物质方面起着关键作用，这些知识对于大型工程项目至关重要，如风力发电场、二氧化碳捕获和储存以及氢储存综合体。通过南安普顿大学地球物理学理学硕士课程，学生将学习如何应用地球物理技术来可持续地探索地球资源，获得的技能、知识和经验将帮助其成功开展职业生涯，并成为地球物理学和可持续发展领域的领导者。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "先高级勘探地球物理学 (Advanced Exploration Geophysics)\n海洋与地球科学家计算数据分析 (Computational Data Analysis for Ocean and Earth Scientists)\n地质科学家地质技术学 (Geotechnics for Geoscientists)\n地球物理学理学硕士关键和实用技能 (Key and Practical Skills for MSc Geophysics)\n理学硕士研究项目 (MSc Research Project)\n海底勘探与测量 2 (Seafloor Exploration and Surveying 2)\n我们脚下的土地：过去200万年的地质历史 (The Ground Beneath Our Feet: The Geological History of the last 2 Million Years)\n地下环境中的碳储量 (Carbon Storage in the Sub-Surface Environment)\n海平面上升与海岸管理 (Sea Level Rise and Coastal Management)",
+  "success_cases": ""
+}

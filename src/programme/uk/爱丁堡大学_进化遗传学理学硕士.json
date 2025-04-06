@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "进化遗传学理学硕士",
+  "ename": "MSc Evolutionary Genetics",
+  "tags": "工科,生物工程,生物科学学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 43300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要生物或生物医学科学、医学、农业或动物科学背景，或具有数学、统计学或物理学学位打算转入生物科学的申请者\n学校也会考虑具有低于最低要求资格但可以表现出足够的额外相关经验（如相关学科的重要工作经历）的申请者\n申请必须显示出对遗传学和定量技能感兴趣",
+  "objectives": "基因图谱技术改革和全基因组序列的出现，使得数量遗传学成为生物学领域发展最快的学科之一。爱丁堡大学进化遗传学理学硕士项目以国际知名的进化生物学研究所为依托，是该研究所与苏格兰农学院、爱丁堡大学分子医学中心、医学研究委员会人类基因小组及罗斯林研究所（克隆羊多莉的诞生地）的联合项目，每一年的教学大纲都确保经过精心调整，以跟进当前进化学、植物学、人类和动物遗传学的热点研究趋势。爱丁堡大学进化遗传学理学硕士项目将培养学生重点研究定量遗传学和基因组分析。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人口与数量遗传学 (Population and Quantitative Genetics)\n基因解释 (Genetic Interpretation)\n基因组分析中的连锁与关联 (Linkage and Association in Genome Analysis)\n定量遗传模型 (Quantitative Genetic Models)\n统计及数据分析 (Statistics and Data Analysis)\n研究计划 (Research Proposal)\n分子进化和分子系统发育 (Molecular Evolution and Molecular Phylogenetics)\n进化数量遗传学 (Evolutionary Quantitative Genetics)\n分子系统发生学 (Molecular Phylogenetics)\n生命科学家生物信息学导论 (Introduction to Bioinformatics for Life Scientists)\n分子进化 (Molecular Evolution)\n人类复杂性状的遗传学 (Genetics of Human Complex Traits)\n功能基因组技术 (Functional Genomic Technologies)\n动物遗传改良 (Animal Genetic Improvement)\n进化数量遗传学 (Evolutionary Quantitative Genetics)",
+  "success_cases": ""
+}

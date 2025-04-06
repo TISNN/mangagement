@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "财务管理理学硕士",
+  "ename": "MSc Financial Management",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 1年\n项目学费: 34930英镑/年",
+  "requirements": "具有英国大学（或海外同等机构）颁发的荣誉学位（2:1或更高水平）或研究生文凭\n能够证明超过最低入学要求的申请者将被优先考虑",
+  "objectives": "金融行业，作为每一个国家经济的核心产业，提供了很多极具挑战性且高收益回报的就业机会，这使得就业市场竞争愈发激烈，尤其是在财务管理领域。伯明翰大学财务管理理学硕士学位课程适合有数学背景但又缺乏会计学、经济学或金融学知识的毕业生而设，为学生们提供在金融领域工作所需的知识和技能，使其在竞争激烈的全球金融行业中处于优势地位。通过伯明翰大学财务管理理学硕士学位课程的学习，学生将掌握：公司财务与外汇交易市场的知识；解读和分析财务报表的能力；运用各类金融建模技术来分析数据、实施研究以及预测变量的能力；证券评估、风险管理的技能；同时也为继续攻读博士学位打下扎实的知识基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "财务建模技术 (Financial Modelling Techniques)\n高级企业财务管理 (Advanced Corporate Financial Management)\n企业财务管理 (Corporate Financial Management)\n论文 (Dissertation)\n投资者财务报表分析 (Financial Statement Analysis for Investors)\n外汇市场 (Foreign Exchange Markets)\n创业金融 (Entrepreneurial Finance)\n财政部的道德、治理与监管 (Ethics, Governance and Regulation in Treasury)\n国际资金管理 (International Treasury Management)\n金融量化技术 (Quantitative Techniques in Finance)\n风险分析与管理 (Risk Analysis and Management)\n安全分析与评估 (Security Analysis and Valuation)",
+  "success_cases": ""
+}

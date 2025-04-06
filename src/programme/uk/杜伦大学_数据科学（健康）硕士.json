@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "数据科学（健康）硕士",
+  "ename": "Master of Data Science (Health)",
+  "tags": "理科,数据科学,自然科学系",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 34000英镑/年",
+  "requirements": "具有英国一等或2:1荣誉学位或同等学历，需要不包含强大数据科学成分的任何学位背景，包括社会科学、艺术和人文科学、商业和科学\n强烈鼓励具有健康相关和医学学位的候选人申请",
+  "objectives": "杜伦大学数据科学（健康）硕士与其他数据科学硕士课程有着共同的核心，将为毕业生提供健康数据实际分析所需的定量技能。卫生是经济中一个庞大且不断增长的部门，有效利用数据对于改善对个别患者的临床护理和整体公共卫生至关重要。虽然一般数据科学技能对健康数据科学家很有用，但健康数据通常具有特殊特征(例如，患者数据或临床指标)，这也需要专门的技术来收集、分析和管理。杜伦大学数据科学（健康）硕士课程包括关于将数据用于临床和公共卫生决策的模块，以及生存和流行病学方法等相关建模技术，还涉及治理和隐私等问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机科学导论 (Introduction to Computer Science)\n数据科学统计学导论 (Introduction to Statistics for Data Science)\n数据科学数学导论 (Introduction to Mathematics for Data Science)\n社会、健康与福祉 (Society, Health and Wellbeing)\n健康数据科学模型与方法 (Models and Methods for Health Data Science)\n健康信息学与临床情报 (Health Informatics and Clinical Intelligence)\n研究项目 (Research Project)\n计算社会科学 (Computational Social Science)\n机器学习 (Machine Learning)\n数据探索与可视化 (Data Exploration and Visualization)\n战略领导 (Strategic Leadership)\n数据科学编程 (Programming for Data Science)",
+  "success_cases": ""
+}

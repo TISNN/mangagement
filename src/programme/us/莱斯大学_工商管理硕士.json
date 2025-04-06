@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯大学",
+  "major_name": "工商管理硕士",
+  "ename": "Master of Business Administration",
+  "tags": "商科,工商管理",
+  "introduction": "专业方向: 工商管理\n项目类别: STEM\n入学时间: 秋季\n项目时长: 两年\n项目学费: 69,000美元/年",
+  "requirements": "我们评估指标(平均绩点和标准化考试分数)与工作经验、招生面试和社区参与等更定性的因素相结合，以确定候选人对项目的整体适应程度。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "计算机科学理学硕士",
+  "ename": "MSc Computer Science",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有2:2荣誉学位，不限专业背景，请注意，建议最近在与计算机科学相关的学科领域获得学位的申请者申请高级计算机科学理学硕士或其他专业理学硕士选型，具有非标准背景的申请者将根据具体情况予以考虑",
+  "objectives": "拉夫堡大学计算机科学理学硕士项目适合第一学位不是计算机科学但想要在软件开发领域发展职业生涯的学生。当今的数字社会依赖于高质量的计算机系统来提供重要的服务，无论何时、何地，谁都需要它们。计算设备无处不在：汽车、医院、银行、超市、电话、门铃，他们赖以互动的全球网络一直跟随着你，其中包含的数据既非常私人，又非常庞大，这些设备、网络和数据之间交互的复杂性和重要性正在加速增长。然而，在这种难以想象的复杂性之下，一套相对较少的原则支撑着现代社会如此依赖的数字生态系统，本课程将开启学生的职业生涯，塑造这个数字生态系统，在未来几十年做得更好。\n拉夫堡大学计算机科学理学硕士项目将计算机科学理论与现代软件开发实践相结合，在本课程中将为学生提供以下方面的技能和知识：软件工程、数据库系统、面向对象的编程、人工智能的最新发展，课程旨在帮助学生成为一个自信的问题解决者，通过对该主题的理论基础以及工具和技术的强大理解来适应并将理论应用于现实生活中的挑战，学生将发展备受追捧的终身技能，在广泛的企业和组织以及他们所服务的人中开展有意义的职业生涯。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "编程基础 (Programming Fundamentals)\n数据库系统 (Database Systems)\n算法与数据结构 (Algorithms and Data Structures)\n软件工程 (Software Engineering)\n面向对象的软件开发 (Object Oriented Software Development)\n网络应用开发 (Web Application Development)\n人工智能基础 (Fundamentals of AI)\n专业主义、道德与网络安全 (Professionalism, Ethics and Cyber Security)\n计算个人项目 (Computing Individual Project)\n计算合作项目 (Computing Collaborative Project)",
+  "success_cases": ""
+}

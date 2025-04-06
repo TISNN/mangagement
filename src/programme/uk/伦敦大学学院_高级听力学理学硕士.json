@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "高级听力学理学硕士",
+  "ename": "MSc Advanced Audiology",
+  "tags": "社科,医学,大脑科学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有英国大学颁发的二等学士学位或同等学历，需要相关学科背景\n学院承认一些听力学专业人士可能有不同（非学位）进入该行业的方式，具有BAAT资格和/或听力治疗证书或文凭同时具有至少5年相关临床经验并在RCCP进行适当注册的申请者可能会被接受，具体取决于他们的相关经验，鼓励申请者与学院联系以讨论他们的申请",
+  "objectives": "伦敦大学学院耳科研究所是英国最大、基础最广泛的听力和耳聋研究学术单位之一，使学生能够从其工作人员的一系列临床和研究专业知识中受益。相关的皇家国家耳鼻喉科医院和伊士曼牙科医院拥有全国最大的临床听力科单位。\n伦敦大学学院高级听力学理学硕士课程专为执业专业人士而设计。大量可选模块以大师班（两到五天的短期课程）形式教授，然后进行教程和评估。这使得在学习期间继续工作的学生可以在如何构建理学硕士课程方面具有极大的灵活性。该计划与医疗保健提供者和行业有着密切的联系。以大师班形式提供的模块为这些公司和国际医疗保健专业人士提供了绝佳的交流机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级听力学：研究项目 (Advanced Audiology: Research Project)\n听觉前庭系统的解剖学和生理学 (Anatomy and Physiology of the Audio-Vestibular System)\n研究方法和统计 (Research Methods and Statistics)\n辅导 (Counselling)\n平衡 (Balance)\n信号、系统、声学和耳朵 (Signals, Systems, Acoustics and the Ear)\n听觉处理和相关疾病 (Auditory Processing and Related Disorders)\n前庭康复 (Vestibular Rehabilitation)\n儿科康复训练 (Paediatric Habilitation)\n听觉植入的进展 (Advances in Auditory Implants)\n耳鸣和听觉过敏的高级治疗 (Advanced Management of Tinnitus and Hyperacusis)\n儿科评估 (Paediatric Assessment)\n高级成人康复 (Advanced Adult Rehabilitation)\n健康数据分析原理 (Principles of Health Data Analytics)\n学习健康系统 (Learning Health Systems)",
+  "success_cases": ""
+}

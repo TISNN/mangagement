@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "数据科学理学硕士",
+  "ename": "MSc Data Science",
+  "tags": "理科,数据科学,计算机科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 24900英镑/年",
+  "requirements": "具有2:2英国荣誉学位或受认可的同等学历，需要计算机科学、电气或电子工程、数学、物理学、相关学科（可证明对编程和数学的一定了解）或与数据分析、数据科学或信息学相关的其他替代学科背景\n如果申请者不符合以上要求，学校也会考虑其相关工作经验",
+  "objectives": "萨里大学数据科学硕士将帮助学生成为数据科学家，数据分析师，数据工程师，数据架构师或业务分析师等。萨里大学数据科学硕士课程专门讨论数据的基础知识以及处理规模和复杂性不断增加的数据所需的技术。萨里大学数据科学硕士课程结合了对数据科学理论和实践的深入研究以及为期一年的可选行业培训，学生将有机会将自己的知识应用于与行业相关的挑战，并发现面向数据研发的商业价值。学生将掌握有关数据科学原理和实践，机器学习和数据挖掘，实用业务分析，数据库系统以及云计算的扎实的技术知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学原理与实践 (Data Science Principles And Practices)\n数据库系统 (Database Systems)\n信息安全管理 (Information Security Management)\n物联网 (Internet Of Things)\n实用商务分析 (Practical Business Analytics)\n人工智能和人工智能编程 (AI And AI Programming)\n云计算 (Cloud Computing)\n计算智能 (Computational Intelligence)\n图像处理和深度学习 (Image Processing And Deep Learning)\n商业和政府的信息安全 (Information Security For Business And Government)\n机器学习和数据挖掘 (Machine Learning And Data Mining)\n移动应用程序和Web服务 (Mobile Applications And Web Services)\n论文 (MSc Dissertation\t )",
+  "success_cases": ""
+}

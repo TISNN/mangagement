@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "现代语言与文化文学硕士",
+  "ename": "MA Modern Languages and Cultures",
+  "tags": "社科,语言,现代语言与文化学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 26370英镑/年",
+  "requirements": "具有2:1本科学位或同等学历，需要相关学科背景\n申请者需要表明在所选语言和文化方面的能力水平（本科学位水平或相当于CEFR C1），如果无法提供正式证据，学校将对申请者进行单独评估",
+  "objectives": "本课程结合了以专业为导向的教学模块和您所选现代语言文化中以研究为导向的模块，为博士研究提供了高级准备。您将在国际领先研究人员的支持下工作，利用现代语言及其相应文化研究的批判性辩论、研究技能、专业和沟通技能、公众参与和关键研究主题的专业知识。\n您将受益于对各种知识传统的批判理论和观点的介绍，并在您选择的语言和文化中发展您自己的研究专业。\n这个学位的技能：高级研究和信息综合技能；高级报告撰写和书面沟通技巧；口头沟通技巧；IT技能；公众参与技巧",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "现代语言和文化研究中的批判性辩论 (Critical Debates in the Study of Modern Languages and Cultures)\n专业发展和沟通技巧 (Professional Development and Communication Skills)\n现代语言研究技能 (Research Skills in Modern Languages)\n指导性研究项目 (Guided Research Project)\n现代语言和文化论文 (Dissertation in Modern Languages and Cultures)\n跨文化翻译：概念和理论 (Translation across Cultures: Concepts and Theories)",
+  "success_cases": ""
+}

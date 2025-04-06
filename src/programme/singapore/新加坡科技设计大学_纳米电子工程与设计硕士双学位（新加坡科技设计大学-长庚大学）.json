@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡科技设计大学",
+  "major_name": "纳米电子工程与设计硕士双学位（新加坡科技设计大学-长庚大学）",
+  "ename": "Double Degree Masters in Nano-Electronic Engineering & Design (SUTD-CGU)",
+  "tags": "工科,电气电子,硕士项目",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 34400新币/年",
+  "requirements": "该专业需要申请者对集成电路设计、研究和可靠性分析有强烈的热情，并拥有电子/电气工程或相关领域的强大背景\n也欢迎有相关工作经验的申请者。\n所有申请者应具备以下条件：\n- 至少具有学士学位或以上学历，学术成绩优秀（Second-Upper Honours及以上水平），主修电子/电气工程或相关领域；或\n- 具备至少2年相关工作经验",
+  "objectives": "新加坡科技设计大学与长庚大学纳米电子工程与设计硕士双学位（新加坡科技设计大学-长庚大学）学位项目由新加坡科技设计大学和长庚大学联合办学，旨在培养下一代纳米技术工程师和设计师。学生将体验独特的多学科学习，包括半导体行业的全部价值链，尤其是纳米电子设计、生产和测试等新兴领域。他们将能够在新加坡电子行业转型的背景下的关键领域担任职位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "可靠性工程 (Reliability Engineering)\n超大规模集成电路导论：技术与设计 (Introduction to VLSI: Technology and Design)\n超大规模集成电路测试与评估 (Test and Measurement for VLSI)\n高级超大规模集成电路晶体管模型 (Advanced Transistor Modeling for VLSI Design)\n数字电路 (Digital Electronics)\n模拟电子学 (Analog Electronics)\n射频集成电路设计 (RF IC Design)\n混合信号设计 (Mixed Signal Design)\n生物医学电子学 (Bio-Medical Electronics)\n纳米材料与设备 (Nano-Materials and Devices)\n超大规模集成电路故障分析 (Failure Analysis for VLSI)\n超大规模集成电路失效机制 (Failure Mechanisms in VLSI)\n集成电路封装可靠性 (IC Packaging Reliability)\n质量工程 (Quality Engineering)\n知识产权 (Intellectual Property (IP) Clinic)",
+  "success_cases": ""
+}

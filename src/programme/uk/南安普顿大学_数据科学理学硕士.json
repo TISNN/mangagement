@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "数据科学理学硕士",
+  "ename": "MSc Data Science",
+  "tags": "理科,数据科学,电子与计算机科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33900英镑/年",
+  "requirements": "具有upper 2:1学位（分数不低于65%），需要计算机科学或密切相关学科背景：计算机科学、计算机工程、软件工程、数学/统计学\n申请者还必须在以下课程中取得upper 2:1的成绩：\n- 1门编程课程（如MATLAB, Python, Java, C, C, C#，面向对象或高级编程语言）\n- 1门高等数学课程，最好是统计学和概率论",
+  "objectives": "南安普顿大学数据科学理学硕士项目为期一年，能够帮助学生成为专业数据科学家、掌握专业核心领域所需的知识与技能，包括操作高性能计算机集群和基于云的基础设施的能力，以及设计应用复杂的大数据分析技术。 在南安普顿大学数据科学理学硕士项目中，学生将获取诸多领域（如数据挖掘、机器学习、数据可视化等领域）的先进知识，包括当前最先进科技、编程工具包和产业社会应用场景。此外，南安普顿大学数据科学理学硕士项目将使学生拓展对于掌握现代数字化组织特有的广泛复杂的信息环境至关重要的内容方面的专业知识，从而为成为专业数据科学家奠定基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士项目 (MSc Project)\n数据可视化 (Data Visualisation)\n数据科学基础 (Foundations of Data Science)\n项目准备 (Project Preparation)\n高等数据库 (Advanced Databases)\n计算生物学 (Computational Biology)\n复杂性演化 (Evolution of Complexity)\n智能代理 (Intelligent Agents)\n高级智能代理 (Advanced Intelligent Agents)\n高级机器学习 (Advanced Machine Learning)\n计算金融 (Computational Finance)\n开放式数据创新 (Open Data Innovation)\n语义网技术 (Semantic Web Technologies)\n计算机科学的模拟建模 (Simulation Modelling for Computer Science)\n在线社交网络科学 (The Science of Online Social Networks)",
+  "success_cases": ""
+}

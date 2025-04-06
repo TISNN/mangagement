@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "地下能源工程理学硕士",
+  "ename": "MSc Subsurface Energy Engineering",
+  "tags": "工科,能源,化学工程与分析科学学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 37500英镑/年",
+  "requirements": "具有2:1荣誉学位，需要工程学科（化学、土木、机械、石油工程）或地质科学（地质学、地球物理学、石油地质学、岩石物理学、水文地质学）背景并且具备明显的工程数学背景，相关行业经验也可能与以前的学位一起被纳入考虑范围",
+  "objectives": "曼彻斯特大学地下能源工程理学硕士在能源和地下系统利用方面提供综合教学和研究课程，以实现更清洁，更可持续的能源。\n与地球和环境科学系合作开展的地下能源工程理学硕士课程将为具有独特工程学背景的学生提供机会，学习诸如地下表征、岩石和流体物理等所需的工程和建模技能，地下系统中的多相流动和输运，储层建模和模拟以及储层流体热力学。学生将获得各种行业应用（例如油藏工程、地热工程和碳固存）所需的深刻而系统的概念性理解以及实用的工程技能。此外，该计划在研究期间为学生提供与行业合作的独特机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "沟通技巧和现场工作 (Communication Skills and Field Work)\n应用地下地球科学基础 (Fundamentals of Applied Subsurface Geoscience)\n关键口译技巧 (Key Interpretation Skills)\n地下流动和反应性运输过程 (Subsurface Flow and Reactive Transport Processes)\n数值建模和模拟基础 (Fundamentals of Numerical Modelling and Simulation)\n地下流体的性质 (Properties of Subsurface Fluids)\n地下力学与地球工程 (Subsurface Mechanics and Geoengineering)\n先进的地下建模 (Advanced Subsurface Modelling)\n论文 (Dissertation)",
+  "success_cases": ""
+}

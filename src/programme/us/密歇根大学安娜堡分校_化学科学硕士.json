@@ -1,0 +1,12 @@
+{
+  "school_name": "密歇根大学安娜堡分校",
+  "major_name": "化学科学硕士",
+  "ename": "Master's Degree in Chemical Sciences",
+  "tags": "理科,化学",
+  "introduction": "专业方向: 化学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 24学分\n项目学费: 28,094美元",
+  "requirements": "申请者必须持有化学或相关领域的学士学位",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "芝加哥大学",
+  "major_name": "环境科学理学硕士",
+  "ename": "MS in Environmental Science",
+  "tags": "工科,环境工程",
+  "introduction": "专业方向: 环境工程\n项目类别: STEM\n入学时间: 秋季\n项目时长: 9门课\n项目学费: 6,856美元/课",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

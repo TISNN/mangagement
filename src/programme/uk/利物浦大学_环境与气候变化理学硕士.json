@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "环境与气候变化理学硕士",
+  "ename": "MSc Environment and Climate Change",
+  "tags": "工科,环境工程,环境科学学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 28300英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科背景。有重要及相关经验和专业资格的学生将被个别考虑",
+  "objectives": "利物浦大学环境与气候变化理学硕士学位课程注重培养学生理解能力，深入探索自然和人类学知识，寻找应对当代环境问题和改善环境的方法。通过学习，学生将提升重构环境变化，检测环境和预测环境变化的能力。利物浦大学环境与气候变化理学硕士项目内容丰富，包括一系列核心技能和技术的培训，提高学生在各个相关领域的实践和实验能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "环境和气候变化导论 (Introduction to Environment and Climate Change)\n人类世环境研究 (Research in Anthropocene Environments)\n环境政治 (Politics of the Environment)\n环保档案和建模的物理性质 (Physical Properties of Environmental Archives and Modelling Approach)\n应对环境问题 (Tackling Environmental Issues)\n分析气候过程和多样性 (Analysing Climate Processes and Variablity)\n工程设计和管理 (Project Design and Management)\n第四纪微古生物学导论 (Introduction to Quaternary Micropalaeontology)\n论文--环境科学 (Dissertation - Environmental Sciences)",
+  "success_cases": ""
+}

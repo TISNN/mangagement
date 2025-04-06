@@ -1,0 +1,12 @@
+{
+  "school_name": "斯坦福大学",
+  "major_name": "数学计算金融硕士",
+  "ename": "MS in ICME-Mathematical & Computational Finance Track",
+  "tags": "商科,金工金数",
+  "introduction": "专业方向: 金工金数\n项目类别: STEM\n入学时间: 秋季\n项目时长: 45学分\n项目学费: 54315美元/年\n平均成绩: 3.8",
+  "requirements": "推荐背景：具有扎实的数学基础,包括线性代数、数值方法、概率、随机、实分析/pde、编程、精通C语言以及对金融/实习或行业经验感兴趣",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

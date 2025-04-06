@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "人工智能理学硕士（含专业实践）",
+  "ename": "MSc Artificial Intelligence (including Professional Practice)",
+  "tags": "工科,计算机,信息与数字工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 2年\n项目学费: 13000英镑/年",
+  "requirements": "学校希望申请者具有计算机科学或相关学科的荣誉理学学士学位，学位等级不低于2:2或具备同等学历\n如果学位不是计算机科学专业，需要提供数学和编程基础知识的证据（即学位课程成绩单或工作经验）\n提供成绩单时数学与编程成绩应相当于英国60%或更高水平",
+  "objectives": "人工智能处于技术的最前沿，其潜在应用几乎是无限的。从开发在家中帮助人们的机器人，到使用人工智能建模和管理严重的健康状况，人工智能正在改变我们的生活方式。毫无疑问，这一快速发展的计算机科学领域将成为未来技术进步的中心。阿斯顿大学人工智能理学硕士（含专业实践）课程是在编码研究所的支持下开发的，以帮助打破数字学习和就业的障碍。我们将教授学生所需的专业技术信息，学生将开发自己的能力，以创造合乎道德的、合理的和适当的人工智能解决方案来应对现实生活中的挑战。以实践经验为重点，学生将有机会设计和计划、实施、测试、评估和记录学生的解决方案，为未来职业发展的挑战做好准备。学生将独立工作，并作为团队的一员参与项目和演示，包括设计自己的电脑游戏。不同的项目将使学生在发展技术专长的同时发展学生的沟通和团队工作技能，这在学生进入工作场所时是很重要的。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能：愿景与现实 (AI: Vision and Reality)\n机器学习 (Machine Learning)\n人工智能数学 (Mathematics for AI)\n多智能体系统与战略决策 (Multi-Agent Systems and Strategic Decision Making)\n研究方法与专业实践 (Research Methods and Professional Practice)\n硕士论文 (MSc Major Dissertation)\n计算智能 (Computational Intelligence)\n深度学习 (Deep Learning)\n司法推理与统计学 (Forensic Inference and Statistics)\n机器人与自治系统 (Robotics and Autonomous Systems)\n数据挖掘 (Data Mining)",
+  "success_cases": ""
+}

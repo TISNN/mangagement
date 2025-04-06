@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "工程计算与软件技术理学硕士（计算工程设计）",
+  "ename": "MSc Computational and Software Techniques in Engineering (Computational Engineering Design)",
+  "tags": "工科,计算机,航空航天",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "具有航空、机械或电气工程或计算机科学方面背景",
+  "objectives": "计算工程设计涵盖了计算机在从设计到产品制造的所有活动中的使用。它处于信息技术的最前沿，对世界各地的经济都至关重要。它是全球许多行业的重要组成部分，包括汽车、航空航天、石油、国防、金融和卫生。克兰菲尔德大学工程计算与软件技术理学硕士（计算工程设计）项目的发展反映了CED的广泛应用，并为计算和软件工程领域的行业提供了最高标准的合格工程师。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算方法 (Computational Methods)\nC++编程 (C++ Programming)\n技术管理 (Management for Technology)\n几何建模与设计 (Geometric Modelling and Design)\n计算工程结构 (Computational Engineering Structures)\n数字工程与产品设计 (Digital Engineering and Product Design)\n计算工程流体 (Computational Engineering Fluids)\n可视化 (Visualisation)\n计算优化设计 (Computational Optimisation Design)",
+  "success_cases": ""
+}

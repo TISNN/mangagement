@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 29900英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，成绩单需要显示对以下方面的理解：基础微积分、概率论、统计推断\n如果成绩单显示不清楚可以使用个人陈述来展示数学知识",
+  "objectives": "纽卡斯尔大学金融学理学硕士项目旨在促进学生对金融在国际金融体系中的作用进行批判性分析。具体而言，学生将分析特定资产管理、企业风险管理和国家风险管理，理解重要的金融原则与理论，掌握金融业中可运用的计算机技能和研究技能。完成纽卡斯尔大学金融学理学硕士项目后，学生将能够：在金融领域中运用适当的计算技能；通过计算技能展现自己出色的能力；通过以上技能计算得出分析性数据，批判评估数据质量；整合相关数据、结论与建议，并展示给专业人士与非专业观众；在金融及相关行业中，运用知识、技能与理解力来处理复杂问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融理论 (Financial Theory)\n经济学和金融学研究方法 (Research Methods in Economics and Finance)\n计量经济学导论 (Introductory Econometrics)\n金融衍生品 (Financial Derivatives)\n应用计量经济学 (Applied Econometrics)\n国际货币银行学 (International Money and Banking)\n时间序列计量经济学 (Time-Series Econometrics)\n风险建模 (Risk Modelling)\n零售及投资银行业务 (Retail and Investment Banking)\n公司金融 (Corporate Finance)\n资产组合管理 (Portfolio Management)\n财务报告概论 (Introduction to Financial Reporting)",
+  "success_cases": ""
+}

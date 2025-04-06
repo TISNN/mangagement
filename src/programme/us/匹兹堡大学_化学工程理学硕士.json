@@ -1,0 +1,12 @@
+{
+  "school_name": "匹兹堡大学",
+  "major_name": "化学工程理学硕士",
+  "ename": "MS in Chemical Engineering",
+  "tags": "工科,化工",
+  "introduction": "专业方向: 化工\n入学时间: 春季/夏季/秋季\n项目时长: 31-36学分\n项目学费: 46952美元/年",
+  "requirements": "要获得完整的研究生身份,学生应该拥有具有较高学术地位的化学工程本科学位。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

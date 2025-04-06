@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "数字取证理学硕士",
+  "ename": "MSc Digital Forensics",
+  "tags": "社科,医学,国防与安全",
+  "introduction": "专业方向: 医学\n入学时间: 10月\n项目时长: 1年\n项目学费: 32160英镑/年",
+  "requirements": "要求具有计算机科学、数字取证、信息安全、法医学学科背景。其他学科背景的学生，包括在相关专业领域（法医学、信息技术、法医学工程和法律）工作的毕业生，如果对该学科有了解并且感兴趣，也可申请。申请人若想凭借工作经验申请，需要至少7年诸如数字取证、信息技术或法医科学方面的从业经验。",
+  "objectives": "英国政府表示，从犯罪现场到法庭的整个刑事司法系统，数字法医科学是21世纪司法公正的核心。数字取证正在成为法医学中最重要的领域之一。因此，克兰菲尔德大学数字取证理学硕士课程将帮助学生了解数字法医科学、法庭技能和研究方法，为他们作为数字法医专业人员做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "入门研究 (Introductory Studies)\n法庭技能 (Courtroom Skills)\n调查取证 (Investigation and Evidence Collection)\n数字犯罪与调查导论 (Introduction to Digital Crime and Investigation)\n数字取证技术与痕迹 (Digital Forensics Techniques and Traces)\n基于互联网的调查 (Internet Based Investigations)\n数字取证程序设计 (Programming for Digital Forensics)\n移动设备取证 (Mobile Device Forensics)\n硕士论文 (Thesis)",
+  "success_cases": ""
+}

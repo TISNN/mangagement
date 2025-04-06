@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "高级机械工程理学硕士",
+  "ename": "MSc Advanced Mechanical Engineering",
+  "tags": "工科,机械工程,机械工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要化学、制造自动化、数学、机械设计、机械工程、物理、车辆工程学科背景，学校也会考虑其他工程相关学科\n申请者应该在以下四个领域的两个中至少学习一门课程：固体力学、动力学、热电、流体（详细要求见官网），注意学校不接受包含“实验/实验室”字样的课程",
+  "objectives": "谢菲尔德大学高级机械工程理学硕士项目课程灵活，旨在加强学生对机械工程的知识和理解。该课程提供了广泛的可选模块，让学生可以根据自己的兴趣定制学习，并且学生继续在许多工程领域工作。学生还将有机会通过个人研究项目进一步探索感兴趣的主题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士个人研究项目 (Msc Individual Research Project)\n专业发展作品集 (Professional Development Portfolio)\n硕士迷你研究项目 (Masters Research Mini Project)\n机械工程师的技术交流 (Technical Communication for Mechanical Engineers)\n战略工程管理和商业实践 (Strategic Engineering Management and Business Practices)\n实验和有效的计算机模型 (Experiments and Valid Computer Models)\n铁路工程和可持续运输 (Railway Engineering and Sustainable Transport)\n高级工程流体力学 (Advanced Engineering Fluid Dynamics)\n增材制造原理与应用 (Additive Manufacturing – Principles and Applications)\n高级能源与电力 (Advanced Energy and Power)\n人为因素和以用户为中心的设计 (Human Factors and User-Centred Design)\n人体运动生物力学 (Human Movement Biomechanics)",
+  "success_cases": ""
+}

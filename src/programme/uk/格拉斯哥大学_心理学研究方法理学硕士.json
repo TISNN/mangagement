@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "心理学研究方法理学硕士",
+  "ename": "MSc Research Methods of Psychological Science",
+  "tags": "社科,心理学,心理学与神经科学学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1荣誉学位或可接受的同等学历，需要心理学背景学校有时也将接受2:2荣誉学位\n作为录取过程的一部分，学校优先考虑将申请者的兴趣与学校学术导师之一进行匹配，以确保其有足够的专业知识来充分指导学生的研究项目。申请者需要在申请表中说明研究兴趣和/或联系项目联合协调员Phil McAleer博士和James Bartlett博士了解其研究兴趣。学校将根据其研究兴趣确定是否可以开展研究项目。只有当心理学与神经科学学院具备监督其研究项目的专业知识/能力时，申请者才会被录取入读该项目",
+  "objectives": "格拉斯哥大学心理学研究方法理学硕士学生提供心理学研究方法的理论指导和实践经验。该课程由所在领域的顶尖研究人员团队教授，他们将帮助学生培养卓越的理论、实践和分析技能。所有学生在完成我们的课程时都会有强烈的个人发展意识，并拥有合作者的技能和网络，这将为学生未来的心理学职业生涯提供最好的开端。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "Matlab编程简介 (Introduction to matlab programming )\n专业技能 (Professional skills )\n认知科学研究方法 (Research methods in cognitive science )\n统计与研究设计 (Statistics & research design)\n定性方法 (Qualitative methods)\n研究项目 (Research project)\n认知脑成像方法 (Cognitive brain imaging methods )\n心理学的形式模型与定量方法 (Formal models and quantitative methods for psychology )\n从视觉意识到自由意志 (From visual awareness to free will)\n视知觉与认知 (Visual perception and cognition )\n社会机器人学 (Social robotics )",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "癌症细胞生物学理学硕士",
+  "ename": "MSc Cancer Cell Biology",
+  "tags": "理科,生物,生命科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要生物学、细胞生物学或遗传学或相关学科背景。如果申请者有其他专业资格或同等地位的经验，也可能被考虑参加该课程",
+  "objectives": "在萨塞克斯大学癌症细胞生物学理学硕士项目学习期间，学生将在基因组损伤及稳定中心的癌症研究和癌症治疗设计前沿工作的科研人员指导下，获得多种癌症研究所需的重要技能的全面培训。通过萨塞克斯大学癌症细胞生物学理学硕士项目的学习，学生将全面了解分子基础及癌症细胞生物学。身处萨塞克斯大学癌症细胞生物学理学硕士项目研究型的学习环境中，学生将积累分析和实验经验，夯实生物信息学和实验的理论基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分子研究的先进方法 (Advanced Methods in Molecular Research)\n癌细胞生物学基础 (Fundamentals of Cancer Cell Biology)\n癌细胞生物学实用技术 (Practical Techniques in Cancer Cell Biology)\n当前研究课题 (Current Topics in Research)\n生命科学硕士研究项目 (Life Sciences Master of Science Research Project)\n生命科学硕士研究计划 (Life Sciences Masters Research Proposal)\n基因组稳定性、遗传疾病与癌症 (Genome Stability, Genetic Diseases and Cancer)\n基因组学和生物信息学 (Genomics and Bioinformatics)\n蛋白质形态与功能 (Protein Form and Function)",
+  "success_cases": ""
+}

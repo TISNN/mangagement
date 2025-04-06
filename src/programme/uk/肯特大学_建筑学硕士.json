@@ -1,0 +1,12 @@
+{
+  "school_name": "肯特大学",
+  "major_name": "建筑学硕士",
+  "ename": "Master of Architecture",
+  "tags": "社科,建筑,艺术与建筑学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 2年\n项目学费: 23500英镑/年",
+  "requirements": "具有英国大学颁发的建筑学二等荣誉学位，并在设计作品集方面表现出实力，或具有同等学历并且成绩或GPA达到同等标准\n一旦收到申请，申请者将被要求提交其设计作品的作品集，虽然不强制要求，但期望申请者具备完成本科学位后的专业工作经验",
+  "objectives": "肯特大学建筑硕士项目是英国皇家建筑师学会和 ARB 认可的第 2 部分建筑资格——位于肯特建筑学院，提供世界一流的设计教育。该课程以本科学习为基础，加深学生对设计思维、城市分析、理论复杂性、专业知识和历史知识等关键领域的了解。学生将受益于位于大学校园中心的独特而宽敞的设计工作室的学习和工作。\n肯特大学建筑硕士项目促进协作和跨学科机会，使学生能够通过设计活动、跨学校协作学习、研讨会和讲座以及可持续发展主导的技术和环境设计研讨会来发展技能和知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "文化背景 (Cultural Context)\n就业能力 (Employability)\n技术 4 (Technology 4)\n设计 4A (Design 4A)\n设计 4B (Design 4B)\n技术 5 (Technology 5)\n设计 5A (Design 5A)\n设计 5B (Design 5B)\n建筑教育学 (Architectural Pedagogy)\n人工制品 (Artefact)\n论文 (Dissertation)",
+  "success_cases": ""
+}

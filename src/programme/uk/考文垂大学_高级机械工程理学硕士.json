@@ -1,0 +1,12 @@
+{
+  "school_name": "考文垂大学",
+  "major_name": "高级机械工程理学硕士",
+  "ename": "MSc Advanced Mechanical Engineering",
+  "tags": "工科,机械工程,工程、环境与计算学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 20050英镑/年",
+  "requirements": "具有2:2或以上荣誉学位，需要机械、汽车或工程相关学科背景。申请者需要申请ATAS证书",
+  "objectives": "考文垂大学高级机械工程理学硕士课程旨在培养具有全面和深入理解的研究生，以应对机械工程领域的新挑战和非常规挑战，并提供创新所需的想象力和创造力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计原理与实践 (Design Principles and Practice)\n工程仿真与分析 (Engineering Simulation and Analysis)\n风力与水力发电工程 (Wind and Hydro Power Engineering)\n全球专业发展-创新与变革 (Global Professional Development- Creativity and Change)\n热流体系统 (Thermofluid Systems)\n压力与动力 (Stress and Dynamics)\n机械结构的耐用性与可靠性 (Durability and Reliability of Mechanical Structures)\n项目管理 (Project Management)\n综合设计项目 (Integrated Design Project)\n个人项目 (Individual project)",
+  "success_cases": ""
+}

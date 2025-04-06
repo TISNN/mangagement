@@ -1,0 +1,12 @@
+{
+  "school_name": "西澳大学",
+  "major_name": "国际关系硕士",
+  "ename": "Master of International Relations",
+  "tags": "社科,国际关系,社会科学学院",
+  "introduction": "专业方向: 国际关系\n入学时间: 2/7月\n项目时长: 2年\n项目学费: 39100澳元/年",
+  "requirements": "(1) 申请者必须具备以下条件：\n(a) 西澳大学认可的学士学位或同等学历；和\n(b) 相当于西澳大学加权平均分至少达到50%；和\n(c) 成功完成国际关系相关领域的先前学习；或\n(2) 在西澳大学完成国际关系研究生证书或研究生文凭。",
+  "objectives": "西澳大学国际关系硕士项目旨在传授当代国际关系分析相关的高级理论、历史与实践知识技能，尤其注重对亚太地区发展、展望、关系与可能性的研究。通过西澳大学国际关系硕士项目的学习，学生将培养信息收集与翻译、论点、政策与发展分析、就国际关系主题建立有说服力的口头与书面论据的能力。此外，西澳大学国际关系硕士项目还帮助学生掌握在职业工作中运用国际关系专业知识的方法。西澳大学国际关系硕士项目专为有意向进入商业、国际关系研究政府部门、地区或全球管治机构、国际非政府组织工作的人士而开设。国际关系专业人才在广泛职业领域内都具有充分的竞争力，并拥有多样化的就业选择。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际安全 (International Security)\n全球政治经济 (Global Political Economy)\n国际关系基础 (Foundations of International Relations )\n国际体系治理 (Governance in the International System )\n国际社会进化 (The Evolution of International Society)\n宗教、全球认同与世界政治 (Religion, Global Identities and World Politics)\n世界政治：西方穆斯林 (World Politics: Muslims in the West)\n亚太国际关系 (International Relations of the Asia–Pacific)\n非洲和平与安全 (Peace and Security in Africa)\n国际发展的批判性视角 (Critical Perspectives in International Development)\n应对国际危机 (Responding to International Crises)\n美国外交政策 (US Foreign Policy)\n中国与世界 (China and the World)\n非政府组织、管理与发展 (NGOs, Governance and Development)\n国际合作研究经验 (International Collaborative Study Experience)",
+  "success_cases": ""
+}

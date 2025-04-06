@@ -1,0 +1,12 @@
+{
+  "school_name": "明尼苏达大学双城分校",
+  "major_name": "商业分析硕士",
+  "ename": "Master of Science in Business Analytics",
+  "tags": "商科,商业分析",
+  "introduction": "专业方向: 商业分析\n项目类别: STEM\n入学时间: 夏季（6月）\n项目时长: 1年，45学分\n项目学费: 65250美元/年\n项目规模: 119人\n平均成绩: 3.54\n平均G: 703/320\n国际学生: 87%\n男女比例: 60:40\n就业比例: 100%",
+  "requirements": "至少需要以下一种计算机编程语言的计算机编程能力证明： Python、C、C、C#、VB（不是 VBA）或 Java。\n至少需要一门大学水平的微积分课程。\n推荐至少一门大学水平的统计学课程,强烈建议有一些相关的实习经历。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "营养学理学硕士",
+  "ename": "MSc Nutrition",
+  "tags": "工科,食品科学,生命科学与药学学院",
+  "introduction": "专业方向: 食品科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 35800英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，第一学位需要是生物科学（包括生物化学和生理学的组成部分），或具备医学、牙科或兽医学的可注册资格\n申请者可能需要面试",
+  "objectives": "伦敦大学国王学院营养学理学硕士课程是一个为期一年的强化课程，是生物科学或医学专业毕业生的理想选择。旨在为学生提供营养领域的广泛知识和理解，并将其科学技能发展到研究生水平。学生将与世界上一些顶尖的专家一起学习，并在他们的指导下进行一个研究项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "临床营养 (Clinical Nutrition)\n公共卫生营养 (Public Health Nutrition)\n营养原理 (Principles of Nutrition)\n营养研究技能 (Nutrition Research Skills)\n营养研究项目 (Nutrition Research Project )",
+  "success_cases": ""
+}

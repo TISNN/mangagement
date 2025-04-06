@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "电力工程理学硕士",
+  "ename": "MSc Electrical Power Engineering",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 37300英镑/年",
+  "requirements": "具有英国2:1学位或同等学历，需要电气和/或电子工程背景\n学校可能考虑不同学术背景的申请者，需要至少通过2门动力工程相关课程，成绩至少达到相当于英国2:1的水平。相关课程有电力电子、电力系统、电机、控制工程、可再生能源等。相关行业经验可以部分满足这一要求，具有非标准背景的申请者可能根据具体情况予以进行考虑\n典型的录取通常要求申请者具备英国一等荣誉学位或同等学历",
+  "objectives": "电力工程理学硕士这个为期一年的项目旨在为毕业生和专业人员提供现代电力工程技术的广泛和强有力的培训，重点可再生能源转换和智能电网。适合希望发展相关行业专业知识和技能的应届毕业生，也适合作为在学术或工业环境中为研究工作做准备的高级学习。在第一学期和第二学期，课程包括授课课程、研讨会和由该领域顶尖专家领导的小组设计项目，涵盖电力系统、电机和电力电子的关键课题。课程的最后一部分是个人论文，这为学生在电力工程的实际问题中应用他们所获得的技能提供了一个很好的机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "可持续能源技术 (Technologies for Sustainable Energy)\n电力系统及机器 (Power Systems and Machines)\n能源与环境经济学 (Energy and Environmental Economics)\n能量转化 (Power Conversion)\n电力工程先进控制 (Advanced Control for Power Engineering)\n电力工程研究技术 (Power Engineering Research Techniques)\n电力系统工程与经济学 (Power Systems Engineering and Economics)\n高级电机学 (Advanced Electrical Machines)\n电力电子能源系统 (Power Electronics for Energy Systems)\n风能原理 (Principles of Wind Energy)\n太阳能与光伏系统 (Solar Energy and Photovoltaic Systems)\n分布式能源与智能电网 (Distributed Energy Resources and Smart Grids)",
+  "success_cases": ""
+}

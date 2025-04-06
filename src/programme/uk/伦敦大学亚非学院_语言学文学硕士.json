@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学亚非学院",
+  "major_name": "语言学文学硕士",
+  "ename": "MA Linguistics",
+  "tags": "社科,语言,语言、文化和语言学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 25320英镑/年",
+  "requirements": "不限专业",
+  "objectives": "现代语言学是关于世界语言的科学研究，探索其发音系统、语法结构、语言与文化的交流、语言的含义以及当代科技中语言的运用。语言学家致力于探讨不同语言的相同结构以及语言划分的界限。伦敦大学亚非学院语言学文学硕士项目为授课型硕士项目，学生将学习音韵学、形态学、句法学与语义学等语言学核心课程，同时项目也开设不同领域的选修课供学生选择。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级句法（硕士） (Advanced Syntax (Masters))\n语义学问题（硕士） (Issues in Semantics (Masters))\n语言学定向阅读/ B语言结构\t (Directed Readings in Linguistics/the Structure of Language B)\n历史语言学（硕士） (Historical Linguistics (Masters))\n语言规划与政策 (Language Planning and Policy)\n语言支持和振兴 (Language support and revitalisation)\n语言，社会与传播（硕士） (Language, Society and Communication (Masters))\n描述语言学 (Descriptive Linguistics)\n语篇和语用：所用语言（PG） (Discourse and Pragmatics: Language in Use (PG))\n语言类型学（硕士） (Linguistic Typology (Masters))",
+  "success_cases": ""
+}

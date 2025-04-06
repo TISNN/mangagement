@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "商业与管理（金融）理学硕士",
+  "ename": "MSc Business and Management with Finance",
+  "tags": "商科,金融,阿斯顿商学院",
+  "introduction": "专业方向: 金融\n入学时间: 4月\n项目时长: 1年\n项目学费: 22750英镑/年",
+  "requirements": "要求数学、统计数据 、经济学（微观/宏观）、金融、计算机科学或任何其他定量学科背景雅思6，有2项不低于5.5，有不超过2项为5.5的申请人须参加并通过研究生英语课程的学期英语课程。",
+  "objectives": "阿斯顿大学商业与管理（金融）理学硕士项目使学生能够全面了解现代商业实践，提高分析和批判性思维能力。为毕业生解决复杂的问题和制定战略做好准备，或者如果学生选择自己创业，也可以为创业做好准备。\n在教学阶段，学生将深入研究公司金融和衍生品等主题，提高在这些领域的技能。学生还将扩展自己在业务可持续发展和运营管理方面的知识，这对于了解当代商业格局至关重要。此阶段磨练重要的可转移技能，为学生在商业或财务管理领域的充满活力的职业生涯奠定基础，并具有团队合作、沟通和领导力的优势。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级企业融资 (Advanced Corporate Finance)\n衍生品 (Derivatives)\n固定收益证券 (Fixed Income Securities)\n战略业务可持续性 (Strategic Business Sustainability)\n运营管理 (Operations Management)\n人与世界组织 (People and World Organisations)\n全球商业挑战 (Global Business Challenge)\n学术实践中的道德规范 (Ethics in Academic Practice)\n研究生英语 (English for Postgraduate Studies)",
+  "success_cases": ""
+}

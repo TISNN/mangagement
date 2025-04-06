@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "计算金融学理学硕士",
+  "ename": "MSc Computational Finance",
+  "tags": "商科,金工金数,自然、数学与工程科学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 40000英镑/年",
+  "requirements": "具有high 2:1本科（荣誉）学士学位或同等学历，需要计算机科学或其他相关定量学科背景（如数学、统计学、物理学、自然科学、电子工程、通用工程、运筹学，或两个此类学科的联合学位）\n申请者还应具备基础数学的良好背景，特别是熟悉微积分、三角、线性代数、向量和矩阵数学的标准概念，此外，申请者应具备计算机编程能力，接近计算机科学理学学士荣誉学位第一学年结束时的预期水平",
+  "objectives": "伦敦大学国王学院计算金融学理学硕士项目授以学生多种业界人士及金融机构认证的计算方法，并鼓励学生灵活运用在当今复杂的市场环境当中，为学生在计量方法、金融工具、科学计算、数值计算法、高性能运算、分布式账本、大数据分析及基于主体建模法等方面打下坚实的基础。伦敦大学国王学院计算金融学理学硕士项目以实践为基础，学生可以在实验室环节中应用课堂所学处理现实世界的数据，分析真实案例。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算金融学个人项目 (Computational Finance Individual Project (MSc Dissertation))\n金融科学计算 (Scientific Computing for Finance)\n金融定量方法 (Quantitative Methods in Finance)\n金融专家讲座 (Industry – Expert Lectures in Finance)\n金融主体建模法 (Agent Based Modelling in Finance)\n高频金融 (High-frequency Finance)\n金融市场 (Financial Markets)\n数字信号处理基础 (Fundamentals of Digital Signal Processing)\n密码学和信息安全 (Cryptography and Information Security)\n金融数学C++应用 (C++ for Financial Mathematics)\n生物激励法 (Biologically Inspired Methods)\n金融统计学 (Statistics in Finance)\n不完全市场 (Incomplete Markets)\n软件工程和金融系统的基础技术 (Software Engineering and Underlying Technology for Financial Systems )\n分布式分类账和密码货币 (Distributed Ledgers and Crypto-Currencies)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学圣地亚哥分校",
+  "major_name": "数据科学理学硕士",
+  "ename": "MS in Data Science",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 48学分\n项目学费: 32685.98美元/年",
+  "requirements": "1. 学士学位： 工程、计算机科学、数学、统计、认知科学、科学学科、计量社会科学（如经济学）,或其他专业带有编程、微积分、概率论、统计经历2. GPA： 3.0/4.0",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

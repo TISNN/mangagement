@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "统计学理学硕士",
+  "ename": "MSc Statistics",
+  "tags": "理科,数学,数学、统计与物理学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31700英镑/年",
+  "requirements": "具有2:1理学学士荣誉学位或同等学历，需要数学科学或其他具有正式数学成分的定量学位背景，示例包括但不限于计算机科学、经济学、工程学和类似学科学校鼓励非标准背景的申请者和具有丰富相关工作经验的个人申请，并将根据个人情况进行考虑",
+  "objectives": "统计学和概率是现代数据科学、机器学习和人工智能的基石。随着这些技能在各个领域变得越来越重要，纽卡斯尔大学统计学理学硕士项目将为学生提供职业生涯所需的专业知识。通过本学位，学生将踏上掌握统计学的旅程。学生的理解将提升到新的高度，同时挑战自己，寻找数据驱动的解决实际问题的解决方案。\n纽卡斯尔大学统计学理学硕士课程将统计学和概率学的研究生培训与实际应用相结合，独具特色。学生将探索各种高级主题，并全面了解该学科。课程旨在培养学生在前沿研究方面的专业知识，让学生能够促进创新并始终处于所选领域的最前沿。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计与数据科学研究生基础 (Graduate Foundations of Statistics and Data Science)\n研究生概率论与数理统计基础 (Graduate Foundations of Probability and Mathematical Statistics)\n统计学论文 (Dissertation in Statistics)\n统计与数据科学工业论文 (Industrial Dissertation in Statistics and Data Science)\n高级主题临床试验 (Clinical Trials with Advanced Topics)\n健康数据科学决策建模与高级主题 (Decision Modelling for Health Data Science with Advanced Topics)\n医学统计和健康数据科学高级主题 (Advanced Topics in Medical Statistics and Health Data Science)\n机器学习统计基础与高级主题 (Statistical Foundations of Machine Learning with Advanced Topics)\n实验设计与高级主题 (Experimental Design with Advanced Topics)\n概率论与高级主题 (Probability Theory with Advanced Topics)\n极值理论与高级主题 (Extreme Value Theory with Advanced Topics)\n运动建模与先进的主题 (Sports Modelling with Advanced Topics)\n生存分析与高级主题 (Survival Analysis with Advanced Topics)\n具有高级主题的时间序列 (Time Series with Advanced Topics)\n随机金融建模与高级主题 (Stochastic Financial Modelling with Advanced Topics)\n统计遗传学与高级主题 (Statistical Genetics with Advanced Topics)\n统计与数据科学高级主题 (Advanced Topics in Statistics and Data Science)",
+  "success_cases": ""
+}

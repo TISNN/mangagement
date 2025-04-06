@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "计算和语料库语言学理学硕士",
+  "ename": "MSc Computational and Corpus Linguistics",
+  "tags": "社科,语言,艺术、语言与文化学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 31000英镑/年",
+  "requirements": "通常具有一等或2:1荣誉学位或同等学历，一般来说这将是一个在某种程度上涉及语言研究的学位，包括语言学或特定语言\n具有其他领域（如哲学）学位的优秀申请者将会被考虑",
+  "objectives": "曼彻斯特大学计算和语料库语言学理学硕士提供计算语言学（机器对人类语言处理的研究）和语料库语言学（通过文本数据库对人类语言进行科学研究）的全面培训。作为学生，您将学习理论基础计算机自然语言处理（人工智能领域）以及语言的数据密集型研究。您还将获得计算机编程、统计和研究设计的基本技术，并反思这些应用程序的道德含义。\n通过该课程讲加深学生对自然语言处理任务和技术的理解；\n参与围绕人工智能的伦理和社会影响的辩论；\n批判性地研究计算语言学的研究文献以及语料库在语言学不同子领域的使用；\n编写用于自然语言处理和语料库分析的计算机程序。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算语言学 1 (Computational Linguistics 1)\n计算语言学 2 (Computational Linguistics 2)\n基础统计学 (Foundational Statistics)\n语料库语言学 (Corpus Linguistics)\n计算与语料库语言学研究方法 1 (Research Methods in Computational and Corpus Linguistics 1)\n计算与语料库语言学研究方法 2 (Research Methods in Computational and Corpus Linguistics 2)\n法律语言学 (Forensic Linguistics)\n语言习得专题 (Topics in Language Acquisition)\n意义研究专题 (Topics in the Study of Meaning)\n实验语音学 (Experimental Phonetics)\n作为社会实践的话语 (Discourse as Social Practice)",
+  "success_cases": ""
+}

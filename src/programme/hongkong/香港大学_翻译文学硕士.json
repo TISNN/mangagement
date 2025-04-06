@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "翻译文学硕士",
+  "ename": "MA Translation",
+  "tags": "社科,语言,文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 222000港币/年",
+  "requirements": "具有认可大学颁授的学士学位或同等学历\n学校也可能考虑具有同等专业资格的申请者",
+  "objectives": "香港大学翻译文学硕士课程旨在培养学生从事笔译、口译、文案、编辑、语文教师和学术研究等职业的能力，重点是香港的翻译和口译市场及其独特的学术惯例，融合了中西方研究的见解。翻译课程提供实践和学术培训，教授商业、法律、媒体和公共行政翻译技巧，以及翻译的文化、语言和一般理论方面。口译课程侧重于会议和法律口译技能，这对于香港的私营和公共部门都至关重要。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级翻译研究 (Advanced Translation Studies)\n翻译方法 (Approaches to Translation)\n口译概论 (Introduction to Interpreting)\n译者语言对比 (Language Contrast for Translators)\n文化与翻译 (Culture and Translation)\n政府与商业文本翻译 (Translation of Government and Commercial Texts)\n法律翻译 (Legal Translation)\n大众传媒翻译 (Mass Media Translation)\n英粤会议口译 (English-Cantonese Conference Interpreting)\n英粤法律口译 (English-Cantonese Legal Interpreting)\n音乐作品与歌词翻译 (Translation of Music Writings and Lyrics)\n顶点体验：笔译/口译项目 (Capstone Experience: Translation / Interpreting Project)",
+  "success_cases": ""
+}

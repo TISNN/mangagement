@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯敏斯特大学",
+  "major_name": "应用生物技术理学硕士",
+  "ename": "MSc Applied Biotechnology",
+  "tags": "理科,生物,生命科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 17600英镑/年",
+  "requirements": "具有生物科学或相关学科的2:2荣誉学位；或具有同等地位的专业资格以及相关工作经验；或具有课程团队认为合适的同等资格",
+  "objectives": "威斯敏斯特大学应用生物技术理学硕士课程已得到广泛更新，包包括广泛的现代分子生物学技术以及当今社会如何使用生物技术，学生将以实践经验补充其理论研究，深入研究一系列主题，包括生物活性化合物、工业生物过程、微生物生理学和发酵技术、微生物生产新代谢物、发酵的监测和控制、生物技术主题和生物反应器类型。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级分子生物学 (Advanced Molecular Biology)\n发酵技术 (Fermentation Technology)\n工业与环境生物技术 (Industrial And Environmental Biotechnology)\n研究生研究方法 (Postgraduate Research Methods)\n研究生项目 (Postgraduate Project)\n科学、技术与商业化 (Science, Technology And Commercialisation)\n生物信息学 (Bioinformatics)\n传播科学 (Communicating Science)\n扩展研究生项目 (Extended Postgraduate Project)\n药理学与药物开发导论 (Introduction to Pharmacology and Drug Development)\n分子与细胞疗法 (Molecular And Cellular Therapeutics)\n再生医学 (Regenerative Medicine)\n系统生物学 (Systems Biology)",
+  "success_cases": ""
+}

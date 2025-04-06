@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦政治经济学院",
+  "major_name": "健康数据科学理学硕士",
+  "ename": "MSc Health Data Science",
+  "tags": "理科,数据科学,健康政策系",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 28900英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，其中包含大量定量方法知识，包括大量统计学知识，不符合此要求的优秀申请者将根据个人情况予以考虑",
+  "objectives": "健康数据科学理学硕士是一个旨在使未来的卫生数据分析师具备解释、分析、评估和评估卫生干预措施、服务、规划和政策所需的技能的方案。这是伦敦政治经济学院健康政策系和统计学系之间的一个联合项目。伦敦政治经济学院健康数据科学理学硕士课程旨在使学生在评估健康和保健的数据科学的理论、技术和实践技能方面有一个彻底的基础。学生将被教导使用一系列与健康背景相关的统计方法，包括机器学习、数据挖掘、人工智能和深度学习技术。该课程的专业课程也将使学生能够应用数据科学和统计学的先进方法来调查现实世界的卫生政策问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据管理与可视化 (Managing and Visualising Data)\n数据分析与统计方法 (Data Analysis and Statistical Methods)\n应用健康计量经济学 (Applied Health Econometrics)\n健康系统绩效评估的方法与数据 (Methods and Data for Health Systems Performance Assessment)",
+  "success_cases": ""
+}

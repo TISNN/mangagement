@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "建设项目管理理学硕士",
+  "ename": "MSc Construction Project Management",
+  "tags": "工科,工程管理,架构、建筑与土木工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 10月\n项目时长: 1年\n项目学费: 25500英镑/年",
+  "requirements": "具有英国2:2荣誉学位（成绩达到55%）或同等学历，需要建筑环境相关的学科背景，专业机构的会员资格可能可以代替满足学位要求",
+  "objectives": "拉夫堡大学在建设方面的教学时间比英国其他大学都要长。本课程涉及建设领域的技术和管理两方面知识，同时还为学生提供了一个更全面的欣赏建设项目的过程。建设项目经理的角色正在发生变化，在交付客户项目时，他们扮演着更具战略性和组织性的角色。本项目的理念就是为毕业生在行业中担任这些领导角色提供良好的帮助。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究方法 (Research Methods)\n设计和施工原则 (Principles of Design and Construction)\n项目管理原理 (Principles of Project Management)\nBIM的原理及应用 (Principles and Applications of BIM)\n设计管理 (Design Management)\n可持续性和建筑环境 (Sustainability and the Built Environment)\n管理施工流程和技术 (Management of Construction Processes and Techniques)\n战略管理和工程建设 (Strategic Management for Construction and Engineering)\n建设法律和合同管理 (Construction Law and Contract Management)\n联合建筑信息模型(BIM) (Federated Building Information Modelling (BIM))",
+  "success_cases": ""
+}

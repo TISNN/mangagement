@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦政治经济学院",
+  "major_name": "创新政策理学硕士",
+  "ename": "MSc Innovation Policy",
+  "tags": "社科,公共政策与事务,地理与环境学系",
+  "introduction": "专业方向: 公共政策与事务\n入学时间: 9月\n项目时长: 1年\n项目学费: 28900英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景，优先考虑社会科学背景，除了良好的学术背景外，学校还会考虑适当的工作经验",
+  "objectives": "伦敦政治经济学院创新政策理学硕士课程旨在提供理论见解和实际应用的强大融合，为学生有效地设计、实施和评估创新和创新政策做好准备。该课程学生将深入探讨一系列经济背景下（包括发达国家和发展中国家）的最新经验证据和案例研究，以全面理解创新政策的相关性和影响，向领先的学者、行业专家和政策制定者学习，他们将现实世界的经验和前沿研究带到课堂上，通过实际项目、案例研究和专注于创新政策的论文应用其知识，确保学生毕业时具有先进的研究技能和实践经验，可以应用于现实世界。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "创新政策基础 (Foundations of Innovation Policy)\n创新政策大师课 (Masterclass in Innovation Policy)\n论文 (Dissertation)\n包容性增长 (Inclusive Growth)\n全球化与地域发展：理论、证据与政策 (Globalisation and Territorial Development: Theory, Evidence and Policy)\n地方与区域发展经济学 (Economics of Local and Regional Development)\n区域发展与政策 (Regional Development and Policy)",
+  "success_cases": ""
+}

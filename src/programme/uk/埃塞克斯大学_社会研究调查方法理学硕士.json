@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "社会研究调查方法理学硕士",
+  "ename": "MSc Survey Methods for Social Research",
+  "tags": "社科,社会学与社工,社会学系",
+  "introduction": "专业方向: 社会学与社工\n入学时间: 10月\n项目时长: 1年\n项目学费: 21700英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要社会科学、人文科学、统计学或数学背景，学位必须包含至少2门定量或研究方法课程（可以包括研究项目/论文）低于2:2学位或同等学历或非社会科学学位的学生的申请将根据其相关专业或志愿经验、以前学习的课程和/或个人陈述进行考虑",
+  "objectives": "使用什么方法发现人们的行为、他们的信仰和他们持有的观点？需要什么样的抽样技术来访问不同类型的人口？设计问卷的最佳方法是什么？埃塞克斯大学社会研究调查方法理学硕士项目将为这些问题和更多问题提供答案，为学生在社会、学术或市场研究方面的职业生涯做准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "定量分析概论 (Introduction to Quantitative Analysis)\n高级定量分析：因果模型 (Advanced Quantitative Analysis: Models for Cause and Effect)\n勘察设计与管理概论 (Introduction to Survey Design and Management)\n调查抽样，无响应与推理 (Survey Sampling, Non-Response and Inference)\n调查测量与问题设计 (Survey Measurement and Question Design)\n论文 (Dissertation)",
+  "success_cases": ""
+}

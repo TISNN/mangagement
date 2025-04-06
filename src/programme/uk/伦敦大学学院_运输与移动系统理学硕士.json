@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "运输与移动系统理学硕士",
+  "ename": "MSc Transport and Mobility Systems",
+  "tags": "工科,交通运输,工程科学学院",
+  "introduction": "专业方向: 交通运输\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有2:1英国学士学位或同等学历，需要相关学科背景",
+  "objectives": "伦敦大学学院运输与移动系统理学硕士项目旨在为下一代运输和出行领导者提供所需的知识和技能，以创建可持续、安全、可靠、无障碍、公平、有弹性、促进健康和福祉并为所有人服务的运输和出行系统。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究项目 (Research Project)\n公共政策论文 (Public Policy Dissertation)\nPEARL论文 (PEARL Dissertation)\n商业案例论文 (Business Case Dissertation)\n运输基础设施及其运作 (Transport Infrastructure and its Operation)\n运输系统转型 (Transport System Transitions)\n流动、人民与社会 (Mobility, People and Society)\n运输与环境 ( Transport and the Environment)\n运输政策、治理与经济 ( Transport Policy, Governance and Economics)\n可靠性、风险与恢复工程 (Reliability, Risk and Resilience Engineering)\n城市可持续性与恢复力的跨学科思考 (Interdisciplinary Thinking in Urban Sustainability and Resilience)\n运输与卫生 (Transport and Health)\n城市轨道规划与分析 (Urban Railway Planning and Analysis)\n运输和行为改变 (Transport and Behaviour Change)\n共享移动与大众交通系统 (Shared Mobility and Mass Transport Systems)",
+  "success_cases": ""
+}

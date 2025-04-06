@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "环境科学理学硕士",
+  "ename": "MSc Environmental Science",
+  "tags": "工科,环境工程,地球与环境科学学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 29990英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要生物、环境或物理科学、地理或其他学科相关领域背景",
+  "objectives": "圣安德鲁斯大学环境科学理学硕士项目为来自不同科学背景的学生提供了应对这个时代最大环境挑战所需的实践和理论技能。该学位教学内容包括分析科学和数据分析、建模技术、修复实践以及从大气到土壤、河流和海洋的生物地球化学过程的重建方面的培训。课程包括在全球公认的环境灾难现场进行一次顶级的实地练习，并以一篇围绕独立环境影响评估项目的论文结束。本课程适合具有生物、化学、物理或自然科学（如地质、环境科学或地理）背景的毕业生，如果他们希望在专业环境部门就业或获得博士学位的研究机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地球化学分析方法 (Analytical Methods in Geochemistry)\n地球化学野外考察 (Geochemistry Field Excursion)\n全球资源挑战 (Global Resource Challenges)\n污染与水化学 (Pollution and Aqueous Chemistry)\n统计与分析科学 (Statistics and Analytical Sciences)\n论文或项目 (Dissertation/Project)\n环境管理地理信息系统 (Geographic information Systems for Environmental Management)\n同位素地球化学：理论、技术和应用 (Isotope Geochemistry: Theory, Techniques, and Applications)\n国土资源管理 (Managing Natural Resources)\n地球科学中的编码和建模 (Coding and Modelling in Earth Sciences)\n地球化学 (Geochemistry)\n海洋与大气学 (Oceans & Atmospheres)\n气候科学专题 (Special Topics in Climate Science)\n地球科学家的地下模拟和地球物理学 (Subsurface Modelling and Geophysics for Earth Scientists)",
+  "success_cases": ""
+}

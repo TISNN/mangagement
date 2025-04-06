@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "语言研究文学硕士",
+  "ename": "MA Language Studies",
+  "tags": "社科,语言,人文与社会科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 186000港币/年",
+  "requirements": "要符合入学资格，申请者必须：\n持有由大学教育资助委员会资助的香港高等教育院校颁发的学位；或\n持有由认可的本地或非本地院校颁发的相当于上述级别的学位；或\n符合大学认可的专业机构企业会员的学术要求；或\n已获得大学接受的同等资格，或能够提供为大学所接受的学术和专业成就的证据申请人可能需要参加入学考试和/或面试",
+  "objectives": "香港城市大学语言研究文学硕士项目旨在让学生了解语言的性质，以探索语言在香港背景下对社会和文化的各种影响，创建一个框架，允许学生选择语言的一个特定方面及其与特定社会/文化过程的互动，无论是语言结构、语言、翻译和口译还是语言研究的应用，提高学生的智力，使他们能够更有效地发挥语言专业人员的作用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语言学通用方向 (General Linguistics Stream)\n语言及其应用 (Language and its Applications)\n社会语言与文化 (Language and Culture in Society )\n语音学及音系学 (Phonetics and Phonology )\n句法学与构词学 (Syntax and Morphology )\n语义和语篇 (Semantics and Discourse )\n汉英语法对比研究 (Contrastive Studies of Chinese and English Grammar )\n系统功能语言学 (Systemic Functional Linguistics )\n语言哲学 (Philosophy of Language)\n历史语言学 (Historical Linguistics)\n语言共性与语言类型学 (Language Universals and Linguistic Typology )\n语言学专题研究 (Special Topics in Linguistics)\n粤语的发音、词汇、语法 (The Cantonese Language: Pronunciation, Lexicon and Grammar)\n汉语语法 (Grammar of Chinese )\n语用学 (Pragmatics )\n语义学的高级专题研究语文研究与应用 (Advanced Topics in Semantics Language Studies and Applications Stream)\n语言及其应用 (Language and its Applications)\n社会语言与文化 (Language and Culture in Society )\n心理语言学 (Psycholinguistics)\n社会语言学 (Sociolinguistics)\n语料库语言学 (Corpus Linguistics)\n篇章语言学 (Text Linguistics)\n计算机语言学 (Computational Linguistics)\n计算词典编纂学 (Computational Lexicography)\n计算机辅助语言学习 (Computer-Assisted Language Learning)\n术语学 (Terminology)\n翻译技巧 (Translation Technology)\n人机交互翻译 (Human-Machine Interactive Translation  )\n第二语言习得的研究 (Studies of Second Language Acquisition)\n对外汉语教与学 (Learning and Teaching Chinese as a Foreign Language)\n应用语言学研究方法翻译及传译方向 (Research Methodology for Applied LinguisticsTranslation and Interpretation Stream )\n语言及其应用 (Language and its Applications )\n社会语言与文化 (Language and Culture in Society )\n翻译理论 (Theory of Translation)\n翻译方法论 (Translation Methodology)\n口译方法论 (Interpretation Methodology)\n译者双语阅读与写作 (Bilingual Reading and Writing for Translators)\n汉英教学语法 (Pedagogical Grammar: Chinese and English)\n术语学 (Terminology)\n文体与翻译 (Stylistics and Translation)\n翻译中的文化 (Culture in Translation)\n交替传译 (Consecutive Interpretation)\n翻译技巧 (Translation Technology )\n翻译中的语言文学 (Language and Literature in Translation)\n翻译与比较文学 (Translation and Comparative Literature)\n高级口译 (Advanced Interpreting)",
+  "success_cases": ""
+}

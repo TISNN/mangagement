@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "数字考古学理学硕士",
+  "ename": "MSc Digital Archaeology",
+  "tags": "社科,历史,考古学院",
+  "introduction": "专业方向: 历史\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:2学位或同等学历\n学校会考虑成熟学生或那些具有非常规学历但具备针对该领域的相关专业经验和热情的申请者，要了解专业经验或资格是否合适，需要联系课程负责人\n需要提交2篇written work",
+  "objectives": "约克大学数字考古学理学硕士项目提供了在遗产部门高度重视的实际应用经验和广泛的应用基础。您将获得全套研究计算硬件和软件，并掌握互联网应用、数据库设计和管理、图形信息系统（GIS）技术、CAD和计算机建模系统的知识。我们的许多毕业生继续从事考古计算，在合同单位或县的档案组织工作。其他人则将其计算技能应用于更主流的考古工作、博物馆或其他领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "考古学中的数字知识生产 (Digital Knowledge Production in Archaeology)\n分析和可视化 (Analysis and Visualisation)\n历史建筑分析 (Analysing Historic Buildings)\n人类骨骼的考古学 (The Archaeology of Human Bones)\n成为人类：进化的思想和社会 (Becoming Human: Evolving Minds and Societies)\n文化遗产管理I (Cultural Heritage Management I)\n民族志 (Ethnoarchaeology)\n建筑物测量 (Buildings Survey)\n数字成像 (Digital Imaging)\n地理信息系统 (Geographical Information Systems (GIS))\n虚拟现实与考古三维建模 (Virtual Reality and 3D Modelling for Archaeology)\n高级数字成像 (Advanced Digital Imaging)\nGIS中的空间分析 (Spatial Analysis in GIS)\n论文 (Dissertation)",
+  "success_cases": ""
+}

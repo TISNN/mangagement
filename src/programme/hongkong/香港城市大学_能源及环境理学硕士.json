@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "能源及环境理学硕士",
+  "ename": "MSc Energy and Environment",
+  "tags": "工科,环境工程,环境与能源学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 186000港币/年",
+  "requirements": "具有本科学士学位或同等学历，需要物理科学或工程学科背景\n具有其他学科本科学位的申请者，若达到A -level物理或同等水平，或在相关领域有足够的工作经验，将根据具体情况予以考虑",
+  "objectives": "香港城市大学能源与环境理学硕士项目旨在为学生提供能源和环境领域的必要知识和技能，特别是对于亚洲环境。而且，该项目迎合了商业和工业部门对具有当代能源、环境和可持续性观点的管理人员不断增长的需求。除了强调技术科学外，该计划的毕业生还具备经济、政策和法律等相关能源和环境方面的全面知识。基于这些知识，毕业生可以针对各种能源和环境问题进行开发创新并提出富有创造性的解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "能源、环境及可持续发展 (Energy, Environment and Sustainable Development)\n能源环境政策学 (Environmental and Energy Policy)\n环境问题资料分析 (Data Analysis in Environmental Applications)\n环境汙染：理论依据，监测方法，缓解措施 (Environmental Pollution: Theories, Measurement and Mitigation)\n能源转换：理论及方法 (Energy Conversion: Theory and Methodology)\n节能及能源审核 (Energy Conservation and Audit)\n新兴能源科技 (Emerging Energy Technologies)\n电化学储能 (Electrochemical Energy Storage)\n燃料加工 (Fuel Processing)\n碳捕获、利用及封存 (Carbon Capture Use and Storage)\n大气气象学 (Air Pollution and Atmospheric Chemistry)\n环境影响评价的原理及实践 (Environmental Impact Assessment: Principles and Practice)\n大气模型研究 (Environmental Modelling)\n汙水处理工程及水品质分析 (Wastewater Engineering and Water Quality Assessment)\n固体废物的处理及管理 (Solid Waste Treatment and Management)\n环境化学及物理 (Environmental Engineering Science)\n气候变化：科学，适应及缓解 (Climate Change: Science, Adaptation and Mitigation)\n能源发电和存储系统 (Energy Generation and Storage Systems)\n碳审计和管理 (Carbon Audit and Management)\n高级热科学能源工程 (Advanced Thermosciences for Energy Engineering)\n环境评估 (Environmental Assessment)\n专题论文 (Dissertation)\n能源环境法 (Energy and Environmental Law)",
+  "success_cases": ""
+}

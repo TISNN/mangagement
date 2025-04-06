@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "信息管理理学硕士",
+  "ename": "MSc Information Management",
+  "tags": "商科,信息系统,计算机与信息科学学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 28700英镑/年",
+  "requirements": "具有至少二等（2:2）荣誉学位，专业背景不限",
+  "objectives": "思克莱德大学信息管理理学硕士项目由苏格兰顶尖（位列全英第三）信息科学学院开设，是唯一受双重认可的信息管理学位，为毕业生提供直接进入两大国际附属专业机构的机会。该项目的核心课程包括商业系统分析、数据分析、战略、信息法和前沿技术介绍。思克莱德大学信息管理理学硕士项目由从业人员和专业机构联合协商承办，由计算机和信息科学学院（信息学院联盟的一员、世界领先信息科学学院的合作伙伴）开设。适合非信息管理专业的学生，也适合有意向拓宽知识面以获得专业资格证明的学生。该项目将为学生提供在开展硕士项目的同时进行产业应用实习的机会，借此机会，学生将在企业工作，从而可获得实际经验。此外，思克莱德大学信息管理理学硕士项目的教员在直接参与专业实践的同时也拥有优异的科研成果，文章常收录于国际领先的信息科技索引中的图书馆和信息科学期刊。思克莱德大学信息管理理学硕士项目的毕业生则在商业、数据和科技领域担任领导者、创新者和管理者等重要角色，推动了信息社会和数字经济的发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业分析 (Business Analysis)\n数据分析 (Data Analytics)\n信息系统架构 (Information Systems Architecture)\n数据库和网络系统开发 (Database & Web Systems Development)\n信息检索 (Information Retrieval)\n信息法 (Information Law)\n项目管理 (Project Management)\n研究方法 (Research Methods)\n论文 (Dissertation)\n行业应用实习 (Industrial Placement)",
+  "success_cases": ""
+}

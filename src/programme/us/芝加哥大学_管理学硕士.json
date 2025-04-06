@@ -1,0 +1,12 @@
+{
+  "school_name": "芝加哥大学",
+  "major_name": "管理学硕士",
+  "ename": "Master in Management",
+  "tags": "商科,管理",
+  "introduction": "专业方向: 管理\n项目类别: STEM\n入学时间: 秋季\n项目时长: 10个月\n项目学费: 67000美元",
+  "requirements": "本科为 Business majors 则不可申请。适合在文科或 STEM 领域获得非商科本科学位，且毕业时间在2年以内的申请者；本科期间应至少修读一门定量或 STEM 课程，例如大学数学或统计学",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

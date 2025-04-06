@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "可持续能源地球科学理学硕士",
+  "ename": "MSc Sustainable Energy Geoscience",
+  "tags": "工科,地球科学,地球科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 28800英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要地质学或地球物理学学位背景\n在以下关键科目中取得高分对于录取非常重要：创造性思维、数据综合、团队合作、解决问题的能力，以及关键地质技术技能",
+  "objectives": "阿伯丁大学可持续能源地球科学理学硕士课程利用地质和地球物理系的特殊专业知识，使学生具备迅速发展的能源转型部门所需的地下技能。我们将重点放在地球科学解释和当前和未来能源开采和存储场景所需的高需求技能方面。此外，学生将研究能源转型的社会影响，包括社会正义、全球动态和可持续性目标。阿伯丁大学可持续能源地球科学理学硕士课程借鉴了能源转型中心(CET)正在进行的许多突破性研究，涉及地热能、碳捕获和储存、核废料储存和能源转型的关键材料等领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地球物理和岩石学； (Geophysics and Petrophysics)\n应用沉积学与结构地质学； (Applied Sedimentology and Structural Geology)\n结合国际实地考察专业技能； (Professional Skills Incorporating International Field Trip)\n地球能源资源； (Earth's Energy Resources)\n地热流； (Geothermal Flow)\n地下能源储存与封存； (Subsurface Energy Storage & Sequestration)\n综合石油地球科学项目； (Projects in Integrated Petroleum Geoscience)",
+  "success_cases": ""
+}

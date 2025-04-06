@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "公司金融理学硕士",
+  "ename": "MSc Corporate Finance",
+  "tags": "商科,金融,经济与金融学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有本科2:2学位或以上学历，不限专业背景",
+  "objectives": "公司金融理学硕士项目为学生提供金融方面的全面培训，尤其是公司金融方向如企业股价与投资项目，最优资本结构，企业并购和金融会计，为同学进入金融领域，尤其是在大公司金融部门或投资银行开展职业生涯奠定坚实基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业和投资银行 (Commercial and Investment Banking)\n投资管理 (Investment Management)\n金融量化研究 (Quantitative Method in Finance)\n论文 (Dissertation)\n实际估值 (Practical Valuation)\n公司财务个案研究 (Cases in Corporate Finance)\n公司财务原理 (Principles of Corporate Finance)\n行为金融学 (Behavioural Finance)\n国际银行的风险与监管 (Risk and Regulation for International Banks)\n投资组合构建理论 (Portfolio Construction Theory)\n项目融资 (Project Finance)\n利率衍生产品 (Interest Rate Derivatives)\n应用财富管理 (Applied Wealth Management)\n中国和全球金融市场 (China and Global Financial Markets)\n金融大数据应用 (Big Data Application for Finance)\n资产管理 (Asset Management)",
+  "success_cases": ""
+}

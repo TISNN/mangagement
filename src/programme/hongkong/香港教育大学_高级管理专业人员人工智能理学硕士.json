@@ -1,0 +1,12 @@
+{
+  "school_name": "香港教育大学",
+  "major_name": "高级管理专业人员人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence for Executive Professionals",
+  "tags": "工科,计算机,应用政策研究与教育未来学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 198000港币/年",
+  "requirements": "申请者应持有受认可学士学位或其他同等学历，并且需要具备至少2年专业和/或管理经验\n应届毕业生如学业表现出色，亦有机会被考虑",
+  "objectives": "香港教育大学高级管理专业人员人工智能理学硕士专为各行各业具热诚并渴望将人工智能融入于工作的领导者而设，本课程重视创新的领导能力，帮助学员掌握有效运用人工智能技术的知识，学员在教学团队的强大技术支持下，可以自信地参与各人工智能课程项目，本课程亦会提供足够机会让学员反思如何立足于人工智能广泛应用的环境并与它合作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能基础 (Foundation of Artificial Intelligence)\n人工智能技术 (Artificial Intelligence Technologies)\n人文与人工智能 (Humanities and Artificial Intelligence)\n人工智能当前议题 (Contemporary Issues on Artificial Intelligence Technologies)\n数据科学 (Data Science)\n空间智能 (Spatial Intelligence)\n隐私、安全与政策 (Privacy, Security, and Policy)\n人工智能在职场及家居趋势 (Trends in Artificial Intelligence at Workplace and at Home)\n专题研习 I： 开发专业的聊天机器人 (Project I: Developing a Chatbot for Professionals)\n专题研习 II：部署个人大型语言模型/高校语言模型 (Project II: Deploying Personal LLMs / ELMs)",
+  "success_cases": ""
+}

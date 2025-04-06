@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门城市大学",
+  "major_name": "金融科技理学硕士",
+  "ename": "MSc Financial Technology",
+  "tags": "商科,金工金数,金融学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 2年\n项目学费: 115000港币/年",
+  "requirements": "具有学士学位或同等学历，前置学历专业为金融、会计、计算机、统计等相关专业者优先\n需参加澳门城市大学组织的入学考试，择优录取\n往届本科毕业生需参加2025年全国硕士研究生招生考试且初试总成绩过国家A类线。\n应届本科毕业生不受考研限制。",
+  "objectives": "澳门城市大学金融科技理学硕士课程结合澳门经济社会发展和国家“一带一路”战略的需要确立人才培养目标和要求：符合国家“一带一路”战略的人才需要，培养中高级金融科技人才；符合澳门经济社会发展的人才需要，培养运用创新科技于金融服务的金融科技人才；培养澳门银行、保险、金融服务咨询行业、政府部门、教育机构教学及研究工作人才。该课程预期培养具以下能力的人才：掌握金融交易资料的分析和判断能力；了解人工智慧的开发和管理；掌握区块链金融的应用和管理能力；熟练应用云计算进行金融机构的经营管理。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融科技概论 (Introduction to Financial Technology)\n金融学 (Finance)\n计量经济学 (Econometrics)\n运筹学 (Operations Research)\nPython及其在金融领域的应用 (Python and its Application in Finance)\n金融算法与建模 (Financial Algorithm and Modelling)\n区块链金融 (Blockchain Finance)\n投资组合管理 (Portfolio Management)\n金融程序化交易 (Financial Algorithmic Trading)\n学术专题项目 (Academic Special Project)\n学位论文 (Thesis)\n国际金融学 (International Finance)\n数字金融与监管 (Digital Finance and Regulation)\n金融机构与风险管理 (Financial Institutions and Risk Management)\n金融工程学 (Financial Engineering)\n金融大数据分析 (Financial Big Data Analysis)\n财务报表分析 (Financial Statement Analysis)\n行为金融学 (Behavioral Finance)\n融资租赁 (Lease Financing)\n随机过程 (Stochastic Process)\n人工智能和计算智能 (Artificial Intelligence and Computational Intelligence)\n机器学习算法与应用 (Machine Learning Algorithms and Applications)\n云计算与大数据分析 (Cloud Computing and Big Data Analytics)\n人工智能前沿专题 (Advanced Topics in Artificial Intelligence)\n数据科学前沿专题 (Advanced Topics in Data Science)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "软件工程理学硕士",
+  "ename": "MSc Software Engineering",
+  "tags": "工科,计算机,电子与计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 33900英镑/年",
+  "requirements": "具有upper 2:1学位（分数不低于65%），需要以下背景：计算机科学、计算机工程、软件工程、媒体技术、电子商务、信息技术\n申请者必须在以下课程中取得upper 2:1的成绩：\n- 1门编程课程（Java, C, C#, 面向对象, Python）\n- 1门高等数学课程：理想情况下 离散数学，包括逻辑和集合论\n- 3门计算机科学课程，如：软件架构或设计、数据结构、数据库、网络、人工智能、机器学习或web，熟悉函数式编程（Haskell, Scala, F#）和建模语言（例如UML）",
+  "objectives": "南安普顿大学软件工程理学硕士项目中学生将探索传统和当代的软件开发方法。学生将从云端和移动应用、安全和用户体验等一系列主题领域中进行深入研究。学生将有机会提高在软件建模、设计、开发和测试方面的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "软件项目管理和开发 (Software Project Management and Development)\n软件建模工具和技术（关键系统） (Software Modelling Tools and Techniques for Critical Systems)\n智能代理 (Intelligent Agents)\n网站开发 (Web Development)\n网站架构 (Web Architecture)\n可用和可访问技术设计 (Designing Usable and Accessible Technologies)\n机器学习 (Machine Learning (MSc))\n网络安全实现 (Implementing Cyber Security)\n软件工程和网络安全 (Software Engineering and Cyber Security)\n项目准备 (Project Preparation)\n电子商务策略 (E-Business Strategy)\n高级智能代理 (Advanced Intelligent Agents)\n高级机器学习 (Advanced Machine Learning)\n代码自动生成 (Automated Code Generation)\n自动化软件验证 (Automated Software Verification)",
+  "success_cases": ""
+}

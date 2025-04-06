@@ -1,0 +1,12 @@
+{
+  "school_name": "卡内基梅隆大学",
+  "major_name": "人工智能工程硕士-机械工程",
+  "ename": "MS in Artificial Intelligence Engineering - Mechanical Engineering",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 120学分\n项目学费: 52,100美元\n平均G: V:153,Q:163,AW: 4.0",
+  "requirements": "申请者需要掌握编程,概率,统计以及线性代数等相关学科知识",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "精算管理与数据科学理学硕士",
+  "ename": "MSc Actuarial Management with Data Science",
+  "tags": "商科,金工金数,数学与计算机科学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 24176英镑/年",
+  "requirements": "要求学生拥有优秀的学士或硕士学位，并且必须学习并熟练掌握各种早期精算数学材料的应用。一般来说，学生需要已经涵盖了早期精算师协会和学院课程的大部分内容：CM1、CM2、CS1、CS2、CB1 和 CB2",
+  "objectives": "赫瑞-瓦特大学的精算管理与数据科学理学硕士将先进的统计建模和分析与现代计算技术相结合，以分析保险和金融领域可能产生的大型数据集。这些分析能够在不确定的环境中改善预测并增强决策，在不确定的环境中，技术和数据可用性的快速发展正在改变精算工作领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "精算风险管理 (Actuarial Risk Management)\n马赫学习风险 (Mach Learn Risk Ins)\n论文 (Dissertation)\n金融市场 (Financial Markets)\n衍生产品市场与定价 (Derivatives Markets & Pricing)\n人寿保险 (Life Insurance)\n养老金 (Pensions)\n定量风险分析 (Quantitative Risk Analysis)\n金融与投资 (Finance and Investment)\n高级衍生产品定价 (Advanced Derivative Pricing)\n风险人：技术和工具 (Risk Man: Techniques and Tools)",
+  "success_cases": ""
+}

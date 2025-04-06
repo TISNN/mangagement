@@ -1,0 +1,12 @@
+{
+  "school_name": "香港浸会大学",
+  "major_name": "视觉艺术文学硕士",
+  "ename": "MA Visual Arts",
+  "tags": "社科,艺术,创造艺术学院",
+  "introduction": "专业方向: 艺术\n入学时间: 9月\n项目时长: 1年\n项目学费: 168000港币/年",
+  "requirements": "具有认可大学或类似机构颁发的学士学位或同等学历\n申请者应该具备相关工作室实践经验，提交申请时必须附上作品集（5-10个原创艺术作品），选择主修领域（艺术及媒体创作，或工艺及设计），并提交SMA/CD工作室研习的学习计划书",
+  "objectives": "香港浸会大学视觉艺术文学硕士课程旨在培养具有当代研究方法、深入专业知识和技能、具有跨文化和跨学科意识的视觉艺术创作人才；在全球和当地的社会文化背景下定位学生的创造性和学术实践；让学生根据自己对某一特定视觉艺术学科的研究兴趣，发展自己的创意；满足香港及世界各地对文化和创意专业从业员的日益增长的需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "视觉艺术研究方法 (Research Methodology for the Visual Arts)\n视觉艺术理论与评析 (Visual Arts Theory & Criticism)\n批判性参与:社会文化情境与创作实践 (Critically Engaged: Creative Practice)\n艺术与公众:作品展示与诠释 (Arts & the Public: Interpretion & Practice)\n艺术及媒体创作/工艺及设计工作室研习（一） (SMA/CD Studio Project 1 )\n艺术及媒体创作/工艺及设计工作室研习（二） (SMA/CD Studio Project 2)",
+  "success_cases": ""
+}

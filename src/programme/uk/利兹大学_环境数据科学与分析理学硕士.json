@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "环境数据科学与分析理学硕士",
+  "ename": "MSc Environmental Data Science and Analytics",
+  "tags": "工科,地球科学,地理科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 32750英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要相关学科背景，特别鼓励具有地理学、环境科学、自然科学、或相关学科背景并且能够证明具备良好的定量和/或计算技能的人申请，也鼓励具有工程学、计算机科学或相关学科背景并且能够证明具备学术、志愿或工作经验的人申请\n申请者应该对利用数据科学来理解自然环境和解决环境问题有浓厚的兴趣\n不符合上述要求但在相关领域具备多年专业经验的申请者将根据具体情况被考虑，在这种情况下需要联系招生团队讨论其是否适合该课程",
+  "objectives": "利兹大学的环境数据科学与分析理学硕士旨在让您更全面地了解数据以及适当的解释和洞察力生成在各种环境背景下的含义。在整个过程中，您将对环境问题以及数据驱动分析如何帮助解决这些问题有一个广泛的了解。\n利兹大学的环境数据科学与分析理学硕士将培养分析、理解、解释和可视化复杂环境数据所需的技能；产生解决现实世界环境挑战的见解。您将把数据科学技术（包括环境建模、机器学习、可视化和数据管理）应用于环境数据，重点是通过编程进行分析。\n在利兹，您将有机会向该领域的领先研究人员学习，并获得地理学院、地球与环境学院和计算机学院的投入。\n课程结束时，您将具备多个行业所需的专业知识和技能，特别是那些处理大规模环境数据以满足社会需求的行业。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学编程 (Programming for Data Science)\n实际应用数据科学 (Data Science for Practical Applications)\n现实世界问题的创意编码 (Creative Coding for Real World Problems)\n多种环境中的数据洞察 (Data to Insights in Multiple Environments)\n针对环境数据的机器学习 (Machine Learning for Environmental Data)\n环境数据科学项目 (Environmental Data Science Project)\n环境评估 (Environmental Assessment)\nGIS 和环境 (GIS and Environment)\n环境数据可视化和分析 (Environmental Data Visualisation and Analysis )\n环境遥感数字图像处理 (Digital Image Processing for Environmental Remote Sensing)\n基于网络的 GIS (Web-based GIS)",
+  "success_cases": ""
+}

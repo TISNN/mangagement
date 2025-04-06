@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "生物多样性、保护与流行病学定量方法理学硕士",
+  "ename": "MSc Quantitative Methods in Biodiversity, Conservation & Epidemiology",
+  "tags": "理科,生物,生物多样性、大健康与兽医学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要生态学、进化论、数学、统计学、地球科学和流行病学专业背景申请者必须有一些统计培训或经验的证据",
+  "objectives": "如今，定量技能在当今社会已成为生态学、自然保护、动物和人类健康领域的基础，格拉斯哥大学生物多样性、保护与流行病学定量方法理学硕士项目注重数据收集、建模和统计分析方面的具体培训，以及对动物健康和保护至关重要的生态和流行病学数据的定量分析，并培养学生的研究技能。此外，学生还需学习监测和评估生物多样性的关键技能，全面把握环境变化的影响。本项目由生物多样性、动物健康和比较医学研究所(IBAHCM)创设，该研究所由顶级研究人员所构成，常年专注于将实地数据与计算和遗传方法相结合，以解决流行病学和保护领域的应用问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "空间生态学 (Spatial Ecology)\n生物多样性信息学 (Biodiversity Informatics)\n传染病生态学与新兴疾病动态 (Infectious Disease Ecology and the Dynamics of Emerging Disease)\n贝叶斯统计导论 (Introduction to Bayesian statistics)\n保护遗传学 (Conservation Genetics)\n分子流行病学与系统动力学 (Molecular Epidemiology and Phylodynamics)\n多物种模型 (Multi Species Models)\n单种群模型 (Single Species Models)\n保护的经济手段 (Economic Tools for Conservation)\n生态学家地理信息系统 (Geographic Information Systems for Ecologists)\n无脊椎动物鉴定 (Invertebrate Identification)\n脊椎动物鉴定 (Vertebrate Identification)\n人类保护维度 (Human Dimensions of Conservation)\n保护生态学原理 (Principles of Conservation Ecology)",
+  "success_cases": ""
+}

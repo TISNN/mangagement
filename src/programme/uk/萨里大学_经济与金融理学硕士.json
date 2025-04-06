@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "经济与金融理学硕士",
+  "ename": "MSc Economics and Finance",
+  "tags": "商科,经济,商学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 21800英镑/年",
+  "requirements": "具有2:1英国荣誉学位或受认可的同等学历，需要商业、化学、计算机科学、经济学、工程学、金融学、数学、物理学或统计学背景\n学校会考虑具有其他学科2:1学位或同等学历的申请者，需要在宏观经济学与微观经济学课程以及代数、微积分、数学、概率、定量方法或统计学中的一门课程中成绩达到60%或同等成绩\n具有其他学科2:1学位或同等学历的申请者如果在想要申请的专业领域具备丰富的工作经验，其申请也将被考虑",
+  "objectives": "萨里大学经济与金融理学硕士项目课程整合了经济学院和萨里商学院的研究成果与实践经验，旨在帮助学生掌握高级经济学核心原理，以及商业与企业融资等专业知识，带领学生深入探讨银行和金融系统的复杂性，从而提高学生将来的职业竞争力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济学 (Microeconomics)\n宏观经济学 (Macroeconomics)\n公司经济学 (Economics of The Firm)\n研究方法 (Research Methods)\n金融计量经济学 (Financial Econometrics)\n金融理论 (Theory of Finance)\n计量经济学1 (Econometrics 1)\n计量经济学2 (Econometrics 2)\n高级微观经济学 (Advanced Microeconomics)\n财务基础：金融与投资 (Foundations of Finance: Finance & Investments)\n衍生证券 (Derivatives Securities)\n公司金融 (Corporate Finance)\n国际金融 (International Finance)\n风险管理 (Risk Management)\n投资分析 (Investment Analysis)\n国际贸易 (International Trade)",
+  "success_cases": ""
+}

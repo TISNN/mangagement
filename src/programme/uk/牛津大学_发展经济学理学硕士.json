@@ -1,0 +1,12 @@
+{
+  "school_name": "牛津大学",
+  "major_name": "发展经济学理学硕士",
+  "ename": "MSc Economics for Development",
+  "tags": "商科,经济,牛津国际发展系",
+  "introduction": "专业方向: 经济\n入学时间: 10月\n项目时长: 1年\n项目学费: 38410英镑/年",
+  "requirements": "具有一等或a very strong 2:1荣誉学位，需要经济学背景。第一学位几乎不涉及经济学的申请人不能报考本课程。最低要求是相当于大学全日制学习两年的经济学课程（请注意，金融、规划、商业、管理和其他类似学科的课程不算作经济学课程）。要求具备一定的数学和定量能力\n对于拥有美国学士学位的申请人，通常需要满足本科水平要求的最低总体 GPA 为3.6（满分 4.0）。但是，候选人的选拔还取决于申请中的其他因素，大多数成功的申请人的GPA分数为3.7或更高\n最好具有发展中国家的相关经验，但并不是必需的；独立工作和团队工作的能力至关重要；入学时无需或不需要发表出版物，但可以在简历中列出\n需要提交GRE，需要2篇written work（每篇不少于2000字且不超过4000字）",
+  "objectives": "牛津大学发展经济学理学硕士项目为期九个月，侧重把现代经济分析方法运用到经济发展理论和政策中，将为学生进一步的学术研究或在国际机构、政府或私营部门从事专业发展经济学家的工作做好准备。牛津大学发展经济管理学硕士项目旨在培养学生与经济发展相关的分析和关键技能，特别是评估政策替代方法所需的技能，为学生提供严格的量化训练，培养学生获取、处理和解释各种数据的能力。牛津大学发展经济学理学硕士项目旨在为那些希望在发展经济学领域继续攻读博士学位的人提供所需的研究工具和方法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "发展微观经济学理论 (Microeconomics Theory for Development)\n发展宏观观经济学理论 (Macroeconomics Theory for Development)\n贸易促进发展理论 (Trade Theory for Development)\n低收入国家的电影和劳动力市场 (Films and Labour Markets in Low-income Countries)\n开放和发展 (Openness and Development)\n结构转型与增长 (Structural Transformation and Growth)\n小额信贷、现金转移和储蓄 (Microfinance, Cash Transfer and Savings)",
+  "success_cases": ""
+}

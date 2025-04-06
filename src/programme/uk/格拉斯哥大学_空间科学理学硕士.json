@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "空间科学理学硕士",
+  "ename": "MSc Space Science",
+  "tags": "工科,地球科学,地理和地球科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1荣誉学位，需要任何工程、数学、科学和/或技术学科的背景，且数学和物理每个课程的平均成绩为2:1。数学和物理领域可接受课程的列表详见官网",
+  "objectives": "格拉斯哥大学空间科学理学硕士课程是多学科的，结合了行星科学、工程学和物理学课程。这是一门以技能为基础的理学硕士学位课程，学生有机会与行业合作伙伴实习并完成学生定制的研究论文。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "天体生物学 (Astrobiology)\n探索太阳系 (Exploring the Solar System)\n应用遥感地球和太阳系天体 (Applied Remote Sensing of the Earth and Solar System bodies)\n空间环境 (Space Environments)\n地理空间基础 (Geospatial Fundamentals)\n空间飞行动力学 (Space Flight Dynamics M)\n卫星系统 (Satellite Systems)\n环境遥感 (Remote Sensing of the Environment)\n任务设计和开发 (Mission design and development)\nGES硕士项目或个人项目 (GES MSc Project or Individual Project 5)",
+  "success_cases": ""
+}

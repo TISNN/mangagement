@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "社会数据科学理学硕士",
+  "ename": "MSc Social Data Science",
+  "tags": "理科,数据科学,社会科学与国际研究学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 25300英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科背景(如社会科学、心理学和经济学)，成绩达到53%或以上，有数据分析培训/内容的证据",
+  "objectives": "埃克塞特大学社会数据科学理学硕士项目旨在探索将数据分析技术应用于一系列实质性政策相关问题；并培养循证决策技能的方法并且选择专攻政策子领域，例如社会和家庭政策、经济和公共政策、环境、刑事司法和安全；由非常成功的应用数据分析Q-Step中心为学生们提供基本的数学和编程技能；通过可选的工作实习或基于行业的研究咨询项目，学生可以将自己的市场领先的社会数据科学技能付诸实践；学生将了解到通常在不断变化的环境中的与商业和公共部门的职业或博士学习相关的复杂的政治和文化问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "社会数据科学与政策分析 (Social Data Science and Policy Analytics\t)\n数据可视化 (Data Visualisation\t)\n政策分析的数学和编程技巧 (Mathematics and Programming Skills for Policy Analytics\t)\n政策分析：论文或研究咨询项目 (Policy Analytics: Dissertation or Research Consultancy Project\t)\n教育评价与政策分析 (Educational Evaluation and Policy Analysis\t)\n纵向数据在家庭政策研究中的应用 (Using Longitudinal Data in Family Policy Studies\t)\n应用分析：了解冲突后世界中的自我和他人 (Applied Analytics: Understanding Self and Others in a Post Conflict World\t)\n应用技能：成为一名有效的谈判者 (Applied Skills: Becoming an Effective Negotiator\t)\n管理与治理：世界公共行政比较 (Management and Governance: Comparing Public Administration around the World\t)\n政策与政治：提供公共服务的理论与策略 (Policy and Politics: the theory and Strategy of Delivering Public Services\t)\n管理人员公共部门融资 (Public Sector Finance for Managers\t)\n可持续发展的政治、政策与实践 (The Politics, Policy and Practice of Sustainable Development\t)\n规制与改革：分析与政策 (Regulation and Reform: Analysis and Policy\t)",
+  "success_cases": ""
+}

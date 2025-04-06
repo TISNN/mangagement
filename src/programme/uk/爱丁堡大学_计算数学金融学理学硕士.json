@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "计算数学金融学理学硕士",
+  "ename": "MSc Computational Mathematical Finance",
+  "tags": "商科,金工金数,数学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 40300英镑/年",
+  "requirements": "具有英国2:1学位或同等学历，需要数学或数学相关学科（如统计学、物理学或工程学）背景，必须具备相关编程经验（至少一个学期的本科编程课程，任何语言都可以，如C、C、Java、Python，通过课程并达到2:1成绩水平）",
+  "objectives": "爱丁堡大学计算数学金融学理学硕士项目致力于培养学生在数学背景下的个人沟通技巧、主动性和专业性，开发学生的可转移技能（包括写作、口头陈述、团队合作、数字和逻辑解决问题、计划和时间管理），最大限度地提高他们未来的就业前景。该课程将提高学生清晰传达自己想法的能力，并在之前的数学培训基础上进一步发展他们的逻辑和演绎技能。学生将会掌握标准和先进的数学工具，用于解决与数学金融业相关的应用问题，开发定量和计算技能，以熟练完成金融部门的任务。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融随机分析 (Stochastic Analysis in Finance)\n离散时间金融 (Discrete-Time Finance)\n金融、风险与不确定性 (Finance, Risk and Uncertainty)\n面向对象编程应用 (Object-Oriented Programming with Applications )\n风险中性资产定价 (Risk-Neutral Asset Pricing)\n随机控制与动态资产配置 (Stochastic Control and Dynamic Asset allocation)\n数值概率与蒙特卡洛方法 (Numerical Probability and Monte Carlo)\n研究主题 (Research-Linked Topics)\n数值偏微分方程 (Numerical Partial Differential Equations)\n时间序列 (Time Series)\n金融风险理论 (Financial Risk Theory)\n金融优化方法 (Optimization Methods in Finance)",
+  "success_cases": ""
+}

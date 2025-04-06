@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "护理学硕士",
+  "ename": "Master of Nursing",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 138000港币/年",
+  "requirements": "申请者需要是一名持有护理学士学位或同等学历的注册护士，需要提供由香港护士管理局或所属国家的护理当局签发的注册证书及有效执业证书",
+  "objectives": "香港大学护理学硕士课程为护理专业本科毕业生提供进修机会，学习更全面的护理知识，进行更高级的护理实践，以对应香港护理行业的变化。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "外科护理学 (Advanced Surgical Nursing)\n社区与公共健康护理 (Community and Public Health Nursing)\n急救护理 (Critical Care Nursing)\n老年人护理 (Gerontology Nursing)\n健康护理管理与领导 (Health Care Management and Leadership)\n感染控制护理 (Infection Control Nursing)\n儿科护理 (Paediatric Nursing)\n输液科学 (Perfusion Science)\n重症护理方向：管理有复杂重症护理问题的病人，重症护理中的治疗性护理-病人关系，重症护理的高级实践护理角色 (Critical Care Nursing track: Managing Clients with Complex Critical Care Problems, Therapeutic Nurse-client Relationships in Critical Care, Advanced Practice Nursing Roles in Critical Care)",
+  "success_cases": ""
+}

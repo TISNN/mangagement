@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "能源与经济理学硕士",
+  "ename": "MSc Energy and Economics",
+  "tags": "商科,经济,爱丁堡商学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 21192英镑/年",
+  "requirements": "具有机械工程、其他工程学位、经济学、数学或其他定量学科的荣誉学位（一等或二等）",
+  "objectives": "赫瑞-瓦特大学能源与经济学硕士提供了当前能源问题的详细概述，教您将经济分析的核心工具应用于能源的转换和使用。\n您将学习如何从经济角度有效地分析，评估和设计能源政策，系统和设备。您将获得在能源行业至关重要的高度可使用的专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "能源基础 (Foundations of Energy)\n环境与能源经济学 (Environmental and Energy Economics)\n电力系统 (Electrical Power Systems)\n高压 (High Voltage)\n可持续加工 (Sustainable Processing)\n流程强化 (Process Intensification)\n可再生能源技术 (Renewable Energy Technologies)\n需求管理和能量存储 (Demand Management and Energy Storage)\n传热与换热器 (Heat Transfer and Heat Exchangers)\n战略项目管理 (Strategic Project Management)\n财务分析 (Financial Analysis)\n质量管理与工程 (Quality Management and Engineering)\n项目管理 (Project Management)",
+  "success_cases": ""
+}

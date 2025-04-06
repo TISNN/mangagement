@@ -1,0 +1,12 @@
+{
+  "school_name": "贝尔法斯特女王大学",
+  "major_name": "建筑信息建模项目管理理学硕士",
+  "ename": "MSc Building Information Modelling Project Management",
+  "tags": "工科,工程管理,自然与建筑环境学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 21500英镑/年",
+  "requirements": "具有2:2荣誉学位或学校接受的同等学历，需要相关学科背景，如建筑学、工程或社会科学\n具备相关工作经验的申请者将根据具体情况予以考虑",
+  "objectives": "贝尔法斯特女王大学建筑信息建模项目管理理学硕士项目由行业专业人士授课，将实战经验带入研究生课堂，是英国与爱尔兰唯一一个以项目管理为重点的建筑信息建模硕士项目，帮助学生从管理的角度看待工作，而非仅仅局限于建筑视角，以期助力学生的职业生涯发展。课程内容综合理论与实践，学生将有机会参加为期三天的伦敦游学，及为期十天的加拿大多伦多游学，深入了解行业公司运作方式，同时参加相关实习项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "实践中的信息建模 (Building Information Modelling in Practice)\n建筑法1：合同法、侵权行为与证据 (Construction Law 1: Contract Law、Tort and Evidence)\n协同设计 (Design Coordination)\n采购与合同管理 (Procurement and Contract Administration)\n项目协作、计划和控制 (Project Coordination、Planning and Control)\n管理者的研究方法 (Research Methods for Managers)\n战略管理与BIM集成 (Strategic Management and BIM Integration)\n建筑信息模型技术应用 (Technical BIM Implementation)\n个人科研项目 (Individual Research Project)",
+  "success_cases": ""
+}

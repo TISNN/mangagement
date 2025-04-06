@@ -1,0 +1,12 @@
+{
+  "school_name": "德克萨斯大学奥斯汀分校",
+  "major_name": "经济学文学硕士",
+  "ename": "MA in Economics",
+  "tags": "商科,经济",
+  "introduction": "专业方向: 经济\n项目类别: STEM\n入学时间: 夏季/秋季\n项目时长: 10-24个月\n项目学费: 42000-62000美元",
+  "requirements": "1. 先修课：微积分（包括多元微积分）（必须）；线性代数、经济学相关课程（recommended）2. GPA：数学或经济学课程高GPA",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

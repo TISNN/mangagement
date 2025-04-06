@@ -1,0 +1,12 @@
+{
+  "school_name": "考文垂大学",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,商业与法律学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 1/5/9月\n项目时长: 1年\n项目学费: 20050英镑/年",
+  "requirements": "具有2:2荣誉学位，需要相关学科背景。具有相关经验的申请人的申请将根据个人情况进行考虑",
+  "objectives": "考文垂大学商业分析理学硕士项目旨在响应当前训练有素的分析师需求增长和严重短缺的问题，这些分析师能够解释数据，发现新的模式和关系，并据此提供业务决策，从而推动增长和成功的业务绩效。学生将有机会学习如何从传统技术无法分析的大数据集或大数据中创造价值。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "大数据与商业分析的当前问题 (Current Issues in Big Data and Business Analytics)\n商业统计 (Business Statistics)\n数据挖掘方法与应用 (Data Mining Methodologies and Applications)\n商业建模 (Business Modelling)\n应用市场营销分析 (Applied Marketing Analytics)\n运营分析 (Operations Analytics)\n决策财务分析 (Financial Analysis for Decision Making)\n全球供应链与物流 (Global Supply Chain and Logistics)\n全球专业发展-咨询 (Global Professional Development - Consultancy)\n研究生商业项目 (Postgraduate Business Project)",
+  "success_cases": ""
+}

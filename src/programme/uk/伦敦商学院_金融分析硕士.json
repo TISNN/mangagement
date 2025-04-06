@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦商学院",
+  "major_name": "金融分析硕士",
+  "ename": "Masters in Financial Analysis",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 8月\n项目时长: 1年\n项目学费: 44900英镑/年",
+  "requirements": "具有金融学、会计学、经济学、工程学、化学、物理、数学、计算机科学、商业和管理等数学学科背景或具有其他数量能力证明，要求GMAT/GRE，不超过两年工作经验，有面试",
+  "objectives": "伦敦商学院金融分析硕士课程旨在帮助学生打好基础，深入了解现代化金融工具、金融市场和全球业务，将理论与实践和实际业务结合，为学生提供与国际机构及从业者接触并搭建国际网络的机会，通过学习该课程掌握相关知识和商业技能，得以开展国际金融领域的世界级职业生涯",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计金融 (Accounting Finance)\n数据分析 (Data Analytics)\n职业介绍 (Careers Introduction)\n定向 (Orientation)\n职业基础 (Career Foundations)\n个人及领导力发展 (Personal and Leadership Development)\n会计学 (Accounting)\n财务Excel (Excel for Finance)\n投资基本元素 (Investment Fundamentals)\n公司金融学 (Corporate Finance)\n金融数据分析 (Data Analytics for Finance)\n财务报表分析 (Analysis of Financial Statements)\n资产管理 (Asset Management)\n资本结构理论 (Capital Structure)\n证券估值和金融建模 (Securities Valuation and Financial Modelling)\n世界经济学 (World Economy)\n兼并与收购 (Mergers and Acquisitions)\n金融机构 (Financial Institutions)\n个人理财 (Personal Finance Private Equity)",
+  "success_cases": ""
+}

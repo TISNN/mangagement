@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "数据科学（城市分析）理学硕士",
+  "ename": "MSc Data Science (Urban Analytics)",
+  "tags": "理科,数据科学,社会科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有High 2:1荣誉学位或同等学历\n申请者应该能够证明对城市分析相关主题的兴趣和/或经验。例如：城市主题的工作经验（如空间现象的数据分析、公共政策或房地产市场分析）；空间或基于地理信息系统的数据分析工作经验；以城市为主题的方法或主题（如地理信息系统）的培训证明\n在申请中应该表现出在以下三个领域的能力、知识和/或兴趣：数据分析和/或统计学；计算学科；和细分方向的具体要求。这些可以通过本科阶段和高中阶段的修读过的课程单元或专业经验来证明",
+  "objectives": "曼彻斯特大学数据科学（城市分析）理学硕士课程 为各个学科的 毕业生提供了发展数据科学技能的机会，该项目旨在帮助学生发展成为一名敏捷、熟练的数据科学家，擅长在各种环境中工作，并能够应对跨学科团队合作的挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计与机器学习 1：统计基础 (Statistics and Machine Learning 1: Statistical Foundations\t)\n理解数据库 (Understanding Databases)\n应用数据科学 (Applying Data Science)\n理解数据及其环境 (Understanding Data and their Environment)\n扩展研究项目 (Extended Research Project)\n土地与开发 (Land and Development)\n房地产投资与金融 (Real Estate Investment and Finance)\n高级房地产金融 (Advanced Real Estate Finance)\n财产估计 (Property Valuation)\n数字规划 - 空间与政策分析 (Digital Planning - Spatial and Policy Analysis)\n社区规划项目 (Neighbourhood Planning Project)\n数字规划 - 决策支持系统 (Digital Planning - Decision Support Systems)",
+  "success_cases": ""
+}

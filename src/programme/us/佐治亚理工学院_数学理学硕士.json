@@ -1,0 +1,12 @@
+{
+  "school_name": "佐治亚理工学院",
+  "major_name": "数学理学硕士",
+  "ename": "MS in Mathematics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 33学分\n项目学费: 24,499美元",
+  "requirements": "相关专业，GPA3.0以上",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

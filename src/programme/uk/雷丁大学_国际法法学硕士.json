@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "国际法法学硕士",
+  "ename": "LLM International Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 25850英镑/年",
+  "requirements": "具有2:1或以上学位，需要法律背景具有2:2学位以及3年相关工作经验and/or通过律师资格考试的申请者也将被学校考虑具有2:2学位但是经验较少and/or在一些法律课程中获得高分，以及拥有人文或社会科学背景的申请者也将被学校考虑，学校欢迎他们申请",
+  "objectives": "雷丁大学国际法法学硕士项目提供高质量的教学，学生还有机会与专家学者交流学习，提高实践技巧，为步入职场做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际法导论 (Introduction to international law)\n全球架构：危机、冲突和灾害管理 (Global architecture of crisis、conflict and disaster management)\n国际公法 (Public international law)\n国际难民法 (International refugee law)\n武装冲突法 (Law of armed conflict)\n国际刑法 (International criminal law)\n军事力量使用 (The use of military force)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "工程管理理学硕士",
+  "ename": "MSc Engineering Management",
+  "tags": "工科,工程管理,基础设施与可持续发展工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23500英镑/年",
+  "requirements": "具有2:2英国荣誉学位或同等学历，具备一些定量内容（如工程或科学）或定量能力的证明，如A - Level数学，优先考虑具有2年适当工程岗位工作经验的申请者",
+  "objectives": "阿斯顿大学工程管理理学硕士项目得到业界和相关专业机构的认可，受益于阿斯顿大学与产业之间的紧密联系，探讨了就业所需的广泛管理知识和技能。该项目的核心内容由与高级（工程/供应链）商务经理密切合作的学术人员教授，为学生提供决策商务战略管理的规范，使学生能够使用分析商务战略议题所需的技术。项目中的国际课程将使学生了解国外产业动态，提高全球范围内的就业能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "战略管理与金融 (Strategic Management and Finance)\n工程企业的顾客参与 (Customer Engagement in an Engineering Enterprise)\n项目管理 (Project Management)\n人力资源与变革管理 (Human Resources and Change Management)\n产品导入流程 (Product Introduction Process)\n运作效率、精益和敏捷制造 (Operational Effectiveness, Lean and Agile Manufacturing)\n研究方法 (Research Methods)\n工程企业管理学 (Management in Engineering Enterprises)\n论文 (Dissertation )",
+  "success_cases": ""
+}

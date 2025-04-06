@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "量子技术理学硕士",
+  "ename": "MSc Quantum Technology",
+  "tags": "理科,物理,数学与物理科学学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "通常应具有英国2:2本科荣誉学位或以上水平或同等学历\n需要物理、工程或数学相关的学科背景，并且包括一些关键领域的基础背景，例如量子力学、量子电子学、量子光学、光子学或其他相关的现代物理学领域。如果申请者拥有其他专业资格或同等经验，也可能被考虑参加该课程\n申请者需要申请ATAS证书",
+  "objectives": "最近对量子现象的探索导致了量子纠缠的大量应用。“量子技术”一词也在一定程度上反映了这一领域的实验和理论发展现状。萨塞克斯大学量子技术理学硕士项目面向对量子物理学感兴趣并想要深入探索该领域的学生。萨塞克斯大学量子技术理学硕士项目内容包括：离子阱量子处理器、量子互联网的离子-光子界面、量子模拟器、超导量子电路和量子增强计量装置等。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目（量子技术理学硕士） (Project (MSc Quantum Technology))\n原子光相互作用 (Atom Light Interactions)\n量子光学与量子信息 (Quantum Optics and Quantum Information)\n电子、冷原子和量子电路 (Electrons, Cold Atoms & Quantum Circuits)\n实用量子技术 (Practical Quantum Technologies)\n计算化学 (Computational Chemistry)\n数据分析技术 (Data Analysis Techniques)\n进一步量子力学 (Further Quantum Mechanics)\nC++编程 (Programming in C++)\n量子场论1 (Quantum Field Theory 1)\n高级凝聚态物理 (Advanced Condensed State Physics)\n纳米材料与纳米表征导论 (Introduction to Nano-materials and Nano-characterisation)\n激光与光子学 (Lasers and Photonics)\n蒙特卡罗模拟 (Monte Carlo Simulations)",
+  "success_cases": ""
+}

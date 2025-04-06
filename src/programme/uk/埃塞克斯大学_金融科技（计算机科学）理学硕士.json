@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "金融科技（计算机科学）理学硕士",
+  "ename": "MSc Financial Technology (Computer Science)",
+  "tags": "工科,计算机,计算机科学与电子工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:1学位，需要计算机科学或相关学科背景，例如：工程、金融学、经济学、数学、统计学、物理学接受其他学位背景的毕业生申请，需要涵盖与数学（微积分）或计量经济学（概率，统计）相关的课程背景",
+  "objectives": "埃塞克斯大学金融科技（计算机科学)理学硕士课程旨在让学生了解金融和经济市场的细节和复杂性，应用高级计算方法和能力，以及设计和编程解决方案的能力，成功地利用金融、经济和计算之间的协同作用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "Python编程入门 (Introduction to Programming in Python)\n金融数据分析 (Data Analytics in Finance)\n大数据计算金融 (Big-Data for Computational Finance)\n金融科技与数字经济的计算市场微观结构 (Computational Market Microstructure for FinTech and the Digital Economy)\n论文 (CCFEA MSc Dissertation)\n公司金融 (Corporate Finance)\n衍生证券 (Derivative Securities)\n资产组合管理 (Portfolio Management)\n金融建模 (Financial Modelling)\n风险管理 (Risk Management)\n数据分析：横断面、面板、定性数据方法 (Data Analysis: Cross Sectional, Panel and Qualitative Data Methods)\n现代银行业 (Modern Banking)\n银行战略与风险 (Bank Strategy and Risk)\n金融市场分析概论 (Introduction to Financial Market Analysis)\n经济学与金融学计算模型 (Computational Models in Economics and Finance)",
+  "success_cases": ""
+}

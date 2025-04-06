@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "无线通信与信号处理理学硕士",
+  "ename": "MSc Wireless Communications and Signal Processing",
+  "tags": "工科,电气电子,计算机科学、电气与电子工程和工程数学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 35800英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要通信工程、计算机网络、计算机科学与技术、计算机系统工程、电气工程与管理、电子电气工程、信息和通信技术、信息工程、微电子工程、光学工程、光学信息科学与技术、光电信息科学与技术、电信背景。其他工程学位的申请者可能会被考虑，前提是已经在电子/通信领域至少修满5门课程（成绩达到60%） 对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩\n学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们在工程领域至少有6个月（全职或等效兼职）的重要相关工作经验的证据或具有相关的研究生学历\n如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关工作经验和/或资格",
+  "objectives": "布里斯托大学的无线通信与信号处理理学硕士项目涵盖了一系列与无线通信和通信相关信号处理的高级主题。它为学生提供了在无线通信中最具活力领域工作的职业所需技能的绝佳机会。该计划建立在智能互联网实验室内通信系统和网络小组的国际公认研究实力之上。该小组在许多关键的基础和实验领域进行了开创性研究，包括空间信道测量和预测、信息论、高级无线接入（蜂窝和 WLAN）和射频技术。集团拥有设备齐全的实验室，配备有最先进的测试和测量设备以及一流的计算设施。该课程将会提供与无线通信行业理论和实践相关的深入培训，包括设计、分析和管理技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "通信系统原理 (Principles of Communication Systems)\n编码理论（M） (Coding Theory (M))\n射频工程（M） (Radio Frequency Engineering (M))\n通讯系统（M） (Communication Systems (M))\n移动通信（M） (Mobile Communications (M))\n网络协议原理（M） (Networking Protocol Principles (M))\n数字滤波器和光谱分析（M） (Digital Filters and Spectral Analysis (M))\n数字信号处理系统 (Digital Signal Processing Systems)\n天线类 (Antennas)\n先进的移动无线电技术 (Advanced Mobile Radio Techniques)\n宽带无线通信 (Broadband Wireless Communications)\n研究项目 (Research Project)\n工程研究技能 (Engineering Research Skills)",
+  "success_cases": ""
+}

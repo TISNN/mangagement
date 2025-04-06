@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "游戏工程理学硕士",
+  "ename": "MSc Games Engineering",
+  "tags": "工科,计算机,制造学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 35340英镑/年",
+  "requirements": "具有2:1本科学位或同等学历，需要相关STEM学科背景（计算机科学、工程、技术、数学）\n该课程是为希望晋升到高级技术职位的毕业生设计的，因此需要强大的STEM背景，具备高级编程技能者优先考虑，但具备编程基础的申请者将接受C培训",
+  "objectives": "计算机游戏行业是当今最令人兴奋和最具活力的增长行业之一。然而，招聘具备所需特定技能的毕业生是该行业面临的最大挑战之一。华威大学游戏工程理学硕士项目旨在应对这些挑战，并培养未来的游戏工程师和开发人员。\n视频游戏开发是一个特别复杂的软件工程过程，需要许多广泛领域的专业知识，包括高性能图形、编程、数据结构、物理学、声学、人工智能（AI）、机器学习、网络、建模和渲染。在华威大学游戏工程理学硕士课程中，学生将在复杂的游戏开发过程中接受培训，学习如何从头开始创建游戏引擎的基础和理论方面，以及借助已建立的游戏引擎（如Unreal，Unity）来理解其功能和限制的复杂性。\n成为一名专业开发人员的基础是对算法概念和高级编程语言具备深刻的理解，因此，通过华威大学游戏工程理学硕士课程，学生不仅可以掌握C和Python等语言，还可以通过编程作为掌握这些概念的工具，对计算原理形成概念性的理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "游戏研究、开发与管理基础 (Fundamentals of Games Research, Development and Management)\n编程与基本算法 (Programming and Fundamental Algorithms)\n计算机图形学 (Computer Graphics)\n高级计算机图形学 (Advanced Computer Graphics)\n游戏工程 (Games Engineering)\n创新仿真设计与开发 (Innovative Simulation Design and Development)\n机器智能与数据科学 (Machine Intelligence and Data Science)",
+  "success_cases": ""
+}

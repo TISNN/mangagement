@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "机械工程设计与管理理学硕士",
+  "ename": "MSc Mechanical Engineering Design with Management",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 28000英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历\n需要工程或科学相关背景，并具备本科水平的核心机械工程科学主题的适当知识",
+  "objectives": "利物浦大学机械工程设计与管理理学硕士项目旨在通过在商业环境中整合创造性、解决问题的设计元素，结合数字、分析和机械工程设计的科学原理，培养学生的学术知识和技术工程技能，深入了解管理和商业学。项目主要由传统的讲授和实践课构成，但主动性学习也是必不可少的环节。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程流体力学 (Engineering Fluid Mechanics )\n计算机辅助设计 (Computer Aided Design)\n核技术 (Nuclear Technologies)\n工程师技术写作 (Technical Writing for Engineers)\n项目管理 (Project Management)\n先进现代化管理模式 (Advanced Modern Management)\n集团工程设计 (Group Engineering Design )\n能源与环境 (Energy and the Environment)\n结构完整性探究 (Structural Integrity)\n高级激光制造 (Advanced Manufacturing With Lasers)\n企业研究 (Enterprise Studies)\n理学硕士项目 (Msc(eng) Project  )\n有限元分析 (Finite Element Analysis)\n增材制造学 (Additive Manufacturing )\n高级材料工程 (Advanced Engineering Materials )\n制定工程 (Formulation Engineering)",
+  "success_cases": ""
+}

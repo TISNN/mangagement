@@ -1,0 +1,12 @@
+{
+  "school_name": "罗格斯大学",
+  "major_name": "机械与航天工程工学硕士",
+  "ename": "MEng in Mechanical and Aerospace Engineering",
+  "tags": "工科,机械工程",
+  "introduction": "专业方向: 机械工程\n入学时间: 秋季/春季\n项目时长: 12个月\n项目学费: 16116美元/学期",
+  "requirements": "机械背景或相关工程背景或数学背景",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

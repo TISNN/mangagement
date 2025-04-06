@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "应用语言学与对外英语教学文学硕士",
+  "ename": "MA Applied Linguistics with TESOL",
+  "tags": "社科,教育,文科与法律学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 28220英镑/年",
+  "requirements": "具有2:1荣誉学位，需要应用语言学、语言学、英语语言或其他相关学科背景（如翻译研究、TEFL/TESL/TESOL、英语文学、传播学），相关专业经验也将被考虑在内\n需要具备至少1年语言教学经验，少于1年经验的申请者可以考虑MA TESOL",
+  "objectives": "伯明翰大学应用语言学与对外英语教学项目适合对语言与社会的关系感兴趣、并且希望了解词汇作用以及口语和书面语言区别的学生。伯明翰大学应用语言学与对外英语教学项目以教学为导向，专为有经验的语言教师（具有一年以上的语言教学经验）开设，可以帮助他们提升自身技能，积累相关经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "描述语言 (Describing Language)\n教学大纲与材料设计 (Syllabus and Materials Design)\n应用语言学研究方法 (Research Methods in Applied Linguistics)\n英语教学中的双语与多语化 (Bilingualism and Multilingualism in the TESOL Classroom)\n商务话语与沟通 (Business Discourse and Communication)\n语料库辅助语言学习 (Corpus Assisted Language Learning)\n英语作为国际语言 (English as an International Language)\n跨文化交际中的问题 (Issues in Intercultural Communication)\n语言与政治 (Language and Politics)\n语言与手势 (Language and Gesture)\n语言与新媒体 (Language and New Media)",
+  "success_cases": ""
+}

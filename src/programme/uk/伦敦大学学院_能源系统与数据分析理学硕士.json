@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "能源系统与数据分析理学硕士",
+  "ename": "MSc Energy Systems and Data Analytics",
+  "tags": "工科,能源,建筑环境学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有2:1学士学位或同等学历",
+  "objectives": "伦敦大学学院能源系统与数据分析理学硕士项目培养学生从数据分析的角度探讨学术层面与工业层面的能源力系统研究，运用由大数据和大规模计算支持的高级分析方法，探究能源系统的设计、运行与维护，掌握相关的知识与技能，研究如何合理利用能源大数据重塑能源机构。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "能源系统 (Energy Systems)\n能源数据分析 (Energy Data Analytics)\n能源分析统计 (Statistics for Energy Analysis)\n建筑环境中的能源分析 (Energy Analytics in the Built Environment)\n能源与运输分析 (Energy and Transport Analytics)\n能源数据空间分析 (Spatial Analysis of Energy Data)\n建筑环境系统动力学建模导论 (Introduction to Systems Dynamics Modelling in the Built Environment)\n能源市场计量经济学 (Econometrics of Energy Markets)\n能源、技术与创新 (Energy、Technology and Innovation)\n英国能源与环境政策及法律 (UK Energy and Environment Policy and Law)\n生态创新，业务与市场开发 (Eco-innovation, Business and Market Development)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "信息系统管理与数字创新理学硕士",
+  "ename": "MSc Management of Information Systems and Digital Innovation",
+  "tags": "商科,信息系统,商学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要商业、管理或任何相关学科背景，如计算机、信息系统、工程等",
+  "objectives": "数字技术正在从根本上改变企业的运营方式，催生新的商业模式、服务、工作方式和参与形式。利兹大学信息系统管理与数字创新理学硕士项目旨在为学生提供在商业中有效利用数字技术所需的技能和能力。该专业毕业生能够为在技术和商业的交叉点工作做好准备，从事包括咨询、项目管理、系统开发和战略在内的职业。学生将开发展管理技术中介的变革和商业创新的技术，同时适应数字化转型带来的挑战和机遇。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业分析与决策科学 (Business Analytics and Decision Science)\n论文 (Dissertation)\n管理数字信息项目 (Managing Digital Information Projects)\n以人为本的人工智能 (Human Centred AI)\n数字化转型管理 (Digital Transformation Management)\n社交媒体管理 (Social Media Management)\n运营与信息系统创新 (Innovation in Operations and Information Systems)\n研究设计与分析 (Research Design and Analysis)\n可持续未来的数字技术 (Digital Technologies for a Sustainable Future)\n循证咨询 (Evidence Based Consultancy)\n系统思考与咨询实践 (Systems Thinking and Consulting Practice)\n国防部黑客问题 (Problem Hacking for the Ministry of Defence)\n创业与企业创造 (Entrepreneurship and Enterprise Creation)\n运营与供应链管理 (Operations and Supply Chain Management)\n创建有效的数据可视化 (Creating Effective Data Visualisations)",
+  "success_cases": ""
+}

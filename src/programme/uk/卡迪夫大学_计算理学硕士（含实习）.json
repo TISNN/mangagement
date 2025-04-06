@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "计算理学硕士（含实习）",
+  "ename": "MSc Computing with Placement",
+  "tags": "工科,计算机,计算机科学与信息学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 2年\n项目学费: 31700英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，不限专业\n如果申请者没有学位，学校会考虑其专业经验，需要提交证据支持",
+  "objectives": "卡迪夫大学计算理学硕士（含实习）项目旨在为来自不同职业和学科领域的学生提供软件工程技能和软件开发职业所需的技术能力的平衡。这个为期两年的课程将使学生第一手了解软件解决问题的重要作用、可用的跨学科机会以及计算系统等目标，通过温和的介绍和深入的挖掘，学生将了解Java和Python等重要语言的编程技能。该课程的另一个重点是处理数据，学生将学习开发SQL（结构化查询语言）的基本技能，以使用Oracle™等行业标准产品实现高级数据库功能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "软件工程 (Software Engineering)\n网络应用程式开发 (Web Application Development)\n面向对象的JAVA程序开发 (Object Oriented Development with Java)\n计算系统 (Computational Systems)\n电子商务和创新 (E-Commerce and Innovation)\n分布式和云计算 (Distributed and Cloud Computing)\n人本运算 (Human Centric Computing)\n信息建模和数据库系统 (Information Modelling and Database Systems)",
+  "success_cases": ""
+}

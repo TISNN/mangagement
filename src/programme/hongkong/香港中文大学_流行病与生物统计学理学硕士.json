@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "流行病与生物统计学理学硕士",
+  "ename": "MSc Epidemiology and Biostatistics",
+  "tags": "社科,公共卫生,医学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 209880港币/年",
+  "requirements": "具有学士学位，需要提供B等级证明",
+  "objectives": "香港中文大学流行病学与生物统计学理学硕士课程主要讲习医学人群研究理论和方法以及循证医学知识和技能，旨在为学生提供各种临床和卫生人群应用型研究设计、实施和分析的全面培训，并教授学生如何解读和评估医学文献，以及循证决策理论和方法。通过硕士论文，学生也将学习如何准备科研标书和论文发表。学生完成流行病学与生物统计学理学硕士课程后，应能够运用各种定量医学研究方法（包括临床试验、病例对照研究、队列研究和系统综述等)，严谨有效地进行应用型医学研究，具备较高的解读和评估医学文献的能力，并掌握循证医学决策知识和方法,提高医学实践和决策的质量。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "流行病学导论 (Introduction to epidemiology)\n流行病学研究设计 (Designs of epidemiological research)\n流行病学研究可探索的问题 (Research questions that can be answered in epidemiological studies)\n流行病学数据处理和分析 (Making sense of epidemiological data)\n循证医学和文献评估 (Evidence-based medicine)\n主要流行病学概念 (Major epidemiological concepts)\n现场调查与研究论文 (Field work techniques)\n论文 (Dissertation)\n生物统计学导论 (Introduction to biostatistics)\n方差和回归分析 (Analysis of variance and regression)\n分类数据分析 (Categorical data analysis)\n生存数据分析 (Survival data analysis)\n高级Logistics回归 (Advanced logistic regression)\n纵向数据分析 (Longitudinal data analysis)\n问卷数据分析 (Analysis of questionnaire data)",
+  "success_cases": ""
+}

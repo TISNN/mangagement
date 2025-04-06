@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "生物医学工程理学硕士",
+  "ename": "MSc Biomedical Engineering",
+  "tags": "工科,生物工程,工程、数学与物理科学学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 30300英镑/年",
+  "requirements": "具有2:2荣誉学位，需要科学、工程或数学学科背景，但所有申请人都将根据成绩单独考虑",
+  "objectives": "埃克塞特大学生物医学工程理学硕士项目是一门跨学科课程，将为学生在生物医学工程领域获得商业或学术职业所需的所有技能和知识打下坚实的基础。基于工程的解决方案在医学问题中的应用对社会具有日益重要的全球意义。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士论文 (MSc Dissertation)\n研究伦理学与方法论 (Research Ethics and Methodology)\n骨科、退化和衰老 (Orthopaedics, Degeneration and Ageing)\n生物传感器和可穿戴设备 (Biosensors and Wearables)\n肌肉骨骼生物力学 (Musculoskeletal Biomechanics)\n生物医学工程中的有限元建模 (Finite Element Modelling in Biomedical Engineering)\n细胞和组织的生物物理学 (The Biophysics of Cells and Tissues)\n增材制造 (Additive Manufacturing)\n以数据为中心的工程 (Data-Centric Engineering)\n设计、创新与创业 (Design, Innovation and Entrepreneurship)\n工业物联网智能监控 (Smart Monitoring with Industrial IoT)\n生命与健康科学的人工智能与数据科学方法 (AI and Data Science Methods for Life and Health Sciences)\n生物学与医学中的数学建模 (Mathematical Modelling in Biology and Medicine)",
+  "success_cases": ""
+}

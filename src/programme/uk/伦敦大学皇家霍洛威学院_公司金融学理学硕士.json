@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "公司金融学理学硕士",
+  "ename": "MSc Corporate Finance",
+  "tags": "商科,金融,经济学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 21700英镑/年",
+  "requirements": "需要具有相关学科背景（如经济学、数学、物理学、工程学或类似的数学学科，管理学申请人则需要学习过足够的数学课程）",
+  "objectives": "伦敦大学皇家霍洛威学院公司金融学理学硕士项目旨在增强学生对公司金融和创业金融的批判性理解，以及创新研究和新风险融资的过程和实践，重点了解风险资本家和私人股本公司在创业、咨询、合并和收购方面的不同作用和财务职能。伦敦大学皇家霍洛威学院公司金融学理学硕士项目提供高质量的教学，给学生提供包括前沿材料和具有挑战性的智力辩论在内的学习内容，多名学者进行授课，资深的金融从业者也将参与其中，在学习期间，学生将接受密集的培训，以分析企业财务和政策问题，同时提高分析技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计量方法 (Quantitative Methods)\n公司金融学 (Corporate Finance)\n金融计量方法 (Quantitative Methods in Finance)\n公司治理 (Corporate Governance)\n经济学论文 (Dissertation in Economics)\n金融学基础 (Foundations of Finance)\n金融与宏观计量经济学 (Macro and financial econometrics)\n投资收益管理 (Investment and Portfolio Management)\n固定收益证券和衍生品 (Fixed Income Securities and Derivatives)\n私募股权 (Private Equity)",
+  "success_cases": ""
+}

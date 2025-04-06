@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "计算（软件工程）理学硕士",
+  "ename": "MSc Computing (Software Engineering)",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 43800英镑/年",
+  "requirements": "具有一等荣誉学位，需要包含大量计算成分的学科背景",
+  "objectives": "帝国理工学院计算（软件工程）理学硕士项目使学生专门研究工程在软件设计、开发和维护中的应用。该研究生项目适用于可能学习过但未深入学习过计算机专业知识的学生。如果学生想成为计算机行业特定领域的专家，帝国理工学院计算（软件工程）理学博士项目将帮助学生踏出实现该目标的重要第一步。教学领域包括计算金融学、计算机网络与分布式系统、计算机视觉、最佳决策的计算、自定义计算、数据库、分布式算法、分布式系统、制图学、智能化数据、概率推理及生物信息学导论。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级数据库 (Advanced Databases)\n面向对象程序设计中的前沿问题 (Advanced Issues in Object Oriented Programming )\n高级安全 (Advanced Security)\n并发进程 (Concurrent Processes)\n信息和编码理论 (Information and Coding Theory)\n模态逻辑 (Modal Logic)\n隐私增强技术 (Privacy Enhancing Techniques)\n分离逻辑：程序的局部推理 (Separation Logic: Local Reasoning about Programs)\n软件可靠性 (Software Reliability)\n程序设计语言的类型系统 (Type Systems for Programming Languages)\n复杂性 (Complexity)\n计算优化 (Computational Optimisation )\n计算机视觉 (Computer Vision)\n动力系统与深度学习 (Dynamical Systems and Deep Learning)",
+  "success_cases": ""
+}

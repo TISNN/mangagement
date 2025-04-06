@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "心理学硕士",
+  "ename": "MSc Psychology",
+  "tags": "社科,心理学,心理与视觉科学学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 21400英镑/年",
+  "requirements": "具有二等荣誉学位，不限专业背景",
+  "objectives": "莱斯特大学心理学硕士项目适合那些在之前的本科学位中没有学习过心理学（或很少学习辅修科目或独立模块）的人，以期重新调整他们的职业方向或增强他们对人们如何感知、思考、互动和行为的理解。\n莱斯特大学心理学硕士项目提供广泛的课程，涵盖心理学的关键领域，包括认知心理学、社会心理学、发展心理学和生物心理学以及研究方法。同时还涵盖个体差异和心理学的历史基础等方面和专注于应用心理学，并设有专门的模块，旨在为学生的心理学职业生涯提供支持。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "心理学的历史和概念主题 (Historical and Conceptual Themes in Psychology)\n研究心理学 (Investigating Psychology)\n大脑与行为 (Brain and Behaviour)\n探索心理过程 (Exploring Mental Processes)\n个体差异 (Individual Differences)\n应用人类行为 (Applied Human Behaviour)\n生命周期发展 (Lifespan Development)\n专业心理学 (Professional Psychology)\n论文 (Dissertation)",
+  "success_cases": ""
+}

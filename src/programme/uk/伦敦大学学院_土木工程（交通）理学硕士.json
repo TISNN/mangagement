@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "土木工程（交通）理学硕士",
+  "ename": "MSc Civil Engineering (with Transport)",
+  "tags": "工科,交通运输,工程科学学院",
+  "introduction": "专业方向: 交通运输\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有2:1英国学士学位或同等学历，需要土木工程或相关学科背景，未满足上述门槛要求但在土木工程或相关学科有丰富全职专业经验（不包括暑期实习）的申请者可以提供一个展示现有工程和设计技能的作品集，其申请可以被考虑",
+  "objectives": "伦敦大学学院土木工程理学硕士项目旨在使学生具备作为专业土木工程师就业所必需的分析和设计技能，并为他们成为特许工程师提供坚实的学术背景。铁路路线适合那些想要进一步专攻该学科，但也希望提高其他土木工程学科背景的学生。\n伦敦大学学院土木工程理学硕士项目旨在为学生提供广泛的土木工程主题的扎实学术背景和解决问题的高级技能，这是在该行业取得成功所必需的。这条路线还将为您提供获得所选交通领域专业知识的机会，旨在为土木工程专业职业生涯提供一条清晰的道路。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目工程的财务方面 (Financial Aspects of Project Engineering)\n交通规划分析 (Transport Planning Analysis)\n城市轨道交通规划与分析 (Urban Railway Planning and Analysis)\n交通基建及其运作 (Transport Infrastructure and its Operation)\n研究项目 (Research Project)\n基础设施数字化 (Digitalisation in Infrastructure)\n环境系统 (Environmental Systems)\n水和废水处理 (Water and Wastewater Treatment)\n近海与海岸工程 (Offshore and Coastal Engineering)\n道路和地下基础设施：设计、施工和维护 (Roads and Underground Infrastructure: Design, Construction and Maintenance)\n先进的土壤力学 (Advanced Soil Mechanics)\n结构抗震设计导论 (Introduction to Seismic Design of Structures)\n岩土地震工程 (Geotechnical Earthquake Engineering)\n有限元建模和数值方法 (Finite-Element Modelling and Numerical Methods)\n城市防洪排水 (Urban Flooding and Drainage)",
+  "success_cases": ""
+}

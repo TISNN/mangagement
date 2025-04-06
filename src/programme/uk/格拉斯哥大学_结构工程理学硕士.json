@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "结构工程理学硕士",
+  "ename": "MSc Structural Engineering",
+  "tags": "工科,土木工程,工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要任何工程学科或物理科学/数学学位背景，包括工程数学和/或数学，土壤力学，结构设计和结构力学的核心课程，平均成绩为2:1\n学校可能会考虑具有2:2学位但核心课程成绩达到2:1的申请者",
+  "objectives": "结构工程师确保建筑物和基础设施的使用安全，能够抵御自然和人为灾害。格拉斯哥大学结构工程理学硕士项目非常适合那些拥有工程本科学位并想在硕士水平上专攻的人，为他们提供一系列方法，帮助学生分析和设计结构，使其安全耐用。在该计划中获得的技能适合在一系列行业任职，如民用、汽车、核能和航空。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程技能 (Engineering skills )\n高级土力学 (Advanced soil mechanics )\n高级结构分析与地震工程 (Advanced structural analysis and earthquake engineering )\n极端荷载下的结构 (Structures under extreme loads )\n有限元素分析 (Finite element analysis )\n高级混凝土性能 (Advanced concrete performance )\n高级钢与混凝土设计 (Advanced steel and concrete design )\n作用中的结构 (Structures in action )\n概念设计项目 (Conceptual design project )",
+  "success_cases": ""
+}

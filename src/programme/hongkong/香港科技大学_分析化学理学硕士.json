@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "分析化学理学硕士",
+  "ename": "MSc Analytical Chemistry",
+  "tags": "理科,化学,理学院",
+  "introduction": "专业方向: 化学\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 160000港币/年",
+  "requirements": "具有学士学位或同等学历并达到二等学位或同等水平，需要化学或其他相关学科背景，并具备一定的化学基础知识",
+  "objectives": "香港科技大学分析化学理学硕士项目致力于为理学学士毕业生未来在分析实验室就职做好准备；课程内容包括材料科学，法医鉴定，环境样品采集以及食品质量控制；同时涵盖了现代分析技术，实际分析问题和物理学原理。另外，香港科技大学分析化学理学硕士项目注重培养学生的实验动手能力，积累实践经验，因此课程中包含了很多实验室实践课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "化学数据分析 (Chemical Data Analysis)\n元素分析 (Elemental Analysis)\n分子分析 (Molecular Analysis)\n分离方法 (Separation Methods)\n光学和电学方法 (Optical and Electrical Methods)\n环境和食品分析 (Environmental and Food Analysis)\n大分子分析 (Macromolecular Analysis)\n材料分析 (Materials Analysis)\n实验室管理 (Laboratory Management)\n分析化学及测量实验室 (Analytical Instrumentation Laboratory)\n分析研究报告 (Analytical Research Project)",
+  "success_cases": ""
+}

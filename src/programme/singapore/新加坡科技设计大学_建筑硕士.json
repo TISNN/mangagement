@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡科技设计大学",
+  "major_name": "建筑硕士",
+  "ename": "Master of Architecture",
+  "tags": "社科,建筑,硕士项目",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 52078新币/年",
+  "requirements": "至少拥有经认可大学颁发的建筑学学士学位，需要证明相关工作经验及其持续时间，以满足建筑师委员会关于攻读认可硕士课程的要求具有使用 Python、JavaScript、C、C# 等现代语言进行编程的经验，拥有Rhino 3D、Grasshopper 和数字制造的一些知识需要相关学术和/或行业作品集、奖项、出版物等",
+  "objectives": "新加坡科技设计大学建筑硕士项目提供面向未来的专业学位课程，强调可持续发展的设计和研究以及建筑行业的数字化转型。该项目通过强调论文项目中的独立批判性思维，并与教师在前沿研究方面的密切合作来支持，从而开启建筑领域领导者的职业生涯。\n新加坡科技设计大学建筑硕士项目的课程强调选择的多样性和自我决定的机会。学生可以从各种选修课、设计工作室和论文顾问中进行选择，确定一条符合他们个人优势和热情的道路。严格的专业实践和研究准备研讨会为课程提供了共享的基础。国际客座讲座、评论和大师班为项目中的共享讨论提供了更多机会，让我们的学生能够听到不同的声音并更广泛地分享他们的工作和想法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "结构化实习 (Structured Internship)\n专业实践II (Professional Practice II)\n专业实践I (Professional Practice I)\n论文 (Thesis)\n论文准备 (Thesis Preparation)\n可持续设计选项工作室 3 (Sustainable Design Option Studio 3)\n迈向碳中和建筑和城市设计 (Toward Carbon-Neutral Architecture and Urban Design)\n建筑遗产的保护理论和方法 (Conservation Theories and Approaches of Built Heritage)\n数字仿生学：可持续材料和制造 (Digital Biomimetics: Sustainable Materials and Manufacturing)\n材料计算：几何和物质的高级主题 (Material Computation: Advanced Topics in Geometry and Matter)\n城市住房类型 (Urban Housing Typologies)\n表演设计高级主题：日光和电力照明 (Advanced Topics in Performative Design: Daylight and Electric Lighting)\n适应范式 (Paradigms of Adaptation)\n表演设计高级主题：城市可持续性 (Advanced Topics in Performative Design: Urban Sustainability)\n社会建筑：理论与实践 (Social Architecture: Theory and Practice)",
+  "success_cases": ""
+}

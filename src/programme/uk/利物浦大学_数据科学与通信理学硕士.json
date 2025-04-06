@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "数据科学与通信理学硕士",
+  "ename": "MSc Data Science and Communication",
+  "tags": "理科,数据科学,文学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "学位需要是传播学，社会科学或人文学科，或技术学科，如计算机科学或信息技术拥有其他学科学位且具备适当专业经验的申请者，学校将根据个人情况进行考虑具有丰富专业经验和/或其他先前资格的非毕业生也可考虑",
+  "objectives": "利物浦大学数据科学与通信理学硕士项目数据科学与通信理学硕士课程专为那些随着社会日益数字化而对数据和数据处理如何塑造通信实践感兴趣的学生而设计，提供最新的经验、技术和理论培训。学生有机会学习尖端的计算技术，以此大规模地研究社会行为，同时深入了解传播研究和社会科学的原理。大量培训还将致力于教授学生利用涉及社交和新闻媒体时的大数据的定量方法。学生将学习新兴通信技术的基础，如计算机中介通信和人机交互等。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "毕业论文 (Dissertation )\n数据科学导论A (Introduction to Data Science A )\n数据科学导论A (Artificial Intelligence & Communication A )\n计算社会科学方法导论 (Introduction to Computational Social Science Methods)\n数据库与信息系统 (Database and Information systems )\n大数据与社会B:基础、政治和政策 (Big data and society B: foundations, politics, and policy )\n媒体与政治:经济与社会B (Media and Politics: Economy and Society B )\n屏幕行业B (Screen Industries B )\n媒体变化理解B (Understanding Media Change B )\n全球新闻与政治 (Global Journalism and Politics )\n大数据与社会D:基础、政治和政策 (Big data and society D: algorithms and platforms )\n媒体与政治:理论与案例B (Media and Politics: Theories and Cases B )\n论媒介与策略传播 (Argumentation in Media and Strategic Communication )\n影视文化B (Screen Cultures B )\n数字媒体观众 (Digital Media Audiences )",
+  "success_cases": ""
+}

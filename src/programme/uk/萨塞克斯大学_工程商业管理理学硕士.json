@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "工程商业管理理学硕士",
+  "ename": "MSc Engineering Business Management",
+  "tags": "工科,工程管理,工程与信息学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要工程、数学或者是物理专业背景。如果申请者有其他专业资格或同等地位的经验，也可能被考虑参加该课程",
+  "objectives": "工程师的点不仅仅是工程。在职业生涯早期，工程师需要在专业环境中管理进程并控制项目；在职业生涯有所发展后，工程师将接触更为复杂的项目，项目的复杂性可能来自于技术或技术集合，但这并不是唯一的来源。工程项目通常包含海外合作，涉及到供应商或项目合作者的地理位置。随着供应商和合作伙伴数量的增加，项目的复杂性和相关系统和过程也会随之增加。在萨塞克斯大学工程商业管理理学硕士项目中，学生将研究商业、管理和金融领域中的高级课题，以及专业工程课题，拥有从事高级工程项目的机会。萨塞克斯大学大学工程商业管理理学硕士项目得益于公司访问、模拟、案例研究和具有国际讲师和行业领导者的客座讲座系列，旨在提高新兴工程师和在职工程师的学术专业能力、商业管理知识和技能，工程专业能力，培养工程管理的职业意识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "决策者会计 (Accounting for Decision Makers)\n全球商业环境 (Global Business Environment )\n管理组织与创新 (Managing Organisations and Innovation)\n管理复杂的项目、产品和系统 (Managing Complex Projects, Products and Systems)\n战略管理（商务与管理） (Strategic Management (Business & Management))\n基础设施、创新和可持续性 (Infrastructure, Innovation and Sustainability)\n管理知识产权 (Managing Intellectual Property )",
+  "success_cases": ""
+}

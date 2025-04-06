@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "人工智能与医学成像理学硕士",
+  "ename": "MSc Artificial Intelligence and Medical Imaging",
+  "tags": "工科,其他工科,工程科学学院",
+  "introduction": "专业方向: 其他工科\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要计算机科学、工程学、物理学或相关领域背景，需要具备本科水平的编程语言知识（如Python或C），例如通过相关课程或申请者在本科期间参与的个人项目来证明，还要求具备本科水平的数学知识，包括代数、分析和概率论，申请者必须表现出对发展思维和问题解决能力的兴趣",
+  "objectives": "伦敦大学学院人工智能与医学影像理学硕士项目由 UCL 的医学物理与生物医学工程系提供：UCL 及其附属教学医院的计算机科学家、物理学家、机械工程师、生物医学科学家和医学从业者之间的跨学科研究和合作中心。加入本系后，学生将受益于国际领先的研究网络，直接向这个紧密联系的社区的研究人员学习。\n伦敦大学学院人工智能与医学影像理学硕士项目将使学生深刻了解工程学如何通过开发、提供和维护基于坚实原则和实现的基础设施、产品和服务来推动技术、临床和经济进步。它将为学生提供为现实世界的问题和挑战设计系统的、务实的和创造性的工程解决方案的技能。该计划不仅会为学生在工程、医疗保健和技术领域的成功职业生涯做好准备，还会为学生在创业等相关领域的职业生涯做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电离辐射医学成像 (Medical Imaging with Ionising Radiation)\n生物医学超声 (Biomedical Ultrasound)\nMRI 和生物医学光学 (MRI and Biomedical Optics)\n医学影像中的信息处理 (Information Processing in Medical Imaging)\n医学图像分析的编程基础 (Programming Foundations for Medical Image Analysis)\n理学硕士研究项目 (MSc Research Project)\n医学影像中的机器学习 (Machine Learning in Medical Imaging)\n人工智能在医学影像中的应用 (Applied AI in Medical Imaging)\n应用深度学习 (Applied Deep Learning)\n计算机辅助手术和治疗 (Computer-Assisted Surgery and Therapy)\n医疗器械企业场景 (Medical Device Enterprise Scenario)\n用于手术和干预的人工智能 (Artificial Intelligence for Surgery and Intervention)\n成像中的逆问题 (Inverse Problems in Imaging)\n生物医学成像的计算模型 (Computational Modelling for Biomedical Imaging)\n计算型磁共振成像 (Computational MRI)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "网络安全理学硕士",
+  "ename": "MSc Cyber Security",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 30600英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要计算机科学或具有大量计算内容的学科背景，例如：数学，工程，系统工程\n申请者应该在计算机系统方面具备良好的背景，包括编程\n学校也会根据个人情况考虑较低或非标准资格但具备几年相关工业计算经验的申请者\n申请者需要使用Rafael Poss矩阵对编程技能进行自我评估。课程对编程技能没有最低要求。然而，这门课程不包括编程课程，如果申请者的编程经验有限，可能无法完全参与到课程中",
+  "objectives": "纽卡斯尔大学网络安全理学硕士项目将学习评估系统安全性的实用和高级技能。您还将学习如何提出安全建议并构建更安全的系统。在整个课程中，你还将培养深入的分析和沟通技巧。作为纽卡斯尔大学网络安全理学硕士课程的学生，您将被鼓励充分参与学校的生活，利用专用的计算和学习设施，参加由研究人员和杰出的外部演讲者举办的研讨会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "系统安全 (System Security)\n信息安全与信任 (Information Security and Trust)\n复杂系统的安全性分析 (Security Analysis of Complex Systems)\n安全与弹性的研究方法与小组项目 (Research Methods and Group Project in Security and Resilience)\n网络安全专题与论文 (Project and Dissertation in Cyber Security)\n可靠系统的挑战 (The Challenge of Dependable Systems)\n安全工具和分析 (Security Tools and Analysis)\n战略案例研究 (Strategic Case Studies)\n人工智能交互与未来 (Human-Artificial Intelligence (AI) Interaction and Futures)\n带项目的机器学习 (Machine Learning with Project)",
+  "success_cases": ""
+}

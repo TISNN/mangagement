@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "智能技术硕士",
+  "ename": "MSc in Intelligent Technology",
+  "tags": "工科,工业工程,创新工程学院",
+  "introduction": "专业方向: 工业工程\n入学时间: 1/9月\n项目时长: 2年\n项目学费: 120000港币/年",
+  "requirements": "修读计算机科学与技术、数学、统计学、资讯科学、管理科学与工程、机械工程、控制科学与工程、环境科学、土木工程、电气工程、物理学、力学、材料科学、航空航天或化学相关专业",
+  "objectives": "本课程属于学科交叉性课程，需要有良好的数理、系统与控制等理论基础。因此，本课程致力于培养数理基础扎实，具有多学科知识背景和创新才能，能够综合应用多学科知识、独立从事智能技术领域科学研究和从事系统智能化产业应用和开发的高层次人才。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "智能控制技术 (Intelligent Control Technology)\n优化方法基础 (Optimization Methods)\n人工智能基础 (Fundamentals of Artificial Intelligence)\n数值分析 (Numerical Analysis)\n统计学导论 (Introduction to Statistics)",
+  "success_cases": ""
+}

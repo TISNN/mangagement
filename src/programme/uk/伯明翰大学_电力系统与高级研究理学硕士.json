@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "电力系统与高级研究理学硕士",
+  "ename": "MSc Electrical Power Systems with Advanced Research",
+  "tags": "工科,电气电子,工程与物理科学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 2年\n项目学费: 33500英镑/年",
+  "requirements": "具有2:1荣誉学位，需要电气工程、电子工程或相关学科背景",
+  "objectives": "伯明翰大学电力系统与高级研究理学硕士项目为期两年，为现有和未来的工程师提供电力系统和可持续能源方面的先进概念和研究技能方面的培训和教育，以满足业界需求。伯明翰大学电力系统与高级研究理学硕士项目旨在使学生具备卓越的才能、恰当的高级技术和知识，使学生能够带领团队研究未来智能电网电力系统和网络的运行、控制、设计和经济分析以及研发项目的开发和管理。\n伯明翰大学电力系统与高级研究理学硕士项目将满足可持续电力系统的研发需求，满足现有和未来的电力工程师对培训和教育的需求，使学生接触可持续电力系统和可再生能源方面的先进概念、设计和重要的科研训练。\n伯明翰大学电力系统与高级研究理学硕士项目衔接了为期一年的硕士课程和博士课程，提供机会让学生理解如何运用先进方法解决能源业应对的现实挑战，使学生提升用于先进研发项目的高级研究技能。伯明翰大学电力系统与高级研究理学硕士项目拥有业界的电力系统顶尖专家，他们将提供别处无法获取的独特课程资料。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电力系统介绍模块 (Introductory Module for Electrical Power Systems )\n电力系统经济学 (Power System Economics)\n电力系统稳定性、控制与保护 (Power System Stability, Control and Protections)\n电力系统运行与控制 (Power Systems Operation and Control)\n高压直流电与灵活交流输电系统 (HVDC and FACTS)\n可再生能源系统集成 (Renewable Energy Systems Integration)\n高级研究项目 (Advanced Research Project )",
+  "success_cases": ""
+}

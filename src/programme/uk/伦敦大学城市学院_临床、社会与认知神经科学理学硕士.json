@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "临床、社会与认知神经科学理学硕士",
+  "ename": "MSc Clinical, Social and Cognitive Neuroscience",
+  "tags": "社科,医学,艺术与社会科学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 21000英镑/年",
+  "requirements": "具有一等或2:1学位或同等学历，需要心理学、生物学或相关学科背景",
+  "objectives": "伦敦大学城市学院临床、社会与认知神经科学理学硕士提供全面的神经科学基础，以支持人类认知脑功能、临床、社会和情感互动以及神经病理学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "神经科学原理：大脑解剖学，技术和范例 (Principles of Neuroscience: Brain anatomy, techniques and paradigms)\n发展认知神经科学 (Developmental Cognitive Neuroscience)\n心理健康，幸福与神经科学 (Mental Health, Well-being and Neuroscience)\n认知神经科学与神经心理学的基本过程I (Fundamental Processes in Cognitive Neuroscience & Neuropsychology I)\n认知神经科学与神经心理学的基本过程II (Fundamental Processes in Cognitive Neuroscience & Neuropsychology II)\n社会认知与社会大脑 (Social Cognition and the Social Brain)\n统计模型与研究方法与程序设计 (Statistical models and Research Methods and Programming)\n研究论文 (Research Dissertation)",
+  "success_cases": ""
+}

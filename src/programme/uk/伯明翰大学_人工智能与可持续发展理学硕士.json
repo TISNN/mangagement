@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "人工智能与可持续发展理学硕士",
+  "ename": "MSc AI and Sustainable Development",
+  "tags": "工科,计算机,社会科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 30370英镑/年",
+  "requirements": "常规入学要求：\n具有英国大学颁发的2:1学士学位或同等学历，不限专业背景\n除此之外，申请者还必须通过以下其中一项证明具备较强的数学能力：\n- A-Level数学（或同等学历）成绩达到Grade A或以上水平（如果申请者的第一学位不是数学）\n- 成功完成伯明翰大学的人工智能与数据科学数学微证书\n符合学士学位要求但不符合数学先决条件的申请者可能可以获得有条件录取，前提是在申请截止日期之前成功完成人工智能与数据科学数学微证书\n如果申请者在英国以外的地方学习，没有参加A-level，也可以检查其是否持有合适的同等资格",
+  "objectives": "伯明翰大学人工智能与可持续发展理学硕士项目旨在提供严格的跨学科培训，以全球服务欠缺地区的优先事项为基础。我们培养负责任的领导者，以开拓系统方法，嵌入情境人工智能创新，深思熟虑地提升边缘化社区的水平。毕业生在道德技术部署和包容性可持续发展的关系中处于领先地位。学生能够通过道德人工智能创新推动社会、经济和环境变化。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学算法 (Algorithms for Data Science)\n数据科学的当前主题 (Current Topics in Data Science)\n数据科学编程 (Programming for Data Science)\n人工智能促进全球变革 (AI for Global Change)\n人工智能与可持续发展  (AI and Sustainable Development )\n人工智能与可持续发展项目 (AI and Sustainable Development Project)\n政府和政策的人工智能 (AI for Government and Policy)\n性别与发展 (Gender and Development)\n冲突分析和人道主义干预 (Conflict Analysis and Humanitarian Interventions)\n冲突与发展 (Conflict and Development)\n民主、独裁与发展 (Democracy, Dictatorship and Development)\n发展 项目和计划 (Development Projects and Programmes)\n残疾与包容性发展 (Disability and Inclusive Development)\n环境与可持续发展 (Environment and Sustainable Development)\n全球合作解决全球问题 (Global Cooperation on Global Problems)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学伯克利分校",
+  "major_name": "产品开发专业硕士",
+  "ename": "Professional Masters in Product Development",
+  "tags": "工科,工程管理",
+  "introduction": "专业方向: 工程管理\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1年\n项目学费: 5,850美元",
+  "requirements": "化学工程或相关领域的B.S.学位或同等学历",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

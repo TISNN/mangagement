@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "医学工程理学硕士",
+  "ename": "MSc Medical Engineering",
+  "tags": "工科,生物工程,机械工程学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要工程、物理科学、数学背景，学校可以接受具有医学学位或相关学科背景同时具备一定数学和物理知识的申请者，如有需要学校可能会要求提供更详细的课程信息",
+  "objectives": "利兹大学医学工程理学硕士项目将工程设计、问题解决技能，与医学与生物科学相结合，致力于开发针对广泛疾病和创伤的医疗设备解决方案和干预措施。该项目注重研究医学工程的跨学科性质，及其目前朝着工程与生命科学交叉领域的转变。学生将通过选修课程专注于特定专业方向，如组织工程、生物材料或关节置换技术等其他课题。 无论学生是工程师或外科医生，或在销售、市场营销或法律法规行业工作，该项目将为学生提供医学工程行业发展职业生涯所需的知识和技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "实验方法与分析 (Experimental Methods and Analysis)\n专业项目 (Professional Project)\n团队设计项目 (Team Design Project)\n组织工程 (Tissue Engineering)\n医疗电子和电子健康 (Medical Electronics and E-Health)\n创新管理 (Managing for Innovation)\n结构与功能生物力学 (Structure and Functional Biomechanics)\n脊柱生物力学和仪器（远程学习） (Spinal Biomechanics and Instrumentation (Distance Learning))\n工程计算方法 (Engineering Computational Methods)\n摩擦学和表面工程 (Tribology and Surface Engineering)\n生物材料 (Biomaterials)\n功能性关节置换技术 (Functional Joint Replacement Technology)\n生物机电一体化和医疗机器人 (Biomechatronics and Medical Robotics)\n高级有限元分析 (Advanced Finite Element Analysis)\n计算流体动力学分析 (Computational Fluid Dynamics Analysis)",
+  "success_cases": ""
+}

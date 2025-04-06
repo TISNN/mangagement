@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "金融工程学理学硕士",
+  "ename": "MSc Financial Engineering",
+  "tags": "商科,金工金数,商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 334500港币/年",
+  "requirements": "具有认可大学的学士学位，偏好具备1年以上行业工作经验的申请者，需要在定量分析方面有很强的基础",
+  "objectives": "香港城市大学金融工程学硕士学位课程旨在提升金融专业人士的定量分析能力，使其能够分析复杂的衍生产品模型，对复杂金融工具定价和风险评估，以及制定合适的风险管理策略。\n香港城市大学金融工程学硕士项目课程旨在培养学生掌握高级金融分析方法，在公司财务、投资分析和风险管理等领域的应用；为银行和金融专业人才量身打造；课程由香港城市大学资深教授任教，并邀请银行及金融界的专业人士教授专题科目。除了大量科目可供选读，香港城市大学金融工程学硕士课程还会举办专业研讨会及名人讲座，学生可涉足其它相关专业领域以拓展知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司金融 (Corporate Finance)\n衍生产品与风险管理 (Derivatives and Risk Management)\n投资学 (Investments)\n金融随机微积分 (Stochastic Calculus for Finance)\n金融专业研讨会 (Professional Seminars in Finance)\n金融计算 (Financial Computing)\n固定收益证券 (Fixed Income Securities)\n期权定价 (Option Pricing)\n高级公司财务 (Advanced Corporate Finance)\n资产管理与对冲基金策略 (Asset Management and Hedge Fund Strategies)\n信贷风险管理 (Credit Risk Management)\n金融计量经济学 (Financial Econometrics)\n金融系统、市场与工具 (Financial Systems, Markets and Instruments)\n国际财务管理 (International Financial Management)\n可持续金融 (Sustainable Finance)",
+  "success_cases": ""
+}

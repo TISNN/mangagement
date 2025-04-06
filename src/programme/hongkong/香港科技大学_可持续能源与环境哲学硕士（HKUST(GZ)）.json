@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "可持续能源与环境哲学硕士（HKUST(GZ)）",
+  "ename": "MPhil Sustainable Energy and Environment (HKUST(GZ))",
+  "tags": "工科,能源,香港科技大学（广州）",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 2年\n项目学费: 150000人民币/年",
+  "requirements": "具有认可机构颁发的学士学位或同等学历",
+  "objectives": "对环境影响最小的创新可持续能源技术将成为催化剂，引发许多领域的突破性发展，从更绿色的航空到更安全的电动汽车，再到更长续航时间的3C产品。可持续能源技术研究侧重于相关跨学科的前沿研究，包括可持续能源收集和转换技术;高性能储能系统和电动汽车;智慧能源分配、智能能源系统及节能策略;氢气和电解槽;生物能源，仿生推进和能源系统，以及能源系统的生命周期分析和回收。\n可持续能源和环境研究型硕士（MPhil）课程旨在提供可持续能源技术的扎实教育和严格的研究培训，以及原型设计和转移我们的校园作为生活实验室和工业合作者的原创研究成果。该计划还将提供动态教学培训，使学生掌握可持续能源技术的竞争和可转移技能，以全球视野为区域和国家行业服务。\n硕士毕业生应展示领域知识，并综合和创造新技术或方法，为该领域做出贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "实验设计与分析 (Experiment Design and Analysis)\n能源系统的设计与优化 (Design and Optimization of Energy Systems)\n电池可持续性 (Battery Sustainability)\n复杂能源系统的建模和仿真 (Modeling and Simulation of Complex Energy Systems)\n温室气体、空气污染物排放和缓解 (Greenhouse Gas, Air Pollutant Emissions and Mitigation)\n先进能源材料的物理化学 (Physical Chemistry of Advanced Energy Materials)\n氢能与燃料电池 (Hydrogen Energy and Fuel Cell)\n全球能源与环境政策 (Global Energy and Environment Policy)\n生命周期能源和经济分析 (Lifecycle Energy and Economic Analytics)\n能源材料与系统 (Energy Materials and Systems)\n仿生能源系统 (Bio-inspired Energy Systems)\n先进能源系统中的机器学习 (Machine Learning in Advanced Energy Systems)\n电力系统 (Electrical Power Systems)\n无机光伏材料及器件 (Inorganic Photovoltaic Materials and Devices)",
+  "success_cases": ""
+}

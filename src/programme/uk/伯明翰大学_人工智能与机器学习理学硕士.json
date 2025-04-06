@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "人工智能与机器学习理学硕士",
+  "ename": "MSc Artificial Intelligence and Machine Learning",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 36000英镑/年",
+  "requirements": "具有2:1荣誉学位，需要数学学科（计算机科学、数学、物理学、工程学、经济学）或其他包含大量数学内容的专业背景，申请者还需要在数学相关课程中成绩达到good 2:1",
+  "objectives": "英国伯明翰大学人工智能与机器学习理学硕士项目旨在为学生提供人工智能和机器学习的基本原理，以及机器如何感知、探索和理解周围的世界，帮助学生用所学知识解决实际问题，提供专用实验室、机器人技术教学实验室以及安全、医学影像、智能机器人技术和计算机视觉研究实验室",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能与机器学习项目 (Artificial Intelligence and Machine Learning Project )\n人工智能与机器学习的研究现状 (Current Topics in Artificial Intelligence and Machine Learning)\n人工智能与机器学习的数学基础 (Mathematical Foundations of Artificial Intelligence and Machine Learning )\n复杂自适应系统（扩展） (Complex Adaptive Systems (Extended))\n计算机视觉和成像（扩展） (Computer Vision and Imaging (Extended) )\n智能机器人（扩展） (Intelligent Robotics (Extended) )\n机器学习与智能数据分析（扩展） (Machine Learning and Intelligent Data Analysis (Extended) )\n机器人视觉 (Robot Vision)\n小型项目 (Mini Project )\n用Python编程 (Programming in Python )\n研究技能、评估方法和统计 (Research Skills, Evaluation Methods and Statistics)\n存储和管理数据 (Storing and Managing Data )\n可视化 (Visualisation)",
+  "success_cases": ""
+}

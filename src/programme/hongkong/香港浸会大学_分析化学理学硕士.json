@@ -1,0 +1,12 @@
+{
+  "school_name": "香港浸会大学",
+  "major_name": "分析化学理学硕士",
+  "ename": "MSc Analytical Chemistry",
+  "tags": "理科,化学,理学院",
+  "introduction": "专业方向: 化学\n入学时间: 9月\n项目时长: 1年\n项目学费: 150000港币/年",
+  "requirements": "具有认可大学或类似机构颁发的荣誉理学学士学位（BSc）或同等学历，需要化学或物理与生命科学背景，如生物医学科学、生物化学、环境科学、食品科学、药理学等，重点强调分析技术和测量",
+  "objectives": "香港浸会大学分析化学硕士课程旨在为分析化学测试、认证和相关领域的在职专业人员提供进一步教育的机会，提供与公共和工业实验室以及研究机构需求相关的学习计划，确保硕士研究生对解决化学分析问题的现代物理化学方法的基本理论原理和应用具有充足的知识和批判性理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分析过程与应用统计学 (Analytical Process and Applied Statistics)\n分析光谱学 (Analytical Spectroscopy)\n化学仪器分析 (Chemical Instrumentation)\n实验室管理 (Laboratory Management)\n分离分析学 (Separation Science)\n先进分析实验课 (Advanced Analytical Laboratories)\n学位论文 (M.Sc. Dissertation)\n生物分析 (Bioanalysis)\n化学传感器与生物传感器 (Chemosensor and Biosensor)\n电分析化学 (Electroanalytical Chemistry)\n环境分析和监测 (Environmental Analysis and Monitoring)\n药物及中药分析 (Pharmaceutical and Traditional Chinese Medicinal Analysis)\n食品分析 (Food Analysis)\n食品微生物学 (Food Microbiology for Chemists)\n法证分析学 (Forensic Analysis)",
+  "success_cases": ""
+}

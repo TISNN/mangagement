@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "法律史法学硕士",
+  "ename": "LLM Legal History",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 165120港币/年",
+  "requirements": "具有在学生居住地司法管辖区内执业的资格；或\n具有法律学士学位或同等学历；或\n具有非法律学科学士学位以及丰富的法律相关工作经验；或\n具有相关领域的学士学位或硕士学位，如历史学、社会学、政治学或人类学。\n由于专业活动的许多领域都与法律有关，学校欢迎在法律、媒体、教育、公共服务和类似相关领域工作的申请者申请。\n需要提供B等级证明",
+  "objectives": "香港中文大学法律史法学硕士课程旨在使学生具备跨国法律史研究的实质和方法方面的专业知识，课程采用混合结构，将课堂学习和研究元素相结合。除了上课之外，学生还将在一名教员的指导下完成一项实质性的研究项目。通过参与该项目，学生将获得大量的研究、写作和演讲技能，为学术、政策和实践事业的成功铺平道路。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "普通法：起源与发展 (Common Law: Origins and Development)\n法律史论文 (Legal History Thesis)\n殖民统治与法治 (Colonial Governance and the Rule of Law)\n比较法律传统 (Comparative Legal Traditions)\n历史、文化与法律 (History, Culture and the Law)\n法律与历史 (Law and History)\n艺术、古物、文化遗产与法律原理 (Principles of Art, Antiquities, Cultural Heritage and the Law)\n帝国后的跨国法 (Transnational Law After Empire)",
+  "success_cases": ""
+}

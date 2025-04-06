@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "发展研究哲学硕士",
+  "ename": "MPhil Development Studies",
+  "tags": "社科,国际关系,政治与国际研究学系",
+  "introduction": "专业方向: 国际关系\n入学时间: 10月\n项目时长: 1年\n项目学费: 39161英镑/年",
+  "requirements": "申请者应该具有英国High II.i荣誉学位或同等学历（GPA至少达到3.7/4.0或同等水平）\n需要提交1篇Research proposal（500-800字，1-2页）",
+  "objectives": "剑桥大学发展研究哲学硕士项目旨在为学生提供一个规避规范的批判性和反思性课程。这种发展方法能够重新思考谁从明确和隐含的当代方法中受益，从而重新定位发展的目标。这个哲学硕士旨在为学生提供一个丰富而有启发性的课程，使他们能够建立一种发展方法，这种方法基于对范式的历史、种族和政治术语的深思熟虑和反思。本硕士课程强调批判性思考，因此有利于采用分析性的发展方法，而不是更注重实践或职业策略。从该硕士毕业后，学生将对发展、其机构、参与者和利益有广泛而深刻的理解。无论是在学术领域还是在实践领域，该硕士课程都试图为学生提供一个坚实的基础，使他们能够在各个发展领域实现持续未来发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "发展经济学 (Development economics)\n制度与发展 ( Institutions and development)\n发展社会学与政治学 ( Sociology and politics of development)\n全球化与发展 (Globalisation and development)",
+  "success_cases": ""
+}

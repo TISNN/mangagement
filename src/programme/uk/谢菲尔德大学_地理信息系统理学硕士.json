@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "地理信息系统理学硕士",
+  "ename": "MSc Geographical Information Systems (GIS)",
+  "tags": "工科,地球科学,城市研究与规划学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 27670英镑/年",
+  "requirements": "具有2:1本科荣誉学位，专业不限",
+  "objectives": "谢菲尔德大学地理信息系统理学硕士项目使学生获得在地理信息系统、应用政策研究或空间数据分析领域取得成功所需的理论知识、技术技能和实践经验。学生将在诸如高级空间分析、地理可视化、地理信息系统在实践中的政策应用以及专题地图和卡通图创建等领域发展广泛的知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据、可视化和地理信息系统 (Data、Visualisation and GIS)\n定量分析导论 (Introduction to Quantitative Analysis)\n开源地理信息系统和空间分析 (Open Source GIS and Spatial Analysis)\n地理信息系统应用 (Application of GIS)\n社会和空间分析研究设计 (Research Design for Social and Spatial Analysis)\n高级地理信息系统应用方法 (Advanced GIS Methods)\n专业地理信息系统项目 (The Professional GIS Project)\n运输规划 (Transport Planning)\n住房议题 (Issues in Housing)\n多样性城市 (Cities of Diversity)",
+  "success_cases": ""
+}

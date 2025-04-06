@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "国际商务理学硕士",
+  "ename": "MSc International Business",
+  "tags": "商科,管理,诺丁汉商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 28600英镑/年",
+  "requirements": "具有2:1学位或同等学历，不限专业背景，不包括商业和/或管理\n针对尚未完成本科学位的申请者，需要提供最后一年要学习的课程列表",
+  "objectives": "诺丁汉大学国际商务理学硕士课程将帮助学生扩大全球职业机会和收入潜力，将为学生提供在国际管理职位中脱颖而出所需的基本技能。学生将了解如何分析和解释大数据以指导战略决策，将深入了解营销、会计、创新和战略规划。同时还将学习如何成为有效的领导者，并掌握组织行为和人员管理的关键概念。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业经济学 (Business Economics)\n国际商业环境 (International Business Environment)\n管理人员 (Managing People)\n会计原理 (Principles of Accounting)\n国际市场概要 (Essentials of International Marketing)\n国际商务策略 (International Business Strategy)\n可持续性发展管理 (Managing for Sustainability)\n可持续旅游管理 (Sustainable Tourism Management)\n创业 (Launching an Entrepreneurial Business)",
+  "success_cases": ""
+}

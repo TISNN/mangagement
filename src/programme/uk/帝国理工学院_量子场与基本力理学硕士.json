@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "量子场与基本力理学硕士",
+  "ename": "MSc Quantum Fields and Fundamental Forces",
+  "tags": "理科,物理,物理学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 37000英镑/年",
+  "requirements": "具有一等荣誉学位，需要物理学或数学（含理论物理）背景\n需要申请ATAS证书",
+  "objectives": "帝国理工学院量子场与基本力理学硕士项目作为本科课程和科研前沿的衔接，为学生攻读量子场博士学位打下基础。理论物理系教师为基本力学、早期宇宙、量子引力、超对称、弦理论和量子场理论的统一做出巨大学术贡献，具有极高的国际声望。帝国理工学院量子场与基本力理学硕士项目可追溯到诺奖获得者之一、帝国理工学院理论物理系教授阿布杜斯·萨拉姆成立理论物理学系时。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "独立研究项目 (Independent Research Project)\n粒子对称 (Particle Symmetries)\n量子电动力学 (Quantum Electrodynamics)\n量子场论 (Quantum Field Theory)\n统一 (Unification)\n高级量子场论 (Advanced Quantum Field Theory)\n黑洞 (Black Holes)\n宇宙学与粒子物理学 (Cosmology and Particle Physics)\n微分几何 (Differential Geometry)\n量子力学基础 (Foundations of Quantum Mechanics)\n广义相对论 (General Relativity)\n群论 (Group Theory)\n量子信息 (Quantum Information)",
+  "success_cases": ""
+}

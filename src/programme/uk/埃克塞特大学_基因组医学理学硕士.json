@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "基因组医学理学硕士",
+  "ename": "MSc Genomic Medicine",
+  "tags": "社科,医学,医学与健康学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30900英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科背景。相关临床或专业经验可视为同等学历证明",
+  "objectives": "埃克塞特大学基因组医学理学硕士项目由世界领先的基因组学研究学者授课，包括多因子特征、罕见疾病、药物基因组学和表观遗传学，学生将学习罕见和常见病、癌症和传染病的基因组学和信息学，可应用于临床实践和医学研究",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人类遗传学与基因组学基础 (Fundamentals in Human Genetics and Genomics)\n组学技术及其在基因组医学中的应用 (Omics Techniques and their Application to Genomic Medicine)\n基因组分析中的生物信息学、解释与数据质量保证 (Bioinformatics, Interpretation and Data Quality Assurance in Genome Analysis)\n研究项目-数据 (Research Project - Data)\n常见与罕见遗传性疾病基因组学 (Genomics of Common and Rare Inherited Diseases)\n癌症的分子病理学及其在癌症诊断、筛查和治疗中的应用 (Molecular Pathology of Cancer and Application in Cancer Diagnosis, Screening and Treatment)\n药物基因组学与分层医疗 (Pharmacogenomics and Stratified Healthcare)\n基因组学在传染病研究中的应用 (Application of Genomics in Infectious Disease)\n基因组学咨询技巧 (Counselling Skills for Genomics)",
+  "success_cases": ""
+}

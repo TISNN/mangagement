@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "中英笔译与专业实践文学硕士",
+  "ename": "MA Chinese-English Translation and Professional Practice",
+  "tags": "社科,语言,语言与语言学系",
+  "introduction": "专业方向: 语言\n入学时间: 10月\n项目时长: 1年\n项目学费: 21700英镑/年",
+  "requirements": "具有2:2学位（或同等学历），需要具有以英语为主要组成部分的专业背景如果汉语不是申请者的第一语言，需要达到HSK 6级才能被考虑参加本课程申请者可能需要成功通过翻译能力测试",
+  "objectives": "埃塞克斯大学中英笔译与专业实践文学硕士课程旨在向学生介绍各种技巧和技术，使其英语和汉语语言能力达到一个更高的水平，并提高学生的翻译技能，从而提供专业的技术、科学和视听翻译。培训内容包括翻译、口译、视听学等，为学生的进一步学习打下坚实的基础，同时让学生在日常工作中熟悉专业人士使用的最新技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "翻译与口译原理 (Principles of Translation and Interpreting)\n翻译与后期编辑技术 (Technologies of Translation II and Post Editing)\n字幕：原理与实践 (Subtitling: Principles and Practice)\n视听翻译 (Audiovisual Translation)\n笔译 (Written Translation)\n翻译专业技巧 (Professional Skills for Translators)\n论文 (Dissertation)\n作业写作与论文准备 (Assignment Writing and Dissertation Preparation)\n跨文化交流：跨语言与文化交流 (Intercultural Communication: communicating across languages and cultures)\n翻译技术 (Technologies of Translation)\n语言学习与教学心理学主题 (Topics in the Psychology of Language Learning and Teaching)\n句子处理 (Sentence Processing)\n第二语言习得理论 (Theories of Second Language Acquisition)\n第二语言学习个体差异 (Individual Differences in L2 Learning)\nTEFL/ELT与应用语言学语言描述 (Description of Language for TEFL/ELT and Applied Linguistics)",
+  "success_cases": ""
+}

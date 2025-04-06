@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "精准健康与医疗理学硕士",
+  "ename": "MSc Precision Health and Medicine",
+  "tags": "社科,医学,杨潞龄医学院",
+  "introduction": "专业方向: 医学\n入学时间: 8月\n项目时长: 1年\n项目学费: 69400新币/年",
+  "requirements": "具有医学学士、理学学士或者任意科学、技术、工程数学、医学或其他相关学科的相关学士学位（偏好荣誉学位）\n具有其他资历的申请者将根据具体情况予以考虑，但须经项目招生委员会批准（例如在精准医疗相关领域具有丰富的经验和可证明的专业成就，或完成精准健康与医疗相关高级或研究生证书并且至少达到GPA 3.5）\n非定量科学（即非数学、工程或计算）本科专业的申请者需要证明其在定量科学领域的能力，示例包括：\n- 参与定量竞赛并获奖（如奥数竞赛等）\n- 成功完成基础编程（如R或python）和/或基础统计学课程（可接受知名在线课程）\n申请者在生物学或数据科学相关行业的相关工作经验将是一大优势\n欢迎申请者提交GRE/GMAT（选择性提交）",
+  "objectives": "精准医疗作为医学界备受期待的新兴领域，将在未来几十年内彻底改变医疗保健行业。随着技术的进步（例如大数据、机器学习和人工智能）以及对基因的深入研究，精准医疗能够充分考虑个体在遗传基因、生活方式和环境因素等方面的差异，加深人们对人体生理学的了解，从而为不同人群提供精准的治疗和预防方案。\n新加坡国立大学精准健康与医疗硕士是一门跨学科的研究生课程，由学者、临床工作者、专业领域专家和行业领军人物共同主导。该课程旨在为医学和STEM（科学、技术、工程和数学）背景的学生提供相关知识和技能，推动精准医疗赋能医疗保健行业的变革。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人类基因组学在精准医疗中的应用 (Human Genomics in Precision Medicine)\n蛋白质组学和代谢组学在精准健康与医疗中的应用 (Proteomics and Metabolomics in Precision Health and Medicine)\n精准医疗应用统计学 (Applied Statistics in Precision Medicine)\n精准医疗高性能计算应用 (High Performance Computing for Precision Medicine)\n人工智能和机器学习在精准医疗中的应用 (AI and Machine Learning for Precision Medicine)\n精准医疗伦理法规与管理经济学 (Ethics, Regulation and Managerial Economics in Precision Medicine)\n精准医疗专题研讨会 (Seminars in Precision Medicine)\n精准医疗毕业实习项目（仅适用于选择设有毕业实习项目的精准健康与医疗硕士学习路径的学生） (Capstone Project in Precision Medicine *)\n精准医疗临床视角 (Clinical Perspective in Precision Medicine)\n精准医疗肿瘤学 (Precision Oncology)\n精准医疗生物标志物 (Precision Biomarkers)\n精准医疗诊断学 (Precision Diagnostics)\n精准医疗疗法 (Precision Therapeutics)\n精准药物研究与开发 (Precision Drug Discovery and Development)\n因果推断在精准医疗中的应用 (Causal Inference in Precision Medicine)\n精准医疗科技创新 (Technological Innovation in Precision Medicine)",
+  "success_cases": ""
+}

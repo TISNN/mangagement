@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "火山学与环境理学硕士",
+  "ename": "MSc Volcanology and the Environment",
+  "tags": "工科,地球科学,兰卡斯特环境中心",
+  "introduction": "专业方向: 地球科学\n入学时间: 10月\n项目时长: 1年\n项目学费: 30310英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要地质学、地球科学、自然科学、环境科学或类似背景\n学校也可能考虑具有相关学科2:2学位并且具备火山学、特定火山学研究、实地工作或对环境科学有更广泛贡献方面的相关经验或培训的非标准申请者\n鼓励具有工程、数学/统计学、英语或物理学2:1学位的申请者联系学校获取更多信息",
+  "objectives": "兰卡斯特大学火山学与环境理学硕士课程让学生可以与英国最大的环境科学家团体之一的领先火山学家一起学习。兰卡斯特大学火山学与环境理学硕士课程为博士研究或环境/地球科学领域工作做准备。除了获得强大的理论基础外，学生还将花时间在实验室和实地考察，包括实地考察附近湖区的火山岩和埃特纳火山上非常受欢迎的实地课程。学生将学习六个教学课程，其中包括物理火山学的核心课程，以及在对有抱负的火山学家和地质/环境专业人士特别有益的领域提供更广泛的学习和实践技能的可选课程。课程由兰卡斯特环境中心和我们合作机构的世界专家教授。学生将加入我们的活火山学小组，并在国际公认的研究人员的监督下，利用我们设备齐全的实验和地球化学实验室进行独立的论文研究项目。在我们的小组内，还有更多机会参加研讨会、讲习班和讨论。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文项目 (Dissertation Project)\n物理火山学 (Physical Volcanology)\n规划独立研究 (Planning Independent Research)\n气候变化与社会 (Climate Change and Society)\n受污染土地和修复 (Contaminated Land and Remediation)\n数据分析和编程技巧 (Data Analysis and Programming Skills)\n数据同化与整合 (Data assimilation and integration)\n数据收集和分析 (Data Collection and Analysis)\n环境治理与管理 (Environmental Governance and Management)\n地理信息学 (Geoinformatics)\n地质灾害 (Geological Hazards)\n全球变化与地球系统 (Global Change and the Earth System)\n地下水资源与保护 (Groundwater Resources and Protection)\n模拟环境过程 (Modelling Environmental Processes)\n数字技能 (Numerical Skills)",
+  "success_cases": ""
+}

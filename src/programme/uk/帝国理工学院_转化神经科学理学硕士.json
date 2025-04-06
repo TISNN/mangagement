@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "转化神经科学理学硕士",
+  "ename": "MSc Translational Neuroscience",
+  "tags": "理科,生物,医学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 45000英镑/年",
+  "requirements": "具有2:1学位，需要适当的生物科学学科背景",
+  "objectives": "帝国理工学院转化神经科学理学硕士项目旨在为未来的神经科学家提供高质量的培训，他们不仅将在理解神经和精神疾病的病因方面发挥重要作用，而且还将开发更好的治疗方法。该课程将由在神经科学领域工作的世界领先的专家临床医生和神经科学家讲授。世界卫生组织（WHO）最近将神经系统疾病列为全球紧急情况，预计在未来25年，随着全球预期寿命的增加，受这类疾病影响的人数将显著增加。对于绝大多数神经障碍，没有有效的治疗方法。独特的是，帝国理工学院转化神经科学理学硕士项目将为学生提供理论和实践培训，在转化研究中使用的各种方法，开发新的治疗方法，以治疗神经疾病。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "功能性神经解剖学 (Functional Neuroanatomy)\n细胞和分子神经学 (Cellular and Molecular Neuroscience)\n神经退行性疾病 (Neurodegenerative Disorders)\n成瘾与精神病学的神经药理学 (Addiction and Neuropharmacology in Psychiatry)\n脑成像 (Brain Imaging)\n计算神经学 ( Computational Neuroscience)\n神经炎与中枢神经系统创伤 (Neuroinflamation and CNS Trauma)\n大脑可塑性与神经再生 (Brain Plasticity and Neuroregeneration)\n实验室研究项目 (Laboratory-based research project)",
+  "success_cases": ""
+}

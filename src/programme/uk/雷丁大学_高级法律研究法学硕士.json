@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "高级法律研究法学硕士",
+  "ename": "LLM Advanced Legal Studies",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 25850英镑/年",
+  "requirements": "具有2:1或以上学位，需要法律背景具有2:2学位以及3年相关工作经验and/or通过律师资格考试的申请者也将被学校考虑具有2:2学位但是经验较少and/or在一些法律课程中获得高分，以及拥有人文或社会科学背景的申请者也将被学校考虑，学校欢迎他们申请",
+  "objectives": "雷丁大学高级法律研究法学硕士项目课程设置非常灵活，学生能够从众多领域中做出选择，根据自己的兴趣来定制个性化的学习方案。雷丁大学高级法律研究法学硕士项目旨在让学生掌握成为法律领域专业人士、学者和佼佼者所需要的知识和技能。除了传授法律知识之外，雷丁大学高级法律研究法学硕士项目还帮助学生提高描述和评估问题、筛选相关材料、以及围绕政策、现有惯例和知识进行论证的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际法导论 (Introduction to international law)\n国际争议解决 (International dispute settlement)\n国际难民法 (International refugee law)\n人权法、政策与实践 (Human rights law、policy and practice)",
+  "success_cases": ""
+}

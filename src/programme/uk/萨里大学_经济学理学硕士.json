@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 21800英镑/年",
+  "requirements": "具有2:1英国荣誉学位，需要化学、计算机科学、经济学、工程学、数学、物理学、统计学背景\n或者，具有其他学位专业背景，并且在宏观经济学和微观经济学课程中成绩达到60%（英国或同等水平），在代数、微积分、数学、概率、定量方法或统计学中的1门课程中成绩达到60%（英国或同等水平）\n不符合上述入学要求但持有相关学科2:2学位并且在与申请专业相关的职位上具备至少12个月毕业后工作经验的申请者仍可能被考虑",
+  "objectives": "萨里大学经济学理学硕士学位课程致力于使学生牢固掌握微观经济学、宏观经济学及计量经济学。通过萨里大学经济学理学硕士学位课程的学习和专业的研究方法的训练，学生将更好地掌握经济学研究方法，从而能够运用经济学分析方法去解决实际问题，并且独立进行经济学研究设计与实现。\n萨里大学经济学理学硕士学位课程多样化的选修课使学生能够根据自己的兴趣及职业目标自主选择所修课程，如能源经济学、金融理论和人力资源经济。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究方法 (RESEARCH METHODS)\n计量经济学1 (ECONOMETRICS 1)\n能源经济与技术 (ENERGY ECONOMICS AND TECHNOLOGY)\n人力资源经济学 (HUMAN RESOURCE ECONOMICS)\n国际金融与发展经济 (INTERNATIONAL FINANCE AND DEVELOPING ECONOMIES)\n宏观经济学 (MACROECONOMICS)\n微观经济学 (MICROECONOMICS)\n先进的宏观经济学 (ADVANCED MACROECONOMICS)\n先进的微观经济学 (ADVANCED MICROECONOMICS)\n计量经济学2 (ECONOMETRICS 2)\n国际石油和天然气经济学 (ECONOMICS OF INTERNATIONAL OIL AND GAS)\n企业经济学 (ECONOMICS OF THE FIRM)\n金融经济 (FINANCIAL ECONOMETRICS)\n国际贸易 (INTERNATIONAL TRADE)\n金融理论 (THEORY OF FINANCE)\n发展经济学主题 (TOPICS IN DEVELOPMENT ECONOMICS)",
+  "success_cases": ""
+}

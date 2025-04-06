@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡科技设计大学",
+  "major_name": "科技与设计（机器人与自动化）理学硕士",
+  "ename": "MSc Technology and Design (Robotics & Automation)",
+  "tags": "工科,电气电子,硕士项目",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 54500新币/年",
+  "requirements": "具有相关专业学士学位，包括工程、计算机、物理、应用科学或数学。有兴趣的候选人若拥有非相关专业的本科学位，可能会根据具体情况进行考虑；相关工作经验将被考虑录取",
+  "objectives": "新加坡科技设计大学科技与设计（机器人与自动化）理学硕士项目经过精心设计，旨在为学生提供对机器人跨学科领域的先进和全面的理解。该项目旨在为学生提供设计思维、核心机器人基础知识和新兴机器人技术之间的平衡。\n新加坡科技设计大学科技与设计（机器人与自动化）理学硕士项目是一个高度动态的项目，它为新兴机器人技术的迷人景观提供了身临其境的体验，无缝集成了计算机科学、工程、数学和人工智能的知识。其主要目标是让毕业生具备在不断发展的机器人领域取得优异成绩所必需的多方面能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计创新 (Innovation by Design)\n力学与机制 (Mechanics & Mechanisms)\n建模与控制 (Modelling & Control)\n设计科学 (Design Science)\n软体机器人 (Soft Robotics)\n机器人智能 (Robotics Intelligence)\n现场自治 (Field Autonomy)\n设计项目 (Design Project)",
+  "success_cases": ""
+}

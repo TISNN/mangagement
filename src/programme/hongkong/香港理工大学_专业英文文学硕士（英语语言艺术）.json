@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "专业英文文学硕士（英语语言艺术）",
+  "ename": "MA English Studies for the Professions (English Language Arts)",
+  "tags": "社科,语言,人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 195000港币/年",
+  "requirements": "具有获认可院校颁发的学士学位或同等学历，不限专业背景，优先考虑主修英语或传播相关领域的申请者",
+  "objectives": "香港理工大学专业英文文学硕士学位课程旨在帮助学生对教育和专业环境中的英语理论和实践问题具备全面而批判性的理解，获得在各类机构环境中成为创新型专业人才所需的知识和技能。课程完成后学生应当能够全面理解英语主要语言系统（包括声音、语义、话语和词汇语法）及其相关关系，认识到英语在在各种模式流派和设定下的语境变化，深刻理解英语在教育、专业环境或群体下发挥的作用，深入了解所选专业方向的理论、研究与实践发展，能够运用不同方法、途径和工具来分析所选专业领域相关的语言和交流问题，能够针对有教育或职业目的的英语学习和使用问题的实证研究进行规划、执行与报告，对于大量富有文学性的和富有想象力的作品和事件有深入的理解力和鉴赏能，能够独立或通过协作分析解决所选专业方向下英语使用的理论与实际问题，在教育和工作环境中战略性地运用批判性和创造性的思维技巧，可以通过对专业实践的探究和反思，实现终身学习和职业发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "口语艺术 (Oral Language Arts)\n语言文化研究 (Critical Language and Cultural Studies)\n英语语言文学艺术 (English Literature and Language Arts)\n戏剧中的语言学习 (Drama for Language Learning)\n大众文化与英语语言 (Popular Culture and English)\n传播学 (Communication)\n英语作为国际语言 (English as an International Language)\n语篇分析 (Discourse Analysis)\n第二语言学习 (Second Language Learning)\n英语语义和词汇 (English Semantics and Lexis)\n英语语法分析 (Analytical Perspectives in English Grammar)\n语言发展和使用 (Language Development and Use)\n实用传播策略 (Practical Communication Strategies I)\n第二语言教学 (Second Language Teaching)\n课程规划和材料设计 (Syllabus Planning and Materials Design)",
+  "success_cases": ""
+}

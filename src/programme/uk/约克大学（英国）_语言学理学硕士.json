@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "语言学理学硕士",
+  "ename": "MSc Linguistics",
+  "tags": "社科,语言,语言及语言科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 27180英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要相关语言学背景",
+  "objectives": "在约克大学语言学理学硕士项目中，学生将学习语言学关键领域的课程，并从一系列不同的选项中进行选择。学生将磨练现有的分析和语言调查技能，并在年底将它们应用到你的论文中。约克大学语言学理学硕士项目的课程侧重于高级分析技能，例如收集、整理和管理数据，以及解决问题和以报告的形式呈现结果。学生将由对自己的学科充满热情并且是活跃研究人员的专家学者授课。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语法语义接口中的问题 (Issues in the Syntax-Semantics Interface)\n高级比较句法或语义类型学 (Advanced Comparative Syntactic or Semantic Typology)\n比较语义学 (Comparative Semantics)\n高级语法 (Advanced Syntax)\n语义学导读 (Directed Readings in Semantics)\n语法导读 (Directed Readings in Syntax)\n社会语音学 (Sociophonetics)\n语言变异和变化的主题 (Topics in Language Variation and Change)\n英式英语方言语法 (Dialect Grammar of British English)\n高级语音学 (Advanced Phonetics)\n先进的音系学 (Advanced Phonology)\n语音发展 (Phonological Development)\n语音学和音韵学导读 (Directed Reading in Phonetics and Phonology)\n语音发展中的定向阅读 (Directed Reading in Phonological Development)\n英语韵律 (Prosody of English)",
+  "success_cases": ""
+}

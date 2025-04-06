@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "科学计算与数据分析（工程人工智能）理学硕士",
+  "ename": "MSc Scientific Computing and Data Analysis (Artificial Intelligence for Engineering)",
+  "tags": "理科,数据科学,计算机科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 34000英镑/年",
+  "requirements": "具有英国一等或2:1荣誉学位（理学学士）或同等学历，需要以下背景：\n- 工程学；或\n- 计算机科学；或\n- 任何自然科学（具有很强定量元素）。\n学校鼓励申请者选择与其背景相一致的专业领域，请注意，常规的商业学位不提供必要的数学基础\n附加要求\n申请者必须在至少一种编译语言中表现出强大的编程技能，最好是C或C，尽管Rust、Java、C#、Fortran或Pascal也可以接受。如果申请者在其选择的专业有很强的背景，熟练掌握Python可能就足够了。那些缺乏C或C经验的人建议参加学校预科课程\n此外，学校还要求具备本科水平的数学知识，包括线性代数、微积分、积分、常微分方程和偏微分方程以及概率论",
+  "objectives": "工程领域的发展越来越多地受到计算技术专家的推动，杜伦大学科学计算与数据分析理学硕士项目提供了一个以应用为重点的课程，通过三个相互交织的部分来提供这些技能：专业领域基础技术的实施和应用（除了工程人工智能，还提供金融技术、天体物理学、计算机视觉与机器人学或地球与环境科学的选项）；科学计算的计算机科学基础（算法、数据结构、实现技术和计算机工具的使用）；机器学习的数学方面以及数学模型的模拟和分析。杜伦大学科学计算与数据分析理学硕士项目的工程专业资格通过的教学模块和项目工作的结构化课程，向学生介绍工程应用，通过讲座、计算机实验室和项目，学生将学会为工程问题设计和实施人工智能解决方案，将深度学习和优化技术应用于工程系统，将人工智能与物理模型和工程原理相结合，开发稳固的软件实现。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "机器学习与统计学概论 (Introduction to Machine Learning and Statistics)\n科学与高性能计算概论 (Introduction to Scientific and High Performance Computing)\n专业技能 (Professional Skills)\n项目 (Project)\n高级统计机与器学习：基础与无监督学习 (Advanced Statistical and Machine Learning: Foundations and Unsupervised Learning)\n高级统计学与机器学习：回归与分类 (Advanced Statistics and Machine Learning: Regression and Classification)\n数据采集与图像处理 (Data Acquisition and Image Processing)\n性能建模、矢量化和GPU编程 (Performance Modelling, Vectorisation and GPU Programming)\n高级算法与离散系统创建 (Advanced Algorithms and Discrete Systems Create)",
+  "success_cases": ""
+}

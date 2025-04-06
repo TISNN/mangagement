@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "高级材料科学（材料创新与企业）理学硕士",
+  "ename": "MSc Advanced Materials Science (Materials Innovation and Enterprise)",
+  "tags": "工科,材料,数学与物理科学学院",
+  "introduction": "专业方向: 材料\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的二等学士学位或同等学历，需要ATAS认证，强烈建议有作品集的申请者在申请时提交该材料",
+  "objectives": "伦敦大学学院高级材料科学（材料创新与企业）理学硕士项目旨在提供创新教学；从为学生提供设计下一代高级材料的独特机会的小组设计项目，到用于实际应用的高级材料模块，该模块详细概述了各种功能材料和用于实际应用的新兴先进设备- 高科技领域的世界应用，以及创业理论与实践模块，学生可以在其中学习如何在商业世界中应用研究。\n参加这个伦敦大学学院高级材料科学（材料创新与企业）理学硕士项目的学生受益于 UCL 对以企业和研究为主导的教学的重视，该教学以 UCL 各部门当前的研究投入为基础。除了学生通过该课程获得的特定技能和知识外，他们还培养了管理和创业技能，以及在文献调查、实验设计、材料研究、关键数据分析、团队合作和有效沟通技巧等领域的可转移技能-生活案例场景和学生主导的小组项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究方法论 (Research Methodology)\n材料设计、选择和发现 (Materials Design, Selection and Discovery)\n高级材料表征 (Advanced Materials Characterisation)\n高级材料加工与制造 (Advanced Materials Processing and Manufacturing)\n文学项目 (Literature Project)\n研究项目 (Research Project)\n高级材料中的微观结构控制 (Microstructural Control in Advanced Materials)\n用于实际应用和开发的高级材料 (Advanced Materials for Real-World Applications and Exploitation)\n创业精神：理论与实践 (Entrepreneurship: Theory and Practice)",
+  "success_cases": ""
+}

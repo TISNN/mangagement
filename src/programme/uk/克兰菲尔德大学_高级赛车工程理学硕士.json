@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "高级赛车工程理学硕士",
+  "ename": "MSc Advanced Motorsport Engineering",
+  "tags": "工科,机械工程,运输系统",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "需要工程学、数学、物理或应用科学相关背景",
+  "objectives": "赛车运动是一个要求工程师全心投入的苛刻世界。没有他们的技能和专业知识，团队甚至无法参加比赛。通过教学和赛车相关项目工作的严格结合，本硕士课程将磨砺学生在赛车运动和高性能工程方面的技能和专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "赛车运动入门和介绍 (Induction and Introduction to Motorsport)\n赛车运动结构分析 (Motorsport Structural Analysis)\n赛车电子和数据采集 (Motorsport Electronics and Data Acquisition)\n赛车运动车辆动力学 (Motorsport Vehicle Dynamics)\n赛车空气动力学 (Motorsport Aerodynamics)\n赛车运动的计算流体动力学 (Computational Fluid Dynamics for Motorsport)\n赛车业务 (The Business of Motorsport)\n摩托车运动用复合结构 (Composite Structures for Motorsport)\n赛车动力系统 (Motorsport Powertrains)",
+  "success_cases": ""
+}

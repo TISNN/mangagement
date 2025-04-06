@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "金融科技理学硕士",
+  "ename": "MSc Financial Technology",
+  "tags": "商科,金工金数,商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 32040英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，学科中至少包含一个数学/定量课程并取得2:1成绩\n学校会考虑所有有证据表明在与学习课程相关的课程中表现优异、有丰富的相关工作经验或专业资格的申请",
+  "objectives": "金融科技理学硕士采用跨学科的方法，将埃克塞特大学商学院现有的比特币和区块链专业知识与该大学在经济、金融、数据科学、网络安全和法律方面更广泛的专业知识相结合。核心模块将为学生提供一系列金融技术主题的坚实基础。本课程适合各种背景、具有一定数学/统计经验的学生。学生除了获得学术知识外，还将掌握所需的实用技能，包括通过项目独有的“Hackathon”模块和各种创新的教学方法学习编码。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融技术基础 (Fundamentals of Financial Technology)\n应用计量经济学 (Applied Econometrics)\n金融建模 (Financial Modelling)\n先进金融技术 (Advanced Financial Technology)\n国际银行法 (International Banking Law)\n银行和金融服务 (Banking and Financial Services)\n哈克顿项目 (Hackathon Project)\n数据科学概论 (Introduction to Data Science)\n安全基础 (Fundamentals of Security)\n营销策略 (Marketing Strategy)\n金融工具 (Financial Instruments)\n创业：创业发展 (Entrepreneurship: New Venture Development)\n服务创新与营销 (Service Innovation and Marketing)\n衍生品定价 (Derivatives Pricing)",
+  "success_cases": ""
+}

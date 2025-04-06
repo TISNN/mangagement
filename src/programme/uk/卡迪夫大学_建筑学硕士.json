@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "建筑学硕士",
+  "ename": "Master of Architecture",
+  "tags": "社科,建筑,建筑学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 2年\n项目学费: 21150英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要获得 RIBA 第 I 部分认可的资格。需要作品集，A4大小，不超过10M",
+  "objectives": "卡迪夫大学建筑研究建筑硕士项目是一个为期两年的全日制课程。它的独特之处在于，在第一年的学习中，学生将主要以建筑实践为基础，进行基于实践和学术工作的结合。第二年，学生将在威尔士建筑学院布特大楼 (Bute Building) 学习。\n卡迪夫大学建筑研究建筑硕士项探索成为一名建筑师所需的全方位技能，并使学生能够发展学生的个人和专业经验。为了让学生为满足建筑行业的需求做好准备，我们会在学生现有的知识基础上进行扩展，以涵盖更复杂的建筑设计和城市设计的需求。我们还研究建筑师工作的专业和法律方面。我们还鼓励学生通过书面论文项目来获取专业领域的知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计实践 (Design in Practice)\n研究准备 (Research Preparation)\n反思实践 (Reflective Practice)\n设计论文 (Design Thesis)\n论文 (Dissertation)\n实践、管理和经济学 (Practice, Management and Economics)",
+  "success_cases": ""
+}

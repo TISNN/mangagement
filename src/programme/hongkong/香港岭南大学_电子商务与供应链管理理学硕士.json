@@ -1,0 +1,12 @@
+{
+  "school_name": "香港岭南大学",
+  "major_name": "电子商务与供应链管理理学硕士",
+  "ename": "MSc eBusiness and Supply Chain Management",
+  "tags": "商科,供应链管理,商学院",
+  "introduction": "专业方向: 供应链管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 228000港币/年",
+  "requirements": "持有认可的高等教育机构颁发的学士学位或具备同等学历（将根据具体情况予以考虑）",
+  "objectives": "香港岭南大学电子商务与供应链管理理学硕士项目旨在：增强学生理解和运用信息技术的能力，使他们能够在电子商务环境中灵活应用供应链运作过程中所需的信息技术；使学生掌握合适的管理策略，从而能够有效运用信息技术来实现全球范围内的供应链整合；使学生熟悉如何管理供应链中涉及的网络和移动业务；使学生了解互联网技术与供应链的结合给企业带来的优势；使学生学会辨别供应链实践中运用不同的信息技术所带来的业务变化。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电子商务概论 (Introduction to Electronic Business)\n电子商务供应链管理 (Supply Chain Management in eBusiness)\n会计准则 (Accounting Principles)\n商业智能 (Business Intelligence)\n电子商务移动技术和应用 (Mobile Technology and Applications in eBusiness)\n电子商务与供应链管理实践 (Best Practices in eBusiness and Supply Chain Management)\n电子商务的法律问题 (Legal Issues for eBusiness)\n电子营销 (Electronic Marketing)\n电子商务和网络编程 (E-Commerce and Web Programming)\n电子商务社交媒体 (Social Media for eBusiness)\n项目管理 (Project Management with Software)\n服务运营管理 (Service Operations Management)\n电子商务采购和物流管理 (Purchasing and Logistics Management for eBusiness)\n信息系统管理 (Information Systems Management)\n商业决策制定 (Business Decision Making with Software)",
+  "success_cases": ""
+}

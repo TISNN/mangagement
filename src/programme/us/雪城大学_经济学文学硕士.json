@@ -1,0 +1,12 @@
+{
+  "school_name": "雪城大学",
+  "major_name": "经济学文学硕士",
+  "ename": "MA in Economics",
+  "tags": "商科,经济",
+  "introduction": "专业方向: 经济\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 30学分\n项目学费: 32,436美元/年",
+  "requirements": "建议GPA3.0",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

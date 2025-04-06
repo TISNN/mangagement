@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "航空航天工程理学硕士",
+  "ename": "MSc Aerospace Engineering",
+  "tags": "工科,航空工程,航空航天工程学院",
+  "introduction": "专业方向: 航空工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要航空/航天航空工程、航空航天、飞机设计与工程、汽车工程、航空推进工程、化学工程、土木/结构工程、计算机科学、控制系统工程、电气工程、能源与动力工程、工程力学、材料科学与工程、机械工程、机电一体化工程、冶金学科背景，学校也可以考虑其他有很强的航空航天、电气或机械工程成分的学位\n申请者应该学习过以下领域的至少一门课程：微积分、线性代数、数学（或任何包含“数学”一词的课程）",
+  "objectives": "谢菲尔德航空航天工程理学硕士项目由工程和理科类6大专业的专家们联合提供，而且和世界领先的航空航天公司有着密切的联系，致力于培养知识渊博能力卓越的航天工程专家。\n除了传统的航空学科，如材料，结构，空气动力学和推进等必须的内容外，该项目还将教授系统集成和飞行控制的概念。这些对于生产更高效、更环保的飞机和航空航天系统至关重要。\n除了广泛而又深度的学习内容外，谢菲尔德航空航天工程理学硕士项目还提供选择自己感兴趣的研究领域，从而适应学生的个人兴趣和职业理想。学生可以专攻航空机械学或航空电子。学习这个创新项目，学生还将有机会设计建造无人驾驶飞行器，这也可以作为学生毕业设计的一部分。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "航天集团设计项目 (Aerospace Group Design Project)\n航空航天个人调查项目 (Aerospace Individual Investigative Project)\n气动设计 (Aerodynamic Design)\n航空推进 (Aero Propulsion)\n飞行动力学与控制 (Flight Dynamics and Control)\n飞机设计 (Aircraft Design)\n空间系统工程 (Space Systems Engineering)\n航空电子设备方向 (Avionics stream)\n空气力学方向 (Aeromechanics stream)",
+  "success_cases": ""
+}

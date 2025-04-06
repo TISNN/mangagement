@@ -1,0 +1,12 @@
+{
+  "school_name": "马里兰大学帕克分校",
+  "major_name": "数据科学和分析硕士",
+  "ename": "Master of Professional Studies in Data Science and Analytics",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 3,900美元/课程",
+  "requirements": "学过微积分、线性代数、统计学等课程，拥有一定编码能力",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

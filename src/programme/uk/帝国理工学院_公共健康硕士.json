@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "公共健康硕士",
+  "ename": "Master of Public Health",
+  "tags": "社科,公共卫生,医学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 45000英镑/年",
+  "requirements": "具有2:1学位，需要科学学科背景或医学学士学位，合适的申请者可能是具备医学、健康科学、生物科学或环境科学背景的人",
+  "objectives": "帝国理工学院公共健康硕士全日制项目将流行病学，生物统计学和卫生研究方法的研究与公共卫生技能相结合。帝国理工学院公共健康硕士不限学生背景，适合想要提升自己的研究技能或从事卫生事业的人士。帝国理工学院公共健康硕士课程讲师都在统计学、流行病学（慢性疾病和传染病）和卫生服务研究等学术领域颇有造诣，同时，该项目也会聘请在制定、管理和实施公共健康干预措施方面有经验的专业人士作为客座教授。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计思维与数据分析导论 (Introduction to Statistical Thinking and Data Analysis)\n流行病学原理与方法 (Principles and Methods of Epidemiology)\n疾病精讲课堂 (Disease Masterclass)\n公共卫生实践基础 (Foundations of Public Health Practice)\n卫生经济学 (Health Economics)\n人口健康改善 (Population Health Improvement)\n全球卫生创新 (Global Health Innovations)\n全球卫生挑战与治理 (Global Health Challenges and Governance)\n公共卫生人类学 (Anthropology in Public Health)\n数字健康 (Digital Health)\n暴露评估 (Exposure Assessment)\n卫生系统开发 (Health Systems Development)",
+  "success_cases": ""
+}

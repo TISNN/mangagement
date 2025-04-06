@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "机械工程理学硕士",
+  "ename": "MSc Mechanical Engineering",
+  "tags": "工科,机械工程,工程、数学与物理科学学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 36360英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，通常需要科学或工程学科背景，但学校会根据申请者的优点单独考虑",
+  "objectives": "埃克塞特大学机械工程理学硕士项目专注于机械工程领域最新技术和科技，帮助学生将技术应用于当代复杂问题，使学生具备现代机械工程师所需的技能。在该项目中，学生将获得一系列计算能力，这将使学生能够分析系统，采用数值方法、模拟和优化技术。整个项目也强调了可持续发展的重要性，鼓励学生提出应对当前挑战的方案。埃克塞特大学机械工程理学硕士项目由行业内国际领先的研究项目提供支持，如纳米级材料工程、生物医学工程、外科CT扫描人工骨置换手术三维分析、航空金属高规格的应用加层制造、聚合物和复合材料的应用和回收。该项目适合想要改善职业生涯的在职机械工程师，也适合想要成为注册工程师的本科生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机辅助工程设计 (Computer Aided Engineering Design )\n材料力学 (Mechanics of Materials)\n工程系统分析 (Systems Analysis in Engineering)\n高级计算流体动力学 (Advanced CFD)\n硕士论文 (MSc Dissertation)\n可持续工程 (Sustainable Engineering)\n工程编程 (Programming for Engineering)\n管理学 (Management Science )\n研究方法 (Research Methodology)\n战略创新管理 (Strategic Innovation Management)\n战略研究 (Strategy)",
+  "success_cases": ""
+}

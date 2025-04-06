@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "声学与振动工程理学硕士",
+  "ename": "MSc Acoustical and Vibration Engineering",
+  "tags": "理科,物理,工程学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位，需要工程学科（如机械工程）、科学学科（如物理学）、数学背景\n申请者还需要学习过以下至少3门数学或物理学课程，例如：微积分、力学、动力学、线性代数、矩阵、复数\n学校可能会考虑音乐技术专业的毕业生（取决于学位包含的数学内容），但不考虑纯音乐专业毕业生\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "声学与振动工程理学硕士项目帮助学生学习如何将声学技术应用于声学工程。该硕士学位将使学生具备专业知识，了解声音、振动和信号处理方面最新的现代发展。学生毕业后将具备在声学工程方面开展职业生涯或继续攻读博士学位所需的技能。声学工程师需要将工程基础的理解与对声音和振动的专业知识结合起来，培养学生的实践能力和解决问题的能力，并将其应用于噪声控制、音频工程、建筑声学、生物医学超声波领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "声学基础 (Fundamentals of Acoustics)\n工程专业 (Professional Aspects of Engineering)\n理学硕士研究项目 (MSc Research Project)\n信号处理 (Signal Processing)\n振动基础 (Fundamentals of Vibration)\n噪音控制工程 (Noise Control Engineering)\n海洋声学与生物医学超声 (Ocean Acoustics & Biomedical Ultrasound)\n电声 (Electroacoustics)\n航空声学 (Aeroacoustics)\n建筑与建筑声学 (Architectural and Building Acoustics)\n人类对声音和振动的反应 (Human Responses to Sound and Vibration)\n乐器声学 (Musical Instrument Acoustics)\n应用音频信号处理 (Applied Audio Signal Processing)\n声学数学方法 (Mathematical methods for acoustics)\n信号与图像处理的生物医学应用 (Biomedical Application of Signal and Image Processing)\n主动控制声音和振动 (Active Control of Sound and Vibration)\n声学数值方法 (Numerical Methods for Acoustics)",
+  "success_cases": ""
+}

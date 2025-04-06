@@ -1,0 +1,12 @@
+{
+  "school_name": "华盛顿大学",
+  "major_name": "地理学硕士",
+  "ename": "M.A. in Geographys",
+  "tags": "工科,地球科学",
+  "introduction": "专业方向: 地球科学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 36学分\n项目学费: 18633美元/学年",
+  "requirements": "GPA至少3.0",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

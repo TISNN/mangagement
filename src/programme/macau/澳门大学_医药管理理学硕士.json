@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "医药管理理学硕士",
+  "ename": "MSc Medicinal Administration",
+  "tags": "社科,药学,中华医药研究院",
+  "introduction": "专业方向: 药学\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "申请人必须在认可机构完成至少4年的学士学位或同等学历的相关领域",
+  "objectives": "参与药物管理的个人有助于创造一种环境，在这种环境中，人口或患者群体的健康得到有效和高效的保护和促进。他们是动态和跨学科领域的专业人士，可能对药品和相关产品的可用性、可及性和质量产生巨大影响，在药品开发的业务方面与提供高质量和高效的治疗选择之间取得平衡。他们专业知识的实用性可能存在于药品生命周期的任何地方，包括研发、专利批准、上市许可、入伍和采购、供应和分销、合理使用、药物警戒等。\n澳门大学医药管理理学硕士项目具有高度的适用性和实用性，旨在培养能够熟练运用现代社会学、经济学、法律法规、项目策划与管理等理论、方法和技术的医药行业高端人才。和/或统计数据，以解决制药行业、创新和技术以及医药管理其他方面的实际环境中的现实问题。配合中华医学科学院（ICMS）和中药质量研究国家重点实验室（SKL-QRCM）的主要学术目标，该计划支持澳门及其他地区医药管理专业人才的发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "药物管理概论 (Introduction to Medicinal Administration)\n社会与行政药学 (Social and Administrative pharmacy)\n健康产业创新 (Health Industry Innovation)\n社会医学 (Social Medicine)\n医学统计学应用 (Application of Medical Statistics)\n医药管理应用方法学 (Application Methodology for Medicinal Management)\n计算机技术在药学中的应用 (Application of Computer Technology in Pharmacy)\n医药创新与技术管理 (Medical Innovation and Technology Management)\n卫生政策评估 (Health Policy Assessment)\n医疗保健行业技术英语 (Technical English for Healthcare Sector)\n生物医学信息学 (Biomedical Informatics)\n中药标准化与质量管理 (Standardization and Quality Management of Chinese Medicine)\n项目报告 (Project Report)",
+  "success_cases": ""
+}

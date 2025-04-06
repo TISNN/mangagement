@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "社会学理学硕士",
+  "ename": "MSc Sociology",
+  "tags": "社科,社会学与社工,社会科学学院",
+  "introduction": "专业方向: 社会学与社工\n入学时间: 9月\n项目时长: 1年\n项目学费: 24950英镑/年",
+  "requirements": "具有2:2荣誉学位，需要相关学科背景，如犯罪学、教育学、国际关系、法律、心理学、社会政策、社会学或其他社会科学学科。如果没有相关领域的学位，学校将考虑申请者的专业经验",
+  "objectives": "卡迪夫大学社会学理学硕士项目旨在培养学生的社会学想象力，为学生提供理解21世纪社会变革所需的批判性和分析能力。学生将与来自社会学各个关键领域的专家合作，他们将介绍他们的前沿研究以及其他领先学者的研究。通过课程材料，学生将学习整合理论、方法和数据，以应对由以下现象引起的紧迫的全球挑战：数字和物理移动性、人与环境的关系、当代城市生活、数字颠覆技术、生物医学和社会遗传学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "定性研究方法 (Qualitative Research Methods)\n定量研究方法 (Quantitative Research Methods)\n学位论文 (Dissertation)",
+  "success_cases": ""
+}

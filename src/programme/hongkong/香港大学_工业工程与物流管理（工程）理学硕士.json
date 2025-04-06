@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "工业工程与物流管理（工程）理学硕士",
+  "ename": "MSc(Eng) Industrial Engineering and Logistics Management",
+  "tags": "工科,工业工程,工程学院",
+  "introduction": "专业方向: 工业工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 320000港币/年",
+  "requirements": "具有学士学位或同等学历，需要工程、科学、数学、统计学、相关商业研究背景",
+  "objectives": "香港大学工业工程与物流管理（工程）理学硕士学位课程旨在使学生获得运营管理、物流和供应链管理、组织管理、财务管理、数字企业和电子商务、工业数据分析和其他相关主题的最前沿知识。该课程一直在不断更新和加强，以配合香港、中国和世界其他地区的经济发展。现在，许多课程都强调 Capstone 学习经验；而物流和供应链管理、金融工程和工业数据分析等新课程也已纳入香港大学工业工程与物流管理（工程）理学硕士学位课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程经济与金融 (Engineering Economics and Finance)\n供应链管理 (Supply Chain Management)\n运筹学 (Operational Research)\n项目 (Project)\n论文 (Dissertation)\n智能优化 (Intelligent Optimization)\n数字企业与电子商务 (Digital Enterprises and E-commerce)\n人因工程学 (Human Factors Engineering)\n物理网络 (Physical Internet)\n仓储与城市物流 (Warehousing and City Logistics)\n金融工程 (Financial Engineering)\n供应链与物流金融 (Supply Chain and Logistics Finance)\n运营风险管理 (Operational Risk Management)\n项目管理 (Project Management)\n质量管理 (Quality Management)",
+  "success_cases": ""
+}

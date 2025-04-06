@@ -1,0 +1,12 @@
+{
+  "school_name": "匹兹堡大学",
+  "major_name": "工商管理硕士",
+  "ename": "Master of Business Administration",
+  "tags": "商科,工商管理",
+  "introduction": "专业方向: 工商管理\n入学时间: 秋季\n项目时长: 18个月\n项目学费: 2100美元/学期",
+  "requirements": "GPA3.25, 至少6学分的定量课程GPA3.0",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

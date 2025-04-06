@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "人机交互设计理学硕士",
+  "ename": "MSc Human-Computer Interaction Design",
+  "tags": "工科,计算机,数学、计算机科学与工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 26950英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景，或具备三年以上用户体验相关行业经验\n计算技术方面的实践背景是有用的，但不是必需的\n人机交互或用户体验设计方面的经验不是必需的\n编程经验不是必需的",
+  "objectives": "伦敦大学城市学院人机交互设计理学硕士了解人机交互（HCI），用户体验（UX），可用性和交互设计方面的最新学术研究，理论和技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "互动设计 (Interaction Design)\n设计创意 (Creativity in Design)\n信息架构 (Information Architecture)\n评估互动系统 (Evaluating Interactive Systems)\n包容性设计 (Inclusive Design)\n了解用户互动 (Understanding User Interactions)\n研究方法和专业问题 (Research Methods and Professional Issues)\nWeb应用程序开发 (Web Application Development)\n数据可视化 (Data Visualisation)\nHCI中的读物 (Readings in HCI)",
+  "success_cases": ""
+}

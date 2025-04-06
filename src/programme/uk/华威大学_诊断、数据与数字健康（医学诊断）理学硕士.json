@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "诊断、数据与数字健康（医学诊断）理学硕士",
+  "ename": "MSc Diagnostics, Data and Digital Health (Medical Diagnostics)",
+  "tags": "社科,医学,工程学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29880英镑/年",
+  "requirements": "具有2:1本科英国荣誉学位或同等学历，需要物理科学、生命科学、生物科学、医学科学、数学、计算机科学、工程学或其他相关学科背景\n申请者的数学知识需要达到A2 Level或同等水平，涵盖线性代数、微积分和分析等主题，包括微分方程，这可以通过作为本科课程一部分的数学模块获得，学校希望学生在硕士学习开始时对这些主题具备很好的理解\n学校愿意根据具体情况考虑具有较低学历的申请者，尤其是能够证明具备相关就业、实践经验或在与申请专业相关的本科课程中表现出色的申请者\n为了确保申请者掌握学习该课程的必要基础，根据其整体学术表现，可能会要求申请者参加数学技能测试",
+  "objectives": "随着技术进步、对医学的更高期望、更长的预期寿命以及法律、伦理和经济因素导致医学成像和诊​​断学的巨大扩展。越来越需要基于数字的医疗保健解决方案来满足患者不断变化的需求和期望。华威大学诊断、数据与数字健康（医学诊断）理学硕士项目将在前沿诊断和成像技术的理论和实际应用方面培训学生，并让他们接触到数据科学的使用，人工智能和机器学习的成熟和新兴应用。探索用于疾病筛查、检测、诊断和监测的医学影像和诊断技术的设计、开发和应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "现代诊断方法 (Modern Approaches to Diagnostics)\n用于诊断的人工智能和机器学习 (AI and Machine Learning for Diagnostics)\n运营管理和临床系统改进 (Operational Management and Clinical Systems Improvement)\n生物医学工程中的计算智能 (Computational Intelligence in Biomedical Engineering)\n转化生物医学研究与诊断 (Translational Biomedical Research and Diagnostics)\n医疗器械：设计、维护和评估 (Medical Device: Design, Maintenance and Assessment)\n小组研究项目 (Group Research Project)\n研究项目（诊断、数据、数字健康） (Research Project (Diagnostics, Data, Digital Health))\n公众参与 (Public Engagement)\n社会影响的设计思维  (Design Thinking for Social Impact)\n卫生经济学概论（非经济学家） (Introduction to Health Economics (for non-economists))\n跨学科的可转移技能 (Interdisciplinary Transferable Skills)",
+  "success_cases": ""
+}

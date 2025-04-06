@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "可再生能源数据科学理学硕士",
+  "ename": "MSc Data Science for Renewable Energy",
+  "tags": "工科,能源,工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 24500英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历，需要工程、计算、数学、物理学、环境科学或相关学科领域背景，具备其他背景以及环境科学、能源工程或数据科学相关经验的优秀申请者也被鼓励申请",
+  "objectives": "东安格利亚大学可再生能源数据科学理学硕士课程能够让学生获得尖端技能，使其处于这个快速发展的行业的最前沿。数据科学技能在可再生能源领域的各个领域都非常有价值，这些包括可再生能源资源和系统性能的预测和预报、可再生能源数据分析、可再生能源系统的设计和优化，以及可再生能源系统的监测和诊断。数据科学在能源存储和建筑能源管理系统中也起着至关重要的作用，专业数据科学和可再生能源技术技能的结合在研发和可再生能源工业部门都受到高度追捧。\n东安格利亚大学可再生能源数据科学理学硕士课程将为学生提供Python编程和数据挖掘方面的优秀实践和理论基础，同时，学生将开发可再生能源的工程和技术方面的技能，包括太阳能、风能和水流和波浪运动的能源，同时使用国际数据库和应用统计分析和建模技术，将获得数据科学家的专业技能，同时也有机会进一步发展人工智能和信息可视化方面的技能，或者在电网数据分析、能源存储和电力系统方面的更多技术技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学Python入门 (Introduction to Python for Data Science)\n数据挖掘 (Data Mining)\n计算机科学家的专业技能 (Professional Skills for Computer Scientists)\n数据科学与可再生能源论文 (Data Science and Renewable Energy Dissertation)\n可再生能源流体工程 (Fluids Engineering for Renewable Energy)\n太阳能工程与高级专题 (Solar Energy Engineering with Advanced Topics)\n高级人工智能 (Advanced Artificial Intelligence)\n电力系统工程 (Power Systems Engineering)\n信息可视化 (Information Visualisation)",
+  "success_cases": ""
+}

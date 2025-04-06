@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "口译与笔译文学硕士（法语和德语）",
+  "ename": "MA Interpreting and Translating (French and German)",
+  "tags": "社科,语言,政治学、语言与国际研究系",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要英语母语能力和两种外语（法语、德语、意大利语、西班牙语或俄语）的学位水平能力。申请者将完成翻译和口译能力倾向测试，以评估他们是否适合该课程",
+  "objectives": "巴斯大学口译与笔译文学硕士（法语和德语）项目旨在为学生提供作为高水平口译与笔译工作所需的实践技能和经验。巴斯大学口译与笔译文学硕士（法语和德语）课程涵盖公共服务和商业环境中的专业翻译和同声传译、交替传译和联络口译。学生可以使用最新的数字口译实验室，并将参加小型会议以将学生的技能付诸实践，就有争议的话题进行辩论，并同时充当代表和口译员。巴斯大学口译与笔译文学硕士项目为安排在联合国或独立机构的外部培训机会。巴斯大学口译与笔译文学硕士（法语和德语）程由经验丰富的导师授课，这些导师自己都曾担任过专业的笔译和口译人员。有些人为国家元首和政府部长和/或为国际组织工作过。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "法英交替传译 (French to English consecutive interpreting)\n德英交替传译 (German to English consecutive interpreting)\n法英同声传译 (French to English simultaneous interpreting)\n德英同传 (German to English simultaneous interpreting)\n法语到英语的翻译 1 (French to English translation 1)\n德英翻译 1 (German to English translation 1)\n法英交替传译 (French to English consecutive interpreting)\n德英交替传译 (German to English consecutive interpreting)\n法英同声传译 (French to English simultaneous interpreting)\n德英同传 (German to English simultaneous interpreting)\n法英翻译2 (French to English translation 2)\n德英翻译2 (German to English translation 2)\n论文/项目 (Dissertation/Project)\n公开演讲 (Public speaking)\n法语/英语公共服务和商业口译 (French/English public service and commercial interpreting)\n德语/英语公共服务和商业口译 (German/English public service and commercial interpreting)",
+  "success_cases": ""
+}

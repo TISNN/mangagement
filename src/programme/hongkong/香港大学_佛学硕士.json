@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "佛学硕士",
+  "ename": "Master of Buddhist Studies",
+  "tags": "社科,其他社科,文学院",
+  "introduction": "专业方向: 其他社科\n入学时间: 9月\n项目时长: 1年\n项目学费: 170000港币/年",
+  "requirements": "具有认可大学颁发的良好学士学位或同等学历，不限专业背景\n未取大学颁发的良好学士学位或同等学历的申请者在特殊情况下可能会被考虑，前提是能够证明在该学科方面有丰富的背景和经验，并能在资格考试中满足主考官的要求，为攻读硕士学位水平做好准备",
+  "objectives": "香港大学佛学硕士课程与佛教研究中心合作开设，是一个内容丰富的跨学科课程，为学生提供高质量的教学，从文本、教义和历史的角度对佛教进行基本了解和深入分析。香港大学佛学硕士课程通过多样化的方法论向学生介绍几个佛教传统，并提供巴利语、梵语和藏语的语言课程，以促进他们在历史佛教传统中的学习。此外，课程培养学生运用佛教传统的教义、经验、实践和价值观，从跨学科的角度解决现代世界复杂的个人、社会和全球问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "早期佛学：教义式的解经 (Early Buddhism: A doctrinal exposition )\n大乘佛教 (Mahayana Buddhism)\n佛教冥想文本研究 (Study of important Buddhist meditation texts)\n印度佛教历史纵览 (History of Indian Buddhism: a general survey)\n中国佛教历史 (History of Chinese Buddhism)\n藏传佛教：历史与教义 (Tibetan Buddhism: History and doctrines)\n佛教与社会 (Buddhism and society)\n佛教心理学 (Buddhist psychology)\n建筑和佛教的灵性：历史的视角 (Architecture and Buddhist spirituality: a historical perspective)\n佛教研究方法 (Research methodology in Buddhist Studies)\n敦煌佛教艺术和文化 (Dunhuang Buddhist art and culture)\n沿着丝绸之路的中国佛教艺术 (Chinese Buddhist art along the Silk Road)\n日本佛教：历史与教义 (Japanese Buddhism: history and doctrines)\n藏传佛教文本选读（初级） (Readings in Buddhist Tibetan texts (Elementary))\n佛教专题研究 (Special topics in Buddhist studies (1))",
+  "success_cases": ""
+}

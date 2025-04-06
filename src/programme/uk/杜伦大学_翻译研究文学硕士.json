@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "翻译研究文学硕士",
+  "ename": "MA Translation Studies",
+  "tags": "社科,语言,现代语言和文化学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 25000英镑/年",
+  "requirements": "具有2:1学士学位或同等学历，需要相关领域背景\n具有不同学术背景但具备丰富翻译专业经验的学生也可申请。在这种情况下学校保留通过考试来评估学生对课程的准备情况的权利\n学生在所选择的语言（阿拉伯语、汉语、法语、德语、意大利语、日语、俄语或西班牙语，和英语）上应至少达到CEFR C1水平（或非欧洲语言的同等水平），最好达到C2水平，在某些情况下，学校可能会要求学生提供语言能力证明",
+  "objectives": "杜伦大学翻译研究文学硕士为学生提供专业的翻译技能训练，可选择理论方向或实践方向，两个方向都包括翻译实践和专业认证考试。核心课程涵盖理论问题与当前翻译实践。同时也开设英阿、英汉、英法、英德、英意、英日、英俄、英西互译课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "翻译研究的技巧 (Research Skills for Translation Studies)\n翻译理论 (Translation Theory)\n翻译研究论文 (Translation Studies Dissertation)\n扩展翻译项目 (Extended Translation Project)\n翻译项目>第一语言 (Translation Project <> First Language)\n翻译项目>第二语言 (Translation Project <> Second Language)\n翻译史 (History of Translation)\n翻译伦理与跨文化项目管理 (Translation Ethics and Intercultural Project Management)\n翻译工作实习 (Translation Work Placement)\n译者的编辑与修改 (Editing and Revising for Translators)",
+  "success_cases": ""
+}

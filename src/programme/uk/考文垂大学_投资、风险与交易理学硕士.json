@@ -1,0 +1,12 @@
+{
+  "school_name": "考文垂大学",
+  "major_name": "投资、风险与交易理学硕士",
+  "ename": "MSc Investment, Risk and Trading",
+  "tags": "商科,金融,考文垂大学伦敦校区",
+  "introduction": "专业方向: 金融\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 20050英镑/年",
+  "requirements": "具有2:2荣誉学位，需要相关学科背景或在金融领域至少有两年工作经验",
+  "objectives": "考文垂大学投资、风险与交易理学硕士课程专为对综合金融市场的金融交易有浓厚兴趣的学生而设。通过校园模拟交易大厅的使用，学生将专注于交易和全球金融市场的行为，为其提供交易技巧方面的实际接触和实践经验。此外，学生将获得雇主追捧的职业准备型业务技能，包括团队合作、沟通、表达和领导能力，为学生提供在快节奏的全球市场中有效领导所必需的实践技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "定量方法与研究方法 (Quantitative Methods and Research Methods)\n风险分析与财务建模 (Risk Analysis and Financial Modelling)\n贸易经济学 (Trading Economics)\n全球金融市场 (Global Financial Markets)\n证券和股票交易估值 (Valuation of Securities and Equity Trading)\n随机金融 (Stochastic Finance)\n算法交易 (Algorithmic Trading)\n实证财务与会计研究方法 (Empirical Finance and Accounting Research Methods)\n金融衍生品交易：期权、期货与掉期 (Financial Derivatives Trading: Options, Futures and Swaps)\n期末项目 (Final Term Project)",
+  "success_cases": ""
+}

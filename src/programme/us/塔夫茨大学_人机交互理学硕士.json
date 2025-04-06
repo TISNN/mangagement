@@ -1,0 +1,12 @@
+{
+  "school_name": "塔夫茨大学",
+  "major_name": "人机交互理学硕士",
+  "ename": "MS in Human-Robot Interaction",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季/夏季\n项目时长: 30学分，1-2年\n项目学费: 50,910美元",
+  "requirements": "计算机科学系、电气和计算机工程系以及机械工程系，都提供人机交互（HRI）硕士学位。每个系的学生与博士课程共用一套五门必修核心课程，但选修课和其他要求各不相同。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

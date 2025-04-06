@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "政治学理学硕士",
+  "ename": "MSc Political Science",
+  "tags": "社科,国际关系,政治与国际研究学院",
+  "introduction": "专业方向: 国际关系\n入学时间: 9月\n项目时长: 1年\n项目学费: 26000英镑/年",
+  "requirements": "具有2:1荣誉学士学位或同等学历，需要社会科学、人文科学或其他相关学科背景，相关经验也将被考虑在内",
+  "objectives": "利兹大学政治学理学硕士项目旨在让学生具备成为有自信的研究者所需的知识和实用技能，能够领导社会应对政治和社会挑战，无论是在政府、全球机构、非政府组织还是媒体中工作。该计划将为学生提供所需的资源，以了解和应对导致当前面临的地方、国家和全球政治挑战的现象，并将培养学生调查和发现导致这些政治挑战形成的潜在社会和政治动态的能力，这是解决问题的关键。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级政治分析 (Advanced Political Analysis)\n论文 (Dissertation)\n英国脱欧政治 (The Politics of Brexit)\n当代中东政治 (Contemporary Politics of the Middle East)\n国际政治经济学 (International Political Economy)\n大众文化：世界政治、社会和文化 (Popular Culture: World politics, Society and Culture)\n国际关系与环境 (International Relations and the Environment)\n政治理论在行动中 (Political Theory in Action)\n全球正义 (Global Justice)\n政治学数据分析 (Analysing Data in Political Science)\n冲突、合作与战略决策 (Conflict, Cooperation and Strategic Decision Making)\n政治、媒体和民主参与 (Politics, Media and Democratic Engagement)\n选举和选民 (Elections and Voters)\n技术、媒体和政治：研究与现实世界案例 (Technology, Media and Politics: Research and Real World Cases)",
+  "success_cases": ""
+}

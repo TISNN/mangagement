@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "土木工程理学硕士",
+  "ename": "MSc Civil Engineering",
+  "tags": "工科,土木工程,工程与物理科学学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 32510英镑/年",
+  "requirements": "具有2:1荣誉学位，需要土木工程或相关非工程学科背景，工业经验和CEng/IEng资格也将被考虑在内",
+  "objectives": "伯明翰大学土木工程理学硕士项目适合想要学习土木工程通识课程（而非专攻特定领域）以便进入土木工程职业、拥有土木工程/机械工程相关背景的本科生，提供了广泛选修课程和个人研究项目，学生拥有量身定制课程以满足个人职业生涯规划的自由。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业环境下的财务决策 (Financial Decision-Making in the Business Environment)\n天气工程学 (Synoptic Engineering)\n个人研究项目 (Individual Research Project )\n地震工程（结构） (Seimic Engineering (structural))\n结构工程（结构） (Structural Engineering (structural))\n流体动力学（水）的建模与设计 (Modelling and Design for Fluid Dynamics (water))\n水工程与管理（水） (Water Engineering and Management (water))\n地下建筑（岩土工程） (Underground Construction (geotechnical))\n地质力学（岩土工程） (Geomechanics (geotechnical))\n道路资产管理 (Road Asset Management)\n可持续建设 (Sustainable Construction)\n工程生产与施工风险管理 (Engineering Production and Risk Management)\n可持续交通政策 (Sustainable Transport Policy)\n道路设计与规划 (Road Design and Planning)\n路面工程 (Pavement Engineering)",
+  "success_cases": ""
+}

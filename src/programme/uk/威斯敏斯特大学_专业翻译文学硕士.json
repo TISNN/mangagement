@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯敏斯特大学",
+  "major_name": "专业翻译文学硕士",
+  "ename": "MA Specialised Translation",
+  "tags": "社科,语言,人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 17500英镑/年",
+  "requirements": "具有2:2荣誉学位；没有学位但在相关领域具备足够经验的语言学家也将被学校考虑\n申请者将接受面谈或电话面试，并进行翻译测试，以检查其是否适合该课程。本课程面向以汉语、英语、法语、德语、意大利语和西班牙语为母语的学生开放。申请者需要掌握流利的书面和口头英语",
+  "objectives": "威斯敏斯特大学专业翻译文学硕士课程面向以英语为母语和非英语为母语的人，将英语与以下任何一种语言结合：汉语、法语、德语、意大利语或西班牙语。威斯敏斯特大学专业翻译文学硕士课程的核心是每周一次的英语和上述一种语言之间的实用翻译课程",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "专业翻译1和2 (Specialised Translation 1 and 2)\n视听与计算机辅助翻译 (Audiovisual and Computer-Assisted Translation)\n翻译质量保证与项目管理 (Quality Assurance and Project Management for Translators)\n专业发展 (Professional Development)\n硕士翻译项目或硕士论文 (MA Translation Project or MA Thesis)\n国际组织与机构话语 (International Organisations and Institutional Discourse)\n翻译作为文化实践 (Translation as Cultural Practice)",
+  "success_cases": ""
+}

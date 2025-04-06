@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "移动通信理学硕士",
+  "ename": "MSc Mobile Communications",
+  "tags": "工科,电气电子,自然、数学与工程科学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 37800英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，需要电子、电气工程、计算机科学、应用数学或物理学背景\n学校也欢迎专业或职业资格并将基于具体情况予以考虑",
+  "objectives": "伦敦大学国王学院移动通信理学硕士课程旨在为毕业生提供深入了解现代电信系统基本原理的机会，涵盖从移动无线网络到信号处理的所有内容，本课程是希望在电信行业工作或继续深造的毕业生的理想学习途径。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "天线和传播 (Antennas And Propagation)\n通信理论 (Communications Theory)\n数字通信 (Digital Communications)\n数字信号处理基础 (Fundamentals Of Digital Signal Processing)\n个人研究项目 (Individual Project)\n移动和个人通信 (Mobile And Personal Communications)\n随机变量和随机过程 (Random Variables And Stochastic Processes)\n电信网络1 (Telecommunications Networks I)\n电信网路2 (Telecommunications Networks II)\n网络理论 (Network Theory)\n数据和信号分析议题 (Topics on Data and Signal Analysis)\n光通信 (Optical Communication)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "数字人文（数据科学）理学硕士",
+  "ename": "MSc Digital Humanities (Data Science)",
+  "tags": "社科,文化,人文学院",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 25400英镑/年",
+  "requirements": "具有2:1学位或更高学历，需要人文学科或非数字社会科学学科背景\n不符合特定入学要求的申请者仍然被鼓励申请并将被考虑，具备非传统资格或专业经验的申请者也将被考虑",
+  "objectives": "在南安普顿大学数字人文（数据科学）理学硕士课程中，学生将能够把数据科学的核心技能与批判性的人文思维相结合，培养数据分析、管理、协调和可视化方面的核心技能，利用现有的学科专业知识来探索人类、数据和技术之间不断发展的关系，实验并参与有关数据科学、正义和社会的新想法，将数据科学与人文科学相结合，成为使用数字方法进行数据驱动工作的一系列行业的变革者。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字人文研究/专业项目 (Digital Humanities Research/Professional Project)\n人文数据科学中的方法 (Methods in Humanities Data Science)\n人文数据科学原理 (Principles of Humanities Data Science)\n视听翻译 (Audiovisual Translation)\n人文科学研究数据管理 (Data Management for Humanities Research)\n数字媒体形式 (Digital Forms)\n数字屏幕文化 (Digital Screen Cultures)\n人文数据科学实习 (Humanities Data Science Placement)\n现代世界的博物馆 (Museums in the Modern World)\n心理学与人工智能中的哲学与伦理学 (Philosophy and Ethics in Psychology and AI)\n文本作为数据 (Text as Data)",
+  "success_cases": ""
+}

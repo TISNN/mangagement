@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,经济系",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 27800英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，必须拥有经济学、商学或相应的定量学科的学士学位，如工程、计算机科学、数学或物理学\n至少在五个核心经济学课程中取得好成绩，包括微观经济学、计量经济学、宏观经济学、统计学、概率、代数、微积分、数据分析、博弈论、运筹学或金融工程",
+  "objectives": "为成为一名专业经济学家或攻读博士学位铺平道路，并在经济学的所有核心领域打下扎实的基础。\n我们的经济学硕士学位是一个教授型硕士学位，在经济学的主要方面提供严格的培训：\n微观经济学\n宏观经济学\n计量经济学\n本课程为您提供了作为专业经济学家或从事博士研究所需的广泛知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融经济学 (Financial economics)\n经济增长理论 (Growth theory)\n环境与资源经济学 (Environmental and resource economics)\n经济学的金融机构 (Economics of financial institutions)\n激励机制和性能 (Incentives and performance)\n国际货币政策和制度 (International monetary policy and institutions)\n金融风险管理 (Financial risk management)",
+  "success_cases": ""
+}

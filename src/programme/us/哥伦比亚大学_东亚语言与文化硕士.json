@@ -1,0 +1,12 @@
+{
+  "school_name": "哥伦比亚大学",
+  "major_name": "东亚语言与文化硕士",
+  "ename": "MA in East Asian Languages and Cultures",
+  "tags": "社科,文化",
+  "introduction": "专业方向: 文化\n入学时间: 秋季\n项目时长: 2年\n项目学费: 32490美元/学期",
+  "requirements": "入学学生必须在进入课程的学期开始时参加东亚专业语言的语言分级考试，除非该语言是他们获得学士学位的机构的主要教学语言。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

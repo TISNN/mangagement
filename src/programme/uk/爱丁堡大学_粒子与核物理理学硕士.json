@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "粒子与核物理理学硕士",
+  "ename": "MSc Particle & Nuclear Physics",
+  "tags": "理科,物理,物理与天文学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 37300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要物理学或相关学科背景（包含足够的物理内容），学校特别希望申请者已经完成1门量子力学课程\n需要大学水平的数学背景和基本的编程技能，在学位期间应该在以下至少一个方面获得经验：C/C、Java、Python、R、Matlab、Haskell、ML，应该在申请中注明这些信息\n学校也可能考虑具备相关经验的申请者（需要在申请前联系学校确认）",
+  "objectives": "粒子和核物理学的研究汇集了高级实验技术、计算技术和理论理解。这些实验通常是在国际实验室使用高度精密探测器的大型合作。这些探测器技术也在医学物理学和其他形式的位置传感中得到了应用。计算方面处理大数据集，并使用机器学习和其他先进的数据科学技术。理论核物理与粒子物理学的目的是使用物理世界结构和演化的数学模型来解释实验结果。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据分析和机器学习 (Data Analysis and Machine Learning)\n粒子和核物理中的探测器 (Detectors in Particle & Nuclear Physics)\n相对论，核物理和粒子物理 (Relativity, Nuclear and Particle Physics)\n核与粒子物理学 (Nuclear and Particle Physics)\n核物理 (Nuclear Physics)\n粒子物理 (Particle Physics)\n核天体物理学 (Nuclear Astrophysics)\n粒子物理学的当前主题 (Current Topics in Particle Physics)\n医学物理学 (Medical Physics)\n拉格朗日动力学 (Lagrangian Dynamics)\n量子物理学 (Quantum Physics)\n量子力学的对称性 (Symmetries of Quantum Mechanics)\n数值的食谱 (Numerical Recipes)\n数据采集和处理 (Data Acquisition and Handling)\n宇宙学 (Cosmology)",
+  "success_cases": ""
+}

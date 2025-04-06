@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "会计与金融理学硕士",
+  "ename": "MSc Accounting and Finance",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "不限专业背景，不需要在本科阶段完成商业或管理学习，具有2:2荣誉学位或同等学历",
+  "objectives": "通过阿伯丁大学会计与金融理学硕士课程，学生将掌握广泛的财务工具，并获得关键会计和财务主题的坚实基础，同时开发管理角色所需的技能。阿伯丁大学会计与金融理学硕士课程将为各种潜在的会计和金融角色和行业中成功的职业生涯做充分准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "定量方法 (Quantitative Methods)\n公司财务问题 (Issues in Corporate Finance)\n会计 (Accounting)\n经济分析 (Economic Analysis)\n资产组合分析 (Portfolio Analysis)\n财务分析和国际会计 (Financial Analysis and International Accounting)\n管理会计 (Management Accounting)\n毕业论文 (Master's Dissertation in Accountancy & Finance)\n专业会计 (Professional Accounting)\n会计研究 (Studies in Accounting)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "可再生能源与建筑理学硕士",
+  "ename": "MSc Renewable Energy and Architecture",
+  "tags": "社科,建筑,建筑与建筑环境学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要建筑学、建筑工程、建筑服务工程、电气工程、城市规划/城市设计、土木/结构工程或机械工程背景，其他相关专业背景的申请者也可能被考虑",
+  "objectives": "诺丁汉大学可再生能源与建筑理学硕士课程旨在满足与建筑设计和技术以及建筑能源和环境绩效相关的人员的兴趣和技能。它面向来自不同背景的申请人，包括建筑、工程和城市规划/城市设计。课程在全球范围内向来自不同背景的学生介绍了许多相关的专业领域：可持续建筑设计和技术，气候响应和能源意识的场地规划、景观和城市设计，被动式太阳能设计、集成和仿真，新能源和可再生能源技术，新型材料及其对建筑物和居住者热舒适度的影响，高级软件应用和能源软件开发/编程。课程为毕业生提供了独特的学习环境，并拓宽了未来的职业选择。这是一条通往全球就业机会和博士研究的有效途径。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "可再生能源和节能系统原理（秋季）  (Principles of Renewable and Energy Efficient Systems (autumn))\n 建筑风环境三维模拟（秋季） (Wind Environment 3D Simulation in Architecture (autumn))\n被动太阳设计原理与模拟（秋季） (Passive Solar Design Principles and Simulation (autumn))\n  可再生能源技术设计与评价（春季） (Renewable Energy Technology Design and Appraisal (spring))\n气候响应建筑设计项目（春季） (Climate Responsive Building Design Project (spring))\n  建筑能源性能评级和规划（春季） (Building Energy Performance Rating and Programming (spring))\n研究和专业技能、工具和方法   (Research and Professional Skills, Tools and Methods (spring))\n论文、建筑与建筑环境（夏季） (Dissertation, Architecture and Built Environment (summer))",
+  "success_cases": ""
+}

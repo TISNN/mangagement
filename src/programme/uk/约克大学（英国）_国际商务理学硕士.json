@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "国际商务理学硕士",
+  "ename": "MSc International Business",
+  "tags": "商科,管理,管理学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 31080英镑/年",
+  "requirements": "具有2:2学位或同等学历，不限专业背景，学校可能会优先考虑具备相关领域知识（包括管理或商业研究、经济学、金融学、会计学，或任何社会科学）的学生",
+  "objectives": "约克大学国际商务理学硕士项目内容涵盖了与当地情况和国际政治相关且影响了企业在不同国家运作的一系列问题。在学习完该课程后，学生将获得批判性分析、7信息处理和数据呈现方面的技能，继而能为国际商业和管理领域的一系列职业做好准备，学生将拥有在日益相互联系的全球工作场所中茁壮成长的技能，获得光明的职业前景。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际政治经济与商务 (International Political Economy & Business)\n全球化背景下的国际商业 (International Business in the Global Context)\n战略管理概论 (Introduction to Strategic Management)\n管理经济学 (Managerial Economics)\n定性研究方法 (Qualitative Research Methods)\n国际商业管理和新兴市场 (International Business Management & Emerging Markets)\n全球组织战略 (Strategy in Global Organisations)\n创新与技术管理 (Innovation and Technology Management)\n财务战略与治理 (Financial Strategy and Governance)\n国际营销传播与道德 (International Marketing Communications & Ethics)\n全球视野下的人力资源和雇佣关系 (Global Perspectives in Human Resources and Employment Relations)\n国际销售管理 (International Sales Management)\n定量方法和数据分析 (Quantitative Methods and Data Analysis)",
+  "success_cases": ""
+}

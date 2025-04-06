@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "计算机科学理学硕士（含专业实践）",
+  "ename": "MSc Computer Science (including Professional Practice)",
+  "tags": "工科,计算机,信息与数字工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 2年\n项目学费: 12000英镑/年",
+  "requirements": "具有非计算学科学士学位，成绩达到2:2（或同等学历），并且GCSE数学达到Grade B级或同等水平",
+  "objectives": "阿斯顿大学计算机科学理学硕士（含专业实践）项目旨在教授学生掌握应对商业和社会面临的计算挑战所需的工具，同时建立坚实的理论知识基础，以支持交付智能解决方案和进行深入分析。计算机科学理学硕士项目还教授从用户体验（UX）设计到人工智能（AI）和数据挖掘的专业科目，为学生提供独特的机会来应用所学知识解决现实世界的问题。此外，学生还将对软件开发过程有系统的了解，学习如何充分利用大量数据来做出更好的业务决策，参与由学生经营的软件开发公司Beautiful Canoe，获得与企业合作解决实际问题的机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "面向对象软件开发的基础 (Foundations of Object-oriented Software Development)\n团队项目 (Team Project)\n软件工程 (Software Engineering)\n人机交互 (Human Computer Interaction)\n数据库系统 (Database Systems)\n论文 (Dissertation)\n专业实践 (Professional Practice)\n数据结构与算法 (Data Structures and Algorithms)\n软件项目管理 (Software Project Management)\n信息安全 (Information Security)\n司法推理与统计 (Forensic Inference and Statistics)\n软件工程中的可靠性 (Reliability in Software Engineering)\n数据挖掘 (Data Mining )",
+  "success_cases": ""
+}

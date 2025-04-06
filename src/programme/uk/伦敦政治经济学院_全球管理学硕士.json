@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦政治经济学院",
+  "major_name": "全球管理学硕士",
+  "ename": "Global Master's in Management",
+  "tags": "商科,管理,管理学系",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 2年\n项目学费: 39450英镑/年",
+  "requirements": "具有一等或2:1学士学位或同等学历，不限专业背景\n不需要先前正式学习过定量学科，但学生必须能够准备好参与定量主题，如统计学、会计学和金融学\n不强制要求工作经验，但欢迎具备经验（从3个月到5年以上）的学生申请，请在申请中详细说明任何相关经验\n没有英国本科或研究生学位的申请者需要提供GMAT或GRE，本专业学生的GMAT平均分为680，分数低于600的学生不太可能被录取",
+  "objectives": "伦敦政治经济学院全球管理学硕士项目让学生有机会加入来自世界各地的优秀学生，通过两年的课程为自己在管理和领导方面的杰出职业生涯做好准备。学校为学生提供独特的管理方法、真正深入和严格的学习经验，学术除了掌握当今管理者必备的基本知识和技能外，还将有机会专攻并将所学应用于实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球管理学硕士学习导论 (Introduction to studying for the Global Master's in Management)\n管理学基础 I (Foundations of Management I)\n管理学基础 II (Foundations of Management II)\n管理经济学 (Managerial Economics)\n营销管理 (Marketing Management)\n组织行为学 (Organisational Behaviour)\n定量数据导论 (Introduction to Quantitative Data)\n定量方法高级课程 (Advanced Course in Quantitative Methods)\n顶点课程 - 实践管理学 (Capstone Course - Management in Action)\n管理学基础 III：商业道德、公司治理与领导力 (Foundations of Management III: Business Ethics, Corporate Governance, and Leadership)\n顶点课程 - 实践管理学（包括商业项目） (Capstone Course - Management in Action (including Business Project))\n管理学论文 (Management Dissertation)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学亚非学院",
+  "major_name": "翻译文学硕士",
+  "ename": "MA Translation",
+  "tags": "社科,语言,语言、文化和语言学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 25320英镑/年",
+  "requirements": "不限专业",
+  "objectives": "伦敦大学亚非学院翻译文学硕士项目结合实用翻译技巧、文化研究以及翻译理论和方法的教学，将开展众多亚非语言与文化的研究，有着明显的项目优势。其中，实用翻译课程是选修课，学生可以选择文化翻译、文化研究或者翻译理论深入学习。项目致力于锻炼学生的翻译方法与实用技能，培养专业翻译人才与自由译者、语言专家、文化研究员等人才，同时也为学生攻读研究型硕士或博士学位做准备。学生能够享受到伦敦大学亚非学院、伦敦大学、伦敦大学学院、大英图书馆、BBC世界服务等图书馆与机构提供的丰富的学习资源以及翻译实践机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语言学论文（翻译理论） (Dissertation in Linguistics (Translation Theory))\n翻译研究和方法论 (Translation Studies and Methodology)\n翻译理论 (Translation Theory)\n阿拉伯语译英语实用翻译 (Practical Translation Arabic into English)\n英语译阿拉伯语实用翻译 (Practical Translation English into Arabic)\n汉译英实用翻译 (Practical Translation: Chinese to English)\n英译汉实用翻译 (Practical Translation: English to Chinese)\n日译英实用翻译 (Practical Translation: Japanese into English)\n英译日实用翻译 (Practical Translation: English into Japanese)\n翻译文化 (Translating Cultures)\n翻译技术 (Translation Technology)\n字幕翻译概念与实践 (Concepts and Practice of Subtitling)\n韩国文学翻译 (Translating Korean Literature)",
+  "success_cases": ""
+}

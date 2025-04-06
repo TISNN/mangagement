@@ -1,0 +1,12 @@
+{
+  "school_name": "匹兹堡大学",
+  "major_name": "量化经济",
+  "ename": "MS in Quantitative Economics",
+  "tags": "商科,经济",
+  "introduction": "专业方向: 经济\n入学时间: 秋季\n项目时长: 8个月\n项目学费: 55,164美元/年",
+  "requirements": "GPA 3.0，低于2.75不予考虑",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "信息安全理学硕士",
+  "ename": "MSc Information Security",
+  "tags": "工科,计算机,工程科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有2:1英国学士学位或同等学历，需要计算机科学、电子工程或数学背景，相关工作经验也可能被考虑",
+  "objectives": "伦敦大学学院信息安全理学硕士项目旨在为学生提供信息安全的基本知识，培养学生的实用工程技能。信息安全领域的专门人才仍然短缺，因而训练有素的信息安全专业人员拥有良好的就业前景。\n通过伦敦大学学院信息安全理学硕士项目的学习，学生能够深入了解信息安全，从安全、环境、社会和经济层面理解信息安全运营的环境。此外，学生能够获得广泛的知识性、实用性和可迁移技能，从而能在信息技术领域从事灵活的职业。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机安全1 (Computer Security I)\n计算机安全2 (Computer Security II)\n密码学导论 (Introduction to Cryptography)\n信息安全研究 (Research in Information Security)\n网络犯罪 (Cybercrime)\n分布式系统和安全 (Distributed Systems and Security)\n人与安全 (People and Security)\n应用密码学和密码分析 (Applied Cryptography and Cryptanalysis )\n信息安全管理 (Information Security Management)\n恶意软件 (Malware)",
+  "success_cases": ""
+}

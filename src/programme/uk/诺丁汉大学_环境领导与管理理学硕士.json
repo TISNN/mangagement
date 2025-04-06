@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "环境领导与管理理学硕士",
+  "ename": "MSc Environmental Leadership and Management",
+  "tags": "工科,环境工程,地理学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 27150英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要相关学科背景",
+  "objectives": "诺丁汉大学环境领导与管理理学硕士课程将为学生提供直接应对地球面临的复杂环境挑战的专业知识。课程还将帮助学生发展自己的个人领导技能，为可持续的未来带来积极的变化。课程核心模块将使学生了解基本的环境过程以及当代环境决策的方式。学生还可以通过选择个人路径中的可选模块，专注于与个人职业目标相一致的环境挑战的特定领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人与环境 (People and the Environment)\n环境解决技术 (Techniques for Environmental Solutions)\n环境领导力观点 (Perspectives on Environmental Leadership)\n项目管理 (Project Management)\n公共部门中的领导力、策略与表现 (Leadership, Strategy and Performance in the Public Sector)\n实践中的领导力和管理能力 (Leadership and Management in Practice)\n全球气候变化：科学依据 (Global Climate Change: The Scientific Basis)\n全球气候变化：影响、调整和缓解 (Global Climate Change: Impacts, Adaptation and Mitigation)\n生态系统功能、管理与保护 (Ecosystem Function, Management and Conservation)\n保护规划与实践 (Conservation Planning and Practice)\n江河流域管理进展   (Advances in Managing Rivers and Catchments )\n水质评价 (Water Quality Assessment)",
+  "success_cases": ""
+}

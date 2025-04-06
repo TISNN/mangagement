@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "地球与行星科学硕士",
+  "ename": "Master of Earth and Planetary Sciences",
+  "tags": "理科,物理,太空科学研究所",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 2年\n项目学费: 120000港币/年",
+  "requirements": "修读行星科学、天文学、地球科学、物理、化学、生物、地质、计算机科学、数学或相近学科之各类专业（含工科）",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "现代天文学 (Modern Astronomy)\n遥感技术原理 (Principles of Remote Sensing)\n行星科学 (Planetary Science)\n地球科学 (Earth Science)\n数值方法 (Numerical Methods)\n文献综述与选题报告 (Literature Survey and Thesis Proposal)",
+  "success_cases": ""
+}

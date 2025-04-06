@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "儿童发展理学硕士",
+  "ename": "MSc Child Development",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有英国大学颁发的二等学士学位或同等学历",
+  "objectives": "伦敦大学学院儿童发展理学硕士项目将深化学生对儿童发展及发展心理学的理解，使学生毕业后能够胜任儿童及青少年相关的专业工作、继续攻读更高等的研究学位或从事研究工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "发展心理学 (Developmental Psychology)\n方法论与统计 (Methodology and Statistics)\n社会发展 (Social Development)\n发展异常 (Atypical Development)\n语言发展 (Language Development)",
+  "success_cases": ""
+}

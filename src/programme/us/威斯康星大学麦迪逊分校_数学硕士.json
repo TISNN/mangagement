@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯康星大学麦迪逊分校",
+  "major_name": "数学硕士",
+  "ename": "MA in Mathematics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 2年\n项目学费: 45,102美元",
+  "requirements": "拥有数学或具有很强数学成分的相关领域的本科学位\n已完成线性代数、分析 I、现代代数 I 和初等拓扑的课程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

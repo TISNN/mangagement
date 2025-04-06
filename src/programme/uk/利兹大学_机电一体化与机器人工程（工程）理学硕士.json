@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "机电一体化与机器人工程（工程）理学硕士",
+  "ename": "MSc(Eng) Mechatronics and Robotics Engineering",
+  "tags": "工科,电气电子,电子电气工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要电子/电气工程、机械工程、机电一体化、自动化、控制工程、计算机或相关学科背景，申请者应在机电一体化、机器人、自动化、控制系统等相关课程中取得优秀成绩",
+  "objectives": "可再生能源和减少碳排放是全球环境议程的重中之重，利兹大学机电一体化与机器人工程（工程）理学硕士课程旨在解决可再生能源的基础问题，展示太阳能、风能和其他能源如何和谐地工作，并有效地整合到实际的电力系统中。学生将学习核心动力工程主题，如电源转换、电力驱动与控制以及特定的可再生能源和电力系统课程，同时将学习一系列独特的太阳能和风能发电课程，通过电力电子技术的应用进行能源管理，并对智能电网系统进行全面分析，还将探索解决现代能源系统中的控制和管理问题的机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "能源管理与转换 (Energy Management and Conservation)\n现代工业实践 (Modern Industry Practice)\n智能电网分析 (Smart Grid Analysis)\n电力电子与驱动 (Power Electronics and Drives)\n利用可再生能源发电 (Electric Power Generation by Renewable Sources)\n控制系统设计 (Control Systems Design)\n发电与配电 (Electric Power Generation and Distribution)\n编程 (Programming)\n理学硕士个人项目 (MSc Individual Project )",
+  "success_cases": ""
+}

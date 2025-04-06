@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "定量金融理学硕士（新加坡国立大学-上海交通大学联合开设）",
+  "ename": "Joint MSc Quantitative Finance (NUS-SJTU)",
+  "tags": "商科,金工金数,理学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 8月\n项目时长: 2年\n项目学费: 130000人民币/年",
+  "requirements": "申请者必须具有荣誉学位（或4年制学士学位），需要包含强大定量培训的学科背景，如数学、统计学、经济学、金融学、计算机科学、工程学、物理科学，或具有强大数学背景的同等学位\n需要提交存款证明45,000新币",
+  "objectives": "新加坡国立大学与上海交通大学合作办学的定量金融理学硕士（新加坡国立大学-上海交通大学联合开设）课程旨在培养具有国际视野和较高外语水平，对量化金融有深入了解，并能解决中国金融行业实际问题的优秀人才。教学主要在上海交通大学校园内进行， 新加坡国立大学颁发量化金融理学硕士学位，上海交通大学颁发学习证明。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融衍生工具的数学模型 (Mathematical Models of Financial Derivatives)\n金融模型与计算 (Financial Modelling and Computation)\n结构化产品 (Structured Products)\n风险管理 (Risk Management)\n金融时间序列：理论与计算 (Financial Time Series: Theory and Computation)\n数量金融专题一 (Topics in Quantitative Finance I)\n数量金融专题二 (Topics in Quantitative Finance II)\n利率理论和信用风险 (Interest Rate Theory and Credit Risk)\n数据分析和金融领域机器学习 (Data Analysis and Machine Learning in Finance)\n高级风险管理方法 (Advanced Methods in Risk Management)",
+  "success_cases": ""
+}

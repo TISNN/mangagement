@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 74000英镑/年",
+  "requirements": "具有good 2:1荣誉学位或同等学历（可能会考虑较低的分数，但需要良好的GMAT或GRE成绩），硕士学位详细信息可以包括在内，但不是必需的\n在课程开始时需要具备至少2年工作经验（班级平均工作经验约为6年）\n申请需要提交GMAT或GRE成绩，GMAT平均分：680-690（GMAT Focus Edition - 625-635），GRE平均分：Verbal – 78%, Quant – 71%",
+  "objectives": "剑桥大学工商管理硕士项目中学生将在一个高度协作和创新的社区中学习、探索、联系、兴趣并追求未来目标。课程教授包括：学术严谨、广泛、高度实用，注重团队技能，通过讲习班、研讨会、讲座、小组工作、数字资源和体验式学习进行教学，在核心课程的基础上，学生可以根据自己的兴趣选择额外的选修课程，这些课程将在第三学期开始。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "创业 (Entrepreneurship)\n管理科学 (Management Science)\n公司财务 (Corporate Finance)\n财务报告与分析 (Financial Reporting and Analysis)\n微观经济学 (Microeconomics)\n组织行为与领导力 (Organisational Behaviour & Leadership)\n组织与市场：设计与激励 (Organisations and Markets: Designs and Incentives)\n管理实践I (Management Praxis I)\n剑桥创业项目 (Cambridge Venture Project)\n战略 (Strategy)\n营销 (Marketing)\n公司治理：组织 (Corporate Governance: Organisations)\n数字商务 (Digital Business)\n管理实践II (Management Praxis II)\n宏观经济学 (Macroeconomics)",
+  "success_cases": ""
+}

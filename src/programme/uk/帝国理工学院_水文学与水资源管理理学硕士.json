@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "水文学与水资源管理理学硕士",
+  "ename": "MSc Hydrology and Water Resources Management",
+  "tags": "工科,环境工程,土木与环境工程学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有2:1学位，需要土木工程、自然科学、地球科学或其他数学学科背景\n需要适当的数学基础，例如A-level数学Grade A或B\n不符合所列学术要求但具备丰富相关行业经验的申请者在完成“特殊资格考试”（SQE）后可能会被例外录取",
+  "objectives": "水文学包含了多个学科，探讨了水资源的自然时空分布，评估了人为变化对水的质量及分布的影响。传统意义上的应用水文学与洪水和水资源相关。然而，水文学家正越来越重视地下水、地表水和土壤中污染物迁移的问题，和更广泛的议题，如土地利用和气候变化的影响。\n帝国理工学院水文学与水资源管理硕士项目基于职业生涯，将理论背景和实用设计考量相结合，包括了相关物理和生命科学、数学科学和系统分析的基本处理方案。帝国理工学院水文学与水资源管理硕士项目中的课堂教学由全职教员教授，重要课程则由身为杰出实业家的客座教授和客座讲师教授。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "农业和水 (Agriculture and Water)\n土地和地下水污染 (Contaminated Land and Groundwater)\n设计项目水文 (Design Project Hydrology)\n环境流体力学 (Environmental Fluid Mechanics)\n发展中国家环境管理 (Environmental Management in Developing Countries)\n地下水流动与水质模拟 (Groundwater Flow and Quality Modelling)\n水文地质与地下水 (Hydrogeology and Groundwater)\n水信息学 (Hydroinformatics)\n水文过程 (Hydrological Processes)\n水文测验 (Hydrometry)\n数学和统计建模 (Mathematical and Statistical Modelling)\n气象与气候变化 (Meterology and Climate Change)\n降雨径流模拟与洪水水文 (Rainfall-Runoff Modelling and Flood Hydrology)\n研究论文 (Research Dissertation)",
+  "success_cases": ""
+}

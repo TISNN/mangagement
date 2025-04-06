@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯康星大学麦迪逊分校",
+  "major_name": "会计与商业分析硕士",
+  "ename": "MS in Accounting and Business Analysis",
+  "tags": "商科,会计",
+  "introduction": "专业方向: 会计",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

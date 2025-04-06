@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "听力学理学硕士",
+  "ename": "MSc Audiology",
+  "tags": "社科,医学,生物、医学和健康学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有认可的高等教育机构颁发的相关荣誉学士学位或大学接受的符合入学资格的先前高级学习、研究或专业经验，达到2:1学位或同等水平，申请高级和儿科方向必须具有听力学资格和/或听力学经验",
+  "objectives": "曼彻斯特大学听力学理学硕士侧重听力学理论、实践和临床基础，包括对有听力/前庭功能障碍的成人及儿童的识别、评估、康复和管理。同时，课程包括一次短期临床实习。此外，学生将有机会接触曼彻斯特听力和耳聋中心（ManCAD）的国际知名专家。\n曼彻斯特大学听力学理学硕士课程旨在：\n在成人和儿童听觉和前庭功能障碍的识别、评估、康复和管理方面为学生提供广泛而全面的教育，并对基本的科学、医学、公共卫生和残疾知识基础有一个批判性和评估性的理解。\n发展学生与核心临床程序相关的实践知识和技能。\n进一步发展学生的研究和批判技能，进行一项原创研究，并通过研究论文展示发现。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "前庭评估与管理 (Vestibular Assessment and Management)\n听觉科学 (Auditory Science)\n小儿听力 (Paediatric Audiology)\n专业实践 (Professional Practice)\n研究方法与统计 (Research Methods and Statistics)\n论文 (Dissertation)\n成人听觉康复和管理 (Adult Auditory Rehabilitation and Management)\n成人听觉评估 (Adult Auditory Assessment)",
+  "success_cases": ""
+}

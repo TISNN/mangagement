@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "金融与经济理学硕士",
+  "ename": "MSc Finance and Economics",
+  "tags": "商科,金融,阿斯顿商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 23500英镑/年",
+  "requirements": "鼓励具有经济、工程、金融、数学、统计学或相关学科背景的申请者。如果没有相关学位，需要证明本科期间学习过数学或统计学，并且达到50%的分数。雅思总分6.5（小分一项不低于5.5，其它项不低于6.0）PTE总分67（小分一项不低于59，其它项不低于64）",
+  "objectives": "阿斯顿大学金融与经济理学硕士项目的课程深入研究微观和宏观经济理论，并将这些原理应用于实际场景。学生将学习批判性地评估政策对金融市场和更广泛经济的影响，磨练对明智决策至关重要的技能。\n阿斯顿大学金融与经济理学硕士项目由具有丰富行业经验的顶尖学者授课，在一个支持性的、有吸引力的环境中提供对金融世界的实用见解。这种方法使课程内容栩栩如生，为学生在毕业后担任经济和金融领域的各种角色做好准备，并为他们准备CFA®（特许金融分析师）一级考试做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济学 (Microeconomics)\n宏观经济学 (Macroeconomics)\n行为经济学和政策 (Behavioural Economics and Policy)\n商业金融 (Business Finance)\n国际金融 (International Finance)\n金融计量经济学 (Financial Econometrics)\n阿斯顿全球优势 (The Aston Global Advantage)\n学术实践中的道德规范 (Ethics in Academic Practice)\n衍生品 (Derivatives)\n金融编程 (Python for Finance)\n区块链和金融科技 (Blockchain and Fintech)\n私募股权和风险投资 (Private Equity and Venture Capital)\n国际贸易与发展 (International Trade and Development)",
+  "success_cases": ""
+}

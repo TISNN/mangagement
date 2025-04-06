@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "金融与金融科技理学硕士",
+  "ename": "MSc Finance and Financial Technology (FinTech)",
+  "tags": "商科,金工金数,亨利商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 28500英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业，需要有够好的计算能力，基本的数学与统计知识",
+  "objectives": "雷丁大学金融与金融科技理学硕士将专注于数字银行和支付系统、Python编程和机器学习算法的金融应用。在雷丁大学金融与金融科技理学硕士课程中，你将深入了解金融和保险领域的大数据。您还将了解包括区块链和加密货币在内的新兴技术。通过交易模拟，你将了解证券、期货、期权和算法交易。您还将探讨金融科技监管以及数据保护和网络安全带来的挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融定量方法 (Quantitative Methods for Finance)\n金融市场（第1部分-BSQ讲座） (Financial Markets (part 1 - BSQ lectures))\n证券、期货和期权 (Securities, Futures and Options)\n数字银行与支付系统 (Digital Banking and Payment System)\n金融市场基础 (Fundamentals of Financial Markets)\n金融科技编程（Python） (Programming for Fintech (Python))\n机器学习与金融大数据 (Machine Learning and Big Data in Finance)\n区块链、加密货币和应用 (Blockchain, Cryptocurrencies and Applications)\n保险与大数据 (Insurance and Big Data)\n金融科技监管和数据保护 (FinTech Regulation and Data Protection)\n投资组合管理 (Portfolio Management)\n金融计量经济学 (Financial Econometrics)\n研究项目 (Research Project)\n战略规划和预算 (Strategic Planning and Budgeting)\n私募股权和风险投资 (Private Equity and Venture Capital)",
+  "success_cases": ""
+}

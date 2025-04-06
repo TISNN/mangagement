@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "医师助理理学硕士",
+  "ename": "MSc Physician Associate",
+  "tags": "社科,医学,药学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 2年\n项目学费: 15475英镑/年",
+  "requirements": "具有2:1或以上学位，需要生命科学学科相关，如生命科学、生物科学、生物医学、生物化学、药学、心理学等相关学科背景。具有2:2学位且拥有其他相关的实际医疗技能和经验（或被认为相当于上述的资格和经验）也将被学校考虑",
+  "objectives": "雷丁大学医师助理理学硕士项目适用于生命科学毕业生或有丰富医疗经验的人。学生们将接受各种各样的教学方法的培训，参与NHS初级和二级医疗环境中的基于工作场所的学习，以培养作为医疗专业人员的技能和知识。所有课程内容都是与临床医生紧密合作完成的。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "基础医学科学 (Basic Medical Sciences)\n患者咨询原理 (Principles of Patient Consultation)\n分区轮换临床实习 (Block Rotational Clinical Placements)",
+  "success_cases": ""
+}

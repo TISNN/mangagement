@@ -1,0 +1,12 @@
+{
+  "school_name": "威廉玛丽学院",
+  "major_name": "计算机科学（计算科学）硕士",
+  "ename": "MS in Computer Science, Computational Science Specialization",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季/春季\n项目时长: 两年\n项目学费: 35,136美元",
+  "requirements": "申请者应具有数学和科学或工程背景，包括以下内容：\n数学：两门微积分课程和一门线性代数课程。\n计算机科学：两门入门编程课程。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

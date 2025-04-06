@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,管理学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 10月\n项目时长: 1年\n项目学费: 40560英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，不限专业背景\n学校也可能考虑非标准申请者，需要联系学校获取信息\n毕业后具备至少3年专业工作经验",
+  "objectives": "兰卡斯特大学工商管理硕士课程将为学生提供所有必要的商业和管理语言、工具和技术。 兰卡斯特大学工商管理硕士是独一无二的，因为其专注于培养学生在动荡的国际商业世界中的实践智慧和判断能力。兰卡斯特大学工商管理硕士课程专注于帮助学生建立在最高管理层高效工作所需的“心态”和技能，项目通过职业经理人、核心能力培养课程来实现这一点，并且将深入的哲学学习和实践技能发展结合在一起。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业经济学 (Business Economics)\n企业管理挑战 (Business Management Challenge)\nCapstone 工作实习（企业挑战） (Capstone Work Placement (Corporate Challenge))\n咨询挑战 (Consultancy Challenge)\n核心能力 (Core Capabilities)\n商业数字化创新 (Digital Innovation in Business)\n商业数字化创新 (Digital Innovation in Business)\n创业挑战 (Entrepreneurial Challenge)\n财务 1 (Finance 1)\n金融2 (Finance 2)\n背景下的国际商务 (International Business in Context)\n负责任地领导 (Leading Responsibly)\n营销 (Marketing)\n运营管理 (Operations Management)\n组织行为 (Organising Behaviour)\n负责任的管理和道德 (Responsible Management and Ethics)",
+  "success_cases": ""
+}

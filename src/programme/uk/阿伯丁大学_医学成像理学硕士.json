@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "医学成像理学硕士",
+  "ename": "MSc Medical Imaging",
+  "tags": "社科,医学,医学，医学科学与营养学院",
+  "introduction": "专业方向: 医学\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "具有二等荣誉学士学位，需要物理科学或工程学背景\n该课程也面向具有生物科学或生命科学背景的学生开放，非物理科学或工程背景的申请者必须准备好接受数学和物理培训作为课程的一部分\n需要申请ATAS",
+  "objectives": "阿伯丁大学医学成像理学硕士旨在培养学生对技术如何帮助发现和研究疾病有深入的了解。成像技术在医学中的应用一直并将继续是一个巨大的扩展领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "医疗保健科学中的生物医学与专业主题 (Biomedical and Professional Topics in Healthcare Science)\n医学成像 (Imaging in Medicine)\n计算机与图像处理概论 (Introduction to Computer and Image Processing)\n医学成像中的辐射 (Radiation in Medical Imaging)\n比较影像学 (Comparative Imaging)\n医学图像处理与分析 (Medical Image Processing and Analysis)\n系统评价 (Systematic Reviewing)\n核医学与正电子发射断层摄影术 (Nuclear Medicine & Positron Emission Tomography)\n磁共振成像 (Magnetic Resonance Imaging)\n诊断放射学与辐射防护 (Diagnostic Radiology and Radiation Protection)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港岭南大学",
+  "major_name": "人工智能与商业分析理学硕士",
+  "ename": "MSc Artificial Intelligence and Business Analytics",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 287000港币/年",
+  "requirements": "持有大学认可的高等教育机构颁发的工程、科学或其他同等学科的学士学位，或同等学历，或令人满意的学术和专业成就证明（将根据具体情况予考虑）\n没有或只有有限计算机科学或统计学背景的申请者需要完成并通过以下相应的预科课程：\n- 计算概论（15小时）\n- 统计学（15小时）",
+  "objectives": "香港岭南大学人工智能与商业分析理学硕士课程旨在教授学生关于人工智能和商业分析技术的基本原理和实际应用，特别是在商业领域，使他们能够在解决问题时可以有效地运用人工智能工具和技术、在决策时可以使用数据分析技能和人工智能技术来分析商业问题。此外，学生还能学会识别和验证各种人工智能和商业分析模型的有效性，或通过在人工智能和商业分析中使用计算和数学建模的方法来解决商业开发中的问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业数据分析 (Business Data Analytics)\n人工智能基础 (Foundation of Artificial Intelligence)\n商业数据管理 (Business Data Management)\n数据分析与编程原理 (Principle of Data Analytics and Programming)\n商业中的机器学习 (Machine Learning for Business)\n深度学习的实际应用 (Practical Application of Deep Learning)\n移动技术和电子商务的应用 (Mobile Technology and Applications in eBusiness)\n电子商务的社交媒体 (Social Media for eBusiness)\n项目管理及软件应用 (Project Management with Software)\n业务决策及软件应用 (Business Decision Making with Software)\n人工智能的优化 (Artificial Intelligence based Optimisation)\n大数据分析 (Big Data Analytics)\n区块链 (Blockchain)\n人工智能和商业分析项目 (Project for Artificial Intelligence and Business Analytics)\n位置信息智能 (Location Intelligence)",
+  "success_cases": ""
+}

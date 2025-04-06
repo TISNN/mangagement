@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "应用保护科学理学硕士",
+  "ename": "MSc Applied Conservation Science",
+  "tags": "工科,地球科学,生物多样性、大健康与兽医学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，要求生物学、生物科学、生态学、环境科学或动物学背景学校也可以接受人类学、计算机科学、经济学、工程学（如土木或环境）、环境政策、地理学、土地管理、数学和统计学的学位除了较低的资格外，学校也可以接受具有重要相关工作经验的申请者",
+  "objectives": "格拉斯哥大学应用保护科学理学硕士项目旨在为学生在生物多样性管理和保护方面发挥专业作用做好准备，重点是创新解决问题。该项目提供了对保护科学的广泛见解，并重点应用方面，将实用的生态技能与先进的定量方法结合起来。学生将有机会在不同的生态系统中使用现代化设施和实地考察机会，包括大学在淡水和林地栖息地工作的实地考察站、我们自己的在农业环境中开展工作的大学农场和研究中心，以及众多国外实地考察点。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "编程和数据生成过程的基础知识 (Fundamentals of Programming and Data Generating Processes)\n关键研究技能 (Key Research Skills)\n保护生态学原理 (Principles of Conservation Ecology)\n动物识别 (Animal Identification)\n动物福利评估 (Assessment of Animal Well-Being)\n生物多样性信息学 (Biodiversity Informatics)\n圈养动物的护理和饲养 (Care & Enrichment of Captive Animals)\n保护遗传学 (Conservation Genetics)\n人口动态 (Dynamics of Populations)\n保护经济工具 (Economic Tools for Conservation)\n生态学家的地理信息系统 (Geographic Information Systems for Ecologists)\n现代生态学干扰方法 (Modern Interference Methods for Ecology)\n保护生态学实践 (Practice in Conservation Ecology)",
+  "success_cases": ""
+}

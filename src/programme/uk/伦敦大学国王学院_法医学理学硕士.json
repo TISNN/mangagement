@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "法医学理学硕士",
+  "ename": "MSc Forensic Science",
+  "tags": "社科,医学,生命科学与药学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 35800英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，需要生命科学或化学背景，包括化学、分析化学、药理学、毒理学、生物化学、分子生物学、生物医学科学、遗传学、法医学等课程。具有相当于英国A-level水平的化学和生物资格也将是有利的\n申请者也可能被要求在面试前完成在线测试",
+  "objectives": "伦敦大学国王学院法医学理学硕士项目被誉为国内同类项目中最好的项目。该项目课程将为学生提供犯罪调查中使用的法医过程和分析技术（特别是化学和生物学）的高级知识。该项目由国王学院的法医老师提供教学，他们的研究成果处于该领域创新和发展的前沿。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "法医学鉴定 (Forensic Process)\n炸药和药物化学 (Chemistry of Explosives and Drugs)\n法医生物学 (Forensic Biology)\n核心分析科学 (Core Analytical Sciences)\n法医遗传学 (Forensic Genetics)",
+  "success_cases": ""
+}

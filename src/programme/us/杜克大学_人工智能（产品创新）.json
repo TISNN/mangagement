@@ -1,0 +1,12 @@
+{
+  "school_name": "杜克大学",
+  "major_name": "人工智能（产品创新）",
+  "ename": "MEng in AI for Product Innovation",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 12或16个月\n项目学费: 95,280美元",
+  "requirements": "科学或工程学的本科学位（如果您的学位在非技术领域，则需要同等的技术工作经验），并且至少一个1个学期的编程（任何语言）和2个学期微积分。强烈鼓励概率论，统计和线性代数方面的先修课，但不是必须。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

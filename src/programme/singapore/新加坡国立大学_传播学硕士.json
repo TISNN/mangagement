@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "传播学硕士",
+  "ename": "Master of Communication",
+  "tags": "社科,媒体与传播,人文社科学院",
+  "introduction": "专业方向: 媒体与传播\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 39295新币/年",
+  "requirements": "具有学士学位（成绩最好达到荣誉：优异/二等或以上）或同等学历（例如，4年制学士学位且平均成绩至少达到B或同等水平），需要相关学科背景\n除上述学历外在研究生院认可的情况下可能根据具体情况考虑具有其他学历的申请者\n持有非荣誉学士学位的本科学历者，需要具备2年相关行业经验\n需要提供存款证明50,000新币",
+  "objectives": "新加坡国立大学传播学社会科学硕士由新加坡国立大学艺术与社会科学学院传播与新媒体系提供。作为东南亚地区唯一一个聚焦新媒体领域提供媒体研究、互动媒体设计、文化研究和传播管理课程的大学院系，本系采用综合性多学科方法适应当今融合的媒体环境，提供尖端的专业知识，让学生在传播中牢牢把握数据的本质，成为数字领域的领导者。通过综合指导计划向媒体行业的领军人物学习，站在巨人的肩膀上。利用亚洲第一个传播学社会科学研究生学位课程的优势，通过聚焦新媒体和传播领导力、数字营销和数据分析，专注于数字传播和领导力。通过研究和应对当前和新兴趋势的课程，例如新加坡政府的SkillsFuture媒体技能框架所确定的趋势，获得对行业成功至关重要的工作技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "战略与全球传播 (Strategic and Global Communication)\n数字传播与分析 (Digital Communications and Analytics)\n沟通与领导力 (Communications and Leadership)\n实习 (Internship)\n导师指导 (Mentorship)\n计算机媒介环境 (Computer-Mediated Environments)\n互动媒体艺术 (Interactive Media Arts)\n可视化数据 (Visualising Data)\n数字营销实践 (Digital Marketing Practices)\n传播研究的应用 (Uses of Communication Research)\n社交媒体分析导论 (Introduction to Social Media Analytics)\n媒体、政策和市场 (Media, Policy, and Markets)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "人工智能系统科技硕士",
+  "ename": "Master of Technology in Artificial Intelligence Systems",
+  "tags": "工科,计算机,系统科学研究所",
+  "introduction": "专业方向: 计算机\n入学时间: 8月\n项目时长: 1年\n项目学费: 57988新币/年",
+  "requirements": "具有学士学位（偏好理工科），平均成绩不低于B；\n熟练掌握英语（书面和口语）；\n海外申请者需要提交GRE（建议GRE总分不低于320，写作不低于3.5，具有与预期研究领域相关的大量工作经验的申请者即使未达到GRE建议分数要求也可能被考虑录取，但学校项目、实习和补充课程不算作工作经验）；\n偏好具有2年相关工作经验的申请者（作为信息技术专业人员，如软件开发人员、商业分析师或领域专家，在可以应用智能系统和知识工程的领域工作；申请者若拥有高度相关的信息技术学位，始终保持良好的学习成绩，并通过课程作业、课程项目或专业信息技术认证获得良好的实用软件开发知识，可能获得工作经验豁免）；\n学费为57,988-59,950新币",
+  "objectives": "新加坡国立大学人工智能系统科技硕士课程面向希望能够设计和构建利用人工智能和其他智能系统技术系统的专业人士。应用领域广泛多样，包括机器人、自动驾驶汽车、智能传感系统、物联网、智慧城市应用和工业4.0应用，以及商业和商业领域的应用。课程强调人工智能的概念、技术和方法，以及它们在智能系统应用开发中的应用。新加坡国立大学人工智能系统科技硕士课程为学生提供成为人工智能和智能系统专家所需的基本知识和实践经验，并使学生能够领导智能系统的发展，为组织提供有效和最佳的业务解决方案。\n新加坡国立大学人工智能系统科技硕士课程的毕业生将能够应用智能系统的概念、技术和方法来解决多个领域的各种问题，包括：商业、制造、工程、医疗保健等；能够使用现代工具和技术领导智能系统的发展，包括人工智能、机器学习、预测、预报、分类，聚类和优化；能够设计和定制算法，以解决复杂的业务问题，创造战略优势。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "机器推理 (Machine Reasoning)\n推理系统 (Reasoning Systems)\n认知系统 (Cognitive Systems)\n使用模式识别解决问题 (Problem Solving using Pattern Recognition)\n智能感知与意义建构 (Intelligent Sensing and Sense Making)\n模式识别与机器学习系统 (Pattern Recognition and Machine Learning Systems)\n视觉系统 (Vision Systems)\n根据传感器数据进行空间推理 (Spatial Reasoning from Sensor Data)\n实时视听传感与意义建构 (Real Time Audio-Visual Sensing and Sense Making)\nRPA与IPA  - 战略与管理 (RPA and IPA – Strategy and Management)\n软件机器人 - 最佳实践 (Software Robots – Best Practices)\n智能过程自动化 (Intelligent Process Automation)\n自主学习系统 (Self-Learning Systems)\n机器人系统 (Robotic Systems)\n自主机器人与车辆 (Autonomous Robots and Vehicles)\n人机系统工程 (Human-Robot System Engineering)\n新媒体与情感挖掘 (New Media and Sentiment Mining)\n使用机器学习进行文本处理 (Text Processing Using Machine Learning)\n会话式用户界面 (Conversational UIs)\n金融服务的高级机器学习 (Advanced Machine Learning for Financial Services)\n面向金融的可解释且负责任的人工智能 (Explainable & Responsible AI for Finance)\n信用风险建模与分析 (Credit Risk Modelling and Analytics)\n金融科技创新的替代数据 (Alternative Data for Fintech Innovation)\n与外部机构合作的实践项目 (Hands-on Project with External Organisation)",
+  "success_cases": ""
+}

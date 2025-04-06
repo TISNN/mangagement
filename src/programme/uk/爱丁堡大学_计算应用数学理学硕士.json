@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "计算应用数学理学硕士",
+  "ename": "MSc Computational Applied Mathematics",
+  "tags": "理科,数学,数学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有英国2:1学位或同等学历，需要数学学科背景，例如数学、工程、计算机或物理科学\n需要具备大学水平的应用数学、概率与微分方程先前学习经历\n申请者应该学习过具有大量编程元素的大学水平课程，或具备同等水平的编程经验",
+  "objectives": "计算数学在公共和私营部门都有广泛的应用，特别是在物理应用领域和数值方法和算法的理论和实现上。在这个无处不在和计算能力廉价的时代，我们需要通过建模来理解过程并使用大型数据集来应对问题数量激增的情况。因此，计算数学这门学科变得越来越突出，目前对计算建模师和数据科学家也有很高的需求。本项目专注于计算数学、建模和数据科学之间的重叠和协同。作为本项目的硕士研究生，学生将有机会通过定期的就业活动、职业研讨会和我们的年度分析挑战（最近的合作伙伴包括爱丁堡机场和数据与营销协会）与这些外部组织接触。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用动力系统 (Applied Dynamical Systems)\n数值线性代数 (Numerical Linear Algebra)\nPython编程 (Python Programming)\n数值偏微分方程 (Numerical Partial Differential Equations)\n计算应用数学的研究技能 (Research Skills for Computational Applied Mathematics)\n应用随机微分方程 (Applied Stochastic Differential Equations)\n优化基础 (Fundamentals of Optimization)\n数学建模中的多尺度方法 (Multi-scale Methods in Mathematical Modelling)\n面向对象编程应用 (Object-Oriented Programming with Applications)\n统计编程 (Statistical Programming)\n贝叶斯理论 (Bayesian Theory)\n数据分析与高性能计算 (Data Analytics with High Performance Computing)\n数值常微分方程及其应用 (Numerical Ordinary Differential Equations and Applications)\n多元数据分析 (Multivariate Data Analysis)\n随机建模 (Stochastic Modelling)\n时间序列 (Time Series)\n数据科学的大规模优化 (Large Scale Optimization for Data Science)\n金融优化方法 (Optimization Methods in Finance)",
+  "success_cases": ""
+}

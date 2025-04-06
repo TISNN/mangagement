@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "数学理学硕士",
+  "ename": "MSc Mathematics",
+  "tags": "理科,数学,数学科学系",
+  "introduction": "专业方向: 数学\n入学时间: 10月\n项目时长: 1年\n项目学费: 21700英镑/年",
+  "requirements": "具有2:1学位，需要数学、应用数学、运筹学、数理统计、 物理学背景低于2:1学位或同等学历的申请者，将根据其相关专业或志愿工作经验和之前学习的课程对其申请进行考虑",
+  "objectives": "博弈论源于数学、统计和经济学，通常被用于理解和预测人类行为。保护数字信息免遭盗版的问题与固定系统的各个方面密切相关。全世界计算机上使用的RSA密码系统都依赖于数论的经典结果。埃塞克斯大学数学理学硕士课程涵盖离散数学的许多方面及其在实践中的潜在用途，并为学生提供以下选择：优化，机器学习，数据挖掘，统计",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数学职业与就业能力 (Mathematics Careers and Employability)\n研究方法 (Research Methods)\n论文 (Dissertation)\n抽象代数 (Abstract Algebra)\n数值方法 (Numerical Methods)\n群论 (Group Theory)\n非线性规划 (Nonlinear Programming)\n组合优化 (Combinatorial Optimisation)\n高级常微分方程 (Advanced Ordinary Differential Equations)\n图论 (Graph Theory)\n密码学与编码 (Cryptography and Codes)\n交换代数 (Commutative Algebra)\n模拟实验数据 (Modelling Experimental Data)\n统计学方法 (Statistical Methods)\n随机过程 (Stochastic Processes)",
+  "success_cases": ""
+}

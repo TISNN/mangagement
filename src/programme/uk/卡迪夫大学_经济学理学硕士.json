@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,商学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 22700英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，具有经济学相关学科背景，其中必须包括以下课程：计量经济学（或同等定量模块）和宏观经济学，成绩至少为60%，或具有重要的相关工作经验",
+  "objectives": "卡迪夫大学经济学理学硕士项目旨在应用先进的经济理论来重新架构和解决当代社会政治挑战。从英国退欧和卧室税到工资和财富，从环境和能源到健康和无家可归，经济学家很少对影响世界社区的挑战的方向和辩论有这样的影响力。经济学硕士课程的重点是培养新一代掌握工具和技术经济学专业人士以满足全球经济的需求。学校将帮助学生在政府服务、工业、国际机构、咨询和中央银行等领域做好就业准备，为学生提供专业的理论知识和实践技能，以应对重大的经济挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级宏观经济学 (Advanced Macroeconomics)\n计量经济学 (Econometrics)\n高级微观经济理论 (Advanced Microeconomic Theory)\n经济学硕士学位论文 (MSc Economics Dissertation)\n高级国际贸易 (Advanced International Trade)\n高级政治经济 (Advanced Political Economy)\n高级劳动经济学 (Advanced Labour Economics)\n数学金融学 (Mathematical Finance)\n微观计量经济学实践 (Micro-Econometric Practice)\n宏观计量经济学实践 (Macro-Econometric Practice)\n货币政策专题 (Topics in Monetary Policy)",
+  "success_cases": ""
+}

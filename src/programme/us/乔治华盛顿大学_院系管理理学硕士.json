@@ -1,0 +1,12 @@
+{
+  "school_name": "乔治华盛顿大学",
+  "major_name": "院系管理理学硕士",
+  "ename": "MS in Project Management",
+  "tags": "工科,工程管理",
+  "introduction": "专业方向: 工程管理\n项目类别: STEM\n入学时间: 秋季/春季\n项目时长: 30学分\n项目学费: 1,965美元/学分\n平均成绩: 3.2\n国际学生: 34%\n男女比例: 6:4",
+  "requirements": "GPA达到3.0及以上推荐有工作经验候选人申请",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

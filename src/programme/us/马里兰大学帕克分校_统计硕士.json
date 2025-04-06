@@ -1,0 +1,12 @@
+{
+  "school_name": "马里兰大学帕克分校",
+  "major_name": "统计硕士",
+  "ename": "Master's degree in Statistics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 秋季/春季\n项目时长: 30学分\n项目学费: 约2,082美元/学分\n项目规模: 15-30人",
+  "requirements": "学过统计相关课程，且拥有较强数学能力",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

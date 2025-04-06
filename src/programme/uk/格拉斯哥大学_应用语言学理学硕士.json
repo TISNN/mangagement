@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "应用语言学理学硕士",
+  "ename": "MSc Applied Linguistics",
+  "tags": "社科,语言,批判研究学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要英语/英国文学、应用语言学、教育、媒体研究、传播学、任何现代语言、翻译、语言文学、语言学或任何其他相关学科背景，学校也接受其他学科的学位具有以下工作经验的2:2荣誉学位（或非英国同等学历）可以被考虑：教学（特别是语言），新闻翻译/媒体/商业或社区政治工作，或任何其他相关工作经验",
+  "objectives": "该硕士课程的重点是语言研究如何帮助解决专业实践和公共生活中与语言有关的问题。它旨在让您成为语言和教育，跨文化交流，语言和政治以及专业演讲等领域的研究主导专家。作为该学位的一部分，您将设计并进行自己的应用研究项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "科研技能训练课程 (Research training course)\n语言学在社会和职业生活中的应用 (Applying linguistics in social and professional life)\n语言与全球校园：高等教育国际化中的语言问题 (Language and the global campus: linguistic issues in the internationalisation of higher education)\n语言学习与教学中的社会变量和个体变量 (Social and individual variables in language learning and teaching)\n系统功能语言学及其应用 (Systemic functional linguistics and its applications)\n司法语言学 (Forensic linguistics)\n语言和交流的关键方法 (Critical approaches to language and communication)\n系统功能语言学及其应用 (Systemic functional linguistics and its applications)",
+  "success_cases": ""
+}

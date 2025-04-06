@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "军事电子系统工程理学硕士",
+  "ename": "MSc Military Electronic Systems Engineering",
+  "tags": "工科,电气电子,国防与安全",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 38340英镑/年",
+  "requirements": "具有科学、工程或数学方面背景",
+  "objectives": "克兰菲尔德大学军事电子系统工程理学硕士课程提供选定军事电子系统的教育和培训。它特别适合那些将参与军事雷达、光电、通信、声纳或信息系统的规范、分析、开发、技术管理或操作的人员，重点将是电子战环境。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "通信原理 (Communications Principles)\n通信系统 (Communications Systems)\n电磁传播与器件 (Electromagnetic Propagation and Devices)\n电光与红外系统1 (Electro-optics and Infrared Systems 1)\n信号处理、统计与分析 (Signal Processing, Statistics and Analysis)\n雷达原理 (Radar Principles)\n论文项目 (Dissertation Project)\n高级雷达 (Advanced Radar)\n高级传感器数据处理 (Advanced Sensor Data Processing)\n通信电子战 (Communications Electronic Warfare)\n电光与红外系统2 (Electro-optics and Infrared Systems 2)\n信息网络 (Information Networks)\n建模和模拟：基础 (Modelling and Simulation: Foundations)\n雷达电子战 (Radar Electronic Warfare)",
+  "success_cases": ""
+}

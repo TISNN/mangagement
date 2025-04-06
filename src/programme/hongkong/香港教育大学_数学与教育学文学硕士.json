@@ -1,0 +1,12 @@
+{
+  "school_name": "香港教育大学",
+  "major_name": "数学与教育学文学硕士",
+  "ename": "MA Mathematics and Pedagogy",
+  "tags": "社科,教育,博文及社会科学学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 145400港币/年",
+  "requirements": "申请者应持有认可大学颁发的本科学士学位（偏好非数学学科领域背景）或同等学历具备香港高级程度会考数学学科达到Grade E或以上成绩或香港中学文凭考试数学（必修部分）达到Level 4或以上成绩或取得数学同等成绩在学士学位或前师范学院课程期间曾修读数学或数学相关课程的申请者也可能考虑需要提供额外证明文件：数学相关成绩单和公开考试成绩：- 包含数学课程成绩的成绩单副本；和- HKCEE / HKALE / HKDSE成绩单副本。",
+  "objectives": "香港教育学院数学与教育学文学硕士课程旨在加深及强化学员的数学知识，帮助他们从高层次的数学角度认识数学的学与教。该课程帮助学员了解不同课堂环境中的创新教学技巧，并平衡他们的批判思考，以期成为一个懂得自我反思的教育工作者。课程融合了不同的教学模式，包括面对面授课、电子学习及自主学习。教学语言以英文为主，并辅以中文讲解，让学生有机会接触于不同语文环境中数学的学与教，以期可以迎合不同学校环境的需要。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "跨学科研究方法 (Research Methods for Interdisciplinary Studies)\n地方和全国性教育热点议题 (Local and National Issues in Education)\n代数和数论 (Algebra and Number Theory )\n几何学 (Geometry)\n概率与统计 (Probability and Statistics)\n数学教学设计 (Instructional Design in Mathematics)\n数学教学技巧：探究式学习法 (Technology for Mathematics Teaching: an Inquiry Approach)\n数学思考与评估 (Mathematical Thinking and Assessment)\n数学史与数学教育 (History and Pedagogy of Mathematics)\n微积分和数学建模 (Calculus and Mathematical Modelling)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "种植学理学硕士",
+  "ename": "MSc Implantology",
+  "tags": "社科,医学,牙科学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 45200英镑/年",
+  "requirements": "持有初级牙科资格证书，具有2年资格后工作经验",
+  "objectives": "卡迪夫大学种植学理学硕士项目为期一年，旨在为具有专业牙科背景的学生提供对种植科学和临床实践的广泛理解。学生将学习种植学的科学背景和通过修复性治疗计划进入种植手术的进展。直接管理需要固定和可拆卸种植体保留假体的患者，并将在计划的第一个月开始接诊您自己的患者。该课程将通过广泛的教育和直接临床经验促进学生的专业和个人成长，旨在成为最适合牙种植学实践的技能组合。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "牙科修复学的概念及其在种植牙学中的应用 (Concepts in Restorative Dentistry and their Applications to Dental Implantology)\n种植学 (Implantology)\n细胞和分子生物学 (Cellular and Molecular Biology)\n研究方法 (Research Methods)\n种植学论文 (Dissertation Implantology)",
+  "success_cases": ""
+}

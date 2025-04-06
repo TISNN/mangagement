@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "管理学理学硕士",
+  "ename": "MSc Management",
+  "tags": "商科,管理,管理学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，可以是除商业或管理学科以外的任何学科",
+  "objectives": "我们的管理学理学硕士课程将为学生提供扎实的管理学科基础。学生可以选择遵循一般管理路线，也可以专注于以下领域之一：企业社会责任、金融、人力资源管理、市场营销和运营管理。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "市场营销 (Marketing)\n商业经济学 (Business economics)\n会计和财务管理的基础 (Fundamentals of accounting and financial management)\n人力资源管理 (Human resource management)\n运营管理 (Operations management)\n管理研究方法 (Methods of management research)\n战略管理 (Strategic management)\n公司财务基础 (Fundamentals of corporate finance)\n财务管理国际业务 (Financial management for international business)\n管理咨询:数据驱动的方法 (Management consulting: data driven approaches)",
+  "success_cases": ""
+}

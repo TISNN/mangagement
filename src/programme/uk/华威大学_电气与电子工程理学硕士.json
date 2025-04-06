@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "电气与电子工程理学硕士",
+  "ename": "MSc Electrical and Electronic Engineering",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 29880英镑/年",
+  "requirements": "具有2:1本科英国荣誉学位或同等学历，需要电子、电气或电信工程，或工程科学专业背景（电子、电气、电信或系统方向）\n申请者的数学知识需要达到A2 Level或同等水平，涵盖线性代数、微积分和分析等主题，包括微分方程，这可以通过作为本科课程一部分的数学模块获得，学校希望学生在硕士学习开始时对这些主题具备很好的理解\n学校愿意根据具体情况考虑具有较低学历的申请者，尤其是能够证明具备相关就业、实践经验或在与申请专业相关的本科课程中表现出色的申请者\n为了确保申请者掌握学习该课程的必要基础，根据其整体学术表现，可能会要求申请者参加数学技能测试",
+  "objectives": "华威大学电气与电子工程理学硕士课程旨在为学生提供发展对工业有用的电气与电子工程主题的知识和技能的机会，重点是项目工作，并通过研究方法和专业技能课程来支持项目工作。学生将能够把他们的知识和技能应用到个人和小组项目中，以及撰写报告和展示技术工作，从而培养雇主所寻求的项目管理和数字技能。一系列选修课程让学生有机会将课程的应用重点与他们的兴趣结合起来。学校实验室配备了硬件和软件，以支持电气和电子工程领域的不同教学活动。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级电力电子转换器与设备 (Advanced Power Electronic Converters and Devices)\n研究方法与专业技能 (Research Methods and Professional Skills)\n个人项目 (Individual Project)\n电力工程设计小组项目 (Electrical Power Engineering Design Group Project)\n通信与信息设计小组项目 (Communication and Information Design Group Project)\n光通信系统 (Optical Communication Systems)\n无线电波传播与无线通信理论 (Radiowave Propagation and Wireless Communications Theory)\n高级无线系统与网络 (Advanced Wireless Systems and Networks)\n信息理论与编码 (Information Theory and Coding)\n专用集成电路、微机电系统与智能设备 (ASICs, MEMs and Smart Devices)\n高性能嵌入式系统设计 (High Performance Embedded Systems Design)\n电力系统运行与控制 (Operation and Control of Power Systems)\n电力驱动控制 (Control of Electrical Drives)\n高级控制系统 (Advanced Control Systems)\n电力电子转换器与设备 (Power Electronic Converters and Devices)",
+  "success_cases": ""
+}

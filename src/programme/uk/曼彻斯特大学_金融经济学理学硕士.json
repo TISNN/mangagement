@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "金融经济学理学硕士",
+  "ename": "MSc Financial Economics",
+  "tags": "商科,经济,社会科学学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 32000英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要经济学、金融学、数学或相关学科（包含经济理论、数学和计量经济学方面的高水平学习）背景\n在评估申请者的学习成绩时，学校会考虑学生已取得的成绩和所就读院校的地位",
+  "objectives": "在现代经济中，对金融经济学高技术专家的需求依然持续增长。这种需求存在于公共部门（中央银行、国际组织、学术机构）中，而私营部门（商业银行和保险公司）更是如此。曼彻斯特大学金融经济学理学硕士学位课程专为迎合这需求而设，面向有意修读由微观经济学和宏观经济学原理的优质训练与分析金融市场所需的定量方法相结合的学位课程的学生。\n金融经济学是一个迷人的领域，拥有杰出成就。金融经济学的显著特点在于它的理论重点（诸如布莱克-舒尔斯公式）在实践中极其重要。在数理经济学和金融学交界处开发的金融经济学的基本理念和工具依据学者意见开创出了新市场。曼彻斯特大学金融经济学理学硕士学位课程旨在展现这些理念及工具在它们不可或缺及被广泛利用的情境中的使用。曼彻斯特大学金融经济学理学硕士学位课程使学生接触对金融行业所有人士包括投资组合经理、风险管理咨询师或财务分析师都有用的定量技术和理论。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "经济分析中的数学方法 (Mathematical Methods in Economic Analysis)\n宏观经济分析 (Macroeconomic Analysis)\n金融经济学一 (Financial Economics I)\n经济学定量方法导论 (Introduction to Quantitative Methods in Economics)\n计量经济学方法 (Econometric Methods)\n金融经济学II (Financial Economics II)\n论文 (Dissertation)\n发展微观经济学 (Development Microeconomics)\n微观计量经济学 (Micro Econometrics)\n国际宏观经济学 (International Macroeconomics)\n公共经济学 (Public Economics)\n欠发达国家的贫困，不平等与政府政策 (Poverty, Inequality and Government Policy in Less Developed Countries)\n金融计量经济学 (Financial Econometrics)\n应用经济学专题 (Topics in Applied Economics)\n政治经济学 (Political Economics)",
+  "success_cases": ""
+}

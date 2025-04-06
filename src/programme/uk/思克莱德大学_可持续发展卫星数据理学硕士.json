@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "可持续发展卫星数据理学硕士",
+  "ename": "MSc Satellite Data for Sustainable Development",
+  "tags": "工科,地球科学,机械与航天工程学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 1月\n项目时长: 1年\n项目学费: 28250英镑/年",
+  "requirements": "具有一等或二等荣誉学位，需要工程、科学、公共政策、法律和商业相关学科背景\n如果有证据表明有能力进行研究生学习，其他资格也可以考虑\n申请本专业不需要编程知识。学生应该具备编程和数据分析的能力，这将有助于他们在专业中学习这些学科领域",
+  "objectives": "思克莱德大学可持续发展卫星数据理学硕士项目涵盖联合国可持续发展目标，为卫星应用、空间系统设计、数据科学和可持续性的教学提供跨学科的方法。思克莱德大学可持续发展卫星数据理学硕士课程将通过分析个案研究和参与，通过学生项目，并邀请在实地积极工作的初创企业和非政府组织进行会谈，将重点讨论卫星数据在直接应用于可持续发展目标方面的实际应用。学生将了解各个行业广泛使用卫星数据，并将具备必要的技术技能和批判性思维，通过项目学习（其中一些是基于小组）和最终的个别项目，了解我们在全球面临的挑战，并制定创新解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "航天系统 (Spaceflight Systems)\n卫星资料同化与分析 (Satellite Data Assimilation & Analysis)\n卫星数据的机器学习 (Machine Learning for Satellite Data)\n卫星应用促进可持续发展目标 (Satellite Applications for the Sustainable Development Goals (SDGs))\n个人项目 (Individual project)\n创业、创新和商业化 (Entrepreneurship, Innovation & Commercialisation)\n新企业规划 (New Venture Planning)\n大数据基础 (Big Data Fundamentals)\n用于数据分析的机器学习 (Machine Learning for Data Analytics)\n城市景观设计 (Urban Landscape Design)\n持续性 (Sustainability)\n地理信息系统 (Geographical Information Systems (GIS))\n空气污染、气候变化与人类健康 (Air Pollution, Climate Change & Human Health)\n能源与政策 (Energy Resources & Policy)\n能源建模与监测 (Energy Modelling & Monitoring)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "自主机器人智能系统理学硕士",
+  "ename": "MSc Autonomous Robotic Intelligent Systems",
+  "tags": "工科,电气电子,电子与电气工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 31100英镑/年",
+  "requirements": "具有一等或二等荣誉学位，需要电子、电气、通信、设计制造工程或科学相关学科背景",
+  "objectives": "思克莱德大学自助机器人智能系统理学硕士项目专注于研究自动控制和机器学习的先进技术，及在机器人、传感器网络，大数据分析和自主代理中的应用。思克莱德大学自助机器人智能系统理学硕士项目重点的研究课题是：为物联网、普适计算和工业4.0环境创建新一代自我维持的智能设备。通过学习，学习获得的知识和技能可以广泛地应用于各种课程和领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "自主感知、学习和推理 (Autonomous Sensing、Learning、& Reasoning)\n数字制造概念 (Digital Manufacturing Concepts)\n制造自动化 (Manufacturing Automation)\n工业4的设计和智能产品 (Design for Industry 4 & Smart Products)\n机电系统设计技术 (Mechatronic Systems Design Techniques)\n机器人技术：系统与控制 (Robotics: Systems & Control)\n作业与专业研究 (Assignment & Professional Studies)\n战略技术管理 (Strategic Technology Management)\n产品建模与可视化 (Product Modelling & Visualisation)\n设计方法 (Design Methods)\n系统思考与建模 (Systems Thinking & Modelling)\n微纳米和纳米制造 (Micro- & Nano-Manufacturing)\n先进成形技术系统 (Advanced Forming Technology Systems)\n先进材料与生产技术 (Advanced Materials & Production Technology)\n微控制器高级应用 (Advanced Microcontroller Applications)",
+  "success_cases": ""
+}

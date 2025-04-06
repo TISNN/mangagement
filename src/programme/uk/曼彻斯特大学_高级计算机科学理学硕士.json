@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "高级计算机科学理学硕士",
+  "ename": "MSc Advanced Computer Science",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 37500英镑/年",
+  "requirements": "成功的申请者通常具有英国大学一等荣誉学位（均分70%）或同等学历，需要计算机科学学位（包含至少50%的计算机科学内容）\n学校要求所有申请者都具备很强的计算机科学背景，例如扎实的编程和软件开发技能\n申请者如果是在读生，需要提供最后一年学习的所有课程的正式列表",
+  "objectives": "曼彻斯特大学高级计算机科学理学硕士学位课程这一高质量项目旨在向学生传授计算机科学广泛领域的先进知识，并提供先进技能的培训。课程适合想要通过提升计算技能以对信息技术相关行业做出贡献的学生，也适合想要在学术界或行业进行研究开发的学生。\n曼彻斯特大学高级计算机科学理学硕士学位课程包含两条学习路线：一条适合有计算机科学背景的学生，另一条是针对其他工科背景学生的基础路线。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士项目 (Masters Project)\n自动推理和验证 (Automated Reasoning and Verification)\n在Web上建模数据 (Modelling Data on the Web)\n数字生物学原理 (Principles of Digital Biology)\n健康信息学导论 (Introduction to Health Informatics)\n数据工程 (Data Engineering)\n系统治理 (Systems Governance)\n机器学习的基础 (Foundations of Machine Learning)\n高维数据的建模和可视化 (Modelling and Visualisation of High-Dimensional Data)\n文字挖掘 (Text Mining)\n计算机视觉 (Computer Vision)\n密码学 (Cryptography)\n网络安全 (Cyber Security)\n实践中的软件工程概念 (Software Engineering Concepts in Practice)\n语义网的本体工程 (Ontology Engineering for the Semantic Web)",
+  "success_cases": ""
+}

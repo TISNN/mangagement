@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "聚变能理学硕士",
+  "ename": "MSc Fusion Energy",
+  "tags": "理科,物理,物理学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 31900英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要广泛的STEM学科背景，包括工程学、数学、物理学、计算机科学、环境科学和相关学科",
+  "objectives": "聚变研究正在进入一个激动人心的新时代，一些大型设施旨在实现净能量增益这一关键目标，为了产生持续的聚变反应，聚变燃料必须加热到1亿度，让燃料迅速转化为等离子。这种粒子极难加以限制与控制，而使用高能激光和超导磁体的新国际设施是实现可控聚变能的关键步骤，但在这之前仍有许多困难需要克服。约克大学聚变能理学硕士项目将让学生为应对这些挑战做好准备，他们将学习计算和研究等离子体物理学的技能，并在约克等离子体研究所的物理学家的指导下进行前沿研究，他们将有机会与世界一流的国际聚变科学家互动，使该聚变能源理学硕士课程成为学员们探索聚变，并为该领域的职业生涯做好准备的绝佳机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "等离子体物理聚变 (Plasma Physics for Fusion)\n进一步等离子体物理学 (Further Plasma Physics)\n聚变-惯性约束 (Fusion - Inertial Confinement)\n聚变-磁约束 (Fusion - Magnetic Confinement)\n等离子体诊断技术 (Plasma Diagnostic Techniques)\n聚变技术 (Fusion Technology)\n聚变前沿研讨 (Frontiers of Fusion Workshop)\n聚变实验室 (Fusion Laboratory)\n高性能计算 (High Performance Computing)\n数据分析中的统计方法 (Statistical Methods in Data Analysis)\n天体物理等离子体 (Astrophysical Plasmas)\n激光与原子光相互作用 (Lasers & Atom-Light Interactions)",
+  "success_cases": ""
+}

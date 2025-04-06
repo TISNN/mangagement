@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "应用人工智能计算硕士",
+  "ename": "Master of Computing in Applied AI",
+  "tags": "工科,计算机,计算机与数据科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 11月\n项目时长: 1年",
+  "requirements": "具有南洋理工大学认可的本科学位，具备至少2年工作经验者优先考虑",
+  "objectives": "南洋理工大学应用人工智能计算硕士项目旨在为来自不同学科的专业人士提供知识和技能，以有效地应用负责任的人工智能来解决各自领域的问题，该课程弥合了人工智能理论与现实世界应用之间的差距，使来自不同领域的专业人士能够负责任地将人工智能整合到他们的工作流程中，提高组织效率。通过严格的课程，参与者将获得：人工智能的核心基础知识，确保对关键概念和方法的深刻理解；深入了解新兴的人工智能技术，使其始终处于创新的前沿；在人工智能实施方面的实践经验，使他们能够在各自的行业中有效和合乎道德地应用人工智能。该课程为拥有任意学科学士学位的在职专业人士量身定制，培养了一支面向未来的劳动力队伍，能够驾驭和利用人工智能的进步，加速新加坡企业和公共部门组织的人工智能驱动转型。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用人工智能编程 (Applied AI Programming)\n人工智能算法基础与应用 (AI Algorithms Fundamentals & Application)\n人工智能用户体验与数据可视化设计原理 (AI UX & Data Visualisation Design Principles)\n数据治理、准备与分析的最佳实践 (Best Practices in Data Governance, Preparation & Analytics)\n人工智能伦理与治理基础 (Al Ethics & Governance Fundamentals)\n解决人工智能伦理与治理问题 ( Addressing Issues in Al Ethics & Governance)\n负责任的生成式人工智能与应用 (Responsible Generative Al & Applications)\n解决生成式人工智能系统设计与部署问题 (Addressing Issues in Generative Al System Design and Deployment)\n银行与金融领域的人工智能 (AI in Banking & Finance)\n教育领域的人工智能 (AI in Education)\n医疗保健领域的人工智能 (AI in Healthcare)\n法律领域的人工智能 (AI in Law)\n制造领域的人工智能 (AI in Manufacturing)\n市场营销领域的人工智能 (AI in Marketing)\n项目管理领域的人工智能 (AI in Project Management)\n公司赞助的顶点项目 (Company-sponsored Capstone Project)\n代理人工智能与应用 (Agentic Al and Applications)\n推荐系统 (Recommendation System )\n大型语言模型与检索增强生成 (LLM and RAG)\n强化学习 (Reinforcement Learning)\n转换与生成对抗网络 (Transformer and Generative Adversarial Network)\n深度学习与应用 (Deep Learning and Applications)\n计算机视觉与应用 (Computer Vision and Applications)\n自然语言处理与应用 (NLP and Applications)\n嵌入式人工智能与应用 (Embedded Al and Applications)",
+  "success_cases": ""
+}

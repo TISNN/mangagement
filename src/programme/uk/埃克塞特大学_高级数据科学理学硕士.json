@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "高级数据科学理学硕士",
+  "ename": "MSc Advanced Data Science",
+  "tags": "理科,数据科学,工程、数学与物理科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30300英镑/年",
+  "requirements": "具有2:1荣誉学位，需要计算机科学、数据科学或任何其他与计算相关的学科，如数学、统计学、物理学或其他以计算为重点的学位",
+  "objectives": "埃克塞特大学高级数据科学理学硕士项目专注于最新的技巧和技术，教学生如何将它们应用于各种复杂问题。 学生将参与一系列数据科学主题的研究型教学，包括人工智能、机器学习、机器视觉、网络科学、统计学等。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究课题 (Research Project)\n数据科学基础 (Foundations of Data Science)\n网络科学 (Network Science)\n文本挖掘与自然语言处理 (Text Mining and Natural Language Processing)\n数据科学作品集 (Data Science Portfolio)\n深度学习 (Deep Learning)\n大规模数据科学 (Data Science at Scale)\n生成式人工智能应用 (Generative AI Applications)\n大型语言模型和应用程序 (Large Language Models and Applications)\n医疗保健中的人工智能 (AI in Healthcare)\n环境中的人工智能 (AI in Environment)\n自然计算 (Nature-Inspired Computation)\n机器学习 (Machine Learning)\n进化计算与优化 (Evolutionary Computation & Optimisation)\n计算机视觉 (Computer Vision)\n从数据中学习 (Learning from Data)\n空间和时间的统计建模 (Statistical Modelling in Space and Time)\n贝叶斯统计、哲学与实践 (Bayesian Statistics, Philosophy and Practice)\n数据治理与伦理 (Data Governance and Ethics)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "对外英语教学文学硕士",
+  "ename": "MA Teaching English to Speakers of Other Languages (TESOL)",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 21400英镑/年",
+  "requirements": "具有2:2荣誉学位，需要相关学科背景\n一些语言教学经验或之前的教师培训经验，以表明对教授英语作为第二语言或外语的参与和承诺",
+  "objectives": "莱斯特大学对外英语教学文学硕士项目教授必要的教学技能与专业知识，完善学生在英语语言教学理论与实践方面的基础知识，使学生获得最新的学科知识和全面的能力发展。莱斯特大学对外英语教学文学硕士项目在促进学生职业发展的同时，也让学生在全球化的环境下拥有更大的就业竞争力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "第二语言教学 (Second Language Teaching)\n第二语言学习 (Second Language Learning)\n语法意识 (Grammar Awareness)\n语音与发音 (Phonology and Pronunciation)\n行动中的交际语言教学 (Communicative Language Teaching in Action)\n语言学习与教学反思 (Reflections on Language Learning and Teaching)\n语言学习中的心理问题 (Psychological Issues in Language Learning)\n语料库语言学 (Corpus Linguistics)\n社会语言 (Language in Society)\n话语分析 (Discourse Analysis)\n语言测试与评价1 (Language Testing and Assessment 1)\n语言测试与评价2 (Language Testing and Assessment 2)\n特殊/学术目的下英语 (English for Specific/Academic Purposes)\n科技增强语言学习 (Technology Enhanced Language Learning (TELL))\n英语教师专业持续发展 (Continuing Professional Development for English Language Teachers)",
+  "success_cases": ""
+}

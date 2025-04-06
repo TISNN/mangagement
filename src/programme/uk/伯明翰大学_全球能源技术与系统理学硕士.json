@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "全球能源技术与系统理学硕士",
+  "ename": "MSc Global Energy Technologies and Systems",
+  "tags": "工科,能源,工程与物理科学学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 31390英镑/年",
+  "requirements": "具有2:1荣誉学位，需要工程或物理科学背景",
+  "objectives": "全球能源系统正在转型，其政策驱动因素包括：环境、气候变化或空气质量；可靠的供应需求及日益增长的需求；城市化扩大给基础设施带来的压力。为实现这些目标，新兴技术正在发展，能源系统自身也在变化。人们不仅需要开发利用单一技术，更需要理解整个运作环境。伯明翰大学全球能源技术与系统理学硕士项目是一个跨学科项目，旨在满足全球背景下的上述需求。学生将采取系统方法来研究能源供给、分配和使用。总体而言，化学工程是非常灵活且广泛的领域，直接影响着与人类生活息息相关的部门（如能源生产与传输部门）。伯明翰大学全球能源技术与系统理学硕士项目满足了下一代能源专业人员的专业教育需求，毕业生将能够开展受到国际公认的研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "先进能源技术 (Advanced Energy Technology)\n能源系统和政策 (Energy Systems and Policy)\n热能转换、储存及应用 (Thermal Energy Conversion, Storage and Applications)\n核能 (Nuclear Energy)\n燃料电池与氢技术 (Fuel Cell and Hydrogen Technology)\n可再生能源系统 (Renewable Energy Systems)\n能源政治经济学与能源安全 (Political Economy of Energy and Energy Security)\n能源系统建模 (Energy Systems Modelling)\n能源系统设计 (Energy Systems Design )\n研究项目 (Research Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "金融数学与统计理学硕士",
+  "ename": "MSc Financial Mathematics and Statistics",
+  "tags": "商科,金工金数,理学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 246000港币/年",
+  "requirements": "具有学士学位/研究生学位或同等学历，需要理工科（数学、物理、统计学、计算机科学、工程学等）或相关学科（经济学、金融学、精算科学）背景",
+  "objectives": "香港城市大学理学硕士（金融数学与统计）由香港城市大学数学系提供。该项目旨在提升学生金融业务及统计模型的能力。除此以外，该项目也为学生提供了复杂金融和保险实操所必需的理论知识。此外，该项目增强了学生在金融数学和风险管理方面的数学和计算能力。 本项目旨在培养具有商业意识、扎实的金融工程和风险管理基础的毕业生，同时让学生具有在全球化商业背景下相关的理论知识以及统计和计算技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "衍生产品市场中的金融数学  (Financial Mathematics in Derivative Markets )\n统计数据分析  (Statistical Data Analysis )\n金融学随机分析  (Stochastic Analysis in Finance )\n金融学高级随机分析  (Advanced Stochastic Analysis in Finance )\n数据挖掘统计建模  (Statistical Modelling for Data Mining )\n实用偏微分方程  (Applied Partial Differential Equations )\n数值偏微分方程  (Numerical Partial Differential Equations )\n学位论文（6学分）  (Dissertation (6 credit units) )\n随机利率模型  (Stochastic Interest Rate Models )\n金融工程中的编程和计算  (Programming and Computing in Financial Engineering )\n统计学习简介  (Introduction to Statistical Learning )\n金融大数据统计分析  (Statistical Analysis of Financial Big Data )\n公司金融  (Corporate Finance )\n信贷风险管理  (Credit Risk Management )\n风险管理统计建模  (Statistical Modeling in Risk Management )",
+  "success_cases": ""
+}

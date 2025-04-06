@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "建筑学硕士",
+  "ename": "Master of Architecture",
+  "tags": "社科,建筑,建筑学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 2年\n项目学费: 30950英镑/年",
+  "requirements": "在ARB Part 1阶段获得2:2或更高学位；如果申请者持有在欧盟以外获得的资格证书，或未被认可的英国资格证书，需通过ARB相关级别考试，才能参加此课程；申请者需要提交作品集，可能需要接受面试",
+  "objectives": "雷丁大学建筑学硕士项目目标是为学生提供21世纪建筑师的技能：通过高质量的设计利用空间，在资源有限的世界中勇于创新，并塑造环境，为子孙后代留下优秀的遗产。项目具有全球视野，学生将通过文化、社会和环境的视角，研究建筑在快速城市化世界中的作用。通过来自世界各地的研究主题、项目网站、案例研究和实践，支持学生成为一个全面的、有创造力的、进步的、具有国际相关性的建筑师。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "建筑设计1 (Architectural Design 1)\n建筑设计2 (Architectural Design 2)\n建筑技术 (Architectural Technologies )\n具备职业韧性的建筑技能 (Architectural Skills for Professional Resilience )\n建筑设计3：论文设计 (Architectural Design 3: Thesis Design)\n专业技能 (Professional Skills)\n研究方法与论文 (Research Methods: Dissertation)\n建筑信息管理和社会技术变革 (Building Information Management and Socio-technical Change)\n组织创新和数字化转型 (Organising for Innovation and Digital Transformation )\n城市微气候、信息通信技术和能源管理 (Urban Microclimates and ICT and Energy Management)",
+  "success_cases": ""
+}

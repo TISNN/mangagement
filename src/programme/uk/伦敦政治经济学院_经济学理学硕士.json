@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦政治经济学院",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,经济学系",
+  "introduction": "专业方向: 经济\n入学时间: 8月\n项目时长: 1年\n项目学费: 39000英镑/年",
+  "requirements": "具有一等荣誉学位或同等学历，需要经济学背景（主修经济学和定量学科），成功的申请者通常会在两个学期的大学水平课程（[a] 数学（高等微积分和线性代数），[b] 计量经济学和统计学，[c] 中级宏观和微观经济学）中取得非常好的考试成绩\n如果申请者的第一学位不是经济学，则其应该申请攻读经济学硕士（2年制）课程，具有技术学位和强大定量背景的申请者可能希望考虑申请计量经济学与数理经济学理学硕士\n没有英国经济学本科学位的申请者需要提交GRE，一般来说希望定量部分不低于161，较高的分数将有助于申请，但其他信息如考试成绩和推荐信在整体评估中也很重要",
+  "objectives": "伦敦政治经济学院经济学理学硕士项目旨在培养学生掌握经济学专家所需的专业技能，为从事政府、国际组织、企业工作或经济研究做准备。每年大概有三分之一的毕业生在私营企业工作，三分之一的毕业生在公共部门和国际组织工作，另外三分之一继续深造学习。\n伦敦政治经济学院经济学理学硕士项目提供经济学和细分方向的严格训练。考虑到数学应用广泛，伦敦政治经济学院经济学理学硕士项目集中于经济理论、宏观经济学和计量经济学的核心要素。主要目标是提供核心经济模型和方法的正式培训和深入理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "宏观经济学 (Macroeconomics)\n微观经济学 (Microeconomics)\n高等微观经济学 (Advanced Microeconomics)\n计量经济学 (Econometrics)\n国际经济学 (International Economics)\n劳动经济学 (Labour Economics)\n货币经济学 (Monetary Economics)\n公共经济学 (Public Economics)\n产业经济学 (Economics of Industry)\n发展与增长 (Development and Growth)\n政治经济学 (Political Economy)\n从历史角度来看经济增长、发展与资本主义 (Economic Growth、Development、and Capitalism in Historical Perspective)\n合同与组织 (Contracts and Organisations)\n资产市场A (Asset Markets A)\n公司金融A (Corporate Finance A)",
+  "success_cases": ""
+}

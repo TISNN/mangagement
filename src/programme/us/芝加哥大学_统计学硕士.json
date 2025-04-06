@@ -1,0 +1,12 @@
+{
+  "school_name": "芝加哥大学",
+  "major_name": "统计学硕士",
+  "ename": "M.S. Degree in Statistics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1-2年\n项目学费: 55146美元/年\n项目规模: 30-40人",
+  "requirements": "强数学背景、有统计数据分析和编程方面的经验。雅可比和多元积分、线性/矩阵代数以及一年的基本概率和统计进行微积分",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

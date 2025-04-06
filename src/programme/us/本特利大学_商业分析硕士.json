@@ -1,0 +1,12 @@
+{
+  "school_name": "本特利大学",
+  "major_name": "商业分析硕士",
+  "ename": "Masters in Business Analytics",
+  "tags": "商科,商业分析",
+  "introduction": "专业方向: 商业分析\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 18-24个月\n项目学费: 46116美元/年\n男女比例: 43:57\n就业比例: 90%",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "密歇根大学安娜堡分校",
+  "major_name": "化学工程工程理学硕士",
+  "ename": "MSE in Chemical Engineering",
+  "tags": "工科,化工",
+  "introduction": "专业方向: 化工\n入学时间: 秋季\n项目时长: 3学期\n项目学费: 26584美元/学期",
+  "requirements": "先修课：研究调查,流体流动,反应堆分析,热量和质量传输,统计热力学,化学工程师的数学。持有化学工程学士学位或其他工程或相关领域的学士学位",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

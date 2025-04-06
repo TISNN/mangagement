@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "机械工程理学硕士",
+  "ename": "MSc Mechanical Engineering",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 52500新币/年",
+  "requirements": "具有知名大学颁发的荣誉学士学位或同等学历，偏好机械工程背景\n没有荣誉学位的申请者根据学习期间的成绩、强大技术背景的证明和至少2年工作经验（偏好机械工程领域）也可能被考虑录取",
+  "objectives": "新加坡国立大学机械工程理学硕士课程旨在让学生更好地掌握机械工程某一领域或多领域的尖端技术。新加坡国立大学机械工程理学硕士课程在严谨的学科理论与现实应用之间取得了巧妙的平衡。通过课程学习，学生将能够具备批判性思维能力，将理论与新知识相交融。新加坡国立大学机械工程系兼具高水平研究能力与工程咨询专业技能，为其机械工程理学硕士课程增添了特色。绝大部分毕业生都在国内外从事于机械工程领域内合适而极具挑战性的岗位，由此可见该课程的成功所在。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "机械工程项目 (Mechanical Engineering Project)\n工业实习 (Industrial Attachment)\n工程声学 (Engineering Acoustics)\n振动声学进展 (Advances in Vibroacoustics)\n可压缩与高速气流 (Compressible and High-Speed Flow)\n数据驱动工程与机器学习 (Data-Driven Engineering and Machine Learning)\n机器视觉 (Machine Vision)\n自主移动机器人 (Autonomous Mobile Robotics)\n动力系统优化技术 (Optimization Techniques for Dynamical Systems)\n软机器人技术 (Soft Robotics)\n机器人学中的机器学习 (Machine Learning in Robotics)\n计算机控制与应用 (Computer Control and Applications)\n材料的变形、断裂与疲劳  (Deformation, Fracture and Fatigue of Materials)\n细胞固体的材料加工 (Material Processing of Cellular Solids)\n制造过程建模 (Modelling of Manufacturing Processes)\n自然材料与设计 (Nature-inspired Materials and Design)",
+  "success_cases": ""
+}

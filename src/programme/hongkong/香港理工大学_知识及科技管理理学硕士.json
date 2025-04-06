@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "知识及科技管理理学硕士",
+  "ename": "MSc Knowledge and Technology Management",
+  "tags": "商科,信息系统,工程学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 154000港币/年",
+  "requirements": "具有学士学位或专业资格或同等学历，需要工程、商业或科学背景\n个别情况下学院会根据个案考虑，申请者可能需要参加面试或笔试以进一步证明他们的语言能力",
+  "objectives": "香港理工大学知识及科技管理理学硕士课程为不同背景的学员提供独特和灵活的机会，让他们根据专业需要，在科技和创新领域进行量身定制的学习。该专业的目标是使学生能够培养理解创新周期的能力，并最终将创新转化为商业成功，了解组织中知识和技术的开发、获取和实施对财务和战略的影响，提高他们对所选领域的知识和技术发展的技术和非技术意识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "知识的管理 (Managing Knowledge )\n知识管理系统的方法及工具 (Methods and Tools for Knowledge Management Systems )\n组织学习：方法与实践 (Organisational Learning: Methods and Practices)\n智力资本管理及评估 (Managing and Measuring Intellectual Capital)\n知识管理战略及个案研究 (Strategic Issues & Case Studies in Knowledge Management )\n知识型服务革新 (Knowledge Based Service Innovation)\n创新及技术管理 (Management of Innovation and Technology)\n企业知识导航站 (Enterprise Knowledge Portals)\n知识社群 (Knowledge Communities)\n商务智能与数据挖掘 (Business Intelligence and Data Mining)\n线上学习技术与实践 (E-Learning Technologies and Practices )\n中小型企业的知识管理实践 (Knowledge Management Practices in Small and Medium-sized Enterprises)\n知识管理的组织，推动及跨文化观点 (Organisational, Motivational and Intercultural Aspects of KM)",
+  "success_cases": ""
+}

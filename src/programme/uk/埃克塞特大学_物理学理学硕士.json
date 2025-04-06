@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "物理学理学硕士",
+  "ename": "MSc Physics",
+  "tags": "理科,物理,工程、数学与物理科学学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 28600英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要物理学背景，可能需要参加面试\n学校可能考虑在学习计划相关的课程中表现优异、拥有丰富的相关工作经验或相关专业资格的申请者",
+  "objectives": "埃克塞特大学物理学理学硕士项目是一个高度灵活的项目，专为那些希望从事专业科学家职业的人而设计，通过研究由在您所选领域积极工作的国际领先研究人员教授的一系列主题来拓宽和加深学生的知识，埃克塞特大学物理学理学硕士项目旨在培养学生在研究规划、执行和报告方面的技能，并有可能使自己的作品在国际期刊上发表。学生将受益于使用先进的研究设施，包括洁净室、氦液化器、水箱、放大的超快激光系统和一套生物材料成像仪器。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "物理研究前沿 (Frontiers in Physics Research)\n研究项目 (Research Project)\n生命系统物理学 (The Physics of Living Systems)\n观察宇宙 (Observing the Universe)\n分析和混沌动力学 (Analytical and Chaotic Dynamics)\n非线性光学与成像 (Nonlinear Optics and Imaging)\n电磁学 II (Electromagnetism II)\n核与高能物理 (Nuclear and High Energy Physics)\n电磁学和量子力学 (Electromagnetism and Quantum Mechanics)\n细胞和组织的生物物理学 (The Biophysics of Cells and Tissues)\n理论物理方法 (Methods of Theoretical Physics)\n纳米结构和石墨烯科学 (Nanostructures and Graphene Science)\n星系和高能天体物理学 (Galaxies and High Energy Astrophysics)\n能源与环境 (Energy and the Environment)\n理论物理原理 (Principles of Theoretical Physics)",
+  "success_cases": ""
+}

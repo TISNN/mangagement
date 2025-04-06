@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "高级功能材料理学硕士",
+  "ename": "MSc Advanced Functional Materials",
+  "tags": "工科,材料,物理与天文学学院",
+  "introduction": "专业方向: 材料\n入学时间: 9月\n项目时长: 1年\n项目学费: 31800英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要物理科学、材料科学或化学专业背景（含物理化学、核工程与技术、生物医学纺织与技术、材料物理、光电信息科学与工程、无机非金属材料工程、化学工程或纳米科学与工程），至少有一门电磁理论和量子力学的学分课程，平均成绩为及格\n学校也可以接受具有重要物理内容的相关学科的2:1荣誉学位。在物理方面取得2:2荣誉学位，并具有丰富的相关经验的申请者，学校可根据个人情况考虑需要具备以下先决条件经验 1. 该学位核心课程需要具备以下知识：\n- 物理基础数学：单变量和多变量微积分（微分和积分）、三角学、复数、向量、向量微积分、泰勒和傅立叶级数、傅立叶变换\n- 科学计算入门：数据处理、简单统计（计算均值和方差）、绘制函数和直方图、用通用编程语言（如Python或C）编写简单程序\n2. 申请者还必须具备以下条件：\n- 基本了解衍射，包括傅里叶变换的应用，以及它在晶体结构研究中的应用\n- 基本了解简单几何光学，包括绘制射线图和使用薄透镜公式\n- 熟悉本科热力学，包括其在材料性质中的应用（包括比热容）、第二定律的推导以及配分函数的使用\n- 了解薛定谔方程及其简单系统的解（如势阱或径向势）",
+  "objectives": "格拉斯哥大学高级功能材料理学硕士是一门固有的跨学科学科，涵盖物理、化学、材料科学和纳米技术。它支撑着现代生活的许多方面，其主题是全球技术挑战的核心，包括能源生产和储存、微电子和医疗保健。格拉斯哥大学在该领域的研究跨越了光伏技术的发展，用于增强太阳能系统、下一代数据存储技术和核反应堆设计合金的表征。学生还将受益于我们的苏格兰大学物理联盟成员资格。该联盟汇集了苏格兰各地国际领先的物理研究，形成了英国最大的物理集团。学生将获得分析和解决先进材料科学问题所需的理论、观察和计算技能，为学生在学术界或工业界担任科学领导奠定良好基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "物理学与天文学高级数据分析 (Advanced data analysis for physics and astronomy)\n成像和探测器 (Imaging and detectors)\n纳米和原子级成像1 (Nano and atomic scale imaging 1)\n研究技能 (Research skills)\n固体物理学 (Solid state physics)\n统计力学 (Statistical mechanics)\n理学硕士项目 (Msc project)\n高级材料特性 (Advanced materials characterisation )\nF区化学 (Chemistry of the f-block )\n化学热力学与统计力学 (Chemical thermodynamics and statistical mechanics )\n电离辐射检测与分析 (Detection and analysis of ionising radiation)\n可持续发展的电化学 (Electrochemistry for a sustainable future )",
+  "success_cases": ""
+}

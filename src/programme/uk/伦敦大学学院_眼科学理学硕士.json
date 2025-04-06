@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "眼科学理学硕士",
+  "ename": "MSc Ophthalmology",
+  "tags": "社科,医学,大脑科学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有英国医学学位或同等学历（达到2:1学位），或具有适当相关学科（如验光）的科学学位或同等学历（不低于2:1学位）",
+  "objectives": "伦敦大学学院眼科理学硕士项目提供了一个在当代临床和研究重点的背景下深入参与的眼科学研究。该硕士项目目的是在这个快速发展的领域提供一个全面的基础原则，方法和方法，告知在特定的临床亚专业当前的实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "眼科学概论 (Introduction to ophthalmology)\n附件和眼窝疾病 (Adnexal and orbital disease)\n角膜、白内障、外部疾病和屈光手术 (Cornea, cataract, external diseases and refractive surgery)\n青光眼 (Glaucoma)\n神经眼科、斜视及儿科眼科 (Neuro-ophthalmology, strabismus and paediatric ophthalmology)\n医学视网膜，玻璃体视网膜，系统性疾病，葡萄膜炎和眼部肿瘤 (Medical retina, vitreoretinal, systemic diseases, uveitis and ocular oncology)\n眼科学论文 (Ophthalmology Dissertation)",
+  "success_cases": ""
+}

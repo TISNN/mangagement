@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "生物化学理学硕士",
+  "ename": "MSc Biochemistry",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 43300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要生物化学、生物科学（包含一些相关化学成分）或化学（包含一些相关生物学成分）背景",
+  "objectives": "生物化学是生命科学领域内诸多学科的基础，影响着现代医学研究走向，且在制药、营养学、法医学、生物工程、农业和环境工业等实务中也发挥着举足轻重的作用。爱丁堡大学生物化学理学硕士项目主要研究分子和细胞层面的生物系统，旨在培养专业能力突出的生物化学家，从而能胜任生命科学实务工作，或继续攻读博士学位从事学术研究。\n爱丁堡大学生物化学理学硕士项目教授学生将化学和物理原理应用到复杂生物系统内的生物分子中，从而提升学生对生物组织运转过程中的分子基础的理解。在教学方法上，学校采用课程、实践技能训练和实验室研究相结合的方式，帮助学生全面探索生物分子（包括小分子、大分子和复合物）的结构、相互作用和代谢途径。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物化学实践技能 A & B (Practical Skills in Biochemistry A & B)\n生物化学 A & B (Biochemistry A & B)\n项目研究建议书（生物化学） (Research Project Proposal (Biochemistry))\n生物物理化学（生物化学理学硕士课程） (Biophysical Chemistry for MSc Biochemistry)\n生物大分子 (Biomacromolecules Level 11)\n分子建模与数据库挖掘 (Molecular Modelling and Database Mining)\n结构生物学的制备方法 (Preparative Methods for Structural Biology)\n应用数学（给药途径和转化生物学理学硕士课程） (Applicable Mathematics for MSc Drug Discovery and Translational Biology)\n定量药物结合 (Quantitating drug binding)\n生物细胞的信息处理 (Information Processing in Biological Cells)\n生物技术产业的经济学与创新 (Economics and Innovation in the Biotechnology Industry)\n合成生物学工具 (Tools for Synthetic Biology)\n合成生物学起源 (The Origins of Synthetic Biology)",
+  "success_cases": ""
+}

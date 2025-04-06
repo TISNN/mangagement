@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "网络安全理学硕士",
+  "ename": "MSc Cyber Security",
+  "tags": "工科,计算机,计算机与信息科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 26100英镑/年",
+  "requirements": "具有二等（2:2）荣誉学位或同等学历，需要计算机科学或相关学科背景，需要具备丰富的编程经验。如果申请者来自密切相关的学科，将需要具备以下领域经验：计算机网络（熟悉IP/TCP/UDP/HTTPS/Wi-Fi/Ethernet/Bluetooth）、数学（例如集合论、图表等）",
+  "objectives": "思克莱德大学的网络安全理学硕士的特别之处在于其对网络安全领域覆盖的深度和广度。\n仅从技术或社会学角度无法真正理解网络安全问题。网络安全专家应该转变攻击者和防御者之间的观点，识别人为因素、经济动机，并在监管限制范围内运作。\n该课程将培养新的网络安全领导者，他们能够制定自己的抽象概念，使他们能够从概念上管理日益复杂的参与者可能试图利用的无限范围的攻击向量。\n从第一天开始，学生将与威胁建模和安全编程、以人为中心的安全和网络安全方面的世界领先专家深入平行的轨道。这让学生和讲师一起深入探讨专业主题。与此同时，学生将反思更大的前景，认识到所获得的每项技能只是面对减轻网络攻击现实所需的一个视角。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "信息安全基础知识 (Information Security Fundamentals)\n先进的以人为本的安全 (Advanced Human Centred Security)\n安全协议和威胁模型 (Security Protocols and Threat Models)\n信息社会的法律、道德和专业问题 (Legal, Ethical and Professional Issues for the Information Society)\n漏洞评估和安全测试 (Vulnerability Assessment & Security Testing)\n高级安全设计 (Advanced Security-by-Design)\n网络安全研究主题 (Research Topics in Cyber Security)\n研究方法 (Research Methods)\n个人项目 (Individual Project)",
+  "success_cases": ""
+}

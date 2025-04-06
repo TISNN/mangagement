@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "矿物加工理学硕士",
+  "ename": "MSc Minerals Processing",
+  "tags": "工科,化工,工程、数学与物理科学学院",
+  "introduction": "专业方向: 化工\n入学时间: 9月\n项目时长: 1年\n项目学费: 28600英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要科学、地球或环境科学、工程或数学背景",
+  "objectives": "世界对矿物加工工程的需求不断增长，为了使人类获得对社会进步至关重要的矿物质而同时不对环境造成破坏，我们必须以负责任的方式管理矿物开发和生产。这些高价值的矿物质将被用于科技创新和产品开发。作为生产材料的“供应商”，矿物加工工程师在社会进步中发挥着至关重要的作用。埃克塞特大学矿物加工理学硕士项目就旨在培养此领域的专业人才，从而推动行业的发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "粉碎、浮选和物理分离 (Comminution、flotation and physical separation)\n萃取冶金 (Extractive metallurgy )\n经济、能源和环境 (Economics、energy and the environment)\n项目管理 (Project Management\t)\n抽样理论和数据分析 (Sampling theory and data analysis)\n工艺矿物学和几何冶金 (Process mineralogy and geometallurgy)\n流程建模、设计和优化 (Process modelling、design and optimisation)\n物料运输、脱水和废物管理 (Material handling、dewatering and waste management)\n项目与论文 (Project and Dissertation\t)",
+  "success_cases": ""
+}

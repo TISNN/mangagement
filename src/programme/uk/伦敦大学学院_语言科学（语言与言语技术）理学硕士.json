@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "语言科学（语言与言语技术）理学硕士",
+  "ename": "MSc Language Sciences (Technology of Language and Speech)",
+  "tags": "社科,语言,大脑科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "通常具有英国大学颁发的2:1学士学位或同等学历，需要语言科学相关领域背景，如语言学、言语科学、英语语言、心理学、认知科学或相关学科",
+  "objectives": "伦敦大学学院语言科学理学硕士项目提供了在语言科学的一个或多个领域进行深入研究的机会。它是一个伞式学位，有四个独立的专业路线。每条路线都遵循一个共同的结构，使学生能够根据自己的兴趣调整学位。\n所有学生都学习一组核心模块，形成学习和开展语言科学不同领域研究的基础。然后，您将通过选择专业模块来根据自己的兴趣定制学位，以发展和建立您现有的研究兴趣，使您能够充分利用心理学和语言科学系在语言科学方面的广泛专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "大脑简介和大脑成像 (Introduction to the Brain and Imaging the Brain)\n研究方法：原理、技巧和应用 (Research Methods: Principles, Skills and Applications)\n基础统计：统计和因果推理 (Fundamental Statistics: Statistical and Causal Reasoning)\n语言科学论文/项目 (Dissertation/Project in Language Science)\n实践研究 (Research in Practice)\n语音和语言处理深度学习简介 (Introduction to deep learning for speech and language processing)\nR 语言编程：语音数据处理应用 (Programming in R: Applications for Speech Data Processing)\n语音理论 (Phonetic Theory)\n语音学原理 (Principles of Phonetic Science)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "第四纪科学理学硕士",
+  "ename": "MSc Quaternary Science",
+  "tags": "工科,地球科学,地理学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 21700英镑/年",
+  "requirements": "需要具有相关学科背景（如考古，植物学，生态学，环境科学，环境研究，地理和地质学）",
+  "objectives": "伦敦大学皇家霍洛威学院第四纪科学理学硕士项目将为学生提供全面的研究生训练，了解影响环境变化的时间相关过程，理解和应对当前最深刻的问题。学生将深入理解第四纪科学中的关键问题，包括高分辨率古环境记录、高精度年代测定和多指标环境变化调查。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "第四纪沉积与地层学 (Quaternary Sedimentology and Stratigraphy)\n第四纪古气候学 (Quaternary Palaeoclimatology)\n古生态学，计时与量化 (Palaeoecology, Dating & Quantification)\n第四纪研究技术 (Techniques of Quaternary Research)\n口头表达 (Oral Presentation)\n实地培训计划（苏格兰） (Field Training Programme (Scotland))\n论文 (Dissertation)\n第四纪孢粉学 (Quaternary Palynology)\n第四鞘翅目 (Quaternary Coleoptera)\n第四纪沉积物的微观形态 (Micromorphology of Quaternary Sediments)\n发光计时的理论与应用 (Theory and Applications of Luminescence Dating)\n第四纪微化石 (Quaternary Microfossils)\n第四纪哺乳动物 (Quaternary Mammals)\n晚第四纪古水文学 (Late Quaternary Palaeohydrology)\n尺虫与环境变化 (Chironomids and Environmental Change)\n气候系统中的冰川 (Glaciers in the Climate System)\n第四纪年代学 (Quaternary Tephrochronology)\n古火 (Paleofires)",
+  "success_cases": ""
+}

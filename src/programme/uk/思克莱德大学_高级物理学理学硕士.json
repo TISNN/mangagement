@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "高级物理学理学硕士",
+  "ename": "MSc Advanced Physics",
+  "tags": "理科,物理,物理学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 26100英镑/年",
+  "requirements": "具有二等荣誉学位或同等学历，要求物理（数学与物理、理论物理、天体物理、工程物理等）或相关学科背景。来自工程学科的申请人需要对量子力学和电磁学等基础物理课程有足够的了解，或者需要证明他们可以获得必要的背景知识",
+  "objectives": "思克莱德大学高级物理学理学硕士项目在英国物理研究中排名第一，专注于理论物理、量子信息、等离子体物理和固态物理等主题，包含四个部门——纳米科学、光学、等离子体和光子学研究所。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究技能 (Research Skills)\n项目训练 (Project Training)\n项目 (Project)\n纳米科学简介 (Introductory Nanoscience)\n高级纳米科学1：成像和显微学 (Advanced Nanoscience 1: Imaging & Microscopy)\n高级纳米科学2：固态纳米科学 (Advanced Nanoscience 2: Solid State Nanoscience)\n光子学：激光与非线性光学 (Topics in Photonics: Laser & Nonlinear Optics)\n光学设计 (Optical Design)\n量子实验与原子光学 (Experimental Quantum & Atom Optics)\n高级光子物理：超快物理和等离子体 (Advanced Topics in Photonics: Ultrafast Physics & Plasmas)\n精密加工技术的原理与实践 (Device Microfabrication-Principle & Practice)\n光子材料和设备（固态物理主题） (Photonics Materials & Devices (topics in solid state physics))\n高级光电设备 (Advanced Photonics Devices)\n理论量子信息 (Theoretical Quantum Information)\n量子光学、非线性和开放量子系统 (Quantum Optics、Nonlinearity & Open Quantum Systems)",
+  "success_cases": ""
+}

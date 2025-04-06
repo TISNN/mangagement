@@ -1,0 +1,12 @@
+{
+  "school_name": "斯蒂文斯理工学院",
+  "major_name": "网络安全",
+  "ename": "MS in Cybersecurity",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季/春季/夏季\n项目时长: 30学分\n项目学费: 43,528美元/年\n就业比例: 100%\n平均起薪: 126,000美元",
+  "requirements": "本科为相关专业背景，GPA达到3.0以上",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

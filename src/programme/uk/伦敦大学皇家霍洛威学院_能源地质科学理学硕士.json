@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "能源地质科学理学硕士",
+  "ename": "MSc Energy Geosciences",
+  "tags": "工科,地球科学,地球科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 23900英镑/年",
+  "requirements": "需要具有地质学或地球物理学学科背景",
+  "objectives": "伦敦大学皇家霍洛威学院能源地质科学理学硕士项目自1985年开始运行，并已成为世界上公认的主要能源行业培训中心之一，为学生提供了在碳氢化合物、可再生能源行业、低碳能源行业的职业生涯培训。项目与国际能源行业紧密联系，学生可以获取最新的发展动向。课程灵活，学生可以从一系列的课程模块中进行选择，以培养在石油地球科学或可再生地质资源方面的学习喜好，就业前景广阔。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地球物理分析 (Geophysical Analysis)\n结构性分析 (Structural Analysis)\n沉积学 (Sedimentology)\n储层地质 (Reservoir Geosciences)\n独立项目 (Independent Project)\n构造与岩石圈动力学 (Tectonics and Lithosphere Dynamics)\n石油系统 (Petroleum Systems)\n二氧化碳收集与封存和地下能量储存 (CCS and subsurface energy storage)\n地热能与岩石流动 (Geothermal Energy and Flow Through Rocks)",
+  "success_cases": ""
+}

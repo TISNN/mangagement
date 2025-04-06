@@ -1,0 +1,12 @@
+{
+  "school_name": "纽约大学",
+  "major_name": "金融工程硕士",
+  "ename": "MS in Financial Engineering",
+  "tags": "商科,金工金数",
+  "introduction": "专业方向: 金工金数\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1.5年\n项目学费: 70000美元\n项目规模: 100人\n平均G: 169\n就业比例: 86%\n平均起薪: 95287美元",
+  "requirements": "线性代数概率论多元微积分（高级）应用统计计算机编程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

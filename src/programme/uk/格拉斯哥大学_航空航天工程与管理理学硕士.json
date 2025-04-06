@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "航空航天工程与管理理学硕士",
+  "ename": "MSc Aerospace Engineering & Management",
+  "tags": "工科,航空工程,工程学院",
+  "introduction": "专业方向: 航空工程\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要任意工程学科背景或物理科学/数学学位背景，并且动力学与工程数学、材料科学、数学、热力学、控制和空气动力学等课程的平均成绩为2:1\n学校可能会考虑具有high 2:2学位但核心课程成绩达到2:1的申请者",
+  "objectives": "格拉斯哥大学航空航天工程与管理理学硕士项目在引入当代商务管理议题的同时，将使学生深入了解航空航天工程行业中的所选领域。该课程为有工程背景，但管理经验很少，并且希望扩大管理知识，同时进一步提高航空航天工程知识的学生设计。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人力资源管理当代议题 (Contemporary issues in human resource management)\n创意和创新管理 (Managing creativity and innovation)\n创新变革管理 (Managing innovative change)\n营销管理 (Marketing management)\n运营管理 (Operations management)\n项目管理 (Project management)\n高级空气动力学 (Advanced aerodynamics )\n航空航天推进系统 (Aerospace propulsion )\n自主车辆导航系统 (Autonomous vehicle guidance systems )\n故障检测、隔离和恢复 (Fault detection, isolation and recovery)\n雷达和光电系统 (Radar and electro-optic systems )",
+  "success_cases": ""
+}

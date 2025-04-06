@@ -1,0 +1,12 @@
+{
+  "school_name": "香港岭南大学",
+  "major_name": "人工智能与未来文学硕士",
+  "ename": "MA Artificial Intelligence and the Future",
+  "tags": "工科,计算机,研究生院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 170000港币/年",
+  "requirements": "- 持有学校认可的高等教育机构颁发的相关学士学位；或\n- 已获得同等学历；或\n- 能够提供令人满意的学术和专业成就证明。",
+  "objectives": "香港岭南大学人工智能与未来文学硕士项目将为学生提供许多所需的技能和见解，以帮助塑造一个负责任的、以人为本的、人工智能增强的未来。与传统的以 IT 和工程为中心的项目不同，香港岭南大学人工智能与未来文学硕士项目为这一新兴领域提供了独特、全面的方法。该项目提供的广泛的跨学科基础确保了它适合从应届毕业生到有成就的专业人士的每个人。学生不需要特定的人工智能背景，也不需要技术背景或强大的数学技能，但将接受分析工具应用的培训，这将使他们能够清晰、批判性地思考人工智能系统。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能的当代问题 (Contemporary Issues in AI)\n自动推理简介 (Introduction to Automated Reasoning)\n人工智能伦理 (Ethics of AI)\n思维与机器 (Minds & Machines)\n可计算性和逻辑 (Computability and Logic)\n人工智能与风险 (AI and Risk)\n科幻、人工智能和现实 (Sci-fi, AI, and Reality)\n人工智能的政策、业务和监管问题 (Policy, Business, and Regulatory Issues in AI)\n人工智能在科学和医学中的应用 (Applications of AI in Science and Medicine)\n预测人工智能未来 (Anticipating AI Futures)\n顶点项目 (Capstone Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "机械电子学理学硕士",
+  "ename": "MSc Mechatronics",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要任意工程学科背景或物理科学/数学学位背景，核心课程工程数学和/或数学与程序设计，平均成绩为2:1\n学校可能会考虑具有2:2学位但核心课程成绩达到2:1的申请者",
+  "objectives": "格拉斯哥大学机械电子学硕士项目是机械、电气、电子和控制工程的融合。现代工业在全球市场上的成功取决于其将这些主题整合到制造过程和创新产品和系统中的能力。格拉斯哥大学的电子与电气工程专业在英国排名第五，在苏格兰排名第一，格拉斯哥大学的机械工程在英国排名第九。学生将学习如何使用特定的软件工具来支持机电系统综合和分析活动，并专业地计划、报告和展示多学科项目活动的结果。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字信号处理 (Digital signal processing)\n综合系统设计项目 (Integrated systems design project )\n先进制造技术 (Advanced manufacture)\n高级热工学 (Advanced thermal engineering )\n自主车辆导航系统 (Autonomous vehicle guidance systems )\n控制 (Control )\n故障检测、隔离和恢复 (Fault detection, isolation and recovery)\n激光 (Lasers)\n电力电子和驱动器 (Power electronics and drives )\n实时嵌入式编程 (Real time embedded programming)\n机器人学 (Robotics )",
+  "success_cases": ""
+}

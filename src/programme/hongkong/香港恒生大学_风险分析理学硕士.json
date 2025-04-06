@@ -1,0 +1,12 @@
+{
+  "school_name": "香港恒生大学",
+  "major_name": "风险分析理学硕士",
+  "ename": "MSc Risk Analytics",
+  "tags": "商科,金工金数,决策科学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 172800港币/年",
+  "requirements": "具备获认可大学的理学、技术、工程、数学、金融、经济或相关专业的本科学位",
+  "objectives": "当今世界瞬息万变，风险比以往任何时候都更加常见。因此，培养分析风险的合适思维并由此将潜在损失控制在可承受的范围便显得尤为重要。香港恒生大学风险分析理学硕士课程的设计初衷正是为了培养具有相关技能的人才。课程旨在教授数据分析及风险管理领域的进阶知识，锻炼学生使用合适的数据分析工具，处理现实情境中复杂的风险相关问题的能力，为金融和公共服务界的众多领域培养具有竞争力和职业道德的专业人士。\n香港恒生大学风险分析理学硕士课程的目标是使学生具备前瞻性的风险管理知识及数据分析技能，以在金融和公共机构作出适当的决策，提升学生在金融服务行业中数据分析及风险管理领域所需的分析和沟通技能，增强学生对数据分析及风险管理领域中道德议题的认识及理解，培养学生以批判性思维去评估问题，并从定量及定性分析中作出明智的判断。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "风险管理的定量方法 (Quantitative Methods in Risk Management)\n风险分析与管理 (Risk Analytics and Management)\n统计编程 (Statistical Programming)\n数据分析 (Data Analytics)\n风险管理的机器学习 (Machine Learning for Risk Management)\n信用风险管理 (Credit Risk Management)\n金融时间序列分析 (Analysis of Financial Time Series)\n风险管理模拟 (Simulation for Risk Management)\n进阶数据分析 (Advanced Data Analytics)\n营运风险管理 (Operational Risk Management)\n风险分析专题 (Selected Topics in Risk Analytics)",
+  "success_cases": ""
+}

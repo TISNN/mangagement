@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "统计学硕士",
+  "ename": "Master of Statistics",
+  "tags": "理科,数学,计算与数据科学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 228000港币/年",
+  "requirements": "具有学士学位或同等学历，具备矩阵和微积分、统计学入门和线性建模知识",
+  "objectives": "香港大学统计学硕士学位课程旨在为学生提供统计学原理与实践方面严格的专业训练，重点强调统计学实践应用。通过计算机辅助和实际动手取得经验，学生将能够在统计学领域继续深造；或在从事研究、咨询工作和行政工作时做到游刃有余。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计推断 (Statistical inference)\n统计学研究方法 (Research methods in statistics)\n高级统计建模  (Advanced statistical modelling)\n财务应用随机分析 (Stochastic calculus with financial applications)\n金融数据分析 (Financial data analysis)\n高级定量风险管理和融资 (Advanced quantitative risk management and finance)\n时间序列预测 (Time series forecasting)\n经济金融统计法 (Statistical methods in economics and finance)\n风险管理与巴塞尔协定 (Risk management and Basel accords)\n精算统计 (Actuarial statistics)\n数据挖掘技术 ( Data mining techniques)\n大数据分析 (Big data analytics)\n定量策略与算法交易 ( Quantitative strategies and algorithmic trading)",
+  "success_cases": ""
+}

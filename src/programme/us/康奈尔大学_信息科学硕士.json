@@ -1,0 +1,12 @@
+{
+  "school_name": "康奈尔大学",
+  "major_name": "信息科学硕士",
+  "ename": "Master of Professional Studies (MPS) in Information Science",
+  "tags": "商科,信息系统",
+  "introduction": "专业方向: 信息系统\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 1年\n项目学费: 58586美元/年\n项目规模: 60人\n就业比例: 85%\n平均起薪: 126000美元",
+  "requirements": "熟练掌握高级编程语言和对网络技术的理解,良好的分析能力,数学基础,包括微积分,概率,统计学和线性代数。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

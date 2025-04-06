@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学金史密斯学院",
+  "major_name": "心理学理学硕士（可跨申）",
+  "ename": "MSc Psychology (Conversion)",
+  "tags": "社科,心理学,心理学系",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 19200英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业，适合那些对转行进入心理学领域感兴趣的人，或曾经学习过心理学（但不满足GBC资格BPS认证）的人",
+  "objectives": "伦敦大学金史密斯学院心理学（转换）理学硕士课程涵盖了心理学的所有核心领域，即认知心理学、生物心理学、个体差异与人格、社会心理学和发展心理学，以及研究方法的全面培训。学生还将选择至少一门选修模块，主题包括神经心理学、魔法与心灵、心理学与法律、社会问题的社会心理学、成瘾行为和精神病理学等。学习伦敦大学金史密斯学院心理学（转换）理学硕士课程，学生将能够与该领域的专家学者一起工作。学生将有机会参与到心理学系的世界级研究中，特别是在学生的硕士研究论文中。教职员工有时会管理他们自己的研究实验室，这可能会让学生有机会在接受正规教育的同时，发展对更广泛的心理问题的理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "认知心理学； (Cognitive Psychology)\n社会心理学； (Social Psychology)\n发展心理学； (Developmental Psychology)\n人格与个体差异； (Personality and Individual Differences)\n生物心理学； (Biological Psychology)\n研究方法与统计学； (Research Methods and Statistics)\n硕士论文； (Dissertation)",
+  "success_cases": ""
+}

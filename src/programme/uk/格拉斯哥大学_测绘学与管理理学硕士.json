@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "测绘学与管理理学硕士",
+  "ename": "MSc Geomatics & Management",
+  "tags": "工科,地球科学,地理和地球科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31800英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要测绘学相关专业背景，如大地测量工程/科学，地理工程（主要是西班牙/南美)、地理信息系统/科学、地理空间科学/工程、土地测量、土地与地籍测量、测绘科学、测绘科学、测量科学/工程、地形科学/测量学校也可以接受有测量内容的土木工程学位，伴随着2-3年的现场测量经验\n请注意，地质、地理、考古和环境管理学位不适合这个项目",
+  "objectives": "格拉斯哥大学测绘管理理学硕士项目将测绘学与管理相结合，受到行业的高度认可，适合测绘学（测量与绘图）专业的本科生，促进学生在测绘学领域的职业发展，为学生提供担任管理学岗位必需的技能集。本课程是为有地理信息学背景，但缺乏管理经验，并且希望拓宽管理知识，同时加深地理信息知识的学生设计的。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人力资源管理当代议题（工程） (Contemporary issues in human resource management (engineering))\n创造和创新管理（工程） (Managing creativity and innovation (engineering))\n项目管理（工程） (Managing strategic change (engineering))\n战略变革管理（工程） (Marketing management (engineering))\n运营管理（工程） (Operations management (engineering))\n项目管理（工程） (Project management (engineering))\n测绘学研究与专业议题 (Research & professional issues in geomatics)\n全球导航卫星系统与测地学 (Gnss & geodesy)\n应用水道测量 (Applied hydrographic surveying)\n应用土地测量 (Applied land surveying)\n测绘学方向研究 (Directed studies in geomatics)\n工程测量 (Engineering survey)\n全球导航卫星系统与测地学 (Gnss & geodesy)",
+  "success_cases": ""
+}

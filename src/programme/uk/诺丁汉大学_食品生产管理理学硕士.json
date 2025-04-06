@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "食品生产管理理学硕士",
+  "ename": "MSc Food Production Management",
+  "tags": "工科,食品科学,生物科学学院",
+  "introduction": "专业方向: 食品科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 32400英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要自然或应用科学学科或工程学科背景（如化学、农业或食品工程）",
+  "objectives": "诺丁汉大学食品生产管理理学硕士课程是一门令人兴奋和富有挑战性的课程，将食品科学与管理技能相结合。课程为理工科毕业生提供食品生产或食品行业技术管理方面的职业培训。学生将获得与食品加工、质量保证和新产品开发相关的知识，还开发了基本的管理技术，包括供应链规划和质量管理。学生将在我们的食品加工设施中进行实践，该设施拥有广泛的商业规模食品生产和测试设备。有机会与食品行业合作完成您的研究项目。项目可以基于工厂、实验室或文献。一些学生将有机会在行业合作伙伴的设施完成他们的项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究生研究项目 (Postgraduate Research Project)\n食品制造核心技术 (Core Skills and Technologies of Food Manufacture)\n食品制造案例研究 (Food Manufacturing Case Studies )\n食品生产的工厂设计和运营 (Factory Design and Operations for Food Production)\n工业质量管理与技术 (Quality Management and Techniques for Industry)\n供应链管理 (Supply Chain Management)\n食物味道 (Food Flavour)\n全球食品工业 (Global Food Industry)\n管理项目 (Managing Projects)\n管理操作 (Managing Operations)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "机器人与自主系统理学硕士",
+  "ename": "MSc Robotics & Autonomous Systems",
+  "tags": "工科,电气电子,工程与技术学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 21500英镑/年",
+  "requirements": "偏好以下任何领域的工程学士学位毕业生提出申请：机械、机电一体化、电气、电子、控制、制造工程和计算机科学或其他相关学科背景。",
+  "objectives": "阿斯顿大学机器人与自主系统理学硕士项目旨在满足相应工程专业人才的需求，并保持英国在该领域的领先地位。机器人与自主系统作为实现和应用具有认知能力的复杂系统的典型多学科科学技术领域，涉及智能传感器和控制系统、电力电子和电力驱动、车辆自动化和连接、机器人软件、应用工业机器人、自主系统设计、机器学习以及更多。您将利用数学、物理和工程学的主要概念，培养为机器人和自主系统未来挑战提出解决方案的能力。学生将可以使用最先进的实验室设施，例如 Sawyer 和 Universal 机器人、Auto-Pod 自动驾驶汽车、Turtlebot3、DJI 无人机、无人地面车辆和其他设备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "机器人软件 (Robot Software)\n智能传感器和控制系统 (Smart Sensors and Control Systems)\n自治系统设计 (Autonomous System Design)\n应用工业机器人 (Applied Industrial Robotics)\n研究项目 (Research Project)\n机器人与自主系统论文 (Dissertation on Robotics and Autonomous Systems)\n电力电子和电气驱动 (Power Electronics and Electrical Drives)\n车辆自动化和连接 (Vehicle Automation and Connectivity)\n机器学习 (Machine Learning)",
+  "success_cases": ""
+}

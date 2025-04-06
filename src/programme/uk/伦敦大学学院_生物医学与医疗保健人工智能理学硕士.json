@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "生物医学与医疗保健人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence for Biomedicine and Healthcare",
+  "tags": "工科,计算机,工程科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有2:1英国学士学位或同等学历，需要高度定量学科背景，如计算机科学、物理科学、生命科学、数学或工程学，相关工作经验也可能被考虑\n此外，申请者必须熟悉线性代数和微积分等领域的本科数学，申请中应包括证明适当数学技能（至少达到A level数学标准）、分析技能和程序语言编程经验的证据",
+  "objectives": "伦敦大学学院生物医学与医疗保健人工智能理学硕士项目可以使学生了解人工智能 (AI) 如何通过独特的跨学科计划对生物医学和医疗保健产生变革性影响。该理学硕士使学生能够发展复杂的技术技能，并利用它们来制定由 AI 提供支持的前瞻性生物医学和医疗保健解决方案。伦敦大学学院是 AI 突破和医学卓越的国际家园，该项目的毕业生将具备广受欢迎的专业技能，是快速发展的行业的理想选择。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能基础 (Foundations of Artificial Intelligence)\n概率建模 (Probabilistic Modelling)\n深度表征与学习 (Deep Representations and Learning)\n生物医学与医疗保健人工智能理学硕士项目 (MSc Artificial Intelligence for Biomedicine and Healthcare Project)\n应用人工智能 (Applied Artificial Intelligence)\n特定领域应用的人工智能项目准备 (Artificial Intelligence for Domain-Specific Applications Project Preparation)\n用于生物医学和医疗保健的 AI (AI for Biomedicine and Healthcare)\n创业精神：理论与实践 (Entrepreneurship: Theory and Practice)\n情感计算和人机交互 (Affective Computing and Human-Robot Interaction)\n生物信息学 (Bioinformatics)\n信息检索与数据挖掘 (Information Retrieval and Data Mining)\n统计自然语言处理 (Statistical Natural Language Processing)\n生物医学成像的计算模型 (Computational Modelling for Biomedical Imaging)\n机器人视觉与导航 (Robot Vision and Navigation)\n感知和界面 (Perception and Interfaces)\n听觉计算 (Auditory Computing)\n负责、透明和负责任的人工智能 (Accountable, Transparent, and Responsible Artificial Intelligence)",
+  "success_cases": ""
+}

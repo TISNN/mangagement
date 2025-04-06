@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "高级机械工程理学硕士",
+  "ename": "MSc Advanced Mechanical Engineering",
+  "tags": "工科,机械工程,工程与物理科学学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有2:2荣誉学位，需要机械相关学科背景",
+  "objectives": "伯明翰大学高级机械工程理学硕士项目是内容丰富的新兴创新项目，涵盖机械工程产业相关的重要课程，如：生物燃料和燃烧、制造工艺、微机电系统、自动化和机器人，将为学生提供机械工程相关行业广阔领域中的良好就业前景，也为想要进行博士阶段学习的学生奠定基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究与专业技能 (Research & Professional Skills)\n综合设计项目 (Integrated Design Project)\n高级工程 (Advanced Project)\n高级力学 (Advanced Mechanics)\n高级热力系统 (Advanced Thermal Systems)\n机械工程师机器人学 (Robotics for Mechanical Engineers)\n高级车辆工程 (Advanced Vehicle Engineering)\n工业自动化与机器人 (Industrial Automation and Robotics)\n生物医学工程 (Bio-Medical Engineering)\n激光制造 (Laser-based Manufacturing)\n微纳米技术 (Micro and Nano Technologies)\n过程建模 (Process Modelling)\n制造过程研发 (R&D in Manufacturing Processes)\n智能系统 (Intelligent Systems)",
+  "success_cases": ""
+}

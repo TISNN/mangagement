@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "合规与监管法学硕士",
+  "ename": "LLM Compliance and Regulation",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 220200港币/年",
+  "requirements": "(1) 具有法律学士学位或同等学历，至少达到二等荣誉学位；或\n(2) 具有法律以外学科的学士学位且至少达到二等荣誉学位，并具备至少2年相关经验和/或专业资格；或\n(3) 通过英格兰与威尔士普通职业考试或大学普通职业考试，并具有学士学位或同等学历且达到二等荣誉学位",
+  "objectives": "香港大学合规与监管法学硕士学位课程旨在使学生能够接触到法律、监管法规、行业惯例、监管机构的期望以及影响合规任务的其他因素，培养学生对日益复杂的领域的理解和专业知识，并培养学生对影响现在和未来的合规和监管的法律、商业、政策、技术和其他因素的更全面的认识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "合规：法律实践 (Compliance: law in practice)\n合规：管理实践 (Compliance: regulation in practice)\n商业与人权 (Business and human rights)\n香港证券业合规 (Compliance in the Hong Kong securities industry)\n金融法时事话题 (Current issues in financial law)\n中国企业法律和证券管理 (Company law and securities regulation in the People’s Republic of China)\n上市公司合规 (Compliance for listed companies)\n保险法 (Insurance law)\n国际证券法 (International securities law)\n衍生工具：法规 (Derivatives: law and regulation)\n金融纠纷处理：香港和国际层面 (Financial dispute resolution: Hong Kong and international perspectives)\n私人银行业务和财富管理法律法规I  (Law and regulation of private banking and wealth management I)\n证券管理I (Securities regulation I)\n隐私和数据保护 (Privacy and data protection)\n国际金融和OTC衍生文献管理规范 (Regulatory compliance in international finance and OTC derivatives documentation)",
+  "success_cases": ""
+}

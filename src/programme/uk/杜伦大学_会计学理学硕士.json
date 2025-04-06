@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "会计学理学硕士",
+  "ename": "MSc Accounting",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 1年\n项目学费: 35500英镑/年",
+  "requirements": "具有应该一等或2:1荣誉学位或同等学历，不限专业或学科背景，不需要具备先前的会计学习背景，会计本科学生或已经完成专业会计资格的学生可能会发现本课程的一些内容与他们之前的学习内容重叠",
+  "objectives": "杜伦大学会计学理学硕士项目设立于斯托克顿皇后校区，旨在帮助学生具备在日益国际化的求职市场中胜出的竞争力。\n杜伦大学会计学理学硕士项目于2015年开启，隶属于杜伦大学硕士项目。杜伦大学会计学理学硕士项目为期一年，提供全日制硕士课程，帮助学生深度理解会计学理论与实务，培养学生掌握雇主重视的批判性思维技能。杜伦大学会计学理学硕士项目涵盖了会计学领域的重要议题，包括财务报表及其编制和分析、财务报告的实际限制、当代和不断发展的财务和非财务会计和报告实践、决策的管理信息，以及审计的实践和概念。\n杜伦大学会计学理学硕士项目适合那些想要从事会计、金融与商业领域工作的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计学理论 (Accounting Theory)\n审计和保险服务 (Auditing and Assurance Services)\n会计与税收当代议题 (Contemporary Issues in Accounting and Taxation)\n企业管治 (Corporate Governance)\n公司报告 (Corporate Reporting)\n财务规划与管制 (Financial Planning and Control)\n财务报表分析 (Financial Statement Analysis)\n会计研究方法与方法论 (Research Methods & Methodology in Accounting)",
+  "success_cases": ""
+}

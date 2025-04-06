@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "生物技术（医疗保健技术） 理学硕士",
+  "ename": "MSc Biotechnology (Healthcare Technologies)",
+  "tags": "理科,生物,生命科学系",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 33200英镑/年",
+  "requirements": "具有high 2:2荣誉学位或同等学历，拥有任何生物科学、医学或生物医学相关学科背景，如生物科学、医学、兽医学、生物技术、生命科学、药学或药理学，或生物化学工程或技术",
+  "objectives": "巴斯大学生物技术（医疗保健技术） 理学硕士项目将使学生了解如何利用和操纵生物系统的分子和细胞机制来改进诊断工具和药物疗法，以解决现实世界的生物学问题。学生将获得生物技术未来发展所需的技能和专业知识，以及医疗保健生物技术方面的专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分子生物技术的进展 (Advances in Molecular Biotechnology)\n拓宽视野 (Broadening Horizons)\n研究项目 (Research Project)\n组织工程 (Tissue Engineering)\n生物传感器 (Biosensors)\n药物发现技术 (Techniques for Drug Discovery)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "微电子系统（工程）理学硕士（含1年行业实习）",
+  "ename": "MSc(Eng) Microelectronic Systems with a Year in Industry",
+  "tags": "工科,电气电子,电气工程、电子与计算机科学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 2年\n项目学费: 17300英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科背景，如数学、工程或物理科学",
+  "objectives": "利物浦大学微电子系统（工程）理学硕士（含1年行业实习）项目的必修课程涵盖嵌入式计算机系统、数字系统设计、集成电路设计、微处理器系统、研究技巧和工程管理等。两年的利物浦大学微电子系统（工程）理学硕士（含1年行业实习）项目与一年的利微电子系统（工程）理学硕士（含1年行业实习）项目的学生在第二年需要完成工业项目和实习（在英国或其他国家）。实习通常安排在九月至六月，持续大约三十周。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "集成电路——概念和设计 (Integrated Circuits - Concepts and Design)\n数字系统设计 (Digital System Design)\n高级嵌入系统 (Advanced Embedded Systems)\n研究技巧和项目管理 (Research Skills and Project Management)\n软件工程和编程 (Software Engineering and Programming)\n微处理器系统 (Microprocessor Systems)\n实习 (MSc Placement Experience)\n工业项目 (MSc Industrial Project)\n高级系统建模和控制 (Advanced Systems Modelling and Control)\n移动计算 (Mobile Computing)\n图像处理 (Image Processing)\n多核、多处理器编程 (Multi-core and Multi-processor Programming)\n信息论与编码 (Information Theory and Coding)\n网络沟通与安全、 (Commmunications Networks & Security)\n电磁兼容性 (Electromagnetic Compatibility)",
+  "success_cases": ""
+}

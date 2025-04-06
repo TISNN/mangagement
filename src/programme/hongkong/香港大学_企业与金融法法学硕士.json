@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "企业与金融法法学硕士",
+  "ename": "LLM Corporate and Financial Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 242000港币/年",
+  "requirements": "(1) 具有法律学士学位或同等学历，至少达到良好的二等荣誉学位；或\n(2) 具有法律以外学科的学士学位且至少达到良好的二等荣誉学位，并具备至少2年相关经验和/或专业资格；或\n(3) 通过英格兰与威尔士普通职业考试或大学普通职业考试，并具有学士学位或同等学历且达到良好的二等荣誉学位",
+  "objectives": "作为主要的国际贸易与金融中心，香港是进行商业法、企业与金融法前沿领域学习的理想地区。香港大学企业与金融法法学硕士学位课程是专为从事或打算从事商业、企业与金融事务工作的人士而开设，集中探讨企业与金融活动的相关法律问题以及法律法规在金融商贸领域所起作用。通过香港大学企业与金融法法学硕士学位课程的学习，学生将全面牢固地掌握并了解香港、亚洲以及其他主要的国际司法管辖区的企业与金融法。香港是当今世界上主要金融中心之一，其充满活力的经济与世界水平的监管制度为学生们提供了宝贵的学习机会，几乎没有任何一个地区能与香港媲美。香港大学企业与金融法法学硕士学位课程结合了企业与金融法领域的专业知识，将学生置身于复杂的贸易与金融圈中，全面探究该领域的法律和遇到的问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "银行法 (Banking law)\n中华人民共和国公司法与证券监管 (Company law and securities regulation in the People's Republic of China)\n证券监管法（一） (Securities regulation I)\n国际金融法（一） (Law of international finance 1)\n公司治理与股东救济措施 (Corporate governance and shareholder remedies)\n金融市场监管 (Regulation of financial markets)\n中国投资法 (China investment law)\n企业兼并与收购 (Mergers and acquisitions)\n私人银行与财富管理法律法规 (Law and regulation of private banking and wealth management I)\n信用与安全法 (Credit and security law)\n国际证券法 (International securities law)\n国际金融法（二） (Law of international finance 2)\n国际税收与税收筹划 (International tax and tax planning)\n国际商事仲裁 (International commercial arbitration)\n通信法 (Communications law)",
+  "success_cases": ""
+}

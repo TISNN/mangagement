@@ -1,0 +1,12 @@
+{
+  "school_name": "罗格斯大学",
+  "major_name": "电气与计算机工程理学硕士",
+  "ename": "MS in Electrical and Computer Engineering",
+  "tags": "工科,电气电子",
+  "introduction": "专业方向: 电气电子\n项目类别: STEM\n入学时间: 秋季/春季\n项目时长: 30学分\n项目学费: 20,000美元/年",
+  "requirements": "电气或者计算机工程相关学位，其他类似物理、应用数学、计算机科学、工程科学等专业的学生需要有较高的GRE",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

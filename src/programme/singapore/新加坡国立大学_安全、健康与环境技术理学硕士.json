@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "安全、健康与环境技术理学硕士",
+  "ename": "MSc Safety, Health and Environmental Technology",
+  "tags": "工科,环境工程,工程学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 49050新币/年",
+  "requirements": "具有学士学位，需要工程、技术或自然科学背景",
+  "objectives": "为了提高和提升安全、健康和环境管理的知识体系，新加坡国立大学安全、健康与环境技术理学硕士旨在培训和发展未来的健康和环境管理领导者、高级从业者和专业人员。该课程由行业从业人员、专业工程师、专家科学家和监管机构代表授课，为学生提供安全、健康与环境管理的广泛学科知识，并介绍工作场所安全、健康与环境问题的哲学、方法和良好做法。学生还将了解法例遵从性要求的基本原理，并获得管理、咨询和顾问级别的高级知识和技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工业安全基础 (Fundamentals in Industrial Safety)\n环境保护基础 (Fundamentals in Environmental Protection)\n风险分析与安全分析 (Risk Analysis and Safety Analytics)\n化学危险品管理 (Chemical Hazard Management)\n工业安全工程 (Industrial Safety Engineering)\n安全、健康、环境与质量管理体系 (Safety, Health, Environment & Quality Management System)\n安全领导与管理实践 (Safety Leadership and Management Practices)\n独立研究 (Independent Study)\n安全、健康与环境项目 (Safety, Health and Environmental Project)\n防护与防爆安全 (Fire and Explosion Safety)\n研究方法学 (Research Methodology)\n可持续能源与环境 (Sustainable Energy and Environment)\n电气安全 (Electrical Safety)\n可持续发展与环境分析 (Sustainability & Environmental Analysis)\n工业安全、健康与环境实践 (Industrial Safety, Health and Environmental Practices)\n环境保护专题 (Topics in Environmental Protection)\n工业卫生基础 (Fundamentals in Industrial Hygiene)\n工业毒理学 (Industrial Toxicology)\n职业工效学 (Occupational Ergonomics)\n生物安全与生物安全保障 (Biosafety and Biosecurity)\n职业健康 (Occupational Health)\n噪音与其他物理危害 (Noise and Other Physical Hazards)\n辐射安全 (Radiation Safety)\n工业通风 (Industrial Ventilation)\n生物统计学与流行病学 (Biostatistics and Epidemiology)\n化学品危害评价 (Chemical Hazard Evaluation)\n工业卫生专题 (Topics in Industrial Hygiene)\n工艺安全基础 (Fundamentals in Process Safety)\n工艺危害分析 (Process Hazard Analysis)\n量化风险分析 (Quantified Risk Analysis)\n恢复与应急预案 (Resilience and Emergency Planning)\n危机与事件管理 (Crisis and Incident Management)\n过程安全中的人为因素 (Human Factors in Process Safety)\n工艺安全工程 (Process Safety Engineering)\n过程工业的功能安全 (Functional Safety for Process Industries)\n过程安全数字化 (Process Safety Digitalization)\n过程安全专题 (Topics in Process Safety)",
+  "success_cases": ""
+}

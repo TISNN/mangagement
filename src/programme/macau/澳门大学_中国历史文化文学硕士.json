@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "中国历史文化文学硕士",
+  "ename": "MA Chinese History and Culture",
+  "tags": "社科,历史,人文学院",
+  "introduction": "专业方向: 历史\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "持有澳门大学认可的学士学位或同等学历。申请人也可能被要求具备其他知识或专业经验。申请人必须在学士学位学习中达到相当于C级或更高的总成绩\n需要历史、文学、地理、教育、传播学、社会学、中文或其它相关专业的学士学位。中文授课，不强制要求提交语言",
+  "objectives": "本课程旨在服务本澳中小学教师，通过集中授课、课堂互动、创新性报告等，以达到更新其中国历史与文化的知识，提升其析赏、讲解中华文明成就的能力，促使其更好地自学或讲授中国历史文化，从而加强澳门青少年对中华文明的热爱与认同。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "中国历史文化导论 (Introduction of Chinese History and Culture)\n国学经典专题研习 (Seminar on Chinese Classics)\n中国古代思想 (Ancient Chinese Intellectual History)\n传统中国的精神文明与非物质文明 (The Intangible and Spiritual Civilization of Traditional China)\n中国历史上的重大变迁 (The Major Transformations in Chinese History)\n中国文学与文化的现代变迁 (Chinese Literature and Culture in Modern Transition)\n中国历史中的澳门 (Macao in Chinese History)\n教学专题课：中国历史、文化和汉语的教案设计 (Pedagogical Seminar: Curricular Design on Teaching Chinese History , Culture and Language)\n汉语语言文化专题 (Topics in Chinese Language)\n文艺作品中的中国历史 (Chinese History Reflected by Arts and Literature)\n项目报告 (Project Report)",
+  "success_cases": ""
+}

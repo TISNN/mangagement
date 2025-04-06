@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "医学遗传学与多组学理学硕士",
+  "ename": "MSc Genetics and Multiomics in Medicine",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有2:1英国学士学位或同等学历，需要适当学科背景；或具有认可的硕士学位或同等学历，需要适当学科背景。",
+  "objectives": "伦敦大学学院医学遗传学与多组学理学硕士项目旨在为学生提供详细的知识和实用技能，使其能够了解、处理和集成多组学数据，并为学生在医疗保健和/或行业的广泛职业生涯或进一步研究（如博士学位）做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "基因组学技术及应用 (Genomics techniques and applications)\n转录组学技术，生物信息学分析和应用 (Transcriptomics technologies, bioinformatics analysis and applications)\n蛋白质组学技术及其应用 (Proteomics techniques and applications)\n现象组学:研究和临床实践 (Phenomics: research and clinical practice)\n高级计算方法 (Advanced computational methods)\n疾病的遗传学和表观遗传学 (The Genetic and Epigenetics of Disease)\n多组学和道德 (Multiomics and Ethics)\n应用医学中的生物信息学 (Bioinformatics in Applied Medical Sciences)",
+  "success_cases": ""
+}

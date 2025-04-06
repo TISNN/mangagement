@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "环境管理学理学硕士",
+  "ename": "MSc Environmental Management",
+  "tags": "工科,环境工程,理学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 200000港币/年",
+  "requirements": "具有学士学位或同等学历，不限专业背景，具备工作经验者优先考虑（非必需）",
+  "objectives": "香港大学环境管理硕士学位课程开设于1989年9月。课程的总体目标是为了满足香港对环境管理领域更多受过培训的专业人员的需求。香港大学环境管理硕士学位课程旨在为学生提供一个关于环境保护和管理问题的全面视角，并使他们能够有效地参与解决公共和私营部门的此类问题。多学科课程涵盖广泛的学科领域，包括自然科学、工程、社会科学、环境政策和法律。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生态学概论 (Introduction to Ecology)\n环境经济学与环境分析 (Environmental Economics and Analysis)\n可持续性、社会与环境管理 (Sustainability, Society and Environmental Management)\n环境质量管理 (Environmental Quality Management)\n环境管理研究方法与报告写作 (Research Methods and Report Writing in Environmental Management)\n环境政策 (Environmental Policy)\n香港环境法 (Environmental Law in Hong Kong)\n城市规划和环境管理 (Urban Planning and Environmental Management)\n环境影响评估 (Environmental Impact Assessment)\n环境实地观察研究 (Environmental Field Studies)\n密集住宅实地观察研究 (Intensive Residential Field Studies)\n保护生物学与管理 (Conservation Biology and Management)\n地球科学与环境管理 (Earth Science and Environmental Management)\n环境审计与报告 (Environmental Auditing and Reporting)\n环境健康与风险评估 (Environmental Health and Risk Assessment)",
+  "success_cases": ""
+}

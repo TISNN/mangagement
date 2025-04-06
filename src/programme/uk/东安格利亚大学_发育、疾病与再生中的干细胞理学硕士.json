@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "发育、疾病与再生中的干细胞理学硕士",
+  "ename": "MSc Stem Cells in Development, Disease and Regeneration",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26900英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历，需要生命或物理科学专业背景",
+  "objectives": "干细胞是一种强大的研究工具，为模拟疾病和利用组织、器官系统甚至体外身体计划的发展提供了绝佳的机会，干细胞可以来源于健康的或患病的个体，从中可以产生用于疾病建模、药物开发和细胞替代疗法的组织和器官。 东安格利亚大学发育、疾病与再生中的干细胞理学硕士课程为学生提供基础理论的坚实基础，以及动手实践培训，课程涵盖了广泛的主题，将干细胞置于更广泛的生命科学背景下，包括发育、疾病和再生。作为学习的一部分，学生还将获得一套多样化的可转移技能，旨在提高其在行业、政府和非政府组织中的就业能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学与生物信息学 (Data Science and Bioinformatics)\n生物科学中基于问题的学习 (Problem Based Learning in Biosciences)\n研究项目 (Research Project)\n科学中的有效沟通 (Effective Communication in Science)\n研究计划与管理 (Research Planning and Management)\n生物科学前沿 (Frontiers in Biosciences)\n胚胎发育与干细胞生物学 (Embryo Development and Stem Cell Biology)",
+  "success_cases": ""
+}

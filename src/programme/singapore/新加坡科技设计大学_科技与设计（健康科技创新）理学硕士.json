@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡科技设计大学",
+  "major_name": "科技与设计（健康科技创新）理学硕士",
+  "ename": "MSc Technology and Design (HealthTech Innovation)",
+  "tags": "工科,计算机,硕士项目",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 54500新币/年",
+  "requirements": "要求相关学科的学士学位，包括工程或生物医学科学。有兴趣的候选人若拥有非相关专业的本科学位，可能会根据具体情况进行考虑；相关工作经验将被考虑录取",
+  "objectives": "新加坡科技设计大学科技与设计（健康科技创新）理学硕士项目致力于让学生具备跨学科的多样化技能和能力。通过使学生具备利用技术和设计原则的能力，该计划旨在促进医疗保健行业的革命性进步。\n新加坡科技设计大学科技与设计（健康科技创新）理学硕士项目的目标是为学生提供以下所需的知识和工具：了解并应用先进技术来解决复杂的医疗保健挑战；应用设计原则创建以用户为中心且有效的医疗保健技术、产品和/或服务；和了解如何设计和开发解决现实世界医疗保健问题的创新解决方案，为医疗保健关键领域的变革性进步做出贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计创新 (Innovation by Design)\n医疗保健生态系统 (Healthcare Ecosystem)\n生物医学生理学 (Biomedical Physiology)\n设计科学 (Design Science)\n生物医学仪器 (Biomedical Instrumentation)\n医疗保健产品增材制造 (Additive Manufacturing of Healthcare Product)\n医疗保健数据科学 (Data Science for Healthcare)\n医疗保健创新项目 (Healthcare Innovation Project\t)",
+  "success_cases": ""
+}

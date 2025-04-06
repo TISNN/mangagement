@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "科学智能理学硕士",
+  "ename": "MSc AI for Science",
+  "tags": "工科,计算机,理学院",
+  "introduction": "专业方向: 计算机\n入学时间: 8月\n项目时长: 1年\n项目学费: 52320新币/年",
+  "requirements": "具有荣誉学士学位或4年制学士学位\n学校也可能考虑具有其他资格和成就被认为适合学习该课程的申请者\n招生人群：不限专业，有较好数理基础且有志于学习人工智能应用或使用人工智能驱动科学研究的本科毕业生\n需要提交存款证明45,000新币",
+  "objectives": "新加坡国立大学科学智能理学硕士项目旨在为下一代科研人员、应用数学家和工程师提供新兴的人工智能工具和必要的科学知识，帮他们更好地驾驭人工智能和数据，做出进一步的创新和发现，该课程由新国大理学院物理系主办，在全球和区域均具领先学术地位的新国大物理系，在机器学习和人工智能应用基础领域拥有世界一流的专业知识，如人工智能在生物成像、天体物理和凝聚态物理等方向的应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "科学智能应用 (Applications of AI in Science)\n科学探索中的实用机器学习 (Practical Machine Learning for Scientific Discovery)\n深度学习基础 (Foundations of Deep Learning)\n科学智能讲座 (Seminar Course for AI in Science)\n天体物理中的人工智能 (AI In Astrophysics)\n生物成像中的人工智能 (AI In Bio-imaging)\n科学智能特别课题 (Special Topics in AI for Science)\n科研项目中的机器学习 (Machine Learning in a Research Project)\n科学智能业界实践 (Industry Internship for AI in Science)\n数值算法及应用 (Numerical Recipes with Applications)\n量子信息与计算 (Quantum Information and Computation)\n贝叶斯统计与机器学习 (Bayesian Statistics and Machine Learning)\n复杂系统分析与建模 (Complex Systems Analysis and Modelling)\n化学中的人工智能 (AI in Chemistry)\n深度学习与应用 (Deep Learning and Applications)\n用机器学习处理和分析文本 (Text Processing & Interpretation with Machine Learning)\n数据科学中的自然语言处理 (Natural Language Processing for Data Science)\n制药应用中的人工智能 (AI in Pharmaceutical Applications)",
+  "success_cases": ""
+}

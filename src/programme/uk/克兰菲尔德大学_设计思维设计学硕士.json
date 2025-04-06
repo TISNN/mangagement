@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "设计思维设计学硕士",
+  "ename": "MDes Design Thinking",
+  "tags": "工科,其他工科,水资源",
+  "introduction": "专业方向: 其他工科\n入学时间: 10月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "",
+  "objectives": "本课程专为渴望用设计思维来促进职业发展的创意专业人士设计。它旨在培养具有创造性设计能力的工程师、科学家和管理研究生，提供工具和技术来可视化复杂的数据流和战略沟通过程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "消费趋势 (Consumer Trends)\n设计、技术和原型设计 (Design, Technology and Prototyping)\n完整系统设计 (Whole System Design)\n创意企业与创业 (Creative Enterprise and Entrepreneurship)\n项目管理介绍 (Project Management Introduction)\n小组项目 (Group project)\n个人项目 (Individual project)",
+  "success_cases": ""
+}

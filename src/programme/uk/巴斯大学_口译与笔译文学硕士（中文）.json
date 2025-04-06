@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "口译与笔译文学硕士（中文）",
+  "ename": "MA Interpreting and Translating (Chinese)",
+  "tags": "社科,语言,政治学、语言与国际研究系",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，必须具有中文或英文的母语能力",
+  "objectives": "该课程涵盖公共服务和商业环境下的专业笔译和同声、交替和联络口译。学生可以进入最新的数字口译实验室，参加小型会议，将学生的技能付诸实践，就有争议的话题进行辩论，并担任代表和翻译。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "英汉交替传译 (English to Chinese consecutive interpreting)\n中国英语交替传译 (Chinese to English consecutive interpreting)\n中国英语同声传译 (Chinese to English simultaneous interpreting)\n英汉同声传译 (English to Chinese simultaneous interpreting)\n中文/英文联络和公共服务口译 (Chinese/English liaison and public service interpreting)\n中国英语翻译 (Chinese to English translation)\n英汉翻译 (English to Chinese translation)\n英汉交替传译 (English to Chinese consecutive interpreting)\n中国英语交替传译 (Chinese to English consecutive interpreting)\n中国英语同声传译 (Chinese to English simultaneous interpreting)\n英汉同声传译 (English to Chinese simultaneous interpreting)\n中文/英文联络和公共服务口译 (Chinese/English liaison and public service interpreting)\n公众演讲 (Public speaking)",
+  "success_cases": ""
+}

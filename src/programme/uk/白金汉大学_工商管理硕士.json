@@ -1,0 +1,12 @@
+{
+  "school_name": "白金汉大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 22144英镑/年",
+  "requirements": "具有good 2:2学位，不限专业背景。在某些情况下如果申请者具备丰富的相关工作经验，这些申请要求可以放宽",
+  "objectives": "白金汉大学工商管理硕士项目利用白金汉大学独特的以学生为中心的教学方法，为学生提供无与伦比的机会与专家教师密切合作，发展大量的专业和一般商业知识。它将帮助您实现更有价值的职业和更有利可图的生活方式。\n在白金汉大学工商管理硕士项目中，学生将：\n培养对组织、组织管理以及组织运营所处不断变化的内部和外部环境的知识和理解。\n建立对业务管理复杂性的知识和理解，以提高组织决策的有效性。\n培养成为能够贡献平衡观点的管理者，其中包括在管理组织的背景下对经济、环境、社会和道德问题的理解。\n培养持久的技能，并认识到这些技能可以通过终身学习来增强和发展。\n培养必要的知识和技能，以在竞争日益激烈的环境中提高您的就业能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "经营策略 (Business Strategy)\n企业可持续发展和领导力 (Corporate Sustainability and Leadership)\n全球化世界中的数字领导力\t (Digital Leadership in a Globalised World)\n用于决策的财务信息 (Financial Information for Decision-making)\n跨文化管理人员 (Managing People Across Cultures)\n工商管理硕士项目 (MBA Project)\n实用研究方法 (Practical Research Methods)\n项目管理 (Project Management)\n战略营销与创新 (Strategic Marketing & Innovation)\n可持续运营和供应链管理 (Sustainable Operations and Supply Chain Management)",
+  "success_cases": ""
+}

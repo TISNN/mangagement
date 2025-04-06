@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "英语学文学硕士",
+  "ename": "MA English",
+  "tags": "社科,语言,社会科学与人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 21750英镑/年",
+  "requirements": "雅思总分6.5（小分一项不低于5.5，其它项不低于6.0）\nPTE总分67（小分一项不低于59，其它项不低于64）\n具有良好的英国荣誉学位（不低于2:2）或阿斯顿大学认可的同等海外学位，需要英语语言、英语文学或相关学科背景\n申请者还必须提供数学证明 - GCSE C/4或以上（或同等水平）",
+  "objectives": "阿斯顿大学英语学文学硕士的核心课程向学生介绍先进的学习和研究技能，这些技能将为学生的学习提供支持。学生将学习关键理论、概念和框架，利用流派研究、语料库语言学、认知文学研究和数字人文等领域的一些最新研究成果，研究各种文本。学生将有能力自信地将自己的阅读和研究应用到非学术和专业环境中，并支持进一步的学术研究。该课程提供了从广泛的选修模块中进行选择的灵活性，使学生能够根据学生的兴趣和未来的职业目标定制您的硕士课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究英语 (Researching English)\n应用英语 (Applying English)\n论文 (Dissertation)\n分析话语 (Analysing Discourse)\n阅读十九世纪：全球化与小说 (Reading the Nineteenth Century: Globalisation and the Novel)\n英语的变化和变化 (Variation and Change in English)\n认知诗学 (Cognitive Poetics)\n教育语言与文学 (Language and Literature in Education)\n阅读当代小说 (Reading Contemporary Fiction)\n阅读与健康 (Reading and Wellbeing)\n语料库语言学 (Corpus Linguistics)",
+  "success_cases": ""
+}

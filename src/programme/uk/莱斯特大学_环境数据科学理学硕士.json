@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "环境数据科学理学硕士",
+  "ename": "MSc Environmental Data Science",
+  "tags": "工科,环境工程,地理、地质与环境学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 23650英镑/年",
+  "requirements": "具有二等荣誉学位或同等学历，不限专业背景，学校鼓励非标准资格的学生申请。学校也将考虑相关工作领域的专业经验，在这种情况下，申请人需要提供完整的细节，以便招生人员对其进行全面评估",
+  "objectives": "无论是在地球科学、生态学、水文学、海洋学、气象学、气候科学还是环境化学领域工作，环境科学家越来越需要强大的数据处理、分析、建模和可视化技能。莱斯特大学环境数据科学理学硕士为学生提供了这些技能，使他们能够更好地理解环境过程，并为社会行动和可持续决策提供信息。环境数据的吸收、使用和商业化创造了对数据科学专业知识的需求，学生将接受广泛的基础数据科学技术培训。这些技能可能会导致职业发展专注于环境数据分析的应用，以及广泛的其他数据科学机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "环境建模概论 (Introduction to Environmental Modelling)\n数据科学实践概述 (Overview of Data Science Practice)\n数据科学统计学 (Statistics for Data Science)\n数据科学基础 (Fundamentals of Data Science )\n环境模拟的应用 (Applications of Environmental Modelling)\n变革研究：应用环境研究的技能与挑战 (Research for Change: Skills and Challenges of Applied Environmental Research)\n学位论文 (Dissertation)\n地理空间数据分析 (Geospatial Data Analytics)\n地理人工智能 (Geographical Artificial Intelligence)\n野外数据采集 (Field Data Capture)\n信息可视化 (Information Visualisation)\n数据科学实践概述 (Overview of Data Science Practice)",
+  "success_cases": ""
+}

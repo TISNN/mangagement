@@ -13,7 +13,9 @@ import {
   Star,
   X,
   Link,
-  Upload
+  Upload,
+  Construction,
+  Sparkles
 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { Training, getTrainings, saveTraining } from '../../services/trainingService';
@@ -44,6 +46,7 @@ const InterviewPage: React.FC = () => {
     type: 'online',
     materials: []
   });
+  const [showDevNotice] = useState(true);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -83,7 +86,7 @@ const InterviewPage: React.FC = () => {
   };
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 relative">
       {/* 顶部标题和搜索栏 */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
@@ -524,6 +527,41 @@ const InterviewPage: React.FC = () => {
                 </button>
               </div>
             </form>
+          </div>
+        </div>
+      )}
+      
+      {/* 开发中提示覆盖层 */}
+      {showDevNotice && (
+        <div className="absolute inset-0 flex items-center justify-center bg-white/90 dark:bg-gray-900/90 z-10 backdrop-blur-sm">
+          <div className="bg-white rounded-2xl p-8 shadow-lg max-w-lg w-full text-center dark:bg-gray-800 border border-gray-100 dark:border-gray-700">
+            <div className="flex justify-center mb-6">
+              <div className="h-20 w-20 bg-blue-50 rounded-full flex items-center justify-center dark:bg-blue-900/20">
+                <Construction className="h-10 w-10 text-blue-600 dark:text-blue-400" />
+              </div>
+            </div>
+            <h2 className="text-2xl font-bold mb-3 dark:text-white">面试培训功能开发中</h2>
+            <p className="text-gray-600 mb-6 dark:text-gray-300">
+              我们正在努力开发面试培训功能，为学生提供高质量的面试辅导和模拟训练。这些功能即将推出，敬请期待！
+            </p>
+            <div className="flex items-center justify-center gap-2 text-blue-600 dark:text-blue-400">
+              <Sparkles className="h-5 w-5" />
+              <span className="font-medium">即将推出</span>
+            </div>
+            <div className="mt-8 grid grid-cols-2 gap-4 text-sm text-gray-500 dark:text-gray-400">
+              <div className="p-4 bg-gray-50 rounded-xl dark:bg-gray-700/30">
+                <p>面试模拟训练</p>
+              </div>
+              <div className="p-4 bg-gray-50 rounded-xl dark:bg-gray-700/30">
+                <p>面试技巧培训</p>
+              </div>
+              <div className="p-4 bg-gray-50 rounded-xl dark:bg-gray-700/30">
+                <p>面试评估反馈</p>
+              </div>
+              <div className="p-4 bg-gray-50 rounded-xl dark:bg-gray-700/30">
+                <p>AI面试助手</p>
+              </div>
+            </div>
           </div>
         </div>
       )}

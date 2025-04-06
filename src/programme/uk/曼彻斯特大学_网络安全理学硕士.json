@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "网络安全理学硕士",
+  "ename": "MSc Cyber Security",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 37500英镑/年",
+  "requirements": "成功的申请者通常具有英国大学一等荣誉学位（均分70%）或同等学历，需要计算机科学学位（包含至少50%的计算机科学内容）\n学校要求所有申请者都具备很强的计算机科学背景，例如扎实的编程和软件开发技能\n申请者如果是在读生，需要提供最后一年学习的所有课程的正式列表",
+  "objectives": "曼彻斯特大学网络安全理学硕士课程的目的是使计算机科学毕业生能够加深他们在一个或多个专业领域的知识。具体而言，该课程旨在：\n1. 使计算机科学毕业生能够加深他们在网络安全方面的知识，以便其能够识别潜在风险，选择和解释适当的对策，并应用有效的技术来建立安全的解决方案\n2. 为学生提供专攻各种网络安全主题的机会，这些主题提供了共同解决不同需求的技能组合\n3. 通过在课程中完成实验室工作，提高学生传达复杂技术成果的能力\n4. 通过个人项目，为学生提供发展、应用和评估高级网络安全技术的机会\n5. 通过为毕业生提供设计、应用、比较和评估高级网络安全技术的能力，满足大学、行业和其他雇主的需求",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士项目 (Masters Project)\n密码学概论 (Introduction to Cryptography)\n网络安全 (Network Security)\n软件验证、安全与计算机科学的形式化方法 (Formal Methods for Software Verification, Security and Computer Science)\n软件安全 (Software Security)\n安全计算机体系结构与系统 (Secure Computer Architecture and Systems)\n人工智能中的安全与隐私  (Security and Privacy in Artificial Intelligence)\n知识表示与推理逻辑 (Logics for Knowledge Representation and Reasoning)\n知识表示与推理高级主题 (Advanced Topics in Knowledge Representation and Reasoning)\n认知机器人与计算机视觉 (Cognitive Robotics and Computer Vision)\n将文本转化为意义 (Transforming Text Into Meaning)\n机器学习主题 (Topics in Machine Learning)\n机器学习高级主题 (Advanced Topics in Machine Learning)\n不确定推理与学习 (Uncertain Reasoning and Learning)\n强化学习 (Reinforcement Learning)\n 实践中的软件工程概念 (Software Engineering Concepts in Practice)\n软件发现与交付 (Software Discovery and Delivery)\n工程交互系统 (Engineering Interactive Systems)\n移动和无处不在的互动 (Mobile and Ubiquitous Interactions)\n数据工程概念 (Data Engineering Concepts)\n 数据工程技术  (Data Engineering Technologies)",
+  "success_cases": ""
+}

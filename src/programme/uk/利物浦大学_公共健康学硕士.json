@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "公共健康学硕士",
+  "ename": "Master of Public Health",
+  "tags": "社科,公共卫生,医学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 26400英镑/年",
+  "requirements": "经批准的大学的医学专业毕业生，具有健康相关学位以及 2:2 或以上的非健康相关学位\n申请者应能够证明具有与公共卫生相关的工作经验（有偿、自愿、实习等）\n没有学位的申请者可能会因拥有大量直接的公共卫生工作经验而获得考虑（由项目主任评估）\n此外，申请人还需要数学和英语方面的 GCSE C/4级，或者GCE O 级通过，或同等资格",
+  "objectives": "利物浦大学公共健康学硕士项目成立于1989年，因跨学科教育和服务于世界卫生组织在全球享有盛誉。利物浦大学公共健康学硕士项目面向从事公共健康，健康服务管理，政策和规划，住房，交通，社区服务，或在政府机构和非政府机构工作的人。许多利物浦大学公共健康学硕士的毕业生成为公共健康领域里的专业人才，例如医护人员，医生，护士，职业理疗师，药剂师，环境健康工作人员等。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "流行病学和公共卫生统计 (Epidemiology and Statistics for Public Health)\n健康和社会 (Health & Society)\n健康改善 (Health Improvement)\n定性研究导论 (An Introduction to Qualitative Research)\n健康不平等 (Health Inequalities: Evidence and Policy)\n健康政策、治理和经济 (Health Policy, Governance and Economics)\n卫生防护 (Health Protection)\n循证公共卫生:理论、方法与实践 (Evidence-based Public Health: Theory, Methods and Practice)",
+  "success_cases": ""
+}

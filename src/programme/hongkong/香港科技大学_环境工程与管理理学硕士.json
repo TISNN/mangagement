@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "环境工程与管理理学硕士",
+  "ename": "MSc Environmental Engineering and Management",
+  "tags": "工科,环境工程,工程学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 186900港币/年",
+  "requirements": "具有学士学位或同等学历并且达到二等荣誉学位，需要土木工程、化学工程、机械工程或相关工程领域背景",
+  "objectives": "香港跟其他人烟稠密的城市一样，有空气及水质恶化和处理固体废物限制增加等环境问题，令环境工程师迎来了很大挑战。\n香港科技大学环境工程学及管理理学硕士课程旨在满足从事环境设施和基建系统设计、运作及管理的执业工程师的需要。课程为那些希望加深环境工程学及管理知识、有志于加强工程实践能力与管理职能的人士所设计。香港科技大学环境工程学及管理理学硕士课程不仅为学生提供高于大学水平的高级的环境工程学及管理课程，还提供其他相关课程的几门选修课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程风险、可靠性与决策 (Engineering Risk, Reliability and Decision)\n环境工程设施的工艺设计 (Process Design of Environmental Engineering Facilities)\n建筑物的能源管理 (Energy Management in Buildings)\n室内空气质量技术和管理 (Indoor Air Quality Technology and Management)\n空气污染气象学 (Air Pollution Meteorology)\n水污染物测试 (Measurement of Air Pollutants)\n水质与评价 (Water Quality and Assessment)\n危险评估与污染土壤之处理 (Risk Assessment and Contaminated Land Cleanup)\n生物污水处理及管理 (Biological Waste Treatment and Management)\n固体废物堆填区工程设计 (Solid Waste Landfill Engineering Design)\n环境工程物理/化学工艺设计与管理 (Design and Management of Physico /Chemical Processes of Environmental Engineering)\n工业废水处理 (Industrial Wastewater Treatment)\n污水处理与利用 (Wastewater Treatment and Reuse)\n生化处理数学模拟 (Modeling of biological Treatment)\n高级物理化学处理工艺 (Advanced Physico-Chemical Treatment Processes)",
+  "success_cases": ""
+}

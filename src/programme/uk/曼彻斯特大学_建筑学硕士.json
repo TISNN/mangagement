@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "建筑学硕士",
+  "ename": "Master of Architecture",
+  "tags": "社科,建筑,环境、教育与发展学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 2年\n项目学费: 31500英镑/年",
+  "requirements": "通常具有建筑学和ARB/RIBA Part 1英国本科荣誉学位或同等学历，至少达到2:1水平\n需要在建筑实践或相关设计领域完成至少6个月的工作\n需要提交1份作品集（不超过35页）",
+  "objectives": "曼彻斯特大学建筑学硕士项目由曼彻斯特大学与曼彻斯特城市大学联合开设，融合了两所大学的学科资源和专业优势，致力于发展学生的理论和设计技能，帮助学生为未来的职业发展做好准备。并且，曼彻斯特大学建筑学硕士项目以学生为中心，重视同伴学习、活动教学以及基于实践的研究，将学生、研究学者与设计专家紧密联系在一起，学生将获得经验性的指导，深入了解行业的真实发展情况。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "专业研究1 (PROFESSIONAL STUDIES 1)\n专业研究2 (PROFESSIONAL STUDIES 2)\n研究1：方法 (RESEARCH 1: METHODS)\n研究2：论文 (RESEARCH 2: DISSERTATION)\n工作室1 (STUDIO 1)\n工作室2 (STUDIO 2)\n工作室3 (STUDIO 3)\n专业研究3 (PROFESSIONAL STUDIES 3)",
+  "success_cases": ""
+}

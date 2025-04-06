@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,管理学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 43500英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，并且具备很强的定量分析能力，并且可能已经学习了一系列学位的课程，包括：管理学、数学、工程学、计算机科学、经济学和心理学\n学校可能会考虑具有英国2:2学位或同等学历但具备相关经验的有力支持的申请者，在特殊情况下学校也会考虑没有高等教育学历但在该领域或相关领域有显著记录的申请者",
+  "objectives": "公司需要能够将数据转化为强大战略资产的人才。这种专业化为释放数据价值所需的关键技能提供了严格、实用的基础，并深入理解公司如何利用数据做出决策和提高业务绩效。伦敦大学学院商业分析理学硕士项目由伦敦大学学院管理学院教授。它将探索数据和分析如何改变关键业务领域（战略、营销、运营）的模块与提供有效利用最新商业分析工具所需的数学和计算技能的模块相结合。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "预测分析 (Predictive Analytics)\n商业战略与分析 (Business Strategy and Analytics)\n商业分析数学基础 (Mathematical Foundations for Business Analytics)\n市场分析 (Marketing Analytics)\n商业分析规划 (Programming for Business Analytics)\n运营分析 (Operations Analytics)\n数据工程 (Data Engineering)\n 数据可视化 (Data Visualisation)\n决策与风险分析 (Decision and Risk Analysis)\n网络分析 (Network Analysis)\n创业企业的战略管理 (Strategic Management of Entrepreneurial Ventures)\n领域专家机器学习 (Machine Learning for Domain Specialists)",
+  "success_cases": ""
+}

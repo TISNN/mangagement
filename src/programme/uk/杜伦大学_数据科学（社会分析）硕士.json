@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "数据科学（社会分析）硕士",
+  "ename": "Master of Data Science (Social Analytics)",
+  "tags": "理科,数据科学,自然科学系",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 34000英镑/年",
+  "requirements": "具有英国一等或2:1荣誉学位或同等学历，需要不包含强大数据科学成分的任何学位背景，包括社会科学、艺术和人文科学、商业和科学，强烈鼓励具有社会与行为科学学位的候选人申请",
+  "objectives": "杜伦大学数据科学（社会分析）硕士与其他数据科学硕士课程有着共同的核心。社会分析将创造出一批新的社会科学家，这些科学家拥有必要的技能，可以应用新的计算方法来为政策提供信息，检查社会现象，并深入了解人与其社会环境之间的互动。它还将使社会科学家能够利用社交媒体和其他新的数据来源进行工作。虽然一般的数据科学技能对社会科学家来说是有用的，但解读社会数据却面临着特殊的挑战。杜伦大学数据科学（社会分析）硕士课程包括有关专业方法的模块，以及了解如何有效使用它们的理论基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机科学导论 (Introduction to Computer Science)\n数据科学统计学导论 (Introduction to Statistics for Data Science)\n数据科学数学导论 (Introduction to Mathematics for Data Science)\n数据科学编程 (Programming for Data Science)\n社会科学:问题、概念、理论和方法 (Social science: Questions, Concepts, Theories, and Methods)\n研究项目 (Research Project)\n计算社会科学 (Computational Social Science)\n机器学习 (Machine Learning)\n多级建模 (Multilevel Modelling)\n战略领导 (Strategic Leadership)\n文本挖掘和语言分析 (Text Mining and Language Analytics)",
+  "success_cases": ""
+}

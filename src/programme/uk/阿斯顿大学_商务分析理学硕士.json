@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "商务分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,阿斯顿商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23500英镑/年",
+  "requirements": "雅思总分6.5（小分一项不低于5.5，其它项不低于6.0）\nPTE总分67（小分一项不低于59，其它项不低于64）\n申请者需要具有良好的英国荣誉学位（不低于2:2）或阿斯顿大学认可的同等海外学位\n申请者还需要本科阶段学习以下定量课程，至少涵盖其中60%：数学，统计学，经济学（微观/宏观），金融学，计算机科学，任何其他定量学科",
+  "objectives": "阿斯顿大学商务分析理学硕士项目旨在促使学生掌握从事商务分析工作所需的技能与专业素养。大数据与商业分析领域的雇主发现越来越难招募到具备合适技能与专业素养的毕业生。尽管社会对这种专业人员的需求日益增长，但当前毕业生所掌握的分析技能与雇主的需求之间仍然存在很大的差距。完成阿斯顿大学商务分析理学硕士项目的学生将掌握专业知识与技能，能够分析大数据，能够提升制定决策的能力，能够促进企业增强竞争优势，从而拓宽就业机会。阿斯顿大学商务分析理学硕士项目将培养学生掌握定量技能，促进学生理解并运用复杂数据和分析工具，从而能够提升竞争优势。阿斯顿大学商务分析理学硕士项目的学生将深化对商业分析、网站分析、数据挖掘、管理咨询的理解，从而能够运用这些知识改进商业中的决策制定流程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "描述性分析 (Descriptive Analytics )\n决策模型 (Decision Models )\n绩效分析 (Performance Analytics )\n有效管理咨询 (Effective Management Consultancy )\n数据挖掘和网站分析 (Data Mining and Web Analytics )\n软件分析 (Software Analytics)\n学术实践中的伦理学 (Ethics in Academic Practice)\n阿斯顿全球优势 (The Aston Global Advantage)\n商业项目或论文 (Business Project or Dissertation )\n商业分析实践 (Business Analytics in Practice )\n决策大数据 (Big Data for Decision Making)\n高级电子表格和数据库 (Advanced Spreadsheets and Databases)\n管理决策模拟 (Simulation for Managerial Decision Making)\n服务创新 (Services Innovation)",
+  "success_cases": ""
+}

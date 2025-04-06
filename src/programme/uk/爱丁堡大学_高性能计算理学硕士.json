@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "高性能计算理学硕士",
+  "ename": "MSc High Performance Computing",
+  "tags": "工科,计算机,信息学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 37300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要相关学科背景，如计算机科学与信息学、物理学、数学、工程学、生物学、化学和地球科学\n申请者必须是一名经验丰富且精通C、C、Python、Fortran或Java中至少一门语言的有能力的程序员，应该熟悉数学概念，如代数、线性代数、概率和统计学\n申请者应该通过成绩单（或提交的代码示例）和申请中“相关知识/培训”字段中的解释内容来证明具备编程能力",
+  "objectives": "高性能计算即使用强大处理器、网络和并行超级计算机，以达到解决计算或数据密集型问题的目的。爱丁堡大学开设了高性能计算理学硕士项目，项目设于英国尖端超级计算中心——爱丁堡并行计算中心，爱丁堡并行计算中心是欧洲高性能计算训练的主要承担基地，享有在高性能计算领域教学和研究的良好声誉。得益于此，爱丁堡大学高性能计算理学硕士项目中的工作人员拥有高性能计算、并行编程技术和数据科学中所有领域的广泛专业技能。 爱丁堡大学高性能计算理学硕士项目专注于尖端高性能系统，并为学生提供接触尖端系统如ARCHER（英国最大最迅速最强大的超级计算机，拥有超过十万个处理器内核）的机会，已成功培养多代并行编程专家。在爱丁堡大学高性能计算理学硕士项目中，学生将了解尖端高性能计算机技术和技能，以充分使用世界上最大的超级计算机和多核处理器。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高性能计算架构 (HPCArchitectures)\n信息传递编程 (Message-Passing Programming)\n编程技巧 (Programming Skills)\n线程编程 (Threaded Programming)\n软件开发 (Software Development)\n项目准备 (Project Preparation)\n高性能计算的数值算法 (Numerical Algorithms for High Performance Computing)\n并行算法的设计与分析 (Design and Analysis of Parallel Algorithms)\n高等并行技术 (Advanced Parallel Techniques )\n高等信息传递编程 (Advanced Message-passing Programming)\n并行设计模式 (Parallel Design Patterns)\n性能编程 (Performance Programming)\n数据管理基础 (Fundamentals of Data Management)\n数据分析与高性能计算 (Data Analytics with High Performance Computing)\n最大限度计算 (Extreme Computing)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "国际经济与商法硕士",
+  "ename": "Master of International Economic and Commercial Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 1/9月\n项目时长: 2年\n项目学费: 120000港币/年",
+  "requirements": "修读法学、管理或相关专业。非法学本科专业学生入学后须补修商法及经济法基础。",
+  "objectives": "旨在使学生系统地掌握国际法基本理论与国际法的发展动向，具备独立研究国际法重要理论问题和分析国际关系重大现实问题的能力，为学生独立从事国际商法方面的实务打下坚实的理论基础.，科目主体框架为：国际公法一般原理、国际私法一般原理、国际经济法一般原理。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际法原理 (PRINCIPLES OF INTERNATIONAL LAW)\n世界贸易组织法 (WTO LAW)\n国际贸易法 (INTERNATIONAL TRADE LAW)\n国际投资法 (INTERNATIONAL INVESTMENT LAW)\n国际知识产权法 (INTERNATIONAL INTELLECTUAL PROPERTY LAW)\n跨域法律问题 (LEGAL PROBLEMS ACROSS DOMAINS)",
+  "success_cases": ""
+}

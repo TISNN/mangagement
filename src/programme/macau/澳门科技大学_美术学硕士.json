@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "美术学硕士",
+  "ename": "Master of Fine Arts",
+  "tags": "社科,艺术,人文艺术学院",
+  "introduction": "专业方向: 艺术\n入学时间: 9月\n项目时长: 2年\n项目学费: 135000港币/年",
+  "requirements": "绘画创作实践与理论方向要求艺术类或相关专业（色盲、色弱者不予接受）；美术史方向要求艺术、人文或相关专业",
+  "objectives": "讲授社会科学量化研究的主要概念与方法（包括实验法、问卷调查法与内容分析法），以及如何设计、执行并完成传播学量化研究项目。同时讲授质化分析的研究设计，以及如何介入社会科学问题，进行较为深入的研究，并培养分析与写作能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "美术学研究方法 (Research Methods in Fine Arts)\n美术史 (History of Fine Arts)\n文化专题 (Special Topics in Culture)\n学术活动 (Academic Activities)\n艺术专题 (Special Topics in Arts)\n艺术史理论专题 (Special Topics in Art History Theory)\n绘画创作实践 (Painting Practice)\n艺术社会实践/实习 (Social Practice in Arts / Internship)\n毕业创作 (Graduation Project)\n论文 (Thesis)",
+  "success_cases": ""
+}

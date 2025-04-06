@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "生物科学与生物医学工程哲学硕士（HKUST(GZ)）",
+  "ename": "MPhil Bioscience and Biomedical Engineering (HKUST(GZ))",
+  "tags": "工科,生物工程,香港科技大学（广州）",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 2年\n项目学费: 150000人民币/年",
+  "requirements": "具有认可机构颁发的学士学位或同等学历",
+  "objectives": "生物科学是一个多样化但经常融合的研究领域，它应用知识开发生物解决方案，以维持、恢复和改善人类、植物和动物的生活质量。生物医学工程是将工程原理和设计概念应用于生物学和医学，用于诊断、监测和治疗中的高级医疗保健。生物科学和生物医学工程是很强的跨学科，涉及物理，化学，生物学，数学，IT和计算机科学。\n生物科学和生物医学工程的研究型硕士（MPhil）课程旨在提供全面的教育以及严格的研究培训，使学生成为多才多艺和知识渊博的专业人士。研究领域包括再生医学与组织工程、分子与细胞生物学、精准医学、植物生物学、中医药、健康老龄化、生物统计学、生物信息学和数据挖掘。\n研究型硕士毕业生应具备良好的生物科学和生物医学技术知识，能够应用工程原理解决医学和生物学问题，并产生新颖的解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据驱动的癌症研究和精准医疗 (Data-driven Cancer Research and Precision Medicine)\n神经科学及相关疾病原理 (Principles of Neuroscience and Related Diseases)\n大脑与行为 (Brain and Behavior)\n光学显微镜和电子成像基础 (Fundamentals of Light Microscopy and Electronic Imaging)\n生物材料、药物递送和组织工程原理 (Principles of Biomaterials, Drug Delivery and Tissue Engineering)\n生物信号处理 (Biosignal Processing)\n生物科学专题 (Special Topics in Bioscience)\n材料科学的机器学习 (Machine Learning for Materials Science)\n材料科学与工程的数学方法 (Mathematical Methods for Materials Science and Engineering)\n分子物理与光电过程 (Molecular Physics and Optoelectronic Processes)\n数据科学中的数据挖掘和知识发现 (Data Mining and Knowledge Discovery in Data Science)\n数据科学中的深度学习 (Deep Learning in Data Science)",
+  "success_cases": ""
+}

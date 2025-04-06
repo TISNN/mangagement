@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "安全与弹性：科学与技术理学硕士",
+  "ename": "MSc Security and Resilience: Science and Technology",
+  "tags": "理科,物理,物理学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 37000英镑/年",
+  "requirements": "具有2:1学位，需要相关工程、数学或物理科学学科背景\n学校也可能考虑已获得社会科学/人文学科学位、能够通过他们的学习或工作经验证明与硕士课程的主题相关以及最好接触过相关技术和/或数学概念的申请者\n学校也可能考虑具有2:2学位并且具备丰富相关专业/行业经验的申请者\n需要申请ATAS证书",
+  "objectives": "安全与弹性：科学与技术理学硕士项目旨在帮助学生通过为STEM毕业生和安全专业人员设计的课程研究全球化世界中对安全和弹性反应的日益增长的需求。技术使用的增长促使人们需要具备弹性——即社会及其组织通过理解风险来适应压力的能力。毕业后学生将具备行业所需技能，在不断增长的安全和弹性部门工作。课程的设计得到了产业界、学术界和政策制定者的大力支持。本课程的独特之处在于涵盖了安全和弹性的科学、技术、人类活动、政策和实施等内容。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "环境安全 (Security in Context)\n行为研究方法 (Behavioural Research Methods)\n行为科学与安全 (Behavioural Science and Security)\n网络威胁：网络解决方案 (Cyber Threats: Cyber Solutions)\n化学、生物、放射、核和爆炸：物理威胁空间 (Chemical, Biological, Radiological, Nuclear and Explosive: the Physical Threat Space)\n传感器：电子和自然 (Sensors: Electronic and Natural)\n基础设施和运输安全 (Infrastructure and Transport Security)\n个人研究项目 (Individual Research Project)\n研究技能培训 (Research Skills Training)\n数学方法 (Mathematical Methods)\n冲击物理导论 (Introduction to Shock Physics)\n冲击物理学 (Shock Physics in Context)",
+  "success_cases": ""
+}

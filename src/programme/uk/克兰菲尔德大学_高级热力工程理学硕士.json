@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "高级热力工程理学硕士",
+  "ename": "MSc Advanced Heat Engineering",
+  "tags": "工科,能源,能源与动力",
+  "introduction": "专业方向: 能源\n入学时间: 10月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "具有数学、物理或工程学科背景",
+  "objectives": "热力和电力行业正在经历根本性的转变，全球企业必须适应日益增长的当前和未来的需求。家用和工业用热占全球温室气体排放量的很大一部分，如何解决这一问题是工程师和社会面临的一大挑战。我们迫切需要高技能和知识渊博的热力工程师将我们的热系统转变为绿色、可持续的基础。克兰菲尔德大学高级热力工程理学硕士项目旨在为学生提供最先进的、具有前瞻性的技术知识和技能，以帮助实现能源效率和减少热源性境污染，课程与行业紧密结合，以现实世界的案例研究和研究项目为核心，将使学生能够成为一名具有环境意识的热工程专业人员，为实现未来更环保的净零排放做出重大贡献，发展成功和有回报的职业生涯。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "热能系统 (Thermal Energy Systems)\n工业过程计算流体动力学 (Computational Fluid Dynamics for Industrial Processes)\n工艺设计与仿真 (Process Design and Simulation)\n工业热操作 (Industrial Thermal Operations)\n应用热能系统 (Applied Thermal Energy Systems)\n高级换热器设计 (Advanced Heat Exchanger Design)\n区域供热网络 (District Heat Networks)\n工程项目管理 (Engineering Project Management)",
+  "success_cases": ""
+}

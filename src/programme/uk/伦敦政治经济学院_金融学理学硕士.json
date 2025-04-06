@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦政治经济学院",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,金融系",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 48500英镑/年",
+  "requirements": "本科学位：\n具有2:1荣誉学位或同等学历，不限专业背景，并且具备良好的定量分析能力，在过去几年中大多数被录取的学生都获得了一等荣誉学位或同等学历\n定量技能：\n课程中使用的数学包含基本的微积分和统计学，因此申请者还需要至少达到A level数学（或同等水平）\nGMAT/GRE：\n所有没有英国本科学位的申请者都需要提交GMAT或GRE（强烈建议GMAT），建议以下申请者提交GMAT：具有英国本科学位的申请者，特别是那些在本科学习中没有表现出量化技能的申请者，或者那些没有获得或预计不会获得一等学位的申请者\n专业经验：\n工作经验（无论是通过实习还是全职工作）不是先决条件；然而，具备一些专业经验的申请者应该在其申请中包括这些，因为这可能会有助于申请",
+  "objectives": "伦敦政治经济学院金融学理学硕士项目是世界领先的金融硕士学位项目之一。该项目招收无工作经验的学生，旨在满足无金融直接相关背景，但想在金融服务行业就业的学生的需求。要求学生具备良好的定量分析能力（必备的数理知识内容包括微积分和统计学）。该项目由一系列专为金融学理学硕士和金融与私募股权理学硕士学生开设的创新与前沿课程构成。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司金融 (Corporate Finance)\n资产市场 (Asset Markets)\n固定收益证券和信贷市场 (Fixed Income Securities and Credit Markets)\n项目组合管理话题 (Topics in Portfolio Management)\n合并、收购和公司重组 (Mergers, Buyouts and Corporate Restructurings)\n金融工程 (Financial Engineering)\n金融市场的风险管理 (Risk Management in Financial Markets)\n企业投资和财务政策 (Corporate Investment and Financial Policy)\n定量安全分析 (Quantitative Security Analysis)\n创业融资 (Entrepreneurial Finance)",
+  "success_cases": ""
+}

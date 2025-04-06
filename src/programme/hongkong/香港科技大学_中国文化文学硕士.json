@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "中国文化文学硕士",
+  "ename": "MA Chinese Culture",
+  "tags": "社科,文化,人文和社会科学学院",
+  "introduction": "专业方向: 文化\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 145000港币/年",
+  "requirements": "具有学士学位或同等学历，具备人文或社会科学背景的申请者优先考虑，需要精通英语和中文",
+  "objectives": "香港科技大学中国文化文学硕士课程从人文学科角度出发，旨在丰富学生关于中国文化的跨学科知识，课程所涉及的学科包括历史学、文学、宗教学、哲学、人类学和语言学，这些学科的学习对于学生掌握中国文化的精髓是大有裨益的。同时，就职于教育行业、政府部门、传媒行业、非营利组织、外交部门，或者其他工作内容与中国文化有联系的人士都可以修读香港科技大学中国文化硕士课程，跨学科多元化的中国文化学习将能大大提升他们的职业竞争力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "中国文化基础 (Fundamentals of Chinese Culture)\n中国文化英语学术写作 (English Academic Writing on Chinese Culture)\n汉语语音史 (Chinese Historical Phonology)\n中国文学史 (Chinese Literary History)\n中国近代史 (Pre-Modern Chinese History)\n中国现代史 (Modern Chinese History)\n中国人类学研究 (Anthropological Studies of China)\n中国哲学基础 (Fundamentals of Chinese Philosophy)",
+  "success_cases": ""
+}

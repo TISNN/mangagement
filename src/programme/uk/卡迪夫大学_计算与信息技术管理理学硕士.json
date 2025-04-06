@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "计算与信息技术管理理学硕士",
+  "ename": "MSc Computing and IT Management",
+  "tags": "工科,计算机,计算机科学与信息学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 31700英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，不限专业\n如果申请者没有学位，学校会考虑专业经验，需要提供其他证据支持",
+  "objectives": "卡迪夫大学计算与信息技术管理理学硕士学位课程为期一年，适合其他学科背景转入计算机专业学习的学生。该课程提供广泛的技术知识和管理信息技术系统所需的良好商业环境，旨在使学生掌握基础信息技术产业的需求（如：规划主要项目或改善商业进程），这些技能对于想在信息技术产业担任管理角色的学生尤其重要。该课程强调计算系统如何支持企业运营以及电子商务的作用。通过学习，学生将掌握编程和数据库管理相关的软件开发和支援技术，详细了解企业运营和信息技术系统间的关系，了解信息技术管理中的挑战和信息技术项目的成功因素，以及理解个人或团队形式的信息技术管理者参与企业变革项目所需的职业技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": " 论文 (Dissertation)\n电子商业和创新 (E-Commerce and Innovation)\n商业和信息技术管理 (Business and IT Management)\n网络应用程式开发 (Web Application Development)\n信息建模和数据库系统 (Information Modelling and Database Systems)",
+  "success_cases": ""
+}

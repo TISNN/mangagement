@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡管理大学",
+  "major_name": "专业会计硕士",
+  "ename": "Master of Professional Accounting",
+  "tags": "商科,会计,会计学院",
+  "introduction": "专业方向: 会计\n入学时间: 8月\n项目时长: 1年\n项目学费: 53410新币/年",
+  "requirements": "- 申请者必须在认可的高等教育机构颁发的本科学位中能够证明良好的先前学术成绩\n- 申请者必须具备足够的数学/微积分背景\n- 申请者可以选择参加SMU入学考试/GMAT（600被视为有竞争力）/GRE（312被视为有竞争力）作为申请该专业的入学考试\n- 有相关工作经验的申请者将具备额外的优势",
+  "objectives": "新加坡管理大学专业会计硕士专业学位项目自2006年成立以来，一直致力于为专业服务和企业会计领域提供新的激动人心的职业机会。该课程获得了澳大利亚公共会计师协会（CPA Australia）、英格兰及威尔士特许会计师协会（Institute of Chartered Accountants in England and Wales）等8个区域和全球会计专业机构的认可，是新加坡最受认可的会计硕士课程。新加坡的会计行业正在经历重大转型，以实现其成为亚太地区领先的全球会计中心的目标。为了实现这一愿景，实施的主要举措之一是创建新的途径，以方便非会计学科的学位持有者进入该行业。新修订的MPA课程为考生提供了强大的商业基础、各种会计职能的技术技能和专业会计服务。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "财务会计  (Financial Accounting)\n经济学和统计学 (Economics & Statistics)\n会计信息系统 (Accounting Information Systems)\n财政学 (Finance)\n企业法律环境 (Legal Environment of Business)\n税务 (Taxation)\n管理会计 (Management Accounting)\n管理与策略 (Management & Strategy)\n企业报表与财务分析 (Corporate Reporting & Financial Analysis)\n企业咨询 (Corporate Advisory)\n高级财务会计 (Advanced Financial Accounting)\n审计与担保 (Audit & Assurance)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "会计硕士",
+  "ename": "MSc Accounting",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 2年\n项目学费: 127500港币/年",
+  "requirements": "修读会计、财务管理或相关专业",
+  "objectives": "1. 在澳门区域提供国际化优质会计教育。该课程专注于学生系统地学习财务会计、审计及税法等相关的会计专业知识，同时注重于学生会计职业道德行为规范的培养（Conduct of Ethics），即强调诚实（Honesty）、廉政(Integrity)的专业质量。在教学过程中，积极鼓励学生创新，从而最终培养满足于港澳、内地及全球需求的职业化高素质的人才；\n2 . 与内地高校开设的类似课程相比，本课程所有科目均采用英文教材，部分科目教学特邀海外知名高校教授，有助于拓宽学生的国际视野；\n3. 与欧美高校开设的类似课程相比，本课程更注重实务操作教学，培养的人才直接贴近企业管理实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "审计学 (Auditing)\n财务报表分析 (Financial Statement Analysis)\n研究方法 (Research Methodology)\n财务会计与报告 (Financial Accounting and Report)\n公司治理 (Corporate Governance)\n管理会计学 (Managerial Accounting)\n高级公司财务 (Advanced Corporate Finance)",
+  "success_cases": ""
+}

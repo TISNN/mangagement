@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "法律博士",
+  "ename": "Juris Doctor",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 2年\n项目学费: 264000港币/年",
+  "requirements": "具有学士学位或同等学历，需要非普通法背景并至少达到二等荣誉学位或同等水平（北美大学CGPA不低于3.3/4.0）\n鼓励提交LSAT、GRE或GMAT（不强制要求）",
+  "objectives": "香港大学法律博士项目是一项为期两年的全日制法律学位课程，为之前没有法律背景的学生提供全面而深入的法律教育。课程的教学重点不在于法律条文的机械性学习，而在于对法规条文基础的批判性鉴定与评价。课程以小班教学为特色，将学生分为大约50-60人一组，按组教学。旨在营造一个融洽的学习环境，促进课堂互动，加深学习体验。\n香港大学法律博士项目将为学生在传统普通法领域打下一个扎实的理论基础，这正是香港法律体系的基石。此外，香港大学法律博士项目将引导学生以全新的思维方式看待法律。跨学科的法律理论探讨课程是香港大学法律博士项目的核心内容。这就要求学生不仅理解法律究竟是什么，还要思考法律应该是怎样。香港大学法律博士项目还为学生提供大量的选修课程，以此帮助学生发掘自身的学术兴趣、培养自己的专长，通过这种探索和专业化训练，学生最终将完成一篇内容详实的毕业论文。在论文中，学生将对法律前沿领域进行探讨与研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "法律体系 (Legal System)\n法律研究与方法 (Legal Research & Methods)\n合同法（一） (Contracts I)\n侵权法（一） (Torts I)\n刑法（一） (Criminal Law I)\n宪法学 (Constitutional Law)\n合同法（二） (Contracts II)\n侵权法（二） (Torts II)\n刑法（二） (Criminal Law II)\n行政法 (Administrative Law)\n土地法（一） (Land Law I)\n法的公正与法律信任（一） (Equity & Trusts I)\n商法 (Commercial Law)\n土地法（二） (Land Law II)\n法的公正与法律信任（二） (Equity & Trusts II)",
+  "success_cases": ""
+}

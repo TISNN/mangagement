@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence",
+  "tags": "工科,计算机,数学与计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 25480英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，并有证据表明理解设计、创造性数字技能或计算和编程技能等学科\n相关公司职位的工作或项目经验也将被考虑",
+  "objectives": "赫瑞-瓦特大学人工智能理学硕士旨在传授开发智能软件应用程序的理解和技能，例如涉及进化计算和学习的应用程序。学生将在专业领域发展技能，并在工业领域有明确的应用，包括数据挖掘、模式识别和机器学习。在某些情况下，理学硕士项目可以与外部工业或学术组织合作进行。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物启发式计算 (Biologically Inspired Computation)\n数据挖掘与机器学习 (Data Mining and Machine Learning)\n研究方法和项目计划 (Research Methods and Project Planning)\n硕士项目与论文 (Masters project and dissertation)\n3D图形和动画 (3D Graphics and Animation)\n高级互动设计 (Advanced Interaction Design)\n高级软件工程 (Advanced Software Engineering)\n人工智能和智能代理 (Artificial Intelligence and Intelligent Agents)\n大数据管理 (Big Data Management)\n电脑游戏编程 (Computer Games Programming)\n会话代理和口语处理 (Conversational Agents and Spoken Language Processing)\n智能机器人 (Intelligent Robotics)\n软件工程基础 (Software Engineering Foundations)",
+  "success_cases": ""
+}

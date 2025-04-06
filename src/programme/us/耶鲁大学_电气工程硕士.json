@@ -1,0 +1,12 @@
+{
+  "school_name": "耶鲁大学",
+  "major_name": "电气工程硕士",
+  "ename": "MS in Electrical Engineering",
+  "tags": "工科,电气电子",
+  "introduction": "专业方向: 电气电子\n项目类别: STEM\n入学时间: 秋季\n项目时长: 两年\n项目学费: 46,900美元/年",
+  "requirements": "拥有任何工程领域或相关领域（物理、化学、计算机科学、数学和材料科学）理学学士 (B.S.) 学位或同等学历。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

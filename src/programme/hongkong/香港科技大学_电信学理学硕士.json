@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "电信学理学硕士",
+  "ename": "MSc Telecommunications",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 208000港币/年",
+  "requirements": "具有学士学位或同等学历，需要电子工程、工程学、物理科学或相关领域背景",
+  "objectives": "香港科技大学电信学硕士课程是为拥有科学或工程学士学位并有兴趣获得深入的电信知识的人设计的。该课程旨在使学生掌握基于无线系统、光网络、宽带多媒体通信和融合协议等最新课题的深入和最新的技术知识。\n成功完成香港科技大学电信学硕士课程后，毕业生将能够分析和评估电信问题，结合理论原则和实际实施来解决电信问题，通过写作和与其他专业人员的讨论在其研究领域进行交流，以及解释科学文献和当代的电信创新。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "IP网络 (IP Networks)\n数字通信 (Digital Communications)\n无线通信网络 (Wireless Communication Networks)\n电信网络概论 (Introduction to Telecommunication Networks)\n无线通信系统 (Wireless Communication Systems)\n多媒体信号处理 (Multimedia Signal Processing)\n6G移动边缘计算与边缘人工智能 (Mobile Edge Computing and Edge AI for 6G)\n电信与6G中的新兴技术 (Emerging Technologies in Telecommunications and 6G)\n电信与网络融合主题 (Topics in Telecommunications and Network Convergence)\n特殊专题 (Special Topics)\n硕士项目 (MSc Project)",
+  "success_cases": ""
+}

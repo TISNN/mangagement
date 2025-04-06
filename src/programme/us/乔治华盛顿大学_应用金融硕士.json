@@ -1,0 +1,12 @@
+{
+  "school_name": "乔治华盛顿大学",
+  "major_name": "应用金融硕士",
+  "ename": "MS in Applied Finance",
+  "tags": "商科,金融",
+  "introduction": "专业方向: 金融\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 1年\n项目学费: 1,885美元/学分",
+  "requirements": "高等数学（6学分;微积分必须3学分）\n微观经济学 （3学分）\n宏观经济学 （3学分）\n财务会计 （3学分）\n管理金融 （3学分）\n统计学 （3学分）",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

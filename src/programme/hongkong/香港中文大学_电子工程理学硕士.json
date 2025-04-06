@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "电子工程理学硕士",
+  "ename": "MSc Electronic Engineering",
+  "tags": "工科,电气电子,工学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 210000港币/年",
+  "requirements": "具有学士学位或同等专业资格，需要电气工程、电子工程、信息工程或计算机工程背景\n学校也可能考虑具有其他领域（如物理学或机械工程）第一学位并在电子工程方面具备一定经验和背景的申请者\n需要提供B等级证明",
+  "objectives": "当代电子工程师必须通过不断的专业培训，增进工作技能，使工作取得新发展，这就是香港中文大学提供电子工程学修课式硕士课程的目的。成功不仅意味着你的事业发展， 还意味着赢得同行的尊敬和鼓励。香港中文大学的创系系主任高锟教授就是成功者的典范，他赢得世界荣誉成为诺贝尔奖得主。\n今天的电子工程师们面对很多新的挑战，许多新的应用需要多方面的技能。除了传统的电子科技，电子工程师还需要了解光学，太阳能技术和纳米技术等。电子产品的设计理念正在转变，成本效益和高性能不再是唯一的指标，更要同时考虑环保法规和碳排放因素等内容。电子学科科研的趋势正逐渐转移到光子及光电子领域，以保持计算能力和通讯带宽地不断提高。\n所以我们提供的课程内容广泛全面，学生可根据自己的特长、需要和意愿自由选择修读。\n学生亦有机会义务于我们的研究实验室内学习，或修读研究与开发专题科目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "柔性电子学与太阳能电池技术 (Flexible Electronics and Solar Cell Technology)\n固态传感器和照明系統 (Solid-state Sensors and Lighting Systems)\n光通信及互连 (Optical Communication and Interconnects)\n穿戴式生物电子学 (Wearable Bioelectronics)\n电源管理集成电路 (Power Management Technology)\n研发项目 (Research and Development Project)\n超大规模集成电路设计方法与测试 (VLSI Design Methodology & Testing)\n无线通讯系统 (Wireless Communication Systems)\n语音信号数字处理 (Digital Processing of Speech Signals)\n图像处理及视频技术 (Image Processing & Video Technology)\n先进通讯信号处理 (Advanced Signal Processing for Communications)\n光电学与光通信 (Optoelectronics and Optical Communication)\n集成电路设计 (IC Design Project)\n工程师管理技巧 (Management Techniques for Engineers)\nCMOS数字集成电路设计 (CMOS Digital IC Design)",
+  "success_cases": ""
+}

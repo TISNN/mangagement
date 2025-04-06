@@ -1,0 +1,12 @@
+{
+  "school_name": "芝加哥大学",
+  "major_name": "生物医学硕士",
+  "ename": "MS in Biomedical Sciences",
+  "tags": "理科,生物",
+  "introduction": "专业方向: 生物\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1年\n项目学费: 6,345美元/课",
+  "requirements": "申请人必须在申请时完成至少一门普通生物和普通化学课程。先前有理工科背景推荐(但不是必需的)，申请人还必须证明在项目中取得成功的动机，学术潜力和能力。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

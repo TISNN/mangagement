@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "云计算理学硕士",
+  "ename": "MSc Cloud Computing",
+  "tags": "工科,计算机,计算与数学科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23650英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要包含大量计算元素的相关专业背景；学校也将考虑相关工作经验",
+  "objectives": "云计算提供了可扩展的计算资源，为科学和商业带来了解决方案和挑战。与此同时，云计算也提供了机会，包括小企业低成本进入市场的机会，更经济地利用计算资源和处理大型数据集的能力。从业者面临的挑战包括合适算法的设计和运用，合适架构的设计和实施，以及对风险和机会的认识。莱斯特大学云计算理学硕士学位课程将带学生深入了解如何基于动态可扩展架构在分布式环境中设计、分析和规划用于处理大数据的系统。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "系统再工程 (System Re-engineering)\n高级系统设计 (Advanced System Design)\n高级C++编程 (Advanced C++ Programming)\n个人和团队技能 (Personal and Group Skills)\n互联网和云计算 (Internet and Cloud Computing)\n高级网络科技 (Advanced Web Technologies)",
+  "success_cases": ""
+}

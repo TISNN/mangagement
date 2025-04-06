@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "信息技术与国际商务理学硕士",
+  "ename": "MSc Information Technology & International Business",
+  "tags": "商科,信息系统,理工学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 27900英镑/年",
+  "requirements": "具有2:2学位或同等学历这门课程是为非计算机专业的毕业生设计的，所以申请者的学位可以是任何学科。如果申请者有计算机本科学位，应该考虑其他计算机课程",
+  "objectives": "邓迪大学信息技术与国际商务理学硕士项目将计算和商务相结合，适合有意向提高适合市场需求的相关资历的学生。越来越多的企业和商业交易正向互联网迁移，由此产生了对于熟悉电子商务潜力和限制的管理人才的需求，及对于了解支持电子商务的企业和市场环境的开发人员的需求。同时，快速变化的技术也要求管理者和软件设计师能够在信息技术与国际商务这两个领域灵活运转业务。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "非专业人员的业务会计 (Business Accounting for Non-Specialists)\n用户体验设计 (Customer Experience Design)\n管理人员和组织 (Managing People and Organisations)\n营销管理与策略 (Marketing Management and Strategy)\n战略管理会计 (Strategic Management Accounting)\n国际人力资源管理 (International Human Resource Management)\n数字化营销 (Digital Marketing)\n战略管理和组织分析 (Strategic Management & Organisational Analysis)\n项目管理流程 (Project Management Processes)",
+  "success_cases": ""
+}

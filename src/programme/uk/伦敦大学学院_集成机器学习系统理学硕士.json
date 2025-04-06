@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "集成机器学习系统理学硕士",
+  "ename": "MSc Integrated Machine Learning Systems",
+  "tags": "工科,计算机,工程科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要电子与电气工程、计算机科学或相关领域背景，具备编程语言（如C、C、Python、Java或类似语言）的基础知识（例如在相关本科水平课程中达到英国2:1标准），具备代数、分析、概率或统计学等数学基础知识（例如在相关本科水平课程中达到英国2:1标准），申请者必须表现出对发展思维和问题解决能力的兴趣",
+  "objectives": "伦敦大学学院集成机器学习系统理学硕士项目教授如何设计机器学习系统，将形成我们在未来几十年的经济，社会和工业的基础。它为学生提供必要的专业知识，以便在初创企业、成熟公司或研究领域从事集成机器学习系统工程的各种职业。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用机器学习系统 (Applied Machine Learning Systems)\n应用机器学习系统2 (Applied Machine Learning Systems II)\n数据采集和处理系统 (Data Acquisition and Processing Systems)\n云、数据中心和边缘计算 (Cloud, Data Centres and Edge-Computing)\n安全性和隐私 (Security and Privacy)\n集成机器学习系统中的新兴课题 (Emerging Topics in Integrated Machine Learning Systems)\n物联网 (Internet of Things)\n网络多媒体系统 (Internet Multimedia Systems)",
+  "success_cases": ""
+}

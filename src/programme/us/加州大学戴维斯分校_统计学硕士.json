@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学戴维斯分校",
+  "major_name": "统计学硕士",
+  "ename": "Master of Science in Statstics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 44或48学分\n项目学费: 28700美元/年",
+  "requirements": "微积分、线性代数、编程语言、数学、统计学\n最低 GPA 3.0",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

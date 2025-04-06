@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "能源、经济与金融经济学硕士",
+  "ename": "MSc(Econ) Energy, Economics and Finance",
+  "tags": "商科,经济,商学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，具有强大的定量方法背景\n若有GMAT成绩建议提供，因为可能会有助于申请。在某些情况下，学校可能会使用GMAT作为录取条件。",
+  "objectives": "阿伯丁大学能源、经济与金融经济学硕士项目既具体智力挑战性，又能够为为学生提供职业资格证书，这对于提高学生在能源经济背景下对雇主的吸引力至关重要。阿伯丁大学在能源和经济领域的教学和研究处于领先地位，该硕士课程建立在商学院在这些领域的强大实力之上，通过与专业实践、跨国公司和政府机构的积极接触，纳入了能源行业的大量投入，由世界公认的能源经济学专家Alexander Kemp OBE教授授课。阿伯丁大学能源、经济与金融经济学硕士课程适合热衷于了解能源行业、如何做出决策和制定政策的人，它专为寻求职业发展的能源专业人士和想要成功开展能源行业职业生涯的人而设计。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "能源与环境经济分析 (Economic Analysis for Energy and the Environment)\n能源投资与实物期权分析 (Investment and Real Options Analysis for Energy)\n能源经济学中的当代问题 (Contemporary Issues in Energy Economics)\n阿伯丁大学入门课程 (Getting Started at the University of Aberdeen)\n定量方法 (Quantitative Methods)\n资源租金与能源政策 (Resource Rent and Energy Policy)\n商业策略与市场 (Business Strategy and Markets)\n高级数据分析 (Advanced Data Analysis)\n能源转型经济学 (Economics of Energy Transition)\n石油、能源经济与金融论文 (Dissertation in Petroleum, Energy Economics and Finance)",
+  "success_cases": ""
+}

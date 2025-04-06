@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "金融科技理学硕士",
+  "ename": "MSc Financial Technology",
+  "tags": "商科,金工金数,会计与金融学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 39000英镑/年",
+  "requirements": "具有strong 2:1荣誉学位（60%或更高水平）或同等学历，需要计算机（包括计算机科学和数据科学）、经济学、工程、金融、数学或物理背景；或\n如果申请者的学位学科未在上方列出，则需要strong 2:1荣誉学位的证据，包括3个单元的数学课程（详见官网数学资格要求），每个单元成绩达到60%或更高水平（或同等成绩）\n对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩\n学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们至少具备以下其中一项：\n- 在金融、会计、经济、投资等领域具备大量（至少2年有偿职位）相关工作经验的证据；\n- 研究生学历或专业资格（例如CFA、FRM、ACCA）\n如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关工作经验和/或资格",
+  "objectives": "布里斯托大学金融科技理学硕士项目旨在为学生提供金融技术或金融科技各种分析方法的全面基础知识，以及这些方法在金融市场实践中的应用知识。课程内容将金融理论与广泛应用结合起来，通过实际数据解决实际问题。布里斯托大学金融科技理学硕士项目开设了解决改变金融业许多方面的最新技术发展的课程，如大数据、人工智能、机器学习、过程自动化、加密货币和区块链，以及涵盖金融基础理论和实践的课程。\n人工智能和机器学习正在重塑金融服务行业，并被广泛应用于交易、投资组合构建和评估、风险管理、金融中介和公司融资等领域。学生将对技术在重塑金融服务的许多方面所产生的影响有一个广泛的、高层次的掌握。学生还将在编程、统计分析和金融建模方面培养具体的实践技能，这将使学生能够在各种情况下应用这些技术创新，这可能包括算法交易、机器人咨询、点对点贷款、移动支付、众筹和数字货币。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "定量方法、大数据与机器学习 (Quantitative Methods, Big Data and Machine Learning)\n人工智能、区块链技术与应用 (AI, Blockchain Technology and Applications)\n金融学 (Finance)\n金融科技 (Financial Technology)\n算法交易 (Algorithnic Trading)\n金融科技实证金融学 (Empirical Finance for Financial Technology)\n论文 (Dissertation)\n金融建模 (Financial Modelling)\n投资管理 (Investment Management)\n衍生产品 (Derivatives)\n银行监管与金融稳定 (Banking Regulation and Financial Stability)\n银行管理与风险管理 (Bank Management and Risk Management)\n信贷风险 (Credit Risk)\n高级公司金融 (Advanced Corporate Finance)",
+  "success_cases": ""
+}

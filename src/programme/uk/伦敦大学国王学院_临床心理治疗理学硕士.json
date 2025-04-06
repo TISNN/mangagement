@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "临床心理治疗理学硕士",
+  "ename": "MSc Clinical Psychotherapy",
+  "tags": "社科,医学,精神病学、心理学与神经科学研究所",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 40000英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位",
+  "objectives": "伦敦大学国王学院临床心理治疗理学硕士项目旨在：\n- 学习精神分析理论的基础和原理。\n- 探索理论在常见精神疾病，如抑郁症、焦虑症，以及心理健康和生理健康之间的界面上的应用。\n- 全面理解生物学与认知过程、发展、个体差异和社会过程。\n- 通过使用各种研究方法和统计技能获得经验，并学会如何批判性地评估你的发现。\n- 通过观察实习和临床服务岗位的实习，发展临床经验。\n- 学生将通过口头报告、研究论文评论、论文、海报展示和论文项目积极参与学习。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "临床心理治疗基础 (Foundations in Clinical Psychotherapy)\n临床心理治疗高级主题 (Advanced Topics in Clinical Psychotherapy)\n生物、认知和发育过程、研究设计和方法 (Biological, Cognitive and Developmental Processes, Research Design and Methods)\n发展、个体差异、社会和文化进程 (Developmental, Individual Differences, Social and Cultural Processes)\n研究论文 (Research Dissertation)",
+  "success_cases": ""
+}

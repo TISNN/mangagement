@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "物理学理学硕士",
+  "ename": "MSc Physics",
+  "tags": "理科,物理,数学与物理科学学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要很强物理学基础的专业背景，需要ATAS认证",
+  "objectives": "伦敦大学学院物理学理学硕士项目将培养学生掌握物理学领域的理论知识、专业技能和研究能力，探讨当前物理项目中运用的技术，通过团队研究深入某一特定专业领域，从而能够胜任工业界或学术界的工作，应对未来物理学领域发展中的挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "先进量子理论 (Advanced Quantum Theory)\n粒子物理学 (Particle Physics)\n原子与光子物理学 (Atom and Photon Physics)\n凝聚态的秩序与兴奋 (Order and Excitations in Condensed Matter)\n广义相对论的数学 (Mathematics for General Relativity)\n气候与能源 (Climate and Energy)\n分子物理学 (Molecular Physics)\n先进材料物理 (Physics of Advanced Materials)\n量子计算与通信 (Quantum Computation and Communication)\n高级物理宇宙学 (Advanced Physical Cosmology)\n量子场论 (Quantum Field Theory)",
+  "success_cases": ""
+}

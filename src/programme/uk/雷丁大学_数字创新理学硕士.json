@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "数字创新理学硕士",
+  "ename": "MSc Digital Innovation",
+  "tags": "商科,信息系统,亨利商学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 27000英镑/年",
+  "requirements": "具有good 2nd荣誉学位或同等学历",
+  "objectives": "雷丁大学数字创新理学硕士课程是一门实践课程，能够为毕业生提供前沿知识和技能，以识别新的数字机会和领导创新的数字解决方案，课程教授学生开发和管理数字技术以及商业创新的交付，使他们毕业时有信心和能力直接进入行业，带领学生探索如何利用数字技术创新（如物联网、3D打印、无人机技术、人工智能）和领导力，在数字环境中战略性地组织和领导人员和技术，制定战略方法，应用最新最合适的理论和模型来创造新的商业价值。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业领域与需求分析 (Business Domain and Requirements Analysis)\n商业信息学 (Business Informatics)\n数字领导力 (Digital Leadership)\n职业与专业发展 (Career and Professional Development)\n商业数据分析 (Business Data Analytics)\n数字化创新 (Digital Innovation)\n商业大数据 (Big Data in Business)\n组织动力学：数字时代的系统思考 (Organisational Dynamics: Systems Thinking in the Digital Age)\n信息技术项目管理 (IT Project Management)\n数字化营销 (Digital Marketing)\n数字健康与数据分析 (Digital Health and Data Analytics)\n商业智能与数据挖掘 (Business Intelligence and Data Mining)\n商业数据分析 (Business Data Analytics)\n硕士论文 (MSc Dissertation)",
+  "success_cases": ""
+}

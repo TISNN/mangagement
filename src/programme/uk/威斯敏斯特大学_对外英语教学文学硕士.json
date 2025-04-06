@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯敏斯特大学",
+  "major_name": "对外英语教学文学硕士",
+  "ename": "MA Teaching English to Speakers of Other Languages",
+  "tags": "社科,教育,人文学院",
+  "introduction": "专业方向: 教育\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 17500英镑/年",
+  "requirements": "具有2:2荣誉学位，申请后需要完成1500字以内命题论文",
+  "objectives": "威斯敏斯特大学对外英语教学文学硕士课程为学生提供了一个专业的结合理论学术研究和强大的实践应用和技能发展的英语语言教学，旨在为TESOL专业人员提供高级培训，并研究TESOL方法论和相关问题的最新发展。学生将发展实际和专业技能，以及分析理论观点并将其应用于实际情况的能力。威斯敏斯特大学对外英语教学文学硕士课程可以让学生发展对TESOL问题的论证、综合和批判性表达的技能，并将其应用于不同的教学环境中。学生还将提高其在TESOL背景下的研究、演示和分析的高级技能，在进行进一步的独立研究的过程中培养持续的专业发展和技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语言教学发展现状 (Current Developments in Language Teaching)\n语言与学习：描述与分析 (Language and Learning: Description and Analysis)\n论文 (Dissertation)\n分析口语和书面语篇 (Analysing Spoken and Written Discourse)\nTESOL中的教育管理 (Educational Management in TESOL)\n跨文化交际能力 (Intercultural Communicative Competence)\n教材开发 (Materials Development)\n社会语言学 (Sociolinguistics)\n测试与评估 (Testing and Assessment)",
+  "success_cases": ""
+}

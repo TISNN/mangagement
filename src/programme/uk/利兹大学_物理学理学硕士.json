@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "物理学理学硕士",
+  "ename": "MSc Physics",
+  "tags": "理科,物理,物理与天文学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要物理学或相关学科（如地球物理学、自然科学或数学）背景\n满足以下其中一项的申请者可能会基于具体情况被考虑：\n- 具有工程学位，并且在以下至少两个领域具备很强的背景：天体物理学、量子物理学、生物物理学、软物质或凝聚态物质\n- 具有化学学位，并且具备很强的数学背景\n需要ATAS认证",
+  "objectives": "利兹大学物理学理学硕士项目课程设计非常灵活，让学生有机会根据个人职业抱负量身定制课程。在世界领先的物理研究的支持下，学生将有机会通过学习活跃在这些领域的研究人员所教授的一系列主题来拓宽和深化知识。可选模块的多样化选择意味着学生可以将学习重点放在自己的兴趣上。此外，该课程还提供了五种针对个别专业的建议途径：量子凝聚态、生物软物质物理学、理论物理学、物理与商业、应用于医学的物理学。学生还将在物理与天文学学院的一个国际公认的研究小组中承担一个高级和广泛的研究项目。这将使学生能够在研究规划、执行和报告方面发展高级技能，并可能在国际期刊上发表作品。这将帮助学生准备攻读博士学位，或在工业或其他商业相关领域工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级文献综述 (Advanced Literature Review)\n物理学最新研究专题 (Current Research Topics in Physics)\n心血管医学成像 (Cardiovascular Medical Imaging)\n数字x射线和x射线计算机断层扫描 (Digital Radiography and X-ray Computed Tomography)\n磁共振成象 (Magnetic Resonance Imaging)\n超声成像 (Ultrasound Imaging)\n放射性核素显像 (Radionuclide Imaging)\n医学图像分析 (Medical Image Analysis)\n数字X线摄影和X射线计算断层照相 (Digital Radiography and X-ray Computed Tomography)\n宇宙论 (Cosmology)\n光子学 (Photonics)\n分子模拟:理论与实践 (Molecular Simulation: Theory and Practice)",
+  "success_cases": ""
+}

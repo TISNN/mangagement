@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "国际银行与金融理学硕士",
+  "ename": "MSc International Banking and Finance",
+  "tags": "商科,金融,爱丁堡商学院",
+  "introduction": "专业方向: 金融\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 21192英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要经济学、会计、金融、商业管理等相关学科背景，或具有计算能力的不相关学位",
+  "objectives": "赫瑞-瓦特大学国际银行与金融理学硕士课程是为那些在国内和国际公司的银行或金融部门寻求职业的人设计的。\n赫瑞-瓦特大学国际银行与金融理学硕士课程涵盖国际银行和金融领域的核心理论和概念，例如外汇市场，国际货币市场和国际信贷市场的运作。人们也意识到与银行和金融业有关的道德和专业问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际银行1 (International Banking 1)\n国际金融 (International Finance)\n资本市场 (Capital Markets)\n公司金融 (Corporate Finance)\n公司治理 (Corporate Governance)\n国际银行2 (International Banking 2)\n新兴金融市场 (Emerging Financial Markets)\n研究方法 (Research Methods)\n投资管理最新话题 (Current Topics in Investment Management)\n发展经济学 (Development Economics)\n金融研究 (Research in Finance)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "公共历史文学硕士",
+  "ename": "MA Public History",
+  "tags": "社科,历史,历史学院",
+  "introduction": "专业方向: 历史\n入学时间: 9月\n项目时长: 1年\n项目学费: 21700英镑/年",
+  "requirements": "可能需要电话面试",
+  "objectives": "伦敦大学皇家霍洛威学院公共历史文学硕士项目是英国同类项目中历史最悠久、最完善的，旨在为希望从事公共历史、遗产部门、广播或电影、博物馆或新闻工作的人提供独特的资格。通过各种极具吸引力的课程，学生将接受历史解释和交流的专业技能培训，并有机会结识该领域的领先从业者、流行历史学家、博物馆馆长、公共档案工作者、出版商以及电视和广播制作人。公共历史文学硕士项目为热衷于与广大公众交流的学生提供了实践和理论学习相结合的机会，同时提供了通往遗产部门和大众媒体世界的独特途径。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "通往过去的路径:理论与实践中的公共历史 (Pathways to the Past: Public History in Theory and Practice)\n在电波上创造历史:广播和广播纪录片制作 (Making History on the Airwaves: Broadcasting and Radio Documentary Production)\n没有我们，一切都没有意义:口述历史的力量 (Nothing About Us Without Us: The Power of Oral History)\n学习和交流过去:资源、技能和伦理 (Studying and Communicating the Past: Resources, Skills and Ethics)\n历史与未来 (History Past & Present)\n毕业设计 (Final Project)",
+  "success_cases": ""
+}

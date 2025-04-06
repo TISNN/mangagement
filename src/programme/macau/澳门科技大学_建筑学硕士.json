@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "建筑学硕士",
+  "ename": "Master of Architecture",
+  "tags": "社科,建筑,人文艺术学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 2年\n项目学费: 120000港币/年",
+  "requirements": "申请人须持有建筑学专业学士学位（或同等学历）（建筑学学士、建筑学工学学士、建筑学文学学士、建筑学理学学士、国际建筑师协会UIA认可的建筑学学位）或城乡规划、城市设计、景观建筑等相关专业的学士学位",
+  "objectives": "建筑学硕士学位课程是以培养整合建筑遗产保护与构建滨水特色建筑的进阶型应用人才为目标。预期养成学生具备结合建筑学相关领域的理论与实践、兼具创意思考、课题解决、沟通协调的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计研究方法 (Research Methodology in Design)\n进阶建筑与环境设计(一) (Advanced Architectural and Environmental Design I)\n进阶建筑与环境设计(二) (Advanced Architectural and Environmental Design II)\n都市发展与空间构成理论研究 (Research on Development and Construction of Urban Space)\n滨水都市与可持续建筑设计原理 (Waterfront City and Sustainable Architecture Design Studies)",
+  "success_cases": ""
+}

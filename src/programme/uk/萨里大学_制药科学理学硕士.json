@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "制药科学理学硕士",
+  "ename": "MSc Pharmaceutical Sciences",
+  "tags": "社科,药学,化学与加工工程学院",
+  "introduction": "专业方向: 药学\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 16600英镑/年",
+  "requirements": "具有2:2英国荣誉学位或受认可的同等学历，需要制药科学、药学或化学背景，其他密切相关学位专业背景（包含相关药学知识/课程）也可能被考虑，例如化学工程和药理学，这些案例将提交项目主任审查",
+  "objectives": "萨里大学制药科学理学硕士探索医学的生命，从药物发现到制造和质量控制。萨里大学制药科学理学硕士将帮助学生成为制药知识前沿领域的高效从业者。学校将支持学生广泛了解制药工艺及其在工业中的应用。通过基于问题的学习，学生将培养在多种环境中工作的能力，并拥有独立思考的能力来应对不同的挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级药物配方 (Advanced Pharmaceutical Formulations)\n现代制药技术  (Modern Pharmaceutical Technologies)\n药物发现和药物化学 (Drug Discovery and Medicinal Chemistry)\n药物分析和 QA/QC (Pharmaceutical Analysis and QA/QC)\n理学硕士科学项目 (MSc Science Project)",
+  "success_cases": ""
+}

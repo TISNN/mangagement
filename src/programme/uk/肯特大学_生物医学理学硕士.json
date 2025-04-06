@@ -1,0 +1,12 @@
+{
+  "school_name": "肯特大学",
+  "major_name": "生物医学理学硕士",
+  "ename": "MSc Biomedicine",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 23500英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要生物科学相关学科背景\n所有申请者都将根据具体情况予以考虑，其他资格、专业资格和相关经验也可能被考虑在内",
+  "objectives": "肯特大学生物医学理学硕士项目提供先进分子生物学领域（包括CRISPR-Cas9基因组编辑技术）的实践训练，培养学生的研究能力和可迁移技能。学生可以在生物医学不同领域的课程中，选择自己感兴趣的具体生物医学领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物技术人员和生物工程师的先进分子加工 (Advanced Molecular Processing for Biotechnologists and Bioengineers)\n工作中的科学 (Science at Work)\n高级生物学家的实践和应用研究技能 (Practical and Applied Research Skills for Advanced Biologists)\n癌症治疗：从实验室到诊所 (Cancer Therapeutics: From the Laboratory to the Clinic)\n聚焦癌症研究 (Cancer Research in Focus)\n寄生虫学进展 (Advances in Parasitology)\n病毒病原体 (Viral Pathogens)\n理学硕士项目 (MSc Project)\n细菌病原体 (Bacterial Pathogens)\n作为人类病原体的真菌 (Fungi as Human Pathogens)\n生殖医学科学 (The Science of Reproductive Medicine)\n试管婴儿世界 (The IVF World)\n衰老生物学 (Biology of Ageing)\n生物信息学和基因组学 (Bioinformatics and Genomics)\n血液学与输血 (Haematology and Blood Transfusion)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "运筹学与风险理学硕士",
+  "ename": "MSc Operational Research with Risk",
+  "tags": "理科,数学,数学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有英国2:1学位或同等学历，需要数学学科背景如数学、工程学、计算机科学、物理或生物科学、经济学或商学",
+  "objectives": "爱丁堡大学运筹学研究理学硕士项目将向学生展示如何使用数学技术解决现实生活中的问题，从航班安排和移动电话通话安排，优化电力系统和物流网络，到管理投资和最小化风险。运筹学是一项重要的技能，需求量很大。该课程可以让学生专注于最适合他们的职业目标的领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "优化基础 (Fundamentals of Optimization)\n运筹学基础 (Fundamentals of Operational Research)\n方法论、建模与咨询技巧 (Methodology, Modelling and Consulting Skills)\n模拟 (Simulation)\n随机建模 (Stochastic Modelling)\n统计方法论 (Statistical Methodology)\n概率论与统计 (Introductory Probability and Statistics)\n面向对象编程应用 (Object-Oriented Programming with Applications)\n统计编程 (Statistical Programming)\n科学计算 (Scientific Computing)\nPython编程 (Python Programming)\n信用评分 (Credit Scoring)\n应用运筹学课题 (Topics in Applied Operational Research)\n风险与物流 (Risk and Logistics)\n应用优化课题 (Topics in Applied Optimization)",
+  "success_cases": ""
+}

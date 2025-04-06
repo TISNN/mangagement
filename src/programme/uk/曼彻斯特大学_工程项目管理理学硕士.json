@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "工程项目管理理学硕士",
+  "ename": "MSc Engineering Project Management",
+  "tags": "工科,工程管理,机械、航空航天及土木工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有2:1英国荣誉学位或同等学历，需要相关学科背景，如建筑环境、相关工程、科学或管理学科\n申请者如果是在读生，需要提供最后一年学习的所有课程的正式列表",
+  "objectives": "曼彻斯特大学工程项目管理理学硕士项目通过让学生了解成功管理工程项目所需的人员相关和技术要求，以及组织和战略方面的问题，为学生在工程项目管理方面的专业角色做准备。该课程还强调用于生产、加工和服务基于工程的创新项目的过程，从想法到相关分析再到启动，将创新与产品、工艺和竞争优势的改进联系起来，并解释知识产权如何被保护和利用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人与组织 (People and Organisations)\n项目计划与控制 (Project Planning and Control)\n项目管理研究方法 (Project Management Research Methods)\n项目管理 (Management of Projects)\n创新管理 (Innovation Management)\nMoP论文 (MoP Dissertation)\n环境评估 (Environmental Assessment)\n基础设施项目的项目融资 (Project Finance for Infrastructure Projects)\n冲突管理与争议解决 (Conflict Management & Dispute Resolution)\n合同管理 (Contract Management)\n风险管理 (Risk Management)",
+  "success_cases": ""
+}

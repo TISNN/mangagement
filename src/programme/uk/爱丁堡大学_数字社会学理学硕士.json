@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "数字社会学理学硕士",
+  "ename": "MSc Digital Sociology",
+  "tags": "社科,社会学与社工,社会与政治科学学院",
+  "introduction": "专业方向: 社会学与社工\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要相关学科背景\n学校欢迎具有强大社会科学背景的学生以及具有统计学、数据科学和计算机科学背景的学生的申请，没有相关背景的申请者将根据其个人陈述和其他相关经验的优点进行考虑",
+  "objectives": "英国爱丁堡大学数字社会学理学硕士项目为学生介绍核心的理论和方法论问题、数字基础架构以及日常生活中的数据生成、捕获和分析。除了研究数字科学技术，还为学生提供数字技术的社会学分析以及当代文化、工作和劳动、休闲、健康、教育、政府和法律、金融等领域的新数据知识。英国爱丁堡大学数字社会学理学硕士项目旨在帮助学生理解、学习、研究、分析和评论数字技术以及它们塑造社会、社会制度和文化的复杂方式",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字社会中的问题与概念 (Issues and Concepts in Digital Society)\n研究数字生活 (Researching Digital Life)\n论文 (Dissertation)\n互联网、社会与经济 (Internet, Society and Economy)\n计算社会学 (Computational Sociology)\n计算文本分析 (Computational Text Analysis)\n高级方法研讨会 (Advanced Methods Workshops)\n人为因素：与用户合作 (The Human Factor: Working with Users)\n社会科学研究技能：数据收集 (Research Skills in the Social Sciences: Data Collection)\n定性数据分析 (Analysing Qualitative Data)\n研究设计 (Research Design)\n社会研究中的文本挖掘 (Text Mining for Social Research)\n数字影响力 (Digital Influence)\n数字研究的社会塑造 (Social Shaping of Digital Research)\n公民参与技术 (Technologies of Civic Participation)",
+  "success_cases": ""
+}

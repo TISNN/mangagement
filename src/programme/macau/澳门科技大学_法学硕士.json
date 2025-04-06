@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "法学硕士",
+  "ename": "Master of Laws",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 2年\n项目学费: 130000港币/年",
+  "requirements": "修读法学专业，需要面试笔试",
+  "objectives": "法学硕士生需在课程结束后参加1至2个月的实习活动。实习地点为政府机关、司法系统、律师事务所或其他与法律相关的机构。实习机构原则上由学生自觅。学生受指导老师和实习机构的共同指导和监督。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "法理学与法哲学 (JURISPRUDENCE AND THE PHILOSOPHY OF LAW)\n比较法学 (COMPARATIVE LAW)\n欧盟法 (EUROPEAN UNION LAW)",
+  "success_cases": ""
+}

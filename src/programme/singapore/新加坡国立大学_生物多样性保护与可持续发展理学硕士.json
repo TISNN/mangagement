@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "生物多样性保护与可持续发展理学硕士",
+  "ename": "MSc Biodiversity Conservation and Sustainability",
+  "tags": "理科,生物,理学院",
+  "introduction": "专业方向: 生物\n入学时间: 8月\n项目时长: 1年\n项目学费: 52320新币/年",
+  "requirements": "具有荣誉学士学位或相关学科4年制学士学位；或\n具有学士学位以及至少2年相关工作经验。\n具有其他资格和经验的申请者在项目委员会批准的情况下可能会根据具体情况被考虑\n需要提交存款证明45,000新币",
+  "objectives": "东南亚地区正在经历前所未有的经济增长，这与自然生物多样性资源的开发密切相关。然而，鉴于气候变化的严重性和发现气候变化解决方案的日益困难的挑战，负责任地管理自然资源对可持续的长期发展至关重要。\n新加坡国立大学生物多样性保护与可持续发展理学硕士课程专为希望进一步了解或加强生物多样性知识的本科毕业生而设，并使学生具备保育工作、环境可持续性和气候变化解决方案方面的关键技能。\n新加坡国立大学生物多样性保护与可持续发展理学硕士项目旨在为参与者提供关键知识和能力，以便训练学生制定战略方法和解决方案，以解决当前和紧急情况下的现实世界保护和气候变化问题；培养学生分析思考，发展强大的实践和领导能力；学习关键的定量和技术技能；培养关键的管理和沟通技巧。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "保护问题与实践 (Conservation Problems and Practice)\n关于基于自然的气候解决方案的主题 (Topics on Nature-based Climate Solutions)\n保护和基于自然的气候解决方案研究项目 (Research Project in Conservation and Nature-based Climate Solutions)\n保护和基于自然的气候解决方案实习 (Internship in Conservation and Nature-based Climate Solutions)\n生物地理学 (Biogeography)\n海洋保护 (Marine Conservation)\n生物入侵 (Biological Invasions)\n热带生物保护 (Tropical Conservation Biology)\n保护效果的定量分析 (Quantitative Analysis of Conservation Effectiveness)\n淡水资源保护 (Freshwater Conservation)\n自然历史收藏与保护 (Natural History Collections and Conservation)\n群体基因组学与系统基因组学 (Population Genomics and Phylogenomics)\n植物生态学野外研究技术 (Field Research Techniques for Plant Ecology)\n使用R语言进行保护生物学数据分析 (Data Analysis for Conservation Biology with R)\n生物学中的定量方法与批判性思维 (Quantitative Methods and Critical Thinking in Biology)",
+  "success_cases": ""
+}

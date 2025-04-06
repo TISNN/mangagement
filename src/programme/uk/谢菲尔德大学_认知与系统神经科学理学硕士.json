@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "认知与系统神经科学理学硕士",
+  "ename": "MSc Cognitive and Systems Neuroscience",
+  "tags": "社科,心理学,心理学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33970英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要行为神经学、认知神经科学、计算神经科学、神经影像学、神经药理学、神经科学、心理学学科背景，学校也可能会考虑生命科学、物理科学、数学或工程学的学位 申请者需要学习过相关课程，课程列表详见官网\n学校也接受希望插班学习的医学生",
+  "objectives": "谢菲尔德大学认知与系统神经科学理学硕士课程探索神经结构之间的相互作用，以了解脑细胞如何交流和转换信息以控制身体。了解系统神经科学的核心问题，并加深对用于解决这些问题的学科和技术的理解。谢菲尔德大学认知与系统神经科学理学硕士课程旨在为学生提供系统神经科学核心问题的深入培训，并将让学生了解用于解决这些问题的学科和技术，例如计算机模拟建模、数据可视化和神经解剖学。学生将与心理学系的一位世界领先专家一起从事认知神经科学的研究项目。研究主题可以从理论到基础神经科学。学生可能有机会使用最先进的设备收集和分析现实生活中的认知脑科学数据。这个项目让学生有机会将实验神经科学中的新技术付诸实践，同时探索认知神经科学前沿的想法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "神经科学基础 (Fundamentals of Neuroscience)\n计算神经科学 1 (Computational Neuroscience 1)\n应用神经解剖学和临床神经科学 (Applied Neuroanatomy and Clinical Neuroscience)\n系统神经科学 (Systems Neuroscience)\n数据分析和可视化 (Data Analysis and Visualization)\n认知神经科学研究项目 (Research Project in Cognitive Neuroscience)\n神经影像学 1 (Neuroimaging 1)\n神经影像学 2 (Neuroimaging 2)\n认知基础 (Fundamentals of Cognition)\n计算神经科学 2 (Computational Neuroscience 2)",
+  "success_cases": ""
+}

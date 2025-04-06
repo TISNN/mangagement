@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "投资与金融理学硕士",
+  "ename": "MSc Investment & Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 32600英镑/年",
+  "requirements": "具有二等荣誉学位或同等学历，要求会计学、经济学、商业研究或具有很强的定量知识的学科背景。拥有适当专业资格和相关实践经验的申请也会被考虑",
+  "objectives": "思克莱德大学投资与金融理学硕士学位课程面向有意在证券分析、投资组合分析和投资管理等领域发展职业生涯的学生。思克莱德大学投资与金融理学硕士学位课程提供金融理论方面的严格训练。该课程涵盖投资专家在现实决策中运用的各种技术和分析工具。通过学习，学生将：充分理解金融理论和分析；了解金融市场和机构的本质；掌握会计原则和财务报表分析的应用知识；了解债券和股票估价中应用的技术和概念；有能力制定投资组合和投资战略，从而实现风险收益目标；理解衍生产品，包括期权、期货及互惠信贷；了解金融学中运用的定量分析和技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融学原理 (Principles of Finance)\n会计和财务分析 (Accounting & Financial Analysis)\n金融定量方法 (Quantitative Methods for Finance)\n国际金融市场和银行 (International Financial Markets & Banking)\n公司金融热点议题 (Topics in Corporate Finance)\n金融衍生产品和国库管理 (Derivatives & Treasury Management)\n固定收益分析 (Fixed Income Analysis)\n证券分析 (Equity Analysis)\n投资组合理论和管理 (Portfolio Theory & Management)\n金融实证研究方法 (Empirical Methods in Finance)\n行为金融学 (Behavioural Finance)",
+  "success_cases": ""
+}

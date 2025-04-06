@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "金融科技理学硕士",
+  "ename": "MSc Financial Technology",
+  "tags": "商科,金工金数,诺丁汉商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 32400英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要经济、金融、会计、商业/管理、计算机科学、数学或工程背景，申请者必须在本科学习期间完成至少2门与学科领域相关的定量课程，每门课程成绩达到2:1或同等水平",
+  "objectives": "大数据、人工智能、区块链技术和机器学习最近的发展从根本上改变了金融机构的运营、创新、战略和竞争方式，使更多的金融交易在网上进行。此外，金融科技初创企业提供了一系列消费金融服务，包括移动支付、（p2p）借贷和投资行业的金融咨询（机器人顾问）。\n在这种趋势下，金融和技术混合领域专家的需求大幅增加，诺丁汉大金融科技理学硕士项目提供了金融、信息技术以及两者如何交织的前沿知识的渐进式学习。学生将学习现代金融理论、金融市场、信息技术及其在金融中的应用，成为金融和科技行业的专家，提高终身学习技能和实现个人发展，为整个社会做出贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融市场及工具 (Financial Markets and Instruments)\n金融科技编程 (Programming for FinTech)\n金融与投资的定量研究方法 (Quantitative Research Methods for Finance and Investment)\n金融科技数据分析与机器学习 (Data Analytics and Machine Learning for FinTech)\n金融科技监管与数据保护 (FinTech Regulation and Data Protection)\n区块链与加密数字货币 (Blockchain and Cryptocurrency)\n金融科技学位论文/立足公司发学位论文 (Financial Technology Dissertation/Company-Based Dissertation)\n商业项目 (Business Project)\n信息系统设计与开发 (Information System Design and Development)\n数字化营销 (Digital Marketing)\n风险投资与私募股权 (Venture Capital and Private Equity)\n国际金融 (International Finance)\n中央银行理论与实践 (Central Banking Theory and Practice)",
+  "success_cases": ""
+}

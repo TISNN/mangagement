@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "文化管理文学硕士",
+  "ename": "MA Cultural Management",
+  "tags": "社科,文化,文学院",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 155000港币/年",
+  "requirements": "毕业于受认可的大学并获得学士学位（不限专业背景），需要提供B等级证明，或在高等教育机构完成学习课程并获得相当于学士学位的专业或类似资格",
+  "objectives": "香港中文大学文化管理文学硕士项目是香港文化管理领域领先的研究生课程。该项目秉持开放、灵活的理论治学态度，并有着丰富的实践教学经验，旨在为学生提供与文化和文化管理有关的理论的广泛和批判性视角，加强他们在文化管理方面的技术能力，培养他们在策展和管理实践中的创新能力，巩固他们的文化和创意产业知识，为他们在一个快速发展、不断变化的全球文化环境中做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "当代文化概念 (Concepts of Contemporary Culture)\n文化发展及政策 (Cultural Development Policy)\n文化组织的管理 (Management of Cultural Organizations)\n信息技术在文化组织中的应用 (IT Applications in Cultural Organizations)\n视觉艺术管理 (Visual Arts Administration)\n表演艺术管理 (Performing Arts Administration)\n博物馆与历史资料研究 (Museum and Archives Studies)\n电影/影视及媒体艺术管理 (Film/Video & Media Art Administration)\n毕业论文 (Graduate Research Paper)\n戏曲及表演文化 (Xiqu and Performing Culture)\n管理者职务 (Curatorship)\n展览设计 (Exhibition Design)\n文化管理专题研究 (Special Topics in Cultural Management)\n文化节日筹划及管理 (Curating and Managing Cultural Festivals)\n实习 (Practicums)",
+  "success_cases": ""
+}

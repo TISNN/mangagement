@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 27100英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，通常需要具备商业背景以及足够的统计学能力（如概率论、统计推断、假设检验、简单回归）或计算或数学/统计学背景",
+  "objectives": "纽卡斯尔大学商业分析理学硕士项目旨在满足不同学术背景的商业分析专业知识日益增长的需求。该项目将使学生获得以下方面的专业知识：数据管理、数据科学的统计基础、统计学习、研究方法，以及将培养以下方面的实用技能：项目管理、数字化转型、运营分析、人力资源分析、营销分析。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据管理和探索性数据分析 (Data Management and Exploratory Data Analysis)\n数据科学的统计基础 (Statistical Foundations of Data Science)\n数据科学的统计学习 (Statistical Learning for Data Science)\n论文 (Dissertation)\n研究方法 (Research Methods)\n项目管理 (Project Management)\n营销分析 (Marketing Analytics)\n人力资源分析 (HR Analytics)\n数字化转型造福社会 (Digital Transformation for Social Good)\n商业洞察的数据分析 (Data Analytics for Business Insights)\n商业分析小组项目 (Business Analytics Group Project)\n运营分析 (Operations Analytics)",
+  "success_cases": ""
+}

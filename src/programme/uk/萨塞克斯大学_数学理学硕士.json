@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "数学理学硕士",
+  "ename": "MSc Mathematics",
+  "tags": "理科,数学,数学与物理科学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 22575英镑/年",
+  "requirements": "通常应具有英国2:1本科荣誉学位或以上水平或同等学历\n需要数学（包括联合学位）或包含大量数学内容学科背景\n具备其他同等专业资格或经验的申请者也可能会被该专业考虑",
+  "objectives": "若学生对数学研究感兴趣，并希望继续深造或在企业工作，萨塞克斯大学数学理学硕士项目是个很好的选择。萨塞克斯大学数学理学硕士项目能让学生选择最适合自己的数学专题。通过萨塞克斯大学数学理学硕士项目的学习，学生将全面了解高等数学，专注于纯数学、应用数学和数值数学研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文（数学） (Dissertation (Mathematics))\n高级数值分析 (Advanced Numerical Analysis)\n密码学 (Cryptography)\n金融数学 (Financial Mathematics)\n功能分析 (Functional Analysis )\n数学生物学导论 (Introduction to Mathematical Biology)\n线性统计模型 (Linear Statistical Models)\n测量与集成 (Measure and Integration)\n高级偏微分方程 (Advanced Partial Differential Equations)\n编码理论 (Coding Theory)\n连续介质力学 (Continuum Mechanics)\n微分几何 (Differential Geometry)\n动力系统 (Dynamical Systems)\n金融投资公司风险分析 (Financial Invest & Corp Risk Analysis )\n金融资产组合分析 (Financial Portfolio Analysis)",
+  "success_cases": ""
+}

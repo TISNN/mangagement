@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 30700英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景。学校会考虑所有有证据表明在与学习计划相关的课程中表现优异、具有丰富的相关工作经验或专业资格的申请",
+  "objectives": "学生将掌握如何利用和利用数据解决业务问题，提高就业技能，完成一个商业项目模块，使用真实的数据来解决一个真实问题。学生将具备完成市场分析、战略和人力资源分析、运营分析和环境分析等模块的职业技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业分析主题 (Topics in Business Analytics\t)\n商业分析编程 (Programming for Business Analytics\t)\n用于业务分析的数据库技术 (Database Technologies for Business Analytics\t)\n商业分析的统计和数学 (Statistics and Mathematics for Business Analytics\t)\n经理和顾问的分析和可视化 (Analytics and Visualisation for Managers and Consultants\t)\n运营分析 (Operations Analytics\t)\n市场分析 (Marketing Analytics\t)\n战略和人力资源分析 (Strategic and HR Analytics\t)\n环境分析 (Environmental Analytics\t)\n商业项目 (Business Project\t)",
+  "success_cases": ""
+}

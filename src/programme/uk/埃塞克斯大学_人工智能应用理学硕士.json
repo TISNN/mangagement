@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "人工智能应用理学硕士",
+  "ename": "MSc Applications of Artificial Intelligence",
+  "tags": "工科,计算机,计算机科学与电子工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景",
+  "objectives": "人工智能（AI）是一个广泛的研究领域，它使用严谨且实用的计算技术来解决许多不同学科中出现的重大问题，包括但不限于计算系统、经济学、商业、医疗保健、游戏、药物设计、教育和农业。随着人工智能的快速发展，对能够理解并将人工智能推广到所有这些领域的学生的需求越来越大。埃塞克斯大学人工智能应用理学硕士课程将为学生提供人工智能技术方面的技能，无论学生的学术背景如何，都将为其满足需求做好准备。通过参与教学课程，学生将全面了解人工智能的当前发展、需求和潜力，这些课程将有助于学生深入了解人工智能方法，并提供必要的技术专业知识。课程将涵盖以下领域：机器学习、数据挖掘、决策、大数据，为学生提供理论和技术相关技能，使学生能够理解人工智能方法的具体性和复杂性，掌握运用基本和高级人工智能方法的能力以及设计和实施新颖解决方案的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目与论文 (MSc Project and Dissertation)\n基于行业的项目与论文 (MSc Industry Based Project and Dissertation)\n易理解的编程概论 (An Approachable Introduction to Programming)\n机器学习 (Machine Learning)\n神经网络与深度学习 (Neural Networks and Deep Learning)\n小组项目 (Group Project)\n信息检索 (Information Retrieval)\n文本分析 (Text Analytics)\n经济学与金融学中的计算模型 (Computational Models in Economics and Finance)\n金融领域的机器学习 (Machine Learning for Finance)\n专业实践与研究方法 (Professional Practice and Research Methodology)",
+  "success_cases": ""
+}

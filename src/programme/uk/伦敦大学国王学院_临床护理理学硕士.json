@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "临床护理理学硕士",
+  "ename": "MSc Clinical Nursing",
+  "tags": "社科,医学,弗洛伦斯南丁格尔护理、助产与姑息治疗学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，不限专业背景\n申请者需要当前有效注册为护士，注册后最好具备2年经验\n申请者可能需要接受面试",
+  "objectives": "伦敦大学国王学院临床护理理学硕士课程会让学生学会如何将研究成果付诸实践，以及如何发展自己的领导能力。国王的专家和临床实习也将帮助学生提高临床技能。伦敦大学国王学院临床护理理学硕士课程是灵活的——无论学生是想提高自己的临床技能，成为一名临床领导者，还是致力于研究事业，都有适合学生感兴趣的模块。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "医疗保健实践测量与评估 (Measurement & Evaluation for Healthcare Practice)\n基于证据的医疗保健决策 (Evidence Based Decision Making in Healthcare )\n非医疗处方的高级评估技能 (Advanced Assessment Skills for Non-Medical Prescribers)\n论文 (Dissertation)\nHIV护理 (HIV Care)\n高级定性研究方法 (Advanced Qualitative Research Methods)\n高级定量研究方法 (Advanced Quantitative Research Methods)\n心脏护理：心力衰竭评估与管理 (Cardiac Care: Heart Failure Assessment and Management)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "复合材料：高级复合材料科学、技术与工程应用理学硕士",
+  "ename": "MSc Composites: the Science, Technology and Engineering Application of Advanced Composites",
+  "tags": "工科,材料,航天学院",
+  "introduction": "专业方向: 材料\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有2:1学位，需要航空工程、机械工程、材料科学、物理学或化学背景\n需要申请ATAS证书",
+  "objectives": "新型飞机和其他具有挑战性的工程应用正越来越多地依赖于高性能复合材料的独特功能。帝国理工学院复合材料：高级复合材料科学、技术与工程应用理学硕士项目探讨了高级复合材料的广泛领域，尤其是复合材料和工程设计的制造和表征。该项目由来自帝国理工学院、其他大学、主要航空公司和政府研究组织的专家教授，适合工程、材料科学、物理或化学专业背景的本科生。学生将深入了解复合技术，从而在产业和研究行业担任重要角色。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "修订压力分析 (Revision Stress Analysis)\n实验室简介 (Introduction to Labs)\n修订化学 (Revision Chemistry)\n有限元分析 (Finite Element Analysis)\n技术写作和演讲 (Technical Writing and Presentations)\n复合材料1 (Composites 1)\n复合材料2 (Composites 2)\n复合材料3 (Composites 3)\n复合材料4 (Composites 4)\n复合材料：实验室 (Composites: Laboratories)\n文献评论 (Literature Review)\n设计研究 (Design Study)\n重大个人研究项目 (Major Individual Research Project)",
+  "success_cases": ""
+}

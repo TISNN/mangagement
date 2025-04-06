@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "网络安全、隐私与信任理学硕士",
+  "ename": "MSc Cyber Security, Privacy and Trust",
+  "tags": "工科,计算机,信息学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 43300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要信息学、人工智能、认知科学、计算机科学、电子工程、语言学、数学、哲学、物理学、心理学或其他定量学科背景\n典型的录取通常要求申请者具备英国一等荣誉学位\n具备相当于编程入门课程的计算机编程经验，并在学位期间完成相当于60个SCQF学分或30个ECTS学分的数学课程，通常涵盖以下学科/主题：微积分（微分和积分），线性代数（向量和多维矩阵），离散数学和数学推理（例如归纳和推理，图论模型，证明），和概率论（离散和连续概率的概念，马尔可夫链等）",
+  "objectives": "爱丁堡大学网络安全、隐私与信任理学硕士旨在让学生学习如何在复杂的分布式系统中评估、设计和实现安全可靠的系统。学生将在理论和实践的广泛结合中接受来自学术专家的培训，包括以下方面:安全软件、密码学、安全硬件、验证、后量子、数据隐私、可用性、金融科技、健康、智能合约、分布式账本和隐私保护数据挖掘。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文（信息学） (MSc Dissertation (Informatics))\n信息学工程论文 (Informatics Project Proposal)\n安全、隐私和信任的研究方法 (Research Methods in Security, Privacy, and Trust)\n现代密码学导论 (Introduction to Modern Cryptography)\n数据社会的争议 (Controversies in the Data Society)\n区块链和分布式账本 (Blockchains and Distributed Ledgers)",
+  "success_cases": ""
+}

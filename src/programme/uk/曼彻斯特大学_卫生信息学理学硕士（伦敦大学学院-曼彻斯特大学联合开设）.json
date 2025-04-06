@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "卫生信息学理学硕士（伦敦大学学院-曼彻斯特大学联合开设）",
+  "ename": "Joint MSc Health Informatics (UCL-UoM)",
+  "tags": "社科,公共卫生,生物、医学和健康学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有英国大学颁发的2:1荣誉学位或同等学历，需要计算机科学、卫生服务研究、生物科学、统计学、药学、护理学、医学背景\n不符合这些要求但具备适当专业经验的申请者也将被考虑\n不符合常规录取标准的申请者也会由伦敦大学学院教导主任进行审查",
+  "objectives": "曼彻斯特大学卫生信息学理学硕士（伦敦大学学院-曼彻斯特大学联合开设）重点介绍如何在医疗保健的组织和交付中使用信息和信息技术，由曼彻斯特大学和伦敦大学学院联合授予，提供创新和令人兴奋独特的具有挑战性和重要的领域的培训。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "医疗保健系统信息学要点 (Essentials of Informatics for Healthcare Systems)\n卫生信息系统和技术 (Health Information Systems and Technologie)\n标准和互用性 (Standards and Interoperability)\n健康数据分析原则 (Principles of Health Data Analytics)\n可用卫生系统设计 (Usable Health Systems Design)\n个人卫生信息 (Personalised Health Informatics)\n决策支持系统 (Decision Support Systems)\n病人安全 (Patient Safety)\n学习卫生系统 (Learning Health Systems)\n现代信息工程 (Modern Information Engineering)\n公民驱动信息学 (Citizen-Driven Informatics)\n数字转换工程 (Digital Transformation Project)",
+  "success_cases": ""
+}

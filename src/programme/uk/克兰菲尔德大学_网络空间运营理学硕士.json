@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "网络空间运营理学硕士",
+  "ename": "MSc Cyberspace Operations",
+  "tags": "工科,计算机,国防与安全",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 24120英镑/年",
+  "requirements": "",
+  "objectives": "克兰菲尔德大学网络空间运营理学硕士项目旨在培养专业人员，以支持网络空间的机动、有争议的作战以及作为综合规划的一部分。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "情报与军事行动中的网络战 (Cyberwarfare in Intelligence and Military Operations)\n网络基础 (Foundations of Cyber)\n网络欺骗 (Cyber Deception)\n网络法 (Cyber Law)\n信息作战 (Information Operations)\n论文 (Dissertation)\n组织生存能力的系统思考 (Systems Thinking for Organisational Viability)\n关键网络与信息物理融合系统 (Critical Networks and Cyber-Physical Systems)\n数据主导的决策支持与人工智能 (Data-led Decision Support and Artificial Intelligence)\n新兴技术监控 (Emerging Technology Monitoring)\n人的维度 (The Human Dimension)\n网络攻击-威胁与机会 (Cyber Attack - Threats and Opportunities)\n社会技术 (Social Technologies)\n理解风险 (Understanding Risk)\n事故管理 (Incident Management)",
+  "success_cases": ""
+}

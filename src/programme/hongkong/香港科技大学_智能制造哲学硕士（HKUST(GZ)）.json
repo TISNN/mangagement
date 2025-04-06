@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "智能制造哲学硕士（HKUST(GZ)）",
+  "ename": "MPhil Smart Manufacturing (HKUST(GZ))",
+  "tags": "工科,机械工程,香港科技大学（广州）",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 2年\n项目学费: 150000人民币/年",
+  "requirements": "具有认可机构颁发的学士学位或同等学历",
+  "objectives": "智能制造是指完全集成和协作的制造系统，可实时响应智能工厂、供应网络和/或客户需求中不断变化的需求和条件。它是关于使用实时数据和尖端技术来支持工厂做出有效和准确的工程决策，并创造符合市场需求的高度差异化、成本效益和竞争力的产品。\n智能制造哲学硕士（MPhil）课程旨在为学生提供对制造过程每个层次的详细了解，结合数学，科学和商业技能，为他们开发创新方式做好准备系统设计和产品生产。课程设计的重点是提供基础知识以及课程中的实践培训。从该计划毕业的学生将多才多艺，装备精良，以获得宝贵的见解并在制造业中做出明智的决策。这些计划还将提供新的教学培训，使研究生具备专业和可转移的技能，以应对新的制造工程环境。\n哲学硕士课程的毕业生应该能够很好地掌握工艺工程，系统设计和制造管理方面的知识;为公司建立竞争优势;并制定战略以应对制造业的新挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球制造 (Global Manufacturing)\n增材制造设计 (Design for Additive Manufacturing)\nCAD/CAM的基本理论和算法 (Fundamental Theories and Algorithms of CAD/CAM)\n金属加工基础 (Fundamentals in Metal Processing)\n工业自动化和分析 (Industrial Automation and Analytics)\n智能制造专题 (Special Topics in Smart Manufacturing)",
+  "success_cases": ""
+}

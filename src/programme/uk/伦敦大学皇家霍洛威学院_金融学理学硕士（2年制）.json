@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "金融学理学硕士（2年制）",
+  "ename": "MSc Finance (2 year course)",
+  "tags": "商科,金融,经济学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 2年\n项目学费: 18100英镑/年",
+  "requirements": "需要具有经济、商业、金融、管理或任何具有一定数量背景的学位；拥有管理学学位的申请者需要学习足够的数学模块作为其学位的一部分",
+  "objectives": "伦敦大学皇家霍洛威学院金融学理学硕士（2年制）将提供严格训练，旨在帮助学生分析金融与公司政策方面的问题，提升学生的分析技能与技术专长。该项目适合计划进入金融服务业与银行业的学生。修读该项目的学生将：接受与研究生水平相匹配的高级训练，掌握经济学与金融学原理及其应用；能够运用所获的先进知识、研究方法和技能解决金融政策与投资中的理论与/或实际问题；能够批判性评价金融学领域内的当前研究与高深学问知识；掌握分析性技能，能够创建简化的框架来研究现实世界，能够适当地运用抽象能力处理各种金融学问题；掌握有益于就业与创业的各种可迁移技能；掌握技能基础，能够继续深入研究金融学及相关领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济学 (Microeconomics)\n宏观经济学 (Macroeconomics)\n经济学的量化方法 (Quantitative Methods of Economics)\n定量方法 (Quantitative Methods)\n企业金融 (Corporate Finance)\n金融定量方法 (Quantitative Methods in Finance)\n数学方法 (Mathematical Methods)\n金融基础 (Foundations of Finance)\n投资和组合管理 (Investment and Portfolio Management)\n金融计量经济学 (Financial Econometrics)\n博弈论 (Game Theory)\n固定收益证券及其衍生品 (Fixed Income Securities and Derivatives)\n银行经济学 (The Economics of Banking)",
+  "success_cases": ""
+}

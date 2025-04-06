@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "市场营销理学硕士",
+  "ename": "MSc Marketing",
+  "tags": "商科,市场营销,诺丁汉商学院",
+  "introduction": "专业方向: 市场营销\n入学时间: 9月\n项目时长: 1年\n项目学费: 32400英镑/年",
+  "requirements": "具有2:1学位或同等学历，不限专业背景，不包括包含大量市场营销内容的学位背景\n针对尚未完成本科学位的申请者，需要提供最后一年要学习的课程列表",
+  "objectives": "诺丁汉大学市场营销理学硕士课程为学生提供在高级营销职位中脱颖而出所需的所有关键技能和知识。学生可以将学到的技能可以应用于所有企业。课程的核心模块涵盖了专业营销人员所需的所有基本要素。学生可以选择体现个人职业目标和兴趣的可选模块，课程提供了品牌、数字营销和b2b营销等领域的专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "消费者行为与消费 (Consumer Behaviour and Consumption)\n数字经济中的营销管理 (Marketing Management in the Digital Economy)\n市场营销战略 (Marketing Strategy)\n关键营销 (Critical Marketing)\n市场营销研究方法 (Research Methods in Marketing)\n应用营销项目 (Applied Marketing Project)\n品牌与营销传播 (Branding and Marketing Communications)\n国际市场营销 (International Marketing)\n新产品/服务开发与管理 (New Product/Service Development and Management)",
+  "success_cases": ""
+}

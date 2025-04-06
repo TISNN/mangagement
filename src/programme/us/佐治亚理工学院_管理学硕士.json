@@ -1,0 +1,12 @@
+{
+  "school_name": "佐治亚理工学院",
+  "major_name": "管理学硕士",
+  "ename": "Master of Science in Management",
+  "tags": "商科,管理",
+  "introduction": "专业方向: 管理\n入学时间: 秋季\n项目时长: 2学期\n项目学费: 32726美元",
+  "requirements": "不限学术背景，建议非商科无工作经验的学生申请",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

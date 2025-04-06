@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "软件工程科技硕士",
+  "ename": "Master of Technology in Software Engineering",
+  "tags": "工科,计算机,系统科学研究所",
+  "introduction": "专业方向: 计算机\n入学时间: 8月\n项目时长: 1年\n项目学费: 58642新币/年",
+  "requirements": "具有学士学位（偏好理工科），平均成绩不低于B；\n熟练掌握英语（书面和口语）；\n偏好具有2年软件工程师相关工作经验的申请者（如程序员、设计师、技术团队负责人） ；\n精通以下领域者优先考虑：软件开发生命周期，包括敏捷软件开发方法，如Scrum；使用一种或多种现代编程语言的软件开发，软件设计包括使用设计模式、软件测试和测试驱动开发；\n海外申请者需要提交GRE（建议GRE总分不低于320，写作不低于3.5，具有与预期研究领域相关的重要工作经验的申请者即使未达到GRE建议分数要求也可能被考虑录取，但学校项目、实习和补充课程不算作工作经验）；\n学费为58,642-58,958.10新币",
+  "objectives": "新加坡国立大学软件工程科技硕士项目旨在满足行业对软件工程师的需求，他们可以通过构建强大、可靠和可扩展的软件系统来帮助新加坡组织实现智能国家计划。该计划最适合在软件工程角色方面拥有几年经验并希望进一步提高他们在构建可扩展、安全和智能软件系统方面的知识和技能的个人。新加坡国立大学软件工程科技硕士项目强调构建可扩展、安全和智能系统和平台所需的技能。重点还是软件技术、方法和管理技术的开发。它侧重于使用创新的和最先进的技术对软件系统进行实用的、系统的构建。新加坡国立大学软件工程科技硕士项目将为学生提供必要的知识和实践经验，为学生所在组织和客户构建、设计和管理强大的软件系统。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "原生云解决方案设计 (Cloud Native Solution Design)\n软件解决方案设计 (Architecting Software Solutions)\nDevOps工程与自动化 (DevOps Engineering and Automation)\n平台工程 (Platform Engineering)\nLoT解决方案设计 (Architecting loT Solutions)\n智能边缘计算设计 (Designing Intelligent Edge Computing)\n人性化智能系统 (Humanizing Smart Systems)\n战略产品经理 (Strategic Product Manager)\n服务设计 (Service Design)\n数码产品战略 (Digital Product Strategy)\n软件产品线与平台 (Software Product Lines and Platforms)\n数据驱动的信息架构 (Information Architecture for Data-driven Insights)\n大数据分析工程 (Big Data Engineering for Analytics)\n实时数据处理系统设计 (Architecting Systems for Real-Time data processing)",
+  "success_cases": ""
+}

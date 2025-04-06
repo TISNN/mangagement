@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "航空航天工程理学硕士",
+  "ename": "MSc Aerospace Engineering",
+  "tags": "工科,航空工程,工程学院",
+  "introduction": "专业方向: 航空工程\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23650英镑/年",
+  "requirements": "具有good 2nd荣誉学位或同等学历，需要具有航空航天工程相关专业背景",
+  "objectives": "莱斯特大学航空航天工程理学硕士项目涵盖了流体动力学和材料建模等重要领域的先进概念和当前知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程设计案例研究 (Engineering Design Case Study)\n高级流体动力学 (Advanced Fluid Dynamics)\n单独的项目 (Individual Project)\n鲁棒控制 (Robust Control)\n系统工程和航天器系统 (Systems Engineering and Spacecraft Systems)",
+  "success_cases": ""
+}

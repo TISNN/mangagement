@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "计算机控制与自动化理学硕士",
+  "ename": "MSc Computer Control & Automation",
+  "tags": "工科,电气电子,电气与电子工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 56157新币/年",
+  "requirements": "具有良好的相关学士学位\n有相关工作经验者优先考虑",
+  "objectives": "南洋理工大学计算机控制与自动化理学硕士学位课程提供最前沿且具有实用性的知识，包括计算机控制与自动化系统的开发、整合和运营，旨在为工程师提供帮助。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机控制系统 (Computer Control Systems)\n系统分析 (Systems Analysis)\n机器人与智能传感器 (Robotics & Intelligent Sensors)\n机器视觉 (Machine Vision)\n多变量控制系统分析与设计 (Multivariable Control Systems Analysis & Design)\n遗传算法与机器学习 (Genetic Algorithms and Machine Learning)\n协同研发项目 (Collaborative Research & Development Project)\n项目管理与技术创业 (Project Management & Technopreneurship)\n网络安全与区块链技术 (Cyber Security & Blockchain Technology)\n计算机控制网络 (Computer Control Networks)\n流程建模与调度 (Process Modeling & Scheduling)\n计算智能 (Computational Intelligence)\n智能生物传感器与医疗保健系统 (Smart Biosensors & Systems for Healthcare)\n高级模拟电路 (Advanced Analog Circuits)\n高级数字信号处理 (Advanced Digital Signal Processing)\n自然语言处理 (Natural Language Processing)\n视频信号处理 (Video Signal Processing)\n人工智能与数据挖掘 (Artificial Intelligence & Data Mining)\n模式识别与深度学习 (Pattern Recognition & Deep Learning)\n现代电子驱动 (Modern Electrical Drives)\n基于功率半导体的可再生能源系统变换器 (Power Semiconductor Based Converter in Renewable Energy Systems)\n智能电网中的可再生能源系统 (Renewable Energy Systems in Smart Grids)\n电力系统建模与控制 (Power System Modelling & Control)\n可再生资源现代配送系统 (Modern Distribution System with Renewable Resources)\n线性系统 (Linear Systems)\n研究方法 (Research Methods)\n神经网络与深度学习 (Neural Networks and Deep Learning)\n概率与随机过程 (Probability & Random Processes)\n图像分析与模式识别 (Image Analysis & Pattern Recognition)",
+  "success_cases": ""
+}

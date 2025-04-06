@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "软件系统工程理学硕士",
+  "ename": "MSc Software Systems Engineering",
+  "tags": "工科,计算机,工程科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有2:1英国学士学位或同等学历，需要计算机科学、计算或软件工程背景，相关工作经验也可能被考虑",
+  "objectives": "伦敦大学学院软件系统工程理学硕士项目为学生博士学位的学习提供了理想的基础。该项目由一个软件工程研究小组支撑，该小组经常在同类项目中排名前十；它的研究成果被包括谷歌、Facebook和亚马逊在内的全球领先公司所采用。因此，学生将会接受制定国际议程人员的教育。此外，学校也会给表现优异的学生颁发全额博士奖学金。伦敦大学学院软件系统工程理学硕士项目培养学生掌握设计大型复杂软件系统的原理和技能，使学生有机会在团队项目环境中应用专业技能。该项目着眼于复杂软件系统最重要的走向、问题和结果，分析软件系统工程中的当前实务。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "需求工程和软件架构 (Requirements Engineering and Software Architecture)\n软件抽象和系统集成 (Software Abstractions and Systems Integration)\n确认和验证 (Validation and Verification)\n工具与环境 (Tools and Environments)\n专业实践 (Professional Practice)\n人与安全 (People and Security)\n网络化系统 (Networked Systems)\n复杂的网络和网络 (Complex Networks and Web )\n电脑安全 (Computer Security)\n金融机构与市场 (Financial Institutions and Markets )",
+  "success_cases": ""
+}

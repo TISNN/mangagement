@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,贝叶斯商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 35700英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历\n理想的候选人是具有金融、经济或相关领域背景的应届毕业生，并且具有足够的数字能力\n此外，学校鼓励拥有工程、数学、计量经济学、统计学或科学等定量专业本科学位并对金融表现出浓厚兴趣的申请者。学校欢迎来自其他领域的申请者，但申请者必须具备足够的现有定量技能\n申请不要求提交GMAT，但招生小组可酌情将其作为录取条件",
+  "objectives": "伦敦大学城市学院金融学理学硕士课程旨在培养对财务、公司财务、会计和计量经济学的理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司财务与估值 (Corporate Finance and Valuation)\n财务报告 (Financial Reporting)\n金融专业人士的研究方法 (Research Methods for Finance Professionals)\n金融统计 (Statistics in Finance)\n金融理论 (Theory of Finance)\n资产管理 (Asset Management)\n衍生工具与风险管理 (Derivatives and Risk Management)\n高级企业融资 (Advanced Corporate Finance)\n固定收入 (Fixed Income)\n国际金融 (International Finance)\n并购 (Mergers and Acquisitions)\n交易和市场微观结构 (Trading and Market Microstructure)",
+  "success_cases": ""
+}

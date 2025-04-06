@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "生物科学理学硕士",
+  "ename": "MSc Bioscience",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "通常应具有2:1学士学位，需要涵盖生命的细胞和分子基础的学科背景，如：遗传学、微生物学、生物化学",
+  "objectives": "利兹大学生物科学理学硕士项目除了为生物科学研究人员培养基本的核心技能和能力外，学生还可以从提供的所有可选模块中选择最感兴趣的主题组合。学生将在英国排名第六的学院学习令人兴奋的当代主题，并了解用于推进科学发现的尖端技术。从广泛的主题列表中选择独立高级研究项目，旨在为学生在研究实验室提供身临其境的体验，并为热爱的领域的科学做出贡献。利兹大学生物科学理学硕士项目有强大研究元素，将培养学生的专业和基本技能，将为学生的一系列职业生涯做好准备。该项目的许多毕业生都在攻读博士学位，其他人则从事生物科学相关研究以及广泛的研究生职业。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "实用生物信息学 (Practical Bioinformatics)\n生物科学理学硕士研究项目计划 (MSc Bioscience Research Project Proposal)\n科研规划与科学交流 (Research Planning and Scientific Communication)\n先进生物分子技术 (Advanced Biomolecular Technologies)\n蛋白质工程实验室项目 (Protein Engineering Laboratory Project)\n生物科学理学硕士研究项目 (Bioscience MSc Research Project)\n生物成像 (Bioimaging)\n高等免疫学 (Advanced Immunology)\n植物科学专题 (Topics in Plant Science)\n传染病与非传染病 (Infectious & Non-infectious Diseases)\n植物生物技术 (Plant Biotechnology)\n高通量技术 (High-throughput Technologies)\n医学诊断 (Medical Diagnostics)\n传染病与癌症治疗 (Treatment of Infectious Disease and Cancer)",
+  "success_cases": ""
+}

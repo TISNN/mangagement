@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "造船学理学硕士",
+  "ename": "MSc Naval Architecture",
+  "tags": "工科,机械工程,工程科学学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要适当的工程学科背景",
+  "objectives": "伦敦大学学院造船学理学硕士项目旨在提供造船学方面的必要知识和技能，分析和设计程序，应用于军舰和商船，学生可形成产业船舶设计队。在伦敦大学学院造船学理学硕士项目中，学生将能够研究船舶动力学，船舶流体力学，船舶结构，计算机在先进工程分析中的应用，并在多学科团队与海洋工程师（电子工程姊妹理学硕士）共同从事全面而独特的船舶设计练习；也将通过流体力学、船舶动力学、结构和设计等专业领域的研究工作提升研究技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "船舶动态 (Ship Dynamics)\n船舶结构 (Ship Structures)\n船舶流体动力学 (Ship Hydrodynamics)\n论文/报告 (Dissertation/report)\n海军建筑师船舶设计演习 (Ship Design exercise for Naval Architects)",
+  "success_cases": ""
+}

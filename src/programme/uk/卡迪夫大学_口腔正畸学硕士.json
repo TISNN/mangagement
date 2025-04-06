@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "口腔正畸学硕士",
+  "ename": "MScD Orthodontics",
+  "tags": "社科,医学,牙科学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 3年\n项目学费: 47950英镑/年",
+  "requirements": "持有初级牙科资格证书，具有2年资格后工作经验",
+  "objectives": "卡迪夫大学口腔正畸学硕士项目旨在在高度专业和有益的环境中为未来的临床正畸学专家提供临床和学术培训。在整个计划中，每个学生每周将花费五个半天的临床课程来提供直接的患者护理，并且每周将参加一个课程来参加新患者和联合诊所。每周有一个半天的课程专门用于秋季和春季学期的学术教学，三个半天的课程安排用于秋季和春季学期的研究和个人学习。夏季学期还有一个额外的课程可用于研究，因此每年大约有 560 小时可用于研究。\n临床教学和指导将通过结构化会议进行，包括研讨会、案例回顾和交互式临床演示；指导批判性阅读和期刊俱乐部；研究论坛演讲和研究方法的批判性评价；个人研究指导；出席相关的地区和国家会议，自主学习和在小组论坛上发表演讲，以鼓励基于问题的学习理念。在整个三年计划中都有总结性和形成性评估，研究通过第三年的期末论文进行评估。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "OSCE考试 (OSCE)\n笔试和口试 (Written and Oral Examinations)\nRITA/评估 (RITA / Appraisal)\n研究回顾 (Research Review)\n临床检查 (Clinical Examinations)\n一般正畸 (General Orthodontic)\n正畸基础科目 (Basic Orthodontic Subjects)\n提交文献综述 (Submission of Literature Review)\n文学评论辩护 (Defence of Literature Review)\n提交论文 (Submission of Thesis)\n论文答辩 (Defence of Thesis)",
+  "success_cases": ""
+}

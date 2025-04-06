@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "金融经济学理学硕士",
+  "ename": "MSc Financial Economics",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1荣誉学位或非英国同等学历，需要经济学、金融学、工程学、物理学或其他高等数学学科背景\n只有符合或超过学校规定的入学要求的申请才会被考虑，任何不符合要求的申请将被自动拒绝。申请者将根据其相对于其他申请人的表现、当前的GPA或学位等级、学术背景的相关性被考虑录取",
+  "objectives": "格拉斯哥大学金融经济学理学硕士项目为学生提供宏观经济与微观经济核心议题的培训，这些议题对财务决策的制定至关重要。格拉斯哥大学金融经济学理学硕士项目借鉴了金融经济学领域的最新发展成果，旨在全面了解金融市场和货币政策的运作。学生将深入了解金融市场的运作以及货币政策决定影响金融市场的渠道。学生将学会从技术和根本上分析市场。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n经济基础与金融市场 (Economic Fundamentals and Financial Markets)\n国际金融与货币 (International Finance and Money)\n宏观经济学 (Macroeconomics)\n微观经济学及其在金融中的应用 (Microeconomics with Applications in Finance)\n基础计量经济学 (Basic Econometrics)\n行为经济学：理论与应用 (Behavioral Economics: Theory and Applications)\n企业融资与投资 (Corporate Finance and Investment)\n实证资产定价 (Empirical Asset Pricing)\n投资、金融与资产定价 (Investment, Finance and Asset Pricing)\n理解发展：一种多学科方法 (Understanding Development: a Multidisciplinary Approach)",
+  "success_cases": ""
+}

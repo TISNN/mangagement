@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "制药科学理学硕士",
+  "ename": "MSc Pharmaceutical Sciences",
+  "tags": "社科,药学,阿斯顿药学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 1年\n项目学费: 20700英镑/年",
+  "requirements": "具有认可大学的2:2学位，需要药学、制药科学、生物化学、化学、化学工程和材料科学背景",
+  "objectives": "阿斯顿大学制药科学理学硕士项目侧重于当前和未来药物疗法和医药产品的配方策略，旨在为学生在药剂学或药理学领域的学术或职业生涯做好准备。学生不仅可以接触到该专业领域的最新趋势和思想，接受广泛主题的专业培训，例如药物发现、药物剂型和设计、化学疗法和选择性毒性，而且还可以对最近的科学发展及其临床和工业应用形成批判性的认识，了解药理学的最新进展，特别是大脑功能的新化学、常见神经病理学的神经化学和神经解剖学基础，以及中枢神经系统疾病的药物治疗方法，深入了解分析药物输送产品所需的监管程序和实验室流程。此外，学生还可以培养演讲、团队合作、报告撰写、批判性分析、谈判和数据分析方面的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "药物发现 (Drug Discovery)\n化疗与选择性毒性 (Chemotherapy and Selective Toxicity)\n产品分析与验证原理 (Principles of Product Analysis and Validation)\n高级医药科学 (Advanced Pharmaceutical Sciences)\n药物剂型设计 (Drug dosage form design)\n研究技巧 (Research Skills)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

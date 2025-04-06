@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "高级材料哲学硕士（HKUST(GZ)）",
+  "ename": "MPhil Advanced Materials (HKUST(GZ))",
+  "tags": "工科,材料,香港科技大学（广州）",
+  "introduction": "专业方向: 材料\n入学时间: 9月\n项目时长: 2年\n项目学费: 150000人民币/年",
+  "requirements": "具有认可机构颁发的学士学位或同等学历",
+  "objectives": "先进材料材料的结构和性能，这些结构和性能是生物医学设备、新能源、可持续环境和新交通技术创新的推动力。新材料的发展带来了最近在“超材料”、纳米技术和仿生学等方面的突破。\n先进材料研究型硕士（MPhil）课程旨在提供介观和原子尺度机制以及相关新型纳米结构的基础研究方面的严格培训，以及工程我们在生物医学，功能聚合物和智能超材料等各个领域的原创研究成果。将提供新的教学培训，以便研究生能够获得服务于相关行业的新材料工程的专业和可转移技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "材料信息学导论 (Introduction to Materials Informatics)\n材料科学的机器学习 (Machine Learning for Materials Science)\n声学超材料与应用简介 (Introduction to Acoustic Metamaterials and Applications)\n材料科学与工程的数学方法 (Mathematical Methods for Materials Science and Engineering)\n现代科学计算 (Modern Scientific Computing)\n先进光学 (Advanced Optics)\n固体物理与量子材料 (Solid State Physics and Quantum Materials)\n先进高分子材料的结构-性能关系 (Structure-property Relationship of Advanced Polymer Materials)\n用于新材料开发的高通量实验加工 (High-throughput Experimental Processing for New Materials Development)\n链分子的统计热力学 (Statistical Thermodynamics of Chain Molecules)\n功能材料的表征和加工 (Characterization and Processing of Functional Materials)\n生物分子的分子动力学模拟 (Molecular Dynamics Simulations for Biomolecules)\n分子物理与光电过程 (Molecular Physics and Optoelectronic Processes)\n化合物半导体材料技术 (Compound Semiconductor Materials Technology)\n光子能量转换的物理学 (The Physics of Photon Energy Conversion)\n独立学习 (Independent Study)",
+  "success_cases": ""
+}

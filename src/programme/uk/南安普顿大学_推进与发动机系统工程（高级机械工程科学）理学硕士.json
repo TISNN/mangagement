@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "推进与发动机系统工程（高级机械工程科学）理学硕士",
+  "ename": "MSc Propulsion and Engine Systems Engineering (Advanced Mechanical Engineering Sciences)",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位，需要以下学科背景之一：机械工程、航空航天工程、汽车工程、车辆工程\n申请者还必须在以下主题列表的2门课程中取得2:1的成绩：热力学、流体力学、系统工程、汽车工程、推进力\n需要ATAS认证\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学推进与发动机系统工程（高级机械工程科学）理学硕士项目研究火箭发动机、喷气发动机和压缩机的性能和可靠性。该硕士课程将机械工程的传统方面与跨学科科目相结合，因此学生可以专注于自己想要的职业。学生将学习分析和设计先进的电气系统，并学习燃气轮机、内燃机、电力和混合发动机等方面的知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级机械工程科学入门 (Introduction to Advanced Mechanical Engineering Science (AMES))\n飞机推进 (Aircraft Propulsion)\n高级传感器和状态监测 (Advanced Sensors and Condition Monitoring)\n计算流体动力学应用 (Applications of CFD)\n微观结构工程（交通运输应用） (Microstructural Engineering for Transport Applications)\n声学基础 (Fundamentals of Acoustics)\n燃料电池和光伏系统1 (Fuel Cells and Photovoltaic Systems 1)\n显微结构和表面特性 (Microstructural and Surface Characterisation)\n硕士研究项目 (MSc Research Project)\n高级电气系统 (Advanced Electrical Systems)\n汽车动力系统 (Automotive Propulsion)\n低碳能源热流体工学 (Thermofluid Engineering for Low Carbon Energy)\n材料及零件失效 (Failure of Materials and Components)\n航天器推进 (Spacecraft Propulsion)",
+  "success_cases": ""
+}

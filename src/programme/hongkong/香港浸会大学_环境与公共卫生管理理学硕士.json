@@ -1,0 +1,12 @@
+{
+  "school_name": "香港浸会大学",
+  "major_name": "环境与公共卫生管理理学硕士",
+  "ename": "MSc Environmental and Public Health Management",
+  "tags": "工科,环境工程,理学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 135000港币/年",
+  "requirements": "具有认可大学或类似机构颁授的学士学位，不限专业背景；或\n具有高等学历，毕业后具备至少5年相关工作经验；或\n具备以上情况同等水平的资格。",
+  "objectives": "香港浸会大学环境与公共卫生管理理学硕士课程的主要目标是通过跨学科教学模式，将管理技术与科学中的环境资源管理和维护公共健康理念互相结合。课程内容着重于可持续发展和环境健康管理技术和风险管理。除了传统的环境问题，亦详细探讨经济、法规和政策、管理技术、社会和道德价值观、健康风险分析和保护环境之间的关系。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "环境管理原理 (Principles of Environmental Management)\n公共卫生管理 (Management of Public Health Risks)\n可持续发展管理系统 (Sustainable Management Systems)\n水土资源管理 (Land and Water Resources Management)\n综合废弃物管理 (Integrated Waste Management)\n研究与环境监测方法 (Research and Environmental Monitoring Methodology)\n食物质量, 法例及安全管理 (Food Quality, Law and Safety Management)\n职业健康安全管理 (Occupational Health and Safety Management)\n碳及能源管理 (Carbon and Energy Management)\n食品微生物学 (Food Microbiology)\n食品毒理学 (Food Toxicology)\n学位论文 (MSc Dissertation)",
+  "success_cases": ""
+}

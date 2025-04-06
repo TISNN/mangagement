@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "体育科技与管理理学硕士",
+  "ename": "MSc Sports Technology and Management",
+  "tags": "社科,体育,工程学院",
+  "introduction": "专业方向: 体育\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 160000港币/年",
+  "requirements": "具有学士学位，需要工程或应用科学背景；或具有体育科学学科或相关领域的学位；或具有同等学历\n具备体育相关服务和行业的相关毕业后经验者优先考虑",
+  "objectives": "香港理工大学体育科技与管理理学硕士项目有以下目标：培养具有专业能力、策略性思维及终身学习能力的体育科技及管理专业人才；为学生提供现代科学和工程知识，以及体育技术和管理实践所需的先进技术工具；通过高质量的教育，培养学生的批判性思维和解决问题的能力，使他们在体育技术和管理领域脱颖而出。这个多学科课程侧重于最新技术及其在体育和管理中的应用。学生可选择参加游学课程，参观本地、内地及/或海外与体育有关的机构（例如体育产品公司、专业体育组织、精英运动员训练设施、体育赛事管理公司等），并与体育科技及管理学科的专家互动。选择研究方向的学生可以在经验丰富的学术人员的指导下在世界一流的实验室之一进行实验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "体育人工智能与数据分析 (Artificial Intelligence and Data Analysis for Sports)\n临床及运动生物力学 (Clinical and Sports Biomechanics)\n追踪与分析运动表现的新科技 (Emerging Technologies for Performance Tracking and Analyses )\n运动装备及产品设计 (Sports Equipment and Product Design)\n运动营销与赛事管理 (Sports Marketing and Event Management)\n研究论文 (Dissertation)\n现代康复工程与机器人 (Modern Rehabilitation Engineering and Robotics)\n研究方法與生物統計學 (Research Methods and Biostatistics)\n体育科技智能材料 (Smart Materials for Sports Technology)\n运动创伤预防与健康管理 (Sports Injury Prevention and Health Management)\n体育考察交流 (Study Tour in Sports)\n数码健康的可穿戴技术 (Wearable Technology for Digital Health)",
+  "success_cases": ""
+}

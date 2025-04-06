@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "物理学理学硕士",
+  "ename": "MSc Physics",
+  "tags": "理科,物理,物理与天文学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 29030英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要物理或命名中包含物理的任何学位，伴随着相关课程申请者应当学习过以下列表中的至少四门课程：电磁、力学、量子力学、固体物理学、统计物理或统计力学",
+  "objectives": "谢菲尔德大学物理学理学硕士项目将通过物理研究前沿的主题加深学生对宇宙的理解。学生将有机会探索半导体物理和技术、量子力学、粒子物理、广义相对论、软物质和生物物理。课程中最大的一部分将是研究项目。学生将运用所学的知识和技能来研究物理学中的重要问题。这将包括审查研究文献，设计和使用定性和定量研究技术进行研究，处理和分析数据，口头和书面报告研究结果。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究项目 (Research project)\n物理研究技能 (Physics Research Skills)\n高等量子力学 (Advanced Quantum Mechanics)\n广义相对论概论 (An Introduction to General Relativity)\n粒子物理学的发展 (The Development of Particle Physics)\n高等电动力学 (Advanced Electrodynamics)\n暗物质和宇宙 (Dark Matter and the Universe)\n高级软物质与生物物理学 (Advanced Soft Matter and Biological Physics)\n固体的光学性质 (Optical Properties of Solids)\n固体物理学 (Solid State Physics)\n粒子物理学 (Particle Physics)\n企业文化中的物理学 (Physics in an Enterprise Culture)\n高级粒子物理学 (Advanced Particle Physics)\n化学元素的起源 (Origin of the Chemical Elements)\n量子光学和量子计算 (Quantum Optics and Quantum Computing)\n宇宙学概论 (Introduction to Cosmology)\n统计物理 (Statistical Physics)\n半导体设备物理与技术 (Semiconductor Physics and Technology)",
+  "success_cases": ""
+}

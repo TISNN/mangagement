@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,管理学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 31000英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要金融、会计或经济学相关学科背景，持有其他学科（金融占很大比重）一级荣誉学位的优秀申请者可以申请\n缺乏通常学历但具有适当专业资格（成绩优异）的学生将根据自身情况单独考虑。与金融相关的课程成绩平均必须为2:2（特别强调最后一年的金融课程）",
+  "objectives": "利物浦大学金融学理学硕士项目为学生提供金融学、金融经济学与实证金融学的基础教学。利物浦大学金融学理学硕士项目旨在帮助学生从事金融部门、政府机构与高等教育领域的工作。利物浦大学金融学理学硕士项目为学生提供现代金融学与经济学的基础训练，重点教授技术、模型及其在现实问题中的应用。\n利物浦大学金融学理学硕士项目不仅为学生打下坚实的学术基础，而且注重学生的个体发展。在利物浦大学金融学理学硕士项目中，学生将掌握企业期望毕业生具备的关键技能和“软”技能，包括团队合作能力、创造性思维能力和高效沟通能力。学生也将受益于利物浦大学金融学理学硕士项目独家策划的客座讲座与活动。最近的特邀嘉宾包括来自新史密斯资产管理与咨询合伙公司、汉堡王、瑞士联合银行与大东电报公司的高级管理人员。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司金融 (Corporate Finance)\n金融市场 (Financial Markets)\n资产组合理论 (Portfolio Theory)\n金融市场、金融监管和道德规范 (Financial Markets, Financial Regulation and Ethics)\n金融定量方法 (Quantitative Methods for Finance)\n证券分析及估值 (Security Analysis and Valuation)\n研究方法及模型 (Research Methods and Modelling)\n学位论文 (Dissertation)\n金融风险管理 (Financial Risk Management)\n财务报表分析 (Financial Statement Analysis)\n高级公司金融 (Advanced Corporate Finance )\n金融工程 (Financial Engineering)",
+  "success_cases": ""
+}

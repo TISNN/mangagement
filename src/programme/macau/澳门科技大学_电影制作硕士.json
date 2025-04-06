@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "电影制作硕士",
+  "ename": "Master of Film Production",
+  "tags": "社科,影视,人文艺术学院",
+  "introduction": "专业方向: 影视\n入学时间: 9月\n项目时长: 2年\n项目学费: 147500港币/年",
+  "requirements": "不局限于任何专业",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电影制作 I (Film Production I)\n世界电影史 (World Cinema History)\n电影制作 II (Film Production II)\n电影理论与评论 (Critical Issues on Film Theory)\n剧本创作I (Script Writing I)\n剧本创作II (Script Writing II)\n实习 (Internship)",
+  "success_cases": ""
+}

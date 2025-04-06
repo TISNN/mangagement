@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "网络安全理学硕士",
+  "ename": "MSc Cyber Security",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 24500英镑/年",
+  "requirements": "具有英国2:1学士学位或同等学历，不限专业背景，需要证明对网络安全的兴趣，一些选修课程要求申请者具备先前的编程知识和经验\n强烈建议没有编程经验的申请者学校应用程序编程，为其提供剩余课程所需的基础知识\n成功的申请者需要表现出对网络安全的兴趣以及良好的沟通和解决问题能力",
+  "objectives": "对于那些具有好奇心和塑造社会未来动力的人来说，这是一门完美的课程。\n您将发展一系列技能，以鼓励批判性和分析性思考，并帮助您传达想法。\n毕业后，您将有能力在各种行业工作，或通过进一步的学习继续发展自己的知识。\n互联网永远改变了我们的生活。\n可以说，这是近年来最激动人心和变革性的发展之一。\n现在，我们可以以前所未有的方式获取信息，有了志趣相投的朋友以及一系列潜在的问题。\n我们的网络安全理学硕士将使您全面了解我们高度互联的社会所面临的问题，以及我们现在面临的一些技术，立法和社会问题。\n您还将与来自行业的从业人员见面并由他们授课，他们将向您告知当前问题以及如何解决这些问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工业环境下的网络安全 (Cyber Security in Industrial Settings)\n论文 (Dissertation)\n互联网法律与治理 (Internet Law and Governance)\n网络安全概论 (Introduction to Cyber Security)\n高级编程概念和技术 (Advanced Programming Concepts and Techniques)\n应用程序编程 (Applications Programming)\n开发安全软件 (Developing Secure Software)\n网络安全与物联网 (Network Security and IOT)\n隐私和名誉的保护和管理 (The Protection and Management of Privacy and Reputation)",
+  "success_cases": ""
+}

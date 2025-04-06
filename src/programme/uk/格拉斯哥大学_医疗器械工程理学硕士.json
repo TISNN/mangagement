@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "医疗器械工程理学硕士",
+  "ename": "MSc Medical Devices Engineering",
+  "tags": "工科,其他工科,工程学院",
+  "introduction": "专业方向: 其他工科\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要任意工程学科背景或物理科学/数学学位背景，工程数学和/或数学课程的平均成绩为2:1学校也接受包括重要数学或工程数学课程的生物学、医学、生命科学学位\n学校可能会考虑具有2:2学位但核心课程成绩达到2:1的申请者对于那些不符合标准学术要求的学生，除了学术内容外，还可以考虑丰富的相关工作经验",
+  "objectives": "格拉斯哥大学医疗器械工程理学硕士项目面向拥有不同工程学科学士学位并希望将其背景知识和技能应用于医疗器械发展的学生，跨学科的引进和发展工程知识和生物医学应用的知识。该项目将使学生能够在英国和国际上立即在生物医学工程领域就业。设备监管和生物医学伦理学将作为工程和生物医学要素的基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "细胞与系统生物物理学M (Biophysics of Cells and Systems M)\n生物医学工程统计学3 (Statistics for Biomedical Engineering 3)\n生物标记信号处理M (Signal Processing of Biosignatures M)\n生物传感器与诊断学M (Biosensors and Diagnostics M)\n生物医学工程的创业精神 (Entrepreneurship in Biomedical Engineering)\n生物医学工程的生物伦理学4 (Bioethics for Biomedical Engineering 4)\n硕士项目 (Msc Project)\n康复工程M (Rehabilitation Engineering M)\n数字信号处理 (Digital Signal Processing)\n实时嵌入式编程 (Real Time Embedded Programming)\n网络安全基础(M) (Cyber Security Fundamentals (M))\n移动人机交互(M) (Mobile Human-computer Interaction (M))\n显微镜与光学M (Microscopy and Optics M)\n纳米制备 (Nanofabrication)\n组织与细胞工程 (Tissue and Cell Engineering 4y Option)",
+  "success_cases": ""
+}

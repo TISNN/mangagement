@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "金融学理学硕士（CUHK-Shenzhen）",
+  "ename": "MSc Finance (CUHK-Shenzhen)",
+  "tags": "商科,金融,深圳校区",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 2年\n项目学费: 144000人民币/年",
+  "requirements": "申请者需毕业于认可的大学并获得学士学位，需要提供B等级证明，或获得等同大学本科的资历",
+  "objectives": "香港中文大学（深圳）金融学硕士项目旨在培养具有深厚理论培训和实践能力的卓越的高技能专业人员。课程由世界一流的、受过国际培训的教师和非常成功的高级金融从业人员共同教授。香港中文大学（深圳）金融学硕士项目课程提供两个专业，即金融科技和金融管理，使学生能够发展金融业的专业技能。\n金融科技专业强调的是技术在金融服务中的新应用。它既提供了对各种金融科技主题（如机器学习、区块链、云计算、大数据）的广泛和深入的看法，也帮助学生发展编程技能。新的金融科技专业将帮助学生学习技能，以创新和建立未来的金融技术。金融科技专业欢迎来自不同领域的具有定量能力的学生，包括但不限于工程、数学、金融和商业。\n金融管理专业提供具有深厚理论基础的课程，并辅以实际应用。该专业旨在满足快速变化的金融和投资领域的专业人士的需求。课程为各种金融职业提供培训，不仅在银行、共同基金、经纪和投资银行公司等传统领域，而且在监管、政府和学术等相关领域。金融管理专业适合所有对现代金融领域的高级培训感兴趣的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "财务报表分析 (Financial Statement Analysis)\n公司金融 (Corporate Finance)\n衍生品市场 (Derivatives Markets)\n投资管理及分析 (Investment Management and Analysis)\n金融科技分析：进阶编程与大数据 (FinTech Analytics: Advanced Programming and Big Data)\n金融科技理论与实践 (Fintech Theory and Practice)\n金融科技与人工智能 (FinTech and Artificial Intelligence)\n金融区块链 (Financial Blockchain)\n电子表格/VBA金融建模 (Spreadsheet/VBA Financial Modeling)\n投资组合和资产管理 (Portfolio and Asset Management)\n固定收益证券分析 (Fixed Income Securities Analysis)\n当代中国金融问题与挑战 (Contemporary Chinese Financial Issues and Challenges)\n行为金融学 (Behavioral Finance)\n随机模型 (stochastic model)\n中国金融体系 (Chinese financial system)",
+  "success_cases": ""
+}

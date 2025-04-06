@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "英语语言理学硕士",
+  "ename": "MSc English Language",
+  "tags": "社科,语言,哲学、心理学与语言科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要语言学或英语语言与语言学背景\n学校也会考虑具有现代或古典语言或人文学科（如英国文学或历史）的荣誉学位并且申请表现出对英语语言学特别感兴趣的申请者",
+  "objectives": "爱丁堡大学为国际知名的英语语言研究和教学中心，其英语语言理学硕士项目深入研究英语语音、句法和语义的结构及其发展史，世界一流的教师团队不仅教授历史悠久、极具地域差异的英语语言基础知识，还详细向学生解说英语在英国及世界各国的使用方式，学生毕业后可从事实务工作，或继续深造攻读博士学位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语言研究导论 (Introduction to Language Research)\n音系学导论 (Introduction to Phonology)\n句法导论 (Introduction to Syntax)\n英语语言史 (History of the English Language)\n认知语言学 (Cognitive Linguistics)\n音系学当下议题 (Current Issues in Phonology)\n句法学当下议题 (Current Issues in Syntax)\n历时语言学 (Diachronic Linguistics)\n早期日耳曼方言 (Early Germanic Dialects)\n全球英语 (Global Englishes)\n历史音系学 (Historical Phonology)\n话语分析导论 (Introduction to Discourse Analysis)\n词法学导论 (Introduction to Morphology)\n社会语言学导论 (Introduction to Sociolinguistics)\n语言变异与变化 (Language Variation & Change)",
+  "success_cases": ""
+}

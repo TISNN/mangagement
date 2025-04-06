@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "高级化学工程理学硕士",
+  "ename": "MSc Advanced Chemical Engineering",
+  "tags": "工科,化工,化学工程学院",
+  "introduction": "专业方向: 化工\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有2:1学位，需要工程、物理科学、数学、生命科学或生物医学科学背景\n需要申请ATAS证书",
+  "objectives": "帝国理工学院高级化学工程理学硕士学位课程使学生掌握适当的基本科学、数学及计算技术背景，学生能够从事化学工程高级研究。\n帝国理工学院高级化学工程理学硕士学位课程的分支专业（生物技术、过程系统工程、结构产品工程）使学生更深入探索化学工程的特定领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级工艺设计 (Advanced Process Design)\n高级环境工程 (Advanced Environmental Engineering)\n高级生物过程工程 (Advanced Bioprocess Engineering  )\n高级工艺操作 (Advanced Process Operations)\n应用光谱学 (Applied Spectroscopy)\n胶体与界面科学 (Colloid and Interface Science)\n过程系统的动态行为 (Dynamic Behaviour of Process Systems)\n化学工程中的动力系统 (Dynamical Systems in Chemical Engineering)\n化学工程机器学习 (Machine Learning for Chemical Engineering)\n制药工艺开发 (Pharmaceutical Process Development)\n石油和天然气工业的实用过程工程 (Practical Process Engineering in the Oil and Gas Industry)\n生物系统中的运输过程 (Transport Processes in Biological Systems)\n高级流体力学 (Advanced Fluid Mechanics)\n碳捕获与清洁化石燃料 (Carbon Capture and Clean Fossil Fuels)\n膜科学与膜分离过程 (Membrane Science and Membrane Separation Processes)",
+  "success_cases": ""
+}

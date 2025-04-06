@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "生物医学工程理学硕士（可跨申）",
+  "ename": "MSc Biomedical Engineering (Conversion)",
+  "tags": "工科,生物工程,工程与材料科学学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有本科2:2学位或以上学历，需要理科（如生物学、生物技术、生物医学科学、生物化学、医学、生命科学、化学科学、药理学、制药科学等）背景",
+  "objectives": "生物医学工程的研发和研究具有跨学科性，主要解决生物与医药问题。伦敦大学玛丽皇后学院生物医学工程理学硕士（无专业背景）项目学制一年，适合拥有理科背景（如数学、物理学、生物学或化学）但是未来想要从事生物医学工程的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程方法 (Engineering Methods)\n工程师必备的数学技能 (Essential Mathematics Skills for Engineers)\n工程仪表 (Engineering Instrumentation)\n设计中的材料选择 (Materials Selection in Design)\n手术技术与安全 (Surgical Techniques & Safety)\n纳米技术与纳米医学 (Nanotechnology and Nanomedicine)\n高级组织工程与再生医学 (Advanced Tissue Engineering and Regenerative Medicine)\n医学工程生理学 (Physiology for Medical Engineers)\n伦理与监管事务 (Ethics and Regulatory Affairs)\n计算流体力学 (Computational Fluid Dynamics)",
+  "success_cases": ""
+}

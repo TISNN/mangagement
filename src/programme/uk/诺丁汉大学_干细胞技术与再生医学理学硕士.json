@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "干细胞技术与再生医学理学硕士",
+  "ename": "MSc Stem Cell Technology and Regenerative Medicine",
+  "tags": "理科,生物,医学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 38400英镑/年",
+  "requirements": "具有2:1学位或同等学历，如果申请者的第一学位不是基于生物学的，还必须达到A level生物学Grade B或以上成绩\n具有2:2本科学位的申请者如果能通过至少6个月在工业或学术界的工作展现出实践技能，其申请将会被考虑，所有2:2学位的学生都需要参加面试",
+  "objectives": "诺丁汉大学干细胞技术与再生医学理学硕士课程将使学生了解我们如何获得和维持成人、胚胎和多能干细胞以及它们修复组织损伤和治愈糖尿病、癌症、帕金森氏症和痴呆症等疾病的潜力。加深学生对学习干细胞科学所需的实用技能和技术的了解。学生还将深入了解与他们打交道的业务、道德和法律方面。课程最终将完成一个为期六个月的深入独立研究项目。学生将学习个人感兴趣的主题，与该领域的专家合作，并在我们新的生物发现研究所使用一些最新技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "细胞、发育和分子生物学 (Cell, Developmental and Molecular Biology)\n多能干细胞 (Pluripotent Stem Cells)\n成人和胎儿干细胞 (Adult and Foetal Stem Cells)\n干细胞转化技术 (Translational Technologies for Stem Cells)\n研究技能与技术开发 (Research Skills and Technology Exploitation)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

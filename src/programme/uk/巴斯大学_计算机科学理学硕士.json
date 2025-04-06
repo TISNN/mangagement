@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "计算机科学理学硕士",
+  "ename": "MSc Computer Science",
+  "tags": "工科,计算机,计算机科学系",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有一等或strong 2nd荣誉学士学位或同等学历\n可以拥有任何学科的本科学位，但申请者必须通过学位学习或其他方式证明相关的定量技能（尤其是代数和微积分）\n本课程可能不适合拥有计算机科学本科学位的申请者",
+  "objectives": "获得计算机科学的实践和理论知识，以补充您的第一学位。您将为从事各种技术职业做好准备。\n本课程旨在满足不断增长的需求，他们既受过一门学科的培训，也擅长计算机科学的技能。\n您将在编程，软件开发和现代主题方面打下坚实的基础。\n这门课程让您对计算机科学有一个大致的了解，并有机会专门研究一些不同的研究领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "编程原理 (Principles of programming)\n软件工程 (Software engineering)\n数据库 (Databases)\n计算的基础 (Foundations of computation)\n研究研讨会 (Research seminar)\n研究项目的准备 (Research project preparation)\n函数式编程 (Functional programming)\n加上可选的单位 (Plus optional units)\n论文 (Dissertation)\n创业 (Entrepreneurship)\n人工智能 (Artificial intelligence)\n人机交互理论 (Theory of human computer interaction)\n密码学 (Cryptography)\n协作系统 (Collaborative systems)\n交互式通信设计 (Interactive communication design)\n智能控制和认知系统 (Intelligent control and cognitive systems)\n安全性和完整性 (Security and integrity)",
+  "success_cases": ""
+}

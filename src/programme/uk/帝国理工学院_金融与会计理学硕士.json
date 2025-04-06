@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "金融与会计理学硕士",
+  "ename": "MSc Finance and Accounting",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 47500英镑/年",
+  "requirements": "具有一等或2:1学位，需要定量学科背景，例如金融、会计、经济、数学、工程、科学或商业\n申请者应该精通概率、微积分、矩阵代数和实分析\n不要求GMAT，但均衡的GMAT成绩将有助于申请，GMAT百分位排名至少需要达到55%，如果参加了GMAT Exam (10th Edition)成绩需要至少达到600（当前平均分为666）\n具备GRE成绩（定量部分159分）也将有助于申请，强烈建议定量背景较弱的申请者提交GMAT或GRE\n需要有一个经过充分研究的职业规划，包含明确的短期和长期目标",
+  "objectives": "通过帝国理工学院金融与会计理学硕士项目的学习，学生既能掌握金融学的基础知识，也可了解金融与会计行业中的实践方法，包括企业财务战略、项目管理以及企业评估中运用的先进技术。帝国理工学院金融与会计理学硕士项目适合拥有各类商业背景，且有意进入金融领域工作的学生。帝国理工学院金融与会计理学硕士项目营造了学术严谨性和现实针对性相融合的良好氛围，确保学生既可把握金融基础知识，修读领域内的专业知识，又能在选修课和课题研究中获得实践经验。在完成帝国理工学院金融与会计理学硕士项目的学习以后，学生将能够：学会编制财务报表，了解如何利用财务报表制定决策，尤其是在资金预算与评估领域内。充分掌握非金融企业和金融企业所处的法律和监管环境；制定企业战略，并用详细的定价方案对战略思想提供必要支持；运用批判性思维学习金融学基础理论和模型，分析其在现实金融市场中的运用；运用金融模型审视资金解决方案，并管理企业风险；应用数学工具解决财务问题，包括金融工具与产品的定价；分析经济数据和金融数据，并评估投资决策：学生应当具备运用计量经济学理论和软件得出有效结论的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计与估价 (Accounting and Valuation)\n会计入门 (Accounting Primer)\n高级公司金融 (Advanced Corporate Finance)\nR语言金融应用 (Application of R for Finance)\n应用计量经济学 (Applied Econometrics)\n应用项目 (Applied Project)\n公司金融 (Corporate Finance)\n公司金融管理和战略 (Corporate Financial Management & Strategy)\n金融道德与专业标准 (Ethics and Professional Standards in Finance)\n金融职业入门 (Finance Careers Primer)\n金融会计 (Financial Accounting)\n金融建模 (Financial Modelling)\n衍生工具基础 (Fundamentals of Derivatives)\n投资与投资组合管理 (Investments and Portfolio Management)\n管理会计 (Management Accounting)",
+  "success_cases": ""
+}

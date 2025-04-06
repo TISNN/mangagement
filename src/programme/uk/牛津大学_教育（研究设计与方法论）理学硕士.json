@@ -1,0 +1,12 @@
+{
+  "school_name": "牛津大学",
+  "major_name": "教育（研究设计与方法论）理学硕士",
+  "ename": "MSc Education (Research Design and Methodology)",
+  "tags": "社科,教育,教育系",
+  "introduction": "专业方向: 教育\n入学时间: 10月\n项目时长: 1年\n项目学费: 38410英镑/年",
+  "requirements": "具有一等或strong 2:1荣誉学位，需要相关学科背景（偏好社会科学）\n对于拥有美国学士学位的申请者，通常需要满足本科水平要求的最低总体GPA为4.0分中的3.6分\n需要2篇written work（每篇不超过2000字）",
+  "objectives": "牛津大学教育（研究设计与方法论）理学硕士项目旨在向学生介绍教育研究所需的各种工具和概念，并为学生提供进行独立研究和评估他人研究所需的知识，培养相关技能。牛津大学教育（研究设计与方法论）理学硕士项目课程涵盖数据收集和数据分析的一系列定量和定性方法，并介绍在教育领域开展社会研究所面临的挑战。牛津大学教育（研究设计与方法论）理学硕士项目特点是所有学生都可以参加一个“实习”项目，期间他们会与一个正在进行研究项目的学者一起工作，通过参与各种各样的研究来获得经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "基础教育研究1:概念和设计 (Foundations of Educational Research 1: Concepts and Design)\n基础教育研究2:策略和方法 (Foundations of Educational Research 2: Strategies and Methods)\n哲学教育研究 (Philosophy of Educational Research)\n介绍了定量研究 (Introduction to Quantitative Research)\n定性研究展望 (Perspectives on Qualitative Research)\n中间定量研究 (Intermediate Quantitative Research)",
+  "success_cases": ""
+}

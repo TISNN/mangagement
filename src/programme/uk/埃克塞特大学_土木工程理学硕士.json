@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "土木工程理学硕士",
+  "ename": "MSc Civil Engineering",
+  "tags": "工科,土木工程,工程、数学与物理科学学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 30300英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，通常需要科学或工程学科背景，但学校会根据申请者的优点单独考虑",
+  "objectives": "土木工程对于日常生活中基础设施的可持续发展至关重要，从建筑到道路、桥梁和水路，随着现代文明需求的增长，对于创新方案的需求也日益增长。埃克塞特大学土木工程理学硕士项目将最新科学发展与广泛的土木工程学科结合起来，为学生提供土木工程学科的深层次知识，尤其是岩土工程和结构工程。学生将了解如何分析、设计、建设和维护基础设施，并将所学理论应用于复杂问题的解决。该项目将为学生在土木工程行业的成功就业奠定基础，使学生具备在建设社会基础设施和维持环境质量进程中担任领导角色所需的知识和技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机辅助工程设计 (Computer Aided Engineering Design)\n材料力学 (Mechanics of Materials)\n高级结构工程 (Advanced Structural Engineering)\n高级岩土工程 (Advanced Geotechnical Engineering)\n结构设计 (Structural Design)\n可持续工程 (Sustainable Engineering)\n论文 (MSc Dissertation)\n工程程序设计 (Programming for Engineering)\n振动工程 (Vibration Engineering)",
+  "success_cases": ""
+}

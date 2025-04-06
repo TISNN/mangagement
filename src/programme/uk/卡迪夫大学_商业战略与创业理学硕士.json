@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "商业战略与创业理学硕士",
+  "ename": "MSc Business Strategy and Entrepreneurship",
+  "tags": "商科,创业与创新,商学院",
+  "introduction": "专业方向: 创业与创新\n入学时间: 9月\n项目时长: 1年\n项目学费: 28450英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，不限专业\n如果申请者没有学位，学校会考虑专业经验，需要提交相关证据支持",
+  "objectives": "卡迪夫大学商业战略与创业理学硕士项目适合希望在创业或者投身于促进现有企业发展壮大的工作之前接受严格基础培训的学生。卡迪夫大学商业战略与创业理学硕士项目的教学涵盖最佳商业实践及其基本原则的相关知识，将培养学生掌握必备技能。在此基础上，学生将有机会在学术人员、企业赞助商或企业家的支持下创建和发展新企业。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "经济和商业环境 (Economics and the Business Environment)\n实践和反思 (Reflective Perspectives and Practices)\n新创企业 (New Venture Creation)\n创业金融学 (Entrepreneurial Finance)\n创新管理 (Innovation Management)\n创业企业成长和发展 (Venture Growth and Development)\n创业营销 (Entrepreneurial Marketing)\n领导力和个人发展 (Leadership and Personal Development)\n创业计划 (New Venture Plan)",
+  "success_cases": ""
+}

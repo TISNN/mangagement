@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "统计与数据科学高级研究理学硕士",
+  "ename": "MSc Advanced Studies in Statistics and Data Science",
+  "tags": "理科,数学,理学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 208000港币/年",
+  "requirements": "毕业于受认可大学并获得统计学或相关学科的学士学位，需要提供B等级证明，或在高等教育机构完成学习课程并获得相当于荣誉学位的专业或类似资格\n申请者除了应具备扎实的统计学知识，还需要具备多元微积分、线性代数和计算机编程知识",
+  "objectives": "香港中文大学统计与数据科学高级研究理学硕士项目是为具有强大的统计和数据科学背景以及对进一步探索这些学科感兴趣的学生量身定制的。该项目提供先进的理论和实践培训，使毕业生具备知识发现和决策所必需的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级统计推断 (Advanced Statistical Inference)\n统计机器学习 (Statistical Machine Learning)\n数据科学应用线性模型 (Applied Linear Models for Data Science)\n高维数据分析 (High-dimensional Data Analysis)\n离散数据分析 (Discrete Data Analysis)\n数据科学优化 (Data Science Optimization)\n数据管理 (Data Management)\n高级时间序列 (Advanced Time Series)\n生物医学研究中的统计方法 (Statistical Methods in Biomedical Research)\n贝叶斯统计在机器学习中的应用 (Bayesian Statistics with Applicationins in Machine Learning)\n应用深度学习 (Applied Deep Learning)\n研究工作室 (Research Workshop)",
+  "success_cases": ""
+}

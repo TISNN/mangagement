@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "数码金融科技理学硕士",
+  "ename": "MSc Digital Financial Technology",
+  "tags": "商科,金工金数,计算机学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 8月\n项目时长: 1.5年\n项目学费: 47088新币/年",
+  "requirements": "具有计算机学士学位；或\n具有相关学科（如科学、技术、工程和数学（STEM）、金融、经济、统计学或商业）学士学位。\n相关学科学士学位持有者需要具备2年金融科技或信息技术行业经验\n有金融科技、人工智能或数据分析工作经验者优先考虑（但不是必需的），非计算机专业的学生必须提供足够的python编程知识和/或学习高级定量科目的证据。不符合上述要求的特殊学生仍可能被考虑。除上述学历外，其他学历的申请者可根据具体情况考虑录取。\n偏好GRE320（分析写作3.5）或GMAT 700的申请者（不强制要求）",
+  "objectives": "新加坡国立大学数码金融科技理学硕士由亚洲数字金融学院（AIDF）、新加坡国立大学计算学院和新加坡国立大学商学院联合提供。金融科技（Financial technology，简称FinTech），指的是旨在与传统金融服务商业模式竞争的广泛的技术与创新。由于云计算、数据分析和人工智能技术的进步，金融科技的应用在过去十年中爆发式增长。为了满足新加坡和全球对高素质金融科技人才不断增长的需求，这个新的金融科技旗舰研究生课程旨在帮助学生在计算和金融方面打下坚实的基础，并提供一系列选修模块，这些模块分为三个方向：计算技术、金融数据分析和情报，以及数字金融交易和风险管理。新加坡国立大学数码金融科技理学硕士主要旨在帮助毕业生为人工智能软件开发人员、数据科学家、金融科技安全专家、金融量化分析师和金融机构或金融科技公司的其他类似职业做好准备。\n新加坡国立大学数码金融科技理学硕士课程主要面向计划在金融机构或金融科技公司工作的学生，他们可以是（AI）软件开发人员、数据科学家、金融科技安全专家或金融定量分析师。除了帮助学生在计算机和金融领域打下坚实的基础之外，课程还提供涵盖深度计算机和金融专业知识的选修模块，支持毕业生为金融科技领域的未来职业挑战做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "面向消费者的金融科技创新 (Fintech Innovations for Consumers)\n金融机构数字化转型 (Digital Transformation at Financial Institutions)\n区块链创新 (Blockchain Innovations)\n区块链应用编程 (Programming for Blockchain Applications)\n金融机器学习 (Machine Learning for Finance)\n金融建模 (Financial Modelling)\n金融概论 (Introduction of Finance)\n软件开发基础 (Software Development Fundamentals)\n数据结构与算法 (Data Structures and Algorithms)",
+  "success_cases": ""
+}

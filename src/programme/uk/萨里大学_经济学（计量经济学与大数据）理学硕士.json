@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "经济学（计量经济学与大数据）理学硕士",
+  "ename": "MSc Economics (Econometrics and Big Data)",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 21800英镑/年",
+  "requirements": "具有2:1英国荣誉学位，需要化学、计算机科学、经济学、工程学、数学、物理学、统计学背景\n或者，具有其他学位专业背景，并且在宏观经济学和微观经济学课程中成绩达到60%（英国或同等水平），在代数、微积分、数学、概率、定量方法或统计学中的1门课程中成绩达到60%（英国或同等水平）\n不符合上述入学要求但持有相关学科2:2学位并且在与申请专业相关的职位上具备至少12个月毕业后工作经验的申请者仍可能被考虑",
+  "objectives": "经济学帮助我们破译和塑造我们复杂的世界。它对个人、企业和政府的决策如何影响每个人生活的重要方面提供了无与伦比的见解，包括就业机会、产品和服务的价格以及整体生活水平。\n萨里大学经济学（计量经济学与大数据）理学硕士将帮助学生在本科学习的基础上发展该学科的高级能力，重点是定量技术及其使用大数据的应用。随着政策制定者（如中央银行）、企业和金融公司越来越多地使用大型和复杂的数据集来推进他们的目标、发现趋势和提取价值，对具有正确理论和实践知识的能够处理数据的专业人员的需求出现了使用正确的机器学习和计量经济学估计技术。\n萨里大学经济学（计量经济学与大数据）理学硕士旨在帮助学生为一系列职业做好准备，在这些职业中需要高级定量技能和使用计量经济学处理大数据的能力。此外，该项目的毕业生也很适合进一步学习经济学或计量经济学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级经济学定量方法 (Advanced Quantitative Methods in Economics)\n计量经济学 (Econometrics)\n宏观经济学 (Macroeconomics)\n微观经济学 (Microeconomics)\n高级微观经济学 (Advanced Macroeconomics)\n高级微观经济学 (Advanced Microeconomics)\n计量经济学在大数据中的应用 (Applications of Econometrics to Big Data)\n金融计量学 (Financial Econometrics)\n机器学习方法和大数据 (Machine Learning Methods and Big Data)\n数据科学数学 (Mathematics of Data Science)\n数据科学原理 (Principles of Data Science)\n金融理论与应用 (Theory and Applications in Finance)\n研究方法 (Research Methods)",
+  "success_cases": ""
+}

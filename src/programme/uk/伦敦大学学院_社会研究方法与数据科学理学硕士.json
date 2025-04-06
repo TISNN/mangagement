@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "社会研究方法与数据科学理学硕士",
+  "ename": "MSc Social Research Methods with Data Science",
+  "tags": "社科,社会学与社工,教育学院",
+  "introduction": "专业方向: 社会学与社工\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要社会科学学科背景",
+  "objectives": "伦敦大学学院社会研究方法与数据科学理学硕士课程旨在涵盖前沿的研究方法，重点是数据科学，用于整理证据，以分析、批判和评估社会科学中的实质性问题，如社会正义、健康差距、移民、犯罪、性别、政治认同。该课程的学生将深入学习数据科学，被鼓励运用自己对方法论的理解来评判现有的研究，设计自己的研究，进行自己的分析，并与学术专家和非专业人士进行清晰的沟通，所有学生都将获得一系列用于研究现实世界中感兴趣问题的方法的实践经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 ( Dissertation)\n高级定量方法 (Advanced Quantitative Methods)\n回归分析概论 (Introduction to Regression Analysis)\n现实世界中的数据分析 (Data Analysis in the Real World)\n了解社会科学的数据 (Understanding Data for the Social Sciences)\n影响评估方法 (Impact Evaluation Methods)\n纵向数据与分析 (Longitudinal Data and Analysis)\n使用国际数据的数据科学 (Data Science using International Data)\n高级定性方法 (Advanced Qualitative Methods)\n人种学 (Ethnography)\n定性方法概论 (Introduction to Qualitative Methods)\n交叉性与批判性定性研究 (Intersectionality and Critical Qualitative Research)\n研究参与、参加和影响 (Research Engagement, Participation and Impact)\n复杂政策问题系统评价 (Systematic Reviews for Complex Policy Issues)\n数字方法 (Digital Methods)\n系统评审设计与规划 (Systematic Review Design and Planning)\n系统评价综合方法 (Approaches to Systematic Review Synthesis)",
+  "success_cases": ""
+}

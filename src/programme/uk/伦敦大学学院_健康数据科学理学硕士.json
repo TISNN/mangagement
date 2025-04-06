@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "健康数据科学理学硕士",
+  "ename": "MSc Health Data Science",
+  "tags": "理科,数据科学,人口健康科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有2:1学士学位或同等学历，需要包含大量计算或数学元素的临床或科学学科背景，学生应了解统计学的基本概念例如抽样和变异，并熟悉简单的统计检验例如医学文献中用于假设检验的统计检验",
+  "objectives": "伦敦大学学院健康数据科学理学硕士项目培养学生探讨应用于数据密集型医学研究中的计算与统计方法，分析如何改善医学研究以及创造商业机遇，项目毕业生能够胜任学术界与业界的相关工作，并且大多数学生在毕业之际即找到相关带薪实习工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "流行病学原理在电子病历研究中的应用 (Principles of Epidemiology Applied to Electronic Health Records Research)\n卫生研究的数据方法 (Data Methods for Health Research)\n医学基础统计学 (Basic Statistics for Medical Sciences)\n回归模型 (Regression Modelling)\n健康数据科学原理 (Principles of Health Data Science)\n档案研究高级统计 (Advanced Statistics for Records Research)\n使用Python进行健康研究的科学软件开发 (Scientific Software Development with Python for Health Research)\n信息检索与数据挖掘 (Information Retrieval and Data Mining)\n保健系统信息学精要 (Essentials of Informatics for Healthcare Systems)\n医疗与生物医学中的机器学习 (Machine Learning in Healthcare and Biomedicine)",
+  "success_cases": ""
+}

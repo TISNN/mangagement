@@ -1,0 +1,12 @@
+{
+  "school_name": "哈佛大学",
+  "major_name": "生物统计硕士",
+  "ename": "Master of Science in Biostatistics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n入学时间: 秋季\n项目时长: 1-2年\n项目学费: 50469美元/年\n平均成绩: 3.5\n平均G: 325",
+  "requirements": "先修课：多元积分和一学期的线性代数以及编程语言的知识\n建议完成以下课程：概率、统计学、高级微积分或实分析以及数值分析统计计算包的实用知识,例如 SAS、Splus、R、Stata 或 SPSS\n如果对生物信息学感兴趣,已完成生物学、计算生物学和遗传学课程\n如果对生物信息学感兴趣,了解 Python 或 Perl 等脚本语言并熟悉关系数据库",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

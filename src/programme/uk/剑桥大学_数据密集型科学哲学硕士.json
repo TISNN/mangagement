@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "数据密集型科学哲学硕士",
+  "ename": "MPhil Data Intensive Science",
+  "tags": "理科,数据科学,物理学系",
+  "introduction": "专业方向: 数据科学\n入学时间: 10月\n项目时长: 1年\n项目学费: 38196英镑/年",
+  "requirements": "申请者应该具有英国Good II.i荣誉学位或同等学历\n申请者的学位应该是科学或技术学科，申请者应该在数学方面表现出足够的能力（特别是在线性代数、统计和概率领域），申请中还应展示足够的培训经历（参与至少2个辅修课程的科学内容）\n可选择性提交Sample of work以及Research experience",
+  "objectives": "剑桥大学数据密集型科学哲学硕士项目涵盖机器学习和人工智能、统计数据分析和研究计算领域的现代数据驱动科学所需的全部技能。\n剑桥大学数据密集型科学哲学硕士项目是与我们领先的研究人员和行业合作伙伴合作设计的，旨在为学生提供进行世界领先的数据密集型科学研究所需的理论知识、实践经验和可转移技能。学生将获得科学数据分析所需的广泛技能，涵盖传统统计技术和现代机器学习方法。将教授这些技术的理论基础和实际实施，后期包括软件开发最佳实践和开放科学原则的培训。该课程还旨在为学生提供将这些方法应用于特定科学领域当前研究问题的直接经验。完成课程的学生将有能力进行数据密集型科学项目的研究。除了学科之外，学生还将为在广泛的商业领域从事数据科学专业的职业做好充分准备。\n剑桥大学数据密集型科学哲学硕士项目将使学生具备现代科学数据分析所需的所有技能，使他们能够使用部署在前沿计算机体系结构上的最新统计和机器学习工具参与大型实验或观察计划。这些计算和统计技能也将直接适用于工业中数据驱动的问题解决。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用数据科学 (Applied Data Science)\n机器学习的应用 (Applications of Machine Learning)\n数据科学原理 (Principles of Data Science)\n数据科学的统计方法 (Statistical Methods for Data Science)\n研究计算 (Research Computing)\n高级研究计算 (Advanced Research Computing)\n数据科学在宇宙学中的应用 (Applications of Data Science to Cosmology)\nSKA 时代的大数据射电天文学 (Big Data Radio Astronomy in the SKA Era)\n近场宇宙学的银河考古学 (Galactic Archaeology for Near-field Cosmology)\n数据科学在引力波中的应用 (Applications of Data Science to Gravitational Waves)\n数据科学在高能物理中的应用 (Applications of Data Science to High Energy Physics)\n图像分析 (Image analysis)\n数据科学在医学影像 (Applications of Data Science to Medical Imaging)",
+  "success_cases": ""
+}

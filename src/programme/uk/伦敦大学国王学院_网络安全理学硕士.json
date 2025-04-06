@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "网络安全理学硕士",
+  "ename": "MSc Cyber Security",
+  "tags": "工科,计算机,自然、数学与工程科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 37800英镑/年",
+  "requirements": "具有high 2:1本科（荣誉）学士学位或同等学历，需要计算机科学或其他相关定量学科背景（如数学、统计学、物理学、自然科学、电子工程、通用工程、运筹学，或两个此类学科的联合学位），申请者还应具备基础数学的良好背景，特别是熟悉微积分、三角、线性代数、向量和矩阵数学的标准概念，此外，申请者应具备计算机编程能力，达到计算机科学理学学士荣誉学位第一学年结束时的预期水平",
+  "objectives": "伦敦大学国王学院计算与安全理学硕士课程旨在为毕业生提供评估、设计和构建计算机安全系统的知识和实践专业知识，以保护网络和数据免受网络犯罪或恐怖袭击。本课程是已经具备良好计算机科学基础的毕业生的理想学习途径。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "密码学 (Cryptography)\n安全管理 (Security Management )\n安全工程 (Security Engineering)\n安全测试 (Security Testing )\n网络安全 (Network Security )\n计算机取证与网络犯罪 (Computer Forensics & Cybercrime )\n单项工程 (Individual Project)\n分布式账本和加密货币 (Distributed Legers & Crypto-Currencies)\n大数据技术 (Big Data Technologies )\n机器学习 (Machine Learning)\n网络理论 (Network Theory )\n软件测量与测试 (Software Measurement and Testing)\n形式验证 (Formal Verification)\n人工智能推理与决策 (Artificial Intelligence Reasoning and Decision Making )",
+  "success_cases": ""
+}

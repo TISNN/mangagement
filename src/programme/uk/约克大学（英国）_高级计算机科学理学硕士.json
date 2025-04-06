@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "高级计算机科学理学硕士",
+  "ename": "MSc Advanced Computer Science",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 29400英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要计算机科学或相关学科背景，成功的申请者将在以下基本主题中展示强大的背景：编程、数学、软件工程和基本算法知识\n学校愿意考虑不符合这些条件但能够证明具备足够的计算机科学知识和经验成功完成该项目的申请者",
+  "objectives": "约克大学高级计算机科学理学硕士项目旨在为学生提供计算机科学领域前沿课题，帮助学生参与研究或尖端研究结果的开发与应用。通过开展个人项目，学生将成为所选领域的专家。约克大学高级计算机科学理学硕士项目鼓励学生得出自己的研究结果，为计算机科学领域博士阶段的学习奠定基础。约克大学高级计算机科学理学硕士项目毕业生将会有如下学习成果：了解计算机科学领域高等水平的不同课题；了解计算机科学领域自选课题方面的研究文献、基本原理和研究技术；从事高级独立研究并开发自我激励和组织能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "并发程序设计和实时编程 (Concurrent and Real Time Programming)\n函数式编程技术 (Functional Programming Technology)\n量子计算 (Quantum Computation)\n模型驱动工程 (Model-Driven Engineering)\n面向服务的架构 (Service-Oriented Architecture)\n高级计算机科学个人项目 (Quantum Computation)\n量子信息处理 (Service-Oriented Architecture)\n自然语言处理 (Natural Language Processing)\n适应和学习代理 (Adaptive and Learning Agents)\n密码学理论和应用 (Cryptography Theory and Applications)",
+  "success_cases": ""
+}

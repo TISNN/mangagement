@@ -1,0 +1,12 @@
+{
+  "school_name": "考文垂大学",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,商业与法律学院",
+  "introduction": "专业方向: 金融\n入学时间: 5/9月\n项目时长: 1年\n项目学费: 20050英镑/年",
+  "requirements": "具有2:2荣誉学位，不限专业，或金融领域适当的工作经验以及相关专业资格",
+  "objectives": "考文垂大学金融学理学硕士课程旨在为学生提供专业的金融技能和知识——从衍生品、投资组合理论到风险管理、金融建模和道德金融。它是为那些追求金融相关职位的人设计的，他们希望能够在一个复杂的全球环境中评估金融对企业的影响。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "财务报表分析 (Financial Statements Analysis)\n衍生产品 (Derivatives)\n公司金融 (Corporate Finance)\n定量方法 (Quantitative Methods)\n行为金融学 (Behavioural Finance)\n国际风险管理 (International Risk Management)\n治理，问责制与道德 (Governance, Accountability and Ethics)\n机构投资 (Institutional Investments)\n项目 (Project)\n全球专业发展-咨询 (Global Professional Development - Consultancy)",
+  "success_cases": ""
+}

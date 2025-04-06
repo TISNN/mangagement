@@ -1,0 +1,12 @@
+{
+  "school_name": "肯特大学",
+  "major_name": "法学硕士（法律与健康）",
+  "ename": "LLM (Law and Health)",
+  "tags": "社科,法律,肯特法学院",
+  "introduction": "专业方向: 法律\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 20700英镑/年",
+  "requirements": "具有一等或2:1荣誉学位或同等学历，需要法律或相关学科背景，学校也欢迎具有2:2荣誉学位的申请者（将根据具体情况以及相关专业经验和其他资格予以考虑）\n所有申请者都将根据具体情况予以考虑，其他资格、专业资格和相关经验也可能被考虑在内",
+  "objectives": "肯特大学法学硕士（法律与健康）项目旨在通过世界领先的研究，使学生了解正在发挥作用的广泛法律、伦理和原则，探索影响卫生监管的政治、社会和体制背景，并分析卫生、法律和监管之间的复杂相互关系。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "医疗保健监管 (The Regulation of Healthcare)\n医疗法律与伦理 (Healthcare Law and Ethics)\n隐私和数据保护法 (Privacy and Data Protection Law)\n健康、贫穷和社会公正 (Health, Poverty and Social Justice)\n生殖公正 (Reproductive Justice)\n全球卫生法律、治理和伦理 (Global Health Law, Governance and Ethics)",
+  "success_cases": ""
+}

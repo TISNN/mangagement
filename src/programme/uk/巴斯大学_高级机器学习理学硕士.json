@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "高级机器学习理学硕士",
+  "ename": "MSc Advanced Machine Learning",
+  "tags": "工科,计算机,计算机科学系",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 33200英镑/年",
+  "requirements": "具有一等或strong 2nd荣誉学士学位或同等学历\n申请者应该具备数学学科（如计算机科学、数学、物理学或工程学）的本科学位，能够证明熟练掌握数学主题知识如微积分和线性代数，具备良好的概率和统计学知识，并在编程（特别是Python）方面有坚实的基础",
+  "objectives": "机器学习正在改变现代社会，改变医疗保健、金融甚至娱乐等行业。机器学习的前景正在迅速发展，新的发展为越来越多的创新技术应用铺平了道路。巴斯大学高级机器学习理学硕士课程为学生提供设计、开发和部署机器学习系统所需的高级知识和技能，学生将学习机器学习的基本概念，例如监督学习，以及一系列基线机器学习算法，包括线性和逻辑回归、支持向量机和决策树。学生还将了解最前沿的方法，为在医疗保健、自动驾驶汽车、金融、自然语言处理和计算机视觉等各种行业开展职业生涯做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用机器学习 (Applied Machine Learning)\n基础机器学习 (Foundational Machine Learning)\n操作软件技术 (Operational Software Technologies)\n强化学习 1 (Reinforcement Learning 1)\n理解深度学习 (Understanding Deep Learning)\n机器学习的前沿 (Frontiers of Machine Learning)\n研究与开发项目技能 (Research and Development Project Skills)\n专业项目 (Specialist Project)",
+  "success_cases": ""
+}

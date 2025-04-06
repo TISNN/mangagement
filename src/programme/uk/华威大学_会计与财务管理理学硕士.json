@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "会计与财务管理理学硕士",
+  "ename": "MSc Accounting & Financial Management",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 1年\n项目学费: 42730英镑/年",
+  "requirements": "具有2:1本科学位，不需要GMAT或GRE成绩（不会视为申请的一部分或影响申请结果）",
+  "objectives": "华威大学会计与财务管理理学硕士项目旨在帮助学生掌握分析和解决会计和财务管理中现实世界挑战的艺术，同时发展关键技能，推动其职业发展。无论学生是想加快目前的职业道路还是想进入会计和金融领域，本课程都将为其提供在当今充满活力的商业环境中脱颖而出的工具和知识，拓宽会计与金融应用的知识，并能够提出、解释和诠释理论概念，然后将在证据的基础上批判性地评估这些理论，推断出适用于在工作场所可能遇到的情况的结论。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "财务管理基础 (Foundations of Financial Management)\n高级财务管理 (Advanced Financial Management)\n数据分析 (Data Analytics)\n会计与财务管理实务 (Accounting and Financial Management in Practice)\n治理和利益相关者参与 (Governance and Stakeholder Engagement)\n会计与财务管理职业和就业能力 (Accounting and Financial Management Careers and Employability)\n决策管理会计 (Management Accounting for Decision Making)\n分析价值创造 (Analysing Value Creation)\n论文或商业实践 (Dissertation or Business in Practice.)\n金融科技：数字货币和去中心化金融 (FinTech: Digital Currencies and Decentralised Finance)\n行为金融学 (Behavioural Finance)\n另类投资 (Alternative Investments)\n可持续发展报告 (Sustainability Reporting)\n财务会计：理论与背景 (Financial Accounting: Theory and Context)\n并购与公司控制 (Mergers & Acquisitions and Corporate Control)",
+  "success_cases": ""
+}

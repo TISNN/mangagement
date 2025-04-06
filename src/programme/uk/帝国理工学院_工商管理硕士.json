@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 73000英镑/年",
+  "requirements": "具有2:2学位或经认可的专业资格，并具备3年的连续相关全职工作经验，特殊情况下学校会考虑工作时间少于3年、具备优秀学术表现、出色职业发展以及国际工作经验的申请者，帝国理工学院全日制MBA学生入学时平均具备5年工作经验\n需要提交有效的GMAT或GRE成绩，GMAT百分位排名至少需要达到55%，如果参加了GMAT Exam (10th Edition)成绩需要至少达到600（当前平均分为666）\nGRE成绩需要达到语文部分不低于156，数学部分不低于158\n需要有一个经过充分研究的职业规划，包含明确的短期和长期目标",
+  "objectives": "帝国理工学院工商管理硕士这一一年全日制的密集MBA课程结合了学术的严谨性和实用性，在教学、学习、个人工作和小组工作之间有一种谨慎的平衡。课程通过案例研究和课堂讨论来加强学生的概念、分析和解决问题的能力。此外，专家嘉宾也会定期举办研讨会。学生的分析能力、创新能力和创业能力将受到挑战并得到拓展，而项目的选择将使学生能够将所学到的知识应用到实际情况中。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计 (Accounting)\n商业经济学 (Business Economics)\n公司金融 (Corporate Finance)\n决策分析 (Decision Analytics)\n设计思维与创新问题应对 (Design Thinking and Innovative Problem Solving)\n创新和创业 (Innovation and Entrepreneurship)\n投资和风险管理 (Investments and Risk Management)\n宏观经济学 (Macroeconomics)\n市场营销 (Marketing)\n公司运营 (Operations)\n组织行为 (Organisational Behaviour)\n战略难题应对 (Strategic Problem Solving)\n战略 (Strategy)\n个人领导力之路 (Personal Leadership Journey)",
+  "success_cases": ""
+}

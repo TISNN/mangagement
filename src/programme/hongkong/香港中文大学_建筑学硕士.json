@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "建筑学硕士",
+  "ename": "Master of Architecture",
+  "tags": "社科,建筑,社会科学学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 2年\n项目学费: 190000港币/年",
+  "requirements": "需要提供B等级证明，申请者应该具有职前的建筑学学位，例如香港中文大学的BSSc Architectural Studies、英国皇家建筑师协会认证的Part I学位或同等学历。\n申请者还应在完成本科学位后具备至少9个月的实际工作经验。拥有5年制建筑学本科专业学位的申请者可以豁免除实践培训的要求。\n需要提交设计作品集",
+  "objectives": "香港中文大学建筑学硕士学位课程是为立志于成为建筑师的学生开设的授课式硕士学位课程。申请者需要具有一个建筑学或相关专业的学位，或者相关建筑行业工作经验。香港中文大学建筑学硕士学位课程的学生在毕业时将拥有理解并应用建筑学专业知识与技能来解决建筑学问题的能力；会更深入的了解建筑学和社会科学、文化、美学等相关专业知识的融合；掌握建筑师所需的创意设计能力；具备开放性思维、灵活性、创造力以及有效的沟通技巧等建筑行业专业能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级建筑设计工作坊（一） (Advanced Architectural Design Studio I)\n城市设计工作坊（一） (Urban Design Studio I)\n建筑学理论与批评 (Architectural Theory and Criticism)\n高等环境系统 (Advanced Environmental Systems)\n高等结构与建造 (Advanced Structures and Construction)\n城市设计与规划 (Urban Design and Planning)\n论文（一） (Thesis Project I)\n论文（二） (Thesis Project II)\n建筑专业实践与管理 (Professional Practice and Management)\n建筑设计理论专题研究 (Topical Studies in Design Theory)\n建筑计算设计专题研究 (Topical Studies in Computational Design)\n建筑史、理论及批评专题研究 (Topical Studies in History, Theory and Criticism)\n建筑技术专题研究 (Topical Studies in Building Technology)\n专业建筑实践管理专题研究 (Topical Studies in Professional Practice Management)\n可持续设计专题研究 (Topical Studies in Sustainable Design)",
+  "success_cases": ""
+}

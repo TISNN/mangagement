@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "机器人学理学硕士",
+  "ename": "MSc Robotics",
+  "tags": "工科,计算机,航空航天",
+  "introduction": "专业方向: 计算机\n入学时间: 10月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "具有航空/航空航天工程、机械工程、电气/电子工程、纯数学、计算机科学、软件工程、机械电子工程、信息技术等领域背景",
+  "objectives": "机器人技术是近年来最热门的话题之一，机器人在工业环境和日常生活中变得无处不在，然而，随着机器人技术的逐步普及，机器人工程师的技能短缺也将随之扩大。克兰菲尔德大学机器人学理学硕士课程将为学生提供获得实际机器人编程经验的机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "机器人基础 (Fundamentals of Robotics)\n机器人控制 (Robotics Control)\n机器人人工智能与机器学习 (Artificial Intelligence and Machine Learning for Robotics)\n机器人编程方法 (Programming Methods for Robotics)\n人机交互 (Human-Robot Interaction)\n机器人机器视觉 (Machine Vision for Robotics)\n机器人系统自主性 (Autonomy in Robotic Systems)\n心理学，道德与标准 (Psychology, Ethics and Standards)",
+  "success_cases": ""
+}

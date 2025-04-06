@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "自主车辆动力学与控制理学硕士",
+  "ename": "MSc Autonomous Vehicle Dynamics and Control",
+  "tags": "工科,计算机,航空航天",
+  "introduction": "专业方向: 计算机\n入学时间: 10月\n项目时长: 1年\n项目学费: 29670英镑/年",
+  "requirements": "具有工程或工程科学、物理、应用数学或其他适当应用科学背景",
+  "objectives": "克兰菲尔德大学自主车辆动力学与控制理学硕士课程旨在为工程、物理或数学专业的毕业生提供可应用于安全、国防、海洋、环境和航空航天工业的高级技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "无人机系统（UAS）简介 (Introduction to Unmanned Aircraft Systems (UAS))\n无人机系统建模与仿真 (UAS Modelling and Simulation)\n传感器融合 (Sensor Fusion)\n自主系统人工智能 (Artificial Intelligence for Autonomous Systems)\n无人机系统制导和导航 (Guidance and Navigation for UAS)\n自主车辆控制系统 (Autonomous Vehicle Control Systems)\n无人机系统动力学与控制 (UAS Dynamics and Control)\n逻辑与自动推理 (Logic and Automated Reasoning)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "康奈尔大学",
+  "major_name": "工程硕士金工方向",
+  "ename": "Master in Engineering (MEng) with Financial Engineering Concentration and Cornell Financial Engineering Manhattan",
+  "tags": "商科,金工金数",
+  "introduction": "专业方向: 金工金数\n项目类别: STEM\n入学时间: 秋季\n项目时长: 3个学期\n项目学费: 87879美元\n项目规模: 27人\n平均G: 168\n就业比例: 90%\n平均起薪: 120960美元",
+  "requirements": "两个学期微积分,概率统计和/或随机过程,金融课程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

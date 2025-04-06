@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "可靠性工程与资产管理理学硕士",
+  "ename": "MSc Reliability Engineering and Asset Management",
+  "tags": "工科,工程管理,机械、航空航天及土木工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 34000英镑/年",
+  "requirements": "具有2:1英国荣誉学位或同等学历，需要相关理工科背景。在某些情况下学校会接受2:2学位，申请者需要具备先前的相关行业经验（通过最新的简历证明）",
+  "objectives": "可靠性工程和资产管理对于英国和国际产业来说是管理和技术的重要领域。据估计，全球每年有10%的典型工厂成本为维护成本，维护成本可能会影响企业在全球范围内的竞争力，这使维修管理人员对公司底线来说至关重要。\n曼彻斯特大学可靠性工程与资产管理理学硕士项目是提高工业竞争力的关键项目，涵盖了诸多学科，如：管理技术、组织、规划以及在制造工艺、运输、发电和工业、商业和民用建筑的有效运作中应用的大量电子、工程和分析知识，旨在为企业提供在全球市场的蓬勃发展所需的技术和管理专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文（REAM） (Dissertation (REAM))\n资产管理策略与组织 (Asset Management Strategy & Organisation)\n安全，立法和成本效益 (Safety, Legislation & Cost Effectiveness)\n资产维护系统 (Asset Maintenance Systems)\n基于机械振动的状态监测 (Machinery Vibration-based Condition Monitoring)\n可靠性和资产管理设计 (Design for Reliability & Asset Management)\n审计资产管理与维护组织 (Auditing Asset Management & Maintenance Organisations)\n可靠性，可维护性和风险 (Reliability, Maintainability & Risk)\n周转管理 (Turnaround Management)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "纽约大学",
+  "major_name": "网络安全理学硕士",
+  "ename": "MS in Cybersecurity",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 30学分\n项目学费: 53,760 美元",
+  "requirements": "申请者最好持有计算机科学,数学,科学或者工程学的学士学位；申请者具备数学,编程等相关学科背景。国际生申请必须提交GRE成绩。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

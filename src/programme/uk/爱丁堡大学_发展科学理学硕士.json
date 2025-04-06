@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "发展科学理学硕士",
+  "ename": "MSc Developmental Science",
+  "tags": "社科,其他社科,哲学、心理学与语言科学学院",
+  "introduction": "专业方向: 其他社科\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要心理学或认知科学相关学科背景\n申请者应该能够证明学习高级统计/计算分析技术的能力以及在以儿童为参与者进行研究方面的经验/兴趣",
+  "objectives": "爱丁堡大学发展科学理学硕士项目为发展科学的强化高级培训提供了机会。在这个课程中，学生将学习如何利用发展心理学、认知心理学、计算科学、神经科学、语言学等几个相互关联的学科的研究技术来解决发展科学中的关键问题。爱丁堡大学发展科学理学硕士课程旨在从发展科学的角度，增进学生对儿童和青少年典型和非典型发展的关键理论和实践问题的理解。它还旨在为学生提供进行独立科学研究所需的技能，以解决发展科学中的关键问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "心理学研究技能（一般高级研究方法论） (Psychological Research Skills (general advanced research methodology))\n使用R语言的单变量统计与方法（R语言和统计模型导论） (Univariate Statistics and Methodology using R (introduction to R and statistical models))\n使用R语言的多元统计与方法（高级统计建模） (Multivariate Statistics and Methodology using R (advanced statistical modelling))\n认知发展科学 (Cognitive Developmental Science)\n社会/情感发展科学 (Social/Affective Developmental Science)\n个性研讨会 (Seminar in Personality)\n当前的社会心理学方法 (Current Approaches in Social Psychology)\n语言心理学 (Psychology of Language)\n认知神经科学专业技术   (Specialist Techniques in Cognitive Neuroscience)\n认知神经科学中的脑成像 (Brain Imaging in Cognitive Neuroscience)\n临床神经心理学 (Clinical Neuropsychology)\n语言神经科学 (Neuroscience of Language)\n非典型发展 (Atypical Development)\n应用心理测试 (Applied Psychological Testing)\n定性研究方法 (Qualitative Research Methods)",
+  "success_cases": ""
+}

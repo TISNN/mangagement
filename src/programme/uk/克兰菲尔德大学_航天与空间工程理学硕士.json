@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "航天与空间工程理学硕士",
+  "ename": "MSc Astronautics and Space Engineering",
+  "tags": "工科,航空工程,航空航天",
+  "introduction": "专业方向: 航空工程\n入学时间: 10月\n项目时长: 1年\n项目学费: 29670英镑/年",
+  "requirements": "具有数学、物理或工程学科背景，一般来说学生都有物理和工程背景，其他科学、数学或计算背景的学生将根据具体情况考虑申请",
+  "objectives": "克兰菲尔德大学航天与空间工程理学硕士项目适合工程、物理或数学专业的毕业生，旨在让他们为在这个令人兴奋的领域开展职业生涯做好准备。该项目涵盖地球观测到行星探索，从发射飞行器到航天器操作等各个方面。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "天体动力学与任务分析 (Astrodynamics and Mission Analysis)\n空间系统工程 (Space Systems Engineering)\n航天推进 (Space Propulsion)\n空间通信 (Space Communications)\n控制系统 (Control Systems)\n有限元分析 (Finite Element Analysis)\n复合结构设计与分析 (Design and Analysis of Composite Structures)\n航空航天应用多变量控制系统 (Multivariable Control Systems for Aerospace Applications)\n航天器姿态动力学与控制 (Spacecraft Attitude Dynamics and Control)\n航空航天导航与传感器 (Aerospace Navigation and Sensors)\n天体动力学与轨道设计高级论题 (Advanced Topics in Astrodynamics and Trajectory Design)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "应用语言学文学硕士",
+  "ename": "MA Applied Linguistics",
+  "tags": "社科,语言,教育学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "通常具有二等英国学士学位或同等学历，需要相关学科背景（如英语、语言、语言学、传播学）",
+  "objectives": "伦敦大学学院应用语言学文学硕士项目旨在帮助学生从不同角度范围探讨语言学问题，深入了解全球应用语言学及英语语言教育方面的核心概念和问题，使学生能够针对语言运用的真实场景、语境和议题进行理论和实证研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "话语、社会与文化 (Discourse、Society and Culture)\n双语及多语言研究 (Bilingualism and Multilingualism)\n多元世界背景下的英语 (English in Diverse World Contexts)\n第二外语教学基础 (Fundamentals of Second and Foreign Language Teaching)\n语言与身份 (Language and Identity)\n工作语言：职业、制度和文化背景下的沟通 (Language at Work: Communication in Professional、Institutional and Cultural Contexts)\n语言测试与评估 (Language Testing and Assessment)\n语言教学中的材料开发 (Materials Development for Language Teaching)\n多模态交际 (Multimodal Communication)\n第二语言习得 (Second Language Acquisition)\n口语教学与研究 (Teaching and Researching Speaking and Listening)",
+  "success_cases": ""
+}

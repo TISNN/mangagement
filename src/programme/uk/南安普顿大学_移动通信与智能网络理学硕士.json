@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "移动通信与智能网络理学硕士",
+  "ename": "MSc Mobile Communications and Smart Networking",
+  "tags": "工科,电气电子,电子与计算机科学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 33900英镑/年",
+  "requirements": "具有2:1学位，需要通信工程、电子工程、电气工程或密切相关学科背景\n申请者还必须在以下课程中取得upper 2:1的成绩：\n- 高等数学，如：高等数学、应用数学、数学分析、工程数学、电气和电子工程师数学或纯数学\n- 信号处理\n- 通信原理（通信工程或无线通信）\n- 概率论",
+  "objectives": "南安普顿大学移动通信与智能网络理学硕士项目为学生成为一名有能力的无线工程师做好准备。该课程将帮助学生建立核心专业领域，从了解无线传输、编码和信号处理的基础知识，到构建无线收发器和设计智能无线网络。无线通信对文明产生了巨大的社会影响，随着世界变得更加紧密，对具有先进技能的无线工程师的需求将继续增长。未来的无线网络必须在高度复杂的环境中实时智能地管理大量的“物联网”设备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字编码和传输 (Digital Coding and Transmission)\n无线电通讯工程 (Radio Communications Engineering)\n信号处理 (Signal Processing)\n研究技能和实践 (Research Skills and Practice)\n个人多媒体通信 (Personal Multimedia Communications)\n无线和移动网络 (Wireless and Mobile Networks)\n高级无线通信网络和系统 (Advanced Wireless Communications Networks and Systems)\n高级系统和信号处理 (Advanced Systems and Signal Processing)\n密码学 (Cryptography)\n硕士课题项目 (MSc Project)",
+  "success_cases": ""
+}

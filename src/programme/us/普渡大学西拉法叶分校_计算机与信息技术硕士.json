@@ -1,0 +1,12 @@
+{
+  "school_name": "普渡大学西拉法叶分校",
+  "major_name": "计算机与信息技术硕士",
+  "ename": "MS in Computer and Information Technology",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季/春季\n项目时长: 33-36学分\n项目学费: 30,000美元/年",
+  "requirements": "具备一定的计算机和信息技术方面知识或者拥有相关专业本科学位",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

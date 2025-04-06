@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "资产与财富管理理学硕士",
+  "ename": "MSc Asset and Wealth Management",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 7月\n项目时长: 1年\n项目学费: 81750新币/年",
+  "requirements": "具有相关课程的良好学士学位\n具备至少2年工作经验\n具备有竞争力的GMAT/GRE成绩",
+  "objectives": "南洋理工大学资产与财富管理理学硕士项目为期一年，该计划由财富管理学院（WMI）和南洋商学院（NBS）联合开发，旨在满足资产和财富管理领域对训练有素的专业知识日益增长的需求。这个为期一年的计划旨在培养面向未来的资产和财富管理专业人士，符合新加坡银行与金融学院（IBF）建立的最新行业技能框架。凭借WMI在基于实践的资产和财富管理教育方面的深厚行业联系和领域专业知识，以及一流大学的实力，资产与财富管理理学硕士项目为学生提供与当前和未来行业保持相关的前沿课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "合规、伦理及投资管理工具 (Compliance, Ethics & Tools of Investment Management)\n财务报表分析 (Financial Statement Analysis)\n金融市场经济学 (Economics for Financial Markets)\n数据科学与金融科技 (Data-Science and Fintech )\n权益与固定收益分析 (Equity and Fixed Income Analysis)\n公司金融 (Corporate Finance)\n投资产品策略 (Investment Products Strategies)\n投资咨询 (Investment Advisory)\n行为金融学 (Behavioural Finance)\n量化交易策略 (Quantitative Trading Strategies)\n其他类投资 (Alternative Investments)\n领导力 (Leadership)\n财富规划 (Wealth Planning)\n储量管理 (Reserve Management)\n客户关系管理 (Client Relationship Management)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "创业、创新与管理理学硕士",
+  "ename": "MSc Entrepreneurship, Innovation and Management",
+  "tags": "商科,创业与创新,诺丁汉商学院",
+  "introduction": "专业方向: 创业与创新\n入学时间: 9月\n项目时长: 1年\n项目学费: 28200英镑/年",
+  "requirements": "具有2:1学位或同等学历，不限专业背景\n针对尚未完成本科学位的申请者，需要提供最后一年要学习的课程列表",
+  "objectives": "诺丁汉大学创业、创新与管理理学硕士课程将帮助学生发挥创造力，实现创业目标。如果学生想创办自己的企业、进入家族企业或成为一名能够在企业环境中创新工作的顾问，这是理想的选择。学生将探索包括启动新企业、创新和各种创业环境在内的主题。学生还可以通过一个实用模块学习风险投资和私募股权，该模块使用现实生活中的案例研究和具有丰富风险投资家经验的演讲嘉宾。对于第二学期的创业项目，学生将为项目发起人（通常是创业型中小企业的创始人）做一份简报并提供咨询风格的报告和演示。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "创业创造力 (Entrepreneurial Creativity)\n背景下的创业精神   (Entrepreneurship in Context )\n开办新企业 (Launching New Ventures)\n创业项目 (Entrepreneurship Project)\n企业组织中的管理创新 (Managing Innovation in Entrepreneurial Organisations)\n企业对企业营销 (Business to Business Marketing)\n电子商务 (E-Business)\n科技创业 (Technology Entrepreneurship)",
+  "success_cases": ""
+}

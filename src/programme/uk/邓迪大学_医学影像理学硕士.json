@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "医学影像理学硕士",
+  "ename": "MSc Medical Imaging",
+  "tags": "社科,医学,理工学院",
+  "introduction": "专业方向: 医学\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 27900英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要相关工程、物理科学或医学学术背景。具有产品或工业设计资格的申请人也可以根据其学位资格的工程内容予以考虑",
+  "objectives": "邓迪大学医学影像理学硕士项目将培养学生对工程设计、医学成像技术和临床环境的技能、知识和理解，同时学习如何应用、开发和改进医学成像和生物技术产品和系统。学生将接受与生命科学相关的电、微波、磁、声和光学技术的培训，以及与生物学、生物分子和临床科学相关的分析和成像技术。将接受生物学和生物分子科学方面的广泛实践培训以更好的理解生物学术语。在邓迪大学医学影像理学硕士项目的学术人员的指导下，学生将在我们的临床成像和干预研究中心开展研究项目，该项目提供苏格兰最好的医学成像和超声设备。在邓迪大学医学影像理学硕士项目期间，学生将有机会加入CT、MRI、超声和光学等各种临床应用中的领先研究人员。最近的项目示例着眼于神经外科的微创高分辨率成像和使用剪切波弹性成像检测前列腺癌的组织模拟材料。学生还可以参观医学科学与技术研究所、Ninewells 医院和医学院以及泰赛德大学医院信托基金，包括临床研究中心、内科、外科、牙科、耳鼻喉科、血管实验室和医学物理学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "医学概论：解剖学 (Introduction to Medical Sciences: Anatomy)\n生物材料 (Biomaterials)\n生物医学仪器 (Biomedical Instrumentation)\n医学图像处理与分析 (Medical Image Processing and Analysis)\n生物医学工程项目 (Biomedical Engineering Project)\n先进的生物医学成像技术 (Advanced Biomedical Imaging Technologies)\n生物医学工程项目（文凭） (Biomedical Engineering Project (Diploma))",
+  "success_cases": ""
+}

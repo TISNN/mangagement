@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 43800英镑/年",
+  "requirements": "具有一等荣誉学位，需要数学、物理学、工程学或其他包含大量数学内容的学位背景",
+  "objectives": "英国帝国理工学院人工智能理学硕士旨在探索人工智能技术及其应用，为学生提供人工技能、机器学习、编程等计算机专业知识，同时让学生有机会通过小组和个人项目探索实际的应用程序，以满足人工智能领域的人才需求",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "社会道德、隐私、人工智能 (Ethics, Privacy, AI in Society)\n个人报告 (Individual Project)\n机器学习导论 (Introduction to Machine Learning)\n符号人工智能导论 (Introduction to Symbolic Artificial Intelligence)\nPython编程 (Python Programming)\n软件工程实践与团队项目 (Software Engineering Practice and Group Project)\n计算机视觉 (Computer Vision)\n动力系统与深度学习 (Dynamical Systems and Deep Learning)\n机器辩论 (Machine Arguing)\n机器学习数学 (Maths for Machine Learning)\n模态逻辑 (Modal Logic)\n优化 (Optimisation)\n强化学习 (Reinforcement Learning)\n机器人学 (Robotics)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "能源工程管理理学硕士",
+  "ename": "MSc Energy Engineering Management",
+  "tags": "工科,能源,商学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "能源工程管理理学硕士课程是为工程或相关背景的毕业生设计的，申请者需要具有工程或相关学科的英国一等或2:1荣誉学位或同等学历",
+  "objectives": "杜伦大学能源工程管理理学硕士课程是两个世界领先院系的联合课程，该课程旨在通过确保毕业生能够轻松应对技术和商业挑战，使他们具备实现净零转型的技能。该课程将为学生提供发展职业生涯和专业技能基础的机会，以深入的商业和工程项目告终，让学生能够展示自己的洞察力和卓越能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业与工程系统 (Business and Engineering Systems)\n加热与冷却脱碳4 (Decarbonisation of Heating and Cooling 4)\n未来车辆4 (Future Vehicles 4)\n可再生能源技术4 (Renewable Energy Technologies 4)\n能源气候经济学与金融法典 (Energy Climate Economics and Finance Code)\n创业 (New Venture Creation)\n战略业务与工程项目 (Strategic Business and Engineering Project)\n职业与专业技能发展 (Career and Professional Skills Development)\n社会、能源、环境与恢复力 (Society, Energy, Environment and Resilience)\n能源与社会的背景与挑战 (Context and Challenges in Energy and Society)\n创新与科技管理 (Innovation and Technology Management)\n最优化4 (Optimisation 4)\n环境工程4 (Environmental Engineering 4)",
+  "success_cases": ""
+}

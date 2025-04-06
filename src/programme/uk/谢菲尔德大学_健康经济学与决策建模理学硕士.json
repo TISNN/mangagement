@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "健康经济学与决策建模理学硕士",
+  "ename": "MSc Health Economics and Decision Modelling",
+  "tags": "社科,公共卫生,健康与健康研究学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 29030英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要包含相关技术课程的相关学科背景或医疗学位，例如计算机科学、经济学\n工业工程、管理、数学、运筹学、药剂学、物理、统计数据、系统与控制工程申请者应当学习以下领域中的至少两门数学课程：计量经济学、经济学、宏观经济学、数学、微观经济学、统计数据学校也将考虑其他相关课程",
+  "objectives": "谢菲尔德大学健康经济学与决策建模理学硕士项目应对世界上一些最大的健康挑战，以改善全球人民的健康和护理。在本课程中，学生将学习全球对合格专家需求不断增长的领域。本课程通过培养评估医疗技术（如新药、公共卫生计划、筛查计划和诊断工具）的临床结果和成本效益所需的分析技能，帮助学生提高就业能力。学生将发展可转移的技能和知识，作为专业决策分析建模师或健康经济学家可以在世界任何地方工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "健康经济学导论 (Introduction to Health Economics)\n经济评估 (Economic Evaluation)\n健康技术评估中的成本效益建模 (Cost-effectiveness Modelling for Health Technology Assessment)\n医疗统计学与证据合成 (Medical Statistics and Evidence Synthesis)\n研究设计和系统回顾方法 (Study Design and Systematic Review Methods)\n医疗保健效益评价 (Valuing the Benefits of Health Care)\n健康经济学分析高级统计方法 (Further Statistical Methods for Health Economic Analysis)\n高级模拟方法 (Advanced Simulation Methods)",
+  "success_cases": ""
+}

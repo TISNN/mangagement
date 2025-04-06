@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "枪械系统设计理学硕士",
+  "ename": "MSc Gun Systems Design",
+  "tags": "工科,其他工科,国防与安全",
+  "introduction": "专业方向: 其他工科\n入学时间: 9月\n项目时长: 1年\n项目学费: 38340英镑/年",
+  "requirements": "具有科学、工程或数学背景",
+  "objectives": "克兰菲尔德大学枪械系统设计理学硕士课程涵盖了参与者在其组织中主导枪械系统的规格、设计和开发方面发挥领导作用所需的基本技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "装甲战车与武器系统研究 (Armoured Fighting Vehicle and Weapon Systems Study)\n零件设计 (Element Design)\n工程中的有限元方法 (Finite Element Methods in Engineering)\n弹道学原理 (Fundamentals of Ballistics)\n军用车辆推进与动力学 (Military Vehicle Propulsion and Dynamics)\n建模、仿真与控制 (Modelling, Simulation and Control)\n军械设计 (Ordnance Design)\n实体造型计算机辅助设计 (Solid Modelling CAD)\n生存能力 (Survivability)\n车辆系统集成 (Vehicle Systems Integration)\n武器系统技术-介绍 (Weapon Systems Technology - Introduction)",
+  "success_cases": ""
+}

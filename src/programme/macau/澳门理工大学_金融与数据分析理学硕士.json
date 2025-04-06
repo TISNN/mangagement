@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门理工大学",
+  "major_name": "金融与数据分析理学硕士",
+  "ename": "MSc Finance with Data Analytics",
+  "tags": "商科,金融,管理科学学院",
+  "introduction": "专业方向: 金融\n入学时间: 8月\n项目时长: 2年\n项目学费: 85000澳门币/年",
+  "requirements": "具有学士学位或同等学历；或\n正修读上述学历课程最后一年。\n其他所需文件：\n- 英语能力证明\n例如：全国大学英语四级考试（CET-4）、全国大学英语六级考试（CET-6）、雅思（IELTS）、托福（TOEFL）、英语专业考试（TEM）、全国研究生招生考试中的英语成绩等\n- 内地往届学士毕业生须提交应届内地全国研究生招生考试初试成绩及相应学科门类（专业）名称，且达国家一区分数线或以上",
+  "objectives": "澳门理工大学金融与数据分析理学硕士项目旨在培养具有良好数据分析能力的金融专才，着重学生在现代金融与数据分析、公司金融、投资分析、风险管理、以及数据科学在金融领域的应用能力，为澳门、大湾区、及至其他国家地区现代金融行业的专业人才培养作出积极贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "财务报表分析和商业道德标准 (Financial Statement Analysis and Business Ethical Standards)\n企业融资 (Corporate Finance)\n投资分析和投资组合管理 (Investment Analysis and Portfolio Management)\n数据分析与可视化 (Data Analysis and Visualization)\n金融大数据 (Big Data in Finance)\n项目报告 (Project report)\n金融市场和机构 (Financial Markets and Institutions)\n衍生证券 (Derivative Securities)\n行为金融学 (Behavioral Finance)\n公司治理与社会责任 (Corporate Governance and Social Responsibility)\n应用计量经济学 (Applied Econometrics)\n金融科技概论 (Introduction to Financial Technology)\n财务分析经济学 (Economics for Financial Analysis)",
+  "success_cases": ""
+}

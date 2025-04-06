@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "数据科学理学硕士",
+  "ename": "MSc Data Science",
+  "tags": "理科,数据科学,数学与物理科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 43500英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要定量学科背景，需要具备大学水平的数学方法和线性代数知识，熟悉概率论、统计学和计算机编程入门知识，需要具备高级编程语言（如R/Matlab/Python）的先前经验，相关专业经验也将被考虑在内",
+  "objectives": "数据科学结合计算与统计技能，解决数据驱动难题，尤其在市场营销、制药、金融和管理等领域备受追捧。伦敦大学学院数据科学理学硕士项目将教授学生掌握分析工具，培养学生运用现代计算方法与严谨统计思设计复杂技术方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计数据科学导论 (Introduction to Statistical Data Science)\n机器学习概论 (Introduction to Machine Learning)\n调查统计设计 (Statistical Design of Investigations)\n统计计算 (Statistical Computing)\n贝叶斯方法应用 (Applied Bayesian Methods)\n决策与风险 (Decision & Risk)\n析因实验 (Factorial Experimentation)\n预测 (Forecasting)\n操作风险的定量建模与保险分析 (Quantitative Modelling of Operational Risk and Insurance Analytics)\n统计学相关专题 (Selected Topics in Statistics)\n金融中的随机方法1 (Stochastic Methods in Finance I)\n金融中的随机方法2 (Stochastic Methods in Finance II)\n随机系统 (Stochastic Systems)\n情感计算与人机交互 (Affective Computing and Human-Robot Interaction)\n图形模型 (Graphical Models)",
+  "success_cases": ""
+}

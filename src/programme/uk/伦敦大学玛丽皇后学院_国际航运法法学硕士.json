@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "国际航运法法学硕士",
+  "ename": "LLM International Shipping Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有本科2:1学位或以上学历，需要法律或具有实质性法律内容的学位\n具有2:2荣誉学位以及其他法律资格和/或大量的专业法律经验的法律毕业生也可能符合资格\n在英国专业机构认可的普通专业考试（CPE）或法律研究生文凭（GDL）中获得优秀（或60%）获得二等荣誉学位的非法律专业毕业生也可能符合资格。非法律专业毕业生若具备在法律领域或与其申请专业直接相关的领域具有特殊的工作经验（至少5年）也可能被考虑",
+  "objectives": "伦敦大学玛丽皇后学院国际航运法律法学硕士项目为法学院商法研究中心（CCLS）的法学硕士课程提供了更多选择，使玛丽皇后学院成为伦敦大学唯一拥有国际航运法律法学硕士的学院。CCLS位于伦敦市中心，是学习国际航运法律法学硕士的最佳选择。学生可以享受许多优质资源，能成为BMLA的成员，还能进入高级法律研究所（IALS）图书馆和邻近伦敦大学的图书馆学习等。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "租船合同：法律与实践 (Charterparties: Law and Practice)\n货物运输 (Carriage of Goods)\n海上保险法 (Marine Insurance Law)\n国际航运规则 (International Regulation of Shipping)\n海军部 (Admiralty)\n国际和欧洲公共航空运输法 (Public International & European Air Transport Law)\n海事仲裁 (Maritime Arbitration)\n无纸贸易的法律问题 (Legal Aspects of Paperless Trade)\n海上冲突法 (Maritime Conflict of Laws)",
+  "success_cases": ""
+}

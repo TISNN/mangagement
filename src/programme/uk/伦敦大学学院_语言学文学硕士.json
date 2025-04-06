@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "语言学文学硕士",
+  "ename": "MA Linguistics",
+  "tags": "社科,语言,大脑科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 29800英镑/年",
+  "requirements": "通常具有英国大学颁发的二等学士学位或同等学历",
+  "objectives": "伦敦大学学院语言学文学硕士项目帮助学生深入理解现代理论语言学，探讨理论语言学当前研究，掌握独立研究项目所需具备的知识与技能，培养学生发现研究问题、搜寻研究文献、提出并验证假设、撰写令人信服的结构化专业报告的能力。项目课程涵盖语言学的三大核心领域，即语音学和音系学，句法学，语义学和语用学。学生可以根据个人兴趣制定课程学习计划。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "句法学 (Syntax)\n语义学和语用学 (Semantics and Pragmatics)\n语音学和音系学 (Phonetics and Phonology)\n语言学基础 (Foundations of Linguistics)\n论文 (Dissertation)\n句法界面 (Interfaces in Syntax)\n音系学 (Phonology)\n高级音系学理论 (Advanced Phonological Theory)\n高级语义学 (Advanced Semantic Theory)\n句法学当前议题 (Current Issues in Syntax)\n生成语法 (Intermediate Generative Grammar)\n语用学议题 (Issues in Pragmatics)\n语言习得 (Language Acquisition)\n符号语言学 (Linguistics of Sign Language)\n构词法 (Morphology)",
+  "success_cases": ""
+}

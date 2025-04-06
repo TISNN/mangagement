@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "信息技术理学硕士",
+  "ename": "MSc Information Technology",
+  "tags": "工科,计算机,工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 270000港币/年",
+  "requirements": "具有学士学位或同等学历，需要计算机工程、计算机科学或相关领域背景",
+  "objectives": "在新千禧年里，信息技术成了工业、政府部门和其他机构广为应用的基础技术。要保持专业的领先水平，计算机工程与计算机科学专业的毕业生以及在计算机相关领域工作的专业人员需要继续不断地学习，不断地提升自己的信息技术技能。香港科技大学信息技术硕士课程将帮助和促进有学士学位的毕业生的信息技术知识更上一层楼。\n香港科技大学信息技术硕士课程由香港科技大学工学院计算机科学及工程学系开设，是为了帮助和鼓励学士学位持有者在其本科知识的基础上进行信息技术的学习。该计划为那些希望在信息技术方面获得广泛和领先技能的人提供研究生课程，旨在使毕业生更有市场，也为更有挑战性的职业道路做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程性能稳定的面向对象软件系统 (Engineering Reliable Object-Oriented Software Systems)\n多媒体开发 (Multimedia Development)\n数据挖掘与知识发现 (Data Mining and Knowledge Discovery)\n高级数据库系统 (Advanced Database Systems)\n计算机图形学 (Computer Graphics)\n识别系统 (Recognition Systems)\n高级算法 (Advanced Algorithms)\n计算机网络：互联网视角 (Computer Networks: An Internet Perspective)\n密码学与安全 (Cryptography and Security)\n大数据概论 (Introduction to Big Data)\n人工智能 (Artificial Intelligence)\n机器学习 (Machine Learning)\n工程专业人员金融技术 (Financial Technology for Engineering Professionals)\n搜索引擎及应用 (Search Engines and Applications)\n信息技术专题 (Topics in Information Technology)\n独立项目 (Independent Project)",
+  "success_cases": ""
+}

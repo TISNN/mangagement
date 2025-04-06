@@ -1,0 +1,12 @@
+{
+  "school_name": "威廉玛丽学院",
+  "major_name": "会计硕士",
+  "ename": "Master of Accounting",
+  "tags": "商科,会计",
+  "introduction": "专业方向: 会计\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 9个月\n项目学费: 45818美元\n项目规模: 67人\n平均成绩: 3.51\n国际学生: 10%\n男女比例: 46:54\n平均起薪: 69350美元",
+  "requirements": "先修课程要求：会计学原理、统计、中级会计1、中级会计2,审计、成本会计、（美国）税收简介",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

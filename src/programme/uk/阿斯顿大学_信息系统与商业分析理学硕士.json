@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "信息系统与商业分析理学硕士",
+  "ename": "MSc Information Systems & Business Analysis",
+  "tags": "商科,信息系统,阿斯顿商学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23500英镑/年",
+  "requirements": "雅思总分6.5（小分一项不低于5.5，其它项不低于6.0）\nPTE总分67（小分一项不低于59，其它项不低于64）\n具有良好的英国荣誉学位（不低于2:2）或阿斯顿大学认可的同等海外学位\n申请者还需要在本科阶段学习过以下定量课程，至少涵盖其中50%：经济学（微观/宏观），统计学，定量方法，数学，金融学",
+  "objectives": "阿斯顿大学信息系统与商业分析理学硕士项目旨在帮助学生建立对信息系统如何支持企业及其运营的专业理解。该项目提供专业性指导，促进学生走上职业道路。项目的学生拥有深入的专业知识和丰富的经验，能够胜任信息系统咨询、商业分析和管理领域的工作。在该项目中，学生将具备专业技术能力、组织能力和人际交往能力，从而能够在实践中开发商业系统和管理信息系统项目。在该项目的核心研讨会模块中，学生有机会扮演顾问，在真实的支持性环境中创建良好运行的信息系统。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业系统基础 (Foundation in Business Systems)\n商业系统开发工作坊 (Developing Business Systems Workshop)\n项目管理 (Managing Projects)\n应用研究方法 (Applied Research Methods)\n学术实践道德规范 (Ethics in Academic Practice)\n数据挖掘和商业只能 (Data Mining & Business Intelligence)\n管理决策制定仿真 (Simulation for Managerial Decision Making )\n企业资源规划 (Enterprise Resource Planning )\n运营管理 (Operations Management)\n高级电子表格和数据库 (Advanced Spreadsheets and Databases)\n全球战略离岸与外包行业研究 (Strategic Global Outsourcing & Offshoring)",
+  "success_cases": ""
+}

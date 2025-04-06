@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "数据科学与分析哲学硕士（HKUST(GZ)）",
+  "ename": "MPhil Data Science and Analytics (HKUST(GZ))",
+  "tags": "理科,数据科学,香港科技大学（广州）",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 2年\n项目学费: 150000人民币/年",
+  "requirements": "具有认可机构颁发的学士学位或同等学历",
+  "objectives": "在数字时代，随着创新技术的进步，数据处理正以前所未有的速度增长。数据驱动的世界为所有行业的公司和企业提供了巨大的可能性和机会，因为他们可以利用数据信息为其业务创造价值。作为数字革命的颠覆性后果，数据科学和分析已成为一个新兴的跨学科领域，需要计算机科学、统计学和数学等许多领域的知识和技能。\n数据科学和分析的哲学硕士（MPhil）课程旨在促进数据处理和分析研究中统计分析，逻辑推理和计算智能的紧密结合。这些课程将提供严格的研究培训，使学生成为知识渊博的研究人员，在检查和分析学术界或工业界的数据的过程中，精通应用逻辑，数学，算法和计算能力，从而获得有价值的见解，以做出更好的决策。\n研究型硕士课程旨在让学生了解数据科学和分析的科学，教育和商业应用开发所涉及的问题。哲学硕士课程的毕业生应表现出对该学科问题的良好工作知识。他或她应该能够综合和创造新知识，为该领域做出贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学中的数据挖掘和知识发现 (Data Mining and Knowledge Discovery in Data Science)\n数据科学中的深度学习 (Deep Learning in Data Science)\n面向数据科学的高级数据库管理 (Advanced Database Management for Data Science)\n高级机器学习 (Advanced Machine Learning)\n数据科学和分析的并行编程 (Parallel Programming for Data Science and Analytics)\n数据科学与分析基础 (Foundation of Data Science and Analytics)\n数据科学计算 (Data Science Computing)\n区块链中的数据分析与隐私保护 (Data Analysis and Privacy Protection in Blockchain)\n数据探索和可视化 (Data Exploration and Visualization)\n时空数据分析 (Spatio-Temporal Data Analysis)\n专题 (Special Topics)\n独立学习 (Independent Study)\n计算机视觉及其应用 (Computer Vision and Its Applications)\n凸和非凸优化 I (Convex and Nonconvex Optimization I)",
+  "success_cases": ""
+}

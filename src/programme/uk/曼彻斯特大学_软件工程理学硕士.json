@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "软件工程理学硕士",
+  "ename": "MSc Software Engineering",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 37500英镑/年",
+  "requirements": "成功的申请者通常具有英国大学一等荣誉学位（均分70%）或同等学历，需要计算机科学学位（包含至少50%的计算机科学内容）\n学校要求所有申请者都具备很强的计算机科学背景，例如扎实的编程和软件开发技能\n申请者如果是在读生，需要提供最后一年学习的所有课程的正式列表",
+  "objectives": "曼彻斯特大学软件工程理学硕士课程旨在传授软件工程的高级知识，提供高级技能培训，课程适合希望提高计算技能，为信息技术相关行业做出贡献的人士，或希望在学术界或工业界从事研发工作的人士。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士项目 (Masters Project)\n软件验证、安全与计算机科学的形式化方法 (Formal Methods for Software Verification, Security and Computer Science)\n软件安全 (Software Security)\n实践中的软件工程概念 (Software Engineering Concepts in Practice)\n软件发现与交付 (Software Discovery and Delivery)\n工程交互解决方案 (Engineering Interactive Solutions)\n移动和无处不在的互动 (Mobile and Ubiquitous Interactions)\n知识表示与推理逻辑 (Logics for Knowledge Representation and Reasoning)\n 知识表示与推理高级主题 (Advanced Topics in Knowledge Representation and Reasoning)\n认知机器人与计算机视觉 (Cognitive Robotics and Computer Vision)\n将文本转化为意义 (Transforming Text Into Meaning)\n机器学习主题 (Topics in Machine Learning)\n机器学习高级主题 (Advanced Topics in Machine Learning)\n不确定推理与学习 (Uncertain Reasoning and Learning)\n强化学习 (Reinforcement Learning)\n密码学概论 (Introduction to Cryptography)\n网络安全 (Network Security)\n安全计算机体系结构与系统 (Secure Computer Architecture and Systems)\n人工智能中的安全与隐私 (Security and Privacy in Artificial Intelligence)\n数据工程概念 (Data Engineering Concepts)\n数据工程技术 (Data Engineering Technologies)",
+  "success_cases": ""
+}

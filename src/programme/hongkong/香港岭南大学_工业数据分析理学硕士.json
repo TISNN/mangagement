@@ -1,0 +1,12 @@
+{
+  "school_name": "香港岭南大学",
+  "major_name": "工业数据分析理学硕士",
+  "ename": "MSc Industrial Data Analytics",
+  "tags": "理科,数据科学,数据科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 287000港币/年",
+  "requirements": "申请者一般应持有本大学认可的高等教育机构授予的相关学士学位；或已获得同等学历；或能够提供令人满意的学术和专业成就证据。\n未曾修读过计算机科学或统计学科目，或对这些科目认识较少的申请者，需于本课程开始之前完成相应预科科目：\n- 计算概论（15小时）\n- 统计学（15小时）",
+  "objectives": "香港岭南大学工业数据分析理学硕士项目提供全面的课程，旨在为学生提供在工业数据分析领域脱颖而出所需的知识、技能和实践经验，该课程整合了基础概念、先进方法、尖端工具和现实世界应用，为学生提供对数据科学、人工智能、商业分析及其跨行业多样化应用的全面理解。\n香港岭南大学工业数据分析理学硕士项目旨在培养学生探索和推动工业数据分析的界限，培养创新精神和创造力，开发新的方法、算法和解决方案来应对新出现的挑战；鼓励来自不同学科的知识进行协作和集成，利用来自统计、计算机科学、数学的见解，以及制造业、能源、运输、物流和医疗保健等特定工业部门的领域知识；为学生提供实践经验和现实世界项目，以培养直接适用于工业和研究环境的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据可视化 (Data Visualization)\n生成式人工智能辅助编程 (Programming with Generative Artificial Intelligence)\n智慧互联与融合 (Smart Connectivity and Fusion)\n控制系统与工业分析 (Control Systems and Industrial Analytics)\n工业数据分析专题研究 (Industrial Data Analytics Project)\n人工智能概论 (Foundation of Artificial Intelligence)\n深度学习的实际应用 (Practical Application of Deep Learning)\n大数据分析 (Big Data Analytics)\n区块链  (Blockchain)\n医疗保健分析 (Healthcare Analytics)\n数据科学统计学 (Statistics for Data Science)\n数据库管理 (Database Management)\n大型语言模型导论 (Introduction to Large Language Models)\n智慧物流 (Smart Logistics)\n运筹学 (Operational Research)\n城市数据科学与分析 (Urban Data Science and Analytics)",
+  "success_cases": ""
+}

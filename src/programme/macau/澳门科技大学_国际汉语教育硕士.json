@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "国际汉语教育硕士",
+  "ename": "Master of Teaching Chinese as a Foreign Language",
+  "tags": "社科,教育,国际学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 2年\n项目学费: 120000港币/年",
+  "requirements": "汉语有普通话二级乙等或以上语言水平；需要英语六级/雅思/托福/专四/专八/GRE/CEFR。非通用外语：相当于CEFR B2级别或以上的语言能力证明。学术写作能力特别突出的申请者，可酌情放宽外语水平要求，但需提供相关佐证材料，由大学审核批准",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "当代中国专题 (Topics on Contemporary China)\n汉语语言学 (Chinese Linguistics )\n汉语作为第二语言教学 (Chinese as a Second Language )\n第二语言习得 (Second Language Acquisition )\n课堂教学案例分析与实践 (Case Study of Classroom Teaching and Practice )\n中华文化专题 (Topics on Chinese Culture )\n跨文化交际 (Cross-cultural Communication )\n汉语语言要素及教学 (Elements of Chinese Language and Teaching )",
+  "success_cases": ""
+}

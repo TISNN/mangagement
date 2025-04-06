@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "5G移动通信与智能嵌入式系统理学硕士（含工业实习1年）",
+  "ename": "MSc 5G Mobile Communications and Intelligent Embedded Systems (with an industrial placement year)",
+  "tags": "工科,电气电子,工程与信息学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 2年\n项目学费: 15750英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要工科专业背景，但其他如数学、物理或计算机相关专业背景也将被考虑。如果申请者有其他专业资格或同等地位的经验，也可能被考虑参加该课程",
+  "objectives": "5G移动通信与智能嵌入式系统是许多新兴应用的核心系统，其覆盖的领域包括物联网、连接与无人汽车驾驶、电子健康领域、信息物理系统、虚拟现实和机器人领域。该系统在这些领域的应用将为人们、社会和企业带来新功能。 萨塞克斯大学的5G移动通信与智能嵌入式系统理学硕士（含工业实习1年）项目，旨在为想要在移动通信和智能嵌入式系统领域拓展专业知识、提升操作技能的申请者提供现代数字技术的前沿知识和技能。该项目不要求学生有工作经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "物联网 (Internet-of-Things)\n移动通信 (Mobile Communications)\n实时嵌入式系统 (Real Time Embedded Systems)\n可重构片上系统 (Reconfigurable System on Chip)\n无线通信专题 (Topics in Wireless Communications)\n可穿戴技术 (Wearable Technologies)\n高级数字信号处理 (Advanced Digital Signal Processing)\n高级电子系统 (Advanced Electronic Systems)\n 密码学（L.7） (Cryptography (L.7))\n控制论与神经网络 (Cybernetics and Neural Networks)\n数字信号处理实验室 (Digital Signal Processing Laboratory)\n图像处理 (Image Processing )\n卫星和空间系统 (Satellite and Space Systems )\n5G产业实习年 (5G Industrial Placement Year)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 32600英镑/年",
+  "requirements": "具有二等荣誉学位，要求会计学、经济学、商业研究或具有很强的定量知识的学科背景，课程不需要预先具备金融学知识",
+  "objectives": "思克莱德大学金融学理学硕士学位课程适合有意在金融领域发展职业生涯的学生，也将帮助金融领域的职业人士提高工作成效。\n在思克莱德大学金融学理学硕士学位课程的学习中，学生将探索金融领域的最新发展，质疑传统规则和技术，分析实务问题。\n思克莱德大学金融学理学硕士学位课程将培养学生：\n充分理解金融理论和分析；\n了解金融市场和机构的本质及职能；\n掌握会计信息及其在金融决策和分析中的应用方面的实用知识；\n有能力运用在课程中锻炼的分析技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融学原理 (Principles of Finance)\n会计和财务分析 (Accounting & Financial Analysis)\n金融定量分析方法 (Quantitative Methods for Finance)\n国际金融市场和银行 (International Financial Markets & Banking)\n高级公司金融和应用 (Advanced Corporate Finance & Applications)\n金融衍生产品和国库管理 (Derivatives & Treasury Management)\n投资组合理论和管理 (Portfolio Theory & Management)\n管理学会计 (Management Accounting)\n证券分析 (Security Analysis)\n金融实证方法 (Empirical Methods in Finance)\n行为金融学 (Behavioural Finance)",
+  "success_cases": ""
+}

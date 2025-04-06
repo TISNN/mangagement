@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "社会数据分析社会科学硕士",
+  "ename": "MSocSc Social Data Analytics",
+  "tags": "理科,数据科学,社会科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 262500港币/年",
+  "requirements": "申请者最好具有以下社会科学领域之一的学士学位：人类学、认知科学、传播学、经济学、教育研究、民族研究、语言学、政治学、心理学、社会学、城市研究与规划或密切相关领域；\n并且最好接受过统计学和/或形式逻辑方面的先前培训或具有一个或多个技术领域的先前经验（包括编程、统计、形式逻辑、微积分、线性代数等）",
+  "objectives": "社会数据分析（SDA）是指对人类和社会互动产生的大型或复杂数据进行分析，更侧重于社会科学数据和理论。香港大学社会数据分析社会科学硕士项目满足了本科生日益增长的需求，即获取利用现代计算建模方法和大型自然数据集来揭示人们在群体、市场和国家中如何思考、决策和行动所需的技术和分析技能。它旨在提供行业和博士课程都高度寻求的技能。\n香港大学社会数据分析社会科学硕士项目汇集了整个社会科学学院的计算研究专业知识，为学生提供定量、计算和数据分析技能以及将其适当和创新地应用于社会科学问题的洞察力，并为学生从事学术研究职业做好准备、非政府组织和政府机构工作、商业、广告和营销以及整个知识经济领域的其他工作，需要将社会科学领域的专业知识与计算系统中的大型数据集相结合。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "社交数据分析入门 (Introduction to Social Data Analytics)\n统计基础 (Statistical Foundations)\n机器学习 (Machine Learning)\n社会科学中的研究设计与推理 (Research Design and Inference in the Social Sciences)\n面向社会科学家的编程 (Programming for Social Scientists)\n大数据解决社会问题 (Big Data Solutions to Social Problems)\n用基于主体的模型模拟人类行为 (Simulating Human Behaviours with Agent-Based Models)\n文本作为数据：自然语言处理与社会研究 (Text as Data: Natural Language Processing and Social Research)\n社会网络分析 (Social Network Analysis)\n媒体数据分析 (Media Data Analysis)\n地理空间数据的机器学习 (Machine Learning for Geospatial Data)\n用于地理空间数据分析的云计算 (Cloud Computing for Geospatial Data Analytics)\n网络地理信息系统 (Web Gis)\n行为健康的科学探究与研究方法 (Scientific Inquiry and Research Methods in Behavioral Health)\n媒体、文化和创意城市的研究方法 (Research Methods in Media, Culture and Creative Cities)\n定性研究方法 (Qualitative Research Methods)\n数据仓库和数据挖掘 (Data Warehousing and Data Mining)\n信息行为 (Information Behaviour)\n数据管理 (Data Curation)",
+  "success_cases": ""
+}

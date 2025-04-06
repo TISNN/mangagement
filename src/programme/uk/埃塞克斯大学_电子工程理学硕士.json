@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "电子工程理学硕士",
+  "ename": "MSc Electronic Engineering",
+  "tags": "工科,电气电子,计算机科学与电子工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:1学位，需要满足以下背景之一：电子工程、电气工程、电信工程、信息工程、自动化、机电一体化工程、数学、物理以及一门信号与系统课程学习背景，如：信号处理或控制理论以及一门数学课程学习背景，如：数学、微积分、代数、微分方程以及一门相关课程学习背景，如：C编程、电子学、数字系统或计算机网络",
+  "objectives": "埃塞克斯大学电子工程理学硕士旨在使学生获得必要的基本知识、技能、能力和批判性意识，这对于电子行业的职业发展至关重要。为学生在模拟和数字电路设计方面的职业做好准备，该领域在全球范围内（尤其是在英国）技能严重短缺。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "理学硕士项目与学位论文 (MSc Project and Dissertation)\n电子系统设计与集成 (Electronic System Design and Integration)\n专业实践与研究方法 (Professional Practice and Research Methodology)\n嵌入式系统编程 (Programming Embedded Systems)\nPython编程入门 (Introduction to Programming in Python)\n信号与系统理论 (Theory of Signals and Systems)\n高级嵌入式系统设计 (Advanced Embedded Systems Design)\n创建与发展新企业 (Creating and Growing a New Business Venture)\n高水平逻辑设计 (High Level Logic Design)\n智能系统与机器人技术 (Intelligent Systems and Robotics)\nIP网络与应用 (IP Networking and Applications)\n数据科学与决策 (Data Science and Decision Making)\n使用Matlab的数学研究技术 (Mathematical Research Techniques Using Matlab)\n移动通信 (Mobile Communications)\n网络原理 (Networking Principles)",
+  "success_cases": ""
+}

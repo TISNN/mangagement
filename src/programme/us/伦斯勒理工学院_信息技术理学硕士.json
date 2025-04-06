@@ -1,0 +1,12 @@
+{
+  "school_name": "伦斯勒理工学院",
+  "major_name": "信息技术理学硕士",
+  "ename": "MS in Information Technology",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2-3学期\n项目学费: 57,100美元/年",
+  "requirements": "相关信息技术专业本科（学习过数据结构和计算机科学I课程）且GPA至少3.0重要的行业经验可以弥补本科核心课程的不足",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

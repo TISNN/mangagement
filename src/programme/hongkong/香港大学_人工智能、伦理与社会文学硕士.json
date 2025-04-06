@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "人工智能、伦理与社会文学硕士",
+  "ename": "MA AI, Ethics and Society",
+  "tags": "工科,计算机,文学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 283400港币/年",
+  "requirements": "具有良好的学士学位或同等学历，需要主修哲学，或主修其他学科并具备研究人工智能、伦理与社会相关问题的经历",
+  "objectives": "香港大学人工智能、伦理与社会文学硕士是一个为期一年的全日制课程，专门研究人工智能与相关技术及其影响和轨迹的规范调查。该项目以伦理、社会和政治问题为出发点，探讨我们是否应该以及如何让人工智能和相关技术改变我们的生活：例如，我们是否应该让人工智能在我们不完全理解为什么做出这些决定的情况下为我们做出决定？我们如何确保人工智能做出的决定是公平或公正的？我们应该如何发现和处理人工智能中的偏见和安全风险？人工智能技术将如何影响隐私、政治和人际关系？这些问题现在在金融、政府、法律、医学、工程、教育、军事和艺术等各个领域都很紧迫。香港大学人工智能、伦理与社会文学硕士项目旨在以两种方式应对这些智力和实践挑战：1. 展示如何在伦理、正义和社会理论的框架内理解这些挑战。2. 使用这些一般框架来识别和解决人工智能和新兴技术应用在实践中出现的新的伦理、社会和经济挑战。\n通过结合理论和实践方法的严格课程，学生将深入了解人工智能和新兴技术的伦理、社会和经济影响，还将学习如何将这些知识应用于各种环境，包括政策制定、商业战略、道德设计、创意产业、教育和研究。\n香港大学人工智能、伦理与社会文学硕士课程的与众不同之处在于它的跨学科方法，它借鉴了哲学、计算机科学、社会科学和人文科学等一系列领域。作为该计划的一部分，学生将有机会通过港大的人工智能与人文实验室参与最前沿的研究和创新，可以接触到顶尖学者，并与来自世界各地的访客进行讨论。该领域专家的定期讲座和演讲也将为学生提供一个扩展知识和探索人工智能与社会交叉点的平台。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能、数据与算法基础 (Fundamentals of AI, Data and Algorithms)\n伦理学：人工智能、数据与算法 (Ethics: AI, Data and Algorithms)\n人工智能的本质 (The Nature of AI)\n人工智能安全与保障 (AI Safety and Security)\n人工智能监管与治理 (AI Regulation and Governance)\n思维与机器 (Minds and Machines)\n虚拟现实哲学与伦理学 (Philosophy and Ethics of Virtual Reality)\n信息哲学与伦理学 (Philosophy and Ethics of Information)\n科技与人文价值 (Technology and Human Values)\n人工智能、伦理与社会的形式化方法 (Formal Methods for AI, Ethics and Society)\n人工智能、伦理与社会研讨会 (AI, Ethics and Society Seminar)\n人工智能、伦理与社会工作室 (AI, Ethics and Society Workshop)\n毕业作品集项目 (Capstone Portfolio Project)",
+  "success_cases": ""
+}

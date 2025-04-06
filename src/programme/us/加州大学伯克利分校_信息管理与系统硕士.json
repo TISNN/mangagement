@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学伯克利分校",
+  "major_name": "信息管理与系统硕士",
+  "ename": "Master of Information Management and Systems (MIMS)",
+  "tags": "商科,信息系统",
+  "introduction": "专业方向: 信息系统\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2年\n项目学费: 20315美元/学期\n项目规模: 50人\n平均成绩: 3.57\n平均G: V88%,Q89%\n男女比例: 51:49\n平均起薪: 119000美元",
+  "requirements": "建议学生具备高级面向对象语言的基本技能水平（Python,Java,C）",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

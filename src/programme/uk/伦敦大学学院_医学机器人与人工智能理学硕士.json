@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "医学机器人与人工智能理学硕士",
+  "ename": "MSc Medical Robotics and Artificial Intelligence",
+  "tags": "工科,计算机,工程科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要计算机科学、工程学、物理学或相关领域背景，需要具备本科水平的编程语言（如Python或C）知识，例如通过相关课程或他们在本科期间参与的个人项目来证明，还要求具备本科水平的数学知识，包括代数、分析和概率论，申请者必须表现出对发展思维和问题解决能力的兴趣",
+  "objectives": "伦敦大学学院医学机器人与人工智能理学硕士项目旨在教授医疗机器人和人工智能（AI）的基本概念，以及如何将这些技术部署到手术环境和改善医疗保健。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究项目 (Research Project)\n机器人系统工程 (Robotic Systems Engineering )\n医疗机器人和设备 (Medical Robotics and Devices)\n人工智能的手术和干预 (Artificial Intelligence for Surgery and Intervention)\n外科手术数据科学 (Surgical Data Science)\n机器人控制理论与系统 (Robot Control Theory and Systems)\n用Python研究软件工程 (Research Software Engineering with Python)\n临床实践 (Clinical Practice)\n医疗器械企业场景 (Medical Device Enterprise Scenario)",
+  "success_cases": ""
+}

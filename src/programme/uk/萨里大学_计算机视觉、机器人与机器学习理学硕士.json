@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "计算机视觉、机器人与机器学习理学硕士",
+  "ename": "MSc Computer Vision, Robotics and Machine Learning",
+  "tags": "工科,计算机,电气和电子工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 24900英镑/年",
+  "requirements": "具有2:2英国荣誉学位或受认可的同等学历，需要计算机科学、电子工程、数学或物理学背景\n如果申请者不符合以上要求，学校也会考虑相关学位专业背景或大量相关工作经验",
+  "objectives": "计算机视觉是快速发展的领域：在互联网和家用电脑上的视觉数据（图像和视频）正以前所未有的速度增长，是其他类型的数据无法企及的。计算机视觉也是创意产业发展的重要领域，对全球经济的重要性正不断提升，知名度也在同步提升，因此对于能够生成、管理和分析视觉数据的专家的需求也日益增长。如果学生对计算机视觉的获取、处理、分析和理解感兴趣，那么萨里大学计算机视觉，机器人与机器学习理学硕士项目是理想的选择。萨里大学计算机视觉，机器人与机器学习理学硕士项目提供深度培训，涵盖了用于图像和视频分析的尖端计算机视觉和机器学习技术，以及低级别的图像处理方法。此项目还将培训学生的编程语言、软件工具和计算机视觉系统的设计和实施方法。它适合有意就职于重点围绕图像和视频分析的产业和研究型机构的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "60学分标准项目 (60 CREDIT STANDARD PROJECT)\n计算机视觉和图案识别 (COMPUTER VISION AND PATTERN RECOGNITION)\n数字信号处理基础 (FUNDAMENTALS OF DIGITAL SIGNAL PROCESSING)\n物联网 (INTERNET OF THINGS)\n卫星遥感 (SATELLITE REMOTE SENSING)\n语音和音频处理与识别 (SPEECH & AUDIO PROCESSING & RECOGNITION)\n先进的信号处理 (ADVANCED SIGNAL PROCESSING)\n人工智能和人工智能编程 (AI AND AI PROGRAMMING)\n图像和视频压缩 (IMAGE AND VIDEO COMPRESSION)\n图像处理和深度学习 (IMAGE PROCESSING AND DEEP LEARNING)\n机器人学 (ROBOTICS)",
+  "success_cases": ""
+}

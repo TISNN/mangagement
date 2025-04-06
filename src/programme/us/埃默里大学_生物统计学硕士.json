@@ -1,0 +1,12 @@
+{
+  "school_name": "埃默里大学",
+  "major_name": "生物统计学硕士",
+  "ename": "MSPH Biostatistics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n入学时间: 秋季\n项目时长: 2年\n项目学费: 21900美元/学期\n平均成绩: 3.48\n国际学生: 14%\n男女比例: 男：19%\n女：81%",
+  "requirements": "本科GPA3.5以上,多元微积分（微积分 III）和线性代数课程,成绩为 B 或更好。 具有先前相关课程的学生可能会获得其生物统计学学位课程的学分。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

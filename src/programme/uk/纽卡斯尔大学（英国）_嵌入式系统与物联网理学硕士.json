@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "嵌入式系统与物联网理学硕士",
+  "ename": "MSc Embedded Systems and Internet of Things",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 28950英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要工科背景：电气与电子工程，计算机工程，机械工程，物理学，通信、信息与控制工程，相关学科",
+  "objectives": "纽卡斯尔大学嵌入式系统与物联网理学硕士项目旨在帮助学生加强对嵌入式系统和物联网（ES-IoT）及其支持技术的理解。项目以行业为导向，研究将无线网络和应用引入到产品中去，专为满足移动电子设备的设计和制造公司的人才需求而设计。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "实时嵌入式系统和编程 (Real Time Embedded Systems and Programming)\nM2M技术物联网 (M2M Technology Internet of Things)\n 有线和无线网络技术  (Wired and Wireless Network Technologies)\n物联网和无线传感器网络 (Internet of Things and Wireless Sensor Networks)\n可重构硬件设计 (Reconfigurable Hardware Design)\n物联网和传感器网络 (Image Processing and Computer Vision)\n个人项目 (Individual Project)\n生物测定和识别 (Biometrics and Recognition)\n高级移动和蜂窝通信 (Advanced Mobile and Cellular Communications)\n射频工程 (RF Engineering)\n高级多媒体系统 (Advanced Multimedia Systems)",
+  "success_cases": ""
+}

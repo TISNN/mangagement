@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "分子医学理学硕士",
+  "ename": "MSc Molecular Medicine",
+  "tags": "理科,生物,医学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 45000英镑/年",
+  "requirements": "具有2:1学位，需要生物科学、医学或兽医科学背景",
+  "objectives": "帝国理工学院分子医学理学硕士课程旨在为临床和基础科学研究工作者提供全面的理论和实践培训，使分子和细胞生物学的最新技术应用于医学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分子与细胞系统 (Molecular and Cellular Systems)\n疾病系统 (Disease Systems)",
+  "success_cases": ""
+}

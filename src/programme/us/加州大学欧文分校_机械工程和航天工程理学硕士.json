@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学欧文分校",
+  "major_name": "机械工程和航天工程理学硕士",
+  "ename": "M.S. in Mechanical and Aerospace Engineering",
+  "tags": "工科,机械工程",
+  "introduction": "专业方向: 机械工程\n入学时间: 秋季\n项目时长: 1.5-2年\n项目学费: 26544美元/年",
+  "requirements": "GPA3.0以上,要求1月31号之前收到申请材料（语言,推荐信,成绩单等）。相同项目的博士和硕士不能同时申请",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

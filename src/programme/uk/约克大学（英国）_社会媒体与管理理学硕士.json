@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "社会媒体与管理理学硕士",
+  "ename": "MSc Social Media and Management",
+  "tags": "社科,策略传播,社会学院",
+  "introduction": "专业方向: 策略传播\n入学时间: 9月\n项目时长: 1年\n项目学费: 27190英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要社会科学或管理/商业研究相关学科背景，也鼓励来自非社会科学学科（如计算机科学）的高素质学生申请",
+  "objectives": "智能手机和平板电脑使人们彼此之间的联系变得更加紧密，也让人们更容易了解世界各地发生的事件。与此同时，社交媒体和信息应用程序正在推进商业的转型。约克大学社会媒体与管理理学硕士项目的学生通过学习，可以对现有技术和新兴技术有广泛全面的了解，能够评估社交媒体对英国和全球的商业、公共和志愿服务机构的影响。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "了解社交媒体 (Understanding Social Media)\n度量与社会 (Metrics and Society)\n社会研究方法与管理 (Social Research Methods and Management)\n组织分析 (Organisational Analysis)\n商业信息系统 (Business Information Systems)\n创新与技术管理 (Innovation and Technology Management)\n组织的连续性和变化 (Continuity and Change in Organisations)",
+  "success_cases": ""
+}

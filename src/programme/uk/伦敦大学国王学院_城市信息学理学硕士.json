@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "城市信息学理学硕士",
+  "ename": "MSc Urban Informatics",
+  "tags": "工科,地球科学,自然、数学与工程科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 37800英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，需要计算机科学（或相关学科）背景，学校也将考虑含大量统计成分的定量学科背景，或包含地理计算学的地理学背景\n学校可能会录取具有2:2学位或其他定量学科学位（如纯数学、物理学、数学经济学、数学心理学）并且具备至少2年大规模数据分析后续工作经验的申请者\n没有数理统计学或计算机科学的一等或2:1学位但具备相关毕业后经验的申请者可能会接受面试以评估其能力",
+  "objectives": "伦敦大学国王学院城市信息学理学硕士项目使学生具备进行有效城市数据分析所需的技术、分析和沟通技能，具有详细案例研究主题的经验，并交流结果以实现变革。该项目在第一个学期中提供了核心数据科学技术的基础课程，城市研究的理论基础，以及影响决策的沟通分析的方式。第二个学期，课程集中于城市的数据分析，对空间和网络分析的洞察力，以及更深入的数据挖掘技术。在第二学期，学生还将通过一个专门的课程探究城市生活的某一方面，如空气污染或心理健康，保证研究深度和充分的细节。这为学生所学的分析技术提供了一个试验平台，使他们能够在处理城市数据时培养信心、积累经验。在夏季学期，学生将进行一个与研究兴趣相关的个人项目，探讨城市信息学话题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "城市分析导论 (Introduction to Urban Analytics)\n空间数据分析 (Spatial Data Analysis)\n数据科学家的计算机程序设计 (Computer Programming for Data Scientists)\n数据挖掘 (Data Mining)\n数据分析统计学 (Statistics for Data Analysis)\n用数据讲故事 (Telling Stories with Data)\n网络数据分析 (Network Data Analysis)\n城市信息学个人项目 (Urban Informatics Individual Project)\n大气污染科学与健康 (Air Pollution Science and Health)\n城市心理健康的大数据 (Big Data in Urban Mental Health)",
+  "success_cases": ""
+}

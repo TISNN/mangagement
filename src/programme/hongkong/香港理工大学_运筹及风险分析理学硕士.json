@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "运筹及风险分析理学硕士",
+  "ename": "MSc Operational Research and Risk Analysis",
+  "tags": "理科,数学,理学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 196000港币/年",
+  "requirements": "具有荣誉学士学位或同等学历，需要工程、计算机科学、基础科学、金融学、经济学背景（具备工业或商业经验者优先考虑）",
+  "objectives": "香港理工大学运筹风险分析理学硕士学位课程与运筹学、风险分析、数学和统计学密切相关，这些学科构成了当今商业、金融、工业和技术活动的基础，所以，该课程致力于培养具有强大的运筹学，风险分析以及统计学技能的毕业生，并使他们能够对现代运筹学和风险分析领域在何处应用有着清晰的认识、透彻的了解。该课程将会着力培养学生的分析、批评和沟通技巧，从而使他们可以从事与运筹学和风险分析相关的各种工作。香港理工大学运筹风险分析理学硕士学位课程的次要目标是为学生提供运筹学，风险分析和统计的坚实理论基础，使他们能够提出更好的方法论，让自己拥有更好的前景，使其在瞬息万变的世界中从事任何与商业、金融、经济、保险相关职业时使仍然可以展现自己的价值。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "运筹学研究方法 (Operations Research Methods )\n概率论和随机模型 (Probability and Stochastic Models )\n风险分析原理 (Principles of Risk Analysis)\n金融建模 (Financial Modeling)\n商情预测 (Business Forecasting)\n模拟与风险分析 (Simulation and Risk Analysis )\n高级运筹学方法 (Advanced Operations Research Methods)\n最优化方法 (Optimization Methods)\n金融数学 (Mathematics of Finance)\n科学计算 (Scientific Computing)\n论文 (Dissertation)\n投资学 (Investment Science)\n统计数据挖掘 (Statistical Data Mining)\n随机优化 (Stochastic Optimization)\n供应链分析 (Supply Chain Analysis)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "聋哑教育理学硕士",
+  "ename": "MSc Deaf Education",
+  "tags": "社科,教育,生物、医学和健康学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 24500英镑/年",
+  "requirements": "申请者必须持有合格教师资格（QTS），该课程也适用于那些有资格从事继续教育工作并且具备合格教师学习与技能（QTLS）证明的申请者，应具有至少1年教学经验，但经专业小组讨论也可能考虑其他相关经验\n针对在英国境外具备教学资格的申请者，申请者必须证明他们的教学资格在其本国受到认可\n在英国境外具备教学资格的申请者也需要申请同等资格才能获得QTS，作为国际申请者获得QTS的途径说明见以下链接：https://documents.manchester.ac.uk/display.aspx?DocID=59303\n申请者还必须持有认可高等教育机构颁发的相关荣誉学位，或大学认为符合录取标准的先前高级学习、研究或专业经验证明，这将根据具体情况进行审查",
+  "objectives": "曼切斯特大学聋哑教育理学硕士课程将帮助学生进行聋哑教师培训，或者发展可应用于该领域的研究技能。\n听力学的快速发展以及我们对语言，沟通和教育实践的理解，使聋哑儿童的教学成为令人兴奋的学习领域。\n该课程采用基于证据的方法来满足聋哑儿童的各种需求，并特别强调将理论转化为实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语言习得 (Language Acquisition)\n语言评估 (Language Assessment)\n发展中的聋儿 (Developing Deaf Child)\n政策与实务 (Policy and Practice)\n课程访问 (Curricular Access)\n教与学2 (Teaching and Learning 2)\n论文 (Dissertation)\n听觉管理 (Audiological Management)\n教与学1 (Teaching and Learning 1)",
+  "success_cases": ""
+}

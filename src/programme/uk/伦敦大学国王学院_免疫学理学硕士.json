@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "免疫学理学硕士",
+  "ename": "MSc Immunology",
+  "tags": "社科,医学,生命科学与药学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 35800英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，需要生物科学或医学、牙科、兽医科学或其他相关学科学位背景\n具备2:2学位以及免疫学实验室丰富经验的申请者（研究或临床）也将被考虑",
+  "objectives": "伦敦大学国王学院免疫学理学硕士课程帮助学生了解免疫系统在细胞、分子和基因水平上的结构和功能，以及它与健康和疾病的关系。该课程将为学生提供从事博士研究或在医疗保健和相关行业的其他领域提升职业前景所需的重要技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "免疫反应中的细胞相互作用 (Cellular interactions in the immune response)\n分子免疫学 (Molecular Immunology)\n研究项目 (Research Project )\n研究技能 (Research Skills)\n免疫紊乱与感染 (Immune Disorders & Infection )",
+  "success_cases": ""
+}

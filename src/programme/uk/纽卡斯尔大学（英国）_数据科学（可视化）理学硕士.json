@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "数据科学（可视化）理学硕士",
+  "ename": "MSc Data Science (Visualization)",
+  "tags": "理科,数据科学,计算机学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30600英镑/年",
+  "requirements": "具有2:1理学荣誉学士学位或同等学历，需要以下背景：计算机科学，数学，统计学，具备编程经验的工程学科\n学校在招收非标准背景的申请者方面有着良好的记录，鼓励具有丰富相关工作经验的个人申请，并将根据其个人情况进行考虑",
+  "objectives": "纽卡斯尔大学数据科学（可视化）理学硕士课程旨在为学生提供知识、经验和专业知识，以解决现实世界的问题，并为组织实现数据驱动的洞察力。数据可视化是数据科学中越来越重要的一部分，旨在通过支持人类的感知和认知，使数据分析输出有意义，来弥合人类和数据之间的鸿沟。\n纽卡斯尔大学数据科学（可视化）理学硕士课程是与一些知名行业领袖合作创建的，以解决数据分析技能短缺的问题。该课程将学生和行业从业者聚集在一起，在该环境中开发新技术并将其转化为行业实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "大数据分析 (Big Data Analytics)\n数据可视化 (Data Visualization)\n数据管理与探索性数据分析 (Data Management and Exploratory Data Analysis)\n野外数据科学 (Data Science in the Wild)\n数据科学小组项目 (Group Project in Data Science)\n云计算项目 (Cloud Computing with Project)\n机器学习项目 (Machine Learning with Project)\n复杂数据可视化 (Complex Data Visualization)\n数据科学统计基础 (Statistical Foundations of Data Science)\n数据科学统计学习 (Statistical Learning for Data Science)\n数据科学项目与论文 (Project and Dissertation for Data Science)",
+  "success_cases": ""
+}

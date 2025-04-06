@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "教育未来理学硕士",
+  "ename": "MSc Education Futures",
+  "tags": "社科,教育,爱丁堡未来学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，不限专业背景\n学校也会考虑具备其他专业资格或经验的申请者（需要在申请前联系学校确认）",
+  "objectives": "各种形式的教育对一个繁荣的社会是必不可少的。组织、系统和人员如何学习和改变深刻影响着我们的生活、我们的环境和我们的未来。 爱丁堡大学教育未来理学硕士项目适合那些希望参与未来教育的可能性并了解教育知识、组织、空间和关系如何积极塑造社会的学生。\n爱丁堡大学教育未来理学硕士项目旨在应对学校、大学和学院教育中对创造性、批判性和实验性思维的需求，以及在社区、行业和组织中的学习。学生将探讨的一些问题包括流动性、政治、环境变化、文化、社会正义，以及管理和理解世界的数据驱动系统如何影响学习和教育。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学习型组织的未来 (Future of Learning Organisations)\n为富有挑战性的未来而教育 (Educating for a Challenging Future)\n跨学科未来 (Interdisciplinary Futures)\n透过数据或文本合成产生见解 (Insights Through Data or Text Remix)\n道德数据未来 (Ethical Data Futures)\n代表数据或构建近期未来 (Representing Data or Building Near Futures)\n文化、传承与学习未来 (Culture, Heritage and Learning Futures)\n教育、个性化与监督 (Education, Personalisation and Surveillance)\n教育、数据与变革 (Education, Data and Change)\n教育技术与创业 (Educational Technologies and Entrepreneurship)\n学习与适应力 (Learning and Resilience)\n后数字社会 (Postdigital Society)\n关系、创新实践与教育   (Relationality, Creative Practice and Education)\n工作未来 (Work Futures)\n新技术如何改变社会的批判性观点 (Critical perspectives on how new technologies are changing society)",
+  "success_cases": ""
+}

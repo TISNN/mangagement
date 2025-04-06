@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "网络安全理学硕士",
+  "ename": "MSc Cyber Security",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 31900英镑/年",
+  "requirements": "具有2:2或同等学历，需要计算机科学或相关学科背景，成功的申请者将在以下大多数主题中展示强大的背景：编程、数学和网络\n学校愿意考虑不符合这些条件但能够证明具备足够的计算机科学知识和经验成功完成该项目的申请者",
+  "objectives": "网络系统安全是当今最具挑战的话题之一。现今的国际共识在于，必需提高安全技能水平以应对大量复杂威胁。约克大学网络安全理学硕士项目具有前瞻性，能够为学生提供网络安全核心领域所需的技能和知识。同时，约克大学网络安全理学硕士项目注重于教授高效网络安全决策所需的重要技术材料，并会涉及以下议题：身份、信任和声誉、密码学、网络安全、恶意软件和入侵检测、风险管理、高保证系统的发展。约克大学网络安全理学硕士项目注重于高效网络安全决策所需的重要技术材料的教学。当学生从约克大学网络安全理学硕士项目毕业时，学生将深入了解网络安全的基本要素。在约克大学网络安全理学硕士项目中，学生会了解当前新兴系统类型面临的威胁，并了解和熟悉可用以降低风险的一系列技术。约克大学网络安全理学硕士项目将使学生胜任行业或政府领域的工作，尤其是战略网络安全决策方面的工作。约克大学网络安全理学硕士项目也将为想要在网络安全领域开展研究生涯的学生奠定基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "身份、信任、信誉及其应用 (Identity、Trust、Reputation and their Applications)\n密码学理论与应用 (Cryptography Theory and Applications)\n网络和通信安全：威胁、攻击和对策 (Networks and Communications Security: Threats、Attacks and Countermeasures)\n恶意软件和其他不法行为 (Malware and Other Malfeasance)\n网络安全研究技巧 (Cyber Security Research Skills)\n网络安全纵横谈 (Widers Aspects of Cyber Security)\n安全系统开发和评估的严谨性 (Rigour in Secure System Development & Assessment)\n网络事件的取证分析 (Forensic Analysis of Cyber Incidents)\n独立学习模块：网络安全个人项目 (Independent Study Module - Cyber Security Individual Project)",
+  "success_cases": ""
+}

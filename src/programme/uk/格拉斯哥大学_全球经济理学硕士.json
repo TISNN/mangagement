@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "全球经济理学硕士",
+  "ename": "MSc Global Economy",
+  "tags": "商科,经济,社会与政治科学学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 28500英镑/年",
+  "requirements": "具有2:1荣誉学位或非英国同等学历，需要社会科学与人文、商学院课程、金融、经济、管理学、人力资源管理、历史、地理背景学校有时也将接受2:1左右的学位学校有时会接受2:2荣誉学位，伴随着大量的相关工作经验",
+  "objectives": "全球经济是一门复杂而又充满挑战的学科，在一个深刻的多国、多语言环境中，探索了当代全球化的历史、形态和经济影响。格拉斯哥大学全球经济理学硕士项目课程将增进学生对全球经济形态以及管理全球经济的机构（正式和非正式）的了解。对于那些没有经济学或商业学位或背景，但希望探索该领域的人来说，这是理想的选择。该课程的核心是了解在激烈的全球竞争条件下如何刺激或者不刺激和维持经济增长，以及机构和基础设施如何在吸引适当的经济活动中发挥关键作用。学生将考虑各国政府和超国家机构在全球经济中各自的作用，并探讨经济和商业体系对发展中国家和发达国家公民生活的影响。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球经济中的商业 (Business in the global economy)\n研究设计 (Research design)\n全球化经济 (The globalised economy)\n全球化与劳工 (Globalisation and labour)\n全球化与民族国家 (Globalization and the nation state)\n中东和北非的创新 (Innovation in the middle east and north africa)\n拉丁美洲独立以来的发展 (Latin american development from independence to the present)\n全球经济中的技术转移 (Technology transfer in the global economy)\n国际政治与发展中的欧盟 (The european union in international politics and development)",
+  "success_cases": ""
+}

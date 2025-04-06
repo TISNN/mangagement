@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "癌症基因学与数据科学理学硕士",
+  "ename": "MSc Cancer Genomics and Data Science",
+  "tags": "社科,医学,医学和牙科学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要任何包含数学和统计学研究的学科背景，如遗传学、基因学、生物信息学、数学、统计学、工程学和计算机科学\n学校欢迎拥有较少量化导向的自然科学学位（如生物学和医学）的申请者申请，如果他们专注于这些学位中更多的量化元素\n拥有包含相关内容的2:2学位和至少一年相关经验（例如在工业、分析、诊断实验室、科学研究等领域的工作）的申请者可能会被单独考虑",
+  "objectives": "随着新的生物分析技术提供更多关于 DNA、RNA、蛋白质、代谢物以及它们之间在整个组织和单细胞水平上的相互作用的数据，生物医学科学越来越受数据驱动。需要癌症基因组学和数据科学领域的各种最先进技术（例如建模、数据集成、机器学习和人工智能）来分析多层大规模癌症数据集并得出有意义的可解释结果。\n然而，在现实世界的生物医学和癌症数据方面拥有相关技能和经验的训练有素的生物信息学家、计算生物学家和数据分析师严重短缺。伦敦大学玛丽皇后学院癌症基因学与数据科学理学硕士项目旨在填补研究和就业需求与学生培训之间的差距，提供以“大数据”分析为重点的最新模块，并通过使用高性能计算以及尖端研究项目和使用真实世界队列数据的实践培训。\n学生将由积极参与开发生物信息学和计算工具并将其应用于癌症和医学研究领域（例如基因组学、蛋白质组学、进化、建模和生物标志物发现）的学者授课。学校在英国拥有广泛的学术和工业合作者网络，他们为教学做出贡献，共同监督研究项目并提供就业机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物医学研究中的R和Python编程 (R and Python Programming in Biomedical Research)\n组学数据分析和实践培训 (Omics Data Analytics and Practical Training)\n计算基因学、转录组学与进化 (Computational Genomics, Transcriptomics and Evolution)\n数学建模与应用 (Mathematical Modeling and Application)\n单细胞分析 (Single Cell Analytics)\n生物医学研究中机器学习/人工智能及的应用 (Machine Learning/Al and Application to Biomedical Research)\n癌症基因学和数据科学研究项目 (Cancer Genomics and Data Science Research Project)\n人类基因学概论 (Introduction to Human Genomics)\n组学技术及其在基因医学中的应用 (Omics Techniques and their Application to Genomic Medicine)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "工程、技术与商业管理（工程）理学硕士",
+  "ename": "MSc(Eng) Engineering, Technology and Business Management",
+  "tags": "工科,电气电子,电子电气工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要电子/电气工程、通信工程、信息学、计算机、机电一体化或相关理工科背景",
+  "objectives": "利兹大学的工程、技术与商业管理（工程）理学硕士项目是为电子工程或类似学科的毕业生开发的课程，将为学生成为全球公司的高级经理或企业家做好准备。在这些公司中，理解技术和管理商业创新是成功的关键。本课程由电子电气工程学院和利兹大学商学院联合开设，让学生从不同的电子电气工程和商业主题中选择可选模块，让学生有机会在符合自己兴趣和职业抱负的领域积累专业知识。该课程将由技术和商业管理领域的领先专家教授，并进行实际的实验室课程和项目工作，使学生能够获得从讲座和教程到现实生活中的工程和商业环境的调查和应用主题的实际经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "现代工业实践 (Modern Industry Practice)\n工程、技术和商业管理项目 (Engineering、Technology and Business Management Project)\n风险认知和沟通 (Risk Perception and Communication)\n运营和供应链管理 (Operations and Supply Chain Management)\n创新管理 (Managing for Innovation)\n无线通信系统设计 (Wireless Communications Systems Design)\n光通信网络 (Optical Communications Networks)\n数据通信与网络安全 (Data Communications and Network Security)\n智能电网分析 (Smart Grid Analysis)\n电力电子和驱动器 (Power Electronics and Drives)\n可再生能源发电 (Electric Power Generation by Renewable Sources)\n控制系统设计 (Control Systems Design)\n发电和配电 (Electric Power Generation and Distribution)\n数字媒体工程 (Digital Media Engineering)",
+  "success_cases": ""
+}

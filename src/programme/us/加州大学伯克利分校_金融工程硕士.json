@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学伯克利分校",
+  "major_name": "金融工程硕士",
+  "ename": "Master of Financial Engineering",
+  "tags": "商科,金工金数",
+  "introduction": "专业方向: 金工金数\n项目类别: STEM\n入学时间: 春季\n项目时长: 1年\n项目学费: 75108美元/年\n项目规模: 96人\n平均成绩: 3.79\n平均G: Q94%,V77%\n男女比例: 73:27\n就业比例: 93%\n平均起薪: 124401美元\n留美比例: 83%",
+  "requirements": "微积分(建议2门课程)线性代数(建议1门课程)偏微分方程(建议1门课程)统计学(建议2门课程- 2门高级统计学或计量经济学)数值分析(建议1门课程)金融（2门课程或同等的工作经验）",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

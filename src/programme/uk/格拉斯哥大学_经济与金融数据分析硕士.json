@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "经济与金融数据分析硕士",
+  "ename": "MSc Data Analytics for Economics & Finance",
+  "tags": "商科,金工金数,商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 31800英镑/年",
+  "requirements": "具有2:1学位，需要经济学、金融学、计算机科学或其他学科（以定量为重点）背景",
+  "objectives": "格拉斯哥大学经济与金融数据分析硕士课程为学生提供了一个多学科课程，使他们为从事与经济和金融以及市场营销和商业相关的数据领先专业的所有领域的工作做好准备。该计划的主要功能包括将经济学和金融学，统计学和计算机科学的见解相结合，重点在于培养新一代专业人员，他们可以使用数据严格的方法来指导复杂的决策制定，并为学生提供一套面向未来且始终需求很高的技能。该计划与亚当·斯密商学院和计算机科学学院合作提供。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用计算金融 (Applied Computational Finance)\n深度学习（计算机科学学院） (Deep Learning (School of Computing Science))\n经验资产定价 (Empirical Asset Pricing)\n财务信息检索 (Financial Information Retrieval)\n金融市场微观结构 (Financial Market Microstructure)\n程序设计和系统开发（计算机科学学院） (Programming and Systems Development (School of Computing Science))\n文本作为数据–文档分析简介（计算机科学学院） (Text as data – Introduction to document analytics (School of Computing Science))\n计算统计和数据分析 (Computational Statistics and Data Analytics )\n计量经济学与统计评论 (Econometrics and Statistics Review )",
+  "success_cases": ""
+}

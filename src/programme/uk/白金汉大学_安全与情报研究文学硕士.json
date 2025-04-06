@@ -1,0 +1,12 @@
+{
+  "school_name": "白金汉大学",
+  "major_name": "安全与情报研究文学硕士",
+  "ename": "MA Security and Intelligence Studies",
+  "tags": "社科,国际关系,人文学院",
+  "introduction": "专业方向: 国际关系\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 16480英镑/年",
+  "requirements": "具有获认可大学颁发的一等或二等荣誉学位\n或具有获认可的专业资格以及相关工作经验",
+  "objectives": "白金汉大学安全与情报研究文学硕士项目旨在以英国为重点，深入了解西方民主国家的当代安全和情报环境。安全和情报研究是政治学中一个重要的新兴领域，但人们也普遍认识到，良好和成功的治理需要基于对安全和情报机构如何运作、所处环境、实际成果应用、以及所期望的成果应用等方面的充分了解。白金汉大学安全与情报研究文学硕士项目面向三类学生：一、对情报和安全问题感兴趣，还未确定未来职业方向的学生；二、有从事安全和情报相关工作意向的学生；三、已在安全和情报相关领域就业的人。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "情报成功/失败案例研究 (Case Studies in Intelligence Success and Failure)\n当今威胁：外部和内部 (Current Threats: External and Internal)\n1939年以来的情报和国际安全 (Intelligence and International Security since 1939)\n谍报技术和机器 (Intelligence Tradecraft and Machinery)\n分析模拟练习 (Analytical Simulation Exercise)\n恐怖主义与反恐：实践与政策 (Terrorism and Counter-Terrorism: Practice and Policy)",
+  "success_cases": ""
+}

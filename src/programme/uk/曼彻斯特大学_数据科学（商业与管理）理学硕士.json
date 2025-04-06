@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "数据科学（商业与管理）理学硕士",
+  "ename": "MSc Data Science (Business and Management)",
+  "tags": "理科,数据科学,社会科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有High 2:1荣誉学位或同等学历\n通常要求申请者持有定量或计算学科背景的学位，如数学、统计学、管理科学或经济学、物理学、工程学或计算机科学。具有丰富的商业和管理行业经验以及定量学科荣誉学位的申请者也可能被考虑录取\n在申请中应该表现出在以下三个领域的能力、知识和/或兴趣：数据分析和/或统计学；计算学科；和细分方向的具体要求。这些可以通过本科阶段和高中阶段的修读过的课程单元或专业经验来证明",
+  "objectives": "曼彻斯特大学数据科学理学硕士不同分支的课程范围反映了课程的跨学科性质，欢迎有不同学科背景的学生申请，包括：商业和管理；健康科学；社会科学；地理位置；规划；计算机科学；数学。曼彻斯特大学数据科学理学硕士项目为学生提供核心数据科学技能培训，并将其嵌入路径提供的学科背景中，学生将发展：计算技能；数据分析能力；数据管理技能和知识；工程设计能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "风险，绩效和决策分析 (Risk, Performance and Decision Analysis)\n数学规划与优化 (Mathematical Programming and Optimisation)\n用于业务决策的数据分析 (Data Analytics for Business Decision Making)\n战略供应链管理 (Strategic Supply Chain Management)\n全球供应链管理：理论与实践 (Global Supply Chain Management: Theories and Practice)\n战略项目组织 (Strategic Project Organising)\n知识管理与数字战略 (Knowledge Management and Digital Strategy)\n应用统计和业务预测 (Applied Statistics and Business Forecasting)\n决策行为，分析和支持 (Decision Behaviour, Analysis and Support)\n供应链物流管理 (Supply Chain Logistics Management)\n模拟与风险分析 (Simulation & Risk Analysis)",
+  "success_cases": ""
+}

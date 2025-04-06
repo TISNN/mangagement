@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "笔译与商务口译（中文）文学硕士",
+  "ename": "MA Translation with Business Interpreting (Chinese)",
+  "tags": "社科,语言,政治学、语言与国际研究系",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 27800英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，应具备中文或英文的母语能力",
+  "objectives": "课程的重点是英译汉、中译英的笔译，以及英译汉的商务口译。特别是，学生将培养适合商业工作的翻译和口译技能，并根据中国大陆、台湾、英国和其他地区的市场需求进行调整。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "联络口译业务(中文/英文) (Liaison interpreting for business (Chinese/English))\n中国英语翻译业务 (Chinese to English translation for business)\n英汉翻译业务 (English to Chinese translation for business)\n翻译员和通译员校对、编辑和管理技能(中国) (Proofreading, editing and management skills for translators and interpreters (Chinese))\n联络口译业务(中文/英文) (Liaison interpreting for business (Chinese/English))\n中国英语翻译业务 (Chinese to English translation for business)\n英汉翻译业务 (English to Chinese translation for business)\n高级翻译（中文） (Advanced translation (Chinese))\n使用技术在翻译行业（中文） (Using technology in the translation industry (Chinese))",
+  "success_cases": ""
+}

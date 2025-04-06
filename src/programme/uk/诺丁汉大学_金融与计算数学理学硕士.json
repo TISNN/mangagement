@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "金融与计算数学理学硕士",
+  "ename": "MSc Financial and Computational Mathematics",
+  "tags": "商科,金工金数,数学科学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1 学位或同等学历，需要数学、物理学或工程学背景\n申请者应具备扎实的数学基础，包括学位水平的微积分、线性代数、常微分方程和概率与统计\n在特殊情况下，具有2:2学位或同等学历（包含大量数学内容）的申请者可能被考虑",
+  "objectives": "诺丁汉大学金融与计算数学理学硕士课程教授与计算技术相结合的高级金融数学。学生将学习在整个金融部门用于量化和对冲风险的数学技术和技能。使用计算和统计软件的实践经验将培养自己的数学建模技能。课程计划包括数学科学学院和经济学院的教学专业知识。您将学习核心模块，包括：金融数学，计算应用数学，科学计算和C。学生可以选择适合个人兴趣的可选模块，例如统计机器学习或企业财务经济学。专业的教学人员将支持并指导学生完成书面论文。本课程的一个亮点是学校与领先行业和学术专家的合作关系。该小组包括来自瑞士信贷、牛津大学和其他组织的个人，以确保学位保持相关性并与量化金融的变化保持同步。来自彭博、第一资本、汇丰银行和普华永道等公司的代表也在年内提供客座讲座。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级金融数学 (Advanced Financial Mathematics)\n计算应用数学 (Computational Applied Mathematics)\n金融数学 (Financial Mathematics)\n金融与计算数学论文写作 (Financial and Computational Mathematics Dissertation)\n科学计算和c++ (Scientific Computing and C++)\n优化 (Optimization)\n统计基础 (Statistical Foundations)\n时间序列和预测 (Time Series and Forecasting)\n统计机器学习 (Statistical Machine Learning)\n企业财务经济学 (Economics of Corporate Finance)\n博弈论 (Game Theory)\n工程管理数学 (Mathematics for Engineering Management)\n宏观经济学：经济周期、摩擦和政策 (Macroeconomics: Economic Cycles、Frictions and Policy)\n微观经济学：消费者与企业行为 (Microeconomics: consumer and firm behaviour)\n货币理论与实践 (Monetary Theory and Practice)",
+  "success_cases": ""
+}

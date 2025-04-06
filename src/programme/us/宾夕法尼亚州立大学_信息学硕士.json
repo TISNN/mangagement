@@ -1,0 +1,12 @@
+{
+  "school_name": "宾夕法尼亚州立大学",
+  "major_name": "信息学硕士",
+  "ename": "MS in Informatics",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1-2年\n项目学费: 43,260美元/学年",
+  "requirements": "不限制专业，可以文科、计算机科学、工程、环境科学、信息科学、法律、生命科学、管理、哲学、数学和社会科学没有GPA要求，但一般为3.5",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

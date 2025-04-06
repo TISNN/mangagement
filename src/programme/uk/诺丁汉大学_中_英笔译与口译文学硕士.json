@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "中/英笔译与口译文学硕士",
+  "ename": "MA Chinese/English Translation & Interpreting",
+  "tags": "社科,语言,文化、语言与区域研究学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 24300英镑/年",
+  "requirements": "具有2:1学位或同等学历，母语为汉语的申请者需要具有英语、英语研究或翻译背景，汉语非母语的申请者需要具有中国语言和/或中国研究背景\n第一语言为非汉语的申请者还需持有HSK（汉语水平考试）6级证书，申请者可能会被要求参加面试",
+  "objectives": "诺丁汉大学的中/英笔译与口译文学硕士课程可以帮助学生培养雇主所需的技能。我们的教学员工是翻译、商业和社区口译、视听翻译和数字翻译技术方面的专家。本课程旨在帮助学生最大限度地提高语言技能，准备成为数字时代全面的语言专业人士，建立语言服务行业雇主所需的综合技能，通过现实生活中的翻译/口译任务获得模拟任务的实践经验，并通过外部组织的翻译项目建立投资组合。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "实用翻译 (Practical Translation)\n中英双向口译 (Bi-lateral Interpreting between Chinese and English 1)\n翻译理论概论 (Introduction to Translation Theory)\n翻译工具箱 (Translator's Toolbox)\n针对性翻译与本地化项目 (Targeted Translation and Localisation Project)\n语言专业人士英语课程 (English for Language Professionals)",
+  "success_cases": ""
+}

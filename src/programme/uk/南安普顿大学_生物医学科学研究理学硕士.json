@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "生物医学科学研究理学硕士",
+  "ename": "MSc Biomedical Sciences by Research",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 27800英镑/年",
+  "requirements": "具有2:1学位，需要生物学或生物医学科学或密切相关学科背景\n如果申请者已经成功完成了至少3年的医学学位，并且在开始之前学年的所有评估中成绩至少达到60%，也可以作为医学本科生参加该课程",
+  "objectives": "南安普顿大学生物医学科学研究理学硕士项目面向生物科学和生物医学科学毕业生，学生将在我们充满活力的研究社区中工作，该社区利用大学在转化科学方面的专业知识。他们将学习各种不同的模块并完成两个研究项目，这些项目将重点以下研究领域之一： 感染与免疫、营养与代谢、呼吸科、干细胞和再生医学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "先进的科学技能 (Advanced Scientific Skills)\n研究项目1 (Research Project 1)\n研究项目2 (Research Project 2)\n生物医学研究技巧 1 (Research Skills for Biomedical Science 1)\n感染与免疫 (Infection and Immunity)\n营养与新陈代谢 (Nutrition and Metabolism)\n呼吸内科 (Respiratory Medicine)\n干细胞和再生医学 (Stem Cells and Regenerative Medicine)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "弗吉尼亚理工大学",
+  "major_name": "机械工程工学硕士",
+  "ename": "MEng in Mechanical Engineering",
+  "tags": "工科,机械工程",
+  "introduction": "专业方向: 机械工程\n入学时间: 秋季/春季\n项目时长: 30学分\n项目学费: 1578.5美元/年",
+  "requirements": "GPA3.2以上",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

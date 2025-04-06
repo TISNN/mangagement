@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "法医心理学理学硕士",
+  "ename": "MSc Forensic Psychology",
+  "tags": "社科,心理学,心理学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 28300英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要心理学专业背景（联合或联合荣誉学位，包括心理学，或国际心理学学位），不授予BPS GBC\n也可能接受其他资格/经验，并将由学位课程主任考虑（如精神健康专家、警务人员、监狱人员）\n如果入围面试，申请者必须能够让面试小组相信他们有能力成功完成高级研究方法与统计学课程",
+  "objectives": "通过纽卡斯尔大学法医心理学理学硕士项目，学生将深入理解法医心理学的理论和应用问题。在学科专家和从业者的帮助下，学生能够掌握在法医心理学实践中谋求职位所需的技能和知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "法医心理健康与犯罪行为 (Forensic Mental Health and Criminal Behaviour)\n司法鉴定与案例解析 (Forensic Assessment and Case Formulation)\n调查心理学与法庭审问 (Investigative Psychology and Forensic Interviewing)\n应用心理学高级研究方法A (Advanced Research Methods for Applied Psychology A)\n应用心理学高级研究方法B (Advanced Research Methods for Applied Psychology B)\n法医心理学专业实践 (Professional Practice in Forensic Psychology)\n法律心理学与刑事司法系统 (Legal Psychology & The Criminal Justice System)\n法医心理学项目 (Forensic Psychology Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "数据科学理学硕士",
+  "ename": "MSc Data Science",
+  "tags": "理科,数据科学,计算机科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 36000英镑/年",
+  "requirements": "具有2:1荣誉学位，如果申请者的第一学位不是数学专业，数学A Level（或同等学历）需要达到Grade A（或以上水平）",
+  "objectives": "英国伯明翰大学数据科学理学硕士项目旨在教授学生编程和数据管理技能，以便可以收集和操作数据，用于分析和揭示数据模式的高级技术以及可视化技能，从而可以将大型数据集转化为决策者可以理解的东西。学生将解数据科学领域中最前沿的当代挑战，尝试通过协作解决这些挑战，完成一个庞大的个人项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学中的程序设计 (Programming in Data Science )\n存储和管理数据 (Storing and Managing Data )\n数据科学的当前课题 (Current Topics in Data Science)\n数据科学组项目 (Data Science Group Project)\n数据科学算法 (Algorithms for Data Science )\n数据可视化 (Visualisation )\n数据科学项目 (Data Science Project )",
+  "success_cases": ""
+}

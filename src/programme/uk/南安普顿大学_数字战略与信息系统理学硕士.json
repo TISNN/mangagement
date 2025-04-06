@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "数字战略与信息系统理学硕士",
+  "ename": "MSc Digital Strategy and Information Systems",
+  "tags": "商科,信息系统,商学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要满足以下任一学科背景：商业、管理学、经济学、计算机科学、信息技术、工程学、科学学科\n学校不接受以下学科背景：\n- 语言研究——不接受专注于学习一门语言或如何翻译的学位，例如“商务英语”、“应用英语”或“翻译”，这一限制不适用于在英国授课的“英语”和“英国文学”学位；\n- 艺术/设计/职业研究——专注于学习一种特定形式的艺术、工艺或职业的学位，这些包括艺术、平面设计、摄影、电视广播、剧本写作或表演/舞蹈学位。\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "数字战略与信息系统理学硕士项目旨在教授学生处理商业知识和使用信息系统的方法，以帮助组织改善他们的业务和实现他们的运营目标。该课程探索最近的趋势和课题，由该领域的领导人教授，学生将学习数字战略和信息系统的理论和实践，并检查该学科的技术、管理和社会方面，学生从那些通过专业研究和行业知识来巩固教学的学者那里学习，在实际任务中探索关键理论，以提高分析、设计和信息系统技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "系统思维 (Systems Thinking)\n问题结构化 (Problem Structuring)\n知识和信息系统管理概论 (Introduction to Knowledge and Information Systems Management)\n信息系统开发 (Information Systems Development)\n信息系统管理和战略 (Information Systems Management and Strategy)\n咨询技能 (Consultancy Skills)\n商业道德 (Business Ethics)\n仿真 (Simulation)\n知识管理和商业智能 (Knowledge Management and Business Intelligence)\n定量和定性研究 (Quantitative and Qualitative Research)\n电子商务和人机交互 (E-Business & Human–Computer Interaction)\n网站应用 (Web Applications)\n论文 (Dissertation)\n风险承担和决策制定 (Credit Scoring and Data Mining)\n资产组合管理和交易所交易衍生产品概论 (Introduction to Portfolio Management and Exchange Traded Derivatives)",
+  "success_cases": ""
+}

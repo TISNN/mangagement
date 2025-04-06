@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "数据科学（生物信息学与生物建模）硕士",
+  "ename": "Master of Data Science (Bioinformatics and Biological Modelling)",
+  "tags": "理科,数据科学,自然科学系",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 34000英镑/年",
+  "requirements": "具有英国一等或2:1荣誉学位或同等学历，需要不包含强大数据科学成分的学位任何背景，包括社会科学、艺术和人文科学、商业和科学\n强烈鼓励具有生物或物理科学学位的候选人申请",
+  "objectives": "杜伦大学数据科学（生物信息学与生物建模）硕士项目旨在为毕业生提供分子生物学生物信息学和建模的定量技能，是一门以数据科学为核心的转换课程，旨在为持有非高度量化的第一学位的学生提供富含数据科学实质的硕士水平教育，包括社会科学、艺术和人文领域背景的学生。介绍性模块旨在让具有非技术学位的学生快速掌握数据科学所需的背景知识。这是在需要知道的基础上完成的，重点是在实践中理解而不是抽象理论。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机科学导论 (Introduction to Computer Science)\n数据科学统计学导论 (Introduction to Statistics for Data Science)\n数据分析中的伦理与偏见 (Ethics and Bias in Data Analytics)\n机器学习 (Machine Learning)\n数据科学编程 (Programming for Data Science)\n数据科学数学导论 (Introduction to Mathematics for Data Science)\n生物信息学 (Bioinformatics)\n研究项目 (Research Project)\n分子生物学建模 (Modelling in Molecular Biology)\n文本挖掘与语言分析 (Text Mining and Language Analytics)\n数据探索、可视化与无监督学习 (Data Exploration, Visualization, and Unsupervised Learning)\n战略领导 (Strategic Leadership)",
+  "success_cases": ""
+}

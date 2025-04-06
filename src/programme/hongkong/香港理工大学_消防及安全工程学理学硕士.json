@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "消防及安全工程学理学硕士",
+  "ename": "MSc Fire and Safety Engineering",
+  "tags": "工科,其他工科,建筑及环境学院",
+  "introduction": "专业方向: 其他工科\n入学时间: 9月\n项目时长: 1年\n项目学费: 202500港币/年",
+  "requirements": "具有荣誉学士学位或同等学历（包括认可的专业资格），需要消防工程、安全工程、建筑服务工程、建筑科学与工程、建造、建筑学、建筑测量、建筑技术、应用科学、工程、物理或化学背景",
+  "objectives": "香港理工大学消防及安全工程学理学硕士课程旨在增进学生的消防及安全工程学专业知识及技术，并培养他们良好的学习态度、学习技巧、智力及想象力。香港理工大学消防及安全工程学理学硕士课程以消防及安全科学及工程学的基础分析及概念发展为主，并提供以工程学表现为本的消防规范等新课题。在安全工程学方面，课程重点在改善建筑安全。内容包括意外预防、危险评估、风险分析、安全管理与审核、施工现场的安全等。香港理工大学消防及安全工程学理学硕士课程不仅适合屋宇设备工程学的毕业生和相关专业人士修读，同时也适合建造业、建筑设计、测量及其他应用科学领域的专业人士。\n香港理工大学消防及安全工程学理学硕士课程已获英国特许屋宇设备工程学会CIBSE)认可，为适合已持有工程学荣誉学士学位，或其他认可学位人士修读的课程，以达到UK-SPEC的要求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "消防模式 (Fire Modelling)\n消防安全管理 (Fire Safety Management)\n工程学表现为本消防规范 (Engineering Performance-based Fire Codes)\n消防工程系统 (Fire Engineering Systems)\n屋宇消防安全设计 (Building Fire Safety Design)\n消防危险评估 (Fire Hazard Assessment)\n风险分析 (Risk Analysis)\n安全管理 (Safety Management)\n安全审核  (Safety Auditing )\n意外预防  (Accident Prevention )\n施工现场的安全 (Safety in Construction Sites)\n职业健康与人类工程学 (Occupational Health & Ergonomics)\n风险评估与控制 (Hazard Assessment & Control)\n安全管理系统和安全审计 (Safety Management Systems & Safety Auditing)\n论文 (Dissertation)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "化学科学理学硕士",
+  "ename": "MSc Chemical Sciences",
+  "tags": "理科,化学,理学院",
+  "introduction": "专业方向: 化学\n入学时间: 8月\n项目时长: 1年\n项目学费: 52320新币/年",
+  "requirements": "申请者必须具有化学或相关学科学位并至少达到二等荣誉学位或同等学历\n具有其他资格和成就被认为适合学习该课程的申请者也可能被考虑\n需要提交存款证明45,000新币",
+  "objectives": "新加坡国立大学化学科学理学硕士课程专为想要攻读化学研究生学位的化学毕业生而设计。该课程为学员在化学行业中担任高级职位，以及有资格攻读化学博士等其他高级学位课程奠定了化学的科学基础。在课程结束时，学生将具备与化学科学最新发展相关的先进知识和技能，使其能够自信地在化学研发及相关行业中担任科学家、管理人员和企业家的领导角色。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "理学硕士项目 (M.Sc. Project)\n社会中的化学 (Chemistry in Society)\n化学工业实践 (Industrial Practices in Chemistry)\n化学领域的知识产权与创业 (Intellectual Property and Entrepreneurship in Chemistry)\n光谱学与成像 (Optical Spectroscopy and Imaging)\n现代分析技术 (Modern Analytical Techniques)\n生物分析化学 (Bioanalytical Chemistry)\n能量储存 (Energy Storage)\n现代有机金属化学 (Contemporary Organometallic Chemistry)\n化学动力学专题 (Topics in Chemical Kinetics)\n高等环境化学 (Advanced Environmental Chemistry)\n高级有机合成 (Advanced Organic Synthesis)\n超分子化学专题 (Topics in Supramolecular Chemistry)\n药物发现中的新兴概念 (Emerging Concepts in Drug Discovery)\n不对称催化 (Asymmetric Catalysis)",
+  "success_cases": ""
+}

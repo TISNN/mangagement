@@ -1,0 +1,12 @@
+{
+  "school_name": "香港浸会大学",
+  "major_name": "会计学硕士（北师大港浸会联合国际学院）",
+  "ename": "Master of Accountancy (Zhuhai, UIC campus)",
+  "tags": "商科,会计,北京师范大学香港浸会大学联合国际学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 1年\n项目学费: 280000人民币/年",
+  "requirements": "持有或即将获得经认可高等教育机构颁发的学士学位其它相关证明文件（非必须） 包括但不限于：获奖证书，GRE/GMAT成绩，ACCA/CICPA/CFA或其他专业考试成绩，实习及工作经历证明等。",
+  "objectives": "北京师范大学-香港浸会大学联合国际学院会计学硕士课程旨在培养适应社会需求的高端财会从业者和领导者，帮助立志于会计与金融服务领域发展的学生拓展职业前景，引领学生顺利进入所向往的职场并为追求更高学业水平的学生打下坚实的基础。课程设有财务会计、管理会计、审计、税务、数据分析及可持续性会计与报告等专业课程。本课程以香港浸会大学会计学师资为主要教学团队，帮助学生系统掌握会计专业的理论知识及实践技能，培养具有国际视野和专业能力的会计、审计和税务等方面的复合型人才。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级财务会计 (Advanced Financial Accounting)\n审计 (Auditing)\n商法与公司法 (Business and Company Law)\n成本与管理会计 (Cost and Management Accounting)\n财务管理 (Financial Management)\n税法 (Taxation)\n会计数据分析与可视化 (Introduction to Accounting Data Analytics and Visualization)\nPython与会计大数据分析 (Accounting Data Analytics with Python)\n会计实习 (Accounting Internship)\n会计理论 (Accounting Theory)\n高级财务报告 (Advanced Financial Reporting)\n高级税法 (Advanced Taxation)\n 公司金融学 (Corporate Finance)\n高级审计 (Contemporary Issues in Business Assurance)\n管理会计前沿 (Contemporary Strategic Management Accounting Issues)\n研习项目 (Integrated Project)\n国际税法 (International Taxation)\n证券监管法规 (Securities Regulation)\n可持续发展会计与报告 (Sustainability Accounting and Reporting)",
+  "success_cases": ""
+}

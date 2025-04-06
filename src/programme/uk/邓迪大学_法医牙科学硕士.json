@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "法医牙科学硕士",
+  "ename": "Master of Forensic Odontology",
+  "tags": "社科,医学,牙科学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 2年\n项目学费: 27900英镑/年",
+  "requirements": "拥有至少两年牙科任职经验者会被学校优先考虑",
+  "objectives": "通过邓迪大学法医牙科学硕士课程，学生将在法医牙科以及法医、法律和研究方面发展其知识、经验和技能。学生将学习：牙齿识别和分析、灾难受害者鉴定、从牙科来源估计年龄、牙科报告撰写和提供证据、咬痕识别的局限性、根据ABFO标准和咬痕评估指南进行咬痕分析，并准备适合发表的研究论文。与法医和法律专业的学生一起学习意味着学生将了解其他法医学科的作用，并确定法医牙科与更广泛的法医社区联系的时间、地点和方式。学生将通过实践经验培养法医牙科技能，协助鉴定人类遗骸。这将使其意识到在死后检查一个人的身体所涉及的复杂性。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "法医学与法律 (Forensic Science and the Law)\n牙科学术写作和传播科学 (Academic writing and communicating science in dentistry)\n法医牙科学研究项目 (Forensic Odontology Research Project)\n咬痕II (Bite Mark II)\n牙科识别和灾难受害者识别 (Dental Identification and Disaster Victim Identification)\n牙组织生物学 (Dental Tissue Biology)\n通过牙科手段估计年龄 (Age Estimation by Dental Means)\n咬痕一 (Bite Mark I)\n取证环境 (MFDont) (Forensic Environments (MFDont))\n牙科与法律 (Dentistry and the Law)",
+  "success_cases": ""
+}

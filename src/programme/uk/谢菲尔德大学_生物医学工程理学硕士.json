@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "生物医学工程理学硕士",
+  "ename": "MSc Biomedical Engineering",
+  "tags": "工科,生物工程,生物工程学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要天文学、生物工程、生物医学工程、化学、控制工程、地球科学、电气工程、一般工程、地质、材料科学与工程、数学、机械工程、气象学、新能源材料与器件、物理、统计数据背景申请者应在以下两个领域中，每个领域至少学习一个课程：领域1：高等数学、微积分、微分方程、工程数学、线性代数、数学；领域2：生物力学、工程力学、流体力学、物理、结构力学",
+  "objectives": "谢菲尔德大学生物医学工程理学硕士课程旨在为学生提供所有必要的技术知识、专业知识和可转移技能，以在发展最快的工程学科之一中取得成功。生物医学工程（或生物工程）是一个结合生物学和工程学的多学科领域，它使学生将工程学原理应用于医学和医疗保健。这门独特的课程结合了生物材料、成像和电子医学。该课程为学生提供将生物学和医学与工程相结合并最终解决与生命系统相关问题所需的医学背景、专业知识、理论和实践技能。该课程将向学生介绍生物材料领域，以及临床应用生物材料选择、设计和开发中的重要因素。学生还将有机会探索医疗器械领域和产品设计，以及监管方面。学生将在世界级实验室中培养实验技能和建模高级技能。这些技能对于模拟人体的复杂性和更传统的工程环境非常有用。学生将由世界领先的科学家教授。学生将处于生物医学创新的前沿，并在学习期间成为该领域专业人士社区的一员。学生可以根据自己的兴趣和研究项目定制课程。可选模块的范围包括生物力学到虚拟现实和3D可视化方法的使用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程师的解剖学和生理学 (Anatomy and Physiology for Engineers)\n医疗器械监管简介 (Introduction to Medical Device Regulation)\n应用建模技巧和虚拟现实 (Applied Modelling Skills and Virtual Reality)\n医学中用于平面和体积成像的 X 射线 (X-rays for Planar and Volumetric Imaging in Medicine)\n肌肉骨骼系统的计算生物力学 (Computational Biomechanics of the Musculoskeletal System)\n临床工程与计算力学 (Clinical Engineering and Computational Mechanics)\n牙科材料科学 (Dental Materials Science)\n生物成像和生物光谱 (Bio-imaging and Bio-spectroscopy)\n基础生物力学 (Fundamental Biomechanics)\n心血管生物力学 (Cardiovascular Biomechanics)\n人体运动生物力学 (Human Movement Biomechanics)\n组织建模实验技巧 (Experimental Skills for Tissue Modelling)\n生命系统故障的组织工程方法 (Tissue Engineering Approaches to Failure in Living Systems)\n生物材料科学 (Biomaterials Science)\n牙科和生物材料的结构和物理特性 (Structural and Physical Properties of Dental and Bio-materials)\n人为因素和以用户为中心的设计 (Human Factors and User-Centred Design)\n具有临床应用的计算力学 (Computational Mechanics with Clinical Applications)\n血管细胞生物学 (Vascular Cell Biology)\n血管疾病：模型和临床实践 (Vascular Disease: models & clinical practice)",
+  "success_cases": ""
+}

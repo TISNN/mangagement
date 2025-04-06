@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "生物科学创新与企业理学硕士",
+  "ename": "MSc Bioscience Innovation and Enterprise",
+  "tags": "理科,生物,大脑科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有2:1英国学士学位，需要科学或技术基础的学科背景；或具有商业相关的第一学位以及对生物科学创新领域（如数字健康）的有明显的兴趣和/或工作经验；或具有同等学历。本课程也适合插班医学生",
+  "objectives": "建立有目标的职业生涯，将科学转化为商业创新。伦敦大学学院生物科学创新与企业理学硕士课程使学生能够通过学习与科学创新最相关的创业、技术和管理技能，从生物科学研究理念中创造新的社会和经济价值。学生将学习商业语言，从科学中发现新的机会，学习如何将潜在的研究解决方案——从干细胞、再生治疗、数字创新、成像和人工智能等领域——应用于现实世界的问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字健康与人工智能 (Digital Health and AI)\n疾病科学 (Science of Diseases)\n数字机遇 (Digital Opportunities)\n生物科学创业公司 (Bioscience Startups)\n研究与商业案例项目 (Research and Business Case Project)\n生物科学商业 (Business for Bioscience)\n实践研究 (Research in Practice)\n在实践中应用临床试验设计原则 (Applying Clinical Trial Design Principles in Practice)\n患者与通过临床试验的数据路径 (Patient and Data Pathways Through Clinical Trials)\n创业融资 (Entrepreneurial Finance)\n决策与风险分析 (Decision and Risk Analysis)\n领导与沟通 (Leadership and Communication)\n创业：理论与实践 (Entrepreneurship: Theory and Practice)\n战略项目管理 (Strategic Project Management)\n药物生物技术 (Pharmaceutical Biotechnology)\n临床药剂学 (Clinical Pharmaceutics)\n天然产品与药妆品的配方 (Formulation of Natural Products and Cosmeceuticals)\n药物输送中的聚合物 (Polymers in Drug Delivery)",
+  "success_cases": ""
+}

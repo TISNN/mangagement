@@ -1,0 +1,12 @@
+{
+  "school_name": "达特茅斯学院",
+  "major_name": "工程硕士",
+  "ename": "Master of Engineering",
+  "tags": "工科,工程管理",
+  "introduction": "专业方向: 工程管理\n项目类别: STEM\n入学时间: 秋季/冬季/春季\n项目时长: 1年\n项目学费: 60,687美元",
+  "requirements": "MEng候选人必须持有认可机构颁发的工程学学士学位或物理、化学或计算机科学等科学领域的学士学位。 拥有非认可机构学位的录取学生可能需要参加必要的先修课。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

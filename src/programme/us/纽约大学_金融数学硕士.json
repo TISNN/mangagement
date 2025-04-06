@@ -1,0 +1,12 @@
+{
+  "school_name": "纽约大学",
+  "major_name": "金融数学硕士",
+  "ename": "Master of Science in Mathematics in Finance",
+  "tags": "商科,金工金数",
+  "introduction": "专业方向: 金工金数\n项目类别: STEM\n入学时间: 秋季\n项目时长: 36学分\n项目学费: 74450美元\n项目规模: 40人\n平均G: 169\n就业比例: 48%\n平均起薪: 104450美元",
+  "requirements": "多元微积分(包括偏导数、多重积分、泰勒级数)\n线性代数(包括线性方程组、行列式、矩阵分解、范围和零空间、对称矩阵的特征值)\n基于微积分的概率论课程(独立、条件概率、高斯分布、大数定律、中心极限定理)",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

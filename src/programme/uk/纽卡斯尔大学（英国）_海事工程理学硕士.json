@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "海事工程理学硕士",
+  "ename": "MSc Maritime Engineering",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 30050英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要以下背景：地球科学、土木工程、地质科学、地质、地球物理学、数学、物理\n申请者需具有数学背景\n学校也会根据个人情况考虑具有较低或非标准资格以及大量相关工作经验的申请者\n申请者需要申请ATAS证书",
+  "objectives": "在纽卡斯尔大学海事工程理学硕士课程中，学生将能够把海洋工程学科的技术知识与实际工业应用相结合，发展管理复杂工程问题的能力，学生将专注于工程师的专业责任，包括：健康与安全，多样性和包容性，文化、社会、环境和商业事务，海事部门特有的业务守则和行业标准。“蓝色经济”对海事工程师的需求不断增长，航运脱碳、向净零碳转型、深海近海可再生能源和海底勘探等领域都需要具有专业技能的工程师，该课程的学生将获得海事工程方面的知识和技能，掌握满足这一需求的工具。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "海事技术基础 (Fundamentals of Marine Technology)\n商业意识与数据分析 (Commercial Awareness and Data Analytics)\n小组项目 (Group Project)\n论文 (Dissertation)\n机械动力传输系统 (Mechanical Power Transmission Systems)\n海上船舶的能源与环境表现 (Energy and Environmental Performance of Ships at Sea)\n高级船舶推进技术 (Advanced Marine Propulsion Technology)\n海洋系统与数字化 (Marine Systems and Digitalisation)\n船舶与近海能源系统结构分析 (Structural Analysis of Ships and Offshore Energy Systems)\n实验与计算流体力学 (Experimental and Computational Hydrodynamics)\n海上固定与浮动基础动力学 (Dynamics of Offshore Fixed and Floating Foundations)\n海底结构系统 (Subsea Structural Systems)\n海上可再生能源系统 (Offshore Renewables Energy Systems)",
+  "success_cases": ""
+}

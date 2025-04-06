@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "金融硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 2年\n项目学费: 127500港币/年",
+  "requirements": "不局限于任何专业",
+  "objectives": "1.强调金融理论学习与财务分析方法训练的结合。在指导学生学习金融理论基础的同时，重视指导学生利用金融统计及计量软体（例如，EViews, STATA, Python，R等）进行金融领域的数据分析。\n2.课程设计有助于学生考取各种相关行业证书。如：中国证券从业资格证书以及美国注册金融分析师（CFA）。\n3.设置“金融学实训室”及提供专业财经资料库，致力于了解金融理论与实务专业并行，以提升学生独立从事金融实证研究能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司金融 (CORPORATE FINANCE)\n金融统计和金融计量学 (FINANCIAL STATISTICS AND ECONOMETRICS)\n金融经济学 (FINANCIAL ECONOMICS)\n财务会计与报告 (FINANCIAL ACCOUNTING AND REPORT)",
+  "success_cases": ""
+}

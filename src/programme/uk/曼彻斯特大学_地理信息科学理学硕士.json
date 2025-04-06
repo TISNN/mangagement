@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "地理信息科学理学硕士",
+  "ename": "MSc Geographical Information Science",
+  "tags": "工科,地球科学,环境、教育与发展学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 32000英镑/年",
+  "requirements": "具有一等或2:1英国荣誉学位或同等学历，需要地球科学、环境科学、地理学或相关学科背景\n也欢迎化学、生物科学、数学或工程相关学科的毕业生\n在评估申请者的学习成绩时，学校会考虑学生已取得的成绩和所就读院校的地位",
+  "objectives": "随着如全球定位系统和谷歌地球等技术的引入，地理信息技术在日常生活中的应用正越来越广泛。核心的地理信息科学技术，包括地理信息系统、遥感，在诸多产业中享有悠久的应用历史，如：规划、农业、林业、水电、交通、和各种政府和私营部门的环保机构。地理信息科学技术的应用遍布各领域。\n曼彻斯特大学地理信息科学理学硕士项目于地理信息科学技术的发展和应用，提供在地理信息科学相关领域就业所需的理论基础和实践技能，你将有机会提升以下先进知识和实践经验：\n地理信息系统与遥感理论与实践；\n地理信息系统开发与图像处理的先进技术；\n空间分析；\n计算机建模；\n互联网和网络技术；\n数据库和数据库技术；\n分析结果的科学沟通及其解释。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "GIS与环境应用 (GIS & Environmental Applications)\n论文支持 (Dissertation Support)\n环境遥感 (Environmental Remote Sensing)\nGIS与环境应用 (GIS and Environmental Applications)\nGIS和网络 (GIS and the Web)\n数字地形分析 (Digital Terrain Analysis)\n环境监测与建模实践 (Environmental Monitoring and Modelling Practice)\n应用研究室 (Applied Study Unit)\n环境监测和建模概念 (Environmental Monitoring and Modelling Concepts)\nGIS和网络 (GIS and the Web)\n映射中的想法 (Ideas in Mapping)\n空间生态学 (Spatial Ecology)\n了解GIS (Understanding GIS)\nGIS和灾难的关键介绍 (A Critical Introduction to GIS and Disasters)\n信息与信息系统基础 (Fundamentals of Information and Information Systems)",
+  "success_cases": ""
+}

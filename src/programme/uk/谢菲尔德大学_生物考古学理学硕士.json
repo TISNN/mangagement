@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "生物考古学理学硕士",
+  "ename": "MSc Bioarchaeology",
+  "tags": "社科,历史,考古学学院",
+  "introduction": "专业方向: 历史\n入学时间: 9月\n项目时长: 1年\n项目学费: 29030英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要艺术、人文或社会学科背景\n取决于申请者对考古的兴趣和参与，学校可能会考虑其他学位科目",
+  "objectives": "谢菲尔德大学生物考古学理学硕士旨在使学生能够接受生物考古学方面的高级培训，深入了解过去人类的生物背景和进化史，包括他们生活的动物、植物和环境的证据。学生将通过核心课程获得科学知识和技能培训，并能够通过选择与动物学，植物学，进化，景观和生态系统相关的一系列生物考古课程，根据自己的兴趣定制课程，学生还将培养在该领域发展职业所需的专业和可转移的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用生物考古科学 (Applied Bioarchaeological Science)\n高级科学技能 (Advanced Scientific Skills)\n生物考古学研究设计 (Research Design for Bioarchaeology)\n论文（期刊论文风格） (Dissertation (Journal Paper Style))\n生物人类学 I (Biological Anthropology I)\n考古动物学 (Archaeozoology)\n地质考古学 (Geoarchaeology)\n人体解剖学 (Human Anatomy)\n人类骨学 (Human Osteology)\n植物考古学 (Archaeobotany)\n考古学中的景观：方法与视角 (Landscapes in Archaeology: Methods and Perspectives)\n重塑考古学 (Reinventing Archaeology)\n高级动物考古学 (Advanced Zooarchaeology)\n进化解剖学 (Evolutionary Anatomy)\n人类进化：研究中的理论与实践 (Human Evolution: Theory and Practice in Research)\n墓葬考古学 (Funerary Archaeology)",
+  "success_cases": ""
+}

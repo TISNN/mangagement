@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "智能工程建筑与基础设施信息建模理学硕士",
+  "ename": "MSc Building and Infrastructure Information Modelling (BIM) for Smart Engineering",
+  "tags": "工科,土木工程,工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 29450英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科领域背景（土木工程、建筑工程、环境工程或结构工程）或其他相关领域（建筑学、机械工程或计算机科学）致力于数字和智能工程；申请人具备相关工作经验也会被考虑",
+  "objectives": "卡迪夫大学智能工程建筑与基础设施信息建模理学硕士项目旨在教授学生建筑与基础设施信息模型专业知识与技能，帮助学生积累实践经验，培养行业人才。智能工程建筑与基础设施信息建模理学硕士课程为学生夯实基础知识，提高建模与分析技能，增强工作能力。项目课程整体设置全面、灵活、以研究为导向。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学位论文（土木、结构、地理环境、水资源） (Dissertation (Civil、Structural、Geoenvironmental、Water) )\n综合性建筑/基础设施设计 (Integrated Building/Infrastructure Design )\nBIM计算与信息处理 (BIM Computing and Information Processing)\n工程实例研究 (Engineering Case Study )\n专业工程学 (Professional Engineering Studies)\n建筑与基础设施信息建模 (Building and Infrastructure Information Modelling )",
+  "success_cases": ""
+}

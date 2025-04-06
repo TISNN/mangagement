@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "面向表演与交互的设计建筑学硕士",
+  "ename": "MArch Design for Performance and Interaction",
+  "tags": "社科,建筑,建筑环境学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有二等英国学位或同等学历，需要适当学科背景，在该领域具备丰富经验的申请者也可能被考虑，需要设计/创意作品集，学校收到完整的申请后会要求申请者提交设计工作作品集，并且在被要求之前申请者不应发送或上传作品",
+  "objectives": "性能和交互设计是一门新设的学科，伦敦大学学院是英国为数不多的开设本课程的研究机构之一。伦敦大学学院面向表演与交互的设计建筑学硕士项目旨在培养学生运用软件模拟不同情境下的性能空间和人类行为。该课程的核心概念是将性能空间创造和空间性能创造视为共生设计活动。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计工作室导论 (Introductory Design Workshops)\n特定环境理论 (Contextual Theory)\n技能组合 (Skills Portfolio)\n论文集，最终项目 (Thesis Portfolio, Final Projects )\n论文 (Thesis Report)\n论文集，开题报告 (Thesis Portfolio, Initial Projects )",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "营养科学理学硕士",
+  "ename": "MSc Nutritional Sciences",
+  "tags": "工科,食品科学,生物科学学院",
+  "introduction": "专业方向: 食品科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 32400英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要生物科学学科背景（不包括营养学或密切相关学位），可接受的学位包括但不限于生物学、生理学、运动科学、食品科学和心理学，如果申请者不确定其学位是否符合以上入学要求，可联系学校确认",
+  "objectives": "诺丁汉大学营养科学理学硕士课程面向生物科学（或相关专业）的理学学士学位毕业生。在整个课程中，学生将深入了解人类营养及其与健康和疾病的关系，学习大量和微量营养素、能量和新陈代谢的功能。利用最新研究，探索营养学家在公共卫生和可持续全球粮食系统中的重要作用。学生将讨论营养领域当前的循证研究、趋势和发展，并认识到让公众了解安全和可信的营养信息的重要性。学生将可以使用最先进的专业设施，包括饮食实验室、临床技能套件和技术增强型教学实验室。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "营养学研究技能 (Research Skills in Nutrition)\n健康人，健康星球 ( Healthy People, Healthy Planet)\n营养学基础 (Fundamentals of Nutrition)\n公共健康营养 (Public Health Nutrition)\n营养和代谢 (Nutrition and Metabolism)\n分子营养学 (Molecular Nutrition )",
+  "success_cases": ""
+}

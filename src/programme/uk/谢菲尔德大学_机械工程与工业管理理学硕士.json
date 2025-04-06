@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "机械工程与工业管理理学硕士",
+  "ename": "MSc Mechanical Engineering with Industrial Management",
+  "tags": "工科,工程管理,机械工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要化学、制造自动化、数学、机械设计、机械工程、物理、车辆工程学科背景；学校也将考虑相关工程学科\n申请者应该在以下四个领域的两个中至少学习一门课程：固体力学、动力学、热电、流体（详细要求见官网），注意学校不接受包含“实验/实验室”字样的课程",
+  "objectives": "谢菲尔德大学机械工程与工业管理理学硕士项目适合有兴趣在行业内从事管理职业的人，该课程将高级机械工程科目与专门为工程师量身定制的管理模块相结合。作为学习的一部分，学生还将有机会通过个人研究项目进一步探索感兴趣的主题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士个人研究项目 (Msc Individual Research Project)\n专业发展作品集 (Professional Development Portfolio)\n迷你硕士研究项目 (Masters Research Mini Project)\n机械工程师的技术交流 (Technical Communication for Mechanical Engineers)\n战略工程管理和商业实践 (Strategic Engineering Management and Business Practices)\n实验和有效的计算机模型 (Experiments and Valid Computer Models)\n管理工程环境中的创新和变化 (Managing Innovation and Change in Engineering Contexts)\n工程商业成功:让世界变得更美好! (Engineering Commercial Success: and Making the World a Better Place!)\n高等动力学 (Advanced Dynamics)\n先进制造技术的力学与应用 (Mechanics and Applications of Advanced Manufacturing Technologies)\n有限元分析的工业应用 (Industrial Applications of Finite Element Analysis)\n摩擦学基础与应用 (Fundamentals and Applications of Tribology)\n汽车动力系统 (Automotive Powertrain)\n航空安全和空气弹性 (Aviation Safety and Aeroelasticity)",
+  "success_cases": ""
+}

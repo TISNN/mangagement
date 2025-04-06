@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "言语治疗硕士",
+  "ename": "Master of Speech Therapy",
+  "tags": "社科,医学,人文学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 2.5年\n项目学费: 223200港币/年",
+  "requirements": "具有认可院校颁发的学士学位或同等学历，需要提交英语水平证明与汉语水平证明\n申请者应该能够使用粤语及英语进行有效的口头交流，优先考虑精通普通话的申请者\n录取优先考虑具有语言学、心理学、言语和语言科学或医学或健康相关学科学士学位的申请者",
+  "objectives": "香港理工大学言语治疗硕士课程旨在培养能够在香港从事言语治疗实践，并能够在中国大陆与澳门特别行政区担任言语治疗倡导者的毕业生。该课程旨在为学生提供专业上的和学术上的知识基础、临床和研究技能，引导其拥有入门级言语治疗师的所需要的态度与职业道德。香港理工大学言语治疗硕士课程将通过粤语、普通话和英语三语教学，以解决汉语或双语环境下的言语治疗。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物医学基础 (Foundations in Biomedical Sciences )\n行为与社会科学基础 (Foundations in Behavioral and Social Sciences)\n语言学与语言科学基础 (Foundations in Linguistics and Language Sciences)\n交流障碍与听力学导论 (Introduction to Communication Disorders and Audiology)\n语言治疗及听力学导论 (Introduction to Speech Therapy and Audiology )\n儿童交流障碍：评估和治疗 (Paediatric Communication Disorders: Assessment and Treatment )\n成人交流障碍：评估和治疗 (Adult Communication Disorders: Assessment and Treatment )\n评估和治疗II (Assessment and Treatment II )\n研究项目I (Research Project I )\n临床实习 (Clinical Practicum )\n案例研讨会 (Case Conference)\n语言心理学 (Psycholinguistics)\n阅读心理学及阅读困难 (The Psychology of Reading and Reading Difficulties)\n职业道德与热点议题 (Professional Ethics and Issues )",
+  "success_cases": ""
+}

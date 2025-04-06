@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "水文信息学与水资源管理理学硕士（5所欧洲大学联合开设）",
+  "ename": "Joint MSc Hydroinformatics and Water Management (five European universities)",
+  "tags": "工科,环境工程,工程学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 2年\n项目学费: 9000英镑/年",
+  "requirements": "",
+  "objectives": "纽卡斯尔大学水信息学与水管理理学硕士项目致力于研究如何将先进的信息和通信技术应用到水管理中去。学生可以利用欧洲各大学的资源，与来自世界各地的学生一起学习和感受国际通用的技术和文化。项目向学生提供欧洲五所大学间的联合学位，是欧盟“伊拉斯谟”计划中最成功的课程项目之一。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数学与物理 (mathematics and physics)\n水文学与水力学 (Hydrology and Hydraulics)\n数字与计算水力学 (Numerical and Computational Hydraulics)\n水与水环境管理 (Water and Aquatic Environment Management)\n水信息与综合水资源管理 (Hydroinformatics and Integrated Water Resources Management)\n软件包导论（商业与工业建模系统） (Introduction to Software Packages (Commercial and Industrial Modelling Systems)\n数据库与地理信息系统、信息通信技术 (Databases and GIS、ICT)\n软件工程 (Software Engineering)\n基于网页的协作工程 (Web-based Collaborative Engineering)",
+  "success_cases": ""
+}

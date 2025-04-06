@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "数据科学理学硕士",
+  "ename": "MSc Data Science",
+  "tags": "理科,数据科学,计算机科学系",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33200英镑/年",
+  "requirements": "具有一等或strong 2nd荣誉学士学位或同等学历\n具有很强数学重点的计算机科学、数学或任何联合数学科目背景。统计学、物理学、天体物理学、工程数学或其他具有足够基础数学的科学学位也适合。学校还会考虑其他具有足够数学内容的科目。有编程经验是优势",
+  "objectives": "数据科学推动了全球经济活动的很大一部分，并且正在影响众多领域的科学进步。\n本课程为您提供了成为具有强大数学基础的行业专家的工具。\n您将了解实现有效数据科学所需的科学与技术的平衡组合。\n您将学习具有普遍相关性的强大统计基础，并掌握有关概率机器学习技术的专业知识。您将获得软件技术方面的专业知识，这些技术是将这些知识付诸实践、应对小型和大型数据集挑战的核心。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用数据科学 (Applied data science)\n科学统计数据 (Statistics for data science)\n机器学习1 (Machine learning 1)\n软件技术对数据的科学 (Software technologies for data science)\n应用数据科学 (Applied data science)\n机器学习2 (Machine learning 2)\n研究项目的准备 (Research project preparation)\n加上可选的单位 (Plus optional units)\n论文 (Dissertation)\n贝叶斯机器学习 (Bayesian machine learning)\n强化学习 (Reinforcement learning)",
+  "success_cases": ""
+}

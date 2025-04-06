@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "英汉口译与笔译文学硕士",
+  "ename": "MA English-Chinese Interpreting with Translation",
+  "tags": "社科,语言,文科与法律学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 26180英镑/年",
+  "requirements": "具有2:1荣誉学位，需要语言或人文相关学科背景，申请者的普通话需要达到母语水平",
+  "objectives": "口译专业注重技巧，需要学术培训以及相关环境下的大量实践。伯明翰大学英汉口译与笔译文学硕士项目适合立志成为专业口译员的学生。学生将学习口译理论和实践、并得到前沿的口译教学。我们也鼓励学生在课余时间运用这些能力，来进一步锻炼实践技能。学生将学习一系列入门和高级模块知识，在两个教学阶段快速培养技能，并在研习课程中熟练运用。通过项目学习，学生将为商业、法律等其他领域的口译工作做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "交替传译导论 (Introduction to Consecutive Interpreting)\n同声传译概论 (Introduction to Simultaneous Interpreting)\n高级交替传译 (Advanced Consecutive Interpreting)\n商务翻译（中文） (Translating for Business (Chinese))\n英汉联络口译（限华语学生） (English-Chinese Liaison Interpreting (Chinese-language students only))\n理论和分析技能 (Theoretical and Analytical Skills)\n翻译技术 (Translation Technology)\n专业翻译（中文） (Specialised Translation (Chinese))\n当代翻译理论 (Contemporary Theories of Translation)\n专业发展（笔译/口译） (Professional Development (Translation/Interpreting))",
+  "success_cases": ""
+}

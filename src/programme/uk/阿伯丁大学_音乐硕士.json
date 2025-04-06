@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "音乐硕士",
+  "ename": "Master of Music",
+  "tags": "社科,其他社科,语言、文学、音乐和视觉文化学院",
+  "introduction": "专业方向: 其他社科\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "通常具有2:2学位或同等学历，或证明具备音乐相关经验，针对不同方向均需提供满足相应要求的作品集",
+  "objectives": "阿伯丁大学音乐硕士利用音乐系内的研究实力，面向作曲家（声乐、器乐或电子）、表演者、声音艺术家、音乐学家、音乐教育和对音乐研究领域特别感兴趣的社区音乐从业者。阿伯丁大学音乐硕士学生可以通过从六个途径中选择一两个研究集中来设计他们的研究：作曲、社区音乐、音乐学、音乐教育、表演和声波艺术。阿伯丁大学音乐硕士项目提供广泛的课程，使学生可以选择自己的学习途径。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "音乐研究技能 (Music Research Skills)\n文艺复兴时期对位法 (Renaissance Counterpoint)\n发声 (Vocalstration)\n音乐之王 (Musicking)\n美学当代问题 (Contemporary Issues in Aesthetics)\n空间与沉浸式声音 (Space and Immersive Sound)\n音乐研究研讨会系列 (Music Research Seminar Series)\n词与曲 (Words and Music)\n当代欧洲歌剧 (Contemporary European Opera)\n新媒体高级声音设计 (Advanced Sound Design for New Media)\nAsn与社区音乐 (Asn and Community Music)\n扩展项目模块B (Extended Project Module B)",
+  "success_cases": ""
+}

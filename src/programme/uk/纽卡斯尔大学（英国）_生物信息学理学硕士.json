@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "生物信息学理学硕士",
+  "ename": "MSc Bioinformatics",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 32300英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要计算机科学、数学基础学科或任何生物科学基础学科背景，如：遗传学、生物化学、生物学\n学校也会根据个人情况考虑具有非标准资格但在生物或计算机科学相关领域具备大量工业或专业经验的申请者",
+  "objectives": "纽卡斯尔大学生物信息学理学硕士学位课程将生物信息学的基本技能和计算机编程、分子生物学与研究方法相等专业技能相结合，独特的跨学科课程汇集了全校赞誉很高的教学和专业研究，将帮助学生在生物信息行业或学术界开展职业生涯做足准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物信息学高通量技术 (High-Throughput Technologies in Bioinformatics)\n生物信息学理论和实践 (Bioinformatics Theory and Practice)\n蜂窝系统建模 (Modelling Cellular Systems)\n生物学编程入门 (Introductory Programming for Biologists)\n生物信息学研究技巧 (Research Skills for Bioinformatics)\n数理能力（统计和数学） (Numeric Skills (Statistics and Mathematics))\n细胞和分子生物学基础 (Fundamentals of Cell and Molecular Biology )\n生物信息学研究项目 (Research Project for Bioinformatics)\n生物信息学计算环境 (Computing Environments for Bioinformatics)\n复杂生物系统的计算分析 (Computational Analysis of Complex Biological Systems)\n比较和进化基因组学 (Comparative and Evolutionary Genomics)\n生物信息学电子科研 (e-Science for Bioinformatics)\n生物信息学高级编程 (Advanced Programming for Biologists)",
+  "success_cases": ""
+}

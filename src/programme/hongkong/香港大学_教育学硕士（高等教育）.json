@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "教育学硕士（高等教育）",
+  "ename": "Master of Education (Higher Education)",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 229800港币/年",
+  "requirements": "具有学士学位或同等学历",
+  "objectives": "香港大学教育学硕士（高等教育）硕士项目旨在加强大学和学院管理人员的能力和信心，以掌握高等教育领导、团队建设、国际和跨文化交流、解决问题、复杂数据管理、共享治理和质量保证的前沿思想和最佳实践，课程借鉴了社会学、经济学、政治学、行政研究和比较教育所贡献的跨学科观点。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育问题与研究 (Educational Issues and Research)\n比较高等教育政策研究 (Comparative Higher Education Policy Studies)\n全球化与高等教育 (Globalization and Higher Education)\n高等教育领导力 (Higher Education Leadership)\n高等教育的组织理论与策略 (Organizational Theories and Strategies in Higher Education)\n统计方法概论 (Introduction to Statistical Methods)\n定性研究方法：研究设计、数据收集与分析 (Qualitative Methods: Research Design, Data Collection and Analysis)\n教育中的叙述分析 (Narrative Analysis in Education)\n研究项目或专业作品集 (Research Project or Professional Portfolio)",
+  "success_cases": ""
+}

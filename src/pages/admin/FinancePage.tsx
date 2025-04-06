@@ -16,7 +16,6 @@ import { supabase } from "../../supabase";
 import {
   Transaction,
   TransactionForm,
-  Person,
   Project,
   ServiceType,
   Category,
@@ -24,7 +23,8 @@ import {
   TransactionStatus,
   TransactionDirection
 } from "../../types/finance";
-import financeService from "../../services/finance/financeService";
+import { Person } from "../../types/people";
+import { financeService } from "../../services/finance/financeService";
 import {
   Dialog,
   DialogContent,

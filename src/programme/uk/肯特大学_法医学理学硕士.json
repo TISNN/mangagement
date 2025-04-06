@@ -1,0 +1,12 @@
+{
+  "school_name": "肯特大学",
+  "major_name": "法医学理学硕士",
+  "ename": "MSc Forensic Science",
+  "tags": "社科,医学,化学与法医学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 23500英镑/年",
+  "requirements": "具有一等或二等荣誉学位，需要法医科学或法医相关学科背景，化学和生物科学相关学位可以被考虑\n所有申请者都将根据具体情况予以考虑，其他资格、专业资格和相关经验也可能被考虑在内",
+  "objectives": "肯特大学法医学理学硕士项目专为有志于进阶深造并具备扎实法医学基础的毕业生而设，为学生在刑事或民事司法系统、警察或法医实践以及学术研究中扮演重要角色做好准备。学生将获得在法庭上以最高标准提交专业证据性事件报告所需的指挥、控制和管理技能，同时掌握应用于法医鉴定的高级实验室分析方法，这将帮助学生选择在法医鉴定中最适用的分析技术，并使用各种先进的分析仪器来制定证据标准。肯特大学法医学理学硕士项目帮助学生形成对法医学的综合和批判性的理解，有助于学生在任何相关学科中继续攻读博士学位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "物理科学研究调查 (Physical Science Research Investigation)\n法医学的当代和高级问题 (Contemporary and Advanced Issues in Forensic Science)\n滥用物质 (Substances of Abuse)\n高级项目实验室 (Advanced Project Laboratory)\n事件管理的现代方法 (Modern Approaches to Incident Management)\n重大事件管理 (Major Incident Management)\n火灾和爆炸 (Fires and Explosions)\n功能材料主题 (Topics in Functional Materials)\nDNA分析与解释 (DNA Analysis & Interpretation)\n理学硕士研究项目 (MSC Research Project)",
+  "success_cases": ""
+}

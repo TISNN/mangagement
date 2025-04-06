@@ -1,0 +1,12 @@
+{
+  "school_name": "香港教育大学",
+  "major_name": "人工智能与教育科技理学硕士",
+  "ename": "MSc Artificial Intelligence and Educational Technology",
+  "tags": "工科,计算机,博文及社会科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 166980港币/年",
+  "requirements": "申请者通常应持有教育技术、统计学、计算机科学、工程学相关学科的受认可学士学位或其他同等学历，应具备先前的编程知识和技能",
+  "objectives": "香港教育大学人工智能与教育科技理学硕士课程为学生提供人工智能及教育科技的基础知识，并培养学生应用人工智能及教育科技解决现实世界问题的实践技能和能力，培养学生的道德意识。香港教育大学人工智能与教育科技理学硕士课程亦为学生提供创新课程设计和教学的教学架构和方法，并赋予他们运用适当方法进行独立研究的能力。该课程旨在为毕业生在学校、高等教育、政府和企业部门的人工智能及教育科技相关领域工作提供广泛的就业机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育中的人工智能 (Artificial Intelligence in Education)\n利用技术设计创新学习环境 (Design of Innovative Learning Environments with Technology)\n研究方法与探究 (Research Methods and Inquiry)\n神经网络与深度学习 (Neural Networks and Deep Learning)\n编码与计算思维 (Coding and Computational Thinking)\n数据挖掘与STEM教育 (Data Mining and STEM Education)\n物联网 (Internet of Things)\n人工智能高级编程 (Advanced Programming for Artificial Intelligence)\n独立项目 (Independent Project)",
+  "success_cases": ""
+}

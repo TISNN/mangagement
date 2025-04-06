@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "人力资源管理理学硕士",
+  "ename": "MSc Human Resource Management",
+  "tags": "商科,人力资源管理,商学院",
+  "introduction": "专业方向: 人力资源管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 32510英镑/年",
+  "requirements": "具有英国大学（或海外同等机构）颁发的荣誉学位（2:1或更高水平）或研究生文凭，不限专业背景\n能够证明超过最低入学要求的申请者将被优先考虑",
+  "objectives": "伯明翰大学人力资源管理理学硕士项目将负责任的商业、体面的工作和良好的人员管理置于教学和研究的最前沿。全球化，意味着对人员进行的有效且公平的管理比以往任何时候都更加重要，该项目将会培养学生的批判性思维，让他们成为更有道德意识和道德责任感的经理、员工和公民，有能力在工作场所和更广泛的社会环境中推广良好的人事管理理念和实践。众多顶级雇主对人力资源管理专业毕业生的专业技能有着很高的需求，该学院与该行业主要雇主不断发展的关系将为毕业生提供与领先的国家和全球组织会面和建立联系的机会。学员们将从HRM模块包括资源组织、发展组织、工作奖励和雇佣关系四个HRM的核心内容开始学习，然后，他们可以通过创新模块（例如工作的未来和管理平等与多样性）探索各种其他主题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n人力资源管理 (Human Resource Management)\n国际人力资源管理 (International Human Resource Management)\n国际劳资关系展望 (International Perspectives on Industrial Relations)\n领导力发展 (Leadership Development)\n研究工作、就业和员工关系 (Researching Work, Employment and Employee Relations)\n培训和发展 (Training and Development)\n全球转移 (The Global Shift)\n变更管理 (Change Management)\n当代工作、就业和人事管理问题 (Contemporary issues in Work, Employment and People Management)",
+  "success_cases": ""
+}

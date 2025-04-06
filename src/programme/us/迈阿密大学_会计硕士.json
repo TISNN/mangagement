@@ -1,0 +1,12 @@
+{
+  "school_name": "迈阿密大学",
+  "major_name": "会计硕士",
+  "ename": "Master of Science in Accountancy",
+  "tags": "商科,会计",
+  "introduction": "专业方向: 会计\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2学期\n项目学费: 65100美元",
+  "requirements": "需要完成财务会计原理、管理会计、中级会计、成本会计、稽核、税收基础、高级税收、会计系统的先修课程。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

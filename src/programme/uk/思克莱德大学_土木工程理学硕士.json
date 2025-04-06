@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "土木工程理学硕士",
+  "ename": "MSc Civil Engineering",
+  "tags": "工科,土木工程,土木与环境工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 30250英镑/年",
+  "requirements": "通常具有一等或2:1荣誉学位，需要土木工程学科背景，环境工程、数学、物理和机械工程专业背景的申请者也会被考虑\n如果有其他优势（例如，相关工作经验，出色的最终项目/论文，非常有力的学术推荐信，与职业目标相关的非常有力的申请陈述），则可能会考虑较低的学位等级",
+  "objectives": "思克莱德大学土木工程理学硕士项目为期一年，旨在满足工程产业的广泛需求。该项目适合土木工程领域中任何学科背景的本科生，也适合于拥有环境工程、地球科学、数学、物理和机械工程背景的学生。学生将能够提升未来职业生涯发展所需的专业通用技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "土木工程设计课题项目 (Civil Engineering Design Projects)\n定量和定性研究方法 (Qualitative & Quantitative Research Methods specialization)\n结构工程和项目管理方向 (Structural Engineering & Project Management specialization)\n岩土工程和项目管理方向 (Geotechnical Engineering & Project Management specialization)\n环境岩土工程和项目管理方向 (Geoenvironmental Engineering & Project Managementspecialization )\n水工程和项目管理方向 (Water Engineering & Project Management specialization)",
+  "success_cases": ""
+}

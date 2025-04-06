@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "地球观测与地理信息管理理学硕士",
+  "ename": "MSc Earth Observation and Geoinformation Management",
+  "tags": "工科,地球科学,地球科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 36000英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，学校也可能考虑具有英国2:2荣誉学位或同等学历以及相关行业经验的申请者\n学校也欢迎没有学位但在英国武装部队担任地理空间专业人员并接受过相关培训的申请者提出申请",
+  "objectives": "爱丁堡大学地球观测与地理信息管理理学硕士项目将会让学员具备具有批判性的理论知识，培养他们较强的实践技能，能进行受监督的独立研究。该项目将不断更新课程，让学生们了解最新技术，并能够预测在这个快速增长的行业中至关重要的趋势和创新想法。学员们可以获得在“现场”应用地球观测数据的丰富经验，包括遥感。此外，学生们还将受益于使用勘测级GPS和无人驾驶飞行器等设备的项目。此外，该课程毕业生将成为独特的爱丁堡地球天文台系列研讨会的一员。该项目组与苏格兰地理信息协会联合举办了这些活动。这些活动将能使学员结识一系列专业人士，接触新思想，以及教育和就业机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究实践与项目计划 (Research Practice and Project Planning)\n三维气候模拟导论 (Introduction to Three Dimensional Climate Modelling)\n地理信息科学原理 (Principles of Geographical Information Science)\n可持续能源技术 (Technologies for Sustainable Energy)\n大气质量与全球变化 (Atmospheric Quality and Global Change)\n遥感原理与实践 (Principles and Practice of Remote Sensing)\n地理信息系统技术基础架构 (Technological Infrastructures for GIS)\n生态系统与全球变化 (Ecosystems and Global Change)\n环境与社会应用研究技能 (Applied Research Skills in Environment and Society)\n主动遥感：雷达和激光雷达 (Active Remote Sensing: Radar and Lidar)\n被动地球观测：新平台、传感器与分析方法 (Passive Earth Observation: New Platforms, Sensors, and Analytical Methods)\n数据挖掘与探索 (Data Mining and Exploration)\n政策及规划参与 (Participation in Policy and Planning)\n水资源管理 (Water Resource Management)",
+  "success_cases": ""
+}

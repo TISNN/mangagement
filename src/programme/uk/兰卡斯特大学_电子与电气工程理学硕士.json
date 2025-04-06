@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "电子与电气工程理学硕士",
+  "ename": "MSc Electronic and Electrical Engineering",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 10月\n项目时长: 1年\n项目学费: 30310英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要相关工程学科背景（包含大量数字和模拟电子内容，其中可能包括一些通信、电气工程、计算机系统和物理学课程）\n学校也可能考虑具有2:2学位并且在相关技术领域具备丰富经验的非标准申请者，对于英国申请者来说，HND学位以及适当的实践经验也可能被接受，需要联系学校获取更多信息\n在任何需要应用技术技能的实际工程岗位具备相关工作经验的申请者优先考虑（但非必需）",
+  "objectives": "电气与电子工程师正在推动创新，以解决一些世界上最关键的挑战，从推进可再生能源解决方案到塑造智慧城市和自动化的未来，兰卡斯特大学电子与电气工程理学硕士课程旨在提高学生的技术专长和实践经验，使其能够在这些领域脱颖而出，并帮助其获得工程特许权。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级嵌入式系统 ( Advanced Embedded Systems)\n论文 (Dissertation)\n电力系统分析与建模 (Electrical Power Systems Analysis & Modelling)\n高频电子 (High Frequency Electronics)\n行业关联集团项目 (Industry-linked Group Project)\n智能系统控制 (Intelligent System Control)\n接口与集成 (Interfacing and Integration)\n工程中的机器学习 (Machine Learning in Engineering)",
+  "success_cases": ""
+}

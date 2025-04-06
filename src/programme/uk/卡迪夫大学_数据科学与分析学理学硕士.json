@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "数据科学与分析学理学硕士",
+  "ename": "MSc Data Science and Analytics",
+  "tags": "理科,数据科学,数学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 32450英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科领域背景，如数学，科学或工程",
+  "objectives": "卡迪夫大学数据科学与分析理学硕士教授学生运用数据科学和分析方法的理论及实践，用于提取和处理“大数据”，并提升建模等技能，帮助企业和政府机构做出更好的决策。卡迪夫大学数据科学与分析理学硕士项目由计算机科学与信息学院以及数学学院联合授课，学生可以掌握更多综合知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据可视化 (Data Visualisation)\n应用机器学习 (Applied Machine Learning )\n计算数据科学 (Computational Data Science )\n运筹学和分析学基础 (Foundations of Operational Research and Analytics)\n统计学和数据科学基础 (Foundations of Statistics and Data Science)\n论文 (Dissertation)",
+  "success_cases": ""
+}

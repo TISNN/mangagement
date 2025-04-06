@@ -1,0 +1,12 @@
+{
+  "school_name": "康奈尔大学",
+  "major_name": "运筹学与信息工程专业数据分析方向",
+  "ename": "MEng in Operations Research and Information Engineering-Data Analytics",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n入学时间: 秋季\n项目时长: 12门课\n项目学费: 44500美元/年\n项目规模: 50人",
+  "requirements": "需要工程微积分课程,包括线性代数（含特征值和特征向量）和矢量微积分,内容和严格程度与康奈尔大学的MATH 1910, MATH 1920, 和MATH 2940课程相似。\n一门工程概率和统计学入门课程,其内容和严格程度类似于康奈尔大学的ENGRD 2700。\n一门普通编程语言的中级计算机编程课程,如C、C、Java或Python,内容和严格程度类似于康奈尔大学的ENGRD 2110课程。需要编程应用的课程,但编程不是主要的重点,是不可以替代的。统计建模语言的课程,如R和SAS,是不可以替代的。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

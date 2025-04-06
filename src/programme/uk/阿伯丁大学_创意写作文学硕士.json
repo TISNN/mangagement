@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "创意写作文学硕士",
+  "ename": "MLitt Creative Writing",
+  "tags": "社科,文化,语言、文学、音乐和视觉文化学院",
+  "introduction": "专业方向: 文化\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "具有良好的第一学位，需要任意人文学科背景\n通常达到2:1或以上水平，但也邀请具有非标准资格的申请者申请\n需要提交写作样本（3到6首诗，或至少2000字的散文样本）",
+  "objectives": "阿伯丁大学创意写作文学硕士项目旨在为学生提供一个建设性的、高度支持的学习环境，以发展其写作和创造性的潜力。阿伯丁大学创意写作文学硕士课程将向学生介绍创作可出版质量作品的过程和挑战，无论是诗歌或散文、小说还是创造性非小说作品。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "创意写作1 (Creative Writing I)\n创意写作3：非小说类 (Creative Writing III: Non - Fiction)\n小说：环境与邂逅 (The Novel: Environments and Encounters)\n爱尔兰与苏格兰的浪漫主义 (Irish and Scottish Romanticism)\n艺术公众参与 (Public Engagement for Arts)\n创意写作2 (Creative Writing II)\n走近文学2 (Approaching Literature 2)\n编写自传 (Writing the Self)\n论文：创意写作作品集 (Dissertation: Creative Writing Portfolio)",
+  "success_cases": ""
+}

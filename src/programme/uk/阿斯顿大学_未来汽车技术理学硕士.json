@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "未来汽车技术理学硕士",
+  "ename": "MSc Future Vehicle Technologies",
+  "tags": "工科,交通运输,工程与技术学院",
+  "introduction": "专业方向: 交通运输\n入学时间: 9月\n项目时长: 1年\n项目学费: 21500英镑/年",
+  "requirements": "具有2.2工学学士学位，理想情况下，申请者应具备以下背景：汽车工程，化学工程，控制与系统工程，电气与电子工程，能源工程，环境工程，工业与制造工程或机械工程",
+  "objectives": "阿斯顿大学未来汽车技术理学硕士课程为培养工程专业人才，引领混合动力、纯电动、自动驾驶和互联汽车的过渡过程，开发未来的相关技术而开设的。旨在为汽车工程师和新工程毕业生提供多学科基础知识，以及对突破性进展的认识和必要的技能，以满足现代电动汽车行业的要求。解决的技能差距包括对混合动力和电力传动系统、互联汽车和自动驾驶、电力驱动、低碳发动机和燃料的设计，以及使用先进的计算工具对汽车系统进行多物理建模。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "混合动力和电动动力系统 (Hybrid and Electric Powertrains)\n电力电子与电力驱动 (Power Electronics and Electric Drives)\n汽车自动化和连通性 (Vehicle Automation and Connectivity)\n新引擎和替代燃料 (New Engines and Alternative Fuels)\n多重物理量系统设计 (Multiphysics System Design)\n计算流体力学及其应用 (Computational Fluid Dynamics and Applications)\n有限元分析与固体力学 (Finite Element Analysis and Solid Mechanics)\n研究方法 (Research Methods)\n硕士论文 (Dissertation)",
+  "success_cases": ""
+}

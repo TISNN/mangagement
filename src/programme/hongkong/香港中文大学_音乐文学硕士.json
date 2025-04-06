@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "音乐文学硕士",
+  "ename": "MA Music",
+  "tags": "社科,艺术,文学院",
+  "introduction": "专业方向: 艺术\n入学时间: 9月\n项目时长: 1年\n项目学费: 145000港币/年",
+  "requirements": "需要提供B等级证明，毕业于受认可的大学并获得学士学位，或在高等教育机构完成学习课程并获得相当于学士学位的专业或类似资格",
+  "objectives": "香港中文大学音乐文学硕士课程的具体目标是提供关于音乐及其更广泛的文化背景的高级学术和实践指导，使学生具备在未来工作中茁壮成长所需的关键技能和敏锐性。它不仅是为目前在音乐领域工作的人开设的，也是为来自其他行业的具有强大音乐背景的音乐爱好者开设的。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "音乐研究的方法 (Approaches to the Study of Music)\n传统中国音乐文化 (Traditional Musical Culture in China )\n当代中国音乐文化 (Musical Culture in Contemporary China)\n西方歌剧与相关声乐类别 (Western Opera & Related Vocal Genres)\n西方器乐乐种 (Western Instrumental Genres)\n世界音乐文化专题探讨 (Music in World Cultures: Topics in World Musics )\n香港音乐与流行文化 (Music and Popular Culture in Hong Kong)\n音乐行政及推广 (Music Management and Promotion )\n中国传统仪式音乐 (Soundscape of China's Ritual Traditions)\n圣乐新领域 (Frontiers in Church Music)\n电影中的音乐 (Music in Film)\n音乐资讯科技高阶 (Advanced Music Information Technology )\n实用创作与编曲 (Practical Composing and Arranging)\n编写教会音乐 (Writing Music for the Church )\n风格、演绎与演奏实践 (Style, Interpretation and Performance Practice)",
+  "success_cases": ""
+}

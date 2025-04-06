@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "应用经济学理学硕士",
+  "ename": "MSc Applied Economics",
+  "tags": "商科,经济,商学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 327000港币/年",
+  "requirements": "具有认可大学的学士学位，经济学或相关领域的本科学位不是先决条件，学校鼓励具有扎实定量背景和致力于学术研究的学生申请",
+  "objectives": "香港城市大学应用经济学硕士学位课程为那些有志于在跨国公司、投资行业、商业银行、贸易协会、政府机构以及政策研究机构领域中成为经济分析师、政策研究者以及投资策略师的学生提供一个经济分析和实用方法方面的严格的训练。香港城市大学应用经济学硕士学位课程还将为以后进行更深层次的学术研究打下扎实的知识基础。\n香港城市大学应用经济学硕士学位课程旨在：让学生掌握当代经济领域的先进知识，并灵活地运用这些知识理解、分析解决现实生活中遇到的问题；培养学生理解概念以及分析问题的能力，学会分析经济政策，从而制定出行之有效的经济决策；教授给学生经济学理论和实证研究方法方面更深层次的知识和技能，同时鼓励学生进行应用经济学领域学术研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级国际贸易 (Advanced International Trade)\n经济增长与发展 (Economic Growth and Development)\n国际金融 (International Finance)\n高级计量经济学 (Advanced Econometrics)\n高级微观经济学 (Advanced Microeconomics)\n高级宏观经济学 (Advanced Macroeconomics)\n应用经济学专业研讨会 (Professional Seminars in Applied Economics)\n微观经济学专题 (Topics in Microeconomics)\n计量经济学专题 (Topics in Econometrics)\n宏观经济学主题  (Topics in Macroeconomics)\n公司金融 (Corporate Finance)\n投资学 (Investments)\n金融系统、市场与工具 (Financial Systems, Markets and Instruments)",
+  "success_cases": ""
+}

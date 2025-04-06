@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "衰老与终身健康生物学理学硕士",
+  "ename": "MSc Biology of Ageing and Lifelong Health",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26900英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历，需要生命或物理科学专业背景",
+  "objectives": "随着人类寿命的延长，与年龄有关的疾病和虚弱正成为社会最紧迫的健康问题之一，更深入地了解衰老过程及其对健康的影响，现在比以往任何时候都更加重要，因此，衰老生物学领域正在迅速发展，并迅速成为科学中最具活力的领域之一。在东安格利亚大学衰老与终身健康生物学理学硕士课程中，学生将学习衰老过程和年龄相关疾病发展的理论和机制，了解长寿研究的前沿问题和方法，使其在毕业时具备在这一令人兴奋的领域工作的知识、技能和经验。本课程深入探讨老龄化研究中最紧迫的问题，为学生提供基本的实验室技能和尖端的实验方法，学生还将培养解释科学数据和清晰有效地传达发现的能力，通过基于问题的学习，接触到老龄化研究的最新突破，提高批判性评估和应用新知识的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究项目 (Research Project)\n科学中的有效沟通 (Effective Communication in Science)\n研究计划与管理 (Research Planning and Management)\n数据科学与生物信息学 (Data Science and Bioinformatics)\n生物科学中基于问题的学习 (Problem Based Learning in Biosciences)\n生物科学前沿 (Frontiers in Biosciences)\n衰老生物学：进化、生态与人类健康 (Biology of Ageing: Evolution, Ecology and Human Health)",
+  "success_cases": ""
+}

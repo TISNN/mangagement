@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "计算社会科学理学硕士（CUHK-Shenzhen）",
+  "ename": "MSc Computational Social Science (CUHK-Shenzhen)",
+  "tags": "社科,社会学与社工,深圳校区",
+  "introduction": "专业方向: 社会学与社工\n入学时间: 9月\n项目时长: 1年\n项目学费: 260000人民币/年",
+  "requirements": "毕业于认可的大学并获得学士学位，需要提供B等级证明英语能力突出，在人文社科领域具备一定学术基础在高等教育机构完成了学业，并且获得了与荣誉学位相当的职业资格或类似资格",
+  "objectives": "香港中文大学（深圳）计算社会科学硕士项目旨在培养学生在社会科学和人文学科领域运用计算方法进行跨学科和创新研究的能力。该项目将计算科学与社会科学和人文学科相结合，提供学生独特的学术背景和技能，使他们能够探索和解决现实世界中的社会问题。该项目的学科范围非常广泛，涵盖政治学、国际关系、中国研究、语言学、心理学、公共政策、城市研究、可持续发展、公共管理、社会学、历史学、文学、人类学和考古学等领域。学生可以根据自己的兴趣和目标选择一个或多个学科领域进行深入研究和专业化。\n香港中文大学（深圳）计算社会科学硕士欢迎具有人文学社科或计算科学背景的申请者。通过计算社会科学硕士项目，学生将获得一种独特的学术背景和技能组合，使他们能够在社会科学和人文学科领域中进行深入研究和创新，并为解决当今社会面临的复杂问题做出贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "社会科学研究方法 (Social Science Research Methods)\n社会科学统计分析 (Statistics for Social Science)\n计算社会科学应用软件 (Computational Thinking with Social Science Applications)\n社会学高级专题 (Advanced Topics in Sociology)\n计算语言学 (Computational Linguistics)\n经济学高级专题 (Advanced Topics in Economics)\n比较政治学 (Comparative Politics)\n教育心理学高级专题 (Advanced Topics in Educational Psychology)\n社会科学统计分析高级专题 (Advanced Topics in Social Statistics)\n社会科学机器学习 (Introduction to Machine Learning for Social Science)\n社会科学数据视觉化 (Data Visualization for Social Science)\n心理测试 (Psychological Testing)\n社会科学数据计算概论 (Introduction to Social Computing)",
+  "success_cases": ""
+}

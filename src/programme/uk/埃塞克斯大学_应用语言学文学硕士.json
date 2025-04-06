@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "应用语言学文学硕士",
+  "ename": "MA Applied Linguistics",
+  "tags": "社科,语言,语言与语言学系",
+  "introduction": "专业方向: 语言\n入学时间: 1/10月\n项目时长: 1年\n项目学费: 21700英镑/年",
+  "requirements": "具有2:2学位（或同等学历），需要英语语言研究-包括教育、英语语言文学、教学（英语）、语言学或现代语言背景学校将接受具备非相关领域学位但其中包含教育、语言学、语言研究和教学重要元素的申请者",
+  "objectives": "埃塞克斯大学应用语言学文学硕士项目是为那些想知道更多关于如何学习外语或第二语言(特别是英语)的人设计的，以及不同类型的课堂实践如何影响熟练程度。学生将探索理解语言和语言习得的不同方法，以及可以用于研究语言学习和教学的方法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士论文 (MA Dissertation)\n作业写作与论文准备 (Assignment Writing and Dissertation Preparation)\n研究方法 (Research Methods)\n第二语言习得理论 (Theories of Second Language Acquisition)\n音韵学发展 (Phonological Development)\n语言学习与教学心理学主题 (Topics in the Psychology of Language Learning and Teaching)\n句子处理 (Sentence Processing)\n语义学 (Semantics)\n语言测试与评估 (Language Testing and Assessment)\n第二语言学习个体差异 (Individual Differences in L2 Learning)\nTEFL/ELT与应用语言学语言描述 (Description of Language for TEFL/ELT and Applied Linguistics)\n语法理论 (Syntactic Theory)\n教学实践 I (Teaching Practice I)\n语言学习与教学 (Language Learning and Teaching)\n社会语言研究方法 (Approaches to Language in Society)",
+  "success_cases": ""
+}

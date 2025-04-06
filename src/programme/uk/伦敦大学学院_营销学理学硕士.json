@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "营销学理学硕士",
+  "ename": "MSc Marketing Science",
+  "tags": "商科,市场营销,管理学院",
+  "introduction": "专业方向: 市场营销\n入学时间: 9月\n项目时长: 1年\n项目学费: 43500英镑/年",
+  "requirements": "具有2:1英国学士学位或同等学历，申请者必须具备很强的分析需求和定量分析能力，接受一系列学位背景，包括但不限于管理学、经济学、统计学、所有工程领域、计算机科学、心理学和其他物理或社会科学",
+  "objectives": "市场营销日益成为一门数据和技术驱动的学科，如今许多决策都需要强大的数据分析、数字技术和分析技能。伦敦大学学院营销学理学硕士课程满足了对专家日益增长的需求，这些专家可以使用数据和分析来确定客户的需求以及如何保持他们的兴趣。该课程为学生提供分析营销技能，以制定适用于组织紧迫的营销需求的可靠、循证和有效的解决方案，提供了一个独特的机会，通过咨询项目应用该课程培养的知识和技能。学生将与外部组织合作，帮助解决一个实质性的现实世界营销问题，提供了宝贵的实践经验，使学生在就业市场上脱颖而出。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "经济学与营销策略 (Economics and Marketing Strategy)\n市场营销机器学习与人工智能 (Machine Learning and AI for Marketing)\n市场情报 (Market Intelligence)\n营销分析 (Marketing Analytics)\n市场营销原理 (Principles of Marketing)\n面向分析的编程 (Programming for Analytics)\n统计建模 (Statistical Modelling)\n商业项目 (Business Project)\n决策与风险分析 (Decision and Risk Analysis)\n营销的因果推理 (Causal Inference for Marketing)\n数据管理：工具与技术 (Data Management: Tools and Techniques)\n数字营销与在线平台 (Digital Marketing and Online Platforms)\n定价管理 (Pricing Management)",
+  "success_cases": ""
+}

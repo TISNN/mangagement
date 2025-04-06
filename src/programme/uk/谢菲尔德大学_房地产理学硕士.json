@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "房地产理学硕士",
+  "ename": "MSc Real Estate",
+  "tags": "商科,房地产,城市研究与规划学院",
+  "introduction": "专业方向: 房地产\n入学时间: 9月\n项目时长: 1年\n项目学费: 24950英镑/年",
+  "requirements": "具有2:1本科荣誉学位，专业不限",
+  "objectives": "谢菲尔德大学房地产理学硕课程旨在让学生为在私营或公共部门从事要求高且回报丰厚的房地产职业做好准备，并学习成功投资、开发和管理房地产所需的分析技能。该课程提供皇家特许测量师学会的认证，并提供获得特许地位的途径。学生将发展对房地产及其在更广泛经济中的作用的知识和理解。学习将为学生提供成功的房地产投资、开发和管理所需的分析技能。学生还将学习研究技能并了解研究如何应用于房地产和房地产市场。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用房地产估价 (Applied Real Estate Valuation)\n房地产经济学 (Real Estate Economics)\n房地产投资组合分析 (Real Estate Portfolio Analysis)\n研究方法 (Research Methods)\n投资估值 (Investment Valuation)\n商业租赁法 (Law of Business Leases)\n房地产发展 (Real Estate Development)\n可持续发展:批判性研究 (Sustainable Development: A Critical Investigation)\n计划法 (Planning Law)",
+  "success_cases": ""
+}

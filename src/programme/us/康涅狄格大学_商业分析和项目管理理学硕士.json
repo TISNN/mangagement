@@ -1,0 +1,12 @@
+{
+  "school_name": "康涅狄格大学",
+  "major_name": "商业分析和项目管理理学硕士",
+  "ename": "MS in Business Analytics and Project Management",
+  "tags": "商科,商业分析",
+  "introduction": "专业方向: 商业分析\n项目类别: STEM\n入学时间: 春季/秋季/夏季\n项目时长: 37学分\n项目学费: 1,150美元/学分",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

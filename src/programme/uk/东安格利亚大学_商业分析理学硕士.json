@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,诺维奇商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 1月\n项目时长: 1年\n项目学费: 22700英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历，需要社会科学学位背景（如：经济学、心理学、商学、管理学、市场营销、物流与供应链管理或法学），或理科学位背景（如数学、物理学或计算机科学），申请者应该熟悉数据处理和统计学",
+  "objectives": "在当今的商业环境中，数据是价值的关键来源，但仅适用于能够有效捕获、分析和利用数据进行有效决策的组织，东安格利亚大学商业分析理学硕士课程为学生提供管理从数据获取到战略决策整个过程的专业知识，学生将探索数据管理的技术和人员方面，同时还将学习如何应对不断发展的数据经济的法律、监管和道德挑战，通过涉及处理真实商业客户及其数据的项目获得实践经验。本课程强调知识的实际应用，通过实际操作的商业分析项目，使用真实世界的数据和尖端技术。学生将对商业分析应用程序有深入的了解，同时对数据管理有更广泛的批判性观点，学习如何涵盖整个数据生命周期-从创建和存储到集成、操作和删除-以及在决策中对数据的道德管理和使用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业分析概论 (Introduction to Business Analytics)\n商业人工智能 (Artificial Intelligence for Business)\n商业中的战略网络安全 (Strategic Cyber Security in Business)\n商业分析高级专题 (Advanced Topics in Business Analytics)\n数字商业概论 (Introduction to Digital Business)\n商业领导与变革管理 ( Business Leadership and Change Management)\n商业分析项目 (Business Analytics Project)",
+  "success_cases": ""
+}

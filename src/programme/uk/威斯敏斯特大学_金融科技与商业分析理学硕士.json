@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯敏斯特大学",
+  "major_name": "金融科技与商业分析理学硕士",
+  "ename": "MSc FinTech with Business Analytics",
+  "tags": "商科,金工金数,计算机科学与工程学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 19500英镑/年",
+  "requirements": "具有2:2荣誉学位，该学位旨在使来自不同学科的学生能够改变职业并进入金融科技领域。学生应具备数字学科的背景知识，以应付课程所涉及的高水平编程和统计\n具有至少三年相关专业经验的其他专业资格也将被学校考虑",
+  "objectives": "威斯敏斯特大学金融科技与商业分析理学硕士项目旨在将金融市场和机构的知识以及对数字金融问题的开发和实施技术解决方案的教育和技能结合在一起，毕业生将具备当代数字金融和商业分析知识和技能，以满足和适应企业和数字消费者不断变化的需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融市场与机构 (Financial Markets and Institutions)\n商业分析 (Business Analytics)\n金融计算方法 (Computational Methods for Finance)\n银行业技术 (Banking Technology)\n区块链技术与加密货币 (Blockchain Technologies and Cryptocurrencies)\n金融服务中的人工智能与机器学习 (Artificial Intelligence and Machine Learning in Finance Services)\n用于决策的预测分析 (Predictive Analysis for Decision- Making)\n项目（金融科技与商业分析）或工作实习项目 (Project (FinTech with Business Analytics) OR Work Placement Project)\n大数据理论与实践 (Big Data Theory and Practice)\n高频交易 (High Frequency Trading)",
+  "success_cases": ""
+}

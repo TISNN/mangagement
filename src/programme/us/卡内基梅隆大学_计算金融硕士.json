@@ -1,0 +1,12 @@
+{
+  "school_name": "卡内基梅隆大学",
+  "major_name": "计算金融硕士",
+  "ename": "Master in Computational Finance",
+  "tags": "商科,金工金数",
+  "introduction": "专业方向: 金工金数\n项目类别: STEM\n入学时间: 秋季\n项目时长: 16个月\n项目学费: 89151美元\n项目规模: 89人\n平均成绩: 3.7\n平均G: 723/329\n国际学生: 79%\n男女比例: 71:29\n就业比例: 98%\n平均起薪: 127546美元",
+  "requirements": "微积分I和II线性代数基于微积分的概率至少一学期的面向对象编程语言课程(c, Java, Python, c#),一学期以上为佳。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

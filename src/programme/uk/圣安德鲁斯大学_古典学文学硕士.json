@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "古典学文学硕士",
+  "ename": "MLitt Classics",
+  "tags": "社科,文化,古典学院",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有一等或2:1学位，需要提交letter of intent以及written work (between 2,500 and 5,000 words)，申请者可能需要接受面试",
+  "objectives": "圣安德鲁斯大学古典学文学硕士项目一个强化教学计划，主要是为进一步研究做准备。本课程允许学生专攻广泛的领域，包括：希腊或拉丁文学、古代历史、古典考古学、接受研究和古代哲学。该课程是一门独特而密集的核心课程，包括使用文献资料和物证的培训，以及涉及一系列古代研究的理论方法和关键主题。课程包括实践研究和可转移专业技能培训（如演讲技能、数字人文、外联和公众参与）。为古代研究中的关键讨论提供了广泛的基础。学生在优秀研究人员的一对一监督下，提供了专注于广泛专业领域的机会。该课程使学生发展他们的希腊语或拉丁语技能，或从头开始学习古代语言，并发展相关现代语言的阅读技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "古典研究的主题和方法1 (Themes and Methods in Classical Research 1)\n古典研究的主题和方法2 (Themes and Methods in Classical Research 2)\n希腊历史和物质文化 (Greek History and Material Culture)\n拉丁文学文化 (Latin Literary Culture)\n希腊文学文化 (Greek Literary Culture)\n罗马历史和物质文化 (Roman History and Material Culture)\n论文 (Dissertation)",
+  "success_cases": ""
+}

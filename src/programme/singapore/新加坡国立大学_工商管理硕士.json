@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 8月\n项目时长: 1.5年\n项目学费: 66127新币/年",
+  "requirements": "具有学士学位\n具备至少2年本科毕业后的全职工作经验（申请时）\n需要良好的GMAT/GRE成绩（建议GMAT 600，全日制MBA均分为670）",
+  "objectives": "新加坡国立大学工商管理硕士旨在通过身临其境的整体学习体验来支持学生的专业和个人成长。课程在学术严谨性与体验式方法之间取得平衡，为学生提供在瞬息万变的世界中取得成功的知识和工具包。从独特的亚洲视角将西方商业模式与领导原则相结合，学生将对整个亚洲的商业产生无与伦比的广度和深度的理解。通过海外学生交流、国际游学、案例竞赛、实习等，学习将在课堂之外继续进行。探索学生的兴趣并充分利用MBA经验。NUS MBA为发展和发现提供了一个充满活力的论坛，它将为学生在当今竞争激烈的全球市场中的领导角色做好准备。在课堂之外，海外学生交流，学生主导的学习旅行，商业案例竞赛和其他举措将扩大视野和国际网络。优势：培养影响力，MBA生存工具包，MBA咨询项目：将理论应用于实践和根据目标量身定制MBA。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "企业战略 (Corporate Strategy)\n财务管理 (Financial Management)\n财务会计 (Financial Accounting)\n管理经济 (Managerial Economics)\n市场营销管理 (Marketing Management)\n管理运作与分析 (Managerial Operations and Analytics)\n领导影响力 (Leading with Impact)",
+  "success_cases": ""
+}

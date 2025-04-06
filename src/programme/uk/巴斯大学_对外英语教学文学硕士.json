@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "对外英语教学文学硕士",
+  "ename": "MA Teaching English to Speakers of Other Languages (TESOL)",
+  "tags": "社科,教育,教育系",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 27800英镑/年",
+  "requirements": "具有high 2:2荣誉学位，不限专业",
+  "objectives": "深入研究快速发展的国际英语语言教育的世界，获得在自己国家教授英语的新视角。\n英语教学硕士(TESOL)是一门专业的硕士课程，适合任何在国际英语教学领域工作或有抱负的人。您将接触到TESOL研究、政策和实践的最新发展，并与曾在世界各地教授英语并积极从事研究的专家导师一起工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "第二语言教育研究方法1 (Research methods for second language education 1)\n第二语言习得 (Second language acquisition)\n语言意识 (Language awareness)\n第二语言教育研究方法2 (Research methods for second language education 2)\n语言政策、课程和方法 (Language policy, curriculum and methodology)\n将英语作为一门国际语言进行教学和评估 (Teaching and assessing English as an international language)\n论文 (Dissertation for the MA TESOL)",
+  "success_cases": ""
+}

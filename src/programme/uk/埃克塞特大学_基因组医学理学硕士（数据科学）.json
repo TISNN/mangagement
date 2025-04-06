@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "基因组医学理学硕士（数据科学）",
+  "ename": "MSc Genomic Medicine (Data Science)",
+  "tags": "社科,医学,医学与健康学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30900英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科背景。相关临床或专业经验可视为同等学历证明",
+  "objectives": "埃克塞特大学基因组医学理学硕士（数据科学）项目旨在为学生量身定制生物学知识和基本数据科学技能。随着数据科学在医疗保健领域变得越来越重要，该课程将使学生在就业市场中占据独特地位，随时准备引领基因组精准医学的发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人类遗传学和基因组学基础 (Fundamentals in Human Genetics and Genomics\t)\n组学技术及其在基因组医学中的应用 (Omics Techniques and their Application to Genomic Medicine\t)\n基因组分析中的生物信息学、解释和数据质量保证 (Bioinformatics, Interpretation and Data Quality Assurance in Genome Analysis\t)\n研究计划-数据 (Research Project - Data\t)\n面向健康和生命科学的Python编程(a) (Coding in Python for Health and Life Sciences (a)\t)\n健康和生命科学的计算技能(a) (Computational Skills for Health and Life Sciences (a)\t)\n健康和生命科学统计(a) (Statistics for Health and Life Sciences (a)\t)\n常见和罕见遗传疾病的基因组学 (Genomics of Common and Rare Inherited Diseases\t)\n肿瘤分子病理学及其在肿瘤诊断、筛查和治疗中的应用 (Molecular Pathology of Cancer and Application in Cancer Diagnosis, Screening and Treatment\t)\n药物基因组学与分层医疗 (Pharmacogenomics and Stratified Healthcare\t)\n基因组学在传染病研究中的应用 (Application of Genomics in Infectious Disease\t)\n人类健康与疾病的表观遗传学 (Epigenetics in Human Health and Diseases\t)\n基因组学中的健康经济评价 (Health Economic Evaluation in Genomics\t)\n高级生物信息学(b) (Advanced Bioinformatics (b)\t)",
+  "success_cases": ""
+}

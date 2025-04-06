@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "商业分析与咨询理学硕士",
+  "ename": "MSc Business Analysis & Consulting",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 31100英镑/年",
+  "requirements": "具有二等荣誉学位或同等学历，要求商业、经济、工程或社会科学背景。学校也鼓励拥有其他学位的申请者申请\n虽然课程中会教授和使用一些定量分析工具，但在开始课程之前只需要基本的数学知识",
+  "objectives": "思克莱德大学商业分析与咨询理学硕士学位课程使学生掌握实践性、评价性和分析性技能，将来能够作为管理者或咨询师影响和发展组织战略与绩效。\n在思克莱德大学商业分析与咨询理学硕士学位课程的学习中，学生将学习评估业绩所需的关键定量商业分析方法。此外，学生将学习如何利用商业模型来支持组织战略的发展并促进组织监控和权衡战略进程。与此同时，学生将掌握适用于任何组织的商业咨询的主要技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "成为一名高效的业务分析师 (Becoming an Effective Business Analyst)\n研究和商业分析基础 (Foundations of Research & Business Analysis)\n商业运营管理 (Managing Business Operations)\n量化业务分析 (Quantitative Business Analysis)\n电子表格建模与需求预测 (Spreadsheet Modelling & Demand Forecasting)\n战略建模与管理 (Strategy Modelling & Management)\n商业分析 (Business Analytics)\n商业信息系统 (Business Information Systems)\n商业模拟方法 (Business Simulation Methods)\n风险分析与管理 (Risk Analysis & Management)",
+  "success_cases": ""
+}

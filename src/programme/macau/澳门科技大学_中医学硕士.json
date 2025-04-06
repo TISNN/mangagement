@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "中医学硕士",
+  "ename": "Master of Traditional Chinese Medicine",
+  "tags": "社科,医学,中医药学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 2.5年\n项目学费: 96000港币/年",
+  "requirements": "修读中、西医学专业（色盲、色弱者不可报读）。提交申请前先联系意向导师。需要面试笔试。需提交一份研究计划。",
+  "objectives": "培养优秀的临床和基础中医学专才。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "医学统计学 (Medical Statistics)\n中医内科学专题 (Special Topics in internal Medicine of Traditional Chinese Medicine)\n针灸学专题 (Special Topics in Acupuncture and Moxibustion)\n伤寒论 (Treatise on Exogenous Febrile Diseases)\n西医诊断学 (Diagnosis of Western Medicine)\n临床针灸学 (Clinical Acupuncture and Moxibustion)",
+  "success_cases": ""
+}

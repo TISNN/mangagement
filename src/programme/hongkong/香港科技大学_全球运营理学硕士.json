@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "全球运营理学硕士",
+  "ename": "MSc Global Operations",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 333900港币/年",
+  "requirements": "具有大学或认可机构颁发的学士学位，学术成绩优秀\n建议学生具备附加数学、微积分、线性代数、定量方法和统计学等领域的基础定量知识\n强烈建议提交GMAT/GRE（不强制要求）\n没有最低工作经验要求但相关工作或商业经验有助于申请",
+  "objectives": "香港科技大学工商管理学院旨在为已经完成公认的学士学位并对全球范围内的商业运营管理感兴趣的合格学生提供一个独特的研究生教育课程。香港科技大学全球运营管理硕士课程旨在使学生掌握服务运营、制造运营和供应链管理中必不可少的工具和理解。学生可以根据自己的背景和职业兴趣，在选修运营分析专业。毕业生有望将他们对全球运营的学习和理解传播给香港和大中华地区的产业，并促进该地区和全球市场的经济发展，提高跨国公司的竞争力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "管理会计基础 (Managerial Accounting Foundations)\n全球宏观经济学 (Global Macroeconomics)\n公司财务 (Corporate Finance)\n数据分析 (Data Analysis)\n运行管理 (Operations Management)\n营销策略 (Marketing Strategy and Policy)\n组织管理 (Management of Organizations)\n管理沟通 (Managerial Communication)\nERP和企业系统管理 (ERP and Enterprise Systems Management)\n全球供应链管理 (Global Supply Chain Management)\n需求与收入管理 (Demand and Revenue Management)\n全球运营管理战略 (Global Operations Strategy)\n商业建模与优化 (Business Modeling and Optimization)\n资讯科技管理 (Information and Technology Management)\n金融服务运营管理 (Managing Financial Services Operations)",
+  "success_cases": ""
+}

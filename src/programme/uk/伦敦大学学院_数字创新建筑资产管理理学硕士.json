@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "数字创新建筑资产管理理学硕士",
+  "ename": "MSc Digital Innovation Built Asset Management",
+  "tags": "社科,建筑,建筑环境学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的二等学士学位或同等学历",
+  "objectives": "伦敦大学学院数字创新建筑资产管理理学硕士项目旨在培养学生探讨建筑资产管理领域的尖端技术。该课程内容广泛，提供针对性教学，帮助学生深入探讨设计、建设、运行和维护等内容，研究如何构建更优质的场所和空间。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "服务运营管理 (Service Operations Management)\n空间与工作场所管理 (Space and Workplace Management)\n建筑信息建模原理 (Principles of Building Information Modelling)\n设施和资产管理导论 (Introduction to Facility and Asset Management)\n空间数据库与数据管理 (Spatial Databases & Data Management)\n数字创新：协同实践 (Digital Innovation: Collaborative Practice)\n战略项目与质量管理 (Strategic Project & Quality Management)\n设施管理概念 (Management Concepts for Facilities)",
+  "success_cases": ""
+}

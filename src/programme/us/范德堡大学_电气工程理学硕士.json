@@ -1,0 +1,12 @@
+{
+  "school_name": "范德堡大学",
+  "major_name": "电气工程理学硕士",
+  "ename": "MS in Electrical Engineering",
+  "tags": "工科,电气电子",
+  "introduction": "专业方向: 电气电子\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 两年\n项目学费: 66,450美元",
+  "requirements": "无",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "金融与管理理学硕士",
+  "ename": "MSc Finance and Management",
+  "tags": "商科,金融,爱丁堡商学院",
+  "introduction": "专业方向: 金融\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 24176英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要经济学、会计、金融、商业管理等相关学科背景，或具有计算能力的不相关学位",
+  "objectives": "赫瑞-瓦特大学金融与管理理学硕士课程为您提供了一个平台，可在现代的金融管理和业务管理实践中培养高度可雇用的专业知识。课程是为满足动态需求的毕业生的行业需求而开发的，他们可以将财务管理方面的专业知识与在各种规模的组织中实施有效的业务管理策略的能力相结合。\n赫瑞-瓦特大学金融与管理理学硕士将提高您的信心，沟通，创造力，并微调您的团队合作和组织技能。小组工作和课堂讨论将为您提供许多不同文化的工作实践和观点的见解，并为您与全球各地同事一起工作的全球职业做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司治理 (Corporate Governance)\n财务分析 (Financial Analysis)\n竞争战略 (Competitive Strategy)\n资本市场 (Capital Markets)\n公司金融 (Corporate Finance)\n新兴金融市场 (Emerging Financial Markets)\n项目管理 (Project Management)\n研究方法 (Research Methods)\n比较财务报告 (Comparative Financial Reporting)\n金融研究 (Research in Finance)",
+  "success_cases": ""
+}

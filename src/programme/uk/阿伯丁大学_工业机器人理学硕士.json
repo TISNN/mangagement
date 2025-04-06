@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "工业机器人理学硕士",
+  "ename": "MSc Industrial Robotics",
+  "tags": "工科,计算机,工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历以及电气/电子/机械/机电一体化/自动化/控制/计算机工程或计算机科学背景的申请者优先考虑\n学校也可能考虑具有2:2荣誉学位并且能够证明1年以上相关经验的申请者\n强烈建议其他学术背景的申请者与招生团队联系，并提供他们学习的所有课程的成绩单，以便讨论是否适合。",
+  "objectives": "阿伯丁大学工业机器人学理学硕士旨在将工程和计算机科学的基本原理应用于制造，能源，运输，物流和医疗保健等各个领域的机器人技术的理解和开发。学生将利用机器人技术和人工智能的核心概念，研究驱动数字化转型的新兴技术-包括工业4.0和生物医学工程。配备了设计最先进的机器人系统和实施最新算法的能力，毕业生将获得面向未来行业和社会的基本技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "移动机器人与生物灵感概论 (Introduction to Mobile Robotics and Bioinspiration)\n工业领域中的定位与映射 (Localisation and Mapping in the Industrial Domain)\n高级控制工程 (Advanced Control Engineering)\n用于医疗设备与植入物的生物材料 (Biomaterials for Medical Devices and Implants)\n工业机器人手臂的运动学与动力学 (Kinematics and Dynamics of Industrial Robot Arms)\n工业机器人编程与学习 (Industrial Robot Programming and Learning)\n数学优化 (Mathematical Optimisation)\n康复工程与生物力学 (Rehabilitation Engineering and Biomechanics)\n工业机器人与自动化个人项目 (Individual Project in Industrial Robotics and Automation)",
+  "success_cases": ""
+}

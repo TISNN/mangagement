@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "信息与网络安全管理理学硕士",
+  "ename": "MSc Information and Cyber Security Management",
+  "tags": "商科,信息系统,商学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 400000港币/年",
+  "requirements": "从认可的机构获得学士学位，或同等资格。申请者应表现出对信息和网络安全管理的浓厚兴趣。拥有计算机科学、信息系统、人工智能和数据分析等相关本科学位将是一个优势。 相关工作或商业经验将有助于申请强烈建议申请者取得满意的GMAT或GRE成绩",
+  "objectives": "香港科技大学信息与网络安全管理理学硕士项目旨在成为卓越的典范，帮助学生为应对组织内错综复杂的网络安全政策和框架做好准备。课程的核心是管理敏锐度和技术专长的独特融合，确保毕业生能够熟练应对数字时代的多方面挑战。\n课程注重行业相关性和实用性，确保学生不仅在学业上精通，而且毕业后还能为行业做好准备。通过与领先从业者的合作、实践项目和沉浸式学习体验，学生探索信息和网络安全管理领域的不同方面，最终有效地推动组织抵御网络威胁。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "网络安全风险管理 (Cyber Security Risk Management)\n信息策略与管理 (Information Strategy and Management)\n用于业务应用的Python编程 (Python Programming for Business Applications)\n应用网络管理 (Applied Network Management)\n计算机和网络安全管理 (Computer and Internet Security Management)\n审计信息系统 (Information Systems Auditing)\n项目管理 (Project Management)",
+  "success_cases": ""
+}

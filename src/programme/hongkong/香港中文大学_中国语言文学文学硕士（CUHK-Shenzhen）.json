@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "中国语言文学文学硕士（CUHK-Shenzhen）",
+  "ename": "MA Chinese Language and Literature (CUHK-Shenzhen)",
+  "tags": "社科,语言,深圳校区",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 160000人民币/年",
+  "requirements": "不限专业背景，对中国语言文学抱有浓厚兴趣，并具备一定学术基础\n毕业于认可的大学并获得学士学位，需要提供B等级证明\n或在高等教育机构完成了学业，并且获得了与荣誉学位相当的职业资格或类似资格\n鼓励申请者提交有代表性的个人作品（若有，不超过三项）",
+  "objectives": "香港中文大学（深圳）中国语言文学文学硕士项目由具有丰富教学及研究经验的教师授课，所授课程包括本专业的不同研究方向，如语言文字、文献学、古典文学、现代文学、文艺学等。本项目旨在把学生培养成为具有创造力和独立思考能力的专业人士，能够胜任各行各业的相关工作，为未来的职业发展以及继续深造做好准备。完成学业、成绩合格者将获得香港中文大学颁发的文学硕士学位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语言、文学与文化高级专题研讨课 (Advanced Seminar on Language, Literature and Culture)\n研究方法与论文写作高级专题研讨课 (Advanced Seminar on Research Methods and Dissertation Writing)\n语言学专题 (Special Topics in Linguistics)\n语文学专题-- (Special topics in Philology--Special Topic in Linguistics)\n汉语构词与句法研究 (Study on Chinese Word-Formation and Syntactic Study--)\n汉语方言学 (Chinese Dialectology)\n古代文献专题 (Special Topics in Ancient Documents)\n中国简帛学 (Chinese Bamboo Slip and Silk)\n古典文学专题：小说 (Special Topics in Classical Literature: Fiction)\n古典文学专题：戏曲 (Special Topics in Classical Literature: Opera)\n古典文学专题：散文 (Special Topics in Classical Literature: Prose)\n古典文学专题：诗歌 (Special Topics in Classical Literature: Poetry)\n古典文学专题：文学批评 (Special Topics in Classical Literature: Literary Criticism)\n现代文学专题 (Special Topics in Modern Literature)\n香港文学研究 (Hong Kong Literature Studies)\n文学与电影 (Literature and Film)\n中国特色社会主义理论与实践研究 (Research on the Theory and Practice of Socialism with Chinese Characteristics)\n马克思主义与社会科学方法论\t (Marxism and Methodology of Social Science)\n自然辩证法概论 (Dialectics of Nature)",
+  "success_cases": ""
+}

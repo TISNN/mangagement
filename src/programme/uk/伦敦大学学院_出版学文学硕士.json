@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "出版学文学硕士",
+  "ename": "MA Publishing",
+  "tags": "社科,文化,艺术与人文学院",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有英国大学颁发的二等学士学位或同等学历",
+  "objectives": "伦敦大学学院出版文学硕士项目由资深的专业人士、业界人士及产业领袖授课，师资力量强大，致力于培养学生掌握作为一个成功的出版商所需具备的知识、技能与见解，从而使其能够应对未来职业生涯中的各种挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "著作权 (Authorship)\n出版语境 (Publishing Contexts)\n图书出版中的业务管理 (Business Management in Book Publishing)\n出版中的编辑，写作和交流 (Editing, Writing and Communication in Publishing)\n销售、营销与推广 (Sales、Marketing and Promotion)\n学术期刊出版 (Academic and Journals Publishing)\n插图与出版 (Illustration and Publishing)\n图书生产 (Book Production)\n儿童少年出版 (Children's and Young Adult Publishing)\n出版道德 (Ethics in Publishing)\n图书销售商与图书销售 (Booksellers and Bookselling)",
+  "success_cases": ""
+}

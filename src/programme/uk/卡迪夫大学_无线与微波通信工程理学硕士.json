@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "无线与微波通信工程理学硕士",
+  "ename": "MSc Wireless and Microwave Communication Engineering",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 29450英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科背景，如通信工程、通信技术、电气或电子工程、无线工程；或有相关专业的工作经验",
+  "objectives": "卡迪夫大学无线与微波通信工程理学硕士项目致力于培养拥有电子和微波工程领域必要知识和能力的专业人员，提升微波工程的应用意识，从而将知识应用于广泛产业的研究、设计和开发。 该项目旨在为学生提供无线和微波通信工程的知识和技能，开发相关技能，提升工程专业能力和就业能力，培养学生成为微波工程新兴领域（包含移动通信和微波的医疗应用）中的专家。专注于高级计算机辅助设计和通信系统工程两大学科，项目中的课程包括高频射频工程、高级微波CAD、制造和测试、高级通信系统、高级通信网络和非线性射频设计和理念，其他课程则探讨了微纳米技术与光电技术的基本规范。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "软件工具和仿真 (Software tools and Simulation)\n高级通信系统 (Advanced Communications Systems)\n高频和射频工程 (HF & RF Engineering)\n研究学习 (Research Study)\n射频电路设计和CAD (RF Circuit Design and CAD)\n高级CAD、制造和测试 (Advanced CAD、Fabrication and Test)\n微纳电子学制造 (Micro- and Nano-electronics Fabrication)",
+  "success_cases": ""
+}

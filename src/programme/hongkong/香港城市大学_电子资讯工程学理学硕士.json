@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "电子资讯工程学理学硕士",
+  "ename": "MSc Electronic Information Engineering",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 216000港币/年",
+  "requirements": "具有学士学位或同等学历，或能够提供大学可接受的学术和专业成就证明",
+  "objectives": "香港城市大学电子资讯工程学理学硕士项目旨在增强战略选择领域的专业技术知识，例如与行业当前和预期未来需求相关的无线电射频、微波电路、应用电磁学、无线通信，网络与数据通信以及光通信行业等领域的知识。由于现有技术的迅速发展，香港城市大学电子资讯工程学理学硕士项目是为这个领域中想要升级和更新自身专业知识的在职工程师量身打造的。此外，香港城市大学电子资讯工程学理学硕士项目还为学员提供了许多商业管理相关的选修课程供选择，使工程师在掌握最前沿技术知识的同时具备管理知识，以便他们在以后的工程职业生涯中能够胜任管理职位。该计划还通过应用研究实习计划提供工业或研究实习经验，为学生在研究实习后立即获得充分就业做好准备，或在本地或海外国家的相关技术领域作为博士生继续深造。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "嵌入式系统开发与设计 (Development and Design in Embedded Systems)\n无线通信技术 (Wireless Communication Technologies)\n光通信 (Optical Communications)\n电子产业可靠性工程 (Reliability Engineering in Electronics Industry)\n数字信号处理研究进展 (Advances in Digital Signal Processing )\n软件工程 (Software Engineering)\n电信网络 (Telecommunication Networks)\n射频电路工程 (Radio Frequency Circuit Engineering)\n图像处理专题 (Topics in Image Processing)\n移动端程序设计与开发 (Mobile Applications Design and Development)\n移动通信与网络 (Mobile Communication & Networks)\n战略管理 (Strategic Management)\n组织行为学 (Organizational Behaviour)\n项目管理 (Project Management)\n人力资源管理 (Human Resources Management)",
+  "success_cases": ""
+}

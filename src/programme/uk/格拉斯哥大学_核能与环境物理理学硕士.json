@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "核能与环境物理理学硕士",
+  "ename": "MSc Nuclear & Environmental Physics",
+  "tags": "理科,物理,物理与天文学学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 31800英镑/年",
+  "requirements": "具有2:1荣誉学位，需要物理学背景，其中电磁论和量子力学、物理和相对论至少有1个学分课程，平均成绩为及格\n学校也可以接受具有大量物理内容的相关学科的2:1荣誉学位。在物理方面取得2:2荣誉学位，并具有丰富的相关经验的申请者，学校可根据个人情况考虑\n需要具备以下先决条件经验\n1. 该学位核心课程需要具备以下知识：\n- 物理基础数学：单变量和多变量微积分（微分和积分）、三角学、复数、向量、向量微积分、泰勒和傅立叶级数、傅立叶变换\n- 科学计算入门：数据处理、简单统计（计算均值和方差）、绘制函数和直方图、用通用编程语言（如Python或C）编写简单程序\n2. 申请者还必须了解以下内容：\nA. 熟悉本科天文学概念，包括：\n- 太阳系物理学、牛顿万有引力定律、太阳系行星和小天体、行星大气物理学\n- 位置和动力天文学：天球、行星轨道\n- 恒星物理学：恒星类型和分类、恒星大气、恒星模型、恒星演化\n- 粒子与辐射：本科热力学、麦克斯韦-玻尔兹曼分布、黑体辐射、发射谱线\n- 观测方法：光学望远镜、探测器、射电、紫外和X射线天文学仪器\n- 宇宙学：星系、距离尺度、膨胀的宇宙、大爆炸宇宙学\nB. 熟悉本科物理概念，包括：\n- 光学：几何光学、衍射、分辨率\n- 动力学：重力、求解动力学中的简单微分方程\n- 电磁学：麦克斯韦方程组、求解对称几何的拉普拉斯方程",
+  "objectives": "格拉斯哥大学核能与环境物理理学硕士提供核能发电（以及更普遍的低碳能源）的物理和应用方面的培训，以及核过程在环境建模和医学物理中所起的作用。学生们将获得必要的理论、实验和计算技能，以分析和解决与这一系列重要全球产业相关的各种高级物理问题。该课程以物理与天文学学院广泛的高级硕士课程为基础：从能源生成和环境物理学的教学课程到辐射探测、研究技能、数据分析的实践技能，以及相关领域的扩展研究项目。学生可以灵活地通过选择额外的选修课来定制他们的学生计划。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "物理学和天文学高级数据分析 (Advanced data analysis for physics and astronomy)\n电离辐射检测与分析 (Detection and analysis of ionising radiation)\n能源与环境 (Energy and environment)\n环境放射性 (Environmental radioactivity)\n核电反应堆 (Nuclear power reactors)\n研究技能 (Research skills)\n理学硕士项目 (Msc project)\n动力学、电动力学和相对论 (Dynamics, electrodynamics & relativity)\n电磁理论2 (Electromagnetic theory 2)\n传感与测量基础 (Fundamentals of sensing and measurement)\n成像和探测器 (Imaging and detectors)\n激光干涉法 (Laser interferometry)",
+  "success_cases": ""
+}

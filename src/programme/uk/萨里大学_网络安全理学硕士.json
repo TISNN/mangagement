@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "网络安全理学硕士",
+  "ename": "MSc Cyber Security",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 24900英镑/年",
+  "requirements": "具有2:2英国荣誉学位或受认可的同等学历，需要计算机科学、电气或电子工程、数学、物理学、相关学科（可证明对编程和数学的一定了解）或与数据分析、数据科学或信息学相关的其他替代学科背景\n如果申请者不符合以上要求，学校也会考虑其相关工作经验",
+  "objectives": "各行各业对熟练的网络安全专业人员的需求不断增长，萨里大学网络安全理学硕士学位为学生提供在该领域成功开展职业生涯所需的知识、技能和实践经验。保护数字信息不受未经授权的访问和使用，以及确保支持网络基础设施和系统的弹性 ，是我们社会持续科技发展的重大挑战。该理学硕士背后的科学连接各个学科，从计算机科学、数学和商业到网络安全深度和广度中使用的设计和批判性分析的概念、机制和技术。萨里大学网络安全理学硕士的学生将学习系统和信息安全的基础知识，例如密码学，还将学习与电子支付或分布式账本相关的高级和最先进的 概念，在实践中应用知识，例如通过使用安装在学校实验室的树莓派计算机上的可信平台模块（TPM）与安全应用程序进行交互和编程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "安全系统及应用 (Secure Systems and Applications)\n密码学 (Cryptography)\n信息安全管理 (Information Security Management)\n网络安全 (Network Security)\n网络安全理学硕士论文 (MSc Cyber Security Dissertation)\n安全性的建筑思维 (Architectural Thinking for Security)\n网络法 (Cyberlaw)\n强化隐私保障技术 (Privacy Enhancing Technologies)\n数字取证 (Digital Forensics)\n企业和政府的信息安全 (Information Security for Business and Government)\n云安全 (Cloud Security)\n网络犯罪与网络安全 (Cybercrime and Cybersecurity)\n道德黑客与渗透测试 (Ethical Hacking and Pentesting)",
+  "success_cases": ""
+}

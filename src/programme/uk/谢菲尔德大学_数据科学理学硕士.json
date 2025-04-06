@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "数据科学理学硕士",
+  "ename": "MSc Data Science",
+  "tags": "理科,数据科学,信息学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1本科荣誉学位，专业不限\n（官网无专业限制，但其实有录取偏好，需要一定的CS基础，不适合无基础跨申）",
+  "objectives": "所有组织都面临如何分析和使用数据的挑战。谢菲尔德大学数据科学理学硕士项目使学生学习数据科学的概念，以及如何在复杂的组织和社会环境中支持数据驱动的问题解决方法。深入了解数据科学的理论和实践及其在不同组织环境中的应用。该课程将向学生提供一套基本原则，支持从数据中合乎道德地提取信息和知识。案例研究将有助于展示这些原则在现实生活问题中的实际应用。该计划集中于数据科学的三个关键方面：基本数据相关原则、支持基础设施和组织环境。学生将获得处理结构化和非结构化数据、分析和可视化数据、数据挖掘的实用技能，并获得所使用的软件工具及其在真实环境中使用的实际经验。学生将获得数据管理员的技能，了解算法（例如，用于数据挖掘或处理“大数据”）可以做什么，以及何时为组织的利益使用这些算法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据可视化 (Data Visualization)\n数据科学导论 (Introduction to Data Science)\n数据分析 (Data Analysis)\n数据与社会 (Data and Society)\n数据挖掘与可视化 (Data Mining and Visualisation)\n数据库设计 (Database Design)\n论文 (Dissertation)\n研究方法与论文准备 (Research Methods and Dissertation Preparation)\n商业智能 (Business Intelligence)\n信息治理与道德规范 (Information Governance and Ethics)\n研究社交媒体 (Researching Social Media)\n大数据分析 (Big Data Analytics)\n以用户为中心的设计与人机交互 (User-Centred Design and Human-Computer Interaction)",
+  "success_cases": ""
+}

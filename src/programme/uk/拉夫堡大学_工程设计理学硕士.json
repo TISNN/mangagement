@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "工程设计理学硕士",
+  "ename": "MSc Engineering Design",
+  "tags": "工科,机械工程,机械、电气和制造工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要相关科学、技术、工程或数学学科背景\n学历略低于此水平、具有其他资格和/或专业经验的申请者也将被考虑",
+  "objectives": "本课程将使学生能有效地在工程设计岗位上工作，能从整体以及细节层面上进行产品、过程或系统的设计。核心研究领域包括结构分析、工程管理和商业研究、计算机辅助工程、产品设计和人为因素、工程设计方法、可持续产品设计、创新过程和项目管理、可持续发展：工程环境和项目。我们的工程设计理学硕士旨在应对瞬息万变的全球市场挑战。精心设计的产品、流程和系统的可用性是成功商业企业的基础。您将获得行业或学术研究所必需的技术和可转让技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "结构分析 (Structural Analysis)\n计算机辅助工程 (Computer Aided Engineering)\n工程可持续发展 (Engineering for Sustainable Development)\n工程设计方法 (Engineering Design Methods)\n工程领域的创新过程和创业精神 (Innovation Process and Entrepreneurship in Engineering)\n工程管理和业务研究 (Engineering Management and Business Studies)\n产品设计和人为因素 (Product Design and Human Factors)\n可持续的产品设计 (Sustainable Product Design)\n项目 (Project)",
+  "success_cases": ""
+}

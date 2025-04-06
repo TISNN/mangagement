@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "信息系统理学硕士",
+  "ename": "MSc Information Systems",
+  "tags": "商科,信息系统,信息学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 29030英镑/年",
+  "requirements": "具有2:1本科荣誉学位，专业不限",
+  "objectives": "谢菲尔德大学信息系统理学硕士项目面向任何学科的毕业生，将教学生设计和实施信息系统和有效的项目管理技术以及实用的计算技能，包括计算机编程。课程结束时，学生将深入了解组织环境中的信息系统，重点与信息、人员、信息技术和业务环境相关的问题。学生将获得与信息系统设计和分析相关的实用技能。学生具备的知识和技能将在工业、商业和学术界受到高度重视。学校在数据库系统、信息检索、语音识别、信息提取和信息管理等领域拥有世界领先的研究团队。这意味着学生不仅会获得完善的基础知识，还会获得最新和最先进的理论和技术。该课程侧重于信息系统的核心主题，包括信息系统建模、项目管理以及信息系统对组织和社会的影响。这些都辅之以计算机编程的实践技能和对计算机专业问题的研究。该课程适合在信息领域有两年或以上的相关工作经验并希望攻读更高学位的学生。该计划专为已经在工作并希望进一步发展事业的人而设计，并允许他们在模块选择方面有更大的自由度。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "面向对象的编程基础 (Foundations of Object-Oriented Programming)\n专业议题 (Professional Issues)\n信息系统项目管理 (Information Systems Project Management)\n信息系统建模 (Information Systems Modelling)\n组织信息系统 (Information Systems in Organisations)\n信息系统和信息社会 (Information Systems and the Information Society)\n论文 (Dissertation)\n高级JAVA编程 (Advanced Java Programming)\n计算机安全和取证 (Computer Security and Forensics)\n智能网络 (The Intelligent Web)\nJAVA电子商务 (Java E-Commerce)\n电子商务 (E-Business and E-Commerce)\n内容管理系统 (Content Management Systems)\n信息系统变更管理 (Information Systems Change Management)",
+  "success_cases": ""
+}

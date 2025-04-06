@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "神经科学理学硕士",
+  "ename": "MSc Neuroscience",
+  "tags": "社科,医学,精神病学、心理学与神经科学研究所",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 40000英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，通常需要生物学科背景，或具备医学学位（MBBS或同等学历），具有非生物学位或较低等级学位的申请者可能会被考虑",
+  "objectives": "伦敦大学国王学院神经科学理学硕士课程将为学生提供一系列神经科学主题的多学科培训，尤其是与精神病学、心理学和神经病学相关的课程。该课程为具有广泛背景的学生提供下一阶段的职业培训，这可能是在神经科学相关的学术研究环境中进行进一步的全日制学习，也可能是在学术、临床或制药组织中就业。该课程提供三个必修的基础模块，和一个选修的专门的选修模块，最后是一个大约20周的研究项目。选择与专业模块相同学科领域的研究项目的学生可能会获得神经系统科学课程专业的神经科学硕士学位。伦敦大学国王学院神经科学理学硕士课程将采用一种确保学生从一开始就有丰富、令人兴奋的体验的授课方式。面对面的教学将得到创新技术的补充和支持，这样学生也可以体验数字学习和评估的元素。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "基础神经科学 A1 (A1 Fundamental Neuroscience)\n基础神经科学 A2 (A2 Fundamental Neuroscience)\n基础神经科学 A3 (A3 Fundamental Neuroscience)\n神经退化研究 (Neurodegeneration Research)\n神经影像学:研究大脑功能和功能障碍 (Neuroimaging: Investigating Brain Function and Dysfunction)\n认知神经科学研究 (Cognitive Neuroscience Research)\n神经干细胞与神经系统修复研究 (Neural Stem Cells and Nervous System Repair Research)",
+  "success_cases": ""
+}

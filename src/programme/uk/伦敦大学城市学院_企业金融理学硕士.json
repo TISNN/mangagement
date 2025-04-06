@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "企业金融理学硕士",
+  "ename": "MSc Corporate Finance",
+  "tags": "商科,金融,贝叶斯商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 35000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历\n一定程度的金融或定量方法的先前学习或技能证据是必不可少的\n本课程不要求具备工作经验\n申请不要求提交GMAT，但招生小组可酌情将其作为录取条件",
+  "objectives": "伦敦大学城市学院企业金融理学硕士课程旨在满足理解公司如何管理其投资和融资决策的需求",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司财务与估值 (Corporate Finance and Valuation)\n财务报告 (Financial Reporting)\n金融专业人士的研究方法 (Research Methods for Finance Professionals)\n金融统计 (Statistics in Finance)\n金融理论 (Theory of Finance)\n高级企业融资 (Advanced Corporate Finance)\n企业风险管理 (Corporate Risk Management)\n财务报表分析 (Financial Statement Analysis)\n并购中的主题 (Topics in Mergers and Acquisitions)\n公司重组 (Corporate Restructuring)\n企业融资中的投资银行 (Investment Banking in Corporate Finance)\n私募股权投资 (Private Equity Investment)",
+  "success_cases": ""
+}

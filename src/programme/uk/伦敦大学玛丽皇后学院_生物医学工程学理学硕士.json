@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "生物医学工程学理学硕士",
+  "ename": "MSc Biomedical Engineering",
+  "tags": "工科,生物工程,工程与材料科学学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有本科2:2学位或以上学历，需要工程学科（如生物医学、机械、化学、土木、航空航天、机器人）或相关学科（材料科学、数学、物理学）背景",
+  "objectives": "生物医学工程是新兴动态工程领域，依赖于跨学科研究和开发方案，将科学工程原则应用于生物和医疗问题。尽管生物医学工程领域的问题与传统工程分支有所不同，但生物医学工程师仍然依赖于根据生物系统的特殊复杂性而二次开发和调整的传统工程领域中的方法和技术。应用包括用于预防，诊断和治疗的复杂医疗设备的设计、开发和操作，健康和疾病中组织行为的表征，软件产品和理论模型的发展，能够加深学生对生物医学复杂问题的了解。 伦敦大学玛丽皇后学院生物医学工程学理学硕士项目旨在培养生物医药产业和企业急需的拥有先进技能的专家，包括实验和数值技术、计算建模和生物问题工程方案的探讨。通过伦敦大学玛丽皇后学院生物医学工程学理学硕士项目，学生将能够凭借所学知识和技能促进这一领域内知识和技术的进步。反映实际医学和产业问题的案例研究则贯穿了整个项目，涉及范围包括骨科、心血管内科、泌尿科、放射科与康复。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程研究方法和实验技术 (Research Methods and Experimental Techniques in Engineering)\n化学和生物传感器 (Chemical and Biological Sensors)\n纳米技术和纳米医学 (Nanotechnology and Nanomedicine)\n医德医规 (Medical Ethics and Regulatory Affairs)\n医学工程生理学 (Physiology for Medical Engineers)\n图像处理 (Image Processing)\n知识产权法与管理基础 (Foundations of Intellectual Property Law and Management)\n外科技术与安全 (Surgical Techniques and Safety)",
+  "success_cases": ""
+}

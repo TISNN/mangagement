@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "定量金融学理学硕士",
+  "ename": "MSc Quantitative Finance",
+  "tags": "商科,金工金数,商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 35000英镑/年",
+  "requirements": "具有英国大学颁发的一等或2:1荣誉学位或同等学历（成绩达到2:1，均分60%）\n- 理想情况下申请者需要具有金融学、经济学、数学、统计学、物理学、工程学、精算或决策科学的学位，并且在学位的最后一年已经完成或正在修读大量的定量学科课程如微分方程、计量经济学或数理统计学并且成绩优异\n- 申请本课程不需要GMAT/GRE，但在某些情况下如果申请者的学位没有包含足够的相关定量课程，招生团队可能会在对其申请进行初步审查后要求提供GMAT/GRE成绩\n- 在评估申请者的学习成绩时，学校会考虑其平均成绩、班级排名以及所就读院校的地位\n需要提交最后一年的课程列表（如有可能，应与第一年和第二年的成绩单包含在同一文件中）",
+  "objectives": "曼彻斯特大学商学院和数学学院结合了它们的学术优势和实践技术，开设了曼彻斯特大学定量金融学理学硕士学位课程。\n曼彻斯特大学定量金融学理学硕士学位课程涵盖数学成分，均衡数学与金融学的教学，尤其适合获得金融、金融经济学、精算学、工程学和数学学位的学生和拥有相关工作经验的人士，也适合渴望涨薪或有志在定量金融领域进行高级研究的人群。\n曼彻斯特大学定量金融学理学硕士学位课程以真正的国际和跨文化视角教学,注重当前议题，使学生掌握定量金融和金融工程领域的主要理论和应用概念的先进知识。曼彻斯特大学定量金融学理学硕士学位课程为学生将来在与设计新型金融工具和管理它们间交易的领域就职奠定扎实基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "利率衍生工具 (Interest Rate Derivatives)\n衍生证券 (Derivative Securities)\n时间序列计量经济学 (Time Series Econometrics)\n金融随机微积分 (Stochastic Calculus for Finance)\n信用风险计量与管理 (Credit Risk Measurement and Management)\n风险，绩效和决策分析 (Risk, Performance and Decision Analysis)\n企业融资的实物期权 (Real Options in Corporate Finance)\n横截面计量经济学 (Cross Sectional Econometrics)\n企业融资 (Corporate Finance)\n证券投资 (Portfolio Investment)\n模拟与风险分析 (Simulation & Risk Analysis)\n计算金融 (Computational Finance)\n广义线性模型和生存分析 (Generalised Linear Models and Survival Analysis)\n科学计算 (Scientific Computing)",
+  "success_cases": ""
+}

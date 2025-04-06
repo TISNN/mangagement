@@ -1,9 +1,12 @@
- // 基本类型定义
+// 基本类型定义
 export type TransactionDirection = '收入' | '支出';
 export type TransactionStatus = '已完成' | '待收款' | '待支付' | '已取消';
 
-// 关联表接口
-export interface Person {
+// 从people模块引入Person类型
+import { Person, StudentService } from './people';
+
+// 旧的Person类型保留为兼容历史代码
+export interface LegacyPerson {
   id: number;
   name: string;
   phone?: string;
@@ -23,14 +26,15 @@ export interface ServiceType {
   id: number;
   name: string;
   description?: string;
+  is_active?: boolean;
 }
 
 export interface Category {
   id: number;
   name: string;
   description?: string;
-  direction?: TransactionDirection;
-  active?: boolean;
+  direction: TransactionDirection;
+  is_active?: boolean;
 }
 
 export interface Account {
@@ -38,21 +42,22 @@ export interface Account {
   name: string;
   type: string;
   balance: number;
+  is_active?: boolean;
 }
 
 // 数据库中的交易记录接口
 export interface TransactionDB {
   id: number;
   person_id: number;
-  project_id: number;
-  service_type_id: number;
+  project_id?: number;
+  service_type_id?: number;
   amount: number;
   direction: TransactionDirection;
   status: TransactionStatus;
   category_id: number;
   transaction_date: string;
   account_id: number;
-  remarks?: string;
+  notes?: string;
   created_at?: string;
   updated_at?: string;
 }
@@ -96,4 +101,26 @@ export interface TransactionFilter {
   personId?: number;
   direction?: TransactionDirection;
   status?: TransactionStatus;
+}
+
+// 学生服务类型（带ServiceType信息）
+export interface StudentServiceWithType extends Omit<StudentService, 'service_type'> {
+  service_type: ServiceType;
+}
+
+// 学生财务数据
+export interface StudentFinancialData {
+  transactions: Transaction[];
+  totalPaid: number;
+  pendingPayments: number;
+  serviceRevenue: ServiceRevenue[];
+  services: StudentServiceWithType[]; // 使用具体的类型而不是any
+}
+
+export interface ServiceRevenue {
+  serviceId: number;
+  serviceName: string;
+  totalAmount: number;
+  paidAmount: number;
+  transactions: Transaction[];
 }

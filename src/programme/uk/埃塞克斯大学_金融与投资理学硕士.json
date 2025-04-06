@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "金融与投资理学硕士",
+  "ename": "MSc Finance and Investment",
+  "tags": "商科,金融,埃塞克斯商学院",
+  "introduction": "专业方向: 金融\n入学时间: 10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要数学学科背景，如：经济学、金融学、数学、统计学、科学或工程或具有其他学科背景的2:1学位或同等学历，包括定量方法、经济学、金融学和/或投资学、银行领域其中至少2门课程",
+  "objectives": "埃塞克斯大学金融与投资理学硕士项目建立在学生现有的金融、经济或商业知识的基础上，为其在投资组合管理和公司金融方面具有挑战性和回报丰厚的职业生涯做准备。学生将探索公司如何处理资金来源，资本结构和投资决策，研究行为金融学、财务规划策略、固定收益市场和工具。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融与投资理学硕士学位论文 (MSc Finance and Investment: Dissertation)\n资产组合管理 (Portfolio Management)\n金融研究方法：金融实证研究方法 (Research Methods in Finance: Empirical Methods in Finance)\n行为金融学 (Behavioural Finance)\n公司金融 (Corporate Finance)\n固定收益证券 (Fixed Income Securities)\n研究生数学准备 (Postgraduate Mathematics Preparation)\n资产定价 (Asset Pricing)\n公司报告与分析 (Corporate Reporting and Analysis)\n金融决策 (Financial Decision Making)\n衍生证券 (Derivative Securities)\n金融建模 (Financial Modelling)\n风险管理 (Risk Management)\n全球金融市场交易 (Trading Global Financial Markets)\nMatlab金融研究技巧 (Finance Research Techniques Using Matlab)",
+  "success_cases": ""
+}

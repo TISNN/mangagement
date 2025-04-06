@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "水下工程理学硕士",
+  "ename": "MSc Subsea Engineering",
+  "tags": "工科,土木工程,工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要任意工程分支专业背景\n学校也可能根据具体情况考虑具有应用数学或物理学2:1学位的学生\n学校也可能考虑具有工程学2:2荣誉学位并且能够证明3年以上相关石油和天然气行业经验的申请者\n学习背景必须涵盖的重点科目：数学、应力分析、材料强度、动力学、流体、热力学和工程设计",
+  "objectives": "阿伯丁大学水下工程硕士项目被公认为是英国同类专业中最好的项目之一，旨在通过专注于当今海底行业所需要的基本技能和技术知识，为训练有素的工业工程师做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "海上结构与海底系统 (Offshore Structures and Subsea Systems)\n水下控制 (Subsea Control)\n水下完整性 (Subsea Integrity)\n水下施工、检查和维护 (Subsea Construction, Inspection and Maintenance)\n管道与土壤力学 (Pipelines and Soil Mechanics)\n隔水管系统与流体动力学 (Riser Systems and Hydrodynamics)\n流动安全保障 (Flow Assurance)\n工程风险与可靠性分析 (Engineering Risk and Reliability Analysis)\n个人项目 (Individual Project)",
+  "success_cases": ""
+}

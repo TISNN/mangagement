@@ -1,0 +1,12 @@
+{
+  "school_name": "南加州大学",
+  "major_name": "网络安全工程理学硕士",
+  "ename": "MS in Cyber Security Engineering",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 32学分\n项目学费: 73,888 美元",
+  "requirements": "申请者必须持有地区认可机构的工程相关学士学位且GPA达到3.0及以上。申请者最好具备计算机科学,信息安全,电气工程等相关专业背景",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

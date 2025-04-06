@@ -1,0 +1,12 @@
+{
+  "school_name": "考文垂大学",
+  "major_name": "信息系统与技术管理理学硕士",
+  "ename": "MSc Management of Information Systems and Technology",
+  "tags": "商科,信息系统,工程、环境与计算学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 5/9月\n项目时长: 1年\n项目学费: 20050英镑/年",
+  "requirements": "具备以下条件之一：具有信息系统、计算或信息技术相关学科的二等荣誉学位或同等资格，或者信息系统、计算或信息技术的非分类学位加上计算领域的专业经验",
+  "objectives": "考文垂大学信息系统与技术管理理学硕士专为希望有机会获得信息系统（IS）和信息技术（IT）管理关键方面的熟练技能并​​发展知识的学生而设计。课程重点是商业企业中信息技术和信息系统的关键方面。旨在帮助学生具备所需的技能，以增强有效的通信格式的信息和数据的捕获、组织和呈现。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "信息技术项目管理 (IT project management)\n信息系统/信息技术战略 (IS/IT strategy)\n商业分析与人工智能 (Business analytics and artificial intelligence)\n个人项目准备 (Individual project preparations)\n企业系统的业务流程工程 (Business process engineering with enterprise systems)\n大数据智能与建模 (Big data intelligence and  modelling)\n全球商务管理 (Global business management)\n模拟 (Simulation)\n项目 (Project)\n全球专业发展-咨询 (Global Professional Development - Consultancy)",
+  "success_cases": ""
+}

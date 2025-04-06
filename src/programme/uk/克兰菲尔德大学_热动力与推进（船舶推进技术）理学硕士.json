@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "热动力与推进（船舶推进技术）理学硕士",
+  "ename": "MSc Thermal Power and Propulsion (Marine Propulsion Technology)",
+  "tags": "工科,航空工程,航空航天",
+  "introduction": "专业方向: 航空工程\n入学时间: 3/10月\n项目时长: 1年\n项目学费: 24725英镑/年",
+  "requirements": "具有工程、数学、物理或应用科学背景",
+  "objectives": "克兰菲尔德大学热动力与推进（船舶推进技术）理学硕士项目专注于船舶推进，并特别强调船舶推进系统、船舶辅助系统、推进系统集成、替代燃料和监管框架。该课程旨在让学生能够追求自己的特定兴趣和职业抱负。学生可以从一系列可选模块中进行选择，并选择合适的研究项目。提供为期两周的强化工业管理课程，有助于实现某些工程委员会要求的豁免。学生将获得船舶应用不同类型推进系统的设计和操作的全面背景，同时研究推进方法，主要吸气式发动机和使用燃气轮机进行推进。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "燃烧器 (Combustors)\n发动机系统 (Engine Systems)\n燃气轮机性能仿真和诊断 (Gas Turbine Performance Simulation and Diagnostics)\n涡轮机械和叶片冷却 (Turbomachinery and Blade Cooling)\n技术管理 (Management for Technology)\n燃气轮机操作和旋转机器 (Gas Turbine Operations and Rotating Machines)\n船舶推进系统集成 (Marine Propulsion System Integration)\n涡轮机械的机械设计 (Mechanical Design of Turbomachinery)\n燃气轮机计算流体动力学 (Computational Fluid Dynamics for Gas Turbines)\n推进电气化 (Propulsion Electrification)",
+  "success_cases": ""
+}

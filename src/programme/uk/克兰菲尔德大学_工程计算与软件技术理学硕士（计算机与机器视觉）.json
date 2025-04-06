@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "工程计算与软件技术理学硕士（计算机与机器视觉）",
+  "ename": "MSc Computational and Software Techniques in Engineering (Computer and Machine Vision)",
+  "tags": "工科,计算机,航空航天",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "具有应用数学、航空学、机械或电气工程或计算机科学方面背景，有C语言编程经验加分",
+  "objectives": "克兰菲尔德大学工程计算与软件技术理学硕士（计算机与机器视觉）项目旨在为数字信号和图像处理的新兴领域提供最高标准的合格工程师，他们能够为在一系列移动、嵌入式和工作站平台上运行的实时和离线系统的需求增加做出重大贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算方法 (Computational Methods)\nC++编程 (C++ Programming)\n技术管理 (Management for Technology)\n信号分析 (Signal Analysis)\n数字信号处理 (Digital Signal Processing)\n机器学习与大数据 (Machine Learning and Big Data)\n图像处理与分析 (Image Processing and Analysis)\n计算机视觉 (Computer Vision)\n可视化 (Visualisation)",
+  "success_cases": ""
+}

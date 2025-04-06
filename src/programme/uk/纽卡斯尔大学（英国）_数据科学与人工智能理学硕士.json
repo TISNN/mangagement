@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "数据科学与人工智能理学硕士",
+  "ename": "MSc Data Science and AI",
+  "tags": "理科,数据科学,计算机学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30600英镑/年",
+  "requirements": "具有2:1理学荣誉学士学位或同等学历，需要以下背景：计算机科学，数学，统计学，具备编程经验的工程学科\n学校在招收非标准背景的申请者方面有着良好的记录，鼓励具有丰富相关工作经验的个人申请，并将根据其个人情况进行考虑",
+  "objectives": "在纽卡斯尔大学数据科学和人工智能硕士课程中，学生将：\n探讨人工智能领域的关键课题\n培养解决特定应用领域实际问题所需的技能\n获得数据科学理论和应用的全面基础\n通过项目工作，学生将体验从交互式可视化设计到高级可视化方法的实验评估的整个生命周期。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能工程 (Engineering for AI)\n数据可视化 (Data Visualization)\n数据管理与探索性数据分析 (Data Management and Exploratory Data Analysis)\n野外数据科学 (Data Science in the Wild)\n数据科学小组项目 (Group Project in Data Science)\n机器学习与项目 (Machine Learning with Project)\n深度学习 (Deep Learning)\n数据科学项目与论文 (Project and Dissertation in Data Science)\n数据科学的统计基础 (Statistical Foundations of Data Science)\n数据科学的统计学习 (Statistical Learning for Data Science)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "骨科技术、运动分析与运动康复理学硕士",
+  "ename": "MSc Orthopaedic Technology, Motion Analysis, and Movement Rehabilitation",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 15242英镑/年",
+  "requirements": "具有英国2:1荣誉学位，需要物理治疗、康复或其他相关健康专业学位、医学、生理学、解剖学、体育与运动科学、生物医学工程、工程学、数学、物理科学背景",
+  "objectives": "邓迪大学骨科技术、运动分析与运动康复理学硕士课程结合了骨科和肌肉骨骼重要性的专业领域，这些包括康复、技术和人体运动分析，允许学生选择最感兴趣的话题，骨科和康复技术有助于患者的诊断、治疗和康复，越来越多的设备可以改善诊断和治疗，运动分析监测和评估人类的运动和姿势，在临床、康复和性能增强环境中做到了这一点，应用了广泛而令人兴奋的技术增强方法，运动康复利用生物力学来改善人体功能和表现，有助于减少受伤的风险，还有助于患者和客户的康复和临床管理。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "运动测量系统 (Motion Measurement Systems)\n研究项目（运动分析） (Research Project (Motion Analysis))\n基础 (Foundation)\n高级运动分析 (Advanced Motion Analysis)\n运动分析基础 (Fundamentals in Motion Analysis)",
+  "success_cases": ""
+}

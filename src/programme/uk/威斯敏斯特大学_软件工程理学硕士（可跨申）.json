@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯敏斯特大学",
+  "major_name": "软件工程理学硕士（可跨申）",
+  "ename": "MSc Software Engineering (Conversion)",
+  "tags": "工科,计算机,计算机科学与工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 17500英镑/年",
+  "requirements": "具有2:2荣誉学位",
+  "objectives": "威斯敏斯特大学软件工程理学硕士课程以非计算机专业毕业生为目标，提供专业软件工程师在当今IT行业取得成功所需的核心和最先进的实践知识和技能。软件工程是工程方法、实践和学科的应用，用于创建和维护软件应用程序和系统。专业的软件工程师使用这些工程方法以系统的、可量化的和有纪律的方式开发软件。通过选择威斯敏斯特大学软件工程理学硕士课程，学生将获得编程的基本实践经验，并将软件工程应用到一些新的和重要的IT和计算领域。此外，学生将对支撑这些实践技能的理论有较强的把握。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "面向对象编程 (Object Oriented Programming)\n数据结构与算法 (Data Structures and Algorithms)\n软件开发环境 (Software Development Environments)\n数据存储原则和工具 (Data Repositories Principles and Tools)\n先进的软件设计 (Advanced Software Design )\n软件开发项目 (Software Development Project)",
+  "success_cases": ""
+}

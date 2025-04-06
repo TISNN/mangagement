@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "动物行为理学硕士",
+  "ename": "MSc Animal Behaviour",
+  "tags": "理科,生物,生物学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 29990英镑/年",
+  "requirements": "具有一等或2:1学位，需要生物科学背景，或其他理科或数学专业背景。具备高等数学和统计学方面的学习背景（至少达到英国学校SQA Higher，GCE AS或A-Level，国际文凭或同等学历）。具有良好的基本IT技能，包括文字处理，电子表格使用，电子邮件和互联网。需要填写附加申请表格",
+  "objectives": "圣安德鲁斯大学动物行为理学硕士课程提供高级研究人员教授的现代动物行为的知识和实践概述。该课程涵盖了认知、行为生态学和生物记录等关键主题，以及用于研究这些主题的最新技术和研究技能。该课程由生物学院生物多样性中心教授，该中心是国际公认的动物行为研究中心，包括动物认知、文化进化、生物记录和复杂系统研究。核心课程侧重于有价值的可转移技能的培训，并辅之以一系列专业选项，让学生在高级阶段探索特别感兴趣的主题。作为核心模块的一部分，学生可能会有令人兴奋的机会在当地进行实地考察，作为南极或印度尼西亚热带地区科学潜水的可选野外课程的一部分（额外费用）。学生将在生物学院的一个研究小组内进行一个详细的独立研究项目。学生主导的研讨会和讲习班旨在支持学习、增强信心和促进就业能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物学数学与统计模型 (Mathematical and Statistical Modelling for Biologists)\n动物行为研究技巧 (Research Skills for Animal Behaviour)\n动物行为研究交流技巧 (Communication Skills for Animal Behaviour Research)\n捕食者与猎物 (Predators and Prey)\n动物行为研究的生物记录 (Biologging for Animal Behaviour Research)\n认识能力 (Cognition)\n动物行为的复杂系统 (Complex Systems in Animal Behaviour)\n极地生态系统中的捕食者生态 (Predator Ecology in Polar Ecosystems)\n科学跳水 (Scientific Diving)\n数据分析导论 (Introductory Data Analysis)\nGLMs应用统计模型 (Applied Statistical Modelling using GLMs)\n动物丰度与生物多样性预测 (Estimating Animal Abundance and Biodiversity)\n统计计算 (Computing in Statistics)\n野生动物种群动态建模 (Modelling Wildlife Population Dynamics)\n知识发现与数据挖掘 (Knowledge Discovery and Datamining)",
+  "success_cases": ""
+}

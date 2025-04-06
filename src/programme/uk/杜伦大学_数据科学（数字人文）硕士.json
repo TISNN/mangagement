@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "数据科学（数字人文）硕士",
+  "ename": "Master of Data Science (Digital Humanities)",
+  "tags": "理科,数据科学,自然科学系",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 34000英镑/年",
+  "requirements": "具有英国一等或2:1荣誉学位或同等学历，需要不包含强大数据科学成分的任何学位背景，包括社会科学、艺术和人文科学、商业和科学强烈鼓励具有艺术和人文学位的候选人申请",
+  "objectives": "杜伦大学数据科学（数字人文）硕士是一门以数据科学为核心的转换课程，旨在为人文学科一级学位的学生提供丰富的数据科学内容的硕士教育。入门模块的设计使完全是初学者的学生不需要具备数学或编程知识，就可以了解数据科学所需的背景知识。这是在需要知道的基础上进行的，侧重于实践中的理解，而不是抽象的理论。数据科学核心模块将包括数据科学的数学导论、统计建模（R）、计算机编程（Python）、机器学习、人工智能和神经网络。\n除了数据科学核心之外，学生还将选修数字人文学科的一个模块，该模块将探索定量和计算方法在文化数据上的应用：语言、文学、哲学和神学文本、历史数据、文物和物质文化、视觉艺术、视频和音乐。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机科学导论 (Introduction to Computer Science)\n数据科学统计学导论 (Introduction to Statistics for Data Science)\n机器学习 (Machine Learning)\n数据科学编程 (Programming for Data Science)\n数据科学数学导论 ( Introduction to Mathematics for Data Science)\n数字人文：理论与实践 (Digital Humanities: Theory and Practice)\n研究项目 (Research Project)\n数据分析中的伦理和偏见 (Ethics and Bias in Data Analytics)\n文本挖掘与语言分析 (Text Mining and Language Analytics)\n数据探索、可视化与无监督学习 (Data Exploration, Visualization, and Unsupervised Learning)\n战略领导 (Strategic Leadership)",
+  "success_cases": ""
+}

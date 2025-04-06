@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 28200英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要包含大量经济学内容的学科背景，包括微观经济学、宏观经济学、统计学和计量经济学课程",
+  "objectives": "诺丁汉大学经济学理学硕士课程侧重于当前的经济思维，为理解和发展微观经济和宏观经济模型提供技术工具。学生还将全面掌握计量经济学技术。学生可以通过选择一系列专业可选模块以及高级经济核心领域来专注于自己的兴趣和职业目标。诺丁汉大学经济学理学硕士课程的教学得益于世界领先的研究。理论知识得到经济数据使用、呈现和解释方面的实践培训的支持，其中包括探索各种先进的计量经济学软件包。拥有诺丁汉大学的高级经济学学位，学生在毕业时将拥有在雇主面前脱颖而出所需的所有知识、实践技能和信心，并成为专业经济学家或学术研究人员。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济学理论 (Microeconomic Theory)\n宏观经济学理论 (Macroeconomic Theory)\n计量经济学理论 (Econometric Theory)\n经济学数据分析 (Economic Data Analysis)\n高级微观经济学理论 (Advanced Microeconomic Theory)\n高级宏观经济学方法 (Advanced Macroeconomic Methods)\n时间序列计量经济学 (Time-Series Econometrics)\n应用微观计量经济学 (Applied Microeconometrics)\n经济学研究方法 (Economic Research Methodology)\n硕士论文：经济学 (MSc Dissertation: Economics)\n公共经济学 (Public Economics)\n国际贸易理论 (International Trade Theory)\n贸易分析与政策 (Trade Analysis and Policy)",
+  "success_cases": ""
+}

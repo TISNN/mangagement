@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "建筑学计算方法理学硕士",
+  "ename": "MSc Computational Methods in Architecture",
+  "tags": "社科,建筑,建筑学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 29450英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，具备建筑、计算机科学、工程、室内设计、景观设计或城市设计等相关学科背景\n如果申请者没有相关领域的学位，或者最终学位等级低于2:1，学校可能会根据专业经验和之前的计算经验的证据进行考虑。请提供其他证据来支持申请，例如雇主推荐信",
+  "objectives": "卡迪夫大学建筑学计算方法理学硕士项目旨在培养创意型建筑学专业人才，具备IT、数字制造与模拟软件技能，能够设计定制软件开发工具以解决设计问题。跨学科的课程能够培养学生建筑学计算方法的知识和技能，提高创新意识与实践能力。项目将重点运用参数化和生成方法进行找形分析，为进一步的分析提供数字信息依据，培养学生在设计早期的数字制造逻辑思维。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学位论文：建筑中的计算方法 (Dissertation: Computational Methods in Architecture )\n三维建模与参数化设计导论 (Introduction to 3D Modelling and Parametric Design )\n计算找形 (Computational Form Finding )\n算法设计思维 (Algorithmic Design Thinking )\n研究准备 (Research Preparation )\nPython (Python for Computation )\n建筑环境调查 (Investigation of the Built Environment)",
+  "success_cases": ""
+}

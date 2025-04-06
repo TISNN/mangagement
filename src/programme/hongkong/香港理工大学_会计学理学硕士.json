@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "会计学理学硕士",
+  "ename": "MSc Accountancy",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 223000港币/年",
+  "requirements": "具有学士学位，需要会计或其他相关学科背景，或具备同等专业资格\n具有至少1年相关工作经验的申请者优先考虑",
+  "objectives": "香港理工大学会计学理学硕士学位课程旨在使学生建立扎实的会计学知识基础，熟知当下最新的会计学知识和问题，培养全面的分析与判断技能，从而使之能够做出切实有效的商业决策。\n香港理工大学会计学理学硕士学位课程是一项灵活的、循序渐进且不断深入的专业课程，让会计行业从业者和高管们掌握主要的会计学问题。课程聚焦于现实问题的研习与当代学术研究，同时注重实践应用。香港理工大学会计学理学硕士学位课程的两大重要点是中华人民共和国会计体系和会计信息系统的当代应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计理论 (Accounting Theory)\n会计与财务研究领域应用计量经济学方法 (Applied Econometric Methods in Accounting & Finance Research)\n会计信息系统当代议题 (Contemporary Issues in Accounting Information Systems)\n中国会计理论与实践 (Theory & Practice of Accounting in China)\n中国商业环境 (Business Environment in China)\n票据与保险服务当代议题 (Contemporary Issues in Attestation & Assurance Services)\n信息系统审计与管理当代议题 (Contemporary Issues in Information Systems Audit & Control)\n管理会计当代议题 (Contemporary Issues in Managerial Accounting)\n财务管理 (Financial Management)\n国际会计 (International Accounting)\n研究方法 (Research Methods)\n财务报告及资本市场研究研讨会 (Seminar in Financial Reporting & Capital Markets Research)\n管理会计研究研讨会 (Seminar in Management Accounting Research)\n香港及中国大陆税收管理 (Taxation Management in Hong Kong & China)\n中国法律制度及经济法 (The Legal System & Economic Law in China)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "银行创新与风险分析理学硕士",
+  "ename": "MSc Banking Innovation and Risk Analytics",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 36000英镑/年",
+  "requirements": "具有英国一等或2:1荣誉学位或同等学历，需要满足以下学科之一：\n- 通常需要管理学、运筹学、统计学、计量经济学、数学、物理学、计算机科学或工程学的本科学位\n- 具有商学、管理学、金融学或经济学学位的申请者将被要求涵盖一些定量内容\n- 具有其他研究领域良好荣誉学位或相关商业经验的申请者将根据个人情况予以考虑\n相关的工作经验不是必需的但可能有助于申请",
+  "objectives": "爱丁堡大学银行创新与风险分析理学硕士项目旨在为学生提供专业的知识、理解和关键技能，使他们能够成为世界上任何国家的金融机构（尤其是银行）的高效管理人士。最近的事件表明，银行的成功管理对西方经济体至关重要。银行业是一个行业而不是一门学科，对银行管理的研究是多学科的。爱丁堡大学银行创新与风险分析理学硕士课程考量了银行的结构、财务、风险以及资产管理职能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司财务信息分析 (Analysis of Corporate Financial Information)\n银行风险管理概论 (Introduction to Risk Management in Banks)\n风险分析编程 (Programming for Risk Analytics)\n金融统计学 (Statistics for Finance)\n信贷风险管理 (Credit Risk Management)\n计量经济学在银行业中的应用 (Econometrics Applications in Banking)\n区块链与加密金融 (Blockchain and Cryptofinance)\n数据挖掘1 (Data Mining 1)\n数据挖掘2 (Data Mining 2)\n金融工程 (Financial Engineering)\n金融机器学习 (Financial Machine Learning)\n投资管理 (Investment Management)\n论文 (Dissertation)",
+  "success_cases": ""
+}

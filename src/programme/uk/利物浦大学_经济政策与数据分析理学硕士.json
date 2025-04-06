@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "经济政策与数据分析理学硕士",
+  "ename": "MSc Economic Policy and Data Analytics",
+  "tags": "商科,经济,管理学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要经济学或以定量为重点的相关学科背景，也鼓励拥有定量科学学科（如数学、物理、统计学、运筹学）的学生申请，申请人需具备A级的数学/统计学能力",
+  "objectives": "利物浦大学经济政策与数据分析理学硕士项目为学生提供经济理论和分析方法方面的严格培训，以回答公共机构、国际组织、咨询公司、研究机构和智库面临的紧迫政策问题。\n利物浦大学经济政策与数据分析理学硕士项目的课程非常强调技术技能，涵盖一系列经济政策，包括医疗保健、社会安全网、经济不平等、环境可持续性和能源政策，以及税收和财政政策。\n利物浦大学经济政策与数据分析理学硕士项目的课程由世界一流的研究人员教授，他们在世界领先的学术期刊上就他们教授的主题发表文章。该项目的教师与企业、政府和非营利组织保持着密切的关系，将他们的研究和教学与现实世界的影响联系起来。在这一年中，学生可以参加专门的技能和就业日活动，包括 R 和 Python 编码训练营，让您能够熟练使用软件并在工作场所的任何任务中脱颖而出。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计量经济学和统计方法 (Econometric and Statistical Methods)\n宏观经济分析 (Macroeconomic Analysis)\n微观经济分析 (Microeconomic Analysis)\n应用微观计量经济学 (Applied Microeconometrics)\n机器学习与大数据计量经济学 (Machine Learning and Big Data Econometrics)\n劳动经济学 (Labour Economics)\n公共经济学 (Public Economics)\n论文 (Dissertation)",
+  "success_cases": ""
+}

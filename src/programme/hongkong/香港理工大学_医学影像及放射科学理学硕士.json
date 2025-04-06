@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "医学影像及放射科学理学硕士",
+  "ename": "MSc Medical Imaging and Radiation Science",
+  "tags": "社科,医学,医疗及社会科学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 126000港币/年",
+  "requirements": "具有认可机构颁发的学士学位或同等学历，需要放射学或相关健康科学学科背景，其他资格将根据个人情况予以考虑\n具备医疗保健或相关领域的毕业后工作经验的申请者优先考虑",
+  "objectives": "香港理工大学医学影像及放射科学理学硕士学位课程旨在为医学影像、放射治疗、医疗化验科学培育专业人才，亦为有兴趣研习医疗科技的人士提供发展先进知识和技术的机会。\n香港理工大学医学影像及放射科学理学硕士课程旨在为医学影像与放射治疗领域的专业人士，以及对健康技术感兴趣的学生提供提升自己专业知识与技能的机会；让他们在各自的专业学科上作深入探究，藉以全面提升他们的专业知识，从而有助其日后在事业上的发展；开拓学生在医疗科学及科技范畴上的视野，使他们能够应付当前日新月异不断转变的工作要求；让同学可以在实习的环境中，有效地尝试应对其在日后工作岗位上可能会遇到的种种相关问题；培养他们在专业上的分析及批判能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究方法与生物统计学 (Research Methods & Biostatistics)\n毕业论文 (Dissertation)\n多平面解剖学 (Multiplanar Anatomy)\n高等放射治疗计划与剂量学 (Advanced Radiotherapy Planning and Dosimetry)\n计算机断层扫描技术与临床应用 (Advanced Technology and Clinical Application in Computed Tomography)\n核磁共振成像技术与临床应用 (Advanced Technology and Clinical Application in Magnetic Resonance Imaging)\n健康技术专题研究 (Advanced Topics in Health Technology)\n超声波检查法 (Advanced Ultrasonography)\n计算机断层扫描技术实习 (Computed Tomography (CT): Practicum)\n数字成像与医学影像存档与通信系统 (Digital Imaging and PACS)",
+  "success_cases": ""
+}

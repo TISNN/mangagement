@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "通信工程理学硕士",
+  "ename": "MSc Communications Engineering",
+  "tags": "工科,电气电子,电气与电子工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 56157新币/年",
+  "requirements": "具有良好的相关学士学位\n有相关工作经验者优先考虑",
+  "objectives": "南洋理工大学通信工程理学硕士学位项目为工程师和信息技术专家提供提升通信工程方面专业知识和技能的深造机会。该项目涵盖了电信学、射频工程和无线通信等重要学科。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目管理与创业 (Project Management & Technopreneurship)\n数字通信系统 (Digital Communication Systems)\n计算机网络 (Computer Networks)\n光纤通信技术 (Optical Fibre Communications)\n无线通信中的射频电路 (RF Circuits for Wireless Communications)\n无线网络与移动无线系统 (Wireless & Mobile Radio Systems)\n无线网络系统的天线与传播 (Antennas and Propagation for Wireless Systems)\n计算机控制网络 (Computer Control Networks)\n高等数字信号处理 (Advanced Digital Signal Processing)\n系统分析 (Systems Analysis)\n机器视觉 (Machine Vision)\n过程控制 (Process  Control)\n现代数字信号处理 (Advanced Digital Signal Processing)\n数字音频信号处理 (Digital Audio Signal Processing)\n视频信号处理 (Video Signal Processing)",
+  "success_cases": ""
+}

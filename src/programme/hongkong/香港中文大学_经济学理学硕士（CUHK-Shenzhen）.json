@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "经济学理学硕士（CUHK-Shenzhen）",
+  "ename": "MSc Economics (CUHK-Shenzhen)",
+  "tags": "商科,经济,深圳校区",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 2年\n项目学费: 133500人民币/年",
+  "requirements": "申请者需毕业于认可的大学并获得学士学位，需要提供B等级证明，或获得等同大学本科的资历",
+  "objectives": "香港中文大学（深圳）经济学硕士项目提供经济原理、定量分析能力及与实际应用相结合的全面专业训练，为学生在私人金融机构、政府部门如中央银行、国际贸易公司、证券交易所、咨询机构等经济相关领域的职业发展做好准备。\n本课程毕业生可望获得在诸多经济相关领域中广泛应用的技能和方法，如金融行业的宏观经济分析、政府部门的政策分析以及咨询行业的定量分析等，为他们进入经济领域，成为中国乃至国际具有竞争力的专业人才奠定坚实基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级微观经济学 (Advanced Microeconomics)\n高级宏观经济学 (Advanced Macroeconomics)\n经济学定量方法 (Quantitative Methods in Economics)\n高级计量经济学 (Advanced Econometrics)\n高级货币理论与金融市场 (Advanced Monetary Economics and Financial Markets)\n经济学商务沟通与软件操作 (Communication and Computing (EXCEL/VBA) for Economics)\n国际金融  (International Finance )\n应用时间序列分析 (Applied Time Series Analysis)\n中国经济与金融市场  (Chinese Economy and Financial Markets)\n应用计量经济学  (Applied Econometrics )\n博弈论与拍卖理论 (Game Theory and Auction Theory)\n国际贸易  (International Trade )\n国际财务管理 (International Financial Management)\n公共经济学与金融 (Public Economics and Finance)\n健康经济学 (Health Economics)",
+  "success_cases": ""
+}

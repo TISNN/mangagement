@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "创业、金融与创新理学硕士",
+  "ename": "MSc Entrepreneurship, Finance and Innovation",
+  "tags": "商科,创业与创新,创新与创业研究所",
+  "introduction": "专业方向: 创业与创新\n入学时间: 1/10月\n项目时长: 1年\n项目学费: 31750英镑/年",
+  "requirements": "具有英国2:2荣誉学位（最后一年成绩达到55%）或同等学历，不限专业背景",
+  "objectives": "拉夫堡大学的创业、金融与创新理学硕士课程分析企业家、创新过程以及财务支持在创建、发展和维持初创公司和组织时的作用。通过学习我们的创业、金融和创新硕士学位，学生将有机会探索和反思成功所需的技能以及新旧融资模式在商业中的作用。学生将学习基本的财务计算，并将学习如何分析公司的财务状况并准备向投资者进行宣传。同样，学生将学习会计知识，并培养监控和评估公司绩效所需的商业技能，并了解商业决策的财务后果，尤其是对于相对较小和年轻的公司。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "合作项目 (Collaborative Project)\n创新管理 (Innovation Management)\n创业 (Entrepreneurship)\n战略和市场分析 (Strategy and Market Analysis)\n资金 (Funding)\n创业融资 (Entrepreneurial Finance)\n创业公司治理 (Governance for Start-up Companies)\n业务统计 (Business Statistics)\n管理经济学 (Managerial Economics)\n新企业创建 (New Venture Creation)",
+  "success_cases": ""
+}

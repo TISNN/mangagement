@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "行为经济学理学硕士",
+  "ename": "MSc Behavioural Economics",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 28200英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要包含大量经济学内容的学科背景，包括微观经济学、宏观经济学、统计学和计量经济学课程",
+  "objectives": "诺丁汉大学行为经济学理学硕士课程研究影响消费者、借款人和投资者做出决定的人类和社会问题。它着眼于心理学而不是纯粹的逻辑来理解经济决策背后的因素。课程由决策研究和实验经济学中心（CeDEx）的世界领先研究提供信息。学校的“助推”理念已经变得非常有影响力，学生将了解研究人员使用的实验方法，并使用计算机实验室进行经济实验。学生将学习专业核心模块，并从一系列选项中进行选择，以满足个人的兴趣。学生还将获得一对一的指导，来完成研究项目。毕业时，学生将具备在雇主面前脱颖而出所需的所有知识、实践技能和信心，并成为一名专业经济学家或学术研究员。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "行为经济学理论 (Behavioural Economic Theory)\n经济学实验方法 (Experimental Methods in Economics)\n微观经济学理论 (Microeconomic Theory)\n宏观经济学理论 (Macroeconomic Theory)\n计量经济学理论 (Econometric Theory)\n经济学数据分析 (Economic Data Analysis)\n经济学研究方法 (Economic Research Methodology)\n硕士论文：经济学 (MSc Dissertation: Economics)\n应用行为经济学 (Applied Behavioural Economics)\n高级微观经济学理论 (Advanced Microeconomic Theory)\n产业组织 (Industrial Organisation)\n公共经济学 (Public Economics)\n高级宏观经济学 (Advanced Macroeconomics)\n国际宏观经济学 (International Macroeconomics)\n国际贸易理论 (International Trade Theory)",
+  "success_cases": ""
+}

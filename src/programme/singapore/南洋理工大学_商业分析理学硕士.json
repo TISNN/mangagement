@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 7月\n项目时长: 1年\n项目学费: 65400新币/年",
+  "requirements": "具有良好的学士学位，不限专业背景\n具备良好的GMAT/GRE成绩\n有工作经验者优先考虑（不强制要求），欢迎无工作经验的申请者申请",
+  "objectives": "南洋理工大学商业分析理学硕士项目针对没有技术背景的应届生和商业专家，旨在教授学生分析的技能使他们更有效地应用到商业领域。该项目的毕业生就业领域广泛，涉及管理，会计，市场营销，金融，公司传播和新闻等。南洋理工大学商业分析理学硕士不仅仅传授分析技能，更秉持实践的态度，让学生学会将技术灵活应用到商业领域。通过分析和使用数据来推动数字化转型，它们有助于重新定义客户体验并使他们盈利。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "Python和R语言编程 (Programming in Python and R )\n数据管理与可视化 (Data Management and Visualisation)\n概率论与数理统计 (Probability and Statistics)\n商业领域中的分析与机器学习 (Analytics and Machine Learning in Business)\n分析策略 (Analytics Strategy)\n人工智能与大数据 (AI and Big Data in Business)\n人工智能与金融中先进的预测技术 (AI with Advanced Predictive Techniques in Finance)\n风险管理中的舞弊侦测及法证分析 (Risk Management with Fraud Detection and Forensic Analysis)\n市场与消费者分析 (Marketing and Customer Analytics)\n供应链分析 (Supply Chain Analytics)\n精益运营和优化 (Lean Operations and Optimisation)",
+  "success_cases": ""
+}

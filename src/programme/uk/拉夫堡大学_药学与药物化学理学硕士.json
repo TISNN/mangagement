@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "药学与药物化学理学硕士",
+  "ename": "MSc Pharmaceutical Science and Medicinal Chemistry",
+  "tags": "社科,药学,化学学院",
+  "introduction": "专业方向: 药学\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有英国2:2荣誉学位或同等学历，需要生物化学、生物医学、化学工程、中医、药物分析、工业化学、自然科学（能够证明足够的化学内容）、药剂学、药理学、毒理学背景，学校会接受其他相关背景但具备足够化学知识的申请者",
+  "objectives": "拉夫堡大学药学与药物化学理学硕士课程将为学生提供药代动力学、药物代谢、药物合成、识别潜在药物靶标和候选药物的方法以及评估药物化合物生物学活性的方法的培训。课程使学生有机会专注于这至关重要的领域，重点是生物化学、药理学、药物的设计、分析和交付，包括开发安全有效的药物。社会对该领域内专业人员的需求仍然很高，所以该硕士课程旨在通过为学生提供相关的培训，以满足行业的需求。作为本课程的学生，学生将可以使用各种科学仪器，包括：400 MHz、500 MHz固态和台式NMR光谱仪、单晶和粉末X射线衍射仪、高分辨率电感耦合等离子体质谱仪、GC-MS和线性离子阱LC-质谱仪等。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "药物动力学和药物代谢 (Pharmacokinetics and Drug Metabolism)\n药物靶标，药物设计和药物合成 (Drug Targets, Drug Design and Drug Synthesis)\n分离技术 (Separation Techniques)\n质谱分析和相关技术 (Mass Spectrometry and Associated Techniques)\n分析科学的创新 (Innovations in Analytical Science)\n药物化学的创新 (Innovations in Medicinal Chemistry)\n光谱学与结构分析 (Spectroscopy and Structural Analysis)\n专业技能和论文 (Professional Skills and Dissertation)\n研究训练项目 (Research Training Project)\n研究方法 (Research Methods)",
+  "success_cases": ""
+}

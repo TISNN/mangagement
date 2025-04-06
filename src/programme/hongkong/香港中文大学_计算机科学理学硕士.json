@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "计算机科学理学硕士",
+  "ename": "MSc Computer Science",
+  "tags": "工科,计算机,工学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 264000港币/年",
+  "requirements": "持有认可大学之学士学位（主修计算机科学或计算机工程或其他相关科目），通常需为二级或以上荣誉学士毕业，或在本科课程中，平均成绩达B级或以上；或\n在高等教育机构完成学业并获得相当于荣誉学位的专业资格或类似资格；或\n拥有其他主修科的荣誉学士学位，而该课程包含大量与计算机相关的内容",
+  "objectives": "香港中文大学计算机科学理学硕士课程的目标为：教授硕士层次的计算机科学知识，包括让学生：掌握最先进的资讯科技技术、新兴的软件科技，以及计算机科学的最新研究主题；了解、分析、管理、处理真实生活的工作场所中面对的资讯科技问题；留意计算机科学，以及国际以至本地计算机行业的最新发展。教授基本的共通能力，包括：写作及口语传意技巧；文献研究方法；用以解难的分析技巧，例如批判分析、判明问题、设计实用的解决方法等。培养学生的正面态度及令学生乐意：与团队的队员有效地沟通及合作；把握成为领袖的机会；提出和发表新构思和想法，同时抱有批判及开放的心态；解决问题时，鉴别出也运用到相应的计算机科学的知识；考虑社会、经济、环境、健康及安全等各方面，改善处理问题的方法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "并行及分布式系统高级专题 (Advanced Topics in Parallel / Distributed Systems)\n软件系统专题 (Advanced Topics in Software Systems)\n数据库系统高级专题 (Advanced Topics in Database Systems )\n理论计算机科学专题 (Topics in Theoretical Computer Science)\n人工智能高级专题 (Advanced Topics in Artificial Intelligence )\n高级互联网工程专题 (Advanced Topics in Internet Technologies)\n服务导向分布式系统 (Service-oriented Distributed Systems)\n图像处理及计算机视觉 (Image Processing and Computer Vision)\n电子商务的计算模型 (Computer Models for E-Business )\nIT项目管理 (IT Project Management )\n多媒体技术 (Multi-media Technology )\n信息系统高级专题 (Advanced Topics in Information Systems )\n基于互联网的交互虚拟现实系统应用 (Web Based Graphics & Virtual Reality Systems)\n服务导向计算 (Service-oriented Computing )\n计算金融学导论 (Introduction to Computational Finance)",
+  "success_cases": ""
+}

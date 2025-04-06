@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence",
+  "tags": "工科,计算机,自然与计算科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要计算科学学位\n学习背景必须涵盖的重点科目：Python，算法问题解决与数据结构。建议但不强制要求具备其他语言编程经验（如Java、C和C）\n具有工科背景（如电子/电气工程）2:2学位或同等学历的申请者将由招生官根据具体情况进行考虑",
+  "objectives": "人工智能正在改变我们的生活、工作和社交方式。阿伯丁大学人工智能理学硕士课程将向学生展示人工智能的所有方面，从其基本原理到尖端技术，使学生能够在这个动态的、快速发展的领域工作。阿伯丁大学在人工智能相关研究领域拥有超过30年的经验，在世界范围内享有盛名，主要机器学习、数据科学、自然语言生成和多智能体系统等领域。成功的派生公司包括ARRIA NLG，世界领先的自然语言生成公司之一。阿伯丁大学人工智能理学硕士项目涵盖了各种人工智能技术的理论基础包括数据和文本挖掘、机器学习(深度学习)、推理、自然语言生成、知识表达、分布式人工智能系统以及用于将这些基础理论应用于现实问题的科技、技术、工具、软件和方法。学生还可以学习如何设计和评估人工智能系统。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能基础 (Foundations of AI)\n机器学习 (Machine Learning)\n人工智能系统评估 (Evaluation of AI Systems)\n应用人工智能 (Applied Artificial Intelligence)\n人工智能与数据：伦理和法律考量 (AI and Data: Ethical and Legal Considerations)\n数据挖掘与可视化 (Data Mining and Visualisation)\n自然语言生成 (Natural Language Generation)\n知识表示与推理 (Knowledge Representation and Reasoning)\n软件代理与多代理系统 (Software Agents and Multi - Agent Systems)\n人工智能硕士项目 (MSc Project in Artificial Intelligence)",
+  "success_cases": ""
+}

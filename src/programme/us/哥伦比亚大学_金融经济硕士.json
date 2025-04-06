@@ -1,0 +1,12 @@
+{
+  "school_name": "哥伦比亚大学",
+  "major_name": "金融经济硕士",
+  "ename": "Master of Science in Financial Economics",
+  "tags": "商科,金融",
+  "introduction": "专业方向: 金融\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2年\n项目学费: 60912美元/年\n项目规模: 23人\n平均成绩: 3.85\n平均G: 328\n男女比例: 65:35\n就业比例: 100%",
+  "requirements": "先修课：概率,统计学,微观经济学,两学期的微积分,线性代数和矩阵理论,计算机程序设计",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

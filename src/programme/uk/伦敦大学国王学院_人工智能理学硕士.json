@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence",
+  "tags": "工科,计算机,自然、数学与工程科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 37800英镑/年",
+  "requirements": "具有high 2:1本科（荣誉）学士学位或同等学历，需要计算机科学或其他相关定量学科背景（如数学、统计学、物理学、自然科学、电子工程、通用工程、运筹学，或两个此类学科的联合学位），申请者还应具备基础数学的良好背景，特别是熟悉微积分、三角、线性代数、向量和矩阵数学的标准概念，此外，申请者应具备计算机编程能力，达到计算机科学理学学士荣誉学位第一学年结束时的预期水平",
+  "objectives": "伦敦大学国王学院人工智能理学硕士项目旨在为学生提供理解、实践知识和专业知识，以使用多样的工具和技术评估、设计和构建智能系统，将为学生开发智能软件系统做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "智能主体系统和多智能体系统 (Agents & Multi-Agent Systems)\n自然学习算法 (Nature-Inspired Learning Algorithms)\n人工智能的哲学与伦理学 (Philosophy & Ethics of Artificial Intelligence)\n模式识别、神经网络和深度学习 (Pattern Recognition, Neural Networks and Deep Learning)\n计算模型 (Computational Models)\n人工智能规划 (Artificial Intelligence Planning)\n人机交互 (Human- Computer Interaction)\n分布式账本与加密货币 (Distributed Ledgers & Crypto-Currencies)",
+  "success_cases": ""
+}

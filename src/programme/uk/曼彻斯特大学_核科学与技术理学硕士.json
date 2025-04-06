@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "核科学与技术理学硕士",
+  "ename": "MSc Nuclear Science and Technology",
+  "tags": "理科,物理,物理与天文学学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有2:2英国荣誉学位或同等学历，需要相关理工科背景，对于具备多年行业经验的申请者，学校也可能接受较低的资格",
+  "objectives": "曼彻斯特大学核科学与技术理学硕士项目旨在培养出色的核科学专家，为世界级核反应堆项目输送人才，以填补技能缺口。曼彻斯特大学核科学与技术理学硕士项目的研究课程涵盖广泛，尤其核遗产等方面的内容，而通过学习，学生将有能力控制核反应堆的运行及停止，能从容应对行业的技术挑战并开发解决方案，从而具备必需的专业素养，为未来的职业发展打下坚实基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "反应堆物理，临界与设计 (Reactor Physics, Criticality & Design)\n核燃料循环 (Nuclear Fuel Cycle)\n辐射与放射防护 (Radiation & Radiological Protection)\n退役，放射性废物和环境管理 (Decommissioning, Radioactive Waste and Environmental Management)\n反应堆材料和寿命行为 (Reactor Materials & Lifetime Behaviour)\n核安全案例开发 (Nuclear Safety Case Development)\n核工业中的粒子工程 (Particle Engineering in the Nuclear Industry)\n政策，法规与许可 (Policy, Regulation & Licensing)\n核废料的处理，储存和处置 (Processing, Storage & Disposal of Nuclear Waste)\n辐射屏蔽 (Radiation Shielding)\n反应堆热工液压系统 (Reactor Thermal Hydraulics)\n关键安全管理 (Criticality Safety Management)\n严重事故 (Severe Accidents)\n退役过程的管理 (Management of the Decommissioning Process)\n实验堆物理 (Experimental Reactor Physics)",
+  "success_cases": ""
+}

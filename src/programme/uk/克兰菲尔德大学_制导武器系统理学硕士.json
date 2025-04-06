@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "制导武器系统理学硕士",
+  "ename": "MSc Guided Weapon Systems",
+  "tags": "工科,其他工科,国防与安全",
+  "introduction": "专业方向: 其他工科\n入学时间: 9月\n项目时长: 1年\n项目学费: 38340英镑/年",
+  "requirements": "具有科学、工程或数学方面背景",
+  "objectives": "克兰菲尔德大学制导武器系统理学硕士是克兰菲尔德的旗舰课程，在制导武器领域拥有卓越的声誉。该课程满足所有三个英国武装部队的要求，也向来自北约国家、英联邦部队、部分非北约国家、科学公务员和工业界的学生开放。克兰菲尔德大学制导武器系统理学硕士课程的主要目标是将构成制导武器系统技术的各种学科结合起来，并以综合的方式进行介绍，带领学生了解制导武器系统技术的原理以及整个系统设计过程中涉及的所有相互关联和跨学科的方面",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电光与红外系统1 (Electro-optic and Infrared Systems 1)\n电光与红外系统2 (Electro-optic and Infrared Systems 2)\n制导武器应用-控制与引导 (GW Applications - Control and Guidance)\n制导武器应用推进与空气动力学 (GW Applications Propulsion and Aerodynamics)\n制导武器控制理论 (GW Control Theory)\n制导武器推进与空气动力学理论 (GW Propulsion and Aerodynamics Theory)\n制导武器结构，气动弹性与电力供应 (GW Structures, Aeroelasticity and Power Supplies)\n制导武器系统 (GW Systems)\n制导武器弹头，炸药与材料 (GW Warheads, Explosives and Materials)\n入门及基础研究 (Introductory and Foundation Studies)\n参数研究 (Parametric Study)\n雷达电子战 (Radar Electronic Warfare)\n雷达原理 (Radar Principles)\n信号处理、统计与分析 (Signal Processing, Statistics and Analysis)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

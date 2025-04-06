@@ -1,0 +1,12 @@
+{
+  "school_name": "牛津大学",
+  "major_name": "神经科学理学硕士",
+  "ename": "MSc Neuroscience",
+  "tags": "社科,医学,牛津神经科学系",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 41250英镑/年",
+  "requirements": "具有一等或strong 2:1荣誉学位，需要科学学科背景，本系鼓励具有物理科学背景的申请者以及在本科阶段学习过生物学科（如心理学、生物化学或神经科学）的申请者申请\n对于拥有美国学士学位的申请者，满足本科水平要求的最低总体 GPA 通常是 4.0 分中的 3.5 分\n以前作为假期学生或实习生的研究经验可以带来优势；虽然该项目的申请者通常需要发表一篇或多篇出版物，但这并不是必需的\n申请者需要接受面试",
+  "objectives": "牛津大学神经科学理学硕士课程在内容上是跨学科的，在结构上是完全跨部门的，因为每年至少有九个部门或研究中心为此做出贡献。牛津大学神经科学理学硕士课程采用神经科学的综合方法，提供各种实验和理论方法的技能培训，旨在使学生能够提出和解决超越神经科学发展传统学科的问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "神经科学导论 (Introduction to Neuroscience)\n神经解剖学 (Neuroanatomy)\n突触与转导 (Synapses and Transduction)\n神经细胞与分子生物学 (Neuronal Cell and Molecular Biology)\n系统神经科学 (Systems Neuroscience)\n认知神经科学 (Cognitive Neuroscience)\n神经科学与临床心理健康 (Neuroscience and Clinical Mental Health)\n运动系统 (Motor Systems)\n计算神经科学 (Computational Neuroscience)\n感觉系统 (Sensory Systems )\n中枢神经系统的发育、可塑性与修复 (CNS Development, Plasticity and Repair)\n分子神经科学 (Molecular Neuroscience)\n基因，电路与行为 (Genes, Circuits and Behaviour)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学欧文分校",
+  "major_name": "网络系统硕士",
+  "ename": "M.S. in Networked Systems",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n入学时间: 秋季\n项目时长: 5 quarters\n项目学费: 10695美元/quarter",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

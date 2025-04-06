@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "医学可视化与人体解剖学理学硕士（格拉斯哥大学-格拉斯哥艺术学院联合开设）",
+  "ename": "Joint MSc Medical Visualisation & Human Anatomy (Glasgow-GSA)",
+  "tags": "社科,医学,医学、牙科与护理学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 32500英镑/年",
+  "requirements": "具有以下学科的荣誉学位或同等学历：\n- 生命科学、医学或生物医学科学，如解剖学、生理学、牙科或牙科技术、法医人类学、分子生物学学位和专职医疗人员\n- 计算机科学、3D可视化、计算机图形学、健康信息学、数学和物理学\n- 医学插画、3D设计、产品设计、数字媒体、数字艺术、3D建模和动画\n- 或同等的专业实践。其他学科的高素质毕业生如果能够表现出对医学可视化领域的兴趣和能力，也可能被考虑\n需要提交video statement，可选择性提交作品集",
+  "objectives": "格拉斯哥大学医学可视化与人体解剖学理学硕士项目由格拉斯哥大学和著名的格拉斯哥艺术学院联合提供，旨在解剖和检查人体解剖结构，并在实时 3D 环境中重建它，用于教育、模拟和培训。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士研究学术技能 (Academic Skills for Masters Research)\n医学可视化 (Medical Visualisation)\n解剖学简介 (Introduction to anatomy )\n人体的结构和功能 (Structure and function of the human body)\n尸体解剖技术 (Cadaveric dissection techniques)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

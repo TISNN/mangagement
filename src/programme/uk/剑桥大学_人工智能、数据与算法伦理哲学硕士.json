@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "人工智能、数据与算法伦理哲学硕士",
+  "ename": "MPhil Ethics of AI, Data and Algorithms",
+  "tags": "理科,数据科学,哲学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 10月\n项目时长: 1年\n项目学费: 37098英镑/年",
+  "requirements": "申请者应该具有英国High II.i荣誉学位或同等学历\n学校欢迎来自任何学术或学科背景的申请，包括但不限于艺术、人文、社会科学、技术科学和自然科学\n需要提交2篇Sample of work（每篇2500-5000字）以及1篇Research proposal（不超过500字）",
+  "objectives": "剑桥大学人工智能、数据与算法伦理哲学硕士项目旨在让学生掌握技能和知识，以便为人工智能、数据和算法及其伦理和社会影响的跨学科研究做出批判性和建设性的贡献。它向来自不同背景的学生介绍来自一系列学科的相关研究技能和专业知识，并为他们提供在大学领域专家的密切监督下开展重点研究的机会。\n在课程结束时，学生将获得：\n更深入地了解人工智能、数据和算法的历史、哲学和理论\n了解当前和未来数字技术的能力及其与更广泛社会的关系\n批判性地看待人工智能、数据和算法的应用所带来的伦理挑战，以及它们如何融入更广泛的社会并与之互动\n概念理解和分析工具，用于评估和促进对人工智能、数据和算法的性质、影响和治理的研究",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能、数据和算法的伦理 (the Ethics of AI, Data and Algorithms)\n可解释人工智能的技术和哲学方法 (Technical and Philosophical Approaches to Explainable AI)\n机器会受苦吗？ (Can Machines Suffer?)\n算法偏见的伦理和政治 (The Ethics and Politics of Algorithmic Bias)\n科学种族主义：过去和未来 (Scientific Racism: Past and Future)\n人工智能伦理与话语的跨文化比较 (Cross-cultural Comparison of the Ethics and Discourse of AI)\n欧盟人工智能法案的影响和实施 (The implications and Implementation of the EU AI Act)\n超级智能：它会发生吗？这意味着什么？ (Superintelligence: Will It happen and What Would It Mean?)\n价值敏感设计和关键设计理论 (Value-sensitive Design & Critical Design Theory)\n自主武器与国际法 (Autonomous Weapons and International Law)\n医疗保健中数据和人工智能的伦理挑战 (Ethical Challenges of Data & AI in Healthcare)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "高级微电子系统工程理学硕士",
+  "ename": "MSc Advanced Microelectronic Systems Engineering",
+  "tags": "工科,电气电子,计算机科学、电气与电子工程和工程数学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 35800英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要电气与电子工程、计算机系统工程、或工程相关学科背景，申请者的学位必须包括以下4门课程且成绩达到60%或同等分水平：信号与系统、模拟电子学、数字电子学、编程，如果申请者没有学习过任何信号与系统或编程课程，则可以考虑用数字信号处理（DSP）、微处理器和嵌入式系统、现场可编程门阵列（FPGA）或计算机体系结构课程来代替，具备计算机科学、软件工程、材料科学、材料科学与工程、材料化学、材料工程、地球物理学、物理学、电气工程与自动化、电力电子以及自动化与控制等工程方面背景的申请者不适合申请该课程\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们至少具备以下其中一项：\n- 在电子工程师、电子设计工程师或研究工程师等相关部门有重大、相关的带薪或自愿工作证据（至少一年全职或同等兼职）；\n- 相关研究生学历\n如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关工作经验和/或资格",
+  "objectives": "布里斯托大学高级微电子系统工程理学硕士项目涵盖了微电子产业职业发展所需的不同学科，适合拥有至少工程学科相关二等上学士学位（或国际同等学位），有数字逻辑、计算机架构、数字和模拟晶体管级电路和编程基础的本科生。在接受更专业领域（如：数字和模拟专用集成电路设计、集成传感器、执行器和混合信号设计）的教育前，学生主要学习项目中的核心课题，如：使用FPGA和DSP平台的高等架构和系统设计。同时，项目中的课程也会根据重要新兴学科（如生物应用和神经形态计算中的电子）的进展而做出定期调整。该项目将为学生提供接触微/纳米电子和计算机科学领域专家的机会，使学生能够在完成项目后直接就业或继续进行博士学位的学习；同时也会为学生提供广泛当代设计技能，以补充理论知识。项目中的实验室练习则以尖端产业电子设计自动化软件为工具，为学生提供专业环境，弥补课堂教学的缺漏。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "集成电路电子 (Integrated Circuit Electronics)\n嵌入式和实时系统 (Embedded and Real-Time Systems)\n工程研究技能 (Engineering Research Skills)\nVLSI设计 (M) (VLSI Design M)\n先进的DSP和FPGA实现 (Advanced DSP & FPGA Implementation)\n模拟集成电路设计 (Analogue Integrated Circuit Design)\n射频工程（中） (Radio Frequency Engineering (M))\n诊断和监控传感技术 (Sensing Technologies for Diagnostics and Monitoring)\n研究项目 (Research Project)\n先进的计算机架构 (Advanced Computer Architecture)\n设计验证 (Design Verification)\n光电器件和系统（M） (Optoelectronic Devices and Systems (M))\n高性能计算导论 (An Introduction to High Performance Computing)\n计算神经科学 (Computational Neuroscience)\n生物启发的人工智能 (Bio-Inspired Artificial Intelligence)",
+  "success_cases": ""
+}

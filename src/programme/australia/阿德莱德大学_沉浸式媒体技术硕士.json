@@ -1,0 +1,12 @@
+{
+  "school_name": "阿德莱德大学",
+  "major_name": "沉浸式媒体技术硕士",
+  "ename": "Master of Immersive Media Technologies",
+  "tags": "社科,新媒体,艺术、商业、法律与经济学院",
+  "introduction": "专业方向: 新媒体\n入学时间: 2月\n项目时长: 2年\n项目学费: 45500澳元/年",
+  "requirements": "2年制：具有学士学位或同等学历；或沉浸式媒体技术研究生证书；或沉浸式媒体技术研究生文凭 1.5年制： - 本科相关背景：沉浸式媒体、3D设计、虚拟现实技术 - 需要在学分相关申请部分勾选“是” - 只需将成绩单上传到申请系统，课程大纲或科目教学大纲将不被要求",
+  "objectives": "互动媒体（如虚拟现实、混合现实和增强现实（VR、MR和AR））正在改变世界传递和消费娱乐与学习内容的方式。由于该领域训练有素的专业人员供不应求，阿德莱德大学沉浸式媒体技术硕士专业将使毕业生在全球职场占得先机。作为一个融合理论和高级实践技能开发和研究的跨学科学位，阿德莱德大学沉浸式媒体技术硕士适合希望提升技能的互动媒体专业本科毕业生，或寻求改变研究方向的其他专业毕业生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "互动媒体商业 (Immersive Media Business)\n互动媒体设计 (Immersive Media Design)\n互动媒体发展 (Immersive Media Development)\n互动资产生成 (Immersive Asset Generation)\n传媒硕士研究方法 (Media Masters Research Methods)\n研究设计 (Research Design)\n研究交流 (Research Communication)\n传媒硕士核心课程 (Media Master Core)\n计算机科学基础 (Foundations of Computer Science)\n数字化创业 (Digital Entrepreneurship)\n科技电子挑战 (Tech eChallenge)",
+  "success_cases": ""
+}

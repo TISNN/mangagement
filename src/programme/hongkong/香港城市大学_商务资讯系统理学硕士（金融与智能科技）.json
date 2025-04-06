@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "商务资讯系统理学硕士（金融与智能科技）",
+  "ename": "MSc Business Information Systems (Financial and Intelligent Technology Stream)",
+  "tags": "商科,信息系统,商学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 276000港币/年",
+  "requirements": "具有认可的学士学位或同等学历，并具备中级水平的资讯科技/资讯系统或财务/会计知识（例如完成本科阶段的基础相关课程或具备相关工作经验）",
+  "objectives": "香港城市大学商务资讯系统（金融与智能科技）硕士课程旨在培养以金融技术为最知名和最具代表性的应用智能商业技术领域的学生。金融和智能技术具有彻底改变传统商业运作的潜力，并带来更多创新的产品、解决方案和流程，为商业和社会创造价值，特别是各行业的金融技术和金融行业使用的技术。金融和智能技术流专注于发展他们将智能技术与业务，特别是与金融领域知识相结合的能力。通过这样做，毕业生可以在他们的专业业务领域的管理、技术或创新架构职位中脱颖而出，尤其是金融行业。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业数据分析 (Business Data Analytics)\n公司财务 (Corporate Finance)\n财务与管理会计 (Financial and Management Accounting)\n信息系统基础建设和安全管理 (Information Systems Infrastructure and Security Management)\n支援管理和商业智能系统 (Management Support and Business Intelligence Systems)\n项目管理与质量保证 (Project Management and Quality assurance)\n使用Python进行分析编程 (Analytical Programming with Python)\n大数据与社交媒体分析 (Big Data & Social Media Analytics)\n区块链技术与商业应用 (Blockchain Technology and Business Applications)\n商业实践实习 (Business Practice Internship)\n人机交互与多媒体 (Human-Computer Interaction and Multimedia)\n创新与科技创业 (Innovation and Technology Entrepreneurship)\n投资 (Investment)\n资讯科技领导力论坛 (Information Technology Leadership Forum)\n金融科技概论 (Introduction to Financial Technologies)",
+  "success_cases": ""
+}

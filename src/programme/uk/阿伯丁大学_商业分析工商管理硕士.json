@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "商业分析工商管理硕士",
+  "ename": "MBA (Business Analytics)",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "不限专业背景，不需要在本科阶段完成商业或管理学习\n该专业适合具备至少2年毕业后工作经验、职业成就记录以及任意学科背景的良好第一学位（相当于英国二等荣誉学位）的申请者\n课程主任可能会考虑具有非标准资格的申请者，如果申请者具有非标准资格和丰富的工作经验，需要附上一份完整的简历和详细的工作推荐信",
+  "objectives": "阿伯丁大学商业分析工商管理硕士课程是为那些希望应用分析和数据驱动决策来优化业务表现的专业人士设计的。它提供了领导和认可当代商业知识和技能的机会，这些知识和技能可以让学生在职业发展、就业能力和收入潜力方面达到卓越的水平。阿伯丁大学商业分析工商管理硕士课程将使学生具备技术技能和商业敏锐度，以理解数字和分析驱动经济中的现代问题和实践。学生将发展实际的人际交往技巧，为组织和市场带来积极的变化，探索和学习现代管理工具，大数据，数据库，数字化，人工智能，机器学习，关键软件(如，R, Python, SQL)和分析，掌握在商业运营的背景下成为有效领导者所需的专业知识和能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业经济学 (Business Economics)\n管理者会计与财务 (Accounting and Finance for Managers)\n商业策略 (Business Strategy)\n运营与项目管理 (Operations and Project Management)\n战略营销 (Strategic Marketing)\n管理工作人员 (Managing People at Work)\n领导力挑战 (The Leadership Challenge)\n变革管理 (Managing Change)\n大数据分析、可视化与商业应用 (Big Data Analytics, Visualisation and Business Applications)\n数据、证据与管理决策 (Data, Evidence and Managerial Decisions)\n人工智能，机器学习与预测 (Artificial Intelligence, Machine Learning and Forecasting)\n大数据数据库与网络安全 (Databases and Cybersecurity for Big Data)",
+  "success_cases": ""
+}

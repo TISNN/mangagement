@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "跨学科生物医学研究理学硕士",
+  "ename": "MSc Interdisciplinary Biomedical Research",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 35340英镑/年",
+  "requirements": "具有第一学位（2:1）或同等学历，需要物理科学（化学、数学、物理学、统计学或工程学）或生命科学（生物学、生物化学、生物医学科学）背景\n强烈建议达到数学A-Level或同等水平",
+  "objectives": "华威大学跨学科生物医学研究理学硕士是一个以学生经验为中心的充满活力和包容性的科学社区，无论是在学术界还是在工业界，本项目的目标是为你的下一个职业阶段做好准备。课程旨为学生提供生命科学和物理科学方面的知识和技能，让他们准备好获得博士学位的知识。华威大学的多学科精神不仅体现在物理生物学、统计学、成像、编程和建模的大量模块选择上，还体现在细胞动力学、微生物学和感染或应用医学技术的大师课程上。在这一年里，学生将有机会在两个不同的学科进行两个为期12周的研究项目，为未来的职业生涯做准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "跨学科生物医学研究的研究主题 (Research Topics in Interdisciplinary Biomedical Research)\n细胞的物理生物学 (Physical Biology of the Cell)\n生物医学前沿技术与研究技能 (Frontier Techniques and Research Skills in Biomedicine)\n华威跨学科可转移技能 (Warwick Interdisciplinary Transferable Skills)\n实验室项目1和2 (Laboratory Project 1 and 2)\n显微成像 (Microscopy and Imaging)\n计算建模 (Computational Modelling)\n分子模拟 (Molecular Modelling)\n分析科学原理与技术 (Principles and Techniques in Analytical Science)\n数据分析统计 (Statistics for Data Analysis)\n系统生物学的定量技能 (Quantitative Skills for System Biology)\n分子生物学：原理与技术 (Molecular Biology: Principles and Techniques)\n分子分析科学前沿仪器技术 (Frontier Instrumental Techniques for Molecular Analytical Science)",
+  "success_cases": ""
+}

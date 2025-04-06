@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "地理空间与测绘科学理学硕士",
+  "ename": "MSc Geospatial & Mapping Sciences",
+  "tags": "工科,地球科学,地理和地球科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1非英国大学的荣誉学位（或非英国同等学历）或2:2英国大学的荣誉学位，包括建筑测量、工料测量、建筑、规划、任何工程学科、计算科学、地球科学或工程、环境科学或工程、地理、地质、数学、物理背景。学校接受非英国大学的2:2荣誉学位，包括大地测量工程/科学，地理工程（主要是西班牙/南美）、地理信息系统/科学、地理空间科学/工程、土地测量、土地与地籍测量、测绘科学、测绘科学、测量科学/工程、地形科学/测量专业背景\n具有地理信息学或密切相关学科学位的申请者，或符合皇家特许测量师学会年龄和经验标准的申请者，可以将该课程作为获得专业资格的途径或为研究学位做准备，并且在特殊情况下可以豁免该课程的某些方面",
+  "objectives": "格拉斯哥大学地理空间与测绘科学理学硕士侧重于理解地理空间数据收集和管理的理论和实践。涵盖的主题包括土地、工程和水文测量、数据和地理空间信息质量。本课程以地理信息学领域的研究和最新发展为基础，具有很强的实用性。地理空间技能的关键应用支持可持续发展，包括测量土地和资产位置（例如运输路线、电缆位置、森林）、监测沉降和海平面变化、使用激光扫描记录遗产，以及建立和管理一个国家的坐标系/地图。该项目得到了英国皇家特许测量师学会和英国特许土木工程测量师学会的大力认可。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "测绘学基础（综合） (Fundamentals of geomatics (combined) )\n土地测量原理与实践 (Principles and practice of land surveying)\n地理信息系统原理 (Principles of gis )\n地形测绘与景观监测 (Topographic mapping and landscape monitoring )\n应用土地测量 (Applied land surveying )\n工程测量 (Engineering survey )\n全球导航卫星系统与大地测量学 (Gnss & geodesy )\n水文测量 (Hydrographic survey )\n测绘学研究与专业问题 (Research & professional issues in geomatics )",
+  "success_cases": ""
+}

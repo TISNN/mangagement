@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "定量金融理学硕士",
+  "ename": "MSc Quantitative Finance",
+  "tags": "商科,金工金数,理学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 8月\n项目时长: 1年\n项目学费: 55590新币/年",
+  "requirements": "具有荣誉学位（或4年制学士学位），需要数学、统计学、经济学、金融学、计算机科学、工程学、物理科学背景，或具备同等学历，包含强大的数学背景\n需要提交存款证明45,000新币",
+  "objectives": "新加坡国立大学定量金融理学硕士学位课程由新加坡国立大学数学系，与经济系和统计与应用概率系合作开设的项目。该项目适合具备数学专业背景、想要通过研究生阶段的学习强化自身定量金融分析能力和职业技能的学生。随着金融市场变得更加复杂，需要更高层次的数学知识来更好地理解和分析金融模型和产品并降低风险。在过去的三十年里，定量金融已经发展成为一个活跃而成熟的数学分支。新加坡国立大学定量金融理学硕士学位课程的目标是为基于高级课程的量化金融提供培训。该计划的毕业生有望获得定量金融方面的高级知识，这将使他们能够满足金融部门对具有深入定量金融知识的专业人士日益增长的需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "结构化产品 (Structured Products)\n风险管理 (Risk Management)\n金融衍生品：建模与计算 (Financial Derivatives: Modelling and Computation)\n金融时间序列：理论与计算 (Financial Time Series: Theory and Computation)\n定量金融概论 (Introduction to Quantitative Finance)\n机器学习基础 (Foundations of Machine Learning)\n定量金融中的数据科学 (Data Science in Quantitative Finance)\n建模与数值模拟 (Modeling and Numerical Simulations)\n计算数学 (Computational Mathematics)\n利率理论与信用风险 (Interest Rate Theory and Credit Risk)\n定量金融中的数值方法 (Numerical Methods in Quantitative Finance)\n数量金融专题 I (Topics in Quantitative Finance I)\n定量金融专题 II (Topics in Quantitative Finance II)\n投资与组合选择 (Investment and Portfolio Selection)\n人工智能与金融科技 (AI and FinTech)\n定量金融中的蒙特卡罗方法 (Monte Carlo Methods in Quantitative Finance)\n财务管理 (Financial Management)\n定量金融中的数据工程 (Data Engineering for Quantitative Finance)\n定量金融毕业实习 I (Graduate Internship in Quantitative Finance I)\n宏观经济学 (Macroeconomics)\n定量与计算方法 (Quantitative & Computing Methods)\n机器学习与经济预测 (Machine Learning and Economic Forecasting)\n公司金融 (Corporate Finance)\n非参数回归 (Nonparametric Regression)\n应用统计学习 (Applied Statistical Learning)",
+  "success_cases": ""
+}

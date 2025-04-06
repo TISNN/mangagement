@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "数字营销理学硕士",
+  "ename": "MSc Digital Marketing",
+  "tags": "商科,市场营销,商学院",
+  "introduction": "专业方向: 市场营销\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位，需要商业、管理、市场营销或包含一些市场营销课程的学位学科背景\n学校不接受以下学科背景：\n- 语言研究——不接受专注于学习一门语言或如何翻译的学位，例如“商务英语”、“应用英语”或“翻译”，这一限制不适用于在英国授课的“英语”和“英国文学”学位；\n- 艺术/设计/职业研究——专注于学习一种特定形式的艺术、工艺或职业的学位，这些包括艺术、平面设计、摄影、电视广播、剧本写作或表演/舞蹈学位。\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学数字营销理学硕士项目培养学生从事数字营销职业所需的技能。学者将研究与专家知识相结合，将该领域的最新发展纳入学生学习。学生将做好进入这个行业的准备，具备最需要的技能。本课程十分适合商学、经济学、管理学或市场营销专业并且想专攻数字营销领域的学生。这是一门实践数字营销课程，包括真实的商业营销项目和模拟咨询练习。学生将在互动环境中学习概念、讨论趋势和分析技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "世纪市场营销 (Marketing in the 21st Century)\n营销传播和媒体管理 (Marketing Communications and Media Management)\n消费者洞察力构建 (Building Customer Insight)\n数字时代零售业 (Retailing in the Digital Age)\n网站应用 (Web Applications)\n网站分析 (Web Analytics)\n研究项目设计和管理 (Designing and Managing Research Projects)\n高级数字化营销 (Advanced Digital Communications)\n营销设计思考 (Design Thinking in Marketing)\n论文 (Dissertation)",
+  "success_cases": ""
+}

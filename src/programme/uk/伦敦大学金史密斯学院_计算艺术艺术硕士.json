@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学金史密斯学院",
+  "major_name": "计算艺术艺术硕士",
+  "ename": "MFA Computational Arts",
+  "tags": "社科,艺术,计算机系",
+  "introduction": "专业方向: 艺术\n入学时间: 9月\n项目时长: 2年\n项目学费: 20000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要创意/艺术背景，无需技术、编程及数学背景，需提交作品集（作为DVD或指向相关网页的URL提供）\n如果申请者不是毕业生或学位属于不相关的领域，但具有相关经验并能证明有能力在研究生阶段工作，也可能会被学校考虑",
+  "objectives": "伦敦大学金史密斯学院计算艺术艺术硕士通过创造性计算的表达世界发展学生的艺术实践。在两年（全日制）的时间里，学生将通过开发一系列公共展览项目的挑战来发展学生的艺术作品和思维，这些项目将探索计算的技术和文化影响。MFA项目的第一年与MA学习相同的课程，在第二年里，学生将选修额外的课程，帮助学生进一步发展自己的艺术实践。这些课程意味着学生有一个在导师指导下工作的空间。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "基于计算艺术的研究与理论 (Computational Arts-based Research and Theory)\n创意编码研讨会 (Workshops in Creative Coding)\n计算艺术最终项目 (Final Project in Computational Arts)\n艺术家和设计师编程 (Programming for Artists and Designers)\n计算形式和过程 (Computational Form and Process)\n先进的视听处理 (Advanced Audio-visual Processing)\n物理计算 (Physical Computing)\n用于艺术实践的数据和机器学习 (Data and Machine Learning for Artistic Practice)\n玩法：力学动态，美学 (Approaches to Play: Mechanics Dynamic, Aesthetics)\n3D虚拟环境和动画 (3D Virtual Environments and Animation)\n计算艺术评论学 (Computational Arts Critical Studies)\n工作室实践-计算艺术 (Studio Practice - Computational Arts)",
+  "success_cases": ""
+}

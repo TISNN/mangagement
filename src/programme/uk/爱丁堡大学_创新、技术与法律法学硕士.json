@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "创新、技术与法律法学硕士",
+  "ename": "LLM Innovation, Technology and the Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要法律背景\n学校也可能考虑具有社会科学学科英国2:1荣誉学位或同等学历的申请者\n在评估申请时可能会更加重视与申请专业相关的先前课程学习成绩\n相关的工作经验不是必需的但可能有助于申请\n相关专业资格将会被考虑",
+  "objectives": "爱丁堡大学创新、技术与法律法学硕士项目主要探讨法律在回应、调节和促进新兴技术方面的作用，同时也强调技术对法律和司法的反作用，旨在帮助学生全面理解与把握法律、技术、商业和社会之间的关系。课程重点为创新、技术与法律的国际性质，教授学生以比较分析的方式审视当前法律发展动态。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "信息技术法 (Information Technology Law)\n法证计算与电子证据 (Forensic Computing and Electronic Evidence)\n通讯法 (Communications Law)\n电子商务法 (Electronic Commerce Law)\n自治系统调节：机器人学定律 (Regulation of Autonomous Systems: The Law of Robotics)\n国际及欧洲媒体法 (International and European Media Law)\n欧盟数据保护法 (EU Data Protection Law)\n知识产权法：工业产权 (Intellectual Property Law: Industrial Property)\n知识产权法：版权与邻接权 (Intellectual Property Law: Copyright and Related Rights)\n管理知识产权的法律方面 (Legal Aspects of Managing Intellectual Property)\n生物技术、生物伦理与社会 (Biotechnology, Bioethics and Society)\n法律与医学伦理学基础 (The Fundamentals of Law and Medical Ethics)\n全球健康：法律与政策 (Global Health : Law and Policy)\n创新医学治理 (Governance of Innovative Medicine)\n生物伦理学基础 (Fundamentals in Bioethics)",
+  "success_cases": ""
+}

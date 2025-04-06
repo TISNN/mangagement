@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "生物医学科学理学硕士",
+  "ename": "MSc Biomedical Sciences",
+  "tags": "工科,生物工程,分子生物科学学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 31800英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要生物学、微生物学、生物技术、生物化学、生理学、纳米技术、遗传学、生物医学科学、分子生物学、免疫学或神经科学学科背景；学校也接受化学、动物学、护理学、兽医学、药学、生物医学工程或生物教育学位",
+  "objectives": "生物医学科学对于疾病的临床诊断和患者的适当治疗至关重要，对NHS和相关健康行业的运营至关重要。格拉斯哥大学生物医学科学理学硕士项目为打算从事生物医学科学职业的学生提供研究培训，直接担任生物医学科学家或者获得博士学位。对于希望在英国、欧洲或美国攻读博士学位的海外学生来说，这是一个理想的入门课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "疾病分子遗传学 (Molecular genetics of Disease)\n生物医学中的高级技能 (Higher Skills in Biomedical Sciences)\n研究项目设计 (Designing a research project)\n实验室研究项目 (Laboratory research project)\n生物成像研究 (Bio-imaging for Researchers)\n药物开发与临床试验 (Drug development and clinical trials)\n药物研发 (Drug discovery)\n新兴病毒 (Emerging viruses)\n癌症科学前沿 (Frontiers in cancer sciences)\n针对生物学家的Matlab简介 (Introduction to Matlab for biologists)\n神经科学：体内模型 (Neuroscience: in vivo models)",
+  "success_cases": ""
+}

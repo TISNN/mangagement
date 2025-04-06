@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "应用翻译研究文学硕士",
+  "ename": "MA Applied Translation Studies",
+  "tags": "社科,语言,政治、哲学、语言与传播研究学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 22700英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历，不限专业背景，需要精通第二语言",
+  "objectives": "翻译行业发展飞速，这意味着对全球合格翻译人员的需求也在逐步增长。东安格利亚大学应用翻译研究文学硕士项目能为学生提供大量实战机会，以期帮助学生熟练应用翻译理论，丰富学生的实践经验，为日后的翻译事业打下坚实基础。参与项目的学生可与专业译者交流，组建个人文本；与知名专家一道参与团队项目，获得前沿的翻译技术工具培训。此外，学生还将还将获得诸多实用技能，对后续研究有很大帮助。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学术与研究技能（一年期） (Academic and Research Skills - Year Long)\n译者的技术工具 (Technological Tools for Translators)\n翻译与理论 (Translation and Theory)\n语境中的翻译 (Translation in Context)\n硕士学位论文（语言与传播学） (MA Dissertation Language And Communication Studies )\n法律语言学与翻译 (Forensic Linguistics and Translation)\n跨文化交际实践 (Intercultural Communication in Practice)\n全球多语种环境中的语言问题 (Language Issues in A Global Multilingual Context)\n职业翻译 (Translation as a Profession)\n翻译工作经验 (Translation Work Experience)",
+  "success_cases": ""
+}

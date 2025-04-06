@@ -1,0 +1,12 @@
+{
+  "school_name": "华盛顿大学",
+  "major_name": "生物工程理学硕士",
+  "ename": "MS in Bioengineering",
+  "tags": "工科,生物工程",
+  "introduction": "专业方向: 生物工程\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2年\n项目学费: 31,530美元/年",
+  "requirements": "GPA3.0；具有强大的研究技能（有至少一年干湿实验室经验者优先）；生物工程、化学工程、化学、物理学、生物学、计算机科学、电气工程和相关学科学位；建议学习或接触过以下课程\n代数、线性代数、三角学；常微分方程；信号分析；概率论与统计学；编程；电气工程和物理；化学（无机、有机、生物化学）；材料科学；费率过程和数学；细胞生物学",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

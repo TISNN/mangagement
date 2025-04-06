@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "商业管理理学硕士",
+  "ename": "MSc Business Management",
+  "tags": "商科,管理,诺维奇商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 24300英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历，不限专业背景（但主要针对以前没有学习过商业相关学位/本科学位商业知识有限/具有普通商科学位现在想要专攻该领域的学生）",
+  "objectives": "东安格利亚大学商业管理理学硕士学位课程为学生在一般管理职责方面奠定基础，使学生成功开展有效管理的职业生涯。\n在东安格利亚大学商业管理理学硕士学位课程的学习中，学生了解与管理实践相关的理论、概念及方法，掌握智力技能、实践技能、分析工具及视野，以便为管理决策打下良好的基础。\n东安格利亚大学商业管理理学硕士学位课程面向未曾专门学习过管理或者在非英国的国家学习该学科的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计和财务管理 (Accounting and Financial Management)\n人力和组织管理 (Managing People and Organisations)\n市场营销和战略：市场、竞争对手和客户 (Marketing and Strategy: Markets,Competitors and Customers)\n管理技能和个人发展 (Management Skills and Personal Development)\n职业生涯规划管理 (Career Management)\n电子商务管理 (E-Business Management)\n企业和中小企业管理 (Entrepreneurship and Small Business Management)\n全球管理 (Managing Across the Globe)\n组织学习和知识管理 (Organisational Learning and Knowledge Management)\n零售营销和管理 (Retail Marketing and Management)\n商业领导力和变革管理 (Business Leadership and Change Management)\n整合商务决策 (Integrated Business Decisions)",
+  "success_cases": ""
+}

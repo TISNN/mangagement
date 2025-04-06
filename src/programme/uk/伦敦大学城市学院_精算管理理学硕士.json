@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "精算管理理学硕士",
+  "ename": "MSc Actuarial Management",
+  "tags": "商科,金工金数,贝叶斯商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 26000英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要相关学科背景\n应该涵盖英国精算师协会（或其他专业团体的同等机构）的核心原理科目的大部分材料并达到大学学位或专业水平\n未通过（或预计无法在开课日期前通过）英国精算师协会（或其他专业团体的同等机构）的大部分核心原理科目的申请者应申请MSc Actuarial Science\n本课程不要求具备工作经验",
+  "objectives": "伦敦大学城市学院精算管理理学硕士课程由英国精算师协会和学院完全认可，引导学生探索研究精算实践的关键领域",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "精算实务第1部分 (Actuarial Practice - Part I)\n战略管理与营销 (Strategic Management and Marketing)\n精算专业人员研究方法 (Research Methods for Actuarial Professionals)\n人寿保险 (Life Insurance)\n退休金及其他福利 (Pensions and other benefits)\n一般保险：储备与资本建模 (General Insurance: Reserving and Capital Modelling)\n财务与财务报告 (Finance and Financial Reporting)\n商业经济学 (Business Economics)\n精算实务第2部分 (Actuarial Practice - Part II)\n医疗保健 (Health and Care)\n金融与投资 (Finance and Investment)\n一般保险：定价 (General Insurance: Pricing)\n建模实践 (Modelling Practice)\n金融经济学 (Financial Economics)\n保险风险模型 (Insurance Risk Modelling)",
+  "success_cases": ""
+}

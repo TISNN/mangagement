@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "智能建筑物技术与管理理学硕士",
+  "ename": "MSc Intelligent Building Technology and Management",
+  "tags": "社科,建筑,工程学院",
+  "introduction": "专业方向: 建筑\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 188300港币/年",
+  "requirements": "具有学士学位或同等学历并且达到二等荣誉学位，需要机械工程、土木工程、电气工程、建筑设备工程、建筑科学、物理科学或相关领域背景",
+  "objectives": "香港科技大学智能建筑物技术与管理硕士课程有助于提高在现代大都市（如香港和中国大陆主要城市）从事智能建筑项目的专业人员的知识和能力。它的目的是为当今城市建筑环境的可持续发展作出贡献。\n香港科技大学智能建筑物技术与管理硕士专业是为建筑服务行业的专业人士设计的，包括机械工程师、电气工程师、建筑服务工程师、土木工程师、建筑师和其他希望在智能建筑设计、运营和设施管理方面进行全面学习的专业人士。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "智能建筑物设施管理 (Intelligent Building Facility Management)\n智能建筑物系统 (Intelligent Building System)\n先进通风供暖及空调系统 (Advanced HVAC Systems)\n先进能源转换系统 (Advanced Energy Conversion Systems)\n建筑声学与音频系统 (Architectural Acoustics and Audio Systems)\n建筑物环境设计的计算方法 (Computational Methods in Building Environment Design)\n建筑物的能源管理 (Energy Management in Buildings)\n室内空气质量技术和管理 (Indoor Air Quality Technology and Management)\n室内环境的物料 (Materials in Built Environment)\n建筑物的职业安全卫生领域 (Occupational Safety and Health Issues in Buildings)\n智能建筑物的风险管理和决策 (Risk Management and Decision-Making in Intelligent Building)\n智能建筑物系统财务评审 (Financial Assessment of Intelligent Building Systems)\n智能建筑物电机设施 (Electrical Facilities in Intelligent Buildings)\n智能建筑物系统专题课 (Special Topics in Intelligent Building Systems)\n独立研究 (Independent Study)",
+  "success_cases": ""
+}

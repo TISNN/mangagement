@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "工程与教育理学硕士",
+  "ename": "MSc Engineering and Education",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 29800英镑/年",
+  "requirements": "具有英国大学颁发的二等学士学位或同等学历，由于该硕士课程的学术内容要求很高，学校特别寻找具有相关学术背景和/或能够证明作为工程师、工程教师和/或工程教育政策制定者的丰富相关经验的申请者",
+  "objectives": "伦敦大学学院工程与教育理学硕士项目着重探讨如何开发创新策略优化工程教育，旨在培养工程部门工程师或工程政策领域领头人，将帮助学生掌握必备知识与技能，从而能够引领变革并带领团队提升工业界的工程表现、提高高等院校的工程教育质量并改善工程教育相关政策。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程与教育：实践，创新与领导 (Engineering and Education: Practice, Innovation and Leadership)\n工程学与教：观点与问题 (Engineering Learning and Teaching: Perspectives and Issues)\n职业与专长：理论与观点 (Professionalism and Expertise: theories and perspectives)\n专业咨询 (Professional Enquiry)\n国际环境及组织中的学习和工作 (Learning and working in international contexts and organisations)\n实践中的科学技术与工程建议 (Science、Technology and Engineering Advice in Practice)\n政策沟通科学 (Communicating Science for Policy)\n能源、技术与气候政策 (Energy、Technology and Climate Policy)\n能源系统与可持续性 (Energy Systems and Sustainability)\n编程导论 (Introduction to Programming)",
+  "success_cases": ""
+}

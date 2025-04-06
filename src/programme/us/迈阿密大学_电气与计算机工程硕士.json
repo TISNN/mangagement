@@ -1,0 +1,12 @@
+{
+  "school_name": "迈阿密大学",
+  "major_name": "电气与计算机工程硕士",
+  "ename": "MS in Electrical and Computer Engineering",
+  "tags": "工科,电气电子",
+  "introduction": "专业方向: 电气电子\n项目类别: STEM\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 19,530美元/学期",
+  "requirements": "GPA 3.0；通常需要工程学士学位，如没有工程学位，则需参与其先修课程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

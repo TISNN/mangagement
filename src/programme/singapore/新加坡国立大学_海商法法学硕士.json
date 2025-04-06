@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "海商法法学硕士",
+  "ename": "LLM (Maritime Law)",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 8月\n项目时长: 1年\n项目学费: 41300新币/年",
+  "requirements": "具有良好的法学学士学位",
+  "objectives": "新加坡国立大学海商法法学硕士（海商法方向）课程由新加坡国立大学法学院提供。该专业使学生能够获得与商业航运、海上保险、航运监管和海洋政策相关的法律事务的专业知识。这些知识对新加坡（鉴于其作为全球港口的地位）以及该地区都非常重要。希望专攻海商法的学生必须完成至少24门海商法学科组模块，包括必修模块海上货物运输（5个模块学分）和租船合同（5个模块学分）。来自非普通法司法管辖区的学生必须在第一学期学习新加坡普通法合同。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "租船合同 (Charterparties )\n海上货物运输 (Carriage of Goods by Sea)\n国际和比较石油和天然气法 (International and Comparative Oil and Gas Law)\n国际商务仲裁 (International Commercial Arbitration )\n海商法 (Maritime Law )\n多式联运法 (Multimodal Transport Law )\n亚洲海洋法与政策 (Ocean Law & Policy in Asia )\n海事法与实践 (Admiralty Law & Practice)\n海事法律冲突 (Maritime Conflict of Laws )\n海上保险法 (Law of Marine Insurance )\n航运国际法规 (International Regulation of Shipping)\n国内外货物买卖 (Domestic & International Sale of Goods )",
+  "success_cases": ""
+}

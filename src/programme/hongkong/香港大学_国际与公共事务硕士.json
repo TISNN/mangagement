@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "国际与公共事务硕士",
+  "ename": "Master of International and Public Affairs",
+  "tags": "社科,国际关系,社会科学学院",
+  "introduction": "专业方向: 国际关系\n入学时间: 9月\n项目时长: 1年\n项目学费: 250000港币/年",
+  "requirements": "具有学士学位或同等学历，最好在国际事务、政治、公共管理、商业、法律、新闻/传播方面受过培训或具备相关专业经验",
+  "objectives": "香港大学国际与公共事务硕士项目是一项授课型硕士课程，着眼于亚太地区的国际事务。该课程与中国内地、北美和欧洲地区的院校建立了广泛深入的合作伙伴关系。不仅适合处在职业生涯中期的国际公共事务领域专业人士修读，也适合未来想要从事国际公共事务相关工作的大学毕业生修读。为适应全球化带来的挑战，香港大学国际与公共事务课程致力于使学生深入理解全球和亚太国际事务的概念性知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际政治经济学 (International political economy)\n亚太地区国际关系 (International relations in the Asia-Pacific)\n理解全球问题：理论与实践 (Understanding global problems: Theory and practice)\n日本外交与安全政策 (Japanese Foreign and Security Policy)\n战争与策略 (War and strategy)\n国际关系理论 (Theories of international relations)\n国际组织 (International organization)\n中国外交政策 (Chinese foreign policy)\n政治与主权风险评估 (Political and Sovereign Risk Assessment)\n中国的海上争端专题研究 (On China's maritime disputes)",
+  "success_cases": ""
+}

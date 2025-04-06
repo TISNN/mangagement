@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "银行与金融理学硕士（可跨申）",
+  "ename": "MSc Banking and Finance (Conversion)",
+  "tags": "商科,金融,经济与金融学院",
+  "introduction": "专业方向: 金融\n入学时间: 1月\n项目时长: 1年\n项目学费: 31850英镑/年",
+  "requirements": "具有本科2:2学位或以上学历，不限专业背景",
+  "objectives": "伦敦大学玛丽皇后学院银行与金融理学硕士（可跨申）项目特别商业银行和投资银行业务，尤其是银行监管和风险管理。该项目会学习到广泛的选修模块以及编程语言。旨在培养对国际金融体系及其在不断发展的监管制度下的相关风险的理解。成功完成本课程后，学生应能够批判性地理解、评估和质疑银行和非银行金融机构的运营、存款创造过程、利率期限结构、可贷资金的供求以及中央银行的作用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业和投资银行 (Commercial and Investment Banking)\n投资管理 (Investment Management)\n银行风险管理 (Risk Management for Banking)\n应用公司金融 (Applied Corporate Finance)\n论文 (Dissertation)\nExcel中的财务建模 (Financial Modelling in Excel)\n实用估值 (Practical Valuation)\n金融数学和统计学 (Mathematics and Statistics for Finance)\n金融衍生品 (Financial Derivatives)\n资产管理 (Asset Management)\n会计原理 (Principles of Accounting)\n债券市场策略 (Bond Market Strategies)\n并购 (Mergers and Acquisitions)\n房地产金融 (Real Estate Finance)\n实证金融 (Empirical Finance)\n估值的其他主题 (Further Topics in Valuation)\n监管中国金融体系 (Regulating the Chinese Financial System)\n金融中的统计机器学习 (Statistical Machine Learning in Finance)",
+  "success_cases": ""
+}

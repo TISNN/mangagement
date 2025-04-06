@@ -1,0 +1,12 @@
+{
+  "school_name": "牛津大学",
+  "major_name": "法学硕士",
+  "ename": "Magister Juris",
+  "tags": "社科,法律,法学系",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 46850英镑/年",
+  "requirements": "具有一等荣誉学位，需要法学专业背景\n如果没有法学本科学位，考生可以凭借优异的法学研究生文凭或硕士学位被录取，但这种情况很少见，而且一般只有在考生在申请法学硕士学位之前完成了相关课程才有可能\n对于拥有美国学位的申请者，满足本科水平要求的最低总体 GPA 通常是 4.0 分中的 3.7 分\n在评估过程中通常不会考虑法律界的职位；不要求学生发表论文。在某些情况下，发表论文可能会对申请有利\n需要1篇written work（不超过2000字）",
+  "objectives": "牛津大学法学硕士项目是一门享誉世界的法律研究生课程，旨在服务于具有民法背景的优秀法律学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "行政法 (Administrative Law)\n高级比较刑法 (Advanced and Comparative Criminal Law)\n高级刑法 (Advanced Criminal Law)\n高级财产及信托 (Advanced Property and Trusts)\n全球经济中的企业税收 (Business Taxation in Global Economy)\n儿童、家庭与国家 (Children, Families and the State)\n合同法民事基础 (Civilian Foundations of Contract Law)\n商法 (Commercial Law)\n商务谈判与调解 (Commercial Negotiation and Mediation)\n商业补救措施 (Commercial Remedies)\n公司法 (Company Law)\n比较宪法 (Comparative Constitutional Law)\n欧洲比较合同法 (Comparative Contract Law in Europe)\n比较著作权 (Comparative Copyright)\n比较公司治理 (Comparative Corporate Governance)",
+  "success_cases": ""
+}

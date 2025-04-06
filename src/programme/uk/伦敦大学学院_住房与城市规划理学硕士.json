@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "住房与城市规划理学硕士",
+  "ename": "MSc Housing and City Planning",
+  "tags": "社科,建筑,建筑环境学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有英国大学颁发的2:1荣誉学士学位（或更高水平）或同等学历，招生导师可以酌情考虑未达到以上要求但持有专业资格（如RTPI）或在住房开发、住房规划或住房设计领域有丰富工作经验的申请者（申请者仍需达到UCL的最低要求，即2:2学位）",
+  "objectives": "住房为人类基本需求之一，如何根据人口数量提供足够的优质住房实为一项挑战，目前多数发达国家仍面临此项难题。而伦敦大学学院住房与城市规划理学硕士项目拟通过院系全体师生的努力，从跨学科视角来探讨如何解决发达经济体的住房问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "住房规划：过程 (Planning for Housing: Process)\n住房规划：项目 (Planning for Housing: Project)\n可持续住房设计原则 (Sustainable Housing Design Principles)\n低能住房改造 (Low Energy Housing Retrofit)\n住房项目的经济与金融问题 (Economics and Finance for Housing Projects)\n住房项目管理 (Management of Housing Projects)\n空间规划 (Spatial Planning)\n规划中的批判性争议 (Critical Debates in Planning)",
+  "success_cases": ""
+}

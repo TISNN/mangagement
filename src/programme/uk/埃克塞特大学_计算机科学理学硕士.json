@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "计算机科学理学硕士",
+  "ename": "MSc Computer Science",
+  "tags": "工科,计算机,工程、数学与物理科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 29500英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要非相关科学本科学位或任何其他学位科目背景，必须具备A等级的数学成绩或同等水平",
+  "objectives": "面向具有非计算机背景、渴望在各行各业使用计算机的毕业生。埃克塞特大学计算机科学理学硕士项目旨在为学生的第一个学位提供在动态和快速发展的计算机科学领域蓬勃发展所需的知识和技能。通过为他们提供雇主经常寻求的专业技术知识和沟通技巧，提高在竞争激烈的就业市场中的就业能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "算法和架构 (Algorithms and Architectures)\n数据系统 (Data Systems)\n使用Python编程 (Programme with Python)\n安全基础知识 (Fundamentals of Security)\n软件开发 (Software Development)\n数据治理和道德 (Data Governance and Ethics)\n计算机科学研究项目 (Computer Science Research Project)\n计算机视觉 (Computer Vision)\n构建安全可信的系统 (Building Secure and Trustworthy Systems)\n安全评估和验证 (Security Assessment and Validation)\n高性能计算 (High Performance Computing)\n企业计算 (Enterprise Computing)\n数字商业模式 (Digital Business Models)",
+  "success_cases": ""
+}

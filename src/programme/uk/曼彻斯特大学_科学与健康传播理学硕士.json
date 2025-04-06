@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "科学与健康传播理学硕士",
+  "ename": "MSc Science and Health Communication",
+  "tags": "社科,科学传播,生物、医学和健康学院",
+  "introduction": "专业方向: 科学传播\n入学时间: 9月\n项目时长: 1年\n项目学费: 31000英镑/年",
+  "requirements": "具有英国大学颁发的2:1荣誉学位或同等学历，需要科学或医疗保健、社会科学、政策研究、媒体研究与传播、艺术背景\n本课程既是资深从业者的进阶学习课程，也是其他背景的转换途径，学校也可能基于符合大学要求的替代学习、研究或专业经验的证据来考虑申请者",
+  "objectives": "曼彻斯特大学科学与健康传播理学硕士课程由科学、技术和医学历史中心和曼彻斯特创新研究所开发，其特点是由各部门的领先专业人士以及来自大学的经验丰富的科学和健康传播专业人士提供大师班和项目支持。学生将发展在一系列部门工作所需的技能，包括科学和健康相关的媒体、围绕科学和健康的公共政策；参与、外联和PPIE；科学和健康机构；文化机构；慈善部门；以及其他相关领域。曼彻斯特大学科学与健康传播理学硕士课程适合对科学、技术、医学、保健、数学或工程感兴趣，并想在科学和健康传播领域工作的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "科学传播概论 (Introduction to Science Communication)\n交流科学、技术与医学思想 (Communicating Ideas in Science, Technology and Medicine)\n科学传播的背景、过去与现在 (Contexts for Science Communication, Past and Present)\n科学传播研究项目 (Science Communication Research Project)\n科学传播指导项目 (Science Communication Mentored Project)\n科学、媒体与新闻 (Science, Media and Journalism)\n博物馆、科学中心与公众活动 (Museums, Science Centres and Public Events)\n科学、政府与公共政策 (Science, Government and Public Policy)\n健康传播 (Health Communication)",
+  "success_cases": ""
+}

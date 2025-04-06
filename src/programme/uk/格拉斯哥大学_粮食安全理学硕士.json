@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "粮食安全理学硕士",
+  "ename": "MSc Food Security",
+  "tags": "工科,食品科学,分子生物科学学院",
+  "introduction": "专业方向: 食品科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31800英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要生物学、农学、兽医学、微生物学、生物技术、生物化学、植物科学、生物工程、分子生物学、化学、遗传学、食品科学、食品技术、食品工程、食品安全学科背景；除了较低的资格外，学校也可以接受具有重要相关工作经验的申请者",
+  "objectives": "在本世纪，全球对粮食安全和发展可持续农业的需求已成为不可回避的世界问题。全球人口预计在未来30年将从70亿急剧增加到90亿，这将导致对粮食的空前需求及对土地的巨大压力。格拉斯哥大学粮食安全理学硕士项目向学生传授社会经济、动物和作物方面的粮食安全知识及技能，探讨人口、社会和经济问题，当今粮食安全面临的挑战，以及可持续农业的实现途径，并分析影响粮食作物生产及动物来源的因素。格拉斯哥大学粮食安全理学硕士项目包括一系列客座讲座及现场访问，学生将学习技术转让和商业化知识，并通过分子生物学和基因改造领域的实验室操作掌握实践技能。学生需负责承担一个项目，以锻炼调查技能及批判性地评估、整合不同来源的信息的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "粮食安全基础 - 农作物 (Food Security Fundamentals - Crops)\n粮食安全基础 - 动物源性食品 (Food Security Fundamentals - Food of Animal Origin)\n粮食安全概论 (Introduction to Food Security)\n作物生物技术应用 (Crop Biotechnology Applications)\n全球动物生产 (Global Animal Production)\n植物基因工程 (Plant Genetic Engineering)\n可持续发展政策（粮食安全） (Policies For Sustainability And Development (Food Security))\n从动物身上生产食物 (Production of Food from Animals)\n昆虫在粮食安全中的作用 (Role of Insects in Food Security)\n生物科学研究的技术转让与商业化 (Technology Transfer and Commercialisation of Bioscience Research)",
+  "success_cases": ""
+}

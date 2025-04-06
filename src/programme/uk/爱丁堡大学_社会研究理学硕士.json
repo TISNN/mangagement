@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "社会研究理学硕士",
+  "ename": "MSc Social Research",
+  "tags": "社科,社会学与社工,社会与政治科学学院",
+  "introduction": "专业方向: 社会学与社工\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历",
+  "objectives": "\"爱丁堡大学社会研究理学硕士项目可以作为独立学位，也可以在博士研究的第一年进行，该课程做到了将定量和定性的社会研究技能的基础培训与研究设计的要点相结合。\n社会研究硕士是一项灵活而全面的资格认证，该课程的毕业生将成为一名受欢迎的研究人员，能够深入了解社会科学研究的关键问题、方法和技术，并有能力对公众、决策者、专业人士和学术界进行有价值的高质量社会研究。学校同样注重培养学生的实际应用技能，学生参加相关实习后，可以结合自己的实习经验完成毕业论文。 \"",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "核心定量数据分析 1 & 2 (Core quantitative data analysis 1 and 2)\n社科研究技能：数据收集 (Research Skills in the Social Sciences: Data Collection)\n社会政治研究的解释与理解 (Explanation and Understanding in Social and Political Research)\n社会与公共政策比较分析 (Comparative Analysis of Social and Public Policy)\n定性数据分析 (Analysing Qualitative Data)\n定性方法与人种学田野调查 (Qualitative Methods and Ethnographic Fieldwork)\n当代社会理论 (Contemporary Social Theory)\n研究方法 (Evaluation Research Methods)\n社会科学的多层次模型 (Multi-Level Modelling in Social Science)\n社交网络统计分析 (Analysing Social Networks with Statistics)\n应用人口统计学 (Applied Demography)\n社会科学统计建模 (Statistical Modelling in the Social Sciences)\n纵向数据分析 (Longitudinal Data Analysis)\n社会研究的社会学理论 (Sociological Theory for Social Research)\n社交网络研究：理论与分析 (Social Network Research: Theories and Analysis)",
+  "success_cases": ""
+}

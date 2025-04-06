@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "汽车机电一体化理学硕士",
+  "ename": "MSc Automotive Mechatronics",
+  "tags": "工科,电气电子,运输系统",
+  "introduction": "专业方向: 电气电子\n入学时间: 10月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "需要有工程学、数学或应用科学相关背景",
+  "objectives": "汽车机电一体化是一项涉及汽车机电系统多学科集成的全生命周期活动。学生将获得跨汽车专用机械、电子、通信、高级控制和建模的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "汽车机电一体化介绍 (Automotive Mechatronics Induction)\n汽车控制与仿真 (Automotive Control and Simulation)\n车辆动力学 (Vehicle Dynamics)\n车辆动力系统和性能 (Vehicle Powertrain and Performance)\n车辆系统的机电一体化建模 (Mechatronics Modelling for Vehicle Systems)\n高级控制和优化 (Advanced Control and Optimisation)\n车辆控制应用程序 (Vehicle Control Applications)\n嵌入式车辆控制系统 (Embedded Vehicle Control Systems)\n汽车电气化和混合动力 (Vehicle Electrification and Hybridisation)",
+  "success_cases": ""
+}

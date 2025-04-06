@@ -1,0 +1,12 @@
+{
+  "school_name": "匹兹堡大学",
+  "major_name": "生物工程理学研究硕士",
+  "ename": "Research MS Program in Bioengineering",
+  "tags": "工科,生物工程",
+  "introduction": "专业方向: 生物工程\n入学时间: 春季/秋季\n项目时长: 3学期\n项目学费: 23476美元/学期",
+  "requirements": "具有工科相关专业背景,GPA达到3.5/4.0",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

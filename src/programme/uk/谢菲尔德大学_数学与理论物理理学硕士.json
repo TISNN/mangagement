@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "数学与理论物理理学硕士",
+  "ename": "MSc Mathematical and Theoretical Physics",
+  "tags": "理科,数学,数学与统计学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 27670英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要数学或物理学背景",
+  "objectives": "谢菲尔德大学数学与理论物理理学硕士课程旨在为学生提供先进的数学工具，这些工具可应用于从黑洞到暗物质等科学领域的主要领域。有多种可选模块供选择，学生可以专注于最感兴趣的主题：广义相对论、场论、量子力学、几何学、电动力学、太阳物理学、粒子物理学等。在数学与统计学院或物理与天文系的专家的监督下，学生将用大约三分之一的时间从事自己的研究项目。还有关于机器学习、金融和统计的模块，因此学生可以培养数值、解决问题和数据分析等技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n研究技能 (Research Skills)\n高级电动力学 (Advanced Electrodynamics)\n高级粒子物理学 (Advanced Particle Physics)\n高级量子力学 (Advanced Quantum Mechanics)\n生物物理学 (Biological Physics)\n场论和广义相对论 (Field Theory and General Relativity)\n几何学 (Geometry)\n机器学习 (Machine Learning)\n自然系统建模的数学方法 (Mathematical Methods of Modelling Natural Systems)\n测量和概率 (Measure and Probability)\n统计物理 (Statistical Physics)\n随机过程和金融 (Stochastic Processes and Finance)\n高级流体力学专题 (Topics in Advanced Fluid Mechanics)\n波和磁流体动力学 (Waves and Magnetohydrodynamics)",
+  "success_cases": ""
+}

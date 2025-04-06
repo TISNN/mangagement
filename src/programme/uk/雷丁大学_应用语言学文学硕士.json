@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "应用语言学文学硕士",
+  "ename": "MA Applied Linguistics",
+  "tags": "社科,语言,英语语言及应用语言学系",
+  "introduction": "专业方向: 语言\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 25850英镑/年",
+  "requirements": "要求获得一等或二等本科荣誉学位，其中至少57%的课程与语言学、英语相关，或在英国以外的大学获得与教育、英语、语言或语言学相关的同等学历。学校也将考虑具有其他资格和相关工作经验的申请者",
+  "objectives": "雷丁大学应用语言学文学硕士项目面向有志从事语言相关领域工作的毕业生，如出版、媒体、教学、翻译等，旨在培养学生过硬的语言学知识运用和理论与实践运用能力。在学习的过程中，专家学者亲自授课，学生能接触到许多前沿的研究方法，并能根据自身的需要和学术兴趣，选择相应的课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "第二语言学习原则 (Second language learning principles)\n社会语言学 (Sociolinguistics)\n话语分析方法 (Approaches to discourse analysis)\n世界上的英语 (English in the World)\n语言与移民 (Language & Migration)\n语言学习基础 (Foundations of Language Study)\n应用语言学学术实践 (Academic Practices in Applied Linguistics)\n基于语料库的语言描述方法 (Research Design Methods8、Corpus-based approaches to language description)\n词汇的教与学 (The Teaching and Learning of Vocabulary)\n语言测试原则 (Language Testing Principles)\n语言课程设计 (Language Curriculum Design)\n少儿英语教学 (Teaching Young Learners)\n双语问题 (Issues in Bilingualism)\n语言教学信息技术 (Information Technology for Language Teaching)\n学位论文 (Dissertation)",
+  "success_cases": ""
+}

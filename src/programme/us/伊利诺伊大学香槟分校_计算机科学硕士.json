@@ -1,0 +1,12 @@
+{
+  "school_name": "伊利诺伊大学香槟分校",
+  "major_name": "计算机科学硕士",
+  "ename": "Professional Master of Computer Science",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n入学时间: 春季/秋季\n项目时长: 1年\n项目学费: 36150美元/年",
+  "requirements": "申请人应持有计算机科学学士学位,如果没有,则必须具有面向对象编程、数据结构、算法、线性代数和概率/统计方面的课程（或相应经验）",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

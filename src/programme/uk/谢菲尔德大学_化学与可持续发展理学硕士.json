@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "化学与可持续发展理学硕士",
+  "ename": "MSc Chemistry and Sustainability",
+  "tags": "理科,化学,化学学院",
+  "introduction": "专业方向: 化学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要化学或密切相关学科背景",
+  "objectives": "谢菲尔德大学化学与可持续发展理学硕士项目旨在培养工业、学术界和社会创造可持续发展的世界所需要的专业化学技能。学生将了解环境和绿色化学、关键工业过程和最新的可持续发展技术。课程面向那些想要利用和提高化学技能来为创造可持续发展世界做出贡献的毕业生。\n谢菲尔德大学化学与可持续发展理学硕士课程将帮助学生了解不同的组织和整个社会如何以更可持续的方式生产产品，采用绿色技术，以及如何更有效地使用和生产能源。学生将真正了解人类活动对环境的影响以及如何减轻这些影响。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "环境与绿色化学 (Environmental and Green Chemistry)\n现代工业催化 (Modern Industrial Catalysis)\n聚合物科学中的可持续性 (Sustainability in Polymer Science)\n可持续能源生产与储存 (Sustainable Energy Generation and Storage)\n可持续发展研究人员交流 (Communication for Sustainability Researchers)\n研究与演讲技巧 (Research and Presentation Skills)\n可持续化学研究项目 (Sustainable Chemistry Research Project)\n高级材料化学 (Advanced Materials Chemistry)\n催化与不对称合成 (Catalysis and Asymmetric Synthesis)\n光化学 (Chemistry of Light)\n纳米化学 (Nanochemistry)",
+  "success_cases": ""
+}

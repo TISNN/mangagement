@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "心血管科学理学硕士",
+  "ename": "MSc Cardiovascular Sciences",
+  "tags": "社科,医学,生命科学与药学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 35800英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，第一学位需要是生物、分子生物学或生物医学相关学科背景，或具有医学资格，特殊情况下可能会考虑具有high 2:2学位的申请者，目前的医学生在成功完成MBBS课程的第三年后可能会被接受",
+  "objectives": "伦敦大学国王学院心血管科学理学硕士课程为心血管研究提供了先进的理论和实践基础。学术专家和临床专家将为学生授课，他们积极研究人类心血管疾病的病因。本课程是为生物医学科学和医学合格的并且希望继续学术研究或在研究环境中就业的毕业生设计的。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "脉管生物学和炎症 (Vascular Biology and Inflammation)\n心脏综合征和心力衰竭 (Cardiac Syndromes and Heart Failure)\n心血管技能和讲习班 (Cardiovascular Skills and Workshops)\n心血管研究中的交叉切割技术 (Cross Cutting Techniques in Cardiovascular Research)\n心血管外展 (Cardiovascular Outreach)\n心血管研究项目 (Cardiovascular Research Project)",
+  "success_cases": ""
+}

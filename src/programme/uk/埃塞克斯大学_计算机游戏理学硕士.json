@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "计算机游戏理学硕士",
+  "ename": "MSc Computer Games",
+  "tags": "工科,计算机,计算机科学与电子工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:1学位，本科背景涵盖以下一门或多门课程：数据库、Web开发、软件工程、操作系统、计算机架构、计算机系统以及以下一门或多门数学课程，如：数学、微积分、代数、微分方程、概率论与统计学以及以下一门或多门信号与系统课程，如：信号与系统、控制理论、计算机系统、嵌入式系统、微处理器、自动化与控制工程、控制技术、系统硬件基础、控制工程以及以下两门或多门编程课程：C、C#、C、Java、Python、MATLAB、面向对象编程/OOP、高级编程、编程入门、编程语言、软件工程、系统编程、算法、数据结构、编程元素",
+  "objectives": "埃塞克斯大学计算机游戏理学硕士项目专注于虚拟世界、机器学习、人工智能以及高级游戏的设计和开发。在埃塞克斯大学计算机游戏理学硕士课程中，学生将学习计算机游戏的理论知识和实践知识，填补知识空白并使用多种语言，以确保其准备好将设计付诸实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "游戏设计 (Game Design)\n游戏人工智能 (Game Artificial Intelligence)\n基于物理原理的游戏 (Physics-Based Games)\n手机与社交应用程序编程 (Mobile and Social Application Programming)\n理学硕士项目与学位论文 (MSc Project and Dissertation)\n专业实践与研究方法 (Professional Practice and Research Methodology)\n团队项目（结合游戏制作节） (Group Project (Incorporating a Game Jam))\n智能系统与机器人技术 (Intelligent Systems and Robotics)\n机器学习与数据挖掘 (Machine Learning and Data Mining)\n文本分析 (Text Analytics)\n虚拟世界 (Virtual Worlds)\n数据科学与决策 (Data Science and Decision Making)\n高级游戏开发 (High-Level Games Development)\n自然语言工程 (Natural Language Engineering)\n创建与发展新企业 (Creating and Growing a New Business Venture)",
+  "success_cases": ""
+}

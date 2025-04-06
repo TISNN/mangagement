@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "天体物理学高级研究硕士",
+  "ename": "MASt Astrophysics",
+  "tags": "理科,物理,天文学研究所",
+  "introduction": "专业方向: 物理\n入学时间: 10月\n项目时长: 1年\n项目学费: 35517英镑/年",
+  "requirements": "申请者应该具有Good II.i荣誉学位或同等学历，申请者必须精通数学，适合已完成天文学、物理学或数学学士学位或同等学历的合格学生",
+  "objectives": "剑桥大学天体物理学高级研究硕士项目旨在提供一个智力刺激的环境，在这种环境中，学生有机会充分发挥他们的技能和激情。剑桥大学天体物理学高级研究硕士课程包括一个扩展项目（观察或理论，约占总学分的三分之一）和一系列高级专业课程的选择。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地球作为行星的物理学 (Physics of the Earth as a Planet)\n宇宙学 (Cosmology)\n星系的形成 (Formation of Galaxies)\n太阳系外行星：大气和内部 (Extrasolar Planets: Atmospheres and Interiors)\n相对论天体物理学和宇宙学 (Relativistic Astrophysics and Cosmology)\n行星系统动力学 (Planetary System Dynamics)\n粒子物理学 (Particle Physics)\n广义相对论 (General Relativity)\n恒星的结构与演化 (Structure and Evolution of Stars)\n量子场论 (Quantum Field Theory)\n宇宙结构的形成 (Formation of Structure in the Universe)\n宇宙学中的场论 (Field Theory in Cosmology)\n天体物理流体动力学 (Astrophysical Fluid Dynamics)\n天体统计学 (Astrostatistics)\n黑洞 (Black Holes)",
+  "success_cases": ""
+}

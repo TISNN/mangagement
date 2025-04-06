@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "法学硕士",
+  "ename": "LLM",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 22600英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要法律、人文或社会科学背景",
+  "objectives": "诺丁汉大学法学硕士课程为学生提供内容丰富的多种课程，学生可以从30多个模块中进行选择。这意味着学生可以根据自己的兴趣和职业目标量身定制法学硕士课程，并获得多样化的法律教育或专注于特定的法律领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级著作权和设计法 (Advanced Copyright and Design Law)\n未经审查的国际法史 (An Uncensored History of International Law)\n生物多样性与国际法 (Biodiversity and International Law)\n商业和人权 (Business and Human Rights)\n商业法律冲突 (Commercial Conflict of Laws)\n当代刑事司法问题 (Contemporary Issues in Criminal Justice)\n经济和社会权利 (Economic and Social Rights)\n欧盟竞争法 (EU Competition Law)\n欧洲人权公约 (The European Convention on Human Rights)\n国际环境法的一般主题和原则 (General Themes and Principles of International Environmental Law)\n欧盟治理 (Governance of the European Union)\n监禁与人权 (Imprisonment and Human Rights)\n国际和比较著作权法 (International and Comparative Copyright Law)\n精神残疾与国际人权 (Mental Disability and International Human Rights)\n少数群体与国际人权法 (Minorities and International Human Rights Law)",
+  "success_cases": ""
+}

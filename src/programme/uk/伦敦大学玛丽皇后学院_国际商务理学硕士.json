@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "国际商务理学硕士",
+  "ename": "MSc International Business",
+  "tags": "商科,管理,工商管理学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有本科2:1学位或以上学历，学科背景不限，但是需要较好的统计和数学研究背景。定量性较高的学科有会计、数学、科学、工程、计算机科学、经济学和金融\n如果申请者来自定量性较弱的学位，如管理学和政治学等专业，但是学习过程中涉及的定量内容较多，也可申请",
+  "objectives": "伦敦大学玛丽皇后学院国际商务理学硕士项目教授全球化经济学相关的应用知识和推理，以应对业务战略和管理带来的挑战。伦敦大学玛丽皇后学院国际商务理学硕士项目涵盖广泛的主题，包括国际经济，宏观经济政策和金融，管理经济学，跨国公司和全球业务，同时为学生提供分析技术的训练。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "量化研究方法 (Quantitative Research Methods)\n全球经济 (The Global Economy )\n国际宏观经济学与金融 (International Macroeconomics and Finance)\n管理经济学 (Managerial Economics)\n跨国公司及全球业务 (Multinationals and Global Business)\n应用实证方法 (Applied Empirical Methods)\n公司金融 (Corporate Governance)\n经济发展 (Economics of Development)\n国际商务策略 (International Business Strategy)\n行为金融学与决策 (Behavioural Finance and Decision Making)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "航空航天工程理学硕士",
+  "ename": "MSc Aerospace Engineering",
+  "tags": "工科,航空工程,工程学院",
+  "introduction": "专业方向: 航空工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要任意工程学科背景或物理科学/数学学位背景，并且动力学与工程数学、材料科学、数学、热力学、控制和空气动力学等课程的平均成绩为2:1\n学校可能会考虑具有high 2:2学位但核心课程成绩达到2:1的申请者",
+  "objectives": "航空航天工程理学硕士是一个涵盖了现代飞机设计各个方面的多学科计划。这涉及开发先进的空气动力学和航空航天系统的基本知识和技能。通过在第二学期选择特定的选项，学位课程可以定制以提供航空或系统专业。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "飞行动力学 (Flight dynamics )\n控制系统分析与设计 (Control systems analysis and design )\n导航系统 (Navigation systems )\n航空航天系统模拟 (Simulation of aerospace systems)\n空间飞行动力学 (Space flight dynamics )\n流体物理学 (Physics of fluids )\n航天设计项目 (Aerospace design project )\n航天系统团队设计项目 (Aerospace systems team design project )\n先进空气动力学 (Advanced aerodynamics )\n航空航天推进系统 (Aerospace propulsion )",
+  "success_cases": ""
+}

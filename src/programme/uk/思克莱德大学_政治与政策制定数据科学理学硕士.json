@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "政治与政策制定数据科学理学硕士",
+  "ename": "MSc Data Science for Politics & Policymaking",
+  "tags": "理科,数据科学,政府与公共政策学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 21550英镑/年",
+  "requirements": "具有一等或2:1荣誉学位，专业背景不限",
+  "objectives": "思克莱德大学政治与政策制定数据科学理学硕士项目旨在满足对具有使用大数据解决复杂政治和社会问题能力的毕业生日益增长的需求。思克莱德大学政治与政策制定数据科学理学硕士课程旨在通过研究设计、公共政策和定性方法的核心课程，为您提供专业知识，解决公共领域使用大数据的关键挑战，即缺乏明确的研究和政策目标。除了这些课程，学生还将接受培训，让学生了解捕获和组织大量数据背后的机制。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "信息社会的法律、伦理和职业问题 (Legal, Ethical & Professional Issues for the Information Society)\n大数据技术 (Big Data Technologies)\n数据库基础 (Database Fundamentals)\n用于数据分析的机器学习 (Machine Learning for Data Analytics)\n定量方法1 (Quantitative Methods 1)\n定量方法2 (Quantitative Methods 2)\n定性方法 (Qualitative Methods)\n社会研究视角 (Perspectives on Social Research)\n福利理念 (Welfare Concepts & Ideas)\n研究设计原理 (Principles of Research Design)\n政策分析 (Policy Analysis)\n民主能带来什么 (Can Democracy Deliver)",
+  "success_cases": ""
+}

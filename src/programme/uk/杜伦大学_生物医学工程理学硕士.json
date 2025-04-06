@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "生物医学工程理学硕士",
+  "ename": "MSc Biomedical Engineering",
+  "tags": "工科,生物工程,工程学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "生物医学工程理学硕士课程为具备工程、科学（物理学）或相关背景（含有大量工程/科学内容）的毕业生设计的\n申请者需要具有工程、科学（物理学）或相关学科背景的英国一等或2:1荣誉学位或同等学历\n该专业可能会录取生物学与物理学以及生物学与化学联合荣誉学位的潜在候选人，前提是候选人接受过至少1年的英国A-level数学培训（特别是高级统计学、概率论和微分方程等主题）",
+  "objectives": "杜伦大学生物医学工程理学硕士项目旨在使学生获得生物医学和生物技术领域职业所需的技能，并有望学习设计和开发卫生部门使用的相关生物医学设备和产品的技能，并获得机械知识以及人体人造器官的操作。该计划还涵盖使用数据和人工智能方法来帮助解决生物医学工程领域的一些最紧迫的挑战以及其他相关的工程挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物力学4 (Biomechanics 4)\n生理流体力学4 (Physiological Fluid Mechanics 4)\n人工器官4 (Artificial Organs 4)\n生物技术设计项目 (Biotechnology Design Project)\n人工智能和深度学习4 (Artificial Intelligence and Deep Learning 4)\n组织工程 (Tissue Engineering)\n研发项目 (Research and Development Project)\n非线性固体力学4 (Non-linear Solid Mechanics 4)\n环境工程4 (Environmental Engineering 4)\n优化4 (Optimisation 4)",
+  "success_cases": ""
+}

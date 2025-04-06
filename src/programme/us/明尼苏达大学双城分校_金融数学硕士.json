@@ -1,0 +1,12 @@
+{
+  "school_name": "明尼苏达大学双城分校",
+  "major_name": "金融数学硕士",
+  "ename": "Master of Financial Mathematics",
+  "tags": "商科,金工金数",
+  "introduction": "专业方向: 金工金数\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1年\n项目学费: 43995美元\n项目规模: 30人\n平均G: 166.6\n就业比例: 90%\n平均起薪: 76500美元",
+  "requirements": "GPA至少3.0,\n四个学期的微积分课程（涵盖单变量和多变量微积分和线性代数）；\n基于微积分的概率课程；\n能够使用编程语言编写代码。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

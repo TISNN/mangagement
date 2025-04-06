@@ -1,0 +1,12 @@
+{
+  "school_name": "麻省理工学院",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理",
+  "introduction": "专业方向: 工商管理\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2年\n项目学费: 84200美元/年\n平均成绩: 3.61\n国际学生: 40%\n男女比例: 54%:46%",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

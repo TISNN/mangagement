@@ -1,0 +1,12 @@
+{
+  "school_name": "康奈尔大学",
+  "major_name": "生物环境工程工学硕士",
+  "ename": "MEng in Biological and Environmental Engineering",
+  "tags": "工科,环境工程",
+  "introduction": "专业方向: 环境工程\n入学时间: 秋季/春季\n项目时长: 1年\n项目学费: 60286美元/年",
+  "requirements": "工程,物理,生物等相关本科专业,同时充分准备数学与物理课程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

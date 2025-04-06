@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "分子医学理学硕士",
+  "ename": "MSc Molecular Medicine",
+  "tags": "社科,医学,医学，医学科学与营养学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要生物或医学科学学位背景",
+  "objectives": "阿伯丁大学分子医学理学硕士项目旨在为学生提供分子医学知识，更特别的是，学生可根据所开设的分子医学课程，自行设计课程。阿伯丁大学分子医学理学硕士课程提供以分子技术为中心的广泛课程。课程从理解分子科学的洞察力和工具如何帮助我们理解和治疗人类疾病的角度来教授。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "基本技能-归纳法 (Basic Skills - Induction)\n生物信息学 (Bioinformatics)\n生物技术 (Biotechnology)\n分子遗传学 (Molecular Genetics)\n分子药理学 (Molecular Pharmacology)\n微生物学概论 (Introduction to Microbiology)\n应用统计学 (Applied Statistics)\n免疫学概况 (Profiles of Immunology)\n研究教程 (Research Tutorials )\n人类遗传学 (Human Genetics)\n基因组化药物 (Genome - Enabled Medicine)\n生物药物发现 (Biologic Drug Discovery)\n从药物开发到循证医学 (Drug Development to Evidence Based Medicine)\n宿主-病原体相互作用 (Host - Pathogen Interactions)\n硕士研究项目 (Masters Research Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,管理学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，对于学科背景没有限制，但必须是具备较多定量内容的。\n如果申请者学过商业或管理，或是定量内容较多的学科，申请者会更适合个项目，比如数学/统计，计算机科学，工程，物理，定量的社会科学\n编程经历：有编程经历是优势，申请者应在PS里面涵盖自己以往的量化和编程经历的信息\n工作经历：在特殊情况下，相关工作经验可以代替学位要求。但申请者不应超过三年的相关工作经验",
+  "objectives": "我们的数字生活意味着我们正在处理和生成比以往更多的数据。但企业如何利用“大数据”创造商机呢？本课程将教学生如何将数据转化为知识。增强您对商业分析的理解，以及它在国际上的运作方式。您将通过使用最新的商业智能软件获得实际操作经验，并获得从事数据和决策分析所需的技能。本课程还包括行业专家的客座讲座，以及由IBM专家共同授课的单元。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据库和商业智能 (Databases and business intelligence)\n电子表格建模 (Spreadsheet modelling)\n业务统计和预测 (Business statistics and forecasting)\n运营管理 (Operations management)\n优化 (Optimisation)\n在实践中的分析（与IBM合作） (Analytics in practice (taught in partnership with IBM))\n数据挖掘 (Data mining)\n启发式和仿真 (Heuristics and simulation)\n项目管理 (Project management)\n操作策略 (Operations strategy)\n可持续的运营管理 (Sustainable operations management)\n在语境中分析 (Analytics in context)",
+  "success_cases": ""
+}

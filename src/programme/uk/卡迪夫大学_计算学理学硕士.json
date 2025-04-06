@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "计算学理学硕士",
+  "ename": "MSc Computing",
+  "tags": "工科,计算机,计算机科学与信息学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 31700英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，不限专业\n如果申请者没有学位，学校会考虑专业经验，需要提供其他证据支持",
+  "objectives": "卡迪夫大学计算学理学硕士学位课程为期一年，适合想要从其他学科背景转入计算机专业的学生。课程吸引了大量来自各种职业和专业背景、想要学习软件开发岗位所需技能的学生。卡迪夫大学计算学理学硕士学位课程为学生提供开发高效软件和系统所需的软件工程技能和技术能力，并帮助学生达到技能和能力的平衡。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": " 论文 (Dissertation)\n软件工程 (Software Engineering)\n网络应用程式开发 (Web Application Development)\n面向对象的JAVA程序开发 (Object Oriented Development with Java)",
+  "success_cases": ""
+}

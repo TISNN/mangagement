@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "生物技术哲学硕士",
+  "ename": "MPhil Biotechnology",
+  "tags": "理科,生物,化学工程与生物科技学院",
+  "introduction": "专业方向: 生物\n入学时间: 10月\n项目时长: 1年\n项目学费: 39504英镑/年",
+  "requirements": "申请者应该具有英国High II.i荣誉学位或同等学历\n该课程主要是为那些具有物理科学或技术背景（如工程、物理、化学、数学、计算机科学）的人设计的，学校也会考虑具有其他背景并且具备较强的分析和数字能力的申请者\n需要提交1篇Statement of interest（不超过1500字符）以及1篇Reasons for applying（不超过1500字符）如果被录取，需要ATAS以获取签证（被录取前不要申请ATAS）",
+  "objectives": "剑桥大学生物技术哲学硕士项目在生物学与物理科学和技术的界面上提供深入的多学科课程。该计划在前沿领域提供最先进的教育和研究培训，旨在应对生物技术和制药行业的主要人才需求和技能差距。该计划旨在为学生提供生物技术方面的核心和高级知识以及实践和研究技能。此外，它还可以培养与生物技术研究和行业实践相关的可转移技能和商业意识。总体而言，该计划旨在培养具有成为生物技术领域或卫星领域领导者所需的基本知识和技能的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物技术 (Biotechnology)\n生物纳米技术 (Bionanotechnology )\n国际商务 (International Business )\n技术管理 (Management of technology)\n医学物理学 (Medical physics)\n系统生物学 (Systems biology )",
+  "success_cases": ""
+}

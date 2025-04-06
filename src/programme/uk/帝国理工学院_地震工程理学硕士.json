@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "地震工程理学硕士",
+  "ename": "MSc Earthquake Engineering",
+  "tags": "工科,土木工程,土木与环境工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有2:1学位，需要土木工程、自然科学、地球科学或其他数学学科背景\n需要适当的数学基础，例如A-level数学Grade A或B\n不符合所列学术要求但具备丰富相关行业经验的申请者在完成“特殊资格考试”（SQE）后可能会被例外录取",
+  "objectives": "帝国理工学院地震工程理学硕士项目课程是一个综合型的课程，提供了在地震作用和其他极端负荷条件下的结构分析、设计和评估的培训。课程大纲涵盖了与结构工程、地震工程、工程地震学、土壤动力学和高级数值技术相关的一整套主题。帝国理工学院地震工程理学硕士项目课程以职业为导向，涵盖理论背景和实际设计考虑。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "有限元分析 (Finite Element Analysis)\n岩土灾害 (Geotechnical Hazards)\n钢筋混凝土I (Reinforced Concrete I)\n钢构件 (Steel Components)\n结构分析 (Structural Analysis)\n结构力学 (Structural Dynamics)\n桥梁设计 (Design of Bridges)\n结构可靠性理论 (Structural Reliability Theory)\n岩土地震工程 (Geotechnical Earthquake Engineering)\n结构消防工程 (Structural Fire Engineering)",
+  "success_cases": ""
+}

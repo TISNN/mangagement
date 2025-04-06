@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "航空学、流量管理与流体结构相互作用高级计算方法理学硕士",
+  "ename": "MSc Advanced Computational Methods for Aeronautics, Flow Management and Fluid-Structure Interaction",
+  "tags": "工科,机械工程,航天学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有2:1学位，需要工程学、物理学、数学或计算机科学背景\n强烈建议具备一等学位，学校只录取成绩达到2:1且成绩非常接近一等学位的申请者\n需要申请ATAS证书",
+  "objectives": "帝国理工学院航空学、流量管理与流体结构相互作用高级计算方法理学硕士项目提供了计算方法、基本理论和物理原理，以及航空和其他领域的实验技术，适合想要提升工程技术或想从数学物理或计算机科学专业转入高级工程学科的学生，你将能够提升航空工程和非航空工程产业所需的专业技能。\n此外，得益于帝国理工学院与产业的密切联系，你将得到产业专业人员的指导，或有机会在产业环境中开展项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "流体动力学导论 (Introduction to Fluid Dynamics)\n编程概论 (Introduction to Programming)\n入门数学 (Introductory Mathematics)\n技术写作和演讲 (Technical Writing and Presentations)\n修订压力分析 (Revision Stress Analysis)\n计算线性代数 (Computational Linear Algebra)\n结构动力学 (Structural Dynamics)\n分离流动和流体结构相互作用 (Separated Flows and Fluid-Structure Interaction)\nNavier Stokes方程和湍流建模 (Navier Stokes Equations and Turbulence Modelling)\n高性能计算 (High-Performance Computing)\n流量控制导论 (An Introduction to Flow Control)\n流体动力学基础 (Fundamentals of Fluid Mechanics )\n可压缩流量 (Compressible Flow)\n有限元方法 (Finite Element Methods )",
+  "success_cases": ""
+}

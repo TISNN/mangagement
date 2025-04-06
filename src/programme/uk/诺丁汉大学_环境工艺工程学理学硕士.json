@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "环境工艺工程学理学硕士",
+  "ename": "MSc Environmental Process Engineering",
+  "tags": "工科,环境工程,化学与环境工程学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要相关工程学科或相关科学学科背景，具有high 2:2学位或同等学历以及大量工作经验的申请者也可能被考虑\n不符合入学标准但具备大量行业工作经验的申请者可能会被录取",
+  "objectives": "诺丁汉大学环境工艺工程学理学硕士课程调查空气污染、能源效率、受污染的土地和水等环境问题。该课程使毕业生具备工艺工程设计、环境评估、资源管理和技术创新方面的高水平能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究与设计项目 (Research and Design Project)\n设计训练 (Accelerated Design Training)\n研究策划 (Research Planning)\n环境和风险评估 (Environmental Risk Assessment)\n空气污染1 (Air Pollution (1))\n空气污染2 (Air Pollution (2))\n土地污染 (Contaminated Land)\n水处理 (Water Treatment)\n水处理工程 (Water Treatment Engineering)\n过程风险利益与分析 (Process Risk Benefit and Analysis)\n发电和碳捕获 (Power Generation and Carbon Capture)\n废物再生能源 (Renewable Energy from Wastes)\n能源储存 (Energy Storage )\n化石能源及其利用：过去、现在和未来 (Fossil Energy Resources and Utilisation: Past, Present and Future)",
+  "success_cases": ""
+}

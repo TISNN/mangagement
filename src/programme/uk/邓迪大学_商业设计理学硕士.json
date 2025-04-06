@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "商业设计理学硕士",
+  "ename": "MSc Design for Business",
+  "tags": "商科,其他商科,艺术设计学院",
+  "introduction": "专业方向: 其他商科\n入学时间: 9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要艺术、设计、人文、社会科学或商业管理相关学科背景，具有其他资格或相关经验的申请人也将被学校考虑",
+  "objectives": "设计对我们周围的世界具有变革性的影响。这种影响跨越文化、商业、环境和经济。邓迪大学商业设计理学硕士课程旨在帮助学生了解这种影响，以及如何塑造它。通过跨学科的方法，本课程将使学生有策略地接触设计，并增强其对设计管理、服务设计、企业和创业的知识和理解。学生将获得对产品和服务、过程、工作、管理创新和利益相关者的新视角。通过使用设计思维和其他设计研究方法来帮助理解和与用户产生共鸣，能够在市场营销、组织变革和增强客户参与方面做出更明智的商业决策。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士课程 (Masters Placement)\n工作室实践：独立项目 (Studio Practice: Independent Project)\n企业与企业家精神 (Business Enterprise & Entrepreneurship)\n原型设计:对创新的洞察 (Prototyping: Insights to Innovation)\n领导与文化 (Leadership & Culture)\n人口变化 (Changing Populations)\n加速器 (Accelerator)",
+  "success_cases": ""
+}

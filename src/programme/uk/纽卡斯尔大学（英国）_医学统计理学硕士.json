@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "医学统计理学硕士",
+  "ename": "MSc Medical Statistics",
+  "tags": "理科,数学,数学、统计与物理学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31700英镑/年",
+  "requirements": "具有2:1理学学士荣誉学位或同等学历，需要数学科学或其他具有正式数学成分的定量学位背景，示例包括但不限于计算机科学、经济学、工程学和类似学科学校鼓励非标准背景的申请者和具有丰富相关工作经验的个人申请，并将根据个人情况进行考虑",
+  "objectives": "随着医疗数据不断增长，纽卡斯尔大学医学统计理学硕士项目将为学生提供有效分析和解释医疗数据的专业知识。学生将学习如何利用这种不断增长的资源并自信地应对复杂的医疗挑战。课程非常适合希望在医学和健康科学行业发展事业的任何人。毕业后，学生将对统计方法和数据科学有深入的了解。学生还将学习如何：设计有效的临床研究，提供高质量的证据；利用数据评估新药的有效性和安全性；应用因果推理方法确保对重要的健康问题给出可靠的答案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计与数据科学研究生基础 (Graduate Foundations of Statistics and Data Science)\n研究生概率论与数理统计基础 (Graduate Foundations of Probability and Mathematical Statistics)\n高级主题临床试验 (Clinical Trials with Advanced Topics)\n健康数据科学决策建模与高级主题 (Decision Modelling for Health Data Science with Advanced Topics)\n医学统计和健康数据科学高级主题 (Advanced Topics in Medical Statistics and Health Data Science)\n医学统计学论文 (Dissertation In Medical Statistics )\n统计与数据科学工业论文 (Industrial Dissertation in Statistics and Data Science)\n高级主题临床试验 (Clinical Trials with Advanced Topics)\n健康数据科学决策建模与高级主题 (Decision Modelling for Health Data Science with Advanced Topics)\n医学统计和健康数据科学高级主题 (Advanced Topics in Medical Statistics and Health Data Science)\n机器学习统计基础与高级主题 (Statistical Foundations of Machine Learning with Advanced Topics)\n实验设计与高级主题 (Experimental Design with Advanced Topics)\n概率论与高级主题 (Probability Theory with Advanced Topics)\n极值理论与高级主题 (Extreme Value Theory with Advanced Topics)\n运动建模与先进的主题 (Sports Modelling with Advanced Topics)\n生存分析与高级主题 (Survival Analysis with Advanced Topics)\n具有高级主题的时间序列 (Time Series with Advanced Topics)\n随机金融建模与高级主题 (Stochastic Financial Modelling with Advanced Topics)\n统计遗传学与高级主题 (Statistical Genetics with Advanced Topics)\n统计与数据科学高级主题 (Advanced Topics in Statistics and Data Science )",
+  "success_cases": ""
+}

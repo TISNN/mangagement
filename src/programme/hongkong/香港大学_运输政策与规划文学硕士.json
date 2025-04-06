@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "运输政策与规划文学硕士",
+  "ename": "MA Transport Policy and Planning",
+  "tags": "工科,交通运输,社会科学学院",
+  "introduction": "专业方向: 交通运输\n入学时间: 9月\n项目时长: 1年\n项目学费: 188000港币/年",
+  "requirements": "具有学士学位或同等学历，或具备同等标准的相关专业资格以及适当的经验\n英国特许物流与运输学会（CMILT）的特许会员资格被社会科学学院认可为具有同等标准的相关专业资格",
+  "objectives": "香港大学运输政策与规划文学硕士课程由香港大学地理系、城市规划与设计系和土木工程系联合开设，旨在为香港日益扩张的运输业提供训练有素的专业人才，同时也为有志于从事运输领域工作的毕业生提供专业化的训练。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "运输研究调查与数据分析 (Survey and Data Analysis in Transport Studies)\n运输与发展 (Transport and Development)\n运输系统工程 (Engineering for Transport Systems)\n交通运输分析、建模与项目评估 (Analysis, Modeling and Project Appraisal in Transportation)\n运输研究方法 (Research Methods in Transport Studies)\n公共交通系统 (Public Transport Systems)\n运输政策与规划 (Transport Policy and Planning)\n城市设计理论与原理 (Urban Design Theories and Principles)\n物理环境与场地规划 (Physical Environment and Site Planning)\n运输经济 (Transport Economics)\n物流运输规划与服务管理 (Transport Logistics Planning and Services Management)\n运输法与管理 (Transport Law and Management)\n运输学实地观察 (Transport Field Trip)\n交通运输规划与管理中的地理信息系统 (GIS in Transport Planning and Management)\n交通影响评估 (Traffic Impact Assessment)",
+  "success_cases": ""
+}

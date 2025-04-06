@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "微生物学理学硕士",
+  "ename": "MSc Microbiology",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26900英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历，需要生命或物理科学专业背景",
+  "objectives": "东安格利亚大学微生物学理学硕士课程提供了对医学、环境和应用微生物学的深入探索，将学生置于生物科学的最前沿，鉴于微生物在感染和人类健康（包括流行病）、粮食安全和气候变化等领域发挥着至关重要的作用，微生物学是一个令人兴奋和及时的领域。在本课程中，学生将深入了解微生物学的核心概念，包括微生物的功能及其与宿主和环境的相互作用，还将研究微生物学的更广泛的社会影响，并学习如何利用它来促进可持续性和造福社会，除了扩大理论知识，学生还将发展必要的实验室和生物信息学技能，掌握在学术界和工业界等各个领域成功开展职业生涯所需的实践专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究项目 (Research Project)\n科学中的有效沟通 (Effective Communication in Science)\n研究计划与管理 (Research Planning and Management)\n数据科学与生物信息学 (Data Science and Bioinformatics)\n生物科学中基于问题的学习 (Problem Based Learning in Biosciences)\n生物科学前沿 (Frontiers in Biosciences)\n分子微生物学技术与进展 (Techniques and Advances in Molecular Microbiology)",
+  "success_cases": ""
+}

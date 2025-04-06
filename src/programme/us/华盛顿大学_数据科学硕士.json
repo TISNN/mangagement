@@ -1,0 +1,12 @@
+{
+  "school_name": "华盛顿大学",
+  "major_name": "数据科学硕士",
+  "ename": "MS in Data Science",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n入学时间: 秋季\n项目时长: 45学分\n项目学费: 48375美元\n项目规模: 62人\n国际学生: 59%\n男女比例: 42:58\n平均起薪: 124000美元",
+  "requirements": "入学前需完成微积分III和线性代数,以及2门编程课程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

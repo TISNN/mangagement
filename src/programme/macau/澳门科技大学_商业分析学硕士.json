@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "商业分析学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 2年\n项目学费: 120000港币/年",
+  "requirements": "不局限于任何专业",
+  "objectives": "商业分析学通过充分使用商业数据、统计学工具以及定量方法达到更好的商务管理，可以帮助决策者洞察商业行为、预测未来商业模式的发展与变化，从而改进商业战略与规划的决策制定。商业分析学硕士学位课程的总体定位是培养学生利用商业分析知识和工具从商业数据中挖掘有用的资讯并可以智慧地作出更快更有效的商业决策。毕业生的就业前景广阔，从事金融、保险、电子商务、高级商业顾问、供应链、酒店、旅游、市场营销、零售、物流及其它服务业，都是极佳的就业选择。\n商业分析学是大数据时代背景下迅速发展起来的一门热门学科，是以电子商务、统计学、定量方法为基础的交叉性学科。商学院提供的商业分析学硕士学位课程（两年学制）旨在培养学生利用商业分析知识和工具从商业数据中挖掘有用的资讯，洞察商业行为、预测未来商业模式的发展与变化，从而智慧地作出更快更有效的商业决策。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用统计 (Applied Statistics)\n企业资讯管理 (Enterprise Information Management)\n管理经济学 (Managerial Economics)\n数据挖掘 (Data Mining)\n研究方法 (Research Methodology)\n博弈论 (Game Theory)",
+  "success_cases": ""
+}

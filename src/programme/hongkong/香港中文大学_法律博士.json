@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "法律博士",
+  "ename": "Juris Doctor",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 2年\n项目学费: 247680港币/年",
+  "requirements": "毕业于认可大学并获得非法律学科的学士学位或非普通法司法管辖区的法律学位；或\n在高等教育机构完成学习课程并获得相当于荣誉学位的专业或类似资格。\n需要提供B等级证明",
+  "objectives": "香港中文大学法律博士课程是为非法律本科的毕业生或非普通法系法律本科的毕业生提供的广泛全面的研究生层次的法律课程，中大法律博士课程培养的学生有机会进入法律专业领域或者在其他各种工作领域内担任领导角色。法律博士课程旨在为学生提供启发思维的法律高等普通教育。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "法律系统 (Legal System)\n法律体系 (Jurisprudence)\n法律研究、分析与写作 (Legal Research, Analysis and Writing)\n伦理与职业道德 (Ethics and Professional Virtue)\n公司法原则 (Principles of Company Law)\n民事诉讼原理 (Principles of Civil Procedure)\n证据原则 (Principles of Evidence)\n刑事诉讼程序原则 (Principles of Criminal Procedure)\n宪法原则 (Principles of Constitutional Law)\n产权转让原则 (Principles of Conveyancing)\n商法原则 (Principles of Commercial Law)\n公平与信任原则 (Principles of Equity and Trusts)\n土地法原则 (Principles of Land Law)\n行政法原则 (Principles of Administrative Law)\n合同原则 (Principles of Contract)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "过程系统工程理学硕士",
+  "ename": "MSc Process Systems Engineering",
+  "tags": "工科,能源,化学与加工工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 24900英镑/年",
+  "requirements": "具有2:2英国荣誉学位或受认可的同等学历，需要化学、工程学或物理学背景\n如果申请者不符合以上要求，学校也会考虑其相关工作经验",
+  "objectives": "萨里大学过程系统工程理学硕士项目是高质量项目，适合具有工程、科学或相关学科背景的本科生。该项目将为学生提供在过程工业就业所需的技能，使学生深入了解过程系统工程的基础理念，了解当前技术和趋势，让学生能够胜任高薪职业，并拓展个人研究。 萨里大学过程系统工程理学硕士项目将为学生提供一般和专业过程系统工程学科的培训。其他工程和科学课程中一般不包括该项目所涉及的领域，因此其他学生可能缺乏毕业后可能遇到的产业或学术挑战的准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "先进过程控制 (Advanced Process Control)\n过程和能量集成 (Process and Energy Integration)\n过程系统设计 (Process Systems Design)\n最优化和决策制定 (Optimisation and Decision-Making)\n供应链管理 (Supply Chain Management)\n过程建模与仿真 (Process Modelling and Simulation)\n论文 (Dissertation)\n可再生能源技术 (Renewable Energy Technologies)\n基于知识的系统和人工智能 (Knowledge-based Systems and Artificial Intelligence)\n石油开采导论 (Introduction to Petroleum Production)\n软件开发 (Software Development)\n技术、商业和研究研讨会 (Technology、Business and Research Seminars)\n过程安全与操作完整性 (Process Safety and Operations Integrity)\n生物质加工技术 (Biomass Processing Technology)\n提炼和石油化工加工 (Refinery and Petrochemical Processing)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "东北大学（美国）",
+  "major_name": "人工智能硕士",
+  "ename": "MS in Artificial Intelligence",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季/春季\n项目时长: 2-2.5年\n项目学费: 1667美元/学分",
+  "requirements": "有一定的编程经历，包括使用高级编程语言编写代码的经验，以及学习过编程相关课程；具备一定数学背景，学过线性代数、高等微积分、统计学等课程。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

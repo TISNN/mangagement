@@ -1,0 +1,12 @@
+{
+  "school_name": "伊利诺伊大学香槟分校",
+  "major_name": "金融工程硕士",
+  "ename": "Master of Science in Financial Engineering",
+  "tags": "商科,金工金数",
+  "introduction": "专业方向: 金工金数\n项目类别: STEM\n入学时间: 秋季\n项目时长: 3学期\n项目学费: 47100美元/年\n项目规模: 22人\n平均成绩: 3.57\n平均G: 327\n男女比例: 72:28\n就业比例: 66%\n平均起薪: 102600美元\n留美比例: 70%",
+  "requirements": "微积分（1年）,一学期的线性代数,一学期的概率论与统计,一学期的编程(最好是C/ c)本科最后60个学时的学分至少3.25,研究生GPA至少3.5",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

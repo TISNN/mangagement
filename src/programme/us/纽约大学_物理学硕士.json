@@ -1,0 +1,12 @@
+{
+  "school_name": "纽约大学",
+  "major_name": "物理学硕士",
+  "ename": "MS in Physics",
+  "tags": "理科,物理",
+  "introduction": "专业方向: 物理\n项目类别: STEM\n入学时间: 秋季\n项目时长: 32学分\n项目学费: 66,368美元",
+  "requirements": "所有申请材料必须在东部时间下午五点之前提交如果列出的截止日期是周末或美国联邦假日,则下个工作日将是实际截止日期",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

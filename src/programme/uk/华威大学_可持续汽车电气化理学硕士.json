@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "可持续汽车电气化理学硕士",
+  "ename": "MSc Sustainable Automotive Electrification",
+  "tags": "工科,机械工程,制造学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 35340英镑/年",
+  "requirements": "具有2:1本科学位或同等学历，需要工程学、数学、物理学或计算机科学背景\n具有英国2:2学位或同等学历的申请者在证明相关专业经验后可能会被接受\n该课程非常适合那些有志于成为汽车电气化和可持续发展战略重要领域的研究经理和技术领导者的人",
+  "objectives": "可持续汽车电气化理学硕士是专为对汽车创新感兴趣的工程或STEM毕业生设计的。通过本课程，学生将培养设计和评估比传统汽车对环境影响更低的下一代汽车产品的技能。在环境法规和消费者对汽车质量、可靠性和性能的期望的背景下，学生将学习评估设计、系统集成和验证的不同技术选择和方法，这将推动新节能汽车的市场引进。在WMG最先进的设备中工作，学生将从最新的研究和技术管理创新中获益，这是在国际汽车工业的职业发展的先决条件。本课程将由工程技术学会(IET)代表工程委员会认证，以满足注册为特许工程师的进一步学习要求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "汽车混合动力和电气化 (Automotive Hybridisation and Electrification)\n混合动力汽车应用的储能和高压汽车系统 (Energy Storage and High Voltage Automotive Systems for HEV Applications)\n混合动力和电动汽车应用的推进技术 (Propulsion Technology for Hybrid and Electric Vehicle Applications)\n轻质材料和结构 (Lightweight Materials and Structures)\n系统建模与仿真 (Systems Modelling and Simulation)\n面向科学家和工程师的编程和基础算法 (Programming and Fundamentals Algorithms for Scientists and Engineers)",
+  "success_cases": ""
+}

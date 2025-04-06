@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "化学生物学理学硕士",
+  "ename": "MSc Chemical Biology",
+  "tags": "理科,生物,分子生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1荣誉学位，需要生物化学、生物物理学、化学、分子与细胞生物学、药理学、分子生物学或化学生物学背景；在生物化学和/或分子生物学和/或有机化学和/或物理化学中至少有50%的学分课程，平均成绩达到2:1学校也可以接受化学工程或生物技术学位，学位具备足够的化学，生物化学或生物物理学内容除了较低的资格外，学校也可以接受具有重要相关工作经验的申请者",
+  "objectives": "格拉斯哥大学化学生物学理学硕士项目旨在提供合成化学、生物活性分子领域的高级培训，并提供可用于检查这些系统的生物物理特征技术的详细知识。面向具有良好化学或生物科学本科学位的学生，并将培养具有化学生物学领域核心领域最先进知识的毕业生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分子研究技能 (Molecular Research Skills)\n化学研究技能 (Chemical Research Skills)\n重组蛋白表达 (Recombinant Protein Expression)\n生物分子相互作用 (Biomolecular Interactions)\n生物高分子化学与合成 (Biopolymer Chemistry and Synthesis)\n生物物理学-分子标尺 (Biophysics - Molecular Rulers)\n生物共轭化学 (Bioconjugation Chemistry)\n生物物理学-分子探针 (Biophysics - Molecular Probes)\n化学生物学工具包 (The Chemical Biology Toolkit)\n氧化还原生物学 (Redox Biology)\n化学生物学研究项目 (Chemical Biology Research Project)",
+  "success_cases": ""
+}

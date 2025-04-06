@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 8月\n项目时长: 1年\n项目学费: 71940新币/年",
+  "requirements": "具有良好的本科学位，不限专业背景\n不强制要求提交GMAT/GRE，但良好的GMAT/GRE成绩将有助于申请（如果可以需提供不低于600的GMAT成绩，一般要求GMAT 700或同等水平）\n不要求具备工作经验\n需要提供能够覆盖学费与生活费金额的存款证明（2025学年学费71,940新币，生活费预算至少19,500新币）",
+  "objectives": "新加坡国立大学金融理学硕士项目是专为刚毕业的学生设计的，致力于培养其更好的应对现今金融行业的巨大变大。 新加坡国立大学金融理学硕士项目创新性的融入了自学和体验式教学体验，从而帮助学生了解金融行业最前沿的知识，同时教会学生去发现、运用最有效的手段处理全球金融市场的各种问题。 新加坡国立大学金融理学硕士项目允许学生根据自己的职业目标选择企业金融、金融投资学或金融与技术具体的专业方向进行课程选修。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融学概论  (Introduction to Finance )\n金融建模  (Financial Modelling )\n金融会计  (Accounting for Finance Professionals )\n应用公司金融  (Applied Corporate Finance )\n投资学基础  (Foundation of Investments )\n期权与固定收益  (Options and Fixed Income )\n国际金融与经济  (International Finance and Economics )\n股票、价值投资和投资组合管理  (Equities, Value Investing, and Portfolio Management )\n交易平台和市场机构  (Trading Platforms and Market Institutions )\n固定收益证券  (Fixed Income Securities )\n银行和金融中介机构  (Banking and Financial Intermediaries )\n财务报表分析  (Financial Statement Analysis )\n金融与数据分析技术瓦解  (Technological Disruptions in Finance and Data Analytics )\n金融统计与数据分析（线上课程）  (Statistics and Data-Analytics in Finance (Online) )\n实习项目  (Internship )",
+  "success_cases": ""
+}

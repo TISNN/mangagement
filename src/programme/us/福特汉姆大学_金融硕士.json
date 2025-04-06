@@ -1,0 +1,12 @@
+{
+  "school_name": "福特汉姆大学",
+  "major_name": "金融硕士",
+  "ename": "MS in Finance",
+  "tags": "商科,金融",
+  "introduction": "专业方向: 金融\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1或1.5年\n项目学费: 1682美元/学分\n项目规模: 123人\n男女比例: 48:52",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

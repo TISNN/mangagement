@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "生物信息学理学硕士",
+  "ename": "MSc Bioinformatics",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 28200英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要与生命科学相关的学位背景（例如生物科学、生物化学、动物学、生态学、生物信息学等）或者，如果申请者的学位未在上方列出，通常需要STEM学科背景，还需要在遗传学、基因组学、生物化学或分子生物学课程中获得60%或以上分数（或国际同等水平）\n对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩\n学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们具有相关的研究生学历。如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关资格",
+  "objectives": "生物信息学理学硕士涵盖生物信息学的不同领域，适合有生命科学（生物学、生物化学、遗传学、医学和其他生物科学）等相关学术背景的学生。精通生物信息学毕业生的就业市场正在迅速扩大，并将继续增长，领域涉及编程、机器学习、基因组学、蛋白质结构、进化生物学等。学生将在生命科学学院专家的指导下进行科学研究项目，同时还将学习如何在快速发展的创业环境中利用自己的创新理念。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "科学编程 (Scientific Programming)\n统计与R (Statistics and R)\n创业精神与专业发展 (Entrepreneurship and Professional Development)\n项目计划 (Project Planning)\n小组项目 (Group Project)\n研究项目 (Research Project)\n基因组生物学与基因组学 (Genome Biology and Genomics)\n高级编程 (Advanced Programming)\nD蛋白质结构 (D Protein Structure)\n基因组进化 (Genome Evolution)\n组学 (Omics)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "电脑游戏理学硕士",
+  "ename": "MSc Computer Games",
+  "tags": "工科,计算机,电子工程与计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有本科2:1学位或以上学历，需要电子工程、计算机科学、数学或相关学科背景",
+  "objectives": "伦敦大学玛丽皇后学院计算机游戏理学硕士项目将学习如何使用行业相关技术编写电脑游戏，在游戏开发的背景下比较和选择合适的技术，确定游戏设计的理论和原则，并将其应用于分析特定游戏，描述、比较并应用计算方法进行游戏、交互代理、内容生成和玩家建模，确定游戏和人工智能行业的当前趋势。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "游戏中的人工智能 (Artificial Intelligence in Games)\n多平台游戏开发 (Multi-platform Game Development)\n游戏设计基础 (Fundamental of Game Design)\n交互主体与程序生成 (Interactive Agents and Procedural Generation)\n项目 (Project)\n人工智能 (Artificial Intelligence)\n面向对象程序设计概论 (Introduction to Object-Oriented Programming)\n机器学习 (Machine Learning)\n数据挖掘 (Data Mining)\n计算机视觉概论 (Introduction to Computer Vision)\n计算机图形学 (Computer Graphics)\n高级游戏开发 (Advanced Game Development)\n计算游戏设计 (Computational Game Design)\n计算创造力 (Computational Creativity)\n面向可视化数据分析的机器学习 (Machine Learning for Visual Data Analysis)",
+  "success_cases": ""
+}

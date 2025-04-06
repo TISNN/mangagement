@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "海事工程科学（游艇与高性能船舶）理学硕士",
+  "ename": "MSc Maritime Engineering Science (Yacht and High-performance Craft)",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位，需要以下背景：船舶或海事工程、造船学、船舶科学、航空航天工程、机械工程、通用工程、电气工程、物理学、数学\n申请者还需要在数学和力学课程中成绩达到2:1\n学校可能考虑具有海洋学或建筑学本科学位的申请者，或者来自海洋学院的申请者\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "海事工程科学（游艇与高性能船舶）理学硕士的学生将专门从事游艇、小船和高性能船只的分析、设计和性能研究，了解帮助它们运行的固定和离岸结构。毕业后，学生将具备海事工程科学方面设计和分析船舶与结构的专业技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "游艇和高性能船只 (Yacht and High Performance Craft)\n船舶科学基础 (Fundmentals of Ship Science)\n海洋法与管理 (Marine Law and Management)\n固体力学中的有限元分析 (Finite Element Analysis in Solid Mechanics)\n制造与材料 (Manufacturing and Materials)\n计算流体动力学应用 (Applications of CFD)\n高级传感器和状态监测 (Advanced Sensors and Condition Monitoring)\n船舶阻力与推进的研究进展 (Advances in Ship Resistance and Propulsion)\n游艇和动力艇设计 (Sailing Yacht and Powercraft Design)\n海洋安全与环境工程 (Marine Safety and Environmental Engineering)\n复合材料工程设计与力学 (Composites Engineering Design and Mechanics)\n船舶操纵与控制 (Ship Manoeuvring and Control)\n海洋水动力学 (Marine Hydrodynamics)\n海洋工程结构 (Marine Structures)",
+  "success_cases": ""
+}

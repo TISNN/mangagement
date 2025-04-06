@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "建筑管理与工程理学硕士（含专业实践）",
+  "ename": "MSc Construction Management and Engineering (including Professional Practice)",
+  "tags": "工科,工程管理,基础设施与可持续发展工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 2年\n项目学费: 12000英镑/年",
+  "requirements": "具有2.2学位（工学/理学学士）或同等学历，需要建筑相关学科背景\n或具有非相关学科2.1学位或同等学历以及建筑行业经验",
+  "objectives": "阿斯顿大学施工管理与工程理学硕士课程为建筑工程和管理专业人员提供详细和先进的基本原理、关键技能和适用实践方面的基础知识。这将使建筑专业人员发展他们对项目和商业环境、主要功能和流程的知识，以及应用知识解决复杂项目和组织问题的能力。您将培养管理复杂建筑项目的能力，在风险条件下做出运营、战略和财务决策，并为项目和组织的绩效做出贡献。阿斯顿大学施工管理与工程理学硕士课程将为建筑专业人员提供必要的分析工具和技能，使您能够应对建筑工程和管理中复杂的本地和全球挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目管理 (Project Management)\n数字化工程与智能建造 (Digital Engineering and Smart Construction)\n民用基础设施的监测和管理 (Monitoring and Management of Civil Infrastructure)\n基础设施工程与跨学科设计 (Infrastructure Engineering and Inter-disciplinary Design)\n项目规划与控制 (Project Planning and Control)\n采购和合同 (Procurement and Contracts)\n建筑业的战略财务管理 (Strategic Financial Management in Construction)\n研究方法 (Research Methods)\n论文 (Dissertation)\n专业实践 (Professional Practice)",
+  "success_cases": ""
+}

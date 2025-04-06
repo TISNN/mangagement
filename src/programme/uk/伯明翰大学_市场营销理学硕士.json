@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "市场营销理学硕士",
+  "ename": "MSc Marketing",
+  "tags": "商科,市场营销,商学院",
+  "introduction": "专业方向: 市场营销\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有英国大学（或海外同等机构）颁发的荣誉学位（2:1或更高水平）或研究生文凭，不限专业背景\n能够证明超过最低入学要求的申请者将被优先考虑",
+  "objectives": "伯明翰大学市场营销理学硕士项目专为那些没有营销学背景知识的人设计，该课程将着力培养学生的营销专业知识以及获得成功的职业生涯所需的分析，沟通能力，提高学生的道德素养。在充满活力的且不断变化的商业世界中，营销理论和实践创造在不断发展，因此，该计划的创新设计采用“块”教学方法，提供更加身临其境的学习体验，让学生能够专注于所选的途径。学员们将通过该课程的教学模块学习营销的理论和实践，同时有机会专注于数字，全球或负责任的营销途径，这将使毕业生为组织面临的未来挑战做好准备，例如数字化和可持续性，行业研讨会和职业规划将帮助学员获得有用的技能，例如高效工作能力和坚韧的精神。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "消费者行为 (Consumer Behaviour)\n市场营销管理 (Marketing Management)\n市场调研 (Marketing Research)\n营销策略与策划 (Marketing Strategy and Planning)\n研究论文 (Research Dissertation)\n企业对企业关系 (Business to Business Relationships)\n网络营销 (E-Marketing)\n营销传播 (Marketing Communications)\n产品与创新管理 (Product and Innovation Management)\n责任经营原则 (Responsible Marketing and Society)\n零售营销 (Retail Marketing)",
+  "success_cases": ""
+}

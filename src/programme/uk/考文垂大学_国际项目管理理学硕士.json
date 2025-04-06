@@ -1,0 +1,12 @@
+{
+  "school_name": "考文垂大学",
+  "major_name": "国际项目管理理学硕士",
+  "ename": "MSc International Project Management",
+  "tags": "工科,工程管理,考文垂大学伦敦校区",
+  "introduction": "专业方向: 工程管理\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 20050英镑/年",
+  "requirements": "具有2:2荣誉学位，或在私营、公共或第三方部门的适当工作经验（至少两年是可取的），或相关专业资格",
+  "objectives": "考文垂大学国际项目管理理学硕士课程提供了学术和实践学习的完美结合，这两者都通过一系列的必修课和选修课来探索。在整个过程中，学生将有机会发展自己的分析和批判性思考能力，并对一系列商业问题提出切实可行的项目管理解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际商业策略与投资组合管理 (International Business Strategy and Portfolio Management)\n应用国际项目管理 (Applied International Project Management)\n市场营销，沟通与谈判基础 (Fundamentals of Marketing, Communication and Negotiation)\n人事管理与跨文化领导 (People Management and Cross-Cultural Leadership)\n高级项目管理–专业方法与实践 (Advanced Project Management – Professional Approaches and Practices)\n项目管理模拟 (Project Management Simulation)\n管理国际项目中的紧急情况，风险与安全 (Managing Emergency, Risk and Safety in International Projects)\n商业与管理研究方法 (Business and Management Research)\n期末项目 (Final Term Project)",
+  "success_cases": ""
+}

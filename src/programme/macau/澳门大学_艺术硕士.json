@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "艺术硕士",
+  "ename": "Master of Fine Arts",
+  "tags": "社科,艺术,人文学院",
+  "introduction": "专业方向: 艺术\n入学时间: 8月\n项目时长: 3年\n项目学费: 72500澳门币/年",
+  "requirements": "持有澳门大学认可的学士学位或同等学历。申请人也可能被要求具备其他知识或专业经验。申请人必须在学士学位学习中达到相当于C级或更高的总成绩\n要求具有美术学士学位；需要提交艺术作品集，其中应包含10至20张图片",
+  "objectives": "澳门大学美术硕士项目旨在培养实践具有扎实的艺术行业从业理论基础。该项目强调跨学科的当代艺术实践方法，以及对艺术史和艺术理论的深入了解。完成课程后，毕业生将能够:\n制定并实施可行的艺术项目\n运用所学技能、能力和理论基础进行实际的努力或文学写作\n创意视觉上的衔接和概念上的统一的艺术体工作",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "艺术历史 (Art History )\n艺术理论 (Art Theory)\n艺术学术写作 (Academic Writing for Arts)\n艺术展览 (Art Exhibitions)\n项目报告 (Project Report)\n透视与构图 (Perspective and Composition)\n写生与艺术创作 (Sketching from Nature and Artistic Creation)\n数字与新媒体艺术 (Digital and New Media Art)\n艺术专业实践 (Professional Practice in Arts)",
+  "success_cases": ""
+}

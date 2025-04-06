@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "供应链管理理学硕士",
+  "ename": "MSc Supply Chain Management",
+  "tags": "商科,供应链管理,基础设施与可持续发展工程学院",
+  "introduction": "专业方向: 供应链管理\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23500英镑/年",
+  "requirements": "具有一等或二等荣誉学位或同等学历",
+  "objectives": "阿斯顿大学供应链管理理学硕士项目由阿斯顿大学商学院和工程应用科学学院联合开设，将使学生深入了解供应链管理和物流的理论和应用理念。通过学习项目中的专业课程，学生将接触供应链管理的专业领域，包括：关系、合作伙伴关系、企业资源规划、模拟、采购、合同、计划和优化。该项目将使学生能够：提升专业技能和知识，从而从事供应链管理和物流方面的工作或促进其进展。获得英国皇家采购与供应学会和特许管理协会的资格认证。在全球商业环境背景下，加深对战略决策、政策和实践的理解。研究业务领域的更广泛层面，将供应链战略、政策和实践与业务和组织战略相结合。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人力资源与变革管理 (Human Resources and Change Management)\n管理决策制定模拟 (Simulation for Managerial Decision Making )\n战略金融 (Strategic Finance)\n战略管理与金融 (Strategic Management and Finance)\n研究方法 (Research Methods)\n供应管理 (Supply Management)\n物流和运输 (Logistics and Transportation)\n运作效率、精益和敏捷制造 (Operational Effectiveness, Lean and Agile Manufacturing)\n论文 (Dissertation)",
+  "success_cases": ""
+}

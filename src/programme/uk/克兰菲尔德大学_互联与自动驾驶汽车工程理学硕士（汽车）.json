@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "互联与自动驾驶汽车工程理学硕士（汽车）",
+  "ename": "MSc Connected and Autonomous Vehicle Engineering (Automotive)",
+  "tags": "工科,机械工程,运输系统",
+  "introduction": "专业方向: 机械工程\n入学时间: 10月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "需要有工程学、数学或应用科学相关背景",
+  "objectives": "汽车制造商和科技公司正在开发新的自动驾驶技术，这些技术将重新定义交通的未来。随着智能汽车功能的迅速普及，汽车行业需要工程师和程序员具备独特的技能。该课程旨在培养学生在自动导航、传感和感知、系统集成、人为因素和道德/法律框架等方面的技术和可转移技能，为学生在汽车行业的职业生涯做准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "道路车辆工程基础 (Fundamentals of Road Vehicle Engineering)\n路径规划，自治和决策 (Path Planning, Autonomy and Decision Making)\n传感器，感知和可视化 (Sensors, Perception and Visualisation)\n系统工程 (Systems Engineering)\n嵌入式车辆控制系统 (Embedded Vehicle Control Systems)\n交通系统优化 (Transport System Optimisation)\n人因、人机交互和高级驾驶辅助系统 (Human Factors, Human-Computer Interaction and Advanced Driver Assistance Systems (ADAS))\n网络系统与网络安全 (Networked Systems and Cybersecurity)\n道德、安全和法规 (Ethics, Safety and Regulation)\n技术战略和商业模式 (Technology Strategy and Business Models)",
+  "success_cases": ""
+}

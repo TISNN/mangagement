@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "人工智能与政府理学硕士",
+  "ename": "MSc AI and Government",
+  "tags": "工科,计算机,社会科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 30370英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要相关领域背景\n常规入学要求：\n具有英国大学颁发的2:1学士学位或同等学历，不限专业背景\n除此之外，申请者还必须通过以下其中一项证明具备较强的数学能力：\n- A-Level数学（或同等学历）成绩达到Grade A或以上水平（如果申请者的第一学位不是数学）\n- 成功完成伯明翰大学的人工智能与数据科学数学微证书\n符合学士学位要求但不符合数学先决条件的申请者可能可以获得有条件录取，前提是在申请截止日期之前成功完成人工智能与数据科学数学微证书\n如果申请者在英国以外的地方学习，没有参加A-level，也可以检查其是否持有合适的同等资格",
+  "objectives": "伯明翰开创性的人工智能与政府理学硕士项目培养了跨学科的变革者，他们同样精通技术和道德复杂性。通过实践公共部门项目，社会科学学生已经准备好负责任地指导这些技术造福公众。\n伯明翰人工智能与政府理学硕士项目专为雄心勃勃、寻求推动变革的社会科学家而设计，旨在培养学生在机器学习、自然语言处理、生成式人工智能和数据科学等领域的技术能力，以及负责任的人工智能治理的道德见解。通过跨学科课程，学生将获得使用真实数据集解决从公共卫生到交通基础设施等政策问题的实践经验。我们的专家涵盖计算机科学和政治学，为学生提供多种能力，以利用人工智能塑造成果，从改善政府运作到优化公共服务交付和现代化法规。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学算法 (Algorithms for Data Science)\n数据科学的当前主题 (Current Topics in Data Science)\n数据科学编程 (Programming for Data Science)\n人工智能政府与政策 (AI Government and Policy)\n人工智能的治理与政治 (Governance and Politics of AI)\n人工智能与政府项目 (AI and Government Project)\n人工智能应对全球挑战 (AI for Global Challenges)\n进行政治研究 (Doing Political Research)\n全球环境治理 (Global Environmental Governance)\n全球化与治理 (Globalisation and Governance)\n公共服务领导力 (Leadership in Public Services)\n制定政策 (Making Policy)\n绩效、策略与挑战 (Performance, Strategy and Challenge)\n公共财政管理 (Public Financial Management)\n公共领导 (Public Leadership)",
+  "success_cases": ""
+}

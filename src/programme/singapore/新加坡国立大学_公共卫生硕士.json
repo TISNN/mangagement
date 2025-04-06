@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "公共卫生硕士",
+  "ename": "Master of Public Health",
+  "tags": "社科,公共卫生,公共卫生学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 8月\n项目时长: 1年\n项目学费: 95200新币/年",
+  "requirements": "针对有医学背景的申请者：\n- 具有医学学士学生或同等学历\n- 具备1年常规临床经验，不包括新加坡培训医生的实习期\n- 具备1年公共卫生/卫生管理/职业与环境卫生工作经验或已进入临床专科培训；或参加过国立卫生研究院预防医学住院医师培训课程\n针对非医学背景的申请者：\n- 具有良好的荣誉学位或同等学历\n- 具备2年公共卫生/健康促进/卫生管理/职业与环境卫生/临床研究工作经验\n需要提供存款证明（能够涵盖学费和生活费）",
+  "objectives": "新加坡国立大学公共卫生硕士学位课程为学生提供严谨的跨学科研究方法，使之能够从容应对亚洲当前和未来可能会出现的公共健康问题，提出科学合理的创新性解决方案。基于新加坡国立大学先进的教学体系以及与新加坡国立大学医院、李光耀公共政策学院、商学院、文学院、社会科学与工程学院的密切合作关系，新加坡国立大学公共卫生硕士学位课程能够始终确保向学生提供先进的科研设施以及综合的课程教学模式。新加坡国立大学公共卫生硕士学位课程的学生将有机会接触公共健康领域内的传统议题及新兴研究焦点，通过专业的学习和培训，提高自身在区域性或国际环境下的领导力和行政管理能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "流行病学原理 (Principles of Epidemiology)\n定量流行病学方法 (Quantitative Epidemiologic Methods)\n卫生政策和制度 (Health Policy and Systems)\n环境及职业健康  (Environmental and Occupational Health)\n健康和疾病状态下的生活方式和行为 (Lifestyle and Behaviour in Health and Disease)\n专业实习 (Practicum)\n传染病的控制 (Control of Communicable Diseases )\n健康经济学和金融  (Health Economics and Financing)\n医疗机构管理 (Management of Healthcare Organisations)\n护理质量的评估和管理 (Measuring and Managing Quality of Care)\n非传染性疾病的控制 (Control of Non-Communicable Diseases )\n健康服务研究导论 (Introduction to Health Services Research )\n高级流行病学 (Advanced Epidemiology)\n高级计量方法 (Advanced Quantitative Methods)\n临床流行病学方法 (Clinical Epidemiologic Methods)",
+  "success_cases": ""
+}

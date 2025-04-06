@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "机器人学理学硕士",
+  "ename": "MSc Robotics",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 59950新币/年",
+  "requirements": "具有知名大学颁发的学士学位（至少达到新加坡国立大学二等荣誉学位或同等水平），需要工程、物理、数学或计算机科学背景\n没有荣誉学位的申请者将酌情录取，根据学习期间的成绩、强大技术背景的证明和至少2年工作经验（偏好机械工程和/或机器人工程领域）被考虑",
+  "objectives": "机器人技术是国际上日益增长的行业之一，需要跨学科的开放式技术专长。新加坡国立大学机器人学理学硕士课程旨在为学生提供机器人学的基础知识，为他们在未来机器人领域、工业4.0及其他领域取得成功提供必要的深度和广度的专业知识，机器人技术领域广阔，在各个工业领域都有应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "机器人运动学 (Robot Kinematics)\n机器人动力学与控制 (Robot Dynamics and Control)\n机器人材料、传感器、制动器与制造 (Materials, Sensors, Actuators & Fabrication in Robotics)\nRobot Vision and AI (Robot Vision and AI)\n机器人项目 1 (Robotics Project 1)\n机器人项目 2 (Robotics Project 2)\n医疗保健机器人 (Robotics for Healthcare)\n自主移动机器人 (Autonomous Mobile Robotics)\n动态系统优化技术 (Optimization Techniquesfor Dynamic Systems)\n高级软机器人技术 (Advanced Soft Robotics)\n机器人工程数学 (Mathematicsfor Robotics Engineering)\n机器人学中的机器学习 (Machine Learning in Robotics)\n概率机器人操纵 (Probabilistic Robotics for Manipulation)\n机器人主题 (Topics in Robotics)\n人机交互 (Human-Robot Interaction )\n自主机器人导航 (Autonomous Robot Navigation)\n医疗机器人 (Medical Robotics)\n人工智能规划与决策 (AI Planning and Decision Making)",
+  "success_cases": ""
+}

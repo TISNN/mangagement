@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "工程企业管理理学硕士",
+  "ename": "MSc Engineering Enterprise Management",
+  "tags": "工科,工程管理,工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 241500港币/年",
+  "requirements": "具有学士学位或同等学历，偏好理工科背景",
+  "objectives": "在当今的知识经济时代，公司和企业要在国际市场上占据一席之地，必须要面临成本、质量和时间等方面的残酷竞争。为了确保公司在全球竞技场上获胜，必须掌握物流管理、供应链管理、六西格玛方法和有效的信息技术配置等前沿的管理技能知识。在学生开始管理生涯之前，除了掌握这些先进的管理技能外，还必须接受基础管理培训，例如运营管理、项目管理、人力管理和基本企业管理等方面的培训。香港科技大学工程企业管理硕士课程是由香港科技大学工学院和商学院合作举办的，专为有意投入或发展管理事业的专业技术人员度身定制的独特硕士课程。该课程提供了从各级负责管理到中层管理乃至全球企业管理的实际知识和技能。香港科技大学工程企业管理硕士课程是一个综合性的管理培训课程，适用于希望投入管理事业的各类学科的在职工程师和科学工作者。行业经理人员期望通过接受最新的高级管理技能培训，促进他们未来在全球企业（服务业或制造业）的事业生涯。参加本课程的学习将使他们受益匪浅。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "科技管理原则与方法 (Principles and Techniques for Technical Management)\n营运 / 生产管理 (Operation/Production Management)\n运输及物流管理 (Transportation and Logistics Management)\n六西格玛质量管理 (Six Sigma Quality Management)\n产品发展管理 (Product Development Management)\n全球供应链管理 (Global Supply Chain Management)\n全球企业信息技术系统 (IT System for Global Enterprise)\n工程统计和模拟分析 (Engineering Statistics and Simulation)\n工程经济和成本管理 (Engineering Economics and Cost Management)\n服务业经营管理 (Service Operations Management)\n独立研究 (Independent Study)\n工程企业管理特别课题 (Special Topics in Engineering Enterprise Management)\n经理会计学 (Accounting for Managers)\n基本经济学和金融学 (Fundamentals of Economics & Finance)\n市场管理及策略 (Marketing Management & Strategy)",
+  "success_cases": ""
+}

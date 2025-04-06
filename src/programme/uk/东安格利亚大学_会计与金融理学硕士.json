@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "会计与金融理学硕士",
+  "ename": "MSc Accounting and Finance",
+  "tags": "商科,金融,诺维奇商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 24300英镑/年",
+  "requirements": "具有英国2:1学士学位或同等学历，需要会计、金融、商业、经济、管理或定量学科学位背景（如理工科）",
+  "objectives": "东安格利亚大学会计与金融理学硕士学位课程面向有意在企业和公共部门发展成功职业生涯，从事财务会计、管理会计、审计员、基金经理、财务经理或财务分析师的人士。\n在东安格利亚大学会计与金融理学硕士学位课程的学习中，学生将全面理解国际管理会计、投资、公司融资及管治方面最重要的理论。\n东安格利亚大学会计与金融理学硕士学位课程涵盖实际案例研究、研讨会及上机实验课程，使学生深入理解当今会计和金融从业者使用的最新定量和定性工具。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级财务管理 (Advances in Financial Management)\n国际会计 (International Accounting)\n商业监管和企业管治 (Business Regulation and Corporate Governance)\n商业研究方法 (Business Research Methods)\n投资和风险管理 (Investment and Risk Management)\n管理学 (Management)\n会计和金融论文 (Accounting and Finance Dissertation)",
+  "success_cases": ""
+}

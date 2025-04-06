@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯敏斯特大学",
+  "major_name": "网络安全与取证理学硕士",
+  "ename": "MSc Cyber Security and Forensics",
+  "tags": "工科,计算机,计算机科学与工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 17500英镑/年",
+  "requirements": "具有计算相关学科的2:2荣誉学位，如果第一学位不包含很强的计算元素，学校可能将申请者的工作经验和其他资格纳入考虑范围",
+  "objectives": "计算机对我们日常生活的方方面面都至关重要，由于从通信到银行等行业都开始依赖计算机，对改进计算机安全的需求从未像现在这样强烈。威斯敏斯特大学网络安全与取证理学硕士课程聚焦于网络安全的两个方面：分析和评估风险以及如何将其最小化，以及如何从广泛的系统和设备中提取和使用数字信息。学生将了解计算机系统所面临的安全威胁的本质，以及存储在数字设备上的信息类型(以及如何从它们中提取信息)。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "网络安全证据与程序 (Cyber Security Evidence and Procedure)\n安全技术基础 (Fundamentals of Security Technology)\n网络安全 (Network Security)\n硕士项目 (MSc Project)\n网络安全应用 (Cyber Security Applications)\n网络安全威胁与对策 (Cyber Security Threats and Countermeasures)\n风险管理 (Risk Management)",
+  "success_cases": ""
+}

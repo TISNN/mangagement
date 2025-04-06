@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "工程计算与软件技术理学硕士（技术计算软件工程）",
+  "ename": "MSc Computational and Software Techniques in Engineering (Software Engineering for Technical Computing)",
+  "tags": "工科,计算机,航空航天",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "具有航空、机械或电气工程或计算机科学背景，有C语言编程经验加分",
+  "objectives": "随着越来越复杂和强大的计算机环境的出现，开发和生产在这些系统上运行的软件所需的技术本身也变得越来越复杂。克兰菲尔德大学工程计算与软件技术理学硕士（技术计算软件工程）课程的独特之处在于，它将软件工程与高性能计算结合在一起，为学生提供雇主正在寻找的工具和技术，并在就业市场上占有优势。克兰菲尔德大学工程计算与软件技术理学硕士（技术计算软件工程）课程为跨多种现代计算环境（从多核CPU到专业GPU到云计算）的计算机应用程序开发提供独特的见解，所有这些都与今天的IT行业相关。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算方法 (Computational Methods)\nC++编程 (C++ Programming)\n技术管理 (Management for Technology)\n小规模并行编程 (Small-Scale Parallel Programming)\n高性能技术运算 (High Performance Technical Computing)\n需求分析与系统设计 (Requirements Analysis and System Design)\n云计算 (Cloud Computing)\n软件测试与质量保证 (Software Testing and Quality Assurance)\n可视化 (Visualisation)",
+  "success_cases": ""
+}

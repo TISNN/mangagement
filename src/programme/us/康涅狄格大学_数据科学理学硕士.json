@@ -1,0 +1,12 @@
+{
+  "school_name": "康涅狄格大学",
+  "major_name": "数据科学理学硕士",
+  "ename": "MS in Data Science",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 11个月\n项目学费: 1,150美元/学分",
+  "requirements": "GPA3.0，\n微分学一学期\n统计学一学期\n编程经验(R/Python优先，但不是必需)",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 40000英镑/年",
+  "requirements": "申请者必须能够证明在一个或多个具有重要管理责任的职位上具备毕业后至少3年连续工作经验\n具有一等或2:1学士学位或同等学历（不符合此要求的申请者将被要求提交一份证明管理经验、批判性思维技能和沟通技巧等领域能力的证据组合）",
+  "objectives": "杜伦大学工商管理硕士课程将提升学生的关键业务和领导能力，使学生在快速变化的全球商业环境中脱颖而出，从而改变其职业生涯。结合理论和商业实践经验，杜伦大学工商管理硕士项目将在与学生的职业抱负紧密结合的个性化职业道路上提升其知识和能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计与金融 (Accounting and Finance)\n全球商业经济 (Economics for Global Business)\n人才领导与管理 (Leading and Managing People)\n市场营销 (Marketing)\n运营与技术 (Operations and Technology)\n战略管理 (Strategic Management)\n董事会行使 (The Boardroom Exercise)\n可持续性 (Sustainability)\n战略业务项目 (Strategic Business Project)\n背景下的国际商务 (International Business in Context)\n职业发展领导技能模块 (Careers Advancement Leadership Skills module)\n管理咨询 (Management Consultancy)\n项目管理 (Project Management)\n创业学 (Entrepreneurship)\n创业 (New Venture Creation)\n技术创新 (Technology Innovation)\n商业分析 (Business Analytics)",
+  "success_cases": ""
+}

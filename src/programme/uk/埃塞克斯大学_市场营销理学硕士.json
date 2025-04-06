@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "市场营销理学硕士",
+  "ename": "MSc Marketing",
+  "tags": "商科,市场营销,埃塞克斯商学院",
+  "introduction": "专业方向: 市场营销\n入学时间: 10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要市场营销、广告、工商管理、传播、管理学、社会学、心理学或媒体研究背景",
+  "objectives": "现代营销需要全球思维模式。今天的营销人员不仅需要了解消费者的需求，他们还必须能够与不同的、全球性的受众进行沟通，并对文化和国际差异保持敏感。在埃塞克斯，我们为学生提供了在复杂的全球经济中组织所需要的技能。\n在埃塞克斯大学市场营销理学硕士课程中，学生将学习如何分析和应用市场营销策略理论，从而理解其社会、政治和文化背景。我们从营销组合的角度出发，探索对该学科的更广泛影响以及营销人员面临的挑战，如性别刻板印象、营销伦理和在国际上推广产品和服务。学生将发展视觉素养并具有创造性和独立思考的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n组织行为学与人力资源管理 (Organisational Behaviour and Human Resource Management)\n管理学与营销学研究方法 (Research Methods in Management and Marketing)\n品牌营销战略 (Strategic Brand Marketing)\n消费者行为学 (Consumer Behaviour)\n观点营销 (Perspectives on Marketing)\n数字营销与社交媒体 (Digital Marketing and Social Media)\n跨文化管理 (Managing Across Cultures)",
+  "success_cases": ""
+}

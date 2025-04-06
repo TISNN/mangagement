@@ -1,0 +1,12 @@
+{
+  "school_name": "乔治城大学",
+  "major_name": "物理学硕士",
+  "ename": "MS in Physics",
+  "tags": "理科,物理",
+  "introduction": "专业方向: 物理\n项目类别: STEM\n入学时间: 秋季\n项目时长: 27/30学分\n项目学费: 59,895美元",
+  "requirements": "申请者需要提供Self-Reported GPA",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

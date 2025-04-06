@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "货币、银行与金融经济理学硕士",
+  "ename": "MSc Money, Banking and Financial Economics",
+  "tags": "商科,经济,管理学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 31000英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要经济学或以定量为重点的相关学科背景，也鼓励拥有定量科学学科（如数学、物理、统计学、运筹学）的学生申请",
+  "objectives": "利物浦大学货币、银行与金融经济理学硕士项目为学生提供关键知识，以了解当前货币、财政和宏观审慎政策制定方面的争论。该计划非常强调技术技能，教您如何模拟经济问题、进行严格的实证分析以及与不同的受众讨论他们的工作以产生有意义的见解。该计划中的课程涵盖宏观经济和金融领域的广泛领域，使学生能够研究世界经济当前面临的许多问题，包括英国退欧和不断上升的贸易壁垒、金融和银行业监管以及加密货币经济学。\n利物浦大学货币、银行与金融经济理学硕士项目的一个重要特点是，这些课程由世界一流的研究人员教授，他们在领先的学术期刊上就他们教授的主题发表文章。许多教师与企业、政府和非营利组织保持着密切的关系，将他们的研究与现实世界的影响联系起来。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计量经济学和统计方法 (Econometric and Statistical Methods)\n宏观经济分析 (Macroeconomic Analysis)\n微观经济分析 (Microeconomic Analysis)\n国际经济学 (International Economics)\n应用宏观计量经济学 (Applied Macroeconometrics)\n货币与银行 (Money and Banking)\n金融市场经济学 (Economics in Financial Markets)\n经济学时事 (Current Topics in Economics)\n机器学习与大数据计量经济学 (Machine Learning and Big Data Econometrics)\n论文 (Dissertation)",
+  "success_cases": ""
+}

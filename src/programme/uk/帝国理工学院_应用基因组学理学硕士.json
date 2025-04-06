@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "应用基因组学理学硕士",
+  "ename": "MSc Applied Genomics",
+  "tags": "工科,生物工程,医学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 45000英镑/年",
+  "requirements": "具有2:1学位，需要化学、生物化学、生理学或相关生物医学学科背景\n不符合所列学术要求但具备丰富相关行业经验的申请者在完成“特殊资格考试”（SQE）后可能会被例外录取",
+  "objectives": "帝国理工学院应用基因组学理学硕士课程将教学生如何生成并处理与生物过程和疾病相关的“大数据”。学生将学习提取相关信息，并对所选目标执行功能分析和验证，在实验室中应用新的实验技术，以利用大量数据来理解疾病成因，并尝试找到治愈方法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "多组学研究导论 (Introduction to Multi-omics Research)\n非编码RNA，基因编辑与体外建模 (Non-coding RNAs, Gene Editing and In Vitro Modelling)\n人体材料和数据的体内建模和使用 (In Vivo Modelling and Use of Human Material and Data)\n核心及专业技能 (Core and Professional Skills)\n系统综述 (Systematic Review)",
+  "success_cases": ""
+}

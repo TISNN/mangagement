@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "生物技术理学硕士",
+  "ename": "MSc Biotechnology",
+  "tags": "理科,生物,生命科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 26400英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要生物科学学科背景\n申请者必须拥有项目主任认可的科学背景",
+  "objectives": "利物浦大学生物技术理学硕士项目吸收了主要行业参与者的意见，以满足专业生物信息学家缩小当前和新兴技能间的差距。项目旨在拓宽学生对生物技术领域及其应用方面的深层化知识，培养学生在生物学、统计分析、计算机以及再生物技术不同领域工作所必需的技能。项目配备有国际一流的研究中心，包括利物浦大学计算生物学设施、新成立的代谢组学中心、蛋白质组学中心、基因组研究中心和材料工厂，由国际知名科学家担任教授。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究导论 (Introduction to Research )\n理学硕士研究项目 (MSc Research Project )\n生物研究高级统计学 (Advanced Statistics for Biological Research )\n生命科学信息学 (Informatics for Life Sciences )\n细胞生物技术与生物成像 (Cellular Biotechnology and Biological Imaging)\n计算生物学 (Computational Biology )\n蛋白质组学、代谢组学和数据分析 (Proteomics Metabolomics and Data Analysis )\n合成生物学及生物技术 (Synthetic Biology and Biotechnology )",
+  "success_cases": ""
+}

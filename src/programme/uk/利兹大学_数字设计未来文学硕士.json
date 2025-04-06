@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "数字设计未来文学硕士",
+  "ename": "MA Digital Design Futures",
+  "tags": "社科,其他社科,设计学院",
+  "introduction": "专业方向: 其他社科\n入学时间: 9月\n项目时长: 1年\n项目学费: 32250英镑/年",
+  "requirements": "具有2:1荣誉学士学位或同等学历，偏好艺术设计、建筑学、产品设计、计算机科学、社会科学、商业、医疗保健和心理学背景\n需要提交作品集（如3D/2D建模作品、Web/移动设计项目、以及他数字设计想法与概念）",
+  "objectives": "利兹大学数字设计未来文学硕士项目旨在帮助学生获得快速发展的数字设计领域所需的理论理解和实践技能。学生将了解沉浸感和神经科学的理论，并通过新的专用工作室XLAB的一系列创造性项目，直接借助最新的软件和硬件发展实际操作经验。通过学习设计思维和以人为本的设计，学生将发展为目标受众开发系统和解决方案的能力，使其设计最好地满足他们的需求。利兹大学数字设计未来文学硕士项目还将发展学生对创业思维的理解，这将帮助其利用大数据和技术（如VR/AR、物联网、AI、UX和投影映射）带来的创造性机会。雪将探索虚拟现实、增强现实和人工智能如何增强创作过程以及它们帮助创造的新机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计研究方法 (Research Methods for Design)\n设计构想 (Design Speculation)\n为沉浸感和参与感而设计 (Designing for Immersion & Engagement)\n体验式实践 (Experiential Practice)\n专业项目 (Specialist Project)",
+  "success_cases": ""
+}

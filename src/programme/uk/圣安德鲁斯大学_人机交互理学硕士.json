@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "人机交互理学硕士",
+  "ename": "MSc Human Computer Interaction",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 29990英镑/年",
+  "requirements": "具有good 2:1本科荣誉学位",
+  "objectives": "圣安德鲁斯大学人机交互理学硕士项目为学生提供工具、知识和技能，以帮助他们成为用户体验、可用性、信息可视化、计算机系统中的人为因素以及人机交互领域的从业者。项目有以下优势：是专业项目，但保留了课程的灵活性，除必修专业外，学生可选择计算机科学领域中的其他部分进行学习。致力于培养学生在学习计算机交互系统原型及应用实践过程中获得实际技能。学生承担重要课题，包括广泛调查与大量软件开发，以及最终的论文，以帮助他们巩固和扩展专业知识及批判性思维。学校设有现代化计算机实验室，实验室配备双屏计算机工作站及小组工作设施。学生有24小时访问现代化计算机实验室的权限。学校设有专门的人机交互实验室，实验室内配备专业设备，包括84英寸的微软集线器、3D打印机、谷歌固态传感器及各种眼球追踪运动捕捉设备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士核心技能 (Masters Core Skills:)\n面向对象的建模、设计和编程 (Object-Oriented Modelling、Design and Programming:)\n人机互动原理和方法 (Human Computer Interaction Principles and Methods)\n互动软件和硬件 (Interactive Software and Hardware:)\n用户为中心的交互设计 (User-Centred Interaction Design)\n信息可视化和视觉分析 (Information Visualisation and Visual Analytics)\n硕士编程项目 (Masters Programming Projects)\n人工智能原理 (Artificial Intelligence Principles)\n人工智能 (Artificial Intelligence Practice)\n语言和计算 (Language and Computation)\n高级网络 (Advanced Networks)\n移动和无线网络 (Mobile and Wireless Networks)\n软件工程原理 (Software Engineering Principles)\n软件工程实践 (Software Engineering Practice)\n关键系统工程 (Critical Systems Engineering)",
+  "success_cases": ""
+}

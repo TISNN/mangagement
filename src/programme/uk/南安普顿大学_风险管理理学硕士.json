@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "风险管理理学硕士",
+  "ename": "MSc Risk Management",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位，需要包含定量研究的学科背景，如：会计学、金融学、商业、数学、工程学、科学、经济学\n需要能够证明数学、统计学、微积分和代数知识\n学校不接受以下学科背景：\n- 语言研究——不接受专注于学习一门语言或如何翻译的学位，例如“商务英语”、“应用英语”或“翻译”，这一限制不适用于在英国授课的“英语”和“英国文学”学位；\n- 艺术/设计/职业研究——专注于学习一种特定形式的艺术、工艺或职业的学位，这些包括艺术、平面设计、摄影、电视广播、剧本写作或表演/舞蹈学位。\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学风险管理理学硕士项目教授学生风险管理方面的知识，学生可以将技术和理论应用于不止金融和工程领域。本课程适合有一些专业经验并且想在行业中推进风险管理实践知识或者想在本科毕业后继续专攻该专业的学生。学生将探索风险的不同方面，并通过金融、定量方法和公司安全等领域的可选模块选择来学习感兴趣的领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "定量方法 (Quantitative Methods)\n企业风险管理过程 (Corporate Risk Management Processes)\n风险管理原理 (Principles of Risk Management)\n咨询技能 (Consultancy Skills)\n问题结构化 (Problem Structuring)\n公司证券管理 (The Management of Corporate Security)\n商业道德 (Business Ethics)\n仿真 (Simulation)\n数据挖掘多元统计 (Multivariate Statistics for Data Mining)\n论文 (Dissertation)\n金融风险管理 (Financial Risk Management)\n公司金融 (Corporate Finance)\n信用风险评分与数据挖掘 (Credit Scoring and Data Mining)\n医疗保健建模 (Healthcare Modelling)\n商业博弈论 (Game Theory in Business)",
+  "success_cases": ""
+}

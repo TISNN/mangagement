@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "医疗保健运营管理理学硕士",
+  "ename": "MSc Healthcare Operational Management",
+  "tags": "社科,公共卫生,制造学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 35340英镑/年",
+  "requirements": "具有2:1本科学位或同等学历，需要技术、医学、科学、管理和社会科学等一系列学科背景\n具有英国2:2学位或同等学历的申请者在证明相关专业经验后可能会被接受\n该课程旨在满足对复杂医疗保健服务部门的管理或领导角色感兴趣的毕业生的特定需求和要求",
+  "objectives": "华威大学医疗保健运营管理理学硕士项目旨在满足对复杂卫生服务部门的管理或领导角色感兴趣的学生的特殊需求。医疗机构与生产设施有许多共同点，包括需要高效的流程、变更管理和质量标准。学生将探索理解、建模、分析和管理复杂医疗系统的原则、方法、策略和技术。学生还将学习在不影响质量或安全的情况下衡量效率，提高效率和生产力。最终，学生将获得管理人员、系统和技术集成的基本知识，以确保前后一致、高质量、以人为中心的护理。本课程适用于技术、科学、医学、管理和社会科学等广泛学科的学生。需要较强的定量技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "领先的医疗保健变革 (Leading Change in Healthcare)\n卫生服务系统的质量和生产率 (Quality and Productivity in Health Service Systems)\n运营管理和临床系统改进 (Operational Management and Clinical Systems Improvement)\n健康信息学导论 (Introduction to Health Informatics)\n电子医疗记录 (Electronic Healthcare Records)\n流行病学和统计方法以提高质量 (Epidemiology and Statistical Methods for Quality Improvement)\n卫生经济学概论 (Introduction to Health Economics)\n卫生服务质量中的资源管理 (Resource Management in Health Service Quality)",
+  "success_cases": ""
+}

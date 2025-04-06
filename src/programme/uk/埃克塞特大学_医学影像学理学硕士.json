@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "医学影像学理学硕士",
+  "ename": "MSc Medical Imaging",
+  "tags": "社科,医学,医学与健康学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 28600英镑/年",
+  "requirements": "具有2:2荣誉学位，需要放射诊断学背景",
+  "objectives": "埃克塞特大学医学影像学理学硕士项目为计算机断层扫描 (CT) 和/或磁共振成像 (MRI) 提供了全面的基础，使学生能够在快速发展的领域中实践。课程模块涵盖理论、临床应用以及如何将理论应用于实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "CT的科学原理 (Scientific Principles of CT)\nMRI的科学原理 (Scientific Principles of MRI)\nCT理论与应用 (CT Theory and Applications)\nMRI：理论与应用 (MRI: Theory and Applications)\n放射技师将研究应用于执业(M) (Applying Research to Practice for Radiographers (M))\n教育要素 (Education Essentials)\n教学实践者 (Teaching Practitioner)\n评估学习 (Assessing Learning)\n监督、指导与辅导原则 (Principles of Supervision, Mentoring and Coaching)\n医疗保健管理 (Management in Healthcare)\n医疗保健领导 (Leadership in Healthcare)\n引领卫生服务变革 (Leading Change in Health Services)\n研究设计基础 (Fundamentals of Research Design)\n适用于健康的统计学 (Statistics as Applied To Health)\n政策与实践的系统评价 (Systematic Reviews for Policy and Practice)\n人力资源管理 (People Management)",
+  "success_cases": ""
+}

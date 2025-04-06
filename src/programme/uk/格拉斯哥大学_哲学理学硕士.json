@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "哲学理学硕士",
+  "ename": "MSc Philosophy",
+  "tags": "社科,哲学,人文学院",
+  "introduction": "专业方向: 哲学\n入学时间: 9月\n项目时长: 1年\n项目学费: 25320英镑/年",
+  "requirements": "通常具有2:1荣誉学位（或同等学历），需要分析哲学背景；学校有时也将接受2:2荣誉学位",
+  "objectives": "格拉斯哥大学哲学理学硕士课程为学生提供与学校员工在基于他们自己的专业知识和当前研究的课程中密切合作的机会。它将向学生介绍分析哲学最新发展的前沿，从实践和应用，到该主题的最理论端。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "道德哲学 (Moral Philosophy)\n女权主义哲学 (Feminist Philosophy)\n认识论 (Epistemology)\n语言哲学 (Philosophy of Language)\n精神哲学 (Philosophy of Mind)\n政治哲学 (Political Philosophy)\n形而上学 (Metaphysics)\n哲学方法论 (Philosophical Methodology)",
+  "success_cases": ""
+}

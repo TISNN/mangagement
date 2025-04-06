@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "会计与金融理学硕士",
+  "ename": "MSc Accounting and Finance",
+  "tags": "商科,会计,管理学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 1年\n项目学费: 33700英镑/年",
+  "requirements": "具有2:2本科学位，不限专业背景，学校希望申请者至少学习过一门会计课程，以及一门或多门包含一些统计学/数学/经济学/金融学/物理学/工程学内容的课程\n学校可能会考虑不符合公布的申请要求但具备至少3年相关高级管理工作经验或相关专业资格（如CFALevel 1或ACCA）的申请者",
+  "objectives": "约克大学会计与金融理学硕士学位课程旨在发展学生现有的会计与金融知识。在这里，他们能够与具有国际研究声誉的学术人员一起学习，学生们将在其现有知识的基础上，接受现代会计和金融高级理论的严格培训。该课程致力于传授学生知识和经验，以提升他们对未来雇主的吸引力，同时，教授他们高级技能以给予学生更光明的职业前景。该课程还会提升学生的管理能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计问题展评 (Critical Perspectives in Accounting )\n高级财务会计 (Advanced Financial Accounting)\n管理经济学B (Managerial Economics B)\n高级管理会计学 (Advanced Management Accounting)\n金融策略和管治 (Financial Strategy and Governance )\n定量研究方法 (Qualitative Research Methods)\n社会和环境会计 (Social and Environmental Accounting )\n金融市场和投资 (Financial Markets and Investment)\n财政管理 (Managing Public Finances)\n会计和风险 (Accounting and Risk)\n定量方法和数据分析 (Quantitative Methods and Data Analysis)\n硕士论文 (Dissertation)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "城市分析理学硕士",
+  "ename": "MSc Urban Analytics",
+  "tags": "工科,地球科学,社会与政治科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "具有2:1荣誉学位或非英国同等学历，需要地理学、城市规划、环境科学、公共卫生、经济学专业背景；学校也可以接受相关社会科学学科背景，包括数据科学、统计学、地理信息系统、空间分析、信息科学和工程工作经验也将被考虑",
+  "objectives": "世界各城市的政府已意识到城市大数据的重要性，格拉斯哥大学城市分析理学硕士项目教授学生设计与分析相关的知识和技能，以及尖端数据集的使用经验，引导学生以批判性思维审视城市规划和政策制定中的大数据及城市分析潜能，以及实践与伦理的局限性。格拉斯哥大学城市分析理学硕士帮助学生通过操作运用系列统计和地理信息系统软件以及编程工具来获取、处理并分析数据。学生将有机会接触城市分析人员所涉及的前沿数据集及其带来的各种挑战。格拉斯哥大学城市分析理学硕士项目与城市大数据中心（UBDC）长期以来保持密切的合作关系，该中心是格拉斯哥领先的城市专业分析中心，致力于培养学生以影响决策者和公众辩论的方式传达复杂数据分析结果的能力。此外，学校广泛的选修课程（如交通研究或城市设计）将满足学生的兴趣追求，提升特定领域的知识或技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "大数据和城市分析 (Big data and urban analytics)\n地理信息系统原理及应用 (Principles and applications of GIS)\n城市分析编程工具 (Programming tools for urban analytics)\n定量数据分析 (Quantitative data analysis)\n可持续城市前景 (Sustainable urban futures)\n政策证据与评估 (Evidence and evaluation for policy)\n地理信息系统编程 (Programming with GIS)\n城市复兴 (Regenerating cities)\n运输研究 (Transport studies)\n交通规划方法 (Transport planning methods)\n交通规划实验室 (Transport planning lab)\n城市分析团队项目 (Urban analytics group project)\n城市设计政策与实践 (Urban design policy and practice)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "网络安全理学硕士",
+  "ename": "MSc Cyber Security",
+  "tags": "工科,计算机,电子与计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 33900英镑/年",
+  "requirements": "具有upper 2:1学位（分数不低于65%），需要以下背景：计算机科学、计算机工程、网络安全、信息技术、电子工程、软件工程\n申请者还必须在以下课程中取得upper 2:1的成绩：\n- 1门编程语言（Python, C, C, c#, Java, JavaScript, PhP, Ruby, Swift）\n- 1门计算机网络课程\n- 1门计算机科学课程，例如：密码学、软件、数据结构、数据库、机器学习、web或网络\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普敦大学网络安全理学硕士项目提高学生对网络安全的理解。该课程是英国仅有的25个网络安全理学硕士课程之一，获得了国家网络安全中心（NCSC）认证硕士标准的完整认证。该课程被英国政府视为网络安全研究的卓越学术中心，学者帮助建立了欧洲数据科学学院。该网络安全硕士课程提供多学科方法，涵盖技术和非技术学科，为学生提供全面的技能，使学生对未来雇主具有吸引力。该课程将为学生提供专业项目实验室、计算机工作站和在线工具，以支持学生在理想环境中学习。研究人员将帮助学生应对各种网络安全领域的新挑战。课程结束时，学生将能够设计、构建和分析并解决与网络安全相关的许多领域的问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "网络物理系统安全 (Security of Cyber Physical Systems)\n硕士项目 (MSc Project)\n网络安全基础 (Foundations of Cyber Security)\n基于网络的安全 (Network and Web Based Security)\n软件安全 (Software Security)\n网络犯罪、不安全与暗网（网络安全） (Cyber Crime、Insecurity and the Dark Web (Cyber Security))\n项目准备 (Project Preparation)\n密码学 (Cryptography)",
+  "success_cases": ""
+}

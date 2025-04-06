@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "图书馆与信息研究文学硕士",
+  "ename": "MA Library and Information Studies",
+  "tags": "商科,信息系统,艺术与人文学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要具备图书馆或信息服务或信息工作方面的有偿或志愿经验",
+  "objectives": "伦敦大学学院图书馆与信息研究文学硕士项目学制一年，由英国皇家特许图书情报职业者协会（CILIP）认证，为学生在图书馆或信息领域的职业发展奠定坚实的基础。学生将能够接触到最新的知识，提高自身的就业能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "编目与分类 (Cataloguing and Classification)\n管理馆藏 (Managing Collections)\n支持信息用户 (Supporting Information Users)\n管理信息机构 (Managing Information Organisations)\n信息组织中的技术运用 (Using Technology in Information Organisations)\n图书情报职业 (The Library and Information Professional)\n学术期刊出版 (Academic and Journals Publishing)\n收藏护理 (Collections Care)\n数据库系统分析与设计 (Database Systems Analysis and Design)\n人文科学中的数字资源 (Digital Resources in the Humanities)\n电子出版 (Electronic Publishing)\n历史目录学 (Historical Bibliography)\n信息素养 (Information Literacy)\n信息治理 (Information Governance)\n知识管理 (Organizing Knowledge)",
+  "success_cases": ""
+}

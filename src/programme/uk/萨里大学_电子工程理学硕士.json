@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "电子工程理学硕士",
+  "ename": "MSc Electronic Engineering",
+  "tags": "工科,电气电子,电气和电子工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 24900英镑/年",
+  "requirements": "具有2:2英国荣誉学位或受认可的同等学历，需要计算机工程、计算机科学、电气工程、电子和计算机工程、电子工程、数学、物理学或电信工程背景\n如果申请者不符合以上要求，学校也会考虑其相关工作经验",
+  "objectives": "萨里大学电子工程理学硕士项目课程面向对电子工程技术感兴趣的学生，旨在提高学生的专业水平和就业竞争力。学生可选修电气与电子工程系开设的特色课程，努力提高自身的实践能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "60学分标准项目 (60 CREDIT STANDARD PROJECT)\n天线和传播 (ANTENNAS AND PROPAGATION)\n通信系统的应用数学 (APPLIED MATHEMATICS FOR COMMUNICATION SYSTEMS)\n电池和电气系统 (BATTERY AND ELECTRICAL SYSTEMS)\n计算机视觉和图案识别 (COMPUTER VISION AND PATTERN RECOGNITION)\n数字通讯 (DIGITAL COMMUNICATIONS)\n数字信号处理基础 (FUNDAMENTALS OF DIGITAL SIGNAL PROCESSING)\n移动通信基础 (FUNDAMENTALS OF MOBILE COMMUNICATIONS)\n物联网 (INTERNET OF THINGS)\n纳米化和表征 (NANOFABRICATION AND CHARACTERISATION)\n纳米科学与纳米技术 (NANOSCIENCE & NANOTECHNOLOGY)\n电信和分组网络原理 (PRINCIPLES OF TELECOM AND PACKET NETWORKS)\n射频和微波基础知识 (RF AND MICROWAVE FUNDAMENTALS)\n射频系统和电路设计 (RF SYSTEMS AND CIRCUIT DESIGN)\n卫星通信基础知识 (SATELLITE COMMUNICATIONS FUNDAMENTALS)\n卫星遥感 (SATELLITE REMOTE SENSING)\n太空航空 (SPACE AVIONICS)\n空间动力学和任务 (SPACE DYNAMICS AND MISSIONS)\n空间系统设计 (SPACE SYSTEM DESIGN)\n语音和音频处理与识别 (SPEECH & AUDIO PROCESSING & RECOGNITION)\n先进的5G无线技术 (ADVANCED 5G WIRELESS TECHNOLOGIES)\n先进的制导，导航和控制 (ADVANCED GUIDANCE, NAVIGATION AND CONTROL)\n先进的卫星通信技术 (ADVANCED SATELLITE COMMUNICATION TECHNIQUES)\n人工智能和人工智能编程 (AI AND AI PROGRAMMING)\n数据和互联网网络 (DATA & INTERNET NETWORKING)\n图像和视频压缩 (IMAGE AND VIDEO COMPRESSION)\n半导体器件和光电 (SEMICONDUCTOR DEVICES AND OPTOELECTRONICS)",
+  "success_cases": ""
+}

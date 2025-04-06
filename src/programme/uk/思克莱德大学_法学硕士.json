@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "法学硕士",
+  "ename": "LLM",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 25000英镑/年",
+  "requirements": "具有一等或2:1荣誉学位，学校将酌情考虑相关工作经验或其他相关的背景信息。法律学位不是学习这门课程的先决条件",
+  "objectives": "思克莱德大学法学硕士项目主要面向对法律感兴趣但未确定特定研究领域的学生。因此，思克莱德大学法学硕士项目的课程具有高度的灵活性，允许学生自由选择。学生可以在众多提供的课程中，构建自己的法律研究课程体系。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "法律研究 (Legal Research)\n欧洲人权法 (European Human Rights Law)\n仲裁法 (Arbitration Law)\n金融犯罪与制裁 (Financial Crime and Sanctions)\n童年与犯罪环境 (Childhood & Crime Climate)\n全球气候变化法 (International Climate Change Law)\n法律程序和合同法及其他义务 (Legal Process and the Law of Contracts & Other Obligations)\n冲突解决与国家 (Conflict Resolution & the State)\n实践中的调解 (Mediation in Practice)\n当代安全挑战与应对 (Contemporary Security Challenges and Responses)\n环境建设 (Context of Construction)",
+  "success_cases": ""
+}

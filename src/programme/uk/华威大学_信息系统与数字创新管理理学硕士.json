@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "信息系统与数字创新管理理学硕士",
+  "ename": "MSc Management of Information Systems & Digital Innovation",
+  "tags": "商科,信息系统,商学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 36270英镑/年",
+  "requirements": "具有本科2:1学位或同等学历，不限专业背景，不要求具备信息技术的先前知识\n不需要GMAT或GRE成绩（不会视为申请的一部分或影响申请结果）\n需要上传最后一年的课程列表",
+  "objectives": "华威大学信息系统与数字创新管理理学硕士项目适合对管理学或信息技术咨询感兴趣的学生。该项目将培养学生的管理和咨询技能，在职业生涯中帮助企业在数字时代蓬勃发展。这门课程于如何更好地管理、制定战略，并将数字技术用于商业目的。学生将有机会根据自己的兴趣定制选择，有机会专攻IT咨询或编程/分析，或同时了解这两个学科。华威大学信息系统与数字创新管理理学硕士项目致力于使学生掌握如何创新地使用信息技术以获得商业竞争优势，同时培养学生的管理与技术咨询能力，培养学生的批判性思维。项目重点用技术来促进商业发展，而非技术设计和代码编写。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "企业编程解决方案 (Programming Solutions for Enterprise)\n数据分析与人工智能 (Data Analytics and Artifical Intelligence)\n商业网络安全 (Cybersecurity in Business)\n数字商业策略 (Digital Business Strategy)\n全球采购和云技术 (Global Sourcing and Cloud Technology)\n知识，工作与创新 (Knowledge, Work and Innovation)\n研究方法与论文或业务实践 (Research Methodology and DissertationorBusiness in Practice)\n数字营销技术与管理 (Digital Marketing Technology and Management)\n信息系统咨询 (Information Systems Consultancy)\n全球金融与IT (Global Finance and IT)\n数据分析编程解决方案 (Programming Solutions for Data Analytics)",
+  "success_cases": ""
+}

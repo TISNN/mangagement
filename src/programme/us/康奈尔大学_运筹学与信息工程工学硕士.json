@@ -1,0 +1,12 @@
+{
+  "school_name": "康奈尔大学",
+  "major_name": "运筹学与信息工程工学硕士",
+  "ename": "MEng in Operations Research and Information Engineering",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n入学时间: 春季/秋季\n项目时长: 2-3个学期\n项目学费: 60286美元/年\n平均G: Q166，V165，A3.5",
+  "requirements": "1. 先修课：工程微积分（包括线代、矢量积）,工程概率论与统计,中级编程（C,C,Java,Python）。FE方向额外需要：两学期以微积分为基础的概率论、统计、随机过程,金融,并强烈建议有微分方程、课程以及R/Python技能。Data Analytics额外需要：两学期以微积分为基础的概率论与统计理论。\n2. GPA：3.0",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

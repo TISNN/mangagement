@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "电子与电气工程（工程）理学硕士",
+  "ename": "MSc(Eng) Electronic and Electrical Engineering",
+  "tags": "工科,电气电子,电子和电气工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1荣誉学位，需要自动化、通讯、电气/电子、机械、机电一体化、物理学科背景，学校也将考虑其他工程学科\n申请者应当学习过一门数学课程与一门来自以下领域的课程：模拟电路、模拟电子技术、通讯电子产品、数字电路、数码电子科技、数字信号处理、电磁学、通信原理、信号与系统，学校也将考虑其他相关课程",
+  "objectives": "谢菲尔德大学电子与电气工程（工程）理学硕士项目为学生为从事工业或研究工作做好准备。学生将进一步了解电子和电气设备和系统，体验广泛的主题，并最终专注于特别感兴趣的领域。电子和电气工程是一门广泛且迅速扩展的学科。本课程以电机、电子材料和电子电路交互方式的核心教学为基础，该课程允许学生从所有活跃研究领域的广泛可选模块中进行选择，以适应自己的学习方式要求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究项目 (Research Project)\n交流电机 (AC Machines)\n高级电子驱动控制 (Advanced Control of Electric Drives)\n能源存储管理 (Energy Storage Management)\n运动控制和伺服驱动器 (Motion Control and Servo Drives)\n永磁电机和执行器 (Permanent Magnet Machines and Actuators)\n电力电子转换器 (Power Electronics Converters)\n功率半导体装置 (Power Semiconductor Devices)\n高级计算机系统 (Advanced Computer Systems)\n高级集成电子学 (Advanced Integrated Electronics)\n高级信号处理 (Advanced Signal Processing)\n半导体材料 (Semiconductor Materials)\n半导体器件技术原理 (Principles of Semiconductor Device Technology)\n微系统包装和可靠性 (Packaging and Reliability of Microsystems)\n纳米电子器件 (Nanoscale Electronic Devices)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "高级机械工程理学硕士",
+  "ename": "MSc Advanced Mechanical Engineering",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 29450英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，具备机械工程背景\n如果申请者没有相关领域的学位，学校会根据专业经验考虑其申请",
+  "objectives": "卡迪夫大学高级机械工程理学硕士项目致力于为学生提供前沿的理论知识和实践训练，培养学生的跨学科系统工程思维，并帮助学生在学术探索的过程中，将理论与实践相联系，掌握解决机械工程实际问题的能力，为未来的职业发展打下坚实的基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级机械工程项目 (Advanced Mechanical Engineering Project)\n高级机械工程课题组研究 (Advanced Mechanical Engineering Group Research Study)\n高级机械工程案例研究 (Advanced Mechanical Engineering Case Study)",
+  "success_cases": ""
+}

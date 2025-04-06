@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "重力、粒子与场理学硕士",
+  "ename": "MSc Gravity, Particles and Fields",
+  "tags": "理科,物理,数学科学学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 24300英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要物理学、数学物理学或数学背景\n包含大量物理或数学元素的联合学位也将被考虑\n需要具备力学、量子力学、狭义相对论和数学物理方法的先前知识（通常在理学学士水平课程中教授）",
+  "objectives": "诺丁汉大学重力、粒子与场理学硕士课程介绍了当前研究的物理原理和数学技术知，包括：广义相对论，量子引力，粒子物理学，量子场论，量子信息，宇宙学和早期宇宙。学生将学习如何将许多微分几何工具应用于实际的科学问题。这将帮助学生建立重要技能，提高在不断发展的地区的就业能力。学生将受益于为期一年的量子场论介绍。这将使学生能够收集自己的数据和见解，并学会分析和评估结果。课程的一个亮点是研究论文，它可以让学生发展自己对特定主题的兴趣和专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级重力学 (Advanced Gravity)\n黑洞研究 (Black Holes)\n微分几何 (Differential Geometry)\n重力 (Gravity)\n重力、粒子和场论文写作 (Gravity、Particles and Fields Dissertation)\n量子信息科学 (Quantum Information Science)\n现代宇宙论 (Modern Cosmology)\n量子场论 (Quantum Field Theory)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "密歇根州立大学",
+  "major_name": "工业数学-理学硕士",
+  "ename": "MS in Industrial Mathematics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2年\n项目学费: 1654.00美元/学分\n项目规模: 15-20人",
+  "requirements": "1. 完成学士学位所需的数学或应用数学课程，主修数学、统计学、经济学、物理学或工程学； 2. 完成数学分析、线性代数和微分方程的高级课程； 3. 熟悉数学软件程序，如Mathematica，Matlab等",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

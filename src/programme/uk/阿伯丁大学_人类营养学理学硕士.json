@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "人类营养学理学硕士",
+  "ename": "MSc Human Nutrition",
+  "tags": "工科,食品科学,医学，医学科学与营养学院",
+  "introduction": "专业方向: 食品科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "具有二等荣誉学位，需要生物科学或生命科学背景，或具备同等的研究或实地经验",
+  "objectives": "阿伯丁大学人类营养学理学硕士项目旨在提高学生对临床、代谢和分子营养的知识，同时还将研究影响公共健康的问题。学生将有机会研究人体营养学的不同领域，然后再决定要专注于哪个领域。这种灵活的课程结构意味着学生的学习将最符合其兴趣和职业要求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "营养学基础 (Foundations of Nutrition)\n营养状况评估 (Assessment of Nutritional Status)\n研究设计基础 (Fundamentals of Research Design)\n应用统计学 (Applied Statistics)\n上下文中的人类营养学 (Human Nutrition in Context)\n营养与健康 (Nutrition and Health)\n临床营养学 (Clinical Nutrition)\n分子营养学 (Molecular Nutrition)\n全球营养挑战 (Challenges in Global Nutrition)\n公共健康营养 (Public Health Nutrition)\n卫生信息学 (Health Informatics)\n健康经济学 (Health Economics)\n应用卫生科学基于工作的实习 (Work-based placement in Applied Health Sciences)\n系统评价 (Systematic Reviewing)\n公共卫生中的价值观和道德规范 (Values and Ethics in Public Health)",
+  "success_cases": ""
+}

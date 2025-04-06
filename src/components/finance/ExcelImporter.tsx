@@ -77,7 +77,7 @@ const ExcelImporter: React.FC<ExcelImporterProps> = ({ onSuccess, onClose }) => 
             await Promise.all([
               supabase.from('people').select('id, name'),
               supabase.from('projects').select('id, name'),
-              supabase.from('finance_service_types').select('id, name'),
+              supabase.from('service_types').select('id, name'),
               supabase.from('finance_categories').select('id, name, direction'),
               supabase.from('finance_accounts').select('id, name')
             ]);
@@ -181,8 +181,8 @@ const ExcelImporter: React.FC<ExcelImporterProps> = ({ onSuccess, onClose }) => 
               } else {
                 // 创建新服务类型
                 const { data, error } = await supabase
-                  .from('finance_service_types')
-                  .insert({ name: record.service_type_name })
+                  .from('service_types')
+                  .insert({ name: record.service_type_name, is_active: true })
                   .select('id')
                   .single();
                 

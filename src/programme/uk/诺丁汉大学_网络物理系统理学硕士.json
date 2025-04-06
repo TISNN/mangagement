@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "网络物理系统理学硕士",
+  "ename": "MSc Cyber Physical Systems",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 32400英镑/年",
+  "requirements": "具有2:1学位或同等学历，通过在申请中详细说明先前的学习或实践经验证明具备编程技能",
+  "objectives": "诺丁汉大学网络物理系统理学硕士课程是为具有计算机科学或相关领域背景并具有分析技能的学生设计的。学生将学习集成系统设计原理以及计算和网络物理系统方法和工具。核心模块将拓宽学生在机器人、传感器和物联网等关键主题方面的知识。在暑假期间，学生将在研究小组专家顾问的支持下进行一个人研究项目，这可以是基于软件或基于研究的，鼓励与企业、工业和其他外部机构合作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "自主机器人系统 (Autonomous Robotic Systems)\n设计基于传感器的系统 (Designing Sensor-Based Systems)\n计算机安全的主题趋势 (Topical Trends in Computer Security)\n恶意软件分析 (Malware Analysis)\n研究方法 (Research Methods)\n研究项目 (Research Project)\n线性和离散优化 (Linear and Discrete Optimisation)\n高级计算机网络 (Advanced Computer Networks)\n实际功能编程 (Real-world Functional Programming)\n设计民族志 (Design Ethnography)\n高级算法与数据结构 (Advanced Algorithms and Data Structures)\n高级算法与数据结构项目 (Project in Advanced Algorithms and Data Structures)\n机器学习 (Machine Learning)\n人机交互 (Human-AI Interaction)\n数据建模与分析 (Data Modelling and Analysis)",
+  "success_cases": ""
+}

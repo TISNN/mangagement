@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "数据科学理学硕士",
+  "ename": "MSc Data Science",
+  "tags": "理科,数据科学,信息学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 43300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要信息学、人工智能、认知科学、计算机科学、电子工程、语言学、数学、哲学、物理学、心理学或其他定量学科背景\n典型的录取通常要求申请者具备英国一等荣誉学位\n具备相当于编程入门课程的计算机编程经验，并在学位期间完成相当于60个SCQF学分或30个ECTS学分的数学课程，通常涵盖以下学科/主题：微积分（微分和积分），线性代数（向量和多维矩阵），离散数学和数学推理（例如归纳和推理，图论模型，证明），和概率论（离散和连续概率的概念，马尔可夫链等）",
+  "objectives": "数据科学主要研究从数据中提取和构建知识的计算规范、方法和系统，以及计算规范的应用。从分子生物学到社会媒体，从可持续能源到健康保健，大型数据集现在多由科学、社会和商业活动产生。数据科学提出了如何高效在广泛数据流中找到固定模式的问题，而许多研究领域已解决了部分问题：机器学习的重点是根据数据寻找其中的固定模式并进行预测；算法和数据库中的数据被用以建立大规模数据流系统；单独的研究领域（如文本、图像、传感器的数据、视频和语音）已在不同类型的非结构化数据中发展壮大。近期，这些不同学科已开始合并成单一的领域——数据科学。爱丁堡大学数据科学理学硕士项目适合于想要就职于产业或公共部门的学生，也适合于想要探索深入领域（如数据科学中的循环运动规约）的学生。通过爱丁堡大学数据科学理学硕士项目，学生将获得以下方面的拓展：跨越数据科学领域的广泛知识； 至少一个数据科学领域的高级技术背景； 对现实世界中问题的理解，涉及工业、科学和公共部门中数据的使用； 数据科学领域的研究经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "信息学研究回顾 (Informatics Research Review)\n信息学项目建议书 (Informatics Project Proposal)\n数据挖掘与探索 (Data Mining and Exploration)\n强化学习 (Reinforcement Learning)\n机器学习与模式识别 (Machine Learning and Pattern Recognition)\n统计方法论 (Statistical Methodology)\n优化基础 (Fundamentals of Optimization)\n贝叶斯数据分析 (Bayesian Data Analysis)\n数据科学算法基础 (Algorithmic Foundations of Data Science)\n数据库系统 (Database Systems)\n算法与数据结构 (Algorithms and Data Structures)\n影像与视觉计算 (Image and Vision Computing)\n数据可视化 (Data Visualisation)\n自然语言的理解、生成与机器翻译 (Natural Language Understanding, Generation, and Machine Translation)\n自动语音识别 (Automatic Speech Recognition)",
+  "success_cases": ""
+}

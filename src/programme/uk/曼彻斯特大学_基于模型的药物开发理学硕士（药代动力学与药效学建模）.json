@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "基于模型的药物开发理学硕士（药代动力学与药效学建模）",
+  "ename": "MSc Model-based Drug Development - Pharmacokinetic and Pharmacodynamic Modelling",
+  "tags": "社科,药学,生物、医学和健康学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 1年\n项目学费: 36000英镑/年",
+  "requirements": "具有国际认可的知名机构颁发的本科荣誉学位，至少达到2:2学位或同等水平，需要制药科学及其他健康科学相关学位、生物医学科学、药理学、化学、工程学、数学、统计学背景\n优先考虑顶尖院校成绩优异的学生\n成功的申请者需要能够证明：对药代动力学和药效学概念有兴趣和基本的了解，具备数学能力，有使用相关科学编程语言的经验和/或证明对其有兴趣",
+  "objectives": "曼切斯特大学基于模型的药物开发理学硕士课程提供了在药物开发各个阶段做出循证决策的知识和技能。\n它涵盖了评估药物的科学和法规方面，重点是建模和仿真方法的使用。学生将了解为什么这些方法被行业和监管机构如此看重，成为有效，节省成本的决策工具。通过将建模和仿真技能应用于实际药代动力学和药效学数据，可以加强学习。\n曼切斯特大学基于模型的药物开发理学硕士课程的开发侧重于评估和预测药代动力学和药效学（PKPD）的机械方法，例如基于生理的药代动力学（PBPK）。全日制学生将受益于曼彻斯特大学多样化的生物医学研究环境，包括与著名的应用药物代谢动力学研究中心的研究人员互动。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "M＆S监督研究项目-学位论文 (Supervised Research Project on M&S - Dissertation)\n基本药代动力学和药效学 (Basic Pharmacokinetics and Pharmacodynamics)\nPBPK和体外体内外推（IVIVE）（1）基本概念 (PBPK and In Vitro In Vivo Extrapolation (IVIVE) (1) Fundamental Concepts)\n药代动力学和药效学中的数据分析 (Data Analysis in Pharmacokinetics and Pharmacodynamics)\n建模和仿真中的高级研究主题和项目开发 (Advanced Research Topics and Project Development in Modelling and Simulation)\n临床试验中的生物统计学概念 (Biostatistical concepts in clinical trials)\nPBPK和IVIVE 2的高级概念和应用 (PBPK and IVIVE 2 Advanced Concepts and Applications)\n临床试验简介（CT1） (Introduction to Clinical Trials (CT1))",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "古典学文学硕士",
+  "ename": "MA Classics",
+  "tags": "社科,文化,艺术与人文学院",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要相关学科背景，攻读MA Classics的学生应该能够利用一种或多种古代语言的作者和资料",
+  "objectives": "伦敦大学学院古典学文学硕士项目与伦敦国王学院和伦敦大学皇家霍洛威学院合作授课。该项目利用了这三所学院的丰富专业知识，学生可以充分接触所有模块。该项目吸引了来自欧洲、以及英国及海外学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究方法与论文 (Research Methods & Dissertation)\n语言 (Language)\n文学 (Literature)\n接受 (Reception)\n宗教和哲学 (Religion and Philosophy)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "管理学理学硕士",
+  "ename": "MSc Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 23650英镑/年",
+  "requirements": "良好的英国荣誉学位或同等学历，或认可机构的研究生文凭，或相关的研究生水平专业资格",
+  "objectives": "莱斯特大学管理学理学硕士项目既培养学生全面理解管理功能，又促进学生批判分析管理工作的环境。莱斯特大学管理学理学硕士项目的学生将能够批判理解影响组织寿命的经济、社会、政治环境。\n莱斯特大学管理学理学硕士项目具有核心课程与选修课程之间的独特融合，能够促进学生结合自己的职业发展需要集中学习感兴趣的领域。莱斯特大学管理学理学硕士项目的学生将学习管理学重要理论、模型、框架和技术，也有机会重点学习专业领域，包括比较工业关系、企业管治、国际人力资源管理、管理信息：技术与系统、知识管理和管理多样化。\n在莱斯特大学管理学理学硕士项目中，学生将能够批判评价管理与组织方面的现有文献，能够整合各种议题与观点，从而熟悉管理研究与实务。学生也将掌握可转移的实用技能，如独立开展研究的能力。莱斯特大学管理学理学硕士项目的学生将掌握技能与知识，从而以妥善、合理、符合道德的方式进行管理。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学术技能与实践 (Academic Skills and Practice)\n管理者的会计和金融 (Accounting and Finance for Managers)\n企业经济学 (Business Economics)\n营销管理 (Marketing Management)\n组织行为学 (Organisational Behaviour)\n战略管理 (Strategic Management)\n国际商业 (International Business)",
+  "success_cases": ""
+}

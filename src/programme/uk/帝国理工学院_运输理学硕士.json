@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "运输理学硕士",
+  "ename": "MSc Transport",
+  "tags": "工科,交通运输,土木与环境工程学院",
+  "introduction": "专业方向: 交通运输\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有2:1学位，需要土木工程、自然科学、地球科学或其他数学学科背景，需要适当的数学基础，例如A-level Grade B级或更高水平\n不符合所列学术要求但具备丰富相关行业经验的申请者在完成“特殊资格考试”（SQE）后可能会被例外录取",
+  "objectives": "帝国理工学院运输理学硕士项目旨在帮助学生为在规划、设计、管理和交付交通基础设施和服务领域开展职业生涯做好准备，带领学生探索未来的交通系统和城市交通，通过个人和小组项目发展其沟通和管理技能。\n帝国理工学院运输理学硕士课程将为学生提供在现代运输部门工作所需的知识和技能，帮助学生了解人员和货物在各种可用运输方式下流动的原因和动机，在探索解决交通问题所需的政策和措施之前，先了解用于分析运输问题的技术。学生将学习评估交通项目和政策，考虑所涉及的政治、社会、环境、商业和金融问题。课程以职业为导向，将涵盖理论背景、实践设计和分析考虑，这些都是效率、安全、保障和可持续性概念的核心。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "定量方法 (Quantitative Methods)\n研究论文 (Research Dissertation)\n运输及其背景 (Transport and its Context)\n运输需求及其模型 (Transport Demand and its Modelling)\n运输经济学 (Transport Economics)\n运输工程与运营 (Transport Engineering and Operations)\n运输政策 (Transport Policy)\n高级运输模型 (Advanced Transport Modelling)\n空中交通管理 (Air Traffic Management)\n无障碍交通系统设计 (Design of Accessible Transport Systems)\n货物托运 (Freight Transport)\n公路工程 (Highway Engineering)\n智能交通系统 (Intelligent Transport Systems)",
+  "success_cases": ""
+}

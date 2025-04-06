@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "商业数据分析理学硕士",
+  "ename": "MSc Business Data Analytics",
+  "tags": "商科,商业分析,克兰菲尔德管理学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 27910英镑/年",
+  "requirements": "要求相关学科（例如会计、金融或商业）背景",
+  "objectives": "克兰菲尔德大学商业数据分析理学硕士项目旨在使学生有机会与外部组织合作撰写个人论文，向相关组织的高级管理人员展示研究结果。学生将发展业务数据分析方面的知识和技能，培养自我意识并经历个人发展，这对职业发展至关重要。学生将受益于我们与国际企业的密切联系，通过使用基于现实世界问题的学习方法，培养实用且独特的技能以及获得分析技能，能够确定世界各地组织和社区获得可持续竞争优势的途径。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能和机器学习 (Artificial Intelligence and Machine Learning)\n业务分析和管理 (Business Analytics and Management)\n业务分析和优化 (Business Analytics and Optimisation)\n描述性分析 (Descriptive Analytics)\n预测分析 (Predictive Analytics)\n业务分析编程 (Programming for Business Analytics)",
+  "success_cases": ""
+}

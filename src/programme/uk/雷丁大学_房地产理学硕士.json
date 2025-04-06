@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "房地产理学硕士",
+  "ename": "MSc Real Estate",
+  "tags": "商科,房地产,亨利商学院",
+  "introduction": "专业方向: 房地产\n入学时间: 9月\n项目时长: 1年\n项目学费: 28500英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景。成熟学生的学历要求可根据相关专业经验放宽",
+  "objectives": "雷丁大学房地产理学硕士学位课程旨在帮助学生理解房地产市场的运作方式以及与此相关的技术，并掌握从事全球房地产行业的各种职位所需的关键技能。该课程将严谨的学术分析与应用实践相结合，尤其注重国际市场。它涵盖了现实案例研究、实地考察和为期一周的行业挑战，非常适合那些有意发展在房地产行业就业所需的关键知识和技能的本科非房地产相关专业的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "投资评估 (Investment Appraisal and Valuation)\n房地产金融导论 (Introduction to Real Estate Finance)\n房地产经济学 (Real Estate Economics)\n实地考察 (Field Trip)\n房地产机会 (Real Estate Opportunities)\n房地产投资定量方法 (Quantitative Methods for Real Estate Investment)\n可持续性与房地产 (Sustainability and Real Estate)\n法律导论 (Introduction to Law )\n房地产开发 (Real Estate Development)\n房地产评估与估价 (Real Estate Appraisal and Valuation)\n房地产管理 (Real Estate Management)\n房地产开发 (Real Estate Development)\n住房经济学 (Housing Economics)\n国际房地产市场 (International Real Estate Markets)\n房屋租赁法 (Landlord and Tenant Law)",
+  "success_cases": ""
+}

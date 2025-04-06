@@ -1,0 +1,12 @@
+{
+  "school_name": "宾夕法尼亚州立大学",
+  "major_name": "法学硕士",
+  "ename": "Master of Laws",
+  "tags": "社科,法律",
+  "introduction": "专业方向: 法律\n入学时间: 春季/秋季\n项目时长: 1年\n项目学费: 41,602美元/学年",
+  "requirements": "获得法学学士学位，参与相关法律考试并获得执照",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

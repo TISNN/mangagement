@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "经济与金融理学硕士",
+  "ename": "MSc Economics and Finance",
+  "tags": "商科,经济,商学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 32750英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要具经济学、金融学或会计学背景，需要具备定量学科的扎实基础并在此类课程中取得优秀成绩",
+  "objectives": "利兹大学的经济与金融理学硕士课程是经济和社会研究协会认可的，融合了复杂的经济理论和先进的金融概念。在这个课程中，学生将探索微观和宏观经济学以及计量经济学的研究方法，同时学习公司金融、金融服务中常用的工具等金融经济学基础知识。该课程由一群高素质的经济学和金融方面的教师授课，学生将用开放的思想和方法处理经济问题，从不同角度批判性地研究当今主流理论和应用技术。在金融危机之后，某些传统观念已经受到谴责。学生将能够满足当今世界对经济学不断增长的需求，并为解决全球金融危机留下自己的印记。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司金融 (Corporate Finance)\n宏观经济学 (Macroeconomics)\n微观经济学 (Microeconomics)\n应用计量经济学 (Applied Econometrics)\n计量经济学 (Econometrics)\n经济学论文 (Economics Dissertation)\n金融衍生品 (Financial Derivatives)\n经济发展中的分配分析 (Distributional Analysis in Economic Development)\n行为经济学 (Behavioural Economics)\n货币、货币政策与全球金融危机 (Money, Monetary Policy and the Global Financial Crisis)\n福利经济学 (Economics of Wellbeing)\n国际商业金融 (International Business Finance)",
+  "success_cases": ""
+}

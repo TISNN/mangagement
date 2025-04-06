@@ -1,0 +1,12 @@
+{
+  "school_name": "康奈尔大学",
+  "major_name": "卫生政策与经济学硕士",
+  "ename": "MS in Health Policy and Economics",
+  "tags": "商科,经济",
+  "introduction": "专业方向: 经济\n入学时间: 秋季\n项目时长: 11个月\n项目学费: 1764美元/学分",
+  "requirements": "MS.biostatistics and data science:至少有两个大学级别的微积分学期，一些线性代数和丰富的编程经验.MS.health informatics:定量推理、计算机编程、医疗保健或生物科学",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

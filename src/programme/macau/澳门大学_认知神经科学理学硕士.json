@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "认知神经科学理学硕士",
+  "ename": "MSc Cognitive Neuroscience",
+  "tags": "社科,心理学,认知与脑科学研究中心",
+  "introduction": "专业方向: 心理学\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "持有澳门大学认可的学士学位或同等学历。申请人也可能被要求具备其他知识或专业经验。申请人必须在学士学位学习中达到相当于C级或更高的总成绩\n优先考虑具有相关背景的申请人，包括但不限于行为科学、生物科学、心理学、认知科学、教育心理学、神经经济学、计算机科学、生物医学工程/科学、神经科学和语言学",
+  "objectives": "澳门大学认知神经科学理学硕士项目是一个为期两年的研究生课程，旨在培养学生在神经语言学、神经教育、神经经济学、神经影像学、类脑智能等方面以创新的方法检查大脑功能，并促进将发现转化为解决方案为了健康和社会。它致力于培养认知神经科学家和专业人士，以深入理解和整合跨学科研究成果、观点和工具，以研究心智、大脑和行为。\n澳门大学认知神经科学理学硕士项目面向希望研究基于其潜在神经系统的认知过程的学生。有两种广泛的知识可以采取——一种是行为实验，另一种是计算建模。两者的目标都是从神经的角度理解认知的本质。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "神经科学原理 (Principles of Neuroscience)\n认知神经科学 (Cognitive Neuroscience)\n脑刺激和神经成像技术 (Brain Stimulation and Neuroimaging Techniques)\n磁共振成像 (Magnetic Resonance Imaging)\n计算认知神经科学 (Computational Cognitive Neuroscience)\n生物统计学 (Bio-Statistics )\n学习心理学 (Psychology of Learning)\n高级运动生理学 (Advanced Exercise Physiology )\n高级发展心理学 (Advanced Developmental Psychology)\n临床语言学 (Clinical Linguistics )\n心理语言学 (Psycholinguistics )\n第二语言习得 (Second Language Acquisition)\n社会语言学 (Sociolinguistics)\n生物医学传感器和仪器 (Biomedical Transducers and Instruments)\n深度学习概论 (Introduction to Deep Learning)",
+  "success_cases": ""
+}

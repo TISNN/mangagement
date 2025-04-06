@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "数据可视化文理学硕士",
+  "ename": "MASc Data Visualisation",
+  "tags": "理科,数据科学,跨学科方法学中心",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 27680英镑/年",
+  "requirements": "具有2:1本科学位或同等学历，不需要具备编码或编程的先验知识",
+  "objectives": "华威大学数据可视化文理学硕士项目专注于设计、开发、部署和解释数据可视化所需的技能和知识，通过跨学科方法学中心的科学、艺术、人文和社会科学研究，开发数据可视化组合，为学生提供多样化的职业机会。华威大学数据可视化文理学硕士项目是一门创新的跨学科课程，使学生获得可以作为数据密集型研究、交流和参与的方法论的可视化关键知识与技能。学生将接受来自数据科学、数字人文科学和设计研究的概念、方法和技术培训，同时开发作品，为他们多样化的职业机会做好准备。华威大学数据可视化文理学硕士项目旨在培养学生在学术、政策和公共环境中成功设计、部署和解释数据可视化所需的方法、概念和实践技能。课程将方法和概念方面的学术培训与数据可视化技术、创新和实践能力的发展相结合。数据可视化是一种知识交流的方式，是一种参与的形式，也是一种看待世界的方式。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "可视化基础 (Visualisation Foundations)\n科学、文化与公共政策中的数据可视化 (Data Visualisation in Science, Culture and Public Policy)\n高级可视化设计实验室 (Advanced Visualisation Design Labs)\n跨学科数据科学：原则、实践与批判 (Data Science Across Disciplines: Principles, Practice and Critique)\n用户界面文化：设计、方法与批判 (User Interface Cultures: Design, Method and Critique)\n城市数据 (Urban Data)\n机器学习跨学科方法 (Interdisciplinary Approaches to Machine Learning)\n媒体活动 (Media Activism)\n数字化方法 (Approaches to the Digital)\n社会科学的复杂性 (Complexity in the Social Sciences)\n数字对象，数字方法 (Digital Objects, Digital Methods)\n大数据研究：炒作还是革命？ (Big Data Research: Hype or Revolution?)",
+  "success_cases": ""
+}

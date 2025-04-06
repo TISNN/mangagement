@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "石油工程理学硕士",
+  "ename": "MSc Petroleum Engineering",
+  "tags": "工科,能源,能源、地球科学、基础设施与社会学院",
+  "introduction": "专业方向: 能源\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 29960英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要工程学科、物理或地球科学学科背景，包括对数学的良好理解。如果具备可证明的数学能力，化学、数学、物理、地质学或计算机学位也可考虑\n相关公司职位的工作或项目经验也将被学校考虑",
+  "objectives": "赫瑞-瓦特大学的石油工程理学硕士计划涵盖了广泛的石油工程应用基础知识，通过八门教授的课程和两个项目，培养了具有良好行业知识的技术成熟的毕业生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "水库工程 (Reservoir engineering)\n石油地球科学 (Petroleum geoscience)\n钻井工程 (Drilling engineering)\n地层评价 (Formation evaluation)\n储层模拟 (Reservoir simulation)\n石油经济学 (Petroleum economics)\n生产技术 (Production technology)\n试井分析 (Well test analysis)\n油田开发项目 (Field development project)\n单项工程 (Individual project)",
+  "success_cases": ""
+}

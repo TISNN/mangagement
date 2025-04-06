@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学伯克利分校",
+  "major_name": "电气工程与计算机科学理学硕士",
+  "ename": "MS in Electrical Engineering and Computer Science",
+  "tags": "工科,电气电子",
+  "introduction": "专业方向: 电气电子\n项目类别: STEM\n入学时间: 秋季\n项目时长: 两年\n项目学费: 72,308美元",
+  "requirements": "GPA 达到3.0以上",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

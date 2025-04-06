@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "金融与数据科学理学硕士",
+  "ename": "MSc Finance with Data Science",
+  "tags": "商科,金工金数,管理学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 47100英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要以下学科背景之一：经济学、金融学、数学、计量经济学和统计学或这些学科的组合，学校可能会考虑具有其他学科学位但具备足够定量背景的申请者，不需要提交GRE或GMAT，但GRE定量部分165将有助于申请，申请者也可能希望提交GMAT（或GMAT Focus），但学校不会提供最低分数方面的参考",
+  "objectives": "数据科学在金融行业正变得极其重要，因为公司寻求具有高水平数据科学技能的金融毕业生，并对如何优化数据和技术以创新金融行业有深入的了解。伦敦大学学院金融与数据科学理学硕士课程将教授成为一名金融专家所需的技能，以便在涉及此类其他概况的项目、分析和决策的技术方面进行协作和贡献。\n伦敦大学学院金融与数据科学理学硕士课程是一个高度量化的课程，基于世界一流的金融、数据科学、计量经济学和经济学研究专业知识，将理论与实践相结合，由领先的研究人员和实践者提供。\n伦敦大学学院金融与数据科学理学硕士课程始终以数据为导向。所有模块的应用程序和作业都使用彭博社(Bloomberg)、Refinitiv和其他流行来源的真实金融数据，这些数据将使用Python等编程语言进行处理。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "时间序列分析与预测 (Time Series Analysis and Forecasting)\n大数据分析 (Big Data Analytics)\n金融计量经济学与数据科学 (Financial Econometrics and Data Science)\n公司财务与金融市场 (Corporate Finance and Financial Markets)\n金融与数据科学研究项目 (Finance with Data Science Research Project)\n期权与衍生品 (Options and Derivatives)\n贸易与外币兑换经济学 ( The Economics of Trading and Exchanges)\n投资策略与风险管理 (Investment Strategies and Risk Management)\n高级公司财务 (Advanced Corporate Finance)\n国际金融 (International Finance)\n行为金融学与神经经济学 (Behavioural Finance and Neuroeconomics)",
+  "success_cases": ""
+}

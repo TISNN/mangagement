@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "工程设计管理理学硕士",
+  "ename": "MSc Engineering Design Management",
+  "tags": "工科,工业工程,制造学院",
+  "introduction": "专业方向: 工业工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 35340英镑/年",
+  "requirements": "具有2:1本科学位或同等学历，接受一系列学科背景，尤其但不局限于工程学（和其他STEM学科）或设计学（或其他艺术学位）。本课程面向渴望在工程或产品设计领域应用其技能的申请者",
+  "objectives": "华威大学工程设计管理理学硕士项目旨在弥合工程与设计之间的差距，它整合了两个学科的原则，以提供对这两个领域如何相交和互补的深刻理解。课程提供了一个体验式学习的环境，通过工程设计的真实实践，在学术严谨的支持下构建一个项目。它将使学生能够识别创新的机会，利用创造性思维，使用最先进的技术来帮助设计过程，并获得项目管理技能来交付新的设计项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "系统思维与系统工程 (Systems Thinking and Systems Engineering)\n设计研究与市场洞察 (Design Research and Market Insight)\n设计实践与原型制作 (Design Practice and Prototyping)\n可持续制造与材料 (Sustainable Manufacturing and Materials)\n企业战略管理 (Strategic Business Management)\n产品生命周期管理 (Product Life-Cycle Management)\n设计创新实验室 (Design Innovation Lab)\n行业影响项目 (Industry Impact Project)\n学位论文 (Dissertation )",
+  "success_cases": ""
+}

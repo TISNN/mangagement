@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "沉浸式技术（虚拟与增强现实）理学硕士",
+  "ename": "MSc Immersive Technologies (Virtual and Augmented Reality)",
+  "tags": "工科,计算机,计算机科学、电气与电子工程和工程数学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 34200英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要任意数学学科背景，没有数学学位的申请者必须证明在数学方面的能力，对于没有数学学位的学生，要求A-level数学达到A*或1门大学水平的数学课程成绩达到60%。成绩达到60%的几何或软件工具课程也可被考虑\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们至少具备以下其中一项：\n- 在创意科技或创意产业领域至少一年的重要、相关带薪工作证明；\n- 相关研究生学历\n如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关工作经验和/或资格",
+  "objectives": "布里斯托大学沉浸式技术（虚拟与增强现实）理学硕士项目将使学生转化自身的知识和技能，为不同的受众制作引人入胜的沉浸式内容和互动体验。布里斯托大学沉浸式技术（虚拟与增强现实）理学硕士项目旨在培养学生：使用虚拟现实和增强现实技术的技能和知识; 批判性和严谨的理论，以及支持扩展现实体验的沉浸式技术的实践技能; 从整体上考虑内容创造、传递和消费过程的能力和知识，将其作为一个连续体，以便在满足技术限制和商业需求的同时，为一系列受众提供沉浸式体验;能够跨越学科边界，为各种环境创造创新的沉浸式体验，通过与MA沉浸式艺术(虚拟与·增强现实)的学生合作，将创意艺术和计算机科学的技能结合在一起;具备负责任的创新和创业能力，成为沉浸式行业初创企业的下一代领导者。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "沉浸式技术与艺术导论 (Introduction to Immersive Technologies and Arts)\n虚拟环境设计 (Virtual Environment Design)\n创新、创业与企业 (Innovation, Entrepreneurship and Enterprise)\n沉浸式交互与音频设计 (Immersive Interaction and Audio Design)\n沉浸式游戏设计与制作 ( Immersive Games Design and Production)\n增强现实世界 (Augmenting the Real World )",
+  "success_cases": ""
+}

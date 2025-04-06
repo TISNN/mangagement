@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "电力系统理学硕士",
+  "ename": "MSc Electrical Power Systems",
+  "tags": "工科,电气电子,电子与计算机科学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 33900英镑/年",
+  "requirements": "具有2:1学位，需要电气工程或电子工程背景\n申请者还必须在以下课程中取得upper 2:1的成绩：\n- 1门电机课程（如电机、电气设备、电气驱动、电机、机器或驱动控制、机电能转换器）\n- 1门电力系统课程（如电力系统控制、电力系统、能源电力系统、电力输配、发电、电网）\n- 1个电气工程课程（如高压工程、电力电路、电工技术、电力电子、电子变换器）\n- 1个工程物理课程（如工程物理、热力学、流体力学、传热学、电磁学、应用电磁学、机器人、控制工程）",
+  "objectives": "南安普顿大学的能源、可持续发展与电力工程理学硕士项目为期一年，涵盖了可持续能源发电、输电和配电工程的所有层面，以及电能运输过程中的问题。本项目旨在为有意在电力行业就业的人提供技能，学生将能够提升设计和开发未来能源网络的技能和知识。南安普顿大学能源、可持续发展与电力工程理学硕士项目将使学生奠定发电、输电和配电工程的坚实基础，接触能源、可再生能源发电和可持续发展等深层次议题，适合有意在电力行业发展职业生涯的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "能源与电力系统基本原理 (Fundamental Principles of Energy and Power Systems)\n硕士项目 (MSc Project)\n配电：设计、运行与保护 (Power Distribution: Design, Operation and Protection)\n发电：技术及其对社会的影响 (Power Generation: Technology and Impact on Society)\n电力系统运行与经济学 (Power Systems Operation and Economics)\n研究方法与项目准备 (Research Methods and Project Preparation)\n生物能 (Bioenergy)\n高压绝缘系统 (High Voltage Insulation Systems)\n机械动力传输与振动 (Mechanical Power Transmission and Vibration)\n直流传输电力电子学 (Power Electronics for DC Transmission)\n电力系统动力学、稳定性与控制 (Power System Dynamics, Stability and Control)\n来自环境流动的可再生能源：风、波浪与潮汐 (Renewable Energy from Environmental Flows: Wind, Wave and Tide)",
+  "success_cases": ""
+}

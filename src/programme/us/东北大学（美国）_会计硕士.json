@@ -1,0 +1,12 @@
+{
+  "school_name": "东北大学（美国）",
+  "major_name": "会计硕士",
+  "ename": "MS in Accounting",
+  "tags": "商科,会计",
+  "introduction": "专业方向: 会计\n入学时间: 夏季/秋季\n项目时长: 7个月\n项目学费: 1,695美元/学分",
+  "requirements": "本科阶段学过：财务与管理会计，中级会计，审计，美国联邦所得税，美国商法",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

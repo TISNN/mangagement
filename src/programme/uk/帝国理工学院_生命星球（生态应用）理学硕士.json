@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "生命星球（生态应用）理学硕士",
+  "ename": "MSc Living Planet with Ecological Applications",
+  "tags": "理科,生物,生命科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 34250英镑/年",
+  "requirements": "具有2:1学位，需要理科背景，申请者将接受线上面试",
+  "objectives": "帝国理工学院生命星球（生态应用）理学硕士项目提供生态和进化论科学在规划、监测、可持续有害生物、人口管理和控制方面的理论和实践培训。课程面向对应用生态学或生态咨询事业感兴趣的学生，以及那些希望攻读博士学位的人士。帝国理工学院生命星球（生态应用）理学硕士项目授课地点位于西尔伍德公园校区国际知名的生态研究中心，并与众多伙伴开展合作，如：国际应用生物科学中心、萨里郡野生动植物信托基金、英国鸟学组织、汤姆森生态学。课程由该领域的主要研究人员授课，重点提升学生就职于工业，政府或非政府组织所必需的实践与定量分析技能，也为学生日后从事相关研究工作打下坚实的基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "R语言中的统计学 (Statistics in R)\n生态与进化数据科学概论 (Introduction to Ecological and Evolutionary Data Science)\n环境微生物学 (Environmental Microbiology)\n农业生态系统 (Agroecosystems)\n管理碳 (Managing Carbon)\n希尔伍德实地课程与基础计算 (Silwood Field Course and Basic Computing)\n生物计算训练营 (Biological Computing Bootcamp)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

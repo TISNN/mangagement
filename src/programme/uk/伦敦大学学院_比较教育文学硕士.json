@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "比较教育文学硕士",
+  "ename": "MA Comparative Education",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 29800英镑/年",
+  "requirements": "通常具有英国大学颁发的2:1学士学位或同等学历",
+  "objectives": "伦敦大学学院比较教育文学硕士项目旨在提升学生对多个国家的教育体系、教育传统及教育问题的认知，使学生掌握系统性比较研究所需具备的概念和技能，从而能够深入理解教育与其他社会现象之间的关联。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "比较教育：理论与方法 (Comparative Education: Theories and Methods)\n亚洲教育及其发展 (Education and Development in Asia)\n欧洲教育传统与制度 (Education Traditions and Systems in Europe)\n 高等教育创新和改变 (Innovation and Change in Higher Educatio)\n教育与国际发展：概念、理论与问题 (Education and International Development: Concepts、Theories and Issues)\n教育与穆斯林社区 (Education and Muslim Communities)\n全民教育背景下的教学与受教育者 (Learners、Learning and Teaching in the Context of Education for All)\n民族教育体系中的少数民族、移民和难民 (Minorities、Migrants and Refugees in National Education Systems)\n理解教育政策 (Understanding Education Policy)\n教育史上的争论 (Debates in the History of Education)",
+  "success_cases": ""
+}

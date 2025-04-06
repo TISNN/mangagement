@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "传感器与成像系统理学硕士（爱丁堡大学-格拉斯哥大学联合开设）",
+  "ename": "Joint MSc Sensor and Imaging Systems (Edinburgh-Glasgow)",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 31800英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要工程学、物理学、化学或其他相关物理科学背景\n入学竞争激烈，因此学校更偏好英国一等荣誉学位，或英国2:1荣誉学位同时获得硕士学位，或具备同等学历\n学校也可能考虑具备其他资格或经验或其他领域背景的申请者（需要在申请前联系学校确认）",
+  "objectives": "传感和传感器系统对于物理、工程和化学所有领域的研究进展至关重要。通过将多个传感功能组成阵列以成像，传感和传感器系统能够得到增强。传感器系统的产业应用无处不在：从现代智能手机和汽车中批量生产的传感器，到油气回收、科学设备、机床、医疗设备和环境监测中常用的专业高质量传感器。\n爱丁堡大学传感器与成像系统理学硕士项目由爱丁堡大学和格拉斯哥大学联合开设，专注于满足广泛领域（从研究到产业到医药）应用需求的原理、方法、技术和科技，适合有意向拓展技能和知识从而开拓机遇以便就职于开发传感器与成像系统的诸多公司的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电路与系统 (Circuits and Systems)\n传感与测量基础 (P431M Fundamentals of Sensing and Measurement)\n技术与创新管理 (Technology and Innovation Management)\n数字信号处理实验室 (Digital Signal Processing)\n激光和光电系统 (Lasers and Electro-Optic Systems 4)\n消费品中的微电子学 (Microelectronics in Consumer Products 4)\n纳米加工 (Nanofabrication)\n波浪与衍射 (Waves and Diffraction)\n传感器与成像系统的应用 (Applications of Sensor and Imaging Systems)\n研究项目准备 (Research Project Preparation)\n生物物理化学 (Biophysical Chemistry Level 11)\n生物传感器与仪器仪表 (BioSensors and Instrumentation)\n芯片实验室技术 (Lab-on-Chip Technologies)\n微加工技术 (Microfabrication Techniques)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "铁路工程与项目管理（工程）理学硕士",
+  "ename": "MSc(Eng) Railway Engineering with Project Management",
+  "tags": "工科,交通运输,土木工程学院",
+  "introduction": "专业方向: 交通运输\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要土木工程或相关工程、科学或数学学科（已经学习过相关学科领域）背景\n满足以下其中一项的申请者将基于具体情况被考虑：\n- 具有土木工程或相关工程、科学或数学学科（已经学习过相关学科领域）2:2荣誉学士学位，并且具备至少1年相关经验\n- 具有专业资格以及相关经验",
+  "objectives": "利兹大学铁路工程与项目管理（工程）理学硕士项目将核心铁路知识与项目管理相结合，将为学生建造和运营世界新铁路线做好准备。考虑到新铁路线在全球的巨大增长，这为学生提供了很多的机会。该课程专注于多学科教学。核心技术材料涵盖整个铁路系统，而不是单个工程领域。教学结合了利兹大学两个世界领先学院的专业知识：高速铁路和系统集成研究所和交通研究所。此外，项目管理模块由教授国际领先的工程项目管理理学硕士的同一位学者提供。学生将由专业经验丰富且拥有最新研究专业知识的员工授课，为学生提供雇主所需的实用和专业技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士学位论文 (MSc Dissertation)\n运输基础设施战略 (Transport Infrastructure Strategy)\n项目管理 (Project Management)\n风险管理 (Risk Management)\n铁路轨道基础设施设计 (Railway Track Infrastructure Design)\n铁路工程与规划 (Railway Engineering and Planning)\n运输弹性 (Transport Resilience)\n铁路投资评估 (Railway Investment Appraisal)\n铁路信号和控制 (Railway Signalling and Control)",
+  "success_cases": ""
+}

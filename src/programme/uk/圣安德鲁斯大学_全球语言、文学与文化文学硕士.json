@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "全球语言、文学与文化文学硕士",
+  "ename": "MLitt Global Languages, Literatures and Cultures",
+  "tags": "社科,文化,现代语言学院",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要现代语言或比较文学相关方向学科背景，需要一篇written work (2,000 words)",
+  "objectives": "圣安德鲁斯大学全球语言、文学与文化文学硕士项目旨在通过现代语言学院专家的跨国教学来扩展学生对文学和文化研究的兴趣，通过探索新的视角和方法，加深其在所选语言领域或领域的知识，50名全职学术人员使用8种语言授课，提供广泛的学科知识、教学和监督专业知识，提供全球视野，通过参与学院研究中心和跨学科研究小组的工作，参与前沿研究，作为学位的一部分，通过跨学科研究研究生院的选修课程探索跨学科研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "比较方法与研究技巧 1 (Comparative Methodologies and Research Skills 1)\n比较方法与研究技巧 2 (Comparative Methodologies and Research Skills 2)\n论文 (Dissertation)\n文学与文化内省 (Literary and Cultural Introspection)\n文学与文化外向性 (Literary and Cultural Extrospection)",
+  "success_cases": ""
+}

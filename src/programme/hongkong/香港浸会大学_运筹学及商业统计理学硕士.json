@@ -1,0 +1,12 @@
+{
+  "school_name": "香港浸会大学",
+  "major_name": "运筹学及商业统计理学硕士",
+  "ename": "MSc Operational Research & Business Statistics",
+  "tags": "理科,数学,理学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 200000港币/年",
+  "requirements": "所有申请者必须毕业于认可的学院或大学，申请者通常应具有数学、统计学、计算机科学、物理、工程、商科或其他相关专业的学士学位或同等资格，精通基础数学",
+  "objectives": "香港浸会大学运筹学及商业统计理学硕士是应用先进分析方法帮助做出更好决策的学科。它使组织有能力据以下内容做出更有效的决策并建立更高效的系统：更复杂的数据；考虑所有可用选项；仔细预测结果和风险估计；最新的决策工具和技术\n该项目旨在：\n为运筹学和商业统计领域的在职专业人士提供继续教育的机会。\n为个人提供一条职业转换的道路，进入运筹学和商业统计领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "运筹学（一） (Operational Research I)\n生产运营管理技术 (Techniques of Production Operations Management)\n商业管理统计软件 (Statistical Software in Business & Management)\n计算机仿真工具 (Computer Tools for Simulation)\n应用多变量分析 (Applied Multivariate Analysis)\n应用时间序列 (Applied Time Series)\n商业统计与建模 (Business Statistics & Modeling)\n运筹学（二） (Operational Research II)\n绩效管理 (Performance Management)\n管理复杂度：系统方法 (Managing Complexity: The Systems Approach)\n抽样调查 (Survey Sampling)\n精算统计学 (Actuarial Statistics)\n实验设计 (Experimental Design)\n硕士论文（一） (Dissertation I)\n衍生工具 (Derivatives)",
+  "success_cases": ""
+}

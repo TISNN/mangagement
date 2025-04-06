@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "机械工程理学硕士",
+  "ename": "MSc Mechanical Engineering",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 30050英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要以下背景：机械或机械相关工程（如汽车、航空、机电一体化、材料或设计），数学或物理学，其他密切相关学科\n具备相关工作经验者优先考虑（非必要条件）\n学校会根据个人情况考虑具有较低或非标准资格以及大量相关工作经验的申请者",
+  "objectives": "纽卡斯尔大学机械工程理学硕士项目为期一年，适合机械工程、相关工程、数学、物理或诸如汽车、航空、设计等相关学科的荣誉本科生（或国际等效学位），将使学生提升机械工程方面的知识和技能，赋予学生通过研究项目从事深入研究的机会。 纽卡斯尔大学机械工程理学硕士项目涵盖的主要工程主题有：能源与储存；制造业；车辆驱动器和动力学；计算方法；工程软件；纽卡斯尔大学机械工程理学硕士项目将使学生能够提升以下技能：机械工程原理、实践、材料、部件和系统；研究与信息检索；数据收集；关键评估与高效应用；了解领域当前及新兴进展；",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士项目：机械和系统工程 (MSc Project: Mechanical and Systems Engineering)\n能源资源和储存 (Energy Sources and Storage)\n制造材料和工艺 (Manufacturing Materials and Processes)\n汽车驱动和动力学 (Vehicle Drives and Dynamics)\n人力系统综合设计 (Design for Human-Systems Integration)\n机械动力传输 (Mechanical Power Transmissions)\n专业工程软件 (Software in the Professional Engineering Context)\n机器人学 (Robotics)\n机械动力传输设计 (Design of Mechanical Power Transmissions)",
+  "success_cases": ""
+}

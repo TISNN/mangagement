@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "高级机械工程理学硕士",
+  "ename": "MSc Advanced Mechanical Engineering",
+  "tags": "工科,机械工程,工程与材料科学学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有本科high 2:2学位（55%）或以上学历，具有机械工程、机电一体化、汽车工程、航空航天/航空工程或电气/电子工程专业背景,，需要ATAS证书",
+  "objectives": "机械工程是物理科学在实际问题解决中的应用。作为机械工程师，学生可以研究诸如开关等简单组件、诸如内燃机等复杂器械、诸如汽车或工厂生产线等完整的系统之类的任何事物。伦敦大学玛丽皇后学院高级机械工程理学硕士项目为期一年，是学校机械工程学院提供方案的一部分，适合拥有科学和工程学科坚实背景的学生，也适合于想要在机械工程领域更进一步的学生。项目中的选修课程有固体力学、机器人与自动化、流体和燃烧，赋予学生根据个人兴趣选择专业方向的自由。 伦敦大学玛丽皇后学院高级机械工程理学硕士项目由学术专家教授，这些专家除教学之外，还参与广泛课题的国际级别研究，如：能源的产生和转换，包括替代和可持续来源；传热和流体力学；计算工程，固体和流体；控制工程；机器人；材料科学，包括结构和功能材料。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程研究方法和实验技术 (Research methods and experimental techniques in engineering)\n计算工程 (Computational Engineering)\n车辆防撞性 (Vehicular Crashworthiness)\n可再生能源资源 (Renewable Energy Sources)\n高级燃气涡轮 (Advanced Gas turbines)\n制造工艺 (Manufacturing Processes)\n固体破坏 (Failure of Solids)\n车辆耐撞性 (Vehicular Crashworthiness)\n先进机械工程研究项目 (Advanced Mechanical Engineering Research Proiect)",
+  "success_cases": ""
+}

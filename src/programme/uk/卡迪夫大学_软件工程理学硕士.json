@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "软件工程理学硕士",
+  "ename": "MSc Software Engineering",
+  "tags": "工科,计算机,计算机科学与信息学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 31700英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，具备STEM科目学习背景；需要有编程工作经验",
+  "objectives": "卡迪夫大学软件工程理学硕士项目课程涉及Python、HTML和Javascript、数据库、DevOps和新兴技术等软件工程涉及的语言编写Web应用程序，注重团队协作能力以及敏捷的项目管理技能的培养，为学生安排小组行业实习，学生能够将所学知识与技能运用到实践中。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学位论文（团队项目） (Dissertation (Team Project) )\n敏捷项目开发 (Agile Software Development )\n网络应用 (Web Applications )\n编程原则与实践 (Programming Principles and Practice )\nDevOps (DevOps )\n数据操控与利用 (Manipulating and Exploiting Data )\n用户体验 (Delivering User Experience)",
+  "success_cases": ""
+}

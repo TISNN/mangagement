@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "物联网系统工程理学硕士",
+  "ename": "MSc Systems Engineering for the Internet of Things",
+  "tags": "工科,电气电子,工程科学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有2:1英国学士学位或同等学历，需要电子与电气工程、计算机科学或相关领域背景（如工程数学、工程物理、信息系统、数学与计算、数据科学、电子学），申请者还应具备一定的编程语言（如C、C、Python或Java）经验，以及一定的代数、数值分析、概率或统计学经验，申请者必须表现出对发展创造性思维和问题解决能力的兴趣",
+  "objectives": "伦敦大学学院物联网系统工程理学硕士项目旨在培养学生成为可以将传感器系统的技术和创业方面结合起来以帮助解决现实世界问题的创新者。该课程将电子学、编程和物联网与创业和识别物理环境中实际需求所需的技能结合在一起，学生将获得从创意生成到原型设计和部署的所有实践经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "创业：理论与实践 (Entrepreneurship: Theory and Practice)\n嵌入式系统建模与设计 (Modelling and Designing Embedded Systems)\n真实世界的多代理系统 (Real-world Multi-agent Systems)\n设计传感器系统 (Designing Sensor Systems)\n通过思辨设计进行系统思考 (System Thinking through Speculative Design)\n物联网系统工程理学硕士项目 (MSc Systems Engineering for the Internet of Things Project)\n机器人控制理论与系统 (Robotic Control Theory and Systems)\n贝叶斯深度学习 (Bayesian Deep Learning)\n移动系统与交互 (Mobile Systems & Interactions)\n包容性设计与环境 (Inclusive Design and Environments)\n创新创造更公平的世界 (Innovation for a Fairer World)\n找到你的未来 (Find your Future   )\n探索当地社区的权力、包容与排斥 (Exploring Power, Inclusion and Exclusion with Local Communities)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "量子技术理学硕士",
+  "ename": "MSc Quantum Technologies",
+  "tags": "理科,物理,数学与物理科学学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要物理、工程、数学、计算机科学或相关学科背景，并具备熟悉基本量子力学的证据，需要ATAS认证\n强烈建议有作品集的申请者在申请时提交该材料，没有或尚未完成物理学理学学士学位课程的申请者应该非常详细地介绍他们在量子理论方面的背景",
+  "objectives": "伦敦大学学院量子技术理学硕士项目将帮助学生探讨量子技术新兴领域的前沿研究中，提供相关物理领域高级训练，培养学生掌握工程和信息科学领域的关键技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级量子理论 (Advanced Quantum Theory)\n量子通讯与计算 (Quantum Communication and Computation)\n高级光子器件 (Advanced Photonic Devices)\n纳米电子器件 (Nanoelectronic Devices)\n高级器件的纳米级处理 (Nanoscale Processing for Advanced Devices)\n光传输与网络 (Optical Transmission and Networks)\n凝聚态的序列和激发 (Order and Excitations in Condensed Matter)\n物理学与纳米结构光学 (Physics and Optics of Nano-Structures)\nC++研究运算 (Research Computing with C++)\n软件工程研究（Python） (Research Software Engineering with Python)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "计算机科学理学硕士",
+  "ename": "MSc Computer Science",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 32300英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景（计算机科学相关专业除外）\n计算机科学相关专业的毕业生应申请MSc Advanced Computer Science\n学校也会根据个人情况考虑具有较低或非标准资格但具备相关经验的申请者",
+  "objectives": "纽卡斯尔大学计算机科学理学硕士学位课程适合几乎或完全没有计算机背景的学生。学生将学习计算的原理和实践，包含计算机科学、数据库设计、网络技术和编程的基础知识。同时，纽卡斯尔大学计算机科学理学硕士学位课程也可视为继续职业发展项目，如信息和通信技术的老师可通过学习转而教授新的计算机科学课程。\n纽卡斯尔大学计算机科学理学硕士学位课程的毕业生享有极高的就业率（大约90%）。近期的案例包括：英国航空公司的毕业实习生、IBM英国分公司的软件开发人员、ScottLogic公司的应届毕业生开发人员以及英国电信公司的软件工程师。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "编程和数据结构 (Programming and Data Structures)\n高级编程 (Advanced Programming)\n计算机科学研究方法 (Research Methods for Computer Science)\n计算机环境 (Computer Environments)\n计算机科学项目和论文 (Project and Dissertation for MSc Computer Science)\n网络和网络技术 (Networks and Web Technologies)\n软件工程团队项目 (Software Engineering with Group Project)\n信息系统 (Information Systems)",
+  "success_cases": ""
+}

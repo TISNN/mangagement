@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "信息技术（软件系统）理学硕士",
+  "ename": "MSc Information Technology (Software Systems)",
+  "tags": "工科,计算机,数学与计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 25480英镑/年",
+  "requirements": "要求在科学、技术、工程或数学学科领域获得good荣誉学位",
+  "objectives": "赫瑞-瓦特大学信息技术（软件系统）理学硕士将传授按照专业标准开发高级软件系统的知识和技能。\n赫瑞-瓦特大学信息技术（商业）理学硕士有一个灵活的结构，以适应毕业生与广泛的学位，从那些在信息技术，而不是那些学术计算内容。理学硕士课程涵盖理学硕士水平的信息技术（IT）核心技能，同时允许学生学习动画、数据库、电子商务、游戏编程、智能机器人和网络应用等专业高级课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据库和信息系统 (Database and Information Systems)\n研究方法和项目计划 (Research Methods and Project Planning)\n硕士项目与论文 (Masters project and dissertation)\n3D图形和动画 (3D Graphics and Animation)\n高级互动设计 (Advanced Interaction Design)\n高级软件工程 (Advanced Software Engineering)\n电脑游戏编程 (Computer Games Programming)\n计算机网络安全 (Computer Network Security)\n数字与知识经济 (Digital and Knowledge Economy)\n电子商务技术 (e-Commerce Technology)\n工业编程 (Industrial Programming)\n智能机器人 (Intelligent Robotics)\n软件工程基础 (Software Engineering Foundations)",
+  "success_cases": ""
+}

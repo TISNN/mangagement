@@ -1,0 +1,12 @@
+{
+  "school_name": "克莱姆森大学",
+  "major_name": "电气和计算机工程理学硕士",
+  "ename": "MS in Electrical and Computer Engineering",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 春季/夏季/秋季\n项目时长: 30学分\n项目学费: 11,726美元/学期",
+  "requirements": "本科最好为电气或计算机工程专业",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

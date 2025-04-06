@@ -1,0 +1,12 @@
+{
+  "school_name": "俄亥俄州立大学",
+  "major_name": "生物医学工程理学硕士",
+  "ename": "MS in Biomedical Engineering",
+  "tags": "工科,生物工程",
+  "introduction": "专业方向: 生物工程\n项目类别: STEM\n入学时间: 秋季/春季\n项目时长: 31学分\n项目学费: 59,678美元/年\n平均成绩: 3.3（3.0-3.6）",
+  "requirements": "具备工科工程背景，且有一定的数学、生物学、生理学课程基础",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "运筹学与金融理学硕士",
+  "ename": "MSc Operational Research and Finance",
+  "tags": "理科,数学,数学科学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 25400英镑/年",
+  "requirements": "具有2:1学位，需要定量学科背景（数学含量高），必须在数学课程以及会计、金融与精算课程中取得高分",
+  "objectives": "南安普顿大学运筹学与金融理学硕士项目引导学生学习收入管理、信用评分和财务风险管理方面的技能，使学生深入了解适用于整个金融机构的应用分析和财务建模方法，引导学生学习金融和商业必备的分析技能。学生将与跨国组织合作开展案例研究，培养应用分析和财务能力。项目还将带领学生参加各行业的夏季项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "确定性或方法 (Deterministic OR Methods)\n随机性或方法 (Stochastic OR Methods)\n公司金融1 (Corporate Finance 1)\n项目 (Project)\n展示报告 (Presenting Reports)\nPython导论 (Introduction to Python)\n统计方法 (Statistical Methods)\n数据分析 (Data Analytics)\n金融风险管理 (Financial Risk Management)\n金融定量研究 (Quantitative Research in Finance)\n公司金融2 (Corporate Finance 2)\n预测 (Forecasting)\n金融投资组合理论 (Financial Portfolio Theory)\n非线性优化 (Nonlinear Optimisation)\n分析咨询技巧 (Analytical Consultancy Skills)",
+  "success_cases": ""
+}

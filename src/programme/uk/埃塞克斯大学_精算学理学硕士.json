@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "精算学理学硕士",
+  "ename": "MSc Actuarial Science",
+  "tags": "商科,金工金数,数学科学系",
+  "introduction": "专业方向: 金工金数\n入学时间: 10月\n项目时长: 1年\n项目学费: 21700英镑/年",
+  "requirements": "具有2:1学位，背景需要为以下学科之一：数学、统计学、运筹学、计算机科学、应用数学、纯数学、生物统计学、经济统计学、经济学；或具有2:1学位，不限专业背景，包括：以下1门课程：微积分、数学、工程数学、高等数学，以及以下1门课程：统计或概率、数学、工程数学、高等数学，以及以下1门附加相关课程：代数、分析、编程语言（R, Matlab或Python）、概率论或统计学中的第2门课程、数值方法、复数、微分方程、优化（线性规划）、回归、随机过程、数学、工程数学、高等数学低于2:1学位或同等学历的申请者，将根据其相关专业或志愿工作经验和之前学习的课程对其申请进行考虑",
+  "objectives": "埃塞克斯大学精算学理学硕士课程由数学科学系教授，适用于想学习精算科学知识的数学、统计学、经济学或金融学学士学位的学生。埃塞克斯大学精算学理学硕士课程基于精算师学会及精算师学院大部分核心科目的课程大纲，专注于精算方法和精算应用方面的最新研究成果，意味着学生将获得精算建模和精算分析方面的坚实培训。也可以专门选择一个主题，选项包括：精算和财务建模，一般保险，人寿保险",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生存分析 (Survival Analysis)\n投资组合数学 (Mathematics of Portfolios)\n偶发事件 II (Contingencies II)\n统计学方法 (Statistical Methods)\n随机过程 (Stochastic Processes)\n金融衍生工具 (Financial Derivatives)\n研究方法 (Research Methods)\n论文 (Dissertation)\n财务与财务报告 (Finance and Financial Reporting)\n统计学 II (Statistics II)\n数学职业与就业能力 (Mathematics Careers and Employability)",
+  "success_cases": ""
+}

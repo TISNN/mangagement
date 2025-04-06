@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学亚非学院",
+  "major_name": "发展经济学理学硕士（含实习）",
+  "ename": "MSc Development Economics with Placement Year",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 2年\n项目学费: 13353英镑/年",
+  "requirements": "学校将考虑所有经济学和其他社会科学（如政治、社会学、金融、商业、国际关系、法律）以及数学、物理、统计学或工程学的2:2（或国际同等学历）学位申请者的申请具有专业资格或相关专业经验的申请人也将被学校考虑。申请人需要证明他们学习过经济理论（包括宏观经济学和微观经济学）和以下其中一门：数学、应用数学、定量方法（统计学或计量经济学）",
+  "objectives": "伦敦大学亚非学院发展经济学理学硕士（含实习）项目结合了经济学的多元化方法和对现实世界发展问题的。课程适合那些有兴趣了解以下问题的学生，如全球经济是如何运作的，全球南方国家面临什么样的经济挑战和机遇，以及如何应对日益加剧的不平等和生态崩溃 。在发展经济学中，学生将通过历史，多元和非殖民化的方法了解经济理论和发展政策。学生将有机会在其选择的组织中参加10-12个月的全职工作实习。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "宏观经济学 (Macroeconomics)\n微观经济学 (Microeconomics)\n成长与发展 (Growth and Development)\n计量经济学与R编码 (Econometrics with R coding)\n论文写作工作坊 (Essay Writing Workshop)\n学位论文 (Dissertation)\n国际金融 (International Finance)\n制度政治经济学 (Political Economy of Institutions)\n中东发展与变化的政治经济学 (Political Economy of Development and Change in the Middle East )\n亚太地区的经济发展 (Economic development in the Asia Pacific region)\n金融体系与经济发展 (Financial Systems and Economic Development)\n经济政策评价方法 (Evaluation Methods for Economic Policy)\n研究方法 (Research Methods)\n高级计量经济学与R编码 (Advanced Econometrics with R coding)\n环境与发展经济学 (Economics of Environment and Development)\n全球经济政策分析 (Global Economic Policy Analysis)\n高级微观经济学 (Advanced Microeconomics)\n高级宏观经济学  (Advanced Macroeconomics )\n中国与世界发展 (China and World Development)\n绿色金融 (Green Finance)\n非洲的经济发展 (Economic development of Africa)\nPython数据分析 (Data Analytics with Python)",
+  "success_cases": ""
+}

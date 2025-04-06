@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "地理信息科学理学硕士",
+  "ename": "MSc Geographical Information Science",
+  "tags": "工科,地球科学,地理、地质与环境学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 23650英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科背景或者几年相关工作经验",
+  "objectives": "地理信息在生活中的许多领域扮演着越来越重要的角色，如：环境保护、商业和市场营销、通信、预测、建模、农业和地方区域规划。了解地理信息系统（软件工具）和地理信息科学（技术学科）对于高效管理分析空间数据来说至关重要。如果学生想要奠定地理信息系统（软件工具）和地理信息科学（技术学科）的理论和实践基础，莱特斯大学地理信息科学理学硕士项目是理想的选择。学生将有机会接触光刺激冷光实验室、原子吸收分光光度计、扫描电子显微镜、冷库、激光衍射粒度分析仪、三维激光扫描仪及电子传统设备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地理可视化 (Geographical Visualisation)\n遥感 (Remote sensing)\n重要地理信息系统 (Critical GIS)\n地理空间数据库和信息检索 (Geospatial Databases and Information Retrieval)\n地理空间数据分析 (Geospatial Data Analytics)\nR语言的实用程序设计 (Practical Programming in R)\n地理信息系统基础 (Fundamentals of GIS)",
+  "success_cases": ""
+}

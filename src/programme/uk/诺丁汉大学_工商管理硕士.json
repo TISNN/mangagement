@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,诺丁汉商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 32400英镑/年",
+  "requirements": "具有2:1学位或同等学历，不限专业背景，学校也会考虑具有优秀认可大学颁发的荣誉学位以及具有丰富专业经验或资格、有可能增强MBA班级多样性的毕业生的申请\n申请者需要具备毕业后至少3年全职工作经验，其中包括一些管理经验",
+  "objectives": "诺丁汉大学工商管理硕士课程将帮助学生培养关键的理论概念，以及如何在实际的全球商业环境中适应和利用技能。项目将为学生提供涵盖管理基本领域的核心模块，包括领导力、营销、金融和创业。创业教育也是诺丁汉大学工商管理硕士项目的最重要的优势之一。学生还可以通过选择专业的可选模块来专注于个人的兴趣和职业目标，涵盖的主题包括风险投资、道德、商业智能和变革管理。学生将完成一个基于公司的管理项目，与一家公司合作，帮助他们解决实际业务问题。这是一个将知识付诸实践、给潜在雇主留下深刻印象以及培养良好关系的机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计与财务 (Accounting and Finance)\n商业经济学 (Business Economics)\n领导、人员和组织能力 (Leadership, People and Organisational Capability)\n营销 (Marketing)\n运营管理 (Operations Management)\n战略管理 (Strategic Management)\n创业与创新 (Entrepreneurship and Creativity)\n可持续决策和组织 (Sustainable Decisions and Organisations)\n管理项目 (Management Project)\n商业伦理 (Business Ethics)\n数字经济中的商业智能 (Business Intelligence in the Digital Economy)\n当代管理问题 (Contemporary Issues in Management)\n公司财务 (Corporate Finance)\n商业游戏与策略 (Games and Strategies for Business)\n创新管理 (Innovation Management)",
+  "success_cases": ""
+}

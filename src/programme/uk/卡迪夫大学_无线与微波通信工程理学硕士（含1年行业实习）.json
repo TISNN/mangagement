@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "无线与微波通信工程理学硕士（含1年行业实习）",
+  "ename": "MSc Wireless and Microwave Communication Engineering with a Year in Industry",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 2年\n项目学费: 29450英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科背景，如通信工程、通信技术、电气或电子工程或无线工程；或有相关专业的工作经验",
+  "objectives": "卡迪夫大学无线与微波通信工程理学硕士（含1年行业实习）项目旨在培养具有电子和微波工程方面基本专业知识的研究生专家，并培养人们对这些技术迅速增长的应用空间的认识。卡迪夫大学无线与微波通信工程理学硕士（含1年行业实习）课程为学生提供了一年从事工业工作的机会，将帮助学生获得先进水平的知识和关键技能，从而使学生能够在快速增长的无线和微波通信行业取得成功。学生还将开发技术、智力和研究技能，以提高学生的一般工程能力和就业能力，为学生提供一个极好的职业发展平台，无论是在行业内还是学术研究领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "软件工具与仿真 (Software Tools and Simulation)\n射频电路设计与CAD (RF Circuits Design and CAD)\n研究性学习 (Research Study)\n高级通信系统 (Advanced Communication Systems)\n高频和射频工程 (HF and RF Engineering)\n高级CAD、制造和测试 (Advanced CAD, Fabrication and Test)\n微波毫米波集成电路设计与技术 (Microwave and Millimetre-Wave Integrated Circuit Design and Technology)\n微纳米工程 (Micro- and Nano-engineering)\n高频器件物理与设计 (High Frequency Device Physics and Design)\n超大型积体电路设计 (VLSI Design)\n高频电子材料 (High Frequency Electronic Materials)\n光电子学 (Optoelectronics)\n高频功率放大器 (High Frequency Power Amplifiers)\n微波和通信工程行业定位 (Industry Placement in Microwave and Communications Engineering)\n微波与通信工程专业论文 (Dissertation in Microwave and Communications Engineering)",
+  "success_cases": ""
+}

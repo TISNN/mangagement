@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "结构工程学理学硕士",
+  "ename": "MSc Structural Engineering",
+  "tags": "工科,土木工程,土木与环境工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 24900英镑/年",
+  "requirements": "具有2:2英国荣誉学位或受认可的同等学历，需要土木工程（或机械、航空航天、海洋、船舶设计或其他相关工程学科）背景\n申请者将根据个人情况予以考虑，基于与硕士课程相关的特定学科的优势和/或专业经验",
+  "objectives": "萨里大学结构工程学理学硕士项目不仅由萨里大学本校教授授课，同时还邀请了建筑咨询公司、地方当局建设部门的在职工程师授课，致力于为从事结构工程规划、设计和建造等相关工作的在职工程师提供一个获取结构工程设计、管理最新最前沿知识的机会，同时也使其能够了解结构工程规范和和分析方法的最新发展情况。\n萨里大学结构工程学理学硕士项目为学生提供了广泛而全面的课程，学生有选择自己感兴趣的具体研究方向课程的自由。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "钢结构建筑设计 (Steel Building Design)\n空间结构 (Space Structures)\n结构力学和有限元分析 (Structural Mechanics and Finite Elements)\n混凝土建筑设计 (Concrete Building Design)\n结构安全和可靠性 (Structural Safety and Reliability)\n地震工程 (Earthquake Engineering)\n砖石结构设计 (Design of Masonry Structures)\n水下工程 (Subsea Engineering)",
+  "success_cases": ""
+}

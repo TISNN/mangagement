@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "生物材料与生物医学工程（工程）理学硕士",
+  "ename": "MSc(Eng) Biomaterials and Biomedical Engineering",
+  "tags": "工科,生物工程,工程学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 1月\n项目时长: 1年\n项目学费: 29900英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要工程或科学背景在特殊情况下，从英国大学毕业的非工程/科学学位的学生将根据具体情况进行考虑",
+  "objectives": "利物浦大学生物材料与生物医学工程（工程）理学硕士项目旨在为学生提供快速发展的生物材料和生物医学工程领域的全面教育，重点研究方法和设计。学生将获得生物材料、组织工程、生物力学以及材料科学和制造方面的知识和经验。课程还将涵盖生物​​材料从实验室到临床的转化，包括法规、道德和知识产权 (IP)。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "结构型生物材料 (Structural Biomaterials)\n组织工程学 (Tissue Engineering)\n骨骼肌生物力学 (Musculoskeletal Biomechanics)\n生物材料的实验方法：实践技能和实验室技术 (Experimental Methods in Biomaterials: Practical Skills and Laboratory Techniques)\n生物材料的实验方法：设计与数据分析 (Experimental Methods for Biomaterials: Design and Data Analysis)\n研究技能和项目规划 (Research Skills and Project Planning)\n项目论文 (Project Dissertation)\n高级激光制造 (Advanced Manufacturing with Lasers)\n高级材料工程 (Advanced Engineering Materials)",
+  "success_cases": ""
+}

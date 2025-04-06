@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "对外汉语教学文学硕士",
+  "ename": "MA Teaching Chinese as a Foreign Language",
+  "tags": "社科,教育,人文学院",
+  "introduction": "专业方向: 教育\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 195000港币/年",
+  "requirements": "具有认可院校颁发的学士学位，非汉语母语的申请者需要具备大学汉语水平或达到同等水平",
+  "objectives": "香港理工大学对外汉语教学文学硕士课程旨在培养学生在汉语教育方面的专业认知与文化素养智力，具体而言就是培养学生对汉语与其他语言差异、中国文化与其他文化差异的认知与敏感度，课程建立在学生为课程带来的多样性经验基础之上，旨在加深学生对中国语言、中国文学、中国文化的了解与认识，培养他们的学习和教学技能，使其能够发展自己的职业生涯。香港理工大学对外汉语教学文学硕士课程旨在帮助学生能够运用简单的语言向非母语人士教授汉语，并能以恰当的形式清晰准确向其传达复杂问题，能够利用多种媒介获取汉语教学所需要的信息，评估当前语言教学中文学和语言学理论的问题，同时具备对中国文学和文化作品的分析鉴赏能力，能够使用中文发现、解决、处理问题，弘扬中华文化传统，在课堂管理中，能够对对外汉语教学中存在的问题进行评估，并提出解决问题的方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育语言学导论 (Introduction to Educational Linguistics)\n汉语测试导论 (Introduction to Chinese Language Testing)\n对外汉语教学方法论 (Methodology of Teaching Chinese as a Foreign Language )\n第二语言习得与外语学习 (Second Language Acquisition and Foreign Language Learning)\n跨文化交流 (Intercultural Communication)\n香港文学 (Hong Kong Literature)\n应用汉语研究 (Applied Chinese Language Studies)\n应用语料库语言学 (Applied Corpus Linguistics)\n应用词汇学与词典学 (Applied Lexicology & Lexicography)\n汉语语言教学评估 (Assessment for Learning in Chinese Language Teaching)\n中小学汉语教学 (Chinese Language Education in Primary & Secondary Schools)\n日语和汉语的语言比较分析 (Comparative Linguistic Analysis Between Japanese & Chinese)\n计算机辅助汉语教学 (Computer Assisted Chinese Language Teaching)\n文学语篇分析 (Literary Discourse Analysis)\n当代文学视角下的中国社会 (Contemporary Chinese Society through Literature)",
+  "success_cases": ""
+}

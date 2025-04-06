@@ -1,0 +1,12 @@
+{
+  "school_name": "布朗大学",
+  "major_name": "设计工程",
+  "ename": "MA in Design Engineering",
+  "tags": "工科,其他工科",
+  "introduction": "专业方向: 其他工科\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1年\n项目学费: 90,277美元",
+  "requirements": "每年，我们都会选择一批来自不同学科和文化背景的学生。 我们大约一半的学生来自产品设计、建筑、工业设计、用户体验设计、平面设计或计算艺术等应用设计学科。 大约一半来自技术学科，例如机械工程、系统工程、应用数学、数据科学或计算机科学。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "神圣的音乐文学硕士",
+  "ename": "MLitt Sacred Music",
+  "tags": "社科,艺术,神学院",
+  "introduction": "专业方向: 艺术\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要神学或音乐的相关经验，需要一篇2000字的英文学术作品样本",
+  "objectives": "圣安德鲁斯大学神圣的音乐文学硕士旨在培养与学生的音乐制作专业领域（例如作曲、合唱指挥、管风琴、崇拜器乐）或音乐新闻和讲座相关的技能。学生将在位于古老的圣玛丽学院四方的神学院和圣安德鲁斯大学莱德劳音乐中心学习，同时深入了解过去和现在敬拜音乐的神学和哲学基础，接受活跃于神圣音乐领域的音乐家和学者的专家指导，其中包括作曲家兼神学、想象力和艺术教授詹姆斯·麦克米伦爵士，并且受益于优秀的音乐资源，包括尖端的电子音乐工作室、专门建造的演奏厅、四个管风琴和广受好评的圣萨尔瓦托教堂合唱团。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "音乐与神圣的理论与实践 (Music and the Sacred in Theory and Practice)\n在教堂背景下创作音乐 (Making Music in a Church Context)\n西方的神圣音乐：历史和背景 (Sacred Music in the West: History and Context)\n基督教教义与艺术 (Christian Doctrine and the Arts)\n论文 (Dissertation)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "应用翻译与口译理学硕士",
+  "ename": "MSc Applied Translation & Interpreting",
+  "tags": "社科,语言,人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 21550英镑/年",
+  "requirements": "具有一等或2:1荣誉学位，不需要英语或翻译的学术背景，学位较低的申请者可能会根据个人情况进行考虑只招收除英语外还可以掌握另一种语言的学生，包括阿拉伯语、汉语、法语、意大利语、西班牙语\n符合条件的申请者在入学前需通过能力倾向测试，包括笔译测试。随后可能进行口头面试",
+  "objectives": "翻译行业正在兴起，专业翻译人员备受追捧。商业知识和笔译/口译技能的整合将使学生在就业市场上具有竞争优势，开辟更广泛的职业机会。通过课程以技能为中心和实用的性质，学生将获得宝贵的行业经验和笔译和口译方面的熟练程度，这将有可能提高学生的就业能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "文本类型学和翻译 (Text Typology and Translation)\n笔译与口译研究 (Translation and Interpreting Studies)\n专业口译实践 (Professional Interpreting Practice)\n翻译与语言技术 (Translation and Language Technology)\n商业口译 (Interpreting for Business and Commerce)\n商务翻译 (Business Translation)\n选修课 (Optional classes)",
+  "success_cases": ""
+}

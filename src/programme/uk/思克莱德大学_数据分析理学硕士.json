@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "数据分析理学硕士",
+  "ename": "MSc Data Analytics",
+  "tags": "理科,数学,商学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31100英镑/年",
+  "requirements": "具有二等荣誉学位或同等学历，需要数学、自然科学、工程或经济/金融背景。其他学位具备良好数字/数量学科背景的申请者也鼓励申请。许多课程将要求学生使用诸如Python和R等软件包。学生应该有使用编程语言的经验，并愿意学习新的语言",
+  "objectives": "思克莱德大学数据分析理学硕士项目重点介绍数据分析技术在业务环境中的使用，让学生能够理解数据分析技术运行的理论原则，学会选择适当的技术分析数据，以此提升自己全面的分析技术；并将技术、理论、实践和工业参与相结合，应用到各个领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "大数据基础 (Big Data Fundamentals)\n大数据工具和技术 (Big Data Tools & Techniques)\nR语言数据分析 (Data Analytics in R)\n商业与决策建模 (Business & Decision Modelling)\n分析优化 (Optimisation for Analytics)\n实践中的数据分析 (Data Analytics in Practice)\n数据库基础 (Database Fundamentals)\n金融的演化计算1 (Evolutionary Computation for Finance 1)\n金融的演化计算2 (Evolutionary Computation for Finance 2)\n信息社会的法律、道德和专业问题 (Legal、Ethical & Professional Issues for the Information Society)\n数据分析机器学习基础 (Fundamentals of Machine Learning for Data Analytics)\n金融计量经济学 (Financial Econometrics)\n贝叶斯空间统计 (Bayesian Spatial Statistics)\n金融网络 (Networks in Finance)\n网络数学概论 (Mathematical Introduction to Networks)",
+  "success_cases": ""
+}

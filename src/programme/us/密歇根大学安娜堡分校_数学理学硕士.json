@@ -1,0 +1,12 @@
+{
+  "school_name": "密歇根大学安娜堡分校",
+  "major_name": "数学理学硕士",
+  "ename": "MS in Mathematics (General)",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 31学分\n项目学费: 50,000美元",
+  "requirements": "先修课要求\n三个学期的微积分\n一到两个学期的微分方程\n一学期的代数,线性代数,几何或拓扑课程\n高等微积分\n此外,学生应完成至少三门额外的数学课程和至少两门相关领域的课程,如统计学、计算机科学或物理科学 在不太全面的课程中成绩优异的学生将被考虑录取,但如果被录取,应该期望在研究生院的前一两个学期完成数学本科准备",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

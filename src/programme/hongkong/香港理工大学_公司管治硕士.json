@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "公司管治硕士",
+  "ename": "Master of Corporate Governance",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 334500港币/年",
+  "requirements": "具有认可大学颁发的学士学位或同等学历，优先考虑具备相关工作经验的申请者（但非必需）",
+  "objectives": "香港理工大学公司管治硕士课程旨在让企业管理人员（包括行政总裁、董事、财务总监、财务主管、公司秘书及其他重要职位的人员）对企业管治有充分的认识和能力，使他们能有效地参与企业财务政策和策略的策划、实施和监察。完成香港理工大学公司管治硕士课程后，毕业生将能够认识到商业道德对各种公司治理问题的重要性；了解企业管治的最佳做法，以达到更高的企业行为标准；培养批判性的法律和监管洞察力，理解法律和监管在公司治理中的作用；在会计和财务规划、控制和决策中应用公司会计和财务概念和财务报告实践；解释和应用现行香港税务法律和惯例，就公司管理和决策中的税务影响提供意见；了解和理解香港和中国公司的公司事务、公司管治制度和董事会动态所涉及的法律方面；解释和应用不同的方法来建议利益相关者使用风险框架来评估、评估和支持董事会、公司和集团层面的风险管理；展示对人工智能、区块链、大数据等技术在各种公司治理问题上的应用和影响的理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司管治 (Corporate Governance)\n公司法 (Corporate Law)\n财务信息分析 ( Financial Information Analysis )\n商业风险管理 (Business Risk Management)\n企业合规 (Corporate Compliance)\n组织管理与战略 (Organisation Management and Strategy)\n高级公司管治 (Advanced Corporate Governance)\n会计与金融中的商业分析 (Business Analytics in Accounting and Finance)\n会计信息系统中的当代问题 (Contemporary Issues in Accounting Information Systems)\n公司税收与税收筹划 (Corporate Taxation and Tax Planning)\n证券条例及实务 (Securities Regulations and Practice)\n战略中国税收筹划与管理 (Strategic China Tax Planning and Management)\n可持续发展经济学 (Economics of Sustainability)\n监管框架 (Regulatory Framework)\n中华人民共和国经济法与制度 (Economic Law and System of the PRC)\n公司行政 (Corporate Administration)",
+  "success_cases": ""
+}

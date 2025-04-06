@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "营运与供应链管理理学硕士",
+  "ename": "MSc Operations and Supply Chain Management",
+  "tags": "商科,供应链管理,商学院",
+  "introduction": "专业方向: 供应链管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 261000港币/年",
+  "requirements": "具有认可的学士学位，具备工作经验者优先考虑但不强制要求",
+  "objectives": "香港城市大学运营与供应链管理理学硕士项目旨在使学生能够应用现代分析和管理技能，以促进供应链管理中各级运营和战略实践的决策制定。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "管理决策建模 (Managerial Decision Modeling)\n营运管理 (Operations Management)\n供应链管理 (Supply Chain Management)\n业务流程建模与模拟 (Business Process Modeling & Simulation)\n电子物流与企业资源规划 (E-Logistics & Enterprise Resource Planning )\n商业调查方法 (Business Survey Methods)\n项目管理 (Project Management)\n服务质量管理 (Service Quality Management)\n策略采购 (Strategic Sourcing & Procurement)\n运输物流 (Transportation Logistics)\n物流与供应链管理研讨 (Workshops on Logistics & Supply Chain Management)\n应用研究专案 (Applied Research Project)",
+  "success_cases": ""
+}

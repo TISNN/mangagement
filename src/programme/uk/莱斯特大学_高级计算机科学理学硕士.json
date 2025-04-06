@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "高级计算机科学理学硕士",
+  "ename": "MSc Advanced Computer Science",
+  "tags": "工科,计算机,计算与数学科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23650英镑/年",
+  "requirements": "具有2:1荣誉学位，需要相关专业背景和一定的计算能力。相关工作经验亦可考虑",
+  "objectives": "莱斯特大学高级计算机科学理学硕士学位课程适合想要通过深造接触特定的高级课题、获得职业生涯所需的尖端技术的学生，也适合想要就特定课题进行博士阶段学习的学生。莱斯特大学高级计算机科学理学硕士学位课程为学生提供广泛课程，学生可以在教员的建议和帮助下建设自己未来的道路。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级C++程序设计 (Advanced C++ Programming)\n个人和团体技能 (Personal and Group Skills)\n高级系统设计 (Advanced System Design)\n系统再工程 (System Re-engineering)\n高级网络技术 (Advanced Web Technologies)",
+  "success_cases": ""
+}

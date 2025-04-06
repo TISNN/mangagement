@@ -1,0 +1,12 @@
+{
+  "school_name": "牛津大学",
+  "major_name": "考古科学理学硕士",
+  "ename": "MSc Archaeological Science",
+  "tags": "社科,历史,考古学院",
+  "introduction": "专业方向: 历史\n入学时间: 10月\n项目时长: 1年\n项目学费: 36250英镑/年",
+  "requirements": "具有一等（大于70%）或strong 2:1（至少67%）荣誉学位，需要考古学或相关学科背景，例如（但不限于）人类学、历史、古典文学、艺术史、地理、地质学、生物学、物理学或环境研究\n对于拥有美国学士学位的申请人，通常需要满足本科水平要求的最低总体 GPA 为3.5（满分 4.0）。但是大多数成功申请者的GPA为3.7\n丰富的专业经验可能会被考虑；申请人可以接受以考古学或科学为主的教育，但如果同时具有两个学科的经验则会更有优势；不需要相关出版物，但可以增强申请的实力\n需要两篇written work，每篇最多2500字",
+  "objectives": "牛津大学考古科学理学硕士项目旨在提供广泛而详细的理论基础，并为考古学中的主要应用提供实践经验。牛津大学考古科学理学硕士项目适适用于希望继续从事考古学研究的考古学家或科学家，或打算从事考古项目管理工作或成为该领域的政策制定者并希望对该领域有深入了解的考古学家，他们希望充分了解科学阐释考古问题的潜力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "材料分析与技术变革研究 (Materials analysis and the study of technological change)\n分子生物考古学 (Molecular Bioarchaeology)\n科学年代测定的原理与实践 (Principles and practice of scientific dating)",
+  "success_cases": ""
+}

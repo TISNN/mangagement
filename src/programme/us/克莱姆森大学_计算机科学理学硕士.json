@@ -1,0 +1,12 @@
+{
+  "school_name": "克莱姆森大学",
+  "major_name": "计算机科学理学硕士",
+  "ename": "MS in Computer Science",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季/春季/夏季\n项目时长: 30学分\n项目学费: 9,738美元/学期",
+  "requirements": "如果不是computer science毕业的本科生，需要完成1年的预备课程，详情见官网",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

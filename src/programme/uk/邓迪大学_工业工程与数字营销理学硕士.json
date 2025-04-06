@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "工业工程与数字营销理学硕士",
+  "ename": "MSc Industrial Engineering and Digital Marketing",
+  "tags": "工科,工业工程,理工学院",
+  "introduction": "专业方向: 工业工程\n入学时间: 1月\n项目时长: 1年\n项目学费: 27900英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要机械工程、电子工程、应用物理或相关专业背景。学校也可以考虑相关的工作经验",
+  "objectives": "邓迪大学工业工程与数字营销理学硕士课程结合了工程的专业主题和数字营销的高级主题，还包括为期12周的工业实习。学生将学习先进的机器人技术，多模态传感器集成和人机交互，以及先进制造，研究现代和智能制造技术。我们的研究和教学合作包括与CERN(大型强子对撞机)的伙伴关系。这为行业实习、博士和研究生提供了机会。在学习期间，学生将会参与至少12周的行业项目。从中学生将获得实践相关经验，并在行业中创造有价值的联系。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "创意实践营销； (Marketing as Creative Practice)\n用户体验设计； (Customer Experience Design)\n进入商业领域； (Moving Up to Business)\n营销管理与策略； (Marketing Management and Strategy)\n数字营销； (Digital Marketing)\n高级机器人学 (Advanced Robotics)\n先进制造学； (Advanced Manufacturing)\n工程项目及报告（产业布局）； (Engineering Project and Report (Industrial Placement))",
+  "success_cases": ""
+}

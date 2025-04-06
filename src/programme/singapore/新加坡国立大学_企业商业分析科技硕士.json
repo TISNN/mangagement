@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "企业商业分析科技硕士",
+  "ename": "Master of Technology in Enterprise Business Analytics",
+  "tags": "商科,商业分析,系统科学研究所",
+  "introduction": "专业方向: 商业分析\n入学时间: 8月\n项目时长: 1年\n项目学费: 54566新币/年",
+  "requirements": "具有学士学位（偏好数学、统计学、计量经济学、管理科学、运筹学、科学或工程背景），平均成绩不低于B；\n熟练掌握英语（书面和口语）；\n海外申请者需要提交GRE（建议GRE总分不低于320，写作不低于3.5，具有与预期研究领域相关的重要工作经验的申请者即使未达到GRE建议分数要求也可能被考虑录取，但学校项目、实习和补充课程不算作工作经验）；\n偏好具有2年相关工作经验的申请者（信息技术、工程和科学专业人士是合适的候选者；具有数学、统计学、计量经济学、管理科学、运筹学或类似专业的高度相关学士学位，且学习成绩一直良好的候选者可能获得工作经验豁免）；\n学费为54,565.40-59,405新币",
+  "objectives": "新加坡国立大学企业商业分析方向科技硕士项目用于满足行业对数据科学家的需求，他们可以通过数据洞察力帮助组织实现更好的业务成果。它最适合寻求专注于以下领域的专业人士：有条理的数据探索和可视化、诊断分析、使用统计和机器学习技术的预测建模、文本分析、推荐系统和大数据工程等。新加坡国立大学企业商业分析方向科技硕士项目让学生为企业业务分析中的专家、专家和领导角色做好准备，通过战略性地使用数据、分析、模型和一线工具来创造商业价值。通过促进更有效地利用和管理数据分析，可以帮助企业专注于重大决策，从而获得更好的预测能力，从而转化为更高的利润。帮助企业建立更好、更有效的模型将带来更好的结果，例如更具吸引力的定价、更高水平的客户服务、更好的市场细分、高效的库存管理和利润最大化。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据分析学与最佳实践 (Data Analytics Process and Best Practices)\n数据叙事 (Data Story Telling)\n数据管理与保护 (Data Governance & Protection)\n商业分析项目管理 (Managing Business Analytics Projects)\n活动分析学 (Campaign Analytics)\n统计训练营 (Statistics Boot Camp)\n预测分析——趋势与不寻常现象解读 (Predictive Analytics–insights of Trends and Irregularities)\n文本分析学 (Text Analytics)\n推荐系统 (Recommender Systems)\n消费者分析学 (Customer Analytics)\n高级消费者分析学 (Advanced Customer Analytics)",
+  "success_cases": ""
+}

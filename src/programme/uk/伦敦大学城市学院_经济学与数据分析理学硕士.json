@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "经济学与数据分析理学硕士",
+  "ename": "MSc Economics and Data Analytics",
+  "tags": "商科,经济,艺术与社会科学学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 22900英镑/年",
+  "requirements": "申请者应该具备一些数学背景（A-level、IB、AP 或任何其他同等中学资格）和以下之一： —经济学或相关学科（如金融）2.2本科学位（或同等学历） —拥有商业、管理、政治、法律、会计、心理学、定量社会学或金融新闻学的2.2本科学位，且包含较多经济学内容（只要申请者具有足够的微观经济学或数学背景） —数学、工程学、计算机科学或自然科学等定量学科的2.2本科学位（或同等学历）",
+  "objectives": "伦敦大学城市学院经济学与数据分析理学硕士项目旨在帮助学生掌握扎实的经济学基础知识以及大数据分析和编程方面的专业技能。为在经济学、商业和数据分析领域从事充满活力的职业做好准备，利用数据的力量做出战略性商业决策。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济学 (Microeconomics)\n定量与研究方法 (Quantitative and Research Methods)\n计量经济学 (Econometrics)\n大数据计量经济学 (Big Data Econometrics)\n数据分析与编程 (Data Analytics and Programming)\n国际金融与宏观经济学 (International Finance and Macroeconomics)\n金融市场经济学 (Economics of Financial Markets)\n经济学和商业策略 (Economics and Business Strategy)\n经济评估 (Economic Evaluation)\n健康经济学 (Health Economics)\n公共政策与经济学 (Public Policy and Economics)\n宏观经济学 (Macroeconomics)\n实验经济学与博弈论 (Experimental Economics and Game Theory)\n国际商业经济学 (International Business Economics)\n发展经济学主题 (Topics in Development Economics)\n公司金融 (Corporate Finance)\n金融衍生品 (Financial Derivatives)\n论文/文献调查/公司项目 (Dissertation/Literature Survey/Company project)",
+  "success_cases": ""
+}

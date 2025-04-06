@@ -1,0 +1,12 @@
+{
+  "school_name": "考文垂大学",
+  "major_name": "结构工程理学硕士",
+  "ename": "MSc Structural Engineering",
+  "tags": "工科,土木工程,工程、环境与计算学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 1/5/9月\n项目时长: 1年\n项目学费: 18600英镑/年",
+  "requirements": "具有2:2荣誉学位，需要土木工程背景",
+  "objectives": "考文垂大学结构工程理学硕士课程旨在提供木材、钢材、混凝土、可持续复合材料和轻质材料和结构的规划、设计和操作领域的高级分析和专业技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "连接设计 (Connection Design)\n应用有限元分析 (Applied Finite Element Analysis)\n全球专业发展（咨询） (Global Professional Development (Consultancy))\n综合项目 (Integrated Project)\n技术研究项目 (Technical Research Project)\n土木工程研究生技能 (Civil Engineering Postgraduate Skills)\n土木工程研究技能 (Civil Engineering Research Skills)\n土壤-结构相互作用 (Soil-Structure Interaction)\n结构动力学与地震工程 (Structural Dynamics and Earthquake Engineering)\n结构塑性理论 (Plastic Theory of Structures)\n预应力与复合结构 (Pre-stressed and Composite Structures)\n结构健康与性能评估 (Structural Health and Performance Assessment)",
+  "success_cases": ""
+}

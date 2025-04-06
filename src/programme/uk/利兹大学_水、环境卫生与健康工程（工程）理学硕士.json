@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "水、环境卫生与健康工程（工程）理学硕士",
+  "ename": "MSc(Eng) Water, Sanitation and Health Engineering",
+  "tags": "工科,环境工程,土木工程学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:2荣誉学士学位，需要工程、公共卫生或国际发展相关学科背景\n满足以下其中一项的申请者将基于具体情况被考虑：\n- 具有非相关工程或自然科学学科的同等学术或专业资格\n- 专业资格以及相关经验",
+  "objectives": "利兹大学水、环境卫生与健康工程（工程）理学硕士课程旨在帮助学生深入理解如何在低收入及经济转型国家的城乡地区有效实现现代水供应、卫生及其他公共健康干预。课程面向咨询师及在国家和当地政府、非政府组织、国际发展组织及公共健康机构就职的专家，注重培养学生的实践及政策技能，以应对气候变化、人口增长及城市化的未来关键挑战。学生将了解水供应、卫生及固体废弃物管理的技术干预。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "水利工程管理 (The Management of WASH Projects)\n公共健康工程 (Engineering for Public Health)\n废水和粪便污泥管理 (Wastewater and Fecal Sludge Management)\n水资源管理 (Water Resources Management )\n固体废弃物管理 (Solid Waste Management)\n水供应 (Water Supply)\n抢险工程 (Engineering in Emergencies – MSc)\n国际健康重点议题 (Key Issues in International Health)",
+  "success_cases": ""
+}

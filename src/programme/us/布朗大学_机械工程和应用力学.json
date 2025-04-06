@@ -1,0 +1,12 @@
+{
+  "school_name": "布朗大学",
+  "major_name": "机械工程和应用力学",
+  "ename": "Master in Mechanical Engineering and Applied Mechanics",
+  "tags": "工科,机械工程",
+  "introduction": "专业方向: 机械工程\n项目类别: STEM\n入学时间: 秋季\n项目学费: 65,656美元",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

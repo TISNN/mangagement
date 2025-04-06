@@ -1,0 +1,12 @@
+{
+  "school_name": "贝尔法斯特女王大学",
+  "major_name": "公共卫生学硕士",
+  "ename": "Master of Public Health",
+  "tags": "社科,公共卫生,医学、牙科与生物医学学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 21500英镑/年",
+  "requirements": "具有2:1荣誉学位或学校接受的同等学历，需要健康相关学科背景，同等专业资格（MBBS、BDS、BSc或BVSc）或经验的证据将根据具体情况予以考虑",
+  "objectives": "贝尔法斯特女王大学公共卫生学硕士项目蜚声海外，培养众多公共卫生学人才，旨在教授学生公共卫生领域或其他相关领域所需的知识与技能。项目将引导学生领略——公共卫生的“科学”：使用系统、循证的方法定义并理解人口卫生问题；公共卫生的“艺术”：培养人际交往能力与组织能力、决策能力、政策项目或干预的实施能力，利用可获得的资源提出最优解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公共卫生科学 (Public Health Sciences)\n医学统计学 (Medical Statistics)\n决定因素与健康改善 (Determinants and Improvement of Health)\n健康与社会护理系统 (Health and Social Care Systems)\n健康保护 (Health Protection)\n实践中的公共卫生技能 (Public Health Skills in Practice)\n学位论文 (Dissertation Project)",
+  "success_cases": ""
+}

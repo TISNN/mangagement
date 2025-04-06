@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "城市分析理学硕士",
+  "ename": "MSc Urban Analytics",
+  "tags": "社科,建筑,建筑学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 227800港币/年",
+  "requirements": "具有学士学位或同等学历，需要城市或相关领域专业背景\n优先考虑具有城市或相关领域专业资格的申请者",
+  "objectives": "城市分析理学硕士课程旨在培训和提高学生和专业人员的技能，使他们能够在规划和管理城市发展中应用新的城市科学和分析。该方案旨在连接社会科学、城市规划和设计和数据科学的学科，一方面提供分析和实践技能之间的平衡，另一方面提供来自社会、经济、行为、环境和管理科学的领域知识和城市理论。项目目标是为学生和城市专业人士提供尖端的分析和建模技能，能够很好地理解智慧城市发展技术背后的城市科学，为城市政策制定者和城市规划、设计、测量从业者提供城市分析支持。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "空间数据分析基础 (Foundations in Spatial Data Analysis)\n城市与区域规划发展地理信息系统 (Geographic Information System (GIS) for Urban and Regional Planning Development)\n城市大数据分析 (Urban Big Data Analytics)\n面向未来城市的编程与人工智能 (Programming and AI for Future Cities)\n空间流动性分析 (Spatial Mobilities Analytics)\n公共空间设计分析 (Public Space Design Analytics)\n城市科学 (Science of Cities)\n城市发展理论 (Urban Development Theories)\n香港规划实践、法律与道德 (Planning Practice, Law and Ethics in Hong Kong)\n全球化和中国城市与区域发展 (Globalization and Urban and Regional Development in China)\n国际规划政策与实践 (International Planning Policy and Practice)\n过渡城市：城市与住房发展 (Transitional Cities: Urban and Housing Development)\n城市设计价值：城市、社会、环境经济学 (Values of Urban Design: Urban, Social, Environmental Economics)\n形态与城市设计理论 (Morphologies and Urban Design Theories)\n论文 (Dissertation)\n智慧规划设计工作室 (Smart Planning and Design Studio)",
+  "success_cases": ""
+}

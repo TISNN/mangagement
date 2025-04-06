@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "语言学文学硕士",
+  "ename": "MA Linguistics",
+  "tags": "社科,语言,语言及语言科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:2学位或同等学历",
+  "objectives": "约克大学语言学文学硕士项目提供研究培训。学生将学习现代语言学核心领域的基础知识，同时发展自己的专长，进行独立研究。约克大学语言学文学硕士项目鼓励学生将所学技能和知识应用于语言数据，并提供语言分析技术的实践培训。约克大学语言学文学硕士项目由世界一流的学者授课，学生将获得理论知识和方法论，热点研究问题，从而能够进行语言学方面的原创性研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语言变体和变化 (Language Variation and Change)\n语义学 (Semantics)\n句法 (Syntax)\n语音学与音位学 (Phonetics and Phonology)\n语言学核心思想 (Key Ideas in Linguistics)\n研究训练 (Research Training)\n发音和印象语音学 (Articulatory and Impressionistic Phonetics)\n双语学 (Bilingualism)\n语音变体和变化 (Phonological Variation and Change)\n句法理论 (Syntactic Theory)\n语言变体和变化的话题 (Topics in Language Variation and Change)",
+  "success_cases": ""
+}

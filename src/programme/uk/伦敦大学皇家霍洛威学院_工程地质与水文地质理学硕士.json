@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "工程地质与水文地质理学硕士",
+  "ename": "MSc Engineering Geology and Hydrogeology",
+  "tags": "工科,地球科学,地球科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 21700英镑/年",
+  "requirements": "需要具有相关学科背景（如地球科学或土木工程领域，如地质学、地球科学、地球物理、土木工程）",
+  "objectives": "伦敦大学皇家霍洛威学院工程地质和水文地质理学硕士将会为学生配备科学知识、工具和技巧来应对气候变化的影响，并使其职业生涯满足“新绿色交易”复苏计划的关键行业雇主日益增长的需求。学生将获得一流的研究型教学和综合训练，结合工程地质学和水文地质学的学科，学习如何将地质信息应用于解决实际问题和可持续地利用自然资源。学生将学习岩土力学、水文地质和流体流动、GIS、近地表地球物理和层序地层学的基础模块。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "现场勘察（包括GIS培训）； (Site investigation (including GIS training))\n岩土力学； (Rock and soil mechanics)\n专业实习； (Professional practice)\n水文地质与流体流动； (Hydrogeology and fluid flow)\n实地考察和小组项目； (Fieldtrips and group project)",
+  "success_cases": ""
+}

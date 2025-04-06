@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "生物医学工程理学硕士（赫瑞瓦特大学-爱丁堡大学联合开设）",
+  "ename": "Joint MSc Biomedical Engineering (Heriot-Watt-Edinburgh)",
+  "tags": "工科,生物工程,工程与物理科学学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 37300英镑/年",
+  "requirements": "具有一等或2:1荣誉学位。工程、物理和生物技术（或类似）等领域将成为核心学科。学校会考虑未毕业的申请人，如果没有良好的荣誉学位或同等学历，但有补偿性的资格或经验，也可以录取",
+  "objectives": "赫瑞-瓦特大学生物医学工程理学硕士项目是与爱丁堡大学的联合课程，为学生提供发展专业发展所需的关键生物医学工程知识和技能的机会。学生将深入了解支撑生物医学工程和制造部门的核心工程和科学。在硕士课程期间，学生将获得生物医学工程科学和实践的核心组成部分的广泛知识，同时对该主题内至少一个专业领域进行广泛，详细和关键的知识和理解。灵活的学位结构使学生可以专注于在生物医学工程中的特定兴趣。学生将有机会从广泛的列表中选择课程，包括工程-生物学接口，制造，生物材料，生物电子学导论，传感器和仪器仪表，芯片实验室技术等。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程-生物学界面 (The Engineering-Biology Interface)\n生物工程制造 (Manufacture in Bioengineering)\n多学科生物医学工程小组设计项目 (Multidisciplinary Biomedical Engineering Group Design Project)\n科技创业 (Technology Entrepreneurship 5)\n批判性分析与研究准备 (Critical Analysis and Research Preparation)\n生物电子学入门 (Introduction to Bioelectronics)\n生物系统技术 (Technologies for Biosystems)\n传感器及仪表 (Sensors and Instrumentation)\n芯片实验室技术 (Lab-on-Chip Technologies)\n物质安全和可持续发展的监管 (Regulation of the Safe and Sustainable Development of Substances)\n生物材料 (Biomaterials)\n硕士论文 (Masters Dissertation)",
+  "success_cases": ""
+}

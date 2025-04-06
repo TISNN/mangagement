@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "医学物理学理学硕士",
+  "ename": "MSc Medical Physics",
+  "tags": "理科,物理,物理学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 24900英镑/年",
+  "requirements": "具有2:2相关英国荣誉学位或受认可的同等学历，需要化学、工程学、生物医学工程或物理学背景\n如果申请者不符合以上要求，学校也会考虑其相关工作经验",
+  "objectives": "萨里大学医学物理学理学硕士项目的课程旨在培养学生现代医学物理学知识与技巧，尤其是电离辐射（x射线和放射治疗），磁共振成象，超音波，医学激光运用等知识，从而为医学物理学领域培养更多优秀的人才。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "辐射测量 (Radiation Measurement)\n研究项目与论文 (Research Project and Dissertation)\n辐射物理学 (Radiation Physics)\n团队拓展项目 (Extended Group Project)\n物理疗法 (Therapy Physics)\n电离辐射物理学的诊断应用 (Diagnostic Applications of Ionising Radiation Physics)\n非电离辐射成像 (Non-Ionising Radiation Imaging)\n生物学和放射生物学导论 (Introduction to Biology and Radiation Biology)\n医学物理实验和专业技能 (Experimental and Professional Skills for Medical Physics)",
+  "success_cases": ""
+}

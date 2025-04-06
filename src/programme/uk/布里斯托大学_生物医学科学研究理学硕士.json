@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "生物医学科学研究理学硕士",
+  "ename": "MSc Biomedical Sciences Research",
+  "tags": "理科,生物,生理学、药理学与神经科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 29000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要生命科学学科背景，例如生物医学、生物化学、细胞生物学、微生物学、分子生物学、药理学、生物技术、生物工程或类似学科，或者牙科、医学或兽医科学\n如果申请者毕业超过5年，需要证明具备相关实验室实践经验对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩。学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们至少具备以下其中一项：\n- 重要的相关工作经验证明，在过去五年内至少有六个月的生物医学科学研究，包括有偿或无偿；\n- 具有生命科学相关专业研究生学历，如生物医学、生物化学、细胞生物学、微生物学、分子生物学、药理学、生物工程、生物技术或类似专业\n如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关工作经验和/或资格",
+  "objectives": "生物医学科学研究理学硕士项目汇集了生物医学科学诸多学科领域的专业知识，为学生提供当前研究兴趣的几个关键领域所需的培训。该课程以实验科学为重点，以研究为基础，配备最先进的设施及专业技术，培养学生以实验室为基础的实战经验。该项目旨在培养学生的演讲技巧、报告写作技巧和工作规划技巧。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "核心技能 (MSc Core Skills(Mandatory))\n文学项目 (MSc Literary Project(Mandatory))\n项目建议 (MSc Project Proposal(Mandatory))\n论文 (Dissertation(Mandatory))\n动态细胞 (The Dynamic Cell(Optional))\n肿瘤生物学 (Cancer Biology(Optional))\n心血管研究 (Cardiovascular Research(Optional))\n感染，免疫学与免疫 (Infection, Immunology and Immunity(Optional))\n神经系统科学 (Neuroscience(Optional))\n药理学 (Pharmacology(Optional))",
+  "success_cases": ""
+}

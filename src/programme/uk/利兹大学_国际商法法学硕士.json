@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "国际商法法学硕士",
+  "ename": "LLM International Business Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 28250英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要法律或相关学科背景如银行、金融、经济或商业",
+  "objectives": "利兹大学国际商法法学硕士项目涵盖英国、欧洲乃至全球的商业管理知识，如公司法、银行法、知识产权法、国际贸易法等。在学习的过程中，学生将掌握全球法律规则知识，学会从法律角度，审视法律的连贯性与一致性，从法律的目的与基本原理，评价商法解决方案，总结出法律应该服务的经济和社会层面。利兹大学国际商法法学硕士项目灵活多元，学生可根据自身兴趣选择相应的选修课程进行学习。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究生法律研究技能 (Postgraduate Legal Research Skills)\n论文 (Dissertation)\n网络法：网络空间监管 (Cyberlaw: Regulation of Cyberspace)\n国际电子商务法 (International E-Commerce Law)\n非诉讼解决机制 (Alternative Dispute Resolution)\n国际竞争法 (International Competition Law)\n公司法 (Corporate Law)\n公司财务与证券法 (Corporate Finance and Securities Law)\n企业社会责任 (Corporate Social Responsibility)\n国际贸易金融法 (International Trade Finance Law)\n国际销售法 (International Sales Law)\n世界贸易组织法律 (World Trade Organisation Law)\n商标、地理标志、图案和商业秘密 (Trade Marks、Geographical Indications、Designs and Trade Secrets)\n商业交易中的法律冲突 (Conflict of Laws in Business Transactions )",
+  "success_cases": ""
+}

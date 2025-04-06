@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "管理经济学理学硕士（英文授课）",
+  "ename": "MSc Managerial Economics (English)",
+  "tags": "商科,经济,南洋公共管理学院",
+  "introduction": "专业方向: 经济\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 43000新币/年",
+  "requirements": "具有认可大学或院校颁发的良好学士学位，或具备学术委员会批准的其他资格\n托福分数要求不低于88-89",
+  "objectives": "南洋理工大学管理经济学硕士（英文授课）旨在培养在商业、政府和社会背景下具有战略思维和管理决策敏锐度的领导者。该硕士计划将经济理论与管理实践相结合，以应对公共和私营部门的挑战。南洋理工大学管理经济学硕士计划的跨学科性质加入了应用经济理论来加强政策设计的重点。该硕士计划涵盖金融、技术、数据、研究和专业发展技能等蓬勃发展的领域，除了讲座和研讨会外，还包括课堂讨论、研讨会和小组项目的沉浸式学习体验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "管理经济：理论与应用 (Managerial Economics: Theory&Applications)\n宏观经济学：理论与应用 (Macroeconomics: Theory & Applications)\n金融分析与金融管理 (Financial Analysis & Financial Management)\n研究与统计方法 (Research & Statistical Methods)\n政策分析行为经济学 (Behavioural Economics for Policy Analysis)\n数据分析 (Data Analytics)\n项目管理 (Project Management)\n金融机构风险管理 (Risk Management for Financial Institutes)\n电子营销分析 (Digital Marketing Analytics)\n财务管理与金融科技 (Wealth Management & Fintech)\n应用经济研究：数据和分析 (Applied Economic Research: Data & Analysis)",
+  "success_cases": ""
+}

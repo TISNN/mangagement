@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "基础设施系统理学硕士",
+  "ename": "MSc Infrastructure Systems",
+  "tags": "工科,其他工科,工程科学学院",
+  "introduction": "专业方向: 其他工科\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有2:1学士学位，需要适当学科背景，例如工程学、物理学、化学、计算、建筑学、数学，学校会考虑具有替代学科学位并且学习过技术课程或在任何基础设施服务（例如公用事业运营商，交通规划）方面具备至少1年工作经验的申请者",
+  "objectives": "伦敦大学学院基础设施系统理学硕士项目旨在通过复杂性科学方法，学生可以解读交通、能源、水和数据通信的相互关联的本质，从而利用积极的社会、经济和环境影响。应对干扰、平衡苛刻的绩效期望并解决可持续性问题，同时探索数字技术和行业转型的关系。深入研究弹性和安全性等新兴特性，通过小组项目培养研究技能，并接受行业意见来完善设计。该计划是学生通向未来的门户，学生可以在其中应对复杂性并进行创新，以实现可持续的基础设施转型。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "复杂基础设施系统简介 (Introduction to Complex Infrastructure Systems)\n基础设施集团项目 (Infrastructure Group Project)\n基础设施数字化 (Digitalisation in Infrastructure)\n基础设施系统的数据驱动决策 (Data-driven Decision Making for Infrastructure Systems)\n可靠性、风险和弹性工程 (Reliability, Risk and Resilience Engineering)\n城市可持续性和复原力的跨学科思维 (Interdisciplinary Thinking in Urban Sustainability and Resilience)\n循环经济工程 (Engineering for Circular Economy)\n系统社会与可持续发展 (Systems Society and Sustainability)\n交通政策、治理和经济 (Transport Policy, Governance and Economics)\n建筑节能 (Building Energy Efficiency)",
+  "success_cases": ""
+}

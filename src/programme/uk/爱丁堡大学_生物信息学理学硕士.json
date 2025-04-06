@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "生物信息学理学硕士",
+  "ename": "MSc Bioinformatics",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 43300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要生物科学背景（必须在分子生物学、生物化学或相关科学方面有很强的背景，并且在计算机科学和数学方面有一定的经验，特别是如果申请者的兴趣包括学习基于机器学习的工具的应用）\n学校也可能考虑具备化学、物理学、数学或工程学背景的申请者",
+  "objectives": "生物信息学主要研究计算机方法在生物过程中的应用。爱丁堡大学生物信息学理学硕士项目向学生传授现代高通量技术下大数据的解释方法，使学生在生物学背景之上掌握一定的计算技能及生物数据知识。核心课程包括课程包括编程技巧、统计分析和数据库科学及生物信息，而选修课程帮助学生全面拓展生物信息学的相关知识，学生毕业后或从事实务工作，或继续攻读生物信息学博士。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物信息学规划与系统管理 (Bioinformatics Programming & System Management)\n生物信息学研究计划 (Bioinformatics Research Proposal)\n统计及数据分析 (Statistics & Data Analysis)\n生物信息学 1 & 2 (Bioinformatics 1 & 2)\n生物细胞的信息处理 (Information Processing in Biological Cells)\n介绍使用对象进行实际编程 (Introduction to Practical Programming with Objects)\n分子模型和数据库挖掘 (Molecular Modelling and Database Mining)\n实际系统生物学 (Practical Systems Biology)\n量化中药物绑定 (Quantitating Drug Binding)\n生物信息学算法 (Bioinformatics Algorithms)\n比较和进化基因组学 (Comparative and Evolutionary Genomics)\n药物发现 (Drug Discovery)\n功能基因组技术 (Functional Genomic Technologies)",
+  "success_cases": ""
+}

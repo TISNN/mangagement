@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "教育学硕士（泰米尔语）",
+  "ename": "Master of Education (Tamil Language)",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 41900新币/年",
+  "requirements": "具有认可大学颁发的良好学士学位，或具有相关的南洋理工大学FlexiMasters且成绩优秀\n具有教师资格如新加坡国立教育学院颁发的教育研究生文凭，或具备至少1年教育相关工作经验",
+  "objectives": "教育学硕士课程主要面向在新加坡学校和教育部工作的教育工作者，学校也欢迎具有教育背景并希望提升教育知识和技能的大学毕业生申请。南洋理工大学教育学硕士（泰米尔语）项目旨在为泰米尔语教育专业人士提供关于泰米尔语教育的实际和理论问题的广泛而深入的知识和观点，使学生能够应对职业生涯后期的挑战，该课程专注于教师和其他从事泰米尔语教育的专业人士的需求，帮助学生熟悉泰米尔语教育的最新问题和思想，以及课程设计和学习材料的出版。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育调查 (Educational Inquiry)\n泰米尔语课程，包括信息技术在内的材料：选择与评估 (Tamil Curriculum, Materials including IT: Selection and Evaluation)\n教育中的泰米尔文学 (Tamil Literature in Education)\n教育中的泰米尔语 (Tamil Language in Education)\n功能泰米尔语语法 ( Functional Tamil Syntax)\n泰米尔历史与文化简介 (An Introduction to Tamil History and Culture of Tamil)\n泰米尔语评估 (Assessment for Tamil Language)\n新加坡泰米尔教育历史与泰米尔文学 (History of Singapore Tamil Education and Tamil Literature)\n社会语言学与泰米尔语双语概论 (An Introduction to Sociolinguistics and Bilingualism for Tamil)",
+  "success_cases": ""
+}

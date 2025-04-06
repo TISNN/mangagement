@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "健康信息学与数据科学理学硕士",
+  "ename": "MSc Health Informatics with Data Science",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29250英镑/年",
+  "requirements": "具有2:1荣誉学士学位或同等学历，需要相关本科学位，如社会科学、STEM、护理，或具备之前处理和/或分析健康数据的工作经验（至少2年）\n学校可能会接受具备其他资格以及适当的专业经验（如果不确定申请资格需要联系招生办公室）\n该课程也可作为插读硕士课程提供给已完成3年医学学位并在该学年排名前50%的学生",
+  "objectives": "利兹大学健康信息学与数据科学理学硕士项目围绕数据和信息学在健康管理和规划中的现代应用提供有见地的培训。该课程由经验丰富的学者和专业人士创建，专为希望提升职业生涯、获得健康信息学和健康数据科学技术的知识和理解以及获得雇主当前追捧的技能的应届毕业生和专业人士而设计。\n利兹大学健康信息学与数据科学理学硕士项目为学生提供：与健康信息学和数据科学专家一起学习；创建定制的学习之旅并选择可选模块来反映自己的兴趣，包括人工智能；与整个医学院的学术团队一起学习最新知识的课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "健康科学的统计和建模 (Statistics and Modelling for Health Sciences)\n健康数据基础 (Foundations of Health Data)\n健康数据科学中的人为因素 (Human Factors in Health Data Science)\n医疗保健和研究中的信息学和数据科学 (Informatics and Data Science in Health Care and Research)\n健康数据科学的法律、伦理和治理 (Law, Ethics and Governance for Health Data Science)\n健康领域的人工智能和机器学习 (Artificial Intelligence and Machine Learning in Health)\n理学硕士健康信息学项目 (MSc Health Informatics Project)\n健康空间分析和可视化 (Spatial Analytics and Visualisation for Health)\n卫生经济学 (Health Economics)",
+  "success_cases": ""
+}

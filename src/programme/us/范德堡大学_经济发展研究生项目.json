@@ -1,0 +1,12 @@
+{
+  "school_name": "范德堡大学",
+  "major_name": "经济发展研究生项目",
+  "ename": "Graduate Program in Economic Development GPED M.A",
+  "tags": "商科,经济",
+  "introduction": "专业方向: 经济\n项目类别: STEM\n入学时间: 秋季\n项目时长: 4学期\n项目学费: 2087美元/学分\n项目规模: 30人",
+  "requirements": "建议有扎实的数学背景,对宏观经济学和微观经济学有基本的了解。除了经济学课程外,还修过线性代数、微积分和统计学等课程\nGPA 最低 3.0",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

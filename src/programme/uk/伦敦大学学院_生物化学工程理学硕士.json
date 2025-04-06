@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "生物化学工程理学硕士",
+  "ename": "MSc Biochemical Engineering",
+  "tags": "工科,生物工程,工程科学学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的二等学士学位或同等学历，学校也鼓励具备近期行业经验的候选者申请。与任何工程学科一样，计算技能对生物和物理现象的定量描述很重要。申请者需要通过数学达到A level（或特殊情况下物理学）或一些大学阶段的数学学习来提供数学能力证明，学院全年为硕士学生提供数学辅导并根据候选者的能力进行调整。需要ATAS认证",
+  "objectives": "伦敦大学学院生物化学工程理学硕士项目重点生化工程研究，致力于带领学生探索生命科学的进步成果转化为实际产品的过程。伦敦大学学院生物化学工程理学硕士项目以学生为本，为满足不同学生的进修需求，设置了以下三个进修方向供学生选择：1. 工程方向，适合科学研究人员；2. 理学方向，适合其他专业的工程师；3. 生化工程方向，适合生物化学专业的工程师。并且，伦敦大学学院生物化学工程理学硕士项目的课程涵盖广泛，主要涉及三个方面的内容，包括生物工艺设计、生物反应器工程、下游加工等先进工程技术；分子生物学、疫苗开发、微流体学等前沿的生命科学技术；以及管理、质量控制、商业化等商业监管知识，以帮助学生成长为复合型专业人才，为职业发展打下坚实的基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生化工程实验室 (Biochemical Engineering Laboratory)\n高级生物反应器工程 (Advanced Bioreactor Engineering)\n生物过程研究论文 (Dissertation on Bioprocess Research)\n生物科学基础 (Fundamental Biosciences)\n综合下游加工过程 (Integrated Downstream Processing)\n可持续的工业生物过程和生物炼制 (Sustainable Industrial Bioprocesses and Biorefineries)\n生物处理系统工程 (Bioprocess Systems Engineering)\n生物工艺验证和质量控制 (Bioprocess Validation and Quality Control)\n研究思想的商业化 (Commercialisation of Research Ideas)\n疫苗生物工艺开发 (Vaccine Bioprocess Development)",
+  "success_cases": ""
+}

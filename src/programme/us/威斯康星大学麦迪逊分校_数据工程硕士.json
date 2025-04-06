@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯康星大学麦迪逊分校",
+  "major_name": "数据工程硕士",
+  "ename": "MS in Data Engineering",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 48,000美元",
+  "requirements": "拥有认可机构的计算机科学或相关领域的理学学士学位。\n最低本科 GPA 为 3.0。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

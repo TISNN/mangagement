@@ -1,0 +1,12 @@
+{
+  "school_name": "弗吉尼亚大学",
+  "major_name": "生物医学工程理学硕士",
+  "ename": "MS in Biomedical Engineering",
+  "tags": "工科,生物工程",
+  "introduction": "专业方向: 生物工程\n入学时间: 秋季\n项目时长: 18-24个月\n项目学费: 1753美元/学分\n平均成绩: 3.5",
+  "requirements": "在某些先决条件方面存在缺陷的合格申请人可能会被录取,期望他们将在硕士课程期间弥补缺陷。先修课程包括入门化学和生物学、物理学（基于微积分的两个学期的课程）、微分方程和计算机编程（Matlab、C 或 Java）",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

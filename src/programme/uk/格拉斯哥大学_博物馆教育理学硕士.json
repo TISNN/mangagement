@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "博物馆教育理学硕士",
+  "ename": "MSc Museum Education",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 25320英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景",
+  "objectives": "格拉斯哥大学博物馆教育理学硕士项目为帮助学生全面学习博物馆教育理相关的历史、社会、政治、伦理及哲学知识，培养学生的批判性思维。师资团队是世界一流的研究型学术工作者，并与亨特博物馆及格拉斯哥其他闻名于世的博物馆长期保持合作关系。本项目提供体验式学习和在线学习机会，在不同的地点（如特定教学实验室、艺术工作室等）为学生提供世界一流的基础设施，以支持高质量的教学工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "准入与全纳 (Access and inclusion)\n社会和教育背景下的当代研究方法 (Contemporary research methods in social and pedagogical contexts)\n博物馆、教育和课程开发 (Museums, education and curriculum development)\n博物馆学习 (The museum as a source for learning)",
+  "success_cases": ""
+}

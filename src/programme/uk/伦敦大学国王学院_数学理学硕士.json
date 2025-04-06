@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "数学理学硕士",
+  "ename": "MSc Mathematics",
+  "tags": "理科,数学,自然、数学与工程科学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，需要具备以数学为主要研究领域的背景，学校也欢迎具有2:2荣誉学位的申请者并将基于具体情况对其进行评估，由于课程的重点是纯数学和理论物理学，申请者通常需要具备这些领域的先备知识（至少达到180学分或同等条件）",
+  "objectives": "伦敦大学国王学院数学理学硕士项目课程是一门内容广泛的课程，主要利用纯数学的课程模块并提供额外的课程选项来学习应用数学的科目，如理论物理、复杂系统和金融数学。本课程适用于希望攻读高级数学学习课程并打算在以后攻读数学学科博士学位的毕业生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数学研究项目 (MSc Mathematics Project)\n实分析Ⅱ (Real Analysis II)\n复变函数论 (Complex Analysis)\n傅立叶分析 (Fourier Analysis)\n度量与巴拿赫空间 (Metric and Banach Spaces)\n非线性分析 (Nonlinear Analysis)\n算子理论 (Operator Theory)\n代数曲线 (Algebraic Curves)\n代数几何 (Algebraic Geometry)\n李群和李代数 (Lie Groups and Lie Algebras)\n流形 (Manifolds)\n拓扑学 (Topology)\n代数数论 (Algebraic Number Theory)\n伽罗瓦理论 (Galois Theory)\n有限群表示论 (Representation Theory of Finite Groups)",
+  "success_cases": ""
+}

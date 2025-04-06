@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "精算学理学硕士",
+  "ename": "MSc Actuarial Science",
+  "tags": "商科,金工金数,数学与统计学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 30250英镑/年",
+  "requirements": "至少具有二等荣誉学位或同等学历，要求工科、理科（如物理、化学或计算科学）、商科（如商业研究、会计或经济学）学科背景\n学校也欢迎具有相关经验或适当专业资格的学生申请\n有较好的数学基础，比如上过微积分、线性代数、微分方程、概率、统计数据等课程；需要熟练地用英语阅读",
+  "objectives": "思克莱德大学精算学理学硕士项目是专为没有计算机科学背景的毕业生设计的转换学位。旨在为您提供在我们的经济和社会中领先于人工智能驱动的转型的技能。您将获得可转移的技能，为您在 AI 及其应用领域的职业生涯做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融学原理 (Principles of Finance)\n概率统计基础 (Foundations of Probability & Statistics)\n推理与回归建模 (Inference & Regression Modelling)\n宏观经济学基础 (Fundamentals of Macroeconomics)\n微观经济学基础 (Fundamentals of Microeconomics)\n行为金融学 (Behavioural Finance)\n安全性分析 (Security Analysis)\n投资组合理论与管理 (Portfolio Theory & Management)\n银行风险管理 (Risk Management for Banks)\n金融计量经济学 (Financial Econometrics)\n金融随机过程 (Financial Stochastic Processes)\n定量风险分析 (Quantitative Risk Analysis)\n风险分析与管理 (Risk Analysis & Management)\n贝叶斯空间统计 (Bayesian Spatial Statistics)\n精算学暑期项目 (Actuarial Science Summer Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "牛津大学",
+  "major_name": "高级计算机科学理学硕士",
+  "ename": "MSc Advanced Computer Science",
+  "tags": "工科,计算机,计算机科学系",
+  "introduction": "专业方向: 计算机\n入学时间: 10月\n项目时长: 1年\n项目学费: 41250英镑/年",
+  "requirements": "具有一等荣誉学位，需要计算机科学或数学方面专业背景。对于拥有美国学士学位的申请者，要求GPA3.7/4\n申请者需要具备处理数学符号的必要背景和计算机编程基本技能。申请人应在工作或学习期间进行过一些编程项目，可能包括自学。没有优先考虑的特定编程语言，但重要的是参与过编码和实现算法的任务\n申请者不需要在申请时提交出版物，但如果有出版物，请提供详细信息",
+  "objectives": "牛津大学高级计算机科学硕士课程旨在为计算机科学和其他数学学科的毕业生教授一系列高级主题，这个为期12个月的理学硕士已经被设计来教授规范的数学原理，软件和硬件设计和有效实施。该硕士项目是理论和实践的结合，教授应用领域(如机器学习、验证和计算机安全)正在发展的先进技术和思想，以及支撑这些技术和思想的丰富多样的理论。这些包括计算模型和数据，以及程序和算法的数学分析。牛津大学高级计算机科学硕士课程旨在为编程和计算机系统设计的理论和实践研究提供基础；展示稳健和前瞻性的知识、经验、推理方法和设计及实现技术；为计算机行业的职业生涯打下基础，包括电信、过程控制、业务、任务和安全关键领域；提高已在这些行业工作的专业人士的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "保险精算学 (Actuarial Science)\n并发性 (Concurrency)\n并发编程 (Concurrent Programming)\n计算机科学的基础 (Foundations of Computer Science)\n函数式编程 (Functional Programming)\n人工智能 (Artificial Intelligence)\n计算的复杂度 (Computational Complexity)\n计算机安全 (Computer Security)\n数据库 (Databases)\n机器学习 (Machine Learning)\n计算学习理论 (Computational Learning Theory)",
+  "success_cases": ""
+}

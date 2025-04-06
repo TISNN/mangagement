@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "电气与电子工程理学硕士",
+  "ename": "MSc Electrical and Electronic Engineering",
+  "tags": "工科,电气电子,机械、电气和制造工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有荣誉学士学位，通常达到2:2或以上水平，理想情况下，申请者应该具有工程或物理科学本科学位\n学校也欢迎成熟学生的申请，并认可所有其他同等和国际学历，学校可能会考虑学历不符合常规入学标准但具备大量相关工作经验的申请者",
+  "objectives": "拉夫堡大学电气与电子工程理学硕士课程经过精心设计，旨在培养具有高级理论知识和实践专业知识的高技能毕业生，通过将电气和电子工程与基本的管理技能相结合，该专业为毕业生在工业或学术界的职业生涯中成为领导者做好准备。课程由世界领先的学者与行业顾问协商设计，在机器人和控制、能源工程以及通信和物联网方面提供灵活的学习路线，这种灵活性使学生能够专注于与他们的项目和职业目标相一致的领域，工程管理、创业和机器学习的教学主题与技术教育相辅相成，确保毕业生全面发展，并在现代工程领域茁壮成长。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "可持续发展工程 (Engineering for Sustainable Development)\n理学硕士个人项目 (MSc Individual Project)\n研究与就业能力核心专业技能 (Core Professional Skills for Research and Employability)\n电力与能源工程 (Electrical Power and Energy Engineering)\n高级数字与物联网通信技术 (Advanced Digital and IoT Communication Technologies)\n工程管理与商业研究 (Engineering Management and Business Studies)\n机器人控制与自动化 (Robotics Control and Automation)\n天线、雷达与超材料 (Antennas, Radar and Metamaterials)\n太阳能 (Solar Power)\n统计方法与机器学习 (Statistical Methods and Machine Learning)\n机器学习 - 工程师原理与应用 (Machine Learning - Principles and Applications for Engineers)\n射频与微波集成电路设计 (Radio Frequency and Microwave Integrated Circuit Design)\n高级电子工程应用 (Advanced Electronic Engineering Applications)",
+  "success_cases": ""
+}

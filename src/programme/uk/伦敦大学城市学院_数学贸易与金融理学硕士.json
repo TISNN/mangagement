@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "数学贸易与金融理学硕士",
+  "ename": "MSc Mathematical Trading and Finance",
+  "tags": "商科,金融,贝叶斯商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 33100英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要高度定量专业背景如计算机科学、金融、经济、工程、统计学、数学和物理学\n本课程不要求具备工作经验\n作为评估过程的一部分，申请者可能会被要求提供在学习期间进行的特定课程的教学大纲，提交申请时不需要提供，只有在需要作为评估的一部分时，招生团队才会直接提出要求",
+  "objectives": "伦敦大学城市学院数学贸易与金融理学硕士将学习专注于金融理论和不同金融资产的核心模块。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "资产定价 (Asset Pricing)\n衍生品 (Derivatives)\n计量经济学基础 (Foundations of Econometrics)\n金融中的随机建模方法 (Stochastic Modelling Methods in Finance)\n应用研究工具 (Applied Research Tools)\n固定收入 (Fixed Income)\n风险分析 (Risk Analysis)\n定量交易 (Quantitative Trading)\n机器学习 (Machine Learning)\n先进的财务建模和预测 (Advanced Financial Modelling and Forecasting)\n信用风险管理 (Credit Risk Management)\n对冲基金 (Hedge Funds)",
+  "success_cases": ""
+}

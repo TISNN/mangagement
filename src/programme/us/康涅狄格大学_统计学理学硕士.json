@@ -1,0 +1,12 @@
+{
+  "school_name": "康涅狄格大学",
+  "major_name": "统计学理学硕士",
+  "ename": "MS in Statistics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n入学时间: 秋季\n项目时长: 3个学期\n项目学费: 2,227美元/学期",
+  "requirements": "整个本科累计平均绩点为3.0;本科最后两年的平均绩点至少为3.0;或在整个本科最后一年表现优异(3.5或以上)，成功完成三个学期的微积分和一个学期的线性代数。有统计学背景会有帮助，但不是必需的",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

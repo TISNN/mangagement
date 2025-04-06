@@ -1,0 +1,12 @@
+{
+  "school_name": "罗切斯特大学",
+  "major_name": "生物学理学硕士",
+  "ename": "MS in Biology",
+  "tags": "理科,生物",
+  "introduction": "专业方向: 生物\n项目类别: STEM\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 23,396美元",
+  "requirements": "生物学或相关专业",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

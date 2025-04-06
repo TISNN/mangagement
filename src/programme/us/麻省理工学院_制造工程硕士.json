@@ -1,0 +1,12 @@
+{
+  "school_name": "麻省理工学院",
+  "major_name": "制造工程硕士",
+  "ename": "MEng in Manufacturing",
+  "tags": "工科,机械工程",
+  "introduction": "专业方向: 机械工程\n项目类别: STEM\n入学时间: 秋季\n项目时长: 12个月\n项目学费: 44,720美元",
+  "requirements": "所有即将入学的研究生，都必须参加学院的写作能力测试，该测试在入学前的夏季或秋季学期开始前（通常在 9 月）在线进行。根据结果，学生将 (a) 通过写作能力要求； (b) 必须在 1 月的独立活动期间参加一个简短但密集的说明文写作研讨会。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

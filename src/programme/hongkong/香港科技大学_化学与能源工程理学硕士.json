@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "化学与能源工程理学硕士",
+  "ename": "MSc Chemical and Energy Engineering",
+  "tags": "工科,化工,工程学院",
+  "introduction": "专业方向: 化工\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 184800港币/年",
+  "requirements": "具有学士学位或同等学历并且达到二等荣誉学位，需要化学工程、能源工程或相关领域背景\n不具备化学工程或能源工程背景学士学位的学生需要修读至少5门基础课程",
+  "objectives": "香港科技大学化学与能源工程理学硕士项目的主要课程由能源、环境和纳米技术三大块组成，这是化学工程的三个关键领域，科大在这一专业领域享誉全球。此外，该项目培养学生对产品开发、材料科学、能源转换和利用、可再生能源、发电、碳中和和可持续发展的理解和专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "多相催化理论与实践 (Theory and Practice in Heterogeneous Catalysis)\n发电技术 (Power Generation Technologies)\n脱碳技术 (Decarbonization Technologies)\n能源、环境与可持续发展 (Energy, Environment and Sustainable Development)\n电化学能源技术 (Electrochemical Energy Technologies)\n过程反应器选择与设计 (Process Reactor Selection and Design)\n高级分离工程 (Advanced Separation Processes)\n高分子与材料表征技术 (Polymer and Materials Characterization Techniques)\n过程安全管理与风险分析 (Process Safety Management and Risk Analysis)\n加工工业的能源整合与优化 (Energy Integration and Optimization for Process Industry)\n化学产品工程 (Chemical Product Engineering)\n专题 (Special Topics)\n独立项目 (Independent Project)\n高级控制与数据科学 (Advanced Control and Data Science)\n能源政策 (Energy Policy)",
+  "success_cases": ""
+}

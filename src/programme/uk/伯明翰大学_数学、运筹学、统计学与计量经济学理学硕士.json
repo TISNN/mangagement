@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "数学、运筹学、统计学与计量经济学理学硕士",
+  "ename": "MSc Mathematics, Operational Research, Statistics and Econometrics",
+  "tags": "理科,数学,工程与物理科学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31390英镑/年",
+  "requirements": "具有2:1荣誉学位，需要数学、统计学、工业工程或包含很强数学成分的专业背景",
+  "objectives": "近年来，数学优化和统计学的新发展彻底改变了系统工程、信息科学、信号和图像处理、统计纠错和密码学，这在学术研究和实际实施中都迫切需要新一代的数学家，他们需要受过专业的训练，可以在数学优化、统计学以及在工程、医疗保健、金融和经济学的应用领域工作。伯明翰大学数学、运筹学、统计学与计量经济学理学硕士项目兼具技术性和实用性，学生将获得整合最先进的统计和优化知识的能力，以在不同的专业环境中解决、分析以及合理地评估给定的问题。这是一个多学科领域，涉及数学优化技术、运筹学方法、编程和统计学的研究，以及它们在经济学、金融学、医学、工业管理、自然科学等方面的应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "线性规划 (Linear Programming)\n财经统计方法 (Statistical Methods in Finance and Economics)\n数值方法与程序设计 (Numerical Methods and Programming)\n理学硕士项目 (MSc Project)\n医学统计 (Medical Statistics )\n非线性规划I与启发式优化 (Nonlinear Programming I and Heuristic Optimisation )\n博弈论与多准则决策 (Game Theory and Multicriteria Decision Making )\n数学金融 (Mathematical Finance )\n应用统计学 (Applied Statistics )\n整数规划与组合优化 (Integer Programming and Combinatorial Optimisation)\n高等管理数学 (Advanced Management Mathematics )\n高等数学金融 (Advanced Mathematical Finance)",
+  "success_cases": ""
+}

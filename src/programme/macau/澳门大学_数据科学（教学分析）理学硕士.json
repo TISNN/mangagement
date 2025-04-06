@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "数据科学（教学分析）理学硕士",
+  "ename": "MSc Data Science (Analytics in Teaching and Learning)",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "申请人必须持有认可的学士学位或同等学历。学士学位学习成绩平均绩点 (GPA) 2.8（满分 100 分，平均绩点 75 分）或以上。优先考虑主修教育并具有定量背景（统计，STEM等）的申请人，具有研究经验（包括研究出版物、助学金、奖学金和助学金）的学生将获得优先考虑",
+  "objectives": "澳门大学数据科学（教学分析）理学硕士项目以多学科课程为特色，该课程借鉴了一系列学科的见解，使学生能够使用最新的工具和分析方法从现实世界的数据集中提取信息，并以多种方式解释和交流他们的发现。改变人们的思想和行为。\n数据科学（教学分析）理学硕士课程为期两年，与不同的学术单位合作开展项目。学生将有理工学院讲授的大数据理论、挖掘与分析技术等共4门基础课程。实际和有效地应用于他们指定的专业领域。学生应按照指定专业的学习计划进行选课，并完成项目报告。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目报告 (Project Report)\n教育大数据评估与评价 (Assessment and Evaluation of Educational Big Data)\n数据驱动的教育管理方法 (Data-driven Approach to Educational Administration)\n使用大数据增强学习 (Learning Enhancement with Big Data)\n大数据定量社会科学研究 (Quantitative Social Science Research with Big Data)\n公民数据采集与分析 (Civic Data Acquisition and Analysis)\n数据科学编程导论 (Introduction to Data Science Programming)\n数据科学与数据可视化 (Data Science and Data Visualization)\n数据库和数据挖掘技术 (Database and Data Mining Technologies)\n机器学习工具 (Tools for Machine Learning)",
+  "success_cases": ""
+}

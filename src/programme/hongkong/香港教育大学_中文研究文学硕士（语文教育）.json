@@ -1,0 +1,12 @@
+{
+  "school_name": "香港教育大学",
+  "major_name": "中文研究文学硕士（语文教育）",
+  "ename": "MA Chinese Studies (Language Education)",
+  "tags": "社科,语言,人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 150000港币/年",
+  "requirements": "申请者一般需持有认可大学颁发的：\n- 教育学士学位；或\n- 中文本科或人文学科学士学位；或\n- 学位教师中文科知识深造文凭或同等学历\n申请者一般需要参加面试，中文或相关本科成绩优异的申请者可能豁免面试",
+  "objectives": "香港教育大学中文研究文学硕士（语文教育）課程专为中文教育工作者、编辑、行政及公务员等专业人士的学员而设。课程旨在提升学员的中文素养及语文学科知识，借此拓宽学员研习中国语文、文学的视野，以应付中文专业范畴的工作需要。課程提供多类型选修科目，切合学员不同的学术兴趣。\n修毕本课程的学员应能：增进文学、语言及文化方面的知识；能娴熟运用中国语文，增強分析、鑒鉴赏、评价能力；及把知识应用在语文教育专业上。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "经典作品与文化专题研究 (Topics on Classic Works and Culture)\n文献学与中文研究 (Research on Philology and Chinese)\n戏剧与语言艺术 (Art of Drama and Language)\n文学与电影 (Literature and Film)\n儿童文学专题研究 (Topics on Children's Literature)\n现当代文学专题研究 (Topics on Modern and Contemporary Literature)\n文学创作专题研究 (Research on Literary Creation)\n古典文学专题研究 (Topics on Classical Literature)\n语篇分析 (Discourse Analysis)\n汉语言文化专题 (Topics on Chinese Language and Culture)\n方言与普通话专题研究 (Topics on Dialects and Mandarin)\n语文传意专题研究 (Topics on Chinese Communication)\n网络文学与流行文化 (Network literature and Pop Culture)\n古代汉语专题研究 (Topics on Ancient Chinese Language)\n文化专题研究 (Topics on Culture)",
+  "success_cases": ""
+}

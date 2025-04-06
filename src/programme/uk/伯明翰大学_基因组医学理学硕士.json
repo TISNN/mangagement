@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "基因组医学理学硕士",
+  "ename": "MSc Genomic Medicine",
+  "tags": "社科,医学,医学与牙科科学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30370英镑/年",
+  "requirements": "具有2:1荣誉学位，需要生物医学科学、遗传学、医学或相关学科背景\n鼓励接受过各级培训的NHS员工申请并将考虑相关工作经验\n学校会基于专业资格和NHS内的相关工作经验来考虑具有其他学历的申请者",
+  "objectives": "伯明翰大学基因组医学理学硕士项目适合医学和生命科学专业的毕业生，帮助学生了解基因组学的最新进展、在基因组学相关的研究或行业寻求职业生涯。伯明翰大学基因组医学理学硕士项目为希望更多地了解基因组学以及将基因组技术引入医疗保健系统的临床医生和科学家提供了理想的职业发展路径。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人类遗传学和基因组学基础 (Fundamentals in Human Genetics and Genomics)\n组学技术与技术及其在基因组医学中的应用 (Omics Techniques and Technologies and their Application to Genomic Medicine)\n基因组分析中的生物信息学、解释与数据质量保证 (Bioinformatics, Interpretation and Data Quality Assurance in Genome Analysis)\n常见和罕见遗传性疾病基因组学 (Genomics of Common and Rare Inherited Diseases)\n癌症病理学中的基因组学 (Genomics in Cancer Pathology)\n药物基因组学和分层保健 (Pharmacogenomics and Stratified Healthcare)\n基因组学在传染病中的应用 (Applications of Genomics in Infectious Disease)\n基因组医学中使用的咨询技巧导论 (Introduction to the Counselling Skills used in Genomic Medicine )\n经济模型和人类基因组学 (Economic Models and Human Genomics)\n专业研究技能 (Professional and Research Skills)",
+  "success_cases": ""
+}

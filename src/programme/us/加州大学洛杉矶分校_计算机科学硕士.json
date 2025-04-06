@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学洛杉矶分校",
+  "major_name": "计算机科学硕士",
+  "ename": "MS in Computer Science",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n入学时间: 秋季\n项目时长: 5 quarters\n项目学费: 10943美元/quarter\n项目规模: 106人\n平均成绩: 3.55\n国际学生: 70%\n男女比例: 66:34",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡科技设计大学",
+  "major_name": "工程学硕士（跨学科）",
+  "ename": "Master of Engineering (Interdisciplinary)",
+  "tags": "工科,工业工程,硕士项目",
+  "introduction": "专业方向: 工业工程\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 52078新币/年",
+  "requirements": "至少具有学士学位或以上学历，学术成绩优秀\n不要求但强烈建议提交GRE",
+  "objectives": "新加坡科技设计大学工程学硕士（跨学科）项目旨在为在职人员和应届毕业生提供机会，帮助学生探索独立研究型解决方案来解决现有的工程挑战，创造更美好的世界。该项目的学生将在导师的带领下开展研究，导师将在必要时引导、指导与监督学生的研究。参与研究项目的该项目的学生将最终提交一份硕士研究论文，该论文必须交由论文考试委员会评估。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "知识产权 (Intellectual Property (IP) Clinic)\n领导力、团队合作与个人品牌化 (Leadership, Teamwork and Personal Branding)\n城市住房类型学 (Urban Housing Typologies)\n城市设计高级专题：城市可持续性 (Advanced Topics in Performative Design: Urban Sustainability)\n计算科学与工程 (Computational Science & Engineering)\n设计科学 (Design Science)\n功能性材料 (Functional Materials)\n随机模型 (Stochastic Models)\n统计学 (Statistics)\n收益管理 (Revenue Management)\n系统安全 (Systems Security)\n安全软件工程 (Secure Software Engineering)\n安全网络物理系统 (Secure Cyber Physical Systems)\n应用工程数学 (Applied Mathematics for Engineering)\n最优化与控制 (Optimization and Control)",
+  "success_cases": ""
+}

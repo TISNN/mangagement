@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "金融科技理学硕士",
+  "ename": "MSc Financial Technology",
+  "tags": "商科,金工金数,工学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 340000港币/年",
+  "requirements": "申请者最好具备良好的数学知识（如微积分、线性代数和概率论），并精通至少1门现代编程语言（如C, C, Java或Python）\n具有认可大学的工程、科学、数学或金融/商业相关学科的学士学位或同等专业资格\n需要提供B等级证明",
+  "objectives": "金融科技近年来迅猛发展，其致力于在金融实践中应用人工智能、数据科学和信息技术等领域的技术创新，促进数字货币、众筹平台、机器人投资顾问、大数据分析和算法驱动的交易策略等金融分支的发展，从而深刻影响着人们在线和离线支付、存储和管理财富以及为企业融资的方式。一方面，金融科技的发展显著提升了终端用户的服务体验，使金融行业更具包容性和生产效能性。但另一方面，如何在经济、技术及法律层面上理解和分析它的社会效益和风险，对金融从业者而言，是一项重大的挑战。 香港中文大学金融科技理学硕士项目顺应金融新时代的科技发展要求，致力于为学生提供前沿的理论和技能训练，使其能自信应对行业的挑战。通过香港中文大学金融科技理学硕士项目的系统学习，学生将掌握网络安全、分布式总帐系统、数据科学及人工智能等应用于金融及电子商务领域的专业知识，并广泛了解金融市场、金融工程、监管政策、合同和技术知识产权等金融法律领域的细节内容，从而具备解决实际问题的能力，为金融科技行业的健康发展做出贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融市场与工具* (Financial Markets and Instruments*)\n高级金融基础设施 (Advanced Financial Infrastructure)\n应用区块链与加密货币 (Applied Blockchain and Cryptocurrencies)\n深度神经网络的高效计算 (Efficient Computing of Deep Neural Networks)\n大数据分析 (Big Data Analytics)\n量化与算法交易 (Quantitative and Algorithmic Trading)\n金融技术数据分析 (Data Analytics for Financial Technology)\n计算金融 (Computational Finance)\n密码学、信息安全与隐私 (Cryptography, Information Security and Privacy)\n大数据系统与信息处理 (Big Data Systems and Information Processing)\n网络系统中的安全与隐私 (Security & Privacy in Cyber Systems)\n数字取证 (Digital Forensics)\n强化学习 (Reinforcement Learning)\n定量风险管理 (Quantitative Risk Management)\n会计数据分析与商业智能 (Accounting Data Analytics and Business Intelligence)\n大数据技术与应用 (Big Data Technology and Applications)\n数据库与大数据管理 (Database and Big Data Management)\n商业智能技术与应用 (Business Intelligence Techniques and Applications)\n电子支付系统 (Electronic Payments Systems)\n衍生品交易策略基础 (Fundamentals Derivatives Trading Strategies)\n互联网金融 (Internet Finance)\n金融市场监管科技要素 (Elements of RegTech for the Financial Market)\n金融科技创新专题 (Topics in Financial Technology Innovations)\n金融科技创业 (Financial Technology Entrepreneurship)\n智能自动化 - 机器人过程自动化（RPA）与人工智能（AI） (Intelligent Automation - Robotic Process Automation (RPA) & Artificial Intelligence (AI))\n信息技术管理 (Information Technology Management)\n金融工程概论 (Introduction to Financial Engineering)\n金融科技实习 # (Financial Technology Internship #)\n金融科技项目 I (Financial Technology Project I)\n金融科技项目 II (Financial Technology Project II)",
+  "success_cases": ""
+}

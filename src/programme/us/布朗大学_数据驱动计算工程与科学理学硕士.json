@@ -1,0 +1,12 @@
+{
+  "school_name": "布朗大学",
+  "major_name": "数据驱动计算工程与科学理学硕士",
+  "ename": "MS in Data-Enabled Computational Engineering and Science",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n入学时间: 秋季\n项目时长: 8门课\n项目学费: 9132美元/门课",
+  "requirements": "1. 学士学位：工程、物理科学、自然科学或相关学科\n2. GPA：3.4（strongest preference）",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

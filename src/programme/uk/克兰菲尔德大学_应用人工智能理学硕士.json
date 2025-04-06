@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "应用人工智能理学硕士",
+  "ename": "MSc Applied Artificial Intelligence",
+  "tags": "工科,计算机,航空航天",
+  "introduction": "专业方向: 计算机\n入学时间: 10月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "具有航空/航空航天工程、机械工程、电气/电子工程、纯数学、计算机科学、软件工程、机械电子工程、信息技术等领域背景",
+  "objectives": "人工智能技术正被越来越多的行业采用，从而产生了对可以帮助实现AI的变革潜力的有才能的毕业生的需求。克兰菲尔德大学应用人工智能理学硕士通过独特的理论和实践相结合的课程，涵盖逻辑和推理、数据分析、深度学习、代理架构等科目，以及在现实世界系统中实现所需的更广泛的系统工程和伦理考虑。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计学习方法 (Statistical Learning Methods)\n系统工程 (Systems Engineering)\n智能网络物理系统 (Intelligent Cyber Physical Systems)\n搜索与优化 (Search and Optimisation)\n逻辑与自动推理 (Logic and Automated Reasoning)\n数据分析与可视化 (Data Analytics and Visualisation)\n深度学习 (Deep Learning)\n人工智能的伦理、监管与社会方面 (Ethical, Regulatory and Social Aspects of AI)",
+  "success_cases": ""
+}

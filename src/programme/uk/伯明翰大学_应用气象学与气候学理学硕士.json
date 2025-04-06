@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "应用气象学与气候学理学硕士",
+  "ename": "MSc Applied Meteorology and Climatology",
+  "tags": "工科,地球科学,生命与环境科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30370英镑/年",
+  "requirements": "具有2:1荣誉学位，需要相关学科背景，例如地理学、环境科学、数学、工程学、物理学、化学或生物学\n在特殊情况下学校可能会考虑持有非研究生学历但具备上述学科领域荣誉学位替代学历的申请者",
+  "objectives": "天气和气候是地球系统的组成成分。要想理解人类与自然环境的相互作用，关键是监控气象变化、了解潜在过程的知识并建模。\n伯明翰大学应用气象学与气候学理学硕士课程提供综合培训，促进学生对于大气过程的理解、建模及预测，同时训练学生采集、管理、提供、运用大气数据的能力以满足各种各样的公共或私人部门的需要。课程还解释这些是如何为自然及人类系统的成功运行创造机会或带来问题的。课程目标是让学生一毕业就有能力在气象和气候领域竞争职业。\n伯明翰大学应用气象学与气候学理学硕士课程的目标是为学生提供理论和应用方面的培训，涉及到大气物理学和动力学、定量建模技术、天气预报、气候预测和大气过程的观察；为学生配备关于大气数据处理、管理的定量和统计分析技能；使学生能够运用理论概念和分析技术来解决由大气引起的环境和社会经济问题；培养学生独立研究的能力；把毫无环境知识背景的学生转变成为应用气象学家和气候学家；提升学生使用传统媒体和基于IT的新媒体的沟通技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "理论气象学：大气物理学与组成 (Theoretical Meteorology: Atmospheric Composition and Physics)\n天气和气候的动力学和模拟 (Dynamics and Modelling of Weather and Climate)\n数值天气预报与气候模拟 (Numerical Weather Forecasting and Climate Modelling)\n大气数据处理与统计 (Atmospheric Data Processing and Statistics)\n物理气候学与气候变化 (Physical Climatology and Climate Change)\n气象应用和服务 (Meteorological Applications and Services)\n论文研究方案 (Research Proposal for Dissertation)\n论文 (Dissertation)\n基础数学 (Foundation Mathematics)\n小范围与大气污染气象学 (Small-scale and Air Pollution Meteorology)",
+  "success_cases": ""
+}

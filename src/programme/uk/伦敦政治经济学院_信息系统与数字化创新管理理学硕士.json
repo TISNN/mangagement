@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦政治经济学院",
+  "major_name": "信息系统与数字化创新管理理学硕士",
+  "ename": "MSc Management of Information Systems and Digital Innovation",
+  "tags": "商科,信息系统,管理学系",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 38000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景\n不强制要求提交GRE或GMAT，但其中一项考试成绩优秀可能有助于申请\n不需要先前的工作经验",
+  "objectives": "通过伦敦政治经济学院信息系统与数字化创新管理理学硕士项目学习，学生将为未来在数字创新的形成和管理以及所带来的商业和社会变革中发挥关键作用。伦敦政治经济学院信息系统与数字化创新管理理学硕士项目以研究和实践为导向，强调多学科理论及学术文献的批判性性讨论。涵盖的社会理论利于学生理解信息系统和创新过程，案例研究利于说明管理和创新实践中的问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "创新和信息系统：概念和观点 (Innovation and Information Systems: Concepts and Perspectives)\n组织信息技术创新 (Innovating Organisational Information Technology)\n全球战略管理和信息系统 (Global Strategy Management、and Information Systems)\n数字创新研究的研究设计 (Research Design for Studies in Digital Innovation)\n论文写作 (Dissertation)\n学习技巧和研究方法 (Study Skills and Research Methods)\n信息通信技术与社会经济发展 (Information Communication Technologies and Socio-economic Development)\n干扰处理：人道主义紧急情况的管理和发展 (Handling Disruption: Humanitarian Emergencies Management and Development)\n先进技术管理当代主题 (Contemporary Topics in Advanced Technology Management)\n数据治理：隐私、开放和透明 (Data Governance: Privacy、Openness and Transparency)\n电子健康：政策、战略和系统 (eHealth: Policy、Strategy and Systems)\n公共部门信息系统 (Information Systems for the Public Sector)\n信息技术与服务创新 (Information Technology and Service Innovation)\n电子商务的管理和经济学 (Management and Economics of E-Business )\n社会计算、数据和信息服务 (Social Computing、Data and Information Services)",
+  "success_cases": ""
+}

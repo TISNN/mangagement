@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "工程与设计中的人工智能理学硕士（含实习）",
+  "ename": "MSc Artificial Intelligence for Engineering and Design with placement",
+  "tags": "工科,其他工科,工程与设计学院",
+  "introduction": "专业方向: 其他工科\n入学时间: 9月\n项目时长: 2年\n项目学费: 21213英镑/年",
+  "requirements": "具有high 2:2荣誉学位，需要相关专业的本科学位，例如工程学（例如化学、土木、机械、电子或电气工程）或建筑学。学校希望申请者的学位具有很强的数字元素，并且熟悉编程。如果数字元素很强并且熟悉工程和编程，学校也会考虑相关学科，例如科学",
+  "objectives": "巴斯大学工程与设计中的人工智能理学硕士（含实习）项目旨在满足擅长应用人工智能方法来提高企业生产力、效率和可持续性的工程师的需求，并帮助推动工程实践走向未来。学生将学习一系列与人工智能相关的主题，将工程和设计与数据科学、机器学习和应用人工智能相结合。学校教授专业和可转移的技能，以引领在这个快速变化的领域应用新技术。学生还将探索人工智能如何通过技术进步帮助改变社会，同时考虑其在道德等领域的更广泛影响。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程与设计领域的人工智能和机器学习 (Artificial Intelligence and Machine Learning for Engineering and Design)\n数字化转型：项目与变更管理 (Digital Transformation: Project and Change Management)\n具有工程与设计方面的专业和研究技能 (Professional and Research Skills for Engineering and Design)\n专业实习 (Professional Placement)\n研究项目 (Research Project)\n人工智能与可持续发展  (AI and Sustainable Development)\n高级数值方法 (Advanced Numerical Methods)\n自动化、制造与设计 (Automation, Manufacturing and Design)\n智慧城市与物联网 (Smart Cities and The Internet of Things)",
+  "success_cases": ""
+}

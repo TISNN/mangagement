@@ -1,0 +1,12 @@
+{
+  "school_name": "康涅狄格大学",
+  "major_name": "金融科技硕士",
+  "ename": "MS in Financial Technology",
+  "tags": "商科,金工金数",
+  "introduction": "专业方向: 金工金数\n项目类别: STEM\n入学时间: 春季/夏季/秋季\n项目时长: 36学分\n项目学费: 1500美元/学分\n项目规模: 70个人人",
+  "requirements": "一学期的统计或者微积分。本科总成绩或最后两年成绩3.0以上",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

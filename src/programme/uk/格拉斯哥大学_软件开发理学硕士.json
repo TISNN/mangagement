@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "软件开发理学硕士",
+  "ename": "MSc Software Development",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景，其中计算课程的学分不超过50% 学校有时可能会接受具有2:2荣誉学位或同等学历以及至少8年工作经验的申请者 请注意，先前的计算机知识和技能是有利的，但不是必需的",
+  "objectives": "通过格拉斯哥大学软件开发理学硕士学位课程的学习，学生将在计算机编程、专业软件开发及相关技能方面获得集中训练，并将其运用于高要求的软件开发项目中。\n格拉斯哥大学软件开发理学硕士学位课程的毕业生目前就职于化学、电子、旅游、食品、石油工业、银行保险业、软件公司、零售业、教育、卫生服务、管理咨询、土木工程等各个行业。一些毕业生将所学软件开发技能运用到当前职业中，一些则转而进行相关领域的研究或教学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级编程 (Advanced programming )\n算法和数据结构 (Algorithms and data structures )\n数据库原理与应用 (Database theory and application )\n企业网络安全 (Enterprise cyber security)\n编程 (Programming)\n软件工程 (Software engineering )\n系统和网络 (Systems and networks)\n信息技术团队项目理学硕士 (Msc it+ team project )\n密码学与安全发展 (Cryptography and secure development)\n网络安全基础 (Cyber security fundamentals)\n网络系统取证 (Cyber system forensics)\n人机交互设计与评价 (Human computer interaction design and evaluation )\n互联网技术 (Internet technology )\n安全关键系统开发 (Safety-critical systems development )",
+  "success_cases": ""
+}

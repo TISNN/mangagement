@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "供应链管理理学硕士",
+  "ename": "MSc Supply Chain Management",
+  "tags": "商科,供应链管理,工商管理学院",
+  "introduction": "专业方向: 供应链管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有本科2:1学位或以上学历，学科背景不限，但是需要较好的统计和数学研究背景。定量性较高的学科有会计、数学、科学、工程、计算机科学、经济学和金融\n如果申请者来自定量性较弱的学位，如管理学和政治学等专业，但是学习过程中涉及的定量内容较多，也可申请",
+  "objectives": "伦敦大学玛丽皇后学院供应链管理理学硕士将会让学生对物流和供应链管理的复杂挑战和机遇有专业的了解；与物流和供应链经理合作，解决现实世界的供应链和物流问题；培养学生分析和数字技能以优化物流和供应链决策；培养学生 R、Python、Stata 和 IBM Studio 等软件包的能力，以支持决策。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "Python 编码简介 (Introduction to Coding with Python)\n数据科学：方法与应用 (Data Science: Methods and Applications)\n供应链和物流分析顶点项目  (Capstone Project in Supply Chain and LogisticsAnalytics)\n供应链和运营分析简介 (Introduction to Supply Chain and Operations Analysis)\n供应链环境分析 (Environmental Analytics for Supply Chains)\n管理科学导论 (Introduction to Management Science)\n供应链规划与控制 (Supply Chain Planning and Control)\n供应链管理的分析前沿 (Analytical Frontiers in Supply Chain Management)\n运输和物流分析 (Transportation and Logistics Analytics)\n需求预测和定价分析 (Demand Forecasting and Pricing Analytics)",
+  "success_cases": ""
+}

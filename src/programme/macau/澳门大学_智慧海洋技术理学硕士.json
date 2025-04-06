@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "智慧海洋技术理学硕士",
+  "ename": "MSc Smart Ocean Technology",
+  "tags": "工科,海洋技术,科技学院",
+  "introduction": "专业方向: 海洋技术\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "持有澳门大学认可的学士学位或同等学历。申请人也可能被要求具备其他知识或专业经验。申请人必须在学士学位学习中达到相当于C级或更高的总成绩",
+  "objectives": "澳门大学智慧海洋技术理学硕士课程旨在培养学生掌握海洋信息和数据采集、大数据科学、先进的数据处理、水下声学与成像、水下通信和海洋传感器的原理和技术，并应用于海洋装备研发、海洋观测预报、海洋管理等领域。学生将具备胜任海洋观测监测、海洋研究和海洋高新技术产业的专业技能。\n澳门大学智慧海洋技术理学硕士项目旨在使学生能够具备适用于海洋科学和技术的知识并将其应用于学位学科或专业领域的能力；设计和执行实验，分析和解释与海洋科学和技术相关的数据的能力；在现实约束条件下（如经济、环境、社会、政治、伦理、健康与安全、可制造性和可持续性），设计系统、零部件或流程以满足所需的能力；识别、制定和解决与海洋科学和技术相关的复杂问题的能力；使用与海洋科学和技术工程实践相适应的技术、技能和现代工程工具的能力；使用与海洋科学和技术相关的计算机工具，并了解其过程和限制的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "海洋遥感 (Ocean Remote Sensing)\n海洋学导论 (Introduction to Oceanography)\n物理海洋学 (Physical Oceanography)\n资料库和资料挖掘技术 (Database and Data Mining Technologies)\n海洋声学 (Ocean Acoustics)\n海洋传感器 (Ocean Sensors)\n机器学习在海洋科学的应用 (Machine Learning and Applications in Ocean Science)\n海洋机器人及应用 (Marine Robotics and Application)\n海洋观测与模拟专题 (Special Topics in Ocean Observation and Modeling)\n水下通讯与网路专题 (Special Topics in Underwater Communication and Networks)\n云计算 (Cloud Computing)\n项目报告 (Project Report)\n实习及报告 (Internship and Report)",
+  "success_cases": ""
+}

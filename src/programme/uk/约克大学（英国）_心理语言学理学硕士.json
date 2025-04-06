@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "心理语言学理学硕士",
+  "ename": "MSc Psycholinguistics",
+  "tags": "社科,语言,语言及语言科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 25080英镑/年",
+  "requirements": "具有2:2学位或同等学历",
+  "objectives": "约克大学心理语言学理学硕士项目不仅会为学员提供有关心理语言学的关键理论和问题的详细介绍，同时会为学生提供与该领域相关的技术、方法和定量分析方法相关的实践培训。学生将有机会学习实时分析语言的表示和处理方式的技巧，并研究人们能够理解和使用语言的原因。学员将有机会与世界一流的导师一起学习，以获得有关关键理论、争议和研究方法的知识，并培养理解和设计实验的能力，继而将技能应用到心理语言学数据中，并有能力在心理语言学方面进行原创性研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语音学与音位学 (Phonetics and Phonology)\n比较句法和句法类型学 (Comparative Syntax and Syntactic Typology)\n句法 (Syntax)\n心理语言学 (Psycholinguistics)\n语言习得 (Language Acquisition)\n高级音韵学 (Advanced Phonology)\n高级语音学 (Advanced Phonetics)\n定量方法 (Quantitative Methods)\n研究培训 (Research Training)\n音韵学的发展 (Phonological Development)\n双语学 (Bilingualism)\n语音发展的学习机制 (Learning Mechanisms in Phonological Development)\n第二语言习得的心理语言学方法 (Psycholinguistic Approaches to Second Language Acquisition)\n英语韵律 (Prosody of English)\n语言学的核心思想 (Key Ideas in Linguistics)",
+  "success_cases": ""
+}

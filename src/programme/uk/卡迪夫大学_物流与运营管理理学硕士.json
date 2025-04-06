@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "物流与运营管理理学硕士",
+  "ename": "MSc Logistics and Operations Management",
+  "tags": "商科,供应链管理,商学院",
+  "introduction": "专业方向: 供应链管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 28450英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，不限专业如果申请者没有相关领域的学位，学校可以考虑专业经验，需要提供证据证明",
+  "objectives": "卡迪夫大学物流与运营管理理学硕士项目旨在提供在国内或国际物流和运营管理公司担任管理角色所需的知识和专业能力，项目的特殊性在于，由学术和专业学科领域最前沿的专业工作人员教授，由英国皇家物流与运输学会认证，拥有物流、供应链和运输的独立专业体系，将使学生全面了解物流和运营管理。同时，学生还将研究运营管理、物流和供应链管理必修课程，和一系列选修课程，以拓宽专业知识的范围，此外，学生还需就受批准课题撰写论文。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "运营管理 (Operations Management)\n物流及其提供 (Logistics and its Provision)\n研究技巧与方法 (Research Skills and Methods)\n物流与运营管理学位论文 (Logistics and Operations Management Dissertation)",
+  "success_cases": ""
+}

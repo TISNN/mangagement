@@ -1,0 +1,12 @@
+{
+  "school_name": "牛津大学",
+  "major_name": "药理学理学硕士",
+  "ename": "MSc Pharmacology",
+  "tags": "社科,药学,药理学系",
+  "introduction": "专业方向: 药学\n入学时间: 10月\n项目时长: 1年\n项目学费: 36250英镑/年",
+  "requirements": "具有一等或strong 2:1荣誉学位，需要生物或化学科学专业背景，或数学和物理科学背景成绩优秀\n对于拥有美国学士学位的申请者，满足本科水平要求的最低总体 GPA 通常是 4.0 分中的 3.5 分\n具有生物或化学科学背景的学生优先考虑，但也欢迎具有数学和物理科学背景的高素质候选人申请；培训或实验室经验的证据可能是一个优势，并且可能会考虑该课程与未来职业发展计划的相关性",
+  "objectives": "牛津大学药理学理学硕士课程旨在为学生提供必要的理论知识和实践训练，使他们能够将后基因组分子生物学与生理功能和药物发现相结合。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "细胞与受体药理学 (Cell and Receptor Pharmacology)\n组织与器官药理学 (Tissue and Organ Pharmacology)\n神经系统药理学 (Pharmacology of the Nervous System)\n心血管药理学 (Cardiovascular Pharmacology)\n细胞信号 (Cell Signalling)\n神经药理学I(神经退行性变) (Neuropharmacology I ( Neurodegeneration))\n神经药理学II(心理药理学) (Neuropharmacology II (Psychopharmacology))\n药物发现 (Drug Discovery)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "石油与天然气企业管理理学硕士",
+  "ename": "MSc Oil and Gas Enterprise Management",
+  "tags": "工科,能源,地球科学学院",
+  "introduction": "专业方向: 能源\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要地质学、地球物理学、工程学、法学、经济学、商务、商业或金融背景，也可能考虑商业与计算机的联合学位\n学校也将考虑具有良好学位以及相关工作经验的申请者",
+  "objectives": "阿伯丁大学石油与天然气企业管理理学硕士课程提供了国际油气行业晋升高级管理职位所需的基本商业、法律和科学技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "石油勘探地球科学 (Geoscience in Oil Exploration)\n能源经济学概论 (Introduction to Energy Economics)\n钻井工程 (Drilling and Well Engineering)\n工程管理：生产，风险管理与心理学 (Management in Engineering: Production, Risk Management and Psychology)\n投资组合优化 (Portfolio Optimisation)\n商业法律与监管框架 (Commercial Law and Regulatory Frameworks)\n地球科学修复技术 (Remediation Technology for Geosciences)\n研究技能，专业发展与实地研究 (Research Skills, Professional Development and Field Study)\n油气企业管理项目 (Project in Oil & Gas Enterprise Management)",
+  "success_cases": ""
+}

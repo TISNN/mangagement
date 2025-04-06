@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "机电一体化理学硕士",
+  "ename": "MSc Mechatronics",
+  "tags": "工科,机械工程,工程、数学与物理科学学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 30300英镑/年",
+  "requirements": "通常要求申请者在相关学科（如建筑环境、相关工程或科学学科）取得2:2的荣誉学位（或同等学历），但所有申请者都将根据成绩单独考虑",
+  "objectives": "埃克塞特大学机电一体化理学硕士项目重点机械、电子和电气、通信工程和数据科学的工业数字化中使用的最新技术。学生可以获得工业智能监控方面的高级知识和技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (MSc Dissertation\t)\n高级通信系统 (Advanced Communication Systems\t)\n高级有限元分析（FEA） (Advanced Finite Element Analysis (FEA)\t)\n以数据为中心的工程 (Data-Centric Engineering\t)\n机器人与自动化 (Robotics and Automation\t)\n能量收集技术 (Energy Harvesting Technology\t)\n节能电子电路 (Energy Efficient Electronic Circuits\t)\n工业物联网智能监控 (Smart Monitoring with Industrial IoT\t)\n研究方法学 (Research Methodology\t)\n设计、创新与创业 (Design, Innovation & Entrepreneurship\t)",
+  "success_cases": ""
+}

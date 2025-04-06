@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "心理学研究方法与高级统计学理学硕士",
+  "ename": "MSc Psychological Research Methods with Advanced Statistics",
+  "tags": "社科,心理学,心理学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要实验心理学、心理学、心理学与研究方法、定量心理学学科背景，学校也许可以考虑与心理学统计相关的学位申请者应当学习过以下领域中的一门课程：心理学高级研究方法、心理学数据分析、实验设计、研究心理学、定量研究方法、心理学研究伦理、心理学研究方法、心理学研究技能、心理学科学写作、心理学统计学",
+  "objectives": "谢菲尔德大学心理学研究方法与高级统计学理学硕士项目提供高级统计培训，探索处理和解释有关人类行为的大型数据集所需的统计方法和软件工具。这门为期12个月的课程旨在培训学生处理和解释记录人类行为的大型数据集所需的高级统计技能和最新研究方法，为临床培训、博士学位或令人兴奋的心理学职业做好准备。通过统计培训，该课程将教学生最新的技术，包括验证性因素分析和结构方程建模、多层次建模和广义线性模型（使用R软件）。该课程将教学生所需的技能，并给学生机会将其应用到感兴趣的心理学领域：从认知和发展心理学到社会心理学和临床心理学。除了统计培训之外，学生还将学习广泛的研究技术，从神经成像（EEG, fMRI）、行为遗传学，通过实验方法和临床试验设计，到定性访谈、日记研究方法以及与婴儿、儿童和临床人群合作的专家方法。学生还将开始培训一系列对学术界和专业角色中的心理学家非常重要的技能：学生将了解研究中的伦理问题，学习如何编写资助方案，并发展演示技能，为参加我们一年一度的学生主导夏季会议做好准备。这些项目让学生有机会将新的统计技能和研究方法知识付诸实践，同时解决心理学研究的前沿问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "心理学家的高级统计方法 (Advanced Statistical Methods for Psychologists)\n心理学研究方法 (Research Methods in Psychology)\n心理学家的专业技能 (Professional Skills for Psychologists)\n心理学中级多元统计 (Intermediate Multivariate Statistics for Psychology)\n系统回顾心理学研究 (Systematically Reviewing Psychological Research)\n高级统计学研究项目 (Research Project with Advanced Statistics)",
+  "success_cases": ""
+}

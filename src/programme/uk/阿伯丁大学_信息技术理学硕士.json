@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "信息技术理学硕士",
+  "ename": "MSc Information Technology",
+  "tags": "工科,计算机,自然与计算科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历\n虽然不需要先前的计算机编程经验，但期望具备基本的计算机知识水平，那些具有非英国大学计算机科学学位或其他计算背景的申请者将被考虑（可能会重复学习一些材料）",
+  "objectives": "阿伯丁大学信息技术理学硕士旨在研究信息技术管理和软件开发的关键领域，从管理方面，涵盖数据库开发，企业计算，云计算以及安全和项目管理，从软件开发方面，涵盖编程，以人为中心的设计，测试以及各种敏捷开发理论和实践，不断发展以反映技术和行业需求的变化。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "信息安全 (Information Security)\n数据库系统与大数据 (Database Systems and Big Data)\n编程入门 (Introduction to Programming)\n人机交互 (Human Computer Interaction)\n软件项目管理基础知识 (Fundamentals of Software Project Management)\n网站开发 (Web Development)\n高级编程 (Advanced Programming)\n企业软件开发 (Enterprise Software Development)\n信息技术项目 (Project in Information Technology)",
+  "success_cases": ""
+}

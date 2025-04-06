@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "公共健康学硕士",
+  "ename": "Master of Public Health",
+  "tags": "社科,公共卫生,健康与福祉学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1荣誉学位（或同等学历），需要着重于健康科学，医学，社会和公共政策，或统计学的任何学位。如果申请人至少有一年的专业水平的带薪或无薪相关公共卫生经验，学校也可以接受非相关学位\n学校也可以接受具有重要相关工作经验和较低资格的申请人",
+  "objectives": "公共健康在指导卫生保健实践、影响卫生政策、保护公众和改善人口健康方面起着核心作用，确保其从业人员无论身在何处都能很好地改善公共健康，旨在促进健康，预防疾病，减少健康不平等，延长寿命。格拉斯哥大学公共健康学硕士项目专门为有志于从事改善人口健康等公共健康类工作的学生开设，与英国国家医疗服务体系（NHS）及其他地区和国家的公共卫生机构都有着密切合作关系，确保学生能接触到该国公共卫生领域的一些领先权威机构。具体授课内容包括促进苏格兰健康发展、环境健康、环境保护、公共健康医学、健康经济学和商业/管理。本项目为跨学科项目，深受护理、医学、牙科、药剂学和其他健康相关专业本科生的青睐。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公共卫生原则 (Principles of Public Health)\n统计方法概论 (Introduction to Statistical Methods)\n流行病学导论 (Introduction to Epidemiology)\n高级流行病学 (Advanced Epidemiology)\n传染病 (Communicable Diseases)\n环境卫生 (Environmental Health)\n流行病学探究和统计 (Further Epidemiology and Statistics)\n全球化与公共卫生 (Globalisation and Public Health)\n卫生经济学 (Health Economics)\n健康促进：原则与实践 (Health Promotion: Principles and Practice)",
+  "success_cases": ""
+}

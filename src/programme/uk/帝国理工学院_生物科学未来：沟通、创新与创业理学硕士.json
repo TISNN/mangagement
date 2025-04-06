@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "生物科学未来：沟通、创新与创业理学硕士",
+  "ename": "MSc Bioscience Futures: Communication, Innovation and Entrepreneurship",
+  "tags": "理科,生物,医学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 45000英镑/年",
+  "requirements": "具有2:1学位，要求生物科学或适当学科背景，有3年相关工作经验的申请者可考虑申请，但须与课程主任面谈\n符合条件的申请者将被邀请参加面试",
+  "objectives": "帝国理工学院生物科学未来：沟通、创新与创业理学硕士项目这是一门创新课程，面向具有创业精神的创意生物科学学生，热衷于探索实验室之外有影响力和回报的职业的可能性。\n帝国理工学院生物科学未来：沟通、创新与创业理学硕士项目的学生将学习如何以可持续和道德的方式利用您的生物科学知识来寻找全球问题的创造性解决方案，并开展自己的研究来预测生物科学的未来可能性。学生还将深入了解最新、最先进的生物技术，为自己探索生物科学的未来奠定基础，研究生物技术如何与人工智能和大数据等领域合作，应对全球挑战。没有正式的定时考试，而是一系列形成性评估。学生可以访问我们位于白城校区的高级黑客空间以及获得Hack Fellows 和 Hackspace 专家团队的指导。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物科学创新 (Innovation in Biosciences)\n影响传播 (Communication for Impact )\n创意与创业 (Ideation and Entrepreneurship)\n发展可持续和道德的商业 (Developing a Sustainable and Ethical Business )\n创业实践 (Entrepreneurship in Practice )\n生物科学的未来与展望 (Bioscience Futures and Foresight )",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "会计学理学硕士",
+  "ename": "MSc Accounting",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 1年\n项目学费: 380000港币/年",
+  "requirements": "欢迎来自商业和非商业学位的申请者申请，入学条件如下：\n申请者需持有认可大学或认可机构颁发的商科良好学士学位；或\n非商科毕业的申请者应符合以下条件中的至少一项：\n- 本科期间修读会计、经济学、统计学课程，且成绩优秀；或\n- 通过认可的注册会计师（CPA）的财务报告或财务会计课程/考试；或\n- 毕业后在会计相关领域具备至少2年全职工作经验。\n没有最低工作经验要求，但任何相关的工作或商业经验都将有助于申请\n强烈建议提交GMAT/GRE",
+  "objectives": "香港科技大学会计硕士项目旨在为学生提供会计专业领域的研究生阶段的学习，为学生日后进入会计行业提供一个桥梁。\n香港科技大学会计硕士学位课程注重理论和实践的结合，旨在培养专业会计师。通过香港科技大学会计硕士课程的学习，学生将能够成为会计、金融、财政、税收、审计、商业咨询、公司战略规划等几大重要商业领域的专业人才。香港科技大学会计硕士学位课程同样重视为学生提供与四大会计师事务所等专业机构的接触与合作的机会。\n通过香港科技大学会计硕士课程的学习，学生将掌握会计领域的专业知识，从而能够进入香港会计师公会，或者金融、资讯科技、国际商业投资等领域从事相关工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司财务报表1 (Corporate Financial Reporting I)\n公司财务报表2 (Corporate Financial Reporting II)\n管理会计基础 (Managerial Accounting Foundations)\n税务 (Taxation)\n审计 (Auditing)\n商法 (Business Law)\n公司法 (Company Law)\n公司财务 (Corporate Finance)\n财务报表分析 (Financial Statement Analysis)\n国际财资管理 (International Treasury Management)\n国际税收 (International Taxation)\n企业管治 (Corporate Governance)\n公司风险管理 (Corporate Risk Management)\n合并、收购、重组 (Merger, Acquisition & Restructuring)\n审计信息系统 (Information Systems Auditing)",
+  "success_cases": ""
+}

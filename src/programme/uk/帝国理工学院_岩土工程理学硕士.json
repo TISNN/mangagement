@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "岩土工程理学硕士",
+  "ename": "MSc Geotechnical Engineering",
+  "tags": "工科,土木工程,土木与环境工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有2:1学位，要求土木工程、自然科学、地球科学或其他数学学科背景，需要适当的数学基础，例如A-level B级或更高\n不符合所列学术要求但具备丰富相关行业经验的申请者在完成“特殊资格考试”（SQE）后可能会被例外录取",
+  "objectives": "帝国理工学院岩土工程理学硕士项目重点土壤行为的高级方面、相关理论框架及其在岩土工程问题中的应用。本课程将通过将核心工程科学和最新研究成果与实际应用相结合的平衡学位课程，为学生提供岩土工程关键领域的坚实技术基础。通过理论和实践学习的结合，学生将获得在现代专用实验室中工作的实验土壤力学的第一手经验。\n帝国理工学院岩土工程理学硕士项目还将使学生能够与行业建立牢固的联系，并通过一系列前往英国和国外地质和岩土工程感兴趣的地区的旅行来提高他们的实地考察技能。\n帝国理工学院岩土工程理学硕士项目是帝国理工学院岩土工程课程群的一部分。这些方向共享大约 80% 的课程，而其余 20% 则允许在高级土壤力学、工程地震学、环境岩土工程和工程地质学领域进行专业化。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "渗漏与固结 (Seepage and Consolidation)\n强度与变形 (Strength and Deformation)\n分析和本构模型 (Analysis and Constitutive Modelling)\n场地勘察与工程地貌 (Site Investigation and Engineering Geomorphology)\n实验室测试和数据解释 (Laboratory Testing and Data Interpretation)\n基础和挡土结构设计 (Design of Foundations and Retaining Structures)\n岩土基础设施：斜坡和路堤 (Geotechnical Infrastructure: Slopes and Embankments)\n岩土工程过程和现场监测 (Geotechnical Processes and Field Monitoring)\n高级土壤力学 (Advanced Soil Mechanics)\n应用数值分析 (Applied Numerical Analysis)\n岩石工程 (Rock Engineering)\n岩土工程实地考察 (Geotechnics Fieldwork)\n岩土工程的最新发展 (Current Developments in Geotechnical Engineering)",
+  "success_cases": ""
+}

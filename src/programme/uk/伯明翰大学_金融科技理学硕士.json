@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "金融科技理学硕士",
+  "ename": "MSc Financial Technology",
+  "tags": "商科,金工金数,商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 36000英镑/年",
+  "requirements": "具有英国大学（或海外同等机构）颁发的荣誉学位（2:1或更高水平）或研究生文凭\n鼓励具备高度量化学科领域（如工程学、计算机科学、数学、经济学、金融学或科学）的先前学习背景的申请者申请\n良好的编程技能和/或2年相关工作经验不是严格的要求但将有助于申请",
+  "objectives": "伯明翰大学金融科技理学硕士项目致力于让学生能够成为这个竞争激烈的专家计划的的一部分，使学员能够与专家，员工和同学建立更密切的关系。毕业生可以从事实时行业，将理论、密集实践和工业参与相结合。示例项目包括：建立众筹平台，应用区块链服务减少货币欺诈，开发算法交易应用程序和开发金融服务应用程序。该学院的可持续金融和创新中心将为学员提供与公司合作的开展基于客户的项目的机会，与研究专家合作，获得最新的金融工具和应用程序开发软件的实践经验。学生还有机会参加未来领导者证书，参与由跨国公司设置的激动人心的虚拟实时项目，让他们清楚地了解技术对商业世界的影响以及对他们自己的职业生涯的影响。本课程侧重于现实世界的投资挑战，重点是进行可持续的商业实践，了解如何在伯明翰为负责任的自己的未来而努力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司金融 (Corporate Finance )\n投资组合理论与投资分析 (Portfolio Theory and Investment Analysis)\nPython编程 (Programming in Python)\n金融大数据管理 (Big Data Management in Finance )\n区块链技术、金融应用与网络安全 (Block Chain Technologies, Financial Applications and Cyber Security)\n个人项目 (Individual Project)\n数据分析与可视化 (Data Analysis and Visualisation)\n私人股权与风险融资 (Private Equity and Venture Finance)\n金融市场风险管理 (Risk Management in Financial Markets)",
+  "success_cases": ""
+}

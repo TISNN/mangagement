@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "哲学与艺术文学硕士",
+  "ename": "MA Philosophy and the Arts",
+  "tags": "社科,哲学,哲学学院",
+  "introduction": "专业方向: 哲学\n入学时间: 9月\n项目时长: 1年\n项目学费: 23910英镑/年",
+  "requirements": "具有2:1本科学位或同等学历，需要相关学科背景\n需要提交1篇哲学主题的写作样本（约2500字）",
+  "objectives": "哲学与艺术是一门跨学科的学位，学生可以将哲学与这三种艺术学科中的任何一个或全部相结合。该硕士课程旨在让学生充分利用华威大学在哲学，英语，艺术史以及电影和电视研究方面的优势。该学位课程旨在利用华威大学在哲学、英语和比较文学研究、艺术史以及电影和电视研究方面的优势。华威大学在所有这些领域都有出色的研究实力，在这些领域也有相当多的学术互动，特别是哲学、文学和艺术研究中心的课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "哲学与艺术专题 (Topics in Philosophy and the Arts)\n黑格尔的美学 (Hegel's Aesthetics)\n革命美学 (Revolutionary Aesthetics)\n电影哲学 (Philosophy through Film)\n世界文学与人类世 (World Literature and the Anthropocene)\n文学中的医学思想 (The Medical Mind in Literature)\n颜色及其含义 (Colour and its Meanings)\n电影评论/电影风格 (Film Criticism/Film Style)\n筛选文化和方法 (Screen Cultures and Methods)",
+  "success_cases": ""
+}

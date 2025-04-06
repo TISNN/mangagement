@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "金融科技理学硕士",
+  "ename": "MSc Financial Technology",
+  "tags": "商科,金工金数,商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 47500英镑/年",
+  "requirements": "具有一等或2:1学位，需要高度定量学科背景，例如工程、计算机科学、数学、经济学、金融或科学\n申请者应该精通概率、微积分、矩阵代数和实分析\n使用C、SQL、Java、R或Python等语言的良好编程技能将有助于申请\n不要求GMAT，但均衡的GMAT成绩将有助于申请，GMAT百分位排名至少需要达到55%，如果参加了GMAT Exam (10th Edition)成绩需要至少达到600（当前平均分为666）\n具备GRE成绩（定量部分159分）也将有助于申请，强烈建议定量背景较弱的申请者提交GMAT或GRE\n需要有一个经过充分研究的职业规划，包含明确的短期和长期目标",
+  "objectives": "英国帝国理工学院金融科技理学硕士项目旨在为学生提供金融领域所需的专业基础知识、定量和分析技能、实践经验和实习机会，同时学生能够学习编码。在这里，学生将接触到备受推崇的金融从业人员和精英，获得沉浸式的学习体验",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计入门 (Accounting Primer)\n金融职业入门 (Finance Careers Primer)\n数据库入门 (Databases Primer)\n金融道德与专业标准 (Ethics and Professional Standards in Finance)\n金融导论 (Introduction to Finance)\n会计和公司金融 (Accounting and Corporate Finance)\n投资与投资组合管理 (Investments and Portfolio Management)\nR / Python中的金融计量经济学 (Financial Econometrics in R/Python)\n经验金融新方向 (New Directions in Empirical Finance)\n资产分配和系统交易策略 (Asset Allocation and Systematic Trading Strategies)\n金融大数据1 (Big Data in Finance I)\n金融大数据2 (Big Data in Finance II)\n应用项目或研究报告 (Applied Project or Research Report)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "环境分析与管理理学硕士",
+  "ename": "MSc Environmental Analytics and Management",
+  "tags": "工科,环境工程,工商管理学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有2:1荣誉学位，学位包含令人满意的数学和统计学学习内容。可能包含足够数量元素的科目包括会计、数学、科学、工程、计算机科学、经济学和金融学如果申请者就读的学位不是量化导向的，比如管理学和政治学，并且更注重这些学位的量化要素，那么学校也欢迎",
+  "objectives": "伦敦大学玛丽皇后学院环境分析与管理理学硕士项目旨在深入了解气候和环境变化的本质。学生可以学习高级数据分析技能，包括人工智能、计量经济学和网络分析，还可以学习处理大数据和复杂的全球数据集。\n通过无缝利用跨学科的解决方案和想法，跨空间和时间尺度连接和整合数据，培养在定量分析和行为经济学的帮助下设计有效干预形式的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "可持续金融和ESG绩效 (Sustainable Finance and ESG Performance)\n全球环境变化：经济与政策 (Global Environmental Change: Economics and Policy)\n气候变化的宏观经济学 (Macroeconomics of Climate Change)\n环境经济学的复杂网络 (Complex Networks for Environmental Economics)\n数据分析1（人工智能入门） (Data Analytics I (Introduction to Al))\n数据分析2（气候变化人工智能） (Data Analytics II (Al for Climate Change))\n环境分析硕士项目 (Master Projects in Environmental Analytics)\n气候变化的微观与行为基础 (Micro & Behavioural Foundations of Climate Change)\n企业面临的气候变化风险 (Climate Change Risk for Business)\n商业数学与统计导论 (Introduction to Mathematics and Statistics for Business)\n发展经济学 (Economics of Development)\n应用实证方法 (Applied Empirical Methods)\n商业与分析实验 (Experiments for Business and Analytics)\n供应链管理的分析前沿 (Analytical Frontiers in Supply Chain Management)\n财务风险管理（FRM） (Financial Risk Management (FRM))\n可持续发展报告（SR） (Sustainability Reporting (SR))",
+  "success_cases": ""
+}

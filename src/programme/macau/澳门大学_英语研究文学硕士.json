@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "英语研究文学硕士",
+  "ename": "MA English Studies",
+  "tags": "社科,语言,人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "持有澳门大学认可的学士学位或同等学历。申请人也可能被要求具备其他知识或专业经验。申请人必须在学士学位学习中达到相当于C级或更高的总成绩",
+  "objectives": "澳门大学艺术与人文学院英语系提供为期两年的英语研究硕士学位，旨在提高您对英语世界语言和文学知识的了解。您将扩大对英语语言学和文学的了解，并提高阅读，写作，口语和批评分析的技能。课程学习结束后，您将为进一步的学术研究或在当今世界上拥有深厚的英语知识日益成为成功的通行证的专业职业做好准备。该计划得益于全体工作人员的出席，这些工作人员都可以借鉴国际研究和教学经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "了解和解释研究 (Understanding and Interpreting Research)\n应用/学术论文 (Applied/Academic Thesis)\n语言学研究方法 (Linguistics Research Methods)\n汉英比较结构 (Comparative Chinese–English Structure)\n英语学习课程设计 (Course Design for English Language Learning)\n语言学习的最新趋势和问题 (Current Trends and Issues in Language Learning)\n描述语言学 (Descriptive Linguistics)\n母语习得 (First Language Acquisition)\n语言变化 (Language Variation)\n材料设计与评估 (Materials Design and Evaluation)\n儿童文学 (Children’s Literature)\n中国英语文学 (China in English Literature)\n电影学 (Cinema Studies)",
+  "success_cases": ""
+}

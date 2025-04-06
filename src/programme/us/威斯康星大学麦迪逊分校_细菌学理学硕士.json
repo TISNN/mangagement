@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯康星大学麦迪逊分校",
+  "major_name": "细菌学理学硕士",
+  "ename": "Master of Science in Bacteriology",
+  "tags": "理科,生物",
+  "introduction": "专业方向: 生物\n项目类别: STEM\n入学时间: 春季/夏季/秋季\n项目时长: 30学分\n项目学费: 25578美元",
+  "requirements": "GPA至少3.0，先修课要求数学，物理，4学期化学，2学期生物",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

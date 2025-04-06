@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "数据科学硕士（文化遗产）",
+  "ename": "Master of Data Science (Heritage)",
+  "tags": "理科,数据科学,自然科学系",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 34000英镑/年",
+  "requirements": "具有英国一等或2:1荣誉学位或同等学历，需要不包含强大数据科学成分的任何学位背景，包括社会科学、艺术和人文科学、商业和科学， 强烈鼓励具有考古学、历史学、古典文学、人类学或更广泛的人文遗产研究学位的候选人申请",
+  "objectives": "文化遗产提供了一种认同感，有助于维护社会多样性、凝聚力和文化间对话，是参与文化生活的基本权利的一部分，数据科学技术在这一领域发挥着越来越大的作用，帮助从业者监测和保护考古遗址等遗产资产，向公众提供信息，并批判性地评估遗产在当代辩论中的作用。\n从个性化医疗到智慧城市和可持续解决方案，数据科学正在建设一个更美好的世界。与此同时，技术的发展使数据科学领域比以往任何时候都更容易进入，为深入了解人与自然和文化环境之间的相互作用创造了新的机会。这导致对熟练数据科学家的需求显著增加，预计这一需求将进一步增长。\n杜伦大学数据科学硕士（文化遗产）是一门转换课程，使学生具备生成、访问、清理、分析和可视化数据的技能，即使学生的第一学位是非定量学科，也可以打开数据科学的未来，该课程可能会吸引考古学家、人类学家、策展人和历史学家，他们希望学习如何使用现代研究、工业和政府环境中产生的数据来管理遗产资源和时空信息流。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学研究项目 (Data Science Research Project)\n数据科学中的批判性视角 (Critical Perspectives in Data Science)\n空间与时间中的数据分析 (Data Analysis in Space and Time)\n数据科学在遗产和考古中的应用 (Data Science Applications in Heritage and Archaeology)\n数据科学编程 (Programming for Data Science)\n数据科学统计学概论 (Introduction to Statistics for Data Science)\n计算机科学概论 (Introduction to Computer Science)\n数据科学数学概论 (Introduction to Mathematics for Data Science)\n机器学习 (Machine Learning)\n文本挖掘和语言分析 (Text Mining and Language Analytics)\n数据探索、可视化与无监督学习 (Data Exploration, Visualisation, and Unsupervised Learning)\n战略领导 (Strategic Leadership)\n数据科学中的伦理与偏见 (Ethics and Bias in Data Science)",
+  "success_cases": ""
+}

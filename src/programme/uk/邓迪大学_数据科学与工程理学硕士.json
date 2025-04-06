@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "数据科学与工程理学硕士",
+  "ename": "MSc Data Science & Engineering",
+  "tags": "理科,数据科学,理工学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 27900英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要计算机或相关学科背景，其中包含数学等背景知识",
+  "objectives": "在邓迪大学数据科学与工程理学硕士课程中，学生将在学习存储、管理和分析大量数据的同时，发展对数据工程和数据科学的技能、知识和理解。将获得在数据工程和数据科学领域取得成功所需的知识。通过与一系列领先的研究人员和导师（包括视觉和成像研究人员、商业智能专家以及工业和研究数据科学家）一起工作并向他们学习，学生将了解自己在职业生涯中可能面临的现实情况。还可以访问 NoSQL 数据库，包括 Cassandra、Neo4j 和 Mongodb，以及并行数据分析软件，例如 Hadoop 和 Spark，确保学生拥有使用行业级数据库和软件的经验。在邓迪大学数据科学与工程理学硕士项目学术人员的指导下，学生还将承担一个研究项目。最近的项目示例着眼于使用 NoSQL 数据库进行欺诈环检测和可视化，以及Airbnb对旅游业的影响。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据挖掘和机器学习简介 (Introduction to Data Mining and Machine Learning)\n数据工程编程语言 (Programming languages for Data Engineering)\n大数据分析 (Big Data Analysis)\n硕士项目 (MSc Project)\n研究方法 (Research Methods)\n商业智能系统 (Business Intelligence Systems)\n技术创新管理 (Technology Innovation Management)\n计算机视觉 (Computer Vision)\nDevOps和微服务 (Devops and MicroServices)",
+  "success_cases": ""
+}

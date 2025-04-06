@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "机械工程理学硕士",
+  "ename": "MSc Mechanical Engineering",
+  "tags": "工科,机械工程,机械、电气和制造工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要相关科学、技术、工程或数学学科背景\n学历略低于此水平、具有其他资格和/或专业经验的申请者也将被考虑",
+  "objectives": "本课程旨在应对瞬息万变的全球市场的挑战；精心设计的产品，流程和系统的可用性是成功的商业企业的基础。该课程将向您介绍最新的和现代的学科领域，应用和实践，从而扩大您的机械工程知识。您将拥有行业或学术研究所需的技术和可转让技能。我们拥有高科技实验室，致力于：动态与控制、电子产品、流体力学、材料、机电一体化、计量学、光学工程和大功率激光器、结构完整性等研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "结构分析 (Structural Analysis)\n计算机辅助工程 (Computer Aided Engineering)\n工程可持续发展 (Engineering for Sustainable Development)\n工程设计方法 (Engineering Design Methods)\n在工程创新过程和创业精神 (Innovation Process and Entrepreneurship in Engineering)\n实验力学 (Experimental Mechanics)\n先进的材料和过程的模拟 (Simulation of Advanced Materials and Processes)\n热流体 (Thermofluids)\n项目 (Project)",
+  "success_cases": ""
+}

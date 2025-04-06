@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "消防安全工程国际理学硕士",
+  "ename": "International MSc Fire Safety Engineering",
+  "tags": "工科,其他工科,工程学院",
+  "introduction": "专业方向: 其他工科\n入学时间: 9月\n项目时长: 2年\n项目学费: 10000欧元/年",
+  "requirements": "具有认可机构颁发的学士（或硕士）学位或同等学历（至少3年的全日制学习或180 ECTS学分），需要土木、结构、机械、电气、化学或工业工程；材料科学；化学；物理学；应用物理学；建筑学；城市主义和空间规划，或相关学科背景\n具有其他学位但在消防安全工程领域具备丰富专业经验或知识的申请者也可能符合资格（需要在申请前联系学校确认）",
+  "objectives": "爱丁堡大学消防安全工程国际理学硕士课程为学生提供了世界领先的教育经验和先进的知识、技能和能力，培养了新一代的消防安全工程专家，有能力在建筑环境和其他领域应对全球消防安全挑战。爱丁堡大学的消防小组配备了定制设备，以支持突破性的研究和教学，结合了热和机械载荷，并使用了最新的图像分析技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "火灾力学 (Fire Dynamics )\n热力学，传热和传质 (Thermodynamics, Heat and Mass Transfer)\n爆炸和工业防火安全 (Explosions and Industrial Fire Safety)\n科研讨论会 (Research Seminar)\n材料在环境和高温下的性能 (Material Behaviour at Ambient and Elevated Tempratures)\n火灾科学与消防动态 (Fire Science and Fire Dynamics)\n消防安全，工程和社会 (Fire Safety, Engineering and Society)\n消防安全工程 (Fire Safety Engineering)\n结构力学 (Structural Mechanics)\n风险估计 (Risk Assessment)\n先进的火灾动力学 (Advanced Fire Dynamics)\n人类在火灾中的行为 (Human Behaviour in Fire)\n封闭空间火灾模拟 (Simulation of Fires in Enclosures )",
+  "success_cases": ""
+}

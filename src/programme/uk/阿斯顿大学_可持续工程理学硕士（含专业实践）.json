@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "可持续工程理学硕士（含专业实践）",
+  "ename": "MSc Sustainable Engineering (including Professional Practice)",
+  "tags": "工科,环境工程,基础设施与可持续发展工程学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 2年\n项目学费: 12000英镑/年",
+  "requirements": "具有2:2学位（工学/理学学士）或同等学历，需要工程、相关科学和/或技术背景",
+  "objectives": "阿斯顿大学可持续工程理学硕士（含专业实践）课程旨在培养具有全球意识和社会意识的工程师，他们是未来变革的推动者，能够创新和提出更全面的解决方案，保护我们的自然资源。通过学习基础知识、技术知识和实际应用，学生将具备必要的定性和定量分析工具和技能，并进一步发展基本的专业技能，使他们能够应对不断发展的、复杂的当地和全球可持续发展问题及挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程实践中的可持续性 (Sustainability in Engineering Practice)\n可再生能源和低碳技术 (Renewable Energy & Low Carbon Technologies)\n实现零净值的途径 (Pathways to Net Zero)\n环境法规及影响评估 (Environmental Regulations & Impact Assessment)\n生命周期思考与评估 (Life Cycle Thinking and Assessment)\n项目管理 (Project Management)\n研究方法 (Research Methods)\n硕士论文 (Dissertation)\n专业实践 (Professional Practice)\n供应链管理 (Supply Chain Management)\n工程企业管理 (Management in Engineering Enterprises)\n新兴经济体的创业与创新 (Entrepreneurship & Innovation in Emerging Economies)\n环境工程 (Environmental Engineering)",
+  "success_cases": ""
+}

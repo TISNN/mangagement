@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "地球未来（环境、社区、关系）理学硕士",
+  "ename": "MSc Earth Futures: Environments, Communities, Relationships",
+  "tags": "工科,地球科学,地理和地球科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要地理、地球科学、环境科学、社会科学、物理科学与工程或建筑与规划等学科背景学校有时可以接受同等的专业经验来代替资格证书",
+  "objectives": "格拉斯哥大学地球未来（环境、社区、关系）理学硕士项目是一个跨学科的项目，将社会科学和物理科学的知识联系起来，旨在为学生提供专业知识、经验和技能，以应对人类世可持续发展所带来的环境和社会挑战。通过必修的就业模块，学生将获得在社会和环境治理、活动家和社区部门工作的实践经验。这将得到研究主导教学的支持，涵盖可持续社区和环境发展中的关键全球挑战和伦理责任。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应对全球挑战的跨学科方法 (Interdisciplinary Approaches to Global Challenges)\n研究设计、伦理与影响 (Research Design, Ethics & Impact)\n定性方法 (Qualitative Methods)\n地理信息系统原理 (Principles of GIS)\n环境统计学 (Environmental Statistics)\n地球未来工作实习 (Earth Futures Work Placement)\n硕士论文 (Msc Dissertation)",
+  "success_cases": ""
+}

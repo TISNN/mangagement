@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "可持续能源理学硕士",
+  "ename": "MSc Sustainable Energy",
+  "tags": "工科,能源,环境与可持续发展中心",
+  "introduction": "专业方向: 能源\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 21050英镑/年",
+  "requirements": "具有2:2相关英国荣誉学位或受认可的同等学历，需要以下学科领域背景：\n- 工程（机械、电气、环境、材料、土木、工艺、制造、化学或同等专业）\n- 科学（物理学、化学、数学、环境或同等专业）\n- 工程/科学双学位，包括商业和管理方面背景（工程管理、工程商业管理或同等双学位）\n具备相关工作经验但不符合学术入学要求的申请者可能会被考虑，例如：\n- 能源工程专业人员（设计、管理和咨询）\n- 可再生能源系统专家\n- 研究工程师\n- 可持续供应链顾问等",
+  "objectives": "萨里大学可持续能源理学硕士采用跨学科方法，让学生全面了解能源可持续性和可再生能源，同时为学生提供丰富的培训和基础知识，帮助学生了解能源可持续性和可再生能源系统的应用，以及针对可持续能源管理的社会、经济、监管和环境因素。本课程还为学生提供在风能、太阳能、可持续能源存储以及智能能源与人工智能应用集成等领域的专业化机会，将帮助学生成为这一重要且快速发展的行业领域的专家。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "可持续能源经济学与政策 (Economics and Policy of Sustainable Energy)\n可再生能源系统概论 (Introduction to Renewable Energy Systems)\n可持续能源储存与分配 (Sustainable Energy Storage and Distribution)\n研究论文 (Research Dissertation)\n小组项目 (Group Project)\n可再生能源技术 (Renewable Energy Technologies)\n太阳能技术 (Solar Energy Technology)\n能源土工技术 (Energy Geotechnics)\n可持续发展的基础和应用 (Foundations and Applications of Sustainable Development)\n风能技术 (Wind Energy Technology)\n可持续发展与基础设施 (Sustainability and Infrastructure)\n环境空气动力学和风力发电 (Environmental Aerodynamics and Wind Power)\n环境工程中基于自然的解决方案 (Nature Based Solutions in Environmental Engineering)\n核能及其应用 (Nuclear Energy and Applications)\n智能能源系统设计与分析 (Smart Energy Systems Design and Analysis)",
+  "success_cases": ""
+}

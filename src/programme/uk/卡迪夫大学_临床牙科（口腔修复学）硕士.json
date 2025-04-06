@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "临床牙科（口腔修复学）硕士",
+  "ename": "Master of Clinical Dentistry (Prosthodontics)",
+  "tags": "社科,医学,牙科学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 3年\n项目学费: 52700英镑/年",
+  "requirements": "持有初级牙科资格证书，具有2年资格后工作经验",
+  "objectives": "卡迪夫大学临床牙科（口腔修复学）硕士项目旨在提高学生的终身学习技能，帮助发展循证实践，发展高级临床技能，使学生成为固定和活动修复学的单一专家，并通过获取研究知识、技能和生产一个研究项目，促进进一步的职业发展。\n卡迪夫大学临床牙科（口腔修复学）硕士项目使用的方法包括自主学习和小组演示，以鼓励基于问题的学习方法、临床教学和指导、对临床组合的监控和支持、案例回顾和讨论、指导批判性阅读和期刊俱乐部以及个人研究指导。在这个为期三年的课程中，使用总结性和形成性评估来评估临床、实践和学术技能。总结性或更正式的考试将在每个学年结束时进行。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究方法 (Research Methods)\n以口腔修复为重点的牙科修复学基础 (Foundation to Restorative Dentistry with Emphasis on Prosthodontics)\n以牙周病学为重点的牙科修复学基础 (Foundation to Restorative Dentistry with Emphasis on Periodontics)\n以牙髓学为重点的牙科修复学基础 (Foundation to Restorative Dentistry with Emphasis on Endodontics)\n活动义齿 (Removable Prosthodontics)\n高级操作员 (Advanced Operative)\n修复临床实践 (Prosthodontic Clinical Practice)",
+  "success_cases": ""
+}

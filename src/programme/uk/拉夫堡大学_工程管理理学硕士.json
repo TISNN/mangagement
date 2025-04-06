@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "工程管理理学硕士",
+  "ename": "MSc Engineering Management",
+  "tags": "工科,工程管理,机械、电气和制造工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有荣誉学士学位，通常达到2:2或以上水平，理想情况下，申请者应该具有工程或物理科学本科学位\n学校也欢迎成熟学生的申请，并认可所有其他同等和国际学历，学校可能会考虑学历不符合常规入学标准但具备大量相关工作经验的申请者",
+  "objectives": "拉夫堡大学工程管理理学硕士课程旨在为毕业生在数据驱动环境中的工程项目管理角色做好准备，该专业的工业性质适合希望用商业专业知识补充其技术知识的学生，在课程期间，学生将发展研究和分析技能，以辅助理解复杂的商业问题，此外，学生将深入了解解决问题的方法和明智的决策技能，该项目中的选修课程允许学生在可持续发展和数字化的途径中定制更深入的技术理解，硕士课程的一个关键重点是发展对数字需求的理解，以通过在国内和国际市场上应用的新商业模式来提高生产力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用系统思维 (Applied Systems Thinking)\n工程中的创新与创业 (Innovation and Entrepreneurship in Engineering)\n理学硕士个人项目 (MSc Individual Project)\n研究与就业能力核心专业技能 (Core Professional Skills for Research and Employability)\n工程师项目管理 (Project Management for Engineers)\n工程项目融资 (Engineering Project Finance)\n人员、组织与领导 (People, Organisation and Leadership)\n可持续发展工程 (Engineering for Sustainable Development)\n制造过程与自动化 (Manufacturing Processes and Automation)\n机器学习 - 工程师原理与应用 (Machine Learning - Principles and Applications for Engineers)\n精益与敏捷制造 (Lean and Agile Manufacture)",
+  "success_cases": ""
+}

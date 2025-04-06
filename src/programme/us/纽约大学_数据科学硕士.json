@@ -1,0 +1,12 @@
+{
+  "school_name": "纽约大学",
+  "major_name": "数据科学硕士",
+  "ename": "MS in Data Science",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n入学时间: 秋季\n项目时长: 36学分\n项目学费: 1928美元/学分\n项目规模: 100人\n平均成绩: 3.75\n平均G: 323",
+  "requirements": "建议在数学、计算机科学和应用统计学方面有较强背景,接触过机器学习、计算统计、数据挖掘、大规模科学计算、运筹学；建议修过微积分、线性代数、计算机科学、概率论、统计学或高等物理、工程或计量经济学课程。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

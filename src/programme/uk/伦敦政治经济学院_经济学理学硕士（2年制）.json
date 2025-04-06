@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦政治经济学院",
+  "major_name": "经济学理学硕士（2年制）",
+  "ename": "MSc Economics (two year programme)",
+  "tags": "商科,经济,经济学系",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 2年\n项目学费: 37500英镑/年",
+  "requirements": "具有一等荣誉学位或同等学历，具备两个学期的大学水平数学课程学习背景\n所有申请者必须提交GRE成绩，一般来说希望定量部分不低于161，较高的分数将有助于申请，但其他信息如考试成绩和推荐信在整体评估中也很重要",
+  "objectives": "伦敦政治经济学院的经济学理学硕士（2年制）项目，适合具有良好量化背景、但缺乏一年制项目所需的经济理论和量化知识的学生。申请者应具有较强的学历背景，尤其是数学和统计学等量化科目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济原理I (Microeconomic Principles I)\n微观经济原理II (Microeconomic Principles II)\n宏观经济原理 (Macroeconomic Principles)\n数学方法 (Mathematical Methods)\n高阶数学方法 (Further Mathematical Methods)\n计量经济学导论 (Introduction to Econometrics)\n计量经济学原理 (Principles of Econometrics)\n计量经济学 (Econometrics)\n国际经济学 (International Economics)\n劳动经济学 (Labour Economics)\n货币经济学 (Monetary Economics)\n公共经济学 (Public Economics)\n工业经济学 (Economics of Industry)\n发展与增长 (Development and Growth)",
+  "success_cases": ""
+}

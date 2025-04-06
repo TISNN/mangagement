@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "心理学理学硕士（可跨申）",
+  "ename": "MSc Psychology (Conversion)",
+  "tags": "社科,心理学,社会科学与国际研究学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 28600英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景",
+  "objectives": "埃克塞特大学心理学理学硕士项目适用于之前没有获得心理学学位但寻求获得英国心理学会（BPS）认可的学生，旨在帮助学生了解BPS要求的心理学核心领域，提供培训使学生能够在各种领域作为心理学家工作，有机会专攻临床或教育心理学",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究项目 (Research Project)\n统计学导论 (Introduction to Statistics)\n心理学研究方法与概念问题 (Research Methods and Conceptual Issues in Psychology)\n社会心理学 (Social Psychology)\n认知与发展心理学 (Cognitive and Developmental Psychology)\n生物心理学 (Biological Psychology)\n个性与个体差异 (Personality and Individual Differences)\n儿童与青少年心理健康 (Children and Young People's Mental Health)\n临床心理学 (Clinical Psychology)",
+  "success_cases": ""
+}

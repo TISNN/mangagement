@@ -1,0 +1,12 @@
+{
+  "school_name": "波士顿大学",
+  "major_name": "语言学硕士",
+  "ename": "MA in Linguistics",
+  "tags": "社科,语言",
+  "introduction": "专业方向: 语言\n入学时间: 秋季/春季\n项目时长: 1年\n项目学费: 63,798美元",
+  "requirements": "申请者最好修过语音学/音位学，句法，语义/语用",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

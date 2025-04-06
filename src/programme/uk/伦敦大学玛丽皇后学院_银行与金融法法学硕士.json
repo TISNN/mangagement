@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "银行与金融法法学硕士",
+  "ename": "LLM Banking and Finance Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有本科2:1学位或以上学历，需要法律或具有实质性法律内容的学位\n具有2:2荣誉学位以及其他法律资格和/或大量的专业法律经验的法律毕业生也可能符合资格\n在英国专业机构认可的普通专业考试（CPE）或法律研究生文凭（GDL）中获得优秀（或60%）获得二等荣誉学位的非法律专业毕业生也可能符合资格。非法律专业毕业生若具备在法律领域或与其申请专业直接相关的领域具有特殊的工作经验（至少5年）也可能被考虑",
+  "objectives": "伦敦大学玛丽皇后学院银行与金融法律法学硕士深入学习国际金融与金融服务法基本原则，从实践、监管与政策的角度研究当地与国际发展问题。项目课程涉及监管和交易等多个领域，包括货币法、银行法、金融监管、中央银行、证券法、担保交易、企业融资和并购、破产、跨境破产、电子银行、发展中经济体融资、欧盟金融法和商业道德等。学生可以根据个人兴趣选择学习课程，定制个性化学习方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融市场监管 (Regulation of Financial Markets)\n国际金融法 (International Finance Law)\n国际银行法 (Banking Law International)\n公司金融法 (Corporate Finance Law)\n证券监管 (Securities Regulation)\n适用国际金融法 (International Finance Law Applied)\n银行和金融科技法 (Banking and FinTech Law)\n银行破产与处置 (Bank Insolvency and Resolution)",
+  "success_cases": ""
+}

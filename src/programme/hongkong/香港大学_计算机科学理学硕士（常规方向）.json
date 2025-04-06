@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "计算机科学理学硕士（常规方向）",
+  "ename": "MSc Computer Science (General Stream)",
+  "tags": "工科,计算机,计算与数据科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 320000港币/年",
+  "requirements": "具有学士学位或同等学历",
+  "objectives": "香港大学计算机科学（通识方向）硕士学位课程涵盖了广泛而全面的计算机科学课程，学生可以从一系列广泛的课程中进行选择。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机与网络安全 (Computer and Network Security)\n电子商务安全案例与技术手段 (e-Commerce Security Cases and Technologies)\n数字化财产的法律保护 (Legal Protection of Digital Property)\n无线网络安全 (Wireless Network Security)\n数字化调查与取证 (Digital Investigations and Forensics)\n信息安全：攻击与防卫 (Information Security: Attacks and Defense)\n定量金融软件开发 (Software Development for Quantitative Finance)\n图像处理与计算机视觉 (Image Processing and Computer Vision)\n多媒体技术 (Multimedia Technologies)\n模式识别与应用 (Pattern Recognition and Applications)\n用户界面设计与开发 (User Interface Design and Development)\n可视化与可视化分析论 (Visualisation and Visual Analytics)\n高级多媒体数据分析与应用 (Advanced Multimedia Data Analysis and Applications)\n计算金融概论 (Introduction to Financial Computing)\n计算金融学技术 (Techniques in Computational Finance)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "酒店管理硕士",
+  "ename": "Master of Hotel Management",
+  "tags": "商科,旅游酒店管理,酒店与旅游管理学院",
+  "introduction": "专业方向: 旅游酒店管理\n入学时间: 1/9月\n项目时长: 2年\n项目学费: 120000港币/年",
+  "requirements": "修读酒店管理、商学、管理学或相关专业，或具旅游管理、酒店管理及相关行业至少1年以上工作经验",
+  "objectives": "旅游业是一种文化活动，在商业活动上却被视为一个重要元素。此课程提供旅游业上的基础知识：市场学，人力资源管理，财务管理，景点规划，政策，环境和展望等。透过学习使学生了解不同的真实范例，培养学生对旅游业有一个较全面的了解。旨在启发学生对商业环境的全面理解，特别是对科技发展、幻变的社会环境和价值、全球化对经济增长及各国国家经济的相互依赖性及不确定性的分析。运用旅游营销战略管理的概念，来全面分析迅速变化的旅游环境。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球酒店业发展趋势 (Global Trends and Issues in Hotel Industry)\n酒店业投资运营管理 (Investment and Operation Management in Hotel Industry)\n酒店业法律与合规管理 (Law and Compliance Management in Hotel Industry)\n酒店业资料分析与处理 (Data Process and Research Method in Hotel Industry)\n实习 (Internship)",
+  "success_cases": ""
+}

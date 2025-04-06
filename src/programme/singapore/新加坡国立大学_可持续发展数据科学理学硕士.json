@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "可持续发展数据科学理学硕士",
+  "ename": "MSc Data Science for Sustainability",
+  "tags": "理科,数据科学,理学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 8月\n项目时长: 1年\n项目学费: 52320新币/年",
+  "requirements": "具有4年制学士学位，需要定量学科背景，如数学、工程学、统计学、计算机科学、物理学或经济学等；或\n具有相关非定量学科的4年制学士学位，如环境科学、生命科学等，同时辅修或第二专业为定量学科，表现出具备较强的分析能力；或\n具有相关3年制学士学位或非定量学科4年制学士学位的优秀申请者可能会根据其工作经验逐案考虑，需要经研究生院批准。\n需要提交存款证明52,000新币",
+  "objectives": "新加坡国立大学可持续发展数据科学理学硕士项目是统计和数据科学系、基于自然的气候解决方案中心与生物科学系合作的一项合作项目。该计划旨在培训数据科学家，使他们能够将自己的知识和技能与对可持续发展问题的理解结合起来。\n对拥有强大数据科学和可持续发展领域技能的专业人员的需求正在迅速增长。不断增长的需求带来了令人兴奋和多样化的职业机会。新加坡国立大学可持续发展数据科学理学硕士项目旨在使毕业生具备必要的技术和分析能力，以有效满足需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "可持续发展原则 (Principles of Sustainability)\n高级回归和时间序列分析 (Advanced Regression and Time Series Analysis)\n地理空间数据分析 (Geospatial Data Analysis)\n机器学习和预测建模 (Machine Learning and Predictive Modelling)\n实践中的数据科学项目 (Data Science Projects in Practice)\n数据可视化 (Data Visualisation)\n可持续系统分析 (Sustainable System Analysis)\n研究/工业项目 I (Research/Industry Project I)\n研究/工业项目II (Research/Industry Project II)\n金融高级统计方法 (Advanced Statistical Methods in Finance)\n网络统计分析 (Statistical Analysis of Networks)\n环境科学 (Environmental Science)\n粮食安全和可持续发展 (Food Security and Sustainability)\n传染病的控制 (Control of Communicable Diseases)\n城市疫情管理 (Urban Outbreak Management)\n银行业数据分析 (Data Analysis in Banking)\n定量风险管理 (Quantitative Risk Management)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "语言学文学硕士",
+  "ename": "MA Linguistics",
+  "tags": "社科,语言,英国文学、语言与语言学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 25100英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要以下背景：语言学，一门语言（单独学习或与其他学科一起学习），一门主要涉及人类认知或行为科学研究的学科（如认知科学、心理学、人类学、社会学）\n学校也会根据个人情况考虑具有较低或非标准资格以及至少2年相关工作经验的申请者",
+  "objectives": "纽卡斯尔大学语言学文学硕士项目开设英语语言和语言习得两个研究方向供学生选择，从而掌握语言和语法相关知识。项目极具灵活性，充分发掘学生兴趣与潜力，学生能够获得从事语言学独立研究所需要的研究技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语言与语言学研究方法 (Research Methods in Language and Linguistics)\n语言学硕士论文 (MA Linguistics Dissertation)\n语法分析 (Syntactic Analysis )\n语音学与音系学 (Phonetics and Phonology)\n生成句法学 (Generative Syntax)\n跨语言语法导论 (Introduction to Cross-Linguistic Syntax)\n语音理论议题1 (Issues in Phonological Theory 1)\n语言与社会的社会语言学 (The Sociolinguistics of Language and Society)\n英语的社会历史 (The Social History of English)\n民族语言学变化 (Ethno-Linguistic Variation)\n语言发展的神经认知 (Neurocognition of Language Development)\n第二语言习得导论 (Introduction to Second Language Acquisition)",
+  "success_cases": ""
+}

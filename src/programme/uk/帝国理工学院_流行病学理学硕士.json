@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "流行病学理学硕士",
+  "ename": "MSc Epidemiology",
+  "tags": "社科,公共卫生,医学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 45000英镑/年",
+  "requirements": "具有2:1学位，需要数学、统计学、医学（人类和兽医）或生物科学背景",
+  "objectives": "帝国理工学院流行病学理学硕士项目为学生提供慢性及传染性流行病研究方法论、设计、实施与演绎训练。流行病学是研究特定人群中疾病的病因及传播方式、研究预防控制疾病的科学，帝国理工学院流行病学理学硕士项目适合想要深入学习流行病学与生物统计学知识、从事相关研究的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "传染病模型简介 (Introduction to Infectious Disease Modelling)\n流行病学原理与方法 (Principles and Methods of Epidemiology)\n疾病精讲课堂 (Disease Masterclass)\n统计思维与数据分析导论 (Introduction to Statistical Thinking and Data Analysis)\n贝叶斯统计 (Bayesian Statistics)\n空间分析 (Spatial Analysis)\n分子和遗传流行病学 (Molecular and Genetic Epidemiology)\n传染病病原遗传学 (Genetics of Infectious Disease Pathogens)\n传染病毒模型探索 (Further Methods in Infectious Disease Modelling)\n疾病爆发 (Outbreaks)\n高级回归 (Advanced Regression)\n新兴和被忽视的热带病 (Emerging and Neglected Tropical Diseases)\n研究项目 (Research project)",
+  "success_cases": ""
+}

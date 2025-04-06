@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "化学理学硕士",
+  "ename": "MSc Chemistry",
+  "tags": "理科,化学,化学学院",
+  "introduction": "专业方向: 化学\n入学时间: 9月\n项目时长: 1年\n项目学费: 35000英镑/年",
+  "requirements": "具有英国学士学位或同等学历（达到2:1学位），需要化学背景，申请者应具备有机、无机、物理和分析/实验室化学的背景\n在评估申请者的学习成绩时，学校会考虑学生已取得的成绩、学术推荐信以及所就读院校的地位\n如果申请者已经毕业超过2年，需要在申请前联系学校确认是否有资格参加本课程，需要提供毕业后相关工作经历的详细信息",
+  "objectives": "曼彻斯特大学化学理学硕士项目为时一年，旨在为博士学习做准备，或为希望拓宽研究经验和化学知识的学生而设。课程共计180个学分，其中课程学分与研究项目学分各占一半。曼彻斯特大学化学理学硕士项目的培养目标如下：为学生提供掌握所有化学领域所需的基本核心和高级化学技能，使他们能够在自己选择的领域进行独立研究。通过个人的、扩展的硕士研究项目，使学生对化学研究有深入的体验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级化学专题I (Advanced Chemistry Topics I)\n研究和沟通技巧 (Research and Communication Skills)\n论文 (Dissertation)\n分析化学和实验室技术 (Analytical Chemistry and Laboratory Techniques)",
+  "success_cases": ""
+}

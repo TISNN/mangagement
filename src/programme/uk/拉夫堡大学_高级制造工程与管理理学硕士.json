@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "高级制造工程与管理理学硕士",
+  "ename": "MSc Advanced Manufacturing Engineering and Management",
+  "tags": "工科,机械工程,机械、电气和制造工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有荣誉学士学位，通常达到2:2或以上水平，理想情况下，申请者应该具有工程或物理科学本科学位学校也欢迎成熟学生的申请，并认可所有其他同等和国际学历，学校可能会考虑不符合常规入学标准但具备大量相关工作经验的申请者",
+  "objectives": "本课程旨在为学生准备成为一名优秀的技术专家或经理，以应对迅速变化的全球制造市场和行业所带来的工程、商业和社会挑战。该项目已获得机械工程师学会和工程技术学会的认可。我们的课程与相关行业紧密联系，并利用在快速制造、激光加工和自动化等领域的研究经验来支持课程模块。在机械工程的许多核心领域，我们从事大量高质量的研究。作为机械、电气和制造工程学院的学生，学生可以使用一系列先进设备。我们的计算机实验室每周7天，每天24小时开放，并提供一些最新的行业标准软件供学生使用，包括STAR-CCM和CAD。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程可持续发展 (Engineering for Sustainable Development)\n工程的创新过程和创业精神 (The Innovation Process and Entrepreneurship in Engineering)\n制造工艺和自动化 (Manufacturing Processes and Automation)\n加法制造 (Additive Manufacturing)\n生物制造 (Biological Manufacturing)\n制造系统建模和过程 (Modelling Manufacturing Systems and Processes)\n精益和敏捷制造 (Lean and Agile Manufacture)\n工程管理和业务研究 (Engineering Management and Business Studies)",
+  "success_cases": ""
+}

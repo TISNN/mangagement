@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "机械工程理学硕士",
+  "ename": "MSc Mechanical Engineering",
+  "tags": "工科,机械工程,工程科学学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要适当的工程学科背景，学校会考虑具有其他学科资格的申请者，申请者必须学习过流体动力学，同时需要具备热力学和控制知识，尚未完成学位的申请者需要提供他们目前正在学习的课程以及已经完成的课程的清单，需要ATAS认证",
+  "objectives": "伦敦大学学院机械工程理学硕士项目涵盖了诸多领域的分析设计研究，如动力机械系统、工程结构、振动、控制和计算机在先进工程分析中的应用。旨在提供行业需求的机械工程特定领域的高级研究，学生将掌握机械工程和相关学科的先进知识，从安全、环境、社会和经济层面充分认识工程的运营环境，同时，学生也将掌握就业所需的知识、实用和适应性技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程中的计算机应用 (Advanced Computer Applications in Engineering)\n团队设计项目 (Group Design Project)\n材料和材料疲劳 (Materials and Fatigue)\n振动、声学和控制 (Vibrations、Acoustics and Control)\n项目管理 (Project Management)\n动力传递与辅机系统 (Power Transmission and Auxiliary Machinery Systems)\n应用热力学和涡轮机械 (Applied Thermodynamics and Turbomachinery)\n传热和热系统 (Heat Transfer and Heat Systems)\n新能源和可再生能源系统 (New and Renewable Energy Systems)\n论文/报告 (Dissertation/report)",
+  "success_cases": ""
+}

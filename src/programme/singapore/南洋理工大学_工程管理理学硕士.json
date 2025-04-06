@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "工程管理理学硕士",
+  "ename": "MSc Engineering Management",
+  "tags": "工科,工程管理,专业与继续教育学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 8月\n项目时长: 1年\n项目学费: 54500新币/年",
+  "requirements": "具有认可机构颁发的学士学位或同等学历，需要工程、科学或相关领域背景申请者应对工程管理表现出强烈的动机，具有远大的职业目标、适应力、抗逆力，并且坚持不断学习",
+  "objectives": "南洋理工大学工程管理理学硕士项目是一个跨学科的研究生项目，汇集了来自南洋理工大学工程学院、南洋商学院和行业专业人士的专家，帮助工程师具备在当今全球经济中取得成功的领导能力、商业能力和创新能力，通过将技术专长与基本的管理能力相结合，课程侧重于项目管理、人工智能、数据分析和有效沟通，毕业生将为解决复杂的工程挑战、领导团队并推动创新做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "协同工程项目 (Collaborative Engineering Project)\n技术型组织的战略管理 (Strategic Management in Technology-based Organisations)\n工程项目经济分析 (Economic Analysis of Engineering Projects)\n工程管理基础 (Fundamentals of Engineering Management)\n工程师领导与管理” (Leadership and Management for Engineers)\n工程师法 (Law for Engineers)\n设计与系统思维 (Design and System Thinking)\n从实验室到市场：技术商业化 (Lab to Market: Technology Commercialisation)\n商业智能的数据科学与分析 (Data Science and Analytics for Business Intelligence)\n供应链管理与分析 (Supply Chain Management and Analytics)\n运营管理与分析 (Operations Management and Analytics)\n营销分析 (Marketing Analytics)\n项目管理基础 (Fundamentals of Project Management)\n项目预算与成本管理 (Project Budget and Cost Management)\n企业资源规划与运营管理 (Corporate Resource Planning and Operation Management)\n供应链与物流管理 (Supply Chain and Logistics Management)",
+  "success_cases": ""
+}

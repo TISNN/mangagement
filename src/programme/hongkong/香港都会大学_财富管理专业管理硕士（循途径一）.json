@@ -1,0 +1,12 @@
+{
+  "school_name": "香港都会大学",
+  "major_name": "财富管理专业管理硕士（循途径一）",
+  "ename": "Master of Professional Management in Wealth Management (through Pathway 1)",
+  "tags": "商科,金融,李兆基商业管理学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 211405港币/年",
+  "requirements": "具有公认的商业或商业相关领域硕士学位（或同等学历），申请人若完成课程所提供的英语及/或翻译笔试，并获及格成绩，则可豁免雅思或托福要求。",
+  "objectives": "香港都会大学财富管理专业管理硕士（途径1）项目旨在加强学生的专业能力，拓展他们的战略和全球视野。毕业生将成为能够在当今复杂商业环境下处理财富管理问题的专业人士。毕业生们将使用相关理论和实践批判性地评估当代财富管理问题，同时，应用全球可转移的财富管理技能来解决个人在现实生活中出现的机会和问题，通过结合财富管理实践制定财务规划和财富规划策略，以及在财富管理的背景下，作为业务主管与相同和不同学科的人进行有效沟通。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "投资与投资组合管理 (Investment and Portfolio Management)\n应用商业项目（1年） (Applied Business Project (1 Year))\n财务会计与税务 (Financial Accounting and Taxation)\n公司治理 (Corporate Governance)\n财务规划与风险管理 (Financial Planning and Risk Management)\n税务、财产与信托规划 (Tax, Estate and Trust Planning)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "数据驱动设计理学硕士",
+  "ename": "MSc Data Driven Design",
+  "tags": "社科,其他社科,设计创新研究所",
+  "introduction": "专业方向: 其他社科\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有英国2:2荣誉学位或同等学历，需要设计（如工程设计、时装设计、艺术与设计）、创新、商业、媒体、技术或相关学科背景，来自非设计背景的申请者必须在最后一年成绩达到55%或以上水平",
+  "objectives": "拉夫堡大学数据驱动设计理学硕士项目将使学生能够提升现有的创意和文化产业知识和专业知识，包括数据科学、数据分析和数据驱动技能方面的能力，以深入了解竞争市场、改进数字产品和服务，并有效地传达数据驱动的策略。\n拉夫堡大学数据驱动设计理学硕士项目的课程将为学生提供数据科学的编程技能、高级数据分析以及开发数字产品和服务的设计方法。随着创意和文化部门的组织越来越多地使用数据来了解受众、开发最先进的产品和服务以及制定数字创新战略，本课程将使学生能够在这些发展中支持组织。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计研究 (Design Research)\n战略与市场分析 (Strategy and Market Analysis)\n数据科学导论 (Introduction to Data Science)\n数字媒体受众和市场 (Digital Media Audiences and Markets)\n创意商业模式 (Creative Business Models)\n数据可视化图形 (Graphics for Data Visualisation)\n合作项目 (Collaborative Project)\n服务设计创新 (Service Design Innovation)\n服务设计策略 (Service Design Strategy)\n云应用和服务 (Cloud Applications and Services)\n数字体育技术：演进与应用 (Digital Sport Technologies: Evolution and Application)\n论文 (Dissertation)",
+  "success_cases": ""
+}

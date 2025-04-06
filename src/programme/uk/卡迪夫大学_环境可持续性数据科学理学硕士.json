@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "环境可持续性数据科学理学硕士",
+  "ename": "MSc Data Science for Environmental Sustainability",
+  "tags": "工科,环境工程,地球与环境科学学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 29450英镑/年",
+  "requirements": "具有2:2荣誉学位，需要科学或工程相关学科领域背景，例如生物科学、计算机科学、地球科学、环境科学、地理或数学。如果申请者没有相关领域的学位，申请可能会根据申请者的专业经验进行考虑",
+  "objectives": "卡迪夫大学环境可持续性数据科学理学硕士项目旨在帮助学生了解和应对紧迫的全球环境挑战。它将为学生提供高级数据科学的全面基础知识，以及如何将其应用于环境可持续性问题。\n学生将掌握一套全面的关键技能，包括大数据分析、机器学习、人工智能、遥感和针对环境可持续性的计算方法。除了获得扎实的理论知识外，学生还将通过实际项目和在现实环境中的协作工作培养实践技能，为有效应对环境挑战做好准备。学生可以灵活地从一系列可选课程中进行选择，以便根据自己感兴趣的领域定制学习内容。\n完成卡迪夫大学环境可持续性数据科学理学硕士课程后，学生将掌握高级数据管理、分析、可视化和解释技能，从而能够积极制定和实施有效的可持续政策和实践。学生将为从事环境咨询、政策制定和致力于提高可持续性的行业做好充分准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "大数据、机器学习与人工智能 (Big Data, Machine Learning and AI)\n环境可持续性应用性计算 (Applied Computing for Environmental Sustainability)\n环境可持续性：政策、原则与实践 (Environmental Sustainability: Policies, Principles and Practice)\n商业和环境 (Business and the Environment)\n论文：环境可持续性的数据科学 (Dissertation: Data Science for Environmental Sustainability)",
+  "success_cases": ""
+}

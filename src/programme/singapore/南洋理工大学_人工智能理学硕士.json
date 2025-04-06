@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence",
+  "tags": "工科,计算机,计算机与数据科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 8月\n项目时长: 1年\n项目学费: 63220新币/年",
+  "requirements": "具有良好的荣誉学士学位，需要计算机科学、计算机工程或相关学科背景并受过扎实的数学训练\n或具有良好的学士学位，需要计算机科学、计算机工程或相关学科背景并受过扎实的数学训练，同时具备2年相关行业经验\n相关学科包括但不限于南洋理工大学工程学院提供的学士学位课程",
+  "objectives": "南洋理工大学人工智能理学硕士项目旨在教授学生如何开发、设计和执行AI系统，同时培养学生对于运用AI进行项目管理和政策制定的能力。该项目强调人工智能理论、技术和工具，以解决具有多种约束的现实世界问题，例如训练数据有限的问题和大数据问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能与道德伦理 (Introduction to AI and AI Ethics)\n机器学习：方法论与应用 (Machine Learning: Methodologies and Applications)\n深度学习与应用 (Deep Learning and Applications)\n人工智能与数学 (Mathematics for AI)\nPython编程 (Python Programming)\n计算机视觉 (Computer Vision)\n文本数据管理与处理 (Text Data Management and Processing)\n时间序列分析 (Time Series Analysis)\n神经进化与模糊智能 (Neuro Evolution and Fuzzy Intelligence)\n多智能体系统 (Multi-Agent System)\n高级计算机视觉 (Advanced Computer Vision)\n用于自然语言处理的深度神经网络 (Deep Neural Networks for Natural Language Processing)\n城市计算 (Urban Computing)",
+  "success_cases": ""
+}

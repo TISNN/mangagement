@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "机器学习理学硕士",
+  "ename": "MSc Machine Learning",
+  "tags": "工科,计算机,工程科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有2:1英国学士学位或同等学历，需要高度定量学科背景，如计算机科学、数学、电气工程或物理科学，相关工作经验也可能被考虑，此外，申请者必须熟悉线性代数和微积分等领域的本科数学",
+  "objectives": "伦敦大学学院机器学习理学硕士项目具有真实的独特性，营造了良好的学习环境，适合想要拓展机器学习领域的专业知识和技能组合的学生，引导学生从计算、数学和商业视角探究机器学习。\n通过伦敦大学学院机器学习理学硕士项目，学生将了解该领域内新技术开发和应用背后的原理，理解和分析各种可用算法和方法，能够设计、开发和评估恰当的算法和方法来应对新问题和应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "监督式学习 (Supervised Learning)\n图形化模型 (Graphical Models)\n概率和无监督学习 (Probabilistic and Unsupervised Learning)\n机器视觉 (Machine Vision)\n生物信息学 (Bioinformatics)\n信息检索和数据挖掘 (Information Retrieval and Data Mining)\n机器学习前沿议题 (Advanced Topics in Machine Learning)\n成像逆问题研究 (Inverse Problems in Imaging)\n情感计算和人与机器人的人机交互 (Affective Computing and Human-Robot Interaction)\n概率模型近似推理和学习 (Approximate Inference and Learning in Probabilistic Models)\n应用机器学习 (Applied Machine Learning)\n统计自然语言编程 (Statistical Natural Language Programming)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "全球卫生（人类健康与环境）理学硕士",
+  "ename": "MSc Global Health (Human Health and the Environment)",
+  "tags": "社科,公共卫生,健康研究学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 20500英镑/年",
+  "requirements": "需要具有相关专业背景（如农业科学、生物学、化学、保护科学、地球科学、生态学、环境科学、地理学、卫生科学、园艺科学、植物科学、土壤科学、流行病学、遗传学、医学和保健学）；从业人士至少5年志愿工作经验",
+  "objectives": "皇家霍洛威学院全球卫生（人类健康与环境）文学理学硕士课程促进以跨学科方法应对人类世的挑战：环境变化、气候不稳定、城市化、地缘政治变迁、人口变化、可持续性、生物多样性和发展。学生将通过与全球南方合作伙伴的紧密联系，共同研究根本性挑战，并报道环境因素和国际机构的作用。学生可以选择将重点放在全球北方的后工业化社会或全球南方的发展中社会，以及实现所有可持续发展目标(SDGs)，其研究将有助于为所有人定义和塑造一个更可持续的未来。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "促进全球健康的关键技能和研究方法； (Key skills and research methodology for global health)\n全球健康的关键概念：人类世的健康空间； (Key concepts in global health: (un)healthy space of the Anthropocene)\n全球卫生系统； (Global Health Systems)\n食品安全和人类基本需求； (Food security and basic human needs)\n环境的可持续性； (Sustainability of the Environment)\n生物多样性与人类健康； (Biodiversity and Human Health)\n高级技能：科学传播、演讲和写作； (Advanced skills: science communication, presentation and writing)\n人权与研究伦理； (Human rights and research ethics)\n学位论文； (Global Health Dissertation)",
+  "success_cases": ""
+}

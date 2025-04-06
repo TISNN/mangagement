@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学圣塔芭芭拉分校",
+  "major_name": "环境数据科学硕士",
+  "ename": "Master of Environmental Data Science",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n项目类别: STEM\n入学时间: 夏季\n项目时长: 11个月\n项目学费: 15,102美元",
+  "requirements": "适合具有环境科学、环境研究或类似学科背景并接触过数据科学和数学的申请者，不要求具有计算机科学、统计学或数据科学的背景。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

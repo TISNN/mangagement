@@ -1,0 +1,12 @@
+{
+  "school_name": "波士顿大学",
+  "major_name": "生物信息学",
+  "ename": "MS in Bioinformatics",
+  "tags": "理科,生物",
+  "introduction": "专业方向: 生物\n项目类别: STEM\n入学时间: 秋季/春季\n项目时长: 1年\n项目学费: 30525美元/学期",
+  "requirements": "相关专业学科，拥有生物、数学、统计分析能力",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

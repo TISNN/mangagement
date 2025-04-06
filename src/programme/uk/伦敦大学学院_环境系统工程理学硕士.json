@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "环境系统工程理学硕士",
+  "ename": "MSc Environmental Systems Engineering",
+  "tags": "工科,环境工程,工程科学学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "通常具有2:1英国学士学位或同等学历，需要同类学科或相关学科背景，相关领域的丰富工作经验将被考虑在内",
+  "objectives": "环境可持续发展的全球挑战突出了整体设计和管理复杂环境及技术系统必要性。伦敦大学学院环境系统工程理学硕士学位课程具有跨学科性，展现系统工程背景下的环境议题与技术。通过伦敦大学学院环境系统工程理学硕士学位课程的学习，学生将理解自然环境、人类、进程及技术的相互作用，制定可持续的解决方案。\n在伦敦大学学院环境系统工程理学硕士学位课程的学习中，学生将了解系统工程及环境工程。环境工程是工程学的多学科分支之一，涉及设计、实施及管理方案以此在可持续发展总体框架下保护及恢复环境。系统工程是与大型复杂系统开发和管理相关的工程学分支。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "环境协同系统项目 (Collaborative Environmental Systems Project)\n环境系统 (Environmental Systems)\n系统工程和管理 (Systems Engineering and Management)\n系统协会和可持续性发展 (Systems Society and Sustainability)\n环境建模 (Environmental Modelling)\n城市洪水和排水系统 (Urban Flooding and Drainage)\n能源系统建模 (Energy Systems Modelling)\n水处理和废水处理 (Water and Wastewater Treatment)\n有限元建模和数值方法 (Finite Element Modelling and Numerical Methods)\n高级研究写作 (Advanced Research Writing)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "心理学研究理学硕士（可跨申）",
+  "ename": "MSc Psychological Studies (Conversion)",
+  "tags": "社科,心理学,教育学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31800英镑/年",
+  "requirements": "具有2:1荣誉学位或非英国同等学历，不限专业背景",
+  "objectives": "格拉斯哥大学心理学研究理学硕士项目为英国心理学会（BPS）的认可项目，致力于培养学生批判性的心理理论和实践意识，学生需学习心理学前沿研究的相关理论、原理及概念，并结合自己的经历与兴趣选择具体方向进行深入研究。本学位为转型式学位，即使是之前没有涉猎心理学研究的学生，也可以通过本项目的学习成功转入心理学学术或实务领域，学生毕业顺利后将得到英国心理学会（BPS）的硕士特许会员资格。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "认知心理学 (Cognitive psychology)\n发展心理学 (Developmental psychology)\n个体差异 (Individual differences )\n生理心理学 (Physiological psychology)\n研究方法1 (Research methods 1)\n研究方法2 (Research methods 2)\n社会心理学 (Social psychology)\n应用定性方法 (Applied qualitative methods)\n临床健康心理学 (Clinical health psychology)\n心理学的当前问题 (Current issues in psychology)",
+  "success_cases": ""
+}

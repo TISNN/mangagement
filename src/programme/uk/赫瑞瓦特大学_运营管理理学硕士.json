@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "运营管理理学硕士",
+  "ename": "MSc Operations Management",
+  "tags": "商科,管理,爱丁堡商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 21192英镑/年",
+  "requirements": "具有相关专业优秀荣誉学位（一等或二等）或同等学历",
+  "objectives": "赫瑞-瓦特大学运营管理硕士是由爱丁堡商学院的学者领导的专业硕士课程。作为专业硕士，这个学位给那些在工业界工作或以前学习过类似学科的人提供了扩展、提炼和提高知识的机会。\n赫瑞-瓦特大学运营管理硕士课程几乎完全侧重于业务管理领域。它融合了前沿的学术思想和行业的最佳实践，为毕业生和专业人士提供了一个拥有高度就业技能的晋升机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "运营管理 (Operations Management)\n供应链管理策略 (Strategies for Managing Supply Chains)\n当代消费者 (Contemporary Consumers)\n精益六西格玛基础知识 (Fundamentals of Lean Six Sigma)\n领导力 (Leadership)\n战略项目管理 (Strategic Project Management)\n供应链风险与适应 (Supply Chain Risk and Adaptation)\n商业分析和大数据简介 (Business Analytics and Introduction to Big Data)\n质量管理与工程 (Quality Management and Engineering)\n系统思考与分析 (System Thinking and Analysis)\n项目管理 (Project Management)\n需求和库存计划 (Demand and Inventory Planning)\n大数据分析 (Big Data Analytics)\n研究哲学与实践 (Research Philosophy and Practice)",
+  "success_cases": ""
+}

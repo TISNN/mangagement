@@ -1,0 +1,12 @@
+{
+  "school_name": "哈佛大学",
+  "major_name": "公共健康硕士",
+  "ename": "Master of Public Health",
+  "tags": "社科,公共卫生",
+  "introduction": "专业方向: 公共卫生\n入学时间: 秋季\n项目时长: 一年\n项目学费: 66,960美元/年",
+  "requirements": "45学分的MPH申请人必须具备以下条件之一：\n1. 先前的博士学位——例如，MD、DO、DMD、DDS、PhD、SD、JD（或同等学历）\n健康相关领域的硕士学位——例如 MSN、MSW、MBA——加上至少两年的相关健康经验\n2. 完成了医学院或牙科学校的初级临床学年，或者是哈佛法学院的 1L 学生。\n3.学士学位，加上五年或五年以上的相关健康经验（仅限流行病学、generalist、全球健康、健康和社会行为、健康管理和健康政策研究领域）\n65学分的MPH申请人：\n学士学位，加上在公共卫生相关领域连续两年或两年以上的全职工作经验。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "环境监测、研究与管理理学硕士",
+  "ename": "MSc Environmental Monitoring, Research and Management",
+  "tags": "工科,环境工程,地理和环境学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 10月\n项目时长: 1年\n项目学费: 25500英镑/年",
+  "requirements": "具有英国荣誉学位（good 2:2学位，成绩达到55%或以上水平）或同等学历，需要地理学或其他理工科背景\n具备适当专业知识的申请者也将被考虑",
+  "objectives": "本课程侧重于通过实地考察、实验室和分析工作实现成功和可持续管理所需的实践技能。本课程强调生物和物理环境系统的动态性质，并教授学生科学、政府和工业日益需要评估和管理动态环境系统的实用和分析技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "在环境管理专业实践 (Professional Practice in Environmental Management)\n河流管理工具 (Tools for River Management)\n湖监视和管理 (Lake Monitoring and Management)\n研究设计 (Research Design)\n水文气候学监测和建模 (Hydroclimatological Monitoring and Modelling)\n环境管理专业实践 (Professional Practice in Environmental Management)\n应用环境地理信息系统 (Applied Environmental GIS)\n风蚀测量和缓解 (Wind Erosion Measurement and Mitigation)\n循证环境管理 (Evidence-Based Environmental Management)\n为环境管理建立自然灾害和灾难模型  (Natural Hazard and Catastrophe Modelling for Environmental Management)\n环境监测管理的论文 (Dissertation in Environmental Monitoring for Management)",
+  "success_cases": ""
+}

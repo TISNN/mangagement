@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "生物医学工程理学硕士",
+  "ename": "MSc Biomedical Engineering",
+  "tags": "工科,生物工程,工程学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要包含核心课程的任意工程学科、计算机科学、物理科学/数学学位背景，并且工程数学和/或数学课程的平均成绩为2:1学校也可以接受生物学、医学或生命科学的学位\n学校有时可能会考虑具有2:2学位但核心课程成绩达到2:1的申请者",
+  "objectives": "格拉斯哥大学生物医学工程理学硕士项目是跨学科项目，涵盖了生物医学工程领域中的所有关键要素，将使学生具备在生物医学工程产业就业必需的技能。生物医学工程是工程学院的最新部门，汇集了学校长期的专业知识。研究涵盖四个主题：生物材料和组织工程、生物纳米技术、康复工程、生物传感器和诊断。本课程以深入的模块和个别项目为基础，旨在为学生提供机会，专攻生物医学工程的特定领域或涵盖更一般的生物医学工程教学大纲。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物流体力学 M (Biological fluid mechanics M)\n细胞和系统生物物理学 M (Biophysics of cells and systems M)\n生物医学工程统计学 3 (Statistics for biomedical engineering 3)\n生物系统中的能量 M (Energy in biological systems M)\n集成系统设计项目 M (Integrated Systems Design Project M)\n理学硕士项目 (Msc project)\n医学成像 (Medical Imaging)\n有限元分析M (Finite Element Analysis M)\n显微镜与光学M (Microscopy and Optics M)\n奈米制造 (Nanofabrication)\n高级影像与治疗M (Advanced Imaging and Therapy M)\n超声技术及应用 (Ultrasound Technology and Applications)\n生物力学 M (Biomechanics M)\n生物传感器与诊断 M (Biosensors and Diagnostics M)\n康复工程硕士 M (Rehabilitation Engineering M)\n支架与组织 M (Scaffolds and Tissues M)\n生物信号的信号处理 M (Signal Processing of Biosignatures M)\n高级超声学 (Advanced Ultrasonics)",
+  "success_cases": ""
+}

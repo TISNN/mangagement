@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "政府数据分析理学硕士",
+  "ename": "MSc Data Analytics for Government",
+  "tags": "理科,数据科学,经济、社会与政治科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 25400英镑/年",
+  "requirements": "具有2:1学位，需要包含一些统计学方法内容的学科背景，例如：地理学、心理学、人口科学、经济学、计量经济学、统计学、数学\n如果申请者的学位没有任何统计内容，学校会要求其证明具备必要的背景知识，达到皇家统计学会统计学高级证书水平\n申请者目前应该就职于官方统计部门，但先前的专业经验可能会被考虑在内\n如果申请者成功申请加入本课程，学校将要求其在课程开始前参加一个涵盖基础数学和统计学的入门复习课程\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学政府数据分析理学硕士项目旨在带领学生学习专业技能和知识，帮助其在政府内部开展专业统计工作，培养学生成为统计学家、数据分析师或类似职业所需的技能。项目还教授其他技能，如调查方法和数据分析，这些技能也深受统计行业非政府机构的青睐。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学基础 (Data Science Foundations)\n统计编程 (Statistical Programming)\n政府统计 (Statistics in Government)\n调查基础 (Survey Fundamentals)\n人口统计学方法1 (Demographic Methods I)\n评估和监测 (Evaluation and Monitoring)\n指数 (Index Numbers)\n调查研究导论 (Intro to Survey Research)\n回归建模 (Regression Modelling)\n时间序列分析 (Time Series Analysis)\n学位论文 (Dissertation)",
+  "success_cases": ""
+}

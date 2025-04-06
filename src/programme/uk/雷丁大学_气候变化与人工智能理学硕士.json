@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "气候变化与人工智能理学硕士",
+  "ename": "MSc Climate Change and Artificial Intelligence",
+  "tags": "工科,计算机,计算机科学系",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 30950英镑/年",
+  "requirements": "通常具有2:2或以上学位，需要数学、物理科学或其他密切相关学科背景。申请者的学位可以是数学、物理、计算科学、工程或相关学科。申请者应该有编程经验，不需要事先有气象学的相关知识",
+  "objectives": "雷丁大学气候变化与人工智能理学硕士旨在为学生的职业生涯做好准备，学生可以在其中有所作为。它旨在满足对了解我们不断变化的气候和人工智能的个人不断增长的需求，以及有效部署这种理解的商业敏锐度。在整个课程中，学生将了解编程语言 Python，以及关键管理和沟通技巧。 学生还将扩展在气候科学、人工智能和机器学习方面的知识，并且通过道德视角参与这些主题，批判性地思考价值观和正义问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "管理人员和组织 (Managing People and Organisations)\n气候变化：前因后果 (Climate Change: Causes and Consequences)\nPython 应用数据科学 (Applied Data Science with Python)\n人工智能和机器学习 (Artificial Intelligence and Machine Learning)\n气候变化：伦理、价值观、偶然性和决策制定 (Climate Change: Ethics, Values, Casuality and Decision-Making)\n数据科学和气候服务 (Data Science and Climate Services)\n研究项目 (Research Project)\n天气和气候讨论 (Weather and Climate Discussion)\n会前数学和物理补充 (Pre-Sessional Maths and Physics Supplement)\n气象人员学术英语 (Academic English for Meterologists)",
+  "success_cases": ""
+}

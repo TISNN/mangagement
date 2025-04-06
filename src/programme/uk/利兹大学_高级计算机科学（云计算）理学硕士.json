@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "高级计算机科学（云计算）理学硕士",
+  "ename": "MSc Advanced Computer Science (Cloud Computing)",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 33750英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要计算机科学背景，学校要求所有申请者学习过广泛的相关课程，包括大量编程、系统开发、数据结构与算法课程，并且在所有这些课程中取得高分\n满足以下其中一项的申请者将基于具体情况被考虑：\n- 在其他基于计算的学位中取得2:1荣誉学士学位\n- 具有专业资格以及相关经验",
+  "objectives": "云计算技术的发展正在改变我们生活和工作的方式。利兹大学高级计算机科学（云计算）理学硕士项目将使学生掌握这一迅速发展领域的专业知识，鼓励学生探索计算机科学领域的一系列高级课题。\n通过利兹大学高级计算机科学（云计算）理学硕士项目，学生将基本掌握诸如系统编程与算法等课题，并在高级分布式系统（尤其是云技术及其应用）方面的专业课程中奠定基础。\n在利兹大学高级计算机科学（云计算）理学硕士项目中，学生将根据现有的计算机科学知识选择涵盖计算机科学各个课题的选修课程，接触人机交互系统、数据挖掘和函数式编程等领域的新方法。\n通过参与利兹大学高级计算机科学（云计算）理学硕士项目，学生将锻炼使用最先进技术设计应用规模更大更复杂系统的理论和实践技能。当学生在开发自己的主要课题项目时，学生甚至会有机会成为利兹大学级计算机科学理学硕士项目研究小组的成员。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士课题项目 (MSc Project )\n并行和并发编程 (Parallel and Concurrent Programming)\n云计算 (Cloud Computing)\n大数据系统 (Big Data Systems )\n数据科学 (Data Science)\n生物启发计算 (Bio-Inspired Computing)\n知识表示和推理 (Knowledge Representation and Reasoning)\n算法 (Algorithms)\n语义技术和应用 (Semantic Technologies and Applications)\n图像分析 (Image Analysis)\n调度 (Scheduling)\n科学计算 (Scientific Computation)\n图像理论：架构和算法 (Graph Theory: Structure and Algorithms)\n移动应用开发 (Mobile Application Development )\n机器学习 (Machine Learning)",
+  "success_cases": ""
+}

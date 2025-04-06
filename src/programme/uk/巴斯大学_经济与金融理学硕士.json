@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "经济与金融理学硕士",
+  "ename": "MSc Economics and Finance",
+  "tags": "商科,经济,经济系",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 27800英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，必须获得经济学、商学或相应的定量学科的学士学位，如工程、计算机科学、数学或物理学\n也需要在至少五个核心单元中取得好成绩，这些单元包括微观经济学、计量经济学、宏观经济学、统计学、概率、代数、微积分、数据分析、博弈论、运筹学或金融工程",
+  "objectives": "本课程将核心经济学和相关金融主题相结合，旨在为金融职业做好充分的准备。如果学生计划在金融机构、咨询公司、财政部门、经济部门或央行工作，我们的经济学和金融学硕士学位将是学生的绝佳选择。本专业硕士课程涵盖先进的经济理论和相关的金融单元。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融投资管理 (Financial investment management)\n金融衍生品 (Financial derivatives)\n定量金融学概论 (Introduction to quantitative finance)\n经济学的金融机构 (Economics of financial institutions)\n激励机制和性能 (Incentives and performance)\n国际货币政策和制度 (International monetary policy and institutions)\n金融风险管理 (Financial risk management)\n先进的经济理论 (Advanced economic theory)\n计算经济学 (Computational economics)\n国际金融 (International finance)\n金融工程 (Financial engineering)",
+  "success_cases": ""
+}

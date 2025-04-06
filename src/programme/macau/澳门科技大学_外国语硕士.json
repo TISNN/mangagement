@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "外国语硕士",
+  "ename": "MA in Foreign Language Studies",
+  "tags": "社科,语言,国际学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 2年\n项目学费: 120000港币/年",
+  "requirements": "本科修读英语、西班牙语、葡萄牙语或相关专业，或具相关语言能力证明。需要英语六级/雅思/专四/专八/托福/GRE/CEFR，西班牙语DELE/SIELE，葡萄牙语CAPLE/CELPE-BRAS/，或其他同等语言水平测试。\n（如报考者的学士学位为相关目标语言专业，可豁免语言能力证明）",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语言学研究方法 (Research Methods for Linguistics)\n第二语言习得 (Second Language Acquisition)\n英语语言学概论 (Introduction to English Linguistics)\n英美历史及文化 (British and American history and culture)\n翻译理论及实践（英汉互译） (Theories and Practices of Translation（English and Chinese）)\n英美文学史 (History of British and American Literature)\n西班牙语语言学概论 (Introduction to Spanish Linguistics)\n西班牙语国家历史及文化 (History and Culture of Spanish Speaking Countries)\n葡萄牙语语言学概论 (Introduction to Portuguese Linguistics)\n葡萄牙语国家历史及文化 (History and Culture of Portuguese speaking countries)",
+  "success_cases": ""
+}

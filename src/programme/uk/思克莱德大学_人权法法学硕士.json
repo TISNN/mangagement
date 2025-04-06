@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "人权法法学硕士",
+  "ename": "LLM Human Rights Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 25000英镑/年",
+  "requirements": "具有一等或2:1荣誉学位，不限学科，建议包含一些法律内容。其他资格也有可能入学，尤其是当申请者的工作经验与课程相关时。法律学位不是学习这门课程的先决条件",
+  "objectives": "思克莱德大学人权法法学硕士项目对法律和其它学科的毕业生或持有相关专业资格的毕业生开放，使学生能够详细了解英国、欧洲甚至国际层面上的人权法，为对持续发展人权文化感兴趣的专业人士和学者提供有价值的培训和深刻的研究角度。获得思克莱德大学人权法法学硕士学位需要完成六个模块的学习，提交一篇一万五千字左右的学位论文，论文主题可与导师商议。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际人权法 (International Human Rights Law)\n欧洲人权法 (European Human Rights Law)\n英国的人权保护 (Human Rights Protection in the UK)\n国际移民法 (International Migration Law)\n商业与人权 (Business and Human Rights)",
+  "success_cases": ""
+}

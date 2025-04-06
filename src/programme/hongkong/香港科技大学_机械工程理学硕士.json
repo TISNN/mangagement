@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "机械工程理学硕士",
+  "ename": "MSc Mechanical Engineering",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 188300港币/年",
+  "requirements": "具有学士学位或同等学历并且达到二等荣誉学位，需要机械工程、制造工程、工程管理、材料科学与工程、电气与电子工程、土木工程、环境工程或相关领域背景",
+  "objectives": "香港科技大学机械工程学硕士课程提供有关各种电机、机械和热系统与其组件的设计、材料选择及制造和材料技术的最新先进技术知识。\n香港科技大学机械工程学硕士课程为应届毕业生，应用科学家和工程师提供广博的高等机械工程学科的深入学习机会。这对于香港和中国的工业技术发展是很有必要的。这个理学硕士课程旨在使学员在开拓广博的知识基础方面获益，让学员掌握在新兴机械工程领域中先进而最新的科技知识，使其在有关各种电机、机械和热系统与其组件的设计、材料选择及制造和材料技术的技巧及知识得以提升。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "固体力学基础 (Foundation of Solid Mechanics)\n纳米薄膜和纳米材料 (Nanoscale Thin Films and Nano-Structured Materials)\n高分子材料的断裂行为 (Fracture Behavior of Polymers)\n高等材料力学行为 (Advanced Mechanical Behavior of Materials)\n材料的热力学与动力学 (Thermodynamics and Kinetics of Materials)\n聚合物纳米复合材料 (Polymer Nanocomposites)\n微电子封装基础 (Fundamentals of Electronic Packaging)\n流体动力学 (Fluid Dynamics)\n计算机辅助工程系统 (Theories and Practice of CAD/CAM/CAE)\n精密制造技术 (Precision Manufacturing Technologies)\n精密加工 (Precision Machining)\n有限单元法 (Finite Element Methods)\n机械工程研究专题课 (Special Topics in Mechanical Engineering)\n独立课题 (Independent Project)",
+  "success_cases": ""
+}

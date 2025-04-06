@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "商业经济学理学硕士",
+  "ename": "MSc Business Economics",
+  "tags": "商科,经济,经济系",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 25850英镑/年",
+  "requirements": "具有2:2或以上荣誉学位要申请这门课程，申请者必须拥有数学、定量或商业相关学科的本科学位，如经济学、工商管理、金融学、会计学、国际贸易、银行、财务管理、公共财政、数学、计算机科学、数据科学、地理学校也欢迎在相关领域有丰富工作经验的申请者申请",
+  "objectives": "雷丁大学商业经济学理学硕士学位课程尤其国际商务策略、监管及主要研究方法，使学生深入理解组织和行业层面的商业的先进知识。\n在雷丁大学商业经济学理学硕士学位课程的学习中，学生将利用技术与证据理解行业的构成、组织在行业中的行为，及这些因素对组织业绩的影响。\n学生也可以选择三个分支专业课程，它们都涵盖了不同的课程，使学生可以就一个专业深入学习或者灵活地综合学习。选修课程为学生提供更多专业化学习选择。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计量经济学分析导论 (Introduction to econometric analysis)\n微观经济学1 (Microeconomics I)\n微观经济学2 (Microeconomics II)\n企业战略经济学 (Economics of corporate strategy)\n商业经济专题 (Topics in business economics)\n研究方法和定量研究方法 (Research methodology and quantitative research methods)\n微观计量经济学A (Microeconometrics A)\n论文 (Dissertation)\n国际商业 (International business)\n发展经济学 (Economics of development)",
+  "success_cases": ""
+}

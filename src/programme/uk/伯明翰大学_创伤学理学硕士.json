@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "创伤学理学硕士",
+  "ename": "MSc Trauma Science",
+  "tags": "社科,医学,医学与牙科科学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 32510英镑/年",
+  "requirements": "具有2:1荣誉学位，需要工程学、生命科学或生物医学科学背景，与创伤相关的工作经验在边缘案例情况下将根据具体情况予以考虑",
+  "objectives": "伯明翰大学创伤学理学硕士项目课程旨在探索创伤科学的理论基础，并根据队列的需要提供特定专业的途径。例如，物理治疗师、护士、医生、工程师、科学家和军事人员有明确的专业道路。伯明翰大学创伤学理学硕士项目由该领域的专家提供，包括创伤护理前沿的文职和军事背景的专家，并提供有关创伤科学及其管理的最新知识。互动式教学方法使学生具备医学和科学技能，成为创伤科学及其管理方面的专家。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "创伤科学导论 (Introduction to Trauma Science )\n研究方法 (Research Methods )\n重症监护、躯干创伤与烧伤管理 (Critical care, Torso Trauma and Burns Management )\n神经外伤 (Neurotrauma)\n肌肉骨骼创伤与康复 (Musculoskeletal Trauma and Rehabilitation)",
+  "success_cases": ""
+}

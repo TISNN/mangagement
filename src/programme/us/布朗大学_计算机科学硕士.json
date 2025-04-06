@@ -1,0 +1,12 @@
+{
+  "school_name": "布朗大学",
+  "major_name": "计算机科学硕士",
+  "ename": "MS in Computer Science",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n入学时间: 春季/秋季\n项目时长: 3学期\n项目学费: 9168美元/课\n项目规模: 90人",
+  "requirements": "编程入门课程\n一门介绍算法和数据结构的课程\n计算机系统或软件工程课程(最好两者兼有)\n关于离散数学和基本概率的课程\n线性代数课程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

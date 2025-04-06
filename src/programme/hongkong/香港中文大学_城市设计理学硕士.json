@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "城市设计理学硕士",
+  "ename": "MSc Urban Design",
+  "tags": "社科,建筑,社会科学学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 160000港币/年",
+  "requirements": "申请者应该具有学校所在国家认可的建筑学、景观建筑、城市规划或相关领域的本科学位，需要提供B等级证明，优先考虑具备至少1年相关工作经验的申请者\n需要提交设计作品集",
+  "objectives": "在构建适宜居住、可持续发展和社会公正的城市进程中，城市设计至关重要。香港和珠三角地区，作为当代城市化进程中最典型的实例，面对着一系列的机遇和挑战。\n香港中文大学城市设计硕士课程旨在培育出优秀的城市设计人才，应对城市化进程所带来的挑战。学生通过在设计工作室的实习和专业模块的学习，提高自身的设计能力，同时将城市设计重点领域的相关知识进行整合，例如社区参与、生态系统及运输网等。\n通过城市史和环境经济学等学科的学习，学生就城市化进程和城市设计给社会环境带来的影响有更深刻的认识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "城市设计工作室1 (Urban Design Studio 1)\n城市史与理论 (Urban History & Theory)\n城市化进程 (Urban Processes)\n城市设计工作室2 (Urban Design Studio 2)\n环境与城市经济学 (Environmental and Urban Economics)\n城市设计专题研究1（城市化进程） (Topical Studies in Urban Design 1 (Urban Processes))\n城市设计专题研究2（城市交通网络） (Topical Studies in Urban Design 2 (Urban Transport Networks))\n城市设计专题研究3（城市管理） (Topical Studies in Urban Design 3 (Urban Management))\n城市设计专题研究4（国际工作营） (Topical Studies in Urban Design 4 (International Workshop))\n城市设计毕业设计 (Urban Design Thesis)\n城市遥感技术 (Urban Remote Sensing)\n可持续生态城市发展 (Sustainable Eco-City Development)",
+  "success_cases": ""
+}

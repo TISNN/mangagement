@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "犹太研究文学硕士",
+  "ename": "MA Jewish Studies",
+  "tags": "社科,其他社科,艺术与人文学院",
+  "introduction": "专业方向: 其他社科\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "需要进行过1年大学水平的希伯来语（现代或圣经）或意第绪语学习或具备同等经历，即将入学的硕士学生的语言技能将在迎新周期间通过简短的分班测试进行评估，没有希伯来语或意第绪语先前知识的学生将需要修读1门30学分的希伯来语（现代或圣经）或意第绪语课程作为硕士课程的一部分",
+  "objectives": "伦敦大学学院犹太研究文学硕士项目借鉴了UCL希伯来与犹太研究的广泛专业知识，是英国唯一的犹太研究系，提供犹太研究各个领域、各个时期和各个方面的模块。该项目为学生进一步的研究、个人参与和跨学科研究做准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "犹太研究文学硕士核心课程 (Jewish Studies MA Core Course)\n圣经希伯来语或现代希伯来语(适用于没有希伯来语知识的学生) (Biblical Hebrew or Modern Hebrew (for students without prior knowledge of Hebrew))\n古代犹太人的魔力;古希伯来语铭文;犹太教和基督教的起源 (Ancient Jewish Magic; Ancient Hebrew Inscriptions; Judaism and the Origins of Christianity)\n欧洲犹太人和大屠杀;波兰犹太人的历史 (European Jewry and the Holocaust; History of the Jews in Poland)\n穆斯林-犹太关系 (Muslim-Jewish relations)\n高级荷兰语和文化 (Advanced Dutch Language and Culture)",
+  "success_cases": ""
+}

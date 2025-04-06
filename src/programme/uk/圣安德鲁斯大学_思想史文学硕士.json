@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "思想史文学硕士",
+  "ename": "MLitt Intellectual History",
+  "tags": "社科,历史,历史学院",
+  "introduction": "专业方向: 历史\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要相关学科背景，需要一篇written work (2,000 words)",
+  "objectives": "圣安德鲁斯大学思想史文学硕士课程是一个跨学科课程，为学生提供最新知识史研究的广泛知识，包括政治、宗教、哲学、科学、国际关系、经济学和文学。这一跨学科课程汇集了来自本科各学科领域的专家，他们对各自学科领域的关键思想具有共同兴趣。学生们学习将过去的思想视为历史现象，并按照作者的意图以及在作者可能预见之外的背景下评估这些思想的含义。这门课程涵盖了当今正在实践的各种知识史，以及知识史与哲学、文学与文学研究、国际关系、法律、政治、经济学和神学之间的关系。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "当前思想史上的争议 (Current Controversies in Intellectual History)\n思想史的转折点 (Turning Points in the History of Ideas)\n现代史导读 (Directed Reading in Modern History)\n思想史理论与实践 (The Theory and Practice of Intellectual History)\n论文 (Dissertation)",
+  "success_cases": ""
+}

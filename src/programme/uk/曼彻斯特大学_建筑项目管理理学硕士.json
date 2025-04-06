@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "建筑项目管理理学硕士",
+  "ename": "MSc Construction Project Management",
+  "tags": "工科,工程管理,机械、航空航天及土木工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有2:1英国荣誉学位或同等学历，需要相关学科背景，如建筑环境、相关工程、科学或管理学科\n申请者如果是在读生，需要提供最后一年学习的所有课程的正式列表",
+  "objectives": "曼彻斯特大学建筑项目管理理学硕士通过让学生了解成功管理项目所需的人际关系和技术要求，以及组织和战略方面的问题，为学生在建筑项目的管理中发挥专业作用做好准备。该课程使学生能够对建筑项目管理问题进行理论和概念上的探索，同时也强调重要的实践方面，如项目控制机制、资源管理、预算和成本管理、利益相关者管理、合同管理、IT应用和信息管理。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人与组织 (People and Organisations)\n项目计划与控制 (Project Planning and Control)\n项目管理研究方法 (Project Management Research Methods)\n项目管理 (Management of Projects)\n建设项目管理专业实务 (Construction Project Management Professional Practice)\nMoP论文 (MoP Dissertation)\n环境评估 (Environmental Assessment)\n基础设施项目的项目融资 (Project Finance for Infrastructure Projects)\n冲突管理与争议解决 (Conflict Management & Dispute Resolution)\n合同管理 (Contract Management)\n风险管理 (Risk Management)",
+  "success_cases": ""
+}

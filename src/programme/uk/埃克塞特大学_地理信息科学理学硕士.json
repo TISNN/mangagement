@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "地理信息科学理学硕士",
+  "ename": "MSc Geographical Information Science",
+  "tags": "工科,地球科学,生命与环境科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29800英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，了解地理信息科学的应用程序。具有工作经验的申请者将根据个人情况进行考虑",
+  "objectives": "埃克塞特大学地理信息科学理学硕士项目通过空间分析、制图和地理技术的革命应用和发展地理信息科学，将培养学生的实用技能，例如编码、无人机分析、遥感工作流程和地理可视化，以及关键的就业技能，例如团队合作、沟通和演示技巧。埃克塞特大学地理信息科学理学硕士项目通过开展一个以研究为主导或以咨询为重点的应用项目，根据学生的职业抱负定制学位，当课程结束时可选的 Esri 认证考试为学生提供商业认证，并且受益于以科学和创新为重点的以环境、就业能力和业务为重点的计划。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用项目（学术）/申请项目（咨询） (Applied Project (Academic) /Applied Project (Consultancy) )\n环境遥 (Environmental Remote Sensing)\n空间分析编码 (Coding for Spatial Analysis)\n无人机分析和地理可视化 (Drone Analysis and Geo-Visualizations)\n空间数据科学 (Spatial Data Science)\n开源地理信息系统 (Open Source GIS)\n专业人士的地理信息系统 (GIS for Professionals)\n景观系统管理 (Landscape Systems Management)\n全球系统思维 (Global Systems Thinking)\n气候变化科学与解决方案 (Climate Change Science and Solutions)\n绿色星球 (Green Planet)\n商业与气候变化 (Business and Climate Change)\n未来 17：可持续发展目标挑战\t (Future 17: Sustainable Development Goals Challenge)\n环保咨询 (Green Consultants)\n数据治理和道德 (Data Governance and Ethics)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "生态学、气候变化与健康理学硕士",
+  "ename": "MSc Ecology, Climate Change and Health",
+  "tags": "工科,地球科学,生命科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "通常具有2:1英国学士学位或同等学历，需要生命科学、环境科学、医学或相关学科领域背景，具备适当专业资格和相关工作经验的申请者也可申请",
+  "objectives": "伦敦大学学院生态学、气候变化与健康理学硕士项目旨在：\n• 了解人、自然和健康之间的联系，探索并批判性地评估“同一个健康”的框架。\n• 探索气候变化和生物多样性丧失等人类活动对人、自然和健康之间相互作用的影响。\n• 为学生提供理解、批判性评估和应用多学科方法的技能。\n• 了解在One Health 框架内开发解决方案所需的一系列数据科学分析方法。\n• 通过现实世界的应用来应用分析方法，以了解不同的健康关系问题，例如土地利用如何影响野生动物病原体蔓延到人类群体的风险或气候变化如何影响粮食安全。\n• 培养科学与政策界面的科学沟通技巧，与非政府组织和政策制定者一起为现实世界的健康问题制定解决方案。\n伦敦大学学院生态学、气候变化与健康理学硕士项目将把研究与政策和实践联系起来，认识到需要采取多部门应对措施来应对健康不平等、气候变化和生物多样性危机等关键的全球挑战。该项目将使学生能够通过研究、政策或实施的角度，开发基于自然的解决方案，以应对全球人类和环境健康面临的新挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生态学、气候变化和健康基础 (Foundations in Ecology, Climate Change and Health)\n生物多样性研究中的计算方法 (Computational Methods in Biodiversity Research)\n生态、气候变化和健康的数据科学 (Data Science for Ecology, Climate Change and Health)\n自然智慧挑战：同一个健康 (Nature Smart Challenge: One Health)\n不断变化的世界中的人类和生态系统健康 (Human and Ecosystem Health in a Changing World)\n生态学、气候变化和健康研究项目硕士 (MSc in Ecology, Climate Change and Health Research Project)\n生态学和生态监测基础 (Foundations in Ecology and Ecological Monitoring)\n社区福祉、健康不平等和社会处方的作用 (Community Wellbeing, Health Inequalities and the role of Social Prescribing)\n流行病学 (Epidemiology)\n气候变化与健康 (Climate Change and Health)\n全球健康的社会决定因素 (The Social Determinants of Global Health)",
+  "success_cases": ""
+}

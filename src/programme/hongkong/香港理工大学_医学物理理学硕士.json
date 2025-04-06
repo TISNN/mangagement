@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "医学物理理学硕士",
+  "ename": "MSc Medical Physics",
+  "tags": "社科,医学,医疗及社会科学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 126000港币/年",
+  "requirements": "具有学士学位，需要物理学、应用物理学或工程物理学背景；或\n具有学士学位，需要自然科学、数学、工程学、放射学或卫生技术背景。",
+  "objectives": "香港理工大学医学物理理学硕士课程的范围包括放射治疗，诊断成像，核医学和医学健康物理学，因此可以满足医学物理学家的教育要求。该课程符合医学物理学研究生教育的国际标准。教学团队包括大量经验丰富的临床专业人员，包括临床医学物理学家，肿瘤学家和放射科医生。该计划为学生做好临床医学物理学，医学技术研发，学术界，政府法规，医疗保健行业，企业家精神等职业的准备。该计划旨在为学生提供物理学，工程学和/或健康技术方面的背景知识，以及对医学物理学感兴趣的学生，从而有机会发展医学知识和技能物理。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究方法与生物统计学 (Research Methods & Biostatistics)\n辐射物理学 (Radiation Physics)\n辐射防护与辐射安全 (Radiation Protection and Radiation Safety)\n人体解剖学与生理学 (Human Anatomy and Physiology)\n放射治疗物理学 (Radiation Therapy Physics)\n医学影像物理学 (Medical Imaging Physics)\n医学物理学家放射生物学 (Radiobiology for Medical Physicists)\n医学与研究中的伦理问题 (Ethical Issues in Medicine and Research)\n医学物理学临床实习 (Clinical Practicum of Medical Physics)\n健康科学中的生物信息学 (Bioinformatics in Health Sciences)\n论文 (Dissertation)\n卫生技术高级专题 (Advanced Topics in Health Technology)\n多平面解剖学 (Multiplanar Anatomy)\n高级放射治疗计划与剂量学 (Advanced Radiotherapy Planning and Dosimetry)\n计算机断层扫描高级技术与临床应用 (Advanced Technology and Clinical Application in Computed Tomography)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "语言、文化与历史（斯堪的纳维亚研究）文学硕士",
+  "ename": "MA Language, Culture and History (Scandinavian Studies)",
+  "tags": "社科,语言,艺术与人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要相关学科背景",
+  "objectives": "伦敦大学学院语言、文化与历史（斯堪的纳维亚研究）文学硕士项目在全球范围内提供令人兴奋的、灵活的北欧文化研究选择。虽然学生不需要事先掌握北欧语的知识，但可以选择巩固他们的语言或翻译技能，或者从零开始学习丹麦语、芬兰语、冰岛语、挪威语或瑞典语。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "中级丹麦语 (Intermediate Danish)\n北欧文学中的犯罪与小社区 (Crime and Small Communities in Nordic Literature)\n高级斯堪的纳维亚语翻译(斯堪的纳维亚语到英语) (Advanced Scandinavian Translation (Scandinavian into English))\n古斯堪的纳维亚语介绍 (Introduction to Old Norse)\n北欧政治与社会 (Nordic Politics and Society)\n北欧电影:背景化德雷尔，伯格曼和道格米 (Nordic Cinema: Contextualising Dreyer, Bergman and Dogme)\n高级古斯堪的那维亚语 (Advanced Old Norse)\n北欧风景 (Nordic Landscapes)\n高级斯堪的纳维亚语言学 (Advanced Scandinavian Linguistics)\n欧洲的维京人 (The Vikings in Europe)",
+  "success_cases": ""
+}

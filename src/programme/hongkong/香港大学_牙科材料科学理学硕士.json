@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "牙科材料科学理学硕士",
+  "ename": "MSc Dental Materials Science",
+  "tags": "工科,材料,牙医学院",
+  "introduction": "专业方向: 材料\n入学时间: 9月\n项目时长: 1年\n项目学费: 275000港币/年",
+  "requirements": "具有牙科学士学位或同等第一学位级别的学位或其他资格",
+  "objectives": "香港大学牙科材料科学硕士课程主要面向那些希望更深入了解自己的日常工作或在牙科学校中促进和教授生物材料科学（牙科材料科学）的牙医，同样也适合考虑发展跨学科职业生涯的理工科专业背景申请者.课程将为其提供坚实的研究基础，对于想要在牙科或医学领域教授生物材料科学的人来说是有价值的。\n香港大学牙科材料科学硕士课程旨在发展生物材料和牙科材料的机械、物理和化学特性的基本原理；分子、微观和宏观层面的结构；以及牙科使用的每一类材料在所有相关方面的行为，与它们的功能、应用处理和服务有关。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "口腔流行病学与临床研究方法学 (Oral Epidemiology and clinical Research Methodology)\n牙科研究中统计分析导论 (Introduction to statistical analysis in Dental Research)\n牙科研究中的多变量统计分析及统计软件的使用 (Multivariable statistical analysis in dental research and use of statistical software)\n牙科外科硕士和理学硕士的论文写作-入门课程 (Dissertation Writing for Master of Dental Surgery and Master of Science – An Induction Course)\n生物材料 I ( Biomaterials I)\n生物材料 II (Biomaterials II)\n定向学习教程 (Guided Learning Tutorials)\n实验课+主题课 ( Laboratory Class + Theme-based Sessions)\nDMS科学写作+DMS研讨会报告 (DMS Scientific Writing + DMS Seminar Presentation)\n实验室研究成分 (Laboratory Research Component )\n毕业经验：理学硕士项目+科学手稿 (Capstone experience: MSc(DMS) Project + Scientific Manuscript)",
+  "success_cases": ""
+}

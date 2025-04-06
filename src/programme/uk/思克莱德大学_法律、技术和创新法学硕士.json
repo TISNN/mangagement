@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "法律、技术和创新法学硕士",
+  "ename": "LLM Law, Technology and Innovation",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 25000英镑/年",
+  "requirements": "具有一等或二等荣誉学位，需要法律或其他学科背景。法律或计算机科学学位不是学习这门课程的先决条件，将会酌情考虑相关工作经验和其他资格",
+  "objectives": "思克莱德大学的法律、技术和创新法学硕士项目是通过与一系列国际利益相关者的讨论而制定的，被认为在教授技术技能、技术法、创新和领导力方面是全球独一无二的。它不需要事先了解编码或法律。\n毕业生将有机会建立自己的技术项目，同时了解规范国际技术设计、开发和分配的法律。\n学生将在人工智能、机器学习、大数据和其他计算能力进步驱动的自动化决策和算法监管转变的背景下，探索与创新和领导力相关的法律问题。将有机会学习编码语言并更好地理解算法偏差。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "调节技术 (Regulating Technology)\n创新与领导力 (Innovation and Leadership)\n律师和法律应用程序编码 (Coding for lawyers and legal applications)\n律师统计和机器学习以及法律应用 (Statistics and machine learning for lawyers and legal application)\n网络犯罪、网络安全和防盗法 (Cyber crime, cyber security and anti-theft law)\n知识产权、商业和创新 (Intellectual property, commerce and innovation)\n算法状态下的法律、权力和责任 (Law, power and accountability in the algorithmic state)\n数字市场的法律和经济学 (Law and economics for digital markets)\n人权与数字技术 (Human rights and digital technologies)",
+  "success_cases": ""
+}

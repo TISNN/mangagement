@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "教育学硕士（中国语文教育）",
+  "ename": "Master of Education (Chinese Language Education)",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 229800港币/年",
+  "requirements": "具有学士学位或同等学历",
+  "objectives": "香港大学教育学硕士（中国语文教育）项目旨在为教师、语言教育工作者和教师教育工作者提供中国语言学和语言教育的理论知识和最新研究进展，提高他们的教学技能。此外，该专业亦旨在促进香港语言教育相关的研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育问题与研究 (Educational Issues and Research)\n中国语文教育：评估 (Assessment in Chinese Language Education)\n中文阅读理解教学理论与实践 (Chinese Reading Comprehension Instruction: Theories and Practices)\n心理语言学及中国语文学习过程 (Psycholinguistics and the Chinese Language Learning Process)\n中国语文课程与校本课程的应用 (The Chinese Language Curriculum and Its School-based Application)\n统计方法概论 (Introduction to Statistical Methods)\n定性研究方法：研究设计、数据收集与分析 (Qualitative Methods: Research Design, Data Collection and Analysis)\n教育中的叙述分析 (Narrative Analysis in Education)\n研究项目或专业作品集 (Research Project or Professional Portfolio)",
+  "success_cases": ""
+}

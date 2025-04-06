@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "国际营销理学硕士",
+  "ename": "MSc International Marketing",
+  "tags": "商科,市场营销,商学院",
+  "introduction": "专业方向: 市场营销\n入学时间: 9月\n项目时长: 1年\n项目学费: 35800英镑/年",
+  "requirements": "具有high 2:1本科（荣誉）学士学位，本课程通常不适合具有市场营销本科学位的申请者\n不强制要求但建议申请者熟悉数据分析/统计软件，如Microsoft Excel或SPSS\n不强制要求申请者提供GMAT或GRE成绩作为申请的一部分，但平衡良好的分数可能有助于申请，针对GMAT Exam (10th Edition)建议分数达到670，针对GMAT Exam (Focus Edition)建议分数不低于615或百分位排名78%，针对GRE建议分数不低于324（语言推理部分70-75%）",
+  "objectives": "伦敦大学国王学院国际营销理学硕士项目为学生提供从品牌管理到消费者行为的营销职业所需的基本技能。学生将接受专家研究人员和经验丰富的从业者的指导。学校位于伦敦市中心，这意味着学生毕业后有很多职业选择。该专业以研究为导向的教学将帮助学生发展尖端营销理论的知识，还将向学生展示如何在实际行业情况下将其付诸实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "消费者行为学 (Consumer Behaviour)\n国际营销 (International Marketing)\n营销战略与计划 (Marketing Strategy & Planning)\n市场营销研究 (Research In Marketing)\n品牌管理 (Brand Management)\nB2B市场营销 (Business To Business Marketing)\n数字化营销 (Digital Marketing)\n国际营销传播 (International Marketing Communications)\n营销与可持续性 (Marketing & Sustainability)\n营销理论与实践 (Marketing Theory & Practice)\n服务营销与零售 (Services Marketing & Retailing)",
+  "success_cases": ""
+}

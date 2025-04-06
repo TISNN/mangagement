@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 27670英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要经济学或满足课程要求的学科背景申请者应当学习过宏观经济学、微观经济学、数学、统计学或计量经济学课程",
+  "objectives": "谢菲尔德大学经济学院致力于为政府部门与组织提供专业性的建议，如国际劳工组织、世界银行与联合国教科文组织等。\n谢菲尔德大学经济学院专注于应用经济学与计量经济学领域的研究，内容涉及劳动经济学研究、国际金融、卫生经济学、教育与发展。\n谢菲尔德大学经济学理学硕士课程旨在培养学生成为商届、学术领域或政府部门的专业经济学家。\n谢菲尔德大学经济学理学硕士项目同样适合致力于继续攻读博士学位的学生，为其博士阶段的学习打下基础。学生将从中培养自身的分析能力并选择未来的具体研究方向。\n谢菲尔德大学经济学理学硕士项目的毕业生就业前景广阔，包括：金融服务业、顾问公司、国内外政府部门以及国际组织，例如经济合作与发展组织等。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济学分析 (Microeconomic Analysis )\n宏观经济学分析 (Macroeconomic Analysis)\n计量经济学方法 (Econometric Methods)\n现代银行与金融理论 (Modern Theory of Banking & Finance)\n健康经济学 (Health Economics)\n现代金融 (Modern Finance)",
+  "success_cases": ""
+}

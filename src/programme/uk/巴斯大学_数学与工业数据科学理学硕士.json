@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "数学与工业数据科学理学硕士",
+  "ename": "MSc Mathematics with Data Science for Industry",
+  "tags": "理科,数学,数学系",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有一等或strong 2nd荣誉学士学位或同等学历\n需要数学、物理或工程学的本科学位。学校也会考虑那些拥有其他学科本科学位的学生，前提是有大量的数学课程",
+  "objectives": "巴斯大学数学与工业数据科学理学硕士课程中，学生将一起参与小组项目，并有机会与学校的行业合作伙伴一起参与一个项目，并学习应用数学技术、数学建模、数据科学、机器学习和科学交流方面的一系列教学课程。研究专业可能包括工业应用数学、统计学、机器学习、概率、微分方程、动力系统、渐近学、数值分析、优化、成像、波和流体建模、数学生物学。\n巴斯大学数学与工业数据科学理学硕士课程的一大亮点是学生有机会与我们的行业合作伙伴合作开展实际项目。学生将了解问题解决过程的来龙去脉，包括：识别问题并将其翻译成数学语言；处理和分析相关数据；解决数学问题；将结果传达给客户。学生可能需要在公司工作数周，可以合作的公司包括 The Met Office、Barclays、Emerson Roxar 和 Raytheon。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工业数学建模 (Mathematical modelling for industry)\n产业合作和解决问题的原则 (Principles of industrial collaboration and problem solving)\n机器学习 1 (Machine learning 1)\n数学的工业应用 (Industrial applications of mathematics)\n合作产业研究 (Collaborative industrial research)\n统计建模 (Statistical modelling)\n科学计算 (Scientific computing)\n数值优化和大规模系统 (Numerical optimisation and large-scale systems)\n贝叶斯统计中的主题 (Topics in Bayesian statistics)\n机器学习数学 (Mathematics of machine learning)\n逆问题，数据同化和过滤 (Inverse problems, data assimilation and filtering)\n应用随机微分方程 (Applied stochastic differential equations)\n数据科学统计 (Statistics for data science)\n经典统计推断 (Classical statistical inference)",
+  "success_cases": ""
+}

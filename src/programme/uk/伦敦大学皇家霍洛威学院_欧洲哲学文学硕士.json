@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "欧洲哲学文学硕士",
+  "ename": "MA European Philosophy",
+  "tags": "社科,哲学,哲学学院",
+  "introduction": "专业方向: 哲学\n入学时间: 9月\n项目时长: 1年\n项目学费: 19100英镑/年",
+  "requirements": "",
+  "objectives": "伦敦大学皇家霍洛威学院欧洲哲学文学硕士项目是英国为数不多的专门研究“欧洲”哲学传统的硕士项目之一，汇集了来自伦敦大学各院系的学术人员——包括戏剧、文学和政治哲学方面的学者，将哲学与艺术、人文和社会科学的其他学科联系起来。利用了哲学系在19和20世纪法国和德国思想以及大陆政治哲学方面的核心研究和教学优势，开设广泛的哲学主题研究，例如古希腊哲学、19和20世纪欧洲哲学、当代分析哲学和美国实用主义等。课程设置灵活，学生能够专注于欧洲哲学或参与更广泛的选择，包括人权、大陆美学和英美政治理论的学习。学生将专注于对关键文本进行解释和分析，研究欧洲哲学的发展，尤其康德的影响以及构成德国和法国后康德哲学发展的辩论。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "哲学高级主题 (Advanced Topics in Philosophy)\n哲学毕业论文 (MA Philosophy Dissertaton)\n欧洲哲学轨迹:从康德到现在 (The European Philosophical Trajectory: From Kant to the Present)\n20世纪的法国思想 (Twentieth Century French Thought)\n当代大陆政治理论 (Contemporary Continental Political Theory)\n精神病哲学 (Philosophy of Psychiatry)\n自我修养 (Cultivation of the Self)\n身份、权力与激进政治理论 (Identity, Power and Radical Political Theory)\n人权:从理论到实践 (Human Rights: From Theory to Practice)\n政治概念 (Political Concepts)",
+  "success_cases": ""
+}

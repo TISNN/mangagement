@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "能源技术哲学硕士",
+  "ename": "MPhil Energy Technologies",
+  "tags": "工科,能源,工学院",
+  "introduction": "专业方向: 能源\n入学时间: 10月\n项目时长: 1年\n项目学费: 39504英镑/年",
+  "requirements": "申请者应该具有英国一等荣誉学位或同等学历\n鼓励各类毕业生申请，包括机械、化学、土木或环境工程师，也鼓励物理和化学专业的毕业生，想要更多地了解能源技术的热流体方面的电气工程师也可以申请\n大多数在英国完成本科学习的成功申请者将持有硕士学位如MEng，如果申请者能够表现出对该领域的投入，该课程也将考虑来自英国机构的一等工程学学士学位申请者，在非英国机构完成本科学习具备学士学位的申请者可能会被考虑录取，这取决于相关国家本科科学课程的学制时长",
+  "objectives": "剑桥大学能源技术哲学硕士学位课程为期一年，面向有意通过开发实际工程解决方案处理这些问题的毕业生及渴望深入学习能源利用、发电、能源效率和替代能源涉及的基础科学及技术的人士。能源是涉及当前科学、技术、环境、政治和经济方面具有重要意义领域的大课题。能源技术的复杂性及快速变化要求工程师必须熟练掌握基本知识、主要的能源资源和技术，并在一些领域拥有专业化知识。这就是剑桥大学能源技术哲学硕士学位课程背后的主流理念，与剑桥大学工程系的主流理念与结构一致。剑桥大学能源技术哲学硕士学位课程的教育目标是传达能源技术及其基础科学。在剑桥大学能源技术哲学硕士学位课程的学习中，学生将了解能源利用、发电、能源效率和替代能源涉及的基础科学及技术；全面看待能源工程并通过研究项目对所选的领域进行深入学习；为将来进行博士项目研究奠定基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "能源议题 (Energy Topics)\n基础复习 (Review of Fundamentals)\n清洁矿物燃料技术 (Clean Fossil Fuel Technologies)\n可再生能源：风能、潮汐能和水力 (Renewable energy: wind、tide and hydro)\n可再生能源：太阳能和生物团能量 (Renewable energy: solar and biomass)\n能源系统和效率 (Energy systems and efficiency)\n计算流体理学 (Computational Fluid Dynamics)\n涡轮机械 (Turbomachinery)\n空气动力学 (Aerodynamics)\n分子热力学 (Molecular Thermodynamics)\n流动不稳定性 (Flow Instability)\n涡动力学和湍流 (Vortex Dynamics and Turbulence)\n燃烧与集成电路发动机 (Combustion and IC Engines)\n空气声学 (Aeroacoustics)\n太阳能电池：发电和配电 (Solar-electronic Power: Generation and Distribution)",
+  "success_cases": ""
+}

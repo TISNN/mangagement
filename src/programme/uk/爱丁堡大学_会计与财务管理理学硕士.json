@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "会计与财务管理理学硕士",
+  "ename": "MSc Accounting and Financial Management",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 1年\n项目学费: 34600英镑/年",
+  "requirements": "具有英国一等或2:1荣誉学位或同等学历，需要满足以下学科之一：\n- 通常需要会计、金融或相关学科的本科学位\n- 如果申请者本科阶段具备强大的会计与金融背景，学校也会考虑具备定量学科（如经济学或数学）或商业研究荣誉学位的申请者\n申请者应该具备一定的数学能力，相关工作经验不是必需的但可能有助于申请",
+  "objectives": "组织需求不断适应我们生活的不断变化的世界，仅凭定量技能已不足以满足会计和财务管理角色的多样化需求。爱丁堡大学会计与财务管理理学硕士课程旨在使学生能够解决该领域当前最紧迫的问题。在学习期间，学生将探索从技术、数据和道德决策的作用到可持续性原则整合的创新主题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计与金融中的定量方法 (Quantitative Methods in Accounting and Finance)\n国际财务报告与金融市场 (International Financial Reporting & Financial Markets)\n财务管理与控制 (Financial Management & Control)\n会计当前问题 (Current Issues in Accounting)\n论文 (Dissertation)\n会计与金融中的定量方法 II (Quantitative Methods in Accounting & Finance II)\n会计定性研究方法 (Qualitative Research Methods in Accounting)\n会计与可持续发展 (Accounting and Sustainability)\n审计与现代社会 (Auditing and Modern Society)\n投资管理 (Investment Management)\n区块链、治理与政策 (Blockchain, Governance and Policy)\n国际气候融资 (International Climate Finance)",
+  "success_cases": ""
+}

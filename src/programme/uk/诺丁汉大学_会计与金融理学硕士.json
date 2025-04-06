@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "会计与金融理学硕士",
+  "ename": "MSc Accounting and Finance",
+  "tags": "商科,金融,诺丁汉商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 36400英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要会计、审计、财务管理或其他学科（包含很大比例的会计学习）背景，申请者必须具备很强的会计背景，并且在最后两年的学习中至少在4门课程中成绩达到2:1（60%），课程涵盖高级或专业会计理论\n如果申请者尚未完成本科学位，需要提供最后一年要学习的课程列表",
+  "objectives": "诺丁汉大学会计与金融理学硕士课程将以学生在本科学习中获得的商业技能为基础，让学生具备财务会计、管理会计、公司财务、财务分析和公司治理方面的专业知识。这将有助于增加学生在跨国会计和金融领域的丰厚职业机会。课程的核心模块将有助于加深对基本领域的理解，包括公司财务战略和财务安全评估。学生还可以从符合个人职业目标的领域的可选模块中进行选择，如行为经济学、国际金融和公司治理。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司金融策略 (Corporate Financial Strategy)\n现代会计实务 (Current Issues in Accounting)\n会计与财务的定量研究方法 (Quantitative Research Methods for Accounting and Finance)\n金融安全评估 (Financial Security Valuation)\n财务报表分析 (Financial Statement Analysis)\n管理会计与控制 (Management Accounting and Control)\n行为经济学与决策 (Behavioural Economics and Decision Making)\n企业管治 (Corporate Governance)\n金融计量经济学 (Financial Econometrics)\n国际金融 (International Finance)\n高级财务报表实务 (Advanced Issues in Financial Reporting)",
+  "success_cases": ""
+}

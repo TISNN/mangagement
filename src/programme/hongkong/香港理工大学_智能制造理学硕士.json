@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "智能制造理学硕士",
+  "ename": "MSc Smart Manufacturing",
+  "tags": "工科,工业工程,工程学院",
+  "introduction": "专业方向: 工业工程\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 154000港币/年",
+  "requirements": "具有学士学位或同等学历，需要工程、科学或相关学科背景，优先考虑具备相关工作经验的申请者\n个别情况下学院会根据个案考虑，申请者可能需要参加面试或笔试以进一步证明他们的语言能力",
+  "objectives": "香港理工大学智能制造理学硕士旨在让学生深入了解智能制造技术和发展。通过评估实际应用的工业需求，赋予学生开发智能制造解决方案的能力。赋予学生选择、部署和管理智能制造的能力，实现数字化转型升级。培养学生将智能制造融入全球供应链。帮助学生做好制造管理的准备，并激发他们终身学习如何利用智能制造的力量。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工业 4.0 优化和数据分析 (Optimisation and Data Analytics for Industry 4.0)\n信息物理工业4.0系统 (Cyber–Physical Industry 4.0 Systems)\n先进的制造工艺 (Advanced Manufacturing Processes)\n工业 4.0 前沿 (Frontiers in Industry 4.0)\n工业人机系统和自动化 (Industrial Human–Robot Systems and Automation)\n工业虚拟宇宙和混合现实 (Industrial Metaverse and Mixed Reality)\n智能制造运营管理 (Smart Manufacturing Operations Management)\n智能产品服务系统 (Smart Product-Service Systems)\n工业区块链及应用 (Industrial Blockchain and Applications)\n流程和绩效衡量 (Process and Performance Measurement)\n技术项目管理 (Technology Project Management)\n优化建模与应用 (Optimisation Modelling and Applications)\n技术审核与评估 (Technology Audit and Assessment)",
+  "success_cases": ""
+}

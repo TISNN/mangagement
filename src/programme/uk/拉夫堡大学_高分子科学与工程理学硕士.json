@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "高分子科学与工程理学硕士",
+  "ename": "MSc Polymer Science and Engineering",
+  "tags": "工科,材料,材料学院",
+  "introduction": "专业方向: 材料\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有英国2:2荣誉学位或同等学历，需要理工科背景",
+  "objectives": "本课程旨在让学生对聚合物科学和工程有一个广泛的了解，尤其是对聚合物和塑料在工业和商业应用方面的潜在性能和过程方面的了解。聚合物科学与工程是一个快速发展的领域，对我们的生活方式有重大影响。它使我们能够开发出更加复杂的材料来满足社会和地球的需要。该课程涵盖了塑料、橡胶和复合材料的最新科学和工程知识，包括纳米技术、生物材料、循环利用和可持续性等方面。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高分子科学 (Polymer science)\n先进聚合物制造 (Advanced polymer manufacturing)\n纳米材料和复合材料 (Nanomaterials and composites)\n先进材料描述 (Advanced materials characterisation)\n研究方法 (Research methods)\n组织设计项目 (Group design project)\n论文项目 (Dissertation project )\n生物材料的发展 (Advances in biomaterials)\n胶体的科学和工程 (Science and engineering of colloids)\n能源材料 (Energy materials)\n材料模型 (Materials modelling)",
+  "success_cases": ""
+}

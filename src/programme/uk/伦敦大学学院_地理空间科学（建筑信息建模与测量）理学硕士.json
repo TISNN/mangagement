@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "地理空间科学（建筑信息建模与测量）理学硕士",
+  "ename": "MSc Geospatial Sciences (Building Information Modelling and Surveying)",
+  "tags": "工科,地球科学,工程科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要相关学科背景（例如工程学、建筑学、地理学、城市规划、数学、测量、海洋和地球科学、计算机科学），通常情况下，学校只接受具有一等或2:1学位的申请者，但具有2:2学位以及丰富工作经验的申请者也将被考虑",
+  "objectives": "伦敦大学学院地理空间科学（建筑信息建模与测量）理学硕士项目教授学生地理空间数据采集、处理及分析相关的理论、工具和技术。学生将学习建筑信息建模几何层面与语义层面的内容，研究测量原理、三维现实捕获、测绘科学、地理信息科学以及三维几何建模等多个话题，探究地理空间数据和建筑信息建模相关数据的综合管理。学生将有机会与学术界和业界精英合作交流，通过各种研讨会和论文深入研究前沿领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据分析 (Data Analysis)\n工程测量学 (Engineering Surveying)\n地理空间编程 (Geospatial Programming)\n地理空间科学 (Geospatial Science)\n建筑信息建模应用 (Applied Building Information Modelling)\n现实捕捉与精密3D传感 (Reality Capture and Precision 3D Sensing)\n传感器与定位 (Sensors and Location)\n网络与移动GIS-应用程序与编程 (Web and Mobile GIS - Apps and Programming)",
+  "success_cases": ""
+}

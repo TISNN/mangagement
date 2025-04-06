@@ -1,0 +1,12 @@
+{
+  "school_name": "匹兹堡大学",
+  "major_name": "供应链管理和商业分析硕士",
+  "ename": "MS in Supply Chain Management and Business Analytics",
+  "tags": "商科,供应链管理",
+  "introduction": "专业方向: 供应链管理\n入学时间: 秋季\n项目时长: 2年\n项目学费: 900美元/学期",
+  "requirements": "GPA3.25, 至少6学分的定量课程GPA3.0",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

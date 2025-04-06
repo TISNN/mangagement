@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 39000英镑/年",
+  "requirements": "具有2:1荣誉学位或非英国同等学历，不限专业背景，具备至少3年管理工作经验",
+  "objectives": "格拉斯哥大学工商管理硕士将赋予学生关键技能和知识，并为学生提供加速职业生涯所需的社交机会，无论是作为私营、第三或公共部门的经理，还是在发展自己的创业前景方面。该课程为学生提供一对一的支持，帮助学生成为成功的领导者。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "不确定性型决策 (Decision making under uncertainty)\n财务信息与分析 (Financial information and analysis)\n全球经济 (Global economy)\n管理资源 (Managing resources)\n营销管理 (Marketing management)\n战略远见 (Strategic foresight)\n战略管理 (Strategic management)\n企业间关系管理 (Business-to-business relationship management)\n服务营销的案例与挑战 (Cases and challenges in services marketing)\n变革管理 (Change management)\n消费者行为 (Consumer behaviour)\n企业形象、品牌与传播 (Corporate image, branding and communication)\n数字营销 (Digital marketing)\n创业融资 (Entrepreneurial finance)",
+  "success_cases": ""
+}

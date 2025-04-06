@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "数据、不平等与社会理学硕士",
+  "ename": "MSc Data, Inequality and Society",
+  "tags": "理科,数据科学,爱丁堡未来学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，不限专业背景\n学校也会考虑具备其他专业资格或经验的申请者（需要在申请前联系学校确认），学校特别欢迎具有设计或实施旨在减少不平等的项目、计划或政策经验的专业人士（例如在公司、政府或第三部门组织工作）的申请",
+  "objectives": "爱丁堡大学数据、不平等与社会理学硕士课程将使学生能够描述和分析任何给定制度和人文环境中社会包容的程度和维度。设计创造性的解决方案，以提高跨部门计划、项目和政策的包容性。在分析社会的包容性和设计解决方案时，借鉴并结合不同的学科/观点。与多元化且以价值观为导向的团队一起高效地处理复杂的包容性项目。在上述所有努力中充分利用数据，对数据生产和使用保持批判态度。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "排斥与不平等 (Exclusion and Inequality)\n包容性社会 (Inclusive Society)\n跨学科未来 (Interdisciplinary Futures)\n透过数据或文本合成产生见解 (Insights Through Data or Text Remix)\n道德数据未来 (Ethical Data Futures)\n代表数据或构建近期未来 (Representing Data or Building Near Futures)\n社会数据科学 (Data Science for Society)\n价值链中的权力、数据与不平等 (Power, Data and Inequality in Value Chains)\n工作未来 (Work Futures)\n固有未来 (Indigenous Futures)\n数据的殖民性 (The Coloniality of Data)\n后新冠城市的数据与设计 (Data and Design for a Post-Covid City)\n数字时代的移民与被迫迁移   (Migration and Forced Displacement in a Digital Age)\n新技术如何改变社会的批判性观点 (Critical perspectives on how new technologies are changing society)\n快速变化的新技术和数据来源如何改变民主的未来  (How new and rapidly changing technologies and data sources are transforming the future of democracy)",
+  "success_cases": ""
+}

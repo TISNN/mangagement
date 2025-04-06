@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "核科学与工程理学硕士",
+  "ename": "MSc Nuclear Science and Engineering",
+  "tags": "理科,化学,物理学院",
+  "introduction": "专业方向: 化学\n入学时间: 9月\n项目时长: 1年\n项目学费: 34900英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要理工科背景，地质学、地理学、地球科学、生命科学、物理学或化学以外背景的申请者必须证明数学知识达到A-level数学Grade C或以上水平（或同等条件）或3门学位水平的定量或物理课程成绩达到2:1或以上水平\n对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩\n学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用。\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们至少具备以下其中一项：\n- 核部门或密切相关的工程部门（例如航空航天、石油和天然气、汽车）的相关工作经验的证据；\n- 上述认可科目之一的相关研究生学历\n如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关工作经验和/或资格",
+  "objectives": "布里斯托大学核科学与工程理学硕士项目将为学生提供支撑当今核能系统的科学与工程方面的知识，从而让学生们为工业界或学术界的职业生涯做好准备。该课程结合了科学学院和工程学院的优势，而且还通过布里斯托尔-牛津核研究中心制定了国家认可的工业研究计划。该理学硕士项目将会提供给学生独特的多学科经验，这是西南核中心的重要组成部分。该课程是学院与工业界合作开发并交付，其中还包含了对核专业精神的。在完成课程后，毕业生将会熟悉核工业以及其独特的安全文化，这将会让学员们为决定是进入该行业还是继续留在学术界做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "核科学基础 (Fundamentals of Nuclear Science)\n核反应堆工程 (Nuclear Reactor Engineering)\n核材料行为 (Nuclear Materials Behaviour)\n核反应堆物理 (Nuclear Reactor Physics)\n核燃料循环 (Nuclear Fuel Cycle)\n研究技能 (Research Skills)\n小组项目 (Group Project)\n个人研究项目 (Individual Research Project)\n核物理导论 (Introduction to Nuclear Physics)\n有限元分析 (Finite Element Analysis)\n土木工程系统4 (Civil Engineering Systems 4)\n危害与核基础设施 (Hazards and Nuclear Infrastructure)\n材料物理 (Materials Physics)\n纳米物理学 (Nanophysics)\n表面物理 (Surface Physics)\n高等物理与理论化学 (Advanced Physical & Theoretical Chemistry)\n环境放射性 (Environmental Radioactivity)",
+  "success_cases": ""
+}

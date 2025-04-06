@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "心理科学理学硕士",
+  "ename": "MSc Psychological Sciences",
+  "tags": "社科,心理学,大脑科学学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "通常具有英国大学颁发的2:1学士学位或同等学历",
+  "objectives": "伦敦大学学院心理科学理学硕士项目教授学生高级心理学研究方法，培养学生的数据分析技能，不限学生本科背景专业，欢迎来自不同学科背景的学生申请。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "发展心理学 (Developmental Psychology)\n实证项目 (Empirical Projects)\n生物心理学 (Biological Psychology)\n社会心理学 (Social Psychology)\n定性数据分析 (Qualitative Data Analysis)\n认知心理学 (Cognitive Psychology)\n个体差异 (Individual Differences)\n心理学统计学导论 (Introduction to Statistics for Psychology )",
+  "success_cases": ""
+}

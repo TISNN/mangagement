@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "国际会计与金融理学硕士",
+  "ename": "MSc International Accounting & Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 32600英镑/年",
+  "requirements": "具有二等荣誉学位或同等学历，要求会计学、经济学、商业研究、数学、统计学或计算机学背景",
+  "objectives": "思克莱德大学国际会计与金融理学硕士学位课程适合想要继续深入研究会计的本科毕业生，也适合会计或金融领域的职业人士。\n思克莱德大学国际会计与金融理学硕士学位课程使学生运用国际视角研究会计理论与实践。在思克莱德大学国际会计与金融理学硕士学位课程中，学生将学习金融管理和证券市场，国际会计标准的和谐化进程及顶尖标准设定官方机构的影响。\n通过思克莱德大学国际会计与金融理学硕士学位课程的学习，学生将：\n运用国际化视角理解收益和价值的会计理论；\n批判认识国际会计标准及其实施；\n充分了解金融理论和分析；\n了解金融市场和机构的本质及职能；\n有能力在实践中运用分析技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融学原理 (Principles of Finance)\n会计和财务分析 (Accounting & Financial Analysis)\n金融定量方法 (Quantitative Methods for Finance)\n国际金融市场和银行 (International Financial Markets & Banking)\n高级公司金融和应用 (Advanced Corporate Finance & Applications)\n高级会计学 (Advanced Accounting)\n管理会计学 (Management Accounting)\n证券分析 (Security Analysis)\n投资组合理论和管理 (Portfolio Theory & Management)\n金融实证研究方法 (Empirical Methods in Finance)\n国际会计 (International Accounting)",
+  "success_cases": ""
+}

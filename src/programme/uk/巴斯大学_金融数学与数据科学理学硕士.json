@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "金融数学与数据科学理学硕士",
+  "ename": "MSc Financial Mathematics with Data Science",
+  "tags": "理科,数据科学,数学系",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有一等或strong 2nd荣誉学士学位或同等学历\n申请者本科学位应该包含大量数学元素，例如数学、统计学、计算机科学、物理、化学、工程或经济学。计算机编程经验也将是有利的。也考虑其他科目，例如地理或生物学，这些科目可能符合标准，具体取决于其特定的数学和计算内容",
+  "objectives": "巴斯大学金融数学与数据科学理学硕士将增强学生在广泛主题上的数学技能，并为学生提供金融行业雇主所需的定量技能。学生将获得与现代金融机构相关的数学和数据科学方法的广泛教育；将对机器学习和其他数据科学工具以及成功实施它们的软件技能有一个实践和理论的理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学编程 (Programming for data science)\n离散时间金融 (Discrete time finance)\n应用机器学习 (Applied machine learning)\n风险、随机性和优化 (Risk, randomness and optimisation)\n机器学习数学 (Mathematics of machine learning)\n连续时间金融 (Continuous time finance)\n金融领域的高级数学和数据科学技术 (Advanced mathematics and data science techniques for finance)\n蒙特卡罗金融方法 (Monte Carlo methods for finance)\n研究项目准备 (Research project preparation)",
+  "success_cases": ""
+}

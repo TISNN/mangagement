@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "生物技术、生物加工与商业管理理学硕士",
+  "ename": "MSc Biotechnology, Bioprocessing & Business Management",
+  "tags": "理科,生物,生命科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 35340英镑/年",
+  "requirements": "具有2:2本科学位或同等学历，需要生命科学、工程或商业研究背景（来自工程或商业背景的学生必须是优等生并表现出对生物科学的兴趣）",
+  "objectives": "生物加工和生物技术产业是全球工业化经济体的主要组成部分，影响着医药、制药、制造业和食品等行业的发展。而这一行业的管理变革需要由兼具商业头脑和科学知识基础的人来引导。华威大学生物技术、生物加工与商业管理理学硕士项目教授学生必要的专业知识、应用工具以及商务技能，培养优秀的企业家。华威大学生命科学学院及商学院的各领域专家共同组成了本项目的跨学科教学师资队伍，本项目将由国际公认的学者以及业界与政界专家教授。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物技术与基因工程基础 (The Fundamentals of Biotechnology and Genetic Engineering)\n生化工程 (Biochemical Engineering)\n创业与商业化 (Entrepreneurship and Commercialisation)\n生物制品工厂设计与经济分析 (Bioproduct Plant Design and Economic Analysis)\n论文/项目 (Dissertation/Project)\n药物发现与生物制药开发 (Drug Discovery and Biopharmaceutical Development)\n市场营销管理 (Marketing Management)\n会计与财务管理 (Accounting and Financial Management)\n经营策略 (Business Strategy)\n环境保护，风险评估与安全 (Environmental Protection, Risk Assessment and Safety)\n预防和治疗传染病的创新 (Innovations to Prevent and Treat Infectious Disease)\n医学基因组学要点 (Essentials of Medical Genomics)\n微生物组学和元基因组学 (Microbiomics and Metagenomics)",
+  "success_cases": ""
+}

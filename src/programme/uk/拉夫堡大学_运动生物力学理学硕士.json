@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "运动生物力学理学硕士",
+  "ename": "MSc Sport Biomechanics",
+  "tags": "理科,生物,体育、运动与健康科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 10月\n项目时长: 1年\n项目学费: 30950英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要体育或生物科学背景（含有大量生物力学/生物工程成分），或工程学、数学、物理学或相关学科背景\n该项目的入学竞争很激烈，除了最低入学要求外，申请者还可以通过证明以下一些证据来增加被录取的机会：\n- 数学/数值能力\n- 计算机编程经验\n- 生物力学或相关领域的工作经验\n- 生物力学或相关领域的专业资格\n- 在生物力学或运动科学会议或研讨会上的演讲\n- 在国际同行评议的期刊上发表研究成果",
+  "objectives": "通过对运动的测量和模拟，拉夫堡大学运动生物力学有助于更​​好地了解人类在体育和娱乐活动中的表现。然后可以使用这种理解来提高性能并降低受伤风险。拉夫堡大学运动生物力学理学硕士计划包含前沿内容，从实验数据收集和分析技术和设备，到最新的理论考虑和研究问题。在整个计划中，学生将受益于进入大型指定教学实验室并使用关键的生物力学设备，包括 Vicon 运动分析系统、测力板、无线肌电图 (EMG) 和等速测功机。此外，学生将使用编程语言 MATLAB 进行数据处理和分析，并使用软件进行计算机仿真和惯性建模。拉夫堡大学运动生物力学理学硕士计划以原始研究项目告终，学生将应用从所教授的模块中获得的知识和专业知识，独立收集和分析数据以回答研究问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "核心生物力学 (Core Biomechanics)\n生物力学分析理论与方法 (Theories and Methods of Analysis in Biomechanics)\n骨科运动生物力学 (Orthopaedic Sport Biomechanics)\n神经肌肉功能 (Neuromuscular Function)\n核心生物力学 (Core Biomechanics)\n生物力学分析理论与方法 (Theories and Methods of Analysis in Biomechanics)\n定量研究 (Quantitative Research)\n为运动生物力学开发计算机模型 (Developing Computer Models for Sports Biomechanics)\n研究项目：体育运动中的自然科学 (Research Project: Natural Sciences in Sport and Exercise)",
+  "success_cases": ""
+}

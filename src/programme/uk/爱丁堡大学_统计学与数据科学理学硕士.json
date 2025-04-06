@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "统计学与数据科学理学硕士",
+  "ename": "MSc Statistics with Data Science",
+  "tags": "理科,数学,数学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有英国2:1学位或同等学历，需要数学学科背景如数学、工程学、计算机科学、物理或生物科学、经济学或商学\n学位必须包含大量的数学内容，包括微积分（包括多变量微积分）、线性代数、概率论、统计学和统计理论",
+  "objectives": "在当下数字和数据丰富的时代，工业、公共部门和学术界急需大量统计学毕业生，而当前这类毕业生数量极少。近年来，随着数据科学的发展，人们越来越认识到统计的重要性，对数据的分析和对结果的解释已成为该领域的研究重点。\n爱丁堡大学统计学与数据科学理学硕士项目旨在培训新一代统计学家，在数据科学领域发挥社会价值。课程大纲结合了严谨的统计学理论及将统计模型应用于数据的实践经验，具体课程包括：经典与贝叶斯理论、计算统计数据、回归分析、数据分析的模型和应用。多数学生毕业后作为私人和公共机构的统计学家，提供统计咨询意见。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "贝叶斯数据分析 (Bayesian Data Analysis)\n贝叶斯理论 (Bayesian Theory)\n普通回归模型 (Generalised Regression Models)\n不完全数据分析 (Incomplete Data Analysis)\n统计编程 (Statistical Programming)\n统计研究技能 (Statistical Research Skills)\n生存数据分析 (The Analysis of Survival Data)\n生物医学数据科学 (Biomedical Data Science)\n信用评分 (Credit Scoring)\n运筹学基础 (Fundamentals of Operational Research)\n优化基础 (Fundamentals of Optimization)\n遗传流行病学 (Genetic Epidemiology)\n数据科学的大规模优化 (Large Scale Optimization for Data Science)\n机器学习与模式识别 (Machine Learning and Pattern Recognition)\nPython机器学习 (Machine Learning in Python)",
+  "success_cases": ""
+}

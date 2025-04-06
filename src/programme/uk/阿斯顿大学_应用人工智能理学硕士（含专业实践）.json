@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "应用人工智能理学硕士（含专业实践）",
+  "ename": "MSc Applied Artificial Intelligence (including Professional Practice)",
+  "tags": "工科,计算机,信息与数字工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 2年\n项目学费: 12000英镑/年",
+  "requirements": "具有非计算学科学士学位，成绩达到2:2（或同等学历），并且GCSE数学达到Grade B级或同等水平",
+  "objectives": "阿斯顿大学应用人工智能理学硕士（含专业实践）项目是在编码研究所的支持下开发的，旨在帮助学生打破数字学习和就业的障碍。教授学生所需的专业技术信息，并培养学生针对现实生活中的挑战，创建合乎道德、合理且适当的AI解决方案的能力。强调实践经验，提供实践机会，学生有机会设计和计划、实施、测试、评估和记录解决方案，为应对未来的职业挑战做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "面向对象软件开发的基础 (Foundations of Object-oriented Software Development)\n软件工程 (Software Engineering)\n数据库系统 (Database Systems)\nAI:愿景与现实 (AI: Vision and Reality)\n研究方法与专业实践 (Research Methods and Professional Practice)\n毕业论文 (Dissertation)\n数据分析技术(数据挖掘) (Techniques for Data Analysis (Data Mining))\n机器学习 (Machine Learning)\n人工智能数学学习 (Mathematics for AI)\n多智能体系统与战略决策 (Multi-agent Systems and Strategic Decision Making)",
+  "success_cases": ""
+}

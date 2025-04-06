@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 27300英镑/年",
+  "requirements": "至少具有英国2:2本科荣誉学位或同等学历\n必须具备毕业后 至少5年相关全职工作经验，其中3年应为管理经验。学业成绩较低的申请者通常需要证明具备更长时间的工作经验",
+  "objectives": "萨塞克斯大学工商管理硕士课程建立在数字化工作、创新、韧性、政策四大支柱之上，旨在帮助学生培养在当今混乱的商业环境中所需的领导力，拥有重要的想法和将其付诸实践的技能，成为一名高效的商业领袖。在一流学者和行业专家的指导下，学生将获得一系列的管理和领导技能，发展批判和战略思维，并学习在实践中应用前沿的商业理论。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用研究方法 (Applied Research Methods)\n会计与财务管理（MBA） (Accounting and Financial Management (MBA))\n创新创业（MBA） (Innovation and Entrepreneurship (MBA))\n领导力与个人发展 (Leadership and Personal Development)\n管理人员和组织 (Managing People and Organisations)\n市场营销管理（MBA） (Marketing Management (MBA))\n管理会计与控制 (Management Accounting & Control)\n国际商务 (International Business)\n谈判管理（MBA） (Management of Negotiation (MBA))\n战略品牌管理 (Strategic Brand Management)",
+  "success_cases": ""
+}

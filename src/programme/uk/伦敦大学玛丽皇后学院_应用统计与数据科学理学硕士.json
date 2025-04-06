@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "应用统计与数据科学理学硕士",
+  "ename": "MSc Applied Statistics and Data Science",
+  "tags": "理科,数据科学,数学科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有good 2:2荣誉学位或同等学历，需要科学、技术、工程或数学 (STEM) 学科背景\n学校也将考虑具有任何其他科目2:1学位的申请者，只要学位包含令人满意的数学或统计学研究",
+  "objectives": "伦敦大学玛丽皇后学院应用统计与数据科学理学硕士是从传统的统计学学位发展而来的，提供满足当今行业需求的现代化模块。除了学习 R 和 Python 等分析工具之外，学生还将学习如何利用数据和统计的力量。学生学到的知识和技能将为自己提供一个跨行业工作、从事研究或攻读博士学位的平台。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用统计模型 (Applied Statistical Modelling)\n应用统计与数据科学论文 (Applied Statistics and Data Science Dissertation)\n使用 R 进行计算统计 (Computational Statistics with R)\n数据分析的概率与统计 (Probability and Statistics for Data Analytics)\n使用 Python 进行机器学习 (Machine Learning with Python)\n存储、操作和可视化数据 (Storing, Manipulating and Visualising Data)\n高级机器学习 (Advanced Machine Learning)\n时间序列 (Time Series)\n商业时间序列分析 (Time Series Analysis for Business)",
+  "success_cases": ""
+}

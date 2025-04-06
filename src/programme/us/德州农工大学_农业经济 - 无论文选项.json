@@ -1,0 +1,12 @@
+{
+  "school_name": "德州农工大学",
+  "major_name": "农业经济 - 无论文选项",
+  "ename": "M.S. Agricultural Economics – Non-Thesis Option",
+  "tags": "商科,经济",
+  "introduction": "专业方向: 经济\n入学时间: 秋季\n项目时长: 32学分\n项目学费: 7,280.02美元/学期",
+  "requirements": "本课程涵盖确定国民收入，就业和价格总水平的理论\n;货币和财政政策分析，政府债务和赤字的影响毕业前60小时的学习GPA为3.0或者毕业前30小时的学习GPA为3.25。需要完成MATH 142: Business Calculus：商业微积分\n本课程涵盖限制和连续性;导数的技术和应用，包括曲线草图绘制和优化;积分的技术和应用;强调在商业，经济和社会科学中的应用。STAT 303: Statistical Methods面向社会科学本科生。介绍随机抽样和统计推断的概念，均值和方差的估计和检验假设，方差分析，回归分析，卡方检验。ECON 323: Microeconomics Theory本课程涵盖价格的确定及其在竞争和非竞争市场情况下指导消费，生产和分配的作用。ECON 410: Macroeconomic Theory",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

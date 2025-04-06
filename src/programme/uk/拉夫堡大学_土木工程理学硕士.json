@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "土木工程理学硕士",
+  "ename": "MSc Civil Engineering",
+  "tags": "工科,土木工程,架构、建筑与土木工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 10月\n项目时长: 1年\n项目学费: 25500英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要与土木工程密切相关的学科背景，专业机构的会员资格可能可以代替满足学位要求",
+  "objectives": "拉夫堡大学土木工程理学硕士课程培养了应用于实际工程问题的高级数值、分析、设计和管理技能。这些技能，再加上特定的技术专长和批判性思维，将使学生能够从事土木工程工作，朝着成为专业合格工程师的方向前进，或者从其他广泛的职业中选择，包括进一步的博士研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "结构动力学与地震工程 (Structural Dynamics and Earthquake Engineering)\n高级地质和环境建模 (Advanced Geo and Environmental Modelling)\n工程中的定量和数值方法 (Quantitative and Numerical Methods for Engineering)\n研究方法 (Research Methods)\n研究论文 (Research Dissertation)\n建筑用低碳材料 (Low Carbon Materials for Construction)\n灾害风险管理 (Disaster Risk Management)\n洪水风险评估的GIS和数据分析 (GIS & data analytics for flood risk assessment)\n互联和自主运输 (Connected and Autonomous Transport)\n模拟和可视化 (Simulation and Visualisation)\n建筑工程战略管理 (Strategic Management for Construction and Engineering)\n组织和人员 (Organization and People)",
+  "success_cases": ""
+}

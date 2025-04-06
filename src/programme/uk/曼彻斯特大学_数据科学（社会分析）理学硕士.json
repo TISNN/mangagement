@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "数据科学（社会分析）理学硕士",
+  "ename": "MSc Data Science (Social Analytics)",
+  "tags": "理科,数据科学,社会科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有High 2:1荣誉学位或同等学历\n申请者需要具备一个包含相当比例社会科学内容的学位，应该完成以下任意主题至少2门学位水平的课程：社会学、心理学、人类学、经济学、历史学、人文地理学、政治学、公共卫生\n以下包括其他有助于申请的技能/经验：将统计模型应用于社会科学的证据；将统计模型应用于社会问题方面的非学术经验；从事公共政策或类似工作的经验\n在申请中应该表现出在以下三个领域的能力、知识和/或兴趣：数据分析和/或统计学；计算学科；和细分方向的具体要求。这些可以通过本科阶段和高中阶段的修读过的课程单元或专业经验来证明",
+  "objectives": "曼彻斯特大学数据科学理学硕士不同分支的课程范围反映了课程的跨学科性质，欢迎有不同学科背景的学生申请，包括：商业和管理；健康科学；社会科学；地理位置；规划；计算机科学；数学。曼彻斯特大学数据科学理学硕士项目为学生提供核心数据科学技能培训，并将其嵌入路径提供的学科背景中，学生将发展：计算技能；数据分析能力；数据管理技能和知识；工程设计能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用空间分析进行规划 (Applied Spatial Analysis for Planning)\n调查研究方法 (Survey Research Methods)\n纵向数据分析 (Longitudinal Data Analysis)\n复杂调查设计与分析 (Complex Survey Designs and Analysis)\n结构方程和潜在变量建模 (Structural Equation and Latent Variable Modelling)\n多层次建模 (Multilevel Modelling)\n社交网络分析 (Social Network Analysis)",
+  "success_cases": ""
+}

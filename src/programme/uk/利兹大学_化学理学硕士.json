@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "化学理学硕士",
+  "ename": "MSc Chemistry",
+  "tags": "理科,化学,化学学院",
+  "introduction": "专业方向: 化学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:2荣誉学士学位，需要化学或化学相关学科背景，申请者必须修读过有机化学、无机化学、物理化学和分析化学课程并且始终达到2:2等级或更高水平的成绩",
+  "objectives": "从根本上讲，化学是将一种分子转化为另一种分子的“艺术”。利兹大学化学理学硕士旨在让学生将学习方向转为化学的专业领域。本课程重点强调实用化学，同时化学研究的当前主题。这使得所学的化学原理和理论能够在实验室环境中应用，以解决现实世界的挑战。促进对广泛的化学相关学科的参与，确保课程具有高度的跨学科性，并包含来自一系列专业的专业知识，包括化学、食品科学和营养学、物理学、化学生物学和材料科学。学生将有机会接受各系专家的培训，获得在多学科环境中工作的技能和知识。通过实践技能模块和独立的原创研究项目，学生将在实验室获得广泛的实践经验。可选模块可以提供在符合学生兴趣和职业抱负的领域积累专业知识。在化学硕士课程期间，学生将发展在化学科学行业的职业生涯所需的知识和技能。除了学习关键的研究技术外，学生还将学习解决问题、信息技术、科学演示和科学交流方面的一系列关键技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "基于化学的理学硕士课程研究项目 (Research Project for Chemistry-based MSc courses)\n化学高级专题（授课型） (Advanced Topics in Chemistry (Coursework))\n化学高级专题（S2考试） (Advanced Topics in Chemistry (Examined S2))\n化学家的高级实践、专业与研究技能 (Advanced Practical, Professional and Research Skills for Chemists)\n基于结构的药物发现 (Structure-based Drug Discovery)\n陶瓷、聚合物与复合材料 (Ceramics, Polymers and Composites)\n纳米材料 (Nanomaterials)\n有机分子的合成与表征 (Synthesis and Characterisation of Organic Molecules)\n化学基础 - 授课型 (Foundations of Chemistry - Coursework)\n实用化学基础 (Foundations of Practical Chemistry)\n现代药物发现 (Modern Drug Discovery)\n高级化学主题（S1考试） (Advanced Topics in Chemistry (Examined S1))\n化妆品科学 (Cosmetic Science)\n高级色彩科学 (Advanced Colour Science)\n食品的物理性质 (Physical Aspects of Food)\n胶体与乳制品科学 (Colloid and Dairy Science)\n食品质量保证与控制 (Food Quality Assurance and Control)\n软物质物理学：液晶 (Soft Matter Physics: Liquid Crystals)\n软物质物理学：聚合物、胶体与玻璃 (Soft Matter Physics: Polymers, Colloids and Glasses)\n生物系统物理学 (Physics of Biological Systems)",
+  "success_cases": ""
+}

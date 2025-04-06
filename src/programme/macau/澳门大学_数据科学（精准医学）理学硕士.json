@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "数据科学（精准医学）理学硕士",
+  "ename": "MSc Data Science (Precision Medicine)",
+  "tags": "理科,数据科学,健康科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "本科GPA2.8或以上(相当于75-77分)。本科生物医学、医学科学、健康科学、生物医学工程、生物科学、生物信息学、生物统计学、统计学或计算机科学相关专业优先",
+  "objectives": "该计划的特色是多学科课程，该课程汲取了跨学科的见解，使学生能够使用最新的工具和分析方法从现实世界的数据集中提取信息，并以各种方式解释和交流其发现改变人们的思想和行为。数据科学理学硕士课程为期两年，与不同学术单位合作开展。科学与技术学院总共将开设4门基础课程，内容涉及大数据理论，挖掘和分析技术等。要求学生声明自己的专业，这是由不同学术单位提供的，以学习和研究如何处理大数据。切实有效地应用于他们指定的专业领域。学生应根据指定专业的学习计划注册课程，并完成具有指定主题的项目报告。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学编程简介 (Introduction to Data Science Programming)\n数据科学和数据可视化 (Data Science and Data Visualization)\n数据库和数据挖掘技术 (Database and Data Mining Technologies)\n机器学习工具 (Tools for Machine Learning)\n生物医学科学 (Biomedical Sciences)\n数字生物医学 (Digital Bio-medicine)\n医疗保健分析 (Healthcare Analytics)\n医学人工智能 (Artificial Intelligence in Medicine)\n项目报告 (Project Report)",
+  "success_cases": ""
+}

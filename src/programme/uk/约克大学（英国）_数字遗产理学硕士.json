@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "数字遗产理学硕士",
+  "ename": "MSc Digital Heritage",
+  "tags": "社科,历史,考古学院",
+  "introduction": "专业方向: 历史\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:2学位或同等学历\n学校会考虑成熟学生或那些具有非常规学历但具备针对该领域的相关专业经验和热情的申请者，要了解专业经验或资格是否合适，需要联系课程负责人\n需要提交2篇written work",
+  "objectives": "约克大学数字遗产理学硕士项目汇集了考古学系在考古信息科学和文化遗产方面的优势，将遗产管理的理论和应用研究与新技术的实践培训相结合。您将与一个技术先驱和计算机学者团队合作，他们在研究和开发世界遗产领域的解释性内容和数字应用方面处于领先地位。您将有机会获得传统行业的实际安置经验，发展必要的IT知识和技能，使用全套研究计算硬件和软件，并从具有行业内招聘经验的员工那里获得量身定制的职业建议。约克大学数字遗产理学硕士课程非常适合考古学、历史学、艺术史、博物馆研究、教育学、人类学、文化研究及相关领域的毕业生，以及具有丰富IT经验的候选人。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "考古学中的数字知识生产 (Digital Knowledge Production in Archaeology)\n分析和可视化 (Analysis and Visualisation)\n文化遗产管理I：概念、原则与实践 (Cultural Heritage Management I: Concepts, Principles and Practice)\n文化遗产管理II：博物馆、观众与解读 (Cultural Heritage Management II: Museums, Audiences and Interpretation)\n传统电影制作 (Heritage Filmmaking)\n数字成像 (Digital Imaging)\n地理信息系统 (Geographical Information Systems (GIS))\n虚拟现实与三维建模 (Virtual Reality and 3D Modelling)\n传承中的用户设计体验 (User-Design Experience in Heritage)\n论文 (Dissertation)",
+  "success_cases": ""
+}

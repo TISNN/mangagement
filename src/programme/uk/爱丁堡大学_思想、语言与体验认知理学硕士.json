@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "思想、语言与体验认知理学硕士",
+  "ename": "MSc Mind, Language and Embodied Cognition",
+  "tags": "社科,语言,哲学、心理学与语言科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要哲学或相关领域背景，如认知科学、计算机科学、心理学或语言学\n需要提供Work Samples",
+  "objectives": "爱丁堡大学思想、语言与体验认知理学硕士主要教授认知科学的哲学、方法论、研究问题和研究技术，为学生打下坚实的专业基础。哲学为爱丁堡大学的优势学科，学生将在浓厚的学术氛围中学习专业知识，并有望在思维、语言和情境认知研究中与国际公认专家一起交流探讨学习，努力解决当前哲学领域内的难题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "思维、语言与体验认知导论 (Introduction to Mind, Language and Embodied Cognition)\n思维、语言与体验认知高级专题 (Advanced Topics in Mind, Language and Embodied Cognition)\n哲学方法 1 (Philosophical Method I)\n计算认知神经科学 (Computational Cognitive Neuroscience)\n演进基础 (Foundations of Evolution)\n早期现代哲学中的身与心 (Mind and Body in Early Modern Philosophy)\n语言起源与演进 (Origins and Evolution of Language)\n语言学习心理学 (Psychology of Language Learning)\n思维理论 (Theories of Mind)",
+  "success_cases": ""
+}

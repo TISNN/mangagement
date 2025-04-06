@@ -1,0 +1,12 @@
+{
+  "school_name": "佩珀代因大学",
+  "major_name": "心理学",
+  "ename": "MA in Psychology",
+  "tags": "社科,心理学",
+  "introduction": "专业方向: 心理学\n入学时间: 秋季/春季/夏季\n项目时长: 1.5-2年\n项目学费: 1,425美元/单位",
+  "requirements": "GPA3.0以上",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

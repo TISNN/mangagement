@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "电子商务与物流技术理学硕士",
+  "ename": "MSc E-Commerce & Logistics Technologies",
+  "tags": "工科,工业工程,工学院",
+  "introduction": "专业方向: 工业工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 220000港币/年",
+  "requirements": "毕业于认可大学并获得工程、科学、工商管理或相关领域的学士学位；或\n在高等教育机构完成相关课程学习并获得相当于相关领域荣誉学位的专业或类似资格\n需要提供B等级证明",
+  "objectives": "香港中文大学电子商务与物流技术硕士学位课程的目的是培养新一代的人才，使他们具备两个方面的综合知识：以互联网为中心的先进技术，以及企业解决方案，以管理和支持21世纪的互联网业务和运营。\n现如今，电子商务技术已广泛地应用于企业与商业组织的管理和运营中。典型的例子包括：网上银行业务、股票市场网上交易、企业网络采购、网上购物、网络营销、电子政务系统等。对于涉及多国运营的供应链，互联网已经成为企业促进商业交易与协调的必要方式。香港中文大学电子商务与物流技术硕士学位课程教授的“物流技术”不仅仅局限于处理将货物从一地运往另一地的传统运输物流，还将处理应用互联网技术实现的各类运营物流。课程将涉及到最新的电子商务技术和物流技术发展情况，以使学生满足行业对人才的要求，让学生能够在毕业时成功在职场成为领军人物。\n香港中文大学电子商务与物流技术硕士学位课程适合理工科、企业管理或相关学科背景的学生申请。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电子商务技术基础 (Fundamentals of E-commerce Technologies)\n电子支付系统 (Electronic Payments Systems)\n物流管理 (Logistics Management)\n密码学、信息安全与电子商务 (Cryptography, Information Security and E-Commerce)\n电子商务数据挖掘技术 (E-Commerce Data Mining Techniques)\n分布式和移动系统 (Distributed and Mobile Systems)\n网络编程与网站设计 (Network and Web Programming)\n电子商务开放系统 (Open Systems for E-Commerce)\n移动商务和移动物流 (Mobile Commerce and Mobile Logistics)\n电子商务及物流技术课题项目1 (Project I in E-Commerce and Logistics Technologies)\n信息技术管理 (Information Technology Management)\n财务应用中的决策方法论 (Decision Methodology with Financial Application)\n工程经济学 (Engineering Economics)\n供应链管理 (Supply Chain Management)\n电子商务和物流技术课题项目2 (Project II in E-Commerce and Logistics Technologies)",
+  "success_cases": ""
+}

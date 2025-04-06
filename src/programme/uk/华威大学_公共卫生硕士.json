@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "公共卫生硕士",
+  "ename": "Master of Public Health",
+  "tags": "社科,公共卫生,医学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 31750英镑/年",
+  "requirements": "具有第一学位（2:2）或同等学历，需要适当学科背景，没有正式学历的申请者应具备相关工作经验和进行研究生水平学习的能力",
+  "objectives": "华威大学公共卫生硕士项目为跨学科学位项目，吸收各学科领域的相关公共卫生知识，并探索英国及国际上公共卫生问题的复杂问题，从而为国家乃至世界培养优秀的公共卫生工作人员，同时也注重培养学生的科研能力，为学术界输送优秀人才。华威大学公共卫生硕士项目帮助学生在广泛的公共卫生领域充分挖掘自己的潜力和才能，深入理解系统知识，并提供相关课程强化学生的实践技能，鼓励学生根据自己的研究兴趣确定具体专业方向。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究生入职与您的专业发展 (Postgraduate Induction and Your Professional Development)\n流行病学与统计 (Epidemiology and Statistics)\n疾病预防与健康保护 (Disease Prevention and Health Protection)\n公共卫生的健康改善与管理 (Health Improvement and Management for Public Health)\n健康的社会决定因素 (Social Determinants of Health)\n论文或专业项目 (DissertationorProfessional Project)\n健康检查 (Health Screening)\n设计，分析和解释流行病学研究 (Design, Analysis and Interpretation Epidemiology Research)\n国际卫生政策 (International Health Policy)\n卫生经济学导论（针对非经济学家） (Introduction to Health Economics (for non-economists))\n公众心理健康与福祉：测量，决定因素和促进 (Public Mental Health and Wellbeing: Measurements, Determinants and Promotion)\n健康方面的定性研究方法 (Qualitative Research Methods in Health)\n卫生服务组织管理导论 (Introduction to Management in Health Service Organisations)",
+  "success_cases": ""
+}

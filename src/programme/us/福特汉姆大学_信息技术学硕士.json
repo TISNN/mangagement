@@ -1,0 +1,12 @@
+{
+  "school_name": "福特汉姆大学",
+  "major_name": "信息技术学硕士",
+  "ename": "MS in Information Technology",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1年\n项目学费: 1,593美元/学分",
+  "requirements": "非商科毕业的学生需要自学IT和商业的自学模块，还需掌握数据挖掘和其他数据分析课程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

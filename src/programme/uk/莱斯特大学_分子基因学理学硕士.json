@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "分子基因学理学硕士",
+  "ename": "MSc Molecular Genetics",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23650英镑/年",
+  "requirements": "具有2:2荣誉学位，需要生物科学相关专业背景。学校可能会考虑丰富的相关工作经验",
+  "objectives": "莱斯特大学分子基因学理学硕士项目旨在向学生介绍应用于现代研究的分子遗传学的概念和技术，同时给予学生参加实验累积实践经验的机会。学科要求较高，且具有一定的挑战性。通过密集的实验课程，学生将与其他学生形成良好的合作关系，与行业尖端人才接触，不断提高自身素质。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分子遗传学和数据分析技术导论 (Introduction to Techniques in Molecular Genetics and Data Analysis)\n分子技术研究的实验设计与应用 (Experimental Design and Application of Molecular Techniques to Research)\n项目 (Project)",
+  "success_cases": ""
+}

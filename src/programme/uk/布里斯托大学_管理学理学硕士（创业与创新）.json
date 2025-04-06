@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "管理学理学硕士（创业与创新）",
+  "ename": "MSc Management (Entrepreneurship and Innovation)",
+  "tags": "商科,创业与创新,商业、管理和市场营销学院",
+  "introduction": "专业方向: 创业与创新\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景\n对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩\n学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们具有相关的研究生学历。如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关资格",
+  "objectives": "管理学理学硕士（创业与创新）项目为期一年，适合不同学科背景的毕业生，不需要具备商业或管理方面的学术或实践经验。该课程面向的是那些立志在自己选择的行业内创业或加入初创企业的学生。学生将深入了解创业的理论与实践，批判性评估创业战略、商业创新、可持续发展企业、技术选择等领域。该项目旨在引导、教导和培养具有分析能力和自信的批判性思考者。学生将深入了解管理和企业家精神的本质，并掌握将管理理论应用于实践的知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "管理与组织 (Management and Organisation)\n战略和金融与会计管理 (Strategy and Finance and Accounting for Management)\n学术、个人与职业发展 (Academic, Personal and Professional Development)\n运营与市场营销管理 (Operations and Marketing Management)\n管理研究方法 (Management Research Methods)\n创业与创新 (Entrepreneurship and Innovation)\n管理学研究项目 (Management Research Project)",
+  "success_cases": ""
+}

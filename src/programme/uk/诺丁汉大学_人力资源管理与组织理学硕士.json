@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "人力资源管理与组织理学硕士",
+  "ename": "MSc Human Resource Management and Organisation",
+  "tags": "商科,人力资源管理,诺丁汉商学院",
+  "introduction": "专业方向: 人力资源管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 32400英镑/年",
+  "requirements": "具有2:1学位或同等学历，不限专业背景，不包括人力资源管理和/或组织专业学位\n如果申请者尚未完成本科学位，需要提供最后一年要学习的课程列表",
+  "objectives": "诺丁汉大学人力资源管理与组织理学硕士课程将培养学生在全球人力资源管理职位中脱颖而出的潜力。学生利用专业技能和知识，将管理雇佣关系并最大限度地提高您企业的竞争优势。学生将加深对领导力、变革管理、人才开发和保留以及在多元文化和全球背景下管理人员的挑战的理解。还将有机会向世界级专家学习，并参与高度互动的讲座、研讨会、案例分析和博客。此外，通过我们的教学，学生将有机会参与商业活动，发展个人的技能，提高就业能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "雇佣关系 (Employment Relations)\n管理和发展组织 (Managing and Developing Organisations)\n战略人力资源管理 (Strategic Human Resource Management)\n人力资源策略管理 (Strategic Human Resource Management)\n国际人力资源管理 (International Human Resource Management)\n人力资源管理/组织行为当代发展 (Contemporary Developments in HRM/OB)\nOB/HRM的研究方法 (Research Methods in OB/HRM)",
+  "success_cases": ""
+}

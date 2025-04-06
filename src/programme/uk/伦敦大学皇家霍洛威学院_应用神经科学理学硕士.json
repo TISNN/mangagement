@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "应用神经科学理学硕士",
+  "ename": "MSc Applied Neuroscience",
+  "tags": "社科,医学,心理学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 28500英镑/年",
+  "requirements": "具有心理学/生物学/神经科学/认知科学/计算机科学/数学/物理或其他相关科学背景，并且本科期间学习过方法论和统计学课程。",
+  "objectives": "伦敦大学皇家霍洛威学院应用神经科学理学硕士项目对现实世界中的神经科学提供独特的见解。学生将在外部学者和专业人士的帮助下与学科领先的神经科学家一起学习，并可以使用该系优秀的神经科学设施。学生将学习如何进行应用神经科学研究项目，并为自己未来的职业生涯获得实用的实践经验。\n在本课程中，学生将：\n使用神经科学方法和数据分析获得实践和实践经验，教学假设没有这些技术的经验。\n完成针对学术和工业环境中相关活动而开发的评估，这将提高您的就业能力。\n参与当代和前沿的神经科学研究问题，并学习开展应用神经科学研究项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用神经科学方法 (Methods in Applied Neuroscience)\n研究统计 (Statistics for Research)\n情绪和决策的神经科学 (Neuroscience of Emotion and  Decision Making)\n现实世界中的神经科学 (Neuroscience in the Real World)\n应用神经科学论文 (Applied Neuroscience Dissertation)\n学术诚信 (Academic Integrity)\n心理科学专题 (Topics in Psychological Science)\n应用心理学 (Psychology in Applied Settings)\n群体间和人际交往过程 (Intergroup and Interpersonal Processes)\n调整和福祉 (Adjustment and Well-being)\n临床评估和治疗方法 (Clinical Assessment and Treatment Approaches)\n法医调查：认知和社会方法 (Forensic Investigations: Cognitive and Social Approaches)",
+  "success_cases": ""
+}

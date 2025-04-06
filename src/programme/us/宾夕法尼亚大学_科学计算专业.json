@@ -1,0 +1,12 @@
+{
+  "school_name": "宾夕法尼亚大学",
+  "major_name": "科学计算专业",
+  "ename": "MSE in Scientific Computing",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 一年\n项目学费: 75,420美元\n平均G: 328",
+  "requirements": "有兴趣的候选人应该在物理或理论科学、工程学、数学或计算机科学方面有很强的背景。强烈建议具备一些计算机编程经验。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

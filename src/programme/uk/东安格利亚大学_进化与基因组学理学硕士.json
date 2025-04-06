@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "进化与基因组学理学硕士",
+  "ename": "MSc Evolution and Genomics",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26900英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历，需要生命或物理科学专业背景",
+  "objectives": "东安格利亚大学进化与基因组学理学硕士课程将为学生提供进化生物学和基因组学领域广泛的概念理解和多样化的实践经验，学生将受益于进化生物学和基因组学方面的强大学术专业知识，接受现代进化研究方面的全面培训，包括基因组学和表型组学，涵盖实验设计、生物信息学以及跨领域和实验室系统。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究项目 (Research Project)\n研究计划与管理 (Research Planning and Management)\n科学中的有效沟通 (Effective Communication in Science)\n数据科学与生物信息学 (Data Science and Bioinformatics)\n生物科学中基于问题的学习 (Problem Based Learning in Biosciences)\n生物科学前沿 (Frontiers in Biosciences)\n健康与疾病的演变 (Evolution in Health and Disease)\n生物信息学与基因组学 (Bioinformatics and Genomics)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "佐治亚理工学院",
+  "major_name": "经济学理学硕士",
+  "ename": "MS in Economics",
+  "tags": "商科,经济",
+  "introduction": "专业方向: 经济\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1年\n项目学费: 约14570美元/学期",
+  "requirements": "具备相关专业背景，具备一定数学分析能力",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

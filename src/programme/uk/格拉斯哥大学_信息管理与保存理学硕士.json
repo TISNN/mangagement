@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "信息管理与保存理学硕士",
+  "ename": "MSc Information Management & Preservation",
+  "tags": "商科,信息系统,人文学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业，申请者应该有至少两周的工作经验，在档案、记录管理或数字策展环境",
+  "objectives": "格拉斯哥大学信息管理与保存理学硕士课程为学生提供对当代信息和档案管理问题的了解。它特别数字记录和电子资源的管理，以及如何与模拟资源一起管理这些资源。该课程旨在让学生在毕业后尽可能地在档案、记录与信息管理、数字馆藏和相关领域发挥作用。在整个课程中，该课程旨在通过传统的课程安排或论文安排，或通过与档案馆和类似组织合作的安排，在这些环境中给学生提供进一步的经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "档案与档案信息管理 (Archives and records information management)\n记录与证据 (Records and evidence)\n描述、编目与导航 (Description, cataloguing and navigation)\n数字材料的管理、维护与保存 (Management, curation & preservation of digital materials)\n二维数字化 (d digitisation)\n法律、信息治理和收集 (Law, information governance and collections)\n档案学 (Archives & records theory)\n文件编码 (Document encoding)\n早期现代古地理学 (Early modern palaeography)",
+  "success_cases": ""
+}

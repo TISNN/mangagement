@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "电力工程理学硕士",
+  "ename": "MSc Power Engineering",
+  "tags": "工科,电气电子,电气与电子工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 56157新币/年",
+  "requirements": "具有良好的相关学士学位\n有相关工作经验者优先考虑",
+  "objectives": "南洋理工大学电力工程理学硕士课程旨在为电气工程专业应届毕业生、在职工程师、研发经理、电力系统设计人员等电力工程相关人员设计，帮助他们进一步深入了解电力电子技术、电能质量、电力系统建模、规划、运行控制问题。该课程旨在使学生适应现代电力行业快速发展带来的挑战，以及满足对专业人才的需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电力电子变流器 (Power Electronic Converters)\n现代电气传动 (Modern Electrical Drives)\n可再生能电系统 (Renewable Electrical Energy Systems)\n电力系统运行与规划 (Power System Operation and Planning)\n电力系统建模与控制 (Power System Modelling and Control)\n项目管理与创业 (Project Management & Technopreneurship)\n计算机控制系统 (Computer Control Systems)\n电磁相容性与干扰 (Electromagnetic Compatibility & Interference)\n电能质量 (Power Quality)\n数字通信系统 (Digital Communication Systems)\n计算机网络 (Computer Networks)\n光纤通讯技术 (Optical Fiber Communications)\n系统分析 (Systems Analysis)\n过程控制 (Process Control)",
+  "success_cases": ""
+}

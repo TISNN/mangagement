@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "微生物学与传染病理学硕士",
+  "ename": "MSc Microbiology and Infection",
+  "tags": "理科,生物,生命与环境科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 31390英镑/年",
+  "requirements": "具有2:1荣誉学位，需要生命或医学科学、物理学或化学背景",
+  "objectives": "伯明翰大学微生物学与传染病理学硕士项目建立在微生物学和感染方面的综合专业知识之上，这些专业知识是通过在伯明翰建立微生物学和感染研究所积累起来的，生命与环境科学学院和医学与牙科科学学院成员具备国际公认专业知识，提供了一门对全球有抱负的生物医学科学家和临床微生物学家极具吸引力的课程，该课程毕业生能获得这个重要领域的全面的基础以及在公共或私营部门的研究环境中工作的机会。本课程将为生物科学相关专业的学员提供良好的理论背景知识和前沿微生物学的实践实验室经验，他们将获得有关细菌感染关键方面的专业知识和见解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微生物学的核心概念和技能 (Core concepts and skills in Microbiology)\n抗生素：过去、现在和未来 (Antibiotics: past, present and future)\n医学微生物学 (Medical Microbiology)\n宿主-病原相互作用原理 (Principles of Host-Pathogen Interactions)\n抗生素、微生物表面和表面相互作用 (Antibiotics, Microbial Surfaces and Surface Interactions)\n病原学 (Omics of Pathogens)",
+  "success_cases": ""
+}

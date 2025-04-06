@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "数据科学与人工智能理学硕士（可跨申）",
+  "ename": "MSc Data Science and Artificial Intelligence (Conversion)",
+  "tags": "理科,数据科学,电子工程与计算机科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有本科2:1学位或以上学历，需要与计算机科学、电气工程或电子工程无关的科学、技术、工程或数学相关专业背景\n学校也将考虑其他任何学科的2:1学位申请者，只要学位包含令人满意的编程或统计学研究\n取得学位五年以上但不符合上述条件的申请人，以及具有相关经验的申请人学校将根据个人情况予以考虑，但必须证明：1.拥有通常通过工作获得的才能和技术技能；2.成功完成相关编程资格，例如由编码学院提供的证明\n在可能的情况下，学校将根据书面申请进行选择，但申请人可能会被要求参加面试，以支持对其经验和能力的评估",
+  "objectives": "伦敦大学玛丽皇后学院数据科学与人工智能理学硕士项目专为那些在计算机科学以外的学科中拥有良好第一学位、希望发展知识和技能以在数据科学和人工智能行业就业的有积极性的学生而设计。您将发现并设计数据驱动的 AI 解决方案，以自动化和优化可应用于任何领域的业务流程，以支持和增强人类决策。您还将探索在生成、分析和传播数据以及开发 AI 技术时需要考虑的基本道德和法律问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "神经网络与深度学习 (Neural Networks and Deep Learning)\n数据科学与人工智能的风险与决策 (Risk and Decision-Making for Data Science and AI)\n机器学习原理 (Principles of Machine Learning)\n人工智能与数据科学程序设计 (Programming for Artificial Intelligence and Data Science)\n人工智能与数据科学统计 (Statistics for Artificial Intelligence and Data Science)\n高级数字信息处理与决策中的伦理、法规与法律 (Ethics, Regulation and Law in Advanced Digital Information Processing and Decision Making)\n信息检索 (Information Retrieval)\n项目 (Project)\n数据挖掘 (Data Mining)",
+  "success_cases": ""
+}

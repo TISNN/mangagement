@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "国际会计与金融理学硕士",
+  "ename": "MSc International Accounting and Finance",
+  "tags": "商科,会计,贝叶斯商学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 1年\n项目学费: 35000英镑/年",
+  "requirements": "具有2:1学位或同等学历\n一定程度的金融或定量方法的先前学习或技能证据是必不可少的\n本课程不要求具备工作经验",
+  "objectives": "伦敦大学城市学院国际会计与金融理学硕士旨在掌握使用金融理论和分析以及会计数字进行投资决策和公司评估的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用实证会计 (Applied Empirical Accounting)\n财务1：公司财务与评估 (Finance 1: Corporate Finance and Valuation)\n财务报告 (Financial Reporting)\n金融专业人士的研究方法 (Research Methods for Finance Professionals)\n战略成本管理 (Strategic Cost Management)\n会计信息与资本市场 (Accounting Information and Capital Markets)\n财务2：高级公司财务 (Finance 2: Advanced Corporate Finance)\n财务报表分析 (Financial Statement Analysis)\n国际财务管理 (International Financial Management)\n先进的公司评估 (Advanced Company Valuation)\n企业融资中的投资银行 (Investment Banking in Corporate Finance)\n私募股权投资 (Private Equity Investment)",
+  "success_cases": ""
+}

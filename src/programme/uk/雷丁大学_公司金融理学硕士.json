@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "公司金融理学硕士",
+  "ename": "MSc Corporate Finance",
+  "tags": "商科,金融,亨利商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 28500英镑/年",
+  "requirements": "具有good 2nd荣誉学位或同等学历，不限专业背景，但必须要有够好的计算水平",
+  "objectives": "雷丁大学公司金融理学硕士学位课程使学生理解企业面临的一系列公司金融服务和公司交易。\n在雷丁大学公司金融理学硕士学位课程的学习中，通过实践研讨及广泛应用案例研究，学生将沉醉于风险投资、私募股权、企业管治、兼收和并购的精彩世界中；培养投资、资本预算决策、首次公开募股、分红方案和资本结构、企业估值和风险管理领域的必需知识及技能。雷丁大学公司金融理学硕士学位课程毕业生获得公司投资考试中的企业理财顾问师免试资格。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "证券、期货与期权 (Securities、Futures and Options)\n固定收益和股权投资 (Fixed Income and Equity Investments)\n金融市场 (Financial Markets)\n金融定量方法 (Quantitative Methods for Finance)\n公司金融 (Corporate Finance)\n兼收和并购 (Mergers and Acquisitions)\n战略策划和预算 (Strategic Planning and Budgeting)\n风险投资 (Venture Capital)\n企业管治和问责制 (Corporate Governance and Accountability)\n高级财务分析 (Advanced Financial Analysis)\n能源金融 (Energy Finance)\n其他和负责任的投资 (Alternative and Responsible Investments)\n高级金融理论实证应用 (Advanced Finance Theory with Empirical Applications)",
+  "success_cases": ""
+}

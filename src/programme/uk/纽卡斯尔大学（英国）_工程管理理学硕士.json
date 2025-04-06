@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "工程管理理学硕士",
+  "ename": "MSc Engineering Management",
+  "tags": "工科,工程管理,工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 30050英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要以下学科背景： - 任意工程学科 - 数学、物理学或计算机科学 - 任意其他密切相关学科 具备相关专业经验者优先（尽管非必需）",
+  "objectives": "纽卡斯尔大学工程管理理学硕士项目将帮助学生巩固本科学位并提高专业知识。本课程将帮助学生为行业中的高级管理职位做好准备。学生将具备将技术专长与战略管理相结合的技能。学生将能够开发有效的解决方案并促进组织内的可持续发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公共政策 (Public Policy)\n数字工程与分析 (Digital Engineering and Analytics)\n可持续工程管理 (Sustainable Engineering Management)\n项目管理 (Project Management)\n研究技能 (Research Skills)\n可持续发展融资 (Finance for Sustainability)\n领导视角 (Leadership Perspectives)\n项目课程 (Project Module)",
+  "success_cases": ""
+}

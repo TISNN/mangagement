@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "翻译研究文学硕士",
+  "ename": "MA Translation Studies",
+  "tags": "社科,语言,文科与法律学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 26180英镑/年",
+  "requirements": "具有2:1荣誉学位，需要现代语言背景\n申请者打算翻译成的语言需要是其母语或者经常使用的语言\n如果申请者想翻译成经常使用的语言，但不是其母语，可能需要提供语言能力的证据\n学校通常希望申请者在打算对其进行翻译的语言上有2:1荣誉学位，如果没有“第二语言”的学位，可能需要提供熟练程度的其他证据，这需要相当于至少达到欧洲语言共同框架的 level C1\n如果申请者没有语言或人文相关学位，可能需要提供相关工作经验的证据",
+  "objectives": "伯明翰大学翻译研究文学硕士项目颇具新意，适合希望从事职业翻译的人士。翻译实践是伯明翰大学创新的翻译研究文学硕士项目的核心，学生将使用阿拉伯语、加泰罗尼亚语，中文、法语、德语、希腊语、意大利语、西班牙语、葡萄牙语或俄语进行实用翻译或专业翻译。学生将接受最先进的翻译技术培训，并有机会学习初级、中级或高级阶段的另一种外语。同时，项目开设一系列可选模块，注于理论和方法论的培养，为学生日后进一步深造打下坚实的基础。该课程适用于精通英语和以下语言之一的学生：阿拉伯语、加泰罗尼亚语、汉语、法语、德语、希腊语、意大利语、西班牙语、葡萄牙语或俄语。涉及汉语的部分不包括汉译英，只有英译汉；而其他语言都开设互译。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "理论和分析技能 (Theoretical and Analytical Skills)\n翻译技术 (Translation Technology)\n商务翻译 (Translating for Business)\n特殊翻译 (Specialised Translation)\n多模式翻译 (Multimodal Translation)\n专业发展（笔译/口译） (Professional Development (Translation/Interpreting))\n当代翻译理论 (Contemporary Translation Theory)\n通用语言 (Languages for All)\n最终项目 (Final project)",
+  "success_cases": ""
+}

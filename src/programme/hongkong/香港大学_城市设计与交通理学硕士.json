@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "城市设计与交通理学硕士",
+  "ename": "MSc Urban Design and Transport",
+  "tags": "社科,建筑,建筑学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 2年\n项目学费: 180000港币/年",
+  "requirements": "具有荣誉学士学位或同等学历，需要相关城市或交通学科背景\n具有设计相关本科学位（如城市规划、景观、城市设计或建筑）的申请者需要提交设计作品集\n具有交通相关本科学位或者非设计相关本科学位的申请者鼓励提交项目电子文档（与交通相关、与本科学位相关、个人等）",
+  "objectives": "香港大学城市设计与交通理学硕士项目提供了全面的城市设计与交通跨学科教育，旨在为毕业生提供核心知识和技术能力，包括设计思维、城市设计价值创造与管理、城市设计与交通科学等。课程强调将新兴的变革性技术、设计和行为分析相结合，以应对一个面临巨大城市挑战的时代。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "形态学与城市设计理论 (Morphologies and Urban Design Theories)\n空间数据分析基础 (Foundations in Spatial Data Analysis)\n规划可持续城市和地区 (Planning Sustainable Cities and regions)\n空间流动性分析 (Spatial Mobilities Analytics)\n公共空间设计分析 (Public Space Design Analytics)\n城市设计研究方法与技术 (Urban Design Research Methods and Techniques)\n运输研究中的调查与数据分析 (Survey and Data Analysis in Transport Studies)\n行为旅游需求模型 (Behavioural Travel Demand Modelling)\n战略及新市镇城市设计工作室 (Strategic and New Town Urban Design Studio)\n公共交通交汇处城市设计工作室 (Public Transport Interchange Urban Design Studio)\n研究论文及城市设计与交通论文项目   (Research Dissertation and Urban Design & Transport Thesis Project)\n交通政策与规划 (Transport Policy and Planning)\n运输经济学 (Transport Economics)\n运输应用的优化技术 (Optimization Techniques for Transport Applications)\n运输网络分析、建模与项目评估 (Transport Network Analysis, Modelling and Project Appraisal)",
+  "success_cases": ""
+}

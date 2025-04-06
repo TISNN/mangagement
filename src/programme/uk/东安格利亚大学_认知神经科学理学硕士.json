@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "认知神经科学理学硕士",
+  "ename": "MSc Cognitive Neuroscience",
+  "tags": "社科,心理学,心理学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 22700英镑/年",
+  "requirements": "具有英国2:1学士学位或同等学历，需要心理学或相关学位背景（如：医学、神经科学或生物科学）",
+  "objectives": "认知神经科学是心理学发展最快、最基础的领域，它将心理学与神经科学相结合。东安格利亚大学认知神经科学理学硕士课程在该领域的前沿提供研究方法培训和深入研究，学生将了解认知和感觉运动技能的神经基础，可以在学校的专用脑成像中心（UBIC）使用世界领先的脑成像研究设施。本课程是硕士研究的重要组成部分，学生将在活跃研究人员的监督下进行研究，还将受益于量身定制的研究实习，通过其获得和磨练进一步的研究技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "认知神经科学 (Cognitive Neuroscience)\n论文 (Dissertation)\n磁共振成像研究实用技能 (Practical Skills for MRI Research)\n进一步的定性研究 (Further Qualitative Research)\n进一步的定量研究与和统计 (Further Quantitative Research and Statistics )\n研究实习与专业技能 (Research Placement and Professional Skills)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "精算学理学硕士",
+  "ename": "MSc Actuarial Science",
+  "tags": "商科,金工金数,数学科学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 25400英镑/年",
+  "requirements": "具有2:1学位，需要定量学科背景，例如：数学、统计学、经济学",
+  "objectives": "南安普顿大学精算学理学硕士项目培养学生精算专业知识与技能学生将在职业生涯的早期拥有一个专业精算师学位，该学位是由英国专业精算师协会认可的。学习结束后，学生将能够使用先进的精算科学方法评估和管理风险。学生可以把学到的知识应用到分析师的工作中，或者应用到许多其他需要定量技能的职业中。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "经济学 (Economics)\n概率与数理统计 (Probability and Mathematical Statistics)\n精算数学I (Actuarial Mathematics I)\n金融数学 (Financial Mathematics)\n生存模型 (Survival Models)\n精算学的会计与财务 (Accounting and Finance for Actuarial Science)\n数理金融 (Mathematical Finance)\n随机过程 (Stochastic Processes)\n精算数学Ⅱ (Actuarial Mathematics II)\n保险统计方法 (Statistical Methods in Insurance)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "人体解剖学理学硕士",
+  "ename": "MSc Human Anatomy",
+  "tags": "社科,医学,理工学院",
+  "introduction": "专业方向: 医学\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 21600英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要生命科学、医学或牙科或相关学科背景",
+  "objectives": "邓迪大学人体解剖学理学硕士课程将使学生对人体、临床、功能和应用解剖学有深入而透彻的了解。通过对Thiel防腐尸体进行全身解剖，学生将深入了解人体解剖学。这些尸体是软修复的，保留了现实生活中的品质，包括颜色、组织质量和灵活性。这使得解剖更容易、更实用、更逼真。学生将练习的实用解剖技术包括：开发创新性的学生在线学习资源，切割、染色和安装高质量的组织学载玻片，生产片状塑化标本，学习如何防腐。学生还将了解其他解剖学，如胚胎学和神经解剖学。可以将其对解剖学的兴趣与其他技能相结合，例如解剖保存技术、生物力学或自己的学习和教学实践。学生还可以进入邓迪大学人体解剖学理学硕士项目的灵活的教学空间、解剖博物馆和一系列在线资源，其中一些资源是由项目自己的学生制作的。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "胚胎学和发育解剖学 (Embryology and Developmental Anatomy)\n人体大体解剖1 (Human Gross Anatomy 1)\n临床和外科解剖学专题 (Clinical and Surgical Anatomy Topics)\n神经解剖学 (Neuroanatomy)\n人体大体解剖 2 (Human Gross Anatomy 2)\n人体解剖学论文 (Human Anatomy Dissertation)\n解剖技术 (Anatomical Techniques)\n刚体力学 (Rigid Body Mechanics)\n医学教育学与教 (Learning and Teaching in Medical Education)",
+  "success_cases": ""
+}

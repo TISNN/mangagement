@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "图书馆学文学硕士",
+  "ename": "MA Librarianship",
+  "tags": "商科,信息系统,信息学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 26310英镑/年",
+  "requirements": "具有2:1本科荣誉学位，专业不限",
+  "objectives": "谢菲尔德大学图书馆学文学硕士面向具有优秀沟通和组织技能的足智多谋的人，是那些有志于在各种领域从事图书馆和信息工作的人的理想选择。该课程将向学生介绍进入这个快速发展的行业所需的最佳当前思维和实践。学生将学习IT、管理和信息处理方面的核心能力，以及广泛的专业知识。图书馆和信息专业人员需要强大的信息处理、管理和人际交往技能，以及对技术改变信息服务提供的能力的理解。他们还必须有想象力、承诺和热情，在快速发展的信息世界发挥作用。图书馆员和信息专家的技能对于识别、控制、组织和获取以纸张、数字和多媒体格式提供的越来越多的信息至关重要。本课程为学生准备从公共服务到商业领域的专业角色知识。该课程适合在信息领域有两年或以上的相关工作经验并希望攻读更高学位的学生。该计划专为已经在工作并希望进一步发展事业的人而设计，并允许他们在模块选择方面有更大的自由度。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "图书馆和信息服务管理 (Management for Library and Information Services)\n信息组织 (Information Organisation)\n信息素养 (Information Literacy)\n图书馆、信息和社会 (Libraries, Information and Society)\n研究方法和论文准备 (Research Methods and Dissertation Preparation)\n论文 (Dissertation)\n档案及记录管理 (Archives and Records Management)\n信息管治和道德规划 (Information Governance and Ethics)\n研究社交媒体 (Researching Social Media)\n数据与社火 (Data and Society)\n数字宣传 (Digital Advocacy)\n商业智能 (Business Intelligence)\n数据库设计 (Database Design)\n数字对媒体图书馆 (Digital Multimedia Libraries)\n公共及青少年图书馆服务 (Public and Youth Library Services)",
+  "success_cases": ""
+}

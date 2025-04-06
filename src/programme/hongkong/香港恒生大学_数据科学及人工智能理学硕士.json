@@ -1,0 +1,12 @@
+{
+  "school_name": "香港恒生大学",
+  "major_name": "数据科学及人工智能理学硕士",
+  "ename": "MSc Data Science and Artificial Intelligence",
+  "tags": "理科,数据科学,决策科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 235200港币/年",
+  "requirements": "具有获认可的大学工科、理科、商科或相关学科的本科学历或同等学历",
+  "objectives": "大数据科技，结合人工智能（AI）技术，正在改写我们的决策方式。新科技带来的颠覆性变化比目皆是。香港恒生大学数据科学及人工智能理学硕士课程是为来自不同背景、对新一代大数据和AI应用有兴趣的学生而设计。在课程中，学生将会掌握大数据和机器学习相关的最新知识，以及它们的应用实例，让学生在数据科学和AI时代的各行各业中领先一步。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "大数据计算 (Computing with Big Data)\n大数据管理 (Big Data Management)\n数据挖掘 (Data Mining)\n统计模型 (Statistical Modeling)\n人工智能与机器学习 (Artificial Intelligence and Machine Learning)\n机器学习辅助市场分析 (Marketing Analytics with Machine Learning)\n分布式系统与云计算 (Distributed Systems and Cloud Computing)\n大数据安全与私隐 (Big Data Security and Privacy)\n数据科学与人工智能专题 (Topics in Data Science and Artificial Intelligence)\n供应链模型与分析 (Supply Chain Modeling and Analytics)",
+  "success_cases": ""
+}

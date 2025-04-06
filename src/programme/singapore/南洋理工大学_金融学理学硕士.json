@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 7月\n项目时长: 1年\n项目学费: 71940新币/年",
+  "requirements": "具有良好的本科学位，不限专业背景\n精通英语和普通话\n具备良好的GMAT/GRE成绩\n有相关领域工作经验者优先考虑(不强制要求）\n该专业为中英文授课",
+  "objectives": "新加坡南洋理工大学金融学理学硕士课程设计旨在培养年轻的双语高管，他们的目标是在中国或者是在以中国经济为目标的地区取得成功的金融生涯。该项目为学生提供在全球金融市场中脱颖而出所需的稳健的和现实的业务基础和国际知名度。这使学生能够发展他们的技能和潜力来挑战既定的范式。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "Excel在金融领域的应用 (Excel for Finance)\nPython在金融领域的应用 (Python for Finance)\n财务会计基础 (Foundation to Financial Accounting)\n实习 (Internship)\n公司金融 (Corporate Finance)\n财务会计与分析 (Financial Accounting & Analysis)\n投资学 (Investments)\n金融数据科学 (Data Science for Finance)\n固定收益证券分析 (Fixed-Income Securities Analysis)\n证券分析与估值 (Security Analysis & Valuation)\n全球经济 (Global Economy)\n衍生品与结构化产品 (Derivatives & Structured Products)\n可持续金融 (Sustainable Finance)\n并购与公司估值 (Mergers & Acquisitions & Company Valuation)\n金融机构与风险管理 (Financial Institutions & Risk Management)\n中国金融市场与政策 (China's Financial Markets & Policies)\n财富管理 (Wealth Management)\n另类投资概论 (Introduction to Alternative Investments)\n可持续发展报告 (Sustainability Reporting)\n可持续发展原理与实践 (Sustainability Principles & Practices)\n区块链系统：概念与原理 (Blockchain Systems: Concepts & Principles)\n机器学习（金融领域） (Machine Learning in Finance)",
+  "success_cases": ""
+}

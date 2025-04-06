@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "笔译、口译与字幕文学硕士",
+  "ename": "MA Translation, Interpreting and Subtitling",
+  "tags": "社科,语言,语言与语言学系",
+  "introduction": "专业方向: 语言\n入学时间: 10月\n项目时长: 1年\n项目学费: 21700英镑/年",
+  "requirements": "如果申请者的母语是英语，需要具有法语，德语，意大利语，葡萄牙语，阿拉伯语或西班牙语的2:2学位（或同等学历）如果申请者的母语是法语、德语、意大利语、葡萄牙语、阿拉伯语或西班牙语，需要具有以英语为主要组成部分的2:2学位（或同等学历）申请者可能需要成功通过笔译与口译能力测试",
+  "objectives": "埃塞克斯大学笔译、口译与字幕文学硕士项目是第一个在同一门课程中提供书面翻译、口头口译和电影和视频字幕的专业。这种对语言服务的完整和集成的方法要求很高，但是它为学生提供了在商务、电影、电视或旅游业中担任自由职业者或内部翻译的专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "翻译与口译原理 (Principles of Translation and Interpreting)\n字幕：原理与实践 (Subtitling: Principles and Practice)\n论文 (Dissertation)\n翻译技术 (Technologies of Translation)\n作业写作与论文准备 (Assignment Writing and Dissertation Preparation)\n翻译作品集 (Translation Portfolio)\n口译实践 (Interpreting Practice)\n翻译与后期编辑技术 (Technologies of Translation II and Post Editing)\n视听翻译 (Audiovisual Translation)\n跨文化交流：跨语言与文化交流 (Intercultural Communication: communicating across languages and cultures)\n语言与人权 (Language and Human Rights)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "电子商贸及互联网工程理学硕士",
+  "ename": "MSc Electronic Commerce & Internet Computing",
+  "tags": "商科,信息系统,计算与数据科学学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 320000港币/年",
+  "requirements": "具有学士学位或同等学历",
+  "objectives": "香港大学电子商贸及互联网工程理学硕士学位课程是香港最早开设联合商业和技术的课程。它利用香港在全球金融市场的独特地位，以培养精通技术和商业的人才，为香港的企业提供创新的解决方案为使命。旨在培训能够满足这一需求的专业人员。香港大学电子商贸及互联网工程理学硕士学位课程还加入了一些先进和优秀的内容，帮助学生跟上IT技术的快速发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "信息技术与电子商务法律问题 (Legal aspects of IT and e-commerce)\n供应链与电子物流管理 (Supply chain and e-logistics management )\n电子商务技术 (E-commerce technologies)\n电子商务转型 (E-business transformation)\n电子商务安全基本原理 (Fundamentals of e-commerce security)\n互联网基础设施技术 (Internet infrastructure technologies )\n网站策划工程 (Website engineering)\n信息架构 (Information architecture)\n电子支付系统 (Electronic payment systems)\n电子化金融服务 (E-financial services)\n电子商务架构 (E-business architecture)\n云计算入门 (An introduction to cloud computing)\n智能手机应用程式设计 (Designing apps for smart mobile phones )\n电子营销 (E-marketing)\n数据科学 (Data science for business)",
+  "success_cases": ""
+}

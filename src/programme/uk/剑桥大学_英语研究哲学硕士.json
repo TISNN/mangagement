@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "英语研究哲学硕士",
+  "ename": "MPhil English Studies",
+  "tags": "社科,语言,英语学院",
+  "introduction": "专业方向: 语言\n入学时间: 10月\n项目时长: 1年\n项目学费: 34254英镑/年",
+  "requirements": "申请者应该具有英国Good II.i荣誉学位或同等学历\n通常情况下，申请者必须至少达到英国大学high II.i荣誉学位或同等学历，然而大多数被英语学院录取的申请者都具备一等荣誉学位或同等学历，作为本科学位的一部分，申请者通常需要在本科阶段学习大量的英语文学课程\n需要提交1篇Research Proposal（500字）以及Sample of work（不超过5篇，5000-7000字）",
+  "objectives": "剑桥大学英语研究哲学硕士课程是一门创新、灵活的为期9个月的课程，由在英语方面享有盛誉教师提供一流的教学，鼓励学生大胆探索与文学、批评和文化有关的问题。在一个灵活的框架内，学生将能够深入研究特定领域，利用广泛的研讨会计划，以建立一个连贯的，集中的历史或概念专业意识，或探索非常多样化的主题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究框架研讨会 (Research Frameworks Seminars)\n专家研讨会 (Specialist Seminars)\n研究培训 (Research Training)\n文本与相关研究课程 (Textual and Related Studies Courses)\n论文 (Dissertations)",
+  "success_cases": ""
+}

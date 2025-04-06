@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "电子工程理学硕士",
+  "ename": "MSc Electronic Engineering",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 208000港币/年",
+  "requirements": "具有学士学位或同等学历，需要电气、电子、计算机工程或相关领域背景",
+  "objectives": "香港科技大学电子工程学理学硕士课程将把学员们带进最现代的相关技术领域，由于知识范围日新月异，课程根据资讯，力争高速跟进、传授、实践。通过学习，学生将能更好地驾驭信息的网络、通讯、光子学和显示技术的进展；能使计算机自动分析信息的信号处理和模式识别技术的进展；能迅速重新配置生产线以回应市场变化的自动化和控制技术的发展；以及这些技术的后盾——芯片设计和计算机结构技术的发展。\n通过香港科技大学电子工程学理学硕士课程的学习，学生将能够检查和制定其研究领域中的电子工程问题，整合理论原则和实践技能以解决其研究领域中的电子工程问题，通过写作和与其他专业人员的讨论在其研究领域进行有效沟通，以及解释科学文献和当代电子工程多个领域的创新。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "CMOS超大型规模集成电路设计 (CMOS VLSI Design)\n嵌入式系统 (Embedded Systems)\n光子技术和应用 (Photonics Technology and Applications)\n平面显示技术 (Flat Panel Displays)\n数字通信网路及系统 (Digital Communication Networks and Systems)\n先进电脑网络结构 (Advanced Computer and Networking Architectures)\n图像及视频信号处理 (Image and Video Signal Processing)\n信号分析及模式识别 (Signal Analysis and Pattern Recognition)\n高技术创新和创业 (High-Tech Innovation and Entrepreneurship)\n专题研究 (Special Topics)\n独立研究 (Independent Study)",
+  "success_cases": ""
+}

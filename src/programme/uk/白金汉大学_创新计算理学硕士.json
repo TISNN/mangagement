@@ -1,0 +1,12 @@
+{
+  "school_name": "白金汉大学",
+  "major_name": "创新计算理学硕士",
+  "ename": "MSc Innovative Computing",
+  "tags": "工科,计算机,科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 18000英镑/年",
+  "requirements": "通常具有一等或二等计算荣誉学位或在计算方面具备丰富经验",
+  "objectives": "白金汉大学创新计算理学硕士项目旨在将非计算机专业的本科生培养成信息技术和计算机行业的专业人员。白金汉大学应用计算机理学硕士项目得益于学院的专业水平，将为学生提供深入学习的机会，学生将有机会学习以下内容：\n安全的移动和无线通信；\n生物统计和认证；\n数据挖掘与知识探索；\n成像技术与应用；\n白金汉大学创新计算理学硕士项目的毕业生将能够：\n了解一系列现代计算技术；\n将现代计算技术应用于实践；\n描述现代计算技术在许多应用领域中的作用；\n了解特定技术及其应用的最新发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用成像技术 (Applied Imaging Techniques)\n数据挖掘应用技术 (Applied Techniques of Data Mining)\n通信信息安全 (Information Security in Communications)\n移动和无线通信 (Mobile and Wireless Communications)\n课题项目 (Project)\n研究方法 (Research Methods)\n软件项目管理 (Software Project Management)\n网络技术和应用 (Web Technologies and Applications)",
+  "success_cases": ""
+}

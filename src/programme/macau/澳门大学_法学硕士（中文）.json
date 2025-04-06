@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "法学硕士（中文）",
+  "ename": "LLM Chinese Language",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "持有澳门大学认可的学士学位或同等学历。申请人也可能被要求具备其他知识或专业经验。申请人必须在学士学位学习中达到相当于C级或更高的总成绩",
+  "objectives": "澳大法学院从2001年起开设中文法学硕士课程。课程目的为提高学生的研究能力和学术水准，使母语为中文的本地和非本地具法律学位的人士有机会继续深入研习法律。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "宪法 (Constitutional Law)\n澳门基本法 (Macao Basic Law)\n行政法与行政诉讼法 (Administrative Law and Administrative Litigation Law)\n法理学与法哲学 (Jurisprudence and Legal Philosophy)\n刑法 (Criminal Law)\n刑事诉讼法 (Crimial Procedural Law)\n犯罪学与刑事司法 (Criminology and Criminal Justice)\n外国刑法 (Foreign Criminal Law)\n产权法 (Property Law)\n合同法 (Contract Law)\n版权和工业产权法 (Copyright and Industrial Property Law)\n生物技术法律和政策 (Biotechnology Law and Policy)\n国际私法 (International Private Law)\n商业组织法 (Commercial Organizational Law)\n国际货物销售法 (International Sale of Goods Law)\n项目报告 (Project Report)\n法律经典 (Classics in Law)\n欧洲经济贸易法 (Economic and Trade Law of Europe)\n世界贸易组织法 (World Trade Organization Law)\n海商法 (Maritime Law)",
+  "success_cases": ""
+}

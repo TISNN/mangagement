@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "刑事司法法学硕士",
+  "ename": "LLM Criminal Justice",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "通常具有2:1荣誉学位或同等学历，需要法律（或其他相关学科）背景",
+  "objectives": "通过阿伯丁大学刑事司法法学硕士课程，学生可以更好地理解和发展对刑事诉讼程序，人权和各种刑事司法系统所依据的哲学和政策的了解和见解。阿伯丁大学刑事司法法学硕士专注于围绕刑事诉讼程序和系统的批判性和比较性思维，帮助学生对刑事司法系统以及当今世界社会如何执行刑法有更清晰，更好的理解。学生将了解关键要素，刑法，证据和犯罪原因，从而使其能够在全球许多国家工作。学生将有机会学习诸如刑事证据和证明，刑事司法问题，犯罪学理论和国际刑法等课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "批判性法律思维与学识 (Critical Legal Thinking and Scholarship)\n刑事司法问题 (Issues in Criminal Justice)\n刑事证据和证明 (Criminal Evidence and Proof)\n刑法 (Criminal Law)\n法学硕士学位论文 (Master of Laws Dissertation)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "密歇根州立大学",
+  "major_name": "金融硕士",
+  "ename": "MS in Finance",
+  "tags": "商科,金融",
+  "introduction": "专业方向: 金融\n入学时间: 秋季\n项目时长: 1年\n项目学费: 13,674美元/学期",
+  "requirements": "GPA3.0，2年工作经历，学生应完成相当于mth124:微积分概论I和stt315:概论概率和商业统计。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

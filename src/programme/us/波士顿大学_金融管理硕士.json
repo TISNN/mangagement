@@ -1,0 +1,12 @@
+{
+  "school_name": "波士顿大学",
+  "major_name": "金融管理硕士",
+  "ename": "MS in Financial Management",
+  "tags": "商科,金融",
+  "introduction": "专业方向: 金融\n项目类别: STEM\n入学时间: 春季/夏季/秋季\n项目时长: 40学分\n项目学费: 28427美元/学期",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

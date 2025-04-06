@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "统计学理学硕士",
+  "ename": "MSc Statistics",
+  "tags": "理科,数学,数学科学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 25400英镑/年",
+  "requirements": "具有的2:1学位（数学含量高），必须在数学和统计学课程中取得高分",
+  "objectives": "南安普顿大学统计学理学硕士项目为学生提供专业的统计方法训练，重点解决收集和分析科学数据时出现的实际问题。南安普顿大学统计学理学硕士项目致力于帮助学生掌握高级统计理论和方法，熟练掌握统计法的应用，成为统计学家，以及提高学生的口头和书面表达技巧。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计计算 (Statistical Computing)\n统计项目 (Statistics Project)\n统计理论和线性模型 (Statistical Theory and Linear Models)\n研究沟通技巧 (Research Communication Skills)\n线性代数 (Generalised Linear Models)\n生存分析 (Survival Analysis)\n贝叶斯方法 (Bayesian Methods)\n试验设计 (Design of Experiments)\n统计研讨会系列1 (Statistical Seminar Series I)\n统计研讨会系列2 (Statistical Seminar Series II)\n流行病学方法 (Epidemiological Methods)\n统计遗传学 (Statistical Genetics)\n统计学专题 (Topics in Statistics)\n临床试验 (Clinical Trials)\n应用统计建模 (Applied Statistical Modelling)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "法医人类学理学硕士",
+  "ename": "MSc Forensic Anthropology",
+  "tags": "社科,社会学与社工,理工学院",
+  "introduction": "专业方向: 社会学与社工\n入学时间: 9月\n项目时长: 1年\n项目学费: 21600英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要生物医学科学相关背景。如果申请者能够证明具有适当的专业经验，也可以申请",
+  "objectives": "通过邓迪大学法医人类学理学硕士课程，学生将了解法医人类学如何为人类遗骸的分析和解释做出贡献。邓迪大学法医人类学理学硕士项目的许多专家人员都是法医从业人员。他们将帮助学生获得解释骨骼遗骸、制作和提交专家证人报告以及了解如何在法律程序中使用这些报告所需的技能。学生将学习骨骼发育或用于寻找人类遗骸的技术。还将可以访问邓迪大学法医人类学理学硕士项目的骨骼收藏，以帮助认识和了解人类骨骼以及人类和动物遗骸的区分。邓迪大学法医人类学理学硕士项目的藏品包括：独特的 Scheuer 少年骨骼遗骸收藏、成人骨学收藏、动物骨学收藏。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "灾难受害者识别（线上） (Disaster Victim Identification (Online))\n法医骨科 (Forensic Osteology)\n验尸和验尸过程 (Peri- and Post-Mortem Processes)\n法医人类识别 (Forensic Human Identification)\n法医学与法律 (Forensic Science and the Law)\n理学硕士研究项目论文 (MSc Research Project Dissertation)\n发育性青少年骨科 (Developmental Juvenile Osteology)\n法医考古1 (Forensic Archaeology 1)",
+  "success_cases": ""
+}

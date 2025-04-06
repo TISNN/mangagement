@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯敏斯特大学",
+  "major_name": "笔译与口译文学硕士",
+  "ename": "MA Translation and Interpreting",
+  "tags": "社科,语言,人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 17500英镑/年",
+  "requirements": "具有2:2荣誉学位；没有学位但在翻译和/或口译方面有足够经验的语言学家也将被学校考虑\n所有申请者都需要参加笔试和口试组成的入学考试。学校将当面或通过电话面试在入学考试中取得成功的申请者，以确定其是否适合本课程\n本课程面向以汉语、英语、法语、德语、意大利语和西班牙语为母语的学生开放",
+  "objectives": "威斯敏斯特大学笔译与口译文学硕士课程面向以英语为母语和非英语为母语的人，他们可以将英语与以下任何一种语言结合：汉语、法语、德语、意大利语或西班牙语。威斯敏斯特大学笔译与口译文学硕士课程将为学生提供针对笔译和口译市场的广泛专业培训，以学生现有的语言技能为基础，在这些行业发展职业生涯。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "口译1和2 (Interpreting 1 and 2)\n专业翻译1和2 (Specialised Translation 1 and 2)\n专业发展 (Professional Development)\n硕士口译项目、硕士翻译项目或硕士论文 (MA Interpreting Project, MA Translation Project or MA Thesis)\n国际联络 (International Liaison)\n翻译作为文化实践 (Translation as Cultural Practice)",
+  "success_cases": ""
+}

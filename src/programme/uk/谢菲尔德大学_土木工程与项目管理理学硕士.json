@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "土木工程与项目管理理学硕士",
+  "ename": "MSc Civil Engineering and Project Management",
+  "tags": "工科,土木工程,土木及结构工程学学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要满足课程要求的工程或科学学科背景申请者应在以下两个领域中都至少学习过一门课程：\n领域1：微积分、线性代数、数学、数值方法、统计数据；\n领域2：排水、流体、地基、基础工程、地质力学、土工技术、地面、液压、水电、力学、卫生工程、土力学、结构学",
+  "objectives": "谢菲尔德大学土木工程与项目管理理学硕士项目这一学术严谨的多学科课程旨在培养学生的土木工程专业技术知识和管理技能，使其能够管理可持续且复杂的建筑项目，并成为现代建筑行业的未来领导者。本课程培养学生的沟通和谈判技巧，并在基础设施设计和维护的背景下探索管理和商业实践，学生将学习如何应对现代建筑实践所面临的挑战，并研究工程师为使建筑环境更具弹性和可持续性而采用的方法，还将培养学生对其职业的社会、商业和道德背景的认识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究与专业技能 (Research and Professional Skills )\n行星能力范围内的工程 (Engineering within Planetary Capacity)\n土木工程项目管理 (Civil Engineering Project Management)\n管理设计与施工 (Managing Design and Construction)\n再生设计项目 (Regenerative Design Project)\n高级工程研究性学习 (Advanced Engineering Research Study)\n高级地质技术学 (Advanced Geotechnics)\n建筑材料与技术创新 (Innovations in Construction Materials and Technologies)\n气候适应型水利基础设施设计 (Climate Resilient Water Infrastructure Design)\n净零排放高级混凝土设计 (Advanced Concrete Design for Net-Zero)\n可持续钢结构与混合结构 (Sustainable Steel and Hybrid Structures)\n城市雨水管理 (Urban Stormwater Management)",
+  "success_cases": ""
+}

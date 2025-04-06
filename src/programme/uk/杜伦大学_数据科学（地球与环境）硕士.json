@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "数据科学（地球与环境）硕士",
+  "ename": "Master of Data Science (Earth and Environment)",
+  "tags": "理科,数据科学,自然科学系",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 34000英镑/年",
+  "requirements": "具有英国一等或2:1荣誉学位或同等学历，需要不包含强大数据科学成分的任何学位背景，包括社会科学、艺术和人文科学、商业和科学，强烈鼓励具有地理学、地球或环境科学学位的候选人申请",
+  "objectives": "作为数据科学硕士课程的一部分，杜伦大学数据科学（地球与环境）硕士课程面向想要学习如何管理自然资源和时空信息流的地理学家、地球和环境科学家，旨在培养学生的关键技能和跨学科知识，以应对利用现代工业、科学和政府产生的数据流的挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机科学导论 (Introduction to Computer Science)\n数据科学统计学导论 (Introduction to Statistics for Data Science)\n机器学习 (Machine learning)\n数据科学编程 (Programming for Data Science)\n地球科学中的数据科学工具 (Data Science Tools in Earth Sciences)\n数据科学在地球科学中的应用 (Data Science Applications in Earth Sciences)\n研究项目 (Research Project)\n数据科学数学导论 (Introduction to Maths for Data Science)\n数据科学中的伦理与偏见 (Ethics and Bias in Data Science)",
+  "success_cases": ""
+}

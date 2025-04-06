@@ -1,0 +1,12 @@
+{
+  "school_name": "贝尔法斯特女王大学",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 25800英镑/年",
+  "requirements": "通常具有2:1荣誉学位或学校接受的同等学历，不限专业背景，包含定量领域*的1门课程或定量论文，定量领域的相关就业经验可能会根据具体情况被考虑以代替定量领域的课程\n*这可以是一个广泛的定量领域（例如金融学、数学、统计学、经济学、会计学、工程学或物理学）的课程或模块，来自多门课程的同等内容也将被考虑",
+  "objectives": "商业分析理学硕士项目旨在满足合格专业人士的发展需求，他们已具备实现端到端业务分析解决方案的必要专业知识并能够利用数据进行业务决策。该课程围绕成功分析所需的商业知识、统计和计算三个核心领域展开，包括如营销和人力资源等核心业务功能的应用分析模块以及高级分析、机器学习，数据管理和数据驱动决策等技能的开发与应用模块。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业统计学 (Statistics for Business)\n数据管理  (Data Management)\n人力资源分析 (HR Analytics)\n运营管理 (Operations Management)\n高级分析和机器学习 (Advanced Analytics and Machine Learning)\n数据驱动决策 (Data Driven Decision Making)\n商业和社会中的人工智能 (Artificial Intelligence in Business and Society)\n市场营销分析 (Marketing Analytics)\n论文 (Dissertation)",
+  "success_cases": ""
+}

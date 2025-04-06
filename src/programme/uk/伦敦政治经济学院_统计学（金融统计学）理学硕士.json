@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦政治经济学院",
+  "major_name": "统计学（金融统计学）理学硕士",
+  "ename": "MSc Statistics (Financial Statistics)",
+  "tags": "理科,数学,统计学系",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 38000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，包含大量统计学和数学知识",
+  "objectives": "伦敦政治经济学院统计学(金融统计学)理学硕士项目提供统计学在金融和计量经济学方面应用的高水平培训。学生将学习分析数据，建立真实情况的统计模型，以及各种统计软件的使用。必修课将巩固学生对概率和统计学基本概念的理解，并引入高级课题。学生可以专攻统计学在社会科学或金融和计量经济学领域的应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计推论:原理、方法与计算 (Statistical Inference: Principles, Methods and Computation )\n多元方法 (Multivariate Methods)\n多元建模 (Multilevel Modelling)\n非线性动力学与实时序列分析 (Non-Linear Dynamics and the Analysis of Real Time Series)\n时间序列 (Time Series)\n金融统计 (Financial Statistics)\n一般线性模型和生存分析 (Generalised Linear Modelling and Survival Analysis)\n风险管理的统计方法 (Statistical Methods for Risk Management)\n金融和保险的计算方法 (Computational Methods in Finance and Insurance)\n衍生品建模的随机性 (Stochastics for Derivatives Modelling)\n金融和保险的最新发展 (Recent Developments in Finance and Insurance)\n纵向资料分析 (Longitudinal Data Analysis)\n保险风险 (Insurance Risk)\n定量分析的专题:定量文本分析 (Special Topics in Quantitative Analysis: Quantitative Text Analysis )",
+  "success_cases": ""
+}

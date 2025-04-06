@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦商学院",
+  "major_name": "分析与管理硕士",
+  "ename": "Masters in Analytics and Management",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 8月\n项目时长: 1年\n项目学费: 44900英镑/年",
+  "requirements": "具有金融学、会计学、经济学、工程学、化学、物理、数学、计算机科学、商业和管理等数学学科背景或具有其他数量能力证明，要求GMAT/GRE，不超过两年工作经验，有面试",
+  "objectives": "伦敦商学院的分析与管理硕士项目旨在培养学生具备跨部门工作的灵活性，发展在商业分析领域的职业生涯，构建一个强大的分析工具包，避免归类到技术领域，以便过渡到更为广泛的业务战略角色。该项目还致力于发展学生的全球业务视野，扩展其国际关系网络，使其成为杰出全球社区的一员。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计学 (Accounting)\n金融学 (Finance)\n数据分析 (Data Analytics)\n数据营 (Datacamp)\nExcel基础 (Excel Basics)\n定向 (Orientation)\nR语言入门 (Intro to R)\nPython入门 (Intro to Python)\n应用统计学 (Applied Statistics)\n数据科学负责任运用 (Using Data Science Responsibly)\n市场经济 (The Economics of Marketplaces)\n商业数据科学I (Data Science for Business I)\n数据管理 (Data Management)\n大数据机器学习 (Machine Learning for Big Data)\n市场营销 (Marketing)\n商业数据科学II (Data Science for Business II)\n数据可视化与讲述 (Data Visualisation and Storytelling)\n决策分析与建模 (Decision Analytics and Modelling)\n企业战略分析 (Business Strategy Analytics)\n金融报告分析 (Financial Reporting Analytics)\n运营管理 (Operations Management)\n实证金融学 (Empirical Finance)\n组织运作 (Performing in Organisations)",
+  "success_cases": ""
+}

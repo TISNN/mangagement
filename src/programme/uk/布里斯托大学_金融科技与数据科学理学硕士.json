@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "金融科技与数据科学理学硕士",
+  "ename": "MSc Financial Technology with Data Science",
+  "tags": "理科,数据科学,计算机科学、电气与电子工程和工程数学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 35500英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要数学科学、计算机科学或工程学背景，接受的学位名称包括但不限于：会计学、天体物理学、生物学\n化学、计量经济学、经济、金融、遗传学、地质学/地球科学、医学、神经科学、运营研究、物理学、心理学\n对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩\n学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用。\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们至少具备以下其中一项：\n- 在以下领域之一具有重要、相关的带薪工作经验的证据（至少两年）：数据分析师、数据工程师、数据科学家、定量分析师、软件开发人员/工程师等技术角色；\n- 相关研究生学历\n如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关工作经验和/或资格",
+  "objectives": "金融科技与数据科学理学硕士项目为学生提供了一个加入金融技术革命的机会，学生将学习一系列金融技术应用的主要设计特点，并培养实施、评估和设计这些技术的技能。学生还将发展对计算、统计和机器学习原理的理解，这些原理对于在数据驱动金融中使用的有洞察力的大规模数据分析是必要的。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "大规模数据工程 (Large-Scale Data Engineering)\n互联网经济与金融技术，第一部分 ( Internet Economics and Financial Technology, Part I)\n人工智能概论 (Introduction to Artificial Intelligence)\n数据分析概论 (Introduction to Data Analytics)\n互联网经济与金融技术，第二部分 (Internet Economics and Financial Technology, Part II)\n金融技术小项目 (Financial Technology Mini-project)",
+  "success_cases": ""
+}

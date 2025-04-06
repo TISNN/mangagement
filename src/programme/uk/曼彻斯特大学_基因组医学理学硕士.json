@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "基因组医学理学硕士",
+  "ename": "MSc Genomic Medicine",
+  "tags": "社科,医学,生物、医学和健康学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 34500英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要生物医学科学、医学、护理学背景，会灵活考虑具备适当丰富专业经验的申请者\n本课程也适用于来自曼彻斯特大学和其他英国大学完成第三年学习后的插班医学生，对于圣安德鲁斯大学的学生来说，这包括3年的课程以及随后在曼彻斯特度过的一到两年",
+  "objectives": "曼彻斯特大学基因组医学理学硕士课程旨在实现 \"\"十万个基因组计划 \"\"的愿望，即建立一支了解和应用基因组学为病人服务的世界级国民保健服务队伍。课程由教学单元和文献综述或基于生物信息学的项目组成。鼓励学生在基因组学和生物信息学的实际应用中发挥求知欲、创造力和批判性思维。\n曼彻斯特大学基因组医学理学硕士课程强调基因组学和生物信息学在NHS和学术界的实践是多个利益相关者的合作，包括临床、学术和工业的参与。学生将学习基因组学如何影响他们的临床实践领域，以及他们如何在工作场所应用他们的新知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "药物基因组学和分层保健 (Pharmacogenomics and Stratified Healthcare)\n癌症的分子病理学 (Molecular Pathology of Cancer)\n人类基因基本原理 (Fundamentals of Human Genetics)\n医学和疾病的新一代测序和组学 (Next Generation Sequencing and Omics in Medicine and Disease)\n常见和罕见遗传性疾病基因组学 (Genomics of Common and Rare Inherited Diseases)\n基因组药学研究项目 (Research Project MSc Genomic Medicine)\n生物信息学，解释，统计和数据质量保证 (Bioinformatics, Interpretation, Statistics and Data Quality Assurance)\n健康信息学 (Health Informatics)\n基因组学和精准医学经济学 (Economics of Genomics and Precision Medicine)",
+  "success_cases": ""
+}

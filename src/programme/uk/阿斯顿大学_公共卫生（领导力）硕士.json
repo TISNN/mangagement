@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "公共卫生（领导力）硕士",
+  "ename": "MPH Public Health with Leadership",
+  "tags": "社科,公共卫生,阿斯顿药学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 4月\n项目时长: 1年\n项目学费: 22750英镑/年",
+  "requirements": "申请者必须提供2016年后教育的数学能力证明。证据包括： GSCE 数学 – B/5 级或更高 包含本科学位数学的课程（例如定量方法、流行病学或统计学） 作为研究方法课程的一部分学习的统计或定量方法。 具有相关工作经验的申请人将被优先考虑。这可以是有偿工作、志愿工作、实习等。 雅思6，有2项不低于5.5，有不超过2项为5.5的申请人须参加并通过研究生英语课程的学期英语课程。",
+  "objectives": "阿斯顿大学公共卫生（领导力）硕士项目旨在为学生提供动态的学习体验，让学生具备了解和应对当地、国家和国际公共卫生挑战的技能，从而在职业生涯中取得成功。通过实践教学方法，包括由经验丰富的学术人员主持的互动讲座、小组研讨会和讲习班，学生将参与热烈的讨论并探索不同的观点。传统教学由我们的虚拟学习环境提供支持，该环境包含一系列电子辅助材料。\n在全球商业挑战课程中，学生将通过战略管理、团队发展、模拟和跨文化团队合作加深对全球商业的理解。学生还将与校友融合，并与行业专家和从业者互动，通过多样化的研究方法和实践经验增强学习。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "领导力和决策 (Leadership and Decision Making)\n数字健康 (Digital Health)\n流行病学 (Epidemiology)\n健康促进 (Health Promotion)\n健康不平等和公共卫生 (Health Inequalities and Public Health)\n全球商业挑战 (Global Business Challenge)\n学术实践中的道德规范 (Ethics in Academic Practice)\n研究生英语 (English for Postgraduate Studies)",
+  "success_cases": ""
+}

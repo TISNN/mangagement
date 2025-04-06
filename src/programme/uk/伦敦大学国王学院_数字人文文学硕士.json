@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "数字人文文学硕士",
+  "ename": "MA Digital Humanities",
+  "tags": "社科,文化,艺术与人文学院",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 33600英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，不限专业背景，和/或具备丰富工作经验（涉及数字媒体与资源的设计、创建或使用），除了基本的数字素养（电子邮件、网页浏览和文字处理）外，不需要具备先前的计算机使用经验",
+  "objectives": "伦敦大学国王学院数字人文文学硕士项目将数字理论和实践引入人类文化研究：从历史、英语和音乐到博物馆、数字出版等等。数字技术为那些处理文本、视觉或多媒体内容的人提供了许多新的机遇和挑战。该课程利用批判性理论、案例研究和基于项目的实践练习，研究数字知识生产的历史和现状，探索建模、策划、分析和解释人类文化过去和现在各种形式的数字表示的理论和实践。\n本课程的毕业生将有可能从事一些需要分析实践经验的职业，包括艺术和文化部门、数字媒体公司、出版、政府和公共行政、国际发展、教育、全球媒体和通信以及营销和公共关系或新闻业。他们还可以攻读博士学位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字人文概论 (Introduction to Digital Humanities)\n学位论文 (Dissertation)\n电子文本、注释和标记 (E-Texts、Annotation & Markup)\n网络技术 (Web Technologies)\n数字出版 (Digital Publishing)\n文化遗产的传播与消费 (Communication & Consumption of Cultural Heritage)\n文化开放 (Open Cultures)\n打造互通世界 (Making the Connected World)\n地图、应用程序与地理网络：空间人文学概论 (Maps、Apps & the GeoWeb: Introduction to the Spatial Humanities)\n实习：工作场所的数字人文 (Internship: Digital Humanities in the Workplace)\n数字产业管理 (Management for Digital Content Industries)\n元数据理论与实践 (Metadata Theory & Practice)\n数字媒体与营销 (Digital Media、Digital Marketing)\n实践中的数字资产与媒体技术 (Digital Asset & Media Technologies in Practice)\n广播媒体中的数字资产与媒体管理 (Digital Asset & Media Management in the Broadcast Media)",
+  "success_cases": ""
+}

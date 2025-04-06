@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "计算科学理学硕士",
+  "ename": "MSc Computing Science",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要主修计算机的任何学位，其中至少50%的学分认定课程为计算机，平均成绩为及格\n本课程不适用于已获得格拉斯哥大学计算机科学或软件工程本科学位的应届毕业生，这些申请者（如果尚未毕业）应考虑继续入读MSci综合课程\n要求雅思总分6.5（写作小分不低于6.5，其他小分不低于6.0）或雅思总分6.5（写作小分不低于6.0，其他3项小分不低于6.5）；或达到同等英语水平：托福总分90（阅读20 听力19 口语19 写作24）或托福总分90（阅读23 听力23 口语23 写作21）",
+  "objectives": "格拉斯哥大学计算科学理学硕士学位课程为学生提供专业软件开发的完备基础和从事开发项目的经验，为其在信息技术行业就职奠定基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "程序设计和系统开发 (Programming and systems development )\n研究和专业技能 (Research and professional skills )\n数据科学与系统概论 (Introduction to data science and systems )\n企业网络安全 (Enterprise cyber security )\n计算科学理学硕士项目 (Msc project for computing science)\n高级网络连接和通信 (Advanced networking and communications )\n高级系统编程 (Advanced systems programming )\n大数据：系统、编程和管理 (Big data: systems, programming, and management)\n约束编程 (Constraint programming )\n密码学与安全发展 (Cryptography and secure development )\n网络系统取证 (Cyber system forensics )\n网络安全基础 (Cyber security fundamentals )\n人机交互设计与评价 (Human computer interaction design and evaluation )\n以人为本的安全 (Human-centred security )",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "应用经济学（银行与金融市场）理学硕士",
+  "ename": "MSc Applied Economics with Banking and Financial Markets",
+  "tags": "商科,经济,经济系",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 27800英镑/年",
+  "requirements": "具有high 2:2荣誉学位，需要有社会科学或与商业有关的学科背景，如工商管理、金融、会计、国际贸易、银行、金融管理、公共财政或政治\n如果学生能提供适合该课程的证据，例如学位中包含高水平的经济学内容，学校可能会根据较低的成绩发出录取通知",
+  "objectives": "在先进经济学方面有扎实的基础。将其应用于学生最感兴趣的领域，使学生的知识更上一层楼。从基本的数学和经济学技能的全面复习开始，学生将继续接受有关应用微观经济学、宏观经济学、计量经济学和战略决策问题分析的高级培训。最重要的是，学生将有机会根据学生最感兴趣的业务或政策领域调整课程，为学生提供更多专业知识并在该领域寻求工作时抢先一步。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用微观经济学 (Applied microeconomics)\n应用宏观经济学 (Applied macroeconomics)\n应用计量经济学 (Applied econometrics)\n战略决策与博弈 (Strategic decision making and games)\n应用研究方法 (Applied research methods)\n应用金融经济学 (Applied financial economics)\n金融市场 (Financial markets)\n金融机构经济学 (Economics of financial institutions)\n国际货币政策与机构 (International monetary policy and institutions)\n公共政策分析 (Public policy analysis)\n政治经济学 (Economics of politics)\n公共财政 (Public finance)\n环境与资源经济学 (Environmental and resource economics)\n应用行为经济学 (Applied behavioural economics)\n实验经济学 (Experimental economics)\n应用行为金融学 (Applied behavioural finance)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "生物信息学理学硕士",
+  "ename": "MSc Bioinformatics",
+  "tags": "理科,生物,生物学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 29400英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要生物科学背景，学校也会考虑具备丰富行业经验的申请者，该课程不适合已经完成了综合硕士学位的学生",
+  "objectives": "约克大学生物信息学理学硕士项目面向没有编程或生物信息学分析经验的生物科学家。通过参加这个项目，学生将因此获得研究生物信息学的全面基础，这将使学生能够攻读具有计算组件的生物科学博士学位或行业内一系列其他专业职业道路。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究、专业和团队技能 (Research, Professional and Team Skills)\n生物科学中的数据分析和编程 (Data Analysis and Programming in the Biosciences)\n生物信息学前沿研究课题 (Advanced Research Topics in Bioinformatics)\n小组项目 (Group Project)\n研究计划 (Research Plan)\n生物信息学研究研讨会 (Research Seminars in Bioinformatics)",
+  "success_cases": ""
+}

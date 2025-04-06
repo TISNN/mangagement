@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "金融科技哲学硕士（HKUST(GZ)）",
+  "ename": "MPhil Financial Technology (HKUST(GZ))",
+  "tags": "商科,金工金数,香港科技大学（广州）",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 2年\n项目学费: 150000人民币/年",
+  "requirements": "具有认可机构颁发的学士学位或同等学历",
+  "objectives": "金融科技（FinTech）是近年来发展迅速的重要新兴领域。它是指在移动银行、点对点贷款、数字支付、区块链和加密货币等各种金融服务上应用尖端技术和高级分析，旨在提高服务效率，促进金融创新，提高最终用户满意度。\n金融技术研究型硕士（MPhil）课程为学生提供培训和教育，以进行高级研究并充分掌握金融科技的发展。从这些课程毕业的学生应该能够进行和应用高质量的研究，对学术界和/或工业界的金融科技研究和实践产生影响。这些计划侧重于高级研究，旨在将毕业生安置在欣赏研究能力和质量的学术界、研究机构和行业工作中。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融科技研究 (Financial Technology Research)\n金融科技统计方法 (Statistical Methods for Financial Technology)\n高级概率论 (Advanced Probability Theory)\n优化理论 (Optimization Theory)\n机器学习和人工智能 (Machine Learning and Artificial Intelligence)\n随机过程 (Stochastic Processes)\n企业融资研究 (Research in Corporate Finance)\n微观经济理论 (Microeconomic Theory)\n资产定价研究 (Research in Asset Pricing)\n金融科技附件 (FinTech Attachment)\n高级深度学习 (Advanced Deep Learning)\n深度强化学习 (Deep Reinforcement Learning)\n数据科学中的深度学习 (Deep Learning in Data Science)\n高级机器学习 (Advanced Machine Learning)\n凸和非凸优化 I (Convex and Nonconvex Optimization I)\n区块链中的数据分析与隐私保护 (Data Analysis and Privacy Protection in Blockchain)\n技术创新与创业经济学 (Economics of Technology Innovation and Entrepreneurship)\n不确定性、信息和决策 (Uncertainty, Information and Decision Making)\n文本分析和机器学习 (Text Analysis and Machine Learning)\n实验经济学与组织行为学 (Experimental Economics and Organizational Behavior)\n碳中和的政策与技术 (Policy and Technology for Carbon Neutrality)\n定量社会科学 (Quantitative Social Science)",
+  "success_cases": ""
+}

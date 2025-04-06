@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "商法与公司法法学硕士",
+  "ename": "LLM Commercial and Corporate Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有本科2:1学位或以上学历，需要法律或具有实质性法律内容的学位\n具有2:2荣誉学位以及其他法律资格和/或大量的专业法律经验的法律毕业生也可能符合资格\n在英国专业机构认可的普通专业考试（CPE）或法律研究生文凭（GDL）中获得优秀（或60%）获得二等荣誉学位的非法律专业毕业生也可能符合资格。非法律专业毕业生若具备在法律领域或与其申请专业直接相关的领域具有特殊的工作经验（至少5年）也可能被考虑",
+  "objectives": "伦敦大学玛丽皇后学院商法与公司法法学硕士项目课程由法学院商法专家授课，课程涉及全球与地区的国际贸易管理、国际商业交易的组织与管理、以及贸易与公司法的经济基础。伦敦大学玛丽皇后学院商法与公司法法学硕士项目的学生能够参加由玛丽皇后学院举办的一系列与商法与公司法相关的活动。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融市场监管 (Regulation of Financial Markets)\n国际金融法 (International Finance Law)\n国际银行法 (Banking Law International)\n商业与金融中的法律与伦理 (Law and Ethics in Business and Finance)\n中国商法 (Chinese Business Law)\n国际竞争法 (International Competition Law)\n数字知识产权 (Digital Intellectual Property)\n世界贸易组织法：基本原则 (WTO Law: Fundamental Principles)",
+  "success_cases": ""
+}

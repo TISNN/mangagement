@@ -1,0 +1,12 @@
+{
+  "school_name": "杜克大学",
+  "major_name": "统计科学硕士",
+  "ename": "Master's in Statistical Science",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 36学分\n项目学费: 28950美元/学期\n项目规模: 30人\n平均起薪: 102000美元/年",
+  "requirements": "两学期微积分基础的概论,两学期数理统计,矩阵代数,应用回归分析,编程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

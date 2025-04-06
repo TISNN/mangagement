@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡科技设计大学",
+  "major_name": "城市科学、规划与政策理学硕士",
+  "ename": "MSc Urban Science, Policy and Planning",
+  "tags": "社科,建筑,硕士项目",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 41430新币/年",
+  "requirements": "拥有学士学位或以上",
+  "objectives": "新加坡科技设计大学城市科学、规划与政策理学硕士项目提供综合的实践课程。通过该项目的学习，学生将拥有良好的城市理论基础，善于处理、分析城市数据，并精通城市规划。新加坡科技设计大学城市科学、规划与政策理学硕士项目旨在培养下一代城市研究者、分析师与从业人员。新加坡科技设计大学城市科学、规划与政策理学硕士项目紧跟迅速扩大的全球化城市新范式，旨在帮助学生针对城市挑战寻找新的解决方案，诸如可持续迁移、包容性城市发展和21世纪新治理模式。新加坡科技设计大学城市科学、规划与政策理学硕士项目的学生将先进的社会与数据科学研究方法以及计算技术与城市理论、规划和实践相结合，探究现有和新兴的课题以塑造未来城市。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "城市社会进程理论与动态 (Theory and Dynamics of Urban Social Processes)\n城市分析研究方法 (Research Methodology for Urban Analysis)\n规划与政策的技巧与方法 (Techniques and Methods of Planning and Policy)\n全球智慧城市：新加坡领导与规划 (Smart Global City: Leadership and Planning in Singapore)\n城市研讨会 (Urban Symposium)\n计算城市分析 (Computational Urban Analysis)\n课题研究 (Research Studio)\n理想化城市：城市化项目 (Imagined Cities: Urbanism as a Project)\n建筑、住宅与归属感 (Building, Dwelling, Belonging)\n非自然灾害 (Unnatural Disasters)\n交互式数据可视化 (Interactive Data Visualization)\n智慧城市、数字经济与数字社会 (Smart Cities, Digital Economies and Digital Societies)\n独立项目研究 (Independent Research Project)",
+  "success_cases": ""
+}

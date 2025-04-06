@@ -1,0 +1,12 @@
+{
+  "school_name": "北卡罗来纳大学教堂山分校",
+  "major_name": "数据科学和分析理学硕士",
+  "ename": "MS in Data Science and Analytics",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 35000美元\n平均成绩: 3.79",
+  "requirements": "申请者需要有良好的统计学和数学本科成绩。 统计学课程应包括统计学入门课程、推理和回归中级课程和基于微积分的概率课程。 数学课程应包括单变量和多变量微积分，以及线性和矩阵代数的中级或高级课程。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

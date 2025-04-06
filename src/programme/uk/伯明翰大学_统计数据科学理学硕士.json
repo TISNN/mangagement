@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "统计数据科学理学硕士",
+  "ename": "MSc Statistical Data Science",
+  "tags": "理科,数据科学,工程与物理科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31390英镑/年",
+  "requirements": "具有2:1荣誉学位，需要数学和/或统计学，或包含高等数学和/或统计学成分的专业背景\n该课程针对的是那些已经完成包含大量数学或统计学内容的本科学位并希望继续攻读硕士研究生课程的学生",
+  "objectives": "伯明翰大学统计数据科学理学硕士项目将深入探索基础和高级统计原理、理论和概念，并辅以数据分析技能的全面培训。该课程旨在包含广泛的编程技术和机器学习方法，为学生提供必要的工具，以便在现实场景中有效地应用这些技术。该计划的核心是培养学生使用统计学和数据科学的多种方法对复杂问题进行批判性分析的能力。这种数据驱动的问题解决方法使您能够在各个领域产生创新见解，使学生处于统计数据科学领域的前沿。此外，该计划还强调增强书面表达技巧，确保学生能够以书面形式清晰、专业地传达复杂的统计概念，同时培养独立工作的能力",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "贝叶斯推理和计算 (Bayesian Inference and Computation)\n深度学习 (Deep Learning)\n数据可视化 (Data Visualisation)\n统计推断基础 (Foundations of Statistical Inference)\n机器学习的大规模优化 (Large Scale Optimization for Machine Learning)\n统计建模 (Statistical Modelling)\n统计机器学习 (Statistical Machine Learning)\n统计数据科学项目 (Statistical Data Science Project)\n高级机器学习 (Advanced Machine Learning)\n计算统计 (Computational Statistics)\n深度学习 2 (Deep Learning 2)\n医学统计 (Medical Statistics)\n非参数统计 (Nonparametric Statistics)\n数值方法和数值线性代数 (Numerical Methods and Numerical Linear Algebra)\n随机过程 (Stochastic Processes)\n时间序列和预测 (Time Series and Prediction)",
+  "success_cases": ""
+}

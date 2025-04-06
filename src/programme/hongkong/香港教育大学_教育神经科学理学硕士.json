@@ -1,0 +1,12 @@
+{
+  "school_name": "香港教育大学",
+  "major_name": "教育神经科学理学硕士",
+  "ename": "MSc Educational Neuroscience",
+  "tags": "社科,教育,教育与人类发展学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 184800港币/年",
+  "requirements": "具有认可的教育学、神经科学和心理学等相关专业的学士学位或同等学历",
+  "objectives": "香港教育大学教育神经科学理学硕士课程旨在赋予学生将脑科学原理和研究成果应用于教育场景和实践中的知识和技能，将神经科学融入教育中，能够革新对儿童发展、认知过程、学习风格和个体差异的理解方式，通过深入地了解学生的需求和能力，教育工作者能够调整课程、教学和评估方法，以满足每个学生的独特需求。\n神经科学为学习的最佳条件和策略提供了宝贵的见解，包括有意义的活动、交替学习阶段和测试、间隔学习、社会互动和反馈等。学生可以从这些见解中受益匪浅，了解如何提高他们的注意力、记忆力、执行功能、学习动机和情绪调节能力的神经科学机制，这些对学业成绩和个人成长至关重要。\n融合课程和全纳教育在香港和中国大陆广泛实施，这为教师带来了与神经多样性相关的各种挑战和机会。通过本课程学习，教育工作者可以更好地认识和尊重学习者的差异，包括阅读障碍、自闭症、注意力不足过动症和资优。香港教育大学教育神经科学理学硕士课程通过营造重视多样性的包容、公平的学习环境，鼓励形成尊重和支持所有学生的文化。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育神经科学基础 (Fundamentals of Educational Neuroscience)\n学与教的神经科学研究进展 (Advances in Neuroscientific Studies of Learning and Teaching)\n教育神经科学研究方法 (Educational Neuroscience Research Methods)\n教育神经科学研究、数据分析与报告 (Educational Neuroscientific Studies, Data Analyses and Reports)\n专题研究 (Capstone Project)\n认知、语言与社会情绪发展与教育 (Cognitive, Language and Socioemotional Development and Education)\n神经科学在心理健康与教育的应用 (Application of Neuroscience in Mental Health and Education)\n神经科学在特殊和全纳教育的应用 (Application of Neuroscience in Special and Inclusive Education)\n神经科学在科技和媒体教育的应用 (Application of Neuroscience in Technology and Media Education)",
+  "success_cases": ""
+}

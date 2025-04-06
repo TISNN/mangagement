@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "电子工程理学硕士",
+  "ename": "MSc Electronic Engineering",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有二等荣誉学位（通常相当于英国2:1荣誉学位）或更高学历，学科背景需要包含大量电子工程内容，学位应包括半导体器件（或电子器件物理学）、通信和信号处理、工程师或科学家数学、编码/编程技能等课程",
+  "objectives": "杜伦大学电子工程理学硕士课程的主要目标是教授学生电子工程的关键工程方面的知识，使其能够在工业或研究中承担负责任的、创造性的、具有挑战性和激励性的职位。本课程涵盖电气工程的关键领域，除了技术背景，应用理论概念的经验是通过主要的个人研发项目和团队设计项目获得的，这些项目能够培养学生跨越传统工程边界解决问题的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "无线电及数字通信 (Radio and Digital Communications)\n高级电子测量 (Advanced Electronics Measurement)\n通信网络 (Communication Networks)\n高等电子学 (Advanced Electronics)\n光子学 (Photonics)\n环境工程 (Environmental Engineering)\n万联网 (Internet of Everything)\n最优化 (Optimisation)",
+  "success_cases": ""
+}

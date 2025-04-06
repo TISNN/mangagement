@@ -1,0 +1,12 @@
+{
+  "school_name": "考文垂大学",
+  "major_name": "建筑学硕士",
+  "ename": "MArch Architecture",
+  "tags": "社科,建筑,艺术与人文学院",
+  "introduction": "专业方向: 建筑\n入学时间: 1/9月\n项目时长: 2年\n项目学费: 12400英镑/年",
+  "requirements": "具有2:2荣誉学位，需要建筑学背景，需要提供相关建筑设计作品集",
+  "objectives": "考文垂大学建筑学硕士项目将艺术与科学融合在一起，旨在扩展学生的知识，为其建筑设计职业生涯做准备，培养学生从事建筑职业所需的创造性和专业技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计，流程与沟通 (Design, Process and Communication)\n综合设计 (Comprehensive Design)\n施工技术与环境设计 (Construction Technology and Environmental Design)\n文化环境 (Cultural Context)\n综合项目 (Integrated Project)\n设计研究 (Research for Design)\n设计论文 (Design Thesis)\n专业实践与管理 (Professional Practice and Management)\n关键调查 (Critical Investigations)",
+  "success_cases": ""
+}

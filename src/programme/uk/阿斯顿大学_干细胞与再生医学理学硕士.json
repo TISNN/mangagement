@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "干细胞与再生医学理学硕士",
+  "ename": "MSc Stem Cells and Regenerative Medicine",
+  "tags": "社科,医学,生物科学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 20700英镑/年",
+  "requirements": "具有认可大学的2:2学位，成绩至少达到55%，需要生物学、生物医学或生物化学基础学科或相关领域背景",
+  "objectives": "通过对干细胞了解的增加，科学家们逐渐发现修复病变和受损器官的新疗法，并治愈许多疾病。从探索移植到细胞再生，干细胞研究确实是医学的未来。阿斯顿大学干细胞与再生医学理学硕士课程旨在为学生提供高水平的科学知识和对干细胞生物学和再生医学的理解，使学生能够对现代生物医学科学及其临床和工业应用领域的近期科学发展有所了解，并掌握进一步研究和学习的实用技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "基本实验技能 (Essential Laboratory Skills)\n专业发展和研究沟通技巧 (Professional Development and Research Communication Skills)\n细胞与分子生物学导论 (Introduction to Cell and Molecular Biology)\n应用生物技术 (Applied Biotechnology)\n干细胞生物学与细胞分化 (Stem Cell Biology and Cellular Differentiation)\n组织再生 (Tissue Regeneration)\n衰老与再生医学 (Ageing and Regenerative Medicine)\n实验室能力评估 (Laboratory Competency Assessment)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

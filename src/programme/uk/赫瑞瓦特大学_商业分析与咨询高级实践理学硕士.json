@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "商业分析与咨询高级实践理学硕士",
+  "ename": "MSc Business Analytics and Consultancy with Advanced Practice",
+  "tags": "商科,商业分析,爱丁堡商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 2年\n项目学费: 12096英镑/年",
+  "requirements": "具有2:2荣誉学位，需要相关学科背景。虽然学校可以考虑来自各种学术背景的申请人，如物流、工程、商业管理/管理、新闻等，但学校希望看到能够证明计算能力的申请人。这可以包括代数，统计学，微积分，会计和金融，或类似的科目，显示处理数字的能力",
+  "objectives": "赫瑞瓦特大学商业分析与咨询高级实践理学硕士项目将为学生提供所需的应用经验和决策技能，帮助学生在转型变革中成为有效的领导者和管理者。在攻读此学位期间，学生将学习分析背后的理论和实践，从而能够做出明智的战略性、基于证据的业务决策，推动在复杂的商业世界中取得成功。 学生将了解大数据和分析的关键概念及其在管理决策中的应用。学生还将了解管理咨询和财务报告，探索与组织行为、领导力和创业精神相关的社交网络分析理论和方法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业分析和大数据介绍 (Business Analytics and Introduction to Big Data)\n金融和财务报告 (Finance and Financial Reporting)\n管理咨询 (Management Consultancy)\n战略变革 (Strategic Change)\n大数据分析 (Big Data Analytics)\n研究哲学与实践 (Research Philosophy and Practice)\n商业网络分析 (Network Analysis for Business)\n质量管理 (Quality Management)\n项目管理 (Project Management)\n系统思维与分析 (Systems Thinking and Analysis)\n商业分析与咨询论文 (Business Analysis and Consultancy Dissertation)\n行业实习1 (Industry Placement 1)\n行业实习2 (Industry Placement 2)\n行业实习3 (Industry Placement 3)",
+  "success_cases": ""
+}

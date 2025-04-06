@@ -1,0 +1,12 @@
+{
+  "school_name": "纽约大学",
+  "major_name": "会计硕士",
+  "ename": "MS in Accounting",
+  "tags": "商科,会计",
+  "introduction": "专业方向: 会计\n入学时间: 秋季\n项目时长: 1年，30学分\n项目学费: 57334美元\n项目规模: 93人\n平均成绩: 3.49\n平均G: 660\n国际学生: 41%\n男女比例: 38:62",
+  "requirements": "需要完成财务会计、管理会计、统计学或数据分析原理、微观经济学原理、宏观经济学原理的先修课程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

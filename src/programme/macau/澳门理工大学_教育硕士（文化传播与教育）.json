@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门理工大学",
+  "major_name": "教育硕士（文化传播与教育）",
+  "ename": "Master of Education (Cultural Communication and Education)",
+  "tags": "社科,教育,人文及社会科学学院",
+  "introduction": "专业方向: 教育\n入学时间: 8月\n项目时长: 2年\n项目学费: 85000澳门币/年",
+  "requirements": "具有学士学位或同等学历；或\n正修读上述学历课程最后一年。\n其他所需文件：\n- 简历上所列的成果材料及经历副本\n- 内地往届学士毕业生须提交应届内地全国研究生招生考试初试成绩，且达国家一区分数线或以上",
+  "objectives": "澳门理工大学教育硕士（文化传播与教育）项目专为教育、旅游、文化遗产和文化传播领域的从业者设计。通过跨学科探索，强化学生的学术知识、综合素质和教育创新能力，培养教育、科研、人文、社会服务、文化遗产等领域的专业人才。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "跨文化交际与教育实践 (Intercultural Communication and Education Practice)\n东西方的人文与文化 (Humanism & Culture in East and West)\n课堂评估与创新教学法 (Classroom Assessment and Innovative Pedagogy)\n学习和质量保证 (Learning and Quality Assurance)\n项目报告 (Project Report)\n研究方法 (Research Methods)\n社会及公民教育 (Social and Civic Education)\n公共历史和历史教育 (Public History and History Education)\n中国传统文化的传承与实践 (Heritage and Practice of Chinese Traditional Culture)\n艺术与艺术教育 (Art and Art Education)\n文化遗产与博物馆 (Cultural Heritage & Museums)\n澳门历史文化教育 (History, Culture and Education in Macao)",
+  "success_cases": ""
+}

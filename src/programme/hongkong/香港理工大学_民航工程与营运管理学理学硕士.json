@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "民航工程与营运管理学理学硕士",
+  "ename": "MSc Aviation Engineering and Operations Management",
+  "tags": "工科,航空工程,工程学院",
+  "introduction": "专业方向: 航空工程\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 154000港币/年",
+  "requirements": "具有荣誉学士学位，需要工程、科学或技术背景，或具备符合香港工程师学会正式会员学术要求的资格，或具备同等学历\n没有荣誉学位但有其他相关资格和/或适当工作经验的申请者也会被考虑\n个别情况下有关学院会根据个案考虑，申请者可能需要参加面试或笔试以进一步证明他们的语言能力",
+  "objectives": "香港理工大学民用航空工程学理学硕士项目旨在为有意在航空及航空工程领域提升知识及谋求高水平职业发展的学生提供高级教育及训练，使学生具备所需的能力，在就业市场上更具竞争力，并最终在航空工业中发挥领导作用，培养学生对航空及航空工程领域的最新先进技术的了解和掌握，使学生能运用所学知识和技能，解决实践中遇到的问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "制导、导航与高级航空电子系统 (Guidance, Navigation and Advanced Avionics System)\n人为因素、事故预防与飞机维修 (Human Factors, Accident Prevention and Aircraft Maintenance)\n下一代空中交通管制与空中交通流量管理 (Next Generation Air Traffic Control and Air Traffic Flow Management)\n航空运筹学、资源规划与工程管理 (Operations Research, Resource Planning and Engineering Management in Aviation)\n航空工业人工智能 (Artificial Intelligence in Aviation Industry)\n航空技术服务与飞机租赁管理 (Aviation Technical Services and Aircraft Leasing Management)\n机队管理与航空可持续性 (Fleet Management and Aviation Sustainability)\n空气动力学与计算流体动力学 (Aerodynamics and Computational Fluid Dynamics)\n高级飞机结构与材料 (Advanced Aircraft Structures and Materials)\n飞机设计与认证 (Aircraft Design and Certification)\n自主飞行-力学与控制 (Autonomous Flight - Mechanics and Control)\n飞机发动机系统与燃烧 (Aircraft Engine Systems and Combustion)",
+  "success_cases": ""
+}

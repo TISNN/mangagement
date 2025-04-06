@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "管理学理学硕士",
+  "ename": "MSc Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 34930英镑/年",
+  "requirements": "具有英国大学（或海外同等机构）颁发的荣誉学位（2:1或更高水平）或研究生文凭\n能够证明超过最低入学要求的申请者将被优先考虑",
+  "objectives": "任何组织都需要高层次的管理才能平稳高效地运行。从策略、政策到发展和创新，优秀的管理者可以带来成功的经营，推动企业向前发展，从而扩大企业规模，提高企业利润，提升企业信誉。伯明翰大学管理学理学硕士（战略、运营与组织领导力）学位课程招收本科专业是商业、管理学或经济学的毕业生，旨在将学生现有的知识和技能提升到硕士水平。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "当代管理问题 (Contemporary Issues in Management)\n论文 (Dissertation)\n商业环境 (Environment of Business)\n责任经营原则 (Principles of Responsible Business)\n研究方法 (Research Methods)\n战略管理 (Strategic Management)\n运营管理 (Operations Management)\n组织行为学 (Organisational Behaviour)\n先进策略 (Advanced Strategy)\n创业 (Entrepreneurship: Business Start-Up)\n创新管理 (Innovation Management)",
+  "success_cases": ""
+}

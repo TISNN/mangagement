@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "教育学硕士（艺术）",
+  "ename": "Master of Education (Art)",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 1月\n项目时长: 1年\n项目学费: 41900新币/年",
+  "requirements": "具有认可大学颁发的良好学士学位，或具有相关的南洋理工大学FlexiMasters且成绩优秀；或\n具有教师资格如新加坡国立教育学院颁发的教育研究生文凭，或具备至少1年教育相关工作经验。",
+  "objectives": "教育学硕士课程主要面向在新加坡学校和教育部工作的教育工作者，学校也欢迎具有教育背景并希望提升教育知识和技能的大学毕业生申请。南洋理工大学教育学硕士（艺术）项目为学校开发视觉艺术课程和教学法提供了理论和实践基础，使艺术教育者能够通过艺术和艺术教育的当代问题和发展，实现艺术教育的高级学术和专业发展，强调学术和学生自己的工作室实践，以丰富其在多元文化背景下的艺术知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育调查 ( Educational Inquiry)\n艺术教育的研究与问题 (Research and Issues in Art Education)\n视觉艺术与创意 (Visual Arts and Creativity)\n艺术教育与科技 (Arts Education and Technology)\n艺术创作与美学探究 (Art Making and Aesthetic Enquiry)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "技术、人工智能与法律服务法学硕士",
+  "ename": "LLM Technology, AI and Legal Services",
+  "tags": "社科,法律,城市法学院",
+  "introduction": "专业方向: 法律\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23110英镑/年",
+  "requirements": "具有2:1荣誉学位，需要法律背景。学位等级低于2:1的学生，只有在他们的申请中披露了明确的学术能力证据，可以达到2:1的水平和/或重要的相关专业经验，才能被录取。申请人在法律以外的学科的第一学位也将被考虑",
+  "objectives": "伦敦大学城市学院技术、人工智能与法律服务法学硕士课程旨在加深学生对受技术和人工智能影响的不断发展的法律领域的理解，提高自己的专业法律技能，并鼓励对技术和人工智能的监管和道德使用等领域或应对新挑战所需的法律原则以及技术创新对法律实践的影响进行批判性反思。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "网络犯罪、人工智能与刑事司法 (Cybercrime, AI and Criminal Justice)\n深度造假与虚假信息 (Deepfakes and Disinformation)\n网上法院、争议解决与诉诸司法 (Online Courts, Dispute Resolution and Access to Justice)\n数字时代的隐私和数据保护 (Privacy and Data Protection in a Digital Age)\n新兴技术和创新的监管与道德规范 (Regulation and Ethics for Emerging Technologies and Innovation)\n金融技术和数字资产的监管与伦理 (Regulation and Ethics of Financial Technology and Digital Assets)\n社交媒体、视频游戏与在线平台 (Social Media, Video Games and Online Platforms)\n技术创新与知识产权 (Technological Innovation and IP Rights)\n技术、人工智能与法律实践 (Technology, AI and Legal Practice)\n学位论文 (Dissertation)",
+  "success_cases": ""
+}

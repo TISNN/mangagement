@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学伯克利分校",
+  "major_name": "分析学硕士",
+  "ename": "Master of Analytics",
+  "tags": "商科,商业分析",
+  "introduction": "专业方向: 商业分析\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1年\n项目学费: 70534.5美元",
+  "requirements": "至少一门大学水平的课程或同等知识：线性代数、概率和统计。流利的计算机编程语言。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

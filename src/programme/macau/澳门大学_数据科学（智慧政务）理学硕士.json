@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "数据科学（智慧政务）理学硕士",
+  "ename": "MSc Data Science (Smart Governance)",
+  "tags": "理科,数据科学,社会科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "申请人须持有学士学位，并符合澳门大学有关硕士学位课程的入学要求。\n申请者为中国大陆地区毕业者，须持有教育部认可的大学颁发的学士学位。本科GPA 2.8(75满分100分)或以上。优先录取211、985类高校毕业生。计算机科学、社会科学或数学相关专业背景优先考虑",
+  "objectives": "该计划的特色是多学科课程，该课程汲取了跨学科的见解，使学生能够使用最新的工具和分析方法从现实世界的数据集中提取信息，并以各种方式解释和交流其发现改变人们的思想和行为。数据科学理学硕士课程为期两年，与不同学术单位合作开展。科学与技术学院总共将开设4门基础课程，内容涉及大数据理论，挖掘和分析技术等。要求学生声明自己的专业，这是由不同学术单位提供的，以学习和研究如何处理大数据。切实有效地应用于他们指定的专业领域。学生应根据指定专业的学习计划注册课程，并完成具有指定主题的项目报告。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学编程导论 (Introduction to Data Science Programming)\n数据科学与数据可视化 (Data Science and Data Visualization)\n数据库与数据挖掘技术 (Database and Data Mining Technologies)\n机器学习工具 (Tools for Machine Learning)\n项目报告 (Project Report)\n公民数据采集与分析 (Civic Data Acquisition and Analysis)\n大数据与智能治理 (Big Data and Smart Governance)\n媒体与舆论数据分析 (Analysis of Media and Opinion Data)\n理解智能治理 (Making Sense of Smart Governance)\n基于大数据的定量社会科学研究 (Quantitative Social Science Research with Big Data)",
+  "success_cases": ""
+}

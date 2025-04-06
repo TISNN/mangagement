@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "行为经济学理学硕士",
+  "ename": "MSc Behavioural Economics",
+  "tags": "商科,经济,商学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 27000英镑/年",
+  "requirements": "具有英国2:1单一或联合荣誉学位或同等学历，需要经济学、金融学、数学、统计学、物理学、计算机科学或工程学背景，鼓励具有其他学科学位并且在数学/统计学/计量经济学2门课程（涵盖微积分、概率论/计量经济学和理想情况下线性代数）中取得好成绩的的申请者申请",
+  "objectives": "杜伦大学行为经济学理学硕士研究如何将行为心理学的要素应用于经济学，以了解人们如何做出经济决策，以及这些决策与理性选择的决策有何不同。作为经济学中发展最快的领域之一，行为经济学为商业和公共政策提供了洞察力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级宏观经济学 (Advanced Macroeconomics)\n高级微观经济学 (Advanced Microeconomics)\n行为经济学 (Behavioural Economics)\n实验经济学 (Experimental Economics)\n计量经济学分析 (Econometrics Analysis)\n时间序列分析 (Time-Series Analysis)\n微观计量经济学 (Microeconometrics)\n发展经济学 (Development Economics)\n计量经济学II (Econometrics II)\n环境与气候经济学 (Environmental and Climate Economics)\n博弈论 (Game Theory)\n产业组织 (Industrial Organisation)\n国际贸易与金融 (International Trade and Finance)\n微观计量经济学 (Microeconometrics)\n货币与银行业 (Money and Banking)\n自然资源经济学 (Natural Resource Economics)",
+  "success_cases": ""
+}

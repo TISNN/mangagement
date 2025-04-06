@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "建筑设备工程（工程）理学硕士",
+  "ename": "MSc(Eng) Building Services Engineering",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 320000港币/年",
+  "requirements": "具有学士学位，需要相关工程或相关科学学科背景；或具有同等级别的资历",
+  "objectives": "香港大学建筑设备工程（工程）理学硕士学位课程为想要获得新知识及跟紧建设服务行业技术发展的执业工程师或有关专业人士提供有关现代建筑服务工程系统的设计、管理及运作的先进教育，课程由电气与电子工程系以及机械工程系联合组织。课程涵盖服务系统设计、项目管理、操作和维护、能源性能、建筑智能和可持续发展等多个科目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电气安装 (Electrical installations)\n照明工程 (Lighting engineering)\n建筑物的能源表现 (Energy performance of buildings)\n建筑物特低压电气系统 (Extra-low-voltage electrical system in buildings)\n空调与制冷 (Air conditioning and refrigeration)\n公用服务设施 (Utility services)\n检测与调试 (Testing and commissioning)\n项目管理 (Project management)\n清洁电能与建筑智能电网 (Clean electrical energy and smart-grids for buildings)\n消防设施 (Fire service installations)\n高级暖通空调应用 (Advanced HVAC applications)\n论文 (Dissertation)",
+  "success_cases": ""
+}

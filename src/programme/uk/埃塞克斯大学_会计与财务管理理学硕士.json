@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "会计与财务管理理学硕士",
+  "ename": "MSc Accounting and Financial Management",
+  "tags": "商科,会计,埃塞克斯商学院",
+  "introduction": "专业方向: 会计\n入学时间: 10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:1学位，不限专业背景",
+  "objectives": "埃塞克斯大学会计与财务管理理学硕士项目是为那些没有学习过会计，但有商业、经济学或其他相关学科学位的人设计的。埃塞克斯大学会计与财务管理理学硕士项目为学生提供全面的企业分析和报告基础，以及建立其在财务决策方面的信心。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n会计研究方法 (Research Methods in Accounting)\n公司报告与分析 (Corporate Reporting and Analysis)\n金融决策 (Financial Decision Making)\n财务报告问题 (Issues in Financial Reporting)\n管理会计 (Management Accounting)\n国际管理会计 (International Management Accounting)\n国际财务报告 (International Financial Reporting)\n公司治理案例 (Cases in Corporate Governance)",
+  "success_cases": ""
+}

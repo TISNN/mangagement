@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "行为金融学理学硕士",
+  "ename": "MSc Behavioural Finance",
+  "tags": "商科,金融,亨利商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 28500英镑/年",
+  "requirements": "具有good 2nd荣誉学位或同等学历，不限专业背景，必须有够好的计算能力",
+  "objectives": "雷丁大学行为金融学理学硕士学位课程使学生获得行为金融学这一结合心理学和金融经济学的交叉学科的硕士级别教学。\n雷丁大学行为金融学理学硕士学位课程是英国首个结合这两个学科并提供全面和均衡的研究生课程。雷丁大学行为金融学理学硕士学位课程的学习循序渐进，因此学生将批判性地理解核心理论，全面掌握知识、以及知识运用和分析能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "证券、期货与起源 (Securities、Futures and Options)\n固定收益和股权投资 (Fixed Income and Equity Investments)\n金融市场 (Financial Markets)\n金融定量方法概论 (Introductory Quantitative Methods for Finance)\n金融心理学概论 (Introduction to Psychology for Finance)\n行为经济学 (Behavioural Economics)\n人力激发 (Human Motivation)\n组织中的个人和团队发展心理学 (Psychology of Individual and Team Development in Organisations)\n心理学研究定性方法 (Applying Qualitative Methods in Psychological Research)\n行为金融学 (Behavioural Finance)\n外汇兑换和货币市场 (Foreign Exchange and Money Markets)\n研究项目 (Research Project)\n金融史议题 (Topics in the History of Finance)\n债券市场定价和交易战略 (Bond Market Pricing and Trading Strategies)\n衍生证券：定价、套期保值和交易 (Derivatives Securities: Pricing、Hedging and Trading)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "微电子学理学硕士（系统与设备）",
+  "ename": "MSc Microelectronics: Systems and Devices",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 30050英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要工科背景：电气与电子工程，计算机工程，机械工程，物理学，通信、信息与控制工程，光学信息科学与技术\n具备相关工作经验者优先考虑（非必要条件）\n学校会根据个人情况考虑具有较低或非标准资格以及大量相关工作经验的申请者",
+  "objectives": "纽卡斯尔大学微电子学理学硕士项目涵盖了现代微电子产业的所有方面，如半导体理论、制造技术、数字技术、超大规模集成电路设计和可重构硬件设计。纽卡斯尔大学微电子学理学硕士项目的毕业生具备在微电子产业任何领域就业的技能，同时也了解学科的其他方面知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "片上系统测试策略 (System-on-Chip Test Strategies)\n高级电子器件 (Advanced Electronic Devices)\n高级器件制造 (Advanced Device Fabrication)\n高级超大规模集成电路设计 (Advanced VLSI Design)\n可重构硬件设计 (Reconfigurable Hardware Design)\n个人项目 (Individual Project)\n信号处理和估计 (Signal Processing and Estimation)\n高级移动和蜂窝通信 (Advanced Mobile and Cellular Communications)\n光子学 (Photonics)\n电力电子：设计与实现 (Power Electronics - Design & Implementation)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "航空航天工程理学硕士",
+  "ename": "MSc Aerospace Engineering",
+  "tags": "工科,航空工程,机械工程学院",
+  "introduction": "专业方向: 航空工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要航空/航天、机械、土木或通用工程背景，申请者应在高等数学、材料强度、动力学和基础流体力学等相关课程中取得优秀成绩，如果成绩单显示不清楚，学校可能要求提供更详细的课程信息",
+  "objectives": "当前无论是在英国还是世界其他国家地区，对于航空航天工程专业人才的需求正日益增长。事实上，英国拥有继美国之后的世界第二大航空航天产业，同时，英国也是许多世界领先航空航天企业的所在地，如：空客、阿斯特里姆公司、英国宇航系统公司、吉凯恩公司和劳斯莱斯。\n利兹大学航空航天工程理学硕士项目由领先研究学术专家教授，将使学生具备在极具挑战的产业中获得成功所需的知识和技能。通过项目中的核心课程，学生将了解航空航天结构和结构分析等知识，同时，学生也可以选择专业选修课，如：空气动力学和计算流体动力学、飞机设计、系统和优化方法、旋转翼飞机和推进。\n利兹大学航空航天工程工业咨询委员会积极参与项目，以确保课程内容符合行业需求、反映行业发展趋势；利兹大学航空航天工程理学硕士项目还提供了产业讲座和研讨会，在专业项目中对学生提供建议和支持。此外，除了作设计用途的先进计算机辅助设计设施，利兹大学还有最新的行业标准软件，用以计算流体动力学、材料应力分析有限元建模、编程、结构和多学科优化。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "航空航天结构 (Aerospace Structures )\n专业课题项目 (Professional Project)\n材料选择和失效分析 (Materials Selection and Failure Analysis )\n设计优化 (Design Optimisation)\n航空航天器设计 (Aerospace Vehicle Design)\n航空动力学和航空航天推进系统 (Aerodynamics and Aerospace Propulsion)\n工程计算方法 (Engineering Computational Methods)\n旋翼机 (Rotary Wing Aircraft)\n计算流体动力学分析 (Computational Fluid Dynamics Analysis)\n车辆系统工程 (Vehicle Systems Engineering)",
+  "success_cases": ""
+}

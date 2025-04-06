@@ -1,0 +1,12 @@
+{
+  "school_name": "里海大学",
+  "major_name": "应用经济学硕士",
+  "ename": "MS in Applied Economics",
+  "tags": "商科,经济",
+  "introduction": "专业方向: 经济\n项目类别: STEM\n入学时间: 秋季/春季\n项目时长: 30学分\n项目学费: 37,050美元/年",
+  "requirements": "需要学过：经济学原理，中级微观经济学，中级宏观经济学，统计数据以及两门微积分课程。GPA较高者可考虑免GRE(大于3.3且先修课等级均大于B）",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

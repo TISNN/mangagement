@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "高级计算机科学与数据科学理学硕士",
+  "ename": "MSc Advanced Computer Science with Data Science",
+  "tags": "工科,计算机,计算机与信息科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 30250英镑/年",
+  "requirements": "至少二等（2:2）荣誉学位，要求计算机科学或密切相关学科背景，具有丰富的编程经验，最好是使用编程语言，例如 Python、Java、C 等。大多数课程将使用 Python。具有丰富编程经验的其他学科人士可与学校联系",
+  "objectives": "思克莱德大学高级计算机科学与数据科学理学硕士项目的课程为学生提供基础技能培训。课程跨越计算机和信息科学两大学科，重点研究大数据革命为建模、存储和访问权限带来的新挑战。学生还将有机会使用最流行的语言（如R和Python）来实现和实验这些机器学习算法，探索它们在不同领域的应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "信息社会的法律、伦理和专业问题 (Legal、ethical and professional issues for the information society)\n分布式信息系统 (Distributed Information Systems)\n大数据技术 (Big Data Technologies)\n数据分析的机器学习 (Machine Learning for Data Analytics)\n研究项目 (Research project)\n软件工程最新课题 (Advanced Topics in Software Engineering)\n移动软件应用 (Mobile Software Applications)\n金融进化计算 (Evolutionary Computing for Finance)",
+  "success_cases": ""
+}

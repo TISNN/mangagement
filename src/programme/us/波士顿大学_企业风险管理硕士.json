@@ -1,0 +1,12 @@
+{
+  "school_name": "波士顿大学",
+  "major_name": "企业风险管理硕士",
+  "ename": "MS in Enterprise Risk Management",
+  "tags": "商科,金融",
+  "introduction": "专业方向: 金融\n入学时间: 秋季/夏季/春季\n项目时长: 12-20个月\n项目学费: 36760美元/学期",
+  "requirements": "商学背景 / 企业管理经验",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

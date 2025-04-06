@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "生物医学电子工程理学硕士",
+  "ename": "MSc Biomedical Electronic Engineering",
+  "tags": "工科,生物工程,电子工程学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 23900英镑/年",
+  "requirements": "首选具有电子、电气、系统或生物科学、生物技术或生物医学工程背景",
+  "objectives": "伦敦大学皇家霍洛威学院生物医学电子工程理学硕士项目重点医疗保健实践的生物医学工程基础知识，范围从生物医学工程到嵌入式电子系统，再到机器学习。使用生物传感和神经科学的开源工具，学生将在一个创意空间中工作，旨在使脑机接口和其他生物传感器更容易实现快速原型设计并在消费者领域更快地交付产品。完成伦敦大学皇家霍洛威学院生物医学电子工程理学硕士课程后，学生将对以下内容有深入的了解：\n– 如何使用信号处理、嵌入式电子系统和机器学习来分析和制定各种生物医学问题\n– 如何设计、创建和集成现代生物医学工程系统和计算机控制设备的软件和硬件组件\n– 将生物医学问题构建、分析和解决为医疗保健解决方案所涉及的过程\n– 工程实践的医疗保健环境，以及工程项目对社会的影响",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "团队项目 (Team Project)\n语音技术 (Voice Technologies)\n生物医学工程基础 (Fundamentals of Biomedical Engineering)\n生物医学模式识别 (Pattern Recognition for Biomedicine)\n片上系统设计 (System on Chip Design)\n工程项目 (Engineering Project)",
+  "success_cases": ""
+}

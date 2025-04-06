@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "数学金融理学硕士",
+  "ename": "MSc Mathematical Finance",
+  "tags": "商科,金工金数,工程与物理科学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 31390英镑/年",
+  "requirements": "具有2:1荣誉学位，需要数学或包含高等数学成分的专业背景",
+  "objectives": "伯明翰大学数理金融学理学硕士项目由数学学院提供，该项目将会提供给学生有用的技能，使技术能力较强的毕业生（包括数学，科学和工程）能够将其参与定量培训获得的知识与技能应用于财务分析中。数理金融学是一个多学科领域，涉及应用经济理论，数学，统计学和计算机编程技能，以分析和管理金融机会。该课程将强化学员们对当代数学模型及其在金融领域的应用的理解，同时提供灵活性，以便他们在自己感兴趣的领域使用可选模块定制他们的的学位。他们将学习数学金融和随机过程的核心模块，然后从数学学院，经济系和计算机科学学院提供的主题中进行选择。该计划将支持他们达到数学金融的最高水平，开发最先进的计算和编程技术。凭借在本课程中开发的技能和知识，毕业生将处于有利地位，可以在全球高素质人才日益短缺的领域迅速发展，取得成功。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融应用计量经济学 (Econometrics with Financial Applications)\n量化金融概论 (Introduction to Quantitive Finance)\n金融C++ (C++ for Finance)\n计算方法与程序设计 (Computational Methods and Programming)\n数值方法II (Numerical Methods II)\n风险分析 (Risk Analytics)\n国际银行与金融 (International Banking and Finance)\n宏观经济学 (Macroeconomics)\n非线性规划I (Nonlinear Programming I)\n货币银行学专题 (Topics in Money and Banking)\n整数规划 (Integer Programming)\n博弈论 (Game Theory)",
+  "success_cases": ""
+}

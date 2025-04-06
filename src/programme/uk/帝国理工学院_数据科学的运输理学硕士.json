@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "数据科学的运输理学硕士",
+  "ename": "MSc Transport with Data Science",
+  "tags": "工科,交通运输,土木与环境工程学院",
+  "introduction": "专业方向: 交通运输\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有一等荣誉学位，需要土木工程、自然科学、地球科学或其他数学学科背景\n需要适当的数学基础，例如A-level Grade B或更高水平\n不符合所列学术要求但具备丰富相关行业经验的申请者在完成“特殊资格考试”（SQE）后可能会被例外录取",
+  "objectives": "在帝国理工学院数据科学的运输理学硕士课程中，学生将了解交通基础设施规划、设计、管理和交付的基本概念和技术。\n学生将加深对机器学习和统计优化的理解，以解决复杂的工程设计问题，并作为一个团队有效地工作。\n学生将学习如何评估交通项目和政策，同时考虑到所涉及的政治、社会、环境、商业和金融问题。\n利用数据科学和优化技能，将进行一项独立研究，展示对感兴趣的研究领域知识的贡献。\n进一步加深学生对工业化国家公路和铁路运输的了解。还将考虑交通问题持续存在的工业化程度较低的国家的情况。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "交通基础设施及其背景 (Transport Infrastructure and its Context)\n统计建模 (Statistical Modelling)\n交通工程 (Traffic Engineering)\n机器学习 (Machine Learning)\n交通规划和政策 (Transport Planning and Policy)\n数字优化 (Mathematical Optimisation)\n可持续交通 (Sustainable Transport)\n铁路和公共交通系统 (Rail and Mass Transit Systems)\n货运与物流 (Freight Transport and Logistics)\n航空运输 (Air Transportation)\n智能和自动运输 (Intelligent and Autonomous Transport)\n团体设计项目 (Group Design Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "哈佛大学",
+  "major_name": "计算科学与工程硕士",
+  "ename": "MS in Computational Science and Engineering",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 一年\n项目学费: 59,968美元",
+  "requirements": "申请人通常拥有自然科学、数学、计算机科学或工程学学士学位。\n我们期望申请人具备的先决条件包括微积分、线性代数和微分方程的知识； 熟悉概率和统计推断； 至少熟练掌握一种编程语言，例如 Python 或 R，并了解基本的计算机科学概念。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "会计与金融理学硕士",
+  "ename": "MSc Accounting and Finance",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有英国2:2本科荣誉学位或以上水平（平均分至少达到57%）或同等学历\n需要基本涵盖会计与金融的学科背景，具有经济学、商学或管理学学位的申请者也将根据具体情况予以考虑\n具备其他同等专业资格或经验的申请者也可能会被该专业考虑",
+  "objectives": "会计与财务理学硕士旨在提高学生的会计和金融知识，为在金融或专业服务领域的成功职业生涯做准备。在这门课程中，学生将学习会计和金融的复杂问题，并考虑会计在社会中的更广泛的功能，学习如何展示评估竞争方法的关键技能，并将熟练地提出解决方案。这将为学生开启广泛的职业生涯，包括在金融机构、管理咨询公司或政府机构工作。该课程还为学生开展博士水平的学习做准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究论文（会计与金融） (Research Dissertation (Accounting and Finance))\n企业金融 (Corporate Finance)\n会计理论 (Accounting Theory)\n全球金融市场中的机构 (Institutions in the Global Financial Market)\n投资 (Investments)\n财务报告中的问题 (Issues in Financial Reporting)\n管理会计与控制 (Management Accounting & Control)\n会计与财务研究方法 (Research Methods for Accounting and Finance)\n责任和道德 (Accountability and Ethics)\n新兴经济体会计 (Accounting in Emerging Economies)\n创业金融 (Entrepreneurial Finance)\n货币与银行 (Money and Banking)",
+  "success_cases": ""
+}

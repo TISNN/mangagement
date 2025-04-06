@@ -1,0 +1,12 @@
+{
+  "school_name": "纽约大学",
+  "major_name": "数学科学硕士",
+  "ename": "MS in Mathematical Sciences",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 30学分\n项目学费: 63,060美元",
+  "requirements": "申请者必须持有数学本科学士学位如果申请者持有其他领域学士学位,需在开始研究生学习之前,完成一年的高等微积分课程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

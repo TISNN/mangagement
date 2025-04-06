@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "设计文学硕士",
+  "ename": "MA Design",
+  "tags": "社科,其他社科,设计学院",
+  "introduction": "专业方向: 其他社科\n入学时间: 9月\n项目时长: 1年\n项目学费: 32250英镑/年",
+  "requirements": "具有2:1荣誉学士学位或同等学历，需要设计或艺术学位，专攻以下学科之一：平面设计、视觉传达设计、信息设计、品牌、可持续性设计、色彩设计\n申请者需要提交1份近期实际工作的作品集",
+  "objectives": "伟大的设计思想可以改变世界。利兹大学设计文学硕士项目以人和用户为核心，学生将在学习过程中开发出以研究和实践为基础的设计方案，以应对要求苛刻的行业和快速变化的社会。无论学生的背景是设计还是其他学科，学生都可以在现实生活场景中开发、测试和评估创新设计方案。学生将获得关于当前各行业需求和趋势的第一手经验，并将重点放在一个大型设计项目上。利兹大学设计文学硕士项目由具有国际公认的研究和实践背景的不同教师教授，学生将在激励性的环境中构建跨学科的设计方法，同时接触并参与前沿研究。此外，学生还将掌握实践和研究技能，为各种职业做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字设计实践 (Digital Design Practice)\n设计研究方法 (Research Methods for Design)\n设计思维 (Design Thinking)\n设计原理与应用 (Design Principles and Applications)\n设计研究与整合 (Design Research and Integration)\n信息和教学设计 (Information and Instructional Design)\n数字和交互设计解决方案 (Digital and Interactive Design Solutions)\n服务设计创新 (Service Design Innovation)\n图形和排版设计 (Graphic and Typographic Design)\n色彩设计 (Colour Design)",
+  "success_cases": ""
+}

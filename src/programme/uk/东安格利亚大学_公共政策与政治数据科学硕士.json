@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "公共政策与政治数据科学硕士",
+  "ename": "MSc Data Science for Public Policy and Politics",
+  "tags": "社科,公共政策与事务,政治、哲学、语言与传播研究学院",
+  "introduction": "专业方向: 公共政策与事务\n入学时间: 9月\n项目时长: 1年\n项目学费: 24500英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历，需要人文、社会科学或科学背景\n没有定量方法经验的学生应该修读PPLX7023A：数据、社会与政治（选修课程范围A）\n本课程面向任何考虑使用统计学或数据科学来解决政治、公共政策或社会问题的学生",
+  "objectives": "数据正迅速成为决策者手中最大的资产，数据分析、洞察和解决问题是驱动未来世界和你在其中的职业生涯的引擎，东安格利亚大学公共政策与政治数据科学硕士项目面向渴望使用尖端的计算和技术技能来解决复杂的社会、政治和政策问题的学生，学生将对关键的政治问题和政治学的最新研究有一个全面的了解，把它与广受欢迎的数据分析、编程和解决问题的能力结合起来，为在政府、非政府组织和私人组织的竞争角色中脱颖而出做好准备，这些组织需要创新的、数据驱动的方法来应对政治、社会和经济挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学Python入门 (Introduction to Python for Data Science)\n计算机科学家的专业技能 (Professional Skills for Computer Scientists)\n数据挖掘 (Data Mining)\n政治与公共政策的核心问题 (Core Issues in Politics and Public Policy)\n政治与政策分析的计算方法 (Computational Methods for Political and Policy Analysis)\n政治与国际关系论文 (Dissertation in Politics and International Relations)\n媒体与社会：技术、内容与用户 (Media & Society: Technologies, Content and Users)\n数据库操作 (Database Manipulation)\n数据、社会与政治 (Data, Society and Politics)\n管理世界：全球治理与新兴大国 (Running the World: Global Governance and Emerging Powers)\n权力、合作与压榨：国际关系研究方法 (Power, Cooperation and Exploitation: Approaches to International Relations)\n了解数字媒体 (Understanding Digital Media)",
+  "success_cases": ""
+}

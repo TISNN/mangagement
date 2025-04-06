@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "数据科学（科学）理学硕士",
+  "ename": "MSc Data Science (Scientific)",
+  "tags": "理科,数据科学,化学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29400英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要自然科学（如化学、物理学、生物学、环境科学、物理地理学）、医学科学或工程背景",
+  "objectives": "从粒子物理学到生态学，从药物设计到气候变化，各个科学领域都对数据科学技能有着巨大的需求。约克大学数据科学（科学）理学硕士课程将为学生提供解决不同科学领域的数据科学问题所需的技能，并使其能够灵活地适应经济和科学需求变化带来的新领域和挑战。学生将专注于数据科学家每天应用于执行数据分析和严格评估这些分析结果的技能，而不是专注于理论基础或算法结构，即使学生没有如此正式的数学或计算背景，这种方法也将使学生具备成功所需的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学编程 (Programming for Data Science)\n数据科学的机器学习 (Machine Learning for Data Science)\n数据科学家的技能 (Skills for Data Scientists)\n数据科学项目开发 (Data Science Project Development)\n数据科学研究项目 (Data Science Research Project)\n数据分析与机器学习的统计技术 (Statistical Techniques for Data Analysis and Machine Learning)\n化学中的机器学习：从原子到大气 (Machine Learning in Chemistry: from Atoms to Atmospheres)\n生物信息学小组项目 (Bioinformatics Group Project)\n洪水风险管理的空间分析与建模 (Spatial Analysis and Modelling for Flood Risk Management)\n医疗保健中的数据科学 (Data Science in Healthcare)",
+  "success_cases": ""
+}

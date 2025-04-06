@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "石油工程理学硕士",
+  "ename": "MSc Petroleum Engineering",
+  "tags": "工科,能源,工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要工程或应用数学任意分支专业背景\n学校也可能考虑具有工程或应用数学High 2:2荣誉学位并且能够证明2年以上相关经验的申请者\n学校可能会考虑具有地质学、物理学或化学学位并且具有2:1学位以及2年以上相关工作经验的申请者\n学习背景必须涵盖的重点科目：数学和物理学\n需要申请ATAS",
+  "objectives": "阿伯丁大学石油工程理学硕士项目提供了综合研究和评估远景所需的必要知识和技能，从而制定出可行的油气田开发计划。石油工程理学硕士由工程学院、地质与地球物理系以及以工业为基础的导师联合颁发，课程涵盖石油地球科学基础等多个领域，提高采收率，油藏模拟，井采工程。此外，还特别地层评价和油藏工程与模拟。石油工程理学硕士培养学生的技能，使学生能够评估和选择适当的技术，为碳氢化合物油气的安全生产回收，包括在石油工程的各个方面使用行业标准模拟软件的实践经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "石油地球科学基础 (Fundamentals of Petroleum Geoscience)\n岩石物理、岩心分析和地层评价 (Petrophysics, Core Analysis and Formation Evaluation)\n油藏工程 (Reservoir Engineering)\n井采工程 (Well and Production Engineering)\n石油工程单项工程 (Individual Project In Petroleum Engineering)\n油藏模拟 (Reservoir Simulation)\n提高采收率 (Enhanced Oil Recovery)\n油田开发与石油经济 (Field Development and Petroleum Economics)\n试井分析与设计 (Well Testing: Analysis and Design)",
+  "success_cases": ""
+}

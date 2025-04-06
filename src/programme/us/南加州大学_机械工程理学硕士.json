@@ -1,0 +1,12 @@
+{
+  "school_name": "南加州大学",
+  "major_name": "机械工程理学硕士",
+  "ename": "M.S.in Mechanical Engineering",
+  "tags": "工科,机械工程",
+  "introduction": "专业方向: 机械工程\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 1.5-2年\n项目学费: 62343美元",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

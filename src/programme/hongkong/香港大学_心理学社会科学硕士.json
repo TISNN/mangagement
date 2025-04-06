@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "心理学社会科学硕士",
+  "ename": "MSocSc Psychology",
+  "tags": "社科,心理学,社会科学学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 182400港币/年",
+  "requirements": "具有学士学位或同等学历，偏好具备1年以上工作经验的申请者",
+  "objectives": "香港大学心理学社会科学硕士课程旨在：为大学毕业生提供一个打下扎实的心理学知识基础的机会，使之掌握心理学理论与研究方法，并能够将其应用到实际生活中去；通过课程学习，学员们将有资格申请成为香港心理学会和英国心理学会的毕业生会员，并有资格申请临床心理学和教育心理学社会学硕士课程。与此同时，他们还可以申请心理学研究型研究生学位；培养学生在心理学领域的研究能力，为他们未来进行更深层次的专业培训或深造做好充分准备，同时使他们未来从事心理学及相关领域的工作时能够做到游刃有余。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "心理学研究方法导论 (Introduction to research methods in psychology)\n心理学定量研究方法 (Research and quantitative methods in psychology)\n生物心理学 (Biological psychology)\n认知心理学 (Cognitive psychology)\n发展心理学 (Developmental psychology)\n人格心理学 (Personality psychology)\n社会心理学 (Social psychology)\n心理学学位论文 (Dissertation in psychology)",
+  "success_cases": ""
+}

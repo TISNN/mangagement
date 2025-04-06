@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "公共健康硕士",
+  "ename": "Master of Public Health",
+  "tags": "社科,公共卫生,医学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 209880港币/年",
+  "requirements": "具有学士学位，需要提供B等级证明，或在高等教育机构完成学习课程并获得相当于荣誉学位的专业或类似资格",
+  "objectives": "香港中文大学公共健康硕士课程注重理论与实践的结合，旨在提高学生解决当代公共卫生难题的能力。课程提供了公共卫生领域必要的观念与技能，使学生具备在实践中领导的能力。课程内容包括健康改善、健康保护和健康服务三个领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公共健康基础 (Foundations of Public Health)\n传染病学导论 (Introduction to Epidemiology)\n生物统计学导论 (Introduction to Biostatistics)\n卫生政策与管理 (Health Policy and Management)\n环境健康科学（一） (Environmental Health Sciences I)\n公共卫生与传染病防治 (Infectious Diseases in Public Health Practice)\n社会与行为科学 (Social and Behavioural Sciences)\n环境与职业健康 (Environmental & Occupational Health)\n传染病学与生物统计学 (Epidemiology & Biostatistics)\n卫生保健系统与政策 (Health Care Systems & Policies)\n行为健康与健康促进 (Behavioral Health & Health Promotion)\n传染病学 (Infectious Diseases)\n人口与全球健康 (Population & Global Health)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "控制与优化理学硕士",
+  "ename": "MSc Control and Optimisation",
+  "tags": "工科,电气电子,电气与电子工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有一等荣誉学位（总分至少达到75%），需要电气/电子工程或相关学科背景（包含大量电气/电子工程成分）",
+  "objectives": "帝国理工学院控制与优化理学硕士课程将向学生介绍控制理论和优化的主要方面，以及它们在自动化系统设计中的应用。学生将发展使用标准计算机软件包进行控制设计和优化的技能。为了满足化工、石油、航空航天、电力、运输和国防工业不断增长的需求，控制理论和优化已经发展成为许多工程师需要掌握的成熟知识体系。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "C1实验室 (C1 Lab)\n控制工程 (Control Engineering)\n线性多变量控制系统设计 (Design of Linear Multivariable Control Systems)\n离散时间系统与计算机控制 (Discrete-time Systems and Computer Control)\n估计与故障检测 (Estimation and Fault Detection)\n优化 (Optimisation)\n预测控制 (Predictive Control)\n非线性系统的稳定性与控制 (Stability and Control of Non-linear Systems)\n系统识别 (Systems Identification)\n编码理论 (Coding Theory )\n离散事件系统 (Discrete-Event Systems)\n博弈论 (Game Theory)\n信息论 (Information Theory)\n信号与系统数学 (Mathematics for Signals and Systems)\n模式识别 (Pattern Recognition)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "机械工程设计理学硕士",
+  "ename": "MSc Mechanical Engineering Design",
+  "tags": "工科,机械工程,机械、航空航天及土木工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有2:1英国荣誉学位或同等学历，需要相关理工科背景，学校会考虑申请者本科学位中关键相关课程的成绩以及整体学位成绩\n申请者如果是在读生，需要提供最后一年学习的所有课程的正式列表",
+  "objectives": "曼彻斯特大学机械工程设计理学硕士项目由学术探索驱动，基于产业，将先进工程技术和实践学习相结合，提供机械工程中技术设计的最先进导论和雇主所需的技能集。曼彻斯特大学机械工程学院拥有浓厚的学术氛围，拥有长达两百年的工程教学历史和高端设备，为学生提供了发掘潜能的绝佳环境，同时还与产业存在紧密联系，致力于提供世界级的现代教育。 曼彻斯特大学机械工程设计理学硕士项目涵盖了分析和理念设计领域的基础课程，及广泛选修课程，将使学生能够根据自身需求或兴趣定制课程内容。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究方法 (Research Methods)\n复合材料和聚合物 (Composites and Polymers)\n有限元 (Finite Elements)\n机械工程组设计 (Mechanical Engineering Group Design)\n学位论文（机械工程设计） (Dissertation (Mechanical Engineering Design))\n实验方法（理学硕士机械工程设计） (Experimental Methods (MSc Mechanical Engineering Design))\n复合材料和聚合物 (Composites and Polymers)\n结构完整性 (Structural Integrity)\n声学与高级振动 (Acoustics & Advanced Vibrations)\n机器人，计量与生物工程 (Robotics, Metrology and Bioengineering)",
+  "success_cases": ""
+}

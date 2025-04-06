@@ -1,0 +1,12 @@
+{
+  "school_name": "牛津大学",
+  "major_name": "金融经济学理学硕士",
+  "ename": "MSc Financial Economics",
+  "tags": "商科,金融,赛德商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 59360英镑/年",
+  "requirements": "具有一等或strong 2:1荣誉学位，具备较强的量化技能，具备微积分应用知识和向量与矩阵、概率、统计和计量经济学的基础知识，需要GMAT/GRE，可以有工作经验（不强制要求）",
+  "objectives": "牛津大学金融经济学理学硕士学位旨在使学生掌握金融经济学分析工具，为以后在金融机构，公司及公共组织从事相关金融经济工作奠定基础。牛津大学金融经济学理学硕士学位课程以严谨的理论教学为核心，融合了实践应用，以互动教学、案例研究、从业者教学和职业支持为特色，汲取了众多顶尖金融机构咨询顾问的意见，从而确保牛津大学金融经济学理学硕士学位课程设置和课程满足金融从业者的需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "资产定价 (Asset pricing )\n企业融资 (Corporate finance)\n金融计量经济学 (Financial econometrics)\n经济学 (Economics)\n企业估值 (Corporate valuation)\n金融危机和风险管理 (Financial crises and risk management)\n金融市场交易 (Financial markets trading )\n金融信息和通信 (Information and communication in finance )\n金融和社会科学的密切联系 (Identification in finance and social sciences)\n房地产 (Real estate)\n行为和实验经济学 (Behavioural and experimental economics)\n公司的性质 (The nature of the corporation )\n资产管理 (Asset management )",
+  "success_cases": ""
+}

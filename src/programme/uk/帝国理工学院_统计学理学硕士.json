@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "统计学理学硕士",
+  "ename": "MSc Statistics",
+  "tags": "理科,数学,数学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 35700英镑/年",
+  "requirements": "具有2:1学位，需要统计学、数学、工程学、物理学或计算机科学背景\n几乎所有成功的申请者都持有符合条件本科学位的一等学位，所有持有数学科学以外本科学位的成功申请者，都在理论数学主题方面具备大量知识和经验\n学校不考虑将MSc Statistics作为第二选择的申请",
+  "objectives": "统计思想、工具和方法几乎应用于所有的就业部门，包括银行、金融业、政府、医学研究、制药业和互联网公司。帝国理工学院统计学理学硕士项目为期一年，全日制课程为学生提供理论和应用统计方面的培训。学生可根据自己的专业兴趣选择模块，发展专业的深度和广度。帝国理工学院统计学理学硕士为学生提供一系列迁移技能，包括编程、解决问题、批判性思维、科学写作、项目工作和演讲能力。毕业生可继续在相关职业和研究部门工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用统计学 (Applied Statistics)\n计算统计学 (Computational Statistics)\n统计推断基础 (Fundamentals of Statistical Inference)\n统计概率 (Probability for Statistics)\n高级统计金融 (Advanced Statistical Finance)\n高级统计理论 (Advanced Statistical Theory)\n大数据 (Big Data)\n生物医学统计 (Biomedical Statistics)\n图形模型 (Graphical Models)\n统计金融概论 (Introduction to Statistical Finance)\n机器学习 (Machine Learning)\n多元分析 (Multivariate Analysis)\n零售金融量化方法 (Quantitative Methods in Retail Finance)",
+  "success_cases": ""
+}

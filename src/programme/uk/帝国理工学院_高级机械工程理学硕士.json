@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "高级机械工程理学硕士",
+  "ename": "MSc Advanced Mechanical Engineering",
+  "tags": "工科,机械工程,机械工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有一等荣誉学位，需要理工科背景\n需要申请ATAS证书",
+  "objectives": "帝国理工学院拥有英国最大的工程学院，帝国理工学院高级机械工程理学硕士项目得益于帝国理工学院的专业优势，将为学生提供机械工程领域一个或多个方面的先进知识，使学生能够培养可转移到机械工程所有领域的能力。\n帝国理工学院高级机械工程理学硕士项目的主要组成部分是与当前研究活动或工业咨询相关的个人项目，使学生获得特定领域的丰富专业知识。通过学习授课课程模块，学生将进一步发展专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "飞机发动机技术 (Aircraft Engine Technology)\n机械传动技术 (Mechanical Transmission Technology)\n金属加工技术 (Metal Processing Technology)\n车辆推进技术 (Vehicle Propulsion Technology)\n计算连续体力学 (Computational Continuum Mechanics)\n断裂力学 (Fracture Mechanics)\n核能导论 (Introduction to Nuclear Energy)\n制造技术与管理 (Manufacturing Technology and Management)\n摩擦学 (Tribology)\n高级控制 (Advanced Control)\n高级应力分析 (Advanced Stress Analysis)\n高级振动工程 (Advanced Vibration Engineering)\n计算流体力学 (Computational Fluid Dynamics)",
+  "success_cases": ""
+}

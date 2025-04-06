@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "计算机科学理学硕士",
+  "ename": "MSc Computer Science",
+  "tags": "工科,计算机,理工学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "具有2:2学位或同等学历这门课程是为非计算机专业的毕业生设计的，所以申请者的学位可以是任何学科。如果申请者有计算机本科学位，应该考虑其他计算机课程",
+  "objectives": "邓迪大学计算机科学理学硕士项目在设计、开发和制作计算机软件包的同时培养学生对计算和软件开发的技能、知识和理解，确保其具备在计算领域工作所需的技能。邓迪大学计算机科学理学硕士项目课程非常灵活，提供一系列模块，包括计算机图形学、大数据分析和敏捷工程，让学生可以调整学习以适应选择的路径。\n邓迪大学计算机科学理学硕士项目定期举办的研讨会和演讲，学生可以向业内人士学习，增加对职业生涯中可能面临的现实生活情况的理解。学生还可以使用一系列常规和专用设备和软件，例如 Windows Azure、Teradata 和 Tableau，帮助进一步发展技能和理解。在学术人员的指导下，学生将承担一个主要的软件开发项目。最近的项目示例着眼于帮助人们记住强密码和开发 3D 安卓游戏。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "软件开发 (Software Development+)\n技术创新管理 (Technology Innovation Management)\n计算机视觉 (Computer Vision)\n图形学 (Graphics)\n用户体验 (User Experience)\n大数据分析 (Big Data Analysis)\n数据库系统 (Database Systems)\n安全网络编程 (Secure Internet Programming)\n软件工程 (Software Engineering)\n快速工程 (Agile Engineering)\n计算研究前沿 (Computing Research Frontiers)\n研究方法 (Research Methods)\n人机互动 (Human Computer Interaction)",
+  "success_cases": ""
+}

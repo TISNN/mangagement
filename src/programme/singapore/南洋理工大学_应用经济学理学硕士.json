@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "应用经济学理学硕士",
+  "ename": "MSc Applied Economics",
+  "tags": "商科,经济,社会科学学院",
+  "introduction": "专业方向: 经济\n入学时间: 8/11月\n项目时长: 1年\n项目学费: 43700新币/年",
+  "requirements": "具有良好的经济学荣誉学士学位，或具有其他学科良好荣誉学士学位以及很强的定量背景\n有相关工作经验者优先考虑\nGRE成绩合格者优先考虑",
+  "objectives": "新加坡南洋理工应用经济学理学硕士项目旨在为学生提供严格的研究生阶段专业知识，以便在未来进行私人和公共部门应用经济学所涉及的任何领域的课题研究。该项目的特色在于重点培养定量研究导向的经济学研究学者和具有深厚理论功底的经济分析师。新加坡南洋理工大学应用经济学理学硕士课程涵盖计量经济学、应用金融计量经济学、成本效益分析、项目评估和金融建模等专业知识，旨在使学生掌握必要的经济学计量分析技能，尤其是在经济政策分析相关领域。这些专业知识和技能有助于学生进行准确的经济分析，从而更好地了解社会政策和投资组合管理。新加坡南洋理工大学应用经济学理学硕士课程的毕业生可以在政府公共服务部门、投资银行、房地产经纪和经济咨询事务所等行业就业。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "经济增长与发展 (Economic Growth & Development)\n中国与国际政治经济学 (China & the International Political Economy)\n实验经济学 (Experimental Economics)\n高级国际贸易 (Advanced International Trade)\n住房经济学 (Housing Economics)\n金融计量经济学 (Financial Econometrics)\n财务分析经济学 (Economics of Financial Analysis)\n公司金融经济学 (Economics of Corporate Finance)\n货币与银行 (Money and Banking)\n金融发展 (Financial Development)\n国际金融 (International Finance)\n家庭财务 (Household Finance)\n可持续金融 (Sustainable Finance)\n金融科技经济 (The Fintech Economy)\n数据分析与机器学习 (Data Analytics & Machine Learning)\n应用时间序列分析 (Applied Time Series Analysis)\n新加坡经济研讨会课程* (Seminar Course on the Singapore Economy*)\n成本效益分析与项目评估* (Cost Benefit Analysis and Project Evaluation*)\n工业组织* (Industrial Organisation*)\n国际经济政策* (International Economic Policy*)\n劳动经济学与劳资关系* (Labour Economics and Industrial Relations*)\n应用经济学专题* (Special Topics in Applied Economics*)\n应用计量经济学专题* (Special Topics in Applied Econometrics*)\n应用经济研究：数据与分析* (Applied Economic Research: Data and Analysis*)\n健康经济学* (Health Economics*)\n货币与银行* (Money and Banking*)\n公共经济学* (Public Economics*)\n能源经济学* (Energy Economics*)\n城市经济学* (Urban Economics*)\n数据分析* (Data Analytics*)\n时间序列建模* (Time Series Modeling*)\n国际宏观经济学* (International Macroeconomics*)\nPython（计算机编程语言）* (Python*)",
+  "success_cases": ""
+}

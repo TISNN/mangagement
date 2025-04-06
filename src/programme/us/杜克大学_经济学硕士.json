@@ -1,0 +1,12 @@
+{
+  "school_name": "杜克大学",
+  "major_name": "经济学硕士",
+  "ename": "MA Economics",
+  "tags": "商科,经济",
+  "introduction": "专业方向: 经济\n项目类别: STEM\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 28950美元/学期\n项目规模: 60人\n平均成绩: 3.7",
+  "requirements": "修过微观经济学、宏观经济学、计量经济学、计算方法、计算机科学、数学和/或统计学相关课程；修过顶点课程1门(3学分)且获得B级以上的成绩",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

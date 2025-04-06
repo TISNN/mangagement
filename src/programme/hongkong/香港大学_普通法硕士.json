@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "普通法硕士",
+  "ename": "Master of Common Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 220000港币/年",
+  "requirements": "具有非普通法司法管辖区的大学或类似机构颁发的法律学士学位或同等学历，并至少达到二等荣誉学位",
+  "objectives": "香港大学的普通法硕士课程由香港大学法学院于1997年开设，是连接香港和中国内地两个法律体系的重要纽带。该课程旨在为来自非普通法司法管辖区（尤其是中国内地）的法律专业毕业生提供学习香港和其他普通法司法管辖区实施的普通法所需的专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "行政法 (Administrative law)\n刑法学 (Criminal law I)\n刑事诉讼 (Criminal procedure)\n劳动法 (Labour law)\n民事侵权法 (Law of tort I)\n契约法 (Law of contract I)\n法律研究与写作 (Legal research and writing I)\n仲裁法 (Arbitration law)\n宪法学 (Constitutional law)\n竞争法 (Competition law I)\n银行法 (Banking law)\n公司法 (Company law)\n商法 (Commercial law)\n建筑法 (Construction law)\n民事诉讼 (Civil procedure)",
+  "success_cases": ""
+}

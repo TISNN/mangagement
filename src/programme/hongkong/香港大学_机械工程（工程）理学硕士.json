@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "机械工程（工程）理学硕士",
+  "ename": "MSc(Eng) Mechanical Engineering",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 320000港币/年",
+  "requirements": "具有学士学位或同等学历，需要相关领域背景",
+  "objectives": "香港大学机械工程（工程）理学硕士学位课程提供了一系列的技术课程和学习经验，包括能源和动力、环境工程、材料技术、应用数学、计算流体力学、理论力学以及计算机集成设计和制造等领域。该课程旨在使研究生对机械工程专业人员面临的许多当代问题有更广泛的视角和更深刻的理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "科研项目 (Project)\n噪声与振动 (Noise and vibration )\n计算流体动力学 (Computational fluid dynamics  )\n计算机辅助产品开发 (Computer-aided product development )\n力学有限元分析 (Finite element analysis in mechanics)\n大气环境建模 (Atmospheric environment modelling)\n纳米技术：基础与应用 (Nanotechnology: fundamentals and applications)\n发电厂技术 (Power plant technology)\n工程应用数学 (Applied mathematics for engineers)\n生物材料与组织工程学 (Biomaterials and tissue engineering)\n能源节约与管理 (Energy conservation and management)\n能源审核和碳排放审计 (Energy and carbon audit)\n可再生能源技术：基础概论 (Renewable energy technology I: Fundamental)\n微系统在能源、生物医学和消费性电子产品领域的应用 (Microsystems for energy, biomedical and consumer electronics applications)\n空气污染的来源和控制 (Sources and control of air pollution)",
+  "success_cases": ""
+}

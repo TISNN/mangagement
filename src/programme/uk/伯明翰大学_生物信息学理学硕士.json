@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "生物信息学理学硕士",
+  "ename": "MSc Bioinformatics",
+  "tags": "理科,生物,医学与牙科科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 32510英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要生物学、数学、计算机科学或相关学科背景\n具备科学、技术、工程或医学等定量知识相关领域的背景\n常见学位包括生物学、生物医学科学、计算机科学、统计学、数据科学、数学、化学和药理学，其他相关学科包括生物化学、遗传学、基因组学、医学、生物信息学、计算生物学、人工智能、机器学习、生物统计学、药学、生物技术、生物工程、系统生物学、植物学、生态学、动物学和海洋生物学",
+  "objectives": "在伯明翰大学生物信息学理学硕士项目初期，学生将快速了解相关的基本功能。通过个体化和以学生为中心的教学，以及各种各样的小组工作，学生能够成为生物学家和临床医生，并且对数据分析感兴趣；学生也可能成为统计学家或计算机科学家，从事现代生物信息学研究。然后，学生将了解测序模式。测序模式将人类基因组的获取成本从超过10亿英镑降至不到1千美元。学生还将了解这些技术在生物医学和环境科学实践中的作用。除了DNA和RNA测序之外，质谱分析法与核磁共振光谱法在蛋白质测序和代谢组学中的运用也是重要的学习内容；学生将研究系统中存在的所有小分子或代谢物。同时，学生还将运用高含量成像技术来整合数据类型，从而将分子变化映射到复杂的四维系统中，包括人类神经系统和淡水生态。学生将开展个人项目，期间将得到专家的指导，并且为解决实际研究或工业问题做好准备。在高度互动的团队项目中，学生将能够应对更加复杂的挑战。伯明翰大学生物信息学理学硕士项目由享誉全球的名师和西米德兰兹郡的诸多工业合作伙伴倾力打造，旨在助力学生学术或职业的进一步发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物学、数学和统计学基础 (Essentials of Biology, Mathematics and Statistics)\n基因组学与下一代测序 (Genomics & Next Generation Sequencing )\n数据分析与统计机器学习 (Data Analytics & Statistical Machine Learning )\n代谢组学和先进（组学）技术 (Metabolomics and advanced (omics) technologies )\n复杂系统的计算生物学 (Computational Biology for Complex Systems )\n跨学科生物信息学小组项目 (Interdisciplinary Bioinformatics Group Project )\n个人项目 (Individual Project )\n线性代数：基本矩阵向量运算，最小二乘法 (Linear Algebra: basic matrix-vector operations, least-squares)\n概率论：概率规则，条件概率，贝叶斯规则，分布 (Probability Theory: Rules of Probability, Conditional Probability, Bayes’ Rule, distributions)\n描述性统计：摘要统计，可视化 (Descriptive Statistics: summary statistics, visualisation)\n假设检验：Fisher精确检验、卡方检验、t检验 (Hypothesis Testing: Fisher exact, chi-square, t-test)",
+  "success_cases": ""
+}

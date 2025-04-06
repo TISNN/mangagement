@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "人工智能理学硕士（含专业实习一年）",
+  "ename": "MSc Artificial Intelligence with a Professional Placement Year",
+  "tags": "工科,计算机,计算机科学与信息学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 2年\n项目学费: 15850英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要计算机科学或计算机等相关学科领域背景\n如果申请者没有相关领域的学位或没有2:2荣誉学位，仍然可以申请，但应提供其他证据来支持申请，例如简历和推荐信。在这些情况下，申请者可能会被邀请参加面试",
+  "objectives": "卡迪夫大学人工智能理学硕士（含专业实习一年）项目提供自动推理、知识表示和机器学习等领域的专业知识。学生还有机会从一系列可选模块、专业工作实习和项目中进行选择，定制您的学习体验，以满足您的兴趣和职业抱负。\n卡迪夫大学人工智能理学硕士（含专业实习一年）项目需要学生在教学阶段完成后申请为期 7-12 个月的带薪专业工作实习。这为培养学生的 IT 专业技能提供了宝贵的工作经验。我们将支持您寻找和申请此职位，但应该注意的是，这可能不属于人工智能特定领域，并且该职位的主要重点是与学生的学位相关的就业技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "知识表示 (Knowledge Representation)\n自动推理 (Automated Reasoning)\n机器学习原理 (Principles of Machine Learning)\n机器学习的应用：自然语言处理/计算机视觉 (Applications of Machine Learning: Natural Language Processing/Computer Vision)\n实习 (Placement\t)\n论文 (Dissertation)",
+  "success_cases": ""
+}

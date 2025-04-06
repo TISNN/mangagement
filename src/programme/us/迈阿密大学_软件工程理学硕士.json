@@ -1,0 +1,12 @@
+{
+  "school_name": "迈阿密大学",
+  "major_name": "软件工程理学硕士",
+  "ename": "MS in Software Engineering",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1年\n项目学费: 20,110美元/学期",
+  "requirements": "工程相关学士学位，其他专业者满足相应工程课程也可以申请",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "物理学数据建模与量子技术理学硕士",
+  "ename": "MSc Physics with Data Modelling and Quantum Technologies",
+  "tags": "理科,物理,理学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 186000港币/年",
+  "requirements": "具有本科学士学位或同等学历，需要相关科学或工程学科背景；或\n具有学校可接受的学术和/或专业成就证明",
+  "objectives": "香港城市大学物理学数据建模与量子技术理学硕士项目将提供应用物理学的研究生水平的培训，以及在生物医学物理学，能源材料物理学和普通高级物理学的子领域具有高度市场价值的专业技能。除了高级物理教育外，毕业生还将获得有关物理学原理的知识，以及解决如何将这些原理应用于特定相关专业的实际问题。该项目所提供的培训和知识适合在香港、中国和其他亚洲国家的电子和可再生能源行业担任医疗技术专家以及工程师/研究人员。该计划的毕业生将可以灵活地在该行业寻找工作，并在相关领域（例如物理学，材料科学，电气工程和机械工程）攻读博士学位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "材料物理的现代表征技术 (Modern Characterization Techniques for Materials Physics​)\n实验物理的先进仪器和测量方法 (Advanced Instrumentation and Measurement Methods for Experimental Physics)\n高级计算方法 (Advanced Computational Methods)\n科学家和工程师的数学方法 (Mathematical Methods for Scientists and Engineers)\n纳米物理 (Physics at Nanoscale)\n工程与应用物理的现代主题 (Modern Topics in Engineering and Applied Physics )\n先进量子力学 (Advanced Quantum Mechanics)\n高等固态物理学 (Advanced Solid State Physics)\n先进成像物理 (Advanced Imaging Physics )\n先进放射治疗物理 (Advanced Radiotherapy Physics )",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "法医调查理学硕士",
+  "ename": "MSc Forensic Investigation",
+  "tags": "社科,医学,国防与安全",
+  "introduction": "专业方向: 医学\n入学时间: 10月\n项目时长: 1年\n项目学费: 24720英镑/年",
+  "requirements": "具有考古学、法证科学或科学学科方面背景",
+  "objectives": "克兰菲尔德大学法医调查理学硕士课程具有很强的实用性和动手能力，旨在让学生了解最尖端的研究和最新的法医方法，并使毕业生能够解决与民事和刑法有关的问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分析技术 (Analytical Techniques)\n法庭技巧 (Courtroom Skills)\n调查取证 (Investigation and Evidence Collection)\n法医学推理 (Reasoning for Forensic Science)\n研究项目 (Research Project)\n入门研究 (Introductory Studies)\n对抗简易爆炸装置能力 (Counter Improvised Explosive Devices Capability)\n环境法医学 (Environmental Forensic Science)\n赝品与伪造 (Fakes and Forgeries)\n枪械调查 (Firearms Investigations)\n火灾，爆炸及其调查 (Fires, Explosions and their Investigation)\n法医考古学：恢复埋葬的遗骸 (Forensic Archaeology: Recovering Buried Remains)\n法医考古学：大规模坟墓发掘 (Forensic Archaeology: Mass Grave Excavation)\n法医弹道调查 (Forensic Ballistic Investigations)\n法医利用与情报 (Forensic Exploitation and Intelligence)",
+  "success_cases": ""
+}

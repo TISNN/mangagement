@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "矿业工程理学硕士",
+  "ename": "MSc Mining Engineering",
+  "tags": "工科,地球科学,工程、数学与物理科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 28600英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，通常需要采矿、地质、工程或科学相关学科背景，但学校会根据所有申请者的优点进行单独考虑\n相关学科可能包括：地质学、地理学、工程学（土木、机械、采矿、材料科学等）、可再生能源、地球科学、岩土工程、行星科学、数学",
+  "objectives": "埃克塞特大学矿业工程理学硕士项目与本土和国际采矿行业关系密切，招收英国和国际学生，将使学生提升专业分析、设计和管理技能，和采矿业、矿产、采石土木工程产业所需的技能，适合地质和工程专业，有意专注于矿业和综合管理、挖掘（地质学和隧道学）研究领域的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目和论文 (Project and Dissertation)\n挖掘和地质力学 (Excavation and Geomechanics)\n采掘工业健康和安全 (Health and Safety in the Extractive Industry)\n经济学、资源加工与环境 (Economics、Processing & Environment)\n项目管理 (Project Management)\n地表开挖设计 (Surface Excavation Design)\n资源评估 (Resource Estimation)\n地下工程 (Underground Construction)\n生产和成本估算 (Production and Cost Estimation)\n矿山规划和设计 (Mine Planning and Design)\n地下开挖设计 (Underground Excavation Design)\n土壤和水污染 (Soil and Water Contamination)\n工作环境与通风 (Working Environment and Ventilation)",
+  "success_cases": ""
+}

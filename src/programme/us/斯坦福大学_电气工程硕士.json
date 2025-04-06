@@ -1,0 +1,12 @@
+{
+  "school_name": "斯坦福大学",
+  "major_name": "电气工程硕士",
+  "ename": "MS in Electrical Engineering",
+  "tags": "工科,电气电子",
+  "introduction": "专业方向: 电气电子\n入学时间: 秋季\n项目时长: 1.5-2年\n项目学费: 18635美元/学期",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

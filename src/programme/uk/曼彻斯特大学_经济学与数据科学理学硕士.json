@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "经济学与数据科学理学硕士",
+  "ename": "MSc Economics and Data Science",
+  "tags": "商科,经济,社会科学学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要经济学或其他定量学科背景，如数学、物理学或计算机科学，该培训必须包括大量的数学、计量经济学和/或统计学课程，包括高级课程选项并取得最高分，并且具备统计编程语言（如R、Python、Julia或MATLAB）的扎实背景\n对于具有非经济学学科学位的申请者，需要大量接触经济学课程\n在评估申请者的学习成绩时，学校会考虑学生已取得的成绩和所就读院校的地位",
+  "objectives": "曼彻斯特大学经济学与数据科学理学硕士课程旨在帮助学生运用数据科学方法，通过对经济理论的思考，运用正确的实证方法，分析现实世界的经济问题，利用选修课程专注于各种领域的经济学和计量经济学，获得世界顶级雇主需求日益增长的领域的技能，为在政府、中央银行、私营部门或学术界开展经济数据分析师的职业生涯做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济理论 (Microeconomic Theory)\n宏观经济理论 (Macroeconomic Theory)\n计量经济方法 (Econometric Methods)\n数据科学与机器学习 1 (Data Science & Machine Learning 1)\n数据科学与机器学习 2 (Data Science & Machine Learning 2)\n数据科学家技能 (Skills for Data Scientists)\n金融计量经济学 (Financial Econometrics)\n应用宏观计量经济学 (Applied Macroeconometrics)\n微观计量经济学 (Microeconometrics)\n医疗保健经济学 (Healthcare Economics)\n环境政策经济学 (Economics of Environmental Policy)\n劳动经济学 (Labour Economics)",
+  "success_cases": ""
+}

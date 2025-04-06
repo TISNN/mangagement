@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "储层评价与管理理学硕士",
+  "ename": "MSc Reservoir Evaluation and Management",
+  "tags": "工科,地球科学,能源、地球科学、基础设施与社会学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 29960英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要相关学科背景；对于研究生转换课程，非相关学位将被考虑\n相关专业机构的企业（或特许）会员资格学校也将予以考虑",
+  "objectives": "赫瑞-瓦特大学的储层评估和管理（REM）硕士课程教学生如何成为成功的地下地球学家和工程师，并能够建立模型，从而能够很好地预测油气藏的行为。这些模型的成功需要对储层的地质和工程都有很好的了解。REM计划结合了地球科学和工程技术，为学生提供了识别储层中对油气采收率影响最大的那些方面的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "储层概念 (Reservoir concepts)\n水库沉积学 (Reservoir sedimentology)\n岩石力学，地球力学和地球物理学 (Rock mechanics, geomechanics and geophysics)\n编队评估 (Formation evaluation)\n试井和生产测井 (Well testing and production logging)\n地质建模与管理 (Geological modelling and management)\n水库工程 (Reservoir engineering)\n储层模拟 (Reservoir simulation)",
+  "success_cases": ""
+}
