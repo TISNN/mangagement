@@ -3,6 +3,7 @@ import { peopleService } from './peopleService';
 import { authService } from './authService';
 import { SyncService } from './syncService';
 import { financeService } from './finance/financeService';
+import { employeeService } from './employeeService';
 
 // 创建syncService实例
 const syncService = new SyncService();
@@ -11,5 +12,6 @@ export {
   peopleService,
   authService,
   syncService,
-  financeService
+  financeService,
+  employeeService
 }; 

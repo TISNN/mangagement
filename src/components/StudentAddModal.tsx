@@ -162,7 +162,7 @@ const StudentAddModal: React.FC<StudentAddModalProps> = ({ isOpen, onClose, onSt
     }
     
     // 验证邮箱（如果填写了）
-    if (formData.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+    if (formData.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email.trim())) {
       errors.email = '请输入有效的邮箱地址';
       isValid = false;
     }

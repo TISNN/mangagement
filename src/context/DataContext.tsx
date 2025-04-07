@@ -3,6 +3,15 @@ import { peopleService, syncService } from '../services';
 import { StudentDisplay } from '../pages/admin/StudentsPage/StudentsPage';
 import { ServiceType } from '../types/service';
 
+// 导入服务类型类型（如果需要的话）
+// 这里声明一个接口，匹配peopleService返回的服务类型
+interface ServiceTypeData {
+  id: number;
+  name: string;
+  description?: string;
+  is_active: boolean;
+}
+
 // 定义上下文状态类型
 interface DataContextType {
   // 学生数据
@@ -11,7 +20,7 @@ interface DataContextType {
   refreshStudents: () => Promise<void>;
   
   // 服务类型数据
-  serviceTypes: ServiceType[];
+  serviceTypes: ServiceTypeData[]; // 修改为ServiceTypeData类型
   loadingServiceTypes: boolean;
   refreshServiceTypes: () => Promise<void>;
   
@@ -28,7 +37,7 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [students, setStudents] = useState<StudentDisplay[]>([]);
   const [loadingStudents, setLoadingStudents] = useState<boolean>(true);
   
-  const [serviceTypes, setServiceTypes] = useState<ServiceType[]>([]);
+  const [serviceTypes, setServiceTypes] = useState<ServiceTypeData[]>([]); // 修改为ServiceTypeData类型
   const [loadingServiceTypes, setLoadingServiceTypes] = useState<boolean>(true);
   
   // 订阅ID引用，用于在组件卸载时清理订阅
@@ -58,7 +67,18 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
             person_id: student.id,
             name: student.name,
             email: student.email || '',
-            avatar: student.avatar_url || `https://api.dicebear.com/7.x/adventurer/svg?seed=${student.name}`,
+            avatar: student.avatar_url || 
+              `https://api.dicebear.com/7.x/lorelei/svg?seed=${student.name}&backgroundColor=${
+                // @ts-expect-error student可能有gender属性
+                student.gender === '男' ? 'b6e3f4' : 
+                // @ts-expect-error student可能有gender属性
+                student.gender === '女' ? 'ffdfbf' : 'c0aede'
+              }&gender=${
+                // @ts-expect-error student可能有gender属性
+                student.gender === '男' ? 'male' : 
+                // @ts-expect-error student可能有gender属性
+                student.gender === '女' ? 'female' : 'neutral'
+              }`,
             enrollmentDate: student.created_at ? student.created_at.split('T')[0] : new Date().toISOString().split('T')[0],
             // 优先使用status字段，如果不存在则根据is_active字段推断
             status: student.status || (student.is_active ? '活跃' : '休学'),

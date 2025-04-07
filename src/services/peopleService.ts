@@ -1,5 +1,5 @@
 import { supabase } from '../lib/supabase';
-import { StudentService, ServiceProgress, Person, StudentProfile } from '../types/people';
+import { StudentService, Person, StudentProfile } from '../types/people';
 import { getCurrentLocalISOString } from '../utils/dateUtils';
 
 // 学生数据视图类型
@@ -52,6 +52,37 @@ interface ServiceData {
     is_active: boolean;
   };
   mentor?: MentorData;
+}
+
+// 服务进度记录接口
+interface ServiceProgressRecord {
+  student_service_id: number;
+  milestone: string;      // 进度里程碑，如 "25%"
+  progress_date: string;
+  description: string;    // 进度描述
+  notes?: string;         // 额外备注
+  completed_items?: Record<string, unknown>[]; // 已完成项目，JSON 格式
+  next_steps?: Record<string, unknown>[];     // 下一步计划，JSON 格式
+  attachments?: Record<string, unknown>[];    // 附件，JSON 格式
+  recorded_by: number;    // 记录人ID
+  employee_ref_id?: number; // 员工引用ID
+}
+
+// 服务进度历史记录接口
+interface ServiceProgressHistory {
+  id: number;
+  student_service_id: number;
+  milestone: string;
+  progress_date: string;
+  description: string;
+  notes?: string;
+  completed_items?: Record<string, unknown>[];
+  next_steps?: Record<string, unknown>[];
+  attachments?: Record<string, unknown>[];
+  recorded_by: number;
+  employee_ref_id?: number;
+  created_at: string;
+  updated_at: string;
 }
 
 const peopleService = {
@@ -313,7 +344,7 @@ const peopleService = {
   },
 
   // 获取服务进度
-  async getServiceProgress(serviceId: number): Promise<ServiceProgress[]> {
+  async getServiceProgress(serviceId: number): Promise<ServiceProgressHistory[]> {
     try {
       const { data, error } = await supabase
         .from('service_progress')
@@ -325,29 +356,53 @@ const peopleService = {
         .order('progress_date', { ascending: false });
       
       if (error) throw error;
-      return data as ServiceProgress[];
+      return data as ServiceProgressHistory[];
     } catch (error) {
       console.error(`获取服务进度失败，serviceId=${serviceId}`, error);
       throw error;
     }
   },
 
-  // 添加服务进度
-  async addServiceProgress(progress: Partial<ServiceProgress>): Promise<ServiceProgress> {
+  // 添加服务进度记录
+  async addServiceProgress(progress: ServiceProgressRecord): Promise<void> {
+    try {
+      const { error } = await supabase
+        .from('service_progress')
+        .insert([progress]);
+
+      if (error) throw error;
+
+      // 从milestone字段提取数字部分以更新学生服务的进度
+      const progressValue = parseInt(progress.milestone);
+      if (!isNaN(progressValue)) {
+        const { error: updateError } = await supabase
+          .from('student_services')
+          .update({ 
+            progress: progressValue
+          })
+          .eq('id', progress.student_service_id);
+
+        if (updateError) throw updateError;
+      }
+    } catch (error) {
+      console.error('添加服务进度失败:', error);
+      throw error;
+    }
+  },
+
+  // 获取服务进度历史记录
+  async getServiceProgressHistory(studentServiceId: number): Promise<ServiceProgressHistory[]> {
     try {
       const { data, error } = await supabase
         .from('service_progress')
-        .insert(progress)
-        .select(`
-          *,
-          recorder:recorded_by(*)
-        `)
-        .single();
-      
+        .select('*')
+        .eq('student_service_id', studentServiceId)
+        .order('progress_date', { ascending: false });
+
       if (error) throw error;
-      return data as ServiceProgress;
+      return data as ServiceProgressHistory[];
     } catch (error) {
-      console.error('添加服务进度失败', error);
+      console.error('获取服务进度历史记录失败:', error);
       throw error;
     }
   },
@@ -593,6 +648,6 @@ const peopleService = {
       throw error;
     }
   },
-}
+};
 
 export { peopleService }; 

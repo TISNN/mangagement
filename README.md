@@ -273,4 +273,174 @@ npm run preview
 - 添加导师分配和管理系统
 - 整合财务模块，实现服务付款追踪
 - 实现学生申请材料的在线管理和协作
-- 提供数据分析和业务报表功能 
+- 提供数据分析和业务报表功能
+
+## 服务进度跟踪功能
+
+### 功能概述
+服务进度跟踪功能允许管理员和导师记录和查看学生服务的进度情况。主要功能包括：
+
+1. 进度更新
+   - 通过进度条直观显示服务完成度
+   - 支持0-100%的进度记录（以里程碑形式保存，如"25%"）
+   - 可添加进度说明、已完成项目和下一步计划
+
+2. 进度历史记录
+   - 记录每次进度更新的详细信息
+   - 包含更新时间、里程碑、进度说明等信息
+   - 以时间线形式展示进度发展历程
+
+3. 任务管理
+   - 记录已完成的任务项目
+   - 计划下一步的工作内容
+   - 支持JSON格式存储结构化数据
+
+### 使用方法
+
+1. 更新服务进度
+   - 在学生详情页面的服务卡片中点击"更新进度"按钮
+   - 在弹出的模态框中设置新的进度值
+   - 添加进度说明、已完成项目和下一步计划
+   - 点击"更新进度"保存
+
+2. 查看进度历史
+   - 在学生详情页面点击任意服务卡片
+   - 在页面下方查看该服务的进度历史记录
+   - 历史记录按时间倒序排列，以时间线形式展示
+   - 查看每个阶段的完成项目和下一步计划
+
+### 数据库结构
+
+系统使用现有的 `service_progress` 表记录进度历史：
+
+```sql
+-- 服务进度表结构
+CREATE TABLE service_progress (
+    id BIGSERIAL PRIMARY KEY,
+    student_service_id BIGINT,
+    recorded_by BIGINT,
+    progress_date TIMESTAMP WITH TIME ZONE,
+    milestone VARCHAR,         -- 进度里程碑，如 "25%"
+    description TEXT,          -- 进度描述
+    notes TEXT,                -- 额外备注
+    completed_items JSONB,     -- 已完成项目，JSON格式
+    next_steps JSONB,          -- 下一步计划，JSON格式
+    attachments JSONB,         -- 附件，JSON格式
+    created_at TIMESTAMP WITH TIME ZONE,
+    updated_at TIMESTAMP WITH TIME ZONE,
+    employee_ref_id BIGINT     -- 员工引用ID
+);
+```
+
+在 `student_services` 表中，使用 `progress` 字段记录当前进度值。
+
+### API接口
+
+系统提供以下API接口用于服务进度管理：
+
+1. 添加服务进度记录
+   ```typescript
+   addServiceProgress(progress: ServiceProgressRecord): Promise<void>
+   ```
+
+2. 获取服务进度历史记录
+   ```typescript
+   getServiceProgressHistory(studentServiceId: number): Promise<ServiceProgressHistory[]>
+   ```
+
+### 数据测试
+
+系统提供了测试数据SQL脚本用于添加初始进度记录：
+`service_progress_test_data.sql`
+
+### 注意事项
+
+1. 进度值以百分比形式存储（如"25%"）
+2. 已完成项目和下一步计划使用JSON格式存储，每项包含"content"字段
+3. 每次更新服务进度时会同时更新`student_services`表中的进度值
+4. 若要上传附件，可以使用attachments字段（当前版本未实现） 
+
+## 服务进度跟踪功能
+
+### 功能概述
+服务进度跟踪功能允许管理员和导师记录和查看学生服务的进度情况。主要功能包括：
+
+1. 进度更新
+   - 通过进度条直观显示服务完成度
+   - 支持0-100%的进度记录（以里程碑形式保存，如"25%"）
+   - 可添加进度说明、已完成项目和下一步计划
+
+2. 进度历史记录
+   - 记录每次进度更新的详细信息
+   - 包含更新时间、里程碑、进度说明等信息
+   - 以时间线形式展示进度发展历程
+
+3. 任务管理
+   - 记录已完成的任务项目
+   - 计划下一步的工作内容
+   - 支持JSON格式存储结构化数据
+
+### 使用方法
+
+1. 更新服务进度
+   - 在学生详情页面的服务卡片中点击"更新进度"按钮
+   - 在弹出的模态框中设置新的进度值
+   - 添加进度说明、已完成项目和下一步计划
+   - 点击"更新进度"保存
+
+2. 查看进度历史
+   - 在学生详情页面点击任意服务卡片
+   - 在页面下方查看该服务的进度历史记录
+   - 历史记录按时间倒序排列，以时间线形式展示
+   - 查看每个阶段的完成项目和下一步计划
+
+### 数据库结构
+
+系统使用现有的 `service_progress` 表记录进度历史：
+
+```sql
+-- 服务进度表结构
+CREATE TABLE service_progress (
+    id BIGSERIAL PRIMARY KEY,
+    student_service_id BIGINT,
+    recorded_by BIGINT,
+    progress_date TIMESTAMP WITH TIME ZONE,
+    milestone VARCHAR,         -- 进度里程碑，如 "25%"
+    description TEXT,          -- 进度描述
+    notes TEXT,                -- 额外备注
+    completed_items JSONB,     -- 已完成项目，JSON格式
+    next_steps JSONB,          -- 下一步计划，JSON格式
+    attachments JSONB,         -- 附件，JSON格式
+    created_at TIMESTAMP WITH TIME ZONE,
+    updated_at TIMESTAMP WITH TIME ZONE,
+    employee_ref_id BIGINT     -- 员工引用ID
+);
+```
+
+在 `student_services` 表中，使用 `progress` 字段记录当前进度值。
+
+### API接口
+
+系统提供以下API接口用于服务进度管理：
+
+1. 添加服务进度记录
+   ```typescript
+   addServiceProgress(progress: ServiceProgressRecord): Promise<void>
+   ```
+
+2. 获取服务进度历史记录
+   ```typescript
+   getServiceProgressHistory(studentServiceId: number): Promise<ServiceProgressHistory[]>
+   ```
+
+### 数据测试
+
+系统提供了测试数据SQL脚本用于添加初始进度记录：
+`service_progress_test_data.sql`
+
+### 注意事项
+
+1. 进度值以百分比形式存储（如"25%"）
+2. 已完成项目和下一步计划使用JSON格式存储，每项包含"content"字段
+3. 每次更新服务进度时会同时更新`student_services`表中的进度值
+4. 若要上传附件，可以使用attachments字段（当前版本未实现） 

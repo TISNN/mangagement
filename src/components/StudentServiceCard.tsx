@@ -1,7 +1,8 @@
-import React from 'react';
-import { MoreHorizontal, Languages, BookOpen, Award, PenTool, Book, FileCheck, Layers, Briefcase } from 'lucide-react';
+import React, { useState } from 'react';
+import { MoreHorizontal, Languages, BookOpen, Award, PenTool, Book, FileCheck, Layers, Briefcase, TrendingUp } from 'lucide-react';
 import { ServiceType, getServiceStatusStyle } from '../types/service';
 import { formatDate } from '../utils/dateUtils';
+import ServiceProgressModal from './ServiceProgressModal';
 
 interface Mentor {
   id: string;
@@ -23,9 +24,11 @@ interface StudentServiceProps {
   fee?: string;
   paymentStatus?: string;
   onClick?: () => void;
+  onProgressUpdated?: () => void;
 }
 
 const StudentServiceCard: React.FC<StudentServiceProps> = ({
+  id,
   serviceType,
   standardizedTestType,
   status,
@@ -35,8 +38,11 @@ const StudentServiceCard: React.FC<StudentServiceProps> = ({
   mentors,
   fee,
   paymentStatus,
-  onClick
+  onClick,
+  onProgressUpdated
 }) => {
+  const [showProgressModal, setShowProgressModal] = useState(false);
+
   // 服务类型图标
   const getServiceIcon = () => {
     switch (serviceType) {
@@ -78,6 +84,12 @@ const StudentServiceCard: React.FC<StudentServiceProps> = ({
     const years = Math.floor(diffDays / 365);
     const remainingMonths = Math.floor((diffDays % 365) / 30);
     return remainingMonths > 0 ? `${years}年${remainingMonths}个月` : `${years}年`;
+  };
+
+  // 处理进度更新
+  const handleProgressUpdate = (e: React.MouseEvent) => {
+    e.stopPropagation(); // 阻止事件冒泡，避免触发点击卡片事件
+    setShowProgressModal(true);
   };
 
   return (
@@ -183,10 +195,31 @@ const StudentServiceCard: React.FC<StudentServiceProps> = ({
         <button className="px-4 py-2 bg-white border border-gray-200 text-gray-700 rounded-lg text-sm hover:bg-gray-50 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700">
           查看详情
         </button>
-        <button className="px-4 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700">
-          添加学习记录
+        <button 
+          onClick={handleProgressUpdate}
+          className="px-4 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700 flex items-center gap-2"
+        >
+          <TrendingUp className="w-4 h-4" />
+          更新进度
         </button>
       </div>
+
+      {/* 进度更新模态框 */}
+      <ServiceProgressModal
+        isOpen={showProgressModal}
+        onClose={() => setShowProgressModal(false)}
+        onProgressUpdated={() => {
+          if (onProgressUpdated) {
+            onProgressUpdated();
+          }
+          if (onClick) {
+            onClick();
+          }
+        }}
+        serviceId={parseInt(id)}
+        currentProgress={progress}
+        serviceName={serviceType}
+      />
     </div>
   );
 };

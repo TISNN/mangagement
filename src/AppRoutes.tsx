@@ -18,6 +18,8 @@ import SchoolSelectionPage from './pages/admin/SchoolSelectionPage';
 import CompetitionPage from './pages/student/CompetitionPage';
 import CompetitionDetailPage from './pages/student/CompetitionDetailPage';
 import EmployeeManagementPage from './pages/admin/EmployeeManagementPage';
+import EmployeeDetailPage from './pages/admin/EmployeeDetailPage';
+import EmployeeFormPage from './pages/admin/EmployeeFormPage';
 import TaskManagementPage from './pages/admin/TaskManagementPage';
 import ApplicationsPage from './pages/admin/ApplicationsPage';
 import ApplicationDetailPage from './pages/admin/ApplicationDetailPage';
@@ -55,6 +57,9 @@ const AppRoutes: React.FC = () => {
         {/* 管理页面路由 */}
         <Route path="dashboard" element={<DashboardPage />} />
         <Route path="employees" element={<EmployeeManagementPage />} />
+        <Route path="employees/new" element={<EmployeeFormPage />} />
+        <Route path="employees/edit/:id" element={<EmployeeFormPage />} />
+        <Route path="employees/:id" element={<EmployeeDetailPage />} />
         <Route path="tasks" element={<TaskManagementPage />} />
         <Route path="interview" element={<InterviewPage />} />
         <Route path="interview/:id" element={<TrainingDetailPage />} />
