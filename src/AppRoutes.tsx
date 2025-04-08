@@ -20,12 +20,15 @@ import CompetitionDetailPage from './pages/student/CompetitionDetailPage';
 import EmployeeManagementPage from './pages/admin/EmployeeManagementPage';
 import EmployeeDetailPage from './pages/admin/EmployeeDetailPage';
 import EmployeeFormPage from './pages/admin/EmployeeFormPage';
+import TeamChatPage from './pages/admin/TeamChatPage';
 import TaskManagementPage from './pages/admin/TaskManagementPage';
 import ApplicationsPage from './pages/admin/ApplicationsPage';
 import ApplicationDetailPage from './pages/admin/ApplicationDetailPage';
 import PlanningDetailPage from './pages/admin/PlanningDetailPage';
 import AIModelPage from './pages/admin/AIModelPage';
 import SchoolAssistantPage from './pages/admin/SchoolAssistantPage';
+import SchoolDetailPage from './pages/admin/SchoolDetailPage';
+import ProgramDetailPage from './pages/admin/ProgramDetailPage';
 import CaseStudiesPage from './pages/admin/CaseStudiesPage';
 import ContractsPage from './pages/admin/ContractsPage';
 import FinancePage from './pages/admin/FinancePage';
@@ -60,6 +63,7 @@ const AppRoutes: React.FC = () => {
         <Route path="employees/new" element={<EmployeeFormPage />} />
         <Route path="employees/edit/:id" element={<EmployeeFormPage />} />
         <Route path="employees/:id" element={<EmployeeDetailPage />} />
+        <Route path="team-chat" element={<TeamChatPage />} />
         <Route path="tasks" element={<TaskManagementPage />} />
         <Route path="interview" element={<InterviewPage />} />
         <Route path="interview/:id" element={<TrainingDetailPage />} />
@@ -77,6 +81,8 @@ const AppRoutes: React.FC = () => {
         <Route path="students" element={<StudentsPage />} />
         <Route path="students/:studentId" element={<StudentDetailPage />} />
         <Route path="school-assistant" element={<SchoolAssistantPage />} />
+        <Route path="school-detail/:schoolId" element={<SchoolDetailPage />} />
+        <Route path="program-detail/:programId" element={<ProgramDetailPage />} />
         <Route path="projects" element={<ProjectsPage />} />
         <Route path="leads" element={<LeadsPage />} />
         <Route path="mentors" element={<MentorsPage />} />

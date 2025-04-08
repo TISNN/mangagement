@@ -775,3 +775,114 @@ async function addStudentRole(personId, studentData) {
 
 这次重构显著提升了数据库的性能和可维护性，同时保持了现有功能的完整性。所有变更都经过了仔细的规划和测试，确保了数据的完整性和一致性。
 
+
+
+# StudyLandsEdu 系统
+
+## 学校和专业数据库功能
+
+系统现在增加了学校和专业数据库功能，允许管理员浏览、搜索和管理全球高校及其专业信息。
+
+### 数据库表结构
+
+系统在Supabase中创建了以下表结构：
+
+1. **schools** - 存储学校信息
+   - id: UUID (主键)
+   - name: 学校名称
+   - logo_url: 学校标志URL
+   - country: 国家
+   - city: 城市
+   - ranking: 世界排名
+   - description: 学校描述
+   - created_at: 创建时间
+   - updated_at: 更新时间
+
+2. **programs** - 存储专业项目信息
+   - id: UUID (主键)
+   - school_id: 关联学校ID
+   - name: 专业名称
+   - degree: 学位类型 (如Bachelor, Master, PhD)
+   - duration: 学制长度
+   - tuition_fee: 学费
+   - application_deadline: 申请截止日期
+   - requirements: 申请要求
+   - description: 专业描述
+   - created_at: 创建时间
+   - updated_at: 更新时间
+
+3. **success_cases** - 存储录取成功案例
+   - id: UUID (主键)
+   - student_name: 学生姓名
+   - program_id: 关联专业ID
+   - admission_year: 录取年份
+   - background: 学生背景
+   - gpa: GPA成绩
+   - language_scores: 语言成绩 (JSON)
+   - story: 申请故事
+   - created_at: 创建时间
+   - updated_at: 更新时间
+
+4. **user_favorite_schools** - 用户收藏的学校
+   - id: UUID (主键)
+   - user_id: 用户ID
+   - school_id: 学校ID
+   - created_at: 创建时间
+
+5. **user_favorite_programs** - 用户收藏的专业
+   - id: UUID (主键)
+   - user_id: 用户ID
+   - program_id: 专业ID
+   - created_at: 创建时间
+
+### 主要功能
+
+1. **学校库页面** (`/admin/schools`)
+   - 浏览全部学校列表
+   - 按名称、国家或城市搜索学校
+   - 查看基本统计信息
+   - 点击学校卡片进入详情页
+
+2. **学校详情页** (`/admin/school-detail/:schoolId`)
+   - 显示学校的详细信息和统计数据
+   - 浏览该学校开设的所有专业
+   - 根据学位类型和时长筛选专业
+   - 查看该学校的录取成功案例
+   - 跳转到全部案例页面
+
+3. **案例库页面** (`/admin/cases`)
+   - 浏览所有录取成功案例
+   - 按学校、专业、背景等筛选案例
+   - 查看详细的申请背景和录取故事
+
+### API服务
+
+系统提供了完整的API服务用于管理学校和专业数据：
+
+- `schoolService.getAllSchools()`: 获取所有学校列表
+- `schoolService.getSchoolById(id)`: 获取学校详情
+- `schoolService.getSchoolPrograms(schoolId)`: 获取学校的专业列表
+- `schoolService.filterPrograms(params)`: 按条件筛选专业
+- `schoolService.getSchoolSuccessCases(schoolId)`: 获取学校的成功案例
+- `schoolService.addSchoolToFavorites(userId, schoolId)`: 添加学校到收藏
+- `schoolService.removeProgramFromFavorites(userId, programId)`: 从收藏中移除专业
+
+### 使用示例
+
+```typescript
+// 获取所有学校
+const schools = await schoolService.getAllSchools();
+
+// 获取特定学校详情
+const schoolDetail = await schoolService.getSchoolById('11111111-1111-1111-1111-111111111111');
+
+// 获取学校的专业列表
+const programs = await schoolService.getSchoolPrograms('11111111-1111-1111-1111-111111111111');
+
+// 按条件筛选专业
+const filteredPrograms = await schoolService.filterPrograms({
+  school_id: '11111111-1111-1111-1111-111111111111',
+  degree: ['Master'],
+  duration: ['2 years'],
+  search: '计算机'
+});

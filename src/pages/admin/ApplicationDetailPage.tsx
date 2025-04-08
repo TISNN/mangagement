@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { 
   FileText, 
   Clock,
@@ -7,44 +7,30 @@ import {
   MessageCircle,
   Download,
   Plus,
-  ChevronRight
+  ChevronRight,
+  ExternalLink
 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import { getStudentSelections, SchoolPlanningRecord, SchoolPlan } from '../../services/schoolPlanningService';
 
 interface ApplicationDetailPageProps {
-  setCurrentPage: (page: string) => void;
+  setCurrentPage?: (page: string) => void;
+  studentId?: number;
 }
 
-// 定义选校规划记录的数据结构
-export interface SchoolPlanningRecord {
-  id: number;
-  title: string;
-  date: string;
-  version: string;
-  planner: string;
-  description: string;
-  schools: SchoolPlan[];
-}
-
-export interface SchoolPlan {
-  school: string;
-  program: string;
-  type: string;
-  status: 'current' | 'pending' | 'completed';
-  requirements: {
-    gpa: string;
-    ielts: string;
-    deadline: string;
-    preferences: string[];
-  };
-  notes?: string;
-}
-
-function ApplicationDetailPage({ setCurrentPage }: ApplicationDetailPageProps) {
+function ApplicationDetailPage({ setCurrentPage, studentId = 1 }: ApplicationDetailPageProps) {
   const navigate = useNavigate();
+  const [isLoading, setIsLoading] = useState(false);
+  
+  // 最近的选校记录
+  const [recentSelection, setRecentSelection] = useState<{
+    id: string;
+    name: string;
+    date: string;
+  } | null>(null);
 
   // 选校规划记录数据
-  const schoolPlanningRecords = [
+  const [schoolPlanningRecords] = useState<SchoolPlanningRecord[]>([
     {
       id: 1,
       date: '2024-03-01',
@@ -57,6 +43,7 @@ function ApplicationDetailPage({ setCurrentPage }: ApplicationDetailPageProps) {
           school: '伦敦大学学院',
           program: '计算机科学 本科',
           type: '冲刺院校',
+          status: 'pending',
           requirements: {
             gpa: '85+',
             ielts: '7.0 (各单项不低于6.5)',
@@ -74,6 +61,7 @@ function ApplicationDetailPage({ setCurrentPage }: ApplicationDetailPageProps) {
           school: '曼彻斯特大学',
           program: '计算机科学 本科',
           type: '目标院校',
+          status: 'pending',
           requirements: {
             gpa: '80+',
             ielts: '6.5 (各单项不低于6.0)',
@@ -91,6 +79,7 @@ function ApplicationDetailPage({ setCurrentPage }: ApplicationDetailPageProps) {
           school: '利兹大学',
           program: '计算机科学 本科',
           type: '保底院校',
+          status: 'pending',
           requirements: {
             gpa: '75+',
             ielts: '6.0 (各单项不低于5.5)',
@@ -118,6 +107,7 @@ function ApplicationDetailPage({ setCurrentPage }: ApplicationDetailPageProps) {
           school: '伦敦大学学院',
           program: '计算机科学 本科',
           type: '冲刺院校',
+          status: 'pending',
           requirements: {
             gpa: '85+',
             ielts: '7.0 (各单项不低于6.5)',
@@ -135,6 +125,7 @@ function ApplicationDetailPage({ setCurrentPage }: ApplicationDetailPageProps) {
           school: '爱丁堡大学',
           program: '计算机科学 本科',
           type: '目标院校',
+          status: 'pending',
           requirements: {
             gpa: '82+',
             ielts: '6.5 (各单项不低于6.0)',
@@ -152,6 +143,7 @@ function ApplicationDetailPage({ setCurrentPage }: ApplicationDetailPageProps) {
           school: '曼彻斯特大学',
           program: '计算机科学 本科',
           type: '目标院校',
+          status: 'pending',
           requirements: {
             gpa: '80+',
             ielts: '6.5 (各单项不低于6.0)',
@@ -169,6 +161,7 @@ function ApplicationDetailPage({ setCurrentPage }: ApplicationDetailPageProps) {
           school: '利兹大学',
           program: '计算机科学 本科',
           type: '保底院校',
+          status: 'pending',
           requirements: {
             gpa: '75+',
             ielts: '6.0 (各单项不低于5.5)',
@@ -248,7 +241,42 @@ function ApplicationDetailPage({ setCurrentPage }: ApplicationDetailPageProps) {
         }
       ]
     }
-  ];
+  ]);
+  
+  // 加载学生的选校方案
+  useEffect(() => {
+    const loadStudentSelections = async () => {
+      if (!studentId) return;
+      
+      try {
+        setIsLoading(true);
+        // 获取学生的选校方案
+        const selections = await getStudentSelections(studentId);
+        
+        // 如果有选校方案，获取最新的一个
+        if (selections.length > 0) {
+          const latest = selections.sort((a, b) => 
+            new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime()
+          )[0];
+          
+          setRecentSelection({
+            id: latest.id,
+            name: latest.name,
+            date: new Date(latest.timestamp).toLocaleDateString('zh-CN')
+          });
+        }
+        
+        // 这里可以添加同步数据库中的选校规划记录的逻辑
+        // 实际项目中应该从API获取
+      } catch (error) {
+        console.error('加载学生选校方案失败:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    
+    loadStudentSelections();
+  }, [studentId]);
 
   // 规划历史区域
   const PlanningHistory = () => {
@@ -259,13 +287,56 @@ function ApplicationDetailPage({ setCurrentPage }: ApplicationDetailPageProps) {
       localStorage.setItem('selectedPlanningId', planId.toString());
       navigate('/admin/applications/planning-detail');
     };
+
+    // 打开选校助手
+    const openSchoolAssistant = () => {
+      navigate('/admin/school-assistant');
+    };
     
     return (
       <div className="bg-white rounded-2xl p-6 dark:bg-gray-800 shadow-sm">
-        <h2 className="text-lg font-semibold mb-4 dark:text-white">选校规划记录</h2>
+        <div className="flex justify-between items-center mb-4">
+          <h2 className="text-lg font-semibold dark:text-white">选校规划记录</h2>
+          
+          <button 
+            onClick={openSchoolAssistant}
+            className="flex items-center gap-1 text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
+          >
+            <Plus className="h-4 w-4" />
+            创建新选校方案
+          </button>
+        </div>
+        
+        {/* 显示最近从选校助手同步的选校方案 */}
+        {recentSelection && (
+          <div className="mb-4 p-4 bg-blue-50 dark:bg-blue-900/10 border border-blue-100 dark:border-blue-800/30 rounded-xl">
+            <div className="flex justify-between items-start">
+              <div>
+                <div className="flex items-center gap-2">
+                  <span className="px-2 py-0.5 bg-green-100 text-green-800 text-xs font-medium rounded-full dark:bg-green-900/30 dark:text-green-300">
+                    新同步
+                  </span>
+                  <h3 className="font-medium dark:text-white">{recentSelection.name}</h3>
+                </div>
+                <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
+                  同步日期: {recentSelection.date}
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-end mt-3">
+              <button 
+                className="text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 flex items-center gap-1"
+                onClick={openSchoolAssistant}
+              >
+                查看详情
+                <ExternalLink className="h-3 w-3" />
+              </button>
+            </div>
+          </div>
+        )}
         
         <div className="space-y-4">
-          {/* 按倒序显示规划记录，最新的在最前面 */}
+          {/* 原有规划记录保持不变 */}
           {[...schoolPlanningRecords].reverse().map((record) => (
             <div 
               key={record.id}

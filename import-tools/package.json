@@ -1,0 +1,16 @@
+{
+  "name": "qs-rankings-import-tools",
+  "version": "1.0.0",
+  "description": "导入QS世界大学排名数据到Supabase的工具",
+  "main": "import_qs_rankings.js",
+  "type": "commonjs",
+  "scripts": {
+    "copy-csv": "node copy-csv.js",
+    "import-qs": "node import_qs_rankings.js",
+    "import": "npm run copy-csv && npm run import-qs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.8",
+    "dotenv": "^16.4.7"
+  }
+} 

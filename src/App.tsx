@@ -18,6 +18,7 @@ import {
   ChevronUp,
   ChevronDown,
   X,
+  MessageCircle, // 添加聊天图标
   ClipboardCheck, // 添加打卡图标
   Clock, // 添加时钟图标
   CheckCircle2 // 添加勾选图标
@@ -57,6 +58,7 @@ function App() {
     { icon: LayoutGrid, text: '控制台', id: 'dashboard', color: 'blue' },
     { icon: UserRound, text: '员工管理', id: 'employees', color: 'green' },
     { icon: ListTodo, text: '任务管理', id: 'tasks', color: 'purple' },
+    { icon: MessageCircle, text: '团队聊天', id: 'team-chat', color: 'pink' },
     { icon: Users, text: '学生管理', id: 'students', color: 'orange' },
     { icon: School, text: '选校助手', id: 'school-assistant', color: 'indigo' },
     { icon: Briefcase, text: '服务项目', id: 'projects', color: 'red' },
@@ -133,6 +135,8 @@ function App() {
       setCurrentPage('employees');
     } else if (path.includes('tasks')) {
       setCurrentPage('tasks');
+    } else if (path.includes('team-chat')) {
+      setCurrentPage('team-chat');
     } else if (path.includes('applications')) {
       setCurrentPage('applications');
     } else if (path.includes('interview')) {

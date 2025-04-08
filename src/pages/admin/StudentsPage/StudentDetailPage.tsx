@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import { 
   ArrowLeft, Calendar, Mail, Phone, MapPin, School, Briefcase, Plus, 
   Users, Book, FileCheck, Layers, MessageSquare, Bell, FileText, CircleDollarSign,
-  ChevronDown, Check, Bug, RefreshCw, BookOpen
+  ChevronDown, Check, Bug, RefreshCw, BookOpen, GraduationCap, ExternalLink
 } from 'lucide-react';
 import { StudentDisplay } from './StudentsPage';
 import StudentServiceCard from '../../../components/StudentServiceCard';
@@ -13,6 +13,7 @@ import StudentAddModal from '../../../components/StudentAddModal'; // 导入学�
 import { peopleService } from '../../../services'; // 导入服务
 import { checkStudentMapping, diagnoseStudentDataSync, setupAPILogger } from '../../../utils/debug';
 import ServiceProgressHistory from '../../../components/ServiceProgressHistory';
+import { getStudentSelections } from '../../../services/schoolPlanningService';
 
 // 调试模式开关
 const DEBUG_MODE = true;
@@ -30,6 +31,25 @@ interface ProgressHistoryRecord {
   employee_ref_id?: number;
   created_at: string;
   updated_at?: string;
+}
+
+// 从SchoolAssistantPage引入类型定义
+interface SchoolWithNote {
+  id: string;
+  name: string;
+  programs: Array<{
+    id: string;
+    name: string;
+  }>;
+  interestedPrograms?: string[];
+}
+
+interface SchoolSelection {
+  id: string;
+  timestamp: string;
+  schools: SchoolWithNote[];
+  name: string;
+  studentId?: number;
 }
 
 const StudentDetailPage: React.FC = () => {
@@ -56,6 +76,10 @@ const StudentDetailPage: React.FC = () => {
   const [selectedServiceId, setSelectedServiceId] = useState<number | null>(null);
   const [progressHistory, setProgressHistory] = useState<ProgressHistoryRecord[]>([]);
   const [loadingHistory, setLoadingHistory] = useState(false);
+
+  // 添加以下状态
+  const [schoolSelections, setSchoolSelections] = useState<SchoolSelection[]>([]);
+  const [isLoadingSelections, setIsLoadingSelections] = useState(false);
 
   // 启用API日志记录（仅在调试模式下）
   useEffect(() => {
@@ -95,6 +119,25 @@ const StudentDetailPage: React.FC = () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, []);
+
+  // 添加以下useEffect，用于加载学生的选校方案
+  useEffect(() => {
+    const loadStudentSelections = async () => {
+      if (!studentId) return;
+      
+      try {
+        setIsLoadingSelections(true);
+        const selections = await getStudentSelections(Number(studentId));
+        setSchoolSelections(selections);
+      } catch (error) {
+        console.error('加载学生选校方案失败:', error);
+      } finally {
+        setIsLoadingSelections(false);
+      }
+    };
+    
+    loadStudentSelections();
+  }, [studentId]);
 
   // 返回上一页
   const handleGoBack = () => {
@@ -205,7 +248,7 @@ const StudentDetailPage: React.FC = () => {
   };
 
   // 获取学生详情数据
-  const fetchStudentDetail = async (id: number) => {
+  const fetchStudentDetail = async () => {
     // ... existing code ...
   };
 
@@ -234,10 +277,89 @@ const StudentDetailPage: React.FC = () => {
       await loadProgressHistory(selectedServiceId);
       // 刷新学生数据以获取最新进度
       if (studentId) {
-        await fetchStudentDetail(Number(studentId));
+        await fetchStudentDetail();
       }
     }
   };
+
+  // 添加以下选校方案卡片组件
+  const SchoolSelectionCard = () => (
+    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-5 flex flex-col h-full">
+      <div className="flex justify-between items-center mb-5">
+        <h3 className="text-lg font-semibold flex items-center gap-2 dark:text-white">
+          <GraduationCap className="h-5 w-5 text-blue-500" />
+          选校方案
+        </h3>
+        <Link 
+          to="/admin/school-assistant" 
+          className="text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 flex items-center gap-1"
+        >
+          创建新方案 <ExternalLink className="h-3 w-3" />
+        </Link>
+      </div>
+      
+      {isLoadingSelections ? (
+        <div className="flex justify-center items-center py-10">
+          <div className="animate-spin h-5 w-5 border-2 border-blue-500 border-t-transparent rounded-full"></div>
+        </div>
+      ) : schoolSelections.length === 0 ? (
+        <div className="text-center py-8 text-gray-500 dark:text-gray-400">
+          <p>还没有选校方案</p>
+          <p className="mt-2 text-sm">使用选校助手创建新的选校方案</p>
+        </div>
+      ) : (
+        <div className="space-y-3">
+          {schoolSelections.map((selection) => (
+            <div 
+              key={selection.id}
+              className="p-3 border border-gray-200 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors"
+            >
+              <div className="flex justify-between items-start">
+                <div>
+                  <h4 className="font-medium text-gray-800 dark:text-gray-200">{selection.name}</h4>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                    {new Date(selection.timestamp).toLocaleDateString('zh-CN')}
+                  </p>
+                </div>
+                <span className="text-xs px-2 py-1 bg-blue-100 text-blue-800 rounded-full dark:bg-blue-900/30 dark:text-blue-300">
+                  {selection.schools.length}所学校
+                </span>
+              </div>
+              
+              {selection.schools.length > 0 && (
+                <div className="mt-3 grid grid-cols-2 gap-2">
+                  {selection.schools.slice(0, 4).map((school: SchoolWithNote) => (
+                    <div key={school.id} className="text-xs p-1.5 bg-gray-100 dark:bg-gray-700 rounded">
+                      <p className="font-medium dark:text-white">{school.name}</p>
+                      {school.interestedPrograms && school.interestedPrograms.length > 0 && (
+                        <p className="text-gray-500 dark:text-gray-400 truncate">
+                          {school.programs.find((p) => p.id === school.interestedPrograms![0])?.name || ''}
+                        </p>
+                      )}
+                    </div>
+                  ))}
+                  {selection.schools.length > 4 && (
+                    <div className="text-xs p-1.5 bg-gray-100 dark:bg-gray-700 rounded flex items-center justify-center">
+                      <p className="text-gray-500 dark:text-gray-400">+{selection.schools.length - 4}所</p>
+                    </div>
+                  )}
+                </div>
+              )}
+              
+              <div className="mt-3 flex justify-end">
+                <Link
+                  to="/admin/school-assistant"
+                  className="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400"
+                >
+                  查看详情
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
 
   if (isLoading) {
     return (
@@ -929,6 +1051,13 @@ const StudentDetailPage: React.FC = () => {
           studentToEdit={student}
         />
       )}
+
+      {/* 选校方案卡片 */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+        <div className="col-span-1">
+          <SchoolSelectionCard />
+        </div>
+      </div>
     </div>
   );
 };
