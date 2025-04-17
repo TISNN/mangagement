@@ -666,3 +666,269 @@ python3 json_to_csv_converter.py --country australia --output australia_programs
 - success_cases: 成功案例
 - country: 国家/地区（从文件路径提取）
 - filename: 原始JSON文件名
+
+# 新加坡大学专业数据导入工具
+
+这个项目包含用于将新加坡大学专业数据批量导入到Supabase数据库的工具。以下是三种不同的导入方法，可以根据需要选择最适合的一种。
+
+## 文件说明
+
+项目包含以下主要文件：
+
+- `process_programs.py` - 处理原始CSV数据并转换为SQL和JSON格式
+- `process_programs_update.py` - 更新版的处理脚本，修复了tuition_fee字段的处理
+- `all_batches.sql` - 合并后的所有SQL批次文件，包含全部导入语句
+- `singapore_programs_processed.json` - 处理后的JSON格式数据
+- `import_programs.py` - 使用Supabase Python SDK解析SQL并导入数据
+- `import_programs_simple.py` - 使用Supabase SQL API直接执行SQL语句导入数据
+- `import_programs_rest.py` - 使用Supabase REST API直接导入JSON数据
+
+## 导入方法选择
+
+根据不同情况，可以选择以下三种导入方法之一：
+
+1. **Python SDK解析SQL导入** (`import_programs.py`)
+   - 通过解析SQL文件提取记录，并使用Supabase Python SDK导入
+   - 适合需要在导入前对数据进行灵活处理的情况
+
+2. **SQL API直接执行** (`import_programs_simple.py`)
+   - 直接使用Supabase SQL API执行SQL语句
+   - 处理大批量SQL文件导入，保留原始SQL语句的完整性
+
+3. **REST API直接导入JSON** (`import_programs_rest.py`)
+   - 使用Supabase REST API直接从JSON数据导入
+   - 最简单可靠的方法，不依赖第三方SDK
+
+## 使用方法
+
+### 安装依赖
+
+```bash
+pip install supabase requests
+```
+
+### 配置
+
+在使用前，需要修改脚本中的Supabase配置：
+
+1. 打开要使用的导入脚本
+2. 找到以下配置行并更新为实际值：
+
+```python
+SUPABASE_URL = "https://swyajeiqqewyckzbfkid.supabase.co"
+SUPABASE_KEY = "你的Supabase服务密钥"  # 需要替换为实际的服务密钥
+```
+
+### 执行导入
+
+根据需要执行对应的脚本：
+
+```bash
+# 方法1: 使用Python SDK解析SQL
+python import_programs.py
+
+# 方法2: 使用SQL API执行SQL语句
+python import_programs_simple.py
+
+# 方法3: 使用REST API导入JSON数据
+python import_programs_rest.py
+```
+
+## 脚本功能详解
+
+### import_programs.py
+
+这个脚本通过以下步骤工作：
+
+1. 读取SQL文件(`all_batches.sql`)
+2. 使用正则表达式解析出每个INSERT语句中的值
+3. 将解析出的值构造成Python字典
+4. 使用Supabase SDK批量插入记录
+5. 处理任何错误并报告结果
+
+### import_programs_simple.py
+
+这个脚本通过以下步骤工作：
+
+1. 读取SQL文件(`all_batches.sql`)
+2. 将SQL文件分割成单个INSERT语句
+3. 将多个语句合并成事务块
+4. 使用Supabase SQL API直接执行这些事务
+5. 如果批量执行失败，会尝试逐条执行
+
+### import_programs_rest.py
+
+这个脚本通过以下步骤工作：
+
+1. 读取JSON文件(`singapore_programs_processed.json`)
+2. 确定数据库中已有的记录数，避免重复导入
+3. 使用REST API发送POST请求，批量插入记录
+4. 如果批量插入失败，会尝试逐条插入
+5. 显示导入统计信息
+
+## 错误处理
+
+所有脚本都包含错误处理逻辑：
+
+- 批量处理失败时会尝试逐条处理
+- 导入过程中会记录成功和失败的记录数
+- 每个批次之间有短暂暂停，避免触发API限制
+
+## 注意事项
+
+- 请确保在执行导入前已创建好目标表结构
+- 默认会按10条记录为一批进行导入，可在脚本中调整批次大小
+- 敏感的API密钥不应硬编码在脚本中，建议使用环境变量
+
+# CSV数据导入Supabase脚本
+
+这个脚本用于将CSV数据文件导入到Supabase数据库的programs表中。
+
+## 功能特点
+
+- 读取CSV文件中的项目数据
+- 自动将数据导入到Supabase数据库的programs表
+- 支持批量导入，避免大数据量导致的超时问题
+- 提供清晰的导入过程日志
+- 支持两种导入模式：仅插入新记录或更新已存在的记录
+- 自动根据学校名称（school字段）查找对应的school_id
+- 支持学校英文名和中文名的匹配查找
+- 跳过找不到匹配学校的记录
+- 命令行参数支持，便于灵活使用
+
+## 前提条件
+
+- Node.js 18.x 或更高版本
+- 已有Supabase账户和项目
+- 数据库中已创建了schools表和programs表
+- schools表中必须包含学校数据（至少有id、en_name和cn_name字段）
+
+## 安装步骤
+
+1. 克隆或下载此仓库到本地
+2. 安装依赖包:
+   ```
+   npm install
+   ```
+
+## CSV文件格式要求
+
+CSV文件应包含以下字段（标题行必须与下面列出的字段名称完全匹配）:
+
+- `school` - 学校名称（必填，除非已有school_id）
+- `school_id` - 对应schools表中的id（可选，如果提供则优先使用）
+- `en_name` - 英文名称
+- `duration` - 持续时间
+- `apply_requirements` - 申请要求
+- `cn_name` - 中文名称
+- `language_requirements` - 语言要求
+- `curriculum` - 课程
+- `tags` - 标签
+- `objectives` - 目标
+- `faculty` - 院系
+- `category` - 类别
+- `entry_month` - 入学月份
+- `interview` - 面试
+- `analysis` - 分析
+- `url` - 网址
+- `tuition_fee` - 学费
+- `degree` - 学位
+
+CSV文件示例（第一行是标题行）:
+```
+school,en_name,duration,apply_requirements,cn_name,language_requirements,curriculum,tags,objectives,faculty,category,entry_month,interview,analysis,url,tuition_fee,degree
+"哈佛大学","Business Administration","2 years","Bachelor's degree","工商管理","IELTS 6.5","Marketing, Finance","MBA,Business","Leadership","Business School","MBA","September","Yes","Good career prospects","https://example.com/mba","$50,000","Master"
+```
+
+## 学校名称匹配规则
+
+脚本使用以下规则查找学校ID:
+
+1. 首先检查CSV记录中是否已有school_id字段且不为空，如有则直接使用
+2. 如果school_id为空，则使用school字段查找匹配的学校ID:
+   - 优先匹配完全一致的学校名称（不区分大小写）
+   - 如果没有完全匹配，尝试部分匹配（学校名称互相包含的情况）
+3. 如果找不到匹配的学校ID，该记录将被跳过并记录在日志中
+
+## 使用方法
+
+1. 准备您的CSV数据文件，并将其命名为`programs_data.csv`，放在脚本同一目录下
+   - 如果您的文件名不同，可以在运行脚本时指定
+
+2. 确保`.env`文件包含Supabase的连接信息:
+   ```
+   VITE_SUPABASE_URL=你的Supabase项目URL
+   VITE_SUPABASE_ANON_KEY=你的Supabase匿名密钥
+   ```
+
+3. 运行导入脚本:
+
+   **基本用法**
+   ```
+   npm start
+   ```
+   
+   **使用自定义CSV文件**
+   ```
+   node import_programs.js ./your_custom_file.csv
+   ```
+   
+   **使用更新模式（更新已存在的记录）**
+   ```
+   node import_programs.js ./programs_data.csv upsert
+   ```
+   
+   **查看帮助**
+   ```
+   node import_programs.js --help
+   ```
+
+4. 观察控制台输出，确认导入过程是否成功
+
+## 导入模式说明
+
+脚本支持两种导入模式:
+
+1. **insert模式（默认）**: 仅插入新记录，如果遇到已存在的记录（根据school_id和en_name判断），将会报错并跳过
+
+2. **upsert模式**: 插入新记录，同时更新已存在的记录（根据school_id和en_name判断）
+
+## 故障排除
+
+常见问题及解决方法:
+
+1. **连接错误**: 确保您的Supabase URL和密钥正确，并且网络连接正常
+
+2. **字段不匹配**: 如果CSV文件的列名与脚本中的字段名不一致，请调整`import_programs.js`文件中的映射关系
+
+3. **找不到匹配学校**: 确保CSV中的school字段与schools表中的en_name或cn_name相匹配，也可以直接提供school_id
+
+4. **数据格式问题**: 检查CSV文件中的数据格式是否正确，特别是日期、数字等特殊类型
+
+5. **批处理失败**: 如果导入失败，可以尝试在脚本中减小`BATCH_SIZE`常量的值（默认为50）
+
+## 脚本执行流程
+
+1. 加载schools表中的所有学校数据，创建名称到ID的映射
+2. 读取并解析CSV文件
+3. 对每条记录，查找对应的school_id
+4. 过滤掉找不到匹配学校的记录
+5. 批量处理有效记录
+6. 根据指定的模式（insert或upsert）导入数据
+7. 输出导入结果摘要
+
+## 注意事项
+
+- 此脚本默认以insert模式运行，只会添加新记录
+- 如需更新已存在的记录，请使用upsert模式
+- 大量数据导入可能需要较长时间，请耐心等待
+- 学校名称匹配不区分大小写，支持部分匹配
+- school_id字段会自动转换为数字类型（如果是有效数字）
+
+## 许可证
+
+MIT
+
+## 作者
+
+[您的名字]

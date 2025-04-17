@@ -15,6 +15,12 @@ import {
   Award,
   Clock,
   ChevronRight,
+  ExternalLink,
+  Info,
+  Filter,
+  X,
+  Sliders,
+  RefreshCw
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
@@ -36,18 +42,24 @@ enum ProgramCategory {
 
 interface Program {
   id: string;
-  name: string;
+  school_id: string;
+  cn_name?: string;
+  en_name: string;
+  name?: string; // Add name field for compatibility
   degree: string;
   duration: string;
-  description: string; // 由introduction映射而来
-  requirements: string; // 由apply_requirements映射而来
-  employment: string;
-  category?: ProgramCategory; // 添加专业大类
-  subCategory?: string; // 添加细分方向
-  schoolId: string; // 添加学校ID以便关联显示
-  language_requirements?: string; // 添加
-  curriculum?: string; // 添加
-  success_cases?: string; // 添加
+  tuition_fee: string;
+  faculty: string;
+  category: string;
+  subCategory: string;
+  tags?: string[];
+  apply_requirements: string;
+  language_requirements: string;
+  curriculum: string;
+  analysis: string;
+  url: string;
+  interview: string;
+  objectives: string;
 }
 
 // 修改School接口以匹配数据库结构
@@ -125,14 +137,14 @@ const darkMorandiColors = {
 
 const SchoolAssistantPage: React.FC = () => {
   const navigate = useNavigate();
-  
+
   // 视图状态 - 学校库、专业库或选校模式
   const [currentView, setCurrentView] = useState<'schools' | 'programs' | 'selection'>('schools');
   const [searchQuery, setSearchQuery] = useState('');
   const [schools, setSchools] = useState<SchoolWithNote[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
-  
+
   // 添加专业数据状态
   const [allPrograms, setAllPrograms] = useState<Program[]>([]);
   const [programsLoading, setProgramsLoading] = useState<boolean>(false);
@@ -143,49 +155,49 @@ const SchoolAssistantPage: React.FC = () => {
     async function fetchSchools() {
       try {
         setLoading(true);
-        
+
         // 先获取总数
         const { count, error: countError } = await supabase
           .from('schools')
           .select('*', { count: 'exact', head: true });
-          
+
         if (countError) {
           console.error('获取学校总数失败:', countError);
           return;
         }
-        
+
         const totalCount = count || 0; // 处理count可能为null的情况
         console.log(`总共有 ${totalCount} 所学校`);
-        
+
         // 分页加载所有数据，避免默认的1000条限制
         const limit = 1000; // Supabase默认限制
         const totalPages = Math.ceil(totalCount / limit);
         let allSchools: DatabaseSchool[] = []; // 明确指定类型
-        
+
         for (let page = 0; page < totalPages; page++) {
           const { data, error } = await supabase
             .from('schools')
             .select('*')
             .range(page * limit, (page + 1) * limit - 1)
             .order('ranking', { ascending: true }); // 移除nullsLast参数
-          
+
           if (error) {
             console.error(`获取第${page+1}页学校数据失败:`, error);
             continue;
           }
-          
+
           if (data) {
             allSchools = [...allSchools, ...data as DatabaseSchool[]];
             console.log(`已加载第${page+1}页学校数据: ${data.length}条`);
           }
         }
-        
+
         if (allSchools.length === 0) {
           setError('未找到任何学校数据');
           setLoading(false);
           return;
         }
-        
+
         // 处理数据，转换为应用所需的格式，确保id是有效的UUID
         const processedSchools = allSchools.map((dbSchool: DatabaseSchool) => {
           // 确保id是有效的UUID，如果不是则返回null
@@ -193,7 +205,7 @@ const SchoolAssistantPage: React.FC = () => {
             console.warn('警告: 发现无效的学校ID格式:', dbSchool.id);
             return null;
           }
-          
+
           // 处理tags字段，确保它是数组
           let tags: string[] = [];
           if (dbSchool.tags) {
@@ -213,7 +225,7 @@ const SchoolAssistantPage: React.FC = () => {
               tags = [String(dbSchool.tags)];
             }
           }
-          
+
           // 转换为前端所需的School格式
           const school: SchoolWithNote = {
             id: dbSchool.id, // 确保这是UUID格式
@@ -234,7 +246,7 @@ const SchoolAssistantPage: React.FC = () => {
         })
         // 过滤掉null值
         .filter((school): school is SchoolWithNote => school !== null);
-        
+
         setSchools(processedSchools);
         console.log('已加载学校数据:', processedSchools.length);
       } catch (err) {
@@ -244,122 +256,348 @@ const SchoolAssistantPage: React.FC = () => {
         setLoading(false);
       }
     }
-    
+
     fetchSchools();
   }, []);
-  
-  // 从Supabase获取所有专业数据
+
+  // 分页加载专业数据的状态
+  const [programPage, setProgramPage] = useState(0);
+  const [hasMorePrograms, setHasMorePrograms] = useState(true);
+  const PAGE_SIZE = 50; // 每页加载的专业数量，从100修改为50
+
+  // 专业库当前页码状态
+  const [currentProgramPage, setCurrentProgramPage] = useState(0);
+
+  // 从本地存储加载缓存的专业数据
   useEffect(() => {
-    async function fetchPrograms() {
+    // 只在初始化时尝试从缓存加载
+    if (allPrograms.length === 0 && !programsLoading && !programsError) {
       try {
-        setProgramsLoading(true);
-        const { data, error } = await supabase
-          .from('programs')
-          .select(`
-            id,
-            school_id,
-            en_name,
-            cn_name,
-            degree,
-            duration,
-            tuition_fee,
-            application_deadline,
-            apply_requirements,
-            language_requirements,
-            curriculum,
-            success_cases,
-            introduction,
-            objectives,
-            tags
-          `);
-        
-        if (error) {
-          console.error('获取专业数据失败:', error);
-          setProgramsError(error.message);
-          setProgramsLoading(false);
-          return;
+        const cachedProgramsStr = localStorage.getItem('cachedPrograms');
+        const cachedTimestamp = localStorage.getItem('cachedProgramsTimestamp');
+
+        if (cachedProgramsStr && cachedTimestamp) {
+          // 检查缓存是否过期（24小时）
+          const now = new Date().getTime();
+          const timestamp = parseInt(cachedTimestamp);
+          const isExpired = now - timestamp > 24 * 60 * 60 * 1000;
+
+          if (!isExpired) {
+            const cachedPrograms = JSON.parse(cachedProgramsStr);
+            console.log('从缓存加载专业数据:', cachedPrograms.length, '条');
+            setAllPrograms(cachedPrograms);
+            return;
+          } else {
+            console.log('缓存已过期，重新加载专业数据');
+          }
         }
-        
-        // 处理数据，转换为应用所需的格式
-        const processedPrograms = data.map((dbProgram) => {
-          // 转换为前端所需的Program格式
-          const program: Program = {
-            id: dbProgram.id,
-            name: dbProgram.cn_name || dbProgram.en_name || '未知专业',
-            degree: dbProgram.degree || '未知学位',
-            duration: dbProgram.duration || '未知',
-            description: dbProgram.introduction || '', // 使用introduction替代description
-            requirements: dbProgram.apply_requirements || '', // 使用apply_requirements替代requirements
-            language_requirements: dbProgram.language_requirements || '',
-            curriculum: dbProgram.curriculum || '',
-            success_cases: dbProgram.success_cases || '',
-            employment: '', // 暂无数据
-            // 根据专业名称或学位推断专业类别
-            category: getProgramCategory(dbProgram.cn_name || dbProgram.en_name || '', dbProgram.degree || ''),
-            // 子类别暂时留空
-            subCategory: '',
-            // 添加学校ID以便关联显示
-            schoolId: dbProgram.school_id
-          };
-          return program;
-        });
-        
-        setAllPrograms(processedPrograms);
-        console.log('已加载专业数据:', processedPrograms.length);
-      } catch (err) {
-        console.error('获取专业数据出错:', err);
-        setProgramsError(err instanceof Error ? err.message : '未知错误');
-      } finally {
-        setProgramsLoading(false);
+      } catch (error) {
+        console.error('读取缓存失败:', error);
+        // 继续正常加载流程
       }
     }
-    
-    // 当视图切换到专业库时才加载专业数据
-    if (currentView === 'programs') {
+  }, [allPrograms.length, programsLoading, programsError]);
+
+  // 从Supabase获取专业数据（分页）
+  useEffect(() => {
+    // 确保学校数据已加载完成后再加载专业数据
+    if (schools.length > 0 && !programsLoading && !programsError && hasMorePrograms) {
+      setProgramsLoading(true);
+      console.time('加载专业数据');
+
+      const fetchPrograms = async () => {
+        try {
+          // 检查是否有缓存的完整数据
+          if (allPrograms.length > 0 && programPage > 0) {
+            console.log('使用已加载的专业数据');
+            setProgramsLoading(false);
+            return;
+          }
+
+          console.log(`加载专业数据第${programPage + 1}页，每页${PAGE_SIZE}条...`);
+
+          // 先获取专业总数，以便显示加载进度
+          const { count, error: countError } = await supabase
+            .from('programs')
+            .select('*', { count: 'exact', head: true });
+
+          if (countError) {
+            console.error('获取专业总数失败:', countError);
+            setProgramsError('获取专业总数失败: ' + countError.message);
+            setProgramsLoading(false);
+            return;
+          }
+
+          const totalCount = count || 0;
+          console.log(`专业数据总数: ${totalCount}条`);
+
+          // 设置总数状态，让UI可以显示加载进度
+          setTotalProgramCount(totalCount);
+
+          // 分页加载所有数据，避免默认的1000条限制
+          const limit = 1000; // Supabase默认限制
+          const totalPages = Math.ceil(totalCount / limit);
+          let allProgramsData: Record<string, any>[] = [];
+
+          for (let page = 0; page < totalPages; page++) {
+            const { data, error } = await supabase
+              .from('programs')
+              .select('*')
+              .range(page * limit, (page + 1) * limit - 1);
+
+            if (error) {
+              console.error(`获取第${page+1}页专业数据失败:`, error);
+              setProgramsError(`加载专业数据第${page+1}页失败: ${error.message}`);
+              setProgramsLoading(false);
+              return;
+            }
+
+            if (data) {
+              allProgramsData = [...allProgramsData, ...data];
+              console.log(`已加载第${page+1}页专业数据: ${data.length}条，总计: ${allProgramsData.length}/${totalCount}条`);
+            }
+          }
+
+          if (allProgramsData.length === 0) {
+            console.warn('未找到任何专业数据');
+            setProgramsError('未找到任何专业数据');
+            setProgramsLoading(false);
+            setHasMorePrograms(false);
+            console.timeEnd('加载专业数据');
+            return;
+          }
+
+          console.log(`成功加载专业数据: ${allProgramsData.length}条，共${totalCount}条`);
+
+          // 处理数据，转换为应用所需的格式
+          const processedPrograms = allProgramsData.map((dbProgram) => ({
+            id: dbProgram.id || '',
+            school_id: dbProgram.school_id || '',
+            name: dbProgram.cn_name || dbProgram.en_name || '',
+            cn_name: dbProgram.cn_name || '',
+            en_name: dbProgram.en_name || '',
+            degree: dbProgram.degree || '',
+            duration: dbProgram.duration || '',
+            tuition_fee: dbProgram.tuition_fee || '',
+            faculty: dbProgram.faculty || '',
+            category: dbProgram.category || '',
+            subCategory: dbProgram.subCategory || '',
+            tags: Array.isArray(dbProgram.tags) ? dbProgram.tags :
+                  typeof dbProgram.tags === 'string' ? dbProgram.tags.split(',') : [],
+            apply_requirements: dbProgram.apply_requirements || '',
+            language_requirements: dbProgram.language_requirements || '',
+            curriculum: dbProgram.curriculum || '',
+            analysis: dbProgram.analysis || '',
+            url: dbProgram.url || '',
+            interview: dbProgram.interview || '',
+            objectives: dbProgram.objectives || '',
+          }));
+
+          // 设置全部专业数据
+          setAllPrograms(processedPrograms);
+          console.log('专业数据加载完成，共', processedPrograms.length, '条');
+
+          // 所有数据加载完成，设置标志
+          setHasMorePrograms(false);
+
+          // 缓存完整的专业数据
+          try {
+            localStorage.setItem('cachedPrograms', JSON.stringify(processedPrograms));
+            localStorage.setItem('cachedProgramsTimestamp', new Date().getTime().toString());
+            console.log('专业数据已缓存');
+
+            // 处理专业与学校的关联
+            processSchoolProgramRelationships(processedPrograms);
+          } catch (cacheError) {
+            console.error('缓存专业数据失败:', cacheError);
+          }
+
+          // 完成加载
+          setProgramsLoading(false);
+          console.timeEnd('加载专业数据');
+        } catch (err) {
+          console.error('获取专业数据出错:', err);
+          setProgramsError(err instanceof Error ? err.message : '未知错误');
+          setProgramsLoading(false);
+        }
+      };
+
+      // 执行数据加载
       fetchPrograms();
     }
-  }, [currentView]);
+  }, [schools, programsLoading, programsError, hasMorePrograms, programPage, allPrograms]);
+
+  // 添加总数状态
+  const [totalProgramCount, setTotalProgramCount] = useState<number>(0);
+
+  // 处理专业与学校的关联关系
+  const processSchoolProgramRelationships = (programs: Program[]) => {
+    // 按学校ID对专业进行分组
+    const programsBySchool: Record<string, Program[]> = {};
+    programs.forEach(program => {
+      if (program.school_id) {
+        if (!programsBySchool[program.school_id]) {
+          programsBySchool[program.school_id] = [];
+        }
+        programsBySchool[program.school_id].push(program);
+      }
+    });
+
+    // 检查学校ID是否存在于学校列表中
+    const schoolIds = schools.map(school => school.id.toLowerCase());
+    const programSchoolIds = Object.keys(programsBySchool);
+
+    // 打印调试信息
+    console.log('学校ID数量:', schoolIds.length);
+    console.log('专业关联学校ID数量:', programSchoolIds.length);
+
+    // 使用小写比较，并添加更多调试信息
+    const missingSchoolIds = programSchoolIds.filter(id => {
+      const exists = schoolIds.includes(id.toLowerCase());
+      if (!exists) {
+        console.log(`检查学校ID: ${id} - 不存在于学校列表中`);
+      }
+      return !exists;
+    });
+
+    // 如果有专业关联到不存在的学校ID，尝试再次检查是否有大小写差异
+    if (missingSchoolIds.length > 0) {
+      console.warn('发现专业关联到不存在的学校ID:', missingSchoolIds);
+
+      // 尝试匹配学校ID，忽略大小写
+      const matchedSchoolIds = new Map<string, string>();
+      missingSchoolIds.forEach(missingId => {
+        const matchedSchool = schools.find(school => school.id.toLowerCase() === missingId.toLowerCase());
+        if (matchedSchool) {
+          console.log(`找到匹配的学校ID: ${missingId} -> ${matchedSchool.id}`);
+          matchedSchoolIds.set(missingId, matchedSchool.id);
+        }
+      });
+
+      // 如果找到匹配，将专业关联到正确的学校ID
+      matchedSchoolIds.forEach((correctId, wrongId) => {
+        if (programsBySchool[wrongId]) {
+          console.log(`将专业从错误的学校ID ${wrongId} 移动到正确的ID ${correctId}`);
+          if (!programsBySchool[correctId]) {
+            programsBySchool[correctId] = [];
+          }
+          programsBySchool[correctId].push(...programsBySchool[wrongId]);
+          delete programsBySchool[wrongId];
+
+          // 从缺失列表中移除已匹配的ID
+          const index = missingSchoolIds.indexOf(wrongId);
+          if (index > -1) {
+            missingSchoolIds.splice(index, 1);
+          }
+        }
+      });
+
+      // 处理仍然缺失的学校ID
+      if (missingSchoolIds.length > 0) {
+        console.warn('仍然有专业关联到不存在的学校ID:', missingSchoolIds);
+
+        // 创建一个"未分类"学校来存放这些专业
+        const orphanPrograms: Program[] = [];
+        missingSchoolIds.forEach(schoolId => {
+          if (programsBySchool[schoolId]) {
+            orphanPrograms.push(...programsBySchool[schoolId]);
+            // 从映射中删除这些专业，以免它们被关联到不存在的学校
+            delete programsBySchool[schoolId];
+          }
+        });
+
+        if (orphanPrograms.length > 0) {
+          console.log(`将 ${orphanPrograms.length} 个无家可归的专业添加到"未分类"学校`);
+
+          // 创建一个特殊的"未分类"学校ID
+          const uncategorizedSchoolId = 'uncategorized-school';
+          programsBySchool[uncategorizedSchoolId] = orphanPrograms;
+
+          // 将这个特殊学校添加到学校列表中
+          setSchools(prevSchools => [
+            ...prevSchools,
+            {
+              id: uncategorizedSchoolId,
+              name: '未分类学校',
+              cn_name: '未分类学校',
+              en_name: 'Uncategorized Schools',
+              country: '其他',
+              region: '其他',
+              location: '其他',  // 添加缺失的字段
+              ranking: '9999',
+              programs: orphanPrograms,
+              logo: '',
+              website: '',
+              description: '这个分类包含了所有关联到不存在学校ID的专业。',
+              tuition_fee: '',
+              acceptance_rate: '',
+              acceptance: '未知',  // 添加缺失的字段
+              tuition: '未知',    // 添加缺失的字段
+              student_faculty_ratio: '',
+              tags: ['未分类'],
+              note: '这个分类包含了所有关联到不存在学校ID的专业。'  // 添加缺失的字段
+            } as SchoolWithNote
+          ]);
+        }
+      }
+    }
+
+    // 更新学校的专业列表
+    setSchools(prevSchools => {
+      return prevSchools.map(school => {
+        const schoolPrograms = programsBySchool[school.id] || [];
+        return {
+          ...school,
+          programs: schoolPrograms
+        };
+      });
+    });
+
+    // 完成加载
+    setProgramsLoading(false);
+    console.timeEnd('加载专业数据');
+  };
 
   // 根据专业名称和学位推断专业类别
   const getProgramCategory = (programName: string, degree: string): ProgramCategory => {
     const name = programName.toLowerCase();
-    
+
     // 商科专业关键词
     if (
-      name.includes('商') || name.includes('管理') || name.includes('金融') || 
-      name.includes('会计') || name.includes('mba') || name.includes('business') || 
+      name.includes('商') || name.includes('管理') || name.includes('金融') ||
+      name.includes('会计') || name.includes('mba') || name.includes('business') ||
       name.includes('finance') || name.includes('management') || name.includes('economics')
     ) {
       return ProgramCategory.Business;
     }
-    
+
     // 工科专业关键词
     if (
-      name.includes('工程') || name.includes('计算机') || name.includes('软件') || 
-      name.includes('电子') || name.includes('机械') || name.includes('engineering') || 
+      name.includes('工程') || name.includes('计算机') || name.includes('软件') ||
+      name.includes('电子') || name.includes('机械') || name.includes('engineering') ||
       name.includes('computer') || name.includes('software') || name.includes('mechanical')
     ) {
       return ProgramCategory.Engineering;
     }
-    
+
     // 理科专业关键词
     if (
-      name.includes('数学') || name.includes('物理') || name.includes('化学') || 
-      name.includes('生物') || name.includes('统计') || name.includes('science') || 
+      name.includes('数学') || name.includes('物理') || name.includes('化学') ||
+      name.includes('生物') || name.includes('统计') || name.includes('science') ||
       name.includes('mathematics') || name.includes('physics') || name.includes('chemistry')
     ) {
       return ProgramCategory.Science;
     }
-    
+
     // 社科专业关键词
     if (
-      name.includes('社会') || name.includes('心理') || name.includes('教育') || 
-      name.includes('传播') || name.includes('艺术') || name.includes('法律') || 
+      name.includes('社会') || name.includes('心理') || name.includes('教育') ||
+      name.includes('传播') || name.includes('艺术') || name.includes('法律') ||
       name.includes('social') || name.includes('psychology') || name.includes('education')
     ) {
       return ProgramCategory.SocialScience;
     }
-    
+
     // 默认分类
     return ProgramCategory.Business;
   };
@@ -395,27 +633,27 @@ const SchoolAssistantPage: React.FC = () => {
 
   // 是否展示选校记录侧边栏
   const [showSelectionPanel, setShowSelectionPanel] = useState(false);
-  
+
   // 选校记录
   const [selections, setSelections] = useState<SchoolSelection[]>([]);
-  
+
   // 当前编辑的选校项
   const [noteInput, setNoteInput] = useState('');
   const [editingSchoolId, setEditingSchoolId] = useState<string | null>(null);
-  
+
   // 添加新选校记录的名称
   const [newSelectionName, setNewSelectionName] = useState('');
-  
+
   // 保存选校记录给学生的模态框状态
   const [showSaveModal, setShowSaveModal] = useState(false);
   const [selectedStudentId, setSelectedStudentId] = useState<number | null>(null);
-  
+
   // 所有可用的区域和国家列表（从学校数据中提取）
-  const availableRegions = useMemo(() => 
+  const availableRegions = useMemo(() =>
     Array.from(new Set(schools.map(s => s.region).filter(Boolean))),
   [schools]);
-  
-  const availableCountries = useMemo(() => 
+
+  const availableCountries = useMemo(() =>
     Array.from(new Set(schools.map(s => s.country).filter(Boolean))),
   [schools]);
 
@@ -437,7 +675,9 @@ const SchoolAssistantPage: React.FC = () => {
     subCategory: '全部',
     region: '全部',
     country: '全部',
-    searchQuery: ''
+    searchQuery: '',
+    degree: '全部', // 学位类型筛选
+    duration: '全部' // 学制长度筛选
   });
 
   const programs = [
@@ -455,16 +695,14 @@ const SchoolAssistantPage: React.FC = () => {
   ];
 
   // 获取专业分类的子类别
-  const getSubCategories = (category: string) => {
-    switch(category) {
+  const getSubCategories = (category: string): string[] => {
+    switch (category) {
       case '商科':
-        return ['金融', '会计', '市场营销', '管理', '商业分析'];
-      case '社科':
-        return ['经济学', '政治学', '社会学', '心理学', '教育学'];
+        return ['金融', '会计', '管理'];
       case '工科':
-        return ['计算机科学', '电子工程', '机械工程', '土木工程', '化学工程'];
-      case '理科':
-        return ['数学', '物理', '化学', '生物', '统计学'];
+        return ['计算机', '电子', '机械'];
+      case '社科':
+        return ['教育', '心理', '社会学'];
       default:
         return [];
     }
@@ -474,58 +712,58 @@ const SchoolAssistantPage: React.FC = () => {
   const filteredSchools = useMemo(() => {
     // 添加总数日志
     console.log(`开始筛选 ${schools.length} 所学校`);
-    
+
     return schools.filter(school => {
       // 排除无效数据
       if (!school) return false;
-      
+
       // 1. 搜索匹配 - 处理name或location可能为空的情况
       const schoolName = (school.name || '').toLowerCase();
       const schoolCountry = (school.country || '').toLowerCase();
       const schoolLocation = (school.location || '').toLowerCase();
       const searchTerm = (searchQuery || '').toLowerCase();
-      
-      const searchMatch = !searchTerm || 
-        schoolName.includes(searchTerm) || 
-        schoolCountry.includes(searchTerm) || 
+
+      const searchMatch = !searchTerm ||
+        schoolName.includes(searchTerm) ||
+        schoolCountry.includes(searchTerm) ||
         schoolLocation.includes(searchTerm);
-      
+
       // 2. 地区匹配 - 处理region为空的情况
-      const regionMatch = 
-        schoolFilters.region === '全部' || 
+      const regionMatch =
+        schoolFilters.region === '全部' ||
         (school.region && school.region === schoolFilters.region);
-      
+
       // 3. 国家匹配 - 处理country为空的情况
-      const countryMatch = 
-        schoolFilters.country === '全部' || 
+      const countryMatch =
+        schoolFilters.country === '全部' ||
         (school.country && school.country === schoolFilters.country);
-      
+
       // 4. 排名匹配 - 处理ranking为空或无效格式的情况
       let rankingMatch = true;
-      
+
       // 如果是"全部排名"筛选条件(1-10000)，所有学校都显示
       if (schoolFilters.rankingRange[0] === 1 && schoolFilters.rankingRange[1] >= 10000) {
         rankingMatch = true;
       } else {
         const rankingStr = school.ranking || '';
         const rankingNum = parseInt(rankingStr.replace(/\D/g, ''));
-        
+
         // 只有当有明确排名数字时才进行筛选匹配
         if (!isNaN(rankingNum)) {
-          rankingMatch = rankingNum >= schoolFilters.rankingRange[0] && 
+          rankingMatch = rankingNum >= schoolFilters.rankingRange[0] &&
                         rankingNum <= schoolFilters.rankingRange[1];
         } else {
           // 对于没有明确排名的学校：
           // - 如果用户筛选中包含了300+的排名，则显示
           // - 如果用户选择了"全部"（筛选上限为最大值），则显示
-          rankingMatch = schoolFilters.rankingRange[1] >= 300 || 
+          rankingMatch = schoolFilters.rankingRange[1] >= 300 ||
                         schoolFilters.rankingRange[1] >= 10000;
         }
       }
-      
+
       // 记录筛选结果，帮助调试
       const isMatched = searchMatch && regionMatch && countryMatch && rankingMatch;
-      
+
       // 如果学校被过滤掉，记录具体原因
       if (!isMatched) {
         const reasons = [];
@@ -533,62 +771,78 @@ const SchoolAssistantPage: React.FC = () => {
         if (!regionMatch) reasons.push(`地区不匹配: 需要 ${schoolFilters.region}, 实际 ${school.region || '空'}`);
         if (!countryMatch) reasons.push(`国家不匹配: 需要 ${schoolFilters.country}, 实际 ${school.country || '空'}`);
         if (!rankingMatch) reasons.push(`排名不匹配: 需要 ${schoolFilters.rankingRange[0]}-${schoolFilters.rankingRange[1]}, 实际 ${school.ranking || '空'}`);
-        
+
         console.log(`学校 "${school.name}" 被过滤掉，原因: ${reasons.join('; ')}`);
       }
-      
+
       return isMatched;
     });
   }, [schools, searchQuery, schoolFilters]);
-  
+
   // 获取专业所属的学校信息 - 将这个函数移到这里，在filteredPrograms之前
   const getProgramSchool = (schoolId: string): SchoolWithNote | undefined => {
-    return schools.find(school => school.id === schoolId);
+    // 先尝试匹配学校ID
+    const school = schools.find(school => school.id === schoolId);
+
+    // 如果找不到学校，返回未分类学校
+    if (!school && schoolId) {
+      return schools.find(school => school.id === 'uncategorized-school') || undefined;
+    }
+
+    return school;
   };
-  
+
   // 筛选专业
   const filteredPrograms = useMemo(() => {
     return allPrograms.filter(program => {
       // 专业名称搜索匹配
       const searchMatch = programFilters.searchQuery
-        ? program.name.toLowerCase().includes(programFilters.searchQuery.toLowerCase())
+        ? (program.name || program.cn_name || program.en_name || '').toLowerCase().includes(programFilters.searchQuery.toLowerCase())
         : true;
-      
+
       // 分类匹配
-      const categoryMatch = programFilters.category === '全部' || 
+      const categoryMatch = programFilters.category === '全部' ||
         (program.category && program.category.toString() === programFilters.category);
-      
+
       // 子分类匹配
-      const subCategoryMatch = programFilters.subCategory === '全部' || 
+      const subCategoryMatch = programFilters.subCategory === '全部' ||
         (program.subCategory && program.subCategory === programFilters.subCategory);
-      
+
+      // 学位类型匹配
+      const degreeMatch = programFilters.degree === '全部' ||
+        (program.degree && program.degree === programFilters.degree);
+
+      // 学制长度匹配
+      const durationMatch = programFilters.duration === '全部' ||
+        (program.duration && program.duration === programFilters.duration);
+
       // 获取专业所属学校
-      const school = getProgramSchool(program.schoolId);
-      
+      const school = getProgramSchool(program.school_id);
+
       // 地区匹配
-      const regionMatch = !school ? true : 
+      const regionMatch = !school ? true :
         programFilters.region === '全部' || school.region === programFilters.region;
-      
+
       // 国家匹配
-      const countryMatch = !school ? true : 
+      const countryMatch = !school ? true :
         programFilters.country === '全部' || school.country === programFilters.country;
-      
-      return searchMatch && categoryMatch && subCategoryMatch && regionMatch && countryMatch;
+
+      return searchMatch && categoryMatch && subCategoryMatch && degreeMatch && durationMatch && regionMatch && countryMatch;
     });
   }, [allPrograms, programFilters, schools]);
-  
+
   // 找到专业所属的学校
   const findSchoolByProgramId = (programId: string) => {
-    return schools.find(school => 
+    return schools.find(school =>
       school.programs.some(program => program.id === programId)
     );
   };
 
   // 展开/收起学校的专业列表
   const toggleExpand = (id: string) => {
-    setExpandedPrograms(prev => 
-      prev.includes(id) 
-        ? prev.filter(item => item !== id) 
+    setExpandedPrograms(prev =>
+      prev.includes(id)
+        ? prev.filter(item => item !== id)
         : [...prev, id]
     );
   };
@@ -596,10 +850,10 @@ const SchoolAssistantPage: React.FC = () => {
   // 顶部导航视图切换按钮
   const ViewSwitchButtons = () => (
     <div className="flex space-x-4 mb-6">
-      <button 
+      <button
         className={`px-6 py-2 rounded-md flex items-center gap-2 ${
-          currentView === 'schools' 
-            ? 'bg-blue-500 text-white' 
+          currentView === 'schools'
+            ? 'bg-blue-500 text-white'
             : 'bg-gray-200 dark:bg-gray-700 dark:text-gray-300'
         }`}
         onClick={() => setCurrentView('schools')}
@@ -607,10 +861,10 @@ const SchoolAssistantPage: React.FC = () => {
         <SchoolIcon className="h-4 w-4" />
         学校库
       </button>
-      <button 
+      <button
         className={`px-6 py-2 rounded-md flex items-center gap-2 ${
-          currentView === 'programs' 
-            ? 'bg-blue-500 text-white' 
+          currentView === 'programs'
+            ? 'bg-blue-500 text-white'
             : 'bg-gray-200 dark:bg-gray-700 dark:text-gray-300'
         }`}
         onClick={() => setCurrentView('programs')}
@@ -618,10 +872,10 @@ const SchoolAssistantPage: React.FC = () => {
         <BookOpen className="h-4 w-4" />
         专业库
       </button>
-      <button 
+      <button
         className={`px-6 py-2 rounded-md flex items-center gap-2 ${
-          currentView === 'selection' 
-            ? 'bg-blue-500 text-white' 
+          currentView === 'selection'
+            ? 'bg-blue-500 text-white'
             : 'bg-gray-200 dark:bg-gray-700 dark:text-gray-300'
         }`}
         onClick={() => setCurrentView('selection')}
@@ -638,12 +892,27 @@ const SchoolAssistantPage: React.FC = () => {
         school.location.toLowerCase().includes(searchQuery.toLowerCase());
       const matchesProgram = selectedProgram === '全部' ||
         school.programs.some(program => program.name === selectedProgram);
-      
-      const acceptanceNum = parseFloat(school.acceptance);
-      const tuitionNum = parseInt(school.tuition.replace(/[^0-9]/g, ''));
-      const rankingNum = parseInt(school.ranking.replace('#', ''));
 
-      return matchesSearch && 
+      // 处理acceptance可能是字符串或数字类型的情况
+      const acceptanceNum = typeof school.acceptance === 'string'
+        ? parseFloat(school.acceptance) || 0
+        : typeof school.acceptance === 'number'
+          ? school.acceptance
+          : 0;
+      // 处理tuition可能是数字类型的情况
+      const tuitionNum = typeof school.tuition === 'string'
+        ? parseInt(school.tuition.replace(/[^0-9]/g, '')) || 0
+        : typeof school.tuition === 'number'
+          ? school.tuition
+          : 0;
+      // 处理ranking可能是数字类型的情况
+      const rankingNum = typeof school.ranking === 'string'
+        ? parseInt(school.ranking.replace('#', ''))
+        : typeof school.ranking === 'number'
+          ? school.ranking
+          : 10000; // 默认值为很大的数字
+
+      return matchesSearch &&
         matchesProgram &&
         acceptanceNum >= filters.acceptanceRate.min &&
         acceptanceNum <= filters.acceptanceRate.max &&
@@ -656,19 +925,31 @@ const SchoolAssistantPage: React.FC = () => {
     if (sortBy.field) {
       result.sort((a, b) => {
         let aValue, bValue;
-        
+
         switch (sortBy.field) {
           case 'ranking':
-            aValue = parseInt(a.ranking.replace('#', ''));
-            bValue = parseInt(b.ranking.replace('#', ''));
+            aValue = typeof a.ranking === 'string'
+              ? parseInt(a.ranking.replace('#', ''))
+              : typeof a.ranking === 'number' ? a.ranking : 10000;
+            bValue = typeof b.ranking === 'string'
+              ? parseInt(b.ranking.replace('#', ''))
+              : typeof b.ranking === 'number' ? b.ranking : 10000;
             break;
           case 'acceptance':
-            aValue = parseFloat(a.acceptance);
-            bValue = parseFloat(b.acceptance);
+            aValue = typeof a.acceptance === 'string'
+              ? parseFloat(a.acceptance) || 0
+              : typeof a.acceptance === 'number' ? a.acceptance : 0;
+            bValue = typeof b.acceptance === 'string'
+              ? parseFloat(b.acceptance) || 0
+              : typeof b.acceptance === 'number' ? b.acceptance : 0;
             break;
           case 'tuition':
-            aValue = parseInt(a.tuition.replace(/[^0-9]/g, ''));
-            bValue = parseInt(b.tuition.replace(/[^0-9]/g, ''));
+            aValue = typeof a.tuition === 'string'
+              ? parseInt(a.tuition.replace(/[^0-9]/g, '')) || 0
+              : typeof a.tuition === 'number' ? a.tuition : 0;
+            bValue = typeof b.tuition === 'string'
+              ? parseInt(b.tuition.replace(/[^0-9]/g, '')) || 0
+              : typeof b.tuition === 'number' ? b.tuition : 0;
             break;
           default:
             return 0;
@@ -683,13 +964,13 @@ const SchoolAssistantPage: React.FC = () => {
 
   const addToInterested = (school: School, program?: Program) => {
     const existingIndex = interestedSchools.findIndex(s => s.id === school.id);
-    
+
     if (existingIndex >= 0) {
       // 学校已存在，检查是否添加新专业
       if (program) {
         const updatedSchools = [...interestedSchools];
         const existingPrograms = updatedSchools[existingIndex].interestedPrograms || [];
-        
+
         if (!existingPrograms.includes(program.id)) {
           updatedSchools[existingIndex] = {
             ...updatedSchools[existingIndex],
@@ -722,11 +1003,11 @@ const SchoolAssistantPage: React.FC = () => {
 
   const onDragEnd = (result: DropResult) => {
     if (!result.destination) return;
-    
+
     const items = Array.from(interestedSchools);
     const [reorderedItem] = items.splice(result.source.index, 1);
     items.splice(result.destination.index, 0, reorderedItem);
-    
+
     setInterestedSchools(items);
   };
 
@@ -736,9 +1017,9 @@ const SchoolAssistantPage: React.FC = () => {
   };
 
   const handleNoteSave = (schoolId: string) => {
-    setInterestedSchools(schools => 
-      schools.map(school => 
-        school.id === schoolId 
+    setInterestedSchools(schools =>
+      schools.map(school =>
+        school.id === schoolId
           ? { ...school, note: noteInput }
           : school
       )
@@ -747,8 +1028,8 @@ const SchoolAssistantPage: React.FC = () => {
   };
 
   const toggleProgram = (programId: string) => {
-    setExpandedPrograms(prev => 
-      prev.includes(programId) 
+    setExpandedPrograms(prev =>
+      prev.includes(programId)
         ? prev.filter(id => id !== programId)
         : [...prev, programId]
     );
@@ -761,24 +1042,24 @@ const SchoolAssistantPage: React.FC = () => {
       console.error('无效的学校ID格式:', schoolId);
       return; // 如果ID格式无效，则不执行操作
     }
-    
+
     // 更新收藏的专业列表
     setInterestedSchools(prevSchools => {
       // 首先检查学校是否已在列表中
       const schoolExists = prevSchools.some(s => s.id === schoolId);
-      
+
       if (schoolExists) {
         // 如果学校已存在，更新其专业列表
         return prevSchools.map(school => {
         if (school.id === schoolId) {
             const currentPrograms = school.interestedPrograms || [];
             const isProgramAlreadyInterested = currentPrograms.includes(programId);
-            
+
             // 如果专业已收藏则移除，否则添加
             const updatedPrograms = isProgramAlreadyInterested
               ? currentPrograms.filter(id => id !== programId)
               : [...currentPrograms, programId];
-          
+
           return {
             ...school,
               interestedPrograms: updatedPrograms
@@ -820,77 +1101,77 @@ const SchoolAssistantPage: React.FC = () => {
           <span className="mr-8 text-gray-700 dark:text-gray-300 font-medium whitespace-nowrap">地区：</span>
           <div className="flex flex-wrap gap-4">
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="region" 
-                value="全部" 
-                checked={schoolFilters.country === '全部'} 
+              <input
+                type="radio"
+                name="region"
+                value="全部"
+                checked={schoolFilters.country === '全部'}
                 onChange={() => setSchoolFilters({...schoolFilters, country: '全部'})}
                 className="w-4 h-4 text-blue-500"
               />
               <span className="ml-2 text-gray-700 dark:text-gray-300">不限</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="region" 
-                value="英国" 
-                checked={schoolFilters.country === '英国'} 
+              <input
+                type="radio"
+                name="region"
+                value="英国"
+                checked={schoolFilters.country === '英国'}
                 onChange={() => setSchoolFilters({...schoolFilters, country: '英国'})}
                 className="w-4 h-4 text-blue-500"
               />
               <span className="ml-2 text-gray-700 dark:text-gray-300">英国</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="region" 
-                value="美国" 
-                checked={schoolFilters.country === '美国'} 
+              <input
+                type="radio"
+                name="region"
+                value="美国"
+                checked={schoolFilters.country === '美国'}
                 onChange={() => setSchoolFilters({...schoolFilters, country: '美国'})}
                 className="w-4 h-4 text-blue-500"
               />
               <span className="ml-2 text-gray-700 dark:text-gray-300">美国</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="region" 
-                value="中国香港" 
-                checked={schoolFilters.country === '中国香港'} 
+              <input
+                type="radio"
+                name="region"
+                value="中国香港"
+                checked={schoolFilters.country === '中国香港'}
                 onChange={() => setSchoolFilters({...schoolFilters, country: '中国香港'})}
                 className="w-4 h-4 text-blue-500"
               />
               <span className="ml-2 text-gray-700 dark:text-gray-300">中国香港</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="region" 
-                value="中国澳门" 
-                checked={schoolFilters.country === '中国澳门'} 
+              <input
+                type="radio"
+                name="region"
+                value="中国澳门"
+                checked={schoolFilters.country === '中国澳门'}
                 onChange={() => setSchoolFilters({...schoolFilters, country: '中国澳门'})}
                 className="w-4 h-4 text-blue-500"
               />
               <span className="ml-2 text-gray-700 dark:text-gray-300">中国澳门</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="region" 
-                value="新加坡" 
-                checked={schoolFilters.country === '新加坡'} 
+              <input
+                type="radio"
+                name="region"
+                value="新加坡"
+                checked={schoolFilters.country === '新加坡'}
                 onChange={() => setSchoolFilters({...schoolFilters, country: '新加坡'})}
                 className="w-4 h-4 text-blue-500"
               />
               <span className="ml-2 text-gray-700 dark:text-gray-300">新加坡</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="region" 
-                value="澳大利亚" 
-                checked={schoolFilters.country === '澳大利亚'} 
+              <input
+                type="radio"
+                name="region"
+                value="澳大利亚"
+                checked={schoolFilters.country === '澳大利亚'}
                 onChange={() => setSchoolFilters({...schoolFilters, country: '澳大利亚'})}
                 className="w-4 h-4 text-blue-500"
               />
@@ -904,77 +1185,77 @@ const SchoolAssistantPage: React.FC = () => {
           <span className="mr-8 text-gray-700 dark:text-gray-300 font-medium whitespace-nowrap">国家：</span>
           <div className="flex flex-wrap gap-4">
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="country" 
-                value="全部" 
-                checked={schoolFilters.country === '全部'} 
+              <input
+                type="radio"
+                name="country"
+                value="全部"
+                checked={schoolFilters.country === '全部'}
                 onChange={() => setSchoolFilters({...schoolFilters, country: '全部'})}
                 className="w-4 h-4 text-blue-500"
               />
               <span className="ml-2 text-gray-700 dark:text-gray-300">不限</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="country" 
-                value="英国" 
-                checked={schoolFilters.country === '英国'} 
+              <input
+                type="radio"
+                name="country"
+                value="英国"
+                checked={schoolFilters.country === '英国'}
                 onChange={() => setSchoolFilters({...schoolFilters, country: '英国'})}
                 className="w-4 h-4 text-blue-500"
               />
               <span className="ml-2 text-gray-700 dark:text-gray-300">英国</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="country" 
-                value="美国" 
-                checked={schoolFilters.country === '美国'} 
+              <input
+                type="radio"
+                name="country"
+                value="美国"
+                checked={schoolFilters.country === '美国'}
                 onChange={() => setSchoolFilters({...schoolFilters, country: '美国'})}
                 className="w-4 h-4 text-blue-500"
               />
               <span className="ml-2 text-gray-700 dark:text-gray-300">美国</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="country" 
-                value="中国香港" 
-                checked={schoolFilters.country === '中国香港'} 
+              <input
+                type="radio"
+                name="country"
+                value="中国香港"
+                checked={schoolFilters.country === '中国香港'}
                 onChange={() => setSchoolFilters({...schoolFilters, country: '中国香港'})}
                 className="w-4 h-4 text-blue-500"
               />
               <span className="ml-2 text-gray-700 dark:text-gray-300">中国香港</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="country" 
-                value="中国澳门" 
-                checked={schoolFilters.country === '中国澳门'} 
+              <input
+                type="radio"
+                name="country"
+                value="中国澳门"
+                checked={schoolFilters.country === '中国澳门'}
                 onChange={() => setSchoolFilters({...schoolFilters, country: '中国澳门'})}
                 className="w-4 h-4 text-blue-500"
               />
               <span className="ml-2 text-gray-700 dark:text-gray-300">中国澳门</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="country" 
-                value="新加坡" 
-                checked={schoolFilters.country === '新加坡'} 
+              <input
+                type="radio"
+                name="country"
+                value="新加坡"
+                checked={schoolFilters.country === '新加坡'}
                 onChange={() => setSchoolFilters({...schoolFilters, country: '新加坡'})}
                 className="w-4 h-4 text-blue-500"
               />
               <span className="ml-2 text-gray-700 dark:text-gray-300">新加坡</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="country" 
-                value="澳大利亚" 
-                checked={schoolFilters.country === '澳大利亚'} 
+              <input
+                type="radio"
+                name="country"
+                value="澳大利亚"
+                checked={schoolFilters.country === '澳大利亚'}
                 onChange={() => setSchoolFilters({...schoolFilters, country: '澳大利亚'})}
                 className="w-4 h-4 text-blue-500"
               />
@@ -988,8 +1269,8 @@ const SchoolAssistantPage: React.FC = () => {
           <span className="mr-8 text-gray-700 dark:text-gray-300 font-medium whitespace-nowrap">排名：</span>
           <div className="flex flex-wrap gap-4">
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="checkbox" 
+              <input
+                type="checkbox"
                 checked={schoolFilters.rankingRange[0] === 1 && schoolFilters.rankingRange[1] >= 10000}
                 onChange={(e) => {
                   if (e.target.checked) {
@@ -1001,8 +1282,8 @@ const SchoolAssistantPage: React.FC = () => {
               <span className="ml-2 text-gray-700 dark:text-gray-300">全部排名</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="checkbox" 
+              <input
+                type="checkbox"
                 checked={schoolFilters.rankingRange[0] === 1 && schoolFilters.rankingRange[1] === 50}
                 onChange={(e) => {
                   if (e.target.checked) {
@@ -1014,8 +1295,8 @@ const SchoolAssistantPage: React.FC = () => {
               <span className="ml-2 text-gray-700 dark:text-gray-300">Top 1-50</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="checkbox" 
+              <input
+                type="checkbox"
                 checked={schoolFilters.rankingRange[0] === 51 && schoolFilters.rankingRange[1] === 100}
                 onChange={(e) => {
                   if (e.target.checked) {
@@ -1027,8 +1308,8 @@ const SchoolAssistantPage: React.FC = () => {
               <span className="ml-2 text-gray-700 dark:text-gray-300">Top 51-100</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="checkbox" 
+              <input
+                type="checkbox"
                 checked={schoolFilters.rankingRange[0] === 101 && schoolFilters.rankingRange[1] === 200}
                 onChange={(e) => {
                   if (e.target.checked) {
@@ -1040,8 +1321,8 @@ const SchoolAssistantPage: React.FC = () => {
               <span className="ml-2 text-gray-700 dark:text-gray-300">Top 101-200</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="checkbox" 
+              <input
+                type="checkbox"
                 checked={schoolFilters.rankingRange[0] === 201 && schoolFilters.rankingRange[1] === 300}
                 onChange={(e) => {
                   if (e.target.checked) {
@@ -1053,8 +1334,8 @@ const SchoolAssistantPage: React.FC = () => {
               <span className="ml-2 text-gray-700 dark:text-gray-300">Top 201-300</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="checkbox" 
+              <input
+                type="checkbox"
                 checked={schoolFilters.rankingRange[0] === 301 && schoolFilters.rankingRange[1] === 1000}
                 onChange={(e) => {
                   if (e.target.checked) {
@@ -1067,7 +1348,7 @@ const SchoolAssistantPage: React.FC = () => {
             </label>
           </div>
         </div>
-        
+
         {/* 添加排名筛选说明文字 */}
         <div className="ml-28 mt-2 text-xs text-gray-500 dark:text-gray-400">
           注意: 如果学校没有排名信息，选择"Top 300+"或"全部排名"时会显示
@@ -1079,83 +1360,103 @@ const SchoolAssistantPage: React.FC = () => {
   // 专业筛选组件
   const ProgramFilters = () => (
     <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm mb-4">
+      {/* 标题和重置按钮 */}
+      <div className="flex justify-between items-center mb-4">
+        <h3 className="text-lg font-semibold text-gray-800 dark:text-white">筛选条件</h3>
+        <button 
+          onClick={() => setProgramFilters({
+            category: '全部',
+            subCategory: '全部',
+            region: '全部',
+            country: '全部',
+            searchQuery: '',
+            degree: '全部',
+            duration: '全部'
+          })}
+          className="flex items-center gap-1 text-blue-500 hover:text-blue-600 text-sm"
+        >
+          <RefreshCw className="h-3.5 w-3.5" />
+          重置筛选
+        </button>
+      </div>
+      
       {/* 地区筛选 - 单选按钮 */}
       <div className="mb-6">
         <div className="flex items-center gap-2 mb-4">
           <span className="text-gray-700 dark:text-gray-300 font-medium text-base mr-4">地区：</span>
           <div className="flex flex-wrap gap-6">
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="country" 
-                value="全部" 
-                checked={programFilters.country === '全部'} 
+              <input
+                type="radio"
+                name="country"
+                value="全部"
+                checked={programFilters.country === '全部'}
                 onChange={() => setProgramFilters({...programFilters, country: '全部'})}
                 className="w-4 h-4 text-blue-500"
               />
               <span className="ml-2 text-gray-700 dark:text-gray-300">不限</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="country" 
-                value="英国" 
-                checked={programFilters.country === '英国'} 
+              <input
+                type="radio"
+                name="country"
+                value="英国"
+                checked={programFilters.country === '英国'}
                 onChange={() => setProgramFilters({...programFilters, country: '英国'})}
                 className="w-4 h-4 text-blue-500"
               />
               <span className="ml-2 text-gray-700 dark:text-gray-300">英国</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="country" 
-                value="美国" 
-                checked={programFilters.country === '美国'} 
+              <input
+                type="radio"
+                name="country"
+                value="美国"
+                checked={programFilters.country === '美国'}
                 onChange={() => setProgramFilters({...programFilters, country: '美国'})}
                 className="w-4 h-4 text-blue-500"
               />
               <span className="ml-2 text-gray-700 dark:text-gray-300">美国</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="country" 
-                value="中国香港" 
-                checked={programFilters.country === '中国香港'} 
+              <input
+                type="radio"
+                name="country"
+                value="中国香港"
+                checked={programFilters.country === '中国香港'}
                 onChange={() => setProgramFilters({...programFilters, country: '中国香港'})}
                 className="w-4 h-4 text-blue-500"
               />
               <span className="ml-2 text-gray-700 dark:text-gray-300">中国香港</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="country" 
-                value="中国澳门" 
-                checked={programFilters.country === '中国澳门'} 
+              <input
+                type="radio"
+                name="country"
+                value="中国澳门"
+                checked={programFilters.country === '中国澳门'}
                 onChange={() => setProgramFilters({...programFilters, country: '中国澳门'})}
                 className="w-4 h-4 text-blue-500"
               />
               <span className="ml-2 text-gray-700 dark:text-gray-300">中国澳门</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="country" 
-                value="新加坡" 
-                checked={programFilters.country === '新加坡'} 
+              <input
+                type="radio"
+                name="country"
+                value="新加坡"
+                checked={programFilters.country === '新加坡'}
                 onChange={() => setProgramFilters({...programFilters, country: '新加坡'})}
                 className="w-4 h-4 text-blue-500"
               />
               <span className="ml-2 text-gray-700 dark:text-gray-300">新加坡</span>
             </label>
             <label className="flex items-center cursor-pointer">
-              <input 
-                type="radio" 
-                name="country" 
-                value="澳大利亚" 
-                checked={programFilters.country === '澳大利亚'} 
+              <input
+                type="radio"
+                name="country"
+                value="澳大利亚"
+                checked={programFilters.country === '澳大利亚'}
                 onChange={() => setProgramFilters({...programFilters, country: '澳大利亚'})}
                 className="w-4 h-4 text-blue-500"
               />
@@ -1165,33 +1466,172 @@ const SchoolAssistantPage: React.FC = () => {
         </div>
       </div>
 
+      {/* 学位类型筛选 */}
+      <div className="mb-6 border-t border-gray-200 dark:border-gray-700 pt-6">
+        <div className="flex items-center gap-2 mb-4">
+          <span className="text-gray-700 dark:text-gray-300 font-medium text-base mr-4">学位类型：</span>
+          <div className="flex flex-wrap gap-6">
+            <label className="flex items-center cursor-pointer">
+              <input
+                type="radio"
+                name="degree"
+                value="全部"
+                checked={programFilters.degree === '全部'}
+                onChange={() => setProgramFilters({...programFilters, degree: '全部'})}
+                className="w-4 h-4 text-blue-500"
+              />
+              <span className="ml-2 text-gray-700 dark:text-gray-300">不限</span>
+            </label>
+            <label className="flex items-center cursor-pointer">
+              <input
+                type="radio"
+                name="degree"
+                value="本科"
+                checked={programFilters.degree === '本科'}
+                onChange={() => setProgramFilters({...programFilters, degree: '本科'})}
+                className="w-4 h-4 text-blue-500"
+              />
+              <span className="ml-2 text-gray-700 dark:text-gray-300">本科</span>
+            </label>
+            <label className="flex items-center cursor-pointer">
+              <input
+                type="radio"
+                name="degree"
+                value="硕士"
+                checked={programFilters.degree === '硕士'}
+                onChange={() => setProgramFilters({...programFilters, degree: '硕士'})}
+                className="w-4 h-4 text-blue-500"
+              />
+              <span className="ml-2 text-gray-700 dark:text-gray-300">硕士</span>
+            </label>
+            <label className="flex items-center cursor-pointer">
+              <input
+                type="radio"
+                name="degree"
+                value="博士"
+                checked={programFilters.degree === '博士'}
+                onChange={() => setProgramFilters({...programFilters, degree: '博士'})}
+                className="w-4 h-4 text-blue-500"
+              />
+              <span className="ml-2 text-gray-700 dark:text-gray-300">博士</span>
+            </label>
+            <label className="flex items-center cursor-pointer">
+              <input
+                type="radio"
+                name="degree"
+                value="MBA"
+                checked={programFilters.degree === 'MBA'}
+                onChange={() => setProgramFilters({...programFilters, degree: 'MBA'})}
+                className="w-4 h-4 text-blue-500"
+              />
+              <span className="ml-2 text-gray-700 dark:text-gray-300">MBA</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      {/* 学制长度筛选 */}
+      <div className="mb-6 border-t border-gray-200 dark:border-gray-700 pt-6">
+        <div className="flex items-center gap-2 mb-4">
+          <span className="text-gray-700 dark:text-gray-300 font-medium text-base mr-4">学制长度：</span>
+          <div className="flex flex-wrap gap-6">
+            <label className="flex items-center cursor-pointer">
+              <input
+                type="radio"
+                name="duration"
+                value="全部"
+                checked={programFilters.duration === '全部'}
+                onChange={() => setProgramFilters({...programFilters, duration: '全部'})}
+                className="w-4 h-4 text-blue-500"
+              />
+              <span className="ml-2 text-gray-700 dark:text-gray-300">不限</span>
+            </label>
+            <label className="flex items-center cursor-pointer">
+              <input
+                type="radio"
+                name="duration"
+                value="1年"
+                checked={programFilters.duration === '1年'}
+                onChange={() => setProgramFilters({...programFilters, duration: '1年'})}
+                className="w-4 h-4 text-blue-500"
+              />
+              <span className="ml-2 text-gray-700 dark:text-gray-300">1年</span>
+            </label>
+            <label className="flex items-center cursor-pointer">
+              <input
+                type="radio"
+                name="duration"
+                value="1.5年"
+                checked={programFilters.duration === '1.5年'}
+                onChange={() => setProgramFilters({...programFilters, duration: '1.5年'})}
+                className="w-4 h-4 text-blue-500"
+              />
+              <span className="ml-2 text-gray-700 dark:text-gray-300">1.5年</span>
+            </label>
+            <label className="flex items-center cursor-pointer">
+              <input
+                type="radio"
+                name="duration"
+                value="2年"
+                checked={programFilters.duration === '2年'}
+                onChange={() => setProgramFilters({...programFilters, duration: '2年'})}
+                className="w-4 h-4 text-blue-500"
+              />
+              <span className="ml-2 text-gray-700 dark:text-gray-300">2年</span>
+            </label>
+            <label className="flex items-center cursor-pointer">
+              <input
+                type="radio"
+                name="duration"
+                value="3年"
+                checked={programFilters.duration === '3年'}
+                onChange={() => setProgramFilters({...programFilters, duration: '3年'})}
+                className="w-4 h-4 text-blue-500"
+              />
+              <span className="ml-2 text-gray-700 dark:text-gray-300">3年</span>
+            </label>
+            <label className="flex items-center cursor-pointer">
+              <input
+                type="radio"
+                name="duration"
+                value="4年"
+                checked={programFilters.duration === '4年'}
+                onChange={() => setProgramFilters({...programFilters, duration: '4年'})}
+                className="w-4 h-4 text-blue-500"
+              />
+              <span className="ml-2 text-gray-700 dark:text-gray-300">4年</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
       {/* 申请专业 - 类别选择 */}
-      <div className="mb-6">
+      <div className="mb-6 border-t border-gray-200 dark:border-gray-700 pt-6">
         <div className="flex items-center gap-2 mb-4">
           <span className="text-gray-700 dark:text-gray-300 font-medium text-base mr-4">申请专业：</span>
           <div className="flex space-x-6">
-            <button 
+            <button
               className={`flex items-center gap-1 ${programFilters.category === '商科' ? 'text-blue-500 font-medium' : 'text-gray-700 dark:text-gray-300'}`}
               onClick={() => setProgramFilters({...programFilters, category: programFilters.category === '商科' ? '全部' : '商科'})}
             >
               商科
               <ChevronDown className={`h-4 w-4 transition-transform ${programFilters.category === '商科' ? 'rotate-180' : ''}`} />
             </button>
-            <button 
+            <button
               className={`flex items-center gap-1 ${programFilters.category === '社科' ? 'text-blue-500 font-medium' : 'text-gray-700 dark:text-gray-300'}`}
               onClick={() => setProgramFilters({...programFilters, category: programFilters.category === '社科' ? '全部' : '社科'})}
             >
               社科
               <ChevronDown className={`h-4 w-4 transition-transform ${programFilters.category === '社科' ? 'rotate-180' : ''}`} />
             </button>
-            <button 
+            <button
               className={`flex items-center gap-1 ${programFilters.category === '工科' ? 'text-blue-500 font-medium' : 'text-gray-700 dark:text-gray-300'}`}
               onClick={() => setProgramFilters({...programFilters, category: programFilters.category === '工科' ? '全部' : '工科'})}
             >
               工科
               <ChevronDown className={`h-4 w-4 transition-transform ${programFilters.category === '工科' ? 'rotate-180' : ''}`} />
             </button>
-            <button 
+            <button
               className={`flex items-center gap-1 ${programFilters.category === '理科' ? 'text-blue-500 font-medium' : 'text-gray-700 dark:text-gray-300'}`}
               onClick={() => setProgramFilters({...programFilters, category: programFilters.category === '理科' ? '全部' : '理科'})}
             >
@@ -1204,15 +1644,15 @@ const SchoolAssistantPage: React.FC = () => {
 
       {/* 显示细分专业（如果选中了大类） */}
       {programFilters.category !== '全部' && (
-        <div className="border-t border-gray-200 dark:border-gray-700 pt-6">
+        <div className="mb-6 ml-20 mt-2">
           <div className="grid grid-cols-5 gap-4">
             {getSubCategories(programFilters.category).map(subCategory => (
               <label key={subCategory} className="flex items-center cursor-pointer">
-                <input 
-                  type="checkbox" 
-                  checked={programFilters.subCategory === subCategory} 
+                <input
+                  type="checkbox"
+                  checked={programFilters.subCategory === subCategory}
                   onChange={() => setProgramFilters({
-                    ...programFilters, 
+                    ...programFilters,
                     subCategory: programFilters.subCategory === subCategory ? '全部' : subCategory
                   })}
                   className="w-4 h-4 text-blue-500 rounded"
@@ -1228,7 +1668,7 @@ const SchoolAssistantPage: React.FC = () => {
 
   // 学校卡片组件
   const SchoolCard = ({ school }: { school: SchoolWithNote }) => (
-    <div 
+    <div
       key={school.id}
       className="bg-white dark:bg-gray-800 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden border border-gray-100 dark:border-gray-700"
       onClick={() => navigate(`/admin/school-detail/${school.id}`)}
@@ -1257,10 +1697,10 @@ const SchoolAssistantPage: React.FC = () => {
                       const colorKey = colorKeys[idx % colorKeys.length] as keyof typeof morandiColors;
                       const lightColorClass = morandiColors[colorKey];
                       const darkColorClass = darkMorandiColors[colorKey];
-                      
+
                       return (
-                        <span 
-                          key={idx} 
+                        <span
+                          key={idx}
                           className={`px-2 py-0.5 text-xs rounded-full ${lightColorClass} ${darkColorClass}`}
                         >
                           {tag}
@@ -1286,7 +1726,7 @@ const SchoolAssistantPage: React.FC = () => {
               </span>
       </div>
           </div>
-          
+
           <div className="grid grid-cols-3 gap-4 mt-4">
             <div>
               <p className="text-xs text-gray-500 dark:text-gray-400 mb-0.5 uppercase tracking-wide">录取率</p>
@@ -1302,9 +1742,9 @@ const SchoolAssistantPage: React.FC = () => {
         </div>
       </div>
         </div>
-        
+
         <div className="flex-shrink-0 ml-4 flex flex-col gap-2">
-        <button 
+        <button
             className="flex items-center gap-1.5 bg-white hover:bg-gray-50 text-gray-700 dark:text-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 border border-gray-200 dark:border-gray-600 px-3.5 py-1.5 rounded-lg text-sm transition-colors"
             onClick={(e) => {
               e.stopPropagation();
@@ -1324,7 +1764,7 @@ const SchoolAssistantPage: React.FC = () => {
         </button>
         </div>
       </div>
-      
+
       {/* 展开的专业列表 */}
       <AnimatePresence>
         {expandedPrograms.includes(`school-${school.id}`) && (
@@ -1340,7 +1780,7 @@ const SchoolAssistantPage: React.FC = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
                 {school.programs.length > 0 ? (
                   school.programs.map(program => (
-                <div 
+                <div
                   key={program.id}
                       className="flex justify-between items-center p-2.5 bg-white dark:bg-gray-700/50 rounded-lg border border-gray-100 dark:border-gray-700 hover:border-gray-200 dark:hover:border-gray-600 transition-colors"
                       onClick={(e) => {
@@ -1349,10 +1789,10 @@ const SchoolAssistantPage: React.FC = () => {
                       }}
                     >
                       <div className="overflow-hidden">
-                        <p className="font-medium text-sm truncate text-gray-700 dark:text-gray-200">{program.name}</p>
+                        <p className="font-medium text-sm truncate text-gray-700 dark:text-gray-200">{program.cn_name || program.en_name}</p>
                     <p className="text-xs text-gray-500 dark:text-gray-400">{program.degree} · {program.duration}</p>
                   </div>
-                  <button 
+                  <button
                         className="p-1.5 hover:bg-gray-100 dark:hover:bg-gray-600 rounded-full"
                     onClick={(e) => {
                       e.stopPropagation();
@@ -1377,59 +1817,79 @@ const SchoolAssistantPage: React.FC = () => {
       </AnimatePresence>
     </div>
   );
-  
+
   // 专业卡片组件
-  const ProgramCard = ({ program }: { program: Program }) => {
-    const schoolData = getProgramSchool(program.schoolId);
-    
-    // 确保避免对出现问题的条目进行渲染
-    if (!program || !schoolData) return null;
-    
+  const ProgramCard: React.FC<{ program: Program }> = ({ program }) => {
+    // 获取专业所属学校
+    const school = getProgramSchool(program.school_id);
+
     return (
-      <div 
-        className="bg-white dark:bg-gray-800 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden border border-gray-100 dark:border-gray-700"
-        onClick={() => navigate(`/admin/programs/${program.id}`)}
-      >
+      <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100 dark:border-gray-700">
         <div className="p-4 flex justify-between items-center">
-          <div className="flex-grow flex items-center">
-            <div className="flex-shrink-0 mr-3">
-              <div className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden bg-gray-50 dark:bg-gray-700/50">
-                {schoolData.logoUrl || (schoolData.rawData?.logo_url) ? (
-                  <img 
-                    src={schoolData.logoUrl || schoolData.rawData?.logo_url} 
-                    alt={schoolData.name} 
-                    className="w-full h-full object-contain p-1" 
-                  />
-                ) : (
-                  <SchoolIcon className="h-5 w-5 text-gray-400 dark:text-gray-300" />
-                )}
+          <div className="flex-1 min-w-0">
+            <div className="flex items-center gap-3">
+              {/* 学校logo */}
+              {school && (
+                <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center overflow-hidden border border-gray-200 dark:border-gray-700 shrink-0">
+                  {school.rawData?.logo_url ? (
+                    <img src={school.rawData.logo_url} alt={school.name} className="w-8 h-8 object-contain" />
+                  ) : (
+                    <div className="text-blue-500 dark:text-blue-400 font-bold text-xs">
+                      {school.name.slice(0, 2).toUpperCase()}
+                    </div>
+                  )}
+                </div>
+              )}
+              
+              <div className="flex-1 flex flex-col min-w-0">
+                <h3 className="font-medium text-gray-900 dark:text-white truncate">
+                  {program.cn_name || program.en_name}
+                </h3>
+                <div className="flex items-center gap-1 mt-1 flex-wrap">
+                  {school && (
+                    <span className="text-xs px-2 py-0.5 bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-400 rounded-full">
+                      {school.name}
+                    </span>
+                  )}
+                  <span className="text-xs text-gray-500 dark:text-gray-400">
+                    {program.faculty} · {program.category}
+                  </span>
+                </div>
               </div>
-            </div>
-            <div>
-              <h3 className="font-medium text-gray-900 dark:text-white">{program.name}</h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-                {schoolData.name} · {program.degree}
-              </p>
-              <div className="flex items-center text-sm text-gray-600 dark:text-gray-400 gap-4 mt-2">
-                <div className="flex items-center">
-                  <Award className="h-4 w-4 mr-1" />
+              
+              <div className="flex items-center gap-3 shrink-0">
+                <div className="text-sm text-gray-500 dark:text-gray-400 hidden sm:flex gap-4">
                   <span>{program.degree}</span>
-                </div>
-                <div className="flex items-center">
-                  <Clock className="h-4 w-4 mr-1" />
                   <span>{program.duration}</span>
+                  {program.tuition_fee && <span>{program.tuition_fee}</span>}
                 </div>
-                <div className="flex items-center">
-                  <MapPin className="h-4 w-4 mr-1" />
-                  <span className="text-xs">{schoolData.location}</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="text-xs">{schoolData.ranking || '排名未知'}</span>
-                </div>
+                
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    toggleInterestedProgram(program.school_id, program.id);
+                  }}
+                  className={`p-2 rounded-full ${
+                    isProgramInterested(program.school_id, program.id)
+                      ? 'bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400'
+                      : 'bg-gray-100 text-gray-600 dark:bg-gray-700/30 dark:text-gray-400'
+                  }`}
+                >
+                  <Heart className="h-4 w-4" />
+                </button>
+                
+                <a
+                  href={program.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className="p-2 rounded-full bg-gray-100 text-gray-600 dark:bg-gray-700/30 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700"
+                >
+                  <ExternalLink className="h-4 w-4" />
+                </a>
               </div>
             </div>
           </div>
-          <ChevronRight className="h-5 w-5 text-gray-400" />
         </div>
       </div>
     );
@@ -1440,7 +1900,7 @@ const SchoolAssistantPage: React.FC = () => {
     try {
       // 实际应用中，这里应该是API调用来保存数据
       console.log(`同步选校数据到学生ID ${studentId} 的记录`);
-      
+
       // 1. 保存到学生记录
       /*
       const saveToStudent = await fetch(`/api/students/${studentId}/schoolPlanning`, {
@@ -1448,12 +1908,12 @@ const SchoolAssistantPage: React.FC = () => {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(selectionData)
       });
-      
+
       if (!saveToStudent.ok) {
         throw new Error('保存到学生记录失败');
       }
       */
-      
+
       // 2. 同步到申请记录
       /*
       const syncToApplication = await fetch(`/api/applications/byStudent/${studentId}/planning`, {
@@ -1482,12 +1942,12 @@ const SchoolAssistantPage: React.FC = () => {
           }))
         })
       });
-      
+
       if (!syncToApplication.ok) {
         throw new Error('同步到申请记录失败');
       }
       */
-      
+
       // 模拟成功
       return true;
     } catch (error) {
@@ -1505,22 +1965,22 @@ const SchoolAssistantPage: React.FC = () => {
       { id: 3, name: '李四' }
     ]);
     const [isSaving, setIsSaving] = useState(false);
-    
+
     // 保存到学生记录
     const handleSaveToStudent = async () => {
       if (!selectedStudent) {
         alert('请选择一个学生');
         return;
       }
-      
+
       if (interestedSchools.length === 0) {
         alert('请先添加感兴趣的学校');
         return;
       }
-      
+
       try {
         setIsSaving(true);
-        
+
         // 创建一个新的选校记录
         const selectionData: SchoolSelection = {
           id: Date.now().toString(),
@@ -1529,10 +1989,10 @@ const SchoolAssistantPage: React.FC = () => {
           name: selectionName,
           studentId: parseInt(selectedStudent)
         };
-        
+
         // 同步到学生和申请记录
         const success = await syncToStudentAndApplication(parseInt(selectedStudent), selectionData);
-        
+
         if (success) {
           // 保存到本地选校历史
           setSavedSelections([...savedSelections, selectionData]);
@@ -1548,7 +2008,7 @@ const SchoolAssistantPage: React.FC = () => {
         setIsSaving(false);
       }
     };
-    
+
     return (
       <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
         <div className="bg-white dark:bg-gray-800 rounded-xl p-6 w-full max-w-md">
@@ -1556,12 +2016,12 @@ const SchoolAssistantPage: React.FC = () => {
           <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">
             选择一名学生，将当前选校方案保存到该学生的申请记录中
           </p>
-          
+
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
               方案名称
             </label>
-            <input 
+            <input
               type="text"
               className="w-full border rounded-lg p-2 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
               value={selectionName}
@@ -1569,7 +2029,7 @@ const SchoolAssistantPage: React.FC = () => {
               placeholder="输入方案名称"
             />
           </div>
-          
+
           <div className="mb-6">
             <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
               选择学生
@@ -1585,7 +2045,7 @@ const SchoolAssistantPage: React.FC = () => {
               ))}
             </select>
           </div>
-          
+
           <div className="flex justify-end gap-2">
             <button
               onClick={() => setShowSaveToStudentModal(false)}
@@ -1613,20 +2073,20 @@ const SchoolAssistantPage: React.FC = () => {
       </div>
     );
   };
-  
+
   // 选校侧边栏组件
   const SelectionSidebar = () => (
     <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-5 h-fit">
       <div className="flex justify-between items-center mb-4">
         <h3 className="text-lg font-semibold dark:text-white">我的选校</h3>
         <div className="flex gap-2">
-          <button 
+          <button
             className="text-sm text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
             onClick={() => setShowSaveToStudentModal(true)}
           >
             保存方案
           </button>
-          <button 
+          <button
             className="text-sm text-green-500 hover:text-green-700 dark:text-green-400 dark:hover:text-green-300"
             onClick={() => setShowSaveToStudentModal(true)}
           >
@@ -1634,7 +2094,7 @@ const SchoolAssistantPage: React.FC = () => {
           </button>
         </div>
       </div>
-      
+
       <div className="mb-4">
         <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">方案名称</label>
         <input
@@ -1644,10 +2104,10 @@ const SchoolAssistantPage: React.FC = () => {
           onChange={(e) => setSelectionName(e.target.value)}
         />
       </div>
-      
+
       <div className="border-t dark:border-gray-700 pt-4">
         <h4 className="text-md font-medium mb-2 dark:text-white">已选学校 ({interestedSchools.length})</h4>
-        
+
         {interestedSchools.length === 0 ? (
           <p className="text-gray-500 dark:text-gray-400 text-sm">还没有选择学校，请浏览并添加感兴趣的学校</p>
         ) : (
@@ -1673,8 +2133,8 @@ const SchoolAssistantPage: React.FC = () => {
                           {/* 学校信息 */}
                           <div className="flex items-center justify-between">
                             <div className="flex items-center gap-2">
-                              <div 
-                                {...provided.dragHandleProps} 
+                              <div
+                                {...provided.dragHandleProps}
                                 className="cursor-grab active:cursor-grabbing p-1 hover:bg-gray-100 dark:hover:bg-gray-700 rounded"
                               >
                                 <GripVertical className="h-4 w-4 text-gray-400" />
@@ -1793,7 +2253,7 @@ const SchoolAssistantPage: React.FC = () => {
   const SelectionHistory = () => (
     <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6">
       <h2 className="text-xl font-semibold mb-4 dark:text-white">已保存的选校方案</h2>
-      
+
       {savedSelections.length === 0 ? (
         <p className="text-gray-500 dark:text-gray-400">还没有保存的选校方案</p>
       ) : (
@@ -1808,7 +2268,7 @@ const SchoolAssistantPage: React.FC = () => {
               </div>
               <p className="text-sm dark:text-gray-300">已选学校: {selection.schools.length}所</p>
               <div className="flex justify-between items-center mt-3">
-                <button 
+                <button
                   className="text-sm text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
                   onClick={() => {
                     setInterestedSchools(selection.schools);
@@ -1831,49 +2291,352 @@ const SchoolAssistantPage: React.FC = () => {
   );
 
   // 程序库部分，显示从数据库获取的专业列表
-  const ProgramLibrary = () => (
-    <div className="space-y-6">
-      <div className="flex flex-col gap-4">
-        <ProgramFilters />
+  const ProgramLibrary = () => {
+
+    // 计算当前页应显示的专业数据
+    const displayPrograms = useMemo(() => {
+      const paginatedPrograms = programFilters.searchQuery || 
+                               programFilters.category !== '全部' || 
+                               programFilters.subCategory !== '全部' || 
+                               programFilters.region !== '全部' || 
+                               programFilters.country !== '全部'
+        ? allPrograms.filter(program => {
+            // 专业名称搜索匹配
+            const searchMatch = programFilters.searchQuery
+              ? (program.name || program.cn_name || program.en_name || '').toLowerCase().includes(programFilters.searchQuery.toLowerCase())
+              : true;
+
+            // 分类匹配
+            const categoryMatch = programFilters.category === '全部' ||
+              (program.category && program.category.toString() === programFilters.category);
+
+            // 子分类匹配
+            const subCategoryMatch = programFilters.subCategory === '全部' ||
+              (program.subCategory && program.subCategory === programFilters.subCategory);
+
+            // 学位类型匹配
+            const degreeMatch = programFilters.degree === '全部' ||
+              (program.degree && program.degree === programFilters.degree);
+
+            // 学制长度匹配
+            const durationMatch = programFilters.duration === '全部' ||
+              (program.duration && program.duration === programFilters.duration);
+
+            // 获取专业所属学校
+            const school = getProgramSchool(program.school_id);
+
+            // 地区匹配
+            const regionMatch = !school ? true :
+              programFilters.region === '全部' || school.region === programFilters.region;
+
+            // 国家匹配
+            const countryMatch = !school ? true :
+              programFilters.country === '全部' || school.country === programFilters.country;
+
+            return searchMatch && categoryMatch && subCategoryMatch && degreeMatch && durationMatch && regionMatch && countryMatch;
+          })
+        : allPrograms;
         
-        {programsLoading ? (
-          <div className="flex justify-center items-center h-40">
-            <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
+      // 计算总页数
+      const totalPages = Math.ceil(paginatedPrograms.length / PAGE_SIZE);
+      
+      // 确保当前页码在有效范围内
+      if (currentProgramPage >= totalPages && totalPages > 0) {
+        setCurrentProgramPage(totalPages - 1);
+      }
+      
+      // 返回当前页的数据
+      const startIndex = currentProgramPage * PAGE_SIZE;
+      return {
+        programs: paginatedPrograms.slice(startIndex, startIndex + PAGE_SIZE),
+        totalPrograms: paginatedPrograms.length,
+        totalPages: totalPages
+      };
+    }, [allPrograms, programFilters, currentProgramPage]);
+
+    // 分页导航组件
+    const PaginationControls = () => {
+      // 移除这个条件检查，总是显示导航栏
+      // if (displayPrograms.totalPages <= 1) return null;
+      
+      return (
+        <div className="flex flex-col gap-4 mt-6">
+          
+          
+          <div className="flex justify-center items-center space-x-2 py-4 bg-gray-50 dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700">
+            <div className="text-sm text-gray-600 dark:text-gray-400 mr-4">
+              共 <span className="font-medium">{displayPrograms.totalPrograms}</span> 条记录，
+              每页 <span className="font-medium">{PAGE_SIZE}</span> 条，
+              当前第 <span className="font-medium">{currentProgramPage + 1}</span> 页，
+              共 <span className="font-medium">{Math.max(1, displayPrograms.totalPages)}</span> 页
+            </div>
+            
+            <button 
+              onClick={() => setCurrentProgramPage(0)} 
+              disabled={currentProgramPage === 0}
+              className={`px-3 py-1 rounded ${
+                currentProgramPage === 0 
+                  ? 'bg-gray-200 text-gray-500 cursor-not-allowed dark:bg-gray-700' 
+                  : 'bg-blue-100 text-blue-600 hover:bg-blue-200 dark:bg-blue-900/30 dark:text-blue-400'
+              }`}
+            >
+              首页
+            </button>
+            
+            <button 
+              onClick={() => setCurrentProgramPage(prev => Math.max(0, prev - 1))} 
+              disabled={currentProgramPage === 0}
+              className={`px-3 py-1 rounded ${
+                currentProgramPage === 0 
+                  ? 'bg-gray-200 text-gray-500 cursor-not-allowed dark:bg-gray-700' 
+                  : 'bg-blue-100 text-blue-600 hover:bg-blue-200 dark:bg-blue-900/30 dark:text-blue-400'
+              }`}
+            >
+              上一页
+            </button>
+            
+            <div className="px-3 py-1 bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded">
+              <span className="font-medium">{currentProgramPage + 1}</span>
+              <span className="mx-1">/</span>
+              <span>{Math.max(1, displayPrograms.totalPages)}</span>
+            </div>
+            
+            <button 
+              onClick={() => setCurrentProgramPage(prev => Math.min(displayPrograms.totalPages - 1, prev + 1))} 
+              disabled={currentProgramPage >= displayPrograms.totalPages - 1 || displayPrograms.totalPages <= 1}
+              className={`px-3 py-1 rounded ${
+                currentProgramPage >= displayPrograms.totalPages - 1 || displayPrograms.totalPages <= 1
+                  ? 'bg-gray-200 text-gray-500 cursor-not-allowed dark:bg-gray-700' 
+                  : 'bg-blue-100 text-blue-600 hover:bg-blue-200 dark:bg-blue-900/30 dark:text-blue-400'
+              }`}
+            >
+              下一页
+            </button>
+            
+            <button 
+              onClick={() => setCurrentProgramPage(Math.max(0, displayPrograms.totalPages - 1))} 
+              disabled={currentProgramPage >= displayPrograms.totalPages - 1 || displayPrograms.totalPages <= 1}
+              className={`px-3 py-1 rounded ${
+                currentProgramPage >= displayPrograms.totalPages - 1 || displayPrograms.totalPages <= 1
+                  ? 'bg-gray-200 text-gray-500 cursor-not-allowed dark:bg-gray-700' 
+                  : 'bg-blue-100 text-blue-600 hover:bg-blue-200 dark:bg-blue-900/30 dark:text-blue-400'
+              }`}
+            >
+              末页
+            </button>
+            
+            {totalProgramCount > 0 && totalProgramCount > allPrograms.length && (
+              <button 
+                onClick={() => {
+                  // 重置加载状态，强制重新加载所有数据
+                  setProgramsLoading(false);
+                  setProgramsError(null);
+                  setHasMorePrograms(true);
+                  setProgramPage(0);
+                  setAllPrograms([]);
+                  // 清除本地缓存，确保重新从服务器加载数据
+                  localStorage.removeItem('cachedPrograms');
+                  localStorage.removeItem('cachedProgramsTimestamp');
+                  // 延迟一点执行，确保状态已更新
+                  setTimeout(() => {
+                    setProgramsLoading(true);
+                  }, 100);
+                }}
+                className="ml-4 px-3 py-1 bg-green-100 text-green-700 hover:bg-green-200 dark:bg-green-900/30 dark:text-green-400 rounded"
+              >
+                加载全部数据 ({totalProgramCount} 条)
+              </button>
+            )}
           </div>
-        ) : programsError ? (
-          <div className="text-center py-8 bg-red-50 text-red-600 rounded-lg">
-            加载专业数据出错: {programsError}
-          </div>
-        ) : allPrograms.length === 0 ? (
-          <div className="text-center py-8 text-gray-500">
-            暂无专业数据
-          </div>
-        ) : (
-          <div className="flex flex-col space-y-3">
-            {allPrograms
-              .filter(program => {
-                // 实现专业筛选逻辑
-                const matchesSearch = program.name.toLowerCase().includes(programFilters.searchQuery.toLowerCase());
-                const matchesCategory = programFilters.category === '全部' || 
-                  (program.category && program.category.toString() === programFilters.category);
-                
-                // 获取专业所属学校
-                const school = getProgramSchool(program.schoolId);
-                const matchesRegion = programFilters.region === '全部' || 
-                  (school && school.region === programFilters.region);
-                const matchesCountry = programFilters.country === '全部' || 
-                  (school && school.country === programFilters.country);
-                
-                return matchesSearch && matchesCategory && matchesRegion && matchesCountry;
-              })
-              .map(program => (
-                <ProgramCard key={program.id} program={program} />
-              ))}
-          </div>
-        )}
+        </div>
+      );
+    };
+
+    return (
+      <div className="space-y-6">
+        <div className="flex flex-col gap-4">
+          <ProgramFilters />
+
+          {programsLoading ? (
+            <div className="flex justify-center items-center h-40">
+              <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
+            </div>
+          ) : programsError ? (
+            <div className="text-center py-8 bg-red-50 text-red-600 rounded-lg">
+              <div className="mb-4 whitespace-pre-line">
+                {programsError}
+              </div>
+              <div className="flex justify-center space-x-4">
+                <button
+                  onClick={() => window.open('https://supabase.com/dashboard/project/swyajeiqqewyckzbfkid/editor', '_blank')}
+                  className="px-4 py-2 bg-green-500 hover:bg-green-600 text-white rounded-md flex items-center"
+                >
+                  <ExternalLink className="h-4 w-4 mr-2" />
+                  打开Supabase控制台
+                </button>
+                <button
+                  onClick={() => {
+                    setProgramsError(null);
+                    setProgramsLoading(true);
+                    setHasMorePrograms(true);
+                    setProgramPage(0);
+                    setAllPrograms([]);
+                    // 清除本地缓存
+                    localStorage.removeItem('cachedPrograms');
+                    localStorage.removeItem('cachedProgramsTimestamp');
+                  }}
+                  className="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-md"
+                >
+                  重新加载
+                </button>
+              </div>
+            </div>
+          ) : allPrograms.length === 0 ? (
+            <div className="text-center py-8 text-gray-500">
+              <div className="text-xl font-semibold mb-2">暂无专业数据</div>
+              <p className="mb-4">请在Supabase控制台中添加专业数据，或者点击下方按钮重新加载</p>
+              <div className="mt-4 flex justify-center space-x-4">
+                <button
+                  onClick={() => window.open('https://supabase.com/dashboard/project/swyajeiqqewyckzbfkid/editor', '_blank')}
+                  className="px-4 py-2 bg-green-500 hover:bg-green-600 text-white rounded-md flex items-center"
+                >
+                  <ExternalLink className="h-4 w-4 mr-2" />
+                  打开Supabase控制台
+                </button>
+                <button
+                  onClick={() => {
+                    // 手动触发重新加载
+                    setProgramsLoading(true);
+                    setProgramsError(null);
+                    setHasMorePrograms(true);
+                    setProgramPage(0);
+                    setAllPrograms([]);
+                    // 清除本地缓存
+                    localStorage.removeItem('cachedPrograms');
+                    localStorage.removeItem('cachedProgramsTimestamp');
+                  }}
+                  className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+                >
+                  重新加载专业数据
+                </button>
+              </div>
+            </div>
+          ) : (
+            <>
+              {/* 筛选条件摘要 */}
+              <div className="border-t border-b border-gray-200 dark:border-gray-700 py-4 mt-4 mb-6">
+                <div className="flex flex-wrap justify-between items-center">
+                  <div className="text-gray-700 dark:text-gray-300 font-medium">
+                    找到 <span className="text-blue-500">{filteredPrograms.length}</span> 个符合条件的专业
+                  </div>
+                  <div className="flex flex-wrap gap-2 mt-2 md:mt-0">
+                    {programFilters.country !== '全部' && (
+                      <div className="bg-blue-50 dark:bg-blue-900/20 text-blue-800 dark:text-blue-300 text-xs px-2 py-1 rounded-full flex items-center">
+                        地区:{programFilters.country}
+                        <button 
+                          className="ml-1 hover:text-blue-600"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setProgramFilters({...programFilters, country: '全部'});
+                          }}
+                        >
+                          <X className="h-3 w-3" />
+                        </button>
+                </div>
+              )}
+                    {programFilters.category !== '全部' && (
+                      <div className="bg-green-50 dark:bg-green-900/20 text-green-800 dark:text-green-300 text-xs px-2 py-1 rounded-full flex items-center">
+                        类别:{programFilters.category}
+                        <button 
+                          className="ml-1 hover:text-green-600"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setProgramFilters({...programFilters, category: '全部'});
+                          }}
+                        >
+                          <X className="h-3 w-3" />
+                        </button>
+            </div>
+          )}
+                    {programFilters.subCategory !== '全部' && (
+                      <div className="bg-green-50 dark:bg-green-900/20 text-green-800 dark:text-green-300 text-xs px-2 py-1 rounded-full flex items-center">
+                        子类:{programFilters.subCategory}
+                        <button 
+                          className="ml-1 hover:text-green-600"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setProgramFilters({...programFilters, subCategory: '全部'});
+                          }}
+                        >
+                          <X className="h-3 w-3" />
+                        </button>
+                      </div>
+                    )}
+                    {programFilters.degree !== '全部' && (
+                      <div className="bg-purple-50 dark:bg-purple-900/20 text-purple-800 dark:text-purple-300 text-xs px-2 py-1 rounded-full flex items-center">
+                        学位:{programFilters.degree}
+                        <button 
+                          className="ml-1 hover:text-purple-600"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setProgramFilters({...programFilters, degree: '全部'});
+                          }}
+                        >
+                          <X className="h-3 w-3" />
+                        </button>
+                      </div>
+                    )}
+                    {programFilters.duration !== '全部' && (
+                      <div className="bg-amber-50 dark:bg-amber-900/20 text-amber-800 dark:text-amber-300 text-xs px-2 py-1 rounded-full flex items-center">
+                        学制:{programFilters.duration}
+                        <button 
+                          className="ml-1 hover:text-amber-600"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setProgramFilters({...programFilters, duration: '全部'});
+                          }}
+                        >
+                          <X className="h-3 w-3" />
+                        </button>
+                      </div>
+                    )}
+                    {programFilters.searchQuery && (
+                      <div className="bg-gray-50 dark:bg-gray-700 text-gray-800 dark:text-gray-300 text-xs px-2 py-1 rounded-full flex items-center">
+                        搜索:{programFilters.searchQuery}
+                        <button 
+                          className="ml-1 hover:text-gray-600"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setProgramFilters({...programFilters, searchQuery: ''});
+                          }}
+                        >
+                          <X className="h-3 w-3" />
+                        </button>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
+              
+              <div className="grid grid-cols-1 gap-3">
+                {displayPrograms.programs.map(program => (
+                  <div 
+                    key={program.id}
+                    className="cursor-pointer"
+                    onClick={() => navigate(`/admin/program-detail/${program.id}`)}
+                  >
+                    <ProgramCard program={program} />
+                  </div>
+                ))}
+              </div>
+              
+              <PaginationControls />
+            </>
+          )}
+        </div>
       </div>
-    </div>
-  );
+    );
+  };
 
   // 添加这个JSX组件到"学校列表"部分之前
   const SchoolsStats = () => (
@@ -1883,7 +2646,7 @@ const SchoolAssistantPage: React.FC = () => {
         当前显示 <span className="font-medium text-blue-600 dark:text-blue-400">{filteredSchools.length}</span> 所
       </div>
       {filteredSchools.length < schools.length && (
-        <button 
+        <button
           onClick={() => setSchoolFilters({
             region: '全部',
             country: '全部',
@@ -1898,11 +2661,14 @@ const SchoolAssistantPage: React.FC = () => {
     </div>
   );
 
+
   return (
     <div className="container mx-auto p-4">
       {/* 当前选校方案 */}
       <div className="mb-6">
-        <ViewSwitchButtons />
+        <div className="flex justify-between items-center">
+          <ViewSwitchButtons />
+        </div>
       </div>
 
       {/* 主要内容区 */}
@@ -1931,7 +2697,7 @@ const SchoolAssistantPage: React.FC = () => {
                 // 错误状态
                 <div className="bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-400 p-4 rounded-lg">
                   <p>获取学校数据出错: {error}</p>
-                  <button 
+                  <button
                     className="mt-2 px-3 py-1 bg-red-100 dark:bg-red-900/40 rounded hover:bg-red-200 dark:hover:bg-red-900/60"
                     onClick={() => window.location.reload()}
                   >
@@ -1943,7 +2709,7 @@ const SchoolAssistantPage: React.FC = () => {
                 <>
                   <SchoolsStats />
                   {filteredSchools.map(school => (
-                    <div 
+                    <div
                       key={school.id}
                       className="bg-white dark:bg-gray-800 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden border border-gray-100 dark:border-gray-700"
                       onClick={() => navigate(`/admin/school-detail/${school.id}`)}
@@ -1972,10 +2738,10 @@ const SchoolAssistantPage: React.FC = () => {
                                       const colorKey = colorKeys[idx % colorKeys.length] as keyof typeof morandiColors;
                                       const lightColorClass = morandiColors[colorKey];
                                       const darkColorClass = darkMorandiColors[colorKey];
-                                      
+
                                       return (
-                                        <span 
-                                          key={idx} 
+                                        <span
+                                          key={idx}
                                           className={`px-2 py-0.5 text-xs rounded-full ${lightColorClass} ${darkColorClass}`}
                                         >
                                           {tag}
@@ -1997,7 +2763,7 @@ const SchoolAssistantPage: React.FC = () => {
                             </div>
                             <div className="text-right">
                               <span className="inline-block px-2.5 py-1 bg-[#e8e8e8] text-gray-700 text-sm rounded-lg dark:bg-gray-700/50 dark:text-gray-300 font-medium">
-                                {school.ranking}
+                                #{school.ranking.replace('#', '')}
                               </span>
                             </div>
                           </div>
@@ -2017,9 +2783,9 @@ const SchoolAssistantPage: React.FC = () => {
                             </div>
                           </div>
                         </div>
-                        
+
                         <div className="flex-shrink-0 ml-4 flex flex-col gap-2">
-                          <button 
+                          <button
                             className="flex items-center gap-1.5 bg-white hover:bg-gray-50 text-gray-700 dark:text-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 border border-gray-200 dark:border-gray-600 px-3.5 py-1.5 rounded-lg text-sm transition-colors"
                             onClick={(e) => {
                               e.stopPropagation();
@@ -2037,8 +2803,8 @@ const SchoolAssistantPage: React.FC = () => {
                             }`} />
                             收藏
                           </button>
-                          
-                          <button 
+
+                          <button
                             className="flex items-center gap-1.5 bg-white hover:bg-gray-50 text-gray-700 dark:text-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 border border-gray-200 dark:border-gray-600 px-3.5 py-1.5 rounded-lg text-sm transition-colors"
                             onClick={(e) => {
                               e.stopPropagation();
@@ -2052,7 +2818,7 @@ const SchoolAssistantPage: React.FC = () => {
                           </button>
                         </div>
                       </div>
-                      
+
                       {/* 展开的专业列表 */}
                       <AnimatePresence>
                         {expandedPrograms.includes(`school-${school.id}`) && (
@@ -2068,8 +2834,8 @@ const SchoolAssistantPage: React.FC = () => {
                               <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
                                 {school.programs.length > 0 ? (
                                   school.programs.map(program => (
-                                    <div 
-                                      key={program.id} 
+                                    <div
+                                      key={program.id}
                                       className="flex justify-between items-center p-2.5 bg-white dark:bg-gray-700/50 rounded-lg border border-gray-100 dark:border-gray-700 hover:border-gray-200 dark:hover:border-gray-600 transition-colors"
                                       onClick={(e) => {
                                         e.stopPropagation();
@@ -2077,7 +2843,7 @@ const SchoolAssistantPage: React.FC = () => {
                                       }}
                                     >
                                       <div className="overflow-hidden">
-                                        <p className="font-medium text-sm truncate text-gray-700 dark:text-gray-200">{program.name}</p>
+                                        <p className="font-medium text-sm truncate text-gray-700 dark:text-gray-200">{program.cn_name || program.en_name}</p>
                                         <p className="text-xs text-gray-500 dark:text-gray-400">{program.degree} · {program.duration}</p>
                                       </div>
                                       <button
@@ -2105,7 +2871,7 @@ const SchoolAssistantPage: React.FC = () => {
                       </AnimatePresence>
                     </div>
                   ))}
-                  
+
                   {filteredSchools.length === 0 && (
                     <div className="text-center py-12">
                       <p className="text-gray-500 dark:text-gray-400">没有找到符合条件的学校</p>
@@ -2116,11 +2882,11 @@ const SchoolAssistantPage: React.FC = () => {
             </div>
           </div>
         )}
-        
+
         {currentView === 'programs' && (
           <ProgramLibrary />
         )}
-        
+
         {currentView === 'selection' && (
           <div>
             {/* 选校模式内容 */}
@@ -2133,4 +2899,4 @@ const SchoolAssistantPage: React.FC = () => {
   );
 };
 
-export default SchoolAssistantPage; 
+export default SchoolAssistantPage;

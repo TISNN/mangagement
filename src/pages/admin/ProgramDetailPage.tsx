@@ -1,17 +1,38 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Heart, Star, ExternalLink, MapPin, DollarSign, Clock, BookOpen, Search, User, ChevronRight, Award, Building, Users, FileText, Briefcase } from 'lucide-react';
+import { ArrowLeft, Heart, Star, ExternalLink, MapPin, DollarSign, Clock, BookOpen, Search, User, ChevronRight, Award, Building, Users, FileText, Briefcase, Edit, Dot } from 'lucide-react';
+import { supabase } from "../../supabase";
+import { Link } from 'react-router-dom';
 
-// 定义类型
+// 定义类型，与数据库表结构匹配
 interface Program {
   id: string;
-  name: string;
+  school_id: string;
+  cn_name?: string;
+  en_name: string;
+  name?: string; // 用于兼容，显示中文名或英文名
   degree: string;
   duration: string;
-  description: string;
-  requirements: string;
-  employment: string;
-  category?: string;
+  faculty: string;
+  category: string;
+  entry_month?: string;
+  tags?: string[];
+  apply_requirements: string;
+  language_requirements: string;
+  curriculum: string;
+  analysis: string;
+  url: string;
+  interview: string;
+  objectives: string;
+  tuition_fee: string;
+  created_at?: string;
+  updated_at?: string;
+  
+  // 在前端补充的字段，非数据库字段
+  description?: string;
+  requirements?: string;
+  employment?: string;
+  careers?: string; // 就业方向
   subCategory?: string;
   applyDeadline?: string;
   tuition?: string;
@@ -25,16 +46,25 @@ interface Program {
 
 interface School {
   id: string;
-  name: string;
-  location: string;
+  cn_name: string;
+  en_name?: string;
+  name?: string; // 用于兼容，显示中文名或英文名
+  location?: string;
   country?: string;
+  city?: string;
   region?: string;
-  programs: Program[];
-  acceptance: string;
-  ranking: string;
-  tuition: string;
-  description: string;
-  logoUrl?: string;
+  ranking?: number;
+  qs_rank_2025?: number;
+  qs_rank_2024?: number;
+  logo_url?: string;
+  description?: string;
+  is_verified?: boolean;
+  tags?: string[];
+  
+  // 前端组织的数据
+  programs?: Program[];
+  acceptance?: string;
+  tuition?: string;
 }
 
 // 成功案例类型
@@ -54,107 +84,84 @@ const ProgramDetailPage: React.FC = () => {
   const [program, setProgram] = useState<Program | null>(null);
   const [school, setSchool] = useState<School | null>(null);
   const [loading, setLoading] = useState(true);
-  const [successCases, setSuccessCases] = useState<SuccessCase[]>([]);
+  const [error, setError] = useState<string | null>(null);
 
-  // 模拟从API获取专业和学校数据
+  // 从数据库获取专业和学校数据
   useEffect(() => {
     const fetchProgramDetail = async () => {
+      if (!programId) {
+        setError("未提供专业ID");
+        setLoading(false);
+        return;
+      }
+      
       setLoading(true);
       try {
-        // 模拟API调用
-        // 在实际项目中，应该从后端获取数据
-        const mockProgram: Program = {
-          id: programId || '1',
-          name: '计算机科学与技术',
-          degree: '硕士学位',
-          duration: '2年',
-          description: '计算机科学与技术专业是研究计算机硬件、软件与应用的学科。该专业培养具备良好的数学基础和工程背景，掌握计算机系统基本理论和专业知识与技能，能从事计算机科学与技术领域的科学研究、教育、开发和应用的高级专门人才。课程涵盖算法设计、编程语言、软件工程、人工智能、数据科学、计算机图形学等领域。',
-          requirements: '申请者需要具备计算机科学、数学或相关领域的本科学位，GPA 3.5以上，GRE成绩1300+，托福成绩100+或雅思成绩7.0+。工作经验不是必须的，但有相关实习或工作经验的申请者将获得优先考虑。',
-          employment: '毕业生主要就业于科技公司、金融机构、研究机构和高校等。就业方向包括软件工程师、数据科学家、人工智能工程师、研究人员等。平均起薪约为85,000美元/年。',
-          category: '工科',
-          subCategory: '计算机科学',
-          applyDeadline: '2024-12-15',
-          tuition: '$45,000/年',
-          courses: [
-            '高级算法设计与分析',
-            '机器学习基础',
-            '分布式系统',
-            '人工智能',
-            '计算机视觉',
-            '大数据分析',
-            '高级软件工程',
-            '云计算'
-          ],
-          facultyMembers: [
-            {
-              name: 'John Smith',
-              title: '教授',
-              researchArea: '机器学习、计算机视觉'
-            },
-            {
-              name: 'Sarah Johnson',
-              title: '副教授',
-              researchArea: '人工智能、自然语言处理'
-            },
-            {
-              name: 'Michael Chen',
-              title: '助理教授',
-              researchArea: '数据挖掘、推荐系统'
-            },
-            {
-              name: 'Emily Wang',
-              title: '研究员',
-              researchArea: '分布式系统、云计算'
-            }
-          ]
+        // 1. 从数据库获取专业详情
+        const { data: programData, error: programError } = await supabase
+          .from('programs')
+          .select('*')
+          .eq('id', programId)
+          .single();
+
+        if (programError) {
+          console.error('获取专业详情失败', programError);
+          setError(programError.message);
+          setLoading(false);
+          return;
+        }
+
+        if (!programData) {
+          setError('未找到专业信息');
+          setLoading(false);
+          return;
+        }
+        
+        // 处理专业数据，调整格式
+        const processedProgram: Program = {
+          ...programData,
+          name: programData.cn_name || programData.en_name, // 使用中文名优先，否则使用英文名
+          description: programData.curriculum || '暂无专业介绍', // 使用课程介绍作为描述
+          requirements: programData.apply_requirements || '暂无申请要求',
+          employment: programData.analysis || '暂无就业前景分析',
+          tuition: programData.tuition_fee,
+          applyDeadline: programData.entry_month ? `${programData.entry_month}入学` : '请查看官网',
+          // 将课程字符串拆分为数组
+          courses: programData.curriculum 
+            ? programData.curriculum.split(/[;；。,，]/).filter(Boolean).slice(0, 8)
+            : []
         };
         
-        const mockSchool: School = {
-          id: '1',
-          name: '麻省理工学院',
-          location: '美国剑桥市',
-          country: '美国',
-          ranking: '1',
-          acceptance: '4%',
-          tuition: '$58,000/年',
-          description: '麻省理工学院（MIT）是世界顶尖的研究型大学，以工程和物理科学闻名，但在经济学、政治学、城市研究、语言学和哲学等领域也有很强的实力。',
-          logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/1200px-MIT_logo.svg.png',
-          programs: []
-        };
+        setProgram(processedProgram);
         
-        setProgram(mockProgram);
-        setSchool(mockSchool);
-        
-        // 设置模拟成功案例数据
-        setSuccessCases([
-          {
-            id: '1',
-            studentName: '张明',
-            admissionYear: '2023',
-            program: '计算机科学硕士',
-            background: '背景：本科985计算机科学专业，GPA 3.8，托福110，GRE 325',
-            story: '张明大学期间参与了多个开源项目，并在国内知名互联网公司实习。他的申请文书重点突出了他在算法优化方面的研究经历和贡献。'
-          },
-          {
-            id: '2',
-            studentName: '李华',
-            admissionYear: '2022',
-            program: '计算机科学硕士',
-            background: '背景：本科211计算机科学专业，GPA 3.7，托福105，GRE 320',
-            story: '李华本科期间积极参与各类编程比赛，并拥有丰富的项目经验。他申请时强调了自己在机器学习领域的实践经验和研究兴趣。'
-          },
-          {
-            id: '3',
-            studentName: '王芳',
-            admissionYear: '2022',
-            program: '计算机科学硕士',
-            background: '背景：本科985软件工程专业，GPA 3.9，托福108，GRE 330',
-            story: '王芳在校期间积极参与学术研究，发表了两篇与计算机视觉相关的论文。她的申请材料展示了扎实的理论基础和实践能力。'
+        // 2. 获取专业所属学校信息
+        if (programData.school_id) {
+          const { data: schoolData, error: schoolError } = await supabase
+            .from('schools')
+            .select('*')
+            .eq('id', programData.school_id)
+            .single();
+            
+          if (schoolError) {
+            console.error('获取学校信息失败', schoolError);
+          } else if (schoolData) {
+            // 处理学校数据
+            const processedSchool: School = {
+              ...schoolData,
+              name: schoolData.cn_name || schoolData.en_name,
+              location: `${schoolData.country || ''} ${schoolData.city || ''}`.trim() || '位置未知',
+              ranking: schoolData.ranking?.toString() || schoolData.qs_rank_2024?.toString() || '未排名',
+              programs: [],
+              acceptance: '录取率未知', // 暂无数据
+              tuition: programData.tuition_fee || '学费未知'
+            };
+            
+            setSchool(processedSchool);
           }
-        ]);
-        
+        }
       } catch (error) {
         console.error('获取专业详情失败', error);
+        setError(error instanceof Error ? error.message : '获取数据失败');
       } finally {
         setLoading(false);
       }
@@ -162,11 +169,6 @@ const ProgramDetailPage: React.FC = () => {
 
     fetchProgramDetail();
   }, [programId]);
-
-  // 跳转到案例库页面
-  const goToCasesPage = () => {
-    navigate('/admin/cases');
-  };
 
   if (loading) {
     return (
@@ -176,7 +178,22 @@ const ProgramDetailPage: React.FC = () => {
     );
   }
 
-  if (!program || !school) {
+  if (error) {
+    return (
+      <div className="p-8 text-center">
+        <h2 className="text-2xl font-bold mb-4">获取专业信息失败</h2>
+        <p className="text-red-500 mb-4">{error}</p>
+        <button 
+          onClick={() => navigate('/admin/school-assistant')}
+          className="px-4 py-2 bg-blue-500 text-white rounded-lg"
+        >
+          返回专业列表
+        </button>
+      </div>
+    );
+  }
+
+  if (!program) {
     return (
       <div className="p-8 text-center">
         <h2 className="text-2xl font-bold mb-4">未找到专业信息</h2>
@@ -214,6 +231,8 @@ const ProgramDetailPage: React.FC = () => {
               </button>
             </div>
             <div className="flex items-center text-white/90 gap-4">
+              {school && (
+                <>
               <div className="flex items-center gap-1">
                 <Building className="h-4 w-4" />
                 <span>{school.name}</span>
@@ -222,6 +241,8 @@ const ProgramDetailPage: React.FC = () => {
                 <MapPin className="h-4 w-4" />
                 <span>{school.location}</span>
               </div>
+                </>
+              )}
               <div className="flex items-center gap-1">
                 <Clock className="h-4 w-4" />
                 <span>{program.duration}</span>
@@ -235,13 +256,14 @@ const ProgramDetailPage: React.FC = () => {
         {/* 内容区域 */}
         <div className="flex flex-col space-y-6">
           {/* 学校信息卡片 */}
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6">
+          {school && (
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300">
             <div className="flex items-start gap-4">
-              <div className="w-16 h-16 bg-white rounded-lg flex items-center justify-center overflow-hidden">
-                {school.logoUrl ? (
-                  <img src={school.logoUrl} alt={school.name} className="w-12 h-12 object-contain" />
-                ) : (
-                  <div className="text-blue-500 font-bold text-xl">MIT</div>
+                <div className="w-16 h-16 bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-sm border border-gray-100">
+                  {school.logo_url ? (
+                    <img src={school.logo_url} alt={school.name || '学校'} className="w-12 h-12 object-contain" />
+                  ) : (
+                    <div className="text-blue-500 font-bold text-xl">{school.name?.slice(0, 2) || 'SC'}</div>
                 )}
               </div>
               <div className="flex-1">
@@ -277,13 +299,24 @@ const ProgramDetailPage: React.FC = () => {
               </div>
             </div>
           </div>
+          )}
 
-          {/* 专业信息卡片 */}
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6">
-            <h2 className="text-xl font-bold dark:text-white mb-4">专业详情</h2>
+          {/* 专业基本信息卡片 */}
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300">
+            <div className="flex justify-between items-center mb-4">
+              <h2 className="text-xl font-bold dark:text-white">专业基本信息</h2>
+              <a 
+                href={program.url} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-1 text-blue-600 hover:text-blue-800 text-sm"
+              >
+                <ExternalLink className="h-4 w-4" />
+                官网链接
+              </a>
+            </div>
             
-            {/* 基本信息 */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+            <div className="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-5 gap-4">
               <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg">
                 <div className="text-sm text-gray-500 dark:text-gray-400 mb-1">学位类型</div>
                 <div className="font-semibold dark:text-white">{program.degree}</div>
@@ -298,127 +331,89 @@ const ProgramDetailPage: React.FC = () => {
               </div>
               <div className="bg-amber-50 dark:bg-amber-900/20 p-4 rounded-lg">
                 <div className="text-sm text-gray-500 dark:text-gray-400 mb-1">学费</div>
-                <div className="font-semibold dark:text-white">{program.tuition || school.tuition}</div>
+                <div className="font-semibold dark:text-white">{program.tuition_fee || school?.tuition || '待定'}</div>
+              </div>
+              <div className="bg-rose-50 dark:bg-rose-900/20 p-4 rounded-lg">
+                <div className="text-sm text-gray-500 dark:text-gray-400 mb-1">面试信息</div>
+                <div className="font-semibold dark:text-white">{program.interview || '暂无面试信息'}</div>
+              </div>
               </div>
             </div>
             
-            {/* 专业描述 */}
-            <div className="mb-6">
-              <h3 className="text-lg font-semibold dark:text-white mb-2">专业介绍</h3>
-              <p className="text-gray-600 dark:text-gray-300">{program.description}</p>
+          {/* 培养目标卡片 */}
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300">
+            <div className="flex items-center gap-2 mb-4">
+              <BookOpen className="h-5 w-5 text-blue-500" />
+              <h2 className="text-xl font-bold dark:text-white">培养目标</h2>
+            </div>
+            <div className="prose max-w-none dark:prose-invert">
+              <p>{program.objectives || '暂无培养目标信息'}</p>
+            </div>
             </div>
             
-            {/* 申请要求 */}
-            <div className="mb-6">
-              <h3 className="text-lg font-semibold dark:text-white mb-2">申请要求</h3>
-              <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
-                <p className="text-gray-600 dark:text-gray-300">{program.requirements}</p>
-              </div>
+          {/* 课程设置卡片 */}
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300">
+            <div className="flex items-center gap-2 mb-4">
+              <BookOpen className="h-5 w-5 text-green-500" />
+              <h2 className="text-xl font-bold dark:text-white">课程设置</h2>
             </div>
-            
-            {/* 就业前景 */}
-            <div className="mb-6">
-              <h3 className="text-lg font-semibold dark:text-white mb-2">就业前景</h3>
-              <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
-                <p className="text-gray-600 dark:text-gray-300">{program.employment}</p>
-              </div>
-            </div>
-            
-            {/* 课程设置 */}
-            {program.courses && program.courses.length > 0 && (
-              <div className="mb-6">
-                <h3 className="text-lg font-semibold dark:text-white mb-3">核心课程</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                  {program.courses.map((course, index) => (
-                    <div
-                      key={index}
-                      className="flex items-center gap-2 p-3 bg-gray-50 dark:bg-gray-700/50 rounded-lg"
-                    >
-                      <BookOpen className="h-4 w-4 text-blue-500" />
-                      <span className="text-gray-700 dark:text-gray-300">{course}</span>
-                    </div>
+            <div className="prose max-w-none dark:prose-invert">
+              {program.curriculum ? (
+                <ul className="list-disc pl-5 space-y-2">
+                  {program.curriculum.split(/[;；]/).map((course, index) => (
+                    <li key={index}>{course.trim()}</li>
                   ))}
-                </div>
-              </div>
-            )}
-            
-            {/* 师资力量 */}
-            {program.facultyMembers && program.facultyMembers.length > 0 && (
-              <div>
-                <h3 className="text-lg font-semibold dark:text-white mb-3">师资力量</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {program.facultyMembers.map((faculty, index) => (
-                    <div
-                      key={index}
-                      className="flex items-start gap-3 p-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg"
-                    >
-                      <div className="bg-blue-100 dark:bg-blue-900/30 p-2 rounded-full">
-                        <User className="h-5 w-5 text-blue-600 dark:text-blue-400" />
-                      </div>
-                      <div>
-                        <div className="font-medium dark:text-white">{faculty.name}</div>
-                        <div className="text-sm text-gray-500 dark:text-gray-400">{faculty.title}</div>
-                        {faculty.researchArea && (
-                          <div className="text-sm text-gray-600 dark:text-gray-300 mt-1">
-                            研究方向: {faculty.researchArea}
-                          </div>
+                </ul>
+              ) : (
+                <p>暂无课程设置信息</p>
                         )}
                       </div>
                     </div>
-                  ))}
+          
+          {/* 申请要求卡片 */}
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300">
+            <div className="flex items-center gap-2 mb-4">
+              <FileText className="h-5 w-5 text-purple-500" />
+              <h2 className="text-xl font-bold dark:text-white">申请要求</h2>
                 </div>
+            <div className="prose max-w-none dark:prose-invert">
+              <p>{program.apply_requirements || '暂无申请要求信息'}</p>
               </div>
-            )}
           </div>
           
-          {/* 成功案例 */}
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6">
-            <div className="flex justify-between items-center mb-4">
-              <h2 className="text-xl font-bold dark:text-white">成功案例</h2>
-              <button 
-                onClick={goToCasesPage}
-                className="text-blue-600 hover:text-blue-800 text-sm flex items-center gap-1"
-              >
-                查看全部案例
-                <ChevronRight className="h-4 w-4" />
-              </button>
+          {/* 语言要求卡片 */}
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300">
+            <div className="flex items-center gap-2 mb-4">
+              <BookOpen className="h-5 w-5 text-orange-500" />
+              <h2 className="text-xl font-bold dark:text-white">语言要求</h2>
             </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {successCases.map((successCase) => (
-                <div 
-                  key={successCase.id}
-                  className="bg-gray-50 dark:bg-gray-700/50 rounded-xl p-5"
-                >
-                  <div className="flex justify-between items-start mb-3">
-                    <div>
-                      <div className="font-medium dark:text-white">{successCase.studentName}</div>
-                      <div className="text-sm text-gray-500 dark:text-gray-400">
-                        {successCase.admissionYear}年录取 | {successCase.program}
+            <div className="prose max-w-none dark:prose-invert">
+              <p>{program.language_requirements || '暂无语言要求信息'}</p>
                       </div>
                     </div>
-                    <div className="bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 text-xs font-medium px-2 py-1 rounded-full">
-                      成功录取
+          
+          {/* 师资力量卡片 */}
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300">
+            <div className="flex items-center gap-2 mb-4">
+              <Users className="h-5 w-5 text-amber-500" />
+              <h2 className="text-xl font-bold dark:text-white">师资力量</h2>
                     </div>
-                  </div>
-                  <div className="text-sm text-gray-600 dark:text-gray-300 mb-2">
-                    {successCase.background}
-                  </div>
-                  <div className="text-sm text-gray-600 dark:text-gray-300">
-                    {successCase.story}
-                  </div>
-                </div>
-              ))}
+            <div className="prose max-w-none dark:prose-invert">
+              <p>{program.faculty || '暂无师资力量信息'}</p>
             </div>
           </div>
           
-          {/* 在线咨询按钮 */}
-          <div className="fixed bottom-6 right-6">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-lg flex items-center gap-2 transition-colors">
-              <FileText className="h-5 w-5" />
-              在线咨询
-            </button>
+          {/* 专业分析卡片 */}
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300">
+            <div className="flex items-center gap-2 mb-4">
+              <Briefcase className="h-5 w-5 text-indigo-500" />
+              <h2 className="text-xl font-bold dark:text-white">专业分析</h2>
+            </div>
+            <div className="prose max-w-none dark:prose-invert">
+              <p>{program.analysis || '暂无专业分析信息'}</p>
+            </div>
           </div>
+          
         </div>
       </div>
     </div>

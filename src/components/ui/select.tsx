@@ -11,26 +11,34 @@ const SelectValue = SelectPrimitive.Value
 const SelectTrigger = React.forwardRef<
   React.ElementRef<typeof SelectPrimitive.Trigger>,
   React.ComponentPropsWithoutRef<typeof SelectPrimitive.Trigger>
->(({ className, children, ...props }, ref) => (
+>(({ className, children, id, name, ...props }, ref) => {
+  // 确保每个选择框都有id和name属性
+  const selectId = id || `select-${Math.random().toString(36).substring(2, 9)}`;
+  const selectName = name || selectId;
+
+  return (
   <SelectPrimitive.Trigger
     ref={ref}
     className={`
-      flex h-10 w-full items-center justify-between rounded-md border border-gray-200 
-      bg-white px-3 py-2 text-sm ring-offset-white placeholder:text-gray-500 
-      focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 
-      disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 
-      dark:bg-gray-800 dark:ring-offset-gray-950 dark:placeholder:text-gray-400 
+      flex h-10 w-full items-center justify-between rounded-md border border-gray-200
+      bg-white px-3 py-2 text-sm ring-offset-white placeholder:text-gray-500
+      focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2
+      disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700
+      dark:bg-gray-800 dark:ring-offset-gray-950 dark:placeholder:text-gray-400
       dark:focus:ring-indigo-400
       ${className}
     `}
     {...props}
+    id={selectId}
+    name={selectName}
   >
     {children}
     <SelectPrimitive.Icon asChild>
       <ChevronDown className="h-4 w-4 opacity-50" />
     </SelectPrimitive.Icon>
   </SelectPrimitive.Trigger>
-))
+  )
+})
 SelectTrigger.displayName = SelectPrimitive.Trigger.displayName
 
 const SelectContent = React.forwardRef<
@@ -41,8 +49,8 @@ const SelectContent = React.forwardRef<
     <SelectPrimitive.Content
       ref={ref}
       className={`
-        relative z-50 min-w-[8rem] overflow-hidden rounded-md border border-gray-200 
-        bg-white text-gray-700 shadow-md animate-in fade-in-80 
+        relative z-50 min-w-[8rem] overflow-hidden rounded-md border border-gray-200
+        bg-white text-gray-700 shadow-md animate-in fade-in-80
         dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300
         ${position === "popper" ? "translate-y-1" : ""}
         ${className}
@@ -52,8 +60,8 @@ const SelectContent = React.forwardRef<
     >
       <SelectPrimitive.Viewport
         className={`
-          p-1 ${position === "popper" ? 
-          "h-[var(--radix-select-trigger-height)] w-full min-w-[var(--radix-select-trigger-width)]" : 
+          p-1 ${position === "popper" ?
+          "h-[var(--radix-select-trigger-height)] w-full min-w-[var(--radix-select-trigger-width)]" :
           ""
         }`}
       >
@@ -86,8 +94,8 @@ const SelectItem = React.forwardRef<
   <SelectPrimitive.Item
     ref={ref}
     className={`
-      relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 
-      text-sm outline-none focus:bg-gray-100 focus:text-gray-900 data-[disabled]:pointer-events-none 
+      relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2
+      text-sm outline-none focus:bg-gray-100 focus:text-gray-900 data-[disabled]:pointer-events-none
       data-[disabled]:opacity-50 dark:focus:bg-gray-700 dark:focus:text-gray-50
       ${className}
     `}
@@ -128,4 +136,4 @@ export {
   SelectLabel,
   SelectItem,
   SelectSeparator,
-} 
+}
