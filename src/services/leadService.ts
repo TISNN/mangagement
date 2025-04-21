@@ -48,6 +48,8 @@ export interface LeadLog {
   content: string;
   next_follow_up: string | null;
   created_at: string;
+  type?: string; // 添加类型字段
+  date?: string; // 添加日期字段兼容性
 }
 
 /**
@@ -58,6 +60,9 @@ export interface CreateLeadLogParams {
   employee_id?: string | number;
   content: string;
   next_follow_up?: string | null;
+  type?: string; // 添加类型字段
+  date?: string; // 添加日期字段
+  operator?: string; // 添加操作人字段
 }
 
 /**
@@ -396,11 +401,12 @@ export const leadService = {
       
       const logData = {
         lead_id: typeof params.lead_id === 'string' ? parseInt(params.lead_id, 10) : params.lead_id,
-        employee_id: params.employee_id ? (typeof params.employee_id === 'string' ? parseInt(params.employee_id, 10) : params.employee_id) : null,
-        log_date: now,
+        employee_id: params.employee_id || params.operator ? (typeof params.employee_id === 'string' ? parseInt(params.employee_id, 10) : (params.employee_id || params.operator)) : null,
+        log_date: params.date || now,
         content: params.content,
         next_follow_up: params.next_follow_up || null,
-        created_at: now
+        created_at: now,
+        type: params.type || 'GENERAL' // 默认类型
       };
       
       const { data, error } = await supabase
@@ -419,6 +425,27 @@ export const leadService = {
       console.error('创建线索日志失败', error);
       throw error;
     }
+  },
+  
+  /**
+   * addLeadLog 方法 - createLeadLog 的别名，用于兼容性
+   */
+  async addLeadLog(params: {
+    lead_id: string | number;
+    type?: string;
+    content: string;
+    date?: string;
+    operator?: string | number;
+    next_follow_up?: string | null;
+  }): Promise<LeadLog> {
+    return this.createLeadLog({
+      lead_id: params.lead_id,
+      employee_id: params.operator,
+      content: params.content,
+      date: params.date,
+      type: params.type,
+      next_follow_up: params.next_follow_up
+    });
   }
 };
 

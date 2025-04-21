@@ -9,6 +9,7 @@ import { LeadLog } from '../../services/leadService';
 import { ServiceType } from '../../services/serviceTypeService';
 import { Mentor } from '../../services/mentorService';
 import { simplifyDateFormat } from '../../utils/dateUtils';
+import { toast } from 'react-hot-toast';
 
 interface LeadsPageProps {
   setCurrentPage?: (page: string) => void;
@@ -55,6 +56,13 @@ function LeadsPage({ setCurrentPage: setAppCurrentPage }: LeadsPageProps) {
   const [loadingLogs, setLoadingLogs] = useState(false);
   const [submittingLog, setSubmittingLog] = useState(false);
   const logContentRef = useRef<HTMLTextAreaElement>(null);
+  
+  // 添加跟进记录功能相关状态
+  const [showFollowUpModal, setShowFollowUpModal] = useState(false);
+  const [selectedLeadForFollowUp, setSelectedLeadForFollowUp] = useState<Lead | null>(null);
+  const [followUpContent, setFollowUpContent] = useState('');
+  const [followUpDate, setFollowUpDate] = useState('');
+  const [submittingFollowUp, setSubmittingFollowUp] = useState(false);
   
   // 初始加载数据
   useEffect(() => {
@@ -274,11 +282,16 @@ function LeadsPage({ setCurrentPage: setAppCurrentPage }: LeadsPageProps) {
     return serviceType ? serviceType.name : `项目${interestId}`;
   };
   
-  // 获取顾问显示名称
-  const getMentorName = (mentorId: string) => {
-    if (!mentorId) return '';
+  // 获取顾问信息（头像和名称）
+  const getMentorInfo = (mentorId: string) => {
+    if (!mentorId) return { name: '未分配', avatar: 'https://via.placeholder.com/24' };
     const mentor = mentors.find(m => m.id === parseInt(mentorId));
-    return mentor ? mentor.name : `顾问${mentorId}`;
+    return mentor 
+      ? { 
+          name: mentor.name, 
+          avatar: mentor.avatar_url || 'https://via.placeholder.com/24' // 确保有默认头像
+        } 
+      : { name: `顾问${mentorId}`, avatar: 'https://via.placeholder.com/24' };
   };
 
   // 计算本周需要跟进的线索数量
@@ -317,6 +330,76 @@ function LeadsPage({ setCurrentPage: setAppCurrentPage }: LeadsPageProps) {
         return false; // 日期解析错误，不计入跟进
       }
     }).length;
+  };
+
+  // 添加计算天数差的函数
+  const getDaysSinceLastContact = (dateString: string): number => {
+    if (!dateString) return 0;
+    
+    try {
+      const lastContact = new Date(dateString);
+      const today = new Date();
+      
+      // 重置时间部分，只比较日期
+      lastContact.setHours(0, 0, 0, 0);
+      today.setHours(0, 0, 0, 0);
+      
+      const diffTime = Math.abs(today.getTime() - lastContact.getTime());
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+      
+      return diffDays;
+    } catch (error) {
+      console.error('计算日期差异失败:', error);
+      return 0;
+    }
+  };
+
+  // 处理跟进记录
+  const handleFollowUp = (e: React.MouseEvent, lead: Lead) => {
+    e.stopPropagation(); // 阻止事件冒泡，防止触发行点击事件
+    setSelectedLeadForFollowUp(lead);
+    setShowFollowUpModal(true);
+  };
+
+  // 提交跟进记录
+  const submitFollowUp = async () => {
+    if (!followUpContent.trim()) {
+      toast.error('请输入跟进内容');
+      return;
+    }
+
+    if (!selectedLeadForFollowUp) {
+      toast.error('未选择线索');
+      return;
+    }
+
+    setSubmittingFollowUp(true);
+    try {
+      await leadService.addLeadLog({
+        lead_id: selectedLeadForFollowUp.id,
+        type: 'FOLLOW_UP',
+        content: followUpContent,
+        date: new Date().toISOString(),
+        next_follow_up: followUpDate || null,
+        operator: '1' // 这里可以替换为当前登录用户的ID
+      });
+
+      // 重新获取线索列表，更新状态
+      await fetchLeads();
+      
+      // 重置表单
+      setFollowUpContent('');
+      setFollowUpDate('');
+      setShowFollowUpModal(false);
+      setSelectedLeadForFollowUp(null);
+      
+      toast.success('添加跟进记录成功');
+    } catch (error) {
+      console.error('添加跟进记录失败:', error);
+      toast.error('添加跟进记录失败');
+    } finally {
+      setSubmittingFollowUp(false);
+    }
   };
 
   return (
@@ -576,6 +659,22 @@ function LeadsPage({ setCurrentPage: setAppCurrentPage }: LeadsPageProps) {
                                   <Phone className="h-3 w-3" />
                                   {lead.phone}
                                 </span>
+                                {lead.lastContact && (
+                                  <span className="flex items-center gap-1">
+                                    <Clock className="h-3 w-3" />
+                                    <span className={`text-xs ${
+                                      lead.status === 'closed' || lead.status === 'converted' 
+                                        ? 'text-gray-500' 
+                                        : getDaysSinceLastContact(lead.lastContact) > 7
+                                          ? 'text-red-600 font-medium'
+                                          : 'text-blue-600'
+                                    }`}>
+                                      {lead.status === 'closed' || lead.status === 'converted' 
+                                        ? '已结束' 
+                                        : `${getDaysSinceLastContact(lead.lastContact)}天前`}
+                                    </span>
+                                  </span>
+                                )}
                               </div>
                             </div>
                           </div>
@@ -601,7 +700,33 @@ function LeadsPage({ setCurrentPage: setAppCurrentPage }: LeadsPageProps) {
                             {statusNameMap[lead.status]}
                           </span>
                         </td>
-                        <td className="py-4 px-6 text-sm text-gray-600 dark:text-gray-300">{getMentorName(lead.assignedTo)}</td>
+                        <td className="py-4 px-6">
+                          <div className="flex items-center">
+                            {lead.assignedTo ? (
+                              <>
+                                <div className="relative h-6 w-6 rounded-full mr-2 overflow-hidden bg-blue-100 flex items-center justify-center">
+                                  <img 
+                                    src={getMentorInfo(lead.assignedTo).avatar} 
+                                    alt={getMentorInfo(lead.assignedTo).name}
+                                    className="h-full w-full object-cover"
+                                    onError={(e) => {
+                                      e.currentTarget.style.display = 'none';
+                                      e.currentTarget.parentElement?.classList.add('flex');
+                                    }}
+                                  />
+                                  <span className="absolute text-xs font-medium text-blue-600">
+                                    {getMentorInfo(lead.assignedTo).name.charAt(0).toUpperCase()}
+                                  </span>
+                                </div>
+                                <span className="text-sm text-gray-600 dark:text-gray-300">
+                                  {getMentorInfo(lead.assignedTo).name}
+                                </span>
+                              </>
+                            ) : (
+                              <span className="text-sm text-gray-500 dark:text-gray-400">未分配</span>
+                            )}
+                          </div>
+                        </td>
                         <td className="py-4 px-6">
                           <span className={`px-3 py-1 rounded-full text-xs font-medium ${priorityColorMap[lead.priority]}`}>
                             {priorityNameMap[lead.priority]}
@@ -609,6 +734,13 @@ function LeadsPage({ setCurrentPage: setAppCurrentPage }: LeadsPageProps) {
                         </td>
                         <td className="py-4 px-6 text-right" onClick={(e) => e.stopPropagation()}>
                           <div className="flex items-center justify-end gap-2">
+                            <button
+                              onClick={(e) => handleFollowUp(e, lead)}
+                              className="p-2 text-blue-600 hover:text-blue-800 hover:bg-blue-50 rounded-md dark:text-blue-400 dark:hover:bg-blue-900/20"
+                              title="添加跟进"
+                            >
+                              <MessageSquare className="h-4 w-4" />
+                            </button>
                             <button
                               onClick={() => handleEditLead(lead)}
                               className="p-2 text-gray-600 hover:text-gray-800 hover:bg-gray-50 rounded-md dark:text-gray-400 dark:hover:bg-gray-800"
@@ -697,6 +829,84 @@ function LeadsPage({ setCurrentPage: setAppCurrentPage }: LeadsPageProps) {
           serviceTypes={serviceTypes}
           mentors={mentors}
         />
+      )}
+      
+      {/* 添加快速跟进记录模态框 */}
+      {showFollowUpModal && selectedLeadForFollowUp && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-2xl p-6 max-w-md w-full dark:bg-gray-800 shadow-xl">
+            <div className="flex justify-between items-center mb-4">
+              <h3 className="text-lg font-semibold dark:text-white">添加跟进记录</h3>
+              <button
+                onClick={() => setShowFollowUpModal(false)}
+                className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300"
+              >
+                <X className="h-5 w-5" />
+              </button>
+            </div>
+            
+            <div className="mb-4">
+              <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">
+                正在为 <span className="font-semibold">{selectedLeadForFollowUp.name}</span> 添加跟进记录
+              </p>
+              
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-gray-700 mb-1 dark:text-gray-300">
+                  跟进内容
+                </label>
+                <textarea
+                  value={followUpContent}
+                  onChange={(e) => setFollowUpContent(e.target.value)}
+                  className="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+                  rows={4}
+                  placeholder="请输入跟进内容..."
+                />
+              </div>
+              
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-gray-700 mb-1 dark:text-gray-300">
+                  下次跟进日期（可选）
+                </label>
+                <input
+                  type="date"
+                  value={followUpDate}
+                  onChange={(e) => setFollowUpDate(e.target.value)}
+                  className="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+                />
+              </div>
+            </div>
+            
+            <div className="flex justify-end gap-3">
+              <button
+                onClick={() => setShowFollowUpModal(false)}
+                className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600"
+              >
+                取消
+              </button>
+              <button
+                onClick={submitFollowUp}
+                disabled={submittingFollowUp || !followUpContent.trim()}
+                className={`px-4 py-2 bg-blue-600 text-white rounded-lg flex items-center gap-2 ${
+                  submittingFollowUp || !followUpContent.trim() 
+                    ? 'opacity-70 cursor-not-allowed' 
+                    : 'hover:bg-blue-700'
+                }`}
+              >
+                {submittingFollowUp ? (
+                  <>
+                    <div className="animate-spin rounded-full h-4 w-4 border-2 border-white border-t-transparent"></div>
+                    处理中...
+                  </>
+                ) : (
+                  <>
+                    <Send className="h-4 w-4" />
+                    提交跟进
+                  </>
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );
