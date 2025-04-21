@@ -5,7 +5,7 @@ import os
 def clean_macau_programs():
     # 设置文件路径
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    input_file = os.path.join(current_dir, 'uk_programs_new.csv')
+    input_file = os.path.join(current_dir, 'australia_programs_new.csv')
     
     # 读取CSV文件
     print(f"正在读取 {input_file}...")
@@ -16,11 +16,11 @@ def clean_macau_programs():
     print(f"原始数据行数: {original_count}")
     
     # 提取获取失败的URL
-    failed_urls = df[df['cn_name'] == '获取失败']['url'].tolist()
+    failed_urls = df[df['中文名称'] == '获取失败']['项目链接'].tolist()
     
     # 如果有获取失败的URL，保存到文件
     if failed_urls:
-        failed_urls_file = os.path.join(current_dir, 'failed_uk_urls.txt')
+        failed_urls_file = os.path.join(current_dir, 'failed_us_urls.txt')
         print(f"发现 {len(failed_urls)} 个获取失败的URL")
         with open(failed_urls_file, 'w', encoding='utf-8') as f:
             for url in failed_urls:
@@ -30,11 +30,11 @@ def clean_macau_programs():
         print("没有发现获取失败的URL")
     
     # 删除获取失败的记录
-    df = df[df['cn_name'] != '获取失败']
+    df = df[df['中文名称'] != '获取失败']
    
     
     # 保存清理后的数据
-    output_file = os.path.join(current_dir, 'uk_programs_cleaned.csv')
+    output_file = os.path.join(current_dir, 'australia_programs_cleaned.csv')
     df.to_csv(output_file, index=False, encoding='utf-8')
     
     # 打印统计信息

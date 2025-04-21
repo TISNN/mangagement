@@ -122,7 +122,7 @@ const peopleService = {
   // 创建或更新学生
   async upsertStudent(student: Partial<StudentData>): Promise<StudentData> {
     try {
-      console.log('学生数据:', student);
+      console.log('学生数据原始输入:', student);
       
       // 确保status字段的值正确（如果提供）
       if (student.status) {
@@ -144,22 +144,115 @@ const peopleService = {
           .select()
           .single();
         
-        if (error) throw error;
+        if (error) {
+          console.error('更新学生失败，详细错误:', error);
+          throw error;
+        }
         return data as StudentData;
       } else {
         // 创建新学生
         console.log('创建新学生');
+        
+        // 创建一个新对象，确保不包含id属性
+        const newStudent = { ...student };
+        if ('id' in newStudent) {
+          console.log('删除学生数据中的ID字段，让数据库自动生成ID');
+          delete newStudent.id; // 明确删除可能存在的id属性，让数据库自动生成
+        }
+        
+        // 检查有没有同名学生
+        if (newStudent.name) {
+          const { data: existingStudent, error: searchError } = await supabase
+            .from('students')
+            .select('id, name')
+            .eq('name', newStudent.name)
+            .maybeSingle();
+            
+          if (searchError) {
+            console.error('检查重名学生时出错:', searchError);
+          } else if (existingStudent) {
+            console.warn(`发现同名学生: ${existingStudent.name} (ID=${existingStudent.id})`);
+            // 这里不抛出错误，而是继续尝试插入，让数据库决定是否允许同名
+          }
+        }
+        
+        console.log('即将创建的学生数据:', newStudent);
+        
+        // 获取当前序列值，用于日志记录检查
+        try {
+          const { data: seqData, error: seqError } = await supabase
+            .rpc('get_next_student_id');
+          if (!seqError && seqData) {
+            console.log('下一个学生ID将是:', seqData);
+          }
+        } catch (seqError) {
+          console.log('无法获取序列值，继续执行:', seqError);
+        }
+        
         const { data, error } = await supabase
           .from('students')
-          .insert(student)
+          .insert(newStudent)
           .select()
           .single();
         
-        if (error) throw error;
+        if (error) {
+          console.error('创建学生失败，详细错误:', error);
+          console.error('错误代码:', error.code);
+          console.error('错误详情:', error.details);
+          console.error('错误消息:', error.message);
+          
+          // 如果是主键冲突错误，尝试自行生成一个替代ID
+          if (error.code === '23505' && error.details?.includes('students_pkey')) {
+            console.log('检测到主键冲突，尝试使用自定义ID');
+            
+            // 获取一个可用的ID
+            const { data: maxIdData, error: maxIdError } = await supabase
+              .from('students')
+              .select('id')
+              .order('id', { ascending: false })
+              .limit(1)
+              .single();
+              
+            if (maxIdError) {
+              console.error('获取最大ID失败:', maxIdError);
+              throw error; // 抛出原始错误
+            }
+            
+            const newId = (maxIdData.id || 0) + 1;
+            console.log(`尝试使用新ID: ${newId}`);
+            
+            // 使用新ID重新尝试插入
+            const retryStudent = { ...newStudent, id: newId };
+            const { data: retryData, error: retryError } = await supabase
+              .from('students')
+              .insert(retryStudent)
+              .select()
+              .single();
+              
+            if (retryError) {
+              console.error('使用自定义ID重试失败:', retryError);
+              throw error; // 抛出原始错误
+            }
+            
+            console.log('使用自定义ID成功创建学生:', retryData);
+            return retryData as StudentData;
+          }
+          
+          throw error;
+        }
+        
+        console.log('成功创建学生:', data);
         return data as StudentData;
       }
-    } catch (error) {
+    } catch (error: unknown) {
       console.error('保存学生信息失败', error);
+      // 打印更多错误信息以便调试
+      if (error && typeof error === 'object' && 'code' in error) {
+        const dbError = error as { code: string; details?: string; message: string };
+        console.error(`错误代码: ${dbError.code}`);
+        console.error(`错误详情: ${JSON.stringify(dbError.details || {})}`);
+        console.error(`错误消息: ${dbError.message}`);
+      }
       throw error;
     }
   },
@@ -237,12 +330,41 @@ const peopleService = {
   // 保存学生服务
   async upsertStudentService(service: Partial<StudentService>): Promise<StudentService> {
     try {
-      // 调整字段 - 仅处理mentor_id，保留student_id不变
+      console.log('原始服务数据:', JSON.stringify(service, null, 2));
+      
+      // 调整字段 - 处理student_id和mentor_id
       const updatedService: Record<string, unknown> = { ...service };
-      // 不再重命名student_id
+      
+      // 确保student_ref_id字段被设置
+      if ('student_id' in updatedService && !updatedService.student_ref_id) {
+        updatedService.student_ref_id = updatedService.student_id;
+        console.log(`设置student_ref_id=${updatedService.student_ref_id}`);
+      }
+      
+      // 处理mentor_id
       if ('mentor_id' in updatedService) {
         updatedService.mentor_ref_id = updatedService.mentor_id;
         delete updatedService.mentor_id;
+      }
+      
+      console.log('处理后的服务数据:', JSON.stringify(updatedService, null, 2));
+      
+      // 尝试插入服务前，先检查是否已存在相同的服务记录
+      if (!updatedService.id && updatedService.student_id && updatedService.service_type_id) {
+        const { data: existingServices, error: checkError } = await supabase
+          .from('student_services')
+          .select('id')
+          .eq('student_id', updatedService.student_id)
+          .eq('service_type_id', updatedService.service_type_id);
+          
+        if (checkError) {
+          console.error('检查已存在服务时出错:', checkError);
+        } else if (existingServices && existingServices.length > 0) {
+          console.warn(`发现已存在的相同服务: 学生ID=${updatedService.student_id}, 服务类型ID=${updatedService.service_type_id}`);
+          // 如果已存在，将其设为更新模式
+          updatedService.id = existingServices[0].id;
+          console.log(`改为更新已存在的服务ID=${updatedService.id}`);
+        }
       }
       
       const { data, error } = await supabase
@@ -255,7 +377,15 @@ const peopleService = {
         `)
         .single();
       
-      if (error) throw error;
+      if (error) {
+        console.error('保存服务失败，详细错误:', error);
+        console.error('错误代码:', error.code);
+        console.error('错误详情:', error.details);
+        console.error('错误消息:', error.message);
+        throw error;
+      }
+      
+      console.log('服务成功保存，返回数据:', data);
       
       // 转换回旧格式以保持接口兼容性
       const result = {
@@ -264,8 +394,14 @@ const peopleService = {
       };
       
       return result as StudentService;
-    } catch (error) {
+    } catch (error: any) {
       console.error('保存学生服务失败', error);
+      // 打印更多错误信息以便调试
+      if (error.code) {
+        console.error(`错误代码: ${error.code}`);
+        console.error(`错误详情: ${JSON.stringify(error.details || {})}`);
+        console.error(`错误消息: ${error.message}`);
+      }
       throw error;
     }
   },
@@ -566,7 +702,26 @@ const peopleService = {
     }
   },
 
-  // 创建或更新学生档案
+  // 更新线索状态
+  async updateLeadStatus(leadId: string, status: 'new' | 'contacted' | 'qualified' | 'converted' | 'closed'): Promise<void> {
+    try {
+      console.log(`更新线索状态，leadId=${leadId}, status=${status}`);
+      
+      const { error } = await supabase
+        .from('leads')
+        .update({ status })
+        .eq('id', leadId);
+      
+      if (error) throw error;
+      
+      console.log(`成功更新线索状态，leadId=${leadId}, status=${status}`);
+    } catch (error) {
+      console.error(`更新线索状态失败，leadId=${leadId}`, error);
+      throw error;
+    }
+  },
+
+  // 保存学生档案
   async upsertStudentProfile(profile: Partial<StudentProfile>): Promise<StudentProfile> {
     try {
       console.log('正在保存学生档案:', profile);

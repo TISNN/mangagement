@@ -77,4 +77,29 @@ export function getCurrentLocalISOString(): string {
  */
 export function getCurrentLocalDate(): string {
   return getCurrentLocalISOString().split('T')[0];
+}
+
+/**
+ * 简化日期格式，仅保留年月日部分 (YYYY-MM-DD)
+ * @param dateString ISO格式的日期字符串
+ * @returns YYYY-MM-DD格式的日期字符串
+ */
+export function simplifyDateFormat(dateString: string | null | undefined): string {
+  if (!dateString) return '';
+  
+  // 如果日期包含T，取T前面的部分
+  if (dateString.includes('T')) {
+    return dateString.split('T')[0];
+  }
+  
+  // 已经是简化格式或其他格式，尝试转换为Date对象再格式化
+  try {
+    const date = new Date(dateString);
+    if (isNaN(date.getTime())) return dateString; // 如果无法解析，返回原字符串
+    
+    return date.toISOString().split('T')[0];
+  } catch (error) {
+    console.error('日期格式化错误:', error);
+    return dateString; // 返回原字符串
+  }
 } 

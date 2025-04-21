@@ -42,6 +42,8 @@ import AttendancePage, { AttendanceProvider, useAttendance } from './pages/admin
 import ApplicationsPage from './pages/admin/ApplicationsPage'; // 确保导入独立的ApplicationsPage组件
 // 导入PlanningDetailPage组件
 import PlanningDetailPage from './pages/admin/PlanningDetailPage';
+// 导入LeadDetailPage组件
+import LeadDetailPage from './pages/admin/LeadDetailPage';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('dashboard'); // 默认显示控制台
@@ -56,29 +58,24 @@ function App() {
   // 修改导航菜单项
   const navigationItems = [
     { icon: LayoutGrid, text: '控制台', id: 'dashboard', color: 'blue' },
-    { icon: UserRound, text: '员工管理', id: 'employees', color: 'green' },
-    { icon: ListTodo, text: '任务管理', id: 'tasks', color: 'purple' },
-    { icon: MessageCircle, text: '团队聊天', id: 'team-chat', color: 'pink' },
-    { icon: Users, text: '学生管理', id: 'students', color: 'orange' },
-    { icon: School, text: '选校助手', id: 'school-assistant', color: 'indigo' },
-    { icon: Briefcase, text: '服务项目', id: 'projects', color: 'red' },
-    { icon: FileCheck, text: '申请进度', id: 'applications', color: 'yellow' },
-    { icon: MessagesSquare, text: '客户线索', id: 'leads', color: 'pink' },
-    { icon: UserSquare2, text: '导师库', id: 'mentors', color: 'cyan' },
-    { icon: Library, text: '知识库', id: 'knowledge', color: 'teal' },
-    { icon: Bot, text: 'AI大模型', id: 'aiModel', color: 'lime' },
-    { icon: Video, text: '面试培训', id: 'interview', color: 'amber' },
-    { icon: ClipboardList, text: '案例库', id: 'cases', color: 'rose' },
-    { icon: FileText, text: '合同管理', id: 'contracts', color: 'emerald' },
-    { icon: Share2, text: '社媒运营', id: 'social', color: 'violet' },
-    { icon: Wallet, text: '财务管理', id: 'finance', color: 'fuchsia' },
-    { icon: Settings, text: '系统设置', id: 'settings', color: 'gray' },
-    { 
-      id: 'attendance', 
-      text: '考勤打卡', 
-      icon: ClipboardCheck, 
-      color: 'rose'
-    },
+    { icon: UserRound, text: '员工管理', id: 'employees', color: 'blue' },
+    { icon: ListTodo, text: '任务管理', id: 'tasks', color: 'blue' },
+    // { icon: MessageCircle, text: '团队聊天', id: 'team-chat', color: 'blue' },
+    { icon: Users, text: '学生管理', id: 'students', color: 'blue' },
+    { icon: School, text: '选校助手', id: 'school-assistant', color: 'blue' },
+    { icon: Briefcase, text: '服务项目', id: 'projects', color: 'blue' },
+    { icon: FileCheck, text: '申请进度', id: 'applications', color: 'blue' },
+    { icon: MessagesSquare, text: '客户线索', id: 'leads', color: 'blue' },
+    { icon: UserSquare2, text: '导师库', id: 'mentors', color: 'blue' },
+    { icon: Library, text: '知识库', id: 'knowledge', color: 'blue' },
+    // { icon: Bot, text: 'AI大模型', id: 'aiModel', color: 'blue' },
+    // { icon: Video, text: '面试培训', id: 'interview', color: 'blue' },
+    { icon: ClipboardList, text: '案例库', id: 'cases', color: 'blue' },
+    { icon: FileText, text: '合同管理', id: 'contracts', color: 'blue' },
+    // { icon: Share2, text: '社媒运营', id: 'social', color: 'blue' },
+    { icon: Wallet, text: '财务管理', id: 'finance', color: 'blue' },
+    { icon: ClipboardCheck, text: '考勤打卡', id: 'attendance', color: 'blue' },
+    { icon: Settings, text: '系统设置', id: 'settings', color: 'blue' },
   ];
   
   // 检查滚动状态

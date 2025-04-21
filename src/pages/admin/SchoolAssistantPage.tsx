@@ -1,29 +1,36 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { DragDropContext, Droppable, Draggable, DropResult } from 'react-beautiful-dnd';
 import {
-  School as SchoolIcon,
   Search,
-  Heart,
-  Trash2,
-  ChevronDown,
-  GripVertical,
-  MessageSquare,
-  Save,
-  BookOpen,
-  Bookmark,
-  MapPin,
-  Award,
-  Clock,
-  ChevronRight,
-  ExternalLink,
-  Info,
-  Filter,
   X,
+  ChevronDown,
+  ChevronUp,
+  MapPin,
+  ArrowUpDown,
+  Heart,
+  Bookmark,
+  Save,
+  History,
+  Target,
+  Star,
+  Shield,
+  HelpCircle,
+  MoreVertical,
+  Trash2,
+  ExternalLink,
+  Settings,
   Sliders,
-  RefreshCw
+  RefreshCw,
+  GripVertical,
+  Filter,
+  Info,
+  BookOpen,
+  MessageSquare,
+  Clock
 } from 'lucide-react';
+import { School as SchoolIcon } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useNavigate } from 'react-router-dom';
 import { supabase } from '../../utils/supabaseClient';
 
 // 添加UUID验证函数
@@ -102,6 +109,7 @@ interface School {
 interface SchoolWithNote extends School {
   note?: string;
   interestedPrograms?: string[];
+  applicationType?: 'dream' | 'target' | 'safety'; // 添加申请类型: 冲刺校、目标校、保底校
 }
 
 // 选校记录定义
@@ -838,13 +846,13 @@ const SchoolAssistantPage: React.FC = () => {
     );
   };
 
-  // 展开/收起学校的专业列表
+  // 修改toggleExpand函数
   const toggleExpand = (id: string) => {
-    setExpandedPrograms(prev =>
-      prev.includes(id)
-        ? prev.filter(item => item !== id)
-        : [...prev, id]
-    );
+    if (expandedPrograms.includes(id)) {
+      setExpandedPrograms(prev => prev.filter(item => item !== id));
+    } else {
+      setExpandedPrograms(prev => [...prev, id]);
+    }
   };
 
   // 顶部导航视图切换按钮
@@ -878,10 +886,17 @@ const SchoolAssistantPage: React.FC = () => {
             ? 'bg-blue-500 text-white'
             : 'bg-gray-200 dark:bg-gray-700 dark:text-gray-300'
         }`}
-        onClick={() => setCurrentView('selection')}
+        onClick={startSelection}
       >
         <Bookmark className="h-4 w-4" />
         开始选校
+      </button>
+      <button
+        className="px-6 py-2 rounded-md flex items-center gap-2 bg-gray-200 dark:bg-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600"
+        onClick={() => navigate('/admin/school-selection?view=history')}
+      >
+        <History className="h-4 w-4" />
+        选校记录
       </button>
     </div>
   );
@@ -1359,310 +1374,474 @@ const SchoolAssistantPage: React.FC = () => {
 
   // 专业筛选组件
   const ProgramFilters = () => (
-    <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm mb-4">
-      {/* 标题和重置按钮 */}
-      <div className="flex justify-between items-center mb-4">
-        <h3 className="text-lg font-semibold text-gray-800 dark:text-white">筛选条件</h3>
-        <button 
-          onClick={() => setProgramFilters({
-            category: '全部',
-            subCategory: '全部',
-            region: '全部',
-            country: '全部',
-            searchQuery: '',
-            degree: '全部',
-            duration: '全部'
-          })}
-          className="flex items-center gap-1 text-blue-500 hover:text-blue-600 text-sm"
-        >
-          <RefreshCw className="h-3.5 w-3.5" />
-          重置筛选
-        </button>
-      </div>
-      
-      {/* 地区筛选 - 单选按钮 */}
-      <div className="mb-6">
-        <div className="flex items-center gap-2 mb-4">
-          <span className="text-gray-700 dark:text-gray-300 font-medium text-base mr-4">地区：</span>
-          <div className="flex flex-wrap gap-6">
-            <label className="flex items-center cursor-pointer">
-              <input
-                type="radio"
-                name="country"
-                value="全部"
-                checked={programFilters.country === '全部'}
-                onChange={() => setProgramFilters({...programFilters, country: '全部'})}
-                className="w-4 h-4 text-blue-500"
-              />
-              <span className="ml-2 text-gray-700 dark:text-gray-300">不限</span>
-            </label>
-            <label className="flex items-center cursor-pointer">
-              <input
-                type="radio"
-                name="country"
-                value="英国"
-                checked={programFilters.country === '英国'}
-                onChange={() => setProgramFilters({...programFilters, country: '英国'})}
-                className="w-4 h-4 text-blue-500"
-              />
-              <span className="ml-2 text-gray-700 dark:text-gray-300">英国</span>
-            </label>
-            <label className="flex items-center cursor-pointer">
-              <input
-                type="radio"
-                name="country"
-                value="美国"
-                checked={programFilters.country === '美国'}
-                onChange={() => setProgramFilters({...programFilters, country: '美国'})}
-                className="w-4 h-4 text-blue-500"
-              />
-              <span className="ml-2 text-gray-700 dark:text-gray-300">美国</span>
-            </label>
-            <label className="flex items-center cursor-pointer">
-              <input
-                type="radio"
-                name="country"
-                value="中国香港"
-                checked={programFilters.country === '中国香港'}
-                onChange={() => setProgramFilters({...programFilters, country: '中国香港'})}
-                className="w-4 h-4 text-blue-500"
-              />
-              <span className="ml-2 text-gray-700 dark:text-gray-300">中国香港</span>
-            </label>
-            <label className="flex items-center cursor-pointer">
-              <input
-                type="radio"
-                name="country"
-                value="中国澳门"
-                checked={programFilters.country === '中国澳门'}
-                onChange={() => setProgramFilters({...programFilters, country: '中国澳门'})}
-                className="w-4 h-4 text-blue-500"
-              />
-              <span className="ml-2 text-gray-700 dark:text-gray-300">中国澳门</span>
-            </label>
-            <label className="flex items-center cursor-pointer">
-              <input
-                type="radio"
-                name="country"
-                value="新加坡"
-                checked={programFilters.country === '新加坡'}
-                onChange={() => setProgramFilters({...programFilters, country: '新加坡'})}
-                className="w-4 h-4 text-blue-500"
-              />
-              <span className="ml-2 text-gray-700 dark:text-gray-300">新加坡</span>
-            </label>
-            <label className="flex items-center cursor-pointer">
-              <input
-                type="radio"
-                name="country"
-                value="澳大利亚"
-                checked={programFilters.country === '澳大利亚'}
-                onChange={() => setProgramFilters({...programFilters, country: '澳大利亚'})}
-                className="w-4 h-4 text-blue-500"
-              />
-              <span className="ml-2 text-gray-700 dark:text-gray-300">澳大利亚</span>
-            </label>
+    <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 border border-gray-200 dark:border-gray-700">
+      <div className="flex flex-col space-y-4">
+        {/* 搜索框 */}
+        <div className="w-full mb-4">
+          <div className="relative">
+            <input
+              type="text"
+              value={programFilters.searchQuery}
+              onChange={(e) => setProgramFilters({...programFilters, searchQuery: e.target.value})}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                  // 回车时更新搜索状态并重置页码
+                  setCurrentProgramPage(0);
+                  saveSearchToHistory(programFilters.searchQuery);
+                }
+              }}
+              placeholder="搜索专业名称..."
+              className="w-full px-4 py-2 pl-10 border border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
+            />
+            <div className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </div>
+            {programFilters.searchQuery && (
+              <button 
+                onClick={() => setProgramFilters({...programFilters, searchQuery: ''})}
+                className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+              >
+                <X className="h-4 w-4" />
+              </button>
+            )}
           </div>
-        </div>
-      </div>
-
-      {/* 学位类型筛选 */}
-      <div className="mb-6 border-t border-gray-200 dark:border-gray-700 pt-6">
-        <div className="flex items-center gap-2 mb-4">
-          <span className="text-gray-700 dark:text-gray-300 font-medium text-base mr-4">学位类型：</span>
-          <div className="flex flex-wrap gap-6">
-            <label className="flex items-center cursor-pointer">
-              <input
-                type="radio"
-                name="degree"
-                value="全部"
-                checked={programFilters.degree === '全部'}
-                onChange={() => setProgramFilters({...programFilters, degree: '全部'})}
-                className="w-4 h-4 text-blue-500"
-              />
-              <span className="ml-2 text-gray-700 dark:text-gray-300">不限</span>
-            </label>
-            <label className="flex items-center cursor-pointer">
-              <input
-                type="radio"
-                name="degree"
-                value="本科"
-                checked={programFilters.degree === '本科'}
-                onChange={() => setProgramFilters({...programFilters, degree: '本科'})}
-                className="w-4 h-4 text-blue-500"
-              />
-              <span className="ml-2 text-gray-700 dark:text-gray-300">本科</span>
-            </label>
-            <label className="flex items-center cursor-pointer">
-              <input
-                type="radio"
-                name="degree"
-                value="硕士"
-                checked={programFilters.degree === '硕士'}
-                onChange={() => setProgramFilters({...programFilters, degree: '硕士'})}
-                className="w-4 h-4 text-blue-500"
-              />
-              <span className="ml-2 text-gray-700 dark:text-gray-300">硕士</span>
-            </label>
-            <label className="flex items-center cursor-pointer">
-              <input
-                type="radio"
-                name="degree"
-                value="博士"
-                checked={programFilters.degree === '博士'}
-                onChange={() => setProgramFilters({...programFilters, degree: '博士'})}
-                className="w-4 h-4 text-blue-500"
-              />
-              <span className="ml-2 text-gray-700 dark:text-gray-300">博士</span>
-            </label>
-            <label className="flex items-center cursor-pointer">
-              <input
-                type="radio"
-                name="degree"
-                value="MBA"
-                checked={programFilters.degree === 'MBA'}
-                onChange={() => setProgramFilters({...programFilters, degree: 'MBA'})}
-                className="w-4 h-4 text-blue-500"
-              />
-              <span className="ml-2 text-gray-700 dark:text-gray-300">MBA</span>
-            </label>
-          </div>
-        </div>
-      </div>
-
-      {/* 学制长度筛选 */}
-      <div className="mb-6 border-t border-gray-200 dark:border-gray-700 pt-6">
-        <div className="flex items-center gap-2 mb-4">
-          <span className="text-gray-700 dark:text-gray-300 font-medium text-base mr-4">学制长度：</span>
-          <div className="flex flex-wrap gap-6">
-            <label className="flex items-center cursor-pointer">
-              <input
-                type="radio"
-                name="duration"
-                value="全部"
-                checked={programFilters.duration === '全部'}
-                onChange={() => setProgramFilters({...programFilters, duration: '全部'})}
-                className="w-4 h-4 text-blue-500"
-              />
-              <span className="ml-2 text-gray-700 dark:text-gray-300">不限</span>
-            </label>
-            <label className="flex items-center cursor-pointer">
-              <input
-                type="radio"
-                name="duration"
-                value="1年"
-                checked={programFilters.duration === '1年'}
-                onChange={() => setProgramFilters({...programFilters, duration: '1年'})}
-                className="w-4 h-4 text-blue-500"
-              />
-              <span className="ml-2 text-gray-700 dark:text-gray-300">1年</span>
-            </label>
-            <label className="flex items-center cursor-pointer">
-              <input
-                type="radio"
-                name="duration"
-                value="1.5年"
-                checked={programFilters.duration === '1.5年'}
-                onChange={() => setProgramFilters({...programFilters, duration: '1.5年'})}
-                className="w-4 h-4 text-blue-500"
-              />
-              <span className="ml-2 text-gray-700 dark:text-gray-300">1.5年</span>
-            </label>
-            <label className="flex items-center cursor-pointer">
-              <input
-                type="radio"
-                name="duration"
-                value="2年"
-                checked={programFilters.duration === '2年'}
-                onChange={() => setProgramFilters({...programFilters, duration: '2年'})}
-                className="w-4 h-4 text-blue-500"
-              />
-              <span className="ml-2 text-gray-700 dark:text-gray-300">2年</span>
-            </label>
-            <label className="flex items-center cursor-pointer">
-              <input
-                type="radio"
-                name="duration"
-                value="3年"
-                checked={programFilters.duration === '3年'}
-                onChange={() => setProgramFilters({...programFilters, duration: '3年'})}
-                className="w-4 h-4 text-blue-500"
-              />
-              <span className="ml-2 text-gray-700 dark:text-gray-300">3年</span>
-            </label>
-            <label className="flex items-center cursor-pointer">
-              <input
-                type="radio"
-                name="duration"
-                value="4年"
-                checked={programFilters.duration === '4年'}
-                onChange={() => setProgramFilters({...programFilters, duration: '4年'})}
-                className="w-4 h-4 text-blue-500"
-              />
-              <span className="ml-2 text-gray-700 dark:text-gray-300">4年</span>
-            </label>
-          </div>
-        </div>
-      </div>
-
-      {/* 申请专业 - 类别选择 */}
-      <div className="mb-6 border-t border-gray-200 dark:border-gray-700 pt-6">
-        <div className="flex items-center gap-2 mb-4">
-          <span className="text-gray-700 dark:text-gray-300 font-medium text-base mr-4">申请专业：</span>
-          <div className="flex space-x-6">
-            <button
-              className={`flex items-center gap-1 ${programFilters.category === '商科' ? 'text-blue-500 font-medium' : 'text-gray-700 dark:text-gray-300'}`}
-              onClick={() => setProgramFilters({...programFilters, category: programFilters.category === '商科' ? '全部' : '商科'})}
+          
+          <div className="mt-2 flex justify-between items-center">
+            <div className="text-xs text-gray-500 dark:text-gray-400">
+              输入专业中文或英文名称，回车搜索
+            </div>
+            <button 
+              onClick={() => setShowAdvancedSearch(!showAdvancedSearch)}
+              className="text-xs text-blue-500 hover:text-blue-600 dark:text-blue-400 flex items-center"
             >
-              商科
-              <ChevronDown className={`h-4 w-4 transition-transform ${programFilters.category === '商科' ? 'rotate-180' : ''}`} />
-            </button>
-            <button
-              className={`flex items-center gap-1 ${programFilters.category === '社科' ? 'text-blue-500 font-medium' : 'text-gray-700 dark:text-gray-300'}`}
-              onClick={() => setProgramFilters({...programFilters, category: programFilters.category === '社科' ? '全部' : '社科'})}
-            >
-              社科
-              <ChevronDown className={`h-4 w-4 transition-transform ${programFilters.category === '社科' ? 'rotate-180' : ''}`} />
-            </button>
-            <button
-              className={`flex items-center gap-1 ${programFilters.category === '工科' ? 'text-blue-500 font-medium' : 'text-gray-700 dark:text-gray-300'}`}
-              onClick={() => setProgramFilters({...programFilters, category: programFilters.category === '工科' ? '全部' : '工科'})}
-            >
-              工科
-              <ChevronDown className={`h-4 w-4 transition-transform ${programFilters.category === '工科' ? 'rotate-180' : ''}`} />
-            </button>
-            <button
-              className={`flex items-center gap-1 ${programFilters.category === '理科' ? 'text-blue-500 font-medium' : 'text-gray-700 dark:text-gray-300'}`}
-              onClick={() => setProgramFilters({...programFilters, category: programFilters.category === '理科' ? '全部' : '理科'})}
-            >
-              理科
-              <ChevronDown className={`h-4 w-4 transition-transform ${programFilters.category === '理科' ? 'rotate-180' : ''}`} />
+              {showAdvancedSearch ? (
+                <>
+                  <ChevronUp className="h-3 w-3 mr-1" />
+                  收起高级搜索
+                </>
+              ) : (
+                <>
+                  <ChevronDown className="h-3 w-3 mr-1" />
+                  展开高级搜索
+                </>
+              )}
             </button>
           </div>
-        </div>
-      </div>
-
-      {/* 显示细分专业（如果选中了大类） */}
-      {programFilters.category !== '全部' && (
-        <div className="mb-6 ml-20 mt-2">
-          <div className="grid grid-cols-5 gap-4">
-            {getSubCategories(programFilters.category).map(subCategory => (
-              <label key={subCategory} className="flex items-center cursor-pointer">
-                <input
-                  type="checkbox"
-                  checked={programFilters.subCategory === subCategory}
-                  onChange={() => setProgramFilters({
-                    ...programFilters,
-                    subCategory: programFilters.subCategory === subCategory ? '全部' : subCategory
-                  })}
-                  className="w-4 h-4 text-blue-500 rounded"
+          
+          {/* 搜索历史 */}
+          {searchHistory.length > 0 && (
+            <div className="mt-2">
+              <div className="text-xs text-gray-500 dark:text-gray-400 mb-1">搜索历史:</div>
+              <div className="flex flex-wrap gap-2">
+                {searchHistory.map((query, index) => (
+                  <button
+                    key={index}
+                    onClick={() => {
+                      setProgramFilters({...programFilters, searchQuery: query});
+                      setCurrentProgramPage(0);
+                    }}
+                    className="text-xs px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600"
+                  >
+                    {query}
+                  </button>
+                ))}
+                <button
+                  onClick={() => {
+                    setSearchHistory([]);
+                    localStorage.removeItem('programSearchHistory');
+                  }}
+                  className="text-xs px-2 py-1 text-red-500 hover:text-red-600"
+                >
+                  清除历史
+                </button>
+              </div>
+            </div>
+          )}
+          
+          {/* 高级搜索选项 */}
+          {showAdvancedSearch && (
+            <div className="mt-3 p-3 border border-gray-200 dark:border-gray-700 rounded-md bg-gray-50 dark:bg-gray-800">
+              <div className="text-sm font-medium mb-2 text-gray-700 dark:text-gray-300">高级搜索选项</div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                <div>
+                  <label className="block text-xs text-gray-500 dark:text-gray-400 mb-1">包含关键词</label>
+                  <input
+                    type="text"
+                    placeholder="必须包含的关键词"
+                    className="w-full px-3 py-1.5 text-sm border border-gray-300 dark:border-gray-600 rounded focus:outline-none focus:ring-1 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
+                  />
+                </div>
+                <div>
+                  <label className="block text-xs text-gray-500 dark:text-gray-400 mb-1">排除关键词</label>
+                  <input
+                    type="text"
+                    placeholder="不包含的关键词"
+                    className="w-full px-3 py-1.5 text-sm border border-gray-300 dark:border-gray-600 rounded focus:outline-none focus:ring-1 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
+                  />
+                </div>
+              </div>
+            </div>
+          )}
+          
+          <div className="mt-3 flex">
+            <button
+              onClick={() => {
+                setCurrentProgramPage(0);
+                saveSearchToHistory(programFilters.searchQuery);
+              }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 flex items-center"
+            >
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                className="h-4 w-4 mr-2" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor"
+              >
+                <path 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  strokeWidth={2} 
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" 
                 />
-                <span className="ml-2 text-gray-700 dark:text-gray-300">{subCategory}</span>
-              </label>
-            ))}
+              </svg>
+              搜索专业
+            </button>
+            
+            <button
+              onClick={() => setProgramFilters({
+                ...programFilters,
+                category: '全部',
+                subCategory: '全部',
+                region: '全部',
+                country: '全部',
+                searchQuery: '',
+                degree: '全部',
+                duration: '全部'
+              })}
+              className="ml-3 px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-200 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600 flex items-center"
+            >
+              <RefreshCw className="h-4 w-4 mr-2" />
+              重置筛选
+            </button>
           </div>
         </div>
-      )}
+
+        {/* 筛选条件区域 - 采用统一的网格布局 */}
+        <div className="border-t pt-4 mt-2">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+            {/* 地区筛选 */}
+            <div className="space-y-3">
+              <h3 className="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center">
+                <MapPin className="h-4 w-4 mr-1.5 text-gray-500" />
+                地区
+              </h3>
+              <div className="grid grid-cols-2 gap-2">
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.country === '全部'}
+                    onChange={() => setProgramFilters({...programFilters, country: '全部'})}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">不限</span>
+                </label>
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.country === '英国'}
+                    onChange={() => setProgramFilters({...programFilters, country: '英国'})}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">英国</span>
+                </label>
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.country === '美国'}
+                    onChange={() => setProgramFilters({...programFilters, country: '美国'})}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">美国</span>
+                </label>
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.country === '中国香港'}
+                    onChange={() => setProgramFilters({...programFilters, country: '中国香港'})}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">中国香港</span>
+                </label>
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.country === '中国澳门'}
+                    onChange={() => setProgramFilters({...programFilters, country: '中国澳门'})}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">中国澳门</span>
+                </label>
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.country === '新加坡'}
+                    onChange={() => setProgramFilters({...programFilters, country: '新加坡'})}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">新加坡</span>
+                </label>
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.country === '澳大利亚'}
+                    onChange={() => setProgramFilters({...programFilters, country: '澳大利亚'})}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">澳大利亚</span>
+                </label>
+              </div>
+            </div>
+
+            {/* 学位类型 */}
+            <div className="space-y-3">
+              <h3 className="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center">
+                <Bookmark className="h-4 w-4 mr-1.5 text-gray-500" />
+                学位类型
+              </h3>
+              <div className="grid grid-cols-2 gap-2">
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.degree === '全部'}
+                    onChange={() => setProgramFilters({...programFilters, degree: '全部'})}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">不限</span>
+                </label>
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.degree === '本科'}
+                    onChange={() => setProgramFilters({...programFilters, degree: '本科'})}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">本科</span>
+                </label>
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.degree === '硕士'}
+                    onChange={() => setProgramFilters({...programFilters, degree: '硕士'})}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">硕士</span>
+                </label>
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.degree === '博士'}
+                    onChange={() => setProgramFilters({...programFilters, degree: '博士'})}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">博士</span>
+                </label>
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.degree === 'MBA'}
+                    onChange={() => setProgramFilters({...programFilters, degree: 'MBA'})}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">MBA</span>
+                </label>
+              </div>
+            </div>
+
+            {/* 学制长度 */}
+            <div className="space-y-3">
+              <h3 className="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center">
+                <Clock className="h-4 w-4 mr-1.5 text-gray-500" />
+                学制长度
+              </h3>
+              <div className="grid grid-cols-2 gap-2">
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.duration === '全部'}
+                    onChange={() => setProgramFilters({...programFilters, duration: '全部'})}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">不限</span>
+                </label>
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.duration === '1年'}
+                    onChange={() => setProgramFilters({...programFilters, duration: '1年'})}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">1年</span>
+                </label>
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.duration === '1.5年'}
+                    onChange={() => setProgramFilters({...programFilters, duration: '1.5年'})}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">1.5年</span>
+                </label>
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.duration === '2年'}
+                    onChange={() => setProgramFilters({...programFilters, duration: '2年'})}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">2年</span>
+                </label>
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.duration === '3年'}
+                    onChange={() => setProgramFilters({...programFilters, duration: '3年'})}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">3年</span>
+                </label>
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.duration === '4年'}
+                    onChange={() => setProgramFilters({...programFilters, duration: '4年'})}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">4年</span>
+                </label>
+              </div>
+            </div>
+
+            {/* 专业分类 */}
+            <div className="space-y-3">
+              <h3 className="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center">
+                <Bookmark className="h-4 w-4 mr-1.5 text-gray-500" />
+                专业类型
+              </h3>
+              <div className="grid grid-cols-2 gap-x-3 gap-y-2">
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.category === '全部'}
+                    onChange={() => {
+                      setProgramFilters({
+                        ...programFilters, 
+                        category: '全部',
+                        subCategory: '全部'
+                      });
+                    }}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">全部</span>
+                </label>
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.category === '商科'}
+                    onChange={() => {
+                      setProgramFilters({
+                        ...programFilters, 
+                        category: '商科',
+                        subCategory: '全部'
+                      });
+                    }}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">商科</span>
+                </label>
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.category === '社科'}
+                    onChange={() => {
+                      setProgramFilters({
+                        ...programFilters, 
+                        category: '社科',
+                        subCategory: '全部'
+                      });
+                    }}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">社科</span>
+                </label>
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.category === '工科'}
+                    onChange={() => {
+                      setProgramFilters({
+                        ...programFilters, 
+                        category: '工科',
+                        subCategory: '全部'
+                      });
+                    }}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">工科</span>
+                </label>
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.category === '理科'}
+                    onChange={() => {
+                      setProgramFilters({
+                        ...programFilters, 
+                        category: '理科',
+                        subCategory: '全部'
+                      });
+                    }}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">理科</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          {/* 子分类 - 仅在选择了主分类时显示 */}
+          {programFilters.category !== '全部' && (
+            <div className="mt-4 border-t pt-4 border-dashed">
+              <h3 className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
+                {programFilters.category}专业子类别
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2">
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    checked={programFilters.subCategory === '全部'}
+                    onChange={() => setProgramFilters({...programFilters, subCategory: '全部'})}
+                    className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                  />
+                  <span className="text-sm text-gray-700 dark:text-gray-300">全部</span>
+                </label>
+                {getSubCategories(programFilters.category).map(subCategory => (
+                  <label key={subCategory} className="flex items-center space-x-2 cursor-pointer">
+                    <input
+                      type="radio"
+                      checked={programFilters.subCategory === subCategory}
+                      onChange={() => setProgramFilters({...programFilters, subCategory})}
+                      className="h-4 w-4 text-blue-600 dark:text-blue-500"
+                    />
+                    <span className="text-sm text-gray-700 dark:text-gray-300">{subCategory}</span>
+                  </label>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
     </div>
   );
 
@@ -1895,359 +2074,248 @@ const SchoolAssistantPage: React.FC = () => {
     );
   };
 
-  // 同步选校到学生和申请记录
-  const syncToStudentAndApplication = async (studentId: number, selectionData: SchoolSelection) => {
-    try {
-      // 实际应用中，这里应该是API调用来保存数据
-      console.log(`同步选校数据到学生ID ${studentId} 的记录`);
 
-      // 1. 保存到学生记录
-      /*
-      const saveToStudent = await fetch(`/api/students/${studentId}/schoolPlanning`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(selectionData)
-      });
 
-      if (!saveToStudent.ok) {
-        throw new Error('保存到学生记录失败');
-      }
-      */
 
-      // 2. 同步到申请记录
-      /*
-      const syncToApplication = await fetch(`/api/applications/byStudent/${studentId}/planning`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          title: selectionData.name,
-          date: new Date().toISOString().split('T')[0],
-          version: `V${Math.floor(Math.random() * 10) + 1}.0`,
-          planner: '当前顾问', // 这应该从用户会话中获取
-          description: `${selectionData.name} - 通过选校助手创建`,
-          schools: selectionData.schools.map(school => ({
-            school: school.name,
-            program: school.interestedPrograms && school.interestedPrograms.length > 0
-              ? school.programs.find(p => p.id === school.interestedPrograms![0])?.name || '未指定专业'
-              : '未指定专业',
-            type: '目标院校', // 这里可以根据排名或其他因素决定类型
-            status: 'pending',
-            requirements: {
-              gpa: '待定',
-              ielts: '待定',
-              deadline: '待定',
-              preferences: ['待补充详细要求']
-            },
-            notes: school.note || ''
-          }))
-        })
-      });
 
-      if (!syncToApplication.ok) {
-        throw new Error('同步到申请记录失败');
-      }
-      */
+  // 选校侧边栏组件
+  const SelectionSidebar = () => {
+    if (!showSelectionSidebar) return null;
 
-      // 模拟成功
-      return true;
-    } catch (error) {
-      console.error('同步选校记录失败:', error);
-      return false;
-    }
-  };
-
-  // 保存到学生记录的模态框
-  const SaveToStudentModal = () => {
-    const [selectedStudent, setSelectedStudent] = useState('');
-    const [students] = useState([
-      { id: 1, name: 'Evan' },
-      { id: 2, name: '张三' },
-      { id: 3, name: '李四' }
-    ]);
-    const [isSaving, setIsSaving] = useState(false);
-
-    // 保存到学生记录
-    const handleSaveToStudent = async () => {
-      if (!selectedStudent) {
-        alert('请选择一个学生');
-        return;
-      }
-
-      if (interestedSchools.length === 0) {
-        alert('请先添加感兴趣的学校');
-        return;
-      }
-
-      try {
-        setIsSaving(true);
-
-        // 创建一个新的选校记录
-        const selectionData: SchoolSelection = {
-          id: Date.now().toString(),
-          timestamp: new Date().toISOString(),
-          schools: [...interestedSchools],
-          name: selectionName,
-          studentId: parseInt(selectedStudent)
-        };
-
-        // 同步到学生和申请记录
-        const success = await syncToStudentAndApplication(parseInt(selectedStudent), selectionData);
-
-        if (success) {
-          // 保存到本地选校历史
-          setSavedSelections([...savedSelections, selectionData]);
-          alert('选校方案已成功保存到学生记录!');
-          setShowSaveToStudentModal(false);
-        } else {
-          throw new Error('保存失败');
-        }
-      } catch (error) {
-        console.error('保存选校方案失败:', error);
-        alert('保存失败，请重试');
-      } finally {
-        setIsSaving(false);
-      }
-    };
+    // 按申请类型对学校进行分组
+    const dreamSchools = interestedSchools.filter(s => s.applicationType === 'dream');
+    const targetSchools = interestedSchools.filter(s => s.applicationType === 'target');
+    const safetySchools = interestedSchools.filter(s => s.applicationType === 'safety');
+    const uncategorizedSchools = interestedSchools.filter(s => !s.applicationType);
 
     return (
-      <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-        <div className="bg-white dark:bg-gray-800 rounded-xl p-6 w-full max-w-md">
-          <h2 className="text-xl font-semibold mb-4 dark:text-white">保存到学生记录</h2>
-          <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">
-            选择一名学生，将当前选校方案保存到该学生的申请记录中
-          </p>
+      <div className="fixed right-0 top-0 h-full w-80 bg-white dark:bg-gray-800 shadow-lg z-40 overflow-y-auto">
+        <div className="p-5 border-b border-gray-200 dark:border-gray-700">
+          <div className="flex justify-between items-center">
+            <h2 className="text-lg font-bold text-gray-900 dark:text-white">收藏夹</h2>
+            <button 
+              onClick={() => setShowSelectionSidebar(false)}
+              className="p-1 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700"
+            >
+              <X className="h-5 w-5 text-gray-500 dark:text-gray-400" />
+            </button>
+          </div>
 
-          <div className="mb-4">
-            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-              方案名称
-            </label>
+          <div className="mt-3">
             <input
               type="text"
-              className="w-full border rounded-lg p-2 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+              placeholder="选校方案名称"
+              className="w-full p-2 border border-gray-200 dark:border-gray-700 rounded-lg dark:bg-gray-700 dark:text-white"
               value={selectionName}
-              onChange={(e) => setSelectionName(e.target.value)}
-              placeholder="输入方案名称"
+              onChange={e => setSelectionName(e.target.value)}
             />
           </div>
 
-          <div className="mb-6">
-            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-              选择学生
-            </label>
-            <select
-              className="w-full border rounded-lg p-2 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
-              value={selectedStudent}
-              onChange={(e) => setSelectedStudent(e.target.value)}
+          <div className="mt-3 flex justify-between items-center">
+            <span className="text-sm text-gray-500 dark:text-gray-400">
+              共收藏了 {interestedSchools.length} 所学校
+            </span>
+            <button
+              onClick={saveSelection}
+              className="px-3 py-1 bg-blue-500 hover:bg-blue-600 text-white text-sm rounded-lg flex items-center gap-1"
             >
-              <option value="">请选择学生</option>
-              {students.map(student => (
-                <option key={student.id} value={student.id}>{student.name}</option>
+              <Save className="h-3.5 w-3.5" />
+              保存
+            </button>
+          </div>
+        </div>
+
+        <div className="p-5 space-y-5">
+          {/* 冲刺校 */}
+          <div>
+            <h3 className="text-sm font-medium text-purple-600 dark:text-purple-400 flex items-center gap-1.5 mb-2">
+              <Star className="h-4 w-4" />
+              冲刺校 ({dreamSchools.length})
+            </h3>
+            <div className="space-y-2">
+              {dreamSchools.map(school => (
+                <SchoolSelectionCard 
+                  key={school.id} 
+                  school={school} 
+                  onRemove={() => removeFromInterested(school.id)}
+                  onChangeType={setSchoolApplicationType}
+                />
               ))}
-            </select>
+            </div>
           </div>
 
-          <div className="flex justify-end gap-2">
-            <button
-              onClick={() => setShowSaveToStudentModal(false)}
-              className="px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-lg text-gray-800 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-200"
-              disabled={isSaving}
-            >
-              取消
-            </button>
-            <button
-              onClick={handleSaveToStudent}
-              className="px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded-lg text-white flex items-center gap-2"
-              disabled={isSaving}
-            >
-              {isSaving ? (
-                <>
-                  <span className="animate-spin h-4 w-4 border-2 border-white border-t-transparent rounded-full"></span>
-                  保存中...
-                </>
-              ) : (
-                '保存并同步'
-              )}
-            </button>
+          {/* 目标校 */}
+          <div>
+            <h3 className="text-sm font-medium text-blue-600 dark:text-blue-400 flex items-center gap-1.5 mb-2">
+              <Target className="h-4 w-4" />
+              目标校 ({targetSchools.length})
+            </h3>
+            <div className="space-y-2">
+              {targetSchools.map(school => (
+                <SchoolSelectionCard 
+                  key={school.id} 
+                  school={school} 
+                  onRemove={() => removeFromInterested(school.id)}
+                  onChangeType={setSchoolApplicationType}
+                />
+              ))}
+            </div>
           </div>
+
+          {/* 保底校 */}
+          <div>
+            <h3 className="text-sm font-medium text-green-600 dark:text-green-400 flex items-center gap-1.5 mb-2">
+              <Shield className="h-4 w-4" />
+              保底校 ({safetySchools.length})
+            </h3>
+            <div className="space-y-2">
+              {safetySchools.map(school => (
+                <SchoolSelectionCard 
+                  key={school.id} 
+                  school={school} 
+                  onRemove={() => removeFromInterested(school.id)}
+                  onChangeType={setSchoolApplicationType}
+                />
+              ))}
+            </div>
+          </div>
+
+          {/* 未分类 */}
+          {uncategorizedSchools.length > 0 && (
+            <div>
+              <h3 className="text-sm font-medium text-gray-600 dark:text-gray-400 flex items-center gap-1.5 mb-2">
+                <HelpCircle className="h-4 w-4" />
+                未分类 ({uncategorizedSchools.length})
+              </h3>
+              <div className="space-y-2">
+                {uncategorizedSchools.map(school => (
+                  <SchoolSelectionCard 
+                    key={school.id} 
+                    school={school} 
+                    onRemove={() => removeFromInterested(school.id)}
+                    onChangeType={setSchoolApplicationType}
+                  />
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     );
   };
 
-  // 选校侧边栏组件
-  const SelectionSidebar = () => (
-    <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-5 h-fit">
-      <div className="flex justify-between items-center mb-4">
-        <h3 className="text-lg font-semibold dark:text-white">我的选校</h3>
-        <div className="flex gap-2">
-          <button
-            className="text-sm text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
-            onClick={() => setShowSaveToStudentModal(true)}
-          >
-            保存方案
-          </button>
-          <button
-            className="text-sm text-green-500 hover:text-green-700 dark:text-green-400 dark:hover:text-green-300"
-            onClick={() => setShowSaveToStudentModal(true)}
-          >
-            保存到学生
-          </button>
-        </div>
-      </div>
+  // 收藏学校卡片组件
+  const SchoolSelectionCard = ({ 
+    school, 
+    onRemove, 
+    onChangeType 
+  }: { 
+    school: SchoolWithNote; 
+    onRemove: () => void;
+    onChangeType: (schoolId: string, type: 'dream' | 'target' | 'safety') => void;
+  }) => {
+    const [showOptions, setShowOptions] = useState(false);
 
-      <div className="mb-4">
-        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">方案名称</label>
-        <input
-          type="text"
-          className="w-full border rounded-md p-2 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
-          value={selectionName}
-          onChange={(e) => setSelectionName(e.target.value)}
-        />
-      </div>
-
-      <div className="border-t dark:border-gray-700 pt-4">
-        <h4 className="text-md font-medium mb-2 dark:text-white">已选学校 ({interestedSchools.length})</h4>
-
-        {interestedSchools.length === 0 ? (
-          <p className="text-gray-500 dark:text-gray-400 text-sm">还没有选择学校，请浏览并添加感兴趣的学校</p>
-        ) : (
-          <DragDropContext onDragEnd={onDragEnd}>
-            <Droppable droppableId="droppable-interested-schools">
-              {(provided) => (
-                <div
-                  ref={provided.innerRef}
-                  {...provided.droppableProps}
-                  className="space-y-3 max-h-[calc(100vh-300px)] overflow-y-auto"
-                >
-                  {interestedSchools.map((school, index) => (
-                    <Draggable key={school.id} draggableId={school.id} index={index}>
-                      {(provided, snapshot) => (
-                        <div
-                          ref={provided.innerRef}
-                          {...provided.draggableProps}
-                          style={provided.draggableProps.style}
-                          className={`border dark:border-gray-700 rounded-lg p-3 ${
-                            snapshot.isDragging ? 'border-blue-500 shadow-lg' : ''
-                          }`}
-                        >
-                          {/* 学校信息 */}
-                          <div className="flex items-center justify-between">
-                            <div className="flex items-center gap-2">
-                              <div
-                                {...provided.dragHandleProps}
-                                className="cursor-grab active:cursor-grabbing p-1 hover:bg-gray-100 dark:hover:bg-gray-700 rounded"
-                              >
-                                <GripVertical className="h-4 w-4 text-gray-400" />
-                              </div>
-                              <div>
-                                <h5 className="font-medium dark:text-white text-sm">{school.name}</h5>
-                                <p className="text-xs text-gray-500 dark:text-gray-400">{school.location}</p>
-                              </div>
-                            </div>
-                            <div className="flex items-center gap-1">
-                              <button
-                                onClick={() => handleNoteClick(school)}
-                                className="p-1 hover:bg-gray-100 dark:hover:bg-gray-700 rounded"
-                              >
-                                <MessageSquare className={`h-4 w-4 ${
-                                  school.note ? 'text-blue-500' : 'text-gray-400'
-                                }`} />
-                              </button>
-                              <button
-                                onClick={() => removeFromInterested(school.id)}
-                                className="p-1 hover:bg-gray-100 dark:hover:bg-gray-700 rounded"
-                              >
-                                <Trash2 className="h-4 w-4 text-gray-400" />
-                              </button>
-                            </div>
-                          </div>
-
-                          {/* 感兴趣的项目列表 */}
-                          {school.interestedPrograms && school.interestedPrograms.length > 0 && (
-                            <div className="mt-2 pl-6">
-                              <div className="text-xs font-medium text-gray-600 dark:text-gray-400 mb-1">
-                                感兴趣的专业:
-                              </div>
-                              <div className="space-y-1">
-                                {school.programs
-                                  .filter(program => school.interestedPrograms?.includes(program.id))
-                                  .map(program => (
-                                    <div
-                                      key={program.id}
-                                      className="flex items-center justify-between p-1 bg-gray-50 dark:bg-gray-700/30 rounded text-xs"
-                                    >
-                                      <div>
-                                        <div className="font-medium dark:text-white">
-                                          {program.name}
-                                        </div>
-                                        <div className="text-gray-500 dark:text-gray-400">
-                                          {program.degree} · {program.duration}
-                                        </div>
-                                      </div>
-                                      <button
-                                        onClick={() => toggleInterestedProgram(school.id, program.id)}
-                                        className="p-1 hover:bg-gray-200 dark:hover:bg-gray-600 rounded"
-                                      >
-                                        <Heart className="h-3 w-3 text-red-500 fill-red-500" />
-                                      </button>
-                                    </div>
-                                  ))}
-                              </div>
-                            </div>
-                          )}
-
-                          {/* 备注编辑区域 */}
-                          <AnimatePresence>
-                            {editingSchoolId === school.id && (
-                              <motion.div
-                                initial={{ height: 0, opacity: 0 }}
-                                animate={{ height: 'auto', opacity: 1 }}
-                                exit={{ height: 0, opacity: 0 }}
-                                className="mt-3"
-                              >
-                                <textarea
-                                  value={noteInput}
-                                  onChange={(e) => setNoteInput(e.target.value)}
-                                  placeholder="添加备注..."
-                                  className="w-full px-3 py-2 text-sm bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 dark:text-white"
-                                  rows={3}
-                                />
-                                <div className="flex justify-end mt-2">
-                                  <button
-                                    onClick={() => handleNoteSave(school.id)}
-                                    className="flex items-center gap-1 px-3 py-1 bg-blue-500 text-white rounded text-xs hover:bg-blue-600"
-                                  >
-                                    <Save className="h-3 w-3" />
-                                    <span>保存</span>
-                                  </button>
-                                </div>
-                              </motion.div>
-                            )}
-                          </AnimatePresence>
-
-                          {/* 显示已保存的备注 */}
-                          {school.note && editingSchoolId !== school.id && (
-                            <motion.div
-                              initial={{ opacity: 0 }}
-                              animate={{ opacity: 1 }}
-                              className="mt-2 text-xs text-gray-600 dark:text-gray-300 bg-gray-50 dark:bg-gray-700 p-2 rounded"
-                            >
-                              {school.note}
-                            </motion.div>
-                          )}
-                        </div>
-                      )}
-                    </Draggable>
-                  ))}
-                  {provided.placeholder}
+    return (
+      <div className="bg-white dark:bg-gray-700 rounded-lg p-3 shadow-sm border border-gray-100 dark:border-gray-600 relative">
+        <div className="flex justify-between">
+          <div className="flex-1 min-w-0">
+            <h4 className="text-sm font-medium text-gray-900 dark:text-white truncate">{school.name}</h4>
+            <p className="text-xs text-gray-500 dark:text-gray-400 mt-0.5">{school.location}</p>
+            
+            {/* 收藏的专业列表 */}
+            {school.interestedPrograms && school.interestedPrograms.length > 0 && (
+              <div className="mt-2">
+                <div className="text-xs text-gray-500 dark:text-gray-400 mb-1">收藏专业:</div>
+                <div className="flex flex-wrap gap-1">
+                  {school.interestedPrograms.map(programId => {
+                    const program = school.programs.find(p => p.id === programId);
+                    return program ? (
+                      <span 
+                        key={programId}
+                        className="px-1.5 py-0.5 bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400 rounded text-xs"
+                      >
+                        {program.cn_name || program.en_name}
+                      </span>
+                    ) : null;
+                  })}
+                </div>
+              </div>
+            )}
+          </div>
+          
+          <div className="flex flex-col items-end ml-2">
+            <div className="relative">
+              <button
+                className="p-1 rounded-full hover:bg-gray-100 dark:hover:bg-gray-600"
+                onClick={() => setShowOptions(!showOptions)}
+              >
+                <MoreVertical className="h-4 w-4 text-gray-500 dark:text-gray-400" />
+              </button>
+              
+              {showOptions && (
+                <div className="absolute right-0 top-full mt-1 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-100 dark:border-gray-700 z-10 w-36">
+                  <button
+                    className="w-full text-left px-3 py-2 text-xs text-purple-600 dark:text-purple-400 hover:bg-gray-50 dark:hover:bg-gray-700 flex items-center gap-2"
+                    onClick={() => {
+                      onChangeType(school.id, 'dream');
+                      setShowOptions(false);
+                    }}
+                  >
+                    <Star className="h-3.5 w-3.5" />
+                    设为冲刺校
+                  </button>
+                  <button
+                    className="w-full text-left px-3 py-2 text-xs text-blue-600 dark:text-blue-400 hover:bg-gray-50 dark:hover:bg-gray-700 flex items-center gap-2"
+                    onClick={() => {
+                      onChangeType(school.id, 'target');
+                      setShowOptions(false);
+                    }}
+                  >
+                    <Target className="h-3.5 w-3.5" />
+                    设为目标校
+                  </button>
+                  <button
+                    className="w-full text-left px-3 py-2 text-xs text-green-600 dark:text-green-400 hover:bg-gray-50 dark:hover:bg-gray-700 flex items-center gap-2"
+                    onClick={() => {
+                      onChangeType(school.id, 'safety');
+                      setShowOptions(false);
+                    }}
+                  >
+                    <Shield className="h-3.5 w-3.5" />
+                    设为保底校
+                  </button>
+                  <div className="border-t border-gray-100 dark:border-gray-700"></div>
+                  <button
+                    className="w-full text-left px-3 py-2 text-xs text-red-600 dark:text-red-400 hover:bg-gray-50 dark:hover:bg-gray-700 flex items-center gap-2"
+                    onClick={() => {
+                      onRemove();
+                      setShowOptions(false);
+                    }}
+                  >
+                    <Trash2 className="h-3.5 w-3.5" />
+                    移除收藏
+                  </button>
                 </div>
               )}
-            </Droppable>
-          </DragDropContext>
-        )}
+            </div>
+            
+            {/* 显示学校类型标签 */}
+            {school.applicationType && (
+              <div className={`mt-1 px-1.5 py-0.5 rounded-full text-xs 
+                ${school.applicationType === 'dream' ? 'bg-purple-50 text-purple-600 dark:bg-purple-900/20 dark:text-purple-400' : 
+                 school.applicationType === 'target' ? 'bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-400' : 
+                'bg-green-50 text-green-600 dark:bg-green-900/20 dark:text-green-400'}`}
+              >
+                {school.applicationType === 'dream' ? '冲刺' : 
+                 school.applicationType === 'target' ? '目标' : '保底'}
+              </div>
+            )}
+          </div>
+        </div>
       </div>
-    </div>
-  );
+    );
+  };
 
   // 选校历史记录组件
   const SelectionHistory = () => (
@@ -2455,7 +2523,7 @@ const SchoolAssistantPage: React.FC = () => {
     return (
       <div className="space-y-6">
         <div className="flex flex-col gap-4">
-          <ProgramFilters />
+          {/* 移除了这里的重复组件 ProgramFilters */}
 
           {programsLoading ? (
             <div className="flex justify-center items-center h-40">
@@ -2661,6 +2729,149 @@ const SchoolAssistantPage: React.FC = () => {
     </div>
   );
 
+  // 添加搜索历史状态
+  const [showAdvancedSearch, setShowAdvancedSearch] = useState<boolean>(false);
+  const [searchHistory, setSearchHistory] = useState<string[]>(() => {
+    // 从本地存储加载搜索历史
+    const savedHistory = localStorage.getItem('programSearchHistory');
+    return savedHistory ? JSON.parse(savedHistory) : [];
+  });
+
+  // 保存搜索历史
+  const saveSearchToHistory = (query: string) => {
+    if (!query.trim()) return;
+    
+    setSearchHistory(prev => {
+      // 移除重复的查询
+      const filtered = prev.filter(item => item !== query);
+      // 添加到历史记录开头
+      const newHistory = [query, ...filtered].slice(0, 10); // 只保留最近10条
+      // 保存到本地存储
+      localStorage.setItem('programSearchHistory', JSON.stringify(newHistory));
+      return newHistory;
+    });
+  };
+
+  // 添加一个选校助手使用说明弹窗组件
+  const SelectionAssistantModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) => {
+    if (!isOpen) return null;
+
+    return (
+      <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0, scale: 0.9 }}
+          className="bg-white dark:bg-gray-800 rounded-xl shadow-xl p-6 max-w-2xl w-full"
+        >
+          <div className="flex justify-between items-center mb-6">
+            <h2 className="text-xl font-bold text-gray-900 dark:text-white">
+              选校助手使用指南
+            </h2>
+            <button
+              onClick={onClose}
+              className="p-1 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700"
+            >
+              <X className="h-5 w-5 text-gray-500 dark:text-gray-400" />
+            </button>
+          </div>
+
+          <div className="space-y-4 text-gray-600 dark:text-gray-300">
+            <div className="flex items-start gap-3">
+              <div className="bg-blue-50 dark:bg-blue-900/20 p-2 rounded-lg">
+                <Search className="h-5 w-5 text-blue-500 dark:text-blue-400" />
+              </div>
+              <div>
+                <h3 className="font-medium text-gray-900 dark:text-white">1. 浏览与搜索</h3>
+                <p className="mt-1">浏览学校和专业库，使用筛选和搜索功能找到您感兴趣的项目。</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <div className="bg-rose-50 dark:bg-rose-900/20 p-2 rounded-lg">
+                <Heart className="h-5 w-5 text-rose-500 dark:text-rose-400" />
+              </div>
+              <div>
+                <h3 className="font-medium text-gray-900 dark:text-white">2. 收藏感兴趣的学校与专业</h3>
+                <p className="mt-1">点击学校或专业卡片上的心形图标，将它们添加到右侧的收藏夹。</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <div className="bg-amber-50 dark:bg-amber-900/20 p-2 rounded-lg">
+                <Target className="h-5 w-5 text-amber-500 dark:text-amber-400" />
+              </div>
+              <div>
+                <h3 className="font-medium text-gray-900 dark:text-white">3. 设置申请策略</h3>
+                <p className="mt-1">在收藏夹中为每所学校设置申请策略：冲刺校、目标校或保底校。</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <div className="bg-green-50 dark:bg-green-900/20 p-2 rounded-lg">
+                <Save className="h-5 w-5 text-green-500 dark:text-green-400" />
+              </div>
+              <div>
+                <h3 className="font-medium text-gray-900 dark:text-white">4. 保存选校方案</h3>
+                <p className="mt-1">整理完成后，可以保存您的选校方案，并随时查看历史选校记录。</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-6 flex justify-end">
+            <button
+              onClick={onClose}
+              className="px-5 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg transition-colors"
+            >
+              开始选校
+            </button>
+          </div>
+        </motion.div>
+      </div>
+    );
+  };
+
+  // 开始选校功能
+  const startSelection = () => {
+    setShowSelectionModal(true); // 显示弹窗
+  };
+
+  // 关闭弹窗并显示侧边栏
+  const closeModalAndShowSidebar = () => {
+    setShowSelectionModal(false);
+    setShowSelectionSidebar(true);
+  };
+
+  // 保存选校方案
+  const saveSelection = () => {
+    const newSelection: SchoolSelection = {
+      id: Date.now().toString(),
+      timestamp: new Date().toISOString(),
+      schools: [...interestedSchools],
+      name: selectionName
+    };
+    
+    // 将现有的selections状态更新，添加新的选校方案
+    setSelections([newSelection, ...selections]);
+    
+    // 显示保存成功提示
+    alert('选校方案保存成功！');
+  };
+
+  // 设置学校申请类型（冲刺校、目标校、保底校）
+  const setSchoolApplicationType = (schoolId: string, type: 'dream' | 'target' | 'safety') => {
+    setInterestedSchools(prevSchools =>
+      prevSchools.map(school =>
+        school.id === schoolId
+          ? { ...school, applicationType: type }
+          : school
+      )
+    );
+  };
+
+  // 在原有状态基础上添加
+  const [showSelectionModal, setShowSelectionModal] = useState(false); // 控制选校助手弹窗显示
+  const [showSelectionSidebar, setShowSelectionSidebar] = useState(false); // 控制收藏侧边栏显示
 
   return (
     <div className="container mx-auto p-4">
@@ -2671,8 +2882,8 @@ const SchoolAssistantPage: React.FC = () => {
         </div>
       </div>
 
-      {/* 主要内容区 */}
-      <div className="pb-16">
+      {/* 主要内容区 - 添加右边距以适应侧边栏 */}
+      <div className={`pb-16 ${showSelectionSidebar ? 'pr-80' : ''} transition-all duration-300`}>
         {currentView === 'schools' && (
           <div className="space-y-6">
             <SchoolFilters />
@@ -2712,7 +2923,6 @@ const SchoolAssistantPage: React.FC = () => {
                     <div
                       key={school.id}
                       className="bg-white dark:bg-gray-800 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden border border-gray-100 dark:border-gray-700"
-                      onClick={() => navigate(`/admin/school-detail/${school.id}`)}
                     >
                       <div className="p-5 flex items-start">
                         <div className="flex-shrink-0 mr-5">
@@ -2793,6 +3003,9 @@ const SchoolAssistantPage: React.FC = () => {
                                 removeFromInterested(school.id);
                               } else {
                                 addToInterested(school);
+                                if (showSelectionSidebar === false) {
+                                  setShowSelectionSidebar(true);
+                                }
                               }
                             }}
                           >
@@ -2803,7 +3016,6 @@ const SchoolAssistantPage: React.FC = () => {
                             }`} />
                             收藏
                           </button>
-
                           <button
                             className="flex items-center gap-1.5 bg-white hover:bg-gray-50 text-gray-700 dark:text-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 border border-gray-200 dark:border-gray-600 px-3.5 py-1.5 rounded-lg text-sm transition-colors"
                             onClick={(e) => {
@@ -2811,10 +3023,20 @@ const SchoolAssistantPage: React.FC = () => {
                               toggleExpand(`school-${school.id}`);
                             }}
                           >
-                            <ChevronDown className={`h-4 w-4 transition-transform ${
+                            <ChevronDown className={`h-4 w-4 text-gray-400 duration-300 ${
                               expandedPrograms.includes(`school-${school.id}`) ? 'rotate-180' : ''
                             }`} />
                             专业
+                          </button>
+                          <button
+                            className="flex items-center gap-1.5 bg-blue-50 hover:bg-blue-100 text-blue-600 dark:text-blue-400 dark:bg-blue-900/30 dark:hover:bg-blue-900/50 border border-blue-100 dark:border-blue-800 px-3.5 py-1.5 rounded-lg text-sm transition-colors"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              navigate(`/admin/school-detail/${school.id}`);
+                            }}
+                          >
+                            <ExternalLink className="h-4 w-4" />
+                            详情
                           </button>
                         </div>
                       </div>
@@ -2851,6 +3073,9 @@ const SchoolAssistantPage: React.FC = () => {
                                         onClick={(e) => {
                                           e.stopPropagation();
                                           toggleInterestedProgram(school.id, program.id);
+                                          if (showSelectionSidebar === false) {
+                                            setShowSelectionSidebar(true);
+                                          }
                                         }}
                                       >
                                         <Heart className={`h-4 w-4 ${
@@ -2871,12 +3096,6 @@ const SchoolAssistantPage: React.FC = () => {
                       </AnimatePresence>
                     </div>
                   ))}
-
-                  {filteredSchools.length === 0 && (
-                    <div className="text-center py-12">
-                      <p className="text-gray-500 dark:text-gray-400">没有找到符合条件的学校</p>
-                    </div>
-                  )}
                 </>
               )}
             </div>
@@ -2884,7 +3103,10 @@ const SchoolAssistantPage: React.FC = () => {
         )}
 
         {currentView === 'programs' && (
-          <ProgramLibrary />
+          <div>
+            <ProgramFilters />
+            <ProgramLibrary />
+          </div>
         )}
 
         {currentView === 'selection' && (
@@ -2895,6 +3117,8 @@ const SchoolAssistantPage: React.FC = () => {
       </div>
 
       {/* 其他模态框和侧边栏 */}
+      <SelectionSidebar />
+      <SelectionAssistantModal isOpen={showSelectionModal} onClose={closeModalAndShowSidebar} />
     </div>
   );
 };

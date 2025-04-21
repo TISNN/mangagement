@@ -15,6 +15,25 @@ import { Person as EnhancedPerson } from '../../types/people';
 const TRANSACTIONS_TABLE = 'finance_transactions';
 
 export const financeService = {
+  // 获取所有服务类型
+  async getServiceTypes(): Promise<ServiceType[]> {
+    try {
+      const { data, error } = await supabase
+        .from('service_types')
+        .select('*')
+        .order('name');
+      
+      if (error) {
+        throw error;
+      }
+      
+      return data as ServiceType[];
+    } catch (error) {
+      console.error('获取服务类型失败', error);
+      throw error;
+    }
+  },
+
   // 获取所有交易记录（包含关联数据）
   async getAllTransactions(): Promise<Transaction[]> {
     try {

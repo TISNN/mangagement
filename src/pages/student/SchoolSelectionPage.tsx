@@ -1,23 +1,27 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import {
   GraduationCap,
   Star,
   Edit,
   Trash2,
   ArrowUpDown,
+  Check,
   X,
   Info,
   Target,
   Shield,
+  DollarSign,
+  BarChart,
+  FileText,
+  Save,
   History,
+  ChevronRight,
   ArrowLeft,
-  Search,
-  Plus,
   Filter,
-  Clock,
-  Check
+  Search,
+  Plus
 } from 'lucide-react';
 
 // 学校类型定义
@@ -45,7 +49,6 @@ interface SelectionRecord {
 
 const SchoolSelectionPage: React.FC = () => {
   const navigate = useNavigate();
-  const location = useLocation();
   const [searchQuery, setSearchQuery] = useState("");
   const [showFilters, setShowFilters] = useState(false);
   const [showAddSchoolModal, setShowAddSchoolModal] = useState(false);
@@ -59,15 +62,6 @@ const SchoolSelectionPage: React.FC = () => {
     status: [] as School['status'][],
     countries: [] as string[]
   });
-
-  // 检查URL参数并自动打开历史记录模态框
-  useEffect(() => {
-    const searchParams = new URLSearchParams(location.search);
-    const viewParam = searchParams.get('view');
-    if (viewParam === 'history') {
-      setShowHistoryModal(true);
-    }
-  }, [location.search]);
 
   // 模拟数据 - 当前选校列表
   const [currentSchools, setCurrentSchools] = useState<School[]>([
@@ -286,10 +280,8 @@ const SchoolSelectionPage: React.FC = () => {
     const schools = [...currentSchools];
     if (sortConfig.key !== '') {
       schools.sort((a, b) => {
-        // 确保key不是空字符串
-        const key = sortConfig.key as keyof School; // 类型断言
-        const aValue = a[key];
-        const bValue = b[key];
+        const aValue = a[sortConfig.key];
+        const bValue = b[sortConfig.key];
         
         if (aValue < bValue) {
           return sortConfig.direction === 'ascending' ? -1 : 1;
@@ -317,12 +309,13 @@ const SchoolSelectionPage: React.FC = () => {
   // 保存当前选校为历史记录
   const saveCurrentSelectionAsHistory = () => {
     const newRecord: SelectionRecord = {
-      id: (selectionHistory.length + 1).toString(),
+      id: Date.now().toString(),
       date: new Date().toISOString().split('T')[0],
       schools: [...currentSchools],
-      notes: "更新选校列表"
+      notes: ""
     };
-    setSelectionHistory([...selectionHistory, newRecord]);
+    setSelectionHistory([newRecord, ...selectionHistory]);
+    alert("当前选校已保存到历史记录中！");
   };
 
   // 恢复历史选校记录
@@ -360,51 +353,34 @@ const SchoolSelectionPage: React.FC = () => {
   };
 
   return (
-    <div className="space-y-6 p-6">
-      {/* 顶部标题和搜索栏 */}
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-        <div className="flex items-center gap-3">
+    <div className="container mx-auto p-4">
+      {/* 页面标题和返回按钮 */}
+      <div className="flex items-center justify-between mb-6">
+        <div className="flex items-center">
           <button
             onClick={() => navigate('/admin/school-assistant')}
-            className="p-2 rounded-full bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600"
+            className="mr-3 p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700"
           >
             <ArrowLeft className="h-5 w-5 text-gray-600 dark:text-gray-300" />
           </button>
-          <div>
-            <h1 className="text-2xl font-bold dark:text-white">我的选校</h1>
-            <p className="text-gray-500 dark:text-gray-400">管理和追踪你的选校记录</p>
-          </div>
+          <h1 className="text-2xl font-bold text-gray-800 dark:text-white">选校管理</h1>
         </div>
-        <div className="flex items-center gap-4 w-full md:w-auto">
-          <div className="relative flex-1 md:w-64">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
-            <input
-              type="text"
-              placeholder="搜索学校、专业或国家..."
-              className="w-full pl-10 pr-4 py-2 rounded-lg border border-gray-200 dark:border-gray-700 dark:bg-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-            />
-          </div>
-          <button 
-            className={`p-2 rounded-lg ${
-              showFilters 
-                ? 'bg-blue-500 text-white' 
-                : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'
-            }`}
-            onClick={() => setShowFilters(!showFilters)}
-          >
-            <Filter className="h-5 w-5" />
-          </button>
+        
+        <div className="flex items-center gap-2">
           <button
             onClick={() => setShowHistoryModal(true)}
-            className={`p-2 rounded-lg ${
-              showHistoryModal
-                ? 'bg-blue-500 text-white'
-                : 'bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600'
-            }`}
+            className="px-4 py-2 flex items-center gap-1 text-gray-700 dark:text-gray-200 bg-gray-100 dark:bg-gray-700 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600"
           >
-            <History className="h-5 w-5" />
+            <History className="h-4 w-4" />
+            历史记录
+          </button>
+          
+          <button
+            onClick={() => saveCurrentSelectionAsHistory()}
+            className="px-4 py-2 flex items-center gap-1 text-white bg-blue-500 rounded-lg hover:bg-blue-600"
+          >
+            <Save className="h-4 w-4" />
+            保存当前选校
           </button>
         </div>
       </div>
@@ -455,31 +431,6 @@ const SchoolSelectionPage: React.FC = () => {
             </div>
           </motion.div>
         ))}
-      </div>
-
-      {/* 操作按钮 */}
-      <div className="flex flex-wrap gap-4">
-        <button
-          onClick={() => setShowAddSchoolModal(true)}
-          className="flex items-center gap-2 px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg transition-colors"
-        >
-          <Plus className="h-4 w-4" />
-          添加学校
-        </button>
-        <button
-          onClick={() => setShowHistoryModal(true)}
-          className="flex items-center gap-2 px-4 py-2 bg-purple-500 hover:bg-purple-600 text-white rounded-lg transition-colors"
-        >
-          <Clock className="h-4 w-4" />
-          查看历史记录
-        </button>
-        <button
-          onClick={saveCurrentSelectionAsHistory}
-          className="flex items-center gap-2 px-4 py-2 bg-green-500 hover:bg-green-600 text-white rounded-lg transition-colors"
-        >
-          <Check className="h-4 w-4" />
-          保存当前选校
-        </button>
       </div>
 
       {/* 学校列表 */}

@@ -189,6 +189,9 @@ const StudentAddModal: React.FC<StudentAddModalProps> = ({ isOpen, onClose, onSt
       setSubmitting(true);
       setError('');
       
+      // 记录表单数据
+      console.log('提交表单数据:', JSON.stringify(formData, null, 2));
+      
       // 1. 创建或更新 student 记录（新数据库结构中，直接操作 students 表）
       const studentData: any = {
         name: formData.name,
@@ -209,70 +212,95 @@ const StudentAddModal: React.FC<StudentAddModalProps> = ({ isOpen, onClose, onSt
         studentData.id = studentToEdit.person_id;
       }
       
-      // 使用 peopleService.upsertStudent 直接创建或更新学生记录
-      const createdStudent = await peopleService.upsertStudent(studentData);
+      console.log('准备创建/更新学生:', JSON.stringify(studentData, null, 2));
       
-      // 3. 处理服务
-      if (isEditMode && studentToEdit) {
-        try {
-          // 避免直接删除服务，而是逐个检查并只添加新服务
-          // 获取学生当前的所有服务ID
-          const existingServiceIds = studentToEdit.services.map(s => parseInt(s.id));
-          // 获取表单中选择的服务类型ID
-          const selectedServiceTypeIds = formData.services;
-          
-          // 检查每个现有服务对应的服务类型是否仍在选中列表中
-          // 如果不在，则删除该服务（先清理关联关系）
-          for (const service of studentToEdit.services) {
-            // 查找该服务对应的服务类型
-            const serviceType = serviceTypes.find(st => st.name === service.serviceType);
-            if (serviceType && !selectedServiceTypeIds.includes(serviceType.id)) {
-              // 服务类型不再被选中，需要删除该服务
-              await peopleService.deleteStudentService(parseInt(service.id));
-            }
-          }
-          
-          // 添加新的服务类型（仅添加不存在的）
-          for (const serviceTypeId of selectedServiceTypeIds) {
-            // 检查该服务类型是否已存在
-            const existingService = studentToEdit.services.find(s => {
-              const st = serviceTypes.find(type => type.name === s.serviceType);
-              return st && st.id === serviceTypeId;
-            });
+      // 使用 peopleService.upsertStudent 直接创建或更新学生记录
+      try {
+        const createdStudent = await peopleService.upsertStudent(studentData);
+        console.log('成功创建/更新学生:', createdStudent);
+        
+        // 3. 处理服务
+        if (isEditMode && studentToEdit) {
+          try {
+            // 避免直接删除服务，而是逐个检查并只添加新服务
+            // 获取学生当前的所有服务ID
+            const existingServiceIds = studentToEdit.services.map(s => parseInt(s.id));
+            // 获取表单中选择的服务类型ID
+            const selectedServiceTypeIds = formData.services;
             
-            // 如果该服务类型不存在，则添加
-            if (!existingService) {
+            // 检查每个现有服务对应的服务类型是否仍在选中列表中
+            // 如果不在，则删除该服务（先清理关联关系）
+            for (const service of studentToEdit.services) {
+              // 查找该服务对应的服务类型
+              const serviceType = serviceTypes.find(st => st.name === service.serviceType);
+              if (serviceType && !selectedServiceTypeIds.includes(serviceType.id)) {
+                // 服务类型不再被选中，需要删除该服务
+                await peopleService.deleteStudentService(parseInt(service.id));
+              }
+            }
+            
+            // 添加新的服务类型（仅添加不存在的）
+            for (const serviceTypeId of selectedServiceTypeIds) {
+              // 检查该服务类型是否已存在
+              const existingService = studentToEdit.services.find(s => {
+                const st = serviceTypes.find(type => type.name === s.serviceType);
+                return st && st.id === serviceTypeId;
+              });
+              
+              // 如果该服务类型不存在，则添加
+              if (!existingService) {
+                console.log(`添加新服务, 学生ID=${createdStudent.id}, 服务类型ID=${serviceTypeId}`);
+                try {
+                  await peopleService.upsertStudentService({
+                    student_id: createdStudent.id,
+                    student_ref_id: createdStudent.id,
+                    service_type_id: serviceTypeId,
+                    status: 'not_started',
+                    enrollment_date: getCurrentLocalDate()
+                  });
+                } catch (serviceError: any) {
+                  console.error(`添加服务失败: ${serviceError.message}`, serviceError);
+                  throw serviceError;
+                }
+              }
+            }
+          } catch (error: any) {
+            console.error('处理学生服务失败:', error);
+            setError(`处理服务时出错: ${error.message}`);
+            throw error;
+          }
+        } else {
+          // 新学生，直接添加所有选择的服务
+          for (const serviceTypeId of formData.services) {
+            console.log(`添加服务, 学生ID=${createdStudent.id}, 服务类型ID=${serviceTypeId}`);
+            try {
               await peopleService.upsertStudentService({
                 student_id: createdStudent.id,
+                student_ref_id: createdStudent.id,
                 service_type_id: serviceTypeId,
                 status: 'not_started',
                 enrollment_date: getCurrentLocalDate()
               });
+            } catch (serviceError: any) {
+              console.error(`添加服务失败: ${serviceError.message}`, serviceError);
+              throw serviceError;
             }
           }
-        } catch (error) {
-          console.error('处理学生服务失败:', error);
-          throw error;
         }
-      } else {
-        // 新学生，直接添加所有选择的服务
-        for (const serviceTypeId of formData.services) {
-          await peopleService.upsertStudentService({
-            student_id: createdStudent.id,
-            service_type_id: serviceTypeId,
-            status: 'not_started',
-            enrollment_date: getCurrentLocalDate() // 使用本地时区的当前日期
-          });
-        }
+        
+        // 成功添加或编辑
+        onStudentAdded();
+        onClose();
+      } catch (studentError: any) {
+        console.error(`创建/更新学生失败: ${studentError.message}`, studentError);
+        setError(`创建学生时出错: ${studentError.message || '未知错误'}`);
+        throw studentError;
       }
-      
-      // 成功添加或编辑
-      onStudentAdded();
-      onClose();
-      
-    } catch (error) {
+    } catch (error: any) {
       console.error(isEditMode ? '编辑学生失败' : '添加学生失败', error);
-      setError(isEditMode ? '编辑学生失败，请重试' : '添加学生失败，请重试');
+      setError(isEditMode ? 
+        `编辑学生失败: ${error.message || '请重试'}` : 
+        `添加学生失败: ${error.message || '请重试'}`);
     } finally {
       setSubmitting(false);
     }

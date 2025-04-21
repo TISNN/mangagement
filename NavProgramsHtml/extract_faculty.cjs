@@ -4,9 +4,9 @@ const { parse } = require('csv-parse/sync');
 const { stringify } = require('csv-stringify/sync');
 
 // 输入文件路径
-const inputFilePath = path.join(__dirname, 'uk_programs_new.csv');
+const inputFilePath = path.join(__dirname, 'australia_programs_cleaned.csv');
 // 输出文件路径
-const outputFilePath = path.join(__dirname, 'uk_programs_new_with_faculty.csv');
+const outputFilePath = path.join(__dirname, 'australia_programs_with_faculty.csv');
 
 // 读取CSV文件
 const fileContent = fs.readFileSync(inputFilePath, 'utf8');

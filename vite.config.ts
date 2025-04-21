@@ -13,4 +13,8 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  define: {
+    // 定义WebSocket token，解决__WS_TOKEN__未定义的问题
+    '__WS_TOKEN__': JSON.stringify(process.env.VITE_SUPABASE_ANON_KEY)
+  },
 });

@@ -43,57 +43,6 @@ export interface StudentDisplay {
   }[];
 }
 
-// 模拟数据 - 之后会被实际数据替代
-export const mockStudents: StudentDisplay[] = [
-  {
-    id: "1",
-    person_id: 1,
-    name: "王小明",
-    email: "xiaoming@example.com",
-    avatar: "https://api.dicebear.com/7.x/adventurer/svg?seed=xiaoming&backgroundColor=b6e3f4",
-    enrollmentDate: "2023-01-15",
-    status: "活跃",
-    services: [
-      {
-        id: "s1",
-        serviceType: "全包申请" as ServiceType,
-        status: "进行中",
-        enrollmentDate: "2023-01-15",
-        mentors: [
-          {
-            id: "m1",
-            name: "张老师",
-            avatar: "https://randomuser.me/api/portraits/women/1.jpg",
-            roles: ["申请导师", "主导师"],
-            isPrimary: true
-          },
-          {
-            id: "m2",
-            name: "李老师",
-            avatar: "https://randomuser.me/api/portraits/men/2.jpg",
-            roles: ["文书导师"]
-          }
-        ]
-      },
-      {
-        id: "s2",
-        serviceType: "标化培训" as ServiceType,
-        standardizedTestType: "SAT",
-        status: "进行中",
-        enrollmentDate: "2023-02-10",
-        mentors: [
-          {
-            id: "m3",
-            name: "刘老师",
-            avatar: "https://randomuser.me/api/portraits/women/2.jpg",
-            roles: ["学科导师"]
-          }
-        ]
-      }
-    ]
-  },
-  // ... 其他模拟数据
-];
 
 // 确认删除对话框组件
 interface DeleteConfirmDialogProps {

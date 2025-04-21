@@ -38,6 +38,7 @@ import AttendancePage from './pages/admin/AttendancePage';
 import StudentsPage from './pages/admin/StudentsPage/StudentsPage';
 import ProjectsPage from './pages/admin/ProjectsPage';
 import LeadsPage from './pages/admin/LeadsPage';
+import LeadDetailPage from './pages/admin/LeadDetailPage';
 import MentorsPage from './pages/admin/MentorsPage';
 import KnowledgePage from './pages/admin/KnowledgePage';
 import KnowledgeDetailPage from './pages/admin/KnowledgeDetailPage';
@@ -85,6 +86,8 @@ const AppRoutes: React.FC = () => {
         <Route path="program-detail/:programId" element={<ProgramDetailPage />} />
         <Route path="projects" element={<ProjectsPage />} />
         <Route path="leads" element={<LeadsPage />} />
+        <Route path="leads/:leadId" element={<LeadDetailPage />} />
+        <Route path="leads/edit/:leadId" element={<LeadsPage />} />
         <Route path="mentors" element={<MentorsPage />} />
         <Route path="aiModel" element={<AIModelPage />} />
         <Route path="cases" element={<CaseStudiesPage />} />

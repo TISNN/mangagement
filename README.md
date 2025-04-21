@@ -162,6 +162,24 @@ npm run build
 - 点击学生行可查看学生详细信息和服务记录
 - 学生可以同时参与多种服务项目
 
+## 常见问题解答 (FAQ)
+
+### 1. 学生数据保存失败，提示"Key (id)=(9) already exists"
+
+**问题描述**：
+在添加新学生时偶尔会出现错误提示"Key (id)=(9) already exists"，这是因为数据库序列值与已存在记录产生了主键冲突。
+
+**解决方案**：
+系统已进行优化，当检测到ID冲突时会自动尝试以下步骤：
+1. 删除请求中的ID字段，让数据库自动生成新ID
+2. 若仍然冲突，会查询当前最大ID并手动生成新的ID值
+3. 使用新生成的ID重新尝试保存学生数据
+
+**技术说明**：
+- 数据库使用 `students_id_seq` 序列生成新的学生ID
+- 系统会记录详细错误日志以便于跟踪问题
+- 如果问题频繁发生，请联系技术支持重置ID序列
+
 ### 3. 考勤系统
 - 在首页的欢迎信息下方可以进行打卡
 - "考勤管理"页面可查看考勤记录
@@ -932,3 +950,281 @@ MIT
 ## 作者
 
 [您的名字]
+
+## 最近更新
+
+### 版本 1.3.0 (2024-07-18)
+
+- **功能增强**: 实现了交互式选校助手功能，支持在SchoolAssistantPage页面直接进行选校
+- **UI优化**: 添加了右侧收藏侧边栏，用户可以直接在学校助手页面添加学校到收藏夹并设置申请策略
+- **用户体验**: 新增了选校指南弹窗，帮助用户了解如何使用选校功能
+- **功能改进**: 学校和专业卡片支持一键收藏，自动显示收藏侧边栏
+
+### 版本 1.2.0 (2024-07-16)
+
+- **功能增强**: 添加了"选校记录"按钮，用户可以直接从学校助手页面查看历史选校方案
+- **UI改进**: 在选校管理页面优化了返回按钮设计，并改进了布局
+- **用户体验**: 直接通过URL参数支持打开历史记录视图，便于快速访问
+
+### 版本 1.1.0 (2024-07-15)
+
+- **功能增强**: 完善了"开始选校"按钮功能，现在可以直接从学校助手页面导航到选校管理页面
+- **UI改进**: 在选校管理页面添加了返回按钮，方便用户在两个页面之间切换
+- **bug修复**: 修复了学校筛选条件不正确应用的问题
+- **性能优化**: 改进了学校和专业数据的加载速度
+
+# 案例数据处理与数据库导入工具
+
+本项目包含两个脚本，用于处理成功案例CSV数据文件并将其导入到数据库中。
+
+## 文件说明
+
+1. `casedata/process_case_csv.py` - 处理原始CSV文件，提取背景字段
+2. `casedata/upload_to_database.py` - 将处理后的CSV数据导入到数据库
+3. `casedata/upload_to_supabase.py` - 专门用于上传数据到Supabase数据库
+
+## 处理CSV文件
+
+这个脚本会读取原始的CSV文件，从`基本背景`字段中提取信息：
+- 第一个元素作为`admission_year`
+- 第二个元素中提取GPA值作为`gpa`
+- 第三个及之后的所有元素作为`language_scores`
+
+### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+python casedata/process_case_csv.py
+```
+
+脚本会处理`casedata/case.csv`文件，并将结果保存为`casedata/case_processed.csv`。
+
+## 数据库导入
+
+### 上传到普通数据库
+
+这个脚本会将处理后的CSV数据导入到普通数据库，并处理学校和项目的映射关系。
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 使用SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db
+
+# 使用MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password your_password --database your_db
+
+# 使用PostgreSQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --port 5432 --user postgres --password your_password --database your_db
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db --dry-run
+```
+
+### 上传到Supabase数据库
+
+这个专用脚本支持将处理后的CSV数据上传到Supabase数据库。
+
+#### 安装依赖
+
+```bash
+pip install supabase
+```
+
+#### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 上传到Supabase
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key"
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key" --dry-run
+```
+
+#### 参数说明
+
+- `--csv`: CSV文件路径（必需）
+- `--url`: Supabase项目URL（必需）
+- `--key`: Supabase API密钥（必需）
+- `--dry-run`: 试运行模式，不会实际写入数据库
+
+## 数据映射
+
+脚本会自动处理以下映射关系：
+1. 根据`cn_name`字段匹配schools表中的学校
+2. 根据学校ID和`applied_program`字段匹配programs表中的项目
+3. 如果直接匹配失败，会尝试模糊匹配
+
+## 日志
+
+程序运行会生成详细的日志文件：
+- 普通数据库上传：`db_upload_YYYYMMDD_HHMMSS.log`
+- Supabase上传：`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+# 数据处理脚本
+
+## CSV文件处理脚本
+
+本项目包含多个用于处理CSV数据文件和上传数据到数据库的脚本。
+
+### casedata/process_case_csv.py
+
+此脚本用于处理原始案例数据CSV文件，提取和转换关键字段，如背景、GPA和语言成绩。
+
+使用方法：
+```bash
+python casedata/process_case_csv.py
+```
+
+脚本会读取`case.csv`文件，处理后生成`case_processed.csv`文件。
+
+### casedata/upload_to_database.py
+
+此脚本用于将处理后的CSV数据上传到各类关系型数据库（SQLite、MySQL、PostgreSQL）。
+
+使用方法：
+```bash
+python casedata/upload_to_database.py --csv [CSV文件路径] --db-type [数据库类型] [其他参数]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--db-type`：数据库类型，可选值为sqlite、mysql、postgresql，默认为sqlite
+- `--db-path`：SQLite数据库文件路径（使用SQLite时必填）
+- `--host`：数据库主机地址，默认为localhost
+- `--port`：数据库端口
+- `--user`：数据库用户名
+- `--password`：数据库密码
+- `--database`：数据库名称
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path ./database.sqlite
+
+# 上传到MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password mypassword --database mydb
+
+# 试运行模式
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --user postgres --database mydb --dry-run
+```
+
+### casedata/upload_to_supabase.py
+
+此脚本专门用于将处理后的CSV数据上传到Supabase数据库。它会自动处理学校和项目的映射，以便将数据正确地关联到Supabase中的相应表。
+
+使用方法：
+```bash
+python casedata/upload_to_supabase.py --csv [CSV文件路径] --url [Supabase项目URL] --key [Supabase API密钥] [--dry-run]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--url`：Supabase项目URL（必填）
+- `--key`：Supabase API密钥（必填）
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到Supabase数据库
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key
+
+# 试运行模式
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key --dry-run
+```
+
+脚本执行过程中会生成详细的日志，记录处理的数据和可能出现的问题。日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`。
+
+## 日志说明
+
+上述脚本在执行过程中会生成日志文件：
+- `upload_to_database.py`生成的日志文件格式为`db_upload_YYYYMMDD_HHMMSS.log`
+- `upload_to_supabase.py`生成的日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+日志文件包含详细的执行步骤、成功/失败记录以及可能的错误信息，方便排查问题。
+
+# Supabase集成指南
+
+## Supabase配置
+
+系统使用Supabase作为后端数据库和认证服务。以下是当前配置信息：
+
+### 连接信息
+- **Supabase URL**: `https://swyajeiqqewyckzbfkid.supabase.co`
+- **Supabase 匿名密钥**: 配置在环境变量中，使用`VITE_SUPABASE_ANON_KEY`变量名
+
+### 环境变量配置
+项目根目录下的`.env`文件包含所有必要的环境配置：
+```
+VITE_SUPABASE_URL=https://swyajeiqqewyckzbfkid.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
+
+前端代码通过以下方式访问这些变量：
+```typescript
+import.meta.env.VITE_SUPABASE_URL
+import.meta.env.VITE_SUPABASE_ANON_KEY
+```
+
+## 客户线索与学生管理的关系
+
+在本系统中，客户线索(Leads)和学生(Students)是两个相关但独立的概念：
+
+### 客户线索 (Leads)
+- 代表潜在的客户或咨询者
+- 通过网站表单、社交媒体、教育展等渠道收集
+- 包含基础联系信息和初步意向
+- 状态包括：新线索、已联系、已确认、已签约、已关闭
+
+### 学生 (Students)
+- 代表已签约并接受服务的客户
+- 包含详细个人信息、教育背景和服务记录
+- 可以关联多个服务项目和导师
+- 状态包括：活跃、休学、毕业、退学
+
+### 线索转换为学生的流程
+
+当一个线索成功签约后，系统支持将其转换为学生记录：
+
+1. **线索跟进**：通过线索管理页面跟进潜在客户
+2. **状态更新**：当线索状态更新为"已签约"时，系统提示是否创建学生记录
+3. **信息转移**：线索的基本信息（姓名、联系方式等）会自动填充到学生创建表单
+4. **补充信息**：需要补充更多学生特有的信息，如教育背景、服务选择等
+5. **创建记录**：确认后创建正式学生记录并关联服务项目
+
+### 数据表关系
+- `leads`表存储所有潜在客户线索
+- `students`表存储正式签约学生信息
+- `student_services`表存储学生的服务记录
+- 线索转为学生后，两条记录之间保留关联关系，便于分析转化率
+
+## 使用指南
+
+### 客户线索管理
+1. 通过管理后台的"线索管理"页面查看所有潜在客户
+2. 使用筛选和搜索功能快速定位特定线索
+3. 更新线索状态、添加跟进记录
+4. 将"已签约"线索转换为学生
+
+### 学生管理
+1. 通过管理后台的"学生管理"页面管理所有正式学生
+2. 查看学生详情、服务记录和进度
+3. 添加新服务、更新服务进度
+4. 导出学生数据进行分析和报告
+
+## 最佳实践
+1. 定期审核线索状态，确保及时跟进
+2. 记录详细的沟通内容和客户需求
+3. 线索转为学生后,保持服务进度的及时更新
+4. 利用数据分析功能优化线索转化率和学生服务满意度
+
+## 常见问题解答
+
+### Q: 如何查看系统使用的Supabase配置？
+A: 系统使用的Supabase URL和匿名密钥配置在根目录的`.env`文件中，通过环境变量`VITE_SUPABASE_URL`和`VITE_SUPABASE_ANON_KEY`访问。
+
+### Q: 线索记录和学生记录之间是什么关系？
+A: 线索记录代表潜在客户，学生记录代表已签约客户。当线索成功转化为客户后，系统支持将线索信息转换为学生记录，并保留关联关系用于分析转化率。
