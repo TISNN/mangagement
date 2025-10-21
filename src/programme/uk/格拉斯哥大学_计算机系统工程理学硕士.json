@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "计算机系统工程理学硕士",
+  "ename": "MSc Computer Systems Engineering",
+  "tags": "工科,计算机,工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要电子与电气工程、计算机科学或机电一体化背景，并且电子和工程数学以及高级编程和数学的课程平均成绩为2:1\n学校可能会考虑具有2:2学位但核心课程成绩达到2:1的申请者",
+  "objectives": "格拉斯哥大学计算机系统工程理学硕士学位课程将使学生接触到最先进的小型化和移动计算机系统及智能设备技术，使其获得硬件和软件的互补知识以及了解和设计计算机系统所需的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字信号处理 (Digital signal processing)\n人机交互 (Human-computer interaction)\n综合系统设计项目 (Integrated systems design project)\n软件工程 (Software engineering)\n理学硕士项目 (Msc project)\n高级操作系统 (Advanced operating systems)\n人工智能 (Artificial intelligence )\n计算机体系结构 (Computer architecture )\n密码学与安全发展 (Cryptography and secure development )\n网络系统取证 (Cyber system forensics )\n数字通信 (Digital communication )\n互联网技术 (Internet technology )",
+  "success_cases": ""
+}

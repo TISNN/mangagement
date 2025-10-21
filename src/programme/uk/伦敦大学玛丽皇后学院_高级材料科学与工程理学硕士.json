@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "高级材料科学与工程理学硕士",
+  "ename": "MSc Advanced Materials Science and Engineering",
+  "tags": "工科,材料,工程与材料科学学院",
+  "introduction": "专业方向: 材料\n入学时间: 9月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有本科2:2学位或以上学历，具有材料科学、材料工程、相关学科（生物材料、冶金工程、机械工程、结构工程等）、物理学、化学或数学背景，需要ATAS证书",
+  "objectives": "伦敦大学玛丽皇后学院高级材料科学与工程理学硕士项目将为您提供严格的理论和应用研究培训，以满足材料行业的需求。课程涉及理论和实践方法的结合。您将探索最新的工程实验技术，更深入地研究材料的特性、结构和性能，并可以选择探索从制造过程到纳米技术和纳米医学、纳米复合材料、聚合物合成、可再生能源和储能的模块工程。你将与我们的一个国际知名研究团队合作一个项目，获得实践经验，从而提升你所选择的职业轨迹。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "扩展研究项目 (Extended Research Project)\n高级纳米复合材料 (Advanced Nanocomposites)\n纳米技术与纳米医学 (Nanotechnology and Nanomedicine)\n陶瓷 (Ceramics)\n固体失效 (Failure of Solids)\n材料的环境特性 (Environmental Properties of Materials)\n太阳能概论 (Introduction to Solar Energy)\n计算工程 (Computational Engineering)\n高级聚合物合成 (Advanced Polymer Synthesis)\n储能工程 (Energy Storage Engineering)\n高分子物理 (Polymer Physics)\n可再生能源 (Renewable Energy Sources)\n设计中的材料选择 (Material Selection in Design)\n制造工艺 (Manufacturing Processes)",
+  "success_cases": ""
+}

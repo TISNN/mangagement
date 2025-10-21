@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "土地与水文测量理学硕士（格拉斯哥大学-加查马达大学联合开设）",
+  "ename": "Joint MSc Land & Hydrographic Surveying (Glasgow-UGM)",
+  "tags": "工科,地球科学,地理和地球科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "加查马达大学要求：GPA 3.0（满分4.0）要升入格拉斯哥大学，学生必须在UGM第一年获得3.5/4.0的GPA，并满足格拉斯哥课程的英语语言要求",
+  "objectives": "土地与水文测量理学硕士（格拉斯哥大学-加查马达大学联合开设）项目将向学生介绍测量学科，并为其在该行业的就业做好准备。工程和土地调查是设计、施工和导航的基础设施项目，从小到国家规模，如建筑物、公路和铁路网络。海道测量师有助于海洋、河流和湖泊的航行安全和港口管理，以及管道和海上风力涡轮机等水下基础设施项目。如果学生正在寻找地理空间行业的就业机会，该计划是理想的。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地理空间基础 (Geospatial Fundamentals)\n应用土地测量 (Applied Land Surveying)\n工程测量 (Engineering Survey)\n地理信息系统原理 (Principles of GIS)\nGnss与大地测量学 (Gnss and Geodesy)\n地理空间数据基础设施与土地管理 (Geospatial Data Infrastructures and Land Administration)\n水文测量 (Hydrographic Survey)\n土地测量1 (Land Surveying I)\n土地测量2 (Land Surveying II)\n地形模拟及景观监测 (Topographic Modelling and Landscape Monitoring)\nGES PGT的学术和专业技能 (Academic and Professional Skills for GES PGT)\nGES硕士项目 (GES MSC Project)",
+  "success_cases": ""
+}

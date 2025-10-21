@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "语言科学理学硕士",
+  "ename": "MSc Language Sciences",
+  "tags": "社科,语言,心理与临床语言科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 30950英镑/年",
+  "requirements": "通常要求具有良好的二等荣誉学位（57%或以上，研究方法和项目、论文课程2.1分），或在英国以外的大学获得语言学、心理学、认知（神经）科学、言语和语言治疗或教育等领域的同等学历。其他学位科目可以根据具体情况考虑。对于略低于这些入学要求（例如high 2:2）的申请人，学校可能会根据额外的相关经验或专业知识进行考虑",
+  "objectives": "雷丁大学语言科学理学硕士项目面向演讲和语言治疗专家，帮助他们提高语言科学水平，为语言科学研究领域，如语言学、演讲和语言治疗、心理学、健康科学、教育等学科培养人才。学生需要完成一系列必修课程，同时还有机会深入研究某个具体领域，包括神经系统科学、专注于功能核磁共振和电生理学的语言；语言发展、专注于流利性障碍和儿童双语障碍的语言发展；多语言研究、专注于语言学、多语认知和教育及其研究培训。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语法基础 (Foundations of Grammar)\n语言处理 ( Language Processing)\n实习 (Placement)\n项目准备 (Project Preparation)\n研究与论文 (Research and Dissertation)\n语言神经科学 (Neuroscience of Language)\n演讲与语言病理学导论 (Introduction to Speech and Language Pathology)\n儿童语言习得 (Child Language Acquisition)\n多语言能力与终身障碍 (Multilingualism and Impairment Across the Lifespan)\n语音学与音系学 (Phonetics and Phonology)\n临床语音学与音系学 (Clinical Phonetics and Phonology)\n命名障碍的理论与临床方面 (Theoretical and Clinical Aspects of Anomia)",
+  "success_cases": ""
+}

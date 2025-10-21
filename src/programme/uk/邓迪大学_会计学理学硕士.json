@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "会计学理学硕士",
+  "ename": "MSc Accountancy",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 11500英镑/年",
+  "requirements": "获得受认可的专业会计机构的全面专业考试资格：ACCA、ICAS、ICAI、ICAEW、CIPFA和CIMA或其他IFAC成员机构",
+  "objectives": "邓迪大学会计学理学硕士学位课程使学生在研究生水平的课程中展现学术能力，获取硕士学位。在邓迪大学会计学理学硕士学位课程的学习中，学生将拓宽更广阔的会计与金融领域的知识。邓迪大学会计学理学硕士学位课程以学生为主体，使学生展现规划、组织、研究及撰写专业研究结果的能力。通过邓迪大学会计学理学硕士学位课程的学习，学生将增强专业发展、职业发展及学术发展，提升就业能力，实现职业发展抱负。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球风险分析(5GR) (Global Risk Analysis (5GR))\n国际会计与财务报告(5IA) (International Accounting and Financial Reporting (5IA))\n当代会计问题 (Contemporary Accounting Issues)\n营运管理及变革 (Operations Management and Change)\n公司金融 (Corporate Finance)\n公司治理 (Corporate Governance)\n专业会计项目 (Professional Accountancy Project)\n商务管理专业英语2 (Specialist Management English for Business 2)\n商务管理专业英语 1 (Specialist Management English for Business 1)",
+  "success_cases": ""
+}

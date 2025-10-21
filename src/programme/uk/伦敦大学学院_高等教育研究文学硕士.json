@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "高等教育研究文学硕士",
+  "ename": "MA Higher Education Studies",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 29800英镑/年",
+  "requirements": "具有英国大学颁发的相关二等学士学位或同等学历，并具备高等教育相关个人或专业经验",
+  "objectives": "伦敦大学学院高等教育研究文学硕士课程旨在让学生深入了解不断变化的高等教育领域，反思国内和国际上的重要辩论，鼓励学生通过参与不同的想法、概念和价值观来探索、分享和挑战现有的知识和经验。学生将根据自己的经历审视高等教育的政策和实践。该课程将培养学生对专业实践和流程中概念和分析框架的理解，增加学生的知识、技能和信心，使其能够在不同的高等教育机构中有效地、创造性地开展工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高等教育的创新与变革 (Innovation and Change in Higher Education)\n高等教育机构作为组织：战略管理 (Higher Education Institutions as Organisations: Their Strategic Management)\n高等教育报告 (Report on Higher Education)\n高等教育论文 (Dissertation on Higher Education)\n高等教育：比较与国际视野 (Higher Education: Comparative and International Perspectives)\n理解教育研究 (Understanding Education Research)\n教育哲学：价值、目标与社会 (Philosophy of Education: Values, Aims and Society)\n教育社会学 (Sociology of Education)\n比较教育：理论与方法 (Comparative Education: Theories and Methods)\n理解教育政策 (Understanding Education Policy)\n教育与技术：关键问题与辩论 (Education and Technology: Key Issues and Debates)\n理解研究 (Understanding Research)\n可持续发展教育：政策与实践视角 (Education for Sustainable Development: Perspectives from Policy and Practice)",
+  "success_cases": ""
+}

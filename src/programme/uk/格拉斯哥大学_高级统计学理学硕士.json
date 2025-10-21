@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "高级统计学理学硕士",
+  "ename": "MSc Advanced Statistics",
+  "tags": "理科,数学,数学与统计学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31800英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要具有大量数学和统计学成分的学位背景，其中统计学和大学水平数学课程，平均成绩为及格需要大量的数学内容，至少相当于格拉斯哥大学的一级数学课程和二级微积分、线性代数课程需要大量统计学方法论内容，包括至少荣誉级别的概率论、基于似然的推理和线性模型理论课程",
+  "objectives": "格拉斯哥大学高级统计学理学硕士项目将为学生提供有关统计原理、理论和实践技能的知识和经验。项目专业知识涵盖的主题包括：生物统计学和统计遗传学、环境统计数据、统计方法、统计建模与统计学的学术研究和教学。学生将由各自领域的世界领先专家授课，并将参加广泛而多样的研讨会计划，由国际知名讲师授课，并体验各种各样的项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级贝叶斯方法 (Advanced Bayesian Methods)\n生物统计学 (Biostatistics)\n灵活回归 (Flexible Regression)\n线性混合模型 (Linear Mixed Models)\n多变量方法 (Multivariate Methods)\n概率论和统计学原理 (Principles of Probability and Statistics)\n随机过程 (Stochastic Processes )\nR和Python统计编程入门 (Introduction to Statistical Programming in R and Python)\n数据分析技能 (Data Analysis Skills)\n贝叶斯统计 (Bayesian Statistics)\n实验设计 (Design of Experiments)\n环境统计 (Environmental Statistics)\n函数型数据分析 (Functional Data Analysis)\n空间统计学 (Spatial Statistics)\n统计遗传学 (Statistical Genetics)\n高级预测模型 (Advanced Predictive Models)\n高级统计学项目及论文 (Advanced Statistics Project and Dissertation)",
+  "success_cases": ""
+}

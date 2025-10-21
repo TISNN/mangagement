@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "通用结构工程理学硕士",
+  "ename": "MSc General Structural Engineering",
+  "tags": "工科,土木工程,土木与环境工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有2:1学位，需要土木工程、自然科学、地球科学或其他数学学科背景\n需要适当的数学基础，例如A-level数学Grade A或B\n不符合所列学术要求但具备丰富相关行业经验的申请者在完成“特殊资格考试”（SQE）后可能会被例外录取",
+  "objectives": "帝国理工学院通用结构工程理学硕士项目课程涵盖了专门针对土木工程结构的广泛的结构工程问题，全面涵盖了与钢和/或混凝土结构的力学和设计有关的课题。该课程还涵盖了先进的分析和数字技术方面的课题。\n帝国理工学院通用结构工程理学硕士项目课程以职业为导向，涵盖理论背景和实际设计考虑。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "钢筋混凝土I (Reinforced Concrete I)\n钢构件 (Steel Components)\n结构分析 (Structural Analysis)\n木结构和砌体结构设计 (Design of Timber and Masonry Structures)\n有限元分析 (Finite Element Analysis)\n预应力混凝土 (Prestressed Concrete)\n结构力学 (Structural Dynamics)\n结构稳定性 (Structural Stability)\n钢结构建筑设计 (Design of Steel Buildings)\n混凝土结构 (Concrete Structures)\n非线性结构分析 (Nonlinear Structural Analysis)\n电镀结构 (Plated Structures)\n结构消防工程 (Structural Fire Engineering)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "汉语语言学哲学硕士",
+  "ename": "MPhil Chinese Linguistics",
+  "tags": "社科,语言,人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "持有澳门大学认可的学士学位或同等学历。申请人也可能被要求具备其他知识或专业经验。申请人必须在学士学位学习中达到相当于C级或更高的总成绩",
+  "objectives": "学习中国语言及语言学，包括古代汉语、现代汉语，以及与中国语言学相关的理论等，提高学员的中国语言及语言学认识水平，更新学员对当前中国语言及语言学研究发展的认知，扩阔学员的眼界，培养学员从新方向、新视角、新理论等对中国语言及语言学进行研究，为继续研究和深造中国语言及语言学打下坚实的基础，要求学员达到具有个人独立研究，并撰写严格学术水平论文的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "汉语语言学理论专题 (Special topics in Chinese Linguistic Theory)\n汉语语言学研究方法 (Research methods of Chinese Linguistics)\n汉语社会语言学研究 (A study of Chinese Sociolinguistics)\n论文 (Thesis)\n古代汉语研究 (Ancient Chinese Studies)\n现代汉语研究 (Research on Modern Chinese)\n汉语语言学专题 I (Chinese Linguistics I)\n汉语语言学专题 II (Chinese Linguistics II)\n汉语语法研究 (A study of Chinese grammar)\n汉语声韵研究 (A study of Chinese Phonology)\n汉语词汇研究 (A study of Chinese vocabulary)",
+  "success_cases": ""
+}

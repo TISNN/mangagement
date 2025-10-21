@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "科技与政策理学硕士（HKUST(GZ)）",
+  "ename": "MSc Technology and Policy (HKUST(GZ))",
+  "tags": "社科,公共政策与事务,香港科技大学（广州）",
+  "introduction": "专业方向: 公共政策与事务\n入学时间: 9月\n项目时长: 2年\n项目学费: 115000人民币/年",
+  "requirements": "具有认可机构颁发的学士学位或同等学历",
+  "objectives": "香港科技大学科技与政策理学硕士项目由香港科技大学（广州）社会枢纽创新创业与公共政策学域开设，项目旨在培养学生理解科技领域的前沿知识，掌握政策研究与分析的技能与工具，紧密连接政府发展规划与产业需求，改善业界与政府的沟通语境与对话机制，将理论研究与政策实践更好地结合到一起。\n香港科技大学科技与政策理学硕士项目将提供技能导向的知识培训，让学生掌握政策实践的专业知识并应用公共政策的分析方法，既培育洞悉科技创新趋势的政策制定者，也培养熟悉政策动态的企业家。项目课程设置除了专业核心课程以外，还结合政策时事和前沿科技发展方向开设三个领域的选修课，包括科技政策、可持续发展和大数据与人工智能领域。毕业生可在学术界、政府或工业界从事相关工作，通过科技与政策来引导我们的社会变革。\n与传统公共政策硕士项目有所不同的是，香港科技大学（广州）科技与政策理学硕士项目尤为技术发展，重视跨学科融合，通过全新的课程设置，学生将了解到应对快速发展的高科技环境所需的背景知识，并学习解决相关问题的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公共政策基础 (Foundation in Public Policy)\n技术创新与创业经济学 (Economics of Technology Innovation and Entrepreneurship)\n技术与创新的政策分析 (Policy Analysis for Technology and Innovation)\n企业与政府的大数据应用 (Big Data Applications for Business and Government)\n颠覆性技术与社会 (Disruptive Technology and Society)\n顶点项目 (Capstone Project)\n不确定性、信息与决策 (Uncertainty, Information and Decision Making)\n实验经济学与组织行为学 (Experimental Economics and Organizational Behavior)\n气候变化：科学与治理 (Climate Change: Science and Governance)\n人工智能主题 (Topics in Artificial Intelligence)\n机器学习主题 (Topics in Machine Learning)\n数据科学中的深度学习 (Deep Learning in Data Science)\n数据科学与分析基础 (Foundation of Data Science and Analytics)\n区块链中的数据分析与隐私保护 (Data Analysis and Privacy Protection in Blockchain)\n机器学习与人工智能 (Machine Learning and Artificial Intelligence)\n定量社会科学 (Quantitative Social Science)\n城市数据采集与分析 (Urban Data Acquisition and Analysis)\n城市与社会 (Cities and Society)",
+  "success_cases": ""
+}

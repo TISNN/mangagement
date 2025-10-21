@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "物理学理学硕士",
+  "ename": "MSc Physics",
+  "tags": "理科,物理,理学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 144000港币/年",
+  "requirements": "需要提供B等级证明，具有学士学位，需要理工科背景，若第一学位是其他学科，需要具备足够的物理学知识",
+  "objectives": "香港中文大学物理系的物理学硕士课程是香港历史最悠久的课程（自1994年起），一直在培养学生通过授课课程加深和扩大对物理学的理解。通过一系列结合讲座、实验室、指导研究、项目和论文的学习活动，该课程为学生提供不同分支的物理学高级知识，范围从经典到量子，从理论到实验。同时，香港中文大学物理系的物理学硕士课程加强了学生的不同技能，如批判性分析、解决问题、沟通和研究。它一直在为学生在教育、研究、工业和商业以及进一步学习方面的不同工作前景做准备。旨在促进知识的发展，为香港和邻近地区的社会服务，并向公众传播科学知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "现代原子物理学 (Modern Atomic Physics )\n生物物理学导论 (Introduction to Biophysics)\n现代量子力学基础 (Fundamentals of Modern Quantum Mechanics)\n量子力学（二） (Quantum Mechanics II)\n经典电动力学 (Classical Electrodynamics)\n固体理论 (Solid State Theory)\n软物质物理导论 (Introduction to Soft Matter Physics)\n理论物理学专题（高级统计力学） (Topics in Theoretical Physics (Advanced Statistical Mechanics))\n理论物理学专题（多体理论导论） (Topics in Theoretical Physics (Introduction to Many-body Theory))\n理论物理学专题（粒子物理学导论） (Topics in Theoretical Physics (Introduction to Particle Physics))\n理论物理学专题（高级计算物理学） (Topics in Theoretical Physics (Advanced Computational Physics))\n理论物理学专题（量子光学） (Topics in Theoretical Physics (Quantum Optics))\n物理学前沿专题 (Topics in the Frontiers of Physics)\n理论物理学方法（三） (Methods in Theoretical Physics III)\n量子信息与量子计算原理 (Physics of Quantum Information and Quantum Computation)",
+  "success_cases": ""
+}

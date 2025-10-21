@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "中国语言学文学硕士",
+  "ename": "MA Chinese Linguistics",
+  "tags": "社科,语言,人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 195000港币/年",
+  "requirements": "具有良好的荣誉学位或同等学历，具备良好的中文知识，中英文授课",
+  "objectives": "香港理工大学中国语言学文学硕士学位课程 (MACL) 是中国现代语言学高级课程。课程设计针对香港社会，为学生提供了专业技能及专业知识培训。\n香港理工大学中国语言学文学硕士学位课程结合香港社会及各行业的语言现状，为学生提供高阶的中国现代语言学培训。\n香港理工大学中国语言学文学硕士学位课程旨在结合香港、大中华，乃至全世界的语言现状，指导学生研习当前的语言学知识。具体而言，即通过探讨香港及其他华文地区的语言问题，使学生深入认识中国语言学研究的理论与实践，并具备从事语言研究的专业能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "社会语言 (Language in Society)\n汉语描述I：词汇与句子 (Description of Chinese I: Words and Sentences)\n汉语描述II：声音和文字 (Description of Chinese II: Sounds and Script )\n语义学与语用学 (Semantics and Pragmatics)\n语言学研究方法 (Research Methods in Language Studies)\n教育语言学导论 (Introduction to Educational Linguistics)\n对外汉语词汇教学 (Teaching Chinese Vocabulary to Non-Native Learners )\n汉语语言教学评估 (Assessment for Learning in Chinese Language Teaching )\n翻译研究 (Translation Studies)\n汉语语法研究专题 (Topics in Studies of Chinese Grammar)\n粤语研究导论 (Introduction to Cantonese Studies)\n应用词汇学与词典学 (Applied Lexicology and Lexicography)\n对比分析 (Contrastive Analysis)\n应用语料库语言学 (Applied Corpus Linguistics)\n现代修辞学 (Modern Rhetoric)",
+  "success_cases": ""
+}

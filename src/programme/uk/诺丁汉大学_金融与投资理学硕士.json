@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "金融与投资理学硕士",
+  "ename": "MSc Finance and Investment",
+  "tags": "商科,金融,诺丁汉商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 36400英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要金融、经济、商业研究、会计或金融工程/数学背景，任何定量学科（例如：自然科学、计算机科学）的优秀学位也会根据具体情况予以考虑，申请者必须具备很强的定量/数学背景，并且在至少2门课程中成绩达到2:1（60%），课程涵盖以下学科中至少2项：数学、统计学、定量方法、定量金融专业和计量经济学\n如果申请者尚未完成本科学位，需要提供最后一年要学习的课程列表",
+  "objectives": "诺丁汉大学金融与投资理学硕士课程侧重于金融市场和资本市场的运作方式以及不同参与者（如投资者、公司和机构）在市场中的作用。该课程将增加学生的全球就业机会。课程的实践方法是数据驱动的，学生可以访问各种主题的多个数据库。例如，通过实时访问我们的彭博终端，学生将学会利用数据分析支持投资决策的金融工具。还将通过涵盖企业融资、资本市场分析和证券估值等主题的模块，对该行业有广泛的了解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "资本市场分析 (Capital Market Analysis)\n企业金融 (Corporate Finance)\n会计与金融的定量研究方法 (Quantitative Research Methods for Accounting and Finance)\n衍生产品投资 (Derivative Investment)\n固定利息投资 (Fixed Interest Investment)\n行为经济学与金融学 (Behavioural Economics and Finance)\n计算金融学 (Computational Finance)\n金融计量经济学 (Financial Econometrics)\n国际金融 (International Finance)",
+  "success_cases": ""
+}

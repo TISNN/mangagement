@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "教育学硕士（科学）",
+  "ename": "Master of Education (Science)",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 1月\n项目时长: 1年\n项目学费: 41900新币/年",
+  "requirements": "具有认可大学颁发的良好学士学位，需要科学相关学科背景，或具有相关的南洋理工大学FlexiMasters且成绩优秀\n具有理科教师资格如新加坡国立教育学院颁发的教育研究生文凭，或具备至少1年科学教育或其相关领域的相关工作经验\n具有科学相关教育的实践经验，并在本科阶段学习过科学相关课程",
+  "objectives": "教育学硕士课程主要面向在新加坡学校和教育部工作的教育工作者，学校也欢迎具有教育背景并希望提升教育知识和技能的大学毕业生申请。南洋理工大学教育学硕士（科学）项目旨在为科学教育工作者提供理论和实践基础，用于开发课程，在学校中采用创新的教学法，并获得与科学教育相关的基本研究技能，该课程还提高了学生对科学和STEM教育各个方面的知识和理解，包括自然、历史、哲学、教学、学习、课程开发、实施、评价和评估。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育调查 (Educational Inquiry)\n科学基础与科学教育 (Foundations of Science & Science Education)\n科学课程改革与课程评价 (Science Curriculum Change and Curriculum Evaluation)\n科学即实践 (Science as Practice)\n科学学习中的另类观念与观念转变 (Alternative Conceptions and Conceptual Change in Science Learning)\n科学话语：语言、读写与论证 (Science Discourse: Language, Literacy & Argumentation)\n科学教育中的表现与新媒体 (Representations & New Media in Science Education)\n科学教育中的批判性研究 ( Critical Studies in Science Education)\nSTEM教育的历史、政策与研究趋势 (STEM Education History, Policies, and Research Trends)\nSTEM课程与教学 (STEM Curriculum and Instruction)\n科学教育中的评估 (Assessment in Science Education)",
+  "success_cases": ""
+}

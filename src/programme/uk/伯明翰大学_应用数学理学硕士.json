@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "应用数学理学硕士",
+  "ename": "MSc Applied Mathematics",
+  "tags": "理科,数学,工程与物理科学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31390英镑/年",
+  "requirements": "具有2:1荣誉学位，需要数学或包含高等数学成分的专业背景，包括物理学和一些工程学科",
+  "objectives": "定量模型有助于理解实际中的很多问题，如生物系统，金融市场，工业过程中的一些问题现象。数学家开创了一系列定量技术，这些技术被用于应用数学研究，包括系统描述、数据整合及预测；此外，现实世界的问题也促进了新型数学的发展。学术研究和工业界都迫切需要即新一代的科学家结合其他学科知识，开展前沿的数学工作，并发挥其专业的数学能力来解决、攻克现实世界的问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用数学专题 (Topics in Applied Mathematics )\n高等数学生物学 (Advanced Mathematical Biology)\n偏微分方程中的方法 (Methods in Partial Differential Equations )\n数学金融 (Mathematical Finance)\n数值方法与数值线性代数 (Numerical Methods and Numerical Linear Algebra )\n连续介质力学 (Continuum Mechanics)\nNonlinear Waves (Nonlinear Waves )\n反应扩散理论 (Reaction-Diffusion Theory)\n医学统计 (Medical Statistics )\n应用数学分析 (Applied Mathematical Analysis)\n高等数学建模 (Advanced Mathematical Modelling )\n高等数学金融 (Advanced Mathematical Finance )",
+  "success_cases": ""
+}

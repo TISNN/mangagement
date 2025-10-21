@@ -1,0 +1,12 @@
+{
+  "school_name": "罗切斯特大学",
+  "major_name": "学校咨询硕士",
+  "ename": "MS in School Counseling",
+  "tags": "社科,心理学",
+  "introduction": "专业方向: 心理学\n入学时间: 秋季\n项目时长: 60学分\n项目学费: 100,200美元",
+  "requirements": "拥有与学校咨询相关领域（例如心理学、教育、人类发展、社会学、大脑和认知科学）的学士学位",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

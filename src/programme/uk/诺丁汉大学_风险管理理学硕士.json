@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "风险管理理学硕士",
+  "ename": "MSc Risk Management",
+  "tags": "商科,金融,诺丁汉商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 28600英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要商业研究、经济或管理背景\n针对尚未完成本科学位申请者，需要提供最后一年要学习的课程列表",
+  "objectives": "诺丁汉大学风险管理理学硕士课程将提供一套完整的基本管理技能，还将提升学生在全球风险管理岗位上脱颖而出的潜力。毕业生将能够直接为医疗、航空、法律、能源、工程和保险等行业的组织成功做出贡献。在硕士课程中，将探讨风险分析和建模、不同部门的风险治理和量化风险管理等主题。学生可以选择参加Microsoft和SAP颁发的行业认可的数字资格证书课程，这将提高学生的数字技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "风险管理研究方法 (Research Methods for Risk Management)\n风险与社会 (Risk and Society)\n风险分析 (Risk Analysis)\n企业风险 (Corporate Risk)\n定量风险管理 (Quantitative Risk Management)\n风险理论及其应用 (Theory of Risk and Applications)",
+  "success_cases": ""
+}

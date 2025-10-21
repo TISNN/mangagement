@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence",
+  "tags": "工科,计算机,电子与计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 33900英镑/年",
+  "requirements": "具有upper 2:1学位（分数不低于65%），需要以下学科之背景之一：\n计算机科学、计算机工程、软件工程、人工智能、数学与计算、信息技术\n申请者还必须在以下课程中取得upper 2:1的成绩：\n- 1门线性代数或其他高等数学，如：高等数学、离散数学、逻辑和推理或微积分\n- 1门高级编程课程（C, C, C#, Java）\n- 人工智能、高级算法或机器学习中的1门课程",
+  "objectives": "南安普顿大学人工智能理学硕士项目使学生提高自己对相关专业的知识。该专业的研究人员利用自己的研究成果，提供最先进领域的模块，如计算机视觉、机器人和机器学习。学生可以从中进行选择，以培养进一步学习或从事应用程序开发工作所需的专业技能。该课程将为学生提供专业项目实验室、计算机工作站和在线工具，以支持在理想环境中学习。研究人员将帮助学生应对各种专业人工智能领域中新的独特挑战。课程结束后，学生将能够在许多与人工智能相关的领域进行设计、构建、分析和解决问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "理学硕士项目 (MSc Project)\n智能代理 (Intelligent Agents)\n人工智能基础 (Foundations of Artificial Intelligence)\n项目准备 (Project Preparation)\n计算生物学 (Computational Biology)\n复杂性演化 (Evolution of Complexity)\n高级智能代理 (Advanced Intelligent Agents)\n高级机器学习 (Advanced Machine Learning)\n生物特征识别 (Biometrics)\n计算金融学 (Computational Finance)\n语义网技术 (Semantic Web Technologies)\n计算机仿真模拟 (Simulation Modelling for Computer Science)\n计算机视觉 (Computer Vision (MSc))\n数据挖掘 (Data Mining)\n人机交互高级课题 (Advanced Topics in Human-Systems Interaction)",
+  "success_cases": ""
+}

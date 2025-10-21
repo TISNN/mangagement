@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "犯罪学与刑事司法文学硕士",
+  "ename": "MA Criminology and Criminal Justice",
+  "tags": "社科,社会学与社工,法学院",
+  "introduction": "专业方向: 社会学与社工\n入学时间: 9月\n项目时长: 1年\n项目学费: 28600英镑/年",
+  "requirements": "具有2:1学位或同等学历，不限专业背景\n或具有2:2学位或同等学历，不限专业背景，并且具备在国家或地方政府、公共部门或第三/志愿部门的1年工作经验",
+  "objectives": "在诺丁汉大学刑事司法法学硕士项目中，学生将利用有刑法及其执行相关的实质性资料，掌握学术研究的方法论基础，并认识到学术研究对刑事决策及实践的影响。教学重点是让学生了解刑法和政策的争端、问题、体制、进程和文化，在当今跨国犯罪和执法日益全球化的背景下，这些问题尤为重要。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n当代刑事司法问题 (Contemporary Issues in Criminal Justice)\n证据 (Evidence and Proof)\n监禁与人权 (Imprisonment and Human Rights)\n国际刑事证据 (International Criminal Evidence)\n国际刑法 (International Criminal Law)\n人权和刑事司法的哲学基础 (Philosophical Foundations of Human Rights and Criminal Justice)",
+  "success_cases": ""
+}

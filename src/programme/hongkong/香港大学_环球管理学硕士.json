@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "环球管理学硕士",
+  "ename": "Master of Global Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 390000港币/年",
+  "requirements": "具有学士学位或同等学历，不强制要求提供GMAT/GRE，但具备良好的GMAT/GRE成绩的申请者将被优先考虑",
+  "objectives": "香港大学全球管理硕士项目旨在帮助学生发展全球管理问题的解决技能，提高他们在全球范围内管理和与来自不同背景的人合作的能力。由于快速的全球化，行业对全球管理技能有着强烈的需求，这些技能正成为未来领导者的重要能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "跨国公司动态 (Dynamics of Multinational Corporations )\n跨国公司创业 (Entrepreneurship in Multinational Corporations)\n经济视角的全球管理 (Global Management from Economics Perspectives )\n商业组织中的行为 (Human Behaviors in Business Organizations)\n跨文化管理 (Managing Across Cultures)\n中国商业环境 (China Business Environment  )\n公司实习 (Company Field Trip )\n创意全球管理问题解决 (Creative Global Management Problem Solving )\n全球策略制定  (Formulation of Global Strategy  )\n国际商业环境 (International Business Environment  )",
+  "success_cases": ""
+}

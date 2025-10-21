@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "经济与金融理学硕士",
+  "ename": "MSc Economics and Finance",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 31400英镑/年",
+  "requirements": "具有strong 2:1荣誉学位（65%或更高水平），需要数学、工程、精算科学、数据科学、金融、计算机科学或物理学背景或者具有strong 2:1荣誉学位（65%或更高水平），需要经济学、定量学科或上面没有列出的相关领域背景，必须包括至少3个单元的定量课程（详见官网数学资格要求），每个单元的成绩达到2:1\n对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩\n学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用。\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们至少具备以下其中一项：\n- 大量（至少2年有偿职位）相关工作经验的证据，如数据分析、经济建模、数据决策；\n- 相关的研究生学历\n如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关工作经验和/或资格",
+  "objectives": "布里斯托大学经济与金融理学硕士学位课程旨在帮助学生掌握金融领域的专业知识，从而扩大职业选择。通过学习布里斯托大学经济与金融理学硕士学位课程，学生将深入了解经济理论和计量经济学，包括相关领域的最新研究进展，全面了解金融学理论及其在金融市场和企业金融中的应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济学 (Microeconomics)\n资产定价 (Asset Pricing)\n宏观经济学 (Macroeconomics)\n计量经济学 (Econometrics)\n应用金融计量经济学 (Applied Financial Econometrics)\n学位论文（经济与金融理学硕士） (Dissertation (MSc E&F))\n财务建模 (Financial Modelling)\n金融中介原理 (Principles of Financial Intermediation)\n银行监管与金融稳定 (Banking Regulation and Financial Stability)\n银行管理与风险管理 (Bank Management and Risk Management)",
+  "success_cases": ""
+}

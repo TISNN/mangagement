@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学洛杉矶分校",
+  "major_name": "金融工程硕士",
+  "ename": "Master of Financial Engineering",
+  "tags": "商科,金工金数",
+  "introduction": "专业方向: 金工金数\n项目类别: STEM\n入学时间: 秋季\n项目时长: 15个月\n项目学费: 78470美元\n项目规模: 80人\n平均G: 166\n就业比例: 94%\n平均起薪: 103250美元",
+  "requirements": "强大的定量背景,包括线性代数、多元微积分、微分方程、数值方法和高级统计和概率课程,计算机编程 (e.g., C, Java, or Python), plus statistical and econometric modeling (e.g., R, SAS, STATA, or MATLAB)",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

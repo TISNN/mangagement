@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "系统、控制与信号处理理学硕士",
+  "ename": "MSc Systems, Control and Signal Processing",
+  "tags": "工科,电气电子,电子与计算机科学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 33900英镑/年",
+  "requirements": "具有2:1学位，需要电子工程背景\n申请者还必须在以下课程中取得upper 2:1的成绩：\n- 高等数学，如高等数学、应用数学、数学分析、工程数学、电气和电子工程师数学或纯数学\n- 信号处理，如数字信号处理，信号与系统或信号\n- 控制论\n- 概率论",
+  "objectives": "南安普顿大学系统、控制与信号处理理学硕士项目为期一年，专注于系统和信号处理等领域（包括广泛课题的当代方法论），将使学生在信号处理核心课题的基础上专攻系统理论、图像处理和机器学习，培养学生在算法开发和编程方面的适应性技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机视觉 (Computer Vision )\n机器学习 (Machine Learning)\n信号处理 (Signal Processing)\n控制系统设计 (Control System Design)\n项目准备 (Project Preparation)\n高级系统和信号处理 (Advanced Systems and Signal Processing)\n计算生物学 (Computational Biology)\n高级计算机视觉 (Advanced Computer Vision)\n高级机器学习 (Advanced Machine Learning)\n生物统计学 (Biometrics)\n计算金融 (Computational Finance)\n生物启发机器人 (Biological Inspired Robotics)\n图像处理 (Image Processing)\n应用控制系统 (Applied Control Systems)\n数字控制系统设计 (Digital Control System Design)",
+  "success_cases": ""
+}

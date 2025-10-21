@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "药理学与药物开发理学硕士",
+  "ename": "MSc Pharmacology and Drug Development",
+  "tags": "社科,药学,赫尔约克医学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31900英镑/年",
+  "requirements": "申请者必须接受过人类或哺乳动物生物学（例如医学、生物医学或生物学本科课程的毕业生）、化学/药理学或其他相关领域的先前培训，至少达到2:2（荣誉）学位或同等学历\n插班医学生必须成功完成至少3年医学学士学位或类似的医学资格",
+  "objectives": "约克大学药理学与药物开发理学硕士项目将为学生提供独特和无与伦比的机会，让学生深入了解临床、基础科学和工业方面的药理学。在约克大学药理学与药物开发理学硕士课程中，学生将获得在开发下一代药物方面发挥积极作用的技能——无论是从实验室的第一原理、临床试验中的测试，还是将新产品带到临床。学生将从药理学与药物设计过程的前沿专家那里学习。这包括我们自己的临床试验部门以及来自国际相关制药公司和内政部的特邀发言人。除了从他们的专业知识中学习之外，学生还将面临不同的思考和发展技能的挑战，成为一个自我导向的学习者——让学生在整个职业生涯中不断增长学生的药理学知识。约克大学药理学与药物开发理学硕士课程围绕核心模块展开，涵盖药理学的基本原理和药物对主要器官系统的临床相关性，同时展示药物开发过程，从最初的药物设计到理解临床试验的重要性。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "药理学基础 (Foundations of pharmacology)\n药理学实用研究技能 (Practical research skills in Pharmacology)\n临床实践I：设计与发现 (Bench to bedside I: Design and discovery)\n治疗学 (Therapeutics)\n临床实践II：临床试验 (Bench to bedside II: Clinical trials)\n论文 (Dissertation)",
+  "success_cases": ""
+}

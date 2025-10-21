@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "公司治理与问责理学硕士",
+  "ename": "MSc Corporate Governance & Accountability",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1荣誉学位或非英国同等学历，不限专业背景，至少包含会计学或金融学的5门学分认定课程，且平均成绩为及格\n只有符合或超过学校规定的入学要求的申请才会被考虑，任何不符合要求的申请将被自动拒绝。申请者将根据其相对于其他申请人的表现、当前的GPA或学位等级、学术背景的相关性被考虑录取",
+  "objectives": "格拉斯哥大学公司治理与问责理学硕士项目将帮助学生运用国际化视角解读全球商业和当今社会面临的一些重大问题，使学生从理论和实际方面理解日新月异的企业管治及问责领域。本课程将向学生介绍金融和治理的主要原则，国家、社会和企业之间的关系，以及商法、管理和伦理方面的内容。学生将详细了解公司治理为什么变得重要，实施公司治理面临哪些挑战，以及随着时间的推移公司治理如何发生变化。学生将很好地理解会计领域的最佳实践，并在课程结束时能够通过案例研究方法对会计实践提出批判性挑战。学生的学习将平衡理论、研究和业务相关示例，使学生能够培养在复杂环境中有效管理治理和问责制所需的分析技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文与研究方法 (Dissertation & research methods)\n国际企业金融基础 (Foundations of international corporate finance)\n国际企业治理和问责 (International corporate governance and accountability)\n管理会计与控制 (Management accounting and control)\n会计与商业道德 (Accounting and business ethics)\n审计、风险与控制 (Audit, risk and control)\n风险和不确定性管理 (Governing risk and uncertainty)\n人权与商业 (Human rights and business)\n国际税收问题 (Issues in international taxation)\n公共部门财务管理 (Public sector financial management)\n银行业与发展金融学 (Responsible banking and development finance)\n社会与环境会计 (Social and environmental accounting)",
+  "success_cases": ""
+}

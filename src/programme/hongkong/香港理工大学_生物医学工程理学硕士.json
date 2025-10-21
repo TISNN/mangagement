@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "生物医学工程理学硕士",
+  "ename": "MSc Biomedical Engineering",
+  "tags": "工科,生物工程,工程学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 196500港币/年",
+  "requirements": "具有工程学或应用科学学士学位，或具有医疗保健学科或相关领域的学位，或具有同等学历\n具备健康相关服务和行业的相关毕业后经验者优先考虑",
+  "objectives": "香港理工大学生物医学工程理学硕士学位课程致力于培养在生物医学工程领域具有专业能力、战略思维与终身学习能力的专业人才，并会为学生提供现代的生物医学工程实践中所需求的现代工程知识和先进的技术工具，并且，它还致力于通过高质量的教育，使学生具备生物医学工程领域的批判性思维和解决问题的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用生物信号处理 (Applied Biosignal Processing)\n生物材料与组织工程 (Biomaterials and Tissue Engineering)\n康复工程 (Rehabilitation Engineering)\n研究方法与生物统计学 (Research Methods and Biostatistics)\n毕业论文 (Dissertation)\n健康技术专题研究 (Advanced Topics in Health Technology)\n分子和功能成像：从身体系统到细胞分子 (Molecular and Functional Imaging: From Body System to Molecules)\n临床生物力学 (Clinical Biomechanics)\n纳米生物技术 (Nanobiotechnology)\n知识产权与医药设备标准与法规 (Intellectual Property, Standards and Regulations of Medical Devices)",
+  "success_cases": ""
+}

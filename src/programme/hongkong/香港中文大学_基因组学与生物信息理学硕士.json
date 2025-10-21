@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "基因组学与生物信息理学硕士",
+  "ename": "MSc Genomics and Bioinformatics",
+  "tags": "理科,生物,医学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 148800港币/年",
+  "requirements": "毕业于受认可大学并获得学士学位，偏好医学、科学或工程背景，需要提供B等级证明",
+  "objectives": "香港中文大学基因组学与生物信息理学硕士课程旨在：丰富药学、理学和工学学科背景的学生基因组和生物信息学方面的知识；培养学生批判性评价基因组学与生物信息学领域学术科研工作的能力，为学生提供进行基因组学与生物信息学领域课题研究的实践机会，使学生能将所学基因组和生物信息学知识应用于生物学或生物医学相关的实际工作中。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电脑程序设计概论 (Introduction to Programming)\n分子生物及遗传学概论 (Introduction to Molecular Biology and Genetics)\n生物运算 (Bio-computing)\n基因组学：基本概念和应用 (Basic Concepts and Applications )\n生物信息学的理论和演算法 (Theories and Algorithms in Bioinformatics)\n系统生物学 (Systems Biology)\n基因组资讯学 (Genome Informatics)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

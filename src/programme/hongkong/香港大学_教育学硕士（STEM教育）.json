@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "教育学硕士（STEM教育）",
+  "ename": "Master of Education (STEM Education)",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 229800港币/年",
+  "requirements": "具有学士学位或同等学历",
+  "objectives": "香港大学教育学硕士（STEM教育）项目旨在使教育专业的学生对围绕STEM教育的理论和实践问题有深入的理解，探讨与STEM相关的哲学、理论、学习设计、技术和政策，包括本地和国际层面。该项目将重点考察具体的理论构建，帮助研究生更进一步地发展研究议程，例如STEM素养、学习设计、集成水平、计算思维和设计思维等。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育问题与研究 (Educational Issues and Research)\n设计思维与教育 (Design Thinking and Education)\nSTEM教育中的新兴技术 (Emerging Technologies in STEM Education)\nSTEM教育中的学习、教学与评估 (Learning, Teaching and Assessment in STEM Education)\n贯穿课程与社会的STEM教育 (STEM Across the Curriculum and the Society)\n计算思维与教育 (Computational Thinking and Education)\n统计方法概论 (Introduction to Statistical Methods)\n定性研究方法：研究设计、数据收集与分析 (Qualitative Methods: Research Design, Data Collection and Analysis)\n研究项目或专业作品集 (Research Project or Professional Portfolio)",
+  "success_cases": ""
+}

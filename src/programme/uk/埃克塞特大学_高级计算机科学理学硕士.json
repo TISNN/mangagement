@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "高级计算机科学理学硕士",
+  "ename": "MSc Advanced Computer Science",
+  "tags": "工科,计算机,工程、数学与物理科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 29500英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要计算机科学或相关领域背景，要求申请人具备丰富的计算机科学知识（相当于该领域的本科学位），能够证明良好的编程能力\n如果有证据表明申请者在学习计划相关的课程中表现优异、拥有丰富的相关工作经验或相关专业资格，学校可能会考虑具有非标准资格的申请\n申请者可能需要接受面试",
+  "objectives": "埃克塞特大学高级计算机科学理学硕士项目面向本科毕业生和行业专业人员，专注于最前沿的技术，并指导学生将这些技术应用于整个社会复杂的实践中去。在埃克塞特大学高级计算机科学理学硕士项目的学习中，学生能够学习和参与到该领域专家和学者的一系列计算机科学研究的最新发展。课程内容充分汲取了学院在人工智能、机器学习、数据科学、高性能计算和网络以及网络安全方面的特定研究优势。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "小组发展项目 (Group Development Project)\n计算机科学研究项目 (Computer Science Research Project)\n研究方法论 (Research Methodology)\n计算机建模与仿真 (Computer Modelling and Simulation)\n自然计算 (Nature-Inspired Computation)\n逻辑、本体论和知识表示 (Logic、Ontology、and Knowledge Representation)\n机器学习 (Machine Learning)\n发展计算和优化 (Evolutionary Computation & Optimisation)\n计算机视觉 (Computer Vision)\n高性能计算与分布式系统 (High Performance Computing and Distributed Systems\t)",
+  "success_cases": ""
+}

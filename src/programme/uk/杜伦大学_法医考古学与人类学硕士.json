@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "法医考古学与人类学硕士",
+  "ename": "MSc Forensic Archaeology and Anthropology",
+  "tags": "社科,历史,考古学院",
+  "introduction": "专业方向: 历史\n入学时间: 9月\n项目时长: 1年\n项目学费: 29000英镑/年",
+  "requirements": "申请者应至少达到有2:1学位或同等学历，需要考古学、人类学、法医学或犯罪现场科学背景的本科学位，学校接受各种背景的申请者，包括具有自然和生物科学、化学、地理学以及古典学和历史学本科学位的学生",
+  "objectives": "杜伦大学法医考古学与人类学硕士项目旨在为学生提供必要的知识和技能，以便其在法医考古学和人类学方面进行进一步研究，或在法医相关专业或更广泛的毕业生市场中找到工作。这是一门密集的实践课程，包括对人类骨骼遗骸的广泛分析，模拟法庭体验，“万人坑”的挖掘，以及与法医环境相关的法律和道德问题的知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "骨质分析 (Osteoprofiling)\n法医考古学与人类学的研究技能 (Research Skills in Forensic Archaeology and Anthropology)\n法医考古学与人类学：理论与实践 (Forensic Archaeology and Anthropology: Theory and Practice)\n同位素与生物分子考古学 (Isotope and Biomolecular Archaeology)\n古病理学：理论与方法 (Palaeopathology: Theory and Method)\n论文 (Dissertation)",
+  "success_cases": ""
+}

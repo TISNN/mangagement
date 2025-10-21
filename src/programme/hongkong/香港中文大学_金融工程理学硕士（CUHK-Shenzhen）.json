@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "金融工程理学硕士（CUHK-Shenzhen）",
+  "ename": "MSc Financial Engineering (CUHK-Shenzhen)",
+  "tags": "商科,金工金数,深圳校区",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 2年\n项目学费: 134000人民币/年",
+  "requirements": "申请者需毕业于认可的大学并获得学士学位，需要提供B等级证明，或获得等同大学本科的资历\n需要提供成绩排名证明",
+  "objectives": "香港中文大学（深圳）与香港中文大学合作开办金融工程硕士项目。该项目是香港中文大学（深圳）设立的首批硕士课程之一，融合了金融理论、高等数学、建模、分析与优化，程序设计及其实现，产品开发等方面的知识和技术，为立志投身于证券，银行，金融管理，管理与策略咨询，定量分析等行业的人员设立。香港中文大学（深圳）金融工程理学硕士项目致力于帮助学生掌握金融理论，定量分析方法以及程序设计技术，使之在面临迅速发展的中国以及国际金融市场所带来的挑战时，能够发挥所学，服务企业与社会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "最优化理论 (Optimization)\n随机模型 (Stochastic Models)\n投资科学 (Investment Sciences)\n金融衍生产品 (Financial Derivatives)\n中国金融市场概论 (Introduction to Chinese Financial Markets)\n金融数据分析 (Financial Data Analysis)\n定量风险管理  (Quantitative Risk Management)\n利率期限模型与固定收益证券 (Term Structure Models and Fixed-income Securities)\n大宗商品市场建模  (Commodity Markets and Modeling)\n信用风险模型与产品  (Credit Risk Modeling and Products )\n金融工程中的计算方法 (Computational Methods in Financial Engineering)\n算法交易  (Algorithm Trading)\n金融工程专题:公司风险管理 (Special Topics in Financial Engineering - Corporate Risk Management)\n程序设计在金融工程中的应用 (Programming for Financial Engineering)\n数据科学在金融工程中的应用 (Data Sciences in Financial Engineering)",
+  "success_cases": ""
+}

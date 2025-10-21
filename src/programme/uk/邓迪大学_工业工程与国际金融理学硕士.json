@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "工业工程与国际金融理学硕士",
+  "ename": "MSc Industrial Engineering and International Finance",
+  "tags": "商科,金融,理工学院",
+  "introduction": "专业方向: 金融\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 27900英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要机械工程、电子工程、应用物理学专业背景，学校也可以考虑具有相关工作经验的申请者",
+  "objectives": "邓迪大学工业工程与国际金融理学硕士项目旨在拓展学生本科所学的工程学知识与技能，同时引导学生深入学习专业的工程学课程、补充掌握金融原理。学生将参加至少为期12周的工业实习活动，锻炼自身工程技能与业务管理知识；同时通过成立虚拟衍生公司来培养自身领导力，提高对前沿工业工程策略的运用能力，以及对经济问题的思考能力，从而逐渐构建自己的思维体系。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程项目及报告(产业布局) (Engineering Project and Report (Industrial Placement))\n先进制造 (Advanced Manufacturing)\n商业和金融预测 (Forecasting for Business and Finance)\n全球风险分析(5GR) (Global Risk Analysis (5GR))\n基础经济学和商业统计 (Foundation Economics and Statistics for Business)\n国际商业金融 (International Business Finance)\n公司金融 (Corporate Finance)\n高级机器人学 (Advanced Robotics)",
+  "success_cases": ""
+}

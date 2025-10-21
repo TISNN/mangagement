@@ -1,0 +1,12 @@
+{
+  "school_name": "香港都会大学",
+  "major_name": "工商管理硕士（中文）（循途径一）",
+  "ename": "MBA (in Chinese) (through Pathway 1)",
+  "tags": "商科,工商管理,李兆基商业管理学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 309970港币/年",
+  "requirements": "具有认可的工商管理相关领域的硕士学位（或等同资格）",
+  "objectives": "香港都会大学工商管理硕士（中文）课程旨在帮助学员全面掌握基本的管理分析技巧，深入认识管理的各方面功能。学员修毕课程后，能够运用专业知识及分析技巧，作出最佳的商业决策，制订商业策略。本课程包括巿场营销、人力资源管理及策略管理等多方面，也强调不同范畴知识的整体运用，以及因应具体情况的全盘管理分析及策略。\n此外香港都会大学工商管理硕士（中文）课程亦介绍现代最新管理原理及概念，而且着重将现代理念应用于大中华的工商机构。借个案研讨及实例分析等，帮助学员把现代知识应用于工作环境中。本课程介绍华人社会的经营环境及案例，分析成功策略的应用经验和实践心得，透过专题个案研讨及有关训练，提高学员整体运用各种功能策略的能力。\n鉴于大中华内的工商及政经活动多以中文纪录及办理，以中文进修，可以更直接有效地把所学知识及技巧，灵活运用于工作上。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用商业计划（一年） (Applied Business Project (1 Year))\n策略管理 (Strategic Management)\n亚太区管理策略研究 (Strategic Issues for Management in the Asia Pacific Region)\n人力资源管理 (Human Resource Management)\n市场管理实务 (Market Management Practice)",
+  "success_cases": ""
+}

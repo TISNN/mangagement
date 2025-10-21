@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "集成电路理学硕士",
+  "ename": "MSc Integrated Circuits",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 208000港币/年",
+  "requirements": "具有学士学位或同等学历并且达到二等荣誉学位，需要电子工程、工程科学或物理科学背景",
+  "objectives": "香港正迅速转向知识型经济，越来越需要提高专业人员的知识，特别是在与信息技术和集成电路领域的现代技术进步有关的学科方面。在过去的三十年里，集成电路技术一直是电子工业的主要驱动力，集成电子学从微尺度到纳米尺度的进步对未来30年信息技术的发展至关重要。香港科技大学集成电路理学硕士课程是为拥有工程或科学学士学位、有兴趣深入了解微电子工程知识或提升集成电路学科知识的的专业人士设计的。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "互补金属氧化物半导体超大规模集成设计 (CMOS VLSI Design)\n大规模数字集成电路系统设计与自控式设计 (Digital VLSI System Design and Design Automation)\n嵌入式系统 (Embedded Systems)\n模拟集成电路分析与设计 (Analog IC Analysis and Design)\n高级模拟集成电路分析与设计 (Advanced Analog IC Analysis and Design)\n集成电路设计用半导体器件 (Semiconductor Devices for Integrated Circuit Designs)\n引导芯片设计项目 (Guided Chip Design Project)\n电源管理电路与系统 (Power Management Circuits and Systems)\n射频集成电路设计 (Radio-Frequency Integrated Circuits Design)\n专题 (Special Topics)",
+  "success_cases": ""
+}

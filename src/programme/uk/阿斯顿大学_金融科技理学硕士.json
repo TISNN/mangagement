@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "金融科技理学硕士",
+  "ename": "MSc Financial Technology",
+  "tags": "商科,金工金数,阿斯顿商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 23500英镑/年",
+  "requirements": "鼓励具有经济、工程、金融、数学、统计学或相关学科背景的申请者。如果没有相关学位，需要证明本科期间学习过数学或统计学，并且达到50%的分数。雅思总分6.5（小分一项不低于5.5，其它项不低于6.0）PTE总分67（小分一项不低于59，其它项不低于64）",
+  "objectives": "阿斯顿大学金融科技理学硕士项目的课程重点金融市场、投资策略和区块链等新兴技术，在理论知识和实际应用之间取得平衡。学生将获得行业标准软件的实践经验，并从我们专用的交易室中受益，为学生奠定有竞争力的职业道路。\n阿斯顿大学金融科技理学硕士项目由具有行业背景的经验丰富的学者领导，创造了一个有吸引力和支持性的学习环境。它为学生提供各种金融科技职业的装备，并为学生准备CFA®（特许金融分析师）一级考试。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "投资管理 (Investment Management)\n金融市场和技术基础 (Foundations of Financial Market and Technology)\n金融科技的新兴主题 (Emerging Topics in FinTech)\n区块链和金融科技 (Blockchain and Fintech)\n企业风险管理 (Corporate Risk Management)\n金融编程 (Python for Finance)\n阿斯顿全球优势 (The Aston Global Advantage)\n学术实践中的道德规范 (Ethics in Academic Practice)\n交易技巧 (Trading Techniques)\n国际金融 (International Finance)\n金融计量经济学 (Financial Econometrics)",
+  "success_cases": ""
+}

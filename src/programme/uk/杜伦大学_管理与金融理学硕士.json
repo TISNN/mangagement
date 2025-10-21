@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "管理与金融理学硕士",
+  "ename": "MSc Management and Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 32500英镑/年",
+  "requirements": "本课程面向任意专业或学科背景的毕业生，不需要先前学习过管理，然而，管理学本科学生或已经完成专业管理资格的学生可能会发现本课程的一些内容与他们之前的学习内容重叠申请者需要具有英国一等或2:1荣誉学位",
+  "objectives": "杜伦大学管理与金融理学硕士课程直接进入业务的核心，旨在加强学生管理财务运作所需的技能和知识，这些技能和知识对于在当今快速发展的全球市场中取得成功至关重要。学生将学习为期一年的全日制课程，学习战略、组织行为学、金融基础、财务管理、企业融资和运营风险等核心课程，还可以根据自己的兴趣定制课程，从一系列选修课程中进行选择，并就所选择的主题完成论文，这可以是一项独立的研究，也可以是一个更实用的项目，与外部组织合作完成。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "组织行为 (Organisational Behaviour)\n战略学 (Strategy)\n金融学基础 (Fundamentals of Finance)\n财务管理 (Financial Management)\n公司财务与运营风险 (Corporate Finance and Operational Risk)\n管理与金融研究方法与论文 (Research Methods and Dissertation in Management and Finance)\n新创业与企业技能 (New Venture Creation and Enterprise Skills)\n项目管理 (Project Management)\n决策与商业建模 (Decision Making and Business Modelling)\n全球商务 (Global Business)\n东亚商业与管理 (East Asian Business and Management)\n咨询 (Consulting)\n员工奖励策略 (Employee Reward Strategy)\n金融科技 I (Financial Technologies I)\n全球体育商业 (Global Sport Business)\n国际游学 (International Study Tour)\n领导科学 (The Science of Leadership)\n跨国公司财务学 (Multinational Finance)\n兼并、收购与公司重组 (Mergers, Acquisitions and Corporate Restructuring)",
+  "success_cases": ""
+}

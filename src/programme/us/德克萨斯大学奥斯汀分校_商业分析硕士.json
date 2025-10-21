@@ -1,0 +1,12 @@
+{
+  "school_name": "德克萨斯大学奥斯汀分校",
+  "major_name": "商业分析硕士",
+  "ename": "Master of Science in Business Analytics",
+  "tags": "商科,商业分析",
+  "introduction": "专业方向: 商业分析\n项目类别: STEM\n入学时间: 夏季\n项目时长: 10个月\n项目学费: 48000美元\n项目规模: 109人\n平均成绩: 3.66\n平均G: 730\n国际学生: 52%\n男女比例: 57:43\n就业比例: 100%\n平均起薪: 86175美元",
+  "requirements": "需接触至少1学期的微积分和统计学相关的定量课程；修过计算机编程课程或具有专业经验；了解C,C,Python, Java优先",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

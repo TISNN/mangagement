@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "信息技术理学硕士",
+  "ename": "MSc Information Technology",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景，其中计算课程的学分不超过50% 学校有时可能会接受具有2:2荣誉学位或同等学历以及至少8年工作经验的申请者 请注意，先前的计算机知识和技能是有利的，但不是必需的",
+  "objectives": "格拉斯哥大学信息技术理学硕士学位课程密集是一个以实践为导向的研究生课程，将为学生提供先进的信息技术技能。这是一个转换学位课程，面向没有计算机科学背景的学生。学生将通过开展一个开发项目来应用知识和技能。在该课程中，学生有机会发展和实践相关的专业技能和可转移技能，并与雇主见面，了解在IT行业工作的情况。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据库原理与应用 (Database theory and application )\n企业网络安全 (Enterprise cyber security )\n编程 (Programming)\n软件工程 (Software engineering)\n系统和网络 (Systems and networks)\n信息技术团队项目理学硕士 (Msc it+ team project )\n高级编程 (Advanced programming )\n算法和数据结构 (Algorithms and data structures )\n密码学与安全发展 (Cryptography and secure development)\n网络安全基础 (Cyber security fundamentals )\n网络系统取证 (Cyber system forensics )\n人机交互设计与评价 (Human computer interaction design and evaluation )\n互联网技术 (Internet technology)\n安全关键系统开发 (Safety-critical systems development )",
+  "success_cases": ""
+}

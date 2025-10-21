@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "信息系统管理理学硕士",
+  "ename": "MSc Information Systems Management",
+  "tags": "商科,信息系统,管理学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1本科荣誉学位，不限专业",
+  "objectives": "谢菲尔德大学信息系统管理留学硕士课程适合希望进入管理领域的毕业生和专业人士，以及希望扩展信息系统知识的业务经理。学生将获得信息系统领域的实用知识及其对组织结构和流程的影响，同时深入了解基本管理技能。本课程侧重于管理关键领域的核心技能，包括战略、人力资源、运营和供应链管理。学生将了解项目管理如何与信息技术和信息系统一起工作，以及它们在控制和推动组织前进方面的作用。学生还可以根据自己的兴趣定制课程，包括电子商务、商业智能和国际商业战略。课程结束时，学生将深入了解关键管理原则、信息系统的前沿理论以及推动现代工作场所的技术和系统。学生将能够在管理和专业角色中运用这些技能，使他们在工作场所中发挥作用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "信息系统建模 (Information Systems Modelling)\n信息系统与信息社会 (Information Systems and the Information Society)\n组织员工管理 (Managing People in Organisations)\n运营与供应链管理 (Operations and Supply Chain Management)\n信息系统项目管理 (Information Systems Project Management)\n信息系统变革管理 (Information Systems Change Management)\n研究方法与学术论文准备 (Research Methods and Dissertation Preparation)\n战略管理 (Strategic Management)\n学术论文 (Dissertation)\n电子商务 (E-Business and E-Commerce)\n商业智能 (Business Intelligence)\n人机交互与用户界面设计 (Human Computer Interaction and User Interface Design)\n国际商业战略 (International Business Strategy)",
+  "success_cases": ""
+}

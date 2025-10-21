@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "商业及数据分析理学硕士",
+  "ename": "MSc Business and Data Analytics",
+  "tags": "商科,信息系统,商学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 300000港币/年",
+  "requirements": "信息分析管理方向 申请者必须：具有认可的学士学位，不限专业背景，课程涵盖适当的数学知识 商业定量分析方向 申请者必须：具有认可的学士学位，不限专业背景，课程涵盖适当的数学知识 该专业潜在的学生背景包括：商科专业（会计、市场营销、管理等），社会科学专业，工程专业，科学专业 鼓励希望从事统计数据分析职业的学生申请，需要学习过至少一门微积分或线性代数本科课程。没有任何统计学和编程背景的学生也可以申请",
+  "objectives": "香港城市大学商业及数据分析理学硕士项目通过积极学习理论、方法和跨广泛知识领域（例如应用统计、大数据管理、数据）的支持技术，培养学生的商业数据分析、数据挖掘和社交媒体分析能力，提高学生的业务数据分析技能，使学生成为更有效的决策者。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据库管理系统 (Database Management Systems​)\n数据可视化 (Data Visualization)\n统计数据分析 (Statistical Data Analysis)\n数据挖掘 (Data Mining)\n机器学习与社交媒体分析 (Machine Learning and Social Media Analytics)\n使用Python进行分析编程 (Analytical Programming with Python)\n商业数据分析 (Business Data Analytics)\n商业智能应用 (Business Intelligence Applications​)\n区块链技术与商业应用 (Blockchain Technology and Business Applications)\n信息系统项目 (Information Systems Project)\n创新与科技创业 (Innovation and Technology Entrepreneurship)\n知识管理 (Knowledge Management)\n管理支持与商业智能系统 (Management Support and Business Intelligence Systems)\n项目管理与质量保证 (Project Management and Quality Assurance)\n应用线性统计模型 (Applied Linear Statistical Models)\n商业定量分析当代主题 (Contemporary Topics in Quantitative Analysis for Business)\n决策分析 (Decision Analytics)\n管理决策模型 (Managerial Decision Modeling )\n使用Excel于R语言进行预测分析 (Predictive Analytics with Excel and R)\n预测建模与商业预测 (Predictive Modeling and Forecasting for Business)\n市场营销中的预测建模 (Predictive Modeling in Marketing)\n项目管理 (Project Management)\n经济学与金融学中的统计模型 (Statistical Modelling in Economics and Finance)\n风险管理中的统计模型 (Statistical Modelling in Risk Management)",
+  "success_cases": ""
+}

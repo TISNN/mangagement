@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "数学理学硕士",
+  "ename": "MSc Mathematics",
+  "tags": "理科,数学,数学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 35340英镑/年",
+  "requirements": "具有一等荣誉学位或同等学历，需要数学或数学含量较高的理科背景",
+  "objectives": "华威大学数学理学硕士项目旨在培养未来的数学研究学者，不仅适合拥有数学、物理或统计本科背景的学生，也适合非以上学术背景但数学能力较强、想要接受数学领域正规教育的学生。华威大学数学理学硕士项目课程内容包括授课课程和独立研究项目，在最后一学年，学生需要深入研究一个选定主题并撰写论文。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n广义相对论 (General Relativity)\n粒子物理学的量规理论 (Gauge Theories for Particle Physics)\n物理高性能计算 (High Performance Computing in Physics)\n项目（研究/数学实践） (Projects (Research/Maths in Action))\n阅读模块 (Reading Module)\n黎曼曲面 (Riemann Surfaces)\n随机分析 (Stochastic Analysis)\n几何群论 (Geometric Group Theory)",
+  "success_cases": ""
+}

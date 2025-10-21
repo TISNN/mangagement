@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "智能、互联与自动驾驶汽车理学硕士",
+  "ename": "MSc Smart, Connected and Autonomous Vehicles",
+  "tags": "工科,电气电子,制造学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 35340英镑/年",
+  "requirements": "具有2:1本科学位或同等学历，需要STEM学科背景，特别是电子、电气工程、控制系统、计算机科学、通信、物理学或数学\n具有英国2:2学位或同等学历的申请者在证明相关专业经验后可能会被接受\n该课程特别适合那些具有电子、电气工程、控制系统、通信工程、物理或数学背景并希望在互联和自动驾驶汽车以及智能交通系统网络的发展中发挥作用的申请者",
+  "objectives": "随着智能联网自动驾驶汽车的出现，汽车行业发展正面临着重大的发展挑战。当下该如何开发性能强健的技术基础设施来应对多功能智能车辆、通信系统和无人驾驶汽车可预期的爆炸性增长？毫无疑问，应对以上挑战需要全面了解自动化理学知识及相关专业方法，以确保电子、通信（如V-2-V,V-2-I）及自动化系统的稳定性及可靠性。华威大学智能、互联与自动驾驶汽车理学硕士项目旨在解决机器学习、自动控制策略、通信基础设施、网络安全协议、新兴汽车网络、汽车嵌入式系统等领域内的知识难题，适合工程、计算机科学、物理、数学专业背景的学生申请，尤其是出身电子、电气工程、控制系统或通信专业的学生在开发研究自主车辆及智能交通系统网络方面可以充分发挥自己的学科优势。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "汽车传感器和传感器融合 (Automotive Sensors and Sensor Fusion)\n强大的汽车嵌入式系统 (Robust Automotive Embedded Systems)\n联网汽车的网络和通信 (Networks and Communications for the Connected Car)\n机器智能与数据科学 (Machine Intelligence and Data Science)\n人与技术的互动 (Human-Technology Interaction)\n技术管理学 (Technology Management)\n面向科学家和工程师的编程和基本算法 (Programming and Fundamental Algorithms for Scientists and Engineers)",
+  "success_cases": ""
+}

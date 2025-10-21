@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "数据科学理学硕士",
+  "ename": "MSc Data Science",
+  "tags": "理科,数据科学,计算机科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31900英镑/年",
+  "requirements": "具有2:2学位或同等本科学位，需要计算机科学或相关领域背景，学位应该包含以下课程：编程、数学、算法或数据科学",
+  "objectives": "约克大学数据科学理学硕士课程旨在培养具有数据科学专长、能够为其职业领域和整个社会做出重大贡献的计算和数学工程师，本课程建立在学生现有的计算机科学（编码、云计算、基础机器学习）和数学（线性代数、概率、统计和微积分）技能的基础上，发展学生在数据科学领域的训练，并允许针对自主系统、计算机视觉、用户体验和高级软件工程等一系列专业领域进行高级研究。学生的学习以三个综合分支为基础，这些分支培养了数学基础、计算思维和工程技能，正是这三个领域的整体结合使毕业生对雇主具有吸引力。\n约克大学数据科学理学硕士课程的学生将培养批判性分析、挖掘和管理不同类型数据所需的技术技能，以便学习和发现有趣的模式，本课程教授学生如何从这些评估中得出可行的结论，同时有效地参与多学科团队，学生也将从本学院在可靠系统方面的专业知识中受益和学习。学生的研究在数据科学领域的重点研究项目中达到顶点，培养学生为解决复杂的商业和工业工程问题做出专业贡献的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机科学研究方法 (Research Methods in Computer Science)\n人工智能与机器学习基础 (Foundations of AI and Machine Learning)\n数据科学治理 (Governance of Data Science)\n专业与学术发展 (Professional and Academic Development)\n基于云的数据分析 (Cloud-Based Data Analysis)\n计算机视觉与图形学 (Computer Vision and Graphics)\n自主机器人系统工程 (Autonomous Robotic Systems Engineering)\n交互设计与评估 (Interaction Design and Evaluation)\n调查用户体验的定性方法 (Qualitative Approaches to Investigating UX)\n工程 2：自动化软件工程 (Engineering 2: Automated Software Engineering)\n智能系统：概率与深度学习 (Intelligent Systems: Probabilistic and Deep Learning)",
+  "success_cases": ""
+}

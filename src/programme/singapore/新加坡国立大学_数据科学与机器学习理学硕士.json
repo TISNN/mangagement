@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "数据科学与机器学习理学硕士",
+  "ename": "MSc Data Science & Machine Learning",
+  "tags": "理科,数据科学,理学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 8月\n项目时长: 1年\n项目学费: 55590新币/年",
+  "requirements": "具有荣誉学士学位或定量科学（如数学、统计学和物理学）、工程学或计算科学4年制学士学位或同等学历\n需要提交存款证明45,000新币",
+  "objectives": "新加坡国立大学数据科学与机器学习理学硕士项目旨在培养数据科学领域的下一代领导者。该项目融合了计算机科学、数学和统计学的跨学科知识，将数据分析与机器学习相结合。除了学习知识，学生还有机会将机器学习和数据分析综合应用到金融行业、医疗保健、政府和社区。该计划得到了新加坡国立大学领先的数据科学研究人员和行业数据科学家的支持，并提供多种数据科学专业。该课程融合了计算机科学、数学和统计学以及数据分析和机器学习等领域的跨学科学习。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工业大数据导论 (Introduction to Big Data for Industry)\n大规模数据驱动推理优化 (Optimisation for Large-Scale Data-Driven Inference)\n机器学习基础/机器学习理论和算法 (Foundations of Machine Learning/Theory and Algotithms for Machine Learning)\n云计算 (Clouding Computing)\n数据科学和机器学习行业咨询与应用项目 (DSML Industry Consulting and Applications Project)\n数据科学家深度学习 (Deep Learning for Data Scientists)\n行业数据挖掘 (Data Mining for Industry)\n大数据产业 (Big Data for Industry)\n计算机视觉数据科学 (Data Science in Computer Vision)\n定量金融数据科学 (Data Science in Quantitative Finance)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "全球发展数据科学理学硕士",
+  "ename": "MSc Data Science for Global Development",
+  "tags": "社科,国际关系,全球发展学院",
+  "introduction": "专业方向: 国际关系\n入学时间: 9月\n项目时长: 1年\n项目学费: 24500英镑/年",
+  "requirements": "具有2:2学士学位或同等学历，优先考虑社会科学背景，但必须具备良好的统计学知识",
+  "objectives": "数据正在塑造全球发展的未来，对具有数据科学、影响评估和定量分析专业知识的专业人员的需求从未如此之高，东安格利亚大学全球发展数据科学理学硕士课程旨在为学生提供在这个快速发展的领域茁壮成长的技能和知识，这一创新的、首创的项目填补了学术领域的关键空白，提供全面的、与行业一致的课程，明确为全球发展量身定制。在整个课程中，学生将在Python编程、数据挖掘和高级因果分析方面打下坚实的基础，能够评估政策、项目和行为干预的影响，还可以灵活地根据自己的兴趣选择全球发展学院和计算机科学学院提供的一系列课程，此外，将通过所选择的领域的论文磨练研究技能，专注于对自身最重要的主题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学Python入门 (Introduction to Python for Data Science)\n计算机科学家的专业技能 (Professional Skills for Computer Scientists)\n数据挖掘 (Data Mining)\n影响评估应用方法 (Applied Methods for Impact Evaluation)\n论文（数据科学） (Dissertation (Data Science))\n全球发展的定量方法与分析 (Quantitative Methods and Analysis for Global Development)\n全球发展政策的行为分析 (Behavioural Analysis for Policy in Global Development)\n全球化、商业与发展 (Globalisation, Business and Development)\n教育政策与发展实践 (Educational Policy and Practice for Development)",
+  "success_cases": ""
+}

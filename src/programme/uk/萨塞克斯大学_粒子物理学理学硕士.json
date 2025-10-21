@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "粒子物理学理学硕士",
+  "ename": "MSc Particle Physics",
+  "tags": "理科,物理,数学与物理科学学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "通常应具有英国2:1本科荣誉学位或以上水平或同等学历\n需要物理学或数学专业背景，在现代物理学（例如量子力学和电动力学）方面有扎实的基础。如果申请者拥有其他专业资格或同等经验，也可能被考虑参加该课程\n申请者应该申请ATAS证书，如果申请者申请实验项目，必须出示实验室经验证明。学校接受实验室能力证明",
+  "objectives": "萨塞克斯大学粒子物理学理学硕士项目专注于现代实验与粒子物理学理论方面的教学。项目课程由专业教师教授，旨在为学生在该领域的进一步学习奠定坚实基础。此外，学生还可以将实验或理论模式应用到项目学习中。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目（粒子物理学理学硕士） (Project (MSc Particle Physics))\n进一步量子力学 (Further Quantum Mechanics)\n量子场论1 (Quantum Field Theory 1)\n宇宙学 (Cosmology)\n数据分析技术 (Data Analysis Techniques)\n广义相对论 (General Relativity)\n核与粒子物理学 (Nuclear and Particle Physics)\nC++编程 (Programming in C++)\n量子光学与量子信息 (Quantum Optics and Quantum Information )\n粒子物理学中的对称性 (Symmetry in Particle Physics)\n高级宇宙学 (Advanced Cosmology)\n粒子物理前沿 (Frontiers in Particle Physics)\n蒙特卡罗模拟 (Monte Carlo Simulations)\n粒子物理学 (Particle Physics)\n粒子物理探测器技术 (Particle Physics Detector Technology)",
+  "success_cases": ""
+}

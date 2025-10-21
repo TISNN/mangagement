@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,经济、社会与政治科学学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位，需要相关学科背景，例如：经济学、数学、工程学、数据科学、计算机科学、物理学、相关学科（数学含量高）\n本课程不接受金融或管理学位",
+  "objectives": "南安普顿大学经济理学硕士项目得到了英国经济与社会研究理事会的认可。南安普顿大学经济理学硕士项目旨在培养学生全面透彻地理解现代经济学中的理念、工具和方法及其在经济问题分析中的应用。 学习宏观和微观经济学，以评估南安普敦经济学硕士的经济政策和问题。这一为期一年的硕士课程将为学生的经济学家职业生涯做好准备，或为继续研究学习做好准备。学生将了解支撑全球金融体系的经济框架和流程。发现他们在解决一系列经济问题中的作用。学生可以研究经济学对一系列部门的影响。学生将在一系列主题中学习经济理论和计量经济学方法。学生还将获得进行独立研究所需的特定经济学领域的深入知识。这将要求学生在选择的领域内就某一主题发表论文。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "先修课程：数学与统计 (Preliminary Mathematics and Statistics)\n定量方法 (Quantitative Methods)\n计量经济学1 (Econometrics 1)\n微观经济学 (Microeconomics)\n宏观经济学 (Macroeconomics)\n定量经济学 (Quantitative Economics)\n经济学理论议题 (Topics in Economic Theory)\n宏观经济学议题 (Topics in Macroeconomics)\n劳动经济学 (Labour Economics)\n产业经济学 (Industrial Economics)\n金融 (Finance)\n国际贸易 (International Trade)\n经济政策发展 (Economic Policy in Development)\n计量经济学议题 (Topics in Econometrics)\n实验经济学 (Experimental Economics)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "微电子系统设计理学硕士",
+  "ename": "MSc Microelectronics Systems Design",
+  "tags": "工科,电气电子,电子与计算机科学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 33900英镑/年",
+  "requirements": "具有2:1学位，需要电气工程或电子工程背景\n申请者还必须在以下课程中取得upper 2:1的成绩：\n- 1门高等数学课程，如：高等数学、应用数学、数学分析、工程数学、电气电子工程师数学或纯数学\n- 1门高级物理课程\n- 1门电路课程，如电路设计或电路分析\n- 2门相关电子课程，如电子设计、嵌入式系统设计、数字电子或半导体器件",
+  "objectives": "微电子系统设计蕴含了集成电路设计和电力系统工程中的许多关键技能。南安普顿大学微电子系统设计理学硕士项目是尖端项目，为期一年，提供基于数字集成电路和模拟集成电路设计的广泛课程供学生自由选择，将使你具备从事进一步研究或就业所需的热门技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "纳电子器件 (Nanoelectronic Devices)\n数字集成电路和系统设计 (Digital IC and Systems Design)\nVLSI系统设计 (VLSI Systems Design)\n数字系统设计 (Digital System Design)\n项目准备 (Project Preparation)\n超大规模集成电路设计项目 (VLSI Design Project)\n自动化软件验证 (Automated Software Verification)\n纳米制造和显微镜检查 (Nanofabrication and Microscopy)\n高级无线通信网络和系统 (Advanced Wireless Communications Networks and Systems)\n医疗电机和电子技术 (Medical Electrical and Electronic Technologies)\n模拟和混合信号CMOS设计 (Analogue and Mixed Signal CMOS Design)\n数字系统综合 (Digital Systems Synthesis)\n嵌入式处理器 (Embedded Processors)\n密码学 (Cryptography)\n硕士课题项目 (MSc Project)",
+  "success_cases": ""
+}

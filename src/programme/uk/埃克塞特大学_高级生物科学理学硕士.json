@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "高级生物科学理学硕士",
+  "ename": "MSc Advanced Biological Sciences",
+  "tags": "理科,生物,生命与环境科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 30900英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，在相关科学科目中取得55%及以上成绩，要求相关科学学科背景（包括：生物科学、细胞生物学、生态学、生态学与保护、进化生物学、遗传学、海洋生物学、分子生物学、微生物学、植物学、动物学）\n学校也将考虑相关学科55%以下的2:2学位申请者",
+  "objectives": "埃克塞特大学高级生物科学理学硕士项目旨在让学生可以学习高级生物学的广泛基础或专攻七个专业分支中的一个方向，高级实验室技能模块提供专业培训和高级数据处理，学生将在世界领先的研究小组之一内开展一项实质性的研究项目，毕业时将具备在各个行业从事职业所需的关键技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究项目 (Research Project)\n专业技能 (Professional Skills)\n高级实验室技能 (Advanced Laboratory Skills)\n生物科学高级主题 (Advanced Topics in Biological Sciences)\n海洋脊椎动物生物学 (Biology of Marine Vertebrates)\n动物发育生物学 (Animal Development Biology)\n海洋生物学当前问题 (Current Issues in Marine Biology)\n重新野性化的英国 (Rewilding the United Kingdom)\n动物行为研究进展与方法 (Advances and Methods in Animal Behaviour)\n动物行为的当前研究问题 (Current Research Issues in Animal Behaviour)\n生物信息学 (Bioinformatics)\n医学基因组学 (Medical Genomics)\n药物基因组学 (Pharmacogenomics)\n生物学与医学中的数学建模 (Mathematical Modelling in Biology and Medicine)\n蓝色星球 (Blue Planet)",
+  "success_cases": ""
+}

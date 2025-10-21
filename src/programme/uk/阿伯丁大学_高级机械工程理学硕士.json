@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "高级机械工程理学硕士",
+  "ename": "MSc Advanced Mechanical Engineering",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要机械/土木/材料/化学/航空航天工程背景\n学校也可能会考虑具有机械/土木/材料/化学/航空航天工程背景2:2荣誉学位并具备至少2年相关经验的申请者\n学习背景必须涵盖的重点科目：数学和机械学科\n需要申请ATAS",
+  "objectives": "阿伯丁大学高级机械工程理学硕士课程强调应用计算技术和软件包来解决复杂的工程问题。它为学生提供了广泛的机械工程学科高级学科知识，以便在各种工业部门工作。阿伯丁大学高级机械工程理学硕士课程为机械工程师及相关学科(包括土木、材料、化学、航空航天工程)的毕业生提供深入了解先进机械课题的技术知识，特别是计算力学、工程材料的机械响应和可靠性工程领域。此外，阿伯丁大学高级机械工程理学硕士项目旨在提高已在工业领域工作的经验丰富的工程师的技能，并使毕业生具备高要求就业所需的可转移技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算流体动力学 (Computational Fluid Dynamics)\n波浪数值模拟 (Numerical Simulation of Waves)\n高级复合材料 (Advanced Composite Materials)\n火灾与爆炸工程 (Fire and Explosion Engineering)\n结构振动 (Structural Vibrations)\n项目管理 (Project Management)\n有限元法 (Finite Element Methods)\n数学优化 (Mathematical Optimisation)\n工程风险与可靠性分析 (Engineering Risk and Reliability Analysis)\n隔水管系统与流体动力学 (Riser Systems and Hydrodynamics)\n海洋能与风能 (Marine and Wind Energy)\n高级机械工程个人项目 (Individual Project In Advanced Mechanical Engineering)",
+  "success_cases": ""
+}

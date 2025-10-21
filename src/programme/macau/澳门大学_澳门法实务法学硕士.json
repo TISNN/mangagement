@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "澳门法实务法学硕士",
+  "ename": "LLM Macau Law and Practice",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "持有澳门大学认可的学士学位或同等学历。申请人也可能被要求具备其他知识或专业经验。申请人必须在学士学位学习中达到相当于C级或更高的总成绩",
+  "objectives": "本课程以提升高级法律葡语水准和澳门法律实践知识为导向，在提高学生中葡双语法律实践能力的同时，也注重提高学生的中葡法律基础理论水准。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "法律翻译 (Legal Translation)\n葡语法律会话实践 (Portuguese Conversation for Legal Practice)\n进阶公法研究（葡語） (Advanced Study of Public Law(in Portuguese))\n进阶私法研究（葡语） (Advanced Study of Private Law(in Portuguese))\n进阶公共行政及公共服务研究 (Advanced Study of Public Administration and Civil Services)\n双语法律起草和翻译 (Drafting of Bilinguallaws and Legal Translation)\n非诉讼争端解决（葡语） (Non-Litigation Dispute Resolution(in Portuguese))\n法律文书写作（中葡双语） (Biligual Legal Writing(in Chinese and Portuguese))\n律师实务（中葡双语） (Biligual Pratical Affair of Lawyer(in Chinese and Portuguese))\n论文 (Thesis)",
+  "success_cases": ""
+}

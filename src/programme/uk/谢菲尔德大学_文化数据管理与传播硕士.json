@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "文化数据管理与传播硕士",
+  "ename": "MA Cultural Data Management and Communication",
+  "tags": "社科,文化,数字人文研究所",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 23110英镑/年",
+  "requirements": "具有2:1本科荣誉学位，不限专业",
+  "objectives": "文化数据管理与传播硕士课程将加深学生对管理、分析、传播不同类型文化数据的不同方法的原理和方法的理解。文化数据是从古至今关于人类文化和社会的数字数据，包括古代文献、人造物、当今媒体、数字艺术和虚拟世界的社会环境。文化数据运用各种不同的数字和计算方法进行管理、分析、交流：从数据标准、公民科学、web应用程序，到计算语言学、机器学习、以用户为中心的设计。\n它将为学生提供可转化的技能和知识，使其具备在信息、媒体、通信、创意领域及文化遗产部门（包括美术馆、图书馆、档案馆和博物馆等）工作的职业素养，并为那些有计划进行博士研究的学生奠定基础。该课程针对计划从事文化数据相关项目执行或管理工作的学生，比如监督项目、联络客户、观众、设计团队（程序员、艺术家等等），不要求学生具备编程或数学能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "文化数据导论 (Introduction to Cultural Data)\n数字项目管理 (Managing Digital Projects)\n数字文化和数据电子作品集 (Digital Culture and Data e-Portfolio)\n数字文化导论 (Introduction to Digital Culture)\n文化数字产品设计 (Designing Cultural Data Products)\n文化分析、AI、文化组学 (Language Analysis, AI and Culturomics)",
+  "success_cases": ""
+}

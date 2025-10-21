@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "牙科材料理学硕士",
+  "ename": "MSc Dental Materials",
+  "tags": "社科,医学,牙科学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 32250英镑/年",
+  "requirements": "具有初级临床牙科资格（使其有权在英国牙科总委员会注册为牙科医生）；或\n具有学士学位（至少达到2:2或同等水平），需要医学或3D可视化相关学科背景或牙科学位",
+  "objectives": "利兹大学牙科材料理学硕士项目通过深入了解现代牙科材料，重点介绍添加剂和减法制造以及再生牙科中使用的材料。将帮助学生了解在决定是否采用新的数字工作流时，应该问哪些材料问题。学生还将开展一个大型研究项目，通过访问学校的广泛研究设施，这将使学生能够深入探索一个特别感兴趣的领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究项目 (Research Project)\n牙科材料 (Dental Materials)\n伦理学与统计研究方法 (Research Methods Ethics and Statistics)\n牙科工作流中的加减CAD制造 (Additive & Subtractive CAD Manufacturing in the Dental Workflow)\n结构属性关系 (Structure-Property-Relationships)\n再生牙科生物材料 (Biomaterials for Regenerative Dentistry)\n实践中的创新管理 (Innovation Management in Practice)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "高级化学工程理学硕士",
+  "ename": "MSc Advanced Chemical Engineering",
+  "tags": "工科,化工,化学与工艺工程学院",
+  "introduction": "专业方向: 化工\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 31100英镑/年",
+  "requirements": "具有一等或二等荣誉学位，要求相关的工程、技术或科学学科背景\n如果有证据表明有相关经验和在高级水平学习的能力，则可以通过其他资格证书入学",
+  "objectives": "思克莱德大学高级化学工程理学硕士学位课程主要面向来自英国及海外有意在石油、天然气、加工及化学工业就业的工程学专业学生。思克莱德大学高级化学工程理学硕士学位课程注重项目，符合众多雇主的招聘需求。\n思克莱德大学高级化学工程理学硕士学位课程达到化学工程师学会的认证要求，学生能够申请特许工程师职位。\n思克莱德大学高级化学工程理学硕士学位课程是少数提供安全管理实践课程的硕士学位课程之一，使学生能够接触最佳行业实践及必要的工业培训。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工艺流程设计原理 (Process Design Principles)\n安全管理实践 (Safety Management Practices)\n能源系统 (Energy Systems)\n胶体工程学 (Colloid Engineering)\n多相处理 (Multi-phase Processing)\n石油化工 (Petrochemical Engineering)\n环境控制技术 (Environmental Control Technologies)\n工艺安全设计 (Process Safety Design)\n新兴技术 (Emerging Technologies)\n编程和优化 (Programming & Optimisation)\n项目管理 (Project Management)\n风险管理 (Risk Management)\n信息管理 (Information Management)\n财务信息解读 (Understanding Financial Information)",
+  "success_cases": ""
+}

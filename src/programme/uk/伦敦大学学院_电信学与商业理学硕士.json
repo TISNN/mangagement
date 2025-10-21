@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "电信学与商业理学硕士",
+  "ename": "MSc Telecommunications with Business",
+  "tags": "工科,电气电子,工程科学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 47100英镑/年",
+  "requirements": "通常具有英国大学颁发的2:1学士学位或同等学历，需要相关学科背景，具备大量行业经验（没有以上学历资格）的申请者也可能被考虑",
+  "objectives": "伦敦大学学院电信学与商业理学硕士项目旨在解决信息通信技术和电信领域高技能技术经理短缺问题，为学生提供跨越技术和商业的广泛知识。在伦敦大学学院电信学与商业理学硕士项目中，学生将受益于精品电信课程模块和四个专门设计的商业课程模块，在商业课程模块中，学生可获取来自诸多领域（如商业规划、财务和管理会计、监管、市场营销和产品管理）的产业或学术专家的丰富经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电信网络导论 (Introduction to Telecommunications Networks)\n战略、营销和产品管理 (Strategy、Marketing and Product Management)\n金融和商业环境 (Finance and Business Environment)\n客户服务、运营和规划 (Customer Service、Operations and Planning)\n组织设计、人力管理和创新 (Organisational Design、People Management and Innovation)\n移动通信系统 (Mobile Communications Systems)\n网络和服务管理 (Network and Services Management)\nIP网络介绍 (Introduction to IP Networks)\n 物联网 (Internet of Things)\n无线通信原理 (Wireless Communications Principles)",
+  "success_cases": ""
+}

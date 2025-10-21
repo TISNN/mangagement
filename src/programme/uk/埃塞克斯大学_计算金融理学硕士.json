@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "计算金融理学硕士",
+  "ename": "MSc Computational Finance",
+  "tags": "商科,金工金数,计算机科学与电子工程学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:1学位，需要满足以下背景之一：计算机科学、计算机工程、计算机网络、电脑游戏、计算、软件工程、金融学、商学、 经济学、物理学、数学以及具备一门数学课程学习背景，如数学、微积分、代数、微分方程",
+  "objectives": "埃塞克斯大学计算金融理学硕士项目旨在为学生提供现代定量金融学的核心概念和数学原理，以及运用计算软件包(主要是Matlab)进行金融建模的操作技能。埃塞克斯大学计算金融理学硕士项目提供关于现代、高度计算机化的金融市场如何运作、资产应如何定价以及投资者应如何构建资产组合的实用、实践性学习。除了衍生品和资产定价的传统主题，还特别强调非高斯环境中发生极端事件的风险管理。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融市场分析概论 (Introduction to Financial Market Analysis)\n金融与贸易中的定量方法 (Quantitative Methods in Finance and Trading)\n经济学与金融学计算模型 (Computational Models in Economics and Finance)\n金融工程与风险管理 (Financial Engineering and Risk Management)\n金融行业专家讲座 (Industry Expert Lectures in Finance)\n论文 (CCFEA MSc Dissertation)\n专业实践与研究方法 (Professional Practice and Research Methodology)\n大数据计算金融 (Big-Data for Computational Finance)\n创建与发展新企业 (Creating and Growing a New Business Venture)\nPython编程入门 (Introduction to Programming in Python)\n机器学习与数据挖掘 (Machine Learning and Data Mining)\n神经网络与深度学习 (Neural Networks and Deep Learning)\n金融科技与数字经济的计算市场微观结构 (Computational Market Microstructure for FinTech and the Digital Economy)",
+  "success_cases": ""
+}

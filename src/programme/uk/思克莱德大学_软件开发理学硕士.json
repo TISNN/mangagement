@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "软件开发理学硕士",
+  "ename": "MSc Software Development",
+  "tags": "工科,计算机,计算机与信息科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 28700英镑/年",
+  "requirements": "具有至少二等（2:2）荣誉学位，专业背景不限，该专业是为没有计算机科学背景的毕业生设计的",
+  "objectives": "思克莱德大学软件开发理学硕士项目专为无计算科学背景的学生而设计。计算行业急需有关网络和移动应用程序设计的专业人才。思克莱德大学软件开发理学硕士项目重点培训编程技术，这一技术普遍应用于移动电话、网络应用、软件工程和计算机安全。通过思克莱德大学软件开发理学硕士的学习，学生将学习专业的理论基础，同时具备实践经验，为从事软件开发奠定基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "编程原理导论 (Introduction to Programming Principles)\n面向对象式编程 (Object Oriented Programming)\n移动应用程序开发 (Mobile Application Development)\n软件工程 (Software Engineering)\n计算机安全基础 (Computer Security Fundamentals)\n数据库基础 (Database Fundamentals)\n数据库开发 (Database Development)",
+  "success_cases": ""
+}

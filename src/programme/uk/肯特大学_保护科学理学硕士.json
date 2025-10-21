@@ -1,0 +1,12 @@
+{
+  "school_name": "肯特大学",
+  "major_name": "保护科学理学硕士",
+  "ename": "MSc Conservation Science",
+  "tags": "理科,生物,德雷尔保护与生态研究所",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 24700英镑/年",
+  "requirements": "具有相关学科一等或二等荣誉学位，或取得其他学科的良好荣誉学位，并且具备相关实践经验。在特殊情况下学校会录取没有第一学位但职业生涯和经验显示出足够高的学术成就的申请者\n所有申请者都将根据具体情况予以考虑，其他资格、专业资格和相关经验也可能被考虑在内",
+  "objectives": "制定应对全球生物多样性危机所需的跨学科解决方案，了解我们在保护人类赖以生存的自然栖息地和生态系统时所面临的问题，在肯特大学保护科学理学硕士课程中，学生将与世界领先的保护科学家合作，获得在保护领域成功开展职业生涯所需的知识、技能和实践经验。学生将获得针对保护问题的跨学科视角，了解有效的保护管理需要什么，接受涵盖所有保护学科的先进培训，学习当地社区也依赖自然资源利用所需的方法，以及恢复受威胁物种和栖息地所需的技能。学生将获得作为保护科学家取得成功所需的实用的和方法论的工具，保护科学家可以跨自然和社会科学领域开展工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "保护的多学科视角 (Multidisciplinary Perspectives on Conservation)\n保护生物学与自然恢复 (Conservation Biology and Nature Recovery)\n社会科学研究方法 (Research Methods for the Social Sciences)\n研究技能与高级分析方法 (Research Skills and Advanced Analytical Methods)\n研究论文技巧 (Research Dissertation Skills)\n论文 (Dissertation)\n地理信息系统（GIS） (Geographic Information Systems (GIS))\n野生动物贸易与资源经济学 (Wildlife Trade and Resource Economics)\n保护与社区发展 (Conservation and Community Development )\n保护管理人员的领导能力 (Leadership Skills for Conservation Managers)",
+  "success_cases": ""
+}

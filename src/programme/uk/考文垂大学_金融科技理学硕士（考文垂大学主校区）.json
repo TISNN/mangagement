@@ -1,0 +1,12 @@
+{
+  "school_name": "考文垂大学",
+  "major_name": "金融科技理学硕士（考文垂大学主校区）",
+  "ename": "MSc Financial Technology (Coventry)",
+  "tags": "商科,金工金数,商业与法律学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 5/9月\n项目时长: 1年\n项目学费: 20050英镑/年",
+  "requirements": "具有2:2荣誉学位，不限专业，或具有金融领域适当的工作经验以及相关专业资格",
+  "objectives": "考文垂大学金融科技理学硕士（考文垂大学主校区）课程以理论的实际应用为重点，旨在培养现代金融毕业生所需的技能，提供金融理论基础，并开发将其应用于快速变化的金融部门所需的数字流利性。因此，除了开发和扩展资产定价或公司治理等关键理论知识外，该课程还金融技术、大数据分析和数字环境中的风险管理。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司金融 (Corporate Finance)\n定量方法 (Quantitative Methods)\n衍生产品 (Derivatives)\n治理，问责制与道德 (Governance, Accountability and Ethics)\n金融科技导论 (Introduction to FinTech)\n金融科技风险管理 (Risk Management for FinTech)\n应用金融科技 (Applied FinTech)\n使用Python/R进行数据分析 (Data Analytics using Python/R)\n项目 (Project)\n全球专业发展-咨询 (Global Professional Development – Consultancy)",
+  "success_cases": ""
+}

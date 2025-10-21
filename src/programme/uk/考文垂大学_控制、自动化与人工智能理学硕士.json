@@ -1,0 +1,12 @@
+{
+  "school_name": "考文垂大学",
+  "major_name": "控制、自动化与人工智能理学硕士",
+  "ename": "MSc Control, Automation and Artificial Intelligence",
+  "tags": "工科,计算机,工程、环境与计算学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 20050英镑/年",
+  "requirements": "具有工程学科背景，如机械、电子、机电一体化、汽车或航空航天工程。",
+  "objectives": "考文垂大学控制、自动化与人工智能理学硕士课程旨在为研究生提供独特的途径，使他们在与各种实际行业以及学术界相关的控制系统和工程的丰富领域中，拥有更专业的知识和技能，充实自己的背景。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "线性控制系统分析与设计 (Linear Control Systems Analysis and Design)\n控制编程与仿真 (Programming and Simulation for Control)\n系统识别与参数估计 (System Identification and Parameter Estimation)\n自动化与机器人 (Automation and Robotics)\n优化与自适应控制 (Optimisation and Adaptive Control)\n数据采集​​与嵌入式控制 (Data Acquisition and Embedded Control)\n非线性控制工程 (Non-Linear Control Engineering)\n高级数字控制系统 (Advanced Digital Control Systems)\n研究生控制论文项目 (Postgraduate Control Dissertation Project)",
+  "success_cases": ""
+}

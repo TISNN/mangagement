@@ -1,0 +1,12 @@
+{
+  "school_name": "佐治亚理工学院",
+  "major_name": "定量和计算金融硕士",
+  "ename": "MS in Quantitative and Computational Finance",
+  "tags": "商科,金工金数",
+  "introduction": "专业方向: 金工金数\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 1-1.5年\n项目学费: 19323美元/学期\n项目规模: 71人\n平均成绩: 3.63\n平均G: GMAT708.3，GRE-Q168.5\n国际学生: 81%\n男女比例: 71:29\n就业比例: 96%\n平均起薪: 133865美元",
+  "requirements": "微积分,包括一个变量的微分和积分微积分和多元微积分,线性代数基础和线性方程组,微分方程,概率和统计。建议具备C, c, R, SAS等。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

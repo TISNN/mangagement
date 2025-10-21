@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "药物代谢动力学理学硕士",
+  "ename": "MSc Pharmacokinetics",
+  "tags": "社科,药学,阿斯顿药学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 1年\n项目学费: 20700英镑/年",
+  "requirements": "具有认可大学的2:2学位，需要药学、制药科学、生物化学、化学、化学工程和材料科学背景",
+  "objectives": "阿斯顿大学药物代谢动力学理学硕士项目旨在培养学生广泛了解药代动力学对药物设计、药物发现和药物递送的影响，通过基础和高级药代动力学主题的广泛培训，掌握理想的技能，从而在制药行业或临床科学领域开始职业生涯。在药物代谢动力学理学硕士项目中，学生将了解药物递送和靶向方面的最新进展，学习在药物剂量系统的设计和配方中的生物制药、药代动力学和物理化学原理，应用来自计算机辅助药物设计和分子建模技术的数据预测人体体内药物代谢动力学和生物分布的实践经验。此外，学生还将培养演讲、团队合作、报告撰写、批判性分析、谈判和数据分析方面的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "药物发现 (Drug Discovery)\n化疗与选择性毒性 (Chemotherapy and Selective Toxicity)\n产品分析与验证原理 (Principles of Product Analysis and Validation)\n药代动力学 (Pharmacokinetics)\n药物剂型设计 (Drug dosage form design)\n研究技巧 (Research Skills)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

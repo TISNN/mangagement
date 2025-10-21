@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "运筹学与数据科学理学硕士",
+  "ename": "MSc Operational Research with Data Science",
+  "tags": "理科,数据科学,数学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有英国2:1学位或同等学历，需要数学学科背景如数学、工程学、计算机科学、物理或生物科学、经济学或商学，必须学习过大学水平的概率和统计理论课程",
+  "objectives": "爱丁堡大学运筹学与数据科学理学硕士项目将向学生展示如何使用数学技术解决现实生活中的问题，从航班安排和移动电话通话安排，优化电力系统和物流网络，到管理投资和最小化风险。运筹学是一项重要的技能，需求量很大。该课程可以让学生专注于最适合他们的职业目标的领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "优化基础 (Fundamentals of Optimization)\n运筹学基础 (Fundamentals of Operational Research)\n方法论、建模与咨询技巧 (Methodology, Modelling and Consulting Skills)\n应用机器学习导论 (Introductory Applied Machine Learning)\n机器学习与模式识别 (Machine Learning and Pattern Recognition)\n生物信息学 1 (Bioinformatics 1)\n统计方法论 (Statistical Methodology)\n统计规划 (Statistical Programming)\n不完全数据分析 (Incomplete Data Analysis)\n模拟 (Simulation)\n科学计算 (Scientific Computing)\nPython编程 (Python Programming)",
+  "success_cases": ""
+}

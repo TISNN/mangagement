@@ -1,0 +1,12 @@
+{
+  "school_name": "范德堡大学",
+  "major_name": "生物统计学硕士",
+  "ename": "Masters of Science (MS) in Biostatistics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n入学时间: 秋季\n项目时长: 2年\n项目学费: 2150美元/学分",
+  "requirements": "3个学期的微积分(多元微积分)；1个学期的线性代数；统计",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

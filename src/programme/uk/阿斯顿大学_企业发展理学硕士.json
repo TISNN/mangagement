@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "企业发展理学硕士",
+  "ename": "MSc Business Enterprise Development",
+  "tags": "商科,管理,阿斯顿商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 23500英镑/年",
+  "requirements": "雅思总分6.5（小分一项不低于5.5，其它项不低于6.0）\nPTE总分67（小分一项不低于59，其它项不低于64）\n具有良好的英国荣誉学位（不低于2:2）或阿斯顿大学认可的同等海外学位，不限专业背景\n或具备至少3年工作或创业经验并且达到BBC at A level或DDD at BTEC level，或具备至少7年工作经验并且至少5门GCSE科目达到C及以上（包括英语和数学）",
+  "objectives": "阿斯顿大学企业发展理学硕士项目旨在教授学生如何发展、维持和壮大企业。它改编自全球著名的芬兰“团队学院”创业模式，通过边做边学来发展学生的创业能力和心态，与其他团队一起体验一个真正的组织的发展。确定学生自己的学习重点和需求，在团队教练的支持下，培养创业知识，以及关键的团队合作和领导能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "创业和企业创造 (Enterprise Creation)\n创建和领导高效的团队 (Creating and Leading High-Performance Teams)\n应用研究 (Applied Research)\n创新与创业精神 (Innovation and Entrepreneurship)\n企业管理与成长 (Enterprise Management and Growth)\n企业社会责任挑战 (Corporate Social Responsibility Challenge)\n商业项目 (Business Project)",
+  "success_cases": ""
+}

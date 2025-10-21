@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "土木与建筑工程理学硕士",
+  "ename": "MSc Civil and Architectural Engineering",
+  "tags": "工科,土木工程,工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 231000港币/年",
+  "requirements": "具有香港工程师学会(HKIE)/香港测量师学会(HKIS)/香港建筑师学会(HKIA)/香港房屋学会(HKIH)认可的荣誉学士学位；或\n具有HKIE, HKIS, HKIA, HKIH或同等机构的企业会员资格；或\n具有认可教育机构颁发的建筑相关学科第一学位；或\n已取得同等资格或能够提供课程可接受的学术和专业成就证明；或\n没有指定学历的申请者，如能提供特别优秀的其他学历，并具备丰富的技术和管理经验，仍然可以根据具体情况考虑录取",
+  "objectives": "香港城市大学土木及建筑工程理学硕士学位课程旨在：更新建筑工程相关专业人才的知识，使其对土木工程、成本控制以及建筑管理有更进一步的认识；培养工程造价、土木工程以及屋宇设备领域的精英人才；为建造相关学科的学生以后深造打下良好的知识基础；为土木、城规、屋宇设备和建造的专业人才提供多学科的研究方法；使学生能够在多元化的相关领域内进行研究工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "建筑环境的建模与计算技术 (Modelling and Computational Techniques for Built Environment)\n土木工程与工程力学分析方法 (Methods of Analysis in Civil Engineering and Engineering Mechanics)\n论文 - 土木工程 (Dissertation - Civil Engineering)\n项目管理 (Project Management)\n虚拟设计与建造 (Virtual Design and Construction)\n环境经济学、规划与政策 (Environmental Economics, Planning and Policy)\n交通与土地规划 (Transportation and Land Planning)\n建筑工程系统与维护 (Building Engineering Systems and Maintenance)\n专业研究方法 (Professional Research MMethods)\n岩土与基础工程 (Geotechnical and Foundation Engineering)\n统计方法与数据分析 (Statistical Methods and Data Analytics)\n合同策略与管理 (Contract Strategy and Administration)\n现代结构工程 (Modern Structural Engineering)\n地质力学 (Geomechanics)\n室内环境质量 (Indoor Environmental Quality)\n建筑可持续发展的能源管理 (Energy Management for Building Sustainability)\n论文 - 建筑环境与可持续发展 (Dissertation - Building Environment and Sustainability)\n可持续建筑性能的可再生能源 (Renewable Energy for a Sustainable Building Performance)\n可持续建筑发展 (Sustainable Building Development)\n可持续性分析建筑环境建模 (Building Environment Modelling for Sustainability Analysis)\n能源、环境与可持续发展 (Energy, Environment and Sustainable Development)\n能源生产与存储系统 (Energy Generation and Storage Systems)\n能源效率与节约技术 (Energy Efficiency and Conservation Technologies)\n碳审计与管理 (Carbon Audit and Management)\n中国的环境治理 (Environmental Governance in China)\n可持续发展：理论与政策 (Sustainable Development:Theory and Policy)",
+  "success_cases": ""
+}

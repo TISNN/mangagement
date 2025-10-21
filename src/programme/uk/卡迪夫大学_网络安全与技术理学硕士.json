@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "网络安全与技术理学硕士",
+  "ename": "MSc Cyber Security and Technology",
+  "tags": "工科,计算机,计算机科学与信息学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 31700英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科领域背景（例如计算机、IT 或软件工程）",
+  "objectives": "卡迪夫大学网络安全与技术理学硕士项目为学生在快速发展且令人兴奋的网络安全领域提供成功职业生涯的清晰途径。该计划由卡迪夫网络安全研究中心的领先研究人员与普华永道的行业专家密切合作开发。\n卡迪夫大学网络安全与技术理学硕士项目的目标是让学生深入了解不断变化的网络威胁形势以及针对操作系统、计算机网络和 Web 应用程序的广泛网络攻击。该课程帮助您深入了解底层技术、其弱点以及如何有效保护它们。除了涵盖计算机科学和网络安全的理论基础之外，该计划还包括重要的实际应用实践部分。\n教授的安全技术和方法包括但不限于网络流量分析、网络枚举、端口扫描、网络分段、预防注入攻击、预防常见的Web应用程序攻击（注入攻击、XSS、CSRF）、安全配置基于云的 IT 环境。学生将学习使用现代取证工具和软件包执行数字和网络取证调查和分析。该计划还将向学生介绍影响网络安全的人为因素、隐私问题、网络安全立法和法规。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "网络安全和风险管理 (Cyber Security and Risk Management)\n渗透测试和恶意软件分析 (Penetration Testing and Malware Analysis)\n计算机和网络取证 (Computer and Network Forensics)\n云和数据库系统安全 (Cloud and Database Systems Security)\n开发安全系统和应用程序 (Developing Secure Systems and Applications)\n操作系统安全 (Operating Systems Security)\n论文 (Dissertation)",
+  "success_cases": ""
+}

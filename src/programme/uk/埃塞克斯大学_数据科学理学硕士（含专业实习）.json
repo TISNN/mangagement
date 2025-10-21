@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "数据科学理学硕士（含专业实习）",
+  "ename": "MSc Data Science with Professional Placement",
+  "tags": "理科,数据科学,数学科学系",
+  "introduction": "专业方向: 数据科学\n入学时间: 1/10月\n项目时长: 2年\n项目学费: 15190英镑/年",
+  "requirements": "具有2:1学位，背景需要为以下学科之一：数学、统计学、运筹学、计算机科学、应用数学、纯数学、生物统计学、经济统计学、经济学；或具有2:1学位，不限专业背景，包括：以下1门课程：微积分、数学、工程数学、高等数学，以及以下1门课程：统计或概率、数学、工程数学、高等数学，以及以下1门附加相关课程：代数、分析、编程语言（R, Matlab或Python）、概率论或统计学中的第2门课程、数值方法、复数、微分方程、优化（线性规划）、回归、随机过程、数学、工程数学、高等数学低于2:1学位或同等学历的申请者，将根据其相关专业或志愿工作经验和之前学习的课程对其申请进行考虑",
+  "objectives": "埃塞克斯大学数据科学理学硕士（含专业实习）项目适合有兴趣解决现实世界中的问题、想要培养高效使用智能设备的技能、想要使用并促进对数学的理解并且感兴趣和热衷于使用统计技术和方法来解释数据的学生，学生将学习扎实的理论和实际应用的平衡，包括：计算机科学，编程，统计数据，数据分析，概率。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "模拟实验数据 (Modelling Experimental Data)\n应用统计学 (Applied Statistics)\n研究方法 (Research Methods)\n专业实习 (Professional Placement)\n信息检索 (Information Retrieval)\n机器学习与数据挖掘 (Machine Learning and Data Mining)\n数学职业与就业能力 (Mathematics Careers and Employability)\n非线性规划 (Nonlinear Programming)\n组合优化 (Combinatorial Optimisation)\n统计学方法 (Statistical Methods)\n探索性数据分析与数据可视化 (Exploratory Data Analysis and Data Visualisation)\n随机过程 (Stochastic Processes)\n贝叶斯计算统计数据 (Bayesian Computational Statistics)\nPython编程入门 (Introduction to Programming in Python)\n文本分析 (Text Analytics)",
+  "success_cases": ""
+}

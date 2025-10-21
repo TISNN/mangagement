@@ -1,0 +1,12 @@
+{
+  "school_name": "牛津大学",
+  "major_name": "环境变化与管理理学硕士",
+  "ename": "MSc Environmental Change and Management",
+  "tags": "工科,环境工程,地理与环境系",
+  "introduction": "专业方向: 环境工程\n入学时间: 10月\n项目时长: 1年\n项目学费: 34120英镑/年",
+  "requirements": "具有一等或strong 2:1荣誉学位，不限专业背景\n对于拥有美国学士学位的申请人，通常需要满足本科水平要求的最低总体 GPA 为3.6（满分 4.0）。但是，候选人的选拔还取决于申请中的其他因素，大多数成功的申请人都取得了更高的GPA分数\n申请者应表现出对相关的环境领域经验和/或对环境领域的兴趣，最好对定量和定性数据分析有基本的了解\n需要1篇written work（不超过2000 words）",
+  "objectives": "牛津大学环境变化与管理理学硕士项目旨在让学生广泛了解环境变化的主要过程以及参与环境管理的人员和机构。牛津大学环境变化与管理理学硕士项目旨在培养能够运用跨学科和分析方法解决环境问题的环境领导者，以及有能力和环保意识的决策者。牛津大学环境变化与管理理学硕士项目旨在研究主要环境变化类型的性质、原因和影响，这些环境变化如何在全球、区域和地方范围内运作和相互作用，以及这些环境变化与重要的社会和生态系统有何关联；理解环境责任和系统解决办法的经济、法律、文化和道德基础，包括缓解、适应、补救、加强资源管理和在不同规模和不同组织背景下对环境变化做出的其他可持续反应；通过关键分析和实用技能训练，广泛了解与环境变化有关的地球系统和社会,以使环境领导者有能力处理世界上最紧迫的环境问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地球系统及其基本流程 (The Earth System and its Fundamental Processes)\n全球变化和生物圈 (Global Change and the Biosphere)\n人类系统和环境变化 (Human Systems and Environmental Change)\n环境经济与政策 (Environmental Economics and Policy)\n能源系统和气候缓解 (Energy Systems and Climate Mitigation)\n可持续发展对环境变化的反应 (Sustainable Responses to Environmental Change)\n管理人类世 (Governing the Anthropocene)\n论文 (Dissertation)",
+  "success_cases": ""
+}

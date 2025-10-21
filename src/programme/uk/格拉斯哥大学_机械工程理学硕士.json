@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "机械工程理学硕士",
+  "ename": "MSc Mechanical Engineering",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要任何工程学科，计算机科学或物理科学/数学学位背景，核心课程动力学、工程数学和/或数学、材料科学和热力学，平均成绩为2:1\n学校可能会考虑具有2:2学位，核心课程平均成绩达到2:1的申请者",
+  "objectives": "格拉斯哥大学机械工程理学硕士项目基于深入课程和个人项目，旨在为学生提供专注于机械工程领域综合体的机会，能够使学生深入了解制造与设计在机械工程中起到的核心作用。格拉斯哥大学机械工程理学硕士项目提供了可接触工程设计理念和实践的广泛平台，同时使学生加深对某些工程学科知识的了解，这很大程度上得益于格拉斯哥大学的学科研究和设计教学优势。项目中的选修课程包括材料和力学、动力学和控制、海水淡化技术学和热科学。格拉斯哥大学机械工程理学硕士项目中的必修设计课程涉及工业设计和机械设计的创新要素，设计方法和技术的结合体。教员授课采用这种方式，学生也可在研究活动中或隐形或显性应用知识。显性应用主要通过研究体现，例如快速设计和制造；隐性应用主要通过设计体现，例如实验装置、示范装置、心脏辅助装置、截瘫辅助装置、山地自行车组件。得益于格拉斯哥大学的科研优势，包括材料、振动、控制和淡化，在格拉斯哥大学机械工程理学硕士项目中，学生将能够拓宽加深所选工程学科方面的知识面。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "先进制造技术 (Advanced manufacture)\n综合工程设计 (Integrated engineering design)\n高级控制 (Advanced control )\n高级热工学 (Advanced thermal engineering )\n高级热工学 (Advanced thermal engineering )\n自主车辆导航系统 (Autonomous vehicle guidance systems )\n控制 (Control )\n力学 (Dynamics )\n激光 (Lasers)\n材料工程 (Materials engineering)\n固体与结构力学 (Mechanics of solids and structures)\n超声技术及其应用 (Ultrasound technology and applications)\n振动 (Vibration)",
+  "success_cases": ""
+}

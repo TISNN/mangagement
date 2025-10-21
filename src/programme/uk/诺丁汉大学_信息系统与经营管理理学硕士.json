@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "信息系统与经营管理理学硕士",
+  "ename": "MSc Information Systems and Operations Management",
+  "tags": "商科,信息系统,诺丁汉商学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要商业、工程或科学相关学科背景\n针对尚未完成本科学位的申请者，需要提供最后一年要学习的课程列表",
+  "objectives": "诺丁汉大学信息系统与经营管理理学硕士课程将为学生提供在全球运营管理职位中脱颖而出所需的广泛技能。学生将学习开发基本管理技术的模块，包括数据管理、项目管理、电子商务和商业智能。学生还可以根据个人职业目标定制学位，并专注于与个人选择的相关领域。毕业时将清楚地了解用于解决组织困难的方法、模型和技术。学生将具备分析技能，以了解业务中运营管理挑战的复杂性，并结合创造性思维来产生潜在的解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据管理和操作 (Data Management and Manipulation)\n决策支持的科学管理 (Management Science for Decision Support)\n当代运营管理：基础与挑战 (Managing Contemporary Operations: Fundamentals and Challenges)\n项目管理 (Project Management)\n商业智能与分析 (Business Intelligence and Analytics)\n电子商务 (E-Business)\n品质管理与技术 (Quality Management and Quality Techniques)\n供应链和运营策略与实践 (Supply Chain and Operations Strategy and Practice)\n运营设施和系统的设计 (Design of Operations Facilities and Systems)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "白金汉大学",
+  "major_name": "应用计算理学硕士",
+  "ename": "MSc Applied Computing",
+  "tags": "工科,计算机,科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/4/9月\n项目时长: 1.5年\n项目学费: 13667英镑/年",
+  "requirements": "通常具有一等或二等计算荣誉学位或在计算方面具备丰富经验",
+  "objectives": "白金汉大学应用计算理学硕士项目适合各种背景、拥有不同需求和兴趣的学生，旨在将非计算机专业的本科生培养成信息技术和计算机行业的专业人员。该项目得益于计算机学院的专业水平，将为学生提供深入学习的机会，学习内容包括：移动和无线安全通信系统、生物统计和认证、数据挖掘和知识探索、软件项目管理技术和应用。 白金汉大学应用计算理学硕士项目的毕业生将能够：了解广泛现代计算技术；将现代计算技术应用于实践；描述现代计算技术在诸多应用领域中的作用；了解特定技术及其应用的最新发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用成像技术 (Applied Imaging Techniques )\n数据挖掘应用技术 (Applied Techniques of Data Mining)\n通信信息安全 (Information Security in Communications)\n移动和无线通信 (Mobile and Wireless Communications)\n软件项目管理 (Software Project Management)\n网络技术和应用 (Web Technologies and Applications)\n研究方法 (Research Methods)\n云计算 (Cloud Computing)\n嵌入式系统 (Embedded Systems)\n移动应用和开发 (Mobile Application and Development)\n软件工程 (Software Engineering)\n课题项目 (Project)",
+  "success_cases": ""
+}

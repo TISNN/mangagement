@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "地球能源理学硕士",
+  "ename": "MSc GeoEnergy",
+  "tags": "工科,地球科学,地球科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 36000英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要理工科背景，学校也会考虑任何相关的专业经验\n如果申请者的背景与这些学科没有特别相关，学校也可能考虑在相关领域具备相关工作经验的申请者",
+  "objectives": "爱丁堡大学地球能源理学硕士项目不同于其他涉及能源的硕士项目，从地下能源角度研究地球科学。爱丁堡大学地球能源理学硕士项目针对未来想要从事能源行业的学生，帮助学生掌握地质相关知识，学会开发低碳地球技术，并为能源垃圾以及氰化物的处理做出贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "环境地球化学 (Environmental Geochemistry)\n碳储存与监测 (Carbon Storage and Monitoring)\n未来的地球能源资源 (Future GeoEnergy Resources)\n地球能源理学硕士论文 (Dissertation in GeoEnergy)\n项目设计与文献分析 (Project Design and Literature Analysis MSc)\n水文地质学1：应用水文地质学 (Hydrogeology 1: Applied Hydrogeology)\n地下储层质量 (Subsurface Reservoir Quality)\n碳氢化合物 (Hydrocarbons)\n地球资源地质学 (Geology for Earth Resources)\n水文地质学2：地下水流与运移模拟 (Hydrogeology 2: Simulation of Groundwater Flow and Transport)\n矿石矿物学、岩石学与地球化学 (Ore Mineralogy, Petrology and Geochemistry)\n核废料管理：原则、政策与实践 (Nuclear Waste Management: Principles, Policies and Practice)\n地震反射解读 (Seismic Reflection Interpretation)",
+  "success_cases": ""
+}

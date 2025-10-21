@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,经济学系",
+  "introduction": "专业方向: 经济\n入学时间: 10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:2学位，需要经济学相关学科背景，如：经济学、数学、工程、金融、物理或其他具有较强数学成分的学位学位应该包含一些经济学成分，包括宏观经济学、微观经济学或计量经济学",
+  "objectives": "埃塞克斯大学经济学理学硕士项目在刺激和管理经济的公共政策措施方面拥有独特优势，包括传播信息的行为技巧。学生可以将卫生经济学与公共经济学和发展经济学相结合，以获得如何应对Covid-19等威胁、平衡国内和全球需求的广泛视角。在埃塞克斯大学经济学理学硕士课程中，学生将发展金融或商业领域高调工作所需的专家研究思维定势。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n计量经济学方法 (Econometric Methods)\n数学方法 (Mathematical Methods)\n微观经济学 (Microeconomics)\n宏观经济学 (Macroeconomics)\n货币经济学 (Monetary Economics)\n就业、创新与贸易的经济地理学 (The Economic Geography of Employment, Innovation and Trade)\n行为经济学 I：个人决策 (Behavioural Economics I: Individual Decision Making)",
+  "success_cases": ""
+}

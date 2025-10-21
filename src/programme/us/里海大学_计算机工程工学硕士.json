@@ -1,0 +1,12 @@
+{
+  "school_name": "里海大学",
+  "major_name": "计算机工程工学硕士",
+  "ename": "MEng in Computer Engineering",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季/春季\n项目时长: 30学分\n项目学费: 45,000美元/年",
+  "requirements": "计算机课程及工程相关专业，具备一定编码基础",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "地理信息科学与智慧城市理学硕士",
+  "ename": "MSc Geoinformation Science and Smart Cities",
+  "tags": "工科,地球科学,社会科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 178000港币/年",
+  "requirements": "需要提供B等级证明，毕业于受认可大学并获得学士学位，或在高等教育机构完成学习课程并获得相当于荣誉学位的专业或类似资格",
+  "objectives": "香港中文大学地理信息科学与智慧城市硕士是一门结合地球科学、信息科学与系统科学的交叉学科，重点是大气层、水圈、岩石圈和生物圈的信息和它们的形成、变化和相互关系。\n香港中文大学地理信息科学与智慧城市硕士以人地关系为主题，以满足全球变化研究和区域可持续发展为目标，整合了卫星应用、遥感、地理信息系统、计算机辅助设计和制图、多媒体和虚拟现实技术以及互联网，建立了高速信息数字化和有效资源管理的科学结构。\n香港中文大学地理信息科学与智慧城市硕士旨在通过提高从业人员和官员的技能和完善他们的实践经验，为他们提供一个坚实的概念框架和技术知识。它还将介绍最先进的地理空间信息技术，并为学生提供管理和应用最新技术解决现实生活问题的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地理信息系统 (Geographic Information Systems)\n交通地理信息系统及物流信息管理 (GIS-T and Logistical Information Management)\n数字遥感图像分析 (Digital Remote Sensing Image Analysis)\n智慧城市的人工智能 (Artificial Intelligence for Smart Cities)\n地理数据统计分析 (Statistical Analysis of Geographical Data)\n用于智能城市规划的地理空间大数据 (Geospatial Big Data for Smart Urban Planning)\n论文 (Thesis)\n应用遥感 (Applied Remote Sensing)\n全球定位系统 (Global Positioning Systems)\n城市环境建模与仿真 (Urban Environmental Modelling and Simulation)\n地理信息系统的设计与实现 (Design and Implementation of Geographical Information Systems)",
+  "success_cases": ""
+}

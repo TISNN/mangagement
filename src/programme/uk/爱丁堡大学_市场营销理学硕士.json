@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "市场营销理学硕士",
+  "ename": "MSc Marketing",
+  "tags": "商科,市场营销,商学院",
+  "introduction": "专业方向: 市场营销\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有英国一等或2:1荣誉学位或同等学历，需要满足以下学科之一：\n- 通常需要商业或管理相关学科的本科学位\n- 在其他学科领域具有优秀荣誉学位的学生也会被考虑\n相关的工作经验不是必需的但可能有助于申请",
+  "objectives": "爱丁堡大学市场营销硕士项目是为那些希望在公共或私营部门追求成功的营销职业的人而设计的，该课程将从学术和实践者的角度为学生提供更加深入的营销方面的知识，使他们能够以批判性和创造性的方式应对营销挑战。该课程还希望加深学生对营销理论基础的理解，以及当前和新兴从业者在许多领域的应用，例如：营销管理、营销决策分析、消费者行为、营销研究方法，该课程通过教授选修课程，根据学生的兴趣，为他们量身定制学习的内容，如营销传播。爱丁堡大学市场营销硕士项目旨在帮助那些来自一般商业或管理相关学科的人发展成为创新的营销专业人士，让他们能够在创造成功产品和服务的过程中推动战略决策。它旨在帮助学生成为一名批判性、反思性的从业者，强调理论和实践与雇主所需的技能和知识的结合。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "消费者行为 (Consumer Behaviour)\n营销决策分析 (Marketing Decision Analysis)\n营销管理原理 (Principles of Marketing Management)\n营销研究 (Marketing Research)\n营销应用 (Marketing Applications)\n营销服务 (Marketing of Services)\n国际营销策略 (International Marketing Strategy)\n营销传播 (Marketing Communications)\n营销与社会 (Marketing And Society)\n品牌解读 (Understanding Brands)\n数字时代营销 (Marketing in a Digital World)",
+  "success_cases": ""
+}

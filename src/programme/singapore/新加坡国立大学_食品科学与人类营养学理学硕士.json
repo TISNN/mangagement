@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "食品科学与人类营养学理学硕士",
+  "ename": "MSc Food Science and Human Nutrition",
+  "tags": "工科,食品科学,理学院",
+  "introduction": "专业方向: 食品科学\n入学时间: 8月\n项目时长: 1年\n项目学费: 52320新币/年",
+  "requirements": "具有认可的学士学位（荣誉学位或同等学历），主修食品科学/技术/工程与营养学；或\n具有认可的学士学位，主修食品科学/技术/工程与营养学，并具备至少2年相关工作经验；或\n具有认可的学士学位，主修以下领域，并具备至少2年相关工作经验：化学、生物化学、化学工程、生化工程、生物医学工程、农业工程、农产品仓储加工、生物技术、生物科学、药学、微生物、营养学、饮食学、生理学、农业及园艺。\n需要提交存款证明45,000新币",
+  "objectives": "新加坡国立大学食品科学与人类营养学理学硕士项目包括食品生物中的微生物与安全，发酵；现代食品加工技术；基于证据的功能性食物；现代分析科学和人类营养等。\n新加坡国立大学食品科学与人类营养学理学硕士项目旨在提供专业的教育培训，帮助培养食品科学领域的高级人才，以应对迅速变化的食品生态。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "流变学与生物材料的质构特性 (Rheology & Texture Properties of Biomaterials)\n高级食品发酵 (Advanced Food Fermentation)\n高级食品微生物学与安全 (Advanced Food Microbiology and Safety)\n食品加工和工程先进技术 (Frontiers of Food Processing and Engineering)\n食品科学前沿话题 (Advanced Current Topics in Food Science )\n现代分析技术 (Modern Analytical Techniques)\n生物分析化学 (Bioanalytical Chemistry)\n基于证据的功能性食品 (Evidence-based Functional Foods)\n食品，营养与健康 (Food, Nutrition and Health)\n现代人类营养 (Modern Human Nutrition)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "社交网络分析理学硕士",
+  "ename": "MSc Social Network Analysis",
+  "tags": "理科,数据科学,社会科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 25000英镑/年",
+  "requirements": "具有荣誉学位或同等学历（至少达到2:1或同等水平），需要社会科学、数学、物理学、计算机科学背景",
+  "objectives": "曼彻斯特大学社交网络分析理学硕士项目旨在提供社会网络分析的综合培训，涵盖社会网络在社会科学中的理论、方法和应用。学生将学习社会网络分析的理论基础、研究设计的构成要素、数据收集技术、社会网络数据分析和可视化的高级方法、社会网络的统计建模和混合方法。学习环境将包括面对面的讲座、计算机辅助研讨会以及社会网络理论和方法在社会科学各个实质性领域的应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "社会网络分析：概念与方法 (Social Network Analysis: Concepts And Measures )\n社会关系、网络与社会结构理论 (Theories Of Social Relations, Networks, And Social Structure)\n利用社交网络数据与可视化进行研究 (Doing Research With Social Network Data And Visualizations)\n网络建模 (Network Modelling)\n使用R & Rstudio进行数据分析 (Data Analysis With R & Rstudio)\n米切尔中心研讨会系列 (Mitchell Centre Seminar Series)\n统计基础 (Statistical Foundations)\n抗议与进步：理解社会与政治变革运动 (Protest And Progress: Understanding Movements For Social And Political Change)\n社会网络分析概论 (Introduction to SNA)\n社会网络理论与混合方法 (Theories of Social Networks and Mixed Methods)\n网络数据 (Network Data)\n独立研究 (Independent Study)\n社会资本与社会变革 (Social Capital and Social Change)\n定性研究方法 (Qualitative Research Methods Venue)",
+  "success_cases": ""
+}

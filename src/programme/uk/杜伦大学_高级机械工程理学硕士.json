@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "高级机械工程理学硕士",
+  "ename": "MSc Advanced Mechanical Engineering",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，通常需要是适当的工程或工程相关学科背景，包括应用/固体力学、材料力学、热力学、流体力学、工程师或科学家数学和编码/计算机编程课程，某些情况下学校可以考虑具有不同的第一学位同时具备工业或其他相关经验的申请者",
+  "objectives": "杜伦大学高级机械工程理学硕士项目将通过三种方式帮助学生理解机械工程的先进知识。首先，高质量的教学课程将引入高级机械工程课题，如涡轮机械设计、计算应力分析、板壳、接触和摩擦等。其次，大量的小组设计课程将提高学生在跨国团队中使用适当的设计标准和复杂工程分析工具进行高级设计的能力。最后，学生能够通过重要的研发项目培养学生复杂课题中独立工作的能力，提高解决工程挑战的积极性。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研发项目 (Research & Development Project)\n设计 (Design)\n流体力学与叶轮机械 (Fluid Mechanics and Turbomachinery)\n应用力学4 (Applied Mechanics 4)\n热力学和流体力学3 (Thermodynamics and Fluid Mechanics 3)\n应用力学3 (Applied Mechanics 3)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "应用健康科学理学硕士",
+  "ename": "MSc Applied Health Sciences",
+  "tags": "社科,医学,医学，医学科学与营养学院",
+  "introduction": "专业方向: 医学\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "具有健康相关学科荣誉学位（2:2学位或至少60%）或能够证明在医疗保健实践或研究方面具备同等经验\n学校也会考虑具有纯科学、社会科学或人文学科第一学位且对健康有浓厚兴趣的学生的申请",
+  "objectives": "阿伯丁大学应用健康科学理学硕士项目旨在让学生具备探索和评估各种健康科学主题所需的技能，以一个或多个特定的应用健康学科为重点。这些领域包括公共卫生、全球卫生、人类营养和卫生经济学。有很多课程可供选择，你可以根据自己的研究兴趣和职业抱负来调整自己的学历。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究设计基础 (Fundamentals of Research Design)\n应用统计学 (Applied Statistics)\n开放和可复制的健康数据科学 (Open and Reproducible Health Data Science)\n流行病学 (Epidemiology)\n健康经济学 (Health Economics)\n高级回归模型 (Advanced Regression Modelling)\n公共健康营养 (Public Health Nutrition)\n流行病学 (Epidemiology)\n全球健康 (Global Health)\n系统回顾 (Systematic Reviewing)\n公共卫生中的价值观与伦理 (Values and Ethics in Public Health)\n健康需求评估 (Health Needs Assessment)\n硕士研究项目（实验室） (Masters Research Project (Laboratory))",
+  "success_cases": ""
+}

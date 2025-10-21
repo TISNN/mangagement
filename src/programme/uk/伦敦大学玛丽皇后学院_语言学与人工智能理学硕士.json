@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "语言学与人工智能理学硕士",
+  "ename": "MSc Linguistics and AI",
+  "tags": "社科,语言,语言、语言学与电影学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 25500英镑/年",
+  "requirements": "具有2:1荣誉学位",
+  "objectives": "伦敦大学玛丽皇后学院语言学与人工智能理学硕士项目旨在通过将人工智能应用于语言数据来改变从社交媒体到营销等行业。本课程为这些技术奠定了基础，如果学生希望在没有技术背景的情况下从事人工智能职业，那么本课程将是其理想选择。学生将获得计算语言学、Python 编程、语言分析统计、语言和人工智能方面的技能，向专业人士学习如何在现实世界中应用语言学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文研讨会 (Dissertation Proseminar)\n语言学论文 (Dissertation in Linguistics)\n语言与人工智能：高级程序设计 (Language and Artificial Intelligence: Advanced Programming)\n计算语言学基础 (Foundations of Computational Linguistics)\n人文编程 (Programming for the Humanities)\n语言数据集分析 (Analysing Language Datasets)\n从词素到词义 (From Morpheme to Meaning)\n研究实习 (Research Practicum)\n语言学研究的趋势 (Trends in Linguistic Research)\n实验语言学概论 (Introduction to Experimental Linguistics)\n语言学在现实世界中的应用 (Applying Linguistics in the Real World)\n句法学 (Syntax)\n形式语义学 (Formal Semantics)",
+  "success_cases": ""
+}

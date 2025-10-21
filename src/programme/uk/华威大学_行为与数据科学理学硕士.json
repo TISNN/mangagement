@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "行为与数据科学理学硕士",
+  "ename": "MSc Behavioural and Data Science",
+  "tags": "理科,数据科学,心理学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29880英镑/年",
+  "requirements": "具有英国2:1学位或更高学历，需要相关学科背景，例如心理学、计算机科学、数学、经济学等，优先考虑具有极强定量或社会科学背景的申请者，具备Python或R语言编程经验的申请者也会被优先考虑，学生应该接受过至少一种编程语言的在线或大学授课编程课程\nMSc Behavioural and Data Science是一个定量学位，学生在学习这门课程之前应该习惯于用数学方法来思考问题。本课程要求学生完成编程作业和长篇论文作业，因此要求学生熟练掌握编程并具备良好的英语书面沟通能力\n申请者应该熟悉以下内容的一部分：初等微积分，基本几何，集合的基本知识，对数、指数、幂、概率和概率分布等函数，在某些数学科学领域（广义）至少掌握2个类别的课程知识即可（例如任何领域的研究方法/统计学）",
+  "objectives": "华威大学行为与数据科学理学硕士课程提供心理学、决策和行为经济学基础方面的培训。它还将发展学生对数据科学和数据分析的最新方法的理解，于统计方法、机器学习和数据可视化。学生将获得对数据中的大规模模式的理解，并着眼于理解驱动人类行为的潜在因素。这可以用来理解经济、政治、历史、福祉以及国家和国际层面上的许多其他大规模模式。之前的行为科学经验是不必要的，但应该有基本的编程技能至少一种编程语言。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "心理科学问题 (Issues in Psychological Science)\n行为科学中的方法与分析 (Methods and Analysis in Behavioural Science)\n数据分析基础 (Foundations of Data Analytics)\n计算基础 (Foundations of Computing)\n行为改变：推拿和说服 (Behavioural Change: Nudging and Persuasion)\n数据挖掘 (Data Mining)\n行为与数据科学项目 (Behavioural and Data Science Project)",
+  "success_cases": ""
+}

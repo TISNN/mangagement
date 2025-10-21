@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "计算与数据新闻学理学硕士",
+  "ename": "MSc Computational and Data Journalism",
+  "tags": "社科,新闻,计算机科学与信息学院",
+  "introduction": "专业方向: 新闻\n入学时间: 9月\n项目时长: 1年\n项目学费: 23700英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，不限专业",
+  "objectives": "卡迪夫大学计算与数据新闻学理学硕士项目旨在培养数字新闻学人才，提高学生的数据新闻与新闻编辑能力，对学生的本科专业背不作要求，欢迎各专业学生申请。学生将深入学习计算与数据新闻专业基础知识，之后根据个人兴趣选择研究方向，将所学知识与技能运用于实践研究论文中。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学位论文 (Dissertation Project )\n用于数据分析的Python (Python for Data Analysis)\n网络应用开发 (Web Application Development )\n记者与报道 (Reporters and the Reported )\n数字调查 (Digital Investigation )\n数据新闻学 (Data Journalism                                                                                                                                                                                                                                                )",
+  "success_cases": ""
+}

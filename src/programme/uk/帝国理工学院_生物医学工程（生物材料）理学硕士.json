@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "生物医学工程（生物材料）理学硕士",
+  "ename": "MSc Biomedical Engineering (Biomaterials)",
+  "tags": "工科,生物工程,生物工程学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有2:1学位，需要工程、物理科学或数学学科背景\n该课程需要很强的数学能力，成功的申请者通常需要在本科学位期间在数学主题方面取得相当于2:1或以上的成绩\n申请人应具备湿实验室技能或建模与仿真经验\n医学或生命科学背景的学生可能希望考虑MSc Engineering for Biomedicine",
+  "objectives": "帝国理工学院生物医学工程理学硕士学位课程有四个分支专业可供选择：生物力学和机械生物学方向、生物材料和组织工程方向、医学物理学和影像学方向及神经技术方向。\n生物力学和机械生物学方向——该方向侧重于与系统相关的生物工程问题，包括心血管、肌肉骨骼、矫形、眼科和呼吸系统。其内容旨在了解机械力如何在分子、细胞、组织、器官和生物体层面上影响生物功能。\n生物材料和组织工程方向——该方向涵盖生物材料在医疗和外科环境中的使用。内容包括先进的生物材料在医疗保健中的使用，探索生物相容性和组织再生等方面。\n医学物理学和影像学方向——该方向培养毕业生在医疗保健和医学研究方面所需的物理知识，重点是人类生理学、放射治疗和临床成像。内容是探讨生物系统监测和成像的方法、技术和应用。\n神经技术方向——该方向侧重于研究大脑功能的新技术，如开发神经假体设备和新的神经成像技术。其内容是研究脑机接口的发展和应用，以及整个神经系统的通讯背后的科学。\n学生将需要在申请时选择专业方向。帝国理工学院生物医学工程理学硕士学位课程的所有分支的学生都将获得帝国理工学院生物医学工程理学硕士学位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物医学影像 (Biomedical Imaging)\n个人项目 (Individual Project)\n期刊俱乐部 (Journal Club)\n医疗器械认证 (Medical Device Certification)\n统计和数据分析 (Statistics and Data Analysis)\n系统生理学 (Systems Physiology)\n生物力学 (Biomechanics)\n高级生物材料 (Advanced Biomaterials)\n高级生理监测和数据分析 (Advanced Physiological Monitoring and Data Analysis)\n脑机接口 (Brain Machine Interfaces)\n神经科学 (Neuroscience)\n图像处理 (Image Processing)",
+  "success_cases": ""
+}

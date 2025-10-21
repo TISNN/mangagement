@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "国际商务理学硕士",
+  "ename": "MSc International Business",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 32500英镑/年",
+  "requirements": "本课程面向任意专业或学科背景的毕业生，不需要先前学习过商业或管理，例如，过去学校有来自不同学位的毕业生，如音乐、人类学、医学和地理学，商业和管理本科学生可能会发现一些内容与他们的第一学位重叠\n申请者需要具有英国一等或2:1荣誉学位",
+  "objectives": "杜伦大学国际商务理学硕士课程认识到现代商业的国际性，追旨在培养学生在全球背景下成功谈判企业管理现实所需的技能，学生将通过核心和选修课程深入了解当代商业这一不断增长的领域，并将完成一个实际的商业项目或一篇基于研究的论文。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "新兴经济体的商业环境 (Business Environment in Emerging Economy)\n国际商务管理 (International Business Management)\n全球商业战略与分析 (Global Business Strategy and Analysis)\n全球背景下的领导力 (Leadership in a Global Context)\n高级数据、数字与全球商业分析 (Advanced Data, Digital and Global Business Analytics)\n全球营销管理 (Global Marketing Management)\n全球环境可持续发展与企业社会责任 (Global Environmental Sustainability and Corporate Social Responsibility)\n研究方法与论文 (Research Methods and Dissertation)\n国际创业 (International Entrepreneurship)\n国际商务金融与技术（国际商务 - 金融科技） (International Business Finance and Technology (IB-Fintech))\n国际人力资源管理 (International Human Resource Management)\n国际商务中的数字创新与新媒体 (Digital Innovation and New Media in International Business)\n东亚商业与管理 (East Asian Business and Management)\n国际实地考察 (International Field Study)\n国际游学 (International Study Tour)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "系统工程管理理学硕士",
+  "ename": "MSc Systems Engineering Management",
+  "tags": "工科,工程管理,设计、制造与工程管理学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 31100英镑/年",
+  "requirements": "具有一等或二等荣誉学位，要求相关的工程、技术、科学或商业背景",
+  "objectives": "管理大型复杂系统工程项目所需的技能无法从传统的工程或企业管理项目中获得。思克莱德大学系统工程管理理学硕士项目旨在培养毕业生系统工程管理能力，要求毕业生能够判断管理工程的复杂性，应用系统思维方法和技术，实现技术系统和组织人员的有效管理。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "系统架构与设计 (Systems Architectures and Design)\n人、组织和技术 (People、Organisation and Technology)\n工程风险管理 (Engineering Risk Management)\n研究生个人项目 (Postgraduate Individual Project)\n系统思考与建模 (Systems Thinking & Modelling)\n系统工程概念 (Systems Engineering Concepts)\n工程师的知识和信息管理 (Knowledge and Information Management for Engineers)\n设计管理 (Design Management)\n产品建模和可视化 (Product Modelling and Visualisation)\n战略技术管理 (Strategic Technology Management)\n可持续产品设计与制造 (Sustainable Product Design and Manufacture)\n产品成本核算和财务管理 (Product Costing & Financial Management)\n战略供应链管理 (Strategic Supply Chain Management)\n商业模拟方法 (Business Simulation Methods)",
+  "success_cases": ""
+}

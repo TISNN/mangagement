@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "计算机科学理学硕士",
+  "ename": "MSc Computer Science",
+  "tags": "工科,计算机,信息与数字工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 21500英镑/年",
+  "requirements": "具有非计算学科学士学位，成绩达到2:2（或同等学历），并且GCSE数学达到Grade B级或同等水平",
+  "objectives": "阿斯顿大学计算机科学理学硕士项目为非计算机专业的学生提供了一个学习计算机的机会。该项目旨在培养高素质的计算机人才，为学生增加行业竞争力。学生将系统地理解和掌握软件开发过程以及实践中所需的相关专业知识和技能。学生有机会参加各种讲座、研讨会、教程、实验课程、实践、在线活动；同时学生还有进行独立研究、实地调研和工作实习的机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "面向对象编程基础 (Foundations of Object-oriented Programming)\n小组项目 (Team Project)\n软件工程 (Software Engineering)\n人机交互 (Human Computer Interaction)\n数据结构和算法 (Data Structures and Algorithms)\n软件项目管理 (Software Project Management)\n信息安全 (Information Security)\n软件工程的可靠性 (Reliability in Software Engineering)\n数据挖掘 (Data Mining)",
+  "success_cases": ""
+}

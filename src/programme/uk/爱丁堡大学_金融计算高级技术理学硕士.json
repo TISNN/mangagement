@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "金融计算高级技术理学硕士",
+  "ename": "MSc Advanced Technology for Financial Computing",
+  "tags": "商科,金工金数,信息学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 43300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要信息学、人工智能、认知科学、计算机科学、电气工程、语言学、数学、物理学背景，或其他数字学位\n需要具备编程能力，在学位期间必须完成以下至少其中1门编程课程：C/C、Java、Python、R、Matlab、Haskell、ML\n在学位期间必须完成相当于60个SCQF学分或30个ECTS学分的数学课程，通常涵盖以下学科/主题：微积分（微分和积分），线性代数（向量和多维矩阵），离散数学和数学推理（例如归纳和推理，图论模型，证明），和概率论（离散和连续概率的概念，马尔可夫链等）",
+  "objectives": "金融计算高级技术理学硕士课程为学生提供如何使用和开发数据、计算和人工智能技术的关键和实际的评价。学生将从技术和商业的角度了解数字化如何为财务、风险和决策相关的组织带来价值。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "信息学研究综述 (Informatics Research Review)\n硕士论文（信息） (MSc Dissertation (Informatics))\n数据驱动业务与行为分析 (Data-driven Business and Behaviour Analytics)\n应用机器学习入门 (Introductory Applied Machine Learning)\n金融计算研究方法 (Research Methods in Financial Computing)\n创新驱动型创业:数据科学、技术与创新 (Innovation-driven Entrepreneurship-Data Science, Technology and Innovation)\n数字商业:平台时代的竞争 (Digital Business: Competing in the Age of Platforms)\n数字化商业:数字化时代的组织转型 (Digital Business: Transforming Organisations in the Digital Era)\n技术创业与商业化 (Technology Entrepreneurship and Commercialisation)\n数字化创新管理 (Digital Innovation Management)\n高性能计算的数值算法 (Numerical Algorithms for High Performance Computing)\n并行算法的设计与分析 (Design and Analysis of Parallel Algorithms)\n算法博弈论及其应用 (Algorithmic Game Theory and its Applications)\n区块链和分布式账本 (Blockchains and Distributed Ledgers)\n数据科学的文本技术 (Text Technologies for Data Science)\n人工智能伦理个案研究(CSAI) (Case Studies in AI Ethics (CSAI))\n机器学习系统 (Machine Learning Systems)\n金融数学 (Financial Mathematics)\n金融、风险和不确定性 (Finance, Risk and Uncertainty)\n优化的基本原理 (Fundamentals of Optimization)\n数据科学的大规模优化 (Large Scale Optimization for Data Science)\n信用评分 (Credit Scoring)\n离散时间金融 (Discrete-Time Finance)",
+  "success_cases": ""
+}

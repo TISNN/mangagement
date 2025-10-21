@@ -1,0 +1,12 @@
+{
+  "school_name": "香港岭南大学",
+  "major_name": "智慧城市科技与应用理学硕士",
+  "ename": "MSc Smart City Technologies and Applications",
+  "tags": "理科,数据科学,数据科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 287000港币/年",
+  "requirements": "申请者需持有本大学认可的高等教育机构授予的理学、工程学、工商管理或相关学科例如城市规划、资料科技、环境科学及公共政策的学士学位；或取得同等学历（将根据具体情况予以考虑）\n在数据科学和/或计算方面没有或只有有限背景的申请者需要在课程开始之前完成并通过以下相应预科课程：\n- 计算概论（15小时）\n- 统计学（15小时）",
+  "objectives": "香港岭南大学智慧城市科技与应用理学硕士项目旨在使学生掌握智慧城市、城市规划与设计、统计分析、机器学习算法及数据分析与可视化技术，熟悉行业标准工具和技术，如生成式人工智能、云计算平台和时空数据分析工具。通过实践项目，学生可以学习收集、分析和解读数据，从而作出有效的决策或提出对策建议。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "智慧城市概论 (Introduction to Smart Cities)\n运筹学 (Operational Research)\n城市数据科学与分析 (Urban Data Science and Analytics)\n智慧互联与融合 (Smart Connectivity and Fusion)\n智慧城市项目 (Smart City Project)\n智慧物流 (Smart Logistics)\n人工智能概论 (Foundation of Artificial Intelligence)\n城市计算与时空分析 (Urban Computing and Spatio-Temporal Analytics)\n感知城市 (Sensing the City)\n城市设计 (Urban Design)\n智能优化 (Artificial Intelligence Based Optimization)\n深度学习应用 (Practical Application of Deep Learning)\n大数据分析 (Big Data Analytics)\n区块链 (Blockchain)\n医疗保健分析 (Healthcare Analytics)\n网络安全概论 (Introduction to Cyber Security)\n云计算 (Cloud Computing)\n数据可视化 (Data Visualization)\n移动边缘计算 (Mobile Edge Computing)\n数据科学程序设计 (Programming for Data Science)",
+  "success_cases": ""
+}

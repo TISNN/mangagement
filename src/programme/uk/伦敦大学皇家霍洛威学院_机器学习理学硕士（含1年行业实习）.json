@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "机器学习理学硕士（含1年行业实习）",
+  "ename": "MSc Machine Learning with a Year in Industry",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 2年\n项目学费: 14340英镑/年",
+  "requirements": "需要具有相关学科背景（如计算机科学，经济学，数学，物理，或其他包含数学和计算元素的学科）",
+  "objectives": "机器学习已经彻底改变了全球数百万网络用户的用户体验，然而这门学科还是新兴学科。随着时间的推移，这种形式的人工智能将对我们使用软件和与计算机技术的方式产生更深远的影响。伦敦大学皇家霍洛威学院机器学习理学硕士（含1年行业实习）项目帮助学生掌握一系列关键技能，以协助开发下一代搜索和分析技术。选择在行业中实习一年，学生将有机会整合理论与实践，获得真正的业务经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据分析 (Data Analysis)\n数据计算 (Computation with Data)\n数据分析程序 (Programming for Data Analysis)\n机器学习 (Machine Learning)\n在线机器学习 (On-line Machine Learning)\n高级计算和人工智能中的伦理学 (Ethics in Advanced Computing and Artificial Intelligence)\n推理 (Inference)\n应用概率 (Applied Probability)\n个人项目 (Individual Project)\n大规模数据存储与处理 (Large-scale Data Storage and Processing)\n计算金融方法 (Methods of Computational Finance)\n软件验证 (Software Verification)\n先进的数据通讯 (Advanced Data Communications)\n数字音频及其应用 (Digital Audio and Applications)\n语义网 (Semantic Web)\n互联网和网络技术 (Internet and Web Technologies)\n面向服务的计算技术和管理 (Service-oriented Computing Technology and Management)",
+  "success_cases": ""
+}

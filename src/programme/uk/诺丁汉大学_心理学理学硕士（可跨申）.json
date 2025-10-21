@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "心理学理学硕士（可跨申）",
+  "ename": "MSc Psychology (Conversion)",
+  "tags": "社科,心理学,心理学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1学位或同等学历，并且数学资格达到相当于 GCSE Grade 4 (C)的水平",
+  "objectives": "诺丁汉大学心理学理学硕士课程专为希望从事心理学职业但没有该学科第一学位的学生而设计。它将为学生提供所需的知识广度，同时使其能够更深入地探索自己的兴趣。课程提供事故研究，神经科学，认知与语言，人类发展和学习，人与社会等广泛的研究领域。广泛的课程模块和研究项目，让学生有机会专注于其独特的领域兴趣。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "认知心理学 (Cognitive Psychology)\n心理学中的概念和历史问题 (Conceptual and Historical Issues in Psychology)\n神经科学与行为 (Neuroscience and Behaviour)\n人格与个体差异 (Personality and Individual Differences )\n实用方法 (Practical Methods)\n社会和发展心理学 (Social and Developmental Psychology)\n统计方法 (Statistical Methods)\n认知发展和自闭症 (Cognitive Development and Autism)\n教育心理学 (Educational Psychology)\n法医和心理健康 (Forensic and Mental Health)\n神经心理学与应用神经影像学 (Neuropsychology and Applied Neuroimaging)\n动作神经心理学：大脑中的身体 (Neuropsychology of action: The body in the brain)\n视觉大脑：进化、发展、学习和适应 (The Visual Brain: Evolution、Development、Learning & Adaptation)\n老龄化与老年人心理 (Psychology of Ageing and Older People)\n应用心理学：道路使用者的行为 (Applied Psychology: Road User Behaviour)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "医学科学硕士",
+  "ename": "Master of Medical Sciences",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 173000港币/年",
+  "requirements": "具有荣誉学士学位或医学学士学位或同等学历",
+  "objectives": "香港大学医学硕士学位课程旨在提供基础医学和临床医学方面的结构化训练，让香港及其它亚太地区的毕业生们有能力从事专业研究、实践或教学工作，以满足其职业生涯发展和个人发展。除此之外，课程在临床前和临床研究之间起到桥梁作用，从而促进基础医学和应用医学基础的一体化训练。\n香港大学医学硕士学位课程设置是模块化的，学生可以选择自己感兴趣的课程模块来满足自身需求，从而更好的迎合个人发展与职业抱负。通过香港大学医学硕士学位课程的学习，科学工作者和临床医生将深入掌握医学某一具体领域的专业知识，可以更加有效地投入生物医学教学、研究工作和技术服务工作中去。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "入门课程：论文写作 (Induction Course: Dissertation Writing)\n细胞病理学 (General Cytopathology)\n实用生物信息学 (Practical Bioinformatics)\n常见人类疾病基本原理 (Fundamentals of Common Human Diseases)\n生物统计概论 (Introduction to Biostatistics)\n流行病学概论 (Introduction to Epidemiology)\n细胞代谢 (Cell Metabolism)\n实验方法与仪器 (Laboratory Methods and Instrumentation)\n药物作用原理 (Principles of Drug Action)\n循证医学：临床流行病学与决策分析概论 (Evidence Based Practice: An Introduction to Clinical Epidemiology and Decision Analysis)\n细胞生物学 (Cell biology)\n人类生理学概念 (Concepts of Human Physiology)\n实验动物处理与手术技巧 (Laboratory Animal Handling and Surgical Techniques)\n基因与基因功能 (Genes and Gene Functions)\n基因与蛋白质研究课程 (Working with Genes and Proteins)",
+  "success_cases": ""
+}

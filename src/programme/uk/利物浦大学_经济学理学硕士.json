@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,管理学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 25000英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要经济学或以定量为重点的相关学科背景，也鼓励拥有定量科学学科（如数学、物理、统计学、运筹学）的学生申请，申请人需具备A级的数学/统计学能力",
+  "objectives": "利物浦大学经济学理学硕士项目专注于数学领域的研究，适合想要继续攻读经济学或金融经济学博士学位的学生。利物浦大学经济学理学硕士项目也将帮助学生从事更加专业化的职业，例如为国际组织或研究机构工作。\n利物浦大学经济学理学硕士项目不仅拥有来自罗素大学集团经济学专业、金融学专业、数学专业的优秀本科毕业生，还吸引了其他国际知名高校的学生。\n利物浦大学经济学理学硕士项目为学生提供了两个可自主选择的方向：金融经济学方向与经济学方向。利物浦大学经济学理学硕士项目中两个方向的课程设置都将为学生提供经济学或金融经济学领域的高级培训。近期的学术论文课题包括：“燃油税与限速之间的关系理论阐述：英国高速公路的教训”以及“货币增长与通货膨胀：来自英国的证据”。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融经济学方向 (Financial Economics Pathway)\n计量经济学与统计学方法 (Econometric and Statistical Methods)\n宏观经济学理论 (Macroeconomic Theory)\n微观经济学理论 (Microeconomic Theory)\n高级计量经济学 (Advanced Econometrics)\n学术论文 (Dissertation)\n金融微积分的概率原理 (Probability Essentials for Financial Calculus)\n金融学随机模型 (Stochastic Modelling in Finance)\n资产定价理论 (Asset Pricing Theory)\n博弈论 (Game Theory)\n货币与银行 (Money and Banking)\n经济学方向 (Economics Pathway)\n计量经济学与统计学方法 (Econometric and Statistical Methods)\n宏观经济学理论 (Macroeconomic Theory)\n微观经济学理论 (Microeconomic Theory)\n高级计量经济学 (Advanced Econometrics)\n学术论文 (Dissertation)\n经济学数学 (Mathematics for Economics)\n信息不对称与机器设计 (Informational Asymmetries & Mechanism Design)\n高级宏观经济学原理 (Advanced Macroeconomic Theory)\n博弈论 (Game Theory)\n货币与银行业 (Money and Banking)",
+  "success_cases": ""
+}

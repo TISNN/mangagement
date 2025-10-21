@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "大气、海洋与气候理学硕士",
+  "ename": "MSc Atmosphere, Ocean and Climate",
+  "tags": "工科,地球科学,气象学系",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30950英镑/年",
+  "requirements": "具有2:2或以上荣誉学位，需要大学数学、物理科学或相关背景。不需要事先具备气象学知识，但需具备良好的物理和数学知识",
+  "objectives": "雷丁大学大气、海洋与气候理学硕士项目适合想在研究界或大气海洋建模行业就业的人，或适合于未来想要继续进行博士阶段学习的学生。该项目旨在提供生成天气系统的物理过程的定量知识，使学生了解天气系统组合形成气候的途径，加深对用以建设气候系统数字模型的大气物理、流体动力学和计算方法的全面了解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "天气系统概论 (Introduction to Weather Systems)\n大气物理 (Atmospheric Physics )\n天气与气候讨论 (Weather and Climate Discussion)\n体验天气 (Experiencing the Weather )\n大气和海洋的流体动力学 (Fluid Dynamics of the Atmosphere and Oceans)\n数值模概论 (Introduction to Numerical Modelling)\n大气和海洋数值建模 (Numerical Modelling of Atmospheres and Oceans )",
+  "success_cases": ""
+}

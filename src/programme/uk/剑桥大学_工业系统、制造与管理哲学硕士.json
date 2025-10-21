@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "工业系统、制造与管理哲学硕士",
+  "ename": "MPhil Industrial Systems, Manufacture, and Management",
+  "tags": "工科,工业工程,工学院",
+  "introduction": "专业方向: 工业工程\n入学时间: 10月\n项目时长: 1年\n项目学费: 46752英镑/年",
+  "requirements": "申请者应该具有英国Good II.i荣誉学位或同等学历\n成功的申请者具有计算能力并且很可能具备工程、技术、科学或数学背景，需要相关工作经验（通常以实习的形式）",
+  "objectives": "剑桥大学工业系统、制造与管理哲学硕士课程使毕业生具备学术技能、个人发展和行业经验，以便在其早期行业生涯中立即发挥作用。ISMM与任何其他学术课程都有很大的不同：将传统的学术教材与一系列行业访问、行业研讨会、技能开发和行业项目相结合。ISMM是一个非常密集的课程，提供许多不同行业、文化和工作环境的直接体验。除了讲座之外，这些项目在真正的工业和商业环境中提出了真正的挑战。ISMM将拓宽学生的视野和经验，并为广泛的工业职业打开大门。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工业系统、制造和管理概论 (Introduction to Industrial Systems, Manufacture and Management)\n制造工艺 (Manufacturing processes)\n运营与供应链管理 (Operations & supply chain management)\n数据和建模 (Data and modelling)\n新业务开发 (New business development)\n研究方法 (Research methods)\n创新与知识产权 (Innovation and IP)\n技术管理 (Management of technology)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "心理与教育文学硕士",
+  "ename": "MA Psychology and Education",
+  "tags": "社科,心理学,教育研究中心",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 27680英镑/年",
+  "requirements": "具有2:2本科学位或同等学历，需要相关学科背景",
+  "objectives": "华威大学心理与教育文学硕士项目是一门以研究为主导的课程，位于心理学和教育的十字路口。该课程为儿童发展和教育成果的重要问题提供了独特的跨学科视角；差异和残疾的概念；早期干预在最优化儿童生活方面的作用；以及我们所说的教育领域的循证实践。本课程的模块经过精心挑选，以帮助学生开发解决其中一些问题所需的知识和关键工具。该课程灵活的模块为学生提供广泛的教学和学习经验，并能够深入研究有关个体差异（例如情绪、个性和智力）及其在儿童学习中所起作用等等。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "心理与教育研究方法 (Research Methods in Psychology and Education)\n特殊教育需求和循证实践 (Special Educational Needs and Evidence-Based Practices)\n早期干涉 (Early Intervention)\n学位论文心理学与教育 (Dissertation MA Psychology and Education)",
+  "success_cases": ""
+}

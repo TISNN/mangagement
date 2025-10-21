@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "中国语文文学硕士",
+  "ename": "MA Chinese Language and Literature",
+  "tags": "社科,语言,人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 195000港币/年",
+  "requirements": "具有认可机构颁发的学士学位，可能需要参加笔试和/或面试\n中英文授课，学生应具备一定的粤语口语理解基本能力（部分必修课程及选修课程以粤语授课）",
+  "objectives": "香港理工大学汉语言文学硕士课程旨在令学生掌握中国语言、文学和文化方面的知识，有助于学生从事中文教学工作。\n香港理工大学汉语言文学硕士课程旨在提高学生在中国语言、文学及文化三方面的知识水平，培养其从事中文教学的技能。\n通过香港理工大学汉语言文学硕士课程的学习，学生在专业技能方面将：能恰当、准确地用中文表达复杂的概念；能融会、分析古代汉语或当代汉语的不同语体，辨认核心的问题，并得出合理的结论；能善用参考书和信息科技寻找所需的数据，以帮助中文教学；能对文学理论或语言学理论的最新问题作出评价；能赏析中国文学作品；能发掘、分析、处理中文教学与测试的问题。学生还将学会分析中国传统文化。通过对本地及全球语境中语言理论和实践问题的研究和思考，培养终身学习的能力化。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "汉语描述I：词汇和句子 (Description of Chinese I: Words and Sentences )\n汉语描述II：语音和文字 (Description of Chinese II: Sounds and Script)\n文学理论与当代中国文学 (Literary Theory and Modern Chinese Literature)\n古典文学精读 (Readings of Classical Literature)\n中国文化经典导论 (Introduction to Chinese Culture and Classics )\n语言学习研究方法 (Research Methods in Language Studies)\n教育语言学导论 (Introduction to Educational Linguistics )\n对外汉语词汇教学 (Teaching Chinese Vocabulary to Non-Native Learners )\n现代修辞学 (Modern Rhetoric)\n汉语语言教学评估 (Assessment for Learning in Chinese Language Teaching)\n应用汉语研究 (Applied Chinese Language Studies)\n心理语言学 (Psycholinguistics)\n粤语研究导论 (Introduction to Cantonese Studies)\n应用词汇学与词典学 (Applied Lexicology and Lexicography )\n文学语篇分析 (Literary Discourse Analysis)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡科技设计大学",
+  "major_name": "科技与设计（人本设计）理学硕士",
+  "ename": "MSc Technology and Design (Human-Centred Design)",
+  "tags": "社科,其他社科,硕士项目",
+  "introduction": "专业方向: 其他社科\n入学时间: 9月\n项目时长: 1年\n项目学费: 54500新币/年",
+  "requirements": "要求相关学科背景，至少拥有文学学士/理学学士学位。有兴趣且拥有非相关专业本科学位的学生可能会根据具体情况进行考虑；相关工作经验将被考虑录取",
+  "objectives": "新加坡科技设计大学科技与设计（人本设计）理学硕士项目将把学生塑造成技术领域的人类专家，在每一个环节都强调以用户为中心。通过了解技术如何与人类行为和不同文化相互作用，该项目的毕业生将获得使设计更具包容性、公平性和社会责任感的技能，从而扩大设计影响力和市场潜力的范围。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计创新 (Innovation by Design)\n用户体验 1：了解文化和行为 (User Experience 1: Understanding Culture and Behaviour)\n设计伦理 (Design Ethics)\n设计科学 (Design Science)\n用户体验 2：人类行为、技术和设计 (User Experience 2: Human Behaviour, Technology and Design)\n以人为本的设计的编码和人工智能 (Coding and AI for Human-Centred Design)\n设计与技术管理 (Management of Design and Technology)\n以人为本的设计项目 (Human-Centred Design Project)",
+  "success_cases": ""
+}

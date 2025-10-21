@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "计算与数字媒体理学硕士",
+  "ename": "MSc Computing with Digital Media",
+  "tags": "工科,计算机,工程与信息学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，拥有计算机科学、数学或自然科学专业背景，或拥有具备足够的计算机知识的媒体学背景。如果申请者拥有其他专业资格或同等经验，也可能被考虑参加该课程",
+  "objectives": "计算机娱乐、电视产业、电影和电视制作等行业越来越依赖计算机生成的数字媒体和虚拟内容。从教学环境到游戏，从网站到工程设计，交互数字媒体的使用已经成为一种常见的事情。这不仅涉及数字内容的创作，还涉及数字内容在互动环境中的应用以及在当今世界各种网络中的分发。萨塞克斯大学计算与数字媒体理学硕士项目由媒体技术实验室支持，提供最先进的数字设施、软件开发工具、多媒体内容创作工具、工作室设施和专业视频编辑系统。该实验室配备现代数字媒体行业所需的设施，可供学生进行实践。在萨塞克斯大学计算与数字媒体理学硕士项目中，学生将学习（特别是采用以人为本的方法）建立基于网络的分布式多媒体应用、计算机生成的动画和互动虚拟环境。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人机交互 (Human-Computer Interaction)\n视频制作技术 (Video Production Techniques)\n视觉效果 (Visual Effects)\n 三维建模与动画 (3D Modelling and Animation)\n数字媒体项目计算 (Computing with Digital Media Project )\n现场视频制作 (Live Video Production)\n移动3D应用程序 (Mobile 3D Applications)\n3D编程 (Programming for 3D)\n创业 (Entrepreneurship)\n技术增强型学习环境 (Technology-Enhanced Learning Environments)",
+  "success_cases": ""
+}

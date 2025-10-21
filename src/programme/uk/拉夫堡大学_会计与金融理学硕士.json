@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "会计与金融理学硕士",
+  "ename": "MSc Accounting and Finance",
+  "tags": "商科,金融,商业经济学院",
+  "introduction": "专业方向: 金融\n入学时间: 10月\n项目时长: 1年\n项目学费: 29500英镑/年",
+  "requirements": "具有英国2:2荣誉学位（成绩至少达到55%）或同等学历，优先考虑但不强制要求申请者具备定量学科背景（如商业、会计、经济学、数学、物理学、工程学、化学、地理学、计算机科学或数据分析）\n学校会考虑具有非定量学科背景的申请者，需要在课程开始前完成一些课前预习，不需要先前学习过金融学，欢迎具有相关专业经验或专业资格的申请者",
+  "objectives": "拉夫堡大学会计与金融理学硕士项目为学生提供在专业会计师事务所，金融机构，公司和非营利组织中任职所需的知识和技能。它嵌入了前沿的学术内容，并有机会承担咨询项目，能够帮助学生增强简历竞争力。课程为那些一方面考虑从事专业会计或各种组织的内部财务职能，另一方面考虑参与银行和投资业务的人提供了两个关键学科的全面基础知识。它还为那些有兴趣创业的人提供了重要的知识和技能。如果学生有一个非金融类商业相关的本科学位，并希望过渡到会计或金融职业，那么将非常适合这门课程。或者，如果学生有会计或金融背景，可以学习此课程来加深其技能，获得一个公认的研究生资格。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司财务基础 (Corporate Finance Fundamentals)\n国际财务会计与报告 (International Financial Accounting and Reporting)\n决策管理会计 (Management Accounting: Decision Making)\n成功的专业技能 (Professional Skills for Success)\n咨询项目 (Consultancy Project)\n金融市场与机构 (Financial Markets and Institutions)\n公司治理与责任 (Corporate Governance and Responsibility)\n管理会计：控制与绩效管理 (Management Accounting: Control and Performance Management)\n财务报告与分析主题 (Topics in Financial Reporting and Analysis)\n应用公司财务 (Applied Corporate Finance)\n财务报表分析与估值 (Financial Statements Analysis & Valuations)\n可持续金融 (Sustainable Finance)\n会计与金融数据分析 (Data Analytics for Accounting and Finance)",
+  "success_cases": ""
+}

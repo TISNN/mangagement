@@ -1,0 +1,12 @@
+{
+  "school_name": "贝尔法斯特女王大学",
+  "major_name": "口译文学硕士",
+  "ename": "MA Interpreting",
+  "tags": "社科,语言,艺术、英语和语言学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 21500英镑/年",
+  "requirements": "通常具有strong 2:2荣誉学位（至少55%）或学校接受的同等学历， 不限专业背景\n学校可能会接受具有2:2荣誉学位（低于55%）或学校接受的同等学历并且具备相关专业经验的申请者，学历低于2:2荣誉学位标准但能够证明具备至少3年相关专业经验的申请者可能会被考虑",
+  "objectives": "贝尔法斯特女王大学口译文学硕士项目致力于为学生提供先进的口译理论与实践训练，并帮助学生深入了解语言服务市场的行情，使学生具备高级口译员必需的专业素质。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "交替传译 (Consecutive Interpreting   )\n同声传译 (Simultaneous Interpreting)\n口译理论与实践 (Principles and Practices of Interpreting  )\n商业口译 (Commercial Interpreting)\n公共服务口译 (Public Service Interpreting)",
+  "success_cases": ""
+}

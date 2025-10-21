@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "应用气象学与气候管理理学硕士",
+  "ename": "MSc Applied Meteorology and Climate with Management",
+  "tags": "工科,地球科学,气象学系",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30950英镑/年",
+  "requirements": "具有2:2或以上荣誉学位，需要大学数学、物理科学或相关背景。申请者不需要事先具备气象学知识。环境或农业科学或地理学位背景的申请者如果数学和物理课程学习达到 A 级或同等水平，是有可能被学校接受的针对这个学位，申请者必须具备良好的物理和数学知识",
+  "objectives": "雷丁大学应用气象学与气候管理理学硕士项目专注于学科的应用层面，适合受世界气象组织或英国气象局国际支持自愿合作计划资助的在职气象学家，旨在为在职气象学家提供最新科学知识和现代管理技能专家训练（由雷丁大学亨利商学院提供），使你掌握在气象学领域或相关环境科学领域中开展定量科学研究和技术项目所需的技术和计算技能。除此之外，你还可选择接受英国气象局用以预测并解释气候的PRECIS软件训练。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人与组织管理 (Managing People and Organisations)\n计算概论 (Introduction to Computing)\n预测系统和应用程序 (Forecasting Systems and Applications)\n大气物理学 (Atmospheric Physics)\n天气与气候讨论 (Weather and Climate Discussion)\n体验天气 (Experiencing the Weather )",
+  "success_cases": ""
+}

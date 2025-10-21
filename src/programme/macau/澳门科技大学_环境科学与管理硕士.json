@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "环境科学与管理硕士",
+  "ename": "Master of Environmental Science and Management",
+  "tags": "工科,环境工程,创新工程学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 1/9月\n项目时长: 2年\n项目学费: 120000港币/年",
+  "requirements": "修读环境科学、环境管理、环境工程、生态学、能源与环境、化学工程、地球科学、海洋科学等相关专业",
+  "objectives": "介绍各种水环境污染问题及水污染控制技术的方法原理，包括物理学、物理化学、化学、微生物学方法和原理。在介绍各种方法原理的基础上，也将阐述这些方法在区域水污染控制和管理中的应用。该课程为环境领域基础课程，对于学生未来环境专业的学习具有非常大的帮助。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "水质控制过程 (Water Quality Control Process)\n环境影响评价 (Environmental Impact Assessment)\n固体废物管理和资源化 (Solid Waste Management and Reuse)\n大气环境学 (Atmospheric Environment)\n环境法律 (Environmental Law)\n环境与可持续发展 (Environment and Sustainable Development)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "热动力与推进（旋转机械、工程与管理）理学硕士",
+  "ename": "MSc Thermal Power and Propulsion (Rotating Machinery, Engineering and Management)",
+  "tags": "工科,能源,航空航天",
+  "introduction": "专业方向: 能源\n入学时间: 3/10月\n项目时长: 1年\n项目学费: 24725英镑/年",
+  "requirements": "具有工程、数学、物理或应用科学方面背景",
+  "objectives": "如今，旋转机械被广泛用于各种工业应用中，包括石油、电力和加工工业。随着旋转机械应用的不断扩大，越来越多的用户需要高素质的人员。克兰菲尔德大学热动力与推进（旋转机械、工程与管理）理学硕士课程为电力、石油、天然气、海洋和其他地面应用的各种类型的旋转设备的设计和操作提供了全面的背景知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "燃烧室 (Combustors)\n引擎系统 (Engine Systems)\n技术管理 (Management for Technology)\n涡轮机械机械设计 (Mechanical Design of Turbomachinery)\n燃气轮机操作与旋转机 (Gas Turbine Operations and Rotating Machines)\n涡轮机械与叶片冷却 (Turbomachinery and Blade Cooling)\n燃气轮机性能模拟与诊断 (Gas Turbine Performance Simulation and Diagnostics)",
+  "success_cases": ""
+}

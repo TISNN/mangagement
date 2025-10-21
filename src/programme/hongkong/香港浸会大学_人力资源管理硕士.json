@@ -1,0 +1,12 @@
+{
+  "school_name": "香港浸会大学",
+  "major_name": "人力资源管理硕士",
+  "ename": "Master of Human Resources Management",
+  "tags": "商科,人力资源管理,商学院",
+  "introduction": "专业方向: 人力资源管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 237000港币/年",
+  "requirements": "具有认可的学士学位或同等专业资格（无工作经验要求）；或\n具有认可的文凭以及至少4年工作经验。",
+  "objectives": "香港浸会大学人力资源管理硕士项目旨在使毕业生具备：\n人力资源管理能力：该课程的毕业生将具备必要的人力资源知识、技能和能力，以成功执行将人力资源政策和程序转化为积极人力资源成果的人力资源运营职能。\n评估和咨询能力：该课程的毕业生将有能力在充分了解员工激励和参与原则、意识到组织和文化背景以及道德原则的重要性的基础上，评估和开发人员管理。\n个人和专业发展：该课程的毕业生将成为有效的沟通者、分析和批判性思维者，他们将认识到终身学习和持续专业发展的重要性。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人力资源规划和人员配置  (Human Resources Planning and Staffing )\n培训与发展  (Training and Development )\n绩效管理  (Performance Management )\n薪酬与福利  (Compensation and Benefits )\n雇佣关系与实务  (Employment Relations and Practices )\n人力资源管理的道德原则  (Ethics in Human Resources Management )\n人力资源研究方法与分析学  (Human Resources Research Methods and Analytics )\n学位计划  (Degree Project )\n中国人力资源管理  (Human Resources Management in the PRC )\n国际人力资源比较  (International and Comparative HRM )\n员工敬业度与幸福感  (Employee Engagement and Well-being )",
+  "success_cases": ""
+}

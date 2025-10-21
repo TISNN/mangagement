@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯敏斯特大学",
+  "major_name": "人工智能与数字健康理学硕士",
+  "ename": "MSc Artificial Intelligence and Digital Health",
+  "tags": "理科,数据科学,生命科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 17600英镑/年",
+  "requirements": "具有2:2荣誉学位，需要相关学科背景，包括健康或联合健康相关学科，或社会护理相关学科具体的学科要求为生物医学科学、应用生物技术、计算机科学或相关学科具有同等地位的专业资格和相关工作经验，或课程团队认为合适的同等资格",
+  "objectives": "无论学生的背景是生命科学还是计算机，威斯敏斯特大学人工智能与数字健康理学硕士项目都将为学生提供使用人工智能分析复杂数据集的必要工具、方法和经验。这些数据集将来自医疗保健的各个方面，包括诊断、疾病预防和健康促进。当学生完成定制的健康数据密集型论文项目时，他将有机会使用先进的计算工具和机器学习算法来识别新的个性化医疗保健干预措施。学生将对人工智能中的数字健康知识库、算法和新兴趋势有一个批判性的理解，同时获得数据管理、可视化、分析和编程语言（如Python和R）方面的基本技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学的生物银行 (Biobanking for Data Science)\n健康数据科学 (Health Data Science)\n研究生研究方法 (Postgraduate Research Methods)\n数据挖掘与机器学习 (Data Mining and Machine Learning )\n研究生课题 (Postgraduate Project )\n大数据理论与实践 (Big Data Theory and Practice )\n科学传播 (Communicating Science )\n数据可视化与仪表板 (Data Visualisation and Dashboarding)\n科学、技术与商业化 (Science, Technology and Commercialisation)\n系统生物学 (Systems Biology )",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "波士顿大学",
+  "major_name": "统计实践硕士",
+  "ename": "Master of Science in Statistical Practice",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1年\n项目学费: 66670美元",
+  "requirements": "微积分和核心统计（通过以前的课程或同等工作经验）熟悉计算（例如,一个学期的编程课程、R 语言经验等）概率和线性代数",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

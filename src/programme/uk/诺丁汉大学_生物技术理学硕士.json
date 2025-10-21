@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "生物技术理学硕士",
+  "ename": "MSc Biotechnology",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 32400英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要生物技术、植物科学、动物科学、微生物学、遗传学或兽医学背景",
+  "objectives": "诺丁汉大学生物技术理学硕士课程是关于发现、创新和将知识转化为新产品的应用。本课程的重点是现代生物技术工具和方法对应对当今全球挑战的影响，从食品到治疗。学生将了解基本的细胞机制、生物系统的基因操作和生产过程，在高级分子方法等教学模块中接受高通量技术培训，并在整个课程中具备强大的研究技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物技术的高级分子方法 (Advanced Molecular Methods in Biotechnology)\n细胞工厂 (Cell Factories)\n实验室技术基础 (Basic Laboratory Techniques)\n生物技术专家的技能 (Professional Skills for Biotechnologists)\n技术创业 (Technology Entrepreneurship)\n研究生研究项目 (Postgraduate Research Project)",
+  "success_cases": ""
+}

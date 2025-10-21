@@ -1,0 +1,12 @@
+{
+  "school_name": "伊利诺伊大学香槟分校",
+  "major_name": "生物工程工学硕士",
+  "ename": "MEng in Bioengineering",
+  "tags": "工科,生物工程",
+  "introduction": "专业方向: 生物工程\n入学时间: 秋季\n项目时长: 1年\n项目学费: 38150美元/年",
+  "requirements": "具有理工科专业背景。本科最后两年GPA达到3.0/4.0。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

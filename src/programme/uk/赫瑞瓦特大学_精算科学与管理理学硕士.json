@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "精算科学与管理理学硕士",
+  "ename": "MSc Actuarial Science and Management",
+  "tags": "商科,金工金数,数学与计算机科学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 2年\n项目学费: 21996英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要数学或统计学背景，或数学或统计学含量较高的相关学科（如经济学或物理学）。该课程主要面向具有较强数学/逻辑背景的毕业生",
+  "objectives": "赫瑞-瓦特大学的精算科学与管理理学硕士旨在启动您作为精算师的职业生涯，使您在管理全球金融机构风险方面发挥领导作用。参加此课程的学生将在第一年学习精算科学课程，并在第二年学习精算管理课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融数学 (Financial Mathematics)\n人寿保险数学 (Life Insurance Mathematics)\n经济学 (Economics)\n财务和财务报告 (Finance and Financial Reporting)\n统计方法 (Statistical Methods)\n随机建模 (Stochastic Modelling)\n风险理论 (Risk Theory)\n时间序列分析 (Time Series Analysis)\n金融经济学 (Financial Economics)\n精算风险管理 (Actuarial Risk Management)\n硕士学位论文 (MSc Dissertation)\n养老金 (Pensions)\n人寿保险 (Life Insurance)\n金融市场 (Financial Markets)\n衍生产品市场与定价 (Derivatives Markets & Pricing)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港恒生大学",
+  "major_name": "保险理学硕士",
+  "ename": "MSc Insurance",
+  "tags": "商科,金融,决策科学学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 199920港币/年",
+  "requirements": "具有受认证大学的学士学位或同等学历",
+  "objectives": "香港恒生大学保险理学硕士项目是香港首个保险硕士学位课程。它将实践知识与保险领域的理论和原则相结合，构建具有挑战性和刺激性的学习体验。该项目的目标学生是具有至少五年相关工作经验的行业从业者，他们预计毕业后将在保险行业担任管理和执行职务。\n香港恒生大学保险理学硕士项目介绍保险中的风险管理概念及其应用。此外，定量模型、监管实践、合规性和商业道德也被列为核心要素。行业从业者还可以根据自己的需要选择学习人寿和健康保险、一般保险、投资和财务分析、以及管理和营销等主题。整个课程将讨论保险领域的当代问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "保险高级定量方法 (Advanced Quantitative Methods for Insurance)\n监管实践、合规性和商业道德 (Regulatory Practice, Compliance, and Business Ethics)\n综合研究项目 (Integrative Research Project)\n保险风险管理：理论与应用 (Risk Management in Insurance: Theory and Application)\n保险技术：影响和未来发展 (Insurance Technology: Impact and Future Development)\n人寿及健康保险运营先进理念 (Advanced Concepts in Life and Health Insurance Operations)\n一般保险运营先进理念 (Advanced Concepts in General Insurance Operations)\n保险投资与财务分析 (Investment and Financial Analysis in Insurance)\n保险管理与营销 (Management and Marketing in Insurance)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "认知神经科学理学硕士",
+  "ename": "MSc Cognitive Neuroscience",
+  "tags": "社科,心理学,心理学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1学位或同等学历，具有2:2学位或同等学历的申请者如果具备至少1年相关工作经验或其他支持因素，其申请可能会被考虑\n学校欢迎具备心理学、神经科学、医学或生物科学学科背景以及受过物理学、工程学、数学或计算机科学方面培训的申请者",
+  "objectives": "诺丁汉大学认知神经科学理学硕士课程将为学生准备一系列研究密集型职业。课程将教学生最新的认知神经科学。学生将发展可转移技能，例如：编码与MATLAB，解决复杂问题，展示学生的作品。学生将收集自己的数据，并学习分析和可视化。诺丁汉大学对认知神经科学的贡献是巨大的，磁共振成像，一种测量大脑的强大技术，在这里被开发出来。学校还正在推动基于磁场的新型可穿戴大脑扫描仪的开发。本课程由积极参与研究的学者教授，学生将有机会专门从事研究项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "功能成像实验设计 (Experimental Design for Functional Imaging)\n功能成像方法 (Functional Imaging Methods)\nMATLAB编程概论 (Introduction to MATLAB Programming)\n专业技能 (Professional Skills)\n分析研究方法 (Analytical Research Methods)\n神经影像数据分析 (Data Analysis for Neuroimaging)\n研究工作 (Research Placement)\n研究项目-认知神经科学理学硕士 (Research Project - Cognitive Neuroscience MSc)\n认知神经科学当前议题 (Current issues in Cognitive Neuroscience)\n临床神经心理学 (Clinical Neuropsychology)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "不限专业背景，不需要在本科阶段完成商业或管理学习\n该专业适合具备至少2年毕业后工作经验、职业成就记录以及任意学科背景的良好第一学位（相当于英国二等荣誉学位）的申请者\n课程主任可能会考虑具有非标准资格的申请者，如果申请者具有非标准资格和丰富的工作经验，需要附上一份完整的简历和详细的工作推荐信",
+  "objectives": "阿伯丁大学工商管理硕士项目是校内MBA课程。它聚焦于商业的真实需求，旨在为学生提供机会以发展其应对当今日益具有挑战性的商业世界所需的知识和技能。MBA是世界上最受欢迎的专业学位课程。阿伯丁大学工商管理硕士项目旨在培养学生以实践和理论知识为基础的领导技能，课程并不全是关于商业教条的，鼓励学生挑战商业运作的方式，并寻找新的、更有效、更有创意的方式。阿伯丁大学工商管理硕士课程吸引了来自世界各地不同行业的人才。通过这种方式，学生将能够从同龄人那里学习，分享想法，建立专业的网络，建立超越学术经历的友谊。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业经济学 (Business Economics)\n管理者会计与财务 (Accounting and Finance for Managers)\n商业策略 (Business Strategy)\n运营与项目管理 (Operations and Project Management)\n战略营销 (Strategic Marketing)\n管理工作人员 (Managing People at Work)\n领导力挑战 (The Leadership Challenge)\n变革管理 (Managing Change)\n创业 (New Venture Creation)\n战略财务分析 (Strategic Financial Analysis)\n团队沟通 (Talking to Teams)\n供应链管理 (Supply Chain Management)\n数字营销 (Digital Marketing)",
+  "success_cases": ""
+}

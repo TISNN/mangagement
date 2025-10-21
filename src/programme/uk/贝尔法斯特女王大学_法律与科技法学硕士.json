@@ -1,0 +1,12 @@
+{
+  "school_name": "贝尔法斯特女王大学",
+  "major_name": "法律与科技法学硕士",
+  "ename": "LLM Law and Technology",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 21500英镑/年",
+  "requirements": "具有相关/同源学科主学位的申请者：通常具有2:2荣誉学位（至少55%）或学校接受的同等学历，需要法律、社会科学、人文科学、计算机科学或相关学科背景，具有相关学科2:2荣誉学位（低于55%）或学校接受的同等学历以及至少2年相关经验的申请者可能会被考虑\n具有其他学科2:2荣誉学位并且能够证明具备2年相关经验的申请者可能会被考虑\n持有相关学科硕士学位或学校接受的同等学历的申请者可能会被考虑豁免这些要求",
+  "objectives": "与各行各业一样，法律工作和实践越来越技术创新。雇主对精通技术的法律毕业生非常感兴趣，他们不仅对技术中的法律事务有认识，而且对技术如何在该行业中发挥作用（例如用于研究和宣传目的）也有所了解。法学院旨在通过与雇主合作的贝尔法斯特女王大学法律与科技法学硕士课程来弥补这方面的差距，该课程向学生介绍技术与法律之间的相互作用和相互作用。这个创新和以就业为重点的计划借鉴了法学院在技术、电子政务和创新方面的丰富经验，涉及法律在规范技术方面的作用以及技术在转变治理和法律实践方面的作用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "法律与技术挑战 (Law and the Challenges of Technology)\n规范创新 (Regulating Innovation)\n法律与技术：基于项目的学习 (Law and Technology : project based learning)\n法律研究方法 (Approaches to Legal Research)\n论文 (Dissertation)\n计算方法和技巧 (Computational methods and skills)\n网络安全基础 (Foundations of Cybersecurity)\n数字环境中的版权 (Copyright in the Digital Environment)\n国际金融法 (International Financial Law)\n商业与人权 (Business and Human Rights)\n医疗法与伦理 (Medical Law and Ethics)\n比较竞争法:以欧盟为主导模式的案例 (Comparative Competition Law : the Case of the EU as the Leading Model)\n法学院学生的领导力和创新技能 (Leadership and Innovation Skills for Law Students)\n数据、隐私和法律 (Data, privacy and the law)\n调节数字通信 (Regulating digital communications)",
+  "success_cases": ""
+}

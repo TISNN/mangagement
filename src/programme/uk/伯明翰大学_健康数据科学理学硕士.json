@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "健康数据科学理学硕士",
+  "ename": "MSc Health Data Science",
+  "tags": "理科,数据科学,医学与牙科科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 32510英镑/年",
+  "requirements": "具有2:1荣誉学位，需要生物学、数学、计算机科学或相关学科背景",
+  "objectives": "伯明翰大学健康数据科学理学硕士项目非常适合未来的卫生数据科学家，使他们能够进行分析，并为这一迅速增长的领域开发新的工具和方法。伯明翰大学健康数据科学理学硕士项目的目标是来自生物医学/医学领域的不同背景的学生，包括临床实习生，以及计算机科学、数学和统计学，以便进行自己的分析，还将培养下一代尖端的健康数据科学家，他们将能够开发新的工具和方法来匹配最新的技术进步。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "健康数据科学计算实践基础 (Foundations of Computing Practices in Health Data Science)\n数学与统计学概要 (Essentials of Mathematics and Statistics)\n数据分析与统计机器学习 (Data Analytics & Statistical Machine Learning)\n基因组学与新一代测序 (Genomics & Next Generation Sequencing )\n流行病学与卫生信息学 (Epidemiology and Health Informatics)\n综合多模态数据分析 (Integrative Multimodal Data Analytics)\n跨学科健康数据研究项目 (Interdisciplinary Health Data Research Project)",
+  "success_cases": ""
+}

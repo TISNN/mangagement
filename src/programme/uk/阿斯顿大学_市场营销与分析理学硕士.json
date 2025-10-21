@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "市场营销与分析理学硕士",
+  "ename": "MSc Marketing and Analytics",
+  "tags": "商科,市场营销,阿斯顿商学院",
+  "introduction": "专业方向: 市场营销\n入学时间: 1月\n项目时长: 1年\n项目学费: 22750英镑/年",
+  "requirements": "雅思总分6.5（小分一项不低于5.5，其它项不低于6.0）\nPTE总分67（小分一项不低于59，其它项不低于64）\n具有良好的英国荣誉学位（不低于2:2）或阿斯顿大学认可的同等海外学位\n申请者还需要在本科阶段学习过以下定量课程，至少涵盖其中50%：经济学（微观/宏观），统计学，定量方法，数学，金融学",
+  "objectives": "阿斯顿大学市场营销与分析理学硕士项目旨在培养学生对营销核心理论的理解和应用，教授学生如何使用适当的营销理论和技术进行营销分析，从而做出适当的战略和运营营销决策，同时，提高学生对业务分析方法如何支持组织决策过程中的干预的理解和应用，帮助学生培养制定战略决策的能力。学生还有机会在一些列的实践中增强沟通、团队合作和管理技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "市场营销学 (Marketing Management)\n消费者行为学 (Consumer Behaviour)\n品牌策略管理 (Strategic Brand Management)\n数字化营销 (Digital Marketing)\n描述性分析 (Descriptive Analytics)\n决策模型 (Decision Models)\n数据挖掘和网络分析 (Data Mining and Web Analytics)\n性能分析 (Performance Analytics)\n研究方法研讨会 (Research Methods Workshop)\n学术实践伦理 (Ethics in Academic Practice)\n阿斯顿全球优势 (The Aston Global Advantage)\n商业项目或论文 (Business Project or Dissertation)",
+  "success_cases": ""
+}

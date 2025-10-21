@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "复杂系统建模：从生物医学与自然到经济与社会科学理学硕士",
+  "ename": "MSc Complex Systems Modelling - From Biomedical and Natural to Economic and Social Sciences",
+  "tags": "理科,数学,自然、数学与工程科学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，需要应用数学或物理学背景，强烈鼓励具有纯数学的扎实背景并且对应用有浓厚兴趣的申请者，学校可能会考虑具有其他定量学科学位的优秀申请者（前提是他们对数学或物理科学有足够的了解），申请者需要具备数学的良好背景，特别是熟悉多变量微积分、线性代数、微分方程和初等概率论的标准概念\n根据申请者的学术背景，学校可能会接受具有2:2荣誉学位或同等学历的申请者",
+  "objectives": "伦敦大学国王学院复杂系统建模：从生物医学与自然到经济与社会科学理学硕士学位课程适合想要在学术或行业环境中进行研究和开发的学生，使其能够在快速发展的复杂系统的跨学科领域中运用数学技术。复杂系统建模领域的应用十分广泛，包括可应用于生物医学、自然、经济和社会科学等。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "复杂系统研究方法和前沿议题 (Research Methods and Advanced Topics in Complex Systems)\n复杂网络理论 (Theory of Complex Networks)\n复杂系统均衡分析 (Equilibrium Analysis of Complex Systems)\n在数学中的高级读取模块 (dvanced Reading Module in Mathematics)\n非均衡状态系统前沿议题 (Advanced Topics in Nonequilibrium Systems )\n算法设计和分析 (Algorithms Design & Analysis)\n计算分子生物学算法 (Algorithms for Computational Molecular Biology)\n应用概率论和随机理论 (Applied Probability and Stochastics)\n虚拟实验室中的生物和纳米材料 (Bio- and Nanomaterials in the Virtual Lab)\n复杂系统动态分析 (Dynamical Analysis of Complex Systems)\n统计学习要素 (Elements of Statistical Learning)\n数学生物学 (Mathematical Biology)\n金融风险 (Risk in Finance)\n金融统计学 (Statistics in Finance)\n生物信息学统计学 (Statistics for Bioinformatics)",
+  "success_cases": ""
+}

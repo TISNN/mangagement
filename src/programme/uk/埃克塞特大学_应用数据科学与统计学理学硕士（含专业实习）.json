@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "应用数据科学与统计学理学硕士（含专业实习）",
+  "ename": "MSc Applied Data Science and Statistics with Professional Placement",
+  "tags": "理科,数据科学,工程、数学与物理科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 2年\n项目学费: 18180英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要数学成绩A级，并/或在本科课程或专业经验中接受过定量技能培训，不需要有编码经验",
+  "objectives": "埃克塞特大学应用数据科学与统计学理学硕士（含专业实习）专为那些想要使用数据并从数据中获得意义但没有编程经验的人设计。学生可以探索各种各样的应用程序，为其在各种领域的数据工作做好准备。毕业生将能够从数据中提取隐藏信息并利用其做出明智决策，具备进入数据科学家或分析师角色所需的技能。学生将学习各种数据科学的基本语言，包括R和Python，处理数据并获得执行统计分析以回答问题的能力，并了解如何在存在偏差和不确定性的情况下解释和传达结果。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "处理数据 (Working with Data)\n数据科学与统计模型导论 (Introduction to Data Science and Statistical Modelling)\n数据科学与统计学应用 (Applications of Data Science and Statistics)\n数据科学通信 (Communicating Data Science)\n统计学高级主题 (Advanced Topics in Statistics)\n统计数据建模 (Statistical Data Modelling)\n空间与时间的数据科学与统计建模 (Data Science and Statistical Modelling in Space and Time)\n数据治理与道德规范 (Data Governance and Ethics)\n应用数据科学与统计项目 (Applied Data Science and Statistics Project)\n理学硕士项目/论文 (MSc Project/Dissertation)",
+  "success_cases": ""
+}

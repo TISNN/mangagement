@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "金融数学理学硕士",
+  "ename": "MSc Financial Mathematics",
+  "tags": "商科,金工金数,数学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要数学、工程或科学背景，并且数学含量高（50%的学术课程必须与数学相关）",
+  "objectives": "本课程所教授的数学知识深度将会让学生获得在金融领域所需的成功技能。如果学生想从事随机分析、金融数学和其他相关领域的研究，学习本课程也将是一个不错的开始。得益于我们数学系的专业知识底蕴，学生将学习随机分析和测度理论等核心模块，以及包括公司财务、职能分析和资产管理在内的广泛领域的选修模块。作为本专业的学生，学生可以访问我们的计算实验室，该实验室拥有一个专业团队来帮助学生处理任何IT查询问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计量理论与数学概论  (Introduction to Measure Theory and Martingales)\n随机模型在金融领域 (Stochastic Models in Finance)\n金融体系 (The Financial System)\n编程和数值方法 (Programming and Numerical Methods)\n金融经济学 (Financial Economics)\n随机微积分和随机理论定价 (Stochastic Calculus and Theory of Stochastic Pricing)\n功能分析 (Functional Analysis)\n静态和动态优化 (Static and Dynamic Optimisation)\n风险管理和金融衍生品 (Risk Management and Derivatives)\n企业融资 (Corporate Finance)\n金融数学研究项目 (Mathematical Finance Research Project)",
+  "success_cases": ""
+}

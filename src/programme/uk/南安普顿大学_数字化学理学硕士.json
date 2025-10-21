@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "数字化学理学硕士",
+  "ename": "MSc Digital Chemistry",
+  "tags": "理科,化学,化学学院",
+  "introduction": "专业方向: 化学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要化学、化学与软件工程/计算机科学、物理学、材料科学或化学工程背景，具有数学背景的学生也将被考虑",
+  "objectives": "大数据、自动化和机器学习正在彻底改变当今的化学工业。南安普顿大学数字化学理学硕士项目将使学生处于这些发展的最前沿，为其提供在快速发展的行业中取得成功所需的技能。\n南安普顿大学数字化学理学硕士项目旨在使学生探索以下主题：数据科学理论与应用、计算建模技术、人工智能和机器学习方法解决现代化学问题，以及培养以下技能：python编程、软件开发、分析大型和复杂的数据集",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "化学中的人工智能和机器学习 (Artificial Intelligence and Machine Learning in Chemistry)\n化学硕士高级研究项目 (Chemistry MSc Advanced Research Project)\n化学通过计算显微镜 (Chemistry through the Computational Microscope)\n数据管理、减少和分析 (Data Management, Reduction and Analysis)\nPython 编程和软件开发 (Programming in Python and Software Development)\n化学硕士的科学写作和演讲技巧 (Scientific writing and presentation skills for Chemistry MSc)\n高级化学生物学 (Advanced Chemical Biology)\n先进的光谱学和应用 (Advanced Spectroscopy and Applications)\n原子、分子和自旋：化学和光谱学中的量子力学 (Atoms, Molecules and Spins: Quantum Mechanics in Chemistry and Spectroscopy)\n无机材料化学 (Inorganic Materials Chemistry)\n药物化学 (Medicinal Chemistry)\n核磁共振波谱 (Nuclear Magnetic Resonance Spectroscopy)\n功能分子和材料的超分子化学 (Supramolecular Chemistry of Functional Molecules and Materials)\n可持续化学 (Sustainable Chemistry)\n有机化学中的合成方法 (Synthetic Methods in Organic Chemistry)",
+  "success_cases": ""
+}

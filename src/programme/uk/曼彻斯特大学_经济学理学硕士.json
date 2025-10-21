@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,社会科学学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 32000英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要经济学、金融学、数学或相关学科（包含经济理论、数学和计量经济学方面的高水平学习）背景\n在评估申请者的学习成绩时，学校会考虑学生已取得的成绩和所就读院校的地位",
+  "objectives": "曼彻斯特大学经济学理学硕士学位课程使学生获取研究生水平的经济学现代理论和技术的均衡严谨训练。在曼彻斯特大学经济学理学硕士学位课程的学习中，学生将通过核心课程及选修课程接触主要概念、思想、工具及技术，有机会在撰写暑期论文中融合并实践技能。通过曼彻斯特大学经济学理学硕士学位课程的学习，学生将有能力阅读和理解顶尖经济期刊，建立自己的经济模型并从中派生出原始结果并评判基本理论。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "经济分析中的数学方法 (Mathematical Methods in Economic Analysis)\n微观经济学理论 (Microeconomic Theory)\n宏观经济分析 (Macroeconomic Analysis)\n经济学定量方法导论 (Introduction to Quantitative Methods in Economics)\n计量经济学方法 (Econometric Methods)\n论文 (Dissertation)\n发展微观经济学 (Development Microeconomics)\n微观计量经济学 (Micro Econometrics)\n国际宏观经济学 (International Macroeconomics)\n公共经济学 (Public Economics)\n欠发达国家的贫困，不平等与政府政策 (Poverty, Inequality and Government Policy in Less Developed Countries)\n金融计量经济学 (Financial Econometrics)\n非市场估值 (Non-Market Valuation)\n医疗经济学 (Healthcare Economics)\n应用经济学专题 (Topics in Applied Economics)",
+  "success_cases": ""
+}

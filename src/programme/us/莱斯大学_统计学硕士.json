@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯大学",
+  "major_name": "统计学硕士",
+  "ename": "Professional Master's in Statistics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1.5年\n项目学费: 52070美元/年",
+  "requirements": "单变量和多变量微积分\n线性或矩阵代数\n概率和统计（基于微积分）\n具备高级编程语言的知识,例如 C/C/C#、JAVA、Fortran、Matlab、R/S、Python 等。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

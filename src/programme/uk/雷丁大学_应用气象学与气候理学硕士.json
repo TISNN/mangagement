@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "应用气象学与气候理学硕士",
+  "ename": "MSc Applied Meteorology and Climate",
+  "tags": "工科,地球科学,气象学系",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30950英镑/年",
+  "requirements": "具有2:2或以上荣誉学位，需要大学数学、物理科学或相关背景。申请者不需要事先具备气象学知识。环境或农业科学或地理学位背景的申请者如果数学和物理课程学习达到 A 级或同等水平，是有可能被学校接受的针对这个学位，申请者必须具备良好的物理和数学知识",
+  "objectives": "雷丁大学应用气象学与气候理学硕士课程旨在培养学生在大气物理、预报、气象和气候数据分析方面的专业知识，为学生从事与气象相关的科学和研究工作做好准备，重点是气象数据和预报的使用和解释，无论学生是想找到新的方法来研究自然世界，减轻危险天气的经济影响，甚至是展望更远的地方和预测空间天气，还是专注气象和气候科学的其他领域，该项目都将帮助学生发展需要的实践和分析技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "天气与气候基础 (Fundamentals of Weather and Climate)\n气象学与气象措施基础 (Fundamentals of Meteorology and Meteorological Measures)\n天气和气候数据分析与预测系统 (Data Analysis and Forecasting Systems for Weather and Climate)\n研究项目 (Research Project)\n天气与气候讨论 (Weather and Climate Discussion)\n热带与温带天气系统分析 (Tropical and Extratropical Weather Systems Analysis)\n数据科学与气候服务 (Data Science and Climate Services)\n遥感 (Remote Sensing)\n气候变化：过去、现在与未来 (Climate Change: Past, Present and Future)\n大气化学、污染与运输 (Atmospheric Chemistry, Pollution and Transport)\n预防洪水 (Preparing for Floods)\n数学与物理补充强化课程 (Pre-Sessional Maths and Physics Supplement)\n气象学家学术英语 (Academic English for Meterologists)",
+  "success_cases": ""
+}

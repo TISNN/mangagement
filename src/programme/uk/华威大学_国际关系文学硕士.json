@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "国际关系文学硕士",
+  "ename": "MA International Relations",
+  "tags": "社科,国际关系,政治与国际研究学院",
+  "introduction": "专业方向: 国际关系\n入学时间: 9月\n项目时长: 1年\n项目学费: 29880英镑/年",
+  "requirements": "具有2:1本科学位或同等学历，需要相关学科背景",
+  "objectives": "华威大学国际关系文学硕士项目教授学生以全球决策者的角色妥当处理当今重大问题：如战争与贫困，安全与环境退化的复杂性，不平等及全球精英研究等。传统国际关系学科重心在战争与和平问题，重点解读国际关系中的国家行为，而近年来国际关系作为一门学科，其研究领域得到了拓宽与深化，不再局限于对战争、和平以及国家的研究。华威大学国际关系文学硕士项目将教授学生现实主义与殖民主义等重要理论研究方法，帮助学生深入理解各理论学说，并根据当代政治生活中的紧迫问题来评论这些理论的实用性。此外，华威大学国际关系文学硕士项目将培养学生正确理解包括非政府组织、私营企业和国际机构在内的一系列社会主体的角色。学生将运用多元理论框架研究国际合作、身份政治、移民和伦理等领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际关系理论与问题 (Theories and Issues in International Relations)\n研究新兴大国 (Examining Rising World Powers)\n国际关系与中东安全 (International Relatiosn and Security of the Middle East)\n核武器的全球政治 (The Global Politics of Nuclear Weapons)",
+  "success_cases": ""
+}

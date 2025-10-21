@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 334500港币/年",
+  "requirements": "具有认可大学的学士学位，偏好具备1年以上行业工作经验的申请者",
+  "objectives": "香港城市大学金融学硕士项目旨在为学生提供金融管理方面的前沿知识，包括金融投资策略以及风险管理。金融市场是一个瞬息万变的世界，过去十年里金融创新的迅猛发展以及近来的金融动荡已然改变了金融业的景况，而这些变化亟需新颖的风险管理方式以及新的金融规则，同时，金融业专业人士需要不断更新自己的知识库，避免其所掌握的知识过时，香港城市大学金融学硕士学位课程的目标就是帮助学生未来在金融行业的职业发展中保持竞争优势。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司财务 (Corporate Finance)\n计量经济学 (Econometrics)\n衍生产品及风险管理 (Derivatives and Risk Management)\n投资学 (Investments)\n专业研讨会 (Professional Seminars)\n高级公司财务 (Advanced Corporate Finance)\n固定收入证券 (Fixed Income Securities)\n国际财务管理 (International Financial Management)\n会计学 (Accounting)\n经济与金融 (Economics and Finance)\n信息系统 (Information Systems)\n管理学 (Management)\n定量分析和精算学 (Quantitative Analysis and Actuarial Science)\n服务营销与管理 (Services Marketing and Services Management)",
+  "success_cases": ""
+}

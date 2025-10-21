@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "制造技术与管理理学硕士",
+  "ename": "MSc Manufacturing Technology and Management",
+  "tags": "工科,工业工程,制造",
+  "introduction": "专业方向: 工业工程\n入学时间: 10月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "",
+  "objectives": "制造业是经济成功的基础。第四次工业革命的兴起在全球范围内创造了新的令人兴奋的商业机会。克兰菲尔德大学制造技术与管理理学硕士项目旨在让学生的学习更加专业化，涵盖技术和商业技能的广度，以便在选择的职业中产生真正的影响。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "制造、材料与研究技术导论 (Introduction to Manufacturing, Materials and Research Techniques)\n精益产品开发 (Lean Product Development)\n综合管理 (General Management)\n高性能结构复合材料制造 (Composites Manufacturing for High Performance Structures)\n纳米材料与高级复合材料 (Nano Materials and Advanced Composites)\n复合材料的连接，修理与可用性 (Composites Joining, Repair and Serviceability)\n材料工程概论 (Introduction to Materials Engineering)\n高级焊接工艺 (Advanced Welding Processes)\n加法与减法制造技术 (Additive and Subtractive Manufacturing Technologies)\n表面科学与工程 (Surface Science and Engineering)\n材料过程工程 (Materials Process Engineering)\n有限元分析 (Finite Element Analysis)\n操作管理 (Operations Management)\n操作分析 (Operations Analysis)\n制造 (Manufacturing)",
+  "success_cases": ""
+}

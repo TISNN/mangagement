@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "统计生态学理学硕士",
+  "ename": "MSc Statistical Ecology",
+  "tags": "理科,数学,数学与统计学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要相关学科背景（如生物科学、生态学、数学、统计学、环境科学或计算机科学），或具有相关学科的2.2学位及工作经验（如相关领域至少12个月的工作经验）。具备SCQF 8级的数学和统计学方面本科学习背景",
+  "objectives": "圣安德鲁斯大学统计生态学理学硕士课程使学生学习生态学专业人员目前使用的现代统计方法，包括如何制定问题，进行适当的分析，并将结果有效地传达给各种受众。为了平衡理论和应用，英国和国外的合作组织将提供就业机会。本课程为期一年，旨在让学生充分了解统计生态学中现代方法的统计基础，有效使用这些方法的技能，以及在专家的监督下将其应用于实际问题的经验，其中一些专家是该领域的高级研究人员。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据分析导论 (Introductory Data Analysis)\nGLMs应用统计建模 (Applied Statistical Modelling using GLMs)\n预测动物数量与生物多样性 (Estimating Animal Abundance and Biodiversity)\n计算机统计 (Computing in Statistics)\n野生动物种群动态建模 (Modelling Wildlife Population Dynamics)\n统计法解决问题 (Statistical Problem Solving)\n多元分析 (Multivariate Analysis )\n高级数据分析 (Advanced Data Analysis)",
+  "success_cases": ""
+}

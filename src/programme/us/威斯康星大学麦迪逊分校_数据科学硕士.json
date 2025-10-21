@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯康星大学麦迪逊分校",
+  "major_name": "数据科学硕士",
+  "ename": "MS in Data Science",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1.5-2年\n项目学费: 48,000美元",
+  "requirements": "具有定量领域的一些背景，包括抽象概念思维和任务定义的经验和技能，申请者通常来自统计学、数学、计算机科学、经济学和工程学等专业。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

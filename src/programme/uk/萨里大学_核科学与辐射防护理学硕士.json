@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "核科学与辐射防护理学硕士",
+  "ename": "MSc Nuclear Science and Radiation Protection",
+  "tags": "理科,物理,物理学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 24900英镑/年",
+  "requirements": "具有2:2相关英国荣誉学位或受认可的同等学历，需要化学、工程学、环境科学、物理学、放射学或放射科学背景\n如果申请者不符合以上要求，学校也会考虑其相关工作经验",
+  "objectives": "萨里大学核科学与应用理学硕士项目课程重视理论与运用能力，旨在培养学生运用课堂知识的能力和辐射实验室操作的能力。学校师资力量强大，曾投资一百万英镑，翻新辐射实验室，让学生能进一步接触到放射源和辐射探测器。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物学与辐射生物学导论 (INTRODUCTION TO BIOLOGY AND RADIATION BIOLOGY)\n辐射实验室技能 (RADIATION LABORATORY SKILLS)\n辐射测量 (RADIATION MEASUREMENT)\n辐射物理学 (RADIATION PHYSICS)\n扩展小组项目 (EXTENDED GROUP PROJECT)\n核计量 (NUCLEAR METROLOGY)\n核反应堆与健康物理 (NUCLEAR REACTOR AND HEALTH PHYSICS)\n研究项目与论文 (RESEARCH PROJECT AND DISSERTATION)",
+  "success_cases": ""
+}

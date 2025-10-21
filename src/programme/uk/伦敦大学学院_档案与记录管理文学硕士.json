@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "档案与记录管理文学硕士",
+  "ename": "MA Archives and Records Management",
+  "tags": "商科,信息系统,艺术与人文学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:1英国学士学位或同等学历，具备一段时期的带薪或志愿经验（通常为4-12个月），从事档案、记录或信息管理工作，不符合这些要求但对课程和记录保存领域有深刻理解的申请者将得到适当考虑",
+  "objectives": "伦敦大学学院档案与记录管理文学硕士项目帮助学生掌握在英国及其他地区从事档案与记录管理工作所需具备的专业知识与技能，培养学生管理与保存现在和过去遗留下来的记录。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "概念和背景 (Concepts and Contexts )\n创造和捕捉 (Creation and Capture)\n策展和管理 (Curation and Stewardship)\n记录保管职业 (The Record-keeping Professional)\n档案与记录的查阅和使用 (Access and Use of Archives and Records)\n收藏管理 (Collections Care)\n人文学科数字资源 (Digital Resources in the Humanities)\n信息管理 (Information Governance)\n手稿研究 (Manuscript Studies)\n数据库系统分析和设计 (Database Systems Analysis and Design)",
+  "success_cases": ""
+}

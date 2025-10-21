@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "设计与人工智能理学硕士",
+  "ename": "MSc Design and Artificial Intelligence",
+  "tags": "工科,计算机,数字技术研究所",
+  "introduction": "专业方向: 计算机\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有2:2荣誉学位（总分至少达到55%）或同等学历\n不限专业背景，不需要计算背景",
+  "objectives": "由于生成式人工智能的创造性可能性和高性能数据分析能力，设计世界正在迅速变化，以根据个人用户的需求定制创新解决方案，人工智能的高级知识正迅速成为那些寻求在设计行业开展职业生涯的人的先决条件。拉夫堡大学设计与人工智能理学硕士课程面向希望利用人工智能在设计中的变革潜力并且不需要事先技术培训的学生，课程将为学生提供所需的技术和关键技能，以了解人工智能如何改变我们的社会，以及这对设计思维和实践意味着什么。\n沉浸在数字技能和设计思维中，学生将获得编码、算法和大型语言模型的实践知识，以及对智能机器如何重建世界的批判性理解，并把这些见解应用到设计领域，并学习人工智能在最近的技术进步之前如何以难以想象的方式将设计师和用户联系起来。拉夫堡大学设计与人工智能理学硕士课程由顶尖学者授课，学生将从数字技术研究所的世界级人工智能学者和创意未来研究所的思想领袖那里学习，有机会将学到的知识应用到现实世界的场景中，并在伦敦建立一个网络，伦敦被评为世界上最受人工智能驱动的城市，也是人工智能教育机会最佳的城市。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计思维 (Design Thinking)\n数字应用开发 (Digital Application Development)\n重大挑战 (Grand Challenges)\n人工智能与数据分析原理 (Principles of Artificial Intelligence and Data Analytics)\n人工智能与社会 (Artificial Intelligence and Society)\n设计研究 (Design Research)\n合作项目 (Collaborative Project)\n论文 (Dissertation)\n体验设计 (Design for Experiences)\n应用密码学 (Applied Cryptography)",
+  "success_cases": ""
+}

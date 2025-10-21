@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "心血管健康与疾病理学硕士",
+  "ename": "MSc Cardiovascular Health and Disease",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有一等或2:1理学荣誉学士学位或同等学历（例如获得MBChB学位），需要相关科学学科背景（例如生物科学、医学、医疗保健科学或相关的联合健康学位）\n学校会考虑在专业医疗保健、科学或临床角色方面有丰富工作经验（至少1年经验）并且具有相关科学学科2:2学位的申请者，或者申请者可能可以提供受认可的相关专业资格/经验，作为指导，没有相关学位的申请者需要至少2年经验\n该课程也可作为插班硕士课程提供给已完成3年医学学位并在该学年排名前50%的学生\n选修课程遗传流行病学概论有额外要求，学生需要具有定量和/或科学学科的本科学位（至少达到2:1），其中包括大量的数学、统计学或数值成分，类似定量领域的工作经验（>2年）将被同等计算，需要具备很强的统计学基础知识（例如假设检验、回归分析、使用统计软件进行数据分析的经验）以及R基础知识",
+  "objectives": "利兹大学心血管健康与疾病理学硕士项目在心脏、脉管系统、血液和糖尿病的层面上提供了对心血管健康和疾病的详细了解。专家学者将提高学生对以下领域的了解：临床模拟训练、先进的生物分子技术、遗传流行病学、临床试验研究、生物信息学。无论是应届毕业生，还是希望提升职业生涯的专业人士，利兹大学心血管健康与疾病理学硕士项目都将为学生在生物科学行业、医疗保健行业、学术界或研究领域的下一步做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "心血管健康、疾病和糖尿病：基础及其他 (Cardiovascular Health, Disease and Diabetes: Basics and Beyond)\n心血管项目 (Cardiovascular Project)\n研究方法 (Research Methods)\n医学论文批评 (Paper Criticism in Medicine)\n心动过缓装置和节律管理 (Bradycardia Device and Rhythm Management)\n心动过速装置和节律管理 (Tachycardia Device and Rhythm Management)\n超声心动图病理学 (Echocardiography Pathology)\n超声心动图基础 (Fundamentals of Echocardiography)\n实用生物信息学 (Practical Bioinformatics)\n先进的生物分子技术 (Advanced Biomolecular Technologies)\n生物成像 (Bioimaging)\n遗传流行病学概论 (Introduction to Genetic Epidemiology)\n为医疗保健实践解释生物化学和血液学 (Interpreting Biochemistry and Haematology for Healthcare Practice)\n创业与创业 (Entrepreneurship and Enterprise Creation)\n人类分子遗传学 (Human Molecular Genetics)\n疾病动物模型 (Animal Models of Disease)\n临床试验研究 (Clinical Trials Research)",
+  "success_cases": ""
+}

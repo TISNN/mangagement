@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "金融数学理学硕士",
+  "ename": "MSc Financial Mathematics",
+  "tags": "商科,金工金数,理学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 166667港币/年",
+  "requirements": "具有学士学位或同等学历，需要数学、工程或物理科学背景",
+  "objectives": "香港科技大学金融数学理学硕士学位课程开设了机器学习和区块链技术等新课程，以连接量化金融的新兴趋势。\n通过香港科技大学金融数学理学硕士学位课程的学习，学生将设计和评估用于衍生品定价、投资组合管理和交易策略的定量模型；在金融交易中制定适当的风险监控程序，并利用风险评估中的统计技术进行有效的情景模拟；设计用于分析金融数据的计算机系统，并设计用于校准市场数据的模型参数的数字方法；对金融市场的动态进行评估，并制定量化策略以寻求基金管理的投资机会；以及对金融问题进行定量分析，并制定有效解决这些问题的策略。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "衍生证券的定量模型 (Quantitative Modeling of Derivatives Securities)\n固定收益证券定量研究方法 (Quantitative Methods for Fixed-income Instruments)\n投资数学模型 (Mathematical Models of Investment)\n高级信用风险模型 (Advanced Credit Risk Models)\n使用C++进行定量金融软件开发 (Software Development with C++ for Quantitative Finance)\n结构型产品定价的计算方法 (Computational Methods for Pricing Structural Products)\n高级数值方法（一） (Advanced Numerical Methods I)\n金融衍生品中的数学模型 (Mathematics Models of Financial Derivatives)\n利率模型 (Interest Rate Models)\n随机计算 (Stochastic Calculus)\n概率论与数理统计 (Advanced Probability and Statistics)\n用统计编程实现数据分析 (Advanced Data Analysis with Statistical Programming)\n金融时间序列定量分析 (Quantitative Analysis of Financial Time Series)\n定量与统计风险分析 (Quantitative and Statistical Risk Analysis)\n高级概率论 (Advanced Probability Theory I)",
+  "success_cases": ""
+}

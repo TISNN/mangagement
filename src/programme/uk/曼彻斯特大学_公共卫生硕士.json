@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "公共卫生硕士",
+  "ename": "Master of Public Health",
+  "tags": "社科,公共卫生,生物、医学和健康学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 28500英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，可能会考虑接受大量相关研究或专业经验以代替满足低于2:1的学历要求，如果申请者未能达到上述入学标准将被单独考虑，但可能需要先入读PGCert或PGDip课程再被考虑升读MPH\n插班学生：本课程也适用于来自曼彻斯特大学和其他英国大学完成第三年学习的插读医学生\n公共卫生理学学士学生：成功完成理学学士学位并达到2:1学位或能够证明具备同等经验的申请者可以入读本课程",
+  "objectives": "曼彻斯特大学公共卫生硕士项目旨在帮助学生学习在全球化背景下理解公共卫生概念所需的技能和知识，专注于与公共卫生各方面相关的高度热门主题领域，该课程旨在满足世界各地对公共或全球卫生事业感兴趣或者寻求该领域新技能的卫生专业人员的培训需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "循证实践 (Evidence Based Practice)\n创造公平健康与福祉服务 (Creating Equitable Services for Health and Wellbeing)\n人口健康实用统计 (Practical Statistics for Population Health)\n传染病控制 (Communicable Disease Control)\n批判性评论 - 公共卫生硕士 (Critical Review - Master of Public Health)\n艺术与公共卫生 (Arts and Public Health)\n气候变化与健康 (Climate Change and Health)\n感染预防与控制 (Infection Prevention & Control)",
+  "success_cases": ""
+}

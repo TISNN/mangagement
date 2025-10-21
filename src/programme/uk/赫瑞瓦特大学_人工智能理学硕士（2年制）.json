@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "人工智能理学硕士（2年制）",
+  "ename": "MSc Artificial Intelligence (2 years)",
+  "tags": "工科,计算机,数学与计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/9月\n项目时长: 2年\n项目学费: 22648英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，并有计算能力证明和熟悉编程语言的能力\n课程专为非计算机科学背景的学生而设计",
+  "objectives": "赫瑞瓦特大学人工智能理学硕士（2年制）课程为寻求过渡到人工智能（AI）的新职业道路的学生提供了机会，他们可能来自计算机以外的背景。无论学生的经验是心理学，语言学，科学，技术还是艺术，该衔接课程都是难得的机会，可以熟练掌握AI的高级，挑战性领域。 赫瑞瓦特大学人工智能理学硕士（2年制）旨在在短短两年内提供密集且高质量的人工智能预科研究生和研究生教育。集体计划将通过各种传统的和创新的方式进行授课，并利用与研究和行业相关的实用主题材料。这将在英国和全球范围内培养出一批具备与AI研究和工业应用相关技能的强大准备研究生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "软件工程基础 (Software Engineering Foundations)\n交互设计导论 (Introduction to Interaction Design)\n人工智能和智能代理 (Artificial intelligence and Intelligent Agents)\n高级软件工程 (Advanced Software Engineering)\n数据库和信息系统 (Databases and Information Systems)\n英文预科 (Research Preparation in English)\n统计建模与分析 (Statistical Modelling and Analysis)\n项目管理 (Project Management)\n操作系统和并发 (Operating Systems and Concurrency)\n生物启发计算 (Biologically Inspired Computation)\n数据挖掘与机器学习 (Data Mining and Machine Learning)\n研究方法和项目计划 (Research Methods and Project Planning)\n3D图形和动画 (3D Graphics and Animation)\n人机交互 (Human Robot Interaction)\n工业编程 (Industrial Programming)",
+  "success_cases": ""
+}

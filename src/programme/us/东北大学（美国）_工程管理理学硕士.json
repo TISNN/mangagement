@@ -1,0 +1,12 @@
+{
+  "school_name": "东北大学（美国）",
+  "major_name": "工程管理理学硕士",
+  "ename": "Master of Science in Engineering Management",
+  "tags": "工科,工程管理",
+  "introduction": "专业方向: 工程管理\n入学时间: 秋季/春季\n项目时长: 1.5-2年\n项目学费: 54000美元",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

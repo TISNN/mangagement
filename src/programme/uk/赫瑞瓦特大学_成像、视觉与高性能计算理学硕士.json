@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "成像、视觉与高性能计算理学硕士",
+  "ename": "MSc Imaging, Vision and High Performance Computing",
+  "tags": "理科,数学,工程与物理科学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 37300英镑/年",
+  "requirements": "具有一等或strong 2:1荣誉学位，在信号和图像处理和编程（C、C、Fortan、Java 或 Python）方面具有很强的能力，最好具有电气工程、计算机科学、数学或物理学背景",
+  "objectives": "赫瑞瓦特大学成像、视觉与高性能计算理学硕士项目是为科学、工程或计算背景的毕业生新开发的学习项目。该项目将使学生处于科学技术的前沿，具备计算成像算法和计算机视觉以及高性能计算 (HPC) 硬件和软件技术方面的技能。这是一项研究计划，首次将赫瑞瓦特大学在信号和图像处理方面的世界领先专业知识与爱丁堡大学在全球享有盛誉的 HPC 能力结合在一起。学生将同时从爱丁堡大学和赫瑞瓦特大学毕业。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "成像和视觉 I 的优化和深度学习 (Optimisation and Deep Learning for Imaging and Vision I)\n学习基础和计算机视觉 (Foundations of Learning and Computer Vision)\n线程编程 (Threaded Programming)\n高性能计算架构 (High Performance Computing Architectures)\n消息传递编程 (Message-Passing Programming)\n成像和视觉 II 的优化和深度学习 (Optimisation and Deep Learning for Imaging and Vision II)\n成像、视觉和计算的图形方法 (Graph Methods for Imaging, Vision and Computing)\n高级并行技术 (Advanced Parallel Techniques)\n性能编程 (Performance Programming)\n大规模机器学习 (Machine Learning at Scale)\n成像、视觉与高性能计算论文 (Dissertation in Imaging, Vision and HPC)",
+  "success_cases": ""
+}

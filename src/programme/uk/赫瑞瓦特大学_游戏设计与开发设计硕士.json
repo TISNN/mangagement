@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "游戏设计与开发设计硕士",
+  "ename": "MDes Games Design and Development",
+  "tags": "工科,计算机,数学与计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 25480英镑/年",
+  "requirements": "拥有相关学科（如计算机科学、电气工程数学）的荣誉学位，且编程是其学位的一部分，或拥有2:2级别的同等学历\n具有编程和大学数学方面的丰富经验，并对游戏有一定的了解者优先",
+  "objectives": "赫瑞瓦特大学游戏设计与开发设计硕士课程让学生探索自己的创造力，开发游戏创意并发布自己的游戏。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "游戏设计与预生产 (Games Design & Pre-Production)\n创业与创造力 (Entrepreneurship & Creativity)\n游戏制作与测试 (Games Production & Playtesting)\n创业创业 (Entrepreneurial Venturing)\n游戏硕士项目 (Masters Project in Games)\n3D图形和动画 (3D Graphics and Animation)\n工业编程 (Industrial Programming)\n高级互动设计 (Advanced Interaction Design)\n高级软件工程 (Advanced Software Engineering)\n硕士项目 (Masters Project)",
+  "success_cases": ""
+}

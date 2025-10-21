@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "数据科学与商业管理理学硕士",
+  "ename": "MSc Data Science and Business Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，不限专业背景",
+  "objectives": "阿伯丁大学数据科学与商业管理理学硕士课程旨在通过跨学科的方法弥合数据科学与商业管理之间的差距，为学生提供建立或领导成功的数据科学团队或企业所需的关键业务和数据科学技能。将数据科学和商业管理的研究相结合，在当今数据驱动的世界中提供了战略优势，随着公司和组织管理不断增加的数据量和多样性，数据世界正在经历一段深刻的变革时期，作为回应，随着企业努力在当今市场上保持竞争力，各种规模的组织对数据收集、管理和分析的重要性一直在增加。虽然高级数据科学的工具和技术以前主要局限于具有计算机或其他STEM背景的专业人士，但数据科学的民主化意味着所有背景的业务经理都可以学习从数据中获取见解。阿伯丁大学数据科学与商业管理理学硕士课程旨在通过跨学科的方法弥合数据科学家和业务经理之间的差距，促进对业务动态和数据分析的全面理解，从而实现更准确的预测、有针对性的营销和提高运营效率，最终实现更智能的业务战略和更好的结果，从而使所有人都可以接触数据科学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "领导力挑战 (The Leadership Challenge)\n数字营销 (Digital Marketing)\n编程概论 (Introduction to Programming )\n人力资源要素 (Human Resource Essentials)\n企业营销策略策划 (Business Marketing Strategy Planning)\n机器学习 (Machine Learning)\n图像分析 (Image Analysis)\n数据可视化 (Data Visualisation)\n数据科学概论 (Introduction to Data Science)\n统计学与时间序列分析 (Statistics and Time Series Analysis)\n数据科学与商业管理个人项目 (Data Science and Business Management Individual Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港恒生大学",
+  "major_name": "英语教学与评核文学硕士",
+  "ename": "MA English Language Teaching and Assessment",
+  "tags": "社科,语言,人文社会科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 109920港币/年",
+  "requirements": "于受认可院校获颁授涵盖人文或博雅教育元素的学士学位、或同等学历",
+  "objectives": "香港恒生大学英语教学与评核文学硕士课程是全港唯一一个系统地研究英语测试和评核，同时策略地结合英语教学的硕士课程。课程特色包括：1. 全港独有课程内容注重英语语言测试和评核；2. 在香港或大湾区体验短期小型教学练习；3. 最新的英语教学模式，课程设计及教学材料；4. 专题教授国际英语测验（如雅思、托福等），以及资优和特殊需要学生的语言测验的设计和数据解读；5. 广阔的就业前景如教育、测试机构、公共服务、政府和出版机构。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语言学及应用语言学 (Linguistics and Applied Linguistics)\n第二语言学：理论与实践 (Second Language Teaching: Theory and Practice)\n语言测试 (Language Testing)\n进展性和总结性评估：迈向数码学习 (Formative and Summative Assessment: Towards Digital Learning)\n数码年代的课程设计及教材研发 (Curriculum Design and Materials Development in the Digital Age)\n国际语言测试：设计与析解数据 (International Language Tests: Design and Data Interpretation)\n心理语言学 (Psycholinguistics)\n科技协助下的写作教学和评估 (Technology-enhanced Instruction and Assessment in Writing)\n任务型语言教与学 (Task-based Language Teaching and Learning)\n语言测试：资优和特殊需求学生 (Language Testing: Gifted and Special Needs)\n世界英语与文化 (World Englishes and Cultures)",
+  "success_cases": ""
+}

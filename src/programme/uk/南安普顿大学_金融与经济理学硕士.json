@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "金融与经济理学硕士",
+  "ename": "MSc Finance and Economics",
+  "tags": "商科,经济,经济、社会与政治科学学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 33900英镑/年",
+  "requirements": "具有2:1学位，需要相关学科背景，例如：经济学、金融学、数学、管理学、工程学、数据科学、计算机科学、物理学\n需要具备定量研究的证据",
+  "objectives": "南安普顿大学金融与经济理学硕士项目学生将深入了解金融市场是如何运作的，以及资金是如何组织的。学生将学习经济分析和定量技术，并了解全球资本市场。该课程为学生在世界各地担任高级财务职位做好准备，是经济及社会研究理事会（ESRC）认可的培训课程。在这门硕士课程中，学生将学习公司金融、经济分析、金融经济学和资产定价，培养在金融和经济领域进行独立研究的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n经济学分析 (Economic Analysis)\n金融计量经济学 (Financial Econometrics)\n金融经济学 (Financial Economics)\n数学与统计学基础 (Preliminary Mathematics and Statistics)\n计量经济学 (Quantitative Economics)\n公司金融 (Corporate Finance)\n实验经济学 (Experimental Economics)\n金融衍生品 (Financial Derivatives)\n卫生政策与经济学 (Health Policy and Economics)\n家庭财务 (Household Finance)\n产业经济学 (Industrial Economics)\n量化金融 (Quantitative Finance)\n资源与能源经济学 (Resource and Energy Economics)\n时间序列计量经济学 (Time Series Econometrics)",
+  "success_cases": ""
+}

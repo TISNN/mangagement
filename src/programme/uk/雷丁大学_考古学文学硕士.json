@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "考古学文学硕士",
+  "ename": "MA Archaeology",
+  "tags": "社科,历史,考古学系",
+  "introduction": "专业方向: 历史\n入学时间: 9月\n项目时长: 1年\n项目学费: 25850英镑/年",
+  "requirements": "具有2:1或以上学位，需要考古学、历史学、环境研究或相关学科背景",
+  "objectives": "雷丁大学考古学文学硕士项目可以让学生第一次发现考古学，或者加深学生现有的知识。学生将获得一个有效的基础，在考古实践和研究方面有机会学习一套模块，从史前到中世纪时期。或者，学生可以选择一个重点路径，使学生能够集中学生的研究在我们的专业研究领域，通过学生的论文和核心时期模块。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n考古学的理论方法 (Theoretical Approaches in Archaeology)\n准备独立研究 (Preparing for Independent Research)\n我们最亲密的表亲尼安德特人考古学 (Our Closest Cousins Archaeology of the Neanderthals)\n解读英国新石器时代和青铜时代 (Interpreting Neolithic and Bronze Age Britain)\n美索不达米亚研究的主题与方法 (Themes and Approaches in the Study of Mesopotamia)\n从乡村到大都市：古罗马的城市现象 (From Village to Metropolis: The Urban Phenomenon of Ancient Rome)\n维京人在西方的互动 (Viking Interactions in the West)\n殖民与文化转型：十字军东征的考古学 (Colonisation and Cultural Transformation: the Archaeology of Crusading)\n微形态分析的应用 (Applications of Micromorphological Analysis)\n遗骸分析 (Analysis of Human Remains)\n考古图形 (Archaeological Graphics)\n研究和企业实习 (Research and Enterprise Placement)",
+  "success_cases": ""
+}

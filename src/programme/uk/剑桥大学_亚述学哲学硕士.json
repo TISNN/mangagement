@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "亚述学哲学硕士",
+  "ename": "MPhil Assyriology",
+  "tags": "社科,文化,考古学系",
+  "introduction": "专业方向: 文化\n入学时间: 10月\n项目时长: 1年\n项目学费: 34254英镑/年",
+  "requirements": "申请者应该具有英国High II.i荣誉学位或同等学历\n具备法语和/或德语知识者可能有申请优势\n申请者必须清楚说明他们想要学习该课程的理由\n需要提交1篇Sample of work（约2000字）",
+  "objectives": "剑桥大学亚述学哲学硕士课程提供了美索不达米亚文化和社会历史的语言和专业知识的能力。这个硕士课程既适合阿卡德语的初学者，也适合那些有一定语言知识的人。该课程向学生提供古代美索不达米亚主要语言（阿卡迪亚语和苏美尔语）和楔形文字中的一种或两种实用知识，并结合对美索不达米亚和（在适当情况下）其他地区考古学和文化方面的详细研究。学生还学习参与研究生级别的学术讨论，并撰写大量独立的书面原创研究（论文）。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "阿卡德语和文本 (Akkadian language and texts)\n高级阿卡德语和文本 (Advanced Akkadian language and texts)\n苏美尔语和文本 (Sumerian language and texts)\n美索不达米亚考古学：从史前到早期国家 (Archaeology of Mesopotamia: Prehistory to Early States)\n美索不达米亚考古学：通过帝国的领土国家 (Archaeology of Mesopotamia: Territorial States through Empires)\n美索不达米亚文化：文学 (Mesopotamian culture: Literature)\n美索不达米亚文化：宗教与学术 (Mesopotamian culture: Religion and scholarship)\n美索不达米亚历史和考古学专题 (Topics in Mesopotamian history and archaeology)",
+  "success_cases": ""
+}

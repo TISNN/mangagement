@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "海岸带环境与安全理学硕士",
+  "ename": "MSc Coastal Environment and Safety",
+  "tags": "工科,土木工程,科技学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "持有澳门大学认可的学士学位或同等学历。申请人也可能被要求具备其他知识或专业经验。申请人必须在学士学位学习中达到相当于C级或更高的总成绩",
+  "objectives": "澳门大学海岸带环境与安全理学硕士旨在教育和培养学生成为具有丰富的科学知识、良好的工程实践技能和领导能力的土木工程师；并为了接受国际标准的高等教育做准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "海洋学概论 (Introduction to Oceanography)\n水动力学与洪水 (Hydrodynamics and Floods)\n沿海水域与废水的处理原理与过程 (Coastal Water and Wastewater Treatment Principles and Processes)\n项目报告 (Project Report)\n实习与报告 (Internship and Report)\n海洋生态学 (Marine Ecology)\n养殖水化学 (Aquatic Chemistry)\n大气化学 (Atmospheric Chemistry)\n沿海污染:污染物的来源、命运与影响 (Coastal Pollution: Sources, Fate and Effects of Pollutants)\n减灾专题 (Special Topics in Hazard Alleviation)\n海岸带环境专题 (Special Topics in Coastal Environment)\n山体滑坡机制、缓解和风险评估 (Landslides Mechanisms, Mitigation and Risk Assessment)\n高级计算方法:原理与应用 (Advanced Computational Methods: Principles and Applications)\n海岸流体力学与风暴潮 (Coastal Fluid Mechanics and Storm Surge)\n泥沙输运与侵蚀 (Sediment Transport and Erosion)",
+  "success_cases": ""
+}

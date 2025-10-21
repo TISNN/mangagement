@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "电动汽车理学硕士",
+  "ename": "MSc Electric Vehicles",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 176000港币/年",
+  "requirements": "具有学士学位，需要电气工程、电子工程、自动化工程、交通运输工程、工程科学或相关学科背景，具有其他学科学士学位并在电动汽车领域具备至少3年重要相关工作经验的申请者也将被考虑\n没有荣誉学位但具有其他相关资格和/或适当工作经验的申请者也将被考虑\n个别情况下学院会根据个案考虑，申请者可能需要参加面试或笔试以进一步证明他们的语言能力",
+  "objectives": "香港理工大学电动汽车理学硕士学位课程旨在 (1) 让毕业生全面了解电动车，包括研究和实际应用。通过课程，学生可深入了解电动车各方面的知识，包括设计、技术、解决能源方案和管理；(2) 满足电动车行业对高技术专业人员日益增长的需求，不仅在中国香港，而且涵盖全球。透过为学生提供专业知识和实践技能，课程旨在满足行业对高技术专业人员增长需求和采纳对电动车的解决方案；(3) 让学生在电动车领域上作进一步学习和研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电动汽车 (Electric Vehicles)\n电动汽车未来领导者 (Tomorrow’s Leader in Electric Vehicles)\n驱动器 (Intelligent Motion Systems)\n工业电力电子 (Industrial Power Electronics)\n系统建模与最优控制 (System Modelling and Optimal Control)\n维护与可靠性工程 (Maintenance and Reliability Engineering)\n现代发电与电网集成技术 (Modern Generation and Grid Integration Technologies)\n电动车储能与新能源 (Electric Energy Storage and New Energy Sources for Electric Vehicles)\n高级电动汽车技术 (Advanced Electric Vehicle Technology)\n物联网工具与应用 (IoT-Tools and Applications)\n车辆通信与互联网络技术 (Vehicular Communications and Inter-Networking Technologies)\n自动驾驶车辆 (Autonomous Vehicles)\n电力系统与电气化运输的经济学与市场学 (Economics and Markets in Power Systems and Electrified Transportation)\n电气工程中的绿色技术与政策 (Green Technology and Policy in Electrical Engineering)\n智慧城市中的智能交通 (Intelligent Transportation in Smart City)",
+  "success_cases": ""
+}

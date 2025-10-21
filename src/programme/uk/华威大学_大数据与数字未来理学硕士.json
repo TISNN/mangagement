@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "大数据与数字未来理学硕士",
+  "ename": "MSc Big Data and Digital Futures",
+  "tags": "理科,数据科学,跨学科方法学中心",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 27680英镑/年",
+  "requirements": "具有2:1本科学位或同等学历",
+  "objectives": "华威大学大数据与数字期货理学硕士学位直接响应了研究领域和社会雇主对新一代研究生的日益增长的需求。我们的研究生能够在理论、方法和实践上批判性地处理大数据。与许多专注于大数据的学位（如数据科学或数据分析）相比，我们的重点完全是数据实践和计算工具。通过一系列数据理论方法巩固了关键的实践技能，无论学生的学科背景如何，我们的课程都将使学生能够理解并在一个由数据、网络和计算转变的社会中行动，并发展一系列跨学科能力。我们为学生提供：数据驱动职业的统计建模和编程核心知识；对大数据技术与社会关系的广泛理解；这些技术在跨数据谱的前沿方法中的实际和关键应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "定量研究方法基础 (Fundamentals in Quantitative Research Methods)\n先进的定量研究 (Advanced Quantitative Research)\n大数据研究：炒作还是革命 (Big Data Research: Hype or Revolution)\n论文 (Dissertation)\n机器学习的跨学科方法 (Interdisciplinary Approaches to Machine Learning)\n用户界面文化：设计，方法和批评 (User Interface Cultures: Design, Method and Critique)\n可视化 (Visualisation)\n数字城市 (Digital Cities)\n数字社会学 (Digital Sociology)\n社会科学的复杂性 (Complexity in the Social Sciences)\n城市弹性，灾难和数据 (Urban Resilience, Disasters and Data)",
+  "success_cases": ""
+}

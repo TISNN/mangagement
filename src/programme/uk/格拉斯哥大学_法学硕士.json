@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "法学硕士",
+  "ename": "LLM",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 28500英镑/年",
+  "requirements": "具有2:1荣誉学位或非英国同等学历，需要法律背景学校也可以考虑英国2:1荣誉学位，或其国际同等学历，需要国际关系，政治学，或相关的社会科学或人文学科领域背景虽然学校欢迎来自非法律背景的申请者，但重要的是要注意，这个法学硕士仍然是一个以法律为重点的学位",
+  "objectives": "格拉斯哥大学法学硕士项目允许学生从法学院提供的各种硕士课程中进行选择。学生有机会选择适合自己学术需要的学习计划，并可用于未来就业或学术专业化。如果一般对法律感兴趣，但尚未确定特定的专业领域，本课程将提供一些灵活性和选择。学生可以从提供的全部课程中构建自己的法律研究课程。学生将受益于卓越的设施，包括专门的法学院图书馆；主要的大学图书馆还收藏了大量的法律资料和官方出版物，是一个欧洲文献中心。此外，学校开设各种实务模拟项目及模拟法庭，学生可以参加国内及国际比赛，往届成绩斐然。学生还可以积极参加学校举办的学术讲座，与优秀法官及律师展开学术交流。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司与金融法 (Corporate & Financial Law)\n知识产权与数字经济 (Intellectual Property & the Digital Economy)\n国际商法 (International Commercial Law )\n国际竞争法与政策 (International Competition Law & Policy )\n国际经济法 (International Economic Law)\n国际法 (International Law )\n国际法与安全 (International Law & Security )",
+  "success_cases": ""
+}

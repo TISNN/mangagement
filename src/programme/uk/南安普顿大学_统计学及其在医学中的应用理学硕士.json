@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "统计学及其在医学中的应用理学硕士",
+  "ename": "MSc Statistics with Applications in Medicine",
+  "tags": "理科,数学,数学科学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 25400英镑/年",
+  "requirements": "具有的2:1学位（数学含量高），必须在数学和统计学课程中取得高分\n学校也会考虑其他资格，例如：英国皇家统计学会提供的专业发展课程，统计学专业培训课程，与统计学研讨会相关的短期课程或辅导课\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学医学应用统计理学硕士项目旨在为学生提供统计方法论的严谨训练，侧重解决在收集和分析医疗数据时出现的实际问题。学生可以培养关键的可转移技能，如书面和口头交流、统计软件的使用和编程、时间管理和基础研究技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计理论和线性模型 (Statistical Theory and Linear Models)\n统计项目 (Statistics Project)\n统计计算 (Statistical Computing)\n生存分析 (Survival Analysis)\n试验设计 (Design of Experiments)\n流行病学方法 (Epidemiological Methods)\n临床试验 (Clinical Trials)\n线性代数 (Generalised Linear Models)\n研究沟通技巧 (Research Communication Skills)\n统计研讨会系列一 (Statistical Seminar Series I)\n统计研讨会系列二 (Statistical Seminar Series II)\n分层（多级和纵向）数据分析 (Analysis of Hierarchical (Multilevel & Longitudinal) Data)\n统计学专题 (Topics in Statistics)\n统计遗传学 (Statistical Genetics)\n计算机密集型统计法 (Computer Intensive Statistical Methods)",
+  "success_cases": ""
+}

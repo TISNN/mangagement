@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "医学物理与工程理学硕士",
+  "ename": "MSc Physics and Engineering in Medicine",
+  "tags": "工科,生物工程,工程科学学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要物理学、工程学、计算机科学、数学或其他密切相关学科背景，职场知识和专业技能也被考虑在内，作为申请过程的一部分，低于2:1学位的申请者可能会被邀请与课程导师进行简短的在线面试，需要ATAS认证",
+  "objectives": "伦敦大学学院医学物理与工程理学硕士项目是为对现代医学中应用技术的工程方面感兴趣的学生设计的。通过讲座、问题解决会议、研究项目和协作工作，学生可以了解生物医学工程的原理和在医院、工业和研究实验室中使用的实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "辐射物理学 (Radiation Physics)\n生物医学工程和医学影像 (Biomedical Engineering and Medical Imaging)\n医学影像计算 (Medical Image Computing)\n生物医学超声 (Biomedical Ultrasound)\n临床实践 (Clinical Practice)\n医疗器械企业场景 (Medical Device Enterprise Scenario)\n电离辐射的医学成像 (Medical Imaging with Ionising Radiation)\nMRI与生物医学光学 (MRI and Biomedical Optics)\n研究项目 (MSc Research Project)",
+  "success_cases": ""
+}

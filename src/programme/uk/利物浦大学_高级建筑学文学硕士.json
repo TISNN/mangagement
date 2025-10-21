@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "高级建筑学文学硕士",
+  "ename": "MA Advanced Architecture",
+  "tags": "社科,建筑,文学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 26600英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要建筑学（或密切相关的学科，例如景观建筑、室内/艺术设计、土木/结构工程或城市设计）背景",
+  "objectives": "利物浦大学高级建筑学文学硕士（以前为建筑学文学硕士）项目旨在为应届毕业生或经验丰富的建筑师提供建筑设计方面的专业技能和知识，这一高度灵活的课程为建筑设计过程和研究方法提供了基础，并提供多种专业选择，学生可以专注于提高设计和技术技能，或者追求研究或设计研究路径，为未来的博士研究做准备。利物浦大学高级建筑学文学硕士项目提供的一系列专业课程使学生能够根据自己的兴趣和经验进行个性化学习，从计算设计的的应用、人工智能、数字制造、机器人、VR/AR，到可持续设计、建筑信息模型、环境评估、数字遗产或以上内容的组合。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "1900年至今的建筑理论 (Architectural Theories from 1900 to the Present)\n研究方法学 (Research Methodology)\n建筑信息建模的理论、实践与工具 (BIM Theory, Practice and Tools)\n可持续建筑的气候设计 (Climatic Design for Sustainable Architecture)\n计算设计理论与实践 (Computational Design Theory and Practice)\n环境评价方法 (Environmental Assessment Techniques)\n遗产管理：途径与方法 (Heritage Management: Approaches and Methods)\n遗产视角与政策 (Heritage Perspectives and Policies)\n文学硕士设计项目 1 (MA Design 1)\n净零碳设计 (Net Zero Carbon Design)\n城市设计 (Urban Design)\n建筑虚拟环境 (Virtual Environments for Architecture)\n建筑理论与批评“由内而外”：一个分析工具 (Architectural Theory & Critique \"Outside-In\": An Analytic Tool)\n协同环境中的建筑信息建模实施 (BIM Implementation in Collaborative Environments)\n为不断变化的气候而设计 (Designing for a Changing Climate)\n数字化转型与建设4.0 (Digital Transformation and Construction 4.0)\n遗产文档、数字化与展示 (Heritage Documentation, Digitisation and Presentation)\n建筑信息建模的互操作性与设计协调 (Interoperability and Design Coordination with BIM)\n文学硕士设计项目 2 (MA Design 2)\n参数化设计与数字化制造 2 (Parametric Design and Digital Fabrication 2)\n可持续环境设计 (Sustainable Environmental Design)\n论文：学位论文 (Thesis: Dissertation)\n论文：设计研究 (Thesis: Research by Design)\n论文：设计 (Thesis: Design)",
+  "success_cases": ""
+}

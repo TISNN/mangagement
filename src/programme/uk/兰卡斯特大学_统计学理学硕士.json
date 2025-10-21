@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "统计学理学硕士",
+  "ename": "MSc Statistics",
+  "tags": "理科,数学,数学与统计学院",
+  "introduction": "专业方向: 数学\n入学时间: 10月\n项目时长: 1年\n项目学费: 30310英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要数学或统计学背景\n学校也可能考虑已经学习过其他定量学科学位（包括概率、统计、线性代数和微积分课程）或具有2:2荣誉学位或同等学历以及丰富相关经验的非标准申请者\n申请者应该清楚地展示其技能是如何为研究生学习期间的相关讨论和评估做好准备的",
+  "objectives": "兰卡斯特大学统计学理学硕士项目受皇家统计学院认证，结合理论学习与实践运用，旨在培养学生的高级统计学知识与技能，以及知识运用能力，帮助学生积累宝贵的实践经验，拓宽学生就业前景，推动职业生涯发展。项目培养学生的数据分析与操作能力、逻辑思维能力、解决问题能力、定量推论能力、并帮助学生掌握学科高级知识，因此毕业生有很强的工作能力，专业知识扎实，技能丰富。统计学在所有的商业与企业部门都扮演十分重要的角色，教育、金融、法院、卫生、市场研究与交通等行业都需要统计人才。除了技术模块，学生还将学习一个模块，以提高编程和通信方面的关键可转移技能。编程和自信地使用统计软件使学生能够分析大型和复杂的数据集，而沟通是所有统计员的基本技能，他们必须能够与项目团队成员、利益相关者和最终用户进行对话。学生将在数学和统计系工作，在那里学生可以使用专业软件和设备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "贝叶斯推理 (Bayesian Inference)\n实践中的统计 (Statistics in Practice)\n似然推断 (Likelihood Inference)\n广义线性模型 (Generalised Linear Models)\n计算密集型方法II (Computational Intensive Methods II)\n硕士学位论文 (Masters Dissertation)\n极值理论 (Extreme Value Theory)\n临床试验 (Clinical Trials)\n流行病学原理 (Principles of Epidemiology)\n纵向数据分析 (Longitudinal Data Analysis)\n生存和事件史分析 (Survival and Event History Analysis)\n环境流行病学 (Environmental Epidemiology)",
+  "success_cases": ""
+}

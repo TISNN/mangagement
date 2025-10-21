@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 42500英镑/年",
+  "requirements": "具有一等或2:1学位，需要定量学科背景，例如数学、统计学、计算机科学、工程学、物理学、数量经济学学位\n定量经验通常应该包括高级微积分、概率、统计和线性代数等主题\n需要完成在线数学测试以确定申请者是否适合申请该课程\n编程语言（SQL, R, Python）的使用经验或申请者对编码、编程的兴趣将有助于申请\n不要求GMAT，但均衡的GMAT成绩将有助于申请，GMAT百分位排名至少需要达到55%，如果参加了GMAT Exam (10th Edition)成绩需要至少达到600（当前平均分为666）\n具备GRE成绩（定量部分159分）也将有助于申请，强烈建议定量背景较弱的申请者提交GMAT或GRE\n工作经验不是必需的，通常要求申请者具备不超过3年的工作经验，超过3年将根据具体情况予以考虑\n需要有一个经过充分研究的职业规划，包含明确的短期和长期目标",
+  "objectives": "帝国理工学院商业分析理学硕士项目将帮助学生理解困扰企业的大数据问题，探究其背景脉络、重要性、相关性以及应对策略。\n通过帝国理工学院商业分析理学硕士项目的学习，应届毕业生和在职往届毕业生可以掌握企业所面临的大数据问题的背景、重要性和相关性，并且能够运用统计学、运筹学、机器学习技术解决相应问题。\n帝国理工学院商业分析理学硕士项目融合了学术严谨性与现实针对性，有着一流的师资力量和在前沿领域研究的从业人员，学生可以在专业人士的指导下学习如何运用最新的学术思想、分析工具、计算工具制定商业决策。帝国理工学院商业分析理学硕士项目注重课堂教学、实践课程、数据分析培训、商业智能工具以及外界专家主持的定期研讨会之间的协调发展。\n帝国理工学院在数据研究和分析领域位居世界领先地位，帝国理工学院商学院也是毕马威会计事务所高级商业分析中心的基地。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业分析 (Analytics in Business)\n数据结构与算法 (Data Structures and Algorithms)\n数据库技术基础 (Fundamentals of Database Technologies)\n机器学习 (Machine Learning)\n数理统计分析基础 (Maths and Statistics Foundations for Analysis)\n网络分析 (Network Analytics)\n优化和决策模型 (Optimisation and Decision Models)\n统计与计量经济学 (Statistics and Econometrics)\n可视化 (Visualisation)\n高级机器学习 (Advanced Machine Learning)\n金融大数据 (Big Data in Finance)\n数据管理与道德 (Data Management and Ethics)\n数字营销分析 (Digital Marketing Analytics)\n医疗保健和医学分析 (Healthcare and Medical Analytics)\n物流与供应链分析 (Logistics and Supply-Chain Analytics)",
+  "success_cases": ""
+}

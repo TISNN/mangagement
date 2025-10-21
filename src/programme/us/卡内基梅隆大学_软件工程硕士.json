@@ -1,0 +1,12 @@
+{
+  "school_name": "卡内基梅隆大学",
+  "major_name": "软件工程硕士",
+  "ename": "MS in Software Engineering(Silicon Valley）",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n入学时间: 春季/秋季\n项目时长: 97 units\n项目学费: 50320美元/年",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

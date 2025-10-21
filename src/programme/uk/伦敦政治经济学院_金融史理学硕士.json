@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦政治经济学院",
+  "major_name": "金融史理学硕士",
+  "ename": "MSc Financial History",
+  "tags": "社科,历史,经济史系",
+  "introduction": "专业方向: 历史\n入学时间: 9月\n项目时长: 1年\n项目学费: 30900英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要社会科学背景",
+  "objectives": "伦敦政治经济学院金融史理学硕士为学生提供了关于全球货币和金融体系以及资本市场面临的主要挑战的历史和跨学科视角。该项目将使来自不同学术背景（历史、金融、经济学或任何相关学科）的学生通过历史方法深入了解资本市场的运作和货币事务的行为。它将通过对金融历史的研究，训练学生批判性地和深入地思考货币和金融问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球金融史 (History of Global Finance)\n金融市场历史 (History of Financial Markets)\n银行系统历史 (History of Banking Systems)\n经济史定量分析 I (Quantitative Analysis in Economic History I)\n经济史定量分析 II (Quantitative Analysis in Economic History II)\n经济史定量分析专题 (Topics in Quantitative Analysis in Economic History)\n国际金融 (International Finance)\n金融市场 (Financial Markets)\n管理金融 (Managerial Finance)\n全球金融体系 (Global Financial Systems)\n论文 (Dissertation)",
+  "success_cases": ""
+}

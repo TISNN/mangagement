@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "机器人与人工智能理学硕士",
+  "ename": "MSc Robotics and Artificial Intelligence",
+  "tags": "工科,计算机,工程与材料科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要任何工程、计算机科学或应用数学相关学科背景\n理科专业毕业生若修完多个编程课程且这些课程的成绩超过 50%，也会被考虑",
+  "objectives": "伦敦大学玛丽皇后学院机器人与人工智能理学硕士项目研究机器人技术领域的革命性发展，机器人技术是世界上发展最快的产业之一。伦敦大学玛丽皇后学院机器人与人工智能理学硕士与 ARQ 密切相关，后者专门研究控制和动力、人机交互、感知、设计和机电一体化、无人机以及人工智能和认知。 毕业后，您将能够开发、分析、编程、集成和部署复杂的工程系统，例如工业机械手、自主移动机器人和车辆、用于手术和援助的生物医学系统、用于极端环境的机器人、可穿戴设备和虚拟现实技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "机器人学 (Robotics)\n扩展研究项目 (Extended Research Project)\n高级机器人系统(机器人I) (Advanced Robotics Systems (Robotics I))\n认知机器人 (Cognitive Robotics)\n计算工程 (Computational Engineering)\n电子传感 (Electronic Sensing)\n机器学习 (Machine Learning)\n计算机视觉概论 (Introduction to Computer Vision)\n人工智能 (Artificial Intelligence)\n物联网概论 (Introduction to IOT)\n医用机器人与外科技术 (Medical Robotics and Surgical Techniques)",
+  "success_cases": ""
+}

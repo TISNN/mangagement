@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "生态调查技能理学硕士（含实习）",
+  "ename": "MSc Ecological Survey Skills with Placement",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 25850英镑/年",
+  "requirements": "具有2:1或以上荣誉学位，需要生物科学、地理科学、农业科学或环境科学等相关背景，但每个申请将被单独考虑",
+  "objectives": "本课程为学生提供从事生态咨询和保护工作的技能和知识。学生将学会识别不同物种的关键特征，以及如何将这些信息应用于生态学领域。无论在实验室还是在野外工作，学生都将学会识别植物、脊椎动物和无脊椎动物的特征。学生将学习收集样本，识别不同的物种，并确定它们出现的频率。学生还将学习如何在实地对样本进行准确的调查和评估。最重要的是，课程专门为学生提供生态咨询师所需要的技能，这是一门使学生在该领域脱颖而出的课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "植被调查及评估 (Vegetation survey and assessment)\n无脊椎动物调查与评估 (Invertebrate survey and assessment)\n脊椎动物调查与管理 (Vertebrate survey and management)\n专业技能 (Professional skills)\n实地考察旅行 (Field trips)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "高级化学工程理学硕士",
+  "ename": "MSc Advanced Chemical Engineering",
+  "tags": "工科,化工,能源与动力",
+  "introduction": "专业方向: 化工\n入学时间: 10月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "具有相关工程或应用科学背景",
+  "objectives": "克兰菲尔德大学高级化学工程理学硕士课程适合所有工程学和应用科学毕业生，它将使学生具备应对21世纪全球化学工程挑战的技能。通过化学品、功能化产品和燃料的生产，学生将对清洁能源、食品和水的可持续供应有深入的了解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "能源高级反应动力学 (Advanced Reaction Kinetics for Energy)\n分离净化设计 (Separation and Purification Design)\n可持续发展与环境评估 (Sustainability and Environmental Assessment)\n热力系统的运行与设计 (Thermal Systems Operation and Design)\n工艺设计与仿真 (Process Design and Simulation)\n试验工厂运作 (Pilot Plant Operations)\n技术管理 (Management for Technology)\n工业过程计算流体动力学 (Computational Fluid Dynamics for Industrial Processes)",
+  "success_cases": ""
+}

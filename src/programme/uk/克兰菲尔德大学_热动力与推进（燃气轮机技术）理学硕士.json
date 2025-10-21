@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "热动力与推进（燃气轮机技术）理学硕士",
+  "ename": "MSc Thermal Power and Propulsion (Gas Turbine Technology)",
+  "tags": "工科,机械工程,航空航天",
+  "introduction": "专业方向: 机械工程\n入学时间: 3/10月\n项目时长: 1年\n项目学费: 24725英镑/年",
+  "requirements": "具有工程、数学、物理或应用科学方面背景",
+  "objectives": "英国在动力和推进技术方面继续领先世界。除了已确立的航空航天作用外，燃气轮机在发电、石油和天然气泵送、化学处理和船舶和其他大型车辆的电厂方面的应用也越来越多。克兰菲尔德大学热动力与推进（燃气轮机技术）理学硕士课程为所有类型的燃气轮机的设计和运行提供了全面的背景知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "燃烧室 (Combustors)\n引擎系统 (Engine Systems)\n涡轮机械机械设计 (Mechanical Design of Turbomachinery)\n技术管理 (Management for Technology)\n涡轮机械与叶片冷却 (Turbomachinery and Blade Cooling)\n燃气轮机性能模拟与诊断 (Gas Turbine Performance Simulation and Diagnostics)\n推进系统性能与集成 (Propulsion Systems Performance and Integration)\n疲劳与断裂 (Fatigue and Fracture)\n燃气轮机操作与旋转机 (Gas Turbine Operations and Rotating Machines)\n喷气发动机控制 (Jet Engine Control)\n燃气轮机计算流体动力学 (Computational Fluid Dynamics for Gas Turbines)",
+  "success_cases": ""
+}

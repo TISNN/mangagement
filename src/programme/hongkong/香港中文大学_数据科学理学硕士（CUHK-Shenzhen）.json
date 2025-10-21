@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "数据科学理学硕士（CUHK-Shenzhen）",
+  "ename": "MSc Data Science (CUHK-Shenzhen)",
+  "tags": "理科,数据科学,深圳校区",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 2年\n项目学费: 144000人民币/年",
+  "requirements": "不限专业背景，掌握扎实的数理及编程基础知识\n毕业于认可的大学或机构，需要提供B等级证明\n或完成高等教育课程的学习，具有相当于学士学位的资历",
+  "objectives": "随着社会的不断发展，对能够有效利用，处理，分析并深入剖析大数据的专业人才的需求正快速增长。因此，数据科学专业已在商业，自然科学，生命与医疗科学，以及其它科研领域受到广泛的。本硕士课程项目旨在融合数据科学的基本理论、数据采集与管理、数据分析及高可扩展性的知识发现等专业知识和技能，为学生在大数据科学及其分析领域打下扎实基础。\n数据科学理学硕士项目学制2年，毕业生将习得最尖端的大数据处理技术，并接触到支撑大数据技术的前沿理论与方法。 此外，学生将在毕业前参与一个实际研究课题项目来展示他们在商业、政府、安全、医疗、生物、自然科学、环境等领域中能够熟练运用数据科学的基本概念来设计创新的方法及应用。\n数据科学理学硕士项目由香港中文大学（深圳）数据科学学院与经管学院共同开设，并与深圳市大数据研究院和深圳高等金融研究院合作，来自两所学院及研究院的优秀师资也将共同担任项目授课教师。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "大数据建模与管理 (Big Data Modeling and Management)\n数据挖掘 (Data Mining)\n数据库原理与发展 (Database Principles and Development)\n金融科技理论与实践 (Fintech Theory and Practice)\n机器学习 (Machine Learning)\n优化和建模 (Optimization and Modeling)\n网站分析 (Web Analytics)\n统计理论 (Theory of Statistics)\nPython编程 (Python Programing)\n数据库原理与开发 (Database Principles and Development)\n高级时间序列分析 (Advanced Time Series Analysis)\n医学影像中的人工智能 (Artificial Intelligence in Medical Imaging)\n自然语言处理 (Natural Language Processing)\n图像处理和计算机视觉 (Image Processing and Computer Vision)\n应用回归分析 (Applied Regression Analysis)",
+  "success_cases": ""
+}

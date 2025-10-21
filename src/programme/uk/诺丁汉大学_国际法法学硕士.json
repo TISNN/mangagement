@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "国际法法学硕士",
+  "ename": "LLM International Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 22600英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要法律、人文或社会科学背景",
+  "objectives": "诺丁汉大学国际法法学硕士课程允许学生从涉及国际商法、欧洲法、刑事司法、人权法和一般国际公法的广泛模块中进行选择。这意味着学生可以根据自己的兴趣和职业目标定制自己的法学硕士学位，并获得广泛的资格，探索国际公法和国际私法。诺丁汉大学国际法法学硕士课程旨在培养一名全面的国际律师，使其更加了解将其知识应用于未来实践领域的可能性。课程将由各个领域的专家教授，其中许多人对国家和国际层面的决策做出了贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "未经审查的国际法史 (An Uncensored History of International Law)\n全球竞争法与国际商务 (Global Competition Law and International Business)\n生物多样性与国际法 (Biodiversity and International Law)\n商业和人权 (Business and Human Rights)\n商业法律冲突 (Commercial Conflict of Laws)\n欧洲人权公约 (The European Convention on Human Rights )\n国际环境法的一般主题和原则 (General Themes and Principles of International Environmental Law)\n公司法和破产的国际方面 (International Aspects of Corporate Law and Insolvency)\n国际商事仲裁 (International Commercial Arbitration)\n国际消费者保护 (International Consumer Protection)\n国际刑事证据 (International Criminal Evidence)",
+  "success_cases": ""
+}

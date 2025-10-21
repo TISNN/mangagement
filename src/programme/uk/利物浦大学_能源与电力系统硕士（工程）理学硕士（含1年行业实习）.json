@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "能源与电力系统硕士（工程）理学硕士（含1年行业实习）",
+  "ename": "MSc(Eng) Energy and Power Systems with a Year in Industry",
+  "tags": "工科,电气电子,电气工程、电子与计算机科学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 2年\n项目学费: 17300英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科背景，如电气工程和电子学",
+  "objectives": "利物浦大学能源与电力系统硕士（工程）理学硕士（含1年行业实习）项目教授学生发电、电力传输、电力分配、电网等知识，让学生熟练掌握运行原理、现代电力系统监测、优化和控制原理。为期两年的利物浦大学能源与电力系统硕士（工程）理学硕士（含1年行业实习）项目授课内容与能源与电力系统工学硕士项目大致相同，但利物浦大学能源与电力系统硕士（工程）理学硕士（含1年行业实习）项目的学生在第二年需要完成项目和实习（英国或其他国家），实习通常安排在九月至六月，持续大约三十周。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "测量、监视和传感 (Measurement、Monitoring & Sensors)\n研究技巧和项目管理 (Research Skills and Project Management)\n驱动器 (Drives)\n软件工程与编程 (Software Engineering and Programming)\n能源转换、可再生能源和智能电网 (Energy Conversion、Renewable Energy & Smart Grid)\n发电、传输与分配 (Power Generation、Transmission & Distribution)\n高电压工程 (High Voltage Engineering)\n等离子体系统工程 (Plasma System Engineering)\n高级嵌入系统 (Advanced Embedded Systems)\n数字系统设计 (Digital System Design)\n高级系统建模和控制 (Advanced Systems Modelling and Control)\n图像处理 (Image Processing)\n沟通网络与安全 (Commmunications Networks & Security)\n电磁兼容性 (Electromagnetic Compatibility)\n项目 (MSc Project)",
+  "success_cases": ""
+}

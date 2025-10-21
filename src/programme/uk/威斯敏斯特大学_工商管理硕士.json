@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯敏斯特大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,威斯敏斯特商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 19500英镑/年",
+  "requirements": "具有2:2荣誉学位，不限专业背景，不要求工作经验但欢迎具备工作经验的申请者。成功的学生将在他们的个人陈述中展示出在大型企业组织、中小型企业（SMEs）或自己的初创企业中担任管理职位的雄心和能力。学校可能当面或在线面试申请人",
+  "objectives": "威斯敏斯特大学工商管理硕士项目是为有抱负的商务专业人士以及任何学科的应届毕业生设计的，他们不想等到拥有丰富的工作经验后才迈出管理职业生涯的第一步。威斯敏斯特大学工商管理硕士课程的目标是帮助学生成为有抱负的领导者和企业家，为任何类型的组织创造价值。威斯敏斯特大学工商管理硕士课程将通过跨学科的能力建设主题模块，向学生介绍最新的业务方法和技术，以更准确地反映公司和企业环境，涵盖从创新和设计思想到当代挑战，可持续性，管理复杂性，数据分析和财务的所有内容。然后，学生将学习应用到基于实践的业务问题和实际业务项目中，并以此获得受欢迎的软技能，例如创造力，批判性思维，个人敏捷性，适应性和应变能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "企业诊断 (Business Diagnosis)\n设计价值 (Designing Value)\n数字能力 (Digital Capabilities)\n创业思维 (Entrepreneurial Mindset)\n弹性组织与团队 (Resilient Organisations and Teams)\n可持续全球增长 (Sustainable Global Growth)\n数字世界中的战略创新 (Strategic Innovation in a Digital World)\n国际研究顾问咨询 (International Study Consultancy)\n管理实践-实习或项目 (Management in Action – Internship or Project)",
+  "success_cases": ""
+}

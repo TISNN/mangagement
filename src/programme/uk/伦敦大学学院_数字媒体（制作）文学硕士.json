@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "数字媒体（制作）文学硕士",
+  "ename": "MA Digital Media (Production)",
+  "tags": "工科,其他工科,教育学院",
+  "introduction": "专业方向: 其他工科\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有英国大学颁发的2:1学位或同等学历，需要媒体或设计专业背景（如媒体研究、数字设计、数字媒体艺术、互动/数字媒体、游戏设计），学校可能会考虑具有相关学科2:2学位并在媒体、交互设计或文化产业领域具备至少2年工作经验以及相关设计作品集的申请者，非相关学科的申请者将不予考虑\n鼓励申请者在个人陈述中添加他们所做的相关项目的在线作品集的链接（表明他们在每个项目中负责的内容），包括游戏、动画、互动声音、艺术和设计项目、创意和研究著作等作品\n该项目竞争激烈，优先考虑提交上述先前作品示例的申请者",
+  "objectives": "学生将学习历史和理论的数字生产在媒体艺术。他们将在伦敦大学学院(UCL)知识实验室(Knowledge Lab)的新未来媒体工作室(new Future Media Studio)以数字动画和数字游戏的设计经验为基础，遵循这一理念。该学位旨在为学生提供快速变化的数字景观的理论和实践参与。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字媒体理论 (Digital Media Theory)\n数字媒体咨询 (Digital Media Enquiry)\n数字游戏设计 (Digital Game Design)\n三维动画制作 (3D Animation Production)",
+  "success_cases": ""
+}

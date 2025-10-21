@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "分子医学理学硕士",
+  "ename": "MSc Molecular Medicine",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29030英镑/年",
+  "requirements": "具有2:1本科荣誉学位，包含人类或动物生物学的大量元素",
+  "objectives": "谢菲尔德大学分子医学理学硕士课程让学士有机会从最感兴趣的途径中选择专业模块。学生将进行为期五个月的研究项目，这将为他们提供宝贵的实验室经验。毕业生继续攻读博士学位或在相关行业工作。这门灵活的课程专为动物/人类生物学和临床专业毕业生设计，侧重于人类疾病的分子和遗传因素。了解这些因素对于治疗的发展至关重要。学生将了解生物医学科学和治疗设计方面的最新技术和科学进展，并学习如何使用最新技术为自己解决研究问题。核心模块涵盖了基础知识。学生将从您最感兴趣的途径中选择专业模块。学生还将接受实践实验室培训，为自己的研究项目做好准备。该项目是五个月宝贵的实验室经验：规划、执行、记录和报告个人的研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "遗传机制方向 (Genetic Mechanisms pathway)\n微生物与感染方向 (Microbes and Infection pathway)\n实验医学方向 (Experimental Medical pathway)\n肿瘤方向 (Cancer pathway)\n心血管方向 (Cardiovascular pathway)\n临床应用方向 (Clinical applications pathway)",
+  "success_cases": ""
+}

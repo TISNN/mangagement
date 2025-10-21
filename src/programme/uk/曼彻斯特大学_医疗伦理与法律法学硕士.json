@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "医疗伦理与法律法学硕士",
+  "ename": "LLM Healthcare Ethics and Law",
+  "tags": "社科,法律,社会科学学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 29500英镑/年",
+  "requirements": "具有英国学士学位或同等学历，达到一等或2:1学位，需要法律背景，申请者应在与申请专业相关的法律课程（包括公法和合同法）中表现出强大的背景，并在相关课程中取得2:1或以上的成绩\n在评估申请者的学习成绩时，学校会考虑学生已取得的成绩和所就读院校的地位",
+  "objectives": "曼切斯特大学医疗伦理和法律法学硕士课程提供有关医疗伦理和法律的高质量教育。着重将生物伦理学和法律理论应用于现实世界，以适应医疗保健和法律专业人士以及相关领域的实际需要。\n学生将学习各种道德和法律主题，包括：医学治疗的自主、同意及拒绝权、治疗保密、胎儿的道德地位、资源分配、基因检测、艾滋病毒检测、医疗事故、临床过失、器官和组织移植、生育治疗、基因操纵、研究伦理学、干细胞研究以及安乐死。\n曼切斯特大学医疗伦理和法律法学硕士课程要求同时研究伦理学和法律，但是在课程中偏向法律。在远程学习课程中，采取的所有选择都必须基于法律。在基于校园的课程中，大多数选择应基于法律。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "哲学生物伦理学 (Philosophical Bioethics)\n法定法律问题 (Medico-Legal Problems)\n心理健康法律与政策 (Mental Health Law and Policy)\n伦理与遗传学和基因组学 (Ethics & Genetics and Genomics)\n全球卫生法与生物伦理 (Global Health Law and Bioethics)\n研究伦理 (Research Ethics)\n医学，法律与社会 (Medicine, Law and Society)\n儿童，医学与法律 (Children, Medicine and the Law)",
+  "success_cases": ""
+}

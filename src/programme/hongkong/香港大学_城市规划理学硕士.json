@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "城市规划理学硕士",
+  "ename": "MSc Urban Planning",
+  "tags": "社科,建筑,建筑学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 2年\n项目学费: 198000港币/年",
+  "requirements": "具有学士学位或同等学历",
+  "objectives": "香港大学城市规划学硕士项目是一个为期两年的全日制国际课程，旨在为学生提供城市和区域规划领域理论、方法和实践的综合化专业培训，使学生有能力在公共和私营部门的城市规划和相关领域寻求就业。该课程包括讲座课程和工作室的核心内容，重点是动态、高密度城市环境中的空间规划。学生还需要通过选修课程和完成与专业相关的论文，研究与城市规划有关的一个子领域发展专业，如交通、住房、环境、保护、城市设计、国际规划等。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计和定量分析方法基础课程 (Foundation course on statistics and quantitative methods)\n城市发展理论 (Urban development theories)\n香港地区规划实践、法律和伦理道德 (Planning practice, law and ethics in Hong Kong )\n空间规划研究方法 (Research Methods in Spatial Planning )\n城市规划价值观 (Values in planning)\n开发过程中的规划、管理和融资 (Planning, managing and financing the development process )\n规划可持续城市和地区 (Planning sustainable cities and regions)\n城市设计与地方营造 (Urban design and place making )\n公共交通系统 (Public transport systems)\n中国城市设计 (The design of Chinese cities)\n中国城市规划与实践 (Urban planning and practice in China)\n当代城市化 (Contemporary urbanism)\n住房经济学 (Housing economics)\n国际住房政策与实践 (International housing policies and practices )\n住房、城市规划与可持续性 (Housing, planning and sustainability)",
+  "success_cases": ""
+}

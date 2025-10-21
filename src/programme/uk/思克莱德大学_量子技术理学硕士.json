@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "量子技术理学硕士",
+  "ename": "MSc Quantum Technologies",
+  "tags": "理科,物理,物理学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 28700英镑/年",
+  "requirements": "具有至少二等（2:2）荣誉学位，需要物理学（包括数学和物理学、理论物理学）背景，来自工程学科、计算机科学或工程物理学背景也可以申请，必须对量子力学课程有足够的了解",
+  "objectives": "思克莱德大学量子技术理学硕士旨在培养量子物理学基础及其在量子技术中的应用的理论和实践技能，学生将在本系广泛的量子技术研究组合中您感兴趣的主题中，将这些知识用于前沿的实验、理论或计算研究项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "物理技能 (Physics Skills)\n量子物理学专题 (Topics in Quantum Physics)\n光子学主题：激光和非线性光学 (Topics in Photonics: Laser & Nonlinear Optics)\n量子物理高级主题 - 量子技术 (Advanced Topics in Quantum Physics – Quantum Technologies)\n量子光学高级主题 (Advanced Topics in Quantum Optics)\n高级纳米科学 1：成像与显微镜 (Advanced Nanoscience 1: Imaging & Microscopy)\n实验实验室 (Experimental Laboratories)\n原子、分子和核物理专题 (Topics in Atomic, Molecular and Nuclear Physics)\n项目 (Project)",
+  "success_cases": ""
+}

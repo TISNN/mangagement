@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "牙科公共卫生硕士",
+  "ename": "Master in Dental Public Health",
+  "tags": "社科,公共卫生,临床牙科学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要健康相关学科背景",
+  "objectives": "在谢菲尔德大学牙科公共卫生硕士课程中，学生将能够将自己的理解应用于医疗服务提供、规划和管理方面的挑战，将学习如何批判性地分析问题并找到保护和促进口腔健康的实用解决方案。毕业后，学生还可以了解和开展卫生服务研究，并将主要研究结果应用于牙科公共卫生实践。谢菲尔德大学牙科公共卫生硕士课程经常培养未来的研究人员，许多学生正在攻读博士学位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公共卫生导论 (Introduction to Public Health)\n牙科公共卫生：基础与理论 (Dental Public Health: Foundation and Theory)\n健康促进 (Health Promotion)\n牙科公共卫生：应用和批评 (Dental Public Health: Application and Critique)\n临床牙科研究方法 (Research Methods in Clinical Dentistry)\n健康与疾病社会学 (Sociology of Health and Illness)\n统计学概论 (Introduction to Statistics)\n健康与社会正义 (Health and Social Justice)\n论文 (Dissertation)",
+  "success_cases": ""
+}

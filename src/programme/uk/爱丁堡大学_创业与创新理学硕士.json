@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "创业与创新理学硕士",
+  "ename": "MSc Entrepreneurship and Innovation",
+  "tags": "商科,创业与创新,商学院",
+  "introduction": "专业方向: 创业与创新\n入学时间: 9月\n项目时长: 1年\n项目学费: 25800英镑/年",
+  "requirements": "具有英国一等或2:1荣誉学位或同等学历，不限专业背景\n相关的工作经验不是必需的但可能有助于申请",
+  "objectives": "爱丁堡大学创业与创新理学硕士学位课程明确着重培养学生的实践能力，为学生提供将知识运用到现实企业状况和问题的机会，以弥补研究型和理论型教育的不足。\n学习爱丁堡大学创业与创新理学硕士学位课程，学生将：\n批判性地理解支撑创业与创新的理论、进程及行为；\n批判性地理解企业是如何在不同背景下通过创业与创新实践创造价值的；\n有能力设计富有创意的战略以寻求和开拓新的机遇；\n能够理解新兴和成熟企业获取和管理金融资源相关的问题；\n亲身体验创业或在已有企业开辟新路径所面临的机遇与挑战；\n获得成为杰出企业家所需的知识和技能，能在各种不同领域和不同企业环境中引领、支持着创新活动。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "创业与创新图景 (The Entrepreneurship and Innovation Landscape)\n企业家会计概论 (Introduction to Accounting for Entrepreneurs)\n环境管理创新 (Managing Innovation in Context)\n创业与新风险投资 (Entrepreneurship and New Venture Creation in Context)\n商业研究方法 (Methods of Business Research)\n创业金融 (Entrepreneurial Finance)\n创新管理实践 (Innovation Management in Practice)\n风险管理与成长实践 (Venture Management and Growth in Practice)\n组织社会变革：战略、治理和创新 (Organising for Social Change: Strategy, Governance & Innovation)\n技术创业和商业化 (Technology Entrepreneurship and Commercialisation)\n设计思考 (Design Thinking)",
+  "success_cases": ""
+}

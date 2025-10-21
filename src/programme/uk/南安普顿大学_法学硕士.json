@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "法学硕士",
+  "ename": "LLM",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 24200英镑/年",
+  "requirements": "具有2:1学位，需要法律学士学位（LLB）或学士学位至少包含4门法律课程\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学法学硕士项目通过定制学位课程吸引学生的法律兴趣来解决最新的法律问题。可以选择的模块包括商业法、公司法、人权法。处于法律改革和发展最前沿的研究团队将会教授学生课程，获得知识和实践技能，从事广泛的法律和非法律职业。在这个灵活的法学硕士课程中，学生将从为期一周的普通法入门课程开始，了解这一重要法律体系的运作方式。在这里学生将培养法律技能，以应对实际情况中产生的复杂问题。学生将学习如何提供建议、诉讼和谈判。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学位论文 (Dissertation - LLM)\n国际海洋法 (International Law of the Sea)\n国际贸易法 (International Trade Law)\n海上保险 (Marine Insurance)\n海事法 (Admiralty Law)\n海上货物运输 (Carriage of Goods by Sea)\n商业冲突法与国际诉讼 (Commercial Conflict of Laws and International Litigation)\n国际商事仲裁 (International Commercial Arbitration)\n空运 (Carriage by Air)\n保险法 (Insurance Law)\n海洋环境法 (Law of the Marine Environment)\n担保交易原则 (Principles of Secured Transactions)\n公司治理——董事会的规范 (Corporate Governance - Regulating Boards of Directors)\n国际公法基础 (Fundamentals of Public International Law)\n版权和商标法的全球趋势 (Global Trends in Copyright and Trademark Laws)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "康奈尔大学",
+  "major_name": "数据科学与决策分析工程硕士（Tech）",
+  "ename": "MEng in Data Science & Decision Analytics (Tech)",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1年\n项目学费: 68,380美元",
+  "requirements": "先修课：线性代数课程、中级概率和统计课程、微积分课程和编程课程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

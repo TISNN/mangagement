@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "消防工程科学理学硕士",
+  "ename": "MSc Fire Engineering Science",
+  "tags": "工科,其他工科,工程学院",
+  "introduction": "专业方向: 其他工科\n入学时间: 9月\n项目时长: 1年\n项目学费: 37300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要机械工程、化学工程、土木工程、安全工程、建筑工程、建筑学、城市化、空间规划或应用物理学背景\n相关课程包括但不限于流体动力学、热力学、结构分析、工程/建筑设计项目和风险分析\n如果申请者具备其他资格或经验，或具备其他领域的背景，学校也可能考虑其申请（需要在申请前联系学校确认）",
+  "objectives": "爱丁堡大学消防工程科学理学硕士项目为期一年，将使学生深入了解火灾行为的基本物理过程及其在工程中的应用。新技术和气候变化越来越多地将新的和复杂的火灾危害引入以前被认为是低危害的环境中。爱丁堡大学消防工程科学理学硕士项目的毕业生将获得消防科学及其工程应用的知识来减少和控制这些危害。学生将学习火灾如何燃烧（火灾动力学）、监管机构如何控制火灾风险以及如何改变我们的环境以减轻火灾风险。学生将通过火灾实验室课程学习如何测量和研究火灾现象。最后，作为论文的一部分，学生将有机会通过将他们的新专业知识和理解应用于相关论文主题来为人类知识的总和做出贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "火灾科学与火灾动力学 (Fire Science and Fire Dynamics)\n消防安全工程 4 (Fire Safety Engineering 4)\n消防的结构设计 5 (Structural Design for Fire 5)\n消防实验室原理 (Principles of the fire laboratory)\n研究方法 (Research methods)\n热、质量和动量传递 (Heat, Mass, and Momentum Transfer )\n设计项目 (Design Project)\n消防科学 5 (Fire Science 5)\n火灾科学实验室 (Fire Science Laboratory)\n消防安全模型 (Models for Fire Safety)\n论文 (Dissertation)",
+  "success_cases": ""
+}

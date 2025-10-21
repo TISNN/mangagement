@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "护理科学硕士",
+  "ename": "Master of Nursing Science",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 3年\n项目学费: 153000港币/年",
+  "requirements": "需要提供B等级证明，不限专业背景，具备良好的中英文书写能力以及广东话和英语会话能力，符合香港护士管理局规定的基本入学要求",
+  "objectives": "香港中文大学护理科学硕士（注册前）课程旨在为拥有任何学科的学士学位的学生提供准备，以从事护理工作。该课程旨在为学生提供机会，从不同角度研究护理的艺术和科学，并培养他们在临床决策、批判性思维和解决问题方面的技能。成功完成香港中文大学护理科学硕士（注册前）课程后，毕业生可向香港护士管理局（NCHK）注册为注册护士（普通）。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "基础护理学 (Fundamentals of Nursing)\n解剖学 (Anatomy)\n生理学 (Physiology)\n护理发展及趋势 (Nursing Development and Trends)\n基础药剂学 (Fundamental Pharmacology)\n微生物学 (Microbiology)\n应用心理与护理 (Applied Psychology in Nursing)\n急性及慢性疾病护理 (Care of Clients with Acute and Chronic Illnesses)\n社会科学、健康与护理 (Sociology of Health and Nursing)\n护理伦理与法律 (Legal and Ethical Issues in Nursing )\n护理研究 (Nursing Research)\n儿童及青少年护理 (Paediatric and Adolescent Nursing)\n健康教育与促进 (Health Education and Health Promotion)\n护理统筹及医疗政策 (Nursing Management and Health Care Policies)\n临床实习 (Clinical Practice)",
+  "success_cases": ""
+}

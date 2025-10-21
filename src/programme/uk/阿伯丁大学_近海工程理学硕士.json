@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "近海工程理学硕士",
+  "ename": "MSc Offshore Engineering",
+  "tags": "工科,海洋技术,工程学院",
+  "introduction": "专业方向: 海洋技术\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要工程分支专业背景\n具有应用数学或物理学2:1学位的学生可能根据具体情况予以考虑\n学校也可能考虑具有工程学2:2荣誉学位并且能够证明具备3年以上相关行业经验的申请者",
+  "objectives": "阿伯丁大学近海工程理学硕士针对在职工程师和应届毕业生，旨在使学生具备在海上工程领域（包括石油，天然气和可再生能源）担任各种职务所需的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "海上结构与海底系统 (Offshore Structures and Subsea Systems)\n水下施工、检查和维护 (Subsea Construction, Inspection and Maintenance)\n可再生工程电气系统 (Electrical Systems for Renewable Engineering)\n水下控制 (Subsea Control)\n水下完整性 (Subsea Integrity)\n工程风险与可靠性分析 (Engineering Risk and Reliability Analysis)\n海洋能与风能 (Marine and Wind Energy)\n海洋环境影响评价 (Marine Environmental Impact Assessment)\n管道与土壤力学 (Pipelines and Soil Mechanics)\n可再生能源整合到电网 (Renewable Energy Integration to Grid)\n海上工程个人项目 (Individual Project In Offshore Engineering)",
+  "success_cases": ""
+}

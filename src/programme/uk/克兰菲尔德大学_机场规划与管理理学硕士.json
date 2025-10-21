@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "机场规划与管理理学硕士",
+  "ename": "MSc Airport Planning and Management",
+  "tags": "工科,交通运输,运输系统",
+  "introduction": "专业方向: 交通运输\n入学时间: 10月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "",
+  "objectives": "该课程是专为满足雇主对具备机场业务发展、规划、设计、运作及环境管理技能及资格的毕业生的明确要求而开设的独特课程。该专业特色是在英国唯一一所拥有全面运营机场的大学校园学习。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "航空运输业介绍 (Introduction to the Air Transport Industry)\n机场运作 (Airport Operations)\n机场金融及商务管理 (Airport Finance and Business Management)\n管制政策和航空法 (Regulatory Policy and Air Law)\n研究方法与统计 (Research Methods and Statistics)\n航空运输市场分析与预测 (Air Transport Market Analysis and Forecasting)\n航空战略规划 (Airport Strategic Planning)\n航空运输环境规划 (Air Transport Environmental Planning)\n机场设计 (Airport Design)\n小组项目 (Group Project)\n个人研究项目 (Individual Research Project)",
+  "success_cases": ""
+}

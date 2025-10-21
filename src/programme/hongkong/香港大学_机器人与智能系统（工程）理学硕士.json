@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "机器人与智能系统（工程）理学硕士",
+  "ename": "MSc(Eng) Robotics and Intelligent Systems",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 320000港币/年",
+  "requirements": "具有学士学位或同等学历，需要工程或相关领域背景，并对机器人学有浓厚兴趣",
+  "objectives": "香港大学机器人与智能系统（工程）理学硕士旨在为学生在机器人工程方面的职业生涯做好准备。该计划的内容包括机械设计，编程，以及建造，操作和应用机器人系统的集成技能。香港大学机器人与智能系统（工程）理学硕士还强调团队合作和协作，为学生完成这些目标所必需的许多任务做好准备。毕业后，学生们已经为成为独立的研究人员和工程师做好了充分的准备，许多人将继续成为学术界和工业界机器人研究的领导者。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "机器人建模、规划与控制 (Robot modelling, planning and control)\n机器人传感和智能 (Robot sensing and intelligence)\n系统集成 (Systems integration)\n项目 (Project )\n学位论文 (Dissertation)\n模式识别与机器学习 (Pattern recognition and machine learning)\n数字信号处理 (Digital signal processing)\n无线通信和网络 (Wireless communications and networking)\n数字通信 (Digital communications)\n智能优化 (Intelligent optimization)\n人因工程 (Human factors engineering)\n虚拟现实系统工程 (Virtual reality for systems engineering)\n医疗系统工程 (Healthcare systems engineering)\n网络物理系统 (Cyber-physical systems)\n工业工程机器学习 (Machine learning for industrial engineering)\n数字孪生技术 (Digital twin technologies)\n工业工程的计算方法 (Computational methods for industrial engineering)\n物联网 (The internet of things)\n人机交互 (Human-robot interaction)\n智能交通与自动驾驶 (Intelligent transportation and autonomous driving)\n机器人与智能系统前沿 (Frontiers in robotics and intelligent systems)\n当代机器人 (Contemporary robotics)\n机器人控制 (Robotic control)\n自动驾驶无人机 (Autonomous drones)\n机器人领域和服务 (Field and services robotics)",
+  "success_cases": ""
+}

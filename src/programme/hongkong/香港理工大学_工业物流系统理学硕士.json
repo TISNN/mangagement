@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "工业物流系统理学硕士",
+  "ename": "MSc Industrial Logistics Systems",
+  "tags": "工科,工业工程,工程学院",
+  "introduction": "专业方向: 工业工程\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 154000港币/年",
+  "requirements": "具有学士学位或专业资格或同等学历",
+  "objectives": "香港理工大学工业物流系统硕士课程是为针对新经济下物流业的转变而设计。课程教授崭新的物流信息科技及管理方案，以优化生产管理模式，让学生可提供顾客适宜及创新的解决方案。 课程亦为从事物流管理及系统工程的从业人员提供进修的机会，让他们学习深化生产策划及服务有关专门技术，如策划，组织，雇用职员，员工培训，估计，报告，监测，检测，协调和信息管理等。此外，香港理工大学工业物流系统硕士课程亦筹办多项实地考察团，更安排学生到内地大学上课、交流及参观当地物流设施。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "环球运作及物流管理 (Global Operations & Logistics Management)\n企业资源规划 (Enterprise Resources Planning)\n物流信息系统 (Logistics Information Systems)\n供应链管理推动技术 (Supply Chain Management Enabling Technologies)\n存仓及物料管理系统 (Warehousing & Material Handling Systems)\n过程与业绩管理 (Process & Performance Management)\n中国物流现状 (Contemporary Logistics Issues in China)\n风险管理 (Risk & Crisis Management)\n车队管理与货运 (Fleet Management and Freight forwarding)\n西格玛管理法 (Managing Six Sigma)\n知识工程与管理原理 (Principles of Knowledge Engineering & Management)\n工作流程设计及管理 (Workflow Design & Management)\n优化建模及其应用 (Optimization Modeling & Applications)\n航运经济与市场 (Shipping Economics and Markets)\n中国交通物流 (Transport Logistics in China)",
+  "success_cases": ""
+}

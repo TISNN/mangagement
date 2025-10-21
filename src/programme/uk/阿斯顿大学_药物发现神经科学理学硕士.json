@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "药物发现神经科学理学硕士",
+  "ename": "MSc Neuroscience for Drug Discovery",
+  "tags": "社科,药学,阿斯顿药学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 1年\n项目学费: 20700英镑/年",
+  "requirements": "要求科学或医学学科（例如神经科学、药理学、生理学、生物化学、医学）背景",
+  "objectives": "阿斯顿大学药物发现神经科学理学硕士项目让学生全面掌握神经科学原理及其在药理学和药物发现领域的直接应用。这一创新项目将基础神经科学与转化医学研究相结合，鼓励学生弥合基础研究与新型治疗干预措施开发之间的差距。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级神经科学 (Advanced Neuroscience)\n基本实验室技能 (Essential Laboratory Skills)\n神经科学研究实验室技能 (Neuroscience Research Laboratory Competencies)\n神经科学专业发展 (Professional Development for Neuroscience)\n高级和应用的突触可塑性 (Advanced and Applied Synaptic Plasticity)\n高级分子药理学 (Advanced Molecular Pharmacology)\n异常的神经网络 (Abnormal Neuronal Networks)\n破解大脑 (Hacking the Brain)\n运动生理学和病理生理学 (Physiology and Pathophysiology of Movements)\n计算神经科学 (Computational Neuroscience)\n喂养大脑 (Feeding the Brain)\n受损中枢神经系统 (CNS) 的修复和再生建模 (Modelling Repair and Regeneration in the Injured Central Nervous System (CNS))",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "地震工程与灾难管理理学硕士",
+  "ename": "MSc Earthquake Engineering with Disaster Management",
+  "tags": "工科,土木工程,工程科学学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有二等英国学士学位或同等学历，需要相关学科背景（例如工程学或建筑学），除学历外，相关领域的丰富工作经验也将被考虑",
+  "objectives": "伦敦大学学院地震工程与灾难管理理学硕士项目将地震工程专业知识与地震带来的社会、经济、政治影响相结合，旨在培养能够提供全面的抗震设计方案的工程师，以及地震灾难管理人士。\n伦敦大学学院地震工程与灾难管理理学硕士项目的毕业生将能够：进行普通和特殊结构的地震脆弱性分析；灵活运用目前的抗震规范和新型抗震设计方法论；评估事前风险缓解和事后风险管理解决方案的充分性、经济可行性和拯救生命的有效性。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "结构动力学 (Structural Dynamics)\n防震结构设计导论 (Introduction to Seismic Design of Structures)\n高级防震结构设计 (Advanced Seismic Design Structures)\n地震危险性评估 (Seismic Risk Assessment)\n高级结构分析 (Advanced Structural Analysis)\n地震测震学和地震灾害 (Earthquake Seismology and Earthquake Hazard)\n有限元建模和数理方法 (Finite Element Modelling and Numerical Methods)\n自然和环境灾害 (Natural and Environmental Disasters)\n科学介入风险和灾害减少 (Integrating Science into Risk and Disaster Reduction)\n岩土地震工程 (Geotechnical Earthquake Engineering)\nStructural Vulnerability and Resilience (Structural Vulnerability and Resilience)",
+  "success_cases": ""
+}

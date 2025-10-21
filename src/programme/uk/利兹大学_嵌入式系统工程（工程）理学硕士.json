@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "嵌入式系统工程（工程）理学硕士",
+  "ename": "MSc(Eng) Embedded Systems Engineering",
+  "tags": "工科,电气电子,电子电气工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要电子/电气工程、计算机或相关学科背景，申请者应在相关课程中取得优秀成绩，例如使用C、C、Java或类似的高级语言进行编程",
+  "objectives": "处理能力的快速发展推动了经济各行业中的数字革命，具体变化从小型节约能源型软件包中可以看出。利兹大学嵌入式系统工程（工程）理学硕士项目提供了核心数字科技课程，辅以应用导向型课程。在利兹大学嵌入式系统工程工学硕士项目中，学生将接触到各种应用，如：医疗电子、电子医疗、智能大厦设计、汽车电子、零售商业，掌握急需技能，为学生在产业中的广泛就业奠定基础。 利兹大学嵌入式系统工程（工程）理学硕士项目中的实践课程使学生通过运用微控制器、FPGA、数字信号处理设备和片上系统的通用方法论来实现软件和数字硬件，从而达到培养自信的目的。利兹大学嵌入式系统工程（工程）理学硕士项目由研究领域世界领先专家教授，学生将有机会接触世界级器械，从而在快速变化的产业中做足就业准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "现代工业实践 (Modern Industry Practice)\n数字信号处理（通信） (Digital Signal Processing for Communications)\n小课题项目和实验室 (Mini Projects and Laboratory)\n片上系统FPGA设计 (FPGA Design for System-on-chip)\n数字媒体工程 (Digital Media Engineering)\n嵌入式微处理器系统设计 (Embedded Microprocessor System Design)\n医学电子学和电子健康 (Medical Electronics and E-Health)\n编程 (Programming )\n数字无线通信原理 (Digital Wireless Communications Principles)\n数字通信和网络安全 (Data Communications and Network Security)",
+  "success_cases": ""
+}

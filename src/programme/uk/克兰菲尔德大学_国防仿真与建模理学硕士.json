@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "国防仿真与建模理学硕士",
+  "ename": "MSc Defence Simulation and Modelling",
+  "tags": "工科,计算机,国防与安全",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 24120英镑/年",
+  "requirements": "具有科学、工程或数学方面背景",
+  "objectives": "克兰菲尔德大学国防仿真与建模理学硕士课程涉及建模与仿真的设计、开发、采购、使用和管理，用于军事力量、系统和装备的实验、训练、测试、分析和评估。建模和仿真的应用继续加强和转变系统开发和培训。它允许对越来越复杂的设备、系统和场景进行表示，以提供决策支持，并有助于减少现场设备、测试和训练领域的磨损。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级模块＃1 (Advanced Module #1)\n高级模块＃2 (Advanced Module #2)\n高级模块＃3 (Advanced Module #3)\n实时图形 (Real Time Graphics)\n实验，分析与模拟试验 (Experimentation, Analysis and Trials for Simulation)\n建模与仿真基础 (Foundations of Modelling and Simulation)\n建模与仿真采集技术 (Modelling and Simulation Acquisition Techniques)\n网络化与分布式仿真 (Networked and Distributed Simulation)\n网络化与分布式仿真练习 (Networked and Distributed Simulation Exercise)\n合成环境与虚拟仿真 (Synthetic Environments & Virtual Simulation)\n战争游戏与战斗模型 (War Gaming and Combat Modelling)\n武器系统性能评估 (Weapon System Performance Assessment)",
+  "success_cases": ""
+}

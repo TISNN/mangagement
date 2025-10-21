@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "语言与语言学文学硕士",
+  "ename": "MA Language and Linguistics",
+  "tags": "社科,语言,语言学与英语语言学院",
+  "introduction": "专业方向: 语言\n入学时间: 10月\n项目时长: 1年\n项目学费: 24830英镑/年",
+  "requirements": "通常需要具有相关学科的2:1荣誉学位。学校也会考虑具有其他学科2:2学位或同等学历和/或丰富相关经验的申请者，在这些情况下，申请者应该清楚地展示其经历和技能是如何为研究生学习做好准备的。",
+  "objectives": "兰卡斯特大学语言与语言学文学硕士项目适合想深入学生语言和语言学的研究的学生。该课程从学习双语思维到分析语言将帮助学生扩展专业知识。同时，学生将磨练研究技能，并在处理大量数据时变得自信。通过语料库研究、语篇研究、语言测试等领域的研究小组，有很多机会提升学生在这些理论和应用领域的知识，学生还将与具有相同学术兴趣的学生建立友好的网络。学生将选择一个感兴趣的领域，同时发展在整个职业生涯中有用的技能。学生可以在专业语音学实验室探索双语，或者可以在感知和学习实验室和眼动追踪实验室进行心理语言学研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语言学与英语语言研究方法 (Research Methods in Linguistics and English Language)\n研究生学术学习技能 (Postgraduate Academic Study Skills)\n语料库语言学 (Corpus Linguistics)\n英语语法：认知方法 (English Grammar: A Cognitive Approach)\n话语研究导论 (Introduction to Discourse Studies)\n语言、文字和数字通信 (Language、Literacies and Digital Communication)\n语言教学原则 (Principles of Language Teaching)\n二语习得 (Second Language Acquisition)\n社会语言学 (Sociolinguistics)\n语料库在语言教学中的运用 (Using Corpora in Language Teaching)\n双语 (Bilingualism)\n批评性话语分析 (Critical Discourse Analysis)\n语用学 (Pragmatics)\n认知语言学 (Cognitive Linguistics)",
+  "success_cases": ""
+}

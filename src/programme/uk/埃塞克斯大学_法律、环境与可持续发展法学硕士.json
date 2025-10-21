@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "法律、环境与可持续发展法学硕士",
+  "ename": "LLM Law, Environment and Sustainability",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 10月\n项目时长: 1年\n项目学费: 21700英镑/年",
+  "requirements": "具有2:2法律学位或法律联合荣誉学位，申请者若没有法律学位但具有额外的相关专业经验和/或实习经验，或由专业团体（如律师协会）颁发的专业资格/证书，均可申请并将获得考虑。",
+  "objectives": "埃塞克斯法律、环境与可持续发展法学硕士项目提供了学习环境法、发展法、国际法、公司和商法、人权、企业责任、贸易和投资法等领域广泛模块的机会，使学生能够成为这些领域的技术能力，并提高在这些领域有效运作所需的分析、沟通和宣传技能。学生将了解与不同国家和国际行为体相关的法律和非强制性义务，以及不同法律体系和法律框架内存在的紧张关系，这些法律体系和法律框架有时代表相互竞争的环境、政治、经济、社会和发展优先事项。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文——法律、环境和可持续发展 (Dissertation - Law, Environment and Sustainability)\n国际环境法与可持续发展 (International Environmental Law and Sustainability)\n国际公法 (Public International Law)\n国际法学术技能 (Academic Skills in International Law)\n人权、发展和环境 (Human Rights, Development and the Environment)\n贸易、投资、环境和人权 (Trade, Investment, Environment, and Human Rights)\n商业与人权 (Business and Human Rights)\n企业责任和商业法 (Corporate Responsibility and Business Law)",
+  "success_cases": ""
+}

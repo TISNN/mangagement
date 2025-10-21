@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "商业数据科学理学硕士",
+  "ename": "MSc Data Science for Business",
+  "tags": "理科,数据科学,商业、管理和市场营销学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:1本科荣誉学位或同等学历，需要以下任意学科背景：生物医学/健康和生命科学、计算机科学、数据科学、决策科学、经济学、工程、金融（但不包括会计和金融）、管理、数学、运筹学研究、物理、统计学；或 如果申请者的学位未在上方列出，必须包含一门定量课程，达到65%或以上，可接受的课程详见官网示例 对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩 学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用 学校将考虑成绩略低于课程入学要求的申请者，前提是他们至少具备以下其中一项： - 符合相关科目和课程的研究生学历； - 重要的相关工作经验证明（至少12个月的商业工作经验） 如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关工作经验和/或资格",
+  "objectives": "布里斯托大学商业数据科学理学硕士项目是一个跨学科项目。课程旨在导航和塑造一个数据驱动的世界。在为期一年的全日制学习中，学生将学习管理和分析大型数据集，并开发不同的数字技能，以便直接应用于商业环境。该课程提供数据科学和商业战略方面的均衡课程，使学生能够在可持续发展，市场营销，供应链管理或金融方面找到自己的专长。学生将获得实用技能和战略知识，以应对现实世界的商业挑战，以及在未来的职业生涯中的竞争优势。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业背景下的数据分析 (Data Analysis in Business Contexts)\n商业人工智能与数据分析概论 (Introduction to AI and Data Analytics for Business)\n商业大规模数据工程 (Large-Scale Data Engineering for Business)\n软件开发：商业编程与算法 (Software Development: Programming and Algorithms for Business)\n商业统计计算与实证方法 (Statistical Computing and Empirical Methods for Business)\n商业数据科学论文：个人项目 (Data Science for Business Dissertation: Individual Project)\n商业数据科学论文：小组项目 (Data Science for Business Dissertation: Group Project)\n可持续发展数据科学 (Data Science for Sustainability)\n全球价值链中的可持续性 (Sustainability in Global Value Chains)\n实践中的可持续性管理 (Sustainability Management in Practice)\n营销数据科学 (Data Science for Marketing)\n数字营销：战略、工具与战术 (Digital Marketing: Strategy, Tools and Tactics)\n战略品牌管理 (Strategic Brand Management)\n供应链管理的数据科学 (Data Science for Supply Chain Management)\n全球供应链中的可持续发展与道德规范 (Sustainability and Ethics in Global Supply Chains)\n金融数据科学 (Data Science for Finance)\n创业金融 (Entrepreneurial Finance)\n金融科技 (Financial Technology)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "人类与社会数据科学理学硕士",
+  "ename": "MSc Human and Social Data Science",
+  "tags": "理科,数据科学,数学与物理科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 22575英镑/年",
+  "requirements": "通常应具有英国2.1本科荣誉学位或以上水平或同等学历\n需要心理学、经济学、商学或其他社会科学学科背景，具备良好的计算能力\n具有不同学科领域的本科学位但能够证明具备数据处理能力和适当数学水平（这可以通过毕业材料证明）的申请者也可能会被专业考虑",
+  "objectives": "萨塞克斯大学人类与数据科学理学硕士的核心是带学生了解数据的使用方式和原因，以及这样做的社会和伦理影响。 在塞克斯大学人类与数据科学理学硕士课程中，学生将探索：现代信息和通信技术、python编程语言、概率论、统计学、线性代数和微积分、机器学习技术、道德和可解释性。学生可以选择将研究重点放在数字媒体或创新和政策上。学生将向处于各自领域前沿的专家学习。 与萨塞克斯大学的行业合作伙伴合作，将为学生提供职业发展机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文（人类和社会数据科学） (Dissertation (Human and Social Data Science))\n数据科学研究方法 (Data Science Research Methods)\n复杂系统的数学和计算方法 (Mathematics and Computational Methods for Complex Systems)\n数据科学硕士研究计划书 (Data Science Masters Research Proposal)\n机器学习 (Machine Learning)\n数据科学中更广泛的主题 (Wider Topics in Data Science)\n应用自然语言处理 (Applied Natural Language Processing)\n数字新闻 (Digital Journalism)\n媒体、法律和道德 (Media, Law and Ethics)\n政策制定和政策分析 (Policy Making and Policy Analysis)\n人工智能与技术革命政策 (Artificial Intelligence and Policies for Technological Revolutions)\n产业与创新政策 (Industrial and Innovation Policy)\n数字媒体的新发展 (New Developments in Digital Media)\n种族、文化和媒体 (Race, Culture and the Media)\n技术女性主义的历史与实践 (Techno-Feminism History and Practice)",
+  "success_cases": ""
+}

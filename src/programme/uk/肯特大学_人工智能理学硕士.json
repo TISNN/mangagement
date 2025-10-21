@@ -1,0 +1,12 @@
+{
+  "school_name": "肯特大学",
+  "major_name": "人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23500英镑/年",
+  "requirements": "具有一等或二等荣誉学位或同等学历，需要计算机或相关学科背景\n所有申请者都将根据具体情况予以考虑，其他资格、专业资格和相关经验也可能被考虑在内",
+  "objectives": "肯特大学人工智能理学硕士课程面向想要启动或进一步开展职业生涯的毕业生，学生将能够为从事计算机职业或涉及应用计算和人工智能以解决任何专业领域问题的职业生涯做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "使用Python进行人工智能编程 (Programming for Al with Python)\n机器学习 (Machine Learning)\n自然语言处理 (Natural Language Processing)\n认知机器人学 (Cognitive Robotics)\n深度学习 (Deep Learning)\n项目与论文 (Project & Dissertation)\n计算创造力与创造性人工智能 (Computational Creativity and Creative Al)\n量子计算与量子密码学概论 (Introduction to Quantum Computing & Quantum Cryptogiraphy)\n人工智能与网络安全 (Artificial Intelligence and Cyber Security)\n软件工程 (Software Engineering)\n数据科学基础 (Foundations of Data Science)",
+  "success_cases": ""
+}

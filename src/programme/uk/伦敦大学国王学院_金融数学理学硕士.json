@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "金融数学理学硕士",
+  "ename": "MSc Financial Mathematics",
+  "tags": "商科,金工金数,自然、数学与工程科学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 40000英镑/年",
+  "requirements": "具有high 2:1本科（荣誉）学士学位，需要数学或以数学为基础的学科背景\n申请者需要证明先前学习过高等数学和纯数学",
+  "objectives": "伦敦大学国王学院金融数学理学硕士项目使具有强大数学背景的毕业生和专业人士能够研究、开发和应用定量和计算技术进行投资和风险管理。该课程位于数学系，因以研究为导向的教学和与行业的紧密联系而享有盛誉。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融数学硕士课程 (MSc Financial Mathematics Project)\n概率论 (Probability Theory)\n风险中性评估 (Risk Neutral Valuation)\n随机分析 (Stochastic Analysis)\n利率和信贷风险 (Interest Rate and Credit Risk)\n金融市场 (Financial Markets )\n金融统计学 (Statistics in Finance)\n金融数学近期专题研究 (Recent Topics in Financial Mathematics)\n不完全市场 (Incomplete Markets)\n金融数学c++ (C++ for Financial Mathematics)\n外来金融衍生工具 (Exotic Derivatives)\n金融风险 (Risk in Finance)",
+  "success_cases": ""
+}

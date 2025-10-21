@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "运输规划与工程（基础设施）理学硕士",
+  "ename": "MSc Transportation Planning and Engineering (Infrastructure)",
+  "tags": "工科,交通运输,工程学院",
+  "introduction": "专业方向: 交通运输\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位，需要以下背景：工程、数学、地理学、规划、物理科学\n如果申请者具有其他学科的2:1学位，可以联系项目负责人讨论是否有资格申请\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学运输规划与工程（基础设施）理学硕士项目教授学习陆路交通系统的设计、工程和运营的知识，以交通基础设施为重点，详细介绍交通工程、铁路工程和运营。同时带领学生详细了解公路和铁路系统。该课程适合想在交通运输行业工作的学生，或者是一名想要提高自己的技能的有经验的交通运输专业人士。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "交通规划：政策与治理 (Transport Planning: Policy and Governance)\n运输数据分析与技术 (Transport Data Analysis and Techniques)\n运输建模 (Transport Modelling)\n公路与交通工程 (Highway and Traffic Engineering)\n物流系统运营 (Logistics Systems Operations)\n工程中的人为因素 (Human Factors in Engineering)\n交通规划：实践 (Transport Planning: Practice)\n交通经济学 (Transport Economics)\n运输数据分析与技术 (Transport Data Analysis and Techniques)\n铁路工程与运营 (Railway Engineering and Operations)\n运输、能源和环境 (Transport、Energy and the Environment)\n运输管理与安全 (Transport Management and Safety)",
+  "success_cases": ""
+}

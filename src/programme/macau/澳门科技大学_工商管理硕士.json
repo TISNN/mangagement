@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "工商管理硕士",
+  "ename": "Master of Business Administration",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 9月\n项目时长: 2年\n项目学费: 130000港币/年",
+  "requirements": "须具 2 年或以上工作经验。必须提交由工作单位盖章之工作证明信，不接受员工卡、录用证明等。",
+  "objectives": "澳门科技大学商学院是一所年轻并充满活力的学院。商学院的MBA课程凭借其出色的教学品质和卓越成就获得了来自学生和社会的认可。商学院从高等教育的前瞻性视角出发，除招募具有杰出学术背景并拥有博士学位的专业教师之外，还从中国大陆、澳门、台湾和香港甄选了一批具有丰富业界经验的企业高层管理者作为课程的兼任讲师。我们相信商学院的每一位教师都能够激发学生研究兴趣，引导学生将理论知识与管理实践相结合，帮助学生发展在其专业领域的前瞻力。本院MBA课程不仅是向学生讲授管理知识，更希望将学生培养成有伦理道德的、对社会和经济发展有贡献的商业领袖。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计学 (Accounting　)\n金融 (Finance　)\n营销管理 (Marketing Management)\n营运管理 (Operations Management)\n组织行为学 (Organizational Behavior)\n研究方法 (Research Methodology)\n战略管理 (Strategic Management)\n企业社会责任与伦理 (Corporate Social Responsibility and Ethics)",
+  "success_cases": ""
+}

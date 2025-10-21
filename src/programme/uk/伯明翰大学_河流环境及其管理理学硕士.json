@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "河流环境及其管理理学硕士",
+  "ename": "MSc River Environments and their Management",
+  "tags": "工科,环境工程,生命与环境科学学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 30370英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要地理学、地球科学、环境科学、工程学、自然科学、化学、物理学、生态学/生物学、生命科学、农业科学、水管理或相关学科背景\n理想情况下学生在荣誉学位期间应该在与水文学相关的课程中取得良好成绩",
+  "objectives": "伯明翰大学河流环境及其管理理学硕士课程研究气候、水文、地貌、生态、生物地球化学循环、水和生境质量以及生物多样性之间的交互作用。课程培训的一个重要方面是理解这些交互作用在不同的时空维度是如何影响流水的生态系统结构和功能的。科技语料库可以帮助学生理解和量化自然、人为的干扰对于河流系统的影响。学生还将获得培训，了解推动全球河流的环境管理的法律。特别是《欧盟水框架指令》，它提供了极强的推动力，促使所有的欧洲成员制定流域管理计划，到2015年，达成“良好的生态状况”。这在未来必然会创造许多就业机会。伯明翰大学河流环境及其管理理学硕士课程会为对这个职业方向感兴趣的学生提供直接的研究生培训，也会为想要在水科学领域继续读博的学生提供合适的高级培训。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "环境分析与建模 (Environmental analysis and modelling)\n水文过程的定量分析 (Quantitative Analysis of Hydrological Processes)\n水科学与河流管理进展 (Advances in Water Science and River Management)\n河流生态学：理论与实践 (River Ecology: Theory and Practice)\n水文地貌与流域管理 (Hydrogeomorphology and Catchment Management)\n河流生境与生物地球化学评价与监测 (River Habitats and Biogeochemistry Assessment and Monitoring)\n论文 (Dissertation)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "国际商务经济学理学硕士",
+  "ename": "MSc International Business Economics",
+  "tags": "商科,经济,商学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有英国2:2本科荣誉学位或以上水平或同等学历\n需要能够证明在数学或定量相关领域的能力\n具备其他同等专业资格或经验的申请者也可能会被该专业考虑",
+  "objectives": "在萨塞克斯大学国际商务经济学理学硕士学位课程的学习中，学生将在解释商业行为的经济理论方面奠定扎实基础，以此增强及巩固国际商务研究。学生也将拓展与公司和消费者相关的微观经济学原理，以及支撑国家和国际经济的宏观经济学理论知识，掌握管理经济学和人力资源分配的知识。同时，学生也有机会在商业经济学领域从事研究，扩大在商业及金融部门的就业机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "决策者会计 (Accounting for Decision Makers)\n财经经济学分析方法 (Analytical Methods for Finance & Business Economics)\n数据处理、编码和可视化 (Data Processing, Coding & Visualisation )\n国际商业经济学 (International Business Economics)\n金融与商业的定量方法 (Quantitative Methods for Finance & Business )\n金融与时间序列计量经济学 (Financial and Time Series Econometrics)\n金融市场和金融机构 (Financial Markets and Institutions)\n管理与人力资源经济学 (Managerial and Human Resource Economics)\n国际金融与商务研究方法 (Research Methods for International Finance and Business)\n交易 (Trading)\n商业经济学研究项目 (Business Economics Research Project)",
+  "success_cases": ""
+}

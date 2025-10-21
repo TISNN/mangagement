@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "临床教育理学硕士",
+  "ename": "MSc Clinical Education",
+  "tags": "社科,医学,医学系",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 21400英镑/年",
+  "requirements": "拥有临床专业的学士学位（或同等资格），正在该专业领域积极实践，并持有相应的专业注册或执照\n或者拥有其他专业的学士学位，且有近期经验和/或目前参与临床教育的证据\n未持有本科学位但能证明有相关经验的注册医疗专业人士的申请将根据其个人情况进行考虑",
+  "objectives": "莱斯特大学临床教育理学硕士项目将帮助学生成为一名有效的临床教师，并发展学生的教育领导能力，学术和发现技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "临床教育原则 (Principles of clinical education)\n个人和团体 (Individuals and groups)\n实践学习，跨专业教育和技术 (Practice learning, inter-professional education and technology)\n创新、质量、研究、评价 (Innovation, quality, research and evaluation)\n临床教育评估 (Assessment in clinical education)\n课程设计 (Curriculum design)",
+  "success_cases": ""
+}

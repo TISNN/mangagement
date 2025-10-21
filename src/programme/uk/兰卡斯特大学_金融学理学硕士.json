@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,会计与金融学系",
+  "introduction": "专业方向: 金融\n入学时间: 10月\n项目时长: 1年\n项目学费: 32760英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要金融、会计、经济或其他商业相关学科背景，非商业领域但包含较强定量元素的毕业生也可能被考虑\n学校也可能考虑非标准申请者，需要联系学校获取信息",
+  "objectives": "兰卡斯特大学金融学理学硕士项目为期一年，旨在为学生提供在金融领域成功职业生涯所需的关键技能。该课程将使用真实世界的数据和示例，向学生介绍金融市场和基金会融资的原理。学生将有机会探索公司金融、高级投资管理和金融计量学的领域。为了帮助学生解决行业技能差距，并在就业市场上为学生提供竞争优势，学生还将有机会发展关键的可转移就业市场技能，如数据分析和计算机编程（使用Python、R、Stata、MATLAB和SAS）；并将接受彭博社和FactSet等行业标准数据平台的培训。在整个课程中，学生将获得管理学院的专业职业支持。顾问将帮助学生制定一对一计划，发挥学生的优势，帮助提升。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "定量方法导论 (Introduction to Quantitative Methods)\n金融学导论 (Introduction to Finance)\n会计学导论 (Introduction to Accounting)\n金融市场导论 (Introduction to Financial Markets)\n金融定量方法 (Quantitative Methods for Finance)\n金融学基础 (Foundations of Finance)\n财务报告原则 (Principles of Financial Reporting)\n金融市场 (Financial Markets)\n金融数据平台 (Financial Data Platforms)\n高级企业财务 (Advanced Corporate Finance)\n高级投资管理 (Advanced Investment Management)\n复杂财务报告 (Financial Reporting for Complex Entities)\n财务报告分析 (Financial Statement Analysis)",
+  "success_cases": ""
+}

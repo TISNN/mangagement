@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "电力系统工程理学硕士",
+  "ename": "MSc Power Systems Engineering",
+  "tags": "工科,电气电子,工程科学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要适当的工程学科背景，如电气、机械或机电一体化，需要具备一定的应用电学的基础知识，需要ATAS认证",
+  "objectives": "伦敦大学学院电力系统工程理学硕士项目旨在为学生提供就职于涉及能源和电力的生产、分配和消费的行业所需的必要知识和技能。这些行业包括运输业、常规能源和可再生能源的发电行业。学生将学习分析和设计常规能源及可再生能源的机械系统，掌握计算机在高级工程分析中的应用，获取电气和机械工程的原理、定量方法和数学计算建模等知识，认识现代工业界的行业规范、标准和质量问题。此外，伦敦大学学院电力系统工程理学硕士项目还包括了项目管理的相关课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电力传输和辅机系统 (Power Transmission and Auxiliary Machinery Systems)\n电机和电力电子系统 (Electrical Machines and Power Electronic Drives)\n电力系统和电力推进 (Electrical Power Systems and Electrical Propulsion)\n新能源和可再生能源系统 (New and Renewable Energy Systems)\n团队设计项目 (Group Design Project)\n应用热力学和涡轮机械 (Applied Thermodynamics and Turbomachinery)\n振动、声学和控制 (Vibrations、Acoustics and Control)\n工程中的计算机应用 (Advanced Computer Applications in Engineering)\n论文/报告 (Dissertation/report)",
+  "success_cases": ""
+}

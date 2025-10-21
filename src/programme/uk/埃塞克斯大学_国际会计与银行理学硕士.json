@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "国际会计与银行理学硕士",
+  "ename": "MSc International Accounting and Banking",
+  "tags": "商科,会计,埃塞克斯商学院",
+  "introduction": "专业方向: 会计\n入学时间: 10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:1学位，不限专业背景",
+  "objectives": "埃塞克斯大学国际会计与银行理学硕士课程旨在为学生提供在跨国组织中从事会计或银行业职业所需要的深入金融知识和实践技能。埃塞克斯大学国际会计与银行理学硕士项目通过将理论和实践与现实案例相结合，使学生具有竞争优势。学生可以对当代会计和银行问题有深入的了解，并能就上市公司撰写商业报告。培养学生研究问题、分析和解决商业问题并在快速的国际业务环境中有效运作的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际管理会计 (International Management Accounting)\n国际财务报告 (International Financial Reporting)\n公司报告与分析 (Corporate Reporting and Analysis)\n现代银行业 (Modern Banking)\n银行战略与风险 (Bank Strategy and Risk)\n商业报告 (Business Report)\n金融决策 (Financial Decision Making)",
+  "success_cases": ""
+}

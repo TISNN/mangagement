@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "中国法法学硕士",
+  "ename": "LLM Chinese Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 220000港币/年",
+  "requirements": "(1) 具有法律学士学位或同等学历，至少达到二等荣誉学位；或\n(2) 具有法律以外学科的学士学位且至少达到二等荣誉学位，并具备至少2年相关经验和/或专业资格；或\n(3) 通过英格兰与威尔士普通职业考试或大学普通职业考试，并具有学士学位或同等学历且达到二等荣誉学位",
+  "objectives": "香港大学中国法法学硕士项目是香港大学法学院下属的一项硕士课程，旨在满足香港地区以及国际上日益增长的对于更为全面理解中华人民共和国法律法规的需求。该课程通过全面结合理论、实践和政策导向的课程，使学生能够在中国动态的社会、经济和政治背景下了解现代中国法律制度。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "中国法与法律制度入门 (Introduction to Chinese law and legal system)\n中华人民共和国公司法与证券交易法 (Company law and securities regulation in the People's Republic of China)\n中华人民共和国信息技术法 (PRC information technology law)\n中国投资法 (China investment law)\n中华人民共和国税务法与政策 (PRC taxation law and policy)\n比较宪法理论 (Comparative constitutional law theories)\n高级研究方法 (Advanced research methodology)\n中华人民共和国物权法 (PRC property law)\n中华人民共和国法律与发展 (Law and development in the PRC)\n大陆与香港跨境法律关系 (Cross-border legal relations between the Mainland and Hong Kong)\n中国法律当前问题研究 (Current issues in Chinese law)\n中华人民共和国航运法 (PRC shipping law )",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "预测建模与科学计算理学硕士",
+  "ename": "MSc Predictive Modelling and Scientific Computing",
+  "tags": "社科,其他社科,工程学院",
+  "introduction": "专业方向: 其他社科\n入学时间: 9月\n项目时长: 1年\n项目学费: 29880英镑/年",
+  "requirements": "具有2:1本科英国荣誉学位或同等学历，需要工程、物理科学或数学学科背景\n申请者的数学知识需要达到A2 Level或同等水平，涵盖线性代数、微积分和分析等主题，包括微分方程，以及概率与统计，这可以通过作为本科课程一部分的数学模块获得，学校希望学生在硕士学习开始时对这些主题具备很好的理解，自学资源和涵盖这些技能的自我评估测试可在以下网址找到：https://warwick.ac.uk/fac/sci/wcpm/pmsc/mathsinduction\n学校愿意根据具体情况考虑具有较低学历的申请者，尤其是能够证明具备相关就业、实践经验或在与申请专业相关的本科课程中表现出色的申请者",
+  "objectives": "华威大学预测建模与科学计算理学硕士项目对学生进行前沿预测建模技术的理论和实践实施方面的培训，让他们接触科学和工程中已建立和新兴的应用。华威大学预测建模和科学计算理学硕士项目旨在教育未来的计算科学和工程专家，使他们能够应用适当的计算技术来理解、定义和开发一系列科学和工程问题的解决方案，包括具有国家和全球重要性的问题。核心课程涵盖不确定性量化、预测建模和科学计算，而三个可选课程的选择让学生有机会专注于课程的应用重点，以符合他们的兴趣。学生将参与个人和小组研究项目，以及撰写报告和展示技术工作，从而培养雇主所寻求的项目管理和数字技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "预测建模基础 (Fundamentals of Predictive Modelling)\n数值算法和优化 (Numerical Algorithms and Optimisation)\n科学机器学习 (Scientific Machine Learning)\n预测建模小组项目 (Predictive Modelling Group Project)\n个人研究项目 (Individual Research Project)\n跨相和尺度的流体动力学建模和计算 (Modelling and Computation of Fluid Dynamics Across Phases and Scales)\n基于粒子的建模 (Particle-based Modelling)\n工程材料的建模与仿真 (Modelling and Simulation of Engineering Materials)\n数学和计算机建模 (Mathematical and Computer Modelling)\n量子化学 (Quantum Chemistry)\n高性能计算 (High Performance Computing)\n数据分析与机器学习 (Data Analysis and Machine Learning)\n随机建模和随机过程 (Stochastic Modelling and Random Processes)\n数学建模专题 (Topics in Mathematical Modelling)\n流体高级主题 (Advanced Topics in Fluids)",
+  "success_cases": ""
+}

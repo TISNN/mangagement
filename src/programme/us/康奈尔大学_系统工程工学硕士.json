@@ -1,0 +1,12 @@
+{
+  "school_name": "康奈尔大学",
+  "major_name": "系统工程工学硕士",
+  "ename": "MEng in Systems Engineering",
+  "tags": "工科,工业工程",
+  "introduction": "专业方向: 工业工程\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1年\n项目学费: 62,456美元",
+  "requirements": "最好是工程、数学或科学学士学位。\n该项目至少要求微分、微积分、线性代数和微分方程作为本科数学要求。\n需要先修读概率和统计学本科课程才能进入系统工程项目。如果在入学时尚未完成，则可以通过完成 ENGRD 2700 或 CEE 3040 来满足此要求。\n经课程委员会批准，学生可以在另一所大学完成类似的课程。 您将需要提交一份成绩单，以证明该课程已在您的课程第一学期结束前完成。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

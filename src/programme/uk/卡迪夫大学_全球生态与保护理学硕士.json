@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "全球生态与保护理学硕士",
+  "ename": "MSc Global Ecology and Conservation",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 27450英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要相关学科领域背景，如生物学、植物学、生态学、环境科学和动物学；或具备环境保护或环境管理方面的相关工作经验",
+  "objectives": "卡迪夫大学全球生态与保护理学硕士项目旨在培养未来的生态学家和保护主义者。从生态理论和开拓性研究，到实际的现场评估和保护干预，我们将为您提供所需的技能和知识，以应对重大全球挑战，创造“真实世界”的不同。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生态学与保护领域技能 (Field Skills for Ecology and Conservation)\n评估生物多样性和生态系统 (Assessing Biodiversity and Ecosystems)\n保护生物学原理与实践 (Principles and Practice of Conservation Biology)\n数据科学 (Data Science)\n研究项目 (Research Project)\n先进的研究方法 (Advanced Research Methods)\n生物科学的前沿 (Frontiers in Biosciences)\n现场研究和安置 (Field Research and Placement)\n科学传播：从同行评议到公共外展 (Science Communication: from peer-review to public outreach)",
+  "success_cases": ""
+}

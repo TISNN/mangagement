@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "计算机科学理学硕士（可跨申）",
+  "ename": "MSc Computer Science (Conversion)",
+  "tags": "工科,计算机,工程与信息学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 25000英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，不限专业背景（计算机科学除外），申请者需要证明在数学方面的能力，数学达到GCSE B或同等水平。如果申请者拥有其他专业资格或同等经验，也可能被考虑参加该课程",
+  "objectives": "萨塞克斯大学计算机科学理学硕士项目适合计划在计算机领域开展职业生涯或者想要改善就业选择的学生，这是一门专为非计算机科学毕业生设计的转换课程。学校在信息系具备广泛的研究专业知识，为学生学习课程的教学提供基础，让学生有机会专注于最感兴趣的领域。毕业后学生将拥有在以下领域为雇主工作所需的技能：人工智能，以人为本的计算，软件工程，软件系统。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "算法数据科学 (Algorithmic Data Science)\n使用Python编程 (Programming through Python)\n信息管理系统 (Systems for Information Management)\n理学硕士个人项目 (MSc Individual Project)\n电子商务与电子商务系统 (E-Business and E-Commerce Systems)\n人机交互 (Human-Computer Interaction)\n复杂系统的数学与计算方法 (Mathematics and Computational Methods for Complex Systems (MCMCS))\n视频制作技术 (Video Production Techniques)\n工程可扩展和可靠的软件组项目 (Engineering Scalable and Reliable Software Group Project)\n创业 (Entrepreneurship)\n计算范围 (Limits of Computation)\n现场视频制作 (Live Video Production)\n机器学习 (Machine Learning )\n科技增强型学习环境 (Technology-Enhanced Learning Environment)",
+  "success_cases": ""
+}

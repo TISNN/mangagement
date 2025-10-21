@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "高级化学工程理学硕士",
+  "ename": "MSc Advanced Chemical Engineering",
+  "tags": "工科,化工,化学与环境工程学院",
+  "introduction": "专业方向: 化工\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要相关工程学科或相关科学学科背景\n不符合入学标准但具备大量行业工作经验的申请者可能会被录取",
+  "objectives": "诺丁汉大学高级化学工程理学硕士课程为学生提供企业所期望的下一代化学工程师所具备的额外训练，将其培养成有潜力胜任未来行业领导者的毕业生。根据所选模块，学生将获得化学和石油加工、能源效率、碳捕获、水处理领域的经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计类实训 (Accelerated Design Training)\n高级流变学和材料 (Advanced Rheology and Materials )\n工艺合成与设计 (Process Synthesis and Design)\n多相系统 (Multiphase Systems)\n高级反应工程学 (Advanced Reaction Engineering)\n研究计划 (Research Planning)\n废物再生能源 (Renewable Energy from Wastes )\n过程风险收益和分析 (Process Risk Benefit and Analysis)\n发电和碳捕获 (Power Generation and Carbon Capture)\n水处理 (Water Treatment)\n高级计算方法 (Advanced Computational Methods)\n高级生化工程 (Advanced Biochemical Engineering )\n水处理工程 (Water Treatment Engineering)",
+  "success_cases": ""
+}

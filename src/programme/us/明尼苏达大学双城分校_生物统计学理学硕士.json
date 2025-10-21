@@ -1,0 +1,12 @@
+{
+  "school_name": "明尼苏达大学双城分校",
+  "major_name": "生物统计学理学硕士",
+  "ename": "MS in Biostatistics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n入学时间: 秋季\n项目时长: 36学分\n项目学费: 13806美元/学期\n平均成绩: 3.64\n平均起薪: 65000-80000美元",
+  "requirements": "先修课：三个学期的微积分（包括多元微积分）,一学期线性代数。建议学习一年（两个学期）本科水平的概率和数理统计课程。具有编程语言（例如,R、Java、C、Python）和接触应用统计的经验是有帮助的,但不是必需的。GPA不低于3.0",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

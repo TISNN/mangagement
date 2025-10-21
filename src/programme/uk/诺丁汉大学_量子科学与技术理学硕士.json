@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "量子科学与技术理学硕士",
+  "ename": "MSc Quantum Science and Technology",
+  "tags": "理科,物理,数学科学学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 22600英镑/年",
+  "requirements": "具有2:1理学学士学位或同等学历，需要物理学、数学物理学或数学背景，或包含大量物理学或数学元素的联合学位\n需要具备量子力学的先前知识和科学计算的先前经验（通常在物理学、数学、化学、自然科学、工程学或计算机科学等理学学士课程中教授）",
+  "objectives": "诺丁汉大学量子科学与技术理学硕士课程介绍了量子科学与技术的数学原理和实际应用，为未来学生在这个快速发展的领域的职业发展提供了理想的培训。课程采提供两种细分方向，两个细分方向都有一系列可选课程，包括机器学习、编码和密码学、科学编程、实用量子计算和量子场论。本课程将扩展学生对当前理论和实验研究前沿主题的知识，还将培养学生撰写完整科学报告的技能。在整个课程学习过程中，学生将得到从事量子科学和技术研究的专家工作人员的支持。本课程既包含理论性内容，同时又涉及实验工作和数据分析。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "量子信息科学 (Quantum Information Science)\n量子动力学和相干器件 (Quantum Dynamics and Coherent Devices)\n光与物质 (Light and Matter)\n量子计量 (Quantum Metrology)\n论文 (Dissertation)\n量子技术与实验研究方法 (Quantum Technology and Experimental Research Methods)\nPython科学编程 (Scientific Programming in Python)\n编码与密码学 (Coding and Cryptography)\n量子场论 (Quantum Field Theory)\n量子技术 (Quantum Technology)\n实用量子计算导论 (Introduction to Practical Quantum Computing)\n科学领域的机器学习第一部分 (Machine learning in Science Part 1)\n科学领域的机器学习第二部分 (Machine learning in Science Part 2)\n统计机器学习 (Statistical Machine Learning)\n量子计量 (Quantum Metrology)",
+  "success_cases": ""
+}

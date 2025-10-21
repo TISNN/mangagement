@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "管理学理学硕士",
+  "ename": "MSc Management",
+  "tags": "商科,管理,管理学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1本科荣誉学位，不限专业",
+  "objectives": "在一个有如此多不同类型专家的时代，学生需要看到整体，而不仅仅是从一个功能角度考虑。每个组织都需要有多方面才能的人才，无论是作为多学科团队的经理、业务运营总监，还是作为首席执行官或总裁在董事会层面工作。\n谢菲尔德大学管理学理学硕士项目适合以前没有学过商科经历的学生。学生将探索全面管理的各个方面，从管理人员和财务到战略规划、运营和营销。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "组织员工管理 (Managing People in Organisations)\n管理经济学 (Management Economics)\n会计与财务管理 (Accounting and Financial Management)\n市场营销 (Marketing)\n运营与供应链管理 (Operations and Supply Chain Management)\n管理与组织理论 (Management and Organisational Theory)\n战略管理 (Strategic Management)\n管理查询 (Management Inquiry)\n企业项目 (Company Project)",
+  "success_cases": ""
+}

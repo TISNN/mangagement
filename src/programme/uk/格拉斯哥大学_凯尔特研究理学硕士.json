@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "凯尔特研究理学硕士",
+  "ename": "MSc Celtic Studies",
+  "tags": "社科,文化,人文学院",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 25320英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要凯尔特研究、爱尔兰研究、苏格兰研究、历史、古典、考古学或任何语言或其他相关学科背景学校也可以接受以上未列出的学科的学位",
+  "objectives": "格拉斯哥大学凯尔特研究理学硕士为学生提供个性化广泛的课程，可以在苏格兰盖尔语的背景下研究中世纪凯尔特人；学生将参与苏格兰和凯尔特研究中心活跃的研究文化，包括整个学术会议期间每周举行的研究研讨会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "凯尔特研究技能和奖学金 (Skills and Scholarships in Celtic Studies )\n凯尔特研究的主题和争议 (Themes and Debates in Celtic Studies)\n高级早期盖尔语 1 (Advanced Early Gaelic 1)\n中世纪威尔士语简介 (Introduction to Medieval Welsh)\n高级中世纪威尔士语 1 (Advanced Medieval Welsh 1)\n盖尔语（从头开始） (Gaelic (from Scratch))\n盖尔语（中级） (Gaelic (Intermediate))\n盖德利格·阿达尔塔赫 (Gaedlig Adaltach)\n中世纪威尔士文学翻译 (Medieval Welsh Literature in Translation)\n盖尔文学中的芬恩 (Finn in Gaelic Literature)\n北不列颠的王国和社会 (Kingdoms and Societies in Northern Britain)\n赫布里底群岛和阿尔斯特的种植园和文明 (Plantation and Civilization in the Hebrides and in Ulster)",
+  "success_cases": ""
+}

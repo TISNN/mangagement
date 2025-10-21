@@ -1,0 +1,12 @@
+{
+  "school_name": "雪城大学",
+  "major_name": "网络安全理学硕士",
+  "ename": "MS in Cybersecurity",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 春季/夏季/秋季\n项目时长: 30学分\n项目学费: 54,060美元",
+  "requirements": "GPA3.0，建议在基本系统知识，数据结构，离散数学和高级编程（C和C）方面表现出核心能力",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

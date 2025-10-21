@@ -1,0 +1,12 @@
+{
+  "school_name": "乔治华盛顿大学",
+  "major_name": "数学硕士",
+  "ename": "MA in Mathematics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2年\n项目学费: 35,100美元/年",
+  "requirements": "申请人应持有数学或相关专业的B.S.学位。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

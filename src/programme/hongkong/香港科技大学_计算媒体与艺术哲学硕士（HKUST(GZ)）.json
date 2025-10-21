@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "计算媒体与艺术哲学硕士（HKUST(GZ)）",
+  "ename": "MPhil Computational Media and Arts (HKUST(GZ))",
+  "tags": "社科,文化,香港科技大学（广州）",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 2年\n项目学费: 150000人民币/年",
+  "requirements": "具有认可机构颁发的学士学位或同等学历",
+  "objectives": "计算媒体和艺术（CMA）在我们的日常生活中无处不在，我们在电影，游戏，博物馆，广告，新闻和许多其他媒体体验中看到它们。人工智能、增强现实、数据科学、无人机、机器人、新材料和显示器以及人机交互等信息技术的快速发展改变了计算媒体和艺术的格局。它们不仅可以用于娱乐，还可以用于教育。计算媒体和艺术领域的新机会定期出现。基于AR和AI生成的艺术越来越受欢迎，并显示出巨大的潜力。\n计算媒体和艺术的研究型硕士（MPhil）课程旨在将艺术和技术整合到教育和研究中。他们将专注于情感诉求和视觉交流，使用增强现实（AR），虚拟现实（VR），人工智能生成的艺术，信息图表和数据可视化等最新技术。他们将利用最先进的技术促进艺术与技术的相互作用，以创造社会影响。\n哲学硕士课程旨在培养学生获得计算媒体和艺术方面的知识和技能，如3D动画，工作室艺术，计算艺术，游戏开发，信息艺术等。学生将能够使用先进技术创建计算媒体和艺术。哲学硕士毕业生应表现出对该学科相关问题的良好工作知识，以便他或她成为他/她的专业知识专家，无论是作为个人还是作为雇员。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算媒体与艺术基础 (Foundations of Computational Media and Arts)\n动画艺术：从概念到制作 (Animation Art: From Concept to Production)\n中国书法的计算方法 (Computational Approach to Chinese Calligraphy)\n视觉传达与表达 (Visual Communication and Expression)\n互动叙事 (Interactive Storytelling)\n3D电脑动画 (3D Computer Animation)\n互动艺术：原则与实践 (Interactive Art: Principles and Practice)\n创意编码 (Creative Coding)\nAR/VR/MR/XR：概念、理论和技术 (AR/VR/MR/XR: Concepts, Theory and Techniques)\n基于计算媒体与艺术的辅助技术设计 (Assistive Technology Design based on Computational Media and Arts)\n面向艺术的机器学习 (Machine Learning for Art)\n创意展示项目 (Creative Showcase Projects)\n创意社交媒体 (Social Media for Creatives)\n虚拟现实和增强现实编程 (Programming for Virtual and Augmented Reality)\n艺术虚拟现实 (Virtual Reality for the Arts)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "考文垂大学",
+  "major_name": "电气汽车工程理学硕士",
+  "ename": "MSc Electrical Automotive Engineering",
+  "tags": "工科,电气电子,工程、环境与计算学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 21250英镑/年",
+  "requirements": "具有2:2荣誉学位，需要机械或汽车工程学科背景，但电气和电子工程、计算机硬件和软件工程以及其他相关技术学科（如数学或物理）的毕业生申请也会被考虑\n如果申请人没有这些正式资格，但拥有数年工作经验，且该职位通常由上述专业的荣誉毕业生担任，并能证明能够从该课程中受益，那么他们也将被考虑",
+  "objectives": "考文垂大学电气汽车工程理学硕士课程旨在提供满足现代化交通运输市场需求所需的专业知识，经过精心规划，它包含了电力、电子和通信的平衡组合，旨在培养经验丰富的专业工程师，这些工程师将在电气汽车工程市场中广受欢迎。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "功率半导体与转换器 (Power semiconductors and converters)\n传感器与检测技术 (Sensor and measurement technology)\n汽车电子与嵌入式系统 (Automotive electronics and embedded systems)\n全球专业发展-创业 (Global Professional Development – Entrepreneurship)\n汽车网络安全 (Automotive cybersecurity)\n汽车网络与信号处理 (Automotive networking and signal processing)\n储能与高压系统 (Energy storage and high voltage systems)\n电机 (Electrical machines)\n个人项目 (Individual project)",
+  "success_cases": ""
+}

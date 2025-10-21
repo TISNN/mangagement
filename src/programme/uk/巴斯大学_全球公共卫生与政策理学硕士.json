@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "全球公共卫生与政策理学硕士",
+  "ename": "MSc Global Public Health and Policy",
+  "tags": "社科,公共卫生,健康系",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 27800英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要健康心理学、健康与运动科学、健康科学、社会政策、社会科学、医学或运动与运动科学等相关学科背景。也考虑其他学科背景且有丰富相关工作经验的毕业生",
+  "objectives": "巴斯大学公共卫生与政策理学硕士课程旨在培养学生对改善个人和人群健康和福祉的方法的兴趣。为学生提供全球范围内公共卫生的深入基础。课程以强烈的全球视角，将公共卫生干预置于不同的社会背景下，特别政策。学生将探讨制定、实施和维持循证公共卫生政策的各种要素。这将帮助学生更好地理解必要的调整，以适应不同的环境、国家和地区。当学生在不同的环境中批判性地评估公共政策时，学生将培养出强大的实验、实践、分析和评估技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球公共卫生和健康决定因素介绍 (Introduction to global public health and determinants of health)\n问题定义和优先级 (Problem definition and prioritisation)\n确定公共卫生解决方案 (Identifying public health solutions)\n政策制定和实施 (Policy formation and implementation)\n全球公共卫生评估和监测 (Global public health evaluation and monitoring)\n公共卫生规模扩大和可持续性 (Public health scale up and sustainability)\n公共卫生实习论文 (Either public health placement dissertation)\n公共卫生实习 (Public health practicum)",
+  "success_cases": ""
+}

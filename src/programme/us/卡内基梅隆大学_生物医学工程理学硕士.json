@@ -1,0 +1,12 @@
+{
+  "school_name": "卡内基梅隆大学",
+  "major_name": "生物医学工程理学硕士",
+  "ename": "MS in Biomedical Engineering",
+  "tags": "工科,生物工程",
+  "introduction": "专业方向: 生物工程\n入学时间: 春季/秋季\n项目时长: 16-21个月\n项目学费: 50100美元/年",
+  "requirements": "获得认可的 4 年制大学的学士学位,在任何工程或工程相关学科,包括计算机科学、生物科学、物理、化学、数学或应用数学",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

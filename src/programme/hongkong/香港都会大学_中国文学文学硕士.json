@@ -1,0 +1,12 @@
+{
+  "school_name": "香港都会大学",
+  "major_name": "中国文学文学硕士",
+  "ename": "MA Chinese Literature",
+  "tags": "社科,文化,人文社会科学院",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 129600港币/年",
+  "requirements": "持有香港或其他地区认可的学士学位或同等学历；非中文主修学位持有人须证明具备研究中国文学的知识及能力；一篇约1000字的research statement，中、英文均可",
+  "objectives": "现今香港社会对中国语文人才的需求与日俱增。提高语文水平的不二法门，就是从古今文学经典吸取养料。香港都会大学中国文学文学硕士课程的开办，一方面继承中国文学的优良传统，培养学员的文化素养；另一方面，通过文学知识的累积，提升学员的语文水平。本课程亦将提供文学研究的专业训练，务求让学员与时并进，养成多角度且全面的分析能力，以增强学员日后在各行各业的竞争优势。\n香港都会大学中国文学文学硕士课程为有志从事中国文学研究及中文教育的人士而开办，也适合编辑、记者、文化工作者、行政管理等行业的人士修读。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "中国文学文献学与研究方法 (Chinese Literature Philology and Research Methods)\n中国文学分析方法 (Methods of Chinese Literature Analysis)\n中国古典小说与戏曲专题 (Selected Topics in Chinese Classical Novels and Operas)\n中国古典诗词专题 (Special topics in Chinese Classical Poetry)\n中国现当代文学专题 (Selected Topics in Modern and Contemporary Chinese Literature)\n台湾文学专题 (Special Topics in Taiwan Literature)\n香港文学专题 (Special Topics in Hong Kong Literature)\n作家选讲 (Lectures on Selected Writers)\n中国文学研究计划 (Chinese Literature Research Program)",
+  "success_cases": ""
+}

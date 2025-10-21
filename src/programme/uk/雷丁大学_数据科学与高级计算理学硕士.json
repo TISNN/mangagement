@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "数据科学与高级计算理学硕士",
+  "ename": "MSc Data Science and Advanced Computing",
+  "tags": "工科,计算机,计算机科学系",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 30950英镑/年",
+  "requirements": "具有high 2:2本科荣誉学位，需要计算机或相关学科背景（包括但不限于数学、工程、物理、化学、经济学）或相关工作经验，必须具备编程经验",
+  "objectives": "数据科学与高级计算理学硕士课程的目标学员是有抱负的数据科学家——大数据领域炙手可热的高级专业人士，该课程获得了英国计算机学会(BCS)的认证。该学位是为计算机科学及其相关学科的毕业生，以及IT专业人员和数据分析师设计的。随着数据产量的指数级增长和工作场所自动化的兴起，数据科学与高级计算课程旨在满足对熟练数据科学家和人工智能(AI)专家的高需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能与机器学习 (Artificial Intelligence and Machine Learning)\nPython应用数据科学 (Applied Data Science with Python)\n数据分析与挖掘 (Data Analytics and Mining)\n大数据与云计算 (Big Data and Cloud Computing)\n数据安全与伦理 (Data Security and Ethics)\n用于数据科学的数学与统计学 (Mathematics and Statistics for Data Science )\n调研研究 (Research Studies)\n硕士项目 (MSc Project)",
+  "success_cases": ""
+}

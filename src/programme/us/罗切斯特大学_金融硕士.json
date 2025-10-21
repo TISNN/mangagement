@@ -1,0 +1,12 @@
+{
+  "school_name": "罗切斯特大学",
+  "major_name": "金融硕士",
+  "ename": "MS in Finance",
+  "tags": "商科,金融",
+  "introduction": "专业方向: 金融\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1或1.5年\n项目学费: 81750美元/年\n项目规模: 100人\n平均成绩: 3.5\n男女比例: 59:41\n就业比例: 94%\n平均起薪: 67000美元",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

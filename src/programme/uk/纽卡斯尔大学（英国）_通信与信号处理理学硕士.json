@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "通信与信号处理理学硕士",
+  "ename": "MSc Communications and Signal Processing",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 30050英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要工科背景：电气与电子工程，计算机工程，机械工程，物理通信、信息与控制工程，电子信息与科学技术",
+  "objectives": "纽卡斯尔大学通信与信号处理理学硕士项目将使学生具备在通信和信号处理领域成为设计或开发工程师的必要理论和实践。学生将开发研究和获取知识的适应性技能。纽卡斯尔大学通信与信号处理理学硕士项目的亮点包括：覆盖通信工程和信号分析方法论的所有主要学科；采用理论和实践的方法综合应对先进通信系统；旨在采用创新教育技术帮助学生储备实用知识；设计技能和研究方法论。在完成纽卡斯尔大学通信与信号处理理学硕士项目后，许多学生成为电信和数字信号处理领域的设计和开发工程师，或从事深入研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "信号处理和估计 (Signal Processing and Estimation)\n高级移动和蜂窝通信 (Advanced Mobile and Cellular Communications)\n调制和编码 (Modulation and Coding)\n可重构硬件设计 (Reconfigurable Hardware Design)\n无线通信模拟 (Simulation of Wireless Communications (Course Work))\n无线电接收机算法实现 (Implementation of Wireless Receiver Algorithms)\n物联网和传感器网络 (Internet of Things and Sensor Networks)\n个人课题项目 (Individual Project)\n射频工程 (RF Engineering)\n有线和无线网络技术 (Wired and Wireless Network Technologies)\n高级多媒体系统 (Advanced Multimedia Systems)\n高级VLSI设计 (Advanced VLSI Design)\n生物特征识别 (Biometrics and Recognition)\n实时计算机系统 (Real Time Computer Systems)",
+  "success_cases": ""
+}

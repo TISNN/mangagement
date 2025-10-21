@@ -1,0 +1,12 @@
+{
+  "school_name": "旧金山大学",
+  "major_name": "数据科学硕士",
+  "ename": "MS Data Science",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n入学时间: 夏季\n项目时长: 1年\n项目学费: 48320美元\n项目规模: 80人\n平均成绩: 3.67\n国际学生: 44%\n男女比例: 60:40\n就业比例: 95%",
+  "requirements": "推论统计\n线性代数\n计算机编程- Java, Python或c\n能够用高级语言编写结构化程序(例如:对象、方法、函数)\n从文件读取/写入数据的能力\n三种基本控制结构(block, conditional, iteration)\n理解变量和数据类型(int, float, strong, boolean)\n熟悉基本的数据结构(list, dictionary, stack, queue) 建议学过微积分、线代、数据结构",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

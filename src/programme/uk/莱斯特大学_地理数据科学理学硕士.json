@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "地理数据科学理学硕士",
+  "ename": "MSc Geographical Data Science",
+  "tags": "理科,数据科学,地理、地质与环境学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 23650英镑/年",
+  "requirements": "具有二等荣誉学位或同等学历，不限专业背景，学校鼓励非标准资格的学生申请。学校也将考虑相关工作领域的专业经验，在这种情况下，申请人需要提供完整的细节，以便招生人员对其进行全面评估",
+  "objectives": "莱斯特大学地理数据科学理学硕士利用空间数据的独特特征（位置、距离和空间相互作用）来理解事情发生的地点、时间和原因。从不断扩大的开放数据获取生态系统到官方统计数据，从互联网内容到智慧城市倡议，我们生活的地方正越来越多地与数据纠缠在一起。从信息的空间维度中获得的洞察力带来了无数的机会。无论学生来自计算机科学、地理学、城市规划、环境研究、经济学还是任何其他学科，莱斯特大学地理数据科学理学硕士课程都提供了一个利用数据的空间性质的机会。使用广泛的数据类型和来源，学生学习如何使用数据科学编程语言（如R和Python）以及专业软件（如ArcGIS）来整理、策划、管理、分析和可视化地理数据，以更好地理解各种社会，经济和环境现象。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "GIS基础 (Fundamentals of GIS)\n数据科学实践概述 (Overview of Data Science Practice)\n数据科学统计学 (Statistics for Data Science)\n数据科学基础 (Fundamentals of Data Science)\n地理空间数据分析 (Geospatial Data Analytics)\n地理人工智能 (Geographical Artificial Intelligence)\n学位论文 (Dissertation)\nGIS在环境卫生方面的应用 (GIS in Environmental Health)\n变革研究：应用环境研究的技能与挑战 (Research for Change: Skills and Challenges of Applied Environmental Research)\n野外数据采集 (Field Data Capture)\n信息可视化 (Information Visualisation)\n模型数据 (Modelling Data)",
+  "success_cases": ""
+}

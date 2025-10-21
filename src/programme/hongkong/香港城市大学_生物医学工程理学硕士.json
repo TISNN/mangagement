@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "生物医学工程理学硕士",
+  "ename": "MSc Biomedical Engineering",
+  "tags": "工科,生物工程,工程学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 201000港币/年",
+  "requirements": "具有拥有工程、科学学位或同等学历；或\n有资格成为专业机构的研究生会员；或\n其他学位将由专家委员会根据具体情况进行考虑。\n注：优先考虑具有生物医学工程/科学或生物工程相关学术背景的申请者",
+  "objectives": "香港城市大学生物医学工程理学硕士课程聚焦于利用工程原理、技术和设计概念来研究医疗保健。这一领域对于通过教育和发展来改善医疗保健和生活质量的需求不断增加。而这一需求又推动了培养专业人才的需求，这些人才将推进现代医疗保健保健系统、治疗和技术的演进。香港城市大学生物医学工程理学硕士课程致力于向有志于在生物医学领域深入研究的工程师提供教育和培训机会，以提升工程在未来医疗保健领域的应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微系统技术  (Micro Systems Technology )\n生物医学设备制造  (Manufacturing of Biomedical Devices )\n生物医学仪器  (Biomedical-instrumentation )\n生物医学光子学  (Biomedical Photonics )\n生物医学工程设计  (Biomedical Engineering Design )\n生物医学安全与风险评估  (Biomedical-safety and Risk Assessment )\n人机界面  (Human Machine Interface )\n再生医学  (Regenerative Medicine )\n计算机控制系统  (Computer Controlled Systems )\n高级自动化技术  (Advanced Automation Technology )\n行业案例研究  (Industrial Case Study )\n纳米制造  (Nano-manufacturing )\n材料的力学性能：从金属到生物医学/生物材料  (Mechanical Behaviour of Materials: From Metallic to Biomedical/ Biological Materials )\n电子显微镜学  (Electron Microscopy )\n生物力学  (Biomechanics )",
+  "success_cases": ""
+}

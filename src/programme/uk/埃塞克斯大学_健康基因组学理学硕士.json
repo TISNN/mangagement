@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "健康基因组学理学硕士",
+  "ename": "MSc Health Genomics",
+  "tags": "理科,数据科学,生命科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 10月\n项目时长: 1年\n项目学费: 21700英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要相关学科背景，如：生物学、生物化学、生物医学科学、遗传学、药理学、医学、化学学位应该包含一些生物学/医学成分，包括:生物化学、分子生物学、分子遗传学、药物设计、免疫学、微生物学和病毒学也会根据具体情况考虑具有数据科学、生物信息学或计算机科学学位背景的申请者",
+  "objectives": "埃塞克斯大学健康基因组学理学硕士项目旨在训练学生分析与健康和疾病相关的基因组数据。学生将探索如何分析基因组序列，并将获得有关数据分析的实践经验，还将学习基因和基因组技术，并有机会发展自己的专业技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "基因技术与合成生物学 (Gene Technology and Synthetic Biology)\n基因组学 (Genomics)\n专业技能与生物科学业务 (Professional Skills and the Business of Biosciences)",
+  "success_cases": ""
+}

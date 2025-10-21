@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "网络弹性理学硕士",
+  "ename": "MSc Cyber Resilience",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有2:1荣誉学位，需要STEM（科学、工程、技术和数学）背景，具备技术计算经验的证据，具有非STEM背景或较低等级学位的学生将根据具体情况予以考虑",
+  "objectives": "拉夫堡大学网络弹性理学硕士课程超越了传统的网络安全，不仅网络攻击的预防，还攻击期间的服务维护和攻击后的快速恢复，该课程由NCSC（国家网络安全中心）临时认证，将为学生提供一套强大的技能，在现在和可预见的未来，这些技能在全球数字经济中受到雇主的高度重视。网络领域是广阔的，它包含了所有时间框架内的所有数字设备和所有数字通信，汽车、存档的健康数据、社交媒体互动、财务信息，甚至电力供应都受到影响，它是一个多方面的领域，不仅仅是技术计算，组织流程、个人行为、更广泛的社会规范和自然环境都很重要，归根结底，网络弹性的目标是确保人们依赖的关键服务即使受到攻击也能继续运行。拉夫堡大学网络弹性理学硕士课程旨在从一系列角度考虑弹性：数据、代码、个人、组织和环境，课程由领先的专家授课，并通过学校与英国和国际网络行业的紧密联系提供信息，通过弹性思维增强传统的网络安全，具有丰富的深度和广度，这些课程将在网络领域的各个方面建立学生的专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "网络弹性基础 (Foundations of Cyber Resilience)\n网络风险与终身弹性 (Cyber Risk and Whole Life Resilience)\n应用密码学 (Applied Cryptography)\n网络弹性人工智能 (AI for Cyber Resilience)\n网络与系统安全 (Network and System Security)\n事故与网络弹性 (Incidents and Cyber Resilience)\n网络攻击与防御 (Cyber Attack and Defence)\n网络研究伦理与方法论 (Cyber Research Ethics and Methodology)\n网络弹性项目 (Cyber Resilience Project)",
+  "success_cases": ""
+}

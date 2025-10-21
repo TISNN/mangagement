@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "政治经济理学硕士",
+  "ename": "MSc Political Economy",
+  "tags": "商科,经济,人文学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 19600英镑/年",
+  "requirements": "具有一等或2:1荣誉学位，需要社会科学背景",
+  "objectives": "政治经济学在分析政治制度、制度和市场之间的关系时，是理解这些复杂问题、其原因的多方面性质以及潜在解决方案途径的宝贵学科。\n思克莱德大学政治经济理学硕士将使学生对政治和经济系统如何相互作用有系统的了解。它鼓励学生将政治和经济视为政府、企业和公民相互影响的相互依存的领域。\n该计划汇集了对经济政策过程的国内和国际分析，使学生能够深入了解制定经济政策所涉及的政治动态。\n如果学生对公共政策或咨询感兴趣，他们还将有机会培养使用经济和政治数据进行统计分析所需的方法技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "比较政治经济学 (Comparative Political Economy)\n国际政治经济学 (International Political Economy)\n定量分析  (Quantitative Analysis)\n定量分析 2 (Quantitative Analysis 2)\n国际机构与制度 (International Institutions & Regimes)\n当代国际关系 (Contemporary International Relations)\n比较政治制度 (Comparative Political Institutions)\n比较公共政策 (Comparative Public Policy)\n研究设计原则 (Principles of Research Design)\n政策分析 (Policy Analysis)\n欧洲治理 (European Governance)",
+  "success_cases": ""
+}

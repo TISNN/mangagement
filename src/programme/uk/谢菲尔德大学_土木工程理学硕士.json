@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "土木工程理学硕士",
+  "ename": "MSc Civil Engineering",
+  "tags": "工科,土木工程,土木及结构工程学学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要满足课程要求的工程或科学学科背景申请者应在以下两个领域中都至少学习过一门课程：\n领域1：力学、结构学、结构；\n领域2：排水、流体、地基、基础工程、地质力学、土工技术、地面、液压、水电、卫生工程、土力学",
+  "objectives": "谢菲尔德大学土木工程理学硕士项目提供基础广泛的土木工程知识，涵盖岩土工程、结构和水工程，同时强调分析和设计。学生将剖析这三个领域及其内在的相互联系，使学生具备成为一名有能力的土木工程师的技能。 核心模块为学生提供工程分析和设计的基础。在第二学期，学生可以按照自己的兴趣从专业模块列表中进行选择。该系是以研究为主导的，这意味着学生将学习该领域的最新想法和概念，而高级研究项目为学生提供了一个更详细地探索土木工程当前问题的机会。学生将有能力制定解决问题的战略，例如使建筑更可持续、更高效，确保为子孙后代提供安全、清洁的供水，或解决沿海洪水和地下水污染问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "结构分析 (Structural Analysis)\n结构设计 (Structural Design)\n岩土工程设计 (Geotechnical Design)\n岩土材料的本构模型 (Constitutive Modelling of Geotechnical Materials)\n地下水工程 (Groundwater Engineering)\n工程水力学或工程水文学 (Engineering Hydraulics or Engineering Hydrology)\n土木工程研究计划书 (Civil Engineering Research Proposal)\n高级工程研究 (Advanced Engineering Research Study)",
+  "success_cases": ""
+}

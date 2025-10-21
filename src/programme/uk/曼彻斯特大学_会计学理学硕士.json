@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "会计学理学硕士",
+  "ename": "MSc Accounting",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 1年\n项目学费: 36000英镑/年",
+  "requirements": "具有英国大学一等或2:1荣誉学位或同等学历（2:1，均分达到60%）\n- 需要会计学位或同等学历，会计课程成绩优秀者优先考虑，相关和高级英国专业会计资格（或同等学历）也将被考虑\n- 学校也会考虑攻读工商管理、商业管理、商业或经济学学位的申请者，优先考虑具备会计学本科学位的申请者\n- 申请者需要在整个学位期间展现出很强的会计背景，最后一年主修会计或会计专业也会被考虑，申请者必须在本科阶段学习过财务会计或管理会计\n- 申请本课程不需要GMAT/GRE，但在某些情况下，如果申请者的学位没有包含足够的相关定量课程，招生团队可能会在对申请进行初步审查后要求申请者提供GMAT/GRE",
+  "objectives": "曼彻斯特大学会计学理学硕士项目向学生教授发展会计理论和实践的高级知识，以努力提升学生未来职业前景，培养会计行业的精英为教学目标。\n曼彻斯特大学会计学理学硕士项目的特色：\n帮助学生深入理解会计理论和实践，并培养学生的批判性思维。\n全面介绍会计研究的各方面，并指导学生的研究工作；\n提升学生在财务报告、管理会计、审计和管理方面的思考和辩论能力；\n实务动向，根据市场需求来培养学生的实用技能，同时也注重培养学生的科研能力，以便能胜任学术界的工作；\n院系教授与会计实务届关系紧密。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级管理会计 (Advanced Management Accounting)\n企业财务报告 (Corporate Financial Reporting)\n定性研究方法 (Qualitative Research Methods)\n会计中的定量研究方法 (Quantitative Research Methods in Accounting)\n财务报表分析 (Financial Statement Analysis)\n国际会计实务与法规 (International Accounting Practice and Regulation)\n公司治理 (Corporate Governance)\n保证和可信的公司报告 (Assurance and Credible Corporate Reporting)\n基于市场的会计研究要素 (Elements of Market Based Accounting Research)\n会计学的跨学科观点 (Inter-Disciplinary Perspectives on Accounting)",
+  "success_cases": ""
+}

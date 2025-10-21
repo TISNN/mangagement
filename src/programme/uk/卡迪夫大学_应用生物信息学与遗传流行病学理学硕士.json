@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "应用生物信息学与遗传流行病学理学硕士",
+  "ename": "MSc Applied Bioinformatics and Genetic Epidemiology",
+  "tags": "理科,生物,医学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 28200英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要相关学科领域背景，具有2:2荣誉学位的申请者将根据个人情况进行考虑\n如果申请者没有学位或以2:2的成绩获得学位，其申请可能会根据至少两年的相关专业经验进行考虑。请提供其他证据来支持申请",
+  "objectives": "卡迪夫大学应用生物信息学与遗传流行病学硕士项目旨在为个人提供一个探索、分析和解释当代生物学数据的平台，本课程提供生物信息学和遗传流行病学硕士水平的指导，重点是遗传流行病学，课程以遗传流行病学为重点，非常适合生命科学、数学或计算机科学专业的毕业生。卡迪夫大学应用生物信息学与遗传流行病学硕士项目将为学生提供计算和统计生物科学的技能和知识，为学生在学术研究、生物技术或制药和医疗保健行业的开展具有挑战性的职业生涯做好准备。生物信息学是利用计算工具来理解生物学的研究领域，遗传流行病学是研究遗传因素如何在决定健康和疾病方面发挥作用，以及它们与环境的相互作用。除了发展计算和统计生物科学的核心技能外，学生还将基因发现方法，包括GWAS，探索拷贝数变异(CNV)分析，以及后GWAS方法，如途径/网络，基因集和多基因流行病学方法。卡迪夫大学应用生物信息学与遗传流行病学硕士项目旨在满足学术研究、生物技术、制药和保健行业对具有生物信息学技能的有能力的信息学家日益增长的需求，提供计算和统计生物科学方面的指导，学生将培养额外的补充技能，能够在多学科生物信息学领域高效工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学位论文：遗传流行病学 (Dissertation: Genetic Epidemiology)\n生物信息学与遗传流行病学计算 (Computing for Bioinformatics and Genetic Epidemiology)\n生物信息学与遗传流行病学统计 (Statistics for Bioinformatics and Genetic Epidemiology)\n生物信息学导论 (Introduction to Bioinformatics)\n生物信息学与生物统计学案例研究 (Case Studies in Bioinformatics and Biostatistics)\n遗传流行病学：关联与联系 (Genetic Epidemiology: Association and Linkage)\n后基因组关联研究遗传流行病学 (Post-GWAS Genetic Epidemiology)",
+  "success_cases": ""
+}

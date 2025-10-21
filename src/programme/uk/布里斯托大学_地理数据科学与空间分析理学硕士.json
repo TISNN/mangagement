@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "地理数据科学与空间分析理学硕士",
+  "ename": "MSc Geographic Data Science and Spatial Analytics",
+  "tags": "工科,地球科学,地理科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31700英镑/年",
+  "requirements": "具有2:1荣誉学位，申请者必须在应用统计学、数学、机器学习、数据挖掘、数量地理学、Python或R中的至少1门课程中成绩达到60%或同等水平，通过成绩单证明，数据科学的在线课程可能根据具体情况予以考虑对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩\n学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们至少具备以下其中一项：\n- 数据科学或地理/城市规划领域相关工作经验的证据（至少一年）；\n- 数据科学、地理、城市研究、农村发展或区域研究的相关研究生学历\n如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关工作经验和/或资格",
+  "objectives": "布里斯托大学地理数据科学与空间分析理学硕士项目旨在帮助学生使用数据和分析来改善城市和解决空间问题。学生将学习如何利用数据科学中的前沿工具和方法来分析空间数据，以应对跨不同空间尺度的挑战:从社区和城市到区域和超国家系统。无论学生的背景是地理、规划，更广泛地说，是社会科学或计算机科学和工程等数学科学，布里斯托大学地理数据科学与空间分析理学硕士项目都将帮助您在地理数据科学和空间分析的动态领域取得成功。\n学生将掌握数据科学和机器学习算法、工具和数据结构，并应用它们来理解城市分析和城市科学的核心理论和概念。学生将能够使用制图和地理理论和概念来绘制和建模大地理数据，了解科学计算和数据基础设施的主要工程概念和原理，并使用它们来模拟智能城市和城市数字基础设施。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文:地理数据科学与空间分析理学硕士 (Dissertation: MSc Geographic Data Science and Spatial Analytics)\n城市分析与城市科学 (Urban Analytics and City Science)\n地理中的数据科学与机器学习 (Data Science and Machine Learning in Geography)\n地理数据测绘与建模 (Mapping and Modelling Geographic Data in R)\n科学计算概论 (Introduction to Scientific Computing)\n咨询项目 (Consultancy Project)\n人文地理学的定性研究方法 (Qualitative Research Methods in Human Geography)\n地理信息系统与遥感环境政策与管理导论 (An Introduction to GIS and Remote Sensing for Environmental Policy and Management)\n量化气候风险 (Quantifying Climate Risks)",
+  "success_cases": ""
+}

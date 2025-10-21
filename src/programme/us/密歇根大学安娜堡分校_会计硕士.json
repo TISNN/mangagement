@@ -1,0 +1,12 @@
+{
+  "school_name": "密歇根大学安娜堡分校",
+  "major_name": "会计硕士",
+  "ename": "Master of Accounting",
+  "tags": "商科,会计",
+  "introduction": "专业方向: 会计\n入学时间: 秋季\n项目时长: 8个月\n项目学费: 54000美元\n项目规模: 56人\n平均成绩: 3.7\n平均G: 663\n国际学生: 29%\n男女比例: 45:55\n就业比例: 100%\n平均起薪: 62000美元",
+  "requirements": "需要完成财务会计原理、管理会计原理、中级财务会计、微观经济学、统计或商业统计的先修课程(获得C或更好的成绩)",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

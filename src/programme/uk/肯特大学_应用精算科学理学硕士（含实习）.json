@@ -1,0 +1,12 @@
+{
+  "school_name": "肯特大学",
+  "major_name": "应用精算科学理学硕士（含实习）",
+  "ename": "MSc Applied Actuarial Science with Placement",
+  "tags": "商科,金工金数,数学、统计学与精算科学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 2年\n项目学费: 24700英镑/年",
+  "requirements": "具有良好的第一学位，需要精算学背景，或涵盖精算师协会和精算师考试的全部或大部分核心原则阶段科目的学位，学校也可能接受具有其他学科良好第一学位并且已通过大部分核心原则阶段科目的申请者\n所有申请者都将根据具体情况予以考虑，其他资格、专业资格和相关经验也可能被考虑在内",
+  "objectives": "精算师资格是进入保险公司、投资、养老金、医疗保健和银行等各种职业的通行证——不仅在英国，而且在世界各地，肯特大学应用精算科学理学硕士课程适合那些已经完成精算科学的第一学位或研究生文凭、或精算科学理学硕士、或已经学习核心原理阶段大部分早期科目的学生。作为英国为数不多的提供精算科学的大学之一，肯特大学的课程以其强大的理论和实践专业知识的结合而闻名，教学人员包括许多来自专业实践的精算师以及专业研究人员。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "核心精算实践 1 (Core Actuarial Practice 1)\n核心精算实践 2 (Core Actuarial Practice 2)\n专业精算实践 (Specialist Actuarial Practice)\n时间序列预测算法 (PROPHET)\n专业技能 (Professional Skills)\n建模实践 (Modelling Practice)\n贝叶斯机器学习 ( Bayesian Machine Learning)\n行业实习经历 (Industrial Placement Experience)\n行业实习报告 (Industrial Placement Report)\n人寿保险 (Life Insurance)\n投资与金融 (Investment and Finance)\n一般保险准备金与资本模型 (General Insurance Reserving and Capital Modelling)\n一般保险定价 (General Insurance Pricing)\n企业风险管理 (Enterprise Risk Management)",
+  "success_cases": ""
+}

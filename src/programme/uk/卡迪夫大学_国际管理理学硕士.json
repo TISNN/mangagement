@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "国际管理理学硕士",
+  "ename": "MSc International Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 28450英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要相关学科领域背景，如商业、人文或社会科学学科\n如果申请者没有相关领域的学位，学校可以考虑专业经验，需要提供证据证明",
+  "objectives": "全球化意味着世界比以往任何时候都更加紧密相连，贸易和文化交流的增加使组织有机会在国际上扩张并满足对跨越大陆的商品和服务不断增长的需求。然而，进步是有代价的，受全球市场影响的人和地方在就业和环境、监管和责任、政治和暴利等方面面临着巨大的挑战。卡迪夫大学国际管理理学硕士项目解决了这些全球性问题，该课程将帮助学生提出与商业道德有关的问题，以便毕业生成为负责任的国际经理，能够为社会面临的重大挑战提供可持续且符合道德的解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际商业环境 (International Business Environment)\n全球商务监管模式和标准流程 (Governance、Regulation and Standards in Global Business)\n国际管理 (International Management)\n跨文化管理 (Cross Cultural Management)\n国际管理课题项目 (The International Management Project)\n学术技能和研究方法 (Academic Skills and Research Methods)",
+  "success_cases": ""
+}

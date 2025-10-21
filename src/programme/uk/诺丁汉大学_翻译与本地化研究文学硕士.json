@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "翻译与本地化研究文学硕士",
+  "ename": "MA Translation and Localisation Studies",
+  "tags": "社科,语言,文化、语言与区域研究学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 24300英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要艺术、人文或社会科学学科背景\n具备良好的语言能力（英语和另一种语言）和计算机素养\n本课程可能适合具有以下领域之一的本科学位申请者：笔译、口译、英语文学、语言学、语言（相关）研究（如商务英语；现代语言与商业）、区域研究（如德语、法语、西班牙语、汉语研究）、软件开发/工程、媒体研究和数字人文学科\n语言组合 - 申请者必须具备英语能力，并且具备以下其中一项能力：\n阿拉伯语、汉语（普通话）、法语、德语、意大利语、日语、 汉语、葡萄牙语、俄罗斯语、西班牙语\n来自非英语国家并满足雅思要求的国际学生自然具备双语能力，因此，如果申请者以前在上述任何领域获得学位，都将适合申请该专业",
+  "objectives": "诺丁汉大学翻译与本地化研究文学硕士课程将为学生提供知识和技能，以利用本地化为翻译提供的职业机会。学生将了解不同情况下本地化的关键要求，并全面了解可用的技术工具。学生还将通过查看营销策略和业务需求来了解本地化的“原因”。实际项目将使学生能够将理论付诸实践，并按照最新的国际标准进行工作。课程在设计时考虑到了就业能力，学生将在整个过程中得到支持，以发展当今行业所需的技能和知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "本地化简介 (Introduction to Localisation)\n翻译工具箱 (Translator's Toolbox)\n本地化实践 (Localisation Practice)\n有针对性的翻译和本地化项目 (Targeted Translation and Localisation Project)\n实用翻译 (Practical Translation)\n语言专业人士英语 (English for Language Professionals)\n视听翻译：可达性 (Audiovisual Translation: Accessibility)\n翻译文本 (Translating Texts)\n世界文学：文本与语境：比较文学导论 (World Literatures - Texts and Contexts: Introduction to Comparative Literature)",
+  "success_cases": ""
+}

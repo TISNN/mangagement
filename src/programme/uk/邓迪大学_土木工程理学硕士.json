@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "土木工程理学硕士",
+  "ename": "MSc Civil Engineering",
+  "tags": "工科,土木工程,理工学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 27900英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要相关学科背景或有适当的专业经验",
+  "objectives": "邓迪大学土木工程理学硕士项目得益于邓迪大学土木工程学院的研究优势和在当前土木工程行业中的产业经验，适合想要在近期或本科毕业后获得更高学历的人，也适合于拥有丰富工作经历的人。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级土壤力学和地球环境工程 (Advanced Soil Mechanics and Geoenvironmental Engineering)\n混凝土:可持续利用和环境影响评估 (Concrete: Sustainable Use and Environmental Impact Assessment)\n混凝土:建筑系统I和II (Concrete : Construction Systems I and II)\n混凝土:耐久性设计、评估和维修 (Concrete: Design for Durability, Assessment and Repair)\n高级结构分析II (Advanced Structural Analysis II)\n健康、安全和环境管理 (Health and Safety and Environmental Management)\n流体-结构相互作用的流体动力学 (Hydrodynamics of Fluid-Structure Interaction)\n研究方法与毕业设计 (Research Methods and Diploma Project)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "数字营销理学硕士",
+  "ename": "MSc Digital Marketing",
+  "tags": "商科,市场营销,商业与管理学院",
+  "introduction": "专业方向: 市场营销\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23900英镑/年",
+  "requirements": "除了具备相关学位者，具有相关专业资格或工作经验者也可以被考虑",
+  "objectives": "伦敦大学皇家霍洛威学院数字营销理学硕士项目旨在为学生提供数字时代所需的知识和技能，培养从数字品牌和广告到消费者旅程和指标的360度数字营销视角。作为英国少数几个专业数字营销硕士学位项目之一，学生将在历史悠久的伦敦大学学习，经验丰富的学术人员进行授课，每周两天的灵活学习，结合广泛的自学，学生将在独特的批判性意识形态的背景下进行研究。毕业时，学生能够创建和分析数字战略，做出明智的战术和战略决策，在数字营销和其他相关学科有良好的职业前景。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字营销概论 (Introduction to Digital Marketing)\n搜索和指标 (Search and Metrics)\n设计思维 (Design Thinking)\n数字品牌故事 (Digital Brand Storytelling)\n网络文化中的数字消费者 (Digital Consumer in Online Culture)\n数字时代的广告 (Advertising in a Digital Era)\n应用数字研究方法 (Applied Digital Research Methods)\n个人商务项目 (Individual Business Project)\n专业发展基础 (Foundations in Professional Development)",
+  "success_cases": ""
+}

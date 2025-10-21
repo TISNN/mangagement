@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "高级听力学：听觉前庭医学理学硕士",
+  "ename": "MSc Advanced Audiology: Audiovestibular Medicine",
+  "tags": "社科,医学,大脑科学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有英国医学学位或同等学历，申请者还应在其所属医学专业具备相关毕业后临床经验，由于将在NHS内进行临床实习，学生也需要满足披露和禁止服务（DBS）检查和职业健康的要求",
+  "objectives": "伦敦大学学院耳科研究所是英国最大、基础最广泛的听力和耳聋研究学术单位之一，使学生能够从其工作人员的一系列临床和研究专业知识中受益。相关的皇家国家耳鼻喉科医院和伊士曼牙科医院拥有全国最大的临床听力科单位。\n伦敦大学学院高级听力学：听觉前庭医学理学硕士项目旨在为希望从事听觉前庭医学职业的医生提供必要的理论、临床和研究技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "音频前庭医学：研究项目 (Audio Vestibular Medicine: Research Project)\n听觉前庭系统的解剖学和生理学 (Anatomy and Physiology of the Audio-Vestibular System)\n信号、系统、声学和耳朵 (Signals, Systems, Acoustics and the Ear)\n研究方法和统计 (Research Methods and Statistics)\n影像学 (Imaging)\n诊断听力学 (Diagnostic Audiology)\n 扩音和听力康复简介 (Introduction to Amplification and Aural Rehabilitation)\n平衡 (Balance)\n儿科听力学 (Paediatric Audiology)\n听觉处理和相关疾病 (Auditory Processing and Related Disorders)\n前庭康复 (Vestibular Rehabilitation)\n听觉植入的进展 (Advances in Auditory Implants)\n耳鸣和听觉过敏的高级治疗 (Advanced Management of Tinnitus and Hyperacusis)\n听觉前庭医学的临床诊断 (Clinical Diagnostics for Audiovestibular Medicine)",
+  "success_cases": ""
+}

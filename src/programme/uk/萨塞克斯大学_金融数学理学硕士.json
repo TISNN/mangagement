@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "金融数学理学硕士",
+  "ename": "MSc Financial Mathematics",
+  "tags": "商科,金工金数,数学与物理科学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 24250英镑/年",
+  "requirements": "通常应具有英国2:2本科荣誉学位或以上水平或同等学历\n背景应该包含相当高含量的数学内容，展示微积分、概率和统计学，微分方程和一些数值分析/科学计算/编程/建模方面的的知识\n数学、金融学、经济学、商学、科学、工程学或计算背景的申请者非常适合本课程\n具备其他同等专业资格或经验的申请者也可能会被该专业考虑",
+  "objectives": "萨塞克斯大学金融数学理学硕士项目能为具有科学、工程和数学背景的毕业生开设，旨在使学生了解定量金融的主要方面，包括一般性的金融理论、金融模型与编程知识。萨塞克斯大学金融数学理学硕士项目基于专业知识建立，涵盖诸多内容，如：利率理论、套利理论、GARCH模型、公司财务、期权定价模型与数值分析、C语言和Java编程、数学计算软件使用等。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文（金融数学） (Dissertation (Financial Mathematics) )\n公司财务 (Corporate Finance)\n基于MATLAB的金融计算 (Financial computing with MATLAB)\n金融数学 (Financial Mathematics)\n金融与时间序列计量经济学 (Financial and Time Series Econometrics)\n金融资产组合分析 (Financial Portfolio Analysis)\n金融与工业数学模型 (Mathematical Models in Finance and Industry)\n高级数值分析 (Advanced Numerical Analysis)\n密码学 (Cryptography)\n功能分析 (Functional Analysis)\n数学生物学导论 (Introduction to Mathematical Biology)\n高级偏微分方程 (Advanced Partial Differential Equations)\n连续介质力学 (Continuum Mechanics )\n动力系统 (Dynamical Systems)\n金融投资公司风险分析 (Financial Invest & Corp Risk Analysis)",
+  "success_cases": ""
+}

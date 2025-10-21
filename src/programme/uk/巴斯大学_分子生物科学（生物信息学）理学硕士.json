@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "分子生物科学（生物信息学）理学硕士",
+  "ename": "MSc Molecular Biosciences (Bioinformatics)",
+  "tags": "理科,生物,生物学与生物化学系",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 33200英镑/年",
+  "requirements": "具有high 2:2荣誉学位或同等学历，拥有任何生物学、计算或数学学科的本科学位，例如生物科学、医学、生物医学、生命科学、营养兽医、生物技术、药学、药理学或计算机科学",
+  "objectives": "本课程让您了解生物系统的分子基础，并着重于应用这些知识改善人类健康和疾病、食品生物安全和可持续生物技术。学生将学会运用计算方法来回答生物学问题，从细菌流行病学、健康衰老和基因组医学到进化和保护生物学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物信息学的发展 (Advances in bioinformatics)\n拓宽视野 (Broadening horizons)\n拓宽视野 (Broadening horizons)\n研究项目1 b (Research project 1b)\n研究项目2 (Research project 2)\n分子系统发生学和流行病学 (Molecular phylogenetics and epidemiology)\n应用生物科学数据 (Applied data science in biology)",
+  "success_cases": ""
+}

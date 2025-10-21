@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "信号处理与通信理学硕士",
+  "ename": "MSc Signal Processing and Communications",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 37300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，通常需要电气和/或电子工程背景，专攻信号处理和/或通信\n学校也会考虑具备相关领域背景的申请者，比如计算机科学、机器学习、物理学或数学\n典型的录取通常要求申请者具备英国一等荣誉学位或同等学历，并且需要在基础课程如数学、信号与系统，概率与统计和通信与信号处理中取得高分，此外，一些课程和/或最终硕士项目可能需要编程或学习一门新的编程语言，因此申请者通常需要展示高级编程语言的实践知识和/或经验",
+  "objectives": "爱丁堡大学信号处理与通信理学硕士项目为本科生和从业者提供信号处理和通信的广泛训练，适合有意向开发产业相关专业知识和技能的近期毕业生，也适合于准备从事学术或产业研究或在专业咨询企业中就业的学生，为学生提供接触信号处理和通信中最先进研究问题的机会。 在爱丁堡大学信号处理与通信理学硕士项目中，学生将深入了解信号处理与通信的理论基础和尖端研究课题，包含压缩感知、深神经网络、无线通信理论和数值贝叶斯方法。此外，有意向参与爱丁堡大学信号处理与通信理学硕士项目的工程师或其他就业人士可以选择利用业余时间学习。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字通信基础 (Digital Communication Fundamentals)\n离散时间信号分析 (Discrete-Time Signal Analysis)\n图像处理 (Image Processing)\n数字信号处理实验室 (Digital Signal Processing Laboratory)\n概率、估计理论与随机信号 (Probability, Estimation Theory and Random Signals (PETARS))\n高级无线通信 (Advanced Wireless Communication)\n高级编码技术 (Advanced Coding Techniques)\n信号处理中的机器学习 (Machine Learning in Signal Processing)\n自适应信号处理 (Adaptive Signal Processing)\n阵列处理方法和多进多出系统 (Array Processing Methods and MIMO Systems)",
+  "success_cases": ""
+}

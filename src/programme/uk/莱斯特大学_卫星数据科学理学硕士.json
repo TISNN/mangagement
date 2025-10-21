@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "卫星数据科学理学硕士",
+  "ename": "MSc Satellite Data Science",
+  "tags": "工科,地球科学,地理、地质与环境学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 23650英镑/年",
+  "requirements": "具有二等荣誉学位或同等学历，不限专业，学校鼓励具有非标准资格的学生申请\n学校也会充分考虑成熟学生在相关工作领域获得的专业经验。在这种情况下，申请人需要提供完整的详细信息，以便招生人员进行全面评估",
+  "objectives": "莱斯特大学卫星数据科学理学硕士项目使学生了解遥感原理，同时能够编写计算机程序，特别是Python，并使用高性能计算基础设施。该项目提供了数据分析技术的广泛基础教育，适合在多个行业的数据科学职业。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "遥感 (Remote sensing)\n对大气的地球观测 (Earth observations of the atmosphere)\n数据科学R语言 (R for Data Science)\n地理信息系统原理 (Fundamentals of GIS)\nPython中的卫星数据分析 (Satellite Data Analysis in Python)\n大数据和预测分析 (Big Data and Predictive Analytics)\n现场数据采集 (Field Data Capture)\n地理空间数据分析 (Geospatial Data Analytics)",
+  "success_cases": ""
+}

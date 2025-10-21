@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "教育学硕士（常规方向）",
+  "ename": "Master of Education (Generalist Strand)",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 229800港币/年",
+  "requirements": "具有学士学位或同等学历",
+  "objectives": "香港大学教育学（通识方向）硕士项目没有专业课程。它允许学生根据兴趣或需要选择不同领域的七门选修课， 不希望就读某一特定专业方向的申请者可以考虑这个方向。香港大学教育学（通识方向）硕士项目旨在满足经验丰富的教育工作者以及过渡到教育部门的专业人员的需要，包括教师、管理人员、政策制定者和其他致力于改善教育的人。项目寻求来自不同背景的学生，不仅是教育领域，也包括金融、法律和艺术等领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育问题与研究 (Educational Issues and Research)\n研究项目或专业作品集 (Research Project or Professional Portfolio)\n统计方法概论 (Introduction to Statistical Methods)\n定性研究方法：研究设计、数据收集与分析 (Qualitative Methods: Research Design, Data Collection and Analysis)\n教育中的叙述分析 (Narrative Analysis in Education)\n教育评价研究方法 (Methods for Evaluation Research in Education)\n心理测量学原理与方法概论  (Introduction to Psychometric Principles and Methods)\n课程比较视角 (Comparative Perspectives on Curriculum )\n文学与英语语言艺术 (Literature and Language Arts in English)",
+  "success_cases": ""
+}

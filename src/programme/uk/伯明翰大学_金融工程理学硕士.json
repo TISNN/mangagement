@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "金融工程理学硕士",
+  "ename": "MSc Financial Engineering",
+  "tags": "商科,金工金数,工程与物理科学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 31390英镑/年",
+  "requirements": "具有2:1荣誉学位，需要数学或包含高等数学成分的专业背景",
+  "objectives": "金融工程是一个多学科领域，涉及计算工程应用、软件工程、计算机编程、基础数学和统计理论，旨在分析和管理金融问题。在伯明翰大学金融工程理学硕士项目中，学生将强化自身数学金融水平，并学习最先进的计算和编程技术，增强自身就业竞争力。项目毕业生深受经济、金融、银行、精算科学、保险和工业管理等行业青睐。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数学金融 (Mathematical Finance )\n数值方法与数值线性代数 (Numerical Methods and Numerical Linear Algebra )\n高等数学金融 (Advanced Mathematical Finance )\n金融工程项目 (Financial Engineering Project)\n应用统计学 (Applied Statistics )\n财经统计方法 (Statistical Methods in Finance and Economics )\n整数规划与组合优化 (Integer Programming and Combinatorial Optimisation )\n非线性规划I与启发式优化 (Nonlinear Programming I and Heuristic Optimisation)\n博弈论与多准则决策 (Game Theory and Multicriteria Decision Making )",
+  "success_cases": ""
+}

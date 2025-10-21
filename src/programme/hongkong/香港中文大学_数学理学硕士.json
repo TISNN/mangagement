@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "数学理学硕士",
+  "ename": "MSc Mathematics",
+  "tags": "理科,数学,理学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 150000港币/年",
+  "requirements": "需要提供B等级证明，申请者应该主修数学或相关领域",
+  "objectives": "香港中文大学数学理学硕士项目设有数学和大数据分析与计算两个进修方向，致力于为学生提供前沿的理论知识和专业的实践训练，为学生的职业发展打下坚实的基础。香港中文大学数学理学硕士项目的课程涵盖广泛，涉及代数、几何、数值分析、计算机科学及其它应用数学领域的内容，以满足学生多样化的学术兴趣。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分析学 (Analysis )\n线性分析 (Linear Analysis)\n代数学与几何学 (Algebra & Geometry)\n几何中的微积分和代数方法 (Differential and Algebraic Methods in Geometry)\n傅里叶分析 (Fourier Analysis)\n逆问题导论 (Introduction to Inverse Problems)\n计量经济学原理与数据分析 (Econometric Principles and Data Analysis)\n概率与随机分析 (Probability and Stochastic Analysis)\n概率论 (Probability Theory)\n离散数学 (Discrete Mathematics)\n复变分析及其应用 (Complex Analysis and Its Applications)\n物流数学 (Mathematics for Logistics)\n优化和建模 (Optimization and Modeling)\n金融数学 (Financial Mathematics)\n变分法 (Calculus of Variations)",
+  "success_cases": ""
+}

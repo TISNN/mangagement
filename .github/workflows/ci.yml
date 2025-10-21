@@ -1,0 +1,64 @@
+name: 持续集成
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  lint-and-build:
+    name: 代码检查和构建
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Node.js 环境
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: 安装依赖
+        run: npm ci
+
+      - name: 运行代码检查
+        run: npm run lint
+        continue-on-error: true
+
+      - name: 构建项目
+        run: npm run build
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+
+      - name: 检查构建产物
+        run: |
+          if [ -d "dist" ]; then
+            echo "✅ 构建成功,产物目录已生成"
+            ls -lah dist/
+          else
+            echo "❌ 构建失败,未找到产物目录"
+            exit 1
+          fi
+
+  # 可选: 依赖安全检查
+  security-check:
+    name: 安全检查
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: 运行安全审计
+        run: npm audit --audit-level=moderate
+        continue-on-error: true
+

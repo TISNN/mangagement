@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "呼吸道医学理学硕士",
+  "ename": "MSc Respiratory Medicine",
+  "tags": "社科,医学,医学与牙科科学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31390英镑/年",
+  "requirements": "具有2:1荣誉学位或同等专业资格（如护理、物理治疗、生物医学科学或医学学位）\n学校会根据具体情况考虑其他学位等级和/或相关资格以及呼吸道医学工作经验",
+  "objectives": "伯明翰大学呼吸道医学理学硕士项目课程为学生提供呼吸内科常见病症的概述、诊断和管理，以及公共卫生、社区和二级保健投入与专业整体服务知识。使用讲座、教程、实践课程和基于工作场所的元素混合授课。将为初级或中级护理的呼吸专科医生(医疗或相关医疗专业人员)提供专业培训。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "二级保健中的呼吸医学 (Respiratory Medicine in Secondary Care)\n社区呼吸医学 (Respiratory Medicine in the Community)\n流行病学统计与研究方法 (Epidemiology Statistics and Research Methods)\n卫生信息与卫生信息学 (Health Information and Health Informatics)\n卫生保健评估与调试 (Health Care Evaluation and Commissioning )\n卫生领导与管理导论 (Introduction to Leadership and Management for Health )\n健康经济学 (Health Economics)\n系统回顾与证据综合 (Systematic Reviews and Evidence Synthesis)\n职业卫生实践的原则与实践 (Principles and Practices of Occupational Health Practice)",
+  "success_cases": ""
+}

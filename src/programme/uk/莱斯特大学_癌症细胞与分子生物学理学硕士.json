@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "癌症细胞与分子生物学理学硕士",
+  "ename": "MSc Cancer Cell and Molecular Biology",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23650英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要生物科学或相关学科背景；学校也会考虑适当的行业经验",
+  "objectives": "莱斯特大学癌症细胞与分子生物学理学硕士项目旨在让学生了解细胞生物学、分子遗传性与组织病理学方面的前沿知识并参与相关实践训练，以便掌握癌症研究的最新方法。莱斯特大学癌症细胞与分子生物学理学硕士项目包括四个月的教学实验，六个月的授课以及一个独立实验室研究项目。学生不仅可以掌握癌症研究中细胞和分子过程的知识，同时也将学会批判分析研究数据和研究报告，并应用于实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分子生物学技术概论 (Introduction to Molecular Techniques)\n细胞生物学研究方法 (Research Methods in Cell Biology)\n癌症生物学研究方法 (Research Methods in Cancer Biology)\n癌症生物学高级议题 (Advanced Topics in Cancer Biology)\n实验室研究项目 (Laboratory Research Project)",
+  "success_cases": ""
+}

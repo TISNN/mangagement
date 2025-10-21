@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯大学",
+  "major_name": "土木环境工程硕士",
+  "ename": "Master of Civil and Environmental Engineering",
+  "tags": "工科,环境工程",
+  "introduction": "专业方向: 环境工程\n入学时间: 秋季/春季\n项目时长: 30学分\n项目学费: 52070美元/年",
+  "requirements": "2学期微积分课程,1学期微分方程,1年化学,1学期化学,1学期生物,1学期流体力学",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

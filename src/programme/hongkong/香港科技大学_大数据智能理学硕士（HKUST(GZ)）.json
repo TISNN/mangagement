@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "大数据智能理学硕士（HKUST(GZ)）",
+  "ename": "MSc Data-Centric Artificial Intelligence Technology (HKUST(GZ))",
+  "tags": "工科,计算机,香港科技大学（广州）",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 2年\n项目学费: 149000人民币/年",
+  "requirements": "具有认可机构颁发的学士学位或同等学历\n具有以下资格的申请者将被优先考虑：\n- 具有数据科学或人工智能背景的良好荣誉学位；或\n- 具有相关学科的良好荣誉学位以及2年IT行业工作经验；或\n- 具有数据科学或人工智能背景的良好学士学位以及2年IT行业工作经验。\n学校也会考虑具备数据分析背景的申请者",
+  "objectives": "香港科技大学（广州）大数据智能理学硕士项目旨在培养学生成为拥有先进的大数据、人工智能知识和技能的工业和商业部门的技术领导者。该项目实行双导师制度，可使每位学生都能获得来自校内的一名学术导师和一名工业界导师共同指导。被邀请的工业界导师都拥有世界一流大学的博士学位，并在行业领先的科技企业有丰富的实践研究经验。\n香港科技大学（广州）大数据智能理学硕士项目还为每位学生提供为期一年的工业界实习，实习单位为全球各类龙头企业，如NAVER、三星、微软亚洲研究院（MSRA）、阿里巴巴等。实习期间，学生将作为实习生在工业界导师的实验室、团队或公司进行独立的或与团队成员合作的各种项目，以获得实践经验。通过将大数据和人工智能的先进理论和实践结合在一起，学生能应用所学的知识来解决现实世界的问题。毕业生可以在业界或公共部门寻找高级技术导向的职位，如数据分析师、数据科学家、技术运营战略家等。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "实践实验课程 (Practical Lab Course)\n企业圆桌会议 (Industry Round Table)\n独立项目 (Independent Project)\n行业实习 (Industry Internship)\n数据科学中的数据挖掘与知识发现 (Data Mining and Knowledge Discovery in Data Science)\n数据科学中的深度学习 (Deep Learning in Data Science)\n数据科学高级数据库管理 (Advanced Database Management for Data Science)\n高级机器学习 (Advanced Machine Learning)\n数据科学与分析基础 (Foundation of Data Science and Analytics)\n数据科学计算 (Data Science Computing)",
+  "success_cases": ""
+}

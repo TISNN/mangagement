@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "生物技术理学硕士",
+  "ename": "MSc Biotechnology",
+  "tags": "理科,生物,生物学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 31900英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要生物科学背景，学校也会考虑具备丰富行业经验的申请者，该课程不适合已经完成了综合硕士学位的学生",
+  "objectives": "生物技术在工业流程的应用正在改变制造业。通过生物技术，我们不仅可以创造出令人兴奋的新产品，还可以解决污染和资源保护等长期问题。约克大学生物技术理学硕士项目将前沿理论与成为高效的研究人员或行业专家所需的应用技能相结合，教学直接来源于研究，学生将与该领域领先的学者一起工作，受益于先进的设施和新农产品中心(CNAP)的工作人员的专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工业生物技术 (Industrial Biotechnology)\n生物科学中的数据分析和编程 (Data Analysis and Programming in the Biosciences)\n研究、专业和团队技能 (Research、Professional and Team Skills)\n独立学习模块 (Independent Study Module )\n植物生物技术 (Plant Biotechnology)\n抗生素 (Antibiotics)\n生物燃料和生物技术 (Biofuels and Biotechnology)",
+  "success_cases": ""
+}

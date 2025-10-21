@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "土木工程理学硕士",
+  "ename": "MSc Civil Engineering",
+  "tags": "工科,土木工程,工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要工程学科或物理科学/数学学位背景，并且工程数学、土力学、结构力学、结构设计和数学等课程的平均成绩为2:1\n学校可能会考虑具有2:2学位但核心课程成绩达到2:1的申请者对于那些刚好低于上述要求的申请者，除了学历之外，还可以考虑丰富的工作经验",
+  "objectives": "格拉斯哥大学土木工程理学硕士项目培养学生土木工程一系列关键子学科的高级知识和相关分析和问题解决技能，并发展将这些知识应用于工程设计以及解决开放式和多学科问题的能力。土木工程硕士适合土木工程或相关学科背景、有意提升专业能力从而为未来在土木工程领域工作做准备的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "土木设计项目 (Civil design project )\n综合系统设计项目 (Integrated systems design project )\n高级混凝土性能 (Advanced concrete performance )\n高级土力学 (Advanced soil mechanics )\n高级结构分析与动力学 (Advanced structural analysis and dynamics )\n工业空气动力学 (Industrial aerodynamics )\n地理信息系统原理 (Principles of gis)\n污染土地复垦 (Reclamation of contaminated land )\n极端荷载下的结构 (Structures under extreme loads )\n高级钢与混凝土设计 (Advanced steel and concrete design )",
+  "success_cases": ""
+}

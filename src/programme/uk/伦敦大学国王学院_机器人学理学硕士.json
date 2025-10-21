@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "机器人学理学硕士",
+  "ename": "MSc Robotics",
+  "tags": "工科,计算机,自然、数学与工程科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 37800英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，需要机械工程（或其他相关学科，如物理学、数学、电气工程），学校也欢迎国际、专业或职业资格并将基于具体情况予以考虑\n附加要求：\n- 具备基础数学的良好背景，特别是熟悉微积分、线性代数、微分方程和初等概率论等标准概念\n- 具备计算机编程能力，达到计算机科学理学学士荣誉学位第一学年结束时的预期水平",
+  "objectives": "伦敦大学国王学院机器人学理学硕士学位课程由信息学部开设，该部门因研究导向型教学和由各领域内专家监管项目而享有盛誉。跨学科的课程探索了机械设备、传感器、电子和智能计算机控制器等综合领域，向学生传授机器人学和自动化应用的相关专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "个人项目 (Individual Project)\n计算机视觉 (Computer Vision)\n实时系统和控制 (Real Time Systems & Control)\n机器人系统 (Robotic Systems)\n传感器和执行器 (Sensors & Actuators)\n高级研究议题 (Advanced Research Topics)\n代理和多智能体系统 (Agents & Multi-Agent Systems)\n人工智能 (Artificial Intelligence)\n生物启发方法 (Biologically Inspired Methods)\n分布式系统 (Distributed Systems)\n计算机科学团队项目 (Computer Science Group Project)\n模式识别 (Pattern Recognition)\n优化方法 (Optimisation Methods)\n数字信号处理基础 (Fundamentals of Digital Signal Processing)\n数据和信号分析 (Topics on Data and Signal Analysis)",
+  "success_cases": ""
+}

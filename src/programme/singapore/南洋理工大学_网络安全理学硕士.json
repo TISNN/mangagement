@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "网络安全理学硕士",
+  "ename": "MSc Cyber Security",
+  "tags": "工科,计算机,计算机与数据科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 8月\n项目时长: 1.5年\n项目学费: 42147新币/年",
+  "requirements": "具有良好的相关学士学位\n有相关工作经验者优先考虑",
+  "objectives": "南洋理工大学网络安全理学硕士课程由计算机科学与工程学院和物理与数学学院联合开设，旨在通过使专业人员具备必要的专门知识和技能来满足这些需求。该课程以传统计算机科学和信息技术学科为基础，强调掌握评估、保护和管理信息通信技术的专业网络安全技能。密集的动手课程组成部分和以行业为中心的课程确保学生将获得网络安全专业人员雇主所寻求的技能和知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机安全 (Computer Security)\n应用安全 (Application Security)\n密码学 (Cryptography)\n安全与风险管理 (Security & Risks Management)\n毕业项目 (Capstone Project)\n网络安全 (Network Security)\n网络物理系统安全 (Cyber Physical Systems Security)\n软件安全 (Software Security)\n安全监控与威胁检测 (Security Monitoring & Threat Detection)\n恶意软件 (Malware)\n取证 (Forensics)\n加密与网络安全专题 (Topics in Crypto and Cybersecurity)\n区块链与加密数字货币 (Blockchains and Cryptocurrency)\n人工智能中的隐私保护技术与安全 (Privacy Preserving Technologies & Security in AI)",
+  "success_cases": ""
+}

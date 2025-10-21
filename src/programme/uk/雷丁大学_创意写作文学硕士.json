@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "创意写作文学硕士",
+  "ename": "MA Creative Writing",
+  "tags": "社科,文化,语言与文化系",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 25850英镑/年",
+  "requirements": "具有2:1或以上学位，需要适当的学科背景，需要提交 2 篇creative writing样本",
+  "objectives": "雷丁大学创意写作文学硕士项目通过在出版作者的专家指导和支持下培养学生的写作天赋。课程的专家将指导学生如何最好地开发和完成中型创意项目——无论学生有现有的书面作品还是刚刚开始——同时向您介绍一系列与写作生活密切相关的模块。学生将从事自己设计的写作项目，以及将通过个人监督和小组研讨会的结合来开发该项目。在前两个学期，核心模块将侧重于项目的有效规划、研究和开发，然后是起草和修改文本的早期阶段。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目开发 1 (Project Development 1)\n项目开发 2  (Project Development 2 )\n创意写作论文  (Creative Writing Dissertation )\n物质性和文本性 (Materiality and Textuality )\n出版和图书业务 (Publishing and the Business of Books )\n写作生活：发表，继续前进 (This Writing Life: Get Published, Keep Going)",
+  "success_cases": ""
+}

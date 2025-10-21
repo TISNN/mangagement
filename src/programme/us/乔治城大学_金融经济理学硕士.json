@@ -1,0 +1,12 @@
+{
+  "school_name": "乔治城大学",
+  "major_name": "金融经济理学硕士",
+  "ename": "Master of Science in Financial Economics",
+  "tags": "商科,经济",
+  "introduction": "专业方向: 经济\n项目类别: STEM\n入学时间: 秋季\n项目时长: 45学分\n项目学费: 2,550美元/学分",
+  "requirements": "至少两门微积分课程、一门中级微观经济学课程和一门中级宏观经济学课程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

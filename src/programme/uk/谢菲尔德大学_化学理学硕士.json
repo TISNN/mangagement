@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "化学理学硕士",
+  "ename": "MSc Chemistry",
+  "tags": "理科,化学,化学学院",
+  "introduction": "专业方向: 化学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要化学或相关学科背景学校不考虑化学是次要组成部分的任何学位",
+  "objectives": "谢菲尔德大学化学理学硕士项目课程设置灵活，学生可以专注于自己喜欢的主题，并培养所选职业所需的实用技能。在谢菲尔德大学化学理学硕士项目中，学生可以自由选择有机、无机、物理和分析化学的各种前沿课程模块。当前的主题从催化和光化学到理论化学和可持续性技术。在实验室，研究人员将教授学生先进的研究技能，学生将花费三分之一的时间从事自己的研究项目。学生将选择一个研究领域作为重点，将立足于一个世界级研究小组，发展技能和专业知识，帮助他们在就业市场中脱颖而出。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究、报告与专业技能 (Research, Presentation and Professional Skills)\n化学项目 (Chemistry Projects)\n化学研究项目 (Chemistry Research Project)\n高级材料化学的当前主题 (Current Topics in Advanced Materials Chemistry)\n催化与不对称合成的当前主题 (Current Topics in Catalysis and Asymmetric Synthesis)\n光化学的当前主题 (Current Topics in Chemistry of Light)\n工业催化的当前主题 (Current Topics in Industrial Catalysis)\n理论化学的方法与模型 (Methods and Models in Theoretical Chemistry)\n药理学、药物化学与药物设计 (Pharmacology, Medicinal Chemistry and Drug Design)\n可持续发展技术 (Technologies for Sustainability)",
+  "success_cases": ""
+}

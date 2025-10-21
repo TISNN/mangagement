@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "毒物学理学硕士",
+  "ename": "MSc Toxicology",
+  "tags": "理科,生物,生命与环境科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 31390英镑/年",
+  "requirements": "具有2:1学位/相关学科的2:2学位\n相关学科：生物化学、生物学、人类生物学、微生物学、动物学/动物生物学、化学、药理学、药学、制药科学、生理学、医学、牙科学、兽医学、医学科学\n不完全符合标准但具备至少2年受认可的研究生经历的申请者也可能被考虑",
+  "objectives": "在伯明翰大学毒物学理学硕士项目中，学生将得到毒理学的理论、临床和实验室方面的职业培训。学生将了解化学品不良影响的性质和机制，包括工业、家庭、农业、医学中的化学品，以及环境中天然存在的化学品。学生将重点研究毒性的分子和细胞机制，并对其进行风险评估。伯明翰大学毒物学理学硕士项目旨在满足该行业的未来需求，项目课程由制药行业、合同研究公司、政府和外部毒理学中心的国际专家教授。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "代谢与毒性机制 (Metabolism and Mechanisms of Toxicity)\n法医学、临床和职业毒理学 (Forensic, Clinical and Occupational Toxicology)\n毒理学实用技巧 (Practical Skills for Toxicologists)\n毒性潜能评估 (Assessing Toxic Potential)\n二十一世纪的监管科学与毒理学 (Regulatory Science and Toxicology for the 21st Century)\n综合毒理学 (Integrated Toxicology)",
+  "success_cases": ""
+}

@@ -1,0 +1,303 @@
+[
+  {
+    "name": "employees",
+    "status": "✅ 正常",
+    "count": 4,
+    "fields": [
+      "id",
+      "name",
+      "email",
+      "contact",
+      "gender",
+      "avatar_url",
+      "hire_date",
+      "department",
+      "position",
+      "location",
+      "is_active",
+      "skills",
+      "created_at",
+      "updated_at",
+      "is_partner",
+      "auth_id"
+    ],
+    "auth_fields": [
+      "auth_id ✅",
+      "email"
+    ]
+  },
+  {
+    "name": "students",
+    "status": "✅ 正常",
+    "count": 32,
+    "fields": [
+      "id",
+      "name",
+      "email",
+      "contact",
+      "gender",
+      "avatar_url",
+      "student_number",
+      "education_level",
+      "school",
+      "major",
+      "target_countries",
+      "is_active",
+      "created_at",
+      "updated_at",
+      "status",
+      "location",
+      "address",
+      "auth_id"
+    ],
+    "auth_fields": [
+      "auth_id ✅",
+      "email"
+    ]
+  },
+  {
+    "name": "service_types",
+    "status": "✅ 正常",
+    "count": 10,
+    "fields": [
+      "id",
+      "name",
+      "description",
+      "is_active"
+    ],
+    "auth_fields": []
+  },
+  {
+    "name": "student_services",
+    "status": "✅ 正常",
+    "count": 20,
+    "fields": [
+      "id",
+      "student_id",
+      "service_type_id",
+      "mentor_id",
+      "status",
+      "enrollment_date",
+      "end_date",
+      "progress",
+      "payment_status",
+      "detail_data",
+      "created_at",
+      "updated_at",
+      "mentor_ref_id",
+      "student_ref_id"
+    ],
+    "auth_fields": []
+  },
+  {
+    "name": "mentors",
+    "status": "✅ 正常",
+    "count": 4,
+    "fields": [
+      "id",
+      "name",
+      "email",
+      "contact",
+      "gender",
+      "avatar_url",
+      "specializations",
+      "expertise_level",
+      "hourly_rate",
+      "bio",
+      "is_active",
+      "employee_id",
+      "created_at",
+      "updated_at"
+    ],
+    "auth_fields": [
+      "email"
+    ]
+  },
+  {
+    "name": "finance_transactions",
+    "status": "⚠️  空表",
+    "count": 0,
+    "fields": []
+  },
+  {
+    "name": "finance_accounts",
+    "status": "✅ 正常",
+    "count": 3,
+    "fields": [
+      "id",
+      "name",
+      "type",
+      "balance",
+      "is_active"
+    ],
+    "auth_fields": []
+  },
+  {
+    "name": "finance_categories",
+    "status": "✅ 正常",
+    "count": 4,
+    "fields": [
+      "id",
+      "name",
+      "description",
+      "direction",
+      "is_active"
+    ],
+    "auth_fields": []
+  },
+  {
+    "name": "schools",
+    "status": "✅ 正常",
+    "count": 174,
+    "fields": [
+      "id",
+      "cn_name",
+      "logo_url",
+      "country",
+      "city",
+      "ranking",
+      "description",
+      "created_at",
+      "updated_at",
+      "qs_rank_2025",
+      "qs_rank_2024",
+      "region",
+      "is_verified",
+      "en_name",
+      "tags",
+      "website_url"
+    ],
+    "auth_fields": []
+  },
+  {
+    "name": "programs",
+    "status": "✅ 正常",
+    "count": 6644,
+    "fields": [
+      "id",
+      "school_id",
+      "en_name",
+      "duration",
+      "apply_requirements",
+      "created_at",
+      "updated_at",
+      "cn_name",
+      "language_requirements",
+      "curriculum",
+      "tags",
+      "objectives",
+      "faculty",
+      "category",
+      "entry_month",
+      "interview",
+      "analysis",
+      "url",
+      "tuition_fee",
+      "degree"
+    ],
+    "auth_fields": []
+  },
+  {
+    "name": "leads",
+    "status": "✅ 正常",
+    "count": 3,
+    "fields": [
+      "id",
+      "name",
+      "phone",
+      "source",
+      "status",
+      "date",
+      "avatar_url",
+      "last_contact",
+      "interest",
+      "assigned_to",
+      "notes",
+      "priority",
+      "created_at",
+      "updated_at",
+      "gender"
+    ],
+    "auth_fields": []
+  },
+  {
+    "name": "projects",
+    "status": "✅ 正常",
+    "count": 2,
+    "fields": [
+      "id",
+      "name",
+      "status",
+      "client_id",
+      "start_date",
+      "end_date",
+      "total_amount",
+      "created_at"
+    ],
+    "auth_fields": []
+  },
+  {
+    "name": "chat_channels",
+    "status": "❌ 不存在",
+    "count": 0,
+    "fields": []
+  },
+  {
+    "name": "chat_messages",
+    "status": "❌ 不存在",
+    "count": 0,
+    "fields": []
+  },
+  {
+    "name": "employee_roles",
+    "status": "✅ 正常",
+    "count": 4,
+    "fields": [
+      "id",
+      "name",
+      "description",
+      "created_at",
+      "updated_at"
+    ],
+    "auth_fields": []
+  },
+  {
+    "name": "permissions",
+    "status": "✅ 正常",
+    "count": 14,
+    "fields": [
+      "id",
+      "code",
+      "description",
+      "created_at",
+      "updated_at"
+    ],
+    "auth_fields": []
+  },
+  {
+    "name": "role_permissions",
+    "status": "✅ 正常",
+    "count": 15,
+    "fields": [
+      "id",
+      "role_id",
+      "permission_id",
+      "created_at",
+      "updated_at"
+    ],
+    "auth_fields": []
+  },
+  {
+    "name": "employee_role_assignments",
+    "status": "✅ 正常",
+    "count": 5,
+    "fields": [
+      "id",
+      "employee_id",
+      "role_id",
+      "created_at",
+      "updated_at"
+    ],
+    "auth_fields": []
+  }
+]

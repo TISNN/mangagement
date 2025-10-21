@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "数据科学硕士",
+  "ename": "Master of Data Science",
+  "tags": "理科,数据科学,自然科学系",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 34000英镑/年",
+  "requirements": "具有英国一等或2:1荣誉学位或同等学历，需要不包含强大数据科学成分的学位任何背景，包括社会科学、艺术和人文科学、商业和科学",
+  "objectives": "杜伦大学数据科学硕士是一门以数据科学为核心的转化课程，旨在为社会科学、艺术和人文学科的本科学生提供丰富数据科学内容的硕士教育。介绍性模块的设计使非技术学位的学生具备学习数据科学的必要背景。这是在需要知道的基础上进行的，侧重于实践中的理解，而不是抽象的理论。核心模块然后向学生介绍全方位的数据科学方法，从基本技术到先进的现代方法，如神经网络和深度学习。可选模块允许学生感兴趣的领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机科学导论 (Introduction to Computer Science)\n数据科学统计学导论 (Introduction to Statistics for Data Science)\n数据分析中的伦理与偏见 (Ethics and Bias in Data Analytics)\n机器学习 (Machine Learning)\n数据科学编程 (Programming for Data Science)\n战略领导 (Strategic Leadership)\n数据科学数学导论 (Introduction to Mathematics for Data Science)\n研究项目 (Research Project)\n文本挖掘与语言分析 (Text Mining and Language Analytics)\n数据探索、可视化与无监督学习 (Data Exploration, Visualization, and Unsupervised Learning)",
+  "success_cases": ""
+}

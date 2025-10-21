@@ -1,0 +1,12 @@
+{
+  "school_name": "罗切斯特大学",
+  "major_name": "生物统计硕士",
+  "ename": "Master of Science in Biostatistics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n入学时间: 春季/秋季\n项目时长: 32学分\n项目学费: 1818美元/学分\n平均成绩: 3.25",
+  "requirements": "有扎实的统计学背景,必修课要求三个学期的微积分,一门线性和/或矩阵代数,一门概率论,一门数学统计,和一门应用统计。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

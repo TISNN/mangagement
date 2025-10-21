@@ -1,0 +1,12 @@
+{
+  "school_name": "密歇根大学安娜堡分校",
+  "major_name": "电气与计算机工程硕士",
+  "ename": "MS in Electrical and Computer Engineering",
+  "tags": "工科,电气电子",
+  "introduction": "专业方向: 电气电子\n入学时间: 秋季\n项目时长: 1-2年\n项目学费: 49548美元/年\n平均成绩: 3.6\n平均G: Q168,V155,W3.3",
+  "requirements": "拥有强大的数学、物理、计算机科学或工程背景。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

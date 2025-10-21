@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯敏斯特大学",
+  "major_name": "制药科学理学硕士",
+  "ename": "MSc Pharmaceutical Sciences",
+  "tags": "社科,药学,生命科学学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 1年\n项目学费: 17600英镑/年",
+  "requirements": "具有2:2荣誉学位，需要生物医学或与其密切相关的学科背景。具有同等地位的专业资格和相关工作经验，或课程团队认为合适的其他同等资格",
+  "objectives": "威斯敏斯特大学制药科学理学硕士项目是一门现代应用课程，旨在培养学生对药物设计、生物治疗、制造、质量控制、配方、药物输送、法规和临床试验等前沿关键方面的系统和批判性理解。课程探讨制药行业的前沿主题，学生将对生物疗法和再生医学有深入的了解，这是制药行业发展最快的两个领域。选修课程涵盖科学传播、创业、商业化、发酵技术和生物信息学，为学生提供了根据他可能想要工作的领域量身定制技能的机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分析技术和质量流程 (Analytical Techniques and Quality Processes)\n生物治疗与再生医学 (Biotherapeutics and Regenerative Medicines)\n药物发现、设计与开发 (Drug Discovery, Design and Development)\n研究生课题 (Postgraduate Project)\n研究生研究方法 (Postgraduate Research Methods)\n药物输送、配方与制造 (Drug Delivery, Formulation and Manufacturing)\n生物信息学 (Bioinformatics)\n科学传播 (Communicating Science )\n发酵技术 (Fermentation Technology)\n科学、技术与商业化 (Science, Technology and Commercialisation)",
+  "success_cases": ""
+}

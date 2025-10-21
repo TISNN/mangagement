@@ -1,0 +1,12 @@
+{
+  "school_name": "乔治城大学",
+  "major_name": "生物技术硕士",
+  "ename": "MS in Biotechnology",
+  "tags": "工科,生物工程",
+  "introduction": "专业方向: 生物工程\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 30学分\n项目学费: 56,640美元",
+  "requirements": "申请者必须持有地区认可机构的学士学位且GPA达到3.0及以上。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

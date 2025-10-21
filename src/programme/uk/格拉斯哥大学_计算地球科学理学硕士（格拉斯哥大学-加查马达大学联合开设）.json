@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "计算地球科学理学硕士（格拉斯哥大学-加查马达大学联合开设）",
+  "ename": "Joint MSc Computational Geoscience (Glasgow-UGM)",
+  "tags": "工科,地球科学,地理和地球科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "加查马达大学要求：GPA 3.0（满分4.0）要升入格拉斯哥大学，学生必须在UGM第一年获得3.5/4.0的GPA，并满足格拉斯哥课程的英语语言要求",
+  "objectives": "计算地球科学理学硕士（格拉斯哥大学-加查马达大学联合开设）项目探索我们如何模拟自然世界和我们周围的环境（以及创造它们的过程）。学生将开发应用数据科学和建模技能，可以使用这些技能来解决复杂的现实世界挑战并支持地球科学领域的决策。学生将开发在地球科学领域高需求的技能，包括计算机编程，预测建模和大数据分析。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "环境分析统计学导论 (Introduction to Statistics for Environmental Analysis)\nGES PGT 的学术和专业技能 (Academic and Professional Skills for GES PGT)\n地球科学概论 (Introduction to Earth Science)\n地理信息系统原理  (Principles of GIS)\n地理空间数据分析 (Ges_Spatial Data Analytics)\n地球动力学数值基础 (Numerical Foundations of Geodynamics)\n模拟水环境 (Modelling Water Environments)\n地形模拟及景观监测 (Topographic Modelling and Landscape Monitoring)\n机器学习在地球系统问题中的应用 (Machine Learning Applications for Earth Systems Problems)\n景观演化建模 (Modelling of Landscape Evolution)\n固体地球动力学数值模拟 (Ges_Numerical Modelling of Solid Earth Dynamics)\n由UGM和UofG联合指导的研究项目 (Research Project Jointly Supervised by UGM and UofG)",
+  "success_cases": ""
+}

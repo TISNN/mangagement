@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "高级化学工程理学硕士",
+  "ename": "MSc Advanced Chemical Engineering",
+  "tags": "工科,化工,工程与材料科学学院",
+  "introduction": "专业方向: 化工\n入学时间: 9月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要化学工程或相关专业（石油与天然气工程、石油工程、化学、应用化学、生化工程等）背景，需要ATAS证书",
+  "objectives": "伦敦大学玛丽皇后学院高级化学工程理学硕士项目旨在为工程师提供知识和技能，以应对当代化学工程行业的挑战。课程内容根植于传统的化学工程概念，同时也强调创新和可持续的解决方案。在课程结束时，学生将站在当前化学工程挑战的最前沿，解决如何利用现有的工业，或创造新的工业，以满足社会对能源和化学品的需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程设计中的环境、伦理与经济学 (Environment, Ethics and Economics in Engineering Design)\n电化学储能系统 (Electrochemical Energy Storage Systems)\n工程项目管理 (Engineering Project Management)\n高级水处理 (Advanced Water Treatment)\n高级安全工程 (Advanced Safety Engineering)\n高级化学工程研究项目 (Advanced Chemical Engineering Research Project)\n聚合物分子工程 (Macromolecular Engineering)\n工程中的机器学习与人工智能 (Machine Learning and Artificial Intelligence for Engineering)\n系统工程概论 (Introduction to Systems Engineering)\n先进的纳米复合材料 (Advanced Nanocomposites)\n商业战略和技术创业 (Business Strategy and Technology Entrepreneurship)\n太阳能工程 (Solar Energy Engineering)\n可再生燃料 (Renewable Fuels)",
+  "success_cases": ""
+}

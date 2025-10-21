@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡管理大学",
+  "major_name": "应用金融学理学硕士",
+  "ename": "MSc Applied Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 8月\n项目时长: 1.5年\n项目学费: 39967新币/年",
+  "requirements": "- 不要求具备工作经验（欢迎应届毕业生申请）\n- 具有声誉好的院校颁发的良好本科学位（不限专业背景）\n- 适合希望获得CFA认证的金融或相关领域的从业人员，以及希望提高应用金融知识和技能的专业人士，以及希望获得相关资格以获得理想工作或提升其在银行和金融行业的职业发展的人\n- 具有良好的GMAT（600且定量成绩优秀被视为有竞争力）/GRE/SMU入学考试成绩\n- 需要提供经认证的CFA/ACCA证书复印件（如有）\n- 需要提交2篇个人陈述，其中1篇需要对指定问题（2选1）进行回答",
+  "objectives": "新加坡管理大学应用金融学理学硕士课程旨在提高应用金融领域从业人员的知识和技能水平。该领域已被经济审查委员会和金融业确定为关键培训领域。该课程不仅涵盖满足新加坡管理大学应用金融理学硕士学位高学术标准所需的关键组成部分，而且还旨在满足特许金融分析师（CFA）考试要求，使学生也能够获得CFA资格。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "经济分析 (Economic Analysis)\n股权分析与资产组合管理 (Equity Analysis and Portfolio Management)\n财务报表分析（一） (Financial Statement Analysis 1)\n定量方法与统计 (Quantitative Methods and Statistics)\n公司财务 (Corporate Finance)\n衍生工具分析 (Derivatives Analysis)\n财务报表分析（二） (Financial Statement Analysis 2)\n固定收益分析 (Fixed-Income Analysis)\n高级股权分析 (Advanced Equity Analysis)\n高级数量与经济分析 (Advanced Quantitative and Economic Analysis)\n财务报表分析（三） (Financial Statement Analysis 3)\n高级衍生工具分析 (Advanced Derivatives Analysis)\n高级固定收益分析 (Advanced Fixed-Income Analysis)\n财务建模 (Financial Modelling)\n高级组合投资管理 (Advanced Portfolio Management)",
+  "success_cases": ""
+}

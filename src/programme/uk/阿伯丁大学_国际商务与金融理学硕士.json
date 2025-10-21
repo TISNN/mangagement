@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "国际商务与金融理学硕士",
+  "ename": "MSc International Business and Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "不限专业背景，不需要在本科阶段完成商业或管理学习，具有2:2荣誉学位或同等学历",
+  "objectives": "世界经济正变得越来越全球化，阿伯丁大学国际商务与金融理学硕士课程是为那些希望了解商业和金融的国际背景的人准备的。阿伯丁大学国际商务与金融理学硕士课程结合了分析和实践技能，帮助学生发展管理和财务相关领域的知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业经济学 (Business Economics)\n国际管理问题 (Issues in International Management)\n管理者会计与财务 (Accounting and Finance for Managers)\n国际化 (Internationalisation)\n国际金融 (International Finance)\n营销管理 (Marketing Management)\n关键财务报告2 (Critical Financial Reporting 2)\n战略财务分析 (Strategic Financial Analysis)\n财务与数据分析专业技能 (Professional Skills for Finance and Data Analysis)\n公司管治与道德操守 (Corporate Governance and Ethics)",
+  "success_cases": ""
+}

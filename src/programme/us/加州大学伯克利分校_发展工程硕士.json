@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学伯克利分校",
+  "major_name": "发展工程硕士",
+  "ename": "Master of Development Engineering",
+  "tags": "工科,其他工科",
+  "introduction": "专业方向: 其他工科\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1.5年\n项目学费: 5,850美元",
+  "requirements": "申请人本科应学习至少两门技术领域的课程，如计算机科学、经济学、数学、物理学、工程学、数据科学等。申请人最好有一到三年的工作经验，或具有实习等专业经验。若有技术、开发、创业、领导或社会或环境政策方面的经验，或非营利组织、社区参与或政府工作的背景， 或对多样性、公平性或包容性的贡献，可以有一定的优势。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

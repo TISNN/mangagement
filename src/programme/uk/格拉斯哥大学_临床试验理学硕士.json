@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "临床试验理学硕士",
+  "ename": "MSc Clinical Trials",
+  "tags": "社科,医学,心血管与代谢健康学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要相关学科领域背景专业经验和具有较强学科专业知识的2:2荣誉学位，也可以考虑该课程主要针对生命科学或医学毕业生。有医学、牙科、护理、药理学、运动科学或药学背景的对临床试验感兴趣的学生也可能感兴趣。在特殊情况下，其他科学专业毕业生或生物科学专业毕业生也有资格展示适当的研究生专业经验",
+  "objectives": "格拉斯哥大学临床试验理学硕士项目旨在为学生提供世界一流的临床试验设计、实施和监测方面的培训和实践经验。该项目将与NHS临床研究机构、临床试验单位、临床试验卓越中心（CETC，格拉斯哥大学）和大学内的学者密切合作，为学生提供更多的实践经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "临床试验管理 (Clinical Trial Management)\n临床试验结果的沟通和传播 (Communication and Dissemination of Clinical Trial Findings)\n如何进行和监督临床试验 (How to Conduct and Monitor a Clinical Trial)\n临床试验类型和设计导论 (Introduction to Clinical Trial Types and Design)\n医学伦理、法规和治理 (Medical Ethics, Regulations and Governance)\n临床试验中的真实世界数据 (Real-World Data in Clinical Trials)",
+  "success_cases": ""
+}

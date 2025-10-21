@@ -1,0 +1,12 @@
+{
+  "school_name": "纽约大学",
+  "major_name": "数学理学硕士",
+  "ename": "MS in Mathematics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 春季/夏季/秋季\n项目时长: 1年\n项目学费: 63,060美元",
+  "requirements": "申请者必须持有认可的学士学位或同等学历申请者必须修完三个学期的大学微积分课程,包括一学期的高级微积分或线性代数同等课程,没有高级微积分课程的学生可能需要参加MATH-GA 1002多变量分析课程没有一些必要的数学准备的学生可以通过在非学位基础上参加 Courant 课程来弥补",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

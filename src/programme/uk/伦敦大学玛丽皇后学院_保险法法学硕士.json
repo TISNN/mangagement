@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "保险法法学硕士",
+  "ename": "LLM Insurance Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有本科2:1学位或以上学历，需要法律或具有实质性法律内容的学位\n具有2:2荣誉学位以及其他法律资格和/或大量的专业法律经验的法律毕业生也可能符合资格\n在英国专业机构认可的普通专业考试（CPE）或法律研究生文凭（GDL）中获得优秀（或60%）获得二等荣誉学位的非法律专业毕业生也可能符合资格。非法律专业毕业生若具备在法律领域或与其申请专业直接相关的领域具有特殊的工作经验（至少5年）也可能被考虑",
+  "objectives": "保险是商业法律和惯例的重要组成部分。伦敦大学玛丽皇后学院保险法法学硕士项目由著名专家菲利普?罗林斯教授建立，目的是填补目前保险法领域中学术和实践培训的空白。伦敦大学玛丽皇后学院保险法法学硕士项目教授学生全面的知识和技能，让学生深入了解保险法，并学会应用和管理。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业与金融中的法律与伦理 (Law and Ethics in Business and Finance)\n监管原则 (Principles of Regulation)\n保险法通则 (General Principles of Insurance Law)\n保险合同 (Insurance Contracts)\n海上保险法 (Marine Insurance Law)\n证券监管 (Securities Regulation)\n保险条例 (Insurance Regulation)\n国际金融监管 (International Financial Regulation)",
+  "success_cases": ""
+}

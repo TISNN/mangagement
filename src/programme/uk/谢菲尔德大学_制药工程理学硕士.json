@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "制药工程理学硕士",
+  "ename": "MSc Pharmaceutical Engineering",
+  "tags": "社科,药学,化学与生物工程学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:2本科荣誉学位，需要科学、技术或工程学科背景",
+  "objectives": "谢菲尔德大学制药工程理学硕士课程培养学生在全球制药市场中脱颖而出所需的知识和技能。该项目的制定考虑了全球制药行业的要求。学生将了解：产品的科学与应用、口服给药、药品和新技术的生产，学生还将有潜力帮助开发和发现更好的药物，真正可以改变数百万人的生活。与处理制药工艺化学部分的类似课程不同，本课程旨在暗示化学工程基础知识，这在实际生活中更为重要。与此同时，学生将使用谢菲尔德大学的工业规模连续粉末加工厂以获得高价值配方产品的实践经验。谢菲尔德大学制药工程理学硕士项目与一些世界主要制药公司（例如辉瑞、阿斯利康和葛兰素史克）密切合作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "配方产品科学 (Science of Formulated Products)\n连续制造技术：PAT 和工艺优化 (Continuous Manufacturing Technology: PAT and Process Optimisation)\n生物技术和制药行业 (The Biotech and Pharmaceutical Industry)\n生物制药制造 (Biopharmaceutical Manufacturing)\n生物制药工程 (Biopharmaceutical Engineering)\n粒子设计与处理 (Particle Design and Processing)\n化工、制药和精细化工行业的过程安全 (Process Safety in Chemicals, Pharma and Fine Chemicals Industries)\n战略工程管理和商业实践 (Strategic Engineering Management and Business Practices)",
+  "success_cases": ""
+}

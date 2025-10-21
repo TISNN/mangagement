@@ -1,0 +1,12 @@
+{
+  "school_name": "波士顿大学",
+  "major_name": "数据科学硕士",
+  "ename": "MS in Data Science",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 32学分\n项目学费: 63798美元/学年",
+  "requirements": "获得与数据科学计算、数据驱动领域相关的方法论或应用学科之一的学位，先修课要求编程、离散数学入门、线代、统计概率入门、微积分、算法导论其中四门",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

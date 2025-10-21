@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学亚非学院",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 25320英镑/年",
+  "requirements": "具有经济学学科背景",
+  "objectives": "伦敦大学亚非学院经济学理学硕士项目内容涵盖主流经济学知识，同时也涉及非正统的理论与方法论，致力于培养学生的量化技能以及对当代全球经济问题的分析能力。项目引领着政治经济学与多元经济学的辩论，在政策参与及基础理论的研究中也具有优势。项目教授学生经济学专业知识，帮助学生在毕业后胜任国际商业与公共部门的工作，同时也可为有志于攻读博士学位的学生夯实基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "经济学理学硕士学位论文 (Dissertation for MSc Economics)\n宏观经济学 (Macroeconomics)\n微观经济学 (Microeconomics)\n高级微观经济理论与政策 (Advanced Microeconomic Theory and Policy)\n高级宏观经济理论和政策 (Advanced Macroeconomic Theory and Policy)\n计量经济学 (Econometrics)\n非洲经济：应用宏观经济分析 (African economies: applied macroeconomic analysis)\n中东应用经济学 (Applied economics of the Middle East)\n资本市场、衍生工具和公司财务 (Capital markets、derivatives & corporate finance)\n中国经济转型 (China's Economic Transformation)\n金融制度与经济发展 (Financial Systems and Economic Development)\n环境与发展经济学 (Economics of Environment and Development)",
+  "success_cases": ""
+}

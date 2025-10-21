@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "气候未来：科学、社会与政治理学硕士",
+  "ename": "MSc Climate Futures: Science, Society and Politics",
+  "tags": "工科,环境工程,地球与环境学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有2:1荣誉学士学位，不限专业背景",
+  "objectives": "利兹大学气候未来：科学、社会与政治理学硕士项目将为学生提供对气候危机的全面了解，提供需要的科学、社会和政治方法，以创造性和有效地应对气候变化带来的前所未有、复杂和动态的挑战。\n利兹大学气候未来：科学、社会与政治理学硕士项目的跨学科设计意味着学生将接触到全校世界领先的气候专家的多种观点——为学生提供全面而广泛的技能组合，使其能够挑战失败的策略并提供创新的解决方案。学生将由致力于提供气候解决方案并直接参与围绕气候危机的各种开创性研究的学者和研究人员授课，这意味着学生将在创新发生时掌舵。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "物理气候变化、影响和缓解 (Climate Change: Physical Science Basis)\n气候挑战的社会和政治层面 (Research Methods)\n应对气候变化：顶点项目 (Environmental Policy and Governance)\n气候与发展 (Climate Change: Impacts and Adaptation)\n气候正义 (Climate Change Mitigation)\n气候安全 (Research Project)\n气候风险 (Introduction to Sustainability)",
+  "success_cases": ""
+}

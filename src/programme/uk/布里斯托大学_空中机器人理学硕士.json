@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "空中机器人理学硕士",
+  "ename": "MSc Aerial Robotics",
+  "tags": "工科,航空工程,土木、航空航天与设计工程学院",
+  "introduction": "专业方向: 航空工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 35400英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，所有申请者必须具备C/C、Java、Python或MATLAB编程经验，这可以通过名为C/C、Java Python或MATLAB的课程，工作经验或自学来证明。对于不包含所需语言特定课程的学位，申请者必须提供书面编程声明，概述他们使用C/C、Python、MATLAB或Java的经验对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩。学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用。\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们至少具备以下其中一项：\n- 具有重要的机器人相关工作经验（至少6个月）；\n- 相关研究生学历\n如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关工作经验和/或资格",
+  "objectives": "空中机器人理学硕士项目为学生提供成为空中机器人系统创新者以及应对无人驾驶飞行器(uav)或无人机最新挑战所需的知识，从城市公用事业运作到远程科学调查，飞行动力学，控制和航空电子设备等基础技能将通过自主导航和生物启发等破坏性技术得到补充该课程将使学生接触到广泛的高级工程和计算机科学概念，并提供机会将这些概念应用到空中机器人项目中。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "机器人系统 (Robotics Systems)\n人工智能概论 (Introduction to Artificial Intelligence)\n机器人研究技术与方法 (Robotics Research Technology and Methods)\n空中机器人小组项目 (Group Project in Aerial Robotics)\n空中机器人 (Aerial Robotics)\n论文 (Dissertation)\n抗灾能力与可持续发展   (Disaster Resilience and Sustainable Development)\n世界陷入危机 (World in Crisis)\n飞机动力学4 (Aircraft Dynamics 4)\n飞行动力学与控制2 (Flight Dynamics & Control 2)\n航空商业、运营与道德 (Aerospace Commerce, Operations and Ethics\t)",
+  "success_cases": ""
+}

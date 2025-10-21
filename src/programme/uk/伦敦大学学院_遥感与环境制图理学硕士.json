@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "遥感与环境制图理学硕士",
+  "ename": "MSc Remote Sensing and Environmental Mapping",
+  "tags": "工科,地球科学,社会与历史科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:1英国学士学位或同等学历，需要相关学科背景（例如海洋学、海洋研究、地理学、土木工程、地质学、数学和物理学），相关工作经验也将被考虑",
+  "objectives": "伦敦大学学院遥感与环境制图理学硕士项目可以帮助学生全面了解遥感，制图和数据分析方面的知识，了解基本原则，当前技术发展以及在地方、区域和全球的应用，使学生能够在学术，政府和工业领域发挥主导作用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "解析和数值方法 (Analytical and Numerical Methods)\n科学计算 (Scientific Computing)\n地理空间科学*尚待批准 (Geospatial Science* subject to approval)\n遥感理论与实践 (Principles and Practice of Remote Sensing)\n陆地碳：建模与监测 (Terrestrial Carbon: Modelling and Monitoring)\n全球环境与社会监测 (Global Monitoring of Environment and Society)\n航空数据采集 (Airborne Data Acquisition)\n图像理解 (Image Understanding)\n海洋和海岸带管理 (Ocean and Coastal Zone Management)\n地面数据采集 (Terrestrial Data Acquisition)\n气候建模 (Climate Modelling)",
+  "success_cases": ""
+}

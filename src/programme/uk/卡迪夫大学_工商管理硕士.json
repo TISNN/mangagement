@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 29450英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，具有三年相关工作经验，推荐信的签名日期应在提交材料的6个月内\n如果申请者没有学位，学校会考虑专业经验，需提供相关证据",
+  "objectives": "卡迪夫大学工商管理硕士项目采用沉浸式教学模式，旨在激发你的好奇心，告知你的探究过程，并加强你所学知识的应用。你会发现每一个学习环节都涉及到各种各样的活动，包括公司访问、行业演讲、限时挑战、角色扮演和模拟。您将受益于小组合作和分块教学，使您能够掌握特定的跨学科方法，然后才有机会通过我们的加速器项目发展专业。课程以一个顶点模块结束，该模块汇集了您在MBA课程中获得的专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球挑战与战略决策 (Global Challenges and Strategic Decision Making)\n人的视角 (People Perspectives)\n财务和商业分析 (Financial and Business Analytics)\n创意、创新与企业 (Creativity, Innovation and Enterprise)\n面对巨大挑战 (Confronting Grand Challenges)\n加速器项目 (The Accelerator Project)\n引领变革改变未来 (Leading Change and Transforming Futures)\n领导力发展计划 (Leadership Development Programme)",
+  "success_cases": ""
+}

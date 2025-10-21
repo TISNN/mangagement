@@ -1,0 +1,12 @@
+{
+  "school_name": "肯特大学",
+  "major_name": "法学硕士（律师执业）",
+  "ename": "LLM (Solicitors' Practice)",
+  "tags": "社科,法律,肯特法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 19300英镑/年",
+  "requirements": "申请者必须具有法律学位（至少达到2:2），总体平均成绩不低于57%；或者，申请者必须在任何非法律学位中至少达到2:2，总体平均成绩不低于57%，并且通过法律研究生文凭（或同等学历）。\n所有申请者都将根据具体情况予以考虑，其他资格、专业资格和相关经验也可能被考虑在内",
+  "objectives": "肯特大学法学硕士（律师执业）项目旨在帮助学生解锁法律职业生涯，在成为律师的道路上迈出下一步，课程精心设计，为学生迎接律师资格考试（SQE）做好准备，将实践训练与真实的法庭经验相结合，指导学生了解基本的法律知识，包括道德，以其在本科学习中获得的法律知识为基础。通过讲座、互动研讨会和独立学习的平衡方法，学生将提高解决问题的能力，并参与反思性讨论，为法律实践的职业生涯做好准备，课程强调法律的实践程序，以及功能法律知识的关键领域，促进对实质性法律权利和更广泛主题的反思、细致入微的理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商法与实践 (Business Law and Practice)\n民事纠纷解决 (Civil Dispute Resolution)\n刑事诉讼 (Criminal Litigation)\n论文（律师实践） (Dissertation (Solicitors' Practice))\n律师技能与评估准备 (Lawyering Skills and Assessment Preparation)\n法律专业实践 (Legal Professional Practice)\n法律服务、规管与律师账户 (Legal Services, Regulation and Solicitors’ Accounts)\n财产法与实践 (Property Law & Practice)\n遗嘱、信托与遗产管理 (Wills, Trusts and the Administration of Estates)",
+  "success_cases": ""
+}

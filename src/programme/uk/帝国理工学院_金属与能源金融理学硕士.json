@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "金属与能源金融理学硕士",
+  "ename": "MSc Metals and Energy Finance",
+  "tags": "商科,金融,地球科学与工程学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 46600英镑/年",
+  "requirements": "具有2:1学位，需要工程学、物理科学或经济学背景（包含大量数学成分）\n适当的经验虽然不是必需的，但将是一个优势\n需要申请ATAS证书",
+  "objectives": "帝国理工学院金属与能源金融理学硕士项目课程与自然能源和矿产资源项目的技术和财务评估有关，涵盖了矿床研究、资源评估、基础石油工程和石油地质学、矿物工程和采掘冶金学、会计、金融数学技术、项目评估和融资、项目管理、市场和供应等课题。在金属和能源项目的背景下，学生将被引入定量金融分析、战略管理和技术地质概念。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "衍生产品 (Derivatives)\n投资与投资组合管理 (Investment and Portfolio Management)\n金融数学 (Mathematics for Finance)\n管理与商业 (Management and Business)\n资源地质学与地球科学 (Resource Geology and Geoscience)\n项目评估 (Project Evaluation)\n实地考察 (Field Trip)",
+  "success_cases": ""
+}

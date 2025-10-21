@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学金史密斯学院",
+  "major_name": "计算语言学文学硕士",
+  "ename": "MA Computational Linguistics",
+  "tags": "社科,语言,英语与创意写作系",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 21000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要人文学科或科学学科背景\n如果有迹象表明学术实力，学校将考虑2:1学位以下申请者\n虽然学位不要求事先学习语言学或计算机科学，但在评估申请时，学校会寻找以下证据：较强的数字能力和编程基础知识；计算思维能力；对跨学科工作感兴趣并有能力。还需要有较高的英语书写和口语能力",
+  "objectives": "伦敦大学金史密斯学院计算语言学文学硕士项目将使学生获得在自然语言处理和计算语言学的学术和专业领域取得成功所需的理论理解和实践技能。\n伦敦大学金史密斯学院计算语言学文学硕士项目基于计算机系与英语和创意写作系语言学团队之间的跨系合作，让您有机会探索语言与技术之间的迷人关系。\n学生将可以访问探索语言结构和含义的核心领域、语言、社会和文化之间的关系、文本和语音的语言分析、自然语言处理、核心编程技能、语料库语言学以及进一步的模块。两个部门提供一系列可选模块。\n学生将深入了解语言技术如何应用​​于不同的语言处理任务，并能够引导学生的学习朝着自己的主要兴趣和职业抱负发展。\n该课程侧重于语言学和计算的交叉点，适合来自这些学科或相关学科对该领域有浓厚兴趣并具有良好计算能力的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "英语语言和语言学的核心问题 (Core Issues in English Language & Linguistics)\n数据编程 (Data Programming)\n语料库语言学 (Corpus Linguistics)\n机器学习 (Machine Learning)\n自然语言处理 (Natural Language Processing)\n最终项目 (Final Project)\n数据科学研究主题 (Data Science Research Topics)\n统计与统计数据挖掘 (Statistics and Statistical Data Mining)\n大数据分析 (Big Data Analysis)\n数据可视化 (Data Visualisation)\n人工智能 (Artificial Intelligence)\n神经网络 (Neural Networks)\nR 编程 (R Programming)\n研究方法简介 (Introduction to Research Methods)\n互动科学 (Interaction Science)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "高级工程管理（高速公路）理学硕士",
+  "ename": "MSc Advanced Engineering Management (Highways)",
+  "tags": "工科,工程管理,工程与物理科学学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有认可机构颁发的2:1荣誉学位，需要工程学、物理科学、数学或技术为基础的学科背景在上述学科中取得2:2荣誉学位并具备相关工作经验的申请者将根据具体情况予以考虑",
+  "objectives": "伯明翰大学高级工程管理（高速公路）理学硕士课程能够帮助学生成为公路行业的领导者，提升学生的职业潜力，同时发展其在道路建设、管理与安全方面的专业知识，课程旨在加深学生的公路工程知识，学习道路部门的关键管理技能，在高速公路管理、规划和技术等领域拓宽其全球职业潜力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级项目 (Advanced Project)\n公路工程与设计 (Highway Engineering and Design)\n公路管理与经济 (Highway Management and Economics)\n国际道路交通安全与可持续高速公路政策 (International Road Traffic Safety and Sustainable Highways Policy)\n市场营销与财务管理 (Marketing and Financial Management)\n组织与运营管理 (Organisational and Operations Management)\n战略创新管理 (Strategic Innovation Management)",
+  "success_cases": ""
+}

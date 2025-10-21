@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "数据科学及其应用理学硕士",
+  "ename": "MSc Data Science and its Applications",
+  "tags": "理科,数据科学,数学科学系",
+  "introduction": "专业方向: 数据科学\n入学时间: 1/10月\n项目时长: 1年\n项目学费: 21700英镑/年",
+  "requirements": "具有2:1学位，背景需要为以下学科之一：数学、统计学、运筹学、计算机科学、应用数学、纯数学、生物统计学、经济统计学、经济学；或具有2:1学位，不限专业背景，包括：以下1门课程：微积分、数学、工程数学、高等数学，以及以下1门课程：统计或概率、数学、工程数学、高等数学低于2:1学位或同等学历的申请者，将根据其相关专业或志愿工作经验和之前学习的课程对其申请进行考虑",
+  "objectives": "埃塞克斯大学数据科学及其应用理学硕士是一门转换课程，专门为希望成为快速发展的数字经济一部分但又没有足够的编程和统计技能的学生而设计。通过埃塞克斯大学数据科学及其应用理学硕士课程，学生将把理论和方法应用于实际问题，尤其是使用和利用大数据，将自己置于数据科学的核心。鼓励通过数据可视化进行统计思考，并指导学生在科学框架内发展创造力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数学职业与就业能力 (Mathematics Careers and Employability)\n模拟实验数据 (Modelling Experimental Data)\n使用SQL进行数据库与数据处理 (Databases and data processing with SQL)\n研究方法 (Research Methods)\n论文 (Dissertation)\n机器学习与数据挖掘 (Machine Learning and Data Mining)\n使用R语言进行编程与文本分析 (Programming and Text Analytics with R)\n探索性数据分析与数据可视化 (Exploratory Data Analysis and Data Visualisation)\n组合优化 (Combinatorial Optimisation)\n统计学方法 (Statistical Methods)\n随机过程 (Stochastic Processes)\n应用统计学 (Applied Statistics)\n信息检索 (Information Retrieval)\n文本分析 (Text Analytics)\n自然语言工程 (Natural Language Engineering)",
+  "success_cases": ""
+}

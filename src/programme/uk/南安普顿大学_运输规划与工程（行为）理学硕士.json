@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "运输规划与工程（行为）理学硕士",
+  "ename": "MSc Transportation Planning and Engineering (Behaviour)",
+  "tags": "工科,交通运输,工程学院",
+  "introduction": "专业方向: 交通运输\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位，需要以下背景：工程、数学、地理学、规划、物理科学\n如果申请者具有其他学科的2:1学位，可以联系项目负责人讨论是否有资格申请\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学运输规划与工程（行为）理学硕士项目带领学生探索运输系统、系统运营者与外部世界之间的关系。学生将学习多种课程，包括运输工程中的人为因素、运输、能源系统和环境之间的相互作用。南安普顿大学运输规划与工程（行为）理学硕士项目适合对运输行业有兴趣的学生，适合各学科的毕业生申请。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "交通规划：政策与治理 (Transport Planning: Policy and Governance)\n运输数据分析与技术 (Transport Data Analysis and Techniques)\n运输建模 (Transport Modelling)\n工程中的人为因素 (Human Factors in Engineering)\n物流系统运营 (Logistics Systems Operations)\n公路与交通工程 (Highway and Traffic Engineering)\n交通规划：实践 (Transport Planning: Practice)\n交通经济学 (Transport Economics)\n运输数据分析与技术 (Transport Data Analysis and Techniques)\n运输、能源和环境 (Transport、Energy and the Environment)\n运输管理与安全 (Transport Management and Safety)\n铁路工程与运营 (Railway Engineering and Operations)",
+  "success_cases": ""
+}

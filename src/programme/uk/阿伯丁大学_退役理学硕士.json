@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "退役理学硕士",
+  "ename": "MSc Decommissioning",
+  "tags": "工科,海洋技术,工程学院",
+  "introduction": "专业方向: 海洋技术\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要工程、地球科学、经济学、商业、法律或其他科学、技术和商业学位背景\n学校会考虑具有其他学位等级且能证明具备至少3年行业经验的申请者",
+  "objectives": "阿伯丁大学退役理学硕士项目是世界上第一个也是唯一一个关于报废石油钻井平台、平台和海上结构的硕士学位。该项目侧重于与报废有关的关键方面，如工程、项目管理、商业、法律和健康、安全和环境，是专门为各种背景的学生设计的。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "海上结构与海底系统 (Offshore Structures and Subsea Systems)\n堵井与弃井 (Well Plugging and Abandonment)\n海上设施报废：监管问题 (Decommissioning of Offshore Installations: Regulatory Issues)\n石油经济与项目评估 (Petroleum Economics and Project Evaluation)\n海洋环境影响评估 (Marine Environmental Impact Assessment)\n比较评估中的小组项目 (Group Project in Comparative Assessment)\n过程关闭，结构报废与处理 (Process Shut Down, Structural Decommissioning & Disposal)\n海上设施报废：商业方面 (Decommissioning of Offshore Installations: Commercial Aspects)\n工程风险与可靠性分析 (Engineering Risk and Reliability Analysis)\n个人项目 (MSc individual project)",
+  "success_cases": ""
+}

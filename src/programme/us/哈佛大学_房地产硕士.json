@@ -1,0 +1,12 @@
+{
+  "school_name": "哈佛大学",
+  "major_name": "房地产硕士",
+  "ename": "Master in Real Estate",
+  "tags": "商科,房地产",
+  "introduction": "专业方向: 房地产\n项目类别: STEM\n入学时间: 秋季\n项目时长: 一年\n项目学费: 82,500美元\n项目规模: 25人",
+  "requirements": "有学士学位。2年以上房地产或相关领域（城市规划、城市设计、建筑、风景园林等）专业经验者优先。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

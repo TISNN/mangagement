@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "土木工程理学硕士",
+  "ename": "MSc Civil Engineering",
+  "tags": "工科,土木工程,工程科学学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有2:1英国学士学位或同等学历，需要土木工程或相关学科背景，未满足上述门槛要求但在土木工程或相关学科有丰富全职专业经验（不包括实习）的申请者可以提供一个展示现有工程和设计技能的作品集，其申请可以被考虑",
+  "objectives": "伦敦大学学院土木工程理学硕士项目将传统课堂教学和团队/个人实践项目相结合，旨在使学生具备成为专业土木工程工程师必需的分析、设计技能，夯实理论知识基础。\n通过伦敦大学学院土木工程理学硕士项目的学习，学生将有机会接触土木工程和相关工程科学学科（结构动力学、可持续建筑设计、交通运输、流体、岩土工程、给排水、环境和海岸工程、规划和建设）的最前沿的知识，也将加深其对工程运作、设计、规划和建造方面的理解，提升适应性技能，从而使其未来在土木工程行业亦或研究领域的职业生涯更加顺利。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级土壤力学 (Advanced Soil Mechanics)\n高级结构 (Advanced Structures)\n道路和地下基础工程 (Roads and Underground Infrastructure)\n项目管理 (Project Management)\n应用建筑信息建模 (Applied Building Information Modelling)\n环境建模 (Environmental Modelling)\n环境系统 (Environmental Systems)\n有限元建模和数理方法 (Finite Element Modelling and Numerical Methods)\n高级土木工程材料 (Advanced Civil Engineering Materials)\n结构系统设计与分析 (Design and Analysis of Structural Systems)",
+  "success_cases": ""
+}

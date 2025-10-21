@@ -1,0 +1,12 @@
+{
+  "school_name": "耶鲁大学",
+  "major_name": "高阶管理学硕士",
+  "ename": "Master of Advanced Management",
+  "tags": "商科,管理",
+  "introduction": "专业方向: 管理\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 1年\n项目学费: 82,700美元",
+  "requirements": "该项目招收顶级商学院MBA，商学院列表参考网站https://globalnetwork.io/members\n需要提供MBA成绩单",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

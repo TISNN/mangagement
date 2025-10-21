@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "翻译研究理学硕士",
+  "ename": "MSc Translation Studies",
+  "tags": "社科,语言,文学、语言与文化学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要相关学科背景，以及翻译或其他相关领域的研究兴趣或专业经验\n申请者必须具备英语以外使用的任意一种语言的母语能力",
+  "objectives": "爱丁堡作为联合国教科文组织第一个世界文学之都，也是主要的文化中心，是比较研究文学以及文学与其他艺术形式关系的理想场所。爱丁堡大学比较文学理学硕士项目为期一年的教授式硕士课程利用了从苏格兰到亚洲、从斯堪的纳维亚到中东的世界级文学、语言和文化的教学和研究专业知识。该课程将来自全球各地的求学者聚集在一起，在课堂上学习比较文学，在这里，学生将提高他们的批判能力、分析能力和方法论技能，并探索不同语言和文化体系的一系列文学作品。该课程还鼓励学生发展自己的兴趣和专业领域，开设专门设计的选修课程，详细文学主题、体裁和历史时期、批评理论和翻译，以及文字与其他艺术（如音乐、绘画和电影）的关系。这将引出学生的最终论文，并进一步探索他们的的研究兴趣并强化他们的的研究技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "翻译研究 (Translation Studies)\n笔译练习 (Portfolio of Written Translation Exercises in French)\n实际工作中的技术与翻译 (Technology and Translation in the Workplace)\n诗歌、音乐与翻译 (Poetry, Music and Translation)\n近代中国的媒体与视觉文化 (Media and Visual Culture in Modern China)\n神圣翻译：概念、文本与宗教传播 (Translating the Sacred: Concepts, Texts and Transmission of Religions)\n性别与翻译 (Gender and Translation)\n当代中国文学 (Contemporary Chinese Literature)\n奇幻小说 (Fantastic Fiction)",
+  "success_cases": ""
+}

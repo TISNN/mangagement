@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "量化金融与金融科技理学硕士",
+  "ename": "MSc Quantitative Finance and FinTech",
+  "tags": "商科,金工金数,理学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 258000港币/年",
+  "requirements": "具有荣誉学士学位或同等学历，需要数学、统计学、商学、金融学、科学、计算机科学、工程学背景，具有其他学科学士学位以及足够的数学或信息技术背景的申请者也将被考虑",
+  "objectives": "香港理工大学量化金融与金融科技理学硕士项目旨在提供基于课程的定量和分析方法、建模技术、金融概念和编程技能方面的深入培训，使毕业生能够在不同的市场条件下专业且有竞争力地指导决策。此外，该项目还为学生提供人工智能、区块链、云计算、大数据等新时代金融科技所需的多种新技能、新技术的扎实训练。\n香港理工大学量化金融与金融科技理学硕士由应用数学系主办，会计与金融学院支持，满足量化金融与金融科技的多学科性质。所有课程均由定量金融、数据分析、风险管理和机器学习领域的世界领先专家教授。该计划将使毕业生具备扎实的定量方法知识和熟练的编程技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高频交易高级课题 (Advanced Topics in High Frequency Trading)\n量化金融高级课题 (Advanced Topics in Quantitative Finance)\n金融市场 (Financial Markets)\n金融科技 (Financial Technology)\n投资科学 (Investment Science)\n衍生产品定价数学模型 (Mathematical Models of Derivative Pricing)\n商业分析会计 (Accounting for Business Analysis)\n计算机与技术在会计与金融中的应用I (Applications of Computing and Technology in Accounting and Finance I)\n计算机与技术在会计与金融中的应用 II (Applications of Computing and Technology in Accounting and Finance II)\n商业风险管理 (Business Risk Management)\n深度学习 (Deep Learning)\n通过编程进行财务分析和估值 (Financial Analysis and Valuation with Programming)\n固定收益和信用风险 (Fixed-income and Credit Risk)\n预测和应用时间序列分析 (Forecasting and Applied Time Series Analysis)\n机器学习及其在金融中的应用 (Machine Learning and Applications in Finance)\n数据科学原理 (Principles of Data Science)\n统计机器学习 (Statistical Machine Learning)\n论文 (Dissertation)",
+  "success_cases": ""
+}

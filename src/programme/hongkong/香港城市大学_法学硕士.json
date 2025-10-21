@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "法学硕士",
+  "ename": "LLM",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 165600港币/年",
+  "requirements": "具有法律荣誉学位或同等学历；或\n已在香港或其他司法管辖区取得法律专业执业资格；或\n取得英国或香港的统通用专业考试（CPE）并取得令人满意的成绩，并取得二等荣誉学位；或\n已取得香港法律研究生证书或仲裁及争议解决文学硕士/法学硕士学位。",
+  "objectives": "香港城市大学法学硕士项目的开设旨在满足社会和世界的需求，为学生提供学习满足现代社会需求所需的专业技能和法律知识的机会，课程设计院允许学生选择不同的专业方向并根据自己的职业目标调整选修课程，学院提供的专业方向包括国际经济法、公司与金融法、知识产权与技术法、普通法、中国法与比较法以及通识方向。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "中国法与比较法方向 (Chinese and Comparative Law Stream)\n国际经济法方向 (International Economic Law Stream)\n普通法方向 (Common Law Stream)\n公司与金融法方向 (Corporate and Financial Law Stream)\n知识产权与科技法方向 (Intellectual Property and Technology Law Stream)\n通用法学方向 (General Stream)",
+  "success_cases": ""
+}

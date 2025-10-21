@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "微生物学理学硕士",
+  "ename": "MSc Microbiology",
+  "tags": "理科,生物,医学，医学科学与营养学院",
+  "introduction": "专业方向: 生物\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要微生物学背景或其他生物科学学位",
+  "objectives": "阿伯丁大学微生物学理学硕士旨在发展学生的研究和实践技能，增强其对微生物学最新进展的学术知识，并改善其就业能力和职业前景。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "基本技能-归纳法 (Basic Skills - Induction)\n微生物学概论 (Introduction to Microbiology)\n应用统计学 (Applied Statistics)\n生物信息学 (Bioinformatics)\n生物技术 (Biotechnology)\n分子遗传学 (Molecular Genetics)\n免疫学概况 (Profiles of Immunology)\n研究教程 (Research Tutorials)\n宿主-病原体相互作用 (Host - Pathogen Interactions)\n高级生物信息学与基因组测序 (Advanced Bioinformatics and Genome Sequencing)\n高级生物技术 (Advanced Biotechnology)\n生物药物发现 (Biologic Drug Discovery)\n基因组化药物 (Genome - Enabled Medicine)\n研究项目 (MSc Ims Research Project)",
+  "success_cases": ""
+}

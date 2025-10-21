@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "计算机网络与安全理学硕士",
+  "ename": "MSc Computer Networks and Security",
+  "tags": "工科,计算机,计算机科学与电子工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:1学位，本科背景涵盖以下一门或多门课程：数据库、Web开发、软件工程、操作系统、计算机架构、计算机系统以及以下一门或多门数学课程，如：数学、微积分、代数、微分方程、概率论与统计学以及以下一门或多门信号与系统课程，如：信号与系统、控制理论、计算机系统、嵌入式系统、微处理器、自动化与控制工程、控制技术、系统硬件基础、控制工程以及以下两门或多门编程课程：C、C#、C、Java、Python、MATLAB、面向对象编程/OOP、高级编程、编程入门、编程语言、软件工程、系统编程、算法、数据结构、编程元素",
+  "objectives": "埃塞克斯大学计算机网络与安全理学硕士课程解决了现代计算机网络专业人员的需求，涵盖当前和未来的互联网协议、网络服务编程和保护这些系统等主题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "理学硕士项目与学位论文 (MSc Project and Dissertation)\n计算机安全 (Computer Security)\nIP网络与应用 (IP Networking and Applications)\n专业实践与研究方法 (Professional Practice and Research Methodology)\nPython编程入门 (Introduction to Programming in Python)\n数据科学与决策 (Data Science and Decision Making)\n融合网络与服务 (Converged Networks and Services)\n创建与发展新企业 (Creating and Growing a New Business Venture)\n网络原理 (Networking Principles)\n移动通信 (Mobile Communications)\n手机与社交应用程序编程 (Mobile and Social Application Programming)\n网络安全 (Network Security)\n使用Matlab的数学研究技术 (Mathematical Research Techniques Using Matlab)\n物联网技术 (Internet of Things Technology)",
+  "success_cases": ""
+}

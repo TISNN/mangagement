@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "翻译与传译文学硕士",
+  "ename": "MA Translating and Interpreting",
+  "tags": "社科,语言,人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 195000港币/年",
+  "requirements": "具有认可机构颁发的学士学位",
+  "objectives": "香港理工大学翻译与传译文学硕士学位课程旨在培养能够以高水平中文或英文工作的毕业生，以满足香港和世界各地对于受过专业训练的笔译和口译人员的需求。该计划通过为语言行业的专业人士提供提升的平台，使他们有能力进行笔译和口译并进一步掌握他们现有的技能或获得新技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "翻译的文本和背景 (Translation: Text and Context)\n翻译的语篇与译者 (Translation: Discourse and the Translator)\n传译原则 (Interpreting: Principles)\n传译的连贯性 (Interpreting: Consecutive)\n翻译研究 (Translation Studies)\n高级翻译 (Advanced Translation)\n对比分析 (Contrastive Analysis)\n高级口译 (Advanced Liaison Interpreting)\n计算机辅助翻译 (Computer Assisted Translation )\n高级口译 (Advanced Interpreting)\n专业口译项目 (Specialized Interpreting Programme )\n高级法律翻译 (Advanced Legal Translation)\n高级传媒翻译 (Advanced Translation for Media)\n高级商贸翻译  (Advanced Translation for Business and Commerce)\n论文 (MATI Dissertation)",
+  "success_cases": ""
+}

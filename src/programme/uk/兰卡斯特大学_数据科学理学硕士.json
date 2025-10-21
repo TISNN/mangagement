@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "数据科学理学硕士",
+  "ename": "MSc Data Science",
+  "tags": "理科,数据科学,计算机与通信学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 10月\n项目时长: 1年\n项目学费: 30310英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，不限专业背景，申请者需要接触过定量方法，例如统计学或数学建模\n学校强烈鼓励具有计算机科学、数学、统计学、工程学、物理学、生命科学、经济学、金融学和语言学2:2荣誉学位的申请者申请，申请者的本科学位需要包括统计学、数学、数学建模或机器学习（如神经网络）至少1门课程",
+  "objectives": "从商业和金融到健康和医学，从基础设施到社会研究，数据科学在现代世界的各个方面都发挥着至关重要的作用。兰卡斯特大学数据科学理学硕士项目将确保学生在这个迅速发展、需求量大的领域拥有高级技能、知识和经验，以实现职业抱负。在兰开斯特攻读数据科学硕士学位将为学生提供一个完美的环境，以发展该学科的专业知识。学生将发展和巩固在计算和统计方面的基本技能，然后进入专业方向，让学生获得和提高高级技术技能，同时获得支持和推进未来职业选择的专业知识。专家路径模块提高对现代数据科学技术的理解，并增强了在商业智能、健康、环境或社会部门应用数据科学的信心。这些模块由来自整个本科的研究人员教授，他们在与每个路径相关的主题方面拥有专业知识。除了这些教学模块，学生还将在行业内或作为学术研究项目的一部分进行为期12周的实习。这将为学生提供一个极好的机会，将技能和知识应用于现实世界的情况和挑战，让学生获得宝贵的专业经验，并展示对该学科的掌握情况。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据挖掘 (Data Mining)\n数据科学基础 (Data Science Fundamentals)\n数据科学编程 (Programming for Data Scientists)\n统计推断 (Statistical Inference)\n统计方法和模型 (Statistical Methods and Modelling)\n似然推断 (Likelihood Inference)\n应用数据挖掘 (Applied Data Mining)\n流行病学原理 (Principles of Epidemiology)\n统计推断 (Statistical Inferenence)\n统计方法与建模 (Statistical Methods and Modeling )\n生存和事件历史分析 (Survival and Event History Analysis)",
+  "success_cases": ""
+}

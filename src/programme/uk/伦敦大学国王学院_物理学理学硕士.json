@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "物理学理学硕士",
+  "ename": "MSc Physics",
+  "tags": "理科,物理,自然、数学与工程科学学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 37800英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，需要物理学背景，或者，与物理学相关的学位学科将根据具体情况被考虑\n非物理背景或学位低于入学要求的申请者可能会被邀请在做出决定之前与部门面谈\n申请者需要申请ATAS证书",
+  "objectives": "伦敦大学国王学院物理学理学硕士项目开设涵盖粒子物理学、宇宙学、实验生物物理学、纳米技术、凝聚态物质理论和模拟等领域的跨学科课程，培养学生研究能力，为学生科研生涯夯实知识基础与技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究课题 (Research Project)\n一般研究技巧与可迁移技能 (General Research Techniques and Transferable Skills)\n物理学高级专题 (Advanced Topics in Physics)\n高级光子学 (Advanced Photonics)\n理论物理数学方法 (Mathematical Methods in Theoretical Physics)\n纳米系统的理论处理 (Theoretical Treatment of Nano-systems)\n凝聚态物理实验技巧 (Experimental Techniques in condensed Matter Physics)\n虚拟实验室中的生物和纳米材料 (Bio & Nanomaterials in the Virtual Lab)\n标准模型物理 (Standard Model Physics & Beyond)\n天文粒子宇宙学 (Astroparticle Cosmology)\n高级凝聚态物质 (Advanced Condensed Matter)\n细胞生物物理学 (Cellular Biophysics)\n暗物质与暗能量 (Dark Matter & Dark Energy)\n李群和李代数 (Lie Groups & Lie Algebras)\n弦理论与膜 (String Theory & Branes)",
+  "success_cases": ""
+}

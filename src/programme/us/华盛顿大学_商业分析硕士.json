@@ -1,0 +1,12 @@
+{
+  "school_name": "华盛顿大学",
+  "major_name": "商业分析硕士",
+  "ename": "MS in Business Analytics",
+  "tags": "商科,商业分析",
+  "introduction": "专业方向: 商业分析\n项目类别: STEM\n入学时间: 夏季\n项目时长: 1年\n项目学费: 52400美元/年\n平均成绩: 3.5",
+  "requirements": "Self-Review of Qualifications: Math, Probability and Statistics\nInformation Technology/Systems\nProgramming Languages (e.g. R, Python, SQL)\nMS Excel\nData and Database Management",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

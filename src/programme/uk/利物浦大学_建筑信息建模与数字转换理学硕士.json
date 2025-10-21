@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "建筑信息建模与数字转换理学硕士",
+  "ename": "MSc Building Information Modelling and Digital Transformation",
+  "tags": "工科,工程管理,文学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 24800英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要建筑学、景观建筑、室内设计、土木/结构工程、城市设计、建筑、项目管理、施工管理、工料测量、建筑工程、建筑技术、设计管理、建筑测量或设施/资产管理等学科背景；丰富的相关专业经验也将被考虑",
+  "objectives": "建筑信息建模旨在通过起草，分析和使用智能模型，快速且准确地制定出建筑规划图。利物浦大学建筑信息建模与数字转换理学硕士项目的建筑知识日益完善，建筑技术日益进步。因此，利物浦大学建筑信息建模与数字转换理学硕士项目可以全面教授学生与设计和施工相关的知识，帮助学生成为建筑工程领域专业的实践者。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "BIM理论与集成项目交付 (Theory of BIM and Integrated Project Delivery)\n管理BIM协同工作流程 (Managing Collaborative Workflows for BIM)\nnD建模和BIM环境下的互操作性 (nD Modelling and Interoperability in BIM Environment)\nBIM-可行可持续设计 (BIM-Enabled Sustainable Design)\n参数化设计和数字制造 (Parametric Design and Digital Fabrication)\n研究方法 (Research Methodology)\n论文(论文，设计研究) (Thesis (Dissertation, Research by Design))",
+  "success_cases": ""
+}

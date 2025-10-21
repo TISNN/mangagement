@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "应用数学与数据科学硕士",
+  "ename": "MSc in Applied Mathematics and Data Science",
+  "tags": "理科,数据科学,创新工程学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 1/9月\n项目时长: 2年\n项目学费: 120000港币/年",
+  "requirements": "修读数学、物理、计算机、工程、统计、经济、生物和医学或相关专业",
+  "objectives": "本课程致力于培养应用数学与数据科学高级人才，以供应工商业界、研究机构、以及学术界的人才需求，并发展在跨领域研究中所需要的应用数学与数据科学相关的理论与应用，推动大数据处理在各行业中的整合应用。为粤港澳大湾区提供大数据分析人才。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学中的数学方法 (Mathematics Methods for Data Science)\n数值线性代数 (Numerical Linear Algebra)\n数据科学开源工具 (Open Source Tool for Data Science)\n应用统计分析 (Applied Statistics)\n数据挖掘 (Data Mining)\n机器学习 (Machine Learning)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "工程计算与软件技术理学硕士（数据分析计算智能）",
+  "ename": "MSc Computational and Software Techniques in Engineering (Computational Intelligence for Data Analytics)",
+  "tags": "工科,计算机,航空航天",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "具有航空、机械或电气工程或计算机科学背景，有C语言编程经验加分",
+  "objectives": "计算智能数据处理算法在许多需要快速和自动化决策的行业中至关重要。这些行业通常包括金融、制造业、航空航天、汽车和国防。克兰菲尔德大学工程计算与软件技术理学硕士（数据分析计算智能）课程旨在帮助学生具备扎实的计算机科学技能基础和专业知识，这对于开发能够处理一系列复杂问题的快速算法是必要的，在这些问题中，智能决策或未来预测是基于对数据收集的理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "C++编程 (C++ Programming)\n技术管理 (Management for Technology)\n小规模并行编程 (Small-Scale Parallel Programming)\n云计算 (Cloud Computing)\n高性能技术运算 (High Performance Technical Computing)\n高级Java和高级Python (Advanced Java and Advanced Python)\n机器学习与大数据 (Machine Learning and Big Data)\n物联网 (Internet of Things)\n人工智能 (Artificial Intelligence)",
+  "success_cases": ""
+}

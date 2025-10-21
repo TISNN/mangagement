@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "犯罪科学与数据科学理学硕士",
+  "ename": "MSc Crime Science with Data Science",
+  "tags": "社科,社会学与社工,工程科学学院",
+  "introduction": "专业方向: 社会学与社工\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "通常具有英国大学颁发的二等学士学位或同等学历，需要相关学科背景，相关学科包括科学学科以及那些包含大量统计学、数学或定量方法成分的学科背景，如工程学、计算机科学或心理学。另外能够提供5年或5年以上相关专业经验（例如作为数据科学家、数据工程师或情报分析师）的申请者也可能有资格入读该专业",
+  "objectives": "伦敦大学学院犯罪科学与数据科学理学硕士项目是一个多学科学位，利用心理学、社会科学、统计学、数学、建筑学、法医学、设计、地理和计算方面的专业知识。培养学生将科学原理应用于犯罪控制的能力，在制定和实施犯罪控制政策时更具战略性地思考，理解实施问题的复杂性，批判性地评估计划中的减少犯罪举措的可能影响，并为减少特定犯罪问题提出更具创新性的建议。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "预防犯罪 (Preventing Crimes)\n设计和做研究 (Designing and Doing Research)\n安全与犯罪科学基础 (Foundations of Security and Crime Science)\n安全与犯罪科学论文 (Security and Crime Science Dissertation)\n应用数据科学 (Applied Data Science)\n研究模拟 (Simulation for research)\n了解多元建模和因果推理 (Understanding Multivariate Modelling and Causal Inference)\n犯罪制图和空间分析 (Crime Mapping and Spatial Analysis)\n对有组织犯罪的看法 (Perspectives on Organised Crime)\n调查侦测 (Investigation and Detection)\n情报收集与分析 (Intelligence Gathering and Analysis)\n风险和应急计划 (Risk and Contingency Planning)\n网络安全简介 (Introduction to Cybersecurity)\n定性研究方法 (Qualitative Research Methods)\n网络犯罪 (Cybercrime)\n地平线扫描和不断变化的犯罪性质 (Horizon Scanning and the Changing Nature of Crime)\n数据科学机器学习 (Machine Learning for Data Science)",
+  "success_cases": ""
+}

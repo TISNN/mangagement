@@ -1,0 +1,12 @@
+{
+  "school_name": "卡内基梅隆大学",
+  "major_name": "人机交互硕士",
+  "ename": "Master of Human-Computer Interaction",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 一年\n项目学费: 51,856美元",
+  "requirements": "申请者必须持有地区认可机构的学士学位且GPA达到3.0及以上。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

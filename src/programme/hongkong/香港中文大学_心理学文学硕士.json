@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "心理学文学硕士",
+  "ename": "MA Psychology",
+  "tags": "社科,心理学,社会科学学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 178000港币/年",
+  "requirements": "具有认可大学的学士学位（非心理学专业），需要提供B等级证明",
+  "objectives": "香港中文大学心理学文学硕士课程旨在于为非主修心理学之大学毕业生提供进修心理学研究院课程的机会。香港中文大学心理学文学硕士课程毕业生将：具备扎实的心理学基础，能了解各理论及其实证方法；能在日常生活中探讨及应用心理学知识；有能力设计及进行心理学研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "心理学中的统计与研究设计 (Statistics and Research Design in Psychological Science)\n心理测验及测量 (Psychological Testing and Measurement)\n生物心理学 (Biological Psychology)\n认知心理学 (Cognitive Psychology)\n人类发展心理学 (Developmental Psychology)\n社会心理学 (Social Psychology)\n异常心理学 (Abnormal Psychology)\n性格心理学 (Personality Psychology)\n认知科学个别研习 (Independent Study in Cognitive Science)\n人类发展心理学个别研习 (Independent Study in Human Development)\n社会心理学个别研习 (Independent Study in Social Psychology)\n精神健康心理学个别研习 (ndependent Study in Mental Health)",
+  "success_cases": ""
+}

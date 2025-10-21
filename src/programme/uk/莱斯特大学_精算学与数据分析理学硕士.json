@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "精算学与数据分析理学硕士",
+  "ename": "MSc Actuarial Science with Data Analytics",
+  "tags": "商科,金工金数,计算与数学科学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 23650英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要数学、统计学、科学、经济学等相关学科背景，也会考虑其他专业的学生，但需证明他们的数学水平（如果学生在A -level考试中没有至少获得B）",
+  "objectives": "精算师是问题解决者，业务分析师，也是顾问和风险评估员。莱斯特大学精算学与数据分析理学硕士项目的学生可以将所学技能应用到保险、养老金、医疗保健、银行、商务管理和风险评估等领域。学生将学习数学和统计学知识，并提高解决问题的能力，帮助企业和机构评估决策，预测公司财务走向。已经成为精算师，或是想要进入该领域工作的人群都可以通过学习为职业生涯带来转折。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学基础 (Fundamentals of Data Science)\n精算建模 1 (Actuarial Modelling 1)\n马尔可夫过程 (Markov Processes)\n统计分布与推论 (Statistical Distributions and Inference)\n金融数学 1 (Financial Mathematics 1)\n商业微观经济学 (Business Microeconomics)\n运筹学 (Operational Research)\n地理信息系统基础 (Fundamentals of GIS)",
+  "success_cases": ""
+}

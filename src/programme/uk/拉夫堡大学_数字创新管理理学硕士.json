@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "数字创新管理理学硕士",
+  "ename": "MSc Digital Innovation Management",
+  "tags": "商科,管理,数字技术研究所",
+  "introduction": "专业方向: 管理\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有英国2:2荣誉学位（最后一年成绩达到50%）或同等学历，不限专业背景",
+  "objectives": "您将获得高级知识，并专注于互联网技术的最新发展，从而拥有创业技能。本课程还将为您提供难得的机会，将互联网技术的知识与业务洞察力和战略相结合。课程不仅针对那些希望进入或管理互联网服务行业的个人，而且还针对希望创造新的数字企业机会的人士。通过研究型教学，为互联网技术的最新技术提供专业技术知识，同时通过高级业务分析和相关主题案例研究，为学生提供企业家精神和商业教学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "合作项目 (Collaborative Project)\n创新管理 (Innovation Management)\n物联网及应用 (Internet of Things and Applications)\n论文 (Dissertation)\n云技术和系统 (Cloud Technologies and Systems)\n创业 (Entrepreneurship)\n知识产权 (Intellectual Property)\n理解组织的失败 (Understanding Organisational Failure)\n云应用和服务 (Cloud Applications and Services)\n市场分析的数字技术 (Digital Technologies for Market Analysis)\n信息管理 (Information Management)\n高级大数据分析 (Advanced Big Data Analytics)\n数据科学原理 (Principles of Data Science)\n战略与规划 (Strategy and Planning)\n数字应用发展 (Digital Application Development)\n媒体设计和制作 (Media Design and Production)",
+  "success_cases": ""
+}

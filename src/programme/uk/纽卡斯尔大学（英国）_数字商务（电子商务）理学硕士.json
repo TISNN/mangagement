@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "数字商务（电子商务）理学硕士",
+  "ename": "MSc Digital Business (E-Commerce)",
+  "tags": "商科,信息系统,商学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 27100英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景",
+  "objectives": "纽卡斯尔大学数字商务（电子商务）理学硕士项目将为学生提供电子商务领导角色所需的知识和技能。所涵盖的知识和技能涵盖与电子商务相关的一系列领域，包括：网上销售策略、数字营销、业务流程、数据分析、战略服务管理、商业计划，这些技能和知识不仅仅是理论概念，而是理论概念。它们旨在应用于电子商务领域的现实挑战和机遇。\n纽卡斯尔大学数字商务（电子商务）理学硕士项目使学生能够解决不断发展的电子商务世界中出现的复杂问题。它将为学生提供推动创新和职业成功的工具。\n通过选择纽卡斯尔大学数字商务（电子商务）理学硕士项目，学生将为自己在电子商务的未来做好准备，并具备在这个竞争激烈且令人兴奋的行业中蓬勃发展所需的技能和专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n研究方法 (Research Methods)\n战略、管理和信息系统 (Strategy, Management and Information Systems)\n管理者的数据分析 (Data Analytics for Managers)\n电子商务 (E-Business)\n数字化初创企业 (Digital Start-up)\n数字营销 (Digital Marketing)\n数字物流和供应链管理 (Digital Logistics and Supply Chain Management)\n战略服务管理 (Strategic Service Management)\n数字化零售管理 (Digital Retail Management)\n电子商务基础设施 (E-commerce Infrastructure)",
+  "success_cases": ""
+}

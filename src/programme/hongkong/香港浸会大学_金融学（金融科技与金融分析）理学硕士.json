@@ -1,0 +1,12 @@
+{
+  "school_name": "香港浸会大学",
+  "major_name": "金融学（金融科技与金融分析）理学硕士",
+  "ename": "MSc Finance (FinTech and Financial Analytics)",
+  "tags": "商科,金工金数,商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 318000港币/年",
+  "requirements": "具有认可大学或类似机构颁发的荣誉学士学位或同等学历，鼓励但不强制要求申请者提交令人满意的GMAT/GRE成绩\n在开始课程之前，学生必须具备金融、数学或计算机科学的基础培训/经验，满足这一要求的先决条件是：具备必修专业之一的主修/辅修学位，完成这些领域的大量课程，或具备相关的先前工作经验。不具备这些资格的申请者将被要求完成特定的预备课程，包括定量方法（数学、统计学）、金融和经济学，学生在正式入读本课程之前，必须通过所需的预备课程。",
+  "objectives": "香港浸会大学金融学（金融科技与金融分析）理学硕士项目旨在让学生掌握金融、金融科技和金融分析方面的知识，帮助他们发展解决金融相关业务问题的能力，培养他们更好地应对当今数据驱动经济中快速增长的需求。该课程的毕业生将发展新的见解和观点，从新兴技术和分析技能中抓住机遇，并利用这些技能将金融业提升到一个新的水平。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司金融 (Corporate Finance)\n投资管理 (Investment Management)\n应用金融计量学 (Applied Financial Econometrics)\nPython 、R语言与金融计算 (Financial Computing with Python and R)\n金融科技 (Financial Technology （FinTech）)\n国际金融管理 (International Financial Management)\n机器学习与金融数据 (Machine Learning for Financial Data)\n金融衍生品与风险管理 (Financial Derivatives and Risk Management)\n金融和会计学中的文本分析 (Textual Analysis in Finance and Accounting )\n网络安全、隐私与金融监管科技 (Cybersecurity, Privacy and RegTech for Finance)\n区块链与加密数字货币 (Blockchain and Cryptocurrency )\n算法与高频交易 (Algorithmic and High-Frequency Trading)\n金融合规 (Compliance in Finance )",
+  "success_cases": ""
+}

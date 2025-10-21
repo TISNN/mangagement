@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "管理学理学硕士",
+  "ename": "MSc Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 36840英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景。学校会考虑所有有证据表明在与学习计划相关的课程中表现优异、具有丰富的相关工作经验或专业资格的申请",
+  "objectives": "本项目为没有商业和管理经验的学生提供所有必要的知识和技能，帮助学生在充满活力和不断变化的商业环境中茁壮成长。项目同样适合希望在战略、未来趋势、领导力、运营管理、市场营销和业务分析等领域发展的学生。项目教学以研究为导向，为学生提供全新的问题处理方法，使学生具备在多个领域成功地担任各种管理职务的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际管理的未来趋势 (Future Trends for International Management)\n国际业务管理 (International Operations Management)\n数据分析导论 (Introduction to Data Analytics)\n国际管理会计 (Accounting for International Managers)\n应用计量经济学 (Applied Econometrics)\n国际经理策略 (Strategy for International Managers)\n全球职业生涯管理理论与实践 (Global Career Management - Theory and Practice)\n管理营销 (Marketing for Management)\n组织管理和领导 (Organisational Management and Leadership)\n管理学基础 (Fundamentals of Management)\n可持续性、企业社会责任和商业道德 (Sustainability, CSR and Business Ethics)\n银行和金融服务 (Purchasing and Supply Chain Management)\n战略创新管理 (Banking and Financial Services)\n数字商业模式 (Digital Business Models)\n创业：创业发展 (Entrepreneurship: New Venture Development)",
+  "success_cases": ""
+}

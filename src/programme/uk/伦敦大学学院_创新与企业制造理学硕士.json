@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "创新与企业制造理学硕士",
+  "ename": "MSc Manufacturing with Innovation and Enterprise",
+  "tags": "商科,创业与创新,工程科学学院",
+  "introduction": "专业方向: 创业与创新\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要相关学科背景，需要ATAS认证",
+  "objectives": "伦敦大学学院创新与企业制造理学硕士项目将现代和未来制造业与商业技能和企业家精神联系起来。它将为学生提供将前沿制造技术和企业技能转化为产品商业化的知识。该理科硕士以实践为重点，将使学生能够使用最先进的设施和与行业相关的项目，以进一步推进职业或商业冒险。\n伦敦大学学院创新与企业制造理学硕士项目的学生有各种机会建立联系并随时了解将想法转化为业务的信息。例如，鼓励学生通过参加创新与企业组织的企业训练营和研讨会来发展他们的技能。他们还可以参加创业竞赛，以追求创新的商业理念。学生通过该部门的职业计划建立雇主网络，其中包括雇主主导的活动和个人辅导。这将使毕业生具备在专业和研究界发挥创造性和领导作用所需的技能和信心。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "理学硕士个人项目 (MSc Individual Project)\n创新与团体设计项目 (Innovation and Group Design Project)\n创业金融 (Entrepreneurial Finance)\n掌握创业精神 (Mastering Entrepreneurship)\n纳米工程基础 (Fundamentals of Nanoengineering)\n高级表征和实验室技术 (Advanced Characterisation & Laboratory Techniques)\n工程中的高级计算机应用 (Advanced Computer Applications in Engineering)\n制造材料设计 (Material Design for Manufacturing)\n精密制造 (Precision Manufacturing)\n工程系统的可持续性分析 (Sustainability Analysis of Engineering Systems)",
+  "success_cases": ""
+}

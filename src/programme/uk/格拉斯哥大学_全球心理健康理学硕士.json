@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "全球心理健康理学硕士",
+  "ename": "MSc Global Mental Health",
+  "tags": "社科,心理学,健康与福祉学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31800英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要医学、护理学、心理学、职业治疗、法律、公共卫生、地理学、人类学、公共政策、生物医学、牙科、营养学、教育、环境卫生、流行病学、食品科学、遗传学、全球健康、健康促进、人类生物学、免疫学、神经科学、营养学、药理学、生理学、理疗、社会和公共政策或社会学专业背景",
+  "objectives": "格拉斯哥大学全球心理健康理学硕士项目旨在培养能够在全球范围内负责提供精神健康服务的毕业生，帮助他们发展知识，将各项举措与更广泛的国际发展目标结合起来，并解决全球不平等问题。通过培养批判性思考全球化精神疾病概念的潜在风险的能力，学生将获得制定和实施旨在减少全球精神健康困难负担的政策的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球心理健康主题 (Themes in Global Mental Health)\n研究方法(定性、定量与健康经济学) (Research Methods (Qualitative, Quantitative and Health Economics))\n精神健康与残疾:国际法与政策 (Mental Health and Disability: International Law and Policy)\n全球心理健康论文 (Global Mental Health Dissertation)\n精神健康文化、社会与生物决定因素 (Cultural, Social and Biological Determinants of Mental Health)\n定性研究方法 (Qualitative Research Methods)\n终身精神健康促进 (Mental Health Promotion Across the Life-span)",
+  "success_cases": ""
+}

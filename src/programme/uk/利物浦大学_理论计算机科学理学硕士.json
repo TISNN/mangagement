@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "理论计算机科学理学硕士",
+  "ename": "MSc Theoretical Computer Science",
+  "tags": "工科,计算机,电气工程、电子与计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 30800英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要与计算机科学密切相关的学科领域背景",
+  "objectives": "利物浦大学理论计算机科学理学硕士项目为期一年，是欧洲所有同类硕士项目中的首创，适合拥有计算机科学、经济或相关学科背景的学生，也适合于想要通过接触算法博弈论的尖端研究以拓宽知识面的学生。利物浦大学理论计算机科学理学硕士项目将为学生提供一系列现代课题，包括网络游戏的优化和计算博弈论，以及现代电子商务中的应用，如谷歌赞助的搜索拍卖。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机科学研究方法 (Research Methods In Computer Science )\n面向对象的软件开发 (Object Oriented Software Development)\n优化 (Optimisation)\n计算博弈论入门 (Introduction To Computational Game Theory)\n微观经济学理论 (Microeconomic Theory)\n硕士项目 (Msc Project)\n网络编程 (Web Programming)\n高级算法技术 (Advanced Algorithmic Techniques)\n应用算法 (Applied Algorithmics)\n数据挖掘 (Data Mining)\n多智能体系统 (Multi-agent Systems)\n电子商务技术 (Technologies for E-commerce)",
+  "success_cases": ""
+}

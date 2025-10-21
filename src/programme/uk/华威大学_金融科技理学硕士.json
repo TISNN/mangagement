@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "金融科技理学硕士",
+  "ename": "MSc Financial Technology",
+  "tags": "商科,金工金数,商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 42500英镑/年",
+  "requirements": "具有2:1本科学位，不需要GMAT或GRE成绩（不会视为申请的一部分或影响申请结果）熟悉Python和定量技能将是有利的在评估申请者的学习成绩时，学校会考虑其平均成绩以及所就读院校的地位在读生需要上传最后一年的课程列表",
+  "objectives": "华威大学金融科技理学硕士项目这一跨学科课程旨在教授学生创新和采用新技术来改造金融行业、实现金融民主化，加速金融普惠。学生将首先接受定量方法、数据科学、人工智能、区块链技术、金融和信息系统方面的培训，随着知识的发展，学校将鼓励其通过挑战和批判性地评估领域内的既定范式来发展创造性思维。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融科技：数字货币与去中心化金融 (FinTech: Digital Currencies and Decentralised Finance)\n生成式人工智能与人工智能应用 (Generative AI and AI Applications)\n金融学基础 (Foundations of Finance)\n针对消费者金融服务的金融科技 (FinTech for Consumer Financial Services)\n区块链与分布式账本技术 (Blockchain and Distributed Ledger Technologies)\n编程与大数据分析 (Programming and Big Data Analytics)\n商业中的网络安全 (Cybersecurity in Business.)\n创业与企业创业 (Entrepreneurship and Business Venturing)\n数字化企业服务 (Digital Business Services)\n数据科学与经济学案例研究 (Case Studies in Data Science & Economics)\n财务分析 (Financial Analytics)\n另类投资 (Alternative Investments)\n算法交易与机器人咨询 (Algorithmic Trading and Robo Advising)\n研究方法 (Research Methods)",
+  "success_cases": ""
+}

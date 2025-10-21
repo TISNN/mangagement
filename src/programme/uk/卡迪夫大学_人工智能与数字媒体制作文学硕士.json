@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "人工智能与数字媒体制作文学硕士",
+  "ename": "MA AI and Digital Media Production",
+  "tags": "社科,新媒体,新闻、媒体与文化学院",
+  "introduction": "专业方向: 新媒体\n入学时间: 9月\n项目时长: 1年\n项目学费: 23700英镑/年",
+  "requirements": "具有2:2荣誉学位，不限专业。如果申请者没有学位，学校会考虑其专业经验",
+  "objectives": "卡迪夫大学人工智能与数字媒体制作文学硕士项目将为学生提供成为各行各业数字内容和通信专业人士所需的基本技能和技术。课程旨在满足这个快速变化的行业不断变化的需求，满足广泛的行业和组织的需求。\n学生将获得数字媒体制作方面的扎实基础，并建立对各种内容格式（包括视频、播客和动画）的信心。学生将了解生成式人工智能的使用；它提供的创意机会以及它带来的挑战，从偏见和虚假信息到知识产权和隐私。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能与数字故事叙述 (AI and Digital Storytelling)\n数字媒体制作1 (Digital Media Production 1)\n数字媒体入门 (Understanding Digital Media)\n创新与数字化企业 (Innovation and Digital Enterprise)\n专业研究方法 (Professional Research Methods)\n数字媒体制作2 (Digital Media Production 2)\n论文项目 (Dissertation Project\t)",
+  "success_cases": ""
+}

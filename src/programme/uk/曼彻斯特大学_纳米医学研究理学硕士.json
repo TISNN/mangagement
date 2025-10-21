@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "纳米医学研究理学硕士",
+  "ename": "MSc Nanomedicine by Research",
+  "tags": "社科,医学,生物、医学和健康学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 36000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要生物科学、药学、医学科学、生物医学材料、化学、生物/化学工程背景",
+  "objectives": "曼彻斯特大学纳米医学研究理学硕士项目结合跨学科教学与前沿实验室为基础的研究，为这一高度竞争和快速发展的研究领域提供了坚实的科学理解。这门课程与曼彻斯特大学的两个主要研究方向一致：高级材料和癌症。\n曼彻斯特大学纳米医学研究理学硕士课程旨在帮助学生能够展示对纳米材料在医学上的应用的理解，重点是纳米生物相互作用、纳米安全和纳米毒理学原理、纳米技术用于改善疾病的检测和治疗、纳米医学增强的癌症免疫治疗、生物医学成像和神经退行性疾病的治疗。通过对同行评议的文章和评论进行批判性分析，培养批判性的评估技能。学生将能够分析该领域的当前进展、问题和争议，批判性地分析数据，制定和捍卫科学观点，并培养学术写作技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "纳米医学概论 (Introduction to Nanomedicine)\n纳米医学研究进展 (Advances in Nanomedicine Research)\n实验室技能单元 (Laboratory Skills Unit)\n研究方法单元 (Research Methods Unit)\n研究项目1（文献综述与项目提案） (Research Project 1 (Literature Review and Project Proposal) )\n研究项目2（研究项目） (Research Project 2 (Research Project))",
+  "success_cases": ""
+}

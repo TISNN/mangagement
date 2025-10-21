@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "建筑计算理学硕士",
+  "ename": "MSc Architectural Computation",
+  "tags": "社科,建筑,建筑环境学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有英国大学颁发的二等学士学位或同等学历，具备一定的基本计算机经验\n学校可能会考虑具有较低学历学但学位学科背景适合申请专业且具备作为高级专业人士的丰富经验的申请者，请注意可能会设置特殊资格考试\n有作品集的申请者强烈建议在申请时提交作品集",
+  "objectives": "伦敦大学学院建筑计算理学硕士项目提供真实编程环境，培养学生全面掌握所需技能以创造具备创成性、紧急性与响应性形式，课程将由建筑师及人工智能专业教授，学生将在资深导师的指导下完成建筑计算项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算分析 (Computational Analysis)\n计算综合 (Computational Synthesis)\n知识导向型过程设计 (Design as a Knowledge-Based Process)\n建筑与设计编程导论 (Introduction to Programming for Architecture and Design)\n形态规划 (Morphogenetic Programming)\n建筑环境学位论文 (Built Environment Dissertation)\n物化技术与嵌入技术 (Embodied and Embedded Technologies)\n数字交互 (Digital Interaction)",
+  "success_cases": ""
+}

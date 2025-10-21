@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "环境工程理学硕士",
+  "ename": "MSc Environmental Engineering",
+  "tags": "工科,环境工程,土木与环境工程学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有2:1学位，需要土木工程、自然科学、地球科学或其他数学学科背景\n需要适当的数学基础，例如A-level数学Grade A或B\n不符合所列学术要求但具备丰富相关行业经验的申请者在完成“特殊资格考试”（SQE）后可能会被例外录取",
+  "objectives": "在帝国理工学院环境工程理学硕士学位课程的学习中，学生将在清洁水供应、污染控制、公共健康保护、废水处理、空气污染控制及固体废弃物管理的各个方面得到训练。学生也将细致了解工业化国家及欠发达国家的问题。\n帝国理工学院环境工程理学硕士学位课程与伦敦卫生与热带医学院及英国水研究中心密切合作。英国特许水务与环境管理学会定期在帝国理工学院召开会议，学生有机会参加这些会议。\n帝国理工学院的所有硕士学位课程以职业为导向，充分考虑理论背景及实践设计。\n帝国理工学院环境工程理学硕士学位课程主要由全职教员授课，但也会邀请行业杰出人员担任客座教授和讲师，他们同样为课程做出了重要贡献。\n帝国理工学院环境工程理学硕士学位课程的学生大多继续深造，从事研究以此来攻读博士学位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级水和废水处理 (Advanced Water and Wastewater Treatment)\n空气污染控制 (Air Pollution Control)\n环境工程师化学 (Chemistry for Environmental Engineers)\n控制工程 (Containment Engineering)\n土地和地下水污染 (Contaminated Land and Groundwater)\n设计环境项目 (Design Project Environmental)\n环境分析 (Environmental Analysis)\n环境流体力学 (Environmental Fluid Mechanics)\n环境管理和决策 (Environmental Management and Decision Making)\n发展中国家环境管理 (Environmental Management in Developing Countries)\n水信息学 (Hydroinformatics)\n数学和统计建模 (Mathematical and Statistical Modelling)\n环境工程微生物学 (Microbiology for Environmental Engineering)\n研究论文 (Research Dissertation)",
+  "success_cases": ""
+}

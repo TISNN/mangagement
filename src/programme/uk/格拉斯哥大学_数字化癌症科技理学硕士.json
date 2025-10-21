@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "数字化癌症科技理学硕士",
+  "ename": "MSc Digital Cancer Technologies",
+  "tags": "社科,医学,癌症科学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31800英镑/年",
+  "requirements": "具有2:1荣誉学位，需要生物医学科学、生物化学、生物技术、遗传学、药理学、分子和细胞生物学、生理学、解剖学或病理学专业背景，且至少有40%的生命科学学分课程，平均成绩为及格",
+  "objectives": "格拉斯哥大学数字化癌症科技理学硕士将向学生介绍正在改变癌症研究未来的新兴数字技术，并指导下一代研究人员如何解释这些数据输出。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能在癌症研究中的应用 (AI in Cancer Research)\n基本病理学和病理学技术 (Basic Pathology and Pathology Techniques)\n数字癌症技术研究项目 (Digital Cancer Technologies Research Project)\n数字病理学和图像分析 (Digital Pathology and Image Analysis)\n癌症领域的新兴技术 (Emerging Technologies in Cancer)\n癌症的标志 (cancer signs)\n组学和 R 简介 (Introduction to Omics and R)\n癌症研究中的项目设计和数据分析 (Project Design and Data Analysis in Cancer Research)",
+  "success_cases": ""
+}

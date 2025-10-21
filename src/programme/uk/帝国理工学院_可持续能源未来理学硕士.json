@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "可持续能源未来理学硕士",
+  "ename": "MSc Sustainable Energy Futures",
+  "tags": "工科,能源,机械工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有一等荣誉学位，需要工程或物理科学背景",
+  "objectives": "帝国理工学院可持续能源未来理学硕士项目采用了技术和系统研究的定量方法，由帝国理工学院未来能源实验室提供授课。该项目适合（但不仅限于）拥有工程和物理科学背景的学生，也适合于想要在能源问题上获得更广泛更具战略意义观点的学生。项目旨在培养下一代能源产业的领导者，学生将能够了解全球能源问题、可持续能源技术及其与经济环境政策的相互作用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物能源 (Bioenergy)\n能源经济与战略 (Energy Economics and Policy)\n能源系统技术 (Energy Systems Technology)\n能量传输和储存 (Energy Transmission and Storage)\n可再生能源创业 (Entrepreneurship in Renewable Energy)\n低碳技术 (Low Carbon Technologies)\n能源系统分析方法 (Methods for the Analysis of Energy Systems)\n可持续交通 (Sustainable Transport)\n城市能源系统 (Urban Energy Systems)\n辩论和非技术性 (Debating and Non-technical)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "罗切斯特大学",
+  "major_name": "语言学硕士",
+  "ename": "MA in Linguistics",
+  "tags": "社科,语言",
+  "introduction": "专业方向: 语言\n入学时间: 秋季\n项目时长: 32学分\n项目学费: 60,480美元",
+  "requirements": "无特殊要求，Prefer有语言学基础",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

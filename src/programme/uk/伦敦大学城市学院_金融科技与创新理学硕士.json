@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "金融科技与创新理学硕士",
+  "ename": "MSc Financial Technology and Innovation",
+  "tags": "商科,金融,贝叶斯商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 33100英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要金融或金融相关专业背景\n具有2:1荣誉学位或同等学历，需要管理学背景，具有数学和/或统计学二级以上水平\n具有2:1荣誉学位或同等学历，需要量化学科背景，具有数学和/或统计学的二级以上水平\n工作经验不是本课程的要求，但如果申请者的主要学位是管理或定量学科，那么工作经验可能会有助于申请",
+  "objectives": "伦敦大学城市学院金融科技与创新理学硕士项目将介绍传统的制度流程和市场基础设施，并将其与新兴的 IT 密集型金融和银行解决方案进行对比。该项目提供数据科学方面最先进的学术知识及其在金融和银行问题中的应用。学生将了解金融科技创新和采用发生的法律和监管背景。\n伦敦大学城市学院金融科技与创新理学硕士项目的内容侧重于金融创新。学生将获得如何通过应用信息系统管理和需求工程原理来设计金融服务的实用知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融市场和金融中介 (Financial markets and Financial Intermediation)\n金融科技基础 (Foundations of Fintech)\n数据科学基础 (Foundations of Data Science)\n创新创业与金融科技 (Innovation, Entrepreneurship, and Financial Technology)\n监管合规、道德、社会价值观 (Regulatory Compliance, Ethics, Social Values)\n数字货币和银行业务 (Digital Money and Banking)\n金融科技数据分析 (Data Analytics for Fintech)\n去中心化金融和区块链应用 (Decentralised Finance and Blockchain Applications)\n产业项目 (Industry Project)",
+  "success_cases": ""
+}

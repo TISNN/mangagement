@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "投资管理与财务分析理学硕士",
+  "ename": "MSc Investment Management and Financial Analysis",
+  "tags": "商科,金融,会计与金融学系",
+  "introduction": "专业方向: 金融\n入学时间: 10月\n项目时长: 1年\n项目学费: 32760英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要金融学或会计学背景（学习过大量金融和/或定量课程），具有其他商业（如商业研究或经济学，包含金融或定量课程）或科学相关（如数学、工程学、物理学、计算机科学或其他定量学科）背景的申请者也被鼓励申请",
+  "objectives": "兰卡斯特大学投资管理与财务分析理学硕士项目旨在帮助学生掌握这些技能并获得 CFA II 级专业资格。\n因此，兰卡斯特大学投资管理与财务分析理学硕士项目提供的课程比典型的英国金融硕士课程提供的模块在学术上更先进，同时也更注重实践。学生将学习技术和实践导向的模块。LUMS 会计和金融专家以及 Fitch Learning 的专家导师将为学生完成 CFA II 级做好准备。核心模块嵌入了金融编程语言（包括 VBA、R 和 MATLAB）培训，并提供 Thomson EIKON 或 FactSet 等数据平台的实践经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融职业技能与 ESG 的应用 ( Career skills in Finance with applications to ESG)\n金融市场和投资管理 (Financial Markets and Investment Management)\n财务建模与分析 (Financial Modelling and Analysis)\n财务报告与分析 (Financial Reporting and Analysis)\n基金管理 (Fund Management)\n投资研究方法 (Investment Research Methods)\n金融应用程序的编程和数据库 (Programming and Databases for Financial Applications)\n基金管理和投资分析高级主题 (Advanced Topics in Fund Management and Investment Analysis)\n论文：投资策略、共同基金和对冲基金的高级主题 (Dissertation: Advanced Topics in Investment Strategies, Mutual Funds and Hedge Funds)\n金融定量方法 (Quantitative Methods for Finance)\n专业财务分析主题 (Topics in Professional Financial Analysis)",
+  "success_cases": ""
+}

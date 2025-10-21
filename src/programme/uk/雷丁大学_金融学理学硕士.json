@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,亨利商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 28500英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景，但必须要有令人满意的计算水平",
+  "objectives": "雷丁大学金融学理学硕士学位课程被广泛认为是欧洲顶尖的应用金融学项目之一，得到行业从业者的特别支持，使学生掌握在充满挑战性的投资银行业就业所需的知识和技能；应用备受金融市场重视的实际操作技能做出早期贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "证券、期货与期权 (Securities、Futures and Options)\n固定收益和股权投资 (Fixed Income and Equity Investments)\n金融市场 (Financial Markets)\n金融定量方法 (Quantitative Methods for Finance)\n市场风险 (Market Risk)\n衍生证券:定价、对冲及交易 (Derivatives Securities:Priciing, Hedging and Trading)\n公司金融与投资银行 (Coperate Finance and Investment Banking)\n投资组合管理 (Portfolio Management)\n金融计量经济学 (Financial Econometrics)\n研究项目 (Research Project)\n固定收益现金和衍生工具市场 (Fixed Income Cash and Derivative Markets)\n债券及货币市场 (Bond and Money Markets)\n商品衍生品 (Commodity Derivatives)\n企业年金 (Occupational Pensions)\n金融监管议题 (Topics in Financial Regulation)",
+  "success_cases": ""
+}

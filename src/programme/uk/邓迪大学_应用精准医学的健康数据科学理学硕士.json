@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "应用精准医学的健康数据科学理学硕士",
+  "ename": "MSc Health Data Science for Applied Precision Medicine",
+  "tags": "理科,数据科学,医学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 27900英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要相关理科学科（例如生物或医学科学）背景，或适当的卫生专业资格（例如医学和相关卫生专业）有技术面试",
+  "objectives": "通过邓迪大学应用精准医学的健康数据科学理学硕士课程，学生将访问与基因组和临床成像数据相关的匿名真实医疗保健数据，并利用知名生物医学科学家的专业知识获得该领域的应用技能和知识。这种独特的生物资源与邓迪大学拥有的病历相关联，在具有全球意义的研究中发挥了重要作用，并继续影响人们对Covid-19的理解。在邓迪大学应用精准医学的健康数据科学理学硕士课程中，学生将边做边学。这将涉及：检验精准医学的原理和当前实践及其临床益处、使用 R 统计软件获得用于医学数据研究用途的数据管理和治理技能、探索流行病学和群体遗传学以及基因如何影响药物反应和副作用（药物遗传学）。学生将获得应用于医疗保健数据（包括成像）的生物信息学技术、机器学习、深度学习和人工智能方面的知识和经验。还将学习如何制作拨款申请和设计、执行、解释和报告系统审查。使用先进技术的最终研究项目将帮助学生在该领域的背景下巩固数据科学技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "流行病学 (Epidemiology)\n精准医学：原理与实践 (Precision Medicine: Principles and Practices)\n精准医学研究的应用健康数据科学基础 (Fundamentals of Applied Health Data Science for Precision Medicine Research)\n研究方法 (Research Methods)\n高级应用健康数据科学 (Advanced Applied Health Data Science)\n医疗保健中的机器学习和人工智能方法 (Machine Learning and Artificial Intelligence Methods in Healthcare)\n应用精准医学的健康数据科学硕士 - 论文 (MSc Health Data Science for Applied Precision Medicine - Dissertation)",
+  "success_cases": ""
+}

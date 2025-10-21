@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "金融科技与政策理学硕士",
+  "ename": "MSc FinTech and Policy",
+  "tags": "商科,金工金数,商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 24900英镑/年",
+  "requirements": "具有2:2英国荣誉学位或受认可的同等学历，不限专业背景，尽管具备以下学科背景学位的学生更适合本课程：会计、银行、工商管理、法律、政治、经济学、工程学、金融学、管理学、数学或科学\n如果申请者不符合以上要求，学校可能会考虑其相关工作经验\n如果申请者具备至少1年全职毕业后职位相关经验（或至少2年相关毕业后兼职职位经验），需要在提交申请时在个人陈述和简历中提供职位和责任的详细信息",
+  "objectives": "萨里大学金融科技与政策理学硕士项目将为您提供必要的理论知识和实践技能，使您成为金融服务行业和监管机构的专业人士。通过精心挑选的模块组合，您将获得对金融监管、技术和法律的坚实理解，同时学习如何驾驭日益复杂、动态和全球化的金融环境。您将接受商业和法律领域的专家研究活跃学者以及众多行业专业人士的授课，他们将引导您通过学术理论和行业经验的前瞻性思考和令人耳目一新的结合。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能的伦理与规范 (Ethics and Regulation of Artificial Intelligence)\n金融科技概述 (Overview of Fintech)\n金融科技与政策案例 (Cases in Fintech and Policy)\n金融监管与金融科技政策 (Financial Regulation and Fintech Policy)\n金融科技与政策项目 (Fintech and Policy Project)\n计算机法 (Cyberlaw)\n资料分析 (Data Analytics)\n企业家精神与数字经济 (Entrepreneurship and the Digital Economy)\n股权投资分析 (Equity Investment Analysis)\n固定收益投资 (Fixed Income Investment)\n金融基础：金融与投资 (Foundations of Finance: Finance & Investments)\n物联网 (Internet of Things)\n创业 (New Business Venturing)",
+  "success_cases": ""
+}

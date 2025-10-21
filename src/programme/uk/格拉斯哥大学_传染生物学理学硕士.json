@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "传染生物学理学硕士",
+  "ename": "MSc Infection Biology",
+  "tags": "社科,医学,感染与免疫学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要生物科学、生物医学科学、生物学、免疫学、生物化学、兽医生物科学、遗传学、药理学、微生物学、病毒学、寄生虫学或动物学专业背景学校也接受临床医学或海洋生物学学位\n学校可以接受具有重要相关工作经验和较低资格的申请人",
+  "objectives": "格拉斯哥大学传染生物学理学硕士项目将帮助学生发展知识，了解细菌、病毒和寄生虫在人类和家养动物中引起疾病的分子机制，以及由此产生的免疫反应。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "宿主-病原体相互作用与对感染的免疫反应 (Host-pathogen Interactions and Immune Responses to Infection)\n免疫学与感染生物学的研究技能 (Research Skills for Immunology and Infection Biology)\n设计研究项目:生物医学研究方法 (Designing a Research Project: Biomedical Research Methodology)\n生物科学理学硕士研究项目(感染生物学) (Msc Bioscience Research Project (infection Biology))\n诊断技术与设备 (Diagnostic Technologies and Devices)\n疾病动物模型 (Animal Models of Disease)\n生物医学研究与健康的当前趋势和挑战 (Current Trends and Challenges in Biomedical Research and Health)\n新一代测序生物信息学概论 (Introduction to Next Generation Sequencing Bioinformatics)\n生物科学研究的技术转让与商业化 (Technology Transfer and Commercialisation of Bioscience Research)\n新兴病毒 (Emerging Viruses)\n生物医学的组学分析:从基因组学到代谢组学 (Omic Analyses for the Biomedical Sciences: from Genomics to Metabolomic)\n研究科学家的生物成像 (Bio-imaging for Research Scientists)",
+  "success_cases": ""
+}

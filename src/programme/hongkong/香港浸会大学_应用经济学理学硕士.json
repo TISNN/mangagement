@@ -1,0 +1,12 @@
+{
+  "school_name": "香港浸会大学",
+  "major_name": "应用经济学理学硕士",
+  "ename": "MSc Applied Economics",
+  "tags": "商科,经济,商学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 268000港币/年",
+  "requirements": "具有认可大学颁发的学士学位或同等学历，虽然经济学或相关领域的学士学位不是入学的先决条件，但申请者应该具备微观经济学和宏观经济学的知识，并接受过一些数学（特别是微积分和线性代数）和统计学方面的培训",
+  "objectives": "香港浸会大学应用经济学理学硕士提供经济分析方面的理论和应用培训。通过参加各种应用选修课，除了理论核心，学生还将接受分析与工作相关的经济问题的培训。该项目的一个特点是均衡的经济知识培训，旨在培养合格应用经济学家：该课程在香港开设应用经济学课程。这些课程将使用最新的经济模型分析相关领域。课程还包括分析中国经济的课程，这是当前世界的焦点。培养潜在的理论研究者：虽然预计进入该课程的大多数学生都是以应用为导向的，但该课程的结构也很好，为学生提供选择合适的选修课的灵活性，以满足未来以研究为导向的学习。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级微观经济学 (Advanced Microeconomics)\n高级宏观经济学 (Advanced Macroeconomics)\n应用计量分析 (Applied Econometric Analysis)\n中国经济体制 (Economic Institutions in China)\n研究工作坊和专题讲座 (Research Workshops & Seminars)\n国际贸易学 (International Trade)\n国际金融学 (International Finance)\n货币经济学 (Monetary Economics)\n经济发展与增长 (Economic Development & Growth)\n金融经济学 (Financial Economics)\n公司经济分析 (Economic Analysis of the Firm)\n微观经济学相关专题 (Topics in Microeconomics)\n宏观经济学相关专题 (Topics in Macroeconomics)\n中国的财政与货币经 (Public Finance & Monetary Economics in China)\n中国外贸经济政策 (Foreign Economic Policies of China)",
+  "success_cases": ""
+}

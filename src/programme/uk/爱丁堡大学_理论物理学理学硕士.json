@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "理论物理学理学硕士",
+  "ename": "MSc Theoretical Physics",
+  "tags": "理科,物理,物理与天文学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要物理学或数学（包含足够的理论物理内容）背景\n学校正在寻找具有以下物理主题高级或中级本科水平的重要知识的申请者：古典/拉格朗日动力学，电磁学，量子力学，狭义相对论，统计/热物理\n同样包括以下所有数学主题：向量微积分，傅里叶分析，张量，复杂分析\n学校意识到许多学生不会在这个级别涉及所有以上主题，学校会根据个人情况考虑每个申请，并可能接受学习过这些主题的重要子集的学生\n工程、化学、地球科学等学位的申请者不太可能适合就读本课程\n可能需要ATAS认证",
+  "objectives": "爱丁堡大学理论物理学理学硕士项目是爱丁堡大学希格斯理论物理中心的核心项目，于欧洲核子研究组织（CERN）探测到希格斯玻色子之后所设立，标志着理论物理学研究新时代的开始。本项目引入广泛应用于各研究领域的先进思想和技术，并强调基础物理概念，以培养学术和实务人才。学生需参加中心（爱丁堡大学希格斯理论物理中心）举办的各类活动（如每周的研讨会、座谈会以及世界各地物理学家的与谈会，以及将来写入毕业论文的科研项目）。数学与物理不分家。理论物理需构建合理结构，解释和预测物理现象，而数学则成为物理学的语言表达方式，这也是理论物理学家们对学术源源不竭的激情来源之一。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "理论物理中的问题求解 (Problem Solving in Theoretical Physics)\n理论物理研究技巧 (Research Skills for Theoretical Physics)\n粒子与场的对称性 (Symmetries of Particles and Fields)\n粒子物理学中的规范理论 (Gauge Theories in Particle Physics)\n高等统计物理学 (Advanced Statistical Physics)\n广义相对论 (General Relativity)\n哈密顿动力学 (Hamiltonian Dynamics)\n经典电动力学 (Classical Electrodynamics)\n软凝聚态的几何与物理学 (Geometry and Physics of Soft Condensed Matter)\n星系 (Galaxies)\n粒子物理学最新话题 (Current Topics in Particle Physics)\n高等材料物理学 (Advanced Materials Physics)\n高能天体物理学 (High Energy Astrophysics)\n粒子与核物理探测器 (Detectors in Particle & Nuclear Physics)",
+  "success_cases": ""
+}

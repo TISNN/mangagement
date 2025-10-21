@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "生物医药开发理学硕士",
+  "ename": "MSc Biopharmaceutical Development",
+  "tags": "社科,药学,生物科学学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 1年\n项目学费: 35000英镑/年",
+  "requirements": "通常应具有2:1荣誉学士学位或同等学历，需要生物科学学科（含有相当比例的分子内容）、生物处理或生物化学工程背景，但相关经验可能会被考虑在内，此外申请者还需要展示领导潜力（通过学术、体育、志愿服务或其他专业经验证明）\n需要ATAS认证",
+  "objectives": "生物制药正在改变治疗患者的方式，对抗癌症等全球性疾病和关节炎等炎症性疾病。许多制药公司正在扩大他们的生物制药能力，这创造了对有才华、训练有素的人才的需求。利兹大学生物医药开发理学硕士课程与专注于药物开发的大型跨国合同研究公司Labcorp Drug Development（前身为Covance）合作设计、开发和交付，为希望在生物制药行业开始职业生涯或在学术环境中进行进一步研究的高质量生命科学毕业生提供了跳板。该课程为期12个月，在利兹大学的校园内授课。该课程目的是让学生了解许多有助于发现和开发成功药物的功能，以及如何协调和整合这些功能，以便及时和经济地将新药推向市场。\n该课程由学者和合格的行业专业人士共同教授，他们都在支持药物开发的科学领域的前沿工作。因此，学生将接触到强调知识如何在工业环境中应用的学习。学生将有机会发展出一套被工业界和学术界所重视的强大技能，包括通过向客户和监管机构提交报告等新颖的学习和教学模式提供的解决问题的强大沟通和团队合作技能，以及进行实验研究的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物医药开发途径 (Biopharmaceutical Development Pathway)\n生物制药药物发现与非临床试验 (Biopharmaceutical Drug Discovery and Non-clinical testing)\n生物药物制造 (Manufacturing Biopharmaceuticals)\n生物制药发展：临床 (Biopharmaceutical Development: Clinical)\n生物医药产品商业化 (Commercialising Biopharmaceutical Products)\n综合药物开发计划 (Integrated Drug Development Plan)\n管理环境的实用技能 (Practical Skills for a Regulatory Environment\t)\n生物科学理学硕士研究项目 (Bioscience MSc Research Project)",
+  "success_cases": ""
+}

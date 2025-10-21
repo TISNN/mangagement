@@ -1,0 +1,12 @@
+{
+  "school_name": "匹兹堡大学",
+  "major_name": "电信学硕士",
+  "ename": "MS in Telecommunications",
+  "tags": "工科,电气电子",
+  "introduction": "专业方向: 电气电子\n入学时间: 秋季/春季/夏季\n项目时长: 1-2年\n项目学费: 34,950美元/年",
+  "requirements": "GPA3.0 以下每门课程中的一门大学课程（3 个学分或更多） 编程：关于使用 Java、C# 或 C 进行面向对象编程的课程。（CMPINF 0401）\n概率与统计： 涵盖数据收集，描述性和推理统计的课程是最佳的。它应涵盖集中趋势和变异性、回归、相关性、非参数分析、概率和抽样、贝叶斯分析、显著性检验和假设检验的度量。（统计 0200 或统计 1000）\n数学：线性代数、微积分或离散数学的大学水平数学课程（MATH 0120、MATH 0220 或 MATH 0400）",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

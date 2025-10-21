@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "工程管理理学硕士",
+  "ename": "MSc Engineering Management",
+  "tags": "工科,工程管理,电子工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 31900英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要工程专业（例如电子/电气、计算机科学、土木、机械、自动化）或工程管理专业背景，学校也欢迎在相关课程中成绩优秀或具备适当行业经验的的申请者",
+  "objectives": "所有新技术、产品和服务都需要精心管理，才能从概念阶段走向商业成功，约克大学工程管理理学硕士项目将使学生能够在专业工程的重要部分进行操作。该课程由国际领先的专家和实践经理教授，以确保学员不仅掌握管理工具和技术的理论，而且能够将他们应用于实际工程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "创新管理 (Innovation Management)\n工程管理的可持续性 (Sustainability in Engineering Management)\n研究方法、理论与数据分析 (Research Methods, Theory and Data Analysis)\n战略领导 (Strategic Leadership)\n国际商务 (International Business)\n企业 (Enterprise)\n运营管理 (Operations Management)\n工程管理项目 (Engineering Management Project)",
+  "success_cases": ""
+}

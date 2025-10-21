@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "网络防御与信息保障理学硕士",
+  "ename": "MSc Cyber Defence and Information Assurance",
+  "tags": "工科,计算机,国防与安全",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 24120英镑/年",
+  "requirements": "",
+  "objectives": "克兰菲尔德大学网络防御与信息保障理学硕士课程旨在培养能在网络环境中发挥领导作用的专业人员，在组织层面有效利用网络空间的威胁和机会。该课程的重点是理解和阐明执行层对信息领域中严重的当前和正在出现的威胁的反应。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "网络基础 (Foundations of Cyber)\n论文 (Dissertation)\n网络欺骗 (Cyber Deception)\n关键网络与信息物理融合系统 (Critical Networks and Cyber-Physical Systems)\n网络攻击-威胁与机会 (Cyber Attack - Threats and Opportunities)\n网络法 (Cyber Law)\n数据主导的决策支持与人工智能 (Data-led Decision Support and Artificial Intelligence)\n新兴技术监控 (Emerging Technology Monitoring)\n组织生存能力的系统思考 (Systems Thinking for Organisational Viability)\n信息作战 (Information Operations)\n事故管理 (Incident Management)\n社会技术 (Social Technologies)\n人的维度 (The Human Dimension)\n理解风险 (Understanding Risk)",
+  "success_cases": ""
+}

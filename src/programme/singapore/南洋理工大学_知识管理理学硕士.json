@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "知识管理理学硕士",
+  "ename": "MSc Knowledge Management",
+  "tags": "商科,信息系统,传媒与信息学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 8月\n项目时长: 1年",
+  "requirements": "具有良好的学士学位，不限专业背景\n优先考虑具备公共或私人机构管理或公司经验的申请者\n达到二等二/荣誉（优等）学位及以上水平或同等学历\n实习经验不计入工作经验，建议申请者具备至少1年全职工作经验",
+  "objectives": "新加坡南洋理工大学知识管理理学硕士学位课程是一门促进识别、捕获、评估、检索和共享企业所有信息资产的集成方法的学科，新加坡南洋理工大学知识管理理学硕士学位项目专为来自公共和私营部门组织的学生设计，凭借人力和知识资源直接提高运营能力和盈利能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "知识管理基础 (Foundations of Knowledge Management)\n知识管理实践 (Knowledge Management Practices and Implementation)\n信息与知识资产 (Information and Knowledge Assets )\n知识管理战略和政策 (Knowledge Management Strategies and Policies)\n知识管理技术 (Knowledge Management Technologies)\n组织理论与实践 (Organisational Theory and Practice)\n知识组织 (Organisation of Knowledge)\n商业智能 (Business Intelligence)\n知识资本 (Intellectual Capital)\n知识社会学 (Sociology of Knowledge )\n组织领导学 (Organisational Leadership)\n信息挖掘与分析 (Information Mining and Analysis)\n知识管理与评估 (Knowledge Management Measurement)\n档案管理 (Archival Management)\n信息技术创业 (Information Entrepreneurship)",
+  "success_cases": ""
+}

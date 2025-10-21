@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "天体物理学理学硕士",
+  "ename": "MSc Astrophysics",
+  "tags": "理科,物理,物理与天文学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 29030英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要物理学或名称中包含物理并包含相关课程的学位背景申请者需要学习以下列表中的至少四个课程：电磁、力学、光学、量子力学、固体物理学、统计物理或统计力学",
+  "objectives": "谢菲尔德大学天体物理学理学硕士课程探索现代天体物理学前沿的关键主题。学生将接受专业天体物理学家使用的实用技能的培训，并能够进行自己的天文观测。该课程解释了恒星、星系和宇宙本身的形成和演化。谢菲尔德大学天体物理学理学硕士课程包括有关如何使用0.5m望远镜进行天文观测的培训。学生还可以参加有补贴的拉帕尔马实地考察活动，并参观一些世界顶级天文台。谢菲尔德大学天体物理学理学硕士课程有许多模块可供选择，涵盖多个主题以加深学生对宇宙的理解，例如宇宙学、暗物质、广义相对论和天体生物学。可以运行关于星系、类星体、超新星、大质量恒星、白矮星和棕矮星、恒星形成、星团、行星形成和太阳系演化等主题的项目。此外，谢菲尔德大学天体物理学理学硕士学生可以前往加那利群岛拉帕尔马的国际天文台进行实地考察。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "恒星形成与演化 (Star Formation and Evolution)\n星系形成与演化 (Galaxy Formation and Evolution)\n天体物理学论文项目 (Astrophysics Dissertation Project)\n物理研究技能 (Physics Research Skills)\n宇宙学导论 (Introduction to Cosmology)\n暗物质与宇宙 (Dark Matter and the Universe)\n天文学史 (History of Astronomy)\n广义相对论导论 (An Introduction to General Relativity)\n粒子天体物理学 (Particle Astrophysics)\n粒子物理学的发展 (The Development of Particle Physics)\n太阳系外行星和天体生物学 (Extrasolar Planets and Astrobiology)\n企业文化中的物理 (Physics in an Enterprise Culture)\n物理传播和影响 (Physics Communication and Impact)\n实地考察天文观 (Observational Astronomy with Field Trip)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "建筑学硕士",
+  "ename": "Master of Architecture",
+  "tags": "社科,建筑,工程学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 2年\n项目学费: 225500港币/年",
+  "requirements": "具有认可的本科学位，需要建筑学/建筑研究背景，优先考虑已经完成了包括艺术、科学、人文和工程在内的均衡本科教育的个人",
+  "objectives": "香港城市大学建筑学项目旨在为学生提供深入的知识库和技能，以成为建筑界的从业者；提供基于主题的基于证据的专业实践方法。学生将探索诸如可持续设计和规划等新兴挑战。香港城市大学建筑学硕士项目培养学生的思维方式和技能，以进行和制定建筑设计的研究和应用，建立一个综合的多学科学习工作台。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "可持续建筑设计 (Sustainable Architecture Design​)\n可持续城市主义与生态景观 (Sustainable Urbanism and Eco-landscape)\n基于性能的设计和先进的环境模拟技术 (Performance-based Design and Advanced Environmental Simulation Technics)\n设计方法论和专业实践 (Design Methodology and Professional Practice )\n设计计算和架构信息管理 (Design Computation and Architecture Information Management)\n建筑与城市保护 (Architecture and Urban Conservation )",
+  "success_cases": ""
+}

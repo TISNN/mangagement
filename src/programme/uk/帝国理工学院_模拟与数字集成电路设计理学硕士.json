@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "模拟与数字集成电路设计理学硕士",
+  "ename": "MSc Analogue and Digital Integrated Circuit Design",
+  "tags": "工科,电气电子,电气与电子工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有一等荣誉学位（总分至少达到75%），需要电气/电子工程或相关学科背景（包含大量电气/电子工程成分）",
+  "objectives": "帝国理工学院模拟与数字集成电路设计理学硕士项目旨在加深学生对模拟电路，混合信号电路，和数字电路的理解，致力于将其培养成为未来集成电路设计师。在帝国理工学院模拟与数字集成电路设计理学硕士项目中，学生将接触到器件级设计和系统级性能要求的实践课题。\n帝国理工学院模拟与数字集成电路设计理学硕士项目如何平衡模拟和数字集成电路设计，及低耗能电路与嵌入式系统的深入处理，同时也涵盖了诸多相关热点议题，包括：运用现代编程语言进行数字系统设计，嵌入式系统及其操作系统，基于GPU和FPGA的高性能系统设计，低耗能高性能模拟电路设计，以及通信系统（光学和射频），微电子机械系统和纳米技术相关课题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "模拟集成电路和系统 (Analogue Integrated Circuits and Systems)\n全定制集成电路设计 (Full-Custom Integrated Circuit Design)\n数字信号处理与数字滤波器 (Digital Signal Processing and Digital Filters)\n面向工程师的高性能计算 (High Performance Computing for Engineers)\n微波技术 (Microwave Technology)\n光通信 (Optical Communication )\n高级数字系统设计 (Advanced Digital System Design)\n模拟信号处理 (Analogue Signal Processing)\n高级计算机体系结构 (Advanced Computer Architecture )\n高级电子设备 (Advanced Electronic Devices)",
+  "success_cases": ""
+}

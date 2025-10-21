@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "国际公司金融理学硕士",
+  "ename": "MSc International Corporate Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 24900英镑/年",
+  "requirements": "具有2:2英国荣誉学位或受认可的同等学历，需要会计、银行、工商管理、经济学、工程学、金融学、管理学、数学或科学背景\n如果申请者不符合以上要求，学校可能会考虑其相关工作经验\n如果申请者具备至少1年全职毕业后职位相关经验（或至少2年相关毕业后兼职职位经验），需要在提交申请时在个人陈述和简历中提供职位和责任的详细信息",
+  "objectives": "萨里大学国际公司金融理学硕士课程将为学生提供必要的理论知识和实践技能，以便在公司或金融机构中担任财务专家。学生将学习如何应对日益复杂的全球化金融环境。国际公司金融理学硕士课程将帮助学生了解全球瞬息万变的金融市场状况，着重介绍国际公司金融和公司治理实践，以使学生对国际公司金融中涉及的计量经济学技术有所了解。学生将有机会在我们经验丰富的学者的指导下对理论和现象进行实证研究。学生不仅可以获得公司所寻求的理论知识和定量技能，而且还可以接触到研究人员和财务分析师所使用的最全面的数据库之一，从而提高就业能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "股权投资分析 (Equity Investment Analysis\t)\n金融基础:金融与投资 (Foundations Of Finance: Finance & Investments)\n会计原则 (Principles Of Accounting)\n定量方法 (Quantitative Methods)\n国际金融案例 (Cases In International Finance\t)\n企业融资 (Corporate Finance)\n衍生品证券 (Derivatives Securities)\n金融道德 (Ethics In Finance\t)\n全球治理 (Global Governance\t)\n国际企业金融项目 (International Corporate Finance Project\t)\n国际企业管治 (International Corporate Governance)\n国际金融 (International Finance)\n国际政治经济 (International Political Economy\t)\n风险管理 (Risk Management)",
+  "success_cases": ""
+}

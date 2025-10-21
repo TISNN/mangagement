@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "生物科技理学硕士",
+  "ename": "MSc Biotechnology",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 30950英镑/年",
+  "requirements": "具有2:1荣誉学位。相关专业包括生物医学、生物科学、生物化学或微生物学。工程或化学等其他科学背景的申请人也可考虑",
+  "objectives": "雷丁大学生物科技理学硕士课程能够帮助学生了解如何使用生物技术解决现实世界的健康问题，并作为学位课程的一部分进行实习或研究项目。课程旨在探索支撑生物技术未来趋势的科学，包括人工智能和大数据，\n向有将科学研究转化为成功商业企业经验的学者学习。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "细胞与基因疗法 (Cell and Gene Therapies)\n精准医疗 (Precision Medicine)\n医疗技术概论 (Introduction to Medical Technologies)\n研究与医疗保健中的人工智能和大数据 (AI and Big Data in Research and Healthcare)\n商业生物技术1 -健康事业 (Commercial Biotechnology 1 – The Business of Health)\n商业生物技术2 -将药物推向市场 (Commercial Biotechnology 2 – Taking Drugs to Market)\n专业实习 (Professional Placement)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

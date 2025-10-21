@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "生态与城市工程理学硕士",
+  "ename": "MSc Ecology and Urban Engineering",
+  "tags": "社科,建筑,生命科学学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有2:1英国学士学位或同等学历，需要生命科学、环境科学、土木工程、城市设计或建筑学科领域背景，学校会考虑具有适当专业资格和相关工作经验（如工程设计、绿色基础设施、地方政府）的申请者",
+  "objectives": "伦敦大学学院生态与城市工程理学硕士项目将生态理论与实践以及城市设计和工程结合起来，培养新一代建筑环境专业人员。这个多学科项目将涵盖对生态理论、生物多样性监测和数据处理、以及气候适应型城市设计和绿色和蓝色基础设施的基础理解。学生还将与来自行业、政府、非政府组织和当地社区的专业人士合作，交付具有长期气候和生物多样性效益的真正城市项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物多样性研究中的计算方法 (Computational Methods in Biodiversity Research)\n科技造福自然 (Technology for Nature)\n人工智能对环境的影响 (AI for the Environment)\n公民科学基础 (Foundations of Citizen Science)\n城市防洪与排水 (Urban Flooding and Drainage)\n空间数据库和数据管理 (Spatial Databases and Data Management)\n包容性设计和环境 (Inclusive Design and Environments)",
+  "success_cases": ""
+}

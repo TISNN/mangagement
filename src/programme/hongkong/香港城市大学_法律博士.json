@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "法律博士",
+  "ename": "Juris Doctor",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 2年\n项目学费: 259200港币/年",
+  "requirements": "具有非法律学科学士学位；或\n具有非普通法管辖地区获得的法学学士学位（至少经过八个学期的全日制学习后获得），持有普通法司法管辖区法律学位的申请者不符合申请资格",
+  "objectives": "香港城市大学法律博士旨在为非法律专业背景（或非普通法司法管辖区的法律专业背景）以及希望进入香港法律界或希望从事法律相关工作的人提供全面的法律教育，即为具有不同学术背景和专业经验的学生提供法律博士课程，让学生能够有机会具备国际观、培养新兴技能以及拓宽视野。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "香港和中国内地法律制度 (Legal Systems of Hong Kong and Mainland China)\n法律研究方法与写作 (Legal Methods, Research and Writing)\n法理学 (Jurisprudence)\n独立研究 (Independent Research)\n民事诉讼程序 (Civil Procedure)\n合同法 (Law of Contract)\n民事侵权法 (Law of Tort)\n宪法 (Constitutional Law)\n行政法 (Administrative Law)\n刑法I (Criminal Law I)\n刑事诉讼程序 (Criminal Procedure)\n土地法 I (Land Law I)\n商法学 (Commercial Law)\n证据法 (Law of Evidence)\n公司法I (Company Law I)",
+  "success_cases": ""
+}

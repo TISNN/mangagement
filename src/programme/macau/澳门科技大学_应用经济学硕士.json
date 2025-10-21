@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "应用经济学硕士",
+  "ename": "Master of Applied Economics",
+  "tags": "商科,经济,商学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 2年\n项目学费: 120000港币/年",
+  "requirements": "不局限于任何专业",
+  "objectives": "1.强调经济理论学习与经济分析方法训练的结合。在指导学生建立进阶经济理论基础的同时，在科目学习中重视指导学生利用统计和计量软体进行经济领域的数据分析。\n2.提供弹性选课空间，以利学生发展个人学习兴趣。该课程隶属于商学院，授课教师除遍布经济学的各个领域之外，亦包含了管理、金融等领域；学生既可根据自己的兴趣偏好选择经济类的选修课，也可方便选修管理类或金融类的科目。\n3.以经济专题的方式，不定期邀请国内外著名经济学家和产业界的专家莅临学院讲学、举办经济论坛或学术讲座，提供经济理论前沿的新资讯和经济实务的新动向。\n4.设置“应用经济学实训室”，致力于经济计量教学与相关的应用研究，以提升教学、研究和学生的学习成效。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "中级微观经济学 (Intermediate Microeconomics)\n中级宏观经济学 (Intermediate Macroeconomics)\n中级计量经济学I (Intermediate Econometrics I)\n中级计量经济学II (Intermediate Econometrics II)\n研究方法 (Research Methodology)",
+  "success_cases": ""
+}

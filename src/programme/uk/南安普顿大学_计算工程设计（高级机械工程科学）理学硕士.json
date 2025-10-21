@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "计算工程设计（高级机械工程科学）理学硕士",
+  "ename": "MSc Computational Engineering Design (Advanced Mechanical Engineering Science)",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位，需要以下学科背景之一：土木工程、工程设计、机械工程、航空航天工程、汽车工程\n申请者还必须在以下主题列表的2门课程中取得2:1的成绩：数学、计算、有限元分析（FEA）、计算流体力学（CFD）\n需要ATAS认证\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学计算工程设计（高级机械工程科学）理学硕士项目教授了解如何用仿真软件进行设计。有效的建模对于汽车、航空航天和生物工程领域至关重要。该课程将机械工程的传统方面与跨学科学科相结合，因此学生可以专注于自己想要的职业。该英国硕士学位探索计算工程和设计中使用的最新技术、方法和模拟软件。该课程将教学生如何创建、测试设计理念，以及如何与行业合作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级计算方法I (Advanced Computational Methods I)\n数值方法 (Numerical Methods)\n高级机械工程科学（AMES）简介 (Introduction to Advanced Mechanical Engineering Science (AMES))\n固体力学中的有限元分析 (Finite Element Analysis in Solid Mechanics)\n高级偏微分方程 (Advanced Partial Differential Equations)\n差价合约的应用 (Applications of CFD)\n空气弹性 (Aeroelasticity)\n设计搜索和优化（DSO）-原理，方法，参数化和案例研究 (Design Search and Optimisation (DSO) - Principles, Methods, Parameterizations and Case Studies)\n飞机结构设计 (Aircraft Structural Design)\n工程设计与管理 (Engineering Design with Management)\n先进的有限元分析 (Advanced Finite Element Analysis)\n进阶管理 (Advanced Management)\n生物医学工程设计中的计算方法 (Computational methods in biomedical engineering design)",
+  "success_cases": ""
+}

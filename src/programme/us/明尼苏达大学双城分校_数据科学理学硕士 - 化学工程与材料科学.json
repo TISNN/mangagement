@@ -1,0 +1,12 @@
+{
+  "school_name": "明尼苏达大学双城分校",
+  "major_name": "数据科学理学硕士 - 化学工程与材料科学",
+  "ename": "MS in Data Science for Chemical Engineering and Materials Science",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 14,289美元/学期",
+  "requirements": "具有化学工程、材料科学与工程或是其他相关专业本科学位GPA达到3.5及以上",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

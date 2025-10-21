@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "生物医学工程学理学硕士",
+  "ename": "MSc Biomedical Engineering",
+  "tags": "工科,生物工程,生物医学工程学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 31100英镑/年",
+  "requirements": "具有一等或二等荣誉学位，要求工程学、物理学、生命科学、医学或与医学相关的专业背景",
+  "objectives": "思克莱德大学生物医学工程学理学硕士项目是模块化的转专业课程，汇集了推动临床和工业研究发展的工程、医学和生命科学和物理科学，探讨了临床相关问题开发应用和解决方案方面技术和工程的进展，将为学生提供生物医学工程领域的广泛训练，为学生在研究、产业或国民医疗服务体系中的职业生涯奠定基础。作为思克莱德大学生物医学工程学理学硕士项目的一部分，学生将有机会参观当地临床中心，参与企业家讲座，接触英国和海外专家。学生也将有机会接触思克莱德大学产业和临床合作伙伴，他们将为学生的职业生涯提供建议，从而帮助学生拓宽职业生涯发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "医学科学（工程学） (Medical Science for Engineering)\n工程科学 (Engineering Science)\n生物医学工程专业研究 (Professional studies in Biomedical Engineering)\n研究方法论 (Research Methodology)\n生物医学电子学 (Biomedical Electronics)\n生物医学仪器 (Biomedical Instrumentation)\n生物力学导论 (Introduction to Biomechanics)\n修复与矫正 (Prosthetics & Orthotics)\n再生医学 (Regenerative Medicine)\n组织力学 (Tissues mechanics)\n临床与运动生物力学 (Clinical & Sports Biomechanics)\n解剖学与生理学 (Anatomy & Physiology)\n生物信号处理与分析 (Biosignal Processing & Analysis)\n生物材料与生物相容性 (Biomaterials & Biocompatibility)",
+  "success_cases": ""
+}

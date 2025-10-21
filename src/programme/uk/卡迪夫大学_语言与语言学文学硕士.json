@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "语言与语言学文学硕士",
+  "ename": "MA Language and Linguistics",
+  "tags": "社科,语言,英语、传播与哲学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 23700英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科领域背景，如语言学、英语语言、英语语言文学(综合)、现代语言",
+  "objectives": "卡迪夫大学语言与语言学文学硕士项目以卡迪夫大学深厚的研究基础为依托，课程设置灵活，学生可根据个人兴趣选择学习的课程，课程内容兼顾广度与深度，适合语言、语言学与广播学背景的学生。通过学习课程，学生将培养语言与语言学知识与研究技能，培养独立思考能力与学习主动性，能够理解各子学科关键议题。学生有机会通过研究方法训练提高研究自己的能力，规划个人工作，参与不同老师指导的研究项目，深入了解不同理论与方法论，探索语言的语言学结构。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学位论文 (Dissertation )\n语言与传播研究基础 (Research Foundations in Language and Communication )\n语言与语言学研究经验 (Research Experience in Language and Linguistics                                                                                                                                                                                                                )",
+  "success_cases": ""
+}

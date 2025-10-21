@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "投资分析理学硕士",
+  "ename": "MSc Investment Analysis",
+  "tags": "商科,金融,阿斯顿商学院",
+  "introduction": "专业方向: 金融\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23500英镑/年",
+  "requirements": "雅思总分6.5（小分一项不低于5.5，其它项不低于6.0）\nPTE总分67（小分一项不低于59，其它项不低于64）\n具有良好的英国荣誉学位（不低于2:2）或阿斯顿大学认可的同等海外学位\n申请者还需要在本科阶段学习过以下定量课程，至少涵盖其中40%：经济学（微观/宏观），统计学，定量方法，数学，金融学",
+  "objectives": "阿斯顿大学投资分析理学硕士项目培养学生掌握求职于金融部门、银行业与投资管理所需的知识、理解力与技能。该项目始终注重研究金融在贸易或企业中的实际应用。在该项目中，学生最后需要从金融分析师的角度评估英国的一家上市公司，并以此作为毕业设计项目。该项目的学生将学习国内外的股票、债券和衍生品市场，探讨如何进行证券估值和投资组合管理，掌握金融交易员运用的关键技术。此外，该项目鼓励学生取得路透资格认证——业界认可的职业资格证书。在该项目的夏季学期中，学生将有机会参加注册金融分析师一级项目的预备课程和复习课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "投资估值A (Valuation of Investments (A))\n投资估值B (Valuation of Investments (B))\n金融定量方法 (Quantitative Methods for Finance)\n交易技术 (Trading Techniques)\n证券分析 (Security Analysis)\n投资管理 (Investment Management)\n商业理财 (Business Finance)\n国际金融 (International Finance)\n阿斯顿全球优势 (The Aston Global Advantage)\n商业项目或论文 (Business Project or Dissertation)",
+  "success_cases": ""
+}

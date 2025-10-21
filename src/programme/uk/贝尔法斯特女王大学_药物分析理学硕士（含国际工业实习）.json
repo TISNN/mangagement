@@ -1,0 +1,12 @@
+{
+  "school_name": "贝尔法斯特女王大学",
+  "major_name": "药物分析理学硕士（含国际工业实习）",
+  "ename": "MSc Pharmaceutical Analysis with International Industrial Placement",
+  "tags": "社科,药学,化学与化学工程学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 2年\n项目学费: 13825英镑/年",
+  "requirements": "通常具有2:2荣誉学位或学校接受的同等学历，需要化学、药学或密切相关学科背景，关键课程的成绩将被考虑在内\n具备相关工作经验的申请者将根据具体情况予以考虑",
+  "objectives": "通过贝尔法斯特女王大学药物分析理学硕士（含国际工业实习）计划，学生将获得在制药公司实习的经验，这可以帮助他们决定是喜欢在工业界工作还是更喜欢研究/学术。实习也将改善其就业前景，因为许多实习学生在完成学位后立即获得工作。学生将在与安捷伦（世界领先的仪器制造商）合作设计的专门建造的药物分析实验室中接受有关最先进分离技术（如 HPLC/MS 和 GC/MS）的实践培训。贝尔法斯特女王大学药物分析理学硕士是国际实习可以在世界上任何国家的合适公司进行（取决于签证要求）。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级分离科学 (Advanced Separation Science)\n化学、生化和光谱分析方法 (Chemical, Biochemical and Spectroscopic Analytical Methods)\n固态药物分析方法 (Solid State Pharmaceutical Analysis Methods)\n制药行业的质量保证/控制 (Quality Assurance/Control in the Pharmaceutical Industry)\n国际实习 (International Placement)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

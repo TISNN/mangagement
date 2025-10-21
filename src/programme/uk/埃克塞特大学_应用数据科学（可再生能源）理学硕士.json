@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "应用数据科学（可再生能源）理学硕士",
+  "ename": "MSc Applied Data Science (Renewable Energy)",
+  "tags": "理科,数据科学,工程、数学与物理科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 28600英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，数学成绩取得A级，并/或在本科课程中接受过定量技能培训，或拥有相关的专业经验，不需要有编码经验",
+  "objectives": "埃克塞特大学应用数据科学（可再生能源）理学硕士项目让学生可以沉浸在“大数据革命”中，发展最先进的数据科学和人工智能技能，以及新兴可再生技术方面的专业知识，课程与国际知名研究人员和工业伙伴合作设计，学生将受益于研究主导的教学、实践实例和实践活动，发展受欢迎的、超越学科的技能，并通过使用现代科学计算软件和新的最先进的可再生工程设施来利用这些技能，获得在高要求和快速增长的数据分析领域取得成功所需的技能和经验，特别是在可再生技术领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学基础 (Fundamentals of Data Science)\n数据科学与人工智能趋势 (Trends in Data Science and AI)\n数据科学与建模论文 (Data Science and Modelling Dissertation)\n利用数据与模型应对可持续性挑战 (Tackling Sustainability Challenges using Data and Models)\n可再生能源系统 (Renewable Energy Systems)\n高级海洋可再生能源 (Advanced Marine Renewable Energy)",
+  "success_cases": ""
+}

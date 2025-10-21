@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "产品设计理学硕士",
+  "ename": "MSc Product Design",
+  "tags": "工科,其他工科,艺术设计学院",
+  "introduction": "专业方向: 其他工科\n入学时间: 9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要创意或技术学科（例如产品设计、工业设计、纺织设计、珠宝设计、工程、建筑、计算机科学等）学术背景；学校也将考虑其他资格或相关专业经验；需要提交一份设计或技术相关的创意作品集",
+  "objectives": "通过邓迪大学产品设计理学硕士课程，学生将研究数字技术如何改变我们的生活方式，探索大数据并研究产品、互联网和云之间的关系。将学习如何制定与社会相关的设计响应来解决这些现实世界的问题，挑战和创造关于人类和社会与技术互动的方式的对话。邓迪大学产品设计理学硕士课程是研究驱动的跨学科课程，学生将学习设计和技术模块，将与研究学者和大学内的团体以及外部组织和创意从业者合作。学生将在解决问题、原型设计、设计思维和制作方面发展新的观点和框架。将学习如何制作高度解析的产品原型，学习将技术嵌入到产品中的工具和技术。还可以使用乔丹斯通艺术与设计学院的邓肯提供的世界一流设施，其中包括：工作室空间、一般车间、铸造厂、配备激光切割机的 3D 数字制作设备、3D打印机、数控铣床、电子工作站。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计思维：洞察创新 (Design Thinking: Insights to Innovation)\n不断变化的人口 (Changing Populations)\n创新技术 (Creative Technologies)\n服务原型 (Service Prototyping)\n工作室实践：独立项目 (Studio Practice: Independent Project)\n通过设计研究 (Research Through Design)\n硕士实习 (Masters Placement)",
+  "success_cases": ""
+}

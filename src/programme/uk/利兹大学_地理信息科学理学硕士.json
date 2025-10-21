@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "地理信息科学理学硕士",
+  "ename": "MSc Geographical Information Science",
+  "tags": "工科,地球科学,地理科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要相关学科背景，如地理学、地球或环境科学、经济学或社会科学、数学、计算机科学或其他可以表现出良好数学能力和/或计算技能的学科\n满足以下情况的申请者将根据具体情况被考虑：\n具备相关工作经验和专业培训课程的学习背景是有益的（特别是针对第一学位成绩低于正常最低要求的申请者）",
+  "objectives": "地理信息科学（GIS）已成为社会的一个重要组成部分，惠及各行各业，从供应链管理到保险，从城市规划到政府机构，GIS软件的应用范围是巨大的，而且只会继续增长，这就是为什么世界各地的公司都在寻找合格的GIS专家来汇集地理空间数据，以帮助他们为未来的战略和决策提供信息。\n利兹大学地理信息科学理学硕士课程侧重于地理信息系统的科学、技术和计算方面，特别涉及社会经济和环境科学，学校将向学生介绍GIS以及可用于商业，健康和规划环境的软件包和数据库系统，同时提供选修课程，使学生能够将其职业前景扩展到感兴趣的领域，并从在整个大学开展的世界领先的研究中获得信息。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "专业及个人发展 (Professional and Personal Development)\n地理信息系统数据可视化与分析 (GIS Data Visualisation and Analysis)\n论文（GIScience） (Dissertation (GIScience))\n地理信息系统与环境 (GIS and Environment)\n地理人口与邻里分析 (Geodemographics and Neighbourhood Analysis)\n环境遥感数字图像处理 (Digital Image Processing for Environmental Remote Sensing)\n环境评估 (Environmental Assessment)\n基于网络的地理信息系统  (Web-Based GIS)\n预测分析 (Predictive Analytics)\n地理信息分析编程：核心技能 (Programming for Geographical Information Analysis: Core Skills)\n大数据与消费者分析 (Big Data and Consumer Analytics)",
+  "success_cases": ""
+}

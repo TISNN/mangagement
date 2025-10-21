@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "法学硕士",
+  "ename": "LLM",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 29600英镑/年",
+  "requirements": "具有good 2:1学位或同等学，需要法律背景或法律是主要组成部分的学位背景",
+  "objectives": "杜伦大学法学硕士项目课程选择广泛，包括国际贸易和商业法、欧洲贸易和商业法、公司法以及国际法和治理。完成课程后，需在导师的带领下完成1万字或1万5千字或2万字的独立研究论文。教学结合讲座、学生主导的研讨会、辅导小组。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际经济法的前沿问题 (Advanced Issues in International Economic Law)\n国际知识产权法的前沿问题 (Advanced Issues of International Intellectual Property Law)\n高级义务法 (Advanced Law of Obligations)\n竞争法 (Competition Law)\n法律应用研究方法 (Applied Research Methods in Law)\n公司治理概论 (Introduction to Corporate Governance)\n知识产权法概论 (Introduction to Intellectual Property Law)\n学位论文 (Dissertation)",
+  "success_cases": ""
+}

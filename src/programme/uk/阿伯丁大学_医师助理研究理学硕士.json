@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "医师助理研究理学硕士",
+  "ename": "MSc Physician Associate Studies",
+  "tags": "社科,医学,医学，医学科学与营养学院",
+  "introduction": "专业方向: 医学\n入学时间: 1月\n项目时长: 2年\n项目学费: 23000英镑/年",
+  "requirements": "具有一等或2:1荣誉学位，需要卫生相关医学科学背景\n高等/A level化学达到C级或以上\nNat 5/GCSE英语和数学达到B级或以上（如果没有完全满足上述要求，医疗保健经验可能会有所帮助和弥补）",
+  "objectives": "阿伯丁大学医师助理研究理学硕士项目旨在培养具备作为医师助理所必需的知识、技能和行为的专业人员，并具备终身职业发展所必需的个人和智力素质。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "交流与临床技能 ( Communication and Clinical Skills)\n医学科学基础 (Scientific Basis of Medicine)\n临床轮换 (Clinical Rotations)",
+  "success_cases": ""
+}

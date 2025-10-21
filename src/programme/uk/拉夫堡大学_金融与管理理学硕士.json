@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "金融与管理理学硕士",
+  "ename": "MSc Finance and Management",
+  "tags": "商科,金融,商业经济学院",
+  "introduction": "专业方向: 金融\n入学时间: 10月\n项目时长: 1年\n项目学费: 29500英镑/年",
+  "requirements": "具有英国良好荣誉学位（达到2:2学位或成绩达到55%）或同等学历，需要非金融领域背景，需要通过在第一学位的某些部分学习过数学或统计学科证明掌握数值能力，学校欢迎具有相关专业经验或专业资格的申请者",
+  "objectives": "本课程旨在为非金融背景的毕业生提供快速就业机会，帮助他们在商业和非商业组织中从事金融管理工作。成功的当代组织依赖于具备商业、金融和管理核心技能的高效决策者。在最新研究和商业最佳实践的支持下，我们的MSc课程将为学生应对当今不断变化的商业环境做好准备。通过学习市场营销、人力资源、会计、战略管理，特别是财务等领域的知识，学生将对商业和管理有一定的了解。学生的财务知识和技能将在会计和财务模块中得到进一步发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人力资源管理 (Human Resource Management)\n账目和绩效考核 (Accounting and Performance Measurement)\n组织中的营销 (Marketing in the Organisation)\n企业融资的基础 (Foundations of Corporate Finance)\n个人发展的学习和就业能力 (Personal Development for Study and Employability)\n金融理论与政策 (Financial Theory and Policy)\n企业和大规模金融 (Corporate and Wholesale Finance)\n国际金融管理 (International Financial Management)\n商业经济学 (Business Economics)\n商业环境分析 (Business Environment Analysis)\n当前金融问题 (Current Issues in Finance)\n全球战略管理 (Global Strategic Management)",
+  "success_cases": ""
+}

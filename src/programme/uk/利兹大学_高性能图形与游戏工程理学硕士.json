@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "高性能图形与游戏工程理学硕士",
+  "ename": "MSc High-Performance Graphics and Games Engineering",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 33750英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要计算机科学背景，校要求所有申请者学习过广泛的相关课程，包括大量编程（包括C）、系统开发、数据结构与和算法课程，并且在所有这些课程中取得高分\n强烈建议事先接触过与计算机图形学相关的数学知识，特别是线性代数\n满足以下其中一项的申请者将基于具体情况被考虑：\n- 在其他基于计算的学位中取得2:1荣誉学士学位\n- 具有专业资格以及相关经验",
+  "objectives": "利兹大学高性能图形与游戏工程理学硕士项目将为学生参与计算机科学高性能应用的设计奠定基础，毕业生将会在游戏行业的尖端就业，并将开发在高性能平台上的计算机图形，或为下一代游戏编写引擎。本课程与享有盛名的指导小组合作，将以学生的计算机科学知识为基础，专注于计算机图形学。程序员必须充分发挥计算资源的优势，利用对架构和高性能编程的深刻理解，在尖端硬件平台上生成新级别的图形逼真度和视觉效果。学生将获得低层次的编程能力，深入了解多核和多核心编程、游戏引擎和工具开发，以及图形和游戏中运用的实用技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士项目 (MSc Project)\n小组项目 (Group Project)\n深度学习 (Deep Learning)\n建模与渲染基础 (Foundations of Modelling and Rendering)\n几何处理 (Geometric Processing)\n高性能图形 (High-Performance Graphics)\n动画与仿真 (Animation and Simulation)\n科学计算 (Scientific Computation)",
+  "success_cases": ""
+}

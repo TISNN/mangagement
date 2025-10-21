@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "数字商业理学硕士",
+  "ename": "MSc Digital Business",
+  "tags": "商科,信息系统,商学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位，接受以下专业背景：商务英语、英语、国际商务、汉语言文学和语言\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学数字商业理学硕士项目将为学生提供对数字经济的重要见解。学生将探索最新的商业战略和技术，这是由学术研究提供的信息。本课程非常适合希望创建自己的数字业务或在科技公司发展职业的学生。新技术已经改变了当今的商业模式，比如家喻户晓的数字平台Uber和Airbnb。本硕士课程将探索这些新的创新和商业战略。学生将学习如何创建成功的数字创业公司，并帮助组织采用数字技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字化商业 (Digital Business)\n数字创业 (Digital Entrepreneurship)\n网络架构 (Web Architecture)\n跨学科思维 (Interdisciplinary Thinking)\n定量研究与定性研究 (Quantitative and Qualitative Research)\n网络应用 (Web Applications)\n运筹管理 (Operations Management)\n创新和技术转让 (Innovation and Technology Transfer)\n互联网中介和数据保护法 (Internet Intermediaries and Data Protection Law)\n推动互联网知识产权保护 (Enforcement of Intellectual Property rights over the Internet)\n在线社交网络科学 (The Science of Online Social Networks)\n计算思维 (Computational Thinking)\n语义网技术 (Semantic Web Technologies)\n开放式数据创新 (Open Data Innovation)\n学位论文 (Dissertation)",
+  "success_cases": ""
+}

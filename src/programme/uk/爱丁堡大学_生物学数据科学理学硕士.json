@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "生物学数据科学理学硕士",
+  "ename": "MSc Data Science for Biology",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 43300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要生物科学领域背景。申请者必须在分子生物学、生物化学或相关科学方面有很强的背景，并具备一些计算机科学的经验，包括编程（Python、Perl、C/C、Java或R）和统计学，该专业主要面向生物科学专业的毕业生\n学校也可能考虑具备物理学、计算机、数学或工程背景以及一些生物科学经验的申请者，申请必须表明学生热衷于从生物学角度学习数据科学",
+  "objectives": "完成本课程后，你将:\n掌握分析和解释复杂生物数据所需的一套技能(这些技能可能足够通用，因此可以应用于多种不同类型的数据)；\n获得可能用于从数据中获得新发现的技能；\n学习如何使用各种编程语言开发新的软件和数据库组件；\n学习如何解释现有的科学文献和设计实验",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计与数据分析 (Statistics and Data Analysis)\n生物数据库 (Biological Databases)\n在数据科学中使用R (Using R for Data Science)\n数据科学Python编程导论 (Introduction to Python Programming for Data Science)\n研究项目计划书 (Research Project Proposal)\n专题论文 (Project Dissertation)\n生物细胞中的信息处理 (Information Processing in Biological Cells)\n实用系统生物学 (Practical Systems Biology)\n负责任研究与创新基础 (Foundations in Responsible Research and Innovation)\n功能基因组技术 (Functional Genomic Technologies)\n生物信息学算法 (Bioinformatics Algorithms)\n网站与数据库设计导论 (Introduction to Website & Database Design)\n系统与合成生物学的社会维度 (Social Dimensions of Systems and Synthetic Biology)",
+  "success_cases": ""
+}

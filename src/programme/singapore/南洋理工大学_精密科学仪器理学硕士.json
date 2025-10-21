@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "精密科学仪器理学硕士",
+  "ename": "MSc Precision Scientific Instrumentation",
+  "tags": "理科,物理,物理与数学科学学院",
+  "introduction": "专业方向: 物理\n入学时间: 8/11月\n项目时长: 1年\n项目学费: 45780新币/年",
+  "requirements": "具有学士学位，需要定量专业背景，如物理学、工程学、光学、应用物理学、材料科学等\nGRE/GMAT成绩优秀者优先考虑（不强制要求）",
+  "objectives": "新加坡南洋理工大学（NTU Singapore）提供由物理与数学科学学院主办的精密科学仪器理学硕士课程。该硕士课程将结合多种科学和工程学科的课程，为研究生提供先进仪器领域的有力培训。本课程以固体物理学、微电子学、光电子学、电荷基和自旋基材料为基础，侧重于对半导体、非易失性存储器、光子学等广泛应用于先进制造业的精密科学仪器的物理理解。这些知识将极大地帮助学生进行科学和技术创新，并在不断变化的高科技产业格局中导航。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究生交流与研究方法 (Graduate Communications and Research Methodology)\n研究生固体物理学 (Graduate Solid State Physics)\n凝聚态物理学实验技术 (Experimental Techniques in Condensed Matter Physics)\n精密仪器实验室 (Precision Instrumentation Laboratory)\n光学光谱技术 (Optical Spectroscopic Techniques)\n非线性光学 (Nonlinear Optics)\n信息技术自旋电子学 (Spintronics for Information Technology)\n物理学家高级数值方法 (Advanced Numerical Methods for Physicists)\n表面与界面物理学 (Physics of Surfaces and Interfaces)\n低维结构物理学 (Physics of Low Dimensional Structures )\n固态电子设备 (Solid-State Electronic Devices)\n指导研究 (Supervised Research)\n研究生专业实习 (Graduate Professional Internship)",
+  "success_cases": ""
+}

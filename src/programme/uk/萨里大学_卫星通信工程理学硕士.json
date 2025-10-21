@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "卫星通信工程理学硕士",
+  "ename": "MSc Satellite Communications Engineering",
+  "tags": "工科,电气电子,电气和电子工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 24900英镑/年",
+  "requirements": "具有2:2英国荣誉学位或受认可的同等学历，需要通信工程、计算机工程、电气工程、电气与计算机工程、电子工程、信息与通信技术、物理学或电信工程背景\n如果申请者不符合以上要求，学校也会考虑其相关工作经验",
+  "objectives": "当前社会急需能胜任卫星产业知名企业（国际海事卫星组织、空中客车、萨里卫星技术有限公司、欧洲卫星公司、欧洲通信卫星公司等）关键岗位的专业人才。萨里大学历来位列卫星通信研究和教学的前沿，萨里大学卫星通信工程理学硕士项目具有独特性，将使学生具备在卫星产业就业或进一步进行研究学位学习的必要背景。\n萨里大学具有创新性，聚集了卫星领域经验丰富的学术人员，与所有主要的卫星制造商、运营商和服务提供商保持接触，提供产业相关的讲座和项目，促进学生积极参与。萨里大学的衍生企业——萨里卫星技术有限公司，临近于萨里研究园区，可随时提供卫星生产和工业设施。此外，萨里大学与全欧空中客车和其他几个主要通信公司存在战略合作关系。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "卫星通信基础 (Satellite Communications Fundamentals)\n航天系统设计 (Space Systems Design)\n高级卫星通信技术 (Advanced Satellite Communications Techniques)\n航天器结构和力学 (Spacecraft Structures and Mechanisms)\n硕士项目 (MSc Project)\n天线和传播 (Antennas and Propagation)\n数字通信 (Digital Communications)\n电信和分组网络原理 (Principles of Telecom and Packet Networks)\n射频系统和电路设计 (RF Systems and Circuit Design)\n航天动力学和航天任务 (Space Dynamics and Missions)\n数据和互联网网络 (Data and Internet Networking)\n高级指导、导航和控制 (Advanced Guidance、Navigation and Control)\n运载火箭和推进 (Launch Vehicles and Propulsion)\n网络和服务管理控制 (Network and Service Management and Control)",
+  "success_cases": ""
+}

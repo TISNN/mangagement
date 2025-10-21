@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "人工智能与商业策略理学硕士（专业实践）",
+  "ename": "MSc Artificial Intelligence with Business Strategy (including Professional Practice)",
+  "tags": "工科,计算机,信息与数字工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 2年\n项目学费: 26000英镑/年",
+  "requirements": "至少获得 STEM 科目（例如数学、物理、化学、生物学、工程、经济学、计算机科学）或商科的 BSc 2:2 或国际同等学历。有编程经验者优先。",
+  "objectives": "阿斯顿大学人工智能与商业策略理学硕士（专业实践）项目由三重认证的阿斯顿商学院和工程与应用科学学院的活跃研究人员团队联合授课，将为学生提供技术知识和技能以及对商业战略的高度理解，使他们能够将自己的知识应用到行业中。\n阿斯顿大学人工智能与商业策略理学硕士（专业实践）项目是在编码研究所的支持下开发的，旨在帮助打破数字学习和就业的障碍。该项目的重点是在业务环境中应用人工智能技术信息和知识，重点机器学习和数据挖掘以改进业务流程。学生将有机会以此为重点来设计、规划、实施、测试、评估和记录学生的解决方案。\n除了发展学生的技术和业务知识之外，学生还可以在独自工作以及与其他人一起进行项目和演示时提高沟通和团队合作技能。其中一个项目让学生有机会作为团队的一员开发一款计算机游戏，并向班上的其他同学展示自己的解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能：愿景与现实  (AI: Vision and Reality)\n机器学习 (Machine Learning)\n人工智能数学 (Mathematics for AI)\n战略管理 (Strategic Management)\n研究方法和专业实践 (Research Methods and Professional Practice)\n理学硕士专业论文 (MSc Major Dissertation)",
+  "success_cases": ""
+}

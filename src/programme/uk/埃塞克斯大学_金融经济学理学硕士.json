@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "金融经济学理学硕士",
+  "ename": "MSc Financial Economics",
+  "tags": "商科,经济,经济学系",
+  "introduction": "专业方向: 经济\n入学时间: 10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:2学位，需要经济学相关学科背景，如：经济学、数学、工程、金融、物理或其他具有较强数学成分的学位学位应该包含一些经济学成分，包括宏观经济学、微观经济学或计量经济学",
+  "objectives": "埃塞克斯大学金融经济学理学硕士课程的重点在于，经济推理可以为投资者的财务决策和公司的财务选择提供信息并阐明其财务决策的方式，学生将对金融经济学有一个广泛而全面的了解",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n计量经济学方法 (Econometric Methods)\n金融市场经济学 (Economics of Financial Markets)\n数学方法 (Mathematical Methods)\n金融经济学专题 (Topics in Financial Economics)\n数据分析应用 (Applications of Data Analysis)\n基于计算主体的宏观经济学、金融市场与政策设计 (Computational Agent-Based Macro-Economics, Financial Markets and Policy Design)\n经济发展理论 (Economic Development Theory)\n经济激励措施 (Economics of Incentives)\n政治经济学 (Political Economy)\n国际金融学 (International Finance)\n就业、创新与贸易的经济地理学 (The Economic Geography of Employment, Innovation and Trade)\n宏观经济学 (Macroeconomics)\n微观计量经济学 (Microeconometrics)\n微观经济学 (Microeconomics)",
+  "success_cases": ""
+}

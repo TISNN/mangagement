@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "哲学文学硕士",
+  "ename": "MA Philosophy",
+  "tags": "社科,哲学,哲学、宗教与科学史学院",
+  "introduction": "专业方向: 哲学\n入学时间: 9月\n项目时长: 1年\n项目学费: 26000英镑/年",
+  "requirements": "具有2:1荣誉学士学位，期望学生可以通过以前的学习或其写作样本来证明对哲学的兴趣\n需要提交1篇课程相关主题的书面作品样本（2000-3000字）",
+  "objectives": "哲学致力于解决世界和人类所共同面临的深刻而复杂的问题。利兹大学哲学文学硕士项目带领学生研究哲学不同领域的重要辩论、趋势和方法，同时提高学生在研究和批判性分析方面的技能。通过核心课程的学习，学生将全面了解分析哲学的各个领域，如心灵哲学、宗教、语言、科学、认识论、伦理学、美学和形而上学。此外，学生还可以根据自身兴趣选择相应的选修课程进行学习。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分析哲学 (Analytic Philosophy)\n自主学习 (Independent Study)\n物理学哲学专题 (Topics in the Philosophy of Physics)\n科学和宗教 (Science and Religion Historically Considered)\n科学中的现实主义和表现论高级专题 (Advanced Topics in Realism and Representation in Science)\n科学形而上学高级专题 (Advanced Topics in Metaphysics of Science)\n科学哲学：经典论争与当代趋势 (Philosophy of Science: Classic Debates & Current Trends)\n宗教哲学中的形而上学问题 (Metaphysical Issues in Philosophy of Religion)\n当代宗教哲学读物 (Contemporary Readings in Philosophy of Religion)\n犯罪、公共话语与公共生活 (Sin、Public Discourse and Public Life)\n当代宗教与性别问题 (Contemporary Issues in Religion and Gender)\n宗教、社会和公共生活 (Religion、Society and Public Life)\n神学与公共生活 (Theology and Public Life)",
+  "success_cases": ""
+}

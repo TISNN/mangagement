@@ -1,0 +1,12 @@
+{
+  "school_name": "贝尔法斯特女王大学",
+  "major_name": "药物分析理学硕士",
+  "ename": "MSc Pharmaceutical Analysis",
+  "tags": "社科,药学,化学与化学工程学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 1年\n项目学费: 25800英镑/年",
+  "requirements": "具有2:2荣誉学位或学校接受的同等学历，需要化学、药学或密切相关学科背景，关键课程的成绩将被考虑在内\n具备相关工作经验的申请者将根据具体情况予以考虑",
+  "objectives": "贝尔法斯特女王大学在与当地制药公司咨询后，认定有必要针对分析方法训练制药及相关行业的雇员，以此满足部门需求。\n贝尔法斯特女王大学药物分析理学硕士学位课程面向具备化学、药剂学及相关学科第一学位的毕业生，使其掌握实验室分析的先进知识及高水准实践技能。除了基本与先进分离、光谱及特性技术外，学生也将在质量保证与质量控制、准备药品生产质量管理规范环境下的科学及技术报告方面得到培训。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级药品和相关产品分析方法 (Advanced Analytical Methods for Pharmaceutical and Related Products )\n高级分离科学 (Advanced Separation Science )\n制药产业质量保证/质量控制 (Quality Assurance/Control in the Pharmaceutical Industry )\n分析方法质量 (Quality of Analytical Methods )\n固态特性技术 (Solid State Characterisation Techniques )\n光谱技术 (Spectroscopic Techniques )\n研究项目 (Research Project )",
+  "success_cases": ""
+}

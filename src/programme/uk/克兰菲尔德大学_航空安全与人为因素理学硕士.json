@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "航空安全与人为因素理学硕士",
+  "ename": "MSc Safety and Human Factors in Aviation",
+  "tags": "工科,航空工程,运输系统",
+  "introduction": "专业方向: 航空工程\n入学时间: 10月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "需要理工科，航空工程，数学，人体工程学，心理学相关背景",
+  "objectives": "在航空和其他安全关键行业，对人为因素和安全专业知识的需求持续增长。\n本课程旨在为工业提供装备良好的毕业生，他们可以通过综合讲座和实践练习，应用所学的技能和知识，对性能和安全做出真正和持久的改进。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "认知人因工程 (Cognitive Ergonomics)\n人为表现和错误 (Human Performance and Error)\n航空中的人机交互 (Human-Computer Interaction in Aviation)\n研究方法 (Research Methods (MSc only))\n飞机系统的安全评估 (Safety Assessment of Aircraft Systems)\n应用安全评估 (Applied Safety Assessment)\n航空安全管理 (Aviation Safety Management)\n飞机事故调查及反应 (Aircraft Accident Investigation and Response)\n航空课程入门中的安全与人为因素 (Safety and Human Factors in Aviation Course Induction)\n小组项目 (Capstone (Group Project))\n飞行数据监控 (Flight Data Monitoring)\n训和模拟 (Training and Simulation)\n航空维修中的人为因素 (Human Factors in Aviation Maintenance)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伊利诺伊大学香槟分校",
+  "major_name": "统计学硕士",
+  "ename": "MS in Statistics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 秋季/春季\n项目时长: 8或9门课\n项目学费: 28464美元/年",
+  "requirements": "微积分,线性代数,统计与概率论",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

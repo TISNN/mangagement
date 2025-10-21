@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "数字文化与传播硕士",
+  "ename": "MA Digital Culture and Communication",
+  "tags": "社科,文化,数字人文研究所",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 24270英镑/年",
+  "requirements": "具有2:1本科荣誉学位，不限专业",
+  "objectives": "谢菲尔德大学数字文化与传播硕士课程将帮助学生更好地理解数字媒体发展的背景和文化数据的使用。如果对数字文化的理论和背景感兴趣，请选择本课程。该课程探索数字技术改变人类体验、艺术和人文实践的方式。在该硕士课程中，学生将研究数字材料和方法在文化和遗产中的应用，并将接受数字方法方面的实践培训，为在数字领域发挥创造性领导作用做好准备。本课程从历史和美学角度出发，重点文化艺术品和组织。学生不需要信息科学、编程或数学能力方面的背景。本课程研究文化数据的背景——学生将探索有关人类文化和社会的数字数据，包括过去和现在的数据，如古代文献、人工制品和环境，以及当今的社交媒体、数字艺术和虚拟世界。数字文化是关于信息技术的出现和使用——例如网络计算机、个性化技术、数字图像和声音——及其与文化创造和消费方式的关系。文化数据利用各种数字和计算方法进行管理、分析和通信：从数据标准、公民科学和网络应用，到计算语言学、机器学习和以用户为中心的设计。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字文化导论 (Introduction to Digital Culture)\n数字项目管理 (Managing Digital Projects)\n数字文化和数据电子作品集 (Digital Culture and Data e-Portfolio)\n文化数据导论 (Introduction to Cultural Data)\n文化数字项目设计 (Designing Cultural Data Projects)\n文化分析、AI、文化组学 (Language Analysis, AI and Culturomics)",
+  "success_cases": ""
+}

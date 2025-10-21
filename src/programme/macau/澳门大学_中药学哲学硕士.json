@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "中药学哲学硕士",
+  "ename": "MPhil Chinese Medicinal Science",
+  "tags": "社科,药学,中华医药研究院",
+  "introduction": "专业方向: 药学\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "申请人必须在认可机构完成至少4年的学士学位或同等学历的相关领域",
+  "objectives": "中医药科学硕士（CMS）由我们中医药科学研究所（ICMS）的专业教职人员团队提供，该研究所于2002年在澳门成立，是首家以研究为导向的研究所。在过去的16年中，ICMS自豪地主办了中药质量研究国家重点实验室，这是中药广泛领域中的第一个国家重点实验室，并且在全国和全球范围内均获得了快速增长和日益增长的影响。这项计划已被设计以响应中国的研究和开发。它的目的是培养高级研究人员，使其在CMS的跨学科领域中精通理论和实践。成功地成为研究者所必需的知识，技能和发展活动已包括在核心课程中，并辅以各种选修课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "中药研究导论 (Introduction to Research in Chinese Medicinal Science)\n中药质量控制 (Quality Control of Chinese Medicine)\n药理学和安全性评估 (Pharmacology and Safety Evaluation)\n药品和保健品的开发 (Development of Drugs and Health Products)\n药物科学 (Pharmaceutical Science)\n药物筛选的目标和模型 (Targets and Models for Drug Screen)\n系统生物学 (Systems Biology)\n生物医学信息学 (Biomedical Informatics)\n医疗技术管理 (Medical Technology Management )\n临床医学中的新兴材料 (Emerging Materials in Clinical Medicine)\n当代中医药研究进展 (Progress in Contemporary Study of Chinese Medicine)\n药代动力学和代谢组学在药物开发中的应用 (Application of Pharmacokinetics and Metabonomics in Drug Development)\n学术论文 (Academic Thesis)",
+  "success_cases": ""
+}

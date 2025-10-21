@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "古典学文学硕士",
+  "ename": "MA Classics",
+  "tags": "社科,历史,人文学院",
+  "introduction": "专业方向: 历史\n入学时间: 9月\n项目时长: 1年\n项目学费: 24300英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要古典学、古代或现代历史、考古学、艺术史、古典文明、拉丁语、希腊语或英语背景",
+  "objectives": "诺丁汉大学古典学文学硕士课程将帮助学生建立对古典和古代文化及其现代接受的理解，同时探索一系列研究希腊和罗马世界的方法。学生可以根据自己的研究兴趣，从古典文学、古代历史和古典视觉文化中选择专注于自己最喜欢的领域。可选的语言模块让学生可以进一步定制自己的学习计划。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "神话、社会与宗教 (Myth, Society and Religion)\n讲故事 (Telling Stories)\n古代论文 (Dissertation in Classical Antiquity)\n社会艺术 (Arts in Society)\n掌握艺术：跨学科研究方法 (Mastering the Arts: Interdisciplinary Approaches to Research)\n经典专题1 (Special Topic in Classics 1)\n经典专题2 (Special Topic in Classics 2)\n初级拉丁语 (Beginners' Latin for MA)\n中级拉丁语 (Intermediate Latin for MA)\n高级拉丁语 (Advanced Latin for MA)\n初级希腊语 (Beginners' Greek for MA)\n中级希腊语 (Intermediate Greek for MA)\n高级希腊语 (Advanced Greek for MA)",
+  "success_cases": ""
+}

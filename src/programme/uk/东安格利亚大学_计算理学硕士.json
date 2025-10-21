@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "计算理学硕士",
+  "ename": "MSc Computing",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1月\n项目时长: 1年\n项目学费: 22900英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历，不限专业背景（计算机科学除外），适合任何具有计算机能力的人（如网站工作或相关工作经验）\n该硕士课程主要针对那些以前没有学习过计算机学位或本科学位计算机知识有限的学生\n如果学生具有计算机学位，应仔细检查课程模块和内容，以确保该专业满足其需求和未来的职业抱负和要求，英国计算机学位学生学习背景涵盖太多本课程的内容，应该考虑高级计算机科学、网络安全或数据科学",
+  "objectives": "dong东安格利亚大学计算理学硕士项目适合非计算机学科并且对数字技术和计算有浓厚的兴趣的毕业生，专门为帮助其拓宽计算科学知识而设计，本课程从教授学生Python编程、网站开发和数据库的基础开始，不需要事先有计算机方面的知识或经验，然后学生可以根据自己的愿望将学习转向更高级的专业领域，如网络安全和视听处理。在本课程中，学生将在沟通、批判性思维和推理、以及解决问题、技术写作、独立和团队合作以及项目管理等领域发展基本的可转移技能，学习计算机专业和道德，还将在暑假参加一个令人兴奋的小组项目，这使其有机会专注于感兴趣的特定主题，小组项目旨在培养学生在项目管理、小组工作和演讲技巧方面的技能，这对其未来的职业生涯至关重要。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "网站开发 (Web Development)\nPython编程 (Python Programming)\n数据库操作 (Database Manipulation)\n理学硕士小组项目 (MSc Group Project)\n计算机科学家的专业技能 (Professional Skills for Computer Scientists)\n视听处理 (Audio and Visual Processing)\n高级网站开发 (Advanced Web Development)\n网络安全概论 (Introduction to Cyber Security)",
+  "success_cases": ""
+}

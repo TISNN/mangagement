@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学亚非学院",
+  "major_name": "金融学理学硕士（含实习）",
+  "ename": "MSc Finance with Placement Year",
+  "tags": "商科,金融,金融与管理学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 2年\n项目学费: 13563英镑/年",
+  "requirements": "具有2:2或以上学位",
+  "objectives": "伦敦大学亚非学院金融学理学硕士（含实习）项目为学生提供在伦敦市中心学习的机会，靠近世界首屈一指的金融中心之一，学生将有机会在其选择的组织中参加10-12个月的全职工作实习。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司金融 (Corporate Finance)\n风险管理 (Risk Management)\n财务数据建模 (Financial Data Modelling)\n金融市场与工具（PG） (Financial Markets and Instruments (PG))\n资产估值 (Valuation)\n高级计量经济学与R编码 (Advanced Econometrics with R coding)\n绿色金融 (Green Finance)\n研究方法 (Research Methods)\n电子政务与监管 (Digital Government and Regulation )\n新兴市场的金融 (Emerging Market Finance )\n公共财政管理 (Public Financial Management)\nPython数据分析 (Data Analytics with Python)\n项目管理（金融与管理学院） (Project Management (School of Finance and Management))",
+  "success_cases": ""
+}

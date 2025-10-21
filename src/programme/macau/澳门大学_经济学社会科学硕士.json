@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "经济学社会科学硕士",
+  "ename": "MSocSc Economics",
+  "tags": "商科,经济,社会科学学院",
+  "introduction": "专业方向: 经济\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "申请人应已获得经认可的大学的经济学学士学位，最好是优异成绩或同等学历\n那些拥有优秀本科学位，但没有接受过经济学培训的人可能会被录取，但需要额外完成本科阶段的一些经济学课程\n可能需要参加面试",
+  "objectives": "在经济学领域提供高质量的学术教育和培训。使经济学原理能够应用于经济政策的设计和分析。教授先进的经济理论和技术技能，使学生能够升读博士学位。程序。培养具有分析能力的高素质毕业生，使他们能够更有效地担任经济学家，政策制定者，研究人员和教育工作者。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济学理论 (Microeconomic Theory)\n宏观经济理论 (Macroeconomic Theory)\n经济研究方法 (Methods of Economic Research)\n计量经济学分析 I (Econometric Analysis I)\n国际贸易与金融 (International Trade and Finance)\n发展经济学 (Development Economics)\n公共经济学 (Public Economics)\n劳动经济学 (Labour Economics)\n工业组织 (Industrial Organization)\n货币经济学 (Monetary Economics)\n中国经济 (The Chinese Economy)\n区域经济体（亚太/欧洲货币联盟） (Regional Economies (Asia-Pacific / European Monetary Union))\n计量分析 II (Econometric Analysis II)\n经济理论高级主题 (Advanced Topics in Economic Theory)\n项目报告 (Project Report)",
+  "success_cases": ""
+}

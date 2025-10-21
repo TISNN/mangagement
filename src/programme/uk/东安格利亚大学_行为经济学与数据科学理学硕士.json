@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "行为经济学与数据科学理学硕士",
+  "ename": "MSc Behavioural Economics and Data Science",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 22700英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历，不限专业背景",
+  "objectives": "在未来几年，我们将看到工作领域的重大变化。这些变化之一将是对数据科学家的巨大需求。该理学硕士将为学生做好数据科学家职业生涯的准备，以便学生可以帮助满足这种需求变化。在本硕士课程中，重点特定类型的应用程序：数据科学技术与行为经济学领域相结合，UEA经济学院在其中拥有世界一流的声誉。完成本硕士课程后，学生的就业前景将很广阔。政府决策者越来越多地转向行为经济学，以获取对决策行为的见解，这些见解有助于我们了解个人，团体和市场的运作方式。专门从事行为经济学研究的私营部门组织也正在增长。学生还可以将自己的技能运用到银行和金融，医疗保健，法规，人力资源或执行管理中。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "行为消费者分析 (Behavioural Consumer Analytics)\n数据挖掘 (Data Mining)\n计量方法 (Econometric Methods)\n经济学概念 (Economic Concepts)\n经济学论文 (Economics Dissertation)\n行为经济学家的程序设计和分析 (Programming and Analytics for Behavioural Economists)\n环境与自然资源经济学 (Environmental and Natural Resource Economics)\n金融数学 (Financial Mathematics)\n信息可视化 (Information Visualisation)\n风险管理与交易 (Risk Management and Trading)",
+  "success_cases": ""
+}

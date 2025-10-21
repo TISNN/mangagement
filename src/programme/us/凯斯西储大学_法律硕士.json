@@ -1,0 +1,12 @@
+{
+  "school_name": "凯斯西储大学",
+  "major_name": "法律硕士",
+  "ename": "Master of Law",
+  "tags": "社科,法律",
+  "introduction": "专业方向: 法律\n入学时间: 秋季/春季\n项目时长: 12个月\n项目学费: 30400美元/学期",
+  "requirements": "LLM申请者应具有本科法律学位。拥有其他学科学位的学生，如商业、科学或工程，可以进入国际商法或知识产权法法学硕士学位课程。\n美国学生会获得LLM Degree, 外国学生会获得Master of Law Degree。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

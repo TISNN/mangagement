@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,商业经济学院",
+  "introduction": "专业方向: 金融\n入学时间: 10月\n项目时长: 1年\n项目学费: 29500英镑/年",
+  "requirements": "具有英国2:2荣誉学位（成绩至少达到55%）或同等学历，优先考虑但不强制要求申请者具备定量学科背景（如商业、会计、经济学、数学、物理学、工程学、化学、地理学、计算机科学或数据分析）\n学校会考虑具有非定量学科背景的申请者，需要在课程开始前完成一些课前预习，不需要先前学习过金融学，欢迎具有相关专业经验或专业资格的申请者",
+  "objectives": "本项目是一个广泛应用的硕士项目，旨在为学生提供他们未来在金融领域就业所需的知识和技能。本课程最适合那些在专注某个领域之前想了解金融全貌的学生。在这里，学生将学习如何评估财务问题和改善财务实践。学生将了解公司财务主题，如资本成本和股息政策，以及投资主题，如资产定价和投资组合选择。学生还可以通过选择国际金融管理、全球金融市场和/或全球投资分析等选修模块来了解国际金融。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融数据分析的方法 (Methods for Financial Data Analysis)\n财务原则 (Principles of Finance)\n金融市场和机构 (Financial Markets and Institutions)\n财务报告和公司业绩 (Financial Reporting and Company Performance)\n商务沟通的金融 (Business Communication for Finance)\n企业融资 (Corporate Finance)\n项目组合管理 (Portfolio Management)\n商务沟通的金融 (Business Communication for Finance)\n企业财务分析 (Corporate Financial Analysis)\n高级企业融资 (Advanced Corporate Finance)\n全球投资分析 (Global Investment Analysis)\n公司治理和责任 (Corporate Governance and Responsibility)",
+  "success_cases": ""
+}

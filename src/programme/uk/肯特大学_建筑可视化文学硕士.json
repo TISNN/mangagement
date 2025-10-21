@@ -1,0 +1,12 @@
+{
+  "school_name": "肯特大学",
+  "major_name": "建筑可视化文学硕士",
+  "ename": "MA Architectural Visualisation",
+  "tags": "社科,建筑,艺术与建筑学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 20700英镑/年",
+  "requirements": "具有一等或二等荣誉学位（或同等学历），需要相关学科背景，所有申请者必须提交作品集\n所有申请者都将根据具体情况予以考虑，其他资格、专业资格和相关经验也可能被考虑在内",
+  "objectives": "建筑和城市环境的数字可视化需求在建筑和电影行业中呈指数增长，相应地，对熟悉建筑和电影制作的建模师和动画师的需求也在增加。肯特大学建筑可视化文学硕士项目将培养学生探讨建筑和都市风格的技能。项目结合了电脑动画与视觉艺术，培养学生在数字仿真和3D建模领域的知识与技能，为他们将来在更专业建筑可视化方向发展打下坚实的基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "建筑摄影 (Architectural Photography)\n数字建筑组合 (Digital Architecture Portfolio)\n数字合成 (Digital Compositing)\n电影和录像制作 (Film and Video Production)\n电影与建筑 (Film and Architecture)\n虚拟城市 (Virtual Cities)\n自主研究项目 (Independent Research Project)",
+  "success_cases": ""
+}

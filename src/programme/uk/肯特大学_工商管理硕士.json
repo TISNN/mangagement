@@ -1,0 +1,12 @@
+{
+  "school_name": "肯特大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,肯特商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 26500英镑/年",
+  "requirements": "具有二等英国学位或同等学历，接受各种学科领域背景，具备至少3年适当和相关的领导工作经验\n具备至少10年管理工作经验但没有荣誉学位的高级管理人员，将根据具体情况予以特殊考虑\n在2020-2023年期间，20%的MBA学生具备3-5年领导工作经验，40%的学生具备6-10年领导工作经验，19%的学生具备11-15年领导工作经验，剩余21%具备15年以上的领导或管理工作经验",
+  "objectives": "肯特大学工商管理硕士项目旨在为学生提供强大而深入的实用和适用的知识，将个人转变为具有创新思维的领导者，他们理解并能够融入负责任的管理，促进当地和全球社区的发展。准备好突破界限，挑战思维过程，发展只有最优秀的企业才拥有的视角。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "创业 (Entrepreneurship)\n领导与变革 (Leadership and Change)\n企业社会责任与可持续发展管理 (Corporate Social Responsibility and Sustainability Management)\n商业分析 (Business Analytics)\n提供创新 (Delivering Innovation)\n决策财务分析 (Financial Analysis for Decision Making)\n全球战略与经济 (Global Strategy and Economics)\n战略的人员管理 (Strategic People Management)\n运营管理 (Operations Management)\n战略营销与传播 (Strategic Marketing and Communication)\nMBA挑战 (MBA Challenge)",
+  "success_cases": ""
+}

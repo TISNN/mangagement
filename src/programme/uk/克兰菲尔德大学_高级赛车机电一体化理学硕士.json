@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "高级赛车机电一体化理学硕士",
+  "ename": "MSc Advanced Motorsport Mechatronics",
+  "tags": "工科,电气电子,运输系统",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "需要电子，STEM学科，如工程，空气动力学，物理或应用数学相关背景",
+  "objectives": "本课程旨在让学生对赛车运动的基本科学、工程和管理原理有一个良好的理解。重点是“机电一体化”方面的学科，这是先进控制系统工程，多领域计算机建模，车载通信网络，机电和嵌入式系统，硬件在环验证和系统集成。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "赛车运动入门和介绍 (Induction and Introduction to Motorsport)\n赛车电子和数据采集 (Motorsport Electronics and Data Acquisition)\n赛车运动车辆动力学 (Motorsport Vehicle Dynamics)\n车辆控制应用程序 (Vehicle Control Applications)\n赛车业务 (The Business of Motorsport)\n赛车动力系统 (Motorsport Powertrains)\n车辆系统的机电一体化建模 (Mechatronics Modelling for Vehicle Systems)\n高级控制和优化 (Advanced Control and Optimisation)\n嵌入式车辆控制系统 (Embedded Vehicle Control Systems)",
+  "success_cases": ""
+}

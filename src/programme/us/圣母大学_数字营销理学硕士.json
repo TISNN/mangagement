@@ -1,0 +1,12 @@
+{
+  "school_name": "圣母大学",
+  "major_name": "数字营销理学硕士",
+  "ename": "Master of Science in Digital Marketing (MSDM)",
+  "tags": "商科,市场营销",
+  "introduction": "专业方向: 市场营销\n项目类别: STEM\n入学时间: 秋季\n项目时长: 10个月\n项目学费: 62,000美元",
+  "requirements": "工作经验少于3年",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

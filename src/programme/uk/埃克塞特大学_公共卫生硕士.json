@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "公共卫生硕士",
+  "ename": "Master of Public Health",
+  "tags": "社科,公共卫生,医学与健康学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 28600英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科背景，如生命科学、健康科学或医学科学，或具备相关的公共卫生工作经验的医学插班生\n学校也欢迎能够证明自己具有丰富中小企业经验的人士申请",
+  "objectives": "埃克塞特大学公共卫生硕士项目旨在帮助学生了解公共卫生决策者如何思考他们在工作中遇到的各种具有挑战性的问题，学校与该地区乃至全球的医疗保健合作伙伴密切合作，以确保能够满足不断变化的医疗保健行业的复杂需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "组织与解决公共卫生问题 (Structuring and Solving Public Health Problems)\n基于分析与证据的公共卫生 (Analytics and Evidence Based Public Health)\n领导策略与变革 (Leadership Strategy and Change)\n流行病学 (Epidemiology)\n行为变化 (Behaviour Change)\n综合政策与实践练习 (Integrative Policy and Practice Exercise)\n毕业项目 (Capstone Project)\n行星健康 (Planetary Health)\n大流行病:驱动因素、防备和应对 (Pandemics: drivers, preparedness and response)",
+  "success_cases": ""
+}

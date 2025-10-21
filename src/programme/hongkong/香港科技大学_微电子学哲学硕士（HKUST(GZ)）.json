@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "微电子学哲学硕士（HKUST(GZ)）",
+  "ename": "MPhil Microelectronics (HKUST(GZ))",
+  "tags": "工科,电气电子,香港科技大学（广州）",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 2年\n项目学费: 150000人民币/年",
+  "requirements": "具有认可机构颁发的学士学位或同等学历",
+  "objectives": "微电子是信息时代的基石。它涉及集成电子/光子电路，系统架构和设计自动化的研究。它将新型电子和光子器件集成到电路中;架构师计算、网络和传感系统;并自动进行设计和优化。\n微电子研究型硕士（MPhil）课程旨在提供微电子基础理论，关键技术和工业实践的严格培训。学生将接受培训，以研究用于模拟和数字电路的新型电子和光子器件;探索后摩尔定律计算、网络和传感系统的先进架构;并创建智能设计自动化工具和方法。这些计划还将提供现代教学培训，为研究生准备后摩尔定律集成电路和服务于行业的系统的专业和可转移技能。\n硕士学位的候选人应展示微电子研究方面的知识，综合和创造新知识，并为微电子技术做出贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "光学和光子学基础 (Fundamentals of Optics and Photonics)\nCMOS模拟集成电路设计 (CMOS Analog Integrated Circuits Design)\n电子系统验证的正式方法和测试 (Formal Methods and Testing for Electronic System Verification)\n数字系统的物理设计自动化 (Physical Design Automation of Digital Systems)\n嵌入式系统设计 (Embedded System Design)\n微电子专题 (Special Topics in Microelectronics)",
+  "success_cases": ""
+}

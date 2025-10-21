@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "数字设计与社交媒体理学硕士",
+  "ename": "MSc Digital Design with Social Media",
+  "tags": "社科,媒体与传播,戏剧、电影、电视和互动媒体学院",
+  "introduction": "专业方向: 媒体与传播\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:2学位或同等学历，对设计有明显的兴趣",
+  "objectives": "约克大学数字设计与社交媒体理学硕士项目旨在帮助学生运用其数字设计技能和理论专业知识来探索不同行业背景下社交媒体的挑战，课程教授学生在不同行业背景下的关键技能和理论专业知识，学生将开发创造性的用户体验解决方案，同时批判性地研究这些不同的环境中数字和社交媒体的社会动态和挑战。学生将在定制的多媒体综合体中获得数字设计实践经验 - 包括基于屏幕的交互式原型工具、平面设计、创意人工智能、3D建模和打印 - 并发展对理论和研究方法的理解，毕业时将具备数字和交互设计的理论和实践技能，发展团队合作、项目管理和沟通技巧，通过与外部合作伙伴（包括创意机构、慈善机构、政策制定者和研究机构）合作来建立自己作品集，通过与行业专业人士的高级讲习课提高就业能力，学生将有能力从事用户体验、产品开发、研究、创意艺术和设计等各个领域的职业。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计方法 (Design Methods)\n数字设计技能 (Digital Design Skills)\n通过设计进行研究 (Research Through Design)\n社交媒体、数据与社会 (Social Media, Data & Society)\n了解社交媒体 (Understanding Social Media)\n高级交互技术与科技 (Advanced Interaction Techniques & Technologies)\n数字生活与对象 (Digital Life and Objects)\n游戏：产业与文化 (Gaming: Industry & Culture)\n思辨设计 (Speculative Design)",
+  "success_cases": ""
+}

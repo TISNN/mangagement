@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "临床与分子微生物学理学硕士",
+  "ename": "MSc Clinical and Molecular Microbiology",
+  "tags": "理科,生物,生命科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要任意相关学科背景",
+  "objectives": "诺丁汉大学临床与分子微生物学理学硕士课程旨在提供医学微生物学的理论和实践方面的培训，重点是临床诊断和患者管理方法以及研究和诊断实验室的分子生物学技术。学生将获得重要的病毒、细菌和寄生虫感染的基本和高级知识，以及如何在临床诊断和治疗这些感染。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "医学微生物学概论 (Introduction to Medical Microbiology)\n核心研究方法：可转移研究技能 (Core Research Methods: Transferable Research Skills)\n人类病原体 (Human Pathogens)\n病毒病机与感染 (Viral Pathogenesis and Infection)\n感染的防治 (Prevention and Treatment of Infection)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

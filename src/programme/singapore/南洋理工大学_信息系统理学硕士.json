@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "信息系统理学硕士",
+  "ename": "MSc Information Systems",
+  "tags": "商科,信息系统,传媒与信息学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 8月\n项目时长: 1年\n项目学费: 45235新币/年",
+  "requirements": "具有学士学位，需要以下领域背景：计算机科学、信息系统、信息技术；或\n具有学士学位，包含很强的信息技术相关成分，例如工程或科学；或\n具有学士学位以及相关工作经验。\n达到二等二/荣誉（优等）学位及以上水平或同等学历\n实习经验不计入工作经验，建议申请者具备相关领域至少1年全职工作经验",
+  "objectives": "新加坡南洋理工大学信息系统理学硕士项目是黄金辉通信与信息学院和计算机工程学院协作创办的课程。新加坡南洋理工大学信息系统理学硕士项目注重理论与实践的结合，旨在提升学生有关信息系统设计、开发、维护与管理的知识。在课程学习中，学生有机会接触到信息系统开发最前沿的科学技术，以及掌握应对信息系统领域快速发展所需的核心技能。新加坡南洋理工大学信息系统理学硕士课程建立于广泛的学科基础之上，涵盖了大量的技术技能与软技能培训，这些技能都是信息系统专业人才应该具备的。软件开发与基础设施： 为学生提供信息系统设计、开发和维护所需的核心知识。 人机交互：为学生提供设计信息系统的知识，这些信息系统从最终用户的角度来看既有用又可用。 系统和服务管理：为学生提供管理信息系统项目、信息系统人员和资源所需的软技能。 信息管理：为学生提供存储、组织、坚持和管理信息所需的技能，以便可靠、及时和准确地使用信息。主要特点：凭借经验丰富的多学科教师和行业从业者的信息系统教育的广泛视角，通过基于理论和实践的体验式学习，高度重视用户和管理，为希望在行业中站稳脚跟的职业中期专业人士提供坚实的基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "信息架构和设计 (Information Architecture and Design)\n软件工程 (Software Engineering )\n软件项目管理 (Software Project Management)\n数据库系统 (Database Systems)\n网络编程 (Internet Programming)\n人机互动—用户、任务和设计 (Human Computer Interaction - Users, Tasks and Designs)\n研究方法和数据分析 (Research Methods and Data Analysis for Information Professionals)\n可用性工程 (Usability Engineering)\n信息可视化 (Information Visualisation)\n无处不在的移动应用程序 (Mobile and Ubiquitous Applications)\n互动媒体开发 (Interactive Media Development)\n软件测试和性能分析 (Software Testing and Performance Analysis)\n企业应用程序开发 (Enterprise Applications Development)\n信息检索和分析 (Information Retrieval and Analysis )\n数据挖掘 (Data Mining )",
+  "success_cases": ""
+}

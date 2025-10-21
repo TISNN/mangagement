@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "临床营养学理学硕士",
+  "ename": "MSc Clinical Nutrition",
+  "tags": "工科,食品科学,生物科学学院",
+  "introduction": "专业方向: 食品科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 32400英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要以下学科背景之一：营养学、临床营养学、物理治疗、生物学、生物科学、护理学、药学、医学、生物化学、心理学",
+  "objectives": "诺丁汉大学临床营养学理学硕士课程专为人类营养学、临床营养学和相关健康专业学位的毕业生而设计。该课程是健康和社会护理专业人士的理想选择，为那些与患者和客户打交道的专业人员提供支持。该课程以模块化方式提供，这使学生能够以适合自己持续专业发展需求的方式学习。诺丁汉大学临床营养学理学硕士课程将提高学生的能力和临床管理技能，这将有助于职业发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究生研究项目 (Postgraduate Research Project )\n营养学研究技能 (Research Skills in Nutrition)\n营养学基础 (Fundamentals of Nutrition)\n肥胖管理 (Obesity Management)\n胃肠病学 (Gastroenterology )\n公共健康营养政策 (Public Health Nutrition Policy)\n糖尿病1和2 (Diabetes 1 and 2)\n儿科营养 (Paediatric Nutrition)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "创意产业人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence for the Creative Industries",
+  "tags": "工科,计算机,戏剧、电影、电视和互动媒体学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 29400英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要相关学科背景，对于那些重新开始学习的人来说，需要具备适当经验的证据\n假定申请者基本熟悉计算技能，但不需要具备计算机科学、编程或任何其他特定技术技能的正式资格",
+  "objectives": "约克大学创意产业人工智能理学硕士将使学生结合创造力和技术专业知识，掌握人工智能的基础知识和技能，重点机器学习和人工神经网络。通过案例研究并与该领域的专家合作，学生将应用它们来理解和解决实际问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "创意实践的先进人工智能技术 (Advanced AI Techniques for Creative Practice)\n人工智能及其在创意实践中的应用 (AI and its Applications in Creative Practice)\n人工智能在社会中的应用 (AI in Society)\n创意实践人工智能技术导论 (Introduction to AI Techniques for Creative Practice)\n先进的交互技术和技术 (Advanced Interaction Techniques and Technologies)\n互动媒体中的商业和企业 (Business and Enterprise in Interactive Media)\n批判性设计 (Critical Design)\n创意和文化企业的法律和金融 (Law and Finance for Creative and Cultural Businesses)",
+  "success_cases": ""
+}

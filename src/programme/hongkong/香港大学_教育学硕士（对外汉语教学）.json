@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "教育学硕士（对外汉语教学）",
+  "ename": "Master of Education (Teaching Chinese as a Second Language)",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 247800港币/年",
+  "requirements": "具有学士学位或同等学历",
+  "objectives": "香港大学教育学（对外汉语教学）硕士项目面向中小学汉语教师，适合从事国际汉语研究和汉语教学，包括汉语作为第二语言或外语教学的职前或在职教师，课程将理论与实践相结合，重点研究汉语作为第二语言的教学、课程设计、评估和课堂研究等相关问题，该项目旨在培养精通各种国际课程，特别是IB课程的合格的对外汉语教师。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育问题与研究 (Educational Issues and Research)\n中文第二语言教学评估与报告 (Chinese (L2) Assessment and Reporting)\n中文第二语言校本课程设计 (Chinese (L2) School-based Curriculum Design)\n中文第二语言教学研究与实践 (Research and Teaching Practice in Second Language Classrooms)\n对外汉语教学 (Teaching Chinese Language in International Contexts)\n融合国际文凭课程理念的中文教学 (Integrating the IB Philosophy into Chinese Language Teaching)\n统计方法概论 (Introduction to Statistical Methods)\n定性研究方法：研究设计、数据收集与分析 (Qualitative Methods: Research Design, Data Collection and Analysis)\n研究项目或专业作品集 (Research Project or Professional Portfolio)",
+  "success_cases": ""
+}

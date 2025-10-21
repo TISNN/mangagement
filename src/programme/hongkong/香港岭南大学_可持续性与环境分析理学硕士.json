@@ -1,0 +1,12 @@
+{
+  "school_name": "香港岭南大学",
+  "major_name": "可持续性与环境分析理学硕士",
+  "ename": "MSc Sustainability and Environmental Analytics",
+  "tags": "工科,地球科学,研究生院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 168000港币/年",
+  "requirements": "申请者通常应持有大学认可的高等教育机构颁发的相关学士学位或其他相关证书；或具有同等学历和经验（根据具体情况予以考虑）\n掌握基本计算知识、对数据分析有基本了解者优先考虑",
+  "objectives": "香港岭南大学的可持续性和环境分析理学硕士是为了响应新兴市场对可持续发展的需求、联合国可持续发展目标和环境、社会和治理的实施以及岭大的跨学科优势而制定的。\n该计划的目的是培养有能力、有竞争力的毕业生，满足未来行业的需求，同时优先考虑可持续增长。人们越来越有兴趣使用数据分析来协助可持续转型和实现可持续发展目标。从该项目毕业的学生将具备识别和定义社会问题的软技能，同时具备数据分析的技术技能，以开发解决环境和社会挑战的创新解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地理空间智能促进可持续发展  (Geospatial Intelligence for Sustainable Development)\n气候变化素养与科学 (Climate Change Literacy and Science)\n可持续发展与环境传播 (Sustainability and Environmental Communication)\n城市生态与可持续规划 (Urban Ecology and Sustainable Planning)\n环境、社会和治理 (ESG) 规划简介 (Introduction to Environmental, Social and Governance (ESG) Planning)\n环境问题R统计环境中的数据分析和建模 (Data Analysis and Modelling in the R Statistical Environment for Environmental Issues)\n实践和研究培训：环境、社会和可持续 未来主题 (Practical and Research Training: Topics in Environment, Society, and Sustainable Future)\n绿色能源与可持续发展 (Green Energy and Sustainability)\n农村粮食-能源-水系统 (FEWS) (Rural Food-Energy-Water Systems (FEWS))\n历史、遗产和地区视角 (History, Heritage and Regional Perspectives)\n人工智能基础 (Foundation of Artificial Intelligence)\n数据分析原理 (Principles of Data Analytics)",
+  "success_cases": ""
+}

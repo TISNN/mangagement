@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "无线通信系统理学硕士",
+  "ename": "MSc Wireless Communication Systems",
+  "tags": "工科,电气电子,电子和电气工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1荣誉学位，需要通讯、控制、电气/电子、信息等其他工程类学科背景\n申请者应该已经学习过一门数学课程以及以下领域中的一门课程：模拟电路、通讯电子产品、数据结构、数字电路、数字信号处理、电磁学、通信原理、信号与系统、软件工程；学校也将考虑其他相关课程",
+  "objectives": "谢菲尔德大学无线通信系统理学硕士项目探索支撑通信系统的理论和最新技术创新，特别是蜂窝移动无线电系统。本课程具有很强的研究和开发重点。目前缺乏全面了解从射频到基带到分组协议的无线系统设计的通信工程师。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级信号处理 (Advanced Signal Processing)\n高级通信原理 (Advanced Communication Principles)\n天线、传输和卫星系统 (Antennas、Propagation and Satellite Systems)\n移动网络和物理层协议 (Mobile Networks and Physical Layer Protocols)\n宽带无线技术 (Broadband Wireless Techniques)\n无线分组数据网络和协议 (Wireless Packet Data Networks and Protocols)\n主要研究项目 (Major Research Project)\n通信和存储数据编码技术 (Data Coding Techniques for Communication and Storage)\n光通信设备和系统 (Optical Communication Devices and Systems)\n计算机视觉 (Computer Vision)\n电子通信技术 (Electronic Communication Technologies)\n系统设计 (System Design)",
+  "success_cases": ""
+}

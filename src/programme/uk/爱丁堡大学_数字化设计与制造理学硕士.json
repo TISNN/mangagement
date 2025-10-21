@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "数字化设计与制造理学硕士",
+  "ename": "MSc Digital Design and Manufacture",
+  "tags": "工科,工程管理,工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 37300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要机械（包括相关变体和专业如农业工程、造船学、航空航天和航空工程）、制造，汽车工程或工业工程背景\n需要具备编程能力，在学位期间完成1门高级语言的编程课程（如C、C#、Java、Python或同等语言）\n如果申请者具备其他领域的学术背景，并且完成了相当于40学分与制造技术相关课程，其申请可能会被考虑，这些课程成绩必须至少达到英国2:1的水平，与该学位相关的课程示例如下：制造系统，高级制造技术，工业系统工程，工业信息系统，工业自动化，流体力学，有限元分析，机电一体化，自动化，增材制造，气象与测量，CAD/CAM，工程材料，计算机数字控制，冶金\n相关行业经验可以部分满足这一要求，具有非标准背景的申请者可能会根据具体情况被予考虑",
+  "objectives": "爱丁堡大学数字化设计与制造理学硕士项目旨在发展学生的特定知识，为数字制造和设计技术提供广泛的基础，使他们能够在工业应用中使用计算机辅助设计和制造技术，为他们提供分析和批判性框架，以支持设计和制造方面的新思维。该课程将会建立在学生的本科或工业经验之上，帮助他们发现先进制造和设计技术的新创造性用途，让他们了解设计和制造中数字应用的范围和局限性，鼓励学生在与数字制造技术合作时培养商业和创业技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "增材制造与计算机辅助制造 (Additive Manufacture and Computer Aided Manufacturing (CAM))\n工业机器人 (Industrial Robotics)\n计量学，包括几何尺寸和公差 (Metrology including Geometric Dimensioning and Tolerances (GD&T))\n数字设计与制造集团项目 (Digital Design & Manufacture Group Project)\n生产信息系统 (Manufacturing Information Systems)\n科技创业 (Technology Entrepreneurship)\n计算几何 (Geometric Computing)\n论文 (Dissertation)\n工程项目管理 (Engineering Project Management)\n编程加工 (Programming for Manufacture)\n计算流体动力学 (Computational Fluid Dynamics)\n供应链管理 (Supply Chain Management)\n设计手术工具和植入医疗设备 (Design of Surgical Tools and Implanted Medical Devices)",
+  "success_cases": ""
+}

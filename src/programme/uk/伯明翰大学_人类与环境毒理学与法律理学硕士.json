@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "人类与环境毒理学与法律理学硕士",
+  "ename": "MSc Human and Environmental Toxicology with Law",
+  "tags": "工科,环境工程,生命与环境科学学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 31390英镑/年",
+  "requirements": "具有2:1荣誉学位，需要相关学科背景\n相关本科学位包括但不限于：生物化学、生物学、化学、牙科学、生态科学、环境科学、流行病学、人文科学、法律与法律研究、医学科学、微生物学、制药科学、药理学、公共卫生、动物学/动物生物学\n不完全符合标准但具备至少2年受认可的研究生经历的毕业生也可能被考虑\n要求完成至少3门A- level课程，至少2门理科A-level课程（生物学、化学、物理学、数学）达到A/B，其他A-level课程若包含实证研究和定量分析也会被考虑\n具有其他资格的毕业生（例如BTEC、国际学士学位文凭等）也会被接受，前提是满足同等等级和学科特定要求",
+  "objectives": "伯明翰大学人类与环境毒理学与法律理学硕士项目旨在帮助毕业生弥补当前科学知识与现实世界环境保护之间的差距。学生将直接深入了解最先进的科学方法来了解人类和环境健康危害，学习如何利用人工智能和数据建模工具，并了解环境法律和政策的不断发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "监管毒理学的新方法 (New Approach Methodologies for Regulatory Toxicology)\n毒性代谢与机制 (Metabolism and Mechanisms of Toxicity)\n环境保护与污染控制 (Environmental Protection and Pollution Control)\n21 世纪监管科学与毒理学 (Regulatory Science and Toxicology for the 21st Century)\n环境与能源监管 (Environmental and Energy Regulation)\n环境分析与建模 (Environmental Analysis and Modelling)\n跨学科个人项目 (Interdisciplinary Individual Project)",
+  "success_cases": ""
+}

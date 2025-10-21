@@ -1,0 +1,12 @@
+{
+  "school_name": "考文垂大学",
+  "major_name": "生产工程与运营管理理学硕士",
+  "ename": "MSc Production Engineering and Operations Management",
+  "tags": "工科,工业工程,工程、环境与计算学院",
+  "introduction": "专业方向: 工业工程\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 20050英镑/年",
+  "requirements": "具有相关工程学科背景，如机械，汽车，赛车，制造或航空航天工程",
+  "objectives": "英国国家统计局(ONS)的数据显示，自1948年以来，英国工业部门每年增长1.4%。在竞争日益激烈的全球市场中，现代制造企业正面临更大的压力，以减少生产高质量产品的时间和成本。为了有效地应对这些具有挑战性的市场需求，对具有工程、商业和管理技能和专业知识的高素质人才的需求日益增长。考文垂大学生产工程与运营管理理学硕士课程旨在满足这一需求，培养能够设计精益和竞争性制造设施并提供卓越运营能力的多学科生产工程师。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "质量管理 (Management of Quality)\n全球精益与敏捷运营 (Global Lean and Agile Operations)\n计算机辅助设计 (Computer Aided Design)\n自动化与机器人 (Automation and Robotics)\n优化与仿真 (Optimisation and Simulation)\n新产品引进小组项目 (New Product Introduction Group Project)\n未来高级制造材料与技术 (Future and Advanced Manufacturing Materials and Technologies)\n研究方法与项目介绍 (Research Methods and Project Introduction)\n硕士论文 (Masters Dissertation)\n全球专业发展-咨询 (Global Professional Development- Consultancy)",
+  "success_cases": ""
+}

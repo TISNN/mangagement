@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "专业英文文学硕士（英语语言）",
+  "ename": "MA English Studies for the Professions (English Language Studies)",
+  "tags": "社科,语言,人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 195000港币/年",
+  "requirements": "具有获认可院校颁发的学士学位或同等学历，不限专业背景，优先考虑主修英语或传播相关领域的申请者",
+  "objectives": "香港理工大学专业英文文学硕士（英语语言）课程旨在更新学员对英语语言体系的认识，提高学生使用英语的规范性，使学生掌握英语研究的新概念及新方法，并加以运用在工作中。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "英语语义和词汇 (English Semantics and Lexis)\n语言发展和使用 (Language Development and Use)\n英语语法分析 (Analytical Perspectives in English Grammar)\n语篇分析 (Discourse Analysis)\n英语发声系统导论 (Introduction to the Sound System of English)\n英语语言文学艺术 (English Literature and Language Arts)\n大众文化与英语语言 (Popular Culture and English)\n口语艺术 (Oral Language Arts)\n英语作为国际语言的 (English as an International Language)\n语言文化研究 (Critical Language and Cultural Studies)\n研究设计及方法 (Research Design and Methods)\n研究学习 (Research Project (MAELS))\n英语语言学习中的多媒体使用 (Multi-media in English Language Learning)\n传播学 (Communication)\n跨文化交际与商务沟通 (Intercultural Communication in Business)",
+  "success_cases": ""
+}

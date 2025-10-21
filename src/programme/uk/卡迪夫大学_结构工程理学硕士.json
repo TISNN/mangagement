@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "结构工程理学硕士",
+  "ename": "MSc Structural Engineering",
+  "tags": "工科,土木工程,工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 29450英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，具备建筑、土木或结构工程或类似专业的相关学科背景；申请人具备相关领域工作经验也会被考虑",
+  "objectives": "现代建筑的建设具有复杂性，需要诸多学科的专业技能。卡迪夫大学结构工程理学硕士项目旨在为学生提供结构工程领域所选方向的专业训练，提升结构工程专业学生的工程技能，为想要在土木工程专业领域成为结构工程师顾问的学生提供知识和能力。\n卡迪夫大学结构工程理学硕士项目基于实际结构性能的理论和应用研究，提供了用广泛材料分析、设计和建设结构的先进训练，探讨了卡迪夫大学工程学院的实际结构行为，在复合材料结构、板梁、大型试验、现场监测、结构屈曲和振动的精确计算等领域享有国际声誉。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "钢结构 (Steel Structures)\n铁理论与实践 (Fe Theory And Practice)\n高级结构力学 (Advanced Structural Mechanics)\n环境建设研究 (Environmental Building Studies)\n论文 (Dissertation (Civil、Structural、Geoenv))\n结构工程数理技术 (Numerical Techniques In Structural Engineering)\n工程案例研究 (Engineering Case Study)\n结构工程 (Structural Engineering)",
+  "success_cases": ""
+}

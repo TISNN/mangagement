@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "石油地质科学理学硕士",
+  "ename": "MSc Petroleum Geoscience",
+  "tags": "工科,能源,地球与环境科学学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 37500英镑/年",
+  "requirements": "具有2:1学士学位或同等学历，需要地质学、地球物理学、石油工程或相关学科背景\n在评估申请者的学习成绩时，学校会考虑学生已取得的成绩、学术推荐信和所就读院校的地位",
+  "objectives": "曼彻斯特大学石油地质科学理学硕士项目通过研究支配沉积盆地填充方式的沉积和结构过程，以及如何将对这些复杂的三维系统的理解有效地应用于改善地下石油系统的模型，来建立学生的知识。课程教授的知识和技术也直接适用于开发地热能源、碳捕获和储存以及网络气体储存方面的地下技术。\n学生将发展评估地下地质的关键技能，使用行业标准的软件，并通过与行业数据的合作。学生将学习如何评估沉积盆地，开发线索和前景，评估任何发现，最后有效和可持续地开发油田。\n曼彻斯特大学石油地质科学理学硕士项目适合希望在能源行业从事石油和天然气的勘探工作，以及未来的缓解措施，如碳封存的学生。这些技能也可以转移到其他能源行业，如地热和核能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用地下地球科学基础 (Fundamentals of Applied Subsurface Geoscience)\n探索组项目 (Exploration Group Project)\n计算地下地球科学 (Computational Subsurface Geoscience)\n前景评估与石油经济学 (Prospect Evaluation and Petroleum Economics)\n沟通技巧与实地考察 (Communication Skills and Fieldwork)\n关键口译技巧 (Key Interpretation Skills)\n盆地分析 (Basin Analysis)\n实地评估与开发 (Field Appraisal and Development)",
+  "success_cases": ""
+}

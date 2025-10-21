@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "信息管理 & 商业分析理学硕士（CUHK-Shenzhen）",
+  "ename": "MSc Information Management and Business Analytics (CUHK-Shenzhen)",
+  "tags": "商科,商业分析,深圳校区",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 2年\n项目学费: 144000人民币/年",
+  "requirements": "申请者需毕业于认可的大学并获得学士学位，需要提供B等级证明，或获得等同大学本科的资历",
+  "objectives": "香港中文大学（深圳）信息管理与商业分析理学硕士项目是一个将信息技术的最新发展与商业分析的坚实基础相结合的创新项目。其目的是培养能将数据转化为有效信息，成为具有综合能力和全面素质的高等技术应用性信息管理与商业应用人才。全球各行各业，包括银行、金融、市场营销、智能制造、供应链和物流、国家安全和咨询行业等，都迫切需要商业分析和信息技术兼备的复合型专业人才。\n信息管理方向旨在培养精通信息技术和企业管理两方面的跨界专业人才和商业领袖。相关课程包括信息管理、系统设计、数据分析和计算机科学。通过理论和实践相结合的学习方法，造就在金融、科技、健康等不同商业场景下，将数据转换为有效的商业信息以进行组织决策的能力，从而为企业数字化提供解决方案。\n商业分析方向旨在培养学生精通数据分析和商务模式的跨界专业人才和商业领袖。相关课程包括数据分析、优化和算法、机器学习和计算机科学。通过理论和实践结合的学习方法，对数据进行深度分析和挖掘，以实现大数据应用在金融、科技、电商、健康等重要领域的商业价值。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计分析 (statistic analysis)\n商业经济学编程 (Business Economics programming)\n经济模型分析 (economic model analysis)\n数据管理系统 (data management system)\n商业机器学习 (Business machine learning)\n现代商业分析 (Modern business Analysis)\n系统分析与设计 (design & analysis system)\n商业建模与最优化 (Business Modeling and optimization)\n大数据分析 (Big Data Analysis)",
+  "success_cases": ""
+}

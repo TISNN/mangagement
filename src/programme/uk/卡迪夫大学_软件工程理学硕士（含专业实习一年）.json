@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "软件工程理学硕士（含专业实习一年）",
+  "ename": "MSc Software Engineering with a Professional Placement Year",
+  "tags": "工科,计算机,计算机科学与信息学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 2年\n项目学费: 31700英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科领域背景，如工程、数学、科学或技术；需要有编程经验的证据",
+  "objectives": "卡迪夫大学软件工程理学硕士（含专业实习一年）项目为来自 STEM（科学、技术、工程和数学）学科不同背景的学生提供了获得成为有效的商业软件工程师所需的技能、知识和实践经验的机会。尽管学生可能具备一些编程知识，但学生将使用当前领先的商业工具和技术进行实践开发，并在动态的商业环境中直接参与工业。\n卡迪夫大学软件工程理学硕士（含专业实习一年）项目涵盖了雇主所追捧的广泛主题，包括使用 Python、HTML 和 Javascript 等语言进行 Web 应用程序编程、数据库、DevOps 和新兴技术。在整个学位中，重点团队合作和敏捷项目管理技术。学生将在课程教学阶段完成后申请为期 7-12 个月的带薪专业工作实习。这为培养您的 IT 专业技能提供了宝贵的工作经验。学生成功完成实习阶段后，将进入论文阶段，与来自行业的真正客户合作开展一个令人兴奋的、基于团队的项目，该项目汇集了学生在学位期间获得的所有知识和技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "敏捷软件开发 (Agile Software Development)\n网络应用程序 (Web Applications)\n编程原理与实践 (Programming Principles and Practice)\n开发运营 (DevOps)\n操纵和利用数据 (Manipulating and Exploiting Data)\n提供用户体验 (Delivering User Experience)\n论文（团队项目） (Dissertation (Team Project))\n实习 (Placement)",
+  "success_cases": ""
+}

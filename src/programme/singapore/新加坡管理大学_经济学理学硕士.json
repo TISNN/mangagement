@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡管理大学",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 49050新币/年",
+  "requirements": "- 具有良好的学士学位\n- 具有良好的GMAT（600）/GRE（Verbal和Quantitative均分156）/SMU入学考试（Verbal/Numerical/Integrated Reasoning均分55）成绩\n*EQ方向要求定量部分成绩优秀\n8月入学学费40,330新币，1月入学学费49,050新币",
+  "objectives": "新加坡管理大学经济学理学硕士项目包括应用经济学（AE）、计量经济学和数量经济学（EQ），是一个提供经济学和经济数据分析深入研究的课程。该课程的特点是强大的核心课程，包括一个没有经济学方面事先培训的学生的入学途径，一个允许学生选择更注重实践、更具数据分析或更注重理论的轨道系统，以及一个开放类别，允许学生在学习轨道之外学习。该课程寻找对经济学有强烈目的感和好奇心的学生。虽然该课程为那些拥有经济学本科学位的人提供了深入学习经济学的机会，但该课程也适用于那些之前没有受过经济学培训的人。应用经济学专业的学生可以是在其公司或公共部门机构中做出或将要做出关键和战略决策的在职专业人士，他们可以从对市场和经济的良好理解中受益匪浅。计量经济学和数量经济学专业的学生可能希望学习更多关于数据分析的知识，特别经济、金融和社会数据。这些学生可能希望从事涉及技术经济学研究的职业，或继续攻读经济学研究生课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "经济学基础 (Foundations in Economics)\n微观经济学分析 (Microeconomics Analysis)\n宏观经济学分析 (Macroeconomics Analysis)\n应用计量经济学 (Applied Econometrics )\n计量经济学分析I (Econometrics Analysis I)\n公共财政 (Public Finance)\n国际贸易 (International Trade)\n国际金融 (International Finance)\n货币、银行与资本流动 (Money, Banking and Capital Flows)\n制度、产业组织与博弈论 (Institutions, Industrial Organization & Game Theory)\n经济增长管理 (Managing Economic Growth)\n亚洲经济 (Asian Economies)\n海事经济学 (Maritime Economics)\n宏观经济核算与政策 (Macroeconomic Accounts & Policy)\n财政政策与宏观经济管理 (Fiscal Policy & Macroeconomic Management)\n经济学基础 (Foundations in Economics)\n微观经济学分析 (Microeconomics Analysis)\n宏观经济学分析 (Macroeconomics Analysis)\n计量经济学方向I (Econometrics Analysis I)\n计量经济学I (Econometrics I)\n实证经济学 (Empirical Economics)\n面板数据分析 (Panel Data Analysis)\n时间序列分析与预测 (Time Series Analysis & Forecasting)\n数据采样 (Data Sampling)\n贝叶斯计量经济学 (Bayesian Econometrics)\n计量经济学II (Econometrics II)\n金融计量经济学 (Financial Econometrics)\n经济学与金融学的数值方法 (Numerical Methods for Economics & Finance)\n微观计量经济学 (Microeconometrics)\n时间序列高级论题 (Advanced Topics in Time Series)\n经济学基础 (Foundations in Economics)\n微观经济学I (Microeconomics I)\n宏观经济学I (Macroeconomics I)\n计量经济学I (Econometrics I)\n微观经济学II (Microeconomics II)\n宏观经济学II (Macroeconomics II)\n计量经济学II (Econometrics II)\n实证经济学 (Empirical Economics)\n计算宏观经济学 (Computational Macroeconomics)\n贝叶斯计量经济学 (Bayesian Econometrics)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "高级机械工程理学硕士",
+  "ename": "MSc Advanced Mechanical Engineering",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 29880英镑/年",
+  "requirements": "具有2:1本科英国荣誉学位或同等学历，需要工程、物理科学或数学学科背景\n申请者的数学知识需要达到A2 Level或同等水平，涵盖线性代数、微积分和分析等主题，包括微分方程，这可以通过作为本科课程一部分的数学模块获得，学校希望学生在硕士学习开始时对这些主题具备很好的理解\n学校愿意根据具体情况考虑具有较低学历的申请者，尤其是能够证明具备相关就业、实践经验或在与申请专业相关的本科课程中表现出色的申请者\n为了确保申请者掌握学习该课程的必要基础，根据其整体学术表现，可能会要求申请者参加数学技能测试",
+  "objectives": "华威大学高级机械工程理学硕士项目侧重于教授机械工程职业所需的关键技能。学生将具备更多的技能和知识，以应对工程内外广泛学科的新的挑战。教学以汽车系统、生物医学工程、固体和流体力学、电能和热能系统、能量转换/储存和可持续城市的研究为基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算流体动力学 (Computational Fluid Dynamics)\n精密工程与微系统 (Precision Engineering and Microsystems)\n机械系统动力学分析 (Dynamic Analysis of Mechanical Systems)\n传热理论与设计 (Heat Transfer Theory and Design)\n个人项目 (Individual Project)\n机械工程组设计 (Mechanical Engineering Group Design)\n研究方法和专业技能 (Research Methods and Professional Skills)\n高级流体动力学和空气动力学 (Advanced Fluid Dynamics and Aerodynamics)\n系统建模与仿真 (Systems Modelling and Simulation)\n有限元法 (Finite Elements Methods)\n可再生能源 (Renewable Energy)\n生物力学 (Biomechanics)",
+  "success_cases": ""
+}

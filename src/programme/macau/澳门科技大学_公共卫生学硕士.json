@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "公共卫生学硕士",
+  "ename": "Master of Public Health",
+  "tags": "社科,公共卫生,医学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 2年\n项目学费: 120000港币/年",
+  "requirements": "修读公共卫生学或相关专业",
+  "objectives": "该课程旨在使学生能够系统地和批判性地学习公共卫生学的理论、概念、原理；及对公共卫生的有关的问题提出新见解。该课程的修读年期为二至四年的课程学习(第一年)及研究项目。课程的重要主题包括：研究方法、健康促进、公共卫生、卫生政策、流行病学、生物统计学、社会健康以及以证据为基础的公共卫生实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公共卫生学原理 (Principles of Public Health)\n流行病学 (Epidemiology)\n生物统计学 (Biostatistics)\n环境卫生科学 (Environmental Health Sciences)\n公共卫生社会行为学 (Social and Behavioral Dimensions  of Public Health)\n公共卫生政策、策略及评估 (Public Health Policy, Strategy and Evaluation)\n健康教育及推广 (Health Education and Promotion)\n医疗服务管理学 (Health Service Management)\n医疗资讯系统学 (Health Information Systems)",
+  "success_cases": ""
+}

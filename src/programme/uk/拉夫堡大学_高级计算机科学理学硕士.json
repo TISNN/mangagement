@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "高级计算机科学理学硕士",
+  "ename": "MSc Advanced Computer Science",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有英国2:2荣誉学位或同等学历，需要计算机相关学位，例如：计算机科学、计算机工程、信息技术、信息安全、软件工程，申请者必须已完成网络和编程课程",
+  "objectives": "本课程已得到英国及国际机构的支持，为学生提供雇主所需的尖端实用技能。飞速发展的计算机科学领域(以及受技术发展驱动的行业和组织的需求)产生了对拥有高级技能和知识的高技能个人的需求。拉夫堡大学的高级计算机科学理学硕士课程通过利用本系已建立的行业联系和研究实力，确保课程的商业相关性，该课程适合那些希望在计算机科学(或涉及编程和网络的类似学科)学士学位基础上继续深造的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级编程 (Advanced Programming)\n构建安全网络 (Building Secure Networks)\n计算机视觉和嵌入式系统 (Computer Vision and Embedded Systems)\n项目准备工作 (Project Preparation)\n先进的计算机科学项目 (Advanced Computer Science Project)\n密码学和安全系统 (Cryptography and Secure Systems)\n机器人与智能系统 (Robotics and Intelligent Systems)\n无线网络 (Wireless Networks)\n研究方法 (Research Methods)",
+  "success_cases": ""
+}

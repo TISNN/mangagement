@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "可持续金融理学硕士",
+  "ename": "MSc Sustainable Finance",
+  "tags": "商科,金融,经济与相关研究学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 33700英镑/年",
+  "requirements": "具有本科学位，达到2:2学位或同等学历，不限专业背景，学校希望申请者具备一门或多门课程的经验，包含一些统计学/数学/经济学/金融学/物理学/工程学内容",
+  "objectives": "约克大学可持续金融理学硕士课程旨在为学生提供可持续金融概念和技术的全面理解，以及将环境、社会和治理（ESG）标准引入财务分析、投资决策和资本配置策略的知识和技能，重点探索绿色公共采购、公私伙伴关系、绿色债券、社会影响债券和ESG基金等创新金融工具，并评估其在促进可持续发展和价值创造方面的作用。学生还将探索可再生能源市场，包括分析绿色债券和富时环境市场指数等关键金融工具，并了解化石燃料能源市场如何影响可再生能源市场。此外，学生将培养关键的分析技能，以评估二氧化碳排放定价和衍生品等因素对可再生能源投资的影响。约克大学可持续金融理学硕士课程的学生将研究能源贫困的背景和潜在原因，包括社会经济因素和能源资源的获取，并将分析能源贫困的数据，以了解其流行程度、分布以及对社区和经济的影响。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融与投资管理 (Finance and Investment Management)\n金融定量方法 (Quantitative Methods for Finance)\n公司财务与治理 (Corporate Finance and Governance)\n可再生能源市场 (Renewable Energy Markets)\n可持续企业融资 (Sustainable Corporate Finance)\n动态资本投资 (Dynamic Capital Investment)\n金融计量经济学 (Financial Econometrics)\n宏观金融学 (Macro Finance)\n股票投资与交易 (Stock Investment and Trading)",
+  "success_cases": ""
+}

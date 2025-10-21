@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "计算机科学理学硕士",
+  "ename": "MSc Computer Science",
+  "tags": "工科,计算机,电子与计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 33900英镑/年",
+  "requirements": "具有一等学位，需要以下背景：计算机科学、计算机工程、软件工程、媒体技术、电子商务、信息技术\n申请者还必须在以下课程中取得upper 2:1的成绩：\n- 2门现代面向对象或函数式编程语言课程（Java, C, C#, Visual Basic）\n- 1门高等数学课程，如：高等数学、离散数学、逻辑与推理、线性代数、微积分或算法\n- 2门计算课程，如：密码学、软件、数据结构、数据库、人工智能、机器学习、web、网络或操作系统\n在某些情况下，学校将接受工作经验来代替编程授课背景",
+  "objectives": "南安普敦大学计算机科学理学硕士项目为期一年，涵盖人工智能、网络安全、信号处理、软件工程和网络科学技术等专业课程供学生选择，将使学生有机会深化对某个或某些相关领域的认知。 在学习结束时，学生将在多个计算机科学学科中发展出一套专业技能。该项目的许多学生成为软件开发人员，但也可以将天赋应用于担任顾问、项目经理或技术专家。计算机科学涉及计算机研究和软件系统设计。该课程还介绍当今互联世界的基本技术和计算设备。南安普敦大学在过去10年里率先在这一领域取得了许多最重要的进展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "理学硕士项目 (MSc Project)\n计算机科学专题 (Topics in Computer Science)\n项目准备 (Project Preparation)\n高级计算机网络 (Advanced Computer Networks)\n高级数据库 (Advanced Databases)\n计算生物学 (Computational Biology)\n游戏设计与开发 (Game Design and Development)\n电子商务策略 (E-Business Strategy)\n网络开发 (Web Development)",
+  "success_cases": ""
+}

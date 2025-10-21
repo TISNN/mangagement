@@ -1,0 +1,12 @@
+{
+  "school_name": "卡内基梅隆大学",
+  "major_name": "人工智能系统管理理学硕士",
+  "ename": "Master of Science in Artificial Intelligence Systems Management",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 3学期\n项目学费: 27,870美元/学期",
+  "requirements": "先修课要求：\n大学水平的微积分，或提交 GRE/GMAT，且定量部分至少达到 65% 或更高；\n大学水平的统计学；\n大学水平的 Python 编程（Java 和 C 也可以接受）。\n如果在申请时不满足上述 3 个标准，可能会被有条件录取，并被要求在第一学期开始前参加暑假课程。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

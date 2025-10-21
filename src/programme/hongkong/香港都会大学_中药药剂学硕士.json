@@ -1,0 +1,12 @@
+{
+  "school_name": "香港都会大学",
+  "major_name": "中药药剂学硕士",
+  "ename": "Master of Chinese Medicinal Pharmacy",
+  "tags": "社科,药学,护理及健康学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 1年\n项目学费: 114450港币/年",
+  "requirements": "具有中药学或相关学科背景，或持有中华人民共和国国家执业药师（中药学）执业资格。",
+  "objectives": "香港都会大学中药学硕士项目旨在让学生掌握中药学实务的基本专业知识和技能，以配合社会对中药学服务的需求，并应对香港中药业未来发展的挑战。\n完成课程后，学生应该能够：\n巩固和运用中医基础理论进行疾病诊断、治疗、康复和预防；\n批判性地分析中药的药物风险，并制定相应/适当的风险管理，以满足客户的健康需求和/或促进客户整体健康的问题；\n巩固和运用中医基础理论和中药临床药学知识；\n巩固和应用中医药领域的医药法律法规；\n批判性地审查和评价与中药相关的研究证据；\n进行与中药学相关的研究/创新项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "中医学基础 (Fundamentals of Chinese Medicine)\n中药风险分析与管理 (Risk Analysis and Management in Chinese Medicines)\n中药商品与鉴证 (Commodities and Forensic of Chinese  Medicines)\n药学实践研究方法 (Research Methods in Pharmacy Practice)\n中药临床药学 (Clinical Pharmacy in Chinese Medicines)\n中药药事法规的应用 (Application of Chinese Medicine Laws and Regulations)\n专题研究 (中药药剂) (Capstone Project (Chinese Medicinal  Pharmacy))",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "网络安全与人工智能理学硕士",
+  "ename": "MSc Cybersecurity and Artificial Intelligence",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 32550英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要计算机应用、计算机科学、软件工程专业背景根据申请者在软件系统开发方面的经验，学校也可以考虑以下领域的学位：化学、经济学、数学、物理、任何工程学科",
+  "objectives": "谢菲尔德大学网络安全与人工智能理学硕士项目使学生获得网络安全和人工智能基础知识。该课程教学生如何在世界任何地方将所学应用于商业和工业。本课程结合了两个学科：网络安全和人工智能（AI）。网络安全是我们时代最紧迫的问题之一，人工智能近年来取得了巨大进展。这两个领域的技能都非常需要。学每个学科都有教学模块，学生将执行一个项目，在这两个学科的界面解决一个或多个研究问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "机器学习和适应性智能 (Machine Learning and Adaptive Intelligence)\n可扩展的机器学习 (Scalable Machine Learning)\n文本处理 (Text Processing)\n自然语言处理 (Natural Language Processing)\n基本的安全特性和机制，安全软件的开发 (Fundamental Security Properties and Mechanisms, Development of Secure Software)\n网络威胁追踪和数字取证 (Cyber Threat Hunting and Digital Forensics)\n控制和嵌入式系统的安全性 (Security of Control and Embedded Systems)\n网络安全和人工智能学位论文项目 (Cybersecurity and Artificial Intelligence Dissertation Project)",
+  "success_cases": ""
+}

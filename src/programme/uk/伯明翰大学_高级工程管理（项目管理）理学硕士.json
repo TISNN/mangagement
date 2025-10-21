@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "高级工程管理（项目管理）理学硕士",
+  "ename": "MSc Advanced Engineering Management (Project Management)",
+  "tags": "工科,工程管理,工程与物理科学学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有认可机构颁发的2:1荣誉学位，需要工程学、物理科学、数学或技术类学科背景\n在上述学科中取得2:2荣誉学位且具备相关工作经验的申请者将根据具体情况予以考虑",
+  "objectives": "在第一学期，学生将学习管理领域的核心概念；在第二学期，学生将选择一个专业方向进行精修。学生也有机会选择通识方向，根据自己的要求选择课程。所有学生都要学习第一学期的模块，为进一步专业化管理学习打下坚实的知识和技术基础。伯明翰大学高级工程管理（项目管理）理学硕士项目的课程由伯明翰商学院（BBS）的顶尖学者提供，管理内容以研究为主导，利用BBS的专业知识和声誉，为学生提供高质量的学习体验。课程主题包括战略、创新、营销、组织行为和财务管理；在第二学期，学生将转向所选择的方向，在工程学院学者的指导下探索实际管理应用，并借鉴其丰富的研究经验和产业链资源，使得自己在第一学期所学到的关键理念可以得到延伸。这一新结构可以确保学生在第一学期学习核心原理，在第二学期中应用这些原理，并有机会通过研究项目（60学分）来调查和开发当代工程管理的相关课题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "市场营销与财务管理 (Marketing and Financial Management)\n组织和运营管理 (Organisational and Operations Management)\n战略创新管理 (Strategic Innovation Management)\n施工管理 (Construction Management)\n工程生产与施工风险管理 (Engineering Production and Risk Management in Construction)\n系统工程与系统思维 (Systems Engineering and Systems Thinking)\n论文 (Dissertation)",
+  "success_cases": ""
+}

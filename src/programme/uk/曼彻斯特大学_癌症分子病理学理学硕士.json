@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "癌症分子病理学理学硕士",
+  "ename": "MSc Molecular Pathology of Cancer",
+  "tags": "社科,医学,生物、医学和健康学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有本科学位（通常为2:1）或同等学历，需要相关生物医学学科背景，包括医学和护理学，学校会灵活考虑具备可证明的适当丰富专业经验的申请者",
+  "objectives": "曼切斯特大学分子病理学理学硕士课程将使学生能够利用这一领域不断增长的机会，这对于转化医学（在癌症和非癌症疾病中）都至关重要。\n课程面向想要学习更多有关分子病理学的医学生，生物医学科学家，医学从业人员和实习生病理学家。受训病理学家可以将我们的课程作为现有培训计划的一部分。\n学生将受益于对组织样本分子分析的独特，并在实验室医学和新兴诊断方法的各个领域进行选修，如蛋白质组学和化学病理学。学生还将成为曼彻斯特世界领先的精密医学研究社区的一部分，学习可直接应用于这一新兴领域的实用技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "癌症的分子病理学 (Molecular Pathology of Cancer)\n医学和疾病领域的下一代测序和组学 (Next Generation Sequencing and Omics in Medicine and Disease)\n非恶性疾病的分子病理学 (Molecular Pathology of Non-malignant Disease)\n诊断分子病理学 (Diagnostic Molecular Pathology)\n遗传学，遗传流行病学，转录组学和功能基因组学 (Genetics, Genetic Epidemiology, Transcriptomics and Functional Genomics)",
+  "success_cases": ""
+}

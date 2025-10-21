@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "法律硕士",
+  "ename": "Juris Master",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 2年\n项目学费: 130000港币/年",
+  "requirements": "专业不限，但法学专业除外",
+  "objectives": "法律硕士生需要在政府机构、律师事务所或其它法律实务部门完成2-3个月的实习和实践，并提交实习报告，为了将书本中的法律运用于实际，并积累实践经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "法理学 (JURISPRUDENCE)\n法制史 (LEGAL HISTORY)\n宪法与基本法 (CONSTITUTIONAL LAW AND THE BASIC LAW)\n民法学 (CIVIL LAW)\n刑法学 (CRIMINAL LAW)\n刑事诉讼法学 (CRIMINAL PROCEDURE LAW)\n民事诉讼法学 (CIVIL PROCEDURE LAW)\n行政法与行政诉讼法 (ADMINISTRATIVE LAW AND ADMINISTRATIVE LITIGATION LAW)\n经济法 (ECONOMIC LAW)\n商法 (COMMERCIAL LAW)\n国际法原理 (PRINCIPLES OF INTERNATIONAL LAW)",
+  "success_cases": ""
+}

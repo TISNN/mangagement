@@ -1,0 +1,12 @@
+{
+  "school_name": "威廉玛丽学院",
+  "major_name": "计算机科学（计算运筹学）硕士",
+  "ename": "MS in Computer Science with specialization in COR",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季/春季\n项目时长: 两年\n项目学费: 35,136美元",
+  "requirements": "申请者需具有数学、科学或工程学背景，并具有使用高级语言进行编程的能力。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

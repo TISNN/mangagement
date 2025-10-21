@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "全球商务交流理学硕士",
+  "ename": "MSc Global Business Communication",
+  "tags": "社科,策略传播,语言、文学、音乐和视觉文化学院",
+  "introduction": "专业方向: 策略传播\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "具有good second calss学位，通常为2:1或以上水平，不限专业背景\n该学位专为不同本科学位背景的学生设计，包括语言、语言学、传播学、商业研究、法律或法律研究",
+  "objectives": "阿伯丁大学全球商务交流理学硕士课程提供有关商业、法律、医疗保健、政治、媒体和能源行业的深入交流技能和知识。学生将学会在依赖于了解人类行为、人际关系、策略和政治的情况下进行有效而务实的沟通，以发现沟通和解释方面挑战的强大解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "营销管理 (Marketing Management)\n传播理论与分析 (Communication Theory and Analysis)\n领导力挑战 (The Leadership Challenge)\n消费者行为学 (Consumer Behaviour)\n跨文化交流 (Intercultural Communication)\n机构话语 (Institutional Discourse)\n营销传播 (Marketing Communications)\n职业传播学论文 (Dissertation in Professional Communication)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "普渡大学西拉法叶分校",
+  "major_name": "计算机科学硕士",
+  "ename": "Master's in Computer Science",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 夏季\n项目时长: 30学分\n项目学费: 14,397美元/学期",
+  "requirements": "获得计算机科学相关学位，也会考虑其他合适的背景。需要熟练使用Java和C等语言",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

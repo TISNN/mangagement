@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "高级航空工程理学硕士",
+  "ename": "MSc Advanced Aeronautical Engineering",
+  "tags": "工科,航空工程,航天学院",
+  "introduction": "专业方向: 航空工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有2:1最好是一等荣誉学位，需要航空航天或机械工程背景并具备一些流体与结构动力学经验\n需要申请ATAS证书",
+  "objectives": "帝国理工学院高级航空工程理学硕士项目提供可用于减少环境影响和使用周期成本的航空技术跨学科训练。航空运输对经济的持续增长至关重要，预计在未来20年内将大幅增长。航空面临的挑战在于以环境友好的方式满足预计增长需求。\n帝国理工学院高级航空工程理学硕士项目提供了基础学科的相关课程，及减少环境影响和使用周期成本的航空技术跨学科训练，这对于开发用于设计环境友好型飞机的新兴技术来说极其重要。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "航空结构 (Aerospace Structures)\n飞机系统工程 (Aircraft Systems Engineering)\n应用空气动力学 (Applied Aerodynamics)\n绿色航空新兴技术 (Emerging Technologies for Green Aviation)\n流体动力学导论 (Introduction to Fluid Dynamics)\n编程概论 (Introduction to Programming)\n入门数学 (Introductory Mathematics)\n重大个人研究项目 (Major Individual Research Project)\n修订压力分析 (Revision Stress Analysis)\n技术写作和演讲 (Technical Writing and Presentations)\n高级飞行力学 (Advanced Mechanics of Flight)\n航空弹性 (Aeroservoelasticity)\n高性能计算 (High-Performance Computing)\n材料建模 (Materials Modelling)\n航空器设计 (Aerospace Vehicle Design)",
+  "success_cases": ""
+}

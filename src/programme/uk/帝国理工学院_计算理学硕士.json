@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "计算理学硕士",
+  "ename": "MSc Computing",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 43800英镑/年",
+  "requirements": "具有一等学位，不限专业背景（计算或计算机科学除外）",
+  "objectives": "帝国理工学院计算理学硕士项目提供了计算机科学的密集训练，适用于非计算机学科背景、想要掌握计算机核心技术或想要丰富计算机知识的学生。该项目为期一年，旨在为非计算机学科背景的学生提供计算机科学的密集培训，以便其就职于计算机行业。此项目适合想要提升计算机背景或想要接受再培训以成为计算机或信息技术专家的学生，也适合学生为博士阶段的学习做准备。我们的理学硕士项目提供机会让学生提升和展现计算机领域基础专业课题方面的知识、认知和实用技能，使学生具备团队合作、文献检索、技术报告与报告写作所需的素质与技能，学生也可以参与大型软件工程的开发。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机体系结构 (Computer Architecture )\n综合编程实验室 (Integrated Programming Laboratory)\nC++程序设计概论 (Introduction to C++ Programming)\n逻辑与人工智能编程 (Logic and AI Programming)\n面向对象设计与编程 (Object Oriented Design and Programming)\n操作系统 (Operating Systems)\n高级计算机图形学 (Advanced Computer Graphics )\n算法 (Algorithms)\n计算金融 (Computational Finance )\n计算机网络与分布式系统 (Computer Networks and Distributed Systems)\n密码学工程 (Cryptography Engineering )\n数据分析与概率推理 (Data Analysis and Probabilistic Inference)",
+  "success_cases": ""
+}

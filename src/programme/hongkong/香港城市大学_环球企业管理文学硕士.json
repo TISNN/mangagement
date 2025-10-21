@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "环球企业管理文学硕士",
+  "ename": "MA Global Business Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 330000港币/年",
+  "requirements": "具有认可的二等荣誉或以上学士学位或同等学历\n具有至少3年国际商务或中国相关活动的管理专业经验或具有商业或相关学科学士学位或同等学历以及2年管理和/或专业经验的申请者将优先录取",
+  "objectives": "香港城市大学环球企业管理文学硕士课程针对国际市场发展趋势而设，旨在帮助参与者获得成功开展跨越政治，经济和文化界限的业务所需的独特技能和见解，并胜任在全球层面整合关键业务职能。此课程将致力于传授给学生在不同的政治、经济和文化的条件下，成功地进行企业运作所必需的各种独特观点和技能，并帮助学生发展其高水平地整合环球企业关键职能的技能。这将满足国际企业管理者对理解和处理各种问题的需要，如国际创业与企业家精神、国际商务管理、战略管理、跨文化沟通、亚洲商务运营、国际财务、多元文化中人与人的冲突，以及如何做出最佳决策等问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "财务报表分析 (Financial Statement Analysis)\n财务管理和国际公司 (Financial Management and the International Firm)\n全球人力资源管理 (Global Human Resources Management)\n国际组织行为学 (International Organisational Behaviour)\n全球创新和科技管理 (Managing Innovation and Technology Globally)\n全球资讯系统 (Global Information Systems)\n国际商务和全球地缘政治 (International Business & the Global Geopolitics for Managers)\n课题研究 (MAGBM Research Project)\n跨国企业战略管理的新兴议题 (Emerging Issues in Multinational Strategic Management)\n亚洲视角下的比较管理学 (Comparative Management: Asian Perspectives)\n领导力：在逆境中的管理 (Leadership: Managing in Adverse Situations)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "会计与金融理学硕士",
+  "ename": "MSc Accounting and Finance",
+  "tags": "商科,金融,管理学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 30000英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要拥有至少八个会计和/或金融课程\n拥有 ACA、CPA、ACCA、CIMA 等专业资格的候选人也将受到考虑",
+  "objectives": "利物浦大学会计和金融理学硕士项目重点教授前沿理论和实践方法，分析研究成果。利物浦大学会计和金融理学硕士学位项目注重培养学生在实际情景下的实践能力，帮助学生获得过硬的会计基础，提升金融分析以及技术操作能力，为学生继续攻读博士打下扎实的基础，同时让学生在全球范围内拥有更大的就业竞争力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级财务会计、报表和管理会计 (Advanced Financial Accounting & Reporting、and Management Accounting)\n公司财务与评估 (Corporate Finance and Valuation)\n投资组合理论 (Portfolio Theory)\n计量经济学和统计学方法 (Econometric and Statistical Methods)\n金融计量方法 (Quantitative Methods for Finance)\n金融市场、金融管理和伦理 (Financial Markets、Financial Regulation and Ethics)\n会计与金融理论的发展 (Theoretical Developments in Accounting and Finance)\n当代会计与金融研究议题 (Contemporary Issues in Accounting and Finance Research)\n财务报表分析和评估 (Financial Statement Analysis and Valuation)\n高级计量经济学 (Advanced Econometrics)\n研究方法与建模 (Research Methods and Modelling)\n金融工程 (Financial Engineering)\n安全和投资分析 (Security and Investment Analysis)\n论文 (Dissertation)",
+  "success_cases": ""
+}

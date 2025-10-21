@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "金融与机器学习理学硕士",
+  "ename": "MSc Finance and Machine Learning",
+  "tags": "商科,金工金数,经济与金融学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有本科2:1学位或以上学历，学科背景不限，但是需要较好的统计和数学研究背景。",
+  "objectives": "伦敦大学玛丽皇后学院金融与机器学习理学硕士项目将为您提供强大的金融背景，机器学习方法的基础以及如何通过尖端课程将它们用于金融，使用Python实现机器学习工具的知识，定量方法的系统知识，以便您具备对相关问题进行定量分析所需的技能，以及一个鼓励系统和独立思考和学习发展的学习环境。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司金融 (Corporate Finance)\n论文 (Dissertation)\n金融大数据应用 (Big Data Applications for Finance)\n资产定价、交易与投资组合构建 (Asset Pricing, Trading, and Portfolio Construction)\n机器学习概论 (Introduction to Machine Learning)\n金融领域的机器学习 (Machine Learning for Finance)\n研究项目 (Research Project)\nR语言中的定量方法 (Quantitative Methods in R)\n金融衍生品 (Financial Derivatives)\n国际金融 (International Finance)\n行为金融学 (Behavioural Finance)\n高级资产定价与建模 (Advanced Asset Pricing and Modelling)\n资产管理 (Asset Management)\n会计学原理 (Principles of Accounting)\n应用风险管理 (Applied Risk Management)\n金融计量经济学主题 (Topics in Financial Econometrics)\n债券市场策略 (Bond Market Strategies)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦政治经济学院",
+  "major_name": "经济学与管理理学硕士",
+  "ename": "MSc Economics and Management",
+  "tags": "商科,经济,管理学系",
+  "introduction": "专业方向: 经济\n入学时间: 8月\n项目时长: 1年\n项目学费: 38000英镑/年",
+  "requirements": "具有一等学位，需要经济学、数学和统计学含量较高的专业背景（如经济学与金融学、经济学与统计学等）\n所有申请者都需要提交GMAT或GRE（偏好GRE），持有（或即将获得）英国本科或硕士学位的人除外\n不需要先前的工作经验",
+  "objectives": "伦敦政治经济学院经济学与管理理学硕士项目旨在让具备良好的定量及分析能力的学生，进一步深化对企业运营、市场运作方式的见解，掌握作为一名未来的优秀创新的管理者和经济学家必备的能力。伦敦政治经济学院经济学与管理理学硕士项目独特地将经济学中的分析训练与管理学更实用的范围相结合。\n伦敦政治经济学院经济学与管理理学硕士项目的课程致力于提高学生对于全球背景下商业策略管理、计量经济学、市场运营的理解。伦敦政治经济学院经济学与管理理学硕士项目旨在培养出管理者和经济学家，使毕业生具备处理复杂决策的能力，能够在当今高速发展的社会中应对未知变化，推动公司与市场创新发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司与市场 (Firms and Markets)\n计量经济学方法 (Econometric Methods)\n公司金融A (Corporate Finance A)\n拓展性论文 (Extended Essay)\n管理会计，决策与控制 (Management Accounting, Decisions and Control)\n应用公司金融 (Applied Corporate Finance)\n资产组合管理 (Portfolio Management)\n拍卖与博弈论 (Auctions and Game Theory)\n全球化与策略 (Globalization and Strategy)\n国际商业战略与新兴市场 (International Business Strategy and Emerging Markets)\n战略性思维 (Thinking Strategically)\n信息经济战略 (Strategy for the Information Economy)\n世界贸易体系 (The World Trading System)\n管理研究主题 (Topics in Management Research)",
+  "success_cases": ""
+}

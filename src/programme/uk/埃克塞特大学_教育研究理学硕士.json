@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "教育研究理学硕士",
+  "ename": "MSc Educational Research",
+  "tags": "社科,教育,社会科学与国际研究学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 23600英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历（成绩达到53%或以上），需要社会科学、人文或管理等相关专业背景，并且对教育研究有明显的兴趣\n学校欢迎来自相当于学位水平的不同学术背景，或具有相关的教学经验的申请者申请",
+  "objectives": "埃克塞特大学成熟的教育研究理学硕士项目由经济和社会研究委员会（ESRC）认证，旨在唯有计划攻读博士学位的申请者做好准备。\n埃克塞特大学教育研究理学硕士项目教授学生进行独立的教育研究的知识和技能。学生将获得可用于不同背景以解决各种问题的一般社会科学研究技能，并且还有机会专门研究特定的教育领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育调查的本质 (The Nature of Educational Enquiry)\n解释方法论 (Interpretive Methodologies)\n科学方法论 (Scientific Methodologies)\n研究设计和交流 (Designing and Communicating Research)\n论文 (Dissertation)",
+  "success_cases": ""
+}

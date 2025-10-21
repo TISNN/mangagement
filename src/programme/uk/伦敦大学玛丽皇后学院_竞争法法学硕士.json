@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "竞争法法学硕士",
+  "ename": "LLM Competition Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有本科2:1学位或以上学历，需要法律或具有实质性法律内容的学位\n具有2:2荣誉学位以及其他法律资格和/或大量的专业法律经验的法律毕业生也可能符合资格\n在英国专业机构认可的普通专业考试（CPE）或法律研究生文凭（GDL）中获得优秀（或60%）获得二等荣誉学位的非法律专业毕业生也可能符合资格。非法律专业毕业生若具备在法律领域或与其申请专业直接相关的领域具有特殊的工作经验（至少5年）也可能被考虑",
+  "objectives": "竞争法是国际与欧盟法律体系内十分重要的一个分支，伦敦大学玛丽皇后学院竞争法法学硕士项目研究不同商业现象中竞争法的运用，包括反竞争协议、支配权利滥用与商业合并,探索竞争法与知识产权与贸易等相关领域之间的关联。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际竞争法 (International Competition Law)\n适用的跨国法律和治理 (Transnational Law and Governance Applied)\n竞争法经济学 (Economics of Competition Law)\n实践中的合规制度 (Compliance Systems in Practice)\n比较竞争法 (Comparative Competition Law)\n网络环境下的竞争法 (Competition Law in the Cyberspace)\n欧盟竞争法与实践 (EU Competition Law and Practice)\n竞争法、知识产权与创新 (Competition Law, Intellectual Property and Innovation)",
+  "success_cases": ""
+}

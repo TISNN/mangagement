@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "信息安全理学硕士",
+  "ename": "MSc Information Security",
+  "tags": "工科,计算机,信息安全学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 28500英镑/年",
+  "requirements": "",
+  "objectives": "信息电子化处理是当代关键性技术之一。数量庞大的信息程式化地在世界范围内存储和传输，一旦信息基础设施发生故障，我们日常生活的诸多方面都将中断。\n信息自动管理功能在带来诸多便利的同时，也给企业、政府及个人带来了主要威胁，其中包括信息操纵中可能出现的欺诈行为、蓄意破坏存储和传输的信息及与威胁相关的勒索。信息安全领域，即应对这些真实而严重的威胁的对策研究，近年来发展迅速。该领域包含了一系列的技术，如密码学、计算机安全和欺诈检测，还包括如何有效管理信息安全的研究。\n伦敦大学皇家霍洛威学院信息安全理学硕士项目由业界安全专家和信息安全团队教授，旨在提供信息安全技术、法律和商业层面的综合型教学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "安全管理 (Security Management)\n密码学和安全机制简介 (Introduction to Cryptography and Security Mechanisms)\n项目 (Project)\n网络安全 (Network Security)\n计算机安全（操作系统） (Computer Security (Operating Systems))\n安全技术 (Security Technologies)\n安全业务架构 (Secure Business Architectures)\n信息安全的法律和法规方面 (Legal and Regulatory Aspects of Information Security)\n网络犯罪 (Cyber Crime)\n智能卡，RFID和嵌入式系统安全 (Smart Cards, RFIDs and Embedded Systems Security)\n软件安全性 (Software Security)\n数字取证 (Digital Forensics)\n安全测试 (Security Testing)\n网络安全 (Cyber Security)\n安全和隐私的人为方面 (Human Aspects of Security and Privacy)",
+  "success_cases": ""
+}

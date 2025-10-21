@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡科技设计大学",
+  "major_name": "科技与设计（集成电路设计、失效分析与可靠性分析）理学硕士",
+  "ename": "MSc Technology and Design (IC Design, Failure Analysis and Reliability)",
+  "tags": "工科,计算机,硕士项目",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 62130新币/年",
+  "requirements": "具有相关专业学士学位，有兴趣的候选人若拥有非相关专业的本科学位，可能会根据具体情况进行考虑；相关工作经验将被考虑录取",
+  "objectives": "新加坡科技设计大学科技与设计（集成电路设计、失效分析与可靠性分析）理学硕士项目旨在满足半导体行业对不仅拥有先进理论知识而且还拥有实践经验的熟练专业人员日益增长的需求。该课程旨在为学生提供半导体器件技术和架构、数字集成电路设计、半导体材料分析、器件和集成电路可靠性以及故障分析以提高产量等领域的全面知识和经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计创新 (Innovation by Design)\n半导体器件技术与设计：硅及其他 (Semiconductor Device Technology and Design: Silicon and Beyond)\n数字IC设计 (Digital IC Design)\n设计科学 (Design Science)\n半导体技术的材料和设计 (Materials and Design for Semiconductor Technology)\n先进 CMOS 器件的可靠性工程和故障分析 (Reliability Engineering and Failure Analysis of Advanced CMOS Devices)\nIC 生产的晶圆制造、缺陷表征和产量提高 (Wafer Fabrication, Defect Characterisations and Yield Enhancement for IC Production)\n半导体器件的先进故障分析技术 (Advanced Failure Analysis Techniques for Semiconductor Devices)",
+  "success_cases": ""
+}

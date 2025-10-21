@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "健康数据科学理学硕士",
+  "ename": "MSc Health Data Science",
+  "tags": "理科,数据科学,兰卡斯特医学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 10月\n项目时长: 1年\n项目学费: 30310英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要相关学科背景，包括：统计学、流行病学、计算机科学、经济学、生物医学科学、物理科学或类似背景\n学校也可能根据经验和优点考虑非标准申请者，需要联系项目主任获取信息",
+  "objectives": "兰卡斯特大学健康数据科学理学硕士课程将为学生提供先进的技术技能，使学生能够在健康和护理领域发展成为数据科学家。兰卡斯特大学健康数据科学理学硕士由最初的 4 个核心课程组成：“健康研究的统计方法和模型”、“健康数据科学编程”、“健康数据科学基础”和“应用流行病学概论”。这些课程使学生能够发展和巩固健康数据科学三个主要领域的基础技能：流行病学、统计学和计算机科学。完成这些课程后，学生将从两种方向择其一来学习：“全球健康”或“健康信息学”。“全球健康”方向进一步培养学生在统计科学方面的技能，重点是分析传染病的时空方法以及如何使用这些方法为卫生政策决策提供信息。 “健康信息学”方向的课程将重点培养学生在分析常规收集的健康数据和医疗保健经济评估方面的知识和统计技能。学生还将进行一个为期 12 周的项目，在我们的合作伙伴（包括世界卫生组织和国家卫生服务机构）单位进行实习。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用流行病学导论 (Introduction to applied epidemiology)\n传染病建模 (Modelling of infectious diseases)\n健康数据科学编程 (Programming for Health Data Science )\n健康研究的统计方法和模型 (Statistical methods and models for health research )\n医疗保健经济评估 (Economic evaluation in healthcare)\n处理定期收集的健康数据 (Handling routinely collected Health Data)\n纵向数据分析 (Longitudinal Data Analysis)\n缺失数据的方法 (Methods for Missing Data)\n用于公共卫生的基于模型的地统计 (Model-based geostatistical for public health)\n流行病学中的时间序列分析 (Time-series analysis in epidemiology)",
+  "success_cases": ""
+}

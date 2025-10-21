@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "大数据与文本分析理学硕士",
+  "ename": "MSc Big Data and Text Analytics",
+  "tags": "理科,数据科学,计算机科学与电子工程学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:1学位，本科背景涵盖以下一门或多门课程：数据库、Web开发、软件工程、操作系统、计算机架构、计算机系统以及以下一门或多门数学课程，如：数学、微积分、代数、微分方程、概率论与统计学以及以下一门或多门信号与系统课程，如：信号与系统、控制理论、计算机系统、嵌入式系统、微处理器、自动化与控制工程、控制技术、系统硬件基础、控制工程以及以下两门或多门编程课程：C、C#、C、Java、Python、MATLAB、面向对象编程/OOP、高级编程、编程入门、编程语言、软件工程、系统编程、算法、数据结构、编程元素",
+  "objectives": "我们的现代世界正在见证各种形式的在线数据的增长，包括网络文档、博客、社交网络、数字图书馆和医疗记录。这些数据大多包含有价值的信息，如社交网络中的新观点、搜索引擎的搜索趋势、消费者购买行为以及从这些巨大的数据来源中产生的模式。这些信息的绝对数量意味着传统的独立应用程序不再适合处理和分析这些数据。埃塞克斯大学大数据与文本分析理学硕士课程为学生提供了为这一迅速发展的领域做出贡献的知识，为其提供各种类型的大规模数据和信息处理的实践经验，扎实地理解基础技术，特别是云计算和高性能计算。学生还可以获得大规模处理文本数据的实用知识，以便将这些数据转换为有意义的信息，并有机会参与由行业合作伙伴提出的实际行业需求衍生的项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "理学硕士项目与学位论文 (MSc Project and Dissertation)\n信息检索 (Information Retrieval)\n团队项目 (Group Project)\n机器学习与数据挖掘 (Machine Learning and Data Mining)\n自然语言工程 (Natural Language Engineering)\n专业实践与研究方法 (Professional Practice and Research Methodology)\n文本分析 (Text Analytics)\n数据科学与决策 (Data Science and Decision Making)\n计算机安全 (Computer Security)\n创建与发展新企业 (Creating and Growing a New Business Venture)\n手机与社交应用程序编程 (Mobile and Social Application Programming)",
+  "success_cases": ""
+}

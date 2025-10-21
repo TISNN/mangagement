@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡科技设计大学",
+  "major_name": "科技与设计（数据科学）理学硕士",
+  "ename": "MSc Technology and Design (Data Science)",
+  "tags": "理科,数据科学,硕士项目",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 54500新币/年",
+  "requirements": "具有学士学位，要求工程、数学、经济学、统计学、计算机科学等相关学科或其他应用科学背景；应具备基本微积分、线性代数、概率和统计学知识。熟悉编程语言（Python 或 R）将大有裨益\n有兴趣的候选人若拥有非相关专业的本科学位，可能会根据具体情况进行考虑；相关工作经验将被考虑录取",
+  "objectives": "新加坡科技设计大学科技与设计（数据科学）理学硕士项目旨在使学生深入研究人工智能、机器学习、统计学习、优化和模拟方法领域。它可以让学生全面了解数据驱动的决策。学生还将学习复杂数据管理、使用数据进行通信的技能以及数据治理和道德的复杂性。设计核心模块的结合将为学生提供开发尖端技术解决方案所需的设计知识。在最终的设计项目中，学生将把自己的课程知识应用到特定的应用领域，例如航空、金融、物流、电信、运输等。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计创新 (Innovation by Design)\n数据、技术和设计 (Data, Technology and Design)\n数据科学的统计学习 (Statistical Learning for Data Science)\n设计科学 (Design Science)\n数据科学高级分析 (Advanced Analytics for Data Science)\n数据科学优化 (Optimisation for Data Science)\n数据驱动决策中的数字孪生 (Digital Twins in Data-Driven Decisions)\n设计项目 (Design Project)",
+  "success_cases": ""
+}

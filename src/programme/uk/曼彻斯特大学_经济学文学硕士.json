@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "经济学文学硕士",
+  "ename": "MA Economics",
+  "tags": "商科,经济,社会科学学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 32000英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要经济学、金融、数学或相关学科背景并取得高水平成绩，通常应该在微观经济和宏观经济理论的核心领域接受过良好培训（至少达到中级水平）并在数学和统计方面有很强的背景\n在评估申请者的学习成绩时，学校会考虑学生已取得的成绩和所就读院校的地位",
+  "objectives": "一些学生有意修读由微观经济学和宏观经济学原理的优质训练与应用经济学定量方法和研究相结合的学位课程，曼彻斯特大学经济学文学硕士学位课程就是为这些学生日益增长的需求而设。\n在曼彻斯特大学经济学文学硕士学位课程的学习中，学生将获得经济学、数理经济学相关方法及计量经济学研究的指导及严谨训练；培养询问、批判分析、逻辑思考能力以及把理论知识运用于当前经济学政策和实践议题中的能力；培养经济学领域的自主性、独立学习能力以及对分析和理论方法的认识，接触当前研究及在经济学应用研究中使用的最新工具；获取在微观经济学、宏观经济学、计量经济学、数理经济学方面的研究方法和核心技能训练，同时培养问题解决能力、书面及口头表达能力，沟通及陈述技巧；掌握在私营或公共组织中担任经济学家所需的智能仪器及实践技能；能够通过课程和论文在经济学及其他相关领域运用先进研究技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济学 (Microeconomics)\n宏观经济学 (Macroeconomics)\n计量经济学导论 (Introduction to Econometrics)\n进一步的计量经济学 (Further Econometrics)\n经济学家数学 (Mathematics for Economists)\n经济学定量方法导论 (Introduction to Quantitative Methods in Economics)\n硕士论文 (MA Dissertation)\n发展微观经济学 (Development Microeconomics)\n公共经济学 (Public Economics)\n欠发达国家的贫困，不平等与政府政策 (Poverty, Inequality and Government Policy in Less Developed Countries)\n非市场估值 (Non-Market Valuation)\n医疗经济学 (Healthcare Economics)\n应用经济学专题 (Topics in Applied Economics)\n政治经济学 (Political Economics)\n应用发展经济学项目（ADEP） (Applied Development Economics Project (ADEP))",
+  "success_cases": ""
+}

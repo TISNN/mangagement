@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "计算机科学理学硕士",
+  "ename": "MSc Computer Science",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 35340英镑/年",
+  "requirements": "具有一等荣誉学位或high 2:1本科学位，需要计算机科学、数学、统计学、物理学或其他相关以定量为重点的学位",
+  "objectives": "华威大学计算机科学理学硕士项目是为具有计算机科学、数学或物理科学经验的有技术头脑的毕业生设立的。该课程为尖端技术在工业中的应用提供了全面的准备，研究重点也使其成为研究职业的绝佳起点。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文项目 (Dissertation Project)\n研究方法 (Research Methods)\n计算基础 (Foundations of Computing)\n高性能计算 (High Performance Computing)\n算法博弈论 (Algorithmic Game Theory)\n正式系统开发 (Formal Systems Development)\n图像和视频分析 (Image and Video Analysis)\n计算生物学 (Computational Biology)\n数据挖掘 (Data Mining)\n数据分析基础 (Foundations of Data Analytics)\n传感器网络和移动数据通信 (Sensor Networks and Mobile Data Communications)\n高级计算机安全 (Advanced Computer Security)\n社会信息学 (Social Informatics)\n自然语言处理 (Natural Language Processing)",
+  "success_cases": ""
+}

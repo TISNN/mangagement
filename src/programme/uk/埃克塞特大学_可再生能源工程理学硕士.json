@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "可再生能源工程理学硕士",
+  "ename": "MSc Renewable Energy Engineering",
+  "tags": "工科,能源,工程、数学与物理科学学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 34920英镑/年",
+  "requirements": "通常要求具有2:2荣誉学位或同等学历，但学校将根据申请者自身情况单独考虑。只要申请者在与学习计划相关的课程中表现出色、拥有丰富的相关工作经验或具备专业资格，学校就会考虑所有申请",
+  "objectives": "如今，气候变化和日益减少的化石燃料储备是地球面临的两大挑战。\n为了确保我们自己和后代的未来，人们普遍认为，我们必须立即采取行动，减少能源消耗，转化可再生能源，并大幅减少温室气体（如二氧化碳）的排放。\n为此，埃克塞特大学可再生能源工程理学硕士项目将按照可再生能源行业的要求培养学生成为拥有多学科技能的可再生能源工程师，以进入基础设施的设计、建设和管理行业，引领发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "网络工程、建模与管理 (Network Engineering、Modelling and Management)\n可再生能源系统 (Renewable Energy Systems)\n研究项目 (Research Project)\n社会与技术创新 (Social and Technological Innovation)\n职业道德、能力和商业意识 (Professional Ethics、Competence and Commercial Awareness)\n气候变化主题 (Themes in Climate Change)\n生命周期分析 (Life Cycle Analysis)\n可持续建筑 (Sustainable Architecture)\n可再生能源系统计算工程 (Computational Engineering for Renewable Energy Systems)\n高级电气和电子工程 (Further Electrical and Electronics Engineering)\n高级海洋可再生能源 (Advanced Marine Renewable Energy)\n高级风能 (Advanced Wind Energy)\n太阳能研究与创新 (Solar Energy Research and Innovation)\n高级能源储备 (Advanced Energy Storage)\n低碳经济的能源政策 (Energy Policies for a Low Carbon Economy)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "商业管理硕士",
+  "ename": "Master of Business Management",
+  "tags": "商科,管理,埃塞克斯商学院",
+  "introduction": "专业方向: 管理\n入学时间: 1/10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:1学位或同等学历，不限专业背景",
+  "objectives": "埃塞克斯大学商业管理硕士是一门广泛的商业和应用管理硕士学位，旨在使学生在申请高薪管理职位时具有优势。学生将学习制定战略以满足绩效目标的方法，以及如何管理和分配资源以保持竞争优势。此外，学生还将探索在跨文化环境中有效地运营企业，并探索创建自己的创业企业的过程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "创建与管理新兴创业组织 (Creating and Managing the New and Entrepreneurial Organisation)\n管理经济学 (Managerial Economics)\n全球供应链与运营管理 (Global Supply Chain and Operations Management)\n财务分析与决策 (Financial Analysis and Decision Making)\n战略管理 (Strategic Management)\n全球化世界中的组织与领导力 (Organisation and Leadership in a Globalised World)\n国际营销原理 (Principles of International Marketing)\n研究方法 (Research Methods)\n论文 (Dissertation)\n创业理论与实践 (Theories and Practice of Entrepreneurship)\n国际商业与战略 (International Business and Strategy)\n创新管理 (Innovation Management)\n国际人力资源管理 (International Human Resource Management)",
+  "success_cases": ""
+}

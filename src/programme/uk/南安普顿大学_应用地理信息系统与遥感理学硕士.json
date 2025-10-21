@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "应用地理信息系统与遥感理学硕士",
+  "ename": "MSc Applied Geographical Information Systems and Remote Sensing",
+  "tags": "工科,地球科学,地理与环境科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30300英镑/年",
+  "requirements": "具有2:1学位，需要以下学科背景之一：地理学、物理学、测绘学、环境科学、生态学、生物学、地质学、工程学\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学应用地理信息系统与遥感理学硕士项目旨在使用地理数据解决实际问题。在该理学硕士课程中，学生将使用最新技术并开发关键编程和分析技术。学生将学习从环境咨询到政府研究的一系列职业中工作的技能。学生可以获得从卫星和雷达等遥感技术分析地理空间数据的知识和实用技能。学生将能够使用这些数据创建地理信息系统（GIS）。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地理信息系统的核心技能 (Core Skills in GIS)\n研究项目 (Research Project)\n技术和项目工作 (Skills and Project Work)\n地形数据分析技术与应用 (Topographic Data Analysis Techniques and Applications)\n遥感实用技巧 (Practical Skills in Remote Sensing)\n遥感地球观测 (Remote Sensing for Earth Observation)\n地理信息系统环境管理 (GIS for Environmental Management)\n水污染 (Water Pollution)\n地理信息系统的健康分析作用 (GIS for Analysis of Health)\n地理信息系统和空间分析编程 (Programming for GIS and Spatial Analyses)",
+  "success_cases": ""
+}

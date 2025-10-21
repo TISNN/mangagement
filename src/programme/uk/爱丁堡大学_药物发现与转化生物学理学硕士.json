@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "药物发现与转化生物学理学硕士",
+  "ename": "MSc Drug Discovery and Translational Biology",
+  "tags": "社科,药学,生物科学学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 1年\n项目学费: 43300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要生物化学、分子生物学、生物物理学或药理学背景\n学校也会考虑具备化学、药学、物理学、计算机科学或医学背景的申请者\n申请者的学位应该包括一些大学水平的化学课程",
+  "objectives": "药物开发性质的迅速转变意味着相关学科的知识，以及使用的技术，对于那些考虑从事商业或学术研究的人来说是至关重要的。 药物发现与转化生物学理学硕士将帮助学生探索最新的方法来发展用于人和动物的药物和治疗化合物的以及用于植物的疾病控制药剂。 学生将了解市场营销、许可和法规，这些都是开发过程的一部分。学校的多学科方法连接结构生物学、生物信息学、化学和药理学。 学生将研究药物发现和设计的基本科学问题和技术，以及新的治疗策略制定原则所面临的挑战，将具备晶体学计算机编程和生物信息学计算的实际操作经验，通过案例研究、研讨会和讨论，探讨农化和制药行业的道德和伦理问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分子模型与数据库挖掘 (Molecular Modelling and Database Mining)\n量化药物结合 (Quantitating Drug Binding)\n蛋白质结构测定 (Protein Structure Determination)\n结构生物学的制备方法 (Preparative Methods for Structural Biology)\n药物发现 (Drug Discovery)\n生物化学 A & B (Biochemistry A & B)\n生物信息学 1 & 2 (Bioinformatics 1 & 2)\n化学药物 (Chemical Medicine)\n功能基因组技术 (Functional Genomic Technologies)\n科学规划概论 (Introduction to Scientific Programming)\n生物信息学规划与系统管理 (Bioinformatics Programming & System Management)\n生物信息学算法 (Bioinformatics Algorithms)\n生物细胞信息处理 (Information Processing in Biological Cells)\n合成生物学工具 (Tools for Synthetic Biology)\n结构生物学实验的准备方法 (Preparative Methods for Structural Biology Laboratory Experience)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "数字人文哲学硕士",
+  "ename": "MPhil Digital Humanities",
+  "tags": "社科,文化,英语学院",
+  "introduction": "专业方向: 文化\n入学时间: 10月\n项目时长: 1年\n项目学费: 34254英镑/年",
+  "requirements": "申请者应该具有英国Good II.i荣誉学位或同等学历\n通常情况下申请者必须具备英国大学至少high II.i荣誉学位（均分达到67及以上）或同等学历\n需要提交1篇Covering letter、1篇Research proposal（500字）以及Sample of work（不超过5篇，约3000-5000字）",
+  "objectives": "剑桥大学数字人文哲学硕士课程旨在为学生提供数字化方法、工具、方法和批判性/理论导向的结构化参与形式。通过为广泛设想的跨人文领域的队列提供跨学科参与和新技能和知识的发展，扩大剑桥大学研究生水平的人文课程。通过人文/社会科学培训，培养学生的批判性素养、实践技能和知识，以理解和使用数字材料和数字方法来研究与人文相关的问题。该课程回应了人文学科应对数字时代形成的新兴形式、实践和社会形态的需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "方法与方向 (Methods and Orientations)\n关键技术实践 (Critical Technical Practice)\n全球数字人文 (Global Digital Humanities)\n远距离阅读 (Distant Reading)\n数字化的物质性 (Materialities of the Digital)\n视觉文化 (Visual Cultures)\n数字媒体形式 (Digital Forms)",
+  "success_cases": ""
+}

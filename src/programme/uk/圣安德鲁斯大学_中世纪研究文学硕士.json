@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "中世纪研究文学硕士",
+  "ename": "MLitt Medieval Studies",
+  "tags": "社科,历史,历史学院",
+  "introduction": "专业方向: 历史\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要一篇written work (2,000 words)",
+  "objectives": "圣安德鲁斯大学中世纪研究文学硕士项目课程使学生掌握历史、艺术史、神学、语言和文学领域的不同理论方法和当前辩论的知识。学生可以研究适合他们自己兴趣的主题，同时也可以扩展他们的视野，超越单一学科。该课程利用相关学科——艺术史、神学、英语、历史、现代语言和哲学——在中世纪研究中长期确立公认的优势。该课程让学生有机会与同事密切合作，涵盖从古代晚期到15世纪以及整个中世纪世界，从中东和地中海到不列颠群岛和斯堪的纳维亚半岛的广泛专业知识。该课程介绍历史、艺术史、语言和文学领域的不同理论方法、当前争论以及跨学科和跨学科工作的性质，为学生提供将手稿研究和古地理学培训与跨学科工作或单一学科模块相结合的机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "中世纪研究方法 1 (Approaches to Medieval Studies 1)\n中世纪研究方法 2 (Approaches to Medieval Studies 2)\n密码学与手稿研究的古文学导论（1&2） (An Introduction to Palaeography with Codicological and Manuscript Studies (1 and 2))\n核心语言和文本技能(希腊语、意大利语或阿拉伯语) (Core Language and Text Skills (Greek Italian or Arabic))\n中世纪研究指导阅读(1&2) (Directed Reading in Medieval Studies (1 and 2))\n学科技能 (Discipline Skills)\n中世纪研究拉丁语（1&2） (Latin for Medieval Studies (1 and 2))\n中世纪语言 (Medieval Language)\n来源与源本批判 (Sources and Source Criticism)",
+  "success_cases": ""
+}

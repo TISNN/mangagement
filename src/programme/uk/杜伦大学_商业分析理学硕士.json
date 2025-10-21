@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 35000英镑/年",
+  "requirements": "商业分析理学硕士课程专为具有商业背景（含有很强定量内容的证据）或技术背景（包括含有很强计算内容的计算科学学科）的毕业生设计\n申请者需要具有英国一等或2:1荣誉学位或国际同等学历，满足以下背景之一：\n- 商业\n- 计算机科学\n- 相关学科（含有很强的定量成分）",
+  "objectives": "杜伦大学商业分析理学硕士项目是为期一年的全日制项目，旨在为学生提供前沿的理论知识和实践训练，帮助学生掌握决策技术、大数据算法、机器学习和社交媒体分析所需的自然语言技术，提高学生对数据的敏感性和洞察力，从而使学生能够在组织中自如地发挥商业分析的作用，为未来的职业发展打下坚实的基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机科学导论 (Introduction to Computer Science)\n管理学概论 (Introduction to Management)\n实际数据分析 (Data Analytics in Action)\n从数据中学习 (Learning from Data)\n构建客户洞察力 (Building Customer Insights )\n自然语言分析 (Natural Language Analysis)\n零售科学 (Retail Science)\n用于战略决策的数据分析 (Data Analytics for Strategic Decision-Making)",
+  "success_cases": ""
+}

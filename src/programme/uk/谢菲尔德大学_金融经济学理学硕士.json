@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "金融经济学理学硕士",
+  "ename": "MSc Financial Economics",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 27670英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要经济学或满足课程要求的学科背景申请者应当学习过宏观经济学、微观经济学、数学、统计学或计量经济学课程",
+  "objectives": "谢菲尔德大学金融经济学理学硕士课程使学生能够专注于金融经济学和资产管理，同时让学生可以选择其他金融或经济模块。该课程将为学生在涉及股票市场的金融公司和政府机构的职业生涯做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济分析 (Microeconomic Analysis)\n宏观经济分析 (Macroeconomic Analysis)\n计量经济学方法 (Econometric Methods)\n现代金融学 (Modern Finance)\n资产定价 (Asset Pricing)\n应用微观计量经济学 (Applied Microeconometrics)\n应用宏观计量经济学 (Applied Macroeconometrics)\n发展金融学 (Development Finance)\n国际贸易 (International Trade)\n国际货币与金融 (International Money and Finance)\n产业组织 (Industrial Organisation)\n货币经济学 (Monetary Economics)\n公共经济学 (Public Economics)\n公共政策评估 (Public Policy Evaluation)",
+  "success_cases": ""
+}

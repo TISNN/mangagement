@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "会计、金融与财务分析理学硕士",
+  "ename": "MSc Accounting, Finance and Financial Analysis",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 1年\n项目学费: 29900英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景，还需要具有相当于英国GCSE水平的良好基础计算能力",
+  "objectives": "纽卡斯尔大学会计、金融与财务分析理学硕士项目将促进学生深入理解国际金融环境中的财务报表与财务管理。纽卡斯尔大学会计、金融与财务分析理学硕士项目将引导学生以企业战略、会计与估价为主对个别企业进行分析。\n全球经济危机、备受瞩目的银行倒闭问题以及增强的管制体系都凸显了健全财务管理与报告的重要性，而纽卡斯尔大学会计、金融与财务分析理学硕士项目正是为满足此需求而量身设计。\n纽卡斯尔大学会计、金融与财务分析理学硕士项目旨在培养学生掌握定量与定性分析技能，学生将理解如何将会计与金融专业知识有机结合从而进行企业绩效评估与估价。\n在纽卡斯尔大学会计、金融与财务分析理学硕士项目中，学生将根据数据流和其他来源的实际数据开展实践性研究，并在此基础上掌握金融与统计软件的操作技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际金融和资本市场 (International Finance and Capital Markets)\n数据分析技术 (Techniques for Data Analysis)\n财务信息分析 (Financial Information Analysis)\n企业战略与估值 (Corporate Strategy and Valuation)\n会计分析 (Accounting for Analysts)",
+  "success_cases": ""
+}

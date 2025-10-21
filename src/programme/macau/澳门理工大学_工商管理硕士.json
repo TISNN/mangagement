@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门理工大学",
+  "major_name": "工商管理硕士",
+  "ename": "Master of Business Administration",
+  "tags": "商科,工商管理,管理科学学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 8月\n项目时长: 2年\n项目学费: 85000澳门币/年",
+  "requirements": "具有学士学位或同等学历；及\n于报名期结束前具备2年或以上全职工作经验（实习和兼职不作计算）；或\n正修读上述学历课程最后一年，并且具备2年或以上全职工作经验。\n其他所需文件：\n- 工作经验证明（报名期结束前具2年或以上全职工作经验），实习和兼职不作计算，只接受工作实体发出的全职工作证明）\n- 英文能力证明（如有）",
+  "objectives": "本课程旨在培养博彩及娱乐业界所需的卓越领袖及管理人才。课程以博彩管理为核心、有效提升学生管理与领导能力为目标，深入探讨博彩企业在战略管理、营销管理、服务质量管理等方面的议题；培养学生在复杂、多变的商业环境中，应对各种挑战与机遇并作出专业判断的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "博彩企业营销管理 (Marketing Management in Gaming Enterprises)\n财务管理 (Financial Management)\n管理学研究方法 (Research Methodology in Management)\n博彩企业战略管理 (Strategic Management in Gaming Enterprises)\n人力资源管理 (Human Resources Management)\n管理信息系统与科技 (Management Information System and Technologies)\n博彩企业营运管理 (Operations Management in Gaming Enterprises)\n博彩企业服务质量管理 (Service Quality Management in Gaming Enterprises)\n博彩法律与监管制度 (Gaming Law and Regulation)\n博彩伦理、文化与社会议题 (Ethical, Cultural and Social Issues in Gaming Industry)\n博彩企业风险管理 (Risk Management in Gaming Enterprises)\n管理经济学 (Managerial Economics)\n论文 (Thesis)",
+  "success_cases": ""
+}

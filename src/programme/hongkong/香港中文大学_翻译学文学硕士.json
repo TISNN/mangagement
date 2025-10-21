@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "翻译学文学硕士",
+  "ename": "MA Translation",
+  "tags": "社科,语言,文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 148000港币/年",
+  "requirements": "需要提供B等级证明，毕业于受认可的大学并获得学士学位，或在高等教育机构完成学习课程并获得相当于学士学位的专业或类似资格",
+  "objectives": "香港中文大学翻译学文学硕士学位课程创立于1984年，是香港第一个翻译学硕士学位课程。翻译学文学硕士学位课程是一年全日制项目，旨在加强学生的笔译及口译的专业翻译能力，深化理论知识，提升实践能力，以及促进老师与学生之间的沟通互动。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级翻译研究 (Advanced Translation Studies)\n英译中工作坊 (E-C Translation Workshop)\n中译英工作坊 (C-E Translation Workshop)\n高级商务翻译 (Advanced Business Translation)\n财经翻译 (Financial Translation)\n法律文书翻译 (Translation of Legal Writings)\n政府及公共事务翻译 (Government & Public Affairs Translation)\n新闻翻译 (Journalistic Translation)\n公关文翻译 (Translation of Public Relations Writings)\n大众媒体翻译 (Mass Media Translation)\n字幕翻译 (Translation of Subtitles)\n科技翻译 (Science and Technology Translation)\n文学翻译 (Literary Translation)\n艺术作品翻译 (Arts Translation)\n翻译著作精读 (Readings in Translated Works)",
+  "success_cases": ""
+}

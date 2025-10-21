@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "货币、银行与金融理学硕士",
+  "ename": "MSc Money, Banking and Finance",
+  "tags": "商科,金融,经济学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要经济学或满足课程要求的学科背景申请者应当学习过宏观经济学、微观经济学、数学、统计学或计量经济学课程",
+  "objectives": "谢菲尔德大学经济学院致力于为政府部门与组织提供专业性的建议，如国际劳工组织、世界银行与联合国教科文组织等。\n谢菲尔德大学经济学院经专注于应用经济学与计量经济学领域的研究，内容涉及劳动经济学研究、国际金融、卫生济学、教育与发展。\n谢菲尔德大学货币、银行与金融理学硕士课程探索金融、银行和货币经济学以及经济理论的专业模块。学生将学习金融、银行和货币经济学方面的专业模块，并学习核心经济理论。本课程为学生在银行、金融机构和市场的职业生涯做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "宏观经济分析 (Macroeconomic Analysis)\n计量经济方法 (Econometric Methods)\n银行业与金融学现代理论 (Modern Theory of Banking and Finance)\n现代金融学 (Modern Finance)\n国际货币与金融 (International Money and Finance)\n资产定价 (Asset Pricing)\n应用微观计量经济学 (Applied Microeconometrics)\n应用宏观计量经济学 (Applied Macroeconometrics)\n国际贸易 (International Trade)\n发展金融学 (Development Finance)\n高级数理经济 (Advanced Mathematical Economics)\n产业组织 (Industrial Organisation)\n货币经济学 (Monetary Economics)\n公共经济学 (Public Economics)\n公共政策评估 (Public Policy Evaluation)",
+  "success_cases": ""
+}

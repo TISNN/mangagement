@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "生物医学工程理学硕士",
+  "ename": "MSc Biomedical Engineering",
+  "tags": "工科,生物工程,理工学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 27900英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要生物医学、电气、电子、机械工程、物理学或数学背景，或者有适当的专业经验",
+  "objectives": "邓迪大学生物医学工程理学硕士项目为全日制项目，带领学生学习生物医学工程原理与前沿技术，以内外科高级仪器的运用为重点。通过学习课程，学生将接触到内外科尖端技术，同时探究案例，了解创业、商业发展与知识产权在生物医药行业的作用。学生可根据个人兴趣选择研究领域，提高表达能力、培养批判性思维以及解决问题能力。项目课题将在第一学期对学生公布。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物医学工程(文凭) (Biomedical Engineering Project (Diploma))\n生物医学工程 (Biomedical Engineering Project)\n先进的医疗和外科技术 (Advanced Medical and Surgical Technologies)\n生物医学仪器 (Biomedical Instrumentation)\n生物材料 (Biomaterials)\n生物力学系统 (Biomechanical Systems)\n医学科学导论:解剖学 (Introduction to Medical Sciences: Anatomy)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "信息系统管理理学硕士",
+  "ename": "MSc Information Systems Management",
+  "tags": "商科,信息系统,商学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 336000港币/年",
+  "requirements": "具有大学或认可机构颁发的良好学士学位，学术成绩优秀\n不要求具备工作经验但有相关工作经验者优先考虑\n强烈建议提交GMAT/GRE（不强制要求，但成绩优秀者将优先考虑）",
+  "objectives": "香港科技大学信息系统管理学硕士课程的开设是为了满足对中高级信息系统专业人员迅速增长的需求。该项目提供管理培训，使商业和非商业学生能够利用技术和信息系统来开发创新的商业解决方案。学生将在该领域一些领先的教授手下学习，涵盖从区块链和大数据到IT战略和政策的主题。在课堂之外，学生还将有机会参加丰富的讲座，并与商业专业人士建立联系，以招募新一代的人才。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "信息策略与管理 (Information Strategy and Management)\n计算机和网络安全管理 (Computer and Internet Security Management)\n电子商务 (Electronic Commerce)\n项目管理 (Project Management)\n技术与创新管理 (Technology and Innovation Management)\n运营管理 (Operations Management )\n应用网络管理 (Applied Network Management)\n数据库管理基础 (Fundamentals of Database Management)\n信息系统开发方法 (Information Systems Development Methodologies  )\n商业模拟和战略决策 (Business Simulation and Strategic Decisions)\n外包管理 (Outsourcing Management)\n战略信息基础设施 (Strategic Information Infrastructure)\n创新和知识产权法律 (Innovation and Intellectual Property Law)\n大数据分析 (Big Data Analytics)\nERP和企业系统管理 (ERP and Enterprise Systems Management)",
+  "success_cases": ""
+}

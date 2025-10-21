@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "统计学理学硕士",
+  "ename": "MSc Statistics",
+  "tags": "理科,数学,数学与统计学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，通常包含大量的数学组成部分（至少相当于格拉斯哥大学数学Level-1课程和微积分和线性代数Level-2课程），在大学水平数学中至少有20%的学分课程，平均成绩为及格\n本课程不适用于已获得格拉斯哥大学统计学本科学位的应届毕业生",
+  "objectives": "格拉斯哥大学统计学理学硕士项目全面教授统计学原理、理论和实践技能。格拉斯哥大学统计研究组以其卓越的研究成果闻名于世，教师团队与实务界及非政府组织（如NHS和SEPA）长期保持密切的合作关系，具体专业范围包括：生物统计和统计遗传学、环境统计学、统计方法学、统计建模及统计学中的教学，这些老师除了常规授课外，还以各种多样化的研讨会向学生传授知识。学生在运用统计技能解决现实生活中的问题之前，需深入学习统计方法，掌握专业统计学家所需的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "贝叶斯统计 (Bayesian statistics)\n数据分析技能 (Data analysis skills )\n广义线性模型 (Generalised linear models )\nR程序设计简介 (Introduction to r programming )\n概率论 (Probability )\n回归模型 (Regression models )\n统计推断 (Statistical inference )\n统计项目与论文 (Statistics project and dissertation)\nSAS下的生物统计学数据管理与分析 (Biostatistics data management and analytics using sas )\n实验设计 (Design of experiments )\n环境统计 (Environmental statistics )",
+  "success_cases": ""
+}

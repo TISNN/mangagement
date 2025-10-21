@@ -1,0 +1,12 @@
+{
+  "school_name": "圣路易斯华盛顿大学",
+  "major_name": "生物统计学硕士",
+  "ename": "MS in Biostatistics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n入学时间: 夏季/秋季\n项目时长: 18个月\n项目学费: 59430美元",
+  "requirements": "入学通常需要至少一个定量领域的本科专业（理想情况下是数学、统计学、生物统计学、计算机科学或生物医学工程）,必修课：Calculus I, II, Elementary Probability and Statistics OR Intro to Statistics, Computer Programming. 建议修：Linear Algebra, Data Structures and Algorithms, Calculus III, Intro to Biology and Genetics",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

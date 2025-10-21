@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "物理学理学硕士",
+  "ename": "MSc Physics",
+  "tags": "理科,物理,理学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 190000港币/年",
+  "requirements": "具有学士学位或同等学历，需要相关理科背景（如物理学、天文学、地球科学、数学）或工程学科背景\n具备大学水平的电磁学、量子力学和热力学、大学水平的线性代数和多变量微积分、基础统计学知识，以及一些计算机编程经验（如使用c、Mathematica、Matlab或Python编写代码）",
+  "objectives": "香港大学物理学理学硕士课程旨在进一步为大学毕业生提供物理或相关背景以适应各种职业道路并应对不断变化的挑战。课程强调平衡和灵活的方法，为学生提供了通过教授课程和顶点研究项目学习理论、计算和实验物理方面的广泛高级主题的机会。通过在天文学、凝聚态物理、器件和纳米物理、光子学和量子信息科学等选择性学科领域进行系统的研究生培训，学生可以加深和拓宽对物理学的理解，并获得可用于基础研究和职业前景的可转移技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "物理科学基本研究方法 (Basic research methods in physical science)\n物理研讨会 (Physics seminar)\n计算物理学及其当代应用 (Computational physics and its contemporary applications)\n量子力学 (Graduate quantum mechanics)\n电磁场理论 (Graduate electromagnetic field theory)\n统计力学 (Graduate statistical mechanics)\n物理实验技术 (Physics experimental techniques)\n量子信息 (Quantum information)\n固态物理学专题 (Topics in solid state physics)\n凝聚态物理学 (Condensed matter physics)\n广义相对论 (General relativity)\n天体物理学专题 (Topics in astrophysics)\n纳米物理学 (Nanophysics)\n器件物理学 (Device physics)\n粒子物理学专题 (Topics in particle physics)",
+  "success_cases": ""
+}

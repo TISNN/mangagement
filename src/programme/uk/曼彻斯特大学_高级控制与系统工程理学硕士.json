@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "高级控制与系统工程理学硕士",
+  "ename": "MSc Advanced Control and Systems Engineering",
+  "tags": "工科,电气电子,电气与电子工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "要求具有good 2:1荣誉学位或同等学历，需要电气与电子工程学科背景，鼓励其他工程和科学学科背景的学生申请，需要能够证明在数学和其他合适学科（如动力学、信号和系统或经典控制）方面的实力\n在评估申请者的学习成绩时，学校会考虑其平均成绩（尤其相关课程单元）和所就读院校的地位\n申请者如果是在读生，需要提供最后一年学习的所有课程的正式列表",
+  "objectives": "控制工程是跨学科项目，涵盖了产业中的广泛应用。曼彻斯特大学电子电气工程学院的控制系统团队最初于1968年开设了高级控制与系统工程理学硕士项目，适合来自广泛科学工程学科背景的学生。\n曼彻斯特大学高级控制与系统工程理学硕士项目旨在：\n提供控制和系统工程的先进教育，强调现代理论发展及其实际应用\n使学生对控制系统运行的基本原理产生基本认识\n使学生能够在产业各个领域应用现代控制原理\n曼彻斯特大学高级控制与系统工程理学硕士项目的重点在于通过实验室训练和软件包的使用，使学生提升实用和适应性技能。通过曼彻斯特大学高级控制与系统工程理学硕士项目，学生可获得一系列知识技能，包括控制系统的设计、分析和仿真。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n控制基础 (Control Fundamentals)\n状态空间和多变量控制 (State-Space and Multivariable Control)\n数字控制与系统识别 (Digital Control & System Identification)\n非线性和自适应控制系统 (Nonlinear and Adaptive Control Systems)\n过程控制与模型预测控制 (Process Control & Model Predictive Control)\n最佳和鲁棒的控制 (Optimal & Robust Control)\n机器人与自主系统 (Robotics & Autonomous Systems)\n应用控制 (Applied Control)",
+  "success_cases": ""
+}

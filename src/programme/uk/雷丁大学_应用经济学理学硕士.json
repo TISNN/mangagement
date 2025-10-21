@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "应用经济学理学硕士",
+  "ename": "MSc Applied Economics",
+  "tags": "商科,经济,经济系",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 25850英镑/年",
+  "requirements": "具有2:2或以上荣誉学位，需要数学、定量或商业相关学科背景要申请这门课程，申请者必须拥有数学、定量或商业相关学科的本科学位，如经济学、工商管理、金融学、会计学、国际贸易、银行、财务管理、公共财政、数学、计算机科学、数据科学、地理学校欢迎在相关领域有丰富工作经验的申请者申请",
+  "objectives": "雷丁大学应用经济学理学硕士项目由曾在英国政府经济服务局和世界银行担任专业经济学家的学者设计，基于学科核心领域的严格培训，结合了理论、方法和实践问题，将为学生提供在政府、国际组织或企业工作所需的工具，或为进一步研究经济学做准备。学生将了解经济数据分析的核心主题和方法，同时使用统计软件培养数据处理技能，并学习批判性地评估旨在解决社会经济问题的政策。雷丁大学应用经济学理学硕士项目的课程教学生如何将心理学的见解应用于一系列现代政策问题。学生将使用设计实验研究、编写交互式游戏以及使用统计和计量经济学软件所需的实用工具。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用经济项目 (Applied Economic Project)\n微观经济政策 (Microeconomic Policy)\n宏观经济政策 (Macroeconomic Policy)\n经济数据分析 (Economic Data Analysis)\n应用行为经济学 (Applied Behavioural Economics)\n经济评价与评价方法 (Economic Appraisal and Evaluation Methods)\n计量经济学分析导论 (Introduction to Econometric Analysis)\n计量经济学 II (Econometrics II)\n商业经济学专题 (Topics in Business Economics)\n金融市场经济学 (The Economics of Financial Markets)\n发展经济学 (Development Economics)\n社会政策经济学 (Economics of Social Policy)\n顶点项目 (Capstone Project)",
+  "success_cases": ""
+}

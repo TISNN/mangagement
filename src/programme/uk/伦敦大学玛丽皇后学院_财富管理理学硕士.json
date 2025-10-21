@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "财富管理理学硕士",
+  "ename": "MSc Wealth Management",
+  "tags": "商科,金融,经济与金融学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有本科2:2学位或以上学历，学科背景不限",
+  "objectives": "伦敦大学玛丽皇后学院财富管理理学硕士学位课程专为学生在主要财务权益领域提供实践和理论训练，尤其是投资管理和公司金融领域；同时也如其他顶尖学校的硕士学位课程一样，学生将免试获得英国注册证劵与投资协会的文凭。\n伦敦大学玛丽皇后学院财富管理理学硕士学位课程面向有意在金融和其他相关领域就业的学生和专业人士。在伦敦大学玛丽皇后学院财富管理理学硕士学位课程的学习中，学生将通过经济、金融理论和实践，获取关于金融市场如何运行的独特见解。课程包括最优资本结构、兼并与收购、投资组合管理、风险管理、衍生产品和金融微观结构。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用公司金融 (Applied Corporate Finance)\n投资管理 (Investment Management)\n商业和投资银行 (Commercial and Investment Banking)\n金融定量方法 (Quantitative Methods in Finance)\n应用财富管理 (Applied Wealth Management)\n私募股权和风险投资 (Private Equity and Venture Capital)\n实际估价 (Practical Valuation)\n并购 (Mergers and Acquisitions)\n实证金融学 (Empirical Finance)",
+  "success_cases": ""
+}

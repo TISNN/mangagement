@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "公共卫生学硕士",
+  "ename": "Master of Public Health",
+  "tags": "社科,公共卫生,医学与牙科科学学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 31390英镑/年",
+  "requirements": "具有2:1荣誉学位，需要公共卫生相关学科背景（包括大多数生物科学）",
+  "objectives": "伯明翰大学公共卫生学硕士项目包含多种模块，涉及多个学科，专门为目前在公共卫生领域工作或以此为目标的专业人员提供学术培训。除了执业临床医生外，伯明翰大学公共卫生学硕士项目也适合从事（或考虑从事）卫生服务高级管理的人士。该行业与人口健康息息相关，包括流行病学、统计学、健康经济学和卫生服务管理。该项目为模块化项目，学生可以根据自身需求选修相应课程。此外，伯明翰大学公共卫生学硕士项目强调实用主义和进取精神，同时也注重罗素大学集团所提倡的严谨、纪律和高标准。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "流行病学统计与研究方法 (Epidemiology Statistics and Research Methods)\n实用流行病学与统计学 (Practical Epidemiology and Statistics)\n健康信息与健康信息学 (Health Information and Health Informatics)\n卫生技术评价原则 (Principles of Health Technology Assessment)\n卫生经济学 (Health Economics)\n卫生领导与管理概论 (Introduction to Leadership and Management in Health)\n卫生保健评估和调试 (Health Care Evaluation and Commissioning)\n健康保护1 (Health Protection 1)\n社会学与社会政策 (Sociology and Social Policy)\n健康促进 (Health Promotion)\n全球健康 (Global Health)",
+  "success_cases": ""
+}

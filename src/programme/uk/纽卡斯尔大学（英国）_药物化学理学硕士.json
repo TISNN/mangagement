@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "药物化学理学硕士",
+  "ename": "MSc Drug Chemistry",
+  "tags": "社科,药学,自然与环境科学学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31700英镑/年",
+  "requirements": "具有2:2理学荣誉学士学位或国际同等学历，需要化学背景（或密切相关背景，如应用化学）\n或在包含大量有机和药物化学元素相关课程中获得2:1荣誉学位或同等学历，如：药学，药理学，制药科学，医学，生物医学科学申请者需通过面试",
+  "objectives": "纽卡斯尔大学药物化学理学硕士项目旨在教授学生现代有机和药物化学相关的新型药物的概念以及生产的知识和技能，并使学生了解和体验现代小分子药物是如何发展的。在学生进行个人研究项目的过程中，还将获得与医药化学团队共同工作的实践经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究项目与论文 (Research Project and Dissertation)\n研究准备与发展 (Research Preparation and Development)\n药品的有机合成 (Organic Synthesis for Drug Targets)\n药物发现的现代方法 (Modern Methods in Drug Discovery)\n药物代谢与毒性分析 (Drug Metabolism and Toxicology)\n化学疗法的理论与实践 (Theory and Practice of Chemotherapy )\n药物化学的方法与技巧 (Methods and Techniques for Drug Chemistry)\n作为药物靶点的蛋白质：结构、功能与分子模型 (Proteins as Drugs Targets: structure、function、and molecular modelling)\n活性天然产物 (Bioactive Natural Products)\n分子模拟与计算机辅助药物设计 (Molecular Simulations and Computer-aided Drug Design (CADD))\n科学与工程论文写作 (Writing Dissertations in Science and Engineering)",
+  "success_cases": ""
+}

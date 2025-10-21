@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,商学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 28750英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要经济学背景，需要具备定量学科的扎实基础并在此类课程中取得优秀成绩",
+  "objectives": "利兹大学经济学理学硕士学位课程使学生在多学科学习环境下运用经济学知识解决实际问题。\n利兹大学经济学理学硕士学位课程受经济和社会研究委员会认可，由商学院开设，注重高级经济学和计量经济学及学科的尖端研究。\n在利兹大学经济学理学硕士学位课程的学习中，学生将从一系列不同角度批判性看待当今主流理论和应用技术；将能满足当今世界对经济学不断增长的需求，以此来解决全球金融危机余波中的现实问题。\n通过利兹大学经济学理学硕士学位课程的学习，学生将从公司和市场微观经济到全球经济宏观经济层面深入独特地了解紧迫经济议题。学生还可以根据自己的兴趣或职业规划选择丰富的选修课程，从比较经济学到运输监管经济学，从健康经济学原理到公司金融，应有尽有。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "宏观经济学1 (Macroeconomics 1)\n微观经济学1 (Microeconomics 1)\n应用计量经济学 (Applied Econometrics)\n计量经济学 (Econometrics)\n经济学论文 (Economics Dissertation)\n国际商业金融 (International Business Finance)\n全球化经济学与国际经济 (Economics of Globalisation and the International Economy)\n全球经济协调与治理 (Global Economic Coordination and Governance)\n行为经济学 (Behavioural Economics)\n生态经济学导论 (Introduction to Ecological Economics)\n运输经济学原理 (Principles of Transport Economics)",
+  "success_cases": ""
+}

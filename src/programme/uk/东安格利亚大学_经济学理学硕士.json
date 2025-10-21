@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 22700英镑/年",
+  "requirements": "具有英国2:1学士学位或同等学历，需要经济学专业背景",
+  "objectives": "东安格利亚大学经济学理学硕士学位课程涵盖广泛的研究训练，使学生培养理论和定量技能。在东安格利亚大学经济学理学硕士学位课程的学习中，学生将学习经济学理论与计量经济学的必修课程，并根据个人职业规划选择包含国际金融、环境经济学、数学、微观及宏观经济学在内的系列选修课程。\n东安格利亚大学经济学理学硕士学位课程适合有志于在政府、金融机构、企业、商业、工业、国际机构及其他类似组织中担任经济学专家职位的学生，也面向有意攻读博士学位及（或）担任经济学讲师并从事学术工作的人士。东安格利亚大学经济学理学博士学位的诸多毕业生目前在英国及海外高校院系担任学术职位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计量经济学理论 (Econometric Theory)\n经济学理论1 (Economic Theory I)\n经济学理论2 (Economic Theory II)\n应用计量经济学 (Applied Econometrics)\n论文 (Dissertation)\n金融学 (Finance)\n金融数学 (Financial Mathematics)\n行为和实验经济学1 (Behavioural and Experimental Economics I)\n行为和实验经济学2 (Behavioural and Experimental Economics II)\n宏观经济学发展 (Macroeconomics of Development)\n微观经济学发展 (Microeconomics of Development)\n环境和自然资源经济学 (Environmental and Natural Resource Economics)\n国际金融 (International Finance)\n金融市场 (Financial Markets)",
+  "success_cases": ""
+}

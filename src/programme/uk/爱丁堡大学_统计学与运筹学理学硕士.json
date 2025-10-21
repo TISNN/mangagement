@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "统计学与运筹学理学硕士",
+  "ename": "MSc Statistics and Operational Research",
+  "tags": "理科,数学,数学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有英国2:1学位或同等学历，需要数学学科背景如数学、工程学、计算机科学、物理或生物科学、经济学或商学\n学位必须包含大量的数学内容，包括微积分（包括多变量微积分）、线性代数、概率论、统计学和统计理论",
+  "objectives": "爱丁堡大学统计学与运筹学理学硕士项目注重理论与实践相结合，为学生将来的学术研究或实务工作打下坚实的学科基础，学生需掌握统计学与运筹学技术识别能力，将其应用到实务中解决实际问题，并通过统计和仿真软件包R来强化自己的其他技能。学生毕业后可以从事医疗健康、政府、金融等其他广泛采用现代统计工具和技术的行业工作。此外，学校还注重培养学生的问题解决能力、团队合作能力、时间管理能力等专业技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "贝叶斯理论 (Bayesian Theory)\n运筹学基础 (Fundamentals of Operational Research)\n优化基础 (Fundamentals of Optimization)\n普通回归模型 (Generalised Regression Models)\n方法论、建模与咨询技巧 (Methodology, Modelling and Consulting Skills)\n模拟 (Simulation)\n统计编程 (Statistical Programming)\n统计研究技能 (Statistical Research Skills)\n生存数据分析 (The Analysis of Survival Data)\n贝叶斯数据分析 (Bayesian Data Analysis)\n生物医学数据科学 (Biomedical Data Science)\n信用评分 (Credit Scoring)\n遗传流行病学 (Genetic Epidemiology)\n不完全数据分析 (Incomplete Data Analysis)\n整数与组合优化 (Integer and Combinatorial Optimization)",
+  "success_cases": ""
+}

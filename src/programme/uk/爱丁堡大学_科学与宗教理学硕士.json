@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "科学与宗教理学硕士",
+  "ename": "MSc Science and Religion",
+  "tags": "社科,其他社科,神学院",
+  "introduction": "专业方向: 其他社科\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要核心自然科学学科（如物理学、化学或生物学）或与科学-宗教对话相关的人文学科（如神学/宗教研究、哲学或历史学）背景，至少达到美国3.25 GPA或同等水平",
+  "objectives": "爱丁堡大学科学与宗教理学硕士项目面向希望从事科学和宗教高级跨学科研究的学生，包括那些希望为博士学位工作做准备的学生。这是世界上为数不多的科学和宗教项目之一。爱丁堡大学科学与宗教理学硕士项目旨在使学生深入了解并参与辩论，从科学、哲学、历史、伦理和神学的角度来看待它。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "基督教传统中的科学与宗教史 (History of Science and Religion in the Christian Tradition)\n宇宙、细胞和造物主：当前科学与宗教的争论 (Cosmos, Cell and Creator: Current Debates in Science and Religion)\n科学和宗教领域的主要思想家 (Key Thinkers in Science and Religion)\n心灵、物质和精神 (Mind, Matter and Spirit)\n时间哲学 (Philosophy of Time)\n科学哲学：当代辩论 (Philosophy of Science: Contemporary Debates)\n文学中的科学与宗教 (Science and Religion in Literature)\n科学与圣经 (Science and Scripture)\n神学、生态学和气候变化 (Theology, Ecology and Climate Change)\n神学、伦理与技术 (Theology, Ethics and Technology)",
+  "success_cases": ""
+}

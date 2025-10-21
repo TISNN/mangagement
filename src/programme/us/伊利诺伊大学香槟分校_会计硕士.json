@@ -1,0 +1,12 @@
+{
+  "school_name": "伊利诺伊大学香槟分校",
+  "major_name": "会计硕士",
+  "ename": "Master of Science in Accountancy",
+  "tags": "商科,会计",
+  "introduction": "专业方向: 会计\n项目类别: STEM\n入学时间: 夏季/秋季\n项目时长: 32学分\n项目学费: 48945美元\n就业比例: 100%",
+  "requirements": "要求学生在入学前完成一门或两门会计原理课程以及一门商业管理课程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

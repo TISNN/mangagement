@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "警务理学硕士",
+  "ename": "MSc Policing",
+  "tags": "社科,法律,工程科学学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有英国大学颁发的2:2学士学位或同等学历，需要相关学科背景（如犯罪学、心理学、社会学、法律、地理学或硬科学），具有至少5年相关专业经验的申请者也符合资格，特殊情况下可能会考虑不符合这些要求的学生",
+  "objectives": "伦敦大学学院警务理学硕士项目的目标人群是希望成为未来领导人和管理者的警察和相关机构(如国家犯罪局)的专业人员。重点是提供循证方法，以应对警务工作在不同社区所面临的现代挑战，以及应对跨国有组织犯罪、恐怖主义、网络犯罪和不断演变的安全威胁，同时坚持程序正义原则，以提高警务的正当性和公众信心。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "符合道德的警务 (Ethical Policing)\n安全与犯罪科学基础 (Foundations of Security and Crime Science)\n减少犯罪的警务模式 (Models of Policing for Crime Reduction)\n警察与公众 (Police and the Public)\n定量方法或设计和做研究 (Quantitative Methods or Designing and Doing Research)\n网络犯罪 (Cybercrime)\n视界扫描与犯罪性质的变化 (Horizon Scanning and the Changing Nature of Crime)\n情报收集与分析 (Intelligence Gathering and Analysis)\n网络安全概论 (Introduction to Cybersecurity)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "金融学硕士（投资管理）",
+  "ename": "Master of Finance (Investment Management)",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 367200港币/年",
+  "requirements": "具有认可大学颁发的学士学位或同等学历\n欢迎没有或具有很少工作经验的申请者申请",
+  "objectives": "香港理工大学金融学硕士（投资管理）课程旨在为打算专注于投资管理的本科毕业生，尤其是那些缺乏工作经验的毕业生，提供兼具金融学概念与最新行业专有知识的课程教学。此外，香港理工大学金融学硕士（投资管理）课程将帮助学生们应对特许金融分析师资格考试。\n完成香港理工大学金融学硕士（投资管理）课程之时，毕业生们将有能力：应用会计学、风险管理、经济学、定量方法与规律方面的概念框架，进行投资分析与公司财务问题分析；解决现实情况中出现的资产管理和公司财务问题；制定金融策略。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业分析会计 (Accounting for Business Analysis)\n财务分析经济学 (Economics for Financial Analysis)\n投资学 (Investments)\n公司财务基本原理 (Principles of Corporate Finance)\n金融计量方法 (Quantitative Methods for Finance)\n规章制度 (Regulatory Framework)\n衍生证券 (Derivatives Securities)\n财务分析与评估 (Financial Analysis & Valuation)\n固定收益证券 (Fixed Income Securities)\n博弈论与商业策略 (Game Theory & Business Strategy)\n投资银行学与信用评级 (Investment Banking & Credit Rating)\n证券分析与资产组合管理 (Security Analysis & Portfolio Management)\n研究项目 (Project)\n财务策略 (Finance & Strategy )\n国际财务管理 (International Financial Management)",
+  "success_cases": ""
+}

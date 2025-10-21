@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "传感器与成像系统理学硕士（格拉斯哥大学-爱丁堡大学联合开设）",
+  "ename": "Joint MSc Sensor and Imaging Systems (Glasgow-Edinburgh)",
+  "tags": "工科,电气电子,物理与天文学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 31800英镑/年",
+  "requirements": "具有2:1荣誉学位，需要物理科学、电子与电气工程或相关学科背景，其中电磁学、固体物理和热力学的平均成绩为及格\n学校也接受计算机、生物或医学科学的2:1荣誉学位。对于物理，电子和电气工程的2:2荣誉学位，如果有大量相关经验，可以考虑，并根据具体情况进行评估\n需要具备以下先决条件经验\n1. 该学位核心课程需要具备以下知识：\n- 物理基础数学：单变量和多变量微积分（微分和积分）、三角学、复数、向量、向量微积分、泰勒和傅立叶级数、傅立叶变换\n- 科学计算入门：数据处理、简单统计（计算均值和方差）、绘制函数和直方图、用通用编程语言（如Python或C）编写简单程序\n2. 申请者还必须具备以下条件：\n- 熟悉基本光学，包括几何光学建模（薄透镜、成像、折射、衍射、干涉和光学分辨率）\n- 了解电磁波谱、光的本质和传播、麦克斯韦方程、势和场以及简单几何中的电磁势\n- 了解信号和系统、采样和信号处理的基本概念，包括时域和频域之间的转换、高、低和带通滤波器的使用以及奈奎斯特采样准则\n- 对电子电路和元件（如放大器、滤波器、晶体管）有基本的了解，有电气/电子系统仿真和测量经验者优先",
+  "objectives": "格拉斯哥大学传感器与成像系统理学硕士项目强调社会、研究、产业所要求的技术和技能。传感和传感器系统是物理学、工程学、化学等领域深入研究的基础，在引入图像研究后将强化传感功能的多元化。传感器系统的工业应用无处不在：从现代智能手机和每辆现代汽车中大量生产的传感器，到油气回收、科学设备、机床、医疗设备和环境监测中经常使用的最先进、专业的高价值传感器。这是一个以行业为中心的计划，旨在为那些希望开发技能的人设计，这些技能将在许多终端应用程序中打开发展机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电路与系统 (Circuits & systems)\n传感与测量基础 (Fundamentals of sensing and measurement)\n技术与创新管理 (Technology and innovation management)\n研究项目准备 (Research project preparation)\n生物物理化学（爱丁堡） (Biophysical chemistry (edinburgh))\n生物传感器和仪器（爱丁堡） (Biosensors and instrumentation (edinburgh))\n数字信号处理 (Digital signal processing)\n电子产品设计与制造（爱丁堡） (Electronic product design and manufacture (edinburgh))\n芯片实验室技术（爱丁堡） (Lab-on-chip technologies (edinburgh))\n激光和电光系统4 (Lasers and electro-optic systems 4)\n消费品中的微电子4 (Microelectronics in consumer products 4)",
+  "success_cases": ""
+}

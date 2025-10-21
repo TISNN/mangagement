@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 24900英镑/年",
+  "requirements": "具有2:2英国荣誉学位或受认可的同等学历，需要计算机科学、经济学、工程学、金融学或数学背景\n如果申请者不符合以上要求，学校也会考虑在分析和数据密集型领域至少3年的相关工作经验",
+  "objectives": "大数据推动着重大决策的制定，因此，在大型组织中，商业分析显得比以往更为重要。随着企业为树立自身竞争优势着力提高企业效率与生产力，在供应链管理、运营管理与金融领域中商业分析扮演着至关重要的角色。\n萨里大学商业分析理学硕士项目旨在帮助学生掌握商业分析技能，培养学生学会解读和概念化大数据并将其转化成有效信息——在此基础上学生能够对组织绩效进行分析、建模、优化和改进。\n正因如此，萨里大学商业分析理学硕士项目的毕业生具有商业分析能力，能够在就业市场中倍受青睐。\n萨里大学商业分析理学硕士项目专注于两个方面：分析商业数据的能力、分析应对商业挑战的能力。在萨里大学商业分析理学硕士项目的选修课程中，学生可进一步深入研究经济学或管理学相关课程。\n作为萨里大学商业分析理学硕士项目的成员，学生将接触到诸如模拟器、数学工具之类的各种软件工具，从实际操作经验中获益。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业分析论文 (Dissertation For Business Analytics)\n数据分析 (Data Analytics)\n金融基础：金融与投资 (Foundations Of Finance: Finance & Investments)\n统计与经济基础 (Foundations Of Statistics And Econometrics)\n会计原理 (Principles Of Accounting)\n供应链管理和物流 (Supply Chain Management And Logistics)\n商业流程管理（使用SAP） (Business Process Management (With SAP))\n决策信息 (Informatics For Decision Making\t)\n创新管理 (Innovation Management\t)\n市场分析概论 (Introduction To Marketing Analytics)\n投资分析 (Investment Analysis\t)\n机器学习与可视化 (Machine Learning & Visualisations)\n供应链分析 (Supply Chain Analytics)",
+  "success_cases": ""
+}

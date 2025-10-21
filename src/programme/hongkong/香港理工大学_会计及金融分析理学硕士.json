@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "会计及金融分析理学硕士",
+  "ename": "MSc Accounting and Finance Analytics",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 1年\n项目学费: 355500港币/年",
+  "requirements": "具有学士学位，优先考虑具有商科学位并具备一些计算机方面基础培训的申请者或具备计算机、理科或工科背景的毕业生\n学校鼓励有兴趣但没有或有少量工作经验的申请者人申请",
+  "objectives": "香港理工大学会计及金融分析理学硕士项目旨在为学生提供会计学和金融学的核心理论以及前沿数据分析技术的应用训练，从而帮助学生紧跟技术的发展，成为行业的的领军人才。通过香港理工大学会计及金融分析理学硕士项目的学习，学生将掌握会计及金融分析的核心知识与应用技能，具备利用数据技术例如大数据等解决实际问题的能力，为未来的职业发展打下坚实的基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业分析中的会计学 (Accounting for Business Analysis)\n会计信息系统的当代议题 (Contemporary Issues in Accounting Information Systems)\n投资 (Investments)\n公司金融原理 (Principles of Corporate Finance)\n会计及金融量化方法 (Quantitative Methods for Accounting and Finance)\n会计及金融学的计算技术应用I (Applications of Computing and Technology in Accounting and Finance I)\n会计及金融商业分析 (Business Analytics in Accounting and Finance)\n利用编程进行财务分析与评估 (Financial Analysis and Valuation with Programming)\n会计及金融学的计算技术应用II (Applications of Computing and Technology in Accounting and Finance II)",
+  "success_cases": ""
+}

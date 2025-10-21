@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "呼吸临床科学理学硕士",
+  "ename": "MSc Respiratory Clinical Science",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要相关学科背景（呼吸护理、呼吸治疗、高级呼吸实践、生命科学、医学、化学、生物医学包括应用医学科学）",
+  "objectives": "伦敦大学学院呼吸临床科学理学硕士项目将侧重于呼吸系统疾病的科学和临床基础研究，所有课程和模块都旨在了解疾病及其对患者的影响。该项目由顶尖科学家和临床医生授课，为希望随后攻读博士学位或在制药和生物技术行业从事职业的毕业生提供了理想的基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "呼吸生物学原理 (Principles of Respiratory Biology)\n呼吸系统疾病和病症 (Respiratory diseases and conditions)\n组织修复与再生 (Tissue Repair and Regeneration)\n炎症的原理 (Principles of Inflammation)\n免疫学原理 (Principles of Immunology)\n药物发现 (Drug Discovery)\n研究中的统计方法 (Statistical Methods in Research)\n实验室实践研究技能 (Practical Laboratory Research Skills)",
+  "success_cases": ""
+}

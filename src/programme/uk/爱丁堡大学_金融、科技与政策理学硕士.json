@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "金融、科技与政策理学硕士",
+  "ename": "MSc Finance, Technology and Policy",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 41800英镑/年",
+  "requirements": "具有英国一等或2:1荣誉学位或同等学历，需要满足以下学科之一：\n- 通常需要金融学、经济学、工程学或信息学的本科荣誉学位\n- 作为本科学位的一部分，申请者需要参加并通过至少1门重要的统计分析和/或编程课程，或者能够证明在使用统计和/或编程软件包方面有相关工作经验\n- 如果一定程度的金融学/经济学/信息学内容构成了学位的一部分，并且申请者可以通过学位结果证明高水平的定量能力，学校也会根据个人情况考虑具有其他学科一等或2:1荣誉学位的申请者\n- 具有不相关学科领域一等或2:1荣誉学位但具备相关工作经验的申请者将根据个人情况予以考虑\n- 具有不相关学科领域一等或2:1荣誉学位但具备相关专业资格的申请者将根据个人情况予以适当考虑\n- 如果申请者是一位成熟候选人，具备大量金融和技术行业经验或相关专业资格，学校将根据个人情况予以适当考虑",
+  "objectives": "爱丁堡大学金融、科技与政策理学硕士项目向其学生展示了支持金融市场的关键理论金融和经济概念的先进知识，并且批判性地比较，对比并评估了不同的机器学习技术在解决财务问题方面的适用性（通过使用适当的软件将技术应用于给定的一组数据来证明这一点），帮助学生深入了解全球主要金融体系之间存在的关系，并在相关监管范围内对财务工具和项目进行评估，展示政策在塑造金融服务提供和金融市场方面所起的作用，能对于当前的批评，提出强有力的观点来批判性地评估市场，并为开发替代技术市场和金融服务产品提供坚实基础，展示出学生对金融市场技术使用的社会维度的欣赏。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "市场设计与政策 (Market Design and Policy)\n数据价值链与数据群 (Data Value Chains to Constellations)\nPython编程 (Python Programming)\n财务评估 (Financial Valuation)\n金融市场与投资 (Financial Markets and Investment)\n现代金融市场微观结构 (Modern Financial Market Microstructure)\n建模、高频交易与金融社会学 (Modelling, High-Frequency Trading and the Sociology of Finance)\n应用机器学习导论 (Introductory Applied Machine Learning)\n金融科技学习 (Learning by Action in FinTech)\n技术创业与商业化 (Technology Entrepreneurship and Commercialisation)\n金融工程 (Financial Engineering)\n行为金融 (Behavioural Finance)\n投资管理 (Investment Management)\nSAS财务分析编程 (SAS Programming for Financial Analysis)\n区块链与加密金融 (Blockchain and Cryptofinance)\n区块链、治理与政策 (Blockchain, Governance and Policy)",
+  "success_cases": ""
+}

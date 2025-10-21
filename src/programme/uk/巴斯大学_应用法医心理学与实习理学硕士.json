@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "应用法医心理学与实习理学硕士",
+  "ename": "MSc Applied Forensic Psychology with Placement",
+  "tags": "社科,心理学,心理学系",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 2年\n项目学费: 18975英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，论文也应该取得良好成绩，通常为2:1或以上。需要拥有心理学本科学位（需要获得BPS的认可），偏好拥有法医或临床环境中相关实践经验的申请人。如果申请者没有心理学本科学位，学校将考虑已成功完成 BPS 认可的硕士转换学位的申请人",
+  "objectives": "巴斯大学应用法医心理学与实习理学硕士项目提供背景心理学知识、专业技能和相关经验，让学生自信地在法律、刑事和民事司法系统中从事心理工作。学生将获得最新的心理学理论和实践知识，并培养洞察力和技能，以开展法医服务的研究和开发项目，研究治理、道德和组织问题，还将了解法医心理学实践的基础技能，并花时间培养可应用于各种法医设置的基本咨询技能。\n巴斯大学应用法医心理学与安置理学硕士项目的咨询元素和为期一年的实习将帮助学生获得技能和经验，与其他法医心理学课程相比，这些技能和经验可以大大提高学生的就业前景。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "法医心理学基础 (Fundamentals of Forensic Psychology)\n应用心理学的先进研究方法 (Advanced Research Methods for Applied Psychology)\n评估和制定 (Assessment and Formulation)\n法医心理学辅导技巧 (Counselling Skills for Forensic Psychology)\n与罪犯和受害者一起工作 (Working with Offenders and Victims)\n法医心理学实践 (Forensic Psychology Practice)\n法医心理学实习 (Forensic Psychology Placement)\n法医心理学论文 (Forensic Psychology Dissertation)",
+  "success_cases": ""
+}

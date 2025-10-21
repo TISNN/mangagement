@@ -1,0 +1,12 @@
+{
+  "school_name": "杨百翰大学",
+  "major_name": "工商管理硕士",
+  "ename": "Master of Business Administration",
+  "tags": "商科,工商管理",
+  "introduction": "专业方向: 工商管理\n入学时间: 秋季\n项目时长: 2年\n项目学费: 58,544美元\n平均成绩: 3.55",
+  "requirements": "四年制本科学位或同等学历，GPA达到3.0及以上，本科毕业后至少两年工作经验（需要认证，但只接受ierf和SpanTran两家机构，不接受wes）",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

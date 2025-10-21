@@ -1,0 +1,12 @@
+{
+  "school_name": "圣路易斯华盛顿大学",
+  "major_name": "工程管理硕士",
+  "ename": "Master of Engineering Management",
+  "tags": "工科,工程管理",
+  "introduction": "专业方向: 工程管理\n入学时间: 秋季/春季\n项目时长: 30学分\n项目学费: 50529美元",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

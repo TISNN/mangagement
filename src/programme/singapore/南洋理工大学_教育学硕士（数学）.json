@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "教育学硕士（数学）",
+  "ename": "Master of Education (Mathematics)",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 41900新币/年",
+  "requirements": "具有认可大学颁发的良好学士学位，或具有取相关的南洋理工大学FlexiMasters且成绩优秀\n具有教师资格如新加坡国立教育学院颁发的教育研究生文凭以及至少1年教学经验，或至少3年教学经验或其他相关教育工作经验\n具有数学教育的实际经验以及至少2门本科水平数学课程的学习背景",
+  "objectives": "教育学硕士课程主要面向在新加坡学校和教育部工作的教育工作者，学校也欢迎具有教育背景并希望提升教育知识和技能的大学毕业生申请。南洋理工大学教育学硕士（数学）项目旨在提供发展数学知识作为一门学科及其教学法的课程，培养数学教育的反思性实践者，为教师的职业发展做好准备，使其成为教育部的硕士教师或高级专家，并为数学教育研究提供引导。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育调查 (Educational Inquiry)\n数学教育研究的理论视角与问题 (Theoretical Perspectives and Issues in Mathematics Education Research)\n在数学教育中使用技术 (Using Technology in Mathematics Education)\n数学评估 ( Assessment in Mathematics)\n数学课程研究 (Curriculum Studies in Mathematics)\n代数与代数教学 ( Algebra and the Teaching of Algebra)\n几何与几何教学 (Geometry and the Teaching of Geometry)\n统计学与统计学教学 (Statistics and the Teaching of Statistics)\n问题解决与问题解决的教学 (Problem Solving and the Teaching of Problem Solving)\n新加坡小学数学 (Singapore Primary School Mathematics)\n数字与数字教学 (Numbers and the Teaching of Numbers)\n小学数学学习心理学 (Psychology of Learning Mathematics at the Primary Level)\n当代数学教育问题 (Contemporary Issues in Mathematics Education)\n数学教育中的国际问题 ( International Issues in Mathematics Education)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "临床验光理学硕士",
+  "ename": "MSc Clinical Optometry",
+  "tags": "社科,医学,健康与心理科学学院",
+  "introduction": "专业方向: 医学\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 16500英镑/年",
+  "requirements": "申请者应该是英国注册验光师，符合所有法律要求并有资格在英国执业（包括在光学委员会注册）\n具有2:1荣誉本科学位或同等学历",
+  "objectives": "伦敦大学城市学院临床验光理学硕士能够在职业生涯中继续发展和积累与眼保健和视觉科学有关的知识和专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究方法和应用数据分析 (Research Methods and Applied Data Analysis)\n学位论文 (Dissertation)\n青光眼专业证书 (Professional Certificate in Glaucoma)\n儿科眼科专业证书 (Professional Certificate in Paediatric Eye Care)\n低视力专业证书 (Professional Certificate in Low Vision)\n治疗原理 (Principles of therapeutics)\n处方原则 (Principles of prescribing)\n独立开处方 (Independent prescribing )\n临床管理指南 (Clinical Management Guidelines)\n高级眼科检查 (Advanced Ophthalmic Examination)",
+  "success_cases": ""
+}

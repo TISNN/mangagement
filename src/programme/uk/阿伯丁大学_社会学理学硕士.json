@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "社会学理学硕士",
+  "ename": "MSc Sociology",
+  "tags": "社科,社会学与社工,社会科学学院",
+  "introduction": "专业方向: 社会学与社工\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "通常具有认可大学或机构颁发的相关荣誉学位并达到2:1标准\n不具备以上资格的申请者也可能被录取，但需要具有替代资格或与学习领域相适应的经批准的工作经验水平，还需要仔细考虑成绩轨迹，总分未达到2.1但最后两年学习成绩达到2.1的申请者可能会被录取",
+  "objectives": "阿伯丁大学社会学理学硕士为学生提供社会学的理论和方法论概念，以便对影响社会的问题进行批判性思考。学生将对当代社会学的理论和方法学有深入的了解，认识到社会学研究的主要经验领域及其对社会政策和社会变革的影响。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级社会理论 (Advanced Social Theory)\n社会科学高级定性方法 (Advanced Qualitative Methods in Social Science)\n和平与冲突研究 (Peace and Conflict Studies)\n全球化维度 (Dimensions of Globalization)\n欧洲社会比较研究 (The Comparative Study of European Societies)\n性，性别，暴力：批判方法 (Sex, Gender, Violence: Critical Approaches)\n社会学论文 (Dissertation in Sociology)",
+  "success_cases": ""
+}

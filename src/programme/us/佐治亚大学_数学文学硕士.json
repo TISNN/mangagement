@@ -1,0 +1,12 @@
+{
+  "school_name": "佐治亚大学",
+  "major_name": "数学文学硕士",
+  "ename": "MA in Mathematics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 33学分\n项目学费: 33,957美元",
+  "requirements": "申请者需持有数学相关学士学位，最好修过以下至少两个领域的至少一门课程现代代数、拓扑和实分析在纯数学和应用数学、概率论、统计学、物理学和计算机科学方面的额外课程也可以",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

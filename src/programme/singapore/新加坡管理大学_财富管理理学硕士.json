@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡管理大学",
+  "major_name": "财富管理理学硕士",
+  "ename": "MSc Wealth Management",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 8月\n项目时长: 1年\n项目学费: 74120新币/年",
+  "requirements": "- 学士学位毕业后具备至少2年任意行业工作经验（通过CFA 1级的申请者可豁免此要求）\n- 具有良好的本科学位（不限专业背景）\n- 适合渴望保持在全球投资前沿并对财富管理职业充满热情的申请者\n- 具有良好的GMAT/GRE/SMU入学考试成绩\n- 需要提交2篇个人陈述，其中1篇需要对指定问题（2选1）进行回答",
+  "objectives": "新加坡管理大学财富管理理学硕士课程结合了在瑞士和美国的独特海外经验，在那里学生可以向顶级从业者和学者学习。该课程是为期12个月的全日制课程，旨在满足有抱负和经验丰富的财富管理者的需求，希望加深自己的技能、知识和专业知识。模块化结构允许专业人士在工作时攻读硕士学位，而那些没有财富管理经验的人可以开始实习，以提高他们的就业能力。该课程还包括私人银行业务的相关考试和认证。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "财务报表分析 (Financial Statement Analysis)\n金融市场宏观经济学 (Macroeconomics for Financial Markets)\n投资分析的数量方法 (Quantitative Methods for Investment Analysis)\n全球金融市场 (Global Financial Markets)\n公司财务 (Corporate Finance)\n股权分析 (Analysis of Equities)\n投资组合分析 (Portfolio Analysis)\n固定收益分析 (Analysis of Fixed Income)\n衍生工具分析与应用 (Analysis and Applications of Derivatives)\n私募股权和风险投资 (Private Equity and Venture Capital)\n对冲基金投资 (Hedge Fund Investment)\n资产组合管理 (Portfolio Management)\n信托和代际财富规划 (Trusts and Inter-Generation Wealth Planning)\n客户关系管理 (Client Relationship Management)\n财富管理特别专题研究 (Special Topics in Wealth Management)",
+  "success_cases": ""
+}

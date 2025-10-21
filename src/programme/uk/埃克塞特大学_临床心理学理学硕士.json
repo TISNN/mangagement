@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "临床心理学理学硕士",
+  "ename": "MSc Clinical Psychology",
+  "tags": "社科,心理学,生命与环境科学学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30900英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要心理学背景，也考虑包含大量心理学、研究方法和统计学内容的其他学科申请者。学校要求申请者之前在至少两个统计/研究方法课程中学习并达到2:1或同等水平。如果至少学习了两个统计/研究方法课程，心理学学士学位也将被考虑",
+  "objectives": "埃克塞特大学临床心理学理学硕士项目探索临床心理学和临床神经科学的前沿研究，通过研究学徒期应用学生所学到的知识，在此期间学生将与经验丰富的研究人员密切合作，并成为已建立的研究小组的一部分。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级统计 (Advanced Statistics)\n临床心理学实践导论 (Introduction to Clinical Psychology Practice)\n研究学徒 (Research Apprenticeship)\n临床心理学和神经科学的进展 (Advances in Clinical Psychology and Neuroscience)\n成瘾心理学的进展 (Advances in the Psychology of Addiction)\n当前临床心理学的研究问题 (Current Research Issues in Clinical Psychology)\n临床心理学实习 (Clinical Psychology Placement)",
+  "success_cases": ""
+}

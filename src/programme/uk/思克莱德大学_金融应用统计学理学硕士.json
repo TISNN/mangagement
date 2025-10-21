@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "金融应用统计学理学硕士",
+  "ename": "MSc Applied Statistics in Finance",
+  "tags": "理科,数学,数学与统计学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 25500英镑/年",
+  "requirements": "具有至少二等（2:2）荣誉学位或同等学历，申请人必须具备一定的数学基础知识，例如A - Level或同等水平，包括：微积分，线性代数，微分方程\n学校也欢迎具有相关经验或适当专业资格的学生申请",
+  "objectives": "思克莱德大学金融应用统计学理学硕士项目是专为具有广泛学科背景的人开设的转换课程。您将获得解决问题、操作和询问大数据集的技能，以及使用统计学和数据科学中常用的编程语言，具备在保险、金融和商业等部门担任应用统计学家的必要技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "概率统计基础 (Foundations of Probability & Statistics)\nR中的数据分析 (Data Analytics in R)\n实验设计 (Experimental Design)\n多元分析 (Multivariate Analysis)\n金融计量经济学 (Financial Econometrics)\n金融随机过程 (Financial Stochastic Processes)\n医学统计学 (Medical Statistics)\n定量风险分析 (Quantitative Risk Analysis)\n贝叶斯空间统计 (Bayesian Spatial Statistics)\n有效的统计咨询 (Effective Statistical Consultancy)\n勘察设计与分析 (Survey Design & Analysis)\n商务分析 (Business Analytics)\n研究项目 (Research project)",
+  "success_cases": ""
+}

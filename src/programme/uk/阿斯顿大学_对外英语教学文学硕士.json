@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "对外英语教学文学硕士",
+  "ename": "MA Teaching English to Speakers of Other Languages (TESOL)",
+  "tags": "社科,教育,社会科学与人文学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 21750英镑/年",
+  "requirements": "雅思总分6.5（小分一项不低于5.5，其它项不低于6.0）\nPTE总分67（小分一项不低于59，其它项不低于64）\n具有2:2学位",
+  "objectives": "阿斯顿大学对外英语教学文学硕士项目专为希望从事对外英语教学，同时希望获得翻译理论和实践方面专业知识的人士而设计。适合很少或没有教学经验的人士申请。阿斯顿大学对外英语教学文学硕士项目最显著的特点是以实践为导向。通过学习，学生可以获得丰富的教学经验。除此以外，学生还可以根据兴趣选择选修课进行深入学习。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "英语教学的理论与实践 (Theory and Practice of English Language Teaching)\n语言意识 (Language Awareness)\n英语教学实践 (English Teaching Practice)\nTESOL的研究方法 (Research Methods in TESOL)\n词汇语法 (Lexicogrammar)\n语言接触和全球化 (Language Contact and Globalisation)\n论文 (Dissertation)\n语篇分析 (Analysing Discourse)\n课程与材料设计 (Course and Materials Design)\n教少儿 (Teaching Young Learners)\n语言接触与多语种 (Language Contact and Multilingualism)",
+  "success_cases": ""
+}

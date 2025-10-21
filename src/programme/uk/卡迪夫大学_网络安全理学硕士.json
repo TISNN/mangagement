@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "网络安全理学硕士",
+  "ename": "MSc Cyber Security",
+  "tags": "工科,计算机,计算机科学与信息学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 27500英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科领域背景，如计算机科学或计算",
+  "objectives": "卡迪夫大学网络安全理学硕士项目向您传授最新的安全原则、实践、工具和技术。由我们最新更新的计算机实验室的专家团队领导，我们的网络安全理学硕士将为您准备我们这个时代最需要的角色之一或相关的研究职业。除了学习安全应用程序开发、风险管理、恶意软件分析和数字取证等领域外，您还将了解在不断变化的威胁环境中，业务连续性和转型方面对网络弹性至关重要。使用基于案例的分析，您将有机会了解跨多个平台的安全操作和调查取证方法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "网络安全与风险管理 (Cyber Security and Risk Management)\n恶意软件分析与脆弱性评估 (Malware Analysis and Vulnerability Assessment)\n计算机与网络取证 (Computer and Network Forensics)\n网络安全行动 (Cybersecurity Operations)\n业务连续性和转型 (Business Continuity and Transformation)\n开发安全系统和应用程序 (Developing Secure Systems and Applications)\n论文 (Dissertation)",
+  "success_cases": ""
+}

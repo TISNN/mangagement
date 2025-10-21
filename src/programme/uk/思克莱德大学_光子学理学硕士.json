@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "光子学理学硕士",
+  "ename": "MSc Photonics",
+  "tags": "理科,物理,物理学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 26100英镑/年",
+  "requirements": "具有二等荣誉学位或同等学历，需要物理或相关学科背景，如工程物理学、电气与电子工程、化学、生物学、眼科、材料科学、天文学，来自工程或生命科学学科的申请人需要有足够的量子力学和固态物理的经验，例如通过半导体技术课程，或需要证明他们能够获得必要的背景知识",
+  "objectives": "光学和光子学被认为是21世纪最重要的关键使能技术之一。“光子学”一词强调光的粒子方面在光的产生、操纵、传输和检测及其应用中至关重要，思克莱德大学光子学理学硕士课程为学生提供了探索和掌握大量光子技术的机会，使其能够将器件置于光学系统和/或应用的环境中。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "光子学主题：激光与非线性光学 (Topics in Photonics: Laser & Nonlinear Optics)\n物理技能 (Physics Skills)\n高级光子器件 (Advanced Photonics Devices)\n项目 (Project)\n研究技能 (Research Skills)\n纳米科学介绍 (Introductory Nanoscience)\n光子材料与器件（固态物理主题） (Photonics Materials & Devices (Topics in Solid State Physics))\n光学通信（光子系统） (Optical Communication (Photonic Systems))\n光子高级主题：超快物理与等离子体 (Advanced Topics in Photonics: Ultrafast Physics & Plasmas)\n实验室 (Experimental Laboratories)\n高级纳米科学1：成像与显微镜 (Advanced Nanoscience 1: Imaging & Microscopy)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "经济、金融与数据分析理学硕士",
+  "ename": "MSc Economics, Finance and Data Analysis",
+  "tags": "商科,经济,管理学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 27300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要经济学或相关学科背景，学生必须完成至少一个学期的经济学、数学和统计学课程\n具有良好定量背景的非经济学科毕业生也将被考虑并鼓励申请",
+  "objectives": "兰卡斯特大学经济、金融与数据分析理学硕士项目是一项为期一年的强化课程，结合了经济理论、金融原理和高级数据分析技术方面的严格培训。我们精心设计的课程为经济和金融的理论和应用方面奠定了坚实的基础，同时也强调数据分析在形成明智决策方面的关键作用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n计量经济学和数据分析 (Econometrics and Data Analysis)\n金融经济学 (Financial Economics)\n金融市场 (Financial Markets)\n宏观经济学 (Macroeconomics)\n先进的投资管理 (Advanced Investment Management)\n行为金融学 (Behavioural Finance)\n 衍生品定价 (Derivatives Pricing)\n环境经济学 (Environmental Economics)\n金融计量经济学 (Financial Econometrics)\n预测 (Forecasting)\n智能数据分析与可视化 (Intelligent Data Analysis and Visualisation)\n市场风险预测与控制 (Market Risk Forecasting and Control)\n公共经济学和政治经济学 (Public Economics and Political Economy)\n用于数据分析的 Python 编程 (Python Programming for Data Analysis)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "心理学研究方法理学硕士",
+  "ename": "MSc Psychology Research Methods",
+  "tags": "社科,心理学,心理学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1学位或同等学历，申请者必须具备研究方法或统计学方面的经验或背景，最好具备心理学或相关学科背景（如神经科学或社会科学）",
+  "objectives": "诺丁汉大学心理学研究方法理学硕士课程将帮助学生批判性地评估定性和定量心理学研究方法以及不同类型的数据；培养文献检索和评论技能；在学术、公共和私营部门获得高级研究的专业技能。课程的优势在于提供了从心理学、社会科学、心理健康研究所到医学和健康科学等一系列可选模块。学生还将在我们的一个研究小组中进行独立的研究项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语境中的心理学研究 (Psychological Research in Context)\n专业技能 (Professional Skills)\n研究实习 (Research Internship)\n心理学高级方法 (Advanced Methods in Psychology)\n研究项目 (Research Project)\n社会心理学方法论     (Social Psychology Methodology)\n评估服务、干预和政策 (Evaluating Services, Interventions and Policy)\n综合系统评审的原则和过程 (Principles and processes of comprehensive systematic reviews)\n研究哲学-社会科学 (Philosophy of Research - Social Science)",
+  "success_cases": ""
+}

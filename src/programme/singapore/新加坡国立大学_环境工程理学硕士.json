@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "环境工程理学硕士",
+  "ename": "MSc Environmental Engineering",
+  "tags": "工科,环境工程,工程学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 49462新币/年",
+  "requirements": "具有认可机构颁发的良好荣誉学士学位（至少达到二等）或同等学历，也可能考虑录取具有良好第一学位以及毕业后实际工作经验的申请者",
+  "objectives": "新加坡国立大学环境工程理学硕士学位课程主要面向目前从事或考虑从事环境工程工作的本科毕业生。通过课程学习，他们将能够充分审视所有人类活动中的环境因素，有望为全球发展贡献出自己的一份力。新加坡国立大学环境工程理学硕士学位课程采取充分灵活的教学模式，以使来自不同科学和技术背景的学生都能适应，同时也为在职工程师们提供了一个强化自身技能的机会。新加坡国立大学环境工程理学硕士课程同样适合于有环境科技领域教育背景和工作经验的本科毕业生，帮助他们以之前的知识为基础，学习并掌握解决高级环境工程问题的新技能，最大限度地推动新加坡环境技术产业的发展。如今，区域内各个国家都在为环境保护做出努力，新加坡国立大学环境工程理学硕士课程将帮助学生为此做出贡献。此外，国大环境工程理学硕士课程教学建立于广泛的学科基础之上，政府监管和法定部门以及高校的专业人士都将对此课程感兴趣。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "环境工程原理 (Environmental Engineering Principles)\n环境工程1 (Environmental Engineering 1)\n环境工程2 (Environmental Engineering 2)\n焚烧污染控制 (Combustion Pollution Control)\n大气污染控制技术 (Air Pollution Control Technology)\n气溶胶科学与技术 (Aerosol Science & Technology)\n毒害废物控制 (Toxic & Hazardous Waste Management)\n污泥和固体废物管理 (Sludge and Solid Waste Management)\n环境生物基础 (Environmental Biological Principles)\n水质管理 (Water Quality Management)\n工业废水控制 (Industrial Wastewater Control)\n环境生物技术专题研究 (Topics in Environmental Biotechnology)\n生物处理工艺 (Biological Treatment Processes)\n水处理工艺 (Water Treatment Processes)\n环境技术 (Environmental Technology)",
+  "success_cases": ""
+}

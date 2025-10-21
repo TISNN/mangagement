@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "女性与儿童健康理学硕士",
+  "ename": "MSc Women & Children's Health",
+  "tags": "社科,医学,生命科学与药学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 35800英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位或同等学历，需要生物医学科学相关学科背景或MBBS, RM/RN学位",
+  "objectives": "伦敦大学国王学院女性与儿童健康理学硕士项目提升生物医学和临床的学生（包括研究助产士和护士）对影响怀孕、母亲及宝宝终身身心健康的生物和环境因素的理解。伦敦大学国王学院女性与儿童健康理学硕士项目给学生以知识与启发，让他们探索基础科学转化和临床观察是如何将尖端研究引入英国等低资源地区新的诊断和治疗。学生将培养包括统计学在内的科学和临床实践研究技能，以便能够评价他人的研究设计和结果，并将这些应用于他们自己的研究。他们还将获得设计，规划，控制研究管理途径所需的研究知识和技能，并进行自己的研究项目（包括科学研究项目和临床研究项目）。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "妇女和儿童健康基础 (Fundamentals of Womens and Children’s Health)\n实践中的科学和临床研究技能 (Scientific and Clinical Research Skills in Practice)\n儿科研究：方法、统计应用和治理 (Paediatric Research: Methods、Statistical Application and Governance)\n妇幼保健研究项目 (Research Project in Womens and Children’s Health)\n围产期心理健康 (Perinatal Mental Health)\n儿童健康伦理 (Ethics in Child Health)\n再生医学 (Regenerative Medicine)\n实施和改进的原则 (Principles of Implementation and Improvement)\n领导力和专业发展 (Leadership and Professionlal Development)\n出生缺陷 (Birth Defects)\n辅助概念 (Assisted Conception)\n全球妇女健康状况 (Global Women's Health)",
+  "success_cases": ""
+}

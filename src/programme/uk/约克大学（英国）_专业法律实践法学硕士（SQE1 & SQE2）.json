@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "专业法律实践法学硕士（SQE1 & SQE2）",
+  "ename": "LLM Professional Legal Practice (SQE1 and SQE2)",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要法律背景\n所有申请者都需要了解英国法律的七个基础科目：公法；欧盟法；合同；侵权行为；土地法；股权与信托；和刑法。",
+  "objectives": "约克大学专业法律实践法学硕士（SQE1 & SQE2）课程专为学生准备律师资格考试（SQE1和SQE2）的两个部分而设计，并使其能够获得在专业法律实践中就业所需的额外经验和律师技能。课程的核心是SQE1和SQE2的综合培训，此外，学生将选修一些实践领域的课程，并完成一门专业的法律实践课程，以帮助其进一步发展职业生涯目标，SQE和以实践为重点的学习将由具有职业和专业培训经验的合格法律从业人员的导师提供支持。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "SQE 1功能性法律知识A (SQE 1 Functioning Legal Knowledge A)\nSQE 1功能性法律知识B (SQE 1 Functioning Legal Knowledge B)\nSQE 1功能性法律知识C (SQE 1 Functioning Legal Knowledge C)\nSQE 2专业法律技能A (SQE 2 Professional Legal Skills A)\nSQE 2专业法律技能B (SQE 2 Professional Legal Skills B)\n专业法律实践 (Professional Legal Practice)\n商业交易实践 (Practice of Commercial Transactions)\n公司交易实践 (Practice of Corporate Transactions)\n公司金融：债务与股权 (Corporate Finance: Debt and Equity)\n易受伤害的客户 (Vulnerable Clients)\n兼并与收购 (Mergers and Acquisitions)\n雇佣 (Employment)\n家庭法 (Family Law)\n高级争议解决 (Advanced Dispute Resolution)\n私人客户 (Private Client)",
+  "success_cases": ""
+}

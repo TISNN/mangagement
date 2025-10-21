@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "语言学（音韵学）文学硕士",
+  "ename": "MA Linguistics (Phonology)",
+  "tags": "社科,语言,大脑科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 29800英镑/年",
+  "requirements": "通常具有英国大学颁发的2:1学士学位或同等学历",
+  "objectives": "伦敦大学学院语言学（音韵学）文学硕士是为寻求专注于音系学研究的学生设计的研究性学位课程。学生将使用语言类型比较、数据收集、实验方法或建模技术，并接受广泛的研究方法和学术思想表达的培训。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "中级语音学和音韵学 (Intermediate Phonetics and Phonology)\n先进音韵学理论 (Advanced Phonology Theory)\n语音学理论 (Phonetic Theory)\n句法学研究 (Studies in Syntax)\n英语音韵 (Phonology of Engish)\n中级生成语法:定域性 (Intermediate Generative Grammar: Locality)\n当前的语法问题 (Current Issues in Syntax)\n第二语言学习 (Second Language Speech Learning)\n动物交流和人类语言 (Animal Communication and the Human Language)\n沟通与人类语言 (Communication and Human Language)",
+  "success_cases": ""
+}

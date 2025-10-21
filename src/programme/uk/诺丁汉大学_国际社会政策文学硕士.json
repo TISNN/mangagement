@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "国际社会政策文学硕士",
+  "ename": "MA International Social Policy",
+  "tags": "社科,公共政策与事务,社会学与社会政策学院",
+  "introduction": "专业方向: 公共政策与事务\n入学时间: 9月\n项目时长: 1年\n项目学费: 24300英镑/年",
+  "requirements": "具有2:1学位或同等学历，不限专业背景；或具有2:2学位或同等学历，不限专业背景，并且具备1年国家或地方政府、公共部门或第三/志愿部门组织的工作经验。",
+  "objectives": "诺丁汉大学国际社会政策文学硕士课程将探讨多元文化世界中的歧视、欠发达国家的社会政策、国际移民、全球福利政策以及国际议程和组织在国际和国家社会政策中的作用等主题。学生将能够批判性地评估政策并了解其社会经济和政治后果，并利用自己的知识来建议如何改善这些结果以确保社会更加平等。课程还为学生在当地和国际非政府组织和公共部门组织提供实习和就业机会，为学生在国际发展、地方和国家政府、社会服务或新闻领域的职业生涯奠定基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际社会政策动态 (Dynamics of International Social Policy)\n全球化、欧洲化和公共政策 (Globalisation、Europeanisation and Public Policy)\n政策分析：概念和理论 (Policy Analysis: Concepts and Theories)\n研究方法和研究管理 (Research Methods and Research Management)\n福利政策 (Welfare Policy)\n国际社会政策学位论文（仅限硕士学位） (Dissertation in International Social Policy (MA only))",
+  "success_cases": ""
+}

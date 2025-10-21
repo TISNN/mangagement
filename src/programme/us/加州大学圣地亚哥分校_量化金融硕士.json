@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学圣地亚哥分校",
+  "major_name": "量化金融硕士",
+  "ename": "Master of Quantitative Finance",
+  "tags": "商科,金融",
+  "introduction": "专业方向: 金融\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1年，52学分\n项目学费: 68640美元\n平均成绩: 3.39\n平均G: 700\n男女比例: 41:59",
+  "requirements": "定量背景,计算编程（例如C ）以及统计,计量经济学和数学应用程序和工具（例如SAS,Stata,MatLab,R,S-Plus,Mathematica）",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,贝叶斯商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 33100英镑/年",
+  "requirements": "具有2:1学位或同等学历\n寻求具有包含定量主题学位的学生，这些学位包括：精算学、商业、计算机科学、经济学、工程、金融、地理、数学、心理学、社会学、统计学或任何其他定量社会科学\n申请不要求提交GMAT，但招生小组可酌情将其作为录取条件",
+  "objectives": "伦敦大学城市学院商业分析理学硕士旨在帮助学生在数据驱动型业务中产生并获得更大的竞争力。\n为那些将确定组织内数据分析研究的范围和方向并将研究结果传达给最终决策者的人们提供基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "网络分析 (Network Analytics)\n数据可视化 (Data Visualisation)\n业务分析方法 (Analytics Methods for Business)\n数字技术与价值创造 (Digital Technologies and Value Creation)\n应用深度学习 (Applied Deep Learning)\n机器学习 (Machine Learning)\n收益管理与定价 (Revenue Management and Pricing)\n战略业务分析 (Strategic Business Analytics)\n应用自然语言处理（NLP） (Applied Natural Language Processing (NLP))\n数据管理系统 (Data Management Systems)\n新市场创造 (New Market Creation)\n零售供应链管理 (Retail Supply Chain Management)",
+  "success_cases": ""
+}

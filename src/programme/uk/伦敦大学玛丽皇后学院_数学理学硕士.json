@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "数学理学硕士",
+  "ename": "MSc Mathematics",
+  "tags": "理科,数学,数学科学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 27500英镑/年",
+  "requirements": "具有good 2:2荣誉学位或同等学历，需要数学或数学专业，有统计学、物理或计算等学历背景",
+  "objectives": "伦敦大学玛丽皇后学院数学理学硕士项目由数学科学学院开设，适合第一学位为数学专业或数学占专业内容大部分比重的学生。伦敦大学玛丽皇后学院数学理学硕士项目师资队伍强大，拥有多名世界级学者。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数学科学的研究方法 (Research Methods in Mathematical Sciences)\n高级组合数学 (Advanced Combinatorics)\n贝叶斯统计学 (Bayesian Statistics)\n复杂系统 (Complex Systems)\nR语言计算统计学 (Computational Statistics with R)\n动力系统 (Dynamical Systems)\n群论 (Further Group Theory)\nPython机器学习 (Machine Learning with Python)\n测度理论与概率论 (Measure Theory and Probability)\n概率和随机过程 (Topics in Probability and Stochastic Processes)\n科学计算 (Topics in Scientific Computing)",
+  "success_cases": ""
+}

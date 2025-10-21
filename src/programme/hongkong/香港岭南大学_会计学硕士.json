@@ -1,0 +1,12 @@
+{
+  "school_name": "香港岭南大学",
+  "major_name": "会计学硕士",
+  "ename": "Master of Accountancy",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 1年\n项目学费: 300000港币/年",
+  "requirements": "申请者应该持有认可高等教育机构颁发的学士学位或同等学历（学校会根据具体情况予以考虑）\n持有认可学士学位但非商业相关学科背景的申请者在正式入读会计学硕士课程之前必须通过预科课程（申请者需要修读的预科课程数量将根据其本科学习情况而定）\n优先考虑在会计、审计、税务、金融等领域具备相关工作经验或专业资格的申请者",
+  "objectives": "香港岭南大学会计学硕士专业主要是为已经或者打算在会计、金融、管理等领域工作的申请者设计。该项目旨在为企业的会计、经理、行政人员和执行官提供先进的会计知识。香港岭南大学会计学硕士专业可以使学生1.在本地会计和国际领域学习到先进的会计理论和实践。2.培养和加强学生的分析能力，使其可以在实际工作中具备发现分析问题的能力。3.将学习到的会计知识运用到实际决策中。4.在瞬息万变的商业环境中培养其适应及解决问题的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "审计 (Auditing)\n企业与公司法 (Business and Company Law)\n成本与管理会计 (Cost and Management Accounting)\n财务会计与报表 (Financial Accounting and Reporting)\n香港税法与税务计划 (Hong Kong Taxation and Tax Planning)\n管理财务学 (Managerial Finance)\n会计理论 (Accounting Theory)\n法务会计学与舞弊检查 (Forensic Accounting and Fraud Examination)\n财务报表的解读和分析 (Financial Statement Interpretation and Analysis)\n会计伦理和企业治理 (Accounting Ethics and Corporate Governance)\n高级审计 (Advanced Auditing)\n比较财务报表和会计 (Comparative Financial Reporting and Accounting )\n中国经济法 (The Economic Law of China)\n当代管理会计的问题 (Contemporary Issues in Management Accounting)\n课题研究 (Research Project)",
+  "success_cases": ""
+}

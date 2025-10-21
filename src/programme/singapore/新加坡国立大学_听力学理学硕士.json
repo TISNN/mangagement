@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "听力学理学硕士",
+  "ename": "MSc Audiology",
+  "tags": "社科,医学,杨潞龄医学院",
+  "introduction": "专业方向: 医学\n入学时间: 8月\n项目时长: 2年\n项目学费: 41700新币/年",
+  "requirements": "具有认可大学颁发的良好学士学位，需要联合健康、科学、生命科学或工程背景，或在特殊情况下会考虑研究生委员会批准的其他资格和经验\n优先考虑具有荣誉学位、适当工作经验以及解剖学、生理学、心理学或语言病理学相关背景的申请者",
+  "objectives": "听力学是一个不断扩大的领域，涉及听力，平衡和相关疾病的研究。 新加坡国立大学听力学理学硕士项目为两年制，作为一个医疗保健科学专业，致力于帮助个人及其家人减轻或克服听力问题及平衡问题带来的影响。\n完成课程后，学生将获得听力科学的强大理论基础，发展实践能力，并对以下方面具有良好的欣赏：\n成人和儿童的听力障碍和听觉障碍相关系统的评估，诊断和管理。\n成人平衡功能障碍的评估，诊断和管理。\n成人和儿童的助听器评估，验证和确认。\n针对成人和儿童的可植入设备（例如耳蜗植入物，骨锚式助听器和中耳植入物）进行编程。\n服务开发和评估所需的研究技能。\n与听力障碍的个人和家庭合作的基本咨询技巧。\n多学科团队合作的沟通技巧。\n公共卫生挑战和有效的听力保健。\n新加坡和亚洲独特的教育，研究和临床重点。\n坚强的卓越精神，不断学习，创新和社区服务。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "声学 (Acoustics)\n解剖学和生理学 (Anatomy & Physiology)\n声音和言语知觉 (Perception of Sound & Speech)\n听觉装置及康复 (Hearing Devices & Rehabilitation )\n临床听力学 (Clinical Audiology)\n儿科听力学 (Paediatric Audiology )\n电生理学评估 (Electrophysiology Assessment )\n前庭评估与管理 (Vestibular Assessment & Management )",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦政治经济学院",
+  "major_name": "管理与战略理学硕士",
+  "ename": "MSc Management and Strategy",
+  "tags": "商科,管理,管理学系",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 38000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要社会科学或理工科背景\n不需要具备先前的经济学知识，该课程面向具有定量背景（如工程、科学或社会科学的第一学位）和一定基础微积分和基础统计学定量培训的学生\n所有申请者都需要提交GMAT或GRE成绩，但目前就读（或曾经就读）经济学、管理学或数学专业的LSE在校生和校友可获豁免\n不强制要求工作经验，但该课程非常适合具备不超过2年经验的申请者，也欢迎具备更丰富经验的申请者",
+  "objectives": "伦敦政治经济学院管理与战略理学硕士项目为期一年，旨在让学生掌握管理学分析方法，重点培养学生的批判性思维，加深学生对管理经济学及其相关组织管理、管理战略的理解。\n伦敦政治经济学院管理与战略理学硕士项目将经济学研究严谨的分析方法与现实生活中的当代案例研究相结合。伦敦政治经济学院管理与战略理学硕士项目主要针对具有良好的数学定量分析背景的学生（学过初等微积分和基础统计学等定量分析课程的理工科或社科学生），同时也适合具有经济或管理相关专业、想要在管理学领域更进一步深造的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "组织中的激励和治理 (Incentives and Governance in Organisations)\n组织的设计和管理 (Design and Management of Organisations)\n战略分析(一) (The Analysis of Strategy (A))\n战略分析(B) (The Analysis of Strategy (B))\n估值与证券分析 (Valuation and Security Analysis)\n全球经济中的会计 (Accounting in the Global Economy)\n管理会计，决策和控制 (Management Accounting, Decisions and Control)\n财务会计、报告和披露 (Financial Accounting, Reporting and Disclosure)\n金融市场 (Financial Markets)\n管理财务 (Managerial Finance)\n拍卖与博弈论 (Auctions and Game Theory)\n公共部门管理的战略和变化 (Strategy and Change in Public Sector Management)\n谈判分析 (Negotiation Analysis)\n信息经济战略 (Strategy for the Information Economy)",
+  "success_cases": ""
+}

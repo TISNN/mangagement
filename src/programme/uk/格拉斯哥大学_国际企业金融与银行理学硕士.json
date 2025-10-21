@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "国际企业金融与银行理学硕士",
+  "ename": "MSc International Corporate Finance & Banking",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 35640英镑/年",
+  "requirements": "具有2:1荣誉学位或非英国同等学历，不限专业背景，包含至少1门金融学入门和/或经济学和/或会计学入门课程，以及至少1门中学或大学水平的数学课程，平均成绩达到及格\n只有符合或超过学校规定的入学要求的申请才会被考虑，任何不符合要求的申请将被自动拒绝。申请者将根据其相对于其他申请人的表现、当前的GPA或学位等级、学术背景的相关性被考虑录取",
+  "objectives": "格拉斯哥大学国际企业金融与银行业理学硕士项目融合了公司金融和银行业务，为学生提供对国际金融、国际资本市场和银行业务不断发展和争议领域的批判性认识。该课程非常适合那些对国际银行和金融中介、公司财务管理、个人财务管理、财富管理、负责任的银行业务以及证券和投资管理感兴趣的人。学生将掌握国际公司金融和银行方面的基本金融知识和技能，为学生在银行和金融领域的挑战性角色做好准备。该课程的教学以最新的研究为基础，帮助学生获得全面的理论理解，并使学生能够批判性地思考国际金融市场和银行业中广泛的复杂金融问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "企业融资与投资 (Corporate finance and investment)\n金融计量经济学 (Financial econometrics)\n银行财务管理 (Financial management in banking)\n金融监管与道德 (Financial regulation and ethics)\n国际资本市场 (International capital markets)\n另类投资 (Alternative investments)\n财务风险管理 (Financial risk management)\n国际银行和金融市场 (International banking and financial markets)\n银行业与发展金融学 (Responsible banking and development finance)",
+  "success_cases": ""
+}

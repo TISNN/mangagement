@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "城市数据科学与分析理学硕士",
+  "ename": "MSc Urban Data Science and Analytics",
+  "tags": "理科,数据科学,地理科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 32750英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要相关学科背景，特别鼓励具有地理、城市规划、交通或计算机科学背景或具有良好的定量和/或计算技能的人申请\n所有申请者必须有兴趣学习如何应用数据科学来解决现实生活中的城市挑战\n不符合上述要求但在相关领域具备多年专业经验的申请者将根据具体情况被考虑，在这种情况下需要联系招生团队讨论其是否适合该课程",
+  "objectives": "利兹大学城市数据科学与分析理学硕士项目旨在为学生提供深入了解数据科学方法和途径的机会，并学习如何将它们应用于理解城市和制定城市政策。利兹大学城市数据科学与分析理学硕士课程将结合最新数据科学技术的技术培训（从数据争论、机器学习到可视化）以及研究和理解复杂的城市和出行挑战所需要的批判性思维。利兹大学城市数据科学与分析理学硕士课程的核心是致力于解决城市所面临的现实世界挑战。利兹大学的研究人员正在寻找新的数据驱动解决方案，以应对交通拥堵、社会和经济平等、污染和资源竞争等挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学编程 (Programming for Data Science)\n分析城市 (Analysing Cities)\n城市政策应用数据科学 (Applied Data Science for Urban Policy)\n城市问题创意编码 (Creative Coding on Urban Problems)\n城市数据科学项目 (Urban Data Science Project)\n城市数据科学 (Data Science for Cities)\n地理数据可视化与分析 (Geographic Data Visualisation & Analysis)\n区域人口统计特征与邻体分析 (Geodemographics and Neighbourhood Analysis)\n交通科学数据 (Transport Data Science)",
+  "success_cases": ""
+}

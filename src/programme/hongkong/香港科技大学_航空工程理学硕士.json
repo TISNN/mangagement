@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "航空工程理学硕士",
+  "ename": "MSc Aeronautical Engineering",
+  "tags": "工科,航空工程,工程学院",
+  "introduction": "专业方向: 航空工程\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 188300港币/年",
+  "requirements": "具有学士学位或同等学历并且达到二等荣誉学位，需要航空工程、航空航天工程、机械工程、制造工程、工程管理、材料科学与工程、电气与电子工程、土木工程、环境工程或相关领域背景",
+  "objectives": "航空工程是从大型而复杂的工程项目引申出来的分支，涉及各工程学科，包括机械，电机和化学工程，对从事航空工程专业人士如何提高业界的技术和高效管理是一大挑战。有见及此，香港科技大学机械及航空航天工程学系联同欧洲最大的航空学校，也是法国唯一的航空型大学Ecole Nationale de l'Aviation Civile (ENAC)合办了一个理学硕士(航空工程)课程，培训人才，以助业界面对挑战。ENAC专为航空业，特别是航空运输业，提供广泛而完整的航空专业课程。成功毕业后，学生将获得由香港科技大学和ENAC联合颁发的理学硕士 (航空工程) 学位。\n香港科技大学航空工程理学硕士课程旨在装备有意透身航空工程专业的人士，或有意提升技术的业内人士。香港科技大学航空工程理学硕士课程补充了现有机械和航空航天工程本科和研究生课程的不足，可以让学生接触到航空工程的各个核心方面以及如何应用所学的专业知识在现实社会中。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "流体动力学 (Fluid Dynamics)\n高级空气动力学 (Advanced Aerodynamics)\n高级飞机结构 (Advanced Aircraft Structures)\n高级飞机设计 (Advanced Aircraft Design)\n飞机飞行动力学 (Aircraft Flight Dynamics)\n飞机推进 (Aircraft Propulsion)\n航空独立研究项目 (Aeronautical Independent Project)\n六西格玛质量管理 (Six Sigma Quality Management)\n航空运输系统概述 (Air Transport System Overview)\n飞机设计开发和操作 (Airplane Design Development and Operations)\n航空电子技术 (Avionics Technology)\n空中交通管理概论 (Air Traffic Management Overview)\n导航系统 (Navigation Systems)\n机器人:力学和控制 (Robotics: Mechanics and Control)\n计算气动声学 (Computational Aeroacoustics)",
+  "success_cases": ""
+}

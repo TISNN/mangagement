@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "癌症免疫学与生物技术理学硕士",
+  "ename": "MSc Cancer Immunology and Biotechnology",
+  "tags": "理科,生物,医学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 30200英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要相关学科背景，如生物医学、癌症科学、生物化学、遗传学和医学\n在特殊情况下，如果申请者没有获得相关学科领域的学位，相关主题的工作经验将会被考虑\n有面试",
+  "objectives": "诺丁汉大学癌症免疫学与生物技术理学硕士课程将为学生提供深入了解当前和正在开发的用于治疗癌症和癌症免疫学的免疫疗法的机会。 在专注于如何开发疫苗、单克隆抗体、CAR T细胞等疗法之前，学生将学习免疫学和癌症分子生物学的基础知识。学生还将了解癌症对免疫系统和免疫系统对癌症的影响，以及研究的商业方面。与活跃的癌症研究人员和专家合作，学生将加入癌症科学中心，并在个人感兴趣的癌症免疫学和生物技术领域开展为期六个月的深入独立研究项目。该课程还将让学生利用一些最新的癌症学技术，并增强成功评估和解释癌症研究数据的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "免疫和免疫系统 (Immunity and the Immune System)\n肿瘤免疫学 (Tumour Immunology)\n细胞、发育和分子生物学 (Cell, Developmental and Molecular Biology)\n研究技能与技术开发 (Research Skills and Technology Exploitation)\n癌症免疫治疗 (Cancer Immunotherapy)\n癌症统计与流行病学 (Cancer Statistics and Epidemiology)\n宿主-肿瘤界面 (Host Tumour Interface)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

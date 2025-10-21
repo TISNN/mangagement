@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "电子与电气工程理学硕士",
+  "ename": "MSc Electronics & Electrical Engineering",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要任意工程学科、计算机科学、物理科学/数学学位背景，电子与工程数学和数学的课程平均成绩为2:1\n学校可能会考虑具有2:2学位但核心课程成绩达到2:1的申请者",
+  "objectives": "格拉斯哥大学电子与电气工程理学硕士项目提供广泛专业主题的研究知识，可直接应用于工业问题。这些主题涵盖从电力供应到高级系统控制到高速电子。该课程提供了一个灵活的课程结构，使应届学生和更成熟的工程师能够根据他们未来职业的需要调整他们的学习经验。本课程旨在为学生提供全面的电子和电气工程专业研究生资格证书，以提升学生的职业前景。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "综合系统设计项目 (Integrated systems design project )\n理学硕士项目 (Msc project)\n声学和音频技术 (Acoustics and audio technology )\n生物传感器与诊断 (Biosensors and diagnostics )\n控制 (Control )\n数字通信 (Digital communication )\n数字信号处理 (Digital signal processing)\n电能系统 (Electrical energy systems )\n能量转换系统 (Energy conversion systems )\n激光与集成光学 (Lasers and integrated optics )",
+  "success_cases": ""
+}

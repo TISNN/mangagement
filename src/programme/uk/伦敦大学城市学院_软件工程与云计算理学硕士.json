@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "软件工程与云计算理学硕士",
+  "ename": "MSc Software Engineering with Cloud Computing",
+  "tags": "工科,计算机,数学、计算机科学与工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 24050英镑/年",
+  "requirements": "通常应该具有二等荣誉学位或同等学历或同等专业资格\n学位必须涵盖大量接触计算的经验，特别是编程（最好是Java或C#）和关系数据库，例如计算机科学学士学位\n以前的学术和商业经验也将被考虑\n如果申请者没有计算机科学的学位背景，则需要5年相关工作经验",
+  "objectives": "伦敦大学城市学院软件工程与云计算理学硕士将学习分析需求和设计适当的软件解决方案的技能；设计和创建复杂的软件系统以解决实际问题，评估和使用高级软件工程环境，设计方法和编程语言，以及评估和响应互操作性和软件开发的最新趋势。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究方法和专业问题 (Research Methods and Professional Issues)\n面向服务的体系结构 (Service Oriented Architectures)\n软件系统设计 (Software Systems Design)\n高级编程：并发 (Advanced Programming: Concurrency )\n高级数据库 (Advanced Databases)\n先进的算法和数据结构 (Advanced Algorithms and Data Structures)\n大数据 (Big Data)\nC++中的面向对象编程 (Object Oriented Programming in C++)\nERP解决方案业务工程 (Business Engineering with ERP Solutions)\n云计算 (Cloud Computing)\n信息安全管理 (Information Security Management)",
+  "success_cases": ""
+}

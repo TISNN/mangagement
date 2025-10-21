@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "纳米材料理学硕士",
+  "ename": "MSc Nanomaterials",
+  "tags": "工科,材料,材料学院",
+  "introduction": "专业方向: 材料\n入学时间: 9月\n项目时长: 1年\n项目学费: 35000英镑/年",
+  "requirements": "具有英国2:2荣誉学位或同等学历，需要材料科学、化学、机械工程、化学工程、纳米科学或纳米技术背景\n也接受物理学、数学、土木工程、电气/电子工程或生物化学工程背景并达到英国2:1荣誉学位或同等学历的申请者\n其他背景也可能被考虑，需要邮件联系学校pgt-materials@manchester.ac.uk确认\n申请者如果是在读生，需要提供最后一年学习的课程列表及其学分权重",
+  "objectives": "曼切斯特大学纳米材料理学硕士课程为希望在纳米动态材料和功能材料的前沿领域发展的毕业生提供以研究为重点的教学和培训。\n学生将深入了解控制纳米和功能材料的性质和合成，其表征以及将其组装成先进功能设备（从光伏到超级电容器）的原理。\n曼切斯特大学纳米材料理学硕士课程涵盖从高级复合材料到石墨烯和功能纳米材料的广泛主题。学生还将获得可以亲自实践的先进的研究培训。\n本课程旨在帮助学生成为一名具有纳米技术和功能性材料及相关技术方面独特技能和专业知识的学术或工业科学家。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "PGT论文 (PGT Dissertation)\n材料科学概论 (Introduction to Materials Science)\n研究方法 (Research Methods)\n先进复合材料 (Advanced Composites)\n石墨烯与纳米材料 (Graphene & Nanomaterials)\n纳米材料原理 (Principles of Nanomaterials)\n应用功能材料与器件 (Applied Functional Materials & Devices)\n软物质 (Soft Matter)",
+  "success_cases": ""
+}

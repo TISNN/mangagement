@@ -1,0 +1,12 @@
+{
+  "school_name": "佐治亚理工学院",
+  "major_name": "生物工程理学硕士",
+  "ename": "MS in Bioengineering",
+  "tags": "工科,生物工程",
+  "introduction": "专业方向: 生物工程\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 1215美元/学时",
+  "requirements": "GPA达到3.3/4.0。先修课：2年微积分和微分方程课程,1年微积分物理学课程,1年化学（最好是有机化学）课程,1学期生物学课程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "圣路易斯华盛顿大学",
+  "major_name": "网络安全工程硕士",
+  "ename": "MS in Cybersecurity Engineering",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 一年\n项目学费: 57,750美元/年",
+  "requirements": "网络安全工程硕士课程的所有学生必须已经完成（如他们的本科成绩单所记录）、成功测试或在课程开始时完成以下课程：CSE 501N 编程概念和实践以及 CSE 502N 计算机科学基础，或其他机构提供的同等课程。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

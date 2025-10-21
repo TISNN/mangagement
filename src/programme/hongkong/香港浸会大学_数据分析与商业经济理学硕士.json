@@ -1,0 +1,12 @@
+{
+  "school_name": "香港浸会大学",
+  "major_name": "数据分析与商业经济理学硕士",
+  "ename": "MSc Data Analytics and Business Economics",
+  "tags": "理科,数据科学,商学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 278000港币/年",
+  "requirements": "具有认可大学颁发的学士学位或同等学历，学术成绩优秀，申请者需要具有商科或非商科领域的本科学位并接受过良好的定量培训",
+  "objectives": "香港浸会大学数据分析与商业经济理学硕士项目提供商业经济分析和数据分析方面的扎实培训。除了核心基础课程外，通过选修各种应用选修课，学生们将接受使用相关数据分析商业经济问题的培训。\n该课程的一个显著特点是在商业经济知识、统计模型和编程技能方面进行平衡的培训。具体而言，该方案旨在培训：\n具备分析能力的专业人士：该课程提供各种数据分析课程，辅以相关统计知识、编程技能和真实商业案例。学生们可以应用这些技术技能来分析解决手头数据中的业务问题。\n熟练的数据策略师：该课程还提供有关商业战略最新经济原则、智能城市发展挑战和未来前景的课程。具备批判性思维和数据科学知识的学生可以充当潜在客户的界面，并将项目需求转化为可管理的数据科学项目子任务。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "管理经济与商务策略 (Managerial Economics and Business Strategy)\n大数据分析基础：概念与技术 (Foundations in Big Data Analytics: Concepts and Techniques)\n大数据分析基础：编程 (Foundations in Big Data Analytics: Programming)\n数据科学统计学 (Statistics for Data Science)\n执行工作坊系列 (Executive Workshop Series)\n商业经济学实习 (Business Economics Internship)\n商业人工智能 (Artificial Intelligence for Business)\n数据保护的法律与经济学 (Law and Economics of Data Protection)\n数据分析项目 (Projects for Data Analytics)\n应用成本效益分析 (Applied Cost-Benefit Analysis)\n数字市场经济学 (Economics of Digital Markets)\n数据可视化与故事讲述 (Data Visualization with Story-telling)\n空间、文本与社交网络数据分析 (Analytics for Spatial, Textual and Social Network Data)\n数据驱动决策 (Data-driven Decision Making)\n大数据商业与经济预测 (Business and Economic Forecasting with Big Data)",
+  "success_cases": ""
+}

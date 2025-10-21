@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "人机交互理学硕士",
+  "ename": "MSc Human-Computer Interaction",
+  "tags": "工科,计算机,大脑科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有2:1学位，需要计算机科学、心理学或人体工程学背景；或具有2:1学位，需要计算机科学、心理学或人体工程学相关领域背景（如界面设计、商业信息技术、产品设计）。任何相关的实践或工作经验都将被考虑在内。",
+  "objectives": "人机交互涉及计算机和移动技术的设计与使用，侧重于人与系统之间的交互。伦敦大学学院人机交互理学硕士项目重视学术的严谨性，采用跨学科教学，横跨工程学、行为科学和设计等学科，注重培养学生的专业性与实践性技能，增强学生的职场竞争力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "交互科学 (Interaction Science)\n交互设计 (Interaction Design)\n访问技术与辅助技术 (Accessibility and Assistive Technologies)\n情感互动 (Affective Interaction)\n未来端口 (Future Interfaces)\n数字健康中的人为因素 (Human Factors for Digital Health)\n严肃而有说服力的游戏 (Serious and Persuasive Games)\n物理计算与原型 (Physical Computing and Prototyping)\n社会技术系统 (Socio-technical Systems)\n以用户为中心的数据可视化 (User-Centred Data Visualization)",
+  "success_cases": ""
+}

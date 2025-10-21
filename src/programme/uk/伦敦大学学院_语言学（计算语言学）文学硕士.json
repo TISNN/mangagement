@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "语言学（计算语言学）文学硕士",
+  "ename": "MA Linguistics (Computational Linguistics)",
+  "tags": "社科,语言,大脑科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 29800英镑/年",
+  "requirements": "通常具有英国大学颁发的二等学士学位或同等学历，申请者必须能够证明具备至少一种过程式编程语言（例如Python或Java）的基础知识",
+  "objectives": "伦敦大学学院语言学（计算语言学）文学硕士旨在让学生能够获得对理论和计算语言学以及自然语言处理当前研究的知识和理解，并为独立研究做好准备。完成该课程后，学生将能够制定适当的研究问题，实施和评估自然语言处理和语言研究的常见符号和深度学习模型，查找和评估相关文献，并生成令人信服、结构化和专业的报告。学生将使用概率模型、深度学习模型或基于众包的数据收集和实验方法，并将接受研究方法和学术思想表达方面的广泛培训。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算语言学导论 (Introduction to Computational Lingistics)\n语义和语用学 I (Semantics and Pragmatics I)\n语音学和音系学 I (Phonetics and Phonology I)\n句法 (Syntax)\n计算语言学研讨会 (Seminar in Computational Linguistics)\n语言学论文 (Dissertation in Linguistics)\n语义与语用学 II (Semantics and Pragmatics II)\n语法中的接口 (Interfaces in Syntax)\n语音学和音系学 II (Phonetics and Phonology II\t)",
+  "success_cases": ""
+}

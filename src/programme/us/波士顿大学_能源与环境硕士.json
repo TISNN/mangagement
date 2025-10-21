@@ -1,0 +1,12 @@
+{
+  "school_name": "波士顿大学",
+  "major_name": "能源与环境硕士",
+  "ename": "MS in Energy & Environment",
+  "tags": "工科,能源",
+  "introduction": "专业方向: 能源\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1-1.5年\n项目学费: 63,798美元",
+  "requirements": "相关专业，GPA3.0以上",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

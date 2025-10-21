@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "建筑管理理学硕士",
+  "ename": "MSc Construction Management",
+  "tags": "工科,工程管理,架构、建筑与土木工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有英国2:2荣誉学位（成绩达到55%）或同等学历，需要建筑环境相关的学科背景，专业机构的会员资格可能可以代替满足学位要求",
+  "objectives": "本课程不断发展，为毕业生提供成为建筑专业人士所需的核心技能，并提供尽可能广泛的模块选择，让学生在建筑管理领域追求个人兴趣。社会继续重视和塑造建筑环境，使得公共和私人投资建设资产和建设项目得以成功完成。在一个以可持续发展为主导的不断变化的世界中，随着这些项目在社会和技术层面上都变得更加复杂，在施工管理方面发展现有的和新的技能和专业知识也面临着越来越大的挑战。我们的建设管理硕士课程侧重于管理的基础领域，包括与建设有关的研究，设计和技术。学生还可以选择深入研究当前的主题，如可持续性、战略和采购。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究方法 (Research Methods)\n设计和施工原则 (Principles of Design and Construction)\n项目管理原理 (Principles of Project Management)\nBIM的原理及应用 (Principles and Applications of BIM)\n设计管理 (Design Management)\n可持续发展的建筑环境 (Sustainability in the Built Environment)\n管理施工流程和技术 (Management of Construction Processes and Techniques)\n战略管理和工程建设 (Strategic Management for Construction and Engineering)\n建设法律和合同管理 (Construction Law and Contract Management)\n研究论文 (Research Dissertation)",
+  "success_cases": ""
+}

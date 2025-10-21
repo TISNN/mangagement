@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "数据密集型天体物理学理学硕士",
+  "ename": "MSc Data Intensive Astrophysics",
+  "tags": "理科,物理,物理学与天文学学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 29450英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要相关学科领域背景，如天文学、天体物理学、计算机科学、工程学、数学、物理学或相关物理科学\n如果申请者没有相关领域的学位，学校将考虑专业经验，需要提供证据证明",
+  "objectives": "卡迪夫大学数据密集型天体物理学理学硕士项目旨在培养学生数据密集天体物理学知识与技能，帮助学生胜任“大数据”“需求”领域和相关科学领域的学术研究以及技术、开发和工程工作。结合数据分析、计算技术学科知识，课程致力于满足越来越多的高素质研究生的需求，培养其解决数据密集天体物理学挑战的专业技能。据估计，“大数据”已经为英国经济增加了数以千计的新就业机会，随着新的数据方法在改变公共、私人和学术部门，就业机会也会不断增加。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用机器学习 (Applied Machine Learning)\n机器学习原理 (Principles of Machine Learning)\n数据分析 (Data Analysis)\n天体物理技术 (Techniques in Astrophysics)\n天体物理学学习与研究技能 (Study and Research Skills in Astrophysics)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

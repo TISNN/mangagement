@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "法学硕士",
+  "ename": "LLM",
+  "tags": "社科,法律,法律与政治学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 23700英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要法学背景",
+  "objectives": "卡迪夫大学法学硕士项目将会教导学生学习所有法律内容，而无需专注于某个特定的法律领域，它旨在为学生提供知识和专业知识，让学生有机会发展智力能力和研究生技能，为他们选择的专业做出更充分的贡献。学生可以从专业的LLM课程列表中学习该学年可学的任何模块，并完成一篇论文。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学位论文 (Dissertation)",
+  "success_cases": ""
+}

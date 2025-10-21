@@ -1,0 +1,12 @@
+{
+  "school_name": "布朗大学",
+  "major_name": "数据科学硕士",
+  "ename": "Sc.M. in Data Science",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n入学时间: 秋季\n项目时长: 16-24个月\n项目学费: 8898美元/课程\n项目规模: 30人",
+  "requirements": "建议修过至少一年的微积分、一个学期的线性代数、一个学期的微积分概率论与数理统计和编程课程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "佩珀代因大学",
+  "major_name": "工商管理硕士",
+  "ename": "Master of Business Administration",
+  "tags": "商科,工商管理",
+  "introduction": "专业方向: 工商管理\n入学时间: 秋季\n项目时长: 55学分\n项目学费: 1,950美元/学分",
+  "requirements": "有本科学位至少两年全职工作经验",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

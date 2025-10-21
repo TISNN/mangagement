@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "应用语言学与对外英语教学文学硕士",
+  "ename": "MA Applied Linguistics and TESOL",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 21400英镑/年",
+  "requirements": "至少具有相关二等荣誉学位，或同等学历（GPA3.0以上），需要是教师或者具备英语教学相关领域经验，1年以上工作经验",
+  "objectives": "莱斯特大学应用语言学与对外英语教学文学硕士项目面向研究生教师和拥有两年以上英语教学经验的人员，旨在提高学生的学术能力和专业能力。通过学习，学生对应用语言学有批判性认识，了解英语语言学与英语语言教学的关系，能够反思，分析，批判评估语言教学和相关概念及理论，在课堂实践中提出专业设想，培养从业者专业技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "第二语言教学 (Second Language Teaching)\n第二语言学习 (Second Language Learning)\n语法意识 (Grammar Awareness)\n音韵学和发音 (Phonology and Pronunciation)\n社会语言 (Language in Society)\n语言学习中的心理问题 (Psychological Issues in Language Learning)\n语料库语言学 (Corpus Linguistics)\n话语分析 (Discourse Analysis)\n语言测试和评估1 (Language Testing and Assessment 1)\n语言测试和评估2 (Language Testing and Assessment 2)\n特定/学术目的下英语 (English for Specific/Academic Purposes)\n材料设计与开发 (Materials Design and Development)\n技术增强语言学习（TELL） (Technology Enhanced Language Learning (TELL))\n英语教师的持续专业发展 (Continuing Professional Development for English Language Teachers)",
+  "success_cases": ""
+}

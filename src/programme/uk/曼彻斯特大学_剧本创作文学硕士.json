@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "剧本创作文学硕士",
+  "ename": "MA Playwriting",
+  "tags": "社科,影视,艺术、语言与文化学院",
+  "introduction": "专业方向: 影视\n入学时间: 9月\n项目时长: 1年\n项目学费: 28500英镑/年",
+  "requirements": "通常具有一等或2:1荣誉学位或同等学历，需要人文学科领域背景\n需要提交writing sample（不少于10页）以及3个舞台剧原创创意（每个1-2页）",
+  "objectives": "曼彻斯特大学剧本创作文学硕士课程旨在为进入戏剧和表演行业的写作生涯提供一个真正的途径。课程由从业人员授课，以职业为导向，以行业为重点。学生将与业界领先的从业人员合作，发展剧本创作、投稿和戏剧技巧。学生将学习和发展在不同背景、体裁和主题下的表演写作技能。 学生将有机会获得个人的职业指导和培训，了解如何在戏剧和表演行业从事入门级的写作工作。曼彻斯特大学剧本创作文学硕士课程的特点是定期有来自业界的演讲者，包括已经建立了成功的作家、戏剧编导和制片人职业生涯的校友们。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "剧本：形式 (Playwriting: Forms)\n编剧：结构 (Playwriting: Structures)\n节日剧 (The Festival Play)\n工作剧作家 (The Working Playwright)",
+  "success_cases": ""
+}

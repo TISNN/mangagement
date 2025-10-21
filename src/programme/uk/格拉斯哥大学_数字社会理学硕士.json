@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "数字社会理学硕士",
+  "ename": "MSc Digital Society",
+  "tags": "社科,社会学与社工,社会与政治科学学院",
+  "introduction": "专业方向: 社会学与社工\n入学时间: 9月\n项目时长: 1年\n项目学费: 25320英镑/年",
+  "requirements": "具有2:1荣誉学位或非英国同等学历，需要社会学、政治经济学、文化研究、媒体研究（与新闻学不同）、性别研究、人文地理、心理学、数字人文、社会/文化人类学、哲学、认知科学、社会工作、城市研究、犯罪学、商业研究、工商管理、历史、法律、英语或外国语言文学、电影与戏剧研究、管理学、市场营销或公共管理学科背景",
+  "objectives": "新的数字技术已经以一种数十年前难以想象的方式和深度成为我们生活的一部分。格拉斯哥大学数字社会理学硕士课程旨在通过培养社会科学家，使他们能够批判性和有效地应对数字时代的现实和挑战，以应对这个快速变化的环境的需求。格拉斯哥大学数字社会硕士课程向学生们介绍了数字技术如何渗透到社会生活的各个方面，以及它们如何与自我、社会关系、教育、工作和劳动力市场、文化和体制变革、商业和金融、健康、安全和社会世界的其他各种领域相互关联。该课程将使学生熟悉当前由社会学理论和方法论引发的辩论，以及旨在掌握数字技术对我们生活不断加深的影响跨学科方法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字社会：理论与实质问题 (Digital Society: Theory & Substantive Issues)\n数字时代的数据研究与工作实践 (Practicing Research & Working with Data in the Digital Age)\n生活实验室 (The Living Lab)\n社会正义的公共社会科学 (A Public Social Science for Social Justice)\n分类与分层 (Class and Stratificiation)\n性别关系（当代关键方法） (Gender Relations (Contemporary Critical Approaches))\n改善卫生与社会：方案制定与评价 (Improving Health and Society: Programme Development and Evaluation)\n研究人员的社会理论导论 (Introduction to Social Theory for Researchers)\n性别与社会 (Sexualities and Society)",
+  "success_cases": ""
+}

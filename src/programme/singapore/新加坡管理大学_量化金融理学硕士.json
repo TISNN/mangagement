@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡管理大学",
+  "major_name": "量化金融理学硕士",
+  "ename": "MSc Quantitative Finance",
+  "tags": "商科,金工金数,商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 8月\n项目时长: 1.5年\n项目学费: 39967新币/年",
+  "requirements": "- 不要求具备工作经验（任何相关经验可能会有助于申请）\n- 具有声誉好的院校颁发的良好本科学位（不限专业背景，有一定程度的数学严谨性）\n- 适合对可以用于解决定价、对冲、风险管理、算法交易、投资组合管理和其他前沿金融应用中的实际问题的定量和计算技能充满热情的申请者\n- 具有良好的GMAT/GRE/SMU入学考试成绩\n- 需要提供经认证的CFA/ACCA证书复印件（如有）\n- 需要提交2篇个人陈述，其中1篇需要对指定问题（2选1）进行回答",
+  "objectives": "新加坡管理大学数量金融理学硕士课程的使命是培养高素质的专业人才，这些人才将受到全球和地区银行、量化对冲基金、资产管理公司以及新加坡监管机构的高度追捧。随着全球金融业在风险管理、产品创新和自营交易方面越来越成熟，对定量金融专业人员的需求也在增加。新加坡管理大学数量金融理学硕士课程随着这一上升趋势而蓬勃发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "资产定价 (Asset Pricing)\n数值方法（一） (Numerical Methods I)\n金融市场定量分析 (Quantitative Analysis of Financial Markets)\n衍生金融投资工具 (Derivatives)\n金融市场计量经济学 (Econometrics of Financial Markets)\n数值方法（二） (Numerical Methods II)\n固定收益证券 (Fixed Income Securities)\n风险分析 (Risk Analysis)\n研究项目管理技能 (Research Project Management Skills)\n定量交易策略 (Quantitative Trading Strategies)\n资产组合管理 (Portfolio Management)\n银行风险管理 (Bank Risk Management)\n随机计算 (Stochastic Calculus)\n信用风险模型 (Credit Risk Models)\n市场微观结构 (Market Microstructure)",
+  "success_cases": ""
+}

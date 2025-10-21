@@ -1,0 +1,12 @@
+{
+  "school_name": "贝尔法斯特女王大学",
+  "major_name": "管理学理学硕士",
+  "ename": "MSc Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 25800英镑/年",
+  "requirements": "通常具有2:2荣誉学位或学校接受的同等学历，不限专业背景",
+  "objectives": "管理就是与他人合作并通过他人以快速有效的方式实现组织目标。贝尔法斯特女王大学管理学理学硕士项目面向不具备商科或管理背景、想要提高学历或想要成功转型从事管理工作的学生。贝尔法斯特女王大学管理学理学硕士项目不仅引导学生研究管理学的多个领域，而且培养学生掌握重要的管理技能，如批判性思维、解决问题的能力以及沟通技巧。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计学 (Accounting)\n金融学 (Finance)\n运营管理 (Operations Management)\n销售 (Marketing)\n人力资源管理 (People Management)\n研究方法与技巧 (Research Methods and Techniques)\n管理者的战略决策 (Strategy-making for Managers)\n全球创新管理 (Global Innovation Management)\n论文写作（三选一） (Dissertation（三选一）)\n咨询项目（三选一） (Consultancy Based Project（三选一）)\n学术研究项目（三选一） (Academic Research Project（三选一）)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "塔夫茨大学",
+  "major_name": "数据分析理学硕士",
+  "ename": "MS in Data Analytics",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 34学分，2年\n项目学费: 57,698美元",
+  "requirements": "需要修过两门微积分本科课程（微积分 I 和 II），统计本科课程和编程入门课程或编程语言的基础知识。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "国际教育文学硕士",
+  "ename": "MA International Education",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 19700英镑/年",
+  "requirements": "具有2:2荣誉学位，GPA3或以上，需要是教师或者意向从事教育行业并且对教育行业有一定的认识和了解；直接从事教育工作的经验并不必要",
+  "objectives": "莱斯特大学国际教育文学硕士项目面向学校、学院和大学的教师、讲师和带头人以及有从教经验或对教育感兴趣的人群，帮助学生反思教学实践并丰富教育相关知识。莱斯特大学国际教育文学硕士项目以专业知识为基础，提供学生研究感兴趣领域的机会。通过课程学习，学生将提高研究能力，同时也将学会定性与定量研究方法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际教育当前议题 (Contemporary Issues in International Education)\n教育研究方法概论 (Introduction to Educational Research Methods)\n教育学 (Pedagogy)\n教育公平领导力 (Leadership for Social Justice in Education)\n创新与改革 (Innovation and Reform)",
+  "success_cases": ""
+}

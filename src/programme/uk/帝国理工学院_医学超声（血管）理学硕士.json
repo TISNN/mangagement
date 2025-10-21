@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "医学超声（血管）理学硕士",
+  "ename": "MSc Medical Ultrasound (Vascular)",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 45000英镑/年",
+  "requirements": "具有2:1学位，需要医学、生物科学、工程学或物理科学学科背景",
+  "objectives": "帝国理工学院医学超声（血管）理学硕士项目中接受医学超声理论和实践的培训。在专门研究血管技术和超声之前，学生将探索医学超声的物理和科学理论，并且将执行和解释全面的超声分析，并在医院科室的实习中培养自己的技能。\n帝国理工学院医学超声（血管）理学硕士项目的扩展的项目也是学生学习的主要部分，在此期间学生将巩固使用统计原理的技能。多样化的学习计划将培养您学生解释数据和临床决策方面的专业知识，为超声医师或医疗保健领域的职业生涯做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "超声波物理学 (Physics of Ultrasound)\n超声专科：血管超声 (Ultrasound Specialism: Vascular Ultrasound)\n临床研究：血管超声 (Clinical Studies: Vascular Ultrasound)\n实验设计和个人项目 (Experimental Design and Individual Project)",
+  "success_cases": ""
+}

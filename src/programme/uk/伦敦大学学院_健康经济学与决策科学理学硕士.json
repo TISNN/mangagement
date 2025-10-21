@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "健康经济学与决策科学理学硕士",
+  "ename": "MSc Health Economics and Decision Science",
+  "tags": "商科,经济,人口健康科学学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:1英国学士学位或同等学历，需要经济学、统计学、数学或相关定量领域背景（如流行病学、工程学或物理学）\n需要撰写1篇500字论文研究计划",
+  "objectives": "伦敦大学学院健康经济学与决策科学理学硕士项目融合经济学、统计学和流行病等学科，培养学生掌握必要的理论知识，并且围绕应用性问题进行探讨。伦敦大学学院健康经济学与决策科学理学硕士项目与产业界的密切往来，因而项目课程相当合乎目前业界的需求，毕业生往往能够轻松找到理想工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球卫生系统 (Health Systems in a Global Context)\n卫生经济评价 (Economic Evaluation in Health Care)\n微观经济学导论 (Introductory Microeconomics)\n医学统计学1 (Medical Statistics I)\n卫生计量经济学 (Econometrics for Health)\n建模决策科学 (Modelling for Decision Science)\n健康微观经济学 (Microeconomics for Health)\n经济评价中的贝叶斯方法 (Bayesian Methods in Economic Evaluation)\n卫生经济学 (Health Economics)\n全球卫生概念与争论 (Concepts and Controversies in Global Health)\n气候变化与健康 (Climate Change and Health)\n城市健康 (Urban Health)",
+  "success_cases": ""
+}

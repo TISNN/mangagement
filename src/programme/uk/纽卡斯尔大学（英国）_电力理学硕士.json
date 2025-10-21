@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "电力理学硕士",
+  "ename": "MSc Electrical Power",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 30050英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要以下背景：电气与电子工程，计算机工程\n其他学科背景也可能被考虑，包括：机械工程，物理学，通信、信息与控制工程，建筑电气与智能化，计算机科学与技术\n学校也将根据个人情况考虑具备较低或非标准资格以及大量相关工作经验的申请者",
+  "objectives": "纽卡斯尔大学电力理学硕士项目广泛涉及了电力方面的重要学科，包括电力电子、电子驱动、电机设计和电力系统。纽卡斯尔大学电力理学硕士项目也涵盖了重要的电力主题，如可持续能源系统和电动汽车。\n纽卡斯尔大学电力理学硕士项目涵盖了以下重要学科领域：\n电机机械；\n电力电子；\n电子驱动；\n电力系统运行；\n电力控制。\n纽卡斯尔大学电力理学硕士项目独特之处在于其涵盖了用于运输和可持续能源应用的电气系统的设计。这是纽卡斯尔大学电气与电子工程学院特有的专业领域。\n在纽卡斯尔大学电力理学硕士项目中，学生将了解行业标准的计算机辅助设计和适用于电力的分析技术，包括诸如MagNet,MATLAB,Simulink,PSpiceandERACS的软件包的使用。\n通过纽卡斯尔大学电力理学硕士项目的学习，学生能够运用与电子电力工程领域相关的行业标准的测试测量设备、实验硬件和软件包。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电力电子-设计和实现 (Power Electronics - Design and Implementation)\n线性控制器设计和状态空间（MATLAB运用） (Linear Controller Design and State Space with Matlab Applications)\n电子驱动控制 (Control of Electric Drives)\n电机和驱动器设计和分析 (Design and Analysis of Electrical Machines and Drives)\n电机及其应用 (Electrical Machines and their applications)\n电力系统运行和分析 (Power Systems Operation and Analysis)\n实验课程 (Coursework (EP and AC))\n电力和控制项目 (Electrical Power and Control Project)\n个人课题项目 (Individual Project)",
+  "success_cases": ""
+}

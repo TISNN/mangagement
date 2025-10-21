@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "国际新闻文学硕士",
+  "ename": "MA International Journalism",
+  "tags": "社科,新闻,文学、电影与戏剧研究系",
+  "introduction": "专业方向: 新闻\n入学时间: 10月\n项目时长: 1年\n项目学费: 21700英镑/年",
+  "requirements": "具有2:2荣誉学位或国际同等学历，不限专业背景鼓励没有正式资格但具备丰富适当工作经验的申请者申请鼓励来自艺术、人文、商业、科学和社会科学领域的申请者。需要提交1篇2500字academic writing",
+  "objectives": "埃塞克斯大学国际新闻文学硕士课程适用于希望将自己的新闻经验提升到更高水平的学生，以及没有新闻背景但渴望用新闻技能补充学术知识的学生，课程面向具有其他领域学位或同等专业经验的人开放，向学生介绍了全球背景下的新闻理论和实践，具有国际范围，涉及不同媒体、文化和监管环境下的新闻实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "新闻实践 1 (Journalism Practice 1)\n新闻实践 2 (Journalism Practice 2)\n开源新闻 (Open Source Journalism)\n国际新闻 (International Journalism)\n新闻项目 (Journalism Project)\n新闻论文 (Journalism Dissertation)",
+  "success_cases": ""
+}

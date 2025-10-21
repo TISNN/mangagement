@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "工业生物技术理学硕士（工业培训）",
+  "ename": "MSc Industrial Biotechnology (with Industry Training)",
+  "tags": "工科,其他工科,医学、兽医与生命科学学院-研究生院",
+  "introduction": "专业方向: 其他工科\n入学时间: 9月\n项目时长: 1年\n项目学费: 31800英镑/年",
+  "requirements": "具有2:1荣誉学位，需要生物学、微生物学、生物技术、纳米科学、生物化学、分子生物学、细胞生物学、药剂学、药理学、遗传学、生物医学科学或生命科学背景学校也可以接受动物科学、动物学、化学、环境工程、海洋学、生物医学工程、化学工程或农业学位学校也可以接受资历较低但有重要相关工作经验的申请人",
+  "objectives": "格拉斯哥大学工业生物技术理学硕士（工业培训）项目旨在让学生掌握应对全球增长最快的行业之一需求的知识和能力。该课程提供将科学知识应用于工业所必需的高级生物技术技能和关键商业理论。工业合作伙伴将参与教学和项目部分的共同交付，并为学生提供交流机会。与 Biocon 合作的额外 6 周培训机会将提供无与伦比的国际工业经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "产品生命周期 (Product Life Cycle)\n工业环境微生物学 (Industrial Environmental Microbiology)\n工业发酵 (Industrial Fermentation)\n重组蛋白表达 (Recombinant Protein Expression)\n项目管理 (Project Management)\n生物科技产业培训 (Biotechnology Industry Training)\n合成生物学：概念与应用 (Synthetic Biology: Concepts and Applications)\n运营管理（ASBS） (Operations Management (ASBS))\n管理战略变革 (Managing Strategic Change)\n医学传播的科学写作 (Scientific Writing for Medical Communications)\n人力资源管理 (HR Management)\n创造与创新管理 (Manging Creativity and Innovation)\n生物技术项目 (Biotechnology Project)\n生物科技政策简介计划 (Biotechnology Policy Brief Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "德州农工大学",
+  "major_name": "机械工程工学硕士",
+  "ename": "Master of Engineering in Mechanical Engineering",
+  "tags": "工科,机械工程",
+  "introduction": "专业方向: 机械工程\n入学时间: 秋季/春季\n项目时长: 30学分\n项目学费: 8666.6美元/学期",
+  "requirements": "来自中国的录取申请人必须提供中国高等教育学生信息与就业中心（CHESICC）的成绩单验证报告和中国学位与研究生教育发展中心（CDGDC）的学位验证报告。申请材料在截止日期之前提交完成",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

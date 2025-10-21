@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "全新世气候哲学硕士",
+  "ename": "MPhil Holocene Climates",
+  "tags": "工科,环境工程,地理学系",
+  "introduction": "专业方向: 环境工程\n入学时间: 10月\n项目时长: 1年\n项目学费: 38196英镑/年",
+  "requirements": "申请者应该具有英国High II.i荣誉学位或同等学历\n欢迎具有地理学或相关学科（如环境研究和地球科学）第一学位的申请者",
+  "objectives": "剑桥大学全新世气候哲学硕士课程对全新世气候变化的自然和人为原因以及生态和社会后果进行深入研究。学生将获得：全面了解全新世气候变化；熟练运用用于获取古气候数据的许多物理和复杂的分析工具，以及以学术方式对数据进行客观解释和交流研究结果的技能；对如何利用已有的研究和调查技术来提高该领域知识的实际理解；能够批判性地评估当前的研究和方法，并在适当的情况下提出新的假设，以建立在先前的知识基础上。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "树木气候学 (Dendroclimatology)\n火山学 (Volcanology)\n海洋学 (Oceanography)\n冰芯记录 (Ice core records)\n代理重建 (Proxy reconstructions)\n模型模拟 (Model simulations)\n海平面变化 (Sea level changes)\n全新世气候变率 (Holocene climate variability)\n共同时代的气候 (Climate of the Common Era)\n地质年代学与14C测年 (Geochronology and 14C dating)\n快速气候变化 (Rapid climate change)\n内部气候变化 (Internal climate variability)\n全球碳循环 (Global carbon cycle)\n人为气候变化 (Anthropogenic climate change)\n检测与归因 (Detection and Attribution)",
+  "success_cases": ""
+}

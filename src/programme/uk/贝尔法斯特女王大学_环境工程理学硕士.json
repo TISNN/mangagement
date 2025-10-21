@@ -1,0 +1,12 @@
+{
+  "school_name": "贝尔法斯特女王大学",
+  "major_name": "环境工程理学硕士",
+  "ename": "MSc Environmental Engineering",
+  "tags": "工科,环境工程,自然与建筑环境学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 25800英镑/年",
+  "requirements": "通常具有2:2荣誉学位或学校接受的同等学历，需要相关工程/科学学科背景，例如土木工程。申请者还必须证明足够的数学背景（至少达到A-level标准或同等水平），但数学内容（例如统计学）含量高的本科课程将根据具体情况予以考虑\n数学背景不足的学生需要具有2:1荣誉学位或以学校接受的同等学历\n学历低于2:2荣誉学位标准（或具有学校接受的同等学历）的申请者将根据具体情况予以考虑，补充表格需要连同申请一并填写\n专业资格可能会与广泛的相关专业经验一起被考虑",
+  "objectives": "贝尔法斯特女王大学环境工程理学硕士学位课程使学生培养批判获取、分析、解读、理解环境工程原理及议题的智慧、实践及专业技能。通过贝尔法斯特女王大学环境工程理学硕士学位课程的学习，学生能够在环境、咨询、监管、管理及工程行业开展职业生涯，并在职业初期便担任领导职位。学生也能进行深造，终身学习并理解环境工程对可持续发展的社会的价值。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "土地与水质量 (Land & Water Quality)\n工程水文学与水文地质学 (Engineering Hydrology & Hydrogeology)\n环境影响评估 (Assessment of Environmental Impacts)\n污染物的计算机建模 (Computer Modelling of Contaminants)\n论文项目 (Thesis Project)\n水和污水处理 (Water and Waste Water Treatment)\n地理信息系统与空间分析 (GIS & Spatial Analysis)\n可再生能源基础 (Introduction to Renewable Energies )\n高级环境工程 (Advances in Enviornmental Engineering)\n潮汐能 (Tidal Energy)",
+  "success_cases": ""
+}

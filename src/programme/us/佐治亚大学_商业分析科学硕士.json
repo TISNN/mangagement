@@ -1,0 +1,12 @@
+{
+  "school_name": "佐治亚大学",
+  "major_name": "商业分析科学硕士",
+  "ename": "MS in Business Analytics",
+  "tags": "商科,商业分析",
+  "introduction": "专业方向: 商业分析\n项目类别: STEM\n入学时间: 秋季\n项目时长: 33学分\n项目学费: 16793美元/学期",
+  "requirements": "熟练掌握统计学和微积分，掌握至少一门高级编程语言，有至少一段实习经历",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

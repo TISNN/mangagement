@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "航空理学硕士",
+  "ename": "MSc Aviation",
+  "tags": "工科,航空工程,机械与航空航天工程学院",
+  "introduction": "专业方向: 航空工程\n入学时间: 8月\n项目时长: 1年\n项目学费: 51503新币/年",
+  "requirements": "具有良好的学士学位，需要机械或工业工程或相关学科背景并受过数学和生产方面的培训；或\n具有学士学位，需要工程或相关学科背景并受过数学训练，同时具备2年相关行业经验。\n相关学科包括但不限于南洋理工大学工程学院提供的学士学位课程",
+  "objectives": "南洋理工大学航空理学硕士项目旨在为快速发展的航空业培养专业人才，从电动垂直起降（EVTOL）飞机到3D打印，该课程为学生提供了在这个充满活力的领域发挥领导作用的技能，凭借专家教师和行业洞察力，学生将获得深入的知识和实践专业知识，以应对挑战并拥抱现代航空的机遇。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "EVTOL飞机设计 (EVTOL Aircraft Design)\n飞机运营 (Aircraft Operations)\n航空安全与人为因素 (Aviation Safety and Human Factors)\n航空运输系统 (Air Transportation Systems)\n增材制造的基础与进展 (Fundamentals and Advances in Additive Manufacturing)\n机器学习与数据科学 (Machine Learning and Data Science)\n企业资源规划 (Corporate Resource Planning)\n物流功能管理 (Management of Logistics Function)\n采购与供应商发展 (Procurement & Supplier Development)\n飞行导航与控制 (Flight Navigation and Control)\n未来航空科技 (Future Aviation Technology)\n航空复合材料 (Composites in Aviation)\n航空管理与经济 (Airline Management and Economics)",
+  "success_cases": ""
+}

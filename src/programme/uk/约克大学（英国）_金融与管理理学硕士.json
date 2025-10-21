@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "金融与管理理学硕士",
+  "ename": "MSc Finance and Management",
+  "tags": "商科,金融,管理学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 33700英镑/年",
+  "requirements": "具有2:2本科学位，不限专业背景，学校希望申请者具备学习过一门或多门包含一些统计学/数学/经济学/金融学/物理学/工程学内容的课程的经验\n学校可能会考虑不符合公布的申请要求但具备至少3年相关高级管理工作经验或相关专业资格（如CFALevel 1或ACCA）的申请者",
+  "objectives": "约克大学金融与管理理学硕士项目专为希望在既定企业、公共部门或作为企业家从事一般管理职业的学生而设计，同时获得有关组织财务职能的详细知识。约克大学金融与管理理学硕士项目的配套课程是独特的多学科和跨学科的，汇集了商业与社会学院、数学系、经济及相关研究系的专业知识。因此约克大学金融与管理理学硕士项目的学生将具备收集和分析数据、确定财务和利润来源、制定战略和管理项目所需的技术知识。学生还将获得针对整个董事会角色直至 CEO 级别的职业道路的技能，并学习领导关于管理责任及其对财务绩效的影响的讨论。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商务资讯系统 (Business Information Systems)\n高级财务管理 (Advanced Financial Management)\n管理经济学B (Managerial Economics B)\n战略管理概论 (Introduction to Strategic Management)\n运营和项目管理 (Operations and Project Management)\n定性研究方法 (Qualitative Research Methods)\n金融市场和投资 (Financial Markets and Investment)\n金融战略和管治 (Financial Strategy and Governance)\n社会和环境会计 (Social and Environmental Accounting)\n财政管理 (Managing Public Finances)\n会计与风险 (Accounting and Risk)\n定量方法和数据分析 (Quantitative Methods and Data Analysis)\n论文 (Dissertation)",
+  "success_cases": ""
+}

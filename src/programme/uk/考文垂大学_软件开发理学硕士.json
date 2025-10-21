@@ -1,0 +1,12 @@
+{
+  "school_name": "考文垂大学",
+  "major_name": "软件开发理学硕士",
+  "ename": "MSc Software Development",
+  "tags": "工科,计算机,工程、环境与计算学院",
+  "introduction": "专业方向: 计算机\n入学时间: 5/9月\n项目时长: 1年\n项目学费: 20050英镑/年",
+  "requirements": "具备以下条件之一：计算机相关学科的二等荣誉学位，其他专业（如数学、物理或工程学）毕业生的申请也将根据个人情况予以考虑。或者非分类学位加上至少两年的进一步学习或编程相关领域的专业经验",
+  "objectives": "考文垂大学软件开发理学硕士旨在为学生提供在各种不同背景和组织环境中指定、设计、开发和测试现代软件系统所需的专业和技术技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "软件架构与工程 (Software Architecture and Engineering)\n高级软件开发与框架 (Advanced Software Development and Frameworks)\n现代网络技术 (Modern Web Technologies)\n安全设计与开发 (Secure Design and Development)\n移动平台与应用程序开发 (Mobile Platforms and Application Development)\n软件开发项目 (Software Development Project)\n数据密集型系统 (Data-Intensive Systems)\n计算个人研究项目 (Computing Individual Research Project)",
+  "success_cases": ""
+}

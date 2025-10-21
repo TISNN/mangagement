@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "数字文化与社会文学硕士",
+  "ename": "MA Digital Culture & Society",
+  "tags": "社科,文化,艺术与人文学院",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 33600英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，需要英语或相关学科背景，重返学习的申请者需要具备适当经验证明",
+  "objectives": "伦敦大学国王学院数字文化与社会文学硕士项目提供机会来批判性地研究数字技术对当代文化和社会的发展和影响。该课程着眼于数字化发展如何重塑各种社会政治和经济领域，如工作、政府、身份、文化传播、金融、工业等。通过研究数字技术和行业，本课程的学生提高他们的分析和沟通技能，同时对数字技术的影响获得批判性见解。除了理论核心模块外，学生还将有机会参加以实践为基础的选修模块，通过个人和团队项目培养他们的实践和组织技能。本课程的学生将有可能从事社会和技术研究、智库、艺术和文化部门、政府和公共行政、国际发展、非政府组织、教育、全球媒体和通信以及营销和公共关系或新闻业的专业职业。他们还可以攻读博士学位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字文化与社会概论 (Introduction to Digital Culture & Society)\n学位论文 (Dissertation)\n网络技术 (Web Technologies)\n文化遗产的传播与消费 (Communication & Consumption of Cultural Heritage)\n开放文化 (Open Culture)\n数字出版 (Digital Publishing)\n数字文本的编辑模型：理论与实践 (Editorial Models for Digital Texts: Theory & Practice)\n地图、应用程序和地理网络：空间人文概论 (Maps、Apps & the GeoWeb: Introduction to the Spatial Humanities)\n元数据理论与实践 (Metadata Theory & Practice)\n数字生态系统 (Crowds & Clouds - Digital Ecosystems)\n数字媒体与营销 (Digital Media、Digital Marketing)\n广播媒体中的数字资产与媒体管理 (Digital Asset & Media Management in the Broadcast Media)\n数字文化的策展与保存 (Curating & Preserving Digital Culture)\n实践中的数字资产与媒体技术 (Digital Asset & Media Technologies in Practice)\n数字产业管理 (Management for Digital Content Industries)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 360000港币/年",
+  "requirements": "具有认可大学颁发的学士学位或同等专业资格，通常达到二等荣誉学位或平均成绩不低于B\n不强制要求GMAT/GRE，但良好的GMAT/GRE成绩将有助于申请",
+  "objectives": "香港中文大学商业分析硕士学位课程旨在培训专业人员用定量工具分析数据并将其转化为有用的信息。学生将接受统计工具和定量方法的培训，使他们能够探索和调查大量数据。在专业人士的指导下，学生将学会广泛地使用数据，以确定关于业绩的关键见解，预测市场变化，并最终改善战略决策。香港中文大学商业分析硕士学位课程提供一系列精心挑选的商业分析课程，包括统计分析、决策模型和应用、管理人员的数据挖掘、经济分析、运营分析等。在课程结束时，学生将能够把大量的数据转化为做出合理商业决策所需的有意义的信息。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计分析 (Statistical Analysis)\n决策模型与应用 (Decision Models and Applications)\n管理角度的数据挖掘 (Data Mining for Managers)\n经济分析学 (Economic Analytics)\n运营分析 (Operations Analytics)\n管理服务营运 (Managing Service Operations)\n网络分析与智能 (Web Analytics and Intelligence)\n企业流程分析与仿真 (Business Process Analysis and Simulation)\n商业预测 (Business Forecasting)\n数据与知识管理 (Data and Knowledge Management)\n供应链与物流管理 (Supply Chain and Logistics Management)\n营销工程学 (Marketing Engineering)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "生物学数据科学理学硕士",
+  "ename": "MSc Data Science for Biology",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 24500英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历，需要生物学或相关学科领域背景",
+  "objectives": "生物科学日益受到大量数据的支配，这些数据可以从分子水平（基因组学、转录组学、蛋白质组学或代谢组学数据）扩展到从大量人群或社区收集的生态和环境数据。处理、分析和解释这些数据的能力对于解决21世纪的生物挑战至关重要。\n东安格利亚大学生物学数据科学理学硕士项目提供数据挖掘，生物信息学和统计学方面的全面知识和技能。学生将精通生物数据分析，学习基本技能，如统计分析、数据可视化和生物信息学技术，还将掌握分析复杂生物数据所需的工具，包括Python和R。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机科学家的专业技能 (Professional Skills for Computer Scientists)\n数据科学Python入门 (Introduction to Python for Data Science)\n生物学家统计学 (Statistics for Biologists)\n数据科学与生物信息学 (Data Science and Bioinformatics)\n数据挖掘 (Data Mining)\n论文（数据科学） (dissertation (data science))\n信息可视化 (Information Visualisation)\n科学家基于R的统计与建模 (Statistics and Modelling for Scientists Using R)",
+  "success_cases": ""
+}

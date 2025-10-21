@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "科技应用数学（精算及投资科学）理学硕士",
+  "ename": "MSc Applied Mathematics for Science and Technology (Actuarial and Investment Science)",
+  "tags": "商科,金工金数,理学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 2年\n项目学费: 141000港币/年",
+  "requirements": "具有荣誉学士学位或同等学历，需要工程、计算机科学、基础科学、商业、经济学背景\n需要说明所取得的所有相关专业资格/考试成绩，例如精算师协会（SOA）考试成绩",
+  "objectives": "香港理工大学科技应用数学（精算及投资科学）理学硕士课程致力于为学生打下精算和投资学的坚实基础。在完成了该课程后，毕业生将成为能够解决商业和社会问题的领军人才，能够识别、量化、评估或管理风险所涉的财务问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "概率论与随机模型 (Probability & Stochastic Models)\n统计推断 (Statistical Inference)\n金融数学 (Mathematics of Finance)\n损失模型与风险分析 (Loss Models & Risk Analysis)\n投资学 (Investment Science)\n寿险精算 (Life Contingencies)\n信度理论 (Credibility Theory )\n优化方法 (Optimization Methods)\n科技数学建模 (Mathematical Modelling for Science & Technology)\n应用线性模型 (Applied Linear Models)\n衍生工具定价数学 (Mathematics of Derivative Pricing)\n统计数据挖掘 (Statistical Data Mining)\n模拟仿真 (Simulation)\n决策分析 (Decision Analysis)\n论文 (Dissertation)",
+  "success_cases": ""
+}

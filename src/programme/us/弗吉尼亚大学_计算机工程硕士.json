@@ -1,0 +1,12 @@
+{
+  "school_name": "弗吉尼亚大学",
+  "major_name": "计算机工程硕士",
+  "ename": "ME in Computer Engineering",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 4年\n项目学费: 62,732美元/学年",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

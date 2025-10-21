@@ -1,0 +1,12 @@
+{
+  "school_name": "芝加哥大学",
+  "major_name": "金融数学理学硕士",
+  "ename": "Master of Science in Financial Mathematics",
+  "tags": "商科,金工金数",
+  "introduction": "专业方向: 金工金数\n项目类别: STEM\n入学时间: 秋季\n项目时长: 5 quarters\n项目学费: 84625美元\n项目规模: 75人\n平均G: 168.3\n男女比例: 73:27\n就业比例: 93%\n平均起薪: 105499美元\n留美比例: 73%",
+  "requirements": "多元微积分、概率论、线性代数",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

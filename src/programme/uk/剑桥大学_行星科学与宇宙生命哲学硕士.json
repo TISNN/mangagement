@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "行星科学与宇宙生命哲学硕士",
+  "ename": "MPhil Planetary Science and Life in the Universe",
+  "tags": "理科,物理,天文学研究所",
+  "introduction": "专业方向: 物理\n入学时间: 10月\n项目时长: 1年\n项目学费: 38196英镑/年",
+  "requirements": "申请者应该具有Good II.i荣誉学位或同等学历，需要熟悉矩阵代数、微积分、统计学，并能够使用和求解微分方程。有编码经验（至少40小时或同等经验）至关重要",
+  "objectives": "剑桥大学行星科学与宇宙生命哲学硕士项目为学生提供的培训有四个主要目标：\n培养学生研究行星技术的专业知识，从地球最深处的过去到太阳系行星再到系外行星；\n让学生了解生命的结构、其基本的物理化学要求及其对行星环境的影响；\n确保学生获得在团队中开展研究项目的必要实践经验；和，培养学生现代数据处理技术的能力，并传达这些技能在学术和工业领域广泛应用的意识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地球作为行星的物理学 (Physics of the Earth as a Planet)\n太阳系外行星的大气层和内部 (Extrasolar Planets Atmospheres and Interiors)\n探索岩石圈动力学 (Probing Lithospheric Dynamics)\n地球历史 (Earth History)\n地球系统和气候变化 (Earth System and Climate Change)\n生物无机化学 (Bio-inorganic Chemistry)\n计算机模拟方法 (Computer Simulation Methods)\n大气化学与全球变化 (Atmospheric Chemistry & Global Change)\n生物合成 (Biosynthesis)\n从基因组到蛋白质组 (From Genome to Proteome)\n进化和哺乳动物的比较解剖学 (Evolution and Comparative  Anatomy of Mammals)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "统计学理学硕士",
+  "ename": "MSc Statistics",
+  "tags": "理科,数学,统计学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 35340英镑/年",
+  "requirements": "具有2:1本科学位或同等学历，需要统计学、数学或数学含量足够高的理科背景",
+  "objectives": "华威大学统计学理学硕士项目旨在涵盖与专业统计学家职业生涯最相关的主题。课程将为学生在许多领域的就业铺平道路，包括营销、保险、银行和制药行业或者继续攻读博士学位。学生将接受两个核心模块的实践和理论培训，并进一步专业化，以及学生选择的六个可选模块的更广泛知识。硕士水平的教学比本科生水平更注重实际工作。这包括课程报告和学习最先进的专业研究子领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计方法 (Statistical Methods)\n统计实践导论 (An Introduction to Statistical Practice)\n具有高级主题的多元统计 (Multivariate Statistics with Advanced Topics)\n设计的具有高级主题的实验 (Designed Experiments with Advanced Topics)\n蒙特卡洛方法 (Monte Carlo Methods)\n具有高级主题的应用随机过程 (Applied Stochastic Processes with Advanced Topics)\n财务时间序列 (Financial Time Series)\n具有高级主题的医学统计 (Medical Statistics with Advanced Topics)\n贝叶斯预测与高级主题干预 (Bayesian Forecasting and Intervention with Advanced Topics)\n具有高级主题的统计遗传学 (Statistical Genetics with Advanced Topics)\n数据挖掘 (Data Mining)",
+  "success_cases": ""
+}

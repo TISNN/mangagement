@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "汽车工程理学硕士",
+  "ename": "MSc Automotive Engineering",
+  "tags": "工科,机械工程,航空和汽车工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 10月\n项目时长: 1年\n项目学费: 30950英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要工程或物理科学背景，必修课程包括数学、动力学、结构、流体、热力学\n具有2:2学位或同等学历的申请者如果具备汽车行业相关经验，其申请可能被考虑",
+  "objectives": "本课程旨在为那些对汽车工业感兴趣的人提供广泛的汽车学科相关的知识和技术培训。本课程与福特汽车公司、捷豹路虎公司等业内佼佼者合作，为学生提供广泛的汽车学科的知识和技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "汽车的性能 (Vehicle Performance)\n混合动力系统 (Hybrid Powertrains)\n电气化 (Electrification)\n自主车辆 (Autonomous Vehicles)\n系统集成 (System Integration)\n校准 (Calibration)\n车辆动力学 (Vehicle Dynamics)\n空气动力学 (Aerodynamics)",
+  "success_cases": ""
+}

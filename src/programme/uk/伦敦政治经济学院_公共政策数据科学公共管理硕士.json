@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦政治经济学院",
+  "major_name": "公共政策数据科学公共管理硕士",
+  "ename": "MPA Data Science for Public Policy",
+  "tags": "社科,公共政策与事务,公共政策系",
+  "introduction": "专业方向: 公共政策与事务\n入学时间: 9月\n项目时长: 2年\n项目学费: 32400英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景\n对于先前的专业工作经验没有正式要求，但是开始攻读LSE MPA的学生通常具备1年专业经验，许多人具备2年或2年以上的经验",
+  "objectives": "在大数据和快速技术变革的世界中，伦敦政治经济学院公共政策数据科学公共管理硕士课程旨在为专业人员提供核心量化、技术和分析工具，以应对现代政策挑战。该项目帮助学生培养一种严谨的、跨学科的公共政策方法，利用政治学、经济学、计量经济学和数据科学的工具和框架应对政策挑战，计算机编程和定量技能在该课程中发挥关键作用。伦敦政治经济学院公共政策数据科学公共管理硕士项目旨在为学生提供工具和框架，以分析和应对日益复杂和数据驱动的世界中紧迫的挑战。学生将磨练他们的定量和分析技能，从而能够承担政府、非政府组织、国际金融机构和私营部门的各种技术、政策、战略和领导角色。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公共政策的微观与宏观经济学 (Micro and Macro Economics for Public Policy)\n政治学与公共政策 (Political Science and Public Policy)\n定量方法与政策分析 (Quantitative Approaches and Policy Analysis)\n公共政策数据科学 (Data Science for Public Policy)\n毕业项目 (Capstone Project)\n技术、数据科学与政策 (Technology, Data Science and Policy)\n卫生系统绩效评估的方法与数据 (Methods and Data for Health Systems Performance Assessment)\n数学博弈论 (Mathematical Game Theory)\n公共政策哲学 (Philosophy for Public Policy)\n公共政策的公共经济学 (Public Economics for Public Policy)\n公共政策的政治经济学应用 (Political Economy Applications for Public Policy)\n政治创业 (Political Entrepreneurship)\n全球社会保障设计与交付 (Global Social Protection Design and Delivery)\n发展中的增长诊断学：理论与实践 (Growth Diagnostics in Development: Theory and Practice)\n政策制定：过程、挑战与结果 (Policy-Making: Process, Challenges and Outcomes)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "环境未来理学硕士",
+  "ename": "MSc Environmental Futures",
+  "tags": "工科,环境工程,地理、地质与环境学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 19700英镑/年",
+  "requirements": "具有2:2荣誉学位，需要相关专业背景；在相关领域的非标准资格或专业经验可以被考虑",
+  "objectives": "莱斯特大学环境未来理学硕士项目借鉴地理学和地球科学的理论、方法和方法，发展学生对当代环境挑战和未来解决方案的批判性、应用性理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "当代环境挑战 (Contemporary Environmental Challenges)\n城市环境的人为影响 (Anthropogenic Impact on the Urban Environment)\n生活的人类世 (Living the Anthropocene)\n环境未来 (Environmental Futures)\n为改变而研究:应用环境研究的技能和挑战 (Research for Change: Skills and Challenges of Applied Environmental Research )\n遥感 (Remote sensing )\n当代重要的地理位置 (Contemporary Critical Geographies)\n地理信息系统在环境健康中的应用 (GIS in Environmental Health)",
+  "success_cases": ""
+}

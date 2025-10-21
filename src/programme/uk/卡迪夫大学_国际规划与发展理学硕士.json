@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "国际规划与发展理学硕士",
+  "ename": "MSc International Planning and Development",
+  "tags": "社科,建筑,地理科学与规划学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 24700英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科领域背景，如建筑、作物保护、经济学、工程、金融/商业、地理、历史、土地资源管理、规划、政治、社会学",
+  "objectives": "卡迪夫大学国际规划与发展理学硕士项目旨在提供国际规划与发展方面的教育，使学生能够获得知识和批判性思维，从而为人类住区和城市系统的管理做出重大贡献。本课程适合那些想去从事规划专业工作的人，尤其是那些想在规划和发展问题上拥有国际视野的人。自 2008 年以来，世界上一半以上的人口居住在城市，城市是文化、知识和创新的熔炉，但也存在贫困和排斥，全球化、环境污染和气候变化都威胁着城市居民的福祉。本课程涵盖有关空间规划和发展研究的内容，使学生能够获得知识与批判性思维，从而为城市的设计和管理做出重大贡献，该课程的核心教学版块侧重于发展和欠发达问题、全球化世界中的城市未来，以及在不同的政治、文化、经济和环境背景下创造空间和场所。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "发展与城市化进程 (Development and Urbanisation Processes)\n未来城市规划 (Planning City Futures)\n研究方法 (Research Methods)\n空间与场所：国际规划实践 (Space and Place: International Planning Practice)\n学位论文 (Dissertation)",
+  "success_cases": ""
+}

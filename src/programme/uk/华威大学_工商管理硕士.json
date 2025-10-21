@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 57500英镑/年",
+  "requirements": "申请者必须具备至少3年毕业后专业商业经验\n具有英国大学颁发的2:1本科学位或同等学历，但学校也欢迎没有学历但表现出色、有能力实现目标的申请者\n申请者必须完成GMAT或GRE，没有最低分数要求但分数达到平均水平将被视为有竞争力（目前班级平均分为GMAT670， Focus edition 615，相当于百分位排名78%，GRE语言推理和数量推理部分达到160将被视为有竞争力）",
+  "objectives": "华威大学工商管理硕士项目是为那些希望在世界上有所作为的有远见的领导者而设计的，帮助学生获得工具、信心和大局观，从而跃升到职业生涯的下一个层次。无论是想改变工作职能、行业、地点，还是仅仅增加收入能力，该课程都会支持学生充分发挥潜力，让学生在任何道路上都能产生影响。通过国际旅行、指导与领先公司和来自不同行业和文化的同行团队的进行深度合作，使学生将在个人和学术上获得成长。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计与财务管理 (Accounting and Financial Management)\n组织的创新与创造 (Innovation and Creativity in Organisations)\n新世界管理 (Managing in a New World)\n市场营销 (Marketing)\n运营管理 (Operations Management)\n组织行为学 (Organisational Behaviour)\n战略思维 (Strategic Thinking)\n财务与会计 (Finance and Accounting)\n全球商业 (Global Business)\n创业学 (Entrepreneurship)\n战略学 (Strategy)\n管理与领导 (Management and Leadership)",
+  "success_cases": ""
+}

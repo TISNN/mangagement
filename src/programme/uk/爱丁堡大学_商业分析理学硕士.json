@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 33100英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要与以下领域相关的背景：管理科学、运筹学、统计学、计量经济学、数学、物理学、计算机科学、工程学，或具有商业与管理背景（包含明显的定量内容）\n理想情况下申请者的背景应该包括线性代数、微积分、概率论、统计学和计算机编程等方面的课程学习背景和/或经验\n如果申请者具有非相关学科的英国2:1荣誉学位或同等学历但具备相关工作经验，学校可能会考虑其申请\n有工作经验者优先考虑（不强制要求）",
+  "objectives": "考虑到当今企业可以访问的数据量不断增加，对具备计算和分析技能、能够帮助企业决策以提高效率并最终建立竞争优势的员工的需求日益增加。爱丁堡大学商业分析理学硕士项目正是基于这一点而开发，旨在让其学生明白业务环境的多样性、组织面临的决策问题的重要性和相关性、如何使用多种技术解决这些问题。在此课程中，学生将学习如何运用大数据概念和技术的描述性、预测性和规范性分析，以产生有价值的见解，帮助决策。总而言之，该课程旨在让学员掌握必要的技能，解释大数据，将大数据概念化并转化为有用的信息，从而使他们作为未来的业务经理能够做出更明智的决策。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "Python编程 (Python Programming)\n预测分析与数学建模 (Predictive Analytics and Modelling of Data)\n数学编程规范分析 (Prescriptive Analytics with Mathematical Programming)\n数据分析原理 (Principles of Data Analytics)\n商业分析的博弈论 (Game Theory for Business Analytics)\nDEA绩效分析：基本概念与方法 (Performance Analytics with DEA: Basic Concepts and Methods)\n仿真建模与分析 (Simulation Modelling and Analysis)\n网络与社交网络分析 (Web and Social Network Analytics)\n软计算商业分析 (Business Analytics with Soft Computing)\n高级数据建模 (Advanced Data Modelling)\n高级仿真技术 (Advanced Simulation Techniques)\n游戏供应链分析 (Supply Chain Analytics with Games)\n工业分析 (Industrial Analytics)",
+  "success_cases": ""
+}

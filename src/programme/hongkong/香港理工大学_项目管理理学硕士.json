@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "项目管理理学硕士",
+  "ename": "MSc Project Management",
+  "tags": "工科,工程管理,建筑及环境学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 244800港币/年",
+  "requirements": "具有学士学位或同等学历（包括认可的专业资格），需要相关学科背景",
+  "objectives": "香港理工大学项目管理理学硕士学位课程专为在职建筑师、建筑经理、工程师、测量师、技术人员及相关专业人士提供加强其项目管理知识的机会。\n香港理工大学项目管理理学硕士学位课程旨在协助学生发展从项目管理层面解决问题的创新方法。香港理工大学项目管理理学硕士学位课程将为中国，包括香港特别行政区，培训更多高技巧项目管理人才。\n香港理工大学项目管理理学硕士学位课程已获英国特许建造学会(CIOB)，英国皇家特许测量师学会(RICS)及香港项目管理学会(HKIPM)认可。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "房地产开发 (Real Estate Development)\n项目管理原理 (Principles of Project Management)\n项目人事管理 (Managing People in Projects )\n建筑过程管理 (Construction Process Management)\n策略管理 (Strategic Management )\n项目评估 (Project Appraisal)\n国际建筑项目 (International Construction Projects)\n开发融资及投资 (Development Finance & Investment)\n建筑及房地产学研究及咨询技巧 (Research & Consultancy Techniques for Construction & Real Estate)\n建筑资讯科技 (Construction Information Technology)\n建筑及物业的价值管理 (Value Management in Construction & Property)",
+  "success_cases": ""
+}

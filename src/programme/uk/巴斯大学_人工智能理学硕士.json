@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence",
+  "tags": "工科,计算机,计算机科学系",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 33200英镑/年",
+  "requirements": "具有一等或strong 2nd荣誉学位，需要数学学科的本科学位，比如计算机科学、数学、物理、经济学、工程学或相关的社会科学。申请者还应该能够熟练掌握微积分和线性代数等数学主题，熟悉概率和统计，并具有良好的编程基础",
+  "objectives": "巴斯大学人工智能理学硕士项目为学生提供人工智能原理的基础知识，以及人工智能开发编程语言和软件工具的熟练程度。学生还将了解人工智能的法律、道德、社会和专业影响。所开发的实用知识和技能将使学生能够应用人工智能技术解决医疗保健、金融、网络安全以及制造业和工业等各个领域的实际问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "软件技术分析 (Analytic Software Technologies)\n应用人工智能 (Applied Artificial Intelligence)\n基础机器学习 (Foundational Machine Learning)\n强化学习 1 (Reinforcement Learning 1)\n理解深度学习 (Understanding Deep Learning)\n经典人工智能 (Classical Artificial Intelligence)\n研究与开发项目技能 (Research and Development Project Skills)\n专业项目 (Specialist Project)",
+  "success_cases": ""
+}

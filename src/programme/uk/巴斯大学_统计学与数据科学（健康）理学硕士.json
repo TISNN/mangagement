@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "统计学与数据科学（健康）理学硕士",
+  "ename": "MSc Statistics and Data Science (Health)",
+  "tags": "理科,数据科学,数学系",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有一等或strong 2nd荣誉学士学位或同等学历\n拥有包含大量数学元素的学科背景，例如数学、统计学、计算机科学、物理学、化学、工程学或经济学。计算机编程经验也将是有利的。\n学校还将考虑其他学科，例如地理或生物学，这些学科可能根据其特定的数学和计算内容满足标准",
+  "objectives": "巴斯大学统计学与数据科学（健康）理学硕士项目将为学生提供从制药公司到医院和健康分析公司的雇主所追捧的技能。学生将学习数据科学和统计学的基础知识，包括机器学习和统计建模等关键分析方法，以及 Python 和 R 的编程和数据分析技能。学生还将获得广泛的健康实践经验通过应用健康数据科学中定制的为期一年的单元进行应用。这将使学生具备解释、分析和评估现实生活中医疗保健问题的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用机器学习 (Applied Machine Learning)\n数据科学编程 (Programming for Data Science)\n数据科学统计 (Statistics for Data Science)\n健康数据科学与统计 (Data Science and Statistics for Health)\n应用统计 (Applied Statistics)\n调查的统计设计 (Statistical Design of Investigations)\n统计模型 (Statistical Modelling)\n研究项目准备 (Research Project Preparation)\n论文 (Dissertation)",
+  "success_cases": ""
+}

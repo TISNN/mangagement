@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "健康心理学理学硕士",
+  "ename": "MSc Health Psychology",
+  "tags": "社科,心理学,精神病学、心理学与神经科学研究所",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 37800英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，需要英国心理学会（BPS）认可的心理学学士学位",
+  "objectives": "伦敦大学国王学院心理健康理学硕士项目面向希望继续成为认证健康心理学师的心理学专业学生，培养学生健康心理学的专业知识，传授定量和定性研究方法，从而学生能够进行评估、计划和研究。临床实习为学生提供在实践中观察和学习健康心理学以及基本临床技能的机会。伦敦大学国王学院心理健康理学硕士项目要求学生与导师合作进行一个研究项目。学生将制定自己的研究计划，也有机会参与到学术人员的研发项目中去。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "初级和高级研究方法和统计学 (Basic and Advanced Research Methods and Statistics)\n行为、认知和情感健康 (Health Related Behaviours、Cognitions and Emotions)\n慢性疾病和残疾的心理社会因素 (Psychosocial Factors in Chronic Illness and Disability)\n心理与健康服务供给 (Psychology and Health Care Delivery)\n行动和专业发展中的健康心理学 (Health Psychology in Action and Professional Development)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "认知神经科学与人类神经影像学理学硕士",
+  "ename": "MSc Cognitive Neuroscience and Human Neuroimaging",
+  "tags": "社科,心理学,心理学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33970英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要行为神经学、认知神经科学、计算神经科学、神经影像学、神经药理学、神经科学、心理学学科背景，学校也可能会考虑生命科学、物理科学、数学或工程学的学位 申请者需要学习过相关课程，课程列表详见官网\n学校也接受希望插班学习的医学生",
+  "objectives": "谢菲尔德大学认知神经科学与人类神经影像学理学硕士课程旨在为学生提供认知神经科学和人类神经成像的核心方面的深入培训，使学生能够了解健康和不健康大脑中认知功能和潜在神经底物之间的关系，发展在神经成像、神经生理数据收集和分析技术以及实用神经解剖学方面的技能和知识。在谢菲尔德大学认知神经科学与人类神经影像学理学硕士的课程中，神经科学家将向学生介绍关键的研究技术，包括功能和结构MRI、皮肤电导反应记录、神经心理学、经颅磁刺激和经颅直流电刺激。一旦掌握了所需要的技巧，学生将有很多机会在整个谢菲尔德大学认知神经科学与人类神经影像学理学硕士课程中应用这些技巧来测试包括情绪对行为、执行功能、阿尔茨海默病、癫痫和运动神经元疾病等领域的假设。谢菲尔德大学认知神经科学与人类神经影像学理学硕士还提供涵盖认知神经科学全广度的理科硕士课程：认知和计算神经科学硕士、系统神经科学理学硕士。从生物学基础到成像和模拟，让学生发现最感兴趣的领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "认知基础 (Fundamentals of Cognition)\n神经科学基础 (Fundamentals of Neuroscience)\n神经影像1 (Neuroimaging 1)\n神经影像2 (Neuroimaging 2)\n数据分析与可视化 (Data Analysis and Visualization)\n认知神经科学研究项目 (Research Project in Cognitive Neuroscience)\n神经解剖学 (Neuro-Anatomy)\n系统神经科学 (Systems Neuroscience)\n计算神经科学1 (Computational Neuroscience 1)\n计算神经科学2 (Computational Neuroscience 2)",
+  "success_cases": ""
+}

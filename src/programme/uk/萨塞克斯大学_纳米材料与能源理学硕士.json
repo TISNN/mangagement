@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "纳米材料与能源理学硕士",
+  "ename": "MSc Nanomaterials and Energy",
+  "tags": "工科,材料,数学与物理科学学院",
+  "introduction": "专业方向: 材料\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，拥有物理、化学、工程学背景，其他学位将根据个人情况考虑。如果申请者对物理专业感兴趣，应该学习过量子力学的课程。如果申请者拥有其他专业资格或同等经验，也可能被考虑参加该课程\n申请者需要申请ATAS证书",
+  "objectives": "纳米科学和纳米材料的研究集合了科学的所有方面来研究、理解和应用所有微小的事物。自从微型材料的规模化生产成为可能以来，纳米材料就对研究方向产生了深远的影响。现在，研究人员在研究领域和未来技术中应用纳米材料，这将解决我们的许多社会需求——从骨骼和肌肉再生到新时代电池。材料物理学和纳米科学是萨塞克斯大学发展最快和最令人兴奋的研究领域之一。学生将学习如何将物理和化学基础应用于纳米材料及其新兴技术。如果学生有物理、化学和/或工程背景，并对纳米材料的学术或工业生涯感兴趣，纳米材料与能源理学硕士课程将非常适合。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "纳米材料与纳米表征 (Introduction to Nano-materials and Nano-characterisation)\n化学激光 (Lasers in Chemistry)\n高级凝聚态物理 (Advanced Condensed State Physics)\n高级纳米科学与分子结构 (Advanced Nanoscience and Molecular Structure)\n高级光谱学 (Advanced Spectroscopy)\n原子与光的相互作用 (Atom Light Interactions)\n计算化学 (Computational Chemistry)\n电子、冷原子和量子电路 (Electrons, Cold Atoms & Quantum Circuits)\n实用量子技术 (Practical Quantum Technologies)\n量子光学与量子信息 (Quantum Optics and Quantum Information)",
+  "success_cases": ""
+}

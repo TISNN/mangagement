@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "管理硕士",
+  "ename": "Master of Management Studies",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 2年\n项目学费: 127500港币/年",
+  "requirements": "不局限于任何专业",
+  "objectives": "经济全球化的快速进程促使整个社会对管理类人才的需求增快。与此同时，随着技术和文化的不断发展，管理的思想和技术也产生令人惊喜的进步，管理领域在需要管理实践人才的同时也更需要管理类的研究人才和教学人才。管理硕士学位就是为了培养管理类的研究人才而设立，课程面向各专业的本科应届毕业生招生，并且欢迎有工作经验并有志从事管理研究工作的人士入读。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "营销管理 (MARKETING MANAGEMENT)\n研究方法 (RESEARCH METHODOLOGY)\n管理经济学 (MANAGERIAL ECONOMICS)\n组织行为学 (ORGANIZATIONAL BEHAVIOR)\n管理导论 (INTRODUCTION TO MANAGEMENT)\n统计学 (STATISTICS)\n管理决策方法 (MANAGERIAL DECISION METHODS)\n商业伦理 (BUSINESS ETHICS)",
+  "success_cases": ""
+}

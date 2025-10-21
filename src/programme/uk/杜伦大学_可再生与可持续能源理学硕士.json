@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "可再生与可持续能源理学硕士",
+  "ename": "MSc Renewable and Sustainable Energy",
+  "tags": "工科,能源,工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有二等荣誉学位（通常相当于英国2:1荣誉学位）或更高学历，通常需要适当的工程或工程相关学科背景，包括电气工程和/或热力学、流体力学和传热、工程师或科学家数学课程以及计算/编程经验（最好是Matlab，但其他语言也是可接受的），某些情况下学校可以考虑具有不同的第一学位同时具备工业或其他相关经验的申请者",
+  "objectives": "杜伦大学可再生与可持续能源理学硕士项目旨在通过应用可再生能源和可持续能源技术，为毕业生提供满足日益增长的能源和环境可持续性挑战所需的技能。该课程使学生能够发展跨越传统工程边界解决问题的能力，理解对从源头到终端用户的完整能源系统，具有相关技术的知识，并了解系统之间的相互作用。该课程还为学生提供机会，通过个人和团队项目工作培养研究、开发、设计和项目管理技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "可再生能源技术 (Renewable Energy Technologies)\n未来交通工具 (Future Vehicles)\n电能转换 (Electrical Energy Conversion)\n智能能源网络 (Smart Energy Networks)\n供热制冷碳减排 (Decarbonisation of Heating and Cooling)\n环境工程 (Environmental Engineering)\n万联网 (Internet of Everything)\n最优化 (Optimisation)",
+  "success_cases": ""
+}

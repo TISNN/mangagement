@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门理工大学",
+  "major_name": "中葡笔译暨传译硕士",
+  "ename": "Master of Chinese-Portuguese Translation and Interpreting",
+  "tags": "社科,语言,语言及翻译学院",
+  "introduction": "专业方向: 语言\n入学时间: 8月\n项目时长: 2年\n项目学费: 85000澳门币/年",
+  "requirements": "具有学士学位或同等学历；及\n在中、葡两种语言中精通一种、熟练掌握另一种，并应具备良好英语阅读能力；或\n正修读上述学历课程最后一年。\n其他所需文件：\n- 语言水平测试证明（如有）\n- CATTI证书（如有）\n- 内地往届学士毕业生须提交应届内地全国研究生招生考试初试成绩，且达国家一区分数线或以上",
+  "objectives": "本课程分笔译及传译两个专业，学生通过系统学习进一步强化沟通翻译能力，巩固行政、法律、商业、影视等不同领域的专业语言知识，掌握运用翻译领域高新科技，以成为独当一面的专业笔译或传译人员。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "翻译硏究 (Translation Studies)\n跨文化研究 (Intercultural Studies)\n硏究方法论 (Research Methodology)\n笔译技巧与实践 (Translation Techniques and Practices)\n口译技巧与实践 (Interpretation Techniques and Practices)\n法律及行政笔译 I (Legal and Administrative Translation I)\n法律及行政笔译 II (Legal and Administrative Translation II)\n专业技术笔译 I (Technical and Scientific Translation I)\n专业技术笔译 II (Technical and Scientific Translation II)\n计算器辅助翻译(CAT) (Computer-Assisted Translation (CAT))\n视译 (Sight Translation)\n交替传译 (Consecutive Interpretation)\n交替传译进阶 (Advanced Consecutive Interpretation)\n同声传译 (Simultaneous Interpretation)\n影视翻译 (Audiovisual Translation)\n商务笔译 (Business Translation)\n笔译工作坊 (Translation Workshops)\n交替传译实践 (Consecutive Interpretation Practice)\n同声传译实践 (Simultaneous Interpretation Practice)\n会议准备 (Conference Preparation)\n项目报告 (Project Report)",
+  "success_cases": ""
+}

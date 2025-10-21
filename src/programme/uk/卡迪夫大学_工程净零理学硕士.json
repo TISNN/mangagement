@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "工程净零理学硕士",
+  "ename": "MSc Engineering Net Zero",
+  "tags": "工科,其他工科,工程学院",
+  "introduction": "专业方向: 其他工科\n入学时间: 9月\n项目时长: 1年\n项目学费: 29450英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，具有相关学科背景（例如工程学）\n如果申请者没有相关领域的学位，学校将考虑专业经验，需提交证据证明",
+  "objectives": "卡迪夫大学工程净零理学硕士项目将为学生提供一系列主题以及应对工程挑战的创造性和创新方法，并将帮助自己作为独立思考者以灵活的方式运用各种技能、关键知识和理解来寻求可实现的可持续解决方案。学生将围绕脱碳的共同愿景领导社会转型的变革。\n卡迪夫大学工程净零理学硕士项目汇集了工程和科学毕业生，合作为我们当前的实践提供累积的变革和转型，这将为净零社会奠定基础。学生将受益于我们在脱碳、可持续性和净零碳方面的最新研究成果，这些都是应对气候变化的关键领域。学生还将从我们与外部合作伙伴的合作中学习，他们与我们一起为这些挑战提供解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地球与社会 (Earth and Society)\n低碳足迹 (Low Carbon Footprint)\n脱碳原则 (Principles for Decarbonisation)\n脱碳设计项目 (Decarbonisation Design Project)\n脱碳研究项目 (Decarbonisation Research Project)\n脱碳论文 (Decarbonisation Dissertation)",
+  "success_cases": ""
+}

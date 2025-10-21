@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "口译、技术与人工智能（中文）文学硕士",
+  "ename": "MA Interpreting, Technology and AI (Chinese)",
+  "tags": "社科,语言,文学和语言学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 21800英镑/年",
+  "requirements": "具有2:2英国荣誉学位，需要英语或相关学科背景\n必须以中文为母语才能申请，如果申请者不符合以上要求，学校可能会考虑其相关工作经验，如果申请者具备至少1年全职毕业后职位相关经验（或至少2年相关毕业后兼职职位经验），需要在提交申请时在个人陈述和简历中提供职位和责任的详细信息",
+  "objectives": "萨里大学口译（中文）文学硕士项目共开设多语言和中文两个方向。萨里大学口译（中文）文学硕士学位项目（中文方向）涵盖中英口译技巧训练，旨在为会议口译翻译、商务口译翻译和政治口译翻译领域培养更多的高端专业人才。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "翻译和口译研究 (Translation and Interpreting Studies)\n翻译研究方法导论 (Research Methods in Translation Studies)\n公共服务口译-趋势与专题 (Public Service Interpreting - Trends and Issues)\n交替传译中文1（中文方向） (Consecutive Interpreting Chinese 1 [Chinese Pathway] )\n交替传译中文2（中文方向） (Consecutive Interpreting Chinese 2 [Chinese Pathway])\n同声传译中文1（中文方向） (Simultaneous Interpreting Chinese 1 [Chinese Pathway])\n同声传译中文2（中文方向） (Simultaneous Interpreting Chinese 2 [Chinese Pathway])\n硕士论文（翻译与口译研究） (Dissertation (MA Translation and Interpreting Studies))\n专业翻译l (Specialist Translation I)\n口译与技巧 (Interpreting and Technologies)\n专业翻译lI (Specialist Translation II)",
+  "success_cases": ""
+}

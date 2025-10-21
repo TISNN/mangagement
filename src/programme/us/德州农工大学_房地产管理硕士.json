@@ -1,0 +1,12 @@
+{
+  "school_name": "德州农工大学",
+  "major_name": "房地产管理硕士",
+  "ename": "MS in Real Estate",
+  "tags": "商科,房地产",
+  "introduction": "专业方向: 房地产\n入学时间: 春季/秋季\n项目时长: 16个月\n项目学费: 73,000美元\n就业比例: 100%",
+  "requirements": "会计学入门- (ACCT 229/209)\n金融- (FINC 341/409)\n微观经济学(econ202或同等学历)\n统计学- (STAT 303或302或其他三个小时的本科统计学课程批准)",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

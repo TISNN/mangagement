@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence",
+  "tags": "工科,计算机,计算机科学与电子工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:1学位，本科背景涵盖以下一门或多门课程：数据库、Web开发、软件工程、操作系统、计算机架构、计算机系统以及以下一门或多门数学课程，如：数学、微积分、代数、微分方程、概率论与统计学以及以下一门或多门信号与系统课程，如：信号与系统、控制理论、计算机系统、嵌入式系统、微处理器、自动化与控制工程、控制技术、系统硬件基础、控制工程以及以下两门或多门编程课程：C、C#、C、Java、Python、MATLAB、面向对象编程/OOP、高级编程、编程入门、编程语言、软件工程、系统编程、算法、数据结构、编程元素",
+  "objectives": "埃塞克斯大学人工智能理学硕士课程涉及生物、社会和语言驱动的计算范式的理论、设计、应用和发展。重点是将人工智能技术与现实世界的应用和项目连接起来，包括商业和金融应用中的人工智能、游戏中的人工智能、生物科学和医学中的人工智能以及工业控制中的人工智能。埃塞克斯大学人工智能理学硕士课程涵盖了人工智能的理论、应用和实践方面，重点是：遗传算法，进化编程，模糊系统，神经网络，连接系统，混合智能系统",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "理学硕士项目与学位论文 (MSc Project and Dissertation)\n机器学习与数据挖掘 (Machine Learning and Data Mining)\n专业实践与研究方法 (Professional Practice and Research Methodology)\n团队项目 (Group Project)\n智能系统与机器人技术 (Intelligent Systems and Robotics)\n游戏人工智能 (Game Artificial Intelligence)\n自然语言工程 (Natural Language Engineering)\n神经网络与深度学习 (Neural Networks and Deep Learning)\n创建与发展新企业 (Creating and Growing a New Business Venture)\n经济学与金融学计算模型 (Computational Models in Economics and Finance)\n文本分析 (Text Analytics)\n数据科学与决策 (Data Science and Decision Making)",
+  "success_cases": ""
+}

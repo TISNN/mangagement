@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "土木工程理学硕士",
+  "ename": "MSc Civil Engineering",
+  "tags": "工科,土木工程,工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，通常需要适当的工程或工程相关学科背景，包括岩土工程、结构工程、工程师或科学家数学、流体力学和编码/计算机编程等课程，某些情况下学校可以考虑具有不同的第一学位同时具备工业或其他相关经验的申请者",
+  "objectives": "杜伦大学土木工程理学硕士项目将通过三种方式帮助学生理解土木工程方面的先进知识。首先，高质量的教学课程将引入高级土木工程课题，如结构设计、高速公路工程等。其次，大量的土木工程设计课程将使学生有能力使用适当的设计标准和复杂的工程分析工具在跨国团队中进行先进的设计。最后，学生能够通过重要的研发项目培养学生复杂课题中独立工作的能力，提高迎接工程挑战的积极性。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研发项目 (Research and Development Project)\n设计 (Civil Design)\n流体力学与叶轮机械 (Structures、Highways and Construction)\n应用力学4 (Advanced Geotechnical Engineering and Hydrology)\n热力学和流体力学3 (Structures and Geomatics 3)\n应用力学3 (Environmental Engineering 3)",
+  "success_cases": ""
+}

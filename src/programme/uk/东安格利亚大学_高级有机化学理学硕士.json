@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "高级有机化学理学硕士",
+  "ename": "MSc Advanced Organic Chemistry",
+  "tags": "理科,化学,化学学院",
+  "introduction": "专业方向: 化学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29200英镑/年",
+  "requirements": "具有英国2:1学士学位或同等学历，需要化学或相关联合学科背景（取决于内容）",
+  "objectives": "通过东安格利亚大学高级有机化学理学硕士项目，学生可以在本科的化学基础上，加深对化学学科的理解，同时可以深入学习有机化学知识，主要包括：有机反应机制、光谱学、合成策略等等。这种高水平训练深受化学行业的雇主以及从事基础研究的高级学术机构的青睐。在项目中，学生将参加专业讲座、研讨会和实验室课程，这些都是为满足制药、农用化学品、特殊化学品和精细有机化学品行业的需求而设立的。学生还将自行选择课题，与专业学者密切合作，完成有深度的研究项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文写作 (Dissertation)\n实验室部分 (Laboratory Unit)\n讲座部分 (Lecture Unit)\n研究训练部分 (Research Training Unit)",
+  "success_cases": ""
+}

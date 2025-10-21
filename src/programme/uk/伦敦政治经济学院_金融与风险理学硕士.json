@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦政治经济学院",
+  "major_name": "金融与风险理学硕士",
+  "ename": "MSc Finance and Risk",
+  "tags": "商科,金融,金融系",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 43900英镑/年",
+  "requirements": "本科学位：\n具有2:1荣誉学位或同等学历，不限专业背景，具备良好的定量分析能力\n定量技能：\n成功的申请者通常在以下一个或多个领域具备扎实的本科背景：经济学、金融学、数学、统计学和会计学，但学校也欢迎来自其他背景的申请者，如果申请者在这些领域没有足够的背景，学校可能会要求其参加一个或多个伦敦政治经济学院暑期学校的课程\nGMAT/GRE：\n所有没有英国本科学位的申请者都需要提交GMAT或GRE（强烈建议GMAT），建议以下申请者提交GMAT：具有英国本科学位的申请者，特别是那些在本科学习中没有表现出量化技能的申请者\n专业经验：\n工作经验（无论是通过实习还是全职工作）不是先决条件；然而，具备一些专业经验的申请者应该在其申请中包括这些，因为这可能会有助于申请",
+  "objectives": "一个组织的成功与否取决于其应对风险的能力。随着人们对风险越来越重视，风险管理如今已被看作是需要特殊技能的专业，而这些技能对组织的运营至关重要。\n量化与评估特定的风险（如预期寿命或意外事故）由来已久。近来，金融市场和环境领域量化工具的发展大有进步。同时，其他社会科学学科对于如何感知更复杂的风险，社会机构如何调整自己以适应这些风险等方面也提供了重要的见解。\n伦敦政治经济学院金融与风险理学硕士旨在提高学生在各种环境感知、管理和控制风险的能力。该项目讨论了如下问题：衡量与评估风险的有效方式是什么？企业、政府和市场组织如何增加或降低风险？市场、公司和社会中风险转移有哪些技巧？管理者和监管部门该如何控制风险？\n伦敦政治经济学院金融与风险理学硕士将帮助不同专业不同学科背景的学生获得风险管理和监管方面的知识，并提高学生特定专业领域内的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "风险管理与规章 (Management and Regulation of Risk)\n资产市场 (Asset Markets A)\n公司金融 (Corporate Finance A)\n金融学1 (Finance I)\n问责制、组织与风险管理 (Accountability、Organisations and Risk Management)\n估值与证券分析 (Valuation and Security Analysis)\n全球经济中的会计 (Accounting in the Global Economy)\n金融风险管理 (Financial Risk Analysis)\n金融时间序列预测 (Forecasting Financial Time Series)\n固定收益市场 (Fixed Income Markets)\n应用公司金融 (Applied Corporate Finance)\n公司金融与资产市场 (Corporate Finance and Asset Markets)\n金融与风险分析定量方法 (Quantitative Methods for Finance and Risk Analysis)\n投资组合管理 (Portfolio Management)\n国际金融 (International Finance)",
+  "success_cases": ""
+}

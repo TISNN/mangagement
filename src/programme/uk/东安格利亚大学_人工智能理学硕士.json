@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 24500英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历,不限专业背景，前提是申请者在课程开始之前获得一些编程经验（最好是Python），如果申请者之前没有用Python编程过，则必须在课程开始之前通过使用在线开放资源或学校提供的录制讲座来自学Python编程语言的一些基础知识\n如果申请者的学位成绩不符合正常的入学要求但能证明具备大量相关工作经验，仍然可以申请，学校的课程是灵活的，将根据学生以前的知识和与导师的讨论为其创造不同的途径",
+  "objectives": "人工智能（AI）是计算科学中一个快速发展的领域，专注于开发通过学习人类智能和行为来解决现实世界问题的智能系统。人工智能对我们生活的方方面面都产生了重大影响，推动了对拥有先进知识和技能的专业人士的需求不断增长。东安格利亚大学人工智能理学硕士课程面向对人工智能感兴趣的学生，无论其背景如何，并为其在这个回报丰厚的领域开展专业生涯做好准备。根据学生的经验和兴趣，学习通常会从基础主题开始，比如Python编程、人工智能介绍和专业技能，然后课程发展到高级的专业课程，拓宽和深化其人工智能专业知识，学生的学习将侧重于人工智能和行业相关性的实际应用，同时也探索这个动态领域的前沿技术和新兴趋势。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n计算机科学家的专业技能 (Professional Skills for Computer Scientists)\n高级人工智能 (Advanced Artificial Intelligence)\n视听处理 (Audio and Visual Processing)\n人工智能 (Artificial Intelligence)\n网络安全概论 (Introduction to Cyber Security)\n高级编程 (Advanced Programming)\n应用程序编程 (Applications Programming)\n数据挖掘 (Data Mining)\n计算机视觉 (Computer Vision)\n普适计算 (Ubiquitous Computing)\n信息可视化 (Information Visualisation)",
+  "success_cases": ""
+}

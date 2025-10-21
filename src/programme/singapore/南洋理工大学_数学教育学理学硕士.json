@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "数学教育学理学硕士",
+  "ename": "MSc Mathematics for Educators",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 47415新币/年",
+  "requirements": "具有良好的理学学士学位或同等学历，具备强大的数学背景\n应届毕业生无法申请秋季入学",
+  "objectives": "新加坡南洋理工大学数学教育学理学硕士项目主要满足数学教育者的专业需求，致力于向学生传授数学领域内广泛深入的专业知识以及实用的数学教学技巧。在专业教师的积极指导下，学生们将有机会学习数学学科不同专业领域的课程。指导教师们大多数都具备数学教学资格。在数学教学过程中，对于数学知识的牢固掌握将有助于教师更好地进行教学，也有助于提升学生高层次思维能力。教育机构中的数学专家同样能够获益于本项目，因为通过课程学习，他们能够丰富自身数学专业知识、提高教学能力、娴熟应对数学教学方面的各种困难，例如当下严谨化课程的设计、数学教学评估、教学资源开发等等。新加坡南洋理工大学数学教育学理学硕士项目面向数学专业的本科毕业生，同时也招收数学功底扎实并且有志于进行数学硕士生深造的非数学专业本科毕业生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数学探究 (Mathematical Inquiry )\n师范高等微积分学及应用 (Advanced Calculus and Applications for Educators)\n师范抽象代数 (Abstract Algebra for Educators )\n微积分教学中数学分析元素的应用 (Elements of Mathematical Analysis with Applications in the Teaching of Calculus)\n数论和算数教学 (Number Theory and the Teaching of Arithmetic)\n统计推理 (Statistical Reasoning for Educators)\n离散数学及问题解决 (Discrete Mathematics and Problem Solving)\n几何学及其教学 (Geometry and the Teaching of Geometry)\n计算与编程技术 (Computing and Programming Techniques)\n实分析 (Real Analysis)\n泛函分析 (Functional Analysis)\n交换和非交换代数 (Commutative and Noncommutative Algebra)\n应用代数专题 (Topics in Applied Algebra)\n微分方程理论和应用 (Theory and Applications of Differential Equations)\n应用数学进阶技巧 (Advanced Techniques in Applied Mathematics)",
+  "success_cases": ""
+}

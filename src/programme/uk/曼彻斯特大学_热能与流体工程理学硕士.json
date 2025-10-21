@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "热能与流体工程理学硕士",
+  "ename": "MSc Thermal Power & Fluid Engineering",
+  "tags": "工科,能源,机械、航空航天及土木工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有二等英国荣誉学位或同等学历，需要相关理工科背景，学校会考虑申请者本科学位中关键相关课程的成绩以及整体学位成绩\n申请者如果是在读生，需要提供最后一年学习的所有课程的正式列表",
+  "objectives": "曼彻斯特大学热能与流体工程理学硕士项目已拥有长达近40年的历史，适合工程科学专业本科生，适合用于提升热流体专业能力、提升使用最先进分析、计算和实验方法的竞争力，旨在训练培养热流体工程师，使他们具备就业或进一步研究必需的技能，以满足产业当前和未来的需求。\n曼彻斯特大学热能与流体工程理学硕士项目旨在培养拥有以下专业能力的毕业生：\n深入了解热和流体流动过程及其在现代发电方法中的作用；\n深入了解热和流体流动的数值模拟和实验技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究方法 (Research Methods)\n计算流体力学I (Computational Fluid Dynamics I)\n学位论文（热力与流体工程） (Dissertation (Thermal Power & Fluids Engineering))\n高级电力 (Advanced Power)\n高级工程流体力学 (Advanced Engineering Fluid Mechanics)\n高级计算流体动力学 (Advanced Computational Fluid Dynamics)\n热传递 (Heat Transfer)\n热力学 (Thermodynamics)\n实验方法（热力与流体工程理学硕士） (Experimental Methods (MSc Thermal Power & Fluids Engineering))",
+  "success_cases": ""
+}

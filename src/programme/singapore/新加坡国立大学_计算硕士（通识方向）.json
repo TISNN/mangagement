@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "计算硕士（通识方向）",
+  "ename": "Master of Computing (General Track)",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/8月\n项目时长: 1.5年\n项目学费: 47088新币/年",
+  "requirements": "适合非计算学位的申请者\n具有荣誉学士学位，不限专业背景\n优先考虑具备IT相关工作经验的申请者\n需要提交GRE或GMAT\n可以选择性提交存款证明，金额覆盖至少一学年学费",
+  "objectives": "新加坡国立大学计算硕士（通识方向）项目已经发展成为一个全面且具有挑战性的研究生课程，其专业模块包括应用和基础计算领域的最新研究成果。该计划提供先进的IT知识，帮助学生为IT职业生涯中的挑战做好准备。该计算机学院还为计算硕士（通识方向）课程引入了通用课程。这个新的课程主要是为拥有非计算机本科学位的学生设计的，旨在为希望加速转向计算机领域的毕业生提供一条系统的途径。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "软件开发基础 (Software Development Fundamentals)\n计算机系统与应用 (Computer Systems and Applications)\n数据结构与算法 (Data Structures and Algorithms)\n企业系统架构基础 (Enterprise Systems Architecture Fundamentals)\n人工智能 (Artificial Intelligence)\n数据分析基础 (Fundamentals of Data Analytics)\n应用架构软件工程 (Software Engineering on Application Architecture)\n计算机毕业项目 (Computing Capstone Project)\n高级计算机体系结构 (Advanced Computer Architecture)\n系统安全 (Systems Security)\n搜索引擎优化与分析 (Search Engine Optimization and Analytics)\n平台设计与经济 (Platform Design and Economy)\n数字化转型 (Digital Transformation)\n人工智能中的不确定性建模 (Uncertainty Modelling in AI)\n软件测试 (Software Testing)",
+  "success_cases": ""
+}

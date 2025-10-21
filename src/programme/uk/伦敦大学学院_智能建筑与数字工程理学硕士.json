@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "智能建筑与数字工程理学硕士",
+  "ename": "MSc Smart Buildings and Digital Engineering",
+  "tags": "社科,建筑,建筑环境学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有二等学位或更高水平的英国学士学位或同等学历，需要相关学科背景（如工程或物理），如果学生能够表现出大量相关能力和工作经验，以上要求可能会放宽，并将根据个人情况进行评估，需要在个人陈述中清楚地说明其教育或就业背景（包括实习或项目）如何与申请专业相关以及希望通过学习实现什么目标。",
+  "objectives": "伦敦大学学院智能建筑与数字工程理学硕士项目探索了数字工程如何创造更智能的建筑，使其对居住者和环境都更好。利用我们世界领先的研究和我们强大的行业联系，该硕士项目为学生提供了知识和技能，以在相关的行业和学术界脱颖而出。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程环境要素 (Engineered Environmental Elements )\n建筑系统物理 (Building System Physics )\n健康与福祉综合建筑设计 (Integrated Building Design for Health and Wellbeing)\n建筑系统模型 (Building Systems Modelling )\n综合建筑系统模拟 (Integrated Building Systems Simulation )\n智能建筑中的机器学习 (Machine Learning in Smart Buildings )\n建筑物室内空气质量 (Indoor air quality in buildings )\n建筑中的光线、照明和健康 (Light, lighting and wellbeing in buildings )",
+  "success_cases": ""
+}

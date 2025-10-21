@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "结构工程理学硕士",
+  "ename": "MSc Structural Engineering",
+  "tags": "工科,土木工程,机械、航空航天及土木工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有2:1英国荣誉学位或同等学历，需要相关理工科背景，学校会考虑申请者本科学位中关键相关课程的成绩以及整体学位成绩\n申请者如果是在读生，需要提供最后一年学习的所有课程的正式列表",
+  "objectives": "曼彻斯特大学结构工程理学硕士项目由八个课程单元（每单元15学分）和研究论文（60学分）组成，授课单元包括与钢和混凝土结构的静态和动态行为有关的理论和设计的高级方面。专业方面，如地震和消防工程也包括在内。此外，该课程还提供了关于有限元建模、实验工作和研究方法的介绍。\n曼彻斯特大学结构工程理学硕士项目该课程教学部分的一个特别亮点是研究结构在极端负荷下的行为和设计，包括火灾和地震，由国际领先的研究人员和工程师授课。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n研究方法 (Research Methods)\n先进的结构分析 (Advanced Structural Analysis)\n结构工程设计实践 (Practice of Structural Engineering Design)\n地震工程 (Earthquake Engineering)\n结构工程设计原理 (Principles of Structural Engineering Design)\n消防工程 (Fire Engineering)\n实验方法（理学硕士结构工程） (Experimental Methods (MSc Structural Engineering))\n有限元 (Finite Elements)",
+  "success_cases": ""
+}

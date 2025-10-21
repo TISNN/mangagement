@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "比较文学文学硕士",
+  "ename": "MLitt Comparative Literature",
+  "tags": "社科,文化,语言、文学、音乐和视觉文化学院",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "具有2:1学位（或同等学历），需要现代语言、英国文学或相关学科背景，建议具备至少一门语言（除英语外）的阅读能力",
+  "objectives": "阿伯丁大学比较文学文学硕士项目旨在研究跨国、全球和后殖民背景下的文学文本，使用一系列令人兴奋的方法论方法，接触不同语言背景的文学和文化文本。该课程为比较文学的实践、理论和方法提供了坚实的基础，学生将参与英语翻译和/或原文文本（在语言能力允许的情况下），并利用与翻译和不同语言、文化和社会相关的研究专业知识，通过该课程，学生将沉浸在不同风格、流派和时期的各种文学作品中，对我们相互关联的世界产生新的理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "专业文学研究 1 (Specialised Literary Study 1)\n专业文学研究 (Specialist Literary Study)\n比较文学论文 (Dissertation in Comparative Literature)\n英语语言基础 (Fundamentals of English Language)\n位置与位移：地点在文学中的作用 (Locations and Dislocations: the Role of Place in Literature)\n小说：环境与邂逅 (The Novel: Environments and Encounters)\n电影与视觉文化研究方法 (Research Methods in Film and Visual Culture )\n翻译研究中的关键概念与方法 (Key Concepts and Methods in Translation Studies)\n无限的苏格兰：苏格兰与文学想象 (Infinite Scotlands: Scotland and the Literary Imagination)\n走近英语语言与文学 (Approaching English Language and Literature)\n书写自我 (Writing the Self)\n地点与环境：关键对话 (Places and Environments: Critical Dialogues)\n额外的特定语言翻译作品集 (Additional Language - Specific Translation Portfolio)\n文学翻译 (Literary Translation)",
+  "success_cases": ""
+}

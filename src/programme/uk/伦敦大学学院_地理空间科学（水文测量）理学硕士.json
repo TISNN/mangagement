@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "地理空间科学（水文测量）理学硕士",
+  "ename": "MSc Geospatial Sciences (Hydrographic Surveying)",
+  "tags": "工科,地球科学,工程科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要相关学科背景（例如工程学、建筑学、地理学、城市规划、数学、测量、海洋和地球科学、计算机科学），通常情况下，学校只接受具有一等或2:1学位的申请者，但具有2:2学位以及丰富工作经验的申请者也将被考虑",
+  "objectives": "英国伦敦大学学院地理空间科学（水文测量）理学硕士项目旨在为学生提供获取、处理和分析海洋数据的方法，包括基于船只的声学技术、卫星定位、自主式水下交通工具等。学生还可以出席很多工业和研究系列研讨会，并开展的研究项目，成为水文测量师。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据分析 (Data Analysis)\n工程测量 (Engineering Surveying)\n地理空间科学 (Geospatial Science)\n地理空间规划 (Geospatial Programming )\n应用实地项目 (Applied Field Project)\n水文应用 (Hydrographic Applications)\n现实捕捉与精确3D感应 (Reality Capture and Precision 3D Sensing)\n传感器与位置 (Sensors and Location)",
+  "success_cases": ""
+}

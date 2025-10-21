@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "精准医疗理学硕士",
+  "ename": "MSc Precision Medicine",
+  "tags": "社科,医学,心血管与代谢健康学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要生命科学、生物学、药学/药理学、医学、化学或物理专业背景，学校也接受数学和计算机学位\n学校也可以接受成绩较低但有重要相关工作经验的申请者",
+  "objectives": "格拉斯哥大学精准医疗理学硕士项目旨在武装学生最新的与慢性疾病进展机制相关的知识，了解这些潜在原因如何靶向治疗，并发现有助于检测和诊断所选疾病的专业技术。该项目的目标是直接满足NHS、工业和学术界的研究需求，这些领域需要具有生物学知识和计算、统计、分析和实践技能的科学家来推动精准医学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "精确诊断与治疗学 (Precision Diagonostics and Therapeutics)\n精准医学研究技能 (Research Skills for Precision Medicine)\n癌症标志 (Hallmarks of Cancer)\n药物基因组学与分子医学-分子医学基础 (Pharmacogenomics & Molecular Medicine - Fundamentals of Molecular Medicine)\n应用药物基因组学与分子医学 (Applied Pharmacogenomics & Molecular Medicine)\n生物学家使用R的生物信息学 (Bioinformatics Using R for Biologists)\n精确医学组学导论 (Introduction to Omics for Precision Medicine)\n世界改变者:精准医学系列研讨会 (World Changers: Precision Medicine Seminar Series)\n免疫治疗与精确肿瘤学 (Immunotherapy and Precision Oncology)\n精准医学研究项目 (Precision Medicine Research Project)\nCVD临床方面:患者与人群 (Clinical Aspects of Cvd: Patients and Populations)\n免疫学原理 (Principles of Immunology)\n炎症性疾病 (Inflammatory Disease)",
+  "success_cases": ""
+}

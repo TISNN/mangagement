@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "军用车辆技术理学硕士",
+  "ename": "MSc Military Vehicle Technology",
+  "tags": "工科,其他工科,国防与安全",
+  "introduction": "专业方向: 其他工科\n入学时间: 9月\n项目时长: 1年\n项目学费: 38340英镑/年",
+  "requirements": "具有科学、工程或数学方面背景",
+  "objectives": "克兰菲尔德大学军用车辆技术理学硕士课程提供军用车辆系统的教育和培训，旨在使学生了解在武器系统和军用车辆的规格、设计、开发和评估中使用的技术。装甲车辆和支援车辆都包括在课程之内。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "装甲战车与武器系统研究 (Armoured Fighting Vehicle and Weapon Systems Study)\n军用车辆动力学 (Military Vehicle Dynamics)\n建模、仿真与控制 (Modelling, Simulation and Control)\n实体造型计算机辅助设计 (Solid Modelling CAD)\n生存能力 (Survivability)\n工程中的有限元方法 (Finite Element Methods in Engineering)\n军用车辆推进 (Military Vehicle Propulsion)\n武器系统技术-介绍 (Weapon Systems Technology - Introduction)\n车辆系统集成 (Vehicle Systems Integration)\n零件设计 (Element Design)\n弹道学原理 (Fundamentals of Ballistics)\n制导武器 (Guided Weapons)\n轻武器设计 (Light Weapon Design)\n军用车辆推进与动力学 (Military Vehicle Propulsion and Dynamics)\n军械设计 (Ordnance Design)",
+  "success_cases": ""
+}

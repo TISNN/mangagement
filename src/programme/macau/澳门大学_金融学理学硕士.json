@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,工商管理学院",
+  "introduction": "专业方向: 金融\n入学时间: 8月\n项目时长: 2年\n项目学费: 102000澳门币/年",
+  "requirements": "持有澳门大学认可的学士学位或同等学历。申请人持有的学士学位的累计平均积点必须达到2.8（100分制中的75至77分）或以上。\n其中具有金融、经济、应用数学、应用科学、统计学、电脑科学、工程或其他定量领域的学士学位者优先。申请人若具备GRE或GMAT成绩更佳",
+  "objectives": "澳门大学金融学理学硕士课程由工商管理学院国际认可的学者教授。它被设计为一系列技能建设课程和角色扩展经验。该计划的目的是为拥有良好数学背景的合格学生提供一个学习金融高级学位的机会。此外，追求更高学历的学生将具备研究能力。我们对定量技能的可以使学生为工作和进一步学习做好准备。课程的结构和设计旨在将教学材料与独立思考的动机联系起来。在银行和公司金融等领域设有与行业相关的课程，还提供与研究方法相关的课程，以提高学生的研究技能。我们还提供与金融技术相关的课程，涵盖金融科技融资，金融创新等主题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司财务 (Corporate Finance)\n统计与金融计量 (Statistics and Financial Econometrics)\n金融理论 (Theory of Finance)\n投资和投资组合管理 (Investments and Portfolio Management)\n衍生产品 (Derivatives)\n固定收益证券 (Fixed Income Securities)\n国际金融 (International Finance)\n商业银行管理 (Commercial Bank Management)\n金融数学技术 (Mathematical Techniques in Finance)\n财务风险管理 (Financial Risk Management)\n市场营销管理 (Marketing Management)\n组织行为 (Organizational Behavior)",
+  "success_cases": ""
+}

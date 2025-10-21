@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "计算地球科学理学硕士",
+  "ename": "MSc Computational Geoscience",
+  "tags": "工科,地球科学,地理和地球科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1/high 2:2荣誉学位，或同等学历，需要任何工程学科，物理科学/数学，地球物理学或计算科学背景，至少有一年的微积分学分认定课程，平均成绩为及格\n学校也可以接受建筑测量、工料测量、建筑、规划、地理信息学等包含大量数学成分的学位\n学校有时可以接受同等的专业经验来代替资格证书",
+  "objectives": "格拉斯哥大学地球科学计算理学硕士项目是英国极少数专注于地球科学计算建模的项目之一，并且是苏格兰独有。学生将学习使用包括 Python 在内的一系列编码语言来解决特定的应用问题。格拉斯哥大学地球科学计算理学硕士项目将帮助学生发展专业技能，包括项目管理、沟通和演示技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "环境分析统计简介 (Introduction to Statistics for Environmental Analysis)\nGES PGT 的学术和专业技能 (Academic and Professional Skills for Ges Pgt)\n地球科学导论 (Introduction to Earth Science)\n地理信息系统原理 (Principles of Gis)\nGES_空间数据分析 (Ges_spatial Data Analytics)\n地球动力学的数值基础 (Numerical Foundations of Geodynamics)\n水环境建模 (Modelling Water Environments)\n地形建模和景观监测 (Topographic Modelling and Landscape Monitoring)\n地球系统问题的机器学习应用 (Machine Learning Applications for Earth Systems Problems)\n景观演化建模 (Modelling of Landscape Evolution)\nGES_固体地球动力学数值模拟 (Ges_numerical Modelling of Solid Earth Dynamics)",
+  "success_cases": ""
+}

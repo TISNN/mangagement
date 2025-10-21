@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "国际商务理学硕士",
+  "ename": "MSc International Business",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 31800英镑/年",
+  "requirements": "具有2:1荣誉学位或非英国同等学历，需要商业与管理、市场营销或商务背景，社会科学学位必须包含至少5门商业与管理学分认定课程且平均成绩为及格。不具备此类背景的学生如果希望在创业和商业发展领域继续深造，建议申请MSc Management with Enterprise and Business Growth\n只有符合或超过学校规定的入学要求的申请才会被考虑，任何不符合要求的申请将被自动拒绝。申请者将根据其相对于其他申请人的表现、当前的GPA或学位等级、学术背景的相关性被考虑录取",
+  "objectives": "格拉斯哥大学国际商务与创业理学硕士项目旨在为学生提供关于国际商务、跨文化管理及国际创业的先进知识与技能。\n格拉斯哥大学国际商务与创业理学硕士项目适合有意在多元文化背景下工作、在跨国公司工作或自己创业的学生。\n通过格拉斯哥大学国际商务与创业理学硕士学位课程的学习，学生将深入理解国际商务学科与当代重要话题，包括外包、价值链及关系网、知识产权保护、伦理治理及企业社会责任、社交媒体及网络技术。学生也将参与咨询项目，为真正的苏格兰公司提供建议，并针对重大商业问题提出可行的解决方案。此类行动式学习项目能够给予学生在求职或自己创建国际新企业时所需的宝贵的实际经验和应用技能。学生将具备应对商业形势的能力，并能为管理角色做出直接贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "中小企业创业融资 (Entrepreneurial finance for SMEs)\n全球商业环境 (Global business environment)\n国际创业与创新 (International entrepreneurship and innovation)\n国际管理解决方案（代表苏格兰公司开展的咨询项目） (International management solutions (consultancy projects undertaken on behalf of Scottish companies))\n国际战略管理 (International strategic management)\n跨文化管理与比较管理 (Managing across cultures and comparative management)\n跨国企业和子公司管理 (Managing the multinational enterprise and subsidiaries)\n创业市场分析 (Market analysis for new venture creation)\n管理创新和技术转让 (Managing Innovation and Technology Transfer)\n企业全球化解读 (Understanding Corporate Globalisation)\n销售管理 (Sales Management)\n新兴经济体的国际商务和创业 (International Business and Entrepreneurship in Emerging economies)",
+  "success_cases": ""
+}

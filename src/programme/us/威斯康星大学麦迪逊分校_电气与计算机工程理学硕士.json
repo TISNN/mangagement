@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯康星大学麦迪逊分校",
+  "major_name": "电气与计算机工程理学硕士",
+  "ename": "MS in Electrical & Computer Engineering",
+  "tags": "工科,电气电子",
+  "introduction": "专业方向: 电气电子\n项目类别: STEM\n入学时间: 秋季\n项目时长: 16个月\n项目学费: 36,000美元",
+  "requirements": "拥有认可机构的电气或计算机工程理学学士学位，但也会考虑工程、计算机科学、物理学或相关学科的学士学位。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

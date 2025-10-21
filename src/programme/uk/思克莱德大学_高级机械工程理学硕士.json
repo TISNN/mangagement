@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "高级机械工程理学硕士",
+  "ename": "MSc Advanced Mechanical Engineering",
+  "tags": "工科,机械工程,机械与航天工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 31100英镑/年",
+  "requirements": "具有一等或二等荣誉学位，或同等专业资格，要求工程或物理科学背景。有相关工作经验者可考虑较低等级的学位",
+  "objectives": "当前机械工程在各行业都有极大需求量。思克莱德大学高级机械工程理学硕士项目由机械工程学会认证，于航空航天、能源、材料和发电厂技术，为学生提供达到注册工程师标准的途径，为机械工程专业本科生提供先进机械课题的深入技术理念，及高效开发企业能力的技能。在该项目中，学生将获取高级机械工程课题中的专业知识，拥有接触通用技能（如项目管理和风险分析）课程的机会，这些技能是职业工程师的必备技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程复合材料 (Engineering Composites)\n加压系统 (Pressurised Systems)\n空气动力性能 (Aerodynamic Performance)\n空气动力推进系统 (Aerodynamic Propulsion Systems)\n高温应用材料 (Materials for High Temperature Applications)\n能源资源与政策 (Energy Resources & Policy)\n电力系统 (Electrical Power Systems)\n机械诊断和状态监测 (Machinery Diagnosis & Condition Monitoring)\n能量模拟与监测 (Energy Modelling & Monitoring)\n航天力学 (Spaceflight Mechanics)\n工业冶金 (Industrial Metallurgy)\n航天系统 (Spaceflight Systems)\n高分子和高分子复合材料 (Polymer & Polymer Composites)\n燃气和蒸汽涡轮机 (Gas & Steam Turbines)\n金融工程 (Financial Engineering)",
+  "success_cases": ""
+}

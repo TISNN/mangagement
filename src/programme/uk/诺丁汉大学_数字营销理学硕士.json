@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "数字营销理学硕士",
+  "ename": "MSc Digital Marketing",
+  "tags": "商科,市场营销,诺丁汉商学院",
+  "introduction": "专业方向: 市场营销\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1本科学位或同等学历，需要商业、管理学、经济学、心理学、媒体与传播背景\n就读其他学科的申请者将根据具体情况予以考虑，优先考虑在艺术与设计、计算机科学、工程学和英语研究（侧重于语言学、文学、创意和科学写作以及批判性思维）领域学习过的申请者。数字营销实践经验的证据可能会与达到所需水平的本科学习经历一起被考虑\n本课程不适合具有大量营销背景的学生，如果申请者的本科学位包含大量以营销为重点的课程，学习内容可能有重叠，其申请可能会失败",
+  "objectives": "诺丁汉大学数字营销理学硕士项目提供在高级数字营销职位中脱颖而出所需的核心知识和技能，这个职位是发展最快的十大职位之一，涵盖许多工业领域，因此学生将拥有广泛的职业选择。该课程与数字营销机构合作授课。课程涵盖专业数字营销人员所需的基本分析和创意要素，可帮助学生适应快速变化的数字营销环境。学生将在关键平台上工作，进行真实案例研究，并获得坚实的理论基础，助力大数据环境中的决策。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "消费者行为与分析 (Consumer Behaviour and Analytics)\n数字经济中的营销管理 (Marketing Management in the Digital Economy)\n数字营销策略 (Digital Marketing Strategy)\n生成客户洞察和分析 (Generating Customer Insights and Analytics)\n数字广告创意 (Digital Marketing Communication)\n数字客户体验和应用 (Digital Customer Experience and Applications)\n数字营销挑战项目 (Digital Marketing Challenge Project)",
+  "success_cases": ""
+}

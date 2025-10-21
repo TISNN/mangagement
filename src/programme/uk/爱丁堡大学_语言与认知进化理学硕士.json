@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "语言与认知进化理学硕士",
+  "ename": "MSc Evolution of Language and Cognition",
+  "tags": "社科,语言,哲学、心理学与语言科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要语言学、心理学、认知科学、计算机科学或生物学背景",
+  "objectives": "爱丁堡大学语言与认知进化理学硕士项目将会使学生全面综合地了解到有关人类语言起源和演变的最新科学发现，为他们后续的高级专业研究打下坚实基础，使他们广泛认识到并参与研究单一学科的语言和认知进化过程中的问题与发现。本课程为人类行为科学研究奠定了坚实的基础，也为语言学、认知科学、人类进化等许多相关领域的进一步研究提供了基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语言演变的当前问题 (Current Issues in Language Evolution)\n进化基础 (Foundations of Evolution)\n语言的起源与演变 (Origins and Evolution of Language)\n模拟语言 (Simulating Language)\n实验室语言演进 (Language Evolution in the Lab)\n语言共性 (Universals of Language)\n语音及语言处理的计算机编程技术 (Computer Programming for Speech and Language Processing)\n历时语言学 (Diachronic Linguistics)\n对话 (Dialogue)\n母语习得 (First Language Acquisition)\n人类进化 (Human Evolution)\n音系学与语音学导论 (Introduction to Phonology and Phonetics)\n社会语言研究设计 (Sociolinguistic Research Design)\n句法导论 (Introduction to Syntax)",
+  "success_cases": ""
+}

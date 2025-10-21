@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "法学硕士",
+  "ename": "LLM",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 10月\n项目时长: 1年\n项目学费: 24830英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要法律或任何其他学科背景\n学校也会根据具体情况考虑具有较低学历或学校不在list范围内或具备专业法律实践经验的申请者",
+  "objectives": "兰卡斯特大学法学硕士项目课程设置非常灵活，学生可在法学院内全部课程中进行自由选择，研究广泛的法律、法理与社会法律问题，并接触到法学研究前沿学者。项目拓宽学生的就业前景，无论学生想要在目前的专业领域继续深造，还是开拓法学领域新的研究方向，法学硕士项目个性化定制的课程都可以帮助学生实现，培养学生批判评估研究的能力，这在公共与私人部门都深受重视，同时也提高学生分析与沟通技能，增强学生在法律以外部门工作的能力，项目也为学生攻读博士学位、从事科研奠定基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "法学硕士学位论文 (LL.M Dissertation)\n合同与公司 (Contracts and Companies)\n国际商事诉讼 (International Commercial Litigation)\n公司治理 (Corporate Governance)\n国际商法中的公司 (Corporations in International Business Law)\n国际环境法 (International Environmental Law)\n独立研究模块 (Independent Research Module)\n国际商法与制度 (International Business Law and Institutions)\n环境法 (Environmental Law)\n国际法 (International Law)\n国际刑法 (International Criminal Law)",
+  "success_cases": ""
+}

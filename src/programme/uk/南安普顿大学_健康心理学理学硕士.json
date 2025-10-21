@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "健康心理学理学硕士",
+  "ename": "MSc Health Psychology",
+  "tags": "社科,心理学,心理学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30300英镑/年",
+  "requirements": "具有2:1学位，需要心理学或密切相关学科背景",
+  "objectives": "人类行为是全世界身体疾病的主要原因。健康心理学理学硕士教你如何应用心理学来改善健康状况，预防和管理长期疾病。南安普顿大学健康心理学理学硕士项目由英国心理学会（BPS）认可，由目前正在开发和测试该领域干预措施和理论的专家讲师授课。该硕士毕业生将准备成为注册的特许健康心理学家，帮助学生成为一名健康护理领域的科学实践者。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物心理健康 (Biopsychosocial Aspects of Health)\n疾病和残疾的心理社会层面 (Psychosocial Aspects of Illness and Disability)\nARM定性方法 (ARM-qualitative methods)\nARM规划设计研究 (ARM-planning and designing research)\n心理与卫生保健的传递 (Psychology and The Delivery of Health Care)\nARM组比较 (ARM-group comparisons)\nARM相关法 (ARM-correlational methods)\nR语言统计编程 (Statistical Programming in R)\n焦虑症的循证治疗 (Evidence based treatments for Anxiety Disorders)\nCBT理论与技巧导论 (Introduction to CBT Theory and Skills)\n概念与技巧 (Concepts and Skills)\n性健康的社会心理学方法 (Social and Psychological Approaches to Understanding Sexual Health)\n社会科学研究哲学 (Philosophy of Social Science Research)\n老龄化社会研究方法 (Methods for Researching Ageing Societies)\n衰老、健康与幸福感 (Ageing、Health and Well-being)",
+  "success_cases": ""
+}

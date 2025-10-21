@@ -1,0 +1,12 @@
+{
+  "school_name": "香港浸会大学",
+  "major_name": "数据科学理学硕士 商业统计专修（北师大港浸会联合国际学院）",
+  "ename": "MSc Data Science with Concentration in Business Statistics (Zhuhai, UIC campus)",
+  "tags": "商科,商业分析,北京师范大学香港浸会大学联合国际学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 170000人民币/年",
+  "requirements": "具有认可大学颁发的学士学位或同等学历；和\n有相关工作经验的申请者，可获优先考虑；\n有学术研究成果者，或能够证明研究潜力人士也可获得考虑。",
+  "objectives": "香港浸会大学商业统计数据科学理学硕士（北师大港浸会联合国际学院）项目旨在培养具备商业管理和高级统计分析技能的国际和跨学科专业人士。本课程与大数据分析和业务管理的进步和尖端技术密切相关。它提供系统且全面的课程，涵盖关键主题，包括数据分析编程、统计推断和建模、机器学习、商业定量分析、高级运筹学、决策分析、金融和经济建模、商业管理等。\n香港浸会大学商业统计数据科学理学硕士（北师大港浸会联合国际学院）项目依托大湾区的经济优势和UIC广东省数据科学跨学科与应用重点实验室的资源，提供多样化的项目式学习机会。学生在学习期间有机会在重点实验室或当地企业参与研究项目或实习。此外，优秀的毕业生可能有机会继续在伊利诺伊大学芝加哥分校攻读研究型统计学硕士或博士学位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学的Python语言 (Python for Data Science)\n仿真建模 (Simulation Modelling)\n应用多元分析 (Applied Multivariate Analysis)\n应用时间序列 (Applied Time Series)\n回归分析 (Regression Analysis)\n决策管理中的规范性分析 (Prescriptive Analytics for Decision Making)\n生产运营管理技术 (Techniques of Production Operations Management)\n机器学习与预测 (Machine Learning and Forecasting)\n高级电子表格与决策支持系统 (Advanced Spreadsheets and Decision Support Systems)\n组织绩效管理 ( Managing Organizational Performance)\n市场营销定量模型 (Quantitative Models for Marketing)\n大数据分析与可视化 (Big Data Analytics and Visualisation)\n抽样方法与实验设计 (Survey Sampling and Experimental Design)\n精算统计 (Actuarial Statistics)\n网络与项目管理 ( Network and Project Management)\n金融衍生品 (Derivatives)\n工作本位学习 (Work-based Learning)\n风险与投资组合管理 (Risk and Portfolio Management)\n高等运筹学 (Advanced Operational Research)\n 数据分析编程 (Data Analytics and Programming)\n毕业论文 I (Dissertation I)\n毕业论文 II (Dissertation II)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "核能哲学硕士",
+  "ename": "MPhil Nuclear Energy",
+  "tags": "工科,能源,工学院",
+  "introduction": "专业方向: 能源\n入学时间: 10月\n项目时长: 1年\n项目学费: 39504英镑/年",
+  "requirements": "申请者应该具有英国Good II.i荣誉学位或同等学历\n这门课程是为有一些毕业后经验（不一定是核工业）的顶尖工程师和科学家或者是想要掌握知识和技能以开展核能事业的应届毕业生设计的。申请者应该具备良好的技术技能以及工程或相关科学学科（如物理、化学或材料科学）的良好学位\n可以根据情况选择提供Research experience（如果没有相关研究经历可以不提交，不会影响申请）如果被录取，需要ATAS以获取签证（被录取前不要申请ATAS）",
+  "objectives": "剑桥大学核能哲学硕士课程是剑桥大学战略能源计划的一部分，旨在应对英国和全世界核复兴的前景。目的是提供核能硕士学位课程，将核科学和技术主题与商业、管理和政策教学相结合。学生将掌握负责任地领导国际核工业所必需的技能和信息。本课程面向拥有工程或相关科学专业良好学位希望获得在核和能源领域建立职业生涯的知识和技能的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "反应堆物理学 (Reactor Physics)\n反应堆工程与热工水力学 (Reactor Engineering & Thermal-hydraulics)\n材料 (Materials)\n燃料循环、废物和退役 (Fuel Cycle, Waste & Decommissioning)\n核安全原则与实践 (Nuclear Safety Principles and Practice)\n核技术政策 (Nuclear Technology Policy)\n核实践 (Nuclear Practice)\n计算反应堆模型 (Computational Reactor Modelling)\n先进的裂变和聚变反应堆系统 (Advanced Fission and Fusion Reactor Systems)",
+  "success_cases": ""
+}

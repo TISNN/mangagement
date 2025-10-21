@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "电子商务管理理学硕士",
+  "ename": "MSc e-Business Management",
+  "tags": "商科,信息系统,制造学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 35340英镑/年",
+  "requirements": "具有2:1本科学位或同等学历，需要与所选专业相关的一系列学科背景，这些可能包括信息技术、传播、商业、数据科学或技术相关学科\n具有英国2:2学位或同等学历的申请者在证明相关专业经验后可能会被接受\n该课程专为那些希望在电子商务环境中有效运作、管理或领导现有业务流程的转换或创建新的电子商务活动的人而设计",
+  "objectives": "华威大学电子商务管理理学硕士学位课程适合想要实现在电子商务环境下有效地经营企业，管理或领导现有商业进程改革，或开发新的电子商务活动。华威大学电子商务管理理学硕士学位课程面向理工科，信息技术或商科背景的学生。华威大学电子商务管理理学硕士学位课程旨在使学生学会评估并管理电子商务企业战略发展，同时掌握电子商务技术。通过华威大学电子商务管理理学硕士学位课程的学习，学生将学会分析评估、管理并提升企业经营状况，将系统集成的概念运用到企业产品和服务的设计与开发中。\n该学位将培养学生的技术，以管理战略发展的电子商务为基础的组织和适当的电子商务技术。学生将发展评估、管理和改进组织运作功能的技能和知识，并通过市场分析将系统集成的概念应用到产品和服务的设计和开发中。\n随着全球电子商务活动的指数级增长，对拥有专业知识和技能的电子商务专业人才的需求很大。因此，该MSc允许学生从四个专业之一选择，提供对电子商务部署的一个关键领域的一个更深入的理解，并根据未来的职业道路定制自己的模块。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电子商务基础 (e-Business Fundamentals)\n企业电子商务系统 (Enterprise e-Commerce Systems)\n云原生计算 (Cloud Native Computing)\n大数据分析和可视化 (Big Data Analytics and Visualisation)\n用Python计算统计 (Computational Statistics with Python)\n数据科学与机器学习 (Data Science and Machine Learning)\n数字营销，系统和技术 (Digital Marketing, Systems and Techniques)\n数字顾问 (Digital Consultancy)\n电子商务基础 (e-Business Fundamentals)\n数字营销策略与管理 (Digital Marketing Strategy and Management)\n电子商务 (e-Commerce)\n大数据分析和可视化 (Big Data Analytics and Visualisation)\n电子客户关系管理 (e-Customer Relationship Management)",
+  "success_cases": ""
+}

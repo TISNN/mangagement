@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "商业分析与金融理学硕士",
+  "ename": "MSc Business Analysis and Finance",
+  "tags": "商科,金工金数,商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 23650英镑/年",
+  "requirements": "具有good 2nd荣誉学位，需要一些数学或统计方面专业背景",
+  "objectives": "莱斯特大学商业分析与金融理学硕士项目提供机会让学生运用经济学知识分析商业问题与金融学。该项目融合了先进的理论学习和实际应用学习，能够拓宽学生的职业发展机遇。该项目的学生将深入理解经济学和金融学的重要理论和概念。在选修课程中，学生可以专攻某些领域，如应用微观经济学和宏观经济学、国际货币和金融、金融风险管理、行为金融学和博弈论。在该项目中，学生能够掌握定量技术领域的先进知识和专业技能，能够运用这些技能解决商业监管、组织、金融领域的问题，能够掌握计算技能并应用到商业数据分析中，能够培养自信心并在专业岗位上运用和表达经济学论点。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "财务报表分析 (Financial Statement Analysis)\n金融建模 (Financial Modelling)\n金融分析投资 (Financial Analysis and Investment)\n金融专业技能 (Professional Skills in Finance)\n金融数学基础 (Foundations of Mathematics for Finance)",
+  "success_cases": ""
+}

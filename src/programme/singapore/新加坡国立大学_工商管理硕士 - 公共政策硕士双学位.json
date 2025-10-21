@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "工商管理硕士 - 公共政策硕士双学位",
+  "ename": "Double Degree MBA - MPP",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 8月\n项目时长: 2年\n项目学费: 94581新币/年",
+  "requirements": "具有良好的本科学位 具备至少2年工作经验，对于MPP课程，申请者必须表现出对公共服务的成熟和投入，必须熟练掌握英语书面和口语 需要良好的GMAT/GRE成绩 有兴趣申请新加坡国立大学MBA-MPP双学位课程的申请者必须同时满足新加坡国立大学MBA和MPP课程的入学要求",
+  "objectives": "新加坡国立大学工商管理硕士 - 公共政策硕士双学位课程由商学院与李光耀公共政策学院合作提供，为有兴趣在政府和公共部门企业开展职业的未来领导者提供两个独特的课程，该课程针对的是希望加入公共部门的候选人。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司战略 (Corporate Strategy)\n财务管理 (Financial Management)\n财务会计 (Financial Accounting)\n管理经济学 (Managerial Economics)\n营销策略 (Marketing Strategy)\n管理运营与分析 (Managerial Operations & Analytics)\n有影响力的领导 (Leading with Impact)\n启动转型 (Launch Your Transformation)\nMBA生存工具包 (MBA Survival Kit)\nMBA咨询项目 (MBA Consulting Project)\n公共政策经济学基础 (Economics Foundations for Public Policy)\n政治与公共政策 (Politics and Public Policy)\n公共管理概论 (Introduction to Public Management)\n政策分析的方法与工具 1 (Methods and Tools for Policy Analysis 1)\n公共政策基础 (Foundations of Public Policy)\n政策分析的方法与工具 2 (Methods and Tools for Policy Analysis 2)\n政策分析演练 (Policy Analysis Exercise)\n使用Python进行公共政策编码概论 (Introduction to Coding for Public Policy using Python)\n使用R进行公共政策编码概论 (Introduction to Coding for Public Policy using R)\n公共组织财务管理 (Financial Management for Public Organisations)\n公共财政 (Public Finance)\n公共政策的成本效益分析 (Cost-Benefit Analysis in Public Policy)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "纳米材料与材料科学理学硕士",
+  "ename": "MSc Nanomaterials and Materials Science",
+  "tags": "工科,材料,材料科学与工程学院",
+  "introduction": "专业方向: 材料\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要航空航天工程、生物化学、生物工程/生物医学工程、生物学、生物医学/生物科学、化学工程、化学、土木工程、一般工程、材料科学/材料工程/材料加工/材料科学、机械工程、金属/金属/冶金、新能源材料与器件、物理学科背景，学校也可以考虑其他科学或工程学科申请者应当学习过以下列表中的至少一门数学课程：微积分、线性代数、数学（或任何其他以数学为标题的课程）",
+  "objectives": "谢菲尔德大学纳米材料与材料科学理学硕士项目使学生掌握成为拥有纳米技术专长的材料科学专家所需的技能。在过去20年中，纳米技术对新型材料的发展产生了革命性的影响，现在有许多新型材料可用，如纳米碳、纳米二氧化硅和纳米磁性材料。这些材料为设计先进设备（传感器、电子设备、数据和能量存储）以及改进的结构和功能材料开辟了新的途径。该课程旨在为学生提供专门知识和技能，使其成为纳米技术领域的材料科学专家。该课程提供材料科学和工程一般领域的基础学期，然后是纳米科学和纳米技术特定学期，为学生提供全面的纳米材料专业知识。课程内容反映了该学科的高度跨学科性质，并允许学生通过选择课程和重大项目进行专业化。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "纳米磁性材料和器件 (Nanoscale Magnetic Materials and Devices)\n材料科学 (Science of Materials)\n材料加工与表征 (Materials Processing and Characterisation)\n实用，建模和数字技能 (Practical, Modelling and Digital Skills)\n复合材料的设计和制造 (Design and Manufacture of Composites)\n纳米结构和纳米结构 (Nanostructures and Nanostructuring)\n功能纳米和生物纳米材料 (Functional Nano- and Bio-nanomaterials)\n加热和应用材料 (Heat and Materials with Application)\n牙科和生物材料的结构和物理特性 (Structure and Physical Properties of Dental and Bio-materials)\n固体化学 (Solid State Chemistry)\n能源应用材料 (Materials for Energy Applications)\n固体化学 (Solid State Chemistry)",
+  "success_cases": ""
+}

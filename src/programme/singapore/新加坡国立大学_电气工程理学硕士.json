@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "电气工程理学硕士",
+  "ename": "MSc Electrical Engineering",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 57880新币/年",
+  "requirements": "具有认可机构颁发的学士学位（偏好荣誉学位）或同等学历，需要相关工程学科或包含计算和应用数学内容的其他学科背景\n学校也可能考虑具有其他资格和成就并且被认为已经为学习该课程做好适当准备的申请者",
+  "objectives": "新加坡国立大学电子工程理学硕士课程为实践工程师提供了极好的机会，提升他们在各种激动人心的工程领域的知识和核心能力，包括纳米科学和纳米技术、生物医学系统、计算机/多媒体系统、数字和无线通信、智能控制系统、电子和光电子材料与器件、硅集成电路、微波与电磁学、电能系统。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "线性系统 (Linear Systems)\n计算机控制系统 (Computer Control Systems)\n自适应控制系统 (Adaptive Control Systems)\n高级机器人学 (Advanced Robotics)\n自动化与控制专题 (Special Topics in Automation and Control)\n数字通信 (Digital Communications)\n信息理论及其应用 (Information Theory and its Applications)\n无线通信 (Wireless Communications)\n无线及传感器网络 (Wireless and Sensor Networks)\n光通信及网络 (Optical Communications and Networks)\n半导体基础知识 (Semiconductor Fundamentals)\n微电子加工与集成 (Microelectronic Processes and Integration)\n纳米电子学基础 (Fundamentals of Nanoelectronics)\n微/纳米机电系统 (Micro/Nano Electromechanical Systems)\n大数据磁测数据存储 (Magnetic Data Storage for Big Data)",
+  "success_cases": ""
+}

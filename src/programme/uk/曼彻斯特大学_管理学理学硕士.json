@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "管理学理学硕士",
+  "ename": "MSc Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有英国大学颁发的一等或2:1荣誉学位或同等学历（成绩达到2:1，均分60%）\n该理学硕士课程涵盖了管理学的所有关键要素 - 创业、金融、市场营销和人力资源 - 为那些没有经验的人提供了进入商业领域的快速通道\n在评估申请者的学习成绩时，学校会考虑其平均成绩、班级排名以及所就读院校的地位",
+  "objectives": "曼彻斯特大学管理学理学硕士学位课程为那些没有经验的人提供了进入企业的快速通道，涵盖了管理的所有关键因素 - 创新、创业、金融、营销、组织变革和人力资源。\n创业和创新等模块将培养学生创建和成功发展组织的能力，而会计和人力资源管理课程将使学生具备管理企业财务和激励员工的一系列知识和技能。学生将掌握市场营销的原则，以研究市场和推广业务。\n在全球商业和管理的趋势模块中，学生将学会识别全球商业环境中的机会和风险。基于曼彻斯特联盟商学院在该领域的领先地位，可持续发展和社会责任模块将展示企业如何改善环境并使整个社会受益。\n曼彻斯特大学管理学理学硕士学位项目提供了一个独特的机会，通过对一个公司或组织问题的具体案例研究，展示学生的才能和新技能。在整个课程中，学生将有机会通过对主要公司的实地考察和外部演讲者获得向经理和高级领导人学习最佳做法的机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "管理基础 (Foundations of Management)\n会计概论 (Introduction to Accounting)\n营销与营销管理 (Marketing & Marketing Management)\n业务绩效与策略 (Business Performance & Strategy)\n可持续发展与社会责任 (Sustainability and Social Responsibility)\n创新管理与创业 (Innovation Management and Entrepreneurship)\n比较雇佣关系与国际人力资源管理 (Comparative Employment Relations and International HRM)\n组织心理学 (Organisational Psychology)\n全球业务与管理趋势 (Trends in Global Business and Management)\n商业研究项目 (Business Research Projects)",
+  "success_cases": ""
+}

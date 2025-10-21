@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡管理大学",
+  "major_name": "会计学理学硕士（数据与分析）",
+  "ename": "MSc Accounting (Data & Analytics)",
+  "tags": "商科,会计,会计学院",
+  "introduction": "专业方向: 会计\n入学时间: 8月\n项目时长: 1年\n项目学费: 57770新币/年",
+  "requirements": "- 申请者必须在认可的高等教育机构颁发的本科学位中能够证明良好的先前学术成绩\n- 申请者必须具备足够的数学/微积分背景，具备足够的统计学/会计学/金融学/商学背景\n- 申请者可以选择参加SMU入学考试/GMAT（600被视为有竞争力）/GRE作为申请该专业的入学考试\n- 有相关工作经验的申请者将具备额外的优势",
+  "objectives": "新加坡管理大学会计学理学硕士（数据与分析）项目专为那些有兴趣将数据技术应用于其领域以解决业务问题的专业人士而设计，尤其是在金融和会计部门。大量数据的流动对数据分析专业人员产生了很高的需求，他们可以分析此类数据并获得知情决策所需的洞察力。这对会计和金融服务公司至关重要，因为他们一直在处理客户提供的大量信息。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际财务报告准则中的财务报告1  (Financial Reporting in the IFRS World I )\n国际财务报告准则中的财务报告2  (Financial Reporting in the IFRS World II )\n价值创造管理  (Managing for Value Creation )\n会计信息系统  (Accounting Information Systems )\n数据分析应用统计学  (Applied Statistics for Data Analysis )\n数据编程  (Programming with Data )\n数据管理  (Data Management )\n数据建模与可视化  (Data Modeling and Visualisation )\n预测与法医分析  (Forecasting and Forensic Analytics )\n金融工具分析  (Analytics for Financial Instruments )\n价值投资分析  (Analytics for Value Investing )\n会计分析毕业设计  (Accounting Analytics Capstone )\n实习/独立研究  (Internships or Independent Studies )",
+  "success_cases": ""
+}

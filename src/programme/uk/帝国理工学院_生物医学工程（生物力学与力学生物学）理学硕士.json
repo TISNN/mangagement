@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "生物医学工程（生物力学与力学生物学）理学硕士",
+  "ename": "MSc Biomedical Engineering (Biomechanics and Mechanobiology)",
+  "tags": "工科,生物工程,生物工程学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有2:1学位，需要工程、物理科学或数学学科背景\n该课程需要很强的数学能力，成功的申请者通常需要在本科学位期间在数学主题方面取得相当于2:1或以上的成绩\n生物力学与力学生物学方向的申请者应该具备一些固体力学经验，包括运动学和应力分析以及流体力学/动力学\n医学或生命科学背景的学生可能希望考虑MSc Engineering for Biomedicine",
+  "objectives": "帝国理工学院生物医学工程（生物力学与力学生物学）理学硕士旨在使学生得生物工程方面的技术知识、专业知识和可转移技能。\n加深学生对生物工程如何应对现代医疗保健挑战的理解，并研究与人口老龄化相关的主要疾病相关的生物工程问题。这些疾病包括心血管疾病、青光眼以及骨关节疾病。\n该流重点与心血管、肌肉骨骼、骨科、眼科和呼吸系统等系统相关的生物工程问题。内容旨在了解机械力如何在分子、细胞、组织、器官和生物体水平上影响生物功能。\n个人研究项目是课程的关键组成部分，使学生能够将其所学的知识应用于当前的研究问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "期刊俱乐部 (Journal Club)\n系统生理学 (Systems Physiology)\n统计与数据分析 (Statistics and Data Analysis)\n医疗器械认证 (Medical Device Certification)\n生物力学 (Biomechanics)\n生理流体力学 (Physiological Fluid Mechanics)\n分子、细胞和组织生物力学 (Molecular, Cellular and Tissue Biomechanics)\n骨科生物力学 (Orthopaedic Biomechanics)\n组织工程与再生医学 (Tissue Engineering and Regenerative Medicine)\n细胞和分子力转导 (Cellular and Molecular Mechanotransduction)\n人类神经机械控制和学习 (Human Neuromechanical Control and Learning)\n仿生学 (Biomimetics)\n生物医学高级计算和应力分析 (Biomedical Advanced Computational and Stress Analysis)\n生物医学成像原理 (Principles of Biomedical Imaging)",
+  "success_cases": ""
+}

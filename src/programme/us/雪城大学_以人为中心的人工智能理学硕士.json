@@ -1,0 +1,12 @@
+{
+  "school_name": "雪城大学",
+  "major_name": "以人为中心的人工智能理学硕士",
+  "ename": "MS in Applied Human Centered Artificial Intelligence",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季,春季\n项目时长: 31学分\n项目学费: 1,945美元/学分",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

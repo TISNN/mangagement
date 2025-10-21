@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "心理学研究方法理学硕士",
+  "ename": "MSc Research Methods in Psychology",
+  "tags": "社科,心理学,心理与临床语言科学学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30950英镑/年",
+  "requirements": "通常要求具有心理学或相关学科（例如认知神经科学）的良好的二等荣誉学位（57%或以上，研究方法和项目、论文课程2.1分）。学科必须反映心理学内容，并包括对大脑和行为的研究",
+  "objectives": "雷丁大学心理学研究方法理学硕士项目旨在帮助学生掌握基础分析方法技巧，为后续从事学术、临床、教育或健康心理学领域工作做好准备。雷丁大学心理学研究方法理学硕士项目注重培养学生的分析能力、方法意识和批判性思维以及其他可转移技能，是一门研究导向型学科。学生有机会与专家学者交流学习，参与最新的科研项目。学生可以从众多的选修课程中选择自己感兴趣的学科，也可以根据攻读博士学位的需要，选择学习课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "心理学发展方法 (Methods in developmental psychology)\n神经科学方法 (Methods in neuroscience)\n心理学定性方法 (Qualitative methods in psychology)\n数据分析 (Data analysis)\n分析方法 (Analytical methods)",
+  "success_cases": ""
+}

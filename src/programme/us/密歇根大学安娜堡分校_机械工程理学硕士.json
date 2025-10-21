@@ -1,0 +1,12 @@
+{
+  "school_name": "密歇根大学安娜堡分校",
+  "major_name": "机械工程理学硕士",
+  "ename": "MS in Mechanical Engineering(MSE)",
+  "tags": "工科,机械工程",
+  "introduction": "专业方向: 机械工程\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 3349美元/学分",
+  "requirements": "申请人应已在认可的课程中完成本科工作并获得 B.S.E. 或机械工程相关领域的同等学位（例如数学或基础科学）。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

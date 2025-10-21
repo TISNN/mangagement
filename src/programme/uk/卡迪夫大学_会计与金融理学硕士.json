@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "会计与金融理学硕士",
+  "ename": "MSc Accounting and Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 30450英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要会计、审计或金融专业背景\n如果申请者没有相关领域学位，学校会根据其专业经验进行考虑",
+  "objectives": "卡迪夫大学会计与金融理学硕士项目将为学生提供对当代会计和金融问题进行深入分析的机会，这将使学生能够在商业活动的所有领域中进行创新，同时了解到会计和金融对于创建一个更负责任且能进行可持续发展的社会的重要性。该课程旨在为学生们在国际互联的多样化和不断变化的环境中工作做好准备，通过让他们接触当前的思维和现实世界的经验，使学生能够在这种环境中取得成功。该课程还将让学员们能够现代道德和更广泛的社会问题，成为优秀且灵感充沛的专业人士。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级财务报告 (Advanced Financial Reporting)\n研究方法 (Research Methods)\n管理会计与组织绩效控制 (Management Accounting and the Control of Organizational Performance)\n金融与投资 (Finance and Investment)\n会计学研究议题 (Research Topics in Accounting)\n金融学研究议题 (Research Topics in Finance)\n国际公司金融 (International Corporate Finance)\n金融衍生产品 (Financial Derivatives)\n国际会计 (International Accounting)\n中国会计与金融 (Accounting and Finance in China)\n资产定价 (Asset Pricing)\n考试和论文 (Assesseed Assignments、Examination and Dissertation)",
+  "success_cases": ""
+}

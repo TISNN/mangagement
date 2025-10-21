@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "海洋哺乳动物科学理学硕士",
+  "ename": "MSc Marine Mammal Science",
+  "tags": "理科,生物,生物学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 29990英镑/年",
+  "requirements": "具有一等或2:1学位，需要生物科学背景，或其他理科、工程或数学专业背景。具有高等数学和统计方面学习背景（至少达到英国学校SQA Higher，GCE AS或A-Level，国际文凭或同等学历）以及良好的基本IT技能，包括文字处理，电子表格使用，电子邮件和互联网除上述最低要求外，申请人最好具备：\n在以前的工作、项目或志愿者工作中相关领域或实验室经验；\n进一步的IT技能，例如编程、数据库软件和用于分析的统计软件包（如MATLAB, SPSS, SAS或R）；\n大学水平的专门的微积分或统计课程需要填写附加申请表格",
+  "objectives": "圣安德鲁斯大学海洋哺乳动物科学理学硕士项目适合未来想从事研究和保护海洋哺乳动物的学生，是世界上唯一一个以研究为中心的海洋哺乳动物科学理学硕士学位。海洋哺乳动物科学硕士课程旨在帮助学生充分准备从事海洋哺乳动物保护和研究的专业工作。海洋哺乳动物科学理学硕士课程首先是一门海洋生态学定量课程，利用分析技术和研究方法来解决海洋哺乳动物生理和行为。海洋哺乳动物科学理学硕士课程由世界著名海洋哺乳动物研究小组(SMRU)的成员领导授课。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "海洋哺乳动物的保护和管理 (Conservation and Management of Marine Mammals)\n生物学定量方法 (Quantitative Methods for Biology)\n生物数据的统计模型 (Statistical Modelling of Biological Data)\n海洋哺乳动物生物学原理 (Principles of Marine Mammal Biology)\n海洋哺乳动物的种群生物学 (Population Biology of Marine Mammals)\n海洋哺乳动物行为的问题 (Current Issues in Marine Mammal Behaviour)\n生物标记问题 (Current Issues in Biologging)\n极地生态系统中的捕食者生态学 (Predator Ecology in Polar Ecosystems)\n高级海洋哺乳动物生物声学 (Advanced Bioacoustics for Marine Mammal Science)\n动物数量估算 (Estimating Animal Abundance)",
+  "success_cases": ""
+}

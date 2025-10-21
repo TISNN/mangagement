@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "统计学理学硕士",
+  "ename": "MSc Statistics",
+  "tags": "理科,数学,工程与物理科学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31390英镑/年",
+  "requirements": "具有2:1荣誉学位，需要数学和/或统计学，或包含高等数学和/或统计学成分的专业背景\n该课程针对的是那些已经完成包含大量数学或统计学内容的本科学位并希望继续攻读硕士研究生课程的学生",
+  "objectives": "伯明翰大学统计学理学硕士项目提供全面的课程，涵盖基础和高级统计原理和技术，以及强化数据分析培训。伯明翰大学统计学理学硕士项目的目标是让学生具备利用计算技术和先进统计软件开发和应用复杂统计模型的能力。该计划不仅旨在提高学生解决统计问题的能力，而且还教授与应对统计研究前沿的当代挑战相关的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "贝叶斯推理和计算 (Bayesian Inference and Computation)\n计算统计 (Computational Statistics)\n统计推断基础 (Foundations of Statistical Inference)\n非参数统计 (Nonparametric Statistics)\n统计机器学习 (Statistical Machine Learning)\n统计建模 (Statistical Modelling)\n时间序列和预测 (Time Series and Prediction)\n统计项目 (Project in Statistics)\n数据可视化 (Data Visualisation)\n医学统计 (Medical Statistics)\n数值方法和数值线性代数 (Numerical Methods and Numerical Linear Algebra)\n随机过程 (Stochastic Processes)",
+  "success_cases": ""
+}

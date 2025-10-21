@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "消费者分析与营销战略理学硕士",
+  "ename": "MSc Consumer Analytics and Marketing Strategy",
+  "tags": "商科,市场营销,商学院",
+  "introduction": "专业方向: 市场营销\n入学时间: 9月\n项目时长: 1年\n项目学费: 32250英镑/年",
+  "requirements": "具有2:1荣誉学士学位，不限专业背景，定量分析能力是有益的但不是必需的，需要愿意参与定量材料",
+  "objectives": "数字革命带来了空前的消费者信息，而组织都渴望理解并使用这些信息。利兹大学消费者分析与营销战略理学硕士学位课程使学生掌握分析消费者数据的实际技能，深刻理解成功的营销战略。\n利兹大学消费者分析与营销战略理学硕士学位课程由商学院和地理学院共同开设，学生将探索一系列分析方法，包括应用地理资讯系统和零售建模，消费者预测分析和数据可视化。同时，学生利用分析结果提供营销战略决策的软性技能也将得到培养。\n利兹大学消费者分析与营销战略理学硕士学位课程与全球企业关系密切，学生能够接触到诸如消费者行为、决策科学、电子交互营销方面的新趋势，也将通过着手公司提供的实时数据项目进一步培养实践技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用地理信息系统和零售建模 (Applied GIS and Retail Modelling)\n大数据和消费者分析 (Big Data and Consumer Analytics)\n商业分析和决策科学 (Business Analytics and Decision Science)\n消费者行为 (Consumer Behaviour)\n销售调研咨询项目 (Marketing Research Consultancy Project)\n营销策略 (Marketing Strategy)\n预测分析 (Predictive Analytics)\n论文-消费者分析 (Dissertation - Consumer Analytics)\n企业社会责任和可持续发展 (Corporate Social Responsibility and Sustainability)",
+  "success_cases": ""
+}

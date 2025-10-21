@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "医师助理研究理学硕士",
+  "ename": "MSc Physician Associate Studies",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 2年\n项目学费: 21000英镑/年",
+  "requirements": "具有生命科学或其他与健康相关的本科学位",
+  "objectives": "萨塞克斯大学医师助理研究理学硕士项目由英国和美国训练有素的医师助理、医生、护士和药剂师教授。学生可以向未来合作的多学科团队学习。它使学生具备获取病史、进行体检、请求和解释调查、诊断以及制定治疗和管理计划的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "医师助理生物医学和临床科学 – A（包括基于案例的学习） (Biomedical and Clinical Sciences for PAs – A (includes case-based learning))\n医师助理的临床技能 – A（包括沟通和体检技能） (Clinical Skills for PAs – A (includes communication and physical exam skills))\n医师助理临床实践 – A（全科医生实习） (Clinical Practice for PAs – A (GP placements))\n医师助理的药理学和处方 (Pharmacology and Prescribing for PAs )\n医师助理生物医学和临床科学 – B (Biomedical and Clinical Sciences for PAs – B)\n医师助理临床技能 – B (Clinical Skills for PAs – B)\n医师助理临床实践 – B（地区二级护理信托和全科医生的临床实习） (Clinical Practice for PAs – B (clinical placements in regional secondary care trusts and GPs))\n实践准备 (Preparation for Practice)\n服务改进项目 (Service Improvement Project)",
+  "success_cases": ""
+}

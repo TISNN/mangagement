@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "生物机器人理学硕士",
+  "ename": "MSc Biorobotics",
+  "tags": "工科,计算机,计算机科学、电气与电子工程和工程数学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 35400英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要STEM学科背景，来自其他背景的申请者将被具体考虑对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩\n学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们至少具备以下其中一项：\n- 在医学、生物、机器人、人工智能、数据科学、计算机科学或数字技术相关领域有重要的、相关的带薪或志愿工作经验（至少一年全职或同等兼职）的证明；\n- 相关研究生学历\n如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关工作经验和/或资格",
+  "objectives": "机器人技术的下一个前沿将从生物学中获得灵感，设计出柔软、智能、绿色和社会性的机器人。从用于癌症治疗的微型机器人，到为仓库供电的蜂群，用于制造的软钳子，以及用于修复的新材料界面，仿生机器人将为当今的全球挑战提供解决方案。先进的机器人将反过来为科学发现提供动力，从机器人在实验室进行自动化实验，到人工鱼研究深海污染，它们可以研究自然栖息地的生命系统。\n这个项目将生命科学家和工程师聚集在一个跨学科的环境中，解决方案是与利益相关者共同创建的。对于生命科学家来说，这将为机器人技术和人工智能开辟新的领域，这些技能在当今的就业市场上非常受欢迎。对工程师们来说，这将超越典型的机器人训练，旨在重新设计机器人的设计和使用方式，并将生物灵感作为核心。\n这种生物学和工程学的独特结合将培养核心专业技能，包括跨学科工作和负责任的开放式创新。该项目围绕基本机器人技术和生命科学的共同核心，其次是专门授课以及基于项目的生物机器人单位，将指导学生完成的最新研究和应用，通过实践去理解自己如何构建这些系统以及展示如何使用好他们。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "机器人系统 (Robotics Systems)\n人工智能概论 (Introduction to Artificial Intelligence)\n机器人研究技术与方法 (Robotics Research Technology and Methods)\n生物机器人小组项目 (Group Project in Biorobotics)\n生物系统与生物机器人 (Biosystems and Biorobotics)\n论文 (Dissertation)\n计算机编程概论 (Introduction to Computer Programming)\n仿生人工智能 (Bio-Inspired Artificial Intelligence)\n学习，计算与大脑 (Learning, Computation and the Brain)\n软机器人技术 (Soft Robotics)\n创新、创业与企业 (Innovation, Entrepreneurship and Enterprise)\n世界陷入危机 (World in Crisis)\n可持续发展 (Sustainable Development)",
+  "success_cases": ""
+}

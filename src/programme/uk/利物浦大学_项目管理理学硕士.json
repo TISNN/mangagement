@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "项目管理理学硕士",
+  "ename": "MSc Project Management",
+  "tags": "工科,工程管理,管理学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 30000英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要管理、建筑、数学、商业、工程、科学或相关学科背景，具有丰富的专业经验和/或其他资格的非毕业生也可以申请",
+  "objectives": "利物浦大学项目管理理学硕士项目的总体结构和课程内容都体现了当代商业焦点，涵盖了战略领导以及如何在复杂不确定的背景下企划、执行、管理和控制项目的方法。利物浦大学项目管理理学硕士项目的毕业项目旨在以实践操作为重点，在项目管理应用环境中指导并测试学生对所学知识的掌握程度。在利物浦大学项目管理理学硕士项目中，学生也能够：掌握SAP汇编程序与PRINCE2方法。通过客座讲座与业界专家进行咨询与交流，学习专业技能。将新学的项目管理知识运用于为期三个月的项目中（学生或在利物浦大学合作企业进行实行，或开展研究项目）。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "组织机构项目管理与资产组合管理 (Project and Portfolio Management In Organisations)\n风险、不确定性与复杂性规划 (Planning for Risk、Uncertainty and Complexity)\n商业分析与评估 (Business Analysis & Assessment)\n采购战略管理 (Strategic Purchasing Management)\n领导与管理项目团队 (Leading and Managing Project Teams)\n项目执行、监控与收尾 (Executing、Controlling and Closing Projects)\n运营建模与仿真 (Operations Modelling and Simulation)\n运营战略管理 (Strategic Operations Management)\n大数据管理 (Big Data Management)\n物流与物资配送 (Logistics and Physical Distribution)\n航运物流 (Maritime Logistics)\n数据挖掘与机器学习 (Data Mining and Machine Learning)\n商业大数据分析 (Big Data Analytics for Business)\n电子商务企业系统与SAP软件 (E-business Enterprise Systems With Sap)\n硕士课题项目 (Msc Project)",
+  "success_cases": ""
+}

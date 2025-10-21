@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "汽车工程（工程）理学硕士",
+  "ename": "MSc(Eng) Automotive Engineering",
+  "tags": "工科,机械工程,机械工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要相关工程学科背景，成功的申请者需要在高等数学和以下至少3门相关课程中取得优秀成绩：材料强度、动力学、流体力学、物理学或热力学，如果成绩单显示不清楚，学校可能要求提供更详细的课程信息",
+  "objectives": "传统上来说，汽车工程与汽车的大批量制造息息相关。但在过去十年中，行业风向已转向汽车零部件制造商、专家设计和顾问公司。利兹大学汽车工程工学硕士项目将使学生具备汽车产业分析、设计和建造所需的知识和技能，为学生在各行业背景下的工作奠定基础。项目中的核心课程将使学生具备专业领域的知识，如：底盘和传动系统工程，及车辆和产品系统设计，为学生提供汽车工程关键领域的坚实基础；学生也可以根据自身兴趣和就业意愿选择选修课程，从而获得特定领域的专业知识。通过利兹大学汽车工程（工程）理学硕士项目，学生将了解如何设计开发车辆和产品系统，以及汽车传动系和底盘工程。同时，学生将诸多课题，如：计算方法、摩擦学、发动机燃烧或机电一体化的应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "汽车底盘工程 (Automotive Chassis Engineering )\n汽车动力传动系统工程 (Automotive Driveline Engineering)\n工程心理学与人的因素 (Engineering Psychology and Human Factors)\n专业实践项目 (Professional Project)\n团队设计和构建项目 (Team Design and Build Project)\n车辆设计和分析 (Vehicle Design and Analysis)\n工程计算方法 (Engineering Computational Methods)\n摩擦学与表面工程 (Tribology and Surface Engineering)\n高级有限元分析 (Advanced Finite Element Analysis)\n车辆系统工程 (Vehicle Systems Engineering)\n计算流体动力学分析 (Computational Fluid Dynamics Analysis)",
+  "success_cases": ""
+}

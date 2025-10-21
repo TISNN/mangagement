@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "高级神经成像理学硕士",
+  "ename": "MSc Advanced Neuroimaging",
+  "tags": "社科,医学,大脑科学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的二等学士学位或同等学历，需要适当学科背景，学校也可能录取具有其他资格并在神经放射学和/或医学物理学相关领域具备相关经验的申请者",
+  "objectives": "伦敦大学学院高级神经成像理学硕士项目是专门针对那些无论是在临床实践或在神经科学研究领域打算从事神经成像的职业的人。这个多学科项目提供了现代神经成像方法的基本科学和技术原理的培训，以及在理解神经功能和神经障碍方面的应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "物理科学单元1:科学和方法导论 (Physical Science module 1: Introductory Science and Methods)\n物理科学单元2:成像模式 (Physical Science module 2: Imaging Modalities)\n物理科学单元3:高级成像 (Physical Science module 3: Advanced Imaging)\n临床单元1:神经解剖学、系统与疾病概论 (Clinical module 1: Introduction to Neuroanatomy, Systems & Disease)\n临床单元2:病理与诊断影像I (Clinical module 2: Pathology & Diagnostic Imaging I)\n临床单元3:病理与诊断影像II (Clinical module 3: Pathology & Diagnostic Imaging II)\n图书馆项目 (Library project)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

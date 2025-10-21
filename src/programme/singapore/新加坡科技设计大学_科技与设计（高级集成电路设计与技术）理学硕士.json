@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡科技设计大学",
+  "major_name": "科技与设计（高级集成电路设计与技术）理学硕士",
+  "ename": "MSc Technology and Design (Advanced IC Design and Technology)",
+  "tags": "工科,其他工科,硕士项目",
+  "introduction": "专业方向: 其他工科\n入学时间: 9月\n项目时长: 1年\n项目学费: 54500新币/年",
+  "requirements": "拥有相关专业的学士学位有兴趣的候选人若拥有非相关专业的本科学位，可能会根据具体情况进行考虑。没有相关学位的申请人可以提交简历或作品集，突出技能、能力和经验，以增强申请相关工作经验将被考虑录取",
+  "objectives": "新加坡科技设计大学科技与设计（高级集成电路设计与技术）理学硕士项目提供全面而深入的课程，以先进集成电路 (IC) 设计及其相关方法为中心。其主要目标是让学生掌握最新的 IC 设计技术专业知识，激发创新并确保对塑造行业的各种方法有深入的了解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计创新 (Innovation by Design)\n半导体器件技术与设计：硅及其他 (Semiconductor Device Technology and Design: Silicon and Beyond)\n数字IC设计 (Digital IC Design)\n设计科学 (Design Science)\n半导体技术的材料和设计 (Materials and Design for Semiconductor Technology)\n先进 CMOS 器件的可靠性工程和故障分析 (Reliability Engineering and Failure Analysis of Advanced CMOS Devices)\n集成电路设计高级专题 (Advanced Topics in IC Design)\n半导体制造业的人工智能 (AI for Semiconductor Manufacturing)",
+  "success_cases": ""
+}

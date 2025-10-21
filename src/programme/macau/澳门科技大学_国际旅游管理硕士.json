@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "国际旅游管理硕士",
+  "ename": "Master of International Tourism Management",
+  "tags": "商科,旅游酒店管理,酒店与旅游管理学院",
+  "introduction": "专业方向: 旅游酒店管理\n入学时间: 1/9月\n项目时长: 2年\n项目学费: 120000港币/年",
+  "requirements": "不局限于任何专业",
+  "objectives": "旅游业是一种文化活动，在商业活动上却被视为一个重要元素。此课程提供旅游业上的基础知识：市场学，人力资源管理，财务管理，景点规划，政策，环境和展望等。透过学习使学生了解不同的真实范例，培养学生对旅游业有一个较全面的了解。\n旨在启发学生对商业环境的全面理解，特别是对科技发展、幻变的社会环境和价值、全球化对经济增长及各国国家经济的相互依赖性及不确定性的分析。运用旅游营销战略管理的概念，来全面分析迅速变化的旅游环境。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际旅游管理概论 (Introduction to International Tourism Management)\n国际旅游营销策略管理 (Strategic Marketing Management for the International Tourism Industry)\n旅游财务管理与资本运作 (Financial Management and Cost Control for Tourism Organizations)\n旅游调研方法 (Tourism Research Methods)\n国际旅游业人力资源管理 (Human Resources Management for the International Tourism Industry)\n旅游信息系统管理 (Management Information Systems in Tourism Industry)",
+  "success_cases": ""
+}

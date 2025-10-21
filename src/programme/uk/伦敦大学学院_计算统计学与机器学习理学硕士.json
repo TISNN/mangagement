@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "计算统计学与机器学习理学硕士",
+  "ename": "MSc Computational Statistics and Machine Learning",
+  "tags": "理科,数据科学,工程科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有2:1英国学士学位或同等学历，需要高度定量学科背景，如计算机科学、数学、电气工程或物理科学。此外，申请者必须熟悉本科水平的数学，特别是中级本科水平的统计学，并精通线性代数和多变量微积分。相关工作经验也可能被考虑",
+  "objectives": "伦敦大学学院计算统计学与机器学习理学硕士项目旨在培养学生掌握在富数据领域取得成功所需的高级分析和计算技能。伦敦大学学院计算统计学与机器学习理学硕士项目涵盖严谨相关的数学内容，涉及机器学习与统计的基本方面，提供信息检索、生物信息学、定量金融学、人工智能及机器视觉方面的选修课程。\n伦敦大学学院计算统计学与机器学习理学硕士项目旨在培养学生理解机器学习与统计领域的基本原理并获取雇主需要的相关经验。学生将有机会通过处理与产业需求或尖端研究相关的问题来提升技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "监督式学习 (Supervised Learning)\n统计建模和数据分析 (Statistical Models and Data Analysis)\n图形化模型 (Graphical Models)\n概率和无监督学习 (Probabilistic and Unsupervised Learning)\n机器学习前沿议题 (Advanced Topics in Machine Learning)\n应用机器学习 (Applied Machine Learning)\n概率模型近似推理和学习 (Approximate Inference and Learning in Probabilistic Models)\n信息检索与数据挖掘 (Information Retrieval and Data Mining )\n深度学习导论 (Introduction to Deep Learning)\n成像中的逆问题 (Inverse Problems in Imaging)",
+  "success_cases": ""
+}

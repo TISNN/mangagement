@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "基因组学理学硕士（医学）",
+  "ename": "MSc Genomics (Medicine)",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "通常具有2:2学位，需要以下学科背景：生命科学、计算机科学、医学/护理/健康科学\n学校可能会接受不符合学位要求的申请，申请者通常具备相关专业资格或经验的证据\n本课程也可作为已经完成至少3年课程的本科医学生的插班学位课程\n申请者必须表现出对遗传学基本原理的理解\n申请时需要提交满足要求的语言成绩",
+  "objectives": "南安普顿大学基因组学理学硕士项目的学生将了解如何利用基因组技术前所未有的最新进展来改善患者的治疗效果，获得在临床和学术研究中探索和应用通过采样、测序和解释基因组信息获得的数据的经验。基因组学理学硕士（医学）方向的学生将研究基因组学在医学中的影响，核心学习分层医学以及基因组学如何影响患者护理。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分层医学 (Stratified Medicine)\n基因组技术与基础信息学 (Genomic Technologies and Basic Informatics)\n基因组学论文 (Genomics Dissertation)\n实践中的基因组学 (Genomics in Practice)\n遗传学与基因组学原理 (Principles of Genetics & Genomics)\n基因组信息学 (Genomic Informatics)\n生物信息学与系统生物学 (Bioinformatics and Systems Biology)\n癌症生物学 (Cancer Biology)\n利用基因组学控制传染病 (Communicable Disease Control with Genomics)\n医疗保健专业人员的基因组学咨询技巧 (Counselling Skills in Genomics for Health Care Professionals)\n让公众参与你的科学研究 (Engaging and Involving the Public with your Science)\n机器学习技术 (Machine Learning Technologies)\n转化医学 (Translational Medicine)",
+  "success_cases": ""
+}

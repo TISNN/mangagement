@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "可再生能源与电力系统管理理学硕士",
+  "ename": "MSc Renewable Energy and Power Systems Management",
+  "tags": "工科,能源,数学、计算机科学与工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 23300英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要电气与电子工程背景，学校也可能接受其他工程学位，前提是申请者的学习背景课程包含了一些电气和/或电子内容如果申请者在课程中学习过一些电气和/或电子内容，其他工程或物理学位也可能被考虑。如果申请者在能源领域拥有丰富的工作经验，则持有非相关学位的申请者可能会根据具体情况被考虑",
+  "objectives": "伦敦大学城市学院可再生能源与电力系统管理理学硕士旨在满足工业需求，对现有和未来的工程师进行有关可持续电力和能源产生的先进概念的培训和教育。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电力系统与能源管理概论 (Introduction to Power Systems & Energy Management)\n发电部门的供应链管理 (Supply Chain Management for the Power Generation Sector)\n可再生能源基础知识和可持续能源技术 (Renewable Energy Fundamentals & Sustainable Energy Technologies)\n使用智能电网技术进行输配电系统管理 (Transmission & Distribution Systems Management with Smart Grid Technologies)\n电力系统设计与仿真 (Power Systems Design & Simulation)\n电力电子 (Power Electronics)\n电力系统保护与电网稳定性 (Power Systems Protection & Grid Stability)\n电力行业经济学 (Economics of the Power Industry)\n论文 (Dissertation)",
+  "success_cases": ""
+}

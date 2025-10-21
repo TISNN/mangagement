@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "项目管理理学硕士",
+  "ename": "MSc Project Management",
+  "tags": "工科,工程管理,电子工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23900英镑/年",
+  "requirements": "需要具有相关学科背景，相关领域的专业资格或经历也将被考虑",
+  "objectives": "伦敦大学皇家霍洛威学院项目管理理学硕士项目的毕业生将具备：\n高效管理和执行项目的技术和实用知识；\n深入了解实施和运营大型国际项目的复杂性和风险，如伦敦奥运会、Terminal5和石油天然气；\n能够在以下领域做出贡献的能力：战略管理和决策、规划、协调、实施和控制众多跨国组织中大小型项目中产品和可交付成果的性能、时间和成本；\n深入了解管理大型复杂工程建设项目，及创新和创业或高科技领域的小项目所需金融的来源和类型；\n深入了解高效持续管理供应链的运营、质量控制和风险管理的重要性以及气候变化和可持续性议题日益增长的重要性。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目管理概论 (Introduction to Project Management)\n信息技术和项目管理 (Information Technology and Project Management)\n国际战略技术管理 (International Strategic Technology Management)\n运营与质量管理 (Operations and Quality Management)\n高级应用项目管理和规划 (Advanced Applied Project Management and Planning)\n高级项目资金，财务和风险管理 (Advanced Project Funding, Finance and Risk Management)\n企业治理，道德和可持续 (Corporate Governance, Ethics and Sustainability)\n大型项目的国际管理 (International Management of Mega-Projects)\n电视和电影行业的项目管理和融资 (Managing and Financing Projects in the TV and Film Industries)\n商业研究方法 (Business Research Methods)\n国际会计和金融 (International Accounting and Finance)",
+  "success_cases": ""
+}

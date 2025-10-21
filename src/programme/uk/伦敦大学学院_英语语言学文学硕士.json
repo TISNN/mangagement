@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "英语语言学文学硕士",
+  "ename": "MA English Linguistics",
+  "tags": "社科,语言,艺术与人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "欢迎具有英国大学颁发的英语语言或文学二等学士学位或同等学历的申请者\n本课程要求学生具备一定的英语语言学习先前知识",
+  "objectives": "伦敦大学学院英语语言学文学硕士项目帮助学生掌握现代英语表达所需具备的理论与实践知识，提供学术写作、语言论证和研究方面方面的专业训练，培养学生深入理解英语语言学的核心领域，包括词法、句法、语音学、音系学和语用学。此外，学生可以接触到伦敦大学学院英语用法调查中心的丰富研究资源。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "英语语法和方法论 (English Grammar and Methodology)\n英语语料库语言学或英语语言应用 (Either English Corpus Linguistics or English Language in Use)\n研究方法 (Research Methodology)\n英语单词 (English Words)\n英语语言历史 (History of the English Language)\n文学语言学 (Literary Linguistics)\n英语语音学和音系学 (Phonetics and Phonology of English)",
+  "success_cases": ""
+}

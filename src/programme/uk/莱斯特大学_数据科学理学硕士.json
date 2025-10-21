@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "数据科学理学硕士",
+  "ename": "MSc Data Science",
+  "tags": "理科,数据科学,计算与数学科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 23650英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业",
+  "objectives": "莱斯特大学数据科学理学硕士项目要求学生愿意加深对数学的理解，我们将提供资源和一系列支持来发展学生的技能。学生将可以访问根据每个模块的数学需求量身定制的材料，无论是在课程教学本身内，还是来自其他大学资源，例如我们的学术成就中心。\n同样，莱斯特大学数据科学理学硕士项目也有资源帮助学生熟悉课程中使用的两种高级计算机语言 Python 和 R。我们将为学生提供合适的笔记本电脑来帮助您完成数据之旅。\n莱斯特大学数据科学理学硕士项目将使学生掌握使用尖端数据科学工具解决广泛领域（科学、商业、艺术和文化、政府）的重要问题的技能。该计划的重点既注重培养技术技能，又注重创造性和道德问题解决的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学实践概述 (Overview of Data Science Practice)\n数据科学基础知识 (Fundamentals of Data Science)\n数据科学统计 (Statistics for Data Science)\n数据建模 (Modelling Data)\n信息可视化 (Information Visualisation)\n创造性地解决问题 (Creative Problem Solving)\n数据科学研究项目 (Data Science Research Project)\nExcel 数据科学 (Excel for Data Science)\n实用编程 (Practical Programming)\n函数数据分析简介 (Introduction to Functional Data Analysis)\n数据新闻 (Data Journalism)\n数据作为文化 (Data as Culture)",
+  "success_cases": ""
+}

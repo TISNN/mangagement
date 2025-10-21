@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "数码化转型及科技创新理学硕士",
+  "ename": "MSc Digital Transformation and Technological Innovation",
+  "tags": "商科,信息系统,商学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 276000港币/年",
+  "requirements": "具有认可的学士学位，偏好商业或管理相关学科\n具备基本的计算机知识水平\n偏好具备至少2年工作经验的申请者",
+  "objectives": "香港城市大学数码化转型及科技创新理学硕士项目旨在教育和培训未来的IS经理和专业人员，以使学员了解组织中数字化转型和技术创新的机会、原则和影响。香港城市大学数码化转型及科技创新理学硕士项目不要求学生具有以下所述领域的先验知识，但学生具有信息系统、商业或组织研究背景将是一个优势。香港城市大学数码化转型及科技创新理学硕士项目特别数字化转型和技术创新可以带来的战略优势及其潜力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "资讯和电子商务系统基础 (Foundations of Information and Electronic Business Systems)\n全球资讯系统和知识管理在组织中的应用 (Global Information Systems and Knowledge Management Applications in Organizations)\n资讯系统规划和策略 (Information Systems Planning and Strategy)\n基于信息技术的组织转型 (Information Technology Based Organisation Transformation)\n知识管理 (Knowledge Management)\n资讯系统管理研究方法 (Research Methods for the IS Manager)\n高级商业软件建构 (Advanced Business Software Construction)\n商业数据分析 (Business Data Analytics)\n商业软件建构 (Business Software Construction)\n数据库管理系统 (Database Management Systems)\n系统分析与设计 (Systems Analysis and Design)\n电子商务系统集成 (eBusiness System Integration)\n企业架构 (Enterprise Architecture)\n人机交互和多媒体 (Human-Computer Interaction and Multimedia)\n信息系统基础建设和安全管理 (Information Systems Infrastructure and Security Management)",
+  "success_cases": ""
+}

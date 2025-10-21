@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "计算机科学理学硕士（可跨申）",
+  "ename": "MSc Computer Science (Conversion)",
+  "tags": "工科,计算机,计算机科学、电气与电子工程和工程数学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 35500英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要任何与计算机科学无关的学科背景。具有计算机科学或计算机科学相关学科背景（包括计算机工程、智能科学和技术或软件工程）的申请人不适合此项目，不能被考虑\n需要展示合适的数学技能，无论是学士学位中的一个数学课程，还是达到GCSE数学grade B/6对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩\n学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们具备以下条件：\n- 在软件开发方面有重要的、相关的工作经验（至少一年的全职，或同等的兼职）\n- 相关研究生学历如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关资格",
+  "objectives": "布里斯托大学计算机科学理学硕士项目旨在为非计算机专业背景的学生提供计算机科学广泛相关知识。\n布里斯托大学计算机科学理学硕士项目旨在促进学生：\n理解计算机科学的理论基础及其在软件开发中的重要性；\n理解计算机系统的基本原理及其应用；\n基本掌握软件开发的分析、设计、实现、测试和文档分类的专业标准；\n认识计算机科学技术的现状及未来发展方向。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "C语言 (Programming in C)\n计算机体系结构概述 (Overview of Computer Architecture)\n软件工程与小组项目 (Software Engineering and Group Project)\n用Java进行面向对象的编程 (Object Oriented Programming with Java)\n研究技能 (Research Skills)\n网络技术 (Web Technologies)\n硕士项目计算机科学 (MSc Project Computer Science)\n数据库 (Databases)",
+  "success_cases": ""
+}

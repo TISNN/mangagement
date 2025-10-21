@@ -1,0 +1,12 @@
+{
+  "school_name": "圣母大学",
+  "major_name": "全球事务硕士",
+  "ename": "Master of Global Affairs",
+  "tags": "社科,国际关系",
+  "introduction": "专业方向: 国际关系\n入学时间: 秋季\n项目时长: 两年\n项目学费: 62,030美元\n项目规模: 30-50人",
+  "requirements": "GPA 达到3.0以上,在全球环境中有至少两年的专业经验",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

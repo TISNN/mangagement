@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "商业分析与大数据理学硕士",
+  "ename": "MSc Business Analytics and Big Data",
+  "tags": "商科,商业分析,管理学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 28500英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要物理、数学、计算机、工程、管理或相关学科背景\n具有丰富的专业经验和/或其他资格的非毕业生也可以申请",
+  "objectives": "大数据，是一门前沿课题，融合了发展迅速的数字技术、管理学和计算机科学，可应用于多个领域。\n工商界越来越需要懂得如何运用大数据所带来的机遇与挑战的高技术管理人员。而利物浦大学大数据管理理学硕士项目正适合那些想要在快速发展的动态领域中工作的学生。\n通过利物浦大学大数据管理理学硕士项目的学习，学生将能够：\n为成为未来大数据商业管理领域中的管理者与企业主管做准备，准备好面对当下商业的机遇、挑战与发展；\n学习前沿案例。利物浦大学大数据管理理学硕士项目课程不仅包括报告、课堂讲解和个别教学，还提供了由资深行业从业者和研究者所支持的案例研究和项目研究。\n通过项目毕业论文的方式发展并展现自身已掌握的知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字商务技术与管理 (Digital Business Technology and Management)\n大数据管理 (Big Data Management)\n数据挖掘与机器学习 (Data Mining and Machine Learning)\n商业大数据分析 (Big Data Analytics for Business)\n数字战略 (Digital Strategy)\n商业模拟与分析 (Business Simulation and Analysis)\n学位项目 (MSc Project)\n运营建模与仿真 (Operations Modelling and Simulation)\n大数据分析 (Big Data Analytics)\n电子商务系统 (E-business Systems)\n商业模拟与分析 (Business Simulation and Analysis)\n组织项目与资产组合管理 (Project and Portfolio Management in Organisations)\n数据挖掘与可视化 (Data Mining and VIsualisation)\n全球企业策略 (Global Corporate Strategy)\n服务运作管理 (Service Operations Management)\n全球海运物流 (Global Maritime Logistics)\n企业系统与SAP软件 (Enterprise Systems With Sap)\n物流与物资配送 (Logistics and Physical Distribution)\n可持续供应链管理 (Sustainable Supply Chain Management)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯康星大学麦迪逊分校",
+  "major_name": "会计硕士",
+  "ename": "Master of Accountancy",
+  "tags": "商科,会计",
+  "introduction": "专业方向: 会计\n项目类别: STEM\n入学时间: 秋季/春季\n项目时长: 1-2年\n项目学费: 49,913美元",
+  "requirements": "适合非会计专业，想考CPA学生申请",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

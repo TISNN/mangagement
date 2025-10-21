@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "植物科学与生物技术理学硕士",
+  "ename": "MSc Plant Science and Biotechnology",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "通常应具有2:1学士学位，需要涵盖生命的细胞和分子基础的学科背景，如：遗传学、微生物学、生物化学",
+  "objectives": "随着新工具和技术的发展，植物生物学的研究取得了前所未有的进展。这些知识有助于开发可持续解决方案，以应对21世纪的许多重大挑战，如食品、能源和材料。利兹大学植物科学与生物技术理学硕士项目将使学生能够全面了解支撑当代生物分子植物科学的一系列现代技术和方法。学生的大部分教学将由利兹大学植物科学中心（CPS）的学者提供，这些学者参与他们专业领域的最新研究。学生将从这些顶尖专家那里获得植物科学的现代分子方面及其在植物生物技术中的应用方面的专业培训。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物影像学 (Bioimaging)\n植物科学专题 (Topics in Plant Science)\n应用生物信息学 (Practical Bioinformatics)\n植物生物技术 (Plant Biotechnology)\n研究项目计划书 (MSc Bioscience Research Project Proposal)\n研究规划与科学交流 (Research Planning and Scientific Communication)\n高级生物分子技术 (Advanced Biomolecular Technologies)\n蛋白质工程实验室项目 (Protein Engineering Laboratory Project)\n研究项目 (Bioscience MSc Research Project)",
+  "success_cases": ""
+}

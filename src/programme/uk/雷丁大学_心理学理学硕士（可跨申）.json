@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "心理学理学硕士（可跨申）",
+  "ename": "MSc Psychology (Conversion)",
+  "tags": "社科,心理学,心理与临床语言科学学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30950英镑/年",
+  "requirements": "具有2:1或以上学位，要求申请者表现出学习心理学的兴趣",
+  "objectives": "雷丁大学心理学理学硕士项目面向有志从事心理学领域的学生，旨在培养学生过硬的心理学科知识，如典型和非典型人口发展、神经系统科学、感觉、认知、社会心理学、差异心理学。雷丁大学心理学理学硕士项目得到英国心理学会的认可，是一门综合心理学科。在学习的过程中，学生可以根据自身的兴趣和职业发展，选择学习课程，丰富实战经验，学会设计实验，并在导师的指导下，独立进行硕士研究项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "典型与非典型发展 (Typical and Atypical Development)\n社会与差异心理学 (Social and Differential Psychology)\n认知 (Cognition)\n神经系统科学 (Neuroscience)\n心理学实验室实习 (Psychology Lab Placement)\n认知行为疗法导论 (Introduction to CBT)",
+  "success_cases": ""
+}

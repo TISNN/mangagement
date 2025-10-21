@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "数学科学理学硕士",
+  "ename": "MSc Mathematical Sciences",
+  "tags": "理科,数学,数学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要数学或相关学位专业背景",
+  "objectives": "杜伦大学数学理学硕士项目为期12个月，为学生攻读数学或相关学科博士学位打好基础，课程设置内容广泛，同时要求学生根据个人研究兴趣完成一份学位论文。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "代数拓扑iv (Algebraic Topology IV)\n分析iii和iv (Analysis III and IV)\n密码与密码学iii (Codes and Cryptography III)\n微分几何Ⅲ (Differential Geometry III)\n贝叶斯统计iii和iv (Bayesian Statistics III and IV)\n数学金融iii和iv (Mathematical Finance III and IV)\n决策理论Ⅲ (Decision Theory III)\n运筹学Ⅲ (Operations Research III)\n高级量子理论iv (Advanced Quantum Theory IV)\n动力系统iii (Dynamical Systems III)",
+  "success_cases": ""
+}

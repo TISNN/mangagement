@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦政治经济学院",
+  "major_name": "应用社会数据科学理学硕士",
+  "ename": "MSc Applied Social Data Science",
+  "tags": "理科,数据科学,方法学系",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 38000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要社会科学背景，包含定量培训的证据，有工作经验者优先考虑但不强制要求",
+  "objectives": "随着大数据时代的到来，数据分析、计算能力正变得日益重要。伦敦政治经济学院应用社会数据科学理学硕士项目依托伦敦政治经济学院强大的社会科学背景，指导学生使用数据来解读有趣的社会科学问题。此项目为没有计算或统计学背景的学生开设了许多以项目为基础的编程课程，因此，无论学生是否具有计算或统计学背景，都可申请此项目。通过伦敦政治经济学院应用社会数据科学理学硕士项目的学习，学生将能熟练使用各种编程语言和软件，尤其是R语言和Python，掌握创建和操作大型数据库的方法，并将其应用于特定项目实践中。毕业后，学生广泛就职于各种公私部门。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机编程 (Computer Programming)\n数据科学家的数据 (Data for Data Scientists)\n管理和可视化数据 (Managing and Visualising Data)\n社会科学研究设计基础 (Fundamentals of Social Science Research Design)\n应用回归分析 (Applied Regression Analysis)\n社会科学的应用机器学习 (Applied Machine Learning for Social Science)\n机器学习和数据挖掘 (Machine Learning and Data Mining)\n评价卫生、发展和公共政策的研究方法 (Research Methods for Evaluation in Health, Development and Public Policy)\n调查方法 (Survey Methodology)\n观察和实验研究的因果推论 (Causal Inference for Observational and Experimental Studies )\n定量分析的专题:定量文本分析 (Special Topics in Quantitative Analysis: Quantitative Text Analysis )\n社会网络分析 (Social Network Analysis)\n大数据的分布式计算 (Distributed Computing for Big Data)\n人工智能和深度学习 (Artificial Intelligence and Deep Learning)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "数据科学（人类行为）理学硕士",
+  "ename": "MSc Data Science (Human Behaviour)",
+  "tags": "理科,数据科学,心理学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31900英镑/年",
+  "requirements": "具有本科学位，达到2:2学位或同等学历，需要心理学或相关学科背景，例如社会科学（含有统计学成分）",
+  "objectives": "数据科学对于毕业生来说是一个越来越有吸引力的职业目的地，在各个领域提供了有利可图、能实现个人抱负的就业机会，约克大学数据科学（人类行为）理学硕士课程的目的是“提升”心理学毕业生（以及来自邻近学科的毕业生）的技能，为其开展数据科学领域的职业生涯做好准备，特别强调在工业和第三部门组织中常见的与人类相关的数据集。这可能包括使用社交媒体数据、大规模客户调查、游戏数据、神经成像数据和人口普查数据来解决与企业、慈善机构和政府相关的问题。毕业时学生将具备一套独特的技能，能够专业地处理这些数据集和任何涉及人类行为数据的数据。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物科学中的数据分析与编程 (Data Analysis and Programming in the Biosciences)\n数据伦理与治理 (Ethics and Governance of Data)\n数据可视化 (Data Visualisation)\n行为研究中的高级方法 (Advanced Methods in Behavioural Research)\n大行为数据 (Big Behavioural Data)\n编程概论 (Introduction to Programming)\n神经影像学中的数据分析 (Data Analysis in Neuroimaging)\n基于工作的高级学习 (Advanced Work-Based Learning)\n记忆与大脑 (Memory and the Brain)\n人为风险 (Human Risk)\n沟通的微观分析 (Microanalysis of Communication)\n健康心理学 (Psychology of Health)",
+  "success_cases": ""
+}

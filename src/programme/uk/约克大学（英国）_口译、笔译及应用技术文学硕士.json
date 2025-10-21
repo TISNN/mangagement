@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "口译、笔译及应用技术文学硕士",
+  "ename": "MA Interpreting, Translation and Applied Technologies",
+  "tags": "社科,语言,语言及语言科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要语言、笔译和口译或其他相关学科背景，学校接受不同学术和专业背景的申请者\n在考虑申请时，学校会考虑相关的工作和学习经历。申请者需要提供英语以及汉语、法语、德语、意大利语、日语、西班牙中一到两种其他语言的优秀语言能力证明，具体取决于所选择的方向：\n- AB：英语和另一种语言之间的双向交流，例如：西班牙语译成英语以及英语译成西班牙语\n- ABC：英语和另一种语言之间的双向交流，也可以从第三种语言到A语言，英语必须是A或B语言，例如，如果德语是A语言，英语是B语言，意大利语是C语言，申请者能够将德语译成英语，将英语译成德语，将意大利语译成德语；如果英语是A语言，西班牙语是B语言，法语是C语言，申请者能够将英语译成西班牙语，将西班牙语译成英语，将法语译成英语\n- ACC：将两种不同的语言译成英语，例如：汉语译成英语，法语译成英语\n需要掌握非英语语言的有效证据（CEFR C1 level或以上水平），包括相关学术资格、熟练程度证书以及在使用该语言的国家的相关学习或工作经验的证据。请注意，学校不接受语言组合不包括其A（最强）语言的申请者br>\n除非申请者具备大量先前经验和/或入学资格证明其适合该项目，否则选择过程将包括一个在线面试，作为面试的一部分需要完成指定任务（任务1：视译，任务2：听力与概括）\n不需要事先准备，但了解工作语言所在国家的时事知识是必要的",
+  "objectives": "语言服务代表着一个快速增长和发展的行业，是当今多语言和互联世界的关键。约克大学口译、笔译及应用技术文学硕士课程将会议口译和笔译培训与计算机科学的相关方面相结合，将为学生提供所需的专业技能，以便在这个令人兴奋的行业中取得领先地位。学生将成为一名熟练的专业语言学家，能够自如地处理各种主题。学生将努力找到解决各种挑战的方法，无论是语言上的、文化上的还是技术上的。课程将向学生介绍语言服务行业正在使用和开发的最新技术的理论和功能原理（如人工智能）。独特的培训组合将使学生在一个需要多功能性，好奇心和快速有效学习能力的行业中茁壮成长。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "即席和同声传译 (Consecutive and Simultaneous Interpreting)\n翻译理论与实践 (Translation Theory and Practice)\n语言服务行业的技术 (Technologies in the Language Services Industry)\n独立项目 (Independent Project)\n语言服务行业的专业实践 (Professional Practice in the Language Services Industry)\n高级同声传译 (Advanced Simultaneous Interpreting)\n高级交替传译 (Advanced Consecutive Interpreting)\n专业翻译实践 (Professional Translation Practice)\n语言计算：真实智能与人工智能 (Linguistic Computations: Real and Artificial Intelligence)\n语言服务行业的管理 (Management in the Language Services Industry)",
+  "success_cases": ""
+}

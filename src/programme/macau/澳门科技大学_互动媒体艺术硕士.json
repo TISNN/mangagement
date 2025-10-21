@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "互动媒体艺术硕士",
+  "ename": "Master of Fine Arts in Interactive Media",
+  "tags": "社科,艺术,人文艺术学院",
+  "introduction": "专业方向: 艺术\n入学时间: 9月\n项目时长: 2年\n项目学费: 135000港币/年",
+  "requirements": "专业不限，艺术、信息技术等相关专业优先（色盲、色弱者不予接受）",
+  "objectives": "毕业生未来可依志向从事业界市场，如：多媒体广告设计、电脑游戏设计与管理、程式设计、互动体感装置、AR扩增实境、VR虚拟实境、影视及APP资讯设计等相关工作。参加国家举办之证照资格考试，进入互动媒体相关机关从事资讯与设计工作。学术方面可进入大学、高中及技职学校有关动画多媒体、视觉设计、资讯设计等教职，也可选择进入相关领域之国内外有关科技艺术、游戏设计与管理、资讯科学等博士班深造。自行创业或合资开设数位多媒体与设计、游戏设计、相关个人工作室。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "交互设计概论 (Introduction to Interactive Design)\n游戏策划 (Game Design)\n游戏引擎设计 (Game Engine Design)\n游戏介面与音效设计 (Game Interface and Digital Sound Effect)\n游戏技术研究 (Game Technology Research)\n游戏项目管理 (Game Project Management)\n游戏和玩家 (Games and Players)\n人机交互研究 (Study of Human-Computer Interaction)",
+  "success_cases": ""
+}

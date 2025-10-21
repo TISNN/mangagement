@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "生物医学创新理学硕士",
+  "ename": "MSc Biomedical Innovation",
+  "tags": "理科,生物,医学与牙科科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 32510英镑/年",
+  "requirements": "具有2:1荣誉学位，需要健康科学、工程学、生命科学、生物技术、信息技术、计算机与数据科学、数学、医学、商业或其他相关学科背景\n学校可能会考虑不符合此要求但具备相关经验的申请者，需要在申请之前与学校联系讨论其适合性",
+  "objectives": "伯明翰大学生物医学创新理学硕士项目将通过培养未来的创新者和企业家来填补空白，从而在医疗保健领域做出有影响力的变革。基于伯明翰大学在数据科学、工程、医疗技术、数学建模和医学方面的主要优势，将提供培训以识别未满足的医疗需求、发明新的解决方案并在医疗环境中实施它们。\n伯明翰大学生物医学创新理学硕士项目旨在使学生能够了解医疗保健部门的需求，并在新的医疗技术创新中发挥积极作用以满足这些需求。学生将培养必要的技能组合，并从培训和指导中受益，以实现创新和采用新的智能解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物创新 I：以需求为导向的生物创新的研究方法和实践 (BioInnovation I: Research Methodologies and Practices of Needs-led BioInnovation)\n新型医疗技术评估和确定改进医疗设备的需求 (Novel Medical Technology Assessment and Identifying the Need for Improved Medical Devices)\n生物创新 II：从创意转化为影响的创意和设计方法 (BioInnovation II: Ideation and Design methodologies for Translation from Idea to Impact)\n提高新医疗技术使用的质量和患者安全 (Improving Quality and Patient Safety in Novel Medical Technology Use)\n生物创新 III：项目 [项目和论文/报告] (BioInnovation III: Project [Project and Dissertation/Report])\n医疗保健技术简介 (Introduction to Healthcare Technologies)\n卫生经济学 (Health Economics)\n用于医疗保健技术的高级生物材料 (Advanced Biomaterials for Healthcare Technologies)\n用于医疗保健应用的增材制造和 3D 打印 (Additive Manufacturing and 3D Printing for Healthcare Applications)\n业务和战略发展 (Business and Strategy Development)\n卫生技术评估原理 (Principles of Health Technology Assessment)\n医疗器械 (Medical Devices)\n医学传感器系统 (Sensor Systems in Medicine)",
+  "success_cases": ""
+}

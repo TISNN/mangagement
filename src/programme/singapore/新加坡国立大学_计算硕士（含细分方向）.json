@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "计算硕士（含细分方向）",
+  "ename": "Master of Computing (with Specialisations)",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/8月\n项目时长: 1.5年\n项目学费: 40694新币/年",
+  "requirements": "具有良好的计算机荣誉学士学位；或\n具有良好的相关学科荣誉学士学位以及2年信息技术行业经验；或\n具有良好的计算机学士学位以及2年信息技术行业经验；或\n具有良好的商业相关学科学士学位或荣誉学位以及2年信息技术行业经验。\n针对信息系统方向，具有电子商务/工程学/经济学/统计学/数学学位的申请者也将被考虑\n优先考虑具有信息技术相关工作经验的申请者\n需要提交GRE/GMAT\n可以选择性提交存款证明，金额覆盖至少一学年学费",
+  "objectives": "新加坡国立大学计算机硕士项目是一个全面且具有挑战性的研究生项目，包含不同领域方向，涵盖最新的应用和基础研究成果，课程提供先进及深入的信息技术知识，帮助学生为应对信息技术领域职业生涯的挑战做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据库应用程序设计与调试 (Database Applications Design and Tuning)\n人工智能规划与决策 (AI Planning and Decision Making)\n人机交互现象与理论 (Phenomena and Theories of Human-Computer Interaction)\n程序分析原理 (Principles of Program Analysis)\n分布式系统 (Distributed Systems)\n知识发现与数据挖掘 (Knowledge Discovery and Data Mining)\n高级计算机网络 (Advanced Computer Networks)\n正式规范与设计技术 (Formal Specification and Design Techniques)\n仿真与建模技术 (Simulation and Modelling Techniques)\n大规模算法 (Algorithms at Scale)\n软件项目管理 (Software Project Management)\n信息技术策略与管治 (IT Strategy and Governance)\n信息安全政策与管理 (Information Security Policy and Management)\n智联网解决方案与开发 (AIoT Solutions and Development)\n情感计算 (Affective Computing)\n数字化转型 (Digital Transformation)\n平台设计与经济 (Platform Design and Economy)\n企业架构 (Enterprise Architecture)\n数字参与 (Digital Engagement)\n以人为本的智能系统 (Human-Centred Intelligent Systems)\n软件安全 ( Software Security)\n物联网安全 ( IoT Security)\n密码学理论与实践 (Cryptography Theory and Practice)\n计算机安全实践 (Computer Security Practice)\n信息安全的法律问题 (Legal Aspects of Information Security)\n信息安全管理 (Information Security Management)\n信息安全管理专题 (Topics in Information Security Management)\n技术风险与恢复 (Technology Risk and Resilience)\n全球IT项目与供应商管理 (Global IT Project and Vendor Management)\n算法机制设计 (Algorithmic Mechanism Design)\n计算机科学逻辑基础 (Fundamentals of Logic in Computer Science)\n三维计算机视觉 (3D Computer Vision)\n智能机器人：算法与系统 (Intelligent Robots: Algorithms and Systems)\n人工智能中的不确定性建模 (Uncertainty Modelling in AI)\n机器学习理论与算法 (Theory and Algorithms for Machine Learning)\n神经网络与深度学习 (Neural Networks and Deep Learning)\n数据驱动决策 (Data-Driven Decision Making)\n计算机视觉与模式识别 (Computer Vision and Pattern Recognition)",
+  "success_cases": ""
+}

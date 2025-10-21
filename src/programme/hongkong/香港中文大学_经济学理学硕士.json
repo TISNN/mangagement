@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,社会科学学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 320000港币/年",
+  "requirements": "毕业于受认可大学并获得学士学位，需要提供B等级证明，偏好具备良好的数学或统计学背景的申请者",
+  "objectives": "香港中文大学经济学硕士学位课程旨在传授给学生最前沿的经济学知识，包括微观经济学、宏观经济学、计量经济学及应用领域，为学生以后继续修读博士学位和开展研究工作打下坚实的知识基础。培养学生定量分析的能力，包括应用计量经济学工具来分析数据集、得出切实可靠的评估、检验假设和进行预测的能力；使学生掌握经济学知识和计量经济学技巧来进行经济分析，尤其是分析中国经济和亚洲其他国家经济，从而使其能在金融机构、政府部门或者咨询公司的工作中拥有优势。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济学理论 (Microeconomic Theory)\n宏观经济学理论 (Macroeconomic Theory)\n定量方法综述  (Review of Quantitative Methods)\n计量经济学理论与应用 (Econometric Theory and Applications)\n全球经济与金融论坛 (Global Economics and Finance Forum)\n应用计量经济学 (Applied Econometrics)\n博弈理论 (Game Theory)\n经济学中的计算方法 (Computational Methods in Economics)\n机器学习方法 (Machine Learning Methods)\n中国经济分析 (Analysis of China's Economy)\n货币经济学 (Monetary Economics)\n金融经济学 (Financial Economics)\n国际贸易 (International Trade)\n国际金融 (International Finance)\n发展经济学 (Development Economics)\n劳动经济学 (Labour Economics)\n产业组织 (Industrial Organization)\n公司金融 (Corporate Finance)\n中国财政与货币政策 (China Fiscal & Monetary Policy)\n行为经济学与金融学 (Behavioral Economics and Finance)\n经济学专题 (Special Topics in Economics)",
+  "success_cases": ""
+}

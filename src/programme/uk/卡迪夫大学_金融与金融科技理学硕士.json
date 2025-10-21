@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "金融与金融科技理学硕士",
+  "ename": "MSc Finance with Financial Technology",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 30450英镑/年",
+  "requirements": "具有2:1荣誉学位，需要金融或相关学科背景。如果申请者没有相关领域的学位，学校会考虑其专业经验",
+  "objectives": "卡迪夫大学金融与金融科技理学硕士项目主修金融技术。学生将接触到新兴金融技术以及核心金融理论和实践，确保学生在互联互通、多元化且快速发展的国际金融领域取得成功。\n学生将深入了解金融和金融技术的战略方面。老师与学生们将共同探讨投资管理、公司金融、大数据和金融中的人工智能应用等关键主题，同时培养学生的数据分析和机器学习研究技能和编程能力。可选课程将帮助学生定制金融或金融技术特定方面的学习，以实现未来的职业抱负。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "AI在金融领域的应用 (AI Application in Finance)\n金融大数据分析 (Big Data Analytics for Finance)\n投资管理 (Investment Management)\n公司金融 (Corporate Finance)\n金融计量方法 (Quantitative Methods in Finance)\n研究论文 (Research Dissertation)",
+  "success_cases": ""
+}

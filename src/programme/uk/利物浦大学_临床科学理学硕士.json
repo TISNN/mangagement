@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "临床科学理学硕士",
+  "ename": "MSc Clinical Sciences",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 28300英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要医学、生物医学或相关的生物科学学科背景。以前的MRes或MSc学习或医学、兽医或牙科资格也可以接受",
+  "objectives": "利物浦大学临床科学理学硕士项目旨在提高学生对人类健康基础分子和细胞机制以及前沿临床应用的专业知识。该课程提供一种综合方法，涵盖基础生物医学科学和高级转化研究，全部属于分子、细胞、组织和临床实践的广泛主题。该课程结合深入的教学材料，以进一步深入了解健康和疾病中的细胞机制，并在最后一个学期进行动手实践的独立研究项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物数据技能 (Biological Data Skills)\n临床科学研究前沿1 (Research Frontiers in Clinical Sciences 1)\n可转移技能 (Transferable Skills)\n临床科学研究前沿2 (Research Frontiers in Clinical Sciences 2)",
+  "success_cases": ""
+}

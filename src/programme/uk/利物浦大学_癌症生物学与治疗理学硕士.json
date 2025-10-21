@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "癌症生物学与治疗理学硕士",
+  "ename": "MSc Cancer Biology and Therapy",
+  "tags": "理科,生物,生命科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 26400英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要生物科学学科背景\n申请者必须拥有项目主任认可的科学背景",
+  "objectives": "利物浦大学癌症生物学与治疗理学硕士项目旨在提供对癌症研究的理论和实践的高水平理解，并将与癌症相关的生物医学研究与临床应用联系起来。癌症生物学与治疗理学硕士项目由国际知名生物医学科学家和临床医生授课，提供有关不同癌症疾病的分子机制及其与临床治疗选择相关的科学知识。\n利物浦大学癌症生物学与治疗理学硕士项目的核心内容涵盖了广泛的研究活动，从识别新靶点，到在临床前肿瘤模型中对其进行验证，最后在早期临床试验中对其进行验证。在该项目中，学生可以学习如何设计、计划和设置转化癌症研究，并与利物浦大学正在进行的转化研究中的学术科学家、外科医生、肿瘤学家和病理学家直接互动。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究导论 (Introduction to Research )\n癌症研究与治疗的前沿 (Frontiers in Cancer Research and Treatment)\n肿瘤临床治疗 (Cancer Clinical Trials)\n细胞生物技术与生物成像 (Cellular Biotechnology and Biological Imaging)\n计算生物学 (Computational Biology )\n生物研究高级统计学 (Advanced Statistics for Biological Research)\n生命科学信息学 (Informatics for Life Sciences)\n理学硕士研究项目 (MSc Research Project )",
+  "success_cases": ""
+}

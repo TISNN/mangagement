@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门城市大学",
+  "major_name": "计算机科学硕士",
+  "ename": "Master of Computer Science",
+  "tags": "工科,计算机,数据科学研究院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 2年\n项目学费: 110000港币/年",
+  "requirements": "报考者须具有学士学位或同等学历。前置学历专业为计算机科学、信息科学、人工智能、数据科学、信息安全、数据分析、数据管理、数学、统计学、机器学习、数据採集、数据库等领域及相关专业者优先。\n往届本科毕业生需参加2025年全国硕士研究生招生考试且初试总成绩过国家A类线。\n应届本科毕业生不受考研限制。",
+  "objectives": "配合澳门特別行政区发展规划以及国家数字经济发展战略规划，计算机科学硕士课程总体培养目標为：\n具备扎实的自然科学、信息科学理论基础；\n具有人工智能与信息安全专业领域知识的人才；\n具有从事科学研究和技术开发的能力，产学研结合的务实型人才；\n具有创新意识和终身学习动力的跨领域成长型人才；\n具有国际视野、中国情怀和跨文化合作能力的科研和应用型人才；\n除了总体目标的覆盖內容以外，“人工智能”方向的培养目標还包括：\n培养国家与澳门发展所需的爱国爱澳的，掌握数据科学、人工智能相关知识，理论与实务结合、分析与应用兼备的专业人才；\n可以在不同的领域灵活运用所学的知识，解决复杂情况下多变的实际问题的交叉型人才；\n“信息安全” 方向的培养目标还包括：\n培养国家与澳门发展所需的的爱国爱澳的信息安全人才，为数据系统建立技术、管理上的安全保护。\n培养熟练掌握安全检测、加密技术、防护策略、防御技术等基础知识，解决复杂情境下的实际问题的综合型人才。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级编程与软件工程 (Advanced Programming and Software Engineering)\n高级计算机体系结构 (Advanced Computer Architecture)\n计算机通信与网络 (Computer Communication and Networks)\n学术专题项目 (Special Academic Topic)\n人工智能和计算智能 (Artificial Intelligence and Computational Intelligence)\n神经网络 (Neural Networks)\n机器学习算法与应用 (Machine Learning Algorithms and Applications)\n计算机体系安全 (Cybersecurity)\n计算机网络安全和安全协议 (Computer Network Security and Security Protocols)\n密码学 (Cryptography)\n时间序列分析 (Time Series Analytics)\n并行计算方法 (Parallel Computing Methods)\n机器人原理与脑计算 (Robotics Principles and Brain Computing)\n信息隐私和应用 (Information Privacy and Applications)\n大数据分析 (Big Data Analytics)",
+  "success_cases": ""
+}

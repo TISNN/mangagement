@@ -1,0 +1,12 @@
+{
+  "school_name": "圣路易斯华盛顿大学",
+  "major_name": "商业分析硕士",
+  "ename": "MS in Business Analytics",
+  "tags": "商科,商业分析",
+  "introduction": "专业方向: 商业分析\n项目类别: STEM\n入学时间: 秋季\n项目时长: 3学期\n项目学费: 87685美元\n项目规模: 136人\n平均G: 674\n就业比例: 97%",
+  "requirements": "微积分1,2和统计学",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

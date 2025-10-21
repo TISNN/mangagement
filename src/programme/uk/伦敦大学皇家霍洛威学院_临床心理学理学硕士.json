@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "临床心理学理学硕士",
+  "ename": "MSc Clinical Psychology",
+  "tags": "社科,心理学,心理学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 28500英镑/年",
+  "requirements": "需要具有心理学或相关社会科学专业背景，有接受过统计学和方法论培训的证明",
+  "objectives": "心理学探索了人类的许多方面，包括我们的想法、感受、决定和行为。伦敦大学皇家霍洛威学院临床心理学理学硕士项目帮助学生深入理解精神疾病和行为异常的治疗和评估方法。这个全面的项目将教授就业所需的知识和技能，帮助学生获得在心理健康机构工作的机会或进行心理健康研究，其主题包括临床评估、循证治疗原则和身心健康。学生将通过丰富多彩的学术形式向热心的专家学者学习，包括一系列研讨会、讲座和研究型教学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "调整与幸福 (Adjustment and Well-Being)\n临床评估和治疗方法 (Clinical Assessment and Treatment Approaches)\n专业的临床实践和技能 (Professional Clinical Practice and Skills)\n研究统计 (Statistics for Research)\n临床论文 (Clinical Dissertation)\n应用环境中的心理学 (Psychology in Applied Settings)\n心理科学专题 (Topics in Psychological Science)\n司法调查的认知，社会和神经科学方法 (Cognitive, Social and Neuroscience Approaches to Forensic Investigations)\n临床安置 (Clinical Placement)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "音乐硕士",
+  "ename": "Master of Music",
+  "tags": "社科,艺术,杨秀桃音乐学院",
+  "introduction": "专业方向: 艺术\n入学时间: 8月\n项目时长: 2年\n项目学费: 72750新币/年",
+  "requirements": "申请者应该已完成或处于完成合格学位课程的最后一年\n需要提交预筛选试镜视频或作品集，预选后入围的申请者将被邀请参加线下试镜\n申请者需要具备充分的音乐理论知识，需要通过音乐能力测试",
+  "objectives": "新加坡国立大学音乐硕士项目旨在促进个人专业领域更高水平的音乐学习，发展与新加坡和国际音乐教育社区相关的特定乐器和团体教学能力，并促进在音乐行业获得成功所需的专业学习。学生在自己的专业领域有很强的能力，在音乐解读方面有更深入的知识，在高水平的合奏中有丰富的经验(通常是领导角色)，在教学和研讨会中有理论和应用理解，在各种环境中有更强的沟通和专业能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分析&作曲 (Analysis & Composition)\n情境研究 (Contextual Studies)\n专业整合领域课程 (Courses in Professional Integration Areas)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "应用语言学与对外英语教学文学硕士",
+  "ename": "MA Applied Linguistics and Teaching English to Speakers of Other Languages",
+  "tags": "社科,语言,文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 24100英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要英语、教育学或语言学学科背景，以及至少 12 个月的教学经验\n其他学位科目可根据具体情况考虑",
+  "objectives": "利物浦大学应用语言学与对外英语教学文学硕士项目面向英语为外语的人员，包括教师，培训师，教材设计者，研究人员和行政人员。旨在教授学生相关理论知识的同时，培养学生运用语言学进行研究的能力，加深学生对当前课堂教学方法，检测方式，课程设计和教材设计的理解，提升学生语言分析能力和语言教学能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "话语分析导论 (Introduction to Discourse Analysis)\n英语语言教学方法 (Methods of English Language Teaching)\n课程和材料设计原则 (Principles of Course and Materials Design)\n研究技巧 (Research Skills)\n功能语法 (Functional Grammar)\n词汇教学 (Lexis and Vocabulary Teaching)\n应用语言学论文 (Applied Linguistics Dissertation)\n心理学和语言教学 (Psychology and Language Learning)\n口语和听力 (Speaking and Listening)\n阅读和写作 (Reading and Writing)\n测试和语言表达评估 (Testing and Assessment of Language Performance)\n文献和第二语言教学 (Literature and Second Language Teaching)\n语言教学数字技术 (Digital Technologies for Language Teaching)",
+  "success_cases": ""
+}

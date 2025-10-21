@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "生物医学科学理学硕士",
+  "ename": "MSc Biomedical Sciences",
+  "tags": "理科,生物,生物学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 31900英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要生物科学背景，学校也会考虑具备丰富行业经验的申请者，该课程不适合已经完成了综合硕士学位的学生",
+  "objectives": "生物医学科学使我们能够在细胞和分子水平上了解身体是如何运作的以及疾病是如何发展的。有了这些知识，我们就有了更好的诊断、专门的治疗和未来治愈的关键。\n随着个性化医疗、干细胞和基因编辑的前景出现在医疗保健研究的前沿，成为一名生物医学科学家从未像现在这样令人兴奋。\n生物医学科学理学硕士结合了学生想要成为一名高效的研究人员或行业专家所需的前沿理论、实践与应用技能。学校的教学直接来源于研究，这意味着学生将与在该领域领先的学者一起工作，受益于约克生物医学研究所的最先进的设施和跨越几个分子医学相关领域的专业知识，包括癌症，免疫学，微生物学，神经科学和寄生虫学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "疾病分子基础 (Molecular Basis of Disease)\n生物科学中的数据分析与编程 (Data Analysis and Programming in the Biosciences)\n生物医学科学的高级研究课题 (Advanced Research Topics in Biomedical Sciences)\n研究、专业与团队技能 (Research, Professional and Team Skills)\n独立学习模块 (Independent Study Module)\n论文 (Dissertation)",
+  "success_cases": ""
+}

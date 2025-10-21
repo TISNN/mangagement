@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "人工智能与数据工程理学硕士",
+  "ename": "MSc Artificial Intelligence and Data Engineering",
+  "tags": "工科,计算机,工程科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有2:1英国学士学位或同等学历，需要计算机科学、计算机或软件工程背景（包括数据系统、人工智能和数学方面的良好背景），相关工作经验也可能被考虑",
+  "objectives": "伦敦大学学院人工智能与数据工程理学硕士项目汇集了软件工程的高级主题以及在复杂的现实环境中设计、构建、部署和管理机器学习系统所需的基本知识和技能，并且涵盖了大规模数据密集型系统的设计、编码、测试、部署和演进所需的所有软件工程活动的基础和实践，以培养学生成为人工智能工程师、机器学习工程师或数据工程师。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "需求工程和软件架构 (Requirements Engineering and Software Architecture)\n验证与验证 (Validation and Verification)\n软件开发实践 (Software Development Practice)\n专业实践 (Professional Practice)\n数据分析工程1 (Engineering for Data Analysis 1)\n数据分析工程2 (Engineering for Data Analysis 2)\n理学硕士软件系统工程组项目 (MSc Software Systems Engineering Group Project)\n理学硕士人工智能和数据工程研究项目 (MSc Artificial Intelligence and Data Engineering Research Project)\n监督学习 (Supervised Learning)\n机器学习简介 (Introduction to Machine Learning)\n数据科学 (Data Science)\n应用深度学习 (Applied Deep Learning)",
+  "success_cases": ""
+}

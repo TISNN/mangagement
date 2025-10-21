@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "生物医学数据科学理学硕士",
+  "ename": "MSc Biomedical Data Science",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 8月\n项目时长: 1年\n项目学费: 61149新币/年",
+  "requirements": "具有良好的荣誉学位，需要理工科或计算机科学专业背景\n具有相关工作经验者优先考虑（生物行业或数据科学应用）",
+  "objectives": "南洋理工大学生物医学数据科学理学硕士是亚太地区首个专门提供生物医学领域的数据科学培训的研究生课程。它由南洋理工大学(NTU)和新加坡科技研究局(ASTAR)的教授和数据科学从业者联合授课。南洋理工大学生物医学数据科学理学硕士课程符合行业趋势，结合了制药、医疗和技术的许多专家提供的宝贵意见。同时，提供了大量的实践机会，培养学生的实战技能和能力。本硕士课程一共有三个研究方向：生物信息学、生物技术、人工智能(AI)。生物信息学方向结合了生物学和信息科学，探索生物信息学算法，尤其是在以下领域的高产出应用：基因组学，转录组学和蛋白质组学，开发用于处理原始数据的分析管道，并将信息转化为有价值的生物学见解。生物技术方向旨在开发和优化用于数据生成和基于系统建模的平台。专注学习系统和合成生物学，掌握相关技术，开发新的生物学系统来获取生物学新见解。亲手准备、处理和分析基因组学、转录组学和蛋白质组学样品。人工智能方向致力于将机器学习和人工智能应用于生物医学和医疗，熟悉不同的机器学习和深度学习算法，了解如何正确地进行基准测试和验证，掌握数据建模，为不同领域开发性能卓越的分类模型，例如诊断、预后、生物标记等。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物医学的基本机器学习 (Essential Machine Learning for Biomedical Science)\n生物医学科学基本程序设计 (Essential Programming for Biomedical Science)\n生物医学数据挖掘技术 (Techniques in Biomedical Data Mining)\n图形和可视化 (Story-telling with Graphics and Visualizations)\n生物医学的深度学习 (Deep Learning for Biomedical Science)\n基础生物统计学和生物数学 (Essential Bio-statistics and Bio-mathematics)\n生物医学数据科学的高级计算思维 (Advanced Computational Thinking for Biomedical Data Science)\n用于生物医学数据科学的高级人工智能 (Advanced Artificial Intelligence for Biomedical Data Science)\n生物大数据 (Biological Big Data)\n生物序列分析 (Biological Sequence Analysis)\n生物分子结构。建模和设计 (Biomolecular Structures - Modelling and Design)\n实习 (Practicum)",
+  "success_cases": ""
+}

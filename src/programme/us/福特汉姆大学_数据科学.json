@@ -1,0 +1,12 @@
+{
+  "school_name": "福特汉姆大学",
+  "major_name": "数据科学",
+  "ename": "MS in Data Science",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2年\n项目学费: 1,593美元/学分",
+  "requirements": "1. 本科学位毕业于计算机科学、信息科学、工程学、数学、物理科学、健康科学、商学、经济学、心理学、社会科学或城市与城市规划。\n2. 会离散数学，概率和统计知识，包括排列，组合，描述性统计和基本概率概念。\n3. 熟悉Python。或通过CISC 5380 Python编程获得",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

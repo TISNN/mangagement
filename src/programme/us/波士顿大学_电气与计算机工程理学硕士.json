@@ -1,0 +1,12 @@
+{
+  "school_name": "波士顿大学",
+  "major_name": "电气与计算机工程理学硕士",
+  "ename": "MS in Electrical & Computer Engineering",
+  "tags": "工科,电气电子",
+  "introduction": "专业方向: 电气电子\n入学时间: 秋季\n项目时长: 32学分\n项目学费: 58560美元/年",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

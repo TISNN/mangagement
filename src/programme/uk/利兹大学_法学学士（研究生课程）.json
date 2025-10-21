@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "法学学士（研究生课程）",
+  "ename": "LLB Law (Graduate programme)",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 2年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要非法律学科背景",
+  "objectives": "利兹大学法学学士（研究生课程）项目为期两年，专为拥有非法律学科本科学位并希望转行从事法律工作的人而设计。该项目为学生提供学习法律的机会，并着重于传统意义上的“像律师一样思考”，以及更广泛意义上的法律作为一个社会机构。如果希望在英格兰和威尔士获得律师职业资格，该学位可使学生进入法律教育的职业阶段。该项目涵盖七个基础的法律知识，并培养学生的法律研究技能。广泛的可选模块还将使学生能够专业法律领域的兴趣，例如公司或就业法、人权法、环境法和家庭法。学生还可以探索刑事司法和犯罪学的主题，例如警务或青少年犯罪。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "合同法 (Contract Law)\n法律基础 (Foundations of Law)\n宪法和行政法 (Constitutional and Administrative Law)\n刑法 (Criminal Law)",
+  "success_cases": ""
+}

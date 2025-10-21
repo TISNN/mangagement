@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "海洋生态系统管理理学硕士",
+  "ename": "MSc Marine Ecosystem Management",
+  "tags": "理科,生物,生物学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 29990英镑/年",
+  "requirements": "具有一等或2:1学位，需要相关自然科学或其他理科、工程或数学专业背景。具有高等数学和统计方面学习背景（至少达到英国学校AS/A-level, Higher，国际文凭或同等学历）以及良好的基本IT技能，包括文字处理，电子表格使用，电子邮件和互联网除上述最低要求外，申请人最好具备：\n在以前的工作、项目或志愿者工作中相关领域或实验室经验；\n进一步的IT技能，例如编程、数据库软件和用于分析的统计软件包（如MATLAB, SPSS, SAS或R）；\n大学水平的专门的微积分或统计课程需要填写附加申请表格",
+  "objectives": "圣安德鲁斯大学海洋生态系统管理理学硕士项目旨在加深学生对综合海洋系统的了解，同时探讨物理环境、生物多样性、人类活动和资源利用之间的相互关系。海洋生态系统管理理学硕士课程由苏格兰海洋研究所的顶尖专家授课，引导学生从事海洋生态系统研究和管理方面的工作。海洋生态系统管理理学硕士项目的毕业生将成为下一代管理人员和海洋科学家，提供全球范围内的综合生态系统管理。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "海洋生物多样性和生态系统功能 (Marine Biodiversity and Ecosystem Functioning)\n生物学家的数学和统计模型 (Mathematical and Statistical Modelling for Biologists)\n生物海洋学 (Biological Oceanography)\n海洋生物的环境驱动力 (Environmental Drivers of Marine Habitats)\n环境管理地理信息系统 (Geographic Information Systems for Environmental Management)\n热带海洋生物学 (Tropical Marine Biology)\n基于生态系统的海洋系统管理 (Ecosystem-based Management of Marine Systems)\n生物标记问题 (Current Issues in Biologging)\n动物数量估算 (Estimating Animal Abundance:)\n渔业研究 (Fisheries Research)\n全球环境变化导论 (Introduction to Global Environmental Change)\n种群生物学 (Population Biology)\n极地生态系统中的捕食者生态学 (Predator Ecology in Polar Ecosystems)\n生物多样性和保护的科学交流 (Scientific Communication in Biodiversity and Conservation)\n科研潜水 (Scientific Diving)",
+  "success_cases": ""
+}

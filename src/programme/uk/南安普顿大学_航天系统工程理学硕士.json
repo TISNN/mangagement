@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "航天系统工程理学硕士",
+  "ename": "MSc Space Systems Engineering",
+  "tags": "工科,航空工程,工程学院",
+  "introduction": "专业方向: 航空工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33900英镑/年",
+  "requirements": "具有2:1学位，需要航空航天背景\n如果申请者在下面列出的学科背景中取得了2:1学位，并且在指定的课程领域取得了优秀成绩，其申请也会被考虑\n考虑的学科背景：\n- 机械工程\n- 应用数学\n- 物理学\n- 物理科学\n所需的课程领域：\n- 高等数学\n- 计算，如Python或MATLAB编程\n- 经典物理学或力学，或同等课程\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学航天系统工程理学硕士项目发展学生在航天器工程方面的专业知识。该课程由宇航研究小组的世界级专家开发，并得到英国航天局的认可，无论是刚毕业的工程、科学或数学专业的毕业生，还是已经在航空航天行业工作的人，该项目都将提供从事进一步专业的技能和知识。在这个硕士学位上，学生将获得如何设计整个空间系统的详细概述。学生将学习各种组件子系统如何运作并相互集成，并获得空间系统工程的高级知识。该学位具有很强的实践重点。学生将参与个人和团体设计项目，以及进行自己的关键研究项目，从而发展在航天器工程方面的专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "并行工程设计 (Concurrent Engineering Design)\n航天器工程设计 (Spacecraft Engineering Design)\n航天器结构设计 (Spacecraft Structural Design)\n航天器系统和设计 (Spacecraft Systems and Design)\n固体力学中的有限元分析 (Finite Element Analysis in Solid Mechanics)\n燃料电池和光伏系统1 (Fuel Cells and Photovoltaic Systems 1)\n研究项目 (MSc Research Project)\n航空电子学 (Avionics)\n航天器轨道力学与控制 (Spacecraft Orbital Mechanics and Control)\n航天器推进 (Spacecraft Propulsion)\n搜索和优化设计的原理、方法、参数和案例研究 (Design Search and Optimisation (DSO) - principles、methods、parameterizations and case studies)",
+  "success_cases": ""
+}

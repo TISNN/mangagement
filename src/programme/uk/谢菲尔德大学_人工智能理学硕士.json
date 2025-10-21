@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 32550英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要人工智能、化学、计算机科学、经济学、数学、物理、任何工程学科背景，学校也将考虑计算机专业学位",
+  "objectives": "谢菲尔德大学人工智能理学硕士课程不仅教授人工智能（AI）的理论知识，还为学生提供处理大数据集所需的实践技能，大数据集是构建强大高效的人工智能系统的基本组成部分。本课程专为具有数学背景的学生（例如数学、经济学、工程、物理或化学的第一学位）以及已经在工业界工作的毕业生而设计。谢菲尔德大学人工智能理学硕士课程侧重于管理大量信息并将其转化为可操作的知识，教授对现代世界中需要解释的数据集类型进行实际分析所需的关键技能，其中包括大型数据集以及结构化和非结构化数据。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "可扩展机器学习 (Scalable Machine Learning)\n文本处理 (Text Processing)\n机器学习与自适应智能 (Machine Learning and Adaptive Intelligence)\n自然语言处理 (Natural Language Processing)\n专业问题 (Professional Issues)\n团队项目 (Team Project)\n数据科学与Python (Data Science with Python)\n数据分析论文项目 (Data Analytics Dissertation Project)\n自然系统的建模与模拟 (Modelling and Simulation of Natural Systems)\n计算机安全与取证 (Computer Security and Forensics)\n网络性能分析 (Network Performance Analysis)\n网络技术 (Web Technologies)\n使用图形处理单元进行并行计算 (Parallel Computing with Graphical Processing Units)",
+  "success_cases": ""
+}

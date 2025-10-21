@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "低空经济理学硕士",
+  "ename": "MSc Low-altitude Economy",
+  "tags": "工科,航空工程,工程学院",
+  "introduction": "专业方向: 航空工程\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 176000港币/年",
+  "requirements": "持有工程、科学或技术方面的荣誉学士学位，或具备符合香港工程师学会正式会员资格的学术资格，或同等学历没有荣誉学位，但有其他相关资格和适当工作经验的申请者也会被考虑合适的申请者可能会被邀请参加面试",
+  "objectives": "香港理工大学低空经济理学硕士项目为有意在低空经济、空域系统和管理、u型空间设计、航空安全、基础设施设计、工程、下一代低空飞行器的操作和复杂的城际/城内操作环境管理等领域提升知识和寻求更高层次职业的学生提供先进的教育和培训，培养学生的能力，提高他们在就业市场上的竞争力，成为低空经济行业的领导者，使学生了解和掌握低空经济、工程、操作和管理领域最新的先进技术和应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "未来空中机动和低空空域管理 (Future Air Mobility and Low-Altitude Airspace Management)\n低空经济服务设计与机队管理 (Service Design and Fleet Management for Low-altitude Economy)\nU型空间设计、空中交通服务与城市飞机系统交通管理 (U-space Design, Air Traffic Service and Urban Aircraft System Traffic Management)\n低空飞行器鲁棒控制技术 (Robust Control Technology in Low-altitude Aerial Vehicle)\n低空飞行器的安全性、可靠性和适航性要求 (Safety, Reliability and Airworthiness Requirement for Low Altitude Aerial Vehicle)\n低空飞行器力学与控制 (Low-altitude Aerial Vehicle Mechanics and Control)\n低空经济电子设计与信息学 (Electronics Design and Informatics for Low-altitude Economy)\n城市信息学 (Urban Informatics)\n航空工业中的人工智能 (Artificial Intelligence in the Aviation Industry)\n航空运输经济与政策 (Air Transport Economics and Policy)\n人为因素、事故预防和航空安全风险管理 (Human Factors, Accident Prevention and Aviation Safety Risk Management)\n航空航天工程中的人工智能 (Artificial Intelligence in Aerospace Engineering)\n地理信息系统原理 (Principles of GIS)\n卫星定位导航 (Satellite Positioning & Navigation)",
+  "success_cases": ""
+}

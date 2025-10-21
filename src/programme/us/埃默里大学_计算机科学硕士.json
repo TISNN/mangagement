@@ -1,0 +1,12 @@
+{
+  "school_name": "埃默里大学",
+  "major_name": "计算机科学硕士",
+  "ename": "M.S. in Computer Science",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n入学时间: 秋季\n项目时长: 2年\n项目学费: 21400美元/学期",
+  "requirements": "Java(或c),推荐用C,了解数据结构和算法,线性代数,概率论,多元微积分,数据结构和算法",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

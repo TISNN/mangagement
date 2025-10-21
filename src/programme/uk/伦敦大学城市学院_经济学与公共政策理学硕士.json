@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "经济学与公共政策理学硕士",
+  "ename": "MSc Economics and Public Policy",
+  "tags": "社科,公共政策与事务,艺术与社会科学学院",
+  "introduction": "专业方向: 公共政策与事务\n入学时间: 9月\n项目时长: 1年\n项目学费: 22900英镑/年",
+  "requirements": "申请者应该具备一些数学背景（A-level、IB、AP 或任何其他同等中学资格）和以下之一： —经济学或相关学科（如金融）2.2本科学位（或同等学历） —拥有商业、管理、政治、法律、会计、心理学、定量社会学或金融新闻学的2.2本科学位，且包含较多经济学内容（只要申请者具有足够的微观经济学或数学背景） —数学、工程学、计算机科学或自然科学等定量学科的2.2本科学位（或同等学历）",
+  "objectives": "伦敦大学城市学院经济学与公共政策理学硕士项目将帮助学生全面了解前沿的经济分析。它为学生提供了解全球经济运作所需的分析工具和批判性思维技能。学生将获得将这些技术应用于现实场景的专业知识，从而能够向包括政府、非政府组织、监管机构和国际组织在内的广泛利益相关者提供富有洞察力的、基于证据的政策建议。本课程将理论知识与实际应用相结合，确保学生做好充分准备来应对紧迫的经济挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济学 (Microeconomics)\n定量与研究方法 (Quantitative and Research Methods)\n管制与竞争经济学 (Economics of Regulation and Competition)\n公共政策与经济学 (Public Policy and Economics)\n经济学与商业策略 (Economics and Business Strategy)\n计量经济学 (Econometrics)\n大数据计量经济学 (Big Data Econometrics)\n数据分析与编程 (Data Analytics and Programming)\n健康经济学 (Health Economics)\n宏观经济学 (Macroeconomics)\n实验经济学与博弈论 (Experimental Economics and Game Theory)\n电子商贸及数码市场 (E-commerce and Digital Markets)\n发展经济学主题 (Topics in Development Economics)\n论文/文献调查/公司项目 (Dissertation/Literature Survey/Company project)",
+  "success_cases": ""
+}

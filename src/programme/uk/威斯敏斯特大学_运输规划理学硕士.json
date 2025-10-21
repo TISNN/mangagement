@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯敏斯特大学",
+  "major_name": "运输规划理学硕士",
+  "ename": "MSc Transport Planning",
+  "tags": "工科,交通运输,建筑与城市学院",
+  "introduction": "专业方向: 交通运输\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 15500英镑/年",
+  "requirements": "具有相关学科领域的2:2荣誉学位，具备任何相关的运输经验将有助于申请",
+  "objectives": "威斯敏斯特大学运输规划理学硕士课程旨在培养学生在交通政策、规划和管理方面进行高级分析研究的能力。学生将学习做出决策所需的技术和方法，或为其他人做出决策提供必要的信息。威斯敏斯特大学运输规划理学硕士课程将使学生了解个人旅行和商品流通的原因和动机；分析交通问题，并制定和推行解决交通问题的政策和措施；评估运输项目、计划和政策，考虑到利益攸关方参与的必要性，并承认涉及的政治、社会、卫生、环境和经济问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "运输政策与政治 (Transport Policy and Politics)\n运输经济学 (Transport Economics)\n分析交通数据 (Analysing Transport Data)\n研究论文（运输） (Research Dissertation (Transport))\n航空公司与机场管理 (Airline and Airport Management)\n土地利用、规划与交通 (Land use, planning and transport)\n街道、场所与活跃的交通工具 (Streets, Places and Active Transport)\n货运与物流服务 (Freight transport and logistics services)\n环境政策、评估与气候变化 (Environmental Policy, Assessment and Climate Change)\n改变交通行为：理论、实践与政治 (Modifying Transport Behaviour: Theory, Practice and Politics)",
+  "success_cases": ""
+}

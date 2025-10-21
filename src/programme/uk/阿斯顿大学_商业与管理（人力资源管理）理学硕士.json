@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "商业与管理（人力资源管理）理学硕士",
+  "ename": "MSc Business and Management with Human Resource Management",
+  "tags": "商科,人力资源管理,阿斯顿商学院",
+  "introduction": "专业方向: 人力资源管理\n入学时间: 4月\n项目时长: 1年\n项目学费: 22750英镑/年",
+  "requirements": "申请人必须提供 GCSE 数学成绩 - C/4 或以上（或同等学历）的证明雅思6，有2项不低于5.5，有不超过2项为5.5的申请人须参加并通过研究生英语课程的学期英语课程。",
+  "objectives": "阿斯顿大学商业与管理（人力资源管理）理学硕士项目使学生能够全面了解现代商业实践，提高自己的分析和批判性思维能力。这可以帮助毕业生解决复杂的问题和制定战略做好准备，或者如果学生选择自己创业，也可以为创业做好准备。\n在教学阶段，学生将加深对商业可持续发展和全球挑战的理解，这对于掌握现代商业环境至关重要。学生将探索战略变革的复杂性和提高业务绩效的技术。通过发现在不同环境下管理人员的不同方法，学生将学习根据具体情况定制人员策略。此阶段将提高重要的可转移技能，为学生在商业和管理领域的充满活力的职业生涯做好准备，其特点是团队合作、沟通和领导能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "领导力和决策 (Leadership and Decision Making)\n非财务经理会计 (Accounting for Non-Financial Managers)\n组织行为 (Organisational Behaviour)\n战略和国际人力资源管理 (Strategic and International Human Resource Management)\n战略业务可持续性 (Strategic Business Sustainability)\n运营管理 (Operations Management)\n全球商业挑战 (Global Business Challenge)\n学术实践中的道德规范 (Ethics in Academic Practice)\n研究生英语 (English for Postgraduate Studies)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "佛罗里达大学",
+  "major_name": "机械工程理学硕士",
+  "ename": "Master of Science in Mechanical Engineering",
+  "tags": "工科,机械工程",
+  "introduction": "专业方向: 机械工程\n入学时间: 春季/秋季\n项目时长: 30学分\n项目学费: 1255.41美元/学分\n平均成绩: 3.59\n平均G: 315,V152,Q163",
+  "requirements": "GPA3.0以上,工学背景,WES 不强制",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

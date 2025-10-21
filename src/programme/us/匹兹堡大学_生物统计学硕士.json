@@ -1,0 +1,12 @@
+{
+  "school_name": "匹兹堡大学",
+  "major_name": "生物统计学硕士",
+  "ename": "MS in Biostatistics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 40学分\n项目学费: 23992美元/学期",
+  "requirements": "生物学（3学分）；\n微积分（6个学分） 以上可以在第一学期补修",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "行星科学理学硕士",
+  "ename": "MSc Planetary Sciences",
+  "tags": "工科,其他工科,地球科学学院",
+  "introduction": "专业方向: 其他工科\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 22000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景",
+  "objectives": "阿伯丁大学行星科学理学硕士课程旨在解决行星探索和研究领域的技能和知识缺口。我们的目标是将各个学科的新一代地质学家、物理学家、化学家、生物学家和工程师培养到高级专家的水平。阿伯丁大学行星科学理学硕士课程所包括的跨学科培训将向学生提供处理空间探索以外的其他问题的技能，例如仪器设计、地质学、微生物学和环境科学、行星科学和遥感数据分析。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "比较行星学与地球大气； (Comparative Planetology and the Atmosphere of Earth)\n遥感和地理空间分析基础； (Basics of Remote Sensing and Geospatial Analysis)\n光谱学、辐射传输与检索； (Spectroscopy, Radiative Transfer and Retrieval)\n行星探测仪器； (Instrumentation for Planetary Exploration)\n地球和行星表面与内部过程； (Earth and Planetary Surface and Internal Processes)\n天体生物学，生物地球化学和探索者地球生物学； (Astrobiology, Biogeochemistry and Geobiology for Explorers)\n可持续的深空探索和行星保护； (Sustainable Deep Space Exploration and Planetary Protection)\n行星科学论文； (Planetary Sciences Dissertation)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "土木工程（结构）理学硕士",
+  "ename": "MSc Civil Engineering (with Structures)",
+  "tags": "工科,土木工程,工程科学学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有2:1英国学士学位或同等学历，需要土木工程或相关学科背景，未满足上述门槛要求但在土木工程或相关学科有丰富全职专业经验（不包括暑期实习）的申请者可以提供一个展示现有工程和设计技能的作品集，其申请可以被考虑",
+  "objectives": "伦敦大学学院土木工程（结构）理学硕士项目为学生提供全面且充满活力的教育体验。通过传统讲座、协作小组项目和个性化研究计划的结合，学生沉浸在多方面的学习环境中。这种方法确保了对土木工程的深刻理解，同时允许结构动力学、可持续建筑设计、岩土工程、运输等领域的专业化。除了技术知识之外，该项目还培养了对工程决策更广泛的社会和环境背景的认识，培养了能够创造可持续解决方案的毕业生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目工程的财务方面 (Financial Aspects of Project Engineering)\n有限元建模和数值方法 (Finite-Element Modelling and Numerical Methods)\n结构动力学 (Structural Dynamics)\n高级结构分析 (Advanced Structural Analysis)\n研究项目 (Research Project)\n近海和沿海工程 (Offshore and Coastal Engineering)\n道路和地下基础设施：设计、施工和维护 (Roads and Underground Infrastructure: Design, Construction and Maintenance)\n地震风险评估 (Seismic Risk Assessment)\n可靠性、风险和弹性工程 (Reliability, Risk and Resilience Engineering)\n城市防洪与排水 (Urban Flooding and Drainage)\n结构脆弱性和弹性 (Structural Vulnerability and Resilience)\n环境建模 (Environmental Modelling)\n先进土木工程材料 (Advanced Civil Engineering Materials)\n生命周期评估 (Life Cycle Assessment)\n环境流体力学 (Environmental Fluid Mechanics)\n建筑节能 (Building Energy Efficiency)\n现有结构的适应性再利用 (Adaptive Reuse of Existing Structures)",
+  "success_cases": ""
+}

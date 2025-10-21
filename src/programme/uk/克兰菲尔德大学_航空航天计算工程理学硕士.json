@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "航空航天计算工程理学硕士",
+  "ename": "MSc Aerospace Computational Engineering",
+  "tags": "工科,航空工程,航空航天",
+  "introduction": "专业方向: 航空工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "具有数学、物理、计算机科学或工程学科背景，或者那些与合格的工程师处理等相关工业经验计算方法希望扩展他们的知识。",
+  "objectives": "克兰菲尔德大学航空航天计算工程理学硕士课程涵盖了航天计算方面的广泛应用。在未来五年内将需要工程师和领导者将100％数字技术用于航空航天应用、设计和测试。克兰菲尔德大学航空航天计算工程理学硕士课程融合了基于技能的知识和针对特定学科的材料，旨在为学生提供通用的实践技能和前沿知识，以适应航空计算工程领域的各种应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "C++编程 (C++ Programming)\n计算方法 (Computational Methods)\n可压缩流的数值建模 (Numerical Modelling for Compressible Flows)\n不可压缩流的数值建模 (Numerical Modelling for Incompressible Flows)\n大数据系统与高性能计算的分析与可视化 (Analysis and Visualisation of Big Data System and High Performance Computing)\n航空航天应用的建模方法 (Modelling Approaches for Aerospace Application)\n计算工程结构 (Computational Engineering Structures)\n航空航天应用的确认与验证 (Validation and Verification for Aerospace Applications)",
+  "success_cases": ""
+}

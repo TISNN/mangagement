@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "数学理学硕士",
+  "ename": "MSc Mathematical Sciences",
+  "tags": "理科,数学,数学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 34400英镑/年",
+  "requirements": "具有strong 2:1荣誉学位或同等学历，需要数学或与之密切相关的学科背景，如数学物理、数学和统计学、统计和数学、数学和应用数学、应用数学和数学。如果有足够的理论数学内容达到65%（或国际同等水平），可以考虑数学联合荣誉学位，如数学与经济学、金融、物理、统计学、计算机科学、哲学等\n对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩\n学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们具有相关的研究生学历。如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关资格",
+  "objectives": "布里斯托大学数学理学硕士项目课程灵活且充满挑战，由该领域的专家授课。旨在培养学生各种各样的数学技巧，为学生开展进一步的研究或工作打下坚实的基础。学生可以选择跨越数学学科的其他课程。有多种课程单元和主题的组合，学生可以学习其他学院的课程来丰富自己的兴趣。学生在研究过程中，将会由一位经验丰富的学者负责监督。布里斯托大学数学理学硕士课程加深学生对数学理论的理解，为其提供建模和分析问题的基本技能。毕业生因其出色的分析能力、沟通能力和组织能力而受到雇主的青睐。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究项目 (Research Project)\n先进的流体动力学 (Advanced Fluid Dynamics)\n先进量子理论 (Advanced Quantum Theory)\n代数几何 (Algebraic Geometry)\n代数数论4 (Algebraic Number Theory 4)\n代数拓扑 (Algebraic Topology)\n解析数论 (Analytic Number Theory)\n异常检测 (Anomaly Detection)\n渐近性 (Asymptotics)\n公理集理论 (Axiomatic Set Theory)\n变异微积分 (Calculus of Variations)\n复函数理论（34） (Complex Function Theory (34))\n复杂网络4 (Complex Networks 4)\n动力系统与遍历理论4 (Dynamical Systems and Ergodic Theory 4)",
+  "success_cases": ""
+}

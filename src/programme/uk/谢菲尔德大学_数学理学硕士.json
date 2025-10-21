@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "数学理学硕士",
+  "ename": "MSc Mathematics",
+  "tags": "理科,数学,数学与统计学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 27670英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要数学背景",
+  "objectives": "谢菲尔德大学数学理学硕士项目中学生可以从纯数学和应用数学的各种高级课程模块中进行选择，该课程旨在帮助学生为成功的数学研究事业奠定基础。通过与经验丰富的数学家就选择的论文主题合作，学生将能够获得宝贵的数学研究经验。在整个课程中，学生将有很多机会来提高解决问题的能力和表达能力，并学习如何创建有说服力和合乎逻辑的论点。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "代数 (Algebra)\n分析 (Analysis)\n几何 (Geometry)\n代数拓扑 (Algebraic Topology)\n数论 (Number Theory)\n高级流体动力学专题 (Topics in Advanced Fluid Dynamics)\n分析动力学和经典场论 (Analytical Dynamics and Classical Field Theory)\n自然系统的数学建模 (Mathematical Modelling of Natural Systems)\n随机过程和金融 (Stochastic Processes and Finance)\n波和磁流体动力学 (Waves and Magnetohydrodynamics)",
+  "success_cases": ""
+}

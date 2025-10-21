@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "营销管理理学硕士",
+  "ename": "MSc Marketing Management",
+  "tags": "商科,市场营销,商学院",
+  "introduction": "专业方向: 市场营销\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "不限专业背景，不需要在本科阶段完成商业或管理学习，具有2:2荣誉学位或同等学历",
+  "objectives": "阿伯丁大学营销管理理学硕士课程由英国特许市场营销协会认证，该协会是全球领先的市场营销专业机构。它为学生提供了获得雇主高度追求的专业资格的机会，课程内容的设计是为了确保学生将充分准备以取得市场营销职业生涯的成功。学生将发展营销策略，原理，模型，理论和实践的高级知识，学习一套直接适用于各行各业工作场所的实用技能",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "营销管理 (Marketing Management)\n管理者会计与财务 (Accounting and Finance for Managers)\n消费者行为学 (Consumer Behaviour)\n营销传播 (Marketing Communications)\n商业模式创新 (Business Model Innovation)\n研究实践 (Research Practice)\n新产品与服务开发 (New Product and Service Development)\n数字营销 (Digital Marketing)\n论文 (Dissertation)\n营销项目 (Marketing Project)",
+  "success_cases": ""
+}

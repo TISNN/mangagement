@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "土木工程理学硕士",
+  "ename": "MSc Civil Engineering",
+  "tags": "工科,土木工程,工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 32800英镑/年",
+  "requirements": "具有2:1学位，需要土木工程或相关学科背景\n申请者还需要在所有数学和力学课程中取得2:1的成绩\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学土木工程理学硕士项目适合有意成为注册工程师的土木工程及相关专业的本科生，也适合有意向转入土木工程行业就业的人士。该项目的一系列核心专业课程将加深学生对土木工程设计和应用的理解。此外，选修课程涵盖了沿海和海洋工程、水力学、环境、基础设施、交通运输和管理等各个领域。这些选修课程一方面展现了南安普顿大学在这些土木工程相关领域国际领先研究能力，另一方面也满足了学生的专业兴趣和未来职业发展需求。在南安普顿大学土木工程理学硕士项目中，学生将有机会参与研究项目，运用所掌握的知识解决实际问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "土木和环境工程数据分析和实验方法 (Data Analysis and Experimental Methods for Civil and Environmental Engineering)\n岩土工程 (Geotechnical Engineering)\n应用水力学 (Applied Hydraulics)\n结构工程 (Structural Engineering)\n土木工程解读 (Understanding Civil Engineering)\n交通工程：分析和设计 (Transportation Engineering: Analysis and Design (MSc))\n海岸和海洋工程和能源 (Coastal and Maritime Engineering and Energy)\n地震工程 (Earthquake Engineering)\n项目经济学和管理 (Project Economics and Management)\n地下水水文学和污染 (Groundwater Hydrology and Contamination)\n水资源规划和管理 (Water Resources Planning and Management)\n硕士研究项目 (MSc Research Project)\n废弃资源管理 (Waste Resource Management)\n公路工程 (Highway Engineering)",
+  "success_cases": ""
+}

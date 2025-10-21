@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "医学遗传学与基因组学（医学）理学硕士",
+  "ename": "MSc(MedSci) Medical Genetics & Genomics",
+  "tags": "社科,医学,医学、牙科与护理学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要遗传学，分子生物学，生物分子科学，或包含遗传学和分子生物学大量教学的同等学位；至少50%的学分课程应该是遗传学、分子生物学、生物化学或生物分子科学学校也接受生物技术、生物化学、动物学或医学学士/牙科学位学校有时也将接受2:2荣誉学位",
+  "objectives": "遗传学对整个医疗保健产生了巨大的影响。随着较新的尖端技术的发展，这种影响正在迅速增加。现在需要许多研究科学家、临床实验室科学家和临床医生来调查大量（并且不断增加）已知具有显着遗传或基因组原因的疾病的原因（并改进管理）。格拉斯哥大学医学遗传学与基因组学（医学）理学硕士课程的目的是为学生提供医学遗传学和基因组学的原理和实践的工作知识，使其能够评估、选择和解释患有遗传疾病的个人和家庭的适当的遗传调查。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "遗传病:从实验室到临床 (Genetic Disease: from the Laboratory to the Clinic)\n医学遗传学案例调查 (Case Investigations in Medical Genetics)\n临床基因组学 (Clinical Genomics)\n生物医学的组学分析:从基因组学到代谢组学 (Omic Analyses for the Biomedical Sciences: from Genomics to Metabolomic)\n免疫治疗与精确肿瘤学 (Immunotherapy and Precision Oncology)\n人群疾病筛查 (Disease Screening in Populations)\n医学遗传学论文 (Medical Genetics Dissertation)",
+  "success_cases": ""
+}

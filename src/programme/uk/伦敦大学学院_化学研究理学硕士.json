@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "化学研究理学硕士",
+  "ename": "MSc Chemical Research",
+  "tags": "理科,化学,数学与物理科学学院",
+  "introduction": "专业方向: 化学\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要相关学科背景",
+  "objectives": "伦敦大学学院化学研究理学硕士项目受到英国皇家化学学会认证，课程内容注重强化创新研究，提供科学研究前沿方法和技术方面的实操训练，适合想要从事化学研究工作的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "文献项目 (Literature Project)\n研究项目 (Research Project)\n科研人员可迁移技能 (Transferable Skills for Scientists)\n能源和环境科学前沿议题 (Advanced Topics in Energy and Environmental Science)\n物理化学前沿议题 (Advanced Topics in Physical Chemistry)\n生物化学 (Biological Chemistry)\n计算化学概念 (Concepts in Computational Chemistry)\n实验物理化学前沿 (Frontiers in Experimental Physical Chemistry)\n无机环、链和团簇 (Inorganic Rings、Chains and Clusters)\n现代化学强辐射源 (Intense Radiation Sources in Modern Chemistry)\n量子力学专题 (Topics in Quantum Mechanics)\n化学数值计算方法 (Numerical Methods in Chemistry)\n有机化学方法、中介和功能 (Pathways、Intermediates and Function in Organic Chemistry)\n药物设计原理 (Principles of Drug Design)\n有机合成物原理和方法 (Principles and Methods of Organic Synthesis)",
+  "success_cases": ""
+}

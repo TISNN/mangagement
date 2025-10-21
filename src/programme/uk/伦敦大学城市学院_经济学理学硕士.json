@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,艺术与社会科学学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 20500英镑/年",
+  "requirements": "申请者应该有一定的数学背景（A-level、IB、AP或任何其他同等的中学学历），并满足以下其中一项：\n- 经济学或相关学科（如金融）的2:2学位或同等学历\n- 商业、管理、政治、法律、会计、心理学、定量社会学或财经新闻学的2:2学位或同等学历，且包含较多经济学内容（足够的微观经济学或数学背景）\n- 定量学科（如数学、工程、计算机科学或自然科学）的2:2学位或同等学历",
+  "objectives": "伦敦大学城市学院经济学理学硕士提供微观经济学，宏观经济学和计量经济学的坚实基础，同时探索有关金融，监管，卫生经济学，行为经济学和发展经济学的模块。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济学理论 (Microeconomic Theory )\n计量经济学 (Econometrics)\n宏观经济学 (Macroeconomics)\n国际宏观经济学 (International Macroeconomics )\n商业经济学 (Business Economics)\n定量方法 (Quantitative Methods)\n管制与竞争经济学 (Economics of Regulation and Competition)\n卫生经济学 (Health Economics)\n发展经济学 (Development Economics)\n小额信贷经济学 (Economics of Microfinance)\n实验经济学与博弈论 (Experimental Economics and Game Theory)\n应用计量经济学 (Applied Econometrics)",
+  "success_cases": ""
+}

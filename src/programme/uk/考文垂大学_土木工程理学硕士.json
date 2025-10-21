@@ -1,0 +1,12 @@
+{
+  "school_name": "考文垂大学",
+  "major_name": "土木工程理学硕士",
+  "ename": "MSc Civil Engineering",
+  "tags": "工科,土木工程,工程、环境与计算学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 18600英镑/年",
+  "requirements": "具有2:2荣誉学位，需要土木工程背景。具有专业/行业经验和/或培训但未达到正常入学要求的申请人将根据其自身情况进行考虑",
+  "objectives": "考文垂大学土木工程理学硕士课程旨在培养学生对土木工程的规划、设计、施工和操作的高层次知识和广泛理解，探索温布利球场等标志性建筑背后的传统和创新实践，为学生提供适用于建筑和工程项目战略管理的实践知识和创新进步，包括建筑信息模型（BIM）在建筑项目管理中的相关重要性。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "连接设计 (Connection design)\n应用有限元分析 (Applied finite element analysis)\n建筑与工程战略管理 (Strategic management for construction and engineering)\n全球专业发展（咨询） (Global professional development (Consulting))\n综合项目 (Integrated project)\n土木工程研究生技能 (Civil engineering postgraduate skills)\n土木工程研究技能 (Civil engineering research skills)\n土壤-结构相互作用 (Soil-structure interaction)\n施工合同与法律 (Construction contract and law)\n桥梁工程 (Bridge engineering)\n流域水文、水力学与洪水模拟 (Catchment hydrology, hydraulics and flood modelling)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

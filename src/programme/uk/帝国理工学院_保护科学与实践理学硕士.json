@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "保护科学与实践理学硕士",
+  "ename": "MSc Conservation Science and Practice",
+  "tags": "工科,环境工程,环境政策中心",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33100英镑/年",
+  "requirements": "具有2:1学位，不限专业背景，优先考虑科学、工程或社会科学学科，具备相关行业经验也可能会被考虑",
+  "objectives": "世界保护区在拯救我们的物种方面有多有效？保护如何影响人类？我们如何促进城市地区的生物多样性？帝国理工学院保护科学与实践理学硕士课程面向当今世界面临这些关键的生物多样性问题和挑战的新一代保护科学家和实践者，学生将学习生物多样性保护的基本原理，以及如何管理、实施和评估保护项目的影响，接受来自世界各地的科学家和从业人员的授课，学习有效地、深思熟虑地、合乎伦理地解决保护问题的工具和框架。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物多样性保护的过去、现在与未来概论 (Introduction to the past, present and future of biodiversity conservation)\n探索社会生态系统的复杂性 (Navigating the complexities of social-ecological systems)\n跟踪和理解结果与影响   (Tracking and understanding outcomes and impacts)\n制定有效决策 (Making effective decisions)\n研究方法 (Research methods)\n保护案例研究 (Conservation case studies)\n项目管理与建立伙伴关系 (Project management and building partnerships)\n推理与判断 (Inference and estimation)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

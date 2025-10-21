@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "药学硕士",
+  "ename": "Master of Pharmacy",
+  "tags": "社科,药学,医学院",
+  "introduction": "专业方向: 药学\n入学时间: 1/9月\n项目时长: 2.5年\n项目学费: 96000港币/年",
+  "requirements": "具有学士学位，修读药学、医学、护理、生命科学、化学、材料科学等相关专业",
+  "objectives": "澳门科技大学药学硕士课程以培养从事药学研究的高素质科研后备力量和学术精英为目标，培养深入了解相关研究领域的最新前沿信息，成为相关药学研究方面的专才精英；培养具有独立从事科学研究工作的能力，在科学或专门技术上做出创造性成果的高级专门人才，如从事药物研发、药物制剂与剂型设计、合成生产、药品检验、药理实验与评价等方面的专业事务。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "药学英语 (Pharmaceutical English)\n药学前沿进展 (Advances in Medicine Pharmaceutic)\n临床药理学 (Clinical Pharmacology)\n高等药学实验方法学 (Advanced Methodology in Pharmacy)\n科技文献检索与论文写作 (Literature Retrieval and Scientific Writing)\n医学统计学 (Medical Statistics)\n现代生物技术与新药研究 (Modern Biotechnology in Novel Drug Development)\n高等药剂学 (Advanced Pharmaceutics)\n高等药物化学 (Advanced Medicinal Chemistry)\n仪器分析 (Instrumental Analysis)\n临床循证药学 (Clinical Evidence-based Pharmacy)\n论文 (Thesis)",
+  "success_cases": ""
+}

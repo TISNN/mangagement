@@ -1,0 +1,12 @@
+{
+  "school_name": "佐治亚理工学院",
+  "major_name": "人机交互硕士",
+  "ename": "MS in Human-Computer Interaction",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 18个月\n项目学费: 18457美元/学期\n项目规模: 45-60人",
+  "requirements": "根据不同专业选择方向拥有不同的基础背景（CS、网页开发、心理学、编程等）",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

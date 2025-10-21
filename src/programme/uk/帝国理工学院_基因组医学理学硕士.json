@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "基因组医学理学硕士",
+  "ename": "MSc Genomic Medicine",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 45000英镑/年",
+  "requirements": "具有2:1学位，需要医学、生物医学或医疗保健服务学科背景\n在特殊情况下，学校会考虑不符合以上要求但能在相关领域表现出重要相关工作经验的申请者",
+  "objectives": "帝国理工学院基因组医学理学硕士课程涵盖了基因组科学和医学的各个方面，并将使学生具备解释和理解基因组数据的知识和技能，事关对患者和社区的服务提供。课程面向来自各种背景的学生，从基础科学研究工作人员到各级保健专业人员，为基因组学提供灵活、多学科和多专业的视角，将其应用于临床实践和医学研究。课程所提供的培训将不仅仅局限于DNA测序或遗传变异检测)且会在最尖端的科学环境之一下进行。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人类遗传学与基因组学基础 (Fundamentals of Human Genetics and Genomics)\n组学技术及其在基因组医学中的应用 (Omics Technologies and their Application to Genomic Medicine )\n常见与罕见遗传性疾病基因组学 (Genomics of Common and Rare Inherited Diseases)\n癌症的分子病理学及其在癌症诊断、筛查与治疗中的应用 (Molecular Pathology of Cancer and Application in Cancer Diagnosis, Screening and Treatment )\n基因组学在传染病研究中的应用 (Application of Genomics in Infectious Disease)\n生物信息学、质量控制、基因组测序数据的分析与解读 (Bioinformatics, Quality Control, Analysis & Interpretation of Genome Sequencing Data)\n应用基因组学中的伦理、法律与社会问题 (Ethical, Legal and Social Issues in Applied Genomics)\n基因组学与病人 (Genomics and the Patient)\n药物基因组学与分层医学 (Pharmacogenomics and Stratified Medicine)\n人类基因组学的经济评价 (Economic Evaluation in Human Genomics (Brunel))\n基于基因组的疗法 (Genome Based Therapeutics)\n专业与研究技能 (Professional and Research Skills)",
+  "success_cases": ""
+}

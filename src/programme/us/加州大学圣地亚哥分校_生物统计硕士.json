@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学圣地亚哥分校",
+  "major_name": "生物统计硕士",
+  "ename": "Master of Science (MS) in Biostatistics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n入学时间: 秋季\n项目时长: 2年\n项目学费: 26544美元/年\n项目规模: 10-15个人人",
+  "requirements": "至少学习一年的微积分(包括多元微积分); 线性代数课程; 修习统计学或计算机编程课程; 两门统计学,生物统计学和/或概率论的课程,包括一门高级课程。 还需要有统计软件包(如R、SAS、SPSS、Stata)的实用知识和/或编程经验",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

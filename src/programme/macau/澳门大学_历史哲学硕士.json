@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "历史哲学硕士",
+  "ename": "MPhil History",
+  "tags": "社科,历史,人文学院",
+  "introduction": "专业方向: 历史\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "持有澳门大学认可的学士学位或同等学历。申请人也可能被要求具备其他知识或专业经验。申请人必须在学士学位学习中达到相当于C级或更高的总成绩",
+  "objectives": "澳门大学历史哲学硕士项目旨在扩展学生的历史知识，并培养批判性分析、进行研究和撰写关于历史领域主题的论文的技能。最终，学生将更好地为进一步的学术学习或未来的职业生涯做好准备。完成澳门大学历史哲学硕士项目课程后，学生应能够：\n1. 认识和确定历史学的基本理论和研究方法，并在中国史、中西交往史和历史学三个领域进行专门训练澳门。\n2. 展示批判性思维和沟通能力，运用学术写作的原则和技巧，为未来在分析、写作和沟通领域的职业生涯打下坚实的基础。\n3. 了解学术道德，独立进行学术研究，撰写有一定发现的学术论文，培养对学术研究的兴趣。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "先进历史理论与实践 (Advanced Historical Theory and Practice)\n高级阅读研讨会 (Advanced Reading Seminar)\n高级写作研讨会 (Advanced Writing Seminar)\n佛教雕塑和绘画 (Buddhist Sculptures and Paintings)\n中国帝国晚期 (Late Imperial China)\n世界历史上的海盗 (Pirates in World History)\n中国古代法律与社会 (Law and Society in Ancient China)\n佛教艺术:理论与历史 (Buddhist Art: Theory and History)\n东西方互动与交流 (East-West Interactions and Exchanges)\n东南亚史学 (Historiography of Southeast Asia)\n帝国主义研究I (Studies in Imperialism I)\n帝国主义研究II (Studies in Imperialism I)\n历史专题I (Special Topics in History I)\n历史专题II (Special Topics in History II)\n全球史研究方法 (Approaches to Global History)",
+  "success_cases": ""
+}

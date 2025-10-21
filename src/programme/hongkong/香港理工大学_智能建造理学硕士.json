@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "智能建造理学硕士",
+  "ename": "MSc Intelligent Construction",
+  "tags": "社科,建筑,建筑及环境学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 241800港币/年",
+  "requirements": "具有认可院校颁发的学士学位，需要建筑学、建造、屋宇装备工程、建筑科学与工程、建筑测量、土木工程、建筑管理、工料测量、项目管理、信息技术或其他相关学科背景\n具备建筑行业相关工作经验的非学士学位持有者如果有相关专业机构的团体会员资格，可能被考虑予以特殊录取",
+  "objectives": "建筑业在经济增长中起着至关重要的作用，随着建筑环境行业的数字化转型，特别是在建筑领域，建筑专业人士需要具备建筑相关IT技能来有效和高效地提供专业服务。香港特别行政区政府作为推动变革的带头力量，积极支持在建筑活动中采用创新和先进的技术。“建筑2.0 -变革时刻”聚焦建筑行业的三大支柱：创新、专业和活化。\n香港理工大学智能建造理学硕士课程旨在为建筑行业的学生和专业人士提供强大的数字建筑相关技能，并借助智能建筑技术工具，帮助他们更智能地执行专业服务。该课程的核心目标是培养学生掌握建筑工程所需的最新智能建筑技术及数码建筑技术，例如BIM、机器人、3D打印、可视化及互动技术，以及机器学习等，将必要的知识与分析工具和数字技能相结合，创造可转移的技能，以满足建筑部门的需求。通过开创性的数字化方法解决理论和应用问题，培养学生在建筑工程管理方面的技能，在使用数字化方法管理建设项目的背景下培养学生的批判性思维和以研究为导向的决策和解决问题的方法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "建筑与房地产信息管理 (Information Management for Construction and Real Estate)\n建筑信息技术 (Construction Information Technology)\n建筑领域的机器学习与数据挖掘 (Machine Learning and Data Mining for Construction)\n建筑自动化与机器人技术 (Automation and Robotics in Construction)\n建筑的高级可视化与交互技术 (Advanced Visualisation and Interactive Technologies for Construction)\n建筑中的3D打印：原理与应用 (3D Printing in Construction: Principles and Applications)\n建筑与房地产研究方法 (Research Methods for Construction and Real Estate)\n智能建筑综合项目 (Integrated Project in Intelligent Construction)\n项目管理原则 (Principles of Project Management#)\n战略管理 (Strategic Management)",
+  "success_cases": ""
+}

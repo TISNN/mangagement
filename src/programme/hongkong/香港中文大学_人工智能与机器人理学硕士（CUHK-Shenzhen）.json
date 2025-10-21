@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "人工智能与机器人理学硕士（CUHK-Shenzhen）",
+  "ename": "MSc Artificial Intelligence and Robotics (CUHK-Shenzhen)",
+  "tags": "工科,计算机,深圳校区",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 2年\n项目学费: 144000人民币/年",
+  "requirements": "具有理工科专业背景的申请人优先考虑，欢迎跨专业报考\n毕业于认可的大学并获得学士学位，需要提供B等级证明（GPA3.0/4.0或80/100分），或完成高等教育课程的学习，具有相当于学士学位的资历",
+  "objectives": "香港中文大学（深圳）人工智能与机器人硕士项目学制为两年，并提供两个细分方向供学生选择：人工智能、机器人，项目依托港中大（深圳）两院及深圳市人工智能与机器人研究院的优秀师资和科研力量，旨在培养人工智能与机器人领域的尖端人才。学生将掌握计算机科学、人工智能和机器人领域的基本理论、并在数据库系统、分布式和云计算、计算机视觉、自然语言处理、机器人、自动化、智能系统和人机交互等领域深入学习。\n毕业前，学生将有机会参与到实际研究课题项目中，包括与海外知名大学、国内知名企业合作，提高实践技能和解决问题的能力，为未来深造或就业做好充足准备。毕业后，学生将成为人工智能和机器人领域的专业人才，为大湾区和整个国家信息技术快速发展助力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级人工智能 (Advanced Artificial Intelligence)\n高级机器学习 (Advanced Machine Learning)\n深度学习 (Deep Learning)\n优化理论与算法 (Theory and Algorithms of Optimization)\n机器人操作 (Robot Manipulators)\n机器人数学基础 (Mathematical Foundations of Robot)\n高级计算机算法 (Advanced Computer Algorithm)\n高级数据库系统 (Advanced Database System)\n图像处理与计算器视觉 (Image Processing and Computer Vision)\n语音信息处理 (Speech Information Processing)\n人机交互 (Human-Computer Interaction)\n虚拟现实与元宇宙 (Virtual Reality and the Metaverse)\n强化学习 (Intensive Learning)\n计算理论 (Computing Theory)\n研究课题 (Research Topic)",
+  "success_cases": ""
+}

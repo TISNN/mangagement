@@ -1,0 +1,12 @@
+{
+  "school_name": "德州农工大学",
+  "major_name": "会计理学硕士",
+  "ename": "MS in Accounting",
+  "tags": "商科,会计",
+  "introduction": "专业方向: 会计\n入学时间: 春季/秋季\n项目时长: 37-39学分\n项目学费: 38,500美元",
+  "requirements": "需要完成以下课程学习： 宏观经济学原理，微观经济学原理，财务会计概论(会计概论I)，管理会计概论(会计概论II)，商业计算概论(BCIS类型课程) 若本科学习的其他学科，则需完成以下课程：中级会计一、二，财务管理，审计，所得税，会计信息系统。GPA要求未明确标出，具体参考往年的录取情况https://mays.tamu.edu/ms-accounting/current-class-profile/",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

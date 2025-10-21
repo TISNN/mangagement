@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "会计学理学硕士",
+  "ename": "MSc Accounting",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 8月\n项目时长: 1年\n项目学费: 71940新币/年",
+  "requirements": "具有良好的本科学位，不限专业背景\n不强制要求提交GMAT/GRE，但良好的GMAT/GRE成绩将有助于申请（一般要求GMAT 700或同等水平）\n不要求具备工作经验\n需要提供能够覆盖学费与生活费金额的存款证明（2025学年学费71,940新币，生活费预算至少19,500新币/年）",
+  "objectives": "新加坡国立大学会计学理学硕士课程旨在帮助应届毕业生适应会计领域的文化和技术变革。随着技术的日益普及，会计公司现在需要招募具有数据分析技能和会计知识相结合的员工。新加坡国立大学会计学理学硕士课程将为学生提供必要的技能，人际网络和知识，以使其在行业中具有竞争力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用数据科学与可视化 (Applied Data Science & Visualisation)\n企业评估模型 (Corporate Valuation Models)\n管理计划与控制 (Managerial Planning and Control)\n编制财务报表 (Preparing Financial Statements)\n企业会计与报告 (Corporate Accounting and Reporting)\n分析与数据管理 (Analytics & Data Management)\n银行合规与风险管理 (Bank Compliance and Risk Management)\n财务报表分析 (Financial Statement Analysis)\n财务分析实习 (Financial Analytics Practicum)\n并购尽职调查 (M&A Due Diligence)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "佐治亚理工学院",
+  "major_name": "材料科学与工程理学硕士",
+  "ename": "Master of Science in Materials Science and Engineering",
+  "tags": "工科,材料",
+  "introduction": "专业方向: 材料\n入学时间: 秋季/春季\n项目时长: 30学分\n项目学费: 1215美元/学分\n平均成绩: 3.6",
+  "requirements": "要求4年本科。GPA3.0以上。材料科学与工程、高分子科学与工程、陶瓷工程、冶金工程、化学工程、机械工程、纺织工程、化学、生物医学工程、生物学、物理学或相关领域的学士或/和硕士背景",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

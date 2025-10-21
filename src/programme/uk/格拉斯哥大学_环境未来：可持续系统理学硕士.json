@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "环境未来：可持续系统理学硕士",
+  "ename": "MSc Environmental Futures: Sustainable Systems",
+  "tags": "工科,环境工程,地理和地球科学学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1荣誉学位，需要环境科学、地理学、地球科学、可持续发展、物理科学、生态学、天文学和天体物理学、化学、晶体学、地球科学、数学和统计学专业背景",
+  "objectives": "格拉斯哥大学环境未来：可持续系统理学硕士旨在为学生提供多学科知识和专业知识，解决全球社区面临的复杂和具有挑战性的地球物理和环境问题。它侧重于地球表面、大气和水圈的活力，并考虑它们对在广泛的空间和时间尺度上维持生命的过程的影响。\n格拉斯哥大学环境未来：可持续系统理学硕士课程为学生提供有关气候、风险和土地用途变化等重要领域的学习机会；对地壳和地表相互作用的当代全球问题进行深入和批判性的理解；以及有机和无机系统中的生物地球化学相互作用。学生将接受尖端分析设备、计算方法和先进现场技术的培训。格拉斯哥大学环境未来：可持续系统理学硕士课程非常适合那些热衷于在地球物理和环境挑战研究方面寻求职业生涯或研究的人。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球挑战 (Global Challenges)\n环境未来工作实习 (Environmental Futures Work Placement)\n环境未来理学硕士项目 (Environmental Futures MSc Project)\n学术和专业技能 (Academic and Professional Skills)\n研究设计、伦理与影响 (Research Design, Ethics and Impact)\n地理信息系统原理 (Principles of GIS)\n监测水环境 (Monitoring Water Environments)\n管理可持续的水环境：政策与实践 (Managing a Sustainable Water Environments: Policy and Practice)\n水环境生态与修复 (Ecology and Restoration of Water Environments)\n环境分析统计概论 (Introduction to Statistics for Environmental Analysis)\n环境遥感 (Remote Sensing of the Environment)\n模拟水环境 (Modelling Water Environments)\n地形建模与景观监测 (Topgraphic Modelling and Landscape Monitoring)\n气候：过去和未来 (CLIMATES: PAST AND FUTURE)\n可持续未来的地理环境政策与规划 (Geo-environmental Policy and Planning for Sustainable Futures)",
+  "success_cases": ""
+}

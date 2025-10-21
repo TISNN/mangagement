@@ -1,0 +1,12 @@
+{
+  "school_name": "香港浸会大学",
+  "major_name": "数据分析与人工智能理学硕士",
+  "ename": "MSc Data Analytics and Artificial Intelligence",
+  "tags": "理科,数据科学,理学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 180000港币/年",
+  "requirements": "具有认可大学颁发的理科、工科或与资讯科技相关学科的学士学位或同等学历",
+  "objectives": "香港浸会大学数据分析与人工智能硕士课程着重于信息系统的理论与实践，并覆盖高级信息系统的三个领域（即数据分析，人工智能及智能信息系统）。学生能透过学习有关概念和堂上实践，以解决信息系统领域的实际问题。完成本课程后，学生将具备：1. 掌握数据分析，人工智能和智能信息系统的核心概念和技术。2. 运用数据分析、人工智能，智能信息系统和有关技术，来解决实际问题。3. 分析商业需求和利用数据分析、人工智能，智能信息系统和有关技术，促进信息系统解决企业实际需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能 (Artificial Intelligence)\n数据分析和人工智能的定量方法 (Quantitative Methods for Data Analytics and Artificial Intelligence)\n用于数据分析和人工智能的 Python (Python for Data Analytics and Artificial Intelligence)\n数据分析原理与实践 (Principles and Practices of Data Analytics)\n信息技术论坛 (IT Forum)\nIT项目技能 (IT Project Skills)\n数据安全和隐私 (Data Security and Privacy)\n数据分析专题 (Special Topics in Data Analytics)\n数据库系统和管理 (Database Systems and Administration)\n数据挖掘和知识发现 (Data Mining and Knowledge Discovery)\n商业智能 (Business Intelligence)\n大数据分析 (Big Data Analytics)\n自然语言处理 (Natural Language Processing)\n人工智能专题 (Special Topics in Artificial Intelligence)\n推荐系统 (Recommender Systems)\n机器学习 (Machine Learning)\nWeb智能及其应用 (Web Intelligence and Its Applications)\n数据挖掘和知识发现 (Data Mining and Knowledge Discovery)\n商业智能 (Business Intelligence)\n计算机视觉 (Computer Vision)\n智能信息系统专题 (Special Topics in Intelligent Information Systems)\n区块链技术 (Blockchain Technology)\n智能决策支持系统 (Intelligent Decision Support Systems)\n金融科技 (Financial Technology)\n健康信息系统：架构和技术 (Health Information Systems: Architecture and Technologies)\n云计算 (Cloud Computing)\n网络和移动编程 (Web and Mobile Programming)\n创新实验室 (Innovative Laboratory)\n硕士实习 (MSc Practicum)\n研究硕士I (MSc Research I)\n研究硕士 II (MSc Research II)",
+  "success_cases": ""
+}

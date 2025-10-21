@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,管理学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 31900英镑/年",
+  "requirements": "具有本科学位，达到2:2学位或同等学历，不限专业背景，前提是先前的学习需要包括计算机编程和定量方法，如微积分、线性代数、概率和统计学",
+  "objectives": "约克大学商业分析理学硕士课程旨在为学生提供对数据科学原理和分析技术的深入理解，课程由领先的分析研究人员和实践者教授，将使学生掌握数据科学、人工智能、机器学习、统计学、运筹学、计算机编程及其在商业和社会中的各种应用方面的基本技能，学生将有能力推动数据驱动的解决方案，为商业和社会进步做出贡献，并在未来的企业中进行创新，该课程强调社会责任和环境可持续性，提供所需的知识和技能，确保学生能够有效和合乎道德地应对现实世界的挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学编程 (Programming for Data Science)\n数据科学机器学习或人工智能与机器学习基础 (Machine Learning for Data Science or Foundations of AI and Machine Learning)\n统计学与数据可视化 (Statistics and Data Visualisation)\n商业分析 (Business Analytics)\n可持续运营与供应链管理 (Sustainable Operations and Supply Chain Management)\n道德营销与可持续发展 (Ethical Marketing and Sustainability)\n全球组织中的战略与创新 (Strategy and Innovation in Global Organisations)\n国际商业管理与新兴市场 (International Business Management and Emerging Markets)\n人力资源管理与可持续发展 (Human Resource Management and Sustainability)\n高级财务与管理会计 (Advanced Financial and Management Accounting)\n股票投资与交易 (Stock Investment and Trading)\n金融科技与高级投资管理 (FinTech and Advanced Investment Management)\n公共服务市场 (Public Service Markets)\n社会与道德领导力 (Social and Ethical Leadership)\n运筹学 (Operations Research)\n智能系统：概率与深度学习 (Intelligent Systems: Probabilistic and Deep Learning)\n医疗保健中的数据科学 (Data Science in Healthcare)\n高级回归分析 (Advanced Regression Analysis)\n应用微观计量经济学 (Applied Microeconometrics)\n时间序列计量经济学 (Time Series Econometrics)\n社交媒体、数据与社会 (Social Media, Data and Society)\n数据伦理与治理 (Data Ethics and Governance)",
+  "success_cases": ""
+}

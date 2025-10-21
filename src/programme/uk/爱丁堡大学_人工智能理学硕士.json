@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence",
+  "tags": "工科,计算机,信息学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 43300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要信息学、人工智能、认知科学、计算机科学、电子工程、语言学、数学、哲学、物理学或心理学背景\n典型的录取通常要求申请者具备英国一等荣誉学位\n需要具备编程能力，在学位期间必须完成以下至少其中1门编程课程：C/C、Java、Python、R、Matlab、Haskell、ML\n在学位期间必须完成相当于60个SCQF学分或30个ECTS学分的数学课程，通常涵盖以下学科/主题：微积分（微分和积分），线性代数（向量和多维矩阵），离散数学和数学推理（例如归纳和推理，图论模型，证明），和概率论（离散和连续概率的概念，马尔可夫链等） ，概率概念的先前知识对于该学位尤其重要",
+  "objectives": "爱丁堡大学人工智能理学硕士项目将在英国历史最悠久的人工智能中心授课，该中心是世界上最好的中心之一。该课程学生的许多课程将由国际知名的研究人员教授，这些研究人员所传授的知识不仅涵盖了人工智能的广泛领域，也同时借鉴了神经科学、认知科学、语言学和数学等相关领域的研究成果。该课程的目标是为其学生提供在所选专业领域设计、构建和应用人工智能系统所需的基础知识和实用技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "信息学研究回顾 (Informatics Research Review)\n信息学项目建议书 (Informatics Project Proposal)\n加速自然语言处理 (Accelerated Natural Language Processing)\n高级视觉 (Advanced Vision)\n自动语音识别 (Automatic Speech Recognition)\n机器学习与模式识别 (Machine Learning & Pattern Recognition)\n自然语言的理解、生成与机器翻译 (Natural Language Understanding, Generation, and Machine Translation)\n概率建模与推理 (Probabilistic Modelling and Reasoning)\n强化学习 (Reinforcement Learning)\n机器人学：科学与系统 (Robotics: Science and Systems)",
+  "success_cases": ""
+}

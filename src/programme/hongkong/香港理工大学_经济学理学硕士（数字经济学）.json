@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "经济学理学硕士（数字经济学）",
+  "ename": "MSc Economics (Digital Economics)",
+  "tags": "商科,经济,商学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 321750港币/年",
+  "requirements": "具有认可大学颁发的学士学位\n合适的申请者可能会被邀请参加面试",
+  "objectives": "香港理工大学经济学理学硕士项目旨在使学生具备扎实的经济分析技能，重点是数字技术的快速发展和数据日益增长的重要性，除了接受核心经济理论的全面培训外，学生还可以选择专攻应用经济学或数字经济学。香港理工大学经济学理学硕士（数字经济学）课程旨在为学生提供有关数字经济发展和前景的最新知识，并培养其通过严格的经济分析来研究与数字经济相关的问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学术诚信与商业道德 (Academic Integrity and Ethics in Business)\n数字经济学高级专题 (Advanced Topics in Digital Economics)\n国际经济学 (International Economics)\n宏观经济学 (Macroeconomics)\n管理经济学与数字化转型 (Managerial Economics and Digital Transformation)\n微观经济学 (Microeconomics)\n人工智能概念 (Artificial Intelligence Concepts)\n会计与金融中的商业分析 (Business Analytics in Accounting and Finance)\n虚拟经济与生态系统 (Metaverse Economics and Ecosystems)\n数字经济学研究项目 (Research Project in Digital Economics)\n应用经济学高级专题 (Advanced Topics in Applied Economics)\n数据结构与数据库系统 (Data Structures and Database Systems)\n数据分析计量经济学 (Econometrics for Data Analysis)\nESG投资与绿色金融 (ESG Investment and Green Finance)\n投资 (Investment)\n会计与金融定量方法 (Quantitative Methods for Accounting and Finance)\n金融定量方法 (Quantitative Methods for Finance)",
+  "success_cases": ""
+}

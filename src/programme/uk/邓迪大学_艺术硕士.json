@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "艺术硕士",
+  "ename": "Master of Fine Art",
+  "tags": "社科,艺术,艺术设计学院",
+  "introduction": "专业方向: 艺术\n入学时间: 9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要相关学科背景或适当的专业经验，需要创意作品集",
+  "objectives": "邓迪大学艺术硕士课程包含所有形式的艺术实践，鼓励每个学生群体的内在多样性。学生将有机会跨越许多美术课程强加的传统中等定义界限。邓迪大学艺术硕士课程通过跨平台探索视觉知识和表达来鼓励学科之间的互动。在整个课程中，学生将建立并发展实践制作和研究技能，以探索当代艺术实践背景下的当前态度和现象。通过在实体社区和数字社区中进行的热烈辩论，反思练习、累积进步，增强自我评估的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "艺术、社会和公众1 (Art, Society and Publics 1)\n艺术研究与写作1 (Artistic Research & Writing 1)\n艺术、社会和公众2 (Art, Society and Publics 2)\n艺术、社会和公众3 (Art, Society and Publics 3)\n艺术与生态 (Art and Ecologies)\n制作与重要性 (Making and Materiality)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "叶史瓦大学",
+  "major_name": "法学硕士",
+  "ename": "Master of Laws",
+  "tags": "社科,法律",
+  "introduction": "专业方向: 法律\n入学时间: 春季/夏季/秋季\n项目时长: 24学分\n项目学费: 33,896美元/学期",
+  "requirements": "本科法律专业毕业",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

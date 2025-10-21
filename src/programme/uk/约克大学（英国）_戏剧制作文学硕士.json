@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "戏剧制作文学硕士",
+  "ename": "MA Theatre-Making",
+  "tags": "社科,影视,戏剧、电影、电视和互动媒体学院",
+  "introduction": "专业方向: 影视\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要提交1篇written work，可以选择性提交作品集",
+  "objectives": "约克大学戏剧制作文学硕士项目结合实际工作坊和研讨会探索和讨论，学生将专注于学生作为一个活跃的戏剧制作者的工作，并将学习在雄心勃勃的水平上绘制和分析戏剧制作过程所需的批判性和解释性技能。您将充分利用我们的行业标准排练和制作设施，对戏剧和表演文本进行创造性调查，并开发您自己的作品。通过戏剧项目、大师班、讲座和研讨会，您将受益于与主要戏剧制作人的联系。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "对戏剧创作的思考 (Thinking Through Theatre-Making)\n当代戏剧创作方法 (Contemporary Approaches to Theatre Making)\n戏剧制作要素 (Elements of Theatre Making)\n生产项目 (Production Project)\n扩展项目 (Extended Project)",
+  "success_cases": ""
+}

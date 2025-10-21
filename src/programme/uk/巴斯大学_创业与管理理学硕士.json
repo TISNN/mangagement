@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "创业与管理理学硕士",
+  "ename": "MSc Entrepreneurship and Management",
+  "tags": "商科,创业与创新,管理学院",
+  "introduction": "专业方向: 创业与创新\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限制专业背景\n如果申请者学过科学、工程、艺术或社会科学等学科，这门课程会对申请者有吸引力。如果申请者的第一个学位是商业或管理，那么可能会发现课程有太多重叠。学校会考虑所有的申请\n在特殊情况下，相关工作经验可以代替学位要求。相关工作经验不超过三年",
+  "objectives": "学习基本的管理技能以及创业的性质、背景和过程。学生将学习如何：了解趋势识别和利用机会，将管理知识应用于业务问题或创业思想。学生还将有机会将真实的商业想法转化为可行的商业模式。了解创业过程在不同情况下的差异。此课程将为学生准备创业和担任各种管理职务做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计与财务管理基础 (Fundamentals of Accounting and Financial Management)\n商业经济学 (Business Economics)\n市场营销 (Marketing)\n人力资源管理 (Human Resource Management)\n创业基础知识 (Fundamentals of Entrepreneurship)\n战略管理 (Strategic Management)\n机会生成、评估和发展 (Opportunity Generation、Assessment、and Development)\n科技创业 (Technology Entrepreneurship)\n创业金融 (Entrepreneurial Finance)\n商业模型设计研究方法 (Research Methods for Business Model Design)\n论文 (Dissertation)",
+  "success_cases": ""
+}

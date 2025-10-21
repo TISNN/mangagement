@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "商业分析与管理科学理学硕士",
+  "ename": "MSc Business Analytics and Management Science",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位，需要能够证明定量研究的学科背景，如：数学、物理科学、经济学、金融学、工程学、计算机科学\n学校不接受以下学科背景：\n- 语言研究——不接受专注于学习一门语言或如何翻译的学位，例如“商务英语”、“应用英语”或“翻译”，这一限制不适用于在英国授课的“英语”和“英国文学”学位；\n- 艺术/设计/职业研究——专注于学习一种特定形式的艺术、工艺或职业的学位，这些包括艺术、平面设计、摄影、电视广播、剧本写作或表演/舞蹈学位。\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学商业分析与管理科学理学硕士项目中学生将发展业务分析技能，并学习如何在数据中获得见解理解。学生还可以参与行业竞争，以获得宝贵经验。该硕士学位将使学生具备从事数据分析的能力。该项目是具有分析技能的学生的理想选择，他们可以使用数据来提高业务绩效并为组织解决问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "定量方法 (Quantitative Methods)\n咨询技能 (Consultancy Skills)\n优化与决策建模 (Optimisation and Decision Modelling)\n仿真 (Simulation)\n商业分析与管理科学概论 (Introduction to Business Analytics and Management Sciences)\n系统思维 (Systems Thinking)\n问题结构化 (Problem Structuring)\n数据挖掘多元统计 (Multivariate Statistics for Data Mining)\n运营管理 (Operations Management)\n项目管理 (Project Management)\n谈判技巧 (Negotiation Skills)\nVB编程应用 (Visual Basic For Applications)\n论文 (Dissertation)\n知识管理和商业智能 (Knowledge Management and Business Intelligence)\n信用风险评分与数据挖掘 (Credit Scoring and Data Mining)",
+  "success_cases": ""
+}

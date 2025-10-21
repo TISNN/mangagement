@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "物理学理学硕士（欧洲硕士）",
+  "ename": "MSc Physics (EuroMasters)",
+  "tags": "理科,物理,物理学和天文学学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 2年\n项目学费: 16450英镑/年",
+  "requirements": "具有high 2:2荣誉学位或同等学历，需要物理学相关学科背景\n获得2:2成绩的申请人将根据个人情况进行考虑\n需要ATAS证书",
+  "objectives": "伦敦大学玛丽皇后学院物理学理学硕士（欧洲硕士）项目为学生提供无与伦比的自由和学习机会。学生将从物理学和天体物理学两个课程路径中进行选择，在进入第二年的研究之前，学生可以在第一年自由选择模块，与领先的物理学家合作进行开创性的项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "欧洲硕士项目/论文 (Euromasters Project/Dissertation)\n相对论波与量子场 (Relativistic Waves and Quantum Fields)\n量子场论方法基础 (Fundamentals of Methods in Quantum Field Theory)\n理论物理中的微分几何 (Differential Geometry in Theoretical Physics)\n高级量子场论 (Advanced Quantum Field Theory)\n理论物理中的超对称方法 (Supersymmetric Methods in Theoretical Physics)\n弦与膜概论 (Introduction to Strings and Branes)\n高级宇宙学 (Advanced Cosmology)\n相对论与引力 (Relativity and Gravitation)\n实用机器学习 (Practical Machine Learning)",
+  "success_cases": ""
+}

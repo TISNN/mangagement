@@ -1,0 +1,12 @@
+{
+  "school_name": "芝加哥大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理",
+  "introduction": "专业方向: 工商管理\n项目类别: STEM\n入学时间: 秋季\n项目时长: 21个月\n项目学费: 161922美元\n平均成绩: 3.6\n国际学生: 37%\n男女比例: 60%:40%\n就业比例: 96.40%",
+  "requirements": "拥有任何领域的本科学位均可以申请",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

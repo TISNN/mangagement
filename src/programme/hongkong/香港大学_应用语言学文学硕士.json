@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "应用语言学文学硕士",
+  "ename": "MA Applied Linguistics",
+  "tags": "社科,语言,文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 255440港币/年",
+  "requirements": "具有良好的学士学位或同等学历\n该课程是为那些在英语语言教育方面具有工作经验的人设计的，学校也欢迎非教学语言学家或在语言分析方面具备工作经验的申请者",
+  "objectives": "香港大学应用语言学文学硕士课程是为目前正在或希望在高等教育中教授英语的人设计的。因此，该课程的重点是与英语作为高等学术和专业教育媒介的教学、学习和使用有关的问题。香港大学应用语言学文学硕士课程的一些单元有助于了解所有背景下的英语，而其他单元则与香港的学习背景更为相关。学生将有充分的机会探索英语语言研究的理论意义和实际应用。课程的实证重点将体现在各种课程和评估中。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "第二语言课程 (Second language curricula)\n话语分析 (Discourse analysis)\n应用语言学研究方法导论 (Introduction to research methods)\n第二语言习得 (Second Language Acquisition)\n从语法中理解语言 (Understanding Language through Grammar)\n语言测验与评量 (Language testing and evaluation)\n音系学 (Phonology)\n词汇教与学 (Vocabulary teaching and learning)\n写作教学的研究进展 (Advances in writing pedagogy)\n语言教与学的技术 (Technology in language teaching and learning)\n语料库与英语语言教学 (Corpora and ELT)\n性别与语言 (Gender and language)\n语言教师发展 (Language teacher development)\n第二语言习得中的社会文化维度 (Sociocultural dimensions of SLA)\n应用语言学高级研究方法 (Advanced Research Methods)",
+  "success_cases": ""
+}

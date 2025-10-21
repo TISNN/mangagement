@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "系统工程与工程管理理学硕士",
+  "ename": "MSc Systems Engineering & Engineering Management",
+  "tags": "工科,工程管理,工学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 220000港币/年",
+  "requirements": "毕业于认可大学并获得工程、科学、工商管理或相关领域的学士学位；或\n在高等教育机构完成相关课程学习并获得相当于相关领域荣誉学位的专业或类似资格\n需要提供B等级证明",
+  "objectives": "香港中文大学系统工程与工程管理理学硕士项目培养目标如下：为希望在工作中承担更多管理责任的工程师和专业人才提供高级培训，并且通过一系列最高水准的课题研究以及最顶尖技术方面的精选课程为学生提供全方位的教育。香港中文大学系统工程与工程管理理学硕士项目精心安排的课程设置，旨在让学生通过应用高等数学、先进的工程学分析技术、以及最新信息技术，来应对挑战和处理复杂的管理问题。项目开设的课程是非常综合而全面的。香港中文大学系统工程与工程管理课程着重在金融工程、供应链管理、物流和信息系统方面；并广泛涉猎投资理论、风险模型、经济分析、存货理论、需求预测、集成化物流管理、项目筛选、专家系统和网络化等方面。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "运营管理原则 (Principles of Operations Management)\n信息技术管理 (Information Technology Management)\n金融工程概论 (Introduction to Financial Engineering)\n工程经济学 (Engineering Economics)\n项目与科技管理 (Project and Technology Management)\n物流管理 (Logistics Management)\n供应链管理 (Supply Chain Management)\n专家系统与决策支持 (Expert Systems and Decision Support)\n客户/服务器信息系统 (Client/Server Information Systems)\n开放系统与电子商务 (Open Systems and Electronic Commerce)\n随机投资模型 (Stochastic Investment Models)\n定量风险管理 (Quantitative Risk Management)\n计算金融学 (Computational Finance)",
+  "success_cases": ""
+}

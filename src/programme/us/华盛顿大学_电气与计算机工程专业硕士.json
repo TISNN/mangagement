@@ -1,0 +1,12 @@
+{
+  "school_name": "华盛顿大学",
+  "major_name": "电气与计算机工程专业硕士",
+  "ename": "Professional Master of Electrical & Computer Engineering",
+  "tags": "工科,电气电子",
+  "introduction": "专业方向: 电气电子\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1.5年\n项目学费: 35,781美元/年",
+  "requirements": "具备工程或者科学相关本科学位，学过基础电气工程、微分方程、力学等相关课程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

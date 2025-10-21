@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "建筑学硕士",
+  "ename": "Master of Architecture",
+  "tags": "社科,建筑,当代艺术研究所",
+  "introduction": "专业方向: 建筑\n入学时间: 10月\n项目时长: 2年\n项目学费: 24700英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要建筑学或相关学科背景\n需要提交1份数字作品集\n学校也可能考虑非标准申请者，需要联系学校获取信息",
+  "objectives": "兰卡斯特大学建筑学硕士课程的驱动原则是可持续性和专业实践的道德方法。该课程融合该领域的最新思想和研究。学生将与一些英国领先的设计师、建筑师、学者和研究人员在合作氛围中合作，努力实现积极的社会、经济、技术和环境变化。学生将发展先进的数字技能，以实现思想的生产和制造，包括先进的参数化、GIS和BIM技术，以及通过专用IT设施支持的相关演示技能。通过案例工作、背景研究和工作安排培养实践中的专业精神，这将使学生能够发展和了解专业的未来方向。设计工作室是M.Arch的核心活动。这是一个由学者、从业者和学生组成的协作社区，他们共同致力于追求卓越的建筑设计和研究。学生将有机会发展技能和知识，使他们能够在实践中保持敏捷和道德，并准备好应对气候紧急情况、劳动力自动化、数据安全和人口老龄化等当代全球问题带来的挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "建筑设计工作室4A (Architectural Design Studio 4A)\n建筑设计工作室4B (Architectural Design Studio 4B)\n建筑技术2 (Architectural Technology 2)\n专业实践2 (Professional Practice 2)\n研究方法 (Research Methods)\n高级技术2 (Advanced Technology 2)\n分析调查 (Analytic Investigation)\n建筑设计工作室5A (Architectural Design Studio 5A)\n建筑设计工作室5B (Architectural Design Studio 5B)\n专业实践3 (Professional Practice 3)",
+  "success_cases": ""
+}

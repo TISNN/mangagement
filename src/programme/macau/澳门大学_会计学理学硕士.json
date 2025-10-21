@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "会计学理学硕士",
+  "ename": "MSc Accounting",
+  "tags": "商科,会计,工商管理学院",
+  "introduction": "专业方向: 会计\n入学时间: 8月\n项目时长: 2年\n项目学费: 102000澳门币/年",
+  "requirements": "持有澳门大学认可的学士学位或同等学历。申请人也可能被要求具备其他知识或专业经验。申请人必须在学士学位学习中达到相当于C级或更高的总成绩",
+  "objectives": "理学硕士学位（会计学）课程旨在培育拥有国际财务报告准则（IFRS）和国际会计准则（IAS）等高级会计知识的专业人才，迎合社会的需求。课程已获得特许公认会计师公会（ACCA）、皇家特许管理会计师公会（CIMA）及澳大利亚会计师公会（CPAAustralia），完成课程的毕业生可获上述机构专业资格考试之最高豁免科目数*。专业认证进一步确保课程的高质量并加强国际化元素。专业认证使毕业生在就业市场上能够取得先机，更具竞争力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "财务会计与理论 (Financial Accounting and Theory)\n财务报告与分析 (Financial Reporting and Analysis)\n商法 (Business Law)\n管理会计 (Management Accounting)\n财务管理 (Financial Management)\n审计与保证 (Auditing and Assurance)\n税收 (Taxation)\n项目报告 (Project Report)\n高级财务报告 (Advanced Financial Reporting)\n公司治理与社会责任 (Corporate Governance and Social Responsibility)\n绩效管理和控制系统 (Performance Management and Control Systems)\n财务风险管理 (Financial Risk Management)\n当代会计问题 (Contemporary Issues in Accounting)",
+  "success_cases": ""
+}

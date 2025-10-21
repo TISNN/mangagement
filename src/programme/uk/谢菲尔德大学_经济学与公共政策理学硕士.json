@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "经济学与公共政策理学硕士",
+  "ename": "MSc Economics and Public Policy",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 24950英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要经济学或满足课程要求的学科背景申请者应当学习过宏观经济学、微观经济学、数学、统计学或计量经济学课程",
+  "objectives": "谢菲尔德大学经济学院致力于为政府部门与组织提供专业性的建议，如国际劳工组织、世界银行与联合国教科文组织等。\n谢菲尔德大学经济学院专注于应用经济学与计量经济学领域的研究，内容涉及劳动经济学研究、国际金融、卫生经济学、教育与发展。\n谢菲尔德大学经济学与公共政策理学硕士项目专注于公共经济学以及公共政策的设计和评估，为学生在公共部门、政策咨询或研究领域成为经济学家做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济分析 (Microeconomic Analysis)\n宏观经济分析 (Macroeconomic Analysis)\n计量经济学方法 (Econometric Methods)\n应用微观计量经济学 (Applied Microeconometrics)\n公共经济学 (Public Economics)\n公共政策评估 (Public Policy Evaluation)\n产业组织 (Industrial Organisation)\n货币经济学 (Monetary Economics)\n国际贸易 (International Trade)\n应用宏观计量经济学 (Applied Macroeconometrics)\n银行与金融业现代理论 (Modern Theory of Banking and Finance)\n健康经济学 (Health Economics)\n现代金融学 (Modern Finance)\n发展金融学 (Development Finance)\n资产定价 (Asset Pricing)",
+  "success_cases": ""
+}

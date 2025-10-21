@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "运动管理理学硕士",
+  "ename": "MSc Sport Management",
+  "tags": "社科,体育,健康系",
+  "introduction": "专业方向: 体育\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业",
+  "objectives": "巴斯大学运动管理理学硕士课程由卫生系和管理学院共同开发，专为体育或管理专业本科学位的应届毕业生以及在体育、运动或健康领域工作的当前从业者而设计。 通过巴斯大学运动管理理学硕士课程，学生将学习与体育管理行业相关的各种理论和方法，核心的管理理念和实践。 这些理念和时间重点体育和锻炼规定所涉及的业务类型。巴斯大学运动管理理学硕士课程将利用行业合作伙伴的专业知识，提供具有实际应用的内容。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究方法 (Research methods)\n商业管理 (Business management)\n体育营销和促销文化 (Sport marketing and promotional culture)\n研究方法 (Research methods)\n商业管理 (Business management)\n管理体育发展 (Managing sport development)\n体育领导力和运动员管理 (Sport leadership and athlete management)\n运动管理论文 (Sport management dissertation)\n体育管理实践方向 (Sport management practice track)",
+  "success_cases": ""
+}

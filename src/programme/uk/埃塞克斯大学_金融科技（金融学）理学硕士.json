@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "金融科技（金融学）理学硕士",
+  "ename": "MSc Financial Technology (Finance)",
+  "tags": "商科,金工金数,埃塞克斯商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要数学学科背景，如：经济学、金融学、数学、统计学、科学或工程或具有其他学科背景的2:1学位或同等学历，包括定量方法、经济学、金融学和/或投资学、银行领域其中至少2门课程",
+  "objectives": "埃塞克斯大学金融科技（金融学）理学硕士项目适合那些对编码、经济或金融有基本了解的人，旨在探索目前正在使用和开发的新技术，以促进金融服务行业的发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "风险管理 (Risk Management)\n金融数据分析 (Data Analytics in Finance)\n金融与投资理学硕士学位论文 (MSc Finance and Investment: Dissertation)\nPython编程入门 (Introduction to Programming in Python)\n金融科技与数字经济的计算市场微观结构 (Computational Market Microstructure for FinTech and the Digital Economy)\n公司金融 (Corporate Finance)\n衍生证券 (Derivative Securities)\n资产组合管理 (Portfolio Management)\n金融建模 (Financial Modelling)\n数据分析：横断面、面板、定性数据方法 (Data Analysis: Cross Sectional, Panel and Qualitative Data Methods)\n现代银行业 (Modern Banking)\n银行战略与风险 (Bank Strategy and Risk)\n金融市场分析概论 (Introduction to Financial Market Analysis)\n经济学与金融学计算模型 (Computational Models in Economics and Finance)\n行为经济学 I：个人决策 (Behavioural Economics I: Individual Decision Making)",
+  "success_cases": ""
+}

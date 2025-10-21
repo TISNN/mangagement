@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "设计工程理学硕士",
+  "ename": "MSc Design Engineering",
+  "tags": "工科,其他工科,设计工程学院",
+  "introduction": "专业方向: 其他工科\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有一等荣誉学位，需要科学、技术和工程学科背景（或学校认可的类似资格）学校可以考虑具有2年以上专业经验或在相关领域进一步学习的2:1同等学历申请者初步申请后入围的候选人将被邀请参加与教职员的面试，面试通常是远程在线进行的",
+  "objectives": "帝国理工学院设计工程理学硕士项目旨在通过工程、设计和创业的跨学科方法，创造创新的产品、系统或解决方案。学生将获得设计方法、系统思维、创新和创业方面的高级技能。本课程使学生具备在情境中理解用户需求、识别机会并创造性地解决问题的能力。学生将使用尖端技术，如增材制造、机电一体化、数据科学、传感和物联网。这些技术是工程的未来，本课程学生将站在它们应用的最前沿。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "背景下的设计工程 (Design Engineering in Context)\n创新管理 (Innovation Management)\n硕士项目设计 (Design Master’s Project)\n工程实践设计 (Design Engineering Practice)\n基础跨学科研究方法 (Foundational Transdisciplinary Research Methods)\n先进的跨学科研究方法 (Advanced Transdisciplinary Research Methods )\n设计心理学 (Design Psychology)\n共享经济的设计分析 (Design Analytics for the Sharing Economy)\n从数据到产品 (From Data to Product)\n纳米设计工程 (Nano Design Engineering)\n负责任的工程和设计创新 (Responsible Engineering and Design Innovation)\n机器人研究项目 (Robotics Research Projects)\n传感和物联网 (Sensing and Internet of Things)\n变革性游戏 (Transformational Play)\n建模与仿真 (Modelling and Simulation)\n加法制造设计 (Design for Additive Manufacturing)\n视觉系统设计 (Design of Visual Systems)\n推论统计与因果推理 (Inferential Statistics and Causal Reasoning)\n可持续设计与策略 (Sustainable Design and Strategy)\n可持续储能设计 (Sustainable Energy Storage Design)\n先进的工业设计 (Advanced Industrial Design)\n音频体验设计 (Audio Experience Design)\n为行为改变设计干预措施 (Designing Interventions for Behaviour Change)\n系统设计经济学与金融学 (Economics and Finance for Systems Design)\n博弈论与机制设计 (Games Theory and Mechanism Design)\n设计工程师的机器学习 (Machine Learning for Design Engineers)",
+  "success_cases": ""
+}

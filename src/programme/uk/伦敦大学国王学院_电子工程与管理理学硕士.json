@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "电子工程与管理理学硕士",
+  "ename": "MSc Electronic Engineering with Management",
+  "tags": "工科,电气电子,自然、数学与工程科学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 37800英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，需要电子、电气工程、计算机科学、应用数学或物理学背景\n学校也欢迎专业或职业资格并将基于具体情况予以考虑",
+  "objectives": "伦敦大学国王学院电子工程与管理理学硕士项目将为学生在电子工程或管理领域的相对高级水平的行业工作做好准备。学生将学习项目管理、数字信号处理基础、数据和信号分析主题以及管理原则，也有机会探索广泛的可选模块，让学生自由发展学习途径。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士课题项目 (MSc Project)\n管理学原理 (Principles of Management)\n项目管理 (Project Management)\n数据和信号分析议题 (Topics on Data and Signal Analysis)\n数字信号处理基础 (Fundamentals of Digital Signal Processing)\n运营管理 (Operations Management)\n通信理论 (Communication Theory)\n数字通信 (Digital Communications)\n移动通信和个人通信 (Mobile and Personal Communications)\n模式识别 (Pattern Recognition)\n随机变量和随机过程 (Random Variables and Stochastic Processes)\n电信网络1 (Telecommunication Networks I)\n光学通信 (Optical Communcations)\n电信网络2 (Telecommunications Network II)\n网络理论 (Network Theory)",
+  "success_cases": ""
+}

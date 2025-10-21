@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "语言学文学硕士",
+  "ename": "MA Linguistics",
+  "tags": "社科,语言,语言、文化和社会学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 27500英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要相关学科背景，如语言、英语、教育、心理学、语言治疗，包括至少1门语言学课程并以优异成绩通过该课程，相关专业经验也将被考虑，申请者必须在其支持声明中证明对语言学学科和课程目标的熟悉",
+  "objectives": "利兹大学语言学文学硕士项目能让学生深入地学习语言学和语音学方面的理论和方法论，分析语言和语音的结构和使用方式。通过利兹大学语言学文学硕士项目核心课程的学习，学生将掌握语言学的重要方面，如语法、语音学和音韵学，还将学习大量的理论知识和实证研究方法。此外，学生可根据自身的兴趣和职业规划选择相应地选修课进行学习，如语言习得、社会语言学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学位论文（语言学和语音学） (Dissertation (Linguistics and Phonetics))\n语音学与音韵学基础 (Foundations of Phonetics and Phonology)\n语法基础 (Foundations of Syntax)\n语音学与音韵学专题 (Topics in Phonetics and Phonology)\n语法专题 (Topics in Syntax)\n语言学学术技能 (Academic Skills in Linguistics)\n语言学研究方法 (Research Methods in Linguistics)\n联系语言 (Languages in Contact)\n语用学 (Pragmatics)\n第二语言习得 (Second Language Acquisition)\n语言学与语言习得途径 (Approaches to Linguistics and Language Acquisition)",
+  "success_cases": ""
+}

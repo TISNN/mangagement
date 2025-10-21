@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "物联网哲学硕士（HKUST(GZ)）",
+  "ename": "MPhil Internet of Things (HKUST(GZ))",
+  "tags": "工科,计算机,香港科技大学（广州）",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 2年\n项目学费: 150000人民币/年",
+  "requirements": "具有认可机构颁发的学士学位或同等学历",
+  "objectives": "物联网（IoT）是中国“互联网加”行动计划的支柱之一，在2015年中国政府的工作报告中提出。香港科技大学（广州）资讯枢纽下设物联网推力区，旨在提升科大在无线通讯及网络方面的实力，为国家成为物联网的全球领导者作出贡献，涵盖无线通讯、智慧城市、数码医疗、机器学习及优化、网络科学、计算机网络、 社交计算、隐私和安全，以及物联网更广泛的社会方面。物联网研究型硕士（MPhil）课程是努力成为世界知名物联网研究中心的一个组成部分，其使命是推进物联网的应用研究以及与应用领域相关的基础研究。\n硕士课程旨在培养学生在物联网中进行独立和跨学科的研究。哲学硕士毕业生应展示该学科的良好知识以及综合和创造新知识的能力，并为该领域做出贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "社交和网络计算 (Social and Web Computing)\n数据驱动建模：从传感器数据中学习 (Data-driven Modeling: Learning from Sensor Data)\n移动自主事物的无线连接 (Wireless Connectivity for Mobile Autonomous Things)\n物理信息机器学习简介 (Introduction to Physics-informed Machine Learning)\n面向物联网的雾/边缘/云计算 (Fog/Edge/Cloud Computing for IoT)\n物联网本地化 (Localization for IoT)\n面向物联网的新兴无线技术 (Emerging Wireless Technologies for IoT)\n离散时间信号处理基础 (Fundamentals of Discrete-Time Signal Processing)\n无线通信基础 (Fundamentals of Wireless Communications)\n通信网络：理论、模型和协议 (Communication Networks: Theory, Models, and Protocols)\n先进的网络系统 (Advanced Networked Systems)\n增量学习和自适应信号处理 (Incremental Learning and Adaptive Signal Processing)\n凸和非凸优化 I (Convex and Nonconvex Optimization I)\n凸和非凸优化 II (Convex and Nonconvex Optimization II)\n系统安全与隐私：理论与应用 (Systems Security and Privacy: Theory and Applications)\n独立学习 (Independent Study)\n物联网专题 (Special Topics in Internet of Things)\n高级深度学习 (Advanced Deep Learning)\n深度强化学习 (Deep Reinforcement Learning)\n数据挖掘的基础 (Foundations of Data Mining)\n数据科学中的数据挖掘和知识发现 (Data Mining and Knowledge Discovery in Data Science)\n数据科学与分析基础 (Foundation of Data Science and Analytics)\n数据探索和可视化 (Data Exploration and Visualization)\n科学、技术和创新政策 (Science, Technology and Innovation Policy)\n城市科学 (Science of Cities)\n城市数据分析 (Urban Data Analytics)",
+  "success_cases": ""
+}

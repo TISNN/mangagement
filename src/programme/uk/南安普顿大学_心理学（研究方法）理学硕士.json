@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "心理学（研究方法）理学硕士",
+  "ename": "MSc Psychology (Research Methods)",
+  "tags": "社科,心理学,心理学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30300英镑/年",
+  "requirements": "具有2:1学位，需要心理学或相关学科（能够证明包含定量研究技能）背景",
+  "objectives": "南安普顿大学心理学理学硕士：研究方法项目旨在帮助学生提高研究技能，学生将获得一系列研究和数据分析技术的高级培训，该课程非常适合想在未来攻读博士学位或者有兴趣成为一名专业研究人员的学生，毕业生将获得以下技能：决定你自己的研究问题；开展研究；分析数据；准备报告。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "心理学高级统计方法 (Advanced Statistical Methods in Psychology)\n应用研究方法（ARM）：相关法 (Applied Research Methods (ARM): Correlational Methods)\n应用研究方法：规划与设计研究 (Applied Research Methods (ARM): Planning & Designing Research)\n应用研究方法：定性方法 (Applied Research Methods: Qualitative Methods)\n应用研究方法：比较与群体差异的统计分析 (Applied Research Methods: Statistical Analysis of Comparisons & Group Differences)\n概念与技能 (Concepts & Skills)\n证据合成 (Evidence Synthesis)\n认知心理学硕士学位论文 (MSc Dissertation in Cognitive Psychology)\n社会心理学硕士学位论文 (MSc Dissertation in Social Psychology)\n品德心理学 (Moral Psychology)\n心理学开放科学 (Open Science in Psychology)\n认知心理学研究学徒制 (Research Apprenticeship in Cognitive Psychology)\n社会心理学研究学徒制 (Research Apprenticeship in Social Psychology)\nR语言中的统计编程 (Statistical Programming in R)",
+  "success_cases": ""
+}

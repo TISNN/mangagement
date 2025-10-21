@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "环境系统科学理学硕士",
+  "ename": "MSc Environmental System Science",
+  "tags": "工科,环境工程,地理、地质与环境学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 23650英镑/年",
+  "requirements": "具有二等荣誉学位，需要相关学科背景（如地理、地质学、地球科学、环境科学或其他 STEM 学科）或同等专业经验学校也鼓励拥有非标准资格的学生申请。特别是，学校将充分考虑成熟学生在相关工作领域获得的专业经验。在这种情况下，申请人需要提供详细的工作经验信息，以便招生人员对申请进行全面评估。学校还会考虑其他资格，例如不同学科领域的资格，这些资格由理学硕士课程领域的相关经验支持",
+  "objectives": "莱斯特大学环境系统科学理学硕士项目与其他环境科学课程不同，因为它明确采用系统方法并考虑一系列空间和时间尺度——从整体和长期的地球系统视角开始，然后区域和地方环境问题和解决方案。在这个跨学科的理学硕士学位中，学生将深入了解环境系统科学，并学习如何应用这些知识来解决水文、地貌、地球化学、生态和大气环境中的环境问题。学生将获得一系列用于收集、映射和分析环境数据的技术的实践经验，并将学习如何开发和使用数值模型来描述环境系统行为并对环境变化做出预测。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地球系统 (The Earth System)\n环境分析技术 (Techniques in Environmental Analysis)\n城市环境的人为影响 (Anthropogenic Impact on the Urban Environment)\n热点话题 (Hot Topics)\n变革研究：应用环境研究的技能与挑战 (Research for Change: Skills and Challenges of Applied Environmental Research)\n学位论文 (Dissertation)\n环境建模导论 (Introduction to Environmental Modelling)\n遥感技术 (Remote sensing)\n地理信息系统基础 (Fundamentals of GIS)\n环境模拟的应用 (Applications of Environmental Modelling)\n对大气的地球观测 (Earth observations of the atmosphere)\nGIS在环境卫生方面的应用 (GIS in Environmental Health)\n现场数据采集 (Field Data Capture)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "数据科学理学硕士",
+  "ename": "MSc Data Science",
+  "tags": "理科,数据科学,信息与数字工程学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 20700英镑/年",
+  "requirements": "期待数学、统计学或数据科学毕业生的申请，并鼓励拥有计算机科学、工程、物理和相关学科学位的候选人提出申请；申请人应事先学习过概率论、统计学、线性代数、多变量微积分和优化。",
+  "objectives": "在阿斯顿大学数据科学理学硕士项目中，学生将获得数据科学和分析的基本概念的全面基础，以了解数据生命周期，包括问题制定、数据收集和清理、探索性数据分析和可视化、统计推断和决策。该课程是结构化的，因此学生将在开始时获得数学编程的块交付，这将用作其余课程内容的构建块。\n此外，学生将有机会将自己的知识应用于您选择的主题的案例研究、实习和研究项目中。这种方法确保学生不仅学习理论，而且可以将其应用到行业中，为其成为动态数据世界的开拓者做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计机器学习 (Statistical Machine Learning)\n专业研究技能和技术 (Statistical Machine Learning)\n了解数据 (Understanding Data)\n概率建模 (Probabilistic Modelling)\n数据科学编程 (Data Science Programming)\n人工神经网络 (Artificial Neural Networks)\n网络科学 (Network Science)\n数据分析基础知识 (Fundamentals of Data Analytics)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "金融数学理学硕士",
+  "ename": "MSc Financial Mathematics",
+  "tags": "商科,金工金数,数学科学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有good 2:2荣誉学位或同等学历，具备数学或带有很强数学成分的学科如物理、工程或计算机科学专业背景",
+  "objectives": "伦敦大学玛丽皇后学院金融数学理学硕士项目教授学生学习应用广泛的数学和统计技术来建模金融市场的行为。该项目适合计划在银行和金融市场的定量领域工作，或者希望从事金融数学方面学术研究的学生",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "时间序列分析 (Time Series Analysis)\n金融工具与市场 (Financial Instruments and Markets)\n金融学连续时间模型 (Continuous-time Models in Finance)\n金融数学建模基础 (Foundations of Mathematical Modelling in Finance)\n高级衍生品定价与风险管理 (Advanced Derivatives Pricing and Risk Management)\n项目论文 (Project Dissertation)\n金融高级计算 (Advanced Computing in Finance)\n应用风险管理 (Applied Risk Management)\n债券市场策略 (Bond Market Strategies)\n信用等级 (Credit Ratings)\nC++金融编程 (Programming in C++ for Finance)\n概率论与随机过程 (Topics in Probability and Stochastic Processes)\n贝叶斯统计学 (Bayesian Statistics)\nR语言计算统计学 (Computational Statistics with R)",
+  "success_cases": ""
+}

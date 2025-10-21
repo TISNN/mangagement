@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "动物考古学理学硕士",
+  "ename": "MSc Zooarchaeology",
+  "tags": "社科,历史,考古学院",
+  "introduction": "专业方向: 历史\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要考古学，人类学或相关学科背景\n生物学科背景的毕业生也会被考虑，成熟学生或那些没有常规学历但具备相关经验的申请者也会被考虑\n需要提交2篇written work",
+  "objectives": "约克大学动物考古学理学硕士项目将从宏观和微观两个层面研究考古动物遗骸，调查它们告诉我们的关于人类和其他物种如何在几千年中共存的信息。动物考古学理学硕士课程的范围是全球性的，为您提供知识和技术，以研究从旧石器时代到现在以及世界各地的人类社会中动物的角色。您将有机会选择由传统和生物分子动物考古学领域的顶尖学者教授的模块，以及由进化解剖学领域的专业人士领导的选项，使您能够掌握最新的分析技术并检查骨骼解剖学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "考古学家用动物骨头 (Animal Bones for Archaeologists)\n解读动物遗骸 (Interpreting Animal Remains)\n动物考古学1：鉴定动物骨骼 (Zooarchaeology 1: Identifying Animal Bones)\n动物考古学2：探索组合 (Zooarchaeology 2: Exploring the Assemblage)\n古代生物分子 (Ancient Biomolecules)\n民族志 (Ethnoarchaeology)\n语境中的实验考古学 (Experimental Archaeology in Context)\n地质考古学 (Geoarchaeology)\n地理信息系统 (Geographical Information Systems)\n解剖变异分析Ⅰ (Analysing Anatomical Variation I)\n人骨实践 (Human Bone Practicals I)\n论文 (Dissertation)",
+  "success_cases": ""
+}

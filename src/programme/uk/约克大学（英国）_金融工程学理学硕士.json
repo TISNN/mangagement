@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "金融工程学理学硕士",
+  "ename": "MSc Financial Engineering",
+  "tags": "商科,金工金数,数学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 33700英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要包含足够数学科学、经济学和金融学背景的学科背景。在某些情况下，申请者可能需要完成定量金融数学基础在线学前课程，最终成绩至少达到60%\n定量金融方面的专业经验将是一个优势，但不是先决条件，并且可以在一定程度上弥补有限的正式培训",
+  "objectives": "约克大学金融工程学理学硕士项目将应用与计算数学研究和计量经济学与量化金融相结合。申请者需具备与科学高度相关的本科学位（例如数学，统计学，工程学，物理学，电子学），或拥有金融和经济学背景。约克大学金融工程学理学硕士项目的毕业生大多在金融机构从事定量金融方面的工作。还有学生选择在基金管理、保险、精算、税收等领域工作或者继续攻读博士学位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计量经济学研究方法和计量经济学 (Econometric Methods for Research and Econometrics)\n连续时间金融和衍生资产 (Continuous-Time Finance and Derivative Assets)\n金融数学方法 (Mathematical Methods of Finance)\n时间序列 (Time Series)\nC++编程与财务应用程序 (C++ Programming with Applications in Finance)\n固定收益证券 (Fixed Income Securities)\n投资和投资组合管理 (Investment and Portfolio Management)\n离散时间模型和衍生证券 (Discrete Time Modelling and Derivative Securities)\n计算金融 (Computational Finance)\n金融工程 (Financial Engineering)\n金融计量经济学专题 (Topics in Financial Econometrics)\n随机微积分和布莱克-斯科尔斯理论 (Stochastic Calculus and Black-Scholes Theory)\n金融风险管理 (Financial Risk Management)\n债券建模、期限结构和利率衍生产品 (Modelling of Bonds、Term Structure、and Interest Rate Derivatives)\n计算金融 (Computational Finance)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "电机与电脑工程理学硕士",
+  "ename": "MSc Electrical and Computer Engineering",
+  "tags": "工科,电气电子,科技学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "持有澳门大学认可的学士学位或同等学历。申请人也可能被要求具备其他知识或专业经验。申请人必须在学士学位学习中达到相当于C级或更高的总成绩",
+  "objectives": "本课程旨在于提升毕业生以下各方面的能力。解决问题的能力：毕业生有能力以批判性和评估性的方式思考，并具有广阔的视野，以解决技术和（或）非技术问题。领导力和沟通能力：毕业生将训练以增强领导能力，以道德的方式行事，技能将包括在不同群体中进行良好沟通和成功工作的能力。市场接受度：毕业生将了解学术环境，行业和政府组织的职业。技术能力：毕业生将具有技术能力，并在工程学的数学和科学基础以及工程设计经验方面拥有全面的基础。他们将能够使用现代工程技术，技能和工具来满足社会需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究导论 (Introduction to Research)\n高等数学 (Advanced Mathematics)\n学术/应用论文 (Academic/Applied Thesis)\n微电子电路设计 (Microelectronic Circuit Design)\n数字信号处理 (Digital Signal Processing)\n主动网络理论 (Active Network Theory)\n控制系统中的高级主题 (Advanced Topics in Control Systems)\n模拟中的高级主题 (Advanced Topics in Simulation)\n专家系统 (Expert Systems)\n电信和信号处理微电子学 (Microelectronics for Telecommunication and Signal Processing)\n激光与半导体物理 (Laser and Semiconductor Physics)\n电信高级话题 (Advanced Topics in Telecommunications)\n灵活的交流输电系统 (Flexible Alternative Current Transmission System)",
+  "success_cases": ""
+}

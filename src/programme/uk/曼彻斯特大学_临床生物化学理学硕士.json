@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "临床生物化学理学硕士",
+  "ename": "MSc Clinical Biochemistry",
+  "tags": "社科,医学,生物、医学和健康学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要生物化学、生物医学科学、生理学、药理学、药学、医学、其他生物学科（包含生物化学和/或生理学要素）背景\n学校接受化学专业毕业生，但需要在本科学位期间学习过生物化学和/或生理学的重要元素\n学校将灵活考虑具有适当专业经验的申请者，在这种情况下申请者将基于个人情况被考虑并可能被要求先入读PGCert课程\n本课程也适用于来自曼彻斯特大学和其他英国大学完成第三年学习的插班医科学生，对于在曼彻斯特学习的圣安德鲁斯学生来说，这包括三年的课程加上随后在曼彻斯特学习的一到两年，插读医学生需要一次性通过所有评估（如果他们是三年级）或三年级没有不及格（如果他们是四年级）",
+  "objectives": "曼切斯特大学临床生物化学理学硕士课程将为学生提供全面的基础知识，该课程涉及体液和其他生物材料的临床分析，以帮助疾病的诊断，治疗和监测。\n临床生物化学家通常是在医院实验室工作的临床科学家，他们向其他医疗保健专业人员（例如临床医生，全科医生和护士）提供建议和分析结果的解释。他们还参与了新分析方法的开发和临床服务的改进，包括质量保证和审核。\n通过曼切斯特大学临床生物化学理学硕士课程，学生将获得主要器官和内分泌系统以及更专业领域（例如儿科生物化学和药物监测）的正常生理学和病理生理学的核心知识和了解。\n学生还将发展对临床疾病以及生化参数和实验室方法如何用于患者调查，诊断和管理的核心知识和理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "主要器官疾病 (Diseases of Major Organs)\n营养和药物监测 (Nutrition and Drug Monitoring)\n临床生物化学导论 (Introduction to Clinical Biochemistry)\n内分泌学 (Endocrinology)\n分析方法 (Analytical Methods)\n研究技能大师班 (Research Skills Masterclass)\n临床生物化学论文 (Clinical Biochemistry Dissertation)\n儿科生化 (Paediatric Biochemistry)\n研究方法（非学分） (Research Methods (Non-Credit))",
+  "success_cases": ""
+}

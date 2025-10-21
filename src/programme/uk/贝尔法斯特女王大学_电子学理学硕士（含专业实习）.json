@@ -1,0 +1,12 @@
+{
+  "school_name": "贝尔法斯特女王大学",
+  "major_name": "电子学理学硕士（含专业实习）",
+  "ename": "MSc Electronics with Professional Internship",
+  "tags": "工科,电气电子,电子、电气工程与计算机科学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 2年\n项目学费: 13825英镑/年",
+  "requirements": "通常具有2:2荣誉学位或学校接受的同等学历，需要电气和/或电子工程、或物理学（包含大量电子学内容）背景",
+  "objectives": "贝尔法斯特女王大学电子学理学硕士（含专业实习）项目旨在引导学生深入了解并研究微电子学、传感器、信号处理、硬件和软件设计、通信、数字系统等高级电子学科。项目为学生精心安排了为期12个月的行业带薪专业实习，以期提高学生知识运用能力、培养学生学术素养。此外，专业实习将帮助学生深入了解电子学特定方向，提高学生核心工程技能，培养学生技术领导能力。学生毕业后可在以下多个领域工作：电力与可再生能源、微电子与纳米电子、高级电气与电子工程设计、数字与无线通信、航空航天、制造、过程控制及IT产品设计等。项目课程旨在促进学生的学术与职业发展，培养学生前瞻性思维、创新意识、领导能力与沟通能力，全面提高学生解决电子学领域各项问题的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字信号处理 (Digital Signal Processing)\n短波通信设计 (High Frequency Communication Design)\n智能系统与控制 (Intelligent Systems and Control)\n微机电元件和技术 (MEMS Devices and Technology)\n无线通信系统 (Wireless Communication Systems)\n无线传感器系统 (Wireless Sensor Systems)\n智能电网 (Smart Grids)\n可持续能源系统 (Sustainable Energy Systems)",
+  "success_cases": ""
+}

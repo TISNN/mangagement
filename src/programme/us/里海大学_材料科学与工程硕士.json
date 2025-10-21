@@ -1,0 +1,12 @@
+{
+  "school_name": "里海大学",
+  "major_name": "材料科学与工程硕士",
+  "ename": "MS in Materials Science and Engineering",
+  "tags": "工科,材料",
+  "introduction": "专业方向: 材料\n项目类别: STEM\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 45,000美元/年",
+  "requirements": "相关工程、材料专业背景",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡管理大学",
+  "major_name": "全球金融硕士双学位（新加坡管理大学-圣路易斯华盛顿大学）",
+  "ename": "Double Degree Global Master of Finance (SMU-WUSTL)",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 7月\n项目时长: 1年\n项目学费: 118070新币/年",
+  "requirements": "SMU：\n- 具有学士学位\n- 该课程专为应届毕业生设计，不要求具备工作经验\nWUSTL：\n- 需要提交职业论文\nSMU学费34,880新币，WUSTL学费61,400美元",
+  "objectives": "为了满足金融行业的需求，新加坡管理大学李光前商学院与圣路易斯华盛顿大学开发出一种新的教育模式：全球金融硕士双学位（新加坡管理大学-圣路易斯华盛顿大学）双学位课程（GMF）。新加坡管理大学全球金融硕士双学位（新加坡管理大学-圣路易斯华盛顿大学）课程的学生还可以访问校友和实习联系人的互补网络，扩大职业发展前景。该课程面向国际研究生、希望转行金融行业的高管、希望提高应用金融知识的专业人士或希望攻读金融学位的应届毕业生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "期权与期货 (Options and Futures)\n衍生证券 (Derivative Securities)\n投资理论 (Investment Theory)\n高级公司财务—价值评估 (Advanced Corporate Finance I-Valuation)\n经济分析 (Economic Analysis)\n财务报表分析（一） (Financial Statement Analysis 1)\n财务报表分析（二） (Financial Statement Analysis 2)\n数量方法与统计学 (Quantitative Methods and Statistics)\n高级数量与经济分析 (Advanced Quantitative & Economic Analysis)\n高级股权分析 (Advanced Equity Analysis)\n固定收益分析 (Fixed Income Analysis)\n财务报表分析（三） (Financial Statement Analysis 3)\n金融建模 (Financial Modelling)\n私人股本及风险资本投资 (Private Equity & Venture Capital Investing)\n结构性理财产品 (Structured Products)",
+  "success_cases": ""
+}

@@ -1,0 +1,81 @@
+import React from 'react';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import App from './App';
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
+import ForgotPasswordPage from './pages/ForgotPasswordPage';
+
+// 导入网站页面
+import Layout from './website/Layout';
+import HomePage from './website/HomePage';
+import AboutPage from './website/AboutPage';
+import PricingPage from './website/PricingPage';
+import ContactPage from './website/ContactPage';
+
+// 导入管理员页面
+import DashboardPage from './pages/admin/DashboardPage';
+import EmployeeManagementPage from './pages/admin/EmployeeManagementPage'; 
+import TaskManagementPage from './pages/admin/TaskManagement';
+import StudentsPage from './pages/admin/StudentsPage/StudentsPage';
+import StudentDetailPage from './pages/admin/StudentsPage/StudentDetailPage';
+import ApplicationsPage from './pages/admin/ApplicationsPage';
+import ApplicationDetailPage from './pages/admin/ApplicationDetailPage';
+import LeadsPage from './pages/admin/LeadsPage';
+import LeadDetailPage from './pages/admin/LeadDetailPage';
+import MentorsPage from './pages/admin/MentorsPage';
+import InterviewPage from './pages/admin/InterviewPage';
+import CaseStudiesPage from './pages/admin/CaseStudiesPage';
+import ContractsPage from './pages/admin/ContractsPage';
+import SocialMediaPage from './pages/admin/SocialMediaPage';
+import FinancePage from './pages/admin/FinancePage';
+import SettingsPage from './pages/admin/SettingsPage';
+import SchoolAssistantPage from './pages/admin/SchoolAssistantPage';
+
+// 导入路由保护组件
+import { PrivateRoute } from './components/PrivateRoute';
+
+const AppRoutes: React.FC = () => {
+  return (
+    <Routes>
+      {/* 网站主页路由 */}
+      <Route path="/" element={<Layout><HomePage /></Layout>} />
+      <Route path="/about" element={<Layout><AboutPage /></Layout>} />
+      <Route path="/pricing" element={<Layout><PricingPage /></Layout>} />
+      <Route path="/contact" element={<Layout><ContactPage /></Layout>} />
+      
+      {/* 认证相关路由 */}
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/register" element={<RegisterPage />} />
+      <Route path="/forgot-password" element={<ForgotPasswordPage />} />
+      
+      {/* 管理系统路由 - 需要登录才能访问 */}
+      <Route path="/admin" element={<PrivateRoute><App /></PrivateRoute>}>
+        {/* 默认重定向到控制台 */}
+        <Route index element={<Navigate to="/admin/dashboard" replace />} />
+        
+        {/* 管理员路由 */}
+        <Route path="dashboard" element={<DashboardPage />} />
+        <Route path="employees" element={<EmployeeManagementPage />} />
+        <Route path="tasks" element={<TaskManagementPage />} />
+        <Route path="students" element={<StudentsPage />} />
+        <Route path="students/:studentId" element={<StudentDetailPage />} />
+        <Route path="applications" element={<ApplicationsPage />} />
+        <Route path="applications/:id" element={<ApplicationDetailPage />} />
+        <Route path="leads" element={<LeadsPage />} />
+        <Route path="leads/:id" element={<LeadDetailPage />} />
+        <Route path="mentors" element={<MentorsPage />} />
+        <Route path="interview" element={<InterviewPage />} />
+        <Route path="cases" element={<CaseStudiesPage />} />
+        <Route path="contracts" element={<ContractsPage />} />
+        <Route path="social" element={<SocialMediaPage />} />
+        <Route path="finance" element={<FinancePage />} />
+        <Route path="school-assistant" element={<SchoolAssistantPage />} />
+        
+        
+        <Route path="settings" element={<SettingsPage />} />
+      </Route>
+    </Routes>
+  );
+};
+
+export default AppRoutes; 

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "计算机科学理学硕士",
+  "ename": "MSc Computer Science",
+  "tags": "工科,计算机,工程科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有2:1英国学士学位或同等学历，需要非计算机科学或信息技术的学科背景，申请中应包括证明适当数学技能（至少达到数学A-level标准）和分析技能的证据，尽管该课程是针对没有过计算机科学经验的学生的，但申请者必须确保自己具备标准的计算思维能力，因为编程是该课程的核心部分",
+  "objectives": "伦敦大学学院计算机科学理学硕士项目使学生均衡发展计算机科学理论知识和实用软件工程技能，包含为满足产业或研究客户需求进行团队合作。伦敦大学学院计算机科学理学硕士项目的毕业生或是就职于信息技术产业，或是利用计算机科学知识完善本科学位的学习，从而从事于跨学科工作或进行博士研究。\n在伦敦大学学院计算机科学理学硕士项目中，学生将学习计算机体系结构、操作系统、编译程序、数据结构和算法等课程，从而掌握计算机运行的基本知识。除此之外，学生还将掌握一些诸如人机交互、应用设计、数据库及软件工程等领域的实用知识，提升运用现代语言编程的技能，如运用面向对象的Java开发安卓客户端。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": " 数据库和信息管理系统 (Database and Information Management Systems)\n 设计 (Design)\n入门编程 (Introductory Programming)\n架构和硬件 (Architecture and Hardware)\n算法 (Algorithmics)\n人工智能和神经网络 (Artificial Intelligence and Neural Networks)\n创业：理论和实践 (Entrepreneurship: Theory and Practice)\n函数式程序设计 (Functional Programming)\n交互设计 (Interaction Design)\n软件工程 (Software Engineering)\n项目管理 (Project Management)",
+  "success_cases": ""
+}

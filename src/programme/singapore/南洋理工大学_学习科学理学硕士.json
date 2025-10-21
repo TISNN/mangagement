@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "学习科学理学硕士",
+  "ename": "MSc Science of Learning",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 1月\n项目时长: 1年\n项目学费: 49050新币/年",
+  "requirements": "具有以下领域的学士学位：心理学、教育学、神经科学、认知科学、学习科学，或科学/技术相关领域（如工程、科学），或数学/统计学；或\n具有学士学位以及相关工作经验，偏好K-12教育、教师专业发展、继续教育和培训或其他相关成人教育；或\n具有相关的南洋理工大学FlexiMasters且成绩优秀，并具备相关工作经验，偏好K-12教育、教师专业发展、继续教育和培训或其他相关成人教育。",
+  "objectives": "生物学和神经科学的进步展示了我们的大脑和认知发展是如何受到学习经验和环境的影响的。南洋理工大学学习科学理学硕士是一个独特的跨学科课程，学生将获得强大的学习科学基础，并了解神经科学、认知科学、认知科学的最新进展。技术涉及教育的基本问题——人们如何学习，以及我们可以用来优化学习的工具。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学习科学基础 (Foundations in Science of Learning)\n学习科学：研究方法 (Science of Learning: Research Methods)\n学习科学学习分析 (Learning Analytics for Science of Learning)\n教育神经科学：原理、观点、实践 (Educational Neuroscience: Principles, Perspectives, Practices)\n人工智能与神经科学交叉教育 (Education at the Intersection of Artificial Intelligence and Neuroscience)\n翻译教育神经科学 (Translating Educational Neuroscience)\n大脑、行为、认知 (Brain, Behaviour, Cognition)\n综合项目 (Integrative Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "免疫学与免疫治疗理学硕士",
+  "ename": "MSc Immunology and Immunotherapy",
+  "tags": "社科,医学,医学，医学科学与营养学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要免疫学背景或其他生物科学学位",
+  "objectives": "阿伯丁大学免疫学与免疫治疗理学硕士旨在提高学生对免疫学以及免疫疗法的前沿领域的知识和经验，促进学生实践和分析研究技能的发展，并提高其就业能力和职业前景。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "基本技能-归纳法 (Basic Skills - Induction)\n应用统计学 (Applied Statistics)\n生物信息学 (Bioinformatics)\n免疫学概况 (Profiles of Immunology)\n分子遗传学 (Molecular Genetics)\n微生物学概论 (Introduction to Microbiology)\n宿主-病原体相互作用 (Host - Pathogen Interactions)\n生物药物发现 (Biologic Drug Discovery)\n研究教程 (Research Tutorials)\n基因与免疫 (Genes and Immunity)\n研究项目 (MSc Ims Research Project)",
+  "success_cases": ""
+}

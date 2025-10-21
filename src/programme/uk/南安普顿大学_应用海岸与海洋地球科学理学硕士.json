@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "应用海岸与海洋地球科学理学硕士",
+  "ename": "MSc Applied Coastal and Offshore Geoscience",
+  "tags": "工科,地球科学,海洋与地球科学学院，南安普顿国家海洋学中心",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31000英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要STEM学科背景，例如：物理科学、工程学、海洋学、海洋科学、地球科学、数学、物理地理学",
+  "objectives": "通过南安普顿大学应用海岸与海洋地球科学理学硕士课程的学生将了解与沿海和海上基础设施设计相关的沿海、海洋和海底行为，在应用地球科学方面发展有价值的技能，以应对诸如侵蚀、洪水和栖息地退化等危害。该课程毕业生将培养所需的技能，以应对海洋环境面临的复杂挑战和对资源需求的增加，能够设计和提供可持续的解决方案，支持向低碳、资源节约型和气候适应型经济和社会的过渡，发展作为团队创造适应性和可持续解决方案的能力，具备设计弹性海岸和海洋基础设施的经验，较强的数据收集和分析能力，以及沿海和海洋行为特征的知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "海岸地貌动力学 (Coastal Morphodynamics)\n海岸沉积物动力学 (Coastal Sediment Dynamics)\n海岸与海事工程 (Coastal and Maritime Engineering)\n洪水模拟与减灾 (Flood Modelling and Mitigation)\n关键技能与应用海岸海洋学 (Key Skills and Applied Coastal Oceanography)\n海洋工程与分析 (Offshore Engineering & Analysis)\n海平面上升与海岸管理 (Sea Level Rise and Coastal Management)\n海底勘探与测量 2 (Seafloor Exploration and Surveying 2)\n理学硕士研究项目 (MSc Research Project)",
+  "success_cases": ""
+}

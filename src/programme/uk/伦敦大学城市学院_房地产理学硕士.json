@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "房地产理学硕士",
+  "ename": "MSc Real Estate",
+  "tags": "商科,房地产,贝叶斯商学院",
+  "introduction": "专业方向: 房地产\n入学时间: 9月\n项目时长: 1年\n项目学费: 28200英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历\n本课程不要求具备工作经验",
+  "objectives": "伦敦大学城市学院房地产理学硕士涵盖了房地产核心技能的组合–数据分析，评估，投资，资产管理和理解房地产市场中的定量方法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "评估原则 (Principles of Appraisal)\n应用数据分析 (Applied Data Analysis)\n资产和资金管理 (Asset and Fund Management)\n经济与市场分析 (Economics and Market Analysis)\n应用评估 (Applied Appraisal)\n财务建模 (Financial Modelling)\n应用估价和税收 (Applied Valuation and Taxation)\n房东和房客法 (Landlord and Tenant Law)\n投资工具和投资组合 (Investment Vehicles and Portfolios)\n发展与规划 (Development and Planning)\n建筑项目管理与采购 (Building Project Management and Procurement)\n项目管理，专业实践导论 (Project Management, an Introduction for Professional Practice)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "公共卫生学硕士",
+  "ename": "Master of Public Health",
+  "tags": "社科,公共卫生,医学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 27150英镑/年",
+  "requirements": "具有2:1学位或同等学历",
+  "objectives": "诺丁汉大学公共卫生学硕士课程由国际知名的流行病学家和专家授课，为学生提供公共卫生的理论知识和实用技能。从健康保护到健康和生活方式行为选择，再到流行病学等更具体的领域，学生将学习改善我们人口健康所需的技能。在方法技能、研究和实地支持下，学生将获得将公共卫生问题付诸实践的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文写作 (Dissertation )\n规划和评估公共卫生干预 (Planning and Evaluating Public Health Interventions )\n医学统计 (Medical Statistics)\n流行病学 (Epidemiology)\n公共卫生基础 (Fundamentals of Public Health)\n公共卫生研究方法 (Research Methods for Public Health)\n卫生经济学（视频） (Health Economics (video))\n健康促进 (Health Promotion)\n卫生系统加强 (Health Systems Strengthening)\n全球卫生 (Global Health )\n高级医学统计 (Further Medical Statistics)\n定性方法和分析（视频） (Qualitative Methodology and Analysis (video))\n控烟干预（视频） (Tobacco Control Interventions (video))\n健康与疾病社会学（视频） (Sociology of Health and Illness (video))\n流行病学的数据组织和管理：stata软件的实践课程（视频） (Data Organisation and Management in Epidemiology (DOME): A Practical Course in Stata (video))",
+  "success_cases": ""
+}

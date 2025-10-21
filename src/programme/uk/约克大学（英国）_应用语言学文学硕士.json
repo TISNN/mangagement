@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "应用语言学文学硕士",
+  "ename": "MA Applied Linguistics",
+  "tags": "社科,语言,语言及语言科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:2学位或同等学历",
+  "objectives": "约克大学应用语言学文学硕士人们在现实世界中如何使用和习得语言以及如何利用语言解决现实生活问题\n；生命各个阶段中语言的发展、习得和学习以及互动构成了不断创新的迷人而复杂的研究领域。\n在约克大学应用语言学文学硕士中，您学生将发现一系列用于研究社交互动中语言发展和语言使用的理论和方法，包括双语和多语、第二语言习得和处理、语言消耗和多模态对话分析。\n该计划提供应用语言学内两个独特的专业领域：语言发展和对话分析。您可以选择专攻其中一种途径，或在整个课程中同时学习两种途径。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用语言学研究基础 (Foundations of Applied Linguistics Research)\n对话分析 (Conversation Analysis )\n第一和第二语言习得 (First and Second Language Acquisition)\n句法 (Syntax)\n语音学和音系学 (Phonetics and Phonology)\n高级语音学 (Advanced Phonetics)\n高级音系学 (Advanced Phonology)\n语言的变异和变化 (Language Variation and Change)\n语义学 (Semantics)\n科研培训研讨会 (Research Training Seminar)\n多模态 (Multimodality)\n语言发展和年龄 (Language Development and Age )\n多模态对话分析中的定向阅读 (Directed Readings in Multimodal Conversation Analysis)\n工作中谈话 (Talk at Work)\n第二语言习得的语言学方法 (Linguistic Approaches to Second Language Acquisition)\n语音发展 (Phonological Development)\n神经语言学：语言与大脑 (Neurolinguistics: Language & the Brain)\n定量方法 (Quantitative Methods)\n论文 (Dissertation)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "弗吉尼亚大学",
+  "major_name": "商务硕士-商业分析方向",
+  "ename": "M.S. in Commerce–Business Analytics Track",
+  "tags": "商科,商业分析",
+  "introduction": "专业方向: 商业分析\n项目类别: STEM\n入学时间: 秋季\n项目时长: 10个月\n项目学费: 46780美元\n项目规模: 71人\n国际学生: 64%\n男女比例: 66:34\n就业比例: 98%\n平均起薪: 88944美元",
+  "requirements": "先修课：财务会计概论,微观经济学导论,统计学概论",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

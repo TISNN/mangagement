@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "安全与数据科学理学硕士",
+  "ename": "MSc Security and Data Science",
+  "tags": "理科,数据科学,工程、数学与物理科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 25300英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，且成绩达到53%或以上，需要社会科学或人文学科领域（包括商业和管理）背景学校欢迎high 2:2学位或同等学历，来自相当于学位水平的不同学术背景，或有相关工作经验的申请者申请",
+  "objectives": "埃克塞特大学安全与数据科学理学硕士项目将根据当代新兴技术发展学生对安全威胁形势的了解，特别是与数据和人工智能 (AI) 的作用相关的知识。具体来说，学生将了解这些变化的性质，恶意行为者以及安全、国防和执法组织如何适应这些技术带来的威胁和机遇。除此之外，学校还将向学生介绍数据科学的跨学科领域，这将使学生能够从数据中获得可操作的见解。\n这项工作不需要任何数据或计算方面的知识或经验，旨在为学生提供安全、国防和执法机构越来越需要的未来员工所掌握的特定实用数据技能。通过这样做，学校将确保学生拥有必要的领域特定知识和技术技能，以了解此类技术发展在当前和未来安全威胁环境中带来的机遇和威胁，并具备在这些领域寻求职业的独特优势。\n虽然必修课程将涵盖诸如新技术如何在国土安全和预防犯罪等领域发挥作用，以及当它们被极端组织或其他国家使用时可能带来的威胁以及在这种背景下处理数据等问题，但学生可以根据自己的兴趣和职业抱负定制课程，一系列可选课程涵盖全球安全和社会数据科学机器学习等主题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "安全、人工智能与新兴技术 (Security, Artificial Intelligence and Emerging Technologies\t)\n计算社会科学1 (Computational Social Science 1\t)\n计算社会科学2 (Computational Social Science 2\t)\n政策分析：论文或研究咨询项目 (Policy Analytics: Dissertation or Research Consultancy Project\t)\n统计建模 (Statistical Modelling\t)\n社会数据科学的机器学习 (Machine learning for social data science\t)\n数据可视化 (Data Visualisation\t)\n世界政治中的冲突、安全与发展 (Conflict, Security and Development in World Politics\t)\n文本即数据 (Text as Data\t)\n数字政治与政策 (Digital Politics and Policy\t)\n全球安全 (Global Security\t)\n在当代世界应用战略 (Applied Strategy in the Contemporary World\t)\n调查与实验：设计、实施与分析 (Surveys and Experiments: Design, Implementation and Analysis\t)\n数据治理与伦理 (Data Governance and Ethics\t)\n开源情报简介（OSINT） (Introduction to Open-source Intelligence (OSINT)\t)\n网络犯罪 (Cybercrime\t)\n绘制社会世界：社会科学空间分析导论 (Mapping the Social World: Introduction to Spatial Analysis in the Social Sciences\t)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "市场营销学理学硕士",
+  "ename": "MSc Marketing",
+  "tags": "商科,市场营销,商学院",
+  "introduction": "专业方向: 市场营销\n入学时间: 9月\n项目时长: 1年\n项目学费: 360000港币/年",
+  "requirements": "具有学士学位或同等学历，不强制要求提供GMAT/GRE，但具备良好的GMAT/GRE成绩的申请者将被优先考虑",
+  "objectives": "香港大学市场营销硕士学位课程是一年制的全日制项目，课程将传统的营销理念和策略与最新的数字分析相结合。香港大学市场营销硕士学位提供全面的课程，结合市场营销的见解、分析工具和决策框架，学生将学习全球顶级公司以及香港、中国大陆和其他地区的本地公司的最佳做法。重点是学习如何理解数据并将其转化为营销决策。大量真实的商业案例将被用来说明营销概念和理论，学生将被要求在练习和项目中应用所学的理论和概念。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用市场研究与度量 (Applied Marketing Research and Metrics)\n消费者洞察 (Consumer Insights)\n营销管理 (Marketing Management)\n互联网营销 (Marketing on the Internet)\n根据消费者洞察行动：通过案例分析与体验学习项目学习 (Acting on Consumer Insights: Learning Through Case Analysis and Experiential Learning Projects)\n广告与整合营销传播 (Advertising and Integrated Marketing Communication)\n算法、大数据与网上市场 (Algorithms, Big Data and Online Marketplaces)\n大数据消费者分析 (Big Data Consumer Analytics)\n品牌战略 (Branding Strategy)\n商务模拟 (Business Simulation)\n客户管理 (Customer Management)\n营销组织的数字化转型 (Digital Transformation for Marketing Organizations)\n创业营销 (Entrepreneurial Marketing)\n环境、社会与公司治理和社会影响营销 (ESG and Marketing for Social Impact)\n市场策略模拟 (Marketing Strategy Simulation)",
+  "success_cases": ""
+}

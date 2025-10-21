@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "岩土工程理学硕士",
+  "ename": "MSc Geotechnical Engineering",
+  "tags": "工科,土木工程,工程、数学与物理科学学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 28600英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要科学、地球或环境科学、工程或数学等相关专业背景",
+  "objectives": "埃克塞特大学岩土工程理学硕士项目旨在带领学生学习岩石工程，现场调查，数据采集和数据分析方面的知识，使学生了解扩大挖掘和复杂地下空间给挖掘工作带来的问题。适合想要从事建筑，环境和采掘业工作的学生申请。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目和论文 (Project and Dissertation)\n挖掘和地质力学 (Excavation and Geomechanics)\n水文 (Hydrogeology)\n地理信息系统和遥感 (GIS and Remote Sensing)\n采掘业的健康与安全 (Health and Safety in the Extractive Industry)\n项目管理 (Project Management)\n表面挖掘设计 (Surface Excavation Design)\n矿山规划与设计 (Mine Planning and Design)\n地下挖掘设计 (Underground Excavation Design)\n土壤污染和水污染 (Soil and Water Contamination)\n地下建筑 (Underground Construction)\n实地调查：包括近地表地球物理 (Site Investigation Including Near Surface Geophysics)",
+  "success_cases": ""
+}

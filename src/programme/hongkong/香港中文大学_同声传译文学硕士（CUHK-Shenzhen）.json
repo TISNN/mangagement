@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "同声传译文学硕士（CUHK-Shenzhen）",
+  "ename": "MA Simultaneous Interpreting (CUHK-Shenzhen)",
+  "tags": "社科,语言,深圳校区",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 2年\n项目学费: 130000人民币/年",
+  "requirements": "不限专业背景\n毕业于认可的大学并获得学士学位，需要提供B等级证明\n或在高等教育机构完成了学业并且获得了与荣誉学位相当的职业资格或类似资格\n对翻译抱有浓厚兴趣，并具备一定学术基础",
+  "objectives": "香港中文大学（深圳）同声传译硕士项目培养学生掌握高水平的语言及交流能力，能够从事专业的高级传译（交传和同传）工作。修完课程后，学生应该还拥有终生学习的基本技能，具有国际化视野，良好的品格以及致力于服务社会的精神。经本课程培训后，毕业生将会成为极具竞争力的同声传译研究型学位的候选人。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "汉英同声传译 (Foundation in Chinese to English Simultaneous Interpreting)\n英汉同声传译 (Foundation in English to Chinese Simultaneous Interpreting)\n汉英交替传译基础 (Foundation in Chinese to English Consecutive Interpreting)\n英汉交替传译基础 (Foundation in English to Chinese Consecutive Interpreting)\n翻译与传译研究方法 (Approaches to Translation and Interpreting Studies)\n模拟会议（二） (Practicum 2)\n专业实习 (Internship)\n经贸同声传译 (Simultaneous Interpreting for Economics and Trade)\n经贸交替传译 (Consecutive Interpreting for Economics and Trade)\n科技同声传译  (Simultaneous Interpreting for Science and Technology)\n公共事务交替传译 (Consecutive Interpreting for Public Affairs)\n国际关系同声传译 (Simultaneous Interpreting for International Relations)\n模拟会议（一） (Practicum 1)\n基于信息技术的翻译与传译 (Information Technologies for Translation and Interpreting)\n翻译与传译的交流技巧 (Communication Skills for Translators and Interpreters)",
+  "success_cases": ""
+}

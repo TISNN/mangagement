@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "语言学文学硕士",
+  "ename": "MA Linguistics",
+  "tags": "社科,语言,人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 40330新币/年",
+  "requirements": "具有良好的学士学位\n不需要具备先前的语言学课程工作或培训经验",
+  "objectives": "语言学是对语言的科学研究，其中有许多学科交叉。例如，心理学和语言学领域在人们如何习得语言的问题上结合在一起；神经科学和语言学一起研究语言功能及其神经关联；社会学为不同群体和地方的语言使用差异提供了语言学分析。南洋理工大学语言学文学硕士课程在更深层次上提供了语言和交流这些元素的全面教育，旨在让学生进一步发展他们对各种语言子专业的兴趣和理解，并鼓励他们在语言学及相关学科方面建立全面的理论基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语言学概论 (Introduction to Linguistics)\n心理语言学研究方法 (Research Methods in Psycholinguistics)\n语言障碍 (Language Disorders)\n神经语言学 (Neurolinguistics)\n语言发展 (Language Development)\n多语言与认知 (Multilingualism and Cognition)\n传播科学 (Communication Sciences)\n阅读与写作能力 (Reading and Literacy)\n社会语言学研究方法 (Research Methods in Sociolinguistics)\n调查论述 (Investigating Discourse)\n社会语言学 (Sociolinguistics)\n多语言的社会 (Multilingual Societies)\n世界的各种英语 (Englishes around the World)\n过去与现在的语言 (Languages Then and Now)\n语言与技术 (Language and Technology)\n音响结构 (Structure of Sounds)\n词汇结构 (Structure of Words)\n语义结构 (Structure of Meaning)\n句子结构 (Structure of Sentences)\n相互作用结构 (Structure of Interaction)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "智能机器人理学硕士",
+  "ename": "MSc Intelligent Robotics",
+  "tags": "工科,电气电子,电子工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 31900英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要计算机科学、计算机科学/数学联合荣誉、电子工程、机械工程或其他相关学科背景，学校愿意考虑学历较低的申请者，特别是当学生在相关课程中取得高分或具备适当行业经验时。",
+  "objectives": "机器人正在兴起，它们存在于日常生活的许多领域，包括自动运输、农业机械、医疗和环境应用以及物流，而开发能够适应和从经验中学习的机器人是机器人行业的目标，该项目处于研究开发的前沿。约克大学智能机器人理学硕士项目将为学生提供成为这个不断扩大的领域的领军人物所需的工具和技能，为他们在机器人和自主系统以及相关行业的就业做好准备，并使学员们能够进一步研究智能机器人。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "实用机器人 (Practical Robotics)\n机器人控制系统工程 (Control Systems Engineering for Robotics)\nC语言编程 (C Programming)\n群体智能 (Swarm Intelligence)\n数据通信技术 (Data Communication Techniques)\n嵌入式设备系统编程 (Systems Programming for Embedded Devices)\n神经网络 (Neural Networks)\n智能机器人系统批判性评价 (Critical Evaluation of Intelligent Robotic Systems)\n小组机器人项目 (Group Robotics Project)",
+  "success_cases": ""
+}

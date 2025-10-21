@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "应用数学理学硕士",
+  "ename": "MSc Applied Mathematics",
+  "tags": "理科,数学,数学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 34500英镑/年",
+  "requirements": "通常具有良好的荣誉学位或同等学历，需要数学或数学相关学科背景并且相关课程成绩优秀\n（详细背景要求见：http://documents.manchester.ac.uk/DocuInfo.aspx?DocID=44263）\n申请者如果是在读生，需要提供最后一年学习的课程列表及其学分权重",
+  "objectives": "曼彻斯特大学应用数学理学硕士项目旨在为学生提供前沿的理论知识，鼓励学生进行工业建模或数值分析等方面的专业研究，提高自身的研究与学习迁移能力，以便未来继续攻读博士学位，或达到职业发展的要求。并且，曼彻斯特大学应用数学理学硕士项目的师资力量强大，其研究主题涵盖广泛，具有高度跨学科性，涉及连续介质力学、分析与动力系统、工业与应用数学、逆问题、金融数学、数值分析与科学计算、生命科学中的数学、不确定性量化以及数据科学等内容，能满足学生多样化的学术需求。另外，曼彻斯特大学应用数学理学硕士项目的学业计划如下：首先，学生须完成五个核心模块课程，共计75个学分时；其次，学生需选修数值分析与工业建模领域内的三门课程，共计45个学分时；最后，学生需在导师的指导下完成一篇研究论文，共计60个学分。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数学方法（如MAGIC022） (Mathematical Methods (as MAGIC022))\nPDE：理论与实践（MAGIC058） (PDEs: Theory and Practice (MAGIC058))\n不确定度量化简介 (Introduction to Uncertainty Quantification)\n应用数学家的可转移技能 (Transferable Skills for Applied Mathematicians)\n科学计算 (Scientific Computing)\n应用动力系统 (Applied Dynamical Systems)\n先进的不确定度量化 (Advanced Uncertainty Quantification)\n连续力学 (Continuum Mechanics)\n运输现象与保护法 (Transport Phenomena and Conservation Laws)\n稳定性理论 (Stability Theory)\n逼近理论与有限元分析 (Approximation Theory and Finite Element Analysis)\n数值线性代数 (Numerical Linear Algebra)\n数值优化和反问题 (Numerical Optimization and Inverse Problems)",
+  "success_cases": ""
+}

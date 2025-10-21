@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "数字化学和人工智能与自动化理学硕士",
+  "ename": "MSc Digital Chemistry with AI and Automation",
+  "tags": "理科,化学,化学学院",
+  "introduction": "专业方向: 化学\n入学时间: 9月\n项目时长: 1年\n项目学费: 41300英镑/年",
+  "requirements": "具有2:1学位，需要化学、生物化学或化学工程背景 具有数据科学相关领域（如计算、应用数学和统计学）2:1学位的申请者，学校将根据具体情况进行考虑",
+  "objectives": "帝国理工学院数字化学和人工智能与自动化理学硕士项目旨在帮助学生了解自动化、人工智能和大数据的进步如何彻底改变化学研究，带领学生学习如何运用机器学习策略来解决化学、药物发现和材料科学领域的问题。帝国理工学院数字化学和人工智能与自动化理学硕士课程的学生将探索化学实践是如何经历一场革命的，还将分析数字分子设计如何将合成和制造从小分子转变为材料和疫苗，课程将培养学生对计算建模的理解，学生将研究通过它如何预测复杂分子和系统的行为，以及如何使用它来实时监控并行实验。学生将从数字化学范围内的广泛项目中进行选择，并建立实施机器学习策略的专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "化学数据分析 (Data Analytics in Chemistry)\n“黑客”化学家 (‘Hacking’ for Chemists)\n化学、药物发现与材料自动化   (Automation in Chemistry, Drug Discovery and Materials)\n数据科学与人工智能伦理   (Ethics in Data Science and Artificial Intelligence)\n期刊俱乐部 (Journal Club)\n化学中的人工智能：材料 (Artificial Intelligence in Chemistry: Materials)\n化学中的人工智能：药物发现 (Artificial Intelligence in Chemistry: Drug Discovery)\n实验设计（DoE） (Design of Experiments (DoE))\n化学创业与化学可持续创新 (Chemical Entrepreneurship and Sustainability Innovation in Chemistry)\n化学关键概念 (Key Concepts in Chemistry)\nPython编程 (Programming in Python)\n研究项目 (Research project)",
+  "success_cases": ""
+}

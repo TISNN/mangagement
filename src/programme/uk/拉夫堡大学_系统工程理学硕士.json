@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "系统工程理学硕士",
+  "ename": "MSc Systems Engineering",
+  "tags": "工科,机械工程,机械、电气和制造工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有荣誉学士学位，通常达到2:2或以上水平，理想情况下，申请者应该具有工程或物理科学本科学位 学校也欢迎成熟学生的申请，并认可所有其他同等和国际学历，学校可能会考虑不符合常规入学标准但具备大量相关工作经验的申请者",
+  "objectives": "本课程与工业界合作设计，旨在应对各种复杂工程系统之间相互依赖的挑战。本课程将使用先进的建模、模拟和交互式可视化工具和技术，以帮助学生更好地了解先进技术和复杂系统的性能、表现和突发性。学生将学习到先进的可视化技术，以增强模型和仿真的现实世界系统，包括使用驾驶舱模拟器来研究飞行员在面对压力时的行为以及对他们心理敏捷性的影响。本课程还鼓励学生使用基于系统的计算机工具，这些工具可以横跨所有模块。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用系统思维 (Applied Systems Thinking)\n系统架构 (Systems Architecture)\n集团系统项目 (Group Systems Project)\n传感器和执行器的控制 (Sensors and Actuators for Control)\n系统设计 (Systems Design)\n创新和企业家精神在工程 (Innovation and Entrepreneurship in Engineering)\n确认和验证 (Validation and Verification)\n整体工程 (Holistic Engineering)\n工程可持续发展 (Engineering for Sustainable Development)\n制造工艺和自动化 (Manufacturing Processes and Automation)\n工程设计方法 (Engineering Design Methods)",
+  "success_cases": ""
+}

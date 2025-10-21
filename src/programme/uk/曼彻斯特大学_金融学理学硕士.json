@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 36000英镑/年",
+  "requirements": "具有英国大学颁发的一等或2:1荣誉学位或同等学历（成绩达到2:1，均分60%）\n需要金融学或经济学学位，在学位期间必须修读过大量金融和定量课程（修读过会计课程不被视为修读过金融课程），申请者必须在最后一年主修或专攻金融学，并且需要在最后一年的金融学课程中取得优异成绩，还必须具备定量技能、计量经济学或数学方面的扎实背景\n学校可以考虑攻读工商管理学位的申请者，但必须能够在整个学位期间展示出非常强大的金融背景，并在最后一年主修或专攻金融学（如上所述），优先考虑具有金融学或经济学学士学位的申请者\n具有数学、统计学、物理学、工程学、精算或决策科学学位的申请者可以考虑申请MSc Quantitative Finance\n申请本课程不需要GMAT/GRE，但在某些情况下，如果申请者的学位没有包含足够的相关定量课程，招生团队可能会在对其申请进行初步审核后要求提供GMAT/GRE",
+  "objectives": "曼彻斯特大学金融学理学硕士学位课程涵盖学生在国际金融领域广泛就业或攻读博士学位所需的必要信息，包括衍生产品和投资、兼并与收购及全球市场。\n曼彻斯特大学金融学理学硕士学位课程使学生拥有远大前程，掌握备受雇主青睐的宝贵定量技能。在注重实证研究的毕业论文中，学生将详细探索所选择的感兴趣领域并得到高素质教员的全程支持。\n曼彻斯特大学金融学理学硕士学位课程的新近毕业生在全球四大金融服务公司、主要世界银行和金融机构就职。\n曼彻斯特大学金融学理学硕士学位课程是受英国经济和社会研究委员会认可的博士学位准备课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "横截面计量经济学 (Cross Sectional Econometrics)\n资产定价 (Asset Pricing)\n时间序列计量经济学 (Time Series Econometrics)\n企业融资 (Corporate Finance)\n衍生证券 (Derivative Securities)\n实证金融学的当前问题 (Current Issues in Empirical Finance)\n企业融资的实物期权 (Real Options in Corporate Finance)\n并购：经济与金融 (Mergers & Acquisitions: Economic & Financial)\n财务报表分析 (Financial Statement Analysis)\n证券投资 (Portfolio Investment)\n国际金融 (International Finance)\n定性研究方法 (Qualitative Research Methods)",
+  "success_cases": ""
+}

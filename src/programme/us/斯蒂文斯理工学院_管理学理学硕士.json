@@ -1,0 +1,12 @@
+{
+  "school_name": "斯蒂文斯理工学院",
+  "major_name": "管理学理学硕士",
+  "ename": "Master's Program in Management",
+  "tags": "商科,管理",
+  "introduction": "专业方向: 管理\n入学时间: 秋季/春季/夏季\n项目时长: 12个月\n项目学费: 43,528美元/年",
+  "requirements": "本科是科学、数学、计算机、工程或相关领域，平均等级达到B以上",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

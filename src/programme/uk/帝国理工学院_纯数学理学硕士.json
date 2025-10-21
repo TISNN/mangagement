@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "纯数学理学硕士",
+  "ename": "MSc Pure Mathematics",
+  "tags": "理科,数学,数学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 35700英镑/年",
+  "requirements": "具有2:1学位，需要数学或应用数学背景",
+  "objectives": "帝国理工学院纯数学理学硕士项目为期一年，向学生提供纯数学领域不同方面的培训，旨在培养学生一系列问题解决、项目工作和演示的数学能力。学生将有机会学习先进的核心纯数学主题与一系列专业的选修课，并在自己选择的领域开展一个独立的研究项目。帝国理工学院纯数学理学硕士项目的毕业生广泛就职于教育、研究、精算分析、风险分析、投资银行和管理咨询等行业。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "代数几何 (Algebraic Geometry)\n偏微分方程解析方法 (Analytic Methods in Partial Differential Equations)\n交换代数 (Commutative Algebra)\n复流形 (Complex Manifolds)\n微分拓扑 (Differential Topology)\n椭圆曲线算法 (Elliptic Curves)\n无限群 (Infinite Groups)\n李代数 (Lie Algebras)\n流形 (Manifolds)\n模块化形式 (Modular Forms)\n黎曼几何 (Riemannian Geometry)\n功能分析 (Functional Analysis)\n伽罗瓦理论 (Galois Theory)",
+  "success_cases": ""
+}

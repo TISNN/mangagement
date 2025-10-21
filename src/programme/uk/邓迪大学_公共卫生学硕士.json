@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "公共卫生学硕士",
+  "ename": "Master of Public Health",
+  "tags": "社科,公共卫生,医学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "具有2:1学位或同等学历，通常仅限于医学、牙科、护理和健康相关科学的毕业生。特殊情况下，没有第一学位的学生也可以被录取，但在这种情况下，他们应该具有专业资格并担任高级职位",
+  "objectives": "邓迪大学公共卫生学硕士项目注重培养学生流行病学、统计学和行为学技能，以助力其在公共健康领域的研究与实践活动。学生将学习如何设计并进行公共卫生研究，培养自身提高地方、国家、乃至全球社区健康水平的技能；同时加强自身通用与可转换技能。该项目师资队伍强大，不论学生志在公共卫生领域工作，抑或是读博深造，该项目都是理想的选择。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "临床统计学 (Clinical Statistics)\n流行病学 (Epidemiology)\n公共卫生 (Public Health)\n数据可视化 (Data Visualization)\n行为与社会科学 (Behavioural and Social Science)\n应用统计学与常规健康数据集 (Applied Statistics with Routine Health Datasets)\n临床试验统计学 (Statistics for Clinical Trials)\n研究方法 (Research Methods)\n空间流行病学 (Spatial Epidemiology)\n应用流行病学 (Applied Epidemiology)\n系统评价导论 (Introduction to Systematic Reviews)\n学位论文 (Dissertation)",
+  "success_cases": ""
+}

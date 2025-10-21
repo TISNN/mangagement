@@ -1,0 +1,12 @@
+{
+  "school_name": "伊利诺伊大学香槟分校",
+  "major_name": "机械工程工学硕士",
+  "ename": "MEng in Mechanical Engineering",
+  "tags": "工科,机械工程",
+  "introduction": "专业方向: 机械工程\n入学时间: 秋季/春季\n项目时长: 1年\n项目学费: 36798美元\n平均成绩: 3.25",
+  "requirements": "机械工程或其他工程学科、数学和物理背景",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

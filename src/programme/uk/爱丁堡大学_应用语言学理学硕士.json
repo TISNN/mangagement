@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "应用语言学理学硕士",
+  "ename": "MSc Applied Linguistics",
+  "tags": "社科,语言,哲学、心理学与语言科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要语言学背景，学校也可能考虑没有语言学学位但具备作为语言专业人士的大量实践经验的申请者",
+  "objectives": "爱丁堡大学应用语言学理学硕士项目实用性强，向学生传授能适用于专业领域的语言学知识和技能，并解释其在实践中的运作方式以及对现实生活的影响。爱丁堡大学是英国首个开始应用语言学理学硕士项目的高校，学生将受益于悠久的教学传统，在世界一流的专家带领下从事学术研究。\n学生将探究语言在不同社会环境下的应用，综合比较语言演进与社会多样性的关系，并考察语言知识是如何影响人们的日常生活的。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "社会语言研究设计 (Sociolinguistic Research Design)\n话语分析导论 (Introduction to Discourse Analysis)\n应用语言学议题 (Issues in Applied Linguistics)\n语言研究导论 (Introduction to Language Research)\n社会语言学专题 (Special Topics in Sociolinguistics)\n应用语言学与语言教学 (Applied Linguistics & Language Teaching)\n双语环境下的语言与身份 (Language and Identity in Bilingual Settings)\n语篇研究 (Discourse Studies)\n二语习得 (Second Language Acquisition)\n音系学与语音学导论 (Introduction to Phonology and Phonetics)\n全球英语 (Global Englishes)\n句法导论 (Introduction to Syntax)\n语言变异与变化 (Language Variation and Change)\n音系学导论 (Introduction to Phonology)\n语义学与语用学导论 (Introduction to Semantics and Pragmatics)",
+  "success_cases": ""
+}

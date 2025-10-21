@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "机械工程（高级）理学硕士",
+  "ename": "MSc Mechanical Engineering (Advanced)",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 10月\n项目时长: 1年\n项目学费: 30310英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要机械工程或相关学科或物理学背景\n学校也可能考虑具有2:2学位并且在相关领域具备丰富经验的非标准申请者，对于英国申请者来说，HND学位或同等学历以及适当行业经验也可能被考虑，需要联系学校获取更多信息\n在需要工程技能的技术岗位具备一些行业经验的申请者优先考虑（但非必需）",
+  "objectives": "机械工程结合了科学原理、数学和变现来设计、开发和实施针对当代问题的创新解决方案。兰卡斯特大学机械工程（高级）理学硕士课程将提高学生的技能，为其提供先进的学科知识，加速工程生涯。从设计髋关节置换和医院MRI扫描仪，到开发自动驾驶汽车和监测海上风电场的结构健康，机械工程对当代生活做出了巨大贡献，是许多行业进行创新的核心。兰卡斯特大学机械工程（高级）理学硕士课程通过了机械工程师协会的认证，课程涉及机械工程的高级主题和与工业相关的项目工作，学生将受益于专业领域内一些世界专家的教学、高标准的工作环境和网络机会，以扩大其职业前景。\n在兰卡斯特大学机械工程（高级）理学硕士这一年的课程中，学生将学习六个教学模块并承担一个主要的个人项目。这些将为学生提供先进的知识，同时让学生发展专业技能，使其能够利用国内和国外的许多高级工程和技术就业机会。学生也将熟悉应力分析，有限元分析和建模；可再生能源（包括风能、潮汐能和水力发电）；机构与机械设计；控制与自学系统；系统分析，高级材料与制造，人工智能在工程中的应用，以及其他主题。与此同时，学生将培养雇主普遍高度重视的能力，如解决问题的能力、分析能力和团队合作能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级CAD/CAM (Advanced CAD/CAM)\n系统的设计和建模 (Design and Modelling of Systems)\n论文（90 学分） (Dissertation (90 credits))\n产业链集团项目 (Industry-linked group project)\n先进材料 (Advanced Materials)\n智能系统控制 (Intelligent System Control)\n工程中的机器学习 (Machine Learning in Engineering)\n机械和执行器 (Mechanics and Actuators)\n微工程 (Microengineering)\n核燃料和能源转换 (Nuclear fuels and energy conversion)\n快速产品开发和增材制造 (Rapid Product Development and Additive Manufacturing)\n再生能源 (Renewable Energy)",
+  "success_cases": ""
+}

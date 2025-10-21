@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "计算机科学理学硕士",
+  "ename": "MSc Computer Science",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 29990英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要计算机科学或密切相关专业背景，需要具备编程语言（如Java, C, Python, C或JavaScript）实践经验",
+  "objectives": "圣安德鲁斯大学高级计算机科学理学硕士项目提供机会让具备坚实计算机科学背景的学生按照自己的兴趣以研究为导向深入学习计算机。圣安德鲁斯大学高级计算机科学理学硕士项目提供范围广泛的课程，涵盖人工智能、人机交互、互联网及分布式系统和软件工程等高级课题，学生可以灵活选择。\n圣安德鲁斯大学高级计算机科学理学硕士项目有以下亮点：\n该项目旨在让学生自由选择自己在计算机科学领域的兴趣。学生可以轻松转入学校提供的其他理学硕士项目。\n学生开展重要项目，课题包括广泛调查与大量软件开发，以及最终的论文。这些课题能够帮助他们巩固和扩展专业知识及批判性思维。\n学校设有现代化计算机实验室，实验室配备双屏计算机工作站及小组工作设施。学生有24小时访问现代化计算机实验室的权限。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士核心技能 (Masters Core Skills)\n面向对象的建模、设计和编程 (Object-Oriented Modelling、Design and Programming)\n硕士编程项目 (Masters Programming Projects)\n人工智能原理 (Artificial Intelligence Principles)\n人工智能实践 (Artificial Intelligence Practice)\n语言和计算 (Language and Computation)\n高级网络 (Advanced Networks)\n移动和无线网络 (Mobile and Wireless Networks)\n软件工程原理 (Software Engineering Principles)\n软件工程实践 (Software Engineering Practice)\n关键系统工程 (Critical Systems Engineering)\n软件架构 (Software Architecture)\n人机互动原理和方法 (Human Computer Interaction Principles and Methods)\n互动软件和硬件 (Interactive Software and Hardware)\n用户为中心的交互设计 (User-Centred Interaction Design)",
+  "success_cases": ""
+}

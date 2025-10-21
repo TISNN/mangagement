@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "电脑游戏技术与虚拟现实理学硕士",
+  "ename": "MSc Computer Games Technology with VR",
+  "tags": "工科,计算机,数学、计算机科学与工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 24050英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要包含大量计算内容的计算学科背景\n以前的学术和商业经验也被考虑在内，通常涉及编程",
+  "objectives": "伦敦大学城市学院电脑游戏技术与虚拟现实理学硕士课程旨在为学生提供一系列计算机游戏技术主题的高级知识和技能，以启动其职业生涯。如果学生是业内从业人员，本课程将帮助其进一步提升技能，助力学生在职场更上一层楼。本课程将帮助学生建立对该领域及其在整个游戏行业中的应用的透彻理解，课程结束时学生将拥有计算机图形学、人工智能、从头开始设计和构建游戏引擎的能力、游戏开发过程的知识以及规划、管理和完成主要游戏技术项目的经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "C++中的面向对象编程 (Object Oriented Programming in C++)\n研究方法与专业问题 (Research Methods and Professional Issues)\n游戏开发流程 (Games Development Process)\n计算机图形学 (Computer Graphics)\n电脑游戏架构 (Computer Games Architectures)\n虚拟现实开发 (Virtual Reality Development)\n软件系统设计 (Software Systems Design)\n高级游戏技术 (Advanced Games Technology)\n数字信号处理与音频编程 (Digital Signal Processing and Audio Programming)\n计算机视觉 (Computer Vision)\n深度强化学习 (Deep Reinforcement Learning)\n项目管理 (Project Management)\n神经计算 (Neural Computing)\n实践中的创业 (Entrepreneurship in Practice)\n论文 (Dissertation)\n工业实习与专业发展 (Industrial Placement and Professional Development )",
+  "success_cases": ""
+}

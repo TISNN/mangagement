@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "物联网理学硕士",
+  "ename": "MSc Internet of Things",
+  "tags": "工科,计算机,科技学院",
+  "introduction": "专业方向: 计算机\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "持有澳门大学认可的学士学位或同等学历。申请人也可能被要求具备其他知识或专业经验。申请人必须在学士学位学习中达到相当于C级或更高的总成绩",
+  "objectives": "应用计算和数学知识解决计算机科学学科中复杂计算问题的能力。将计算专业知识和适用于计算专业的领域知识应用于计算模型的抽象和概念化的能力。分析问题，识别和定义适合其解决方案的计算要求的能力。设计，实现和评估基于计算机的系统，过程，组件或程序，以满足公众健康与安全，社会和环境方面的适当考虑，从而满足所需需求的能力。在团队中有效运作以实现共同目标的能力。对专业，道德，法律，安全和社会问题及责任的理解。与众多受众进行有效沟通的能力。分析计算对个人，组织和社会的本地和全球影响的能力。认识到持续职业发展的必要性和能力。在了解限制的情况下使用计算实践所需的当前技术，技能和工具的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "物联网简介 (Introduction to Internet of Things)\n应用概率与统计高级主题 (Advanced Topics in Applied Probability and Statistics)\n射频识别原理及应用 (RFID Principle and Applications)\n先进的物联网集成电路设计 (Advanced Integrated Circuit Design for Internet of Things)\n物联网应用的嵌入式系统 (Embedded Systems for Internet of Things Applications)\n计算机网络和互联网 (Computer Networks and Internet)\n电信高级专题 (Advanced Topics in Telecommunications)\n通信系统的建模和理论分析 (Modeling and Theoretical Analysis for Communications Systems)\n物联网高级专题 (Advanced Topics in Internet of Things)\n云计算 (Cloud Computing)\n数据挖掘和决策支持系统 (Data Mining and Decision Support Systems)\n人工智能原理 (Principles of Artificial Intelligence)\n大数据处理与分析 (Big Data Processing and Analysis)\n物联网应用的凸优化 (Convex Optimization for Internet of Things Applications)\n物联网数据分析 (Data Analysis for Internet of Things)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "行为科学理学硕士",
+  "ename": "MSc Behavioural Science",
+  "tags": "社科,社会学与社工,心理学院",
+  "introduction": "专业方向: 社会学与社工\n入学时间: 9月\n项目时长: 1年\n项目学费: 32500英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要心理学、经济学、商业或相关学科背景",
+  "objectives": "杜伦大学行为科学理学硕士项目旨在帮助学生了解影响行为的因素，包括“劝导”在行为改变中的作用，以及从行为角度分析商业问题的研究和分析技能。它将为学生提供广泛的知识（包括理论和实践的性质）和可转移的技能，包括传播知识的各种专业方法。\n杜伦大学行为科学理学硕士项目课程将为那些打算进入公共、私人或第三部门（包括商业、慈善机构、政府、地方当局和国际组织）的学生提供将行为原则应用于这些领域的问题解决和决策制定的工具。它将提供行为洞察，以帮助个人建立信心，影响他人，思考和跨文化合作，设定和实现目标，谨慎地谈判，并有效地团队合作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "行为科学高级主题 (Advanced Topics in Behavioural Science)\n批判研究实践 (Critical Research Practice)\n心理学与行为科学统计学 (Statistics for Psychology and the Behavioural Sciences)\n心理学与行为科学高级统计学 (Advanced Statistics for Psychology and the Behavioural Sciences)\n论文 (Dissertation)\n权力与影响 (Power and Influence)\n实践中的多样性与包容性 (Diversity and Inclusion in Practice)\n公共政策的行为洞察 (Behavioural Insights for Public Policy)",
+  "success_cases": ""
+}

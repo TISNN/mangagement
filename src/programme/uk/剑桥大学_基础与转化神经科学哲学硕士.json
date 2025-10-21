@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "基础与转化神经科学哲学硕士",
+  "ename": "MPhil Basic and Translational Neuroscience",
+  "tags": "理科,生物,生理学、发育与神经科学学系",
+  "introduction": "专业方向: 生物\n入学时间: 10月\n项目时长: 1年\n项目学费: 38196英镑/年",
+  "requirements": "申请者应该具有英国High II.i荣誉学位或同等学历\n申请者应该已经或能够在与课程相关的任何学科（包括神经科学、生理学、药理学、心理学、生物化学、分子生物学、遗传学、医学、统计学、流行病学、物理学、化学、工程、数学和相关学科）中获得至少upper second-class荣誉学位或同等学历",
+  "objectives": "剑桥大学基础与转化神经科学哲学硕士课程特别针对那些希望为以后的博士研究做准备的人，临床医生和其他想要研究生水平研究培训但可能不需要或不适合获得完整博士学位的人，以及计划从事转化神经科学职业的毕业生，包括制药行业的职业。学生将接受基础和转化神经科学研究培训的结构化哲学硕士课程。这一为期一年的全日制研究培训课程的目标如下：让学生体验研究工作；使他们接触各种实验室环境，以及研究人员所需的自给自足和团队合作的平衡；向他们介绍研究所需的实验设计、项目管理、时间管理等基本技能；使学生熟悉实验室研究的实践性，使学生了解实验室研究的性质、记录保存和数据处理以及良好的实验室实践；向学生介绍理解其研究并将其背景化所需的基本分析技术；使学生熟悉基本的科学写作和演讲技巧。本课程特有的其他目标将是：通过提供具有神经科学基本概述的教学模块，吸引来自不同背景的学生进入神经科学；为学生提供神经科学方法、数据分析和统计技术方面的全面培训；让学生对神经科学有必要的基本但广泛的理解，为他们将来的博士研究做好准备；为学生提供足够的神经科学研究经验，使他们能够根据自己的意愿选择博士项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "MATLAB编程实用入门 (Practical introduction to MATLAB Programming)\n生物学家的统计方法 (Statistical Methods for Biologists)\n认知心理学家的统计方法 (Statistical Methods for Cognitive Psychologists)\n发展神经科学 (Developmental Neuroscience)\n细胞与分子神经科学 (Cellular and Molecular Neuroscience)\n认知和行为神经科学 (Cognitive and Behavioural Neuroscience)\n临床与兽医神经科学 (Clinical and Veterinary Neuroscience)\n系统与计算神经科学 (Systems and Computational Neuroscience)",
+  "success_cases": ""
+}

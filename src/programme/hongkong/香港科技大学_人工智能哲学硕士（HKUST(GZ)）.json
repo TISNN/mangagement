@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "人工智能哲学硕士（HKUST(GZ)）",
+  "ename": "MPhil Artificial Intelligence (HKUST(GZ))",
+  "tags": "工科,计算机,香港科技大学（广州）",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 2年\n项目学费: 150000人民币/年",
+  "requirements": "具有认可机构颁发的学士学位或同等学历",
+  "objectives": "人工智能推力依托科大强大的研究背景，致力于人工智能的基础和应用研究。我们的目标是培养具有较强专业技能、跨学科能力和国际视野的高水平研究和应用人才。我们的高素质教师团队积极推动跨学科研究，并努力建立一个立足大湾区、面向国际、以科大为品牌的人工智能研究生态系统。我们在这里设想一个人才孵化器、一个创新中心、一个梦想孵化场和一个未来的启蒙者。研究型硕士（MPhil）课程旨在培养学生在人工智能方面的独立和跨学科研究。哲学硕士毕业生应展示该学科的良好知识，并能够综合和创造新知识，为该领域做出贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机视觉及其应用 (Computer Vision and Its Applications)\n数据挖掘的基础 (Foundations of Data Mining)\n使用 Python 计算简介 (Introduction to Computing Using Python)\n人工智能的基础 (Foundations of Artificial Intelligence)\n人工智能安全和隐私 (AI Security and Privacy)\n强化学习和优化 (Reinforcement Learning and Optimization)\n深度神经网络的基础 (Foundations of Deep Neural Networks)\n高级深度学习 (Advanced Deep Learning)\n视觉智能深度学习：趋势与挑战 (Deep Learning for Visual Intelligence: Trends and Challenges)\n图上的机器学习 (Machine Learning on Graphs)\n视觉系统编程 (Programming for Vision Systems)\n自主人工智能 (Autonomous AI)\n高级算法和数据结构 (Advanced Algorithms and Data Structures)\n人工智能主题 (Topics in Artificial Intelligence)\n机器学习中的主题 (Topics in Machine Learning)\n研究实习 (Research Internship)\n独立学习 (Independent Study)\n数据科学中的数据挖掘和知识发现 (Data Mining and Knowledge Discovery in Data Science)\n智能交通专题 (Special Topics in Intelligent Transportation)\n先进能源系统中的机器学习 (Machine Learning in Advanced Energy Systems)\n智能制造专题 (Special Topics in Smart Manufacturing)\n城市数据采集与分析 (Urban Data Acquisition and Analysis)",
+  "success_cases": ""
+}

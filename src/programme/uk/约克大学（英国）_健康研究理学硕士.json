@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "健康研究理学硕士",
+  "ename": "MSc Health Research",
+  "tags": "社科,公共卫生,健康科学学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:2学位或同等学历，或医学学位。学校可能会考虑具备足够相关工作经验（如在卫生、研究、统计、政府或社会发展部门）的申请者",
+  "objectives": "约克大学健康研究理学硕士项目中获得的技能将使学生能够通过学术界和临床医疗保健实践的组合从事研究工作。毕业生将对健康研究有多方面的了解，这在现今的医疗保健领域和研究环境中越来越受到追捧。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "健康统计导论 (Introduction to Health Statistics)\n流行病学 (Epidemiology)\n随机对照试验 (Randomised Controlled Trials)\n系统评价 (Systematic Reviews)\n定性健康研究 (Qualitative Health Research)\n健康经济学 (Health Economics )\n回归分析导论 (Introduction to Regression Analysis)\n健康和社会行为 (Health and Social Behaviour)\n健康政策：原则、实践和证据基础 (Health Policy - Principles、Practice and the Evidence Base)\n进一步回归分析 (Further Regression Analysis)\n健康与疾病计量 (Measurement in Health and Disease)\n感染和疾病 (Infection and Disease)\n公共卫生基础实践 (Public Health Foundations in Practice)\n健康研究实践 (Health Research in Practice)",
+  "success_cases": ""
+}

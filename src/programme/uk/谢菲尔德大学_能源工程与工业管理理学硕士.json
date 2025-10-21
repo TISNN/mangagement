@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "能源工程与工业管理理学硕士",
+  "ename": "MSc Energy Engineering with Industrial Management",
+  "tags": "工科,能源,化学与生物工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 32550英镑/年",
+  "requirements": "具有2:2本科荣誉学位，需要科学、技术或工程学科背景",
+  "objectives": "谢菲尔德大学能源工程与工业管理理学硕士学位课程使学生深入了解不同能源选择对环境的影响。学生将有能力帮助应对能源需求不断增长但世界资源有限的挑战。在本课程中，学生将成为深入了解不同能源选择对环境影响的下一代工程师和经理。该课程面向希望在能源管理领域发挥作用或需要该学科高级知识的毕业生和专业人士。通过将该学科的理论方面与实践经验相结合，学生将对能源工程和管理有一个透彻的了解，确保学生具备进入并在广泛的职业领域取得成功的条件。该方案增加了研究的广度和深度，并进一步强调：工业应用、团队合作、工程分析的工业相关应用的使用、独立学习和工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "燃料与能源导论 (Introduction to Fuel and Energy)\n应用能源工程 (Applied Energy Engineering)\n工程创新与变化管理 (Managing Innovation and Change in Engineering Context)\n工程商务成功：让世界变得更美好！ (Engineering Commercial Success: And making the world a better place!)\n战略工程管理和商务实践 (Strategic Engineering Management and Business Practice)\n研究项目 (Research Project)\n低碳科学与技术 (Low Carbon Science and Technology)\n生物质和废物中的能源 (Energy from Biomass and Waste)\n核反应堆工程研究 (Nuclear Reactor Engineering Studies)\n石油和天然气的来源与利用 (Oil and Gas Origins and Utilisation)\n系统可持续性 (Systems for Sustainability)\n电子化学工程 (Electrochemical Engineering)\n生物炼制 (Biorefineries)",
+  "success_cases": ""
+}

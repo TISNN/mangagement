@@ -1,0 +1,12 @@
+{
+  "school_name": "肯特大学",
+  "major_name": "高级计算机科学理学硕士（含实习）",
+  "ename": "MSc Advanced Computer Science with Placement",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 2年\n项目学费: 23500英镑/年",
+  "requirements": "具有一等或二等荣誉学位或同等学历，需要计算机或相关学科背景\n所有申请者都将根据具体情况予以考虑，其他资格、专业资格和相关经验也可能被考虑在内",
+  "objectives": "肯特大学高级计算机科学理学硕士项目非常适合具有计算机科学背景、希望加深专业知识并扩展技能以进一步开展技术职业的毕业生，该课程提供了广泛的选择，学生可以专注于网络安全、人工智能和编程语言等领域，根据自己的兴趣和职业抱负定制学习内容。肯特大学高级计算机科学理学硕士课程的学生将能够把理论知识与实践经验相结合，为解决复杂的计算问题和开发创新的解决方案做好准备，参与与行业相关的课程，从事大型项目，并从行业知识丰富的教学环境中受益，从磨练高级编程技术到部署计算系统和解决现实世界的挑战，学生将培养在快节奏的数字经济中茁壮成长所需的尖端技能。\n作为肯特大学高级计算机科学理学硕士（含实习）项目的一部分，参加实习可以让学生在英国或海外获得工作经验，虽然实习机会是学生自己寻求的，但学院通过与专门实习团队的课外参与提供支持，选择含实习的课程将使学生的课程时间长达两年。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目与论文 (Project & Dissertation)\n面向程序员的高级 (Java Advanced Java for Programmers)\nPython编程 (Python Programming)\n行业实习经历 (Industry Placement Experience)\n行业实习报告 (Industry Placement Report)\n面向对象编程 (Object-Oriented Programming)\n认知机器人学 (Cognitive Robotics)\n计算创造力与创造性人工智能 (Computational Creativity and Creative Al)\n自然语言处理 (Natural Language Processing)\n密码学与系统安全 (Cryptography and Systems Security)\n数据挖掘与知识发现 (Data Mining and Knowledge Discovery)\n深度学习 (Deep Learning)\n数字取证 (Digital Forensics)\n道德黑客 (Ethical Hacking)\n量子计算与量子密码学概论 (Introduction to Quantum Computing & Quantum Cryptocgraphy)\n机器学习 (Machine Learning)\n网络安全 (Network Security)\n隐私与网络法 (Privacy & Cyber Law)\n人工智能与网络安全 (Artificial Intelligence and Cyber Security)",
+  "success_cases": ""
+}

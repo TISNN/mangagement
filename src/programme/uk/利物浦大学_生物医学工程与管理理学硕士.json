@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "生物医学工程与管理理学硕士",
+  "ename": "MSc Biomedical Engineering with Management",
+  "tags": "工科,生物工程,工程学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 29900英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要工程或物理科学相关背景，并提供适当的核心工程科学主题知识",
+  "objectives": "利物浦大学生物医学工程与管理理学硕士项目结合了工程、物理和健康与生命科学学院的学术专业知识，提供了专门从事生物医学工程的机会，并为人工器官、医疗设备和新疗法的未来发展做出贡献。生物医学工程与管理理学硕士项目拥有最先进的生物医学设施，包括新的组织工程和生物材料实验室，是增材制造(AM)领域的国际领导者，致力于增材设备开发和植入物制造的生产过程。项目结合传统的讲座和实践课程，培养学生独立学习的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "结构生物材料学 (Structural Biomaterials)\n计算机辅助设计 (Computer Aided Design)\n肌肉骨骼生物力学 (Musculoskeletal Biomechanics )\n集团工程设计 (Group Engineering Design )\n心血管生物工程学 (Cardiovascular Bioengineering )\n组织工程学 (Tissue Engineering)\n工程师技术写作 (Technical Writing for Engineers)\n解剖学，生理学和生物化学 (Anatomy, Physiology and Biochemistry )\n项目管理 (Project Management)\n高级现代管理学 (Advanced Modern Management)\n企业研究 (Enterprise Studies)\n统计学 (Statistics )\n理学项目 (Msc(eng) Project  )\n临床影像学导论 (Introduction to Clinical Imaging )\n临床影像-诊断 (Clinical Imaging - Diagnosis)",
+  "success_cases": ""
+}

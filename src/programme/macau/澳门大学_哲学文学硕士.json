@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "哲学文学硕士",
+  "ename": "MA Philosophy",
+  "tags": "社科,哲学,人文学院",
+  "introduction": "专业方向: 哲学\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "持有澳门大学认可的学士学位或同等学历。申请人也可能被要求具备其他知识或专业经验。申请人必须在学士学位学习中达到相当于C级或更高的总成绩",
+  "objectives": "澳门大学哲学文学硕士学位总体目标和理念是为毕业生提供坚实的理论基础和实用的哲学技能，且让他们广泛应用该技能，不仅仅是作用于哲学研究者或教师的传统职业生涯。该专业旨在容纳拥有哲学文学学士学位和其他在不同领域下钻研学习的学生。对于一些人来说，它将提供一条通往研究的途径，而对于另一些人来说，它将以建立且超越以前的研究领域的方式扩展他们的知识面。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "哲学写作与方法论 (Philosophical Writing and Methodology)\n政治，伦理和社会 (Politics, Ethics and Society)\n逻辑和批判性思维 (Logic and Critical Thinking)\n心灵与世界 (Mind and World)\n西方哲学史 (History of Western Philosophy)\n中国哲学史 (History of Chinese Philosophy)\n项目报告 (Project Report)\n亚洲哲学的杰出人物与作品 (Key Figures and Texts in Asian Philosophy)\n西方哲学的杰出人物与作品 (Key Figures and Texts in Western Philosophy)\n科学哲学 (Philosophy of Science)\n实践哲学 (Practical Philosophy)\n比较哲学 (Comparative Philosophy)\n世界哲学 (World Philosophies)\n哲学专题 (Special Topics in Philosophy)\n生命的意义 (The Meaning of Life)\n元宇宙哲学 (Philosophy of the Metaverse)",
+  "success_cases": ""
+}

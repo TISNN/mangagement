@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "应用地理信息系统理学硕士",
+  "ename": "MSc Applied Geographic Information Systems",
+  "tags": "工科,地球科学,人文社科学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 8月\n项目时长: 1年\n项目学费: 51600新币/年",
+  "requirements": "需要提供存款证明50,000新币\n具有荣誉学位（优异/二等及以上）或同等学历（例如，4年制学士学位且平均成绩至少达到B或同等水平），需要该学科或相关领域背景；或\n具有良好的学士学位（平均成绩至少达到B或同等水平），需要该学科或相关领域背景，并且具备至少1年相关工作经验；或\n具有经研究生院认可的同类其他资历和经验。",
+  "objectives": "新加坡国立大学应用地理信息系统理学硕士项目旨在为学生提供地理信息系统领域最前沿和最新的知识及其运用。该项目是新加坡国立大学地理系提供的唯一硕士项目，而该系列全球排名前十。这个项目为学生提供了在亚洲甚至全球顶尖学校学习的机会，同时也为其在应用地理信息系统领域及其相关领域继续深造或就业奠定坚实的基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用地理信息系统概况 (Introduction to Applied GIS)\n空间规划 (Spatial Programming)\n空间数据处理 (Spatial Data handling)\n地理信息系统应用 (GIS Applications)\n地理信息系统研究论文 (GIS Research Thesis)\n环境建模 (Environmental Modeling)\n环境遥感 (Remote Sensing of Environment)\n动态环境 (Dynamic Environments)\n城市和全球联系 (Cities and Global Connections)\n地理和社会理论 (Geography and Social Theory)\n人文地理研究方法 (Research Methods in Human Geography)\n旅游地理学 (Tourism Geographies)\n政治地理学 (Political Geography)\n环境管理及评估 (Environmental Management and Assessment)\n城市基础设施和移动系统 (Urban Infrastructure & Mobility Systems)",
+  "success_cases": ""
+}

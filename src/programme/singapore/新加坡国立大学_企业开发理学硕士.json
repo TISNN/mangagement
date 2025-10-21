@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "企业开发理学硕士",
+  "ename": "MSc Venture Creation",
+  "tags": "商科,创业与创新,继续与终生教育学院",
+  "introduction": "专业方向: 创业与创新\n入学时间: 8月\n项目时长: 1年\n项目学费: 61040新币/年",
+  "requirements": "具有学士学位（偏好荣誉学位）\n对创业和创新有浓厚的兴趣，包括参与创业活动；或具有科学、技术、工程与数学（STEM）背景；或具备至少1年工作经验",
+  "objectives": "新加坡国立大学风险企业创业理学硕士项目旨在转变思维方式并加速将想法变为解决方案。通过提供业务发展指导、获得新加坡国立大学技术的机会以及建立网络市场准入机会，成功培养有抱负的企业家。学生可以接触热门话题，如工业4.0、数字链供应、网络安全、生物技术、医疗技术和金融技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "精益创业实践 (Lean Start Up Practicum)\n新创企业 (New Venture Creation)\n实习 (Internship)\n商业相关模块 (Busines-related Modules)\n技术管理相关模块 (Management of Technology-related Modules)\n基于技术模块 (Technology-based Modules)\n两周暑期创业计划 (Two-week Summer Programme in Entrepreneurship)",
+  "success_cases": ""
+}

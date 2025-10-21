@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "纳米技术理学硕士",
+  "ename": "MSc Nanotechnology",
+  "tags": "工科,材料,工程科学学院",
+  "introduction": "专业方向: 材料\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要相关学科背景，需要ATAS认证",
+  "objectives": "伦敦大学学院纳米技术理学硕士项目适合物理科学和相关工程学科背景、有意向在纳米技术领域开发新技能的本科生。从微电子到医疗行业，纳米技术正日益成为各行业中的关键技术，随之而来的是对专业人士的需求。\n伦敦大学学院纳米技术理学硕士项目为学生引入并提供了纳米技术研究的各个领域必需的能力培训，包括重点实验室技能、规划技能、设备组装技能、分析技能和结果对比技能等培训。伦敦大学学院纳米技术理学硕士项目中的核心讲座课程涵盖了物理、电气和电子工程、生物学的基本课题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "纳米技术物理科学 (Physical Science for Nanotechnology)\n高级设备（纳米级加工和特性） (Nanoscale Processing and Characterisation for Advanced Devices)\n纳米技术实验技术 (Experimental Techniques for Nanotechnology)\n纳米技术和社会 (Nanotechnology and Society)\n纳米系统中的电传输 (Electrical Transport in Nanosystems)\n量子计算和通信 (Quantum Computation and Communication)\n冷凝物质命令和激励 (Order and Excitations in Condensed Matter)\n分子生物物理学 (Molecular Biophysics)\n分子物理学 (Molecular Physics)\n创业理论和实践 (Entrepreneurship: Theory and Practise)\n纳米系统中的光子学 (Photonics in Nanosystems)\n纳米结构物理学和光学解读 (Physics and Optics of Nano-Structures)",
+  "success_cases": ""
+}

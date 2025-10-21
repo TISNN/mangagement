@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "比较文学文学硕士",
+  "ename": "MLitt Comparative Literature",
+  "tags": "社科,文化,现代语言和文化学院",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要现代语言或文学专业背景；相关领域的学位，如哲学、电影电视研究和文化研究也可以考虑\n学校有时也将接受2:2荣誉学位申请者非常需要具有扎实的文学或文化理论背景\n申请者可能会被要求参加非正式面试",
+  "objectives": "格拉斯哥大学比较文学文学硕士课程提供跨语言文化和学术领域的跨学科研究。受益于强大而多样的现代语言与文化学院，学生将能够选修文学、电影、视觉艺术或两个或两个以上语言领域或跨两个或多个学科的社会的比较研究课程。学生将学习世界领先的研究人员在各个领域的艺术，从文学和移民，到世界电影，书籍历史，性别和后殖民研究。该课程旨在建立学生对比较文学的理论方法，并为学生提供实践训练，为学生承担和撰写自己的研究项目做准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "比较文学导论 (An Introduction to Comparative Literature)\n实践中的比较文学 (Comparative Literature in Practice)\n性别的跨国建构 (Transnational Constructions of Gender)\n疾病、医学与文学病例史的欧洲故事 1783-1933 (European Narratives of Illness. Medical and Literary Case Histories 1783-1933)\n阅读“新欧洲” (Reading the 'new Europe')\n文学翻译研究 (Literary Translation Studies)\n阅读理论 (Theories of Reading)\n比较文学阅读研讨会 (Reading Workshop in Comparative Literature)\n后殖民文学、理论与视觉文化 (Postcolonial Literature, Theory and Visual Culture)\n中国与西方:知识分子与知识动力学 (China and the West: Intellectuals and Knowledge Dynamics)",
+  "success_cases": ""
+}

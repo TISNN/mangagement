@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "数学金融理学硕士",
+  "ename": "MSc Mathematical Finance",
+  "tags": "商科,金工金数,商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 40790英镑/年",
+  "requirements": "具有一等或high 2:1本科学位，需要数学、统计学、物理学或其他相关以定量为重点的本科学位背景，需要很强的数学和金融能力，以及一些统计学或计量经济学的经验，通常通过金融数学理学学士（或类似背景）、数学理学学士、统计学理学学士或物理学理学学士的一等或2:1学位来证明，本科选修课程以上述领域为重点将有助于申请\n需要具备数学基础（特别是概率论、线性代数和微分学的良好知识）\n鉴于课程节奏较快，如果申请者具备很少或没有测量理论概率论、统计学和金融经济学等领域的背景，强烈建议其在课程开始前进行初步阅读，在学生参加课程之前学校将通过专门页面提供阅读建议和其他材料\n不需要GMAT或GRE成绩，但平衡良好的分数（700）可能会有助于申请（相当于GMAT Focus Edition的645分或百分位排名86%）\n需要上传最后一年的课程列表",
+  "objectives": "华威大学数学金融理学硕士课程由华威大学三个顶尖院系的培训：数学、统计和华威商学院提供。基于强大的数学背景，学生将发展和应用机器学习、计算统计和数学金融在金融市场和金融行业中使用的定量技能。\n该必修课程集中在金融职业所需的四大核心技能：金融统计、金融数学、资产定价和风险，以及金融的模拟和机器学习。根据这些模块，学生还将学习量化金融编程，重点是c， Python和R。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "定量金融程序设计 (Programming for Quantitative Finance)\n金融随机微积分 (Stochastic Calculus for Finance)\n财务统计 (Financial Statistics)\n金融模拟与机器学习 (Simulation and Machine Learning for Finance)\n资产定价与风险 (Asset Pricing and Risk)\n金融计量经济学 (Financial Econometrics)\n随机微积分在金融中的应用 (Applications of Stochastic Calculus in Finance)\n高级风险管理 (Advanced Risk Management)\n统计学习与大数据 (Statistical Learning and Big Data)\n行为金融 (Behavioural Finance)\n布朗运动 (Brownian Motion)\n进阶交易策略 (Advanced Trading Strategies)\n金融中的偏微分方程 (Partial Differential Equations in Finance)",
+  "success_cases": ""
+}

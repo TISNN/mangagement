@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "翻译与应用技术文学硕士",
+  "ename": "MA Translation and Applied Technologies",
+  "tags": "社科,语言,语言及语言科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:2学位或同等学历\n除英语外应该精通至少一门学校提供的以下语言：阿拉伯语、汉语、法语、德语、意大利语、日语和西班牙语",
+  "objectives": "语言服务是当今多语种互联世界中的一个重要产业，约克大学（英国）翻译与应用技术文学硕士课程旨在为学生提供进入语言服务行业所需的专业职业技能，训练学生成为一名熟练的翻译，能够自如地处理一系列主题和在不同环境中工作，有效和自信地使用行业技术，还将培养专业技能，如项目管理、问题解决和跨文化交流，以及深入了解应用技术和人工智能的技术基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "翻译理论与实践 (Translation Theory and Practice)\n语言服务行业的技术 (Technologies in the Language Services Industry)\n专业翻译实践 (Professional Translation Practice)\n语言服务行业的管理 (Management in the Language Services Industry)\n语言服务行业的专业实践 (Professional Practice in the Language Services Industry)\n语言变异与变化 (Language Variation and Change)\n会话分析 (Conversation Analysis)\n语言计算：真实与人工智能 (Linguistic Computations: Real & Artificial Intelligence)\n全球化世界中的西班牙创意产业：跨国交流与合作 (Hispanic Creative Industries in a Globalised World: Transnational Exchanges and Collaborations)\n定量方法 (Quantitative Methods)\n独立项目 (Independent Project)",
+  "success_cases": ""
+}

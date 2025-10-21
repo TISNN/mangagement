@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "技术与知识产权法法学硕士",
+  "ename": "LLM Technology and Intellectual Property Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 220000港币/年",
+  "requirements": "(1) 具有法律学士学位或同等学历，至少达到二等荣誉学位；或\n(2) 具有法律以外学科的学士学位且至少达到二等荣誉学位，并具备至少2年相关经验和/或专业资格；或\n(3) 通过英格兰与威尔士普通职业考试或大学普通职业考试，并具有学士学位或同等学历且达到二等荣誉学位",
+  "objectives": "香港大学技术与知识产权法法学硕士项目旨在提供一系列课程，涵盖迅速发展的技术法、知识产权法以及两者之间交叉领域的各个方面，包括人工智能、大数据、数据挖掘、互联网平台监管、3D打印、外层空间技术、纳米技术、金融技术、计算机程序和算法保护、数字混合和用户生成内容、在线流媒体、绿色技术、生物技术（包括基因修饰和干细胞研究）。该学科领域将定期扩充和更新，以确保学生能够理解和分析该领域的当代法律问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际与比较知识产权法 (International and Comparative Intellectual Property Law)\n法律与互联网 (Law and the internet)\n中国信息技术与电子商务法 (China information technology and electronic commerce law)\n著作权与创造力 (Copyright and Creativity)\n知识产权与信息技术 (Intellectual property and information technology)\n专利法 (Patent law)\n隐私与数据保护 (Privacy and data protection)\n商标法专题 (Topics in Trademark Law)\n高级知识产权法 (Advanced intellectual property law)\n竞争法高级专题 (Advanced topics in competition law)\n传播法 (Communications law)\n计算机编程，数据挖掘，与法律-应用导论   (Computer programming, data mining, and the law – An applied introduction)\n法庭 (Courts)\n数字取证 (Digital forensics)\n网络犯罪:数字犯罪现场与法律制裁   (e-Crimes: digital crime scene and legal sanctions)",
+  "success_cases": ""
+}

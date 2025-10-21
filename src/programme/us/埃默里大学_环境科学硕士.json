@@ -1,0 +1,12 @@
+{
+  "school_name": "埃默里大学",
+  "major_name": "环境科学硕士",
+  "ename": "Master’s in Environmental Sciences",
+  "tags": "工科,环境工程",
+  "introduction": "专业方向: 环境工程\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2学期\n项目学费: 45,800美元",
+  "requirements": "GPA 达到3.0以上",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

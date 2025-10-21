@@ -1,0 +1,12 @@
+{
+  "school_name": "克莱姆森大学",
+  "major_name": "应用计算硕士",
+  "ename": "Master of Applied Computing",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2年\n项目学费: 9,738美元/学期",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

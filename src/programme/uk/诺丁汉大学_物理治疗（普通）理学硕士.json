@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "物理治疗（普通）理学硕士",
+  "ename": "MSc Physiotherapy (Generic)",
+  "tags": "社科,医学,健康科学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 24300英镑/年",
+  "requirements": "具有物理治疗或相关医疗保健学科的第一学位，至少达到2:2学位或同等学历\n申请者需要具备至少1年作为物理治疗师开展专业工作的毕业后经验\n请注意，学校无法将作为学位一部分的实习视为工作经验",
+  "objectives": "诺丁汉大学物理治疗（普通）理学硕士课程旨在最大限度地发挥学生的职业和个人发展潜力。该课程提供了以当前证据和研究技能为基础的强大临床重点。课程面向所有希望提高临床技能、专业知识和批判性评估能力的治疗师和相关医疗专业人员，作为其持续职业发展的一部分。如果学生想在不承诺只攻读研究学位的情况下进行以临床为重点的实践研究，这是理想的选择。学校的理疗和康复科学部门在教学和研究方面享有良好声誉。在本课程中，学生将由经验丰富的教学人员教授，他们是该领域的专家，并积极从事以临床为重点的研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "临床实践中的批判性反思、推理与评价 (Critical Reflection, Reasoning, and Appraisal in Clinical Practice)\n健康科学评价与研究进展 (Evaluation and Research Development in Health Sciences)\n理疗理学硕士学位论文 (Dissertation - Master of Science in Physiotherapy)\n长期复杂情况的高级康复 (Advanced Rehabilitation of Long-Term and Complex Conditions)\n推进临床实践（应用神经康复） (Advancing Clinical Practice (Applied Neurological Rehabilitation))\n促进临床实践（神经康复原则） (Advancing Clinical Practice (Principles of Neurological Rehabilitation))\n健康教育中的学习与评价 (Learning and Assessment in Healthcare Education)\n推进临床实践（诊断学） (Advancing Clinical Practice (Diagnostics))\n疼痛管理康复 (Rehabilitation for Pain Management)\n推进临床实践（管理） (Advancing Clinical Practice (Management))",
+  "success_cases": ""
+}

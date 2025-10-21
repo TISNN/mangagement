@@ -1,0 +1,12 @@
+{
+  "school_name": "香港岭南大学",
+  "major_name": "健康分析与管理理学硕士",
+  "ename": "MSc Health Analytics and Management",
+  "tags": "社科,公共卫生,研究生院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 171800港币/年",
+  "requirements": "申请者应具有认可高等教育机构颁发的学士学位",
+  "objectives": "香港岭南大学健康分析与管理理学硕士项目将会采用折衷主义的方法设计专业指导的课程，该项目旨在培养一批有能力支持日益数字化的医疗保健部门的现代劳动力。该项目还会与研究生院合作，利用各种数据分析和建模工具，将医疗保健和运营管理的理论与方法相结合后，再进行传授。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "了解公共卫生和流行病学 (Understanding Public Health and Epidemiology)\n了解卫生和社会保健 (Understanding Health and Social Care)\n卫生系统的政策和资源管理问题 (Policy and Resource Management Issues in Health Systems)\n老年技术和医疗服务创新 (Gerontechnology and Innovation in Health Services)\n数据分析原理 (Principles of Data Analytics)\n医疗分析 (Healthcare Analytics)\n医疗业务管理 (Healthcare Operations Management)",
+  "success_cases": ""
+}

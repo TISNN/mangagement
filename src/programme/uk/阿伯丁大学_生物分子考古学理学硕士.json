@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "生物分子考古学理学硕士",
+  "ename": "MSc Biomolecular Archaeology",
+  "tags": "社科,历史,地球科学学院",
+  "introduction": "专业方向: 历史\n入学时间: 9月\n项目时长: 1年\n项目学费: 22000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要考古学（或相关学科背景，如人类学、地球科学或历史学）、生物学或医学科学背景\n或具有考古学或相关学科背景的2:2学位并具备相关工作经验",
+  "objectives": "阿伯丁大学生物分子考古学理学硕士这一独特的一年制授课研究生课程将前沿的生物分子研究与考古学和进化方法结合起来，教授考古学、生物和医学科学的各个领域。阿伯丁大学生物分子考古学理学硕士的主要目标是让来自各种不同背景的学生具备分析最常见保存的古代生物分子所需的理论和实践技能，特别强调古遗传学、基因组测序和生物信息学。阿伯丁大学生物分子考古学理学硕士项目注重实践和应用，将前沿的生物分子研究与考古学和进化的方法和方法相结合。学生将受益于考古学、生物和医学科学领域的选择课程，并研究关键的跨学科主题，如人类进化、植物和动物驯化、人类饮食和迁徙、古代病原体和人类对过去环境的适应。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "古代生物分子 (Ancient Biomolecules)\n分子遗传学 (Molecular Genetics)\n生物信息学 (Bioinformatics)\n古遗传学 (Palaeogenetics)\n高级生物信息学与基因组测序 (Advanced Bioinformatics and Genome Sequencing)\n人类遗传学 (Human Genetics)\n研究论文 (Research Dissertation)",
+  "success_cases": ""
+}

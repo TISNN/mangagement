@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "人类进化与行为理学硕士",
+  "ename": "MSc Human Evolution and Behaviour",
+  "tags": "理科,生物,社会与历史科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要人类学或进化相关学科背景（包括社会和生命科学），这些学科包括但不限于人类学、考古学、人文科学、生物学、动物学、遗传学和自然科学，学校欢迎学习过其他学科（包括心理学和经济学）并对进化论有浓厚兴趣的申请者",
+  "objectives": "进化论从根本上改变了我们对人类生活的理解，伦敦大学学院人类进化与行为理学硕士课程旨在为学生提供与人类和非人类灵长类动物进化相关问题的坚实实践和理论基础，该课程毕业生在公务员、卫生服务、非政府组织、科学新闻等部门工作，许多学生继续攻读著名的博士学位课程。该项目培养学生产生、评估和综合与人类进化和行为相关的经验证据和假设的能力，他们将获得特定学科的技能，例如测量骨骼材料、解释和生成与人类生态、生殖和遗传学有关的数据，以及通过观察生成人类和非人类灵长类动物的行为数据。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计学1 (Statistics I)\n人类行为生态学 (Human Behavioural Ecology)\n古人类学 (Palaeoanthropology)\n灵长类动物社会生态学 (Primate Socioecology)\n灵长类进化与环境 (Primate Evolution and Environments)\n统计学2 (Statistics II)",
+  "success_cases": ""
+}

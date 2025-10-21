@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "认知发展与障碍理学硕士",
+  "ename": "MSc Cognitive Development and Disorders",
+  "tags": "社科,心理学,心理学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要心理学或包含大量心理学和研究方法培训的学科背景，此外，成功的申请者通常至少要在本科学位修读的研究方法相关课程中取得2:1或同等成绩",
+  "objectives": "利兹大学认知发展与障碍理学硕士项目将心理学理论和应用结合起来，研究认知功能，认知功能在儿童和老年时期的发展，以及认知障碍人群中遇到的缺陷。学生将从认知、临床、健康、教育、生物和社会心理学等多个角度以及神经心理学、神经科学和老年学汲取理论。本课程将：提高学生对认知发展及其障碍的心理理解、演示这种理解如何指导开发和应用新的现实技术，以改善认知功能的评估、发展学生对缺陷诊断、提供支持和干预、教育培训、老年学和临床意义的理解、深入了解定量和定性研究方法。在本课程中，学生将接受当前研究前沿学科专家的指导和指导；在其专业领域积极出版文章。这使学生有机会向目前与NHS、相关行业和慈善机构合作的人员学习。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "心理学前沿研究问题 (Advanced Research Issues in Psychology)\n先进的研究方法 (Advanced Research Methods)\n系统评价 (Systematic Review)\n神经心理学和神经科学的当前主题 (Current Themes in Neuropsychology and Neuroscience)\n研究项目 (MSc Research Project)\n衰老和痴呆心理学 (The Psychology of Ageing and Dementia)\n典型和无序发展 (Typical and Disordered Development)",
+  "success_cases": ""
+}

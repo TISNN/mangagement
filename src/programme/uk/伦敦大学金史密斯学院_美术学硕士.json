@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学金史密斯学院",
+  "major_name": "美术学硕士",
+  "ename": "Master of Fine Art",
+  "tags": "社科,艺术,艺术系",
+  "introduction": "专业方向: 艺术\n入学时间: 9月\n项目时长: 2年\n项目学费: 30750英镑/年",
+  "requirements": "具有二等荣誉学位，拥有作为艺术家的经验，需提交作品集",
+  "objectives": "伦敦大学金史密斯学院美术学硕士主要如何在不同的社会、艺术和知识背景下以及在不同的社会、艺术和思想背景下理解特定艺术家的作品和思想。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工作室研讨会 (Studio seminars)\n教程和小组教程 (Tutorials and group tutorials)\n批判研究 (Critical Studies)\n讲课 (Lectures)\n讲习班 (Taught workshops)\n合作研讨会 (Collaborative seminars)\n评定 (Assessment)",
+  "success_cases": ""
+}

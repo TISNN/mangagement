@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "高级航空技术理学硕士",
+  "ename": "MSc Advanced Aerospace Technologies",
+  "tags": "工科,航空工程,航空航天工程学院",
+  "introduction": "专业方向: 航空工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "需要航空工程、航空航天工程背景，学校也会考虑具有机械工程学位（包含大量航空航天组成部分）",
+  "objectives": "除了材料、结构、空气动力学和推进等传统航空学科，谢菲尔德大学高级航空技术理学硕士课程还包括系统集成和飞行控制的概念等内容，这写对于生产更高效、更环保的飞机和航空航天系统至关重要。学生还可以选择专攻航空力学或航空电子设备。\n通过该项目的工业培训计划，学生讲有机会在航天工业领域里进行实际工作，而团体设计项目则会为学生提供设计制造无人驾驶飞行器的机会。\n该课程利用了工程和科学学院六个系以及该大学管理学院的专业知识。这种广度和深度的研究将确保学生毕业后成为一个高度知识渊博的航空航天工程专家。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "航天小组设计项目 (Aerospace Group Design Project)\n航空航天个人调查项目 (Aerospace Individual Investigative Project)\n 航空电子设备方向 (Avionics steam)\n空气动力学和推进方向 (Aerodynamics and Propulsion stream)\n航空材料、结构和制造方向 (Aerospace Materials, Structures and Manufacturing stream)",
+  "success_cases": ""
+}

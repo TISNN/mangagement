@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "高级控制与系统工程（工程）理学硕士",
+  "ename": "MSc(Eng) Advanced Control and Systems Engineering",
+  "tags": "工科,电气电子,自动化控制和系统工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要工程、数学或物理学科背景，学校也可能考虑相关学科\n申请者应学习至少一个数学课程和一个以下领域的课程：高等数学、物理、概率论与统计学、编程，学校也会考虑相关课程",
+  "objectives": "谢菲尔德大学高级控制与系统工程（工程）理学硕士项目将理论和实践相结合，将为学生在先进控制与系统工程产业的就业或研究奠定基础。该项目由英国工程和物理科学研究委员会提供支持，运营时间已长达40余年，且与劳斯莱斯和英国宇航系统公司关系密切。劳斯莱斯在谢菲尔德大学设有长期研发中心，硕士生有机会与机构中心的工作人员共事。项目中的主要课程将为学生提供控制和系统工程师所需的基本技能，学生也将学习感兴趣的高级课程，并完成研究级论文项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "控制系统基础 (Foundations of Control Systems)\n优化与信号处理 (Optimisation and Signal Processing)\n先行控制 (Advanced Control)\n工业自动化 (Industrial Automation)\n现代控制与系统识别 (Modern Control and System Identification)\n控制系统项目与论文 (Control Systems Project and Dissertation)\n智能及视觉系统 (Intelligent and Vision Systems)\n先进制造业产业培训计划 (Industrial training programme (ITP) in Advanced Manufacturing)\n控制系统网络安全 (Cybersecurity for Control Systems)\n多传感器与决策系统 (Multisensor and Decision Systems)",
+  "success_cases": ""
+}

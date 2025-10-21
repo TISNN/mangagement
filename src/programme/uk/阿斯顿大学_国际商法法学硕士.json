@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "国际商法法学硕士",
+  "ename": "LLM International Commercial Law",
+  "tags": "社科,法律,阿斯顿法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 23500英镑/年",
+  "requirements": "雅思总分6.5（小分一项不低于5.5，其它项不低于6.0）\nPTE总分67（小分一项不低于59，其它项不低于64）\n具有良好的英国荣誉学位（不低于2:2）或阿斯顿大学认可的同等海外学位\n欢迎具备法律、政治、经济和商业背景的学生申请",
+  "objectives": "阿斯顿大学国际商法法学硕士项目旨在提高学生对法律及其在国际商业世界中的应用的了解，进一步加深学生对全球商业的理解，并获得宝贵的实践技能。国际商法法学硕士项目由法学院和商学院合作开设，学者和行业专业人士进行讲授，学生首先会学习全球化进程中法律与商业之间关系的基础，从而了解各种商业法律学科如何帮助规范市场和促进国际商业交易的进行。此外，学生还将探索国际商法的当前见解和挑战，增加对该领域的全面理解和批判性意识，学习解决复杂的法律问题，并在专业领域有效地为客户或雇主提供建议。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球化背景下的法律和商业 (Law and Business in a Global Context)\n阿斯顿全球优势 (The Aston Global Advantage)\n商业项目或论文 (Business Project or Dissertation)\n竞争法律和政策 (Competition Law and Policy)\n银行及金融服务条例 (Banking and Financial Services Regulation)\n国际破产与重组 (International Insolvency and Restructuring)\n法律风险管理 (Legal Risk Management)\n网络法 (Internet Law)\n公司治理法规和合规 (Corporate Governance Regulation and Compliance)\n知识产权战略与管理 (Intellectual Property Strategy and Management)\n情境中的员工关系 (Employee Relations in Context)\n雇佣法 (Employment Law)\n商业的经济环境 (Economic Environment of Business)\n国际商务策略 (International Business Strategy)\n企业财务 (Business Finance)",
+  "success_cases": ""
+}

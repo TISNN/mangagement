@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "传播学硕士",
+  "ename": "MA Communication",
+  "tags": "社科,媒体与传播,人文艺术学院",
+  "introduction": "专业方向: 媒体与传播\n入学时间: 9月\n项目时长: 2年\n项目学费: 135000港币/年",
+  "requirements": "不局限于任何专业",
+  "objectives": "讲授社会科学量化研究的主要概念与方法（包括实验法、问卷调查法与内容分析法），以及如何设计、执行并完成传播学量化研究项目。同时讲授质化分析的研究设计，以及如何介入社会科学问题，进行较为深入的研究，并培养分析与写作能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "传播理论 (Communication Theories)\n社会科学研究方法 (Research Methods in Social Sciences)\n社会统计分析 (Social Statistical Analysis)\n文化、媒介与全球化 (Culture, Media and Globalization)\n整合行销传播原理 (Principles of Integrated Marketing Communications)\n新媒体研究前沿 (Frontiers in New Media Research)",
+  "success_cases": ""
+}

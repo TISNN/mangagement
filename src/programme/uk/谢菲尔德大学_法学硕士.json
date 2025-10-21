@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "法学硕士",
+  "ename": "LLM",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 24950英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要法律、经济学、国际关系、管理/工商管理学科背景",
+  "objectives": "谢菲尔德大学法学硕士项目是一门灵活的课程，让学生有机会获得各种法律主题的专业知识和技能，并根据自己的兴趣和职业抱负定制课程。教学以研究为主导，以实践为导向，鼓励学生进行自己的独立研究以开展学习。学生有机会参加会议和研究研讨会，其中许多涉及来自英国和海外的访问专家以及法学院的工作人员。谢菲尔德大学法学硕士保留了最大的灵活性，学生可以从所有的法学硕士方向中选修课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司法和公司治理的当前问题 (Current Issues in Company Law and Corporate Governance)\n国际商事仲裁 (International Commercial Arbitration)\n企业社会责任与法律 (Corporate Social Responsibility and the Law)\n知识产权法基础 (Fundamentals of Intellectual Property Law)\n世贸组织法 (WTO Law)\n国际洗钱 (International Money Laundering)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "人权法学硕士",
+  "ename": "LLM Human Rights",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 28500英镑/年",
+  "requirements": "具有2:1荣誉学位或非英国同等学历，需要法律背景学校也可以考虑在国际关系、政治或相关的社会科学或人文学科领域获得英国2:1荣誉学位，或其国际同等学历的申请者虽然学校欢迎来自非法律背景的申请者，但重要的是，要注意，这个法学硕士仍然是一个以法律为重点的学位",
+  "objectives": "格拉斯哥大学人权法学硕士项目旨在为学生提供机会通过深入分析国际和国内法律框架的法律、历史和哲学来研究人权的理论和实践。该课程将把实质性人权问题置于背景框架内，在法律和政策背景下培养对这些问题的批判性理解，学生可以学习一系列选修课程，探索人权在各种当代背景下的应用，具备人权专业知识，对其起源、历史发展以及在现实生活中法律问题的应用有深刻的理解和领会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "欧洲人权公约高级导论 (Advanced Introduction to the Echr)\n国际人权法 (International Human Rights Law)\n国家人权法 (National Human Rights Law)\n国际刑法高级导论 (Advanced Introduction to International Criminal Law)\n气候变化法律与治理 (Climate Change Law and Governance)\n法律与国际发展 (Law and International Development)\n国际法基础 (Foundations of International Law)\n武装冲突法 (The Laws of Armed Conflict)",
+  "success_cases": ""
+}

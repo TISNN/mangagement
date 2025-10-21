@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "人类因素与人体工程学理学硕士",
+  "ename": "MSc Human Factors and Ergonomics",
+  "tags": "工科,工业工程,机械、材料与制造工程学院",
+  "introduction": "专业方向: 工业工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1学位或同等学历，接受制造工程、工业工程、机械工程、产品/工业设计、管理/商业、心理学、人文科学、健康科学、物理治疗、职业治疗、计算机科学、安全科学、人类因素或人体工程学背景，课程主任将考虑其他感兴趣的申请者，包括那些只有专业资格的申请者和那些具有其他学科背景的申请者",
+  "objectives": "诺丁汉大学人类因素与人体工程学理学硕士课程旨在为学生提供从人的角度设计产品、工作/任务和环境所需的知识和技能。如果学生对人、技术和设计感兴趣，那么这门课程可能适合学生。在本课程中，学生将了解与我们与工作、环境、产品、服务和其他人的互动相关的一系列人类特征（身体、认知、社会和情感）。毕业生将获得工业界越来越受欢迎的研究生学历，并提供必要的知识和技能来解决 21 世纪的人为因素问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "认知人类工程学 (Cognitive Ergonomics)\n物理人体工学 (Physical Ergonomics)\n人为绩效研究 (Studying Human Performance)\n仿真和数字人体建模 (Simulation and Digital Human Modelling)\n风险和安全科学（工程师） (Risk and Safety Science for Engineers)\n人机系统 (Human-Computer Systems)\n工作制度与安全 (Work Systems and Safety)\n高级工程研究项目组织与设计 (Advanced Engineering Research Project Organisation and Design)\n心理学高级方法 (Advanced Methods in Psychology )\n生物力学 (Biomechanics)",
+  "success_cases": ""
+}

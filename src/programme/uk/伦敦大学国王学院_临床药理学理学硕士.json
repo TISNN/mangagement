@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "临床药理学理学硕士",
+  "ename": "MSc Clinical Pharmacology",
+  "tags": "社科,药学,生命科学与药学学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 1年\n项目学费: 47700英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，需要医学学位（如MBBS）或药学、药理学、生物学、生物化学、化学或相关学科的2:1第一学位\n有相关行业工作经验者优先考虑（但不是必需的），没有学位但具备丰富工作经验的申请者将根据个人情况予以考虑\n所有申请者都需要健康或生物医学科学相关学科的学位，以及相关的工作经验。如果学校认为必要的话，可能会发起面试\n学校鼓励申请者与课程组织者交谈，以确定他们是否能够完成课程",
+  "objectives": "伦敦大学国王学院临床药理学理学硕士项目将为学生提供设计、分析、解释和报告临床研究和临床试验的技能。该课程着重于了解药物对身体的作用（药效学）、药物在体内的作用（药代动力学）以及药物在治疗特定疾病方面的作用。该课程是为对临床开发过程感兴趣的科学家、医生、临床科学家和相关健康专业人员设计的。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "实用临床药理学 (Practical Clinical Pharmacology)\n药物发现与开发 (Drug Discovery and Development)\n疾病潜伏期科学 (Preclinical Science)\n理论和实际药物动力学 (Theoretical and Practical Pharmacokinetics)\n高级临床药理学 (Advanced Clinical Pharmacology)\n生物疗法和高级疗法 (Biological and Advanced Therapies)\n临床药物开发 (Clinical Drug Development)\n药物开发药理学 (Drug Development Pharmacology)\n论文写作 (Dissertation)",
+  "success_cases": ""
+}

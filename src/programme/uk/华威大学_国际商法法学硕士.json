@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "国际商法法学硕士",
+  "ename": "LLM International Commercial Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 23910英镑/年",
+  "requirements": "具有2:1本科学位或同等学历，需要法律或相关学科（包含法律成分）背景",
+  "objectives": "商法的目标是促进商业交易，无论是商品销售、数字内容或数据交易、担保融资安排还是合并。一旦商业交易跨越管辖边界，就会出现复杂的问题，涉及商业协议中所有条款的可执行性、适用于交易的法律以及交易中可能产生的任何争议可以解决的地方。华威大学国际商法法学硕士课程将为学生了解国际商务的法律挑战奠定坚实的基础，并使学生能够探索如何通过合同、国内法和国际商定规则的组合来监管一系列国际交易。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "国际商法基础 (Foundations of International Commercial Law)\n法律研究与写作技巧 (Legal Research and Writing Skills)\n数字经济中的国际商法 (International Commercial Law in the Digital Economy)\n英国合同法和商法的基本技巧 (Basic Techniques of English Contract and Commercial Law)\n国际商品销售 (International Sale of Goods)\n国际金融交易法 (Law of International Financial Transactions)\n国际商业诉讼 (International Commercial Litigation)\n并购法规 (The Regulation of Mergers and Acquisitions)",
+  "success_cases": ""
+}

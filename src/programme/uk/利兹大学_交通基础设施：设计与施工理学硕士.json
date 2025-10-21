@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "交通基础设施：设计与施工理学硕士",
+  "ename": "MSc(Eng) Transport Infrastructure: Design and Construction",
+  "tags": "工科,交通运输,土木工程学院",
+  "introduction": "专业方向: 交通运输\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要土木工程或相关工程、科学或数学学科背景（已经学习过相关学科领域）\n满足以下其中一项的申请者将基于具体情况被考虑：\n- 具有土木工程或相关工程、科学或数学学科2:2荣誉学士学位，并且具备至少1年相关经验\n- 具有专业资格以及相关经验",
+  "objectives": "利兹大学交通基础设施：设计与施工工学硕士项目将为学生提供有关如何设计、建造和维护桥梁、高速公路和隧道的专业知识。学生将对基础设施设计、施工和维护前沿的技术有深入的了解，并获得有关最新技术发展的专业知识，例如加速桥梁建设、超高性能混凝土等先进材料，以及监测和修复基础设施的尖端传感技术和机器人的可能性。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士学位论文 (MSc Dissertation)\n交通基础设施战略 (Transport Infrastructure Strategy)\n桥梁工程 (Bridge Engineering)\n施工工艺 (Construction Technology)\n基础设施的监测和维护 (Monitoring and Maintenance of Infrastructure)\n铁路轨道基础设施设计 (Railway Track Infrastructure Design)\n混凝土结构的劣化与维护 (Deterioration and Maintenance of Concrete Structures)\n路面的劣化和维护 (Deterioration and Maintenance of Pavements)\n岩土工程 (Geotechnical Engineering)\n地震区建筑物的设计与管理 (Design and Management of Structures in Earthquake Zones)\n高级混凝土设计 (Advanced Concrete Design)\n基础工程 (Foundation Engineering)\n道路几何和基础设施 (Road Geometry and Infrastructure)",
+  "success_cases": ""
+}

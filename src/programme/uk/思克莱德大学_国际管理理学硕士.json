@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "国际管理理学硕士",
+  "ename": "MSc International Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 31100英镑/年",
+  "requirements": "具有至少二等荣誉学位或同等学历，要求商业或管理背景，或非商业学位但有关于国际贸易或商业的工作经验\n那些能够证明其工作经验值得直接进入项目的人士的申请也会被考虑",
+  "objectives": "思克莱德大学国际管理理学硕士学位课程使学生掌握国际管理者及领导者在全球工作所需的知识与技能。\n在思克莱德大学国际管理理学硕士学位课程的学习中，学生将广泛理解国际管理的实务与过程，了解国际管理者工作的国家及国际情境，了解这些情境如何在不同文化环境中影响管理预期和偏好。\n思克莱德大学国际管理理学硕士学位课程以实践为导向，重点不同组织环境中的工作技能、管理技能和领导技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "专业管理实践 (Professional Management Practice)\n跨文化管理 (Managing Across Cultures)\n组织人力管理 (Managing People in Organisations)\n营销管理 (Marketing Management)\n全球商业环境 (Global Business Environment)\n金融和财务管理 (Finance and Financial Management)\n项目方法论 (Project Methodology)\n商业战略 (Business Strategy)\n国际创业学 (International Entrepreneurship)\n咨询实践 (Consultancy in Practice)\n国际管理项目 (The MIM Project)",
+  "success_cases": ""
+}

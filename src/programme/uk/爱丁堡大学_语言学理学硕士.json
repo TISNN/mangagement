@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "语言学理学硕士",
+  "ename": "MSc Linguistics",
+  "tags": "社科,语言,哲学、心理学与语言科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要理论语言学、应用语言学、现代语言、英语语言、认知科学或心理学背景",
+  "objectives": "爱丁堡大学语言学理学硕士项目教授语言学研究的所有理论知识和实务技能，以满足学生的纯语言学研究，或跨学科研究目的，适合有语言学、英语、语言学或认知科学背景的学生申请。学生需掌握如何分析语法、语义、音系学和形态学中的关键数据，并将这些数据理论化，用经验方法检验这些理论。\n教学目标：\n提供语音、词法、句法、语义和语用等领域的专业知识；\n整合相关领域的知识；\n为将来从事语音、词法、句法、语义和语用等领域的高级研究奠定基础；\n全面了解理论和描述性语言学研究的基本原理；\n在跨学科的背景下培养学生的分析能力。\n爱丁堡大学语言学理学硕士项目的教学重点在于理论理解：学生将学习如何分析当前不同层次的语言结构中的理论数据，并比较和评估同一理论模型中产生的不同提案。\n此外，学生将学习必要的数据获取技巧，以及及时掌握语料库中自发数据的能力。所有这些技能都是继续攻读语言学博士学位的必备基础技能，不论是语言学还是其他相关学科都离不开语言学的基础知识（如发展语言学、社会语言学等）。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "音系学导论 (Introduction to Phonology)\n语义学与语用学导论 (Introduction to Semantics and Pragmatics)\n语言研究导论 (Introduction to Language Research)\n句法导论 (Introduction to Syntax)\n语言学与英语语言中的研究伦理训练 (Research Ethics Training in Linguistics and English Language)",
+  "success_cases": ""
+}

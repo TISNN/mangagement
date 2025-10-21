@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "戏剧与电影剧本创作",
+  "ename": "MLitt Playwriting and Screenwriting",
+  "tags": "社科,艺术,英语学院",
+  "introduction": "专业方向: 艺术\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "需要填写一份附加申请表，一篇Essay（约2,000 words）以及原创作品集（10至15页的剧本编写和创作）",
+  "objectives": "圣安德鲁斯大学戏剧与电影剧本创作课程为学生提供了进入舞台、电台或银幕写作专业领域的门户。该课程为期一年，由英语学院开办，旨在帮助学生发展自己的广播、剧院和屏幕写作技能，重点是个人的声音和风格。毕业后，学生将获得一系列作品，并了解如何接近剧院、获得佣金和作为剧作家工作。该课程提供由当代著名剧作家和世界级学者提供的技术指导，重点是近期和当代写作的最佳实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "写作与表演 1&2 (Writing for Performance 1 and 2)\n创意作者的研究技巧 (Research Skills for Creative Writers)",
+  "success_cases": ""
+}

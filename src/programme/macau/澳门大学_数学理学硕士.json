@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "数学理学硕士",
+  "ename": "MSc Mathematics",
+  "tags": "理科,数学,科技学院",
+  "introduction": "专业方向: 数学\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "持有澳门大学认可的学士学位或同等学历。申请人也可能被要求具备其他知识或专业经验。申请人必须在学士学位学习中达到相当于C级或更高的总成绩",
+  "objectives": "数学系是科学技术学院的一个系。目前有11名教授和讲师。同时提供硕士和博士学位课程。该系负责数学研究生课程的教学，科学技术学院各个工程系的工程课程中的数学课程以及教育学院的本科数学课程中的数学课程。除教学外，该系还注重研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "功能分析 (Functional Analysis)\n真实性分析 (Real Analysis)\n学术/应用论文 (Academic/Applied Thesis)\n高等线性代数 (Advanced Numerical Linear Algebra)\n高等概率统计 (Advanced Probability and Statistics)\n克利福德分析 (Clifford Analysis)\n几何及其应用 (Geometry and Its Applications)\n计算智能数学理论 (Mathematical Theory of Computational Intelligence)\n矩阵分析 (Matrix Analysis)\n微分方程的数值方法 (Numerical Methods for Differential Equations)\n偏微分方程 (Partial Differential Equations)\n随机微分方程 (Stochastic Differential Equations)\n随机过程 (Stochastic Processes)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "信息能力管理理学硕士",
+  "ename": "MSc Information Capability Management",
+  "tags": "商科,信息系统,国防与安全",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 24120英镑/年",
+  "requirements": "具有科学、工程或数学方面背景",
+  "objectives": "信息是一个运转良好的社会的基本基础，数以亿计的人每天在线上和线下接收、创造和传播信息。平均而言，每天有超过25000个网站建立在多个平台上，包括私人和公共部门的技术流。这使得对信息能力和管理方面的专业知识的需求成为面向更数字化未来的专业知识和战略的最重要的水龙头之一。克兰菲尔德大学信息能力管理理学硕士项目的目标是培养技能娴熟的专业人员，他们能够获取、分析和制定改进策略，评估数字基础设施，并跟上不断增长和发展的信息和技术世界。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "网络安全与信息保障 (Cyber Security and Information Assurance)\n新兴技术监控 (Emerging Technology Monitoring)\n信息系统基础 (Foundations of Information Systems)\n信息系统开发方法与工具 (Methods and Tools for Information Systems Development)\n组织生存能力的系统思考 (Systems Thinking for Organisational Viability)\n专业问题 (Professional Issues)\n信息系统计划与项目管理 (Programme and Project Management for Information Systems)\n软件工程 (Software Engineering)\n数字商业策略 (Digital Business Strategy)\n系统架构 (Systems Architecture)\n数据主导的决策支持与人工智能 (Data-led Decision Support and Artificial Intelligence)\n数据建模、存储与管理 (Data Modelling, Storage and Management)\n论文 (Dissertation)",
+  "success_cases": ""
+}

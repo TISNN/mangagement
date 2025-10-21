@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "可持续能源理学硕士",
+  "ename": "MSc Sustainable Energy",
+  "tags": "工科,能源,工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要任何工程学科或物理科学/数学学位（包括环境和土地科学）背景，工程数学和/或数学课程的平均成绩为2:1\n学校可能会考虑具有2:2学位但核心课程成绩达到2:1的申请者",
+  "objectives": "格拉斯哥大学可持续能源理学硕士学位课程是一个跨学科的课程，将为学生在国际能源领域提供就业机会。该课程涉及可持续能源的从最先进的技术到伦理和经济考虑所有关键方面。\n格拉斯哥大学可持续能源理学硕士学位课程使学生深入理解目前英国及国际能源行业的社会与经济驱动力，培养学生深入理解能源生产及分布的行为、商业及技术层面内容。\n在格拉斯哥大学可持续能源理学硕士学位课程的学习中，依据自身偏好及过去经验，学生将以化学、电气和机械工程为重点学习能源生产及使用的科学与工程方面的技术知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "能量转换系统 (Energy conversion systems )\n综合系统设计项目 (Integrated systems design project )\n可再生和可持续能源 (Renewable and sustainable energy )\n理学硕士项目 (Msc project)\n电能系统 (Electrical energy systems )\n环境生物技术 (Environmental biotechnology )\n环境伦理与行为变化 (Environmental ethics and behaviour change)\n工业空气动力学 (Industrial aerodynamics )\n核电反应堆 (Nuclear power reactors)\n电力电子与驱动 (Power electronics and drives )\n项目规划、评估与实施 (Project planning, appraisal and implementation)\n可持续发展理论与原则 (Theory and principles of sustainability )",
+  "success_cases": ""
+}

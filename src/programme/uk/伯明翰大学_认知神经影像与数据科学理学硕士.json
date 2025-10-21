@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "认知神经影像与数据科学理学硕士",
+  "ename": "MSc Cognitive Neuroimaging and Data Science",
+  "tags": "社科,医学,生命与环境科学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30370英镑/年",
+  "requirements": "具有2:1荣誉学位，需要相关学科背景（如心理学、神经科学、计算机科学、物理学、工程学或数学）\n1. 认知神经科学方向：申请者应在研究论文中成绩至少达到2:1（或同等水平）（即规划与开展研究以及分析数据的经验），在最后一年的研究项目中没有达到2:1的要求但在认知神经科学研究实验室中获得了丰富研究经验的申请者将根据具体情况予以考虑\n2. 计算神经科学方向：申请者必须对在跨学科环境中学习有浓厚的兴趣，并且必须具备扎实的定量分析能力，最好具备Python, Matlab, Java和/或C语言编程技能",
+  "objectives": "伯明翰大学认知神经影像和数据科学理学硕士旨在为学生提供对认知和计算神经科学重要理论的基本见解，并使学生获得神经影像和数据科学技术方法的实践经验。\n学生将可以使用人类大脑健康中心的各种神经影像工具（例如 MRI、MEG、EEG、脑刺激和 fNIRS）。学生还将培养与主动解决问题和分析大（神经科学）数据相关的重要技能。同时将有机会与广泛的研究人员（来自心理学和计算机科学学院人类大脑健康中心）互动，他们将帮助学生培养认知神经影像和数据科学方面的特定兴趣和技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "心理学研究方法与技巧 (Research Methods & Skills in Psychology)\n提出研究 (Proposing Research)\n认知神经科学方法与应用 (Cognitive Neuroscience Methods & Applications)\n行为和大脑数据科学 I (Data Science for Behaviour and Brain I)\n心智、大脑、模型 (Mind, Brain, Models)\n转化认知神经科学 (Translational Cognitive Neuroscience)\n脑成像基础知识 (Fundamentals in Brain Imaging)\n电生理学方法在认知神经科学中的应用 (Application of Electrophysiological Approaches in Cognitive Neuroscience)\n建模发展和多样性 (Modelling Development and Diversity)\n计算方法简介 (Introduction to Computational Methods)\n行为和大脑数据科学 I 和 II (Data science for behaviour and brain I and II)\n智能机器人 (Intelligent Robotics)\n神经计算 (Neural Computation)\n机器学习和智能数据分析 (Machine Learning and Intelligent Data Analysis)\n先进机器人技术 (Advanced Robotics)\n机器人视觉 (Robot Vision)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "杜兰大学",
+  "major_name": "政治经济和数据分析文学硕士",
+  "ename": "MA in Political Economy with Data Analytics",
+  "tags": "商科,经济",
+  "introduction": "专业方向: 经济\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2年\n项目学费: 1,056美元/学分",
+  "requirements": "本科阶段学习过微积分和统计学相关初阶和高阶课程。本科背景来自于经济、政策科学、统计、工程或者数学专业",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

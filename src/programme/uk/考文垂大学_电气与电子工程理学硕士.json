@@ -1,0 +1,12 @@
+{
+  "school_name": "考文垂大学",
+  "major_name": "电气与电子工程理学硕士",
+  "ename": "MSc Electrical and Electronic Engineering",
+  "tags": "工科,电气电子,工程、环境与计算学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 1/5/9月\n项目时长: 1年\n项目学费: 20050英镑/年",
+  "requirements": "具有2:2荣誉学位，需要电子工程，计算机工程，通信工程或物理等相关学科背景，或至少两年的专业领域经验",
+  "objectives": "考文垂大学电气与电子工程理学硕士课程旨在为学生提供在一系列电子领域中发展实践技能和理论知识的机会，包括数字系统、图像和信号处理、机器人和传感器，以及电力系统如可再生能源、智能电网、高级控制工程和仪器仪表、电气机器和发电。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电机与驱动器 (Electrical machines and drives)\n数字信号与图像处理 (Digital signal and image processing)\n机器人：运动学，动力学与应用 (Robotics: kinetic, dynamics and applications)\n高级控制工程与仪器仪表 (Advanced control engineering and instrumentation)\n基于FPGA的数字系统设计 (FPGA-based digital system design)\n电力系统 (Power systems)\n替代能源与智能电网 (Alternative energy and smart grid)\n数字通信系统 (Digital communications systems)\n全球专业发展-咨询 (Global Professional Development - Consultancy)\n个人项目 (Individual project)",
+  "success_cases": ""
+}

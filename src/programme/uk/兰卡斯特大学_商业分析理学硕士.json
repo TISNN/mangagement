@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,管理科学学系",
+  "introduction": "专业方向: 商业分析\n入学时间: 10月\n项目时长: 1年\n项目学费: 32760英镑/年",
+  "requirements": "具有英国2:2荣誉学位或同等学历，需要定量学科背景，例如数学和/或统计学或工程学，商业与管理学位（包含很强的定量成分）背景也可能被考虑，信息技术与计算机科学学位只在包含很强定量内容的情况下才适合申请\n在整个本科学习期间分数应该始终保持在2:2的水平\n以前的研究需要包括以下主题：数学、概率论、统计学、计量经济学、博弈论、数据分析、运筹学、模拟和商业建模，不需要事先学习过计算机编程\n对于应届毕业生来说，相关经验可能是一个优势，但不是必需的。对于其他申请者来说，需要具备分析和/或数据建模方面的工作经验。理想情况下，距离上一段全日制学习毕业的时间不应超过5年",
+  "objectives": "兰卡斯特大学商业分析理学硕士项目适合想在决策支持、运筹学、工业工程或管理科学领域工作的学生。该课程将培训学生的分析决策能力。学生不仅学习商业分析理论，还学习如何将其应用于实践。这涉及使用数据驱动的方法和工具生成相关的业务见解。该课程是为数不多的教授整个业务分析生命周期的课程之一，涵盖描述性、预测性和规定性分析。该课程与行业业务分析从业者建立了良好的合作关系，不断更新该计划，以反映业务分析的动态变化，非常重视培养具有就业市场上有价值技能的毕业生。例如，作为课程的一部分，学生将体验一个真实的分析项目。该课程毕业生将成为业务分析师、数据科学家、分析工程师和物流顾问，有些人还将进入学术研究。许多学生在学习期间得到工作机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "实践中的分析 (Analytics in Practice)\n数据来源、处理和编程 (Data Sourcing, Handling and Programming)\n预测和预测分析 (Forecasting and Predictive Analytics)\n组织理性研究与规范分析 (Oerational Research and Prescriptive Analytics)\n统计和描述性分析 (Statistics and Descriptive Analytics)\n智能数据分析与可视化 (Intelligent Data Analysis and Visulation)\n市场分析 (Marketing Analytics)\n优化和启发式 (Optimisation and Heuristics)\n营销研究方法 (Marketing Research Methods)\n卓越的运营和供应链 (Operations and Supply Chain Excellence)\n模拟与随机建模 (Simulation and Stochastic Modelling)\n运输和物流分析 (Transportation and Logistcs Analytics)",
+  "success_cases": ""
+}

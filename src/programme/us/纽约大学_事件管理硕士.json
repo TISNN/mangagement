@@ -1,0 +1,12 @@
+{
+  "school_name": "纽约大学",
+  "major_name": "事件管理硕士",
+  "ename": "Master's in Event Management",
+  "tags": "社科,媒体与传播",
+  "introduction": "专业方向: 媒体与传播",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

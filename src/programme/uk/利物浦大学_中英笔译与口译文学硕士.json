@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "中英笔译与口译文学硕士",
+  "ename": "MA Chinese-English Translation and Interpreting",
+  "tags": "社科,语言,历史、语言与文化学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:2荣誉学位。该学位可以是与拟议研究领域相关的任何学科。具有丰富专业经验和/或其他先前资格的非毕业生也可以考虑\n本课程还要求汉语作为第一或第二语言",
+  "objectives": "本硕士课程以中英两种世界主要语言之间的翻译和口译为重点，提供平衡的翻译和口译实践训练(交替传译、同声传译、现场翻译和公共服务口译)，涵盖各种主题。\n该课程也使学生熟悉翻译领域不可或缺的理论见解和方法方法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级口译实践 (Advanced interpreting practice)\n高级翻译实践 (Advanced translation practice)\n翻译研究的理论、趋势和方法 (Theories, trends and approaches in translation and interpreting studies)\n论文或翻译项目 (Dissertation OR translation project)",
+  "success_cases": ""
+}

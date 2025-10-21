@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "生物统计学理学硕士",
+  "ename": "MSc Biostatistics",
+  "tags": "理科,生物,理学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 216000港币/年",
+  "requirements": "具有认可的本科学位（包含数学或生物医学课程），强烈建议具备微积分、线性/矩阵代数和统计学入门课程学习背景\n在本科学习期间可能没有扎实数学和统计学训练的申请者也将被考虑，最好事先修读过线性代数、微积分和统计学课程\n符合入学条件并具备相关工作经验的申请者将被优先考虑",
+  "objectives": "香港城市大学生物统计学理学硕士项目旨在通过创新的课程培养下一代生物统计学家，使他们具备必要的分析、领导和沟通技能，以迎接数据密集时代的挑战。它将有助于发展新的统计理论，并应用最先进的数据分析解决方案来解决公共卫生、兽医流行病学和生物医学科学方面的问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球健康生物统计学导论 (Introduction to Biostatistics in One Health)\n全球健康与流行病学原理 (Principles of One Health and Epidemiology)\n概率论 (Probability)\n统计计算 (Statistical Computing)\n生物统计学高级方法 (Advanced Methods in Biostatistics)\n统计推断 (Statistical Inference)\n沟通与项目研究 (Communication and Project Study)\n时间序列分析 (Time Series Analysis)\n空间数据分析 (Spatial Data Analysis)\n分类数据分析统计方法   (Statistical Methods for Categorical Data Analysis)\n统计学学习概论 (Introduction to Statistical Learning)\n计算生物学、实验设计与数据科学 (Computational Biology, Experimental Design and Data Science)",
+  "success_cases": ""
+}

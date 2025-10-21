@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "药物开发科学理学硕士",
+  "ename": "MSc Drug Development Science",
+  "tags": "社科,药学,生命科学与药学学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 1年\n项目学费: 47700英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位或同等学历，需要医学学位（MBBS或同等学历）或药学、药理学、生物学、生物化学、化学或相关学科的2:1第一学位，没有学位但具备相关经验的申请者将根据个人情况予以考虑，有相关行业环境工作经验者优先考虑（但不是必需的）\n所有申请者都需要健康或生物医学科学相关学科的学位，以及相关的工作经验。如果学校认为必要的话，可能会发起面试\n学校鼓励申请者与课程组织者交谈，以确定他们是否能够完成课程",
+  "objectives": "伦敦大学国王学院药物开发科学理学硕士项目具有高度的灵活性，面向药物开发职场人士或有志于从事药物开发的学生，侧重夯实学生临床研究、药物管理与药物安全专业知识与技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "药物发现与开发 (Drug Discovery and Development)\n临床前科学 (Preclinical Science)\n高级临床药理学 (Advanced Clinical Pharmacology)\n药品监管事务 (Drug Regulatory Affairs)\n药品安全与伦理 (Drug Safety & Ethics)\n临床药物开发 (Clinical Drug Development)\n医疗保健市场 (Healthcare Marketplace)\n药品开发统计学与数据管理 (Drug Development Statistics and Data Management)\n学位论文 (Dissertation)",
+  "success_cases": ""
+}

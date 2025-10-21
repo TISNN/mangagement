@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "化学科学与仪器理学硕士",
+  "ename": "MSc Chemical Sciences and Instrumentation​",
+  "tags": "理科,化学,化学、化学工程与生物技术学院",
+  "introduction": "专业方向: 化学\n入学时间: 8月\n项目时长: 1年\n项目学费: 43600新币/年",
+  "requirements": "具有良好的学士学位，需要相关专业背景，如化学、材料科学、化学工程等\n有优秀GRE或GMAT成绩者优先考虑（不强制要求）\n具备至少2年相关工作经验者优先考虑（不强制要求）",
+  "objectives": "南洋理工大学化学科学与仪器理学硕士课程侧重于基于化学的行业工作和基于化学的研究与开发的实践技能。该硕士计划提供在化学中使用最先进的仪器、人工智能和纳米技术的严格培训，以及科学交流和团队合作等软技能。南洋理工大学化学科学与仪器理学硕士课程适用于化学学士学位课程的应届毕业生，以及能源、化工和相关行业的在职专业人士。MSCSI将为毕业生提供化学概念、仪器、数据科学和技术创业方面的可转移和跨学科技能。课程包括化学子学科的高级理论课程，接触一些最新设备的实践，以及商业化、数据分析和交流方面的培训。MSCSI在深度和广度上的互补，将提供全面的教育，帮助毕业生适应知识经济并使他们有很好的职业发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究生研讨会 (Graduate Seminar)\n高级化学仪器 (Advanced Chemical Instrumentation)\n理学硕士研究 I (Research for MSc I)\n技术商业化 (Technology Commercialisation)\n研究生基础与技术无机化学 (Graduate Basic and Technical Inorganic Chemistry)\n过渡金属催化有机合成反应 (Transition Metal Catalysed Reactions for Organic Synthesis)\n研究生化学生物学 (Graduate Chemical Biology)\n材料化学的高级分析与光谱方法 (Advanced Analytical and Spectroscopic Methods in Materials Chemistry)\n材料化学的高级合成与物理方法 (Advanced Synthetic and Physical Approaches to Materials Chemistry)\n人工智能在化学科学中的应用 ( Applications of Artificial Intelligence in the Chemical Sciences)\n高级纳米科学与技术 (Advanced Nanoscience and Nanotechnology)\n结构测定高级技术 (Advanced Techniques for Structural Determination)\n工业分析化学 (Analytical Chemistry in Industry)\n研究生生命科学有机化学 (Graduate Life Science Organic Chemistry)\n制药行业高级分析与制造技术 (Advanced Analytical & Manufacturing Techniques in Pharmaceutical Industry)",
+  "success_cases": ""
+}

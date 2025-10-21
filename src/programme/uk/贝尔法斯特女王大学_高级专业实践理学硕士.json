@@ -1,0 +1,12 @@
+{
+  "school_name": "贝尔法斯特女王大学",
+  "major_name": "高级专业实践理学硕士",
+  "ename": "MSc Advanced Professional Practice",
+  "tags": "社科,医学,护理与助产学院",
+  "introduction": "专业方向: 医学\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 21500英镑/年",
+  "requirements": "申请者必须具有护理、助产或相关健康和社会护理服务的专业资格，通常需持有相关2:2荣誉学位或学校接受的同等学历\n具有三等荣誉学位（或学校接受的同等学历）以及level 7研究生学习经历的申请者将根据具体情况被考虑\n学生可以选择加入细分方向或常规硕士课程，进入细分方向通常要求学生在相关领域工作或具备经验",
+  "objectives": "贝尔法斯特女王大学高级专业实践理学硕士课程旨在培养新兴和创新的专业从业者。它通过五个专业途径提供，这些途径与护理和助产学院的关键专业领域相对应。专科途径有：急性和重症监护理学硕士、癌症护理：支持和姑息治疗理学硕士、领导与管理理学硕士、母婴健康理学硕士、心理健康和老年人理学硕士。贝尔法斯特女王大学高级专业实践理学硕士计划是全日制的，将面对面的教学与在线授课相结合。学生可能有资格参加临床实习。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "护理学中的应用研究方法与统计 (Applied Research Methods and Statistics in Nursing)\n定性研究方法 (Qualitative Research Methods)\n论文 (Dissertation)\n医疗保健专业人员法 (Law for Healthcare Professionals)\n基于临床调查和应用实践的研究 (Clinical Inquiry and Applied Practice Based Research)\n实践药物治疗 (Pharmacotherapeutics for Practice)\n独立学习模块 (Independent Study Module)",
+  "success_cases": ""
+}

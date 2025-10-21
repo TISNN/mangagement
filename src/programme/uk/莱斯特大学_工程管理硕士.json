@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "工程管理硕士",
+  "ename": "Master of Engineering Management",
+  "tags": "工科,工程管理,工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 24500英镑/年",
+  "requirements": "具有good 2nd荣誉学位或同等学历，需要相关专业背景",
+  "objectives": "未来工程领导所面临的挑战很多。成本，利润和“货币价值”的压力继续增长，技术发展的步伐不断加快。开发由加层制造法等高级制造方法提供支持的全新的设计空间，正成为企业的关键优势，并且越来越多的人开始认识到工程功能性能与公司整体回报率密切相关。\n当前存在掌握先进技术和管理技能的人才的短缺，莱斯特大学工程管理理学硕士旨在通过应对核心议题，培养未来工程领导人才。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程商业管理 (Engineering Business Management)\n成本工程 (Cost Engineering)\n精益工程 (Lean Engineering)\n国际商业 (International Business)\n工程项目管理 (Engineering Project Management)\n企业经济学 (Business Economics)\n管理者的会计和金融 (Accounting and Finance for Managers)\n系统工程 (Systems Engineering)",
+  "success_cases": ""
+}

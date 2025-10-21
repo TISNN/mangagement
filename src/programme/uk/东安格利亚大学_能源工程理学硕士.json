@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "能源工程理学硕士",
+  "ename": "MSc Energy Engineering",
+  "tags": "工科,能源,工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 24350英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历，不先专业背景（包含大量数学内容）\n具有其他资格或经验的申请者如果在其他地方获得了必要的数学和技术专业知识（例如相关行业经验），其申请将会被考虑\n需要ATAS证书",
+  "objectives": "东安格利亚大学能源工程理学硕士项目将使你掌握基本的能源和电气工程原理以及可再生能源、核能和石油和天然气工程的一系列选项。最终，您将认识到可再生能源的长期目标以及可持续能源组合的更广泛现实。 在整个课程中，您将有很多机会在模块、贸易活动、当地分支机构会议和项目工作中与专业工程师交流。您最重要的项目将是您的论文，在那里您将有机会在能源部门实习期间进行实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "能源工程基础 (Energy Engineering Fundamentals)\n电能的产生、分配和储存 (Electrical Energy Generation, Distribution and Storage)\n能源工程学位论文 (Energy Engineering Dissertation)\n可再生能源流体工程 (Fluids Engineering for Renewable Energy)\n应用程序编程 (Applications Programming)\n高级计算方法 (Advanced Computational Methods)\n油气工程 (Oil and Gas Engineering)\n核能和太阳能高级专题 (Nuclear and Solar Energy with Advanced Topics)\n工程组项目 (Engineering Group Project)\n环境评价理论 (Theory of Environmental Assessment)",
+  "success_cases": ""
+}

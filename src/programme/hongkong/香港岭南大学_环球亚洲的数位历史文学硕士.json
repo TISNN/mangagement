@@ -1,0 +1,12 @@
+{
+  "school_name": "香港岭南大学",
+  "major_name": "环球亚洲的数位历史文学硕士",
+  "ename": "MA Digital History in Global Asia",
+  "tags": "社科,历史,研究生院",
+  "introduction": "专业方向: 历史\n入学时间: 9月\n项目时长: 1年\n项目学费: 160000港币/年",
+  "requirements": "- 持有学校认可的高等教育机构颁发的相关学士学位；或\n- 已获得同等学历；或\n- 能够提供令人满意的学术和专业成就证明。",
+  "objectives": "香港岭南大学全球亚洲数字历史文学硕士项目有三个总体目标。首先，从社会、政治、经济、军事、环境和文化的角度为学生提供亚洲全球史的基础。其次，展示数字人文如何推进亚洲历史的研究、影响和传播。最后，为学生提供可用于处理、组织、数字化、解释和呈现与亚洲相关的历史信息的数字方法和方法的深入知识和实践培训。学生将学习使用一系列数字应用程序进行历史研究，包括：QGIS（地理信息系统制图）；Gephi、Tableau、Excel 等数据库软件；SketchUp 和 Visual Novel，用于 3D 渲染和视觉叙事。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球亚洲数字历史简介 (Introduction to Digital History in Global Asia)\n历史研究中的数字方法 (Digital Approaches in Historical Researc)\n亚洲研究中的数字数据管理 (Digital Data Management in Asian Studies)\n亚洲城市可视化和数字测绘 (Visualisation and Digital Mapping of Asian Cities)\n数字公共历史 (Digital Public History)\n亚洲遗产3D重塑 (3D Remodelling of Asian Heritage)\n重新思考历史档案 (Rethinking the Historical Archive)\n重要数字历史 (Critical Digital History)\n顶点项目 (Capstone Project)",
+  "success_cases": ""
+}

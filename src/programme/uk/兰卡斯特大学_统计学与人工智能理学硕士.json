@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "统计学与人工智能理学硕士",
+  "ename": "MSc Statistics and Artificial Intelligence",
+  "tags": "理科,数学,数学与统计学院",
+  "introduction": "专业方向: 数学\n入学时间: 10月\n项目时长: 1年\n项目学费: 30310英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要数学或统计学背景\n学校也可能考虑已经学习过其他定量学科学位（包括概率、统计、线性代数和微积分课程）或具有2:2荣誉学位或同等学历以及丰富相关经验的非标准申请者\n申请者应该清楚地展示其技能是如何为研究生学习期间的相关讨论和评估做好准备的",
+  "objectives": "利用先进的统计和机器学习专业知识塑造人工智能的未来，兰卡斯特大学统计学与人工智能理学硕士课程是学生通往人工智能、机器学习和数据科学未来的途径，掌握人工智能模型背后的统计基础对于推动创新至关重要，该课程使学生能够超越使用现成的人工智能工具，深入了解支撑现代人工智能的强大统计技术，使其能够应用和修改这些模型以应对现实世界的挑战。\n兰卡斯特大学统计学与人工智能理学硕士课程提供严格的统计理论和尖端的人工智能应用的独特融合，学生不仅可以学习如何应用机器学习技术，还可以深入了解这些算法的构造，凭借坚实的统计学基础，学生将有能力修改和增强人工智能模型，为其在各个行业的高需求角色或进一步的学术研究做好准备。通过统计理论和实际人工智能技能的结合，学生将有能力在一系列行业中引领人工智能技术的开发和应用，塑造人工智能的未来。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算密集型方法 (Computationally Intensive Methods)\n深度学习 (Deep Learning)\n统计学硕士论文 (MSc Statistics Dissertation)\n统计基础 I (Statistical Fundamentals I)\n统计基础 II (Statistical Fundamentals II)\n统计学习 (Statistical Learning)\n实践中的统计学 (Statistics in Practice)\n无监督学习 (Unsupervised Learning)\n人工智能高级专题 (Advanced Topics in Artificial Intelligence)\n人工智能数学 (Mathematics for Artificial Intelligence)",
+  "success_cases": ""
+}

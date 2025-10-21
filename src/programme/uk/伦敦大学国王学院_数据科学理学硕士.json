@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "数据科学理学硕士",
+  "ename": "MSc Data Science",
+  "tags": "理科,数据科学,自然、数学与工程科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 37800英镑/年",
+  "requirements": "具有high 2:1本科（荣誉）学士学位或同等学历，需要计算机科学或其他相关定量学科背景（如数学、统计学、物理学、自然科学、电子工程、通用工程、运筹学，或两个此类学科的联合学位），申请者还应具备基础数学的良好背景，特别是熟悉微积分、三角、线性代数、向量和矩阵数学的标准概念，此外，申请者应具备计算机编程能力，接近计算机科学理学学士荣誉学位第一学年结束时的预期水平",
+  "objectives": "伦敦大学国王学院数据科学理学硕士项目为学生提供数据收集、整理、整理和分析方面的高级技术和实践技能。对于具有定量学科背景的毕业生，或具有相关工作经验、希望获得当前数据科学方法和技术经验的毕业生来说，这是一条理想的学习途径。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学家的计算机程序设计 (Computer Programming for Data Scientists)\n数据库、数据仓库和信息检索 (Databases, Data Warehousing & Information Retrieval)\n统计 (Statistics)\n数据挖掘 (Data Mining)\n单项工程 (Individual Project)\n统计学习要素 (Elements of Statistical Learning )\n金融统计 (Statistics in Finance )\n智能体与多智能体系统 (Agents & Multi-Agent Systems )\n自然启发学习算法 (Nature-Inspired Learning Algorithms)\n模式识别、神经网络与深度学习 (Pattern Recognition, Neural Networks & Deep Learning)\n网络理论 (Network Theory )\n大数据技术 (Big Data Technologies )\n模拟和数据可视化 (Simulation & Data Visualisation )\n计算机视觉 (Computer Vision )\n用数据讲故事 (Telling Stories with Data)\n机器学习 (Machine Learning )\n优化方法 (Optimisation Methods )\n人工智能推理与规划 (Artificial Intelligence Reasoning and Planning)",
+  "success_cases": ""
+}

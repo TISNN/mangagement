@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "全球海洋资源管理理学硕士双学位（香港科技大学-南安普顿大学）",
+  "ename": "Double Degree MSc Global Marine Resources Management (HKUST-Southampton)",
+  "tags": "工科,海洋技术,理学院",
+  "introduction": "专业方向: 海洋技术\n入学时间: 9月\n项目时长: 1年\n项目学费: 208846港币/年",
+  "requirements": "具有学士学位或同等学历，需要海洋科学、海事科学、生命科学、环境科学或地球科学背景，至少达到二等荣誉学位或GPA不低于70%，雅思总分低于7（或同等托福分数）的申请者需要参加南安普顿大学的6周语言班",
+  "objectives": "香港科技大学全球海洋资源管理理学硕士项目是南安普顿大学海洋与地球科学学院与香港科技大学海洋科学系合办的课程，该计划旨在为学生提供跨学科知识和国际经验，以解决海洋资源可持续利用方面的新问题。该计划采用英国和香港海洋研究的最新见解，并将其置于全球背景下。课程由南安普顿大学和地球科学学院的世界一流教师教授，研究概况涵盖与海洋资源管理相关的广泛主题，从沿海污染到深海生态。课程在南安普敦和香港举行。\n香港科技大学全球海洋资源管理理学硕士项目完成后，毕业生将能够：1. 认识到海洋环境的生物、化学和物理区域的形成、运作和再生所涉及的自然过程；2. 确定作为人类社会传统和新兴资源的海洋环境的不同生物、化学、物理或地质组成部分；3. 分析自然和人为压力因素对海洋资源长期可持续性的影响；4. 整合海洋资源勘探、管理和保护中涉及的科学、技术、社会经济和政治问题，并将这些问题传达给公众、商业部门和决策者；5. 就可持续利用海洋资源的战略和做法向公众、企业和政府利益相关者提出基于科学证据的建议；6. 在跨国环境中作为专业人士有效地学习、交流和工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球海洋资源管理的关键技能 (Key Skills for Global Marine Resources Management)\n生物海洋学概论 (Introduction to Biological Oceanography)\n物理海洋学概论 (Introduction to Physical Oceanography)\n化学海洋学概论 (Introduction to Chemical Oceanography)\n海洋地质概论 (Introduction to Marine Geology)\n环境影响和风险评估 (Environmental Impact and Risk Assessment)\n保育与可持续发展 (Conservation and Sustainable Development)\n可持续渔业和水产养殖 (Sustainable Fisheries and Aquaculture)\n海洋资源管理 (Marine Resources Management)\n应用和海洋地球物理学 (Applied and Marine Geophysics)\n地球系统中的生物地球化学循环 (Biogeochemical Cycles in the Earth System)\n深海生态 (Deep Sea Ecology)\n地球物理学家和海洋科学家的计算数据分析 (Computational Data Analysis for Geophysicists and Ocean Scientists)\n陆架海和陆架边缘动力学 (Shelf Seas and Shelf Edge Dynamics)\n气候变化：科学、政策和管理 (Climate Change: Science, Policy and Management)",
+  "success_cases": ""
+}

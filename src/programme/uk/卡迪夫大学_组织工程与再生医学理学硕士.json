@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "组织工程与再生医学理学硕士",
+  "ename": "MSc Tissue Engineering and Regenerative Medicine",
+  "tags": "理科,生物,牙科学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 27450英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科背景，如：生物工程、生物学、牙科、生命科学、医学工程或医学或大学认可的同等学历",
+  "objectives": "组织工程是生物医学研究内不断发展的一个跨学科领域，结合生命学、工程和材料科学，研究病变和受损组织的修复与更换。卡迪夫大学组织工程理学硕士项目致力于培养生命科学和临床背景的本科毕业生获得高级组织工程科学和实践方面的知识与技能，包括理论科学、研究翻译与临床应用。项目可以帮助学生深入研究组织工程这一生物医学科学分支，包括干细胞生物学，生物材料和组织与器官工程。课程设置合理，结合理论与实践，为学生攻读博士学位做好准备，包含授课与实验室实验这两个部分，为学生提供大量参观相关临床环境的机会。毕业生将广泛积累知识与技能，获得未来雇主和研究机构的青睐。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "细胞生物学和分子生物学 (Cellular and Molecular Biology )\n组织工程概念与临床实践 (Tissue Engineering from Concept to Clinical Practice )\n研究方法 (Research Methods )\n干细胞与再生医学 (Stem Cells and Regenerative Medicine )\n学位论文 (Dissertation )",
+  "success_cases": ""
+}

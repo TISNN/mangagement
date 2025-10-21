@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "土木工程学理学硕士",
+  "ename": "MSc Civil Engineering",
+  "tags": "工科,土木工程,建筑及环境学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 210000港币/年",
+  "requirements": "具有荣誉学士学位或同等学历，需要土木工程背景",
+  "objectives": "香港理工大学土木工程学理学硕士学位课程将引导学生深入研究土木工程方面相关的主题，并通过学习超出现有领域的主题来拓宽他们的土木工程领域的知识。该课程将培养学生设计工程系统和流程的能力，以满足当下对土木工程项目的预期要求。同时，其致力于培养学生在处理与其专业实践相关的复杂问题和情况时的战略思维能力，并会通过对专业实践的探究和反思来提高他们的持续专业发展的学习能力。在该课程中，实习土木工程师可以深入了解并掌握常规土木工程、结构工程以及运输工程的相关技能。完成该课程后，毕业生能够在现代建筑技术方面表现出高超的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "建设管理与法律 (Construction Management & Law)\n建设规划的数学计算方法 (Quantitative Techniques in Construction Planning )\n高等岩土工程 (Advanced Rock Engineering )\n土的性质与岩土工程 (Soil Behavior & Geotechnical Engineering)\n排水系统设计 (Drainage Design)\n个人专题分析报告 (Individual Project)\n专题研究论文 (Dissertation )\n建设科技 (Construction Technology )\n建设行业法律建构 (Statutory Framework for Construction Practice)\n高层建筑 (Tall Building Structures)\n高等钢筋混泥土 (Advanced Reinforced Concrete )\n楼宇抗震设计 (Seismic Design of Building Structures)\n风工程 (Wind Engineering )\n建筑幕墙工程 (Facade Engineering )\n高等结构设计 (Advanced Structural Design)\n个人专题分析报告 (Individual Project)\n专题研究论文 (Dissertation )\n建设科技 (Construction Technology )\n建设行业法律建构 (Statutory Framework for Construction Practice)\n运输管理 (Transport Management )\n城市交通规划—理论与实践 (Urban Transport Planning—Theory & Practice)\n公共交通营运与服务规划 (Public Transport: Operation & Service Planning )\n交通工程及控制 (Traffic Engineering & Control )\n交通基础设施的发展 (Development of Transport Infrastructure)\n个人专题分析报告 (Individual Project)\n专题研究论文 (Dissertation )\n建设科技 (Construction Technology )\n建设行业法律建构  (Statutory Framework for Construction Practice)",
+  "success_cases": ""
+}

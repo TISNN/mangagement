@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "运筹学理学硕士",
+  "ename": "MSc Operational Research",
+  "tags": "理科,数学,数学科学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 25400英镑/年",
+  "requirements": "具有2:1学位，需要定量学科背景（数学含量高），必须在数学课程中取得高分",
+  "objectives": "南安普顿大学运筹学理学硕士项目帮助学生学习商业和工业领域必备的分析技能。学生将与跨国组织合作开展案例研究，培养应用分析能力。项目还将带领学生参加各行业的夏季项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目 (Project)\n确定性或方法 (Deterministic OR Methods)\n随机性或方法 (Stochastic OR Methods)\n问题结构 (Problem Structuring)\n展示报告 (Presenting Reports)\nPython导论 (Introduction to Python)\n统计方法 (Statistical Methods)\n数据分析 (Data Analytics)\n分析咨询技巧 (Analytical Consultancy Skills)\n预测 (Forecasting)\n医疗建模 (Healthcare Modelling)\n金融投资组合理论 (Financial Portfolio Theory)\n非线性优化 (Nonlinear Optimisation)\n收入管理 (Revenue Management)\n管理不确定性和风险 (Managing Uncertainty and Risk)",
+  "success_cases": ""
+}

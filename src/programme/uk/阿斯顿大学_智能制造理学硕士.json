@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "智能制造理学硕士",
+  "ename": "MSc Smart Manufacturing",
+  "tags": "工科,机械工程,工程与技术学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 21500英镑/年",
+  "requirements": "学校期待以下任意领域的工学学士毕业生提出申请：机械，制造，生产，工业或相关学科背景，学位达到2:2或更高水平",
+  "objectives": "阿斯顿大学智能制造理学硕士项目的目的是教学生广泛的智能制造实践技能，以便学生可以通过开发最先进的技术为复杂的制造问题提供创新的解决方案。\n该计划将把技术革命深深植根于工程师的思维中，并教您设计和开发应对未来制造挑战的新技术的技能。\n注重实践经验，学生将有机会利用人工智能技术设计创新且经济高效的智能制造解决方案，解决制造业当前面临的复杂制造问题，如生产调度、设备故障诊断和预测性维护。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工业4.0 (Industry 4.0)\n先进的制造工艺  (Advanced Manufacturing Processes )\n制造系统的数字化 (Digitalisation of Manufacturing Systems)\n计算机集成制造 (Computer Integrated Manufacturing)\n机器学习 (Machine Learning)\n硕士主要论文 (MSc Major Dissertation)\n智能传感器和控制系统  (Smart Sensors and Control Systems )\n机器人软件 (Robot Software)\n应用工业机器人 (Applied Industrial Robotics)\n制造和装配设计 (Design for Manufacturing and Assembly)",
+  "success_cases": ""
+}

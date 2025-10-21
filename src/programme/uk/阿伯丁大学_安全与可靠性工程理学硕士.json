@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "安全与可靠性工程理学硕士",
+  "ename": "MSc Safety and Reliability Engineering",
+  "tags": "工科,化工,工程学院",
+  "introduction": "专业方向: 化工\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要工程、数学或物理学任意分支专业背景\n学校也可能会考虑具有工程学2:2荣誉学位并且能够证明2年以上相关经验的申请者\n学习背景必须涵盖的重点科目：数学和机械学科，例如应力分析、材料强度和热力学",
+  "objectives": "阿伯丁大学安全与可靠性工程理学硕士课程旨在为研究生工程师提供安全工程，可靠性工程和损失预防领域的高等教育和培训。在许多领域，包括石油和天然气，化工，运输和建筑业，对这些领域具有专业知识的个人的持续需求，部分是由于法律要求评估和控制对人类和环境的工业风险，部分是由于在许多行业中需要创建高度完整性的工程系统。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "安全与风险管理 (Safety & Risk Management)\n安全性、可靠性与质量的统计和概率 (Statistics and Probability for Safety, Reliability and Quality)\n火灾与爆炸工程 (Fire and Explosion Engineering)\n水下完整性 (Subsea Integrity)\n风险与可靠性评估高级方法 (Advanced Methods for Risk and Reliability Assessment)\n应用风险分析与管理 (Applied Risk Analysis and Management)\n工艺设计，布局与材料 (Process Design, Layout & Materials)\n人因工程学 (Human Factors Engineering)\n安全工程个人项目 (Safety Engineering Individual Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "精算科学与商业分析理学硕士",
+  "ename": "MSc Actuarial Science with Business Analytics",
+  "tags": "商科,商业分析,贝叶斯商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 26000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，且课程涉及数学、统计学或工程学等高度量化的学科\n不要求工作经验",
+  "objectives": "伦敦大学城市学院精算科学与商业分析理学硕士项目提供多种学习选择，将确保学生学习正确的工具并培养精算师的新技能，并成为有能力并准备好在不断变化的全球商业环境中利用这些技能。\n与精算科学硕士学位一样，伦敦大学城市学院精算科学与商业分析理学硕士项将为学生提供精算师协会和学院课程核心原则的选择，使学生能够获得科目 CM1、CM2、CS1、CS2、CB1、CB2 的豁免。同时认识到建模和沟通实践在商业环境中的重要性，学生将有机会获得科目 CP2 和 CP3 的豁免。\n通过学习四个必修的商业分析模块，为学生的课程增添更多价值。学生将了解如何在现实世界中进行数据分析，并研究机器学习技术及其在分析复杂数据和设计预测分析方法中的用途。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "R 编程简介 (Introduction to R Programming)\nPython 编程简介 (Introduction to Python Programming)\n商业分析方法 (Analytics Methods for Business)\n金融数学 (Financial Mathematics)\n精算专业人员的研究方法 (Research Methods for Actuarial Professionals)\n概率与数理统计 (Probability and Mathematical Statistics)\n财务和财务报告 (Finance and Financial Reporting)\n商业经济学 (Business Economics)\n机器学习 (Machine Learning)\n意外事件 (Contingencies)\n金融经济学 (Financial Economics)\n保险风险建模 (Insurance Risk Modelling)\n建模实践 (Modelling Practice)\n专业沟通 (Professional Communication)\n应用研究项目 (Applied Research Project)",
+  "success_cases": ""
+}

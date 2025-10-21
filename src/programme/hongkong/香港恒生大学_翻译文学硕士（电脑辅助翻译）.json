@@ -1,0 +1,12 @@
+{
+  "school_name": "香港恒生大学",
+  "major_name": "翻译文学硕士（电脑辅助翻译）",
+  "ename": "MA Translation (Computer-Aided Translation)",
+  "tags": "社科,语言,翻译与外语学院",
+  "introduction": "专业方向: 语言\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 142080港币/年",
+  "requirements": "具有获认可的大学本科学历或同等学历\n评估标准将包括翻译能力、沟通能力（中英文）、计算机基本知识和个人特质",
+  "objectives": "我国迅速崛起，加上「一带一路」倡议，对高质量语言服务的需求迫切。在这样的机遇下，香港恒生大学翻译文学硕士（电脑辅助翻译）项目旨在提供计算机辅助翻译（computer-aided translation，简称CAT）的学术和专业培训，培养语言服务领域的复合型人才。学生将掌握专业的翻译技巧，获得翻译技术的实践经验，能够更好地利用最前沿的语言技术，提供高质量的语言服务（例如翻译、本地化、双语写作和编辑）。\n香港恒生大学翻译文学硕士（电脑辅助翻译）课程把握时代脉搏，教学灵活多变，注重理论联系实际，培养学员的技术知识、专业知识和可转换技能，为投身变化万千的翻译及本地化产业做好准备。毕业生将满足国际贸易中日益增长的语言服务需求，迎接未来语言服务行业迅猛发展带来的挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "翻译技术：知识和技能 (Translation Technology: Knowledge and Skills)\n专业语言服务：技能和策略 (Professional Language Services: Skills and Strategies)\n商务与法律翻译 (Translation in Business and Law)\n专业线上协作翻译 (Professional Workshop for Online Collaborative Translation)\n方向一：专业语言服务（计算机辅助） (Area 1: Professional Language Services (Computer-aided))\n科技翻译 (Scientific and Technical Translation)\n国际贸易及运输翻译  (Translation for International Trade and Transportation)\n文学、历史及哲学翻译的电子工具 (Electronic Tools for Translators of Philosophical, Historical and Literary Texts)\n医药翻译 (Medical and Pharmaceutical Translation)\n商务和法律传译 (Interpreting for Business and Law)",
+  "success_cases": ""
+}

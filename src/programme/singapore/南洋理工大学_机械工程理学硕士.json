@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "机械工程理学硕士",
+  "ename": "MSc Mechanical Engineering",
+  "tags": "工科,机械工程,机械与航空航天工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 52974新币/年",
+  "requirements": "具有良好的学士学位，需要机械或工业工程或相关学科背景并受过数学和生产方面的培训；或\n具有学士学位，需要工程或相关学科背景并受过数学训练，同时具备2年相关行业经验。\n相关学科包括但不限于南洋理工大学工程学院提供的学士学位课程",
+  "objectives": "南洋理工大学机械工程理学硕士专业以培养机械工程领域的优秀人才为宗旨，为学生提供机械工程学科的基础课程，传授给学生机械工程领域方面的前沿知识。该专业专为希望在机械工程方面掌握更先进知识以应对不断变化的世界的研究生工程师、研发工程师、科学家、研究人员和其他相关专业人士而设计。 机械工程一直是每个工业行当中不可或缺的重要学科。尤其是随着计算机与信息技术的出现，如今的机械工程专业开始在许多新兴的领域中承担起更加重要的任务，比如生命科学领域，微型技术、纳米技术领域。这些新兴技术领域的重大突破常常依赖于机械工程专业的技术支持。因此，对拥有深厚机械工程背景的研究、开发人员与管理人员的需求将持续不断攀升。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高等材料力学  (Advanced Mechanics of Materials)\n高等工程热力学 (Advanced Thermal Engineering)\n工程参数测量 (Engineering Measurements)\n工程计算方法 (Computational Methods in Engineering)\n供应链分析与设计 (Supply Chain Analysis & Design)\n高等材料工程 (Advanced Materials Engineering)\n质量工程 (Quality Engineering)\n系统仿真与建模 (Systems Simulation & Modeling)\n虚拟设计与制造 (Virtual Design and Manufacturing)\n高等计量与传感系统 (Advanced Metrology & Sensing System)\n精密工程基础 (Fundamentals of Precision Engineering)\n超精密与微机械加工工艺 (Ultraprecision & Micromachining Processes)\n精密机械设计 (Precision Mechanism Design)\n微型机电系统 (Micro Electro Mechanical Systems)\n光学设计 (Optical Design)",
+  "success_cases": ""
+}

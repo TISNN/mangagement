@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "石油与天然气工程理学硕士",
+  "ename": "MSc Oil and Gas Engineering",
+  "tags": "工科,能源,工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要工程学或物理学分支专业背景\n学校也可能考虑具有High 2:2荣誉学位并且能够证明具备2年以上的相关石油和天然气行业经验以及强烈动机的申请者\n学习背景必须涵盖的重点科目：数学\n需要申请ATAS",
+  "objectives": "阿伯丁大学石油与天然气工程理学硕士课程由欧洲能源之都中心提供，为学生提供关键技术的理论和实践基础，以从事上游和下游石油和天然气行业的职业。阿伯丁大学石油与天然气工程理学硕士项目旨在培养该行业的未来领导者。所讲授的广泛学科，包括工程，地质和化学，可确保学生对行业生命周期的所有关键要素以及所需的工程学各个领域有深刻的了解，以了解他们如何共同完成项目安全高效。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "油藏工程 (Reservoir Engineering)\n安全与风险管理 (Safety & Risk Management)\n石油地球科学基础 (Fundamentals of Petroleum Geoscience)\n项目管理 (Project Management)\n设备工程 (Facilities Engineering)\n流动安全保障 (Flow Assurance)\n石油与天然气化学 (Oil and Gas Chemistry)\n钻井与采油工程 (Well and Production Engineering)\n个人项目（石油与天然气工程） (Individual Project (Oil and Gas Engineering))",
+  "success_cases": ""
+}

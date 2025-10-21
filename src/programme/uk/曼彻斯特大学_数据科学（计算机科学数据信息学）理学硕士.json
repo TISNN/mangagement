@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "数据科学（计算机科学数据信息学）理学硕士",
+  "ename": "MSc Data Science (Computer Science Data Informatics)",
+  "tags": "理科,数据科学,社会科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有High 2:1荣誉学位或同等学历\n学校要求所有申请者都具备很强的计算机科学背景，例如扎实的编程和软件开发技能，通常要求具有计算机科学背景的一等或strong 2:1荣誉学位或同等学历，或至少包含50%计算机科学内容的联合学位。如果学生在计算机科学课程中一直表现优异，学校可能会考虑具有较低学位的申请者，具有丰富的计算机科学行业经验和计算机科学荣誉学位或同等学历的申请者也可能被考虑录取\n在申请中应该表现出在以下三个领域的能力、知识和/或兴趣：数据分析和/或统计学；计算学科；和细分方向的具体要求。这些可以通过本科阶段和高中阶段的修读过的课程单元或专业经验来证明",
+  "objectives": "曼彻斯特大学数据科学理学硕士不同分支的课程范围反映了课程的跨学科性质，欢迎有不同学科背景的学生申请，包括：商业和管理；健康科学；社会科学；地理位置；规划；计算机科学；数学。曼彻斯特大学数据科学理学硕士项目为学生提供核心数据科学技能培训，并将其嵌入路径提供的学科背景中，学生将发展：计算技能；数据分析能力；数据管理技能和知识；工程设计能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字生物学原理 (Principles of Digital Biology)\n健康信息学导论 (Introduction to Health Informatics)\n数据工程 (Data Engineering)\n高维数据的建模和可视化 (Modelling and Visualisation of High-Dimensional Data)\n文字挖掘 (Text Mining)\n计算机视觉 (Computer Vision)",
+  "success_cases": ""
+}

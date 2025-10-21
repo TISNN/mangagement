@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "高级材料科学理学硕士",
+  "ename": "MSc Advanced Materials Science",
+  "tags": "工科,材料,数学与物理科学学院",
+  "introduction": "专业方向: 材料\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的二等学士学位或同等学历，需要ATAS认证，强烈建议有作品集的申请者在申请时提交该材料",
+  "objectives": "随着世界人口的增长，社会越来越需要能够开发具有先进性能的新型材料、应对能源业及医疗保健业的关键问题、运用科学发现于商业领域的科学家与企业家。伦敦大学学院高级材料科学理学硕士项目融合了伦敦大学学院各院系的前沿研究性教学，培养下一代材料科学家。\n伦敦大学学院高级材料科学理学硕士项目旨在培养学生深入全面理解材料科学和相关顶尖技术，使学生理解材料的结构、性能与应用，使学生具备见识和能力以成为领域内的企业家。此外，学生将参与文学项目和六个月的前沿研究项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级材料特性 (Advanced Materials Characterisation)\n高级材料加工和制造 (Advanced Materials Processing and Manufacturing)\n材料设计、选择和探索 (Materials Design、Selection and Discovery)\n材料科学微结构控制 (Microstructural Control in Materials Science)\n研究方法 (Research Methodology)\n能源科学和材料高级议题 (Advanced Topics in Energy Science and Materials )\n创业 (Mastering Entrepreneurship)\n材料和断裂/疲劳分析 (Materials and Fatigue/Fracture Analysis)\n材料化学模拟仿真方法 (Simulation Methods in Materials Chemistry)",
+  "success_cases": ""
+}

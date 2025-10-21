@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "生物医学工程学理学硕士",
+  "ename": "MSc Engineering for Biomedicine",
+  "tags": "工科,生物工程,生物工程学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有2:1学位，需要临床科学、生命科学或物理科学学科背景（包含大量人类生物学内容）\n来自物理科学背景的学生可能希望考虑MSc Biomedical Engineering的方向之一\n被授予未分等级的临床学位（如MBBS, MBChB和MChD/BChD）的申请者应表现出良好的学术成绩（通常在其医学院群体中排名前50%），如果已获得分等级的嵌入式学位，成绩至少需要达到2:1\nA-level数学成绩达到Grade A（或同等水平）",
+  "objectives": "生物工程师在应对现代医疗挑战方面一向处于领先地位——从快速测试技术的发展到设计新的救生设备。而生物工程是工程学和医学的结合。它融合了工程学、生物学和医学方面的知识，通过跨学科活动改善生活。在当今世界，共同努力解决全球卫生问题比以往任何时候都更加重要。帝国理工学院生物医学工程学理学硕士课程帮助优秀的临床和生命科学专业毕业生发展其技能、加深对生物医学工程的理解，使他们能够将这些技能和知识应用于救生技术的开发，让学生用综合的、多学科的方法分析和解决生物工程中的问题。在课程中，学生将收获专业知识，并能通过与其他课程的学生交流分享自己的技能和知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物医学工程基础 (Fundamentals of Biomedical Engineering)\n研究统计与计算方法 (Statistical and computational methods for research)\n生物医学成像原理 (Principles of Biomedical Imaging)\n医疗器械认证 (Medical Device Certification)\n读书报告会 (Journal club)\n高级生理监测 (Advanced physiological monitoring)\n生物工程师用生物材料 (Biomaterials for Bioengineers)\n医疗器械与创业 (Medical device entrepreneurship)\n仿生学 (Biomimetics)\n癌症生物工程疗法 (Bioengineering Approaches to Cancer)\n骨科生物力学 (Orthopaedic Biomechanics)\n组织工程与再生医学 (Tissue engineering and regenerative medicine)",
+  "success_cases": ""
+}

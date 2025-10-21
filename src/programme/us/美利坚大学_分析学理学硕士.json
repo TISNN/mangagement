@@ -1,0 +1,12 @@
+{
+  "school_name": "美利坚大学",
+  "major_name": "分析学理学硕士",
+  "ename": "MS in Analytics",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1-2年\n项目学费: 61,578美元",
+  "requirements": "暂无",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

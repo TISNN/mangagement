@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "发展语言学理学硕士",
+  "ename": "MSc Developmental Linguistics",
+  "tags": "社科,语言,哲学、心理学与语言科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，最好是语言学、心理学或相关学科背景",
+  "objectives": "爱丁堡大学发展语言学理学硕士项目主要研究语言知识在人们生活阶段中的习得、改变以及健忘方式，针对语言学或心理学背景的学生开设，帮助学生结合现代语言学理论，从认知角度探索语言变化，深化自己当前掌握的语言习得知识（第一第二语言、双语以及有障碍的语言学习）。通过加入学术活泼的发展语言学家研究团体，学生将解决有关语言发展和双语领域的实务问题，如“儿童如何学习语言？”或者“当我们忘记语言时会发生什么？”\n爱丁堡大学发展语言学理学硕士项目的优势：\n研究范围（广泛研究第一语言、第二语言及双语习得）；\n跨学科教学（教学内容涉及语言学、心理学和信息学）；\n专业技能培训（设置方法论课程、实验室会议及研究课题）",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "音系学与语音学导论 (Introduction to Phonology and Phonetics)\n句法导论 (Introduction to Syntax)\n母语习得 (First Language Acquisition)\n二语习得 (Second Language Acquisition)\nR单变量统计与方法 (Univariate Statistics and Methodology Using R)\n发展语言学研究方法 (Research Methods in Developmental Linguistics)\n语句理解 (Sentence Comprehension)\n语篇理解 (Discourse Comprehension)\n语言生成 (Language Production)\n语言起源与演进 (Origins and Evolution of Language)\n模拟语言 (Simulating Language)\n语言学习心理学 (Psychology of Language Learning)\n儿童双语：语言与认知 (Child Bilingualism: Language and Cognition)\n发育性语言障碍 (Developmental Language Disorders)\n实验室语言演进 (Language Evolution in the Lab)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "笔译与口译研究文学硕士",
+  "ename": "MA Translation and Interpreting Studies",
+  "tags": "社科,语言,艺术、语言与文化学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 31000英镑/年",
+  "requirements": "通常具有一等或2:1荣誉学位或同等学历，需要人文学科领域背景",
+  "objectives": "曼彻斯特大学笔译与口译研究文学硕士项目旨在帮助学生掌握从事翻译工作或其他需要跨文化交流专业知识的职业所需的知识和技能。本项目适合准备从事语言服务工作的学生。曼彻斯特大学笔译与口译研究文学硕士项目涵盖商业翻译、视听翻译、创作、文学翻译、翻译项目管理、技术翻译、为国际组织进行翻译等多个领域。学生还可以选择发展商业和公共服务的对话口译技能。课程还提供翻译技术方面的实用培训，包括字幕工具、翻译记忆、术语管理和机器翻译。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "翻译与口译研究I (Translation and Interpreting Studies I)\n研究方法（笔译研究） (Research Methods (Translation and Interpreting Studies) I)\n研究方法（翻译研究）II (Research Methods (Translation Studies) II)\n视听翻译 (Audiovisual Translation I)\n文学翻译：语境与挑战 (Literary Translation: Contexts and Challenges)\n商业翻译 (Commercial Translation)\n国际组织翻译 (Translating for International Organisations)\n翻译技术 (Translation Technologies)\n公共服务口译 (Public Service Interpreting)\n商务对话翻译 (Dialogue Interpreting for Business)\n翻译与媒体文化 (Translation and Media Culture)",
+  "success_cases": ""
+}

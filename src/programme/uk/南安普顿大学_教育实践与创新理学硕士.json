@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "教育实践与创新理学硕士",
+  "ename": "MSc Education Practice and Innovation",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 25400英镑/年",
+  "requirements": "具有2:1学位以及至少3个月工作经验，其中应该包括与学习者群体的互动，而不是个人辅导",
+  "objectives": "南安普顿大学教育实践与创新理学硕士项目研究专业发展、教育包容性，重点当代创新教学模式。该课程为那些希望推动变革并以包容的方式有所作为的教师准备的。在该硕士课程中，学生将学习如何应对不同类型学习者的教学需求，让所有学生都有平等的机会充分发挥自己的潜力。这是一门以研究为重点的课程，因此学生需要评估教育和社会科学研究的影响，以及它如何影响教育战略和政策。学生将学会根据要培养的关键技能，利用研究证据分析不同的教学和学习方法，改进实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学习与教学 (Learning and Teaching)\n教育研究：实践与方法 (Education Research: Practice and Methods)\n教育研究 (Understanding Education Research)\n教育的包容性实践 (Inclusive Practices in Education)\n全球化和教育政策 (Globalisation and Education Policy)\n教育的社会背景与终身学习 (The Social context of education and lifelong learning)\n学位论文 (Dissertation)\n研究教学创新 (Investigating Innovations in Learning and Teaching)",
+  "success_cases": ""
+}

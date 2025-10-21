@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "空气动力学与计算理学硕士",
+  "ename": "MSc Aerodynamics and Computation",
+  "tags": "理科,物理,工程学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位，需要工程、数学、物理科学或相关学科背景\n需要在以下主题列表中的2门课程中成绩达到2:1\n- 流体动力学\n- 流体力学\n- 空气动力学\n- 航空学\n- 流体热力学\n需要ATAS认证\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学空气动力学与计算理学硕士项目为期一年，探讨了空气动力学的学科基础，专注于数值方法、湍流物理及其计算，旨在使学生掌握流动物理学，提升运用最先进计算工具促进产业设计的能力。南安普顿大学空气动力学与计算理学硕士项目中的课程包括：赛车空气动力学、风空气动力学、高超音速和高温气体动力学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "空气热力学 (Aerothermodynamics)\n高级计算方法1 (Advanced Computational Methods I)\n计算流体力学应用 (Applications of CFD)\n湍流：物理和建模 (Turbulence: Physics and modelling)\n流量控制 (Flow Control)\n赛车空气动力学 (Race Car Aerodynamics)\n数理方法 (Numerical Methods)\n硕士研究项目 (MSc Research Project)\n机翼空气动力学 (Wing Aerodynamics)\n高级计算方法2 (Advanced Computational Methods II)\n气动声学 (Aeroacoustics)\n生物流 (Biological Flow)\n搜索和优化设计—原理、方法、参数化和案例研究 (Design Search and Optimisation (DSO) - principles、methods、parameterizations and case studies)\n航空动力学实验方法 (Experimental Methods for Aerodynamics)\n高超音速和高温气体动力学 (Hypersonic and High Temperature Gas Dynamics)",
+  "success_cases": ""
+}

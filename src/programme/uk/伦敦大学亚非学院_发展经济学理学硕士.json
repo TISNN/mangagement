@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学亚非学院",
+  "major_name": "发展经济学理学硕士",
+  "ename": "MSc Development Economics",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 25320英镑/年",
+  "requirements": "具有经济学学科背景",
+  "objectives": "伦敦大学亚非学院经济系的所有课程都运用了发展的视角进行相关研究。伦敦大学亚非学院发展经济学理学硕士项目的学生将修读宏观经济学、微观经济学、定量方法和经济增长课程。此外，学生还需学习三门选修课程，并完成应用经济学领域的一篇学位论文。\n伦敦大学亚非学院发展经济学理学硕士项目旨在：\n培养学生运用经济分析原理设计经济政策；\n培养学生掌握技术与分析技能，使学生能够胜任经济学专家的工作；\n促进实践中的经济学专家完善和更新自己的技能与知识；\n教授学生技能与知识，促使学生能够继续攻读博士学位。\n伦敦大学亚非学院发展经济学理学硕士项目的学生能够从发展经济学专家的教学中受益良多。更广义地说，伦敦大学亚非学院发展经济学理学硕士项目中的政治经济发展系列研讨会及其他开放性讲座都能让学生从中获益。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "宏观经济学 (Macroeconomics)\n微观经济学 (Microeconomics)\n增长与发展 (Growth and Development)\n计量经济学 (Econometrics)\n先进的宏观计量经济学 (Advanced Macroeconometrics)\n先进的微观计量经济学 (Advanced Microeconometrics)\n非洲的经济发展：微观经济方法 (Economic development of Africa: microeconomic approaches)\n非洲经济发展：宏观经济方法 (Economic development of Africa: macroeconomic approaches)\n中东发展与变化的政治经济学 (Political Economy of Development and Change in the Middle East)\n当代中东政治经济学专题 (Topics in the Political Economy of Contemporary Middle East)\n中国与世界发展 (China and World Development)\n中国的经济转型 (China's Economic Transformation)",
+  "success_cases": ""
+}

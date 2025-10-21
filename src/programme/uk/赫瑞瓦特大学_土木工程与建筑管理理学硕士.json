@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "土木工程与建筑管理理学硕士",
+  "ename": "MSc Civil Engineering and Construction Management",
+  "tags": "工科,土木工程,能源、地球科学、基础设施与社会学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 25480英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科背景，并有证据表明了解水、结构、岩土或材料等科目。学位还必须包括一些数字知识\n具有建筑元素的学位可能会因具有数学、数字或工程内容的证据而受到学校考虑\n学校可能会根据简历考虑具有相关行业经验的申请人",
+  "objectives": "赫瑞瓦特大学土木工程与建筑管理理学硕士课程利用了我们国际认可的建设项目管理课程的经验，并将其与我们备受瞩目的土木工程研究生课程相结合，以提供广泛而有价值的教育。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目管理：理论与实践 (Project Management: Theory and Practice)\n价值与风险管理 (Value and Risk Management)\n建筑财务管理 (Construction Financial Management)\n项目管理战略问题 (Project Management Strategic Issues)\n钢筋混凝土结构的高级设计 (Advanced Design of Reinforced Concrete Structures)\n地面工程 (Ground Engineering)\n结构动力学与地震工程 (Structural Dynamics and Earthquake Engineering)\n结构材料 (Structural Materials)\n环境水文学与水资源 (Environmental Hydrology and Water Resources)\n钢和钢-混凝土复合结构的高级设计 (Advanced Design of Steel and Steel-Concrete Composite Structures)\n混凝土和钢材的计算建模 (Computational Modelling of Concrete and Steel)\n环境岩土工程 (Environmental Geotechnics)\n供水系统分析 (Water Supply System Analysis)",
+  "success_cases": ""
+}

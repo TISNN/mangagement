@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "言语、语言与社会语言学理学硕士",
+  "ename": "MSc Speech, Language & Sociolinguistics",
+  "tags": "社科,语言,批判研究学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 25320英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要语言学、英语、其他现代语言、心理学、英语语言教学、计算机科学或任何其他相关学科背景，学校也将接受其他学科申请者需要提交1篇书面作品样本（约2000字）",
+  "objectives": "格拉斯哥大学言语、语言与社会语言学理学硕士项目主要探索日常互动中演讲和语言之间的关系，向学生传授语言、技术和研究技能，并应用于口语与书面语当中，使得学生可以深入研究社会语言，并设计和实施自己的语言实验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "英语语言与语言学研究训练（核心课程） (English Language and Linguistics Research Training (core course))\n主题课程（语音学或社会语言学） (Topics course (Phonetics or Sociolinguistics))\n实验设计与数据分析（核心课程） (Experimental Design and Data Analysis (core course))\n方法课程（语音学或社会语言学） (Methods course (Phonetics or Sociolinguistics))\n独立研究项目 (Independent research project)",
+  "success_cases": ""
+}

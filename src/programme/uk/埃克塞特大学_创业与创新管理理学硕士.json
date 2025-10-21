@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "创业与创新管理理学硕士",
+  "ename": "MSc Entrepreneurship and Innovation Management",
+  "tags": "商科,创业与创新,商学院",
+  "introduction": "专业方向: 创业与创新\n入学时间: 9月\n项目时长: 1年\n项目学费: 30700英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，不限专业背景。如果申请者具有丰富的相关工作经验，也会被考虑",
+  "objectives": "本学位将使学生对最新的初创企业和技术思维拥有理论理解，掌握驾驭复杂未来和引领业务增长的实用技能。项目旨在培养学生的业务技能，使学生能够处理不确定因素，制定稳健的计划。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "创业企业 (Entrepreneur Business Startup)\n创业实践 (Entrepreneurial Practice)\n敏捷创新 (Agile Innovation)\n运营和项目管理 (Operations and Project Management)\n资金、会计和财务 (Funding, Accounting and Finance)\n商法与风险缓释 (Business Law and Mitigating Risk)\n组织中的人才 (Talent in Organisations)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "数据科学理学硕士",
+  "ename": "MSc Data Science",
+  "tags": "理科,数据科学,计算机科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 32400英镑/年",
+  "requirements": "具有2:1学位或同等学历，通过在申请中详细说明先前的学习或实践经验证明对编程和/或高级统计学有浓厚兴趣\n其他领域背景的毕业生如果具备很强的数学和/或计算机科学背景并且平均分数达到60%，其申请将会被考虑",
+  "objectives": "诺丁汉大学数据科学理学硕士课程将由计算机科学和数学科学学院教授。授课老师将依据他们在领域内的国际质量研究，来教授学生这个领域的最新技术。课程可以发展提升学生在统计建模、机器学习和高级算法等关键主题方面的知识，并提供一系列灵活的可选模块。这使学生可以研究自己感兴趣的主题。学生将在自己选择的领域进行个人研究项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "机器学习 (Machine learning)\n知识表示和推理 (Knowledge representation and reasoning )\n高级算法和数据结构 (Advanced algorithms and data structures)\n决策支持模拟和优化 (Simulation and optimisation for decision support)\n数据建模和分析 (Data modelling and analysis)\n职业道德 (Professional ethics in computing )\n并行计算  (Parallel computing )\n程序设计 (Programming)",
+  "success_cases": ""
+}

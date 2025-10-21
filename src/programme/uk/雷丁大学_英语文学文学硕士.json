@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "英语文学文学硕士",
+  "ename": "MA English Literature",
+  "tags": "社科,文化,英语文学系",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 25850英镑/年",
+  "requirements": "具有本科一等荣誉学位，或具有本科二等荣誉学位且在最后一年的课程中至少有50%达到2:1的成绩",
+  "objectives": "雷丁大学英语文学硕士项目涵盖文艺复兴时期到少数民族文学时期当代英国的文学发展，是从事英语文学学习与研究的起航点。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "现代英语研究 (Modern English Studies)\n物质性与文本化 (Materiality and Textuality)\n贝克特 (Beckett)\n创意写作 (Creative and Critical Writing)\n英国少数民族文学：思想流放 (Diasporas of the Mind – Minority Literature in Britain)\n前现代时期：身份与差异性 (Identity and Otherness in the Early Modern Period)\n文学与新科学 (Literature and the New Science)\n菲利普罗斯 (Philip Roth)\n莎士比亚笔下的伦敦：无规矩的舞台 (The Unruly Stage in Shakespeare’s London)\n维多利亚时代的创新 (Victorian Innovations)\n王尔德 (Wilde)",
+  "success_cases": ""
+}

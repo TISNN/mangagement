@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "工程与管理理学硕士",
+  "ename": "MSc Engineering with Management",
+  "tags": "工科,工程管理,自然、数学与工程科学学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 37800英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，需要工程学或其他相关学科（如物理学、数学、计算机科学）的理学学士或工学学士\n学校也欢迎专业或职业资格并将基于具体情况予以考虑",
+  "objectives": "伦敦大学国王学院工程与管理理学硕士项目将为学生提供现代工程的实践和理论知识，以及管理技术及其在工程领域的应用基础。本课程将为学生在工程领域的管理层职业生涯做好准备。该课程将为学生准备工程管理课程。学生将学习运营和项目管理的关键领域，这将使他们掌握如何使用数学建模和优化方法来解决一系列问题的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "个人项目（工程或信息学） (Individual Project (in Engineering or Informatics))\n管理学原理 (Principles of Management)\n运营管理 (Operational Management)\n项目管理 (Project Management)\n生物启发方法 (Biologically Inspired Methods)\n实时系统与控制 (Real-Time Systems & Control)\n机器人系统 (Robotic Systems)\n传感器和执行器 (Sensors & Actuators)\n计算机视觉 (Computer Vision)\n模式识别 (Pattern Recognition)\n网络优化方法 (Network Optimisation Methods)\n优化方法 (Optimization Methods)\n数字信号处理基础 (Fundamentals of Digital Signal Processing)\n数据和信号分析专题 (Topics on Data and Signal Analysis)\n安全工程 (Security Engineering)",
+  "success_cases": ""
+}

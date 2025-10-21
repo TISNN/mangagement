@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "新闻学硕士",
+  "ename": "Master of Journalism",
+  "tags": "社科,新闻,社会科学学院",
+  "introduction": "专业方向: 新闻\n入学时间: 9月\n项目时长: 1年\n项目学费: 255000港币/年",
+  "requirements": "具有学士学位或同等学历，有新闻工作经验者优先考虑",
+  "objectives": "香港大学新闻及传媒研究中心致力于促进亚洲新闻业的卓越发展，在国际媒体发出亚洲声音。香港大学新闻学硕士课程旨在提供专业的高水准新闻学教育，为本地、亚洲及全球培养毕业生。\n香港大学新闻学硕士课程特色在于：以国际化、重实践、数字媒体为特色，提供全英的综合性融合媒体课程；旨在培养学生在数字媒体的变革下，掌握跨平台处理信息的能力，具备批判性思维，并能将新闻素养应用到各行各业；学生不仅要接受新闻报道与写作等核心技能训练，而且要求掌握融合媒体技术，比如制作广播电视新闻、网络新闻、纪录片、摄影等。为了增强学生的竞争力，香港大学新闻学硕士课程还设置了跨学科课程和研究项目，例如新闻法、财经新闻、中国报道、公共卫生/科技/环境报道等。另有非常广泛的科目可供学生选修，如商科、金融、法律等。新闻学硕士课程吸引了来自全球各地的学生报读，由富有业界经验和国际背景的老师亲身教授。 学生拥有全球各地媒体实习的机会。我们的毕业生不仅能够获得香港、中国大陆、美国等全球一流媒体机构的聘用，而且在公关、法律、商业等其他行业也表现卓越。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "新闻报道与写作 (News Reporting & Writing)\n报道中国 (Covering China)\n报道气候变化 (Covering Climate Change)\n长篇与专题写作 ( Long Form & Feature Writing)\n全球财经新闻 (Global Financial Journalism)\n全球化时代的商业新闻解读与运用 (Interpreting & Using Business Journalism in a Global Era)\n人工智能与媒体创新 (Al & Media Innovation)\n 资料新闻 (Data Journalism)\n记者掌握社交媒体 (Mastering Social Media for Journalists)\n新闻素养与数字事实核查 (News literacy & Digital Factchecking )\n媒体学研究方法 (Research Methods for Media Studies)\n媒体数据分析 ( Media Data Analysis)\n视频新闻制作 (Video News Production)\n媒体应用中的生成式人工智能 (Generative Al in Media Applications)\n高级视频制作 (Advanced Video Production)\n多媒体制作 (Multimedia Production)\n为电视新闻写作与制片 (Writing & Producing for TV news)\n纪录片鉴赏 (Documentary Film Appreciation)\n播客与音频新闻 (Podcasting & Audio News)",
+  "success_cases": ""
+}

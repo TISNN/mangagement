@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "金融工程理学硕士",
+  "ename": "MSc Financial Engineering",
+  "tags": "商科,金工金数,风险管理学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 8月\n项目时长: 1年\n项目学费: 64000新币/年",
+  "requirements": "具有良好的4年制本科学位或荣誉学位，可选择性提交GMAT或GRE，有相关工作经验者优先考虑，需要存款证明58,000新币",
+  "objectives": "新加坡国立大学金融工程理学硕士课程是一项跨学科课程，融合了金融学、数学和计算机学科，以实践为导向，力求解决金融领域的问题。金融工程理学硕士课程由新加坡国立大学风险管理研究所的前身——金融工程中心开设于1999年，旨在让金融领域和银行业的专业人士和应届毕业生掌握金融创新科技方面的先进知识。金融工程学科领域的知识包括金融产品开发、价格建模、套期保值、投资技术、风险分析与计算方法。在众多的金融工程硕士课程中，新加坡国立大学风险管理研究所的金融工程理学硕士课程独领风骚，力求将学员塑造成实干家，让他们不仅能够掌握必要的金融工程理论知识，还能够掌握专业的实践知识，有效地解决金融领域的复杂问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "衍生品和固定收益 (Derivatives and Fixed Income)\n风险分析和管理 (Risk Analyses and Management)\n金融工程项目 (Financial Engineering Project)\n随机微积分和定量方法 (Stochastic Calculus and Quantitative Methods)\n编程和高级数值方法 (Programming and Advanced Numerical Methods)\n金融计量 (Financial Econometrics)\n企业融资和风险 (Corporate Financing and Risk)\n投资组合理论和投资 (Portfolio Theory and Investments)\n期限结构和利率衍生品 (Term Structure and Interest Rate Derivatives)\n金融学研究方法 (Research Methods in Finance)\n金融工程研讨会 (Seminar in Financial Engineering)\n信用风险 (Credit Risk)\n交易原则和基本原理 (Trading Principles & Fundamentals)\n高级金融衍生品定价 (Advanced Derivatives Pricing)\n电子金融市场导论 (Introduction to Electronic Financial Market)",
+  "success_cases": ""
+}

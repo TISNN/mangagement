@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "心理学（社会心理学）理学硕士",
+  "ename": "MSc Psychology (Social Psychology)",
+  "tags": "社科,心理学,心理学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30300英镑/年",
+  "requirements": "具有2:1学位，需要心理学或相关学科（能够证明包含定量研究技能）背景",
+  "objectives": "在南安普顿大学心理学（社会心理学）理学硕士项目将使用统计软件包 R 等工具学习各种研究方法和技术。学生将探索该领域的最新发展并学习：\n对特定主题、问题和方法的深入了解\n如何将自己的研究与心理问题联系起来并应用\n如何分析和交流复杂的想法\n如何创造性地规划和管理项目\n学生将与心理学院的国际知名心理学研究人员一起工作。在学徒期间，学生将获得大量进行持续部门研究的实践经验。当学生成功完成学位后，将有能力攻读认知心理学博士学位或从事数据科学职业。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "心理学高级统计方法 (Advanced Statistical Methods in Psychology)\n应用研究方法（ARM）：相关方法 (Applied Research Methods (ARM): Correlational Methods)\n应用研究方法（ARM）：规划与设计研究 (Applied Research Methods (ARM): Planning & Designing Research)\n应用研究方法：定性方法 (Applied Research Methods: Qualitative Methods)\n应用研究方法：比较和群体差异的统计分析 (Applied Research Methods: Statistical Analysis of Comparisons & Group Differences)\n概念与技能 (Concepts & Skills)\n证据综合 (Evidence Synthesis)\n认知心理学硕士论文 (MSc Dissertation in Cognitive Psychology)\n社会心理学硕士论文 (MSc Dissertation in Social Psychology)\n道德心理学 (Moral Psychology)\n心理学开放科学 (Open Science in Psychology)\n认知心理学研究学徒 (Research Apprenticeship in Cognitive Psychology)\n社会心理学研究学徒 (Research Apprenticeship in Social Psychology)\nR 中的统计编程 (Statistical Programming in R)",
+  "success_cases": ""
+}

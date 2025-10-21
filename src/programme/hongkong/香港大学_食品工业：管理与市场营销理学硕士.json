@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "食品工业：管理与市场营销理学硕士",
+  "ename": "MSc Food Industry: Management and Marketing",
+  "tags": "工科,食品科学,理学院",
+  "introduction": "专业方向: 食品科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 195000港币/年",
+  "requirements": "具有理科学士学位或同等学历，偏好食品科学、营养学、食品安全、食品技术或其他相关专业背景",
+  "objectives": "香港大学食品工业：管理与市场营销理学硕士是生物科学学院提供的一年全日制研究生课程，目标是为在食品工业工作或计划在食品工业工作的食品/营养科学毕业生提供管理技能和市场研究方法的高级培训。香港大学食品工业：管理与市场营销理学硕士项目强调在食品加工、包装、储存和分配、废物管理和控制、市场研究、财务规划、组织文化、产品开发和评价以及遵守食品法律和法规方面的质量保证和安全管理的实际方法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "质量保证与管理 I (Quality assurance and management I )\n质量保证与管理 II (Quality assurance and management II)\n发展食品技术 (Advance food technology )\n食品产品开发与营销 (Food product development and marketing)\n未来食品 (Future food)\n营销管理 (Marketing management)\n财政规控 (Financial control)\n组织行为学 (Organisational behaviour)\n项目 (Project)",
+  "success_cases": ""
+}

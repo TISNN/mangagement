@@ -1,0 +1,12 @@
+{
+  "school_name": "南卫理公会大学",
+  "major_name": "运筹学硕士",
+  "ename": "MS in Operations Research",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 30学分\n项目学费: 1,200美元/学分",
+  "requirements": "本科毕业专业为工程、数学、计算机科学、经济学，本科课程有6个学分的微积分，3个学分的线性代数和3个学分的高级语言计算机编程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

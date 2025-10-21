@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "哲学文学硕士",
+  "ename": "MA Philosophy",
+  "tags": "社科,哲学,艺术与人文学院",
+  "introduction": "专业方向: 哲学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30000英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，需要哲学或任何其他领域背景，跨专业申请的学生应该表现出对该学科的兴趣和能力\n需要提交1篇writing sample（约3000字）",
+  "objectives": "伦敦大学国王学院哲学文学硕士项目为学生提供了广泛的主题，涵盖了从苏格拉底之前到今天的没有任何差距的哲学。该项目既适合哲学毕业生拓展其哲学基础，也适合拥有相关学科学士学位的学生，向他们介绍跨哲学领域的关键概念、论点和文本，同时将他们的水平提升到选定专业领域的高水平。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学位论文 (Dissertation)\n早期现代哲学 (Early Modern Philosophy)\n分析哲学基础 (Foundations of Analytic Philosophy)\n现象学基础 (Foundations of Phenomenology)\n希腊哲学1：柏拉图 (Greek Philosophy I: Plato)\n希腊哲学2：亚里士多德 (Greek Philosophy II: Aristotle)\n希腊哲学3：专题 (Greek Philosophy III: Special Topics)\n印度哲学1：正统派 (Indian Philosophy I: The Orthodox Schools)\n印度哲学2：异端学派 (Indian Philosophy II: The Heterodox Schools)\n康德1：纯粹理性批判 (Kant I: Critique of Pure Reason)\n康德2：道德哲学 (Kant II: Moral Philosophy)\n中世纪哲学 (Medieval Philosophy)\n十九世纪大陆哲学 (Nineteenth-century Continental Philosophy)\n二十世纪大陆哲学 (Twentieth-century Continental Philosophy)\n美学 (Aesthetics)",
+  "success_cases": ""
+}

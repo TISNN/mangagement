@@ -1,0 +1,12 @@
+{
+  "school_name": "哈佛大学",
+  "major_name": "环境卫生硕士",
+  "ename": "MS in Environmental Health",
+  "tags": "工科,环境工程",
+  "introduction": "专业方向: 环境工程\n入学时间: 秋季\n项目时长: 2年\n项目学费: 50496 美元/年\n平均G: 60%",
+  "requirements": "通过 SOPHAS系统申请,申请材料在截止日期之前提交完成",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

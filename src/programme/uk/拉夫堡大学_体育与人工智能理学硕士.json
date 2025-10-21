@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "体育与人工智能理学硕士",
+  "ename": "MSc Sport and Artificial Intelligence",
+  "tags": "工科,计算机,数字技术研究所",
+  "introduction": "专业方向: 计算机\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有2:1荣誉学位（最后一年成绩至少达到60%）或同等学历\n不限专业背景，不需要计算背景",
+  "objectives": "从预测分析到球员招募和球迷参与，人工智能正在改变体育产业，使运动员和更广泛的社区都受益，拉夫堡大学体育与人工智能理学硕士课程面向希望利用人工智能在体育领域的变革潜力并且不需要事先进行技术培训的学生，课程将为学生提供所需的技术和关键技能，以了解人工智能如何改变我们的社会，以及这对体育产业意味着什么。\n沉浸在数字技能和运动中，学生将获得编程、算法和大型语言模型的实践知识，并对智能机器如何重建世界有一个批判性的理解，并把这些见解应用到设计领域，并学习人工智能在最近的技术进步之前如何以难以想象的方式将运动员、团队和球迷联系起来。拉夫堡大学体育与人工智能理学硕士课程由一流学者授课，学生将从数字技术研究所的世界级人工智能学者和体育商业研究所的思想领袖那里学习，有机会将学到的知识应用到现实世界的场景中，并在伦敦建立一个网络，伦敦被评为世界上最受人工智能驱动的城市，也是人工智能教育机会最佳的城市。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "体育分析概论 (An Introduction to Sport Analytics)\n人工智能与数据分析原理 (Principles of Artificial Intelligence and Data Analytics)\n重大挑战 (Grand Challenges)\n数字应用开发 (Digital Application Development)\n人工智能与社会 (Artificial Intelligence and Society)\n体育产业的研究与洞察 (Research and Insight in the Sport Industry)\n合作项目 (Collaborative Project)\n论文 (Dissertation)\n体育商业的新媒体与分析 (New Media and Analytics for Sport Business)\n体育生态学 (Sport Ecology)",
+  "success_cases": ""
+}

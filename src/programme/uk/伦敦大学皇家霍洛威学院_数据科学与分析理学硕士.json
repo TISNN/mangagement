@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "数据科学与分析理学硕士",
+  "ename": "MSc Data Science and Analytics",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 28500英镑/年",
+  "requirements": "需要具有相关学科背景（如计算机科学、经济学、数学、物理或者其他包含数学和计算元素的学科）",
+  "objectives": "伦敦大学皇家霍洛威学院数据科学与分析理学硕士项目由计算机科学学院开设，为学生提供处理和分析不同领域内不同数据的基本要素和实用技能，以满足广泛企业和组织（从零售商如特易购或亚马逊、到制造商如宝马，再到卫生保健供应商和公共管理）的需求。伦敦大学皇家霍洛威学院数据科学与分析理学硕士项目的毕业生将拥有以下能力和技能：解决问题的分析手段；数据建模和商业智能的有力背景；计算和数据分析的知识；机器学习、数据和数据挖掘的背景；开发、验证和高效运用机器学习模型和统计模型的技能；能够将机器学习和数据挖掘技术应用于信息检索和自然语言处理；具有与软件相关的知识和能力以完成任务并进行数据分析；运用结构化、非结构化和以时间为序列的数据的知识和能力；从数据中提取价值和洞察力的能力；工作方法和技术，如聚类、回归、支持向量机、提高、决策树、神经网络；对数据分析和机器学习的非统计方法的理解和认识；运用软件包（如数学软件）的能力；运用关系数据库、非关系型数据库，以及与分布式计算平台/Pig脚本和其他大数据处理技术的能力；运用派森、语言编辑和外壳文稿程序的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据分析 (Data Analysis)\n数据分析程序 (Programming for Data Analysis)\n数据库系统 (Database Systems)\n数据计算 (Computation with Data)\n大规模数据存储与处理 (Large-scale Data Storage and Processing)\n个人项目 (Individual Project)\n先进计算与人工智能伦理 (Ethics in Advanced Computing and Artificial Intelligence)",
+  "success_cases": ""
+}

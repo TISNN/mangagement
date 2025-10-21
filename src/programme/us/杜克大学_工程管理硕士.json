@@ -1,0 +1,12 @@
+{
+  "school_name": "杜克大学",
+  "major_name": "工程管理硕士",
+  "ename": "Master of Engineering Management",
+  "tags": "工科,工程管理",
+  "introduction": "专业方向: 工程管理\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 61272美元/年",
+  "requirements": "非工科的学生,需要学 微积分I 微积分II ,微积分III（或统计,或微积分 II 以外的其他数学课程）；\n至少两门工程、计算机科学、数学科学或物理科学课程；。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "南加州大学",
+  "major_name": "应用数学理学硕士",
+  "ename": "MS in Applied Mathematics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2年\n项目学费: 42,740美元",
+  "requirements": "申请者GPA 达到3.0以上",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

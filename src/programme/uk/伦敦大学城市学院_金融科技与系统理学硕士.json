@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "金融科技与系统理学硕士",
+  "ename": "MSc Financial Technology and Systems",
+  "tags": "商科,金工金数,数学、计算机科学与工程学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 27560英镑/年",
+  "requirements": "具有一等或二等荣誉学位，要求工程、计算机科学、经济学或数学等学科领域背景，还可以接受对统计、概率或计算机编程有一定了解的拥有金融或其他相关学科学位的申请者",
+  "objectives": "伦敦大学城市学院金融科技与系统理学硕士项目是与贝叶斯商学院的学者合作提供的，并提供使用彭博交易终端的第一手经验，学生团队可以利用分配的资金竞争投资加密股票。\n此外，该计划还允许学生与 Lloyds Banking Group、Allica Bank、Thirdfort、EarthID、MoneyHop 等一些金融科技组织密切合作，共同打造一款颠覆市场的创新金融科技产品。\n伦敦大学城市学院金融科技与系统理学硕士项目将为学生提供以下领域的知识和专业知识：\n将使学生更好地理解金融科技系统的基本设计原理\n帮助学生设计符合道德且符合监管要求的系统\n将帮助学生掌握从构思阶段到原型开发产品所需的技能\n让学生接触到金融科技行业的实际问题\n将为学生提供金融科技行业所需的网络安全和风险评估原则方面的丰富知识\n将为学生提供与开放银行相关的知识和理解以及银行和金融。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "入门模块 - 财务和会计：基础知识 (Introductory Module - Finance and Accounting: Fundamentals)\n金融科技基础 (Foundations of Fintech)\n金融大数据 (Big Data in Finance)\n网络安全、弹性和欺诈 (Cyber Security, Resilience and Fraud)\n监管合规、道德、社会价值观 (Regulatory Compliance, Ethics, Social Values)\n数字创新和金融科技初创企业 (Digital Innovation and Fintech Start-Up)\n金融市场和金融中介 (Financial Markets and Financial Intermediation)\n系统风险管理 (Systems Risk Management)\n个人项目 (Individual Project)",
+  "success_cases": ""
+}

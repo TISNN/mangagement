@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "法学硕士（常规或小方向）",
+  "ename": "LLM (General or with Specialisation)",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 220000港币/年",
+  "requirements": "具有法律学士学位或同等学历，至少达到二等荣誉学位；或\n通过英格兰与威尔士普通职业考试或大学普通职业考试，并具有学士学位或同等学历且达到二等荣誉学位\nMedical Ethics and Law以及Competition Law and Policy方向还可接受以下情况的申请者：具有法律以外学科的学士学位或同等学历并达到二等荣誉学位，并且具备至少2年相关经验或专业资格",
+  "objectives": "香港大学法学硕士课程由香港大学法学院开设，旨在满足法律各专业领域的需求，同时对香港发展起着重要作用。鉴于香港独特的地理位置，香港大学法律硕士学位课程为来自香港内外的学生提供模块化的教学。目前提供的课程模块主要包括国际贸易法、商法、中国法、信息技术法、知识产权法以及公法（包括人权法）。香港大学法学硕士学位课程在融洽、愉快而又国际化的氛围中，给予学生足够的自由度来培养自身法律兴趣与提升专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "中国法律和法律制度入门 (Introduction to Chinese law and legal system)\n中华人民共和国公司法与证券交易法 (Company law and securities regulation in the People's Republic of China)\n中国法律研讨会 (Advanced seminar on Chinese law)\n银行法 (Banking law)\n国际金融法（一） (Law of international finance 1)\n竞争、兼并和收购 (Competition, mergers and acquisitions)\n刑事司法和人权 (Criminal justice and human rights)\n发展与人权 (Development and human rights)\n国际人道主义法律 (International humanitarian law)\n知识产权与信息技术 (Intellectual property and information technology)\n国际与比较知识产权法 (International and comparative intellectual property law)\n中华人民共和国信息技术法 (PRC information technology law)\n法律、司法和意识形态 (Law, justice & ideology)\n国际商事仲裁 (International commercial arbitration)\n在线纠纷解决 (Online dispute resolution)",
+  "success_cases": ""
+}

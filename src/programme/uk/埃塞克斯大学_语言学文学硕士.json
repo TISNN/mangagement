@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "语言学文学硕士",
+  "ename": "MA Linguistics",
+  "tags": "社科,语言,语言与语言学系",
+  "introduction": "专业方向: 语言\n入学时间: 10月\n项目时长: 1年\n项目学费: 21700英镑/年",
+  "requirements": "具有2:2学位（或同等学历），需要英语语言研究-包括教育、英语语言文学、教学（英语）、语言学或现代语言背景学校将接受具备非相关领域学位但其中包含教育、语言学、语言研究和教学重要元素的申请者",
+  "objectives": "学习语言的基本要素：声音系统，单词结构，句子结构，以及如何表达意思，了解不同的理论被提出来解释人类的语言能力，通过埃塞克斯大学语言学文学硕士课程，学生将了解人类语言的共同点和不同点。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士论文 (MA Dissertation)\n语法理论 (Syntactic Theory)\n作业写作与论文准备 (Assignment Writing and Dissertation Preparation)\n音韵学发展 (Phonological Development)\n语义学 (Semantics)\n第二语言习得理论 (Theories of Second Language Acquisition)\n语言磨蚀 (Language Attrition)\n第二语言学习个体差异 (Individual Differences in L2 Learning)\n研究方法 (Research Methods)\n社会语言研究方法 (Approaches to Language in Society)\n实验分析 (Experimental Analysis)\n音系学 (Phonology)\n跨文化交流：跨语言与文化交流 (Intercultural Communication: communicating across languages and cultures)\n英语历史与变化 (History and Variation of English)\n语言与人权 (Language and Human Rights)",
+  "success_cases": ""
+}

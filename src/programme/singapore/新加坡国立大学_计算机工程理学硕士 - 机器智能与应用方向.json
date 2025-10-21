@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "计算机工程理学硕士 - 机器智能与应用方向",
+  "ename": "MSc Computer Engineering - Machine Intelligence and Applications",
+  "tags": "工科,计算机,工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/8月\n项目时长: 1.5年\n项目学费: 38587新币/年",
+  "requirements": "具有认可机构颁发的学士学位（偏好荣誉学位）或同等学历，需要相关工程学科或包含计算和应用数学内容的其他学科背景",
+  "objectives": "在新加坡国立大学计算机工程理学硕士 - 机器智能与应用方向专业中，学生将有机会探索人工智能（AI）和机器学习（ML）技术，以解决机器人、医疗保健和网络物理基础设施等领域的各种工程应用问题。随着现代工程系统采用机器智能技术，本专业灌输与工具技术相关的知识，这些工具技术将进入给定应用程序的设计过程中。在某些模块（以及必修项目模块）中，学生将有机会承担独立项目并使用现实生活中的应用程序数据进行处理。将引入各种机器学习工具来帮助处理给定工程应用的数据。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "机器学习及其应用 (Machine Learning with Applications)\n现代计算机网络 (Modern Computer Networking)\n硬件技术、原理和平台 (Hardware Technologies, Principles, & Platforms)\n进化计算 (Evolutionary Computation)\n智能自主机器人系统 (Intelligent Autonomous Robotic Systems)\n数字化技术深度学习 (Deep Learning for Digitalization Technologies)\n视觉计算 (Visual Computing)\n计算机工程项目 (Computer Engineering Project)",
+  "success_cases": ""
+}

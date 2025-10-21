@@ -1,0 +1,12 @@
+{
+  "school_name": "约翰霍普金斯大学",
+  "major_name": "金融经济硕士",
+  "ename": "MS in Financial Economics",
+  "tags": "商科,金融",
+  "introduction": "专业方向: 金融\n入学时间: 春季/秋季/夏季\n项目时长: 10门课\n项目学费: 5060美元/课",
+  "requirements": "学习过一学期微观经济学、一学期宏观经济学、一学期多元微积分和一学期统计等课程，且都取得B级及以上的成绩",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

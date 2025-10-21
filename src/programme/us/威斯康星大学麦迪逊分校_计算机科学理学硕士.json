@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯康星大学麦迪逊分校",
+  "major_name": "计算机科学理学硕士",
+  "ename": "MS in Computer Science",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 36,000美元",
+  "requirements": "鼓励具有计算机科学或相关领域背景的学生申请入学。 至少，申请人应该有一些编程经验，包括数据结构和机器组织课程，并且应该有一年的微积分或以上大学水平的数学。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

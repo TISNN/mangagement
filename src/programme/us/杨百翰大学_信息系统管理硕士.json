@@ -1,0 +1,12 @@
+{
+  "school_name": "杨百翰大学",
+  "major_name": "信息系统管理硕士",
+  "ename": "Master of Information Systems Management",
+  "tags": "商科,信息系统",
+  "introduction": "专业方向: 信息系统\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2-3学期\n项目学费: 7,932美元/学期\n平均起薪: 91,915美元",
+  "requirements": "本科获得信息系统管理或经济学相关学位，GPA达到3.0及以上（需要认证，但只接受ierf和SpanTran两家机构，不接受wes）",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

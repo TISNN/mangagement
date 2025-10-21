@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,埃塞克斯商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 10月\n项目时长: 1年\n项目学费: 25000英镑/年",
+  "requirements": "具有2:1学位。需要在毕业后具有至少3年高质量、相关、专业工作经验（课程开始前），能够证明具备管理人员、项目或预算的经验，迄今为止能够在职业生涯中取得进展，并且/或者曾参与过其他创业或社区活动。针对非标准申请者（通常是申请者的本科学位等级低于2:1，或者申请者根本不具备本科学位），要求至少5年相关管理经验，需要提供1篇Essay（2000字），概述你所经历的一系列商业情况，并确定你从中学到了什么，并将其与你的MBA学习将如何在未来类似的情况下为你提供支持联系起来。不强制要求提供GMAT，但特别欢迎GMAT不低于600分的申请者",
+  "objectives": "埃塞克斯大学工商管理硕士项目旨在培养学生的创业精神，使其能够建立对股东和环境都有意义的可持续的、有弹性的商业模式。学生将探索国际化对企业、供应商和客户的影响，并获得在需求日益增长的市场中发挥领导作用的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "战略 (Strategy)\n会计与金融 (Accounting and Finance)\n个人与组织 (People and Organisations)\n可持续经营 (Sustainable Operations)\n市场、治理与道德 (Markets, Governance and Ethics)\n数据与分析 (Data and Analytics)\n战略营销 (Strategic Marketing)\n创新与组织变革的管理 (The Management of Innovation and Organizational Change)\n创业 (Entrepreneurship)\n组织咨询：深度心理学方法 (Consulting to Organisations: Depth Psychology Approaches)\n社会企业家精神，创新与影响 (Social Entrepreneurship, Innovation and Impact)\n供应链管理 (Supply Chain Management)",
+  "success_cases": ""
+}

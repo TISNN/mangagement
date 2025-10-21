@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "法学硕士（法学博士）",
+  "ename": "LLM Law (Juris Doctor)",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 3年\n项目学费: 25800英镑/年",
+  "requirements": "具有2:2学位或同等学历，有面试，申请该课程不需要LNAT",
+  "objectives": "约克大学法学硕士（法学博士）项目将确保学生准备迎接挑战的国际职业法律。学生将被要求确定客户利益，分析法律问题，研究相关法律和程序，并制定解决方案。我们采用突破性的基于问题的学习方法进行小组教学，培养您的个人、专业和法律技能。毕业后，学生将对专业法律实践的运作方式有独特的见解。这些法律和人际交往的技能和价值观将使学生能够在最高水平和各种类型的公司中表现出色。法学博士（JD）是全球公认的法律执业入门级资格。在任何地方的要求下，完成这门课程可能是美国、澳大利亚和香港等不同司法管辖区参加律师资格考试的垫脚石。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "法律基础I (Foundations in Law I)\n法律基础II (Foundations in Law II)\n法律基础-投资组合与思考I (Foundations in Law - Portfolio and Reflections I)\n职业道德 (Professionalism and Ethics)\n法律技能 (Legal Skills)\n法律概念 (Legal Concepts)\n法律基础III (Foundations in Law III)\n法律基础IV (Foundations in Law IV)\n法律基础-投资组合与思考II (Foundations in Law - Portfolio and Reflections II)\n高级法律技能 (Advanced Legal Skills)\n环境法 (Environmental Law)\n金融犯罪 (Financial Crime)\n专业法律技能 (Professional Legal Skills)\n争议解决 (Dispute Resolution)\n法律服务、专业精神和商业意识 (Legal Services, Professionalism and Commercial Awareness)",
+  "success_cases": ""
+}

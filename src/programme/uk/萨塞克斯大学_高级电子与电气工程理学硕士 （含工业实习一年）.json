@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "高级电子与电气工程理学硕士 （含工业实习一年）",
+  "ename": "MSc Advanced Electronic and Electrical Engineering (with an industrial placement year)",
+  "tags": "工科,电气电子,工程与信息学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 2年\n项目学费: 15750英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要电气和/或电子工程背景，也可以根据具体情况考虑计算机工程和数学学科等其他相关学位，如物理或数学。如果申请者拥有其他专业资格或同等经验，也可能被考虑参加该课程",
+  "objectives": "在萨塞克斯大学高级电子与电气工程理学硕士 （含工业实习一年）项目中，学生将在配备行业标准硬件和软件的专门理学硕士实验室中学习并探索：\n先进的模拟和数字电路设计\n电力电子和电气系统\n机电系统控制\n数字信号处理\n嵌入式系统\nFPGA 可重构片上系统\n机器视觉技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "理学硕士个人项目 (MSc Individual Project)\n先进的数字信号处理 (Advanced Digital Signal Processing)\n先进电子系统 (Advanced Electronic Systems)\n机电系统控制高级主题 (Advanced Topics in Control of Electromechanical Systems)\n可重构片上系统 (Reconfigurable System on Chip)\n物联网与嵌入式系统实践 (Internet-of-Things and Embedded System Practice)\n营销分析和财务战略规划 (Marketing Analysis and Financial Strategic Planning)\n移动通讯 (Mobile Communications)\n图像处理 (Image Processing)\n可穿戴技术 (Wearable Technologies)\n工业实习年份 (Industrial Placement Year)",
+  "success_cases": ""
+}

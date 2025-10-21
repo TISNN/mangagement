@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "水资源与环境管理理学硕士",
+  "ename": "MSc Water and Environmental Management",
+  "tags": "工科,环境工程,土木、航空航天与设计工程学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 32400英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要工程、科学、计算机、数学、地理、环境管理或研究、资源保护、金融、投资或经济学学科背景\n对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩\n学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用。\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们至少具备以下其中一项：\n- 重要的相关工作经验证明（至少两年），例如：担任环境或土木工程师，在公共机构从事与水或环境相关的工作，积极参与环境慈善机构志愿工作，或可能已经发展了相关技术技能的任何角色，如数据分析、GIS,、Python或其他行业相关软件；\n- 相关研究生学历\n如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关工作经验和/或资格",
+  "objectives": "布里斯托大学的水资源与环境管理理学硕士学位项目将为学生提供支持他们在水和环境管理领域职业生涯所需技能和知识的机会。该项目旨在帮助学员详细了解该行业的基本环境过程、政策、法规和其他工具。该课程的重点于如何为水资源的可持续管理和环境管理的其他方面做出贡献。课程的教学涵盖学术和实践两方面的技能，并注重提高学生的综合能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究技能1 (Research Skills 1)\n使用MATLAB进行环境统计入门 (Introduction to Environmental Statistics using MATLAB)\n使用MATLAB进行数值分析 (Numerical Analysis Using MATLAB)\n陆地水文气象 (Terrestrial Hydrometeorology)\n地表水和地下水水文学 (Surface and Groundwater Hydrology)\n环境管理，政策与法规 (Environmental Management, Policy and Regulation)\n研究技能2 (Research Skills 2)\n硕士论文 (Masters Dissertation)\n集水区综合管理 (Integrated Catchment Management)\n环境系统与生态系统服务 (Environmental Systems and Ecosystem Services)\n水利工程 (Water Resources Engineering)",
+  "success_cases": ""
+}

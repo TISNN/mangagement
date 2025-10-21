@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "营运管理学理学硕士",
+  "ename": "MSc Operations Management",
+  "tags": "商科,供应链管理,商学院",
+  "introduction": "专业方向: 供应链管理\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 207000港币/年",
+  "requirements": "具有学士学位或同等专业资格，优先考虑具备至少1年相关工作经验的申请者\n具有其他高等教育学历并且在工业、商业或公共管理部门工作不少于6年（其中3年担任管理职务）的申请者也将被考虑",
+  "objectives": "香港理工大学营运管理学理学硕士学位课程是为非商科毕业生所设计的，给他们提供管理他们所在的专业领域内事务所需的基础，并为所有学科的毕业生提供运营管理方面的深入培训。该课程将包括服务业和制造业中的运营管理、私营部门和公共部门的资源管理、定量技术、决策、质量管理、资源规划、信息技术和电子商务，同时，该课程还会培养学生在跨职能团队环境中做出贡献的能力，以及辅助他们在面对具体管理问题时能够进行独立调查。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "企业资源规划 (Enterprise Resource Planning)\n电子商务 (E-commerce)\n商业分析 (Business Analytics)\n全面质量管理 (Total Quality Management)\n六西格码和质量管理技术 (Six Sigma and Quality Management Techniques)\n制造和服务的统计质量控制 (Statistical Quality Control for Manufacturing and Service)\n精益思想与实践 (Lean Thinking and Practice)\n运营风险管理 (Risk Management in Operations)\n战略管理 (Strategic Management)",
+  "success_cases": ""
+}

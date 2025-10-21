@@ -1,0 +1,12 @@
+{
+  "school_name": "贝尔法斯特女王大学",
+  "major_name": "机械工程与管理理学硕士",
+  "ename": "MSc Mechanical Engineering with Management",
+  "tags": "工科,机械工程,机械与航空航天工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 25800英镑/年",
+  "requirements": "通常具有2:2荣誉学位或学校接受的同等学历，需要适当工程学科背景，包含大量数学和工程内容，成绩达到学院接受的2:2荣誉水平或同等标准\n具有适当工程学科背景2:2荣誉学位或同等学历但在关键课程中成绩低于2:2荣誉标准的申请者可能会根据具体情况被考虑，此类申请者需要证明具备至少2年专业经验\n学校会考虑具有数学或物理学2:1荣誉学位或学校接受的同等学历的申请者，具有非标准资格的申请者被根据具体情况被考虑",
+  "objectives": "贝尔法斯特女王大学机械工程与管理理学硕士项目与用人单位紧密联系，旨在培养就业对口人才，夯实学生知识，提高实践能力。项目将带领学生了解能源与电力、制造与设计工程学科最新研究成果，培养学生成为创新人才。此外，项目还将培养学生企业家与行业领导所需的创新能力、经商能力与管理能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机辅助工程 (Computer-Aided Engineering)\n制造技术 (Manufacturing Technology)\n可持续能源系统 (Sustainable Energy Systems)\n工程系统与管理 (Engineering Systems and Management)\n企业与企业管理 (Business Management and Enterprise)\n研究与数据分析 (Research and Data Analytics )",
+  "success_cases": ""
+}

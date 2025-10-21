@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "教育心理学理学硕士",
+  "ename": "MSc Psychology of Education",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有英国大学颁发的二等学士学位或同等学历",
+  "objectives": "教育心理学将培养学生探讨教育心理学关键性理论议题，批判分析心理学理论和研究及其在教育问题和实践中的应用，适合想要从事教育心理学家或其他心理学家专业培训的人士。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育心理学核心议题 (Core Topics in the Psychology of Education)\n方法论与统计 (Methodology and Statistics)\n认知发展与学习或人格与社会心理学 (Cognitive Development and Learning or Personality and Social Psychology)\n异常发展 (Atypical Development)\n发展心理学 (Developmental Psychology)\n语言发展 (Language Development)\n读写能力发展 (Literacy Development)\n心理咨询 (Psychological Aspects of Counselling)\n读写困难 (Reading and Spelling Difficulties)\n社会发展 (Social Development)",
+  "success_cases": ""
+}

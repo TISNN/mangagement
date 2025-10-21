@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "基础设施投资与金融理学硕士",
+  "ename": "MSc Infrastructure Investment and Finance",
+  "tags": "社科,建筑,建筑环境学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要相关学科背景（包括工程、数学科学、建筑环境、经济和金融），在特殊情况下学校会接受具备较低学历以及大量专业经验和可证明的学术能力的申请者",
+  "objectives": "随着传统公共财政已无力满足市场资本需求，全球对基础设施投资的需求日渐增长。伦敦大学学院基础设施投资与金融理学硕士项目将培养学生从基础设施采购视角及私人融资角度出发，探讨如何以妥当的投资方式来弥补当前的基础设施投资缺口。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "基础设施融资：资本融资的基础及创新 (Financing Infrastructure: Fundamentals and Innovations in Funding and Financing)\n采用特设信用机构的基础设施 (Infrastructure using a Special Purpose Vehicle)\n基础设施：经济原则与政策 (Infrastructure: Economic Principles and Policy)\n资产类基础设施 (Infrastructure as an Asset Class)\n基础设施项目中的代理及交易成本 (Agency and Transaction Costs in Infrastructure Projects)\n基础设施项目风险建模与资产管理 (Risk Modelling and Asset Management in Infrastructure Projects)\n基础设施项目需求预测、商务案例及评价方法 (Demand Forecasts、Business Cases and Appraisal Methods for Infrastructure Projects)\n基础设施项目管理 (The Management of Infrastructure Projects and Programmes)",
+  "success_cases": ""
+}

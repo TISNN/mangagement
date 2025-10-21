@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "地理数据科学理学硕士",
+  "ename": "MSc Geographic Data Science",
+  "tags": "工科,地球科学,环境科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 28300英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科背景\n有重要及相关经验和专业资格的学生将被个别考虑",
+  "objectives": "利物浦大学地理数据科学理学硕士项目致力于帮助学生从高层次理解定量和计算地理的方法。利物浦大学地理数据科学理学硕士项目还提供对GIS软件和R、Python等统计编程语言的实用技能培训。在当今的应用环境中，利物浦大学地理数据科学理学硕士项目侧重教授学生利用网络与传统技术实现空间数据可视化，培养学生建模和统计分析的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "定性研究方法论 (Qualitative Research Methodologies)\n社会调查分析 (Social Survey Analysis)\n地理数据科学 (Geographic Data Science)\n地理信息科学 (Geographic Information Science)\n人文地理学理论 (Theorising Human Geography)\n空间分析 (Spatial Analysis)\n网络制图与分析 (Web Mapping and Analysis)\n数据库与信息系统 (Database and Information Systems)\n网络编程 (Web Programming)\n大数据分析 (Big Data Analysis)\n人口健康分析与预测 (Population and Health Analysis and Projection)\n计算智能 (Computational Intelligence)\n社会与空间不平等 (Social and Spatial Inequalities)",
+  "success_cases": ""
+}

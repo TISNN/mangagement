@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "成熟油田管理理学硕士",
+  "ename": "MSc Mature Field Management",
+  "tags": "工科,能源,能源、地球科学、基础设施与社会学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 29960英镑/年",
+  "requirements": "具有相关学科背景",
+  "objectives": "赫瑞-瓦特大学的成熟油田管理硕士要求掌握增量石油经济学和风险分析的知识，以及处理连续进行生产和数据收集的资产决策的方法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "战略与规划 (Strategy and Planning)\n管理水库 (Managing the Reservoir)\n管理水库 (Optimising Recovery)\n管理表面 (Managing the Surface)\n管理井 (Managing the Wells)\n优化生产力 (Optimising Productivity)\n生产现场实践 (Producing Field Practices)\n“停止生产” (Cessation of Production')\n现场管理项目 (Field Management Project)\n个人项目（论文） (Individual Project (Dissertation))",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "土木工程（工程）理学硕士 - 结构工程方向",
+  "ename": "MSc(Eng) Civil Engineering (Structural Engineering)",
+  "tags": "工科,土木工程,工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 320000港币/年",
+  "requirements": "具有香港大学土木工程学士学位，或从其他大学或认可机构获得以下专业适当学习领域的同等学历：土木工程、环境工程、化学工程、机械工程或环境相关科学、计算机科学、数学或统计学",
+  "objectives": "香港大学土木工程（工程）理学硕士 - 结构工程方向项目旨在提供土木工程领域的高级教育，为有意从事土木工程专业的毕业生提供深入的理论及实践教育，并帮助执业土木工程师提升及更新他们的知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级钢筋混凝土结构设计 (Advanced reinforced concrete structure design)\n桥梁工程 (Bridge engineering)\n混凝土工艺学 (Concrete technology)\n工程项目环境影响评价 (Environmental impact assessment of engineering projects)\n有限元法 (Finite element method)\n基础工程 (Foundation engineering)\n高层建筑结构 (Tall building structures)\n风力工程 (Wind engineering)\n结构工程专题A (Special topic in structural engineering A)\n结构工程专题B (Special topic in structural engineering B)\n结构消防工程设计 (Fire engineering design of structures)\n空间结构 (Space structures)\n建筑结构抗震分析 (Seismic analysis for building structures )",
+  "success_cases": ""
+}

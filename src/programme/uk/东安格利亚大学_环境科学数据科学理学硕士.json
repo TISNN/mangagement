@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "环境科学数据科学理学硕士",
+  "ename": "MSc Data Science for Environmental Science",
+  "tags": "工科,环境工程,环境科学学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 24500英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历，需要任意科学学科背景（包括物理和社会科学），具备其他背景以及环境科学或数据科学相关经验的优秀申请者也被鼓励申请",
+  "objectives": "全球各国政府、组织和行业都在寻求能够利用数据做出明智、可持续决策的专业人士，以帮助应对全球挑战。这导致对具备环境科学知识的数据科学家的需求大幅增加，这一趋势预计将持续下去。东安格利亚大学环境科学数据科学理学硕士项目旨在帮助学生成为一名高素质的数据科学家。这个为期一年的硕士课程将使学生能够熟练分析环境数据，这项技能适用于公共和私营部门以及研究领域的各种职业。学生将获得数据挖掘、Python 和统计学的实践和理论方面的良好基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机科学家的专业技能 (Professional Skills for Computer Scientists)\n数据挖掘 (Data Mining)\n数据科学Python入门 (Introduction to Python for Data Science)\n论文（数据科学） (Dissertation (Data Science))\n科学家基于R的统计与建模 (Statistics and Modelling for Scientists Using R)\n应用统计学 (Applied Statistics)\n生物学家统计学 (Statistics for Biologists)\n流域管理 (Catchment Management)\n自然资源与环境经济学 (Natural Resources and Environmental Economics)\n实现净零的途径 (Pathways to Net Zero)\n地球物理灾害 (Geophysical Hazards)\n环境过程建模 (Modelling Environmental Processes)\n循证全球保护 (Evidence-based Global Conservation)\n气候变化：物理学基础 (Climate Change: Physical Science Basis)\nGIS及其在生态环境变化模拟中的应用 (GIS and its Applications for Modelling Ecological and Environmental Change)\n地球科学研究课题 (Research Topics in Earth Science)",
+  "success_cases": ""
+}

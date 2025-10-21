@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "设计学硕士",
+  "ename": "Master of Design",
+  "tags": "社科,艺术,人文艺术学院",
+  "introduction": "专业方向: 艺术\n入学时间: 9月\n项目时长: 2年\n项目学费: 135000港币/年",
+  "requirements": "修读艺术或相关专业(色盲、色弱者不可报读)",
+  "objectives": "引导学生对视觉传达认知深化的课程，透过对观念及趋势的把握，运用商用软体技术，开展并完成各种视觉传达计画。该科目以设计创作为导向，著重视觉符号与应用媒体的并用，透过文字、图像的构成形式实验多种的表现技法。经由专题创作呈现具有强烈时代性的应用设计作品，探索应用设计创作在艺术及设计相关领域发展的可能性。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "艺术设计研究方法与实践 (Research Methodology in Art Design and Practice)\n设计管理基础 (Basics of Design Management)\n项目方法学 (Project Methodology)\n项目管理 (Project Management)\n传播伦理 (Ethics of Communication)\n视觉传达项目方法学 (Project Methodology of Visual Communication)\n图像设计进阶 (Advanced Graphic Design)\n进阶摄影学 (Advanced Photography)\n网络设计进阶 (Advanced Web Design)\n电脑图像进阶 (Advanced Computer Graphics)\n新材料与技术应用专题 (Special Topics in New Material Technology)\n整合新媒体应用 (Integrated New Media)\n室内设计专题 (Special Topics in Interior Design)\n电脑图像进阶 (Advanced Computer Graphics)",
+  "success_cases": ""
+}

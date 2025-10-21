@@ -1,0 +1,12 @@
+{
+  "school_name": "卡内基梅隆大学",
+  "major_name": "信息系统管理硕士",
+  "ename": "Master of Information Systems Management (MISM)",
+  "tags": "商科,信息系统",
+  "introduction": "专业方向: 信息系统\n项目类别: STEM\n入学时间: 秋季\n项目时长: 12或16个月\n项目学费: 26200美元/学期",
+  "requirements": "All enrolling students 修过面向对象编程（Java,C）；取得B或以上；修过概率/统计,取得B或以上；修过数据库,取得B或以上",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

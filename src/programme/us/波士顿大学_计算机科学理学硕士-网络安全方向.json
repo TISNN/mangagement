@@ -1,0 +1,12 @@
+{
+  "school_name": "波士顿大学",
+  "major_name": "计算机科学理学硕士-网络安全方向",
+  "ename": "MS in Computer Science with Specialization in Cyber Security",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 32学分\n项目学费: 61,050美元",
+  "requirements": "GPA3.0及以上。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "金融与计量经济学理学硕士",
+  "ename": "MSc Finance and Econometrics",
+  "tags": "商科,经济,经济、社会与政治科学学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 28900英镑/年",
+  "requirements": "需要2:1学位，需要相关学科背景，例如：经济学、数学、工程学、数据科学、计算机科学、物理学、相关学科（数学含量高）\n本课程不接受金融或管理学位\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学金融与计量经济学理学硕士项目教授学生先进的计量经济学技术及其如何应用于金融。获得广泛的概述和专业知识，包括深入的定量技能。学生将能够在我们的金融实验室（FinLab）中处理实时和历史数据。该硕士学位为学生在公司、银行或基金管理领域担任专业财务角色做好准备。该课程是经济及社会研究理事会（ESRC）认可的培训课程。学生将详细探索金融市场及其运作方式。学生的研究包括学习计量经济学技术的最新发展，以及如何将其应用于经济和金融数据。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "先修课程：数学与统计 (Preliminary Mathematics and Statistics)\n金融经济学和资产定价 (Financial Economics and Asset Pricing)\n经济学分析 (Economic Analysis)\n微观经济学 (Microeconomics)\n实证金融 (Empirical Finance)\n面板数据和微观计量经济学 (Panel Data & Microeconometrics)\n时间序列计量经济学 (Time Series Econometrics)\n劳动经济学 (Labour Economics)\n产业经济学 (Industrial Economics)\n国际贸易 (International Trade)\n经济政策发展 (Economic Policy in Development)\n实验经济学 (Experimental Economics)\n公司财务原理 (Principles of Corporate Finance)",
+  "success_cases": ""
+}

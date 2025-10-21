@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "经济学与数据科学理学硕士",
+  "ename": "MSc Economics and Data Science",
+  "tags": "商科,经济,商学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 27100英镑/年",
+  "requirements": "通常具有2:1荣誉学位或同等学历，需要经济学背景或经济学为主要组成部分的联合荣誉学位，本科阶段具备良好的数学水平（微积分、矩阵代数、约束优化）和统计学水平（概率论，统计推断，假设检验，简单回归）\n如果申请者具有高度量化的相关学科（如金融学、统计学、运筹学、数学、工程学）的2:1学位，其申请可能会被批准，招生官将使用学位教学大纲和/或推荐信作为理解和适合性的证据",
+  "objectives": "纽卡斯尔大学经济学与数据科学理学硕士项目培养学生先进的经济理论技能。学生还将学习计量经济学和数学经济学中的定量方法，理论、分析工具和数据分析方法，以帮助找到解决各种现实经济问题的解决方案。\n纽卡斯尔大学经济学与数据科学理学硕士项目帮助学生研究微观经济学和宏观经济学的高级课题。这将最大限度地发挥学生的专业知识，并帮助培养任何行业都必不可少的软技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济学 (Microeconomics)\n宏观经济学 (Macroeconomics)\n数学分析 (Mathematical Analysis)\n计量经济学 (Econometrics)\n数值方法与科学规划 (Numerical Methods and Scientific Programming)\n应用数据科学 (Applied Data Science)\n硕士毕业论文 (Dissertation)\n微观经济学专题 (Topics in Microeconomics)\n宏观经济学专题 (Topics in Macroeconomics)\n因果推断与应用微观计量经济学 (Causal Inference and Applied Microeconometrics)\n应用时间序列计量经济学 (Applied Time series econometrics)\n经济学中的实验方法 (Experimental Methods in Economics)\n行为经济学 (Behavioural Economics)\n数学基础 (Mathematics Foundations)",
+  "success_cases": ""
+}

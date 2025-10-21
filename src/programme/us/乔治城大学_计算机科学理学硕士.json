@@ -1,0 +1,12 @@
+{
+  "school_name": "乔治城大学",
+  "major_name": "计算机科学理学硕士",
+  "ename": "MS in Computer Science",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n入学时间: 春季/秋季\n项目时长: 30学分\n项目学费: 2278美元/学分",
+  "requirements": "1. 计算机科学,计算机工程,信息系统,电气工程,或相关领域学士学位。\n2. 先修课：计算机科学背景,包括数据结构和算法、硬件和体系结构以及计算机编程； 以及数学,包括离散数学、概率和统计、线性代数和微积分。\n3. GPA至少3.0/4.0",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

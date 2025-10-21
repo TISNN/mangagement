@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "应用与实验临床免疫学理学硕士",
+  "ename": "MSc Applied and Experimental Clinical Immunology",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 27450英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要相关学科背景。拥有2:2荣誉学位的申请者将根据个人情况进行考虑\n如果申请者没有相关领域的学位或没有2:2荣誉学位，仍然可以申请，但应提供其他证据来支持申请，例如雇主推荐和职业注册",
+  "objectives": "卡迪夫大学应用与实验临床免疫学理学硕士项目由从事感染、免疫和炎症领域工作的国际专家设计，通过对该全日制课程的学习，您将能够最大限度地接触感染和免疫司以及系统免疫大学研究所的研究专业知识。您将受益于他们的热情和承诺，领导和提供高品质的研究为主导的教学活动在这个硕士课程。卡迪夫大学应用与实验临床免疫学理学硕士课程提供免疫研究的全面报道，让您全面了解慢性疾病进展、感染控制以及影响我们产生有效免疫反应能力的机制。这将使你能够评估研究对健康和疾病中免疫系统生命过程的影响，并通过学习如何操纵免疫系统来治疗癌症、自身免疫和炎症疾病，从而更深入地探索免疫系统。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目与论文：应用与实验临床 (Project & Dissertation: Applied and Experimental Clinic)\n基础免疫学 (Fundamental Immunology)\n新兴免疫技术 (New and Emerging Immunotechnologies)\n计算免疫学 (Computational Immunology)\n复杂疾病中免疫系统的免疫调节 (Immunomodulation of the Immune System in Complex Diseases)\n抗微生物免疫与治疗学 (Anti-microbial Immunity and Therapeutics)\n多发病的免疫学 (The Immunology of Multi-morbidity)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "数据科学理学硕士",
+  "ename": "MSc Data Science",
+  "tags": "理科,数据科学,数学与计算机科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 25480英镑/年",
+  "requirements": "具有二等荣誉学位或同等学历，且包含计算机科学和编程的重要内容",
+  "objectives": "赫瑞-瓦特大学数据科学硕士教授管理和分析大型复杂数据集（有时称为大数据）的理论和技能。您将学习如何使用最新的算法和技术对这些数据集进行建模、存储和处理。此外，还将介绍可视化探索数据的现代方法和工具。理学硕士课程提供了数据科学家的关键技能。选修课程提供了一个机会，探索密切相关领域的基础上，国际领先的研究工作，我们的学术界。\n赫瑞-瓦特大学数据科学硕士课程学习的技能将适用于工业应用以及科学数据探索。在某些情况下，理学硕士项目也可以与外部工业或学术组织合作进行。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "大数据管理 (Big Data Management)\n数据挖掘与机器学习 (Data Mining and Machine Learning)\n研究方法和项目计划 (Research Methods and Project Planning)\n统计建模与分析 (Statistical Modelling and Analysis)\n硕士项目与论文 (Masters project and dissertation)\n高级软件工程 (Advanced Software Engineering)\n生物启发计算 (Biologically Inspired Computation)\n计算机网络安全 (Computer Network Security)\n数据可视化和分析 (Data Visualisation and Analytics)\n数字与知识经济 (Digital and Knowledge Economy)\n分布式并行技术 (Distributed and Parallel Technologies)\n工业编程 (Industrial Programming)\n网络应用 (Network Applications)\n软件工程基础 (Software Engineering Foundations)",
+  "success_cases": ""
+}

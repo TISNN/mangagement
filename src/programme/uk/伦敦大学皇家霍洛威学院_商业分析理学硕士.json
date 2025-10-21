@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学皇家霍洛威学院",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,商业与管理学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 23900英镑/年",
+  "requirements": "具有相关专业资格和/或丰富商业经验",
+  "objectives": "伦敦大学皇家霍洛威学院商业分析理学硕士项目旨在培养学生获得业务分析的前沿知识，并使用行业领先的软件系统将其付诸实践，使学生能够做出合格的、真实的业务决策（例如，AWS 云计算、Alteryx 和 Tableau）。该课程的设计考虑到了未来的业务经理，并与用于解释大型数据集进行分析的现代“拖放”软件的编码基础相结合。\n伦敦大学皇家霍洛威学院商业分析理学硕士项目旨在提高就业能力，为学生提供以下领域备受追捧的数字技能：云计算、人工智能、机器学习、预测分析、数据可视化技能。这些技能将使学生了解预测和影响未来业务绩效所必需的业务分析的好处和挑战。课程中嵌入的工作能力将致力于研究、写作、讲故事、解决问题、团队合作和创造力，以帮助将解释的数据变为现实，促进数字技能与业务领域知识的整合，为现代企业提供解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业智能 (Business Intelligence)\n机器学习和预测分析 (Machine Learning & Predictive Analysis)\n业务分析语言和平台 (Business Analytics Languages and Platforms)\n商业分析实践 (Business Analytics in Practice)\n云计算 (Cloud Computing)\n数字化战略和商业模式 (Digital Strategy and Business Models)\n负责任的数字创新 (Responsible Digital Innovation)\n研究与咨询方法 (Research & Consulting Methods)\n咨询项目 (Consulting Project)\n学术诚信 (Academic Integrity)",
+  "success_cases": ""
+}

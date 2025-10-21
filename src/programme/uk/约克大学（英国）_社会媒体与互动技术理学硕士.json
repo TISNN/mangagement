@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "社会媒体与互动技术理学硕士",
+  "ename": "MSc Social Media and Interactive Technologies",
+  "tags": "社科,新媒体,社会学院",
+  "introduction": "专业方向: 新媒体\n入学时间: 9月\n项目时长: 1年\n项目学费: 27190英镑/年",
+  "requirements": "具有2:2学位或同等学历或经验，需要以下背景：社会科学（具备计算的社会方面的经验）；商业与管理研究；或计算机科学（具备计算的社会方面的经验）",
+  "objectives": "随着数字网络迅速扩张，用人单位对了解社会和参与性设计原则并掌握新型交互技术的毕业生有了更大的需求。约克大学社会媒体与互动技术理学硕士项目涵盖社交和技术技能的创新组合。学生将了解影响交互技术使用的社会、政治和经济因素，掌握考察用户感知和使用技术的方式，并且提升设计和发明可应用、可访问的设备或应用程序的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "了解社交媒体 (Understanding Social Media)\n度量与社会 (Metrics and Society)\n当代社会学的主题和议题 (Themes and Issues in Contemporary Sociology)\n交互技术的设计与研究实践 (Design and Research Practice in Interactive Technologies)\n交互技术的研究方法 (Research Methods for Interactive Technologies)\n交互式技术中以用户为中心的设计 (User-centred Design for Interactive Technologies)",
+  "success_cases": ""
+}

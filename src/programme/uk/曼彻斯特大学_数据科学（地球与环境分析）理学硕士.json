@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "数据科学（地球与环境分析）理学硕士",
+  "ename": "MSc Data Science (Earth and Environmental Analytics)",
+  "tags": "理科,数据科学,社会科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有high 2:1荣誉学位或同等学历\n在申请中应该表现出在以下三个领域的能力、知识和/或兴趣：数据分析和/或统计学；计算学科；和细分方向的具体要求。这些可以通过本科阶段和高中阶段的修读过的课程单元或专业经验来证明\n申请者应该能够证明对环境分析相关主题的兴趣和/或经验，例如：环境主题的工作经验（如环境、气候、自然生态系统、人类社会和经济系统、健康）；数据科学、地理信息系统或基于环境的数据分析工作经验；以环境为主题的方法或主题的培训证明",
+  "objectives": "曼彻斯特大学数据科学（地球与环境分析）理学硕士课程为各个学科的毕业生提供了发展数据科学技能的机会，该项目旨在帮助学生发展成为一名敏捷、熟练的数据科学家，擅长在各种环境中工作，能够迎接挑战并收获跨学科团队合作的回报。\n学术界、政策制定者和工业界越来越多的证据表明，“环境情报”（EI）是一个具有全球战略重要性的新兴研究领域，其主要目的是了解和应对环境、气候、自然生态系统、人类社会和经济系统以及健康之间复杂的相互作用。\n主要领域包括：\n- 气候变化（例如，弹性城市、清洁能源、智能交通选择、可持续生产）。\n- 生物多样性与保护（如栖息地保护和恢复、污染控制、实现自然资本）、自然灾害（如预测和预报、预警系统、抗灾基础设施）。\n- 环境与健康（例如，空气质量、水和卫生、社会和环境不平等）。\n与曼彻斯特大学的研究优势相匹配，该方向的目的是让学生为前沿数据科学和环境科学技术领域的新的、令人兴奋的培训做好准备，以整合多个复杂的数据源并创建工具，从而为未来的环境系统做出明智的决策。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计与机器学习 1：统计基础 (Statistics and Machine Learning 1: Statistical Foundations)\n理解数据库 (Understanding Databases)\n应用数据科学 (Applying Data Science)\n理解数据及其环境 (Understanding Data and their Environment)\n扩展研究项目 (Extended Research Project)\n测量与预测 2 (Measuring and Predicting 2)\n计算地下地球科学 (Computational Subsurface Geoscience)\n关键口译技能 (Key Interpretation Skills)\n地球与环境数据科学 (Earth and Environmental Data Science)\n环境监测与建模 (Environmental Monitoring and Modelling)\n污染管理实务 2 (Pollution Management in Practice 2)\n数字地形分析 (Digital Terrain Analysis)\n环境遥感 (Environmental Remote Sensing)\n地理信息系统与环境应用 (GIS and Environmental Applications)\n合成孔径雷达在环境监测中的应用基础 (Fundamentals of Synthetic Aperture Radar (SAR) applied to Environmental Monitoring)\n空间生态学 (Spatial Ecology)\n气候、环境与发展 (Climate, Environment and Development)\n社区规划项目 (Neighbourhood Planning Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "环境评估与管理理学硕士",
+  "ename": "MSc Environmental Assessment and Management",
+  "tags": "工科,环境工程,环境科学学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 24100英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，不限专业",
+  "objectives": "利物浦大学环境评估与管理理学硕士项目课程帮助学生理解人类活动对环境的影响以及社会，政治，经济等因素对决策的影响。利物浦大学环境评估与管理理学硕士项目的学生通过学习可以获得高级环境规划知识，提升管理能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "环境政治 (Politics of the Environment)\n政策、规划、项目、工程的环境评估 (Environmental Assessment of Policies、Plans、Programmes and Projects)\n商业与环境 (Business & the Environment)\n绿色基础设施规划 (Green Infrastructure Planning)\n环境规划与项目管理 (Environmental Planning & Management Project)\n海洋规划与管理 (Marine Planning & Management in Action)\n应对环境问题 (Tackling Environmental Issues)\n海洋规划理论与实践 (Marine Planning Theory and Practice)\n人力活动对环境影响 (Human Impacts On Environments)\n地理数据科学 (Geographic Data Science)",
+  "success_cases": ""
+}

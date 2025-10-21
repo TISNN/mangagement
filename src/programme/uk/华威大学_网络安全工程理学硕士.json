@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "网络安全工程理学硕士",
+  "ename": "MSc Cyber Security Engineering",
+  "tags": "工科,计算机,制造学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 35340英镑/年",
+  "requirements": "具有2:1本科学位或同等学历，需要信息技术、计算机科学或相关学科背景\n具有英国2:2学位或同等学历的申请者在证明相关专业经验后可能会被接受\n该课程专为希望成为网络安全专业人员或在严重依赖数据和信息通信的组织中担任主导技术角色的计算机科学、信息学、信息技术或其他STEM学科背景的毕业生设计",
+  "objectives": "网络安全涵盖范围远不止电脑网络保护。当今世界，各领域都越发依赖于数字系统。交通工具、基础设施、工业操作、以及财务和医疗设备都受到网络控制。网络安全工程学习可以加深学生对网络空间的理解，从而了解网络环境的本质，并在这种网络环境下保护和增加人类的经验。华威大学网络安全工程理学硕士项目侧重于网络安全的技术方面，以及用多学科的方式来实现网络安全。在此过程中，学生的实际应用能力和抽象分析能力将被重点培养。在华威大学网络安全工程理学硕士项目中，学生能够全面了解网络安全行业。华威大学网络安全工程理学硕士项目暂由英国的国家信息保护技术机构，即英国情报机构政府通信总部(GCHQ)认证。华威大学网络安全工程理学硕士项目的课程内容在国际范围内适用，因此网络安全工程理学硕士项目认证对国际学生而言同样意义重大。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "安全架构和网络防御 (Security Architectures and Network Defence)\n密码系统和数据保护 (Cryptosystems and Data Protection)\n信息风险管理与治理 (Information Risk Management and Governance)\n工业间谍和假冒 (Industrial Espionage and Counterfeiting)\n数字取证 (Digital Forensics)\n企业网络安全 (Enterprise Cyber Security)\n网络情报与运营 (Cyber Intelligence and Operations)\n网络物理系统 (Cyber-physical Systems)",
+  "success_cases": ""
+}

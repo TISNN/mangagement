@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "管理咨询理学硕士",
+  "ename": "MSc Management Consulting",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:1荣誉学士学位，不限专业背景",
+  "objectives": "利兹大学管理咨询理学硕士学位课程为学生提供管理咨询行业的广泛知识，帮助他们认识到最新挑战。学生将了解咨询技术和方法，培养一系列通用技能，掌握有用的业界联系和从业经验。\n利兹大学管理咨询理学硕士学位课程均衡学术和实践研究，使学生充分掌握管理咨询方面的主要理论、争议和实践。通过模拟、商业游戏和现实案例研究的结合，学生将着重培养专业咨询技术和能力。\n利兹大学管理咨询理学硕士学位课程与全世界一流公司联系密切，因此，学生将在客座讲座和研习会中接触到新兴趋势，并与商业领袖互动。此外，学生也有机会开展自己的咨询项目并练习从投标、范围协商到最后的展示和报告的一系列咨询技术。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "循证咨询 (Evidence Based Consultancy)\n企业管理咨询：事实、理论与议题 (Management Consulting: Facts、Theories and Issues)\n企业管理咨询：咨询生命周期 (Management Consulting: The Consulting Life Cycle)\n咨询顾问研究方法和实践 (Research Methods and Practice for Consultants)\n企业管理咨询项目 (Management Consulting Project)\n多样性管理 (Diversity Management)\n人力资源管理：国际视角 (Human Resource Management: An International Perspective)\n组织信息工具 (Information Tools for Organisations)\n战略管理 (Strategic Management)\n培训和开发 (Training and Development)",
+  "success_cases": ""
+}

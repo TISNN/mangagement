@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "生命星球（生态学与进化论计算方法）理学硕士",
+  "ename": "MSc Living Planet with Computational Methods in Ecology and Evolution",
+  "tags": "理科,生物,生命科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 34250英镑/年",
+  "requirements": "具有2:1学位，需要生命科学、数学、物理科学或工程学科背景\n需要适当的数学基础，例如A-level数学Grade A或B",
+  "objectives": "帝国理工学院生命星球（生态学与进化论计算方法）理学硕士项目教授定量方法和生物学概念及其在尖端的生物学研究问题的应用，聚焦于现代定量生物学的议题，如生态与进化动态之间的相互作用，以及气候变化对生态社区的影响。学生将学习数学、统计学和计算工具方面的知识。该项目适合那些对生物学有强烈兴趣的物理学家（数学家，物理学家，统计学家，计算机科学家），或者为博士研究或应用定量生物学领域(如资源管理和保护)就业做准备的人士。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物计算训练营 (Biological Computing Bootcamp)\nR语言中的统计学 (Statistics in R)\nR语言和Python中的生态与进化数据科学概论 (Introduction to Ecological and Evolutionary Data Science in R and Python)\n用于生物计算的高性能计算 (HPC for Biological Computing)\n生态学与进化论中的数学建模 (Mathematical Modelling in Ecology and Evolution)\n高级数据科学，包括机器学习与人工智能 (Advanced Data Science, including Machine learning and AI)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

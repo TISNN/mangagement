@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "电子与光电子制造理学硕士",
+  "ename": "MSc Electronics & Photonics Manufacturing",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要包含核心课程的任意工程学科背景或物理科学/数学学位背景，并且电子与工程数学和数学的课程平均成绩为2:1\n学校可能会考虑具有2:2学位但平均成绩达到2:1的申请者",
+  "objectives": "格拉斯哥大学电子与光电子制造理学硕士项目向学生介绍先进制造和电子设计领域的广泛专业主题。这些主题涉及新型纳米制造和微成形工艺与制造环境中的材料技术的融合。本课程提供现代工业和消费品及系统制造技术的基本知识和实践经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "先进制造技术 (Advanced manufacture)\n制造与计算机辅助设计基础 (Fundamentals of manufacturing and cad)\n先进制造概论 (Introduction to advanced manufacturing)\n综合系统设计项目 (Integrated systems design project )\n理学硕士项目 (Msc project)\n高级设备 (Advanced devices )\n综合系统设计项目 (Integrated systems design project )\n激光与集成光学 (Lasers and integrated optics )\n材料工程 (Materials engineering )\n微纳米技术 (Micro & nano technology)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "科学与数据密集型计算理学硕士",
+  "ename": "MSc Scientific and Data Intensive Computing",
+  "tags": "理科,数据科学,数学与物理科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "通常具有一等学士学位或同等学历，需要科学、工程或相关学科背景，对计算有浓厚的兴趣，通常不接受具有金融、管理、精算科学或相关学科第一学位的学生",
+  "objectives": "伦敦大学学院科学与数据密集型计算理学硕士项目旨在提供严格的计算科学领域的正式培训，培养具有高度计算能力的科学家和工程师，能够将数值方法和结果的批判性评估应用于科学或工程领域。该课程汇集了计算机的最佳实践与尖端科学，并提供了相对传统科学、工程和数学课程而言的计算优势。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算与模拟方法 (Computational and Simulation Methods)\n数值方法 (Numerical Methods)\n数值优化 (Numerical Optimisation)\nC++研究计算 (Research Computing with C++)\nPython研究软件工程 (Research Software Engineering with Python)\n高性能计算技术 (Techniques of High-Performance Computing)\n大数据机器学习 (Machine Learning with Big-Data)\n统计数据分析 (Statistical Data Analysis)",
+  "success_cases": ""
+}

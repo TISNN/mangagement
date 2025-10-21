@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "系统与合成生物学理学硕士",
+  "ename": "MSc Systems and Synthetic Biology",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 43300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，在以下一个或多个领域具有强大背景：生物信息学、计算机科学和建模、分子生物学和相关科学、工程或生物技术\n学校也可能考虑具有物理学或数学背景的申请者",
+  "objectives": "爱丁堡大学的SynthSys中心是世界领先的系统与合成生物学研究中心，其系统与合成生物学理学硕士项目主要向学生传授生物学最新领域的知识和技能——应用工程原理理解及生物网络设计，全面探索系统和合成生物学中的基本设计原理和生物技术工具，旨在解决当今环境保护、人类健康和能源生产方面的紧迫问题。具体授课内容为基因组范围数据理解、设计与合成生物砖等。学生还将以数据实验为基础，通过建模和数据分析定量方法来设计和提出领域内的新假设。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "系统与合成生物学社会维度 (Social Dimensions of Systems and Synthetic Biology)\n实用系统生物学 (Practical Systems Biology)\n合成生物学工具 (Tools for Synthetic Biology)\n生物细胞中的信息处理 (Information Processing in Biological Cells)\n合成生物学应用 (Applications of Synthetic Biology)\n生物化学A (Biochemistry A)\n生物设计 (Biodesign)\n生物信息学编程与系统管理 (Bioinformatics Programming & System Management)\n计算认知神经科学 (Computational Cognitive Neuroscience)\n生物基础产业经济与创新 (Economics & Innovation in the Biotechnology Industry)\n酶学与生物生产 (Enzymology and Biological Production)\n基因表达与微生物调控 (Gene Expression & Microbial Regulation)\n科学编程导论 (Introduction to Scientific Programming)\n数学生物学 (Mathematical Biology)\n神经计算 (Neural Computation)",
+  "success_cases": ""
+}

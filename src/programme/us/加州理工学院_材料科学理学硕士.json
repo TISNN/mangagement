@@ -1,0 +1,12 @@
+{
+  "school_name": "加州理工学院",
+  "major_name": "材料科学理学硕士",
+  "ename": "Master of Science in Materials Science",
+  "tags": "工科,材料",
+  "introduction": "专业方向: 材料\n入学时间: 秋季\n项目时长: 3个学期\n项目学费: 56364美元/年\n平均成绩: 3.5",
+  "requirements": "每学期只允许申请1个专业",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

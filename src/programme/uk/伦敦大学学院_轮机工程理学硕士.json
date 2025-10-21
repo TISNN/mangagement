@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "轮机工程理学硕士",
+  "ename": "MSc Marine Engineering",
+  "tags": "工科,机械工程,工程科学学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要适当的工程学科背景，学校会考虑具有其他学科（如物理学）资格、专业工程资格等的申请者，需要具备流体和热力学的知识以及对基础电气工程的理解，理想情况下申请者应该具备一定的海事领域工作经验，需要ATAS认证",
+  "objectives": "伦敦大学学院轮机工程（机械/电子方向）理学硕士项目于商船、海军舰艇和潜艇的机械和系统的设计、分析和运行，涵盖了轮机工程开发和采购相关广泛工程课题。\n伦敦大学学院轮机工程（机械/电子方向）理学硕士项目包括研究最新兼容性船舶设计的推进系统和辅助设备的设计分析以及计算机在先进的工程分析中的应用，在项目中，学生能够了解工程元素，以高效系统方式在团队船舶设计和个别项目中应用所学知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程中的计算机应用 (Advanced Computer Applications in Engineering)\n应用热力学和涡轮机械 (Applied Thermodynamics and Turbomachinery)\n电力传输和辅机系统 (Power Transmission and Auxiliary Machinery Systems)\n振动、声学和控制 (Vibrations、Acoustics and Control)\n传热和热系统 (Heat Transfer and Heat Systems (Mechanical Stream))\n材料和材料疲劳 (Materials and Fatigue (Mechanical Stream))\n电机和电力电子系统 (Electrical Machines and Power Electronic Systems (Electrical Stream))\n电力系统与电力推进 (Electrical Power Systems & Electrical Propulsion (Electrical Stream))\n论文/报告 (Dissertation/report)",
+  "success_cases": ""
+}

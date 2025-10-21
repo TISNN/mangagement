@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "心理学研究理学硕士",
+  "ename": "MSc Psychological Research",
+  "tags": "社科,心理学,哲学、心理学与语言科学学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要心理学或相关学科背景\n学校也可能考虑具有非心理学学科英国2:1荣誉学位或同等学历但能够证明他们在研究或研究方法方面的能力的申请者",
+  "objectives": "爱丁堡大学心理学研究理学硕士项目提供给了学生一个在心理学研究方面进行强化高级培训的机会，同时让学员们能够灵活地选择他们最感兴趣的心理学和认知神经科学领域的课程。除了一般学术技能和统计建模方面的高级培训外，学生还将会获得各种具体方法的培训，包括但不限于大脑成像、神经中断、眼动跟踪、临床案例分析、心理测量建模和话语分析。在研究方法培训的基础上，学生还将学习本系核心研究领域之一的专题课程：社会心理学、认知神经心理学、个体差异学、语言心理学和人类发展学。学生将学习心理科学的理论和方法学方面的课程，并在他们感兴趣的领域内进行一篇原创研究论文。他们还将接受心理学高级学术技能和研究方法的全面培训，包括全面涵盖统计建模，使用 R 统计语言进行研究设计。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "心理学研究的当前课题 (Current Topics in Psychological Research)\nR多元统计与方法 (Multivariate Statistics and Methodology using R)\n心理研究技能 (Psychological Research Skills)\n心理学研究中的专业技巧 (Specialist Techniques in Psychological Research)\nR单变量统计与方法 (Univariate Statistics and Methodology using R)\n心理学研究中的定性方法论 (Qualitative Methodologies in Psychological Research)\n认知神经科学中的脑成像 (Brain Imaging in Cognitive Neuroscience)\n临床神经心理学 (Clinical Neuropsychology)\n语言功能失调 (Disorders of Language Functions)\n多感知整合 (Multisensory Integration)",
+  "success_cases": ""
+}

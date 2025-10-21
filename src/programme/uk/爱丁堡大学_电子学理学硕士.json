@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "电子学理学硕士",
+  "ename": "MSc Electronics",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 37300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要电子或电气工程背景\n成绩单和申请应该清楚地证明申请者已经学习过晶体管级水平的模拟和门级水平的数字电子学，应该提供至少一种通用编程语言（如Python和C/ C）的能力证明，以及使用FPGAs的硬件描述语言（如Verilog或VHDL）的经验\n学校也可能考虑具备适当专业经验的申请者（需要在申请前联系学校确认）\n典型的录取通常要求申请者具备英国一等荣誉学位或同等学历",
+  "objectives": "爱丁堡大学电子学理学硕士项目探讨了诸多电子学中的专业领域，如：模拟超大规模集成电路设计、生物电子学、模拟数字系统。爱丁堡大学的实验室中设有特殊定制设计的模拟集成电路，用以支持实验室教学。爱丁堡大学先进的设计和原型实验室、先进的微型和纳米制造设施和最先进的数字系统实验室使用了最新的行业标准的软件工具。\n另外，得益于爱丁堡大学苏格兰微电子中心的制造器械，学生可专注于生物电子学中的新兴学科。而希望学习包括数字系统在内通用电子课程的学生可以选择指定课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "模拟超大规模集成电路 A & B (Analogue VLSI A & B)\n模拟集成电路设计 (Analogue IC Design)\n模拟电路设计 (Analogue circuit design)\n微电子器件原理 (Principles of Microelectronic Devices)\n微加工技术 (Microfabrication Techniques)\nSigma Delta数据转换器 (Sigma Delta Data Converters)\n数字系统设计 (Digital System Design)\n电力电子 (Power Electronics)\n嵌入式移动和无线系统 (Embedded Mobile and Wireless Systems (EWireless))\n生物传感器和仪器 (BioSensors and Instrumentation)\n芯片实验室技术 (Lab-on-Chip Technologies)\n数字系统实验室 A (Digital Systems Laboratory A)",
+  "success_cases": ""
+}

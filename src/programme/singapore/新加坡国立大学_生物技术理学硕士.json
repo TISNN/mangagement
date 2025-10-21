@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "生物技术理学硕士",
+  "ename": "MSc Biotechnology",
+  "tags": "理科,生物,理学院",
+  "introduction": "专业方向: 生物\n入学时间: 8月\n项目时长: 1年\n项目学费: 52320新币/年",
+  "requirements": "具有荣誉学士学位或相关学科4年制学士学位；或\n具有学士学位以及至少2年相关工作经验。\n具有其他资格和经验的申请者在项目委员会批准的情况下可能会根据具体情况被考虑\n需要提交存款证明45,000新币",
+  "objectives": "生物技术涵盖对现代世界至关重要的广泛而多样的学科和应用，从精准医学和制造到合成生物学和生物工程。随着气候变化和新疾病等更新和更具挑战性的问题的出现，生物技术将被证明在产生创新解决方案和促进发展方面至关重要。\n新加坡国立大学生物技术理学硕士课程为毕业生和在职专业人士提供了一个新的机会，让他们能够进入激动人心的多样化生物技术领域并在其中取得进步。无论您的兴趣是基因组数据科学、新兴传染病、基因组编辑、城市农业生物技术、生物图像、结构生物学还是其他生物技术领域，该计划的设计都着眼于未来。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "蛋白质设计与工程 (Protein Design and Engineering)\n生物技术案例研究 (Case Studies in Biotechnology)\n生物技术中的基因工程 (Genetic Engineering in Biotechnology)\n生物技术顶点项目 (Capstone Project in Biotechnology)\n生命科学中的生物物理方法 (Biophysical Methods in Life Sciences)\n高级蛋白质核磁共振 (Advanced Proteins NMR)\n高分子X射线晶体学 (Macromolecular X-ray Crystallography)\n高级遗传学与基因组科学 (Advanced Genetics and Genome Sciences)\n植物与微生物发育 (Plant and Microbial Development)\n高级分子遗传学 (Advanced Molecular Genetics)\n生物成像科学新型应用 (Novel Applications in Bioimaging Sciences)\n生物成像介绍 (Introduction to Bioimaging)\n实用生物成像A：电子显微镜 (Practical Bioimaging A: Electron Microscopy)\n实用生物成像B：光学显微镜 (Practical Bioimaging B: Light Microscopy)\n实用生物成像C：手动显微镜 (Practical Bioimaging C: Hands-on Microscopy)",
+  "success_cases": ""
+}

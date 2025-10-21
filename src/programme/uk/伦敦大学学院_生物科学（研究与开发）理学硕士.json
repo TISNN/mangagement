@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "生物科学（研究与开发）理学硕士",
+  "ename": "MSc Bioscience (Research and Development)",
+  "tags": "理科,生物,大脑科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有2:1英国学士学位，需要生物医学科学、生命科学背景，或具有医学学位（MBBS），或具有同等学历",
+  "objectives": "伦敦大学学院生物科学（研究与开发）理学硕士项目将帮助学生了解如何开展从实验室到临床的研究。凭借生物科学背景，学生将发展您自己科学知识基础，同时提高自己在转化医学背景下设计实验的能力。更详细地了解临床试验设计，以及改进对科学论文和扩展实验室项目的批判性评估，将为学生提供攻读博士学位或其他科学职业所需的更多知识和技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "实践研究 (Research in Practice)\n 疾病科学 (Science of Diseases)\n 干细胞和眼睛修复 (Stem Cells and Eye Repair)\n研究中的疾病模型 (Disease Models in Research)\n研究项目和实验室技能 (Research Project and Lab Skills)\n细胞和基因治疗的分子方面 (Molecular Aspects of Cell and Gene Therapy)\n 新型疗法：从概念到临床转化 (Novel Therapies: From Concept to Clinical Translation)\n免疫缺陷和治疗 (Immunodeficiency and Therapeutics)\n临床药理学和治疗学 (Clinical Pharmacology and Therapeutics)\n高级临床药理学和治疗学 (Advanced Clinical Pharmacology and Therapeutics)\n炎症药理学（扩展） (Pharmacology of Inflammation (Extended))\n炎症药理学 (Pharmacology of Inflammation)\n药物基因组学、药物不良反应和生物标志物 (Pharmacogenomics, Adverse Drug Reactions and Biomarkers)",
+  "success_cases": ""
+}

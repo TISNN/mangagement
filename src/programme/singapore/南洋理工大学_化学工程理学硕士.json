@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "化学工程理学硕士",
+  "ename": "MSc Chemical Engineering",
+  "tags": "工科,化工,化学、化学工程与生物技术学院",
+  "introduction": "专业方向: 化工\n入学时间: 8月\n项目时长: 1年\n项目学费: 49050新币/年",
+  "requirements": "具有知名大学的荣誉（优异）学士学位或同等学历\n有相关工作经验和推荐信的申请者可视具体情况特殊考虑",
+  "objectives": "南洋理工大学化学工程理学硕士项目专注于化工及流程工厂的设计、运行与优化，同时在即将到来的能源向碳中和经济转型中发挥着关键作用，课程适合有意攻读更高学位的应届毕业生，以及在化学行业工作的专业人士。该硕士项目与化学工业的新兴趋势紧密相连，旨在帮助学生紧跟行业发展，通过提供跨学科的选项，学生将能够拓展视野，获取更广泛的知识，灵活的课程体系更加适合量身定做切合学生职业发展的硕士经历，帮助其成为开拓发展未来可持续未来的重要一员。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级反应工程 (Advanced Reaction Engineering)\n高级化工热力学 (Advanced Chemical Engineering Thermodynamics)\n高级化工数学方法 (Advanced Mathematical Methods for Chemical Engineering)\n工业案例研究 (Industrial Case Studies)\n化工过程模拟与技术经济分析 (Chemical Process Simulation and Technoeconomic Analysis)\n可持续制药技术 (Sustainable Pharmaceutical Technology)\n药物配方 (Pharmaceutical Formulations)\n催化剂设计与开发 (Catalyst Design and Development)\n催化剂设计与开发 (Catalyst Design and Development)\n高级过程控制 (Advanced Process Control)\n研究项目 (MSc Research)\n工程企业决策工具 (Decision Tools for Engineering Businesses)\n工程项目管理 (Project Management for Engineers)\n工业安全与卓越运营 (Industrial Safety and Operational Excellence)\n化学和生物医学中的微流体和芯片实验室 (Microfluidics and Lab-On-Chip for Chemical & Biomedical Applications)\n生物医学数据分析 (Data Analytics for Biomedical Applications)\n环境科学与可持续发展高级专题 (Advanced Topics in Environmental Sciences and Sustainable Development)\n制药先进分析和制造技术 (Advanced Analytical & Manufacturing Techniques in Pharmaceutical Industry)\n电化学与电催化 (Electrochemistry and Electrocatalysis)\n纳米催化 (Nanocatalysis)",
+  "success_cases": ""
+}

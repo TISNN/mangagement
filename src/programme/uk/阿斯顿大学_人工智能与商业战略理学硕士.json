@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "人工智能与商业战略理学硕士",
+  "ename": "MSc Artificial Intelligence with Business Strategy",
+  "tags": "工科,计算机,信息与数字工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23500英镑/年",
+  "requirements": "具有STEM学科背景（如数学、物理、化学、生物学、工程学、经济学、计算机科学）或商科专业背景，学位等级达到2:2或同等水平\n优先考虑具有编程经验的申请者，强烈建议没有或具备很少编程经验的学生最好在2024年8月1日之前联系项目主任，以便就合适的自学项目获得建议",
+  "objectives": "人工智能是计算机科学中一个快速发展的领域，处于我们这个时代许多技术进步的前沿。阿斯顿大学人工智能与商业战略理学硕士课程，由获得三重认证的阿斯顿商学院和工程与应用科学学院的研究人员团队联合教授，将为学生提供技术知识和技能，以及对商业战略的高度重视的理解，使学生能够将知识应用到工作中。阿斯顿大学人工智能与商业战略理学硕士课程将教授学生专业的技术信息，以及深刻理解企业是如何运作的，这些将使学生能够创建道德的、合理的和适当的人工智能解决方案。阿斯顿大学人工智能与商业战略理学硕士课程将学生的人工智能技术信息和知识应用在商业环境中，重点学习机器学习和数据挖掘，以改善业务流程。学生将有机会设计、计划、实施、测试、评估和记录学生的解决方案。除了发展技术和商业知识，学生将独立工作，并作为团队的一员参与项目和演示，包括设计自己的电脑游戏。不同的项目将使学生在发展技术专长的同时发展学生的沟通和团队工作技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能：愿景与现实 (AI: Vision and Reality)\n机器学习 (Machine Learning)\n人工智能数学 (Mathematics for AI)\n战略管理 (Strategic Management)\n研究方法与专业实践 (Research Methods and Professional Practice)\n硕士论文 (MSc Major Project)\n深度学习 (Deep Learning)\n领导与决策 (Leadership and Decision Making)\n国际化经营战略 (International Business Strategy)\n国际创业 (International Entrepreneurship)\n管理咨询 (Management Consulting)\n大数据决策 (Big Data for Decision Making)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "城市信息学及智慧城市理学硕士",
+  "ename": "MSc Urban Informatics and Smart Cities",
+  "tags": "工科,地球科学,建筑及环境学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 240000港币/年",
+  "requirements": "具有认可的学士学位或同等学历，需要工程、科学、技术背景",
+  "objectives": "香港理工大学城市信息学及智慧城市理学硕士项目为学生提供信息学、大数据和相关技术，来应对城市中的挑战和其他问题。香港理工大学城市信息学及智慧城市理学硕士项目重点三个关键领域：理论和领域知识、支撑城市信息学的智慧城市的技术、城市信息学和智慧城市解决方案的实践",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "智慧城市：技术与解决方案 (Smart Cities: Technologies and Solutions)\n城市科学与系统 (Urban Science & Systems)\n城市信息学 (Urban Informatics)\n城市大数据 (Urban Big Data)\n地理信息系统原理 (Principles of Geographic Information Systems)\n城市规划与城市设计 (Urban Planning and Urban Design)\n论文/项目 (Dissertation/Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "信息与图书馆研究理学硕士",
+  "ename": "MSc Information & Library Studies",
+  "tags": "商科,信息系统,计算机与信息科学学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 28700英镑/年",
+  "requirements": "具有二等荣誉学位，专业背景不限",
+  "objectives": "思克莱德大学信息与图书馆研究理学硕士项目是英国唯一在项目初期就为学生提供在欧洲最大公共图书馆和博物馆（包含位于格拉斯哥的世界著名的米切尔图书馆）之一实习的机会，学生将有机会接触特殊藏品和最新数字项目，聆听图书馆产业领先专家的客座讲座，并在专业环境中开展硕士论文研究项目。思克莱德大学计算机和信息科学学院是信息学院联盟的一员，两大博士培训国际联盟（苏格兰艺术与人文研究生院和苏格兰社会科学研究生院）之一，同时也是是世界领先信息学院的合作伙伴。思克莱德大学信息与图书馆研究理学硕士项目由英国职业资格认证，支持国际互惠协议。在思克莱德大学信息与图书馆研究理学硕士项目中，学生将接受来自苏格兰最领先（位列英国前三）的信息科学学院提供的高质量教育。得益于思克莱德大学与欧洲最大文化集团的合作关系，学生将拥有无与伦比的专业参与体验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "知识组织 (Organisation of Knowledge)\n信息检索和访问 (Information Retrieval & Access)\n信息法 (Information Law)\n图书馆技术和系统 (Library Technology & Systems)\n信息服务管理 (Managing Information Services)\n图书馆、信息和社会 (Libraries、Information & Society)\n研究方法 (Research Methods)\n论文 (Dissertation)",
+  "success_cases": ""
+}

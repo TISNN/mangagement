@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "通信工程理学硕士（CUHK-Shenzhen）",
+  "ename": "MSc Communications Engineering (CUHK-Shenzhen)",
+  "tags": "工科,电气电子,深圳校区",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 2年\n项目学费: 144000人民币/年",
+  "requirements": "鉴于入学考核范围和课程设置的内容，建议本科为理工类专业背景的申请者申请。\n申请者需要取得教育部认可的本科学历学位并且：\n- 荣誉等级不低于二等；或\n- 平均成绩不低于B\n或在高等教育机构完成了学业并且获得了与荣誉学位相当的职业资格或类似资格",
+  "objectives": "香港中文大学（深圳）通信工程理学硕士项目（MSc.CE）是围绕通信工程领域开设的为期两年的全日制硕士项目，涵盖5G和后5G通信与网络、无线通信、机器学习、物联网、云计算、边缘计算、大数据系统和分析处理等多种新兴热门技术领域知识，旨在培养学生关于信息数据采集、传输和处理的全方位能力。\n香港中文大学（深圳）在通信工程方面具有国际一流的科研和教学团队。目前，学校在相关领域拥有多国科学院院士、IEEE会士等顶尖学者，建设有深圳市人工智能与机器人研究院、深圳市大数据研究院、香港中文大学（深圳）未来智联网络研究院等顶级研究机构，承担了国家重点研发计划在内的一系列5G/6G科研项目，并与华为、腾讯、京东等头部企业建立了联合实验室和深度的合作关系。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "随机过程 (Random Processes)\n信息论及编码 (Information Theory and Channel Coding)\n通信系统的凸优化 (Convex Optimization for Communication Systems)\n无线通信 (Wireless Communications)\n5G和后5G通信与网络 (5G and Beyond Communications and Networks)\n机器学习与智能通信 (Machine Learning and Intelligent Communications)\n人工智能及其在通信中的应用 (Artificial Intelligence and Applications in Communications)\n动态规划及其在通信中的应用 (Dynamic Programming and Applications in Communications)\n图像处理与计算机视觉 (Image Processing and Computer Vision)\n光纤通信与网络 (Optical Communications and Networks)",
+  "success_cases": ""
+}

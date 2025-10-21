@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "商业项目管理理学硕士",
+  "ename": "MSc Commercial Project Management",
+  "tags": "工科,工程管理,机械、航空航天及土木工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有2:1英国荣誉学位或同等学历，需要相关学科背景，如相关工程、科学、商业、经济和管理学科\n申请者如果是在读生，需要提供最后一年学习的所有课程的正式列表",
+  "objectives": "曼彻斯特大学商业项目管理理学硕士项目强调了项目管理的商业要素，如：营销和销售、财务管理、采购、招标和合同管理，将使学生了解项目管理必需的人本及技术要求，以及组织和策略方面的内容，为学生在商业项目管理领域的就业奠定基础。\n曼彻斯特大学商业项目管理理学硕士项目是曼彻斯特大学项目管理团队开设的四个项目之一，其他三个项目为：项目管理、建设项目管理与工程项目管理。曼彻斯特大学机械、航空航天和土木工程学院享有提供项目管理相关硕士课程的历史，学院教员拥有广泛背景和行业经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人与组织 (People and Organisations)\n项目计划与控制 (Project Planning and Control)\n项目管理研究方法 (Project Management Research Methods)\n商业管理 (Commercial Management)\n项目管理 (Management of Projects)\n合同管理 (Contract Management)\nMoP论文 (MoP Dissertation)\n基础设施项目的项目融资 (Project Finance for Infrastructure Projects)\n冲突管理与争议解决 (Conflict Management & Dispute Resolution)\n使用ICT管理项目 (Managing Projects with ICT)\n风险管理 (Risk Management)",
+  "success_cases": ""
+}

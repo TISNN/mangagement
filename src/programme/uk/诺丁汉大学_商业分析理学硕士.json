@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,诺丁汉商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1学位或同等学历，不限专业背景，申请者之前不应该学习过大量商业分析内容，但必须在学位水平的定量课程中成绩达到strong 2:1（65%），其中包含大量的数学/统计学内容\n针对尚未完成本科学位的申请者，需要提供最后一年要学习的课程列表",
+  "objectives": "诺丁汉大学商业分析理学硕士课程是与跨国公司合作授课，将为学生提供入职跨国公司所需的基本技能。课程由商业分析新人口统计实验室（N/LAB）开发，该实验室是商学院内最先进的教学、数据可视化和研究设施。诺丁汉大学商业分析理学硕士课程将帮助学生成为具备技术技能、利用大数据工具的能力以及交付实际商业分析项目的管理技能的以商业为导向的数据科学家。课程将为学生在数字经济的广泛范围内担任高级管理职位做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据管理与操作 (Data Management and Manipulation)\n基础商业分析 (Foundational Business Analytics)\n不同环境下的创业 (Entrepreneurship in Context)\n决策支持的管理科学 (Management Science for Decision Support)\n供应链计划与管理 (Supply Chain Planning and Management)\n分析专业与应用 (Analytics Specialisations and Applications)\n领导大数据商业项目 (Leading Big Data Business Projects)\n机器学习与预测分析 (Machine Learning and Predictive Analytics)\n高级运筹学 (Advanced Operations Analysis)\n数字化营销 (Digital Marketing)\n商业分析中的数据驱动论文项目 (Data Driven Dissertation Project in Business Analytics)",
+  "success_cases": ""
+}

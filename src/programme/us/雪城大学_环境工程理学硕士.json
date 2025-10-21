@@ -1,0 +1,12 @@
+{
+  "school_name": "雪城大学",
+  "major_name": "环境工程理学硕士",
+  "ename": "M.S.in Environmental Engineering",
+  "tags": "工科,环境工程",
+  "introduction": "专业方向: 环境工程\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 32110美元\n平均成绩: 3.3\n平均G: Q163，V148",
+  "requirements": "GPA至少3.0",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

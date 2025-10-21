@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "生成式人工智能与人文科学（语言与传意）理学硕士",
+  "ename": "MSc Generative AI and the Humanities (Language and Communication)",
+  "tags": "社科,语言,人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 276000港币/年",
+  "requirements": "具有认可机构颁发的学士学位\n申请者可能需要参加面试或笔试以证明其语言能力",
+  "objectives": "香港理工大学生成式人工智能与人文科学理学硕士项目满足了对能够弥合人工智能 (AI) 和人文学科之间差距的专业人员不断增长的需求。因此，它的目标是通过将人工智能知识与人文知识相结合来促进跨学科卓越。特别是，通过为学生提供将人工智能技术技能与人文见解相结合的全面教育，该项目旨在使毕业生全面了解人工智能对语言、交流、艺术和文化的影响。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算语言学和自然语言处理技术 (Computational Linguistics and NLP Technologies)\n人工智能的伦理与道德 (Ethics and Morality in AI)\n生成式人工智能及其应用概论 (Introduction to Generative AI and its Application)\n语言和交流计算机编程 (Computer Programming in Language and Communication)\n中国文化数字研究 (Digital Studies of Chinese Culture)\n机器学习和人工智能在人文学科中的应用 (Applications of Machine Learning and AI in Humanities)\n中国背景下的双语交流和语言技术 (Bilingual Communication and Language Technology in Chinese Context)\n多元文化和多语言环境中的沟通 (Communication in Multicultural and Multilingual Contexts)\n商务高级翻译 (Advanced Translation for Business and Commerce)\n语言专业人员和翻译人员的多媒体应用程序 (Multimedia Applications for Language Professionals and Translators)\n人工智能驱动的语言分析和沟通策略 (AI-Powered Language Analysis and Communication Strategies)\n工作场所的语言和跨文化交流 (Language and Intercultural Communication in the Workplace)\n多模态和专业沟通 (Multimodality and Professional Communication)\n人工智能增强的自然语言处理和通信 (AI-Enhanced Natural Language Processing and Communication)\n机器学习和数据分析 (Machine Learning and Data Analytics)",
+  "success_cases": ""
+}

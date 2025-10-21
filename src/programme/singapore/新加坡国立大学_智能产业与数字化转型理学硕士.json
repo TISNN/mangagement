@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "智能产业与数字化转型理学硕士",
+  "ename": "MSc Smart Industries and Digital Transformation",
+  "tags": "工科,工业工程,继续与终生教育学院",
+  "introduction": "专业方向: 工业工程\n入学时间: 8月\n项目时长: 1年\n项目学费: 57879新币/年",
+  "requirements": "具有学士学位（偏好荣誉学位），需要科学、工程、计算、分析或同等学科背景\n具备编程知识（申请者可能需要完成编程课程，根据具体情况展示其编程能力）\n欢迎申请者提交他们可能拥有的其他考试成绩，如GRE/GMAT",
+  "objectives": "新加坡国立大学智能产业与数字化转型理学硕士项目旨在为毕业生进入第四次工业革命（也称为工业4.0）的新兴工作场所做好准备，是他们掌握所需的技能和知识，以跟上不同行业（特别是制造业）由于技术颠覆而发生的的变化，并领导转型以提高工作场所的生产力。\n新加坡国立大学智能产业与数字化转型理学硕士课程融合了课堂内外的学习机会，该课程的一个关键组成部分是核心的Capstone项目课程，该课程使学生能够与赞助公司合作，应用他们所学的所有知识来制作原型、最小可行产品或创新解决方案。\n新加坡国立大学智能产业与数字化转型理学硕士课程是根据新加坡经济发展局（EDB）新加坡智能产业准备指数专门设计的，旨在进一步帮助企业通过人力资本实现能力转型，并支持新加坡向智能国家迈进。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工业4.0及其应用概论 (Introduction to Industry 4.0 and Applications)\n工业4.0中的数字-物理集成 (Digital-Physical Integration in Industry 4.0)\n意义构建数据分析 (Data Analytics for Sense-making)\n数字基础设施与转型 (Digital Infrastructure and Transformation)\n职业生涯发展 (Professional Career Development)\n行业咨询与应用项目 (Industry Consulting and Application Project)",
+  "success_cases": ""
+}

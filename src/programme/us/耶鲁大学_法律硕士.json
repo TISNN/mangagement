@@ -1,0 +1,12 @@
+{
+  "school_name": "耶鲁大学",
+  "major_name": "法律硕士",
+  "ename": "Master of Studies in Law (MSL.)",
+  "tags": "社科,法律",
+  "introduction": "专业方向: 法律\n入学时间: 秋季\n项目时长: 一年\n项目学费: 69,100美元",
+  "requirements": "拥有法律以外领域的博士学位或正在攻读博士学位，除非申请人是在职记者（记者必须至少拥有学士学位）。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

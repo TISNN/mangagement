@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "未来治理理学硕士",
+  "ename": "MSc Future Governance",
+  "tags": "社科,社会学与社工,爱丁堡未来学院",
+  "introduction": "专业方向: 社会学与社工\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，不限专业背景\n学校也会考虑具备其他专业资格或经验的申请者（需要在申请前联系学校确认）",
+  "objectives": "技术和数据正在改变全球的治理。 如何以道德和创新的方式使用数据和技术来应对社会最紧迫的挑战，是我们如何管理未来世界的关键。 爱丁堡大学未来治理理学硕士课程旨在探索和分析大数据给民主的未来带来的挑战和机遇，这是一个独特的、新的跨学科课程，提供了一种创新的学习方法，将帮助学生在未来的治理和决策方面发展先进的思维。它是为那些寻求发展前沿知识的批判性思想家准备的，通过通过政策和决策推动积极变化，帮助他们塑造世界和他们的职业生涯。\n学生将获得评估和使用不同数据源和新兴技术所需的技能和知识，以理解、评价和塑造治理的未来。在快速发展的技术变革和数据驱动的决策时代，学生将加深对民主和参与的理解，并质疑新的和大数据来源给治理的未来带来的挑战和机遇。在数据驱动的决策环境中，提高对道德决策的认识，并增强使用新数据和大数据的信心。学习确定解决政策问题所需的最适当的方法，并学习如何运用强大的、关键的和跨学科的理解来应对我们民主未来的挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "未来治理 (Future Governance)\n数字民主创新 (Digital Democratic Innovations)\n跨学科未来 (Interdisciplinary Futures)\n透过数据或文本合成产生见解 (Insights Through Data or Text Remix)\n道德数据未来 (Ethical Data Futures)\n代表数据或构建近期未来 (Representing Data or Building Near Futures)\n数字影响力 (Digital Influence)\n数字时代的证据、论证与说服力 (Evidence, Argument and Persuasion in a Digital Age)\n社会研究中的文本挖掘 (Text Mining for Social Research)\n数据公民 (Data Civics)\n数据化、问责制与民主   (Datafication, Accountability and Democracy)\n决策的神经政治学 (The Neuropolitics of Decision Making)\n新技术如何改变社会的批判性观点 (Critical perspectives on how new technologies are changing society)\n世界各地不平等的原因与后果 (The causes and consequences of inequalities around the world)\n未来的教育将会是什么样子 (What the future of education might look like)",
+  "success_cases": ""
+}

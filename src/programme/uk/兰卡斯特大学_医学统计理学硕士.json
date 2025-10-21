@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "医学统计理学硕士",
+  "ename": "MSc Medical Statistics",
+  "tags": "理科,数学,数学与统计学院",
+  "introduction": "专业方向: 数学\n入学时间: 10月\n项目时长: 1年\n项目学费: 30310英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要数学或统计学背景\n学校也可能考虑已经学习过其他定量学科学位（包括概率、统计、线性代数和微积分课程）或具有2:2荣誉学位或同等学历以及丰富相关经验的非标准申请者\n申请者应该清楚地展示其技能是如何为研究生学习期间的相关讨论和评估做好准备的",
+  "objectives": "利用先进的统计专业知识塑造医学研究和公共卫生的未来，医学统计学家对医学研究的成功和新疗法的发展至关重要，他们设计和分析临床试验，评估公共卫生举措，并确定疾病的原因和风险因素，兰卡斯特大学医学统计理学硕士课程为学生提供在这一重要领域茁壮成长所需的尖端技能，使其能够为全球健康的未来做出贡献，随着对熟练医疗统计学家的需求不断增长，该课程是学生通往医学研究和医疗保健创新前沿职业的途径。\n兰卡斯特大学医学统计理学硕士课程提供统计理论、实践技术和医学统计专业培训的独特组合，由国际公认的以研究为主导的部门的专家授课，通过这门严格的课程，学生将获得在医疗、制药和公共卫生领域发挥卓越作用的技术知识和实践经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "临床试验 ( Clinical Trials)\n多层次与纵向数据建模 (Modelling Multilevel and Longitudinal Data)\n 统计学硕士论文 (MSc Statistics Dissertation)\n流行病学原理 (Principles of Epidemiology)\n统计基础 I (Statistical Fundamentals I)\n统计基础 II (Statistical Fundamentals II)\n统计学习 (Statistical Learning)\n实践中的统计学 (Statistics in Practice)\n生存与事件历史分析 (Survival and Event History Analysis)",
+  "success_cases": ""
+}

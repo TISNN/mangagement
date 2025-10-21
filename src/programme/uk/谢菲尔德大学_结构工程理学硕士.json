@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "结构工程理学硕士",
+  "ename": "MSc Structural Engineering",
+  "tags": "工科,土木工程,土木及结构工程学学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要满足课程要求的工程或科学学科背景申请者应在以下三个领域中都至少学习过一门课程：\n领域1：微积分、线性代数、数学、数值方法、统计数据；\n领域2：机械学、结构学\n领域3：混凝土、施工方法、材料",
+  "objectives": "谢菲尔德大学结构工程理学硕士项目侧重于混凝土和钢结构，以及如何分析和设计它们以更好地抵抗地震、火灾和爆炸。该课程教授创新概念和方法的使用，为结构设计和施工的国际职业生涯提供理想的基础。本课程采用最新的英国和欧洲规范进行设计，让学生有机会发现一系列现代和创新的建筑材料和方法。从建筑物和桥梁，到我们的供水和能源供应系统，防洪甚至防爆，学生将学习我们所有人所依赖的关键基础设施，学习如何使其更安全、更高效和更可持续。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级工程研究 (Advanced Engineering Research Study)\n结构动力学及其在地震工程和振动中的应用 (Structural Dynamics and Applications to Earthquake Engineering and Vibration)\n计算结构分析 (Computational Structural Analysis)\n土木工程研究计划书 (Civil Engineering Research Proposal)\n结构设计 (Structural Design)\n结构分析 (Structural Analysis )\n结构混凝土创新 (Innovations in Structural Concrete)\n地震工程和风险管理 (Earthquake Engineering and Risk Management)\n高级混凝土设计 (Advanced Concrete Design)\n火灾结构分析与设计 (Structural Analysis and Design for Fire)\n多层钢结构建筑设计 (Multistorey Steel Building Design)\n爆炸和冲击对结构的影响 (Blast and Impact Effects on Structures)\n抗震结构设计 (Design of Earthquake Resistant Structures)\n岩土工程设计 (Geotechnical Design)",
+  "success_cases": ""
+}

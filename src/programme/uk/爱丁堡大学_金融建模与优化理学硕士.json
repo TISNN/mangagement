@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "金融建模与优化理学硕士",
+  "ename": "MSc Financial Modelling and Optimization",
+  "tags": "商科,金工金数,数学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 40300英镑/年",
+  "requirements": "具有英国2:1学位或同等学历，需要数学或数学相关学科（如统计学、物理学或工程学）背景",
+  "objectives": "爱丁堡大学金融建模与优化理学硕士项目将会让学生在数学背景下培养个人沟通技能、主动性和专业性，培养可转移的技能，最大限度地提高他们未来的就业前景，包括写作、口头陈述、团队合作、数字和逻辑问题解决、规划和时间管理。提高了学生以清晰的方式表达想法的能力，并以之前的数学训练为基础，进一步发展他们的逻辑和演绎技能，让他们掌握用于解决数学金融行业相关应用问题的标准和高级数学工具，发展学员的定量和计算技能，以熟练完成金融部门的任务",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "离散时间金融 (Discrete-Time Finance)\n金融随机分析 (Stochastic Analysis in Finance)\n优化基础 (Fundamentals of Optimization)\n研究主题 (Research-Linked Topics)\n金融、风险与不确定性 (Finance, Risk and Uncertainty)\n风险中性资产定价 (Risk-Neutral Asset Pricing)\n数值概率与蒙特卡洛方法 (Numerical Probability and Monte Carlo)\n金融优化方法 (Optimization Methods in Finance)\n金融风险理论 (Financial Risk Theory)\n运筹学与财务计算 (Computing for Operational Research and Finance)\n多元数据分析 (Multivariate Data Analysis)\n数值偏微分方程 (Numerical Partial Differential Equations)\n面向对象编程应用 (Object-Oriented programming with applications)\n组合优化 (Combinatorial Optimization)\n数据科学的大规模优化 (Large Scale Optimization for Data Science)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港浸会大学",
+  "major_name": "金融数学理学硕士",
+  "ename": "MSc Mathematical Finance",
+  "tags": "商科,金工金数,理学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 146667港币/年",
+  "requirements": "申请者通常应具有数学、统计学、计算机科学、物理学、工程学、商科或其他相关专业的学士学位或同等学历，精通基础数学",
+  "objectives": "香港浸会大学金融数学理学硕士为数学金融和金融市场领域工作的专业人士提供继续学习的机会，为积极进取的个人提供一条将职业方向转向数学金融和金融市场领域的途径。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "概率论与随机过程专题研究 (Topics in Probability Theory & Stochastic Processes)\n衍生工具（二） (Derivatives II)\n计算金融 (Computational Finance)\n金融数学 (Mathematical Finance)\n时间序列分析 (Time Series Analysis)\n衍生工具（一） (Derivatives I)\n定量分析方法 (Quantitative methods)\n金融学基础 (Foundations of finance)\n金融风险管理 (Essential of Financial Risk Management)\n金融数据建模 (Financial Data Modeling)\n固定收益市场 (Fixed Income Markets)\n公司理财 (Corporate Finance)\n金融监管 (Financial regulation )",
+  "success_cases": ""
+}

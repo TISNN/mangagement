@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "社会流行病学理学硕士",
+  "ename": "MSc Social Epidemiology",
+  "tags": "社科,公共卫生,人口健康科学学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要相关学科背景，申请者必须有信心使用计算机并表现出计算能力，例如数学或统计学达到O level/GCSE或同等水平，或在学位课程中取得优秀成绩",
+  "objectives": "由贫穷和剥削（包括绝对剥削和相对剥削）导致的健康领域的社会不平等现象是世界各国研究与政策争议中亘古不变的重要议题。伦敦大学学院社会流行病学理学硕士项目旨在针对社会流行病学领域培养优秀的研究人员、卫生专业人员和政策制定者。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "社会流行病学：不平等维度 (Social Epidemiology: Dimensions of Inequality)\n医学基础统计学 (Basic Statistics for Medical Sciences)\n流行病学 (Epidemiology)\n全球健康的社会决定因素 (The Social Determinants of Global Health)\n回归建模 (Regression modelling)\n社会流行病学研究方法 (Research Methods for Social Epidemiology)\n生命历程中的健康不平等 (Health Inequalities over the Lifecourse)",
+  "success_cases": ""
+}

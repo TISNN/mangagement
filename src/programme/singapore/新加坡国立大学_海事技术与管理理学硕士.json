@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "海事技术与管理理学硕士",
+  "ename": "MSc Maritime Technology and Management",
+  "tags": "工科,交通运输,工程学院",
+  "introduction": "专业方向: 交通运输\n入学时间: 8月\n项目时长: 1年\n项目学费: 63220新币/年",
+  "requirements": "具有优秀学校颁发的荣誉学士学位或同等学历，偏好科学、技术、工程或数学（STEM）背景\n优先考虑具有强大技术背景并在海事领域具备至少2年工作经验的申请者",
+  "objectives": "新加坡国立大学海事技术与管理理学硕士项目旨在培训和装备毕业生的关键技能，使其具备新加坡下一代港口能力，如工业系统开发、大数据分析工具和新兴港口技术（如数字化培训工人）。该课程旨在培养具有强大分析专业知识的人才，为海事行业走向数字化和技术创新做准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工业工程师数据分析 (Data Analytics for Industrial Engineers)\n工业系统应用编程 (Applied Programming for Industrial Systems)\n海事工业基础 (Maritime Industry Fundamentals)\n港口物流与供应链 (Port Logistics and Supply Chain)\n海事数据分析 (Maritime Data Analytics)\n联运货物运输与物流 (Intermodal Freight Transport and Logistics)\n海事工业实习 (Maritime Industrial Attachment)",
+  "success_cases": ""
+}

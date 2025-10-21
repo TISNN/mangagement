@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "设计信息学理学硕士",
+  "ename": "MSc Design Informatics",
+  "tags": "工科,其他工科,信息学院",
+  "introduction": "专业方向: 其他工科\n入学时间: 9月\n项目时长: 1年\n项目学费: 43300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要计算机科学、信息学、人工智能、物理学、工程学、心理学、哲学、语言学或神经科学背景\n申请应该显示出申请者在一门编程语言中具备扎实的计算机编程技能（HTML和网页设计不算在内，但相关的数学和统计脚本语言如R和Matlab算在内，C/C, Java, Python也是如此），这个证据可以是相关MOOC的证书，也可以是申请者已成功通过的编程课程，如果学位涉及期末项目，成绩应该达到B或更高水平",
+  "objectives": "爱丁堡大学设计信息学理学硕士项目通过将理论和研究与开放式的制作和黑客程序相结合，在数据和社会的界面上建立了一个价值意识、反思性的实践。该课程将会让学生了解包括物联网与物理计算、数据科学基础、可用隐私和安全、数据伦理、区块链技术等方面的基本概念通过该课程，学生还能把技术与社会、健康、建筑学、时尚、生物设计、手艺、资金、旅游业等方面相联系。同时，通过大量的案例研究、个人项目和协作项目，学员还将了解现实世界环境。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计信息学：历史与未来 (Design Informatics: Histories and Futures)\n数据科学设计 (Data Science for Design)\n设计信息学案例研究 1 (Case Studies in Design Informatics 1)\n数据设计 (Design with Data)\n设计信息学项目 (Design Informatics Project)\n人为因素：用户合作 (The Human Factor: Working with Users)\n数据可视化 (Data Visualisation)\n应用数据库 (Applied Databases)\n数据挖掘与探索 (Data Mining and Exploration)\n算法博弈论及其应用 (Algorithmic Game Theory and its Applications)\n计算机图形学 (Computer Graphics)\n并行编程语言与系统 (Parallel Programming Languages and Systems)\n自动语音识别 (Automatic Speech Recognition)\n软件架构、流程与管理 (Software Architecture, Process, and Management)\n计算机网络 (Computer Networking)",
+  "success_cases": ""
+}

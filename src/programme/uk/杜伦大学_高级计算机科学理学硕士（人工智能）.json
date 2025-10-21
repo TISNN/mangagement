@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "高级计算机科学理学硕士（人工智能）",
+  "ename": "MSc Advanced Computer Science (Artificial Intelligence)",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 34000英镑/年",
+  "requirements": "具有2:1学位，需要计算机科学背景或计算机科学联合荣誉学位 该课程不适合已获得杜伦大学计算机科学或自然科学（含计算机科学）本科学位的应届毕业生，这些申请者如果尚未毕业应该考虑继续分别获得综合MEng或MSci",
+  "objectives": "随着人工智能改变了我们生活和工作方式的许多方面，从诊断健康状况和气候变化建模到检测欺诈和个性化学习，对具有这些专业技能的专家的需求不断飙升，杜伦大学高级计算机科学理学硕士（人工智能）课程与快速发展的行业需求保持一致，通过以研究为主导的基础和当代主题教学，为学生提供对计算机科学理论和实践的高级理解。\n杜伦大学高级计算机科学理学硕士（人工智能）项目的学生将学习将学习编程、人工智能、算法、研究方法与伦理四门核心课程，辅以基于该学院在强化学习、人工智能和人类系统、视觉、成像和可视化等领域的前沿研究的四门选修课程，可选修课程是围绕员工专业知识构建的，以确保所有内容都是最新且与行业相关的。\n杜伦大学高级计算机科学理学硕士（人工智能）课程将培养和提高学生的批判性思维和解决问题的能力，通过课程鼓励其分析复杂的问题，设计和评估有效的解决方案。作为硕士课程的一个组成部分，学生将参与实践编码、软件开发和项目，将理论知识应用于现实世界的场景。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级编程 (Advanced Programmin)\n机器学习与深度学习 (Machine Learning and Deep Learning)\n算法与复杂性 (Algorithms and Complexity)\n计算机科学的研究方法与伦理 (Research Methods and Ethics in Computer Science)\n计算机科学项目  (Computer Science Project)\n高级计算机系统  (Advanced Computer Systems)\n生物信息学 (Bioinformatics)\n人机交互框架与实践 (Human-AI Interaction Frameworks and Practices)\n安全工程与密码学 (Security Engineering and Cryptography)\n高级算法 (Advanced Algorithms)\n计算机视觉 (Computer Vision)\n加密货币与区块链技术 (Cryptocurrencies and Blockchain Technologies)\n自然语言处理 (Natural Language Processing)\n网络 (Networks)\n量子计算 (Quantum Computing)\n推荐系统 (Recommender Systems)\n强化学习 (Reinforcement Learning)",
+  "success_cases": ""
+}

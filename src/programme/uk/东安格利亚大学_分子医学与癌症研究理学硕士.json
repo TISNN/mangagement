@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "分子医学与癌症研究理学硕士",
+  "ename": "MSc Molecular Medicine and Cancer Research",
+  "tags": "社科,医学,生物科学学院",
+  "introduction": "专业方向: 医学\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26900英镑/年",
+  "requirements": "具有英国2:1学士学位或同等学历，需要生命或物理科学专业背景",
+  "objectives": "疾病的分子和细胞机制是21世纪一个重要的研究领域，重大的科学进步，如人类基因组计划的完成和通过全基因组测序分析微生物群的能力，使在细胞和分子水平上详细探索疾病成为可能，这一进展为了解疾病、开发治疗方法以及未来可能发现治愈方法带来了希望，通过学习东安格利亚大学分子医学与癌症研究理学硕士课程，学生将站在这个令人兴奋的领域的最前沿，为未来的医疗保健研究和进步做出贡献。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究项目 (Research Project)\n生物科学前沿 (Frontiers in Biosciences)\n研究规划与管理 (Research Planning and Management)\n数据科学与生物信息学 (Data Science and Bioinformatics)\n科学中的有效沟通 (Effective Communication in Science)\n生物科学中基于问题的学习 (Problem Based Learning in Biosciences)",
+  "success_cases": ""
+}

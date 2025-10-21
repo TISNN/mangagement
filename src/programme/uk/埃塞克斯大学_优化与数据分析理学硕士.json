@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "优化与数据分析理学硕士",
+  "ename": "MSc Optimisation and Data Analytics",
+  "tags": "理科,数据科学,数学科学系",
+  "introduction": "专业方向: 数据科学\n入学时间: 10月\n项目时长: 1年\n项目学费: 20700英镑/年",
+  "requirements": "具有2:1学位，背景需要为以下学科之一：数学、统计学、运筹学、计算机科学、应用数学、纯数学、生物统计学、经济统计学、经济学；或具有2:1学位，不限专业背景，包括：以下1门课程：微积分、数学、工程数学、高等数学，以及以下1门课程：统计或概率、数学、工程数学、高等数学，以及以下1门附加相关课程：代数、分析、编程语言（R, Matlab或Python）、概率论或统计学中的第2门课程、数值方法、复数、微分方程、优化（线性规划）、回归、随机过程、数学、工程数学、高等数学低于2:1学位或同等学历的申请者，将根据其相关专业或志愿工作经验和之前学习的课程对其申请进行考虑",
+  "objectives": "埃塞克斯大学优化与数据分析理学硕士项目适合第一学位包括数学作为主要科目的学生。学生最好有统计学的先验知识——例如显著性检验或基本统计分布——以及运筹学（如线性规划）。 企业、组织和个人都在努力尽可能有效地工作。运筹学使用先进的统计和分析方法来帮助改善提供产品或服务的复杂决策过程。在这个领域工作，学生可能需要确定企业的未来需求、评估客户的生命周期价值或为航空公司进行计算机模拟。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n非线性规划 (Nonlinear Programming)\n组合优化 (Combinatorial Optimisation)\nPython编程入门 (Introduction to Programming in Python)\n动态规划和强化学习 (Dynamic programming and reinforcement learning)\n数据可视化 (Data Visualisation)\n研究技能和就业能力 (Research Skills and Employability)\n运筹学和供应链管理 (Operations and Supply Chain Management)\n供应链管理 (Supply Chain Management)\n数据和分析 (Data and Analytics)",
+  "success_cases": ""
+}

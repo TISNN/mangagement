@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "计算机科学理学硕士",
+  "ename": "MSc Computer Science",
+  "tags": "工科,计算机,科技学院",
+  "introduction": "专业方向: 计算机\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "申请者必须具有学士学位或经澳门大学认可的同等学历，也可能被要求具有其他知识或专业经验\n申请者学士学位毕业总平均分应该达到C或以上成绩（相当于GPA2.3/4，GPA14/20，GPA70/100）",
+  "objectives": "应用计算和数学知识解决计算机科学学科中复杂计算问题的能力。将计算专业知识和适用于计算专业的领域知识应用于计算模型的抽象和概念化的能力。分析问题，识别和定义适合其解决方案的计算要求的能力。设计，实现和评估基于计算机的系统，过程，组件或程序，以满足公众健康与安全，社会和环境方面的适当考虑，从而满足所需需求的能力。在团队中有效运作以实现共同目标的能力。对专业，道德，法律，安全和社会问题及责任的理解。与众多受众进行有效沟通的能力。分析计算对个人，组织和社会的本地和全球影响的能力。认识到持续职业发展的必要性和能力。在了解限制的情况下使用计算实践所需的当前技术，技能和工具的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机科学研讨会 (Computer Science Seminar)\n学术/应用论文 (Academic/Applied Thesis)\n软件工程基础 (Fundamentals of Software Engineering)\n计算机通信与网络 (Computer Communications and Networks)\n数据库的发展现状 (Current Development in Database)\n编译器构造 (Compiler Construction)\n算法设计与分析 (Design and Analysis of Algorithms)\n复杂性理论 (Complexity Theory)\n软件工程中的形式化方法 (Formal Methods in Software Engineering)\n离散系统仿真 (Discrete System Simulation)\n计算机系统性能建模 (Computer System Performance Modeling)\n计算机图形学原理和系统 (Computer Graphics - Principles and Systems)\n人工智能原理 (Principles of Artificial Intelligence)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "计算机科学理学硕士（金融计算方向）",
+  "ename": "MSc Computer Science (Financial Computing Stream)",
+  "tags": "工科,计算机,计算与数据科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 320000港币/年",
+  "requirements": "具有学士学位或同等学历",
+  "objectives": "香港大学计算机科学（金融计算方向）硕士学位课程研究金融中使用的数据和算法，以及实现金融模型或系统的计算机程序的数学。金融计算强调实用的数值方法，并侧重于直接适用于业务和财务分析的技术。重点将放在金融业的计算方面。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据挖掘 (Data mining)\n分布式总账技术和区块链技术 (Distributed ledger and blockchain technology)\n贸易和金融方面的机器学习 (Machine learning in trading and finance)\n金融计算导论 (Introduction to financial computing)\n金融计算专题 (Topic in financial computing)\n网络安全导论 (Introduction to cyber security)\n计算金融技术 (Techniques in computational finance)\n量化金融软件开发 (Software development for quantitative finance)\n银行业证券交易 (Securities transaction banking)\n金融诈骗分析 (Financial fraud analytics)",
+  "success_cases": ""
+}

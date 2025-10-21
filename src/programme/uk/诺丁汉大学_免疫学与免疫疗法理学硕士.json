@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "免疫学与免疫疗法理学硕士",
+  "ename": "MSc Immunology and Immunotherapeutics",
+  "tags": "社科,医学,生命科学学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要任意相关学科背景",
+  "objectives": "诺丁汉大学免疫学与免疫疗法理学硕士课程特别适合生命科学、生物医学和相关学科的毕业生，也适用于已经在相关领域工作的人员，他们希望获得宝贵的研究经验，并更新他们在免疫学和新型免疫治疗技术方面的知识。学生将了解免疫机制对广泛疾病过程的贡献，作为开发新诊断和治疗策略的基础。此外，学生还将培养批判性评估已发表的科学论文以及如何报告和解释结果的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "免疫和免疫系统 (Immunity and the Immune System)\n研究方法 (Research Methods)\n过敏的分子方面 (Molecular Aspects of Allergy)\n自身免疫机制 (Mechanisms of Autoimmunity)\n先天免疫识别 (Innate Immune Recognition)\n治疗免疫学 (Therapeutic Immunology)\n生物信息学 (Bioinformatics)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

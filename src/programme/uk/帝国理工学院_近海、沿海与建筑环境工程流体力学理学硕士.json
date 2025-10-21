@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "近海、沿海与建筑环境工程流体力学理学硕士",
+  "ename": "MSc Engineering Fluid Mechanics for the Offshore, Coastal and Built Environments",
+  "tags": "工科,土木工程,土木与环境工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有2:1学位，需要理工科背景，需要适当的数学基础，例如A-level Grade B或更高水平",
+  "objectives": "帝国理工学院近海、沿海与建筑环境工程流体力学理学硕士项目旨在培养流体力学工程师，尤其是善于研究独特的海洋、海岸和建筑环境的工程师。学生将在我们世界级的流体力学实验室进行实验研究，积累实践经验。帝国理工学院近海、沿海与建筑环境工程流体力学理学硕士项目将理论与实践相结合，为学生提供新一代流体力学工程师的培训。数学和专业软件MATLAB前置课程为学生打下了坚实的基础，从而能够进行建模、运输、计算、海岸过程和能源系统等深入学习。学生将根据自身兴趣或职业理想自行选择相关领域开展研究项目，撰写研究报告。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "海气相互作用动力学 (Air-Sea Interaction Dynamics)\n浮力驱动流 (Buoyancy-driven Flows)\n海岸作用过程 (Coastal Processes)\n计算分析 (Computational Analysis)\n设计项目 (Design Projects)\n能源系统 (Energy Systems)\n流体负荷 (Fluid Loading)\n流体力学基础 (Fluid Mechanics Fundamentals)\n建模工具 (Modelling Tools)\n运输过程 (Transport Processes)\n城市流体力学 (Urban Fluid Mechanics)\n波浪力学 (Wave Mechanics)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,工商管理学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 8月\n项目时长: 2年\n项目学费: 102000澳门币/年",
+  "requirements": "持有澳门大学认可的学士学位或同等学历。申请人也可能被要求具备其他知识或专业经验。申请人必须在学士学位学习中达到相当于C级或更高的总成绩。持有管理或督导经验者优先考虑\n学生应符合以下条件之一：(1)商业学士学位或(2)计算机科学，信息系统或其他STEM相关专业的学士学位或(3)非商业和非STEM相关学位持有人至少有两年在商业公司的工作经验",
+  "objectives": "澳门大学商业分析理学硕士旨在培训学生使用适当的分析和技术工具来收集数据、获取情报并使组织能够深入了解复杂的业务问题。该课程特别适合行业从业者和商业、计算机、经济学、信息系统、数学、科学或统计学专业的应届毕业生。\n澳门大学商业分析理学硕士计划为学生提供商业分析的概念、理论和实践知识；培养学生运用信息技术和定量方法分析业务数据；培养学生在业务分析的帮助下制定、支持和实施业务决策的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业分析基础 (Fundamentals of Business Analytics)\n商业分析统计学 (Statistics for Business Analytics)\n商业建模与决策分析 (Business Modeling and Decision Analysis)\n数据库和大数据管理 (Database and Big Data Management)\n机器学习和商业应用 (Machine Learning with Business Applications )\n社交网络和文本分析 (Social Network and Textual Analysis)\n项目报告 (Project Report )\n现代金融科技概论 (Introduction to Modern Financial Technology)\n信息管理和数字创新 (Information Management and Digital Innovation)\n服务运营 (Service Operations)\n旅游分析 (Tourism Analytics)\n计量经济学和高维数据分析 (Econometrics and High-Dimensional Data Analysis)\n营销分析 (Marketing Analytics )",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "数据密集型分析理学硕士",
+  "ename": "MSc Data-Intensive Analysis",
+  "tags": "理科,数据科学,计算机科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29990英镑/年",
+  "requirements": "具有2:1学位或同等学历，具备一些编程经验（例如Java）",
+  "objectives": "圣安德鲁斯大学数据密集型分析理学硕士项目是一门跨学科的课程，旨在让学生了解如何利用数据研究各个领域，从而获得有用的见解。数据密集型分析理学硕士课程将理论与实践相结合，具有与计算数据科学和可视化相关的实质性统计内容。圣安德鲁斯大学数据密集型分析理学硕士项目基于数据，培养学生的实际技能，以演变、验证、部署预见性模型，同时提供行业型和研究型方面的技能培训。学生需开展一项重要的项目，包括大范围的调查研究，以便撰写毕业论文，从而巩固和拓展专业知识和批判思维。学生24小时都能使用机房，也能够使用双屏PC工作站和团队设备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据分析导论 (Introductory Data Analysis)\n高级数据分析 (Advanced Data Analysis)\n知识发现与数据挖掘 (Knowledge Discovery and Datamining)\nGLMs应用统计模型 (Applied Statistical Modelling using GLMs)\n统计计算 (Computing in Statistics)\n数据分析软件 (Software for Data Analysis)\n数据密集型系统 (Data-Intensive Systems)\n信息可视化与视觉分析 (Information Visualisation and Visual Analytics)\n硕士编程项目 (Masters Programming Projects)\n目标导向建模，设计和变成 (Object-Orientated Modelling, Design and Programming)\n编程原理与实践 (Programming Principles and Practice)",
+  "success_cases": ""
+}

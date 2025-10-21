@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "数字商务与管理理学硕士",
+  "ename": "MSc Digital Business and Management",
+  "tags": "商科,管理,诺维奇商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 24300英镑/年",
+  "requirements": "具有英国2:1学士学位或同等学历，需要自然科学、社会科学或艺术和人文科学背景，并且对数字技术对商业和管理的影响感兴趣",
+  "objectives": "本课程将为您提供知识和技能，以管理数字化转型和数字业务的发展，并为您在数字业务中的各种就业岗位做好准备，例如各种类型和规模的企业的管理和领导，咨询和签约，\n并成为企业家和创建新的数字业务。\n将向您介绍数字业务，数字市场，不同类型的当代和新兴数字技术以及数字转换。\n通过本课程，您可以发展雇主所需的数字业务专业知识，或者进一步学习博士学位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业研究方法 (Business Research Methods)\n数字化转型 (Digital Transformation)\n数字业务概述 (Introduction to Digital Business)\n营销理论与实践 (Marketing Theory and Practice)\n研究生论文 (Postgraduate Dissertation)\n战略运营和供应管理 (Strategic Operations and Supply Management)\n商业数字政策 (Digital Policy for Business)\n社交媒体和数字营销 (Social Media and Digital Marketing)",
+  "success_cases": ""
+}

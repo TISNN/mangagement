@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "高级化学工程理学硕士",
+  "ename": "MSc Advanced Chemical Engineering",
+  "tags": "工科,化工,化学工程与分析科学学院",
+  "introduction": "专业方向: 化工\n入学时间: 9月\n项目时长: 1年\n项目学费: 37500英镑/年",
+  "requirements": "第一学位是2:1荣誉学位，需要化学工程或密切相关工程学科背景，或具备同等学历/经验。具有2:2学位的申请者也将被考虑，欢迎申请",
+  "objectives": "现代化学工程涵盖内容宽泛，已不仅限于传统的油气加工。对能够处理化学反应器、蒸馏及众多化学或石化工厂中的工艺其能够设计并开发按配方制造的产品及理解生物技术和环境议题的化学工程师的需求日益增长。\n在曼彻斯特大学高级化学工程理学硕士学位课程的学习中，获得过化学工程第一学位的学生将更深入学习这门科目并通过选修科目学习更广泛的议题；已在工业就职或有意在特定领域就业的学生能够重点学习直接关系到自身利益的议题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究技术与方法（技能） (Research Techniques and Methods (Skills))\n研究技术与方法（方案） (Research Techniques & Methods (Proposal))\n石油和天然气加工 (Oil and Gas Processing)\n核燃料循环 (The Nuclear Fuel Cycle)\n化学工程中的分子建模与仿真 (Molecular Modelling & Simulation in Chemical Engineering)\n先进的工程分离 (Advanced Engineering Separations)\n公用事业系统 (Utility Systems)\n催化反应工程 (Catalytic Reaction Engineering)\n过程流体动力学 (Process Fluid Dynamics)\n吸附与离子交换 (Adsorption & Ion Exchange)\n计算机辅助过程设计 (Computer Aided Process Design)\n界面与胶体科学 (Interface & Colloid Science)\n能源系统 (Energy Systems)\n分布式和可再生能源系统 (Distributed & Renewable Energy Systems)\n蒸馏系统设计 (Distillation Systems Design)",
+  "success_cases": ""
+}

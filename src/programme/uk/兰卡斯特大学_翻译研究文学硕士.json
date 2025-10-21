@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "翻译研究文学硕士",
+  "ename": "MA Translation Studies",
+  "tags": "社科,语言,国际事务学院",
+  "introduction": "专业方向: 语言\n入学时间: 10月\n项目时长: 1年\n项目学费: 24830英镑/年",
+  "requirements": "通常需要具有语言或相关学科的英国2:1荣誉学位或同等学历，也欢迎以所教语言为母语的人申请，申请者应在其个人陈述中清楚地说明他们希望专攻哪门语言\n学校也会根据具体情况考虑具有其他学科学位、语言或翻译相关学科达到2:2学位或同等学历、或具备丰富的相关经验的申请者，申请者应该能够展示其技能如何为研究生学习期间的相关讨论和评估做好准备。",
+  "objectives": "兰卡斯特大学翻译研究文学硕士项目旨在在为翻译专业或翻译研究领域的博士（博士）研究提供一个入口。该课程提供翻译研究专业模块的组合，以及获得进入该行业所需的语言和技术技能的机会。该方案适用于没有正式资格但希望获得正式资格的执业翻译。该课程涵盖法律、技术或医学翻译等专业行业职业所需的语言和技术技能。该课程还提供一个独特的机会来文学翻译以及翻译与艺术和文化的关系，这是该系的研究优势之一。在现有语言技能的基础上，学生将有机会学习如何研究专业科目，以在不同背景下进行专业翻译。该课程鼓励学生应用语言学和翻译理论中的见解，并在计算机辅助翻译（CAT）工具中使用技术技能。该翻译研究文学硕士也适用于那些希望从事文学翻译、编辑或文案写作的人。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "翻译研究与实践方法 (Academic and practical methods in translation)\n现代语言学家研究技巧 (Research Skills for Modern Linguists)\n文学硕士翻译项目 (MA Translation Project)\n专业语境下的翻译 (Translating in a Professional Context)\n联络口译导论 (Introduction to Liaison Interpreting)\n自主学习模块 (Independent Study Unit)\n理论阅读 (Reading Theoretically)",
+  "success_cases": ""
+}

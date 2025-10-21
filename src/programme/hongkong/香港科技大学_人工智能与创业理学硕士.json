@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "人工智能与创业理学硕士",
+  "ename": "MSc Artificial Intelligence and Entrepreneurship",
+  "tags": "工科,计算机,工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 2年\n项目学费: 250000港币/年",
+  "requirements": "具有计算机工程，计算机科学或相关学科的学士学位。具有其他学科学士学位的申请人必须具有至少两年与该计划相关的资格后工作经验",
+  "objectives": "近年来，人工智能（AI）已成为一股变革力量，推动了各个领域的重大科学进步和创新应用。香港科技大学人工智能与创业理学硕士项目旨在培养能够开发新型人工智能技术的人工智能专家，并识别和评估人工智能创业机会。通过课程、研讨会和为期一年的实习，学生将获得深厚的人工智能技术知识和高级技能，使他们能够为该领域的复杂挑战提供原创见解和创新解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能编程 (Programming for Artificial Intelligence)\nAI基础：概念与方法 (AI Fundamentals: Concepts and Methods)\n人工智能伦理 (Artificial Intelligence Ethics)\n算法设计与分析 (Design and Analysis of Algorithms)\n计算理论 (Theory of Computation)\n机器学习 (Machine Learning)\n自然语言处理 (Natural Language Processing)\n计算机视觉 (Computer Vision)\n生成式AI与大型语言模型 (Generative AI and Large Language Models)\n机器学习系统 (Machine Learning System)\n人工智能安全与隐私 (Artificial Intelligence Security and Privacy)\n我的创业 (Entrepreneurial Me)\n人工智能创业研讨会 (Startup Seminars for AI)\n人工智能的创新管理 (Innovation Management for AI)\nAI实习与创业 (Internship and Entrepreneurship for AI)",
+  "success_cases": ""
+}

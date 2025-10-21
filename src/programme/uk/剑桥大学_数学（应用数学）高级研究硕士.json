@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "数学（应用数学）高级研究硕士",
+  "ename": "MASt Mathematics (Applied Mathematics)",
+  "tags": "理科,数学,应用数学与理论物理学系",
+  "introduction": "专业方向: 数学\n入学时间: 10月\n项目时长: 1年\n项目学费: 26031英镑/年",
+  "requirements": "申请者应该具有英国一等荣誉学位或同等学历，需要数学、物理、统计学或其他具有大量高级数学内容的学科背景",
+  "objectives": "剑桥大学应用数学高级研究硕士项目是一门为期九个月的数学硕士课程，是数学研究的良好准备，对于那些想在工业、教学或研究机构任职前接受进一步培训的人来说，是数学及其应用的一门有价值的课程。剑桥大学数理统计高级研究硕士项目涵盖范围广泛的纯数学、概率论、统计学、应用数学和理论物理。这些课程的目的是涵盖那些一级课程通常不涉及的科目的高级部分，但这些部分是独立学习和研究必不可少的预备课程。该课程旨在：将数学科学中的高级材料学习到第一学位通常不涵盖的水平；进一步提高了独立学习数学和解决问题的能力；进行（在大多数情况下）通常从涵盖广泛主题的列表中选择的扩展论文。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "代数学 (Algebra)\n代数几何 (Algebraic Geometry)\n分析与偏微分方程式 (Analysis and PDEs)\n组合数学 (Combinatorics)\n微分几何与拓扑学 (Differential Geometry and Topology)\n基础 (Foundations)\n数论 (Number Theory)\n信息与金融 (Information and Finance)\n概率论 (Probability)\n统计学 (Statistics)\n应用与计算分析 ( Applied and Computational Analysis)\n天体物理学 (Astrophysics)\n连续介质力学 (Continuum Mechanics)\n数学生物学 (Mathematical Biology)\n粒子物理与量子场 (Particle Physics and Quantum Fields)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "数据科学理学硕士",
+  "ename": "MSc Data Science",
+  "tags": "理科,数据科学,数学与物理科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 22575英镑/年",
+  "requirements": "通常应具有英国2:1本科荣誉学位或以上水平或同等学历\n需要物理学、工程学、科学、计算、数学或生命科学背景\n具备其他同等专业资格或经验的申请者也可能会被该专业考虑",
+  "objectives": "当代学术和工业实践中经常需要海量数据集。学生若对数据科学及其在科学和技术中的应用感兴趣，并希望去到企业工作，或是计划进一步学习深造，萨塞克斯大学数据科学理学硕士项目都将是很好的选择。通过萨塞克斯大学数据科学理学硕士项目，学生将接触到数据科学领域最先进的理论和实践内容，应用范围包括数学、物理、生物学和计算机科学。同时，学生还将学会运用最新工具来处理数据集。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文（数据科学） (Dissertation (Data Science))\n算法数据科学 (Algorithmic Data Science)\n数据分析技术 (Data Analysis Techniques)\n数据科学研究方法 (Data Science Research Methods)\n数据科学硕士研究计划 (Data Science Masters Research Proposal)\n机器学习 (Machine Learning)\n更广泛的数据科学主题 (Wider Topics in Data Science)\n应用自然语言处理 (Applied Natural Language Processing)\n基因与生物化学导论 (Introduction to Genes and Biochemistry)\n复杂系统的数学与计算方法 (Mathematics and Computational Methods for Complex Systems)\nC++编程 (Programming in C++ )\n粒子物理前沿 (Frontiers in Particle Physics)\n基因组学和生物信息学 (Genomics and Bioinformatics)\n图像处理 (Image Processing)\n蒙特卡罗模拟 (Monte Carlo Simulations)",
+  "success_cases": ""
+}

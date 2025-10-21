@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "地球物理学理学硕士",
+  "ename": "MSc Geophysics",
+  "tags": "工科,地球科学,地球科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:1荣誉学位或学历，需要地球物理学、数学或物理学背景\n学校也会考虑具有地质学、工程地质学、环境科学或类似背景2:1学位并且能够证明在地球物理学、数学和/或物理学方面能力的申请者，学习背景必须涵盖的重点科目：至少1门大学水平的数学和/或物理学和/或地球物理学课程",
+  "objectives": "阿伯丁大学地球物理学理学硕士项目是根据公认的行业内合格的地球物理学家的需求而开发的，旨在为学生提供在烃类，矿物勘探或相关服务行业或更广泛的地球物理研究领域的职业技能。使学生接触现代地球物理学的理论和实践，并侧重于前沿技术，以了解从近地表到深层内部的地球的结构，动力学和组成。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地震波反射 (Seismic Reflection)\n时间序列 (Time Series)\n地球物理，结构与过程 (Earth Physics, Structure and Processes)\n现场地球物理数据采集 (Field Geophysical Data Acquisition)\n地球物理反演理论与统计 (Geophysical Inverse Theory and Statistics)\n高级应用地球物理学主题 (Topics in Advance Applied Geophysics)\n地震学与地球成像 (Seismology and Earth Imaging)\n钻孔地球物理学与4d储层监测 (Borehole Geophysics and 4d Reservoir Monitoring)\n地球物理学项目 (Project in Geophysics)",
+  "success_cases": ""
+}

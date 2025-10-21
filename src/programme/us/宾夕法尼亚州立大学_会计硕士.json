@@ -1,0 +1,12 @@
+{
+  "school_name": "宾夕法尼亚州立大学",
+  "major_name": "会计硕士",
+  "ename": "Master's in Accounting",
+  "tags": "商科,会计",
+  "introduction": "专业方向: 会计\n入学时间: 秋季\n项目时长: 1年3个月\n项目学费: 37,639美元\n项目规模: 51人\n平均成绩: 3.58\n国际学生: 6%\n男女比例: 44:56",
+  "requirements": "GPA3.5",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

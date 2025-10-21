@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "临床药理学理学硕士",
+  "ename": "MSc Clinical Pharmacology",
+  "tags": "社科,药学,医学，医学科学与营养学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "通常要求2:2荣誉学位或同等学历，需要生物医学科学学科背景，如生物化学、生物医学科学、药理学，或医学或药学学位",
+  "objectives": "阿伯丁大学临床药理学理学硕士项目旨在培养学生的研究技能，临床药物的知识及其在现实世界中的应用。阿伯丁大学临床药理学理学硕士课程的主题包括疾病领域内的分子药理学和毒理学，药物发现过程和药物设计和开发，是应届毕业生、医生和科学家的理想选择，他们希望改善自己的职业前景，填补技能空白，并进一步提高自己的实际研究经验。阿伯丁大学临床药理学理学硕士项目旨在为学生提供对药理学原理和方法的理解，培养其将知识应用于学术和现实世界的卫生环境的能力，为学生提供向世界知名研究人员学习的机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分子药理学 (Molecular Pharmacology)\n治疗学 (Therapeutics)\n应用统计学 (Applied Statistics)\n基本技能-归纳法 (Basic Skills - Induction)\n毒理学 (Toxicology)\n药物代谢动力学 (Pharmacokinetics)\n基本研究方法 (Basic Research Methods)\n从药物开发到循证医学 (Drug Development to Evidence Based Medicine)\n临床试验：法规、治理与安全性 (Clinical Trials: Regulation, Governance and Safety)\n硕士研究项目 (Masters Research Project)",
+  "success_cases": ""
+}

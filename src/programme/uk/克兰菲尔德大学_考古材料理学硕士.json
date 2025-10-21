@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "考古材料理学硕士",
+  "ename": "MSc Archaeomaterials",
+  "tags": "社科,历史,国防与安全",
+  "introduction": "专业方向: 历史\n入学时间: 10月\n项目时长: 1年\n项目学费: 24720英镑/年",
+  "requirements": "要求具有考古学、自然科学或相关学科背景。也考虑对考古科学有了解并且感兴趣的其他学科背景的学生。",
+  "objectives": "克兰菲尔德大学考古材料理学硕士课程旨在让您对考古材料研究的原理和实践有一个坚实的基础。克兰菲尔德大学考古材料理学硕士课程涵盖了分析考古对象所必需的自然科学基础，以及与这些调查相关的主要考古主题的研究景观。主题包括创新、技术、交流、工艺生产、消费模式和互动。从人工制品的实验室分析到传统技术的实验再创造，您将获得科学家研究过去的广泛方法的实践经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "岩土材料基础理论 (Fundamentals of Geomaterials)\n陶瓷研究方法 (Approaches to Ceramic Studies)\n冶金考古 (Archaeometallurgy)\n玻璃材料 (Vitreous Materials)\n生物质来源材料 (Materials of Biological Origin)\n研究设计与数据分析 (Research Design and Data Analysis)\n考古材料研究主题：研讨会 (Research Themes in Archaeomaterials: Seminar)\n材料制作：实验方法 (Making Materials: Experimental Approaches)\n分析技术 (Analytical Techniques)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

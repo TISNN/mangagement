@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "地质化学理学硕士",
+  "ename": "MSc Geochemistry",
+  "tags": "理科,化学,地球与环境科学学院",
+  "introduction": "专业方向: 化学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29990英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要相关学科领域专业背景",
+  "objectives": "地质化学对于量化地球系统各个方面背后的机制、速率和来源至关重要。圣安德鲁斯大学地质化学理学硕士项目为学生提供现代地质化学方法方面的专业知识和技能，可到各种地质科学和环境科学职业工作，包括进一步的博士研究。本课程包括实验室和现场取样实践培训，以及使用最先进设备的经验。圣安德鲁斯大学地质化学理学硕士项目的教学和监督涵盖了地质化学领域的广泛专业知识，以最先进的实验室设施为基础。本课程将向学生介绍地质化学建模和数据统计分析的学术和行业标准软件。该理学硕士通过以下方式为攻读博士学位提供准备： 在活跃的研究小组中工作，以及完成一篇基于实验室的论文，专注于一个新的研究问题。该理学硕士通过整合应用经济和环境地质化学模块以及行业赞助研究的可能性，为学生在行业就业做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级地球化学 (Advanced Geochemistry)\n统计及分析科学 (Statistics and Analytical Sciences)\n地球热门话题 (Earth's Greatest Hits)\n地球化学 (Geochemistry)\n地球化学田野考察 (Geochemistry Field Excursion)\n同位素地球化学：理论，技术与应用 (Isotope Geochemistry: Theory, Techniques, and Applications)\n物理化学实验室 (Physical Chemistry Laboratory)\n高级岩石成因论 (Advanced Petrogenesis)\n生物地球化学 (Biogeochemistry)\n能量转换与储存 (Energy Conversion and Storage)\n材料加工 (Processing of Materials)\n水环境 (Water in the Environment)",
+  "success_cases": ""
+}

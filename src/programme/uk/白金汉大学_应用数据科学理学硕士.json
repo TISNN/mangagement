@@ -1,0 +1,12 @@
+{
+  "school_name": "白金汉大学",
+  "major_name": "应用数据科学理学硕士",
+  "ename": "MSc Applied Data Science",
+  "tags": "理科,数据科学,科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 1月\n项目时长: 1年\n项目学费: 18000英镑/年",
+  "requirements": "具有2:1荣誉学位，需要计算、工程、物理学或数学背景",
+  "objectives": "白金汉大学应用数据科学理学硕士旨在培养新一代数据科学家，以满足该领域对专业技能不断增长的需求。数据科学已成为一门新的重要科学学科，具有广泛的应用（例如农业科技、金融科技、健康科技、教育科技、交通运输）。它包括处理大数据的解决方案，从捕获、存储、处理、分析数据到可视化见解。这些解决方案可以包括数据挖掘、机器学习、高级分析、数据可视化和数据库内分析。\n在该系的研究专业知识的支持下，白金汉大学应用数据科学理学硕士项目的一个独特之处是嵌入了与 IT、技术创新和企业、道德和研究领导力相关的技能和知识。这些技能将通过大学内部和业界相关专家举办的一系列研讨会来发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据挖掘与机器学习应用技术\t (Applied Techniques of Data Mining and Machine Learning)\n数据探索和可视化 (Data Exploration and Visualisation)\n个人项目应用数据科学 (Individual Project Applied Data Science)\n数据科学的领导力和创新 (Leadership and Innovation in Data Science)\n数据分析的数学和统计学 (Mathematics and Statistics for Data Analysis)\n研究方法 (Research Methods)\n数据分析脚本 (Scripting for Data Analysis)\n数据科学系统和工具 (Systems and Tools for Data Science)\n工作安排 (Work Placement)\n基于工作的论文 (Work-based Dissertation)",
+  "success_cases": ""
+}

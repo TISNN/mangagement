@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "档案与记录管理硕士（数字）",
+  "ename": "Master of Archives and Records Management (Digital)",
+  "tags": "社科,其他社科,历史、语言与文化学院",
+  "introduction": "专业方向: 其他社科\n入学时间: 9月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，不限专业背景\n大多数学生具有相关工作经验，无论是有偿还是自愿",
+  "objectives": "利物浦大学档案与记录管理硕士（数字）项目提供了选择更广泛的与数字记录保存相关的模块作为选修课程的机会。因此，该项目特别适合那些希望成为数字档案管理员或记录经理或不需要古文字学技能的人。\n利物浦大学档案与记录管理硕士（数字）项目将教学生如何工作，以提供良好治理所需的问责制和透明度，在组织环境中有效运营公众，或满足更广泛的文化和遗产环境中档案用户的需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "记录保存理论与实践 (Record-Keeping Theory and Practice)\n记录保存系统和组织环境 (Recordkeeping Systems and the Organisational Context)\n应用地理信息科学 (Applied Geographic Information Science)\n大数据分析 (Big Data Analytics)\n大数据与社会 B：基础、政治和政策 (Big Data and Society B: Foundations, Politics, And Policy)\n数据库和信息系统 (Database and Information Systems)\n地理数据科学 (Geographic Data Science)\n数据科学导论 B (Introduction to Data Science B)",
+  "success_cases": ""
+}

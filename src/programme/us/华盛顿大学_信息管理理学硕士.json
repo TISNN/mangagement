@@ -1,0 +1,12 @@
+{
+  "school_name": "华盛顿大学",
+  "major_name": "信息管理理学硕士",
+  "ename": "MS in Information Management",
+  "tags": "商科,信息系统",
+  "introduction": "专业方向: 信息系统\n项目类别: STEM\n入学时间: 秋季\n项目时长: 36/40/65学分\n项目学费: 896美元/学分\n就业比例: 82%\n平均起薪: 105000美元\n留美比例: 100%",
+  "requirements": "申请Mid-Career方向需要5年工作经验,申请Early-Career和Early-Career Accelerated方向不需要工作经验",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "转化神经科学理学硕士",
+  "ename": "MSc Translational Neuroscience",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 32550英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要生物工程、生物学、生物医学科学、医学、神经科学、心理学学科背景",
+  "objectives": "谢菲尔德大学转化神经科学理学硕士课程侧重于神经变性的分子基础，并着眼于与大脑结构和功能相关的实验室研究如何为神经系统疾病的新疗法的开发提供信息。结合医学、牙科与健康学院和理学院的研究优势，领先的国际基础和临床科学家将提供创新和进步的计划。学生将学习基础神经生物学和分子生物学，神经影像学和应用临床实践。谢菲尔德大学转化神经科学理学硕士课程将为学生提供该领域最新进展的知识、国际知名研究小组的研究经验以及可转移的技能。学生将在谢菲尔德转化神经科学研究所（SITraN）的神经科学系学习。SITraN是欧洲第一家专门针对运动神经元疾病（MND）和相关神经退行性疾病（如帕金森病和阿尔茨海默病）进行基础和临床研究的研究所。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分子神经科学 (Molecular Neuroscience)\n中枢神经系统结构和功能 (CNS Structure and Function)\n神经变性的病理学和建模 (Pathology and Modelling of Neurodegeneration)\n科学伦理和公众意识 (Ethics and Public Awareness of Science)\n科学文献综述与批判性分析 (Literature Review and Critical Analysis of Science)\n神经退行性疾病的发病机制 (Mechanisms of Neurodegenerative Disease)\n应用神经影像学、神经生理学和精神病学 (Applied Neuroimaging, Neurophysiology & Psychiatry)\n研究项目 (Research project)",
+  "success_cases": ""
+}

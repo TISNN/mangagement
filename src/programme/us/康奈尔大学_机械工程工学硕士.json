@@ -1,0 +1,12 @@
+{
+  "school_name": "康奈尔大学",
+  "major_name": "机械工程工学硕士",
+  "ename": "MEng in Mechanical Engineering",
+  "tags": "工科,机械工程",
+  "introduction": "专业方向: 机械工程\n入学时间: 春季/秋季\n项目时长: 1年\n项目学费: 62456美元/年\n项目规模: 80人\n平均成绩: 3.6\n平均G: V157,Q164,A3.0",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "高级软件工程理学硕士",
+  "ename": "MSc Advanced Software Engineering",
+  "tags": "工科,计算机,自然、数学与工程科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 37800英镑/年",
+  "requirements": "具有high 2:1本科（荣誉）学士学位或同等学历，需要计算机科学或软件工程背景",
+  "objectives": "伦敦大学国王学院高级软件工程理学硕士学位课程是一门高级学习课程，为计算机学生提供软件系统设计、开发和分析方面的高级技能。该课程专注于当代的软件系统开发技术，重点是大型安全软件系统的构建和管理。学生将学习高级软件工程技能，为他们在专业和研究中发挥创造性作用做好准备。本课程还将使学生具备必要的研究、分析和批判性思维技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "个人项目 (Individual Project)\n高级软件工程：软件度量和测试 (Advanced Software Engineering: Software Measurement & Testing)\n团队项目 (Group Project)\n软件设计和架构 (Software Design & Architecture)\n高级研究议题 (Advanced Research Topics)\n代理和多智能体系统 (Agents & Multi-Agent Systems)\n计算模型 (Computational Models)\nC++中的数据结构及其实现 (Data Structures and their Implementation in C++)\n数据库技术 (Database Technology)\n分布式系统 (Distributed Systems)\n网络基础架构 (Web Infrastructure)\n并行和分布式算法 (Parallel & Distributed Algorithms)\n互联网应用程式软件工程 (Software Engineering of Internet Applications)\n访问控制和隐私政策 (Access Control & Privacy Policies)",
+  "success_cases": ""
+}

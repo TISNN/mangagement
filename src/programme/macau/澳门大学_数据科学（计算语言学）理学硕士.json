@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "数据科学（计算语言学）理学硕士",
+  "ename": "MSc Data Science (Computational Linguistics)",
+  "tags": "工科,计算机,人文学院",
+  "introduction": "专业方向: 计算机\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "工程学学士和计算机科学或数学理学学士毕业生",
+  "objectives": "澳门大学数据科学（计算机语言学）理学硕士项目以多学科课程为特色，该课程借鉴了一系列学科的见解，使学生能够使用最新的工具和分析方法从现实世界的数据集中提取信息，并以多种方式解释和交流他们的发现。改变人们的思想和行为。\n澳门大学数据科学（计算机语言学）理学硕士课程为期两年，与不同的学术单位合作开展项目。学生将有理工学院讲授的大数据理论、挖掘与分析技术等共4门基础课程。实际和有效地应用于他们指定的专业领域。学生应按照指定专业的学习计划进行选课，并完成项目报告。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语言与语言学 (Language and Linguistics)\n应用自然语言处理 (Applied Natural Language Processing)\n语料库语言学 (Corpus Linguistics)\n计算机辅助翻译 (Computer-aided Translation)\n语言使用的评价和评估 (Evaluation and Assessment of Language Use)\n中国语言学方法 (Methods in Chinese Linguistics)\n应用语言学专题 I (Special Topics in Applied Linguistics I)\n语义学专题 (Topics in Semantics)\n项目报告 (Project Report)",
+  "success_cases": ""
+}

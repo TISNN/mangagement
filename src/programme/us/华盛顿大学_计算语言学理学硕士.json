@@ -1,0 +1,12 @@
+{
+  "school_name": "华盛顿大学",
+  "major_name": "计算语言学理学硕士",
+  "ename": "MS in Computational Linguistics",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1-3年\n项目学费: 40,377美元",
+  "requirements": "编程能力，包括：\n了解数据结构和算法（相当于华盛顿大学的CSE 373）\n广泛熟悉C和Java（请注意，某些核心课程需要Python）\n完成大学水平的语言学入门课程或同等学历\n数学和概率背景，包括：\n完成概率和统计入门课程（相当于华盛顿大学的数学/统计394）\n一些多变量微积分（偏导数/梯度）和一些线性代数\n对英语以外的语言有一定的了解（强烈鼓励）",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

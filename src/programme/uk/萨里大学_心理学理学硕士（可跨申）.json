@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "心理学理学硕士（可跨申）",
+  "ename": "MSc Psychology (Conversion)",
+  "tags": "社科,心理学,心理学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 24900英镑/年",
+  "requirements": "具有2:1英国荣誉学位或受认可的同等学历，需要以下背景：人力资源、人文科学、医学、自然科学、社会科学、社会工作\nGCSE数学和英语（语言/文学）达到C\n如果申请者不符合以上要求，学校可能会考虑其相关工作经验\n如果申请者具备至少1年全职毕业后职位相关经验（或至少2年相关毕业后兼职职位经验），需要在提交申请时在个人陈述和简历中提供职位和责任的详细信息\n具有其他学位专业背景或没有相关GCSE的申请者可能由学院根据具体情况予以考虑",
+  "objectives": "通过萨里大学心理学理学硕士项目课程的学习，学生将掌握当代心理学理论与研究实践知识，深入探讨如社会心理学，心理学发展与认知，基础生物学等心理学相关知识，学习统计和研究方法。经过纯理论研究与运用研究学习，学生能运用心理学知识解决现实生活中的问题，并在导师的指导下，独立自主地进行项目研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学术研究训练 (ACADEMIC RESEARCH TRAINING)\n研究方法的大脑和行为 (BRAIN AND BEHAVIOUR WITH RESEARCH METHODS)\n社会心理学的基本概念与研究方法 (FUNDAMENTAL CONCEPTS IN SOCIAL PSYCHOLOGY WITH RESEARCH METHODS)\nMSC心理学的统计和数据分析（转换） (STATISTICS AND DATA ANALYSIS FOR THE MSC IN PSYCHOLOGY (CONVERSION))\n研究方法与认知心理学 (COGNITIVE PSYCHOLOGY WITH RESEARCH METHODS)\n心理学的概念和历史问题（MSC级别） (CONCEPTUAL AND HISTORICAL ISSUES IN PSYCHOLOGY (MSC LEVEL))\n人格，智力和心理病理学 (PERSONALITY, INTELLIGENCE & PSYCHOPATHOLOGY)\n研究方法的社会与认知发展 (SOCIAL AND COGNITIVE DEVELOPMENT WITH RESEARCH METHODS)\n论文8000-10000字 (DISSERTATION 8000-10000 WORDS)",
+  "success_cases": ""
+}

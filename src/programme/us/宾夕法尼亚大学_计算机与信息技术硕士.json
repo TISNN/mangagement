@@ -1,0 +1,12 @@
+{
+  "school_name": "宾夕法尼亚大学",
+  "major_name": "计算机与信息技术硕士",
+  "ename": "Master of Computer and Information Technology",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n入学时间: 秋季\n项目时长: 10门课\n项目学费: 7594美元/课\n项目规模: 48人\n平均成绩: 3.8",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

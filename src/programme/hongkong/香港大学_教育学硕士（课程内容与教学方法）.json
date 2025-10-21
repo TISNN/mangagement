@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "教育学硕士（课程内容与教学方法）",
+  "ename": "Master of Education (Curriculum and Pedagogy)",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 229800港币/年",
+  "requirements": "具有学士学位或同等学历",
+  "objectives": "香港大学教育学（课程内容与教学方法）硕士项目旨在发展符合硕士层面的高阶理解以及在课程研究领域的领导地位。具体而言，学生将学习探索课程概念与设计、学习、评估与教学、课程政策与实践、课程实施与评估等领域的思想和理论的专业课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育问题与研究 (Educational Issues and Research)\n课程比较视角 (Comparative Perspectives on Curriculum)\n课程概念与设计 (Curriculum Conceptions and Design)\n课程实施：问题与挑战 (Curriculum Implementation: Issues and Challenges)\n将课程与学习和教学法联系起来 (Linking Curriculum to Learning and Pedagogy)\n统计方法概论 (Introduction to Statistical Methods)\n定性研究方法：研究设计、数据收集与分析 (Qualitative Methods: Research Design, Data Collection and Analysis)\n教育中的叙述分析 (Narrative Analysis in Education)\n研究项目或专业作品集 (Research Project or Professional Portfolio)",
+  "success_cases": ""
+}

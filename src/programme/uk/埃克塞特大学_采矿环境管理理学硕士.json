@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "采矿环境管理理学硕士",
+  "ename": "MSc Mining Environmental Management",
+  "tags": "工科,环境工程,工程、数学与物理科学学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 28600英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要科学、地球或环境科学、工程或数学等相关背景",
+  "objectives": "本项目将为学生提供采矿对环境影响的管理、补救和缓解方面的培训。课程偏重环境地球化学和矿物学，但学生也将学习跨学科技能，涵盖采矿环境管理的自然、工程和社会科学方面的内容。\n项目基于采矿环境管理领域科学和社会科学理论，培养学生的深入理解，学生将掌握现场、实验室和计算技能的实践和应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地理信息系统与遥感 (GIS and Remote Sensing)\n矿山废弃物特性、预测与处理 (Mine Waste Characterisation, Prediction and Treatment)\n科研项目与科技论文 (Research Project and Scientific Article)\n经济学、资源加工与环境 (Economics、Processing & Environment)\n政治、矿业与可持续发展 (Politics, Mining and Sustainable Development)\n土壤和水污染 (Soil and Water Contamination)\n先进地球科学软件和数据管理 (Advanced Geoscientific Software and Data Management)",
+  "success_cases": ""
+}

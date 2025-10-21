@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "计算神经科学、认知与人工智能理学硕士",
+  "ename": "MSc Computational Neuroscience, Cognition and AI",
+  "tags": "社科,心理学,心理学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1学位或同等学历，针对具有定量思维并且具备心理学、神经科学或生物科学背景以及受过物理学、工程学、数学或计算机科学方面的培训的学生，不需要特定的生物学或心理学知识\n这门课程需要很强的数学和编程能力，在最后2年的学习中申请者必须在2门课程中成绩达到2:1（60%），课程至少涵盖以下学科中的2门：数学、统计学、物理、数据分析、计算机科学，如果这些技能是独立获得的，则应提供证据\n在特殊情况下，如果申请者具有2:2学位或同等学历并且具备至少1年相关工作经验或其他支持因素，其申请可能会被考虑",
+  "objectives": "诺丁汉大学计算神经科学、认知与人工智能理学硕士课程结合了心理学、数学和计算机科学的各个方面。使用计算模型和人工智能来进一步了解大脑。研究涵盖了大脑计算研究的许多方面，从单个突触的变化到大量人群的行为。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "科学机器学习 (Machine Learning in Science)\n计算认知心理学 (Computational Cognitive Psychology)\n神经计算 (Neural Computation)\n研究项目 (Research Project)\n实用生物医学建模 (Practical Biomedical Modelling)\n计算机视觉 (Computer Vision)\n应用非线性动力学 (Applied Nonlinear Dynamics)\n深度学习的物理 (The Physics of Deep Learning)\n心理学的先进方法 (Advanced Methods in Psychology)\n心理学专业技能 (Professional Skills for Psychology)\n研究实习 (Research Internship)",
+  "success_cases": ""
+}

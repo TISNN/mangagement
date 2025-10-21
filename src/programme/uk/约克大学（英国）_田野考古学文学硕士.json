@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "田野考古学文学硕士",
+  "ename": "MA Field Archaeology",
+  "tags": "社科,历史,考古学院",
+  "introduction": "专业方向: 历史\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要考古学或相关学科背景\n学校会考虑成熟学生或那些具有非常规学历但具备针对该领域的相关专业经验的申请者，缺乏足够先前经验的申请者在入学前必须至少花三周时间参加本学院自己的培训挖掘或其他经批准的项目，要了解经验或资格是否合适，需要联系课程负责人，学校通常会在录取之前面试申请者\n需要提交2篇written work",
+  "objectives": "约克大学田野考古学文学硕士项目为学生提供理论和实践的完美结合，旨在满足英国和世界各地的专业培训需求。它将让学生透彻地了解考古实地调查如何以及为什么达到目前的状态，并使学生熟悉现代实地调查、分析和传播所采用的关键方法。除了向该领域的领军人物学习外，我们还将为学生提供经验丰富、人脉广泛的员工指导。学生还将有机会获得专业考古组织的实践经验，进一步发展各种考古职业和研究所必需的技能和知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "收集野外考古资料 (Gathering Field Archaeology Data)\n野外考古资料分析 (Analysing Field Archaeology Data)\n分析和可视化 (Analysis and Visualisation)\n可持续性II：理解随时间变化的可持续性 (Sustainability II: Understanding Sustainability as Change Through Time)\n实验考古设计与实践 (Experimental Archaeology Design and Practice)\n出土文物 (Artefacts from Excavation)\n地球物理测量 (Geophysical Survey)\n景观和土方工程测量 (Landscape and Earthworks Survey)",
+  "success_cases": ""
+}

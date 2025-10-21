@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "复杂项目管理理学硕士",
+  "ename": "MSc Management of Complex Projects",
+  "tags": "工科,工程管理,数学与物理科学学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 43500英镑/年",
+  "requirements": "具有英国大学颁发的二等学士学位或同等学历，需要相关学科背景，具备至少2年在项目环境中工作的经验",
+  "objectives": "伦敦大学学院复杂项目管理理学硕士项目涵盖了在规定的时间、预算及技术性能水平要求内交付所需的知识和工具，旨在满足负责多数挑战性工程项目的项目管理者的需求，学生将以系统视角探讨项目管理，这对在经济有限环境中开发技术手段来说是有效的。伦敦大学学院复杂项目管理理学硕士项目将为学生提供许多指导规范，使他们能够管理复杂项目，开发关键技能，如：风险管理、范围管理、冲突解决与高效沟通。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业环境 (The Business Environment)\n复杂项目实施 (Delivering Complex Projects)\n风险管理、可靠性、恢复力 (Risk、Reliability、Resilience)\n系统思维和工程管理 (Systems、Thinking and Engineering Management)\n项目管理和项目概念 (Project Management Project Concept)\n项目管理研究项目 (Project Management Research Project)\n防御和安全系统 (Defence and Security Systems)\n生命周期管理 (Lifecycle Management)\n项目管理 (Project Management)\n铁路系统 (Rail Systems)\n技术战略 (Technology Strategy)\n系统设计 (Systems Design)",
+  "success_cases": ""
+}

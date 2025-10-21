@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "数字健康系统理学硕士",
+  "ename": "MSc Digital Health Systems",
+  "tags": "商科,信息系统,计算机与信息科学学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 28700英镑/年",
+  "requirements": "至少二等（2:2）荣誉学位，专业背景不限",
+  "objectives": "数字健康源于健康和护理服务、信息技术和移动技术的结合，数字健康系统能促进健康监测、分析、教育和改进卫生保健。为期一年的思克莱德大学数字健康系统理学硕士项目不仅为希望进入医疗保健行业的人群提供职业资格，也是当前健康护理从业者提升数字创新技能的理想选择。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "可用的健康和护理系统的设计 (Design of Usable Health and Care Systems)\n健康老龄化 (Healthy Ageing)\n信息系统架构 (Information Systems Architecture)\n健康信息治理 (Health Information Governance)\n数字健康实施 (Digital Health Implementation)\n数据库基础 (Database Fundamentals)\n决策支持与健康分析 (Decision Support & Health Analytics)\n研究方法 (Research Methods)\n个人项目 (Individual Project)",
+  "success_cases": ""
+}

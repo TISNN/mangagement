@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "资讯科技理学硕士",
+  "ename": "MSc Information Technology",
+  "tags": "工科,计算机,工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 145000港币/年",
+  "requirements": "具有学士学位，需要计算/计算机科学、数学、信息系统、工程或其他科学学科背景\n具有其他学科学士学位以及至少5年重要IT相关工作经验的申请者也将被考虑",
+  "objectives": "香港理工大学资讯科技理学硕士学位课程旨在培养数学、信息系统、工程或其他科学专业的毕业生成为IT行业的专业人士，该课程为学生继续终身学习和发展提供了知识、支持和指导，旨在培养学生具备基础、高级和专业的IT/计算知识，掌握实践技能并具备一定的批判能力，具有整体性与分析性思维能力，并且能够运用IT/计算知识解决问题，能够以团队或者个人的方式开发系统与应用，同时，该课程将会培养学生的职业道德，社会责任感和全方面能力，使其能在毕业后，为香港、为祖国的发展做出贡献，使学生始终能接触最新、最先进的技术，学会创新，能够坚持终生自主学习。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据结构与数据库系统 (Data Structures and Database Systems)\n软件工程与开发 (Software Engineering and Development)\n互联网基础设施与协议 (Internet Infrastructure and Protocols)\n人工智能概念 (Artificial Intelligence Concepts)\n高级数据分析 (Advanced Data Analytics)\n自然语言处理 (Natural Language Processing)\n人机交互 (Human Computer Interaction)\n多媒体计算、系统与应用 (Multimedia Computing, Systems and Applications)\n计算机视觉与图像处理 (Computer Vision and Image Processing)\n机器学习与数据分析 (Machine Learning and Data Analytics)\n金融计算 (Financial Computing)\n网络与互联网安全 (Cyber and Internet Security)\n分布式账本技术、加密货币与电子支付 (Distributed Ledger Technology, Cryptocurrency and E-Payment)\n大数据计算 (Big Data Computing)\n优化与应用 (Optimization and Applications)",
+  "success_cases": ""
+}

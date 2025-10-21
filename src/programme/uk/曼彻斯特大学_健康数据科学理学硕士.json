@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "健康数据科学理学硕士",
+  "ename": "MSc Health Data Science",
+  "tags": "理科,数据科学,生物、医学和健康学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 34000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要数学、统计学、计算机科学、物理科学、生物医学（包括流行病学、生物科学或医学/护理）背景\n申请者的学位必须包含大量统计和计算元素，并且来自认可的机构或经批准的相关研究生资格（至少为研究生文凭或同等学历）\n也可能接受学校认可的相当于以前高级学习、研究和/或相关专业经验的同等学历以满足入学资格\n针对非英国申请者，认证高级学习的机构必须得到大学的认可和批准\n申请者如果是在读生，需要提供最后一年学习的所有课程的正式列表",
+  "objectives": "目前英国的医疗保健服务模式面临着前所未有的挑战，人口老龄化、生活方式和成本增加意味着现有方法已不可行。再加上个性医疗的兴起，健康保健走向变革已势不可挡。\n曼彻斯特大学健康数据科学理学硕士项目以培养熟稔医疗保健部门和医学知识的新型科学家为教学目标，收集和分析有效数据，辩证地看待治疗、结果、患者和成本之间的关系，并将这些信息传达给各利益相关者。\n曼彻斯特大学健康数据科学理学硕士项目采用多学科团队教学模式，而非小集体学习方式，通过8个授课模块（其中七个为核心模块，还有一项为选修模块）全面教授学生有关健康数据科学的关键技能。学生们学习转化思维，专业知识与技能，并在毕业后将这些知识与技能运用于医疗服务新挑战中。\n攻读理学硕士学位的学生还需完成一项60学分的研究项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字生物学原理 (Principles of Digital Biology)\n健康信息学导论 (Introduction to Health Informatics)\n健康信息系统与技术 (Health Information Systems and Technologies)\n健康数据科学教程 (Tutorials in Health Data Science)\n了解数据和决策 (Understanding Data and Decision Making)\n卫生数据基础数学和统计学 (Fundamental Mathematics & Statistics for Health Data)\n健康数据的生物医学建模 (Biomedical Modelling for Health Data)\n流行病学基础 (Fundamentals of Epidemiology)\n现代信息工程 (Modern Information Engineering)",
+  "success_cases": ""
+}

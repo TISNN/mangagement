@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "信息工程理学硕士",
+  "ename": "MSc Information Engineering",
+  "tags": "工科,计算机,工学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 242500港币/年",
+  "requirements": "毕业于认可大学并获得工程、科学或相关领域的学士学位；或\n在高等教育机构完成相关课程学习并获得相当于相关领域荣誉学位的专业或类似资格；或\n具有其他领域的第一学位并具备相关背景，例如修读过信息工程相关的本科/研究生课程和/或具备信息技术相关行业工作经验。\n需要提供B等级证明",
+  "objectives": "香港中文大学信息工程硕士学位课程旨在通过为学生提供全面的研究生课程，以期将他们培养成为信息及通讯技术方面的领军人物。学生在毕业后有望实现以下目标：在设计、开发、部署或使用信息系统、网络和服务的行业和组织的工程和专业岗位上表现出色；在信息工程对商业、工业和社会的影响方面形成全球视野，并能够为跨学科的工程项目做出贡献或领导；通过专业学习和终身学习，继续他们的个人发展，有些学生将在世界各地的研究生院继续学习并取得优异成绩。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机网络 (Computer Networks)\n无线通信系统 (Wireless Communication Systems)\n光通信及光波网络 (Optical Communication and Lightwave Networks)\n密码学，信息安全与隐私 (Cryptography, Information Security & Privacy)\n高级网络协议与系统 (Advanced Network Protocols and Systems)\n高级通讯技术 (Advanced Communication Technologies)\n宽带接入技术 (Broadband Access Technologies)\n网络编程与系统设计 (Network Programming and System Design)\n多媒体编码和处理 (Multimedia Coding and Processing)\n互联网安全与网络开发 (Internet Security and Web Development)\n社交网络 (Social Networking)\n移动网络编程与分布式服务器架构 (Mobile Network Programming and Distributed Server Architecture)\n社交媒体分析与开发 (Social Media Analysis and Development)\n管理视角的技术管理 (Technology Management from a Managerial Perspective)\n创新与企业家精神 (Innovation and Entrepreneurship)",
+  "success_cases": ""
+}

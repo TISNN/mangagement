@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "数据科学与公共政策（政治学）理学硕士",
+  "ename": "MSc Data Science and Public Policy (Political Science)",
+  "tags": "社科,公共政策与事务,社会与历史科学学院",
+  "introduction": "专业方向: 公共政策与事务\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，所有申请者必须提供在学士学位期间成功完成以下至少1门高级课程的证据：定量方法、统计学、数据科学或计量经济学\n相关领域的相关实践或工作经验也可能被考虑在内，例如，这可能包括：i) 至少2年在公共部门组织、智库、国际政府组织或公共政策咨询机构工作的经验；或者 ii) 至少2年数据科学工作经验",
+  "objectives": "伦敦大学学院数据科学与公共政策理学硕士项目旨在帮助新一代决策者通过数据科学解决当今社会的最大问题。\n近年来，定量数据的迅速扩展和可用性的增加，为政策制定者提供了重要机遇和巨大挑战。 数字信息的巨大规模和复杂性有可能改善我们理解、设计、实施和评估有效公共政策的方式。然而，要将这些丰富的信息转化为有用的洞察力，需要对尖端数据科学方法的深刻理解、丰富的技术技能以及对经济和政治过程的详细了解。\n伦敦大学学院数据科学与公共政策理学硕士课程将为学生提供应用数据科学方法、计算机编程、统计学和机器学习方面的强化培训，重点是将这些工具应用于公共政策问题。学生还将学习政治学和经济学的专业模块，通过这些模块，对公共政策形成、发展和分析中的关键问题有深刻的理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公共政策的统计学习 ( Statistical Learning for Public Policy)\n社会数据科学的统计规划 (Statistical Programming for Social Data Science)\n论文 (Dissertation)\n数据、证据与公共政策 (Data, Evidence and Public Policy)\n公共政策政治学 (Politics of Public Policy)\n时间序列计量经济学 (Time Series Econometrics)\n数据科学理论 (Data Science Theory)\n经济学中的机器学习 (Machine Learning in Economics)\n公共管理：理论与创新 (Public Management: Theories and Innovations)\n卫生政策与改革 (Health Policy and Reform)\n能源与气候政策 (Energy and Climate Policy)\n制定政策工作 (Making Policy Work)\n欧洲的政策制定与监管 (Policy-Making and Regulation in Europe)\n政策实施 (Policy Implementation)\n法律法规 I ( Law and Regulation I)",
+  "success_cases": ""
+}

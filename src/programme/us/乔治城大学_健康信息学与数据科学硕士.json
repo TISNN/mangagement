@@ -1,0 +1,12 @@
+{
+  "school_name": "乔治城大学",
+  "major_name": "健康信息学与数据科学硕士",
+  "ename": "MS in Health Informatics & Data Science",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 12个月\n项目学费: 50,391美元",
+  "requirements": "申请者必须持有地区认可机构的学士学位且GPA达到3.0及以上。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "佐治亚理工学院",
+  "major_name": "生物医学工程硕士",
+  "ename": "Master of Biomedical Engineering",
+  "tags": "理科,化学",
+  "introduction": "专业方向: 化学\n项目类别: STEM\n入学时间: 秋季/春季\n项目时长: 1-2年\n项目学费: 24,499美元",
+  "requirements": "工程、科学或数学学士学位；一年（两个学期或三个季度）基于微积分的物理学；有机化学（建议一个学期）；通过并包括微分方程的微积分（总共 4 个学期）",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

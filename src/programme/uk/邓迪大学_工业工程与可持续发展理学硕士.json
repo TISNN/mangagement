@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "工业工程与可持续发展理学硕士",
+  "ename": "MSc Industrial Engineering and Sustainability",
+  "tags": "工科,工业工程,理工学院",
+  "introduction": "专业方向: 工业工程\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 27900英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要机械工程、电子工程、应用物理学专业背景，学校也可以考虑具有相关工作经验的申请者",
+  "objectives": "邓迪大学工业工程与可持续发展理学硕士项目将以行业为中心的专业工程与可持续性原则、管理技能以及相关全球政策和国际法规的知识相结合，学生将学习先进机器人技术，研究多模式传感器集成和人机交互，以及先进制造，研究现代智能制造技术。学生将把这些研究与项目管理、对净零经济公正转型的理解、可持续性原则以及气候变化：过程和影响相结合。此外，学生还将开展为期 12 周的工业相关项目并且接触工业并在英国和国际范围内积累实践经验和网络。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "进入商业领域 (Moving Up to Business)\n项目管理 I (Project Management I)\n项目管理 II (Project Management II)\n向零净经济过渡 (Just Transition to a Net-Zero Economy)\n可持续发展原则 (Principles of Sustainability)\n气候变化：过程和影响 (Climate Change: Processes and Impacts)\n高级机器人 (Advanced Robotics)\n高级制造 (Advanced Manufacturing)\n工程项目和报告（工业实习） (Engineering Project and Report (Industrial Placement))",
+  "success_cases": ""
+}

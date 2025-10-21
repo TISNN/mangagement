@@ -1,0 +1,12 @@
+{
+  "school_name": "哈佛大学",
+  "major_name": "数据科学硕士",
+  "ename": "Master of Science in Data Science",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n入学时间: 秋季\n项目时长: 1年-2年\n项目学费: 28264美元/学期\n平均成绩: 3.9",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

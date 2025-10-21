@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "银行与金融理学硕士",
+  "ename": "MSc Banking and Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有英国2:2本科荣誉学位或以上水平（平均分至少达到57%）或同等学历\n需要能够证明在数学或定量相关领域的能力，具有数学、金融学、经济学、统计学、工程学、信息技术等学位的申请者非常适合本课程\n具备其他同等专业资格或经验的申请者也可能会被该专业考虑",
+  "objectives": "萨塞克斯大学银行与金融理学硕士学位课程能够使学生全面理解银行业及金融业主要理论与应用概念，获得银行管理及会计的充分训练，深入解读金融行业，以及提供一系列就银行业及金融业高级主题进行专门学习的机会。在萨塞克斯大学银行与金融理学硕士学位课程的学习中，学生将获取银行业、会计、风险管理、投资分析、企业金融、衍生产品、金融微观结构和税务方面的专业训练，探讨与银行业及金融业相关的现代理论和现实实践的发展，观察不同地理区域诸如欧洲、美国、亚洲及阿拉伯半岛的银行业的不同本质，通过运用定量分析掌握技术技能，探讨现实生活中金融技术的先进实际应用，研究银行公司的基本理论，研究银行业及金融市场的结构、业绩及效率，从近期信贷危机中学习银行监管和风险管理，衡量银行所承担的风险，查看银行所使用的期货、期权、衍生产品和互惠信贷，以此来管理其资产负债表及表外风险。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "银行理财 (Bank Financial Management)\n公司财务 (Corporate Finance)\n基本数量金融 (Essential Quantitative Finance)\n金融工具 (Financial Instruments)\n银行风险管理 (Bank Risk Management)\n货币与银行 (Money and Banking)\n银行金融学研究方法 (Research Methods for Banking and Finance)\n研究项目（银行与金融理学硕士） (Research Project (MSc Banking and Finance))\n公司治理 (Corporate Governance)\n金融与时间序列计量经济学 (Financial and Time Series Econometrics)\n金融危机与银行监管 (Financial Crises and Bank Regulation)\n金融衍生品 (Financial Derivatives)\n跨国财务管理 (Multinational Financial Management)",
+  "success_cases": ""
+}

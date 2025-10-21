@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "岩土工程与数据科学理学硕士",
+  "ename": "MSc Geotechnical Engineering with Data Science",
+  "tags": "工科,土木工程,土木与环境工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有一等荣誉学位，要求土木工程、自然科学、地球科学或其他数学学科背景，需要适当的数学基础，包括代数和多元微积分\n不符合所列学术要求但具有丰富相关行业经验的申请者，在完成“特殊资格考试”（SQE）后，可能会被例外录取",
+  "objectives": "帝国理工学院岩土工程与数据科学理学硕士项目重点土壤行为的高级方面、相关的构成框架及其在岩土问题中的应用。课程将通过将核心工程科学和最新研究成果与实际应用相结合的学位课程，为学生提供岩土工程关键领域的坚实技术基础。通过理论与实践相结合的学习，学生将获得在现代化专用实验室中进行实验土力学的第一手经验。通过本学位，学生还可以与行业建立紧密联系，并通过前往英国和南欧地质和岩土工程感兴趣的地区的一系列旅行提高实地工作技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "渗流与加固 (Seepage and Consolidation)\n强度与变形 (Strength and Deformation)\n分析与本构建模 (Analysis and Constitutive Modelling)\n实验室测试与数据解释 (Laboratory Testing and Data Interpretation)\n统计建模 (Statistical Modelling)\n机器学习 (Machine Learning)\n基础与围护结构设计 (Design of Foundations and Retaining Structures)\n岩土基础设施：斜坡与堤防   (Geotechnical Infrastructure: Slopes and Embankments)\n岩土工程过程和现场监测 (Geotechnical Processes and Field Monitoring)\n设计项目数据科学与数学优化-岩土工程 (Design Project Data Science & Mathematical Optimisation - Geotechnics)\n岩土工程野外工作 (Geotechnics Fieldwork)\n岩土工程发展现状 (Current Developments in Geotechnical Engineering)\n数据工程 (Data Engineering)",
+  "success_cases": ""
+}

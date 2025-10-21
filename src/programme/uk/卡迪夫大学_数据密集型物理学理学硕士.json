@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "数据密集型物理学理学硕士",
+  "ename": "MSc Data Intensive Physics",
+  "tags": "理科,物理,物理学与天文学学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 29450英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要相关学科领域背景，如天文学、天体物理学、计算机科学、工程学、数学、物理学或相关物理科学\n如果申请者没有相关领域的学位，学校将考虑专业经验，需要提供证据证明\n申请者需要申请ATAS",
+  "objectives": "卡迪夫大学数据密集型物理学理学硕士项目旨在为学生提供在一系列领域的职业所需的技能和知识，包括相关学术的研究以及相关科学领域的技术、开发和工程职位。该课程致力于在满足那对具备专业知识的合格研究生日益增长的需求，将数据分析能力、计算能力与核心科学学科相结合，以应对这一令人兴奋的领域带来的一系列挑战。该课程将由数据创新研究所的成员授课，该研究所正对有关管理、分析和解释大量文本和数字信息的各个方面进行研究。该项目将专注于将现代数据科学方法应用于物理学问题（如光子学、生物光子学、纳米科学、材料物理学、医学物理学或其他理论或计算物理学领域），提供实践所需的实践经验在数据密集物理的动态领域以及数据科学的更广泛方面取得成功。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": " 应用机器学习 (Applied Machine Learning)\n 机器学习原理 (Principles of Machine Learning)\n物理学高级实验技能 (Advanced Experimental Techniques in Physics)\n物理学学习与研究技能 (Study and Research Skills in Physics)\n数据分析 (Data Analysis)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "康复学理学硕士",
+  "ename": "MSc Rehabilitation",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "具有2:1学位，需要相关医疗保健学科背景，如物理治疗、职业治疗、护理、体育治疗和其他相关健康科学\n具有2:2学位的申请者将根据其学位相关性、表现情况和/或工作经验或者是否通过医学学士学位和外科学士学位（BMBS, MBBS或同等学历）等具体情况进行考虑",
+  "objectives": "诺丁汉大学康复学理学硕士提供跨学科的康复视角，从最新研究和临床实践中汲取灵感，教授学生技能与知识，寻求新的、创新的方式来照顾患者，以提供有效的康复服务，帮助受到伤害和疾病影响的人继续他们的生活。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "康复研究项目 (Rehabilitation Research Project)\n康复研究方法 (Research Methods in Rehabilitation)\n康复理论基础 (Theoretical Foundations of Rehabilitation)\n当代康复话题 (Contemporary Topics in Rehabilitation)\n临床推理和循证实践 (Clinical Reasoning and Evidence-Based Practice)\n创伤康复与实施 (Trauma Rehabilitation and Implementation)\n疼痛管理康复 (Rehabilitation for Pain Management)\n康复技术 (Technology in Rehabilitation)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港教育大学",
+  "major_name": "跨文化传意及翻译文学硕士",
+  "ename": "MA Intercultural Communication and Translation",
+  "tags": "社科,语言,人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 147000港币/年",
+  "requirements": "持有认可的学士学位，需要艺术、人文、社会科学、新闻与传播、文化研究、教育或相关学科背景",
+  "objectives": "香港教育大学跨文化传意及翻译文学硕士项目旨在培养学生的跨文化和多元文化意识，提高与来自不同文化背景的人交流时有效使用语言的能力，该专业将理论课程与实践培训相结合，解决实用翻译技巧、专业话语、社会语言学和跨文化交际策略等关键领域，培养学生驾驭和弥合文化差异的技能，促进不同专业背景下文本和对话的有效和细致翻译。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "跨文化交际：理论与实践 (Intercultural Communication: Theory and Practice)\n翻译与跨文化研究 (Translation and Intercultural Studies)\n语言与传播研究方法 (Methods for Language and Communication Research)\n专业语篇翻译 (Translation for Professional Discourse)\n多模态交流 (Multimodal Communication)\n计算机辅助翻译 (Computer-assisted Translation)\n媒体翻译 (Translation for the Media)\n外语学习方法 (Approaches to Foreign Language Learning)\n冲突、文化与谈判 (Conflict, Culture, and Negotiation)\n全球背景下的英语 (English in the Global Context)\n社会语言学 (Sociolinguistics)\n语言数据库与文化研究 (Language Databases and Cultural Studies)\n论文 (Dissertation)",
+  "success_cases": ""
+}

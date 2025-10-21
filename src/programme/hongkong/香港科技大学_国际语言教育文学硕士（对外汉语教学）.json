@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "国际语言教育文学硕士（对外汉语教学）",
+  "ename": "MA International Language Education (Teaching Chinese as a Second Language)",
+  "tags": "社科,教育,人文和社会科学学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 135000港币/年",
+  "requirements": "具有认可大学颁发的学士学位或同等学历，需要相关领域背景\n母语非汉语、本科非汉语教学的申请者需要通过汉语水平考试5级，母语为汉语或本科为汉语教学的申请者需要通过全国普通话水平测试2B级",
+  "objectives": "香港科技大学国际语言教育文学硕士（对外汉语教学）项目为高级研究生提供英语教学，包括对外英语教学(TESL)和对外汉语教学(TCSL)两个专业方向。该项目的语言教育方法基于研究，以便让语言专业人士为在英语或汉语作为第二语言教学方面的充满活力的全球职业生涯做好准备。该项目提供了应用语言学的坚实基础，并强调数字技术在教学中的应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语言学习 (Language Learning)\n语言教学方法与课程设计 (Language Teaching Methodology and Curriculum Design)\n理解语言教育中的研究 (Understanding Research in Language Education)\n汉语教师的语言描述 (Descriptions of Language for Chinese Teachers)\n测试与评估 (Testing and Assessment)\n汉英对比分析 (Contrastive Analysis between Chinese and English)\n技术强化语言教育基础 (Foundations of Technology-enhanced Language Education)\n双语/多语语言教育方法 (Bi/Multilingual Approaches to Language Education)\n监督式教学实习 (Supervised Teaching Practicum)\n国际语言教育研究项目 (Research Project in International Language Education)\n中文写作与文化 (Chinese Writing and Culture)\n二级汉语教师汉语普通话语法 (Mandarin Chinese Grammar for L2 Chinese Teachers)\n汉语高级语音学与音韵学 (Advanced Phonetics and Phonology of the Chinese Language)\n汉语词汇学 (Chinese Lexicology)\n在全球背景下理解汉语 (Understanding Chinese Language in Global Context)\n国际汉语教学实践 (The Practice of Teaching International Chinese)",
+  "success_cases": ""
+}

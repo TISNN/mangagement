@@ -1,0 +1,12 @@
+{
+  "school_name": "牛津大学",
+  "major_name": "转化健康科学理学硕士",
+  "ename": "MSc Translational Health Sciences",
+  "tags": "社科,公共卫生,继续教育系",
+  "introduction": "专业方向: 公共卫生\n入学时间: 10月\n项目时长: 1年\n项目学费: 18040英镑/年",
+  "requirements": "具有一等或strong 2:1荣誉学位，不限专业背景\n成功完成专业培训课程或具有卫生服务或健康相关领域的专业工作经验也可考虑\n对于拥有美国学士学位的申请者，通常需要满足本科水平要求的最低总体 GPA 为 4.0 分中的 3.6 分\n申请人最好能够具有良好的电子邮件、互联网、文字处理和其他 Microsoft Office 应用程序的工作知识，以及学习新软件包的能力（即虚拟学习环境、参考管理）",
+  "objectives": "牛津大学转化健康科学理学硕士课程采用跨学科和应用的方法来应对在卫生保健环境中实施创新和研究发现的挑战。利用创新来满足医疗保健需求是全球当务之急，而且随着对我们医疗保健系统的需求增加，这种需求只会变得更加迫切。牛津大学转化健康科学理学硕士课程带来了强大的、跨学科和实践为基础的方法，以解决研究转化的挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "转化科学导论与研究方法 (Introduction and Research Methods for Translational Science)\n行为科学与复杂干预 (Behavioural Science and Complex Interventions)\n转化科学中的经济学与调控 (Economics and Regulation in Translational Science)\n转化科学中的伦理与正义 (Ethics and Justice in Translational Science)\n卫生组织与政策 (Health Organisations and Policy)\n病人、公民与证据政治 (Patients, Citizens & the Politics of Evidence)\n研究影响与卫生研究系统 (Research Impact and Health Research Systems)\n技术创新与数字健康 (Technological Innovation and Digital Health)\n转化科学与全球卫生 (Translational Science and Global Health)",
+  "success_cases": ""
+}

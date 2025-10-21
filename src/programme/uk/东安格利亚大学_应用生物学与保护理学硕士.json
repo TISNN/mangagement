@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "应用生物学与保护理学硕士",
+  "ename": "MSc Applied Ecology and Conservation",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 26900英镑/年",
+  "requirements": "具有英国2:1学士学位或同等学历，需要生物学相关学科背景以及额外的保护经验的证据，也可以接受包含较强生态成分的地理学与环境管理学位",
+  "objectives": "在东安格利亚大学应用生物学与保护理学硕士项目中，学生将跟随生物科学和环境科学学院的知名专家学习生态学和保护相关知识。学生将学习一系列核心课程，包括生态调查方法、当前的保护问题、研究技能和统计学等；也将根据自身兴趣选修其他相关课程。东安格利亚大学应用生物学与保护理学硕士项目为期一年，会另外开始一门实践课程，并要求学生完成高质量的学位论文，以期培养学生的可转换技能，引导学生了解国家和国际保护组织之间的联系。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学位论文 (Dissertation)\n生态调查方法 (Ecological Survey Methods)\n实证下的全球保护 (Evidence-based Global Conservation)\n多元统计 (Multivariate Statistics)\n单变量统计 (Univariate Statistics)\n进化生物学与保护遗传学 (Evolutionary Biology and Conservation Genetics)\nGIS及其在生态环境变化模拟中的应用 (GIS and Its Applications for Modelling Ecological and Environmental Change)\n实用保护与工作经验 (Practical Conservation and Work Experience)\n科学家基于R的统计与建模 (Statistics and Modelling for Scientists Using R)",
+  "success_cases": ""
+}

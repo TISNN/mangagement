@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门大学",
+  "major_name": "翻译（葡汉）文学硕士",
+  "ename": "MA Translation Studies (Portuguese-Chinese)",
+  "tags": "社科,语言,人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 8月\n项目时长: 2年\n项目学费: 87000澳门币/年",
+  "requirements": "具有学士学位，本科专业为翻译，葡萄牙语研究，英语研究或其他学科，总成绩为B-级（最低73％），可能需要参加语言和翻译能力测试，以及面试",
+  "objectives": "该计划旨在培养具有专业视野，语言和文化能力以及应付未来本地和国际市场挑战所需技能的新一代翻译和口译员。它还旨在对翻译和口译中的多方面问题进行全面而深入的研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "翻译比较语言研究 (Comparative Language Studies for Translation)\n翻译研究的理论概念 (Theoretical Concepts of Translation Studies)\n翻译技术 (Translation Technology)\n研究设计与写作 (Research Design and Writing)\n学术论文 (Academic Thesis)\n汉语-葡萄牙语翻译 (Chinese–Portuguese Translation)\n葡萄牙语-中文翻译 (Portuguese–Chinese Translation)\n中文/葡萄牙口译 (Interpreting Chinese/Portuguese)\n翻译研究的话语方法 (A Discourse Approach to Translation Studies)\n翻译中的文化问题 (Cultural Issues in Translation)\n翻译中的性别研究 (Gender in Translation Studies)",
+  "success_cases": ""
+}

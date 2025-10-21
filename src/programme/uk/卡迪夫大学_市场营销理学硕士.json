@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "市场营销理学硕士",
+  "ename": "MSc Marketing",
+  "tags": "商科,市场营销,商学院",
+  "introduction": "专业方向: 市场营销\n入学时间: 9月\n项目时长: 1年\n项目学费: 28450英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，不限专业\n如果申请者没有相关领域的学位，学校会考虑专业经验，需要提供相关证据证明\n如果申请者之前有市场营销方面的学习或工作经验，可能会对MSc Strategic Marketing课程感兴趣。如果申请者拥有至少三年的专业经验并符合详细标准，可能会对MBA课程感兴趣",
+  "objectives": "卡迪夫大学市场营销理学硕士项目旨在通过对核心营销概念、流程和技能的全面见解来加深学生对之前所学习内容的理解，该课程将帮助学生成为能够分析组织方案和制定循证行动计划的营销专家。在这里，学生可以与学术和实践专家合作，探索营销的原则和实践，以及如何将它们部署在多个领域，学生还可以使用先进的研究中和现实生活中的例子来确定组织是如何通过营销和研究活动提供价值的。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "营销基础知识 (Marketing Fundamentals)\n服务营销 (Services Marketing)\n市场研究 (Marketing Research)\n市场营销 (Marketing in Context )\n营销项目 (Marketing Project)",
+  "success_cases": ""
+}

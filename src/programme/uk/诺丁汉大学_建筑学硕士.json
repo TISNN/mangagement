@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "建筑学硕士",
+  "ename": "Master of Architecture",
+  "tags": "社科,建筑,建筑与建筑环境学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 2年\n项目学费: 28600英镑/年",
+  "requirements": "外部申请者：\n在诺丁汉大学以外的机构完成本科学位的申请者需要：\n- 具有2:1建筑学学士荣誉学位（或同等的ARB/RIBA认证学位，录取将受到作品集、成绩单、推荐信（至少1封）和个人陈述提交情况的影响；或\n- 具有建筑学专业2:1学位（非认证），录取将受到作品集、推荐信（至少1封来自于实践）和个人陈述提交情况的影响，并且具备至少6个月工作经验（课程开始前，非申请时），通过导师签署的PEDR表格或雇主签署的推荐信证明。\n诺丁汉大学Part 1毕业生：\n- 在诺丁汉大学完成本科Part 1学位、取得2:1学位并且最后一年设计工作室课程成绩达到2:2的申请者可以自动进入本课程；或\n- 取得2:2学位并且最后一年设计工作室课程成绩达到2:2的申请者需要提交作品集、成绩单和个人陈述，并且具备6个月工作经验（课程开始前，非申请时），通过导师或同等人员签署的PEDR表格证明；或\n- 毕业超过8个月的申请者需要满足与上述外部申请者相同的入学要求。\n学校欢迎没有ARB/RIBA Part 1学位但在申请中展示出同等的学术工作和实践经验的申请者",
+  "objectives": "诺丁汉大学建筑学硕士项目是一门为期两年的建筑专业课程，可获得 ARB 和 RIBA 认可的学位。本课程强调通过研究和应用知识来解决实际问题。以项目为基础，技术、专业和理论知识被整合到项目设计中，所以学生在学习理论的同时也可以将其应用于实践。学生将受到专家、学者和建筑业从业人员的指导，他们将帮助学生扩大对建筑的兴趣和知识，获得当今建筑行业所需的核心建筑技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "建筑研究工作室 (Architectural Research Studio)\n设计、文化和环境 (Design, Culture and Context)\n环境与科技1 (Environment and Technology 1)\n专业研究1 (Professional Studies 1)\n建筑设计工作室 (Architectural Design Studio)\n环境与科技2 (Environment and Technology 2)\n设计论文研究 (Design Thesis Research)\n设计论文工作室作品集 (Design Thesis Studio Portfolio)",
+  "success_cases": ""
+}

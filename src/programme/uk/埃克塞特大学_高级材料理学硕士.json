@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "高级材料理学硕士",
+  "ename": "MSc Advanced Materials",
+  "tags": "工科,材料,工程、数学与物理科学学院",
+  "introduction": "专业方向: 材料\n入学时间: 9月\n项目时长: 1年\n项目学费: 28600英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要物理学、自然科学、工程学、材料科学、数学或化学（物理化学占很大一部分）学科背景在这些学科领域取得2:2成绩或拥有额外行业经验的候选人的申请也会被考虑。在这些情况下，申请人应咨询项目主管",
+  "objectives": "埃克塞特大学高级材料理学硕士项目旨在让学生掌握在先进材料创新领域取得成功所需的技能。该课程借鉴了工程学和物理学科，为学生提供建模、模拟、设计和实验表征具有独特性能的新型材料所需的技能。\n学生将全面了解此类材料的物理特性，涵盖电磁学、声学、弹性和量子等各种领域，同时从工程角度了解其应用。学生将获得解决目前无法通过传统材料特性解决的问题的技术技能，同时有机会深入了解将这些发展成果带出学术界所需的创新和创业精神。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "先进材料物理学 (Physics of Advanced Materials\t)\n物理学研究前沿 (Frontiers in Physics Research\t)\n先进材料建模 (Modelling for Advanced Materials\t)\n超材料 (Metamaterials\t)\n超材料的设计与应用 (Design and Application of Metamaterials\t)\n复合材料 (Composite Materials\t)\n研究项目 (Research Project\t)\n纳米结构与石墨烯科学 (Nanostructures and Graphene Science\t)\n设计、创新与创业 (Design, Innovation & Entrepreneurship\t)\n高级通信系统 (Advanced Communication Systems\t)\n工程电磁学 (Engineering Electromagnetics\t)\n高价值制造的有限元分析 (Finite Element Analysis for High Value Manufacturing\t)\n可持续制造 (Sustainable Manufacturing\t)\n凝聚态物质II (Condensed Matter II\t)\n量子光学与光子学 (Quantum Optics and Photonics\t)\n软物质 (Soft Matter\t)\n以数据为中心的工程 (Data-Centric Engineering\t)\n加法制造 (Additive Manufacturing\t)\n非线性光学与成像 (Nonlinear Optics and Imaging\t)",
+  "success_cases": ""
+}

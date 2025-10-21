@@ -1,0 +1,12 @@
+{
+  "school_name": "叶史瓦大学",
+  "major_name": "人工智能理学硕士",
+  "ename": "MS in Artificial Intelligence",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 36学分\n项目学费: 25,000美元",
+  "requirements": "GPA3.2，两门高级编程语言的大学课程，如Java，C和Python，一门多元微积分课程，一门线性代数课程和一门数学概率或统计学课程，成绩均为B-plus或更高。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

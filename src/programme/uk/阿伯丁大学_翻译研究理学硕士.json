@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "翻译研究理学硕士",
+  "ename": "MSc Translation Studies",
+  "tags": "社科,语言,语言、文学、音乐和视觉文化学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "申请者需要具备以下条件：\n- 2:1英国荣誉学位（或同等学历），不限专业背景\n- 英语流利程度达到高级水平（至少达到B2）\n- 母语（英语或其他语言）的语法和结构知识（C1/C2）\n申请者还需要在以下一种或两种语言中流利程度达到高级水平（至少达到B2，最好达到C1）：\n- 阿拉伯语\n- 法语\n- 盖尔语\n- 德语\n- 普通话\n- 波兰语，或\n- 西班牙语\n学校也欢迎具备以下条件的申请者：\n- 其他相关资格，和/或\n- 专业经验以及支持性推荐信",
+  "objectives": "阿伯丁大学翻译研究理学硕士核心课程旨在帮助学生熟悉翻译各种类型的文本（说明性，叙事性，论证性，口语性）以及涉及一系列主题（商业，法律，医学）的不同专业化程度的技术和策略。）的专业水平，以及对翻译研究中已开发的关键理论和方法的认识。学生还将发展批判和参与基础理论课本的能力。阿伯丁大学翻译研究理学硕士选修课程为学生提供机会在更专业的领域完善技能，例如翻译技术，联络口译，跨文化技能和翻译人员的专业技能；涉及文学翻译中的校对，阅读，编辑，审阅和问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "特定语言翻译作品集 (Language - Specific Translation Portfolio)\n翻译研究中的关键概念与方法 (Key Concepts and Methods in Translation Studies)\n译者的编辑、校对和审查 (Editing, Proofreading and Reviewing for Translators)\n跨文化交流 (Intercultural Communication)\n额外的特定语言翻译作品集 (Additional Language - Specific Translation Portfolio)\n文学翻译 (Literary Translation)\n翻译技术 (Translation Technology)\n翻译专业技巧 (Professional Skills for Translators)\n口译 (Interpreting)\n翻译研究论文 (Dissertation in Translation Studies)",
+  "success_cases": ""
+}

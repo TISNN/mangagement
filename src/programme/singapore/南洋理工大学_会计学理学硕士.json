@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "会计学理学硕士",
+  "ename": "MSc Accountancy",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 7月\n项目时长: 1年\n项目学费: 61040新币/年",
+  "requirements": "具有良好的学士学位，不限专业背景\n建议具备良好的GMAT/GRE成绩\n有工作经验者优先考虑（不强制要求）",
+  "objectives": "南洋理工大学会计学理学硕士项目是为非会计专业的毕业生提供一条加入会计行业或者在会计和财务领域寻求职业发展的途径。该硕士项目毕业生将有资格参加新加坡资格计划（SQP）专业考试，从而有机会成为新加坡特许会计师。通过该硕士项目课程的学习，学生会拥有全球化的视角，同时专注于亚洲地区的商业和会计问题。毕业生会成为国际四大会计师事务所争相追逐的专业人才，他们将有能力在会计领域创立一番事业。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计信息 (Accounting Information)\n商业法/公司法中法律约束管理 (Management of Legal Obligation in Business/Company Law)\n决策与管理会计 (Accounting for Decision Making and Control)\n保险、鉴证和审计 (Assurance, Attestation and Auditing)\n税务管理 (Tax Management)\n企业战略 (Corporate and Business Strategy )\n会计分析和股票估值 (Accounting analysis and equity valuation)\n公司治理、风险管理及合规审查 (Governance, Risk Management and Compliance)\n财务管理 (Financial Management)\n决策与控制会计 (Accounting for Decision Making and Control)\n财务会计 (Financial Accounting)\n保险与审计 (Assurance and Auditing)\n会计确认与计量 (Accounting Recognition and Measurement)\n商业分析与股权估值 (Business Analysis and Equity Valuation)\n风险报告与分析 (Risk Reporting and Analysis)\n会计数据分析与机器学习 (Data Analytics & Machine Learning for Accounting)\n法务会计与数字取证 (Forensic Accounting and Digital Forensics)\nESG与可持续发展报告 (ESG & Sustainability Reporting)\n战略管理 (Strategic Management)\n企业风险管理 (Enterprise Risk Management)\n税务管理 (Tax Management)\n企业法律责任管理 (Management of Legal Obligations in Business)\n公司法与公司治理 (Company Law and Corporate Governance)\n设计与开发数据库 (Designing and Developing Databases)\n视觉与预测分析 (Visual and Predictive Analytics)\n会计与金融中的人工智能 (Al in Accounting and Finance)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "纳米技术与纳米科学理学硕士",
+  "ename": "MSc Nanotechnology and Nanoscience",
+  "tags": "工科,材料,专业与继续教育学院",
+  "introduction": "专业方向: 材料\n入学时间: 8月\n项目时长: 1年\n项目学费: 56157新币/年",
+  "requirements": "具有认可大学颁发的相关学士学位，具备相关工作经验者优先考虑",
+  "objectives": "南洋理工大学纳米技术与纳米科学理学硕士项目旨在带领学生探索科学和技术的未来，学习设计和开发纳米级的创新材料和设备，加入全球纳米技术革命。该课程强调实际应用，深入研究新兴领域，如纳米电子学和纳米光子学，学生将通过实验和表征会议和监督的论文项目获得实践经验，向行业专家学习，并将其知识应用于现实世界的场景。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "纳米电子学原理与设备 (Principles and Devices of Nanoelectronics)\n纳米光子学基础 (Fundamentals of Nanophotonics)\n高级纳米科学与技术 (Advanced Nanoscience and Nanotechnology)\n纳米材料 (Nanomaterials)\n纳米材料的大规模生产与集成 (Mass Production and Integration of Nanomaterials)\n应用固体物理 (Applied Solid State Physics)\n光谱学研究与工程的先进技术 (Advanced Techniques for Spectroscopic Research and Engineering)\n表面与界面物理学 (Physics of Surfaces and Interfaces)\n量子信息与工程 (Quantum Information and Engineering)\n磁性与自旋电子学器件 (Magnetism and Spintronics Devices)\n激光技术 (Laser Technology)\n光电高级工程 (Advanced Engineering of Optoelectronics)\n纳米传感与生物技术集成光子芯片 (Integrated Photonic Chips for Nanosensing & Biotechnology)\n用于能量储存与收集的纳米技术 (Nanotechnology for Energy Storage and Harvesting)",
+  "success_cases": ""
+}

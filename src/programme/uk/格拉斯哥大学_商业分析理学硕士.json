@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要商业，管理或其他以定量为重点的学科背景",
+  "objectives": "通过格拉斯哥大学商业分析理学硕士项目，在数据驱动的世界中保持竞争力。学生将学习如何将数据转化为推动业务成功的有价值的见解，获得实用技能，以提高决策，优化业务绩效和推动创新。本课程为学生提供所需的工具，使其在当今的商业环境中脱颖而出，发挥真正的影响力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业分析编程 (Programming in Business Analytics)\n数据管理与工程 (Data Management and Engineering)\n商业智能实践 (Business Intelligence Practice)\n金融中的数据科学和机器学习 (Data Science and Machine Learning in Finance)\n商业分析应用项目 (Applied Project in Business Analytics)\n数字技术与战略管理 (Digital Technology and Strategic Management)\n大数据分析 (Big Data Analytics)\n管理性能和仿真 (Managing Performance and Simulation)\n营销分析的数据科学 (Data Science for Marketing Analytics)\n商业决策管理科学 (Management Science for Business Decision-making)\n公司治理 (Corporate Governance)\n网络分析 (Network Analysis)\n商业文本挖掘 (Text Mining for Business)",
+  "success_cases": ""
+}

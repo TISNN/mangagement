@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "管理学理学硕士",
+  "ename": "MSc Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 32250英镑/年",
+  "requirements": "具有2:1荣誉学士学位，不限专业背景",
+  "objectives": "利兹大学管理学理学硕士学位课程受英国工商管理硕士学会认可，在为学生提供广泛的管理知识和技能的同时，帮助其批判性地深入理解企业是如何运作的。利兹大学管理学理学硕士学位课程旨在让学生全面了解管理学主要学科内容，通过学习，学生将培养诸如批判性思考、解决问题和团队协作等必要能力。\n在利兹大学管理学理学硕士学位课程的学习中，学生将通过现实的商务项目和案例研究来获取受雇主青睐的实践经验；学生也将有机会开拓应用技能和视野，并通过走访企业、聆听业界人士发言和诸如领导力等主题研习会不断丰富经历。\n利兹大学管理学理学硕士学位课程具备激励人的社会和学习环境，吸引着一大批不同文化和学术背景的学生，这样的环境也为学生将来在全球商业领域就职提供了重要的多元文化体验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "企业家精神和企业创建 (Entrepreneurship and Enterprise Creation)\n营销管理 (Marketing for Management)\n有效决策制定 (Effective Decision Making)\n组织行为 (Behaviour in Organisations)\n战略管理 (Strategic Management)\n管理实践 (Management in Practice)\n运营和供应链管理 (Operations and Supply Chain Management)\n管理研究设计和分析 (Research Design and Analysis for Management)\n论文 (Dissertation)\n高效组织和团队管理 (Understanding and Managing Effective Groups and Teams)",
+  "success_cases": ""
+}

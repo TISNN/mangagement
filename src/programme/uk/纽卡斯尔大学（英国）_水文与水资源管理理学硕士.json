@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "水文与水资源管理理学硕士",
+  "ename": "MSc Hydrology and Water Management",
+  "tags": "工科,环境工程,工程学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 28950英镑/年",
+  "requirements": "具有good 2:2荣誉学位或同等学历，需要以下背景，如： 工程学，地理学，环境科学，地球科学，数学，物理学，地质学，化学，计算机科学，测绘学\n具有不同或非标准资格的申请人者将根据其个人情况考虑（尤其是如果申请者具备相关行业经验）",
+  "objectives": "纽卡斯尔大学水文与水资源管理理学硕士项目为学生提供在水和环境行业工作所需的理论和实践技能和知识，专业侧重于气候和洪水风险。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工程定量方法 (Quantitative Methods for Engineering)\n流域综合管理 (Integrated River Basin Management)\n地下水模拟 (Groundwater Modelling)\n气候变化：脆弱性、影响和适应 (Climate Change: Vulnerability, Impacts and Adaptation)\n洪水模拟与预报 (Modelling and Forecasting of Floods)\n水管理：问题和挑战 (Water Management: Issues and Challenges)\n水系统过程和数据分析 (Hydrosystems Processes and Data Analysis)\n水系统建模与管理 (Hydrosystems Modelling and Management)\n水资源硕士学位论文 (MSc Project and Dissertation in Water Resources)\n地理信息系统 (Geographic Information Systems)\n发展中国家环境工程 (Environmental Engineering for Developing Countries)\n地下水评价 (Groundwater Assessment)\n计算水力学 (Computational Hydraulics)",
+  "success_cases": ""
+}

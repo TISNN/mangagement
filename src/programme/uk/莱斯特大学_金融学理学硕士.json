@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 23650英镑/年",
+  "requirements": "具有认可大学颁发的good 2nd荣誉学位或同等学历",
+  "objectives": "莱斯特大学金融学理学硕士项目将培养学生理解范围广泛的金融学概念及其在各种管理与组织环境下的应用。\n在莱斯特大学金融学理学硕士项目中，学生将探讨风险管理、财务报表、战略性金融管理、金融分析与投资等重要领域，从而更深入地理解金融是如何在组织决策中扮演中心角色的。学生能够在两门核心课程和论文中针对个人感兴趣的领域进行研究学习。莱斯特大学金融学理学硕士项目的学生将深入理解理论性和概念性的金融学知识，分析和评价管理问题，并能够在专业岗位上制定合理的战略决策。莱斯特大学金融学理学硕士项目还将培养学生具备可转移实用技能，包括独立开展研究的能力（线上和线下）、时间管理能力、口头和书面交流能力、表达能力和策划能力。\n学生在莱斯特大学金融学理学硕士项目中获得的技能与知识将促进学生在金融业的职业发展，或者促进学生继续攻读博士学位、从事金融领域内的学术工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司金融 (Corporate Finance)\n金融分析投资 (Financial Analysis and Investment)\n金融建模 (Financial Modelling)\n财务报表分析 (Financial Statement Analysis)\n金融专业技能 (Professional Skills in Finance)\n金融数学基础 (Foundations of Mathematics for Finance)\n金融衍生品 (Financial Derivatives)\n金融风险管理 (Financial Risk Management)",
+  "success_cases": ""
+}

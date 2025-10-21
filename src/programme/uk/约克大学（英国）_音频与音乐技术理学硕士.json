@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "音频与音乐技术理学硕士",
+  "ename": "MSc Audio and Music Technology",
+  "tags": "社科,其他社科,电子工程学院",
+  "introduction": "专业方向: 其他社科\n入学时间: 9月\n项目时长: 1年\n项目学费: 31900英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要音乐或音乐技术背景，或相关技术、数学、科学、工程或计算学位（申请者能够展示出音乐表演或音乐制作技能），学校愿意考虑学历较低的申请者，特别是当学生在相关课程中取得高分和/或具备适当行业经验时。一般情况下，学校偏好含有技术元素的学科背景或具备大量行业经验的申请者，这根据具体情况进行评估",
+  "objectives": "约克大学音频与音乐技术理学硕士项目为期一年，得益于约克大学的音频实验室提供的知识和专业能力，适合有意向提升技能以在诸多领域（音频处理、室内声学、交互式音乐和音频应用，语音分析与合成、音频编程和其他音乐技术相关领域）就业或从事进一步研究的学生。\n约克大学音频与音乐技术理学硕士项目旨在：\n帮助学生奠定科学理论和工程技术的基础，学生将能够其应用于数字音频技术；\n使学生了解涉及语音、唱歌、音乐和房间/环境声学的音频处理和声学分析；\n提供音频软件编程的实际经验，学生将能运用各种编码语言和创造性的方法以分析和合成音频；\n培养学生以各种写作风格呈现或用于口头演讲的沟通技巧以便参与学术和公共活动。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "音频信号和心理声学 (Audio Signals and Psychoacoustics)\niOS系统编程（音频） (iOS Programming for Audio)\n个人专业实践 (Personal Professional Practitioner)\n音乐感知和鉴定聆听 (Music Perception & Critical Listening)\n分析和编程方向 (Analysis & Programming PATHWAY)\n音频技术方向 (Audio Technology PATHWAY)\n项目开发 (Project Development)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "计算与信息技术理学硕士",
+  "ename": "MSc Computing and Information Technology",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 29990英镑/年",
+  "requirements": "具有good 2:1本科荣誉学位",
+  "objectives": "圣安德鲁斯大学计算与信息技术理学硕士项目旨在发展学生的批判性理解，内容包括对计算机系统的使用及计算机系统对业务流程和项目管理的影响。同时，该项目为没有编程背景的学生提供了在现代软件开发环境中提升编程技能的机会。\n圣安德鲁斯大学人计算与信息技术理学硕士项目有以下亮点：\n圣安德鲁斯大学人计算与信息技术理学硕士项目旨在赋予学生研究计算机科学中感兴趣的领域的自由。\n圣安德鲁斯大学人计算与信息技术理学硕士项目在现代软件开发环境中为学生引入编程技能。\n学生承担重要课题，课题包括广泛调查与大量软件开发，以及最终的论文。这些课题能够帮助他们巩固和扩展专业知识及批判性思维。\n学校设有现代化计算机实验室，实验室配备双屏计算机工作站及小组工作设施。学生有24小时访问现代化计算机实验室的权限。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士核心技能 (Masters Core Skills:)\n硕士编程项目 (Masters Programming Projects:)\n面向对象的建模、设计和编程 (Object-Oriented Modelling、Design and Programming)\n编程原理和实践 (Programming Principles and Practice)\n人工智能原理 (Artificial Intelligence Principles)\n人工智能实践 (Artificial Intelligence Practice)\n语言和计算 (Language and Computation)\n高级网络 (Advanced Networks)\n移动和无线网络 (Mobile and Wireless Networks)\n软件工程原理 (Software Engineering Principles)\n软件工程实践 (Software Engineering Practice)\n关键系统工程 (Critical Systems Engineering)\n软件架构 (Software Architecture)\n人机互动原理和方法 (Human Computer Interaction Principles and Methods)\n互动软件和硬件 (Interactive Software and Hardware)",
+  "success_cases": ""
+}

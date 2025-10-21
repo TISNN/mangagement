@@ -1,0 +1,12 @@
+{
+  "school_name": "伊利诺伊大学香槟分校",
+  "major_name": "生物信息学理学硕士",
+  "ename": "MS in Bioinformatics",
+  "tags": "理科,生物",
+  "introduction": "专业方向: 生物\n项目类别: STEM\n入学时间: 秋季/春季\n项目时长: 36学分\n项目学费: 31,193美元",
+  "requirements": "相关专业且GPA3.0及以上。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

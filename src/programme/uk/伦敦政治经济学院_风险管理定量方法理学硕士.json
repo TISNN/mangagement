@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦政治经济学院",
+  "major_name": "风险管理定量方法理学硕士",
+  "ename": "MSc Quantitative Methods for Risk Management",
+  "tags": "商科,金工金数,统计学系",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 38000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要精算科学、数学、统计学或数理经济学/金融学背景",
+  "objectives": "伦敦政治经济学院及时响应业界对风险管理、金融、保险领域的量化专业知识的强大需求，设立了伦敦政治经济学院风险管理定量方法理学硕士项目。伦敦政治经济学院风险管理定量方法理学硕士项目吸收了数学金融、精算科学、统计学和计算等不同学科的内容，注重夯实学生的理论和实践基础，学生将有机会开展案例研究，分析实际问题，接触到真实的财务数据，运用各种量化方法来衡量和减轻金融和保险风险。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "随机过程 (Stochastic Processes)\n风险管理统计方法 (Statistical Methods for Risk Management)\n金融与保险计算方法 (Computational Methods in Finance and Insurance)\n衍生品建模推断统计学 (Stochastics for Derivatives Modelling)\n金融与保险近期发展 (Recent Developments in Finance and Insurance)\n概率和测度 (Probability and Measure)\n利率和信用风险理论基础 (The Foundations of Interest Rate and Credit Risk Theory)\n量化风险建模和其它市场 (Quantifying Risk Modelling and Alternative Markets)\n时间序列 (Time Series)\n应用随机过程 (Applied Stochastic Processes)\n高级概率论 (Advanced Probability Theory)\n财务统计学 (Financial Statistics)\n马尔可夫过程介绍及其应用 (Introduction to Markov Processes and Their Applications)\n机器学习和数据挖掘 (Machine Learning and Data Mining )\n保险风险 (Insurance Risk)",
+  "success_cases": ""
+}

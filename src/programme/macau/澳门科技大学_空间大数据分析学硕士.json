@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "空间大数据分析学硕士",
+  "ename": "Master of Space Big Data Analytics",
+  "tags": "工科,地球科学,太空科学研究所",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 2年\n项目学费: 120000港币/年",
+  "requirements": "修读计算机、地球科学、行星科学、大数据科学、数学、物理学、天文学或相近学科之各类专业",
+  "objectives": "此课程旨在培养具有大数据分析和空间信息系统知识背景的高层次空间数据分析人才，为智慧城市、商业模式、云计算、城市计算和大数据驱动的人类移动规律等方面的研究机构及企业提供高素质人才。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "空间统计学 (Spatial Statistics)\n数据挖掘理论与应用 (Theory and Applications of Data Mining)\n人工智能技术 (Artificial Intelligence Technology)\n遥感原理及应用 (Principles and Applications of Remote Sensing)\n空间数据库系统 (Spatial Database System)\n数据科学常用工具 (Common Tools for Data Science)\n应用软件及程序设计 (Application Software and Program Design)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "项目与企业管理理学硕士",
+  "ename": "MSc Project and Enterprise Management",
+  "tags": "工科,工程管理,建筑环境学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的2:2学士学位或同等学历",
+  "objectives": "伦敦大学学院项目与企业管理理学硕士项目将提供高级训练，培养学生运用管理思维看待企业及项目管理，尤其是辩证地审视企业在建筑项目中的角色，帮助学生全面理解项目的定义、开发与交付。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "项目管理 (Project Management)\n基于所有者的项目管理 (Owner-Based Management of Projects)\n企业管理原理 (Principles of Enterprise Management)\n项目、经济、部门及行为 (Projects、Economics、Sectors and Behaviour)\n企业项目关系管理 (Managing the Enterprise-Project Relationship)\n建筑、工程及专业服务采购 (The Procurement of Construction、Engineering and Professional Services)\n项目组织及人员 (Organisations and People in Projects)\n施工管理 (Managing Construction)\n建筑业的环境可持续性 (Environmental Sustainability in the Construction Sector)\n供应链管理 (Supply Chain Management)\n大型工程项目管理 (The Management of Large Project and Programmes)\n项目及企业组织中的社会网络 (Social Networks in Project and Enterprise Organisations)\n建筑信息建模的集成项目信息系统 (Integrating Project Information Systems with Building Information Modelling)\n创新管理 (The Management of Innovation)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "临床心理学社会科学硕士",
+  "ename": "MSocSc Clinical Psychology",
+  "tags": "社科,心理学,社会科学学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 2年\n项目学费: 198000港币/年",
+  "requirements": "具有心理学学士学位或同等学历\n应在学士学位课程或其他同等心理学课程中完成论文形式的实证研究经验，或在已发表的期刊论文中作为第一作者\n有资格成为香港心理学会研究生会员\n有相关工作经验者优先考虑",
+  "objectives": "香港大学临床心理学社会科学硕士旨在帮助学生了解预防和缓解心理困扰和功能障碍的方法，以促进社会福祉和个人发展，培养服务社会的专业临床心理学家。毕业生主要在医院，政府部门，咨询服务单位和志愿组织工作，进行心理评估，心理干预和咨询，举办公众教育讲座和研讨会，提供员工培训和咨询，以及进行科学研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "个别心理疗法 (Individual psychotherapy )\n个性和精神病理学评估 (Assessment of personality and psychopathology)\n社区与健康心理学 (Community and health psychology)\n家庭及团体治疗 (Family and group therapy)\n道德与职业问题 (Ethics and professional issues)\n认知评估技术 (Cognitive assessment Technology)\n研究方法与统计 (Research methods and statistics )\n病理学 (Psychopathology )",
+  "success_cases": ""
+}

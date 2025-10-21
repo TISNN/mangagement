@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "环境建模理学硕士",
+  "ename": "MSc Environmental Modelling",
+  "tags": "工科,环境工程,社会与历史科学学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有英国大学颁发的一等或2:1学士学位或同等学历，需要相关学科背景（如计算机科学、环境科学、地理学、海洋学、工程学、数学、物理学或生物学），具备相关专业经验的申请者也将被考虑",
+  "objectives": "当前对于环境建模专业人士的需求正日益增长。伦敦大学学院环境建模理学硕士项目是一个跨学科项目，参考了各种环境系统中自然和人为引起的挑战，为下一代环境建模专业人士提供技术和科学训练。这个项目可以全面培养学生对于环境科学中模型的作用、实施和应用方面的认知。项目中的核心课程引入必要的计算和数字方法，就基于建模的科学提出了关键观点。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "环境科学模型 (Models in Environmental Science)\n全球环境变化 (Global Environmental Change)\n科学计算 (Scientific Computing)\n分析和数理方法 (Analytical and Numerical Methods)\n气候建模 (Climate Modelling)\n海岸变迁 (Coastal Change)\n环境地理信息系统 (Environmental GIS)\n湖泊 (Lakes)\n环境变化对水文地质系统的影响 (Impacts of Climate Change on Hydro-Ecological Systems)\n海洋环流和气候变化 (Ocean Circulation and Climate Change)\n地表水建模 (Surface Water Modelling)\n陆地碳：建模和监控 (Terrestrial Carbon: Monitoring and Modelling)",
+  "success_cases": ""
+}

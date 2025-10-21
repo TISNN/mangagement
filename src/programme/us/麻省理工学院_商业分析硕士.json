@@ -1,0 +1,12 @@
+{
+  "school_name": "麻省理工学院",
+  "major_name": "商业分析硕士",
+  "ename": "Master of Business Analytics",
+  "tags": "商科,商业分析",
+  "introduction": "专业方向: 商业分析\n项目类别: STEM\n入学时间: 秋季\n项目时长: 12个月\n项目学费: 82368美元\n项目规模: 60人\n平均成绩: 3.9\n平均G: Q168\n国际学生: 70%\n男女比例: 63:37\n就业比例: 100%\n平均起薪: 110000美元\n留美比例: 100%",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

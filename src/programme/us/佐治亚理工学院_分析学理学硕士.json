@@ -1,0 +1,12 @@
+{
+  "school_name": "佐治亚理工学院",
+  "major_name": "分析学理学硕士",
+  "ename": "Master of Science in Analytics",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n入学时间: 秋季\n项目时长: 1年\n项目学费: 66564美元\n项目规模: 50人\n平均成绩: 3.6\n国际学生: 34%\n男女比例: 76:24",
+  "requirements": "对分析学感兴趣,并在过去适当的课程和/或行业经验以及标准化测试（GRE或GMAT）中表现出高水平的能力。基本的数学背景--至少有一门大学水平的微积分、基础线性代数、概率和统计学课程。基本的计算背景--至少有一门大学水平的课程（或同等的基础知识）,使用Python等高级语言进行计算机编程。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "金融学（公司金融）理学硕士",
+  "ename": "MSc Finance (Corporate Finance)",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 43000英镑/年",
+  "requirements": "具有high 2:1本科（荣誉）学士学位，需要社会科学相关领域背景（如管理学、经济学、金融学或其他相关学科），非常适合在金融学和/或经济学方面有一定的量化背景或者具备包含一些定量元素的学位背景的申请者\n不强制要求申请者提供GMAT或GRE成绩作为申请的一部分，但平衡良好的分数可能有助于申请，针对GMAT Exam (10th Edition)建议分数达到670，针对GMAT Exam (Focus Edition)建议分数不低于615或百分位排名78%，针对GRE建议分数不低于324（语言推理部分70-75%）",
+  "objectives": "随着金融监管的不断加强，企业面临着巨大的压力。伦敦大学国王学院金融学（公司金融）理学硕士项目采用最新的理论，向学生展示如何将它们应用到企业财务和投资管理领域。学生会对公司、机构的内部运作有很强的理解力。伦敦大学国王学院金融学（公司金融）理学硕士项目将帮助学生为金融界的重大挑战做准备，其中包括投资管理、风险管理、财务报表和估值分析等课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司财务 (Corporate Finance)\n投资管理 (Investment Management)\n财务分析与评估 (Financial Analysis & Valuation)\n定量方法 (Quantitative Methods)\n期权分析与价值评估 (Options Analysis & Valuation)\n论文写作 (Dissertation)\n实证金融 (Empirical Finance)\n不确定条件下的企业战略决策 (Corporate Strategic Decisions Under Uncertainty)\n并购 (Mergers and Acquisitions)\n信用风险与违约分析 (Credit Risk & Default Analysis)\n私募股权、风险投资与财富管理 (Private Equity、Venture Capital & Wealth Management)\n会计机构和社会 (Accounting Organisations & Society)\n行为金融学 (Behavioural Finance)",
+  "success_cases": ""
+}

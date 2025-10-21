@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "物理学高级研究硕士",
+  "ename": "MASt Physics",
+  "tags": "理科,物理,物理学系",
+  "introduction": "专业方向: 物理\n入学时间: 10月\n项目时长: 1年\n项目学费: 35517英镑/年",
+  "requirements": "申请者应该具有英国High II.i荣誉学位或同等学历\n被录取的申请者通常具有物理学high First class荣誉学位或同等学历，需要在量子力学、凝聚态物理、热学和统计物理、电动力学等核心物理课程中具备出色的工作知识\n成功的申请者通常学习过与剑桥Part II本科课程内容类似的课程，需要列出当前课程背景以及感兴趣的MASt课程并进行相关解释如果被录取，需要ATAS以获取签证（被录取前不要申请ATAS）",
+  "objectives": "剑桥大学物理学高级研究硕士项目旨在使学生接近当前研究的边界，因此在某种程度上与物理系特定研究小组的专业知识相联系。学生在一年中会做出一系列的选择，这样他们就可以选择偏向于物理的某个特定的广泛领域，比如凝聚态物理、粒子物理、天体物理、生物物理学或半导体物理。重点可以涵盖从强实验性到高度理论性的物理学的各个领域，并提供了一系列的专家选择。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级量子凝聚态物理 (Advanced Quantum Condensed Matter Physics)\n原子与光学物理学 (Atomic and Optical Physics)\n粒子物理学 ( Particle Physics)\n作为行星的地球物理学 (Physics of the Earth as a Planet )\n量子物质理论 (Theories of Quantum Matter)\n相对论天体物理学和宇宙学 (Relativistic Astrophysics and Cosmology)\n生物物理学 (Biological Physics)\n量子场论 (Quantum Field Theory)\n量子信息论 (Quantum Information Theory)\n系外行星与行星系 (Exoplanets and Planetary Systems)\n宇宙结构的形成 (Formation of Structure in the Universe)\n规范场理论 (Gauge Field Theory)\n医学物理学 (Medical Physics)\n物理学家创新与创业 (Innovation and Entrepreneurship for Physicists )\n研究项目 (Research Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "统计数据科学理学硕士",
+  "ename": "MSc Statistical Data Science",
+  "tags": "理科,数据科学,工程、数学与物理科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 1月\n项目时长: 1年\n项目学费: 29100英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历。成功的申请者通常至少有A-level或同等水平的数学和/或接受过定量技能培训，作为其本科课程或专业经验的一部分",
+  "objectives": "埃克塞特大学统计数据科学理学硕士项目为那些希望进入数据科学领域的非数学或计算背景人士提供支持。学校提供必要的数学和统计学背景，并让学生能够使用多种语言的机器学习、数据模型和代码。理学硕士课程涵盖了各个领域的应用，并帮助学生开发创新且负责任的数据使用方法。 学生将培养高级数学、统计、机器学习和计算技能，能够从数据集中提取和利用见解来为业务决策提供信息。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "Python编程 (Programme with Python\t)\n机器学习 (Machine Learning\t)\n社交网络与文本分析 (Social Networks and Text Analysis\t)\n论文项目 (Dissertation Project\t)\n数据使用 (Working with Data\t)\n数据科学与统计建模导论 (Introduction to Data Science and Statistical Modelling\t)\n数据科学与统计学应用 (Applications of Data Science and Statistics\t)\n统计数据建模 (Statistical Data Modelling\t)\n数据治理与伦理 (Data Governance and Ethics\t)",
+  "success_cases": ""
+}

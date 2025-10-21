@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "数字创业理学硕士",
+  "ename": "MSc Digital Entrepreneurship",
+  "tags": "社科,其他社科,创新与创业研究所",
+  "introduction": "专业方向: 其他社科\n入学时间: 1/10月\n项目时长: 1年\n项目学费: 31750英镑/年",
+  "requirements": "具有英国2:2荣誉学位（成绩达到55%或以上水平）或同等学历，不限专业背景",
+  "objectives": "数字创业是一个快速发展的创业领域。拉夫堡大学数字创业理学硕士项目将帮助学生掌握最新技能，以启动自己的数字企业或加入其中。\n拉夫堡大学数字创业理学硕士项目以实践为导向，因为它涉及实际案例和具有数字基础的真实创业项目。该计划将使学生有机会学习如何在实践中应用数字创业工具包。我们将为学生提供有关如何使用数据分析和数据挖掘工具以及它们为决策制定生成的输出的见解。\n拉夫堡大学数字创业理学硕士项目让学生有机会探索和反思实现、维持和发展数字业务所需的条件。企业家行为是越来越多的雇主所要求的一项关键能力。同时也会为学生提供对创业行为、创业机会识别及其如何推动数字创新过程的深刻理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "创业精神 (Entrepreneurship)\n数字战略 (Digital Strategy)\n数字供应链管理 (Digital Supply Chain Management)\n设计市场驱动的创新 (Designing Market-Driven Innovation)\n可持续企业管理 (Sustainable Enterprise Management)\n发展中经济体中的国际商业和创业精神 (International Business and Entrepreneurship in Developing Economies)\n数字企业的创业精神 (Entrepreneurship for Digital Ventures)\n数字经济中的数据分析工具 (Data Analytics Tools in Digital Economy)\n数字金融基础 (Foundations in Digital Finance)\n合作项目 (Collaborative Project)\n云应用和服务 (Cloud Applications and Services)\n创业加速 (Start-up Accelerator)\n论文 (Dissertation)",
+  "success_cases": ""
+}

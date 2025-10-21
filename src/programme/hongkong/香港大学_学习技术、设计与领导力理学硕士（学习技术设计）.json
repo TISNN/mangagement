@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "学习技术、设计与领导力理学硕士（学习技术设计）",
+  "ename": "MSc Technology, Design and Leadership for Learning (Learning Technology Design)",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 229800港币/年",
+  "requirements": "具有学士学位或同等学历",
+  "objectives": "香港大学学习技术、设计和领导力理学硕士项目是一个跨学科的研究领域，它探索理论、学习设计原则、新兴技术、研究方法和教学方法。香港大学学习技术、设计和领导力理学硕士项目旨在教育对职业感兴趣的个人，如学校、高等教育和企业环境中的学习技术专家、电子学习专家、教学设计师和信息技术协调员。\n香港大学学习技术、设计和领导力理学硕士项目为参与者提供有关应用教学设计原则和信息技术工具进行学习和教学的理论和实践见解。香港大学学习技术、设计和领导力理学硕士项目旨在提供：对学习技术设计、教育技术领导力、电子学习和其他新兴学习和教学技术应用的调查；在学习和教学中应用技术的机会；对成人学习原则和策略的调查；探索技术在教育中的文化、行政、理论和实践影响；教育技术研究导论；为那些希望发展在教育中使用技术的领导能力的人提供机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "运用信息技术手段支持教与学 (Teaching and Learning with Information Technology)\n研究与调查方法 (Methods of Research and Enquiry)\n教育中的多媒体技术 (Multimedia in Education)\n学习设计与技术 (Learning Design and Technology)\n数字学习资源 (Digital Resources for Learning)\n教育中的移动和无处不在的技术 (Mobile and Ubiquitous Technology in Education)\n教育视频和讲故事 (Educational Video & Storytelling)\n数据科学和学习分析 (Data Science and Learning Analytics)\n信息系统分析与开发 (Information System Analysis and Development)\n教育中的信息技术和知识产权法 (Information Technology and Intellectual Property Law in Education)\n教育中的人工智能 (Artificial Intelligence in Education)",
+  "success_cases": ""
+}

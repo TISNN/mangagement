@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 448800港币/年",
+  "requirements": "具有认可大学或机构颁发的学士学位，学术成绩优秀，需要提交GMAT或GRE，不强制要求具备工作经验但有一定的相关工作经验者优先考虑",
+  "objectives": "香港科技大学金融学理学硕士项目侧重于教授学生金融市场运作基本原理，以及最先进的金融理论、量化模型和行业实践，适合想在金融领域从事的人才。香港科技大学金融学理学硕士项目分为五个方向：资产管理、风险管理、金融科技、证券分析以及公司金融，力求为学生提供专业的理论指导以及实践应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级衍生品分析 (Advanced Derivatives Analysis)\n权益估值 (Equity Valuation)\n产权投资管理 (Equity Investment Management)\n对冲基金 (Hedge Funds)\n财富管理 (Wealth Management)\n风险管理统计方法 (Statistical Methods for Risk Management)\n公司风险管理 (Corporate Risk Management)\n外汇市场 (Foreign Exchange Market)\n金融科技：金融产业的未来 (FinTech: The Future of the Financial Industry)\n金融领域的大数据 (Big Data in Finance)\n金融建模 (Financial Modeling)\n市场金融科技：算法交易 (Market FinTech: Algorithmic Trading)",
+  "success_cases": ""
+}

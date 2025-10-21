@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "高级物理理学硕士",
+  "ename": "MSc Advanced Physics",
+  "tags": "理科,物理,物理学院",
+  "introduction": "专业方向: 物理\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有英国2:2荣誉学位或同等学历，需要物理学、科学或工程背景，或具备适当的专业经验",
+  "objectives": "本课程为学生提供在工业、公共服务或学术研究领域就业所需的关键技能。课程结合了超导和纳米科学的必修模块，以及量子计算和固态物理等选修模块，体现了我们物理系的研究实力和专长。本项目致力于现代物理学的几个主题领域之一，包括：高温超导性、太赫兹半导体和超导体电子、量子计算和量子超材料、极端条件的物理学。学生的研究将通过我们最近投资的先进的实验室而得到加强，该实验室能够让学生使用各种各样的实验设备，包括脉冲激光沉积、原子力显微镜、拉曼散射和x射线衍射。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "跨学科科学的数学方法 (Mathematical Methods for Interdisciplinary Sciences)\n物理学研究方法 (Research Methods in Physics)\n固态物理学中的特征化技术  (Characterisation Techniques in Solid State Physics)\n量子信息 (Quantum Information)\n高分子科学 (Polymer Science)\n高级特征化技术 (Advanced Characterisation Techniques)\n超导、纳米科学 (Superconductivity and Nanoscience)\n研究项目 (Research Project)\n物理的复杂体系 (Physics of Complex Systems)\n量子计算 (Quantum Computing)\n聚合物性质 (Polymer Properties)\n先进的材料和过程的模拟 (Simulation of Advanced Materials and Processes)\n材料模型 (Materials Modelling)",
+  "success_cases": ""
+}

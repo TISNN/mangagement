@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "生物医学工程理学硕士",
+  "ename": "MSc Biomedical Engineering",
+  "tags": "工科,生物工程,工程学院",
+  "introduction": "专业方向: 生物工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "优先考虑具有工程、生命科学、医学或物理科学专业背景2:2或以上学位的申请者\n也鼓励具有相关学位和相关领域丰富经验的申请者申请",
+  "objectives": "生物医学工程将核心工程原理应用于对医疗和保健技术的理解和进步。在生物医学工程理学硕士课程中，学生将学习医学工程的基础知识，以及应用于医疗设备和医疗保健服务的尖端技术，让学生有机会了解临床背景和未来的发展机会。生物医学工程理学硕士课程旨在为毕业生提供在临床工程、医疗设备开发和生物医学工程研究方面有回报的职业技能。这涉及到理解生物医学工程技术在转变医学和医疗保健服务中所扮演的角色。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "医疗保健科学中的生物医学与专业主题 (Biomedical and Professional Topics in Healthcare Science)\n医学工程基础 (Fundamentals of Engineering in Medicine)\n用于医疗设备与植入物的生物材料 (Biomaterials for Medical Devices and Implants)\n计算流体动力学 (Computational Fluid Dynamics)\n高级复合材料 (Advanced Composite Materials)\n生物商业导论与生物科学研究商业化 (Introduction to Bio-Business and the Commercialisation of Bioscience Research)\n生物工程师研究方法 (Research Methods for Bioengineers)\n生物系统建模 (Modelling of Biological Systems)\n康复工程与生物力学 (Rehabilitation Engineering and Biomechanics)\n有限元法 (Finite Element Methods)\n数学优化 (Mathematical Optimisation)\n高级生物商业与生物科学研究商业化 (Advanced Bio-Business and the Commercialisation of Bioscience Research)\n生物医学工程个人项目 (Individual Project in Biomedical Engineering)",
+  "success_cases": ""
+}

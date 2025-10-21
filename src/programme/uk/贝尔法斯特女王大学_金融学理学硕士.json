@@ -1,0 +1,12 @@
+{
+  "school_name": "贝尔法斯特女王大学",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 25800英镑/年",
+  "requirements": "通常具有strong 2:2荣誉学位（至少55%）或学校接受的同等学历，需要金融学、数学、经济学或其他相关定量学科背景，相关课程成绩必须达到所要求的标准",
+  "objectives": "贝尔法斯特女王大学金融学理学硕士项目探讨企业经理与投资者如何制定金融决策、如何管理风险以及金融市场是如何运作的。\n贝尔法斯特女王大学金融学理学硕士项目不要求学生具有金融学专业背景。贝尔法斯特女王大学金融学理学硕士项目将提供独特的机会让学生能够全面深入地研究金融决策与金融市场，学生可以接触到在广泛领域中都有专题研究的知名学者，也可接触到数据采集与分析必需的各种软件。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司金融 (Corporate Finance)\n市场微观结构 (Market Microstructure)\n金融研究方法 (Research Methods in Finance)\n资产定价 (Asset Pricing)\n金融衍生产品 (Derivatives)\n国际金融 (International Finance)\n时间序列金融经济计量学 (Time-Series Financial Econometrics)\n货币银行学 (Money and Banking)\n论文写作（二选一） (Dissertation （二选一）)\n应用研究项目（二选一） (Applied Research Project （二选一）)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,社会与历史科学学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要经济学背景（包含大量定量成分），具有其他定量学科（如统计学、数学或物理学）同等学历的申请者也可能被考虑\n本科学位全部或主要在英国以外的大学学习的申请者必须在申请中上传他们的GRE成绩报告，GRE成绩定量部分必须达到162分或以上水平，本科学习最后一年的申请者必须在申请中上传他们最后一年所修课程的完整列表",
+  "objectives": "现代经济学学科发展日趋严谨，与此同时，国际机构、政府和企业中的相关领域工作都要求专业人员具有经济学高等学位。伦敦大学学院经济学理学硕士项目旨在使学生具备专业经济学家所需的理论知识和分析工具，从而更好的理解复杂、多变、不确定的当代世界经济发展形势。\n伦敦大学学院经济学理学硕士学位课程旨在为学生提供现代经济学与计量经济学领域最完善的教育，并培养学生举一反三的能力，发现问题、分析问题的技能。通过伦敦大学学院经济学理学硕士学位课程的学习，学生还将掌握运用经济学工具的帮助其更好的理解和进行前沿的经济学理论和和应用研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济学 (Microeconomics)\n宏观经济学 (Macroeconomics)\n计量经济学 (Econometrics)\n研究方法 (Research Methods)\n高级宏观经济学理论 (Advanced Macroeconomic Theory)\n高级微观计量经济学 (Advanced Microeconometrics)\n高级微观经济学理论 (Advanced Microeconomic Theory)\n时间序列计量经济学 (Time Series Econometrics)\n公共微观经济学 (Public Microeconomics)\n发展经济学 (Economics of Development)\n移民经济学 (The Economics of Migration)\n健康经济学 (Health Economics)\n用户方案评估 (Programme Evaluation for Users)\n行为经济学 (Behavioural Economics)\n宏观经济学政策 (Macroeconomic Policy)",
+  "success_cases": ""
+}

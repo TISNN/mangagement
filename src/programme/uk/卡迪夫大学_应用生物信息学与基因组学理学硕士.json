@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "应用生物信息学与基因组学理学硕士",
+  "ename": "MSc Applied Bioinformatics and Genomics",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 27450英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要相关学科领域背景。学校将根据个人情况考虑具有2:2荣誉学位的申请者\n如果申请者没有学位或以2:2的成绩获得学位，其申请可能会根据至少两年的相关专业经验进行考虑。请提供其他证据来支持申请，例如签名并注明日期的雇主推荐信",
+  "objectives": "卡迪夫大学应用生物信息学与基因组学理学硕士项目旨在：\n为学生提供计算和统计生物科学的跨学科实践技能和知识，为他们在学术研究、生物技术、制药和医疗保健行业从事具有挑战性的职业做好准备；\n介绍后基因组生物学和遗传学常用的计算、统计和分析方法；\n培养理解和批判性评估研究方法和结论的技能，以便他们能够对这些技术在自己研究中的适用性做出正确的判断；\n培养研究设计和分析的能力，以及有效提取遗传学、基因组学和其他生物科学信息的能力，以及向专业和非专业背景的受众传达信息、结果、问题和想法的能力；\n准备并提供指导，以便在他们希望从事职业的专业领域内进行原创性研究。该课程的这一领域还旨在增强您计划和执行任务的主动性和责任感的能力，并在处理和解决就业中所需的问题时表现出独创性的思维。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文：生物信息学 (Dissertation: Bioinformatics)\n生物信息学和遗传流行病学计算 (Computing for Bioinformatics and Genetic Epidemiology)\n生物信息学和遗传流行病学统计 (Statistics for Bioinformatics and Genetic Epidemiology)\n生物信息学导论 (Introduction to Bioinformatics)\n生物信息学和生物统计学案例研究 (Case Studies in Bioinformatics and Biostatistics)\n下一代测序 (Next Generation Sequencing)\n蛋白质生物学和组学 (Protein Biology and Omics)",
+  "success_cases": ""
+}

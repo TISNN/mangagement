@@ -1,0 +1,12 @@
+{
+  "school_name": "考文垂大学",
+  "major_name": "英语文学文学硕士",
+  "ename": "MA English Literature",
+  "tags": "社科,文化,艺术与人文学院",
+  "introduction": "专业方向: 文化\n入学时间: 1/5/9月\n项目时长: 1年\n项目学费: 18600英镑/年",
+  "requirements": "具有2:2荣誉学位，不限专业",
+  "objectives": "考文垂大学英语文学文学硕士项目是一个研究文艺复兴至今本地和全球文学的令人兴奋的机会，通过学习最前沿的批评理论，学生将会考虑到文学对于21世纪地区和全球的重要性。本课程强调真实世界的参与和经验学习。对我们来说，典型的一年可能包括去日内瓦湖旅行，思考1816年奇怪的天气是如何塑造了玛丽·雪莱、珀西·雪莱和拜伦勋爵的作品。 也有机会进行深入的案例研究，研究文献是如何激发社区抵抗环境灾难的反应，如印度博帕尔灾难。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "英国文学环境导论 (Introduction to Environment in English Literature)\n莎士比亚空间 (Shakespearean Spaces)\n浪漫环境与情感 (Romantic Environments and Emotions)\n环境与美国西部 (Environment and the American West)\n哥特式自然 (Gothic Nature)\n后殖民性与环境 (Postcoloniality and Environment)\n研究方法 (Research Methods)\n论文 (Dissertation)",
+  "success_cases": ""
+}

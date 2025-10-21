@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "管理与人工智能理学硕士",
+  "ename": "MSc Management and Artificial Intelligence",
+  "tags": "工科,计算机,数字技术研究所",
+  "introduction": "专业方向: 计算机\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有2:2荣誉学位（总分至少达到55%）或同等学历\n不限专业背景，不需要计算背景",
+  "objectives": "由于自动化带来的效率提升，以及高性能数据分析推动决策、组织变革、营销和客户互动的能力，管理领域正在迅速变化，人工智能的高级知识正迅速成为那些寻求商业高级职位的人的先决条件，拉夫堡大学管理与人工智能理学硕士课程面向希望利用人工智能的变革潜力进行管理的学生并且不需要事先技术培训的学生，课程将为学生提供所需的技术和关键技能，以了解人工智能如何改变我们的社会，以及这对管理意味着什么。\n沉浸在数字技能和管理研究中，学生将获得编码、算法和大型语言模型的实践知识，并对智能机器如何重建世界有一个批判性的理解，并把这些见解应用于管理领域，并学习人工智能在最近的技术进步之前如何以无法想象的方式将高级领导者和员工以及企业和客户联系起来。拉夫堡大学管理与人工智能理学硕士课程由一流学者授课，学生将从数字技术研究所的世界级人工智能学者和国际管理与创业研究所的思想领袖那里学习，有机会将学到的知识应用到现实世界的场景中，并在伦敦建立一个网络，伦敦被评为世界上最受人工智能驱动的城市，也是人工智能教育机会最佳的城市。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "比较管理 (Comparative Management)\n数字应用开发 (Digital Application Development)\n重大挑战 (Grand Challenges)\n人工智能与数据分析原理 (Principles of Artificial Intelligence and Data Analytics)\n人工智能与社会 (Artificial Intelligence and Society)\n研究方法 (Research Methods)\n会计与财务管理 (Accounting and Financial Management)\n新创业 (New Venture Creation)\n合作项目 (Collaborative Project)\n公司治理 (Corporate Governance)\n论文 (Dissertation)",
+  "success_cases": ""
+}

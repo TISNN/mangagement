@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "药物发现科学理学硕士",
+  "ename": "MSc Drug Discovery Science",
+  "tags": "社科,药学,化学学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31190英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要化学、药物化学、配药学、制药工程、中医、中药学科背景\n如果符合以下课程要求，学校也可以接受以下学科领域的学位：生物化学、生物医学科学、生物科学、生物技术、临床药学、法医科学、药物分析、制药工程、医药科学、药理学\n如果需要，申请者应当学习领域1和领域2中的至少一门课程领域1：普通化学、药物化学、天然产物化学、有机化学、药物化学；领域2：分析化学、生物化学、微生物学、药理学、毒理学\n学校也接受希望插班学习的医学生",
+  "objectives": "谢菲尔德大学药物发现科学理学硕士课程使学生了解科学家如何发现新药的候选化学物质。学生将学习如何满足制药行业对能够安全、更有效地治疗疾病、克服抗生素耐药性并以更低的财务和环境成本生产的药物日益增长的需求。谢菲尔德大学药物发现科学理学硕士课程内容涵盖制药行业中使用的药物发现和设计技术。学生将学习药理学、毒理学和基因组学等主题，同时了解如何针对潜在的临床试验识别、表征和优化用于治疗特定疾病的目标分子。学生的培训将涵盖蛋白质相互作用的基本化学和生物学、它们在疾病中的作用以及药物如何影响人体。学生将了解用于预测潜在药物效果如何的计算机辅助药物设计技术，以及用于测试药物对其分子靶标影响的筛选技术。谢菲尔德大学药物发现科学理学硕士课程由来自化学、生物学、工程和医学的世界领先科学家讲授，学生可以使用最先进的筛选和分析设施。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "药理学、毒理学和药物设计 (Pharmacology, Toxicology and Drug Design)\n生物技术和制药行业 (Biotech and Pharmaceutical Industry)\n模拟蛋白质相互作用 (Modelling Protein Interactions)\n实验室实践和统计 (Laboratory Practice and Statistics)\n研究和演讲技巧 (Research and Presentation Skills)\n药物发现研究项目 (Drug Discovery Research Project)\n药物化学与药物合成 (Medicinal Chemistry and Drug Synthesis)\n药物发现的基因组方法 (Genomic Approaches to Drug Discovery)\n癌症生物学 (Cancer Biology)\n发育神经生物学 (Developmental Neurobiology)\n基因网络：模型和功能 (Gene Networks: Models and Functions)\n新药发现和药品生产法规 (New Drug Discovery and Pharmaceutical Manufacturing Regulations)",
+  "success_cases": ""
+}

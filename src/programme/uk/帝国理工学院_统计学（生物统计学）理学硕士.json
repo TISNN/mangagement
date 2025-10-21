@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "统计学（生物统计学）理学硕士",
+  "ename": "MSc Statistics (Biostatistics)",
+  "tags": "理科,数学,数学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 35700英镑/年",
+  "requirements": "具有2:1学位，需要统计学、数学、工程学、物理学或计算机科学背景\n几乎所有成功的申请者都持有符合条件本科学位的一等学位，所有持有数学科学以外本科学位的成功申请者，都在理论数学主题方面具备大量知识和经验\n学校不考虑将MSc Statistics作为第二选择的申请",
+  "objectives": "帝国理工学院统计学（生物统计学）理学硕士为期一年的全日制课程提供卓越的理论和应用统计方面的培训。可供选择的选修模块多样，允许学生发展专业兴趣，为学生与各种各样的统计应用程序和方法提供深度接触的机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "概率统计 (Probability for Statistics )\n统计推理基础 (Fundamentals of Statistical Inference\n)\n应用统计学 (Applied Statistics)\n计算统计学 (Computational Statistics)\n统计学研究项目 (Statistics Research Project)\n生物医学统计 (Biomedical Statistics)\n统计遗传学与生物信息学 (Statistical Genetics and Bioinformatics)\n现代统计理论 (Contemporary Statistical Theory)\n贝叶斯方法 (Bayesian Methods)\n多变量分析 (Multivariate Analysis)\n图形化模型 (Graphical Models)\n机器学习 (Machine Learning)\n统计金融学概论 (Introduction to Statistical Finance\n)\n高级统计金融学 (Advanced Statistical Finance)\n大数据 (Big Data)",
+  "success_cases": ""
+}

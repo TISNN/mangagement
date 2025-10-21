@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "精算科学理学硕士",
+  "ename": "MSc Actuarial Science",
+  "tags": "商科,金工金数,贝叶斯商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 26000英镑/年",
+  "requirements": "具有upper second class学位或同等学历，需要高度定量的专业背景如数学、统计学或工程学\n本课程不要求具备工作经验",
+  "objectives": "伦敦大学城市学院精算科学理学硕士培养使用基于计算机的应用程序学习统计学，概率，随机过程，生存模型，经济学，金融和投资，保险，养老金和金融合同估值。\n该程序将使您有机会研究业务分析方法并了解在现实世界中如何执行数据分析。您将能够研究机器学习技术及其在分析复杂数据和设计预测分析方法中的用途。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融数学 (Financial Mathematics)\n概率论与数理统计 (Probability and Mathematical Statistics )\n财务和财务报告 (Finance and Financial Reporting )\n商业经济学 (Business Economics)\n精算专业人员的研究方法 (Research Methods for Actuarial Professionals)\n业务分析方法 (Analytics Methods for Business)\n突发事件 (Contingencies)\n保险风险建模 (Insurance Risk Modelling)\n金融经济学 (Financial Economics)\n机器学习 (Machine Learning)\n数据管理系统 (Data Management Systems)\n建模与数据分析 (Modelling and Data Analysis)",
+  "success_cases": ""
+}

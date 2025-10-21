@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "人工智能与数字商务理学硕士",
+  "ename": "MSc AI for Digital Business",
+  "tags": "商科,其他商科,管理学院",
+  "introduction": "专业方向: 其他商科\n入学时间: 9月\n项目时长: 1年\n项目学费: 30000英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，不限专业；具有丰富专业经验和/或其他先前资格的非毕业生也可以考虑",
+  "objectives": "利物浦大学人工智能与数字商务理学硕士项目面向任何学科的毕业生或具有丰富专业经验的毕业生开放，旨在加深他们对人工智能和新数字技术所带来的机遇和挑战的理解，这既是一个有趣的研究领域，也是为了改善他们的就业前景。学生将使用 ChatGPT Pro、RStudio、Tableau、Qlik、SAP 和 Witness 等软件，深入了解人工智能领域的机遇、挑战和最新思维，以及机器人、企业资源规划、物联网 (IoT)、数据科学、3D 打印、机器学习、智能代理和区块链等广泛的数字解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字商业技术与管理 (Digital Business Technology and Management)\n人工智能应用与创新 (AI Applications and Innovations)\n数字化战略 (Digital Strategy)\n使用SAP的企业系统 (Enterprise Systems with SAP)\n人工智能伦理与法规 (AI Ethics and Regulations)\n商业模拟与分析 (Business Simulation and Analysis)\n硕士项目 (MSc Project)\n大数据管理 (Big Data Management)\n操作建模与仿真 (Operations Modelling and Simulation)\n组织中的项目和投资组合管理 (Project and Portfolio Management in Organisations)\n商业大数据分析 (Big Data Analytics for Business)\n领导和管理项目团队 (Leading and Managing Project Teams)",
+  "success_cases": ""
+}

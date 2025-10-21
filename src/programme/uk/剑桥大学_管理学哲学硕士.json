@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "管理学哲学硕士",
+  "ename": "MPhil Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 10月\n项目时长: 1年\n项目学费: 39504英镑/年",
+  "requirements": "申请者应该具有英国一等荣誉学位或同等学历\n本科学位不能是商业或管理相关专业，并且在管理或商业相关科目中修读学分（单一或联合荣誉水平）不得超过3门课程（会计、金融、人资管理、市场营销、运营管理、战略、供应链管理）\n不需要工作经验，若申请者之前有工作经验，则毕业后工作经验不得超过1年，有工作经验的合格候选者建议考虑申请MBA\n虽然该专业不要求学生具备高水平的数学知识，但如果申请者没有数学背景，学校建议其在课程开始前通过学习数学和统计学来为学习该专业做好准备，在开课前达到A-level水平或高中最后一年的水平。该专业中的一些课程应用了基本代数、方程、微积分（基本微分规则）、图形（线性、二次、对数、指数）以及入门级的概率论和统计学知识",
+  "objectives": "剑桥大学管理学哲学硕士学位课程向学生介绍管理学的核心概念、技术和辩论。教育目标是使其他学科成绩优异的学生了解管理学科；让学生有机会获得和发展与高级管理实践相关的技能和专业知识。该课程旨在帮助学员从学生过渡到职业经理人，为他们提供管理职业所需的基本知识，并为他们提供发展合作领导技能和商业创造力的新机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计 (Accounting)\n商业经济学 (Business Economics)\n金融 (Finance)\n市场营销 (Marketing)\n运营管理 (Operations Management)\n组织分析 (Organisational Analysis)\n管理学定量技术 (Quantitative Techniques for Management)\n战略研究 (Strategy)\n管理咨询项目 (Management Consulting Project)\n数字化时代下的商业创新 (Business Innovation in a Digital Age)\n伦理 (Ethics)\n人力资源管理 (Human Resource Management)\n国际商业经济学 (International Business Economics)\n策略价值评估：系统设计中的不确定性和实物期权 (Strategic Valuation: Uncertainty & Real Options in System Design)\n供应链管理 (Supply Chain Management)",
+  "success_cases": ""
+}

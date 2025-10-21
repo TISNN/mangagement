@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "公共管理硕士",
+  "ename": "Master of Public Management",
+  "tags": "社科,公共政策与事务,跨学科学院",
+  "introduction": "专业方向: 公共政策与事务\n入学时间: 9月\n项目时长: 1年\n项目学费: 185000港币/年",
+  "requirements": "具有学士学位或同等学历，至少达到二等荣誉学位，需要至少3年全职工作经验，不限专业背景，但要求成绩优秀（尤其是分析类课程）",
+  "objectives": "香港科技大学公共管理硕士(MPM)项目培养学生在提供公共服务或与公共部门有频繁互动的组织中担任高级管理职务。通过使他们具备应付公共部门日益活跃和复杂的挑战的技能和知识，他们将发展管理能力，例如分析能力、管理能力和政治敏锐，这些都是在公共部门组织中取得成功所必不可少的。鉴于技术创新和可持续发展的重要性，本专业为学生提供跨学科研究，重点与技术创新和可持续发展相关的政策、管理和治理问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公共管理：理论与实践 (Public Management: Theories and Practices)\n公共管理经济学推理 (Economic Reasoning for Public Management)\n可持续性发展管理 (Managing for Sustainability)\n管理政策过程 (Managing the Policy Process)\n技术创新公共管理 (Public Management for Technology Innovation)\n毕业项目 (Capstone Project)\n工程师争议解决 (Dispute Resolution for Engineers)\n建筑财政管理 (Construction Financial Management)\n工程风险、可靠性与决策 (Engineering Risk, Reliability and Decision)\n技术管理原则与技术 (Principles and Techniques for Technical Management)\n运输与物流管理 (Transportation and Logistics Management)\n全球供应链管理 (Global Supply Chain Management)",
+  "success_cases": ""
+}

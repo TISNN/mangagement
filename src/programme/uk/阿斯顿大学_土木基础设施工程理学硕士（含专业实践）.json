@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "土木基础设施工程理学硕士（含专业实践）",
+  "ename": "MSc Civil Infrastructure Engineering (including Professional Practice)",
+  "tags": "工科,土木工程,基础设施与可持续发展工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 2年\n项目学费: 12000英镑/年",
+  "requirements": "具有2:2英国荣誉学位或同等学历，需要工程、科学或技术学科背景，具备其他资格和相关经验的申请者将根据个人情况进行评估。",
+  "objectives": "阿斯顿大学土木基础设施工程理学硕士（含专业实践）课程提供了广泛的学术背景，包括结构、公路工程、桥梁、岩土技术、材料、水力学、新兴技术和数字建设工具。阿斯顿大学土木基础设施工程理学硕士（含专业实践）课程旨在提供土木工程和基础设施方面的前沿专业知识。通过学习，从业人员将具备必要的理论知识和技能，来应对复杂系统和民用基础设施中出现的问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级结构工程 (Advanced Structural Engineering)\n数字工程与智能建筑 (Digital Engineering and Smart Construction)\n给水排水工程 (Water and Wastewater Engineering)\n民用基础设施的管理与监测 (Monitoring and Management of Civil Infrastructure)\n先进土工技术 (Advanced Geotechnics)\n基础设施工程与跨学科设计 (Infrastructure Engineering and Inter-disciplinary Design)\n先进建筑材料 (Advanced Construction Material)\n研究方法 (Research Methods)\n硕士论文 (Dissertation)",
+  "success_cases": ""
+}

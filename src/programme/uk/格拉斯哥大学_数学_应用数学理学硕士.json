@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "数学/应用数学理学硕士",
+  "ename": "MSc Mathematics / Applied Mathematics",
+  "tags": "理科,数学,数学与统计学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，以数学为主要部分，在大学水平数学中至少有5个学分课程，平均成绩为及格申请人必须具备以下所有基本科目的课程：微分方程，线性代数，向量多元微积分申请者还应具备以下两门或两门以上的重要学科：复分析、群论、力学、数值分析、实分析、拓扑学",
+  "objectives": "格拉斯哥大学数学院在数学与应用数学研究方面具有很强的国际声誉，格拉斯哥大学数学/应用数学理学硕士项目为学生提供大量课程（代数、数学分析、数学生物学、流体等），并且数学领域中的专家学者将引导学生深入理解适用于许多情况的基本理论和分析技能。此外，学生还可以通过一系列学术研讨会补充自己的专业知识，及时跟进学术前沿动态。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "代数和几何拓扑 (Algebraic and geometric topology)\n连续介质力学与弹性力学 (Continuum mechanics and elasticity)\n微分几何 (Differential geometry)\n流体力学 (Fluid mechanics)\n功能分析 (Functional analysis)\n复杂分析探索 (Further complex analysis)\n伽罗瓦理论 (Galois theory)\n数学生物学 (Mathematical biology)\n数学物理学 (Mathematical physics)\n数值方法 (Numerical methods)\n数论 (Number theory)\n偏微分方程 (Partial differential equations)\n代数专题 (Topics in algebra )",
+  "success_cases": ""
+}

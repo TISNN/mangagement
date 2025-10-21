@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "护理硕士",
+  "ename": "Master of Nursing",
+  "tags": "社科,医学,杨潞龄医学院",
+  "introduction": "专业方向: 医学\n入学时间: 1月\n项目时长: 1.5年\n项目学费: 50100新币/年",
+  "requirements": "具有护理学学士学位，需要为新加坡护理委员会认证的课程背景\nGPA不低于3.20\n持有新加坡护理委员会的正式注册及有效执业证书\n作为注册护士具备至少5年连续临床执业经验\n急症护理（重症护理和急救）和精神保健申请者需要持有临床专业的高级文凭/研究生文凭\n申请者必须得到护士长、护理部主任和所属部门负责人的强烈推荐\n申请者应满足新加坡卫生部规定的健康要求",
+  "objectives": "新加坡国立大学护理硕士项目旨在为学生提供新加坡医疗保健系统复杂性的鸟瞰图，从而使学生能够制定一条清晰的道路，获得应对这些挑战所需的关键能力。该项目的目标是通过知识获取、案例研究讨论、临床接触、社区项目开发以及针对医疗保健挑战生成基于证据的解决方案来拓展学生的多维能力。\n新加坡国立大学护理硕士项目的独特之处在于，我们采用体验式学习来促进学生的学习，通过模拟训练掌握临床技能，虚拟综合案例接触促进知识转化，临床决策训练平台掌握心理推理过程，以及聪明的学生以教学为中心的平台来监控您的学习进度。通过这些创新的教学法，学生的临床能力和领导能力将得到扩大和提高，从而使学生能够全面、安全地管理复杂的医疗保健条件和护理问题。\n作为亚洲护理专业人员教学和发展的领导者，我们不仅寻求培养能够感知系统内异常并挑战现状的问题解决者，而且还寻求具有科学思维的创新思想家，能够找到解决方案并领导改变新加坡的护理环境。我们致力于培养终身学习者，使校友与学校保持密切联系，不断发展自己和护理专业。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "综合临床决策和管理 I (Integrated Clinical Decision Making and Management I)\n综合临床决策和管理 II (Integrated Clinical Decision Making and Management II)\n综合临床决策和管理 I（儿科） (Integrated Clinical Decision Making and Management I)\n综合临床决策和管理 II（儿科） (Integrated Clinical Decision Making and Management II)\n临床药理学和药物治疗学 I (Clinical Pharmacology and Pharmacotherapeutics I)\n临床药理学和药物治疗学 II (Clinical Pharmacology and Pharmacotherapeutics II)\n成人护理跨护理连续体 (Adult Care Across Care Continuum)\n跨护理连续体的儿科护理 (Paediatric Care Across Care Continuum)\n循证实践 (Evidence-based Practice)\n专业发展和道德医疗保健 (Professional Development and Ethical Healthcare)\n临床实习 I (Clinical Practicum I)\n临床实习 II (Clinical Practicum II)\n临床实习 III (Clinical Practicum III)",
+  "success_cases": ""
+}

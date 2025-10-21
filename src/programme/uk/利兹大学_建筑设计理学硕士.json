@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "建筑设计理学硕士",
+  "ename": "MSc Architecture Design",
+  "tags": "社科,建筑,土木工程学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 29000英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要建筑学或相关学科背景，如建筑工程或城市设计，需要提交创意作品集",
+  "objectives": "建筑是一个职业、实践和研究领域，它反映了应用于建筑环境的物理和非物理属性，以形成城市的分层知识，利兹大学建筑设计理学硕士课程将以跨学科和实验的方式研究这两个方面，通过批判性的辩论和创造性的实践，将建筑和可持续性问题结合起来，帮助学生作为未来城市和城市环境的设计师发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计1：建筑设计策略 (Design 1: Architectural Design Strategies)\n设计2：建筑设计 (Design 2: Architectural Design)\n建筑与可持续发展 (Architecture and Sustainable Developments)\n可持续环境设计 (Sustainable Environment Design)\n建筑与城市设计理论 (Theories of Architecture and Urban Design)\n研究方法和技能培训 (Research Methods and Skills Training)\n研究论文 (Research Thesis)",
+  "success_cases": ""
+}

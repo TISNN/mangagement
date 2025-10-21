@@ -1,0 +1,12 @@
+{
+  "school_name": "贝尔法斯特女王大学",
+  "major_name": "电子学理学硕士",
+  "ename": "MSc Electronics",
+  "tags": "工科,电气电子,电子、电气工程与计算机科学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 25800英镑/年",
+  "requirements": "通常具有2:2荣誉学位或学校接受的同等学历，需要电气和/或电子工程、或物理学（包含大量电子学内容）背景",
+  "objectives": "贝尔法斯特女王大学电子学理学硕士项目是电子学研究的扩展项目，帮助学生加深对高级电子广泛课题（包括微电子、传感器、信号处理、硬件和软件设计、通信和数字系统）的认识，培养学生在这些领域的专业能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字信号处理 (Digital Signal Processing)\n短波通信设计 (High Frequency Communication Design)\n智能系统与控制 (Intelligent Systems and Control)\n微机电元件和技术 (MEMS Devices and Technology)\n无线通信系统 (Wireless Communication Systems)\n无线传感器系统 (Wireless Sensor Systems)\n智能电网 (Smart Grids)\n可持续能源系统 (Sustainable Energy Systems)",
+  "success_cases": ""
+}

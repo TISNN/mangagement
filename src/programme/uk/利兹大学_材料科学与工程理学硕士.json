@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "材料科学与工程理学硕士",
+  "ename": "MSc Materials Science and Engineering",
+  "tags": "工科,材料,化学与工艺工程学院",
+  "introduction": "专业方向: 材料\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:2荣誉学士学位，需要工程学、物理科学或数学学科背景\n申请者必须在包括数学和物理科学在内的广泛相关课程中取得优异成绩\n相关专业资格和经验也可能被考虑\n需要ATAS认证",
+  "objectives": "利兹大学材料科学与工程理学硕士项目面向来自自然科学、数学、技术或其他工科学科的学生，本课程为学生提供材料科学、工程或冶金专业的知识和技能。由世界一流设施的顶尖研究人员教授，学生将学习材料结构、加工结构-性能关系、特征描述和故障分析等主题。学生还将选择可选模块，以专注于自己的专业，以符合自己的职业规划和兴趣。该硕士学位旨在满足先进材料和制造业的当前需求和未来挑战。学生将获得在一个不断发展和快速变化的领域中茁壮成长的技能，帮助学生为一个有意义的职业做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究项目 (Research Project)\n相位变换和微结构控制 (Phase Transformations and Microstructural Control)\n结构-性能关系 (Structure-Property Relationships)\n材料选择和故障分析 (Materials Selection and Failure Analysis)\n材料结构和特性 (Materials Structures and Characterisation)\n材料建模 (Materials Modelling)\n团队设计项目 (Team Design Project)\n生物材料及其应用 (Biomaterials and Applications)\n光子应用材料 (Materials for Photonic Applications)\n纳米材料 (Nanomaterials)\n萃取冶金 (Extractive Metallurgy)\n生物系统物理学 (Physics of Biological Systems)",
+  "success_cases": ""
+}

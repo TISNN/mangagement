@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "计算机科学或计算机科学（人工智能）理学硕士（2年制）",
+  "ename": "MSc Computer Science or Computer Science (Artificial Intelligence) (2-year)",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 2年\n项目学费: 16200英镑/年",
+  "requirements": "具有2:1学位或同等学历，通过在申请中详细说明先前的编程学习或实践经验证明对编程有浓厚兴趣，有编程课程学习背景者优先考虑（但不是必需的）",
+  "objectives": "诺丁汉大学计算机科学或计算机科学（人工智能）理学硕士（2年制）课程适用于有或没有计算机科学第一学位的学生。这个为期两年的硕士课程通过一个全年的研究项目对教学模块进行更深入的研究。第一年的教学模块将培养学生在关键主题方面的知识，例如用户体验设计、人工智能和数据分析。可选模块允许学生学习专业领域，包括机器学习、网络安全和自主机器人。在第二年研究项目中，学生将有机会与研究项目的专家顾问合作。如果选择专注于人工智能领域的学习和研究，毕业时可以获得名为“计算机科学（人工智能）理学硕士”的学位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "编程 (Programming)\n系统与网络 (Systems and Networks)\n数据库，接口和软件设计原理 ( Databases, Interfaces and Software Design Principles)\n机器学习 (Machine Learning)\n自主机器人系统 (Autonomous Robotic Systems)\n设计智能代理 (Designing Intelligent Agents)\n游戏 (Games)\n数据建模与分析 (Data Modelling and Analysis)\n模糊逻辑与模糊系统 (Fuzzy Logic and Fuzzy Systems)\n决策支持的仿真和优化 (Simulation and Optimisation for Decision Support)\n线性和离散优化 (Linear and Discrete Optimisation)\n知识表示与推理 (Knowledge Representation and Reasoning)\n人机交互 (Human-AI Interaction)\n大数据 (Big Data)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "统计学理学硕士",
+  "ename": "MSc Statistics",
+  "tags": "理科,数学,理学院",
+  "introduction": "专业方向: 数学\n入学时间: 8月\n项目时长: 1年\n项目学费: 52320新币/年",
+  "requirements": "具有荣誉学士学位或4年制学士学位，需要数学、工程学、统计学、生物统计学、定量金融、计算机科学、物理学、经济学等背景\n具有3年制学位或其他专业领域学位或资格的申请者在研究生院批准的情况下可根据具体情况被考虑\n需要提交存款证明52,000新币",
+  "objectives": "新加坡国立大学统计学理学硕士课程让学生在一些感兴趣的主题中进行基础研究活动或解决公司和研究机构的实际问题。该硕士项目涵盖统计学、数据科学、大数据和分析的主要领域：数据科学的统计基础、应用回归、产品设计和过程改进的实验设计、非参数回归、质量控制和生产力改进分析、时间序列分析数据、多元数据分析、有限人口抽样、生存分析、分类数据分析、概率和随机过程、网络统计分析、空间统计、数据挖掘。与新引入的研究模块相辅相成，新加坡国立大学统计学理学硕士课程通过为学生提供解决工业和学术界实际问题的实用知识而脱颖而出。该项目非常适合希望从事统计相关工作的人。毕业生可以从事在以下行业：银行和金融、商业和营销、医疗和健康科学、制造和工程、研究和学术机构。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学统计基础 (Statistical Foundations of Data Science)\n应用回归分析 (Applied Regression Analysis)\n时间序列数据分析 (Analysis of Time Series Data)\n有限总体抽样 (Sampling from Finite Populations)\n统计研究项目 (Statistical Research Project)\n产品设计与工艺改进的实验设计 (Design of Experiments for Product Design and Process Improvements)\n非参数回归 (Nonparametric Regression)\n质量控制与生产力改进的分析 (Analytics for Quality Control and Productivity Improvements)\n多变量数据分析 (Multivariate Data Analysis)\n生存分析 (Survival Analysis)\n分类数据分析 II (Categorical Data Analysis II)\n金融高级统计方法 (Advanced Statistical Methods in Finance)\n概率论与随机过程 (Probability and Stochastic Processes)\n网络统计分析 (Statistical Analysis of Networks)\n空间统计学 (Spatial Statistics)",
+  "success_cases": ""
+}

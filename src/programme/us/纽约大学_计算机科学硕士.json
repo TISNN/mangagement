@@ -1,0 +1,12 @@
+{
+  "school_name": "纽约大学",
+  "major_name": "计算机科学硕士",
+  "ename": "MS in Computer Science (Tandon)",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n入学时间: 春季/秋季\n项目时长: 30学分\n项目学费: 2040美元/学分",
+  "requirements": "GPA 至少达到 3.0\n高级通用编程语言（最好是 C）的工作知识。\n对计算机基础知识有基本的了解,例如计算机组织和操作、数据结构和计算机体系结构。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

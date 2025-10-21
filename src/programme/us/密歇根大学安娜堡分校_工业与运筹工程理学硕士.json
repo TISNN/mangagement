@@ -1,0 +1,12 @@
+{
+  "school_name": "密歇根大学安娜堡分校",
+  "major_name": "工业与运筹工程理学硕士",
+  "ename": "MS in Industrial & Operations Engineering",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n入学时间: 秋季/冬季\n项目时长: 30学分\n项目学费: 50646.38美元",
+  "requirements": "1. 学士学位：数学、科学或其他专业2. 先修课：线代、以微积分为基础的概率论和统计,计算机编程3. GPA至少 3.0",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

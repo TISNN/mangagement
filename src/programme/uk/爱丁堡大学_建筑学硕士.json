@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "建筑学硕士",
+  "ename": "Master of Architecture",
+  "tags": "社科,建筑,艺术学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 2年\n项目学费: 36800英镑/年",
+  "requirements": "具有建筑师注册委员会（ARB）Part 1认证的英国2:1建筑学荣誉学位或在作品集中证明达到同等标准\n需要提交作品集作为申请的一部分",
+  "objectives": "爱丁堡大学建筑学硕士项目极具创新性，学生将在世界上最美丽、最具建筑风格的城市学习。本项目灵活性与严谨性并重，允许学生从一系列的工作室课程及不同的专业研究方向中选择感兴趣的部分学习，制定自己的个性化课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "建筑技术研究 (Architectural Technology Research)\n当代建筑理论研究 (Studies in Contemporary Architectural Theory)\n建筑设计工作室C（综合模块） (Architectural Design Studio C (Integrated))\n建筑设计工作室D（综合模块） (Architectural Design Studio D (Integrated))\n建筑设计工作室C（单元模块） (Architectural Design Stduio C (Modular))\n建筑设计工作室D（单元模块） (Architectural Design Studio D (Modular))\n设计报告 (Design Report)\n建筑管理、实践与法律 (Architectural Management, Practice and Law)\n学术组合2 (Academic Portfolio 2)\n建筑设计工作室A（综合模块） (Architectural Design Studio A (Integrated))\n建筑设计工作室H (Architectural Design Studio  H)",
+  "success_cases": ""
+}

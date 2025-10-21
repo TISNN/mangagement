@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "内科理学硕士",
+  "ename": "MSc Internal Medicine",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 26130英镑/年",
+  "requirements": "具有医学本科学位",
+  "objectives": "萨塞克斯大学旨在:\n•为医疗培训生提供高等教育，使他们成为未来有能力、见多识广和有创造力的顾问。\n•提供对高级医学专业实践的学习和见解，其中许多通常不包括在标准医学培训中。\n•培养医学实习生的研究意识和研究积极性。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "自身免疫 (Autoimmunity)\n传染病 (Infectious Diseases)\n重症医学 (Intensive Medicine)\n虚弱与老年医学 (Frailty & Elderly Medicine)\n产妇医学 (Maternal Medicine)\n研究方法与批判性评价 (Research Methods & Critical Appraisal)\n临床服务的领导和变革管理 (Leadership and Change Management in Clinical Services)\n卫生和社会关怀中的交流、学习和教学 (Communication, Learning and Teaching in Health and Social Care)",
+  "success_cases": ""
+}

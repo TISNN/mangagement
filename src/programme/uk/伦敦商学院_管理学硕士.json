@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦商学院",
+  "major_name": "管理学硕士",
+  "ename": "Masters in Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 8月\n项目时长: 1年\n项目学费: 44900英镑/年",
+  "requirements": "要求GMAT/GRE，不超过两年工作经验，有面试",
+  "objectives": "伦敦商学院管理学硕士项目是学校与全球顶尖招聘人员合作开发的课程，旨在培养学生实际工作过程所需的关键商业认知、自适应思维模式、国际化视野和满足业务准备需求的实用技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计学 (Accounting)\n金融学 (Finance)\n数据分析 (Data Analytics)\nExcel基础 (Excel Basics)\n定向 (Orientation)\n管理数据分析 (Data Analytics for Management)\n金融1 (Finance 1)\n金融会计 (Financial Accounting)\n应用微观经济学 (Applied Microeconomics)\n战略1 (Strategy 1)\n市场营销1 (Marketing 1)\n个人和职业发展 (Personal and Professional Growth)\n决策与风险分析 (Decision and Risk Analysis)\n商业分析 (Business Analytics)\n金融2 (Finance 2)\n管理和会计 (Management & Accounting)\n全球宏观经济 (The Global Macroeconomy)\n战略2 (Strategy 2)\n市场营销2 (Marketing 2)\n组织运作 (Performing in Organisations)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "科学计算哲学硕士",
+  "ename": "MPhil Scientific Computing",
+  "tags": "理科,数学,物理学系",
+  "introduction": "专业方向: 数学\n入学时间: 10月\n项目时长: 1年\n项目学费: 38196英镑/年",
+  "requirements": "申请者应该具有英国High II.i荣誉学位或同等学历\n申请者的第一学位应该是科学或技术学科，并且申请者应该能够表现出足够的计算机素养水平（应该能够使用高级计算语言编写执行科学或数学应用程序的代码）\n需要提交2篇Sample of work如果被录取，需要ATAS以获取签证（被录取前不要申请ATAS）",
+  "objectives": "剑桥大学科学计算哲学硕士课程设在物理系，是一门为期12个月的全日制课程，旨在提供最高质量的硕士教育。涵盖高性能科学计算和先进数值方法和技术的主题，它培养具有严谨研究和分析技能的研究生，他们有能力进行博士研究或直接在工业、专业和公共服务领域就业。课程还为未来的学术研究人员和教师提供培训，鼓励对科学和技术学科计算方法的研究，从而成为进入包含大量计算建模组成部分的博士课程的重要途径。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高性能计算 (High Performance Computing)\n数值分析 (Numerical Analysis)\n计算方法与技术 (Computational methods and techniques)\n基于偏微分方程的连续方法 (Continuum methods based on PDEs)\n原子模型 (Atomistic modelling)",
+  "success_cases": ""
+}

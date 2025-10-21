@@ -1,0 +1,12 @@
+{
+  "school_name": "波士顿学院",
+  "major_name": "会计硕士",
+  "ename": "MS in Accounting",
+  "tags": "商科,会计",
+  "introduction": "专业方向: 会计\n入学时间: 秋季\n项目时长: 30学分或39学分\n项目学费: 1886美元/学分\n平均成绩: 3.41\n平均G: 661\n国际学生: 72%\n男女比例: 33:67\n就业比例: 83%",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

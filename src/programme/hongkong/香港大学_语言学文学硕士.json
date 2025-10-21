@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "语言学文学硕士",
+  "ename": "MA Linguistics",
+  "tags": "社科,语言,文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 260000港币/年",
+  "requirements": "具有认可大学颁发的良好学士学位，主修语言学或密切相关学科",
+  "objectives": "香港大学语言学文学硕士课程为那些希望作为专业人士从事语言、双语和多语研究的人提供研究生水平的教育。该课程在语言类型学和语言接触、心理语言学和语音学方面尤为突出，并充分利用了香港的多语言环境。\n香港大学语言学文学硕士课程包括两门核心课程，涵盖核心语言学课题，为学生全面了解语言学研究和教学的理论和方法打下坚实基础。学生可以从一系列主题中选择五门额外的选修课程，以发展应用语言学理论解决新问题的能力，特别是在社会、教育和政治层面的语言多样性背景下。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语音学和音系学 (Phonetics and Phonology)\n语法：理论与应用 (Grammar: Theories and Applications)\n粤语的历史与结构 (The History and Structure of Cantonese)\n语言类型与共性 (Language Types and Universals)\n阅读习得与发展性阅读障碍 (Reading Acquisition and Developmental Dyslexia)\n香港地区语言研究 (Researching Language in Hong Kong )\n语言习得专题研究 (Topics in Language Acquisition)\n语言学中的当前问题研究 (Current Issues in Linguistics )\n语义学 (Semantics )\n语言学选读 (Readings in Linguistics)\n教学语言的语言结构 (Language Structure for Teaching and Learning Languages)\n语言发展和语言行为 (Language Development and Language Behavior)\n语法与互动 (Grammar and Interaction)\n多语现象研究 (Multilingualism)",
+  "success_cases": ""
+}

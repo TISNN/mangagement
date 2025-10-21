@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "国际物流与供应链管理理学硕士",
+  "ename": "MSc International Logistics and Supply Chain Management",
+  "tags": "商科,供应链管理,埃塞克斯商学院",
+  "introduction": "专业方向: 供应链管理\n入学时间: 10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有以下专业背景之一的2:1学位或同等学历：工程学、科学、计算机科学、经济学、统计学、金融学、会计学或信息系统也会考虑其他专业背景的申请者，但学习背景需要涵盖以下至少一门课程：统计学、经济统计学、概率论或生物统计学，定量方法或定量分析，工程数学、高等数学、应用数学、纯数学、微积分或数学方法，管理科学，运筹学",
+  "objectives": "埃塞克斯大学国际物流与供应链管理理学硕士课程旨在培训学员运用管理技术解决供应链中出现的业务问题，包括运输、仓储、库存和供应商关系等领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球供应链与运营管理 (Global Supply Chain and Operations Management)\n为经理和企业家提供业务分析 (Business Analytics for Managers and Entrepreneurs)\n应用统计与预测 (Applied Statistics and Forecasting)\n研究方法 (Research Methods)\n论文 (Dissertation)\n管理科学：优化方法 (Management Science: Optimisation Methods)\n物流和供应链计划与控制 (Logistics and Supply Chain Planning and Control)\n创新管理 (Innovation Management)\n国际营销战略与规划 (International Marketing Strategy and Planning)\n国际商业环境 (The International Business Environment)\n战略管理 (Strategic Management)\n国际商业与战略 (International Business and Strategy)\n创业理论与实践 (Theories and Practice of Entrepreneurship)\n财务分析与决策 (Financial Analysis and Decision Making)\n全球项目管理 (Global Project Management)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "生物技术理学硕士",
+  "ename": "MSc Biotechnology",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 32900英镑/年",
+  "requirements": "具有2:1英国荣誉学位或同等学历，需要生物科学背景（即生物学、自然科学、农学），不需要具备植物科学技术的先前实验室经验",
+  "objectives": "杜伦大学生物技术理学硕士项目的学生将学习生物技术的理论、实践、研讨会、研究方法与伦理等核心课程，并参观工业现场，全面了解当前在学术和工业环境中使用的技术。本课程由七个模块组成，其中包括一个为期6个月的研究项目，在这个项目中，学生将在一个生物技术导向的实验室中进行相关主题的实习。杜伦大学生物技术理学硕士课程旨在培养和提高学生的批判性思维和解决问题的能力，通过课程鼓励其分析复杂的问题，设计和评估有效的解决方案，认识到有效的沟通和合作在生物科学中的重要性，该计划还将为学生提供合作和展示他们的工作的机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "细胞生物学及其应用的前沿 (Frontiers in Cell Biology and Applications)\n生物科学技术 (Technology in Biosciences)\n生物信息学与数据科学 (Bioinformatics and Data Sciences)\n生物技术和工业与生物技术 (Biotechnology and Industry and Biotechnology)\n生物技术领域的创新与企业 (Innovation and Enterprise in Biotechnology)\n文献综述 (Literature Review)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

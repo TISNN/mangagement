@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "气候变化理学硕士",
+  "ename": "MSc Climate Change",
+  "tags": "工科,环境工程,环境科学学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 24350英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历，需要任意科学学科（包括物理和社会科学）背景，具备其他背景以及气候变化相关经验的优秀申请者也被鼓励申请",
+  "objectives": "东安格利亚大学气候变化理学硕士项目能让学生全面了解气候变化相关的科学、政治和经济学。对于希望从事气候科学研究、政府或商业咨询的学生来说，东安格利亚大学气候变化理学硕士项目将是理想的选择。东安格利亚大学气候变化理学硕士项目旨在培养下一代气候专家，使其充分了解核心科学以及更广泛的发展和政策核心问题。学生的必修课程包括气候变化背后的物理科学、能源作用等。此外，学生也可根据自身兴趣偏好，自行选择其他选修课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "气候变化：自然科学基础 (Climate Change: Physical Science Basis)\n学位论文 (Dissertation)\n能源与气候变化 (Energy and Climate Change)\n研究技能 (Research Skills)\n气候变化与发展II：治理、政策和社会 (Climate Change and Development II: Governance,Policy and Society)\n环境评价有效性 (Environmental Assessment Effectiveness)\n环境污染—科学、政策和管理 (Environmental Pollution - Science,Policy and Management)\n气候工程：科学与政策 (Geoengineering the Climate: Science and Policy)\nGIS及其在生态环境变化模拟中的应用 (Gis and Its Applications for Modelling Ecological and Environmental Change)\n模拟环境过程 (Modelling Environmental Processes)\n大气污染科学的现代方法 (Modern Methods in Air Pollution Science)\n自然资源与环境经济学 (Natural Resources and Environmental Economics)\n地球科学研究课题 (Research Topics in Earth Science)\n科学、社会和可持续性 (Science,Society and Sustainability)\n可持续消费 (Sustainable Consumption)",
+  "success_cases": ""
+}

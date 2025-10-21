@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "公共卫生硕士",
+  "ename": "Master of Public Health",
+  "tags": "社科,公共卫生,赛马会兽医及生命科学学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 201000港币/年",
+  "requirements": "具有认可的本科学士学位，需要生物学/医学/兽医/动物/卫生/环境科学/统计学/数学/生物统计学/数据科学/微生物学/管理学/传播学/中医/食品科学或相关学科背景\n优先考虑具有科学背景并已经完成统计学、药理学、食品工程、医学、护理学、中医、卫生科学、管理学、传播学、计算机科学和食品科学等全面本科教育的高素质人才",
+  "objectives": "香港城市大学公共卫生硕士项目旨在使学生具备“同一健康”相关的扎实学术知识，以便识别、分析和理解公共卫生和医疗保健问题，特别是那些与控制和预防新出现的人畜共患病有关的问题以及传染病维持和传播中的生态学，为学生提供关键技能，以批判性地评估科学文献、分析和解释流行病学数据，以确定健康决定因素、传染病事件及其社会经济影响，使学生具备设计和实施公共卫生研究的必要技能（例如研究设计、收集和分析来自不同类型实地研究的数据，包括分子流行病学），开发传染病预测模型，并将这些发现提交给公共卫生决策者，一线工作人员和公众，帮助学生在公共卫生和动物疾病数据的统计分析方面培养强大的技能，使学生能够运用先进的统计模型对流行病学数据进行预测和监测，培养学生具备良好的领导能力、规划和管理技能，以制定以证据为基础的有效预防和控制人类和动物疾病的政策，以改善公共卫生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "同一健康与流行病学原理 (Principles of One Health and Epidemiology)\n同一健康生物统计学导论 (Introduction to Biostatistics in One Health)\n卫生经济学导论 (Introduction to Health Economics)\n环境健康与风险评估 (Environment Health and Risk Assessment )\n高级流行病学 (Advanced Epidemiology)\n传染病流行病学 (Infectious Disease Epidemiology)\n计算生物学、实验设计与数据科学 ( Computational Biology, Experimental Design and Data Science)\n应用公共卫生项目 (Applied Public Health Projects)\n时间序列分析 (Time Series Analysis)\n空间数据分析 (Spatial Data Analysis)\n统计数据分析 (Statistical Data Analysis)\n数据挖掘统计建模 (Statistical Modelling for data mining)",
+  "success_cases": ""
+}

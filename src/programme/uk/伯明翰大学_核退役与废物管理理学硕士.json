@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "核退役与废物管理理学硕士",
+  "ename": "MSc Nuclear Decommissioning and Waste Management",
+  "tags": "工科,能源,工程与物理科学学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 30370英镑/年",
+  "requirements": "具有2:1荣誉学位，需要相关学科背景（如物理学、化学、材料科学、工程学、数学、地球科学或任何物理科学学科），具有2:2学位的申请者可能根据其所修课程基于具体情况予以考虑",
+  "objectives": "伯明翰大学核退役与废物管理理学硕士项目旨在培养学生该领域急需的技能，帮助学生赢得一定竞争优势。学生可以为核工业相关的职业生涯做好准备，培养正确的科学理解和实践技能，以应对这一领域的挑战。伯明翰大学核退役与废物管理理学硕士项目将培养学生核工业领域所需的各种技能，由来自不同学院的世界一流学术人员共同教授。学生将通过讲座、实践课程、实地考察和行业研讨会等形式学习。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "核辐射、剂量测定和屏蔽以及核燃料循环 (Nuclear Radiation, Dosimetry and Shielding, and the Nuclear Fuel Cycle)\n政策、法规和管理 (Policy, Regulation andManagement)\n实践与应用研究A (Practical and Applied Studies A)\n实践与应用研究B (Practical and Applied Studies B)\n核废料的处理、储存和处置 (Processing, Storage and Disposal ofNuclear Waste)\n场地退役与环境管理 (Site Decommissioning and EnvironmentalManagement)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

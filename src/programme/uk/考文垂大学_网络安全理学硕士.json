@@ -1,0 +1,12 @@
+{
+  "school_name": "考文垂大学",
+  "major_name": "网络安全理学硕士",
+  "ename": "MSc Cyber Security",
+  "tags": "工科,计算机,工程、环境与计算学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/5/9月\n项目时长: 1年\n项目学费: 20050英镑/年",
+  "requirements": "具备已下条件之一：具有二等荣誉学位，需要计算机科学、数学、物理或工程学等相关学科背景；具有同等水平的相关专业资格；较低的学历加上专业水平的相关经验；在相关领域（如 IT 部门）工作多年。申请者需要申请ATAS证书",
+  "objectives": "考文垂大学网络安全理学硕士项目旨在为学生提供网络安全几个核心领域的知识和必要技能。课程旨在提供对安全原理以及解决安全问题和解决相关问题的实用技术的全面而深入的理解。目的是为学生提供机会，使其有能力以专业水平工作，并在网络安全、安全设计、密码、风险评估、道德黑客、数字取证和事故响应等领域开发一系列行业知识和技能。考文垂大学网络安全理学硕士课程以研究为导向，还旨在为各种本科学位的学生在网络安全方面的博士水平的进一步研究奠定基础。\n该课程亦为计算机行业的应届毕业生及早期至中期从业人员提供机会，以加强他们的知识或进入网络安全领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "道德黑客 (Ethical hacking)\n网络安全 (Network security)\n安全设计与开发 (Secure design and development)\n密码学 (Cryptography)\n入侵检测与响应 (Intrusion detection and response)\n数字数据采集、恢复与分析 (Digital data acquisition, recovery and analysis)\n新兴互联系统安全性 (Security of emerging connected systems)\n汽车网络安全 (Automotive cyber security)\n网络安全个人项目 (Cyber Security Individual Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "市场营销理学硕士",
+  "ename": "MSc Marketing",
+  "tags": "商科,市场营销,工商管理学院",
+  "introduction": "专业方向: 市场营销\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有本科2:1学位或以上学历，不限专业背景",
+  "objectives": "伦敦大学玛丽皇后学院市场营销理学硕士学位课程为学生提供与全球商业竞技场中的日益重要的动态营销领域的议题、理论及工作实践相关的知识。\n在伦敦大学市场营销理学硕士学位课程的学习中，学生将研究全球化进程及其对跨国企业和国家公司的影响；比较市场营销及品牌推广相关的策略，探讨营销传播的作用；讨论关于营销道德的当代讨论，比较市场营销研究的不同方法；以及全面理解与市场营销这个动态领域相关的议题、理论及工作实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "品牌管理 (Brand Management)\n消费者行为解读 (Understanding Consumer Behaviour)\n营销理论和概念导论 (Introduction to Marketing Theory and Concepts)\n市场营销研究方法 (Research Methods for Marketing)\n论文 (Dissertation)\n新产品开发和商业生态系统 (New Product Development and Business Ecosystems)\n全球供应链管理 (Global Supply Chain Management)\n社会和政治营销 (Social and Political Marketing)\n关系和网络营销 (Relationship and Network Marketing)",
+  "success_cases": ""
+}

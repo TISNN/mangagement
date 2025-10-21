@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "公共管理硕士",
+  "ename": "Master of Public Administration",
+  "tags": "社科,公共政策与事务,社会科学学院",
+  "introduction": "专业方向: 公共政策与事务\n入学时间: 9月\n项目时长: 1年\n项目学费: 30370英镑/年",
+  "requirements": "具有2:1荣誉学位，工作经验或专业资格可能被考虑在内",
+  "objectives": "伯明翰大学公共管理硕士项目是一个国际化的项目，针对那些渴望在政府、公共机构或与政府合作的非政府组织从事公共管理或政策制定工作的人士（工作范围涵盖地方、地区、国家、国际层面）。通过伯明翰大学公共管理硕士项目，学生将能够：从文化视角，以严谨的态度理解国际公共行政实践的关键概念和问题；批判分析公共行政和服务管理中的结构和流程；全面了解公共政策和管理过程，以及可能影响公共政策成败的因素；了解政府领导与管理之间的关系；批判理解国际、国家和国家以下各级的公共财政知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "非洲展望 (Advanced Perspectives on Africa)\n公共管理与治理 (Public Management & Governance)\n公共服务领导 (Leadership in Public Services)\n公共政策和证据 (Public Policy & Evidence)\n绩效战略与挑战 (Performance Strategy and Challenge)\n论文 (Dissertation)",
+  "success_cases": ""
+}

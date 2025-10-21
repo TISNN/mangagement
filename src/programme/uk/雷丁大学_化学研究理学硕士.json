@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "化学研究理学硕士",
+  "ename": "MSc Chemical Research",
+  "tags": "理科,化学,化学系",
+  "introduction": "专业方向: 化学\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 32950英镑/年",
+  "requirements": "通常具有2:2或以上学位，需要化学专业背景。具有其他学科学位的申请人也将被学校考虑",
+  "objectives": "雷丁大学化学研究理学硕士旨在为准备从事研究和开发的职业或攻读博士学位的学生设计，作为化学或相关学科的毕业生，学生可以在经验丰富的研究人员的指导下，利用该研究学位在您的化学专业领域内进行实践和理论研究培训，学生将获得所选化学领域的专业知识和理论知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "理学硕士化学研究项目 (MSc Chemistry Research Project)\n研究生化学研究方法和技能 (Postgraduate Chemistry Research Methods and Skills)",
+  "success_cases": ""
+}

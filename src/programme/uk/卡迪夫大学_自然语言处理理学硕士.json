@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "自然语言处理理学硕士",
+  "ename": "MSc Natural Language Processing",
+  "tags": "工科,计算机,计算机科学与信息学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 30200英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要计算机科学、计算机、语言学或数学等相关领域背景\n如果申请者没有相关领域的学位或没有2:2荣誉学位，仍然可以申请，但应提供其他证据来支持申请，例如简历和推荐信。在这些情况下，申请者可能会被邀请参加面试",
+  "objectives": "卡迪夫大学自然语言处理理学硕士项目旨在培养学生的技术能力以及对处理文本数据的道德和社会影响的批判性理解，涵盖最新和最前沿的自然语言处理（NLP）技术的技术方面。此外，该课程将强调该领域的工程和研究方面，从而为您提供对行业和学术职业道路有价值的独特技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "NLP 机器学习 (Machine Learning for NLP)\nNLP 高级主题 (Advanced Topics in NLP)\n计算数据科学 (Computational Data Science)\n计算语言学 (Computational Linguistics)\n自然语言处理论文 (NLP Dissertation)",
+  "success_cases": ""
+}

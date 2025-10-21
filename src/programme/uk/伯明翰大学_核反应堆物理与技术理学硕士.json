@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "核反应堆物理与技术理学硕士",
+  "ename": "MSc Physics and Technology of Nuclear Reactors",
+  "tags": "理科,物理,工程与物理科学学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 30370英镑/年",
+  "requirements": "具有2:1荣誉学位，需要相关学科背景（如物理学、工程学、数学或任何物理科学学科）",
+  "objectives": "化石燃料的大量使用对环境产生了严重影响，加之化石燃料的来源具有不确定性，人们开始研究替代能源。但在这些替代能源中，目前只有核裂变能源是经济上可行的化石燃料替代品。伯明翰大学核反应堆物理与技术理学硕士项目始于1956年，是英国建造第一座核反应堆的那一年。从那时起，我们不断更新研究领域，并且提升专业化程度，以反映该领域日益复杂的情况。与此同时，我们保持了课程内容的广度。因此，初次进入这一领域的学生能够获得新的认识，从而有利于未来的职业发展。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "通用核电技术 (General Nuclear Power Technology )\n核仪器、辐射防护、反应堆系统和核燃料循环 (Nuclear Instrumentation, Radiation Protection, Reactor Systems and the Nuclear Fuel Cycle)\n辐射传输、材料科学与反应堆控制 (Radiation Transport, Materials Science and Reactor Control )\n反应堆工程、反应堆系统和无损评价 (Reactor Engineering, Reactor Systems and Non-Destructive Evaluation)\n反应堆物理实用技能A (Practical Skills for Reactor Physics A )\n反应堆物理实用技能B (Practical Skills for Reactor Physics B )\n研究项目 (Research Project)",
+  "success_cases": ""
+}

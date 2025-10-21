@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "音乐哲学硕士",
+  "ename": "MPhil Music",
+  "tags": "社科,艺术,音乐学院",
+  "introduction": "专业方向: 艺术\n入学时间: 10月\n项目时长: 1年\n项目学费: 34254英镑/年",
+  "requirements": "申请者应该具有英国一等荣誉学位或同等学历\n需要提交1篇Research proposal以及1篇Sample of work\n申请作曲方向需要提供作品集",
+  "objectives": "剑桥大学音乐哲学硕士课程是一个为期九个月的独立课程，提供音乐研究关键领域的高级培训，同时为博士研究做准备。其主要目的是为学生提供一级学位的相关经验：在广泛的音乐研究中，根据当前的研究，对问题和趋势进行批判性认识；获得或发展与特定音乐学术领域相关的研究技能和专业知识的机会；在密切监督下开展重点研究的经验；作曲家有机会获得或发展必要的技术技能，以弥合本科作品与专业水平的作品之间的差距。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "音乐技巧 (Music Skills)\n音乐学及其争论 (Musicology and its Debates)\n音乐作为文本 (Music as Text)\n绩效研究技巧 (Techniques of Performance Studies)\n在音乐中思考他人 (Thinking about Others in Music)\n视像歌剧：历史视野中的音乐与传媒 (Opera on Video: Music and Media in Historical Perspective)\n鲍勃·迪伦与歌曲诗学 (Bob Dylan and the Poetics of Song)",
+  "success_cases": ""
+}

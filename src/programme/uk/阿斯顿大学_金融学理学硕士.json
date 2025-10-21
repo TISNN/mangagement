@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,阿斯顿商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 23500英镑/年",
+  "requirements": "雅思总分6.5（小分一项不低于5.5，其它项不低于6.0）\nPTE总分67（小分一项不低于59，其它项不低于64）\n具有良好的英国荣誉学位（不低于2:1）或阿斯顿大学认可的同等海外学位\n申请者还需要在本科阶段学习过以下定量课程，至少涵盖其中50%：经济学（微观/宏观），统计学，定量方法，数学，金融学",
+  "objectives": "阿斯顿大学金融学理学硕士项目培养学生理解金融理论、实际应用与研究工具。阿斯顿大学金融学理学硕士项目拥有国际一流的设施设备，学生能够有机会接触最具创新性的工具，包括专用的路透交易室设施、市场交易模拟及各种数据库。阿斯顿大学金融学理学硕士项目的学生将认识和理解金融市场及其如何影响金融决策的制定。该项目的学生将透彻理解何时以及如何运用相关的数学和统计工具来制定合理的决策。此外，该项目还涵盖了定量分析及其实际应用的重要内容。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级公司金融 (Advanced Corporate Finance)\n金融衍生产品 (Derivatives)\n固定收益证券 (Fixed Income Securities)\n金融定量方法 (Quantitative Methods for Finance )\n金融计量经济学 (Financial Econometrics)\n金融理论 (Finance Theory)\n交易技术 (Trading Techniques)\n证券市场交易 (Trading in Securities Markets)\n学术实践中的伦理学 (Ethics in Academic Practice)\n阿斯顿全球优势 (The Aston Global Advantage)\n商业项目或论文 (Business Project or Dissertation )\n投资银行 (Investment Banking)\n国际金融 (International Finance)",
+  "success_cases": ""
+}

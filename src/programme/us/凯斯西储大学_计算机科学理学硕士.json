@@ -1,0 +1,12 @@
+{
+  "school_name": "凯斯西储大学",
+  "major_name": "计算机科学理学硕士",
+  "ename": "MS in Computer Science",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n入学时间: 春季/秋季\n项目时长: 30学分\n项目学费: 25419美元/学期",
+  "requirements": "1.学士学位：计算机科学与相关领域\n2.GPA： B-average/班级排名前三分之一",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

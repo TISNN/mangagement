@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "高级计算机科学与商业理学硕士",
+  "ename": "MSc Advanced Computer Science with Business",
+  "tags": "工科,计算机,工程、数学与物理科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 29500英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要计算机科学或相关领域背景，要求申请人具备丰富的计算机科学知识（相当于该领域的本科学位），能够证明良好的编程能力\n如果有证据表明申请者在学习计划相关的课程中表现优异、拥有丰富的相关工作经验或相关专业资格，学校可能会考虑具有非标准资格的申请\n申请者可能需要接受面试",
+  "objectives": "埃克塞特大学高级计算机科学与商业理学硕士项目将核心计算机科学模块与管理、战略、营销和会计模块相结合，为学生在领导或管理角色中处理数据做好准备，学生将从人工智能、机器学习、数据科学、高性能计算和网络以及网络安全方面的独特研究优势中学习，探索最新的工艺与技术以及如何将这些技术应用于社会各个层面的复杂的当代问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机科学商业项目 (Computer Science Business Project)\n安全基础 (Fundamentals of Security)\n自然计算 (Nature-Inspired Computation)\n研究方法论 (Research Methodology)\n机器学习 (Machine Learning)\n计算机建模与仿真 (Computer Modelling and Simulation)\n计算机视觉 (Computer Vision)\n管理操作 (Managing Operations)\n战略创新管理 (Strategic Innovation Management)",
+  "success_cases": ""
+}

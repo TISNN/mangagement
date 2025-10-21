@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "新发传染病与流行病理学硕士",
+  "ename": "MSc Emerging Infections and Pandemics",
+  "tags": "社科,公共卫生,生命科学学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 26400英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要生物科学学科背景，申请者必须具有项目主任认可的科学背景",
+  "objectives": "利物浦大学新发传染病与流行病理学硕士项目的学生将在各自领域主要专家的领导下，在流行病学、免疫学、流行病控制和管理以及“一个健康”（综合医学和兽医）背景下的流行病方面获得广泛的跨学科专业知识和实际角色扮演经验。项目以感染与免疫为核心课程，将带领学生从实验室工作台进入高度热门的数学建模领域，以了解流行病如何传播以及如何减缓它们。学生还将通过两个学期的疫情情景学习，了解政策、沟通和媒体在将科学知识成功转化为有效的疾病控制方面的关键作用。利物浦大学新发传染病与流行病理学硕士课程将使学生能够在本科水平之外进一步发展其在通信和统计方面的技能，并将训练学生批判性地评估和综合传染病和免疫学的各个方面以及在公共卫生和疫情控制方面发挥的实际应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究概论 (Introduction to Research)\n生物研究高级统计 (Advanced Statistics for Biological Research)\n新发传染病与流行病 (Emerging Infections and Pandemics)\n全球疫情监测与控制 (Global Outbreak Surveillance and Control)\n诊断、治疗与疫苗 (Diagnostics, Therapeutics and Vaccines)\n了解模型与数据 (Understanding Models and Data)\n研究项目  (MSc Research Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "佐治亚大学",
+  "major_name": "生物信息学硕士",
+  "ename": "MS in Bioinformatics",
+  "tags": "理科,生物",
+  "introduction": "专业方向: 生物\n项目类别: STEM\n入学时间: 秋季\n项目时长: 18学分\n项目学费: 12,593美元/学期",
+  "requirements": "相关生物或者是统计相关专业（例如统计、生物学等）",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

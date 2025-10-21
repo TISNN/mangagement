@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "物理学与量子动力学理学硕士",
+  "ename": "MSc Physics with Quantum Dynamics",
+  "tags": "理科,物理,物理学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 37000英镑/年",
+  "requirements": "具有一等荣誉学位，需要物理学、电气或电子工程或相关科学学科背景（包含较强的数学内容和较强的本科量子力学背景）\n需要申请ATAS证书",
+  "objectives": "帝国理工学院物理学与量子动力学理学硕士课程面向有志于深化物理学知识、希望在大学、工业领域或国家研究实验室从事研究工作的数学、化学或工程专业的物理学研究者和理学学士毕业生。毕业后，学生将对物理领域的前沿知识有一定的了解，超过本科水平，扩展高等数学方法知识，提高研究技能和方法，发展沟通技巧，包括书面和口头、对专业和非专业观众，从而具备从事原子物理、量子光子学、量子信息或一般量子物理博士研究的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级经典物理学 (Advanced Classical Physics)\n物理学家数学方法 (Mathematical Methods for Physicists)\n影像学 (Imaging)\n纳米光子学进阶主题 (Advanced Topics in Nanophotonics)\n等离子与超材料 (Plasmonics and Metamaterials)\n量子系统I：冷原子系统 (Quantum Systems I: Cold atomic systems)\n量子系统II：混合量子系统 (Quantum Systems II: Hybrid quantum systems)\n高级量子信息 (Advanced Quantum Information)\n研究技能 (Research Skills)\n自学项目 (Self-Study project )\n文献综述/项目计划 (Literature Review/Project Plan)\n天体物理学 (Astrophysics)\n计算物理学 (Computational Physics)\n量子力学基础 (Foundations of Quantum Mechanics)\n群论 (Group Theory)",
+  "success_cases": ""
+}

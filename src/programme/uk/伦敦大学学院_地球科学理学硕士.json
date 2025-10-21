@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "地球科学理学硕士",
+  "ename": "MSc Geoscience",
+  "tags": "工科,地球科学,数学与物理科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 43500英镑/年",
+  "requirements": "通常具有英国大学颁发的2:1学士学位或同等学历，需要相关学科背景，学校可能会录取具有2:2荣誉学位但能够证具备足够的学术背景和适当实地经验的申请者",
+  "objectives": "伦敦大学学院地球科学理学硕士项目将现实和实验室中的理论研究和地球科学学科必备实践技能相结合，提供满足不同学生愿望、背景和经验的一系列课程和多个专业方向，如：地球系统科学、古生物学、地球地球物理和水文地质、环境，学生将提升从事团队项目、书面报告、获取口头技能和科学研究的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究方法 (Research Methods)\n项目计划 (Project Proposal)\n地球和行星科学系统 (Earth and Planetary Systems Science)\n地球和行星材料 (Earth and Planetary Materials)\n融化和火山活动 (Melting and Volcanism)\n物理火山和火山灾害 (Physical Volcanology and Volcanic Hazard)\n天然地震学和地震灾害 (Earthquake Seismology & Earthquake Hazard)\n古海洋学 (Palaeoceanography)\n古气候学 (Palaeoclimatology)\n地球深部和行星模型 (Deep Earth and Planetary Modelling)",
+  "success_cases": ""
+}

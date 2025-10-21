@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "环境信息、健康与公共管理理学硕士",
+  "ename": "MSc Environmental Information, Health and Public Management",
+  "tags": "工科,地球科学,社会科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 170800港币/年",
+  "requirements": "需要提供B等级证明，毕业于受认可大学并获得学士学位",
+  "objectives": "香港中文大学环境信息、健康与公共管理理学硕士旨在培养公共卫生、公共管理、环境信息、地理、自然资源管理或环境评估、城市和区域规划、风险和危机管理、犯罪分析及相关领域专业知识及技能",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地理信息科学专题 (Special Topics in GeoInformation Science)\n环境信息、健康和公共管理导论 (Introduction to Environmental Information,Health and Public Management)\n环境、卫生和公共管理的空间分析 (Spatial Analytics for Environmental,Health and Public Management)\n公共健康 (Public Health)\n风险和危机管理的地理信息技术 (GeoInformation Technology for Risk and Crises Management)\n环境信息、卫生和公共管理项目 (Project in Environmental Information,Health and Public Management)\n地球系统科学 (Earth System Science)\nGIS在交通运输中的应用 (Transportation Applications of GIS)\n地球环境模拟及其应用导论 (Introduction to Earth Environmental Simulations and the Applications)\n地理信息科学研讨会 (Seminars in GeoInformation Science)",
+  "success_cases": ""
+}

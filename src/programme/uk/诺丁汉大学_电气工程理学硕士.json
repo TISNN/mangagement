@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "电气工程理学硕士",
+  "ename": "MSc Electrical Engineering",
+  "tags": "工科,电气电子,电气与电子工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要电气工程或相关学科背景，申请者学习过的课程应涵盖：数学、电路、电力电子、电力网络/系统、控制工程、电机或相关关键技术课程",
+  "objectives": "诺丁汉大学电气工程理学硕士课程提供了学习电气工程领域一系列主题的范围，包括：电力网络，电机，驱动器和电机控制，能量转换，电力电子转换器。还提供更多以应用为中心的模块，涵盖交通和可再生能源的电力系统等主题。课程旨在于帮助学生树立作为专业人士工作的信心，并准备好应对电气工程的任何研究领域。课程适合具备相关学科背景、想要转入电气工程专业的学生。学生将获得学术和工业研究人员遇到的问题类型的经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士电气与电子基础 (Electrical and Electronic Fundamentals for Masters)\n高级工程研究项目组织与设计 (Advanced Engineering Research Project Organisation and Design)\n硕士项目 (MSc Project)\n高级控制系统设计 (Advanced Control System Design)\n高级电力电子学 (Advanced Power Electronics)\n航空航天、船舶与汽车用动力系统 (Power Systems for Aerospace, Marine and Automotive)\n高级交流驱动 (Advanced AC Drives)\n高级电气设备 (Advanced Electrical Machines)\n电机、驱动器及其应用 (Electric Machines, Drives and their Applications)\n电力电子应用与控制 (Power Electronic Applications and Control)\n电力网络 (Power Networks)\n可再生能源发电技术 (Renewable Generation Technologies)\n传感系统与信号处理 (Sensing Systems and Signal Processing)",
+  "success_cases": ""
+}

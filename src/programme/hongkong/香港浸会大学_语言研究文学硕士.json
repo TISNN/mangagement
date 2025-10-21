@@ -1,0 +1,12 @@
+{
+  "school_name": "香港浸会大学",
+  "major_name": "语言研究文学硕士",
+  "ename": "MA Language Studies",
+  "tags": "社科,语言,人文与社会科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 151200港币/年",
+  "requirements": "申请者应该具有获认可大学或类似机构颁发的学士学位或同等学历\n具备高级口语和书面英语能力，具有其他语言（包括汉语）的良好知识将是额外的优势\n可以提交辅助文件：出版或研究作品样本/研究经历记录/出版作品清单",
+  "objectives": "香港浸会大学语言研究文学硕士课程为学生提供全面的语言方面的知识并且使学生做好准备，解决由学生特殊兴趣、职业和的热点所产生的问题进行语言学分析。这训练学生解决与语言相关的问题并帮助毕业生为需要良好语言技能的工作做好准备，或为进一步学习语言学做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语言学导论（一）和（二） (Introduction to the Study of Language I & II)\n语言与社会 (Language in Society)\n语言学研究方法 (Research Methodology)\n语篇分析 (Discourse Analysis)\n语言学专题研究 (Special Topic in Language Studies)\n课程设计 (Language Curriculum)\n特殊用途语言 (Language for Specific Purposes)\n英语作为世界语言 (English as a World Language)\n语言与教育 (Language & Education)\n语言习得 (Language Development)\n语篇分析专题研究 (Advanced Topics in Discourse Studies)\n英汉语法比较研究 (Comparative Studies of English & Chinese Grammar)\n语言教学中的语用学 (Pragmatics in Language Learning & Teaching)\n现代英语语法 (Grammar of Modern English)\n语言学与通识思维 (Linguistics and Liberal Thinking)",
+  "success_cases": ""
+}

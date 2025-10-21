@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "癌症研究与分子生物医学理学硕士",
+  "ename": "MSc Cancer Research and Molecular Biomedicine",
+  "tags": "社科,医学,生物、医学和健康学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 36000英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历（平均成绩至少达到65%），需要生物科学、 生物医学科学背景\n具备修读过癌症相关课程的充分证据\n学校通常无法考虑具有医学（MBChB/MBBS/MD）或药学学位的申请者，除非他们能够证明具备大量的实验室或研究经验。如果申请者的本科学位是医学或药学，需要在申请前联系学校，提供生物学相关的实验室技能和经验的详细信息",
+  "objectives": "曼彻斯特大学癌症研究和分子生物医学理学硕士课程将为学生提供该领域的全面培训以及基于实验室的研究职位。\n学生将学习三个可转移的技能单元，涵盖实验设计和统计、科学交流等主题，以及在从事与肿瘤发生有关的各种过程的主要研究人员的实验室进行研究实习。课程还研究一系列疾病的机制，包括高血压、关节炎、阿尔茨海默氏病和糖尿病，旨在开发预防和治疗这些疾病的方法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教程与研讨会 (Tutorial and Workshop)\n科学传播 (Scientific Communication)\n统计与实验设计 (Statistics & Experimental Design)\n研究项目1 (Research Project 1)\n研究项目2 (Research Project 2)\nPGT顾问会议1 (PGT Advisor Meeting 1)\nPGT顾问会议2 (PGT Advisor Meeting 2)\nPGT顾问会议3 (PGT Advisor Meeting 3)\nPGT顾问会议4（就业2） (PGT Advisor Meeting 4 (Placement 2))",
+  "success_cases": ""
+}

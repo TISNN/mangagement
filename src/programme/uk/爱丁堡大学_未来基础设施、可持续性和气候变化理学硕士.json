@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "未来基础设施、可持续性和气候变化理学硕士",
+  "ename": "MSc Future Infrastructure, Sustainability and Climate Change",
+  "tags": "工科,地球科学,爱丁堡未来学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，不限专业背景\n学校也会考虑具备其他专业资格或经验的申请者（需要在申请前联系学校确认）",
+  "objectives": "爱丁堡大学未来基础设施、气候变化和可持续发展理学硕士课程结合了跨学科方法来解决当今时代最复杂和最具挑战性的问题之一。来自爱丁堡大学的顶尖专家以及来自工业和公共部门的特邀演讲者正在应对未来基础设施和社会的全球挑战。\n爱丁堡大学未来基础设施、气候变化和可持续发展理学硕士项目使学生具备影响和塑造未来基础设施需求、政策、投资、规划、社会和环境效益的理解和技能。作为爱丁堡未来学院 (EFI) 独特投资组合的一部分，该项目围绕跨学科思维、开发创造性和批判性方法来积极建设未来、理解解决复杂社会挑战所需的数据技能以及将知识应用于生动、重要的项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "未来基础设施气候变化挑战 (Future Infrastructure Climate Change Challenges)\n未来基础设施政策、创新与社会 (Future Infrastructure Policy, Innovation & Society )\n能源与社会 (Energy and Society)\n城市项目：简介 (Urban Project: An Introduction)\n交通与社会 (Transport and Society)\n净零基础设施 (Net Zero Infrastructures)",
+  "success_cases": ""
+}

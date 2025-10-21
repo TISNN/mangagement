@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "法律与技术法学硕士",
+  "ename": "LLM Law and Technology",
+  "tags": "社科,法律,社会科学与国际研究学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 25300英镑/年",
+  "requirements": "具有high 2:2荣誉学位或同等学历，且成绩至少为57%或以上，不限学科背景\n学校欢迎来自相当于学位水平的不同学术背景，或者拥有法律或商业专业的相关工作经验的申请者申请",
+  "objectives": "埃克塞特大学法律与技术法学硕士使学生有机会深入了解人工智能、自主运输（航运和车辆）、区块链、数字版权和互联网法等领域的知识；获得技术监管和治理以及相关政策制定的技能，以及法律技术创新在法律实践中的影响和使用；奠定技术创新监管基础以及技术治理所必需的相关法律技能，例如数据保护和监管理论。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (Dissertation)\n数据保护和隐私 (Data Protection and Privacy)\n人权与数字技术 (Human Rights and Digital Technologies)\n区块链、政策、财产 (Blockchain, Policy, Property)\n监管人工智能：法律、政策和道德 (Regulating AI: Law, Policy, and Ethics)\n数字版权法 (Digital Copyright Law)\n电子商务与消费者 (E-Commerce and Consumers)\n国际银行和金融科技法律法规 (International Banking and Fintech Law and Regulation)\n自动化和自主运输：汽车和船舶 (Automated and Autonomous Transport: Cars and Ships)\n法律科技创新 (Legal Technology Innovation)\n互联网法 (Internet Law)\n医疗技术与法律 (Medical Technology and the Law)",
+  "success_cases": ""
+}

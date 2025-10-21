@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "高级材料理学硕士",
+  "ename": "MSc Advanced Materials",
+  "tags": "工科,材料,机械、材料与制造工程学院",
+  "introduction": "专业方向: 材料\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要相关学科背景",
+  "objectives": "诺丁汉大学高级材料理学硕士课程深入了解各种工程材料的加工、性质和性能。课程旨在整合与广泛工业部门相关的材料行为和材料加工，为学生提供适合在英国和参与材料和产品开发的国际组织的广泛职业的特定技能。它还为材料工程的研究路径提供了坚实的基础。学生将在两个学期内学习高级材料的核心原理，以及材料分类和材料失效机制的模块。这将为您提供深入的知识和技能，使您能够就先进材料的应用、选择和设计做出明智的选择。我们的教学旨在培养能够在材料工程所有领域以综合方式思考和发挥作用的毕业生。课程通过将必修模块与一系列选修课程相结合，提供了良好的灵活性——这意味着学生可以根据个人兴趣制定学习计划。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级料研究与传播 (Advanced Materials Research and Communication)\n金属制作 (Making Metals Perform )\n高级材料特性 (Advanced Materials Characterisation)\n高性能陶瓷和玻璃 (High Performance Ceramics and Glasses)\n防故障材料设计 (Materials Design against Failure)\n高分子工程 (Polymer Engineering)\n高级工程研究项目组织和设计 (Advanced Engineering Research Project Organisation and Design)\n独立研究生项目 (Individual Postgraduate Project)\n材料退化和表面工程 (Materials Degradation and Surface Engineering)\n纤维增强复合材料工程 (Fibre Reinforced Composites Engineering)",
+  "success_cases": ""
+}

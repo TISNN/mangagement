@@ -1,0 +1,12 @@
+{
+  "school_name": "德克萨斯大学奥斯汀分校",
+  "major_name": "电气与计算机工程工程理学理学硕士",
+  "ename": "MSE in Electrical and Computer Engineering",
+  "tags": "工科,电气电子",
+  "introduction": "专业方向: 电气电子\n入学时间: 夏季/春季/秋季\n项目时长: 30学时\n项目学费: 24583美元/学期",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

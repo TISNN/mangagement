@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "金融数学理学硕士",
+  "ename": "MSc Financial Mathematics",
+  "tags": "商科,金工金数,贝叶斯商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 33100英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要高度定量专业背景如数学、统计学、物理、工程、金融、经济学或计算机科学\n本课程不要求具备工作经验\n作为评估过程的一部分，申请者可能会被要求提供在学习期间进行的特定课程的教学大纲，提交申请时不需要提供，只有在需要作为评估的一部分时，招生团队才会直接提出要求",
+  "objectives": "伦敦大学城市学院金融数学硕士课程侧重于随机和模拟技术，但也涵盖了一些计量经济学。将学习核心模块，涵盖资产定价，风险管理以及关键金融证券（如股票，固定收益和衍生品）",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "资产定价 (Asset Pricing)\n衍生品 (Derivatives)\n计量经济学基础 (Foundations of Econometrics)\n金融中的随机建模方法 (Stochastic Modelling Methods in Finance)\n应用研究工具 (Applied Research Tools)\n固定收入 (Fixed Income)\n风险分析 (Risk Analysis)\n高级随机建模 (Advanced Stochastic Modelling)\n模拟技术和财务建模 (Simulations Techniques and Financial Modelling)\n信用风险管理 (Credit Risk Management)\nCopula建模简介 (Introduction to Copula Modelling)\n外汇市场中的交易和对冲 (Trading and Hedging in the Forex Market)",
+  "success_cases": ""
+}

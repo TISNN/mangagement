@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "国际战略营销理学硕士",
+  "ename": "MSc International Strategic Marketing",
+  "tags": "商科,市场营销,商学院",
+  "introduction": "专业方向: 市场营销\n入学时间: 9月\n项目时长: 1年\n项目学费: 31800英镑/年",
+  "requirements": "具有2:1学位或非英国同等学历，需要商业与管理、市场营销或商务背景\n申请者的学位必须包含至少5门市场营销和/或管理学学分认定课程，平均成绩为及格\n如果申请人在市场营销或销售方面至少有两年的工作经验，可以欢迎其他学科的2:1学位或非英国同等学历，其中管理和/或市场营销至少有5门学分认定课程，平均成绩为及格",
+  "objectives": "格拉斯哥大学国际战略营销理学硕士项目旨在帮助学生从国际视角出发，充分理解当代营销学原理、营销技术、发展趋势及其在战略营销策划中的运用。\n通过格拉斯哥大学国际战略营销理学硕士项目的学习，学生在国际背景下分析、评估和掌握市场机遇的能力将得到培养，为在大小型企业中任职做准备。\n通过格拉斯哥大学国际战略营销理学硕士项目的学习，学生也将深入了解全球商业环境的当前问题和争议。\n在格拉斯哥大学国际战略营销理学硕士项目的学习中，学生将对市场营销学相关理论、方法以及技术资源形成批评性评估，同时也将培养自身的分析与解读能力，并能够将这些能力与其它相关管理职能和学科中的重要市场管理技能相融合。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球商业环境 (Global business environment)\n全球消费者行为 (Global consumer behaviour)\n全球营销伦理观 (Global perspectives in marketing ethics)\n国际服务营销 (International services marketing)\n国际战略管理 (International strategic management)\n跨文化管理与比较管理 (Managing across cultures and comparative management)\n营销传播策略与方法 (Marketing communications strategies and tactics)\n市场调研 (Marketing research)\n战略营销管理 (Strategic marketing management)\n市场分析的数据科学 (Data science for marketing analytics)\n出口营销 (Export marketing)",
+  "success_cases": ""
+}

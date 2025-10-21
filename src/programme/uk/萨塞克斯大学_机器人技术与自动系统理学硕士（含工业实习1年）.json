@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "机器人技术与自动系统理学硕士（含工业实习1年）",
+  "ename": "MSc Robotics and Autonomous Systems (with an industrial placement year)",
+  "tags": "工科,电气电子,工程与信息学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 2年\n项目学费: 15750英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历。如果申请者是非工程专业毕业生，且拥有数学、物理、生物学、化学、农业工程等学科或与之相关的学科背景，或具有高分析内容的学科（如经济学、实验心理学、自然地理等）方面的背景，则适合参加本课程。如果申请者拥有其他专业资格或同等经验，也可能被考虑参加本课程",
+  "objectives": "全球机器人技术正在以快速而彻底的方式改变人们的生活、工作和娱乐方式。 萨塞克斯大学的机器人技术与自动系统理学硕士（含工业实习1年）项目面向希望在工程公司工作的非工程专业的毕业生开放，带一年实习项目。通过学习该项目，学生将获得工作所需的技能，包括机器人和自动化设备或系统、具有自主能力的智能系统以及可穿戴计算技术。学生将承担个人责任，培养批判意识，发挥创造性思维，并研究项目管理、安排和计划、资源配置、文档处理和沟通等问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士项目（机器人和自动系统） (MSc Project (Robotics and Autonomous Systems) )\n构建测试项目 (Build Test Projects)\n控制工程 (Control Engineering)\n本课程的外行视角 (Layperson Perspective of the Course)\n机械与机器人力学 (Mechanics of Mechanisms and Robots)\n工程师编程 (Programming for Engineers)\n原型：理论与实践 (Prototyping: Theory and Practice)\n唤醒数学 (Reawakening Mathematics)\n自动化与机电一体化 (Automation and Mechatronics)\n嵌入式系统和传感器 (Embedded Systems and Sensors)\n机器人设计与实现 (Robot Design and Implementation)\n战略管理-工程模块 (Strategic Management - Engineering module)\n产业实习年 (Industrial Placement Year)",
+  "success_cases": ""
+}

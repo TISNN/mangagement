@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "医师助理研究理学硕士",
+  "ename": "MSc Physician Associate Studies",
+  "tags": "社科,医学,赫尔约克医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 2年\n项目学费: 31900英镑/年",
+  "requirements": "具有相关生物科学学位（例如生物医学、生物或医学科学、生物化学、运动科学、药理学），至少达到2:1学位，或者在申请时预计达到这一水平。学校也会接受特定的护理健康科学学位（包含足够的科学基础和大量研究生临床经验）\n申请者必须达到GCSE英语语言Grade B/6以及GCSE数学Grade C/5级或以上水平或同等学历。或者，学校也可能接受GCSE英语语言Grade 6，或GCSE英语语言Grade 5以及更高等级的学位\n申请者需要通过学位或A-level来证明在化学方面具备足够的基础，以成功参与该课程的药理学方面，如果申请者不确定是否符合此标准，需要在提交申请时上传学位成绩单然后由课程负责人进行审查\n申请者还需要表现出对医疗保健专业人员角色的投入，并具备出色的沟通技巧，具备临床或医疗机构（如医疗助理或护理院）工作经验者优先考虑（但非必需）\n学校不接受目前或以前在英国或国际医师助理课程学习的学生的申请，也不接受在其他地方学习的医师助理学生的转学请求",
+  "objectives": "约克大学医师助理研究理学硕士项目是一个为期两年的专业硕士课程，旨在满足国家能力和医师助理课程框架的要求。通过执业临床医师和医疗专业人员（包括医师助理）的教导，您将接受按照医疗模式进行诊断和治疗的培训。该模式类似于医务人员和相关的健康专业人员。因此，您将做好准备，以表扬一般实践，同时也可以在适当的支持下独立工作。学生的学习是围绕由专家临床医师领导的基于问题的学习为中心的。这是由临床技能补充，您将在我们的医院网站磨练您的沟通和体检技能，以及程序技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "医师助理介绍医学 (Introductory Medicine for Physician Associates)\n临床科学与实践Ⅰ (Clinical Science and Practice I)\n保健专业人员药理学基础 (Foundations of Pharmacology for Health Care Professionals)\n医疗保健专业人员的治疗学 (Therapeutics for Health Care Professionals)\n临床科学与实践II (Clinical Science and Practice II)\n临床科学与实践III (Clinical Science and Practice III)\n质量改进项目 (Quality Improvement Project)",
+  "success_cases": ""
+}

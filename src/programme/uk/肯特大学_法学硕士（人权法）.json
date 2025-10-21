@@ -1,0 +1,12 @@
+{
+  "school_name": "肯特大学",
+  "major_name": "法学硕士（人权法）",
+  "ename": "LLM (Human Rights Law)",
+  "tags": "社科,法律,肯特法学院",
+  "introduction": "专业方向: 法律\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 20700英镑/年",
+  "requirements": "具有一等或2:1荣誉学位或同等学历，需要法律或相关学科背景，学校也欢迎具有2:2荣誉学位的申请者（将根据具体情况以及相关专业经验和其他资格予以考虑）\n所有申请者都将根据具体情况予以考虑，其他资格、专业资格和相关经验也可能被考虑在内",
+  "objectives": "肯特大学法学硕士（人权法）项目旨在帮助学生研究国家、地区和国际层面的人权保护情况，特别适合正在或希望在国际机构、非政府组织、国际律师事务所和外交部门工作的人，同时也欢迎那些想在国内法律背景下开展人权实践的人。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "治安管制 (Policing)\n国际人权法 (International Human RightsLaw)\n全球经济中的劳工权利 (Labour Rights in a Global Economy)\n欧盟刑法和程序 (European Union Criminal Law and Procedure)\n文化遗产法 (Cultural Heritage Law)",
+  "success_cases": ""
+}

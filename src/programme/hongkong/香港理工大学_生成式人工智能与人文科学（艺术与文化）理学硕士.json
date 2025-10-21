@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "生成式人工智能与人文科学（艺术与文化）理学硕士",
+  "ename": "MSc Generative AI and the Humanities (Arts and Culture)",
+  "tags": "社科,文化,人文学院",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 276000港币/年",
+  "requirements": "具有认可机构颁发的学士学位\n非汉语母语的学生必须具备良好的汉语知识\n申请者可能需要参加面试或笔试以证明其语言能力",
+  "objectives": "香港理工大学生成式人工智能与人文科学理学硕士项目满足了对能够弥合人工智能 (AI) 和人文学科之间差距的专业人员不断增长的需求。因此，它的目标是通过将人工智能知识与人文知识相结合来促进跨学科卓越。特别是，通过为学生提供将人工智能技术技能与人文见解相结合的全面教育，该项目旨在使毕业生全面了解人工智能对语言、交流、艺术和文化的影响。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算语言学和自然语言处理技术 (Computational Linguistics and NLP Technologies)\n人工智能的伦理与道德 (Ethics and Morality in AI)\n生成式人工智能及其应用简介 (Introduction to Generative AI and its Application)\n语言和交流计算机编程 (Computer Programming in Language and Communication)\n中国文化数字研究 (Digital Studies of Chinese Culture)\n机器学习和人工智能在人文学科中的应用 (Applications of Machine Learning and AI in Humanities)\n中国背景下的双语交流和语言技术 (Applications of Machine Learning and AI in Humanities)\n人工智能驱动的跨文化语言探索：保护、翻译和诠释中文和双语遗产 (AI-Driven Cross-Cultural Linguistic Exploration: Preserving, Translating, and Interpreting Chinese and Bilingual Heritage)\n中国语言与文化 (Chinese Language and Culture)\n人工智能增强的叙事探索：英国历史和文化解读 (AI-Enhanced Narrative Exploration: English History and Cultural Interpretation)\n英国文学与语言艺术 (English Literature and Language Arts)\n人工智能增强的历史分析和文化解读 (AI-Enhanced Historical Analysis and Cultural Interpretation)\n中国武术传统的形成 (The Making of Chinese Martial Arts Tradition)\n中国早期思想、信仰和技术 (Early Chinese Thought, Belief, and Technology)\n中国传统戏剧与表演艺术 (Chinese Traditional Theatre and Performing Arts)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,经济与相关研究学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 33700英镑/年",
+  "requirements": "具有本科学位，达到2:2学位或同等学历，不限专业背景，学校希望申请者具备一门或多门课程的经验，包含一些统计学/数学/经济/金融学/物理学/工程学内容\n学校可能会考虑不符合公布的申请要求但具备至少3年相关高级管理工作经验或相关专业资格（如CFALevel 1或ACCA）的申请者",
+  "objectives": "约克大学金融学理学硕士学位课程使学生掌握经济学或自然科学的先进知识，全面了解理论和应用金融。约克大学金融学理学硕士学位课程使有意在应用或定量金融相关领域开展职业生涯或继续进行深入研究的学生掌握必备的研究生层次技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融理论 (Theory of Finance)\n计量经济学研究方法 (Econometric Methods for Research)\n持续时间金融 (Continuous-time Finance)\n金融市场微观结构 (Financial Market Microstructure)\n公司金融 (Corporate Finance)\n金融市场 (Financial Markets)\n发展和金融 (Development and Finance)\n金融工程 (Financial Engineering)\n金融风险管理 (Financial Risk Management)\n固定收益证券 (Fixed Income Securities)\n组合证券投资选择和管理 (Portfolio Selection and Management)\n金融计量经济学议题 (Topics in Financial Econometrics)\n高级宏观经济学 (Advanced Macroeconomics)\n应用微观计量经济学 (Applied Microeconometrics)\n新兴市场宏观经济学 (Emerging Market Macroeconomics)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "智能电网理学硕士",
+  "ename": "Double Degree MSc Smart Grids (Strathclyde-Comillas)",
+  "tags": "工科,电气电子,电子与电气工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 24237欧元/年",
+  "requirements": "具有一等或二等荣誉学位，要求电子、电气或电信工程或相关物理科学学科背景",
+  "objectives": "思克莱德大学应用翻译理学硕士项目本课程满足了对领导电网数字化进程的工程师日益增长的需求。它专为电气、电子或电信工程领域的毕业生设计。它将加深电气工程毕业生对智能电网的新挑战和机遇的了解，并让信息和通信工程师对电力行业的新兴需求和全球能源转型获得新的见解。学生将获得为新能源范式和未来公用事业做出贡献的基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "未来分销网络的运营与规划 (Operation and Planning of Future Distribution Networks)\n监管和新商业模式 (Regulation and New Business Models)\n智能电网电信 (Telecommunications for Smart Grids)\n电信基础知识 (Fundamentals of Telecommunications)\n电力系统基础知识 (Fundamentals of Power Systems)\n领导力、变革管理和企业责任 (Leadership, Change Management & Corporate Responsibility)\n未来网络的控制和保护 (Control and Protection of Future Networks)\n硬件物联网通信系统设计 (Hardware IoT Communication System Design)\n5G 通信网络 (5G Comms Networks)\n网络安全 (Cyber Security)\n能源系统数据分析和人工智能 (Data Analytics & AI for Energy Systems)\n输配电电力电子技术 (Power Electronics for Transmission & Distribution)\n智能电网硕士个人项目 (MSc in Smart Grids Individual Project)",
+  "success_cases": ""
+}

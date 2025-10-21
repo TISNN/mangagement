@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "数学理学硕士",
+  "ename": "MSc Mathematics",
+  "tags": "理科,数学,理学院",
+  "introduction": "专业方向: 数学\n入学时间: 8月\n项目时长: 1年\n项目学费: 52320新币/年",
+  "requirements": "Track 1：申请者必须具有数学荣誉学位或同等学历，或具有其他学科的荣誉学位（包含大学水平的强大数学培训）\nTrack 2：专门提供给NUS合作学校的数学理学硕士项目（联合教育）或“32”项目的学生，申请者必须具有3年制数学学士学位或同等学历，或具有其他学科的3年制学士学位（包含大学水平的强大数学培训）\n需要提交存款证明45,000新币",
+  "objectives": "新加坡国立大学数学理学硕士课程是新加坡国立大学数学系提供的核心课程之一，旨在为学生提供数学学科最前沿知识的深度训练。该课程面向数学本科的毕业生或数学教师，让他们有机会提升自身在应用数学具体领域的专业技能和职业资质。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "伽罗瓦理论 ( Galois Theory)\n傅里叶分析与近似理论 (Fourier Analysis and Approximation Theory)\n随机运筹学 (Stochastic Operation Research)\n视觉数据处理数学 ( Mathematics for Visual Data Processing)\n数据建模与计算 (Data Modelling and Computation )\n曲线与曲面的代数几何 (Algebraic Geometry of Curves and Surfaces)\n研究生代数 I (Graduate Algebra I)\n研究生分析 I (Graduate Analysis I)\n可微分流形 (Differentiable Manifolds)\n高级偏微分方程 (Advanced Partial Differential Equations)\n计算数学 (Computational Mathematics)\n高级数学规划 (Advanced Mathematical Programming)\n高级金融数学 ( Advanced Financial Mathematics)\n概率论 I (Probability I)\n纯数学模块 (Pure Mathematics Module)\n应用与计算数学模块 (Applied and Computational Mathematics Module)",
+  "success_cases": ""
+}

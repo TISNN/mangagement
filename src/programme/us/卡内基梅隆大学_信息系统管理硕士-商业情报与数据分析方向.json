@@ -1,0 +1,12 @@
+{
+  "school_name": "卡内基梅隆大学",
+  "major_name": "信息系统管理硕士-商业情报与数据分析方向",
+  "ename": "MISM–Business Intelligence & Data Analytics pathway",
+  "tags": "商科,商业分析",
+  "introduction": "专业方向: 商业分析\n项目类别: STEM\n入学时间: 秋季\n项目时长: 16个月\n项目学费: 77200美元\n平均成绩: 3.6\n平均G: 327\n平均起薪: 125000美元",
+  "requirements": "建议修过面向对象编程、Java编程课程、概率和统计、数据库",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

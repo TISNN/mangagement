@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "地下能源工程理学硕士",
+  "ename": "MSc Subsurface Energy Engineering",
+  "tags": "工科,能源,工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "满足以下其中一项：\n- 具有2:1荣誉学位或同等学历，需要工程学任意分支专业背景\n- 具有2:1荣誉学位或同等学历，需要应用数学、物理学或地球科学背景\n- 具有2:2英国荣誉学位或同等学历，需要工程学背景，并且具备3年相关行业经验\n需要申请ATAS",
+  "objectives": "阿伯丁大学的地下能源工程理学硕士课程建立在阿伯丁大学长期的能源教学和研究记录的基础上，提供现有地下资源与低碳能源的设计和使用方面的高级培训，以实现可持续的能源未来。\n学生将学习地下流体传输过程的基础知识及其在氢传输和存储、地热资源以及碳捕获、利用和存储 (CCUS) 中的应用。与其他工程项目不同，学校还涵盖关键能源过渡金属（例如锂和锌）可持续采矿的重要领域，以及这些材料的后续加工、回收和再利用。此外，还研究围绕质量、环境、能源、安全和生命周期评估管理的可持续性工具、管理系统和标准。\n阿伯丁大学的地下能源工程理学硕士将使学生全面了解地下输运过程，以及如何应用最新的计算和建模技术来分析和评估地下，以实现各种与能源相关的目的。因此，学生不仅可以在可持续能源领域谋求职业生涯，还可以在石油工程、污染物输送、水文学和环境工程等相关领域谋求职业生涯。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地下传输过程 (Subsurface Transport Processes)\n近地表与环境地球物理学 (Near Surface & Environmental Geophysics)\n碳捕获、利用和封存 (Ccus) (Carbon Capture, Utilisation and Storage (Ccus))\n地热能和水能 (Geothermal and Hydro Energy)\n能源转型的矿物加工和回收 (Mineral Processing and Recycling for Energy Transition)\n可持续工程挑战 (Sustainable Engineering Challenges)\n多孔介质中的流动模拟 (Simulation of Flow in Porous Media)\n能量转换和存储 (Energy Conversion and Storage)\n理学硕士个人项目 (MSc Individual Project)",
+  "success_cases": ""
+}

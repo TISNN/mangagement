@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "音乐文学硕士（作曲方向）",
+  "ename": "MA Music (Composition pathway)",
+  "tags": "社科,艺术,文科与法律学院",
+  "introduction": "专业方向: 艺术\n入学时间: 9月\n项目时长: 1年\n项目学费: 26180英镑/年",
+  "requirements": "具有2:1荣誉学位，需要音乐背景，学校可以考虑具有其他学科荣誉学位并且具备大量专业音乐经验和相关资格的申请者\n该方向的申请者必须提交1份作品集（包含3-4首作曲）",
+  "objectives": "音乐作为21世纪的一种创造性艺术形式，可以结合传统和创新，将乐器（一些新的，一些具有数百年历史的）和最新的高科技结合在一起。因此，在伯明翰大学音乐文学硕士（混合作曲）项目中，学生们作为当今的作曲家，可以使用所有这些资源。混合作曲途径旨在提高学员探索这个令人兴奋的新世界的能力，通过这一途径，学员们可以尝试将电声学和计算机技术与更传统的器乐和声乐作品相结合来进行创作，或者分别探索这些元素的其中一个。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "写作教程 (Composition Tutorials)\n电声合成的高级研究 (Advanced Studies in Electroacoustic Composition)\n器乐/声乐作曲高级研究 (Advanced Studies in Instrumental/Vocal Composition)\n美学与艺术哲学 (Aesthetics and the Philosophy of Art)\n英国音乐研究1850-1975 (British Music Studies 1850-1975)\n当代音乐研究 (Contemporary Music Studies)\n实验音乐与声音艺术 (Experimental Music and Sound Art)\n田野调查方法 (Fieldwork Methods)\n全球流行音乐概论 (Introduction to Global Popular Musics)",
+  "success_cases": ""
+}

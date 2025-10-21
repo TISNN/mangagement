@@ -1,0 +1,12 @@
+{
+  "school_name": "布朗大学",
+  "major_name": "物理",
+  "ename": "MSc in Physics",
+  "tags": "理科,物理",
+  "introduction": "专业方向: 物理\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1-2年\n项目学费: 65,656美元",
+  "requirements": "申请人应在本科阶段具有深厚的物理学背景或密切相关的学科背景。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

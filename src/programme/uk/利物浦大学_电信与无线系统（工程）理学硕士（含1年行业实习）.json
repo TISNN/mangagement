@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "电信与无线系统（工程）理学硕士（含1年行业实习）",
+  "ename": "MSc(Eng) Telecommunications and Wireless Systems with a Year in Industry",
+  "tags": "工科,电气电子,电气工程、电子与计算机科学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 2年\n项目学费: 17300英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科背景，如电气工程和电子学",
+  "objectives": "利物浦大学电信与无线系统（工程）理学硕士（含1年行业实习）项目学习教授学生有关通讯与无线系统的知识。利物浦大学电信与无线系统（工程）理学硕士（含1年行业实习）项目与为期一年的利物浦大学通讯与无线系统工学硕士项目在教学内容上大体相同，利物浦大学电信与无线系统（工程）理学硕士（含1年行业实习）项目的学生需要在第二年完成工程项目和实习（英国或其他国家），实习通常安排在九月至六月，持续大约三十周。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "无线系统与计算机辅助设计 (Wireless Systems and Cad Designs)\n先进信号处理 (Advanced Signal Processing)\n研究技巧与项目管理 (Research Skills and Project Management)\n数字与无线传播 (Digital and Wireless Communications)\n无线电传播 (Radio Propagation for Wireless Systems)\n软件工程与编程 (Software Engineering and Programming)\n信息论与编码 (Information Theory and Coding)\n网络传播与安全 (Commmunications Networks & Security)\n实习 (MSc Placement Experience)\n高级嵌入系统 (Advanced Embedded Systems)\n集成电路——概念与设计 (Integrated Circuits - Concepts and Design)\n高级系统建模与控制 (Advanced Systems Modelling and Control)\n图像处理 (Image Processing)\n射频工程和应用电磁学 (Rf Engineering and Applied Electromagnetics)\n光子学和光学信息系统 (Photonics and Optical Information Systems)",
+  "success_cases": ""
+}

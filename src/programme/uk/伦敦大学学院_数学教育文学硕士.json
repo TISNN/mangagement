@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "数学教育文学硕士",
+  "ename": "MA Mathematics Education",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "通常具有英国大学颁发的2:2学士学位或同等学历，一般为数学或教育背景，教学或辅导专业经验也将被视为相关经验，此外，申请人应通过提交额外的特定数学教育书面任务来证明对数学教育相关问题的投入和明确表示的兴趣",
+  "objectives": "伦敦大学学院数学教育文学硕士项目将培养学生探讨数学教学，分析相关学科理论基础，并指导学生针对数学教学进行严谨的学术研究，适合对数学教学感兴趣的教师、辅导老师及其他人士。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "理解数学教育 (Understanding Mathematics Education)\n面向教师的数学 (Mathematics for Teachers)\n数学学习数字技术 (Digital Technologies for Mathematical Learning)\n何为教育 (What is Education)\n理解研究 (Understanding Research)\n教育测试 (Educational Testing)",
+  "success_cases": ""
+}

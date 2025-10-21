@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "法律、数据与技术法学硕士",
+  "ename": "LLM Law, Data and Technology",
+  "tags": "社科,法律,文科与法律学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 24120英镑/年",
+  "requirements": "具有2:1荣誉学位，需要法律背景，具备相关同等学习或专业经验的申请者也可以被考虑",
+  "objectives": "伯明翰大学法律、数据与技术法学硕士项目通过包括网络法、监管技术和法律、社会和治理在内的模块，提供这些新技术及其广泛采用的理论和实践法律影响的新兴领域的专业化。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "法律研究导论 (Introduction to Legal Research)\n网络法 (Cyberlaw)\n环境法规 (Environmental Regulation)\n知识产权法 (Intellectual Property Law)\n可再生能源与气候变化法 (Law of Renewable Energy and Climate Change)\n调节技术 (Regulating Technologies)\n法律、社会和治理 (Law, Society and Governance)",
+  "success_cases": ""
+}

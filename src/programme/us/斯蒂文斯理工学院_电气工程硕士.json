@@ -1,0 +1,12 @@
+{
+  "school_name": "斯蒂文斯理工学院",
+  "major_name": "电气工程硕士",
+  "ename": "MS in Electrical Engineering",
+  "tags": "工科,电气电子",
+  "introduction": "专业方向: 电气电子\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 30学分\n项目学费: 40940美元/年",
+  "requirements": "来自认证机构的学士学位，最低GPA为3.0",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

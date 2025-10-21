@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "房地产学理学硕士",
+  "ename": "MSc Real Estate",
+  "tags": "商科,房地产,建筑学院",
+  "introduction": "专业方向: 房地产\n入学时间: 9月\n项目时长: 1年\n项目学费: 250080港币/年",
+  "requirements": "具有学士学位或者同等学历",
+  "objectives": "香港大学房地产学硕士学位课程从商业和经济的角度研究房地产。该课程的目标有三个方面。第一个目标是在法律、制度和城市经济的整体框架内，向学生介绍房地产资产和市场。第二个目标是为学生提供理论见解和分析技能，以确定和评估私营和公共部门的房地产投资机会，包括土地开发、资产管理、金融市场交易（如REIT）和创新的土地转换企业（如PERE）。第三个目的是使学生具备必要的管理技能，以了解和参与活跃在房地产市场的企业的职能和一般管理。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "专业经济学 (Economics for professionals)\n土地经济学 (Land economics)\n房地产及建造法规 (Law for the real estate and construction industry)\n研究方法 (Research methods)\n房地产项目工作坊 (Project workshop(RE))\n管理理论与项目 (Management theory and projects)\n城市规划：理论与实践 (Urban planning: Theory and practice)\n建筑经济学 (Construction economics)\n合同战略与项目管理技术 (Contract strategies and project management techniques )\n房地产与建设管理实践 (Real estate and construction management practice )\n房地产管理 (Real estate management)\n房地产投资与资本市场 (Real estate investment and the capital markets)\n项目融资 (Project finance )\n工程合同法的当代发展 (Modern developments in the law of construction contracts )\n学位论文 (Dissertation)",
+  "success_cases": ""
+}

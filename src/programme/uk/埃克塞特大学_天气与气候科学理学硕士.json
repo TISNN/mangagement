@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "天气与气候科学理学硕士",
+  "ename": "MSc Weather and Climate Science",
+  "tags": "工科,地球科学,工程、数学与物理科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 28600英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要数学、科学或工程学科背景，具有显著的数学内容以及包括微分方程和向量微积分的良好应用知识",
+  "objectives": "埃克塞特大学天气与气候科学理学硕士项目利用学校在天气和气候定量建模方面的独特专业知识，使学生可以与对全球了解气候变化和气候系统有直接贡献的专家一起学习，了解基本的天气和气候科学以及中纬度天气系统的基础知识，增加学生的职业机会并获得在许多私人和公共机构、企业或政府机构任职所需的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "天气与气候科学基础 (Fundamentals of Weather and Climate Science)\n参与研究 (Engaging with Research)\n高等数学项目 (Advanced Mathematics Project)\n大气与海洋流体动力学 (Fluid Dynamics of Atmospheres and Oceans)\n气候变化数学 (Mathematics of Climate Change)\n处理数据 (Working with Data)\n数据科学与统计模型导论 (Introduction to Data Science and Statistical Modelling)\n模拟天气与气候 (Modelling the Weather and Climate)\n中纬度天气系统 (Mid-Latitude Weather Systems)",
+  "success_cases": ""
+}

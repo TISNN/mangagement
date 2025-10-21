@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "汽车工程与电力驱动理学硕士",
+  "ename": "MSc Automotive Engineering with Electric Propulsion",
+  "tags": "工科,机械工程,机械工程系",
+  "introduction": "专业方向: 机械工程\n入学时间: 10月\n项目时长: 1年\n项目学费: 33200英镑/年",
+  "requirements": "具有high 2:2荣誉学位或同等学历，需要有机械工程、汽车工程、电气工程或车辆工程背景\n如果学生能提供适合该学位的证据，学校可能会根据较低的成绩发出录取通知",
+  "objectives": "我们的课程适合那些想进一步发展知识并专攻汽车工程和技术的工程师。学生的研究将集中在汽车动力传动系统和车辆系统的设计、性能和操作上，探索这一领域的研究和开发。学生将建立在现有的工程技能基础上，并将其应用到汽车行业的挑战中。学生将深入了解低碳和可持续动力系统和推进系统的发展，以及车辆的未来技术。行业需要能够创造下一代汽车的创新工程师，本课程专门为学生提供这些技能。学生将学习如何为我们制造的车辆和使用的流程开发可持续的解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "车辆工程 (Vehicle engineering)\n涡轮增压器和发动机推动 (Turbocharging and engine boosting)\n工程系统仿真 (Engineering systems simulation)\n工程实践的专业技能 (Professional skills for engineering practice)\n发动机和动力总成技术 (Engine and powertrain technologies)\n工程项目管理 (Engineering project management)\n车辆动力学和空气动力学 (Vehicle dynamics and aerodynamics)\n概念设计小组活动 (Conceptual design group activity)",
+  "success_cases": ""
+}

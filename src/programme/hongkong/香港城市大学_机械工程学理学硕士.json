@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "机械工程学理学硕士",
+  "ename": "MSc Mechanical Engineering",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 186000港币/年",
+  "requirements": "具有工程学位或同等学历，申请者必须具备机械工程或相关工程学术背景",
+  "objectives": "香港城市大学理学硕士(机械工程学)旨在培养学生精通先进机械工程学科，拓宽专业技能，满足工业发展需求；给学生营造互动学习环境和管理学习，开发学生领导力和创造力。\n通过香港城市大学理学硕士（机械工程学）的学习，学生将掌握必要的先进机械工程学科和跨学科知识和概念；学会运用专业知识解决实际问题，这对于工业和商业发展很关键。从而使之能够与具备多元化教育和拥有机械相关经验背景的人工作起来更高效。更重要的是，学生将能够通过跨学科团队合作来提升能力，不断增强竞争力，满足全球市场的需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "先进自动化技术 (Advanced Automation Technology)\n微系统技术 (Micro Systems Technology)\n可持续绿色制造 (Sustainable Green Manufacturing)\n先进热流体 (Advanced Thermo-fluid)\n应用工程力学 (Applied Engineering Mechanics)\n材料机械性能：从金属到生物医学／生物材料 (Mechanical Behaviour of Materials: From Metallic to Biomedical/ Biological Materials)\n先进热流体 (Advanced Thermo-fluid)\n应用工程力学 (Applied Engineering Mechanics)\n仿生机器人 (Bio-inspired Robots)\n生物仪器 (Bio-instrumentation)\nCAD/CAM集成 (CAD/CAM Integration)\n计算机控制系统 (Computer Controlled Systems)\n控制系统和信息处理 (Control Systems and Information Processing)\n企业技术与管理 (Enterprise Technology and Management)\n工业案例研究 (Industrial Case Study)",
+  "success_cases": ""
+}

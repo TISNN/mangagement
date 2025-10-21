@@ -1,0 +1,12 @@
+{
+  "school_name": "约翰霍普金斯大学",
+  "major_name": "金融硕士",
+  "ename": "MS in Finance",
+  "tags": "商科,金融",
+  "introduction": "专业方向: 金融\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1年，36学分\n项目学费: 88000美元\n平均成绩: 3.49\n平均G: 679\n国际学生: 97%\n男女比例: 44:56\n就业比例: 90%\n平均起薪: 64400美元",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

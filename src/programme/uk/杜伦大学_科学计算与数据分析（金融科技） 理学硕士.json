@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "科学计算与数据分析（金融科技） 理学硕士",
+  "ename": "MSc Scientific Computing and Data Analysis (Financial Technology)",
+  "tags": "理科,数据科学,计算机科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 34000英镑/年",
+  "requirements": "具有英国一等或2:1荣誉学位（理学学士）或同等学历，需要以下背景\n- 物理学或含有基础物理课程的学科；或\n- 计算机科学；或\n- 数学；或\n- 地球科学；或\n- 工程学；或\n- 任何自然科学（含有很强的定量元素）。\n学校强烈鼓励学生报名一个他们已经具备很强的背景或适应性的专业领域。目前，该课程主要针对物理学、地球科学和数学（金融学）背景的学生。如果申请者没有这些学科的学位，强烈建议学生事先联系学校，以阐明其是否具备合适的背景\n请注意，标准的商业学位是不够的，因为它们缺乏所需的数学教育水平\n要求具有研究生水平的C和Python编程知识，具备一些本科水平的数学知识，包括线性代数、微积分、积分、常微分方程和偏微分方程以及概率论",
+  "objectives": "物理学、工程学、地球科学或金融学等领域的进步越来越多地受到计算技术专家的推动。值得注意的是，那些能够熟练地为世界上最强大的计算机编写代码、能够熟练地处理世界上最大的数据集的人确实可以发挥作用。杜伦大学科学计算与数据分析理学硕士项目提供以应用为中心的课程，通过三个相互交织的方向来提供这些技能，分别是：科学计算的计算机科学基础（算法、数据结构、实现技术和计算机工具的使用），数据分析的数学方面，特定领域（目前为天体物理学，粒子物理学，金融数学，或地球和环境科学）基础技术的实施和应用。\n杜伦大学科学计算与数据分析（金融科技） 理学硕士课程旨在教授学生现代金融市场背后的数学原理，以及在金融行业的背景下编程和通信的元素。金融数学利用概率论、统计学、偏微分方程和科学计算等工具，广泛应用于投资银行、对冲基金、保险公司、公司债券和监管机构，以解决衍生品定价、投资组合选择和风险管理等问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融科技：期权的算法交易与做市 (Financial Technology: Algorithmic Trading and Market Making in Options)\n金融数学 (Financial Mathematics)\n高级统计学与机器学习：基础与无监督学习 (Advanced Statistical and Machine Learning: Foundations and Unsupervised Learning)\n高级统计学与机器学习：回归与分类 (Advanced Statistics and Machine Learning: Regression and Classification)\n数据采集与图像处理 (Data Acquisition and Image Processing)\n性能建模，矢量化和GPU编程 (Performance Modelling, Vectorisation and GPU Programming)\n高级算法与离散系统 (Advanced Algorithms and Discrete Systems)\n计算线性代数与连续系统 (Computational Linear Algebra and Continuous Systems)",
+  "success_cases": ""
+}

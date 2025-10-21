@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "高级化学工程理学硕士",
+  "ename": "MSc Advanced Chemical Engineering",
+  "tags": "工科,化工,化学与工艺工程学院",
+  "introduction": "专业方向: 化工\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要化学工程背景，申请者必须在包括数学和物理科学在内的广泛相关课程中取得优异成绩\n具有high 2:2学位的申请者将基于个人情况被考虑，需要能够证明特定核心化学工程课程能力和/或具备相关专业资格或经验\n需要ATAS认证",
+  "objectives": "利兹大学高级化学工程理学硕士项目将扩展学生现有的知识，为学生提供先进的化学工程和工艺技术技能，以在这些工艺行业中从事富有挑战性的职业。学生将在反应工程、产品开发、过程建模和模拟以及药物配方或能源技术等关键领域获得高级知识。本课程旨在提供更深入的先进化学工程和一系列最新工艺技术。这些将使学生能够设计、运营和管理流程和相关制造厂，并在创新、研发和技术转让方面发挥领导作用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究项目 (Research Project (MSc))\n化工产品设计与开发 (Chemical Products Design and Development)\n多尺度建模和仿真 (Multi-Scale Modelling and Simulation)\n化学工程进步 (Advances in Chemical Engineering)\n化学反应过程 (Chemical Reaction Processes)\n间歇处理工程 (Batch Process Engineering)\n高等反应工程学 (Advanced Reaction Engineering)\n核运营 (Nuclear Operations)\n燃料加工 (Fuel Processing)\n材料结构与表征 (Materials Structures and Characterisation)\n纳米材料 (Nanomaterials)",
+  "success_cases": ""
+}

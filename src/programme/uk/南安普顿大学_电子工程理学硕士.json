@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "电子工程理学硕士",
+  "ename": "MSc Electronic Engineering",
+  "tags": "工科,电气电子,电子与计算机科学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 33900英镑/年",
+  "requirements": "具有2:1学位，需要电子工程或密切相关学科背景\n申请者还必须在以下课程中取得good 2:1（65%）的成绩：\n- 1门高等数学课程（相当于7.5学分），如：应用数学、数学分析、工程数学、电子电气工程数学或纯数学\n- 广泛的电子课程（相当于22.5学分），如：半导体器件、微电子、微处理器、数字系统、控制与通信、信号处理、信号与系统、自动化或电力电子",
+  "objectives": "南安普顿大学电子工程理学硕士项目教授学生电子工程知识。本硕士课程将为学生提供最新的技术工具、技术和工具，帮助学生应对新出现的经济和社会挑战。南安普顿大学是英国十大电子工程大学，这意味着学生将获得未来职业所需的机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "理学硕士项目 (MSc Project)\n项目准备 (Project Preparation)\n绿色电子 (Green Electronics)\n数字编码与传输 (Digital Coding and Transmission)\n纳米电子器件 (Nanoelectronic Devices)\n数字集成电路和系统设计 (Digital IC and Systems Design)\n微细加工 (Microfabrication)\n微传感器技术 (Microsensor Technologies)\n微流控芯片和实验室芯片 (Microfluidics and Lab-on-a-Chip)\n纳米加工与显微术 (Nanofabrication and Microscopy)\n生物/微/纳米系统 (Bio/Micro/Nano Systems)\n无线电通信工程 (Radio Communications Engineering)\n信号处理 (Signal Processing)\n无线和移动网络 (Wireless and Mobile Networks)\n高级系统和信号处理 (Advanced Systems and Signal Processing)",
+  "success_cases": ""
+}

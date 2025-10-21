@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "高级计算机科学理学硕士（含1年行业实习）",
+  "ename": "MSc Advanced Computer Science with a Year in Industry",
+  "tags": "工科,计算机,电气工程、电子与计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 2年\n项目学费: 18500英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要计算机科学或密切相关的学科背景",
+  "objectives": "利物浦大学高级计算机科学理学硕士（含1年行业实习）项目面向已经获得计算机科学或相关学科学士学位的学生。利物浦大学高级计算机科学理学硕士（含1年行业实习）项目旨在拓展学生本科阶段获得的知识，让学生学习更加专业和前沿的知识。为期两年的利物浦大学高级计算机科学理学硕士（含1年行业实习）项目与利物浦大学高级计算机科学理学硕士项目有相同的授课模块。不同的是，利物浦大学高级计算机科学理学硕士（含1年行业实习）项目需要学生完成一个工程项目和第二学年的实习（在英国或者其他国家）。实习通常会安排在九月到六月，持续大约三十周。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机科学研究方法 (Research Methods in Computer Science)\n理学硕士项目 (MSc Project)\n知识表达 (Knowledge Representation)\n隐私和安全 (Privacy and Security)\n高级算法技术 (Advanced Algorithmic Techniques)\n生物计算 (Biocomputation)\n地理数据科学 (Geographic Data Science)\n图像处理 (Image Processing)\n多核与多处理器编程 (Multi-core and Multi-processor Programming)\n优化 (Optimisation)\n应用算法 (Applied Algorithmics)\n高级网页技术 (Advanced Web Technologies)\n算法博弈论 (Algorithmic Game Theory)\n数据挖掘与可视化 (Data Mining and VIsualisation)\n信息论与编码 (Information Theory and Coding)",
+  "success_cases": ""
+}

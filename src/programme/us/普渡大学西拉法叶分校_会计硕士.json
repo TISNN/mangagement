@@ -1,0 +1,12 @@
+{
+  "school_name": "普渡大学西拉法叶分校",
+  "major_name": "会计硕士",
+  "ename": "MS in Accounting",
+  "tags": "商科,会计",
+  "introduction": "专业方向: 会计\n入学时间: 秋季/春季\n项目时长: 10个月\n项目学费: 1,265美元/学分",
+  "requirements": "用过会计学位或者学过下列课程：财务会计入门、管理会计入门、中级会计III、审计学",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "商业管理理学硕士",
+  "ename": "MSc Business Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 345600港币/年",
+  "requirements": "具有学士学位或同等学历，不限专业背景",
+  "objectives": "香港理工大学商业管理理学硕士学位课程旨在帮助学生掌握商业管理的实践知识，从而使之能够为组织做出更有效的贡献。\n通过香港理工大学商业管理理学硕士学位的学习，学生将能够：灵活运用理论知识，概念框架去解决商业问题，包括那些涉及到组织的方向和范围的重要议题；更加创造性地、批判性的思考商业管理问题，更好的承担管理职责，合理的运用设计思考方法；具备在口头和书面进行有效沟通的能力，游刃有余的阐述自己的观点；很好的适应新环境，在各种不同环境中都能有优异的表现；更好的理解文化多元性，从而具备全球化地视角来看待和处理全球商业活动中的各种管理问题；能够发现和及时解决企业社会责任相关的棘手的伦理问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "管理人员会计实务 (Accounting for Managers)\n运营管理当代热点议题 (Contemporary Issues in Operations Management)\n跨文化管理 (Cross-cultural Management)\n道德、责任和可持续性 (Ethics, Responsibility and Sustainability)\n财务管理 (Financial Management)\n全球经济环境管理 (Global Economic Environment for Management)\n管理思维和技能工作坊 (Managerial Thinking and Skills Workshop)\n组织和人员管理 (Managing Organisations and People)\n市场营销管理 (Marketing Management)\n战略管理 (Strategic Management)\n商业分析会计 (Accounting for Business Analysis)\n企业管治 (Corporate Governance)\n管理信息系统 (Management Information Systems)\n运营风险管理 (Risk Management in Operations)\n全方位质量管理 (Total Quality Management)",
+  "success_cases": ""
+}

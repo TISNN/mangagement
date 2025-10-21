@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "可持续管理与金融理学硕士",
+  "ename": "MSc Sustainable Management and Finance",
+  "tags": "商科,管理,贝叶斯商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 31800英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，一定程度的商业或金融学习经验者优先，不要求工作经验",
+  "objectives": "伦敦大学城市学院可持续管理与金融理学硕士项目结合了管理、道德、法律、会计和投资技能，提供 ESG 管理的 360 度视角。它提供了有效的财务估值、风险评估、ESG 问责和沟通的工具和技术。\n最重要的是，本硕士课程将帮助学生提出重要问题并做出负责任的决定，为学生领导一个更可持续的新世界做好准备。我们将学习视为知识和实践的参与过程：通过案例研究、讲座、客座演讲、行业项目，将学生直接与城市周边的当地金融和管理场景联系起来。\n伦敦大学城市学院可持续管理与金融理学硕士项目提供跨学科的学习环境，包括金融、管理和传播等核心模块，以学习最先进的主题知识。学生将获得宝贵的国际视野，了解最新的辩论、经验、实践和工具。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "可持续发展和 ESG 的挑战和争论 (The Challenges and debates of sustainability and ESG)\n可持续金融原则 (Principles of Sustainable Finance)\n可持续经营 (Sustainable Management)\n参与、沟通和治理 (Engagement, Communication and Governance)\n责任投资的指标、资产管理和建模 (Metrics, Asset Management and Modelling in Responsible Investment)\n商业战略、气候技术和创新 (Business Strategies, Climate-tech, and Innovation)\nESG 的应用研究方法 (Applied Research Methods in ESG)\n产业项目 (Industry project)",
+  "success_cases": ""
+}

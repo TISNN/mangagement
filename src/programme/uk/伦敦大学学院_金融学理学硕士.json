@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,管理学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 47100英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要以下学科背景之一：经济学、金融学、数学、会计学、工程学、统计学或其任意组合，学校可能会考虑具有其他学科学位但能够证明足够的定量技能的申请者，不需要提交GRE或GMAT，但是鼓励非高度量化学科学位的申请者提交，GMAT百分位排名至少达到80%/GMAT定量部分成绩至少达到43/60或GRE定量部分成绩至少达到162/170将有助于申请",
+  "objectives": "伦敦大学学院金融理学硕士项目教授学生金融部门有效运作相关的重要内容。学生将学习公司财务、投资组合管理、兼并与撤资等核心概念的理论与应用，掌握可迁移的技能，从而将来能够胜任金融部门内的领导角色。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级衍生工具建模与投资组合理论 (Advanced Derivatives Modelling and Portfolio Theory)\n金融高级定量方法 (Advanced Quantitative Methods for Finance)\n资产评估 (Asset Pricing)\n企业金融 (Corporate Finance)\n金融数学 (Financial Mathematics)\n金融计量经济学 (Financial Econometrics)\n对冲基金策略 (Hedge Fund Strategies)\n高级企业金融 (Advanced Corporate Finance)\n行为金融学 (Behavioural Finance)\n大数据分析 (Big Data Analytics)\n固定收益模型 (Fixed Income Modelling)\n企业合并、撤资与IPO分析 (Mergers、Divestments & IPO Analysis)",
+  "success_cases": ""
+}

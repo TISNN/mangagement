@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "数据分析理学硕士",
+  "ename": "MSc Data Analytics",
+  "tags": "理科,数学,数学与统计学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，包含大量的数学组成部分，在大学水平数学中至少有20%的学分，平均成绩为及格\n请注意，数学部分必须至少相当于格拉斯哥大学的一级数学课程和二级微积分、线性代数课程",
+  "objectives": "数据已日益成为现代生活中越来越重要的一部分，但社会却急缺从复杂数据中提取有用信息的优秀人才。格拉斯哥大学拥有苏格兰最大的统计学小组，以其卓越的研究成果享誉世界。格拉斯哥大学数据分析理学硕士项目不要求学生具备统计或计算科学背景，将全面教授数据分析前沿知识，包括数据学习统计建模和计算等内容。此外，学生还科通过各种数据驱动分析项目实习获得实践经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "贝叶斯统计 (Bayesian statistics )\n大数据分析 (Big data analytics )\n数据分析技能 (Data analysis skills )\n广义线性模型 (Generalised linear models )\nR程序设计简介 (Introduction to r programming )\n概率论 (Probability)\n程序设计和系统开发基础 (Programming and systems development fundamentals )\n回归模型 (Regression models )\n统计推断 (Statistical inference )\n大数据 (Big data )\n信息检索 (Information retrieval)\n面向数据科学家的机器学习 (Machine learning for data scientists )\n网络科学 (Web science )",
+  "success_cases": ""
+}

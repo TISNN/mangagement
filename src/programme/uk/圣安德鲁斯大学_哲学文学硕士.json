@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "哲学文学硕士",
+  "ename": "MLitt Philosophy",
+  "tags": "社科,哲学,哲学学院",
+  "introduction": "专业方向: 哲学\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要哲学或涵盖哲学的专业背景，需要一篇written work (2,000 words)",
+  "objectives": "哲学是一门跨学科的学科，研究并试图回答人类生活和行动、自然科学、艺术和文学、语言和传播以及历史提出的问题。圣安德鲁大学哲学文学硕士项目为期一年，在圣安德鲁大学哲学文学硕士项目中学生将学习该学科内的广泛主题，以扩大学生对哲学的理解并研究不同的主题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "当代哲学议题 1 (Current Issues in Philosophy 1)\n研究方法 (Research Methods)\n当代哲学议题 2 (Current Issues in Philosophy 2)\n审美学 (Aesthetics)\n经典哲学 (Classical Philosophy)\n正式认识论导论 (Introduction to Formal Epistemology)\n直觉与哲学方法论 (Intuitions and Philosophical Methodology )\n康德 (Kant)\n世纪道德与政治哲学 (Moral and Political Philosophy in the Nineteenth Century)\n分析哲学起源与历史 (Origins and History of Analytic Philosophy)\n逻辑哲学 (Philosophy of Logic)\n当代形而上学文本 (Texts in Contemporary Metaphysics)\n政治哲学史文本 (Texts in the History of Political Philosophy)\n近代道德理论议题 (Topics in Recent Moral Theory)",
+  "success_cases": ""
+}

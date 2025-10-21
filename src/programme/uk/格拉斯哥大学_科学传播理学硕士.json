@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "科学传播理学硕士",
+  "ename": "MSc Science Communications",
+  "tags": "社科,科学传播,分子生物科学学院",
+  "introduction": "专业方向: 科学传播\n入学时间: 9月\n项目时长: 1年\n项目学费: 29700英镑/年",
+  "requirements": "具有任何科学学科的2:1荣誉学位或同等学历，其中至少有50%的科学学分课程，平均成绩为及格\n学校也可以接受新闻学、传播学和媒体写作的学位，即使它们缺乏科学成分通信或新闻方面的工作经验可以代替科学学位",
+  "objectives": "格拉斯哥大学科学传播理学硕士提供了科学传播的原则和实践的基础，并提供了在英国和海外开始职业生涯的机会。通过该计划学生将成为下一代作家和编辑的一员，负责向公众传播科学发现；加入一个独特的计划，该计划将培养与不同受众传播科学相关的技能；出席并参加该领域领导者举办的研讨会：Ashfield Medical、Allegro 和 Sense about Science；获得如何撰写科学杂志文章、新闻稿、使用社交媒体和播客向普通大众和其他人传播科学知识的技能；获得跨学科工作以及解释版权法和知识产权的宝贵理解和一系列技能；由国际教职人员和外部专家授课，提供极大的灵活性来满足个别学生的需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "临床试验：原则和方法 (Clinical Trials: Principles and Methods)\n数字媒体 (Digital Media)\n数字社会——生活实验室 (Digital Societies - The Living Lab)\n医疗通讯简介 (Introduction to Medical Communications)\n科学新闻 (Science Journalism)\n医学传播科学写作 (Science Writing for Medical Communications)\n科学传播项目 (science communication project)\n生物医学研究和健康领域的当前趋势和挑战 (Current Trends and Challenges in Biomedical Research and Health)\n诊断技术和设备 (Diagnostic Technologies and devices)",
+  "success_cases": ""
+}

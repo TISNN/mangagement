@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "护理理学硕士",
+  "ename": "MSc Nursing",
+  "tags": "社科,其他社科,文科与法律学院",
+  "introduction": "专业方向: 其他社科\n入学时间: 9月\n项目时长: 2年\n项目学费: 31390英镑/年",
+  "requirements": "具有2:1荣誉学位或以上学历，偏好科学或社会科学学科领域背景，但其他学位也将被考虑\n申请后，开始课程之前，申请者需要提交1份作品集证据来证明其先前的学习，该作品集提供了先前大学毕业生学习和护理经验的证据，展示了相当于本科护理课程第一年的知识、技能、价值观和护理行为。申请者在作品集中呈现的证据将证明其毕业生和体验式的学习和技能如何等同于第一年护理能力的发展，作品集中需要有500小时的卫生/社会护理经验并由注册人验证",
+  "objectives": "伯明翰大学护理学理学硕士凭借从生物和社会科学研究、专业研究和沟通技巧中得出的健康概念的全面基础，使得学生可以发展专业学科知识并了解喜欢的护理实践领域（成人或心理健康）。这是通过获得作为注册护士实践和管理以证据为基础的以人为本的护理所需的专业领导力和研究技能来支撑的。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "推进健康和护理 (Advancing Health and Nursing Care)\n展护理实践 (Developing Nursing Practice )\n实践研究与改进方法 (Research and Improvement Methods in Practice)\n协调复杂的护理 (Co-ordinating Complex Nursing Care)\n护理实践第 2 部分 (Nursing Practice Part 2)\n健康和社会关怀查询 (Health and Social Care Enquiry)\n推进紧急护理的临床评估 (Advancing Clinical Assessment in Urgent Nursing Care )\n领导和管理护理团队 (Leading and Managing Care Teams)",
+  "success_cases": ""
+}

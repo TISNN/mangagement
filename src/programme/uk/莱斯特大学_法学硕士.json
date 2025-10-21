@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "法学硕士",
+  "ename": "LLM",
+  "tags": "社科,法律,莱斯特法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 18950英镑/年",
+  "requirements": "具有good 2nd荣誉学位，需要适当的学科背景\n在考虑入学要求时，毕业后的相关专业经验将得到应有的重视",
+  "objectives": "莱斯特大学法学硕士项目让学生根据需求或兴趣定制自己的学习计划。学生可以在四十多门课的范围之内自由组合，课程由著名专家学者授课。莱斯特大学法学硕士项目的学生可以获得先进的、专业的法律培训，同时拓宽职业选择。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "民事纠纷解决方法 (Civil Dispute Resolution Methods)\n比较公司法 (Comparative Corporate Law)\n海上货物运输合同 (Contracts for Carriage of Goods by Sea)\n国际法的一般原则 (General Principles of International Law)\n人权与是非：核心原则 (Human Rights and Human Wrongs: Core Principles)\n国际银行法 (International Banking Law)\n国际商事仲裁 (International Commercial Arbitration)\n国际交易 (International Sales Transactions)\n世界贸易体系的法律和组织 (Law and Organisation of the World Trading System)\n人权的当代看法 (Contemporary Perspectives on Human Rights)\n国际法的当前趋势 (Current Trends in International Law)\n全球不公平的法律回应 (Legal Responses to Global Injustice)\n海洋保险法 (Marine Insurance Law)\n国家、法律与宗教自由 (The State、the Law and Religious Freedoms)\n自治、能力与满意 (Autonomy、Capacity and Consent)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "阿斯顿大学",
+  "major_name": "数据科学理学硕士（含专业实践）",
+  "ename": "MSc Data Science (including Professional Practice)",
+  "tags": "理科,数据科学,信息与数字工程学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 2年\n项目学费: 12000英镑/年",
+  "requirements": "学校期待数学、统计学或数据科学专业的毕业生提出申请，鼓励具有计算机科学、工程学、物理学和相关学科学位并具备数学和编程经验的申请者提出申请，成绩需要达到英国荣誉理学学士2:2学位或更高水平\n申请者应具有概率论、统计学、线性代数、多变量微积分和优化方面的学习背景\n如果申请者不是数学、统计学或数据科学专业背景，则数学和编程成绩应达到相当于英国60%或更高水平（通过成绩单证明上述知识）",
+  "objectives": "阿斯顿大学数据科学理学硕士（含专业实践）项目旨在帮助学生了解数据科学和分析领域的科学和工业发展并形成批判性的认识。学生将深入了解数据生命周期的基本概念，包括问题制定、数据收集和清理、探索性数据分析和可视化、统计推断和决策制定，学习包括算法和计算建模以及统计机器在内的一系列方法，并获得专业实习的机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计机器进修 (Statistical Machine Learning)\n专业研究技能和技术 (Specialist Research Skills and Techniques)\n算法和计算数学 (Algorithmic and Computational Mathematics)\n数据理解 (Understanding Data)\n概率建模 (Probabilistic Modelling)\n数据科学编程 (Data Science Programming)\n人工神经网络 (Artificial Neural Networks)\n网络学 (Network Science)\n研究项目 (Research Project)\n专业实习 (Professional Practice)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "分子生物科学（医学生物科学）理学硕士",
+  "ename": "MSc Molecular Biosciences (Medical Biosciences)",
+  "tags": "理科,生物,生物学与生物化学系",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 33200英镑/年",
+  "requirements": "具有high 2:2荣誉学位或同等学历，拥有任何生物科学、医学、生物医学学科的本科学位，例如生物科学、医学、兽医、生物技术、生命科学、药学或药理学、技术或相关学科",
+  "objectives": "本课程让您了解生物系统的分子基础，并着重于应用这些知识改善人类健康和疾病、食品生物安全和可持续生物技术。您将与研究人员密切合作，他们的工作涉及分子、细胞、遗传和表观遗传过程如何支撑人类发展（如干细胞技术和再生医学）、人类疾病（如癌症）和衰老（如神经变性）等重要问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "分子医学的进步 (Advances in molecular medicine)\n拓宽视野 (Broadening horizons)\n研究项目1 (Research project 1a)\n研究项目2 (Research project 2)\n癌症遗传学和治疗 (Cancer genetics and therapy)\n分子神经科学和神经退化 (Molecular neuroscience and neurodegeneration)\n遗传学和发育障碍 (Developmental genetics and disorders)\n免疫学和免疫疗法 (Immunology and immunotherapy)",
+  "success_cases": ""
+}

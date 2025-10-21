@@ -1,0 +1,12 @@
+{
+  "school_name": "威斯敏斯特大学",
+  "major_name": "建筑项目管理理学硕士",
+  "ename": "MSc Construction Project Management",
+  "tags": "工科,工程管理,建筑与城市学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 17500英镑/年",
+  "requirements": "具有2:2荣誉学位，需要相关学科背景，并且目前从事或曾经从事过专业或管理方面的相关工作，相关学位学科包括建筑学、建筑或土木工程\n此外，申请者也可通过考试和/或专业面试获得受认可的建造业专业团体的会员资格，并具备建筑相关职位的专业或管理经验\n在特殊情况下，学校将考虑缺乏标准资格但具有大量相关专业或管理经验的申请者",
+  "objectives": "尽管全球经济动荡，建筑业仍在继续增长，预计到2025年，建筑业收入将达到15万亿美元。由于时间限制、安全和劳动力考虑、法律问题、政府法规和环境问题等一系列问题，项目谈判中不可避免地会出现障碍，因此对专业项目经理的要求很高。威斯敏斯特大学建筑项目管理理学硕士课程由英国皇家特许测量师学会(RICS)和英国特许建筑学会(CIOB)认证，适合建筑相关专业的毕业生或有过相关工作经验正在寻找行业内的高级项目管理职位的学生，在威斯敏斯特大学建筑项目管理理学硕士课程中，学生将学习现代管理技能、技术和系统，以成功地交付一个项目从开始到完成，以及如何在外部环境的约束下满足客户的需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "建设论文 (Construction Dissertation)\n建设项目规划 (Construction Project Planning)\n企业管理 (Corporate Management)\n采购 (Procurement)\n项目风险管理 (Risk Management for Projects)\n运营项目管理 (Operational Project Management)\n战略项目管理 (Strategic Project Management)\n设计与施工：原理、应用与管理 (Design and Construction: Principles, Application and Management)\n合同管理建设法规 (Construction Law for Contract Management)\n开发有效项目团队 (Developing Effective Project Teams)",
+  "success_cases": ""
+}

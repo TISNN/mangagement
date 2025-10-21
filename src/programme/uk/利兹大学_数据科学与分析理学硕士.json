@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "数据科学与分析理学硕士",
+  "ename": "MSc Data Science and Analytics",
+  "tags": "理科,数据科学,数学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33750英镑/年",
+  "requirements": "具有荣誉学士学位，达到一等或high 2:1学位，需要包含大量数学、统计和/或计算成分的学科背景\n所有关键课程都应获得优异成绩（主要是一等且没有关键课程成绩低于2:1）\n如果成绩单展示不明显，申请者需要提供所学习数学/计算课程类型和水平的清单\n学校通常不接受会计或金融学位",
+  "objectives": "对能够管理和控制数据使用方式的人员的需求日益增长。这些人需要了解计算机科学和数学，并熟悉许多不同领域的数据需求和流程，包括医疗保健、商业、政府和环境。利兹大学数据科学和分析理学硕士项目课程为学生提供发展一系列相关技能的机会，包括：分析结构化和非结构化数据、分析大型数据集、根据背景批判性地评估结果、解读数据。该课程结合了计算、地理和数学学院与利兹大学商学院的专业知识。这种合作使学生能够从一系列数据科学视角和应用中受益，使学生能够根据自己的职业抱负定制课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学 (Data Science)\n案例研究学习技巧 (Learning Skills through Case Studies)\n数据科学和分析论文 (Dissertation in Data Science and Analytics)\n分布式系统 (Distributed Systems)\n机器学习 (Machine Learning)\n信息可视化 (Information Visualization)\n大数据系统 (Big Data Systems)\n数据管理 (Data Management)\n仿生计算 (Bio-Inspired Computing)\n知识表示与推理 (Knowledge Representation and Reasoning)\n系统编程 (Systems Programming)\n算法 (Algorithms)\n编程实践 (Practical Programming)\n数据挖掘和文本分析 (Data Mining and Text Analytics )\n云计算 (Cloud Computing)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "高级免疫学理学硕士",
+  "ename": "MSc Advanced Immunology",
+  "tags": "社科,医学,斯克莱德制药与生物医学科学研究所",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31250英镑/年",
+  "requirements": "具有至少二等（2:2）荣誉学位，需要生物或化学相关学科背景",
+  "objectives": "思克莱德大学高级免疫学理学硕士项目的重点是了解身体如何抵御疾病。免疫学帮助我们了解病毒、细菌或寄生虫感染的过程，以及免疫系统有时是如何被诱骗而攻击自己的组织，从而导致类风湿性关节炎、糖尿病或过敏等疾病的。将为您提供全面的研究生生命科学培训，包括广泛的实际实验室技能。此外，课程还将培养您在以下方面的可转移技能：统计学，演示文稿，职业发展，伦理学，科学写作技巧，设计实验和分析复杂数据集的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物医学与制药专业学生的通用技能 (Generic Skills for Biomedical & Pharmaceutical Students)\n生物医学研究的前沿课题 (Advanced Topics in Biomedical Research)\n创业 (Entrepreneurship)\n生物医学研究的先进技术1&2 (Advanced Techniques in Biomedical Research 1 & 2)\n免疫学研究生 (Postgraduate Studies in Immunology)\n研究项目 (Research project)\n体内生物学 (In Vivo Biology)\n药物发现 (Drug Discovery)\n血液学研究生 (Postgraduate Studies in Haematology)\n应用免疫学研究生研究 (Postgraduate Studies in Applied Immunology)\n临床免疫学研究生研究 (Postgraduate Studies in Clinical Immunology)",
+  "success_cases": ""
+}

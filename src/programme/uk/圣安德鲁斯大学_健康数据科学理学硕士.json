@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "健康数据科学理学硕士",
+  "ename": "MSc Health Data Science",
+  "tags": "理科,数据科学,跨学科研究学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29990英镑/年",
+  "requirements": "具有2:1学位或同等学历，具备统计数据分析方面的经验，并且对抽样和回归等方法有一定的了解，这可以是具有统计学或其他定量科学学科的高级中学或高中学历，或本科期间学习过定量科学学科的本科水平，或具有相关职业经验有计算机编程经验有助于申请，但不是必需的\n接受不同背景的申请者，包括但不限于：计算机科学、数学、医学、公共卫生、软件工程、统计数据",
+  "objectives": "数字技术和大数据分析正在改变医疗保健。在圣安德鲁斯大学健康数据科学理学硕士项目中，学生将探索数字健康实施的原则和实践。在该课程中，学生将了解数字健康的理论基础并将了解不同形式的健康数据、生成它们的技术、用于处理和分析的方法，以及如何将数字数据整合到临床决策中。特别是，学生将了解在医疗保健环境中处理、存储和分析大数据所面临的挑战。\n圣安德鲁斯大学健康数据科学理学硕士项目的学生将学习医疗数据分析和使用数字技术应对医疗保健挑战的实用技能。学生将加深对以编程方式处理医学数据（例如遗传数据、医学图像和患者生命体征）的技术的理解，还将了解数字健康治理以及在设计和执行医疗数据分析研究时可能出现的伦理问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字健康原则 (Digital Health Principles)\n介绍性数据分析 (Introductory Data Analysis)\n面向对象的建模、设计和编程 (Object-Oriented Modelling, Design and Programming)\n编程原理和实践 (Programming Principles and Practice)\n数字健康实践 (Digital Health Practice)\n生物医学成像和传感 (Biomedical Imaging and Sensing)\n数据分析 (Data Analysis)\n信息可视化和视觉分析 (Information Visualisation and Visual Analytics)\n机器学习 (Machine Learning )\n编程原理和实践 (Programming Principles and Practice)\n学位项目 (Degree Project)",
+  "success_cases": ""
+}

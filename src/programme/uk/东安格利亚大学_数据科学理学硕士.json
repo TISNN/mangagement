@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "数据科学理学硕士",
+  "ename": "MSc Data Science",
+  "tags": "理科,数据科学,计算机科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 24500英镑/年",
+  "requirements": "具有2:2学士学位或同等学历，需要计算、数学或相关学科背景，申请还应该能够在其他学历或工作经验中展示出一些编程经验",
+  "objectives": "本课程旨在培训高素质的数据分析师或数据科学家，以从事广泛行业的职业。\n您将获得数据挖掘和统计方面的出色实践和理论基础，并有机会通过人工智能，可视化，编程和数据库操作等模块自定义学位。\n数据科学家因其先进的实践技能以及对现代业务成功的日益重要而倍受赞誉。\n几乎任何行业的组织都需要获取，分析和利用大量数据来辅助战略决策，因此，您将拥有出色的毕业生职业前景以及广泛的可转移技能。\n我们拥有庞大的数据挖掘，机器学习和统计研究小组，在过去10年中，该领域做出了巨大贡献，因此您将直接与开拓性专家合作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用统计 (Applied Statistics)\n数据挖掘 (Data Mining)\n论文 (Dissertation)\n研究技能（研究方法） (Research Techniques(Research Methods))\n人工智能 (Artificial Intelligence)\n信息可视化 (Information Visualisation)\n应用程序编程 (Applications Programming)\n音频和视觉处理 (Audio and Visual Processing)\n计算机视觉 (Computer Vision)\n数据库操作 (Database Manipulation)\n人机交互 (Human Computer Interaction)",
+  "success_cases": ""
+}

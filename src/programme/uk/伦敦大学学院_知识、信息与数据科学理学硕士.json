@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "知识、信息与数据科学理学硕士",
+  "ename": "MSc Knowledge, Information and Data Science",
+  "tags": "理科,数据科学,艺术与人文学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，具有适当专业资格或相关学科经验的申请者也将被考虑，学校欢迎具有广泛学术背景的申请者，申请者需要表现出技术和/或数学能力，特别是应该具备计算机编程经验以及统计学、线性代数和微积分知识",
+  "objectives": "伦敦大学学院知识、信息与数据科学理学硕士项目（以前为信息科学理学硕士）面向有计算和数学素养，并希望学习知识、信息和数据科学的现代方法的毕业生。重点放在人工智能的当前行业实践，理论和可能的未来趋势上，从而为毕业生提供发展信息相关领域的各种职业道路所必需的知识和技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "信息科学基础 (Fundamentals of Information Science)\n统计学方法 (Statistical Methods)\n逻辑与知识表示 (Logic and Knowledge Representation)\n数据库理论与实践 (Database Theory and Practice)\n数据可视化与地理信息系统 (Data Visualization and GIS)\n开发动态Web应用程序 (Developing Dynamic Web Applications)\n机器学习基础 (Foundations of Machine Learning)\n图形数据库与语义技术 (Graph Databases and Semantic Technologies)\n信息管理 (Information Governance)\n互联网技术 (Internet Technologies)\n机器学习方法 (Machine Learning Methods)\n人类推理模型 (Models of Human Reasoning)\n自然语言处理与文本分析 (Natural Language Processing and Text Analysis)\n论文/报告 (Dissertation/report)",
+  "success_cases": ""
+}

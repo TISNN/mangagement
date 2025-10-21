@@ -1,0 +1,12 @@
+{
+  "school_name": "肯特大学",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 20700英镑/年",
+  "requirements": "具有英国一等或二等荣誉学位或同等学历，需要经济学背景，或经济学与其他学科的综合学位，申请者还必须具备良好的定量技能（例如数学方面的大学预科学历）\n所有申请者都将根据具体情况予以考虑，其他资格、专业资格和相关经验也可能被考虑在内",
+  "objectives": "肯特大学经济学理学硕士学位课程旨在使学生掌握最新最前沿的经济学理论和计量经济学方法。 肯特大学经济学理学硕士学位课程不仅注重经济学理论教学，并且注重理论联系实际，培养学生定量分析、化繁为简的能力，提升学生运用经济知识、分析工具和技能去解决金融、发展、农业及环境领域的众多国内及国际问题的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "先进的宏观经济学 (Advanced Macroeconomics)\n时间序列计量经济学 (Time Series Econometrics)\n计量经济学方法 (Econometric Methods)\n计量经济学 (Microeconometrics)\n消费者，市场和福利的先进微观经济学 (Advanced Microeconomics of Consumers, Markets and Welfare)\n国际金融学 (International Finance)\n经济学论文研究技能 (Research Skills for Economics Dissertation)\n发展经济学 (Development Economics)\n国际经济学 (International Economics)\n金钱和信用 (Money and Credit)\n劳动经济学 (Labour Economics)\n学位论文 (Dissertation:Economics)",
+  "success_cases": ""
+}

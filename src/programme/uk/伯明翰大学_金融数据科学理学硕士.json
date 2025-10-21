@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "金融数据科学理学硕士",
+  "ename": "MSc Financial Data Science",
+  "tags": "商科,金工金数,工程与物理科学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 31390英镑/年",
+  "requirements": "具有2:1荣誉学位，需要数学和/或统计学，或包含高等数学和/或统计学成分的专业背景\n该课程针对的是那些已经完成包含大量数学或统计学内容的本科学位并希望继续攻读硕士研究生课程的学生",
+  "objectives": "伯明翰大学金融数据科学硕士/理学硕士项目为学生提供专为金融服务行业量身定制的先进统计技术和机器学习算法。通过实践项目和实际应用，学生将获得利用数据推动明智的财务决策的实践经验。伯明翰大学金融数据科学硕士/理学硕士项目的核心课程涵盖统计推断、深度学习、时间序列分析和算法交易等基本主题。这些课程为学生提供有效分析财务数据并在动态市场环境中做出明智决策所需的基础知识和实践技能。除了核心课程之外，学生还有机会通过选择一系列可选课程来定制自己的学习体验。这些课程探索金融数学、统计建模、机器学习、计算统计和随机过程等高级主题，让学生能够专注于特别感兴趣的领域。在整个课程中，学生将参与实践学习体验，包括将理论概念应用于现实世界金融数据集的实际项目和案例研究。学生还可以受益于行业专家举办的客座讲座和研讨会，他们为金融行业的当前趋势和实践提供了宝贵的见解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "算法和高频交易 (Algorithmic and High-Frequency Trading)\n深度学习 1 (Deep Learning 1)\n统计推断基础 (Foundations of Statistical Inference)\n时间序列和预测 (Time Series and Prediction)\n金融数据科学项目 (Financial Data Science Project)\n高级数学金融 (Advanced Mathematical Finance)\n贝叶斯推理和计算 (Bayesian Inference and Computation)\n计算统计 (Computational Statistics)\n数据可视化 (Data Visualisation)\n深度学习 2 (Deep Learning 2)\n金融数学 (Financial Mathematics)\n利率和信用风险建模 (Interest Rate and Credit Risk Modelling)\n机器学习的大规模优化 (Large Scale Optimization for Machine Learning)\n数学金融 (Mathematical Finance)\n数学证券化 (Mathematical Securitisation)",
+  "success_cases": ""
+}

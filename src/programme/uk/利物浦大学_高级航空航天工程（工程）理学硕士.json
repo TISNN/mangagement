@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "高级航空航天工程（工程）理学硕士",
+  "ename": "MSc(Eng) Advanced Aerospace Engineering",
+  "tags": "工科,航空工程,工程学院",
+  "introduction": "专业方向: 航空工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 29900英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，学位应为航空航天工程专业。如果申请者的学位不是航空航天工程专业，则需要英国大学颁发的2:1荣誉学位",
+  "objectives": "利物浦大学高级航空航天工程（工程）理学硕士项目适合拥有工程背景、想要获得就业资历证明或具备物理科学背景以增加就业机会的人。该项目将使学生了解高级航空航天工程领域中的核心课程，以及数学、计算、设计和商业研究的知识和技能，提高学生的分析、问题解决、交际和团队合作能力。利物浦大学高级航空航天工程（工程）理学硕士项目的毕业生拥有广泛的就业机会。部分学生选择在英国、欧洲和其他地区的航空航天产业中担任工程师职位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "飞行操纵质量 (Flight Handling Qualities )\n气动力弹性学 (Aeroelasticity)\n高级航空动力学 (Advanced Aerodynamics)\n高级航空结构分析 (Advanced Aerostructural Analyses)\n航空航天团队设计项目 (Aerospace Capstone Group Design Project)\n工程师科技写作 (Technical Writing for Engineers)\n研究技能和课题项目计划 (Research Skills and Project Planning)\n企业研究 (Enterprise Studies)\n硕士课题项目 (Msc(eng) Project)\n航天 (Spaceflight)\n直升机飞行 (Rotorcraft Flight)\n复合材料 (Composite Materials)\n有限元分析 (Finite Element Analysis)\n飞行操纵质量 (Flight Handling Qualities )\n气动力弹性学 (Aeroelasticity)\n高级航空动力学 (Advanced Aerodynamics)\n高级航空结构分析 (Advanced Aerostructural Analyses)\n航空航天团队设计项目 (Aerospace Capstone Group Design Project)\n工程师科技写作 (Technical Writing for Engineers)\n研究技能和课题项目计划 (Research Skills and Project Planning)\n企业研究 (Enterprise Studies)\n硕士课题项目 (Msc(eng) Project)\n航天 (Spaceflight)\n直升机飞行 (Rotorcraft Flight)\n复合材料 (Composite Materials)\n有限元分析 (Finite Element Analysis)\n计算机辅助设计 (Computer Aided Design)\n高级流体动力学 (Advanced Fluid Mechanics)",
+  "success_cases": ""
+}

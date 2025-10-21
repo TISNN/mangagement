@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 37270英镑/年",
+  "requirements": "具有本科2:1学位或同等学历，接受广泛的学位背景，包括经济学、商学、工程学、心理学、地理学、社会学和政治学，本课程要求学生具备较强的计算、信息技术和/或统计能力\n不需要GMAT或GRE成绩，但平衡良好的分数（700）可能会有助于申请（相当于GMAT Focus Edition的645分或百分位排名86%）\n需要上传最后一年的课程列表",
+  "objectives": "华威大学商业分析理学硕士项目适合想要提高自身量化咨询能力的学生。\n华威大学商业分析理学硕士项目旨在让学生掌握定量统计方法、优化技术与预测模型，从而学会从大数据的分析中发现商业机遇和提升自我商业洞察力，同时也教导学生将这些知识应用于现实商业问题的解决中去。华威大学商业分析理学硕士项目将帮助学生理解组织中商业分析的作用，培养学生的商业头脑与沟通技巧，以及让学生通过开展课题项目与完成学术论文来获得有关商业研究的经验。\n华威大学商业分析理学硕士项目与IBM以及SAS的合作伙伴关系，为学生提供了很好的实践机会。分析实践与文本分析两门课程就是华威大学与这些合作伙伴公司共同开展的。\n在商业分析理学硕士课程上建立您的定量咨询技能。作为世界上最早的商业分析课程之一，华威商学院将帮助您了解商业分析在一个组织中的作用，提高您的商业敏锐和沟通技巧，并获得商业研究经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据管理 (Data Management)\n项目技巧 (Project Skills)\n商业统计 (Business Statistics)\n实践中的分析 (Analytics in Practice)\n优化模型 (Optimisation Models)\n论文 (Dissertation)\n供应链分析 (Supply Chain Analytics)\n预测 (Forecasting)\n离散事件模拟 (Discrete Event Simulation)\n策略分析 (Strategy Analytics)\n定价与收益管理 (Pricing and Revenue Management)\n高级分析：模型和应用 (Advanced Analytics: Models and Application)\n高级数据分析 (Advanced Data Analysis)",
+  "success_cases": ""
+}

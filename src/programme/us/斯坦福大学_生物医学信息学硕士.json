@@ -1,0 +1,12 @@
+{
+  "school_name": "斯坦福大学",
+  "major_name": "生物医学信息学硕士",
+  "ename": "Master's in Biomedical Informatic",
+  "tags": "理科,生物",
+  "introduction": "专业方向: 生物\n项目类别: STEM\n入学时间: 秋季\n项目时长: 两年\n项目学费: 55,890美元/年",
+  "requirements": "最低要求：\n1.微积分：至少一年，最好是工程或物理科学方向课程。 强烈推荐额外的多元微积分课程。\n2.概率与统计：至少一门课程，最好是两个领域的一门课程。\n3.线性代数。\n4.计算机科学：一年，最好是 CS 专业的入门顺序。 重点应该是计算机科学的基础知识（数据结构和算法）和软件工程原理（抽象、模块化、面向对象编程）。\n5.生物学/医学：至少有一些这方面的课程，最好是生物学专业的入门课程。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,经济与金融学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 27500英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，学科背景不限，但是需要较好的统计和数学学习背景\n申请人通常拥有经济学或相关学位，拥有数学、工程及理科学科背景也给予考虑",
+  "objectives": "伦敦大学玛丽皇后学院经济学理学硕士学位课程专为学生提供在理论和应用经济学领域的严谨训练。\n伦敦大学玛丽皇后学院经济学理学硕士学位课程与众不同，它为学生在现代经济学领域奠定扎实基础；使学生连续两学期全面学习宏观经济学、微观经济学和计量经济学，接触研究经济学家使用的必要模型和工具；获取相关数学和统计方法及如何开展、评估、监督经济学领域的理论和应用研究的训练；有机会在顺利完成伦敦大学玛丽皇后学院经济学理学硕士学位课程后继续进行经济学研究硕士学位课程学习，有机会深造博士；此外，学术表现突出的学生将获得不菲的奖学金。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "宏观经济学A (Macroeconomics A)\n微观经济学A (Microeconomics A)\n计量经济学A (Econometrics A)\n宏观经济学B (Macroeconomics B)\n微观经济学B (Microeconomics B)\n计量经济学B (Econometrics B)\n应用计量经济学（微观） (Applied econometrics  (micro)  )\n应用计量经济学（宏观与金融） (Applied econometrics (macro and finance)  )\n劳动与公共政策 (Labour and Public Policy)\n发展经济学 (Development Economics)\n竞争政策与监管 (Competition policy and regulation)",
+  "success_cases": ""
+}

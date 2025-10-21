@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "人类进化理学硕士",
+  "ename": "MSc Human Evolution",
+  "tags": "社科,历史,历史、语言与文化学院",
+  "introduction": "专业方向: 历史\n入学时间: 9月\n项目时长: 1年\n项目学费: 24100英镑/年",
+  "requirements": "具有2:2本科学位或同等学历，需要考古学、人类学、生物学或相关学科背景学校将根据具体情况考虑过去的实际经验",
+  "objectives": "利物浦大学人类进化理学硕士项目为学生提供非洲和欧亚大陆早期考古记录、考古和进化理论以及生态、环境和气候变化建模方面的专业知识。学校拥有专门的设施和支持人员，可进行与实验考古和 3D 建模相关的材料分析。通过利物浦大学人类进化理学硕士的研究主导教学，学生将充分参与人类进化研究社区，并了解最新的理论方向、方法和发现。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "早期技术 (Early Technologies )\n古人类学 (Palaeoanthropology )\n高级骨科学和骨骼病理学 (Advanced Osteology and Skeletal Pathology )\n古代DNA和蛋白质组学 (Ancient DNA AND Proteomics )\n考古现场技能 (Archaeological Field Skills)\n研究方法 (Research Methods)\n人类变异和适应：生物学和文化视角 (Human Variation and Adaptation: Biological and Cultural Perspectives)\n解读符号：理解最早的符号行为的途径 (Deciphering Symbols: Approaches to an Understanding of the Earliest Symbolic Behaviour)\n牙齿人类学 (Dental Anthropology)",
+  "success_cases": ""
+}

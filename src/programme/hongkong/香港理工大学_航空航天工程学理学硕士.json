@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "航空航天工程学理学硕士",
+  "ename": "MSc Aerospace Engineering",
+  "tags": "工科,航空工程,工程学院",
+  "introduction": "专业方向: 航空工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 198000港币/年",
+  "requirements": "具有荣誉学士学位，需要工程、科学或技术背景，或具备符合香港工程师学会正式会员学术要求的资格，或具备同等学历\n没有荣誉学位但有其他相关资格以及适当工作经验的申请者也会被考虑\n个别情况下有关学院会根据个案考虑，申请者可能需要参加面试或笔试以进一步证明他们的语言能力",
+  "objectives": "香港理工大学航空航天工程学理学硕士项目旨在：\n(a) 为有志于提高航空航天工程领域专业知识和追求高级职业的学生提供更多的教育机会和培训；\n(b) 使学生能够提高他们的熟练程度，从而提高其在就业市场上的能力，使他们能够成为航空航天工业的积极贡献者；\n(c) 协助学生全面了解和熟练掌握航空航天工程领域的最新尖端技术；以及\n(d) 使学生有能力运用所学的知识和技能，有效地解决在实际情况下遇到的现实挑战。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "制导、导航与高级航空电子系统 (Guidance, Navigation and Advanced Avionics System)\n高级飞机结构与材料 (Advanced Aircraft Structures and Materials)\n自主飞行 - 力学与控制 (Autonomous Flight - Mechanics and Control)\n飞机发动机系统与燃烧 (Aircraft Engine Systems and Combustion)\n可压缩空气动力学 (Compressible Aerodynamics)\n卫星工程 (Satellite Engineering)\n飞机设计与认证 (Aircraft Design and Certification)\n航空航天工程中的人工智能 (Artificial Intelligence in Aerospace Engineering)\n计算流体力学 (Computational Fluid Dynamics)\n空间飞行器推进系统 (Space Vehicle Propulsion Systems)\n航天器动力学 (Spacecraft Dynamics)\n工程计算与建模 (Engineering Computations and Modelling)",
+  "success_cases": ""
+}

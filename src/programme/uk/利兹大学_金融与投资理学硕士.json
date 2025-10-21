@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "金融与投资理学硕士",
+  "ename": "MSc Finance and Investment",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 37000英镑/年",
+  "requirements": "具有2:1荣誉学士学位，需要相关学科背景，如会计、金融、经济或数学\n申请者应该具备定量学科的扎实基础并在此类课程中取得优秀成绩",
+  "objectives": "全球资本与货币市场在金融危机后迅速发展，与之相关的关键专业知识炙手可热。利兹大学金融与投资理学硕士课程面向有意在金融和投资方面展开职业生涯的学生，使他们能够在金融市场中运用解决问题能力。在利兹大学金融与投资理学硕士课程的学习中，学生将掌握诸如国际投资、金融建模、公司金融和证券投资分析等重要主题方面的先进理念和实践。利兹大学金融与投资理学硕士课程与工业、商业和专业机构关系密切，使学生能实际理解基本金融理论如何应用于实践。案例研究和模拟使学生面对金融市场中的最新挑战和议题，在现实商务场景中检验自己的专业知识。利兹大学金融与投资理学硕士课程由具备研究和咨询专业知识的世界顶尖学者教学，使学生拥有在金融和投资行业中备受国际重视的资历。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "证券投资分析 (Security Investment Analysis)\n公司金融 (Corporate Finance)\n应用金融学 (Applied Finance)\n金融研究方法 (Research Methods in Finance)\n金融建模和分析 (Financial Modelling and Analysis)\n国际投资 (International Investment)\n行为金融学 (Behavioural Finance )\n国际商业金融 (International Business Finance)\n企业管治 (Corporate Governance)\n投资组合风险管理 (Portfolio Risk Management)\n法务会计与金融 (Forensic Accounting and Finance)\n金融衍生产品 (Financial Derivatives)\n离散时间金融 (Discrete Time Finance)",
+  "success_cases": ""
+}

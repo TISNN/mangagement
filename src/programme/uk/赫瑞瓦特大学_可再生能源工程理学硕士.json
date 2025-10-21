@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "可再生能源工程理学硕士",
+  "ename": "MSc Renewable Energy Engineering",
+  "tags": "工科,能源,能源、地球科学、基础设施与社会学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 25480英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要工程学科、物理或化学科学背景\n学校将接受相关学科领域的2:2学位，如果申请者有相关工作经验",
+  "objectives": "赫瑞-瓦特大学可再生能源工程理学硕士旨在培养学生对风能、海洋、生物质能和太阳能技术的发展和整合所带来的能源系统重大变化的批判性理解。该课程将使毕业生能够针对可再生能源的获取、转换、储存和管理中遇到的问题，开发和实施创造性的解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "能源基础 (Foundations of Energy)\n可再生能源经济学 (Economics of Renewable Energy)\n可再生能源技术 (Renewable Energy Technologies)\n先进的可再生能源工程 (Advanced Renewable Energy Engineering)\n环境影响评估 (Environmental Impact Assessment)\n需求管理和能量存储 (Demand Management and Energy Storage)\n批判性分析与研究准备 (Critical Analysis and Research Preparation)\n硕士论文 (Masters Dissertation)\n电力系统 (Electrical Power Systems)\n传热和换热器 (Heat Transfers and Heat Exchangers)\n带传热的计算流体动力学 (Computational Fluid Dynamics with Heat Transfer)",
+  "success_cases": ""
+}

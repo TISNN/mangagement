@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "海事法法学硕士",
+  "ename": "LLM Maritime Law",
+  "tags": "社科,法律,城市法学院",
+  "introduction": "专业方向: 法律\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23110英镑/年",
+  "requirements": "具有2:1荣誉本科学位或同等学历，需要法律背景，具有其他学科本科学位的申请者也将被考虑\n学位等级低于2:1的学生只有在申请中明确表明其学术能力足以在2:1级别学习和/或具有丰富且相关的专业经验时，才会被录取",
+  "objectives": "伦敦大学城市学院海事法法学硕士课程，重点是了解法律在诸如运输合同、保险、海军部惯例、国际货物销售和商业仲裁等方面的运作方式。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "海事法 (Admiralty Law)\n海上货物运输 (Carriage of Goods by Sea)\n国际贸易法 (Law of International Trade)\n海运保险 (Marine Insurance)\n世界贸易法 (World Trade Law)\n国际海洋法 (International Law of the Sea)\n国际商事仲裁 (International Commercial Arbitration)",
+  "success_cases": ""
+}

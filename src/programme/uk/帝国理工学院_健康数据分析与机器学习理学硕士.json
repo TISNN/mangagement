@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "健康数据分析与机器学习理学硕士",
+  "ename": "MSc Health Data Analytics and Machine Learning",
+  "tags": "理科,数据科学,医学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 45000英镑/年",
+  "requirements": "具有2:1学位，需要数学、统计学、流行病学或生物学背景，或医学学位背景",
+  "objectives": "帝国理工学院健康数据分析与机器学习理学硕士项目学制一年，采用全日制授课形式，致力于培养学生健康数据分析技能，提高学生运用前沿定量方法开发复杂高维数据的能力，课程由学院与数据科学研究所联合授课，师资力量强大，拥有多位国际知名专家学者，在医疗与临床大数据的方法论背景与方法论运用上有过硬的研究基础。课程与为期六个月的研究项目均包括项目作业，项目基于真实数据，帮助公共健康学院、数据科学研究所与行业合作伙伴的解决现实科学问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "临床数据管理 (Clinical Data Management)\n计算流行病学 (Computational Epidemiology)\n统计思维与数据分析导论 (Introduction to Statistical Thinking and Data Analysis)\n机器学习 (Machine Learning)\n流行病学原理与方法 (Principles and Methods in Epidemiology)\n研究报告 (Research project)\n翻译数据科学 (Translational Data Sciences)",
+  "success_cases": ""
+}

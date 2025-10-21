@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "可持续水资源与气候适应力理学硕士",
+  "ename": "MSc Sustainable Water and Climate Resilience",
+  "tags": "工科,环境工程,架构、建筑与土木工程学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 10月\n项目时长: 1年\n项目学费: 25500英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要工程学、地理学、科学或数学背景\n略低于此水平的学历、替代学历和/或专业经验也将被考虑",
+  "objectives": "在一个努力应对气候变化、水资源短缺和污染的世界，对有效的可持续解决方案的需求比以往任何时候都更加迫切，从管理干旱地区的旱灾灾情到解决城市中心的洪水和污染，拉夫堡大学可持续水资源与气候适应力理学硕士课程使学生能够正面应对这些全球挑战，课程为学生提供广泛的知识和技能以应对气候变化带来的水资源挑战，学生将向世界领先的专家学习，应用前沿数据和方法，如基于自然的解决方案和数据分析工具，可以应对与水有关的危害，建立气候适应能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究方法 (Research Methods)\n水与自然环境 (Water and the Natural Environment)\n应对气候紧急情况的水文气象学 (Hydrometeorology for the Climate Emergency)\n气候未来 (Climate Futures)\n基于自然的气候适应解决方案 (Nature-Based Solutions for Climate Resilience)\n地理信息系统与数据管理 (Geographic Information Systems and Data Management)\n灾害风险管理 (Disaster Risk Management)\n洪水建模与管理 (Flood Modelling and Management)\n研究论文 (Research Dissertation)",
+  "success_cases": ""
+}

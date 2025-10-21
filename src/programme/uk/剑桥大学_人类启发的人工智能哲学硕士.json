@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "人类启发的人工智能哲学硕士",
+  "ename": "MPhil Human-Inspired Artificial Intelligence",
+  "tags": "工科,其他工科,科技与人文研究所",
+  "introduction": "专业方向: 其他工科\n入学时间: 10月\n项目时长: 1年\n项目学费: 44826英镑/年",
+  "requirements": "申请者应该具有英国Good II.i荣誉学位或同等学历学校接受各种学术背景的学生，但是申请者应该了解并准备好这门课程的计算、数学和编程方面的内容。 学校建议在这些领域经验有限的学生参加开放日，以评估适合他们需要的课程如果被录取，需要ATAS以获取签证（被录取前不要申请ATAS）",
+  "objectives": "剑桥大学人类启发的人工智能哲学硕士项目旨在为下一代人工智能研究人员、技术人员和领导者提供开发以人为本、与人类兼容、负责任、对社会和全球有益的人工智能技术所需的技能。课程向来自不同背景的学生介绍技术和研究技能，以及人工智能应用和一系列学科问题的专业知识，并为他们提供在大学领域专家的密切监督下进行重点研究的机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人类启发的人工智能简介 (Introduction to Human-Inspired AI)",
+  "success_cases": ""
+}

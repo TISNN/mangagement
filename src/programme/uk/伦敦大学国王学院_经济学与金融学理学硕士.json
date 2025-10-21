@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "经济学与金融学理学硕士",
+  "ename": "MSc Economics & Finance",
+  "tags": "商科,经济,商学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 37800英镑/年",
+  "requirements": "具有high 2:1本科（荣誉）学士学位，需要经济学、金融学、自然科学、数学或社会科学背景，同时具备定量背景的证据，学校鼓励具有科学背景（如工程学）的申请者提出申请\n不强制要求申请者提供GMAT或GRE成绩作为申请的一部分，但平衡良好的分数可能有助于申请，针对GMAT Exam (10th Edition)建议分数达到670，针对GMAT Exam (Focus Edition)建议分数不低于615或百分位排名78%，针对GRE建议分数不低于324（语言推理部分70-75%）",
+  "objectives": "伦敦大学国王学院经济学与金融学理学硕士课程旨在为学生提供在商业和金融部门开展职业生涯所需的经济和金融知识和技能，学生将学习微观经济学和宏观经济学，金融市场和服务，以及金融和计量经济学之间的关系，学习成功所需的关键定量技能。课程是以经济学和金融学的社会科学方法为基础的哲学和方法论。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "微观经济学：理解公司，消费者和行业 (Microeconomics; understanding firms, consumers and industries )\n微观经济学：理解国民收入，消费和投资 (Macroeconomics; understanding national income, consumption and investment )\n计量经济学：理论与运用 (Econometrics; theory and application )\n金融学原理 (Principles of Finance )\n研究项目 (Research Project )\n企业行为经济学 (The Economics of Firm Behaviour )\n货币，宏观经济政策与金融体系 (Money, Macroeconomic Policy and the Financial System )\n金融衍生品 (Financial Derivatives)\n金融计量学 (Financial Econometrics )\n国际经济学 (International Economics )\n国际金融 (International Finance)\n劳动，教育和卫生经济学 (The Economics of Labour, Education and Health )\n风险管理 (Risk Management)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "生成式人工智能理学硕士",
+  "ename": "MSc Generative Artificial Intelligence",
+  "tags": "工科,计算机,工程、数学与物理科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 30300英镑/年",
+  "requirements": "具有2:1荣誉学位，需要计算机科学或相关专业背景",
+  "objectives": "埃克塞特大学生成式人工智能理学硕士项目将让学生深入了解生成人工智能的原理和技术，从基础机器学习概念和数据驱动建模到深度学习和大型语言模型等高级技术。生成人工智能的伦理和社会影响是关键组成部分。该课程将促进负责任的人工智能系统的发展，这些系统可以为社会做出积极贡献，让学生为应对这一快速发展的领域的挑战和机遇做好准备。\n学生将探索生成模型的核心方法及其在自然语言处理、文本到图像合成和创意产业等领域的多种应用。该课程将理论知识与实践技能相结合，提供对生成 AI 的全面理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究项目 (Research Project)\n深度学习 (Deep Learning)\n生成式人工智能 (Generative AI)\n大规模数据科学 (Data Science at Scale)\n生成式人工智能应用 (Generative AI Applications)\n从数据中学习 (Learning from Data)\n机器学习 (Machine Learning)\n大型语言模型和应用程序 (Large Language Models and Applications)\n计算机视觉 (Computer Vision)\n社会网络与文本分析 (Social Networks and Text Analysis)\n医疗保健中的人工智能 (AI in Healthcare)\n环境中的人工智能 (AI in Environment)\n数据治理与伦理 (Data Governance and Ethics)",
+  "success_cases": ""
+}

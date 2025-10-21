@@ -1,0 +1,12 @@
+{
+  "school_name": "克兰菲尔德大学",
+  "major_name": "高级机械工程理学硕士",
+  "ename": "MSc Advanced Mechanical Engineering",
+  "tags": "工科,机械工程,能源与动力",
+  "introduction": "专业方向: 机械工程\n入学时间: 10月\n项目时长: 1年\n项目学费: 26580英镑/年",
+  "requirements": "具有数学、物理或工程学科背景",
+  "objectives": "克兰菲尔德大学高级机械工程理学硕士项目旨在帮助学生为成功完成大型复杂项目的机械工程职业做好准备。学生将学习最先进的机械工程方法，通过以工业为重点的模块和研究项目将其应用于现实世界中的问题，同时获得将想法变为现实的基本管理技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "流体力学与载荷 (Fluid Mechanics and Loading)\n风险与可靠性工程 (Risk and Reliability Engineering)\n工程应力分析：理论与模拟 (Engineering Stress Analysis: Theory and Simulations)\n可再生能源计算流体动力学 (Computational Fluid Dynamics for Renewable Energy)\n结构完整性 (Structural Integrity)\n技术管理 (Management for Technology)\n部件设计 (Component Design)\n应用材料与腐蚀 (Applied Materials and Corrosion)",
+  "success_cases": ""
+}

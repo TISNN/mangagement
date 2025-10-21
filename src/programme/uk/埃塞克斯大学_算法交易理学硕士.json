@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "算法交易理学硕士",
+  "ename": "MSc Algorithmic Trading",
+  "tags": "商科,金工金数,计算机科学与电子工程学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:1学位，需要满足以下背景之一：计算机科学、计算机工程、计算机网络、电脑游戏、计算、软件工程、金融学、商学、 经济学、物理学、数学以及一门数学课程学习背景，如：数学、微积分、代数、微分方程以及一门编程课程学习背景或具备在编程/算法交易方面的实际工作经验",
+  "objectives": "埃塞克斯大学算法交易理学硕士项目旨在为学生提供高频金融的核心概念和定量方法，以及为使用先进的计算方法进行金融建模的操作技能，让学生从发生在亚毫秒级范围内的个人交易的层面了解金融市场，并将其应用于实时交易和风险管理方法的开发。学生将有机会研究如何使用金融市场模拟器进行压力测试交易策略以及设计电子交易平台。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文 (CCFEA MSc Dissertation)\n金融市场分析概论 (Introduction to Financial Market Analysis)\n专业实践与研究方法 (Professional Practice and Research Methodology)\n金融与贸易中的定量方法 (Quantitative Methods in Finance and Trading)\n金融科技与数字经济的计算市场微观结构 (Computational Market Microstructure for FinTech and the Digital Economy)\n创建与发展新企业 (Creating and Growing a New Business Venture)\n金融工程与风险管理 (Financial Engineering and Risk Management)\n金融行业专家讲座 (Industry Expert Lectures in Finance)\n经济学与金融学计算模型 (Computational Models in Economics and Finance)\n大数据计算金融 (Big-Data for Computational Finance)\nPython编程入门 (Introduction to Programming in Python)\n文本分析 (Text Analytics)",
+  "success_cases": ""
+}

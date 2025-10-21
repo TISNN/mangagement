@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "经济学理学硕士",
+  "ename": "MSc Economics",
+  "tags": "商科,经济,经济学院",
+  "introduction": "专业方向: 经济\n入学时间: 9月\n项目时长: 1年\n项目学费: 32960英镑/年",
+  "requirements": "具有2:1本科学位或同等学历，主修经济学，申请者应该在中级水平的微观经济学、宏观经济学和计量经济学/经济统计学本科课程中取得优秀成绩\n学校也希望学生在本科水平的数学课程中取得优秀成绩\n申请者需要具备以下数学领域的能力，并且以下统计学领域至关重要：\n- 数学：微积分，多变量函数，偏导数，使用拉格朗日乘数约束优化，矩阵代数和线性方程\n- 统计学：概率论，分布理论（二项分布、正态分布和相关分布），抽样理论，统计推断，区间估计，假设检验（均值和方差），最小二乘回归",
+  "objectives": "华威大学经济学理学硕士项目适合有着相关学科知识背景并想要获得当代经济学的严格训练，为未来专业经济学家或分析学家的职业生涯做准备的学生。\n在正式开始华威大学经济学理学硕士项目的学习前，学生需首先学习有关数学与统计学项目的预备课程，以掌握硕士阶段所需的定量分析方法。通过华威大学经济学理学硕士项目的学习，学生将能够快速地阅读并理解学术期刊上的研究型文章，独立建立理论模型，开展经验型实验并评价相关研究结果。不少华威大学经济学理学硕士项目的毕业生都进入到了银行业、金融业、公共政策领域与学术研究领域中的高层职位。\n华威大学经济学理学硕士项目一直被备受推崇，致力于为学生提供有关宏观经济学与微观经济学理论、计量经济学与研究方法的核心领域的专门教学，并提供给学生自主选择感兴趣的选修课程的机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "经济分析（AA，AB，BA或BB） (Economic Analysis (AA, AB, BA or BB))\n定量方法（A或B） (Quantitative Methods (A or B))\n论文 (Dissertation)\n数据科学的应用 (Applications of Data Science)\n行为经济学 (Behavioural Economics)\n劳动经济学 (Labour Economics)\n发展中国家的公共政策 (Public Policy in Developing Countries)\n应用宏观经济学专题 (Topics in Applied Macroeconomics)\n全球金融专题 (Topics in Global Finance)",
+  "success_cases": ""
+}

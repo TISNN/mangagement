@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "医学与分子病毒学理学硕士",
+  "ename": "MSc Medical and Molecular Virology",
+  "tags": "社科,医学,生物、医学和健康学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 37000英镑/年",
+  "requirements": "具有一等或2:1学位或同等学历，需要相关生物医学/生物科学学科背景\n非标准申请者将根据个人情况予以考虑\n本课程也适用于来自曼彻斯特大学和其他英国大学完成第三年学习的插班医学生，对于圣安德鲁斯大学的学生来说，这包括三年的课程以及随后在曼彻斯特度过的一到两年",
+  "objectives": "曼彻斯特大学医学与分子病毒学理学硕士课程将提供医学病毒学方面的教育和培训，使学生具备分子技能和知识，以理解分子和生物信息分析在现代病毒学中发挥的日益重要的作用，学生也将获得关于病毒、它们引起的疾病以及它们如何引起这些疾病的深入知识和理解，还有理解如何诊断、控制和预防个人和社区的感染。通过将学术研究与临床病毒学在卫生服务的实践相结合，曼彻斯特大学医学与分子病毒学理学硕士课程是高度相关的，在医学和分子病毒学的前沿。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "医学和分子病毒学入门 (Introductory Medical and Molecular Virology)\n病毒与疾病1 (Viruses and Disease 1)\n病毒与疾病2 (Viruses and Disease 2)\n病毒与疾病3 (Viruses and Disease 3)\n实践中的研究技能(简写) (Research skills in Practice (short version))\n研究项目 (Research Project)",
+  "success_cases": ""
+}

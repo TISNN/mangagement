@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "应用语言学与对外英语教学文学硕士",
+  "ename": "MA Applied Linguistics and TESOL",
+  "tags": "社科,教育,媒体、艺术与人文学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 22575英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要语言学、英语、现代语言或包含重要语言成分（例如语言学辅修）的学科背景。或者，专业背景不限，在语言相关职业（例如语言教师、语言支持助理或翻译）方面的大量工作经验（两年全职或同等经历）。如果申请者拥有其他专业资格或同等资格的经验，也可以考虑参加该课程",
+  "objectives": "萨塞克斯大学应用语言学与对外英语教学文学硕士项目将应用语言学视为语言知识的实际应用。学生将获得有关语言使用的社会功能和背景以及如何将研究应用于实践的知识。学生将了解语言的结构、使用和学习方式，并获得文化意识技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语言使用研究 (Researching Language in Use)\n研究建议（应用语言学） (Research Proposal (Applied Linguistics))\n论文（应用语言学） (Dissertation (Applied Linguistics))\n语言分析 (Language Analysis)\n语言变异 (Language Variation)\n第二语言习得与研究 (Second Language Acquisition and Research)\n语篇与交际话题 (Topics in Discourse and Communication)\n儿童语言习得 (Child Language Acquisition)\n语料库与语篇 (Corpus and Discourse )\n法律语言学 (Forensic Linguistics)\n全球英语 (Global Englishes)\n跨文化交际中的语言与文化 (Language and Culture in Intercultural Communication)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "海事工程科学（海洋工程与自治）理学硕士",
+  "ename": "MSc Maritime Engineering Science (Marine Engineering and Autonomy)",
+  "tags": "工科,机械工程,工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位，需要以下背景：船舶或海事工程、造船学、船舶科学、航空航天工程、机械工程、通用工程、电气工程、物理学、数学\n申请者还需要在数学和力学课程中成绩达到2:1\n学校可能考虑具有海洋学或建筑学本科学位的申请者，或者来自海洋学院的申请者\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "海事工程科学（海洋工程与自治）理学硕士旨在教授学生学习有关船舶的组件和系统工程。学生还将了解帮助它们运行的固定和离岸结构，学习成为海洋领域专家所需的技能。毕业后，学生将具备设计和分析技能，能够从事海事领域的工作，或者继续攻读博士学位。通过该课程学生将对海事工程科学基本原理、方法和应用有深入的了解，本课程着重于分析和说明船舶和其他海洋结构上使用的船舶工程和自主系统。学生将学习电子理论，热力学，发动机和机器摩擦学等主题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级传感器和状态监测 (Advanced Sensors and Condition Monitoring)\n船舶科学基础 (Fundmentals of Ship Science)\n海洋法与管理 (Marine Law and Management)\n海洋工程 (Marine Engineering)\n燃料电池和光伏系统1 (Fuel Cells and Photovoltaic Systems 1)\n船舶阻力与推进的研究进展 (Advances in Ship Resistance and Propulsion)\n高级控制设计 (Advanced Control Design)\n高级电气系统 (Advanced Electrical Systems)\n海洋安全与环境工程 (Marine Safety and Environmental Engineering)\n研究项目 (MSc Research Project)\n海洋机器人 (Maritime Robotics)",
+  "success_cases": ""
+}

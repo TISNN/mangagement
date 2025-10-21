@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "生物分子工程与健康信息学理学硕士",
+  "ename": "MSc Biomolecular Engineering and Health Informatics",
+  "tags": "理科,生物,工程学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 184800港币/年",
+  "requirements": "具有学士学位或同等学历并且达到二等荣誉学位，需要生物分子工程、健康信息学、化学工程、生物工程、生物技术、生物医学工程、食品工程、材料科学、化学、物理、高分子科学、生物信息学、计算机科学或相关领域背景",
+  "objectives": "生物分子工程涉及自然衍生和人工材料和设备的分子水平设计与工程，应用于药物输送、治疗学、生物传感、即时诊断、合成和系统生物学以及组学技术等领域。健康信息学结合了来自数学、数据科学和计算机科学的技能，以获取、处理和分析与健康相关的数据，从而做出最佳决策。香港科技大学生物分子工程与健康信息学理学硕士项目整合了生物分子工程和健康信息学，使学生能够为这些领域的职业机会做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物工程中的数据科学 (Data Science in Bioengineering)\n生物材料工程 (Biomaterials Engineering)\n分子与细胞生物工程 (Molecular and Cellular Bioengineering)\n传感技术在医疗保健中的基础与应用 (Fundamentals and Applications of Sensing Technology in Healthcare)\n生物成像与生物信号分析 (Bioimaging and Bio-signal Analysis)\n合成生物学 (Synthetic Biology)\n基因组学、蛋白质组学与代谢组学 (Genomics, Proteomics and Metabolomics)\n制药工程 (Pharmaceutical Engineering)\n蛋白质工程 (Protein Engineering)\n高级生化工程 (Advanced Biochemical Engineering)\n人工智能与医学成像 (Artificial Intelligence and Medical Imaging)\n生物技术产业的监管、伦理、创新与职业发展 (Regulation, Ethics, Innovation, and Career Development in Biotechnology Industry)\n专题 (Special Topics)\n独立项目 (Independent Project)\n综合设计项目 (Integrated Design Project)",
+  "success_cases": ""
+}

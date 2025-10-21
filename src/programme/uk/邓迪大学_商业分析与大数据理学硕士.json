@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "商业分析与大数据理学硕士",
+  "ename": "MSc Business Analytics and Big Data",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 23000英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要任何能够发展分析和定量技能的学科背景",
+  "objectives": "邓迪大学商业分析理学硕士项目将帮助学生培养分析数据和理解业务分析模型的必要技能。邓迪大学商业分析理学硕士课程由商学院内的专家讲授，并得到计算科学同事的支持，以确保学生能够获得最高质量的学习。该计划非常灵活，学生可以选择专攻市场营销、国际商务、大数据、管理或金融。\n邓迪大学商业分析理学硕士项目向商科和非商科毕业生开放，教授应用最新的分析和定量工具对可用数据做出明智的业务决策，同时根据对社会和个人的影响来检查数据的道德使用和管理。 邓迪大学商业分析理学硕士课程将通过为学生提供将数据转化为有价值的信息所需的技能组合，使学生能够在整个职业生涯中做出更明智的业务决策。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据库系统开发 (Database Systems Development)\n商业数据可视化 (Data Visualization for Business)\n金融科技和区块链技术 (Fintech and Blockchain Technology)\n业务分析项目 (Business Analytics Project)\n大数据分析 (Big Data Analysis)\n商业和金融预测 (Forecasting for Business and Finance)\n业务分析 (Business Analytics)\n规范性和预测性分析 (Prescriptive and Predictive Analytics)\n软件开发 (Software Development)\n技术创新管理 (Technology Innovation Management)\n软件工程 (Software Engineering)\n高级编程技术 (Advanced Programming Techniques)\n研究方法 (Research Methods)",
+  "success_cases": ""
+}

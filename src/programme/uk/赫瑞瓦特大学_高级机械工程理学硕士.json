@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "高级机械工程理学硕士",
+  "ename": "MSc Advanced Mechanical Engineering",
+  "tags": "工科,机械工程,工程与物理科学学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 28056英镑/年",
+  "requirements": "至少获得相关学科的2:1荣誉学位或同等学历。学位必须至少包含3个数学课程和3个物理或工程课程，且占比50%或以上。相关学位包括机械工程、航空工程、材料工程、生物医学工程、汽车工程和物理学\n学校希望本科学位课程包括材料、流体动力学、热力学、动力学和结构，而不适合入学的学位则会主要侧重于制造业\n学校将考虑获得相关2:2学位的有工作经验的申请者",
+  "objectives": "赫瑞-瓦特大学高级机械工程理学硕士旨在通过高级教学、设计工作和研究，将机械工程学士学位研究生的知识和技能提高到硕士水平。它为来自不同工程背景的候选人提供了一个发展其专业发展所需的关键机械工程知识和技能的机会。该课程的一个主要目标是成为一名注册工程师的合格途径。\n赫瑞-瓦特大学高级机械工程理学硕士课程采用能源科学和制造与设计的硕士课程，并辅之以研究所提供的相关理学硕士课程的专业课程。我们的行业合作伙伴对先进机械工程课程的需求与日俱增，而这一课程的开发正是为了满足这一需求，并鼓励学生进一步学习。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "专业工程技术课程 (Specialist Engineering Technologies)\n工程设计 (Engineering Design)\n流体 (Fluids)\n材料高级力学 (Advanced Mechanics of Materials)\n力学 (Dynamics)\n热力学 (Thermodynamics)\n火焰评估 (Flame Appraisal)\n批判性分析和研究准备 (Critical Analysis and Research Preparation)\n故障事故分析 (Failure Accident Analysis)\n工程制造 (Engineering Manufacture)\n火焰发展 (Flame Development)\n硕士论文 (Masters Dissertation)",
+  "success_cases": ""
+}

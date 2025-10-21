@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "公共卫生硕士",
+  "ename": "Master of Public Health",
+  "tags": "社科,公共卫生,医学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 30300英镑/年",
+  "requirements": "具有2:1学位，需要以下学科背景之一：生物医学科学、生物化学、生理学、心理学、人口学、人类/健康地理学、药学、医学和牙科学\n申请者必须能够通过本科阶段的学习证明具备统计学、流行病学、研究方法方面的能力\n学校不能接受以下学科的学位：护理、物理治疗、放射学、职业健康和静脉切开术\n本课程也可作为本科医学生的插班学位课程\n申请时需要提交满足要求的语言成绩\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学公共卫生硕士项目旨在培养成为改变世界的公共卫生领导者所需的技能，在课程中学生将学习如何促进健康、预防疾病和解决卫生领域的重大全球威胁，学校在该领域的领先专家将帮助学生获得所需的技能，以开启职业生涯并在当地、国家和全球范围内有所作为。\n通过南安普顿大学公共卫生硕士项目，学生将能够广泛了解影响健康的政治、社会和经济因素，发展专业知识和技能，为健康领域做出贡献，学习如何促进和影响人口健康，减少健康不平等，使用适当的方法论原则和批判性思维评估研究和政策，通过广泛的选修课程根据其兴趣个性化其学习内容，为在多学科环境中有效地工作、建立工作关系、领导团队并与他人合作做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "基础流行病学 (Basic Epidemiology)\n研究论文/专业项目 (Dissertation by Research/Professional Project)\n基础统计方法 (Foundational Statistical Methods)\n公共卫生基础 (Foundations in Public Health)\n健康定性研究基础 (Foundations of Qualitative Research for Health)\n改善人口健康：从理论到行动 (Improving Population Health: Theory to Action)\n专业发展 (Professional Development)\n高级流行病学 (Advanced Epidemiology)\n流行病学高级统计方法 (Advanced Statistical Methods in Epidemiology)\n健康应用定性研究 (Applied Qualitative Research for Health)\n行为操作 (Behavioural Operations)\n传染病控制 (Communicable Disease Control)\n地理信息系统核心技能 (Core Skills in GIS)\n全球卫生中的关键问题：概念与案例研究 (Critical Issues in Global Health: Concepts and Case Studies)\n用于健康分析的地理信息系统 (GIS for Analysis of Health)\n公共卫生的卫生经济学与评估 (Health Economics and Evaluation for Public Health)\n管理复杂性、不确定性与主观性 (Managing Complexity, Uncertainty and Subjectivity)\n全球健康趋势与差异的方法与分析 (Methods and Analysis of Global Health Trends and Differentials)\n营养与健康 (Nutrition and Health)\n人口、贫困与政策 (Population, Poverty & Policy)",
+  "success_cases": ""
+}

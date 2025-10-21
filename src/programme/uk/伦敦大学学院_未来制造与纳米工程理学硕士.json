@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "未来制造与纳米工程理学硕士",
+  "ename": "MSc Future Manufacturing and Nanoscale Engineering",
+  "tags": "工科,机械工程,工程科学学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "具有英国大学颁发的2:1学士学位或同等学历，需要相关学科背景，需要ATAS认证",
+  "objectives": "伦敦大学学院未来制造与纳米工程理学硕士项目将技术知识与实践技能相结合，使学生能够设计和制造具有纳米级独特应用的材料和结构。该计划将为学生提供：\n1. 下一代知识、技术和数值工具集，以设计微米级和纳米级材料；\n2. 使学生掌握此类材料的纳米级制造技术知识，包括自下而上（例如增材制造）和自上而下（例如精密制造）类型，使学生能够以创造性和包容性的方式满足制造业的未来需求。\n3. 提供充足的机会来获得材料和结构的制造、表征、计量和测试方面的行业相关经验。\n4. 通过体验式和鼓舞人心的学习方法，使您能够将制造技术中复杂的知识库应用于现实世界的问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级表征和实验室技术 (Advanced Characterisation & Laboratory Techniques)\n微/纳米结构复合材料 (Micro/Nano Architected Composite Materials)\n制造材料设计 (Material Design for Manufacturing)\n精密制造 (Precision Manufacturing)\n集团制造挑战 (Group Manufacturing Challenges)\n高级研究项目 (Advanced Research Project)\n纳米工程基础 (Fundamentals of Nanoengineering)\n工程系统的可持续性分析 (Sustainability and Decision-Making)\n可持续性和决策 (Sustainability Analysis of Engineering Systems)\n数字材料制造的应用 (Applications of Digital Materials Manufacturing)\n高通量材料化学 (High-Throughput Materials Chemistry)\n受自然启发的解决方案 (Nature-Inspired Solutions)\n受自然启发的材料工程 (Nature-Inspired Materials Engineering)\n包容性设计和环境 (Inclusive Design and Environments)\n为更公平的世界而创新 (Innovation for a Fairer World)\n找到你的未来 (Find your Future)\n创业精神：理论与实践 (Entrepreneurship: Theory and Practice)\n与当地社区一起探索特权、包容和排斥 (Exploring Power, Inclusion and Exclusion with Local Communities)",
+  "success_cases": ""
+}

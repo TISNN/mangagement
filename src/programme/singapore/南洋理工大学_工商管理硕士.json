@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 7月\n项目时长: 1年\n项目学费: 81750新币/年",
+  "requirements": "具有学士学位\n具备至少2年工作经验\n具备有竞争力的GMAT/GRE成绩",
+  "objectives": "作为亚洲最富盛名的工商管理项目之一，南洋理工大学工商管理硕士项目在2019年又上榜英国《金融时报》全球MBA排行榜第30位，其吸引着来自世界各地的优秀人才。该项目是为期一年的全日制项目，可以通过五个专业方向的选修课以及全校知名学校的跨学科课程来定制他们的学习之旅 。强调基于应用的学习，学生有机会在南洋（SPAN）开展“实时”战略项目Strategy Projects，在团队中工作，以应对特定组织提出的现实战略挑战。该课程旨在帮助学生成长为具备在全球数字环境中脱颖而出的面向未来的领导者。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计学 (Accounting)\n科技与电子商务 (Technology and e-Business)\n金融学 (Finance)\n市场营销 (Marketing)\n运筹学 (Operations)\n战略管理 (Strategic Management)\n决策分析学 (Analytics for Decision-Making*)\n公司管理与职业道德 (Corporate Governance and Ethics*)\n经济学与市场学 (Economics and Markets*)\n全球领军人物 (Leading People Globally)\n战略项目 (Strategy Projects At Nanyang)\n商业学习 (Business Study Mission)",
+  "success_cases": ""
+}

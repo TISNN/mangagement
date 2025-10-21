@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "商务资讯系统理学硕士（智能系统管理）",
+  "ename": "MSc Business Information Systems (Management of Intelligent Systems Stream)",
+  "tags": "商科,信息系统,商学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 276000港币/年",
+  "requirements": "具有认可的学士学位，不限专业背景，最好不要是信息系统或计算机科学相关学科",
+  "objectives": "香港城市大学商务资讯系统（智能系统管理）硕士课程旨在训练学生掌握商业的核心领域和支撑当代资讯社会的尖端资讯系统，使毕业生能胜任既需要高级商业知识，又需要运用资讯科技解决问题的专业职位。管理信息系统方向针对非IT背景的申请人，重点是发展他们在评估尖端IT、协调IT支持的业务计划和管理业务信息系统的操作方面的能力，以满足组织的业务需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "使用Python进行分析编程 (Analytical Programming with Python)\n数据库管理系统 (Database Management Systems)\n资讯与电子商务系统基础 (Foundations of Information and Electronic Business Systems)\n商务应用JAVA编程 (JAVA Programming for Business Applications)\n项目管理与质量保证 (Project Management and Quality Assurance)\n系统分析与设计 (System Analysis and Design)\n数据可视化 (Data Visualization)\n信息系统基础建设与安全管理 (Information Systems Infrastructure and Security Management)\n信息系统规划与战略 (Information Systems Planning and Strategy)\n基于信息技术的业务转型 (Information Technology Based Business Transformation)\n知识管理 (Knowledge Management)\n亚洲管理咨询 (Management Consulting in Asia)\n管理支持与商业智能系统 (Management Support and Business Intelligence Systems)\n区块链技术与商业应用 (Blockchain Technology and Business Applications)\n商业数据分析 (Business Data Analytics)",
+  "success_cases": ""
+}

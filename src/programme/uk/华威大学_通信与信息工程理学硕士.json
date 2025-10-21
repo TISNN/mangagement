@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "通信与信息工程理学硕士",
+  "ename": "MSc Communications and Information Engineering",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 29880英镑/年",
+  "requirements": "具有2:1本科英国荣誉学位或同等学历，需要工程、物理科学或数学学科背景\n申请者的数学知识需要达到A2 Level或同等水平，涵盖线性代数、微积分和分析等主题，包括微分方程，这可以通过作为本科课程一部分的数学模块获得，学校希望学生在硕士学习开始时对这些主题具备很好的理解\n学校愿意根据具体情况考虑具有较低学历的申请者，尤其是能够证明具备相关就业、实践经验或在与申请专业相关的本科课程中表现出色的申请者\n为了确保申请者掌握学习该课程的必要基础，根据其整体学术表现，可能会要求申请者参加数学技能测试",
+  "objectives": "华威大学通讯与信息工程理学硕士项目提供现代通信和信息工程基本要素的综合培训，该课程提供信息理论基础以及光学和无线电传输的物理层方面的知识。学生还将探索无线网络架构和部署方面的发展，并有机会根据现实问题中的算法和目标学习通信技术、数据分析和数据挖掘。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级无线系统和网络 (Advanced Wireless Systems and Networks)\n信息论与编码 (Information Theory and Coding)\n无线电波传播与无线通信理论 (Radiowave Propagation and Wireless Communications Theory)\n光通讯系统 (Optical Communications Systems)\n个人项目 (Individual Project)\n通信与信息工程设计项目 (Communication and Information Engineering Design Project)\n研究方法和专业技能 (Research Methods and Professional Skills)\n信号处理 (Signal Processing)\n微波工程与射频电路 (Microwave Engineering and RF Circuits)\nASIC，MEMS和智能设备 (ASICs, MEMS and Smart Devices)\n光学工程 (Optical Engineering)\n图像和视频分析 (Image and Video Analysis)\n数据分析基础 (Foundations of Data Analytics)\n数据挖掘 (Data Mining)",
+  "success_cases": ""
+}

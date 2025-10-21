@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门理工大学",
+  "major_name": "公共管理硕士",
+  "ename": "Master of Public Administration",
+  "tags": "社科,公共政策与事务,人文及社会科学学院",
+  "introduction": "专业方向: 公共政策与事务\n入学时间: 8月\n项目时长: 2年\n项目学费: 85000澳门币/年",
+  "requirements": "具有学士学位或同等学历；或\n正修读上述学历课程最后一年。\n其他所需文件：\n- 语言水平测试证明（如有）\n例如：国家大学英语考试（CET）、雅思（IELTS）、托福（TOEFL）等\n- 内地全国研究生招生考试初试成绩（如有）",
+  "objectives": "澳门理工大学公共管理硕士项目旨在培养具有较强研究探索能力和创新思维，能够掌握公共管理理论和政策分析方法的高层次专业人才。该项目以科学全面的高素质人才培养理念为指导思想，以创新的方式加强学生的个性发展，为社会、学术研究机构和政府充实人才储备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公共政策分析 (Public Policy Analysis)\n“一国两制”的理论与实践 (Theory and Practice of \"One Country, Two Systems\")\n公共管理 (Public Management)\n社会科学研究方法 (Social Science Research Methods)\n项目报告 (Project Report)\n数字治理 (Digital Governance)\n大湾区与区域合作 (Greater Bay Area and Regional Cooperation)\n公共政策专业选修课 (Special Elective Course of Public Policy)\n非营利组织管理 (Non-profit Organisation Management)\n战略与危机管理 (Strategy and Crisis Management)\n公共经济学 (Public Economics)",
+  "success_cases": ""
+}

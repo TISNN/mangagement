@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "生物信息学理学硕士（CUHK-Shenzhen）",
+  "ename": "MSc Bioinformatics (CUHK-Shenzhen)",
+  "tags": "理科,生物,深圳校区",
+  "introduction": "专业方向: 生物\n入学时间: 8月\n项目时长: 1.5年\n项目学费: 116667人民币/年",
+  "requirements": "申请者需毕业于认可的大学并获得学士学位，成绩不低于80/100，平均绩点不低于3.0/4.0，需要提供B等级证明，或获得等同大学本科的资历",
+  "objectives": "香港中文大学（深圳）生物信息学硕士专业由生命与健康科学学院与数据科学学院共同开设，旨在为学生的跨学科学习、创造性思维、实用问题的解决能力以及对新兴生物技术及其未来发展的敏锐感知奠定坚实的基础，且为学生提供在生物信息领域完整扎实的学习与训练。例如，本科专业为生物、化学或物理的学生，经过本、硕课程跨领域修读和动手操作，将成为生物科技领域不可或缺的顶尖人才，并可在生物信息与生物医学处于领导地位。\n生物信息学是一项跨领域的学科，涵括生命科学、物理、化学、统计、计算科学与数据科学。近年来，生物信息已成为现代生物学的基石，用以探索生物系统的生命过程，从生物大数据中挖掘新颖的生物机制，进而研制出疾病诊断与治疗的方案。领域各项突破性进展正在塑造新的生命科学、农业科学、医学研究、医疗系统和生物科技产业。在国家与企业的大力支持下，国内特别是在珠江三角洲的生物科技产业正在快速增长，其中药物开发更是知识密集产业。因此，对具有专业生命科学与药物开发知识和生物信息学能力的专业人才的需求也在迅速增长。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物医学研究中的机器学习 (Machine Learning for Biomedical Research)\n生物信息学的理论和算法 (Theories and Algorithms in Bioinformatics )\n计算分子建模与设计 (Computational Molecular Modeling and Design)\n基因组信息学 (Genome Informatics)\n生物医学研究中的统计方法 (Statistical Methods for Biomedical Research)\n计算机辅助药物设计专题研讨 (Topics in Computer-Aided Drug Design)\n生物信息算法特论 (Selected Topics in Bioinformatics Algorithms)\n计算结构生物学 (Computational Structural Biology)\n计算蛋白质组学与功能预测 (Computational Proteomics and Functional Prediction)\n生物数据库设计与数据可视化 (Biological Databases Design and Data Visualization)\n深度学习 (Deep Learning)\n分子药理学及现代药物研发 (Molecular Pharmacology and Modern Drug Design)\n专题研究 (Research Project)\n深度学习特论 (Selected Topics in Deep Learning )\n物理分子生物学 (Physical Basis of Molecular Biology)",
+  "success_cases": ""
+}

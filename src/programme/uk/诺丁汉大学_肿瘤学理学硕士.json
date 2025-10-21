@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "肿瘤学理学硕士",
+  "ename": "MSc Oncology",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 32400英镑/年",
+  "requirements": "具有2:2学位或同等学历，需要相关学科背景如生物和医学科学",
+  "objectives": "诺丁汉大学肿瘤学理学硕士课程由国际公认的癌症研究科学家和临床医生授课，学生将研究从癌症的细胞和分子生物学到癌症研究中使用的技术的所有内容，然后再专注于癌症治疗和新型癌症药物开发。学生将加深在癌症研究的所有领域的知识，并在特别感兴趣的领域中选择一个项目。学生将加入一个在该领域工作的研究小组并进行为期六个月的深入独立研究项目，利用了解一些最新的肿瘤学技术，并增强自己成功评估和解释癌症研究数据的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "肿瘤生理学 (Tumour Physiology)\n肿瘤免疫学 (Tumour Immunology)\n细胞、发育和分子生物学 (Cell, Developmental and Molecular Biology)\n癌症研究中的技术 (Techniques in Cancer Research)\n放射生物学在治疗中的应用 (Radiation Biology Applied to Therapy)\n癌症统计与流行病学 (Cancer Statistics and Epidemiology)\n癌症的诊断病理学 (Diagnostic Pathology of Cancer)\n药物设计与药理 (Drug Design and Pharmacology)\n研究项目 (Research Project)\n癌症治疗与化疗 (Cancer Treatment and Chemotherapy)\n临床药理学与系统治疗 (Clinical Pharmacology and Systematic Therapies)",
+  "success_cases": ""
+}

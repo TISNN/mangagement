@@ -1,0 +1,12 @@
+{
+  "school_name": "佐治亚大学",
+  "major_name": "应用数学科学硕士",
+  "ename": "Master of Applied Mathematical Sciences",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 33学分\n项目学费: 33,957美元",
+  "requirements": "申请者必须修过多元微积分、线性代数和常微分方程的课程，还应该有一些使用计算机的经验",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

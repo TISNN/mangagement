@@ -1,0 +1,12 @@
+{
+  "school_name": "香港浸会大学",
+  "major_name": "传播学文学硕士 人工智能与数码媒体专修（北师大港浸会联合国际学院）",
+  "ename": "MA Communication (Artificial Intelligence & Digital Media Concentration) (Zhuhai, UIC campus)",
+  "tags": "社科,新媒体,北京师范大学香港浸会大学联合国际学院",
+  "introduction": "专业方向: 新媒体\n入学时间: 9月\n项目时长: 1年\n项目学费: 170000人民币/年",
+  "requirements": "具有认可大学颁发的学士学位或同等学历；和\n有相关工作经验的申请者，可获优先考虑；\n有学术研究成果者，或能够证明研究潜力人士也可获得考虑。\n申请者还需提供一份作品集（包括已发表的论文、新闻作品、GitHub代码库、个人网站等），并提供其他资格认证和奖励证明（如有）",
+  "objectives": "香港浸会大学传播学文学硕士人工智能与数码媒体专修旨在为学生提供计算和数字时代所需的人工智能和媒体通信方面的前沿跨学科知识和技能。学生应精通数据驱动研究、故事讲述、品牌推广、受众参与和编辑决策等基本方面。学生还应能够应用这些数据媒体和通信技能，为媒体组织和行业内或与行业相关的其他人提供分析、解决方案和见解。该课程以几门理论和方法学课程为学术核心，提供广泛的选修课程，重点是媒体机构和数字转型背景下的运营知识和实践。选择这些课程组合的具体目标是培养媒体和通信行业的高素质、有道德的专业人员和管理人员。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "媒体与传播基础  (Basics in Media and Communication )\n数据科学的基础编程  (Basic Programming for Data Science )\n数字媒体中的人工智能  (AI for Digital Media )\n人工智能与数字媒体实践  (AI and Digital Media Workshop )\n大数据管理与分析  (Big Data Management and Analytics  )\n人工智能理论与应用  (AI Theories and Applications )\n数字媒体推荐系统  (Recommender Systems for Digital Media  )\n数字媒体中的数据挖掘与知识发现  (Data Mining & Knowledge Discovery for Digital Media  )\n计算新闻学  (Computational Journalism  )\n新兴媒体和传播技术  (Emerging Technology for Media and Communication )\n数字媒体中的新闻撰写和特稿写作  (News and Feature Writing for Digital Media  )\n媒体传播与心理学  (Media Communications and Psychology  )\n算法文化  (Algorithmic Culture )\n媒体传播与生物学  (Media Communications and Biology )\n社交媒体和在线社交网络  (Social Media and Online Social Networks  )",
+  "success_cases": ""
+}

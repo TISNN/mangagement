@@ -1,0 +1,12 @@
+{
+  "school_name": "康奈尔大学",
+  "major_name": "工程物理硕士",
+  "ename": "MEng in Engineering Physics",
+  "tags": "理科,物理",
+  "introduction": "专业方向: 物理\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1年\n项目学费: 62,456美元",
+  "requirements": "拥有物理学、工程物理学或应用物理学本科学位的个人有资格申请。 也鼓励那些具有强大物理学背景和相关领域学位的人申请，例如化学、工程学、材料科学、生物物理学或数学。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "雷丁大学",
+  "major_name": "数字商业与数据分析硕士",
+  "ename": "MSc Digital Business and Data Analytics",
+  "tags": "商科,信息系统,亨利商学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 9月\n项目时长: 1年\n项目学费: 27000英镑/年",
+  "requirements": "具有good 2nd荣誉学位或同等学历",
+  "objectives": "雷丁大学数字商业与数据分析硕士项目旨在为学生提供数据分析、计算和业务方面的实际操作技能，使其能够转换数据，并最终改善业务流程和决策制定，通过该课程学生可以学习在当今的数字世界中管理业务所需的技能，探索如何分析数字业务问题，探索机器学习和人工智能等主题，并获得实际数据分析技能，生成可用的商业智能以在组织中创造竞争优势，掌握最新数据分析工具的最新知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业领域与需求分析 (Business Domain and Requirements Analysis)\n商业信息学 (Business Informatics)\n商业数据分析 (Business Data Analytics)\n职业与专业发展 (Career and Professional Development)\n数字领导力 (Digital Leadership)\n商业大数据 (Big Data in Business)\n商业智能与数据挖掘 (Business Intelligence and Data Mining)\n数字健康与数据分析 (Digital Health and Data Analytics)\n信息技术项目管理 (IT Project Management)\n组织动力学：数字时代的系统思考 (Organisational Dynamics: Systems Thinking in the Digital Age)\n数字化营销 (Digital Marketing)\n数字化创新 (Digital Innovation)\n数字领导力 (Digital Leadership)\n硕士论文 (MSc Dissertation)",
+  "success_cases": ""
+}

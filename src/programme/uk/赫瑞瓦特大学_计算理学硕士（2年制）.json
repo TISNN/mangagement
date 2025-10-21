@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "计算理学硕士（2年制）",
+  "ename": "MSc Computing (2 years)",
+  "tags": "工科,计算机,数学与计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/9月\n项目时长: 2年\n项目学费: 22648英镑/年",
+  "requirements": "要求获得3年制良好的荣誉或普通学位，需要算术能力和一定的编程能力\n本课程专为非计算机科学背景的学生设计",
+  "objectives": "赫瑞瓦特大学计算机理学硕士（2年制）是一个两年制的研究生学位。第一年传授的知识和技能，学习所需的学科硕士水平在第二年。 赫瑞瓦特大学计算机理学硕士（2年制）对任何学科的毕业生都开放。他们将从学习软件工程的艺术开始，学习一些关键的计算机主题，并发展相关的研究和技术英语技能，为来年的计算机科学进修做好准备。在第一学年结束时，学生可以升入第二学年，或者获得计算机科学研究生文凭。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级软件工程 (Advanced Software Engineering)\n英文研究准备 (Research Preparation in English)\n软件工程基础 (Software Engineering Foundations)\n高级互动设计 (Advanced Interaction Design)\n人工智能和智能代理 (Artificial Intelligence and Intelligent Agents)\n数据通讯与网络 (Data Communications and Networking)\n计算机网络安全 (Computer Network Security)\n工业编程 (Industrial Programming)\n项目管理 (Project Management)\n研究方法和项目计划 (Research Methods and Project Planning)\n3D图形和动画 (3D Graphics and Animation)\n高级网络安全 (Advanced Network Security)\n大数据管理 (Big Data Management)\n生物启发计算 (Biologically Inspired Computation)",
+  "success_cases": ""
+}

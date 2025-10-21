@@ -1,0 +1,12 @@
+{
+  "school_name": "乔治城大学",
+  "major_name": "数据科学与分析学硕士",
+  "ename": "Master of Science in Data Science and Analytics",
+  "tags": "商科,商业分析",
+  "introduction": "专业方向: 商业分析\n项目类别: STEM\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 2214美元/学分",
+  "requirements": "GPA要求3.0以上,要求:多变量微积分(3学分)要求:基于微积分的统计学(3学分)要求:计算机编程(3学分,主修语言)偏好:线性代数(3学分)偏好:数据结构(3学分)偏好:算法分析与设计(3学分)",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

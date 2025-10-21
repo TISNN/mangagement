@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "医事法与伦理法学硕士",
+  "ename": "LLM Medical Law and Ethics",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要法律、政治、医学、医学人文或生命科学背景\n在评估申请时可能会更加重视与申请专业相关的先前课程学习成绩\n相关的工作经验不是必需的但可能有助于申请\n相关专业资格将会被考虑",
+  "objectives": "如今，个人与人口健康问题日益受到社会的，而实现良好的健康与有效的医疗保健则需要创新和法律、伦理等各方面的协同作用。爱丁堡大学医事法与伦理法学硕士项目与J肯扬梅森医学、生命科学与法律研究所密切合作，致力于为学生提供前沿的理论与实践训练，培养学生的专业能力，使其能从容应对健康研究领域的法律与伦理挑战。并且，爱丁堡大学医事法与伦理法学硕士项目的课程涵盖国内外医事法与伦理学的先进研究，将带领学生深入探讨遗传学、辅助生殖、流产、医疗标准、移植医学、心理健康、预先决定、协助自杀、健康研究和稀缺资源的分配等方面的热点议题，拓宽学生的专业视野，使其具备必需的专业素质。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "医学法基本议题 (Fundamental Issues in Medical Jurisprudence)\n医学法当代议题 (Contemporary Issues in Medical Jurisprudence)\n生物伦理学基础 (Fundamentals in Bioethics)\n医疗过失 (Medical Negligence)\n生物技术、生物伦理与社会 (Biotechnology, Bioethics and Society)\n公共健康道德与法律 (Public Health Ethics and Law)\n风险与监管：理论与实践 (Risk and Regulation: Theories and Practices)",
+  "success_cases": ""
+}

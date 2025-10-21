@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "电子通信与计算机工程理学硕士",
+  "ename": "MSc Electronic Communications and Computer Engineering",
+  "tags": "工科,电气电子,电气与电子工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要电气与电子工程或相关学科背景，申请者学习过的课程应涵盖：数学、电路、计算机工程、信号/系统、数字信号处理、通信或相关关键技术课程",
+  "objectives": "诺丁汉大学电子通信与计算机工程理学硕士课程为期一年，允许学生研究各种主题，包括：电子设计，通讯，软件工程。课程提供对电子工程艺术的理解，并深入研究涵盖电子工程和通信系统的现代技术的主题。诺丁汉大学电子通信与计算机工程理学硕士项目的目标是帮助学生培养作为专业人士工作的信心，轻松适应学科惯例，并准备好处理电子工程的任何研究领域。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "硕士机电基础 (Electrical and Electronic Fundamentals for Masters)\n研究项目组织与设计 (Research Project Design and Organisation)\n高级计算工程 (Advanced Computational Engineering)\n人工智能和智能系统 (Artificial Intelligence and Intelligent Systems)\n数字信号处理 (Digital Signal Processing)\nHDL可编程序设备 (HDL for Programmable Devices)\n仪器和测量 (Instrumentation and Measurement)\n微波、毫米和太赫兹系统 (Microwave, Millimetre and Terahertz Systems)\n光学和光子学技术 (Optical and Photonics Technology)\n射频电子 (RF Electronics)\n机器人、动力学和控制 (Robotics, Dynamics and Control)",
+  "success_cases": ""
+}

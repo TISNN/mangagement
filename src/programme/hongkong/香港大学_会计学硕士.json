@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "会计学硕士",
+  "ename": "Master of Accounting",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 1年\n项目学费: 360000港币/年",
+  "requirements": "具有学士学位或同等学历，不强制要求提供GMAT/GRE，但具备良好的GMAT/GRE成绩或具备商科学士学位或具备会计相关工作经验的申请者将被优先考虑",
+  "objectives": "香港大学会计学硕士项目旨在教授学生会计、财务、管理和财务分析方面的前沿知识，使其具备成为专业会计师、金融专家和商业领袖的专业能力。课程结构涵盖了会计、金融、管理和商业分析，并探讨了阐述会计在经济决策中重要作用的理论。通过探索数据分析，学生将学习如何获取洞察力和信息并将其转化为可执行的行动。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "财务会计基础  (Financial Accounting Foundation )\n管理会计  (Management Accounting )\n高级财务会计  (Advanced Financial Accounting )\n税务框架和规矩  (Taxation Framework and Planning )\n商业法律与道德环境  (Legal and Ethical Environment of Business )\n会计数据分析  (Accounting Data and Analytics )\n审计和对公服务  (Auditing and Corporate Services )\n企业价值评估  (Business Valuation and Fundamental Analysis (Capstone) )\n企业管治与社会责任  (Corporate Governance and Social Responsibility )\n财务会计理论  (Financial Accounting Theory )\n国际税务和企业专业  (International Tax and Corporate Strategies )\n领导力与战略管理控制  (Leadership and Strategic Management Control )\n独立研究  (Independent Study in Accounting )\n企业财务  (Corporate Finance )",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "马里兰大学帕克分校",
+  "major_name": "计算机工程理学硕士",
+  "ename": "MS in Computer Engineering",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 32,580美元/年",
+  "requirements": "拥有电气或计算机工程或数学、CS、物理等相关领域的本科学位",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "社会与行为研究方法理学硕士",
+  "ename": "MSc Social and Behavioural Research Methods",
+  "tags": "社科,社会学与社工,社会科学学院",
+  "introduction": "专业方向: 社会学与社工\n入学时间: 9月\n项目时长: 1年\n项目学费: 21192英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关学科领域背景\n合适的学位包括心理学、商业管理、会计和金融、语言和跨文化研究、政治科学和社会学",
+  "objectives": "赫瑞瓦特大学社会与行为研究方法理学硕士项目提供了一个严格的方法论培训计划，适合希望从事研究事业的学生，​​无论是在学术界还是其他领域。该计划旨在满足经济与社会研究委员会 (ESRC) 的认证标准*，是希望攻读博士学位的学生的理想准备。它建立在一套核心必修课程的基础上，并以我们在心理学、商业管理、金融和会计专业领域的定制路径为特色，使学生能够选择适合自己需求和兴趣的课程路径。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究方法1：研究方法简介 (Research Methods 1: An Introduction to Research Methods)\n研究方法 2：定性研究者 (Research Methods 2: The Qualitative Researcher)\n研究方法 3：定量研究者 (Research Methods 3: The Quantitative Researcher)\n大数据分析 (Big Data Analytics)\n商业网络分析 (Network Analysis for Business)\n系统思考与分析 (Systems Thinking and Analysis)\n经济研究的计量经济学方法 (Econometric Methods for Economic Research)\n比较财务报告 (Comparative Financial Reporting)\n国际会计理论 (International Accounting Theory)\n实证金融模型 (Empirical Financial Modelling)\n心理干预 (Psychological Interventions)\n在现实世界中应用心理学 (Applying Psychology in Real-World Contexts)\n研究经验安置 (Research Experience Placement)\n用 Python 编写社会科学应用程序代码 (Coding for Social Science Applications in Python)\n话语分析 (Discourse Analysis)\n使用 R 的高级统计 (Advanced Statistics using R)\n高级实验设计 (Advanced Experimental Design)",
+  "success_cases": ""
+}

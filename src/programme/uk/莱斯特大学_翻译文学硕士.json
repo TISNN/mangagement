@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "翻译文学硕士",
+  "ename": "MA Translation",
+  "tags": "社科,语言,英语系",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 19700英镑/年",
+  "requirements": "拥有英国good荣誉学位或同等学历，或获得认可机构的研究生文凭，或相关的研究生水平的专业资格\n对于以英语为母语的人，需证明具备另一门语言的能力（阿拉伯语或中文）。可能需要面试和/或测试",
+  "objectives": "莱斯特大学翻译文学硕士项目旨在为学生进入翻译行业就职做好准备，同时也帮助想要在翻译研究领域进一步发展的学生巩固理论基础。学生将进行英语与另一种语言之间的翻译训练，同时打下扎实的学术基础。莱斯特大学翻译文学硕士项目帮助学生培养高级翻译研究技能，让学生详细了解翻译背景、过程、成果和研究案例。莱斯特大学翻译文学硕士项目的学生除了深入学习翻译的历史与理论，还能对翻译领域内的热点研究话题拥有批判性思考。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "翻译研究的研究技能与方法1 (Research Skills and Methods in Translation Studies 1)\n翻译研究的发展 (The Development of Translation Studies)\n翻译研究技能与方法2 (Research Skills and Methods in Translation Studies 2)\n翻译研究与实践的当前议题 (Current Issues in Translation Research and Practice)\n论文 (Dissertation)\n不同流派翻译 (Translating Different Genres)\n翻译策略 (Translation Strategies)\n科技翻译 (Technical Translation)\n计算机辅助翻译工具 (Computer Assisted Translation Tools)\n视听翻译 (Audiovisual Translation)\n扩展翻译项目 (Extended Translation Project)\n交替传译 (Consecutive Interpreting)\n同声传译 (Simultaneous Interpreting)",
+  "success_cases": ""
+}

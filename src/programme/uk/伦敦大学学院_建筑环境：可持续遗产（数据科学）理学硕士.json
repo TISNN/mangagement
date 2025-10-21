@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "建筑环境：可持续遗产（数据科学）理学硕士",
+  "ename": "MSc Built Environment: Sustainable Heritage (Data Science)",
+  "tags": "社科,建筑,建筑环境学院",
+  "introduction": "专业方向: 建筑\n入学时间: 9月\n项目时长: 1年\n项目学费: 36500英镑/年",
+  "requirements": "通常具有英国大学颁发的二等学士学位或同等学历，学校也可能接受具有较低等级学位但具备大量高级专业经验的申请者，可能会设置特殊资格考试",
+  "objectives": "数字技术和数据在当代社会发挥着基础性作用，文化遗产也不例外，遗产世界（历史建筑、遗址、景观、博物馆和收藏品等）为学习和应用数据科学技能提供了良好的环境。伦敦大学学院建筑环境：可持续遗产（数据科学）理学硕士项目的学生将开发高级数据科学技能，如编码、众包数据科学、机器学习和数据可视化，探索在遗产环境中产生和使用的各种数据的获取、分析和利用的复杂性，包括通过分析和测量、成像和测绘、公民科学以及数字化生成数据产生的数据。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "论文：可持续遗产 (Dissertation: Sustainable Heritage)\n遗产数据映射与可视化 (Heritage Data Mapping and Visualisation)\n遗产机器学习 (Machine Learning for Heritage)\n可持续遗产概论 (Introduction to Sustainable Heritage)\n遗产政策建议与证据 (Policy Advice and Evidence for Heritage)\n遗产科学统计学 (Statistics for Heritage Science)\n实践中的可持续遗产 (Sustainable Heritage in Practice)\n统计数据科学概论 (Introduction to Statistical Data Science)\n可持续遗产建筑与收藏策略 (Strategies for Sustainable Heritage Buildings and Collections)\n可持续遗产景观策略 (Strategies for Sustainable Heritage Landscapes)\n文化遗产众包与公民数据 (Crowd-Sourced and Citizen Data for Cultural Heritage)\n为遗产设计未来 (Design Futures for Heritage)\n遗产政策实验室 ( Heritage Policy Labs)\n气候变化与遗产 (Climate Change and Heritage)\n包容性城市遗产 (Inclusive Urban Heritage)",
+  "success_cases": ""
+}

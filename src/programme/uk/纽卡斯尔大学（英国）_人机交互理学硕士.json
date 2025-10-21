@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "人机交互理学硕士",
+  "ename": "MSc Human-Computer Interaction",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 32300英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景，任何相关的实践或工作经验都将被考虑在内需阅读paper并完成500字读后感",
+  "objectives": "纽卡斯尔大学人机交互理学硕士课程旨在为学生提供创建、设计和开发从应用程序到沉浸式环境的交互式数字技术的技能。在整个课程中，学生将学习以人为本的设计原则，如何为人类的体验设计更好的产品，还将了解如何使用数字技术在个人、团体或社会层面上影响人们。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "系统与社会 (Systems and Societies)\n人机交互技术 (Technologies for Human-Computer Interaction)\n人机交互与用户体验概论 (Introduction to Human-Computer Interaction and UX)\n人机交互研究方法 (Research Methods in Human-Computer Interaction)\n交互/用户体验设计方法 (Interaction/UX Design Methods)\n人机交互项目 (Project in Human-Computer Interaction)\n软件开发概论 (Introduction to Software Development)\n面向对象的程序设计 (Object-oriented programming)\nJava高级编程 (Advanced Programming in Java)\n复杂系统安全分析 (Security Analysis of Complex Systems)\n物理原型 (Physical Prototyping)\n人工智能(AI)与未来 (Human-Artificial Intelligence (AI) and Futures)",
+  "success_cases": ""
+}

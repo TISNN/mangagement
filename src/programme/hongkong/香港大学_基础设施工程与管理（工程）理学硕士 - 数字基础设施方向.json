@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "基础设施工程与管理（工程）理学硕士 - 数字基础设施方向",
+  "ename": "MSc(Eng) Infrastructure Engineering and Management (Digital Infrastructure)",
+  "tags": "工科,工程管理,工程学院",
+  "introduction": "专业方向: 工程管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 320000港币/年",
+  "requirements": "具有香港大学颁发的土木工程学士学位，或具有另一所大学或认可院校颁发的以下适当领域的同等学历：建筑学、土木工程、计算机科学、施工管理、电气与电子工程、工业与系统工程、机械工程、智能建筑、结构工程、测量、交通工程或城市规划",
+  "objectives": "香港大学基础设施工程与管理（工程）理学硕士课程旨在为学生提供智能和创新基础设施工程、建设和管理方面的高级知识和技能，有两个专业方向，即“数字基础设施”和“基础设施项目管理”。课程涵盖了广泛的主题，包括人工智能、建筑信息建模、自动化和机器人、计算机视觉、基础设施诊断和预测、大型项目管理、模块化集成建筑、环境影响评估和可持续建筑技术，这些主题反映了基础设施和建筑领域的前沿进展，该课程旨在为学生在快速发展的建筑行业中成功开展职业生涯做好准备，强调创新、可持续性和技术整合。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "运输系统工程 (Engineering for Transport Systems)\n土木工程数据科学 (Data Science for Civil Engineering)\n土木工程统计方法 (Statistical Methods for Civil Engineering)\n建筑工程与管理中的人工智能 (Artificial Intelligence for Construction Engineering and Management)\n自动化与机器人技术的工业化施工 (Industrialized Construction with Automation and Robotics)\n基础设施建设与管理的计算机视觉 (Computer Vision for Infrastructure Construction and Management)\n基础设施诊断与预测的物联网解决方案 (IoT Solutions for Infrastructure Diagnosis and Prognosis)\n模块化集成结构 (Modular Integrated Construction)\n建筑规划与控制 (Building Planning and  Control)\n施工争议解决 (Construction Dispute Resolution)\n建筑财务管理 (Construction Financial Management)\n工程项目环境影响评价 (Environmental Impact Assessment of Engineering Projects)\n项目管理 - 人与组织因素 (Project Management – Human and Organizational Factors)\n交通管理与控制 (Traffic Management and Control)\n城市发展管理的工程方法 (Urban Development Management by Engineering Approach)\n大型基础设施项目管理 (Management of Infrastructure Megaprojects)\n基础设施项目管理专题：工业化施工 (Special Topic in Infrastructure Project Management: Industrialized Construction)\n建筑与土木工程的操作与维护 (Operation and Maintenance of the Building and Civil Engineering Works)\n可持续建筑技术：原理与实践 (Sustainable Construction Technology: Principles and Practices)\n建筑信息模型（BIM）：理论、发展与应用 (Building Information Modeling (BIM): Theories, Development and Application)\nNEC合同管理 (NEC Contract Management)",
+  "success_cases": ""
+}

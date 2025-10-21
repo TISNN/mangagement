@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "工业生物技术理学硕士",
+  "ename": "MSc Industrial Biotechnology",
+  "tags": "理科,生物,斯克莱德制药与生物医学科学研究所",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 31250英镑/年",
+  "requirements": "具有至少2:1荣誉学位或同等学历，要求生物、生物技术、化学、化学工程或相关学科背景\n学校也欢迎具有相关经验或其他适当资格的未来学生申请",
+  "objectives": "思克莱德大学工业生物技术理学硕士项目研究工业生物技术领域中最前沿的课题，为学生打下坚实的工业生物技术基础。思克莱德大学工业生物技术理学硕士项目课程旨在让学生对工业生物技术行业的现有发展有一个全面的了解。思克莱德大学工业生物技术理学硕士项目还将提供为期三个月的实习机会，让学生有机会与来自IBioIC的伙伴合作，获得宝贵的实践经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工业生物技术及其治理概论 (Introduction to Industrial Biotechnology & its Governance)\n生物工艺 (Bioprocessing)\n应用生物催化 (Applied Biocatalysis)\n合成生物学 (Synthetic Biology)\n下游处理 (Downstream Processing)\n生物信息学 (Bioinformatics)\n科学编程简介 (Introduction Scientific Programming)\n蓝色生物科技 (Blue Biotechnology)\n可再生能源技术 (Renewable Energy Technologies)\n资源高效规划 (Resource Efficient Formulation)\n酿造和蒸馏的生产管理 (Production Management for Brewing & Distilling)\n供应链管理案例研究 (Case Studies in Supply Chain Management)\n高级工程管理 (Advanced Project Management)\n工业生物技术研究项目 (Industrial Biotechnology Research Project)",
+  "success_cases": ""
+}

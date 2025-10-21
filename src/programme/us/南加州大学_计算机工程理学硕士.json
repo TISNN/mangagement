@@ -1,0 +1,12 @@
+{
+  "school_name": "南加州大学",
+  "major_name": "计算机工程理学硕士",
+  "ename": "MS in Computer Engineering",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 28学分\n项目学费: 56,140 美元",
+  "requirements": "申请者必须持有地区认可机构的学士学位。申请者需具备计算机相关背景",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

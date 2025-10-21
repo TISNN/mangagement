@@ -1,0 +1,12 @@
+{
+  "school_name": "伊利诺伊大学香槟分校",
+  "major_name": "新闻理学硕士",
+  "ename": "MS in Journalism",
+  "tags": "社科,新闻",
+  "introduction": "专业方向: 新闻\n入学时间: 秋季\n项目学费: 30,564美元",
+  "requirements": "无专业限制，GPA3.0以上",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

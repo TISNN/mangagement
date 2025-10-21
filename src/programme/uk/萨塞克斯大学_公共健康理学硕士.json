@@ -1,0 +1,12 @@
+{
+  "school_name": "萨塞克斯大学",
+  "major_name": "公共健康理学硕士",
+  "ename": "MSc Public Health",
+  "tags": "社科,公共卫生,医学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 21500英镑/年",
+  "requirements": "具有公共卫生相关学科背景，或与公共卫生相关领域中有至少五年工作经验",
+  "objectives": "萨塞克斯大学公共健康理学硕士项目为学生开设了四个必修核心模块和一系列选修模块，使学生能够专注于与其工作和专业兴趣相关的领域。研究论文模块将课堂学习与以工作为导向的研究项目相结合，为学生提供了良好的机会来提升自己的能力和技能，进而为将来在公共健康领域的长期职业做好准备。萨塞克斯大学公共健康理学硕士项目在公共健康的理论和实践方面为学生奠定了坚实基础，不仅提供分析和推进改革的机制，亦支持公共健康领域的领导和注册登记。这在具有挑战性的变革时期尤为重要。此外，萨塞克斯大学公共健康理学硕士项目紧跟当代发展实情，课程由活跃在公共健康领域的学者和从业者来讲授。教授们的专业背景十分多元，在分享自身职业经历的同时，亦可帮助学生更广泛地理解跨学科的公共健康问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公共卫生原理与实践 (Principles and Practice of Public Health)\n研究方法与批判性评价 (Research Methods and Critical Appraisal)\n流行病学 (Epidemiology)\n卫生与医学研究基本统计 (Essential Statistics for Health and Medical Research)\n卫生防护 (Health Protection)\n公共卫生中的营养 (Nutrition in Public Health )\n全球公共卫生 (Global Public Health)\n临床服务中的领导与变革管理 (Leadership and Change Management in Clinical Services)",
+  "success_cases": ""
+}

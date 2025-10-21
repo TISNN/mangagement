@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "数学理学硕士",
+  "ename": "MSc Mathematics",
+  "tags": "理科,数学,数学与计算机科学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 19816英镑/年",
+  "requirements": "入学要求是数学知识和技能扎实的毕业生。要求有数学、统计学或相关学科的good荣誉学位，且数学内容丰富",
+  "objectives": "赫瑞-瓦特大学数学理学硕士旨在让学生深入理解数学中的一系列主题。此外，符合适当标准并继续进行项目的学生将获得以清晰简洁的方式呈现数学结果的经验。理学硕士的核心基础课程是纯数学，学生可以选择纯数学和应用数学。项目将集中于核心数学。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "建模与工具 (Modelling and Tools)\n功能分析 (Functional Analysis)\n偏微分方程 (Partial Differential Equations)\n数学生态学 (Mathematical Ecology)\n优化 (Optimisation)\n数值分析 (Numerical Analysis)\n随机模拟 (Stochastic Simulation)\n数学生物学与医学 (Mathematical Biology and Medicine)\n几何 (Geometry)\n纯数学 (Pure Mathematics)\n数据同化及其在气候变化中的应用 (Data Assimilation with Applications to Climate Change)\n应用数学 (Applied Mathematics)\n犯罪的数学模型 (Mathematical Modelling of Crime)",
+  "success_cases": ""
+}

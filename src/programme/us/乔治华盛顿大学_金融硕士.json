@@ -1,0 +1,12 @@
+{
+  "school_name": "乔治华盛顿大学",
+  "major_name": "金融硕士",
+  "ename": "MS in Finance",
+  "tags": "商科,金融",
+  "introduction": "专业方向: 金融\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 12或24个月\n项目学费: 1960美元/学分\n平均成绩: 3.3\n平均G: 690\n国际学生: 77%\n男女比例: 77:23",
+  "requirements": "修过以下课程且取得相应学分：高等数学（6学分,其中3个学分必须是微积分）,微观经济学（3学分,宏观经济学（3学分、财务会计（3学分）,管理财务（3学分）统计（3学分）",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

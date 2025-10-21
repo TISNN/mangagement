@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "物理学理学硕士",
+  "ename": "MSc Physics",
+  "tags": "理科,物理,物理学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 37000英镑/年",
+  "requirements": "具有一等荣誉学位，需要物理学、电气或电子工程或相关科学学科背景\n需要申请ATAS证书",
+  "objectives": "帝国理工学院物理学理学硕士项目适合那些希望深化物理知识，并期望在大学、工业或国家研究实验室从事研究工作的人士，欢迎具有坚实物理和数学背景的物理学家和数学、化学或工程学科的学生申请。帝国理工学院物理学理学硕士项目开设有以下两个方向：量子动力学和纳米光子学。量子动力学包括量子光学、量子信息和量子系统三个核心部分，纳米光子学方向侧重于研究光子与物质在最小尺度上的相互作用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级古典物理学 (Advanced Classical Physics)\n物理学家数学方法 (Mathematical Methods for Physicists)\n研究项目 (Research Project)\n研究技能 (Research Skills)\n自学项目 (Self-Study Project)\n高级流体力学 (Advanced Hydrodynamics)\n信息论 (Information Theory)\n消费电子中的纳米技术 (Nanotechnology in Consumer Electronics)\n光通讯 (Optical Communications)\n高级粒子物理学 (Advanced Particle Physics)\n高级量子信息 (Advanced Quantum Information)\n大气物理学 (Atmospheric Physics)\n计算神经科学 (Computational Neuroscience)",
+  "success_cases": ""
+}

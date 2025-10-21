@@ -1,0 +1,12 @@
+{
+  "school_name": "东北大学（美国）",
+  "major_name": "物联网理学硕士",
+  "ename": "Master of Science in Internet of Things",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季,春季\n项目时长: 2年\n项目学费: 61,728美元",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

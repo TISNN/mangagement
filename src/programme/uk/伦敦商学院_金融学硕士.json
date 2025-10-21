@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦商学院",
+  "major_name": "金融学硕士",
+  "ename": "Masters in Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 8月\n项目时长: 1年\n项目学费: 58700英镑/年",
+  "requirements": "工作经验不少于2年，要求GMAT/GRE，有面试",
+  "objectives": "伦敦商学院的金融学硕士项目旨在帮助学生以现有知识为基础发展职业生涯，在当前职业路径上快速发展或者向其他金融领域过渡，将学术严谨性与杰出实践操作相结合，根据学生目标调整课程，使学生具备全球视野，加入全球顶尖金融专业人士网络。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计学 (Accounting)\n数据分析 (Data Analytics)\n金融数据分析 (Data Analytics for Finance)\n个人评估与发展 (Personal Assessment and Development)\n金融目标 (The Purpose of Finance)\n金融会计与分析 (Financial Accounting and Analysis)\n投资学 (Investments)\n企业融资和估值 (Corporate Finance and Valuation)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "罗切斯特大学",
+  "major_name": "人类发展硕士课程",
+  "ename": "MS in Human Development",
+  "tags": "社科,教育",
+  "introduction": "专业方向: 教育\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 50,100美元",
+  "requirements": "拥有以下领域之一的学士学位发展、心理学、社会学、历史、哲学、公共卫生、教育、老年学、社会工作、艺术疗法、音乐疗法或与相关的领域",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "物流与供应链管理理学硕士",
+  "ename": "MSc Logistics and Supply Chain Management",
+  "tags": "商科,供应链管理,诺丁汉商学院",
+  "introduction": "专业方向: 供应链管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 28600英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要商业、工程或科学相关学科背景\n针对尚未完成本科学位的申请者，需要提供最后一年要学习的课程列表",
+  "objectives": "诺丁汉大学物流与供应链管理理学硕士课程将为学生提供在全球管理职位中脱颖而出所需的广泛技能。学生将学习开发基本管理技术的模块，包括供应链规划、国际物流、项目管理和运营设施设计。学生还可以根据个人职业目标定制学位，并专注于个人选择的相关领域。学生毕业时将清楚地了解用于解决组织困难的方法、模型和技术。学生将具备分析技能，以了解业务中物流和供应链管理挑战的复杂性，并结合创造性思维来产生潜在的解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "决策支持管理科学 (Management Science for Decisions Support)\n当代运营管理：基础与挑战 (Managing Contemporary Operations: Fundamentals and Challenges)\n供应链规划与管理 (Supply Chain Planning and Management)\n项目管理 (Project Management)\n操作设备与系统设计 (Design of Operations Facilities and Systems)\n国际物流与运输 (International Logistics and Transport)\n运营与供应链战略与实践 (Operations and Supply Chain Strategy and Practice)\n高级运营分析 ( Advanced Operations Analysis)\n采购与采购服务 (Procurement and Purchasing)",
+  "success_cases": ""
+}

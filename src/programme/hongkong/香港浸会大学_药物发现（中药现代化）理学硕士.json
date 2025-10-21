@@ -1,0 +1,12 @@
+{
+  "school_name": "香港浸会大学",
+  "major_name": "药物发现（中药现代化）理学硕士",
+  "ename": "MSc Drug Discovery (Modernization of Chinese Medicine)",
+  "tags": "社科,药学,中医学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 1年\n项目学费: 135000港币/年",
+  "requirements": "I. 基本入学要求\n1. 具备香港浸会大学认可的中药学、药学[注1]学士学位或中医学学士学位；或\n2 .具备与上述中药学、药学[注1]学士学位或中医学学士学位同等学历[注1]（如生命科学、生物工程学、资讯科技等学士学位）；或\n3. 具有学士学位的香港药剂师或香港注册中医师#\n#没有学士学位的香港注册中医师，需由课程管理委员会根据具体情况进行审议，并需通过由课程管理委员会举行的入学考核。\nII. 语文要求\n1. 以中文为第一教学语言之学士学位证书；或\n2. 香港中学文凭试中国语文达到3级或以上成绩；或\n3. 香港高级补充程度会考中国语文及文化科达到E级或以上成绩；或\n4. 通过由香港浸会大学中医药学院安排的中国语文水平考试。\n备注：申请者需具备基本电脑知识及操作技能。",
+  "objectives": "香港浸会大学药物发现（中药现代化）理学硕士课程旨在为学生提供当前和未来中医药研究与开发所需的前沿跨学科知识。通过课程学习和参与相关实践学习活动，学生将掌握人工智能和药物设计、药物分析和药代动力学、临床试验设计和创新药物临床翻译策略的先进知识。学生将获得将传统中医思维与现代技术相结合的知识和技能，从而在中药药物发现的各个方面提供解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人工智能与药物设计 (Artificial Intelligence and Drug Design)\n现代药物合成技术与质量控制 (Modern Drug Synthesis Technology and Quality Control)\n医学统计与临床设计 (Medical Statistics and Clinical Design)\n高等药剂学与药代动力学进展 (Advances in Pharmacy and Pharmacokinetics)\n创新药物临床转化策略 (Innovative Drug Clinical Transformation Strategies)\n中医药学概论 (Introduction to Chinese Medicine)\n中药作用机理与安全用药 (Mechanism of Action and Safe Use of Traditional Chinese medicine)\n转化医学与药物发现：理论与实践（中药） (Translational Medicine and Drug Discovery: Theory and Practice (Traditional Chinese Medicine))\n现代中药研究进展 (Research Progress of Modern Chinese Medicine)\n实验实践 (Experimental Practice)\n专题论文 (Dissertation)\n方剂配伍理论与实践 (Theory and Practice of Prescription Compatibility)",
+  "success_cases": ""
+}

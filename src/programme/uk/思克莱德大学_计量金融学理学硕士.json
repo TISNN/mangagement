@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "计量金融学理学硕士",
+  "ename": "MSc Quantitative Finance",
+  "tags": "商科,金工金数,数学与统计学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有二等荣誉学位或同等学历，要求工科、理科（如物理、化学或计算机科学）、商科（如商业研究、会计或经济学）学科背景；数学/统计学毕业生应联系学校讨论其申请。学校也欢迎具有相关经验或适当专业资格的学生申请\n有较好的数学基础，A-Level或同等，比如上过微积分、线性代数、微分方程、概率、统计数据等课程",
+  "objectives": "思克莱德大学计量金融学理学硕士项目为学生从事金融工程和风险管理做准备。毕业生大多担任对冲基金经理或金融分析师。思克莱德大学计量金融学理学硕士项目重点教授：对金融理论的研究和分析，对金融市场的评估，金融数值方法的实际应用，财务应用编程入门和业务流程中计算机的角色等内容。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数学和统计金融基础 (Foundations of Mathematical & Statistical Finance)\n金融原理 (Principles of Finance)\n国际金融市场与银行学 (International Financial Markets & Banking)\n大数据技术 (Big Data Technologies)\n行为金融学 (Behavioural Finance)\n证券分析 (Security Analysis)\n投资组合理论与管理 (Portfolio Theory & Management)\n衍生品与财资管理 (Derivatives & Treasury Management)\n数据库和网络系统开发 (Database & Web Systems Development)\n机器学习数据分析 (Machine Learning for Data Analytics)\n金融计算进化 (Evolutionary Computation for Finance)\n金融随机过程 (Financial Stochastic Processes)\n金融计量经济学 (Financial Econometrics)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

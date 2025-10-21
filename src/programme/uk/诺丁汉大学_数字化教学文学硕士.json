@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "数字化教学文学硕士",
+  "ename": "MA Digital Teaching and Learning",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 27150英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历\n具有2:2学位并且具备至少3年教育相关职位的全职相关专业经验的申请者可以被考虑，相关专业工作经验包括教学或直接从事教育工作的经验，或使用/开发教育技术的具体经历",
+  "objectives": "诺丁汉大学数字化教学文学硕士课程旨在加强学生对数字时代学习的理解，并探索数字技术如何改变教学和学习体验。本课程将提升学生的作为学习资源的数字技术知识。学生将评估此类技术在教育环境中的使用情况，并评估如何在正规和非正规教育的各个层面实施新的学习技术。学生还将从认知和社会文化角度分析当代关于学习的思想和理论，然后将其与影响技术强化学习的更广泛的社会辩论相结合。对于希望深入了解如何在课堂上使用数字技术或希望攻读博士学位的在职教师来说，诺丁汉大学数字化教学文学硕士课程是理想的选择。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育技术的社会背景 (The Social Contexts of Education Technology )\n学习科学导论 (Introduction to the Learning Sciences )\n教育技术研究方法 (Educational Technology Research Methods )\n学习、技术和教育的新方向 (New Directions in Learning、Technology and Education)\n方向 (Dissertation)",
+  "success_cases": ""
+}

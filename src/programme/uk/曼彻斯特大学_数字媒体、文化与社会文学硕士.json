@@ -1,0 +1,12 @@
+{
+  "school_name": "曼彻斯特大学",
+  "major_name": "数字媒体、文化与社会文学硕士",
+  "ename": "MA Digital Media, Culture and Society",
+  "tags": "社科,新媒体,艺术、语言与文化学院",
+  "introduction": "专业方向: 新媒体\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "通常具有一等或2:1荣誉学位或同等学历，需要人文或社会科学领域背景",
+  "objectives": "曼彻斯特大学数字媒体、文化与社会文学硕士项目旨在提供高级跨学科研究，特别数字媒体和技术在文化和社会方面的影响。数字产品的出现是21世纪的一个决定性挑战，它对我们的文化生产、社会纽带、经济和政治制度产生了革命性的影响。数字媒体使得知识追求、艺术表达和公民参与成为可能。学生将通过批判性分析和积极参与来学习这些新模式。同时，技术也使得新形式的监视和不平等变得可能：从对隐私的侵蚀到算法偏见。曼彻斯特大学数字媒体、文化与社会文学硕士课程使学生能够认识到数字媒介对公民社会的威胁。学生还将学习数字技术如何改变我们询问和管理文化记录的方式，并有机会学习一系列数字技能，如数据分析和可视化。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字媒体概论 (Introduction to Digital Media)\n数字化方法 (Digital Methods)\n论文 (Dissertation)\n数据、文化与社会 (Data, Culture and Society)\n数字自我：生活在网络时代 (The Digital Self: Living in Networked Times)\n社交媒体与平台 (Social Media and Platforms)\n人工智能、算法与社会 (Artificial Intelligence, Algorithms and Society)\n空间历史：绘制过去的地图 (Spatial History: Mapping the Past)\n制作数字项目 (Producing Digital Projects)\n数字遗产 (Digital Heritage)\n实习 (Placement)",
+  "success_cases": ""
+}

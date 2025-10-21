@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "技术、媒体与电信法法学硕士",
+  "ename": "LLM Technology, Media and Telecommunications Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有本科2:1学位或以上学历，需要法律或具有实质性法律内容的学位\n具有2:2荣誉学位以及其他法律资格和/或大量的专业法律经验的法律毕业生也可能符合资格\n在英国专业机构认可的普通专业考试（CPE）或法律研究生文凭（GDL）中获得优秀（或60%）获得二等荣誉学位的非法律专业毕业生也可能符合资格。非法律专业毕业生若具备在法律领域或与其申请专业直接相关的领域具有特殊的工作经验（至少5年）也可能被考虑",
+  "objectives": "伦敦大学玛丽皇家学院技术、媒体与电信法法学硕士项目，让学生以比较和国际的视角研究法律，教授技术、媒体、电子通讯领域的法学知识，课程内容丰富，师资力量雄厚，帮助学生提升行业竞争力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "动物法、媒体与文化 (Animal Law, Media and Culture)\n国际比较著作权法 (International and Comparative Copyright Law)\n知识产权与时尚：艺术与文化 (Intellectual Property and Fashion: Art and Culture)\n互动娱乐法 (Interactive Entertainment Law)\n数字知识产权 (Digital Intellectual Property)\n网络环境下的竞争法 (Competition Law in the Cyberspace)\n信息安全与法律 (Information Security and the Law)\n媒体监管 (Media Regulation)",
+  "success_cases": ""
+}

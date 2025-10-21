@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "考古研究哲学硕士",
+  "ename": "MPhil Archaeological Research",
+  "tags": "社科,历史,考古学系",
+  "introduction": "专业方向: 历史\n入学时间: 10月\n项目时长: 1年\n项目学费: 34254英镑/年",
+  "requirements": "申请者应该具有英国High II.i荣誉学位或同等学历\n需要提交1篇Research proposal以及1篇Sample of work（约2000字）需要套磁",
+  "objectives": "剑桥大学考古研究哲学硕士课程适合在考古学方面具有丰富和适当背景的学生，同时他们的研究课题发展相当成熟。具体研究技能（考古计算、定量方法、GIS或基于实验室的技术）的培训将根据学生的需要进行安排。该课程为攻读博士学位做准备。剑桥大学考古研究哲学硕士课程提供考古研究方法和相关可转移技能方面的培训，并提供在学术指导下完成研究论文的机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究论文 (A research paper)\n研究技能模块 (A research skills module)\n论文 (The dissertation)",
+  "success_cases": ""
+}

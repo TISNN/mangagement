@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "金融工程与风险管理理学硕士",
+  "ename": "MSc Financial Engineering and Risk Management",
+  "tags": "商科,金工金数,埃塞克斯商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要数学学科背景，如：经济学、金融学、数学、统计学、科学或工程或具有其他学科背景的2:1学位或同等学历，包括定量方法、经济学、金融学和/或投资学、银行领域其中至少2门课程",
+  "objectives": "埃塞克斯大学金融工程与风险管理理学硕士项目旨在培养能够评估风险、理性行事并了解其行为的经济影响以寻求解决方案的金融部门员工。埃塞克斯大学金融工程与风险管理理学硕士课程将帮助学生在金融工程和风险管理方面进行先进的当代研究，并对现代金融证券中的风险有更深入的理解。学生还将熟练地设计强大的管理系统来衡量风险。毕业后应该具备在商业、投资和中央银行、对冲基金、监管机构和评级机构取得成功的技能和知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融与投资理学硕士学位论文 (MSc Finance and Investment: Dissertation)\nMatlab金融研究技巧 (Finance Research Techniques Using Matlab)\n金融研究方法：金融实证研究方法 (Research Methods in Finance: Empirical Methods in Finance)\n研究生数学准备 (Postgraduate Mathematics Preparation)\n风险管理 (Risk Management)\n金融建模 (Financial Modelling)\n资产定价 (Asset Pricing)\n衍生证券 (Derivative Securities)\n全球金融市场交易 (Trading Global Financial Markets)\n财务报告问题 (Issues in Financial Reporting)\n管理会计 (Management Accounting)\n国际管理会计 (International Management Accounting)\n国际财务报告 (International Financial Reporting)\n公司治理案例 (Cases in Corporate Governance)\n公司报告与分析 (Corporate Reporting and Analysis)",
+  "success_cases": ""
+}

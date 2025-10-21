@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 600000港币/年",
+  "requirements": "具有认可大学颁发的学士学位，需要提交GMAT/GRE（没有最低分数要求，作为参考平均成绩如下：GMAT-660，GRE-322），具备至少2年全职工作经验",
+  "objectives": "香港科技大学工商管理学硕士项目培养学生应对持续的技术发展和全球化带来的挑战和机遇的能力。在为学生提供在今天的环境中成功运作的技能和知识的同时，该课程也为他们应对未来的挑战做好准备。\n香港科技大学工商管理学硕士课程旨在提供理论和实践之间的平衡，以及个人和团队处理管理问题的方法。学生不仅要发展分析和概念工具来解决创新问题，还要建立信心和发展人际关系技能，以便在困难和复杂的情况下有效互动。各种教学技术和方法，如讲座、模拟游戏、案例讨论以及个人和小组项目，都将为学生提供知识和经验背景。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据分析 (Data Analysis )\n金融会计基础 (Financial Accounting Foundations )\n管理会计基础 (Managerial Accounting Foundations)\n全球宏观经济 (Global Macroeconomics )\n管理微观经济 (Managerial Microeconomics )\n股权投资管理 (Equity Investment Management )\n商品、贸易融资和架构 (Commodities, Trade Finance, and Infrastructures )\n金融建模 (Financial Modeling )\n综合商业模拟和策略 (Integrated Business Simulation and Strategy)\n市场营销策略和政策 (Marketing Strategy & Policy )\n股票市场交易 (Trading in Equity Market)\n应用兼并与收购 (Applied Merger and Acquisition)\n投资组合管理与金融技术应用 (Portfolio Management with Fintech Application)\n技术创业 (Technology Entrepreneurship)\n谈判技巧 (Effective Negotiation)",
+  "success_cases": ""
+}

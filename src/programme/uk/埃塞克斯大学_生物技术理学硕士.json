@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "生物技术理学硕士",
+  "ename": "MSc Biotechnology",
+  "tags": "理科,生物,生命科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 10月\n项目时长: 1年\n项目学费: 21700英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要分子医学相关学科背景，如：生物学、生物化学、生物医学、生物技术、化学、遗传学、药理学、医学、物理化学、物理、生理学、IT学科学位必须包含以下至少3个领域的组成部分/课程：生物化学、微积分、药物设计、免疫学、数学、微生物学、分子生物学、分子遗传学、分子结构和键合、有机/无机化学、生理学、软件包（R，MatLab高斯，PyMol），光谱学、热力学和病毒学也可能考虑非相关学位但在生物，医学、化学或物理方面具备相关工作经验的申请者",
+  "objectives": "埃塞克斯大学生物技术理学硕士项目旨在使学生能够改善遗传学，农业，生物修复，免疫学，诊断学，能源生产和年龄辅助生活等各个领域的实践，为学生提供现代生物技术方面的知识、理解和动手经验，以及对当前商业应用的实用见解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究项目：生物技术理学硕士 (Research Project: MSc Biotechnology)\n蛋白质技术 (Protein Technologies)\n基因技术与合成生物学 (Gene Technology and Synthetic Biology)\n基因组学 (Genomics)\n专业技能与生物科学业务 (Professional Skills and the Business of Biosciences)\n工业生物技术：酶，生物化学与生物材料 (Industrial Biotechnology: Enzymes, Biochemicals and Biomaterials)",
+  "success_cases": ""
+}

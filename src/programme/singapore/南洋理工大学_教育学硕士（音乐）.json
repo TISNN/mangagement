@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "教育学硕士（音乐）",
+  "ename": "Master of Education (Music)",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 1月\n项目时长: 1年\n项目学费: 41900新币/年",
+  "requirements": "具有认可大学颁发的良好学士学位，或具有相关的南洋理工大学FlexiMasters且成绩优秀\n具有教师资格如新加坡国立教育学院颁发的教育研究生文凭，或具备至少1年教育相关工作经验",
+  "objectives": "教育学硕士课程主要面向在新加坡学校和教育部工作的教育工作者，学校也欢迎具有教育背景并希望提升教育知识和技能的大学毕业生申请。南洋理工大学教育学硕士（音乐）项目为学校音乐课程和教学法的发展以及音乐教育研究提供了理论和实践基础，也提供了对音乐教育和研究的当代问题的理解，以及音乐教育的基础，学生将发展对科技在音乐和音乐教育中的应用的理解和技能，从学校教学的实用音乐技能列表中选择，包括独奏和合奏表演、作曲、编曲、唱歌、合唱指挥、乐队指挥、竖笛演奏和键盘技巧，以提高其在课程中教授这些技能的专业知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育调查 (Educational Inquiry)\n音乐教育中的问题 (Issues in Music Education)\n音乐教育中的哲学 ( Philosophy in Music Education)\n音乐教育中的流行文化与信息传播技术 (Popular Culture and ICT in Music Education)\n音乐行为研究 ( Studies in Musical Behaviours)",
+  "success_cases": ""
+}

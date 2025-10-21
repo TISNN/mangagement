@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "金融科技理学硕士",
+  "ename": "MSc Financial Technology",
+  "tags": "商科,金工金数,商学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 32600英镑/年",
+  "requirements": "具有二等荣誉学位或同等学历，要求会计学、经济学、商业研究或含有很强定量知识的学科背景，该课程不需要预先具备金融知识",
+  "objectives": "思克莱德大学金融科技理学硕士项目由会计与金融系和管理科学系合办，整合了理论学习、实践训练和企业实习等内容，旨在培养学生过硬的学科知识和研究能力，提高学生就业竞争力，为后续从事金融工作做好准备。该项目对学生的专业背景不限，面向未来希望从事这一行业的学生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融学原理 (Principles of Finance)\n计量商业分析 (Quantitative Business Analysis)\n大数据基础 (Big Data Fundamentals)\n金融工程编程 (Programming for Fintech)\n银行风险管理 (Risk Management for Banks)\n成为一名高效的技术分析师 (Becoming an Effective Technology Analyst)\n商业信息系统 (Business Information Systems)\n银行财务管理 (Financial Management for Banks)\n会计与金融方向 (Accounting & Finance stream)\n管理学方向 (Management Science stream)\n计算机科学方向 (Computer Science stream)",
+  "success_cases": ""
+}

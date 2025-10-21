@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "管理学（企业与业务成长）理学硕士",
+  "ename": "MSc Management with Enterprise & Business Growth",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 35640英镑/年",
+  "requirements": "具有2:1荣誉学位或非英国同等学历，不限专业背景，这是一门通用学位课程，适用于以前没有在商业与管理领域学习过但正在考虑在这一领域工作或创业的学生，建议在相关研究领域有过经验的学生考虑MSc International Business\n只有符合或超过学校规定的入学要求的申请才会被考虑，任何不符合要求的申请将被自动拒绝。申请者将根据其相对于其他申请人的表现、当前的GPA或学位等级、学术背景的相关性被考虑录取",
+  "objectives": "格拉斯哥大学管理学（企业与业务成长）理学硕士为了应对国际发展和商业机会的全球扩张提供了对现代商业原则、技术和背景条件的强化介绍。学生将了解与提升业务相关的问题的性质，例如有效的员工发展和创新的关键驱动因素。该课程将培养学生分析和解释能力，这些能力可以与基本的管理和商业技能相结合，并对商业理论如何影响实践获得批判性的认识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业规划 (Business planning)\n绩效创造 (Delivering performance)\n财务信息管理 (Financial information management)\n营销管理 (Marketing management)\n组织中的人员 (People in organisations)\n战略管理 (Strategic management)\n数字营销策略 (Digital transformation)\n中小企业国际化 (Internationalisation of small and medium enterprises (SMEs))\n市场规划与决策 (Market planning and decision making)",
+  "success_cases": ""
+}

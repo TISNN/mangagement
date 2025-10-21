@@ -1,0 +1,12 @@
+{
+  "school_name": "约翰霍普金斯大学",
+  "major_name": "安全信息学硕士",
+  "ename": "MS in Security Informatics",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季/春季\n项目时长: 一年\n项目学费: 60,480美元\n平均G: 313",
+  "requirements": "该项目向持有学士学位并充分接触信息技术作为核心技术课程准备的优秀候选人开放。 MSSI 学生应具备计算机体系结构/网络、编程、数据结构和离散数学方面的良好计算机知识。 这可以通过课程以及在某些情况下通过工作经验和专业认证来证明。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

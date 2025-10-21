@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "医学影像学理学硕士",
+  "ename": "MSc Medical Imaging",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有2:2荣誉学士学位，需要生物/物理科学或放射学背景，或具备医学或牙科同等学历\n这门课程也可以作为一个插读课程提供给那些已完成3年英国医学学位的学生（通常在该学年排名前50%）",
+  "objectives": "利兹大学医学影像学理学硕士项目专为准备从事医学成像职业的应届毕业生、希望介入的医学生、放射线技师、超声技师、医学物理学家、技术专家和医务人员的医疗保健专业人员而设计。利兹大学医学影像理学硕士涵盖：不同成像技术和图像形成所涉及的科学原理，在放射学领域的应用，现代放射科的当前问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究方法 (Research Methods)\n研究项目 (Research Project)\n医学影像核心技能 (Core Skills in Medical Imaging)\n法医影像学 (Forensic Imaging)\n儿科放射照相术 (Paediatric Radiography)\n医学影像解释原理 (Principles for Medical Imaging Interpretation)\n磁共振成像 (Magnetic Resonance Imaging)\n超声成像 (Ultrasound Imaging)\n放射性核素显像 (Radionuclide Imaging)\n医用X射线成像 (Medical X-ray Imaging)\nX射线计算机断层扫描 (X-ray Computed Tomography)\n用MATLAB进行计算机程序设计 (Computer Programming with MATLAB)",
+  "success_cases": ""
+}

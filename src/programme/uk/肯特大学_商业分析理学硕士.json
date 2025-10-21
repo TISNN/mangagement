@@ -1,0 +1,12 @@
+{
+  "school_name": "肯特大学",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,肯特商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 24700英镑/年",
+  "requirements": "具有二等英国学位或同等学历，不限专业背景，需要具备基本的定量分析能力\n所有申请者都将根据具体情况予以考虑，其他资格、专业资格和相关经验也可能被考虑在内",
+  "objectives": "商业分析是预测组织需求并分析过去和当前活动有效性的过程，这一广受欢迎且不断增长的商业学科对于任何组织而言都是战略必需品，肯特大学商业分析理学硕士课程由出版过的学者授课，并与行业领导者合作提供，学生将学习技能、技术、应用和实践，成为有效解释和分析企业数据的专家。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "大数据分析与可视化 (Big Data Analytics and Visualisation)\n电子表格建模与决策自动化 (Spreadsheet Modelling and Decision Automation)\n机器学习与预测 (Machine Learning and Forecasting)\n仿真建模 (Simulation Modelling)\n规范分析与决策优化 (Prescriptive Analytics and Decision Optimisation)\n商业分析师的未来技能 (Skills of Tomorrow for Business Analysts)\n商业分析挑战 (The Business Analytics Challenge)\n专业安置/实习 (Professional Placement/Internship)\n供应链分析 (Supply Chain Analytics)\n仓储与全球运输管理 (Warehousing & Global Transportation Management)",
+  "success_cases": ""
+}

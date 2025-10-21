@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "理论物理学理学硕士",
+  "ename": "MSc Theoretical Physics",
+  "tags": "理科,物理,自然、数学与工程科学学院",
+  "introduction": "专业方向: 物理\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位，需要物理学或数学背景，或者，与数学相关的学位学科将根据具体情况被考虑\n申请者需要申请ATAS证书",
+  "objectives": "伦敦大学国王学院理论物理学理学硕士项目是一门以研究为导向的密集课程，在学习弦论、超对称性和AdS/CFT通信等高级主题之前，学生将学习理论和数学物理中的基础主题，如广义相对论和量子场论，还将接触到广泛的研究技术，并有机会进行和撰写自己的项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "理论物理项目 (Theoretical Physics project)\n李群和李代数 (Lie Groups and Lie Algebras)\n流形 (Manifolds)\n数学物理基础 (Foundations of Mathematical Physics)\n高级量子力学 (Advanced Quantum Mechanics)\n量子场理论 (Quantum Field Theory)\n理论物理的数学方法 (Mathematical Methods for Theoretical Physics)\n高级广义相对论 (Advanced General Relativity)\n时空几何和广义相对论 (Space-time Geometry and General Relativity)\n弦理论和膜 (String Theory and Branes)\n超对称性 (Supersymmetry)\n高级量子场理论 (Advanced Quantum Field Theory)\n标准模型物理 (Standard Model Physics and Beyond)\n狭义相对论与电磁学 (Special Relativity and Electromagnetism  )\n复变函数论 (Complex Analysis)",
+  "success_cases": ""
+}

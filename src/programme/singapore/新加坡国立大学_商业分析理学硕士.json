@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "商业分析理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 8月\n项目时长: 1年\n项目学费: 70850新币/年",
+  "requirements": "具有良好的学士学位，偏好商业、计算、经济学、工程学、数学、科学或统计学背景，并获得良好的荣誉学位等级；或具备至少2年相关工作经验\n（强烈建议）GRE/GMAT定量成绩优秀\n需要扎实的数学基础\n需要提供能够覆盖学费与生活费金额的存款证明（FAQ：107,350新币）",
+  "objectives": "新加坡国立大学商业分析理学硕士课程旨在培养具有业务分析技能的专业人士，以满足希望通过数据分析改善运营情况的公司日益增长的需求，旨在通过平衡知识的学术严谨和实际应用促进体验式学习。参加新加坡国立大学商业分析科学硕士课程的学生将具备机器学习等技能，在金融、零售、信息技术、供应链和医疗保健等不同行业的数据分析领域脱颖而出。位于新加坡的商业分析理学硕士学位课程与各行各业的商业数据分析领域的行业合作伙伴有着密切的联系。攻读或毕业于新加坡国立大学商业分析理学硕士课程的学生可以与该社区的领导者互动并向他们学习，以提高他们在商业分析领域的职业前景和能力。完成该课程后，毕业生将能够使用相关的数据驱动技术和工具来理解和解决复杂的业务分析问题，这是一项本地和国际不同行业中备受追捧的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计学 (Statistics)\n定数性运筹学 (Deterministic Operations Research)\n管理经济学分析 (Analytics in Managerial Economics)\n决策技术 (Decision Making Technologies)\n数据管理和仓储 (Data Management and Warehousing)\n大数据分析技术 (Big-Data Analytics Technology)\n社会和数字媒体分析 (Social and Digital Media Analytics)\n云计算 (Cloud Computing)\n计量风险管理 (Quantitative Risk Management)\n衍生品定价和固定收入 (Pricing Derivatives and Fixed Income)\n医疗技术评估中的经济学方法 (Economic Methods in Healthcare Technology Assessment)\n数据库设计 (Database Design)\n并行与分布式算法 (Parallel and Distributed Algorithms)\n分布式数据库 (Distributed Databases)\n知识发现与数据挖掘 (Knowledge Discovery and Data Mining)",
+  "success_cases": ""
+}

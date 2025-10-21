@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "可持续能源化学理学硕士",
+  "ename": "MSc Chemistry for Sustainable Energy",
+  "tags": "工科,能源,自然与计算科学学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要化学或相关领域背景，如物理科学、自然科学或化学工程\n本课程是为化学本科生和其他背景的学生设计的，学校欢迎化学专业毕业生、具有相关行业经验的学生以及具有相关领域第一学位的学生申请\n需要申请ATAS",
+  "objectives": "未来的能源场景将涉及一系列技术的协作，阿伯丁大学可持续能源化学理学硕士课程将帮助学生深入了解电化学转换装置（如电池和燃料电池技术）、碳捕获技术和氢经济等领域，也涵盖循环经济方法和当前的可持续创新。该硕士\n项目提供了当前和新兴技术的详细概述，这些技术将使学生能够转变能源格局并实现可持续生活。学生将了解支撑电池、燃料电池、气体分离存储和利用（即碳捕获）、可再生能源和氢经济等大主题的化学知识。阿伯丁大学可持续能源化学理学硕士课程不仅专注于化学，也考虑到政策、技术创新的作用，同时为学生提供机会来发展他们的实践和专业技能（即沟通、数据分析、评估文献、道德、知识产权等），以提高其就业能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "实验室技能 (Lab Skills)\n专业技能 (Professional Skills)\n电池技术 (Battery Technology)\n气体分离、储存和使用 (Gas Separation, Storage and Usage)\n小组项目 (Group Project)\n个人项目 (Individual Project)\n高级实验室和研究技能 (Advanced Lab & Research Skills)\n燃料电池技术与热力学 (Fuel Cell Technology and Thermodynamics)\n可再生能源 (Renewables)\n氢与循环经济 (Hydrogen and the Circular Economy)",
+  "success_cases": ""
+}

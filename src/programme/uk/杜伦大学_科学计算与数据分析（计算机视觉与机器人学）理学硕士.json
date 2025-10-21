@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "科学计算与数据分析（计算机视觉与机器人学）理学硕士",
+  "ename": "MSc Scientific Computing and Data Analysis (Computer Vision and Robotics)",
+  "tags": "理科,数据科学,计算机科学学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 34000英镑/年",
+  "requirements": "具有英国一等或2:1荣誉学位（理学学士）或同等学历，需要以下背景\n- 物理学或含有基础物理课程的学科；或\n- 计算机科学；或\n- 数学；或\n- 地球科学；或\n- 工程学；或\n- 任何自然科学（含有很强的定量元素）。\n学校强烈鼓励学生报名一个他们已经具备很强的背景或适应性的专业领域。目前，该课程主要针对物理学、地球科学和数学（金融学）背景的学生。如果申请者没有这些学科的学位，强烈建议学生事先联系学校，以阐明其是否具备合适的背景。请注意，标准的商业学位是不够的，因为它们缺乏所需的数学教育水平\n要求具有研究生水平的C和Python编程知识",
+  "objectives": "物理学、工程学、地球科学或金融学等领域的进步越来越多地受到计算技术专家的推动。值得注意的是，那些能够熟练地为世界上最强大的计算机编写代码、能够熟练地处理世界上最大的数据集的人确实可以发挥作用。杜伦大学科学计算与数据分析理学硕士项目提供以应用为中心的课程，通过三个相互交织的方向来提供这些技能，分别是：科学计算的计算机科学基础（算法、数据结构、实现技术和计算机工具的使用），数据分析的数学方面，特定领域（目前为天体物理学，粒子物理学，金融数学，或地球和环境科学）基础技术的实施和应用。\n杜伦大学科学计算与数据分析（计算机视觉与机器人学）理学硕士项目旨在为学生提供解决机器人技术及其相关传感算法中一些最大研究问题所需的背景知识，例如如何以安全可靠的方式开发未来的自主移动解决方案。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "机器学习与统计学概论 (Introduction to Machine Learning and Statistics)\n科学与高性能计算导论 (Introduction to Scientific and High Performance Computing)\n专业技能 (Professional Skills)\n项目 (Project)\n计算机视觉 (Computer Vision)\n机器人-规划与运动 (Robotics - Planning and Motion)\n计算机视觉与机器人学的深度学习 (Deep Learning for Computer Vision and Robotics)\n高级统计与机器学习：基础与无监督学习 (Advanced Statistical and Machine Learning: Foundations and Unsupervised Learning)\n高级统计与机器学习：回归与分类 (Advanced Statistics and Machine Learning: Regression and Classification)\n数据采集与图像处理 (Data Acquisition and Image Processing)\n性能工程与高级算法 (Performance Engineering and Advanced Algorithms)\n连续和离散系统 (Continuous and Discrete Systems)",
+  "success_cases": ""
+}

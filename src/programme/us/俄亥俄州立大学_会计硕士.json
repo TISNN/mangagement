@@ -1,0 +1,12 @@
+{
+  "school_name": "俄亥俄州立大学",
+  "major_name": "会计硕士",
+  "ename": "Master of Accounting",
+  "tags": "商科,会计",
+  "introduction": "专业方向: 会计\n项目类别: STEM\n入学时间: 秋季\n项目时长: 9个月\n项目学费: 59,484美元/年",
+  "requirements": "会计、经济、传播、心理学和政治等学科均接受。必须有财务会计原则和管理会计原则课程，其余没有的会计基础课程可以参加夏季预备课程和后续选修课程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

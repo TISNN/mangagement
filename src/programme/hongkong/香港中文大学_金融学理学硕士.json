@@ -1,0 +1,12 @@
+{
+  "school_name": "香港中文大学",
+  "major_name": "金融学理学硕士",
+  "ename": "MSc Finance",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 430000港币/年",
+  "requirements": "具有认可大学颁发的学士学位或同等专业资格，通常达到二等荣誉学位或平均成绩不低于B\n不强制要求GMAT/GRE，但良好的GMAT/GRE成绩将有助于申请",
+  "objectives": "香港中文大学金融学硕士学位课程提供严格的培训，以掌握金融理论和技术，培养强大的定量推理能力，以及金融方面的最新技术技能。该课程在投资组合分析、信用分析、风险建模、结构性金融、销售和交易、运营等方面提供了坚实的基础，学生将接受期权、期货、交易策略和算法、套利和高频交易方面的实践培训。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "企业财务报告 (Corporate Financial Reporting)\n高级财务管理 (Advanced Financial Management)\n投资组合分析 (Investment and Portfolio Analysis)\n衍生品市场 (Derivatives Markets)\n金融实践经济学 (Economics for Finance Practice)\n资本市场 (Capital Markets)\n金融学中的定量方法* (Quantitative Methods in Finance*)\n金融计量经济学* (Financial Econometrics*)\n中国股票市场的企业融资行为 (Corporate Fund-Raising Initiatives in the Chinese Equity Markets)\n固定收益证券分析 (Fixed-income Securities Analysis)\n合并与收购 (Mergers and Acquisitions)\n企业融资与投资实务案例 (Cases in Corporate Finance & Investment Practices)\n当前金融问题 (Current Issues in Finance)\n金融学选题 (Selected Issues in Finance)\n金融学专题 (Selected Topics in Finance)\n中国金融 (China Finance)\n金融学中的机器学习 (Machine Learning in Finance)\n风险投资与私募股权 (Venture Capital & Private Equity)\n衍生品交易策略基础 (Fundamentals of Derivatives Trading Strategies)\n信贷与融资：流程、结构与风险管理 (Credit & Financing: Flow, Structured and Risk Management)\n外汇理论与实践 (Foreign Exchange in Theory and Practice)\n法律与证券市场 (Law and the Securities Markets)\n金融学实地研究 (Finance Field Study)\n定量风险管理 (Quantitative Risk Management)\n银行与保险资本 (Bank and Insurance Capital)\n数学财务建模与结构化解决方案 (Mathematical Financial Modeling and Structured Solutions)\n行为金融学 (Behavioral Finance)",
+  "success_cases": ""
+}

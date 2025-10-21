@@ -1,0 +1,12 @@
+{
+  "school_name": "麻省理工学院",
+  "major_name": "计算科学与工程硕士",
+  "ename": "MS in Computational Science and Engineering（暂停招生）",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 秋季\n项目时长: 两年\n项目学费: 28,795美元/学期",
+  "requirements": "需要一些计算科学与工程 (CSE) 背景，并获得 CSE 学位。入学没有特定的先决条件课程。 但是，我们确实希望未来的学生在核心学科领域拥有坚实的基础，例如工程、材料科学、物理学或数学。 该项目技术性很强，因此，希望所有申请者对线性代数和多元微积分都有扎实的基础和理解。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

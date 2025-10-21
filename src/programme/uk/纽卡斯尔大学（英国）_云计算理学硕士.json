@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "云计算理学硕士",
+  "ename": "MSc Cloud Computing",
+  "tags": "工科,计算机,计算机学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 31700英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要以下背景：计算科学，软件工程，计算系统，分布式计算，网络计算，信息系统，信息技术\n申请者应该：擅长使用面向对象的编程语言（最好是Java）编写程序，善于分析思考与推理，对概率论有基本的了解\n学校也会根据个人情况考虑资历较低或非标准资格但在计算机方面有相关工作经验的申请者",
+  "objectives": "云计算正在变革大型复杂数据集的存储和分析过程。纽卡斯尔大学云计算理学硕士学位课程，旨在培养能利用实践经验与世界各地企业合作实现云计算技术商业价值的人才。\n纽卡斯尔大学云计算理学硕士学位课程理论和实践并重，帮助学生理解和实现云计算的应用。纽卡斯尔大学云计算理学硕士学位课程涵盖了诸如面向对象的高级编程、数据挖掘和大数据分析等重点学科，培养学生的技术和职业技能以巩固个人发展，为未来职业生涯的成功打下基础。此外，纽卡斯尔大学云计算理学硕士学位课程的综合性研究训练也将为学生进行博士阶段的学习奠定基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "大数据分析 (Big Data Analytics)\n分布式算法 (Distributed Algorithms)\n企业中间件 (Enterprise Middleware)\n云计算小组项目 (Group Project in Cloud Computing)\n云计算 (Cloud Computing)\n机器学习 (Machine Learning)\n云计算项目和论文 (Project and Dissertation for MSc Cloud Computing)\n研究技巧 (Research Skills)\n高级JAVA编程 (Advanced Programming in Java)\n系统设计 (System Design)\n信息安全和信任 (Information Security and Trust)",
+  "success_cases": ""
+}

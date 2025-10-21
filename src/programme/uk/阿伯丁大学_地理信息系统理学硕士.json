@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "地理信息系统理学硕士",
+  "ename": "MSc Geographical Information Systems",
+  "tags": "工科,地球科学,地球科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 22000英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要农学、考古学、计算机科学、生态学、工程学、环境科学、林业、地理学、地质学、测绘学、海洋与海岸科学、海洋生物学、海洋科学、数学、物理、规划学、植物科学、土壤科学或动物学背景\n学校也会考虑具有其他学科学位并且能够在地理空间技术应用相关领域表现出兴趣、能力和/或经验的申请者",
+  "objectives": "地理空间技术在商业、工业和政府就业的许多领域中日益重要，包括自然保护机构，土木和海岸工程项目以及海洋和海岸带管理。因此，对地理信息系统（GIS）和相关技术课程的需求已大大增加。阿伯丁大学地理信息系统理学硕士涵盖了用于获取、存储、处理、分类、分析和可视化空间参考数据的技术和工具的基础，以及它们在地球研究中的应用。这包括：空间数据库，程式设计，仿真与建模，全球定位系统（GPS），数字地图和制图，机载、卫星和无人机遥感，数字图像处理，地理信息系统（GIS），WebGIS和Internet地图集，现场数据采集，移动GIS",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地理信息系统工具，技术，制图与地理可视化介绍 (Introduction to GIS Tools, Techniques, Cartography and Geovisualisation)\n数据库系统与大数据 (Database Systems and Big Data)\n网络地理信息系统与在线地图 (Webgis and Online Mapping)\n地理信息系统的起源、演变与实现 (Origins, Evolutions and Implementation of GIS)\n高级空间分析与编程 (Advanced Spatial Analysis and Programming)\n地图代数基础知识与高级应用 (Fundamentals and Advanced Applications of Map Algebra)\n地理信息系统应用现状 (Current Applications of GIS)\n无人机遥感、监测与测绘 (Uav Remote Sensing, Monitoring and Mapping)\n地理信息系统论文项目 (Dissertation Project in GIS)",
+  "success_cases": ""
+}

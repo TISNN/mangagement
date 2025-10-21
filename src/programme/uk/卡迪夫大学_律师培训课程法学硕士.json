@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "律师培训课程法学硕士",
+  "ename": "LLM Bar Training Course",
+  "tags": "社科,法律,法律与政治学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 23700英镑/年",
+  "requirements": "具有法学2:1荣誉学位，或者任何学科的2:1荣誉学位，并获得普通专业考试 (CPE) 或法学研究生文凭 (GDL)\n如果申请者没有2:1荣誉学位，仍然可以申请，但应提供其他证据来支持申请，例如简历和推荐信\n请注意，如果申请者收到了录取通知，在报名参加该课程之前，需要提供证据证明已经被四大律师学院之一录取为学生会员",
+  "objectives": "卡迪夫大学律师专业培训法学硕士项目适合有志于成为律师或在研究生阶段研究法学的学生。完成课程学习后，学生将参加为期12个月的实习，掌握工作培训所需的技能、程序和证据知识，培养工作态度和能力，积累知识与技能，为日后工作打下坚实基础。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "提交辩护 (Submission Advocacy)\n辩护学1 (Trial Advocacy 1)\n辩护学2 (Trial Advocacy 2)\n民事诉讼证据与救济 (Civil Litigation、Evidence and Remedies)\n刑事诉讼、证据与量刑 (Criminal Litigation、Evidence and Sentencing)\n职业道德 (Professional Ethics)\n观点写作 (Opinion Writing)\n法律起草 (Drafting)\n会议技巧 (Conference Skills)\n庭外纠纷的解决 (Resolution of Disputes Out of Court)",
+  "success_cases": ""
+}

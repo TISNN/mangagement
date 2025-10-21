@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "会计数据分析硕士",
+  "ename": "Master of Accounting Analytics",
+  "tags": "商科,会计,商学院",
+  "introduction": "专业方向: 会计\n入学时间: 9月\n项目时长: 1年\n项目学费: 360000港币/年",
+  "requirements": "具有学士学位或同等学历，不强制要求提供GMAT/GRE，但具备良好的GMAT/GRE成绩的申请者将被优先考虑",
+  "objectives": "香港大学会计数据分析硕士课程提供专注于会计领域数据分析的综合课程，以满足全球对会计行业高级数据科学和分析专业知识日益增长的需求，该项目旨在培养会计管理人员和领导角色的潜在候选人，使学生掌握使用数据、信息技术、统计分析、定量方法以及数学或计算机模型的高级技能，该课程的主要重点是使学生掌握会计行业使用的专业工具，以应对日益增长的市场需求。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计与商业智能 (Accounting and Business Intelligence)\n数据建模与经济决策 (Data Modelling and Economic Decisions)\n会计数据分析基础 (Accounting Analytics Foundation)\n高级会计数据分析 (Advanced Accounting Analytics)\n综合审计：弥合信息技术审计与财务报表审计之间的差距 (Integrated Auditing: Bridging the Gap Between IT Audit and Financial Statement Audit)\n会计数据分析的当前主题 (Current Topics in Accounting Analytics)\n会计中的人工智能 (Artificial Intelligence in Accounting)\n区块链网络安全风险分析 (Blockchain Cybersecurity Risk Analytics  )\n会计、金融科技与创新 (Accounting, Fintech and Innovation)\n数据挖掘与文本分析 (Data Mining and Text Analysis)\n深度学习与神经网络 (Deep Learning and Neural Networks)\n税务架构与规划 (Taxation Framework and Planning)\n公司金融 (Corporate Finance)\n管理学原理 (Principles of Management)\nESG报告：概念与实践 (ESG Reporting: Concepts and Practices)\n会计分析与管理决策 (Accounting Analytics and Managerial Decisions)\n社交媒体与数字营销分析 (Social Media and Digital Marketing Analytics)\n数据库设计与管理 (Database Design and Management)\n高级财务报告 (Advanced Financial Reporting)\n商业的法律与道德环境 (Legal and Ethical Environment of Business)\n国际学习实地考察 (International Study Field Trip)",
+  "success_cases": ""
+}

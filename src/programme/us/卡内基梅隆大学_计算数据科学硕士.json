@@ -1,0 +1,12 @@
+{
+  "school_name": "卡内基梅隆大学",
+  "major_name": "计算数据科学硕士",
+  "ename": "Master of Computational Data Science",
+  "tags": "理科,数据科学",
+  "introduction": "专业方向: 数据科学\n入学时间: 秋季\n项目时长: 144units\n项目学费: 26500美元/学期\n项目规模: 60人\n平均成绩: 3.8\n平均起薪: 100000美元",
+  "requirements": "GPA 不低于 3.0\n建议有计算机科学和数学方面的良好背景",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

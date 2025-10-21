@@ -1,0 +1,12 @@
+{
+  "school_name": "乔治城大学",
+  "major_name": "数学与统计学硕士",
+  "ename": "MS in Mathematics & Statistics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 三个学期\n项目学费: 56,640美元",
+  "requirements": "申请者必须持有地区认可机构的学士学位且GPA达到3.0及以上。申请者具备微积分,多变量微积分,线性代数,数学,统计学等相关学科背景",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

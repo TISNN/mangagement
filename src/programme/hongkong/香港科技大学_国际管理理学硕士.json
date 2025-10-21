@@ -1,0 +1,12 @@
+{
+  "school_name": "香港科技大学",
+  "major_name": "国际管理理学硕士",
+  "ename": "MSc International Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 390000港币/年",
+  "requirements": "MIMT：持有认可院校颁发的学士学位或同等学历，可以选择性提交GMAT/GRE\nMIMT (With CEMS Qualification)：持有认可院校颁发的商业相关学士学位或同等学历，需要提交GMAT/GRE，另外：要求至少掌握2门语言（包括英语）以及具备少于2年的全职岗位工作经验，入学时未掌握第3种语言的学生需要在香港科技大学修读至少1学期的第3种语言入门课程并在毕业前成功完成该课程\n需要填写补充表格，（如果适用）需要提交第二/第三外语语言证明",
+  "objectives": "香港科技大学国际管理硕士课程是为商科毕业生开设的管理学预科研究生课程。该课程旨在培养学生与管理全球组织相关的管理知识和技能，提高他们的跨文化和国际视野，并为他们在跨文化工作环境中成为国际管理领导职位的潜在候选人做准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业应用的市场研究 (Market Research for Business Applications)\n管理决策 (Managerial Decision Making)\n亚洲商贸 (Doing Business in Asia)\n亚洲战略管理 (Strategic Management in Asia)\n负责任的全球领导力 (Responsible Global Leadership)\n全球管理的复杂性 (Managing Global Complexity)\n了解消费者：战略方法 (Understanding Consumers: A Strategic Approach)\n运营管理 (Operations Management)\n亚洲的全球性供应链管理 (Global Supply Chain Management in Asia)\n商业项目实践 (Business Project)\n品牌管理 (Brand Management)\n全球营销管理 (Global Marketing Management)\n有效谈判 (Effective Negotiations)\n技能研习会 (Skill Seminar )\n语言课程 (Basic Language Course)",
+  "success_cases": ""
+}

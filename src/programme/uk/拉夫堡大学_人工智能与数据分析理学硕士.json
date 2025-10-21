@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "人工智能与数据分析理学硕士",
+  "ename": "MSc Artificial Intelligence and Data Analytics",
+  "tags": "理科,数据科学,数字技术研究所",
+  "introduction": "专业方向: 数据科学\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "该专业适合以下学生：具有英国2:2荣誉学位（最后一年成绩达到50%）或同等学历，接受一系列学科背景，包括数字技术、工程、数学、科学、金融、经济和市场营销\n来自其他学科（如商业和管理，以及社会科学学科）的申请者也欢迎申请，并将根据具体情况予以考虑",
+  "objectives": "人工智能与数据分析理学硕士课程旨在让学生全面理解数字时代的数据分析和人工智能应用，并培养他们的技能，以最有效的方式使用人工智能和数据分析工具应对相关挑战。因此，该课程将提供最先进的人工智能和数据分析技术，并以数学原理和计算机编程为基础，为学生提供独特的服务。通过多个特定模块的动手项目，学生们将逐步建立开发新算法和产品的能力和技能",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "合作课题 (Collaborative Project)\n数据科学原理 (Principles of Data Science)\n人工智能与数据分析基本原理 (Foundational Principles of AI and Data analytics)\n数字应用程序开发 (Digital Application Development)\n信息管理 (Information Management)\n网络安全与取证 (Cybersecurity and Forensics)\n强化学习 (Reinforcement Learning)\n媒体处理 (Media processing)\n高级编程与可视化 (Advanced Programming and Visualization)\n高级大数据分析 (Advanced Big Data Analytics)\n物联网及其应用 (Internet of Things and Applications)\n云应用与服务 (Cloud applications and services)\n论文 (Dissertation)",
+  "success_cases": ""
+}

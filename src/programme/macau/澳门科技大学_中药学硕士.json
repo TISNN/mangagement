@@ -1,0 +1,12 @@
+{
+  "school_name": "澳门科技大学",
+  "major_name": "中药学硕士",
+  "ename": "Master of Pharmacology in Traditional Chinese Medicine",
+  "tags": "社科,药学,中医药学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 2.5年\n项目学费: 96000港币/年",
+  "requirements": "修读中、西药学或相关专业（色盲、色弱者不可报读）。提交申请前先联系意向导师。需要面试笔试。需提交一份研究计划。",
+  "objectives": "培养优秀的中药学专才。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "专业英语 (Medical English)\n仪器分析 (Instrumental Analysis)\n药理实验方法学 (Methodology of Pharmacological Experiment)\n临床药理学 (Clinical Pharmacology)\n中药学研究进展 (Advances in Research into Chinese Materia Medica)\n现代生物技术 (Modern Biotechnology)\n医学统计学 (Medical Statistics)",
+  "success_cases": ""
+}

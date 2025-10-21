@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "机器学习与过程系统工程理学硕士",
+  "ename": "MSc Machine Learning and Process Systems Engineering",
+  "tags": "工科,化工,化学工程学院",
+  "introduction": "专业方向: 化工\n入学时间: 9月\n项目时长: 1年\n项目学费: 42900英镑/年",
+  "requirements": "具有2:1学位，需要工程、物理科学、数学、生命科学或生物医学科学背景\n需要申请ATAS证书",
+  "objectives": "帝国理工学院机器学习与过程系统工程理学硕士学位课程使学生理解与系统工程相关的数学，促使学生深度剖析控制理论、建模、设计与管理技术以及它们在过程系统工程领域的应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级工艺操作 (Advanced Process Operations)\n过程系统的动态行为 (Dynamic Behaviour in Process Systems)\n高级化学工程优化 (Advanced Optimisation for Chemical Engineering)\n工业自动化与自治系统 (Industrial Automation and Autonomous Systems)\n化学工程编程与Python入门 (Introduction to Programming and Python in Chemical Engineering)\n化学工程机器学习 (Machine Learning for Chemical Engineering)\n机器学习与过程系统工程数学 (Mathematics for Machine Learning and Process Systems Engineering)\n高级工艺设计 (Advanced Process Design)\n高级生物过程工程 (Advanced Bioprocess Engineering)\n高级环境工程 (Advanced Environmental Engineering)\n应用光谱学 (Applied Spectroscopy)\n生化工程 (Biochemical Engineering)\n商业策略 (Business Strategy)\n创业在线 (Entrepreneurship Online)\n生物系统建模 (Modelling of Biological Systems)\n制药工艺开发 (Pharmaceutical Process Development)\n石油和天然气工业的实用过程工程 (Practical Process Engineering in the Oil and Gas Industry)\n生物系统中的运输过程 (Transport Processes in Biological Systems)\n高级流体力学 (Advanced Fluid Mechanics)\n碳捕获与清洁化石燃料 (Carbon Capture and Clean Fossil Fuels)\n胶体与界面科学 (Colloid and Interface Science)\n化学工程中的动力系统 (Dynamical Systems in Chemical Engineering)\n流体分子模拟 (Molecular Modelling of Fluids)\n产品描述 (Product Characterisation)\n生化传感器 (Biochemical Sensors)\n膜科学与膜分离过程 (Membrane Science and Membrane Separation Processes)\n核化学工程 (Nuclear Chemical Engineering)\n颗粒工程 (Particle Engineering)\n工艺传热 (Process Heat Transfer)\n可持续能源技术 (Sustainable Energy Technologies)\n在线会计 (Accounting Online)\n商业经济学 (Business Economics)\n公司金融在线 (Corporate Finance Online)\n创业学 (Entrepreneurship)\n金融和财务管理 (Finance and Financial Management)\n领导团队及机构 (Leading Teams and Organisations)\n创新管理 (Managing Innovation)\n线上管理经济学 (Managerial Economics Online)\n项目管理 (Project Management)",
+  "success_cases": ""
+}

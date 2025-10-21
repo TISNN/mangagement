@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "高级机械工程理学硕士（含工业应用）",
+  "ename": "MSc Advanced Mechanical Engineering with Industrial Application",
+  "tags": "工科,机械工程,工程与物理科学学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 2年\n项目学费: 15528英镑/年",
+  "requirements": "至少获得相关学科的2:1荣誉学位或同等学历。学位必须至少包含3个数学课程和3个物理或工程课程，且占比50%或以上。相关学位包括机械工程、航空工程、材料工程、生物医学工程、汽车工程和物理学\n学校希望本科学位课程包括材料、流体动力学、热力学、动力学和结构，而不适合入学的学位则会主要侧重于制造业\n学校将考虑获得相关2:2学位的有工作经验的申请者",
+  "objectives": "赫瑞瓦特大学高级机械工程理学硕士（含工业应用）是为期两年的硕士项目，提供实际应用以及先进的教学、设计和机械工程研究。该项目专为工程学位毕业生设计，以提高他们的职业机会。学生将获得必要的技术、科学和管理能力，以迈向专业机械工程师职业生涯。该课程使学生能够获得理学硕士学位，并获得在工业环境中的实践经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "专业工程技术 (Specialist Engineering Technologies)\n工程设计 (Engineering Design)\n流体 (Fluids)\n材料先进力学 (Advanced Mechanics of Materials)\n动力学 (Dynamics)\n热力学 (Thermodynamics)\n火焰评估 (Flame Appraisal)\n批判性分析和研究准备 (Critical Analysis and Research Preparation)\n失效事故分析 (Failure Accident Analysis)\n工程制造 (Engineering Manufacture)\n火焰发展 (Flame Development)\n硕士学位论文 (Masters Dissertation)",
+  "success_cases": ""
+}

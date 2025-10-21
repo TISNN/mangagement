@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "自动化与控制理学硕士",
+  "ename": "MSc Automation and Control",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 30050英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要工科背景：电气与电子工程，计算机工程，机械工程，物理通信或信息与控制工程\n具备相关工作经验者优先（非必要条件）\n如果申请者有较低或非标准资格和大量相关工作经验，学校会根据个人情况考虑其申请",
+  "objectives": "纽卡斯尔大学自动化与控制理学硕士项目涉及自动化与控制的所有主要学科，深入探讨了先进控制系统、工业自动化技术、系统集成、分布式系统和现场总线协议，也将提供使用现场总线和分布式控制系统集成的最新信息。这将使工程学科学生在控制和自动化系统中胜任设计或开发工程师的工作，同时也开发了学生研究和获取知识的技能，为学生进一步的学习提供了基础。在纽卡斯尔大学自动化与控制理学硕士项目中，学生将学到现代和经典控制系统和工业自动化技术，有机会接触行业标准测试、测量设备和自动化控制领域相关实验硬件和软件包。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "工业自动化、机器人与人工智能 (Industrial Automation、Robotics and Artificial Intelligence)\n分布式控制系统 (Distributed Control Systems)\n数字控制系统 (Digital Control Systems)\n线性控制器设计和状态空间（MATLAB运用） (Linear Controller Design and State Space with Matlab Applications)\n电力和控制课题项目 (Electrical Power and Control Project)\n个人课题项目 (Individual Project)\n信号处理和估计 (Signal Processing and Estimation)\n高级多媒体系统 (Advanced Multimedia Systems)\n电力电子设计和实现 (Power Electronics-Design and Implementation)\n电力传动控制 (Control of Electric Drives)\n电力系统运营和分析 (Power Systems Operation & Analysis)",
+  "success_cases": ""
+}

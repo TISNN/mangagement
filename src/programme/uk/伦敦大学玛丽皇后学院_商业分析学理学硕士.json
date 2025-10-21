@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "商业分析学理学硕士",
+  "ename": "MSc Business Analytics",
+  "tags": "商科,商业分析,工商管理学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有本科2:1学位或以上学历，学科背景不限，但是需要较好的统计和数学研究背景。定量性较高的学科有数学、科学、工程、计算机科学、经济学和金融\n如果申请者来自定量性较弱的学位，如会计学、管理学和政治学等专业，但是学习过程中涉及的定量内容较多，也可申请",
+  "objectives": "伦敦大学玛丽皇后学院商业分析学理学硕士项目是由商学院与数学学院合作开设的一个新项目，针对当今数字化经济内的直接商业活动，培养学生数字化经济工作中必须具备的统计学知识与商业分析技能。未来学生能够通过商业分析为决策提供支持、引领商业发展方向并创造价值。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业分析程序设计 (Programming for Business Analytics)\n数据分析 (Data Analytics)\n战略分析 (Strategic Analysis)\n商业分析的领导技能 (Leadership Skills for Business Analytics)\n商业分析实验 (Experiments for Business Analytics)\n商业智能统计分析系统 (SAS for Business Intelligence)\n商业分析小组项目 (Group Project in Business Analytics)\n商业时间序列分析 (Time Series Analysis for Business)\n业务流程优化 (Optimisation of Business Processes)\n项目管理 (Project Management)\n创业 (Entrepreneurship)",
+  "success_cases": ""
+}

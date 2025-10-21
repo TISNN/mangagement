@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "高级计算机科学理学硕士",
+  "ename": "MSc Advanced Computer Science",
+  "tags": "工科,计算机,计算机与信息科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 30250英镑/年",
+  "requirements": "至少二等（2:2）荣誉学位，要求计算机科学或密切相关学科背景，具有丰富的编程经验，最好使用 Java 或其他面向对象的语言。具有丰富编程经验的其他学科人士可与学校联系",
+  "objectives": "计算机科学探讨了计算机系统的构建、开发和实施，而系统开发在现代生活中的诸多领域扮演着重要的角色，且当前对于计算机科学专业人员的需求正日益增长。思克莱德大学高级计算机科学理学硕士项目将为学生提供通过复杂结构学习高级课程的机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "信息社会的法律、道德和专业问题 (Legal, Ethical and Professional Issues for the Information Society)\n研究方法 (Research Methods)\n高级软件工程课题 (Advanced Topics in Software Engineering)\n实用系统设计 (Designing Usable Systems)\n分布式信息系统 (Distributed Information Systems)\n移动软件和应用程式 (Mobile Software & Applications)\n信息检索 (Information Retrieval)\n商业分析 (Business Analysis)\n用于数据分析的机器学习 (Machine Learning for Data Analytics)\n软件架构与设计 (Software Architecture & Design)",
+  "success_cases": ""
+}

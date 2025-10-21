@@ -1,0 +1,12 @@
+{
+  "school_name": "约克大学（英国）",
+  "major_name": "药理学与教育理学硕士",
+  "ename": "MSc Pharmacology and Education",
+  "tags": "社科,药学,赫尔约克医学院",
+  "introduction": "专业方向: 药学\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "申请者必须接受过人类或哺乳动物生物学（例如医学、生物医学或生物学本科课程的毕业生）、化学/药理学或其他相关领域的先前培训，至少达到2:2（荣誉）学位或同等学历\n插班医学生必须成功完成至少3年医学学士学位或类似的医学资格",
+  "objectives": "药理学与教育理学硕士将为学生提供全面的药理学知识，并发展其教育技能。这是一门独特的课程，围绕核心模块建立，涵盖药理学的基本原理和药物对主要器官系统的临床相关性，同时给予深入了解临床试验过程。与此同时，学生将发展学习与教学技能，促进评估和反馈知识，并掌握教育研究技能。在专家的指导下，学生将完成一个重要的研究项目，目的是产生新颖的和可发表的研究成果。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "药理学基础 (Foundations of pharmacology)\n学习与教学 (Learning and teaching)\n评估与反馈 (Assessment and feedback)\n卫生专业教育研究方法 (Research approaches in health professions education)\n治疗学 (Therapeutics)\n实验室到临床 II：临床试验 (Bench to bedside II: Clinical trials)\n论文 (Dissertation)",
+  "success_cases": ""
+}

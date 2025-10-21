@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "医疗保健数字化转型理学硕士",
+  "ename": "MSc Digital Transformation for Healthcare",
+  "tags": "理科,数据科学,制造学院",
+  "introduction": "专业方向: 数据科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 35340英镑/年",
+  "requirements": "具有2:1本科学位或同等学历，具有英国2:2学位或同等学历的申请者在证明相关专业经验后可能会被接受\n学校欢迎具有各种学术背景和经验并希望在医疗保健系统的数字化转型中发挥领导作用的申请者，特别适合临床医学、联合健康、护理学、公共卫生、健康信息学、医疗保健科学、数据科学、计算机科学和信息技术背景的毕业生\n该课程特别适合那些有临床医学或相关医疗专业背景并希望获得技术技能和知识以应对数字医疗当前和未来的发展挑战的申请者，它同样适合那些具有计算、工程或数据科学背景的申请者，他们将受益于支持医疗保健和社会护理服务数字化转型所需的高级理论知识",
+  "objectives": "华威大学医疗保健数字化转型理学硕士课程旨在为毕业生提供所需的数字医疗保健知识和领导技能，以推动对以患者为中心的医疗保健的理解、预防、诊断和管理的改进。\n本课程将为学生提供一套独特的可转移技能，将医疗保健知识、数据分析、前沿技术和数字能力与领导技能相结合，以实现和维持组织内的数字化转型。数字化转型的主要障碍通常不是技术本身，而是带来个人和组织行为的变化，这是这门新课程的重点。\n华威大学医疗保健数字化转型理学硕士课程鼓励变革性学习，并将研究和行业经验启发的教学贯穿始终。学生将获得创新、整合和采用新技术所需的工具和知识，以改善人口和个人医疗保健结果和交付模式。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字医疗保健基础 (Foundations of Digital Healthcare)\n非临床医生数字医疗保健基础 (Foundations of Digital Healthcare for Non-Clinicians)\n医疗保健大数据和数据分析 (Big Data and Data Analysis for Healthcare)\n医疗保健人工智能 (Artificial Intelligence for Healthcare)\n医疗保健数字通信和互操作性 (Digital Communication and Interoperability for Healthcare)\n数字化医疗保健系统的设计 (Design of Digitally Enabled Healthcare Systems)\n变革管理 (Management of Change)\n医疗保健环境中的领导和管理简介 (Introduction to Leadership and Management in Healthcare Contexts)\n学习、专业和分析能力 (Study, Professional and Analytical Skills)",
+  "success_cases": ""
+}

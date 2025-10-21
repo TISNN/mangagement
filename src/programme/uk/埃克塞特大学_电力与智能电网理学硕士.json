@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "电力与智能电网理学硕士",
+  "ename": "MSc Electrical Power and Smart Grids",
+  "tags": "工科,电气电子,工程、数学与物理科学学院",
+  "introduction": "专业方向: 电气电子\n项目时长: 1年\n项目学费: 30300英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，通常需要科学或工程学科背景，但学校会根据所有申请者的优点单独考虑\n相关学位：土木工程、结构工程、建筑与施工、基础设施工程、应用地质学、交通工程、物理学、建筑学、地质学、海洋技术。学校可能会根据经验而不是学历来评判特殊申请，例如相关的专业经验",
+  "objectives": "埃克塞特大学电力与智能电网理学硕士重点未来智能电网的运营、控制和维护，特别强调与净零和低碳未来相关的挑战；受益于智能电网中心提供的专业设施和设备，学校鼓励学生参加实验室会议并开展自己的项目工作和研究。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "处理数据 (Working with Data)\n数据科学和统计建模简介 (Introduction to Data Science and Statistical Modelling)\n电机和电力电子设备 (Electric Machines and Power Electronics)\n可持续工程 (Sustainable Engineering)\n电力系统分析 (Power Systems Analysis)\n电力系统工厂数字孪生 (Digital Twinning for Power System Plant)\n智能电网和可持续能源系统 (Smart Grids and Sustainable Energy Systems)\n电能系统的弹性 (Resilience of Electrical Energy Systems)\n硕士论文 (MSc Dissertation)",
+  "success_cases": ""
+}

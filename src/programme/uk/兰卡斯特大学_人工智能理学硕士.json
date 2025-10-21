@@ -1,0 +1,12 @@
+{
+  "school_name": "兰卡斯特大学",
+  "major_name": "人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence",
+  "tags": "工科,计算机,计算机与通信学院",
+  "introduction": "专业方向: 计算机\n入学时间: 10月\n项目时长: 1年\n项目学费: 30310英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，不限专业背景，申请者需要具备一些编程经验，并接触过定量方法如统计学或数学建模\n学校强烈鼓励具有计算机科学、数学、统计学、工程学、物理学、生命科学、经济学、金融学和语言学学科2:2荣誉学位的申请者申请",
+  "objectives": "兰卡斯特大学人工智能理学硕士课程旨在培养在快速发展的人工智能领域脱颖而出所需的基本技能和实践专业知识，为学生提供将人工智能技术应用于现实挑战、推动创新和增强组织能力所需的理论知识和实践经验。人工智能使计算机和机器能够模拟人类的智力和解决问题的能力，并正在彻底改变我们的生活、工作和学习方式，从流媒体服务的个性化推荐到欺诈的实时检测，从疾病的早期诊断到对不断变化的环境的自主监测，人工智能正在重塑我们所知的世界，影响着每一个主要行业。在兰卡斯特大学人工智能理学硕士课程中，学生将深入了解人工智能的真正含义，它如何成为一门变革性的学科，以及它目前如何被用于提高人类技能和改善所有行业的运营，学生将探索人工智能的发展，学习如何驾驭这项技术的复杂性，同时掌握充分利用其潜力所需的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数据科学与人工智能基础 (Fundamentals of Data Science and Artificial Intelligence)\n人工智能与数据科学概论 (Introduction to Artificial Intelligence and Data Science)\n机器学习 (Machine Learning)\n硕士论文 (MSc Dissertation)\n人工智能高级专题 ( Advanced Topics in Artificial Intelligence)\n计算机视觉 (Computer Vision)\n生成式人工智能：理论与应用 (Generative AI: Theory and Applications)\n智能代理与自主系统 (Intelligent Agents and Autonomous Systems)\n人工智能与数据分析的大型平台 (Large Scale Platforms for AI and Data Analysis)\n自然语言处理与语言模型 (Natural Language Processing and Language Models)",
+  "success_cases": ""
+}

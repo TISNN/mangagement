@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "可持续化学工程理学硕士",
+  "ename": "MSc Sustainable Chemical Engineering",
+  "tags": "工科,化工,工程学院",
+  "introduction": "专业方向: 化工\n入学时间: 9月\n项目时长: 1年\n项目学费: 30050英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要以下背景：化工、材料、机械、土木或环境工程，化学，任何纯应用科学 *（* 只适用于申请环境管理方向）\n学校会根据个人情况考虑具有较低或非标准资格以及大量相关工作经验的申请者\n申请者可能需要申请ATAS证书",
+  "objectives": "纽卡斯尔大学可持续化学工程理学硕士学位课程使科学家及工程师理解可持续工程实践，能够同涵盖燃料电池与气化、过程强化及新高端材料的新能源技术领域的研究者合作。\n纽卡斯尔大学可持续化学工程理学硕士学位课程满足对具备材料及加工工程技术的工程师的日益增长的需求。纽卡斯尔大学可持续化学工程理学硕士学位课程突出可持续工程的潜能，使学生了解与工业生产过程运作相关的环境、经济及社会议题。\n纽卡斯尔大学可持续化学工程理学硕士学位课程面向来自工程或化学科学相关专业且有意学习如何将知识运用于可持续化学工程设计的优秀毕业生。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "空气污染 (Air Pollution)\n能源管理 (Energy Management)\n生命周期评估 (Life Cycle Assessment)\n可持续设计和制造1 (Sustainable Design and Manufacture I)\n可持续产业 (Sustainable Industry)\n燃料电池系统1 (Fuel Cells System I)\n燃料电池系统2 (Fuel Cells System II)\n化学工程实现可持续发展论文 (Chemical Engineering for Sustainable Engineering Dissertation)\n过程强化 (Process Intensification)\n材料稳定性和可持续性 (Stability and Sustainability of Materials)\n纳米材料导论 (Introduction to Nanomaterials)\n纳米材料案例研究 (Case Studies in Nanomaterials)\n可再生能源：氢和燃料电池技术 (Renewable Energy: Hydrogen and Fuel Cell Technology)\n可再生能源：生物团能量和变废为能 (Renewable Energy: Biomass and Waste Technology)\n基础化学工程 (Basic Chemical Engineering)",
+  "success_cases": ""
+}

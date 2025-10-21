@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "企业与金融法法学硕士",
+  "ename": "LLM Corporate & Financial Law",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 28500英镑/年",
+  "requirements": "具有2:1荣誉学位或非英国同等学历，需要法律或其他学科背景（包含至少50%的学分为法律课程）学校也可以接受辅修法律的学位",
+  "objectives": "格拉斯哥大学企业与金融法法学硕士项目的重点是研究交易、市场和全球监管问题。现代律师需要了解国内外公司法和金融法的结构及相互作用，尤其是股权资本的法律框架、发行债券、收购和破产。这是一门跨学科的项目，既涉及个人交易的私法，又涵盖以金融管制和市场监管为重点的公法。专业课程由公私各领域的专家来讲授，全面分析英国法、欧盟法及国际法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "企业社会责任与法律 (Corporate social responsibility and the law)\n公司财务 (Corporate finance)\n公司治理 (Corporate governance)\n担保金融法 (The law of secured finance)\n国际金融监管 (International financial regulation)\n国际金融法 (International finance law)\n国际投资法 (International investment law)\n国际并购控制 (International merger control)\n法律与市场 (Law and markets)\n并购交易 (M & a transactions)",
+  "success_cases": ""
+}

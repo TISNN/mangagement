@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "医学教育理学硕士",
+  "ename": "MSc Medical Education",
+  "tags": "社科,教育,医学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 20200英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要医疗保健相关领域的学科背景或者大学认可的学历或在医疗保健相关领域工作并在认可机构进行专业注册",
+  "objectives": "卡迪夫大学医学教育理学硕士项目致力于培养健康专业教学专家，开英国医学硕士教育先河，为有志于从事教学工作的医学、牙科与健康专家提供创新课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "临床教学中的教与学 (Learning and Teaching in Clinical Education)\n教育媒体与技术 (Educational Media and Technologies)\n评估学习 (Assessing Learning)\n评估课程 (Evaluating Courses)\n研究技能 (Research Skills)\n医学教育的当代问题 (Contemporary Issues in Medical Education)\n实践教学项目 (Practical Teaching Project)\n学位论文：医学教育 (Dissertation: Medical Education)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "植物生物技术与企业理学硕士",
+  "ename": "MSc Plant Biotechnology and Enterprise",
+  "tags": "理科,生物,生物科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 32900英镑/年",
+  "requirements": "具有应该2:1荣誉学位或同等学历，需要生物科学背景（即生物学、自然科学、农学），不需要具备植物科学技术的先前实验室经验",
+  "objectives": "杜伦大学植物生物技术与企业理学硕士项目提供了一个真正塑造未来的独特机会。获得支持提高农业生产力和开发新的生物技术创新所需的技术和科学技能，同时也通过课程中与商业有关的企业元素提供一种商业方法。\n杜伦大学植物生物技术与企业理学硕士项目包括五个必修教学课程（80 学分）和一个研究项目（100 学分）。五个教学课程中有三个是为杜伦大学植物生物技术与企业理学硕士项目明确设计的，另外两个模块是跨学科的。旨在提供出色的理论学科特定内容以及可转移的知识和技能。“生物信息学和数据科学”课程将为大数据的计算和统计分析提供基础知识和技能。研究项目建立在教授的课程所涵盖内容的基础之上，并将提供实践、实验知识和技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "植物科学前沿 (Frontiers of Plant Science)\n农业和生物技术 (Agriculture and Biotechnology)\n生物信息学、数据分析 (Bioinformatics, data analysis )\n植物生物技术创新与企业 (Innovation and Enterprise in Plant Biotechnology)\n生物科学技术 (Technology in the Biosciences)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

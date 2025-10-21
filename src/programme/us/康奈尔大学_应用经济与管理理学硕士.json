@@ -1,0 +1,12 @@
+{
+  "school_name": "康奈尔大学",
+  "major_name": "应用经济与管理理学硕士",
+  "ename": "MS in Applied Economics and Management",
+  "tags": "商科,经济",
+  "introduction": "专业方向: 经济\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2年\n项目学费: 20,800美元/年",
+  "requirements": "先修课：微积分、代数、统计学、计量经济学以及中级微观经济理论和宏观经济理论。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

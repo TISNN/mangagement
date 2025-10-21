@@ -1,0 +1,12 @@
+{
+  "school_name": "埃克塞特大学",
+  "major_name": "以人为本的人工智能理学硕士",
+  "ename": "MSc Human Centred Artificial Intelligence",
+  "tags": "工科,计算机,工程、数学与物理科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 30300英镑/年",
+  "requirements": "申请人必须在非相关科学背景本科学位中获得2:1，或在任何其他学位科目中获得2:1以及数学达到A级，或同等学历",
+  "objectives": "埃克塞特大学以人为本的人工智能理学硕士项目旨在帮助学生学习如何确保人工智能系统符合社会价值观并满足人类需求的道德要求。通过强调将人为因素融入人工智能开发，学生不仅可以获得技术实力，还可以深入了解人工智能的道德、社会、组织和心理层面。\n学生所学习的技能是跨学科的，涵盖人工智能伦理、人机交互、人工智能、机器学习及其应用，以及环境智能、健康信息学和福祉等领域与人类合作的问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "研究项目 (Research Project)\n使用Python编程 (Programme with Python)\n以人为本的人工智能的基础 (Foundations of Human-Centred AI)\n以人为本的AI设计方法 (Design Methods for Human-Centred AI)\n机器学习 (Machine Learning)\n数据科学导论 (Introduction to Data Science)\n从数据中学习 (Learning from Data)\n社会网络与文本分析 (Social Networks and Text Analysis)\n随机过程 (Stochastic Processes)\n数字化转型 (Digital Transformation)\n领导力与全球挑战 (Leadership and Global Challenges)\n数据治理与伦理 (Data Governance and Ethics)",
+  "success_cases": ""
+}

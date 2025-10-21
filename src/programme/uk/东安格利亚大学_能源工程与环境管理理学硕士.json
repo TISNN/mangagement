@@ -1,0 +1,12 @@
+{
+  "school_name": "东安格利亚大学",
+  "major_name": "能源工程与环境管理理学硕士",
+  "ename": "MSc Energy Engineering with Environmental Management",
+  "tags": "工科,能源,工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 24350英镑/年",
+  "requirements": "具有英国2:2学士学位或同等学历，不先专业背景（包含大量数学内容）\n具有其他资格或经验的申请者如果在其他地方获得了必要的数学和技术专业知识（例如相关行业经验），其申请将会被考虑\n需要ATAS证书",
+  "objectives": "当前背景下，能源产业中经验丰富的工程专业学生备受追捧。东安格利亚大学能源工程与环境管理理学硕士项目得益于东安格利亚大学独特的研究专业能力，提供动态工程领域中的卓越训练。东安格利亚大学与地方、国家乃至全球能源企业和工程、环境科学及应用数学等领域世界级专家都保持良好的联系，学生将有机会接受融合技术工程、专业技能和广泛环境的全面教育，而业内的密切合作也将使学生掌握所需的技能。在东安格利亚大学能源工程与环境管理理学硕士项目中，学生将学习风油气能源的特定课程，了解能源和电气工程的基本规范；学生也将根据所选课题从事硕士级别的论文项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "电能的生产、分配和储存 (Electrical Energy Generation,Distribution And Storage)\n能源工程学术论文 (Energy Engineering Dissertation)\n能源工程基础 (Energy Engineering Fundamentals)\n石油与天然气工程 (Oil And Gas Engineering)\n风能工程 (Wind Energy Engineering)\n应用程式设计 (Applications Programming)\n能源期货 (Energy Futures)\n环境评估有效性 (Environmental Assessment Effectiveness)\n团队能源项目 (Team Energy Project)\n环境评估理论 (Theory Of Environmental Assessment)\n能源工程专题 (Topics In Energy Engineering)\n波浪、潮汐与水能工程 (Wave,Tidal And Hydro Energy Engineering)",
+  "success_cases": ""
+}

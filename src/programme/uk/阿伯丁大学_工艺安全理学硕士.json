@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "工艺安全理学硕士",
+  "ename": "MSc Process Safety",
+  "tags": "工科,化工,工程学院",
+  "introduction": "专业方向: 化工\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要化学工程背景\n具有机械或石油工程专业2:1学位且能够证明在化学工程关键方面具备实力\n学校也可能考虑具有工程专业High 2:2荣誉学位并且能够证明具备2年以上相关经验的申请者\n学习背景必须涵盖的重点科目：数学和热力学",
+  "objectives": "阿伯丁大学工艺安全理学硕士项目主要审查上游石油和天然气加工涉及的主要技术和操作，特别操作安全、风险评估和风险管理。阿伯丁大学工艺安全理学硕士项目的主要组成部分是了解和管理风险。将向学生介绍用于识别、评估和管理风险的工具和流程，并考虑到流程操作和人为因素等问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "安全与风险管理 (Safety & Risk Management)\n上游石油与天然气加工 (Upstream Oil and Gas Processing)\n限制使用失去效率 (Loss of Containment)\n计算流体动力学 (Computational Fluid Dynamics)\n应用风险分析与管理 (Applied Risk Analysis and Management)\n工厂设备与操作处理 (Process Plant Equipment & Operations)\n工艺设计，布局与材料 (Process Design, Layout & Materials)\n人因工程学 (Human Factors Engineering)\n工艺安全个人项目 (Process Safety Individual Project)",
+  "success_cases": ""
+}

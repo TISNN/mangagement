@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "航天工程理学硕士",
+  "ename": "MSc Space Engineering",
+  "tags": "工科,航空工程,电气和电子工程学院",
+  "introduction": "专业方向: 航空工程\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 24900英镑/年",
+  "requirements": "具有2:2英国荣誉学位或受认可的同等学历，需要航空航天工程、通信工程、计算机工程、电气工程、电气与计算机工程、电子工程、信息与通信技术、机械工程、物理学或电信工程背景\n如果申请者不符合以上要求，学校也会考虑其相关工作经验",
+  "objectives": "萨里大学航天工程理学硕士项目的独特性在于其与经验丰富的卫星专家、所有主要卫星制造商、运营商和服务供应商之间紧密的联系。业界人士参与项目中的课堂教学和项目，这能调动学生的参与积极性。萨里大学航天工程理学硕士项目旨在为学生提供在空间技术及其应用领域就业所需的专业跨学科知识和技能。学生将拥有接触航天器和有效载荷设计和交付过程的权限，因此项目毕业生对于空间相关产业中的企业来说充满吸引力。萨里大学航天工程理学硕士项目探讨了制定并执行完成太空任务的整个流程，从最初的概念设计到硬件设计，制造和测试，轨道操作（由萨里空间中心的地面站控制），学生也将有机会参与整个流程，并获取从事实际太空任务项目的经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "60学分标准项目 (60 CREDIT STANDARD PROJECT)\n射频系统和电路设计 (RF SYSTEMS AND CIRCUIT DESIGN)\n卫星通信基础知识 (SATELLITE COMMUNICATIONS FUNDAMENTALS)\n卫星遥感 (SATELLITE REMOTE SENSING)\n太空航空 (SPACE AVIONICS)\n空间动力学和任务 (SPACE DYNAMICS AND MISSIONS)\n空间系统设计 (SPACE SYSTEM DESIGN)\n先进的制导，导航和控制 (ADVANCED GUIDANCE, NAVIGATION AND CONTROL)\n先进的卫星通信技术 (ADVANCED SATELLITE COMMUNICATION TECHNIQUES)\n发射车辆和推进器 (LAUNCH VEHICLES & PROPULSION)\n空间环境与保护 (SPACE ENVIRONMENT AND PROTECTION)\n太空船的结构和机制 (SPACECRAFT STRUCTURES AND MECHANISMS)",
+  "success_cases": ""
+}

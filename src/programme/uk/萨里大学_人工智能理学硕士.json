@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence",
+  "tags": "工科,计算机,电气和电子工程学院",
+  "introduction": "专业方向: 计算机\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 26900英镑/年",
+  "requirements": "具有2:2英国荣誉学位或受认可的同等学历，需要通信工程、计算机工程、计算机科学、电子和计算机工程、电子工程、信息和通信技术、信息系统工程、数学、物理学、电信工程背景\n如果申请者不符合以上要求，学校也会考虑其相关工作经验",
+  "objectives": "萨里大学人工智能理学硕士项目将教授您基本的人工智能概念、任何人工智能工作角色所必需的通用机器学习工具，以及视觉、语音和5G三个主要人工智能主题的具体实践和研究技能。通过定期的实践练习和实际实验室，您将获得使用诸如深度神经网络（DNN）、递归神经网络（RNN）和深度强化学习（Deep RL）等尖端工具的经验。萨里大学人工智能理学硕士课程包括电气和电子工程系提供的技术模块，以及商法和伦理方面的相关模块。你还将承担一个为期一年的人工智能项目的主题，你的兴趣。在整个项目过程中，您将受到所选学科领域的学术专家的监督。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "计算机视觉与模式识别 (Computer Vision and Pattern Recognition)\n人工智能的伦理与规范 (Ethics and Regulation of Artificial Intelligence)\n数字信号处理基础 (Fundamentals of Digital Signal Processing)\n移动通信基础 (Fundamentals of Mobile Communications)\n物联网 (Internet of Things)\n语音和音频处理与识别 (Speech & Audio Processing & Recognition)\n高级移动通信系统 (Advanced Mobile Communications Systems)\n人工智能与人工智能编程 (Ai and Ai Programming)\n图像和视频压缩 (Image and Video Compression)\n图像处理与深度学习 (Image Processing and Deep Learning)\n创新管理 (Innovation Management)\n标准项目 (Standard Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "赫瑞瓦特大学",
+  "major_name": "机器人学理学硕士",
+  "ename": "MSc Robotics",
+  "tags": "工科,计算机,工程与物理科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 28056英镑/年",
+  "requirements": "具有一等或2:1荣誉学位，需要数学、物理、工程和计算机科学相关专业背景，具有数字背景和足够的计算机编程经验。同等海外资格也会被考虑。学校可以考虑相关学科领域的2:2学位，如果包含3年或以上的相关工作经验",
+  "objectives": "赫瑞-瓦特大学的机器人学理学硕士将为学生提供现代机器人技术和自主系统核心要素的培训。这一为期一年的机器人学硕士研究生学位将使学生能够在工业领域工作，在这些领域中，机器人可以用来提高生产力、改造交通、在极端环境中工作和提高生活质量。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "机器人系统科学 (Robotics Systems Science)\n智能机器人 (Intelligent Robotics)\n嵌入式系统 (Embedded Systems)\n生物启发计算 (Biologically Inspired Computation)\n数据挖掘与机器学习 (Data Mining and Machine Learning)\n人机交互 (Human Robot Interaction)\n多学科小组项目 (Multi-Disciplinary Group Project)\n机器人机械系统 (Robotic Mechanical Systems)\n嵌入式软件 (Embedded Software)\n批判性分析与研究准备 (Critical Analysis and Research Preparation)\n会话代理和口语处理 (Conversational Agents and Spoken Language Processing)\n研究方法和项目计划 (Research Methods and Project Plan)\n理学硕士项目 (MSc Project)",
+  "success_cases": ""
+}

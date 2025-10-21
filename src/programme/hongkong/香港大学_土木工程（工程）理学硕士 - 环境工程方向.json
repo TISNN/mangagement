@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "土木工程（工程）理学硕士 - 环境工程方向",
+  "ename": "MSc(Eng) Civil Engineering (Environmental Engineering)",
+  "tags": "工科,土木工程,工程学院",
+  "introduction": "专业方向: 土木工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 320000港币/年",
+  "requirements": "具有香港大学土木工程学士学位，或从其他大学或认可机构获得以下专业适当学习领域的同等学历：土木工程、环境工程、化学工程、机械工程或环境相关科学、计算机科学、数学或统计学",
+  "objectives": "香港大学土木工程（工程）理学硕士 - 环境工程方向项目旨在提供土木工程领域的高级教育，为有意从事土木工程专业的毕业生提供深入的理论及实践教育，并帮助执业土木工程师提升及更新他们的知识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "水文资料分析 (Data analysis in hydrology)\n高级水与废水处理 (Advanced water and wastewater treatment)\n环境化学 (Environmental chemistry)\n工程项目环境影响评价 (Environmental impact assessment of engineering projects )\n地下水水文学 (Groundwater hydrology)\n市政污水处理 (Municipal wastewater treatment)\n固体和危险废物管理工程 (Solid and hazardous waste management engineering)\n城市水文水力学 (Urban hydrology and hydraulics)\n风力工程 (Wind engineering)\n环境工程专题A (Special topic in environmental engineering A)\n环境工程专题B (Special topic in environmental engineering B)\n水与环境工程的最新进展 (Recent advances in water and environmental engineering)\n建筑环境 (Built environment)\n室内空气质量 (Indoor air quality)\n噪声与振动 (Noise and vibration)\n空气污染的来源与控制 (Sources and control of air pollution )",
+  "success_cases": ""
+}

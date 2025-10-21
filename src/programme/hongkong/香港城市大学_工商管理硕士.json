@@ -1,0 +1,12 @@
+{
+  "school_name": "香港城市大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 476000港币/年",
+  "requirements": "申请者必须具备：认可大学的学士学位或同等学历；最好具备至少2年相关工作经验；GMAT：在申请时具有两年工作经验的申请人不需要GMAT成绩；\n如果申请人在申请时工作经验不足两年，可以选择先申请，录取将以GMAT成绩为条件GRE：对于参加过GRE考试的学生，可以用GRE代替GMAT",
+  "objectives": "香港城市大学工商管理硕士学位课程旨在为来自私营企业和公共部门的有志之士提供专业教育，帮助他们学习新知识，提高管理能力，增强管理技能，从而让他们实现更好的职业目标并造福于于社会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业分析和决策建模 (Business Analytics and Decision Modelling)\n商业决策财务报告分析 (Financial Reporting Analysis for Business Decisions)\n管理决策 (Managerial Decision Making)\n公司金融 (Corporate Finance)\n管理信息系统 (Management Information Systems)\n运营管理 (Operations Management)\n组织行为与领导力 (Organizational Behavior and Leadership)\n市场营销原理 (Principles of Marketing)\n战略管理 (Strategic Management)\n职业论坛 (Professional Forum)\n商业案例与操作研究 (Business Case and Action-Based Study)\n商业道德与可持续性 (Business Ethics and Sustainability)\n创业计划开发 (Entrepreneurship and Venture Plan Development)\n全球品牌管理研讨会 (Global Brand Management Workshop)\n全球高级管理研讨会 (Global Advanced Management Workshop)",
+  "success_cases": ""
+}

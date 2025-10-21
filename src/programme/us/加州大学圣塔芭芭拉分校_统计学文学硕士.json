@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学圣塔芭芭拉分校",
+  "major_name": "统计学文学硕士",
+  "ename": "MA in Statistics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n项目类别: STEM\n入学时间: 秋季\n项目时长: 42学分\n项目学费: 15,102美元",
+  "requirements": "GPA3.0及以上。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

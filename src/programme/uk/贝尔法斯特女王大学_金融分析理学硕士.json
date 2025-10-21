@@ -1,0 +1,12 @@
+{
+  "school_name": "贝尔法斯特女王大学",
+  "major_name": "金融分析理学硕士",
+  "ename": "MSc Financial Analytics",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 25800英镑/年",
+  "requirements": "通常具有strong 2:2荣誉学位（至少55%）或学校接受的同等学历，需要金融学、数学、经济学或其他相关定量学科背景，学校会考虑具有科学和工程学科背景（包含大量数学成分）的申请者，相关课程成绩必须达到所要求的标准，具有2:2荣誉学位（分数低于55%）或学校接受的同等学历并且具备足够相关经验的申请者将根据具体情况予以考虑",
+  "objectives": "贝尔法斯特女王大学金融分析理学硕士项目旨在为学生提供领先的金融和金融科技公司所使用的前沿定量和计算技术。鉴于其强大的行业重点，它将为毕业生在金融市场以及量化金融和交易环境中打开机会。\n贝尔法斯特女王大学金融分析理学硕士项目旨在弥合复杂量化模型和金融决策之间的差距，并通过为学生配备金融和数据分析的双重技能来实现这一目标。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "资产定价 (Asset Pricing)\n数据管理 (Data Management)\n金融数据分析 (Financial Data Analytics)\n高级分析和机器学习 (Advanced Analytics and Machine Learning)\n金融领域的计算方法 (Computational Methods in Finance)\n高级金融数据分析 (Advanced Financial Data Analytics)\n人工智能与贸易 (AI & Trading)\n学术论文 (Academic Dissertation)\n应用研究项目 (Applied Research Project)\n公司金融 (Corporate Finance)\n市场微观结构 (Market Microstructure)",
+  "success_cases": ""
+}

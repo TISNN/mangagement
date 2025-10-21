@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "应用数学理学硕士",
+  "ename": "MSc Applied Mathematics",
+  "tags": "理科,数学,数学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 35700英镑/年",
+  "requirements": "具有2:1学位，需要数学、应用数学、工程学或物理学专业背景，申请者可能需要接受面试",
+  "objectives": "帝国理工学院应用数学理学硕士项目在应用数学的许多不同领域为学生提供出色的培训。学生将掌握一系列解决问题、项目工作和演讲方面的数学技能。帝国理工学院应用数学理学硕士项目采用小班授课，并提供丰富的选修课程，允许学生根据自己的兴趣和背景定制课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级动力系统 (Advanced Dynamical Systems)\n偏微分方程前沿课题 (Advanced topics in Partial Differential Equations)\n渐近分析 (Asymptotic Analysis)\n分岔理论 (Bifurcation Theory)\n计算线性代数 (Computational Linear Algebra)\n计算偏微分方程 (Computational Partial Differential Equations)\n计算随机过程 (Computational Stochastic Processes)\n动力系统 (Dynamical Systems)\n博弈动力学 (Dynamics of Games)\n动力学、对称性和可积性 (Dynamics, Symmetry and Integrability)\n函数空间及其应用 (Function Spaces and Applications)\n几何力学 (Geometric Mechanics)\n数学金融 (Mathematical Finance)",
+  "success_cases": ""
+}

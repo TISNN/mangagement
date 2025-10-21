@@ -1,0 +1,12 @@
+{
+  "school_name": "宾夕法尼亚大学",
+  "major_name": "计算机与信息科学硕士",
+  "ename": "MSE in Computer and Information Science",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n入学时间: 秋季\n项目时长: 10门课\n项目学费: 7594美元/课\n项目规模: 61人",
+  "requirements": "操作系统,程序设计语言,数据结构,离散数学,线性代数,算法和理论",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

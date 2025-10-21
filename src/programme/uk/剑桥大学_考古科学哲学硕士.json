@@ -1,0 +1,12 @@
+{
+  "school_name": "剑桥大学",
+  "major_name": "考古科学哲学硕士",
+  "ename": "MPhil Archaeological Science",
+  "tags": "社科,历史,考古学系",
+  "introduction": "专业方向: 历史\n入学时间: 10月\n项目时长: 1年\n项目学费: 34254英镑/年",
+  "requirements": "申请者应该具有英国High II.i荣誉学位或同等学历\n申请者应具有一系列背景，包括：\n- 具有考古学、历史学、社会人类学、古典文学和相关学科的本科学位，寻求对考古证据进行科学分析所涉及的方法和原理的培训\n- 具有化学、生物学、物理学、地理学、地质学、材料科学和其他科学学科的本科学位，寻求将其科学背景应用到考古研究中，同时学习塑造这项工作的更广泛的背景、考古框架和理论\n- 具有保护背景的学生和专业人士，希望学习研究技能和技术，以了解他们所保护的材料的性质和背景\n需要提交1篇Sample of work（约2000字）",
+  "objectives": "剑桥大学考古科学哲学硕士课程旨在向学生介绍考古科学的主要理论和研究方法，特别是考古材料科学、地考古学、动物考古学、古植物学、遗传学以及同位素和生物分子考古学。目标包括：为考古学中涉及的理论问题提供一个广泛而富有挑战性的介绍。深入了解考古研究中科学分析和解释的方法。培养创新性研究问题的提出能力和运用科学方法进行有效探索的能力。提供与考古科学专业和/或研究职业相关的培训。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "考古科学原理 (Principles of Archaeological Science)\n考古科学的应用 (Applications of Archaeological Science)\n生物分子考古学 (Biomolecular Archaeology)\n考古材料与技术 (Archaeological Materials and Technologies)\n环境考古学 (Environmental Archaeology)\n地质考古学 (Geoarchaeology)\n计算考古学 (Computational Archaeology)\n人体骨学 (Human Osteology)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "思克莱德大学",
+  "major_name": "人工智能与应用理学硕士",
+  "ename": "MSc Artificial Intelligence & Applications",
+  "tags": "工科,计算机,计算机与信息科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 28700英镑/年",
+  "requirements": "具有至少二等（2:2）荣誉学位，专为没有计算机科学背景的申请者设计",
+  "objectives": "思克莱德大学人工智能与应用理学硕士项目是专为没有计算机科学背景的毕业生设计的转换学位。旨在为您提供在我们的经济和社会中领先于人工智能驱动的转型的技能。您将获得可转移的技能，为您在 AI 及其应用领域的职业生涯做好准备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "法律、道德和职业问题 (Legal, Ethical & Professional Issues)\n人工智能的定量方法 (Quantitative Methods for AI)\n大数据技术 (Big Data Technologies)\n自主系统的人工智能 (AI for Autonomous Systems)\n深度学习与神经网络 (Deep Learning & Neural Nets)\n金融AI (AI for Finance)\n用于数据分析的机器学习 (Machine Learning for Data Analytics)\n论文 (Dissertation)",
+  "success_cases": ""
+}

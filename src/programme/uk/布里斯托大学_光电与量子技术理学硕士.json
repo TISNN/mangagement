@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "光电与量子技术理学硕士",
+  "ename": "MSc Optoelectronic and Quantum Technologies",
+  "tags": "工科,电气电子,计算机科学、电气与电子工程和工程数学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 35800英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要化学、通信工程、计算机网络、计算机科学与技术、计算机系统工程、电子与电气工程、信息与通信技术、信息工程、数学、机械工程、微电子工程、光学工程、光信息科学与技术、光电信息科学与技术、物理学、电信背景，经济学和数学学位也可能被考虑对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩\n学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们具备以下条件：\n- 至少一年在相关行业从事工程或技术工作的全职工作经验\n- 相关研究生学历\n如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关工作经验和/或资格",
+  "objectives": "在本课程中，学生将对下一代集成电路的设计、制造和使用有深入的了解，结合光学、电子学和量子工程的子系统和系统，用于通信、计算、传感和医疗保健。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "集成电路电子 (Integrated Circuit Electronics)\nVLSI设计 (VLSI Design)\n纳米加工 (Nanofabrication)\n量子系统工程 (Quantum Systems Engineering)\n网络协议原则 (Networking Protocol Principles)\n数据中心网络 (Data Centre Networking)\n光网络 (Optical Networks)\n先进的网络 (Advanced Networks)\n量子信息论 (Quantum Information Theory)\n量子光与物质 (Quantum Light and Matter)\n量子计算 (Quantum Computation)\n量子系统工程 (Quantum Systems Engineering)",
+  "success_cases": ""
+}

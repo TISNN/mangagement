@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡管理大学",
+  "major_name": "商业信息技术硕士",
+  "ename": "Master of IT in Business",
+  "tags": "商科,信息系统,信息系统学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 1/8月\n项目时长: 1年\n项目学费: 54500新币/年",
+  "requirements": "- 鼓励任意学位的申请者申请\n- 偏好具备2年商业或技术角色工作经验的申请者\n- 具有良好的GMAT/GRE/SMU入学考试（总分56）成绩",
+  "objectives": "现在正处在一个颠覆性的时代，在这个时代，技术在某些领域创造了公平的竞争环境，在另一些领域创造了不公平的优势。这就对企业领导者提出了越来越高的要求，要求他们掌握相关的专业知识。新加坡管理大学商业信息技术硕士课程借鉴了数据分析、技术平台和商业战略领域的思想领导力，并深入研究了四个专业方向：金融技术与分析、分析、人工智能和数字转型。每一个专业方向都会教授学生所需的独特资源。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "商业分析框架与商务环境 (Analytics Framework & Business Context)\n数据分析实验室 (Data Analytics Lab)\n客户分析与应用 (Customer Analytics & Applications)\n运营分析与应用 (Operations Analytics & Applications)\n云计算和大数据分析 (Cloud and Big Data Analytics)\n视觉分析与应用 (Visual Analytics & Applications)\n文本分析与应用 (Text Analytics & Applications)\n社会分析与应用 (Social Analytics & Applications)\n商业分析实践 (Business Analytics Practicum)\n创新管理 (Innovation Management)\n技术与经营决策电子表格建模 (Spreadsheet Modeling for Technology & Operation Decisions)\n信息技术项目和供应商管理 (IT Project & Vendor Management)\n全球采购技术与流程 (Global Sourcing of Technology & Processes)\n财务会计之于服务行业分析 (Financial Accounting for Service Sector Analytics)\n管理会计之于技术与运作管理者 (Management Accounting for Technology & Operations Managers)",
+  "success_cases": ""
+}

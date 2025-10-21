@@ -1,0 +1,12 @@
+{
+  "school_name": "纽约大学",
+  "major_name": "管理与分析理学硕士",
+  "ename": "MS in Management and Analytics",
+  "tags": "商科,信息系统",
+  "introduction": "专业方向: 信息系统\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 42学分\n项目学费: 23584美元/学期",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

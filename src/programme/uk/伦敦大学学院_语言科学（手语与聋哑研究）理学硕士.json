@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "语言科学（手语与聋哑研究）理学硕士",
+  "ename": "MSc Language Sciences (Sign Language and Deaf Studies)",
+  "tags": "社科,语言,大脑科学学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 39800英镑/年",
+  "requirements": "通常具有英国大学颁发的2:1学士学位或同等学历，需要语言科学相关领域背景，如语言学、言语科学、英语语言、心理学、认知科学或相关学科",
+  "objectives": "伦敦大学学院语言科学(手语与聋哑研究)理学硕士项目在现有硕士项目中是独特的，在于其提供全面的多学科的介绍心理学，语言学和失聪的神经科学及手语。学生也有机会学习入门的英国手语。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "脑导论和脑成像 (Introduction to the Brain and Imaging the Brain)\n研究方法:原理、技巧和应用 (Research Methods: Principles, Skills and Applications)\n耳聋:认知和语言 (Deafness: Cognition and Language)\n聋人文化与身份认同 (Deaf Culture and Identities)\n手语语言学 (Linguistics of Sign Languages)",
+  "success_cases": ""
+}

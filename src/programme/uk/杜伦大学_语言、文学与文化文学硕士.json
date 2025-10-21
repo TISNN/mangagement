@@ -1,0 +1,12 @@
+{
+  "school_name": "杜伦大学",
+  "major_name": "语言、文学与文化文学硕士",
+  "ename": "MA Languages, Literatures and Cultures",
+  "tags": "社科,文化,现代语言和文化学院",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 27500英镑/年",
+  "requirements": "具有认可大学颁发的2:1文学学士学位或同等学历，需要相关学科背景，例如语言（阿拉伯语、汉语、法语、德语、西班牙语、意大利语、日语、俄语）、文学或语言学\n持有非语言相关领域学位的学生可能会被录取，需要能够证明具备上述语言之一的能力（(达到CEFR C1水平）",
+  "objectives": "杜伦大学语言、文学与文化文学硕士项目帮助学生全面了解文学和文化研究领域，夯实理论基础，批判性地参与世界各地不同文学和文化背景下出现的文学作品。该课程具有广泛的全球影响力，汇集了阿拉伯文、中文、法文、德文、日文、意大利文、西班牙文和俄文研究方面的丰富专业知识。\n杜伦大学语言、文学与文化文学硕士项目为那些希望攻读世界文学和比较研究学位的学生提供了一个独特的机会，他们将坚定地强调以其原始语言研究材料，并适当其起源的地方、国家和区域背景。无论是研究一种或几种非英语语言的文本，该课程都鼓励学生在国际背景下进行思考，跨越边界、学科和规范，思考文学中的文化传播和交流问题，以及探索文学与更广泛的知识和文化现象的互动，如翻译、哲学和视觉文化。\n杜伦大学语言、文学与文化文学硕士项目着重强调当前紧迫的主题和辩论，使学生具备文学、文化和概念分析及论证方面的高水平批判性技能，可在文学、文化、艺术和遗产部门就业。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "批判理论与框架 (Critical Theory and Frameworks)\n视觉现代性 (Visual Modernities)\n翻译史 (History of Translation)\n世界文学选题 (Selected Topics in World Literatures)\n世界文学与翻译 (World Literature and Translation    )\n科学、技术与自然再造 (Science, Technology and the Re-making of Nature)\n学位论文 (Dissertation)",
+  "success_cases": ""
+}

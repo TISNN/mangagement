@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "管理学理学硕士",
+  "ename": "MSc Management",
+  "tags": "商科,管理,贝叶斯商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 33600英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历\n不需要先前学习过商业、管理或金融\n请注意本课程是为工作经验有限的应届毕业生设计的，如果申请者具备3年以上全职工作经验，应该考虑MBA课程\n申请不要求提交GMAT，但招生小组可酌情将其作为录取条件\n申请者可能需要参与面试",
+  "objectives": "伦敦大学城市学院管理学理学硕士课程延续了MBA课程的授课风格，重视学术上的严谨的同时也不忽视管理学教育方面的实际应用。您将学习企业管理的基础知识，并能够通过量身定制您的学习计划，利用我们多样化的选修模块组合，以及在贝叶斯和我们在世界各地的姐妹机构学习，来创建一个更个性化的学习课程。伦敦大学城市学院管理学理学硕士课程中具有挑战性的选修课设在伦敦，或在国际地点举行，使我们的学生能够加深他们对当前管理实践知识的理解，提高他们未来全球领导者所需的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计和金融； (Accounting and Finance)\n市场营销原理和策略； (Principles of Marketing and Strategy)\n数字化管理； (Digital Management)\n商业定量方法； (Quantitative Methods for Business)\n商业与管理经济学； (Business & Managerial Economics)\n商业研究方法； (Research Methods for Business)\n商业研究项目； (Business Research Project)",
+  "success_cases": ""
+}

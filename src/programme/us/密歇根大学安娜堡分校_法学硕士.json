@@ -1,0 +1,12 @@
+{
+  "school_name": "密歇根大学安娜堡分校",
+  "major_name": "法学硕士",
+  "ename": "Master of Laws",
+  "tags": "社科,法律",
+  "introduction": "专业方向: 法律\n入学时间: 秋季\n项目时长: 24学分\n项目学费: 68160美元\n项目规模: 45人",
+  "requirements": "不需要G",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

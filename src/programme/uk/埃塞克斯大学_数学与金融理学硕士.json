@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "数学与金融理学硕士",
+  "ename": "MSc Mathematics and Finance",
+  "tags": "商科,金工金数,数学科学系",
+  "introduction": "专业方向: 金工金数\n入学时间: 10月\n项目时长: 1年\n项目学费: 21700英镑/年",
+  "requirements": "具有2:1学位，背景需要为以下学科之一：数学、统计学、运筹学、计算机科学、应用数学、纯数学、生物统计学、经济统计学、经济学；或具有2:1学位，不限专业背景，包括：以下1门课程：微积分、数学、工程数学、高等数学，以及以下1门课程：统计或概率、数学、工程数学、高等数学，以及以下1门附加相关课程：代数、分析、编程语言（R, Matlab或Python）、概率论或统计学中的第2门课程、数值方法、复数、微分方程、优化（线性规划）、回归、随机过程、数学、工程数学、高等数学低于2:1学位或同等学历的申请者，将根据其相关专业或志愿工作经验和之前学习的课程对其申请进行考虑",
+  "objectives": "埃塞克斯大学数学与金融理学硕士项目是学校最受欢迎的课程之一，允许具有数学背景的人们学习金融，由于金融经常涉及风险建模和评估、资产定价和价格预测，数学已经成为这项研究不可或缺的工具。学生探索的主题包括：项目组合管理中的模型和数学，现代银行业的风险管理，金融模型，保险精算模型，应用统计学",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "组合优化 (Combinatorial Optimisation)\n投资组合数学 (Mathematics of Portfolios)\n统计学方法 (Statistical Methods)\n随机过程 (Stochastic Processes)\n金融衍生工具 (Financial Derivatives)\n研究方法 (Research Methods)\n论文 (Dissertation)\n数学职业与就业能力 (Mathematics Careers and Employability)\n财务与财务报告 (Finance and Financial Reporting)\n群论 (Group Theory)\n贝叶斯计算统计数据 (Bayesian Computational Statistics)\n衍生证券 (Derivative Securities)\n资产定价 (Asset Pricing)\n金融建模 (Financial Modelling)\n风险管理 (Risk Management)",
+  "success_cases": ""
+}

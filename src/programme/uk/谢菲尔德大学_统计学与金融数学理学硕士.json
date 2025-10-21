@@ -1,0 +1,12 @@
+{
+  "school_name": "谢菲尔德大学",
+  "major_name": "统计学与金融数学理学硕士",
+  "ename": "MSc Statistics with Financial Mathematics",
+  "tags": "商科,金工金数,数学与统计学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 27670英镑/年",
+  "requirements": "具有2:1本科荣誉学位，需要应用/金融数学、数据科学、经济统计数据、数学、统计数据及相关学科背景；申请者应在领域1中至少学习过一门课程，在领域2中至少学习过两门课程：\n- 领域1，数学：复杂分析、复变函数、功能分析、测度理论、实分析、实变函数、随机分析\n- 领域2，概率/统计：应用统计学、贝叶斯统计、计算统计数据、数据挖掘/分析、计量经济学、线性模型/广义线性模型、马尔可夫链/流程、医学统计、多元统计/多变量统计、非参数统计、概率论/建模、编程语言（如R, Python）、抽样/调查设计、统计分析/实验/建模、统计软件/计算、随机过程/模型/建模、时间序列",
+  "objectives": "谢菲尔德大学统计学与金融数学理学硕士项目以统计学硕士为基础，并在现代数学金融的概念、模型和工具方面进行了额外的培训。该课程培训学生应用金融行业中使用的概率、统计和数学技术。学生还将深入了解更通用的统计技术和概念，包括线性和广义线性建模、贝叶斯统计、时间序列和机器学习。学生将学习如何分析数据并从数据中得出有意义的结论，并使用统计计算软件R提高编程技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计人员的专业技能 (Professional Skills for Statisticians)\n统计实验室 (Statistical Laboratory)\n财务数学 (Financial Mathematics)\n线性模型 (Linear Models)\n机器学习和时间序列 (Machine Learning and Time Series)\n推理 (Inference)\n随机过程与金融 (Stochastic Processes and Finance)",
+  "success_cases": ""
+}

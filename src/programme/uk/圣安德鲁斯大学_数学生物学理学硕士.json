@@ -1,0 +1,12 @@
+{
+  "school_name": "圣安德鲁斯大学",
+  "major_name": "数学生物学理学硕士",
+  "ename": "MSc Mathematical Biology",
+  "tags": "理科,数学,数学与统计学学院",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 25900英镑/年",
+  "requirements": "具有数学、统计学或密切相关学科背景",
+  "objectives": "在数学生物学学术研究以及生命科学工业领域，包括生物技术、生物医学、医疗保健和制药公司，对具有这些技能的学生的全球需求不断增长。圣安德鲁斯大学数学生物学理学硕士课程为具有数学和相关领域背景的学生准备数学生物学博士学位或生物医学领域的研究职业。课程涵盖了广泛的主题，包括数学肿瘤学、生态建模、医学统计和人口动态学。该课程由数学和统计学院开设的两个学期的教学课程组成。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数学生物学中的空间模型与模式形成 (Spatial models and pattern formation in Mathematical Biology )\n数学生物学中的随机建模 (Stochastic Modelling in Mathematical Biology)\n数学肿瘤学 (Mathematical Oncology)\n高级计算技术 (Advanced Computational Techniques)\n应用GLMs进行统计建模 (Applied Statistical Modelling using GLMs)\n生物模型中的变分法 (Calculus of Variations in Biological Modelling)\n数学计算 (Computing in Mathematics)\n介绍性数据分析 (Introductory Data Analysis)\n野生动物种群动态模拟 (Modelling Wildlife Population Dynamics)\n群体遗传学 (Population Genetics)\n先进的分析技术 (Advanced Analytical Techniques)\n实验设计 (Design of Experiments)\n估计动物丰度和生物多样性 (Estimating Animal Abundance and Biodiversity)\n流体力学 (Fluid Dynamics)\n医学统计学 (Medical Statistics)\n数学生物学中的种群动力学模型 (Population Dynamics Models in Mathematical Biology)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦商学院",
+  "major_name": "全球管理硕士",
+  "ename": "Global Masters in Management",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 8月\n项目时长: 2年\n项目学费: 22450英镑/年",
+  "requirements": "要求GMAT/GRE，不超过两年工作经验，有面试",
+  "objectives": "伦敦商学院全球管理硕士项目旨在扩展学生的全球视野并发展伦敦与上海两地的国际网络，学生可以在亚洲学习并亲身体验当地的文化和商业环境，与来自不同学科和文化背景的团队优秀成员一起探索新兴市场、新兴产业金和社会企业，通过实践项目工作和国际实地考察掌握坚实的商业理论基础，通过文化理解、过硬的心态和能力在竞争激烈的就业市场中脱颖而出，使学生一毕业就可以做好工作的准备",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "会计学 (Accounting)\n金融学 (Finance)\n数据分析 (Data Analytics)\nExcel基础 (Excel Basics)\n定向 (Orientation)\n管理数据分析 (Data Analytics for Management)\n金融1 (Finance 1)\n金融会计 (Financial Accounting)\n应用微观经济学 (Applied Microeconomics)\n战略1 (Strategic Analysis 1)\n市场营销1 (Marketing 1)\n个人和职业发展 (Personal and Professional Growth)\n决策与风险分析 (Decision and Risk Analysis)\n商业分析 (Business Analytics)\n金融2 (Finance 2)\n管理和会计 (Management & Accounting)\n全球宏观经济 (The Global Macroeconomy)\n战略2 (Strategic Analysis 2)\n市场营销2 (Marketing 2)\n组织运作 (Performing in Organisations)",
+  "success_cases": ""
+}

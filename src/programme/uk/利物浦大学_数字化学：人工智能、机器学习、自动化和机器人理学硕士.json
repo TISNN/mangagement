@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "数字化学：人工智能、机器学习、自动化和机器人理学硕士",
+  "ename": "MSc Digital Chemistry: AI, Machine Learning, Automation and Robotics",
+  "tags": "理科,化学,物理科学学院",
+  "introduction": "专业方向: 化学\n入学时间: 9月\n项目时长: 1年\n项目学费: 29900英镑/年",
+  "requirements": "具有2:2理学学士荣誉学位或同等学历，需要化学、化学工程或化学相关专业背景",
+  "objectives": "利物浦大学数字化学：人工智能、机器学习、自动化和机器人理学硕士项目使学生能够将人工智能、自动化、机器人和机器学习的概念和技术与其在化学研究中的应用联系起来。学生将扩展特定的技能和知识水平，为现代和开创性的专业实践或进一步博士水平的研究做好准备，培养在各种化学环境中应用数字方法的批判性思维，例如纯材料、药品和配方材料等。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数字炼金术：合成代码与化学 (Digital Alchemy: Synthesising Code and Chemistry)\n数字化学的关键技能 (Key Skills for Digital Chemistry )\n人工智能与数据科学的数学和统计学 (Maths and Statistics for AI and Data Science)\n程序设计基础 (Programming Fundamentals)\n化学中的机器人与自动化 (Robotics and Automation in Chemistry)\n化学数据、发现与设计 (Chemical Data, Discovery and Design)\n数字化化学研究项目规划与管理 (Research Project Planning and Management in Digital Chemistry)\n数字化学理学硕士研究项目 (MSc Digital Chemistry Research Project)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "高级材料科学与工程理学硕士",
+  "ename": "MSc Advanced Materials Science and Engineering",
+  "tags": "工科,材料,材料学院",
+  "introduction": "专业方向: 材料\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有英国2:2荣誉学位或同等学历，需要理工科背景",
+  "objectives": "本课程旨在满足行业要求，在这些行业中，合格的材料科学家和工程师受到高度追捧。这个具有挑战性的跨学科项目涵盖了先进的现代高科技产业必不可少的主要工程材料类别。学生从项目中获得的专业知识可以应用于广泛的工业领域，包括航空航天，汽车，发电和配电，IT，制造和消费品等等。毕业后，您能够对以下方面有一定的理解：材料特性与其组成和微观结构之间关系的基本原理，根据所研究的模块，或多或少了解特定的单个材料类别或特性；材料的合成和生产以及该材料与它们随后的特性之间关系的基本原理，根据所研究的模块，或多或少地了解特定的单个材料类别或特性；表征技术：一系列表征技术的基础概念和实际使用，根据所研究的模块对特定技术有一定的了解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级材料制造 (Advanced materials manufacturing)\n纳米材料和复合材料 (Nanomaterials and composites)\n高级材料特性 (Advanced materials characterisation)\n材料建模 (Materials modelling)\n研究方法 (Research methods)\n小组设计项目 (Group design project)\n学位论文项目 (MSc dissertation project)\n生物材料的发展 (Advances in biomaterials)\n能源材料 (Energy materials)\n高分子科学 (Polymer science)\n胶体的科学与工程 (Science and engineering of colloids)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "帝国理工学院",
+  "major_name": "数学与金融理学硕士",
+  "ename": "MSc Mathematics and Finance",
+  "tags": "商科,金工金数,数学学院",
+  "introduction": "专业方向: 金工金数\n入学时间: 9月\n项目时长: 1年\n项目学费: 43400英镑/年",
+  "requirements": "具有2:1学位，需要数学、应用数学、统计学或物理学背景，申请者可能需要接受面试",
+  "objectives": "帝国理工学院数学与金融理学硕士项目旨在帮助学生为从事量化金融和风险管理领域的职业做准备，教授专业所需的所有内容，学生可从中了解行业的最新实践和研究成果。课程涵盖面广，包括财务、经济背景、基础数学、随机分析和偏微分方程。科学计算（C中的面向对象编程）是该项目的一个组成部分。帝国理工学院数学与金融理学硕士项目适合数学科学和工程专业的毕业生，也欢迎那些在金融服务部门工作的申请人。课程结束后毕业生将具备定量金融和风险管理领域职业所需的技能，可担任财务分析师、定量分析师和风险管理分析师等职位。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "C++计算 (Computing in C++)\n期权定价基础 (Fundamentals of Option Pricing)\n定量风险管理 (Quantitative Risk Management)\n金融模拟方法 (Simulation Methods for Finance)\n金融统计方法 (Statistical Methods in Finance)\n随机过程 (Stochastic Processes)\n金融学微积分 (Malliavin Calculus in Finance )\n衍生品定价专题 (Topics in Derivatives Pricing )\n凸优化理论 (Convex Optimisation )\n投资组合管理 (Portfolio Management )\n算法交易与机器学习 (Algorithmic Trading and Machine Learning )\n数据分析和机器学习 (Data Analysis and Machine Learning )\n深度学习 (Deep learning )",
+  "success_cases": ""
+}

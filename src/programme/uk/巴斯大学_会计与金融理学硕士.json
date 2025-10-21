@@ -1,0 +1,12 @@
+{
+  "school_name": "巴斯大学",
+  "major_name": "会计与金融理学硕士",
+  "ename": "MSc Accounting and Finance",
+  "tags": "商科,金融,管理学院",
+  "introduction": "专业方向: 金融\n入学时间: 9月\n项目时长: 1年\n项目学费: 33600英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业，但必须具有定量背景/能力。这些学科包括工程学、数学、经济学和物理学。如果其他学科有足够的定量内容，学校可能会考虑\n在特殊情况下，相关工作经验可以代替学位要求。相关工作经验不超过三年",
+  "objectives": "具备扎实的会计和财务理论基础。利用学生的量化技能，提高学生的就业能力。学生将为金融相关职业生涯做好准备。深入了解金融体系。学生将学习分析财务决策和人们做出决策的动机。学生将应用这些知识到一系列真实的场景中。我们的课程涵盖了大学数学和经济学系的专业知识。这为学生提供了一系列教学和研究经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融计量经济学 (Econometrics for finance)\n金融决策理论 (Theory of financial decision making)\n财务会计 (Financial accounting)\n管理会计 (Management accounting)\n银行 (Banking)\n投资管理 (Investment management)\n公司治理 (Corporate governance)\n金融计量经济学 (Financial econometrics)\n企业融资 (Corporate finance)\n国际金融 (International finance)\n财务报表分析及公司估值 (Financial statement analysis and company valuation)\n新企业融资 (New venture financing)\n行为金融学 (Behavioural finance)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "教育学硕士（教育行政与管理）",
+  "ename": "Master of Education (Educational Administration and Management)",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 229800港币/年",
+  "requirements": "具有学士学位或同等学历",
+  "objectives": "香港大学教育学硕士（教育行政与管理）项目旨在为教育工作者提供相关理论背景，培养他们的研究兴趣和能力，以了解和分析教育中的行政管理实践，包括组织理论、管理理论、决策理论和策略、教育机构的社会学观点、教育政策制定和计划、组织心理学、教育中的责任制和法律，以及教育管理中的研究方法。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "教育问题与研究 (Educational Issues and Research)\n教育机构行政与组织理论 (Administrative and Organizational Theory for Educational Institutions)\n校本管理中的概念和问题 (Concepts and Issues in School Based Management)\n教育领导力与学校管理 (Educational Leadership and School Management)\n教育行政的法律问题 (Legal Aspects of Educational Administration)\n统计方法概论 (Introduction to Statistical Methods)\n定性研究方法：研究设计、数据收集与分析 (Qualitative Methods: Research Design, Data Collection and Analysis)\n教育中的叙述分析 (Narrative Analysis in Education )\n研究项目或专业作品集 (Research Project or Professional Portfolio)",
+  "success_cases": ""
+}

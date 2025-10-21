@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "高级化学工程理学硕士",
+  "ename": "MSc Advanced Chemical Engineering",
+  "tags": "工科,化工,工程学院",
+  "introduction": "专业方向: 化工\n入学时间: 9月\n项目时长: 1年\n项目学费: 37300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要化学工程或密切相关领域背景，如工艺、石化、制药、食品、材料工程、工业化学或化学技术，如果申请者具备相关领域的学位，学校也会考虑其申请",
+  "objectives": "爱丁堡大学高级化学工程理学硕士学位课程为期一年，通过授课课程、研习会、研究论文及由此领域顶尖专家举办的支持性活动，学生将接触化学工程的最新发展。\n爱丁堡大学高级化学工程理学硕士学位课程注重能源效率，涵盖基本主题，包括从分子层面了解系统的性质所需的现代方法、实际进程。学生将进行暑期论文项目，将不同领域的技能运用于实践中，解决化学工程问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "化学工程数理方法 (Numerical Methods for Chemical Engineers)\n分子热力学 (Molecular Thermodynamics)\n研究方法导论 (Introduction to Research Methods)\n碳捕获与封存电站小组设计项目 (Group Design Project (Power Station with Carbon Capture and Storage))\n碳捕获分离过程 (Separation Processes for Carbon Capture)\n油气系统工程 (Oil and Gas Systems Engineering)\n化学反应工程 (Chemical Reaction Engineering)\n计算流体动力学 (Computational Fluid Dynamics)\n消防科学与消防动力学 (Fire Science and Fire Dynamics)\n工程项目管理 (Engineering Project Management)\n高分子科学与工程 (Polymer Science and Engineering)\n生物材料及其生物材料代替品 (Living Materials and their Biomaterial Replacements)\n供应链管理 (Supply Chain Management)\n工业现代经济学 (Modern Economics in Industry)\n技术与创新管理 (Technology and Innovation Management)",
+  "success_cases": ""
+}

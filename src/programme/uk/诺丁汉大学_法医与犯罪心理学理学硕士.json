@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "法医与犯罪心理学理学硕士",
+  "ename": "MSc Forensic and Criminological Psychology",
+  "tags": "社科,医学,医学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 28200英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要心理学背景，受BPS认可授予特许会员研究生基础，整体成绩达到60%，最终研究项目成绩达到60%\n需要提供最近研究项目的摘要",
+  "objectives": "诺丁汉大学法医和犯罪心理学理学硕士项目提供法医心理学学科的深入知识，涵盖刑事司法和法医心理健康系统内的学术研究、理论以及应用实践。该课程获得了目前执业的法医心理学家和其他专业人士的独特意见，使学生能够对该领域的当前问题和发展产生批判性认识。学生将有机会发展理论和临床技能。这些技能将提高学生未来的就业能力和职业发展，专注学生成为法医领域的科学家兼从业者。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "犯罪心理学:犯罪行为的理论与发展 (Criminological Psychology: Theories and Development of Criminal Behaviour)\n司法精神卫生 (Forensic Mental Health)\n法律心理学：警务、犯罪与司法 (Legal Psychology: Policing, Crime and Justice)\n法医组织心理学 (Forensic Organisational Psychology)\n司法实践干预措施 (Forensic Practice Interventions)\n定性研究方法 (Qualitative Research Methods)\n研究方法导论 (Introduction to Research Methods)\n先进的法医分析方法 (Advanced Forensic Analytical Methods)\n法医心理学研究论文 (Forensic Psychology Research Dissertation)",
+  "success_cases": ""
+}

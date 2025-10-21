@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "数据分析与人力资源管理理学硕士",
+  "ename": "MSc Data Analytics and Human Resource Management",
+  "tags": "商科,人力资源管理,商学院",
+  "introduction": "专业方向: 人力资源管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 32250英镑/年",
+  "requirements": "具有2:1荣誉学士学位或同等学历，通常需要商业、管理或社会科学背景\n定量分析能力是可取的但不是必需的，需要愿意参与定量材料，具有非商业/社会科学学科学位的申请者将根据具体情况被考虑",
+  "objectives": "英国利兹大学数据分析与人力资源管理理学硕士项目为学生提供对战略人力资源管理的深入、批判性理解，以及支持统计和数据分析的原则和概念。关键是，学生将了解这些原则和概念如何应用于人力资源和人事管理领域。本课程将培养学生的“数据翻译”技能。学生将学习如何识别与人力资源相关的业务问题，了解分析如何为这些问题提供解决方案，以及识别和解释可操作的见解。由在人力资源分析领域拥有广泛研究专业知识和咨询经验的高素质教学人员提供，学生将获得先进人力资源管理概念的知识和理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人物分析：策略与实践 (People Analytics: Strategy and Practice)\n有效决策 (Effective Decision Making)\n组织信息工具 (Information Tools for Organisations)\n职业心理学 (Occupational Psychology)\n内部沟通与变更管理 (Internal Communications and Change Management)",
+  "success_cases": ""
+}

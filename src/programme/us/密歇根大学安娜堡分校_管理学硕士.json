@@ -1,0 +1,12 @@
+{
+  "school_name": "密歇根大学安娜堡分校",
+  "major_name": "管理学硕士",
+  "ename": "Master of Management",
+  "tags": "商科,管理",
+  "introduction": "专业方向: 管理\n入学时间: 夏季/秋季\n项目时长: 10个月\n项目学费: 53908美元\n项目规模: 123人\n平均成绩: 3.5\n平均G: 615/310\n男女比例: 41:59\n就业比例: 86%\n平均起薪: 67000美元",
+  "requirements": "微积分、统计学(获得C或以上的成绩)",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "电子电气工程与管理理学硕士",
+  "ename": "MSc Electronics & Electrical Engineering & Management",
+  "tags": "工科,电气电子,工程学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 33450英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要任意工程学科、计算机科学、物理科学/数学学位背景，电子与工程数学和数学的课程平均成绩为2:1\n学校可能会考虑具有2:2学位但核心课程成绩达到2:1的申请者",
+  "objectives": "格拉斯哥大学电子电气工程与管理理学硕士向学生介绍当代商业和管理问题，同时增加学生所选电子电气工程专业的知识。该课程为有工程背景，但几乎没有管理经验，并且希望在加深电子和电气工程知识的同时发展管理知识的学生设计。通过集成系统设计模块课程，学生将获得管理工程项目的第一手经验，从而培养项目管理、质量管理和会计方面的技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "人力资源管理当代议题 (Contemporary issues in human resource management)\n创意和创新管理 (Managing creativity and innovation)\n创新变革管理 (Managing innovative change)\n营销管理 (Marketing management)\n运营管理 (Operations management)\n项目管理 (Project management)\n高级设备 (Advanced devices )\n电能系统 (Electrical energy systems )\n能量转换系统 (Energy conversion systems )\n微纳米技术 (Micro & nano technology )",
+  "success_cases": ""
+}

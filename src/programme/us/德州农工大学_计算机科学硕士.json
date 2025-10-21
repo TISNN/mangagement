@@ -1,0 +1,12 @@
+{
+  "school_name": "德州农工大学",
+  "major_name": "计算机科学硕士",
+  "ename": "Master of Computer Science",
+  "tags": "工科,计算机",
+  "introduction": "专业方向: 计算机\n项目类别: STEM\n入学时间: 春季/秋季\n项目时长: 30学分\n项目学费: 54,000美元",
+  "requirements": "GPA3.0",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

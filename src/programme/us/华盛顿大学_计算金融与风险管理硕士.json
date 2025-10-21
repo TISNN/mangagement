@@ -1,0 +1,12 @@
+{
+  "school_name": "华盛顿大学",
+  "major_name": "计算金融与风险管理硕士",
+  "ename": "MS in Computational Finance and Risk Management",
+  "tags": "商科,金工金数",
+  "introduction": "专业方向: 金工金数\n项目类别: STEM\n入学时间: 秋季\n项目时长: 42学分\n项目学费: 1050美元/学分\n项目规模: 42人\n平均成绩: 3.7\n平均G: 167\n就业比例: 100%\n平均起薪: 73845美元",
+  "requirements": "微积分,概率论与统计,一种编程语言,如Java、c、Python,或一种数学或统计编程语言,如MATLAB、R/S-PLUS",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

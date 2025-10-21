@@ -1,0 +1,12 @@
+{
+  "school_name": "利物浦大学",
+  "major_name": "运营与供应链管理理学硕士",
+  "ename": "MSc Operations and Supply Chain Management",
+  "tags": "商科,供应链管理,管理学院",
+  "introduction": "专业方向: 供应链管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 27000英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要管理、工程、数学、科学或相关学科背景",
+  "objectives": "利物浦大学运营与供应链管理理学硕士项目旨在阐述在当前全球市场竞争激烈的情况下实现高效运营和供应管理所需的理论和实践因素，反映了成功经营业绩如何塑造和影响企业的销售和利润目标。该项目旨在使学生了解发展经营战略和管理业务和供应链活动的过程和技术。利物浦大学运营与供应链管理理学硕士项目中，学生将有机会：有机会通过创新教学技术（包括互动游戏，案例和模拟）进行学习；接触行业访问和真实企业场景，包括捷豹陆虎；获得SAP和SixSigma的额外资历；拥有与专家接触的机会，参加为学生提供实用专业知识和建议的客座讲座。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "供应链运营管理 (Supply Chain Operations Management)\n战略运营管理 (Strategic Operations Management)\n服务运营管理 (Service Operations Management )\n战略采购管理 (Strategic Purchasing Management)\n精益思想 (Lean Thinking)\n物流与实体分配 (Logistics and Physical Distribution)\n运营建模与模拟 (Operations Modelling and Simulation)\n电子商务工具与技术 (E-business Tools and Technologies)\n电子商务系统 (E-business Systems)\n大数据管理 (Big Data Management)\n电子商务策略 (E-business Strategy)\n航运物流 (Maritime Logistics)\n商业大数据分析 (Big Data Analytics for Business)\n数据挖掘与机器学习 (Data Mining and Machine Learning)\n组织机构项目管理和资产组合管理 (Project and Portfolio Management In Organisations)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "光学工程理学硕士",
+  "ename": "MSc Optical Engineering",
+  "tags": "工科,电气电子,电子与计算机科学学院",
+  "introduction": "专业方向: 电气电子\n入学时间: 9月\n项目时长: 1年\n项目学费: 32800英镑/年",
+  "requirements": "具有2:1本科学位，需要相关学科背景，例如：电子工程、信息工程、材料科学、光学工程、物理学、电信学\n如果申请者离开正式学习已经有一段时间，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学光学工程理学硕士课程旨在为学生提供光纤和光子技术的高级知识，让学生有机会在以研究为主导的环境中工作，使用最先进的设施，培养其适用于研究和开发职业的研究技能，运用多种教学方法激发学生对所学科目的兴趣。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "激光 (Lasers)\n光纤与波导 (Optical Fibres and Waveguides)\n光子材料与器件平台 (Photonic Materials and Device Platforms)\n光子学实验室与学习技能 (Photonics Laboratory and Study Skills)\n项目 (Project)\n光子学中的信号处理与机器学习 (Signal Processing and Machine Learning in Photonics)\n高级光纤通信 (Advanced Fibre Telecommunication)\n高级激光器 (Advanced Lasers)\n纳米科学：技术与高级材料 (Nanoscience: Technology and Advanced Materials)\n光量传感器 (Optical Sensors)\n量子信息 (Quantum Information)\n硅光子学 (Silicon Photonics)\n无线与移动网络 (Wireless and Mobile Networks)",
+  "success_cases": ""
+}

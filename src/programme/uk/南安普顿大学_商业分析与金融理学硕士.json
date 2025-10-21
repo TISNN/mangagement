@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "商业分析与金融理学硕士",
+  "ename": "MSc Business Analytics and Finance",
+  "tags": "商科,商业分析,商学院",
+  "introduction": "专业方向: 商业分析\n入学时间: 9月\n项目时长: 1年\n项目学费: 31500英镑/年",
+  "requirements": "具有2:1学位，需要包含定量研究元素的学科背景，如：金融学、经济学、科学、工程学、计算机科学\n学校不接受以下学科背景：\n- 语言研究——不接受专注于学习一门语言或如何翻译的学位，例如“商务英语”、“应用英语”或“翻译”，这一限制不适用于在英国授课的“英语”和“英国文学”学位；\n- 艺术/设计/职业研究——专注于学习一种特定形式的艺术、工艺或职业的学位，这些包括艺术、平面设计、摄影、电视广播、剧本写作或表演/舞蹈学位。\n如果申请者未明确满足申请要求但在该领域有丰富的工作经验，学校会评估其相关专业经验、学科知识和学习能力，申请将根据个人成绩进行考虑，申请者可能会被要求参加面试",
+  "objectives": "南安普顿大学商业分析与金融理学硕士项目培养学生帮助企业做出明智决策的技能。学生将学习有关公司财务、投资组合管理和信用评分的主题，以及最新的分析技术。当学生毕业时，将为在金融、银行或数据分析领域的职业生涯做好充分准备。该课程十分适合想提高数据分析技能，并且已经进行了定量研究的学生或者有相关专业经验的从业者。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "公司金融1 (Corporate Finance 1)\n优化与决策建模 (Optimisation and Decision Modelling)\n仿真 (Simulation)\n资产组合管理和交易所交易衍生产品概论 (Introduction to Portfolio Management and Exchange Traded Derivatives)\n行为金融学 (Behavioural Finance)\n金融定量研究 (Quantitative Research in Finance)\n信用风险评分与数据挖掘 (Credit Scoring and Data Mining)\nVB编程应用 (Visual Basic For Applications)\n论文 (Dissertation)\n金融风险管理 (Financial Risk Management)\n公司金融2 (Corporate Finance 2)\n知识管理和商业智能 (Knowledge Management and Business Intelligence)\n商业博弈论 (Game Theory in Business)\n信用风险模型和巴塞尔协议 (Credit Risk Model and Basel Accord)\n数据分析和建模软件 (Software for Data Analysis and Modelling)",
+  "success_cases": ""
+}

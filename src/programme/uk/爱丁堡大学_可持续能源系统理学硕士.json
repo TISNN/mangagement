@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "可持续能源系统理学硕士",
+  "ename": "MSc Sustainable Energy Systems",
+  "tags": "工科,能源,工程学院",
+  "introduction": "专业方向: 能源\n入学时间: 9月\n项目时长: 1年\n项目学费: 37300英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要工程学或物理学背景\n学校可能会接受具有其他领域背景以及英国一等荣誉学位或同等学历并且学习过本科一年级水平数学课程的申请者，包括向量微积分（梯度，卷曲等）、复代数和傅里叶变换，申请者必须能够表现出对能源领域的浓厚兴趣",
+  "objectives": "爱丁堡大学可持续能源系统理学硕士学位课程为毕业生和在职专业人员提供培训，让他们能在能源供应可持续性的背景下理解能源系统。该项目以工程学为基础，重点以电力为最终产品的能源系统。该课程的硕士生将会积极参与研究，作为其论文项目的一部分。这些活动在能源系统研究所内的高度相关和多学科主题中进行，并且越来越多地在工程学院内的其他研究所中进行。此外，还有机会与业界合作，一些学生随后加入了博士社区。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "可持续能源技术 (Technologies for Sustainable Energy)\n能源与环境经济学 (Energy and Environmental Economics)\n可持续能源环境 (Sustainable Energy Contexts)\n可再生能源电气工程基础 (Electrical Engineering Fundamentals of Renewable Energy)\n可再生能源机械工程基础 (Mechanical Engineering Fundamentals of Renewable Energy)\n可持续能源团队设计项目 (Sustainable Energy Group Design Project)\n太阳能与光伏系统 (Solar Energy & Photovoltaic Systems)\n风能原理 (Principles of Wind Energy)\n海洋能源 (Marine Energy)\n能源金融 (Energy Finance)\n应用水文地质学与近地表地球物理学 (Applied Hydrogeology and Near Surface Geophysics)\n功率转换 (Power Conversion)\n碳捕获与运输 (Carbon Capture and Transport)\n分布式能源与智能电网 (Distributed Energy Resources and Smart Grids)",
+  "success_cases": ""
+}

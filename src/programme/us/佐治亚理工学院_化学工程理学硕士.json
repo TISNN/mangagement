@@ -1,0 +1,12 @@
+{
+  "school_name": "佐治亚理工学院",
+  "major_name": "化学工程理学硕士",
+  "ename": "MS in Chemical Engineering",
+  "tags": "工科,化工",
+  "introduction": "专业方向: 化工\n入学时间: 秋季\n项目时长: 31学分\n项目学费: 1215美元/学分",
+  "requirements": "具有化学工程、生物工程、造纸科学与工程或密切相关学科背景。GPA达到3.3/4.0。国内学历的学生建议用 IEE(link is external), Educational Perspectives(link is external), or SpanTran Pathways做Evaluation",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

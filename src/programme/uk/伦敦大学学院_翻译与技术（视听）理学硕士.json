@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学学院",
+  "major_name": "翻译与技术（视听）理学硕士",
+  "ename": "MSc Translation and Technology (Audiovisual)",
+  "tags": "社科,语言,艺术与人文学院",
+  "introduction": "专业方向: 语言\n入学时间: 9月\n项目时长: 1年\n项目学费: 33000英镑/年",
+  "requirements": "具有high 2:1学士学位（平均分不低于65%），或具有文学学士/理学学士学位（任何成绩）以及至少2年翻译行业丰富经验，或具有文学硕士/理学硕士学位（任何成绩），或具有同等学历，学生应该只针对他们至少达到高级水平的语言进行翻译，并且应该只翻译成其具有母语熟练水平的语言（语言组合视情况而定）",
+  "objectives": "伦敦大学学院翻译与技术（视听）理学硕士项目提供一流的视听翻译训练和可获取的媒介资源，使学生有机会提高翻译和语言能力，深化对语言作为重要交流工具的理解，并在迅速发展的视听翻译和视听技术领域获得重要的经验。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "语言与翻译 (Language & Translation)\n翻译技巧 (Translation Technologies 1)\n字幕翻译 (Subtitling)\n旁白与配音翻译 (Translating for Voiceover & Dubbing)\n视觉信息访问受限人员的音频说明 (Audio Description for People with Limited Access to Visual Information)\n字幕翻译（针对耳聋及弱听群体） (Subtitling for the Deaf & the Hard-of-Hearing)\n语言和自动化 (Language & Automation)\n本地化翻译 (Localisation)\n译员专业技能 (Professional Skills for Translators)\n科技翻译 (Scientific & Technical Translation)\n视听翻译专题 (Topics in Audiovisual Translation)\n翻译技术2 (Translation Technologies 2)",
+  "success_cases": ""
+}

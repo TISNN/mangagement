@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "医学物理学理学硕士",
+  "ename": "MSc Medical Physics",
+  "tags": "社科,医学,医学、牙科与护理学院",
+  "introduction": "专业方向: 医学\n入学时间: 9月\n项目时长: 1年\n项目学费: 35640英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要物理、应用物理、电子工程或任何工程专业背景），具有扎实的物理基础",
+  "objectives": "格拉斯哥大学医学物理学理学硕士课程的目的是让学生了解物理和技术在医学物理学中的一系列学科中的应用，达到适合专业物理学家的水平，并使学生具备在临床环境中就业的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "成像中的辐射物理学 (Radiation Physics in Imaging)\n临床科学家的统计数据 (Statistics for the Clinical Scientist)\n医学影像物理学 (The Physics of Medical Imaging)\n临床科学家编程技能 (Programming Skills for the Clinical Scientist)\n科学管理 (Scientific Management)\n身体系统测量与成像 (Body Systems Measurement and Imaging)\n放射治疗物理学 (Radiotherapy Physics)\n物理与天文学高级数据分析 (Advanced Data Analysis for Physics and Astronomy)\n医学物理学研究论文 (Research Dissertation in Medical Physics)",
+  "success_cases": ""
+}

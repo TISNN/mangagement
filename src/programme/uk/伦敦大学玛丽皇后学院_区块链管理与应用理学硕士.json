@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学玛丽皇后学院",
+  "major_name": "区块链管理与应用理学硕士",
+  "ename": "MSc Blockchain Management and Applications",
+  "tags": "商科,其他商科,工商管理学院",
+  "introduction": "专业方向: 其他商科\n入学时间: 9月\n项目时长: 1年\n项目学费: 33500英镑/年",
+  "requirements": "具有本科2:1学位或以上学历，学科背景不限，但是需要较好的统计和数学研究背景。定量性较高的学科有数学、科学、工程、计算机科学、经济学和金融\n如果申请者来自定量性较弱的学位，如会计学、管理学和政治学等专业，学习过程中涉及的定量内容较多，也可申请",
+  "objectives": "人工智能和信息技术渗透到业务解决方案中，加速了业务创新过程。区块链技术已经扭曲了社会经济互动的角色和位置。伦敦大学玛丽皇后学院区块链管理与应用理学硕士课程旨在让学生深入了解区块链技术在新业务流程和策略中的应用。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "定量研究方法 (Quantitative Research Methods)\n区块链与数字经济概论 (Introduction to Blockchain and Digital Economy)\nPython编程概论 (Introduction to Coding with Python)\n区块链社会正义潜力根源 (The Roots of Blockchain\\'s Social Justice Potential)\n加密货币与区块链编程 (Cryptocurrency and Blockchain Programming)\n数据科学:方法与应用 (Data Science: Methods and Applications)\n数字经济中的商业伦理 (Business Ethics in Digital Economy)\n区块链，创新与透明度 (Blockchain, Innovation and Transparency)\n区块链法规与法律 (Blockchain Regulation and the Law)\n社会影响区块链:民主与治理 (Blockchain for Social Impact: Democracy and Governance)\n数字时代国际商务 (International Business in the Digital Age)\n复杂网络与创新 (Complex Networks and Innovation)\n商业与分析实验 (Experiments for Business and Analytics)\n应用实证方法 (Applied Empirical Methods)\n发展经济学 (Economics of Development)",
+  "success_cases": ""
+}

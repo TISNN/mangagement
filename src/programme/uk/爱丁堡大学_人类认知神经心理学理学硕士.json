@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "人类认知神经心理学理学硕士",
+  "ename": "MSc Human Cognitive Neuropsychology",
+  "tags": "社科,心理学,哲学、心理学与语言科学学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 31600英镑/年",
+  "requirements": "具有英国一等荣誉学位或同等学历，需要心理学背景\n学校也可能考虑没有心理学学位但在认知心理学、认知神经科学、生物心理学和/或临床心理学方面有学术研究并且在方法论和统计学方面有扎实基础的申请者",
+  "objectives": "爱丁堡大学人类认知神经心理学理学硕士项目为认知神经科学和神经心理学的强化高级培训提供了机会。参与教学和监督的人员包括国际公认的研究人员和人类认知神经科学研究小组的临床医生，他们具有包括记忆、视觉感知、决策、执行功能、社会认知和语言等一系列主题的专业知识。在该课程中，学员们将有机会学习到有关认知神经科学、临床神经心理学和脑成像的理论以及方法学方面的课程，并在其中一个领域进行一篇原创的研究论文。学生们还将受到心理学高级学术技能和研究方法的全面培训，包括使用R统计语言全面介绍统计建模和进行研究设计。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "心理学研究技能 (Psychological Research Skills)\nR单变量统计与方法 (Univariate Statistics and Methodology using R)\nR多元统计与方法 (Multivariate Statistics and Methodology using R)\n心理学研究专业技巧 (Specialist techniques in psychological research)\n心理学研究最新课题 (Current topics in psychological researc)\n视觉活跃 (Active Vision)\n认知神经科学中的大脑成像 (Brain Imaging in Cognitive Neuroscience)\n临床神经心理学 (Clinical Neuropsychology)\n语言功能障碍 (Disorders of Language Functions)\n额叶功能 (Frontal Lobe Functions)\n多感知整合 (Multisensory Integration)\n大脑成像 (Imaging Mind and Brain)\n工作记忆 (Working memory)",
+  "success_cases": ""
+}

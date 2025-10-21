@@ -1,0 +1,12 @@
+{
+  "school_name": "邓迪大学",
+  "major_name": "法医考古学与人类学理学硕士",
+  "ename": "MSc Forensic Archaeology and Anthropology",
+  "tags": "社科,历史,理工学院",
+  "introduction": "专业方向: 历史\n入学时间: 9月\n项目时长: 1年\n项目学费: 21600英镑/年",
+  "requirements": "具有2:1学位或同等学历，需要相关学科背景。如果申请者能够证明具有适当的专业经验，也可以申请",
+  "objectives": "法医考古学使用考古技能来协助定位和恢复人类遗骸和法医证据。法医人类学是为了确定身份的医学法律和人道主义目的而对人类遗骸进行分析。两者在英国和国际间人际暴力和凶杀案、遣返、大规模灾难和战争罪案件的调查中都发挥着关键作用。邓迪大学法医考古学与人类学理学硕士项目的许多员工都是法医专家。他们将帮助学生全面了解和理解在许多不同场景中搜索和恢复人类遗骸以及分析和解释骨骼遗骸所需的技能。学生将学习如何撰写法医考古和骨骼报告，以及如何在法律程序中使用这些报告，包括在法庭上作为专家证人提供证据。还将培养寻找失踪人员的人员所需的实用技能和知识，并将参与从秘密墓葬中恢复遗骸。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "灾难受害者识别（线上） (Disaster Victim Identification (Online))\n法医考古1 (Forensic Archaeology 1)\n法医人类骨科学 (Forensic Human Osteology)\n法医埋藏法 (Forensic Taphonomy)\n法医人类识别 (Forensic Human Identification)\n法医学与法律 (Forensic Science and the Law)\n法医考古2 (Forensic Archaeology 2)\n理学硕士研究项目论文 (MSc Research Project Dissertation)",
+  "success_cases": ""
+}

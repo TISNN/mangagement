@@ -1,0 +1,12 @@
+{
+  "school_name": "牛津大学",
+  "major_name": "法律与金融理学硕士",
+  "ename": "MSc Law and Finance",
+  "tags": "社科,法律,法学系",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 53340英镑/年",
+  "requirements": "具有一等或very strong 2:1荣誉学位，需要法律专业背景。同等资格可能包括法学硕士学位或法学研究生文凭或其他法律专业同等学历\n对于拥有美国学位的申请者，满足本科水平要求的最低总体 GPA 通常是 4.0 分中的 3.6 分\n相关领域的工作经验可能是一种优势，但不是必需的；接受全日制教育的时间越长，相关的专业经验就会越受重视；不要求学生发表论文。在某些情况下，发表论文可能会对申请有利\n需要1篇written work（不超过2000字）",
+  "objectives": "牛津大学法律与金融理学硕士项目由法学院和赛德商学院联合教授，旨在加强学生对经济和金融以及这两大概念在法律领域应用的理解。牛津大学法律与金融理学硕士项目与专业和监管机构合作,帮助学生将理论研究与实践运用相结合。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融 (Finance )\n金融经济学的第一原则 (First Principles of Financial Economics)\n公司交易的法律和经济学  (Law and Economics of Corporate Transactions)\n企业估值 (Corporate Valuation)",
+  "success_cases": ""
+}

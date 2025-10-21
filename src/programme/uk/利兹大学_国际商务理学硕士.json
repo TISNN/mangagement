@@ -1,0 +1,12 @@
+{
+  "school_name": "利兹大学",
+  "major_name": "国际商务理学硕士",
+  "ename": "MSc International Business",
+  "tags": "商科,管理,商学院",
+  "introduction": "专业方向: 管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 35750英镑/年",
+  "requirements": "具有2:1荣誉学士学位，不限专业背景，申请者应该对该学科感兴趣（不需要在该领域有任何先前的经验或资格）",
+  "objectives": "利兹大学国际商务理学硕士学位课程受行业认可，为学生在全球范围内从事商业活动奠定基础。\n在利兹大学国际商务理学硕士学位课程的学习中，通过前沿研究，学生将思量国际商务领域最新批判性思维和新兴议题，例如新兴市场跨国公司的崛起和全球创新。\n学生将辨别服务国外市场的动机和方式，处理国际商务领域的争议性议题，制定自己的国际战略商业规划，鉴别全球经济下绩效的推动因素。此外，学生也将探索新兴经济体的崛起如何影响企业和它们的国际战略。\n利兹大学国际商务理学硕士学位课程与企业联系密切，学生将拥有众多实践发展机会，比如在英国或海外基于工作的研究和咨询项目，这些机会将让学生掌握与一系列岗位相关的实践、分析和问题解决能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "全球化创新 (Globalisation of Innovation)\n国际战略管理 (International Strategic Management)\n国际商务争议与辩论 (Debates and Controversies in International Business)\n跨文化管理 (Cross Cultural Management)\n国际商务理论 (International Business Theory)\n国际商务定量方法 (Quantitative Methods for International Business)\n国际商务专业技能 (Professional Skills for International Business)\n海外市场进入战略 (Foreign Market Entry Strategy)\n智慧资本管理和开发 (Managing and Exploiting Intellectual Capital)\n新兴市场 (The Emerging Markets)\n欧洲商务 (European Business)\n中国商务 (Chinese Business)",
+  "success_cases": ""
+}

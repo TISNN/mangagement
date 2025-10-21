@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "高级机械工程理学硕士",
+  "ename": "MSc Advanced Mechanical Engineering",
+  "tags": "工科,机械工程,数学、计算机科学与工程学院",
+  "introduction": "专业方向: 机械工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 22850英镑/年",
+  "requirements": "具有2:2荣誉学士学位，需要机械工程或相关工程与物理科学学科背景\n学校会考虑在适当领域具备工作经验的申请者",
+  "objectives": "伦敦大学城市学院高级机械工程理学硕士旨在开发热流体科学和技术、流体动力学、结构分析、热转化和回收方面的高级技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "燃气轮机工程 (Gas Turbine Engineering)\n高级结构力学 (Advanced Structural Mechanics)\n高级计算流体动力学 (Advanced Computational Fluid Dynamics)\n生产与管理 (Manufacture and Management)\n高级传热 (Advanced Heat Transfer)\n内燃机与车辆推进 (Internal Combustion Engine and Vehicle propulsion)\n机器人影像与视觉 (Robotics Imaging and Vision)\n车辆推进 (Vehicle Propulsion)",
+  "success_cases": ""
+}

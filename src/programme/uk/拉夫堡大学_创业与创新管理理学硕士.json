@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "创业与创新管理理学硕士",
+  "ename": "MSc Entrepreneurship and Innovation Management",
+  "tags": "商科,创业与创新,创新与创业研究所",
+  "introduction": "专业方向: 创业与创新\n入学时间: 1/10月\n项目时长: 1年\n项目学费: 31750英镑/年",
+  "requirements": "具有英国2:2荣誉学位（最后一年成绩达到55%）或同等学历，不限专业背景",
+  "objectives": "本课程将引导学生探索和思考如何实现、维持和发展业务。在这里，学生将不仅获得建立自己的企业所需的技能和知识，还将深入理解创业和创新对个人和组织的意义。创业行为是越来越多的雇主所要求的关键能力。本课程将为学生提供对创新过程的深入了解。学生也将掌握关键技能，以便能够快速做出反应并采取行动，使学生处于有利地位，并为在今天的市场中取得成功做好铺垫。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "合作项目 (Collaborative Project)\n创新管理 (Innovation Management)\n创业 (Entrepreneurship)\n资金 (Funding)\n战略和市场分析 (Strategy and Market Analysis)\n理解组织的失败 (Understanding Organisational Failure)\n业务统计 (Business Statistics)\n创新商业模式 (Creative Business Models)\n家族企业 (Family Businesses)\n资本主义的制度基础和创业精神 (Institutional Foundations of Capitalism and Entrepreneurship)\n知识产权 (Intellectual Property)\n管理经济学 (Managerial Economics)",
+  "success_cases": ""
+}

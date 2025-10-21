@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦政治经济学院",
+  "major_name": "发展管理（应用发展经济学）理学硕士",
+  "ename": "MSc Development Management (Applied Development Economics)",
+  "tags": "社科,国际关系,国际发展系",
+  "introduction": "专业方向: 国际关系\n入学时间: 9月\n项目时长: 1年\n项目学费: 28900英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，不限专业背景，优先考虑社会科学或人文科学背景",
+  "objectives": "发展不仅仅是促进经济增长以及政治和社会权利，它是关于创建自我维持的机构，通过提高生产力、自由和合作相互依赖，将社会从低水平的剥夺陷阱中解放出来。伦敦政治经济学院发展管理理学硕士课程为学生提供理论和实践工具，使其能够理解为什么一些社会成功而另一些社会失败，从而推动这种变革。\n伦敦政治经济学院发展管理（应用发展经济学）理学硕士项目以理论为导向，探讨机构和组织在发展中的作用，利用经典制度理论和新制度经济学，深入研究机构在解释发展的比较静态（为什么有些国家富裕而另一些国家贫穷）以及比较动态（不同国家和地区的发展过程本身）方面的作用，学生将在选修课程和论文中发展经济政策。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "发展管理 (Development Management)\n发展管理咨询项目 (Development Management Consultancy Project)\n经济发展政策应用计量经济学基础 (Foundations of Applied Econometrics for Economic Development Policy)\n国际发展研究设计与论文 (Research Design and Dissertation in International Development)\n经济发展政策 I：宏观经济发展的应用政策分析 (Economic Development Policy I: Applied Policy Analysis for Macroeconomic Development)\n经济发展政策 II：微观经济分析 (Economic Development Policy II: Microeconomic Analysis)\n经济发展政策 III：政府政策分析 (Economic Development Policy III: Government Policy Analysis)\n国际机构与后期发展 (International Institutions and Late Development)\n民主与发展 (Democracy and Development)",
+  "success_cases": ""
+}

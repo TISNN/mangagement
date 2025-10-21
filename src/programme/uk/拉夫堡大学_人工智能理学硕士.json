@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "人工智能理学硕士",
+  "ename": "MSc Artificial Intelligence",
+  "tags": "工科,计算机,计算机科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 10月\n项目时长: 1年\n项目学费: 29950英镑/年",
+  "requirements": "具有英国2:2荣誉学位或同等学历，需要计算机相关学位，例如：计算机科学、计算机工程、信息技术、信息安全、软件工程，申请者必须已完成编程课程",
+  "objectives": "本课程为您提供各行业雇主所需要的尖端实用技能。人工智能(AI)正在迅速改变世界，这个快节奏的计算机科学领域对高技能人才的需求越来越大，本课程就能够赋予学生从事该行业所必需的知识与技能。凭借本系的研究实力，本课程将通过专注于快速发展的AI，数据挖掘和机器学习领域（这些领域已经在中国产生了深远的影响），吸引寻求想获得计算机科学学位的学生。本课程将使您能够发展自己的专业技能，并精通图像处理，人工智能，机器人技术和数据科学等领域。我们与行业的紧密联系使我们处于技术发展的前沿。我们的研究不仅为课程提供了支持，还为学生提供了与行业合作伙伴开展合作项目的机会。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "专业应用程序编程 (Programming for Specialist Applications)\n人工智能 (Artificial Intelligence)\n机器人与智能系统 (Robotics and Intelligent Systems)\n机器学习 (Machine Learning)\n研究方法 (Research Methods)\n数据挖掘 (Data Mining)\n计算机视觉 (Computer Vision)\n项目准备 (Project Preparation)\n人工智能项目 (Artificial Intelligence Project)",
+  "success_cases": ""
+}

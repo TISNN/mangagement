@@ -1,0 +1,12 @@
+{
+  "school_name": "南加州大学",
+  "major_name": "统计学理学硕士",
+  "ename": "MS in Statistics",
+  "tags": "理科,数学",
+  "introduction": "专业方向: 数学\n入学时间: 秋季\n项目时长: 30学分\n项目学费: 39900美元/年\n平均成绩: 3.8",
+  "requirements": "建议修过微积分/实变函数（3学期；包括多元微积分）,线性代数（1学期）,必需：至少有一门本科概率和统计学",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

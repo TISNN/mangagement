@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "应用心理学硕士",
+  "ename": "Master of Applied Psychology",
+  "tags": "社科,心理学,医疗及社会科学院",
+  "introduction": "专业方向: 心理学\n入学时间: 9月\n项目时长: 1年\n项目学费: 243900港币/年",
+  "requirements": "具有获得认可的学士学位，主修心理学",
+  "objectives": "香港理工大学为期一年的应用心理学硕士课程适合正在寻求系统化培训的心理学专业本科毕业生修读。香港理工大学应用心理学硕士学位课程致力于使学生掌握适用于各种专业心理学领域的评估与实践方法的最新发展动态，旨在为学员提供均衡的基础知识教学，主要体现于评估、干预、研究和评价方面的专业能力培训。通过一年的学习，学员便足以成为具备专业技能和知识的应用心理学者。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "应用心理学基础能力培养 (Foundational competencies)\n心理计量理论和量表结构 (Psychometric theory and scale construction)\n高级研究方法：混合研究法 (Advanced research methods: Mixed methods in research)\n认知神经科学方法应用 (Cognitive neuroscience methods in applied settings)\n研究和实践背景下心理仪器的使用和传播 (Use and dissemination of psychological instrumentation in research and service context )\n心理-社会-教育方案的发展与评估 (Psycho-socio-educational program development and evaluation)\n认知行为介入 (Cognitive behavioral intervention)\n表达性心理治疗 (Expressive Psychotherapy)\n养育及育儿能力培养 (Parenting and parent development)\n天才培育：教学模型和专业实践 (Nurturing the gifted and talented: Instructional models and professional practices)\n组织系统中的管理实践 (Managing Practice in Organizations and Systems)\n注意力控制和社会适应 (Attentional Control and Social Adaption)\n职场心理辅导学 (Workplace Counselling)\n职业辅导:理论与实践 (Career Counselling: Theories and Practice)\n特殊儿童心理学 (Psychology of Exceptional Children)",
+  "success_cases": ""
+}

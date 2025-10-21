@@ -1,0 +1,12 @@
+{
+  "school_name": "莱斯特大学",
+  "major_name": "医学统计学理学硕士",
+  "ename": "MSc Medical Statistics",
+  "tags": "理科,数学,人口健康科学系",
+  "introduction": "专业方向: 数学\n入学时间: 9月\n项目时长: 1年\n项目学费: 20250英镑/年",
+  "requirements": "需要具有以数学/统计学为主科的背景，成绩优异并且具备基本概率和统计知识。但是，课程团队也会考虑具有其他合适背景的申请者",
+  "objectives": "莱斯特大学医学统计学理学硕士项目引导学生学习专业知识，帮助学生成为职业医学统计学家。学生将学习相关理论知识，重点学习如何将理论知识应用于现实环境。学生将学会利用Stata，R，SAS和WinBUGS等统计软件提升分析能力；同时，学生还将通过项目训练，采集和分析实际数据集，同时锻炼咨询沟通能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "医学统计学基础 (Fundamentals of Medical Statistics)\n统计建模 (Statistical Modelling)\n统计计算与推理 (Statistical Computing and Inference)\n计算密集型方法 (Computationally Intensive Methods)\n高级统计建模 (Advanced Statistical Modelling)\n临床试验 (Clinical Trials)\n流行病学 (Epidemiology)\n医学统计学的深层主题 (Further Topics in Medical Statistics)\n遗传流行病学 (Genetic Epidemiology)\n卫生技术评估 (Health Technology Assessment)",
+  "success_cases": ""
+}

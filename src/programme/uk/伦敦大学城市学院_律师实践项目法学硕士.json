@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学城市学院",
+  "major_name": "律师实践项目法学硕士",
+  "ename": "LLM Solicitors’ Practice Programme",
+  "tags": "社科,法律,城市法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 17300英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要法学背景，或者\n法律以外的荣誉学位，成绩达到2:1或以上，并获得英国法律研究生文凭（或同等学历的研究生或研究生课程，涵盖必要的法律知识基础），通常均分至少有50%的，或者\n海外学位（任何学科），成绩达到2:1或以上，并获得英国法律研究生文凭（或同等学历的研究生或研究生课程，涵盖必要的法律知识基础），通常平均至少达到50%",
+  "objectives": "伦敦大学城市学院律师实践项目专为那些准备通过新途径取得英格兰和威尔士律师资格的人士而设计。培训成为一名律师是一项令人兴奋但又充满挑战的事业。法学院几十年来一直在培训律师，其中许多人后来在法律界取得了宝贵的职位，因此您可以放心，我们有理想的计划来帮助您在 SQE 中脱颖而出，并为您的职业生涯做好准备律师",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "专业法律知识1 (Professional Legal Knowledge 1)\n专业法律知识2 (Professional Legal Knowledge 2)\n书面专业技能 (Written Professional Skills)\n实践准备 (Preparation for Practice)\n人际交往专业技能 (Interpersonal Professional Skills)\n高级商业诉讼 (Advanced Commercial Litigation)\n商法和知识产权 (Commercial Law and Intellectual Property)\n就业法 (Employment Law)\n家庭法 (Family Law)\n并购 (Mergers and Acquisitions)\n法律实践研究项 (Legal Practice Research Project)\n临床过失诉讼 (Clinical Negligence Litigation)",
+  "success_cases": ""
+}

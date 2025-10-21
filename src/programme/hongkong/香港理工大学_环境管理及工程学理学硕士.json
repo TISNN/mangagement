@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "环境管理及工程学理学硕士",
+  "ename": "MSc Environmental Management and Engineering",
+  "tags": "工科,环境工程,建筑及环境学院",
+  "introduction": "专业方向: 环境工程\n入学时间: 9月\n项目时长: 1年\n项目学费: 196500港币/年",
+  "requirements": "具有荣誉学士学位或同等学历，需要环境工程、土木工程、化学工程、建筑服务工程、机械工程、应用科学背景",
+  "objectives": "香港理工大学环境管理及工程学理学硕士学位课程适合持有非环境类学士学位的环保行业在职人士，或有意投身此行业的毕业生报读；或已持有环境科学或环境工程学学士学位的毕业生作深入学习。\n香港理工大学环境管理及工程学理学硕士学位课程将加强学生的工程学及管理学知识，以便解决在建筑、工业及基建发展领域中的环境工程与技术问题，并提高对环境与能源保护，以及可持续发展的认识。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "水处理技术 (Water & Wastewater Treatment)\n空气污染控制 (Air Pollution Control)\n噪声污染控制 (Noise Pollution Control)\n污染土地和沉积物的修复 (Contaminated Land and Sediment Remediation)\n水和污水处理厂的设计 (Water & Wastewater Treatment Plant Design)\n排水设计 (Drainage Design)\n环境影响评价 (Environmental Impact Assessment)\n固体有害废弃物管理 (Solid & Hazardous Waste Management)\n风险评估管理 (Risk Assessment & Management)\n环境管理系统和审核 (Environmental Management Systems & Audit)\n可持续发展与环境规划 (Sustainable Development & Environmental Planning)\n全球气候变化与社会响应 (Global Climate Change & Society Response)\n室内空气质量治理 (Indoor Air Quality Management)\n论文 (Dissertation on a specific topic)",
+  "success_cases": ""
+}

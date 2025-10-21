@@ -1,0 +1,12 @@
+{
+  "school_name": "香港大学",
+  "major_name": "英语研究文学硕士",
+  "ename": "MA English Studies",
+  "tags": "社科,文化,文学院",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 255440港币/年",
+  "requirements": "具有认可大学颁发的良好学士学位，需要英语或密切相关学科背景，需要提交writing sample",
+  "objectives": "香港大学英语研究文学硕士项目为具有扎实英语研究基础的学生提供机会，参与探索文学、文化和语言学理论最新发展的创新课程。该课程重点在跨文化研究，旨在利用香港在全球舞台上的历史、地理和政治地位。每门课程都涉及跨文化交流的不同理论、语言和文学，特别是东西方和后殖民研究。香港大学英语研究文学硕士项目课程包括跨文化理论、语言和交流、全球莎士比亚、后殖民主义代表、旅游写作和文化、世界现代主义、英语的政治、跨社会和说话者的语言差异、跨文化交流和全球英语等课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "文学与跨文化理论导论  (Introduction to Literature and Cross-Cultural Theory )\n语言与交际导论  (Introduction to Language and Communication )\n文化符号学  (Cultural Semiotics )\n英语政治学  (The Politics of English )\n世界英语  (Global Englishes )\n新媒体与话语  (New Media and Discourse )\n全球现代主义  (World Modernism )\n游记与文化  (Travel Writing and Culture )\n游记与文化  (Travel Writing and Culture )\n后殖民代表  (Post-Colonial Representations )\n专业实践  (Capstone Experience )",
+  "success_cases": ""
+}

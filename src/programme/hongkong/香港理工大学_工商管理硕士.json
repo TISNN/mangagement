@@ -1,0 +1,12 @@
+{
+  "school_name": "香港理工大学",
+  "major_name": "工商管理硕士",
+  "ename": "MBA",
+  "tags": "商科,工商管理,商学院",
+  "introduction": "专业方向: 工商管理\n入学时间: 9月\n项目时长: 1年\n项目学费: 506220港币/年",
+  "requirements": "具有学士学位、研究生学位或研究生文凭，不限专业背景，或具备同等的专业资格；需要具备至少2年全职工作经验；并且精通英语\n在特殊情况下也会根据具体情况考虑具有高等教育学历以及至少8年全职工作经验的申请者\n需要提供全职工作经验证明（至少2年）",
+  "objectives": "香港理工大学工商管理硕士课程是一门综合管理课程，旨在为希望提升综合管理能力的年轻经理人提供研究生教育，毕业生应当能够以批判性方式应用概念和技术来分析商业案例并解决业务问题，理解最新技术在商业问题实践和决策上的应用和影响，能够整合概念并为商业问题提供创造性的解决方案，以口头和书面形式有效交流合理论点，能够理解他人行为，具备带动他人实现共同目标的能力，具备大局观，了解文化多样性、全球化及其在最新技术环境中对企业的影响，了解与最新技术在商业环境中的应用有关的一般管理背景下的道德、社会责任和可持续发展问题。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "管理人员会计实务 (Accounting for Managers)\n商业分析 (Business Analytics)\n道德、责任与可持续性 (Ethics, Responsibility and Sustainability)\n金融管理 (Financial Management)\n全球经济环境管理 (Global Economic Environment for Management)\nMBA定向研讨会 (MBA Orientation Workshop)\n管理信息系统 (Management Information Systems)\n管理政策及策略 (Management Policy and Strategy)\n运营系统管理 (Managing Operations Systems)\n营销管理 (Marketing Management)\n组织行为与领导 (Organizational Behaviour and Leadership)\n决策模型应用 (Applications of Decision Making Models)\n航空器资产管理 (Aircraft Asset Management)\n时尚零售管理 (Fashion Retailing)\n品牌从本地到全球的战略 (Branding From Local to Global Strategies)",
+  "success_cases": ""
+}

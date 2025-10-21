@@ -1,0 +1,12 @@
+{
+  "school_name": "诺丁汉大学",
+  "major_name": "微生物学与免疫学理学硕士",
+  "ename": "MSc Microbiology and Immunology",
+  "tags": "理科,生物,生命科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 30750英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要任意相关学科背景",
+  "objectives": "诺丁汉大学微生物学与免疫学理学硕士课程涵盖的关键主题包括：免疫、感染、医学微生物学、病原体、免疫系统和病毒。通过学习本课程，学生将获得医学微生物学和免疫学的基础和高级知识，为未来的科学研究做好准备；获得各种分子生物学、微生物学与免疫学技术的直接经验；培训对已发表的科学论文进行批判性评估，并了解所使用的技术和获得的结果对各种相关和不相关的科学问题的适用性；通过完成论文进行研究和发展报告和结果解释技能，从而更深入地研究微生物学和/或免疫学的一个方面。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "医学微生物学概论 (Introduction to Medical Microbiology)\n免疫和免疫系统 (Immunity and the Immune System)\n病毒病机与感染 (Viral Pathogenesis and Infection)\n细菌病机与感染 (Bacterial Pathogenesis and Infections)\n先天免疫识别 (Innate Immune Recognition)\n核心研究方法：可转移研究技能 (Core Research Methods: Transferable Research Skills)\n核心研究方法：分子技术 (Core Research Methods: Molecular Techniques)\n治疗免疫学 (Therapeutic Immunology)\n研究项目 (Research Project)",
+  "success_cases": ""
+}

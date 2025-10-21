@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡国立大学",
+  "major_name": "生物医学信息学理学硕士",
+  "ename": "MSc Biomedical Informatics",
+  "tags": "理科,生物,杨潞龄医学院",
+  "introduction": "专业方向: 生物\n入学时间: 8月\n项目时长: 1年\n项目学费: 60653新币/年",
+  "requirements": "具有医学学士、理学学士、荣誉学士学位，需要定量科学（如数学、应用数学、统计学和物理学）或工程学或计算机科学或商业或健康科学相关学科背景\n具备其他资格和经验的申请者可能会根据具体情况被考虑\n优先考虑具备相关行业经验的申请者",
+  "objectives": "新加坡国立大学生物医学信息学理学硕士项目旨在传授学生一系列核心技能，包括循证临床决策、机器学习、数据可视化、有效沟通、战略领导力和创新创业精神。课程将培训学生进行推理、批判性分析，并评估临床决策支持系统的有效性，领导与实施生产及战略临床创新或项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "高级生物医学信息学 (Advanced Biomedical Informatics)\n顶点项目 (Capstone Project)\n医疗数据与数据处理 (Medical Data and Data Processing)\n高级敏捷项目管理 (Advanced Agile Project Management)\n软件开发基础 (Software Development Fundamentals)\n非临床医生健康科学 (Health Sciences for Non-Clinicians)\n高级科学研究方法 (Advanced Scientific Research Methods)\n分子信息学 (Molecular Informatics)\n高级人为因素工程 (Advanced Human Factors Engineering)\n数字敏捷性与变革领导力 (Digital Agility & Change Leadership)\n数据结构与算法 (Data Structures and Algorithms)\n人工智能 (Artificial Intelligence)\n数据分析基础 (Fundamentals of Data Analytics)\n高级统计学习 (Advanced Statistical Learning)\n公共卫生中的定性方法 (Qualitative Methods in Public Health)\n生物信息学高级统计方法 (Advanced Statistical Methods for Bioinformatics)\n临床决策支持系统 (Clinical Decision Support Systems)\n高级循证病人护理 (Advanced Evidence Based Patient Care)\n高级价值医疗保健 (Advanced Value Based Healthcare)\n高级临床数据系统 (Advanced Clinical Data Systems)\n健康数据与人工智能伦理 (Ethics of Health Data and Artificial Intelligence)\n实施公共卫生规划与政策 (Implementing Public Health Programmes and Policies)\n卫生技术评估中的经济学方法 (Economic Methods in Health Technology Assessment)\n健康行为与沟通 (Health Behaviour and Communication)\n综合护理概论 (Introduction to Integrated Care)\n健康经济学与融资 (Health Economics and Financing)\n战略思维与数字远见 (Strategic Thinking & Digital Foresight)\n管理数字化复杂性 (Managing Digitalisation Complexity)",
+  "success_cases": ""
+}

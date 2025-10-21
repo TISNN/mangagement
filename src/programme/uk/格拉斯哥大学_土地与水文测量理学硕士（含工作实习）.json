@@ -1,0 +1,12 @@
+{
+  "school_name": "格拉斯哥大学",
+  "major_name": "土地与水文测量理学硕士（含工作实习）",
+  "ename": "MSc Land & Hydrographic Surveying with Work Placement",
+  "tags": "工科,地球科学,地理和地球科学学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1.5年\n项目学费: 19800英镑/年",
+  "requirements": "具有2:1非英国大学的荣誉学位（或非英国同等学历），需要土木工程，地球或环境科学，地理，测绘学或相关学科，数学，物理或规划专业背景\n具有地理信息学或密切相关学科学位的申请者，或符合皇家特许测量师学会年龄和经验标准的申请者，可以将该课程作为获得专业资格的途径或为研究学位做准备，并且在特殊情况下可以豁免该课程的某些方面\n（注意：由于6个月的工作实习，该课程的入学要求略高于MSc Land & Hydrographic Surveying, MSc Geospatial & Mapping Sciences）",
+  "objectives": "格拉斯哥大学土地与水文测量理学硕士（含工作实习）课程将向学生教授测量学科，并为学生在该行业的就业做好准备。工程和土地测量是基础设施项目（从建筑物到公路和铁路网络）从小型到全国范围的设计，建设和导航的基础。水文测量师为海洋，河流和湖泊以及诸如管道和海上风力涡轮机等水下基础设施项目的航行和港口管理的安全做出了贡献。如果正在寻找地理空间行业的工作以支持陆上和海上的建设和制图项目，那么此计划是理想的选择。该课程包括六个月的行业工作经验，而不是常规的理科硕士项目。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "测绘学基础（综合） (Fundamentals of geomatics (combined) )\n地理信息系统原理 (Principles of gis )\n土地测量原理与实践 (Principles and practice of land surveying )\n地形测绘与景观监测 (Topographic mapping and landscape monitoring)\n应用水道测量 (Applied hydrographic surveying )\n应用土地测量 (Applied land surveying )\n工程测量 (Engineering survey)\n全球导航卫星系统与大地测量学 (Gnss & geodesy )\n水文测量 (Hydrographic survey )\n测绘学研究与专业问题 (Research & professional issues in geomatics)",
+  "success_cases": ""
+}

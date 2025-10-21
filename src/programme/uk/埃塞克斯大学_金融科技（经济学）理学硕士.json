@@ -1,0 +1,12 @@
+{
+  "school_name": "埃塞克斯大学",
+  "major_name": "金融科技（经济学）理学硕士",
+  "ename": "MSc Financial Technology (Economics)",
+  "tags": "商科,金工金数,经济学系",
+  "introduction": "专业方向: 金工金数\n入学时间: 10月\n项目时长: 1年\n项目学费: 22400英镑/年",
+  "requirements": "具有2:2学位（或同等学历），需要经济学或相关学科背景，如数学、统计学、工程学、金融学、计算机科学、物理学或其他具有较强数学成分的学位学位应该包含一些经济学成分，包括宏观经济学、微观经济学或计量经济学",
+  "objectives": "埃塞克斯大学金融科技理学硕士有3个方向供学生选择，以便其可以根据自己的兴趣和目标来调整金融科技硕士学位。除了金融科技（经济学），还有金融科技（金融）和金融科技（计算机科学）的选项，使学生有机会专攻自己喜欢的学习领域。埃塞克斯大学金融科技（经济学）理学硕士提供了一个跨学科项目，涵盖了金融科技所需的一系列关键技能，充分利用研究和教学优势。学生将学习微观经济学和大数据、软件开发和金融系统的基础。不仅会接触到专攻金融科技经济学的学生，也会接触到专攻计算机科学和商业战略的学生。埃塞克斯大学金融科技（经济学）理学硕士是为寻求在金融行业，特别是金融技术部门工作的学生设计的。本课程将使学生具备金融行业特有的理论和技术技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "金融市场经济学 (Economics of Financial Markets)\n金融科技与数字经济的计算市场微观结构 (Computational Market Microstructure for FinTech and the Digital Economy)\n论文 (Dissertation)\n金融数据分析 (Data Analytics in Finance)\nPython编程入门 (Introduction to Programming in Python)\n行为经济学 I：个人决策 (Behavioural Economics I: Individual Decision Making)\n基于计算主体的宏观经济学、金融市场与政策设计 (Computational Agent-Based Macro-Economics, Financial Markets and Policy Design)\n数据分析应用 (Applications of Data Analysis)\n公司金融 (Corporate Finance)\n衍生证券 (Derivative Securities)\n资产组合管理 (Portfolio Management)\n金融建模 (Financial Modelling)\n风险管理 (Risk Management)\n数据分析：横断面、面板、定性数据方法 (Data Analysis: Cross Sectional, Panel and Qualitative Data Methods)\n现代银行业 (Modern Banking)",
+  "success_cases": ""
+}

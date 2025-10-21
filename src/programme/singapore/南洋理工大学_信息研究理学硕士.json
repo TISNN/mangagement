@@ -1,0 +1,12 @@
+{
+  "school_name": "南洋理工大学",
+  "major_name": "信息研究理学硕士",
+  "ename": "MSc Information Studies",
+  "tags": "商科,信息系统,传媒与信息学院",
+  "introduction": "专业方向: 信息系统\n入学时间: 8月\n项目时长: 1年\n项目学费: 41900新币/年",
+  "requirements": "具有良好的学士学位，不限专业背景\n具备良好的沟通能力（英语书面和口语）\n具备信息相关领域工作经验\n对信息研究领域充满热情和兴趣\n达到二等二/荣誉（优等）学位及以上水平或同等学历\n实习经验不计入工作经验，建议申请者具备至少1年全职工作经验",
+  "objectives": "南洋理工大学信息研究理学硕士学位课程作为一门跨学科项目，课程注重理论与实践的相结合，以满足各行各业对专业信息技术人才日益增长的需求。该课程旨在丰富学生的专业知识，提高其充分整合利用信息资源，促进企业发展和创新的能力。南洋理工大学信息研究理学硕士学位课程同时为在图书馆或信息技术中心任职的工作人员提升信息管理的能力。南洋理工大学信息研究理学硕士学位课程为学生提供了两个具体专业研究方向的选择：图书馆科学方向：注重为学生提供图书馆信息管理工作中必须的专业知识。信息分析学方向：注重通过使用一定的方法、工具或框架来管理、分析、深入挖掘传统信息及数字信息（如：社会化数据、移动数据、云数据、大数据等等）；通过南洋理工大学信息研究理学硕士学位课程的学习，学生的领导力和分析能力都将得到提升，同时能够妥善地处理不同环境中的信息资源，学会辨识组织的信息需求与缺口；学会捕捉、检索、整合、分类、分析各种信息以便使用；学会构建与管理信息系统。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "图书馆科学方向 (Library Science Track)\n人类信息行为研究方法 (Research Methods in Human Information Behaviour)\n信息表示与检索 (Information Representation & Retrieval )\n信息组织 (Information Organization )\n信息管理 (Information Management)\n信息行业：文化、价值观、道德观 (Information Professions: Heritage, Values and Ethics)\n组织技术管理 (Management of Technologies in Organisations)\n图书馆馆藏发展及管理 (Collection Development & Management)\n编目与分类 (Cataloguing & Classification)\n商务管理资源及服务 (Business & Management Sources and Services)\n儿童与青年资源及服务 (Children & Young Adults Sources and Services)\n参考和信息挖掘 (Reference and Information Discovery)\n文物工作理论与实践信息分析学方向 (Theories and Practices of Heritage WorkInformation Analytics Track)\n人类信息行为研究方法 (Research Methods in Human Information Behaviour)\n信息表示与检索 (Information Representation & Retrieval )\n信息组织 (Information Organization )\n信息管理 (Information Management)\n信息行业：文化、价值观、道德观 (Information Professions: Heritage, Values and Ethics)\n组织技术管理 (Management of Technologies in Organizations)\n组织档案管理 (Organizational Records Management)\n数字图书馆 (Digital Libraries)\n社交媒体分析 (Social Media Analytics)\n文本与网络信息挖掘 (Text and Web Mining )\n数据提取技术 (Data Extraction Techniques)\n信息可视化 (Information Visualization)\n信息挖掘与分析 (Information Mining & Analysis)",
+  "success_cases": ""
+}

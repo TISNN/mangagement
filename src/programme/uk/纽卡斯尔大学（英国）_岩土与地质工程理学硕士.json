@@ -1,0 +1,12 @@
+{
+  "school_name": "纽卡斯尔大学（英国）",
+  "major_name": "岩土与地质工程理学硕士",
+  "ename": "MSc Geotechnical & Geological Engineering",
+  "tags": "工科,地球科学,工程学院",
+  "introduction": "专业方向: 地球科学\n入学时间: 9月\n项目时长: 1年\n项目学费: 30050英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要以下背景：地球科学、土木工程、地质科学、地质学、地球物理学、数学、物理\n必须具备数学背景\n学校也会根据个人情况考虑具备较低或非标准资格以及相关工作经验的申请者\n需要ATAS证书",
+  "objectives": "纽卡斯尔大学工程地质学理学硕士项目旨在满足国内及国际对于专业工程地质学家的需求，将为你提供先进理念、详细事实、专业技术，并提升你对社会和环境的责任意识。\n纽卡斯尔大学工程地质学理学硕士项目将涵盖以下领域：\n工程地质原理与应用；\n现场调查、测试、解释和报告流程；\n不同地质证据的分析，以评估自然和人为现象所产生的危害和风险；\n岩土工程设计",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "地质力学 (Geomechanics)\n土地勘测：设计、原理和实践 (Ground Investigation - Design、Principles and Practice)\n地盘改良技术 (Ground Improvement Techniques)\n岩土工程设计 (Geotechnical Design)\n工程和应用地质学 (Engineering and Applied Geology)\n实地考察 (Field Class)\n地下水评估 (Ground Water Assessment)\n土地污染 (Contaminated Land)\n岩土工程和工程地质学项目和论文 (MSc Project and Dissertation in Geotechnical Engineering and Engineering Geology)\n地下水污染和修复 (Groundwater Contamination and Remediation)\n气候变化：地球系统、未来情景和威胁 (Climate Change: Earth System、Future Scenarios and Threats)\n钻孔设计、建造和运营 (Borehole Design、Construction and Operation)\n气候变化：脆弱性、影响和适应 (Climate Change: Vulnerability、Impacts and Adaptation)\n地下水建模 (Groundwater Modelling)\n地理信息系统 (Geographic Information Systems)",
+  "success_cases": ""
+}

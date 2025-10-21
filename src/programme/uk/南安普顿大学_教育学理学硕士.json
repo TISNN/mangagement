@@ -1,0 +1,12 @@
+{
+  "school_name": "南安普顿大学",
+  "major_name": "教育学理学硕士",
+  "ename": "MSc Education",
+  "tags": "社科,教育,教育学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 25400英镑/年",
+  "requirements": "具有2:1学位以及至少2个月工作经验，其中应该包括与学习者群体的互动，而不是个人辅导",
+  "objectives": "南安普顿大学教育学理学硕士项目是一个为期12个月的课程，面向那些希望在教育领域追求或提升自己的职业生涯的学生。学生将批判性地研究教育研究和实践之间的关系，这样就可以在各种不同层次的教育机构找到工作。在本硕士教育课程中，学生将采用研究优先的方法，使用证据和数据在书面作品和研讨会贡献中提出讨论点。学生将学会根据对不同教学方法的分析，批判性地反思自己的教学实践。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "学习与教学 (Learning and Teaching)\n教育研究：实践与方法 (Education Research: Practice and Methods)\n理解教育研究 (Understanding Education Research)\n教育领导 (Leadership in Education)\n教育的包容性实践 (Inclusive Practices in Education)\n全球化和教育政策 (Globalisation and Education Policy)\n教育的社会背景与终身学习 (The Social context of education and lifelong learning)\n教育机构的管理 (Management in Education Organisations)\n研究教学创新 (Investigating Innovations in Learning and Teaching)\n学位论文 (Dissertation)",
+  "success_cases": ""
+}

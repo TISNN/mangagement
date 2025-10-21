@@ -1,0 +1,12 @@
+{
+  "school_name": "华威大学",
+  "major_name": "医学生物技术与商业管理理学硕士",
+  "ename": "MSc Medical Biotechnology and Business Management",
+  "tags": "商科,创业与创新,生命科学学院",
+  "introduction": "专业方向: 创业与创新\n入学时间: 9月\n项目时长: 1年\n项目学费: 35340英镑/年",
+  "requirements": "具有2:2本科学位或同等学历，需要生命科学或商业研究背景（具有商业背景的学生必须是优等生并表现出对生物科学的兴趣）",
+  "objectives": "本课程由华威非常成功的生物技术、生物加工和商业管理硕士课程发展而来，将为学生提供与医疗生物技术产业的运作和发展相关的关键技术、商业和社会问题的知识和理解。它将使学生有能力为推动和发展这些行业做出原创和明智的贡献。它还将发展学生的能力，以研究和分析市场需求的医疗产品开发，并提出基于最新信息和前沿诊断技术的技术战略。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物技术与基因工程基础 (The Fundamentals of Biotechnology and Genetic Engineering)\n创业与商业化 (Entrepreneurship and Commercialisation)\n论文/项目 (Dissertation/Project)\n药物发现与生物制药开发 (Drug Discovery and Biopharmaceutical Development)\n市场营销管理 (Marketing Management)\n会计与财务管理 (Accounting and Financial Management)\n经营策略 (Business Strategy)\n医学诊断 (Medical Diagnostics)\n再生医学 (Regenerative Medicine)\n微生物组学和元基因组学 (Microbiomics and Metagenomics)\n预防和治疗传染病的创新 (Innovations to Prevent and Treat Infectious Disease)\n医学基因组学要点 (Essentials of Medical Genomics)\n环境保护，风险评估与安全 (Environmental Protection, Risk Assessment and Safety)",
+  "success_cases": ""
+}

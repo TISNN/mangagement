@@ -1,0 +1,12 @@
+{
+  "school_name": "新加坡科技设计大学",
+  "major_name": "科技与设计（网络安全）理学硕士",
+  "ename": "MSc Technology and Design (Cybersecurity)",
+  "tags": "工科,计算机,硕士项目",
+  "introduction": "专业方向: 计算机\n入学时间: 9月\n项目时长: 1年\n项目学费: 54500新币/年",
+  "requirements": "要求工程、计算和应用科学等技术学位或其他相关学科学位，并具有两年 ICT 行业经验；熟练掌握以下至少一种编程语言：Java、C/C或Python（或其他现代编程语言）；没有相关学位的申请人可以提交一份作品集，突出他们的技能、能力和经验，以增强他们的申请\n相关工作经验将被考虑录取",
+  "objectives": "对于那些热衷于利用设计科学、数据驱动设计和工程系统的理论知识和方法技能来发展具有设计创新专业知识的网络安全技能的个人来说，新加坡科技设计大学科技与设计理学硕士（网络安全）项目是一个不错的选择。 新加坡科技设计大学科技与设计理学硕士（网络安全）项目的特点是设计核心与信息技术安全选修课交织在一起。它利用 SUTD 的教学法，通过提供设计科学和设计创新的基础来培训设计创新者和领导者，这是技术和设计理学硕士课程的显着特点。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "设计创新 (Innovation by Design)\n网络安全基础 (Foundations of Cybersecurity)\n网络安全 (Network Security)\n设计科学 (Design Science)\n系统安全 (Systems Security)\n安全软件工程 (Secure Software Engineering)\n安全工具实验室 (Security Tools Lab)\n安全设计项目 (Security by Design Project)",
+  "success_cases": ""
+}

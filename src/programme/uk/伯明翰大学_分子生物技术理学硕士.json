@@ -1,0 +1,12 @@
+{
+  "school_name": "伯明翰大学",
+  "major_name": "分子生物技术理学硕士",
+  "ename": "MSc Molecular Biotechnology",
+  "tags": "理科,生物,生命与环境科学学院",
+  "introduction": "专业方向: 生物\n入学时间: 9月\n项目时长: 1年\n项目学费: 31390英镑/年",
+  "requirements": "具有2:2荣誉学位，需要生物科学学科背景，最好包括一些分子生物学（包括基因克隆）和一些遗传学作为其第一学位的一部分",
+  "objectives": "伯明翰大学分子生物技术理学硕士项目旨在为学生提供培训和学习机会，帮助他们掌握生物技术、分子生物技术或分子生物学方面的技能和专业知识，助力学生日后的职业工作。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "生物技术导论：从基因到产品 (Introduction to Biotechnology: From genes to products)\n分子生物技术研究技术 (Research Techniques in Molecular Biotechnology)\n分子生物技术的实际应用 (Practical Applications of Molecular Biotechnology)\n功能基因组学与反向遗传学 (Functional Genomics and Reverse Genetics)\n基因表达分析 (Gene Expression Analysis)\n资助和传播科学 (Funding and Communicating Science)\n从试验台到市场的药品和治疗性生物制品 (Pharmaceuticals & Therapeutic Biologicals from Bench to Market)\n研究项目 (Research project)",
+  "success_cases": ""
+}

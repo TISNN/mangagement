@@ -1,0 +1,12 @@
+{
+  "school_name": "爱丁堡大学",
+  "major_name": "法学硕士",
+  "ename": "LLM",
+  "tags": "社科,法律,法学院",
+  "introduction": "专业方向: 法律\n入学时间: 9月\n项目时长: 1年\n项目学费: 30500英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，需要法律背景\n学校也可能考虑具有社会科学学科英国2:1荣誉学位或同等学历的申请者\n在评估申请时可能会更加重视与申请专业相关的先前课程学习成绩\n相关的工作经验不是必需的但可能有助于申请\n相关专业资格将会被考虑",
+  "objectives": "爱丁堡大学法学硕士项目（LLM）为学生提供平台，全面而系统地学习法学知识。法学各领域专家通过多样化和富有挑战性的课程向学生教授商法、刑法和证据学、犯罪学、欧盟法、知识产权法、媒体与技术法、国际法、法律史和法学理论、医疗法、私法和公法等专业知识，向社会输送尖端法律人才。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "法律与启蒙 (Law and the Enlightenment)\n公法剖析 (The Anatomy of Public Law)\n先例推理 (Reasoning with Precedent)\n自然法：历史导论 (Natural Law: An Historical Introduction)\n法律决策 (Legal Decision-Making)\n国际税法原则 (Principles of International Tax Law)\n国际私法：判决的管辖与执行 (International Private Law: Jurisdiction and Enforcement of Judgments)\n侵权 (Delict and Tort)\n比较法与国际信托法 (Comparative and International Trust law)\n比较视角下的家庭法 (Family Law in Comparative Perspectives)\n比较私法基础 (Fundamentals of Comparative Private Law)\n医学法基本议题 (Fundamental Issues in Medical Jurisprudence)\n医学法当代议题 (Contemporary Issues in Medical Jurisprudence)\n医疗过失 (Medical Negligence)\n风险与监管：理论与实践 (Risk and Regulation: Theories and Practices)",
+  "success_cases": ""
+}

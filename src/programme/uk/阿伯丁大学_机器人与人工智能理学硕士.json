@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "机器人与人工智能理学硕士",
+  "ename": "MSc Robotics and Artificial Intelligence",
+  "tags": "工科,计算机,自然与计算科学学院",
+  "introduction": "专业方向: 计算机\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "优先考虑具有工程或计算机科学2:1荣誉学位或同等学历的申请者\n具有2:2荣誉学位并且能够证明具备1年以上相关经验的申请者也可能被考虑\n强烈建议来自其他学术背景的申请者与招生团队联系并提供其学习的所有课程的成绩单，以便讨论是否适合",
+  "objectives": "阿伯丁大学的机器人与人工智能理学硕士专为具有工程、计算机科学或相关学科背景、有兴趣在快速发展的机器人和人工智能领域寻求职业的学生而设计。阿伯丁大学的机器人与人工智能理学硕士课程涵盖机器人和人工智能的基本概念和技能，包括机器人机械臂和移动机器人、生物灵感、机器（深度）学习、同步定位和地图绘制（SLAM）、群体机器人、计算机视觉和人工智能。学生还将通过我们专门的机器人实验室的实际项目和实验室工作获得实践经验。\n学校特别处理工业流程中的不确定性、机器学习方法和算法、自主系统以及机器人和人工智能进步在制造和工业运营优化中的应用（工业 4.0）。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "移动机器人和生物灵感简介 (Introduction to Mobile Robotics and Bioinspiration)\n工业领域的定位和测绘 (Localisation and Mapping in the Industrial Domain)\n应用人工智能 (Applied Artificial Intelligence)\n机器学习 (Machine Learning)\n工业机器人手臂的运动学和动力学 (Kinematics and Dynamics of Industrial Robot Arms)\n工业机器人编程与学习 (Industrial Robot Programming and Learning)\n深度学习数据挖掘 (Data Mining with Deep Learning)\n软件代理和多代理系统 (Software Agents and Multi - Agent Systems)\n理学硕士个人项目 (MSc Individual Project)",
+  "success_cases": ""
+}

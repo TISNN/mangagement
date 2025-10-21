@@ -1,0 +1,12 @@
+{
+  "school_name": "约翰霍普金斯大学",
+  "major_name": "市场营销硕士",
+  "ename": "MS in Marketing",
+  "tags": "商科,市场营销",
+  "introduction": "专业方向: 市场营销\n项目类别: STEM\n入学时间: 秋季\n项目时长: 1年，36学分\n项目学费: 88000美元\n平均成绩: 3.57\n平均G: GMAT704，GRE336\n国际学生: 95%\n男女比例: 62female:38male",
+  "requirements": "",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学戴维斯分校",
+  "major_name": "语言学文学硕士",
+  "ename": "MA in linguistics",
+  "tags": "社科,语言",
+  "introduction": "专业方向: 语言\n入学时间: 秋季\n项目时长: 6个学期\n项目学费: 44,930美元",
+  "requirements": "申请者需完成句法或音系学课程之一，还必须在一个或多个其他领域完成至少两门其他语言结构课程的同等课程，例如语音学、形态学、语义学或比较 /历史语言学",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

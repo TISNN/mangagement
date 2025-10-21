@@ -1,0 +1,12 @@
+{
+  "school_name": "拉夫堡大学",
+  "major_name": "用户体验与服务设计文学硕士",
+  "ename": "MA User Experience and Service Design",
+  "tags": "社科,其他社科,设计学院",
+  "introduction": "专业方向: 其他社科\n入学时间: 10月\n项目时长: 1年\n项目学费: 30950英镑/年",
+  "requirements": "具有英国2:1荣誉学位或同等学历，学校考虑来自用户体验设计相关的一系列学科背景的学生（包括艺术与设计、计算机科学、媒体、心理学、商业）\n具有设计相关的背景都应提供1份作品集，能够展示与MA User Experience and Service Design相关的作品示例，长度10页左右\n如果申请者的学位/背景意味着其没有作品集，则个人陈述必须解释申请者对用户体验设计的兴趣，以及为什么想学习MA User Experience and Service Design课程",
+  "objectives": "用户体验与服务设计文学硕士项目旨在培养学生对用户体验(UX)设计、服务设计和交互设计中主要问题的批判性认识。它训练学生成为以用户为中心的工业设计师，授权设计对社会和环境负责的产品和服务。课程的内容将使学生在不同的项目工作的同时，发展其在UX的创造性和分析方面的技能和能力。这包括设计将数字嵌入到物理世界的体验的机会，采用共情和系统的世界观，并利用人工智能(AI)和增强现实(AR)等新技术带来的机会来设计引人注目的产品和服务体验。学生将在用户体验设计原则和实践方面培养关键技能，包括:定性和定量设计研究方法、讲故事、交互原型、视频原型、体验原型、交互设计、可用性测试、服务设计、社会设计、团队工作和项目管理。并在一个基于证据的主要项目中进一步发展其用户体验研究和设计实践技能。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "体验式设计 (Experience Design)\n可用性、原理与实践 (Usability, Principles and Practice)\n设计研究方法 (Design Research Methods)\n行为变化设计 (Design for Behaviour Change)\n包容性设计 (Design for Inclusivity)\n故事讲述与数字时代 (Storytelling and the Digital)\n社会创新服务设计 (Service Design for Social Innovation)\n用户体验设计重点项目 (User Experience Design Major Project)\n产业项目 (Industry Project)",
+  "success_cases": ""
+}

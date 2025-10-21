@@ -1,0 +1,12 @@
+{
+  "school_name": "香港恒生大学",
+  "major_name": "中文文学硕士",
+  "ename": "MA Chinese",
+  "tags": "社科,文化,人文社会科学学院",
+  "introduction": "专业方向: 文化\n入学时间: 9月\n项目时长: 1年\n项目学费: 139200港币/年",
+  "requirements": "申请者需于受认可院校获颁学士学位，或同等学历\n以主修中文（语言、文学、文化）或曾修读中文相关课程为优\n入围申请者需要参加面试",
+  "objectives": "香港恒生大学中文文学硕士课程目标：\n传授高阶中文知识，以备学术及专业发展；\n教授中文学科研究方法，包括研究规划、文献资料蒐集以及研究操守；\n发展学生批判思维能力，以析论中文学科前沿之各类资讯、概念与证据；\n提升学生以中文高阶知识处理现代议题的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "礼学与中国文化 (Propriety and Chinese Culture)\n中国古代经典的伦理与文化 (The Ethics and Culture of Ancient Chinese Classics)\n汉学要义 (Essentials of Sinology)\n当代文学理论与中国文学 (Contemporary Literary Theory and Chinese Literature)\n先秦学术资料专题 (Special Topics in Pre-Qin Academic Materials)\n中国文献学通论 (General Theory of Chinese Philology)\n中国古典文学专题 (Special Topics in Chinese Classical Literature)\n中国古典小说与社会商业文化 (Chinese Classical Novels and Social Commercial Culture)\n现代汉语专题 (Special Topics in Modern Chinese)\n中国现当代文学专题 (Special topics in Modern and Contemporary Chinese Literature)",
+  "success_cases": ""
+}

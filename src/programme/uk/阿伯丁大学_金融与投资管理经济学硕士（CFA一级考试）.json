@@ -1,0 +1,12 @@
+{
+  "school_name": "阿伯丁大学",
+  "major_name": "金融与投资管理经济学硕士（CFA一级考试）",
+  "ename": "MSc(Econ) Finance and Investment Management (with CFA Level 1 Examination)",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 1/9月\n项目时长: 1年\n项目学费: 26250英镑/年",
+  "requirements": "不限专业背景，不需要在本科阶段完成商业或管理学习，具有2:2荣誉学位或同等学历",
+  "objectives": "阿伯丁大学金融与投资管理硕士项目为学生提供了坚实的基础知识，在这个主要的增长领域提高学生的技能与专业知识，以及对雇主的吸引力。阿伯丁大学金融与投资管理硕士课程涵盖了金融与投资的理论和实践方面的全面结合，适合早期的金融专业人士和有志于进入金融行业的人士。学生将获得广泛金融学科的重要理论和实践知识，具备扎实的金融背景，增强的定量和分析技能，以及对金融建模和投资决策的深刻理解。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "数量方法 (Quantitative Methods)\n会计 (Accounting)\n经济分析 (Economic Analysis)\n公司财务问题 (Issues in Corporate Finance)\n资产组合分析 (Portfolio Analysis)\n金融研究实证方法 (Empirical Methods in Finance Research)\n金融分析与市场 (Financial Analysis and Markets)\n专业金融学 (Professional Finance)\n金融领域研究 (Studies in Finance)\n会计学与金融学硕士论文 (Master's Dissertation in Accountancy & Finance)",
+  "success_cases": ""
+}

@@ -1,0 +1,12 @@
+{
+  "school_name": "萨里大学",
+  "major_name": "投资管理理学硕士",
+  "ename": "MSc Investment Management",
+  "tags": "商科,金融,商学院",
+  "introduction": "专业方向: 金融\n入学时间: 2/9月\n项目时长: 1年\n项目学费: 24900英镑/年",
+  "requirements": "具有2:2英国荣誉学位或受认可的同等学历，需要金融学、会计、银行、经济学或金融服务（包括保险和投资管理）背景\n具有工商管理或管理学学位的申请者也可以被考虑，会计、银行或金融在课程中的加权占比需要达到25%\n学校也会考虑将会计、银行或金融作为联合或辅修课程的双学科学位申请者\n如果申请者不符合以上要求，学校也会考虑其大量相关工作经验\n如果申请者具备至少1年全职毕业后职位相关经验（或至少2年相关毕业后兼职职位经验），需要在提交申请时在个人陈述和简历中提供职位和责任的详细信息",
+  "objectives": "全球企业对投资管理、投资银行、养老基金、保险与另类投资（例如对冲基金、私募股权与主权财富基金）领域高素质专业人才的需求越来越大。\n萨里大学投资管理理学硕士项目提供高质量教育，以满足当下对投资与金融专业人才的需求。萨里大学投资管理理学硕士项目将为学生提供投资理论方面的严格训练，帮助学生掌握处理实际投资问题的实用工具。\n萨里大学投资管理理学硕士项目将培养学生具备分析能力、决策能力、问题解决能力、风险减缓能力以及金融方面的技术能力，以便应对日益复杂的全球金融环境。萨里大学投资管理理学硕士项目的毕业生将了解投资管理的各个阶段，并能够在相应背景下制定合理决策。\n萨里大学投资管理理学硕士项目的必修课程将指导学生充分理解投资管理的核心概念，萨里大学投资管理理学硕士项目的选修课程也可让学生根据个人兴趣与职业规划选择适合的课程。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "股权投资分析 (EQUITY INVESTMENT ANALYSIS)\n固定收益投资 (FIXED INCOME INVESTMENT)\n金融基础：金融与投资 (FOUNDATIONS OF FINANCE: FINANCE & INVESTMENTS)\n会计原理 (PRINCIPLES OF ACCOUNTING)\n国际金融案例 (CASES IN INTERNATIONAL FINANCE)\n企业融资 (CORPORATE FINANCE)\n衍生品证券 (DERIVATIVES SECURITIES)\n金融伦理 (ETHICS IN FINANCE)\n国际企业管治 (INTERNATIONAL CORPORATE GOVERNANCE)\n国际金融 (INTERNATIONAL FINANCE)\n国际金融项目 (INTERNATIONAL FINANCE PROJECT)\n投资组合管理 (PORTFOLIO MANAGEMENT)\n风险管理 (RISK MANAGEMENT)",
+  "success_cases": ""
+}

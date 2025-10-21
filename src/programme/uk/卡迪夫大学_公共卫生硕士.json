@@ -1,0 +1,12 @@
+{
+  "school_name": "卡迪夫大学",
+  "major_name": "公共卫生硕士",
+  "ename": "Master of Public Health",
+  "tags": "社科,公共卫生,医学院",
+  "introduction": "专业方向: 公共卫生\n入学时间: 9月\n项目时长: 1年\n项目学费: 28200英镑/年",
+  "requirements": "具有2:2荣誉学位或同等学历，需要相关专业背景\n如果申请者没有相关领域的学位，学校会考虑至少两年的相关专业经验，需要证据支持",
+  "objectives": "卡迪夫大学公共卫生硕士项目致力于为学生提供质量高、综合性强的跨学科教育，夯实学生公共卫生知识基础、培养领导能力与解决问题的能力。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "统计学方法论 (Statistical Methodology)\n流行病学基础 (Basic Epidemiology)\n应用流行病学 (Applied Epidemiology)\n卫生经济学、政策和规划 (Health Economics、Policy and Planning)\n学位论文：公共卫生 (Dissertation: Public Health)",
+  "success_cases": ""
+}

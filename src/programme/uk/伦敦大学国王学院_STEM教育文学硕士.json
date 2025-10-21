@@ -1,0 +1,12 @@
+{
+  "school_name": "伦敦大学国王学院",
+  "major_name": "STEM教育文学硕士",
+  "ename": "MA STEM Education",
+  "tags": "社科,教育,社会科学与公共政策学院",
+  "introduction": "专业方向: 教育\n入学时间: 9月\n项目时长: 1年\n项目学费: 30000英镑/年",
+  "requirements": "具有2:1本科（荣誉）学士学位",
+  "objectives": "伦敦大学国王学院STEM教育文学硕士项目欢迎寻求知识和技能的学生，以推动教育变革，应对我们日益丰富的技术和科学世界。STEM教育文学硕士为学生在国家、国际和实践层面上的道路，在这道路上正式和非正式STEM教育的核心辩论可以形成对紧迫的社会和环境问题的回应。在过去十年中，国家和国际上对鼓励STEM学科学习和职业途径的兴趣有所增加，这是因为人们担心在填补一系列工程、科学和技术相关部门的技术和专业角色方面存在不足。当我们考虑到在日益科技化的社会中，子孙后代可能需要的技能，以及应对环境可持续性挑战时，这些担忧进一步加剧。虽然紧急，但所需的响应是复杂的，需要了解国际教育系统、单独的STEM主题，包括其共享的元素和过程以及其独特的特征、政策指示、新的教学方法，如基于项目的学习、计算思维和各种STEM相关背景。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "STEM教育原则与政策（30学分） (Principles and Policy of STEM Education(30 credits))\n研究方法与论文（60学分） (Research Methods and Dissertation (60 credits))\n环境教育：可持续性与社会（30学分） (Environmental Education: Sustainability and Society(30 credits))\nSTEM（计算、数学和科学）领先实践（30学分） (Leading Practice in STEM (Computing, Maths & Science)(30 credits))\nSTEM教育实习（30学分） (STEM Education Placement(30 credits))\nSTEM：制作和创造（30学分） (STEM: Making and Creating(30 credits))\n教育数字技术的最新发展 (Recent development in digital technologies in education)\n国际比较教育 (International & comparative education)",
+  "success_cases": ""
+}

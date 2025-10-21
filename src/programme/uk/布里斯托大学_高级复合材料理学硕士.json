@@ -1,0 +1,12 @@
+{
+  "school_name": "布里斯托大学",
+  "major_name": "高级复合材料理学硕士",
+  "ename": "MSc Advanced Composites",
+  "tags": "工科,材料,土木、航空航天与设计工程学院",
+  "introduction": "专业方向: 材料\n入学时间: 9月\n项目时长: 1年\n项目学费: 32500英镑/年",
+  "requirements": "具有2:1荣誉学位或同等学历，需要STEM学科背景\n没有航空工程、航空航天工程、土木工程、复合材料工程、工程设计或机械工程学位的申请者必须在以下课程成绩达到60%：一个力学课程，或者一个材料课程以及复合材料，有限元分析，制造，数学，编程或模拟其中之一\n对于目前正在完成学位的申请者，学校理解其最终成绩可能高于他们在学习期间取得的临时成绩或课程/单元成绩。学校将考虑目前临时成绩略低于课程入学要求的申请者，可能会给这些申请者提供有条件录取，申请者需要在学位结束时达到标准入学要求，特定的课程要求可能仍然适用。\n学校将考虑成绩略低于课程入学要求的申请者，前提是他们至少具备以下其中一项：\n- 作为工程师（非管理角色）在复合材料行业有重要的、相关的带薪工作经验证明（至少一年）；\n- 相关的研究生学历\n如果是这种情况，申请者应该在申请时附上其简历，详细说明他们的相关资格",
+  "objectives": "复合材料正逐步取代传统的金属构件，在航空航天、风力机叶片等诸多工业应用领域以及汽车行业中广泛应用。布里斯托大学高等复合材料理学硕士项目旨在使学生深度掌握高等复合材料的理论与实用知识。该项目设于创新与科学高级复合中心，一个世界领先的复合材料研究中心之一，该中心拥有众多尖端的复合材料制造设备。",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "复合材料设计与制造原理 (Composites Design and Manufacture Principles)\n结构分析 (Structural Analysis)\n先进复合材料 (Advanced Composite Materials)\n复合材料力学：实验和数值方法 (Mechanics of Composite Materials: Experimental and Numerical Approaches)\n复合产品开发与制造 (Composite Products Development and Manufacture)\n研究技能 (Research Skills)\n研究项目（高级复合材料理学硕士） (Research Project (Advanced Composites MSc))\n纳米复合材料和纳米工程 (Nanocomposites and Nanoengineering)\n智能材料 (Smart Materials)\n大自然的材料 (Nature's Materials)\n复合材料的数值分析原理与研究软件开发 (Principles of Numerical Analysis and Research Software Development for Composite Materials)\n超声波无损检测 (Ultrasonic Non-Destructive Testing)\n可持续复合材料 (Sustainable Composite Material)\n数字滤波器和光谱分析（M） (Digital Filters and Spectral Analysis (M))",
+  "success_cases": ""
+}

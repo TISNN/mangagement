@@ -1,0 +1,12 @@
+{
+  "school_name": "加州大学戴维斯分校",
+  "major_name": "工商管理硕士",
+  "ename": "Master of Business Administration",
+  "tags": "商科,工商管理",
+  "introduction": "专业方向: 工商管理\n项目类别: STEM\n入学时间: 秋季\n项目时长: 2年\n项目学费: 113,124美元",
+  "requirements": "GPA 3.0及以上。",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}

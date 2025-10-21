@@ -1,0 +1,12 @@
+{
+  "school_name": "波士顿大学",
+  "major_name": "数学金融与金融科技硕士",
+  "ename": "MS in Mathematical Finance & Financial Technology",
+  "tags": "商科,金工金数",
+  "introduction": "专业方向: 金工金数\n项目类别: STEM\n入学时间: 秋季\n项目时长: 39学分\n项目学费: 85281美元\n项目规模: 100人\n平均成绩: 3.58\n平均G: 720\n男女比例: 59:41\n就业比例: 97%\n平均起薪: 90569美元",
+  "requirements": "建议先修课：微积分、微分方程、线性代数、概率论、统计、计算机编程",
+  "objectives": "",
+  "language_requirements": "{{ per_lang.name }}",
+  "curriculum": "",
+  "success_cases": ""
+}
