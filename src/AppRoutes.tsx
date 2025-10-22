@@ -24,12 +24,14 @@ import LeadsPage from './pages/admin/LeadsPage';
 import LeadDetailPage from './pages/admin/LeadDetailPage';
 import MentorsPage from './pages/admin/MentorsPage';
 import InterviewPage from './pages/admin/InterviewPage';
-import CaseStudiesPage from './pages/admin/CaseStudiesPage';
+import CaseStudiesPage from './pages/admin/CaseStudies';
 import ContractsPage from './pages/admin/ContractsPage';
 import SocialMediaPage from './pages/admin/SocialMediaPage';
 import FinancePage from './pages/admin/FinancePage';
 import SettingsPage from './pages/admin/SettingsPage';
 import SchoolAssistantPage from './pages/admin/SchoolAssistantPage';
+import ProjectsPage from './pages/admin/ProjectsPage';
+import KnowledgePage from './pages/admin/KnowledgePage';
 
 // 导入路由保护组件
 import { PrivateRoute } from './components/PrivateRoute';
@@ -59,11 +61,13 @@ const AppRoutes: React.FC = () => {
         <Route path="tasks" element={<TaskManagementPage />} />
         <Route path="students" element={<StudentsPage />} />
         <Route path="students/:studentId" element={<StudentDetailPage />} />
+        <Route path="projects" element={<ProjectsPage />} />
         <Route path="applications" element={<ApplicationsPage />} />
         <Route path="applications/:id" element={<ApplicationDetailPage />} />
         <Route path="leads" element={<LeadsPage />} />
         <Route path="leads/:id" element={<LeadDetailPage />} />
         <Route path="mentors" element={<MentorsPage />} />
+        <Route path="knowledge" element={<KnowledgePage />} />
         <Route path="interview" element={<InterviewPage />} />
         <Route path="cases" element={<CaseStudiesPage />} />
         <Route path="contracts" element={<ContractsPage />} />

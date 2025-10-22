@@ -124,12 +124,28 @@ function App() {
       setCurrentPage('tasks');
     } else if (path.includes('team-chat')) {
       setCurrentPage('team-chat');
-    } else if (path.includes('applications')) {
-      setCurrentPage('applications');
-    } else if (path.includes('interview')) {
-      setCurrentPage('interview');
+    } else if (path.includes('students')) {
+      setCurrentPage('students');
     } else if (path.includes('school-assistant')) {
       setCurrentPage('school-assistant');
+    } else if (path.includes('projects')) {
+      setCurrentPage('projects');
+    } else if (path.includes('applications')) {
+      setCurrentPage('applications');
+    } else if (path.includes('leads')) {
+      setCurrentPage('leads');
+    } else if (path.includes('mentors')) {
+      setCurrentPage('mentors');
+    } else if (path.includes('knowledge')) {
+      setCurrentPage('knowledge');
+    } else if (path.includes('interview')) {
+      setCurrentPage('interview');
+    } else if (path.includes('cases')) {
+      setCurrentPage('cases');
+    } else if (path.includes('contracts')) {
+      setCurrentPage('contracts');
+    } else if (path.includes('social')) {
+      setCurrentPage('social');
     } else if (path.includes('aiModel')) {
       setCurrentPage('aiModel');
     } else if (path.includes('finance')) {
