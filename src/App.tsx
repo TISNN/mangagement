@@ -12,7 +12,8 @@ import {
   UserRound, 
   ListTodo,
   ChevronUp,
-  ChevronDown
+  ChevronDown,
+  Bot
 } from 'lucide-react';
 import { DataProvider } from './context/DataContext'; // 导入数据上下文提供者
 import AIAssistant from './components/AIAssistant';
@@ -36,6 +37,7 @@ function App() {
     { icon: ListTodo, text: '任务管理', id: 'tasks', color: 'blue' },
     // { icon: MessageCircle, text: '团队聊天', id: 'team-chat', color: 'blue' },
     { icon: Users, text: '学生管理', id: 'students', color: 'blue' },
+    { icon: Bot, text: '留学Copilot', id: 'study-copilot', color: 'purple' },
     { icon: School, text: '选校助手', id: 'school-assistant', color: 'blue' },
     { icon: Briefcase, text: '服务项目', id: 'projects', color: 'blue' },
     { icon: FileCheck, text: '申请进度', id: 'applications', color: 'blue' },
@@ -126,6 +128,8 @@ function App() {
       setCurrentPage('team-chat');
     } else if (path.includes('students')) {
       setCurrentPage('students');
+    } else if (path.includes('study-copilot')) {
+      setCurrentPage('study-copilot');
     } else if (path.includes('school-assistant')) {
       setCurrentPage('school-assistant');
     } else if (path.includes('projects')) {

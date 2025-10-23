@@ -13,7 +13,7 @@ import PricingPage from './website/PricingPage';
 import ContactPage from './website/ContactPage';
 
 // 导入管理员页面
-import DashboardPage from './pages/admin/DashboardPage';
+import DashboardPage from './pages/admin/Dashboard';
 import EmployeeManagementPage from './pages/admin/EmployeeManagementPage'; 
 import TaskManagementPage from './pages/admin/TaskManagement';
 import StudentsPage from './pages/admin/StudentsPage/StudentsPage';
@@ -32,6 +32,8 @@ import SettingsPage from './pages/admin/SettingsPage';
 import SchoolAssistantPage from './pages/admin/SchoolAssistantPage';
 import ProjectsPage from './pages/admin/ProjectsPage';
 import KnowledgePage from './pages/admin/KnowledgePage';
+import StudyCopilotPage from './pages/admin/StudyCopilot';
+import ConsultationPage from './pages/admin/StudyCopilot/ConsultationPage';
 
 // 导入路由保护组件
 import { PrivateRoute } from './components/PrivateRoute';
@@ -61,6 +63,8 @@ const AppRoutes: React.FC = () => {
         <Route path="tasks" element={<TaskManagementPage />} />
         <Route path="students" element={<StudentsPage />} />
         <Route path="students/:studentId" element={<StudentDetailPage />} />
+        <Route path="study-copilot" element={<StudyCopilotPage />} />
+        <Route path="study-copilot/consultation" element={<ConsultationPage />} />
         <Route path="projects" element={<ProjectsPage />} />
         <Route path="applications" element={<ApplicationsPage />} />
         <Route path="applications/:id" element={<ApplicationDetailPage />} />

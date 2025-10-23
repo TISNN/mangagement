@@ -29,7 +29,7 @@
   {
     "name": "students",
     "status": "✅ 正常",
-    "count": 32,
+    "count": 34,
     "fields": [
       "id",
       "name",
@@ -70,7 +70,7 @@
   {
     "name": "student_services",
     "status": "✅ 正常",
-    "count": 20,
+    "count": 27,
     "fields": [
       "id",
       "student_id",
@@ -277,7 +277,7 @@
   {
     "name": "role_permissions",
     "status": "✅ 正常",
-    "count": 15,
+    "count": 14,
     "fields": [
       "id",
       "role_id",
