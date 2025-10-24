@@ -3,7 +3,8 @@
  */
 
 import React, { useState, useMemo } from 'react';
-import { School as SchoolIcon } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { School as SchoolIcon, Plus } from 'lucide-react';
 
 // 导入学校库模块
 import { 
@@ -16,6 +17,8 @@ import {
 import { usePrograms } from './ProgramLibrary';
 
 const SchoolLibraryPage: React.FC = () => {
+  const navigate = useNavigate();
+  
   // 状态管理
   const [expandedPrograms, setExpandedPrograms] = useState<string[]>([]);
   
@@ -139,10 +142,17 @@ const SchoolLibraryPage: React.FC = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-3">
             <span className="text-sm text-gray-500 dark:text-gray-400">
               共 {filteredSchools.length} 所院校
             </span>
+            <button
+              onClick={() => navigate('/admin/school-library/add')}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors flex items-center gap-2 text-sm font-medium shadow-sm"
+            >
+              <Plus className="h-4 w-4" />
+              添加学校
+            </button>
           </div>
         </div>
       </div>

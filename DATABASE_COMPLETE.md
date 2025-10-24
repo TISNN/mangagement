@@ -313,6 +313,7 @@
 | `tags` | text[] | ❌ | 标签 |
 | `created_at` | timestamptz | ✅ | 创建时间 📅 |
 | `updated_at` | timestamptz | ✅ | 更新时间 ⏰ |
+| `career` | text | ❌ | 未来职业发展 |
 
 #### 关系
 

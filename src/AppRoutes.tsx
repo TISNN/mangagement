@@ -34,6 +34,8 @@ import ProgramLibraryPage from './pages/admin/ProgramLibraryPage';
 import SchoolDetailPageNew from './pages/admin/SchoolDetailPageNew';
 import SmartSchoolSelectionPage from './pages/admin/SmartSchoolSelection';
 import ProgramDetailPageNew from './pages/admin/ProgramDetailPageNew';
+import AddSchoolPage from './pages/admin/AddSchoolPage';
+import AddProgramPage from './pages/admin/AddProgramPage';
 import ProjectsPage from './pages/admin/ProjectsPage';
 import KnowledgePage from './pages/admin/KnowledgePage';
 import StudyCopilotPage from './pages/admin/StudyCopilot';
@@ -84,7 +86,9 @@ const AppRoutes: React.FC = () => {
         
         {/* 院校和专业库 */}
         <Route path="school-library" element={<SchoolLibraryPage />} />
+        <Route path="school-library/add" element={<AddSchoolPage />} />
         <Route path="program-library" element={<ProgramLibraryPage />} />
+        <Route path="program-library/add" element={<AddProgramPage />} />
         
         {/* 智能选校Agent */}
         <Route path="smart-selection" element={<SmartSchoolSelectionPage />} />

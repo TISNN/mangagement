@@ -3,7 +3,8 @@
  */
 
 import React, { useState, useMemo } from 'react';
-import { BookOpen, ChevronLeft, ChevronRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { BookOpen, ChevronLeft, ChevronRight, Plus } from 'lucide-react';
 
 // 导入专业库模块
 import { 
@@ -16,6 +17,8 @@ import {
 import { useSchools } from './SchoolLibrary';
 
 const ProgramLibraryPage: React.FC = () => {
+  const navigate = useNavigate();
+  
   // 1. 使用专业库Hook
   const { programs, loading: programsLoading, error: programsError } = usePrograms();
   
@@ -134,10 +137,17 @@ const ProgramLibraryPage: React.FC = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-3">
             <span className="text-sm text-gray-500 dark:text-gray-400">
               共 {filteredPrograms.length} 个专业
             </span>
+            <button
+              onClick={() => navigate('/admin/program-library/add')}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors flex items-center gap-2 text-sm font-medium shadow-sm"
+            >
+              <Plus className="h-4 w-4" />
+              添加专业
+            </button>
           </div>
         </div>
       </div>
