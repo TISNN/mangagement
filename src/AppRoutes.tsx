@@ -29,7 +29,11 @@ import ContractsPage from './pages/admin/ContractsPage';
 import SocialMediaPage from './pages/admin/SocialMediaPage';
 import FinancePage from './pages/admin/FinancePage';
 import SettingsPage from './pages/admin/SettingsPage';
-import SchoolAssistantPage from './pages/admin/SchoolAssistantPage';
+import SchoolLibraryPage from './pages/admin/SchoolLibraryPage';
+import ProgramLibraryPage from './pages/admin/ProgramLibraryPage';
+import SchoolDetailPageNew from './pages/admin/SchoolDetailPageNew';
+import SmartSchoolSelectionPage from './pages/admin/SmartSchoolSelection';
+import ProgramDetailPageNew from './pages/admin/ProgramDetailPageNew';
 import ProjectsPage from './pages/admin/ProjectsPage';
 import KnowledgePage from './pages/admin/KnowledgePage';
 import StudyCopilotPage from './pages/admin/StudyCopilot';
@@ -77,8 +81,20 @@ const AppRoutes: React.FC = () => {
         <Route path="contracts" element={<ContractsPage />} />
         <Route path="social" element={<SocialMediaPage />} />
         <Route path="finance" element={<FinancePage />} />
-        <Route path="school-assistant" element={<SchoolAssistantPage />} />
         
+        {/* 院校和专业库 */}
+        <Route path="school-library" element={<SchoolLibraryPage />} />
+        <Route path="program-library" element={<ProgramLibraryPage />} />
+        
+        {/* 智能选校Agent */}
+        <Route path="smart-selection" element={<SmartSchoolSelectionPage />} />
+        
+        {/* 详情页 */}
+        <Route path="school/:schoolId" element={<SchoolDetailPageNew />} />
+        <Route path="school-detail/:schoolId" element={<SchoolDetailPageNew />} />
+        <Route path="program/:programId" element={<ProgramDetailPageNew />} />
+        <Route path="programs/:programId" element={<ProgramDetailPageNew />} />
+        <Route path="program-detail/:programId" element={<ProgramDetailPageNew />} />
         
         <Route path="settings" element={<SettingsPage />} />
       </Route>

@@ -108,7 +108,7 @@ const StudyCopilotPage: React.FC = () => {
             </div>
             <div>
               <h1 className="text-4xl font-bold mb-2">
-                留学Copilot
+                申请Copilot
               </h1>
               <p className="text-lg text-white/90">
                 AI驱动的全流程留学管理系统

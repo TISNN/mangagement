@@ -13,11 +13,14 @@ import {
   ListTodo,
   ChevronUp,
   ChevronDown,
-  Bot
+  Bot,
+  BookOpen,
+  Brain
 } from 'lucide-react';
 import { DataProvider } from './context/DataContext'; // 导入数据上下文提供者
 import AIAssistant from './components/AIAssistant';
 import ErrorBoundary from './components/ErrorBoundary';
+import './utils/cacheManager'; // 引入缓存管理器,使window.clearAppCache()可用
 
 function App() {
   const [currentPage, setCurrentPage] = useState('dashboard'); // 默认显示控制台
@@ -37,8 +40,10 @@ function App() {
     { icon: ListTodo, text: '任务管理', id: 'tasks', color: 'blue' },
     // { icon: MessageCircle, text: '团队聊天', id: 'team-chat', color: 'blue' },
     { icon: Users, text: '学生管理', id: 'students', color: 'blue' },
-    { icon: Bot, text: '留学Copilot', id: 'study-copilot', color: 'purple' },
-    { icon: School, text: '选校助手', id: 'school-assistant', color: 'blue' },
+    { icon: Bot, text: '申请Copilot', id: 'study-copilot', color: 'purple' },
+    { icon: School, text: '院校库', id: 'school-library', color: 'blue' },
+    { icon: BookOpen, text: '专业库', id: 'program-library', color: 'green' },
+    { icon: Brain, text: '智能选校', id: 'smart-selection', color: 'purple' },
     { icon: Briefcase, text: '服务项目', id: 'projects', color: 'blue' },
     { icon: FileCheck, text: '申请进度', id: 'applications', color: 'blue' },
     { icon: MessagesSquare, text: '客户线索', id: 'leads', color: 'blue' },
@@ -130,8 +135,12 @@ function App() {
       setCurrentPage('students');
     } else if (path.includes('study-copilot')) {
       setCurrentPage('study-copilot');
-    } else if (path.includes('school-assistant')) {
-      setCurrentPage('school-assistant');
+    } else if (path.includes('school-library')) {
+      setCurrentPage('school-library');
+    } else if (path.includes('program-library')) {
+      setCurrentPage('program-library');
+    } else if (path.includes('smart-selection')) {
+      setCurrentPage('smart-selection');
     } else if (path.includes('projects')) {
       setCurrentPage('projects');
     } else if (path.includes('applications')) {
