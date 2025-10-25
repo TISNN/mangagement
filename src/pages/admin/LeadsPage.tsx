@@ -709,24 +709,16 @@ function LeadsPage({ setCurrentPage: setAppCurrentPage }: LeadsPageProps) {
                           <div className="flex items-center">
                             {lead.assignedTo ? (
                               <>
-                                <div className="relative h-6 w-6 rounded-full mr-2 overflow-hidden bg-blue-100 flex items-center justify-center">
+                                <div className="relative h-6 w-6 rounded-full mr-2 overflow-hidden bg-blue-100">
                                   <img 
                                     src={getMentorInfo(lead.assignedTo).avatar} 
                                     alt={getMentorInfo(lead.assignedTo).name}
                                     className="h-full w-full object-cover"
                                     onError={(e) => {
+                                      // 图片加载失败时不显示任何内容,只保留背景色
                                       e.currentTarget.style.display = 'none';
-                                      e.currentTarget.parentElement?.classList.add('flex');
-                                      // 显示名字首字母
-                                      const nameLetter = document.createElement('span');
-                                      nameLetter.className = 'absolute text-xs font-medium text-blue-600';
-                                      nameLetter.textContent = getMentorInfo(lead.assignedTo).name.charAt(0).toUpperCase();
-                                      e.currentTarget.parentElement?.appendChild(nameLetter);
                                     }}
                                   />
-                                  <span className="absolute text-xs font-medium text-blue-600">
-                                    {getMentorInfo(lead.assignedTo).name.charAt(0).toUpperCase()}
-                                  </span>
                                 </div>
                                 <span className="text-sm text-gray-600 dark:text-gray-300">
                                   {getMentorInfo(lead.assignedTo).name}
