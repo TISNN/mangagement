@@ -3,6 +3,7 @@ import { Search, Filter, Plus, Phone, Clock, ChevronLeft, ChevronRight, Users, C
 import { useNavigate } from 'react-router-dom';
 import LeadToStudentModal from '../../components/LeadToStudentModal';
 import AddLeadModal from '../../components/AddLeadModal';
+import LeadDetailPanel from '../../components/LeadDetailPanel';
 import { Lead, LeadStatus, LeadPriority } from '../../types/lead';
 import { leadService, serviceTypeService, mentorService } from '../../services';
 import { LeadLog } from '../../services/leadService';
@@ -63,6 +64,10 @@ function LeadsPage({ setCurrentPage: setAppCurrentPage }: LeadsPageProps) {
   const [followUpContent, setFollowUpContent] = useState('');
   const [followUpDate, setFollowUpDate] = useState('');
   const [submittingFollowUp, setSubmittingFollowUp] = useState(false);
+  
+  // 添加详情面板相关状态
+  const [showDetailPanel, setShowDetailPanel] = useState(false);
+  const [selectedLeadForDetail, setSelectedLeadForDetail] = useState<Lead | null>(null);
   
   // 初始加载数据
   useEffect(() => {
@@ -268,6 +273,27 @@ function LeadsPage({ setCurrentPage: setAppCurrentPage }: LeadsPageProps) {
   const handleEditLead = (lead: Lead) => {
     setLeadToEdit(lead);
     setShowAddLeadModal(true);
+  };
+  
+  // 处理查看详情
+  const handleViewDetail = (lead: Lead) => {
+    setSelectedLeadForDetail(lead);
+    setShowDetailPanel(true);
+  };
+  
+  // 处理详情更新
+  const handleDetailUpdate = (updatedLead: Lead) => {
+    // 更新本地数据
+    setLeads(prevLeads => 
+      prevLeads.map(l => l.id === updatedLead.id ? updatedLead : l)
+    );
+    setSelectedLeadForDetail(updatedLead);
+  };
+  
+  // 关闭详情面板
+  const handleCloseDetailPanel = () => {
+    setShowDetailPanel(false);
+    setSelectedLeadForDetail(null);
   };
 
   // 处理新增线索完成
@@ -737,6 +763,13 @@ function LeadsPage({ setCurrentPage: setAppCurrentPage }: LeadsPageProps) {
                         <td className="py-4 px-6 text-right" onClick={(e) => e.stopPropagation()}>
                           <div className="flex items-center justify-end gap-2">
                             <button
+                              onClick={() => handleViewDetail(lead)}
+                              className="p-2 text-green-600 hover:text-green-800 hover:bg-green-50 rounded-md dark:text-green-400 dark:hover:bg-green-900/20"
+                              title="查看详情"
+                            >
+                              <Eye className="h-4 w-4" />
+                            </button>
+                            <button
                               onClick={(e) => handleFollowUp(e, lead)}
                               className="p-2 text-blue-600 hover:text-blue-800 hover:bg-blue-50 rounded-md dark:text-blue-400 dark:hover:bg-blue-900/20"
                               title="添加跟进"
@@ -746,6 +779,7 @@ function LeadsPage({ setCurrentPage: setAppCurrentPage }: LeadsPageProps) {
                             <button
                               onClick={() => handleEditLead(lead)}
                               className="p-2 text-gray-600 hover:text-gray-800 hover:bg-gray-50 rounded-md dark:text-gray-400 dark:hover:bg-gray-800"
+                              title="编辑线索"
                             >
                               <Edit className="h-4 w-4" />
                             </button>
@@ -910,6 +944,16 @@ function LeadsPage({ setCurrentPage: setAppCurrentPage }: LeadsPageProps) {
           </div>
         </div>
       )}
+      
+      {/* 线索详情面板 */}
+      <LeadDetailPanel
+        isOpen={showDetailPanel}
+        lead={selectedLeadForDetail}
+        onClose={handleCloseDetailPanel}
+        onUpdate={handleDetailUpdate}
+        serviceTypes={serviceTypes}
+        mentors={mentors}
+      />
     </div>
   );
 }
