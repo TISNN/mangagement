@@ -372,23 +372,24 @@
 **用途**: 管理潜在客户信息和跟进状态
 
 **记录数**: 3  
-**字段数**: 15
+**字段数**: 16 *(更新: 新增email)*
 
 #### 字段详情
 
 | 字段名 | 类型 | 说明 |
 |--------|------|------|
 | `id` | integer | 主键 🔑 |
-| `name` | text | 姓名 |
+| `name` | text | 姓名(必填) ✅ |
+| `email` | text | **新增**: 邮箱地址 📧 |
 | `phone` | text | 电话 |
 | `gender` | text | 性别 |
 | `avatar_url` | text | 头像 |
-| `interest` | text | 感兴趣的服务 |
+| `interest` | integer | 感兴趣的服务(关联service_types表) 🔗 |
 | `source` | text | 来源渠道 |
-| `status` | text | 状态 (新线索/跟进中/已转化/已放弃) |
-| `priority` | text | 优先级 (高/中/低) |
-| `assigned_to` | integer | 负责人 🔗 |
-| `date` | date | 创建日期 |
+| `status` | text | 状态 (new/contacted/qualified/converted/closed) |
+| `priority` | text | 优先级 (high/medium/low) |
+| `assigned_to` | integer | 负责人(关联mentors表) 🔗 |
+| `date` | timestamptz | 接入日期 |
 | `last_contact` | timestamptz | 最后联系时间 |
 | `notes` | text | 备注 |
 | `created_at` | timestamptz | 创建时间 📅 |
