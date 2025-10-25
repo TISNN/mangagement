@@ -20,6 +20,7 @@ import StudentsPage from './pages/admin/StudentsPage/StudentsPage';
 import StudentDetailPage from './pages/admin/StudentsPage/StudentDetailPage';
 import ApplicationsPage from './pages/admin/ApplicationsPage';
 import ApplicationDetailPage from './pages/admin/ApplicationDetailPage';
+import PlanningDetailPage from './pages/admin/PlanningDetailPage';
 import LeadsPage from './pages/admin/LeadsPage';
 import LeadDetailPage from './pages/admin/LeadDetailPage';
 import MentorsPage from './pages/admin/MentorsPage';
@@ -75,8 +76,9 @@ const AppRoutes: React.FC = () => {
         <Route path="projects" element={<ProjectsPage />} />
         <Route path="applications" element={<ApplicationsPage />} />
         <Route path="applications/:id" element={<ApplicationDetailPage />} />
+        <Route path="applications/:studentId/planning" element={<PlanningDetailPage />} />
         <Route path="leads" element={<LeadsPage />} />
-        <Route path="leads/:id" element={<LeadDetailPage />} />
+        <Route path="leads/:leadId" element={<LeadDetailPage />} />
         <Route path="mentors" element={<MentorsPage />} />
         <Route path="mentors/:id" element={<MentorDetailPage />} />
         <Route path="knowledge" element={<KnowledgePage />} />

@@ -278,21 +278,6 @@ function KnowledgePage({ setCurrentPage }: KnowledgePageProps) {
       fileUrl: '/files/pre-departure-checklist.xlsx'
     },
     {
-      id: 'K016',
-      title: '美国名校校友访谈视频集',
-      type: 'video',
-      category: '案例分析',
-      description: '哈佛、斯坦福、麻省理工等名校校友分享申请经验和校园生活',
-      lastUpdated: '2023-07-10',
-      author: '王老师',
-      views: 2765,
-      downloads: 0,
-      tags: ['名校', '校友访谈', '申请经验', '校园生活'],
-      isFeatured: true,
-      isBookmarked: false,
-      thumbnailUrl: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
-    },
-    {
       id: 'K017',
       title: '留学生全球银行账户开设指南',
       type: 'document',

@@ -355,6 +355,12 @@ function LeadDetailPage() {
     return mentor ? mentor.name : `顾问${mentorId}`;
   };
   
+  // 获取顾问完整信息
+  const getMentorInfo = (mentorId: string) => {
+    if (!mentorId) return null;
+    return mentors.find(m => m.id === parseInt(mentorId)) || null;
+  };
+  
   // 处理转换为学生完成
   const handleStudentAdded = () => {
     setShowConvertModal(false);
@@ -1183,7 +1189,25 @@ function LeadDetailPage() {
                     ))}
                   </select>
                 ) : (
-                  <p className="font-medium dark:text-white">{getMentorName(lead?.assignedTo || '')}</p>
+                  <>
+                    {lead?.assignedTo ? (
+                      <div className="flex items-center gap-2">
+                        <div className="relative h-8 w-8 rounded-full overflow-hidden bg-blue-100 flex-shrink-0">
+                          <img
+                            src={getMentorInfo(lead.assignedTo)?.avatar_url || `https://api.dicebear.com/7.x/avataaars/svg?seed=${getMentorName(lead.assignedTo)}`}
+                            alt={getMentorName(lead.assignedTo)}
+                            className="h-full w-full object-cover"
+                            onError={(e) => {
+                              e.currentTarget.style.display = 'none';
+                            }}
+                          />
+                        </div>
+                        <span className="font-medium dark:text-white">{getMentorName(lead.assignedTo)}</span>
+                      </div>
+                    ) : (
+                      <p className="font-medium text-gray-500 dark:text-gray-400">未分配</p>
+                    )}
+                  </>
                 )}
               </div>
               

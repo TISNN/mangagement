@@ -685,6 +685,219 @@ const { data, error } = await supabase
 
 ---
 
+## 🎓 申请进度管理表
+
+### 19. 📋 student_profile (学生申请档案表)
+
+**用途**: 存储学生的完整申请档案信息
+
+**记录数**: 1+  
+**字段数**: 30+  
+**新增时间**: 2025-10-23
+
+#### 字段详情
+
+| 字段名 | 类型 | 必填 | 说明 | 特殊标记 |
+|--------|------|------|------|----------|
+| `id` | integer | ✅ | 主键 | 🔑 自增 |
+| `student_id` | integer | ✅ | 学生ID | 🔗 FK → students |
+| **基本信息** |
+| `full_name` | text | ✅ | 姓名 | |
+| `gender` | text | ❌ | 性别 | |
+| `date_of_birth` | date | ❌ | 出生日期 | |
+| `nationality` | text | ❌ | 国籍 | |
+| `phone_number` | text | ❌ | 电话 | |
+| `application_email` | text | ❌ | 申请邮箱 | |
+| `passport_number` | text | ❌ | 护照号码 | |
+| `current_address` | text | ❌ | 现居地址 | |
+| **本科教育背景** |
+| `undergraduate_degree` | text | ❌ | 学历 | |
+| `undergraduate_school` | text | ❌ | 学校 | |
+| `undergraduate_major` | text | ❌ | 专业 | |
+| `undergraduate_gpa` | numeric | ❌ | GPA | |
+| `undergraduate_score` | numeric | ❌ | 均分 | |
+| `undergraduate_start_date` | date | ❌ | 开始时间 | |
+| `undergraduate_end_date` | date | ❌ | 结束时间 | |
+| `undergraduate_core_courses` | text[] | ❌ | 核心课程 | |
+| `undergraduate_scholarships` | text[] | ❌ | 奖学金 | |
+| **硕士教育背景** |
+| `graduate_degree` | text | ❌ | 学历 | |
+| `graduate_school` | text | ❌ | 学校 | |
+| `graduate_major` | text | ❌ | 专业 | |
+| `graduate_gpa` | numeric | ❌ | GPA | |
+| `graduate_score` | numeric | ❌ | 均分 | |
+| `graduate_start_date` | date | ❌ | 开始时间 | |
+| `graduate_end_date` | date | ❌ | 结束时间 | |
+| `graduate_core_courses` | text[] | ❌ | 核心课程 | |
+| `graduate_scholarships` | text[] | ❌ | 奖学金 | |
+| **标化成绩** |
+| `standardized_tests` | jsonb | ❌ | 标化考试成绩 | 🎯 新增 2025-10-25 |
+| **文书材料** |
+| `document_files` | jsonb | ❌ | 文书材料列表 | |
+| **实习/工作经历** |
+| `work_experiences` | jsonb | ❌ | 工作经历列表 | 🎯 新增 2025-10-24 |
+| `created_at` | timestamptz | ✅ | 创建时间 | 📅 自动 |
+| `updated_at` | timestamptz | ✅ | 更新时间 | ⏰ 自动 |
+
+#### JSONB 字段结构
+
+**standardized_tests** (标化成绩):
+```json
+[
+  {
+    "test_type": "IELTS|TOEFL|GRE|GMAT|CET4|CET6|OTHER",
+    "test_date": "2024-03-15",
+    "total_score": 7.5,
+    "listening_score": 8.0,      // IELTS/TOEFL
+    "reading_score": 7.5,         // IELTS/TOEFL
+    "writing_score": 7.0,         // IELTS/TOEFL
+    "speaking_score": 7.5,        // IELTS/TOEFL
+    "verbal_score": 160,          // GRE
+    "quantitative_score": 168,    // GRE
+    "analytical_writing_score": 4.5, // GRE
+    "has_account": true,
+    "account": "test@example.com",
+    "password": "password123",
+    "other_test_name": "考试名称"  // OTHER类型时
+  }
+]
+```
+
+**work_experiences** (工作经历):
+```json
+[
+  {
+    "company": "公司名称",
+    "position": "职位",
+    "start_date": "2023-01-01",
+    "end_date": "2024-01-01",
+    "is_current": false,
+    "description": "工作描述",
+    "achievements": ["成就1", "成就2"]
+  }
+]
+```
+
+**document_files** (文书材料):
+```json
+[
+  {
+    "name": "个人陈述",
+    "url": "https://...",
+    "type": "pdf",
+    "upload_date": "2024-10-23",
+    "size": 1024000
+  }
+]
+```
+
+#### 关系
+
+- **多对一** → `students.id` (外键: student_id)
+- **一对多** → `student_meetings.student_id`
+- **一对多** → `final_university_choices.student_id`
+- **一对多** → `application_documents_checklist.student_id`
+
+#### 索引
+
+- `PRIMARY KEY (id)`
+- `UNIQUE (student_id)`
+- `GIN INDEX (standardized_tests)` - 提高 JSONB 查询性能
+- `GIN INDEX (work_experiences)` - 提高 JSONB 查询性能
+- `GIN INDEX (document_files)` - 提高 JSONB 查询性能
+
+---
+
+### 20. 📅 student_meetings (学生会议表)
+
+**用途**: 记录学生的会议和咨询记录
+
+**记录数**: 0+  
+**字段数**: 12  
+**新增时间**: 2025-10-23
+
+#### 字段详情
+
+| 字段名 | 类型 | 必填 | 说明 |
+|--------|------|------|------|
+| `id` | integer | ✅ | 主键 🔑 |
+| `student_id` | integer | ✅ | 学生ID 🔗 |
+| `title` | text | ✅ | 会议标题 |
+| `summary` | text | ❌ | 会议概要 |
+| `start_time` | timestamptz | ✅ | 开始时间 |
+| `end_time` | timestamptz | ❌ | 结束时间 |
+| `participants` | text[] | ❌ | 参会人 |
+| `meeting_documents` | jsonb | ❌ | 会议文档 |
+| `meeting_notes` | text | ❌ | 会议笔记 |
+| `meeting_type` | text | ❌ | 会议类型 |
+| `status` | text | ❌ | 状态 |
+| `created_at` | timestamptz | ✅ | 创建时间 |
+| `updated_at` | timestamptz | ✅ | 更新时间 |
+
+---
+
+### 21. 🏫 final_university_choices (最终选校列表)
+
+**用途**: 存储学生最终确定的申请学校列表
+
+**记录数**: 5+  
+**字段数**: 18  
+**新增时间**: 2025-10-23
+
+#### 字段详情
+
+| 字段名 | 类型 | 必填 | 说明 |
+|--------|------|------|------|
+| `id` | integer | ✅ | 主键 🔑 |
+| `student_id` | integer | ✅ | 学生ID 🔗 |
+| `school_name` | text | ✅ | 学校名称 |
+| `program_name` | text | ✅ | 专业名称 |
+| `program_level` | text | ❌ | 专业级别 |
+| `application_deadline` | date | ❌ | 申请截止日期 |
+| `application_round` | text | ❌ | 申请轮次 |
+| `application_account` | text | ❌ | 申请账号 |
+| `application_password` | text | ❌ | 申请密码 |
+| `submission_status` | text | ❌ | 投递状态 |
+| `submission_date` | date | ❌ | 投递日期 |
+| `decision_date` | date | ❌ | 决定日期 |
+| `decision_result` | text | ❌ | 决定结果 |
+| `application_type` | text | ❌ | 申请类型 |
+| `priority_rank` | integer | ❌ | 优先级 |
+| `notes` | text | ❌ | 备注 |
+| `created_at` | timestamptz | ✅ | 创建时间 |
+| `updated_at` | timestamptz | ✅ | 更新时间 |
+
+---
+
+### 22. 📄 application_documents_checklist (申请材料清单)
+
+**用途**: 追踪学生申请材料的准备进度
+
+**记录数**: 0+  
+**字段数**: 13  
+**新增时间**: 2025-10-23
+
+#### 字段详情
+
+| 字段名 | 类型 | 必填 | 说明 |
+|--------|------|------|------|
+| `id` | integer | ✅ | 主键 🔑 |
+| `student_id` | integer | ✅ | 学生ID 🔗 |
+| `university_choice_id` | integer | ❌ | 选校ID 🔗 |
+| `document_name` | text | ✅ | 材料名称 |
+| `document_type` | text | ❌ | 材料类型 |
+| `is_required` | boolean | ❌ | 是否必需 |
+| `status` | text | ❌ | 状态 |
+| `progress` | integer | ❌ | 进度 (0-100) |
+| `due_date` | date | ❌ | 截止日期 |
+| `completed_date` | date | ❌ | 完成日期 |
+| `file_url` | text | ❌ | 文件URL |
+| `notes` | text | ❌ | 备注 |
+| `created_at` | timestamptz | ✅ | 创建时间 |
+| `updated_at` | timestamptz | ✅ | 更新时间 |
+
+---
+
 ## 📞 技术支持
 
 - **Supabase文档**: https://supabase.com/docs
@@ -693,5 +906,5 @@ const { data, error } = await supabase
 
 ---
 
-*本文档最后更新: 2025年10月23日*
+*本文档最后更新: 2025年10月25日*
 
