@@ -23,6 +23,7 @@ import ApplicationDetailPage from './pages/admin/ApplicationDetailPage';
 import LeadsPage from './pages/admin/LeadsPage';
 import LeadDetailPage from './pages/admin/LeadDetailPage';
 import MentorsPage from './pages/admin/MentorsPage';
+import MentorDetailPage from './pages/admin/MentorDetailPage';
 import InterviewPage from './pages/admin/InterviewPage';
 import CaseStudiesPage from './pages/admin/CaseStudies';
 import ContractsPage from './pages/admin/ContractsPage';
@@ -77,6 +78,7 @@ const AppRoutes: React.FC = () => {
         <Route path="leads" element={<LeadsPage />} />
         <Route path="leads/:id" element={<LeadDetailPage />} />
         <Route path="mentors" element={<MentorsPage />} />
+        <Route path="mentors/:id" element={<MentorDetailPage />} />
         <Route path="knowledge" element={<KnowledgePage />} />
         <Route path="interview" element={<InterviewPage />} />
         <Route path="cases" element={<CaseStudiesPage />} />

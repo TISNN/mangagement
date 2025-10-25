@@ -280,11 +280,7 @@ const EmployeeDetailPage: React.FC = () => {
                 label="所属部门" 
                 value={getDepartmentText(employee.department) || '未设置'}
               />
-              <InfoItem 
-                icon={Calendar} 
-                label="入职日期" 
-                value={formatDate(employee.join_date)}
-              />
+
               <InfoItem 
                 icon={Clock} 
                 label="工作状态" 

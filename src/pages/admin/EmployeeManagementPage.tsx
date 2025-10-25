@@ -359,10 +359,6 @@ const EmployeeManagementPage: React.FC = () => {
                     <span>{employee.phone}</span>
                   </div>
                   <div className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400">
-                    <Calendar className="h-4 w-4 text-gray-400" />
-                        <span>入职日期: {formatDate(employee.join_date)}</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400">
                     <MapPin className="h-4 w-4 text-gray-400" />
                     <span>{employee.location}</span>
                   </div>
