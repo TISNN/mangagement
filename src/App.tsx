@@ -15,7 +15,8 @@ import {
   ChevronDown,
   Bot,
   BookOpen,
-  Brain
+  Brain,
+  Calendar
 } from 'lucide-react';
 import { DataProvider } from './context/DataContext'; // 导入数据上下文提供者
 import AIAssistant from './components/AIAssistant';
@@ -48,6 +49,7 @@ function App() {
     { icon: FileCheck, text: '申请进度', id: 'applications', color: 'blue' },
     { icon: MessagesSquare, text: '客户线索', id: 'leads', color: 'blue' },
     { icon: UserSquare2, text: '导师库', id: 'mentors', color: 'blue' },
+    { icon: Calendar, text: '会议管理', id: 'meetings', color: 'blue' },
     { icon: Library, text: '知识库', id: 'knowledge', color: 'blue' },
     // { icon: Bot, text: 'AI大模型', id: 'aiModel', color: 'blue' },
     // { icon: Video, text: '面试培训', id: 'interview', color: 'blue' },

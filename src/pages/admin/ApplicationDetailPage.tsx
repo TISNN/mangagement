@@ -82,6 +82,18 @@ function ApplicationDetailPage() {
     }
   };
 
+  // 更新选校记录
+  const handleUpdateChoice = async (choiceId: number, updates: Partial<FinalUniversityChoice>) => {
+    try {
+      await universityChoiceService.updateChoice(choiceId, updates);
+      await reload();
+      alert('更新成功!');
+    } catch (error) {
+      console.error('更新选校失败:', error);
+      throw error;
+    }
+  };
+
   // 如果没有id,返回列表页
   useEffect(() => {
     if (!id) {
@@ -291,6 +303,7 @@ function ApplicationDetailPage() {
                 choices={choices} 
                 studentId={Number(id)}
                 onAddChoice={handleAddChoice}
+                onUpdateChoice={handleUpdateChoice}
               />
             </div>
           )}

@@ -21,12 +21,13 @@ export function useTaskFilters(tasks: UITask[]) {
    */
   const filteredTasks = useMemo(() => {
     return tasks.filter(task => {
-      // 1. 搜索过滤
+      // 1. 搜索过滤（标题、描述、学生人名）
       if (filters.search) {
         const searchLower = filters.search.toLowerCase();
         const matchesSearch = 
           task.title.toLowerCase().includes(searchLower) ||
-          task.description.toLowerCase().includes(searchLower);
+          task.description.toLowerCase().includes(searchLower) ||
+          (task.relatedStudent?.name && task.relatedStudent.name.toLowerCase().includes(searchLower));
         if (!matchesSearch) return false;
       }
 

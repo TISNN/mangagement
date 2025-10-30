@@ -42,6 +42,9 @@ import ProjectsPage from './pages/admin/ProjectsPage';
 import KnowledgePage from './pages/admin/KnowledgePage';
 import StudyCopilotPage from './pages/admin/StudyCopilot';
 import ConsultationPage from './pages/admin/StudyCopilot/ConsultationPage';
+import MeetingsPage from './pages/admin/MeetingsPage';
+import MeetingDetailPage from './pages/admin/MeetingDetailPage';
+import MeetingDocumentEditorPage from './pages/admin/MeetingDocumentEditorPage';
 
 // 导入路由保护组件
 import { PrivateRoute } from './components/PrivateRoute';
@@ -87,6 +90,12 @@ const AppRoutes: React.FC = () => {
         <Route path="contracts" element={<ContractsPage />} />
         <Route path="social" element={<SocialMediaPage />} />
         <Route path="finance" element={<FinancePage />} />
+        
+        {/* 会议管理 */}
+        <Route path="meetings" element={<MeetingsPage />} />
+        <Route path="meetings/:id" element={<MeetingDetailPage />} />
+        <Route path="meeting-documents/new" element={<MeetingDocumentEditorPage />} />
+        <Route path="meeting-documents/:id" element={<MeetingDocumentEditorPage />} />
         
         {/* 院校和专业库 */}
         <Route path="school-library" element={<SchoolLibraryPage />} />

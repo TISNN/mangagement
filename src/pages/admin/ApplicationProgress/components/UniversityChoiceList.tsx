@@ -3,23 +3,32 @@
  */
 
 import React, { useState } from 'react';
-import { School, Calendar, Key, CheckCircle2, Clock, XCircle, AlertCircle, Plus } from 'lucide-react';
+import { School, Calendar, Key, CheckCircle2, Clock, XCircle, AlertCircle, Plus, Edit2 } from 'lucide-react';
 import { FinalUniversityChoice } from '../types';
 import { formatDate } from '../../../../utils/dateUtils';
 import AddUniversityChoiceModal from './AddUniversityChoiceModal';
+import EditUniversityChoiceModal from './EditUniversityChoiceModal';
 
 interface UniversityChoiceListProps {
   choices: FinalUniversityChoice[];
   studentId: number;
   onAddChoice?: (choice: Partial<FinalUniversityChoice>) => Promise<void>;
+  onUpdateChoice?: (id: number, updates: Partial<FinalUniversityChoice>) => Promise<void>;
 }
 
-export default function UniversityChoiceList({ choices, studentId, onAddChoice }: UniversityChoiceListProps) {
+export default function UniversityChoiceList({ choices, studentId, onAddChoice, onUpdateChoice }: UniversityChoiceListProps) {
   const [showAddModal, setShowAddModal] = useState(false);
+  const [editingChoice, setEditingChoice] = useState<FinalUniversityChoice | null>(null);
 
   const handleAddChoice = async (choice: Partial<FinalUniversityChoice>) => {
     if (onAddChoice) {
       await onAddChoice(choice);
+    }
+  };
+
+  const handleUpdateChoice = async (id: number, updates: Partial<FinalUniversityChoice>) => {
+    if (onUpdateChoice) {
+      await onUpdateChoice(id, updates);
     }
   };
 
@@ -155,6 +164,15 @@ export default function UniversityChoiceList({ choices, studentId, onAddChoice }
                 <span className={`px-3 py-1 text-xs font-medium rounded-full ${getStatusColor(choice.submission_status)}`}>
                   {choice.submission_status || '未投递'}
                 </span>
+                {onUpdateChoice && (
+                  <button
+                    onClick={() => setEditingChoice(choice)}
+                    className="p-2 hover:bg-white/70 dark:hover:bg-black/30 rounded-lg transition-colors"
+                    title="编辑申请信息"
+                  >
+                    <Edit2 className="h-4 w-4" />
+                  </button>
+                )}
               </div>
             </div>
 
@@ -222,6 +240,14 @@ export default function UniversityChoiceList({ choices, studentId, onAddChoice }
           studentId={studentId}
           onClose={() => setShowAddModal(false)}
           onSave={handleAddChoice}
+        />
+      )}
+
+      {editingChoice && onUpdateChoice && (
+        <EditUniversityChoiceModal
+          choice={editingChoice}
+          onClose={() => setEditingChoice(null)}
+          onSave={handleUpdateChoice}
         />
       )}
     </div>

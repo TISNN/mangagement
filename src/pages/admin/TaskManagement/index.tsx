@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import { Plus, AlertCircle } from 'lucide-react';
+import { Plus, AlertCircle, Search, X } from 'lucide-react';
 import { toast } from 'react-hot-toast';
 import { useTaskData } from './hooks/useTaskData';
 import { useTaskOperations } from './hooks/useTaskOperations';
@@ -22,7 +22,14 @@ import { UITask } from './types/task.types';
 
 const TaskManagementPage: React.FC = () => {
   // 数据层
-  const { tasks, loading, error, reload } = useTaskData();
+  const { 
+    tasks, 
+    loading, 
+    error, 
+    reload, 
+    silentReload,
+    optimisticUpdateTask,
+  } = useTaskData();
   const [employees, setEmployees] = useState<Array<{ id: number; name: string; avatar_url?: string; position?: string }>>([]);
   const [students, setStudents] = useState<Array<{ id: number; name: string; avatar_url?: string; status?: string; is_active?: boolean }>>([]);
   const { 
@@ -190,16 +197,40 @@ const TaskManagementPage: React.FC = () => {
     openDeleteConfirm(task);
   };
 
-  // 更新任务字段
+  // 更新任务字段（使用乐观更新，无需重新加载）
   const handleUpdateTaskField = async (taskId: string, field: string, value: string | number | number[] | string[] | null) => {
     try {
       console.log('[TaskManagement] 更新任务字段:', { taskId, field, value, valueType: typeof value });
       
-      // 导入taskService并直接调用更新方法
-      const taskServiceModule = await import('../../../services/taskService');
-      const { updateTask: taskServiceUpdateTask } = taskServiceModule;
+      // 1. 先构造UI层的更新数据（乐观更新）
+      const uiUpdates: Partial<UITask> = {};
       
-      // 构造更新数据，注意字段映射
+      if (field === 'status') {
+        uiUpdates.status = value as '待处理' | '进行中' | '已完成' | '已取消';
+      } else if (field === 'priority') {
+        uiUpdates.priority = value as '低' | '中' | '高';
+      } else if (field === 'start_date') {
+        uiUpdates.startDate = value as string;
+      } else if (field === 'due_date') {
+        uiUpdates.dueDate = value as string;
+      } else if (field === 'description') {
+        uiUpdates.description = value as string;
+      } else if (field === 'title') {
+        uiUpdates.title = value as string;
+      } else if (field === 'assigned_to') {
+        // 负责人字段需要特殊处理
+        // 这里我们只更新 assignees 数组，具体的员工信息在后台刷新时获取
+      } else if (field === 'related_student_id') {
+        // 关联学生字段需要特殊处理
+        // 这里我们只是标记需要刷新，学生信息在后台获取
+      }
+
+      // 2. 乐观更新本地状态（立即反映在UI上）
+      if (Object.keys(uiUpdates).length > 0) {
+        optimisticUpdateTask(taskId, uiUpdates);
+      }
+      
+      // 3. 构造数据库更新数据
       const updateData: Record<string, unknown> = {};
       
       if (field === 'status') {
@@ -227,18 +258,23 @@ const TaskManagementPage: React.FC = () => {
         updateData[field] = value;
       }
 
-      // 调用service更新任务
+      // 4. 后台异步更新到服务器
+      const taskServiceModule = await import('../../../services/taskService');
+      const { updateTask: taskServiceUpdateTask } = taskServiceModule;
+      
       console.log('[TaskManagement] 调用service更新任务:', { taskId: parseInt(taskId), updateData });
       await taskServiceUpdateTask(parseInt(taskId), updateData);
       
-      console.log('[TaskManagement] 任务字段更新成功，重新加载数据');
+      console.log('[TaskManagement] 任务字段更新成功，静默刷新数据');
       
-      // 重新加载数据，这会触发useEffect更新侧边面板
-      await reload();
+      // 5. 后台静默刷新（不显示loading，确保数据同步）
+      setTimeout(() => silentReload(), 500);
       
       return { success: true, message: '更新成功' };
     } catch (error) {
       console.error('[TaskManagement] 更新任务字段失败:', error);
+      // 如果更新失败，重新加载以恢复正确状态
+      await reload();
       return {
         success: false,
         message: error instanceof Error ? error.message : '更新失败'
@@ -250,24 +286,42 @@ const TaskManagementPage: React.FC = () => {
     <div className="h-full flex flex-col p-6 space-y-6 bg-gray-50 dark:bg-gray-900">
       {/* Header */}
       <div className="flex items-center justify-between">
-        <div className="flex items-center gap-16">
-          <div>
-            <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
-              我的任务
-            </h1>
-            <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-              在这里监控和管理所有任务
-            </p>
-          </div>
-          
+        <div>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
+            我的任务
+          </h1>
+          <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
+            在这里监控和管理所有任务
+          </p>
+        </div>
+        
+        <div className="flex items-center gap-3">
           {/* View Tabs */}
           <ViewTabs 
             activeView={viewMode} 
             onViewChange={(view) => setViewMode(view as 'list' | 'day' | 'week')} 
           />
-        </div>
-        
-        <div className="flex items-center gap-3">
+          
+          {/* 搜索框 */}
+          <div className="relative w-80">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none" />
+            <input
+              type="text"
+              value={filters.search}
+              onChange={(e) => updateFilter('search', e.target.value)}
+              placeholder="搜索任务、学生人名..."
+              className="w-full pl-10 pr-10 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-600 focus:border-transparent bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-400"
+            />
+            {filters.search && (
+              <button
+                onClick={() => updateFilter('search', '')}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            )}
+          </div>
+          
           <button
             onClick={openCreateModal}
             className="flex items-center gap-2 px-5 py-2.5 bg-purple-600 hover:bg-purple-700 dark:bg-purple-700 dark:hover:bg-purple-800 text-white rounded-lg transition-colors shadow-sm hover:shadow-md font-medium"
@@ -286,7 +340,7 @@ const TaskManagementPage: React.FC = () => {
             <span>{error}</span>
           </div>
           <button
-            onClick={reload}
+            onClick={() => reload()}
             className="px-3 py-1 bg-red-100 dark:bg-red-800 hover:bg-red-200 dark:hover:bg-red-700 rounded text-sm font-medium transition-colors"
           >
             重新加载
@@ -297,19 +351,36 @@ const TaskManagementPage: React.FC = () => {
       {/* 统计面板 */}
       <TaskStats tasks={tasks} />
 
+      {/* 快速创建任务 - 单独一行 */}
+      <div className="relative">
+        <input
+          type="text"
+          value={quickTaskInput}
+          onChange={(e) => setQuickTaskInput(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' && quickTaskInput.trim()) {
+              handleQuickCreate();
+            }
+          }}
+          placeholder="💡 快速创建任务：输入任务标题后按回车..."
+          className="w-full px-4 py-3 border-2 border-purple-300 dark:border-purple-600 rounded-lg focus:ring-2 focus:ring-purple-500 dark:focus:ring-purple-600 focus:border-transparent bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 text-base"
+        />
+        {quickTaskInput && (
+          <button
+            onClick={() => setQuickTaskInput('')}
+            className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+          >
+            <X className="w-4 h-4" />
+          </button>
+        )}
+      </div>
+
       {/* 筛选器 */}
       <TaskFilters
         filters={filters}
         onFilterChange={updateFilter}
         onReset={resetFilters}
         allTags={allTags}
-        quickTaskInput={quickTaskInput}
-        onQuickTaskChange={setQuickTaskInput}
-        onQuickTaskSubmit={() => {
-          if (quickTaskInput.trim()) {
-            handleQuickCreate();
-          }
-        }}
       />
 
       {/* 任务列表/表格 */}

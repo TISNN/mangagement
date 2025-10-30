@@ -3,7 +3,7 @@
  */
 
 import React from 'react';
-import { Search, Filter, X, RotateCcw } from 'lucide-react';
+import { Filter, X, RotateCcw } from 'lucide-react';
 import { TaskFilters as ITaskFilters } from '../../types/task.types';
 import { STATUS_OPTIONS, TIME_VIEWS, PRIORITY_OPTIONS } from '../../utils/taskConstants';
 
@@ -12,9 +12,6 @@ interface TaskFiltersProps {
   onFilterChange: (key: keyof ITaskFilters, value: any) => void;
   onReset: () => void;
   allTags: string[];
-  quickTaskInput: string;
-  onQuickTaskChange: (value: string) => void;
-  onQuickTaskSubmit: () => void;
 }
 
 const TaskFilters: React.FC<TaskFiltersProps> = ({
@@ -22,12 +19,8 @@ const TaskFilters: React.FC<TaskFiltersProps> = ({
   onFilterChange,
   onReset,
   allTags,
-  quickTaskInput,
-  onQuickTaskChange,
-  onQuickTaskSubmit,
 }) => {
   const hasActiveFilters = 
-    filters.search || 
     filters.status || 
     filters.priority ||
     filters.assignee ||
@@ -36,47 +29,8 @@ const TaskFilters: React.FC<TaskFiltersProps> = ({
 
   return (
     <div className="space-y-3">
-      {/* 搜索和快速创建 */}
-      <div className="flex gap-3">
-        {/* 搜索框 */}
-        <div className="flex-1 relative">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-blue-400 pointer-events-none" />
-          <input
-            type="text"
-            value={filters.search}
-            onChange={(e) => onFilterChange('search', e.target.value)}
-            placeholder="搜索任务标题或描述..."
-            className="w-full pl-10 pr-10 py-2.5 border border-blue-300 dark:border-blue-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-600 focus:border-transparent bg-white dark:bg-white text-black dark:text-black placeholder-gray-500 dark:placeholder-gray-500 transition-all"
-          />
-          {filters.search && (
-            <button
-              onClick={() => onFilterChange('search', '')}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-blue-400 hover:text-blue-600 dark:hover:text-blue-300"
-            >
-              <X className="w-4 h-4" />
-            </button>
-          )}
-        </div>
-        
-        {/* 快速创建 */}
-        <div className="flex-1 relative">
-          <input
-            type="text"
-            value={quickTaskInput}
-            onChange={(e) => onQuickTaskChange(e.target.value)}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter') {
-                onQuickTaskSubmit();
-              }
-            }}
-            placeholder="快速创建任务 (回车)"
-            className="w-full px-4 py-2.5 border border-red-300 dark:border-red-600 rounded-lg focus:ring-2 focus:ring-red-500 dark:focus:ring-red-600 focus:border-transparent bg-white dark:bg-white text-black dark:text-black placeholder-gray-500 dark:placeholder-gray-500"
-          />
-        </div>
-      </div>
-
       {/* 筛选器 */}
-      <div className="flex items-center gap-3 flex-wrap bg-white dark:bg-white p-3 rounded-lg border border-gray-200 dark:border-gray-700">
+      <div className="flex items-center gap-3 flex-wrap bg-white dark:bg-gray-800 p-3 rounded-lg border border-gray-200 dark:border-gray-700">
         <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400">
           <Filter className="w-4 h-4" />
           <span className="text-sm font-medium">筛选:</span>

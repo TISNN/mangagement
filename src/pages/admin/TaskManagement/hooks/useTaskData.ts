@@ -13,9 +13,11 @@ export function useTaskData() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  const loadTasks = async () => {
+  const loadTasks = async (showLoading = true) => {
     try {
-      setLoading(true);
+      if (showLoading) {
+        setLoading(true);
+      }
       setError(null);
       console.log('[useTaskData] 开始加载任务...');
       
@@ -30,9 +32,44 @@ export function useTaskData() {
       console.error('[useTaskData] 加载任务失败:', err);
       setError('加载任务失败,请刷新重试');
     } finally {
-      setLoading(false);
+      if (showLoading) {
+        setLoading(false);
+      }
     }
   };
+
+  /**
+   * 乐观更新单个任务
+   * 先更新本地状态，后台同步到服务器
+   */
+  const optimisticUpdateTask = (taskId: string, updates: Partial<UITask>) => {
+    setTasks(prevTasks => 
+      prevTasks.map(task => 
+        task.id === taskId 
+          ? { ...task, ...updates }
+          : task
+      )
+    );
+  };
+
+  /**
+   * 乐观添加任务
+   */
+  const optimisticAddTask = (newTask: UITask) => {
+    setTasks(prevTasks => [newTask, ...prevTasks]);
+  };
+
+  /**
+   * 乐观删除任务
+   */
+  const optimisticDeleteTask = (taskId: string) => {
+    setTasks(prevTasks => prevTasks.filter(task => task.id !== taskId));
+  };
+
+  /**
+   * 静默刷新（后台刷新，不显示loading）
+   */
+  const silentReload = () => loadTasks(false);
 
   useEffect(() => {
     loadTasks();
@@ -40,9 +77,14 @@ export function useTaskData() {
 
   return {
     tasks,
+    setTasks,
     loading,
     error,
     reload: loadTasks,
+    silentReload,
+    optimisticUpdateTask,
+    optimisticAddTask,
+    optimisticDeleteTask,
   };
 }
 
