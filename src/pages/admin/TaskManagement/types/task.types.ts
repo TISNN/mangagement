@@ -53,6 +53,7 @@ export interface TaskFilters {
   status: string | null;
   priority: string | null;
   assignee: string | null;
+  student: string | null; // 新增：学生筛选
   tag: string | null;
   timeView: 'all' | 'today' | 'tomorrow' | 'week' | 'expired';
 }

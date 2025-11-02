@@ -12,6 +12,7 @@ interface TaskFiltersProps {
   onFilterChange: (key: keyof ITaskFilters, value: any) => void;
   onReset: () => void;
   allTags: string[];
+  students?: Array<{ id: string; name: string; avatar: string | null; status?: string; is_active?: boolean }>; // 已关联的学生列表
 }
 
 const TaskFilters: React.FC<TaskFiltersProps> = ({
@@ -19,11 +20,13 @@ const TaskFilters: React.FC<TaskFiltersProps> = ({
   onFilterChange,
   onReset,
   allTags,
+  students = [], // 新增：学生列表
 }) => {
   const hasActiveFilters = 
     filters.status || 
     filters.priority ||
     filters.assignee ||
+    filters.student || // 新增：学生筛选
     filters.tag || 
     filters.timeView !== 'all';
 
@@ -76,6 +79,22 @@ const TaskFilters: React.FC<TaskFiltersProps> = ({
             </option>
           ))}
         </select>
+
+        {/* 学生筛选（仅显示已关联的学生） */}
+        {students.length > 0 && (
+          <select
+            value={filters.student || ''}
+            onChange={(e) => onFilterChange('student', e.target.value || null)}
+            className="px-3 py-1.5 text-sm border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-purple-500 dark:focus:ring-purple-600 cursor-pointer hover:border-gray-400 dark:hover:border-gray-500 transition-colors"
+          >
+            <option value="">全部学生 ({students.length})</option>
+            {students.map(student => (
+              <option key={student.id} value={student.id}>
+                {student.name} {!student.is_active && '(非活跃)'}
+              </option>
+            ))}
+          </select>
+        )}
 
         {/* 标签筛选 */}
         {allTags.length > 0 && (
@@ -131,6 +150,18 @@ const TaskFilters: React.FC<TaskFiltersProps> = ({
               <button
                 onClick={() => onFilterChange('priority', null)}
                 className="hover:bg-purple-200 dark:hover:bg-purple-800 rounded-full p-0.5"
+              >
+                <X className="w-3 h-3" />
+              </button>
+            </span>
+          )}
+
+          {filters.student && (
+            <span className="inline-flex items-center gap-1 px-2 py-1 bg-indigo-100 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 rounded-full text-xs">
+              学生: {students.find(s => s.id === filters.student)?.name || filters.student}
+              <button
+                onClick={() => onFilterChange('student', null)}
+                className="hover:bg-indigo-200 dark:hover:bg-indigo-800 rounded-full p-0.5"
               >
                 <X className="w-3 h-3" />
               </button>

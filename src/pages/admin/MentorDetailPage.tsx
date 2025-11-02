@@ -118,8 +118,8 @@ const MentorDetailPage: React.FC = () => {
     );
   }
 
-  // 默认头像
-  const defaultAvatar = 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80';
+  // 默认头像 - 使用 DiceBear API 根据导师名字生成
+  const defaultAvatar = `https://api.dicebear.com/7.x/avataaars/svg?seed=${mentor.name}`;
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">

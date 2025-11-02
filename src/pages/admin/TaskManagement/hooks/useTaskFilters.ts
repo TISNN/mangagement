@@ -12,6 +12,7 @@ export function useTaskFilters(tasks: UITask[]) {
     status: null,
     priority: null,
     assignee: null,
+    student: null, // 新增：学生筛选
     tag: null,
     timeView: 'all',
   });
@@ -48,12 +49,19 @@ export function useTaskFilters(tasks: UITask[]) {
         }
       }
 
-      // 5. 标签过滤
+      // 5. 学生过滤（新增）
+      if (filters.student) {
+        if (!task.relatedStudent || task.relatedStudent.id !== filters.student) {
+          return false;
+        }
+      }
+
+      // 6. 标签过滤
       if (filters.tag && !task.tags.includes(filters.tag)) {
         return false;
       }
 
-      // 6. 时间视图过滤
+      // 7. 时间视图过滤
       if (filters.timeView !== 'all' && task.dueDate) {
         const today = new Date();
         today.setHours(0, 0, 0, 0);
@@ -108,6 +116,7 @@ export function useTaskFilters(tasks: UITask[]) {
       status: null,
       priority: null,
       assignee: null,
+      student: null, // 新增：重置学生筛选
       tag: null,
       timeView: 'all',
     });
@@ -124,6 +133,25 @@ export function useTaskFilters(tasks: UITask[]) {
     return Array.from(tagSet).sort();
   }, [tasks]);
 
+  /**
+   * 获取所有已关联的学生（去重）
+   */
+  const relatedStudents = useMemo(() => {
+    const studentMap = new Map<string, { id: string; name: string; avatar: string | null; status?: string; is_active?: boolean }>();
+    
+    tasks.forEach(task => {
+      if (task.relatedStudent) {
+        // 使用Map确保每个学生只出现一次
+        if (!studentMap.has(task.relatedStudent.id)) {
+          studentMap.set(task.relatedStudent.id, task.relatedStudent);
+        }
+      }
+    });
+    
+    // 转换为数组并按名称排序
+    return Array.from(studentMap.values()).sort((a, b) => a.name.localeCompare(b.name));
+  }, [tasks]);
+
   return {
     filters,
     setFilters,
@@ -131,6 +159,7 @@ export function useTaskFilters(tasks: UITask[]) {
     resetFilters,
     filteredTasks,
     allTags,
+    relatedStudents, // 新增：返回已关联的学生列表
   };
 }
 

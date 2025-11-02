@@ -39,7 +39,7 @@ const TaskManagementPage: React.FC = () => {
     deleteTask, 
     quickCreateTask 
   } = useTaskOperations(reload);
-  const { filters, updateFilter, resetFilters, filteredTasks, allTags } = useTaskFilters(tasks);
+  const { filters, updateFilter, resetFilters, filteredTasks, allTags, relatedStudents } = useTaskFilters(tasks);
   
   // UI状态层
   const {
@@ -381,6 +381,7 @@ const TaskManagementPage: React.FC = () => {
         onFilterChange={updateFilter}
         onReset={resetFilters}
         allTags={allTags}
+        students={relatedStudents}
       />
 
       {/* 任务列表/表格 */}

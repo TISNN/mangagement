@@ -19,8 +19,8 @@ interface MentorCardProps {
  * MentorCard - 展示单个导师信息的卡片组件
  */
 export const MentorCard: React.FC<MentorCardProps> = ({ mentor, onClick }) => {
-  // 默认头像
-  const defaultAvatar = 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80';
+  // 默认头像 - 使用 DiceBear API 根据导师名字生成
+  const defaultAvatar = `https://api.dicebear.com/7.x/avataaars/svg?seed=${mentor.name}`;
 
   return (
     <div
