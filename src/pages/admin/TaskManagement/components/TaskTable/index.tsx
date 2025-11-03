@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useRef, useEffect } from 'react';
-import { Flag, Calendar, MoreVertical, Trash2 } from 'lucide-react';
+import { Flag, Calendar, MoreVertical, Trash2, Users, Building2, Megaphone, Briefcase } from 'lucide-react';
 import { UITask } from '../../types/task.types';
 
 interface TaskTableProps {
@@ -93,6 +93,17 @@ const TaskTable: React.FC<TaskTableProps> = ({
     }
   };
 
+  // 获取任务域显示（新增）
+  const getDomainDisplay = (domain?: string) => {
+    const domainConfig = {
+      'general': { icon: Briefcase, color: 'text-gray-600', bg: 'bg-gray-100 dark:bg-gray-700', label: '通用' },
+      'student_success': { icon: Users, color: 'text-purple-600', bg: 'bg-purple-100 dark:bg-purple-900/30', label: '学生' },
+      'company_ops': { icon: Building2, color: 'text-orange-600', bg: 'bg-orange-100 dark:bg-orange-900/30', label: '运营' },
+      'marketing': { icon: Megaphone, color: 'text-pink-600', bg: 'bg-pink-100 dark:bg-pink-900/30', label: '市场' },
+    };
+    return domainConfig[domain as keyof typeof domainConfig] || domainConfig['general'];
+  };
+
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
       <div className="overflow-x-auto overflow-y-visible">
@@ -110,10 +121,13 @@ const TaskTable: React.FC<TaskTableProps> = ({
                 任务名称
               </th>
               <th className="text-left px-4 py-3 text-xs font-medium text-gray-500 dark:text-gray-400 tracking-wider">
+                任务域
+              </th>
+              <th className="text-left px-4 py-3 text-xs font-medium text-gray-500 dark:text-gray-400 tracking-wider">
                 负责人
               </th>
               <th className="text-left px-4 py-3 text-xs font-medium text-gray-500 dark:text-gray-400 tracking-wider">
-                关联学生
+                关联对象
               </th>
               <th className="text-left px-4 py-3 text-xs font-medium text-gray-500 dark:text-gray-400 tracking-wider">
                 优先级
@@ -171,11 +185,38 @@ const TaskTable: React.FC<TaskTableProps> = ({
 
                   {/* Task Name */}
                   <td className="px-4 py-4">
-                    <div className={`font-medium text-gray-900 dark:text-white ${
-                      task.status === '已完成' ? 'line-through' : ''
-                    }`}>
-                      {task.title}
+                    <div className="flex items-center gap-2">
+                      <div className={`font-medium text-gray-900 dark:text-white ${
+                        task.status === '已完成' ? 'line-through' : ''
+                      }`}>
+                        {task.title}
+                      </div>
+                      {task.relatedMeeting && (
+                        <div 
+                          className="flex items-center gap-1 px-2 py-0.5 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded-full"
+                          title={`关联会议: ${task.relatedMeeting.title}`}
+                        >
+                          <Calendar className="w-3 h-3" />
+                          <span className="text-xs">会议</span>
+                        </div>
+                      )}
                     </div>
+                  </td>
+
+                  {/* Task Domain（新增） */}
+                  <td className="px-4 py-4">
+                    {(() => {
+                      const domainDisplay = getDomainDisplay(task.domain);
+                      const DomainIcon = domainDisplay.icon;
+                      return (
+                        <div className={`inline-flex items-center gap-1.5 px-2 py-1 rounded-md ${domainDisplay.bg}`}>
+                          <DomainIcon className={`w-3.5 h-3.5 ${domainDisplay.color}`} />
+                          <span className={`text-xs font-medium ${domainDisplay.color}`}>
+                            {domainDisplay.label}
+                          </span>
+                        </div>
+                      );
+                    })()}
                   </td>
 
                   {/* Assignees */}
@@ -202,7 +243,7 @@ const TaskTable: React.FC<TaskTableProps> = ({
                     )}
                   </td>
 
-                  {/* Related Student */}
+                  {/* Related Entity（更新为通用关联对象） */}
                   <td className="px-4 py-4">
                     {task.relatedStudent ? (
                       <div className="flex items-center gap-2">
@@ -231,6 +272,24 @@ const TaskTable: React.FC<TaskTableProps> = ({
                             ) : null;
                           })()}
                         </div>
+                      </div>
+                    ) : task.relatedLead ? (
+                      <div className="flex items-center gap-2">
+                        <div className="w-6 h-6 rounded-full border border-white dark:border-gray-800 bg-pink-100 dark:bg-pink-900/30 flex items-center justify-center text-xs font-medium text-pink-600 dark:text-pink-400">
+                          {task.relatedLead.name.charAt(0)}
+                        </div>
+                        <span className="text-sm text-gray-700 dark:text-gray-300 truncate max-w-[150px]">
+                          {task.relatedLead.name}
+                        </span>
+                        <span className="px-2 py-0.5 rounded-full text-xs font-medium bg-pink-100 dark:bg-pink-900/30 text-pink-700 dark:text-pink-300">
+                          线索
+                        </span>
+                      </div>
+                    ) : task.relatedEntityName ? (
+                      <div className="flex items-center gap-2">
+                        <span className="text-sm text-gray-700 dark:text-gray-300 truncate max-w-[150px]">
+                          {task.relatedEntityName}
+                        </span>
                       </div>
                     ) : (
                       <span className="text-sm text-gray-400">-</span>

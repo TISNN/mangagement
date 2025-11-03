@@ -64,6 +64,10 @@ export interface Task {
   tags: string[] | null;
   related_student_id: number | null;
   related_lead_id: number | null;
+  task_domain: string | null;
+  linked_entity_type: string | null;
+  linked_entity_id: number | null;
+  meeting_id: number | null; // 关联会议ID
   created_at: string;
   updated_at: string;
   
@@ -89,6 +93,14 @@ export interface Task {
   lead?: {
     id: number;
     name: string;
+    status?: string | null;
+  };
+  meeting?: {
+    id: number;
+    title: string;
+    meeting_type: string;
+    status: string;
+    start_time: string;
   };
 }
 
@@ -120,6 +132,9 @@ export interface CreateTaskForm {
   tags?: string[];
   related_student_id?: number;
   related_lead_id?: number;
+  task_domain?: string;
+  linked_entity_type?: string | null;
+  linked_entity_id?: number | null;
 }
 
 // 更新任务表单
@@ -139,7 +154,8 @@ export async function getAllTasks(): Promise<Task[]> {
         *,
         creator:created_by(id, name, avatar_url),
         student:related_student_id(id, name, avatar_url, status, is_active),
-        lead:related_lead_id(id, name)
+        lead:related_lead_id(id, name),
+        meeting:meeting_id(id, title, meeting_type, status, start_time)
       `)
       .order('created_at', { ascending: false });
 
@@ -166,7 +182,8 @@ export async function getTasksByStatus(status: string): Promise<Task[]> {
         *,
         creator:created_by(id, name, avatar_url),
         student:related_student_id(id, name, avatar_url, status, is_active),
-        lead:related_lead_id(id, name)
+        lead:related_lead_id(id, name),
+        meeting:meeting_id(id, title, meeting_type, status, start_time)
       `)
       .eq('status', status)
       .order('created_at', { ascending: false });
@@ -194,7 +211,8 @@ export async function getTasksByAssignee(employeeId: number): Promise<Task[]> {
         *,
         creator:created_by(id, name, avatar_url),
         student:related_student_id(id, name, avatar_url, status, is_active),
-        lead:related_lead_id(id, name)
+        lead:related_lead_id(id, name),
+        meeting:meeting_id(id, title, meeting_type, status, start_time)
       `)
       .contains('assigned_to', [employeeId])
       .order('created_at', { ascending: false });
@@ -222,7 +240,8 @@ export async function getTaskById(taskId: number): Promise<Task | null> {
         *,
         creator:created_by(id, name, avatar_url),
         student:related_student_id(id, name, avatar_url, status, is_active),
-        lead:related_lead_id(id, name)
+        lead:related_lead_id(id, name),
+        meeting:meeting_id(id, title, meeting_type, status, start_time)
       `)
       .eq('id', taskId)
       .single();
@@ -250,18 +269,38 @@ export async function createTask(taskData: CreateTaskForm): Promise<Task> {
     // 获取当前登录用户ID
     const currentEmployee = localStorage.getItem('currentEmployee');
     const createdBy = currentEmployee ? JSON.parse(currentEmployee).id : null;
+    const payload: Record<string, unknown> = {
+      ...taskData,
+      created_by: createdBy,
+      status: taskData.status || '待处理',
+      priority: taskData.priority || '中',
+      task_domain: taskData.task_domain || 'general',
+    };
+
+    const linkedType = taskData.linked_entity_type ?? null;
+    const linkedId = linkedType ? taskData.linked_entity_id ?? null : null;
+
+    payload.linked_entity_type = linkedType;
+    payload.linked_entity_id = linkedId;
+
+    if (linkedType === 'student') {
+      payload.related_student_id = linkedId;
+      payload.related_lead_id = null;
+    } else if (linkedType === 'lead') {
+      payload.related_lead_id = linkedId;
+      payload.related_student_id = null;
+    } else {
+      payload.related_student_id = taskData.related_student_id ?? null;
+      payload.related_lead_id = taskData.related_lead_id ?? null;
+    }
 
     const { data, error } = await supabase
       .from('tasks')
-      .insert({
-        ...taskData,
-        created_by: createdBy,
-        status: taskData.status || '待处理',
-        priority: taskData.priority || '中',
-      })
+      .insert(payload)
       .select(`
         *,
-        creator:created_by(id, name, avatar_url)
+        creator:created_by(id, name, avatar_url),
+        meeting:meeting_id(id, title, meeting_type, status, start_time)
       `)
       .single();
 
@@ -285,16 +324,51 @@ export async function createTask(taskData: CreateTaskForm): Promise<Task> {
  */
 export async function updateTask(taskId: number, taskData: UpdateTaskForm): Promise<Task> {
   try {
+    const payload: Record<string, unknown> = {
+      ...taskData,
+    };
+
+    if (taskData.task_domain !== undefined) {
+      payload.task_domain = taskData.task_domain;
+    }
+
+    const linkedType = taskData.linked_entity_type ?? null;
+    const linkedId = linkedType ? taskData.linked_entity_id ?? null : null;
+
+    payload.linked_entity_type = linkedType;
+    payload.linked_entity_id = linkedId;
+
+    if (linkedType === 'student') {
+      payload.related_student_id = linkedId;
+      payload.related_lead_id = null;
+    } else if (linkedType === 'lead') {
+      payload.related_student_id = null;
+      payload.related_lead_id = linkedId;
+    } else {
+      if (taskData.related_student_id !== undefined) {
+        payload.related_student_id = taskData.related_student_id;
+      } else if (linkedType === null) {
+        payload.related_student_id = null;
+      }
+
+      if (taskData.related_lead_id !== undefined) {
+        payload.related_lead_id = taskData.related_lead_id;
+      } else if (linkedType === null) {
+        payload.related_lead_id = null;
+      }
+    }
+
     const { data, error } = await supabase
       .from('tasks')
       .update({
-        ...taskData,
+        ...payload,
         updated_at: new Date().toISOString(),
       })
       .eq('id', taskId)
       .select(`
         *,
-        creator:created_by(id, name, avatar_url)
+        creator:created_by(id, name, avatar_url),
+        meeting:meeting_id(id, title, meeting_type, status, start_time)
       `)
       .single();
 
@@ -445,7 +519,10 @@ export async function updateTaskStatus(
       .eq('id', taskId)
       .select(`
         *,
-        creator:created_by(id, name, avatar_url)
+        creator:created_by(id, name, avatar_url),
+        student:related_student_id(id, name, avatar_url, status, is_active),
+        lead:related_lead_id(id, name),
+        meeting:meeting_id(id, title, meeting_type, status, start_time)
       `)
       .single();
 
@@ -571,7 +648,8 @@ export async function searchTasks(keyword: string): Promise<Task[]> {
         assignee:assigned_to(id, name, avatar_url, position),
         creator:created_by(id, name, avatar_url),
         student:related_student_id(id, name, avatar_url, status, is_active),
-        lead:related_lead_id(id, name)
+        lead:related_lead_id(id, name),
+        meeting:meeting_id(id, title, meeting_type, status, start_time)
       `)
       .or(`title.ilike.%${keyword}%,description.ilike.%${keyword}%`)
       .order('created_at', { ascending: false });
@@ -602,4 +680,3 @@ export default {
   getTaskStats,
   searchTasks,
 };
-

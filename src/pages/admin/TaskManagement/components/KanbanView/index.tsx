@@ -5,7 +5,7 @@
 
 import React from 'react';
 import { UITask } from '../../types/task.types';
-import { Circle, PlayCircle, CheckCircle2, XCircle } from 'lucide-react';
+import { Circle, PlayCircle, CheckCircle2, XCircle, Users, Building2, Megaphone, Briefcase } from 'lucide-react';
 
 interface KanbanViewProps {
   tasks: UITask[];
@@ -71,6 +71,17 @@ const KanbanView: React.FC<KanbanViewProps> = ({
     }
   };
 
+  // 获取任务域显示（新增）
+  const getDomainDisplay = (domain?: string) => {
+    const domainConfig = {
+      'general': { icon: Briefcase, color: 'text-gray-600 dark:text-gray-400', label: '通用' },
+      'student_success': { icon: Users, color: 'text-purple-600 dark:text-purple-400', label: '学生' },
+      'company_ops': { icon: Building2, color: 'text-orange-600 dark:text-orange-400', label: '运营' },
+      'marketing': { icon: Megaphone, color: 'text-pink-600 dark:text-pink-400', label: '市场' },
+    };
+    return domainConfig[domain as keyof typeof domainConfig] || domainConfig['general'];
+  };
+
   return (
     <div className="h-full overflow-x-auto">
       <div className="flex gap-4 h-full min-w-max p-4">
@@ -119,6 +130,24 @@ const KanbanView: React.FC<KanbanViewProps> = ({
                           }
                         `}
                       >
+                        {/* Task Domain Badge（新增） */}
+                        {task.domain && (
+                          <div className="mb-2">
+                            {(() => {
+                              const domainDisplay = getDomainDisplay(task.domain);
+                              const DomainIcon = domainDisplay.icon;
+                              return (
+                                <div className="inline-flex items-center gap-1 px-2 py-0.5 bg-gray-100 dark:bg-gray-700 rounded">
+                                  <DomainIcon className={`w-3 h-3 ${domainDisplay.color}`} />
+                                  <span className={`text-xs ${domainDisplay.color}`}>
+                                    {domainDisplay.label}
+                                  </span>
+                                </div>
+                              );
+                            })()}
+                          </div>
+                        )}
+
                         {/* Task Title */}
                         <h4 className="font-medium text-gray-900 dark:text-white mb-2 line-clamp-2">
                           {task.title}
@@ -129,6 +158,34 @@ const KanbanView: React.FC<KanbanViewProps> = ({
                           <p className="text-sm text-gray-600 dark:text-gray-400 mb-3 line-clamp-2">
                             {task.description}
                           </p>
+                        )}
+
+                        {/* Related Entity（新增） */}
+                        {(task.relatedStudent || task.relatedLead) && (
+                          <div className="mb-3 pb-3 border-b border-gray-100 dark:border-gray-700">
+                            {task.relatedStudent ? (
+                              <div className="flex items-center gap-2">
+                                <div className="w-5 h-5 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center text-xs font-medium text-blue-600 dark:text-blue-400">
+                                  {task.relatedStudent.name.charAt(0)}
+                                </div>
+                                <span className="text-xs text-gray-700 dark:text-gray-300 truncate">
+                                  {task.relatedStudent.name}
+                                </span>
+                              </div>
+                            ) : task.relatedLead && (
+                              <div className="flex items-center gap-2">
+                                <div className="w-5 h-5 rounded-full bg-pink-100 dark:bg-pink-900/30 flex items-center justify-center text-xs font-medium text-pink-600 dark:text-pink-400">
+                                  {task.relatedLead.name.charAt(0)}
+                                </div>
+                                <span className="text-xs text-gray-700 dark:text-gray-300 truncate">
+                                  {task.relatedLead.name}
+                                </span>
+                                <span className="px-1.5 py-0.5 text-xs bg-pink-100 dark:bg-pink-900/30 text-pink-600 dark:text-pink-400 rounded">
+                                  线索
+                                </span>
+                              </div>
+                            )}
+                          </div>
                         )}
 
                         {/* Task Meta */}
@@ -152,9 +209,9 @@ const KanbanView: React.FC<KanbanViewProps> = ({
                         {/* Assignee */}
                         {task.assignee && (
                           <div className="flex items-center gap-2 mt-3 pt-3 border-t border-gray-100 dark:border-gray-700">
-                            {task.assignee.avatar_url ? (
+                            {task.assignee.avatar ? (
                               <img
-                                src={task.assignee.avatar_url}
+                                src={task.assignee.avatar}
                                 alt={task.assignee.name}
                                 className="w-6 h-6 rounded-full"
                               />

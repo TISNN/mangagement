@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "command": "node",
+      "args": [
+        "/Users/evanxu/Downloads/mangagement-d0918fc8ddf240e444778d69a1e8e3a08a6b2dbc/.cursor/supabase_mcp_server.js"
+      ],
+      "env": {
+        "SUPABASE_URL": "${env:VITE_SUPABASE_URL}",
+        "SUPABASE_ANON_KEY": "${env:VITE_SUPABASE_ANON_KEY}"
+      }
+    }
+  }
+}
+

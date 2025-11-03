@@ -2,8 +2,9 @@
  * 任务管理常量定义
  */
 
-import { Circle, Clock, CheckCircle2, XSquare } from 'lucide-react';
+import { Circle, Clock, CheckCircle2, XSquare, Building2, GraduationCap, Users, Megaphone } from 'lucide-react';
 import React from 'react';
+import { TaskDomain, TaskRelatedEntityType } from '../types/task.types';
 
 // 优先级映射
 export const PRIORITY_MAP = {
@@ -130,3 +131,46 @@ export const STATUS_OPTIONS = [
   { value: '已取消', label: '已取消' },
 ] as const;
 
+export const TASK_DOMAIN_META: Record<TaskDomain, { label: string; description: string; icon: React.ReactNode; defaultEntityType: TaskRelatedEntityType }> = {
+  general: {
+    label: '通用协作',
+    description: '跨团队或尚未分类的日常任务',
+    icon: React.createElement(Users, { className: 'w-4 h-4 text-gray-500' }),
+    defaultEntityType: 'none',
+  },
+  student_success: {
+    label: '学生服务',
+    description: '与学生跟进、选校、材料相关的任务',
+    icon: React.createElement(GraduationCap, { className: 'w-4 h-4 text-indigo-500' }),
+    defaultEntityType: 'student',
+  },
+  company_ops: {
+    label: '内部运营',
+    description: '公司行政、人力、财务等管理事项',
+    icon: React.createElement(Building2, { className: 'w-4 h-4 text-emerald-500' }),
+    defaultEntityType: 'employee',
+  },
+  marketing: {
+    label: '市场与社媒',
+    description: '品牌宣传、活动策划、渠道推广等工作',
+    icon: React.createElement(Megaphone, { className: 'w-4 h-4 text-orange-500' }),
+    defaultEntityType: 'lead',
+  },
+};
+
+export const TASK_DOMAIN_OPTIONS = (Object.entries(TASK_DOMAIN_META) as Array<[TaskDomain, typeof TASK_DOMAIN_META[TaskDomain]]>).map(
+  ([value, meta]) => ({
+    value,
+    label: meta.label,
+    description: meta.description,
+    icon: meta.icon,
+    defaultEntityType: meta.defaultEntityType,
+  })
+);
+
+export const TASK_ENTITY_TYPE_OPTIONS: Array<{ value: TaskRelatedEntityType; label: string }> = [
+  { value: 'none', label: '不关联对象' },
+  { value: 'student', label: '关联学生' },
+  { value: 'lead', label: '关联潜在客户' },
+  { value: 'employee', label: '关联内部员工' },
+];

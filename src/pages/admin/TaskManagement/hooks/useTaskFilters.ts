@@ -12,9 +12,12 @@ export function useTaskFilters(tasks: UITask[]) {
     status: null,
     priority: null,
     assignee: null,
-    student: null, // 新增：学生筛选
+    student: null, // 学生筛选
+    meeting: null, // 会议筛选
     tag: null,
     timeView: 'all',
+    domain: null, // 任务域筛选
+    relatedEntityType: null, // 关联对象类型筛选
   });
 
   /**
@@ -61,7 +64,26 @@ export function useTaskFilters(tasks: UITask[]) {
         return false;
       }
 
-      // 7. 时间视图过滤
+      // 7. 任务域过滤（新增）
+      if (filters.domain && task.domain !== filters.domain) {
+        return false;
+      }
+
+      // 8. 关联对象类型过滤
+      if (filters.relatedEntityType) {
+        if (!task.relatedEntityType || task.relatedEntityType !== filters.relatedEntityType) {
+          return false;
+        }
+      }
+
+      // 9. 会议过滤（新增）
+      if (filters.meeting) {
+        if (!task.relatedMeeting || task.relatedMeeting.id !== filters.meeting) {
+          return false;
+        }
+      }
+
+      // 10. 时间视图过滤
       if (filters.timeView !== 'all' && task.dueDate) {
         const today = new Date();
         today.setHours(0, 0, 0, 0);
@@ -116,9 +138,12 @@ export function useTaskFilters(tasks: UITask[]) {
       status: null,
       priority: null,
       assignee: null,
-      student: null, // 新增：重置学生筛选
+      student: null, // 重置学生筛选
+      meeting: null, // 重置会议筛选
       tag: null,
       timeView: 'all',
+      domain: null, // 重置任务域筛选
+      relatedEntityType: null, // 重置关联对象类型筛选
     });
   };
 
@@ -152,6 +177,27 @@ export function useTaskFilters(tasks: UITask[]) {
     return Array.from(studentMap.values()).sort((a, b) => a.name.localeCompare(b.name));
   }, [tasks]);
 
+  /**
+   * 获取所有已关联的会议（去重）
+   */
+  const relatedMeetings = useMemo(() => {
+    const meetingMap = new Map<string, { id: string; title: string; meeting_type?: string; start_time?: string; status?: string }>();
+    
+    tasks.forEach(task => {
+      if (task.relatedMeeting) {
+        if (!meetingMap.has(task.relatedMeeting.id)) {
+          meetingMap.set(task.relatedMeeting.id, task.relatedMeeting);
+        }
+      }
+    });
+    
+    // 按开始时间倒序排列（最近的在前）
+    return Array.from(meetingMap.values()).sort((a, b) => {
+      if (!a.start_time || !b.start_time) return 0;
+      return new Date(b.start_time).getTime() - new Date(a.start_time).getTime();
+    });
+  }, [tasks]);
+
   return {
     filters,
     setFilters,
@@ -159,7 +205,8 @@ export function useTaskFilters(tasks: UITask[]) {
     resetFilters,
     filteredTasks,
     allTags,
-    relatedStudents, // 新增：返回已关联的学生列表
+    relatedStudents, // 返回已关联的学生列表
+    relatedMeetings, // 返回已关联的会议列表
   };
 }
 

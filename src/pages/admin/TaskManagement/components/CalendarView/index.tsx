@@ -97,6 +97,21 @@ const CalendarView: React.FC<CalendarViewProps> = ({
     }
   };
 
+  // 获取任务域颜色（新增）
+  const getDomainColor = (domain?: string) => {
+    switch (domain) {
+      case 'student_success':
+        return 'border-l-purple-500';
+      case 'company_ops':
+        return 'border-l-orange-500';
+      case 'marketing':
+        return 'border-l-pink-500';
+      case 'general':
+      default:
+        return 'border-l-gray-400';
+    }
+  };
+
   const weekDays = ['日', '一', '二', '三', '四', '五', '六'];
 
   return (
@@ -190,18 +205,29 @@ const CalendarView: React.FC<CalendarViewProps> = ({
                       onClick={() => onTaskClick(task)}
                       className={`
                         text-xs p-1.5 rounded cursor-pointer truncate
-                        transition-all
+                        transition-all border-l-2 ${getDomainColor(task.domain)}
                         ${isSelected
                           ? 'bg-purple-100 dark:bg-purple-900/30 text-purple-900 dark:text-purple-100 ring-1 ring-purple-500'
                           : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-purple-50 dark:hover:bg-purple-900/20'
                         }
                       `}
-                      title={task.title}
+                      title={`${task.title}${task.domain ? ` [${
+                        task.domain === 'general' ? '通用' :
+                        task.domain === 'student_success' ? '学生' :
+                        task.domain === 'company_ops' ? '运营' :
+                        task.domain === 'marketing' ? '市场' : task.domain
+                      }]` : ''}`}
                     >
                       <div className="flex items-center gap-1">
                         <div className={`w-1.5 h-1.5 rounded-full ${getPriorityColor(task.priority)}`} />
                         <span className="truncate">{task.title}</span>
                       </div>
+                      {/* 关联对象小图标（新增） */}
+                      {(task.relatedStudent || task.relatedLead) && (
+                        <div className="text-xs text-gray-500 dark:text-gray-400 truncate mt-0.5">
+                          {task.relatedStudent?.name || task.relatedLead?.name}
+                        </div>
+                      )}
                     </div>
                   );
                 })}

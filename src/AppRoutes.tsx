@@ -39,7 +39,8 @@ import ProgramDetailPageNew from './pages/admin/ProgramDetailPageNew';
 import AddSchoolPage from './pages/admin/AddSchoolPage';
 import AddProgramPage from './pages/admin/AddProgramPage';
 import ProjectsPage from './pages/admin/ProjectsPage';
-import KnowledgePage from './pages/admin/KnowledgePage';
+import KnowledgeBase from './pages/admin/KnowledgeBase';
+import KnowledgeDetailPage from './pages/admin/KnowledgeDetailPage';
 import StudyCopilotPage from './pages/admin/StudyCopilot';
 import ConsultationPage from './pages/admin/StudyCopilot/ConsultationPage';
 import MeetingsPage from './pages/admin/MeetingsPage';
@@ -84,7 +85,8 @@ const AppRoutes: React.FC = () => {
         <Route path="leads/:leadId" element={<LeadDetailPage />} />
         <Route path="mentors" element={<MentorsPage />} />
         <Route path="mentors/:id" element={<MentorDetailPage />} />
-        <Route path="knowledge" element={<KnowledgePage />} />
+        <Route path="knowledge" element={<KnowledgeBase />} />
+        <Route path="knowledge/detail/:id" element={<KnowledgeDetailPage />} />
         <Route path="interview" element={<InterviewPage />} />
         <Route path="cases" element={<CaseStudiesPage />} />
         <Route path="contracts" element={<ContractsPage />} />

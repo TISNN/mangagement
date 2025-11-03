@@ -11,6 +11,36 @@ import { convertUiPriorityToDb, convertUiStatusToDb } from '../utils/taskMappers
 export function useTaskOperations(onSuccess?: () => void) {
   const [loading, setLoading] = useState(false);
 
+  const parseAssigneeId = (assigneeId: string) => {
+    if (!assigneeId?.trim()) return undefined;
+    const parsed = parseInt(assigneeId, 10);
+    return Number.isNaN(parsed) ? undefined : parsed;
+  };
+
+  const parseLinkedEntity = (formData: TaskFormData) => {
+    const type = formData.relatedEntityType && formData.relatedEntityType !== 'none'
+      ? formData.relatedEntityType
+      : null;
+
+    if (!type) {
+      return { type: null, id: null };
+    }
+
+    const parsedId = formData.relatedEntityId ? parseInt(formData.relatedEntityId, 10) : NaN;
+    return {
+      type,
+      id: Number.isNaN(parsedId) ? null : parsedId,
+    };
+  };
+
+  const parseTags = (tags: string) =>
+    tags
+      ? tags
+          .split(',')
+          .map(tag => tag.trim())
+          .filter(Boolean)
+      : [];
+
   /**
    * 创建新任务
    */
@@ -18,14 +48,21 @@ export function useTaskOperations(onSuccess?: () => void) {
     try {
       setLoading(true);
       console.log('[useTaskOperations] 创建任务:', formData);
-      
+      const assigneeId = parseAssigneeId(formData.assignee_id);
+      const { type: linkedEntityType, id: linkedEntityId } = parseLinkedEntity(formData);
+
       await taskService.createTask({
         title: formData.title,
         description: formData.description,
-        assigned_to: formData.assignee_id ? parseInt(formData.assignee_id) : undefined,
+        assigned_to: assigneeId !== undefined ? [assigneeId] : undefined,
         priority: convertUiPriorityToDb(formData.priority),
         due_date: formData.dueDate || undefined,
-        tags: formData.tags ? formData.tags.split(',').map(t => t.trim()) : [],
+        tags: parseTags(formData.tags),
+        task_domain: formData.domain,
+        linked_entity_type: linkedEntityType,
+        linked_entity_id: linkedEntityId,
+        related_student_id: linkedEntityType === 'student' ? linkedEntityId ?? null : null,
+        related_lead_id: linkedEntityType === 'lead' ? linkedEntityId ?? null : null,
       });
       
       console.log('[useTaskOperations] 创建成功');
@@ -70,14 +107,21 @@ export function useTaskOperations(onSuccess?: () => void) {
     try {
       setLoading(true);
       console.log('[useTaskOperations] 更新任务:', taskId, formData);
-      
+      const assigneeId = parseAssigneeId(formData.assignee_id);
+      const { type: linkedEntityType, id: linkedEntityId } = parseLinkedEntity(formData);
+
       await taskService.updateTask(parseInt(taskId), {
         title: formData.title,
         description: formData.description,
-        assigned_to: formData.assignee_id ? parseInt(formData.assignee_id) : undefined,
+        assigned_to: assigneeId !== undefined ? [assigneeId] : undefined,
         priority: convertUiPriorityToDb(formData.priority),
         due_date: formData.dueDate || undefined,
-        tags: formData.tags ? formData.tags.split(',').map(t => t.trim()) : [],
+        tags: parseTags(formData.tags),
+        task_domain: formData.domain,
+        linked_entity_type: linkedEntityType,
+        linked_entity_id: linkedEntityId,
+        related_student_id: linkedEntityType === 'student' ? linkedEntityId ?? null : null,
+        related_lead_id: linkedEntityType === 'lead' ? linkedEntityId ?? null : null,
       });
       
       console.log('[useTaskOperations] 更新成功');
@@ -125,6 +169,11 @@ export function useTaskOperations(onSuccess?: () => void) {
         title: title.trim(),
         priority: '中',
         status: '待处理',
+        task_domain: 'general',
+        linked_entity_type: null,
+        linked_entity_id: null,
+        related_student_id: null,
+        related_lead_id: null,
       });
       
       console.log('[useTaskOperations] 快速创建成功');
@@ -147,4 +196,3 @@ export function useTaskOperations(onSuccess?: () => void) {
     loading,
   };
 }
-

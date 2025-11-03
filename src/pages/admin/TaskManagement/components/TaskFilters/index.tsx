@@ -13,6 +13,7 @@ interface TaskFiltersProps {
   onReset: () => void;
   allTags: string[];
   students?: Array<{ id: string; name: string; avatar: string | null; status?: string; is_active?: boolean }>; // 已关联的学生列表
+  meetings?: Array<{ id: string; title: string; meeting_type?: string; start_time?: string; status?: string }>; // 已关联的会议列表
 }
 
 const TaskFilters: React.FC<TaskFiltersProps> = ({
@@ -20,15 +21,19 @@ const TaskFilters: React.FC<TaskFiltersProps> = ({
   onFilterChange,
   onReset,
   allTags,
-  students = [], // 新增：学生列表
+  students = [], // 学生列表
+  meetings = [], // 会议列表
 }) => {
   const hasActiveFilters = 
     filters.status || 
     filters.priority ||
     filters.assignee ||
-    filters.student || // 新增：学生筛选
+    filters.student || // 学生筛选
+    filters.meeting || // 会议筛选
     filters.tag || 
-    filters.timeView !== 'all';
+    filters.timeView !== 'all' ||
+    filters.domain || // 任务域筛选
+    filters.relatedEntityType; // 关联对象类型筛选
 
   return (
     <div className="space-y-3">
@@ -80,6 +85,32 @@ const TaskFilters: React.FC<TaskFiltersProps> = ({
           ))}
         </select>
 
+        {/* 任务域筛选（新增） */}
+        <select
+          value={filters.domain || ''}
+          onChange={(e) => onFilterChange('domain', e.target.value || null)}
+          className="px-3 py-1.5 text-sm border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-purple-500 dark:focus:ring-purple-600 cursor-pointer hover:border-gray-400 dark:hover:border-gray-500 transition-colors"
+        >
+          <option value="">全部任务域</option>
+          <option value="general">通用任务</option>
+          <option value="student_success">学生服务</option>
+          <option value="company_ops">公司运营</option>
+          <option value="marketing">市场营销</option>
+        </select>
+
+        {/* 关联对象类型筛选（新增） */}
+        <select
+          value={filters.relatedEntityType || ''}
+          onChange={(e) => onFilterChange('relatedEntityType', e.target.value || null)}
+          className="px-3 py-1.5 text-sm border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-purple-500 dark:focus:ring-purple-600 cursor-pointer hover:border-gray-400 dark:hover:border-gray-500 transition-colors"
+        >
+          <option value="">全部关联类型</option>
+          <option value="student">关联学生</option>
+          <option value="lead">关联线索</option>
+          <option value="employee">关联员工</option>
+          <option value="none">无关联</option>
+        </select>
+
         {/* 学生筛选（仅显示已关联的学生） */}
         {students.length > 0 && (
           <select
@@ -91,6 +122,23 @@ const TaskFilters: React.FC<TaskFiltersProps> = ({
             {students.map(student => (
               <option key={student.id} value={student.id}>
                 {student.name} {!student.is_active && '(非活跃)'}
+              </option>
+            ))}
+          </select>
+        )}
+
+        {/* 会议筛选（新增） */}
+        {meetings.length > 0 && (
+          <select
+            value={filters.meeting || ''}
+            onChange={(e) => onFilterChange('meeting', e.target.value || null)}
+            className="px-3 py-1.5 text-sm border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-purple-500 dark:focus:ring-purple-600 cursor-pointer hover:border-gray-400 dark:hover:border-gray-500 transition-colors"
+          >
+            <option value="">全部会议 ({meetings.length})</option>
+            {meetings.map(meeting => (
+              <option key={meeting.id} value={meeting.id}>
+                {meeting.title} 
+                {meeting.start_time && ` (${new Date(meeting.start_time).toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' })})`}
               </option>
             ))}
           </select>
@@ -156,12 +204,58 @@ const TaskFilters: React.FC<TaskFiltersProps> = ({
             </span>
           )}
 
+          {filters.domain && (
+            <span className="inline-flex items-center gap-1 px-2 py-1 bg-cyan-100 dark:bg-cyan-900/30 text-cyan-700 dark:text-cyan-300 rounded-full text-xs">
+              任务域: {
+                filters.domain === 'general' ? '通用任务' :
+                filters.domain === 'student_success' ? '学生服务' :
+                filters.domain === 'company_ops' ? '公司运营' :
+                filters.domain === 'marketing' ? '市场营销' : filters.domain
+              }
+              <button
+                onClick={() => onFilterChange('domain', null)}
+                className="hover:bg-cyan-200 dark:hover:bg-cyan-800 rounded-full p-0.5"
+              >
+                <X className="w-3 h-3" />
+              </button>
+            </span>
+          )}
+
+          {filters.relatedEntityType && (
+            <span className="inline-flex items-center gap-1 px-2 py-1 bg-teal-100 dark:bg-teal-900/30 text-teal-700 dark:text-teal-300 rounded-full text-xs">
+              关联类型: {
+                filters.relatedEntityType === 'student' ? '学生' :
+                filters.relatedEntityType === 'lead' ? '线索' :
+                filters.relatedEntityType === 'employee' ? '员工' :
+                filters.relatedEntityType === 'none' ? '无关联' : filters.relatedEntityType
+              }
+              <button
+                onClick={() => onFilterChange('relatedEntityType', null)}
+                className="hover:bg-teal-200 dark:hover:bg-teal-800 rounded-full p-0.5"
+              >
+                <X className="w-3 h-3" />
+              </button>
+            </span>
+          )}
+
           {filters.student && (
             <span className="inline-flex items-center gap-1 px-2 py-1 bg-indigo-100 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 rounded-full text-xs">
               学生: {students.find(s => s.id === filters.student)?.name || filters.student}
               <button
                 onClick={() => onFilterChange('student', null)}
                 className="hover:bg-indigo-200 dark:hover:bg-indigo-800 rounded-full p-0.5"
+              >
+                <X className="w-3 h-3" />
+              </button>
+            </span>
+          )}
+
+          {filters.meeting && (
+            <span className="inline-flex items-center gap-1 px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded-full text-xs">
+              会议: {meetings.find(m => m.id === filters.meeting)?.title || filters.meeting}
+              <button
+                onClick={() => onFilterChange('meeting', null)}
+                className="hover:bg-green-200 dark:hover:bg-green-800 rounded-full p-0.5"
               >
                 <X className="w-3 h-3" />
               </button>

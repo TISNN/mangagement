@@ -18,6 +18,7 @@ import TaskSidePanel from './components/TaskSidePanel';
 import ViewTabs from './components/ViewTabs';
 import KanbanView from './components/KanbanView';
 import CalendarView from './components/CalendarView';
+import LegacyTaskBanner from './components/LegacyTaskBanner';
 import { UITask } from './types/task.types';
 
 const TaskManagementPage: React.FC = () => {
@@ -32,6 +33,8 @@ const TaskManagementPage: React.FC = () => {
   } = useTaskData();
   const [employees, setEmployees] = useState<Array<{ id: number; name: string; avatar_url?: string; position?: string }>>([]);
   const [students, setStudents] = useState<Array<{ id: number; name: string; avatar_url?: string; status?: string; is_active?: boolean }>>([]);
+  const [leads, setLeads] = useState<Array<{ id: number; name: string; status?: string }>>([]);
+  const [meetings, setMeetings] = useState<Array<{ id: number; title: string; meeting_type?: string; status?: string; start_time?: string }>>([]);
   const { 
     createTask, 
     updateTask, 
@@ -39,7 +42,7 @@ const TaskManagementPage: React.FC = () => {
     deleteTask, 
     quickCreateTask 
   } = useTaskOperations(reload);
-  const { filters, updateFilter, resetFilters, filteredTasks, allTags, relatedStudents } = useTaskFilters(tasks);
+  const { filters, updateFilter, resetFilters, filteredTasks, allTags, relatedStudents, relatedMeetings } = useTaskFilters(tasks);
   
   // UI状态层
   const {
@@ -59,6 +62,11 @@ const TaskManagementPage: React.FC = () => {
   const [viewMode, setViewMode] = useState<'list' | 'day' | 'week'>('list');
   const [selectedTaskId, setSelectedTaskId] = useState<string | null>(null);
   const [isSidePanelOpen, setIsSidePanelOpen] = useState(false);
+  const [showLegacyBanner, setShowLegacyBanner] = useState(() => {
+    // 从本地存储读取横幅显示状态
+    const dismissed = localStorage.getItem('legacyTaskBannerDismissed');
+    return dismissed !== 'true';
+  });
 
   // 加载员工列表
   React.useEffect(() => {
@@ -98,6 +106,44 @@ const TaskManagementPage: React.FC = () => {
     loadStudents();
   }, []);
 
+  // 加载线索列表
+  React.useEffect(() => {
+    const loadLeads = async () => {
+      try {
+        const { supabase } = await import('../../../supabase');
+        const { data, error } = await supabase
+          .from('leads')
+          .select('id, name, status')
+          .order('name');
+        
+        if (error) throw error;
+        setLeads(data || []);
+      } catch (err) {
+        console.error('加载线索列表失败:', err);
+      }
+    };
+    loadLeads();
+  }, []);
+
+  // 加载会议列表
+  React.useEffect(() => {
+    const loadMeetings = async () => {
+      try {
+        const { supabase } = await import('../../../supabase');
+        const { data, error } = await supabase
+          .from('meetings')
+          .select('id, title, meeting_type, status, start_time')
+          .order('start_time', { ascending: false });
+        
+        if (error) throw error;
+        setMeetings(data || []);
+      } catch (err) {
+        console.error('加载会议列表失败:', err);
+      }
+    };
+    loadMeetings();
+  }, []);
+
   // 当tasks更新时,同步更新侧边面板的currentTask
   React.useEffect(() => {
     if (currentTask && tasks.length > 0) {
@@ -119,8 +165,15 @@ const TaskManagementPage: React.FC = () => {
         const currentStudentId = currentTask.relatedStudent?.id || '';
         const updatedStudentId = updatedTask.relatedStudent?.id || '';
         const studentChanged = currentStudentId !== updatedStudentId;
+
+        const currentLeadId = currentTask.relatedLead?.id || '';
+        const updatedLeadId = updatedTask.relatedLead?.id || '';
+        const leadChanged = currentLeadId !== updatedLeadId;
+
+        const domainChanged = (currentTask.domain || 'general') !== (updatedTask.domain || 'general');
+        const entityChanged = (currentTask.relatedEntityId || '') !== (updatedTask.relatedEntityId || '');
         
-        const hasChanges = statusChanged || priorityChanged || titleChanged || descriptionChanged || startDateChanged || dueDateChanged || assigneesChanged || studentChanged;
+        const hasChanges = statusChanged || priorityChanged || titleChanged || descriptionChanged || startDateChanged || dueDateChanged || assigneesChanged || studentChanged || leadChanged || domainChanged || entityChanged;
         
         if (hasChanges) {
           console.log('[TaskManagement] 检测到任务数据变化，同步更新侧边面板:', {
@@ -133,7 +186,10 @@ const TaskManagementPage: React.FC = () => {
               startDate: startDateChanged ? `${currentTask.startDate} -> ${updatedTask.startDate}` : 'no change',
               dueDate: dueDateChanged ? `${currentTask.dueDate} -> ${updatedTask.dueDate}` : 'no change',
               assignees: assigneesChanged ? `${currentAssignees} -> ${updatedAssignees}` : 'no change',
-              student: studentChanged ? `${currentStudentId} -> ${updatedStudentId}` : 'no change'
+              student: studentChanged ? `${currentStudentId} -> ${updatedStudentId}` : 'no change',
+              lead: leadChanged ? `${currentLeadId} -> ${updatedLeadId}` : 'no change',
+              domain: domainChanged ? `${currentTask.domain || 'general'} -> ${updatedTask.domain || 'general'}` : 'no change',
+              entity: entityChanged ? `${currentTask.relatedEntityType || 'none'}:${currentTask.relatedEntityId || '-'} -> ${updatedTask.relatedEntityType || 'none'}:${updatedTask.relatedEntityId || '-'}` : 'no change'
             },
             oldTask: currentTask,
             newTask: updatedTask
@@ -221,8 +277,58 @@ const TaskManagementPage: React.FC = () => {
         // 负责人字段需要特殊处理
         // 这里我们只更新 assignees 数组，具体的员工信息在后台刷新时获取
       } else if (field === 'related_student_id') {
-        // 关联学生字段需要特殊处理
-        // 这里我们只是标记需要刷新，学生信息在后台获取
+        const studentId = value ? String(value) : null;
+        const student = studentId ? students.find(s => String(s.id) === studentId) : null;
+        if (student) {
+          uiUpdates.relatedStudent = {
+            id: String(student.id),
+            name: student.name,
+            avatar: student.avatar_url || null,
+            status: student.status,
+            is_active: student.is_active,
+          };
+          uiUpdates.relatedEntityType = 'student';
+          uiUpdates.relatedEntityId = String(student.id);
+          uiUpdates.relatedEntityName = student.name;
+          uiUpdates.relatedLead = null;
+        } else {
+          uiUpdates.relatedStudent = null;
+          uiUpdates.relatedEntityType = 'none';
+          uiUpdates.relatedEntityId = null;
+          uiUpdates.relatedEntityName = null;
+        }
+      } else if (field === 'related_lead_id') {
+        const leadId = value ? String(value) : null;
+        const lead = leadId ? leads.find(l => String(l.id) === leadId) : null;
+        if (lead) {
+          uiUpdates.relatedLead = {
+            id: String(lead.id),
+            name: lead.name,
+            status: lead.status ?? undefined,
+          };
+          uiUpdates.relatedEntityType = 'lead';
+          uiUpdates.relatedEntityId = String(lead.id);
+          uiUpdates.relatedEntityName = lead.name;
+          uiUpdates.relatedStudent = null;
+        } else {
+          uiUpdates.relatedLead = null;
+          uiUpdates.relatedEntityType = 'none';
+          uiUpdates.relatedEntityId = null;
+          uiUpdates.relatedEntityName = null;
+        }
+      } else if (field === 'task_domain') {
+        uiUpdates.domain = value as UITask['domain'];
+      } else if (field === 'linked_entity_type') {
+        const entityType = (value as UITask['relatedEntityType']) || 'none';
+        uiUpdates.relatedEntityType = entityType;
+        if (!entityType || entityType === 'none') {
+          uiUpdates.relatedEntityId = null;
+          uiUpdates.relatedEntityName = null;
+          uiUpdates.relatedStudent = null;
+          uiUpdates.relatedLead = null;
+        }
+      } else if (field === 'linked_entity_id') {
+        uiUpdates.relatedEntityId = value ? String(value) : null;
       }
 
       // 2. 乐观更新本地状态（立即反映在UI上）
@@ -253,7 +359,35 @@ const TaskManagementPage: React.FC = () => {
       } else if (field === 'title') {
         updateData.title = value !== null ? value as string : undefined;
       } else if (field === 'related_student_id') {
-        updateData.related_student_id = (value === '' || value === null) ? null : (typeof value === 'number' ? value : parseInt(value as string));
+        updateData.related_student_id = (value === '' || value === null) ? null : (typeof value === 'number' ? value : parseInt(value as string, 10));
+        updateData.linked_entity_type = updateData.linked_entity_type ?? 'student';
+        updateData.linked_entity_id = updateData.related_student_id;
+        updateData.related_lead_id = null;
+      } else if (field === 'related_lead_id') {
+        updateData.related_lead_id = (value === '' || value === null) ? null : (typeof value === 'number' ? value : parseInt(value as string, 10));
+        updateData.linked_entity_type = updateData.linked_entity_type ?? 'lead';
+        updateData.linked_entity_id = updateData.related_lead_id;
+        updateData.related_student_id = null;
+      } else if (field === 'task_domain') {
+        updateData.task_domain = value ?? null;
+      } else if (field === 'linked_entity_type') {
+        updateData.linked_entity_type = value === 'none' ? null : value;
+        if (value === 'none') {
+          updateData.linked_entity_id = null;
+          updateData.related_student_id = null;
+          updateData.related_lead_id = null;
+        } else if (value === 'student') {
+          updateData.related_lead_id = null;
+        } else if (value === 'lead') {
+          updateData.related_student_id = null;
+        }
+      } else if (field === 'linked_entity_id') {
+        if (value === '' || value === null) {
+          updateData.linked_entity_id = null;
+        } else {
+          const parsed = typeof value === 'number' ? value : parseInt(value as string, 10);
+          updateData.linked_entity_id = Number.isNaN(parsed) ? null : parsed;
+        }
       } else {
         updateData[field] = value;
       }
@@ -351,6 +485,17 @@ const TaskManagementPage: React.FC = () => {
       {/* 统计面板 */}
       <TaskStats tasks={tasks} />
 
+      {/* 历史任务提示横幅（新增） */}
+      {showLegacyBanner && (
+        <LegacyTaskBanner 
+          tasks={tasks} 
+          onDismiss={() => {
+            setShowLegacyBanner(false);
+            localStorage.setItem('legacyTaskBannerDismissed', 'true');
+          }}
+        />
+      )}
+
       {/* 快速创建任务 - 单独一行 */}
       <div className="relative">
         <input
@@ -382,6 +527,7 @@ const TaskManagementPage: React.FC = () => {
         onReset={resetFilters}
         allTags={allTags}
         students={relatedStudents}
+        meetings={relatedMeetings}
       />
 
       {/* 任务列表/表格 */}
@@ -437,6 +583,8 @@ const TaskManagementPage: React.FC = () => {
         onUpdateField={handleUpdateTaskField}
         employees={employees}
         students={students}
+        leads={leads}
+        meetings={meetings}
       />
 
       {/* 新建/编辑任务弹窗 */}
@@ -449,6 +597,9 @@ const TaskManagementPage: React.FC = () => {
         }
         task={currentTask}
         title={isCreateModalOpen ? '新建任务' : '编辑任务'}
+        employees={employees}
+        students={students}
+        leads={leads}
       />
 
       {/* 删除确认弹窗 */}
@@ -490,13 +641,6 @@ const TaskManagementPage: React.FC = () => {
 };
 
 export default TaskManagementPage;
-
-
-
-
-
-
-
 
 
 

@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useEffect, useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { 
   X, 
   Maximize2, 
@@ -19,13 +20,15 @@ import {
   Circle,
   PlayCircle,
   CheckCircle2,
-  XCircle
+  XCircle,
+  ArrowUpRight
 } from 'lucide-react';
-import { UITask } from '../../types/task.types';
+import { TaskDomain, TaskRelatedEntityType, UITask } from '../../types/task.types';
 import CustomSelect from '../CustomSelect';
 import CustomMultiSelect from '../CustomMultiSelect';
 import TaskAttachmentUploader from '../../../../../components/TaskAttachmentUploader';
 import TaskAttachmentList from '../../../../../components/TaskAttachmentList';
+import QuickMeetingCreator from '../QuickMeetingCreator';
 import { 
   getTaskAttachments, 
   deleteTaskAttachment, 
@@ -39,6 +42,7 @@ import {
   Subtask
 } from '../../../../../services/subtaskService';
 import { toast } from 'react-hot-toast';
+import { TASK_DOMAIN_META } from '../../utils/taskConstants';
 
 interface Employee {
   id: number;
@@ -55,6 +59,20 @@ interface Student {
   is_active?: boolean;
 }
 
+interface Lead {
+  id: number;
+  name: string;
+  status?: string;
+}
+
+interface Meeting {
+  id: number;
+  title: string;
+  meeting_type?: string;
+  status?: string;
+  start_time?: string;
+}
+
 interface TaskSidePanelProps {
   isOpen: boolean;
   task: UITask | null;
@@ -64,6 +82,8 @@ interface TaskSidePanelProps {
   onUpdateField?: (taskId: string, field: string, value: string | number | number[] | string[] | null) => Promise<{ success: boolean; message: string }>;
   employees?: Employee[];
   students?: Student[];
+  leads?: Lead[];
+  meetings?: Meeting[];
 }
 
 const TaskSidePanel: React.FC<TaskSidePanelProps> = ({
@@ -75,13 +95,17 @@ const TaskSidePanel: React.FC<TaskSidePanelProps> = ({
   onUpdateField,
   employees = [],
   students = [],
+  leads = [],
+  meetings = [],
 }) => {
+  const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState<'subtasks' | 'activities' | 'files' | 'comments'>('subtasks');
   const [isFullscreen, setIsFullscreen] = useState(false);
   
   // 编辑状态
-  const [editingField, setEditingField] = useState<'start_date' | 'due_date' | 'status' | 'assignee' | 'priority' | 'description' | 'title' | null>(null);
+  const [editingField, setEditingField] = useState<'start_date' | 'due_date' | 'status' | 'assignee' | 'priority' | 'description' | 'title' | 'task_domain' | 'linked_entity_type' | 'linked_entity_id' | 'meeting_id' | null>(null);
   const [editValue, setEditValue] = useState<string | number | null>(null);
+  const [showQuickMeetingCreator, setShowQuickMeetingCreator] = useState(false);
   
   // 附件状态
   const [attachments, setAttachments] = useState<TaskAttachment[]>([]);
@@ -241,8 +265,61 @@ const TaskSidePanel: React.FC<TaskSidePanelProps> = ({
 
   if (!isOpen || !task) return null;
 
+  const domainMeta = TASK_DOMAIN_META[(task.domain || 'general') as TaskDomain];
+  const entityTypeLabelMap: Record<TaskRelatedEntityType | 'unknown', string> = {
+    student: '关联学生',
+    lead: '关联潜在客户',
+    employee: '关联员工',
+    none: '未关联对象',
+    unknown: '未关联对象',
+  };
+
+  const renderLinkedEntity = () => {
+    if (task.relatedEntityType === 'student' && task.relatedStudent) {
+      return (
+        <div className="flex items-center gap-2">
+          <div className="flex flex-col">
+            <span className="text-sm font-semibold text-gray-900 dark:text-white">
+              {task.relatedStudent.name}
+            </span>
+            <span className="text-xs text-gray-500 dark:text-gray-400">
+              {task.relatedStudent.status || '状态未知'}
+            </span>
+          </div>
+        </div>
+      );
+    }
+
+    if (task.relatedEntityType === 'lead' && task.relatedLead) {
+      return (
+        <div className="flex flex-col">
+          <span className="text-sm font-semibold text-gray-900 dark:text-white">
+            {task.relatedLead.name}
+          </span>
+          <span className="text-xs text-gray-500 dark:text-gray-400">
+            {task.relatedLead.status || '线索阶段未填写'}
+          </span>
+        </div>
+      );
+    }
+
+    if (task.relatedEntityType === 'employee' && task.relatedEntityName) {
+      return (
+        <div className="text-sm font-semibold text-gray-900 dark:text-white">
+          {task.relatedEntityName}
+        </div>
+      );
+    }
+
+    return (
+      <div className="text-sm text-gray-500 dark:text-gray-400">
+        {task.relatedEntityId ? `关联 ID: ${task.relatedEntityId}` : '尚未关联具体对象'}
+      </div>
+    );
+  };
+
   // 开始编辑
-  const startEdit = (field: 'start_date' | 'due_date' | 'status' | 'assignee' | 'priority' | 'description' | 'title', value: string | number | undefined) => {
+  const startEdit = (field: 'start_date' | 'due_date' | 'status' | 'assignee' | 'priority' | 'description' | 'title' | 'task_domain' | 'linked_entity_type' | 'linked_entity_id' | 'meeting_id', value: string | number | undefined) => {
     setEditingField(field);
     setEditValue(value || '');
   };
@@ -269,7 +346,11 @@ const TaskSidePanel: React.FC<TaskSidePanelProps> = ({
         'priority': 'priority',
         'assignee': 'assigned_to',
         'description': 'description',
-        'title': 'title'
+        'title': 'title',
+        'task_domain': 'task_domain',
+        'linked_entity_type': 'linked_entity_type',
+        'linked_entity_id': 'linked_entity_id',
+        'meeting_id': 'meeting_id'
       };
 
       const dbField = fieldMap[editingField];
@@ -416,6 +497,328 @@ const TaskSidePanel: React.FC<TaskSidePanelProps> = ({
                     </svg>
                   </button>
                 </h2>
+              )}
+            </div>
+
+            {/* Domain & Linked Entity Summary - 可编辑 */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {/* 任务域 - 可编辑 */}
+              <div className="p-4 bg-purple-50/70 dark:bg-purple-900/20 rounded-lg border border-purple-100 dark:border-purple-800 group cursor-pointer hover:border-purple-300 dark:hover:border-purple-600 transition-colors"
+                onClick={() => startEdit('task_domain', task.domain || 'general')}
+              >
+                <div className="flex items-center gap-2 mb-2">
+                  <div className="flex items-center justify-center w-8 h-8 rounded-full bg-white dark:bg-purple-800">
+                    {domainMeta.icon}
+                  </div>
+                  <div className="flex-1">
+                    <div className="text-xs text-purple-600 dark:text-purple-300 flex items-center justify-between">
+                      <span>任务域</span>
+                      <svg className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                      </svg>
+                    </div>
+                    {editingField === 'task_domain' ? (
+                      <div className="mt-2" onClick={(e) => e.stopPropagation()}>
+                        <select
+                          value={editValue !== null ? editValue : (task.domain || 'general')}
+                          onChange={(e) => setEditValue(e.target.value)}
+                          className="w-full px-2 py-1 text-sm bg-white dark:bg-gray-800 border border-purple-500 rounded focus:outline-none focus:ring-2 focus:ring-purple-500 text-gray-900 dark:text-white"
+                          autoFocus
+                        >
+                          <option value="general">通用任务</option>
+                          <option value="student_success">学生服务</option>
+                          <option value="company_ops">公司运营</option>
+                          <option value="marketing">市场营销</option>
+                        </select>
+                        <div className="flex gap-2 mt-2">
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              saveEdit();
+                            }}
+                            className="px-3 py-1 text-xs bg-purple-600 hover:bg-purple-700 text-white rounded transition-colors"
+                          >
+                            保存
+                          </button>
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              cancelEdit();
+                            }}
+                            className="px-3 py-1 text-xs bg-gray-200 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-500 text-gray-700 dark:text-gray-300 rounded transition-colors"
+                          >
+                            取消
+                          </button>
+                        </div>
+                      </div>
+                    ) : (
+                      <div className="text-sm font-semibold text-purple-800 dark:text-purple-200">
+                        {domainMeta.label}
+                      </div>
+                    )}
+                  </div>
+                </div>
+                {editingField !== 'task_domain' && (
+                  <p className="text-xs text-purple-700 dark:text-purple-200">
+                    {domainMeta.description}
+                  </p>
+                )}
+              </div>
+
+              {/* 关联对象类型 - 可编辑 */}
+              <div className="p-4 bg-blue-50/70 dark:bg-blue-900/20 rounded-lg border border-blue-100 dark:border-blue-800 group cursor-pointer hover:border-blue-300 dark:hover:border-blue-600 transition-colors"
+                onClick={() => {
+                  if (editingField !== 'linked_entity_type') {
+                    startEdit('linked_entity_type', task.relatedEntityType || 'none');
+                  }
+                }}
+              >
+                <div className="flex items-center justify-between mb-2">
+                  <div className="flex-1">
+                    <div className="text-xs text-blue-600 dark:text-blue-300 flex items-center justify-between">
+                      <span>{entityTypeLabelMap[task.relatedEntityType || 'unknown']}</span>
+                      <svg className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                      </svg>
+                    </div>
+                    {editingField === 'linked_entity_type' ? (
+                      <div className="mt-2 space-y-2" onClick={(e) => e.stopPropagation()}>
+                        <select
+                          value={editValue !== null ? editValue : (task.relatedEntityType || 'none')}
+                          onChange={(e) => setEditValue(e.target.value)}
+                          className="w-full px-2 py-1 text-sm bg-white dark:bg-gray-800 border border-blue-500 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 dark:text-white"
+                          autoFocus
+                        >
+                          <option value="none">无关联</option>
+                          <option value="student">关联学生</option>
+                          <option value="lead">关联线索</option>
+                          <option value="employee">关联员工</option>
+                        </select>
+                        <div className="flex gap-2">
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              saveEdit();
+                            }}
+                            className="px-3 py-1 text-xs bg-blue-600 hover:bg-blue-700 text-white rounded transition-colors"
+                          >
+                            保存
+                          </button>
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              cancelEdit();
+                            }}
+                            className="px-3 py-1 text-xs bg-gray-200 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-500 text-gray-700 dark:text-gray-300 rounded transition-colors"
+                          >
+                            取消
+                          </button>
+                        </div>
+                      </div>
+                    ) : (
+                      <div className="mt-1">{renderLinkedEntity()}</div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* 关联对象选择器（当有关联类型时显示） */}
+            {task.relatedEntityType && task.relatedEntityType !== 'none' && (
+              <div className="p-4 bg-gray-50 dark:bg-gray-700/30 rounded-lg">
+                <div className="flex items-center gap-3 mb-3">
+                  <User className="w-4 h-4 text-gray-600 dark:text-gray-400" />
+                  <div className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                    选择具体{task.relatedEntityType === 'student' ? '学生' : task.relatedEntityType === 'lead' ? '线索' : '员工'}
+                  </div>
+                </div>
+                {editingField === 'linked_entity_id' ? (
+                  <div className="space-y-2">
+                    <select
+                      value={editValue !== null ? editValue : (task.relatedEntityId || '')}
+                      onChange={(e) => setEditValue(e.target.value ? parseInt(e.target.value) : null)}
+                      className="w-full px-3 py-2 text-sm bg-white dark:bg-gray-800 border border-blue-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 dark:text-white"
+                      autoFocus
+                    >
+                      <option value="">请选择...</option>
+                      {task.relatedEntityType === 'student' && students.map(student => (
+                        <option key={student.id} value={student.id}>
+                          {student.name} {!student.is_active && '(非活跃)'}
+                        </option>
+                      ))}
+                      {task.relatedEntityType === 'lead' && leads.map(lead => (
+                        <option key={lead.id} value={lead.id}>
+                          {lead.name} {lead.status && `- ${lead.status}`}
+                        </option>
+                      ))}
+                      {task.relatedEntityType === 'employee' && employees.map(employee => (
+                        <option key={employee.id} value={employee.id}>
+                          {employee.name} {employee.position && `- ${employee.position}`}
+                        </option>
+                      ))}
+                    </select>
+                    <div className="flex gap-2">
+                      <button
+                        onClick={saveEdit}
+                        className="px-3 py-1 text-xs bg-blue-600 hover:bg-blue-700 text-white rounded transition-colors"
+                      >
+                        保存
+                      </button>
+                      <button
+                        onClick={cancelEdit}
+                        className="px-3 py-1 text-xs bg-gray-200 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-500 text-gray-700 dark:text-gray-300 rounded transition-colors"
+                      >
+                        取消
+                      </button>
+                    </div>
+                  </div>
+                ) : (
+                  <div 
+                    className="flex items-center justify-between cursor-pointer group"
+                    onClick={() => startEdit('linked_entity_id', task.relatedEntityId ? parseInt(task.relatedEntityId) : undefined)}
+                  >
+                    <div className="text-sm font-medium text-gray-900 dark:text-white">
+                      {task.relatedStudent?.name || task.relatedLead?.name || task.relatedEntityName || '未设置'}
+                    </div>
+                    <svg className="w-4 h-4 text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                    </svg>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* 会议关联选择器（新增） */}
+            <div className="p-4 bg-green-50/70 dark:bg-green-900/20 rounded-lg border border-green-100 dark:border-green-800">
+              <div className="flex items-center justify-between mb-3">
+                <div className="flex items-center gap-2">
+                  <Calendar className="w-4 h-4 text-green-600 dark:text-green-400" />
+                  <div className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                    关联会议
+                  </div>
+                </div>
+                {!task.relatedMeeting && !showQuickMeetingCreator && (
+                  <button
+                    onClick={() => setShowQuickMeetingCreator(true)}
+                    className="text-xs text-green-600 hover:text-green-700 dark:text-green-400 dark:hover:text-green-300 font-medium flex items-center gap-1"
+                  >
+                    <Plus className="w-3 h-3" />
+                    创建会议
+                  </button>
+                )}
+              </div>
+
+              {/* 快速创建会议组件 */}
+              {showQuickMeetingCreator && (
+                <div className="mb-3">
+                  <QuickMeetingCreator
+                    taskTitle={task.title}
+                    onMeetingCreated={(meetingId) => {
+                      setShowQuickMeetingCreator(false);
+                      if (onUpdateField) {
+                        onUpdateField(task.id, 'meeting_id', meetingId);
+                      }
+                    }}
+                    onCancel={() => setShowQuickMeetingCreator(false)}
+                  />
+                </div>
+              )}
+
+              {/* 会议选择或显示 */}
+              {!showQuickMeetingCreator && (
+                editingField === 'meeting_id' ? (
+                  <div className="space-y-2">
+                    <select
+                      value={editValue !== null ? editValue : (task.relatedMeeting?.id || '')}
+                      onChange={(e) => setEditValue(e.target.value ? parseInt(e.target.value) : null)}
+                      className="w-full px-3 py-2 text-sm bg-white dark:bg-gray-800 border border-green-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-gray-900 dark:text-white"
+                      autoFocus
+                    >
+                      <option value="">无关联会议</option>
+                      {meetings.map(meeting => (
+                        <option key={meeting.id} value={meeting.id}>
+                          {meeting.title} 
+                          {meeting.start_time && ` (${new Date(meeting.start_time).toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' })})`}
+                          {meeting.status && ` - ${meeting.status}`}
+                        </option>
+                      ))}
+                    </select>
+                    <div className="flex gap-2">
+                      <button
+                        onClick={saveEdit}
+                        className="px-3 py-1 text-xs bg-green-600 hover:bg-green-700 text-white rounded transition-colors"
+                      >
+                        保存
+                      </button>
+                      <button
+                        onClick={cancelEdit}
+                        className="px-3 py-1 text-xs bg-gray-200 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-500 text-gray-700 dark:text-gray-300 rounded transition-colors"
+                      >
+                        取消
+                      </button>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="flex items-center gap-2">
+                    <div 
+                      className="flex-1 cursor-pointer group"
+                      onClick={() => startEdit('meeting_id', task.relatedMeeting?.id ? parseInt(task.relatedMeeting.id) : undefined)}
+                    >
+                      {task.relatedMeeting ? (
+                        <div>
+                          <div className="text-sm font-medium text-gray-900 dark:text-white mb-1">
+                            {task.relatedMeeting.title}
+                          </div>
+                          <div className="flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400 flex-wrap">
+                            {task.relatedMeeting.meeting_type && (
+                              <span className="px-2 py-0.5 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded">
+                                {task.relatedMeeting.meeting_type}
+                              </span>
+                            )}
+                            {task.relatedMeeting.start_time && (
+                              <span className="flex items-center gap-1">
+                                <Clock className="w-3 h-3" />
+                                {new Date(task.relatedMeeting.start_time).toLocaleString('zh-CN', {
+                                  month: 'short',
+                                  day: 'numeric',
+                                  hour: '2-digit',
+                                  minute: '2-digit'
+                                })}
+                              </span>
+                            )}
+                            {task.relatedMeeting.status && (
+                              <span className={`px-2 py-0.5 rounded ${
+                                task.relatedMeeting.status === '已完成' ? 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300' :
+                                task.relatedMeeting.status === '进行中' ? 'bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-300' :
+                                'bg-orange-100 dark:bg-orange-900/30 text-orange-600 dark:text-orange-300'
+                              }`}>
+                                {task.relatedMeeting.status}
+                              </span>
+                            )}
+                          </div>
+                        </div>
+                      ) : (
+                        <div className="text-sm text-gray-400">未关联会议</div>
+                      )}
+                      <svg className="w-4 h-4 text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                      </svg>
+                    </div>
+                    {/* 跳转到会议详情按钮 */}
+                    {task.relatedMeeting && (
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          navigate(`/admin/meetings/${task.relatedMeeting.id}`);
+                        }}
+                        className="p-2 text-green-600 hover:text-green-700 dark:text-green-400 dark:hover:text-green-300 hover:bg-green-100 dark:hover:bg-green-900/30 rounded-lg transition-colors"
+                        title="查看会议详情"
+                      >
+                        <ArrowUpRight className="w-4 h-4" />
+                      </button>
+                    )}
+                  </div>
+                )
               )}
             </div>
 
@@ -944,4 +1347,3 @@ const TaskSidePanel: React.FC<TaskSidePanelProps> = ({
 };
 
 export default TaskSidePanel;
-
