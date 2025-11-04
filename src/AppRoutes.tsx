@@ -46,6 +46,7 @@ import ConsultationPage from './pages/admin/StudyCopilot/ConsultationPage';
 import MeetingsPage from './pages/admin/MeetingsPage';
 import MeetingDetailPage from './pages/admin/MeetingDetailPage';
 import MeetingDocumentEditorPage from './pages/admin/MeetingDocumentEditorPage';
+import AIChatAssistantPage from './pages/AIChatAssistant';
 
 // 导入路由保护组件
 import { PrivateRoute } from './components/PrivateRoute';
@@ -92,6 +93,7 @@ const AppRoutes: React.FC = () => {
         <Route path="contracts" element={<ContractsPage />} />
         <Route path="social" element={<SocialMediaPage />} />
         <Route path="finance" element={<FinancePage />} />
+        <Route path="ai-chat-assistant" element={<AIChatAssistantPage />} />
         
         {/* 会议管理 */}
         <Route path="meetings" element={<MeetingsPage />} />

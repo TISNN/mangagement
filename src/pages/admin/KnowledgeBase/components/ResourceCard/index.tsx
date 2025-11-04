@@ -3,7 +3,7 @@
  * 用于在网格视图中显示单个知识库资源
  */
 
-import React from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { 
   Bookmark, 
   Share, 
@@ -12,7 +12,16 @@ import {
   Users, 
   Download, 
   ArrowUpRight,
-  Video
+  Video,
+  Link as LinkIcon,
+  Twitter,
+  Facebook,
+  Mail,
+  Check,
+  Edit,
+  Trash2,
+  Star,
+  Copy
 } from 'lucide-react';
 import { UIKnowledgeResource } from '../../types/knowledge.types';
 import { RESOURCE_TYPE_CONFIG } from '../../utils/knowledgeConstants';
@@ -23,16 +32,44 @@ interface ResourceCardProps {
   onView: (id: number) => void;
   onBookmark: (id: number, isBookmarked: boolean) => void;
   onDownload?: (id: number, fileUrl?: string) => void;
+  onEdit?: (id: number) => void;
+  onDelete?: (id: number) => void;
+  onToggleFeatured?: (id: number, isFeatured: boolean) => void;
 }
 
 export const ResourceCard: React.FC<ResourceCardProps> = ({
   resource,
   onView,
   onBookmark,
-  onDownload
+  onDownload,
+  onEdit,
+  onDelete,
+  onToggleFeatured
 }) => {
   const typeConfig = RESOURCE_TYPE_CONFIG[resource.type];
   const ResourceTypeIcon = typeConfig.icon;
+
+  const [showShareMenu, setShowShareMenu] = useState(false);
+  const [showMoreMenu, setShowMoreMenu] = useState(false);
+  const [copySuccess, setCopySuccess] = useState(false);
+  
+  const shareMenuRef = useRef<HTMLDivElement>(null);
+  const moreMenuRef = useRef<HTMLDivElement>(null);
+
+  // 点击外部关闭菜单
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (shareMenuRef.current && !shareMenuRef.current.contains(event.target as Node)) {
+        setShowShareMenu(false);
+      }
+      if (moreMenuRef.current && !moreMenuRef.current.contains(event.target as Node)) {
+        setShowMoreMenu(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   const handleBookmarkClick = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -44,6 +81,79 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({
     if (onDownload) {
       onDownload(resource.id, resource.fileUrl);
     }
+  };
+
+  const handleShareClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setShowShareMenu(!showShareMenu);
+    setShowMoreMenu(false);
+  };
+
+  const handleMoreClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setShowMoreMenu(!showMoreMenu);
+    setShowShareMenu(false);
+  };
+
+  // 分享功能
+  const copyLink = () => {
+    const url = `${window.location.origin}/admin/knowledge/detail/${resource.id}`;
+    navigator.clipboard.writeText(url).then(() => {
+      setCopySuccess(true);
+      setTimeout(() => setCopySuccess(false), 2000);
+    });
+  };
+
+  const shareToTwitter = () => {
+    const url = `${window.location.origin}/admin/knowledge/detail/${resource.id}`;
+    const text = `推荐一个学习资源：${resource.title}`;
+    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
+    setShowShareMenu(false);
+  };
+
+  const shareToFacebook = () => {
+    const url = `${window.location.origin}/admin/knowledge/detail/${resource.id}`;
+    window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+    setShowShareMenu(false);
+  };
+
+  const shareByEmail = () => {
+    const url = `${window.location.origin}/admin/knowledge/detail/${resource.id}`;
+    const subject = `分享资源：${resource.title}`;
+    const body = `我想和你分享这个学习资源：\n\n${resource.title}\n${resource.description}\n\n查看详情：${url}`;
+    window.open(`mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`);
+    setShowShareMenu(false);
+  };
+
+  // 更多选项功能
+  const handleEdit = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (onEdit) {
+      onEdit(resource.id);
+    }
+    setShowMoreMenu(false);
+  };
+
+  const handleDelete = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    
+    if (!onDelete) {
+      alert('删除功能未启用');
+      return;
+    }
+    
+    if (confirm('确定要删除这个资源吗？此操作无法撤销。')) {
+      onDelete(resource.id);
+    }
+    setShowMoreMenu(false);
+  };
+
+  const handleToggleFeatured = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (onToggleFeatured) {
+      onToggleFeatured(resource.id, resource.isFeatured);
+    }
+    setShowMoreMenu(false);
   };
 
   return (
@@ -67,7 +177,8 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({
             </div>
           )}
           {resource.isFeatured && (
-            <div className="absolute top-3 left-3 bg-yellow-400 text-yellow-900 px-2 py-1 rounded-lg text-xs font-medium">
+            <div className="absolute top-3 left-3 bg-yellow-400 text-yellow-900 px-2 py-1 rounded-lg text-xs font-medium flex items-center gap-1">
+              <Star className="h-3 w-3 fill-current" />
               精选资源
             </div>
           )}
@@ -87,27 +198,124 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({
             </span>
           </div>
           <div className="flex items-center gap-1">
+            {/* 收藏按钮 */}
             <button 
               onClick={handleBookmarkClick}
-              className="p-1 text-gray-400 hover:text-blue-600 dark:hover:text-blue-400" 
+              className="p-1 text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors" 
               title={resource.isBookmarked ? "取消收藏" : "收藏"}
             >
               <Bookmark className={`h-4 w-4 ${resource.isBookmarked ? 'fill-blue-500 text-blue-500' : ''}`} />
             </button>
-            <button 
-              className="p-1 text-gray-400 hover:text-green-600 dark:hover:text-green-400" 
-              title="分享"
-              onClick={(e) => e.stopPropagation()}
-            >
-              <Share className="h-4 w-4" />
-            </button>
-            <button 
-              className="p-1 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300" 
-              title="更多选项"
-              onClick={(e) => e.stopPropagation()}
-            >
-              <MoreVertical className="h-4 w-4" />
-            </button>
+            
+            {/* 分享按钮和菜单 */}
+            <div className="relative" ref={shareMenuRef}>
+              <button 
+                className="p-1 text-gray-400 hover:text-green-600 dark:hover:text-green-400 transition-colors" 
+                title="分享"
+                onClick={handleShareClick}
+              >
+                <Share className="h-4 w-4" />
+              </button>
+              
+              {/* 分享下拉菜单 */}
+              {showShareMenu && (
+                <div className="absolute top-full right-0 mt-1 w-48 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 py-1 z-50">
+                  <button
+                    onClick={(e) => { e.stopPropagation(); copyLink(); }}
+                    className="w-full px-4 py-2 text-left text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 flex items-center gap-2"
+                  >
+                    {copySuccess ? (
+                      <>
+                        <Check className="h-4 w-4 text-green-600" />
+                        <span className="text-green-600">已复制链接</span>
+                      </>
+                    ) : (
+                      <>
+                        <Copy className="h-4 w-4" />
+                        <span>复制链接</span>
+                      </>
+                    )}
+                  </button>
+                  <button
+                    onClick={(e) => { e.stopPropagation(); shareToTwitter(); }}
+                    className="w-full px-4 py-2 text-left text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 flex items-center gap-2"
+                  >
+                    <Twitter className="h-4 w-4 text-blue-400" />
+                    <span>分享到 Twitter</span>
+                  </button>
+                  <button
+                    onClick={(e) => { e.stopPropagation(); shareToFacebook(); }}
+                    className="w-full px-4 py-2 text-left text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 flex items-center gap-2"
+                  >
+                    <Facebook className="h-4 w-4 text-blue-600" />
+                    <span>分享到 Facebook</span>
+                  </button>
+                  <button
+                    onClick={(e) => { e.stopPropagation(); shareByEmail(); }}
+                    className="w-full px-4 py-2 text-left text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 flex items-center gap-2"
+                  >
+                    <Mail className="h-4 w-4 text-gray-600" />
+                    <span>邮件分享</span>
+                  </button>
+                </div>
+              )}
+            </div>
+            
+            {/* 更多选项按钮和菜单 */}
+            <div className="relative" ref={moreMenuRef}>
+              <button 
+                className="p-1 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors" 
+                title="更多选项"
+                onClick={handleMoreClick}
+              >
+                <MoreVertical className="h-4 w-4" />
+              </button>
+              
+              {/* 更多选项下拉菜单 */}
+              {showMoreMenu && (
+                <div className="absolute top-full right-0 mt-1 w-48 bg-white dark:bg-gray-800 rounded-lg shadow-xl border border-gray-200 dark:border-gray-700 py-2 z-[100] max-h-[400px] overflow-y-auto">
+                  {/* 简化菜单 - 只保留最常用的选项 */}
+                  
+                  {onEdit && (
+                    <button
+                      onClick={handleEdit}
+                      className="w-full px-3 py-2 text-left text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 flex items-center gap-2"
+                    >
+                      <Edit className="h-4 w-4 text-blue-600" />
+                      <span>编辑</span>
+                    </button>
+                  )}
+                  
+                  {onToggleFeatured && (
+                    <button
+                      onClick={handleToggleFeatured}
+                      className="w-full px-3 py-2 text-left text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 flex items-center gap-2"
+                    >
+                      <Star className={`h-4 w-4 ${resource.isFeatured ? 'fill-yellow-400 text-yellow-400' : 'text-gray-400'}`} />
+                      <span>{resource.isFeatured ? '取消精选' : '设为精选'}</span>
+                    </button>
+                  )}
+                  
+                  <button
+                    onClick={(e) => { e.stopPropagation(); copyLink(); }}
+                    className="w-full px-3 py-2 text-left text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 flex items-center gap-2"
+                  >
+                    <LinkIcon className="h-4 w-4 text-green-600" />
+                    <span>复制链接</span>
+                  </button>
+                  
+                  {/* 删除按钮 */}
+                  <div className="border-t border-gray-200 dark:border-gray-700 my-1"></div>
+                  <button
+                    onClick={handleDelete}
+                    className="w-full px-3 py-2 text-left text-sm font-medium text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 flex items-center gap-2"
+                  >
+                    <Trash2 className="h-4 w-4" />
+                    <span>删除资源</span>
+                  </button>
+                </div>
+              )}
+            </div>
           </div>
         </div>
 
@@ -182,4 +390,3 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({
     </div>
   );
 };
-

@@ -1,6 +1,6 @@
 /**
- * Tiptap 富文本编辑器组件
- * 支持多种格式、图片、表格等功能
+ * Tiptap 富文本编辑器组件（优化版）
+ * 参考 Simple Editor 设计，添加更多功能
  */
 
 import { useEditor, EditorContent } from '@tiptap/react';
@@ -11,6 +11,8 @@ import Image from '@tiptap/extension-image';
 import Highlight from '@tiptap/extension-highlight';
 import TaskList from '@tiptap/extension-task-list';
 import TaskItem from '@tiptap/extension-task-item';
+import TextAlign from '@tiptap/extension-text-align';
+import Underline from '@tiptap/extension-underline';
 import { Table } from '@tiptap/extension-table';
 import { TableRow } from '@tiptap/extension-table-row';
 import { TableCell } from '@tiptap/extension-table-cell';
@@ -20,6 +22,7 @@ import {
   Italic, 
   Strikethrough,
   Code,
+  Underline as UnderlineIcon,
   Heading1,
   Heading2,
   Heading3,
@@ -32,7 +35,11 @@ import {
   Image as ImageIcon,
   Table as TableIcon,
   Highlighter,
-  CheckSquare
+  CheckSquare,
+  AlignLeft,
+  AlignCenter,
+  AlignRight,
+  AlignJustify
 } from 'lucide-react';
 import './styles.css';
 
@@ -76,6 +83,10 @@ export default function RichTextEditor({
         HTMLAttributes: {
           class: 'bg-yellow-200 dark:bg-yellow-700',
         },
+      }),
+      Underline,
+      TextAlign.configure({
+        types: ['heading', 'paragraph'],
       }),
       TaskList.configure({
         HTMLAttributes: {
@@ -139,7 +150,7 @@ export default function RichTextEditor({
               onClick={() => editor.chain().focus().undo().run()}
               disabled={!editor.can().undo()}
               className="toolbar-btn"
-              title="撤销"
+              title="撤销 (Ctrl+Z)"
             >
               <Undo className="h-4 w-4" />
             </button>
@@ -147,7 +158,7 @@ export default function RichTextEditor({
               onClick={() => editor.chain().focus().redo().run()}
               disabled={!editor.can().redo()}
               className="toolbar-btn"
-              title="重做"
+              title="重做 (Ctrl+Shift+Z)"
             >
               <Redo className="h-4 w-4" />
             </button>
@@ -158,16 +169,23 @@ export default function RichTextEditor({
             <button
               onClick={() => editor.chain().focus().toggleBold().run()}
               className={`toolbar-btn ${editor.isActive('bold') ? 'is-active' : ''}`}
-              title="粗体"
+              title="粗体 (Ctrl+B)"
             >
               <Bold className="h-4 w-4" />
             </button>
             <button
               onClick={() => editor.chain().focus().toggleItalic().run()}
               className={`toolbar-btn ${editor.isActive('italic') ? 'is-active' : ''}`}
-              title="斜体"
+              title="斜体 (Ctrl+I)"
             >
               <Italic className="h-4 w-4" />
+            </button>
+            <button
+              onClick={() => editor.chain().focus().toggleUnderline().run()}
+              className={`toolbar-btn ${editor.isActive('underline') ? 'is-active' : ''}`}
+              title="下划线 (Ctrl+U)"
+            >
+              <UnderlineIcon className="h-4 w-4" />
             </button>
             <button
               onClick={() => editor.chain().focus().toggleStrike().run()}
@@ -214,6 +232,38 @@ export default function RichTextEditor({
               title="标题3"
             >
               <Heading3 className="h-4 w-4" />
+            </button>
+          </div>
+
+          {/* 对齐 */}
+          <div className="flex gap-1 pr-2 border-r border-gray-300 dark:border-gray-600">
+            <button
+              onClick={() => editor.chain().focus().setTextAlign('left').run()}
+              className={`toolbar-btn ${editor.isActive({ textAlign: 'left' }) ? 'is-active' : ''}`}
+              title="左对齐"
+            >
+              <AlignLeft className="h-4 w-4" />
+            </button>
+            <button
+              onClick={() => editor.chain().focus().setTextAlign('center').run()}
+              className={`toolbar-btn ${editor.isActive({ textAlign: 'center' }) ? 'is-active' : ''}`}
+              title="居中对齐"
+            >
+              <AlignCenter className="h-4 w-4" />
+            </button>
+            <button
+              onClick={() => editor.chain().focus().setTextAlign('right').run()}
+              className={`toolbar-btn ${editor.isActive({ textAlign: 'right' }) ? 'is-active' : ''}`}
+              title="右对齐"
+            >
+              <AlignRight className="h-4 w-4" />
+            </button>
+            <button
+              onClick={() => editor.chain().focus().setTextAlign('justify').run()}
+              className={`toolbar-btn ${editor.isActive({ textAlign: 'justify' }) ? 'is-active' : ''}`}
+              title="两端对齐"
+            >
+              <AlignJustify className="h-4 w-4" />
             </button>
           </div>
 
@@ -296,4 +346,3 @@ export default function RichTextEditor({
     </div>
   );
 }
-

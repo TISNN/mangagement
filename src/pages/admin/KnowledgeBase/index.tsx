@@ -7,7 +7,7 @@ import React, { useState, useEffect } from 'react';
 import { Plus, FileUp, BookOpen } from 'lucide-react';
 import { supabase } from '../../../lib/supabase';
 import { ResourceFormModal } from './components/ResourceFormModal';
-import { ResourceCard } from './components/ResourceCard';
+import { ResourceCard } from './components/ResourceCard/index'; // 强制刷新导入
 import { ResourceFilters } from './components/ResourceFilters';
 import { StatsCards } from './components/StatsCards';
 import { UIKnowledgeResource } from './types/knowledge.types';
@@ -16,6 +16,8 @@ import { TAB_OPTIONS, DEFAULT_FILTERS } from './utils/knowledgeConstants';
 
 function KnowledgeBase() {
   const [showCreateModal, setShowCreateModal] = useState(false);
+  const [showEditModal, setShowEditModal] = useState(false);
+  const [editingResource, setEditingResource] = useState<UIKnowledgeResource | null>(null);
   const [showAdvancedFilters, setShowAdvancedFilters] = useState(false);
   const [currentUser, setCurrentUser] = useState<any>(null);
   const [resources, setResources] = useState<UIKnowledgeResource[]>([]);
@@ -137,7 +139,10 @@ function KnowledgeBase() {
           type: formData.type,
           category: formData.category,
           description: formData.description,
-          content: formData.content,
+          content: formData.type === 'article' ? formData.content : null,
+          file_url: formData.fileUrl || null,
+          file_size: formData.fileSize || null,
+          thumbnail_url: formData.thumbnailUrl || null,
           tags: formData.tags,
           is_featured: formData.isFeatured,
           status: formData.status,
@@ -148,6 +153,8 @@ function KnowledgeBase() {
         .single();
 
       if (insertError) throw insertError;
+
+      console.log('✅ 资源创建成功:', data);
 
       // 刷新列表
       await loadResources();
@@ -217,6 +224,117 @@ function KnowledgeBase() {
       }
     } catch (err) {
       console.error('下载失败:', err);
+    }
+  };
+
+  // 处理编辑
+  const handleEdit = (id: number) => {
+    const resource = resources.find(r => r.id === id);
+    if (resource) {
+      setEditingResource(resource);
+      setShowEditModal(true);
+    }
+  };
+
+  // 处理编辑提交
+  const handleEditSubmit = async (formData: any) => {
+    if (!currentUser || !editingResource) {
+      alert('请先登录');
+      return false;
+    }
+
+    try {
+      const updateData: any = {
+        title: formData.title,
+        type: formData.type,
+        category: formData.category,
+        description: formData.description,
+        tags: formData.tags,
+        is_featured: formData.isFeatured,
+        status: formData.status,
+        updated_by: currentUser.id
+      };
+
+      // 如果是文章类型，更新 content
+      if (formData.type === 'article') {
+        updateData.content = formData.content;
+      }
+
+      // 如果有新的文件URL，更新
+      if (formData.fileUrl) {
+        updateData.file_url = formData.fileUrl;
+        updateData.file_size = formData.fileSize;
+      }
+
+      // 如果有新的缩略图URL，更新
+      if (formData.thumbnailUrl) {
+        updateData.thumbnail_url = formData.thumbnailUrl;
+      }
+
+      const { data, error: updateError } = await supabase
+        .from('knowledge_resources')
+        .update(updateData)
+        .eq('id', editingResource.id)
+        .select()
+        .single();
+
+      if (updateError) throw updateError;
+
+      console.log('✅ 资源更新成功:', data);
+
+      // 刷新列表
+      await loadResources();
+      
+      // 关闭编辑模态框
+      setShowEditModal(false);
+      setEditingResource(null);
+      
+      return true;
+    } catch (err: any) {
+      console.error('更新资源失败:', err);
+      alert('更新失败: ' + err.message);
+      return false;
+    }
+  };
+
+  // 处理删除
+  const handleDelete = async (id: number) => {
+    try {
+      const { error } = await supabase
+        .from('knowledge_resources')
+        .delete()
+        .eq('id', id);
+
+      if (error) throw error;
+
+      // 从列表中移除
+      setResources(prev => prev.filter(r => r.id !== id));
+      alert('删除成功！');
+    } catch (err: any) {
+      console.error('删除失败:', err);
+      alert('删除失败: ' + err.message);
+    }
+  };
+
+  // 处理切换精选状态
+  const handleToggleFeatured = async (id: number, isFeatured: boolean) => {
+    try {
+      const { error } = await supabase
+        .from('knowledge_resources')
+        .update({ is_featured: !isFeatured })
+        .eq('id', id);
+
+      if (error) throw error;
+
+      // 更新本地状态
+      setResources(prev => prev.map(r => 
+        r.id === id ? { ...r, isFeatured: !isFeatured } : r
+      ));
+
+      alert(isFeatured ? '已取消精选' : '已设为精选');
+    } catch (err: any) {
+      console.error('更新失败:', err);
+      alert('操作失败: ' + err.message);
     }
   };
 
@@ -390,6 +508,9 @@ function KnowledgeBase() {
                   onView={handleView}
                   onBookmark={handleBookmark}
                   onDownload={handleDownload}
+                  onEdit={handleEdit}
+                  onDelete={handleDelete}
+                  onToggleFeatured={handleToggleFeatured}
                 />
               ))}
             </div>
@@ -430,6 +551,29 @@ function KnowledgeBase() {
         onSubmit={handleCreateSubmit}
         mode="create"
       />
+
+      {/* 编辑资源模态框 */}
+      {editingResource && (
+        <ResourceFormModal
+          isOpen={showEditModal}
+          onClose={() => {
+            setShowEditModal(false);
+            setEditingResource(null);
+          }}
+          onSubmit={handleEditSubmit}
+          initialData={{
+            title: editingResource.title,
+            type: editingResource.type,
+            category: editingResource.category,
+            description: editingResource.description,
+            content: editingResource.content,
+            tags: editingResource.tags,
+            isFeatured: editingResource.isFeatured,
+            status: editingResource.status
+          }}
+          mode="edit"
+        />
+      )}
     </div>
   );
 }

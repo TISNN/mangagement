@@ -21,7 +21,7 @@ import {
 import { getMeetingById, updateMeetingMinutes, updateMeetingStatus, deleteMeeting } from './MeetingManagement/services/meetingService';
 import { Meeting } from './MeetingManagement/types';
 import { formatDateTime } from '../../utils/dateUtils';
-import RichTextEditor from '../../components/RichTextEditor';
+import SimpleEditorWrapper from '../../components/SimpleEditorWrapper';
 
 export default function MeetingDetailPage() {
   const { id } = useParams<{ id: string }>();
@@ -296,7 +296,7 @@ export default function MeetingDetailPage() {
           </div>
 
           {editingMinutes ? (
-            <RichTextEditor
+            <SimpleEditorWrapper
               content={minutesContent}
               onChange={setMinutesContent}
               placeholder="在此记录会议纪要..."

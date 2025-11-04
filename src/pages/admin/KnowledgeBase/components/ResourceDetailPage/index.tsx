@@ -23,7 +23,7 @@ import { RESOURCE_TYPE_CONFIG } from '../../utils/knowledgeConstants';
 const ResourceDetailPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  const [currentUser, setCurrentUser] = useState<any>(null);
+  const [currentUser, setCurrentUser] = useState<{ id: number; name: string; avatar_url?: string } | null>(null);
   const [resource, setResource] = useState<UIKnowledgeResource | null>(null);
   const [relatedResources, setRelatedResources] = useState<UIKnowledgeResource[]>([]);
   const [comments, setComments] = useState<UIKnowledgeComment[]>([]);
@@ -88,9 +88,11 @@ const ResourceDetailPage: React.FC = () => {
         }
 
         // 增加浏览次数（异步，不等待结果）
-        supabase.rpc('increment_resource_views', { resource_id: resourceId })
-          .then(() => console.log('浏览次数已更新'))
-          .catch(async (err) => {
+        (async () => {
+          try {
+            await supabase.rpc('increment_resource_views', { resource_id: resourceId });
+            console.log('浏览次数已更新');
+          } catch {
             // 如果 RPC 不存在，使用备用方案
             console.warn('RPC不存在，使用备用方案');
             const currentViews = resourceData.views || 0;
@@ -98,7 +100,8 @@ const ResourceDetailPage: React.FC = () => {
               .from('knowledge_resources')
               .update({ views: currentViews + 1 })
               .eq('id', resourceId);
-          });
+          }
+        })();
 
         // 检查是否收藏
         let isBookmarked = false;
@@ -151,9 +154,10 @@ const ResourceDetailPage: React.FC = () => {
             updatedAt: c.updated_at
           })));
         }
-      } catch (err: any) {
+      } catch (err) {
+        const error = err as Error;
         console.error('加载资源失败:', err);
-        setError(err.message || '加载资源时发生未知错误');
+        setError(error.message || '加载资源时发生未知错误');
       } finally {
         setLoading(false);
       }

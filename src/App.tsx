@@ -19,7 +19,7 @@ import {
   Calendar
 } from 'lucide-react';
 import { DataProvider } from './context/DataContext'; // 导入数据上下文提供者
-import AIAssistant from './components/AIAssistant';
+import AIChatAssistant from './components/AIChatAssistant';
 import ErrorBoundary from './components/ErrorBoundary';
 import './utils/cacheManager'; // 引入缓存管理器,使window.clearAppCache()可用
 
@@ -363,7 +363,7 @@ function App() {
               </main>
 
               {/* AI助手 */}
-              <AIAssistant />
+              <AIChatAssistant />
             </div>
       </DataProvider>
     </ErrorBoundary>
