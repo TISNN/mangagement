@@ -201,33 +201,7 @@ function App() {
       <DataProvider>
             <div className="min-h-screen bg-[#f8fafc] dark:bg-gray-900">
               {/* 左侧导航栏 */}
-              <header className={`fixed left-0 top-0 h-full ${isNavCollapsed ? 'w-20' : 'w-56'} transition-all duration-300 bg-white/80 backdrop-blur-xl dark:bg-gray-800/50`}>
-                {/* Logo */}
-                <div className="h-24 px-6 flex items-center">
-                  <div className="flex items-center gap-3">
-                    <div className="relative">
-                      <img 
-                        src="/logo.png?v=1" 
-                        alt="StudyLandsEdu Workspace" 
-                        className="h-16 w-auto object-contain"
-                        style={{ height: '38px', width: 'auto' }}
-                        onLoad={() => console.log('Logo loaded successfully')}
-                        onError={(e) => console.error('Logo failed to load:', e)}
-                      />
-                    </div>
-                    {!isNavCollapsed && (
-                      <div className="flex flex-col">
-                        <span className="text-sm font-bold text-gray-900 dark:text-white">
-                          StudyLandsEdu
-                        </span>
-                        <span className="text-xs text-gray-600 dark:text-gray-400">
-                          Workspace
-                        </span>
-                      </div>
-                    )}
-                  </div>
-                </div>
-
+              <header className={`fixed left-0 top-16 h-[calc(100vh-4rem)] ${isNavCollapsed ? 'w-20' : 'w-56'} transition-all duration-300 bg-white/80 backdrop-blur-xl dark:bg-gray-800/50 border-r border-gray-200 dark:border-gray-700 z-10`}>
                 {/* 导航菜单 - 添加滚动容器 */}
                 <div className="py-6 px-4 relative">
                   {/* 上滚动按钮 */}
@@ -310,7 +284,7 @@ function App() {
                 {/* 折叠按钮 */}
                 <button 
                   onClick={() => setIsNavCollapsed(!isNavCollapsed)} 
-                  className="absolute right-0 top-1/2 transform translate-x-1/2 -translate-y-1/2 bg-white dark:bg-gray-700 shadow-md rounded-full p-1.5 hover:bg-gray-100 dark:hover:bg-gray-600"
+                  className="absolute right-0 top-1/2 transform translate-x-1/2 -translate-y-1/2 bg-white dark:bg-gray-700 shadow-md rounded-full p-1.5 hover:bg-gray-100 dark:hover:bg-gray-600 z-20"
                   title={isNavCollapsed ? "展开导航栏" : "折叠导航栏"}
                 >
                   <ChevronLeft className={`h-5 w-5 text-gray-500 dark:text-gray-400 transition-transform duration-300 ${isNavCollapsed ? 'rotate-180' : ''}`} />
@@ -318,8 +292,30 @@ function App() {
               </header>
 
               {/* 顶部用户信息栏 */}
-              <div className={`fixed top-0 right-0 ${isNavCollapsed ? 'left-20' : 'left-56'} transition-all duration-300 h-16 bg-white/80 backdrop-blur-xl dark:bg-gray-800/50 z-10`}>
-                <div className="flex items-center justify-end h-full px-6">
+              <div className={`fixed top-0 right-0 left-0 transition-all duration-300 h-16 bg-white/80 backdrop-blur-xl dark:bg-gray-800/50 z-20 border-b border-gray-200 dark:border-gray-700`}>
+                <div className="flex items-center justify-between h-full px-6">
+                  {/* 左侧：Logo 和系统名称 */}
+                  <div className="flex items-center gap-3">
+                    <div className="relative">
+                      <img 
+                        src="/logo.png?v=1" 
+                        alt="StudyLandsEdu Workspace" 
+                        className="h-8 w-auto object-contain"
+                        onLoad={() => console.log('Logo loaded successfully')}
+                        onError={(e) => console.error('Logo failed to load:', e)}
+                      />
+                    </div>
+                    <div className="flex flex-col">
+                      <span className="text-sm font-bold text-gray-900 dark:text-white">
+                        StudyLandsEdu
+                      </span>
+                      <span className="text-xs text-gray-500 dark:text-gray-400">
+                        Workspace
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* 右侧：用户信息和操作按钮 */}
                   <div className="flex items-center gap-6">
                     <button 
                       onClick={() => setIsDark(!isDark)}
@@ -358,7 +354,7 @@ function App() {
               </div>
 
               {/* 主内容区域 - 使用Outlet代替pages[currentPage] */}
-              <main className={`${isNavCollapsed ? 'ml-20' : 'ml-56'} transition-all duration-300 p-8 pt-24`}>
+              <main className={`${isNavCollapsed ? 'ml-20' : 'ml-56'} mt-16 transition-all duration-300 p-8`}>
                 <Outlet />
               </main>
 

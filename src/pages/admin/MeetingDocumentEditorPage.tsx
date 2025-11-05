@@ -149,9 +149,9 @@ export default function MeetingDocumentEditorPage() {
   }
 
   return (
-    <div className={`h-screen flex flex-col ${isFullscreen ? 'bg-white dark:bg-gray-900' : 'bg-gray-50 dark:bg-gray-950'}`}>
-      {/* 顶部工具栏 - 现代化设计 */}
-      <div className="flex-none bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50">
+    <div className="h-screen flex flex-col bg-gray-50 dark:bg-gray-950">
+      {/* 顶部工具栏 - 磨砂玻璃效果 */}
+      <div className="flex-none bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-b border-gray-200/50 dark:border-gray-700 sticky top-0 z-50">
         <div className="h-14 px-4 flex items-center justify-between gap-4">
           {/* 左侧：导航 + 文档信息 */}
           <div className="flex items-center gap-2">
@@ -218,97 +218,42 @@ export default function MeetingDocumentEditorPage() {
         </div>
       </div>
 
-      {/* 主编辑区域 */}
-      <div className="flex-1 overflow-hidden flex">
-        {/* 编辑器主体 */}
-        <div className={`flex-1 flex flex-col ${isFullscreen ? 'max-w-none' : 'max-w-4xl'} mx-auto w-full`}>
-          {/* 标题区域 - 聚焦设计 */}
-          <div className="flex-none px-8 pt-8 pb-4">
-            <input
-              type="text"
-              value={title}
-              onChange={(e) => setTitle(e.target.value)}
-              placeholder="无标题文档"
-              className="w-full text-4xl font-bold bg-transparent border-none focus:outline-none focus:ring-0 text-gray-900 dark:text-white placeholder-gray-300 dark:placeholder-gray-700"
-            />
-            
-            {/* 文档元信息 */}
-            <div className="flex items-center gap-3 mt-3 text-sm text-gray-500 dark:text-gray-400">
-              <div className="flex items-center gap-1.5">
-                <Clock className="h-3.5 w-3.5" />
-                <span>
-                  {isEditMode ? '最后编辑' : '创建于'} {formatDateTime(lastSaved || new Date())}
-                </span>
-              </div>
-            </div>
-          </div>
-
-          {/* 编辑器区域 */}
-          <div className="flex-1 overflow-hidden px-8 pb-8">
-            <SimpleEditorWrapper
-              content={content}
-              onChange={setContent}
-              placeholder='输入文本，按"空格"启用 AI，按"/"启用指令...'
-              minHeight="100%"
-            />
-          </div>
-        </div>
-        
-        {/* 右侧边栏（可选） */}
-        {!isFullscreen && (
-          <div className="flex-none w-64 border-l border-gray-200 dark:border-gray-800 bg-gray-50/50 dark:bg-gray-900/50 p-4">
-            <div className="space-y-6">
-              {/* 文档统计 */}
-              <div>
-                <h3 className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-3">
-                  文档统计
-                </h3>
-                <div className="space-y-2">
-                  <div className="flex items-center justify-between text-sm">
-                    <span className="text-gray-600 dark:text-gray-400">字数</span>
-                    <span className="font-medium text-gray-900 dark:text-white">{wordCount}</span>
-                  </div>
-                  <div className="flex items-center justify-between text-sm">
-                    <span className="text-gray-600 dark:text-gray-400">段落</span>
-                    <span className="font-medium text-gray-900 dark:text-white">
-                      {content.split('<p>').length - 1 || 0}
+      {/* 主编辑区域 - 白色背景 */}
+      <div className="flex-1 bg-white dark:bg-gray-900 flex flex-col overflow-hidden">
+        <div className="flex-1 max-w-4xl mx-auto w-full flex flex-col overflow-hidden">
+          <SimpleEditorWrapper
+            content={content}
+            onChange={setContent}
+            placeholder='输入文本，按"空格"启用 AI，按"/"启用指令...'
+            renderBeforeEditor={() => (
+              <div className="flex-none px-8 pt-8 pb-6">
+                <input
+                  type="text"
+                  value={title}
+                  onChange={(e) => setTitle(e.target.value)}
+                  placeholder="无标题文档"
+                  className="w-full text-5xl font-bold bg-transparent border-none focus:outline-none focus:ring-0 text-gray-900 dark:text-white placeholder-gray-300 dark:placeholder-gray-700 mb-4"
+                />
+                
+                {/* 文档元信息 */}
+                <div className="flex items-center gap-6 text-sm text-gray-400 dark:text-gray-500">
+                  <div className="flex items-center gap-2">
+                    <Clock className="h-4 w-4" />
+                    <span>
+                      {isEditMode ? '最后编辑' : '创建于'} {formatDateTime(lastSaved || new Date())}
                     </span>
                   </div>
+                  {lastSaved && (
+                    <div className="flex items-center gap-2">
+                      <FileCheck className="h-4 w-4" />
+                      <span>已保存</span>
+                    </div>
+                  )}
                 </div>
               </div>
-              
-              {/* 快捷操作 */}
-              <div>
-                <h3 className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-3">
-                  快捷键
-                </h3>
-                <div className="space-y-2 text-xs text-gray-600 dark:text-gray-400">
-                  <div className="flex justify-between">
-                    <span>保存</span>
-                    <kbd className="px-2 py-1 bg-gray-200 dark:bg-gray-800 rounded">⌘ S</kbd>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>粗体</span>
-                    <kbd className="px-2 py-1 bg-gray-200 dark:bg-gray-800 rounded">⌘ B</kbd>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>斜体</span>
-                    <kbd className="px-2 py-1 bg-gray-200 dark:bg-gray-800 rounded">⌘ I</kbd>
-                  </div>
-                </div>
-              </div>
-              
-              {/* 提示 */}
-              <div className="mt-auto pt-6">
-                <div className="p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200 dark:border-blue-800">
-                  <p className="text-xs text-blue-800 dark:text-blue-300">
-                    💡 文档每30秒自动保存
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        )}
+            )}
+          />
+        </div>
       </div>
     </div>
   );

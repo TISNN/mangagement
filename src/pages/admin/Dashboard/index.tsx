@@ -5,7 +5,7 @@
 
 import React, { useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { UserPlus, Briefcase, MessageSquare } from 'lucide-react';
+import { UserPlus, Briefcase, MessageSquare, CalendarPlus } from 'lucide-react';
 import toast from 'react-hot-toast';
 
 // Hooks
@@ -22,6 +22,9 @@ import { EventsPanel } from './components/EventsPanel';
 import { CreateStudentModal } from './components/QuickActionsModal/CreateStudentModal';
 import { CreateTaskModal } from './components/QuickActionsModal/CreateTaskModal';
 import { CreateLeadModal } from './components/QuickActionsModal/CreateLeadModal';
+import CreateMeetingModal from '../MeetingManagement/components/CreateMeetingModal';
+import { createMeeting } from '../MeetingManagement/services/meetingService';
+import type { MeetingFormData } from '../MeetingManagement/types';
 
 // Types
 import { QuickAction } from './types/dashboard.types';
@@ -47,6 +50,7 @@ const DashboardPage: React.FC = () => {
   const [showCreateStudentModal, setShowCreateStudentModal] = useState(false);
   const [showCreateTaskModal, setShowCreateTaskModal] = useState(false);
   const [showCreateLeadModal, setShowCreateLeadModal] = useState(false);
+  const [showCreateMeetingModal, setShowCreateMeetingModal] = useState(false);
 
   // 获取时间问候语
   const getGreeting = () => {
@@ -92,6 +96,23 @@ const DashboardPage: React.FC = () => {
     refreshActivities();
   };
 
+  const handleMeetingCreated = async (formData: MeetingFormData) => {
+    try {
+      if (!currentUser?.id) {
+        toast.error('用户信息获取失败');
+        return;
+      }
+      await createMeeting(formData, currentUser.id);
+      toast.success('会议创建成功！');
+      setShowCreateMeetingModal(false);
+      refreshActivities();
+    } catch (error) {
+      console.error('创建会议失败:', error);
+      toast.error('创建会议失败，请重试');
+      throw error;
+    }
+  };
+
   // 快捷操作配置
   const quickActions: QuickAction[] = useMemo(() => [
     { 
@@ -114,6 +135,13 @@ const DashboardPage: React.FC = () => {
       color: 'orange', 
       onClick: () => setShowCreateLeadModal(true),
       description: '添加潜在客户线索'
+    },
+    { 
+      title: '创建会议', 
+      icon: CalendarPlus, 
+      color: 'green', 
+      onClick: () => setShowCreateMeetingModal(true),
+      description: '快速创建新会议'
     },
   ], []);
 
@@ -192,6 +220,13 @@ const DashboardPage: React.FC = () => {
         onClose={() => setShowCreateLeadModal(false)}
         onSuccess={handleLeadCreated}
       />
+
+      {showCreateMeetingModal && (
+        <CreateMeetingModal
+          onClose={() => setShowCreateMeetingModal(false)}
+          onSave={handleMeetingCreated}
+        />
+      )}
     </div>
   );
 };

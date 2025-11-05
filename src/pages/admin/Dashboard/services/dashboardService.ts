@@ -167,7 +167,7 @@ export async function getDashboardTasks(userId?: string): Promise<DashboardTask[
         assigned_to
       `)
       .contains('assigned_to', [personId])
-      .neq('status', 'completed')
+      .not('status', 'in', '(已完成,已取消)')  // 排除已完成和已取消的任务（使用中文状态值）
       .order('due_date', { ascending: true, nullsFirst: false })
       .order('priority', { ascending: false })
       .limit(5);
@@ -232,7 +232,7 @@ export async function getDashboardTasks(userId?: string): Promise<DashboardTask[
         deadline,
         type,
         icon,
-        completed: task.status === 'completed',
+        completed: task.status === '已完成',  // 使用中文状态值
       };
     });
     
@@ -329,7 +329,7 @@ export async function getDashboardEvents(): Promise<DashboardEvent[]> {
       .not('due_date', 'is', null)
       .gte('due_date', today.toISOString().split('T')[0])
       .lte('due_date', nextWeek.toISOString().split('T')[0])
-      .neq('status', 'completed')
+      .not('status', 'in', '(已完成,已取消)')  // 排除已完成和已取消的任务（使用中文状态值）
       .order('due_date', { ascending: true })
       .limit(5);
 
@@ -397,7 +397,7 @@ export async function getDashboardEvents(): Promise<DashboardEvent[]> {
  */
 export async function toggleTaskCompletion(taskId: number, completed: boolean): Promise<boolean> {
   try {
-    const newStatus = completed ? 'completed' : 'in_progress';
+    const newStatus = completed ? '已完成' : '进行中';  // 使用中文状态值
     
     const { error } = await supabase
       .from('tasks')

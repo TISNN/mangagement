@@ -37,6 +37,7 @@ export default function AIAssistant({
   const [isMounted, setIsMounted] = useState(false);
   const [panelPosition, setPanelPosition] = useState(position);
   const initialLeftRef = useRef<number | null>(null); // 保存初始水平位置
+  const initialTopRef = useRef<number | null>(null); // 保存初始垂直位置基准
   const panelRef = useRef<HTMLDivElement>(null);
   const activeModel = useMemo(
     () => models.find((item) => item.id === selectedModelId),
@@ -59,22 +60,23 @@ export default function AIAssistant({
     return () => window.removeEventListener('keydown', handleEsc);
   }, [onClose]);
 
-  const recalculatePosition = useCallback((isInitial = false) => {
+  const recalculatePosition = useCallback(() => {
     if (!panelRef.current || typeof window === 'undefined') return;
     const { innerHeight, innerWidth } = window;
     const rect = panelRef.current.getBoundingClientRect();
     const padding = 16;
 
-    const desiredTop = position.top + 12;
-
+    // 计算垂直位置（使用初始 top 或当前 top）
+    const baseTop = initialTopRef.current ?? position.top;
+    const desiredTop = baseTop + 12;
     const top = Math.min(
       Math.max(desiredTop, padding),
       Math.max(innerHeight - rect.height - padding, padding)
     );
 
-    // 水平位置：首次计算后固定，避免滚动时横向漂移
+    // 使用固定的水平位置（首次计算后不再改变）
     let left: number;
-    if (isInitial || initialLeftRef.current === null) {
+    if (initialLeftRef.current === null) {
       // 首次计算：基于输入框宽度（560px）居中
       const desiredLeft = position.left - 280; // 560 / 2 = 280
       left = Math.min(
@@ -82,27 +84,46 @@ export default function AIAssistant({
         Math.max(innerWidth - 560 - padding, padding)
       );
       initialLeftRef.current = left; // 保存初始水平位置
+      initialTopRef.current = position.top; // 保存初始垂直基准
     } else {
-      // 后续滚动：使用保存的初始水平位置
+      // 后续：使用保存的初始水平位置
       left = initialLeftRef.current;
     }
 
     setPanelPosition({ top, left });
-  }, [position]);
+  }, []); // 移除 position 依赖，避免重新计算
 
   useLayoutEffect(() => {
-    recalculatePosition(true); // 首次渲染，计算初始位置
+    recalculatePosition(); // 首次渲染，计算初始位置
   }, [recalculatePosition]);
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
     // 只监听窗口 resize，不监听滚动（避免横向漂移）
-    const handleResize = () => recalculatePosition(false); // resize 时重新计算，但保持初始水平位置
+    const handleResize = () => recalculatePosition(); // resize 时重新计算，但保持初始水平位置
     window.addEventListener('resize', handleResize);
     return () => {
       window.removeEventListener('resize', handleResize);
     };
   }, [recalculatePosition]);
+
+  // 当 position prop 变化时，只更新垂直位置，保持水平位置不变
+  useEffect(() => {
+    if (initialLeftRef.current !== null && panelRef.current) {
+      const { innerHeight } = window;
+      const rect = panelRef.current.getBoundingClientRect();
+      const padding = 16;
+      
+      const desiredTop = position.top + 12;
+      const top = Math.min(
+        Math.max(desiredTop, padding),
+        Math.max(innerHeight - rect.height - padding, padding)
+      );
+      
+      // 只更新垂直位置，保持水平位置不变
+      setPanelPosition(prev => ({ top, left: prev.left }));
+    }
+  }, [position.top]); // 只监听 position.top 变化
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -228,12 +249,6 @@ export default function AIAssistant({
             </div>
           ))}
         </div>
-
-        {activeModel && (
-          <div className="pointer-events-auto w-[360px] px-1 text-[11px] text-purple-500 dark:text-purple-300">
-            当前模型：{activeModel.label}
-          </div>
-        )}
       </div>
     </div>
   );

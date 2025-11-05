@@ -79,6 +79,10 @@ function LeadDetailPage() {
   // 添加当前用户状态
   const [currentUser, setCurrentUser] = useState<{id: string; name: string} | null>(null);
   
+  // 删除线索相关状态
+  const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
+  const [deletingLead, setDeletingLead] = useState(false);
+  
   // 添加时间线数据状态
   const [followUpDates, setFollowUpDates] = useState<Array<{type: string; date: string}>>([]);
   
@@ -522,6 +526,24 @@ function LeadDetailPage() {
       alert('删除日志失败，请重试');
     } finally {
       setProcessingLog(false);
+    }
+  };
+  
+  // 删除线索
+  const handleDeleteLead = async () => {
+    if (!leadId) return;
+    
+    try {
+      setDeletingLead(true);
+      await leadService.deleteLead(leadId);
+      toast.success('线索已删除');
+      navigate('/admin/leads');
+    } catch (error) {
+      console.error('删除线索失败:', error);
+      toast.error('删除线索失败，请重试');
+    } finally {
+      setDeletingLead(false);
+      setShowDeleteConfirm(false);
     }
   };
   
@@ -1027,6 +1049,7 @@ function LeadDetailPage() {
           
           {!isEditing && (
             <button 
+              onClick={() => setShowDeleteConfirm(true)}
               className="px-4 py-2 bg-red-50 hover:bg-red-100 text-red-600 rounded-xl text-sm font-medium transition-colors flex items-center gap-2 dark:bg-red-900/20 dark:hover:bg-red-900/30 dark:text-red-400"
             >
               <Trash2 className="h-4 w-4" />
@@ -1567,6 +1590,54 @@ function LeadDetailPage() {
                   </>
                 ) : (
                   "确认删除"
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+      
+      {/* 删除线索确认对话框 */}
+      {showDeleteConfirm && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-2xl p-6 max-w-md w-full dark:bg-gray-800 shadow-xl">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="h-10 w-10 rounded-full bg-red-100 flex items-center justify-center dark:bg-red-900/30">
+                <AlertTriangle className="h-5 w-5 text-red-600 dark:text-red-400" />
+              </div>
+              <h3 className="text-lg font-semibold dark:text-white">确认删除线索</h3>
+            </div>
+            <p className="text-gray-600 mb-2 dark:text-gray-300">
+              您确定要删除线索 <span className="font-semibold">{lead?.name}</span> 吗？
+            </p>
+            <p className="text-sm text-red-600 dark:text-red-400 mb-6">
+              此操作将删除该线索及其所有跟进记录，且无法撤销！
+            </p>
+            <div className="flex justify-end gap-3">
+              <button
+                onClick={() => setShowDeleteConfirm(false)}
+                disabled={deletingLead}
+                className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600"
+              >
+                取消
+              </button>
+              <button
+                onClick={handleDeleteLead}
+                disabled={deletingLead}
+                className={`px-4 py-2 bg-red-600 text-white rounded-lg flex items-center gap-2 ${
+                  deletingLead ? 'opacity-50 cursor-not-allowed' : 'hover:bg-red-700'
+                }`}
+              >
+                {deletingLead ? (
+                  <>
+                    <div className="h-4 w-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                    删除中...
+                  </>
+                ) : (
+                  <>
+                    <Trash2 className="h-4 w-4" />
+                    确认删除
+                  </>
                 )}
               </button>
             </div>

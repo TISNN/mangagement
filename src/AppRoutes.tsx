@@ -14,7 +14,9 @@ import ContactPage from './website/ContactPage';
 
 // 导入管理员页面
 import DashboardPage from './pages/admin/Dashboard';
-import EmployeeManagementPage from './pages/admin/EmployeeManagementPage'; 
+import EmployeeManagementPage from './pages/admin/EmployeeManagementPage';
+import EmployeeFormPage from './pages/admin/EmployeeFormPage';
+import EmployeeDetailPage from './pages/admin/EmployeeDetailPage';
 import TaskManagementPage from './pages/admin/TaskManagement';
 import StudentsPage from './pages/admin/StudentsPage/StudentsPage';
 import StudentDetailPage from './pages/admin/StudentsPage/StudentDetailPage';
@@ -73,6 +75,9 @@ const AppRoutes: React.FC = () => {
         {/* 管理员路由 */}
         <Route path="dashboard" element={<DashboardPage />} />
         <Route path="employees" element={<EmployeeManagementPage />} />
+        <Route path="employees/new" element={<EmployeeFormPage />} />
+        <Route path="employees/edit/:id" element={<EmployeeFormPage />} />
+        <Route path="employees/:id" element={<EmployeeDetailPage />} />
         <Route path="tasks" element={<TaskManagementPage />} />
         <Route path="students" element={<StudentsPage />} />
         <Route path="students/:studentId" element={<StudentDetailPage />} />

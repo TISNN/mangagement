@@ -9,20 +9,10 @@ import { useEffect, useRef, useState, useCallback, useMemo } from "react"
 import type { Editor } from "@tiptap/react"
 import { EditorContent, EditorContext, useEditor } from "@tiptap/react"
 import AIAssistant from '../AIAssistant/index';
-import AIResultDialog from '../AIAssistant/AIResultDialog';
+import AIGenerationPanel from '../AIAssistant/AIGenerationPanel';
+import ColorPicker from './ColorPicker';
 import {
-  aiBrainstorm,
-  aiCode,
-  aiContinue,
-  aiCustom,
-  aiDraft,
-  aiFlowchart,
-  aiImprove,
-  aiOutline,
-  aiTable,
-  aiSummarize,
-  aiTranslate,
-  aiWrite,
+  callAIStream,
   getAvailableModels,
   getActiveModel,
   setActiveModel,
@@ -41,9 +31,10 @@ import { Superscript } from "@tiptap/extension-superscript"
 import { Underline } from "@tiptap/extension-underline"
 import { Selection } from "@tiptap/extensions"
 import { Placeholder } from "@tiptap/extension-placeholder"
+import { TextStyle } from "@tiptap/extension-text-style"
+import { Color } from "@tiptap/extension-color"
 
 // --- UI Primitives ---
-import { Button } from "@/components/tiptap-ui-primitive/button"
 import { Spacer } from "@/components/tiptap-ui-primitive/spacer"
 import {
   Toolbar,
@@ -73,11 +64,9 @@ import { LinkPopover } from "@/components/tiptap-ui/link-popover"
 import { MarkButton } from "@/components/tiptap-ui/mark-button"
 import { TextAlignButton } from "@/components/tiptap-ui/text-align-button"
 import { UndoRedoButton } from "@/components/tiptap-ui/undo-redo-button"
-import { Sparkles } from "lucide-react"
 
 // --- Hooks ---
 import { useIsMobile } from "@/hooks/use-mobile"
-import { useWindowSize } from "@/hooks/use-window-size"
 import { useCursorVisibility } from "@/hooks/use-cursor-visibility"
 
 // --- Utils ---
@@ -92,7 +81,7 @@ interface SimpleEditorWrapperProps {
   onChange: (content: string) => void
   placeholder?: string
   readOnly?: boolean
-  minHeight?: string
+  renderBeforeEditor?: () => React.ReactNode
 }
 
 const handleImageUpload = async (file: File): Promise<string> => {
@@ -108,31 +97,27 @@ const handleImageUpload = async (file: File): Promise<string> => {
 export default function SimpleEditorWrapper({
   content: externalContent,
   onChange,
-  placeholder = '输入文本，按"空格"启用 AI，按"/"启用指令...',
+  placeholder = '输入文本，按"空格"启用 AI',
   readOnly = false,
-  minHeight = "400px",
-}: SimpleEditorWrapperProps) {
+  renderBeforeEditor,
+}: SimpleEditorWrapperProps & { content: string }) {
   const isMobile = useIsMobile()
-  const { height } = useWindowSize()
   const [mobileView, setMobileView] = useState<"main" | "highlighter" | "link">("main")
   const toolbarRef = useRef<HTMLDivElement>(null)
   
   // AI 相关状态
   const [showAIAssistant, setShowAIAssistant] = useState(false)
   const [aiPosition, setAIPosition] = useState({ top: 0, left: 0 })
-  const [showAIResult, setShowAIResult] = useState(false)
-  const [aiResult, setAIResult] = useState('')
-  const [aiLoading, setAILoading] = useState(false)
+  const [isAIThinking, setIsAIThinking] = useState(false)
+  const [aiGeneratedText, setAIGeneratedText] = useState('')
+  const [showAIActions, setShowAIActions] = useState(false)
+  const [aiInsertPosition, setAIInsertPosition] = useState<number | null>(null)
   const [currentAIAction, setCurrentAIAction] = useState('')
   const [lastAIPrompt, setLastAIPrompt] = useState<string | undefined>(undefined)
   const editorRef = useRef<Editor | null>(null)
   const anchorPosRef = useRef<number | null>(null)
   const modelOptions = useMemo(() => getAvailableModels(), [])
   const [selectedModelId, setSelectedModelId] = useState(() => getActiveModel().id)
-  const activeModelOption = useMemo(
-    () => modelOptions.find((item) => item.id === selectedModelId),
-    [modelOptions, selectedModelId]
-  )
 
   useEffect(() => {
     setActiveModel(selectedModelId)
@@ -147,13 +132,19 @@ export default function SimpleEditorWrapper({
   }, [])
 
   const updatePositionFromEditor = useCallback(
-    (pos?: number) => {
+    (pos?: number, updateHorizontal = false) => {
       const ed = editorRef.current
       if (!ed || !ed.view) return
       const targetPos = typeof pos === "number" ? pos : ed.state.selection.from
       anchorPosRef.current = targetPos
       const coords = ed.view.coordsAtPos(targetPos)
-      setAIPosition({ top: coords.top, left: coords.left })
+      
+      // 根据参数决定是否更新水平位置
+      if (updateHorizontal) {
+        setAIPosition({ top: coords.top, left: coords.left })
+      } else {
+        setAIPosition(prev => ({ top: coords.top, left: prev.left }))
+      }
     },
     []
   )
@@ -171,7 +162,7 @@ export default function SimpleEditorWrapper({
         setTimeout(() => {
           if (editorRef.current) {
             const pos = editorRef.current.state.selection.from
-            updatePositionFromEditor(pos)
+            updatePositionFromEditor(pos, true) // 首次打开，更新水平位置
             setShowAIAssistant(true)
           }
         }, 0)
@@ -270,6 +261,8 @@ export default function SimpleEditorWrapper({
       }),
       HorizontalRule,
       Underline,
+      TextStyle,
+      Color,
       TextAlign.configure({ types: ["heading", "paragraph"] }),
       TaskList,
       TaskItem.configure({ nested: true }),
@@ -301,11 +294,11 @@ export default function SimpleEditorWrapper({
   // 当外部 content 变化时更新编辑器（但避免循环更新）
   useEffect(() => {
     if (editor && externalContent && externalContent !== editor.getHTML()) {
-      editor.commands.setContent(externalContent, false)
+      editor.commands.setContent(externalContent, { emitUpdate: false })
     }
   }, [externalContent, editor])
 
-  const rect = useCursorVisibility({
+  useCursorVisibility({
     editor,
     overlayHeight: toolbarRef.current?.getBoundingClientRect().height ?? 0,
   })
@@ -322,123 +315,229 @@ export default function SimpleEditorWrapper({
     const handleGlobalKey = (event: KeyboardEvent) => {
       if (event.key === 'Escape') {
         setShowAIAssistant(false);
-        if (showAIResult) {
-          setShowAIResult(false);
-          setAIResult('');
-        }
+        // 关闭 AI 生成面板
+        setShowAIActions(false);
+        setAIGeneratedText('');
+        setIsAIThinking(false);
       }
     };
 
     window.addEventListener('keydown', handleGlobalKey);
     return () => window.removeEventListener('keydown', handleGlobalKey);
-  }, [showAIResult])
+  }, [])
 
-  // 处理 AI 操作
+  // 处理 AI 操作 (Notion 风格 - 悬浮面板)
   const handleAIAction = useCallback(async (action: string, customPrompt?: string) => {
+    if (!editor) return;
+    
     setShowAIAssistant(false);
-    setShowAIResult(true);
-    setAILoading(true);
     setCurrentAIAction(action);
-    setAIResult('');
+    setLastAIPrompt(customPrompt);
+    
+    // 记录插入位置
+    const insertPos = editor.state.selection.from;
+    setAIInsertPosition(insertPos);
+    
+    // 开始思考
+    setIsAIThinking(true);
+    setAIGeneratedText('');
+    setShowAIActions(true); // 显示面板
     
     try {
-      let result = '';
-      const currentText = editor?.getText() || '';
-      const selectedText = editor?.state.doc.textBetween(
+      // 准备上下文
+      const currentText = editor.getText() || '';
+      const selectedText = editor.state.doc.textBetween(
         editor.state.selection.from,
         editor.state.selection.to
       ) || '';
       const promptText = customPrompt?.trim();
       const contextText = selectedText || currentText || promptText || '当前文档内容';
-      setLastAIPrompt(promptText || undefined);
       
+      // 构建提示词
+      let aiPrompt = '';
       switch (action) {
         case 'continue':
-          result = await aiContinue(contextText);
+          aiPrompt = `请根据以下内容续写下一段，保持风格和语气一致：\n\n${contextText}`;
           break;
         case 'write':
-          result = await aiWrite(promptText || contextText);
+          aiPrompt = `请基于以下主题或上下文创作一段流畅、具备故事性的内容，长度约为300字：\n\n${promptText || contextText}`;
           break;
         case 'draft':
-          result = await aiDraft(promptText || contextText);
+          aiPrompt = `请围绕以下主题创作一篇内容：${promptText || contextText}\n\n要求：结构清晰，内容充实，约300-500字。`;
           break;
         case 'outline':
-          result = await aiOutline(promptText || contextText);
+          aiPrompt = `请为以下主题起草一个详细提纲：${promptText || contextText}\n\n要求：层次分明，要点完整。`;
           break;
         case 'brainstorm':
-          result = await aiBrainstorm(promptText || contextText);
+          aiPrompt = `请围绕以下主题进行头脑风暴，提供10个创意想法：${promptText || contextText}`;
           break;
         case 'summarize':
-          result = await aiSummarize(contextText);
+          aiPrompt = `请用3-5个要点总结以下内容：\n\n${contextText}`;
           break;
         case 'table':
-          result = await aiTable(promptText || contextText);
+          aiPrompt = `请根据以下主题或上下文整理一份 Markdown 表格，包含至少3列和4行：\n\n${promptText || contextText}\n\n请只返回 Markdown 表格内容。`;
           break;
         case 'flowchart':
-          result = await aiFlowchart(promptText || contextText);
+          aiPrompt = `请将以下主题拆解为流程步骤，返回编号步骤列表，并在每一步说明关键要点：\n\n${promptText || contextText}`;
           break;
         case 'code':
-          result = await aiCode(promptText || '请根据上下文提供示例代码', contextText);
+          aiPrompt = `以下是相关上下文：\n${contextText}\n\n请根据上下文，完成这项编码请求：${promptText || '请根据上下文提供示例代码'}`;
           break;
-        case 'translate': {
-          let targetLang: 'en' | 'zh' | 'ja' | 'ko' = 'en';
-          if (promptText) {
-            if (/中文|Chinese/i.test(promptText)) targetLang = 'zh';
-            else if (/日文|Japanese/i.test(promptText)) targetLang = 'ja';
-            else if (/韩文|Korean/i.test(promptText)) targetLang = 'ko';
-            else if (/英文|English/i.test(promptText)) targetLang = 'en';
-          }
-          result = await aiTranslate(contextText, targetLang);
+        case 'translate':
+          aiPrompt = `请将以下内容翻译为英文：\n\n${contextText}`;
           break;
-        }
         case 'improve':
-          result = await aiImprove(selectedText || contextText);
+          aiPrompt = `请优化以下文字，使其更专业、更流畅、更易读：\n\n${selectedText || contextText}`;
           break;
         case 'custom':
-          result = await aiCustom(promptText || '请回答这个问题', contextText);
+          aiPrompt = promptText ? `${promptText}\n\n参考内容：\n${contextText}` : contextText;
           break;
         default:
-          result = await aiDraft(promptText || action);
+          aiPrompt = promptText || action;
       }
       
-      setAIResult(result);
+      // 流式生成
+      let generatedText = '';
+      await callAIStream(aiPrompt, (chunk) => {
+        generatedText += chunk;
+        setAIGeneratedText(generatedText);
+      });
+      
+      // 生成完成
+      setIsAIThinking(false);
+      
     } catch (error) {
       console.error('AI 生成失败:', error);
-      setAIResult('AI 生成失败，请重试。');
-    } finally {
-      setAILoading(false);
+      setIsAIThinking(false);
+      setAIGeneratedText('AI 生成失败，请重试。');
     }
-  }, [editor, openAssistant]);
+  }, [editor]);
   
-  // 接受 AI 结果
+  // 接受 AI 结果 - 替换到原位置
   const handleAcceptAI = useCallback(() => {
-    if (editor && aiResult) {
-      const html = aiResult.includes('<')
-        ? aiResult
-        : aiResult
-            .split('\n\n')
-            .map((block) => `<p>${block.trim().replace(/\n/g, '<br/>')}</p>`)
-            .join('');
-      editor.chain().focus().insertContent(html).run();
-      setShowAIResult(false);
-      setAIResult('');
-      setLastAIPrompt(undefined);
+    if (!editor || !aiGeneratedText) return;
+    
+    const html = aiGeneratedText.includes('<')
+      ? aiGeneratedText
+      : aiGeneratedText
+          .split('\n\n')
+          .map((block) => `<p>${block.trim().replace(/\n/g, '<br/>')}</p>`)
+          .join('');
+    
+    // 在插入位置插入内容
+    if (aiInsertPosition !== null) {
+      editor.chain()
+        .focus()
+        .setTextSelection(aiInsertPosition)
+        .insertContent(html)
+        .run();
     }
-  }, [editor, aiResult]);
+    
+    // 清理状态
+    setShowAIActions(false);
+    setAIGeneratedText('');
+    setIsAIThinking(false);
+  }, [editor, aiGeneratedText, aiInsertPosition]);
   
-  // 拒绝 AI 结果
-  const handleRejectAI = useCallback(() => {
-    setShowAIResult(false);
-    setAIResult('');
-    setLastAIPrompt(undefined);
+  // 放弃 AI 结果
+  const handleDiscardAI = useCallback(() => {
+    setShowAIActions(false);
+    setAIGeneratedText('');
+    setIsAIThinking(false);
   }, []);
   
+  // 插入到下方
+  const handleInsertBelowAI = useCallback(() => {
+    if (!editor || !aiGeneratedText) return;
+    
+    const html = aiGeneratedText.includes('<')
+      ? aiGeneratedText
+      : aiGeneratedText
+          .split('\n\n')
+          .map((block) => `<p>${block.trim().replace(/\n/g, '<br/>')}</p>`)
+          .join('');
+    
+    // 在当前位置下方插入
+    editor.chain()
+      .focus()
+      .insertContent('<p></p>' + html)
+      .run();
+    
+    // 清理状态
+    setShowAIActions(false);
+    setAIGeneratedText('');
+    setIsAIThinking(false);
+  }, [editor, aiGeneratedText]);
+  
   // 重新生成
-  const handleRegenerateAI = useCallback(() => {
+  const handleRetryAI = useCallback(() => {
     if (currentAIAction) {
       handleAIAction(currentAIAction, lastAIPrompt);
     }
-  }, [currentAIAction, handleAIAction, lastAIPrompt]);
+  }, [currentAIAction, lastAIPrompt, handleAIAction]);
+  
+  // 取消生成
+  const handleCancelAI = useCallback(() => {
+    setIsAIThinking(false);
+    setShowAIActions(false);
+    setAIGeneratedText('');
+  }, []);
+
+  // 同步 editor 到 ref
+  useEffect(() => {
+    if (editor) {
+      editorRef.current = editor
+      anchorPosRef.current = editor.state.selection.from
+    }
+    return () => {
+      if (editorRef.current === editor) {
+        editorRef.current = null
+      }
+    }
+  }, [editor])
+
+  // 监听选区更新
+  useEffect(() => {
+    if (!editor) return
+    
+    const handleSelectionUpdate = ({ editor: activeEditor }: { editor: Editor }) => {
+      anchorPosRef.current = activeEditor.state.selection.from
+      if (showAIAssistant) {
+        // 选区更新时只更新垂直位置，不更新水平位置
+        updatePositionFromEditor(anchorPosRef.current ?? undefined, false)
+      }
+    }
+    
+    editor.on('selectionUpdate', handleSelectionUpdate)
+    
+    return () => {
+      editor.off('selectionUpdate', handleSelectionUpdate)
+    }
+  }, [editor, showAIAssistant, updatePositionFromEditor])
+
+  // 监听滚动和窗口大小变化
+  useEffect(() => {
+    if (!showAIAssistant) return
+    
+    const handleReposition = () => {
+      const pos = anchorPosRef.current ?? editorRef.current?.state.selection.from
+      if (typeof pos === 'number') {
+        // 滚动/resize 时只更新垂直位置，保持水平位置不变
+        updatePositionFromEditor(pos, false)
+      }
+    }
+    
+    const handleScroll = () => handleReposition()
+    const handleResize = () => handleReposition()
+    
+    window.addEventListener('scroll', handleScroll, true)
+    window.addEventListener('resize', handleResize)
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll, true)
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [showAIAssistant, updatePositionFromEditor])
 
   if (!editor) {
     return null
@@ -448,7 +547,8 @@ export default function SimpleEditorWrapper({
     <>
       <div className="h-full flex flex-col">
         <EditorContext.Provider value={{ editor }}>
-          <Toolbar ref={toolbarRef} className="flex-none">
+          {/* 工具栏 - 在顶部 */}
+          <Toolbar ref={toolbarRef} className="flex-none border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800">
           {isMobile ? (
             // 移动端简化工具栏
             <>
@@ -458,9 +558,9 @@ export default function SimpleEditorWrapper({
               </ToolbarGroup>
               <ToolbarSeparator />
               <ToolbarGroup>
-                <MarkButton mark="bold" />
-                <MarkButton mark="italic" />
-                <MarkButton mark="underline" />
+                <MarkButton type="bold" />
+                <MarkButton type="italic" />
+                <MarkButton type="underline" />
               </ToolbarGroup>
             </>
           ) : (
@@ -488,11 +588,12 @@ export default function SimpleEditorWrapper({
               <ToolbarSeparator />
 
               <ToolbarGroup>
-                <MarkButton mark="bold" />
-                <MarkButton mark="italic" />
-                <MarkButton mark="underline" />
-                <MarkButton mark="strike" />
-                <MarkButton mark="code" />
+                <MarkButton type="bold" />
+                <MarkButton type="italic" />
+                <MarkButton type="underline" />
+                <MarkButton type="strike" />
+                <MarkButton type="code" />
+                <ColorPicker />
               </ToolbarGroup>
 
               <ToolbarSeparator />
@@ -517,6 +618,10 @@ export default function SimpleEditorWrapper({
           )}
         </Toolbar>
 
+          {/* 自定义内容（例如标题） */}
+          {renderBeforeEditor && renderBeforeEditor()}
+
+          {/* 编辑器内容区域 */}
           <div className={`flex-1 overflow-y-auto p-8 ${showAIAssistant ? 'hide-placeholder' : ''}`}>
             <EditorContent 
               editor={editor}
@@ -542,62 +647,19 @@ export default function SimpleEditorWrapper({
         </>
       )}
       
-      {/* AI 结果对话框 */}
-      {showAIResult && (
-        <AIResultDialog
-          content={aiResult}
-          loading={aiLoading}
+      {/* AI 生成面板（Notion 风格）*/}
+      {showAIActions && (
+        <AIGenerationPanel
+          isThinking={isAIThinking}
+          generatedText={aiGeneratedText}
+          position={aiPosition}
+          onCancel={handleCancelAI}
           onAccept={handleAcceptAI}
-          onReject={handleRejectAI}
-          onRegenerate={handleRegenerateAI}
+          onDiscard={handleDiscardAI}
+          onInsertBelow={handleInsertBelowAI}
+          onRetry={handleRetryAI}
         />
       )}
     </>
   )
-
-  useEffect(() => {
-    if (editor) {
-      editorRef.current = editor
-      anchorPosRef.current = editor.state.selection.from
-    }
-    return () => {
-      if (editorRef.current === editor) {
-        editorRef.current = null
-      }
-    }
-  }, [editor])
-
-  useEffect(() => {
-    if (!editor) return
-    const unsubscribe = editor.on('selectionUpdate', ({ editor: activeEditor }) => {
-      anchorPosRef.current = activeEditor.state.selection.from
-      if (showAIAssistant) {
-        updatePositionFromEditor(anchorPosRef.current ?? undefined)
-      }
-    })
-    return () => {
-      unsubscribe?.()
-    }
-  }, [editor, showAIAssistant, updatePositionFromEditor])
-
-  useEffect(() => {
-    if (!showAIAssistant) return
-    const handleReposition = (event?: Event) => {
-      if (event && panelRef.current && panelRef.current.contains(event.target as Node)) {
-        return
-      }
-      const pos = anchorPosRef.current ?? editorRef.current?.state.selection.from
-      if (typeof pos === 'number') {
-        updatePositionFromEditor(pos)
-      }
-    }
-    const handleScroll = (event: Event) => handleReposition(event)
-    const handleResize = () => handleReposition()
-    window.addEventListener('scroll', handleScroll, true)
-    window.addEventListener('resize', handleResize)
-    return () => {
-      window.removeEventListener('scroll', handleScroll, true)
-      window.removeEventListener('resize', handleResize)
-    }
-  }, [showAIAssistant, updatePositionFromEditor])
 }

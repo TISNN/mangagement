@@ -2,23 +2,16 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { 
   Search, 
-  Plus, 
   Filter, 
   MoreHorizontal, 
   Mail, 
   Phone, 
-  Calendar,
   MapPin,
   Briefcase,
   UserPlus,
   Edit,
   Trash2,
-  Eye,
-  Download,
-  Upload,
   ListFilter,
-  ArrowUpDown,
-  Building2,
   Crown
 } from 'lucide-react';
 import { employeeService, Employee } from '../../services/employeeService';
@@ -35,6 +28,7 @@ const EmployeeManagementPage: React.FC = () => {
   const [employees, setEmployees] = useState<Employee[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [openMenuId, setOpenMenuId] = useState<string | null>(null);
 
   // 从数据库加载员工数据
   useEffect(() => {
@@ -55,6 +49,26 @@ const EmployeeManagementPage: React.FC = () => {
     fetchEmployees();
   }, []);
 
+  // 点击外部关闭菜单
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+      // 如果点击的是菜单按钮或菜单内容，不关闭
+      if (target.closest('.employee-menu')) {
+        return;
+      }
+      setOpenMenuId(null);
+    };
+
+    if (openMenuId) {
+      // 使用 setTimeout 确保菜单打开后再添加监听器
+      setTimeout(() => {
+        document.addEventListener('click', handleClickOutside);
+      }, 0);
+      return () => document.removeEventListener('click', handleClickOutside);
+    }
+  }, [openMenuId]);
+
   // 处理员工删除
   const handleDeleteEmployee = async (id: string) => {
     try {
@@ -65,11 +79,6 @@ const EmployeeManagementPage: React.FC = () => {
       console.error('删除员工失败:', err);
       alert('删除员工失败，请稍后重试');
     }
-  };
-
-  // 处理员工详情查看
-  const handleViewEmployeeDetail = (id: string) => {
-    navigate(`/admin/employees/${id}`);
   };
 
   // 过滤员工
@@ -93,33 +102,12 @@ const EmployeeManagementPage: React.FC = () => {
     return department ? department.name : departmentId;
   };
 
-  // 计算任务完成百分比
-  const calculateTaskCompletionPercentage = (employee: Employee) => {
-    if (!employee.tasks || employee.tasks.total === 0) return 0;
-    return Math.round((employee.tasks.completed / employee.tasks.total) * 100);
-  };
-
-  // 显示日期格式
-  const formatDate = (dateString: string) => {
-    if (!dateString) return '';
-    const date = new Date(dateString);
-    return date.toISOString().split('T')[0]; // 返回YYYY-MM-DD格式
-  };
-
   return (
     <div className="p-6 space-y-6">
       {/* 页面标题和操作 */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <h1 className="text-2xl font-bold dark:text-white">员工管理</h1>
         <div className="flex gap-2">
-          <button className="px-4 py-2 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 flex items-center gap-2">
-            <Upload className="h-4 w-4" />
-            <span>导入</span>
-          </button>
-          <button className="px-4 py-2 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 flex items-center gap-2">
-            <Download className="h-4 w-4" />
-            <span>导出</span>
-          </button>
           <button 
             onClick={() => navigate('/admin/employees/new')}
             className="px-4 py-2 bg-purple-500 hover:bg-purple-600 rounded-lg text-white flex items-center gap-2"
@@ -148,69 +136,60 @@ const EmployeeManagementPage: React.FC = () => {
       ) : (
         <>
       {/* 合伙人展示区域 */}
-      <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm">
-        <div className="flex items-center gap-2 mb-4">
-          <Crown className="h-5 w-5 text-yellow-500" />
-          <h2 className="text-lg font-semibold dark:text-white">公司合伙人</h2>
+      <div className="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-sm">
+        <div className="flex items-center gap-2 mb-3">
+          <Crown className="h-4 w-4 text-yellow-500" />
+          <h2 className="text-base font-semibold dark:text-white">公司合伙人</h2>
         </div>
             {employees.filter(emp => emp.is_partner).length === 0 ? (
-              <p className="text-center text-gray-500 dark:text-gray-400 py-4">暂无合伙人数据</p>
+              <p className="text-center text-gray-500 dark:text-gray-400 py-3">暂无合伙人数据</p>
             ) : (
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                {employees.filter(emp => emp.is_partner).map(partner => (
-            <div key={partner.id} className="bg-gray-50 dark:bg-gray-700 rounded-xl p-6 flex flex-col items-center text-center hover:shadow-md transition-shadow">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                {employees
+                  .filter(emp => emp.is_partner)
+                  .sort((a, b) => {
+                    // Evan Xu 排在第一位
+                    if (a.name.toLowerCase().includes('evan')) return -1;
+                    if (b.name.toLowerCase().includes('evan')) return 1;
+                    return a.name.localeCompare(b.name);
+                  })
+                  .map(partner => (
+            <div key={partner.id} className="rounded-lg p-4 flex flex-col items-center text-center hover:shadow-md transition-shadow border border-gray-200 dark:border-gray-700">
               <div className="relative">
                 <img 
                   src={partner.avatar_url} 
                   alt={partner.name} 
-                  className="w-24 h-24 rounded-full object-cover border-2 border-blue-500"
+                  className="w-20 h-20 rounded-full object-cover border-2 border-blue-500"
                         onError={(e) => {
                           (e.target as HTMLImageElement).src = 'https://via.placeholder.com/80';
                         }}
                 />
-                <span className="absolute bottom-0 right-0 w-4 h-4 bg-green-500 rounded-full border-2 border-white dark:border-gray-700"></span>
+                <span className="absolute bottom-0 right-0 w-3 h-3 bg-green-500 rounded-full border-2 border-white dark:border-gray-800"></span>
               </div>
-              <h3 className="font-semibold text-xl mt-4 dark:text-white">{partner.name}</h3>
+              <h3 className="font-semibold text-base mt-3 dark:text-white">{partner.name}</h3>
               <p className="text-blue-600 dark:text-blue-400 text-sm font-medium mt-1">{partner.position}</p>
               
-              <div className="w-full mt-4 pt-2 border-t border-gray-200 dark:border-gray-600">
-                <div className="flex items-center gap-1 mt-2 text-gray-600 dark:text-gray-300 text-sm">
-                  <MapPin className="h-4 w-4" />
-                  <span>{partner.location}</span>
+              <div className="w-full mt-3 pt-3 border-t border-gray-200 dark:border-gray-600 space-y-1">
+                <div className="flex items-center justify-center gap-1.5 text-gray-600 dark:text-gray-300 text-sm">
+                  <Mail className="h-3.5 w-3.5" />
+                  <span className="truncate">{partner.email}</span>
                 </div>
-                <div className="flex items-center gap-1 mt-2 text-gray-600 dark:text-gray-300 text-sm">
-                  <Mail className="h-4 w-4" />
-                  <span>{partner.email}</span>
-                </div>
-                {partner.phone && (
-                  <div className="flex items-center gap-1 mt-2 text-gray-600 dark:text-gray-300 text-sm">
-                    <Phone className="h-4 w-4" />
-                    <span>{partner.phone}</span>
-                  </div>
-                )}
               </div>
               
-              <div className="w-full mt-4 pt-4 border-t border-gray-200 dark:border-gray-600 flex justify-around">
+              <div className="w-full mt-2 flex justify-center gap-1">
                 <button 
                   onClick={() => window.location.href = `mailto:${partner.email}`}
-                  className="p-2 text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 rounded-full"
+                  className="p-1.5 text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 rounded"
                   title="发送邮件"
                 >
-                  <Mail className="h-5 w-5" />
+                  <Mail className="h-3.5 w-3.5" />
                 </button>
                 <button 
                   onClick={() => window.location.href = `tel:${partner.phone}`}
-                  className="p-2 text-gray-500 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400 hover:bg-green-50 dark:hover:bg-green-900/20 rounded-full"
+                  className="p-1.5 text-gray-500 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400 hover:bg-green-50 dark:hover:bg-green-900/20 rounded"
                   title="拨打电话"
                 >
-                  <Phone className="h-5 w-5" />
-                </button>
-                <button 
-                  onClick={() => handleViewEmployeeDetail(partner.id)}
-                  className="p-2 text-gray-500 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-900/20 rounded-full"
-                  title="查看详情"
-                >
-                  <Eye className="h-5 w-5" />
+                  <Phone className="h-3.5 w-3.5" />
                 </button>
               </div>
             </div>
@@ -318,7 +297,7 @@ const EmployeeManagementPage: React.FC = () => {
               className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-md transition-shadow"
             >
               <div className="p-5">
-                <div className="flex justify-between items-start mb-4">
+                <div className="flex justify-between items-center mb-4">
                   <div className="flex items-center gap-3">
                     <img
                       src={employee.avatar_url}
@@ -333,15 +312,57 @@ const EmployeeManagementPage: React.FC = () => {
                       <p className="text-sm text-gray-500 dark:text-gray-400">{employee.position}</p>
                     </div>
                   </div>
-                  <div>
+                  <div className="flex items-center gap-2 flex-shrink-0">
                     <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${getStatusStyle(employee.status)}`}>
                       {getStatusText(employee.status)}
                     </span>
                         {employee.is_partner && (
-                          <span className="ml-2 inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-purple-100 text-purple-700 dark:bg-purple-900/20 dark:text-purple-400">
+                          <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-purple-100 text-purple-700 dark:bg-purple-900/20 dark:text-purple-400">
                             合伙人
                           </span>
                         )}
+                    {/* 三个点菜单 */}
+                    <div className="relative employee-menu">
+                      <button 
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setOpenMenuId(openMenuId === employee.id ? null : employee.id);
+                        }}
+                        className="p-1.5 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors"
+                      >
+                        <MoreHorizontal className="h-4 w-4" />
+                      </button>
+                      {openMenuId === employee.id && (
+                        <div 
+                          className="absolute right-0 top-full mt-1 w-40 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 py-1 z-20"
+                        >
+                          <button 
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              navigate(`/admin/employees/edit/${employee.id}`);
+                              setOpenMenuId(null);
+                            }}
+                            className="w-full px-4 py-2 text-left text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 flex items-center gap-2"
+                          >
+                            <Edit className="h-4 w-4" />
+                            编辑
+                          </button>
+                          <button 
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              if (window.confirm(`确定要删除员工 ${employee.name} 吗？此操作无法撤销。`)) {
+                                handleDeleteEmployee(employee.id);
+                              }
+                              setOpenMenuId(null);
+                            }}
+                            className="w-full px-4 py-2 text-left text-sm text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 flex items-center gap-2"
+                          >
+                            <Trash2 className="h-4 w-4" />
+                            删除
+                          </button>
+                        </div>
+                      )}
+                    </div>
                   </div>
                 </div>
 
@@ -364,7 +385,7 @@ const EmployeeManagementPage: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="flex flex-wrap gap-1 mb-4">
+                <div className="flex flex-wrap gap-1">
                   {employee.skills.map((skill, index) => (
                     <span
                       key={index}
@@ -373,47 +394,6 @@ const EmployeeManagementPage: React.FC = () => {
                       {skill}
                     </span>
                   ))}
-                </div>
-
-                <div className="grid grid-cols-2 gap-4 mb-4">
-                  <div className="bg-gray-50 dark:bg-gray-700/50 p-3 rounded-lg">
-                    <p className="text-xs text-gray-500 dark:text-gray-400 mb-1">项目</p>
-                    <p className="text-lg font-semibold text-gray-700 dark:text-gray-300">{employee.projects}</p>
-                  </div>
-                  <div className="bg-gray-50 dark:bg-gray-700/50 p-3 rounded-lg">
-                    <p className="text-xs text-gray-500 dark:text-gray-400 mb-1">任务完成率</p>
-                    <p className="text-lg font-semibold text-gray-700 dark:text-gray-300">
-                          {calculateTaskCompletionPercentage(employee)}%
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex justify-end gap-2 pt-3 border-t border-gray-100 dark:border-gray-700">
-                  <button 
-                    onClick={() => handleViewEmployeeDetail(employee.id)}
-                    className="p-2 text-gray-500 hover:text-purple-500 rounded hover:bg-purple-50 dark:hover:bg-purple-900/20"
-                  >
-                    <Eye className="h-4 w-4" />
-                  </button>
-                  <button 
-                    onClick={() => navigate(`/admin/employees/edit/${employee.id}`)}
-                    className="p-2 text-gray-500 hover:text-purple-500 rounded hover:bg-purple-50 dark:hover:bg-purple-900/20"
-                  >
-                    <Edit className="h-4 w-4" />
-                  </button>
-                  <button 
-                    onClick={() => {
-                      if (window.confirm(`确定要删除员工 ${employee.name} 吗？此操作无法撤销。`)) {
-                        handleDeleteEmployee(employee.id);
-                      }
-                    }}
-                    className="p-2 text-gray-500 hover:text-red-500 rounded hover:bg-red-50 dark:hover:bg-red-900/20"
-                  >
-                    <Trash2 className="h-4 w-4" />
-                  </button>
-                  <button className="p-2 text-gray-500 hover:text-purple-500 rounded hover:bg-purple-50 dark:hover:bg-purple-900/20">
-                    <MoreHorizontal className="h-4 w-4" />
-                  </button>
                 </div>
               </div>
             </div>

@@ -128,24 +128,35 @@ function resolveModelConfig(identifier?: string): AIModelOption {
 }
 
 /**
- * 调用 AI API
+ * 调用 AI API（流式）
+ * @param prompt 提示词
+ * @param onChunk 接收每个文本片段的回调
+ * @param modelIdentifier 模型标识
  */
-async function callAI(prompt: string, modelIdentifier?: string): Promise<string> {
+export async function callAIStream(
+  prompt: string,
+  onChunk: (text: string) => void,
+  modelIdentifier?: string
+): Promise<void> {
   const { apiKey, apiHost, model } = resolveModelConfig(modelIdentifier);
   
-  // 调试日志
-  console.log('🤖 AI 调用信息:', {
+  console.log('🤖 AI 流式调用:', {
     使用模型: model,
     API地址: apiHost,
     有API_Key: !!apiKey,
-    提示词长度: prompt.length,
   });
 
-  // 如果没有配置 API Key，返回模拟数据
+  // 如果没有配置 API Key，使用模拟流式输出
   if (!apiKey) {
-    console.warn('AI API Key 未配置，使用模拟数据');
-    await new Promise((resolve) => setTimeout(resolve, 1000)); // 模拟延迟
-    return `这是 AI 生成的示例内容。\n\n当前模型：${model}（未配置 API Key）。\n\n请在 .env 文件中配置 VITE_AI_API_KEY （可选 VITE_AI_API_HOST, VITE_AI_API_MODEL）以使用真实的 AI 功能。\n\n提示词：${prompt}`;
+    console.warn('AI API Key 未配置，使用模拟流式输出');
+    const mockText = `这是 AI 生成的示例内容。\n\n当前模型：${model}（未配置 API Key）。\n\n请在 .env 文件中配置 VITE_AI_API_KEY 以使用真实的 AI 功能。\n\n提示词：${prompt}`;
+    
+    // 模拟逐字输出
+    for (let i = 0; i < mockText.length; i++) {
+      await new Promise(resolve => setTimeout(resolve, 30));
+      onChunk(mockText[i]);
+    }
+    return;
   }
 
   try {
@@ -172,6 +183,7 @@ async function callAI(prompt: string, modelIdentifier?: string): Promise<string>
         ],
         temperature: 0.7,
         max_tokens: 800,
+        stream: true, // 启用流式输出
       }),
     });
 
@@ -184,25 +196,57 @@ async function callAI(prompt: string, modelIdentifier?: string): Promise<string>
         errorDetail = response.statusText;
       }
       
-      const errorMsg = `AI API 返回异常 [${response.status}]\n模型: ${model}\nAPI: ${endpoint}\n详情: ${errorDetail}`;
+      const errorMsg = `AI API 返回异常 [${response.status}]\n模型: ${model}\n详情: ${errorDetail}`;
       throw new Error(errorMsg);
     }
 
-    const data = await response.json();
-    const content =
-      data?.choices?.[0]?.message?.content ??
-      data?.choices?.[0]?.delta?.content ??
-      '';
-
-    if (!content) {
-      throw new Error('AI 没有返回内容');
+    // 处理流式响应
+    const reader = response.body?.getReader();
+    const decoder = new TextDecoder('utf-8');
+    
+    if (!reader) {
+      throw new Error('无法读取响应流');
     }
 
-    return content;
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+
+      const chunk = decoder.decode(value, { stream: true });
+      const lines = chunk.split('\n').filter(line => line.trim() !== '');
+
+      for (const line of lines) {
+        if (line.startsWith('data: ')) {
+          const data = line.slice(6);
+          if (data === '[DONE]') continue;
+
+          try {
+            const parsed = JSON.parse(data);
+            const content = parsed.choices?.[0]?.delta?.content;
+            if (content) {
+              onChunk(content);
+            }
+          } catch (e) {
+            console.warn('解析 SSE 数据失败:', e);
+          }
+        }
+      }
+    }
   } catch (error) {
-    console.error('AI 调用失败:', error);
+    console.error('AI 流式调用失败:', error);
     throw error;
   }
+}
+
+/**
+ * 调用 AI API（非流式，保留用于兼容）
+ */
+async function callAI(prompt: string, modelIdentifier?: string): Promise<string> {
+  let result = '';
+  await callAIStream(prompt, (chunk) => {
+    result += chunk;
+  }, modelIdentifier);
+  return result;
 }
 
 /**
