@@ -11,6 +11,7 @@ import HomePage from './website/HomePage';
 import AboutPage from './website/AboutPage';
 import PricingPage from './website/PricingPage';
 import ContactPage from './website/ContactPage';
+import ServicesPage from './website/ServicesPage';
 
 // 导入管理员页面
 import DashboardPage from './pages/admin/Dashboard';
@@ -18,6 +19,8 @@ import EmployeeManagementPage from './pages/admin/EmployeeManagementPage';
 import EmployeeFormPage from './pages/admin/EmployeeFormPage';
 import EmployeeDetailPage from './pages/admin/EmployeeDetailPage';
 import TaskManagementPage from './pages/admin/TaskManagement';
+import StudyServicesPortalPage from './pages/admin/StudyServices';
+import StudentManagementPage from './pages/admin/StudentManagement';
 import StudentsPage from './pages/admin/StudentsPage/StudentsPage';
 import StudentDetailPage from './pages/admin/StudentsPage/StudentDetailPage';
 import ApplicationsPage from './pages/admin/ApplicationsPage';
@@ -25,6 +28,7 @@ import ApplicationDetailPage from './pages/admin/ApplicationDetailPage';
 import PlanningDetailPage from './pages/admin/PlanningDetailPage';
 import LeadsPage from './pages/admin/LeadsPage';
 import LeadDetailPage from './pages/admin/LeadDetailPage';
+import MentorManagementPage from './pages/admin/MentorManagement';
 import MentorsPage from './pages/admin/MentorsPage';
 import MentorDetailPage from './pages/admin/MentorDetailPage';
 import InterviewPage from './pages/admin/InterviewPage';
@@ -43,12 +47,54 @@ import AddProgramPage from './pages/admin/AddProgramPage';
 import ProjectsPage from './pages/admin/ProjectsPage';
 import KnowledgeBase from './pages/admin/KnowledgeBase';
 import KnowledgeDetailPage from './pages/admin/KnowledgeDetailPage';
+import KnowledgeGardenPortalPage from './pages/KnowledgeGardenPortalPage';
 import StudyCopilotPage from './pages/admin/StudyCopilot';
 import ConsultationPage from './pages/admin/StudyCopilot/ConsultationPage';
 import MeetingsPage from './pages/admin/MeetingsPage';
 import MeetingDetailPage from './pages/admin/MeetingDetailPage';
 import MeetingDocumentEditorPage from './pages/admin/MeetingDocumentEditorPage';
+import AdminServicesPage from './pages/admin/Services/ServicesPage';
 import AIChatAssistantPage from './pages/AIChatAssistant';
+import ApplicationWorkbenchPage from './pages/admin/ApplicationWorkbench';
+import ProjectMissionBoardPage from './pages/admin/ProjectMissionBoard';
+import ServiceChronologyPage from './pages/admin/ServiceChronology';
+import { CRMLeadOverviewPage } from './pages/admin/CRMLeadOverview';
+import { CRMEngagementDeskPage } from './pages/admin/CRMEngagementDesk';
+import { CRMContractDockPage } from './pages/admin/CRMContractDock';
+import { CRMLeadListPage } from './pages/admin/CRMLeadList';
+import { CRMClientInsightsPage } from './pages/admin/CRMClientInsights';
+import { CRMCollaborationHubPage } from './pages/admin/CRMCollaborationHub';
+import { KnowledgeHubDashboardPage } from './pages/admin/KnowledgeHubDashboard';
+import { KnowledgeHubMySpacePage } from './pages/admin/KnowledgeHubMySpace';
+import { KnowledgeHubTeamSpacePage } from './pages/admin/KnowledgeHubTeamSpace';
+import { KnowledgeHubMarketPage } from './pages/admin/KnowledgeHubMarket';
+import KnowledgeHubMarketDetailPage from './pages/admin/KnowledgeHubMarket/KnowledgeHubMarketDetailPage';
+import { KnowledgeGardenAdminPage } from './pages/admin/KnowledgeGardenAdmin';
+import { KnowledgeModerationPage } from './pages/admin/KnowledgeModeration';
+import { KnowledgeSettingsPage } from './pages/admin/KnowledgeSettings';
+import FinanceSuitePage from './pages/admin/FinanceSuite/FinanceSuitePage';
+import { PlacementAssessmentPage } from './pages/admin/EducationTraining/PlacementAssessment';
+import { SchedulingClassroomPage } from './pages/admin/EducationTraining/SchedulingClassroom';
+import { LearnerPortalPage } from './pages/admin/EducationTraining/LearnerPortal';
+import { TutorPortalPage } from './pages/admin/EducationTraining/TutorPortal';
+import { SchoolSelectionPlannerPage } from './pages/admin/SchoolSelectionPlanner';
+import {
+  ServiceCenterAnalyticsPage,
+  ServiceCenterCatalogPage,
+  ServiceCenterClientPortalPage,
+  ServiceCenterOverviewPage,
+  ServiceCenterPage,
+  ServiceCenterProjectsPage,
+  ServiceCenterResourcesPage,
+} from './pages/admin/ServiceCenter';
+import {
+  OrganizationAndPermissionsPage,
+  EmployeeAndSchedulingPage,
+  StaffDetailPage,
+  ProcessCenterPage,
+  ComplianceGovernancePage,
+  SystemSettingsPage,
+} from './pages/admin/InternalManagement';
 
 // 导入路由保护组件
 import { PrivateRoute } from './components/PrivateRoute';
@@ -60,7 +106,9 @@ const AppRoutes: React.FC = () => {
       <Route path="/" element={<Layout><HomePage /></Layout>} />
       <Route path="/about" element={<Layout><AboutPage /></Layout>} />
       <Route path="/pricing" element={<Layout><PricingPage /></Layout>} />
+      <Route path="/services" element={<Layout><ServicesPage /></Layout>} />
       <Route path="/contact" element={<Layout><ContactPage /></Layout>} />
+      <Route path="/knowledge-garden" element={<Layout><KnowledgeGardenPortalPage /></Layout>} />
       
       {/* 认证相关路由 */}
       <Route path="/login" element={<LoginPage />} />
@@ -74,12 +122,14 @@ const AppRoutes: React.FC = () => {
         
         {/* 管理员路由 */}
         <Route path="dashboard" element={<DashboardPage />} />
+        <Route path="study-services" element={<StudyServicesPortalPage />} />
         <Route path="employees" element={<EmployeeManagementPage />} />
         <Route path="employees/new" element={<EmployeeFormPage />} />
         <Route path="employees/edit/:id" element={<EmployeeFormPage />} />
         <Route path="employees/:id" element={<EmployeeDetailPage />} />
         <Route path="tasks" element={<TaskManagementPage />} />
-        <Route path="students" element={<StudentsPage />} />
+        <Route path="students" element={<StudentManagementPage />} />
+        <Route path="students-legacy" element={<StudentsPage />} />
         <Route path="students/:studentId" element={<StudentDetailPage />} />
         <Route path="study-copilot" element={<StudyCopilotPage />} />
         <Route path="study-copilot/consultation" element={<ConsultationPage />} />
@@ -87,9 +137,45 @@ const AppRoutes: React.FC = () => {
         <Route path="applications" element={<ApplicationsPage />} />
         <Route path="applications/:id" element={<ApplicationDetailPage />} />
         <Route path="applications/:studentId/planning" element={<PlanningDetailPage />} />
+        <Route path="application-workbench" element={<ApplicationWorkbenchPage />} />
+        <Route path="project-mission-board" element={<ProjectMissionBoardPage />} />
+        <Route path="service-chronology" element={<ServiceChronologyPage />} />
+        <Route path="crm-lead-overview" element={<CRMLeadOverviewPage />} />
+        <Route path="crm-lead-list" element={<CRMLeadListPage />} />
+        <Route path="crm-engagement-desk" element={<CRMEngagementDeskPage />} />
+        <Route path="crm-contract-dock" element={<CRMContractDockPage />} />
+        <Route path="crm-client-insights" element={<CRMClientInsightsPage />} />
+        <Route path="crm-collaboration-hub" element={<CRMCollaborationHubPage />} />
+        <Route path="internal-management" element={<Navigate to="/admin/internal-management/organization-and-permissions" replace />} />
+        <Route path="internal-management/organization-and-permissions" element={<OrganizationAndPermissionsPage />} />
+        <Route path="internal-management/employee-and-scheduling" element={<EmployeeAndSchedulingPage />} />
+        <Route path="internal-management/employee-and-scheduling/:staffId" element={<StaffDetailPage />} />
+        <Route path="internal-management/process-center" element={<ProcessCenterPage />} />
+        <Route path="internal-management/compliance-governance" element={<ComplianceGovernancePage />} />
+        <Route path="internal-management/system-settings" element={<SystemSettingsPage />} />
+        <Route path="service-center" element={<ServiceCenterPage />}>
+          <Route index element={<Navigate to="overview" replace />} />
+          <Route path="overview" element={<ServiceCenterOverviewPage />} />
+          <Route path="catalog" element={<ServiceCenterCatalogPage />} />
+          <Route path="projects" element={<ServiceCenterProjectsPage />} />
+          <Route path="resources" element={<ServiceCenterResourcesPage />} />
+          <Route path="client-portal" element={<ServiceCenterClientPortalPage />} />
+          <Route path="analytics" element={<ServiceCenterAnalyticsPage />} />
+        </Route>
+        <Route path="knowledge-hub" element={<Navigate to="/admin/knowledge-hub/dashboard" replace />} />
+        <Route path="knowledge-hub/dashboard" element={<KnowledgeHubDashboardPage />} />
+        <Route path="knowledge-hub/my-space" element={<KnowledgeHubMySpacePage />} />
+        <Route path="knowledge-hub/team-space" element={<KnowledgeHubTeamSpacePage />} />
+        <Route path="knowledge-hub/market" element={<KnowledgeHubMarketPage />} />
+        <Route path="knowledge-hub/market/:marketId" element={<KnowledgeHubMarketDetailPage />} />
+        <Route path="knowledge-hub/garden" element={<KnowledgeGardenAdminPage />} />
+        <Route path="knowledge-hub/moderation" element={<KnowledgeModerationPage />} />
+        <Route path="knowledge-hub/settings" element={<KnowledgeSettingsPage />} />
+        <Route path="school-selection-planner" element={<SchoolSelectionPlannerPage />} />
         <Route path="leads" element={<LeadsPage />} />
         <Route path="leads/:leadId" element={<LeadDetailPage />} />
-        <Route path="mentors" element={<MentorsPage />} />
+        <Route path="mentors" element={<MentorManagementPage />} />
+        <Route path="mentors-legacy" element={<MentorsPage />} />
         <Route path="mentors/:id" element={<MentorDetailPage />} />
         <Route path="knowledge" element={<KnowledgeBase />} />
         <Route path="knowledge/detail/:id" element={<KnowledgeDetailPage />} />
@@ -98,6 +184,12 @@ const AppRoutes: React.FC = () => {
         <Route path="contracts" element={<ContractsPage />} />
         <Route path="social" element={<SocialMediaPage />} />
         <Route path="finance" element={<FinancePage />} />
+        <Route path="finance-suite" element={<FinanceSuitePage />} />
+        <Route path="education-training/placement-assessment" element={<PlacementAssessmentPage />} />
+        <Route path="education-training/scheduling-classroom" element={<SchedulingClassroomPage />} />
+        <Route path="education-training/learner-portal" element={<LearnerPortalPage />} />
+        <Route path="education-training/tutor-portal" element={<TutorPortalPage />} />
+        <Route path="services" element={<AdminServicesPage />} />
         <Route path="ai-chat-assistant" element={<AIChatAssistantPage />} />
         
         {/* 会议管理 */}

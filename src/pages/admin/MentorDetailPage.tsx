@@ -1,402 +1,832 @@
 // 导师详情页面
 
-import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
 import { 
   ArrowLeft, 
-  MapPin, 
-  Briefcase, 
-  GraduationCap, 
   Award, 
-  DollarSign,
-  Edit3,
-  UserCheck,
-  LucideIcon,
-  BookOpen,
-  Target,
+  CalendarClock,
+  CheckCircle2,
   Clock,
+  FileText,
+  Globe2,
+  Languages,
   Mail,
+  MapPin,
+  MessageSquareQuote,
   Phone,
-  Building
+  Send,
+  ClipboardCopy,
+  Heart,
+  Sparkles,
+  Star,
+  Target,
+  Users,
 } from 'lucide-react';
-import { fetchMentorById } from './MentorLibrary/services/mentorService';
-import type { Mentor } from './MentorLibrary/types/mentor.types';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from '@/components/ui/dialog';
 
-// 标签组件
-interface TagProps {
-  text: string;
-  color: string;
-}
+import {
+  AVAILABILITY_DATA,
+  MENTOR_MARKET,
+  MENTOR_TASKS,
+  MENTOR_TEAM,
+  SHARED_RESOURCES,
+} from './MentorManagement/data';
+import type { MentorRecord } from './MentorManagement/types';
 
-const Tag: React.FC<TagProps> = ({ text, color }) => (
-  <span className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-medium ${color}`}>
-    {text}
-  </span>
-);
+const mergeMentorData = (id: string | undefined): MentorRecord | undefined => {
+  if (!id) return undefined;
+  return [...MENTOR_TEAM, ...MENTOR_MARKET].find((mentor) => mentor.id === id);
+};
 
-// 信息项组件
-interface InfoItemProps {
-  icon: LucideIcon;
-  label: string;
-  value: string | React.ReactNode;
-}
-
-const InfoItem: React.FC<InfoItemProps> = ({ icon: Icon, label, value }) => (
-  <div className="flex items-start gap-3 p-4 bg-gray-50 dark:bg-gray-800/50 rounded-lg">
-    <div className="p-2 bg-blue-100 dark:bg-blue-900/30 rounded-lg">
-      <Icon className="h-5 w-5 text-blue-600 dark:text-blue-400" />
-    </div>
-    <div className="flex-1">
-      <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">{label}</p>
-      <div className="font-medium text-gray-900 dark:text-white">{value}</div>
-    </div>
-  </div>
-);
-
-// 导师详情页组件
 const MentorDetailPage: React.FC = () => {
-  const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  const [mentor, setMentor] = useState<Mentor | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  const { id } = useParams<{ id: string }>();
 
-  // 获取导师详情
+  const mentor = useMemo(() => mergeMentorData(id), [id]);
+  const availability = useMemo(
+    () => AVAILABILITY_DATA.filter((slot) => slot.mentorId === id),
+    [id],
+  );
+  const relatedTasks = useMemo(
+    () => (mentor ? MENTOR_TASKS.filter((task) => task.mentor === mentor.name) : []),
+    [mentor],
+  );
+  const [isAssignOpen, setAssignOpen] = useState(false);
+  const [isContactOpen, setContactOpen] = useState(false);
+  const [favorite, setFavorite] = useState(false);
+  const [note, setNote] = useState('');
+  const [noteSaved, setNoteSaved] = useState(false);
+  const [taskForm, setTaskForm] = useState({
+    title: '',
+    type: '文书',
+    deadline: '',
+    priority: '高' as '高' | '中' | '低',
+  });
+  const [contactMessage, setContactMessage] = useState('您好，我想与您确认下一次辅导安排。');
+  const [actionLog, setActionLog] = useState<string[]>([]);
+  const [copiedField, setCopiedField] = useState<string | null>(null);
+  const noteTimeoutRef = useRef<number | null>(null);
+  const copyTimeoutRef = useRef<number | null>(null);
+
   useEffect(() => {
-    const fetchMentorDetail = async () => {
-      if (!id) return;
-      
-      try {
-        setLoading(true);
-        const data = await fetchMentorById(id);
-        if (data) {
-          setMentor(data);
-          setError(null);
-        } else {
-          setError('未找到该导师信息');
-        }
-      } catch (err) {
-        console.error('获取导师详情失败:', err);
-        setError('加载导师详情失败，请稍后重试');
-      } finally {
-        setLoading(false);
+    if (!mentor) return;
+    setTaskForm({
+      title: '',
+      type: mentor.primaryRole,
+      deadline: '',
+      priority: '高',
+    });
+    setContactMessage(`您好 ${mentor.name} 老师，我想与您确认下一次辅导安排。`);
+    setFavorite(false);
+    setNote('');
+    setNoteSaved(false);
+    setCopiedField(null);
+    setActionLog([]);
+  }, [mentor?.id, mentor?.name, mentor?.primaryRole]);
+
+  useEffect(
+    () => () => {
+      if (noteTimeoutRef.current) {
+        window.clearTimeout(noteTimeoutRef.current);
+        noteTimeoutRef.current = null;
       }
-    };
+      if (copyTimeoutRef.current) {
+        window.clearTimeout(copyTimeoutRef.current);
+        copyTimeoutRef.current = null;
+      }
+    },
+    [],
+  );
 
-    fetchMentorDetail();
-  }, [id]);
+  const addActionLog = (message: string) => {
+    const timestamp = new Date().toLocaleTimeString('zh-CN', {
+      hour: '2-digit',
+      minute: '2-digit',
+    });
+    setActionLog((prev) => [`${timestamp} · ${message}`, ...prev].slice(0, 6));
+  };
 
-  // 加载状态
-  if (loading) {
+  const handleFavoriteToggle = () => {
+    setFavorite((prev) => {
+      const next = !prev;
+      addActionLog(next ? '已收藏导师到个人关注列表' : '已取消收藏');
+      return next;
+    });
+  };
+
+  const handleTaskFormChange = (
+    event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>,
+  ) => {
+    const { name, value } = event.target;
+    setTaskForm((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const handleAssignSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    addActionLog(`已为导师指派任务「${taskForm.title || '未命名任务'}」`);
+    setAssignOpen(false);
+    setTaskForm({
+      title: '',
+      type: mentor?.primaryRole ?? '文书',
+      deadline: '',
+      priority: '高',
+    });
+  };
+
+  const handleContactSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    addActionLog('已向导师发送联系意向');
+    if (mentor) {
+      setContactMessage(`您好 ${mentor.name} 老师，我想与您确认下一次辅导安排。`);
+    }
+    setContactOpen(false);
+  };
+
+  const handleCopy = async (value: string, field: 'email' | 'phone') => {
+    if (typeof navigator === 'undefined' || !navigator.clipboard) return;
+    try {
+      await navigator.clipboard.writeText(value);
+      setCopiedField(field);
+      addActionLog(field === 'email' ? '已复制导师邮箱' : '已复制导师电话');
+      if (copyTimeoutRef.current) {
+        window.clearTimeout(copyTimeoutRef.current);
+      }
+      copyTimeoutRef.current = window.setTimeout(() => {
+        setCopiedField(null);
+        copyTimeoutRef.current = null;
+      }, 2000);
+    } catch (error) {
+      console.error('复制失败', error);
+    }
+  };
+
+  const handleSaveNote = () => {
+    if (!note.trim()) return;
+    setNoteSaved(true);
+    addActionLog('已同步导师内部备忘');
+    if (noteTimeoutRef.current) {
+      window.clearTimeout(noteTimeoutRef.current);
+    }
+    noteTimeoutRef.current = window.setTimeout(() => {
+      setNoteSaved(false);
+      noteTimeoutRef.current = null;
+    }, 2000);
+  };
+
+  if (!mentor) {
     return (
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
-          <p className="text-gray-600 dark:text-gray-400">加载导师详情中...</p>
-        </div>
-      </div>
-    );
-  }
-
-  // 错误状态
-  if (error || !mentor) {
-    return (
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center">
-        <div className="text-center max-w-md">
-          <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-6">
-            <p className="text-red-600 dark:text-red-400 font-medium mb-2">加载失败</p>
-            <p className="text-red-500 dark:text-red-300 text-sm mb-4">{error}</p>
+      <div className="flex min-h-screen items-center justify-center bg-gray-50 p-6 dark:bg-gray-900">
+        <div className="max-w-md space-y-4 rounded-2xl border border-gray-200 bg-white p-8 text-center shadow-sm dark:border-gray-700 dark:bg-gray-800">
+          <Sparkles className="mx-auto h-10 w-10 text-indigo-500" />
+          <p className="text-lg font-semibold text-gray-900 dark:text-white">未找到导师信息</p>
+          <p className="text-sm text-gray-500 dark:text-gray-400">请返回导师管理中心重新选择导师。</p>
             <button
               onClick={() => navigate('/admin/mentors')}
-              className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors"
+            className="inline-flex items-center justify-center gap-2 rounded-xl bg-blue-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-blue-700"
             >
-              返回导师库
+            <ArrowLeft className="h-4 w-4" /> 返回导师管理中心
             </button>
-          </div>
         </div>
       </div>
     );
   }
 
-  // 默认头像 - 使用 DiceBear API 根据导师名字生成
-  const defaultAvatar = `https://api.dicebear.com/7.x/avataaars/svg?seed=${mentor.name}`;
+  const metricCards = [
+    {
+      label: '可用率',
+      value: `${mentor.availabilityRate}%`,
+      description: '近 4 周可预约时段占比',
+      icon: <CalendarClock className="h-5 w-5 text-emerald-500" />,
+    },
+    {
+      label: '利用率',
+      value: `${mentor.utilizationRate}%`,
+      description: '任务占用时间 / 可用时间',
+      icon: <Clock className="h-5 w-5 text-amber-500" />,
+    },
+    {
+      label: '满意度',
+      value: mentor.satisfaction.toFixed(1),
+      description: '学员反馈平均分',
+      icon: <Star className="h-5 w-5 text-purple-500" />,
+    },
+    {
+      label: '在辅学生',
+      value: `${mentor.studentsCount}`,
+      description: '当前在辅学员数量',
+      icon: <Users className="h-5 w-5 text-blue-500" />,
+    },
+  ];
+
+  const combinedMetrics = mentor.metrics ? [...mentor.metrics] : [];
+  const sharedResources = SHARED_RESOURCES.slice(0, 3);
+  const canCopyPhone = mentor.phone !== '暂未共享';
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      {/* 顶部导航栏 */}
-      <div className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
-        <div className="max-w-7xl mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
+    <div className="min-h-screen bg-gray-50 pb-16 dark:bg-gray-900">
+      <div className="mx-auto max-w-7xl px-6 py-10">
             <button
-              onClick={() => navigate('/admin/mentors')}
-              className="inline-flex items-center text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 transition-colors"
+          onClick={() => navigate(-1)}
+          className="mb-6 inline-flex items-center gap-2 text-sm font-medium text-gray-500 transition hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200"
             >
-              <ArrowLeft className="h-5 w-5 mr-2" />
-              <span className="font-medium">返回导师库</span>
+          <ArrowLeft className="h-4 w-4" /> 返回上一页
             </button>
             
-            <div className="flex items-center gap-3">
-              {/* 编辑按钮 - 待实现 */}
+        <div className="relative overflow-hidden rounded-3xl border border-gray-200 bg-gradient-to-br from-indigo-600 via-purple-600 to-blue-500 shadow-lg dark:border-indigo-900">
+          <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-20" aria-hidden />
+          <div className="relative flex flex-col gap-8 p-8 text-white md:flex-row md:items-end md:justify-between md:p-12">
+            <div className="flex items-start gap-6">
+              <img
+                src={mentor.avatar}
+                alt={mentor.name}
+                className="h-32 w-32 rounded-2xl border-4 border-white/30 object-cover shadow-xl"
+              />
+              <div className="space-y-4">
+                  <div>
+                  <p className="inline-flex items-center rounded-full bg-white/20 px-3 py-1 text-xs uppercase tracking-widest">
+                    {mentor.primaryRole} · {mentor.secondaryRoles.join(' / ')}
+                  </p>
+                  <h1 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">{mentor.name}</h1>
+                  {mentor.headline && <p className="mt-2 text-sm text-white/80">{mentor.headline}</p>}
+                </div>
+                <div className="flex flex-wrap gap-2 text-xs">
+                  {mentor.tags.map((tag) => (
+                    <span key={tag} className="rounded-full bg-white/15 px-3 py-1">
+                      #{tag}
+                    </span>
+                  ))}
+                </div>
+                <div className="flex flex-wrap gap-3 text-xs">
+                  <span className="inline-flex items-center gap-1 rounded-full bg-white/15 px-3 py-1">
+                    <Globe2 className="h-3.5 w-3.5" /> 时区 {mentor.timezone}
+                  </span>
+                  {mentor.languages.length > 0 && (
+                    <span className="inline-flex items-center gap-1 rounded-full bg-white/15 px-3 py-1">
+                      <Languages className="h-3.5 w-3.5" /> 语言 {mentor.languages.join(' / ')}
+                    </span>
+                  )}
+                  {mentor.pricePerHour && (
+                    <span className="inline-flex items-center gap-1 rounded-full bg-white/15 px-3 py-1">
+                      <Sparkles className="h-3.5 w-3.5" /> 时薪 ¥{mentor.pricePerHour}/小时
+                    </span>
+                  )}
+                  {mentor.experienceYears && (
+                    <span className="inline-flex items-center gap-1 rounded-full bg-white/15 px-3 py-1">
+                      <CheckCircle2 className="h-3.5 w-3.5" /> 经验 {mentor.experienceYears} 年
+                    </span>
+                  )}
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-wrap justify-end gap-3">
               <button
-                onClick={() => {/* TODO: 导航到编辑页面 */}}
-                className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                onClick={handleFavoriteToggle}
+                className={`inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold transition ${
+                  favorite ? 'bg-rose-600 text-white shadow-md hover:bg-rose-500' : 'border border-white/40 text-white hover:bg-white/15'
+                }`}
               >
-                <Edit3 className="h-4 w-4 mr-2" />
-                编辑导师
+                <Heart className="h-4 w-4" fill={favorite ? 'currentColor' : 'none'} />
+                {favorite ? '已收藏导师' : '收藏导师'}
+              </button>
+              <button
+                onClick={() => {
+                  addActionLog('已导出导师档案（模拟）');
+                }}
+                className="inline-flex items-center gap-2 rounded-xl border border-white/40 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
+              >
+                <FileText className="h-4 w-4" /> 导出导师档案
+              </button>
+              <button
+                onClick={() => setContactOpen(true)}
+                className="inline-flex items-center gap-2 rounded-xl border border-white/40 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
+              >
+                <Mail className="h-4 w-4" />
+                联系导师
+              </button>
+              <button
+                onClick={() => setAssignOpen(true)}
+                className="inline-flex items-center gap-2 rounded-xl bg-white px-4 py-2 text-sm font-semibold text-indigo-600 shadow-md transition hover:bg-indigo-50"
+              >
+                <Sparkles className="h-4 w-4" /> 指派新任务
               </button>
             </div>
           </div>
         </div>
-      </div>
 
-      {/* 主内容区 */}
-      <div className="max-w-7xl mx-auto px-6 py-8">
-        {/* 导师基本信息卡片 */}
-        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 overflow-hidden mb-6">
-          {/* 顶部背景 */}
-          <div className="h-32 bg-gradient-to-r from-blue-500 to-blue-600"></div>
-          
-          {/* 导师信息 */}
-          <div className="px-8 pb-8">
-            <div className="flex items-start gap-6 -mt-16">
-              {/* 头像 */}
-              <img
-                src={mentor.avatarUrl || defaultAvatar}
-                alt={mentor.name}
-                className="h-32 w-32 rounded-xl border-4 border-white dark:border-gray-800 object-cover shadow-lg"
-              />
-              
-              {/* 基本信息 */}
-              <div className="flex-1 mt-16">
-                <div className="flex items-start justify-between">
-                  <div>
-                    <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
-                      {mentor.name}
-                    </h1>
-                    <div className="flex items-center gap-3 flex-wrap">
-                      {/* 专业级别 */}
-                      {mentor.expertiseLevel && (
-                        <Tag 
-                          text={mentor.expertiseLevel} 
-                          color="bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400" 
-                        />
-                      )}
-                      
-                      {/* 活跃状态 */}
-                      {mentor.isActive && (
-                        <Tag 
-                          text="在职" 
-                          color="bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400" 
-                        />
-                      )}
-                      
-                      {/* 员工关联 */}
-                      {mentor.employeeId && (
-                        <Tag 
-                          text="员工导师" 
-                          color="bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400" 
-                        />
-                      )}
-                    </div>
-                  </div>
-                  
-                  {/* 时薪 */}
-                  {mentor.hourlyRate && (
-                    <div className="text-right">
-                      <p className="text-sm text-gray-500 dark:text-gray-400">时薪</p>
-                      <p className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-                        ¥{mentor.hourlyRate}/小时
-                      </p>
-                    </div>
-                  )}
+        <section className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+          {metricCards.map((metric) => (
+            <div
+              key={metric.label}
+              className="rounded-2xl border border-gray-100 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg dark:border-gray-700/70 dark:bg-gray-800"
+            >
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">{metric.label}</p>
+                  <p className="mt-2 text-2xl font-semibold text-gray-900 dark:text-white">{metric.value}</p>
                 </div>
+                {metric.icon}
               </div>
+              <p className="mt-3 text-xs text-gray-500 dark:text-gray-400">{metric.description}</p>
             </div>
-          </div>
-        </div>
+          ))}
+        </section>
 
-        {/* 详细信息网格 */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* 左侧栏 - 基本信息 */}
-          <div className="lg:col-span-1 space-y-6">
-            {/* 联系信息卡片 */}
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-6">
-              <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                <UserCheck className="h-5 w-5 text-blue-600 dark:text-blue-400" />
-                基本信息
-              </h2>
-              <div className="space-y-3">
-                {/* 地理位置 */}
-                <InfoItem
-                  icon={MapPin}
-                  label="地理位置"
-                  value={mentor.location}
-                />
-                
-                {/* 性别 */}
-                {mentor.gender && (
-                  <InfoItem
-                    icon={UserCheck}
-                    label="性别"
-                    value={mentor.gender}
-                  />
-                )}
-                
-                {/* 联系方式 */}
-                {mentor.contact && (
-                  <InfoItem
-                    icon={Phone}
-                    label="联系方式"
-                    value={mentor.contact}
-                  />
-                )}
-                
-                {/* 邮箱 */}
+        {combinedMetrics.length > 0 && (
+          <section className="mt-6 grid gap-4 md:grid-cols-3">
+            {combinedMetrics.map((metric) => (
+              <div key={metric.label} className="rounded-2xl border border-indigo-100 bg-white/90 p-5 shadow-sm dark:border-indigo-500/40 dark:bg-indigo-950/30">
+                <p className="text-sm font-medium text-indigo-600 dark:text-indigo-200">{metric.label}</p>
+                <p className="mt-2 text-2xl font-semibold text-gray-900 dark:text-white">{metric.value}</p>
+                <p className="mt-2 text-xs text-indigo-500 dark:text-indigo-300/80">{metric.description}</p>
+              </div>
+            ))}
+          </section>
+        )}
+
+        {actionLog.length > 0 && (
+          <section className="mt-8 rounded-2xl border border-indigo-100 bg-white/80 p-6 shadow-sm dark:border-indigo-600/40 dark:bg-gray-900/40">
+            <h2 className="text-lg font-semibold text-gray-900 dark:text-white">最新互动记录</h2>
+            <p className="mt-1 text-xs uppercase tracking-[0.3em] text-indigo-400 dark:text-indigo-300/70">近实时同步</p>
+            <ul className="mt-4 space-y-2 text-sm text-gray-600 dark:text-gray-300">
+              {actionLog.map((entry) => (
+                <li key={entry} className="flex items-start gap-2">
+                  <Sparkles className="mt-0.5 h-4 w-4 text-indigo-500" />
+                  <span>{entry}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        <div className="mt-10 grid gap-8 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)]">
+          <div className="space-y-8">
+            <section className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/70 dark:bg-gray-800">
+              <h2 className="text-lg font-semibold text-gray-900 dark:text-white">联系与基础信息</h2>
+              <div className="space-y-4 text-sm text-gray-600 dark:text-gray-300">
+                <div className="flex items-center gap-3">
+                  <MapPin className="h-4 w-4 text-blue-500" />
+                  <span>{mentor.region}</span>
+                </div>
                 {mentor.email && (
-                  <InfoItem
-                    icon={Mail}
-                    label="邮箱"
-                    value={mentor.email}
-                  />
+                  <div className="flex items-center gap-3">
+                    <Mail className="h-4 w-4 text-blue-500" />
+                    <span>{mentor.email}</span>
+                  </div>
                 )}
+                {mentor.phone && (
+                  <div className="flex items-center gap-3">
+                    <Phone className="h-4 w-4 text-blue-500" />
+                    <span>{mentor.phone}</span>
               </div>
+                )}
+                <div className="flex items-center gap-3">
+                  <Globe2 className="h-4 w-4 text-blue-500" />
+                  <span>时区 {mentor.timezone}</span>
             </div>
-
-            {/* 服务范围卡片 */}
-            {mentor.serviceScope.length > 0 && (
-              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-6">
-                <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                  <Briefcase className="h-5 w-5 text-blue-600 dark:text-blue-400" />
-                  服务范围
-                </h2>
-                <div className="flex flex-wrap gap-2">
-                  {mentor.serviceScope.map((scope, index) => (
-                    <Tag
-                      key={index}
-                      text={scope}
-                      color="bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400"
-                    />
-                  ))}
+                <div className="flex items-center gap-3">
+                  <Clock className="h-4 w-4 text-blue-500" />
+                  <span>最近活跃：{mentor.lastActivity}</span>
                 </div>
               </div>
+              {mentor.tools && mentor.tools.length > 0 && (
+                <div>
+                  <p className="mt-4 text-xs uppercase tracking-[0.2em] text-gray-400">常用工具</p>
+                  <div className="mt-3 flex flex-wrap gap-2 text-xs">
+                    {mentor.tools.map((tool) => (
+                      <span key={tool} className="rounded-full bg-gray-100 px-3 py-1 text-gray-700 dark:bg-gray-700/70 dark:text-gray-200">
+                        {tool}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </section>
+
+            {(mentor.serviceScope?.length || mentor.focusAreas?.length) && (
+              <section className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/70 dark:bg-gray-800">
+                <h2 className="text-lg font-semibold text-gray-900 dark:text-white">服务范围与擅长领域</h2>
+                {mentor.serviceScope && mentor.serviceScope.length > 0 && (
+                  <div>
+                    <p className="text-xs uppercase tracking-[0.3em] text-gray-400">服务范围</p>
+                    <div className="mt-3 flex flex-wrap gap-2 text-xs text-gray-600 dark:text-gray-300">
+                      {mentor.serviceScope.map((scope) => (
+                        <span key={scope} className="rounded-full bg-blue-50 px-3 py-1 text-blue-600 dark:bg-blue-900/30 dark:text-blue-200">
+                          {scope}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {mentor.focusAreas && mentor.focusAreas.length > 0 && (
+                  <div>
+                    <p className="text-xs uppercase tracking-[0.3em] text-gray-400">擅长领域</p>
+                    <div className="mt-3 space-y-2 text-sm text-gray-600 dark:text-gray-300">
+                      {mentor.focusAreas.map((area) => (
+                        <div key={area} className="inline-flex items-center gap-2 rounded-xl bg-gray-50 px-3 py-1 dark:bg-gray-700/40">
+                          <Target className="h-3.5 w-3.5 text-blue-500" /> {area}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {mentor.strengths && mentor.strengths.length > 0 && (
+                <div>
+                    <p className="text-xs uppercase tracking-[0.3em] text-gray-400">优势亮点</p>
+                    <ul className="mt-3 space-y-2 text-sm text-gray-600 dark:text-gray-300">
+                      {mentor.strengths.map((strength) => (
+                        <li key={strength} className="flex items-start gap-2">
+                          <CheckCircle2 className="mt-0.5 h-4 w-4 text-emerald-500" />
+                          <span>{strength}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </section>
             )}
 
-            {/* 时间信息卡片 */}
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-6">
-              <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                <Clock className="h-5 w-5 text-blue-600 dark:text-blue-400" />
-                时间信息
-              </h2>
-              <div className="space-y-3">
-                <div>
-                  <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">创建时间</p>
-                  <p className="text-sm text-gray-900 dark:text-white">
-                    {new Date(mentor.createdAt).toLocaleString('zh-CN')}
-                  </p>
-                </div>
-                <div>
-                  <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">更新时间</p>
-                  <p className="text-sm text-gray-900 dark:text-white">
-                    {new Date(mentor.updatedAt).toLocaleString('zh-CN')}
-                  </p>
+            {mentor.education && mentor.education.length > 0 && (
+              <section className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/70 dark:bg-gray-800">
+                <h2 className="text-lg font-semibold text-gray-900 dark:text-white">教育背景</h2>
+                <ul className="space-y-3">
+                  {mentor.education.map((edu) => (
+                    <li key={`${edu.school}-${edu.period}`} className="rounded-xl bg-gray-50 p-4 text-sm text-gray-700 dark:bg-gray-700/40 dark:text-gray-200">
+                      <p className="font-medium text-gray-900 dark:text-white">{edu.school}</p>
+                      <p>{edu.degree}</p>
+                      <p className="text-xs text-gray-500 dark:text-gray-400">{edu.period}</p>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            <section className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/70 dark:bg-gray-800">
+              <h2 className="text-lg font-semibold text-gray-900 dark:text-white">内部备忘</h2>
+              <textarea
+                value={note}
+                onChange={(event) => setNote(event.target.value)}
+                placeholder="记录对接要点、风险提醒或下一步行动……"
+                className="min-h-[140px] w-full rounded-xl border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-700 transition focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100 dark:border-gray-700 dark:bg-gray-800/70 dark:text-gray-200 dark:focus:border-indigo-400 dark:focus:ring-indigo-500/20"
+              />
+              <div className="flex items-center justify-between">
+                <span className="text-xs text-gray-400 dark:text-gray-500">仅内部团队可见</span>
+                <div className="flex items-center gap-2">
+                  {noteSaved && <span className="text-xs text-emerald-500 dark:text-emerald-300">已保存</span>}
+                  <button
+                    type="button"
+                    onClick={handleSaveNote}
+                    disabled={!note.trim()}
+                    className="inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-3 py-2 text-xs font-medium text-white transition hover:bg-indigo-500 disabled:cursor-not-allowed disabled:bg-gray-400 disabled:text-white/80"
+                  >
+                    <Sparkles className="h-3.5 w-3.5" />
+                    保存备忘
+                  </button>
                 </div>
               </div>
+            </section>
+
+            {availability.length > 0 && (
+              <section className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/70 dark:bg-gray-800">
+                <h2 className="text-lg font-semibold text-gray-900 dark:text-white">可预约时段</h2>
+                <div className="space-y-3 text-sm text-gray-600 dark:text-gray-300">
+                  {availability.map((slot) => (
+                    <div key={slot.id} className="flex items-center justify-between rounded-xl bg-gray-50 px-4 py-3 dark:bg-gray-700/40">
+                      <div className="flex items-center gap-3">
+                        <CalendarClock className="h-4 w-4 text-blue-500" />
+                        <span>
+                          {slot.day} · {slot.startTime} — {slot.endTime}
+                        </span>
+                      </div>
+                      <span
+                        className={`rounded-full px-3 py-1 text-xs font-medium ${
+                          slot.status === '可用'
+                            ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-300'
+                            : slot.status === '忙碌'
+                            ? 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-300'
+                            : 'bg-gray-200 text-gray-600 dark:bg-gray-700 dark:text-gray-300'
+                        }`}
+                      >
+                        {slot.status}
+                      </span>
+                    </div>
+                  ))}
             </div>
+                {mentor.availabilityNotes && mentor.availabilityNotes.length > 0 && (
+                  <ul className="space-y-2 rounded-xl bg-indigo-50/70 p-4 text-xs text-indigo-600 dark:bg-indigo-900/30 dark:text-indigo-200">
+                    {mentor.availabilityNotes.map((note) => (
+                      <li key={note} className="flex items-start gap-2">
+                        <Sparkles className="mt-0.5 h-3.5 w-3.5" />
+                        <span>{note}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </section>
+            )}
           </div>
 
-          {/* 右侧栏 - 专业信息 */}
-          <div className="lg:col-span-2 space-y-6">
-            {/* 个人简介卡片 */}
+          <div className="space-y-8">
             {mentor.bio && (
-              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-6">
-                <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                  <BookOpen className="h-5 w-5 text-blue-600 dark:text-blue-400" />
-                  个人简介
-                </h2>
-                <p className="text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-wrap">
-                  {mentor.bio}
-                </p>
-              </div>
+              <section className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/70 dark:bg-gray-800">
+                <h2 className="text-lg font-semibold text-gray-900 dark:text-white">导师简介</h2>
+                <p className="leading-relaxed text-gray-700 dark:text-gray-200">{mentor.bio}</p>
+              </section>
             )}
 
-            {/* 专业方向卡片 */}
-            {mentor.specializations.length > 0 && (
-              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-6">
-                <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                  <GraduationCap className="h-5 w-5 text-blue-600 dark:text-blue-400" />
-                  专业方向
+            {mentor.achievements && mentor.achievements.length > 0 && (
+              <section className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/70 dark:bg-gray-800">
+                <h2 className="flex items-center gap-2 text-lg font-semibold text-gray-900 dark:text-white">
+                  <Award className="h-5 w-5 text-amber-500" /> 荣誉成果
                 </h2>
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-                  {mentor.specializations.map((spec, index) => (
-                    <div
-                      key={index}
-                      className="flex items-center gap-2 p-3 bg-gray-50 dark:bg-gray-700/50 rounded-lg"
-                    >
-                      <Target className="h-4 w-4 text-blue-600 dark:text-blue-400 flex-shrink-0" />
-                      <span className="text-sm text-gray-700 dark:text-gray-300">{spec}</span>
+                <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
+                  {mentor.achievements.map((achievement) => (
+                    <li key={achievement} className="flex items-start gap-2">
+                      <Sparkles className="mt-0.5 h-4 w-4 text-amber-400" />
+                      <span>{achievement}</span>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {mentor.projects && mentor.projects.length > 0 && (
+              <section className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/70 dark:bg-gray-800">
+                <h2 className="flex items-center gap-2 text-lg font-semibold text-gray-900 dark:text-white">
+                  <FileText className="h-5 w-5 text-blue-500" /> 核心项目案例
+                </h2>
+                <div className="space-y-4">
+                  {mentor.projects.map((project) => (
+                    <div key={project.title} className="rounded-xl border border-gray-100 bg-gray-50 p-4 text-sm text-gray-700 dark:border-gray-700/70 dark:bg-gray-800/60 dark:text-gray-200">
+                      <div className="flex flex-wrap items-center justify-between gap-2">
+                        <p className="font-semibold text-gray-900 dark:text-white">{project.title}</p>
+                        {project.year && <span className="text-xs text-gray-500 dark:text-gray-400">{project.year}</span>}
+                      </div>
+                      <p className="mt-2 text-xs text-gray-500 dark:text-gray-400">{project.result}</p>
+                      <p className="mt-3 leading-relaxed">{project.description}</p>
                     </div>
                   ))}
                 </div>
-              </div>
+              </section>
             )}
 
-            {/* 专业能力卡片 */}
-            {(mentor.expertiseLevel || mentor.hourlyRate) && (
-              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-6">
-                <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                  <Award className="h-5 w-5 text-blue-600 dark:text-blue-400" />
-                  专业能力
+            {relatedTasks.length > 0 && (
+              <section className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/70 dark:bg-gray-800">
+                <h2 className="text-lg font-semibold text-gray-900 dark:text-white">当前任务</h2>
+                <div className="overflow-hidden rounded-xl border border-gray-100 dark:border-gray-700/70">
+                  <table className="min-w-full divide-y divide-gray-100 text-sm dark:divide-gray-700/70">
+                    <thead className="bg-gray-50 text-left text-xs uppercase tracking-[0.2em] text-gray-400 dark:bg-gray-800/80 dark:text-gray-500">
+                      <tr>
+                        <th className="px-4 py-3 font-medium">任务</th>
+                        <th className="px-4 py-3 font-medium">学生</th>
+                        <th className="px-4 py-3 font-medium">类型</th>
+                        <th className="px-4 py-3 font-medium">截止</th>
+                        <th className="px-4 py-3 font-medium">优先级</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-gray-100 bg-white dark:divide-gray-700/70 dark:bg-gray-900/40">
+                      {relatedTasks.map((task) => (
+                        <tr key={task.id}>
+                          <td className="px-4 py-3 text-gray-700 dark:text-gray-200">{task.title}</td>
+                          <td className="px-4 py-3 text-gray-500 dark:text-gray-400">{task.student}</td>
+                          <td className="px-4 py-3 text-gray-500 dark:text-gray-400">{task.type}</td>
+                          <td className="px-4 py-3 text-gray-500 dark:text-gray-400">{task.deadline}</td>
+                          <td className="px-4 py-3">
+                            <span
+                              className={`rounded-full px-3 py-1 text-xs font-medium ${
+                                task.priority === '高'
+                                  ? 'bg-rose-100 text-rose-600 dark:bg-rose-900/30 dark:text-rose-300'
+                                  : task.priority === '中'
+                                  ? 'bg-amber-100 text-amber-600 dark:bg-amber-900/30 dark:text-amber-300'
+                                  : 'bg-slate-100 text-slate-600 dark:bg-slate-800/60 dark:text-slate-300'
+                              }`}
+                            >
+                              {task.priority}
+                            </span>
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+              </div>
+              </section>
+            )}
+
+            {mentor.testimonials && mentor.testimonials.length > 0 && (
+              <section className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/70 dark:bg-gray-800">
+                <h2 className="flex items-center gap-2 text-lg font-semibold text-gray-900 dark:text-white">
+                  <MessageSquareQuote className="h-5 w-5 text-emerald-500" /> 学员反馈
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {mentor.expertiseLevel && (
-                    <div className="p-4 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-900/10 rounded-lg">
-                      <p className="text-sm text-blue-600 dark:text-blue-400 mb-1">专业级别</p>
-                      <p className="text-xl font-bold text-blue-700 dark:text-blue-300">
-                        {mentor.expertiseLevel}
-                      </p>
+                <div className="space-y-3 text-sm text-gray-600 dark:text-gray-300">
+                  {mentor.testimonials.map((testimonial) => (
+                    <div key={testimonial.author} className="rounded-xl bg-emerald-50 p-4 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-200">
+                      <p className="text-xs font-semibold uppercase tracking-wide">{testimonial.author}</p>
+                      <p className="text-xs text-emerald-500 opacity-80">{testimonial.role}</p>
+                      <p className="mt-3 leading-relaxed">“{testimonial.comment}”</p>
                     </div>
-                  )}
-                  
-                  {mentor.hourlyRate && (
-                    <div className="p-4 bg-gradient-to-br from-green-50 to-green-100 dark:from-green-900/20 dark:to-green-900/10 rounded-lg">
-                      <p className="text-sm text-green-600 dark:text-green-400 mb-1">时薪</p>
-                      <p className="text-xl font-bold text-green-700 dark:text-green-300">
-                        ¥{mentor.hourlyRate}/小时
-                      </p>
-                    </div>
-                  )}
+                  ))}
                 </div>
-              </div>
+              </section>
             )}
 
-            {/* 员工关联信息 */}
-            {mentor.employeeId && (
-              <div className="bg-gradient-to-r from-purple-50 to-blue-50 dark:from-purple-900/20 dark:to-blue-900/20 rounded-xl border border-purple-200 dark:border-purple-800 p-6">
-                <div className="flex items-start gap-4">
-                  <div className="p-3 bg-purple-100 dark:bg-purple-900/30 rounded-lg">
-                    <Building className="h-6 w-6 text-purple-600 dark:text-purple-400" />
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                      员工关联信息
-                    </h3>
-                    <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">
-                      该导师同时也是公司员工，部分信息与员工档案自动同步
-                    </p>
-                    <button
-                      onClick={() => navigate(`/admin/employees/${mentor.employeeId}`)}
-                      className="inline-flex items-center px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-sm"
+            {sharedResources.length > 0 && (
+              <section className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/70 dark:bg-gray-800">
+                <h2 className="flex items-center gap-2 text-lg font-semibold text-gray-900 dark:text-white">
+                  <Sparkles className="h-5 w-5 text-indigo-500" /> 推荐资源
+                </h2>
+                <div className="grid gap-4 md:grid-cols-2">
+                  {sharedResources.map((resource) => (
+                    <a
+                      key={resource.id}
+                      href={resource.link}
+                      className="group flex flex-col gap-3 rounded-xl border border-gray-100 bg-white p-4 text-sm shadow-sm transition hover:-translate-y-1 hover:border-indigo-200 hover:shadow-lg dark:border-gray-700/70 dark:bg-gray-900/40"
                     >
-                      查看员工档案
-                      <ArrowLeft className="h-4 w-4 ml-2 rotate-180" />
-                    </button>
-                  </div>
+                      <span className="inline-flex items-center gap-2 rounded-full bg-indigo-50 px-3 py-1 text-xs font-medium text-indigo-600 dark:bg-indigo-900/40 dark:text-indigo-200">
+                        {resource.type}
+                      </span>
+                      <p className="text-gray-900 transition group-hover:text-indigo-600 dark:text-white">{resource.title}</p>
+                      <p className="text-xs text-gray-500 dark:text-gray-400">{resource.description}</p>
+                    </a>
+                  ))}
                 </div>
-              </div>
+              </section>
             )}
           </div>
         </div>
       </div>
+
+      <Dialog open={isAssignOpen} onOpenChange={setAssignOpen}>
+        <DialogContent className="max-w-2xl">
+          <DialogHeader>
+            <DialogTitle>指派新任务</DialogTitle>
+            <DialogDescription>为导师创建新的任务事项，提交后将同步至导师任务列表（示例交互）。</DialogDescription>
+          </DialogHeader>
+          <form className="space-y-5" onSubmit={handleAssignSubmit}>
+            <div className="grid gap-5 md:grid-cols-2">
+              <div className="space-y-2">
+                <label htmlFor="task-title" className="text-sm font-medium text-gray-700 dark:text-gray-200">
+                  任务名称
+                </label>
+                <input
+                  id="task-title"
+                  name="title"
+                  value={taskForm.title}
+                  onChange={handleTaskFormChange}
+                  placeholder="例如：PS 初稿访谈"
+                  className="w-full rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm text-gray-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100 dark:border-gray-700 dark:bg-gray-900/60 dark:text-gray-100 dark:focus:border-indigo-400 dark:focus:ring-indigo-600/20"
+                />
+              </div>
+              <div className="space-y-2">
+                <label htmlFor="task-type" className="text-sm font-medium text-gray-700 dark:text-gray-200">
+                  任务类型
+                </label>
+                <select
+                  id="task-type"
+                  name="type"
+                  value={taskForm.type}
+                  onChange={handleTaskFormChange}
+                  className="w-full rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm text-gray-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100 dark:border-gray-700 dark:bg-gray-900/60 dark:text-gray-100 dark:focus:border-indigo-400 dark:focus:ring-indigo-600/20"
+                >
+                  <option value="文书">文书</option>
+                  <option value="材料">材料</option>
+                  <option value="质检">质检</option>
+                  <option value="面试">面试</option>
+                </select>
+              </div>
+              <div className="space-y-2">
+                <label htmlFor="task-deadline" className="text-sm font-medium text-gray-700 dark:text-gray-200">
+                  截止日期
+                </label>
+                <input
+                  id="task-deadline"
+                  name="deadline"
+                  type="date"
+                  value={taskForm.deadline}
+                  onChange={handleTaskFormChange}
+                  className="w-full rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm text-gray-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100 dark:border-gray-700 dark:bg-gray-900/60 dark:text-gray-100 dark:focus:border-indigo-400 dark:focus:ring-indigo-600/20"
+                />
+              </div>
+              <div className="space-y-2">
+                <label htmlFor="task-priority" className="text-sm font-medium text-gray-700 dark:text-gray-200">
+                  优先级
+                </label>
+                <select
+                  id="task-priority"
+                  name="priority"
+                  value={taskForm.priority}
+                  onChange={handleTaskFormChange}
+                  className="w-full rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm text-gray-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100 dark:border-gray-700 dark:bg-gray-900/60 dark:text-gray-100 dark:focus:border-indigo-400 dark:focus:ring-indigo-600/20"
+                >
+                  <option value="高">高</option>
+                  <option value="中">中</option>
+                  <option value="低">低</option>
+                </select>
+              </div>
+            </div>
+            <DialogFooter>
+              <button
+                type="button"
+                onClick={() => setAssignOpen(false)}
+                className="inline-flex items-center justify-center rounded-xl border border-gray-200 px-4 py-2 text-sm font-medium text-gray-600 transition hover:border-indigo-300 hover:text-indigo-600 dark:border-gray-700 dark:text-gray-300 dark:hover:border-indigo-500 dark:hover:text-indigo-300"
+              >
+                取消
+              </button>
+              <button
+                type="submit"
+                className="inline-flex items-center justify-center gap-2 rounded-xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-indigo-500"
+              >
+                <Sparkles className="h-4 w-4" />
+                确认指派
+              </button>
+            </DialogFooter>
+          </form>
+        </DialogContent>
+      </Dialog>
+
+      <Dialog open={isContactOpen} onOpenChange={setContactOpen}>
+        <DialogContent className="max-w-xl">
+          <DialogHeader>
+            <DialogTitle>联系导师</DialogTitle>
+            <DialogDescription>发送预设消息或复制联系信息，与导师快速对接。</DialogDescription>
+          </DialogHeader>
+          <div className="space-y-3 rounded-2xl border border-gray-100 bg-gray-50 p-4 dark:border-gray-700/60 dark:bg-gray-900/30">
+            <div className="flex items-center justify-between gap-3">
+              <div className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-200">
+                <Mail className="h-4 w-4 text-indigo-500" />
+                <span>{mentor.email}</span>
+              </div>
+              <button
+                type="button"
+                onClick={() => handleCopy(mentor.email, 'email')}
+                className="inline-flex items-center gap-2 rounded-lg border border-indigo-200 px-2.5 py-1 text-xs font-medium text-indigo-600 transition hover:border-indigo-300 hover:text-indigo-700 dark:border-indigo-500/50 dark:text-indigo-300 dark:hover:border-indigo-400"
+              >
+                <ClipboardCopy className="h-3.5 w-3.5" />
+                {copiedField === 'email' ? '已复制' : '复制'}
+              </button>
+            </div>
+            <div className="flex items-center justify-between gap-3">
+              <div className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-200">
+                <Phone className="h-4 w-4 text-indigo-500" />
+                <span>{mentor.phone}</span>
+              </div>
+              <button
+                type="button"
+                onClick={() => handleCopy(mentor.phone, 'phone')}
+                disabled={!canCopyPhone}
+                className="inline-flex items-center gap-2 rounded-lg border border-indigo-200 px-2.5 py-1 text-xs font-medium text-indigo-600 transition hover:border-indigo-300 hover:text-indigo-700 disabled:cursor-not-allowed disabled:border-gray-200 disabled:text-gray-400 dark:border-indigo-500/50 dark:text-indigo-300 dark:hover:border-indigo-400 dark:disabled:border-gray-700 dark:disabled:text-gray-500"
+              >
+                <ClipboardCopy className="h-3.5 w-3.5" />
+                {copiedField === 'phone' ? '已复制' : canCopyPhone ? '复制' : '暂不可复制'}
+              </button>
+            </div>
+            <div className="flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400">
+              <Globe2 className="h-3.5 w-3.5 text-indigo-500" />
+              <span>所在时区：{mentor.timezone}</span>
+            </div>
+          </div>
+          <form className="mt-4 space-y-4" onSubmit={handleContactSubmit}>
+            <div className="space-y-2">
+              <label htmlFor="contact-message" className="text-sm font-medium text-gray-700 dark:text-gray-200">
+                发送给导师的消息
+              </label>
+              <textarea
+                id="contact-message"
+                value={contactMessage}
+                onChange={(event) => setContactMessage(event.target.value)}
+                rows={4}
+                className="w-full rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm text-gray-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100 dark:border-gray-700 dark:bg-gray-900/60 dark:text-gray-100 dark:focus:border-indigo-400 dark:focus:ring-indigo-600/20"
+              />
+            </div>
+            <DialogFooter>
+              <button
+                type="button"
+                onClick={() => setContactOpen(false)}
+                className="inline-flex items-center justify-center rounded-xl border border-gray-200 px-4 py-2 text-sm font-medium text-gray-600 transition hover:border-indigo-300 hover:text-indigo-600 dark:border-gray-700 dark:text-gray-300 dark:hover:border-indigo-500 dark:hover:text-indigo-300"
+              >
+                取消
+              </button>
+              <button
+                type="submit"
+                className="inline-flex items-center justify-center gap-2 rounded-xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-indigo-500"
+              >
+                <Send className="h-4 w-4" />
+                发送联系请求
+              </button>
+            </DialogFooter>
+          </form>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 };

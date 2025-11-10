@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Bot, X, Send, Image, Paperclip, Plus, Trash2, AlertTriangle, RefreshCw, Maximize, Minimize, Move, Database, Cloud } from 'lucide-react';
+import { Bot, X, Send, Image, Paperclip, Plus, Trash2, AlertTriangle, RefreshCw, Maximize, Minimize, Move, Database, Cloud, UserPlus } from 'lucide-react';
 import { sendChatMessage, formatMessagesForAPI, testConnection } from '../api/aiService';
+import { peopleService } from '../services';
+import { toast } from 'react-hot-toast';
+import { getCurrentLocalDate } from '../utils/dateUtils';
 
 interface Message {
   id: string;
@@ -42,6 +45,7 @@ export default function AIChatAssistant() {
 
   const fileInputRef = useRef<HTMLInputElement>(null);
   const imageInputRef = useRef<HTMLInputElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const dialogRef = useRef<HTMLDivElement>(null);
 
@@ -225,6 +229,129 @@ export default function AIChatAssistant() {
     };
   };
 
+  // 执行添加学生功能
+  const executeAddStudent = async (params: {
+    name: string;
+    email?: string;
+    phone?: string;
+    gender?: string;
+    birth_date?: string;
+    school?: string;
+    major?: string;
+    education_level?: string;
+    graduation_year?: number;
+    services?: string[];
+  }) => {
+    try {
+      console.log('AI请求添加学生，参数:', params);
+      
+      // 获取所有服务类型，用于名称到ID的映射
+      const allServiceTypes = await peopleService.getAllServiceTypes();
+      
+      // 将服务名称转换为ID
+      let serviceIds: number[] = [];
+      if (params.services && Array.isArray(params.services) && params.services.length > 0) {
+        serviceIds = params.services
+          .map((serviceName: string) => {
+            const service = allServiceTypes.find(st => 
+              st.name.includes(serviceName) || serviceName.includes(st.name)
+            );
+            return service?.id;
+          })
+          .filter((id): id is number => id !== undefined);
+      }
+      
+      // 如果没有找到匹配的服务，返回错误而不是使用默认值
+      if (serviceIds.length === 0) {
+        return {
+          success: false,
+          message: `❌ 无法添加学生
+
+错误：未指定有效的服务类型。
+
+请明确告诉我需要为学生添加什么服务，例如：
+• 本科申请
+• 硕士申请  
+• 博士申请
+• 文书
+• 签证指导
+
+您可以重新告诉我完整的学生信息。`
+        };
+      }
+      
+      // 创建学生
+      const studentData = {
+        name: params.name,
+        email: params.email || undefined,
+        phone: params.phone || undefined,
+        gender: params.gender || undefined,
+        birth_date: params.birth_date || undefined,
+        school: params.school || undefined,
+        major: params.major || undefined,
+        education_level: params.education_level || undefined,
+        graduation_year: params.graduation_year || undefined,
+        is_active: true,
+        status: '活跃'
+      };
+      
+      const createdStudent = await peopleService.upsertStudent(studentData);
+      console.log('成功创建学生:', createdStudent);
+      
+      // 添加服务
+      for (const serviceId of serviceIds) {
+        await peopleService.upsertStudentService({
+          student_id: createdStudent.id,
+          student_ref_id: createdStudent.id,
+          service_type_id: serviceId,
+          status: 'not_started',
+          enrollment_date: getCurrentLocalDate()
+        });
+      }
+      
+      // 构建成功消息
+      const serviceNames = serviceIds
+        .map(id => allServiceTypes.find(st => st.id === id)?.name)
+        .filter(Boolean)
+        .join('、');
+      
+      return {
+        success: true,
+        message: `✅ 成功添加学生！
+
+📋 学生信息：
+• 姓名：${params.name}
+${params.email ? `• 邮箱：${params.email}` : ''}
+${params.phone ? `• 电话：${params.phone}` : ''}
+${params.gender ? `• 性别：${params.gender}` : ''}
+${params.school ? `• 学校：${params.school}` : ''}
+${params.major ? `• 专业：${params.major}` : ''}
+${serviceNames ? `• 服务类型：${serviceNames}` : ''}
+
+学生已成功添加到系统中，您可以在学生管理页面查看详细信息。`
+      };
+    } catch (error) {
+      console.error('添加学生失败:', error);
+      return {
+        success: false,
+        message: `❌ 添加学生失败
+
+错误信息：${error instanceof Error ? error.message : '未知错误'}
+
+请检查信息是否正确，或手动在学生管理页面添加。`
+      };
+    }
+  };
+
+  const handleQuickAddStudent = () => {
+    setIsOpen(true);
+    setInput('添加学生 ');
+    setShowAttachOptions(false);
+    requestAnimationFrame(() => {
+      inputRef.current?.focus();
+    });
+  };
+
   const handleSend = async () => {
     if ((!input.trim() && (!pendingMedia || pendingMedia.length === 0)) || isProcessing) return;
 
@@ -279,12 +406,50 @@ export default function AIChatAssistant() {
         userMessage
       ]);
 
-      // 调用API获取响应
-      response = await sendChatMessage(apiMessages);
+      // 调用API获取响应（启用函数调用）
+      response = await sendChatMessage(apiMessages, true);
 
       // 检查是否有API错误消息，如果是连接问题，则更新服务器状态
-      if (response.content.includes('连接') || response.content.includes('网络')) {
+      if (response.content && (response.content.includes('连接') || response.content.includes('网络'))) {
         setServerStatus('offline');
+      }
+      
+      // 处理函数调用
+      if (response.function_call) {
+        const functionName = response.function_call.name;
+        const functionArgs = JSON.parse(response.function_call.arguments);
+        
+        console.log('AI调用功能:', functionName, functionArgs);
+        
+        let functionResult;
+        
+        // 根据函数名执行对应的操作
+        switch (functionName) {
+          case 'add_student':
+            functionResult = await executeAddStudent(functionArgs);
+            break;
+          default:
+            functionResult = {
+              success: false,
+              message: `未知的功能调用: ${functionName}`
+            };
+        }
+        
+        // 显示功能执行结果
+        setMessages(prev => [...prev, {
+          id: Date.now().toString(),
+          type: 'assistant',
+          content: functionResult.message,
+          timestamp: Date.now()
+        }]);
+        
+        // 如果成功，显示toast提示
+        if (functionResult.success) {
+          toast.success('操作成功！');
+        }
+        
+        setIsProcessing(false);
+        return; // 函数调用完成，直接返回
       }
     }
 
@@ -511,6 +676,16 @@ export default function AIChatAssistant() {
                 </div>
               </div>
               <div className="flex items-center">
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    handleQuickAddStudent();
+                  }}
+                  className="p-2 text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300 mr-2"
+                  title="快速添加学生"
+                >
+                  <UserPlus className="h-5 w-5" />
+                </button>
                 {/* 添加切换知识库/AI服务按钮 */}
                 <button
                   onClick={(e) => {
@@ -776,6 +951,7 @@ export default function AIChatAssistant() {
                 </div>
 
                 <input
+                  ref={inputRef}
                   type="text"
                   id="ai-assistant-input"
                   name="ai-assistant-message"

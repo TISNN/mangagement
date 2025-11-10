@@ -1,0 +1,335 @@
+import type {
+  AssessmentPlan,
+  AssessmentTimelineEvent,
+  QuestionBankCategory,
+  QuestionBankGap,
+  AssessmentSession,
+  ScoreInsight,
+  SkillRadarEntry,
+  PlacementRule,
+  InterventionAlert,
+  KpiMetric,
+  IntegrationTask,
+  CapacitySnapshot,
+} from './types';
+
+export const ASSESSMENT_PLANS: AssessmentPlan[] = [
+  {
+    id: 'plan-ielts-2024q1',
+    name: '雅思冬季模考营',
+    examType: 'IELTS Academic',
+    window: '2024-12-16 ~ 2025-01-12',
+    targetCohort: '冲刺班 & 申请季学生',
+    capacity: 240,
+    booked: 198,
+    mode: 'hybrid',
+    owner: '李慧 · 测评主管',
+    status: 'in-progress',
+    riskLevel: 'medium',
+    highlights: ['口语 AI 测评上线', '写作双阅模式', '新增夜间场次'],
+  },
+  {
+    id: 'plan-toefl-2025spring',
+    name: '托福春季诊断计划',
+    examType: 'TOEFL iBT',
+    window: '2025-03-03 ~ 2025-04-27',
+    targetCohort: '春季新签学员',
+    capacity: 180,
+    booked: 96,
+    mode: 'online',
+    owner: '王晨 · 线上教务',
+    status: 'published',
+    riskLevel: 'low',
+    highlights: ['覆盖 6 个时区', '作文题库更新完成'],
+  },
+  {
+    id: 'plan-alevel-2025mock',
+    name: 'A-Level 考前冲刺模拟',
+    examType: 'A-Level Physics / Math',
+    window: '2025-05-10 ~ 2025-05-26',
+    targetCohort: 'A2 冲刺班',
+    capacity: 120,
+    booked: 54,
+    mode: 'offline',
+    owner: '赵越 · 国际课程负责人',
+    status: 'draft',
+    riskLevel: 'medium',
+    highlights: ['上海/深圳双考点', '实验题专项模拟'],
+  },
+];
+
+export const TIMELINE_EVENTS: AssessmentTimelineEvent[] = [
+  {
+    id: 'evt-001',
+    label: '方案冻结 & 发布',
+    date: '2024-11-25',
+    status: 'completed',
+    owner: '李慧',
+    notes: '通过合规审查并同步至 CRM',
+  },
+  {
+    id: 'evt-002',
+    label: '题库更新 & 校对',
+    date: '2024-12-05',
+    status: 'completed',
+    owner: '教研团队',
+    notes: '完成 320 道题的版本更新与难度标注',
+  },
+  {
+    id: 'evt-003',
+    label: '监考老师排班确认',
+    date: '2024-12-12',
+    status: 'ready',
+    owner: '教务排班组',
+    notes: '线下考场缺 2 名口语考官，待补充',
+  },
+  {
+    id: 'evt-004',
+    label: '上线 AI 写作评分',
+    date: '2024-12-18',
+    status: 'pending',
+    owner: '产品技术',
+    notes: '等待算法组发布最新模型',
+  },
+];
+
+export const QUESTION_BANK_CATEGORIES: QuestionBankCategory[] = [
+  {
+    id: 'qb-ielts-writing',
+    title: '雅思写作 Task 2',
+    itemCount: 146,
+    coverage: 92,
+    difficultySpread: { easy: 28, medium: 86, hard: 32 },
+    lastUpdated: '2024-11-08',
+    owner: '张敏 · 教研',
+    tags: ['写作', '话题分类', '评分范例'],
+  },
+  {
+    id: 'qb-ielts-speaking',
+    title: '雅思口语题卡',
+    itemCount: 320,
+    coverage: 88,
+    difficultySpread: { easy: 104, medium: 176, hard: 40 },
+    lastUpdated: '2024-10-21',
+    owner: '外教教研组',
+    tags: ['口语', '题卡', 'AI 语音'],
+  },
+  {
+    id: 'qb-toefl-reading',
+    title: '托福阅读题库',
+    itemCount: 268,
+    coverage: 79,
+    difficultySpread: { easy: 76, medium: 132, hard: 60 },
+    lastUpdated: '2024-11-02',
+    owner: '北美考培组',
+    tags: ['阅读', '题库', '真题'],
+  },
+];
+
+export const QUESTION_BANK_GAPS: QuestionBankGap[] = [
+  {
+    id: 'gap-001',
+    topic: 'IELTS 写作 · 可持续发展',
+    impact: 'high',
+    requiredBy: '2024-12-20',
+    assignee: '张敏',
+    action: '补充 6 套高分范文，覆盖不同观点',
+  },
+  {
+    id: 'gap-002',
+    topic: 'TOEFL 听力 · 校园对话',
+    impact: 'medium',
+    requiredBy: '2025-01-05',
+    assignee: '北美教研助理',
+    action: '新增 10 套语速 1.3x 的听力材料',
+  },
+  {
+    id: 'gap-003',
+    topic: 'A-Level 物理 · 热力学实验题',
+    impact: 'high',
+    requiredBy: '2025-03-01',
+    assignee: '赵越',
+    action: '制作实验数据题与评分指南',
+  },
+];
+
+export const ASSESSMENT_SESSIONS: AssessmentSession[] = [
+  {
+    id: 'session-001',
+    title: 'IELTS 模考 · 晚间场',
+    startTime: '2024-12-22 18:30',
+    endTime: '2024-12-22 21:40',
+    channel: '线上平台（ClassIn）',
+    mode: 'online',
+    capacity: 80,
+    booked: 72,
+    hasAiProctor: true,
+    invigilators: ['李慧', '外教 David'],
+    status: 'registration',
+  },
+  {
+    id: 'session-002',
+    title: 'IELTS 口语一对一复盘',
+    startTime: '2024-12-23 09:00',
+    endTime: '2024-12-23 17:30',
+    channel: '上海徐家汇教学中心',
+    mode: 'offline',
+    capacity: 48,
+    booked: 39,
+    hasAiProctor: false,
+    invigilators: ['陈晓', 'Grace'],
+    status: 'ready',
+    location: '教室 3F-05',
+  },
+  {
+    id: 'session-003',
+    title: 'TOEFL 模考 · 周末场',
+    startTime: '2024-12-28 13:30',
+    endTime: '2024-12-28 17:00',
+    channel: '混合（线下+Zoom）',
+    mode: 'hybrid',
+    capacity: 60,
+    booked: 45,
+    hasAiProctor: true,
+    invigilators: ['王晨'],
+    status: 'registration',
+    location: '虹口中心 2F Lab',
+  },
+];
+
+export const SCORE_INSIGHTS: ScoreInsight[] = [
+  {
+    id: 'score-ielts',
+    cohort: '雅思冲刺班 · 12 月批次',
+    averageScore: 6.3,
+    targetScore: 6.5,
+    change: 0.4,
+    percentile75: 6.8,
+    percentile25: 5.8,
+    riskLevel: 'medium',
+    focusAreas: ['写作 Task 2 逻辑', '口语 Part 3 扩展'],
+  },
+  {
+    id: 'score-toefl',
+    cohort: '托福基础营 · B 班',
+    averageScore: 87,
+    targetScore: 95,
+    change: 1.5,
+    percentile75: 96,
+    percentile25: 78,
+    riskLevel: 'high',
+    focusAreas: ['听力细节捕捉', '口语 Task 2 流利度'],
+  },
+  {
+    id: 'score-alevel',
+    cohort: 'A-Level 物理冲刺',
+    averageScore: 78,
+    targetScore: 85,
+    change: -2,
+    percentile75: 88,
+    percentile25: 70,
+    riskLevel: 'medium',
+    focusAreas: ['实验设计', '计算题书写'],
+  },
+];
+
+export const SKILL_RADAR: SkillRadarEntry[] = [
+  { skill: '听力', current: 6.2, target: 6.8, change: 0.3 },
+  { skill: '口语', current: 6.0, target: 6.5, change: 0.4 },
+  { skill: '阅读', current: 6.5, target: 7.0, change: 0.1 },
+  { skill: '写作', current: 5.8, target: 6.5, change: 0.5 },
+];
+
+export const PLACEMENT_RULES: PlacementRule[] = [
+  {
+    id: 'rule-001',
+    ruleName: 'IELTS 6.0 以下 → 基础巩固班',
+    criteria: '总分 < 6.0 或 单项 < 5.5',
+    autoAction: '生成补课计划 + 通知班主任',
+    manualReview: false,
+  },
+  {
+    id: 'rule-002',
+    ruleName: '托福 90 分冲刺',
+    criteria: '总分 85~95 且 目标 100+',
+    autoAction: '推送高阶课程组合方案',
+    manualReview: true,
+  },
+  {
+    id: 'rule-003',
+    ruleName: 'A-Level 冲刺补强',
+    criteria: '模考成绩低于校标 10%',
+    autoAction: '安排 1v1 辅导 + 周末实验课',
+    manualReview: true,
+  },
+];
+
+export const INTERVENTION_ALERTS: InterventionAlert[] = [
+  {
+    id: 'alert-001',
+    studentName: 'Angela Wu',
+    cohort: '雅思冲刺班',
+    trigger: '写作评分连续两次 < 6.0',
+    severity: 'high',
+    owner: '班主任 Linda',
+    dueDate: '2024-12-20',
+    nextStep: '安排写作诊断 + 补充逻辑训练',
+  },
+  {
+    id: 'alert-002',
+    studentName: 'Kevin Zhang',
+    cohort: '托福基础营',
+    trigger: '缺考一次 + 作业未交',
+    severity: 'medium',
+    owner: '顾问 Amy',
+    dueDate: '2024-12-18',
+    nextStep: '顾问跟进家长，确认学习计划',
+  },
+  {
+    id: 'alert-003',
+    studentName: 'Grace Li',
+    cohort: 'A-Level 物理',
+    trigger: '实验题失分高于 30%',
+    severity: 'medium',
+    owner: '教研老师 Mark',
+    dueDate: '2024-12-28',
+    nextStep: '安排实验室专项练习',
+  },
+];
+
+export const KPI_METRICS: KpiMetric[] = [
+  { id: 'kpi-completion', label: '测评完成率', value: '82%', change: '+9%', trend: 'up' },
+  { id: 'kpi-placement', label: '自动分班命中率', value: '68%', change: '+4%', trend: 'up' },
+  { id: 'kpi-scoring', label: 'AI 阅卷覆盖率', value: '56%', change: '+12%', trend: 'up' },
+  { id: 'kpi-alerts', label: '高风险学员数', value: '18', change: '-6', trend: 'down' },
+];
+
+export const INTEGRATION_TASKS: IntegrationTask[] = [
+  {
+    id: 'task-001',
+    title: '接入 Zoom 会议室自动分配',
+    owner: 'IT 运维',
+    status: 'in-progress',
+    notes: '需补充 API Key 权限说明',
+  },
+  {
+    id: 'task-002',
+    title: 'CRM 自动同步测评结果',
+    owner: '产品经理',
+    status: 'pending',
+    notes: '等待数据治理审核字段映射',
+  },
+  {
+    id: 'task-003',
+    title: 'AI 写作评分上线灰度',
+    owner: '算法团队',
+    status: 'in-progress',
+    notes: '需 2 场线上模考验证稳定性',
+  },
+];
+
+export const CAPACITY_SNAPSHOTS: CapacitySnapshot[] = [
+  { id: 'cap-shanghai', region: '华东 · 上海', slots: 120, booked: 102, completionRate: 0.76 },
+  { id: 'cap-shenzhen', region: '华南 · 深圳', slots: 80, booked: 58, completionRate: 0.71 },
+  { id: 'cap-online', region: '线上全球', slots: 200, booked: 164, completionRate: 0.84 },
+];

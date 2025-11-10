@@ -136,6 +136,45 @@ vercel --prod
 3. 完善社区功能，促进用户交流
 4. 扩展学习资源库，提供更多优质内容
 
+### 2025-11-08 开发记录
+- **问题总结**：后台 `ServicesPage` 在构建时出现语法残缺，导致 Vite 编译报错并缺失类型定义与表单逻辑。
+- **解决方案**：重新梳理服务能力/套餐/流程数据结构，补充完整的 TypeScript 接口、表单与表观监控日志，确保页面组件符合暗黑模式与响应式设计需求。
+- **后续建议**：后续需将预约表单与后端工单系统打通，并为关键数据映射补充单元测试与可观测性告警，避免再次出现内容损坏。
+- **问题总结（知识审核中心）**：`KnowledgeModerationPage` 出现重复导出与常量重复声明，编译时报 `Identifier has already been declared` 错误。
+- **解决方案（知识审核中心）**：重建页面文件，保留唯一的数据结构与组件实现，清理重复内容，确保类型定义与渲染逻辑集中管理。
+- **后续建议（知识审核中心）**：建议为内容审核模块编写快照测试，增加脚本在 CI 中校验重复声明，并在未来引入动态数据源替换硬编码示例。
+- **新增功能（Finance Suite）**：依据 `docs/finance-module.md` 设计的新财务中台页面已上线，包含财务概览与流水双视图、静态示例数据与图表占位，便于后续接入真实 API。
+- **后续建议（Finance Suite）**：接入真实数据前需规划 KPI/流水接口，补充单元测试及可观测性校验，并为图表组件选型（ECharts/Recharts）预留抽象层。
+- **架构重构（Finance Suite）**：将财务概览、流水、发票三个一级视图拆分为独立组件，抽离 `data.ts`、`types.ts` 与 `KpiCard` 共用模块，显著降低主页面复杂度并提升可维护性。
+- **后续建议（Finance Suite 架构）**：为拆分后的模块补充 Storybook/单元测试，并规划统一的数据获取层（SWR / React Query），保持未来接入实时 API 时的稳定性。
+- **重构（导师管理中心）**：拆分 MentorManagement 模块到 `types` / `data` / `components` 结构，引入“我的导师库 / 导师人才市场”双视图与共享资源中心，提升代码复用性与运营效率。
+- **后续建议（导师管理中心）**：接入服务端筛选与收藏同步、打通人才市场签约流程，并补充端到端测试保障复杂视图稳定性。
+- **新增功能（导师详情页）**：上线新一代导师详情页，整合导师档案、排班、绩效任务、案例项目与学员反馈，支持在导师管理中心直接跳转并浏览推荐资源。
+- **后续建议（导师详情页）**：后续需与后端 API 打通，补充排班冲突校验、任务指派写入能力，并为动态数据提供骨架屏和错误兜底策略。
+- **交互优化（导师详情页）**：新增收藏导师、任务指派与联系弹窗、内部备忘笔记及互动记录面板，为运营侧提供更紧凑的动作闭环。
+- **快捷建档（CRM 线索列表）**：在 CRM 线索表新增“一键建档”按钮，可直接生成学生档案并提示跳转，提升从线索到学生管理的衔接效率。
+- **整合优化（CRM 线索总览 & 跟进记录）**：将线索总览与跟进记录模块整合至线索列表单页面，多视图覆盖 KPI、渠道洞察、AI 热度、沟通时间轴、任务中心与质检记录，统一数据模型便于后续接入实时 API。
+- **新增功能（教育培训 · Placement Assessment）**：依据 `placement-assessment.md` 设计测评中心前端页面，拆分测评计划、题库资产、场次执行、成绩分析与运营治理五大标签视图，并以独立组件与数据文件保证模块化可维护性。
+- **新增功能（教育培训 · Scheduling & Classroom）**：按 `scheduling-classroom.md` 方案实现排课与教室资源中心，覆盖排课概览、资源调配、调课审批、通知同步与运营分析五大视图，分别拆分组件与 mock 数据提升可维护性。
+- **重构（选校规划中心）**：依据 `education-training-suite` 中的选校规划设计，将 SchoolSelectionPlanner 页面拆分为概览、AI 推荐、人工筛选、协同会议与决策档案多标签结构，抽离 `types.ts`、`data.ts` 与组件目录，保持状态逻辑集中、视图解耦。
+- **多学生切换（选校规划中心）**：补充学生目录 `STUDENTS` 与数据映射 `STUDENT_DATA`，在概览页引入选择器同步切换不同学生的 mock 数据，联动 AI 推荐、人工筛选、会议协同与决策档案四大视图，支撑多客户方案的快速演示与对比。
+- **交互优化（选校规划中心）**：将功能切换区收纳至概览介绍下方，并为学生选择卡片重新设计蓝色策略卡样式，保证“学生切换”位于目标学生指标之前，提升视觉层级与操作引导。
+- **交互简化（选校规划中心）**：移除 AI 智能选校权重面板旁的“学生背景摘要”侧卡，将权重调节与生成摘要集中于主卡片，界面更聚焦，并将四个功能按钮统一排成横向单列，保持操作入口对齐。
+- **信息布局优化（选校规划中心）**：指标卡片下的“学生背景摘要”支持折叠，默认展示核心字段，展开后可查看更多背景要点，便于顾问按需阅读。
+- **新增功能（教育培训 · Learner Portal）**：按照 `learner-portal.md` 设计实现学习中心页面，拆分“概览 / 课表中心 / 作业任务 / 学习资料 / 成绩成长 / 沟通与家长”六大视图，提供结构化 mock 数据与组件抽象，便于后续对接真实业务。
+- **新增功能（教育培训 · Tutor Portal）**：依据 `tutor-portal.md` 实现教师工作台，覆盖课表班级、备课中心、课堂管理、课后任务、教学数据与协同沟通六大视图，并拆分组件与数据文件提升复用性。
+- **学生切换体验（选校规划中心）**：移除单独的“当前服务学生”卡片，改为点击“目标学生”指标卡唤起下拉选择，实现更自然的切换流程。
+- **教育培训业务文档化**：将 `education-training-suite` 的十个子模块拆分为独立 Markdown 文档，细化招生、教务、教学、运营、质控等子系统的功能、流程、数据与迭代建议，便于团队协作与后续立项评审。
+
+### 2025-11-09 开发记录
+- **新增功能（B2B 服务中心 · 服务菜单）**：为 `ServicesPage` 增加“服务菜单与定价”模块，细分“数字化建设”“品牌营销运营”等品类，支持机构按项目（官网、小程序、App、CRM、AI 助手等）勾选并生成咨询清单。
+- **交互增强（B2B 服务中心 · 咨询清单）**：引入本地勾选状态与日志记录，实时展示已选服务、价格区间与交付周期，便于顾问后续跟进；建议下一步打通提交按钮与 CRM 线索创建接口，并按价格字段补充合计/预算模拟功能。
+- **服务扩充（B2B 服务中心 · 全品类覆盖）**：新增“法律与合规支持”“礼品与传播物料”“流程与运营顾问”“学术与学生体验”四大类服务菜单，每类提供 3-4 个标准化子项目（含价格、交付周期与交付要点），保障商务同学可直接组合套餐并对外报价。
+- **信息架构优化（B2B 服务中心 · 页面精简）**：移除旧版“服务能力矩阵”模块，将能力描述整合进服务菜单卡片中，页面焦点聚合在可选服务与咨询清单，降低用户理解成本。
+- **导航文档重写（后台导航体系）**：将 `navigation-design.md` 从主题化命名更新为业务直观的中文/常规英文名称，明确“管理控制台 / 客户与销售 / 教育服务 / 数据分析 / 知识与文件”五大模块及二级菜单，便于运营与产品团队对齐信息架构。
+- **内部管理子模块文档化**：新增 `docs/internal-management/` 目录，分别梳理“组织与权限”“员工与排班”“流程中心”“合规监督”“系统设置”模块的定位、数据结构、流程与迭代计划，并在 `navigation-design.md` 中补充跳转指引。
+- **前端实现（内部管理套件）**：在 `src/pages/admin/InternalManagement/` 下实现五大子页面（角色权限、员工排班、流程中心、合规监督、系统设置），采用分区组件+标签页结构展示核心数据、冲突告警与操作入口，确保页面可复用、易扩展。
+
 ## 注意事项
 
 本项目中的学生端功能专注于提供基础的申请管理和学习资源服务，高级功能如文书优化、选校推荐等服务由留学机构的专业顾问提供，以保证服务质量和专业性。
@@ -1062,6 +1101,38 @@ MIT
 
 **⚠️ 部署注意**: 需要执行2个数据库迁移SQL才能使用新功能
 
+### 版本 2.0.1 (2025-11-08)
+
+- **bug修复**: 学生管理页面列表视图的服务条目调整为单列布局，统一图标与文字的垂直对齐，状态与时间信息紧随服务名称并列展示，同时保留完整文本
+- **经验总结**: 避免在高密度信息区域使用硬编码列数，可结合`break-words`与行内标签让信息自然换行
+- **后续建议**: 为列表视图添加服务数量较多时的折叠/展开交互，并考虑提供服务类型筛选快捷入口，进一步优化信息浏览效率
+- **界面精简**: 学生详情页移除选校方案模块，专注展示服务、导师与进度数据；未来若需回归，将以独立入口形式提供
+- **服务视图**: 删除学生详情"服务项目"标签页中的进度历史记录面板，仅保留服务卡片列表，简化信息密度
+- **新模块**: 新增"文书与申请工作台"前端页面，覆盖任务总览、材料清单、文书工作台、网申进度、质检与资源库六大子区块，提供可扩展的数据结构与可替换的示例数据，便于后续接入真实接口
+- **任务控制台**: 实现"项目任务控制台"前端界面，内含任务看板、我的任务、任务日历、职责矩阵、指标分析等视图，并新增侧边导航与路由入口
+- **服务进度**: 实现"服务进度中心"前端界面，支持项目列表、时间线、里程碑、风险雷达、进度统计与档案模块，提供静态示例数据以便后续接入后端
+- **学生管理**: 新增"学生管理中心"页面（取代旧学生列表），提供列表、卡片、表格、看板、洞察多视图与学生详情抽屉，示例数据已类型化便于接入真实服务
+- **导师管理**: 新增"导师管理中心"页面，包含导师名册、能力矩阵、排班、任务绩效、洞察等视图，并保留 `mentors-legacy` 路由访问旧版页面
+- **导航统一**: 侧边导航色彩全部统一为蓝色；"留学服务"二级菜单的状态反馈改为纯文字色差，避免背景块干扰内容阅读
+- **导航栏调优**: 收起时维持 80px，展开宽度缩减至 192px（原 224px），为主内容区释放更多空间
+- **选校规划**: 更新导航蓝图与留学服务总览设计，新增《school-selection-planner.md》详解 AI 选校、人工筛选、学生会议、顾问协作全流程
+- **选校规划中心**: 完成前端页面骨架，实现 AI 推荐区（支持权重调节与风险偏好生成）、人工筛选工作台、协同会议与决策档案模块，并接入导航和路由，提供静态示例数据便于后续对接
+- **导航与页面配色**: 保持导航栏统一蓝色主题，同时在选校规划等业务页面引入多种辅助色块区分功能分区，提升可读性与层次感
+- **CRM 设计方案**: 输出《crm-command-center.md》，完整拆解 Nebula Hub（线索总览、跟进记录、合同签约、客户分群、协同空间）的目标、数据模型、API 草案与迭代路线
+  - 子模块详设：`crm-lead-overview.md`、`crm-lead-list.md`、`crm-engagement-desk.md`、`crm-contract-dock.md`、`crm-client-insights.md`、`crm-collaboration-hub.md`
+- **CRM 前端**: 新增"线索总览"页面，复刻文档中的 KPI 指标条、漏斗仪表盘、渠道洞察、AI 热度优先级、待办中心与 SLA 监控，示例数据结构化便于后续对接服务
+  - 新增"线索列表"页面，覆盖高级筛选、视图管理、批量操作、阶段看板预览与详情摘要，并提供静态表格数据结构，为后续 API 接入和交互扩展打下基础
+  - 新增"跟进记录工作台"页面，覆盖沟通时间轴、AI 摘要、任务提醒、话术库与质检监控，样式与交互与设计文档一致
+  - 新增"合同与签约中心"页面，落地合同概览、看板、审批流程、收款里程碑、模板配置及风险提醒模块，配好示例数据便于后续对接；支持模板市场（免费/付费预览、下载、使用）与法律指导（风险助手、律师预约）
+  - 新增"客户分群分析"页面，实现指标看板、画像标签体系、分群构建器、价值象限、自动化触发与报表归档等核心视图，配套示例数据便于快速接入后端服务
+  - 新增"协同空间"页面，整合团队目标、动态广播、跨部门协作请求、知识库与培训活动，提供 SLA 追踪、提醒与 AI 协同操作入口
+- **服务中心设计**: 发布《service-center.md》，规划 B 端服务枢纽的服务目录、工单流转、资源池、权限体系与迭代路线
+- **服务中心前端**: 重构为多页面架构（总览/目录/工单/资源/客户门户/分析），每个子页面拥有独立路由与布局，顶部标签导航支持扩展三级页面；各页面均以模块化示例数据驱动，便于后续接入
+- **固定入口**: 在侧边导航底部新增固定入口，快速访问服务中心二级导航并与 CRM、财务模块形成闭环
+- **后台服务页**: 后台工作台新增浅色商务风“服务项目”页面，结合能力矩阵、套餐与流程介绍，区别于官网暗色系设计，便于内部与合作机构使用
+- **知识体系**: 新增《knowledge-garden.md》设计文档，定义个人/团队/知识花园三层空间、付费机制、受众权限策略与交易运营流程
+  - 同步输出《knowledge-garden-frontend.md》前端信息架构，明确多级路由、页面职责与组件规划，避免单页堆叠
+
 ---
 
 ### 版本 1.4.0 (2025-10-16)
@@ -1677,3 +1748,9794 @@ http://localhost:5173/admin/knowledge
 - [ ] 文件上传（待实现）
 - [ ] 资源编辑（待实现）
 - [ ] 资源删除（待实现）
+
+---
+
+### 版本 1.4.0 (2025-10-16)
+
+- **UI优化**: 学生管理页面重大升级，新增卡片视图模式
+  - 实现了现代化的卡片式布局，提升视觉效果和用户体验
+  - 添加视图切换功能，支持卡片视图和传统表格视图切换
+  - 卡片设计采用渐变背景、阴影效果和悬浮动画
+  - 优化信息层次结构，突出重点信息
+  - 增强响应式设计，支持多种屏幕尺寸
+  - 改进状态指示器，使用彩色圆点显示学生活跃状态
+  - 优化服务展示，每个卡片显示前2个服务项目
+  - 添加导师团队头像展示，采用堆叠式设计
+  - 实现悬浮时显示操作按钮的交互效果
+  - 保留原有表格视图供需要详细数据的用户使用
+
+### 版本 1.3.0 (2024-07-18)
+
+- **功能增强**: 实现了交互式选校助手功能，支持在SchoolAssistantPage页面直接进行选校
+- **UI优化**: 添加了右侧收藏侧边栏，用户可以直接在学校助手页面添加学校到收藏夹并设置申请策略
+- **用户体验**: 新增了选校指南弹窗，帮助用户了解如何使用选校功能
+- **功能改进**: 学校和专业卡片支持一键收藏，自动显示收藏侧边栏
+
+### 版本 1.2.0 (2024-07-16)
+
+- **功能增强**: 添加了"选校记录"按钮，用户可以直接从学校助手页面查看历史选校方案
+- **UI改进**: 在选校管理页面优化了返回按钮设计，并改进了布局
+- **用户体验**: 直接通过URL参数支持打开历史记录视图，便于快速访问
+
+### 版本 1.1.0 (2024-07-15)
+
+- **功能增强**: 完善了"开始选校"按钮功能，现在可以直接从学校助手页面导航到选校管理页面
+- **UI改进**: 在选校管理页面添加了返回按钮，方便用户在两个页面之间切换
+- **bug修复**: 修复了学校筛选条件不正确应用的问题
+- **性能优化**: 改进了学校和专业数据的加载速度
+
+# 案例数据处理与数据库导入工具
+
+本项目包含两个脚本，用于处理成功案例CSV数据文件并将其导入到数据库中。
+
+## 文件说明
+
+1. `casedata/process_case_csv.py` - 处理原始CSV文件，提取背景字段
+2. `casedata/upload_to_database.py` - 将处理后的CSV数据导入到数据库
+3. `casedata/upload_to_supabase.py` - 专门用于上传数据到Supabase数据库
+
+## 处理CSV文件
+
+这个脚本会读取原始的CSV文件，从`基本背景`字段中提取信息：
+- 第一个元素作为`admission_year`
+- 第二个元素中提取GPA值作为`gpa`
+- 第三个及之后的所有元素作为`language_scores`
+
+### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+python casedata/process_case_csv.py
+```
+
+脚本会处理`casedata/case.csv`文件，并将结果保存为`casedata/case_processed.csv`。
+
+## 数据库导入
+
+### 上传到普通数据库
+
+这个脚本会将处理后的CSV数据导入到普通数据库，并处理学校和项目的映射关系。
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 使用SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db
+
+# 使用MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password your_password --database your_db
+
+# 使用PostgreSQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --port 5432 --user postgres --password your_password --database your_db
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db --dry-run
+```
+
+### 上传到Supabase数据库
+
+这个专用脚本支持将处理后的CSV数据上传到Supabase数据库。
+
+#### 安装依赖
+
+```bash
+pip install supabase
+```
+
+#### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 上传到Supabase
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key"
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key" --dry-run
+```
+
+#### 参数说明
+
+- `--csv`: CSV文件路径（必需）
+- `--url`: Supabase项目URL（必需）
+- `--key`: Supabase API密钥（必需）
+- `--dry-run`: 试运行模式，不会实际写入数据库
+
+## 数据映射
+
+脚本会自动处理以下映射关系：
+1. 根据`cn_name`字段匹配schools表中的学校
+2. 根据学校ID和`applied_program`字段匹配programs表中的项目
+3. 如果直接匹配失败，会尝试模糊匹配
+
+## 日志
+
+程序运行会生成详细的日志文件：
+- 普通数据库上传：`db_upload_YYYYMMDD_HHMMSS.log`
+- Supabase上传：`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+# 数据处理脚本
+
+## CSV文件处理脚本
+
+本项目包含多个用于处理CSV数据文件和上传数据到数据库的脚本。
+
+### casedata/process_case_csv.py
+
+此脚本用于处理原始案例数据CSV文件，提取和转换关键字段，如背景、GPA和语言成绩。
+
+使用方法：
+```bash
+python casedata/process_case_csv.py
+```
+
+脚本会读取`case.csv`文件，处理后生成`case_processed.csv`文件。
+
+### casedata/upload_to_database.py
+
+此脚本用于将处理后的CSV数据上传到各类关系型数据库（SQLite、MySQL、PostgreSQL）。
+
+使用方法：
+```bash
+python casedata/upload_to_database.py --csv [CSV文件路径] --db-type [数据库类型] [其他参数]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--db-type`：数据库类型，可选值为sqlite、mysql、postgresql，默认为sqlite
+- `--db-path`：SQLite数据库文件路径（使用SQLite时必填）
+- `--host`：数据库主机地址，默认为localhost
+- `--port`：数据库端口
+- `--user`：数据库用户名
+- `--password`：数据库密码
+- `--database`：数据库名称
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path ./database.sqlite
+
+# 上传到MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password mypassword --database mydb
+
+# 试运行模式
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --user postgres --database mydb --dry-run
+```
+
+### casedata/upload_to_supabase.py
+
+此脚本专门用于将处理后的CSV数据上传到Supabase数据库。它会自动处理学校和项目的映射，以便将数据正确地关联到Supabase中的相应表。
+
+使用方法：
+```bash
+python casedata/upload_to_supabase.py --csv [CSV文件路径] --url [Supabase项目URL] --key [Supabase API密钥] [--dry-run]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--url`：Supabase项目URL（必填）
+- `--key`：Supabase API密钥（必填）
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到Supabase数据库
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key
+
+# 试运行模式
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key --dry-run
+```
+
+脚本执行过程中会生成详细的日志，记录处理的数据和可能出现的问题。日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`。
+
+## 日志说明
+
+上述脚本在执行过程中会生成日志文件：
+- `upload_to_database.py`生成的日志文件格式为`db_upload_YYYYMMDD_HHMMSS.log`
+- `upload_to_supabase.py`生成的日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+日志文件包含详细的执行步骤、成功/失败记录以及可能的错误信息，方便排查问题。
+
+# Supabase集成指南
+
+## 🔐 认证系统
+
+本系统已实现完整的 Supabase Auth 认证功能!
+
+### 功能特性
+
+- ✅ 邮箱密码登录
+- ✅ 用户注册(学生)
+- ✅ 忘记密码 / 密码重置
+- ✅ 自动关联 Auth 用户到业务表(employees/students)
+- ✅ 全局认证状态管理
+- ✅ 路由守卫保护
+
+### 配置指南
+
+**详细配置步骤请查看: [SUPABASE_AUTH_SETUP.md](./SUPABASE_AUTH_SETUP.md)**
+
+包含:
+- Supabase Auth 配置
+- 数据库表结构更新
+- RLS 策略配置
+- 管理员用户创建
+- 邮件服务配置
+- 测试流程说明
+
+### 使用方法
+
+**管理员登录:**
+1. 访问 `/login`
+2. 选择"管理员"角色
+3. 使用 Supabase Auth 中创建的账号登录
+
+**学生注册:**
+1. 访问 `/register`
+2. 填写信息并提交
+3. 查收邮件完成验证
+4. 返回登录
+
+## Supabase配置
+
+系统使用Supabase作为后端数据库和认证服务。以下是当前配置信息：
+
+### 连接信息
+- **Supabase URL**: `https://swyajeiqqewyckzbfkid.supabase.co`
+- **Supabase 匿名密钥**: 配置在环境变量中，使用`VITE_SUPABASE_ANON_KEY`变量名
+
+### 环境变量配置
+项目根目录下的`.env`文件包含所有必要的环境配置：
+```
+VITE_SUPABASE_URL=https://swyajeiqqewyckzbfkid.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
+
+前端代码通过以下方式访问这些变量：
+```typescript
+import.meta.env.VITE_SUPABASE_URL
+import.meta.env.VITE_SUPABASE_ANON_KEY
+```
+
+## 客户线索与学生管理的关系
+
+在本系统中，客户线索(Leads)和学生(Students)是两个相关但独立的概念：
+
+### 客户线索 (Leads)
+- 代表潜在的客户或咨询者
+- 通过网站表单、社交媒体、教育展等渠道收集
+- 包含基础联系信息和初步意向
+- 状态包括：新线索、已联系、已确认、已签约、已关闭
+
+### 学生 (Students)
+- 代表已签约并接受服务的客户
+- 包含详细个人信息、教育背景和服务记录
+- 可以关联多个服务项目和导师
+- 状态包括：活跃、休学、毕业、退学
+
+### 线索转换为学生的流程
+
+当一个线索成功签约后，系统支持将其转换为学生记录：
+
+1. **线索跟进**：通过线索管理页面跟进潜在客户
+2. **状态更新**：当线索状态更新为"已签约"时，系统提示是否创建学生记录
+3. **信息转移**：线索的基本信息（姓名、联系方式等）会自动填充到学生创建表单
+4. **补充信息**：需要补充更多学生特有的信息，如教育背景、服务选择等
+5. **创建记录**：确认后创建正式学生记录并关联服务项目
+
+### 数据表关系
+- `leads`表存储所有潜在客户线索
+- `students`表存储正式签约学生信息
+- `student_services`表存储学生的服务记录
+- 线索转为学生后，两条记录之间保留关联关系，便于分析转化率
+
+## 使用指南
+
+### 客户线索管理
+1. 通过管理后台的"线索管理"页面查看所有潜在客户
+2. 使用筛选和搜索功能快速定位特定线索
+3. 更新线索状态、添加跟进记录
+4. 将"已签约"线索转换为学生
+
+### 学生管理
+1. 通过管理后台的"学生管理"页面管理所有正式学生
+2. 查看学生详情、服务记录和进度
+3. 添加新服务、更新服务进度
+4. 导出学生数据进行分析和报告
+
+## 最佳实践
+1. 定期审核线索状态，确保及时跟进
+2. 记录详细的沟通内容和客户需求
+3. 线索转为学生后,保持服务进度的及时更新
+4. 利用数据分析功能优化线索转化率和学生服务满意度
+
+## 常见问题解答
+
+### Q: 如何查看系统使用的Supabase配置？
+A: 系统使用的Supabase URL和匿名密钥配置在根目录的`.env`文件中，通过环境变量`VITE_SUPABASE_URL`和`VITE_SUPABASE_ANON_KEY`访问。
+
+### Q: 线索记录和学生记录之间是什么关系？
+A: 线索记录代表潜在客户，学生记录代表已签约客户。当线索成功转化为客户后，系统支持将线索信息转换为学生记录，并保留关联关系用于分析转化率。
+
+## 权限系统
+
+本系统实现了基于角色的权限控制（RBAC）机制，支持灵活的权限管理和分配。
+
+### 权限系统架构
+
+1. **数据库表结构**
+   - `employee_roles`: 角色表，定义了系统中的各种角色
+   - `permissions`: 权限表，定义了系统中的各种权限点
+   - `role_permissions`: 角色-权限关联表，定义角色拥有的权限
+   - `employee_role_assignments`: 员工-角色关联表，定义员工拥有的角色
+
+2. **权限代码**
+   系统中定义了多种权限代码，例如：
+   - `manage_users`: 管理用户账号
+   - `manage_students`: 管理学生信息
+   - `manage_services`: 管理服务
+   - `manage_finances`: 管理财务
+   - `manage_mentors`: 管理导师
+   - `manage_leads`: 管理销售线索
+   - `view_reports`: 查看报表
+   - `manage_schools`: 管理学校和项目信息
+   - `courses:create`: 创建课程
+   - `courses:update`: 更新课程
+   - `courses:delete`: 删除课程
+   - 等等...
+
+3. **角色分配**
+   - 系统管理员: 拥有系统所有权限
+   - 咨询顾问: 负责学生咨询服务
+   - 财务人员: 负责财务管理
+   - 销售人员: 负责销售线索跟进
+
+### 权限组件
+
+1. **权限服务 (permissionService)**
+   提供了以下功能：
+   - `hasPermission`: 检查当前用户是否拥有指定权限
+   - `employeeHasPermission`: 检查特定员工是否拥有指定权限
+   - `getEmployeePermissions`: 获取员工的所有权限
+   - `getRolePermissions`: 获取角色的所有权限
+
+2. **权限上下文 (PermissionContext)**
+   提供了以下功能：
+   - 在应用中全局管理和检查权限
+   - 缓存用户权限以提高性能
+   - 响应用户登录状态变化自动更新权限
+
+3. **权限保护组件**
+   - `PermissionGuard`: 根据权限条件渲染内容
+   - `PermissionButton`: 根据权限控制按钮的可用性
+   - `ProtectedRoute`: 保护路由，只允许有权限的用户访问
+
+### 权限管理界面
+
+系统提供了两个权限管理页面：
+
+1. **权限管理页面 (PermissionPage)**
+   - 创建、编辑和删除角色
+   - 创建、编辑和删除权限
+   - 为角色分配权限
+
+2. **员工权限分配页面 (EmployeePermissionPage)**
+   - 管理员工的角色分配
+   - 查看员工当前拥有的角色和权限
+
+### 使用示例
+
+1. **在组件中使用权限检查**
+   ```tsx
+   import { usePermission } from '../context/PermissionContext';
+
+   const MyComponent = () => {
+     const { checkPermission } = usePermission();
+     
+     const canCreateCourse = checkPermission('courses:create');
+     
+     return (
+       <div>
+         {canCreateCourse && (
+           <button>创建课程</button>
+         )}
+       </div>
+     );
+   };
+   ```
+
+2. **使用权限保护组件**
+   ```tsx
+   import { PermissionGuard } from '../components/Permission/PermissionGuard';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionGuard permission="manage_finances">
+           <FinancialReportComponent />
+         </PermissionGuard>
+       </div>
+     );
+   };
+   ```
+
+3. **使用权限按钮**
+   ```tsx
+   import { PermissionButton } from '../components/Permission/PermissionButton';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionButton 
+           permission="courses:delete"
+           onClick={handleDeleteCourse}
+           className="btn btn-danger"
+         >
+           删除课程
+         </PermissionButton>
+       </div>
+     );
+   };
+   ```
+
+4. **保护路由**
+   ```tsx
+   import { ProtectedRoute } from '../components/Permission/ProtectedRoute';
+   
+   const AppRoutes = () => {
+     return (
+       <Routes>
+         <Route path="/admin/finances" element={
+           <ProtectedRoute permission="manage_finances">
+             <FinancePage />
+           </ProtectedRoute>
+         } />
+       </Routes>
+     );
+   };
+   ```
+
+### 扩展权限系统
+
+如需添加新的权限，请按照以下步骤操作：
+
+1. 在 `permissions` 表中添加新的权限记录
+2. 将新权限分配给相应的角色
+3. 在代码中使用权限检查功能控制功能访问
+
+---
+
+## 知识库模块 📚
+
+### 功能概述
+
+知识库模块是一个完整的知识管理系统，支持创建、管理和分享留学相关的各类资源。
+
+### 核心功能
+
+#### 资源管理
+- ✅ **创建资源** - 支持4种类型：文档、视频、文章、模板
+- ✅ **查看资源** - 详细的资源展示页面
+- ✅ **下载资源** - 文件下载并统计下载次数
+- ✅ **浏览统计** - 自动统计浏览和下载次数
+
+#### 搜索和筛选
+- ✅ **全文搜索** - 搜索标题、描述、标签
+- ✅ **9维筛选** - 分类/类型/作者/标签/时间/排序等
+- ✅ **标签页** - 全部/精选/已收藏/最近更新
+- ✅ **实时统计** - 显示筛选结果数量
+
+#### 互动功能
+- ✅ **收藏资源** - 一键收藏/取消收藏
+- ✅ **评论系统** - 发表评论和查看讨论
+- ✅ **点赞功能** - 为评论点赞
+- ✅ **相关推荐** - 智能推荐相关资源
+
+#### 统计面板
+- ✅ **总资源数** - 显示所有已发布资源
+- ✅ **分类统计** - 文档/视频/文章/模板数量
+- ✅ **下载统计** - 累计下载次数
+- ✅ **实时更新** - 数据实时同步
+
+### 数据库设计
+
+#### 表结构
+```sql
+knowledge_resources         # 资源表
+├── id, title, type        # 基本信息
+├── category, description  # 分类和描述
+├── content, file_url      # 内容和文件
+├── tags (数组)            # 标签
+├── views, downloads       # 统计
+└── is_featured, status    # 状态
+
+knowledge_comments         # 评论表
+├── resource_id           # 关联资源
+├── user_id, user_name    # 评论用户
+├── content, likes        # 内容和点赞
+└── parent_comment_id     # 支持回复
+
+knowledge_bookmarks        # 收藏表
+└── resource_id, user_id  # 用户收藏记录
+
+knowledge_comment_likes    # 点赞表
+└── comment_id, user_id   # 用户点赞记录
+```
+
+### 使用流程
+
+#### 1. 数据库初始化
+执行迁移脚本：
+```sql
+database_migrations/004_create_knowledge_base_tables.sql
+```
+
+#### 2. 创建资源
+1. 访问 `/admin/knowledge`
+2. 点击"上传资源"按钮
+3. 填写表单：
+   - 标题、类型、分类（必填）
+   - 描述、内容/文件链接、标签（可选）
+4. 提交创建
+
+#### 3. 管理资源
+- **浏览** - 主页网格视图
+- **搜索** - 顶部搜索框
+- **筛选** - 点击"筛选"使用高级筛选
+- **收藏** - 点击书签图标
+- **评论** - 进入详情页发表评论
+
+### 技术特性
+
+#### 模块化设计
+```
+KnowledgeBase/
+├── components/      # UI组件
+├── types/          # TypeScript类型
+├── utils/          # 工具函数
+└── hooks/          # 自定义Hooks（备用）
+```
+
+#### 性能优化
+- 直接 Supabase 查询，无中间层
+- localStorage 缓存用户信息
+- 简洁的状态管理
+- 避免不必要的重新渲染
+
+#### 用户体验
+- 友好的空状态提示
+- 清晰的错误信息
+- 多入口创建资源
+- 响应式设计
+- 暗黑模式支持
+
+### 文档资源
+
+- **功能说明**: `知识库完整功能说明.md`
+- **使用指南**: `知识库使用指南.md`
+- **部署指南**: `知识库快速部署指南.md`
+- **模块文档**: `src/pages/admin/KnowledgeBase/README.md`
+
+### 快速开始
+
+```bash
+# 1. 执行数据库迁移（在 Supabase Dashboard）
+database_migrations/004_create_knowledge_base_tables.sql
+
+# 2. 访问知识库页面
+http://localhost:5173/admin/knowledge
+
+# 3. 创建第一个资源
+点击"上传资源" → 填写表单 → 提交
+```
+
+### 功能清单
+
+- [x] 资源创建和展示
+- [x] 搜索和多维筛选
+- [x] 收藏功能
+- [x] 评论和点赞
+- [x] 浏览和下载统计
+- [x] 相关资源推荐
+- [x] 响应式布局
+- [x] 暗黑模式
+- [ ] 文件上传（待实现）
+- [ ] 资源编辑（待实现）
+- [ ] 资源删除（待实现）
+
+---
+
+### 版本 1.4.0 (2025-10-16)
+
+- **UI优化**: 学生管理页面重大升级，新增卡片视图模式
+  - 实现了现代化的卡片式布局，提升视觉效果和用户体验
+  - 添加视图切换功能，支持卡片视图和传统表格视图切换
+  - 卡片设计采用渐变背景、阴影效果和悬浮动画
+  - 优化信息层次结构，突出重点信息
+  - 增强响应式设计，支持多种屏幕尺寸
+  - 改进状态指示器，使用彩色圆点显示学生活跃状态
+  - 优化服务展示，每个卡片显示前2个服务项目
+  - 添加导师团队头像展示，采用堆叠式设计
+  - 实现悬浮时显示操作按钮的交互效果
+  - 保留原有表格视图供需要详细数据的用户使用
+
+### 版本 1.3.0 (2024-07-18)
+
+- **功能增强**: 实现了交互式选校助手功能，支持在SchoolAssistantPage页面直接进行选校
+- **UI优化**: 添加了右侧收藏侧边栏，用户可以直接在学校助手页面添加学校到收藏夹并设置申请策略
+- **用户体验**: 新增了选校指南弹窗，帮助用户了解如何使用选校功能
+- **功能改进**: 学校和专业卡片支持一键收藏，自动显示收藏侧边栏
+
+### 版本 1.2.0 (2024-07-16)
+
+- **功能增强**: 添加了"选校记录"按钮，用户可以直接从学校助手页面查看历史选校方案
+- **UI改进**: 在选校管理页面优化了返回按钮设计，并改进了布局
+- **用户体验**: 直接通过URL参数支持打开历史记录视图，便于快速访问
+
+### 版本 1.1.0 (2024-07-15)
+
+- **功能增强**: 完善了"开始选校"按钮功能，现在可以直接从学校助手页面导航到选校管理页面
+- **UI改进**: 在选校管理页面添加了返回按钮，方便用户在两个页面之间切换
+- **bug修复**: 修复了学校筛选条件不正确应用的问题
+- **性能优化**: 改进了学校和专业数据的加载速度
+
+# 案例数据处理与数据库导入工具
+
+本项目包含两个脚本，用于处理成功案例CSV数据文件并将其导入到数据库中。
+
+## 文件说明
+
+1. `casedata/process_case_csv.py` - 处理原始CSV文件，提取背景字段
+2. `casedata/upload_to_database.py` - 将处理后的CSV数据导入到数据库
+3. `casedata/upload_to_supabase.py` - 专门用于上传数据到Supabase数据库
+
+## 处理CSV文件
+
+这个脚本会读取原始的CSV文件，从`基本背景`字段中提取信息：
+- 第一个元素作为`admission_year`
+- 第二个元素中提取GPA值作为`gpa`
+- 第三个及之后的所有元素作为`language_scores`
+
+### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+python casedata/process_case_csv.py
+```
+
+脚本会处理`casedata/case.csv`文件，并将结果保存为`casedata/case_processed.csv`。
+
+## 数据库导入
+
+### 上传到普通数据库
+
+这个脚本会将处理后的CSV数据导入到普通数据库，并处理学校和项目的映射关系。
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 使用SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db
+
+# 使用MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password your_password --database your_db
+
+# 使用PostgreSQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --port 5432 --user postgres --password your_password --database your_db
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db --dry-run
+```
+
+### 上传到Supabase数据库
+
+这个专用脚本支持将处理后的CSV数据上传到Supabase数据库。
+
+#### 安装依赖
+
+```bash
+pip install supabase
+```
+
+#### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 上传到Supabase
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key"
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key" --dry-run
+```
+
+#### 参数说明
+
+- `--csv`: CSV文件路径（必需）
+- `--url`: Supabase项目URL（必需）
+- `--key`: Supabase API密钥（必需）
+- `--dry-run`: 试运行模式，不会实际写入数据库
+
+## 数据映射
+
+脚本会自动处理以下映射关系：
+1. 根据`cn_name`字段匹配schools表中的学校
+2. 根据学校ID和`applied_program`字段匹配programs表中的项目
+3. 如果直接匹配失败，会尝试模糊匹配
+
+## 日志
+
+程序运行会生成详细的日志文件：
+- 普通数据库上传：`db_upload_YYYYMMDD_HHMMSS.log`
+- Supabase上传：`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+# 数据处理脚本
+
+## CSV文件处理脚本
+
+本项目包含多个用于处理CSV数据文件和上传数据到数据库的脚本。
+
+### casedata/process_case_csv.py
+
+此脚本用于处理原始案例数据CSV文件，提取和转换关键字段，如背景、GPA和语言成绩。
+
+使用方法：
+```bash
+python casedata/process_case_csv.py
+```
+
+脚本会读取`case.csv`文件，处理后生成`case_processed.csv`文件。
+
+### casedata/upload_to_database.py
+
+此脚本用于将处理后的CSV数据上传到各类关系型数据库（SQLite、MySQL、PostgreSQL）。
+
+使用方法：
+```bash
+python casedata/upload_to_database.py --csv [CSV文件路径] --db-type [数据库类型] [其他参数]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--db-type`：数据库类型，可选值为sqlite、mysql、postgresql，默认为sqlite
+- `--db-path`：SQLite数据库文件路径（使用SQLite时必填）
+- `--host`：数据库主机地址，默认为localhost
+- `--port`：数据库端口
+- `--user`：数据库用户名
+- `--password`：数据库密码
+- `--database`：数据库名称
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path ./database.sqlite
+
+# 上传到MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password mypassword --database mydb
+
+# 试运行模式
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --user postgres --database mydb --dry-run
+```
+
+### casedata/upload_to_supabase.py
+
+此脚本专门用于将处理后的CSV数据上传到Supabase数据库。它会自动处理学校和项目的映射，以便将数据正确地关联到Supabase中的相应表。
+
+使用方法：
+```bash
+python casedata/upload_to_supabase.py --csv [CSV文件路径] --url [Supabase项目URL] --key [Supabase API密钥] [--dry-run]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--url`：Supabase项目URL（必填）
+- `--key`：Supabase API密钥（必填）
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到Supabase数据库
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key
+
+# 试运行模式
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key --dry-run
+```
+
+脚本执行过程中会生成详细的日志，记录处理的数据和可能出现的问题。日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`。
+
+## 日志说明
+
+上述脚本在执行过程中会生成日志文件：
+- `upload_to_database.py`生成的日志文件格式为`db_upload_YYYYMMDD_HHMMSS.log`
+- `upload_to_supabase.py`生成的日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+日志文件包含详细的执行步骤、成功/失败记录以及可能的错误信息，方便排查问题。
+
+# Supabase集成指南
+
+## 🔐 认证系统
+
+本系统已实现完整的 Supabase Auth 认证功能!
+
+### 功能特性
+
+- ✅ 邮箱密码登录
+- ✅ 用户注册(学生)
+- ✅ 忘记密码 / 密码重置
+- ✅ 自动关联 Auth 用户到业务表(employees/students)
+- ✅ 全局认证状态管理
+- ✅ 路由守卫保护
+
+### 配置指南
+
+**详细配置步骤请查看: [SUPABASE_AUTH_SETUP.md](./SUPABASE_AUTH_SETUP.md)**
+
+包含:
+- Supabase Auth 配置
+- 数据库表结构更新
+- RLS 策略配置
+- 管理员用户创建
+- 邮件服务配置
+- 测试流程说明
+
+### 使用方法
+
+**管理员登录:**
+1. 访问 `/login`
+2. 选择"管理员"角色
+3. 使用 Supabase Auth 中创建的账号登录
+
+**学生注册:**
+1. 访问 `/register`
+2. 填写信息并提交
+3. 查收邮件完成验证
+4. 返回登录
+
+## Supabase配置
+
+系统使用Supabase作为后端数据库和认证服务。以下是当前配置信息：
+
+### 连接信息
+- **Supabase URL**: `https://swyajeiqqewyckzbfkid.supabase.co`
+- **Supabase 匿名密钥**: 配置在环境变量中，使用`VITE_SUPABASE_ANON_KEY`变量名
+
+### 环境变量配置
+项目根目录下的`.env`文件包含所有必要的环境配置：
+```
+VITE_SUPABASE_URL=https://swyajeiqqewyckzbfkid.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
+
+前端代码通过以下方式访问这些变量：
+```typescript
+import.meta.env.VITE_SUPABASE_URL
+import.meta.env.VITE_SUPABASE_ANON_KEY
+```
+
+## 客户线索与学生管理的关系
+
+在本系统中，客户线索(Leads)和学生(Students)是两个相关但独立的概念：
+
+### 客户线索 (Leads)
+- 代表潜在的客户或咨询者
+- 通过网站表单、社交媒体、教育展等渠道收集
+- 包含基础联系信息和初步意向
+- 状态包括：新线索、已联系、已确认、已签约、已关闭
+
+### 学生 (Students)
+- 代表已签约并接受服务的客户
+- 包含详细个人信息、教育背景和服务记录
+- 可以关联多个服务项目和导师
+- 状态包括：活跃、休学、毕业、退学
+
+### 线索转换为学生的流程
+
+当一个线索成功签约后，系统支持将其转换为学生记录：
+
+1. **线索跟进**：通过线索管理页面跟进潜在客户
+2. **状态更新**：当线索状态更新为"已签约"时，系统提示是否创建学生记录
+3. **信息转移**：线索的基本信息（姓名、联系方式等）会自动填充到学生创建表单
+4. **补充信息**：需要补充更多学生特有的信息，如教育背景、服务选择等
+5. **创建记录**：确认后创建正式学生记录并关联服务项目
+
+### 数据表关系
+- `leads`表存储所有潜在客户线索
+- `students`表存储正式签约学生信息
+- `student_services`表存储学生的服务记录
+- 线索转为学生后，两条记录之间保留关联关系，便于分析转化率
+
+## 使用指南
+
+### 客户线索管理
+1. 通过管理后台的"线索管理"页面查看所有潜在客户
+2. 使用筛选和搜索功能快速定位特定线索
+3. 更新线索状态、添加跟进记录
+4. 将"已签约"线索转换为学生
+
+### 学生管理
+1. 通过管理后台的"学生管理"页面管理所有正式学生
+2. 查看学生详情、服务记录和进度
+3. 添加新服务、更新服务进度
+4. 导出学生数据进行分析和报告
+
+## 最佳实践
+1. 定期审核线索状态，确保及时跟进
+2. 记录详细的沟通内容和客户需求
+3. 线索转为学生后,保持服务进度的及时更新
+4. 利用数据分析功能优化线索转化率和学生服务满意度
+
+## 常见问题解答
+
+### Q: 如何查看系统使用的Supabase配置？
+A: 系统使用的Supabase URL和匿名密钥配置在根目录的`.env`文件中，通过环境变量`VITE_SUPABASE_URL`和`VITE_SUPABASE_ANON_KEY`访问。
+
+### Q: 线索记录和学生记录之间是什么关系？
+A: 线索记录代表潜在客户，学生记录代表已签约客户。当线索成功转化为客户后，系统支持将线索信息转换为学生记录，并保留关联关系用于分析转化率。
+
+## 权限系统
+
+本系统实现了基于角色的权限控制（RBAC）机制，支持灵活的权限管理和分配。
+
+### 权限系统架构
+
+1. **数据库表结构**
+   - `employee_roles`: 角色表，定义了系统中的各种角色
+   - `permissions`: 权限表，定义了系统中的各种权限点
+   - `role_permissions`: 角色-权限关联表，定义角色拥有的权限
+   - `employee_role_assignments`: 员工-角色关联表，定义员工拥有的角色
+
+2. **权限代码**
+   系统中定义了多种权限代码，例如：
+   - `manage_users`: 管理用户账号
+   - `manage_students`: 管理学生信息
+   - `manage_services`: 管理服务
+   - `manage_finances`: 管理财务
+   - `manage_mentors`: 管理导师
+   - `manage_leads`: 管理销售线索
+   - `view_reports`: 查看报表
+   - `manage_schools`: 管理学校和项目信息
+   - `courses:create`: 创建课程
+   - `courses:update`: 更新课程
+   - `courses:delete`: 删除课程
+   - 等等...
+
+3. **角色分配**
+   - 系统管理员: 拥有系统所有权限
+   - 咨询顾问: 负责学生咨询服务
+   - 财务人员: 负责财务管理
+   - 销售人员: 负责销售线索跟进
+
+### 权限组件
+
+1. **权限服务 (permissionService)**
+   提供了以下功能：
+   - `hasPermission`: 检查当前用户是否拥有指定权限
+   - `employeeHasPermission`: 检查特定员工是否拥有指定权限
+   - `getEmployeePermissions`: 获取员工的所有权限
+   - `getRolePermissions`: 获取角色的所有权限
+
+2. **权限上下文 (PermissionContext)**
+   提供了以下功能：
+   - 在应用中全局管理和检查权限
+   - 缓存用户权限以提高性能
+   - 响应用户登录状态变化自动更新权限
+
+3. **权限保护组件**
+   - `PermissionGuard`: 根据权限条件渲染内容
+   - `PermissionButton`: 根据权限控制按钮的可用性
+   - `ProtectedRoute`: 保护路由，只允许有权限的用户访问
+
+### 权限管理界面
+
+系统提供了两个权限管理页面：
+
+1. **权限管理页面 (PermissionPage)**
+   - 创建、编辑和删除角色
+   - 创建、编辑和删除权限
+   - 为角色分配权限
+
+2. **员工权限分配页面 (EmployeePermissionPage)**
+   - 管理员工的角色分配
+   - 查看员工当前拥有的角色和权限
+
+### 使用示例
+
+1. **在组件中使用权限检查**
+   ```tsx
+   import { usePermission } from '../context/PermissionContext';
+
+   const MyComponent = () => {
+     const { checkPermission } = usePermission();
+     
+     const canCreateCourse = checkPermission('courses:create');
+     
+     return (
+       <div>
+         {canCreateCourse && (
+           <button>创建课程</button>
+         )}
+       </div>
+     );
+   };
+   ```
+
+2. **使用权限保护组件**
+   ```tsx
+   import { PermissionGuard } from '../components/Permission/PermissionGuard';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionGuard permission="manage_finances">
+           <FinancialReportComponent />
+         </PermissionGuard>
+       </div>
+     );
+   };
+   ```
+
+3. **使用权限按钮**
+   ```tsx
+   import { PermissionButton } from '../components/Permission/PermissionButton';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionButton 
+           permission="courses:delete"
+           onClick={handleDeleteCourse}
+           className="btn btn-danger"
+         >
+           删除课程
+         </PermissionButton>
+       </div>
+     );
+   };
+   ```
+
+4. **保护路由**
+   ```tsx
+   import { ProtectedRoute } from '../components/Permission/ProtectedRoute';
+   
+   const AppRoutes = () => {
+     return (
+       <Routes>
+         <Route path="/admin/finances" element={
+           <ProtectedRoute permission="manage_finances">
+             <FinancePage />
+           </ProtectedRoute>
+         } />
+       </Routes>
+     );
+   };
+   ```
+
+### 扩展权限系统
+
+如需添加新的权限，请按照以下步骤操作：
+
+1. 在 `permissions` 表中添加新的权限记录
+2. 将新权限分配给相应的角色
+3. 在代码中使用权限检查功能控制功能访问
+
+---
+
+## 知识库模块 📚
+
+### 功能概述
+
+知识库模块是一个完整的知识管理系统，支持创建、管理和分享留学相关的各类资源。
+
+### 核心功能
+
+#### 资源管理
+- ✅ **创建资源** - 支持4种类型：文档、视频、文章、模板
+- ✅ **查看资源** - 详细的资源展示页面
+- ✅ **下载资源** - 文件下载并统计下载次数
+- ✅ **浏览统计** - 自动统计浏览和下载次数
+
+#### 搜索和筛选
+- ✅ **全文搜索** - 搜索标题、描述、标签
+- ✅ **9维筛选** - 分类/类型/作者/标签/时间/排序等
+- ✅ **标签页** - 全部/精选/已收藏/最近更新
+- ✅ **实时统计** - 显示筛选结果数量
+
+#### 互动功能
+- ✅ **收藏资源** - 一键收藏/取消收藏
+- ✅ **评论系统** - 发表评论和查看讨论
+- ✅ **点赞功能** - 为评论点赞
+- ✅ **相关推荐** - 智能推荐相关资源
+
+#### 统计面板
+- ✅ **总资源数** - 显示所有已发布资源
+- ✅ **分类统计** - 文档/视频/文章/模板数量
+- ✅ **下载统计** - 累计下载次数
+- ✅ **实时更新** - 数据实时同步
+
+### 数据库设计
+
+#### 表结构
+```sql
+knowledge_resources         # 资源表
+├── id, title, type        # 基本信息
+├── category, description  # 分类和描述
+├── content, file_url      # 内容和文件
+├── tags (数组)            # 标签
+├── views, downloads       # 统计
+└── is_featured, status    # 状态
+
+knowledge_comments         # 评论表
+├── resource_id           # 关联资源
+├── user_id, user_name    # 评论用户
+├── content, likes        # 内容和点赞
+└── parent_comment_id     # 支持回复
+
+knowledge_bookmarks        # 收藏表
+└── resource_id, user_id  # 用户收藏记录
+
+knowledge_comment_likes    # 点赞表
+└── comment_id, user_id   # 用户点赞记录
+```
+
+### 使用流程
+
+#### 1. 数据库初始化
+执行迁移脚本：
+```sql
+database_migrations/004_create_knowledge_base_tables.sql
+```
+
+#### 2. 创建资源
+1. 访问 `/admin/knowledge`
+2. 点击"上传资源"按钮
+3. 填写表单：
+   - 标题、类型、分类（必填）
+   - 描述、内容/文件链接、标签（可选）
+4. 提交创建
+
+#### 3. 管理资源
+- **浏览** - 主页网格视图
+- **搜索** - 顶部搜索框
+- **筛选** - 点击"筛选"使用高级筛选
+- **收藏** - 点击书签图标
+- **评论** - 进入详情页发表评论
+
+### 技术特性
+
+#### 模块化设计
+```
+KnowledgeBase/
+├── components/      # UI组件
+├── types/          # TypeScript类型
+├── utils/          # 工具函数
+└── hooks/          # 自定义Hooks（备用）
+```
+
+#### 性能优化
+- 直接 Supabase 查询，无中间层
+- localStorage 缓存用户信息
+- 简洁的状态管理
+- 避免不必要的重新渲染
+
+#### 用户体验
+- 友好的空状态提示
+- 清晰的错误信息
+- 多入口创建资源
+- 响应式设计
+- 暗黑模式支持
+
+### 文档资源
+
+- **功能说明**: `知识库完整功能说明.md`
+- **使用指南**: `知识库使用指南.md`
+- **部署指南**: `知识库快速部署指南.md`
+- **模块文档**: `src/pages/admin/KnowledgeBase/README.md`
+
+### 快速开始
+
+```bash
+# 1. 执行数据库迁移（在 Supabase Dashboard）
+database_migrations/004_create_knowledge_base_tables.sql
+
+# 2. 访问知识库页面
+http://localhost:5173/admin/knowledge
+
+# 3. 创建第一个资源
+点击"上传资源" → 填写表单 → 提交
+```
+
+### 功能清单
+
+- [x] 资源创建和展示
+- [x] 搜索和多维筛选
+- [x] 收藏功能
+- [x] 评论和点赞
+- [x] 浏览和下载统计
+- [x] 相关资源推荐
+- [x] 响应式布局
+- [x] 暗黑模式
+- [ ] 文件上传（待实现）
+- [ ] 资源编辑（待实现）
+- [ ] 资源删除（待实现）
+
+---
+
+### 版本 1.4.0 (2025-10-16)
+
+- **UI优化**: 学生管理页面重大升级，新增卡片视图模式
+  - 实现了现代化的卡片式布局，提升视觉效果和用户体验
+  - 添加视图切换功能，支持卡片视图和传统表格视图切换
+  - 卡片设计采用渐变背景、阴影效果和悬浮动画
+  - 优化信息层次结构，突出重点信息
+  - 增强响应式设计，支持多种屏幕尺寸
+  - 改进状态指示器，使用彩色圆点显示学生活跃状态
+  - 优化服务展示，每个卡片显示前2个服务项目
+  - 添加导师团队头像展示，采用堆叠式设计
+  - 实现悬浮时显示操作按钮的交互效果
+  - 保留原有表格视图供需要详细数据的用户使用
+
+### 版本 1.3.0 (2024-07-18)
+
+- **功能增强**: 实现了交互式选校助手功能，支持在SchoolAssistantPage页面直接进行选校
+- **UI优化**: 添加了右侧收藏侧边栏，用户可以直接在学校助手页面添加学校到收藏夹并设置申请策略
+- **用户体验**: 新增了选校指南弹窗，帮助用户了解如何使用选校功能
+- **功能改进**: 学校和专业卡片支持一键收藏，自动显示收藏侧边栏
+
+### 版本 1.2.0 (2024-07-16)
+
+- **功能增强**: 添加了"选校记录"按钮，用户可以直接从学校助手页面查看历史选校方案
+- **UI改进**: 在选校管理页面优化了返回按钮设计，并改进了布局
+- **用户体验**: 直接通过URL参数支持打开历史记录视图，便于快速访问
+
+### 版本 1.1.0 (2024-07-15)
+
+- **功能增强**: 完善了"开始选校"按钮功能，现在可以直接从学校助手页面导航到选校管理页面
+- **UI改进**: 在选校管理页面添加了返回按钮，方便用户在两个页面之间切换
+- **bug修复**: 修复了学校筛选条件不正确应用的问题
+- **性能优化**: 改进了学校和专业数据的加载速度
+
+# 案例数据处理与数据库导入工具
+
+本项目包含两个脚本，用于处理成功案例CSV数据文件并将其导入到数据库中。
+
+## 文件说明
+
+1. `casedata/process_case_csv.py` - 处理原始CSV文件，提取背景字段
+2. `casedata/upload_to_database.py` - 将处理后的CSV数据导入到数据库
+3. `casedata/upload_to_supabase.py` - 专门用于上传数据到Supabase数据库
+
+## 处理CSV文件
+
+这个脚本会读取原始的CSV文件，从`基本背景`字段中提取信息：
+- 第一个元素作为`admission_year`
+- 第二个元素中提取GPA值作为`gpa`
+- 第三个及之后的所有元素作为`language_scores`
+
+### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+python casedata/process_case_csv.py
+```
+
+脚本会处理`casedata/case.csv`文件，并将结果保存为`casedata/case_processed.csv`。
+
+## 数据库导入
+
+### 上传到普通数据库
+
+这个脚本会将处理后的CSV数据导入到普通数据库，并处理学校和项目的映射关系。
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 使用SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db
+
+# 使用MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password your_password --database your_db
+
+# 使用PostgreSQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --port 5432 --user postgres --password your_password --database your_db
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db --dry-run
+```
+
+### 上传到Supabase数据库
+
+这个专用脚本支持将处理后的CSV数据上传到Supabase数据库。
+
+#### 安装依赖
+
+```bash
+pip install supabase
+```
+
+#### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 上传到Supabase
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key"
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key" --dry-run
+```
+
+#### 参数说明
+
+- `--csv`: CSV文件路径（必需）
+- `--url`: Supabase项目URL（必需）
+- `--key`: Supabase API密钥（必需）
+- `--dry-run`: 试运行模式，不会实际写入数据库
+
+## 数据映射
+
+脚本会自动处理以下映射关系：
+1. 根据`cn_name`字段匹配schools表中的学校
+2. 根据学校ID和`applied_program`字段匹配programs表中的项目
+3. 如果直接匹配失败，会尝试模糊匹配
+
+## 日志
+
+程序运行会生成详细的日志文件：
+- 普通数据库上传：`db_upload_YYYYMMDD_HHMMSS.log`
+- Supabase上传：`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+# 数据处理脚本
+
+## CSV文件处理脚本
+
+本项目包含多个用于处理CSV数据文件和上传数据到数据库的脚本。
+
+### casedata/process_case_csv.py
+
+此脚本用于处理原始案例数据CSV文件，提取和转换关键字段，如背景、GPA和语言成绩。
+
+使用方法：
+```bash
+python casedata/process_case_csv.py
+```
+
+脚本会读取`case.csv`文件，处理后生成`case_processed.csv`文件。
+
+### casedata/upload_to_database.py
+
+此脚本用于将处理后的CSV数据上传到各类关系型数据库（SQLite、MySQL、PostgreSQL）。
+
+使用方法：
+```bash
+python casedata/upload_to_database.py --csv [CSV文件路径] --db-type [数据库类型] [其他参数]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--db-type`：数据库类型，可选值为sqlite、mysql、postgresql，默认为sqlite
+- `--db-path`：SQLite数据库文件路径（使用SQLite时必填）
+- `--host`：数据库主机地址，默认为localhost
+- `--port`：数据库端口
+- `--user`：数据库用户名
+- `--password`：数据库密码
+- `--database`：数据库名称
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path ./database.sqlite
+
+# 上传到MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password mypassword --database mydb
+
+# 试运行模式
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --user postgres --database mydb --dry-run
+```
+
+### casedata/upload_to_supabase.py
+
+此脚本专门用于将处理后的CSV数据上传到Supabase数据库。它会自动处理学校和项目的映射，以便将数据正确地关联到Supabase中的相应表。
+
+使用方法：
+```bash
+python casedata/upload_to_supabase.py --csv [CSV文件路径] --url [Supabase项目URL] --key [Supabase API密钥] [--dry-run]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--url`：Supabase项目URL（必填）
+- `--key`：Supabase API密钥（必填）
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到Supabase数据库
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key
+
+# 试运行模式
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key --dry-run
+```
+
+脚本执行过程中会生成详细的日志，记录处理的数据和可能出现的问题。日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`。
+
+## 日志说明
+
+上述脚本在执行过程中会生成日志文件：
+- `upload_to_database.py`生成的日志文件格式为`db_upload_YYYYMMDD_HHMMSS.log`
+- `upload_to_supabase.py`生成的日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+日志文件包含详细的执行步骤、成功/失败记录以及可能的错误信息，方便排查问题。
+
+# Supabase集成指南
+
+## 🔐 认证系统
+
+本系统已实现完整的 Supabase Auth 认证功能!
+
+### 功能特性
+
+- ✅ 邮箱密码登录
+- ✅ 用户注册(学生)
+- ✅ 忘记密码 / 密码重置
+- ✅ 自动关联 Auth 用户到业务表(employees/students)
+- ✅ 全局认证状态管理
+- ✅ 路由守卫保护
+
+### 配置指南
+
+**详细配置步骤请查看: [SUPABASE_AUTH_SETUP.md](./SUPABASE_AUTH_SETUP.md)**
+
+包含:
+- Supabase Auth 配置
+- 数据库表结构更新
+- RLS 策略配置
+- 管理员用户创建
+- 邮件服务配置
+- 测试流程说明
+
+### 使用方法
+
+**管理员登录:**
+1. 访问 `/login`
+2. 选择"管理员"角色
+3. 使用 Supabase Auth 中创建的账号登录
+
+**学生注册:**
+1. 访问 `/register`
+2. 填写信息并提交
+3. 查收邮件完成验证
+4. 返回登录
+
+## Supabase配置
+
+系统使用Supabase作为后端数据库和认证服务。以下是当前配置信息：
+
+### 连接信息
+- **Supabase URL**: `https://swyajeiqqewyckzbfkid.supabase.co`
+- **Supabase 匿名密钥**: 配置在环境变量中，使用`VITE_SUPABASE_ANON_KEY`变量名
+
+### 环境变量配置
+项目根目录下的`.env`文件包含所有必要的环境配置：
+```
+VITE_SUPABASE_URL=https://swyajeiqqewyckzbfkid.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
+
+前端代码通过以下方式访问这些变量：
+```typescript
+import.meta.env.VITE_SUPABASE_URL
+import.meta.env.VITE_SUPABASE_ANON_KEY
+```
+
+## 客户线索与学生管理的关系
+
+在本系统中，客户线索(Leads)和学生(Students)是两个相关但独立的概念：
+
+### 客户线索 (Leads)
+- 代表潜在的客户或咨询者
+- 通过网站表单、社交媒体、教育展等渠道收集
+- 包含基础联系信息和初步意向
+- 状态包括：新线索、已联系、已确认、已签约、已关闭
+
+### 学生 (Students)
+- 代表已签约并接受服务的客户
+- 包含详细个人信息、教育背景和服务记录
+- 可以关联多个服务项目和导师
+- 状态包括：活跃、休学、毕业、退学
+
+### 线索转换为学生的流程
+
+当一个线索成功签约后，系统支持将其转换为学生记录：
+
+1. **线索跟进**：通过线索管理页面跟进潜在客户
+2. **状态更新**：当线索状态更新为"已签约"时，系统提示是否创建学生记录
+3. **信息转移**：线索的基本信息（姓名、联系方式等）会自动填充到学生创建表单
+4. **补充信息**：需要补充更多学生特有的信息，如教育背景、服务选择等
+5. **创建记录**：确认后创建正式学生记录并关联服务项目
+
+### 数据表关系
+- `leads`表存储所有潜在客户线索
+- `students`表存储正式签约学生信息
+- `student_services`表存储学生的服务记录
+- 线索转为学生后，两条记录之间保留关联关系，便于分析转化率
+
+## 使用指南
+
+### 客户线索管理
+1. 通过管理后台的"线索管理"页面查看所有潜在客户
+2. 使用筛选和搜索功能快速定位特定线索
+3. 更新线索状态、添加跟进记录
+4. 将"已签约"线索转换为学生
+
+### 学生管理
+1. 通过管理后台的"学生管理"页面管理所有正式学生
+2. 查看学生详情、服务记录和进度
+3. 添加新服务、更新服务进度
+4. 导出学生数据进行分析和报告
+
+## 最佳实践
+1. 定期审核线索状态，确保及时跟进
+2. 记录详细的沟通内容和客户需求
+3. 线索转为学生后,保持服务进度的及时更新
+4. 利用数据分析功能优化线索转化率和学生服务满意度
+
+## 常见问题解答
+
+### Q: 如何查看系统使用的Supabase配置？
+A: 系统使用的Supabase URL和匿名密钥配置在根目录的`.env`文件中，通过环境变量`VITE_SUPABASE_URL`和`VITE_SUPABASE_ANON_KEY`访问。
+
+### Q: 线索记录和学生记录之间是什么关系？
+A: 线索记录代表潜在客户，学生记录代表已签约客户。当线索成功转化为客户后，系统支持将线索信息转换为学生记录，并保留关联关系用于分析转化率。
+
+## 权限系统
+
+本系统实现了基于角色的权限控制（RBAC）机制，支持灵活的权限管理和分配。
+
+### 权限系统架构
+
+1. **数据库表结构**
+   - `employee_roles`: 角色表，定义了系统中的各种角色
+   - `permissions`: 权限表，定义了系统中的各种权限点
+   - `role_permissions`: 角色-权限关联表，定义角色拥有的权限
+   - `employee_role_assignments`: 员工-角色关联表，定义员工拥有的角色
+
+2. **权限代码**
+   系统中定义了多种权限代码，例如：
+   - `manage_users`: 管理用户账号
+   - `manage_students`: 管理学生信息
+   - `manage_services`: 管理服务
+   - `manage_finances`: 管理财务
+   - `manage_mentors`: 管理导师
+   - `manage_leads`: 管理销售线索
+   - `view_reports`: 查看报表
+   - `manage_schools`: 管理学校和项目信息
+   - `courses:create`: 创建课程
+   - `courses:update`: 更新课程
+   - `courses:delete`: 删除课程
+   - 等等...
+
+3. **角色分配**
+   - 系统管理员: 拥有系统所有权限
+   - 咨询顾问: 负责学生咨询服务
+   - 财务人员: 负责财务管理
+   - 销售人员: 负责销售线索跟进
+
+### 权限组件
+
+1. **权限服务 (permissionService)**
+   提供了以下功能：
+   - `hasPermission`: 检查当前用户是否拥有指定权限
+   - `employeeHasPermission`: 检查特定员工是否拥有指定权限
+   - `getEmployeePermissions`: 获取员工的所有权限
+   - `getRolePermissions`: 获取角色的所有权限
+
+2. **权限上下文 (PermissionContext)**
+   提供了以下功能：
+   - 在应用中全局管理和检查权限
+   - 缓存用户权限以提高性能
+   - 响应用户登录状态变化自动更新权限
+
+3. **权限保护组件**
+   - `PermissionGuard`: 根据权限条件渲染内容
+   - `PermissionButton`: 根据权限控制按钮的可用性
+   - `ProtectedRoute`: 保护路由，只允许有权限的用户访问
+
+### 权限管理界面
+
+系统提供了两个权限管理页面：
+
+1. **权限管理页面 (PermissionPage)**
+   - 创建、编辑和删除角色
+   - 创建、编辑和删除权限
+   - 为角色分配权限
+
+2. **员工权限分配页面 (EmployeePermissionPage)**
+   - 管理员工的角色分配
+   - 查看员工当前拥有的角色和权限
+
+### 使用示例
+
+1. **在组件中使用权限检查**
+   ```tsx
+   import { usePermission } from '../context/PermissionContext';
+
+   const MyComponent = () => {
+     const { checkPermission } = usePermission();
+     
+     const canCreateCourse = checkPermission('courses:create');
+     
+     return (
+       <div>
+         {canCreateCourse && (
+           <button>创建课程</button>
+         )}
+       </div>
+     );
+   };
+   ```
+
+2. **使用权限保护组件**
+   ```tsx
+   import { PermissionGuard } from '../components/Permission/PermissionGuard';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionGuard permission="manage_finances">
+           <FinancialReportComponent />
+         </PermissionGuard>
+       </div>
+     );
+   };
+   ```
+
+3. **使用权限按钮**
+   ```tsx
+   import { PermissionButton } from '../components/Permission/PermissionButton';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionButton 
+           permission="courses:delete"
+           onClick={handleDeleteCourse}
+           className="btn btn-danger"
+         >
+           删除课程
+         </PermissionButton>
+       </div>
+     );
+   };
+   ```
+
+4. **保护路由**
+   ```tsx
+   import { ProtectedRoute } from '../components/Permission/ProtectedRoute';
+   
+   const AppRoutes = () => {
+     return (
+       <Routes>
+         <Route path="/admin/finances" element={
+           <ProtectedRoute permission="manage_finances">
+             <FinancePage />
+           </ProtectedRoute>
+         } />
+       </Routes>
+     );
+   };
+   ```
+
+### 扩展权限系统
+
+如需添加新的权限，请按照以下步骤操作：
+
+1. 在 `permissions` 表中添加新的权限记录
+2. 将新权限分配给相应的角色
+3. 在代码中使用权限检查功能控制功能访问
+
+---
+
+## 知识库模块 📚
+
+### 功能概述
+
+知识库模块是一个完整的知识管理系统，支持创建、管理和分享留学相关的各类资源。
+
+### 核心功能
+
+#### 资源管理
+- ✅ **创建资源** - 支持4种类型：文档、视频、文章、模板
+- ✅ **查看资源** - 详细的资源展示页面
+- ✅ **下载资源** - 文件下载并统计下载次数
+- ✅ **浏览统计** - 自动统计浏览和下载次数
+
+#### 搜索和筛选
+- ✅ **全文搜索** - 搜索标题、描述、标签
+- ✅ **9维筛选** - 分类/类型/作者/标签/时间/排序等
+- ✅ **标签页** - 全部/精选/已收藏/最近更新
+- ✅ **实时统计** - 显示筛选结果数量
+
+#### 互动功能
+- ✅ **收藏资源** - 一键收藏/取消收藏
+- ✅ **评论系统** - 发表评论和查看讨论
+- ✅ **点赞功能** - 为评论点赞
+- ✅ **相关推荐** - 智能推荐相关资源
+
+#### 统计面板
+- ✅ **总资源数** - 显示所有已发布资源
+- ✅ **分类统计** - 文档/视频/文章/模板数量
+- ✅ **下载统计** - 累计下载次数
+- ✅ **实时更新** - 数据实时同步
+
+### 数据库设计
+
+#### 表结构
+```sql
+knowledge_resources         # 资源表
+├── id, title, type        # 基本信息
+├── category, description  # 分类和描述
+├── content, file_url      # 内容和文件
+├── tags (数组)            # 标签
+├── views, downloads       # 统计
+└── is_featured, status    # 状态
+
+knowledge_comments         # 评论表
+├── resource_id           # 关联资源
+├── user_id, user_name    # 评论用户
+├── content, likes        # 内容和点赞
+└── parent_comment_id     # 支持回复
+
+knowledge_bookmarks        # 收藏表
+└── resource_id, user_id  # 用户收藏记录
+
+knowledge_comment_likes    # 点赞表
+└── comment_id, user_id   # 用户点赞记录
+```
+
+### 使用流程
+
+#### 1. 数据库初始化
+执行迁移脚本：
+```sql
+database_migrations/004_create_knowledge_base_tables.sql
+```
+
+#### 2. 创建资源
+1. 访问 `/admin/knowledge`
+2. 点击"上传资源"按钮
+3. 填写表单：
+   - 标题、类型、分类（必填）
+   - 描述、内容/文件链接、标签（可选）
+4. 提交创建
+
+#### 3. 管理资源
+- **浏览** - 主页网格视图
+- **搜索** - 顶部搜索框
+- **筛选** - 点击"筛选"使用高级筛选
+- **收藏** - 点击书签图标
+- **评论** - 进入详情页发表评论
+
+### 技术特性
+
+#### 模块化设计
+```
+KnowledgeBase/
+├── components/      # UI组件
+├── types/          # TypeScript类型
+├── utils/          # 工具函数
+└── hooks/          # 自定义Hooks（备用）
+```
+
+#### 性能优化
+- 直接 Supabase 查询，无中间层
+- localStorage 缓存用户信息
+- 简洁的状态管理
+- 避免不必要的重新渲染
+
+#### 用户体验
+- 友好的空状态提示
+- 清晰的错误信息
+- 多入口创建资源
+- 响应式设计
+- 暗黑模式支持
+
+### 文档资源
+
+- **功能说明**: `知识库完整功能说明.md`
+- **使用指南**: `知识库使用指南.md`
+- **部署指南**: `知识库快速部署指南.md`
+- **模块文档**: `src/pages/admin/KnowledgeBase/README.md`
+
+### 快速开始
+
+```bash
+# 1. 执行数据库迁移（在 Supabase Dashboard）
+database_migrations/004_create_knowledge_base_tables.sql
+
+# 2. 访问知识库页面
+http://localhost:5173/admin/knowledge
+
+# 3. 创建第一个资源
+点击"上传资源" → 填写表单 → 提交
+```
+
+### 功能清单
+
+- [x] 资源创建和展示
+- [x] 搜索和多维筛选
+- [x] 收藏功能
+- [x] 评论和点赞
+- [x] 浏览和下载统计
+- [x] 相关资源推荐
+- [x] 响应式布局
+- [x] 暗黑模式
+- [ ] 文件上传（待实现）
+- [ ] 资源编辑（待实现）
+- [ ] 资源删除（待实现）
+
+---
+
+### 版本 1.4.0 (2025-10-16)
+
+- **UI优化**: 学生管理页面重大升级，新增卡片视图模式
+  - 实现了现代化的卡片式布局，提升视觉效果和用户体验
+  - 添加视图切换功能，支持卡片视图和传统表格视图切换
+  - 卡片设计采用渐变背景、阴影效果和悬浮动画
+  - 优化信息层次结构，突出重点信息
+  - 增强响应式设计，支持多种屏幕尺寸
+  - 改进状态指示器，使用彩色圆点显示学生活跃状态
+  - 优化服务展示，每个卡片显示前2个服务项目
+  - 添加导师团队头像展示，采用堆叠式设计
+  - 实现悬浮时显示操作按钮的交互效果
+  - 保留原有表格视图供需要详细数据的用户使用
+
+### 版本 1.3.0 (2024-07-18)
+
+- **功能增强**: 实现了交互式选校助手功能，支持在SchoolAssistantPage页面直接进行选校
+- **UI优化**: 添加了右侧收藏侧边栏，用户可以直接在学校助手页面添加学校到收藏夹并设置申请策略
+- **用户体验**: 新增了选校指南弹窗，帮助用户了解如何使用选校功能
+- **功能改进**: 学校和专业卡片支持一键收藏，自动显示收藏侧边栏
+
+### 版本 1.2.0 (2024-07-16)
+
+- **功能增强**: 添加了"选校记录"按钮，用户可以直接从学校助手页面查看历史选校方案
+- **UI改进**: 在选校管理页面优化了返回按钮设计，并改进了布局
+- **用户体验**: 直接通过URL参数支持打开历史记录视图，便于快速访问
+
+### 版本 1.1.0 (2024-07-15)
+
+- **功能增强**: 完善了"开始选校"按钮功能，现在可以直接从学校助手页面导航到选校管理页面
+- **UI改进**: 在选校管理页面添加了返回按钮，方便用户在两个页面之间切换
+- **bug修复**: 修复了学校筛选条件不正确应用的问题
+- **性能优化**: 改进了学校和专业数据的加载速度
+
+# 案例数据处理与数据库导入工具
+
+本项目包含两个脚本，用于处理成功案例CSV数据文件并将其导入到数据库中。
+
+## 文件说明
+
+1. `casedata/process_case_csv.py` - 处理原始CSV文件，提取背景字段
+2. `casedata/upload_to_database.py` - 将处理后的CSV数据导入到数据库
+3. `casedata/upload_to_supabase.py` - 专门用于上传数据到Supabase数据库
+
+## 处理CSV文件
+
+这个脚本会读取原始的CSV文件，从`基本背景`字段中提取信息：
+- 第一个元素作为`admission_year`
+- 第二个元素中提取GPA值作为`gpa`
+- 第三个及之后的所有元素作为`language_scores`
+
+### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+python casedata/process_case_csv.py
+```
+
+脚本会处理`casedata/case.csv`文件，并将结果保存为`casedata/case_processed.csv`。
+
+## 数据库导入
+
+### 上传到普通数据库
+
+这个脚本会将处理后的CSV数据导入到普通数据库，并处理学校和项目的映射关系。
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 使用SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db
+
+# 使用MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password your_password --database your_db
+
+# 使用PostgreSQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --port 5432 --user postgres --password your_password --database your_db
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db --dry-run
+```
+
+### 上传到Supabase数据库
+
+这个专用脚本支持将处理后的CSV数据上传到Supabase数据库。
+
+#### 安装依赖
+
+```bash
+pip install supabase
+```
+
+#### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 上传到Supabase
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key"
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key" --dry-run
+```
+
+#### 参数说明
+
+- `--csv`: CSV文件路径（必需）
+- `--url`: Supabase项目URL（必需）
+- `--key`: Supabase API密钥（必需）
+- `--dry-run`: 试运行模式，不会实际写入数据库
+
+## 数据映射
+
+脚本会自动处理以下映射关系：
+1. 根据`cn_name`字段匹配schools表中的学校
+2. 根据学校ID和`applied_program`字段匹配programs表中的项目
+3. 如果直接匹配失败，会尝试模糊匹配
+
+## 日志
+
+程序运行会生成详细的日志文件：
+- 普通数据库上传：`db_upload_YYYYMMDD_HHMMSS.log`
+- Supabase上传：`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+# 数据处理脚本
+
+## CSV文件处理脚本
+
+本项目包含多个用于处理CSV数据文件和上传数据到数据库的脚本。
+
+### casedata/process_case_csv.py
+
+此脚本用于处理原始案例数据CSV文件，提取和转换关键字段，如背景、GPA和语言成绩。
+
+使用方法：
+```bash
+python casedata/process_case_csv.py
+```
+
+脚本会读取`case.csv`文件，处理后生成`case_processed.csv`文件。
+
+### casedata/upload_to_database.py
+
+此脚本用于将处理后的CSV数据上传到各类关系型数据库（SQLite、MySQL、PostgreSQL）。
+
+使用方法：
+```bash
+python casedata/upload_to_database.py --csv [CSV文件路径] --db-type [数据库类型] [其他参数]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--db-type`：数据库类型，可选值为sqlite、mysql、postgresql，默认为sqlite
+- `--db-path`：SQLite数据库文件路径（使用SQLite时必填）
+- `--host`：数据库主机地址，默认为localhost
+- `--port`：数据库端口
+- `--user`：数据库用户名
+- `--password`：数据库密码
+- `--database`：数据库名称
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path ./database.sqlite
+
+# 上传到MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password mypassword --database mydb
+
+# 试运行模式
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --user postgres --database mydb --dry-run
+```
+
+### casedata/upload_to_supabase.py
+
+此脚本专门用于将处理后的CSV数据上传到Supabase数据库。它会自动处理学校和项目的映射，以便将数据正确地关联到Supabase中的相应表。
+
+使用方法：
+```bash
+python casedata/upload_to_supabase.py --csv [CSV文件路径] --url [Supabase项目URL] --key [Supabase API密钥] [--dry-run]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--url`：Supabase项目URL（必填）
+- `--key`：Supabase API密钥（必填）
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到Supabase数据库
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key
+
+# 试运行模式
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key --dry-run
+```
+
+脚本执行过程中会生成详细的日志，记录处理的数据和可能出现的问题。日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`。
+
+## 日志说明
+
+上述脚本在执行过程中会生成日志文件：
+- `upload_to_database.py`生成的日志文件格式为`db_upload_YYYYMMDD_HHMMSS.log`
+- `upload_to_supabase.py`生成的日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+日志文件包含详细的执行步骤、成功/失败记录以及可能的错误信息，方便排查问题。
+
+# Supabase集成指南
+
+## 🔐 认证系统
+
+本系统已实现完整的 Supabase Auth 认证功能!
+
+### 功能特性
+
+- ✅ 邮箱密码登录
+- ✅ 用户注册(学生)
+- ✅ 忘记密码 / 密码重置
+- ✅ 自动关联 Auth 用户到业务表(employees/students)
+- ✅ 全局认证状态管理
+- ✅ 路由守卫保护
+
+### 配置指南
+
+**详细配置步骤请查看: [SUPABASE_AUTH_SETUP.md](./SUPABASE_AUTH_SETUP.md)**
+
+包含:
+- Supabase Auth 配置
+- 数据库表结构更新
+- RLS 策略配置
+- 管理员用户创建
+- 邮件服务配置
+- 测试流程说明
+
+### 使用方法
+
+**管理员登录:**
+1. 访问 `/login`
+2. 选择"管理员"角色
+3. 使用 Supabase Auth 中创建的账号登录
+
+**学生注册:**
+1. 访问 `/register`
+2. 填写信息并提交
+3. 查收邮件完成验证
+4. 返回登录
+
+## Supabase配置
+
+系统使用Supabase作为后端数据库和认证服务。以下是当前配置信息：
+
+### 连接信息
+- **Supabase URL**: `https://swyajeiqqewyckzbfkid.supabase.co`
+- **Supabase 匿名密钥**: 配置在环境变量中，使用`VITE_SUPABASE_ANON_KEY`变量名
+
+### 环境变量配置
+项目根目录下的`.env`文件包含所有必要的环境配置：
+```
+VITE_SUPABASE_URL=https://swyajeiqqewyckzbfkid.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
+
+前端代码通过以下方式访问这些变量：
+```typescript
+import.meta.env.VITE_SUPABASE_URL
+import.meta.env.VITE_SUPABASE_ANON_KEY
+```
+
+## 客户线索与学生管理的关系
+
+在本系统中，客户线索(Leads)和学生(Students)是两个相关但独立的概念：
+
+### 客户线索 (Leads)
+- 代表潜在的客户或咨询者
+- 通过网站表单、社交媒体、教育展等渠道收集
+- 包含基础联系信息和初步意向
+- 状态包括：新线索、已联系、已确认、已签约、已关闭
+
+### 学生 (Students)
+- 代表已签约并接受服务的客户
+- 包含详细个人信息、教育背景和服务记录
+- 可以关联多个服务项目和导师
+- 状态包括：活跃、休学、毕业、退学
+
+### 线索转换为学生的流程
+
+当一个线索成功签约后，系统支持将其转换为学生记录：
+
+1. **线索跟进**：通过线索管理页面跟进潜在客户
+2. **状态更新**：当线索状态更新为"已签约"时，系统提示是否创建学生记录
+3. **信息转移**：线索的基本信息（姓名、联系方式等）会自动填充到学生创建表单
+4. **补充信息**：需要补充更多学生特有的信息，如教育背景、服务选择等
+5. **创建记录**：确认后创建正式学生记录并关联服务项目
+
+### 数据表关系
+- `leads`表存储所有潜在客户线索
+- `students`表存储正式签约学生信息
+- `student_services`表存储学生的服务记录
+- 线索转为学生后，两条记录之间保留关联关系，便于分析转化率
+
+## 使用指南
+
+### 客户线索管理
+1. 通过管理后台的"线索管理"页面查看所有潜在客户
+2. 使用筛选和搜索功能快速定位特定线索
+3. 更新线索状态、添加跟进记录
+4. 将"已签约"线索转换为学生
+
+### 学生管理
+1. 通过管理后台的"学生管理"页面管理所有正式学生
+2. 查看学生详情、服务记录和进度
+3. 添加新服务、更新服务进度
+4. 导出学生数据进行分析和报告
+
+## 最佳实践
+1. 定期审核线索状态，确保及时跟进
+2. 记录详细的沟通内容和客户需求
+3. 线索转为学生后,保持服务进度的及时更新
+4. 利用数据分析功能优化线索转化率和学生服务满意度
+
+## 常见问题解答
+
+### Q: 如何查看系统使用的Supabase配置？
+A: 系统使用的Supabase URL和匿名密钥配置在根目录的`.env`文件中，通过环境变量`VITE_SUPABASE_URL`和`VITE_SUPABASE_ANON_KEY`访问。
+
+### Q: 线索记录和学生记录之间是什么关系？
+A: 线索记录代表潜在客户，学生记录代表已签约客户。当线索成功转化为客户后，系统支持将线索信息转换为学生记录，并保留关联关系用于分析转化率。
+
+## 权限系统
+
+本系统实现了基于角色的权限控制（RBAC）机制，支持灵活的权限管理和分配。
+
+### 权限系统架构
+
+1. **数据库表结构**
+   - `employee_roles`: 角色表，定义了系统中的各种角色
+   - `permissions`: 权限表，定义了系统中的各种权限点
+   - `role_permissions`: 角色-权限关联表，定义角色拥有的权限
+   - `employee_role_assignments`: 员工-角色关联表，定义员工拥有的角色
+
+2. **权限代码**
+   系统中定义了多种权限代码，例如：
+   - `manage_users`: 管理用户账号
+   - `manage_students`: 管理学生信息
+   - `manage_services`: 管理服务
+   - `manage_finances`: 管理财务
+   - `manage_mentors`: 管理导师
+   - `manage_leads`: 管理销售线索
+   - `view_reports`: 查看报表
+   - `manage_schools`: 管理学校和项目信息
+   - `courses:create`: 创建课程
+   - `courses:update`: 更新课程
+   - `courses:delete`: 删除课程
+   - 等等...
+
+3. **角色分配**
+   - 系统管理员: 拥有系统所有权限
+   - 咨询顾问: 负责学生咨询服务
+   - 财务人员: 负责财务管理
+   - 销售人员: 负责销售线索跟进
+
+### 权限组件
+
+1. **权限服务 (permissionService)**
+   提供了以下功能：
+   - `hasPermission`: 检查当前用户是否拥有指定权限
+   - `employeeHasPermission`: 检查特定员工是否拥有指定权限
+   - `getEmployeePermissions`: 获取员工的所有权限
+   - `getRolePermissions`: 获取角色的所有权限
+
+2. **权限上下文 (PermissionContext)**
+   提供了以下功能：
+   - 在应用中全局管理和检查权限
+   - 缓存用户权限以提高性能
+   - 响应用户登录状态变化自动更新权限
+
+3. **权限保护组件**
+   - `PermissionGuard`: 根据权限条件渲染内容
+   - `PermissionButton`: 根据权限控制按钮的可用性
+   - `ProtectedRoute`: 保护路由，只允许有权限的用户访问
+
+### 权限管理界面
+
+系统提供了两个权限管理页面：
+
+1. **权限管理页面 (PermissionPage)**
+   - 创建、编辑和删除角色
+   - 创建、编辑和删除权限
+   - 为角色分配权限
+
+2. **员工权限分配页面 (EmployeePermissionPage)**
+   - 管理员工的角色分配
+   - 查看员工当前拥有的角色和权限
+
+### 使用示例
+
+1. **在组件中使用权限检查**
+   ```tsx
+   import { usePermission } from '../context/PermissionContext';
+
+   const MyComponent = () => {
+     const { checkPermission } = usePermission();
+     
+     const canCreateCourse = checkPermission('courses:create');
+     
+     return (
+       <div>
+         {canCreateCourse && (
+           <button>创建课程</button>
+         )}
+       </div>
+     );
+   };
+   ```
+
+2. **使用权限保护组件**
+   ```tsx
+   import { PermissionGuard } from '../components/Permission/PermissionGuard';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionGuard permission="manage_finances">
+           <FinancialReportComponent />
+         </PermissionGuard>
+       </div>
+     );
+   };
+   ```
+
+3. **使用权限按钮**
+   ```tsx
+   import { PermissionButton } from '../components/Permission/PermissionButton';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionButton 
+           permission="courses:delete"
+           onClick={handleDeleteCourse}
+           className="btn btn-danger"
+         >
+           删除课程
+         </PermissionButton>
+       </div>
+     );
+   };
+   ```
+
+4. **保护路由**
+   ```tsx
+   import { ProtectedRoute } from '../components/Permission/ProtectedRoute';
+   
+   const AppRoutes = () => {
+     return (
+       <Routes>
+         <Route path="/admin/finances" element={
+           <ProtectedRoute permission="manage_finances">
+             <FinancePage />
+           </ProtectedRoute>
+         } />
+       </Routes>
+     );
+   };
+   ```
+
+### 扩展权限系统
+
+如需添加新的权限，请按照以下步骤操作：
+
+1. 在 `permissions` 表中添加新的权限记录
+2. 将新权限分配给相应的角色
+3. 在代码中使用权限检查功能控制功能访问
+
+---
+
+## 知识库模块 📚
+
+### 功能概述
+
+知识库模块是一个完整的知识管理系统，支持创建、管理和分享留学相关的各类资源。
+
+### 核心功能
+
+#### 资源管理
+- ✅ **创建资源** - 支持4种类型：文档、视频、文章、模板
+- ✅ **查看资源** - 详细的资源展示页面
+- ✅ **下载资源** - 文件下载并统计下载次数
+- ✅ **浏览统计** - 自动统计浏览和下载次数
+
+#### 搜索和筛选
+- ✅ **全文搜索** - 搜索标题、描述、标签
+- ✅ **9维筛选** - 分类/类型/作者/标签/时间/排序等
+- ✅ **标签页** - 全部/精选/已收藏/最近更新
+- ✅ **实时统计** - 显示筛选结果数量
+
+#### 互动功能
+- ✅ **收藏资源** - 一键收藏/取消收藏
+- ✅ **评论系统** - 发表评论和查看讨论
+- ✅ **点赞功能** - 为评论点赞
+- ✅ **相关推荐** - 智能推荐相关资源
+
+#### 统计面板
+- ✅ **总资源数** - 显示所有已发布资源
+- ✅ **分类统计** - 文档/视频/文章/模板数量
+- ✅ **下载统计** - 累计下载次数
+- ✅ **实时更新** - 数据实时同步
+
+### 数据库设计
+
+#### 表结构
+```sql
+knowledge_resources         # 资源表
+├── id, title, type        # 基本信息
+├── category, description  # 分类和描述
+├── content, file_url      # 内容和文件
+├── tags (数组)            # 标签
+├── views, downloads       # 统计
+└── is_featured, status    # 状态
+
+knowledge_comments         # 评论表
+├── resource_id           # 关联资源
+├── user_id, user_name    # 评论用户
+├── content, likes        # 内容和点赞
+└── parent_comment_id     # 支持回复
+
+knowledge_bookmarks        # 收藏表
+└── resource_id, user_id  # 用户收藏记录
+
+knowledge_comment_likes    # 点赞表
+└── comment_id, user_id   # 用户点赞记录
+```
+
+### 使用流程
+
+#### 1. 数据库初始化
+执行迁移脚本：
+```sql
+database_migrations/004_create_knowledge_base_tables.sql
+```
+
+#### 2. 创建资源
+1. 访问 `/admin/knowledge`
+2. 点击"上传资源"按钮
+3. 填写表单：
+   - 标题、类型、分类（必填）
+   - 描述、内容/文件链接、标签（可选）
+4. 提交创建
+
+#### 3. 管理资源
+- **浏览** - 主页网格视图
+- **搜索** - 顶部搜索框
+- **筛选** - 点击"筛选"使用高级筛选
+- **收藏** - 点击书签图标
+- **评论** - 进入详情页发表评论
+
+### 技术特性
+
+#### 模块化设计
+```
+KnowledgeBase/
+├── components/      # UI组件
+├── types/          # TypeScript类型
+├── utils/          # 工具函数
+└── hooks/          # 自定义Hooks（备用）
+```
+
+#### 性能优化
+- 直接 Supabase 查询，无中间层
+- localStorage 缓存用户信息
+- 简洁的状态管理
+- 避免不必要的重新渲染
+
+#### 用户体验
+- 友好的空状态提示
+- 清晰的错误信息
+- 多入口创建资源
+- 响应式设计
+- 暗黑模式支持
+
+### 文档资源
+
+- **功能说明**: `知识库完整功能说明.md`
+- **使用指南**: `知识库使用指南.md`
+- **部署指南**: `知识库快速部署指南.md`
+- **模块文档**: `src/pages/admin/KnowledgeBase/README.md`
+
+### 快速开始
+
+```bash
+# 1. 执行数据库迁移（在 Supabase Dashboard）
+database_migrations/004_create_knowledge_base_tables.sql
+
+# 2. 访问知识库页面
+http://localhost:5173/admin/knowledge
+
+# 3. 创建第一个资源
+点击"上传资源" → 填写表单 → 提交
+```
+
+### 功能清单
+
+- [x] 资源创建和展示
+- [x] 搜索和多维筛选
+- [x] 收藏功能
+- [x] 评论和点赞
+- [x] 浏览和下载统计
+- [x] 相关资源推荐
+- [x] 响应式布局
+- [x] 暗黑模式
+- [ ] 文件上传（待实现）
+- [ ] 资源编辑（待实现）
+- [ ] 资源删除（待实现）
+
+---
+
+### 版本 1.4.0 (2025-10-16)
+
+- **UI优化**: 学生管理页面重大升级，新增卡片视图模式
+  - 实现了现代化的卡片式布局，提升视觉效果和用户体验
+  - 添加视图切换功能，支持卡片视图和传统表格视图切换
+  - 卡片设计采用渐变背景、阴影效果和悬浮动画
+  - 优化信息层次结构，突出重点信息
+  - 增强响应式设计，支持多种屏幕尺寸
+  - 改进状态指示器，使用彩色圆点显示学生活跃状态
+  - 优化服务展示，每个卡片显示前2个服务项目
+  - 添加导师团队头像展示，采用堆叠式设计
+  - 实现悬浮时显示操作按钮的交互效果
+  - 保留原有表格视图供需要详细数据的用户使用
+
+### 版本 1.3.0 (2024-07-18)
+
+- **功能增强**: 实现了交互式选校助手功能，支持在SchoolAssistantPage页面直接进行选校
+- **UI优化**: 添加了右侧收藏侧边栏，用户可以直接在学校助手页面添加学校到收藏夹并设置申请策略
+- **用户体验**: 新增了选校指南弹窗，帮助用户了解如何使用选校功能
+- **功能改进**: 学校和专业卡片支持一键收藏，自动显示收藏侧边栏
+
+### 版本 1.2.0 (2024-07-16)
+
+- **功能增强**: 添加了"选校记录"按钮，用户可以直接从学校助手页面查看历史选校方案
+- **UI改进**: 在选校管理页面优化了返回按钮设计，并改进了布局
+- **用户体验**: 直接通过URL参数支持打开历史记录视图，便于快速访问
+
+### 版本 1.1.0 (2024-07-15)
+
+- **功能增强**: 完善了"开始选校"按钮功能，现在可以直接从学校助手页面导航到选校管理页面
+- **UI改进**: 在选校管理页面添加了返回按钮，方便用户在两个页面之间切换
+- **bug修复**: 修复了学校筛选条件不正确应用的问题
+- **性能优化**: 改进了学校和专业数据的加载速度
+
+# 案例数据处理与数据库导入工具
+
+本项目包含两个脚本，用于处理成功案例CSV数据文件并将其导入到数据库中。
+
+## 文件说明
+
+1. `casedata/process_case_csv.py` - 处理原始CSV文件，提取背景字段
+2. `casedata/upload_to_database.py` - 将处理后的CSV数据导入到数据库
+3. `casedata/upload_to_supabase.py` - 专门用于上传数据到Supabase数据库
+
+## 处理CSV文件
+
+这个脚本会读取原始的CSV文件，从`基本背景`字段中提取信息：
+- 第一个元素作为`admission_year`
+- 第二个元素中提取GPA值作为`gpa`
+- 第三个及之后的所有元素作为`language_scores`
+
+### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+python casedata/process_case_csv.py
+```
+
+脚本会处理`casedata/case.csv`文件，并将结果保存为`casedata/case_processed.csv`。
+
+## 数据库导入
+
+### 上传到普通数据库
+
+这个脚本会将处理后的CSV数据导入到普通数据库，并处理学校和项目的映射关系。
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 使用SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db
+
+# 使用MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password your_password --database your_db
+
+# 使用PostgreSQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --port 5432 --user postgres --password your_password --database your_db
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db --dry-run
+```
+
+### 上传到Supabase数据库
+
+这个专用脚本支持将处理后的CSV数据上传到Supabase数据库。
+
+#### 安装依赖
+
+```bash
+pip install supabase
+```
+
+#### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 上传到Supabase
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key"
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key" --dry-run
+```
+
+#### 参数说明
+
+- `--csv`: CSV文件路径（必需）
+- `--url`: Supabase项目URL（必需）
+- `--key`: Supabase API密钥（必需）
+- `--dry-run`: 试运行模式，不会实际写入数据库
+
+## 数据映射
+
+脚本会自动处理以下映射关系：
+1. 根据`cn_name`字段匹配schools表中的学校
+2. 根据学校ID和`applied_program`字段匹配programs表中的项目
+3. 如果直接匹配失败，会尝试模糊匹配
+
+## 日志
+
+程序运行会生成详细的日志文件：
+- 普通数据库上传：`db_upload_YYYYMMDD_HHMMSS.log`
+- Supabase上传：`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+# 数据处理脚本
+
+## CSV文件处理脚本
+
+本项目包含多个用于处理CSV数据文件和上传数据到数据库的脚本。
+
+### casedata/process_case_csv.py
+
+此脚本用于处理原始案例数据CSV文件，提取和转换关键字段，如背景、GPA和语言成绩。
+
+使用方法：
+```bash
+python casedata/process_case_csv.py
+```
+
+脚本会读取`case.csv`文件，处理后生成`case_processed.csv`文件。
+
+### casedata/upload_to_database.py
+
+此脚本用于将处理后的CSV数据上传到各类关系型数据库（SQLite、MySQL、PostgreSQL）。
+
+使用方法：
+```bash
+python casedata/upload_to_database.py --csv [CSV文件路径] --db-type [数据库类型] [其他参数]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--db-type`：数据库类型，可选值为sqlite、mysql、postgresql，默认为sqlite
+- `--db-path`：SQLite数据库文件路径（使用SQLite时必填）
+- `--host`：数据库主机地址，默认为localhost
+- `--port`：数据库端口
+- `--user`：数据库用户名
+- `--password`：数据库密码
+- `--database`：数据库名称
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path ./database.sqlite
+
+# 上传到MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password mypassword --database mydb
+
+# 试运行模式
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --user postgres --database mydb --dry-run
+```
+
+### casedata/upload_to_supabase.py
+
+此脚本专门用于将处理后的CSV数据上传到Supabase数据库。它会自动处理学校和项目的映射，以便将数据正确地关联到Supabase中的相应表。
+
+使用方法：
+```bash
+python casedata/upload_to_supabase.py --csv [CSV文件路径] --url [Supabase项目URL] --key [Supabase API密钥] [--dry-run]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--url`：Supabase项目URL（必填）
+- `--key`：Supabase API密钥（必填）
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到Supabase数据库
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key
+
+# 试运行模式
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key --dry-run
+```
+
+脚本执行过程中会生成详细的日志，记录处理的数据和可能出现的问题。日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`。
+
+## 日志说明
+
+上述脚本在执行过程中会生成日志文件：
+- `upload_to_database.py`生成的日志文件格式为`db_upload_YYYYMMDD_HHMMSS.log`
+- `upload_to_supabase.py`生成的日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+日志文件包含详细的执行步骤、成功/失败记录以及可能的错误信息，方便排查问题。
+
+# Supabase集成指南
+
+## 🔐 认证系统
+
+本系统已实现完整的 Supabase Auth 认证功能!
+
+### 功能特性
+
+- ✅ 邮箱密码登录
+- ✅ 用户注册(学生)
+- ✅ 忘记密码 / 密码重置
+- ✅ 自动关联 Auth 用户到业务表(employees/students)
+- ✅ 全局认证状态管理
+- ✅ 路由守卫保护
+
+### 配置指南
+
+**详细配置步骤请查看: [SUPABASE_AUTH_SETUP.md](./SUPABASE_AUTH_SETUP.md)**
+
+包含:
+- Supabase Auth 配置
+- 数据库表结构更新
+- RLS 策略配置
+- 管理员用户创建
+- 邮件服务配置
+- 测试流程说明
+
+### 使用方法
+
+**管理员登录:**
+1. 访问 `/login`
+2. 选择"管理员"角色
+3. 使用 Supabase Auth 中创建的账号登录
+
+**学生注册:**
+1. 访问 `/register`
+2. 填写信息并提交
+3. 查收邮件完成验证
+4. 返回登录
+
+## Supabase配置
+
+系统使用Supabase作为后端数据库和认证服务。以下是当前配置信息：
+
+### 连接信息
+- **Supabase URL**: `https://swyajeiqqewyckzbfkid.supabase.co`
+- **Supabase 匿名密钥**: 配置在环境变量中，使用`VITE_SUPABASE_ANON_KEY`变量名
+
+### 环境变量配置
+项目根目录下的`.env`文件包含所有必要的环境配置：
+```
+VITE_SUPABASE_URL=https://swyajeiqqewyckzbfkid.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
+
+前端代码通过以下方式访问这些变量：
+```typescript
+import.meta.env.VITE_SUPABASE_URL
+import.meta.env.VITE_SUPABASE_ANON_KEY
+```
+
+## 客户线索与学生管理的关系
+
+在本系统中，客户线索(Leads)和学生(Students)是两个相关但独立的概念：
+
+### 客户线索 (Leads)
+- 代表潜在的客户或咨询者
+- 通过网站表单、社交媒体、教育展等渠道收集
+- 包含基础联系信息和初步意向
+- 状态包括：新线索、已联系、已确认、已签约、已关闭
+
+### 学生 (Students)
+- 代表已签约并接受服务的客户
+- 包含详细个人信息、教育背景和服务记录
+- 可以关联多个服务项目和导师
+- 状态包括：活跃、休学、毕业、退学
+
+### 线索转换为学生的流程
+
+当一个线索成功签约后，系统支持将其转换为学生记录：
+
+1. **线索跟进**：通过线索管理页面跟进潜在客户
+2. **状态更新**：当线索状态更新为"已签约"时，系统提示是否创建学生记录
+3. **信息转移**：线索的基本信息（姓名、联系方式等）会自动填充到学生创建表单
+4. **补充信息**：需要补充更多学生特有的信息，如教育背景、服务选择等
+5. **创建记录**：确认后创建正式学生记录并关联服务项目
+
+### 数据表关系
+- `leads`表存储所有潜在客户线索
+- `students`表存储正式签约学生信息
+- `student_services`表存储学生的服务记录
+- 线索转为学生后，两条记录之间保留关联关系，便于分析转化率
+
+## 使用指南
+
+### 客户线索管理
+1. 通过管理后台的"线索管理"页面查看所有潜在客户
+2. 使用筛选和搜索功能快速定位特定线索
+3. 更新线索状态、添加跟进记录
+4. 将"已签约"线索转换为学生
+
+### 学生管理
+1. 通过管理后台的"学生管理"页面管理所有正式学生
+2. 查看学生详情、服务记录和进度
+3. 添加新服务、更新服务进度
+4. 导出学生数据进行分析和报告
+
+## 最佳实践
+1. 定期审核线索状态，确保及时跟进
+2. 记录详细的沟通内容和客户需求
+3. 线索转为学生后,保持服务进度的及时更新
+4. 利用数据分析功能优化线索转化率和学生服务满意度
+
+## 常见问题解答
+
+### Q: 如何查看系统使用的Supabase配置？
+A: 系统使用的Supabase URL和匿名密钥配置在根目录的`.env`文件中，通过环境变量`VITE_SUPABASE_URL`和`VITE_SUPABASE_ANON_KEY`访问。
+
+### Q: 线索记录和学生记录之间是什么关系？
+A: 线索记录代表潜在客户，学生记录代表已签约客户。当线索成功转化为客户后，系统支持将线索信息转换为学生记录，并保留关联关系用于分析转化率。
+
+## 权限系统
+
+本系统实现了基于角色的权限控制（RBAC）机制，支持灵活的权限管理和分配。
+
+### 权限系统架构
+
+1. **数据库表结构**
+   - `employee_roles`: 角色表，定义了系统中的各种角色
+   - `permissions`: 权限表，定义了系统中的各种权限点
+   - `role_permissions`: 角色-权限关联表，定义角色拥有的权限
+   - `employee_role_assignments`: 员工-角色关联表，定义员工拥有的角色
+
+2. **权限代码**
+   系统中定义了多种权限代码，例如：
+   - `manage_users`: 管理用户账号
+   - `manage_students`: 管理学生信息
+   - `manage_services`: 管理服务
+   - `manage_finances`: 管理财务
+   - `manage_mentors`: 管理导师
+   - `manage_leads`: 管理销售线索
+   - `view_reports`: 查看报表
+   - `manage_schools`: 管理学校和项目信息
+   - `courses:create`: 创建课程
+   - `courses:update`: 更新课程
+   - `courses:delete`: 删除课程
+   - 等等...
+
+3. **角色分配**
+   - 系统管理员: 拥有系统所有权限
+   - 咨询顾问: 负责学生咨询服务
+   - 财务人员: 负责财务管理
+   - 销售人员: 负责销售线索跟进
+
+### 权限组件
+
+1. **权限服务 (permissionService)**
+   提供了以下功能：
+   - `hasPermission`: 检查当前用户是否拥有指定权限
+   - `employeeHasPermission`: 检查特定员工是否拥有指定权限
+   - `getEmployeePermissions`: 获取员工的所有权限
+   - `getRolePermissions`: 获取角色的所有权限
+
+2. **权限上下文 (PermissionContext)**
+   提供了以下功能：
+   - 在应用中全局管理和检查权限
+   - 缓存用户权限以提高性能
+   - 响应用户登录状态变化自动更新权限
+
+3. **权限保护组件**
+   - `PermissionGuard`: 根据权限条件渲染内容
+   - `PermissionButton`: 根据权限控制按钮的可用性
+   - `ProtectedRoute`: 保护路由，只允许有权限的用户访问
+
+### 权限管理界面
+
+系统提供了两个权限管理页面：
+
+1. **权限管理页面 (PermissionPage)**
+   - 创建、编辑和删除角色
+   - 创建、编辑和删除权限
+   - 为角色分配权限
+
+2. **员工权限分配页面 (EmployeePermissionPage)**
+   - 管理员工的角色分配
+   - 查看员工当前拥有的角色和权限
+
+### 使用示例
+
+1. **在组件中使用权限检查**
+   ```tsx
+   import { usePermission } from '../context/PermissionContext';
+
+   const MyComponent = () => {
+     const { checkPermission } = usePermission();
+     
+     const canCreateCourse = checkPermission('courses:create');
+     
+     return (
+       <div>
+         {canCreateCourse && (
+           <button>创建课程</button>
+         )}
+       </div>
+     );
+   };
+   ```
+
+2. **使用权限保护组件**
+   ```tsx
+   import { PermissionGuard } from '../components/Permission/PermissionGuard';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionGuard permission="manage_finances">
+           <FinancialReportComponent />
+         </PermissionGuard>
+       </div>
+     );
+   };
+   ```
+
+3. **使用权限按钮**
+   ```tsx
+   import { PermissionButton } from '../components/Permission/PermissionButton';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionButton 
+           permission="courses:delete"
+           onClick={handleDeleteCourse}
+           className="btn btn-danger"
+         >
+           删除课程
+         </PermissionButton>
+       </div>
+     );
+   };
+   ```
+
+4. **保护路由**
+   ```tsx
+   import { ProtectedRoute } from '../components/Permission/ProtectedRoute';
+   
+   const AppRoutes = () => {
+     return (
+       <Routes>
+         <Route path="/admin/finances" element={
+           <ProtectedRoute permission="manage_finances">
+             <FinancePage />
+           </ProtectedRoute>
+         } />
+       </Routes>
+     );
+   };
+   ```
+
+### 扩展权限系统
+
+如需添加新的权限，请按照以下步骤操作：
+
+1. 在 `permissions` 表中添加新的权限记录
+2. 将新权限分配给相应的角色
+3. 在代码中使用权限检查功能控制功能访问
+
+---
+
+## 知识库模块 📚
+
+### 功能概述
+
+知识库模块是一个完整的知识管理系统，支持创建、管理和分享留学相关的各类资源。
+
+### 核心功能
+
+#### 资源管理
+- ✅ **创建资源** - 支持4种类型：文档、视频、文章、模板
+- ✅ **查看资源** - 详细的资源展示页面
+- ✅ **下载资源** - 文件下载并统计下载次数
+- ✅ **浏览统计** - 自动统计浏览和下载次数
+
+#### 搜索和筛选
+- ✅ **全文搜索** - 搜索标题、描述、标签
+- ✅ **9维筛选** - 分类/类型/作者/标签/时间/排序等
+- ✅ **标签页** - 全部/精选/已收藏/最近更新
+- ✅ **实时统计** - 显示筛选结果数量
+
+#### 互动功能
+- ✅ **收藏资源** - 一键收藏/取消收藏
+- ✅ **评论系统** - 发表评论和查看讨论
+- ✅ **点赞功能** - 为评论点赞
+- ✅ **相关推荐** - 智能推荐相关资源
+
+#### 统计面板
+- ✅ **总资源数** - 显示所有已发布资源
+- ✅ **分类统计** - 文档/视频/文章/模板数量
+- ✅ **下载统计** - 累计下载次数
+- ✅ **实时更新** - 数据实时同步
+
+### 数据库设计
+
+#### 表结构
+```sql
+knowledge_resources         # 资源表
+├── id, title, type        # 基本信息
+├── category, description  # 分类和描述
+├── content, file_url      # 内容和文件
+├── tags (数组)            # 标签
+├── views, downloads       # 统计
+└── is_featured, status    # 状态
+
+knowledge_comments         # 评论表
+├── resource_id           # 关联资源
+├── user_id, user_name    # 评论用户
+├── content, likes        # 内容和点赞
+└── parent_comment_id     # 支持回复
+
+knowledge_bookmarks        # 收藏表
+└── resource_id, user_id  # 用户收藏记录
+
+knowledge_comment_likes    # 点赞表
+└── comment_id, user_id   # 用户点赞记录
+```
+
+### 使用流程
+
+#### 1. 数据库初始化
+执行迁移脚本：
+```sql
+database_migrations/004_create_knowledge_base_tables.sql
+```
+
+#### 2. 创建资源
+1. 访问 `/admin/knowledge`
+2. 点击"上传资源"按钮
+3. 填写表单：
+   - 标题、类型、分类（必填）
+   - 描述、内容/文件链接、标签（可选）
+4. 提交创建
+
+#### 3. 管理资源
+- **浏览** - 主页网格视图
+- **搜索** - 顶部搜索框
+- **筛选** - 点击"筛选"使用高级筛选
+- **收藏** - 点击书签图标
+- **评论** - 进入详情页发表评论
+
+### 技术特性
+
+#### 模块化设计
+```
+KnowledgeBase/
+├── components/      # UI组件
+├── types/          # TypeScript类型
+├── utils/          # 工具函数
+└── hooks/          # 自定义Hooks（备用）
+```
+
+#### 性能优化
+- 直接 Supabase 查询，无中间层
+- localStorage 缓存用户信息
+- 简洁的状态管理
+- 避免不必要的重新渲染
+
+#### 用户体验
+- 友好的空状态提示
+- 清晰的错误信息
+- 多入口创建资源
+- 响应式设计
+- 暗黑模式支持
+
+### 文档资源
+
+- **功能说明**: `知识库完整功能说明.md`
+- **使用指南**: `知识库使用指南.md`
+- **部署指南**: `知识库快速部署指南.md`
+- **模块文档**: `src/pages/admin/KnowledgeBase/README.md`
+
+### 快速开始
+
+```bash
+# 1. 执行数据库迁移（在 Supabase Dashboard）
+database_migrations/004_create_knowledge_base_tables.sql
+
+# 2. 访问知识库页面
+http://localhost:5173/admin/knowledge
+
+# 3. 创建第一个资源
+点击"上传资源" → 填写表单 → 提交
+```
+
+### 功能清单
+
+- [x] 资源创建和展示
+- [x] 搜索和多维筛选
+- [x] 收藏功能
+- [x] 评论和点赞
+- [x] 浏览和下载统计
+- [x] 相关资源推荐
+- [x] 响应式布局
+- [x] 暗黑模式
+- [ ] 文件上传（待实现）
+- [ ] 资源编辑（待实现）
+- [ ] 资源删除（待实现）
+
+---
+
+### 版本 1.4.0 (2025-10-16)
+
+- **UI优化**: 学生管理页面重大升级，新增卡片视图模式
+  - 实现了现代化的卡片式布局，提升视觉效果和用户体验
+  - 添加视图切换功能，支持卡片视图和传统表格视图切换
+  - 卡片设计采用渐变背景、阴影效果和悬浮动画
+  - 优化信息层次结构，突出重点信息
+  - 增强响应式设计，支持多种屏幕尺寸
+  - 改进状态指示器，使用彩色圆点显示学生活跃状态
+  - 优化服务展示，每个卡片显示前2个服务项目
+  - 添加导师团队头像展示，采用堆叠式设计
+  - 实现悬浮时显示操作按钮的交互效果
+  - 保留原有表格视图供需要详细数据的用户使用
+
+### 版本 1.3.0 (2024-07-18)
+
+- **功能增强**: 实现了交互式选校助手功能，支持在SchoolAssistantPage页面直接进行选校
+- **UI优化**: 添加了右侧收藏侧边栏，用户可以直接在学校助手页面添加学校到收藏夹并设置申请策略
+- **用户体验**: 新增了选校指南弹窗，帮助用户了解如何使用选校功能
+- **功能改进**: 学校和专业卡片支持一键收藏，自动显示收藏侧边栏
+
+### 版本 1.2.0 (2024-07-16)
+
+- **功能增强**: 添加了"选校记录"按钮，用户可以直接从学校助手页面查看历史选校方案
+- **UI改进**: 在选校管理页面优化了返回按钮设计，并改进了布局
+- **用户体验**: 直接通过URL参数支持打开历史记录视图，便于快速访问
+
+### 版本 1.1.0 (2024-07-15)
+
+- **功能增强**: 完善了"开始选校"按钮功能，现在可以直接从学校助手页面导航到选校管理页面
+- **UI改进**: 在选校管理页面添加了返回按钮，方便用户在两个页面之间切换
+- **bug修复**: 修复了学校筛选条件不正确应用的问题
+- **性能优化**: 改进了学校和专业数据的加载速度
+
+# 案例数据处理与数据库导入工具
+
+本项目包含两个脚本，用于处理成功案例CSV数据文件并将其导入到数据库中。
+
+## 文件说明
+
+1. `casedata/process_case_csv.py` - 处理原始CSV文件，提取背景字段
+2. `casedata/upload_to_database.py` - 将处理后的CSV数据导入到数据库
+3. `casedata/upload_to_supabase.py` - 专门用于上传数据到Supabase数据库
+
+## 处理CSV文件
+
+这个脚本会读取原始的CSV文件，从`基本背景`字段中提取信息：
+- 第一个元素作为`admission_year`
+- 第二个元素中提取GPA值作为`gpa`
+- 第三个及之后的所有元素作为`language_scores`
+
+### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+python casedata/process_case_csv.py
+```
+
+脚本会处理`casedata/case.csv`文件，并将结果保存为`casedata/case_processed.csv`。
+
+## 数据库导入
+
+### 上传到普通数据库
+
+这个脚本会将处理后的CSV数据导入到普通数据库，并处理学校和项目的映射关系。
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 使用SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db
+
+# 使用MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password your_password --database your_db
+
+# 使用PostgreSQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --port 5432 --user postgres --password your_password --database your_db
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db --dry-run
+```
+
+### 上传到Supabase数据库
+
+这个专用脚本支持将处理后的CSV数据上传到Supabase数据库。
+
+#### 安装依赖
+
+```bash
+pip install supabase
+```
+
+#### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 上传到Supabase
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key"
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key" --dry-run
+```
+
+#### 参数说明
+
+- `--csv`: CSV文件路径（必需）
+- `--url`: Supabase项目URL（必需）
+- `--key`: Supabase API密钥（必需）
+- `--dry-run`: 试运行模式，不会实际写入数据库
+
+## 数据映射
+
+脚本会自动处理以下映射关系：
+1. 根据`cn_name`字段匹配schools表中的学校
+2. 根据学校ID和`applied_program`字段匹配programs表中的项目
+3. 如果直接匹配失败，会尝试模糊匹配
+
+## 日志
+
+程序运行会生成详细的日志文件：
+- 普通数据库上传：`db_upload_YYYYMMDD_HHMMSS.log`
+- Supabase上传：`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+# 数据处理脚本
+
+## CSV文件处理脚本
+
+本项目包含多个用于处理CSV数据文件和上传数据到数据库的脚本。
+
+### casedata/process_case_csv.py
+
+此脚本用于处理原始案例数据CSV文件，提取和转换关键字段，如背景、GPA和语言成绩。
+
+使用方法：
+```bash
+python casedata/process_case_csv.py
+```
+
+脚本会读取`case.csv`文件，处理后生成`case_processed.csv`文件。
+
+### casedata/upload_to_database.py
+
+此脚本用于将处理后的CSV数据上传到各类关系型数据库（SQLite、MySQL、PostgreSQL）。
+
+使用方法：
+```bash
+python casedata/upload_to_database.py --csv [CSV文件路径] --db-type [数据库类型] [其他参数]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--db-type`：数据库类型，可选值为sqlite、mysql、postgresql，默认为sqlite
+- `--db-path`：SQLite数据库文件路径（使用SQLite时必填）
+- `--host`：数据库主机地址，默认为localhost
+- `--port`：数据库端口
+- `--user`：数据库用户名
+- `--password`：数据库密码
+- `--database`：数据库名称
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path ./database.sqlite
+
+# 上传到MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password mypassword --database mydb
+
+# 试运行模式
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --user postgres --database mydb --dry-run
+```
+
+### casedata/upload_to_supabase.py
+
+此脚本专门用于将处理后的CSV数据上传到Supabase数据库。它会自动处理学校和项目的映射，以便将数据正确地关联到Supabase中的相应表。
+
+使用方法：
+```bash
+python casedata/upload_to_supabase.py --csv [CSV文件路径] --url [Supabase项目URL] --key [Supabase API密钥] [--dry-run]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--url`：Supabase项目URL（必填）
+- `--key`：Supabase API密钥（必填）
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到Supabase数据库
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key
+
+# 试运行模式
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key --dry-run
+```
+
+脚本执行过程中会生成详细的日志，记录处理的数据和可能出现的问题。日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`。
+
+## 日志说明
+
+上述脚本在执行过程中会生成日志文件：
+- `upload_to_database.py`生成的日志文件格式为`db_upload_YYYYMMDD_HHMMSS.log`
+- `upload_to_supabase.py`生成的日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+日志文件包含详细的执行步骤、成功/失败记录以及可能的错误信息，方便排查问题。
+
+# Supabase集成指南
+
+## 🔐 认证系统
+
+本系统已实现完整的 Supabase Auth 认证功能!
+
+### 功能特性
+
+- ✅ 邮箱密码登录
+- ✅ 用户注册(学生)
+- ✅ 忘记密码 / 密码重置
+- ✅ 自动关联 Auth 用户到业务表(employees/students)
+- ✅ 全局认证状态管理
+- ✅ 路由守卫保护
+
+### 配置指南
+
+**详细配置步骤请查看: [SUPABASE_AUTH_SETUP.md](./SUPABASE_AUTH_SETUP.md)**
+
+包含:
+- Supabase Auth 配置
+- 数据库表结构更新
+- RLS 策略配置
+- 管理员用户创建
+- 邮件服务配置
+- 测试流程说明
+
+### 使用方法
+
+**管理员登录:**
+1. 访问 `/login`
+2. 选择"管理员"角色
+3. 使用 Supabase Auth 中创建的账号登录
+
+**学生注册:**
+1. 访问 `/register`
+2. 填写信息并提交
+3. 查收邮件完成验证
+4. 返回登录
+
+## Supabase配置
+
+系统使用Supabase作为后端数据库和认证服务。以下是当前配置信息：
+
+### 连接信息
+- **Supabase URL**: `https://swyajeiqqewyckzbfkid.supabase.co`
+- **Supabase 匿名密钥**: 配置在环境变量中，使用`VITE_SUPABASE_ANON_KEY`变量名
+
+### 环境变量配置
+项目根目录下的`.env`文件包含所有必要的环境配置：
+```
+VITE_SUPABASE_URL=https://swyajeiqqewyckzbfkid.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
+
+前端代码通过以下方式访问这些变量：
+```typescript
+import.meta.env.VITE_SUPABASE_URL
+import.meta.env.VITE_SUPABASE_ANON_KEY
+```
+
+## 客户线索与学生管理的关系
+
+在本系统中，客户线索(Leads)和学生(Students)是两个相关但独立的概念：
+
+### 客户线索 (Leads)
+- 代表潜在的客户或咨询者
+- 通过网站表单、社交媒体、教育展等渠道收集
+- 包含基础联系信息和初步意向
+- 状态包括：新线索、已联系、已确认、已签约、已关闭
+
+### 学生 (Students)
+- 代表已签约并接受服务的客户
+- 包含详细个人信息、教育背景和服务记录
+- 可以关联多个服务项目和导师
+- 状态包括：活跃、休学、毕业、退学
+
+### 线索转换为学生的流程
+
+当一个线索成功签约后，系统支持将其转换为学生记录：
+
+1. **线索跟进**：通过线索管理页面跟进潜在客户
+2. **状态更新**：当线索状态更新为"已签约"时，系统提示是否创建学生记录
+3. **信息转移**：线索的基本信息（姓名、联系方式等）会自动填充到学生创建表单
+4. **补充信息**：需要补充更多学生特有的信息，如教育背景、服务选择等
+5. **创建记录**：确认后创建正式学生记录并关联服务项目
+
+### 数据表关系
+- `leads`表存储所有潜在客户线索
+- `students`表存储正式签约学生信息
+- `student_services`表存储学生的服务记录
+- 线索转为学生后，两条记录之间保留关联关系，便于分析转化率
+
+## 使用指南
+
+### 客户线索管理
+1. 通过管理后台的"线索管理"页面查看所有潜在客户
+2. 使用筛选和搜索功能快速定位特定线索
+3. 更新线索状态、添加跟进记录
+4. 将"已签约"线索转换为学生
+
+### 学生管理
+1. 通过管理后台的"学生管理"页面管理所有正式学生
+2. 查看学生详情、服务记录和进度
+3. 添加新服务、更新服务进度
+4. 导出学生数据进行分析和报告
+
+## 最佳实践
+1. 定期审核线索状态，确保及时跟进
+2. 记录详细的沟通内容和客户需求
+3. 线索转为学生后,保持服务进度的及时更新
+4. 利用数据分析功能优化线索转化率和学生服务满意度
+
+## 常见问题解答
+
+### Q: 如何查看系统使用的Supabase配置？
+A: 系统使用的Supabase URL和匿名密钥配置在根目录的`.env`文件中，通过环境变量`VITE_SUPABASE_URL`和`VITE_SUPABASE_ANON_KEY`访问。
+
+### Q: 线索记录和学生记录之间是什么关系？
+A: 线索记录代表潜在客户，学生记录代表已签约客户。当线索成功转化为客户后，系统支持将线索信息转换为学生记录，并保留关联关系用于分析转化率。
+
+## 权限系统
+
+本系统实现了基于角色的权限控制（RBAC）机制，支持灵活的权限管理和分配。
+
+### 权限系统架构
+
+1. **数据库表结构**
+   - `employee_roles`: 角色表，定义了系统中的各种角色
+   - `permissions`: 权限表，定义了系统中的各种权限点
+   - `role_permissions`: 角色-权限关联表，定义角色拥有的权限
+   - `employee_role_assignments`: 员工-角色关联表，定义员工拥有的角色
+
+2. **权限代码**
+   系统中定义了多种权限代码，例如：
+   - `manage_users`: 管理用户账号
+   - `manage_students`: 管理学生信息
+   - `manage_services`: 管理服务
+   - `manage_finances`: 管理财务
+   - `manage_mentors`: 管理导师
+   - `manage_leads`: 管理销售线索
+   - `view_reports`: 查看报表
+   - `manage_schools`: 管理学校和项目信息
+   - `courses:create`: 创建课程
+   - `courses:update`: 更新课程
+   - `courses:delete`: 删除课程
+   - 等等...
+
+3. **角色分配**
+   - 系统管理员: 拥有系统所有权限
+   - 咨询顾问: 负责学生咨询服务
+   - 财务人员: 负责财务管理
+   - 销售人员: 负责销售线索跟进
+
+### 权限组件
+
+1. **权限服务 (permissionService)**
+   提供了以下功能：
+   - `hasPermission`: 检查当前用户是否拥有指定权限
+   - `employeeHasPermission`: 检查特定员工是否拥有指定权限
+   - `getEmployeePermissions`: 获取员工的所有权限
+   - `getRolePermissions`: 获取角色的所有权限
+
+2. **权限上下文 (PermissionContext)**
+   提供了以下功能：
+   - 在应用中全局管理和检查权限
+   - 缓存用户权限以提高性能
+   - 响应用户登录状态变化自动更新权限
+
+3. **权限保护组件**
+   - `PermissionGuard`: 根据权限条件渲染内容
+   - `PermissionButton`: 根据权限控制按钮的可用性
+   - `ProtectedRoute`: 保护路由，只允许有权限的用户访问
+
+### 权限管理界面
+
+系统提供了两个权限管理页面：
+
+1. **权限管理页面 (PermissionPage)**
+   - 创建、编辑和删除角色
+   - 创建、编辑和删除权限
+   - 为角色分配权限
+
+2. **员工权限分配页面 (EmployeePermissionPage)**
+   - 管理员工的角色分配
+   - 查看员工当前拥有的角色和权限
+
+### 使用示例
+
+1. **在组件中使用权限检查**
+   ```tsx
+   import { usePermission } from '../context/PermissionContext';
+
+   const MyComponent = () => {
+     const { checkPermission } = usePermission();
+     
+     const canCreateCourse = checkPermission('courses:create');
+     
+     return (
+       <div>
+         {canCreateCourse && (
+           <button>创建课程</button>
+         )}
+       </div>
+     );
+   };
+   ```
+
+2. **使用权限保护组件**
+   ```tsx
+   import { PermissionGuard } from '../components/Permission/PermissionGuard';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionGuard permission="manage_finances">
+           <FinancialReportComponent />
+         </PermissionGuard>
+       </div>
+     );
+   };
+   ```
+
+3. **使用权限按钮**
+   ```tsx
+   import { PermissionButton } from '../components/Permission/PermissionButton';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionButton 
+           permission="courses:delete"
+           onClick={handleDeleteCourse}
+           className="btn btn-danger"
+         >
+           删除课程
+         </PermissionButton>
+       </div>
+     );
+   };
+   ```
+
+4. **保护路由**
+   ```tsx
+   import { ProtectedRoute } from '../components/Permission/ProtectedRoute';
+   
+   const AppRoutes = () => {
+     return (
+       <Routes>
+         <Route path="/admin/finances" element={
+           <ProtectedRoute permission="manage_finances">
+             <FinancePage />
+           </ProtectedRoute>
+         } />
+       </Routes>
+     );
+   };
+   ```
+
+### 扩展权限系统
+
+如需添加新的权限，请按照以下步骤操作：
+
+1. 在 `permissions` 表中添加新的权限记录
+2. 将新权限分配给相应的角色
+3. 在代码中使用权限检查功能控制功能访问
+
+---
+
+## 知识库模块 📚
+
+### 功能概述
+
+知识库模块是一个完整的知识管理系统，支持创建、管理和分享留学相关的各类资源。
+
+### 核心功能
+
+#### 资源管理
+- ✅ **创建资源** - 支持4种类型：文档、视频、文章、模板
+- ✅ **查看资源** - 详细的资源展示页面
+- ✅ **下载资源** - 文件下载并统计下载次数
+- ✅ **浏览统计** - 自动统计浏览和下载次数
+
+#### 搜索和筛选
+- ✅ **全文搜索** - 搜索标题、描述、标签
+- ✅ **9维筛选** - 分类/类型/作者/标签/时间/排序等
+- ✅ **标签页** - 全部/精选/已收藏/最近更新
+- ✅ **实时统计** - 显示筛选结果数量
+
+#### 互动功能
+- ✅ **收藏资源** - 一键收藏/取消收藏
+- ✅ **评论系统** - 发表评论和查看讨论
+- ✅ **点赞功能** - 为评论点赞
+- ✅ **相关推荐** - 智能推荐相关资源
+
+#### 统计面板
+- ✅ **总资源数** - 显示所有已发布资源
+- ✅ **分类统计** - 文档/视频/文章/模板数量
+- ✅ **下载统计** - 累计下载次数
+- ✅ **实时更新** - 数据实时同步
+
+### 数据库设计
+
+#### 表结构
+```sql
+knowledge_resources         # 资源表
+├── id, title, type        # 基本信息
+├── category, description  # 分类和描述
+├── content, file_url      # 内容和文件
+├── tags (数组)            # 标签
+├── views, downloads       # 统计
+└── is_featured, status    # 状态
+
+knowledge_comments         # 评论表
+├── resource_id           # 关联资源
+├── user_id, user_name    # 评论用户
+├── content, likes        # 内容和点赞
+└── parent_comment_id     # 支持回复
+
+knowledge_bookmarks        # 收藏表
+└── resource_id, user_id  # 用户收藏记录
+
+knowledge_comment_likes    # 点赞表
+└── comment_id, user_id   # 用户点赞记录
+```
+
+### 使用流程
+
+#### 1. 数据库初始化
+执行迁移脚本：
+```sql
+database_migrations/004_create_knowledge_base_tables.sql
+```
+
+#### 2. 创建资源
+1. 访问 `/admin/knowledge`
+2. 点击"上传资源"按钮
+3. 填写表单：
+   - 标题、类型、分类（必填）
+   - 描述、内容/文件链接、标签（可选）
+4. 提交创建
+
+#### 3. 管理资源
+- **浏览** - 主页网格视图
+- **搜索** - 顶部搜索框
+- **筛选** - 点击"筛选"使用高级筛选
+- **收藏** - 点击书签图标
+- **评论** - 进入详情页发表评论
+
+### 技术特性
+
+#### 模块化设计
+```
+KnowledgeBase/
+├── components/      # UI组件
+├── types/          # TypeScript类型
+├── utils/          # 工具函数
+└── hooks/          # 自定义Hooks（备用）
+```
+
+#### 性能优化
+- 直接 Supabase 查询，无中间层
+- localStorage 缓存用户信息
+- 简洁的状态管理
+- 避免不必要的重新渲染
+
+#### 用户体验
+- 友好的空状态提示
+- 清晰的错误信息
+- 多入口创建资源
+- 响应式设计
+- 暗黑模式支持
+
+### 文档资源
+
+- **功能说明**: `知识库完整功能说明.md`
+- **使用指南**: `知识库使用指南.md`
+- **部署指南**: `知识库快速部署指南.md`
+- **模块文档**: `src/pages/admin/KnowledgeBase/README.md`
+
+### 快速开始
+
+```bash
+# 1. 执行数据库迁移（在 Supabase Dashboard）
+database_migrations/004_create_knowledge_base_tables.sql
+
+# 2. 访问知识库页面
+http://localhost:5173/admin/knowledge
+
+# 3. 创建第一个资源
+点击"上传资源" → 填写表单 → 提交
+```
+
+### 功能清单
+
+- [x] 资源创建和展示
+- [x] 搜索和多维筛选
+- [x] 收藏功能
+- [x] 评论和点赞
+- [x] 浏览和下载统计
+- [x] 相关资源推荐
+- [x] 响应式布局
+- [x] 暗黑模式
+- [ ] 文件上传（待实现）
+- [ ] 资源编辑（待实现）
+- [ ] 资源删除（待实现）
+
+---
+
+### 版本 1.4.0 (2025-10-16)
+
+- **UI优化**: 学生管理页面重大升级，新增卡片视图模式
+  - 实现了现代化的卡片式布局，提升视觉效果和用户体验
+  - 添加视图切换功能，支持卡片视图和传统表格视图切换
+  - 卡片设计采用渐变背景、阴影效果和悬浮动画
+  - 优化信息层次结构，突出重点信息
+  - 增强响应式设计，支持多种屏幕尺寸
+  - 改进状态指示器，使用彩色圆点显示学生活跃状态
+  - 优化服务展示，每个卡片显示前2个服务项目
+  - 添加导师团队头像展示，采用堆叠式设计
+  - 实现悬浮时显示操作按钮的交互效果
+  - 保留原有表格视图供需要详细数据的用户使用
+
+### 版本 1.3.0 (2024-07-18)
+
+- **功能增强**: 实现了交互式选校助手功能，支持在SchoolAssistantPage页面直接进行选校
+- **UI优化**: 添加了右侧收藏侧边栏，用户可以直接在学校助手页面添加学校到收藏夹并设置申请策略
+- **用户体验**: 新增了选校指南弹窗，帮助用户了解如何使用选校功能
+- **功能改进**: 学校和专业卡片支持一键收藏，自动显示收藏侧边栏
+
+### 版本 1.2.0 (2024-07-16)
+
+- **功能增强**: 添加了"选校记录"按钮，用户可以直接从学校助手页面查看历史选校方案
+- **UI改进**: 在选校管理页面优化了返回按钮设计，并改进了布局
+- **用户体验**: 直接通过URL参数支持打开历史记录视图，便于快速访问
+
+### 版本 1.1.0 (2024-07-15)
+
+- **功能增强**: 完善了"开始选校"按钮功能，现在可以直接从学校助手页面导航到选校管理页面
+- **UI改进**: 在选校管理页面添加了返回按钮，方便用户在两个页面之间切换
+- **bug修复**: 修复了学校筛选条件不正确应用的问题
+- **性能优化**: 改进了学校和专业数据的加载速度
+
+# 案例数据处理与数据库导入工具
+
+本项目包含两个脚本，用于处理成功案例CSV数据文件并将其导入到数据库中。
+
+## 文件说明
+
+1. `casedata/process_case_csv.py` - 处理原始CSV文件，提取背景字段
+2. `casedata/upload_to_database.py` - 将处理后的CSV数据导入到数据库
+3. `casedata/upload_to_supabase.py` - 专门用于上传数据到Supabase数据库
+
+## 处理CSV文件
+
+这个脚本会读取原始的CSV文件，从`基本背景`字段中提取信息：
+- 第一个元素作为`admission_year`
+- 第二个元素中提取GPA值作为`gpa`
+- 第三个及之后的所有元素作为`language_scores`
+
+### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+python casedata/process_case_csv.py
+```
+
+脚本会处理`casedata/case.csv`文件，并将结果保存为`casedata/case_processed.csv`。
+
+## 数据库导入
+
+### 上传到普通数据库
+
+这个脚本会将处理后的CSV数据导入到普通数据库，并处理学校和项目的映射关系。
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 使用SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db
+
+# 使用MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password your_password --database your_db
+
+# 使用PostgreSQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --port 5432 --user postgres --password your_password --database your_db
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db --dry-run
+```
+
+### 上传到Supabase数据库
+
+这个专用脚本支持将处理后的CSV数据上传到Supabase数据库。
+
+#### 安装依赖
+
+```bash
+pip install supabase
+```
+
+#### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 上传到Supabase
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key"
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key" --dry-run
+```
+
+#### 参数说明
+
+- `--csv`: CSV文件路径（必需）
+- `--url`: Supabase项目URL（必需）
+- `--key`: Supabase API密钥（必需）
+- `--dry-run`: 试运行模式，不会实际写入数据库
+
+## 数据映射
+
+脚本会自动处理以下映射关系：
+1. 根据`cn_name`字段匹配schools表中的学校
+2. 根据学校ID和`applied_program`字段匹配programs表中的项目
+3. 如果直接匹配失败，会尝试模糊匹配
+
+## 日志
+
+程序运行会生成详细的日志文件：
+- 普通数据库上传：`db_upload_YYYYMMDD_HHMMSS.log`
+- Supabase上传：`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+# 数据处理脚本
+
+## CSV文件处理脚本
+
+本项目包含多个用于处理CSV数据文件和上传数据到数据库的脚本。
+
+### casedata/process_case_csv.py
+
+此脚本用于处理原始案例数据CSV文件，提取和转换关键字段，如背景、GPA和语言成绩。
+
+使用方法：
+```bash
+python casedata/process_case_csv.py
+```
+
+脚本会读取`case.csv`文件，处理后生成`case_processed.csv`文件。
+
+### casedata/upload_to_database.py
+
+此脚本用于将处理后的CSV数据上传到各类关系型数据库（SQLite、MySQL、PostgreSQL）。
+
+使用方法：
+```bash
+python casedata/upload_to_database.py --csv [CSV文件路径] --db-type [数据库类型] [其他参数]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--db-type`：数据库类型，可选值为sqlite、mysql、postgresql，默认为sqlite
+- `--db-path`：SQLite数据库文件路径（使用SQLite时必填）
+- `--host`：数据库主机地址，默认为localhost
+- `--port`：数据库端口
+- `--user`：数据库用户名
+- `--password`：数据库密码
+- `--database`：数据库名称
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path ./database.sqlite
+
+# 上传到MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password mypassword --database mydb
+
+# 试运行模式
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --user postgres --database mydb --dry-run
+```
+
+### casedata/upload_to_supabase.py
+
+此脚本专门用于将处理后的CSV数据上传到Supabase数据库。它会自动处理学校和项目的映射，以便将数据正确地关联到Supabase中的相应表。
+
+使用方法：
+```bash
+python casedata/upload_to_supabase.py --csv [CSV文件路径] --url [Supabase项目URL] --key [Supabase API密钥] [--dry-run]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--url`：Supabase项目URL（必填）
+- `--key`：Supabase API密钥（必填）
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到Supabase数据库
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key
+
+# 试运行模式
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key --dry-run
+```
+
+脚本执行过程中会生成详细的日志，记录处理的数据和可能出现的问题。日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`。
+
+## 日志说明
+
+上述脚本在执行过程中会生成日志文件：
+- `upload_to_database.py`生成的日志文件格式为`db_upload_YYYYMMDD_HHMMSS.log`
+- `upload_to_supabase.py`生成的日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+日志文件包含详细的执行步骤、成功/失败记录以及可能的错误信息，方便排查问题。
+
+# Supabase集成指南
+
+## 🔐 认证系统
+
+本系统已实现完整的 Supabase Auth 认证功能!
+
+### 功能特性
+
+- ✅ 邮箱密码登录
+- ✅ 用户注册(学生)
+- ✅ 忘记密码 / 密码重置
+- ✅ 自动关联 Auth 用户到业务表(employees/students)
+- ✅ 全局认证状态管理
+- ✅ 路由守卫保护
+
+### 配置指南
+
+**详细配置步骤请查看: [SUPABASE_AUTH_SETUP.md](./SUPABASE_AUTH_SETUP.md)**
+
+包含:
+- Supabase Auth 配置
+- 数据库表结构更新
+- RLS 策略配置
+- 管理员用户创建
+- 邮件服务配置
+- 测试流程说明
+
+### 使用方法
+
+**管理员登录:**
+1. 访问 `/login`
+2. 选择"管理员"角色
+3. 使用 Supabase Auth 中创建的账号登录
+
+**学生注册:**
+1. 访问 `/register`
+2. 填写信息并提交
+3. 查收邮件完成验证
+4. 返回登录
+
+## Supabase配置
+
+系统使用Supabase作为后端数据库和认证服务。以下是当前配置信息：
+
+### 连接信息
+- **Supabase URL**: `https://swyajeiqqewyckzbfkid.supabase.co`
+- **Supabase 匿名密钥**: 配置在环境变量中，使用`VITE_SUPABASE_ANON_KEY`变量名
+
+### 环境变量配置
+项目根目录下的`.env`文件包含所有必要的环境配置：
+```
+VITE_SUPABASE_URL=https://swyajeiqqewyckzbfkid.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
+
+前端代码通过以下方式访问这些变量：
+```typescript
+import.meta.env.VITE_SUPABASE_URL
+import.meta.env.VITE_SUPABASE_ANON_KEY
+```
+
+## 客户线索与学生管理的关系
+
+在本系统中，客户线索(Leads)和学生(Students)是两个相关但独立的概念：
+
+### 客户线索 (Leads)
+- 代表潜在的客户或咨询者
+- 通过网站表单、社交媒体、教育展等渠道收集
+- 包含基础联系信息和初步意向
+- 状态包括：新线索、已联系、已确认、已签约、已关闭
+
+### 学生 (Students)
+- 代表已签约并接受服务的客户
+- 包含详细个人信息、教育背景和服务记录
+- 可以关联多个服务项目和导师
+- 状态包括：活跃、休学、毕业、退学
+
+### 线索转换为学生的流程
+
+当一个线索成功签约后，系统支持将其转换为学生记录：
+
+1. **线索跟进**：通过线索管理页面跟进潜在客户
+2. **状态更新**：当线索状态更新为"已签约"时，系统提示是否创建学生记录
+3. **信息转移**：线索的基本信息（姓名、联系方式等）会自动填充到学生创建表单
+4. **补充信息**：需要补充更多学生特有的信息，如教育背景、服务选择等
+5. **创建记录**：确认后创建正式学生记录并关联服务项目
+
+### 数据表关系
+- `leads`表存储所有潜在客户线索
+- `students`表存储正式签约学生信息
+- `student_services`表存储学生的服务记录
+- 线索转为学生后，两条记录之间保留关联关系，便于分析转化率
+
+## 使用指南
+
+### 客户线索管理
+1. 通过管理后台的"线索管理"页面查看所有潜在客户
+2. 使用筛选和搜索功能快速定位特定线索
+3. 更新线索状态、添加跟进记录
+4. 将"已签约"线索转换为学生
+
+### 学生管理
+1. 通过管理后台的"学生管理"页面管理所有正式学生
+2. 查看学生详情、服务记录和进度
+3. 添加新服务、更新服务进度
+4. 导出学生数据进行分析和报告
+
+## 最佳实践
+1. 定期审核线索状态，确保及时跟进
+2. 记录详细的沟通内容和客户需求
+3. 线索转为学生后,保持服务进度的及时更新
+4. 利用数据分析功能优化线索转化率和学生服务满意度
+
+## 常见问题解答
+
+### Q: 如何查看系统使用的Supabase配置？
+A: 系统使用的Supabase URL和匿名密钥配置在根目录的`.env`文件中，通过环境变量`VITE_SUPABASE_URL`和`VITE_SUPABASE_ANON_KEY`访问。
+
+### Q: 线索记录和学生记录之间是什么关系？
+A: 线索记录代表潜在客户，学生记录代表已签约客户。当线索成功转化为客户后，系统支持将线索信息转换为学生记录，并保留关联关系用于分析转化率。
+
+## 权限系统
+
+本系统实现了基于角色的权限控制（RBAC）机制，支持灵活的权限管理和分配。
+
+### 权限系统架构
+
+1. **数据库表结构**
+   - `employee_roles`: 角色表，定义了系统中的各种角色
+   - `permissions`: 权限表，定义了系统中的各种权限点
+   - `role_permissions`: 角色-权限关联表，定义角色拥有的权限
+   - `employee_role_assignments`: 员工-角色关联表，定义员工拥有的角色
+
+2. **权限代码**
+   系统中定义了多种权限代码，例如：
+   - `manage_users`: 管理用户账号
+   - `manage_students`: 管理学生信息
+   - `manage_services`: 管理服务
+   - `manage_finances`: 管理财务
+   - `manage_mentors`: 管理导师
+   - `manage_leads`: 管理销售线索
+   - `view_reports`: 查看报表
+   - `manage_schools`: 管理学校和项目信息
+   - `courses:create`: 创建课程
+   - `courses:update`: 更新课程
+   - `courses:delete`: 删除课程
+   - 等等...
+
+3. **角色分配**
+   - 系统管理员: 拥有系统所有权限
+   - 咨询顾问: 负责学生咨询服务
+   - 财务人员: 负责财务管理
+   - 销售人员: 负责销售线索跟进
+
+### 权限组件
+
+1. **权限服务 (permissionService)**
+   提供了以下功能：
+   - `hasPermission`: 检查当前用户是否拥有指定权限
+   - `employeeHasPermission`: 检查特定员工是否拥有指定权限
+   - `getEmployeePermissions`: 获取员工的所有权限
+   - `getRolePermissions`: 获取角色的所有权限
+
+2. **权限上下文 (PermissionContext)**
+   提供了以下功能：
+   - 在应用中全局管理和检查权限
+   - 缓存用户权限以提高性能
+   - 响应用户登录状态变化自动更新权限
+
+3. **权限保护组件**
+   - `PermissionGuard`: 根据权限条件渲染内容
+   - `PermissionButton`: 根据权限控制按钮的可用性
+   - `ProtectedRoute`: 保护路由，只允许有权限的用户访问
+
+### 权限管理界面
+
+系统提供了两个权限管理页面：
+
+1. **权限管理页面 (PermissionPage)**
+   - 创建、编辑和删除角色
+   - 创建、编辑和删除权限
+   - 为角色分配权限
+
+2. **员工权限分配页面 (EmployeePermissionPage)**
+   - 管理员工的角色分配
+   - 查看员工当前拥有的角色和权限
+
+### 使用示例
+
+1. **在组件中使用权限检查**
+   ```tsx
+   import { usePermission } from '../context/PermissionContext';
+
+   const MyComponent = () => {
+     const { checkPermission } = usePermission();
+     
+     const canCreateCourse = checkPermission('courses:create');
+     
+     return (
+       <div>
+         {canCreateCourse && (
+           <button>创建课程</button>
+         )}
+       </div>
+     );
+   };
+   ```
+
+2. **使用权限保护组件**
+   ```tsx
+   import { PermissionGuard } from '../components/Permission/PermissionGuard';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionGuard permission="manage_finances">
+           <FinancialReportComponent />
+         </PermissionGuard>
+       </div>
+     );
+   };
+   ```
+
+3. **使用权限按钮**
+   ```tsx
+   import { PermissionButton } from '../components/Permission/PermissionButton';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionButton 
+           permission="courses:delete"
+           onClick={handleDeleteCourse}
+           className="btn btn-danger"
+         >
+           删除课程
+         </PermissionButton>
+       </div>
+     );
+   };
+   ```
+
+4. **保护路由**
+   ```tsx
+   import { ProtectedRoute } from '../components/Permission/ProtectedRoute';
+   
+   const AppRoutes = () => {
+     return (
+       <Routes>
+         <Route path="/admin/finances" element={
+           <ProtectedRoute permission="manage_finances">
+             <FinancePage />
+           </ProtectedRoute>
+         } />
+       </Routes>
+     );
+   };
+   ```
+
+### 扩展权限系统
+
+如需添加新的权限，请按照以下步骤操作：
+
+1. 在 `permissions` 表中添加新的权限记录
+2. 将新权限分配给相应的角色
+3. 在代码中使用权限检查功能控制功能访问
+
+---
+
+## 知识库模块 📚
+
+### 功能概述
+
+知识库模块是一个完整的知识管理系统，支持创建、管理和分享留学相关的各类资源。
+
+### 核心功能
+
+#### 资源管理
+- ✅ **创建资源** - 支持4种类型：文档、视频、文章、模板
+- ✅ **查看资源** - 详细的资源展示页面
+- ✅ **下载资源** - 文件下载并统计下载次数
+- ✅ **浏览统计** - 自动统计浏览和下载次数
+
+#### 搜索和筛选
+- ✅ **全文搜索** - 搜索标题、描述、标签
+- ✅ **9维筛选** - 分类/类型/作者/标签/时间/排序等
+- ✅ **标签页** - 全部/精选/已收藏/最近更新
+- ✅ **实时统计** - 显示筛选结果数量
+
+#### 互动功能
+- ✅ **收藏资源** - 一键收藏/取消收藏
+- ✅ **评论系统** - 发表评论和查看讨论
+- ✅ **点赞功能** - 为评论点赞
+- ✅ **相关推荐** - 智能推荐相关资源
+
+#### 统计面板
+- ✅ **总资源数** - 显示所有已发布资源
+- ✅ **分类统计** - 文档/视频/文章/模板数量
+- ✅ **下载统计** - 累计下载次数
+- ✅ **实时更新** - 数据实时同步
+
+### 数据库设计
+
+#### 表结构
+```sql
+knowledge_resources         # 资源表
+├── id, title, type        # 基本信息
+├── category, description  # 分类和描述
+├── content, file_url      # 内容和文件
+├── tags (数组)            # 标签
+├── views, downloads       # 统计
+└── is_featured, status    # 状态
+
+knowledge_comments         # 评论表
+├── resource_id           # 关联资源
+├── user_id, user_name    # 评论用户
+├── content, likes        # 内容和点赞
+└── parent_comment_id     # 支持回复
+
+knowledge_bookmarks        # 收藏表
+└── resource_id, user_id  # 用户收藏记录
+
+knowledge_comment_likes    # 点赞表
+└── comment_id, user_id   # 用户点赞记录
+```
+
+### 使用流程
+
+#### 1. 数据库初始化
+执行迁移脚本：
+```sql
+database_migrations/004_create_knowledge_base_tables.sql
+```
+
+#### 2. 创建资源
+1. 访问 `/admin/knowledge`
+2. 点击"上传资源"按钮
+3. 填写表单：
+   - 标题、类型、分类（必填）
+   - 描述、内容/文件链接、标签（可选）
+4. 提交创建
+
+#### 3. 管理资源
+- **浏览** - 主页网格视图
+- **搜索** - 顶部搜索框
+- **筛选** - 点击"筛选"使用高级筛选
+- **收藏** - 点击书签图标
+- **评论** - 进入详情页发表评论
+
+### 技术特性
+
+#### 模块化设计
+```
+KnowledgeBase/
+├── components/      # UI组件
+├── types/          # TypeScript类型
+├── utils/          # 工具函数
+└── hooks/          # 自定义Hooks（备用）
+```
+
+#### 性能优化
+- 直接 Supabase 查询，无中间层
+- localStorage 缓存用户信息
+- 简洁的状态管理
+- 避免不必要的重新渲染
+
+#### 用户体验
+- 友好的空状态提示
+- 清晰的错误信息
+- 多入口创建资源
+- 响应式设计
+- 暗黑模式支持
+
+### 文档资源
+
+- **功能说明**: `知识库完整功能说明.md`
+- **使用指南**: `知识库使用指南.md`
+- **部署指南**: `知识库快速部署指南.md`
+- **模块文档**: `src/pages/admin/KnowledgeBase/README.md`
+
+### 快速开始
+
+```bash
+# 1. 执行数据库迁移（在 Supabase Dashboard）
+database_migrations/004_create_knowledge_base_tables.sql
+
+# 2. 访问知识库页面
+http://localhost:5173/admin/knowledge
+
+# 3. 创建第一个资源
+点击"上传资源" → 填写表单 → 提交
+```
+
+### 功能清单
+
+- [x] 资源创建和展示
+- [x] 搜索和多维筛选
+- [x] 收藏功能
+- [x] 评论和点赞
+- [x] 浏览和下载统计
+- [x] 相关资源推荐
+- [x] 响应式布局
+- [x] 暗黑模式
+- [ ] 文件上传（待实现）
+- [ ] 资源编辑（待实现）
+- [ ] 资源删除（待实现）
+
+---
+
+### 版本 1.4.0 (2025-10-16)
+
+- **UI优化**: 学生管理页面重大升级，新增卡片视图模式
+  - 实现了现代化的卡片式布局，提升视觉效果和用户体验
+  - 添加视图切换功能，支持卡片视图和传统表格视图切换
+  - 卡片设计采用渐变背景、阴影效果和悬浮动画
+  - 优化信息层次结构，突出重点信息
+  - 增强响应式设计，支持多种屏幕尺寸
+  - 改进状态指示器，使用彩色圆点显示学生活跃状态
+  - 优化服务展示，每个卡片显示前2个服务项目
+  - 添加导师团队头像展示，采用堆叠式设计
+  - 实现悬浮时显示操作按钮的交互效果
+  - 保留原有表格视图供需要详细数据的用户使用
+
+### 版本 1.3.0 (2024-07-18)
+
+- **功能增强**: 实现了交互式选校助手功能，支持在SchoolAssistantPage页面直接进行选校
+- **UI优化**: 添加了右侧收藏侧边栏，用户可以直接在学校助手页面添加学校到收藏夹并设置申请策略
+- **用户体验**: 新增了选校指南弹窗，帮助用户了解如何使用选校功能
+- **功能改进**: 学校和专业卡片支持一键收藏，自动显示收藏侧边栏
+
+### 版本 1.2.0 (2024-07-16)
+
+- **功能增强**: 添加了"选校记录"按钮，用户可以直接从学校助手页面查看历史选校方案
+- **UI改进**: 在选校管理页面优化了返回按钮设计，并改进了布局
+- **用户体验**: 直接通过URL参数支持打开历史记录视图，便于快速访问
+
+### 版本 1.1.0 (2024-07-15)
+
+- **功能增强**: 完善了"开始选校"按钮功能，现在可以直接从学校助手页面导航到选校管理页面
+- **UI改进**: 在选校管理页面添加了返回按钮，方便用户在两个页面之间切换
+- **bug修复**: 修复了学校筛选条件不正确应用的问题
+- **性能优化**: 改进了学校和专业数据的加载速度
+
+# 案例数据处理与数据库导入工具
+
+本项目包含两个脚本，用于处理成功案例CSV数据文件并将其导入到数据库中。
+
+## 文件说明
+
+1. `casedata/process_case_csv.py` - 处理原始CSV文件，提取背景字段
+2. `casedata/upload_to_database.py` - 将处理后的CSV数据导入到数据库
+3. `casedata/upload_to_supabase.py` - 专门用于上传数据到Supabase数据库
+
+## 处理CSV文件
+
+这个脚本会读取原始的CSV文件，从`基本背景`字段中提取信息：
+- 第一个元素作为`admission_year`
+- 第二个元素中提取GPA值作为`gpa`
+- 第三个及之后的所有元素作为`language_scores`
+
+### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+python casedata/process_case_csv.py
+```
+
+脚本会处理`casedata/case.csv`文件，并将结果保存为`casedata/case_processed.csv`。
+
+## 数据库导入
+
+### 上传到普通数据库
+
+这个脚本会将处理后的CSV数据导入到普通数据库，并处理学校和项目的映射关系。
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 使用SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db
+
+# 使用MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password your_password --database your_db
+
+# 使用PostgreSQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --port 5432 --user postgres --password your_password --database your_db
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db --dry-run
+```
+
+### 上传到Supabase数据库
+
+这个专用脚本支持将处理后的CSV数据上传到Supabase数据库。
+
+#### 安装依赖
+
+```bash
+pip install supabase
+```
+
+#### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 上传到Supabase
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key"
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key" --dry-run
+```
+
+#### 参数说明
+
+- `--csv`: CSV文件路径（必需）
+- `--url`: Supabase项目URL（必需）
+- `--key`: Supabase API密钥（必需）
+- `--dry-run`: 试运行模式，不会实际写入数据库
+
+## 数据映射
+
+脚本会自动处理以下映射关系：
+1. 根据`cn_name`字段匹配schools表中的学校
+2. 根据学校ID和`applied_program`字段匹配programs表中的项目
+3. 如果直接匹配失败，会尝试模糊匹配
+
+## 日志
+
+程序运行会生成详细的日志文件：
+- 普通数据库上传：`db_upload_YYYYMMDD_HHMMSS.log`
+- Supabase上传：`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+# 数据处理脚本
+
+## CSV文件处理脚本
+
+本项目包含多个用于处理CSV数据文件和上传数据到数据库的脚本。
+
+### casedata/process_case_csv.py
+
+此脚本用于处理原始案例数据CSV文件，提取和转换关键字段，如背景、GPA和语言成绩。
+
+使用方法：
+```bash
+python casedata/process_case_csv.py
+```
+
+脚本会读取`case.csv`文件，处理后生成`case_processed.csv`文件。
+
+### casedata/upload_to_database.py
+
+此脚本用于将处理后的CSV数据上传到各类关系型数据库（SQLite、MySQL、PostgreSQL）。
+
+使用方法：
+```bash
+python casedata/upload_to_database.py --csv [CSV文件路径] --db-type [数据库类型] [其他参数]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--db-type`：数据库类型，可选值为sqlite、mysql、postgresql，默认为sqlite
+- `--db-path`：SQLite数据库文件路径（使用SQLite时必填）
+- `--host`：数据库主机地址，默认为localhost
+- `--port`：数据库端口
+- `--user`：数据库用户名
+- `--password`：数据库密码
+- `--database`：数据库名称
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path ./database.sqlite
+
+# 上传到MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password mypassword --database mydb
+
+# 试运行模式
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --user postgres --database mydb --dry-run
+```
+
+### casedata/upload_to_supabase.py
+
+此脚本专门用于将处理后的CSV数据上传到Supabase数据库。它会自动处理学校和项目的映射，以便将数据正确地关联到Supabase中的相应表。
+
+使用方法：
+```bash
+python casedata/upload_to_supabase.py --csv [CSV文件路径] --url [Supabase项目URL] --key [Supabase API密钥] [--dry-run]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--url`：Supabase项目URL（必填）
+- `--key`：Supabase API密钥（必填）
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到Supabase数据库
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key
+
+# 试运行模式
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key --dry-run
+```
+
+脚本执行过程中会生成详细的日志，记录处理的数据和可能出现的问题。日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`。
+
+## 日志说明
+
+上述脚本在执行过程中会生成日志文件：
+- `upload_to_database.py`生成的日志文件格式为`db_upload_YYYYMMDD_HHMMSS.log`
+- `upload_to_supabase.py`生成的日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+日志文件包含详细的执行步骤、成功/失败记录以及可能的错误信息，方便排查问题。
+
+# Supabase集成指南
+
+## 🔐 认证系统
+
+本系统已实现完整的 Supabase Auth 认证功能!
+
+### 功能特性
+
+- ✅ 邮箱密码登录
+- ✅ 用户注册(学生)
+- ✅ 忘记密码 / 密码重置
+- ✅ 自动关联 Auth 用户到业务表(employees/students)
+- ✅ 全局认证状态管理
+- ✅ 路由守卫保护
+
+### 配置指南
+
+**详细配置步骤请查看: [SUPABASE_AUTH_SETUP.md](./SUPABASE_AUTH_SETUP.md)**
+
+包含:
+- Supabase Auth 配置
+- 数据库表结构更新
+- RLS 策略配置
+- 管理员用户创建
+- 邮件服务配置
+- 测试流程说明
+
+### 使用方法
+
+**管理员登录:**
+1. 访问 `/login`
+2. 选择"管理员"角色
+3. 使用 Supabase Auth 中创建的账号登录
+
+**学生注册:**
+1. 访问 `/register`
+2. 填写信息并提交
+3. 查收邮件完成验证
+4. 返回登录
+
+## Supabase配置
+
+系统使用Supabase作为后端数据库和认证服务。以下是当前配置信息：
+
+### 连接信息
+- **Supabase URL**: `https://swyajeiqqewyckzbfkid.supabase.co`
+- **Supabase 匿名密钥**: 配置在环境变量中，使用`VITE_SUPABASE_ANON_KEY`变量名
+
+### 环境变量配置
+项目根目录下的`.env`文件包含所有必要的环境配置：
+```
+VITE_SUPABASE_URL=https://swyajeiqqewyckzbfkid.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
+
+前端代码通过以下方式访问这些变量：
+```typescript
+import.meta.env.VITE_SUPABASE_URL
+import.meta.env.VITE_SUPABASE_ANON_KEY
+```
+
+## 客户线索与学生管理的关系
+
+在本系统中，客户线索(Leads)和学生(Students)是两个相关但独立的概念：
+
+### 客户线索 (Leads)
+- 代表潜在的客户或咨询者
+- 通过网站表单、社交媒体、教育展等渠道收集
+- 包含基础联系信息和初步意向
+- 状态包括：新线索、已联系、已确认、已签约、已关闭
+
+### 学生 (Students)
+- 代表已签约并接受服务的客户
+- 包含详细个人信息、教育背景和服务记录
+- 可以关联多个服务项目和导师
+- 状态包括：活跃、休学、毕业、退学
+
+### 线索转换为学生的流程
+
+当一个线索成功签约后，系统支持将其转换为学生记录：
+
+1. **线索跟进**：通过线索管理页面跟进潜在客户
+2. **状态更新**：当线索状态更新为"已签约"时，系统提示是否创建学生记录
+3. **信息转移**：线索的基本信息（姓名、联系方式等）会自动填充到学生创建表单
+4. **补充信息**：需要补充更多学生特有的信息，如教育背景、服务选择等
+5. **创建记录**：确认后创建正式学生记录并关联服务项目
+
+### 数据表关系
+- `leads`表存储所有潜在客户线索
+- `students`表存储正式签约学生信息
+- `student_services`表存储学生的服务记录
+- 线索转为学生后，两条记录之间保留关联关系，便于分析转化率
+
+## 使用指南
+
+### 客户线索管理
+1. 通过管理后台的"线索管理"页面查看所有潜在客户
+2. 使用筛选和搜索功能快速定位特定线索
+3. 更新线索状态、添加跟进记录
+4. 将"已签约"线索转换为学生
+
+### 学生管理
+1. 通过管理后台的"学生管理"页面管理所有正式学生
+2. 查看学生详情、服务记录和进度
+3. 添加新服务、更新服务进度
+4. 导出学生数据进行分析和报告
+
+## 最佳实践
+1. 定期审核线索状态，确保及时跟进
+2. 记录详细的沟通内容和客户需求
+3. 线索转为学生后,保持服务进度的及时更新
+4. 利用数据分析功能优化线索转化率和学生服务满意度
+
+## 常见问题解答
+
+### Q: 如何查看系统使用的Supabase配置？
+A: 系统使用的Supabase URL和匿名密钥配置在根目录的`.env`文件中，通过环境变量`VITE_SUPABASE_URL`和`VITE_SUPABASE_ANON_KEY`访问。
+
+### Q: 线索记录和学生记录之间是什么关系？
+A: 线索记录代表潜在客户，学生记录代表已签约客户。当线索成功转化为客户后，系统支持将线索信息转换为学生记录，并保留关联关系用于分析转化率。
+
+## 权限系统
+
+本系统实现了基于角色的权限控制（RBAC）机制，支持灵活的权限管理和分配。
+
+### 权限系统架构
+
+1. **数据库表结构**
+   - `employee_roles`: 角色表，定义了系统中的各种角色
+   - `permissions`: 权限表，定义了系统中的各种权限点
+   - `role_permissions`: 角色-权限关联表，定义角色拥有的权限
+   - `employee_role_assignments`: 员工-角色关联表，定义员工拥有的角色
+
+2. **权限代码**
+   系统中定义了多种权限代码，例如：
+   - `manage_users`: 管理用户账号
+   - `manage_students`: 管理学生信息
+   - `manage_services`: 管理服务
+   - `manage_finances`: 管理财务
+   - `manage_mentors`: 管理导师
+   - `manage_leads`: 管理销售线索
+   - `view_reports`: 查看报表
+   - `manage_schools`: 管理学校和项目信息
+   - `courses:create`: 创建课程
+   - `courses:update`: 更新课程
+   - `courses:delete`: 删除课程
+   - 等等...
+
+3. **角色分配**
+   - 系统管理员: 拥有系统所有权限
+   - 咨询顾问: 负责学生咨询服务
+   - 财务人员: 负责财务管理
+   - 销售人员: 负责销售线索跟进
+
+### 权限组件
+
+1. **权限服务 (permissionService)**
+   提供了以下功能：
+   - `hasPermission`: 检查当前用户是否拥有指定权限
+   - `employeeHasPermission`: 检查特定员工是否拥有指定权限
+   - `getEmployeePermissions`: 获取员工的所有权限
+   - `getRolePermissions`: 获取角色的所有权限
+
+2. **权限上下文 (PermissionContext)**
+   提供了以下功能：
+   - 在应用中全局管理和检查权限
+   - 缓存用户权限以提高性能
+   - 响应用户登录状态变化自动更新权限
+
+3. **权限保护组件**
+   - `PermissionGuard`: 根据权限条件渲染内容
+   - `PermissionButton`: 根据权限控制按钮的可用性
+   - `ProtectedRoute`: 保护路由，只允许有权限的用户访问
+
+### 权限管理界面
+
+系统提供了两个权限管理页面：
+
+1. **权限管理页面 (PermissionPage)**
+   - 创建、编辑和删除角色
+   - 创建、编辑和删除权限
+   - 为角色分配权限
+
+2. **员工权限分配页面 (EmployeePermissionPage)**
+   - 管理员工的角色分配
+   - 查看员工当前拥有的角色和权限
+
+### 使用示例
+
+1. **在组件中使用权限检查**
+   ```tsx
+   import { usePermission } from '../context/PermissionContext';
+
+   const MyComponent = () => {
+     const { checkPermission } = usePermission();
+     
+     const canCreateCourse = checkPermission('courses:create');
+     
+     return (
+       <div>
+         {canCreateCourse && (
+           <button>创建课程</button>
+         )}
+       </div>
+     );
+   };
+   ```
+
+2. **使用权限保护组件**
+   ```tsx
+   import { PermissionGuard } from '../components/Permission/PermissionGuard';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionGuard permission="manage_finances">
+           <FinancialReportComponent />
+         </PermissionGuard>
+       </div>
+     );
+   };
+   ```
+
+3. **使用权限按钮**
+   ```tsx
+   import { PermissionButton } from '../components/Permission/PermissionButton';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionButton 
+           permission="courses:delete"
+           onClick={handleDeleteCourse}
+           className="btn btn-danger"
+         >
+           删除课程
+         </PermissionButton>
+       </div>
+     );
+   };
+   ```
+
+4. **保护路由**
+   ```tsx
+   import { ProtectedRoute } from '../components/Permission/ProtectedRoute';
+   
+   const AppRoutes = () => {
+     return (
+       <Routes>
+         <Route path="/admin/finances" element={
+           <ProtectedRoute permission="manage_finances">
+             <FinancePage />
+           </ProtectedRoute>
+         } />
+       </Routes>
+     );
+   };
+   ```
+
+### 扩展权限系统
+
+如需添加新的权限，请按照以下步骤操作：
+
+1. 在 `permissions` 表中添加新的权限记录
+2. 将新权限分配给相应的角色
+3. 在代码中使用权限检查功能控制功能访问
+
+---
+
+## 知识库模块 📚
+
+### 功能概述
+
+知识库模块是一个完整的知识管理系统，支持创建、管理和分享留学相关的各类资源。
+
+### 核心功能
+
+#### 资源管理
+- ✅ **创建资源** - 支持4种类型：文档、视频、文章、模板
+- ✅ **查看资源** - 详细的资源展示页面
+- ✅ **下载资源** - 文件下载并统计下载次数
+- ✅ **浏览统计** - 自动统计浏览和下载次数
+
+#### 搜索和筛选
+- ✅ **全文搜索** - 搜索标题、描述、标签
+- ✅ **9维筛选** - 分类/类型/作者/标签/时间/排序等
+- ✅ **标签页** - 全部/精选/已收藏/最近更新
+- ✅ **实时统计** - 显示筛选结果数量
+
+#### 互动功能
+- ✅ **收藏资源** - 一键收藏/取消收藏
+- ✅ **评论系统** - 发表评论和查看讨论
+- ✅ **点赞功能** - 为评论点赞
+- ✅ **相关推荐** - 智能推荐相关资源
+
+#### 统计面板
+- ✅ **总资源数** - 显示所有已发布资源
+- ✅ **分类统计** - 文档/视频/文章/模板数量
+- ✅ **下载统计** - 累计下载次数
+- ✅ **实时更新** - 数据实时同步
+
+### 数据库设计
+
+#### 表结构
+```sql
+knowledge_resources         # 资源表
+├── id, title, type        # 基本信息
+├── category, description  # 分类和描述
+├── content, file_url      # 内容和文件
+├── tags (数组)            # 标签
+├── views, downloads       # 统计
+└── is_featured, status    # 状态
+
+knowledge_comments         # 评论表
+├── resource_id           # 关联资源
+├── user_id, user_name    # 评论用户
+├── content, likes        # 内容和点赞
+└── parent_comment_id     # 支持回复
+
+knowledge_bookmarks        # 收藏表
+└── resource_id, user_id  # 用户收藏记录
+
+knowledge_comment_likes    # 点赞表
+└── comment_id, user_id   # 用户点赞记录
+```
+
+### 使用流程
+
+#### 1. 数据库初始化
+执行迁移脚本：
+```sql
+database_migrations/004_create_knowledge_base_tables.sql
+```
+
+#### 2. 创建资源
+1. 访问 `/admin/knowledge`
+2. 点击"上传资源"按钮
+3. 填写表单：
+   - 标题、类型、分类（必填）
+   - 描述、内容/文件链接、标签（可选）
+4. 提交创建
+
+#### 3. 管理资源
+- **浏览** - 主页网格视图
+- **搜索** - 顶部搜索框
+- **筛选** - 点击"筛选"使用高级筛选
+- **收藏** - 点击书签图标
+- **评论** - 进入详情页发表评论
+
+### 技术特性
+
+#### 模块化设计
+```
+KnowledgeBase/
+├── components/      # UI组件
+├── types/          # TypeScript类型
+├── utils/          # 工具函数
+└── hooks/          # 自定义Hooks（备用）
+```
+
+#### 性能优化
+- 直接 Supabase 查询，无中间层
+- localStorage 缓存用户信息
+- 简洁的状态管理
+- 避免不必要的重新渲染
+
+#### 用户体验
+- 友好的空状态提示
+- 清晰的错误信息
+- 多入口创建资源
+- 响应式设计
+- 暗黑模式支持
+
+### 文档资源
+
+- **功能说明**: `知识库完整功能说明.md`
+- **使用指南**: `知识库使用指南.md`
+- **部署指南**: `知识库快速部署指南.md`
+- **模块文档**: `src/pages/admin/KnowledgeBase/README.md`
+
+### 快速开始
+
+```bash
+# 1. 执行数据库迁移（在 Supabase Dashboard）
+database_migrations/004_create_knowledge_base_tables.sql
+
+# 2. 访问知识库页面
+http://localhost:5173/admin/knowledge
+
+# 3. 创建第一个资源
+点击"上传资源" → 填写表单 → 提交
+```
+
+### 功能清单
+
+- [x] 资源创建和展示
+- [x] 搜索和多维筛选
+- [x] 收藏功能
+- [x] 评论和点赞
+- [x] 浏览和下载统计
+- [x] 相关资源推荐
+- [x] 响应式布局
+- [x] 暗黑模式
+- [ ] 文件上传（待实现）
+- [ ] 资源编辑（待实现）
+- [ ] 资源删除（待实现）
+
+---
+
+### 版本 1.4.0 (2025-10-16)
+
+- **UI优化**: 学生管理页面重大升级，新增卡片视图模式
+  - 实现了现代化的卡片式布局，提升视觉效果和用户体验
+  - 添加视图切换功能，支持卡片视图和传统表格视图切换
+  - 卡片设计采用渐变背景、阴影效果和悬浮动画
+  - 优化信息层次结构，突出重点信息
+  - 增强响应式设计，支持多种屏幕尺寸
+  - 改进状态指示器，使用彩色圆点显示学生活跃状态
+  - 优化服务展示，每个卡片显示前2个服务项目
+  - 添加导师团队头像展示，采用堆叠式设计
+  - 实现悬浮时显示操作按钮的交互效果
+  - 保留原有表格视图供需要详细数据的用户使用
+
+### 版本 1.3.0 (2024-07-18)
+
+- **功能增强**: 实现了交互式选校助手功能，支持在SchoolAssistantPage页面直接进行选校
+- **UI优化**: 添加了右侧收藏侧边栏，用户可以直接在学校助手页面添加学校到收藏夹并设置申请策略
+- **用户体验**: 新增了选校指南弹窗，帮助用户了解如何使用选校功能
+- **功能改进**: 学校和专业卡片支持一键收藏，自动显示收藏侧边栏
+
+### 版本 1.2.0 (2024-07-16)
+
+- **功能增强**: 添加了"选校记录"按钮，用户可以直接从学校助手页面查看历史选校方案
+- **UI改进**: 在选校管理页面优化了返回按钮设计，并改进了布局
+- **用户体验**: 直接通过URL参数支持打开历史记录视图，便于快速访问
+
+### 版本 1.1.0 (2024-07-15)
+
+- **功能增强**: 完善了"开始选校"按钮功能，现在可以直接从学校助手页面导航到选校管理页面
+- **UI改进**: 在选校管理页面添加了返回按钮，方便用户在两个页面之间切换
+- **bug修复**: 修复了学校筛选条件不正确应用的问题
+- **性能优化**: 改进了学校和专业数据的加载速度
+
+# 案例数据处理与数据库导入工具
+
+本项目包含两个脚本，用于处理成功案例CSV数据文件并将其导入到数据库中。
+
+## 文件说明
+
+1. `casedata/process_case_csv.py` - 处理原始CSV文件，提取背景字段
+2. `casedata/upload_to_database.py` - 将处理后的CSV数据导入到数据库
+3. `casedata/upload_to_supabase.py` - 专门用于上传数据到Supabase数据库
+
+## 处理CSV文件
+
+这个脚本会读取原始的CSV文件，从`基本背景`字段中提取信息：
+- 第一个元素作为`admission_year`
+- 第二个元素中提取GPA值作为`gpa`
+- 第三个及之后的所有元素作为`language_scores`
+
+### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+python casedata/process_case_csv.py
+```
+
+脚本会处理`casedata/case.csv`文件，并将结果保存为`casedata/case_processed.csv`。
+
+## 数据库导入
+
+### 上传到普通数据库
+
+这个脚本会将处理后的CSV数据导入到普通数据库，并处理学校和项目的映射关系。
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 使用SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db
+
+# 使用MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password your_password --database your_db
+
+# 使用PostgreSQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --port 5432 --user postgres --password your_password --database your_db
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db --dry-run
+```
+
+### 上传到Supabase数据库
+
+这个专用脚本支持将处理后的CSV数据上传到Supabase数据库。
+
+#### 安装依赖
+
+```bash
+pip install supabase
+```
+
+#### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 上传到Supabase
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key"
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key" --dry-run
+```
+
+#### 参数说明
+
+- `--csv`: CSV文件路径（必需）
+- `--url`: Supabase项目URL（必需）
+- `--key`: Supabase API密钥（必需）
+- `--dry-run`: 试运行模式，不会实际写入数据库
+
+## 数据映射
+
+脚本会自动处理以下映射关系：
+1. 根据`cn_name`字段匹配schools表中的学校
+2. 根据学校ID和`applied_program`字段匹配programs表中的项目
+3. 如果直接匹配失败，会尝试模糊匹配
+
+## 日志
+
+程序运行会生成详细的日志文件：
+- 普通数据库上传：`db_upload_YYYYMMDD_HHMMSS.log`
+- Supabase上传：`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+# 数据处理脚本
+
+## CSV文件处理脚本
+
+本项目包含多个用于处理CSV数据文件和上传数据到数据库的脚本。
+
+### casedata/process_case_csv.py
+
+此脚本用于处理原始案例数据CSV文件，提取和转换关键字段，如背景、GPA和语言成绩。
+
+使用方法：
+```bash
+python casedata/process_case_csv.py
+```
+
+脚本会读取`case.csv`文件，处理后生成`case_processed.csv`文件。
+
+### casedata/upload_to_database.py
+
+此脚本用于将处理后的CSV数据上传到各类关系型数据库（SQLite、MySQL、PostgreSQL）。
+
+使用方法：
+```bash
+python casedata/upload_to_database.py --csv [CSV文件路径] --db-type [数据库类型] [其他参数]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--db-type`：数据库类型，可选值为sqlite、mysql、postgresql，默认为sqlite
+- `--db-path`：SQLite数据库文件路径（使用SQLite时必填）
+- `--host`：数据库主机地址，默认为localhost
+- `--port`：数据库端口
+- `--user`：数据库用户名
+- `--password`：数据库密码
+- `--database`：数据库名称
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path ./database.sqlite
+
+# 上传到MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password mypassword --database mydb
+
+# 试运行模式
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --user postgres --database mydb --dry-run
+```
+
+### casedata/upload_to_supabase.py
+
+此脚本专门用于将处理后的CSV数据上传到Supabase数据库。它会自动处理学校和项目的映射，以便将数据正确地关联到Supabase中的相应表。
+
+使用方法：
+```bash
+python casedata/upload_to_supabase.py --csv [CSV文件路径] --url [Supabase项目URL] --key [Supabase API密钥] [--dry-run]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--url`：Supabase项目URL（必填）
+- `--key`：Supabase API密钥（必填）
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到Supabase数据库
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key
+
+# 试运行模式
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key --dry-run
+```
+
+脚本执行过程中会生成详细的日志，记录处理的数据和可能出现的问题。日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`。
+
+## 日志说明
+
+上述脚本在执行过程中会生成日志文件：
+- `upload_to_database.py`生成的日志文件格式为`db_upload_YYYYMMDD_HHMMSS.log`
+- `upload_to_supabase.py`生成的日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+日志文件包含详细的执行步骤、成功/失败记录以及可能的错误信息，方便排查问题。
+
+# Supabase集成指南
+
+## 🔐 认证系统
+
+本系统已实现完整的 Supabase Auth 认证功能!
+
+### 功能特性
+
+- ✅ 邮箱密码登录
+- ✅ 用户注册(学生)
+- ✅ 忘记密码 / 密码重置
+- ✅ 自动关联 Auth 用户到业务表(employees/students)
+- ✅ 全局认证状态管理
+- ✅ 路由守卫保护
+
+### 配置指南
+
+**详细配置步骤请查看: [SUPABASE_AUTH_SETUP.md](./SUPABASE_AUTH_SETUP.md)**
+
+包含:
+- Supabase Auth 配置
+- 数据库表结构更新
+- RLS 策略配置
+- 管理员用户创建
+- 邮件服务配置
+- 测试流程说明
+
+### 使用方法
+
+**管理员登录:**
+1. 访问 `/login`
+2. 选择"管理员"角色
+3. 使用 Supabase Auth 中创建的账号登录
+
+**学生注册:**
+1. 访问 `/register`
+2. 填写信息并提交
+3. 查收邮件完成验证
+4. 返回登录
+
+## Supabase配置
+
+系统使用Supabase作为后端数据库和认证服务。以下是当前配置信息：
+
+### 连接信息
+- **Supabase URL**: `https://swyajeiqqewyckzbfkid.supabase.co`
+- **Supabase 匿名密钥**: 配置在环境变量中，使用`VITE_SUPABASE_ANON_KEY`变量名
+
+### 环境变量配置
+项目根目录下的`.env`文件包含所有必要的环境配置：
+```
+VITE_SUPABASE_URL=https://swyajeiqqewyckzbfkid.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
+
+前端代码通过以下方式访问这些变量：
+```typescript
+import.meta.env.VITE_SUPABASE_URL
+import.meta.env.VITE_SUPABASE_ANON_KEY
+```
+
+## 客户线索与学生管理的关系
+
+在本系统中，客户线索(Leads)和学生(Students)是两个相关但独立的概念：
+
+### 客户线索 (Leads)
+- 代表潜在的客户或咨询者
+- 通过网站表单、社交媒体、教育展等渠道收集
+- 包含基础联系信息和初步意向
+- 状态包括：新线索、已联系、已确认、已签约、已关闭
+
+### 学生 (Students)
+- 代表已签约并接受服务的客户
+- 包含详细个人信息、教育背景和服务记录
+- 可以关联多个服务项目和导师
+- 状态包括：活跃、休学、毕业、退学
+
+### 线索转换为学生的流程
+
+当一个线索成功签约后，系统支持将其转换为学生记录：
+
+1. **线索跟进**：通过线索管理页面跟进潜在客户
+2. **状态更新**：当线索状态更新为"已签约"时，系统提示是否创建学生记录
+3. **信息转移**：线索的基本信息（姓名、联系方式等）会自动填充到学生创建表单
+4. **补充信息**：需要补充更多学生特有的信息，如教育背景、服务选择等
+5. **创建记录**：确认后创建正式学生记录并关联服务项目
+
+### 数据表关系
+- `leads`表存储所有潜在客户线索
+- `students`表存储正式签约学生信息
+- `student_services`表存储学生的服务记录
+- 线索转为学生后，两条记录之间保留关联关系，便于分析转化率
+
+## 使用指南
+
+### 客户线索管理
+1. 通过管理后台的"线索管理"页面查看所有潜在客户
+2. 使用筛选和搜索功能快速定位特定线索
+3. 更新线索状态、添加跟进记录
+4. 将"已签约"线索转换为学生
+
+### 学生管理
+1. 通过管理后台的"学生管理"页面管理所有正式学生
+2. 查看学生详情、服务记录和进度
+3. 添加新服务、更新服务进度
+4. 导出学生数据进行分析和报告
+
+## 最佳实践
+1. 定期审核线索状态，确保及时跟进
+2. 记录详细的沟通内容和客户需求
+3. 线索转为学生后,保持服务进度的及时更新
+4. 利用数据分析功能优化线索转化率和学生服务满意度
+
+## 常见问题解答
+
+### Q: 如何查看系统使用的Supabase配置？
+A: 系统使用的Supabase URL和匿名密钥配置在根目录的`.env`文件中，通过环境变量`VITE_SUPABASE_URL`和`VITE_SUPABASE_ANON_KEY`访问。
+
+### Q: 线索记录和学生记录之间是什么关系？
+A: 线索记录代表潜在客户，学生记录代表已签约客户。当线索成功转化为客户后，系统支持将线索信息转换为学生记录，并保留关联关系用于分析转化率。
+
+## 权限系统
+
+本系统实现了基于角色的权限控制（RBAC）机制，支持灵活的权限管理和分配。
+
+### 权限系统架构
+
+1. **数据库表结构**
+   - `employee_roles`: 角色表，定义了系统中的各种角色
+   - `permissions`: 权限表，定义了系统中的各种权限点
+   - `role_permissions`: 角色-权限关联表，定义角色拥有的权限
+   - `employee_role_assignments`: 员工-角色关联表，定义员工拥有的角色
+
+2. **权限代码**
+   系统中定义了多种权限代码，例如：
+   - `manage_users`: 管理用户账号
+   - `manage_students`: 管理学生信息
+   - `manage_services`: 管理服务
+   - `manage_finances`: 管理财务
+   - `manage_mentors`: 管理导师
+   - `manage_leads`: 管理销售线索
+   - `view_reports`: 查看报表
+   - `manage_schools`: 管理学校和项目信息
+   - `courses:create`: 创建课程
+   - `courses:update`: 更新课程
+   - `courses:delete`: 删除课程
+   - 等等...
+
+3. **角色分配**
+   - 系统管理员: 拥有系统所有权限
+   - 咨询顾问: 负责学生咨询服务
+   - 财务人员: 负责财务管理
+   - 销售人员: 负责销售线索跟进
+
+### 权限组件
+
+1. **权限服务 (permissionService)**
+   提供了以下功能：
+   - `hasPermission`: 检查当前用户是否拥有指定权限
+   - `employeeHasPermission`: 检查特定员工是否拥有指定权限
+   - `getEmployeePermissions`: 获取员工的所有权限
+   - `getRolePermissions`: 获取角色的所有权限
+
+2. **权限上下文 (PermissionContext)**
+   提供了以下功能：
+   - 在应用中全局管理和检查权限
+   - 缓存用户权限以提高性能
+   - 响应用户登录状态变化自动更新权限
+
+3. **权限保护组件**
+   - `PermissionGuard`: 根据权限条件渲染内容
+   - `PermissionButton`: 根据权限控制按钮的可用性
+   - `ProtectedRoute`: 保护路由，只允许有权限的用户访问
+
+### 权限管理界面
+
+系统提供了两个权限管理页面：
+
+1. **权限管理页面 (PermissionPage)**
+   - 创建、编辑和删除角色
+   - 创建、编辑和删除权限
+   - 为角色分配权限
+
+2. **员工权限分配页面 (EmployeePermissionPage)**
+   - 管理员工的角色分配
+   - 查看员工当前拥有的角色和权限
+
+### 使用示例
+
+1. **在组件中使用权限检查**
+   ```tsx
+   import { usePermission } from '../context/PermissionContext';
+
+   const MyComponent = () => {
+     const { checkPermission } = usePermission();
+     
+     const canCreateCourse = checkPermission('courses:create');
+     
+     return (
+       <div>
+         {canCreateCourse && (
+           <button>创建课程</button>
+         )}
+       </div>
+     );
+   };
+   ```
+
+2. **使用权限保护组件**
+   ```tsx
+   import { PermissionGuard } from '../components/Permission/PermissionGuard';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionGuard permission="manage_finances">
+           <FinancialReportComponent />
+         </PermissionGuard>
+       </div>
+     );
+   };
+   ```
+
+3. **使用权限按钮**
+   ```tsx
+   import { PermissionButton } from '../components/Permission/PermissionButton';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionButton 
+           permission="courses:delete"
+           onClick={handleDeleteCourse}
+           className="btn btn-danger"
+         >
+           删除课程
+         </PermissionButton>
+       </div>
+     );
+   };
+   ```
+
+4. **保护路由**
+   ```tsx
+   import { ProtectedRoute } from '../components/Permission/ProtectedRoute';
+   
+   const AppRoutes = () => {
+     return (
+       <Routes>
+         <Route path="/admin/finances" element={
+           <ProtectedRoute permission="manage_finances">
+             <FinancePage />
+           </ProtectedRoute>
+         } />
+       </Routes>
+     );
+   };
+   ```
+
+### 扩展权限系统
+
+如需添加新的权限，请按照以下步骤操作：
+
+1. 在 `permissions` 表中添加新的权限记录
+2. 将新权限分配给相应的角色
+3. 在代码中使用权限检查功能控制功能访问
+
+---
+
+## 知识库模块 📚
+
+### 功能概述
+
+知识库模块是一个完整的知识管理系统，支持创建、管理和分享留学相关的各类资源。
+
+### 核心功能
+
+#### 资源管理
+- ✅ **创建资源** - 支持4种类型：文档、视频、文章、模板
+- ✅ **查看资源** - 详细的资源展示页面
+- ✅ **下载资源** - 文件下载并统计下载次数
+- ✅ **浏览统计** - 自动统计浏览和下载次数
+
+#### 搜索和筛选
+- ✅ **全文搜索** - 搜索标题、描述、标签
+- ✅ **9维筛选** - 分类/类型/作者/标签/时间/排序等
+- ✅ **标签页** - 全部/精选/已收藏/最近更新
+- ✅ **实时统计** - 显示筛选结果数量
+
+#### 互动功能
+- ✅ **收藏资源** - 一键收藏/取消收藏
+- ✅ **评论系统** - 发表评论和查看讨论
+- ✅ **点赞功能** - 为评论点赞
+- ✅ **相关推荐** - 智能推荐相关资源
+
+#### 统计面板
+- ✅ **总资源数** - 显示所有已发布资源
+- ✅ **分类统计** - 文档/视频/文章/模板数量
+- ✅ **下载统计** - 累计下载次数
+- ✅ **实时更新** - 数据实时同步
+
+### 数据库设计
+
+#### 表结构
+```sql
+knowledge_resources         # 资源表
+├── id, title, type        # 基本信息
+├── category, description  # 分类和描述
+├── content, file_url      # 内容和文件
+├── tags (数组)            # 标签
+├── views, downloads       # 统计
+└── is_featured, status    # 状态
+
+knowledge_comments         # 评论表
+├── resource_id           # 关联资源
+├── user_id, user_name    # 评论用户
+├── content, likes        # 内容和点赞
+└── parent_comment_id     # 支持回复
+
+knowledge_bookmarks        # 收藏表
+└── resource_id, user_id  # 用户收藏记录
+
+knowledge_comment_likes    # 点赞表
+└── comment_id, user_id   # 用户点赞记录
+```
+
+### 使用流程
+
+#### 1. 数据库初始化
+执行迁移脚本：
+```sql
+database_migrations/004_create_knowledge_base_tables.sql
+```
+
+#### 2. 创建资源
+1. 访问 `/admin/knowledge`
+2. 点击"上传资源"按钮
+3. 填写表单：
+   - 标题、类型、分类（必填）
+   - 描述、内容/文件链接、标签（可选）
+4. 提交创建
+
+#### 3. 管理资源
+- **浏览** - 主页网格视图
+- **搜索** - 顶部搜索框
+- **筛选** - 点击"筛选"使用高级筛选
+- **收藏** - 点击书签图标
+- **评论** - 进入详情页发表评论
+
+### 技术特性
+
+#### 模块化设计
+```
+KnowledgeBase/
+├── components/      # UI组件
+├── types/          # TypeScript类型
+├── utils/          # 工具函数
+└── hooks/          # 自定义Hooks（备用）
+```
+
+#### 性能优化
+- 直接 Supabase 查询，无中间层
+- localStorage 缓存用户信息
+- 简洁的状态管理
+- 避免不必要的重新渲染
+
+#### 用户体验
+- 友好的空状态提示
+- 清晰的错误信息
+- 多入口创建资源
+- 响应式设计
+- 暗黑模式支持
+
+### 文档资源
+
+- **功能说明**: `知识库完整功能说明.md`
+- **使用指南**: `知识库使用指南.md`
+- **部署指南**: `知识库快速部署指南.md`
+- **模块文档**: `src/pages/admin/KnowledgeBase/README.md`
+
+### 快速开始
+
+```bash
+# 1. 执行数据库迁移（在 Supabase Dashboard）
+database_migrations/004_create_knowledge_base_tables.sql
+
+# 2. 访问知识库页面
+http://localhost:5173/admin/knowledge
+
+# 3. 创建第一个资源
+点击"上传资源" → 填写表单 → 提交
+```
+
+### 功能清单
+
+- [x] 资源创建和展示
+- [x] 搜索和多维筛选
+- [x] 收藏功能
+- [x] 评论和点赞
+- [x] 浏览和下载统计
+- [x] 相关资源推荐
+- [x] 响应式布局
+- [x] 暗黑模式
+- [ ] 文件上传（待实现）
+- [ ] 资源编辑（待实现）
+- [ ] 资源删除（待实现）
+
+---
+
+### 版本 1.4.0 (2025-10-16)
+
+- **UI优化**: 学生管理页面重大升级，新增卡片视图模式
+  - 实现了现代化的卡片式布局，提升视觉效果和用户体验
+  - 添加视图切换功能，支持卡片视图和传统表格视图切换
+  - 卡片设计采用渐变背景、阴影效果和悬浮动画
+  - 优化信息层次结构，突出重点信息
+  - 增强响应式设计，支持多种屏幕尺寸
+  - 改进状态指示器，使用彩色圆点显示学生活跃状态
+  - 优化服务展示，每个卡片显示前2个服务项目
+  - 添加导师团队头像展示，采用堆叠式设计
+  - 实现悬浮时显示操作按钮的交互效果
+  - 保留原有表格视图供需要详细数据的用户使用
+
+### 版本 1.3.0 (2024-07-18)
+
+- **功能增强**: 实现了交互式选校助手功能，支持在SchoolAssistantPage页面直接进行选校
+- **UI优化**: 添加了右侧收藏侧边栏，用户可以直接在学校助手页面添加学校到收藏夹并设置申请策略
+- **用户体验**: 新增了选校指南弹窗，帮助用户了解如何使用选校功能
+- **功能改进**: 学校和专业卡片支持一键收藏，自动显示收藏侧边栏
+
+### 版本 1.2.0 (2024-07-16)
+
+- **功能增强**: 添加了"选校记录"按钮，用户可以直接从学校助手页面查看历史选校方案
+- **UI改进**: 在选校管理页面优化了返回按钮设计，并改进了布局
+- **用户体验**: 直接通过URL参数支持打开历史记录视图，便于快速访问
+
+### 版本 1.1.0 (2024-07-15)
+
+- **功能增强**: 完善了"开始选校"按钮功能，现在可以直接从学校助手页面导航到选校管理页面
+- **UI改进**: 在选校管理页面添加了返回按钮，方便用户在两个页面之间切换
+- **bug修复**: 修复了学校筛选条件不正确应用的问题
+- **性能优化**: 改进了学校和专业数据的加载速度
+
+# 案例数据处理与数据库导入工具
+
+本项目包含两个脚本，用于处理成功案例CSV数据文件并将其导入到数据库中。
+
+## 文件说明
+
+1. `casedata/process_case_csv.py` - 处理原始CSV文件，提取背景字段
+2. `casedata/upload_to_database.py` - 将处理后的CSV数据导入到数据库
+3. `casedata/upload_to_supabase.py` - 专门用于上传数据到Supabase数据库
+
+## 处理CSV文件
+
+这个脚本会读取原始的CSV文件，从`基本背景`字段中提取信息：
+- 第一个元素作为`admission_year`
+- 第二个元素中提取GPA值作为`gpa`
+- 第三个及之后的所有元素作为`language_scores`
+
+### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+python casedata/process_case_csv.py
+```
+
+脚本会处理`casedata/case.csv`文件，并将结果保存为`casedata/case_processed.csv`。
+
+## 数据库导入
+
+### 上传到普通数据库
+
+这个脚本会将处理后的CSV数据导入到普通数据库，并处理学校和项目的映射关系。
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 使用SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db
+
+# 使用MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password your_password --database your_db
+
+# 使用PostgreSQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --port 5432 --user postgres --password your_password --database your_db
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db --dry-run
+```
+
+### 上传到Supabase数据库
+
+这个专用脚本支持将处理后的CSV数据上传到Supabase数据库。
+
+#### 安装依赖
+
+```bash
+pip install supabase
+```
+
+#### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 上传到Supabase
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key"
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key" --dry-run
+```
+
+#### 参数说明
+
+- `--csv`: CSV文件路径（必需）
+- `--url`: Supabase项目URL（必需）
+- `--key`: Supabase API密钥（必需）
+- `--dry-run`: 试运行模式，不会实际写入数据库
+
+## 数据映射
+
+脚本会自动处理以下映射关系：
+1. 根据`cn_name`字段匹配schools表中的学校
+2. 根据学校ID和`applied_program`字段匹配programs表中的项目
+3. 如果直接匹配失败，会尝试模糊匹配
+
+## 日志
+
+程序运行会生成详细的日志文件：
+- 普通数据库上传：`db_upload_YYYYMMDD_HHMMSS.log`
+- Supabase上传：`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+# 数据处理脚本
+
+## CSV文件处理脚本
+
+本项目包含多个用于处理CSV数据文件和上传数据到数据库的脚本。
+
+### casedata/process_case_csv.py
+
+此脚本用于处理原始案例数据CSV文件，提取和转换关键字段，如背景、GPA和语言成绩。
+
+使用方法：
+```bash
+python casedata/process_case_csv.py
+```
+
+脚本会读取`case.csv`文件，处理后生成`case_processed.csv`文件。
+
+### casedata/upload_to_database.py
+
+此脚本用于将处理后的CSV数据上传到各类关系型数据库（SQLite、MySQL、PostgreSQL）。
+
+使用方法：
+```bash
+python casedata/upload_to_database.py --csv [CSV文件路径] --db-type [数据库类型] [其他参数]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--db-type`：数据库类型，可选值为sqlite、mysql、postgresql，默认为sqlite
+- `--db-path`：SQLite数据库文件路径（使用SQLite时必填）
+- `--host`：数据库主机地址，默认为localhost
+- `--port`：数据库端口
+- `--user`：数据库用户名
+- `--password`：数据库密码
+- `--database`：数据库名称
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path ./database.sqlite
+
+# 上传到MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password mypassword --database mydb
+
+# 试运行模式
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --user postgres --database mydb --dry-run
+```
+
+### casedata/upload_to_supabase.py
+
+此脚本专门用于将处理后的CSV数据上传到Supabase数据库。它会自动处理学校和项目的映射，以便将数据正确地关联到Supabase中的相应表。
+
+使用方法：
+```bash
+python casedata/upload_to_supabase.py --csv [CSV文件路径] --url [Supabase项目URL] --key [Supabase API密钥] [--dry-run]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--url`：Supabase项目URL（必填）
+- `--key`：Supabase API密钥（必填）
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到Supabase数据库
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key
+
+# 试运行模式
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key --dry-run
+```
+
+脚本执行过程中会生成详细的日志，记录处理的数据和可能出现的问题。日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`。
+
+## 日志说明
+
+上述脚本在执行过程中会生成日志文件：
+- `upload_to_database.py`生成的日志文件格式为`db_upload_YYYYMMDD_HHMMSS.log`
+- `upload_to_supabase.py`生成的日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+日志文件包含详细的执行步骤、成功/失败记录以及可能的错误信息，方便排查问题。
+
+# Supabase集成指南
+
+## 🔐 认证系统
+
+本系统已实现完整的 Supabase Auth 认证功能!
+
+### 功能特性
+
+- ✅ 邮箱密码登录
+- ✅ 用户注册(学生)
+- ✅ 忘记密码 / 密码重置
+- ✅ 自动关联 Auth 用户到业务表(employees/students)
+- ✅ 全局认证状态管理
+- ✅ 路由守卫保护
+
+### 配置指南
+
+**详细配置步骤请查看: [SUPABASE_AUTH_SETUP.md](./SUPABASE_AUTH_SETUP.md)**
+
+包含:
+- Supabase Auth 配置
+- 数据库表结构更新
+- RLS 策略配置
+- 管理员用户创建
+- 邮件服务配置
+- 测试流程说明
+
+### 使用方法
+
+**管理员登录:**
+1. 访问 `/login`
+2. 选择"管理员"角色
+3. 使用 Supabase Auth 中创建的账号登录
+
+**学生注册:**
+1. 访问 `/register`
+2. 填写信息并提交
+3. 查收邮件完成验证
+4. 返回登录
+
+## Supabase配置
+
+系统使用Supabase作为后端数据库和认证服务。以下是当前配置信息：
+
+### 连接信息
+- **Supabase URL**: `https://swyajeiqqewyckzbfkid.supabase.co`
+- **Supabase 匿名密钥**: 配置在环境变量中，使用`VITE_SUPABASE_ANON_KEY`变量名
+
+### 环境变量配置
+项目根目录下的`.env`文件包含所有必要的环境配置：
+```
+VITE_SUPABASE_URL=https://swyajeiqqewyckzbfkid.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
+
+前端代码通过以下方式访问这些变量：
+```typescript
+import.meta.env.VITE_SUPABASE_URL
+import.meta.env.VITE_SUPABASE_ANON_KEY
+```
+
+## 客户线索与学生管理的关系
+
+在本系统中，客户线索(Leads)和学生(Students)是两个相关但独立的概念：
+
+### 客户线索 (Leads)
+- 代表潜在的客户或咨询者
+- 通过网站表单、社交媒体、教育展等渠道收集
+- 包含基础联系信息和初步意向
+- 状态包括：新线索、已联系、已确认、已签约、已关闭
+
+### 学生 (Students)
+- 代表已签约并接受服务的客户
+- 包含详细个人信息、教育背景和服务记录
+- 可以关联多个服务项目和导师
+- 状态包括：活跃、休学、毕业、退学
+
+### 线索转换为学生的流程
+
+当一个线索成功签约后，系统支持将其转换为学生记录：
+
+1. **线索跟进**：通过线索管理页面跟进潜在客户
+2. **状态更新**：当线索状态更新为"已签约"时，系统提示是否创建学生记录
+3. **信息转移**：线索的基本信息（姓名、联系方式等）会自动填充到学生创建表单
+4. **补充信息**：需要补充更多学生特有的信息，如教育背景、服务选择等
+5. **创建记录**：确认后创建正式学生记录并关联服务项目
+
+### 数据表关系
+- `leads`表存储所有潜在客户线索
+- `students`表存储正式签约学生信息
+- `student_services`表存储学生的服务记录
+- 线索转为学生后，两条记录之间保留关联关系，便于分析转化率
+
+## 使用指南
+
+### 客户线索管理
+1. 通过管理后台的"线索管理"页面查看所有潜在客户
+2. 使用筛选和搜索功能快速定位特定线索
+3. 更新线索状态、添加跟进记录
+4. 将"已签约"线索转换为学生
+
+### 学生管理
+1. 通过管理后台的"学生管理"页面管理所有正式学生
+2. 查看学生详情、服务记录和进度
+3. 添加新服务、更新服务进度
+4. 导出学生数据进行分析和报告
+
+## 最佳实践
+1. 定期审核线索状态，确保及时跟进
+2. 记录详细的沟通内容和客户需求
+3. 线索转为学生后,保持服务进度的及时更新
+4. 利用数据分析功能优化线索转化率和学生服务满意度
+
+## 常见问题解答
+
+### Q: 如何查看系统使用的Supabase配置？
+A: 系统使用的Supabase URL和匿名密钥配置在根目录的`.env`文件中，通过环境变量`VITE_SUPABASE_URL`和`VITE_SUPABASE_ANON_KEY`访问。
+
+### Q: 线索记录和学生记录之间是什么关系？
+A: 线索记录代表潜在客户，学生记录代表已签约客户。当线索成功转化为客户后，系统支持将线索信息转换为学生记录，并保留关联关系用于分析转化率。
+
+## 权限系统
+
+本系统实现了基于角色的权限控制（RBAC）机制，支持灵活的权限管理和分配。
+
+### 权限系统架构
+
+1. **数据库表结构**
+   - `employee_roles`: 角色表，定义了系统中的各种角色
+   - `permissions`: 权限表，定义了系统中的各种权限点
+   - `role_permissions`: 角色-权限关联表，定义角色拥有的权限
+   - `employee_role_assignments`: 员工-角色关联表，定义员工拥有的角色
+
+2. **权限代码**
+   系统中定义了多种权限代码，例如：
+   - `manage_users`: 管理用户账号
+   - `manage_students`: 管理学生信息
+   - `manage_services`: 管理服务
+   - `manage_finances`: 管理财务
+   - `manage_mentors`: 管理导师
+   - `manage_leads`: 管理销售线索
+   - `view_reports`: 查看报表
+   - `manage_schools`: 管理学校和项目信息
+   - `courses:create`: 创建课程
+   - `courses:update`: 更新课程
+   - `courses:delete`: 删除课程
+   - 等等...
+
+3. **角色分配**
+   - 系统管理员: 拥有系统所有权限
+   - 咨询顾问: 负责学生咨询服务
+   - 财务人员: 负责财务管理
+   - 销售人员: 负责销售线索跟进
+
+### 权限组件
+
+1. **权限服务 (permissionService)**
+   提供了以下功能：
+   - `hasPermission`: 检查当前用户是否拥有指定权限
+   - `employeeHasPermission`: 检查特定员工是否拥有指定权限
+   - `getEmployeePermissions`: 获取员工的所有权限
+   - `getRolePermissions`: 获取角色的所有权限
+
+2. **权限上下文 (PermissionContext)**
+   提供了以下功能：
+   - 在应用中全局管理和检查权限
+   - 缓存用户权限以提高性能
+   - 响应用户登录状态变化自动更新权限
+
+3. **权限保护组件**
+   - `PermissionGuard`: 根据权限条件渲染内容
+   - `PermissionButton`: 根据权限控制按钮的可用性
+   - `ProtectedRoute`: 保护路由，只允许有权限的用户访问
+
+### 权限管理界面
+
+系统提供了两个权限管理页面：
+
+1. **权限管理页面 (PermissionPage)**
+   - 创建、编辑和删除角色
+   - 创建、编辑和删除权限
+   - 为角色分配权限
+
+2. **员工权限分配页面 (EmployeePermissionPage)**
+   - 管理员工的角色分配
+   - 查看员工当前拥有的角色和权限
+
+### 使用示例
+
+1. **在组件中使用权限检查**
+   ```tsx
+   import { usePermission } from '../context/PermissionContext';
+
+   const MyComponent = () => {
+     const { checkPermission } = usePermission();
+     
+     const canCreateCourse = checkPermission('courses:create');
+     
+     return (
+       <div>
+         {canCreateCourse && (
+           <button>创建课程</button>
+         )}
+       </div>
+     );
+   };
+   ```
+
+2. **使用权限保护组件**
+   ```tsx
+   import { PermissionGuard } from '../components/Permission/PermissionGuard';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionGuard permission="manage_finances">
+           <FinancialReportComponent />
+         </PermissionGuard>
+       </div>
+     );
+   };
+   ```
+
+3. **使用权限按钮**
+   ```tsx
+   import { PermissionButton } from '../components/Permission/PermissionButton';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionButton 
+           permission="courses:delete"
+           onClick={handleDeleteCourse}
+           className="btn btn-danger"
+         >
+           删除课程
+         </PermissionButton>
+       </div>
+     );
+   };
+   ```
+
+4. **保护路由**
+   ```tsx
+   import { ProtectedRoute } from '../components/Permission/ProtectedRoute';
+   
+   const AppRoutes = () => {
+     return (
+       <Routes>
+         <Route path="/admin/finances" element={
+           <ProtectedRoute permission="manage_finances">
+             <FinancePage />
+           </ProtectedRoute>
+         } />
+       </Routes>
+     );
+   };
+   ```
+
+### 扩展权限系统
+
+如需添加新的权限，请按照以下步骤操作：
+
+1. 在 `permissions` 表中添加新的权限记录
+2. 将新权限分配给相应的角色
+3. 在代码中使用权限检查功能控制功能访问
+
+---
+
+## 知识库模块 📚
+
+### 功能概述
+
+知识库模块是一个完整的知识管理系统，支持创建、管理和分享留学相关的各类资源。
+
+### 核心功能
+
+#### 资源管理
+- ✅ **创建资源** - 支持4种类型：文档、视频、文章、模板
+- ✅ **查看资源** - 详细的资源展示页面
+- ✅ **下载资源** - 文件下载并统计下载次数
+- ✅ **浏览统计** - 自动统计浏览和下载次数
+
+#### 搜索和筛选
+- ✅ **全文搜索** - 搜索标题、描述、标签
+- ✅ **9维筛选** - 分类/类型/作者/标签/时间/排序等
+- ✅ **标签页** - 全部/精选/已收藏/最近更新
+- ✅ **实时统计** - 显示筛选结果数量
+
+#### 互动功能
+- ✅ **收藏资源** - 一键收藏/取消收藏
+- ✅ **评论系统** - 发表评论和查看讨论
+- ✅ **点赞功能** - 为评论点赞
+- ✅ **相关推荐** - 智能推荐相关资源
+
+#### 统计面板
+- ✅ **总资源数** - 显示所有已发布资源
+- ✅ **分类统计** - 文档/视频/文章/模板数量
+- ✅ **下载统计** - 累计下载次数
+- ✅ **实时更新** - 数据实时同步
+
+### 数据库设计
+
+#### 表结构
+```sql
+knowledge_resources         # 资源表
+├── id, title, type        # 基本信息
+├── category, description  # 分类和描述
+├── content, file_url      # 内容和文件
+├── tags (数组)            # 标签
+├── views, downloads       # 统计
+└── is_featured, status    # 状态
+
+knowledge_comments         # 评论表
+├── resource_id           # 关联资源
+├── user_id, user_name    # 评论用户
+├── content, likes        # 内容和点赞
+└── parent_comment_id     # 支持回复
+
+knowledge_bookmarks        # 收藏表
+└── resource_id, user_id  # 用户收藏记录
+
+knowledge_comment_likes    # 点赞表
+└── comment_id, user_id   # 用户点赞记录
+```
+
+### 使用流程
+
+#### 1. 数据库初始化
+执行迁移脚本：
+```sql
+database_migrations/004_create_knowledge_base_tables.sql
+```
+
+#### 2. 创建资源
+1. 访问 `/admin/knowledge`
+2. 点击"上传资源"按钮
+3. 填写表单：
+   - 标题、类型、分类（必填）
+   - 描述、内容/文件链接、标签（可选）
+4. 提交创建
+
+#### 3. 管理资源
+- **浏览** - 主页网格视图
+- **搜索** - 顶部搜索框
+- **筛选** - 点击"筛选"使用高级筛选
+- **收藏** - 点击书签图标
+- **评论** - 进入详情页发表评论
+
+### 技术特性
+
+#### 模块化设计
+```
+KnowledgeBase/
+├── components/      # UI组件
+├── types/          # TypeScript类型
+├── utils/          # 工具函数
+└── hooks/          # 自定义Hooks（备用）
+```
+
+#### 性能优化
+- 直接 Supabase 查询，无中间层
+- localStorage 缓存用户信息
+- 简洁的状态管理
+- 避免不必要的重新渲染
+
+#### 用户体验
+- 友好的空状态提示
+- 清晰的错误信息
+- 多入口创建资源
+- 响应式设计
+- 暗黑模式支持
+
+### 文档资源
+
+- **功能说明**: `知识库完整功能说明.md`
+- **使用指南**: `知识库使用指南.md`
+- **部署指南**: `知识库快速部署指南.md`
+- **模块文档**: `src/pages/admin/KnowledgeBase/README.md`
+
+### 快速开始
+
+```bash
+# 1. 执行数据库迁移（在 Supabase Dashboard）
+database_migrations/004_create_knowledge_base_tables.sql
+
+# 2. 访问知识库页面
+http://localhost:5173/admin/knowledge
+
+# 3. 创建第一个资源
+点击"上传资源" → 填写表单 → 提交
+```
+
+### 功能清单
+
+- [x] 资源创建和展示
+- [x] 搜索和多维筛选
+- [x] 收藏功能
+- [x] 评论和点赞
+- [x] 浏览和下载统计
+- [x] 相关资源推荐
+- [x] 响应式布局
+- [x] 暗黑模式
+- [ ] 文件上传（待实现）
+- [ ] 资源编辑（待实现）
+- [ ] 资源删除（待实现）
+
+---
+
+### 版本 1.4.0 (2025-10-16)
+
+- **UI优化**: 学生管理页面重大升级，新增卡片视图模式
+  - 实现了现代化的卡片式布局，提升视觉效果和用户体验
+  - 添加视图切换功能，支持卡片视图和传统表格视图切换
+  - 卡片设计采用渐变背景、阴影效果和悬浮动画
+  - 优化信息层次结构，突出重点信息
+  - 增强响应式设计，支持多种屏幕尺寸
+  - 改进状态指示器，使用彩色圆点显示学生活跃状态
+  - 优化服务展示，每个卡片显示前2个服务项目
+  - 添加导师团队头像展示，采用堆叠式设计
+  - 实现悬浮时显示操作按钮的交互效果
+  - 保留原有表格视图供需要详细数据的用户使用
+
+### 版本 1.3.0 (2024-07-18)
+
+- **功能增强**: 实现了交互式选校助手功能，支持在SchoolAssistantPage页面直接进行选校
+- **UI优化**: 添加了右侧收藏侧边栏，用户可以直接在学校助手页面添加学校到收藏夹并设置申请策略
+- **用户体验**: 新增了选校指南弹窗，帮助用户了解如何使用选校功能
+- **功能改进**: 学校和专业卡片支持一键收藏，自动显示收藏侧边栏
+
+### 版本 1.2.0 (2024-07-16)
+
+- **功能增强**: 添加了"选校记录"按钮，用户可以直接从学校助手页面查看历史选校方案
+- **UI改进**: 在选校管理页面优化了返回按钮设计，并改进了布局
+- **用户体验**: 直接通过URL参数支持打开历史记录视图，便于快速访问
+
+### 版本 1.1.0 (2024-07-15)
+
+- **功能增强**: 完善了"开始选校"按钮功能，现在可以直接从学校助手页面导航到选校管理页面
+- **UI改进**: 在选校管理页面添加了返回按钮，方便用户在两个页面之间切换
+- **bug修复**: 修复了学校筛选条件不正确应用的问题
+- **性能优化**: 改进了学校和专业数据的加载速度
+
+# 案例数据处理与数据库导入工具
+
+本项目包含两个脚本，用于处理成功案例CSV数据文件并将其导入到数据库中。
+
+## 文件说明
+
+1. `casedata/process_case_csv.py` - 处理原始CSV文件，提取背景字段
+2. `casedata/upload_to_database.py` - 将处理后的CSV数据导入到数据库
+3. `casedata/upload_to_supabase.py` - 专门用于上传数据到Supabase数据库
+
+## 处理CSV文件
+
+这个脚本会读取原始的CSV文件，从`基本背景`字段中提取信息：
+- 第一个元素作为`admission_year`
+- 第二个元素中提取GPA值作为`gpa`
+- 第三个及之后的所有元素作为`language_scores`
+
+### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+python casedata/process_case_csv.py
+```
+
+脚本会处理`casedata/case.csv`文件，并将结果保存为`casedata/case_processed.csv`。
+
+## 数据库导入
+
+### 上传到普通数据库
+
+这个脚本会将处理后的CSV数据导入到普通数据库，并处理学校和项目的映射关系。
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 使用SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db
+
+# 使用MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password your_password --database your_db
+
+# 使用PostgreSQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --port 5432 --user postgres --password your_password --database your_db
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db --dry-run
+```
+
+### 上传到Supabase数据库
+
+这个专用脚本支持将处理后的CSV数据上传到Supabase数据库。
+
+#### 安装依赖
+
+```bash
+pip install supabase
+```
+
+#### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 上传到Supabase
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key"
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key" --dry-run
+```
+
+#### 参数说明
+
+- `--csv`: CSV文件路径（必需）
+- `--url`: Supabase项目URL（必需）
+- `--key`: Supabase API密钥（必需）
+- `--dry-run`: 试运行模式，不会实际写入数据库
+
+## 数据映射
+
+脚本会自动处理以下映射关系：
+1. 根据`cn_name`字段匹配schools表中的学校
+2. 根据学校ID和`applied_program`字段匹配programs表中的项目
+3. 如果直接匹配失败，会尝试模糊匹配
+
+## 日志
+
+程序运行会生成详细的日志文件：
+- 普通数据库上传：`db_upload_YYYYMMDD_HHMMSS.log`
+- Supabase上传：`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+# 数据处理脚本
+
+## CSV文件处理脚本
+
+本项目包含多个用于处理CSV数据文件和上传数据到数据库的脚本。
+
+### casedata/process_case_csv.py
+
+此脚本用于处理原始案例数据CSV文件，提取和转换关键字段，如背景、GPA和语言成绩。
+
+使用方法：
+```bash
+python casedata/process_case_csv.py
+```
+
+脚本会读取`case.csv`文件，处理后生成`case_processed.csv`文件。
+
+### casedata/upload_to_database.py
+
+此脚本用于将处理后的CSV数据上传到各类关系型数据库（SQLite、MySQL、PostgreSQL）。
+
+使用方法：
+```bash
+python casedata/upload_to_database.py --csv [CSV文件路径] --db-type [数据库类型] [其他参数]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--db-type`：数据库类型，可选值为sqlite、mysql、postgresql，默认为sqlite
+- `--db-path`：SQLite数据库文件路径（使用SQLite时必填）
+- `--host`：数据库主机地址，默认为localhost
+- `--port`：数据库端口
+- `--user`：数据库用户名
+- `--password`：数据库密码
+- `--database`：数据库名称
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path ./database.sqlite
+
+# 上传到MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password mypassword --database mydb
+
+# 试运行模式
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --user postgres --database mydb --dry-run
+```
+
+### casedata/upload_to_supabase.py
+
+此脚本专门用于将处理后的CSV数据上传到Supabase数据库。它会自动处理学校和项目的映射，以便将数据正确地关联到Supabase中的相应表。
+
+使用方法：
+```bash
+python casedata/upload_to_supabase.py --csv [CSV文件路径] --url [Supabase项目URL] --key [Supabase API密钥] [--dry-run]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--url`：Supabase项目URL（必填）
+- `--key`：Supabase API密钥（必填）
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到Supabase数据库
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key
+
+# 试运行模式
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key --dry-run
+```
+
+脚本执行过程中会生成详细的日志，记录处理的数据和可能出现的问题。日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`。
+
+## 日志说明
+
+上述脚本在执行过程中会生成日志文件：
+- `upload_to_database.py`生成的日志文件格式为`db_upload_YYYYMMDD_HHMMSS.log`
+- `upload_to_supabase.py`生成的日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+日志文件包含详细的执行步骤、成功/失败记录以及可能的错误信息，方便排查问题。
+
+# Supabase集成指南
+
+## 🔐 认证系统
+
+本系统已实现完整的 Supabase Auth 认证功能!
+
+### 功能特性
+
+- ✅ 邮箱密码登录
+- ✅ 用户注册(学生)
+- ✅ 忘记密码 / 密码重置
+- ✅ 自动关联 Auth 用户到业务表(employees/students)
+- ✅ 全局认证状态管理
+- ✅ 路由守卫保护
+
+### 配置指南
+
+**详细配置步骤请查看: [SUPABASE_AUTH_SETUP.md](./SUPABASE_AUTH_SETUP.md)**
+
+包含:
+- Supabase Auth 配置
+- 数据库表结构更新
+- RLS 策略配置
+- 管理员用户创建
+- 邮件服务配置
+- 测试流程说明
+
+### 使用方法
+
+**管理员登录:**
+1. 访问 `/login`
+2. 选择"管理员"角色
+3. 使用 Supabase Auth 中创建的账号登录
+
+**学生注册:**
+1. 访问 `/register`
+2. 填写信息并提交
+3. 查收邮件完成验证
+4. 返回登录
+
+## Supabase配置
+
+系统使用Supabase作为后端数据库和认证服务。以下是当前配置信息：
+
+### 连接信息
+- **Supabase URL**: `https://swyajeiqqewyckzbfkid.supabase.co`
+- **Supabase 匿名密钥**: 配置在环境变量中，使用`VITE_SUPABASE_ANON_KEY`变量名
+
+### 环境变量配置
+项目根目录下的`.env`文件包含所有必要的环境配置：
+```
+VITE_SUPABASE_URL=https://swyajeiqqewyckzbfkid.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
+
+前端代码通过以下方式访问这些变量：
+```typescript
+import.meta.env.VITE_SUPABASE_URL
+import.meta.env.VITE_SUPABASE_ANON_KEY
+```
+
+## 客户线索与学生管理的关系
+
+在本系统中，客户线索(Leads)和学生(Students)是两个相关但独立的概念：
+
+### 客户线索 (Leads)
+- 代表潜在的客户或咨询者
+- 通过网站表单、社交媒体、教育展等渠道收集
+- 包含基础联系信息和初步意向
+- 状态包括：新线索、已联系、已确认、已签约、已关闭
+
+### 学生 (Students)
+- 代表已签约并接受服务的客户
+- 包含详细个人信息、教育背景和服务记录
+- 可以关联多个服务项目和导师
+- 状态包括：活跃、休学、毕业、退学
+
+### 线索转换为学生的流程
+
+当一个线索成功签约后，系统支持将其转换为学生记录：
+
+1. **线索跟进**：通过线索管理页面跟进潜在客户
+2. **状态更新**：当线索状态更新为"已签约"时，系统提示是否创建学生记录
+3. **信息转移**：线索的基本信息（姓名、联系方式等）会自动填充到学生创建表单
+4. **补充信息**：需要补充更多学生特有的信息，如教育背景、服务选择等
+5. **创建记录**：确认后创建正式学生记录并关联服务项目
+
+### 数据表关系
+- `leads`表存储所有潜在客户线索
+- `students`表存储正式签约学生信息
+- `student_services`表存储学生的服务记录
+- 线索转为学生后，两条记录之间保留关联关系，便于分析转化率
+
+## 使用指南
+
+### 客户线索管理
+1. 通过管理后台的"线索管理"页面查看所有潜在客户
+2. 使用筛选和搜索功能快速定位特定线索
+3. 更新线索状态、添加跟进记录
+4. 将"已签约"线索转换为学生
+
+### 学生管理
+1. 通过管理后台的"学生管理"页面管理所有正式学生
+2. 查看学生详情、服务记录和进度
+3. 添加新服务、更新服务进度
+4. 导出学生数据进行分析和报告
+
+## 最佳实践
+1. 定期审核线索状态，确保及时跟进
+2. 记录详细的沟通内容和客户需求
+3. 线索转为学生后,保持服务进度的及时更新
+4. 利用数据分析功能优化线索转化率和学生服务满意度
+
+## 常见问题解答
+
+### Q: 如何查看系统使用的Supabase配置？
+A: 系统使用的Supabase URL和匿名密钥配置在根目录的`.env`文件中，通过环境变量`VITE_SUPABASE_URL`和`VITE_SUPABASE_ANON_KEY`访问。
+
+### Q: 线索记录和学生记录之间是什么关系？
+A: 线索记录代表潜在客户，学生记录代表已签约客户。当线索成功转化为客户后，系统支持将线索信息转换为学生记录，并保留关联关系用于分析转化率。
+
+## 权限系统
+
+本系统实现了基于角色的权限控制（RBAC）机制，支持灵活的权限管理和分配。
+
+### 权限系统架构
+
+1. **数据库表结构**
+   - `employee_roles`: 角色表，定义了系统中的各种角色
+   - `permissions`: 权限表，定义了系统中的各种权限点
+   - `role_permissions`: 角色-权限关联表，定义角色拥有的权限
+   - `employee_role_assignments`: 员工-角色关联表，定义员工拥有的角色
+
+2. **权限代码**
+   系统中定义了多种权限代码，例如：
+   - `manage_users`: 管理用户账号
+   - `manage_students`: 管理学生信息
+   - `manage_services`: 管理服务
+   - `manage_finances`: 管理财务
+   - `manage_mentors`: 管理导师
+   - `manage_leads`: 管理销售线索
+   - `view_reports`: 查看报表
+   - `manage_schools`: 管理学校和项目信息
+   - `courses:create`: 创建课程
+   - `courses:update`: 更新课程
+   - `courses:delete`: 删除课程
+   - 等等...
+
+3. **角色分配**
+   - 系统管理员: 拥有系统所有权限
+   - 咨询顾问: 负责学生咨询服务
+   - 财务人员: 负责财务管理
+   - 销售人员: 负责销售线索跟进
+
+### 权限组件
+
+1. **权限服务 (permissionService)**
+   提供了以下功能：
+   - `hasPermission`: 检查当前用户是否拥有指定权限
+   - `employeeHasPermission`: 检查特定员工是否拥有指定权限
+   - `getEmployeePermissions`: 获取员工的所有权限
+   - `getRolePermissions`: 获取角色的所有权限
+
+2. **权限上下文 (PermissionContext)**
+   提供了以下功能：
+   - 在应用中全局管理和检查权限
+   - 缓存用户权限以提高性能
+   - 响应用户登录状态变化自动更新权限
+
+3. **权限保护组件**
+   - `PermissionGuard`: 根据权限条件渲染内容
+   - `PermissionButton`: 根据权限控制按钮的可用性
+   - `ProtectedRoute`: 保护路由，只允许有权限的用户访问
+
+### 权限管理界面
+
+系统提供了两个权限管理页面：
+
+1. **权限管理页面 (PermissionPage)**
+   - 创建、编辑和删除角色
+   - 创建、编辑和删除权限
+   - 为角色分配权限
+
+2. **员工权限分配页面 (EmployeePermissionPage)**
+   - 管理员工的角色分配
+   - 查看员工当前拥有的角色和权限
+
+### 使用示例
+
+1. **在组件中使用权限检查**
+   ```tsx
+   import { usePermission } from '../context/PermissionContext';
+
+   const MyComponent = () => {
+     const { checkPermission } = usePermission();
+     
+     const canCreateCourse = checkPermission('courses:create');
+     
+     return (
+       <div>
+         {canCreateCourse && (
+           <button>创建课程</button>
+         )}
+       </div>
+     );
+   };
+   ```
+
+2. **使用权限保护组件**
+   ```tsx
+   import { PermissionGuard } from '../components/Permission/PermissionGuard';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionGuard permission="manage_finances">
+           <FinancialReportComponent />
+         </PermissionGuard>
+       </div>
+     );
+   };
+   ```
+
+3. **使用权限按钮**
+   ```tsx
+   import { PermissionButton } from '../components/Permission/PermissionButton';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionButton 
+           permission="courses:delete"
+           onClick={handleDeleteCourse}
+           className="btn btn-danger"
+         >
+           删除课程
+         </PermissionButton>
+       </div>
+     );
+   };
+   ```
+
+4. **保护路由**
+   ```tsx
+   import { ProtectedRoute } from '../components/Permission/ProtectedRoute';
+   
+   const AppRoutes = () => {
+     return (
+       <Routes>
+         <Route path="/admin/finances" element={
+           <ProtectedRoute permission="manage_finances">
+             <FinancePage />
+           </ProtectedRoute>
+         } />
+       </Routes>
+     );
+   };
+   ```
+
+### 扩展权限系统
+
+如需添加新的权限，请按照以下步骤操作：
+
+1. 在 `permissions` 表中添加新的权限记录
+2. 将新权限分配给相应的角色
+3. 在代码中使用权限检查功能控制功能访问
+
+---
+
+## 知识库模块 📚
+
+### 功能概述
+
+知识库模块是一个完整的知识管理系统，支持创建、管理和分享留学相关的各类资源。
+
+### 核心功能
+
+#### 资源管理
+- ✅ **创建资源** - 支持4种类型：文档、视频、文章、模板
+- ✅ **查看资源** - 详细的资源展示页面
+- ✅ **下载资源** - 文件下载并统计下载次数
+- ✅ **浏览统计** - 自动统计浏览和下载次数
+
+#### 搜索和筛选
+- ✅ **全文搜索** - 搜索标题、描述、标签
+- ✅ **9维筛选** - 分类/类型/作者/标签/时间/排序等
+- ✅ **标签页** - 全部/精选/已收藏/最近更新
+- ✅ **实时统计** - 显示筛选结果数量
+
+#### 互动功能
+- ✅ **收藏资源** - 一键收藏/取消收藏
+- ✅ **评论系统** - 发表评论和查看讨论
+- ✅ **点赞功能** - 为评论点赞
+- ✅ **相关推荐** - 智能推荐相关资源
+
+#### 统计面板
+- ✅ **总资源数** - 显示所有已发布资源
+- ✅ **分类统计** - 文档/视频/文章/模板数量
+- ✅ **下载统计** - 累计下载次数
+- ✅ **实时更新** - 数据实时同步
+
+### 数据库设计
+
+#### 表结构
+```sql
+knowledge_resources         # 资源表
+├── id, title, type        # 基本信息
+├── category, description  # 分类和描述
+├── content, file_url      # 内容和文件
+├── tags (数组)            # 标签
+├── views, downloads       # 统计
+└── is_featured, status    # 状态
+
+knowledge_comments         # 评论表
+├── resource_id           # 关联资源
+├── user_id, user_name    # 评论用户
+├── content, likes        # 内容和点赞
+└── parent_comment_id     # 支持回复
+
+knowledge_bookmarks        # 收藏表
+└── resource_id, user_id  # 用户收藏记录
+
+knowledge_comment_likes    # 点赞表
+└── comment_id, user_id   # 用户点赞记录
+```
+
+### 使用流程
+
+#### 1. 数据库初始化
+执行迁移脚本：
+```sql
+database_migrations/004_create_knowledge_base_tables.sql
+```
+
+#### 2. 创建资源
+1. 访问 `/admin/knowledge`
+2. 点击"上传资源"按钮
+3. 填写表单：
+   - 标题、类型、分类（必填）
+   - 描述、内容/文件链接、标签（可选）
+4. 提交创建
+
+#### 3. 管理资源
+- **浏览** - 主页网格视图
+- **搜索** - 顶部搜索框
+- **筛选** - 点击"筛选"使用高级筛选
+- **收藏** - 点击书签图标
+- **评论** - 进入详情页发表评论
+
+### 技术特性
+
+#### 模块化设计
+```
+KnowledgeBase/
+├── components/      # UI组件
+├── types/          # TypeScript类型
+├── utils/          # 工具函数
+└── hooks/          # 自定义Hooks（备用）
+```
+
+#### 性能优化
+- 直接 Supabase 查询，无中间层
+- localStorage 缓存用户信息
+- 简洁的状态管理
+- 避免不必要的重新渲染
+
+#### 用户体验
+- 友好的空状态提示
+- 清晰的错误信息
+- 多入口创建资源
+- 响应式设计
+- 暗黑模式支持
+
+### 文档资源
+
+- **功能说明**: `知识库完整功能说明.md`
+- **使用指南**: `知识库使用指南.md`
+- **部署指南**: `知识库快速部署指南.md`
+- **模块文档**: `src/pages/admin/KnowledgeBase/README.md`
+
+### 快速开始
+
+```bash
+# 1. 执行数据库迁移（在 Supabase Dashboard）
+database_migrations/004_create_knowledge_base_tables.sql
+
+# 2. 访问知识库页面
+http://localhost:5173/admin/knowledge
+
+# 3. 创建第一个资源
+点击"上传资源" → 填写表单 → 提交
+```
+
+### 功能清单
+
+- [x] 资源创建和展示
+- [x] 搜索和多维筛选
+- [x] 收藏功能
+- [x] 评论和点赞
+- [x] 浏览和下载统计
+- [x] 相关资源推荐
+- [x] 响应式布局
+- [x] 暗黑模式
+- [ ] 文件上传（待实现）
+- [ ] 资源编辑（待实现）
+- [ ] 资源删除（待实现）
+
+---
+
+### 版本 1.4.0 (2025-10-16)
+
+- **UI优化**: 学生管理页面重大升级，新增卡片视图模式
+  - 实现了现代化的卡片式布局，提升视觉效果和用户体验
+  - 添加视图切换功能，支持卡片视图和传统表格视图切换
+  - 卡片设计采用渐变背景、阴影效果和悬浮动画
+  - 优化信息层次结构，突出重点信息
+  - 增强响应式设计，支持多种屏幕尺寸
+  - 改进状态指示器，使用彩色圆点显示学生活跃状态
+  - 优化服务展示，每个卡片显示前2个服务项目
+  - 添加导师团队头像展示，采用堆叠式设计
+  - 实现悬浮时显示操作按钮的交互效果
+  - 保留原有表格视图供需要详细数据的用户使用
+
+### 版本 1.3.0 (2024-07-18)
+
+- **功能增强**: 实现了交互式选校助手功能，支持在SchoolAssistantPage页面直接进行选校
+- **UI优化**: 添加了右侧收藏侧边栏，用户可以直接在学校助手页面添加学校到收藏夹并设置申请策略
+- **用户体验**: 新增了选校指南弹窗，帮助用户了解如何使用选校功能
+- **功能改进**: 学校和专业卡片支持一键收藏，自动显示收藏侧边栏
+
+### 版本 1.2.0 (2024-07-16)
+
+- **功能增强**: 添加了"选校记录"按钮，用户可以直接从学校助手页面查看历史选校方案
+- **UI改进**: 在选校管理页面优化了返回按钮设计，并改进了布局
+- **用户体验**: 直接通过URL参数支持打开历史记录视图，便于快速访问
+
+### 版本 1.1.0 (2024-07-15)
+
+- **功能增强**: 完善了"开始选校"按钮功能，现在可以直接从学校助手页面导航到选校管理页面
+- **UI改进**: 在选校管理页面添加了返回按钮，方便用户在两个页面之间切换
+- **bug修复**: 修复了学校筛选条件不正确应用的问题
+- **性能优化**: 改进了学校和专业数据的加载速度
+
+# 案例数据处理与数据库导入工具
+
+本项目包含两个脚本，用于处理成功案例CSV数据文件并将其导入到数据库中。
+
+## 文件说明
+
+1. `casedata/process_case_csv.py` - 处理原始CSV文件，提取背景字段
+2. `casedata/upload_to_database.py` - 将处理后的CSV数据导入到数据库
+3. `casedata/upload_to_supabase.py` - 专门用于上传数据到Supabase数据库
+
+## 处理CSV文件
+
+这个脚本会读取原始的CSV文件，从`基本背景`字段中提取信息：
+- 第一个元素作为`admission_year`
+- 第二个元素中提取GPA值作为`gpa`
+- 第三个及之后的所有元素作为`language_scores`
+
+### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+python casedata/process_case_csv.py
+```
+
+脚本会处理`casedata/case.csv`文件，并将结果保存为`casedata/case_processed.csv`。
+
+## 数据库导入
+
+### 上传到普通数据库
+
+这个脚本会将处理后的CSV数据导入到普通数据库，并处理学校和项目的映射关系。
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 使用SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db
+
+# 使用MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password your_password --database your_db
+
+# 使用PostgreSQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --port 5432 --user postgres --password your_password --database your_db
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db --dry-run
+```
+
+### 上传到Supabase数据库
+
+这个专用脚本支持将处理后的CSV数据上传到Supabase数据库。
+
+#### 安装依赖
+
+```bash
+pip install supabase
+```
+
+#### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 上传到Supabase
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key"
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key" --dry-run
+```
+
+#### 参数说明
+
+- `--csv`: CSV文件路径（必需）
+- `--url`: Supabase项目URL（必需）
+- `--key`: Supabase API密钥（必需）
+- `--dry-run`: 试运行模式，不会实际写入数据库
+
+## 数据映射
+
+脚本会自动处理以下映射关系：
+1. 根据`cn_name`字段匹配schools表中的学校
+2. 根据学校ID和`applied_program`字段匹配programs表中的项目
+3. 如果直接匹配失败，会尝试模糊匹配
+
+## 日志
+
+程序运行会生成详细的日志文件：
+- 普通数据库上传：`db_upload_YYYYMMDD_HHMMSS.log`
+- Supabase上传：`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+# 数据处理脚本
+
+## CSV文件处理脚本
+
+本项目包含多个用于处理CSV数据文件和上传数据到数据库的脚本。
+
+### casedata/process_case_csv.py
+
+此脚本用于处理原始案例数据CSV文件，提取和转换关键字段，如背景、GPA和语言成绩。
+
+使用方法：
+```bash
+python casedata/process_case_csv.py
+```
+
+脚本会读取`case.csv`文件，处理后生成`case_processed.csv`文件。
+
+### casedata/upload_to_database.py
+
+此脚本用于将处理后的CSV数据上传到各类关系型数据库（SQLite、MySQL、PostgreSQL）。
+
+使用方法：
+```bash
+python casedata/upload_to_database.py --csv [CSV文件路径] --db-type [数据库类型] [其他参数]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--db-type`：数据库类型，可选值为sqlite、mysql、postgresql，默认为sqlite
+- `--db-path`：SQLite数据库文件路径（使用SQLite时必填）
+- `--host`：数据库主机地址，默认为localhost
+- `--port`：数据库端口
+- `--user`：数据库用户名
+- `--password`：数据库密码
+- `--database`：数据库名称
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path ./database.sqlite
+
+# 上传到MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password mypassword --database mydb
+
+# 试运行模式
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --user postgres --database mydb --dry-run
+```
+
+### casedata/upload_to_supabase.py
+
+此脚本专门用于将处理后的CSV数据上传到Supabase数据库。它会自动处理学校和项目的映射，以便将数据正确地关联到Supabase中的相应表。
+
+使用方法：
+```bash
+python casedata/upload_to_supabase.py --csv [CSV文件路径] --url [Supabase项目URL] --key [Supabase API密钥] [--dry-run]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--url`：Supabase项目URL（必填）
+- `--key`：Supabase API密钥（必填）
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到Supabase数据库
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key
+
+# 试运行模式
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key --dry-run
+```
+
+脚本执行过程中会生成详细的日志，记录处理的数据和可能出现的问题。日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`。
+
+## 日志说明
+
+上述脚本在执行过程中会生成日志文件：
+- `upload_to_database.py`生成的日志文件格式为`db_upload_YYYYMMDD_HHMMSS.log`
+- `upload_to_supabase.py`生成的日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+日志文件包含详细的执行步骤、成功/失败记录以及可能的错误信息，方便排查问题。
+
+# Supabase集成指南
+
+## 🔐 认证系统
+
+本系统已实现完整的 Supabase Auth 认证功能!
+
+### 功能特性
+
+- ✅ 邮箱密码登录
+- ✅ 用户注册(学生)
+- ✅ 忘记密码 / 密码重置
+- ✅ 自动关联 Auth 用户到业务表(employees/students)
+- ✅ 全局认证状态管理
+- ✅ 路由守卫保护
+
+### 配置指南
+
+**详细配置步骤请查看: [SUPABASE_AUTH_SETUP.md](./SUPABASE_AUTH_SETUP.md)**
+
+包含:
+- Supabase Auth 配置
+- 数据库表结构更新
+- RLS 策略配置
+- 管理员用户创建
+- 邮件服务配置
+- 测试流程说明
+
+### 使用方法
+
+**管理员登录:**
+1. 访问 `/login`
+2. 选择"管理员"角色
+3. 使用 Supabase Auth 中创建的账号登录
+
+**学生注册:**
+1. 访问 `/register`
+2. 填写信息并提交
+3. 查收邮件完成验证
+4. 返回登录
+
+## Supabase配置
+
+系统使用Supabase作为后端数据库和认证服务。以下是当前配置信息：
+
+### 连接信息
+- **Supabase URL**: `https://swyajeiqqewyckzbfkid.supabase.co`
+- **Supabase 匿名密钥**: 配置在环境变量中，使用`VITE_SUPABASE_ANON_KEY`变量名
+
+### 环境变量配置
+项目根目录下的`.env`文件包含所有必要的环境配置：
+```
+VITE_SUPABASE_URL=https://swyajeiqqewyckzbfkid.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
+
+前端代码通过以下方式访问这些变量：
+```typescript
+import.meta.env.VITE_SUPABASE_URL
+import.meta.env.VITE_SUPABASE_ANON_KEY
+```
+
+## 客户线索与学生管理的关系
+
+在本系统中，客户线索(Leads)和学生(Students)是两个相关但独立的概念：
+
+### 客户线索 (Leads)
+- 代表潜在的客户或咨询者
+- 通过网站表单、社交媒体、教育展等渠道收集
+- 包含基础联系信息和初步意向
+- 状态包括：新线索、已联系、已确认、已签约、已关闭
+
+### 学生 (Students)
+- 代表已签约并接受服务的客户
+- 包含详细个人信息、教育背景和服务记录
+- 可以关联多个服务项目和导师
+- 状态包括：活跃、休学、毕业、退学
+
+### 线索转换为学生的流程
+
+当一个线索成功签约后，系统支持将其转换为学生记录：
+
+1. **线索跟进**：通过线索管理页面跟进潜在客户
+2. **状态更新**：当线索状态更新为"已签约"时，系统提示是否创建学生记录
+3. **信息转移**：线索的基本信息（姓名、联系方式等）会自动填充到学生创建表单
+4. **补充信息**：需要补充更多学生特有的信息，如教育背景、服务选择等
+5. **创建记录**：确认后创建正式学生记录并关联服务项目
+
+### 数据表关系
+- `leads`表存储所有潜在客户线索
+- `students`表存储正式签约学生信息
+- `student_services`表存储学生的服务记录
+- 线索转为学生后，两条记录之间保留关联关系，便于分析转化率
+
+## 使用指南
+
+### 客户线索管理
+1. 通过管理后台的"线索管理"页面查看所有潜在客户
+2. 使用筛选和搜索功能快速定位特定线索
+3. 更新线索状态、添加跟进记录
+4. 将"已签约"线索转换为学生
+
+### 学生管理
+1. 通过管理后台的"学生管理"页面管理所有正式学生
+2. 查看学生详情、服务记录和进度
+3. 添加新服务、更新服务进度
+4. 导出学生数据进行分析和报告
+
+## 最佳实践
+1. 定期审核线索状态，确保及时跟进
+2. 记录详细的沟通内容和客户需求
+3. 线索转为学生后,保持服务进度的及时更新
+4. 利用数据分析功能优化线索转化率和学生服务满意度
+
+## 常见问题解答
+
+### Q: 如何查看系统使用的Supabase配置？
+A: 系统使用的Supabase URL和匿名密钥配置在根目录的`.env`文件中，通过环境变量`VITE_SUPABASE_URL`和`VITE_SUPABASE_ANON_KEY`访问。
+
+### Q: 线索记录和学生记录之间是什么关系？
+A: 线索记录代表潜在客户，学生记录代表已签约客户。当线索成功转化为客户后，系统支持将线索信息转换为学生记录，并保留关联关系用于分析转化率。
+
+## 权限系统
+
+本系统实现了基于角色的权限控制（RBAC）机制，支持灵活的权限管理和分配。
+
+### 权限系统架构
+
+1. **数据库表结构**
+   - `employee_roles`: 角色表，定义了系统中的各种角色
+   - `permissions`: 权限表，定义了系统中的各种权限点
+   - `role_permissions`: 角色-权限关联表，定义角色拥有的权限
+   - `employee_role_assignments`: 员工-角色关联表，定义员工拥有的角色
+
+2. **权限代码**
+   系统中定义了多种权限代码，例如：
+   - `manage_users`: 管理用户账号
+   - `manage_students`: 管理学生信息
+   - `manage_services`: 管理服务
+   - `manage_finances`: 管理财务
+   - `manage_mentors`: 管理导师
+   - `manage_leads`: 管理销售线索
+   - `view_reports`: 查看报表
+   - `manage_schools`: 管理学校和项目信息
+   - `courses:create`: 创建课程
+   - `courses:update`: 更新课程
+   - `courses:delete`: 删除课程
+   - 等等...
+
+3. **角色分配**
+   - 系统管理员: 拥有系统所有权限
+   - 咨询顾问: 负责学生咨询服务
+   - 财务人员: 负责财务管理
+   - 销售人员: 负责销售线索跟进
+
+### 权限组件
+
+1. **权限服务 (permissionService)**
+   提供了以下功能：
+   - `hasPermission`: 检查当前用户是否拥有指定权限
+   - `employeeHasPermission`: 检查特定员工是否拥有指定权限
+   - `getEmployeePermissions`: 获取员工的所有权限
+   - `getRolePermissions`: 获取角色的所有权限
+
+2. **权限上下文 (PermissionContext)**
+   提供了以下功能：
+   - 在应用中全局管理和检查权限
+   - 缓存用户权限以提高性能
+   - 响应用户登录状态变化自动更新权限
+
+3. **权限保护组件**
+   - `PermissionGuard`: 根据权限条件渲染内容
+   - `PermissionButton`: 根据权限控制按钮的可用性
+   - `ProtectedRoute`: 保护路由，只允许有权限的用户访问
+
+### 权限管理界面
+
+系统提供了两个权限管理页面：
+
+1. **权限管理页面 (PermissionPage)**
+   - 创建、编辑和删除角色
+   - 创建、编辑和删除权限
+   - 为角色分配权限
+
+2. **员工权限分配页面 (EmployeePermissionPage)**
+   - 管理员工的角色分配
+   - 查看员工当前拥有的角色和权限
+
+### 使用示例
+
+1. **在组件中使用权限检查**
+   ```tsx
+   import { usePermission } from '../context/PermissionContext';
+
+   const MyComponent = () => {
+     const { checkPermission } = usePermission();
+     
+     const canCreateCourse = checkPermission('courses:create');
+     
+     return (
+       <div>
+         {canCreateCourse && (
+           <button>创建课程</button>
+         )}
+       </div>
+     );
+   };
+   ```
+
+2. **使用权限保护组件**
+   ```tsx
+   import { PermissionGuard } from '../components/Permission/PermissionGuard';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionGuard permission="manage_finances">
+           <FinancialReportComponent />
+         </PermissionGuard>
+       </div>
+     );
+   };
+   ```
+
+3. **使用权限按钮**
+   ```tsx
+   import { PermissionButton } from '../components/Permission/PermissionButton';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionButton 
+           permission="courses:delete"
+           onClick={handleDeleteCourse}
+           className="btn btn-danger"
+         >
+           删除课程
+         </PermissionButton>
+       </div>
+     );
+   };
+   ```
+
+4. **保护路由**
+   ```tsx
+   import { ProtectedRoute } from '../components/Permission/ProtectedRoute';
+   
+   const AppRoutes = () => {
+     return (
+       <Routes>
+         <Route path="/admin/finances" element={
+           <ProtectedRoute permission="manage_finances">
+             <FinancePage />
+           </ProtectedRoute>
+         } />
+       </Routes>
+     );
+   };
+   ```
+
+### 扩展权限系统
+
+如需添加新的权限，请按照以下步骤操作：
+
+1. 在 `permissions` 表中添加新的权限记录
+2. 将新权限分配给相应的角色
+3. 在代码中使用权限检查功能控制功能访问
+
+---
+
+## 知识库模块 📚
+
+### 功能概述
+
+知识库模块是一个完整的知识管理系统，支持创建、管理和分享留学相关的各类资源。
+
+### 核心功能
+
+#### 资源管理
+- ✅ **创建资源** - 支持4种类型：文档、视频、文章、模板
+- ✅ **查看资源** - 详细的资源展示页面
+- ✅ **下载资源** - 文件下载并统计下载次数
+- ✅ **浏览统计** - 自动统计浏览和下载次数
+
+#### 搜索和筛选
+- ✅ **全文搜索** - 搜索标题、描述、标签
+- ✅ **9维筛选** - 分类/类型/作者/标签/时间/排序等
+- ✅ **标签页** - 全部/精选/已收藏/最近更新
+- ✅ **实时统计** - 显示筛选结果数量
+
+#### 互动功能
+- ✅ **收藏资源** - 一键收藏/取消收藏
+- ✅ **评论系统** - 发表评论和查看讨论
+- ✅ **点赞功能** - 为评论点赞
+- ✅ **相关推荐** - 智能推荐相关资源
+
+#### 统计面板
+- ✅ **总资源数** - 显示所有已发布资源
+- ✅ **分类统计** - 文档/视频/文章/模板数量
+- ✅ **下载统计** - 累计下载次数
+- ✅ **实时更新** - 数据实时同步
+
+### 数据库设计
+
+#### 表结构
+```sql
+knowledge_resources         # 资源表
+├── id, title, type        # 基本信息
+├── category, description  # 分类和描述
+├── content, file_url      # 内容和文件
+├── tags (数组)            # 标签
+├── views, downloads       # 统计
+└── is_featured, status    # 状态
+
+knowledge_comments         # 评论表
+├── resource_id           # 关联资源
+├── user_id, user_name    # 评论用户
+├── content, likes        # 内容和点赞
+└── parent_comment_id     # 支持回复
+
+knowledge_bookmarks        # 收藏表
+└── resource_id, user_id  # 用户收藏记录
+
+knowledge_comment_likes    # 点赞表
+└── comment_id, user_id   # 用户点赞记录
+```
+
+### 使用流程
+
+#### 1. 数据库初始化
+执行迁移脚本：
+```sql
+database_migrations/004_create_knowledge_base_tables.sql
+```
+
+#### 2. 创建资源
+1. 访问 `/admin/knowledge`
+2. 点击"上传资源"按钮
+3. 填写表单：
+   - 标题、类型、分类（必填）
+   - 描述、内容/文件链接、标签（可选）
+4. 提交创建
+
+#### 3. 管理资源
+- **浏览** - 主页网格视图
+- **搜索** - 顶部搜索框
+- **筛选** - 点击"筛选"使用高级筛选
+- **收藏** - 点击书签图标
+- **评论** - 进入详情页发表评论
+
+### 技术特性
+
+#### 模块化设计
+```
+KnowledgeBase/
+├── components/      # UI组件
+├── types/          # TypeScript类型
+├── utils/          # 工具函数
+└── hooks/          # 自定义Hooks（备用）
+```
+
+#### 性能优化
+- 直接 Supabase 查询，无中间层
+- localStorage 缓存用户信息
+- 简洁的状态管理
+- 避免不必要的重新渲染
+
+#### 用户体验
+- 友好的空状态提示
+- 清晰的错误信息
+- 多入口创建资源
+- 响应式设计
+- 暗黑模式支持
+
+### 文档资源
+
+- **功能说明**: `知识库完整功能说明.md`
+- **使用指南**: `知识库使用指南.md`
+- **部署指南**: `知识库快速部署指南.md`
+- **模块文档**: `src/pages/admin/KnowledgeBase/README.md`
+
+### 快速开始
+
+```bash
+# 1. 执行数据库迁移（在 Supabase Dashboard）
+database_migrations/004_create_knowledge_base_tables.sql
+
+# 2. 访问知识库页面
+http://localhost:5173/admin/knowledge
+
+# 3. 创建第一个资源
+点击"上传资源" → 填写表单 → 提交
+```
+
+### 功能清单
+
+- [x] 资源创建和展示
+- [x] 搜索和多维筛选
+- [x] 收藏功能
+- [x] 评论和点赞
+- [x] 浏览和下载统计
+- [x] 相关资源推荐
+- [x] 响应式布局
+- [x] 暗黑模式
+- [ ] 文件上传（待实现）
+- [ ] 资源编辑（待实现）
+- [ ] 资源删除（待实现）
+
+---
+
+### 版本 1.4.0 (2025-10-16)
+
+- **UI优化**: 学生管理页面重大升级，新增卡片视图模式
+  - 实现了现代化的卡片式布局，提升视觉效果和用户体验
+  - 添加视图切换功能，支持卡片视图和传统表格视图切换
+  - 卡片设计采用渐变背景、阴影效果和悬浮动画
+  - 优化信息层次结构，突出重点信息
+  - 增强响应式设计，支持多种屏幕尺寸
+  - 改进状态指示器，使用彩色圆点显示学生活跃状态
+  - 优化服务展示，每个卡片显示前2个服务项目
+  - 添加导师团队头像展示，采用堆叠式设计
+  - 实现悬浮时显示操作按钮的交互效果
+  - 保留原有表格视图供需要详细数据的用户使用
+
+### 版本 1.3.0 (2024-07-18)
+
+- **功能增强**: 实现了交互式选校助手功能，支持在SchoolAssistantPage页面直接进行选校
+- **UI优化**: 添加了右侧收藏侧边栏，用户可以直接在学校助手页面添加学校到收藏夹并设置申请策略
+- **用户体验**: 新增了选校指南弹窗，帮助用户了解如何使用选校功能
+- **功能改进**: 学校和专业卡片支持一键收藏，自动显示收藏侧边栏
+
+### 版本 1.2.0 (2024-07-16)
+
+- **功能增强**: 添加了"选校记录"按钮，用户可以直接从学校助手页面查看历史选校方案
+- **UI改进**: 在选校管理页面优化了返回按钮设计，并改进了布局
+- **用户体验**: 直接通过URL参数支持打开历史记录视图，便于快速访问
+
+### 版本 1.1.0 (2024-07-15)
+
+- **功能增强**: 完善了"开始选校"按钮功能，现在可以直接从学校助手页面导航到选校管理页面
+- **UI改进**: 在选校管理页面添加了返回按钮，方便用户在两个页面之间切换
+- **bug修复**: 修复了学校筛选条件不正确应用的问题
+- **性能优化**: 改进了学校和专业数据的加载速度
+
+# 案例数据处理与数据库导入工具
+
+本项目包含两个脚本，用于处理成功案例CSV数据文件并将其导入到数据库中。
+
+## 文件说明
+
+1. `casedata/process_case_csv.py` - 处理原始CSV文件，提取背景字段
+2. `casedata/upload_to_database.py` - 将处理后的CSV数据导入到数据库
+3. `casedata/upload_to_supabase.py` - 专门用于上传数据到Supabase数据库
+
+## 处理CSV文件
+
+这个脚本会读取原始的CSV文件，从`基本背景`字段中提取信息：
+- 第一个元素作为`admission_year`
+- 第二个元素中提取GPA值作为`gpa`
+- 第三个及之后的所有元素作为`language_scores`
+
+### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+python casedata/process_case_csv.py
+```
+
+脚本会处理`casedata/case.csv`文件，并将结果保存为`casedata/case_processed.csv`。
+
+## 数据库导入
+
+### 上传到普通数据库
+
+这个脚本会将处理后的CSV数据导入到普通数据库，并处理学校和项目的映射关系。
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 使用SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db
+
+# 使用MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password your_password --database your_db
+
+# 使用PostgreSQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --port 5432 --user postgres --password your_password --database your_db
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db --dry-run
+```
+
+### 上传到Supabase数据库
+
+这个专用脚本支持将处理后的CSV数据上传到Supabase数据库。
+
+#### 安装依赖
+
+```bash
+pip install supabase
+```
+
+#### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 上传到Supabase
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key"
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key" --dry-run
+```
+
+#### 参数说明
+
+- `--csv`: CSV文件路径（必需）
+- `--url`: Supabase项目URL（必需）
+- `--key`: Supabase API密钥（必需）
+- `--dry-run`: 试运行模式，不会实际写入数据库
+
+## 数据映射
+
+脚本会自动处理以下映射关系：
+1. 根据`cn_name`字段匹配schools表中的学校
+2. 根据学校ID和`applied_program`字段匹配programs表中的项目
+3. 如果直接匹配失败，会尝试模糊匹配
+
+## 日志
+
+程序运行会生成详细的日志文件：
+- 普通数据库上传：`db_upload_YYYYMMDD_HHMMSS.log`
+- Supabase上传：`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+# 数据处理脚本
+
+## CSV文件处理脚本
+
+本项目包含多个用于处理CSV数据文件和上传数据到数据库的脚本。
+
+### casedata/process_case_csv.py
+
+此脚本用于处理原始案例数据CSV文件，提取和转换关键字段，如背景、GPA和语言成绩。
+
+使用方法：
+```bash
+python casedata/process_case_csv.py
+```
+
+脚本会读取`case.csv`文件，处理后生成`case_processed.csv`文件。
+
+### casedata/upload_to_database.py
+
+此脚本用于将处理后的CSV数据上传到各类关系型数据库（SQLite、MySQL、PostgreSQL）。
+
+使用方法：
+```bash
+python casedata/upload_to_database.py --csv [CSV文件路径] --db-type [数据库类型] [其他参数]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--db-type`：数据库类型，可选值为sqlite、mysql、postgresql，默认为sqlite
+- `--db-path`：SQLite数据库文件路径（使用SQLite时必填）
+- `--host`：数据库主机地址，默认为localhost
+- `--port`：数据库端口
+- `--user`：数据库用户名
+- `--password`：数据库密码
+- `--database`：数据库名称
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path ./database.sqlite
+
+# 上传到MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password mypassword --database mydb
+
+# 试运行模式
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --user postgres --database mydb --dry-run
+```
+
+### casedata/upload_to_supabase.py
+
+此脚本专门用于将处理后的CSV数据上传到Supabase数据库。它会自动处理学校和项目的映射，以便将数据正确地关联到Supabase中的相应表。
+
+使用方法：
+```bash
+python casedata/upload_to_supabase.py --csv [CSV文件路径] --url [Supabase项目URL] --key [Supabase API密钥] [--dry-run]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--url`：Supabase项目URL（必填）
+- `--key`：Supabase API密钥（必填）
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到Supabase数据库
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key
+
+# 试运行模式
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key --dry-run
+```
+
+脚本执行过程中会生成详细的日志，记录处理的数据和可能出现的问题。日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`。
+
+## 日志说明
+
+上述脚本在执行过程中会生成日志文件：
+- `upload_to_database.py`生成的日志文件格式为`db_upload_YYYYMMDD_HHMMSS.log`
+- `upload_to_supabase.py`生成的日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+日志文件包含详细的执行步骤、成功/失败记录以及可能的错误信息，方便排查问题。
+
+# Supabase集成指南
+
+## 🔐 认证系统
+
+本系统已实现完整的 Supabase Auth 认证功能!
+
+### 功能特性
+
+- ✅ 邮箱密码登录
+- ✅ 用户注册(学生)
+- ✅ 忘记密码 / 密码重置
+- ✅ 自动关联 Auth 用户到业务表(employees/students)
+- ✅ 全局认证状态管理
+- ✅ 路由守卫保护
+
+### 配置指南
+
+**详细配置步骤请查看: [SUPABASE_AUTH_SETUP.md](./SUPABASE_AUTH_SETUP.md)**
+
+包含:
+- Supabase Auth 配置
+- 数据库表结构更新
+- RLS 策略配置
+- 管理员用户创建
+- 邮件服务配置
+- 测试流程说明
+
+### 使用方法
+
+**管理员登录:**
+1. 访问 `/login`
+2. 选择"管理员"角色
+3. 使用 Supabase Auth 中创建的账号登录
+
+**学生注册:**
+1. 访问 `/register`
+2. 填写信息并提交
+3. 查收邮件完成验证
+4. 返回登录
+
+## Supabase配置
+
+系统使用Supabase作为后端数据库和认证服务。以下是当前配置信息：
+
+### 连接信息
+- **Supabase URL**: `https://swyajeiqqewyckzbfkid.supabase.co`
+- **Supabase 匿名密钥**: 配置在环境变量中，使用`VITE_SUPABASE_ANON_KEY`变量名
+
+### 环境变量配置
+项目根目录下的`.env`文件包含所有必要的环境配置：
+```
+VITE_SUPABASE_URL=https://swyajeiqqewyckzbfkid.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
+
+前端代码通过以下方式访问这些变量：
+```typescript
+import.meta.env.VITE_SUPABASE_URL
+import.meta.env.VITE_SUPABASE_ANON_KEY
+```
+
+## 客户线索与学生管理的关系
+
+在本系统中，客户线索(Leads)和学生(Students)是两个相关但独立的概念：
+
+### 客户线索 (Leads)
+- 代表潜在的客户或咨询者
+- 通过网站表单、社交媒体、教育展等渠道收集
+- 包含基础联系信息和初步意向
+- 状态包括：新线索、已联系、已确认、已签约、已关闭
+
+### 学生 (Students)
+- 代表已签约并接受服务的客户
+- 包含详细个人信息、教育背景和服务记录
+- 可以关联多个服务项目和导师
+- 状态包括：活跃、休学、毕业、退学
+
+### 线索转换为学生的流程
+
+当一个线索成功签约后，系统支持将其转换为学生记录：
+
+1. **线索跟进**：通过线索管理页面跟进潜在客户
+2. **状态更新**：当线索状态更新为"已签约"时，系统提示是否创建学生记录
+3. **信息转移**：线索的基本信息（姓名、联系方式等）会自动填充到学生创建表单
+4. **补充信息**：需要补充更多学生特有的信息，如教育背景、服务选择等
+5. **创建记录**：确认后创建正式学生记录并关联服务项目
+
+### 数据表关系
+- `leads`表存储所有潜在客户线索
+- `students`表存储正式签约学生信息
+- `student_services`表存储学生的服务记录
+- 线索转为学生后，两条记录之间保留关联关系，便于分析转化率
+
+## 使用指南
+
+### 客户线索管理
+1. 通过管理后台的"线索管理"页面查看所有潜在客户
+2. 使用筛选和搜索功能快速定位特定线索
+3. 更新线索状态、添加跟进记录
+4. 将"已签约"线索转换为学生
+
+### 学生管理
+1. 通过管理后台的"学生管理"页面管理所有正式学生
+2. 查看学生详情、服务记录和进度
+3. 添加新服务、更新服务进度
+4. 导出学生数据进行分析和报告
+
+## 最佳实践
+1. 定期审核线索状态，确保及时跟进
+2. 记录详细的沟通内容和客户需求
+3. 线索转为学生后,保持服务进度的及时更新
+4. 利用数据分析功能优化线索转化率和学生服务满意度
+
+## 常见问题解答
+
+### Q: 如何查看系统使用的Supabase配置？
+A: 系统使用的Supabase URL和匿名密钥配置在根目录的`.env`文件中，通过环境变量`VITE_SUPABASE_URL`和`VITE_SUPABASE_ANON_KEY`访问。
+
+### Q: 线索记录和学生记录之间是什么关系？
+A: 线索记录代表潜在客户，学生记录代表已签约客户。当线索成功转化为客户后，系统支持将线索信息转换为学生记录，并保留关联关系用于分析转化率。
+
+## 权限系统
+
+本系统实现了基于角色的权限控制（RBAC）机制，支持灵活的权限管理和分配。
+
+### 权限系统架构
+
+1. **数据库表结构**
+   - `employee_roles`: 角色表，定义了系统中的各种角色
+   - `permissions`: 权限表，定义了系统中的各种权限点
+   - `role_permissions`: 角色-权限关联表，定义角色拥有的权限
+   - `employee_role_assignments`: 员工-角色关联表，定义员工拥有的角色
+
+2. **权限代码**
+   系统中定义了多种权限代码，例如：
+   - `manage_users`: 管理用户账号
+   - `manage_students`: 管理学生信息
+   - `manage_services`: 管理服务
+   - `manage_finances`: 管理财务
+   - `manage_mentors`: 管理导师
+   - `manage_leads`: 管理销售线索
+   - `view_reports`: 查看报表
+   - `manage_schools`: 管理学校和项目信息
+   - `courses:create`: 创建课程
+   - `courses:update`: 更新课程
+   - `courses:delete`: 删除课程
+   - 等等...
+
+3. **角色分配**
+   - 系统管理员: 拥有系统所有权限
+   - 咨询顾问: 负责学生咨询服务
+   - 财务人员: 负责财务管理
+   - 销售人员: 负责销售线索跟进
+
+### 权限组件
+
+1. **权限服务 (permissionService)**
+   提供了以下功能：
+   - `hasPermission`: 检查当前用户是否拥有指定权限
+   - `employeeHasPermission`: 检查特定员工是否拥有指定权限
+   - `getEmployeePermissions`: 获取员工的所有权限
+   - `getRolePermissions`: 获取角色的所有权限
+
+2. **权限上下文 (PermissionContext)**
+   提供了以下功能：
+   - 在应用中全局管理和检查权限
+   - 缓存用户权限以提高性能
+   - 响应用户登录状态变化自动更新权限
+
+3. **权限保护组件**
+   - `PermissionGuard`: 根据权限条件渲染内容
+   - `PermissionButton`: 根据权限控制按钮的可用性
+   - `ProtectedRoute`: 保护路由，只允许有权限的用户访问
+
+### 权限管理界面
+
+系统提供了两个权限管理页面：
+
+1. **权限管理页面 (PermissionPage)**
+   - 创建、编辑和删除角色
+   - 创建、编辑和删除权限
+   - 为角色分配权限
+
+2. **员工权限分配页面 (EmployeePermissionPage)**
+   - 管理员工的角色分配
+   - 查看员工当前拥有的角色和权限
+
+### 使用示例
+
+1. **在组件中使用权限检查**
+   ```tsx
+   import { usePermission } from '../context/PermissionContext';
+
+   const MyComponent = () => {
+     const { checkPermission } = usePermission();
+     
+     const canCreateCourse = checkPermission('courses:create');
+     
+     return (
+       <div>
+         {canCreateCourse && (
+           <button>创建课程</button>
+         )}
+       </div>
+     );
+   };
+   ```
+
+2. **使用权限保护组件**
+   ```tsx
+   import { PermissionGuard } from '../components/Permission/PermissionGuard';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionGuard permission="manage_finances">
+           <FinancialReportComponent />
+         </PermissionGuard>
+       </div>
+     );
+   };
+   ```
+
+3. **使用权限按钮**
+   ```tsx
+   import { PermissionButton } from '../components/Permission/PermissionButton';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionButton 
+           permission="courses:delete"
+           onClick={handleDeleteCourse}
+           className="btn btn-danger"
+         >
+           删除课程
+         </PermissionButton>
+       </div>
+     );
+   };
+   ```
+
+4. **保护路由**
+   ```tsx
+   import { ProtectedRoute } from '../components/Permission/ProtectedRoute';
+   
+   const AppRoutes = () => {
+     return (
+       <Routes>
+         <Route path="/admin/finances" element={
+           <ProtectedRoute permission="manage_finances">
+             <FinancePage />
+           </ProtectedRoute>
+         } />
+       </Routes>
+     );
+   };
+   ```
+
+### 扩展权限系统
+
+如需添加新的权限，请按照以下步骤操作：
+
+1. 在 `permissions` 表中添加新的权限记录
+2. 将新权限分配给相应的角色
+3. 在代码中使用权限检查功能控制功能访问
+
+---
+
+## 知识库模块 📚
+
+### 功能概述
+
+知识库模块是一个完整的知识管理系统，支持创建、管理和分享留学相关的各类资源。
+
+### 核心功能
+
+#### 资源管理
+- ✅ **创建资源** - 支持4种类型：文档、视频、文章、模板
+- ✅ **查看资源** - 详细的资源展示页面
+- ✅ **下载资源** - 文件下载并统计下载次数
+- ✅ **浏览统计** - 自动统计浏览和下载次数
+
+#### 搜索和筛选
+- ✅ **全文搜索** - 搜索标题、描述、标签
+- ✅ **9维筛选** - 分类/类型/作者/标签/时间/排序等
+- ✅ **标签页** - 全部/精选/已收藏/最近更新
+- ✅ **实时统计** - 显示筛选结果数量
+
+#### 互动功能
+- ✅ **收藏资源** - 一键收藏/取消收藏
+- ✅ **评论系统** - 发表评论和查看讨论
+- ✅ **点赞功能** - 为评论点赞
+- ✅ **相关推荐** - 智能推荐相关资源
+
+#### 统计面板
+- ✅ **总资源数** - 显示所有已发布资源
+- ✅ **分类统计** - 文档/视频/文章/模板数量
+- ✅ **下载统计** - 累计下载次数
+- ✅ **实时更新** - 数据实时同步
+
+### 数据库设计
+
+#### 表结构
+```sql
+knowledge_resources         # 资源表
+├── id, title, type        # 基本信息
+├── category, description  # 分类和描述
+├── content, file_url      # 内容和文件
+├── tags (数组)            # 标签
+├── views, downloads       # 统计
+└── is_featured, status    # 状态
+
+knowledge_comments         # 评论表
+├── resource_id           # 关联资源
+├── user_id, user_name    # 评论用户
+├── content, likes        # 内容和点赞
+└── parent_comment_id     # 支持回复
+
+knowledge_bookmarks        # 收藏表
+└── resource_id, user_id  # 用户收藏记录
+
+knowledge_comment_likes    # 点赞表
+└── comment_id, user_id   # 用户点赞记录
+```
+
+### 使用流程
+
+#### 1. 数据库初始化
+执行迁移脚本：
+```sql
+database_migrations/004_create_knowledge_base_tables.sql
+```
+
+#### 2. 创建资源
+1. 访问 `/admin/knowledge`
+2. 点击"上传资源"按钮
+3. 填写表单：
+   - 标题、类型、分类（必填）
+   - 描述、内容/文件链接、标签（可选）
+4. 提交创建
+
+#### 3. 管理资源
+- **浏览** - 主页网格视图
+- **搜索** - 顶部搜索框
+- **筛选** - 点击"筛选"使用高级筛选
+- **收藏** - 点击书签图标
+- **评论** - 进入详情页发表评论
+
+### 技术特性
+
+#### 模块化设计
+```
+KnowledgeBase/
+├── components/      # UI组件
+├── types/          # TypeScript类型
+├── utils/          # 工具函数
+└── hooks/          # 自定义Hooks（备用）
+```
+
+#### 性能优化
+- 直接 Supabase 查询，无中间层
+- localStorage 缓存用户信息
+- 简洁的状态管理
+- 避免不必要的重新渲染
+
+#### 用户体验
+- 友好的空状态提示
+- 清晰的错误信息
+- 多入口创建资源
+- 响应式设计
+- 暗黑模式支持
+
+### 文档资源
+
+- **功能说明**: `知识库完整功能说明.md`
+- **使用指南**: `知识库使用指南.md`
+- **部署指南**: `知识库快速部署指南.md`
+- **模块文档**: `src/pages/admin/KnowledgeBase/README.md`
+
+### 快速开始
+
+```bash
+# 1. 执行数据库迁移（在 Supabase Dashboard）
+database_migrations/004_create_knowledge_base_tables.sql
+
+# 2. 访问知识库页面
+http://localhost:5173/admin/knowledge
+
+# 3. 创建第一个资源
+点击"上传资源" → 填写表单 → 提交
+```
+
+### 功能清单
+
+- [x] 资源创建和展示
+- [x] 搜索和多维筛选
+- [x] 收藏功能
+- [x] 评论和点赞
+- [x] 浏览和下载统计
+- [x] 相关资源推荐
+- [x] 响应式布局
+- [x] 暗黑模式
+- [ ] 文件上传（待实现）
+- [ ] 资源编辑（待实现）
+- [ ] 资源删除（待实现）
+
+---
+
+### 版本 1.4.0 (2025-10-16)
+
+- **UI优化**: 学生管理页面重大升级，新增卡片视图模式
+  - 实现了现代化的卡片式布局，提升视觉效果和用户体验
+  - 添加视图切换功能，支持卡片视图和传统表格视图切换
+  - 卡片设计采用渐变背景、阴影效果和悬浮动画
+  - 优化信息层次结构，突出重点信息
+  - 增强响应式设计，支持多种屏幕尺寸
+  - 改进状态指示器，使用彩色圆点显示学生活跃状态
+  - 优化服务展示，每个卡片显示前2个服务项目
+  - 添加导师团队头像展示，采用堆叠式设计
+  - 实现悬浮时显示操作按钮的交互效果
+  - 保留原有表格视图供需要详细数据的用户使用
+
+### 版本 1.3.0 (2024-07-18)
+
+- **功能增强**: 实现了交互式选校助手功能，支持在SchoolAssistantPage页面直接进行选校
+- **UI优化**: 添加了右侧收藏侧边栏，用户可以直接在学校助手页面添加学校到收藏夹并设置申请策略
+- **用户体验**: 新增了选校指南弹窗，帮助用户了解如何使用选校功能
+- **功能改进**: 学校和专业卡片支持一键收藏，自动显示收藏侧边栏
+
+### 版本 1.2.0 (2024-07-16)
+
+- **功能增强**: 添加了"选校记录"按钮，用户可以直接从学校助手页面查看历史选校方案
+- **UI改进**: 在选校管理页面优化了返回按钮设计，并改进了布局
+- **用户体验**: 直接通过URL参数支持打开历史记录视图，便于快速访问
+
+### 版本 1.1.0 (2024-07-15)
+
+- **功能增强**: 完善了"开始选校"按钮功能，现在可以直接从学校助手页面导航到选校管理页面
+- **UI改进**: 在选校管理页面添加了返回按钮，方便用户在两个页面之间切换
+- **bug修复**: 修复了学校筛选条件不正确应用的问题
+- **性能优化**: 改进了学校和专业数据的加载速度
+
+# 案例数据处理与数据库导入工具
+
+本项目包含两个脚本，用于处理成功案例CSV数据文件并将其导入到数据库中。
+
+## 文件说明
+
+1. `casedata/process_case_csv.py` - 处理原始CSV文件，提取背景字段
+2. `casedata/upload_to_database.py` - 将处理后的CSV数据导入到数据库
+3. `casedata/upload_to_supabase.py` - 专门用于上传数据到Supabase数据库
+
+## 处理CSV文件
+
+这个脚本会读取原始的CSV文件，从`基本背景`字段中提取信息：
+- 第一个元素作为`admission_year`
+- 第二个元素中提取GPA值作为`gpa`
+- 第三个及之后的所有元素作为`language_scores`
+
+### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+python casedata/process_case_csv.py
+```
+
+脚本会处理`casedata/case.csv`文件，并将结果保存为`casedata/case_processed.csv`。
+
+## 数据库导入
+
+### 上传到普通数据库
+
+这个脚本会将处理后的CSV数据导入到普通数据库，并处理学校和项目的映射关系。
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 使用SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db
+
+# 使用MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password your_password --database your_db
+
+# 使用PostgreSQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --port 5432 --user postgres --password your_password --database your_db
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db --dry-run
+```
+
+### 上传到Supabase数据库
+
+这个专用脚本支持将处理后的CSV数据上传到Supabase数据库。
+
+#### 安装依赖
+
+```bash
+pip install supabase
+```
+
+#### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 上传到Supabase
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key"
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key" --dry-run
+```
+
+#### 参数说明
+
+- `--csv`: CSV文件路径（必需）
+- `--url`: Supabase项目URL（必需）
+- `--key`: Supabase API密钥（必需）
+- `--dry-run`: 试运行模式，不会实际写入数据库
+
+## 数据映射
+
+脚本会自动处理以下映射关系：
+1. 根据`cn_name`字段匹配schools表中的学校
+2. 根据学校ID和`applied_program`字段匹配programs表中的项目
+3. 如果直接匹配失败，会尝试模糊匹配
+
+## 日志
+
+程序运行会生成详细的日志文件：
+- 普通数据库上传：`db_upload_YYYYMMDD_HHMMSS.log`
+- Supabase上传：`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+# 数据处理脚本
+
+## CSV文件处理脚本
+
+本项目包含多个用于处理CSV数据文件和上传数据到数据库的脚本。
+
+### casedata/process_case_csv.py
+
+此脚本用于处理原始案例数据CSV文件，提取和转换关键字段，如背景、GPA和语言成绩。
+
+使用方法：
+```bash
+python casedata/process_case_csv.py
+```
+
+脚本会读取`case.csv`文件，处理后生成`case_processed.csv`文件。
+
+### casedata/upload_to_database.py
+
+此脚本用于将处理后的CSV数据上传到各类关系型数据库（SQLite、MySQL、PostgreSQL）。
+
+使用方法：
+```bash
+python casedata/upload_to_database.py --csv [CSV文件路径] --db-type [数据库类型] [其他参数]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--db-type`：数据库类型，可选值为sqlite、mysql、postgresql，默认为sqlite
+- `--db-path`：SQLite数据库文件路径（使用SQLite时必填）
+- `--host`：数据库主机地址，默认为localhost
+- `--port`：数据库端口
+- `--user`：数据库用户名
+- `--password`：数据库密码
+- `--database`：数据库名称
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path ./database.sqlite
+
+# 上传到MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password mypassword --database mydb
+
+# 试运行模式
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --user postgres --database mydb --dry-run
+```
+
+### casedata/upload_to_supabase.py
+
+此脚本专门用于将处理后的CSV数据上传到Supabase数据库。它会自动处理学校和项目的映射，以便将数据正确地关联到Supabase中的相应表。
+
+使用方法：
+```bash
+python casedata/upload_to_supabase.py --csv [CSV文件路径] --url [Supabase项目URL] --key [Supabase API密钥] [--dry-run]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--url`：Supabase项目URL（必填）
+- `--key`：Supabase API密钥（必填）
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到Supabase数据库
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key
+
+# 试运行模式
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key --dry-run
+```
+
+脚本执行过程中会生成详细的日志，记录处理的数据和可能出现的问题。日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`。
+
+## 日志说明
+
+上述脚本在执行过程中会生成日志文件：
+- `upload_to_database.py`生成的日志文件格式为`db_upload_YYYYMMDD_HHMMSS.log`
+- `upload_to_supabase.py`生成的日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+日志文件包含详细的执行步骤、成功/失败记录以及可能的错误信息，方便排查问题。
+
+# Supabase集成指南
+
+## 🔐 认证系统
+
+本系统已实现完整的 Supabase Auth 认证功能!
+
+### 功能特性
+
+- ✅ 邮箱密码登录
+- ✅ 用户注册(学生)
+- ✅ 忘记密码 / 密码重置
+- ✅ 自动关联 Auth 用户到业务表(employees/students)
+- ✅ 全局认证状态管理
+- ✅ 路由守卫保护
+
+### 配置指南
+
+**详细配置步骤请查看: [SUPABASE_AUTH_SETUP.md](./SUPABASE_AUTH_SETUP.md)**
+
+包含:
+- Supabase Auth 配置
+- 数据库表结构更新
+- RLS 策略配置
+- 管理员用户创建
+- 邮件服务配置
+- 测试流程说明
+
+### 使用方法
+
+**管理员登录:**
+1. 访问 `/login`
+2. 选择"管理员"角色
+3. 使用 Supabase Auth 中创建的账号登录
+
+**学生注册:**
+1. 访问 `/register`
+2. 填写信息并提交
+3. 查收邮件完成验证
+4. 返回登录
+
+## Supabase配置
+
+系统使用Supabase作为后端数据库和认证服务。以下是当前配置信息：
+
+### 连接信息
+- **Supabase URL**: `https://swyajeiqqewyckzbfkid.supabase.co`
+- **Supabase 匿名密钥**: 配置在环境变量中，使用`VITE_SUPABASE_ANON_KEY`变量名
+
+### 环境变量配置
+项目根目录下的`.env`文件包含所有必要的环境配置：
+```
+VITE_SUPABASE_URL=https://swyajeiqqewyckzbfkid.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
+
+前端代码通过以下方式访问这些变量：
+```typescript
+import.meta.env.VITE_SUPABASE_URL
+import.meta.env.VITE_SUPABASE_ANON_KEY
+```
+
+## 客户线索与学生管理的关系
+
+在本系统中，客户线索(Leads)和学生(Students)是两个相关但独立的概念：
+
+### 客户线索 (Leads)
+- 代表潜在的客户或咨询者
+- 通过网站表单、社交媒体、教育展等渠道收集
+- 包含基础联系信息和初步意向
+- 状态包括：新线索、已联系、已确认、已签约、已关闭
+
+### 学生 (Students)
+- 代表已签约并接受服务的客户
+- 包含详细个人信息、教育背景和服务记录
+- 可以关联多个服务项目和导师
+- 状态包括：活跃、休学、毕业、退学
+
+### 线索转换为学生的流程
+
+当一个线索成功签约后，系统支持将其转换为学生记录：
+
+1. **线索跟进**：通过线索管理页面跟进潜在客户
+2. **状态更新**：当线索状态更新为"已签约"时，系统提示是否创建学生记录
+3. **信息转移**：线索的基本信息（姓名、联系方式等）会自动填充到学生创建表单
+4. **补充信息**：需要补充更多学生特有的信息，如教育背景、服务选择等
+5. **创建记录**：确认后创建正式学生记录并关联服务项目
+
+### 数据表关系
+- `leads`表存储所有潜在客户线索
+- `students`表存储正式签约学生信息
+- `student_services`表存储学生的服务记录
+- 线索转为学生后，两条记录之间保留关联关系，便于分析转化率
+
+## 使用指南
+
+### 客户线索管理
+1. 通过管理后台的"线索管理"页面查看所有潜在客户
+2. 使用筛选和搜索功能快速定位特定线索
+3. 更新线索状态、添加跟进记录
+4. 将"已签约"线索转换为学生
+
+### 学生管理
+1. 通过管理后台的"学生管理"页面管理所有正式学生
+2. 查看学生详情、服务记录和进度
+3. 添加新服务、更新服务进度
+4. 导出学生数据进行分析和报告
+
+## 最佳实践
+1. 定期审核线索状态，确保及时跟进
+2. 记录详细的沟通内容和客户需求
+3. 线索转为学生后,保持服务进度的及时更新
+4. 利用数据分析功能优化线索转化率和学生服务满意度
+
+## 常见问题解答
+
+### Q: 如何查看系统使用的Supabase配置？
+A: 系统使用的Supabase URL和匿名密钥配置在根目录的`.env`文件中，通过环境变量`VITE_SUPABASE_URL`和`VITE_SUPABASE_ANON_KEY`访问。
+
+### Q: 线索记录和学生记录之间是什么关系？
+A: 线索记录代表潜在客户，学生记录代表已签约客户。当线索成功转化为客户后，系统支持将线索信息转换为学生记录，并保留关联关系用于分析转化率。
+
+## 权限系统
+
+本系统实现了基于角色的权限控制（RBAC）机制，支持灵活的权限管理和分配。
+
+### 权限系统架构
+
+1. **数据库表结构**
+   - `employee_roles`: 角色表，定义了系统中的各种角色
+   - `permissions`: 权限表，定义了系统中的各种权限点
+   - `role_permissions`: 角色-权限关联表，定义角色拥有的权限
+   - `employee_role_assignments`: 员工-角色关联表，定义员工拥有的角色
+
+2. **权限代码**
+   系统中定义了多种权限代码，例如：
+   - `manage_users`: 管理用户账号
+   - `manage_students`: 管理学生信息
+   - `manage_services`: 管理服务
+   - `manage_finances`: 管理财务
+   - `manage_mentors`: 管理导师
+   - `manage_leads`: 管理销售线索
+   - `view_reports`: 查看报表
+   - `manage_schools`: 管理学校和项目信息
+   - `courses:create`: 创建课程
+   - `courses:update`: 更新课程
+   - `courses:delete`: 删除课程
+   - 等等...
+
+3. **角色分配**
+   - 系统管理员: 拥有系统所有权限
+   - 咨询顾问: 负责学生咨询服务
+   - 财务人员: 负责财务管理
+   - 销售人员: 负责销售线索跟进
+
+### 权限组件
+
+1. **权限服务 (permissionService)**
+   提供了以下功能：
+   - `hasPermission`: 检查当前用户是否拥有指定权限
+   - `employeeHasPermission`: 检查特定员工是否拥有指定权限
+   - `getEmployeePermissions`: 获取员工的所有权限
+   - `getRolePermissions`: 获取角色的所有权限
+
+2. **权限上下文 (PermissionContext)**
+   提供了以下功能：
+   - 在应用中全局管理和检查权限
+   - 缓存用户权限以提高性能
+   - 响应用户登录状态变化自动更新权限
+
+3. **权限保护组件**
+   - `PermissionGuard`: 根据权限条件渲染内容
+   - `PermissionButton`: 根据权限控制按钮的可用性
+   - `ProtectedRoute`: 保护路由，只允许有权限的用户访问
+
+### 权限管理界面
+
+系统提供了两个权限管理页面：
+
+1. **权限管理页面 (PermissionPage)**
+   - 创建、编辑和删除角色
+   - 创建、编辑和删除权限
+   - 为角色分配权限
+
+2. **员工权限分配页面 (EmployeePermissionPage)**
+   - 管理员工的角色分配
+   - 查看员工当前拥有的角色和权限
+
+### 使用示例
+
+1. **在组件中使用权限检查**
+   ```tsx
+   import { usePermission } from '../context/PermissionContext';
+
+   const MyComponent = () => {
+     const { checkPermission } = usePermission();
+     
+     const canCreateCourse = checkPermission('courses:create');
+     
+     return (
+       <div>
+         {canCreateCourse && (
+           <button>创建课程</button>
+         )}
+       </div>
+     );
+   };
+   ```
+
+2. **使用权限保护组件**
+   ```tsx
+   import { PermissionGuard } from '../components/Permission/PermissionGuard';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionGuard permission="manage_finances">
+           <FinancialReportComponent />
+         </PermissionGuard>
+       </div>
+     );
+   };
+   ```
+
+3. **使用权限按钮**
+   ```tsx
+   import { PermissionButton } from '../components/Permission/PermissionButton';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionButton 
+           permission="courses:delete"
+           onClick={handleDeleteCourse}
+           className="btn btn-danger"
+         >
+           删除课程
+         </PermissionButton>
+       </div>
+     );
+   };
+   ```
+
+4. **保护路由**
+   ```tsx
+   import { ProtectedRoute } from '../components/Permission/ProtectedRoute';
+   
+   const AppRoutes = () => {
+     return (
+       <Routes>
+         <Route path="/admin/finances" element={
+           <ProtectedRoute permission="manage_finances">
+             <FinancePage />
+           </ProtectedRoute>
+         } />
+       </Routes>
+     );
+   };
+   ```
+
+### 扩展权限系统
+
+如需添加新的权限，请按照以下步骤操作：
+
+1. 在 `permissions` 表中添加新的权限记录
+2. 将新权限分配给相应的角色
+3. 在代码中使用权限检查功能控制功能访问
+
+---
+
+## 知识库模块 📚
+
+### 功能概述
+
+知识库模块是一个完整的知识管理系统，支持创建、管理和分享留学相关的各类资源。
+
+### 核心功能
+
+#### 资源管理
+- ✅ **创建资源** - 支持4种类型：文档、视频、文章、模板
+- ✅ **查看资源** - 详细的资源展示页面
+- ✅ **下载资源** - 文件下载并统计下载次数
+- ✅ **浏览统计** - 自动统计浏览和下载次数
+
+#### 搜索和筛选
+- ✅ **全文搜索** - 搜索标题、描述、标签
+- ✅ **9维筛选** - 分类/类型/作者/标签/时间/排序等
+- ✅ **标签页** - 全部/精选/已收藏/最近更新
+- ✅ **实时统计** - 显示筛选结果数量
+
+#### 互动功能
+- ✅ **收藏资源** - 一键收藏/取消收藏
+- ✅ **评论系统** - 发表评论和查看讨论
+- ✅ **点赞功能** - 为评论点赞
+- ✅ **相关推荐** - 智能推荐相关资源
+
+#### 统计面板
+- ✅ **总资源数** - 显示所有已发布资源
+- ✅ **分类统计** - 文档/视频/文章/模板数量
+- ✅ **下载统计** - 累计下载次数
+- ✅ **实时更新** - 数据实时同步
+
+### 数据库设计
+
+#### 表结构
+```sql
+knowledge_resources         # 资源表
+├── id, title, type        # 基本信息
+├── category, description  # 分类和描述
+├── content, file_url      # 内容和文件
+├── tags (数组)            # 标签
+├── views, downloads       # 统计
+└── is_featured, status    # 状态
+
+knowledge_comments         # 评论表
+├── resource_id           # 关联资源
+├── user_id, user_name    # 评论用户
+├── content, likes        # 内容和点赞
+└── parent_comment_id     # 支持回复
+
+knowledge_bookmarks        # 收藏表
+└── resource_id, user_id  # 用户收藏记录
+
+knowledge_comment_likes    # 点赞表
+└── comment_id, user_id   # 用户点赞记录
+```
+
+### 使用流程
+
+#### 1. 数据库初始化
+执行迁移脚本：
+```sql
+database_migrations/004_create_knowledge_base_tables.sql
+```
+
+#### 2. 创建资源
+1. 访问 `/admin/knowledge`
+2. 点击"上传资源"按钮
+3. 填写表单：
+   - 标题、类型、分类（必填）
+   - 描述、内容/文件链接、标签（可选）
+4. 提交创建
+
+#### 3. 管理资源
+- **浏览** - 主页网格视图
+- **搜索** - 顶部搜索框
+- **筛选** - 点击"筛选"使用高级筛选
+- **收藏** - 点击书签图标
+- **评论** - 进入详情页发表评论
+
+### 技术特性
+
+#### 模块化设计
+```
+KnowledgeBase/
+├── components/      # UI组件
+├── types/          # TypeScript类型
+├── utils/          # 工具函数
+└── hooks/          # 自定义Hooks（备用）
+```
+
+#### 性能优化
+- 直接 Supabase 查询，无中间层
+- localStorage 缓存用户信息
+- 简洁的状态管理
+- 避免不必要的重新渲染
+
+#### 用户体验
+- 友好的空状态提示
+- 清晰的错误信息
+- 多入口创建资源
+- 响应式设计
+- 暗黑模式支持
+
+### 文档资源
+
+- **功能说明**: `知识库完整功能说明.md`
+- **使用指南**: `知识库使用指南.md`
+- **部署指南**: `知识库快速部署指南.md`
+- **模块文档**: `src/pages/admin/KnowledgeBase/README.md`
+
+### 快速开始
+
+```bash
+# 1. 执行数据库迁移（在 Supabase Dashboard）
+database_migrations/004_create_knowledge_base_tables.sql
+
+# 2. 访问知识库页面
+http://localhost:5173/admin/knowledge
+
+# 3. 创建第一个资源
+点击"上传资源" → 填写表单 → 提交
+```
+
+### 功能清单
+
+- [x] 资源创建和展示
+- [x] 搜索和多维筛选
+- [x] 收藏功能
+- [x] 评论和点赞
+- [x] 浏览和下载统计
+- [x] 相关资源推荐
+- [x] 响应式布局
+- [x] 暗黑模式
+- [ ] 文件上传（待实现）
+- [ ] 资源编辑（待实现）
+- [ ] 资源删除（待实现）
+
+---
+
+### 版本 1.4.0 (2025-10-16)
+
+- **UI优化**: 学生管理页面重大升级，新增卡片视图模式
+  - 实现了现代化的卡片式布局，提升视觉效果和用户体验
+  - 添加视图切换功能，支持卡片视图和传统表格视图切换
+  - 卡片设计采用渐变背景、阴影效果和悬浮动画
+  - 优化信息层次结构，突出重点信息
+  - 增强响应式设计，支持多种屏幕尺寸
+  - 改进状态指示器，使用彩色圆点显示学生活跃状态
+  - 优化服务展示，每个卡片显示前2个服务项目
+  - 添加导师团队头像展示，采用堆叠式设计
+  - 实现悬浮时显示操作按钮的交互效果
+  - 保留原有表格视图供需要详细数据的用户使用
+
+### 版本 1.3.0 (2024-07-18)
+
+- **功能增强**: 实现了交互式选校助手功能，支持在SchoolAssistantPage页面直接进行选校
+- **UI优化**: 添加了右侧收藏侧边栏，用户可以直接在学校助手页面添加学校到收藏夹并设置申请策略
+- **用户体验**: 新增了选校指南弹窗，帮助用户了解如何使用选校功能
+- **功能改进**: 学校和专业卡片支持一键收藏，自动显示收藏侧边栏
+
+### 版本 1.2.0 (2024-07-16)
+
+- **功能增强**: 添加了"选校记录"按钮，用户可以直接从学校助手页面查看历史选校方案
+- **UI改进**: 在选校管理页面优化了返回按钮设计，并改进了布局
+- **用户体验**: 直接通过URL参数支持打开历史记录视图，便于快速访问
+
+### 版本 1.1.0 (2024-07-15)
+
+- **功能增强**: 完善了"开始选校"按钮功能，现在可以直接从学校助手页面导航到选校管理页面
+- **UI改进**: 在选校管理页面添加了返回按钮，方便用户在两个页面之间切换
+- **bug修复**: 修复了学校筛选条件不正确应用的问题
+- **性能优化**: 改进了学校和专业数据的加载速度
+
+# 案例数据处理与数据库导入工具
+
+本项目包含两个脚本，用于处理成功案例CSV数据文件并将其导入到数据库中。
+
+## 文件说明
+
+1. `casedata/process_case_csv.py` - 处理原始CSV文件，提取背景字段
+2. `casedata/upload_to_database.py` - 将处理后的CSV数据导入到数据库
+3. `casedata/upload_to_supabase.py` - 专门用于上传数据到Supabase数据库
+
+## 处理CSV文件
+
+这个脚本会读取原始的CSV文件，从`基本背景`字段中提取信息：
+- 第一个元素作为`admission_year`
+- 第二个元素中提取GPA值作为`gpa`
+- 第三个及之后的所有元素作为`language_scores`
+
+### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+python casedata/process_case_csv.py
+```
+
+脚本会处理`casedata/case.csv`文件，并将结果保存为`casedata/case_processed.csv`。
+
+## 数据库导入
+
+### 上传到普通数据库
+
+这个脚本会将处理后的CSV数据导入到普通数据库，并处理学校和项目的映射关系。
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 使用SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db
+
+# 使用MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password your_password --database your_db
+
+# 使用PostgreSQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --port 5432 --user postgres --password your_password --database your_db
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db --dry-run
+```
+
+### 上传到Supabase数据库
+
+这个专用脚本支持将处理后的CSV数据上传到Supabase数据库。
+
+#### 安装依赖
+
+```bash
+pip install supabase
+```
+
+#### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 上传到Supabase
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key"
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key" --dry-run
+```
+
+#### 参数说明
+
+- `--csv`: CSV文件路径（必需）
+- `--url`: Supabase项目URL（必需）
+- `--key`: Supabase API密钥（必需）
+- `--dry-run`: 试运行模式，不会实际写入数据库
+
+## 数据映射
+
+脚本会自动处理以下映射关系：
+1. 根据`cn_name`字段匹配schools表中的学校
+2. 根据学校ID和`applied_program`字段匹配programs表中的项目
+3. 如果直接匹配失败，会尝试模糊匹配
+
+## 日志
+
+程序运行会生成详细的日志文件：
+- 普通数据库上传：`db_upload_YYYYMMDD_HHMMSS.log`
+- Supabase上传：`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+# 数据处理脚本
+
+## CSV文件处理脚本
+
+本项目包含多个用于处理CSV数据文件和上传数据到数据库的脚本。
+
+### casedata/process_case_csv.py
+
+此脚本用于处理原始案例数据CSV文件，提取和转换关键字段，如背景、GPA和语言成绩。
+
+使用方法：
+```bash
+python casedata/process_case_csv.py
+```
+
+脚本会读取`case.csv`文件，处理后生成`case_processed.csv`文件。
+
+### casedata/upload_to_database.py
+
+此脚本用于将处理后的CSV数据上传到各类关系型数据库（SQLite、MySQL、PostgreSQL）。
+
+使用方法：
+```bash
+python casedata/upload_to_database.py --csv [CSV文件路径] --db-type [数据库类型] [其他参数]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--db-type`：数据库类型，可选值为sqlite、mysql、postgresql，默认为sqlite
+- `--db-path`：SQLite数据库文件路径（使用SQLite时必填）
+- `--host`：数据库主机地址，默认为localhost
+- `--port`：数据库端口
+- `--user`：数据库用户名
+- `--password`：数据库密码
+- `--database`：数据库名称
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path ./database.sqlite
+
+# 上传到MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password mypassword --database mydb
+
+# 试运行模式
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --user postgres --database mydb --dry-run
+```
+
+### casedata/upload_to_supabase.py
+
+此脚本专门用于将处理后的CSV数据上传到Supabase数据库。它会自动处理学校和项目的映射，以便将数据正确地关联到Supabase中的相应表。
+
+使用方法：
+```bash
+python casedata/upload_to_supabase.py --csv [CSV文件路径] --url [Supabase项目URL] --key [Supabase API密钥] [--dry-run]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--url`：Supabase项目URL（必填）
+- `--key`：Supabase API密钥（必填）
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到Supabase数据库
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key
+
+# 试运行模式
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key --dry-run
+```
+
+脚本执行过程中会生成详细的日志，记录处理的数据和可能出现的问题。日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`。
+
+## 日志说明
+
+上述脚本在执行过程中会生成日志文件：
+- `upload_to_database.py`生成的日志文件格式为`db_upload_YYYYMMDD_HHMMSS.log`
+- `upload_to_supabase.py`生成的日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+日志文件包含详细的执行步骤、成功/失败记录以及可能的错误信息，方便排查问题。
+
+# Supabase集成指南
+
+## 🔐 认证系统
+
+本系统已实现完整的 Supabase Auth 认证功能!
+
+### 功能特性
+
+- ✅ 邮箱密码登录
+- ✅ 用户注册(学生)
+- ✅ 忘记密码 / 密码重置
+- ✅ 自动关联 Auth 用户到业务表(employees/students)
+- ✅ 全局认证状态管理
+- ✅ 路由守卫保护
+
+### 配置指南
+
+**详细配置步骤请查看: [SUPABASE_AUTH_SETUP.md](./SUPABASE_AUTH_SETUP.md)**
+
+包含:
+- Supabase Auth 配置
+- 数据库表结构更新
+- RLS 策略配置
+- 管理员用户创建
+- 邮件服务配置
+- 测试流程说明
+
+### 使用方法
+
+**管理员登录:**
+1. 访问 `/login`
+2. 选择"管理员"角色
+3. 使用 Supabase Auth 中创建的账号登录
+
+**学生注册:**
+1. 访问 `/register`
+2. 填写信息并提交
+3. 查收邮件完成验证
+4. 返回登录
+
+## Supabase配置
+
+系统使用Supabase作为后端数据库和认证服务。以下是当前配置信息：
+
+### 连接信息
+- **Supabase URL**: `https://swyajeiqqewyckzbfkid.supabase.co`
+- **Supabase 匿名密钥**: 配置在环境变量中，使用`VITE_SUPABASE_ANON_KEY`变量名
+
+### 环境变量配置
+项目根目录下的`.env`文件包含所有必要的环境配置：
+```
+VITE_SUPABASE_URL=https://swyajeiqqewyckzbfkid.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
+
+前端代码通过以下方式访问这些变量：
+```typescript
+import.meta.env.VITE_SUPABASE_URL
+import.meta.env.VITE_SUPABASE_ANON_KEY
+```
+
+## 客户线索与学生管理的关系
+
+在本系统中，客户线索(Leads)和学生(Students)是两个相关但独立的概念：
+
+### 客户线索 (Leads)
+- 代表潜在的客户或咨询者
+- 通过网站表单、社交媒体、教育展等渠道收集
+- 包含基础联系信息和初步意向
+- 状态包括：新线索、已联系、已确认、已签约、已关闭
+
+### 学生 (Students)
+- 代表已签约并接受服务的客户
+- 包含详细个人信息、教育背景和服务记录
+- 可以关联多个服务项目和导师
+- 状态包括：活跃、休学、毕业、退学
+
+### 线索转换为学生的流程
+
+当一个线索成功签约后，系统支持将其转换为学生记录：
+
+1. **线索跟进**：通过线索管理页面跟进潜在客户
+2. **状态更新**：当线索状态更新为"已签约"时，系统提示是否创建学生记录
+3. **信息转移**：线索的基本信息（姓名、联系方式等）会自动填充到学生创建表单
+4. **补充信息**：需要补充更多学生特有的信息，如教育背景、服务选择等
+5. **创建记录**：确认后创建正式学生记录并关联服务项目
+
+### 数据表关系
+- `leads`表存储所有潜在客户线索
+- `students`表存储正式签约学生信息
+- `student_services`表存储学生的服务记录
+- 线索转为学生后，两条记录之间保留关联关系，便于分析转化率
+
+## 使用指南
+
+### 客户线索管理
+1. 通过管理后台的"线索管理"页面查看所有潜在客户
+2. 使用筛选和搜索功能快速定位特定线索
+3. 更新线索状态、添加跟进记录
+4. 将"已签约"线索转换为学生
+
+### 学生管理
+1. 通过管理后台的"学生管理"页面管理所有正式学生
+2. 查看学生详情、服务记录和进度
+3. 添加新服务、更新服务进度
+4. 导出学生数据进行分析和报告
+
+## 最佳实践
+1. 定期审核线索状态，确保及时跟进
+2. 记录详细的沟通内容和客户需求
+3. 线索转为学生后,保持服务进度的及时更新
+4. 利用数据分析功能优化线索转化率和学生服务满意度
+
+## 常见问题解答
+
+### Q: 如何查看系统使用的Supabase配置？
+A: 系统使用的Supabase URL和匿名密钥配置在根目录的`.env`文件中，通过环境变量`VITE_SUPABASE_URL`和`VITE_SUPABASE_ANON_KEY`访问。
+
+### Q: 线索记录和学生记录之间是什么关系？
+A: 线索记录代表潜在客户，学生记录代表已签约客户。当线索成功转化为客户后，系统支持将线索信息转换为学生记录，并保留关联关系用于分析转化率。
+
+## 权限系统
+
+本系统实现了基于角色的权限控制（RBAC）机制，支持灵活的权限管理和分配。
+
+### 权限系统架构
+
+1. **数据库表结构**
+   - `employee_roles`: 角色表，定义了系统中的各种角色
+   - `permissions`: 权限表，定义了系统中的各种权限点
+   - `role_permissions`: 角色-权限关联表，定义角色拥有的权限
+   - `employee_role_assignments`: 员工-角色关联表，定义员工拥有的角色
+
+2. **权限代码**
+   系统中定义了多种权限代码，例如：
+   - `manage_users`: 管理用户账号
+   - `manage_students`: 管理学生信息
+   - `manage_services`: 管理服务
+   - `manage_finances`: 管理财务
+   - `manage_mentors`: 管理导师
+   - `manage_leads`: 管理销售线索
+   - `view_reports`: 查看报表
+   - `manage_schools`: 管理学校和项目信息
+   - `courses:create`: 创建课程
+   - `courses:update`: 更新课程
+   - `courses:delete`: 删除课程
+   - 等等...
+
+3. **角色分配**
+   - 系统管理员: 拥有系统所有权限
+   - 咨询顾问: 负责学生咨询服务
+   - 财务人员: 负责财务管理
+   - 销售人员: 负责销售线索跟进
+
+### 权限组件
+
+1. **权限服务 (permissionService)**
+   提供了以下功能：
+   - `hasPermission`: 检查当前用户是否拥有指定权限
+   - `employeeHasPermission`: 检查特定员工是否拥有指定权限
+   - `getEmployeePermissions`: 获取员工的所有权限
+   - `getRolePermissions`: 获取角色的所有权限
+
+2. **权限上下文 (PermissionContext)**
+   提供了以下功能：
+   - 在应用中全局管理和检查权限
+   - 缓存用户权限以提高性能
+   - 响应用户登录状态变化自动更新权限
+
+3. **权限保护组件**
+   - `PermissionGuard`: 根据权限条件渲染内容
+   - `PermissionButton`: 根据权限控制按钮的可用性
+   - `ProtectedRoute`: 保护路由，只允许有权限的用户访问
+
+### 权限管理界面
+
+系统提供了两个权限管理页面：
+
+1. **权限管理页面 (PermissionPage)**
+   - 创建、编辑和删除角色
+   - 创建、编辑和删除权限
+   - 为角色分配权限
+
+2. **员工权限分配页面 (EmployeePermissionPage)**
+   - 管理员工的角色分配
+   - 查看员工当前拥有的角色和权限
+
+### 使用示例
+
+1. **在组件中使用权限检查**
+   ```tsx
+   import { usePermission } from '../context/PermissionContext';
+
+   const MyComponent = () => {
+     const { checkPermission } = usePermission();
+     
+     const canCreateCourse = checkPermission('courses:create');
+     
+     return (
+       <div>
+         {canCreateCourse && (
+           <button>创建课程</button>
+         )}
+       </div>
+     );
+   };
+   ```
+
+2. **使用权限保护组件**
+   ```tsx
+   import { PermissionGuard } from '../components/Permission/PermissionGuard';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionGuard permission="manage_finances">
+           <FinancialReportComponent />
+         </PermissionGuard>
+       </div>
+     );
+   };
+   ```
+
+3. **使用权限按钮**
+   ```tsx
+   import { PermissionButton } from '../components/Permission/PermissionButton';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionButton 
+           permission="courses:delete"
+           onClick={handleDeleteCourse}
+           className="btn btn-danger"
+         >
+           删除课程
+         </PermissionButton>
+       </div>
+     );
+   };
+   ```
+
+4. **保护路由**
+   ```tsx
+   import { ProtectedRoute } from '../components/Permission/ProtectedRoute';
+   
+   const AppRoutes = () => {
+     return (
+       <Routes>
+         <Route path="/admin/finances" element={
+           <ProtectedRoute permission="manage_finances">
+             <FinancePage />
+           </ProtectedRoute>
+         } />
+       </Routes>
+     );
+   };
+   ```
+
+### 扩展权限系统
+
+如需添加新的权限，请按照以下步骤操作：
+
+1. 在 `permissions` 表中添加新的权限记录
+2. 将新权限分配给相应的角色
+3. 在代码中使用权限检查功能控制功能访问
+
+---
+
+## 知识库模块 📚
+
+### 功能概述
+
+知识库模块是一个完整的知识管理系统，支持创建、管理和分享留学相关的各类资源。
+
+### 核心功能
+
+#### 资源管理
+- ✅ **创建资源** - 支持4种类型：文档、视频、文章、模板
+- ✅ **查看资源** - 详细的资源展示页面
+- ✅ **下载资源** - 文件下载并统计下载次数
+- ✅ **浏览统计** - 自动统计浏览和下载次数
+
+#### 搜索和筛选
+- ✅ **全文搜索** - 搜索标题、描述、标签
+- ✅ **9维筛选** - 分类/类型/作者/标签/时间/排序等
+- ✅ **标签页** - 全部/精选/已收藏/最近更新
+- ✅ **实时统计** - 显示筛选结果数量
+
+#### 互动功能
+- ✅ **收藏资源** - 一键收藏/取消收藏
+- ✅ **评论系统** - 发表评论和查看讨论
+- ✅ **点赞功能** - 为评论点赞
+- ✅ **相关推荐** - 智能推荐相关资源
+
+#### 统计面板
+- ✅ **总资源数** - 显示所有已发布资源
+- ✅ **分类统计** - 文档/视频/文章/模板数量
+- ✅ **下载统计** - 累计下载次数
+- ✅ **实时更新** - 数据实时同步
+
+### 数据库设计
+
+#### 表结构
+```sql
+knowledge_resources         # 资源表
+├── id, title, type        # 基本信息
+├── category, description  # 分类和描述
+├── content, file_url      # 内容和文件
+├── tags (数组)            # 标签
+├── views, downloads       # 统计
+└── is_featured, status    # 状态
+
+knowledge_comments         # 评论表
+├── resource_id           # 关联资源
+├── user_id, user_name    # 评论用户
+├── content, likes        # 内容和点赞
+└── parent_comment_id     # 支持回复
+
+knowledge_bookmarks        # 收藏表
+└── resource_id, user_id  # 用户收藏记录
+
+knowledge_comment_likes    # 点赞表
+└── comment_id, user_id   # 用户点赞记录
+```
+
+### 使用流程
+
+#### 1. 数据库初始化
+执行迁移脚本：
+```sql
+database_migrations/004_create_knowledge_base_tables.sql
+```
+
+#### 2. 创建资源
+1. 访问 `/admin/knowledge`
+2. 点击"上传资源"按钮
+3. 填写表单：
+   - 标题、类型、分类（必填）
+   - 描述、内容/文件链接、标签（可选）
+4. 提交创建
+
+#### 3. 管理资源
+- **浏览** - 主页网格视图
+- **搜索** - 顶部搜索框
+- **筛选** - 点击"筛选"使用高级筛选
+- **收藏** - 点击书签图标
+- **评论** - 进入详情页发表评论
+
+### 技术特性
+
+#### 模块化设计
+```
+KnowledgeBase/
+├── components/      # UI组件
+├── types/          # TypeScript类型
+├── utils/          # 工具函数
+└── hooks/          # 自定义Hooks（备用）
+```
+
+#### 性能优化
+- 直接 Supabase 查询，无中间层
+- localStorage 缓存用户信息
+- 简洁的状态管理
+- 避免不必要的重新渲染
+
+#### 用户体验
+- 友好的空状态提示
+- 清晰的错误信息
+- 多入口创建资源
+- 响应式设计
+- 暗黑模式支持
+
+### 文档资源
+
+- **功能说明**: `知识库完整功能说明.md`
+- **使用指南**: `知识库使用指南.md`
+- **部署指南**: `知识库快速部署指南.md`
+- **模块文档**: `src/pages/admin/KnowledgeBase/README.md`
+
+### 快速开始
+
+```bash
+# 1. 执行数据库迁移（在 Supabase Dashboard）
+database_migrations/004_create_knowledge_base_tables.sql
+
+# 2. 访问知识库页面
+http://localhost:5173/admin/knowledge
+
+# 3. 创建第一个资源
+点击"上传资源" → 填写表单 → 提交
+```
+
+### 功能清单
+
+- [x] 资源创建和展示
+- [x] 搜索和多维筛选
+- [x] 收藏功能
+- [x] 评论和点赞
+- [x] 浏览和下载统计
+- [x] 相关资源推荐
+- [x] 响应式布局
+- [x] 暗黑模式
+- [ ] 文件上传（待实现）
+- [ ] 资源编辑（待实现）
+- [ ] 资源删除（待实现）
+
+---
+
+### 版本 1.4.0 (2025-10-16)
+
+- **UI优化**: 学生管理页面重大升级，新增卡片视图模式
+  - 实现了现代化的卡片式布局，提升视觉效果和用户体验
+  - 添加视图切换功能，支持卡片视图和传统表格视图切换
+  - 卡片设计采用渐变背景、阴影效果和悬浮动画
+  - 优化信息层次结构，突出重点信息
+  - 增强响应式设计，支持多种屏幕尺寸
+  - 改进状态指示器，使用彩色圆点显示学生活跃状态
+  - 优化服务展示，每个卡片显示前2个服务项目
+  - 添加导师团队头像展示，采用堆叠式设计
+  - 实现悬浮时显示操作按钮的交互效果
+  - 保留原有表格视图供需要详细数据的用户使用
+
+### 版本 1.3.0 (2024-07-18)
+
+- **功能增强**: 实现了交互式选校助手功能，支持在SchoolAssistantPage页面直接进行选校
+- **UI优化**: 添加了右侧收藏侧边栏，用户可以直接在学校助手页面添加学校到收藏夹并设置申请策略
+- **用户体验**: 新增了选校指南弹窗，帮助用户了解如何使用选校功能
+- **功能改进**: 学校和专业卡片支持一键收藏，自动显示收藏侧边栏
+
+### 版本 1.2.0 (2024-07-16)
+
+- **功能增强**: 添加了"选校记录"按钮，用户可以直接从学校助手页面查看历史选校方案
+- **UI改进**: 在选校管理页面优化了返回按钮设计，并改进了布局
+- **用户体验**: 直接通过URL参数支持打开历史记录视图，便于快速访问
+
+### 版本 1.1.0 (2024-07-15)
+
+- **功能增强**: 完善了"开始选校"按钮功能，现在可以直接从学校助手页面导航到选校管理页面
+- **UI改进**: 在选校管理页面添加了返回按钮，方便用户在两个页面之间切换
+- **bug修复**: 修复了学校筛选条件不正确应用的问题
+- **性能优化**: 改进了学校和专业数据的加载速度
+
+# 案例数据处理与数据库导入工具
+
+本项目包含两个脚本，用于处理成功案例CSV数据文件并将其导入到数据库中。
+
+## 文件说明
+
+1. `casedata/process_case_csv.py` - 处理原始CSV文件，提取背景字段
+2. `casedata/upload_to_database.py` - 将处理后的CSV数据导入到数据库
+3. `casedata/upload_to_supabase.py` - 专门用于上传数据到Supabase数据库
+
+## 处理CSV文件
+
+这个脚本会读取原始的CSV文件，从`基本背景`字段中提取信息：
+- 第一个元素作为`admission_year`
+- 第二个元素中提取GPA值作为`gpa`
+- 第三个及之后的所有元素作为`language_scores`
+
+### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+python casedata/process_case_csv.py
+```
+
+脚本会处理`casedata/case.csv`文件，并将结果保存为`casedata/case_processed.csv`。
+
+## 数据库导入
+
+### 上传到普通数据库
+
+这个脚本会将处理后的CSV数据导入到普通数据库，并处理学校和项目的映射关系。
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 使用SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db
+
+# 使用MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password your_password --database your_db
+
+# 使用PostgreSQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --port 5432 --user postgres --password your_password --database your_db
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path database.db --dry-run
+```
+
+### 上传到Supabase数据库
+
+这个专用脚本支持将处理后的CSV数据上传到Supabase数据库。
+
+#### 安装依赖
+
+```bash
+pip install supabase
+```
+
+#### 使用方法
+
+```bash
+cd /Users/evanxu/Downloads/project
+
+# 上传到Supabase
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key"
+
+# 试运行模式（不会实际写入数据库）
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url "https://your-project-id.supabase.co" --key "your-supabase-api-key" --dry-run
+```
+
+#### 参数说明
+
+- `--csv`: CSV文件路径（必需）
+- `--url`: Supabase项目URL（必需）
+- `--key`: Supabase API密钥（必需）
+- `--dry-run`: 试运行模式，不会实际写入数据库
+
+## 数据映射
+
+脚本会自动处理以下映射关系：
+1. 根据`cn_name`字段匹配schools表中的学校
+2. 根据学校ID和`applied_program`字段匹配programs表中的项目
+3. 如果直接匹配失败，会尝试模糊匹配
+
+## 日志
+
+程序运行会生成详细的日志文件：
+- 普通数据库上传：`db_upload_YYYYMMDD_HHMMSS.log`
+- Supabase上传：`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+# 数据处理脚本
+
+## CSV文件处理脚本
+
+本项目包含多个用于处理CSV数据文件和上传数据到数据库的脚本。
+
+### casedata/process_case_csv.py
+
+此脚本用于处理原始案例数据CSV文件，提取和转换关键字段，如背景、GPA和语言成绩。
+
+使用方法：
+```bash
+python casedata/process_case_csv.py
+```
+
+脚本会读取`case.csv`文件，处理后生成`case_processed.csv`文件。
+
+### casedata/upload_to_database.py
+
+此脚本用于将处理后的CSV数据上传到各类关系型数据库（SQLite、MySQL、PostgreSQL）。
+
+使用方法：
+```bash
+python casedata/upload_to_database.py --csv [CSV文件路径] --db-type [数据库类型] [其他参数]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--db-type`：数据库类型，可选值为sqlite、mysql、postgresql，默认为sqlite
+- `--db-path`：SQLite数据库文件路径（使用SQLite时必填）
+- `--host`：数据库主机地址，默认为localhost
+- `--port`：数据库端口
+- `--user`：数据库用户名
+- `--password`：数据库密码
+- `--database`：数据库名称
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到SQLite数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type sqlite --db-path ./database.sqlite
+
+# 上传到MySQL数据库
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type mysql --host localhost --user root --password mypassword --database mydb
+
+# 试运行模式
+python casedata/upload_to_database.py --csv casedata/case_processed.csv --db-type postgresql --host localhost --user postgres --database mydb --dry-run
+```
+
+### casedata/upload_to_supabase.py
+
+此脚本专门用于将处理后的CSV数据上传到Supabase数据库。它会自动处理学校和项目的映射，以便将数据正确地关联到Supabase中的相应表。
+
+使用方法：
+```bash
+python casedata/upload_to_supabase.py --csv [CSV文件路径] --url [Supabase项目URL] --key [Supabase API密钥] [--dry-run]
+```
+
+参数说明：
+- `--csv`：CSV文件路径（必填）
+- `--url`：Supabase项目URL（必填）
+- `--key`：Supabase API密钥（必填）
+- `--dry-run`：试运行模式，不会实际写入数据库
+
+示例：
+```bash
+# 上传到Supabase数据库
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key
+
+# 试运行模式
+python casedata/upload_to_supabase.py --csv casedata/case_processed.csv --url https://your-project-id.supabase.co --key your-api-key --dry-run
+```
+
+脚本执行过程中会生成详细的日志，记录处理的数据和可能出现的问题。日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`。
+
+## 日志说明
+
+上述脚本在执行过程中会生成日志文件：
+- `upload_to_database.py`生成的日志文件格式为`db_upload_YYYYMMDD_HHMMSS.log`
+- `upload_to_supabase.py`生成的日志文件格式为`supabase_upload_YYYYMMDD_HHMMSS.log`
+
+日志文件包含详细的执行步骤、成功/失败记录以及可能的错误信息，方便排查问题。
+
+# Supabase集成指南
+
+## 🔐 认证系统
+
+本系统已实现完整的 Supabase Auth 认证功能!
+
+### 功能特性
+
+- ✅ 邮箱密码登录
+- ✅ 用户注册(学生)
+- ✅ 忘记密码 / 密码重置
+- ✅ 自动关联 Auth 用户到业务表(employees/students)
+- ✅ 全局认证状态管理
+- ✅ 路由守卫保护
+
+### 配置指南
+
+**详细配置步骤请查看: [SUPABASE_AUTH_SETUP.md](./SUPABASE_AUTH_SETUP.md)**
+
+包含:
+- Supabase Auth 配置
+- 数据库表结构更新
+- RLS 策略配置
+- 管理员用户创建
+- 邮件服务配置
+- 测试流程说明
+
+### 使用方法
+
+**管理员登录:**
+1. 访问 `/login`
+2. 选择"管理员"角色
+3. 使用 Supabase Auth 中创建的账号登录
+
+**学生注册:**
+1. 访问 `/register`
+2. 填写信息并提交
+3. 查收邮件完成验证
+4. 返回登录
+
+## Supabase配置
+
+系统使用Supabase作为后端数据库和认证服务。以下是当前配置信息：
+
+### 连接信息
+- **Supabase URL**: `https://swyajeiqqewyckzbfkid.supabase.co`
+- **Supabase 匿名密钥**: 配置在环境变量中，使用`VITE_SUPABASE_ANON_KEY`变量名
+
+### 环境变量配置
+项目根目录下的`.env`文件包含所有必要的环境配置：
+```
+VITE_SUPABASE_URL=https://swyajeiqqewyckzbfkid.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
+
+前端代码通过以下方式访问这些变量：
+```typescript
+import.meta.env.VITE_SUPABASE_URL
+import.meta.env.VITE_SUPABASE_ANON_KEY
+```
+
+## 客户线索与学生管理的关系
+
+在本系统中，客户线索(Leads)和学生(Students)是两个相关但独立的概念：
+
+### 客户线索 (Leads)
+- 代表潜在的客户或咨询者
+- 通过网站表单、社交媒体、教育展等渠道收集
+- 包含基础联系信息和初步意向
+- 状态包括：新线索、已联系、已确认、已签约、已关闭
+
+### 学生 (Students)
+- 代表已签约并接受服务的客户
+- 包含详细个人信息、教育背景和服务记录
+- 可以关联多个服务项目和导师
+- 状态包括：活跃、休学、毕业、退学
+
+### 线索转换为学生的流程
+
+当一个线索成功签约后，系统支持将其转换为学生记录：
+
+1. **线索跟进**：通过线索管理页面跟进潜在客户
+2. **状态更新**：当线索状态更新为"已签约"时，系统提示是否创建学生记录
+3. **信息转移**：线索的基本信息（姓名、联系方式等）会自动填充到学生创建表单
+4. **补充信息**：需要补充更多学生特有的信息，如教育背景、服务选择等
+5. **创建记录**：确认后创建正式学生记录并关联服务项目
+
+### 数据表关系
+- `leads`表存储所有潜在客户线索
+- `students`表存储正式签约学生信息
+- `student_services`表存储学生的服务记录
+- 线索转为学生后，两条记录之间保留关联关系，便于分析转化率
+
+## 使用指南
+
+### 客户线索管理
+1. 通过管理后台的"线索管理"页面查看所有潜在客户
+2. 使用筛选和搜索功能快速定位特定线索
+3. 更新线索状态、添加跟进记录
+4. 将"已签约"线索转换为学生
+
+### 学生管理
+1. 通过管理后台的"学生管理"页面管理所有正式学生
+2. 查看学生详情、服务记录和进度
+3. 添加新服务、更新服务进度
+4. 导出学生数据进行分析和报告
+
+## 最佳实践
+1. 定期审核线索状态，确保及时跟进
+2. 记录详细的沟通内容和客户需求
+3. 线索转为学生后,保持服务进度的及时更新
+4. 利用数据分析功能优化线索转化率和学生服务满意度
+
+## 常见问题解答
+
+### Q: 如何查看系统使用的Supabase配置？
+A: 系统使用的Supabase URL和匿名密钥配置在根目录的`.env`文件中，通过环境变量`VITE_SUPABASE_URL`和`VITE_SUPABASE_ANON_KEY`访问。
+
+### Q: 线索记录和学生记录之间是什么关系？
+A: 线索记录代表潜在客户，学生记录代表已签约客户。当线索成功转化为客户后，系统支持将线索信息转换为学生记录，并保留关联关系用于分析转化率。
+
+## 权限系统
+
+本系统实现了基于角色的权限控制（RBAC）机制，支持灵活的权限管理和分配。
+
+### 权限系统架构
+
+1. **数据库表结构**
+   - `employee_roles`: 角色表，定义了系统中的各种角色
+   - `permissions`: 权限表，定义了系统中的各种权限点
+   - `role_permissions`: 角色-权限关联表，定义角色拥有的权限
+   - `employee_role_assignments`: 员工-角色关联表，定义员工拥有的角色
+
+2. **权限代码**
+   系统中定义了多种权限代码，例如：
+   - `manage_users`: 管理用户账号
+   - `manage_students`: 管理学生信息
+   - `manage_services`: 管理服务
+   - `manage_finances`: 管理财务
+   - `manage_mentors`: 管理导师
+   - `manage_leads`: 管理销售线索
+   - `view_reports`: 查看报表
+   - `manage_schools`: 管理学校和项目信息
+   - `courses:create`: 创建课程
+   - `courses:update`: 更新课程
+   - `courses:delete`: 删除课程
+   - 等等...
+
+3. **角色分配**
+   - 系统管理员: 拥有系统所有权限
+   - 咨询顾问: 负责学生咨询服务
+   - 财务人员: 负责财务管理
+   - 销售人员: 负责销售线索跟进
+
+### 权限组件
+
+1. **权限服务 (permissionService)**
+   提供了以下功能：
+   - `hasPermission`: 检查当前用户是否拥有指定权限
+   - `employeeHasPermission`: 检查特定员工是否拥有指定权限
+   - `getEmployeePermissions`: 获取员工的所有权限
+   - `getRolePermissions`: 获取角色的所有权限
+
+2. **权限上下文 (PermissionContext)**
+   提供了以下功能：
+   - 在应用中全局管理和检查权限
+   - 缓存用户权限以提高性能
+   - 响应用户登录状态变化自动更新权限
+
+3. **权限保护组件**
+   - `PermissionGuard`: 根据权限条件渲染内容
+   - `PermissionButton`: 根据权限控制按钮的可用性
+   - `ProtectedRoute`: 保护路由，只允许有权限的用户访问
+
+### 权限管理界面
+
+系统提供了两个权限管理页面：
+
+1. **权限管理页面 (PermissionPage)**
+   - 创建、编辑和删除角色
+   - 创建、编辑和删除权限
+   - 为角色分配权限
+
+2. **员工权限分配页面 (EmployeePermissionPage)**
+   - 管理员工的角色分配
+   - 查看员工当前拥有的角色和权限
+
+### 使用示例
+
+1. **在组件中使用权限检查**
+   ```tsx
+   import { usePermission } from '../context/PermissionContext';
+
+   const MyComponent = () => {
+     const { checkPermission } = usePermission();
+     
+     const canCreateCourse = checkPermission('courses:create');
+     
+     return (
+       <div>
+         {canCreateCourse && (
+           <button>创建课程</button>
+         )}
+       </div>
+     );
+   };
+   ```
+
+2. **使用权限保护组件**
+   ```tsx
+   import { PermissionGuard } from '../components/Permission/PermissionGuard';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionGuard permission="manage_finances">
+           <FinancialReportComponent />
+         </PermissionGuard>
+       </div>
+     );
+   };
+   ```
+
+3. **使用权限按钮**
+   ```tsx
+   import { PermissionButton } from '../components/Permission/PermissionButton';
+   
+   const MyComponent = () => {
+     return (
+       <div>
+         <PermissionButton 
+           permission="courses:delete"
+           onClick={handleDeleteCourse}
+           className="btn btn-danger"
+         >
+           删除课程
+         </PermissionButton>
+       </div>
+     );
+   };
+   ```
+
+4. **保护路由**
+   ```tsx
+   import { ProtectedRoute } from '../components/Permission/ProtectedRoute';
+   
+   const AppRoutes = () => {
+     return (
+       <Routes>
+         <Route path="/admin/finances" element={
+           <ProtectedRoute permission="manage_finances">
+             <FinancePage />
+           </ProtectedRoute>
+         } />
+       </Routes>
+     );
+   };
+   ```
+
+### 扩展权限系统
+
+如需添加新的权限，请按照以下步骤操作：
+
+1. 在 `permissions` 表中添加新的权限记录
+2. 将新权限分配给相应的角色
+3. 在代码中使用权限检查功能控制功能访问
+
+---
+
+## 知识库模块 📚
+
+### 功能概述
+
+知识库模块是一个完整的知识管理系统，支持创建、管理和分享留学相关的各类资源。
+
+### 核心功能
+
+#### 资源管理
+- ✅ **创建资源** - 支持4种类型：文档、视频、文章、模板
+- ✅ **查看资源** - 详细的资源展示页面
+- ✅ **下载资源** - 文件下载并统计下载次数
+- ✅ **浏览统计** - 自动统计浏览和下载次数
+
+#### 搜索和筛选
+- ✅ **全文搜索** - 搜索标题、描述、标签
+- ✅ **9维筛选** - 分类/类型/作者/标签/时间/排序等
+- ✅ **标签页** - 全部/精选/已收藏/最近更新
+- ✅ **实时统计** - 显示筛选结果数量
+
+#### 互动功能
+- ✅ **收藏资源** - 一键收藏/取消收藏
+- ✅ **评论系统** - 发表评论和查看讨论
+- ✅ **点赞功能** - 为评论点赞
+- ✅ **相关推荐** - 智能推荐相关资源
+
+#### 统计面板
+- ✅ **总资源数** - 显示所有已发布资源
+- ✅ **分类统计** - 文档/视频/文章/模板数量
+- ✅ **下载统计** - 累计下载次数
+- ✅ **实时更新** - 数据实时同步
+
+### 数据库设计
+
+#### 表结构
+```sql
+knowledge_resources         # 资源表
+├── id, title, type        # 基本信息
+├── category, description  # 分类和描述
+├── content, file_url      # 内容和文件
+├── tags (数组)            # 标签
+├── views, downloads       # 统计
+└── is_featured, status    # 状态
+
+knowledge_comments         # 评论表
+├── resource_id           # 关联资源
+├── user_id, user_name    # 评论用户
+├── content, likes        # 内容和点赞
+└── parent_comment_id     # 支持回复
+
+knowledge_bookmarks        # 收藏表
+└── resource_id, user_id  # 用户收藏记录
+
+knowledge_comment_likes    # 点赞表
+└── comment_id, user_id   # 用户点赞记录
+```
+
+### 使用流程
+
+#### 1. 数据库初始化
+执行迁移脚本：
+```sql
+database_migrations/004_create_knowledge_base_tables.sql
+```
+
+#### 2. 创建资源
+1. 访问 `/admin/knowledge`
+2. 点击"上传资源"按钮
+3. 填写表单：
+   - 标题、类型、分类（必填）
+   - 描述、内容/文件链接、标签（可选）
+4. 提交创建

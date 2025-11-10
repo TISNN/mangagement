@@ -51,6 +51,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               {[
                 { path: '/', text: '主页' },
                 { path: '/about', text: '关于我们' },
+                { path: '/services', text: '服务项目' },
                 { path: '/pricing', text: '价格' },
                 { path: '/contact', text: '联系我们' }
               ].map((item) => (
@@ -115,6 +116,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                   {[
                     { path: '/', text: '主页' },
                     { path: '/about', text: '关于我们' },
+                    { path: '/services', text: '服务项目' },
                     { path: '/pricing', text: '价格' },
                     { path: '/contact', text: '联系我们' }
                   ].map((item) => (
@@ -178,6 +180,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 <li>
                   <Link to="/about" className="text-gray-400 hover:text-white transition-colors">
                     关于我们
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/services" className="text-gray-400 hover:text-white transition-colors">
+                    服务项目
                   </Link>
                 </li>
                 <li>

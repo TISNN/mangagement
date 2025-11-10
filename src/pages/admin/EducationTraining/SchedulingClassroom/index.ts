@@ -1,0 +1,1 @@
+export { SchedulingClassroomPage } from './SchedulingClassroomPage';

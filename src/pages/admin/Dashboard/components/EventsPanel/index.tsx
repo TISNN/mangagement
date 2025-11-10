@@ -22,11 +22,14 @@ export const EventsPanel: React.FC<EventsPanelProps> = ({ events, loading }) => 
 
   return (
     <div className="bg-white rounded-2xl p-6 dark:bg-gray-800">
-      <div className="flex justify-between items-center mb-6">
+      <div className="flex justify-between items-start mb-6 gap-4">
         <div className="flex items-center gap-2">
           <Calendar className="w-5 h-5 text-green-600 dark:text-green-400" />
           <h2 className="text-lg font-bold text-gray-900 dark:text-white">即将到来</h2>
         </div>
+        <button className="px-3 py-1.5 border border-gray-200 dark:border-gray-700 rounded-lg text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700/50 font-medium transition-colors">
+          查看完整日历
+        </button>
       </div>
       
       <div className="space-y-4">
@@ -84,10 +87,6 @@ export const EventsPanel: React.FC<EventsPanelProps> = ({ events, loading }) => 
         )}
       </div>
       
-      <button className="w-full mt-4 py-2 border border-gray-200 dark:border-gray-700 rounded-lg text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700/50 font-medium transition-colors">
-        查看完整日历
-      </button>
     </div>
   );
 };
-

@@ -1,0 +1,2 @@
+export { ComplianceGovernancePage } from './ComplianceGovernancePage';
+

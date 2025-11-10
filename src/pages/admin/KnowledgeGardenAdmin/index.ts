@@ -1,0 +1,1 @@
+export { default as KnowledgeGardenAdminPage } from './KnowledgeGardenAdminPage';
