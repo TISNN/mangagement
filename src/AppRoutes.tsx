@@ -15,7 +15,6 @@ import ServicesPage from './website/ServicesPage';
 
 // 导入管理员页面
 import DashboardPage from './pages/admin/Dashboard';
-import EmployeeManagementPage from './pages/admin/EmployeeManagementPage';
 import EmployeeFormPage from './pages/admin/EmployeeFormPage';
 import EmployeeDetailPage from './pages/admin/EmployeeDetailPage';
 import TaskManagementPage from './pages/admin/TaskManagement';
@@ -48,16 +47,17 @@ import ProjectsPage from './pages/admin/ProjectsPage';
 import KnowledgeBase from './pages/admin/KnowledgeBase';
 import KnowledgeDetailPage from './pages/admin/KnowledgeDetailPage';
 import KnowledgeGardenPortalPage from './pages/KnowledgeGardenPortalPage';
-import StudyCopilotPage from './pages/admin/StudyCopilot';
-import ConsultationPage from './pages/admin/StudyCopilot/ConsultationPage';
 import MeetingsPage from './pages/admin/MeetingsPage';
 import MeetingDetailPage from './pages/admin/MeetingDetailPage';
 import MeetingDocumentEditorPage from './pages/admin/MeetingDocumentEditorPage';
 import AdminServicesPage from './pages/admin/Services/ServicesPage';
 import AIChatAssistantPage from './pages/AIChatAssistant';
+import SkyOfficePage from './pages/admin/SkyOfficePage';
 import ApplicationWorkbenchPage from './pages/admin/ApplicationWorkbench';
 import ProjectMissionBoardPage from './pages/admin/ProjectMissionBoard';
 import ServiceChronologyPage from './pages/admin/ServiceChronology';
+import { ProjectMarketplaceDetailPage, ProjectMarketplacePage } from './pages/admin/ProjectMarketplace';
+import { ProfessorDirectoryPage } from './pages/admin/ProfessorDirectory';
 import { CRMLeadOverviewPage } from './pages/admin/CRMLeadOverview';
 import { CRMEngagementDeskPage } from './pages/admin/CRMEngagementDesk';
 import { CRMContractDockPage } from './pages/admin/CRMContractDock';
@@ -88,11 +88,10 @@ import {
   ServiceCenterResourcesPage,
 } from './pages/admin/ServiceCenter';
 import {
-  OrganizationAndPermissionsPage,
   EmployeeAndSchedulingPage,
+  OnboardingOffboardingCenterPage,
+  RecruitmentInterviewCenterPage,
   StaffDetailPage,
-  ProcessCenterPage,
-  ComplianceGovernancePage,
   SystemSettingsPage,
 } from './pages/admin/InternalManagement';
 
@@ -123,7 +122,7 @@ const AppRoutes: React.FC = () => {
         {/* 管理员路由 */}
         <Route path="dashboard" element={<DashboardPage />} />
         <Route path="study-services" element={<StudyServicesPortalPage />} />
-        <Route path="employees" element={<EmployeeManagementPage />} />
+        <Route path="employees" element={<Navigate to="/admin/internal-management/employee-and-scheduling" replace />} />
         <Route path="employees/new" element={<EmployeeFormPage />} />
         <Route path="employees/edit/:id" element={<EmployeeFormPage />} />
         <Route path="employees/:id" element={<EmployeeDetailPage />} />
@@ -131,8 +130,6 @@ const AppRoutes: React.FC = () => {
         <Route path="students" element={<StudentManagementPage />} />
         <Route path="students-legacy" element={<StudentsPage />} />
         <Route path="students/:studentId" element={<StudentDetailPage />} />
-        <Route path="study-copilot" element={<StudyCopilotPage />} />
-        <Route path="study-copilot/consultation" element={<ConsultationPage />} />
         <Route path="projects" element={<ProjectsPage />} />
         <Route path="applications" element={<ApplicationsPage />} />
         <Route path="applications/:id" element={<ApplicationDetailPage />} />
@@ -140,18 +137,20 @@ const AppRoutes: React.FC = () => {
         <Route path="application-workbench" element={<ApplicationWorkbenchPage />} />
         <Route path="project-mission-board" element={<ProjectMissionBoardPage />} />
         <Route path="service-chronology" element={<ServiceChronologyPage />} />
+        <Route path="project-marketplace" element={<ProjectMarketplacePage />} />
+        <Route path="project-marketplace/:projectId" element={<ProjectMarketplaceDetailPage />} />
+        <Route path="professor-directory" element={<ProfessorDirectoryPage />} />
         <Route path="crm-lead-overview" element={<CRMLeadOverviewPage />} />
         <Route path="crm-lead-list" element={<CRMLeadListPage />} />
         <Route path="crm-engagement-desk" element={<CRMEngagementDeskPage />} />
         <Route path="crm-contract-dock" element={<CRMContractDockPage />} />
         <Route path="crm-client-insights" element={<CRMClientInsightsPage />} />
         <Route path="crm-collaboration-hub" element={<CRMCollaborationHubPage />} />
-        <Route path="internal-management" element={<Navigate to="/admin/internal-management/organization-and-permissions" replace />} />
-        <Route path="internal-management/organization-and-permissions" element={<OrganizationAndPermissionsPage />} />
+        <Route path="internal-management" element={<Navigate to="/admin/internal-management/employee-and-scheduling" replace />} />
         <Route path="internal-management/employee-and-scheduling" element={<EmployeeAndSchedulingPage />} />
         <Route path="internal-management/employee-and-scheduling/:staffId" element={<StaffDetailPage />} />
-        <Route path="internal-management/process-center" element={<ProcessCenterPage />} />
-        <Route path="internal-management/compliance-governance" element={<ComplianceGovernancePage />} />
+        <Route path="internal-management/onboarding" element={<OnboardingOffboardingCenterPage />} />
+        <Route path="internal-management/recruitment" element={<RecruitmentInterviewCenterPage />} />
         <Route path="internal-management/system-settings" element={<SystemSettingsPage />} />
         <Route path="service-center" element={<ServiceCenterPage />}>
           <Route index element={<Navigate to="overview" replace />} />
@@ -191,6 +190,7 @@ const AppRoutes: React.FC = () => {
         <Route path="education-training/tutor-portal" element={<TutorPortalPage />} />
         <Route path="services" element={<AdminServicesPage />} />
         <Route path="ai-chat-assistant" element={<AIChatAssistantPage />} />
+        <Route path="sky-office" element={<SkyOfficePage />} />
         
         {/* 会议管理 */}
         <Route path="meetings" element={<MeetingsPage />} />

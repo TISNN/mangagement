@@ -10,8 +10,12 @@ interface StaffTableProps {
 }
 
 const getInitial = (name: string) => (name ? name.charAt(0).toUpperCase() : '?');
-const getAvatarUrl = (baseUrl: string | undefined, name: string) =>
-  `${baseUrl ?? 'https://avatars.dicebear.com/api/big-smile/default.svg'}?seed=${encodeURIComponent(name)}&background=%23f1f5f9`;
+const getAvatarUrl = (baseUrl: string | undefined, name: string) => {
+  if (baseUrl && baseUrl.trim().length > 0) {
+    return baseUrl;
+  }
+  return `https://api.dicebear.com/7.x/initials/svg?seed=${encodeURIComponent(name)}&backgroundColor=f1f5f9&radius=50`;
+};
 
 export const StaffTable: React.FC<StaffTableProps> = ({ profiles }) => {
   const navigate = useNavigate();
@@ -27,8 +31,8 @@ export const StaffTable: React.FC<StaffTableProps> = ({ profiles }) => {
     <div className="rounded-2xl border border-gray-200 bg-white shadow-sm dark:border-gray-800 dark:bg-gray-900/70">
       <div className="flex items-center justify-between border-b border-gray-200 px-4 py-3 text-sm dark:border-gray-800">
         <div>
-          <h3 className="text-base font-semibold text-gray-900 dark:text-white">员工列表</h3>
-          <p className="text-xs text-gray-500 dark:text-gray-400">按姓名、团队与技能快速定位人员。</p>
+          <h3 className="text-base font-semibold text-gray-900 dark:text-white">团队成员列表</h3>
+          <p className="text-xs text-gray-500 dark:text-gray-400">按姓名、团队与技能快速定位成员。</p>
         </div>
         <div className="flex gap-2">
           <button
@@ -85,6 +89,9 @@ export const StaffTable: React.FC<StaffTableProps> = ({ profiles }) => {
                           </span>
                         ) : null}
                       </div>
+                      {profile.email ? (
+                        <span className="text-xs text-gray-500 dark:text-gray-400">{profile.email}</span>
+                      ) : null}
                     </div>
                   </div>
                 </td>

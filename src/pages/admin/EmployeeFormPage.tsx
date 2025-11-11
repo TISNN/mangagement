@@ -136,7 +136,7 @@ const EmployeeFormPage: React.FC = () => {
       }
       
       await employeeService.upsertEmployee(formData);
-      navigate('/admin/employees');
+      navigate('/admin/internal-management/employee-and-scheduling');
       
     } catch (err) {
       console.error('保存员工信息失败:', err);
@@ -160,7 +160,7 @@ const EmployeeFormPage: React.FC = () => {
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-3">
           <button 
-            onClick={() => navigate('/admin/employees')}
+            onClick={() => navigate('/admin/internal-management/employee-and-scheduling')}
             className="p-2 text-gray-500 hover:text-purple-600 dark:text-gray-400 dark:hover:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-900/20 rounded-full"
           >
             <ArrowLeft className="h-5 w-5" />

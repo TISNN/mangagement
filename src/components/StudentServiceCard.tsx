@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { MoreHorizontal, Languages, BookOpen, Award, PenTool, Book, FileCheck, Layers, Briefcase, TrendingUp } from 'lucide-react';
-import { ServiceType, getServiceStatusStyle } from '../types/service';
+import { MoreHorizontal, Languages, BookOpen, Award, PenTool, Book, FileCheck, Layers, Briefcase, TrendingUp, AlertTriangle, Globe } from 'lucide-react';
+import { ServiceType, getServiceStatusStyle, getServiceCategory } from '../types/service';
 import { formatDate } from '../utils/dateUtils';
 import ServiceProgressModal from './ServiceProgressModal';
 
@@ -45,7 +45,8 @@ const StudentServiceCard: React.FC<StudentServiceProps> = ({
 
   // 服务类型图标
   const getServiceIcon = () => {
-    switch (serviceType) {
+    const category = getServiceCategory(serviceType);
+    switch (category) {
       case '语言培训':
         return <Languages className="h-5 w-5 text-blue-600 dark:text-blue-400" />;
       case '标化培训':
@@ -62,6 +63,10 @@ const StudentServiceCard: React.FC<StudentServiceProps> = ({
         return <FileCheck className="h-5 w-5 text-teal-600 dark:text-teal-400" />;
       case '作品集辅导':
         return <PenTool className="h-5 w-5 text-pink-600 dark:text-pink-400" />;
+      case '申诉服务':
+        return <AlertTriangle className="h-5 w-5 text-red-600 dark:text-red-400" />;
+      case '签证办理':
+        return <Globe className="h-5 w-5 text-emerald-600 dark:text-emerald-400" />;
       default:
         return <FileCheck className="h-5 w-5 text-gray-600 dark:text-gray-400" />;
     }

@@ -113,6 +113,8 @@ export async function signIn(
         };
       }
 
+      console.log('[AuthService] 查询员工信息成功，记录ID:', employeeData?.id);
+
       profile = employeeData;
       console.log('[AuthService] 员工信息获取成功:', employeeData);
 

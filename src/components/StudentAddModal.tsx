@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { X, User, Mail, Phone, Calendar, School, Briefcase, Check } from 'lucide-react';
+import React, { useState, useEffect, useMemo } from 'react';
+import { X, User, Mail, Phone, Calendar, School, Briefcase, Check, ChevronDown, ChevronRight, Layers } from 'lucide-react';
 import { ServiceType } from '../types/finance';
 import { Person, StudentProfile } from '../types/people';
 import { peopleService } from '../services';
@@ -20,6 +20,7 @@ const StudentAddModal: React.FC<StudentAddModalProps> = ({ isOpen, onClose, onSt
   
   // 服务类型选项
   const [serviceTypes, setServiceTypes] = useState<ServiceType[]>([]);
+  const [expandedParents, setExpandedParents] = useState<Set<number>>(new Set());
   const [isLoading, setIsLoading] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
@@ -59,6 +60,8 @@ const StudentAddModal: React.FC<StudentAddModalProps> = ({ isOpen, onClose, onSt
         if (isEditMode && studentToEdit) {
           await populateFormForEditing(studentToEdit, serviceTypesData);
         }
+        const parentIds = serviceTypesData.filter((type) => type.parent_id === null).map((type) => type.id);
+        setExpandedParents(new Set(parentIds));
       } catch (error) {
         console.error('获取服务类型失败', error);
         setError('获取服务类型失败');
@@ -80,11 +83,10 @@ const StudentAddModal: React.FC<StudentAddModalProps> = ({ isOpen, onClose, onSt
       const studentProfile = await peopleService.getStudentProfile(student.person_id);
       
       // 获取学生服务类型ID
-      const selectedServiceIds = student.services.map(service => {
-        // 查找匹配的服务类型
-        const serviceType = availableServices.find(type => type.name === service.serviceType);
-        return serviceType ? serviceType.id : 0;
-      }).filter(id => id !== 0);
+      const serviceTypeIdSet = new Set(availableServices.map((service) => service.id));
+      const selectedServiceIds = student.services
+        .map((service) => service.serviceTypeId)
+        .filter((id): id is number => typeof id === 'number' && serviceTypeIdSet.has(id));
       
       // 设置表单数据
       setFormData({
@@ -145,6 +147,33 @@ const StudentAddModal: React.FC<StudentAddModalProps> = ({ isOpen, onClose, onSt
       });
     }
   };
+
+  const toggleParentExpansion = (parentId: number) => {
+    setExpandedParents((prev) => {
+      const next = new Set(prev);
+      if (next.has(parentId)) {
+        next.delete(parentId);
+      } else {
+        next.add(parentId);
+      }
+      return next;
+    });
+  };
+
+  const parentOptions = useMemo(() => serviceTypes.filter((type) => type.parent_id === null), [serviceTypes]);
+  const childMap = useMemo(() => {
+    const grouped = new Map<number, ServiceType[]>();
+    serviceTypes
+      .filter((type) => typeof type.parent_id === 'number')
+      .forEach((child) => {
+        const parentId = child.parent_id as number;
+        if (!grouped.has(parentId)) {
+          grouped.set(parentId, []);
+        }
+        grouped.get(parentId)!.push(child);
+      });
+    return grouped;
+  }, [serviceTypes]);
   
   // 验证表单
   const validateForm = () => {
@@ -533,39 +562,98 @@ const StudentAddModal: React.FC<StudentAddModalProps> = ({ isOpen, onClose, onSt
                     </div>
                   ) : (
                     <div className="space-y-3 p-2 flex-grow">
-                      {serviceTypes.map((service) => (
-                        <div
-                          key={service.id}
-                          onClick={() => handleServiceToggle(service.id)}
-                          className={`flex items-center p-3 border rounded-lg cursor-pointer transition-colors ${
-                            formData.services.includes(service.id)
-                              ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20 dark:border-blue-400'
-                              : 'border-gray-200 hover:border-gray-300 dark:border-gray-700 dark:hover:border-gray-600'
-                          }`}
-                        >
-                          <div className="flex-1">
-                            <h4 className={`font-medium ${
-                              formData.services.includes(service.id)
-                                ? 'text-blue-700 dark:text-blue-400'
-                                : 'text-gray-900 dark:text-white'
-                            }`}>
-                              {service.name}
-                            </h4>
-                            {service.description && (
-                              <p className="text-sm text-gray-500 dark:text-gray-400">
-                                {service.description}
-                              </p>
+                      {parentOptions.map((parent) => {
+                        const children = childMap.get(parent.id) ?? [];
+                        const isLeaf = children.length === 0;
+                        if (isLeaf) {
+                          const selected = formData.services.includes(parent.id);
+                          return (
+                            <div
+                              key={parent.id}
+                              onClick={() => handleServiceToggle(parent.id)}
+                              className={`flex items-center p-3 border rounded-lg cursor-pointer transition-colors ${
+                                selected
+                                  ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20 dark:border-blue-400'
+                                  : 'border-gray-200 hover:border-gray-300 dark:border-gray-700 dark:hover:border-gray-600'
+                              }`}
+                            >
+                              <div className="flex-1">
+                                <h4 className={`font-medium ${
+                                  selected
+                                    ? 'text-blue-700 dark:text-blue-400'
+                                    : 'text-gray-900 dark:text-white'
+                                }`}>
+                                  {parent.name}
+                                </h4>
+                                {parent.description && (
+                                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                                    {parent.description}
+                                  </p>
+                                )}
+                              </div>
+                              <div className={`w-6 h-6 flex items-center justify-center rounded-full ${
+                                selected
+                                  ? 'bg-blue-500 text-white'
+                                  : 'border border-gray-300 dark:border-gray-600'
+                              }`}>
+                                {selected && <Check className="w-4 h-4" />}
+                              </div>
+                            </div>
+                          );
+                        }
+
+                        const expanded = expandedParents.has(parent.id);
+                        const selectedCount = children.filter((child) => formData.services.includes(child.id)).length;
+
+                        return (
+                          <div key={parent.id} className="rounded-xl border border-gray-200 dark:border-gray-700">
+                            <button
+                              type="button"
+                              onClick={() => toggleParentExpansion(parent.id)}
+                              className="flex w-full items-center justify-between gap-3 rounded-t-xl bg-gray-50 px-3 py-3 text-left transition hover:bg-gray-100 dark:bg-gray-800/60 dark:hover:bg-gray-800"
+                            >
+                              <div className="flex items-center gap-2">
+                                {expanded ? <ChevronDown className="h-4 w-4" /> : <ChevronRight className="h-4 w-4" />}
+                                <span className="text-sm font-semibold text-gray-900 dark:text-gray-100">{parent.name}</span>
+                              </div>
+                              <div className="flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400">
+                                <Layers className="h-3.5 w-3.5" />
+                                {selectedCount > 0 ? `已选 ${selectedCount} 项` : '点击展开选择子分类'}
+                              </div>
+                            </button>
+                            {expanded && (
+                              <div className="space-y-2 px-3 py-3">
+                                {children.map((child) => {
+                                  const selected = formData.services.includes(child.id);
+                                  return (
+                                    <label
+                                      key={child.id}
+                                      className={`flex cursor-pointer items-start gap-3 rounded-lg border px-3 py-2 text-sm transition ${
+                                        selected
+                                          ? 'border-blue-400 bg-blue-50/70 text-blue-600 dark:border-blue-400/60 dark:bg-blue-900/10 dark:text-blue-200'
+                                          : 'border-gray-200 hover:border-blue-200 hover:bg-blue-50/40 dark:border-gray-700 dark:hover:border-blue-400/30 dark:hover:bg-blue-900/10'
+                                      }`}
+                                    >
+                                      <input
+                                        type="checkbox"
+                                        className="mt-1 h-4 w-4 rounded border-gray-300 text-blue-500 focus:ring-blue-500"
+                                        checked={selected}
+                                        onChange={() => handleServiceToggle(child.id)}
+                                      />
+                                      <div>
+                                        <p className="font-medium">{child.name}</p>
+                                        {child.description ? (
+                                          <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">{child.description}</p>
+                                        ) : null}
+                                      </div>
+                                    </label>
+                                  );
+                                })}
+                              </div>
                             )}
                           </div>
-                          <div className={`w-6 h-6 flex items-center justify-center rounded-full ${
-                            formData.services.includes(service.id)
-                              ? 'bg-blue-500 text-white'
-                              : 'border border-gray-300 dark:border-gray-600'
-                          }`}>
-                            {formData.services.includes(service.id) && <Check className="w-4 h-4" />}
-                          </div>
-                        </div>
-                      ))}
+                        );
+                      })}
                     </div>
                   )}
                   

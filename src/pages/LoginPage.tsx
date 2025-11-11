@@ -76,6 +76,12 @@ const LoginPage: React.FC = () => {
 
       // 使用真实的Supabase认证服务
       const result = await signIn(trimmedEmail, trimmedPassword, userRole);
+      console.log('[LoginPage] signIn 返回结果:', {
+        hasUser: Boolean(result.user),
+        hasProfile: Boolean(result.profile),
+        userType: result.userType,
+        error: result.error,
+      });
 
       if (result.error) {
         console.error('[LoginPage] 登录失败:', result.error);
@@ -84,6 +90,10 @@ const LoginPage: React.FC = () => {
       }
 
       if (!result.user || !result.profile) {
+        console.warn('[LoginPage] 登录返回缺少用户或资料:', {
+          hasUser: Boolean(result.user),
+          hasProfile: Boolean(result.profile),
+        });
         setError('登录失败,请稍后重试');
         return;
       }

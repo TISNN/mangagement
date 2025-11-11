@@ -6,6 +6,9 @@ export interface ServiceType {
   name: string;
   description: string;
   is_active: boolean;
+  category: string;
+  education_level?: string | null;
+  parent_id?: number | null;
 }
 
 /**

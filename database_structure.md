@@ -1,284 +1,175 @@
-# StudylandsEdu项目数据库结构文档
+# StudylandsEdu 项目数据库结构（2025-11-11 更新）
 
-## 项目概述
+> **数据来源**：通过 Supabase MCP 实时查询 `studylandsedu` 项目（Project ID `swyajeiqqewyckzbfkid`，Region `ap-southeast-1`）的最新元数据。本文档面向产品、设计、研发与数据治理团队，是后续迭代和排期的权威参考。
 
-StudylandsEdu是一个教育服务管理系统，主要用于管理留学教育服务相关的业务，包括学生管理、导师管理、服务管理、财务管理、学校和项目管理、以及销售线索管理等功能。该系统基于Supabase构建，位于AP-Southeast-1区域。
+---
 
-## 数据库结构
+## 1. 总览
 
-该数据库包含多个模式(Schema)，主要业务数据存储在public模式下，同时系统还包含auth、storage、realtime等Supabase预设模式。
+- **数据库引擎**：PostgreSQL 15.8.1（Supabase GA 渠道）
+- **主要 Schema**：`public`（业务数据）、`auth`、`storage`、`realtime`、`pgsodium`、`vault`（系统 Schema）
+- **行级安全 RLS**：仅 `direct_messages` 与 `unread_messages` 默认开启，其余业务表未启用，需要在对外开放 API 前补齐策略
+- **高级特性**：大量使用 `UUID`、`JSONB`、数组列、`now()` 默认时间戳与枚举约束，需配套类型定义/JSON Schema
 
-### 核心业务表
+---
 
-#### 学生与服务管理
+## 2. 业务域与表清单
 
-1. **students (学生表)**
-   - 主键: id
-   - 主要字段: name, email, contact, gender, education_level, school, major, target_countries, status
-   - 功能: 存储学生基本信息
+### 2.1 学生与服务域
 
-2. **service_types (服务类型表)**
-   - 主键: id
-   - 主要字段: name, description, is_active
-   - 功能: 定义系统提供的服务类型
+| 表名 | 作用 | 关键字段 | 关联 |
+| --- | --- | --- | --- |
+| `students` | 学生基础信息 | `name`、`education_level`、`target_countries[]`、`status`、`auth_id` | ← `student_services.student_ref_id`、`finance_transactions.student_ref_id`、`tasks.related_student_id`、`student_profile.student_id` |
+| `student_profile` | 学生申请档案扩展 | 联系方式、教育背景、`document_files` JSONB、`work_experiences` JSONB、`standardized_tests` JSONB | → `students` |
+| `student_services` | 学生签约服务 | `service_type_id`、`status`、`progress`、`detail_data` JSONB、`mentor_team` JSONB、`mentor_ref_id` | → `students`、`service_types`、`mentors`；← `service_progress` |
+| `service_types` | 服务类型树 | `category`、`education_level`、`parent_id`（自关联） | ← `student_services`、`leads.interest`、`finance_transactions.service_type_id` |
+| `service_progress` | 服务进度里程碑 | `completed_items` JSONB、`next_steps` JSONB、`attachments` JSONB、`employee_ref_id` | → `student_services`、`employees` |
+| `student_service_relations` | 学生-服务多对多 | `student_id`、`service_id` | → `students`、`student_services` |
+| `final_university_choices` | 最终选校列表 | `submission_status`、`decision_result`、`priority_rank` | ← `application_documents_checklist.university_choice_id` |
+| `application_documents_checklist` | 申请材料清单 | `document_name`、`status`、`progress`、`file_url` | → `students`、`final_university_choices` |
+| `student_meetings` | 学生会议记录 | `meeting_documents` JSONB、`participants[]`、`meeting_link` | → `students` |
 
-3. **mentors (导师表)**
-   - 主键: id
-   - 主要字段: name, email, contact, specializations, expertise_level, hourly_rate
-   - 功能: 存储导师信息，包括专业领域和收费标准
+### 2.2 导师与员工域
 
-4. **student_services (学生服务表)**
-   - 主键: id
-   - 外键: student_ref_id, service_type_id, mentor_ref_id
-   - 主要字段: status, enrollment_date, end_date, progress, payment_status, detail_data
-   - 功能: 记录学生购买的服务内容和状态
+| 表名 | 作用 | 关键字段 | 关联 |
+| --- | --- | --- | --- |
+| `mentors` | 导师档案 | `specializations[]`、`service_scope[]`、`expertise_level`、`employee_id` | ← `student_services.mentor_ref_id` |
+| `employees` | 员工/顾问/导师 | `department`、`position`、`skills[]`、`is_partner`、`is_mentor`、`auth_id` | 被任务、服务进度、财务、会议、知识库等大量引用 |
+| `employee_roles` | 角色定义 | `name`、`description` | ← `employee_role_assignments.role_id` |
+| `employee_role_assignments` | 员工与角色绑定 | `employee_id`、`role_id` | → `employees`、`employee_roles` |
+| `permissions` | 权限点定义 | `code` 唯一、`description` | ← `role_permissions.permission_id` |
+| `role_permissions` | 角色-权限映射 | `role_id`、`permission_id` | → `employee_roles`、`permissions` |
 
-5. **service_progress (服务进度表)**
-   - 主键: id
-   - 外键: student_service_id, employee_ref_id
-   - 主要字段: progress_date, milestone, description, completed_items, next_steps
-   - 功能: 记录服务执行过程中的进度和里程碑
+### 2.3 项目任务域
 
-6. **student_service_relations (学生服务关系表)**
-   - 主键: id
-   - 外键: student_id, service_id
-   - 功能: 建立学生和服务之间的多对多关系
+| 表名 | 作用 | 关键字段 | 关联 |
+| --- | --- | --- | --- |
+| `tasks` | 项目任务 | `status`（待处理/进行中/已完成/已取消）、`priority`、`assigned_to[]`、`attachments` JSONB、`related_student_id`、`related_lead_id`、`meeting_id` | → `employees`、`leads`、`students`、`meetings` |
+| `subtasks` | 子任务 | `task_id`、`status`、`completed`、`due_date` | → `tasks` |
+| `task_comments` | 评论 | `task_id`、`employee_id`、`content` | → `tasks`、`employees` |
+| `task_attachments` | 附件 | `file_url`、`uploaded_by`、`file_size` | → `tasks`、`employees` |
+| `projects` | 合同/项目 | `status`、`client_id`、`total_amount` | ← `finance_transactions.project_id` |
 
-#### 财务管理
+### 2.4 财务域
 
-1. **finance_accounts (财务账户表)**
-   - 主键: id
-   - 主要字段: name, type, balance, is_active
-   - 功能: 管理系统中的财务账户
+| 表名 | 作用 | 关键字段 | 关联 |
+| --- | --- | --- | --- |
+| `finance_accounts` | 财务账户 | `name`、`type`、`balance` | ← `finance_transactions.account_id` |
+| `finance_categories` | 收支分类 | `direction`（收入/支出） | ← `finance_transactions.category_id` |
+| `finance_transactions` | 收支流水 | `amount`、`direction`、`status`、`transaction_date`、`person_type`、`notes` | → `students`、`employees`、`projects`、`service_types`、`finance_accounts`、`finance_categories` |
 
-2. **finance_categories (财务类别表)**
-   - 主键: id
-   - 主要字段: name, description, direction
-   - 功能: 定义财务收支的分类
+### 2.5 CRM / 销售域
 
-3. **finance_transactions (财务交易表)**
-   - 主键: id
-   - 外键: student_ref_id, employee_ref_id, account_id, category_id, project_id, service_type_id
-   - 主要字段: amount, direction, status, transaction_date, notes
-   - 功能: 记录所有财务交易
+| 表名 | 作用 | 关键字段 | 关联 |
+| --- | --- | --- | --- |
+| `leads` | 销售线索 | `status`、`priority`、`last_contact`、`interest`（服务类型） | → `service_types`、`employees` |
+| `lead_logs` | 跟进记录 | `log_date`、`next_follow_up`、`employee_id` | → `leads`、`employees` |
 
-4. **projects (项目表)**
-   - 主键: id
-   - 主要字段: name, status, client_id, start_date, end_date, total_amount
-   - 功能: 管理项目信息和关联财务
+### 2.6 教育培训域
 
-#### 员工管理
+| 表名 | 作用 | 关键字段 | 关联 |
+| --- | --- | --- | --- |
+| `courses` | 课程定义 | `level`、`subject`、`prerequisites`、`duration`、`cost` | ← `classes.course_id` |
+| `classes` | 班级安排 | `schedule`、`capacity`、`location`、`instructor_id`、`status`（默认“未开始”） | → `courses`、`employees` |
 
-1. **employees (员工表)**
-   - 主键: id
-   - 主要字段: name, email, contact, department, position, skills, is_active
-   - 功能: 存储员工信息
+### 2.7 学校与项目域
 
-#### 聊天系统
+| 表名 | 作用 | 关键字段 | 关联 |
+| --- | --- | --- | --- |
+| `schools` | 学校库 | `cn_name`、`en_name`、`country`、`qs_rank_2024/2025`、`tags`、`website_url` | ← `programs`、`user_favorite_schools` |
+| `programs` | 院校项目 | `duration`、`apply_requirements`、`language_requirements`、`category`、`tuition_fee`、`analysis` | → `schools`、`success_cases`、`user_favorite_programs` |
+| `success_cases` | 成功案例 | `student_name`、`admission_year`、`language_scores`、`experiecnce` | → `programs` |
+| `user_favorite_schools` / `user_favorite_programs` | 收藏关系 | `user_id`、目标 ID、`created_at` | → `schools`、`programs` |
 
-1. **chat_channels (聊天频道表)**
-   - 主键: id
-   - 外键: created_by
-   - 主要字段: name, description, is_private, type
-   - 功能: 定义系统中的聊天频道
+### 2.8 知识库域
 
-2. **chat_messages (聊天消息表)**
-   - 主键: id
-   - 外键: channel_id, sender_id
-   - 主要字段: content, attachments, is_edited
-   - 功能: 存储聊天消息
+| 表名 | 作用 | 关键字段 | 关联 |
+| --- | --- | --- | --- |
+| `knowledge_resources` | 知识资源 | `type`（document/video/article/template）、`category`、`tags[]`、`status`（draft/published/archived）、`views`、`downloads`、`author_id` | → `employees` |
+| `knowledge_comments` | 评论 | `content`、`likes`、`parent_comment_id` | → `knowledge_resources`、`employees` |
+| `knowledge_comment_likes` | 评论点赞 | `comment_id`、`user_id` | → `knowledge_comments`、`employees` |
+| `knowledge_bookmarks` | 收藏 | `resource_id`、`user_id` | → `knowledge_resources`、`employees` |
 
-3. **channel_members (频道成员表)**
-   - 主键: channel_id, employee_id
-   - 主要字段: joined_at, last_read_at
-   - 功能: 记录频道成员和阅读状态
+### 2.9 会议与协同域
 
-4. **direct_messages (直接消息表)**
-   - 主键: id
-   - 外键: user_id_1, user_id_2, channel_id
-   - 功能: 管理用户间的一对一对话
+| 表名 | 作用 | 关键字段 | 关联 |
+| --- | --- | --- | --- |
+| `meetings` | 会议主表 | `meeting_type`、`status`、`participants` JSONB、`agenda`、`minutes`、`meeting_link` | ← `tasks.meeting_id`，→ `employees` |
+| `meeting_documents` | 会议文档 | `title`、`content`、`created_by` | → `employees` |
+| `student_meetings` | 学生会议 | 详见 2.1 | → `students` |
 
-5. **unread_messages (未读消息表)**
-   - 主键: id
-   - 外键: user_id, channel_id
-   - 主要字段: count, last_read_at
-   - 功能: 跟踪未读消息数量
+### 2.10 消息与通知域（RLS 已启用）
 
-#### 学校和项目管理
+| 表名 | RLS | 作用 |
+| --- | --- | --- |
+| `direct_messages` | ✅ | 一对一消息通道（`user_id_1`、`user_id_2`、`channel_id`） |
+| `unread_messages` | ✅ | 未读计数（`user_id`、`channel_id`、`count`、`last_read_at`） |
 
-1. **schools (学校表)**
-   - 主键: id
-   - 主要字段: cn_name, en_name, logo_url, country, city, ranking, qs_rank_2024, qs_rank_2025
-   - 功能: 存储学校信息
+> 备注：旧版 `chat_channels` / `chat_messages` / `channel_members` 未在本次查询结果中返回，如仍使用请在迁移记录中确认。
 
-2. **programs (项目表)**
-   - 主键: id
-   - 外键: school_id
-   - 主要字段: en_name, cn_name, duration, apply_requirements, language_requirements, curriculum
-   - 功能: 存储学校项目/专业信息
+---
 
-3. **success_cases (成功案例表)**
-   - 主键: id
-   - 外键: program_id
-   - 主要字段: student_name, admission_year, gpa, language_scores
-   - 功能: 记录成功申请案例
-
-4. **user_favorite_schools (用户收藏学校表)**
-   - 主键: id
-   - 外键: user_id, school_id
-   - 功能: 记录用户收藏的学校
-
-5. **user_favorite_programs (用户收藏项目表)**
-   - 主键: id
-   - 外键: user_id, program_id
-   - 功能: 记录用户收藏的项目
-
-#### 销售线索管理
-
-1. **leads (销售线索表)**
-   - 主键: id
-   - 外键: assigned_to, interest
-   - 主要字段: name, phone, source, status, priority, last_contact
-   - 功能: 存储销售线索信息
-
-2. **lead_logs (线索跟进记录表)**
-   - 主键: id
-   - 外键: lead_id, employee_id
-   - 主要字段: log_date, content, next_follow_up
-   - 功能: 记录线索跟进过程
-
-### 系统表
-
-系统还包含多个Supabase预设的表，主要位于以下Schema中：
-
-- **auth**: 认证相关表，如users、identities、sessions等
-- **storage**: 文件存储相关表，如buckets、objects等
-- **realtime**: 实时更新相关表
-- **pgsodium**: 加密相关表
-- **vault**: 敏感信息存储相关表
-
-## 主要表关系
-
-### 学生服务关系
-
-- 学生(students) ← 学生服务(student_services)：一个学生可以购买多个服务
-- 服务类型(service_types) ← 学生服务(student_services)：每个服务对应一个服务类型
-- 导师(mentors) ← 学生服务(student_services)：每个服务可以由一个导师负责
-- 学生服务(student_services) ← 服务进度(service_progress)：每个服务可以有多个进度记录
-
-### 财务关系
-
-- 学生(students) ← 财务交易(finance_transactions)：交易可以关联到学生
-- 员工(employees) ← 财务交易(finance_transactions)：交易可以关联到员工
-- 账户(finance_accounts) ← 财务交易(finance_transactions)：交易发生在特定账户
-- 类别(finance_categories) ← 财务交易(finance_transactions)：交易属于特定类别
-- 项目(projects) ← 财务交易(finance_transactions)：交易可以关联到项目
-- 服务类型(service_types) ← 财务交易(finance_transactions)：交易可以关联到服务类型
-
-### 学校与项目关系
-
-- 学校(schools) ← 项目(programs)：一个学校可以有多个项目
-- 项目(programs) ← 成功案例(success_cases)：一个项目可以有多个成功案例
-- 学校(schools) ← 用户收藏学校(user_favorite_schools)：用户可以收藏多个学校
-- 项目(programs) ← 用户收藏项目(user_favorite_programs)：用户可以收藏多个项目
-
-### 聊天系统关系
-
-- 员工(employees) ← 聊天消息(chat_messages)：员工可以发送消息
-- 频道(chat_channels) ← 聊天消息(chat_messages)：消息属于特定频道
-- 频道(chat_channels) ↔ 员工(employees)：通过channel_members表建立多对多关系
-
-### 销售线索关系
-
-- 员工(employees) ← 销售线索(leads)：线索可以分配给员工
-- 服务类型(service_types) ← 销售线索(leads)：线索可以对应感兴趣的服务类型
-- 销售线索(leads) ← 线索跟进(lead_logs)：一个线索可以有多条跟进记录
-
-## 数据库统计
-
-- 总表数量: ~60个表
-- 主要业务表: ~25个表
-- 系统表: ~35个表
-- 主要Schema: public, auth, storage, realtime
-
-## 系统功能概述
-
-1. **学生管理**：记录学生信息，教育背景，目标国家等
-2. **服务管理**：定义服务类型，跟踪服务进度
-3. **导师管理**：管理专业导师资源和专业领域
-4. **财务管理**：记录收支，关联学生、项目和服务
-5. **员工管理**：管理公司内部员工信息
-6. **沟通系统**：支持频道和私聊的内部沟通
-7. **学校数据库**：全球学校和项目信息库
-8. **销售线索管理**：跟踪潜在客户和转化过程
-
-## 数据关系图
+## 3. 关系图（文字版）
 
 ```
-students ←───┐
-             │
-mentors ←────┼── student_services ──→ service_progress
-             │ 
-service_types┘      
-      │
-      └──→ finance_transactions ←──┐ 
-                  ↑                │
-                  │                │
-employees ────────┘                │
-   │                               │
-   │                               │
-   ├──→ chat_messages              │
-   │         ↑                     │
-   │         │                     │
-   └── channel_members             │
-             ↑                     │
-             │                     │
-        chat_channels              │
-                                   │
-                                   │
-finance_accounts ──────────────────┤
-finance_categories ────────────────┤
-projects ───────────────────────────┘
+students ─┬─< student_services >─┬─ service_types
+          │                     └─ mentors (mentor_ref_id)
+          ├─< student_profile
+          ├─< final_university_choices ─< application_documents_checklist
+          └─< student_meetings
 
-schools ──→ programs ──→ success_cases
-   ↑           ↑
-   │           │
-   │           │
-user_favorite_schools   user_favorite_programs
+student_services ─< service_progress (employee_ref_id → employees)
+student_services ─< student_service_relations >─ students
 
-employees ──→ leads ──→ lead_logs
-              ↑
-              │
-        service_types
+employees ─┬─< service_progress
+           ├─< tasks (created_by) ─< subtasks / task_comments / task_attachments
+           ├─< finance_transactions (employee_ref_id)
+           ├─< lead_logs
+           ├─< knowledge_resources (author_id / created_by / updated_by)
+           ├─< meetings (created_by)
+           └─< employee_role_assignments >─ employee_roles ─< role_permissions >─ permissions
+
+leads ─< lead_logs
+leads ─< tasks.related_lead_id
+
+courses ─< classes (instructor_id → employees)
+
+schools ─< programs ─< success_cases
+schools ─< user_favorite_schools
+programs ─< user_favorite_programs
+
+projects ─< finance_transactions
+finance_accounts / finance_categories ─< finance_transactions
 ```
 
-## 安全性与权限
+---
 
-数据库使用Supabase的行级安全性(RLS)保护部分表。主要启用RLS的表包括：
+## 4. 行级安全（RLS）现状
 
-- 认证相关表
-- 聊天系统相关表
-- 存储相关表
-- 收藏相关表
+| 表 | 状态 | 建议 |
+| --- | --- | --- |
+| `direct_messages` | 已开启 | 基于 `auth.uid()` 校验参与者身份 |
+| `unread_messages` | 已开启 | 同上 |
+| 其余业务表 | 未开启 | 若需对运营/学生开放 API 或实现多租户隔离，需分阶段补齐策略 |
 
-## 数据库扩展和功能
+---
 
-该数据库利用了多种PostgreSQL功能和扩展：
+## 5. 维护与治理建议
 
-- UUID生成
-- JSONB数据类型
-- 自动更新时间戳
-- 外键约束和级联操作
-- 行级安全策略
+1. **Schema 版本化**：结合 Supabase Migration/dbmate/Prisma Schema 做版本管理，避免环境漂移。
+2. **JSONB/数组字段规范**：为 `mentor_team`、`detail_data`、`attachments` 等建立统一数据字典，前后端共享 JSON Schema。
+3. **索引优化**：关注高频查询字段（如 `student_services.student_ref_id`、`tasks.status`、`leads.assigned_to`），在 Supabase 控制台监控执行计划并按需加索引。
+4. **RLS 策略规划**：面向学生端/顾问端开放能力前，需要梳理角色定义并设计策略函数。
+5. **数据模拟**：当前实际数据行数较少（0~33 行），建议补充 Seed 脚本支撑前端演示和测试。
+6. **监控与告警**：启用 Supabase Log Drains/APM，对慢查询、锁等待和 JSONB 大字段写入进行监控。
 
-## 数据更新频率
+---
 
-根据表的设计和用途，不同表的数据更新频率预计如下：
+## 6. 更新日志
 
-- **高频更新**：聊天消息、财务交易、服务进度
-- **中频更新**：学生服务、销售线索、线索跟进
-- **低频更新**：学校信息、项目信息、员工信息
+- **2025-11-11**：首次通过 Supabase MCP 自动获取元数据并重写文档，补充课程/班级、任务体系、知识库、会议等新表，更新 RLS 与维护建议。
 
-## 结论
+---
 
-StudylandsEdu项目的数据库设计全面覆盖了教育服务管理系统的各个方面，从学生和服务管理到财务管理、销售线索、学校信息库等。通过合理的表结构和关系设计，系统可以高效地管理教育服务流程和相关业务数据。 
+如需导出完整 DDL，可在 Supabase SQL 控制台执行 `pg_dump --schema-only --schema=public`，或导入 dbdiagram.io/DrawSQL 生成 ER 图。任何数据库结构调整（新增字段、索引、RLS）请同步更新本文档并在 PR 中附迁移脚本与回滚方案。
+

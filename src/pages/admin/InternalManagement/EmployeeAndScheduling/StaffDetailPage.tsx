@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { Fragment, useEffect, useState, type ReactNode } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 
 import {
@@ -10,32 +10,119 @@ import {
   CheckCircle,
   Clock3,
   MapPin,
+  Mail,
   Sparkles,
   Users,
 } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
 
-import { SHIFT_CONFLICTS, STAFF_PROFILES } from './data';
+import type { ShiftConflict, StaffProfile } from '../types';
+import { loadStaffProfileById } from './data';
 
-const getAvatarUrl = (baseUrl: string | undefined, name: string) =>
-  `${baseUrl ?? 'https://api.dicebear.com/6.x/big-smile/svg'}?seed=${encodeURIComponent(name)}&background=%23f4f6fb`;
+const getAvatarUrl = (baseUrl: string | undefined, name: string) => {
+  if (baseUrl && baseUrl.trim().length > 0) {
+    return baseUrl;
+  }
+  return `https://api.dicebear.com/7.x/initials/svg?seed=${encodeURIComponent(name)}&backgroundColor=eef2ff&radius=50`;
+};
+
+const InfoCard: React.FC<{ title: string; icon: React.ReactNode; children: React.ReactNode }> = ({ title, icon, children }) => (
+  <section className="space-y-3 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition hover:shadow-md dark:border-gray-800 dark:bg-gray-900/70">
+    <header className="flex items-center gap-3 text-gray-500 dark:text-gray-400">
+      <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-blue-50 text-blue-500 dark:bg-blue-900/30 dark:text-blue-200">
+        {icon}
+      </span>
+      <span className="text-sm font-semibold text-gray-700 dark:text-gray-200">{title}</span>
+    </header>
+    <div className="text-sm leading-6 text-gray-600 dark:text-gray-300">{children}</div>
+  </section>
+);
+
+const ShiftTimelineItem: React.FC<{ primary: string; secondary: string; meta: string }> = ({ primary, secondary, meta }) => (
+  <li className="relative flex flex-col gap-1 rounded-2xl border border-gray-100 bg-gray-50 px-4 py-3 text-sm dark:border-gray-800 dark:bg-gray-900/40 md:flex-row md:items-center md:justify-between">
+    <div className="flex items-center gap-2 text-gray-900 dark:text-gray-100">
+      <CheckCircle className="h-4 w-4 text-blue-500" />
+      <span className="font-medium">{primary}</span>
+    </div>
+    <div className="flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400">
+      <MapPin className="h-3.5 w-3.5" />
+      {secondary}
+    </div>
+    <span className="text-xs text-gray-400 dark:text-gray-500">{meta}</span>
+  </li>
+);
 
 export const StaffDetailPage: React.FC = () => {
   const { staffId } = useParams<{ staffId: string }>();
   const navigate = useNavigate();
 
-  const staff = useMemo(() => STAFF_PROFILES.find((item) => item.id === staffId), [staffId]);
-  const conflicts = useMemo(() => SHIFT_CONFLICTS.filter((conflict) => conflict.staff === staff?.name), [staff?.name]);
+  const [profile, setProfile] = useState<StaffProfile | null>(null);
+  const [conflicts, setConflicts] = useState<ShiftConflict[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
-  if (!staff) {
+  useEffect(() => {
+    let mounted = true;
+
+    if (!staffId) {
+      setError('未提供成员 ID');
+      setLoading(false);
+      return () => {
+        mounted = false;
+      };
+    }
+
+    const fetchDetail = async () => {
+      try {
+        setLoading(true);
+        const { profile: nextProfile, conflicts: nextConflicts } = await loadStaffProfileById(staffId, {
+          forceRefresh: true,
+        });
+
+        if (!mounted) return;
+
+        setProfile(nextProfile);
+        setConflicts(nextConflicts);
+        setError(nextProfile ? null : '未找到该成员信息，可能已被删除或尚未同步。');
+      } catch (err) {
+        if (!mounted) return;
+        console.error('[StaffDetailPage] 加载团队成员详情失败', err);
+        setProfile(null);
+        setConflicts([]);
+        setError(err instanceof Error ? err.message : '加载团队成员详情失败，请稍后重试');
+      } finally {
+        if (mounted) {
+          setLoading(false);
+        }
+      }
+    };
+
+    fetchDetail();
+
+    return () => {
+      mounted = false;
+    };
+  }, [staffId]);
+
+  if (loading) {
     return (
       <div className="space-y-6 p-6">
-        <div className="rounded-2xl border border-red-200 bg-red-50 p-10 text-center text-sm text-red-600 dark:border-red-900/40 dark:bg-red-900/20 dark:text-red-200">
-          未找到该员工信息，可能已被删除或尚未同步。
+        <div className="rounded-2xl border border-dashed border-gray-200 bg-white p-10 text-center text-sm text-gray-500 dark:border-gray-700 dark:bg-gray-900/70 dark:text-gray-300">
+          正在加载团队成员详情，请稍候…
+        </div>
+      </div>
+    );
+  }
+
+  if (!profile) {
+    return (
+      <div className="space-y-6 p-6">
+        <div className="rounded-2xl border border-red-200 bg-red-50 p-10 text-center text-sm text-red-600 shadow-sm dark:border-red-900/40 dark:bg-red-900/20 dark:text-red-200">
+          {error ?? '未找到该成员信息，可能已被删除或尚未同步。'}
           <div className="mt-6">
             <Button variant="outline" onClick={() => navigate('/admin/internal-management/employee-and-scheduling')}>
-              返回员工与排班
+              返回团队成员
             </Button>
           </div>
         </div>
@@ -45,7 +132,7 @@ export const StaffDetailPage: React.FC = () => {
 
   return (
     <div className="space-y-6 p-6">
-      <div className="flex flex-wrap items-center justify-between gap-4">
+      <section className="flex flex-wrap items-center justify-between gap-4 rounded-3xl bg-gradient-to-r from-blue-50 via-indigo-50 to-blue-100 p-6 shadow-inner dark:from-blue-950/80 dark:via-indigo-950/60 dark:to-blue-950/80">
         <div className="flex items-center gap-4">
           <button
             type="button"
@@ -55,13 +142,13 @@ export const StaffDetailPage: React.FC = () => {
             <ArrowLeft className="h-5 w-5" />
           </button>
           <div className="flex items-center gap-4">
-            <div className="flex h-16 w-16 items-center justify-center overflow-hidden rounded-full bg-gradient-to-br from-blue-100 via-indigo-100 to-blue-200 text-lg font-semibold text-blue-700 shadow-sm ring-2 ring-white dark:ring-gray-800">
-              <img src={getAvatarUrl(staff.avatarUrl, staff.name)} alt={staff.name} className="h-full w-full object-cover" />
+            <div className="flex h-20 w-20 items-center justify-center overflow-hidden rounded-3xl bg-gradient-to-br from-white/80 via-white to-indigo-100 shadow-lg ring-4 ring-white dark:ring-gray-900">
+              <img src={getAvatarUrl(profile.avatarUrl, profile.name)} alt={profile.name} className="h-full w-full object-cover" />
             </div>
-            <div className="space-y-1">
+            <div className="space-y-2">
               <div className="flex items-center gap-2 text-gray-900 dark:text-gray-100">
-                <h1 className="text-2xl font-semibold">{staff.name}</h1>
-                {staff.status === '在岗' ? (
+                <h1 className="text-3xl font-semibold">{profile.name}</h1>
+                {profile.status === '在岗' ? (
                   <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-medium text-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-200">
                     <BadgeCheck className="h-3 w-3" />
                     在岗
@@ -69,8 +156,24 @@ export const StaffDetailPage: React.FC = () => {
                 ) : null}
               </div>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                {staff.role} · {staff.team}
+                {profile.role} · {profile.team}
               </p>
+              <div className="flex flex-wrap gap-2 text-xs text-blue-500 dark:text-blue-200">
+                <span className="inline-flex items-center gap-2 rounded-full bg-white/70 px-3 py-1 shadow-sm dark:bg-white/10">
+                  <MapPin className="h-3.5 w-3.5" />
+                  {profile.location}
+                </span>
+                {profile.email ? (
+                  <span className="inline-flex items-center gap-2 rounded-full bg-white/70 px-3 py-1 shadow-sm dark:bg-white/10">
+                    <Mail className="h-3.5 w-3.5" />
+                    {profile.email}
+                  </span>
+                ) : null}
+                <span className="inline-flex items-center gap-2 rounded-full bg-white/70 px-3 py-1 shadow-sm dark:bg-white/10">
+                  <Clock3 className="h-3.5 w-3.5" />
+                  时区 {profile.timezone}
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -91,120 +194,60 @@ export const StaffDetailPage: React.FC = () => {
             绩效反馈
           </Button>
         </div>
+      </section>
+
+      <div className="grid gap-4 lg:grid-cols-[1fr,0.8fr]">
+        <InfoCard title="个人介绍" icon={<Sparkles className="h-4 w-4" />}>
+          {profile.bio ? <Fragment>{profile.bio}</Fragment> : <span className="text-sm text-gray-500 dark:text-gray-400">暂未填写个人介绍。</span>}
+        </InfoCard>
+        <InfoCard title="教育背景" icon={<Sparkles className="h-4 w-4" />}>
+          {profile.education ? (
+            <ul className="space-y-1 text-sm">
+              <li className="font-medium text-gray-900 dark:text-gray-100">{profile.education.degree}</li>
+              <li>{profile.education.school}</li>
+              {profile.education.year ? (
+                <li className="text-xs text-gray-500 dark:text-gray-400">毕业年份：{profile.education.year}</li>
+              ) : null}
+            </ul>
+          ) : (
+            <p className="text-sm text-gray-500 dark:text-gray-400">暂未补充教育背景。</p>
+          )}
+        </InfoCard>
       </div>
 
-      <div className="grid gap-4 md:grid-cols-3">
-        <div className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900/70">
-          <div className="flex items-center gap-3 text-gray-500 dark:text-gray-400">
-            <Users className="h-5 w-5 text-blue-500" />
-            <span className="text-sm font-semibold">关键技能</span>
-          </div>
-          <div className="mt-3 flex flex-wrap gap-2 text-xs">
-            {staff.skills.map((skill) => (
+      <div className="grid gap-4 lg:grid-cols-2">
+        <InfoCard title="关键技能" icon={<Users className="h-4 w-4" />}>
+          <div className="flex flex-wrap gap-2 text-xs">
+            {profile.skills.map((skill) => (
               <span key={skill} className="rounded-full bg-blue-50 px-3 py-1 text-blue-600 dark:bg-blue-900/30 dark:text-blue-200">
                 {skill}
               </span>
             ))}
           </div>
-        </div>
-
-        <div className="space-y-3 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900/70">
-          <div className="flex items-center gap-3 text-gray-500 dark:text-gray-400">
-            <MapPin className="h-5 w-5 text-blue-500" />
-            <span className="text-sm font-semibold">所在地区 & 时区</span>
-          </div>
-          <p className="text-sm font-medium text-gray-900 dark:text-gray-100">{staff.location}</p>
-          <p className="text-xs text-gray-500 dark:text-gray-400">{staff.timezone}</p>
-        </div>
-
-        <div className="space-y-3 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900/70">
-          <div className="flex items-center gap-3 text-gray-500 dark:text-gray-400">
-            <Activity className="h-5 w-5 text-emerald-500" />
-            <span className="text-sm font-semibold">当前负载</span>
-          </div>
-          <div className="mt-3 flex items-baseline gap-2">
-            <span className="text-2xl font-semibold text-gray-900 dark:text-gray-100">{staff.workload}%</span>
-            <span className="text-xs text-gray-500 dark:text-gray-400">本周排班占比</span>
-          </div>
-          <p className="mt-2 text-xs text-gray-500 dark:text-gray-400">
-            根据排班和项目任务估算，建议保持在 80% 以下以留出专项内容复盘时间。
-          </p>
-        </div>
-
-        <div className="space-y-3 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900/70">
-          <div className="flex items-center gap-3 text-gray-500 dark:text-gray-400">
-            <Clock3 className="h-5 w-5 text-amber-500" />
-            <span className="text-sm font-semibold">下一个班次</span>
-          </div>
-          {staff.availability.length > 0 ? (
-            <div className="mt-3 space-y-1 text-sm text-gray-600 dark:text-gray-300">
-              <div className="font-medium text-gray-900 dark:text-gray-100">
-                {staff.availability[0].day} · {staff.availability[0].start} - {staff.availability[0].end}
-              </div>
-              <div className="flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400">
-                <MapPin className="h-3.5 w-3.5" />
-                {staff.availability[0].location}
-              </div>
-            </div>
-          ) : (
-            <p className="mt-3 text-sm text-gray-500 dark:text-gray-400">暂未配置班次。</p>
-          )}
-        </div>
+        </InfoCard>
+        <InfoCard title="班次安排" icon={<Calendar className="h-4 w-4" />}>
+          <ul className="space-y-2">
+            {profile.availability.map((slot, index) => (
+              <ShiftTimelineItem
+                key={`${profile.id}-${slot.day}-${slot.start}-${index}`}
+                primary={`${slot.day} · ${slot.start} - ${slot.end}`}
+                secondary={slot.location}
+                meta={`排班 #${index + 1}`}
+              />
+            ))}
+          </ul>
+        </InfoCard>
       </div>
 
-      <div className="grid gap-4 md:grid-cols-[1.1fr,0.9fr]">
-        <div className="space-y-3 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900/70">
-          <div className="flex items-center gap-3 text-gray-500 dark:text-gray-400">
-            <Calendar className="h-5 w-5 text-blue-500" />
-            <span className="text-sm font-semibold">班次安排</span>
-          </div>
-          <div className="space-y-2 text-sm">
-            {staff.availability.map((slot, index) => (
-              <div
-                key={`${staff.id}-${slot.day}-${slot.start}`}
-                className="flex flex-col gap-1 rounded-2xl border border-gray-100 bg-gray-50 px-4 py-3 dark:border-gray-800 dark:bg-gray-900/50 md:flex-row md:items-center md:justify-between"
-              >
-                <div className="flex items-center gap-2 text-gray-900 dark:text-gray-100">
-                  <CheckCircle className="h-4 w-4 text-blue-500" />
-                  <span className="font-medium">
-                    {slot.day} · {slot.start} - {slot.end}
-                  </span>
-                </div>
-                <div className="flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400">
-                  <MapPin className="h-3.5 w-3.5" />
-                  {slot.location}
-                </div>
-                <span className="text-xs text-gray-400 dark:text-gray-500"># 排班 {index + 1}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="space-y-3 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900/70">
-          <div className="flex items-center gap-3 text-gray-500 dark:text-gray-400">
-            <Sparkles className="h-5 w-5 text-purple-500" />
-            <span className="text-sm font-semibold">教育背景</span>
-          </div>
-          {staff.education ? (
-            <div className="space-y-1 text-sm text-gray-600 dark:text-gray-300">
-              <p className="font-medium text-gray-900 dark:text-gray-100">{staff.education.degree}</p>
-              <p>{staff.education.school}</p>
-              {staff.education.year ? <p className="text-xs text-gray-500 dark:text-gray-400">毕业年份：{staff.education.year}</p> : null}
-            </div>
-          ) : (
-            <p className="text-sm text-gray-500 dark:text-gray-400">暂未补充教育背景。</p>
-          )}
-        </div>
-
-        <div className="space-y-3 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900/70">
-          <div className="flex items-center gap-3 text-gray-500 dark:text-gray-400">
-            <Clock3 className="h-5 w-5 text-amber-500" />
-            <span className="text-sm font-semibold">排班冲突</span>
-          </div>
+      <div className="grid gap-4 lg:grid-cols-[1.2fr,0.8fr]">
+        <InfoCard title="排班冲突" icon={<Clock3 className="h-4 w-4 text-amber-500" />}>
           {conflicts.length > 0 ? (
             <div className="space-y-2 text-sm">
               {conflicts.map((conflict) => (
-                <div key={conflict.id} className="rounded-2xl border border-amber-200 bg-amber-50 p-3 text-amber-700 dark:border-amber-900/30 dark:bg-amber-900/20 dark:text-amber-100">
+                <div
+                  key={conflict.id}
+                  className="rounded-2xl border border-amber-200 bg-amber-50 p-3 text-amber-700 dark:border-amber-900/30 dark:bg-amber-900/20 dark:text-amber-100"
+                >
                   <div className="flex items-center justify-between text-xs">
                     <span className="font-semibold">{conflict.issue}</span>
                     <span>{conflict.detectedAt}</span>
@@ -219,8 +262,17 @@ export const StaffDetailPage: React.FC = () => {
               当前没有冲突记录。
             </div>
           )}
-        </div>
+        </InfoCard>
       </div>
+
+      <InfoCard title="当前负载" icon={<Activity className="h-4 w-4" />}>
+        <div className="flex items-baseline gap-2">
+          <span className="text-2xl font-semibold text-gray-900 dark:text-gray-100">{profile.workload}%</span>
+          <span className="text-xs text-gray-500 dark:text-gray-400">本周排班占比</span>
+        </div>
+        <p className="text-xs text-gray-500 dark:text-gray-400">保持适度工作量，可留出内容复盘与增量时间。</p>
+      </InfoCard>
+
     </div>
   );
 };

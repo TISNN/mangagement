@@ -1,0 +1,3 @@
+export { RecruitmentInterviewCenterPage } from './RecruitmentInterviewCenterPage';
+
+

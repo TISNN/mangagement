@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useState } from 'react';
 import {
   Activity,
   AlertTriangle,
@@ -6,7 +6,6 @@ import {
   Calendar,
   CheckCircle2,
   ChevronDown,
-  ChevronRight,
   Clock,
   Compass,
   Filter,
@@ -19,6 +18,13 @@ import {
   Tag,
   Users,
   Workflow,
+  MessageSquare,
+  FileSearch,
+  GraduationCap,
+  Plane,
+  FileCheck,
+  TrendingUp,
+  Target,
 } from 'lucide-react';
 import { format } from 'date-fns';
 
@@ -103,6 +109,145 @@ interface TrendItem {
   delta: string;
   positive?: boolean;
 }
+
+type CopilotPhaseId = 'consultation' | 'planning' | 'application' | 'tracking' | 'visa' | 'departure';
+
+interface CopilotPhase {
+  id: CopilotPhaseId;
+  name: string;
+  description: string;
+  progress: number;
+  accent: {
+    pill: string;
+    ring: string;
+    text: string;
+    badge: string;
+    gradient: string;
+  };
+  stats: {
+    label: string;
+    value: string;
+  }[];
+  icon: React.ComponentType<{ className?: string }>;
+}
+
+const COPILOT_HERO_STATS = [
+  { label: '总学生数', value: '286', change: '+12.5%' },
+  { label: '进行中项目', value: '127', change: '+8.3%' },
+  { label: '本月转化', value: '42', change: '+25.0%' },
+  { label: '成功率', value: '94.2%', change: '+5.2%' },
+];
+
+const COPILOT_PHASES: CopilotPhase[] = [
+  {
+    id: 'consultation',
+    name: '咨询评估',
+    description: '学生画像与需求采集，生成评估报告与行动建议。',
+    progress: 100,
+    icon: MessageSquare,
+    accent: {
+      pill: 'from-blue-500 to-sky-500',
+      ring: 'text-blue-500',
+      text: 'text-blue-600 dark:text-blue-300',
+      badge: 'bg-blue-100 dark:bg-blue-900/40 text-blue-600 dark:text-blue-300',
+      gradient: 'from-blue-500/20 to-blue-500/5',
+    },
+    stats: [
+      { label: '在跟进', value: '45' },
+      { label: '平均响应', value: '3.2h' },
+    ],
+  },
+  {
+    id: 'planning',
+    name: '方案规划',
+    description: '院校项目匹配、时间轴安排与材料清单自动生成。',
+    progress: 82,
+    icon: FileSearch,
+    accent: {
+      pill: 'from-purple-500 to-indigo-500',
+      ring: 'text-purple-500',
+      text: 'text-purple-600 dark:text-purple-300',
+      badge: 'bg-purple-100 dark:bg-purple-900/40 text-purple-600 dark:text-purple-300',
+      gradient: 'from-purple-500/20 to-purple-500/5',
+    },
+    stats: [
+      { label: '方案待确认', value: '18' },
+      { label: 'AI 推荐采纳', value: '76%' },
+    ],
+  },
+  {
+    id: 'application',
+    name: '申请递交',
+    description: '文书协同、材料提交状态追踪与质检提醒。',
+    progress: 58,
+    icon: GraduationCap,
+    accent: {
+      pill: 'from-emerald-500 to-teal-500',
+      ring: 'text-emerald-500',
+      text: 'text-emerald-600 dark:text-emerald-300',
+      badge: 'bg-emerald-100 dark:bg-emerald-900/40 text-emerald-600 dark:text-emerald-300',
+      gradient: 'from-emerald-500/20 to-emerald-500/5',
+    },
+    stats: [
+      { label: '文书定稿率', value: '63%' },
+      { label: '质检退回率', value: '7%' },
+    ],
+  },
+  {
+    id: 'tracking',
+    name: '进度跟踪',
+    description: 'Offer 结果记录、补件提醒与关键节点日志回放。',
+    progress: 34,
+    icon: TrendingUp,
+    accent: {
+      pill: 'from-orange-500 to-amber-500',
+      ring: 'text-orange-500',
+      text: 'text-orange-600 dark:text-orange-300',
+      badge: 'bg-orange-100 dark:bg-orange-900/40 text-orange-600 dark:text-orange-300',
+      gradient: 'from-orange-500/20 to-orange-500/5',
+    },
+    stats: [
+      { label: '结果待录入', value: '11' },
+      { label: '补件提醒', value: '5' },
+    ],
+  },
+  {
+    id: 'visa',
+    name: '签证办理',
+    description: '签证材料模板、预约排期与风险告警。',
+    progress: 0,
+    icon: FileCheck,
+    accent: {
+      pill: 'from-indigo-500 to-blue-500',
+      ring: 'text-indigo-500',
+      text: 'text-indigo-600 dark:text-indigo-300',
+      badge: 'bg-indigo-100 dark:bg-indigo-900/40 text-indigo-600 dark:text-indigo-300',
+      gradient: 'from-indigo-500/20 to-indigo-500/5',
+    },
+    stats: [
+      { label: '待启动', value: '8' },
+      { label: '临近截止', value: '3' },
+    ],
+  },
+  {
+    id: 'departure',
+    name: '行前准备',
+    description: '行前课程、住宿安排与社群同步。',
+    progress: 0,
+    icon: Plane,
+    accent: {
+      pill: 'from-pink-500 to-rose-500',
+      ring: 'text-pink-500',
+      text: 'text-pink-600 dark:text-pink-300',
+      badge: 'bg-pink-100 dark:bg-pink-900/40 text-pink-600 dark:text-pink-300',
+      gradient: 'from-pink-500/20 to-pink-500/5',
+    },
+    stats: [
+      { label: '行前包准备', value: '5' },
+      { label: '社群覆盖', value: '72%' },
+    ],
+  },
+];
 
 const SUMMARY_CARDS: SummaryCard[] = [
   {
@@ -404,6 +549,137 @@ const SectionHeader: React.FC<{
     {actions && <div className="flex flex-wrap gap-2">{actions}</div>}
   </div>
 );
+
+const CopilotOverviewSection: React.FC = () => {
+  const [activePhase, setActivePhase] = useState<CopilotPhaseId>('consultation');
+
+  return (
+    <div className="space-y-6">
+      <div className="relative overflow-hidden rounded-3xl border border-gray-100 bg-gradient-to-br from-slate-900 via-purple-800 to-blue-700 p-8 text-white shadow-xl dark:border-gray-700/60">
+        <div className="absolute inset-y-0 right-0 w-1/3 bg-gradient-to-t from-white/10 to-transparent blur-3xl" />
+        <div className="relative z-10 flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
+          <div className="space-y-3 max-w-xl">
+            <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-sm font-medium">
+              <Sparkles className="h-4 w-4" />
+              申请 Copilot · AI 任务驾驶舱
+            </div>
+            <h2 className="text-3xl font-semibold leading-tight">一屏掌握留学项目执行进度</h2>
+            <p className="text-sm text-white/80 leading-6">
+              将原独立 Copilot 页面关键指标纳入任务面板，纵览从咨询到行前的全链路阶段，并支持下一步直接跳转至学生、任务与数据模块。
+            </p>
+          </div>
+          <div className="grid grid-cols-2 gap-4">
+            {COPILOT_HERO_STATS.map((stat) => (
+              <div key={stat.label} className="rounded-2xl border border-white/15 bg-white/10 p-4 backdrop-blur">
+                <p className="text-xs font-medium text-white/60">{stat.label}</p>
+                <p className="mt-2 text-2xl font-semibold">{stat.value}</p>
+                <p className="mt-1 text-xs text-emerald-200">↗ {stat.change}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <div className="space-y-4">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">阶段总览</h3>
+          <div className="flex flex-wrap gap-2">
+            <button className="inline-flex items-center gap-2 rounded-xl border border-gray-200 bg-white px-3 py-2 text-xs text-gray-600 hover:bg-gray-50 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700/60">
+              <ListChecks className="h-3.5 w-3.5" />
+              阶段配置
+            </button>
+            <button className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-3 py-2 text-xs text-white hover:bg-blue-700">
+              <Users className="h-3.5 w-3.5" />
+              指派顾问
+            </button>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 xl:grid-cols-6">
+          {COPILOT_PHASES.map((phase) => {
+            const Icon = phase.icon;
+            const isActive = activePhase === phase.id;
+
+            return (
+              <button
+                key={phase.id}
+                type="button"
+                onClick={() => setActivePhase(phase.id)}
+                className={`group relative flex h-full flex-col gap-4 rounded-2xl border bg-white p-4 text-left transition-all hover:-translate-y-1 hover:shadow-md dark:bg-gray-800 ${
+                  isActive ? `border-2 border-blue-500 shadow-lg` : 'border-gray-100 dark:border-gray-700/60'
+                }`}
+              >
+                <div className={`absolute inset-0 rounded-2xl bg-gradient-to-br ${phase.accent.gradient} opacity-0 transition-opacity group-hover:opacity-100 ${isActive ? 'opacity-100' : ''}`} />
+                <div className="relative flex items-center justify-between">
+                  <div
+                    className={`inline-flex items-center gap-2 rounded-full bg-gradient-to-br ${phase.accent.pill} px-3 py-1 text-xs font-medium text-white`}
+                  >
+                    <Icon className="h-4 w-4" />
+                    阶段 {COPILOT_PHASES.findIndex((p) => p.id === phase.id) + 1}
+                  </div>
+                  <span className={`rounded-full px-2 py-1 text-[11px] font-semibold ${phase.accent.badge}`}>
+                    进度 {phase.progress}%
+                  </span>
+                </div>
+                <div className="relative space-y-2">
+                  <h4 className="text-sm font-semibold text-gray-900 dark:text-white">{phase.name}</h4>
+                  <p className="text-xs text-gray-500 dark:text-gray-400 leading-5">{phase.description}</p>
+                  <div className="flex items-center gap-2">
+                    {phase.stats.map((stat) => (
+                      <span
+                        key={stat.label}
+                        className={`inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-1 text-[11px] font-medium text-gray-600 dark:bg-gray-800/70 dark:text-gray-300 ${phase.accent.text}`}
+                      >
+                        {stat.label} · {stat.value}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div className="relative mt-auto w-full">
+                  <div className="flex items-center justify-between text-[11px] text-gray-400 dark:text-gray-500">
+                    <span>阶段完成度</span>
+                    <span className={phase.accent.text}>{phase.progress}%</span>
+                  </div>
+                  <div className="mt-1 h-1.5 w-full overflow-hidden rounded-full bg-gray-100 dark:bg-gray-700/60">
+                    <div
+                      className={`h-full rounded-full ${phase.accent.ring.replace('text', 'bg')}`}
+                      style={{ width: `${phase.progress}%` }}
+                    />
+                  </div>
+                </div>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      <div className="rounded-2xl border border-dashed border-gray-200 bg-white p-5 text-sm text-gray-600 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div className="flex items-center gap-2">
+            <Target className="h-4 w-4 text-blue-500" />
+            <span>
+              当前聚焦阶段：<span className="font-semibold text-blue-600 dark:text-blue-300">{COPILOT_PHASES.find((p) => p.id === activePhase)?.name}</span>
+            </span>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <button className="inline-flex items-center gap-2 rounded-xl border border-gray-200 px-3 py-1.5 text-xs text-gray-600 hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700/60">
+              <FileSearch className="h-3.5 w-3.5" />
+              跳转学生档案
+            </button>
+            <button className="inline-flex items-center gap-2 rounded-xl border border-gray-200 px-3 py-1.5 text-xs text-gray-600 hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700/60">
+              <ListChecks className="h-3.5 w-3.5" />
+              查看任务列表
+            </button>
+            <button className="inline-flex items-center gap-2 rounded-xl bg-purple-600 px-3 py-1.5 text-xs text-white hover:bg-purple-700">
+              <Sparkles className="h-3.5 w-3.5" />
+              调用 Copilot 建议
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const SummarySection: React.FC = () => (
   <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
@@ -754,6 +1030,8 @@ const ProjectMissionBoardPage: React.FC = () => {
           </button>
         </div>
       </div>
+
+      <CopilotOverviewSection />
 
       <SummarySection />
 

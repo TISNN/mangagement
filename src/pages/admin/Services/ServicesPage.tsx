@@ -555,7 +555,7 @@ const ServicesPage: React.FC = () => {
               className="space-y-5 rounded-3xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-900/80"
             >
               <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
-                <div className="flex items-start gap-4">
+              <div className="flex items-start gap-4">
                   <div className={`rounded-2xl bg-gradient-to-br ${category.accent} p-3`}>
                     <category.icon className="h-6 w-6" />
                   </div>
@@ -597,10 +597,10 @@ const ServicesPage: React.FC = () => {
                         {service.highlights.map((highlight) => (
                           <li key={highlight} className="flex items-start gap-2">
                             <CheckCircle2 className="h-4 w-4 text-emerald-500" />
-                            <span>{highlight}</span>
-                          </li>
-                        ))}
-                      </ul>
+                    <span>{highlight}</span>
+                  </li>
+                ))}
+              </ul>
                       <button
                         type="button"
                         onClick={() => handleToggleService(service.id)}

@@ -36,11 +36,9 @@
 ### 2.2 二级导航示例
 
 #### 内部管理
-- **组织与权限**：角色管理、权限组、审批流程配置（详见 `internal-management/organization-and-permissions.md`）
-- **员工与排班**：员工档案、排班、考勤、打卡记录（详见 `internal-management/employee-and-scheduling.md`）
-- **流程中心**：SOP、流程版本管理、内部工具接入（详见 `internal-management/process-center.md`）
-- **合规监督**：合同模板、风险清单、政策追踪（详见 `internal-management/compliance-governance.md`）
+- **团队成员中心**：员工档案、排班、考勤、打卡记录（详见 `internal-management/employee-and-scheduling.md`）
 - **系统设置**：站点配置、通知策略、集成管理（详见 `internal-management/system-settings.md`）
+- **架构调整说明**：原“组织与权限”“流程中心”“合规监督”子模块已下线，相关流程合并至团队成员管理与系统设置，由运营策略组统一维护。
 
 #### 客户与销售
 - **线索总览**：线索看板、销售漏斗、渠道表现

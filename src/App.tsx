@@ -12,6 +12,7 @@ import {
   Sun,
   Moon,
   Briefcase,
+  LogIn,
   UserSquare2,
   Library,
   ClipboardList,
@@ -25,7 +26,6 @@ import {
   ListTodo,
   ChevronUp,
   ChevronDown,
-  Bot,
   BookOpen,
   Brain,
   Calendar,
@@ -42,9 +42,7 @@ import {
   Layers,
   Globe2,
   Shield,
-  ShieldAlert,
   ShieldCheck,
-  GitBranch,
 } from 'lucide-react';
 import { DataProvider } from './context/DataContext'; // 导入数据上下文提供者
 import AIChatAssistant from './components/AIChatAssistant';
@@ -57,7 +55,14 @@ function App() {
   const [showScrollTop, setShowScrollTop] = useState(false);
   const [showScrollBottom, setShowScrollBottom] = useState(false);
   const [isNavCollapsed, setIsNavCollapsed] = useState(false); // 添加导航栏折叠状态
-  const [currentUser, setCurrentUser] = useState<{ name?: string; position?: string; status?: string; avatar_url?: string } | null>(null); // 当前登录用户
+  const [currentUser, setCurrentUser] = useState<{
+    name?: string;
+    position?: string;
+    status?: string;
+    avatar_url?: string;
+    avatarUrl?: string;
+    avatar?: string;
+  } | null>(null); // 当前登录用户
   const [expandedGroups, setExpandedGroups] = useState<Record<string, boolean>>({
     'study-services': true,
     'internal-management': true,
@@ -73,6 +78,7 @@ function App() {
     id: string;
     color: string;
     children?: NavigationItem[];
+    externalUrl?: string;
   };
 
   const colorMap: Record<string, string> = {
@@ -102,39 +108,53 @@ function App() {
     orange: 'text-orange-600 dark:text-orange-400',
   };
 
+  const skyOfficeExternalUrl =
+    typeof import.meta !== 'undefined' &&
+    typeof import.meta.env !== 'undefined' &&
+    import.meta.env.VITE_SKYOFFICE_URL
+      ? import.meta.env.VITE_SKYOFFICE_URL
+      : 'https://sky-office.co/';
+
+  const resolveAvatarUrl = (user: typeof currentUser) => {
+    const avatarCandidate =
+      (typeof user?.avatar_url === 'string' && user.avatar_url.trim()) ||
+      (typeof user?.avatarUrl === 'string' && user.avatarUrl.trim()) ||
+      (typeof user?.avatar === 'string' && user.avatar.trim());
+
+    if (avatarCandidate && avatarCandidate.length > 0) {
+      return avatarCandidate;
+    }
+
+    const seed = user?.name || 'user';
+    return `https://api.dicebear.com/7.x/avataaars/svg?seed=${encodeURIComponent(seed)}`;
+  };
+
   const navigationItems: NavigationItem[] = [
     { icon: LayoutGrid, text: '控制台', id: 'dashboard', color: 'blue' },
-    { icon: UserRound, text: '员工管理', id: 'employees', color: 'blue' },
     { icon: ListTodo, text: '任务管理', id: 'tasks', color: 'blue' },
-    { icon: Bot, text: '申请Copilot', id: 'study-copilot', color: 'blue' },
+    { icon: Users, text: '学生管理', id: 'students-legacy', color: 'blue' },
     {
       icon: Shield,
-      text: '内部管理',
+      text: '团队管理',
       id: 'internal-management',
       color: 'blue',
       children: [
         {
-          icon: Shield,
-          text: '组织与权限',
-          id: 'internal-management/organization-and-permissions',
-          color: 'blue',
-        },
-        {
           icon: Users2,
-          text: '员工与排班',
+          text: '团队成员',
           id: 'internal-management/employee-and-scheduling',
           color: 'blue',
         },
         {
-          icon: GitBranch,
-          text: '流程中心',
-          id: 'internal-management/process-center',
+          icon: LogIn,
+          text: '入职与离职',
+          id: 'internal-management/onboarding',
           color: 'blue',
         },
         {
-          icon: ShieldAlert,
-          text: '合规监督',
-          id: 'internal-management/compliance-governance',
+          icon: Briefcase,
+          text: '招聘中心',
+          id: 'internal-management/recruitment',
           color: 'blue',
         },
         {
@@ -151,14 +171,15 @@ function App() {
       id: 'study-services',
       color: 'blue',
       children: [
-        { icon: Users, text: '学生管理', id: 'students', color: 'blue' },
-        { icon: UserSquare2, text: '导师管理', id: 'mentors', color: 'blue' },
-        { icon: Compass, text: '选校规划', id: 'school-selection-planner', color: 'blue' },
+        { icon: Users, text: '申请学生', id: 'students', color: 'blue' },
         { icon: History, text: '服务进度', id: 'service-chronology', color: 'blue' },
+        { icon: Compass, text: '选校规划', id: 'school-selection-planner', color: 'blue' },
         { icon: BookOpen, text: '文书工作台', id: 'application-workbench', color: 'blue' },
-        { icon: ClipboardList, text: '项目任务', id: 'project-mission-board', color: 'blue' },
-        { icon: Users, text: '学生（旧版）', id: 'students-legacy', color: 'blue' },
+        { icon: Globe2, text: '项目市场', id: 'project-marketplace', color: 'blue' },
+        { icon: GraduationCap, text: '全球教授库', id: 'professor-directory', color: 'blue' },
+        { icon: UserSquare2, text: '导师管理', id: 'mentors', color: 'blue' },
         { icon: UserSquare2, text: '导师（旧版）', id: 'mentors-legacy', color: 'blue' },
+        { icon: ClipboardList, text: '留学案例库', id: 'cases', color: 'blue' },
       ],
     },
     {
@@ -209,8 +230,14 @@ function App() {
     { icon: FileCheck, text: '申请进度', id: 'applications', color: 'blue' },
     { icon: MessagesSquare, text: '客户线索', id: 'leads', color: 'blue' },
     { icon: Calendar, text: '会议管理', id: 'meetings', color: 'blue' },
+    {
+      icon: Globe2,
+      text: 'SkyOffice',
+      id: 'sky-office',
+      color: 'blue',
+      externalUrl: skyOfficeExternalUrl,
+    },
     { icon: Library, text: '知识库', id: 'knowledge', color: 'blue' },
-    { icon: ClipboardList, text: '案例库', id: 'cases', color: 'blue' },
     { icon: FileText, text: '合同管理', id: 'contracts', color: 'blue' },
     { icon: PieChart, text: '财务中台', id: 'finance-suite', color: 'blue' },
     { icon: Wallet, text: '财务管理（旧版）', id: 'finance', color: 'gray' },
@@ -341,17 +368,11 @@ function App() {
     } else if (path.includes('education-training/tutor-portal')) {
       setCurrentPage('education-training/tutor-portal');
       setExpandedGroups((prev) => ({ ...prev, 'education-training': true }));
-    } else if (path.includes('internal-management/organization-and-permissions')) {
-      setCurrentPage('internal-management/organization-and-permissions');
-      setExpandedGroups((prev) => ({ ...prev, 'internal-management': true }));
     } else if (path.includes('internal-management/employee-and-scheduling')) {
       setCurrentPage('internal-management/employee-and-scheduling');
       setExpandedGroups((prev) => ({ ...prev, 'internal-management': true }));
-    } else if (path.includes('internal-management/process-center')) {
-      setCurrentPage('internal-management/process-center');
-      setExpandedGroups((prev) => ({ ...prev, 'internal-management': true }));
-    } else if (path.includes('internal-management/compliance-governance')) {
-      setCurrentPage('internal-management/compliance-governance');
+    } else if (path.includes('internal-management/onboarding')) {
+      setCurrentPage('internal-management/onboarding');
       setExpandedGroups((prev) => ({ ...prev, 'internal-management': true }));
     } else if (path.includes('internal-management/system-settings')) {
       setCurrentPage('internal-management/system-settings');
@@ -360,8 +381,6 @@ function App() {
       setCurrentPage('service-center');
     } else if (path.includes('dashboard')) {
       setCurrentPage('dashboard');
-    } else if (path.includes('employees')) {
-      setCurrentPage('employees');
     } else if (path.includes('tasks')) {
       setCurrentPage('tasks');
     } else if (path.includes('team-chat')) {
@@ -370,8 +389,6 @@ function App() {
       setCurrentPage('students-legacy');
     } else if (path.includes('students')) {
       setCurrentPage('students');
-    } else if (path.includes('study-copilot')) {
-      setCurrentPage('study-copilot');
     } else if (path.includes('school-library')) {
       setCurrentPage('school-library');
     } else if (path.includes('program-library')) {
@@ -386,6 +403,10 @@ function App() {
       setCurrentPage('application-workbench');
     } else if (path.includes('project-mission-board')) {
       setCurrentPage('project-mission-board');
+    } else if (path.includes('project-marketplace')) {
+      setCurrentPage('project-marketplace');
+    } else if (path.includes('professor-directory')) {
+      setCurrentPage('professor-directory');
     } else if (path.includes('school-selection-planner')) {
       setCurrentPage('school-selection-planner');
     } else if (path.includes('service-chronology')) {
@@ -396,6 +417,8 @@ function App() {
       setCurrentPage('leads');
     } else if (path.includes('mentors')) {
       setCurrentPage('mentors');
+    } else if (path.includes('sky-office')) {
+      setCurrentPage('sky-office');
     } else if (path.includes('knowledge') && !path.includes('knowledge-hub')) {
       setCurrentPage('knowledge');
     } else if (path.includes('interview')) {
@@ -419,7 +442,17 @@ function App() {
     }
 
     if (
-      ['students', 'mentors', 'school-selection-planner', 'service-chronology', 'application-workbench', 'project-mission-board', 'students-legacy', 'mentors-legacy'].some((segment) =>
+      [
+        'students',
+        'mentors',
+        'school-selection-planner',
+        'service-chronology',
+        'application-workbench',
+        'project-mission-board',
+        'project-marketplace',
+        'professor-directory',
+        'mentors-legacy',
+      ].some((segment) =>
         path.includes(segment)
       )
     ) {
@@ -440,10 +473,7 @@ function App() {
 
     if (
       [
-        'internal-management/organization-and-permissions',
         'internal-management/employee-and-scheduling',
-        'internal-management/process-center',
-        'internal-management/compliance-governance',
         'internal-management/system-settings',
       ].some((segment) => path.includes(segment))
     ) {
@@ -472,6 +502,11 @@ function App() {
   };
 
   const handleNavigation = (item: NavigationItem) => {
+    if (item.externalUrl) {
+      setCurrentPage(item.id);
+      window.open(item.externalUrl, '_blank', 'noopener,noreferrer');
+      return;
+    }
     if (item.children?.length && !isNavCollapsed) {
       setExpandedGroups((prev) => ({ ...prev, [item.id]: true }));
     }
@@ -521,15 +556,24 @@ function App() {
             <item.icon className={`h-5 w-5 flex-shrink-0 ${iconClass}`} />
             {!isNavCollapsed && <span>{item.text}</span>}
             {isGroup && !isNavCollapsed && (
-              <button
+              <span
+                role="button"
+                tabIndex={0}
                 onClick={(e) => {
                   e.stopPropagation();
                   toggleGroup(item.id);
                 }}
-                className="ml-auto rounded-lg p-1 text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700/60"
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    toggleGroup(item.id);
+                  }
+                }}
+                className="ml-auto rounded-lg p-1 text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700/60 cursor-pointer"
               >
                 <ChevronDown className={`h-4 w-4 transition-transform ${isExpanded ? 'rotate-0' : '-rotate-90'}`} />
-              </button>
+              </span>
             )}
           </button>
           {isGroup && isExpanded && !isNavCollapsed && (
@@ -648,9 +692,12 @@ function App() {
                     </button>
                     <div className="flex items-center gap-3">
                       <img
-                        src={currentUser?.avatar_url || `https://api.dicebear.com/7.x/avataaars/svg?seed=${currentUser?.name || 'user'}`}
+                        src={resolveAvatarUrl(currentUser)}
                         alt="User"
                         className="h-8 w-8 rounded-xl object-cover"
+                        onError={(event) => {
+                          (event.currentTarget as HTMLImageElement).src = resolveAvatarUrl(null);
+                        }}
                       />
                       <div>
                         <div className="font-medium dark:text-white">

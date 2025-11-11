@@ -1,12 +1,17 @@
-import React, { useState } from 'react';
-import { Search, ChevronLeft, ChevronRight, UserPlus, FileCheck, Download, SlidersHorizontal, PenTool, Layers, Book, BookOpen, Languages, Award, Briefcase, FileText, FileSpreadsheet, Users, Calendar, Edit, Trash2, AlertCircle, Mail, GraduationCap, MoreVertical, Grid3x3, List, PlayCircle, Clock, BookMarked } from 'lucide-react';
+import React, { useCallback, useMemo, useState } from 'react';
+import { Search, ChevronLeft, ChevronRight, UserPlus, FileCheck, Download, SlidersHorizontal, PenTool, Layers, Book, BookOpen, Languages, Award, Briefcase, FileText, FileSpreadsheet, Users, Calendar, Edit, Trash2, AlertCircle, Mail, GraduationCap, MoreVertical, Grid3x3, List, PlayCircle, Clock, BookMarked, AlertTriangle, Globe, PieChart, BarChart3, Table } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { peopleService } from '../../../services'; // 导入peopleService
 import { exportStudentsToCSV, exportStudentsDetailToCSV, downloadCSV } from '../../../utils/export';
 import StudentAddModal from '../../../components/StudentAddModal';
-import { ServiceType } from '../../../types/service';
+import { ServiceType, getServiceCategory } from '../../../types/service';
 import { formatDate } from '../../../utils/dateUtils';
 import { useDataContext } from '../../../context/DataContext'; // 导入数据上下文
+import {
+  BUSINESS_LINE_META,
+  DEFAULT_BUSINESS_LINE,
+  StudentBusinessLine,
+} from '../../../context/studentBusinessLines';
 
 // 用于显示的学生数据类型
 export interface StudentDisplay {
@@ -26,9 +31,15 @@ export interface StudentDisplay {
   location?: string; // 所在地区
   address?: string;  // 详细地址
   contact?: string;  // 联系电话
+  businessLines: StudentBusinessLine[];
+  primaryBusinessLine: StudentBusinessLine;
   services: {
     id: string;
+    serviceTypeId: number;
     serviceType: ServiceType;
+    serviceCategory: string;
+    serviceEducationLevel?: string | null;
+    serviceParentId?: number | null;
     standardizedTestType?: string;
     status: string;
     enrollmentDate: string;
@@ -39,7 +50,18 @@ export interface StudentDisplay {
       avatar: string;
       roles: string[];
       isPrimary?: boolean;
+      roleKey?: string;
+      roleName?: string;
+      responsibilities?: string;
     }[];
+    mentorAssignments?: Array<{
+      mentorId: number | null;
+      name: string;
+      roleKey: string;
+      roleName: string;
+      responsibilities?: string;
+      isPrimary?: boolean;
+    }>;
   }[];
 }
 
@@ -90,13 +112,19 @@ function StudentsPage() {
   const navigate = useNavigate();
   
   // 使用DataContext获取学生数据
-  const { students, loadingStudents: loading, refreshStudents } = useDataContext();
+  const { 
+    students, 
+    loadingStudents: loading, 
+    refreshStudents,
+    serviceTypes,
+    loadingServiceTypes
+  } = useDataContext();
   
   // 状态
   const [activeTab, setActiveTab] = useState<string>('全部学生');
   const [filterOpen, setFilterOpen] = useState<boolean>(false);
   const [searchTerm, setSearchTerm] = useState<string>('');
-  const [selectedServiceType, setSelectedServiceType] = useState<ServiceType | '全部'>('全部');
+  const [selectedServiceType, setSelectedServiceType] = useState<'全部' | string>('全部');
   const [selectedStatus, setSelectedStatus] = useState<string>('全部');
   const [showExportMenu, setShowExportMenu] = useState<boolean>(false);
   const [showAddModal, setShowAddModal] = useState<boolean>(false);
@@ -109,6 +137,147 @@ function StudentsPage() {
   
   // 视图模式切换: 'card' 或 'table'
   const [viewMode, setViewMode] = useState<'card' | 'table'>('card');
+const [businessViewMode, setBusinessViewMode] = useState<'table' | 'chart'>('table');
+
+  const serviceTypeOptions = useMemo(() => {
+    const parents = serviceTypes.filter(type => !type.parent_id);
+    const parentIdSet = new Set(parents.map(p => p.id));
+    const groups = parents.map(parent => ({
+      parent,
+      children: serviceTypes.filter(type => type.parent_id === parent.id)
+    }));
+    const orphanChildren = serviceTypes.filter(
+      type => type.parent_id && !parentIdSet.has(type.parent_id)
+    );
+    return { groups, orphanChildren };
+  }, [serviceTypes]);
+
+const overallStats = useMemo(() => {
+  const result = {
+    total: students.length,
+    active: 0,
+    multiLine: 0,
+    servicesCount: 0,
+  };
+
+  students.forEach((student) => {
+    if (student.status === '活跃') {
+      result.active += 1;
+    }
+    if (student.businessLines.length > 1) {
+      result.multiLine += 1;
+    }
+    result.servicesCount += student.services.length;
+  });
+
+  return result;
+}, [students]);
+
+const businessLineMetrics = useMemo(() => {
+  if (students.length === 0) {
+    return [];
+  }
+
+  const totals = new Map<
+    StudentBusinessLine,
+    { total: number; active: number; serviceCount: number }
+  >();
+
+  students.forEach((student) => {
+    const primary = student.primaryBusinessLine ?? DEFAULT_BUSINESS_LINE;
+    const entry = totals.get(primary) ?? { total: 0, active: 0, serviceCount: 0 };
+    entry.total += 1;
+    entry.serviceCount += student.services.length;
+    if (student.status === '活跃') {
+      entry.active += 1;
+    }
+    totals.set(primary, entry);
+  });
+
+  const overall = students.length || 1;
+
+  return Array.from(totals.entries())
+    .map(([line, stats]) => ({
+      line,
+      total: stats.total,
+      active: stats.active,
+      share: stats.total / overall,
+      activeRate: stats.total > 0 ? stats.active / stats.total : 0,
+      avgServices: stats.total > 0 ? stats.serviceCount / stats.total : 0,
+    }))
+    .sort((a, b) => b.total - a.total);
+}, [students]);
+
+const formatPercent = useCallback((value: number, digits = 0) => {
+  if (!Number.isFinite(value)) return '0%';
+  const percentage = (value * 100).toFixed(digits);
+  return `${percentage.replace(/\.0+$/, '')}%`;
+}, []);
+
+const activeRate = overallStats.total > 0 ? overallStats.active / overallStats.total : 0;
+const averageServicesPerStudent =
+  overallStats.total > 0 ? overallStats.servicesCount / overallStats.total : 0;
+const multiLineRate = overallStats.total > 0 ? overallStats.multiLine / overallStats.total : 0;
+const businessLineCoverage = businessLineMetrics.length;
+const topBusinessLine = businessLineMetrics[0];
+const topBusinessMeta = topBusinessLine ? BUSINESS_LINE_META[topBusinessLine.line] : undefined;
+const maxShare = businessLineMetrics.reduce((acc, cur) => Math.max(acc, cur.share), 0);
+
+const headlineMetrics = useMemo(
+  () => [
+    {
+      key: 'total',
+      label: '总学生',
+      value: overallStats.total.toLocaleString(),
+      suffix: '人',
+      description: `活跃 ${overallStats.active} 人 · ${formatPercent(activeRate)}`,
+      icon: Users,
+      iconBg: 'bg-blue-100 text-blue-600 dark:bg-blue-900/40 dark:text-blue-300',
+    },
+    {
+      key: 'coverage',
+      label: '业务线覆盖',
+      value: businessLineCoverage.toString(),
+      suffix: '条',
+      description: topBusinessMeta
+        ? `TOP ${topBusinessMeta.label} · ${formatPercent(topBusinessLine?.share ?? 0)}`
+        : '等待接入学生数据',
+      icon: Layers,
+      iconBg: 'bg-indigo-100 text-indigo-600 dark:bg-indigo-900/40 dark:text-indigo-300',
+    },
+    {
+      key: 'multiLine',
+      label: '多业务学生占比',
+      value: formatPercent(multiLineRate),
+      suffix: '',
+      description: `${overallStats.multiLine} 人覆盖 ≥2 条业务线`,
+      icon: PieChart,
+      iconBg: 'bg-emerald-100 text-emerald-600 dark:bg-emerald-900/40 dark:text-emerald-300',
+    },
+    {
+      key: 'services',
+      label: '平均服务数',
+      value: averageServicesPerStudent.toFixed(1),
+      suffix: '项/生',
+      description: `合计 ${overallStats.servicesCount} 项进行中服务`,
+      icon: BarChart3,
+      iconBg: 'bg-orange-100 text-orange-600 dark:bg-orange-900/40 dark:text-orange-300',
+    },
+  ],
+  [
+    overallStats.total,
+    overallStats.active,
+    overallStats.multiLine,
+    overallStats.servicesCount,
+    activeRate,
+    multiLineRate,
+    averageServicesPerStudent,
+    businessLineCoverage,
+    topBusinessMeta,
+    topBusinessLine?.share,
+    formatPercent,
+  ],
+);
 
   // 点击编辑按钮
   const handleEditClick = (e: React.MouseEvent, student: StudentDisplay) => {
@@ -170,8 +339,23 @@ function StudentsPage() {
     const matchesStatus = selectedStatus === '全部' || student.status === selectedStatus;
     
     // 服务类型筛选
-    const matchesServiceType = selectedServiceType === '全部' || 
-      student.services.some(service => service.serviceType === selectedServiceType);
+    let matchesServiceType = true;
+    if (selectedServiceType !== '全部') {
+      if (selectedServiceType.startsWith('category:')) {
+        const category = selectedServiceType.replace('category:', '');
+        matchesServiceType = student.services.some(service => service.serviceCategory === category);
+      } else if (selectedServiceType.startsWith('type:')) {
+        const rawId = selectedServiceType.replace('type:', '');
+        const targetId = Number(rawId);
+        if (!Number.isNaN(targetId)) {
+          matchesServiceType = student.services.some(service => service.serviceTypeId === targetId);
+        } else {
+          matchesServiceType = student.services.some(service => service.serviceType === selectedServiceType);
+        }
+      } else {
+        matchesServiceType = student.services.some(service => service.serviceType === selectedServiceType);
+      }
+    }
     
     // 标签页筛选
     const matchesTab = activeTab === '全部学生' || 
@@ -184,15 +368,32 @@ function StudentsPage() {
   });
 
   // 服务类型图标映射
-  const serviceIcons = {
-    '语言培训': <Languages className="h-4 w-4" />,
-    '标化培训': <BookOpen className="h-4 w-4" />,
-    '全包申请': <Briefcase className="h-4 w-4" />,
-    '半DIY申请': <Layers className="h-4 w-4" />,
-    '研学': <Award className="h-4 w-4" />,
-    '课业辅导': <Book className="h-4 w-4" />,
-    '科研指导': <FileCheck className="h-4 w-4" />,
-    '作品集辅导': <PenTool className="h-4 w-4" />
+  const renderServiceIcon = (category: string, name: string) => {
+    const normalizedCategory = category || getServiceCategory(name);
+    switch (normalizedCategory) {
+      case '语言培训':
+        return <Languages className="h-4 w-4 text-blue-600 dark:text-blue-400" />;
+      case '标化培训':
+        return <BookOpen className="h-4 w-4 text-purple-600 dark:text-purple-400" />;
+      case '全包申请':
+        return <Briefcase className="h-4 w-4 text-green-600 dark:text-green-400" />;
+      case '半DIY申请':
+        return <Layers className="h-4 w-4 text-orange-600 dark:text-orange-400" />;
+      case '研学':
+        return <Award className="h-4 w-4 text-yellow-600 dark:text-yellow-400" />;
+      case '课业辅导':
+        return <Book className="h-4 w-4 text-indigo-600 dark:text-indigo-400" />;
+      case '科研指导':
+        return <FileCheck className="h-4 w-4 text-teal-600 dark:text-teal-400" />;
+      case '作品集辅导':
+        return <PenTool className="h-4 w-4 text-pink-600 dark:text-pink-400" />;
+      case '申诉服务':
+        return <AlertTriangle className="h-4 w-4 text-red-600 dark:text-red-400" />;
+      case '签证办理':
+        return <Globe className="h-4 w-4 text-emerald-600 dark:text-emerald-400" />;
+      default:
+        return <FileCheck className="h-4 w-4 text-gray-600 dark:text-gray-400" />;
+    }
   };
 
   // 获取状态样式类
@@ -263,8 +464,8 @@ function StudentsPage() {
       {/* 顶部导航 */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <div className="flex flex-col">
-        <h1 className="text-2xl font-bold dark:text-white">学生管理</h1>
-          <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">查看和管理所有学生信息</p>
+          <h1 className="text-2xl font-bold dark:text-white">学生管理总览</h1>
+          <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">汇总所有业务线学生，提供跨服务的全局视角</p>
         </div>
         <div className="flex flex-wrap gap-3">
           <div className="relative">
@@ -361,6 +562,339 @@ function StudentsPage() {
         </div>
       </div>
 
+      {/* 跨业务 KPI 汇总 */}
+      <div className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/60 dark:bg-gray-800">
+        <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+          <div>
+            <h2 className="text-lg font-semibold text-gray-900 dark:text-white">跨业务 KPI 总览</h2>
+            <p className="text-sm text-gray-500 dark:text-gray-400">统一查看学生规模、业务覆盖与服务密度表现。</p>
+          </div>
+          <span className="inline-flex items-center gap-2 rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-600 dark:bg-gray-700/60 dark:text-gray-300">
+            <Layers className="h-3.5 w-3.5" />
+            已覆盖 {businessLineCoverage} 条业务线
+          </span>
+        </div>
+        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {headlineMetrics.map((metric) => {
+            const Icon = metric.icon;
+            return (
+              <div
+                key={metric.key}
+                className="flex items-center gap-3 rounded-xl border border-gray-100 bg-white/80 p-3 dark:border-gray-700/60 dark:bg-gray-900/40"
+              >
+                <div className={`flex h-11 w-11 items-center justify-center rounded-xl ${metric.iconBg}`}>
+                  <Icon className="h-5 w-5" />
+                </div>
+                <div className="min-w-0">
+                  <p className="text-xs font-medium uppercase tracking-wide text-gray-500 dark:text-gray-400">
+                    {metric.label}
+                  </p>
+                  <div className="mt-1 flex items-baseline gap-1">
+                    <span className="text-xl font-semibold text-gray-900 dark:text-white">{metric.value}</span>
+                    {metric.suffix && (
+                      <span className="text-xs text-gray-400 dark:text-gray-500">{metric.suffix}</span>
+                    )}
+                  </div>
+                  <p className="truncate text-xs text-gray-500 dark:text-gray-400">{metric.description}</p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* 业务线分布概览 */}
+      {businessLineMetrics.length > 0 && (
+        <div className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/60 dark:bg-gray-800">
+          <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+            <div>
+              <h2 className="text-lg font-semibold text-gray-900 dark:text-white">业务线分布总览</h2>
+              <p className="text-sm text-gray-500 dark:text-gray-400">按主业务线聚合，快速洞察各线体量与活跃度。</p>
+            </div>
+            <div className="flex flex-wrap items-center gap-2">
+              <div className="flex rounded-xl border border-gray-200 bg-white text-xs font-medium dark:border-gray-700 dark:bg-gray-900/40">
+                <button
+                  onClick={() => setBusinessViewMode('table')}
+                  className={`flex items-center gap-1 rounded-l-xl px-3 py-1.5 transition-colors ${
+                    businessViewMode === 'table'
+                      ? 'bg-blue-600 text-white'
+                      : 'text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200'
+                  }`}
+                >
+                  <Table className="h-3.5 w-3.5" />
+                  表格
+                </button>
+                <button
+                  onClick={() => setBusinessViewMode('chart')}
+                  className={`flex items-center gap-1 rounded-r-xl px-3 py-1.5 transition-colors ${
+                    businessViewMode === 'chart'
+                      ? 'bg-blue-600 text-white'
+                      : 'text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200'
+                  }`}
+                >
+                  <BarChart3 className="h-3.5 w-3.5" />
+                  图表
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {businessViewMode === 'table' ? (
+            <div className="mt-4 overflow-x-auto">
+              <table className="min-w-full divide-y divide-gray-200 text-sm dark:divide-gray-700">
+                <thead className="bg-gray-50 text-left text-xs font-medium uppercase tracking-wider text-gray-500 dark:bg-gray-900/40 dark:text-gray-400">
+                  <tr>
+                    <th scope="col" className="px-4 py-3">业务线</th>
+                    <th scope="col" className="px-4 py-3">学生数</th>
+                    <th scope="col" className="px-4 py-3">占比</th>
+                    <th scope="col" className="px-4 py-3">活跃率</th>
+                    <th scope="col" className="px-4 py-3">平均服务</th>
+                    <th scope="col" className="px-4 py-3">业务说明</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-100 text-gray-700 dark:divide-gray-800 dark:text-gray-300">
+                  {businessLineMetrics.map((metric) => {
+                    const meta = BUSINESS_LINE_META[metric.line] ?? BUSINESS_LINE_META.other;
+                    return (
+                      <tr key={metric.line} className="hover:bg-gray-50/70 dark:hover:bg-gray-800/40">
+                        <td className="px-4 py-4 text-sm font-semibold text-gray-900 dark:text-white">
+                          {meta.label}
+                        </td>
+                        <td className="px-4 py-4 font-medium text-gray-900 dark:text-white">{metric.total}</td>
+                        <td className="px-4 py-4">
+                          <span className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium ${meta.accentBg} ${meta.accentText}`}>
+                            {formatPercent(metric.share)}
+                          </span>
+                        </td>
+                        <td className="px-4 py-4">{formatPercent(metric.activeRate)}</td>
+                        <td className="px-4 py-4">{metric.avgServices.toFixed(1)}</td>
+                        <td className="px-4 py-4 text-xs leading-5 text-gray-500 dark:text-gray-400">{meta.description}</td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          ) : (
+            businessLineMetrics.length > 0 && (
+              <div className="mt-6 space-y-5">
+                {(() => {
+                  const chartHeight = 240;
+                  const chartWidth = Math.max(360, businessLineMetrics.length * 140);
+                  const paddingX = 40;
+                  const paddingY = 28;
+                  const shareDenominator = Math.max(maxShare, 0.0001);
+                  const getX = (index: number) =>
+                    businessLineMetrics.length === 1
+                      ? chartWidth / 2
+                      : paddingX +
+                        (index / (businessLineMetrics.length - 1)) *
+                          (chartWidth - paddingX * 2);
+                  const getY = (share: number) =>
+                    paddingY +
+                    (1 - share / shareDenominator) * (chartHeight - paddingY * 2);
+
+                  const points = businessLineMetrics.map((metric, index) => ({
+                    metric,
+                    x: getX(index),
+                    y: getY(metric.share),
+                  }));
+
+                  const polylinePoints =
+                    points.length > 1
+                      ? points.map((point) => `${point.x},${point.y}`).join(' ')
+                      : `${points[0].x},${points[0].y}`;
+
+                  const areaPath =
+                    points.length > 1
+                      ? `M ${points[0].x} ${chartHeight - paddingY} ${points
+                          .map((point) => `L ${point.x} ${point.y}`)
+                          .join(' ')} L ${
+                          points[points.length - 1].x
+                        } ${chartHeight - paddingY} L ${points[0].x} ${
+                          chartHeight - paddingY
+                        } Z`
+                      : `M ${points[0].x - 40} ${chartHeight - paddingY} L ${
+                          points[0].x - 40
+                        } ${points[0].y} L ${points[0].x + 40} ${
+                          points[0].y
+                        } L ${points[0].x + 40} ${chartHeight - paddingY} Z`;
+
+                  const yTicks = Array.from({ length: 5 }, (_, idx) =>
+                    (shareDenominator / 4) * idx,
+                  ).reverse();
+
+                  return (
+                    <>
+                      <div className="overflow-x-auto">
+                        <div style={{ minWidth: chartWidth }}>
+                          <svg
+                            viewBox={`0 0 ${chartWidth} ${chartHeight}`}
+                            className="h-60 w-full"
+                            role="img"
+                            aria-label="业务线占比折线图"
+                          >
+                            <defs>
+                              <linearGradient
+                                id="business-line-area"
+                                x1="0"
+                                y1="0"
+                                x2="0"
+                                y2="1"
+                              >
+                                <stop offset="0%" stopColor="rgba(59,130,246,0.35)" />
+                                <stop offset="100%" stopColor="rgba(59,130,246,0)" />
+                              </linearGradient>
+                            </defs>
+
+                            <line
+                              x1={paddingX}
+                              y1={paddingY}
+                              x2={paddingX}
+                              y2={chartHeight - paddingY}
+                              stroke="rgba(148,163,184,0.35)"
+                              strokeWidth={1}
+                            />
+                            <line
+                              x1={paddingX}
+                              y1={chartHeight - paddingY}
+                              x2={chartWidth - paddingX}
+                              y2={chartHeight - paddingY}
+                              stroke="rgba(148,163,184,0.35)"
+                              strokeWidth={1}
+                            />
+
+                            {yTicks.map((tickValue, index) => {
+                              const y = getY(tickValue);
+                              return (
+                                <g key={`tick-${index}`}>
+                                  <line
+                                    x1={paddingX}
+                                    x2={chartWidth - paddingX}
+                                    y1={y}
+                                    y2={y}
+                                    stroke="rgba(148,163,184,0.15)"
+                                    strokeWidth={1}
+                                    strokeDasharray="4 6"
+                                  />
+                                  <text
+                                    x={paddingX - 12}
+                                    y={y + 3}
+                                    textAnchor="end"
+                                    className="text-[10px] fill-gray-400 dark:fill-gray-500"
+                                  >
+                                    {formatPercent(tickValue, 0)}
+                                  </text>
+                                </g>
+                              );
+                            })}
+
+                            <path
+                              d={areaPath}
+                              fill="url(#business-line-area)"
+                              opacity={0.55}
+                            />
+
+                            <polyline
+                              points={polylinePoints}
+                              fill="none"
+                              stroke="#2563eb"
+                              strokeWidth={3}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+
+                            {points.map((point) => {
+                              const meta =
+                                BUSINESS_LINE_META[point.metric.line] ??
+                                BUSINESS_LINE_META.other;
+                              return (
+                                <g key={`${point.metric.line}-point`}>
+                                  <circle
+                                    cx={point.x}
+                                    cy={point.y}
+                                    r={6}
+                                    fill="#ffffff"
+                                  />
+                                  <circle
+                                    cx={point.x}
+                                    cy={point.y}
+                                    r={5}
+                                    fill={meta.brandColor}
+                                  />
+                                  <text
+                                    x={point.x}
+                                    y={point.y - 12}
+                                    textAnchor="middle"
+                                    className="text-[10px] font-medium fill-gray-600 dark:fill-gray-300"
+                                  >
+                                    {formatPercent(point.metric.share, 1)}
+                                  </text>
+                                </g>
+                              );
+                            })}
+
+                            {points.map((point) => {
+                              const meta =
+                                BUSINESS_LINE_META[point.metric.line] ??
+                                BUSINESS_LINE_META.other;
+                              return (
+                                <text
+                                  key={`${point.metric.line}-label`}
+                                  x={point.x}
+                                  y={chartHeight - paddingY + 20}
+                                  textAnchor="middle"
+                                  className="text-[11px] fill-gray-600 dark:fill-gray-400"
+                                >
+                                  {meta.label}
+                                </text>
+                              );
+                            })}
+                          </svg>
+                        </div>
+                      </div>
+
+                      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                        {points.map((point) => {
+                          const { metric } = point;
+                          const meta =
+                            BUSINESS_LINE_META[metric.line] ?? BUSINESS_LINE_META.other;
+                          return (
+                            <div
+                              key={`${metric.line}-summary`}
+                              className="rounded-xl border border-gray-100 bg-white/80 p-4 dark:border-gray-700/60 dark:bg-gray-900/40"
+                            >
+                              <div className="flex items-center justify-between gap-2">
+                                <p className="text-sm font-semibold text-gray-900 dark:text-white">
+                                  {meta.label}
+                                </p>
+                                <span
+                                  className="inline-flex h-2.5 w-2.5 rounded-full"
+                                  style={{ backgroundColor: meta.brandColor }}
+                                />
+                              </div>
+                              <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">
+                                {meta.description}
+                              </p>
+                              <div className="mt-3 flex flex-wrap items-center gap-4 text-xs text-gray-500 dark:text-gray-400">
+                                <span>学生 {metric.total}</span>
+                                <span>占比 {formatPercent(metric.share, 1)}</span>
+                                <span>活跃率 {formatPercent(metric.activeRate, 1)}</span>
+                                <span>平均服务 {metric.avgServices.toFixed(1)}</span>
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </>
+                  );
+                })()}
+              </div>
+            )
+          )}
+        </div>
+      )}
+
       {/* 筛选面板 */}
       {filterOpen && (
         <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 dark:border-gray-700 dark:bg-gray-800">
@@ -383,18 +917,42 @@ function StudentsPage() {
               <label className="block text-sm font-medium text-gray-700 mb-2 dark:text-gray-300">服务类型</label>
               <select
                 value={selectedServiceType}
-                onChange={(e) => setSelectedServiceType(e.target.value as ServiceType | '全部')}
-                className="w-full p-2 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                onChange={(e) => setSelectedServiceType(e.target.value)}
+                disabled={loadingServiceTypes}
+                className="w-full p-2 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 disabled:bg-gray-100 disabled:text-gray-400 dark:disabled:bg-gray-700 dark:disabled:text-gray-500"
               >
                 <option value="全部">全部服务</option>
-                <option value="语言培训">语言培训</option>
-                <option value="标化培训">标化培训</option>
-                <option value="全包申请">全包申请</option>
-                <option value="半DIY申请">半DIY申请</option>
-                <option value="研学">研学</option>
-                <option value="课业辅导">课业辅导</option>
-                <option value="科研指导">科研指导</option>
-                <option value="作品集辅导">作品集辅导</option>
+                {loadingServiceTypes ? (
+                  <option value="loading" disabled>服务类型加载中...</option>
+                ) : (
+                  <>
+                    {serviceTypeOptions.groups.map(({ parent, children }) => (
+                      children.length > 0 ? (
+                        <optgroup key={parent.id} label={parent.name}>
+                          <option value={`category:${parent.category}`}>全部{parent.name}</option>
+                          {children.map((child) => (
+                            <option key={child.id} value={`type:${child.id}`}>
+                              {child.name}
+                            </option>
+                          ))}
+                        </optgroup>
+                      ) : (
+                        <option key={parent.id} value={`category:${parent.category}`}>
+                          {parent.name}
+                        </option>
+                      )
+                    ))}
+                    {serviceTypeOptions.orphanChildren.length > 0 && (
+                      <optgroup label="其他子分类">
+                        {serviceTypeOptions.orphanChildren.map((child) => (
+                          <option key={child.id} value={`type:${child.id}`}>
+                            {child.name}
+                          </option>
+                        ))}
+                      </optgroup>
+                    )}
+                  </>
+                )}
               </select>
               </div>
             <div className="flex items-end">
@@ -576,13 +1134,17 @@ function StudentsPage() {
                           key={service.id}
                           className="flex items-center gap-3 p-3 bg-gray-50 dark:bg-gray-700/50 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
                         >
-                          <div className={`p-2 rounded-lg flex-shrink-0 ${
-                            service.status === '进行中' ? 'bg-green-100 text-green-600 dark:bg-green-900/30 dark:text-green-400' : 
-                            'bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400'
-                          }`}>
-                            {serviceIcons[service.serviceType as keyof typeof serviceIcons] || <FileCheck className="h-4 w-4" />}
+                          <div
+                            className={`p-2 rounded-lg flex-shrink-0 ${
+                              service.status === '进行中'
+                                ? 'bg-green-100 text-green-600 dark:bg-green-900/30 dark:text-green-400'
+                                : 'bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400'
+                            }`}
+                          >
+                            {renderServiceIcon(service.serviceCategory, service.serviceType)}
                           </div>
-                          <div className="flex-1 min-w-0 flex items-center justify-between gap-3">
+                          <div className="flex-1 min-w-0">
+                            <div className="flex items-center justify-between gap-3">
                             <span className="text-sm font-medium text-gray-900 dark:text-white truncate">
                               {service.serviceType}
                               {service.standardizedTestType && ` (${service.standardizedTestType})`}
@@ -599,6 +1161,7 @@ function StudentsPage() {
                                 <span className="text-xs text-gray-500 dark:text-gray-400">
                                   {formatDate(service.enrollmentDate)}
                                 </span>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -745,8 +1308,14 @@ function StudentsPage() {
                             key={service.id}
                             className="px-3 py-2 bg-gray-50 rounded-lg flex items-center gap-3 dark:bg-gray-700/50"
                           >
-                            <div className={`p-2 rounded-lg flex-shrink-0 ${service.status === '进行中' ? 'bg-green-100 text-green-600 dark:bg-green-900/30 dark:text-green-400' : 'bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400'}`}>
-                              {serviceIcons[service.serviceType as keyof typeof serviceIcons] || <FileCheck className="h-4 w-4" />}
+                            <div
+                              className={`p-2 rounded-lg flex-shrink-0 ${
+                                service.status === '进行中'
+                                  ? 'bg-green-100 text-green-600 dark:bg-green-900/30 dark:text-green-400'
+                                  : 'bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400'
+                              }`}
+                            >
+                              {renderServiceIcon(service.serviceCategory, service.serviceType)}
                             </div>
                             <div className="flex-1 min-w-0">
                               <div className="flex flex-wrap items-center gap-2 text-sm font-medium text-gray-900 dark:text-white mb-1.5">

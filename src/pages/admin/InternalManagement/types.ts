@@ -39,6 +39,7 @@ export interface StaffProfile {
   name: string;
   role: string;
   team: string;
+  email?: string;
   workload: number;
   skills: string[];
   avatarUrl?: string;
@@ -50,6 +51,7 @@ export interface StaffProfile {
     school: string;
     year?: string;
   };
+  bio?: string;
   availability: Array<{
     day: string;
     start: string;

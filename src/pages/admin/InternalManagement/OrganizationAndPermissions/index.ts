@@ -1,2 +1,0 @@
-export { OrganizationAndPermissionsPage } from './OrganizationAndPermissionsPage';
-

@@ -93,7 +93,7 @@ const EmployeeDetailPage: React.FC = () => {
     if (window.confirm(`确定要删除员工 ${employee.name} 吗？此操作无法撤销。`)) {
       try {
         await employeeService.deleteEmployee(employee.id);
-        navigate('/admin/employees');
+        navigate('/admin/internal-management/employee-and-scheduling');
       } catch (err) {
         console.error('删除员工失败:', err);
         alert('删除员工失败，请稍后重试');
@@ -162,7 +162,7 @@ const EmployeeDetailPage: React.FC = () => {
         <div className="bg-white dark:bg-gray-800 rounded-xl p-8 text-center">
           <p className="text-red-500 dark:text-red-400">{error || '未找到员工数据'}</p>
           <button 
-            onClick={() => navigate('/admin/employees')}
+            onClick={() => navigate('/admin/internal-management/employee-and-scheduling')}
             className="mt-4 px-4 py-2 bg-purple-500 hover:bg-purple-600 rounded-lg text-white"
           >
             返回员工列表
@@ -178,7 +178,7 @@ const EmployeeDetailPage: React.FC = () => {
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-3">
           <button 
-            onClick={() => navigate('/admin/employees')}
+            onClick={() => navigate('/admin/internal-management/employee-and-scheduling')}
             className="p-2 text-gray-500 hover:text-purple-600 dark:text-gray-400 dark:hover:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-900/20 rounded-full"
           >
             <ArrowLeft className="h-5 w-5" />

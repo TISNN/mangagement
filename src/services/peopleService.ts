@@ -1,5 +1,11 @@
 import { supabase } from '../lib/supabase';
-import { StudentService, Person, StudentProfile } from '../types/people';
+import {
+  StudentService,
+  Person,
+  StudentProfile,
+  ServiceProjectOverview,
+  ServiceProgressLog,
+} from '../types/people';
 import { getCurrentLocalISOString } from '../utils/dateUtils';
 
 // 学生数据视图类型
@@ -31,6 +37,15 @@ interface MentorData {
   is_active: boolean;
 }
 
+interface MentorTeamRow {
+  mentor_id: number;
+  mentor_name: string;
+  role_key?: string;
+  role_name?: string;
+  responsibilities?: string;
+  is_primary?: boolean;
+}
+
 // 服务视图类型
 interface ServiceData {
   id: number;
@@ -45,11 +60,15 @@ interface ServiceData {
   progress?: number;
   payment_status?: string;
   detail_data?: Record<string, unknown>;
+  mentor_team?: MentorTeamRow[];
   service_type?: {
     id: number;
     name: string;
     description?: string;
     is_active: boolean;
+    category: string;
+    education_level?: string | null;
+    parent_id?: number | null;
   };
   mentor?: MentorData;
 }
@@ -69,20 +88,84 @@ interface ServiceProgressRecord {
 }
 
 // 服务进度历史记录接口
-interface ServiceProgressHistory {
+interface ServiceProjectsQueryRow {
   id: number;
-  student_service_id: number;
-  milestone: string;
-  progress_date: string;
-  description: string;
-  notes?: string;
-  completed_items?: Record<string, unknown>[];
-  next_steps?: Record<string, unknown>[];
-  attachments?: Record<string, unknown>[];
-  recorded_by: number;
-  employee_ref_id?: number;
-  created_at: string;
-  updated_at: string;
+  student_id?: number | null;
+  student_ref_id?: number | null;
+  service_type_id: number;
+  mentor_ref_id?: number | null;
+  status: string;
+  enrollment_date: string;
+  end_date?: string | null;
+  progress?: number | null;
+  detail_data?: Record<string, unknown> | null;
+  mentor_team?: Record<string, unknown>[] | null;
+  updated_at: string | null;
+  created_at?: string | null;
+  service_type?: {
+    id: number;
+    name: string;
+    category?: string | null;
+    education_level?: string | null;
+  } | null;
+  student?: {
+    id: number;
+    name: string;
+    avatar_url?: string | null;
+  } | null;
+  mentor?: {
+    id: number;
+    name?: string | null;
+    email?: string | null;
+    department?: string | null;
+    position?: string | null;
+  } | null;
+}
+
+const isRecord = (value: unknown): value is Record<string, unknown> =>
+  value !== null && typeof value === 'object' && !Array.isArray(value);
+
+const normalizeJsonArray = (value: unknown): Record<string, unknown>[] => {
+  if (!value) return [];
+  if (Array.isArray(value)) {
+    return value.filter(isRecord);
+  }
+  if (isRecord(value)) {
+    return [value];
+  }
+  return [];
+};
+
+const INACTIVE_STATUS_KEYWORDS = ['完成', '结束', '取消', '终止', '归档', '关闭', '暂停', '完成', 'close', 'done'];
+const INACTIVE_STATUS_VALUES = new Set(
+  [
+    'completed',
+    'complete',
+    'closed',
+    'cancelled',
+    'canceled',
+    'finished',
+    'archived',
+    'inactive',
+    'stopped',
+    'terminated',
+    'paused',
+  ].map((item) => item.toLowerCase()),
+);
+
+const isInactiveStatus = (status: unknown): boolean => {
+  if (typeof status !== 'string') return false;
+  const normalized = status.trim().toLowerCase();
+  if (!normalized) return false;
+  if (INACTIVE_STATUS_VALUES.has(normalized)) return true;
+  return INACTIVE_STATUS_KEYWORDS.some((keyword) => normalized.includes(keyword));
+};
+
+interface MentorRolePayload {
+  roleKey: string;
+  roleName: string;
+  responsibilities?: string;
+  mentors: Array<{ id: number; name: string; isPrimary?: boolean }>;
 }
 
 const peopleService = {
@@ -299,7 +382,7 @@ const peopleService = {
         .from('student_services')
         .select(`
           *,
-          service_type:service_type_id(id, name, description, is_active),
+          service_type:service_type_id(id, name, description, is_active, category, education_level, parent_id),
           mentor:mentor_ref_id(*)
         `)
         .eq('student_id', studentId);
@@ -311,18 +394,150 @@ const peopleService = {
       
       console.log(`获取到${data.length}项服务数据:`, data);
       
-      // 处理导师数据
-      const servicesWithMentorData = await Promise.all(data.map(async (service) => {
-        if (service.mentor) {
-          // 导师的详细信息已经包含在mentor对象中，无需额外查询
-          return service;
-        }
-        return service;
+      // detail_data 已弃用 mentor_team 取自新的 json 列
+      const servicesWithMentorData = data.map((service) => ({
+        ...service,
+        mentor_team: Array.isArray(service.mentor_team) ? service.mentor_team : [],
       }));
       
       return servicesWithMentorData as ServiceData[];
     } catch (error) {
       console.error(`获取学生服务失败，studentId=${studentId}`, error);
+      throw error;
+    }
+  },
+
+  // 获取服务项目概览（面向服务进度中心）
+  async getServiceProjectsOverview(): Promise<ServiceProjectOverview[]> {
+    try {
+      console.info('[peopleService] getServiceProjectsOverview 请求发送');
+      const { data, error } = await supabase
+        .from('student_services')
+        .select(`
+          id,
+          student_id,
+          student_ref_id,
+          service_type_id,
+          mentor_ref_id,
+          status,
+          enrollment_date,
+          end_date,
+          progress,
+          detail_data,
+          mentor_team,
+          created_at,
+          updated_at,
+          service_type:service_type_id (
+            id,
+            name,
+            category,
+            education_level
+          ),
+          student:student_ref_id (
+            id,
+            name,
+            avatar_url
+          ),
+          mentor:mentor_ref_id (
+            id,
+            name,
+            location,
+            service_scope,
+            employee_id
+          )
+        `)
+        .order('updated_at', { ascending: false, nullsFirst: true })
+        .order('created_at', { ascending: false })
+        .limit(200);
+
+      const servicesRaw = (data ?? []) as ServiceProjectsQueryRow[];
+      const services = servicesRaw.filter((service) => !isInactiveStatus(service.status));
+
+      console.info('[peopleService] getServiceProjectsOverview 响应', {
+        error,
+        total: servicesRaw.length,
+        rows: services.length,
+      });
+
+      if (error) throw error;
+
+      const missingStudentIds = services
+        .filter((service) => !service.student && service.student_id)
+        .map((service) => service.student_id as number);
+
+      let fallbackStudents: Record<number, { id: number; name: string; avatar_url?: string | null }> = {};
+
+      if (missingStudentIds.length > 0) {
+        const { data: fallbackData, error: fallbackError } = await supabase
+          .from('students')
+          .select('id, name, avatar_url')
+          .in('id', missingStudentIds);
+
+        if (fallbackError) {
+          console.error('获取学生补充信息失败:', fallbackError);
+        } else {
+          fallbackStudents = (fallbackData ?? []).reduce((acc, student) => {
+            acc[student.id] = student;
+            return acc;
+          }, {} as Record<number, { id: number; name: string; avatar_url?: string | null }>);
+        }
+      }
+
+      return services.map((service) => {
+        const studentInfo =
+          service.student ??
+          (service.student_id ? fallbackStudents[service.student_id] : undefined);
+
+        const mentorTeam = normalizeJsonArray(service.mentor_team);
+        const primaryMentorFromTeam = mentorTeam.find((member) => {
+          const typed = member as { is_primary?: boolean };
+          return typed.is_primary === true;
+        }) as { mentor_name?: string; mentor_id?: number } | undefined;
+
+        const detail = isRecord(service.detail_data) ? service.detail_data : undefined;
+        const phaseCandidate =
+          (detail?.current_phase as string | undefined) ??
+          (detail?.phase as string | undefined) ??
+          (detail?.stage as string | undefined) ??
+          null;
+
+        const progressValue =
+          typeof service.progress === 'number'
+            ? service.progress
+            : typeof service.progress === 'string'
+            ? Number.parseInt(service.progress, 10)
+            : null;
+        const normalizedProgress =
+          typeof progressValue === 'number' && Number.isFinite(progressValue) ? progressValue : null;
+
+        return {
+          id: service.id,
+          student_id: service.student_id ?? null,
+          student_ref_id: service.student_ref_id ?? service.student_id ?? null,
+          student_name: studentInfo?.name ?? '未命名学生',
+          student_avatar: studentInfo?.avatar_url ?? null,
+          service_type_id: service.service_type?.id ?? service.service_type_id,
+          service_type_name: service.service_type?.name ?? '未命名服务',
+          service_category: service.service_type?.category ?? null,
+          service_education_level: service.service_type?.education_level ?? null,
+          status: service.status,
+          enrollment_date: service.enrollment_date,
+          end_date: service.end_date ?? null,
+          progress: normalizedProgress,
+          mentor_id:
+            service.mentor?.id ??
+            (primaryMentorFromTeam?.mentor_id as number | undefined) ??
+            null,
+          mentor_name:
+            service.mentor?.name ??
+            (primaryMentorFromTeam?.mentor_name as string | undefined) ??
+            null,
+          current_phase: typeof phaseCandidate === 'string' ? phaseCandidate : null,
+          mentor_team: mentorTeam,
+        } as ServiceProjectOverview;
+      });
+    } catch (error) {
+      console.error('获取服务项目概览失败:', error);
       throw error;
     }
   },
@@ -394,16 +609,104 @@ const peopleService = {
       };
       
       return result as StudentService;
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('保存学生服务失败', error);
       // 打印更多错误信息以便调试
-      if (error.code) {
-        console.error(`错误代码: ${error.code}`);
-        console.error(`错误详情: ${JSON.stringify(error.details || {})}`);
-        console.error(`错误消息: ${error.message}`);
+      if (error && typeof error === 'object' && 'code' in error) {
+        const dbError = error as { code?: string; details?: unknown; message?: string };
+        console.error(`错误代码: ${dbError.code}`);
+        console.error(`错误详情: ${JSON.stringify(dbError.details || {})}`);
+        console.error(`错误消息: ${dbError.message}`);
       }
       throw error;
     }
+  },
+
+  async updateStudentServiceMentors(
+    serviceId: number,
+    mentorRoles: MentorRolePayload[],
+  ): Promise<StudentService> {
+    try {
+      const flatMentors: MentorTeamRow[] = [];
+      mentorRoles.forEach((role) => {
+        role.mentors.forEach((mentor) => {
+          flatMentors.push({
+            mentor_id: mentor.id,
+            mentor_name: mentor.name,
+            role_key: role.roleKey,
+            role_name: role.roleName,
+            responsibilities: role.responsibilities,
+            is_primary: Boolean(mentor.isPrimary),
+          });
+        });
+      });
+
+      const uniqueMentorIds = Array.from(new Set(flatMentors.map((item) => item.mentor_id)));
+
+      let primaryMentorId: number | null = null;
+      const primaryCandidate = flatMentors.find((item) => item.is_primary);
+      if (primaryCandidate) {
+        primaryMentorId = primaryCandidate.mentor_id;
+      } else if (uniqueMentorIds.length > 0) {
+        primaryMentorId = uniqueMentorIds[0];
+      }
+
+      const { data, error } = await supabase
+        .from('student_services')
+        .update({
+          mentor_ref_id: primaryMentorId,
+          mentor_team: flatMentors,
+        })
+        .eq('id', serviceId)
+        .select(
+          `
+            *,
+            service_type:service_type_id(*),
+            mentor:mentor_ref_id(*)
+          `,
+        )
+        .single();
+
+      if (error) {
+        console.error('更新学生服务顾问团队失败:', error);
+        throw error;
+      }
+
+      return {
+        ...data,
+        mentor_id: data.mentor_ref_id,
+      } as StudentService;
+    } catch (error) {
+      console.error('更新学生服务顾问团队失败', error);
+      throw error;
+    }
+  },
+
+  async updateStudentServiceMentor(
+    serviceId: number,
+    mentorId: number | null,
+  ): Promise<StudentService> {
+    if (mentorId === null) {
+      return this.updateStudentServiceMentors(serviceId, []);
+    }
+
+    const { data, error } = await supabase
+      .from('mentors')
+      .select('id, name')
+      .eq('id', mentorId)
+      .single();
+
+    if (error) {
+      throw error;
+    }
+
+    return this.updateStudentServiceMentors(serviceId, [
+      {
+        roleKey: 'primary',
+        roleName: '主导师',
+        mentors: [{ id: mentorId, name: data?.name ?? '', isPrimary: true }],
+      },
+    ]);
   },
 
   // 获取所有学生（从student_view）
@@ -479,20 +782,33 @@ const peopleService = {
     }
   },
 
-  // 获取服务进度
-  async getServiceProgress(serviceId: number): Promise<ServiceProgressHistory[]> {
+  // 获取服务进度（包含员工信息）
+  async getServiceProgress(serviceId: number): Promise<ServiceProgressLog[]> {
     try {
       const { data, error } = await supabase
         .from('service_progress')
         .select(`
           *,
-          recorder:recorded_by(*)
+          employee:employee_ref_id (
+            id,
+            name,
+            email,
+            department,
+            position
+          )
         `)
         .eq('student_service_id', serviceId)
-        .order('progress_date', { ascending: false });
+        .order('progress_date', { ascending: false })
+        .order('created_at', { ascending: false });
       
       if (error) throw error;
-      return data as ServiceProgressHistory[];
+
+      return (data ?? []).map((record) => ({
+        ...record,
+        completed_items: normalizeJsonArray(record.completed_items),
+        next_steps: normalizeJsonArray(record.next_steps),
+        attachments: normalizeJsonArray(record.attachments),
+      })) as ServiceProgressLog[];
     } catch (error) {
       console.error(`获取服务进度失败，serviceId=${serviceId}`, error);
       throw error;
@@ -527,16 +843,31 @@ const peopleService = {
   },
 
   // 获取服务进度历史记录
-  async getServiceProgressHistory(studentServiceId: number): Promise<ServiceProgressHistory[]> {
+  async getServiceProgressHistory(studentServiceId: number): Promise<ServiceProgressLog[]> {
     try {
       const { data, error } = await supabase
         .from('service_progress')
-        .select('*')
+        .select(`
+          *,
+          employee:employee_ref_id (
+            id,
+            name,
+            email,
+            department,
+            position
+          )
+        `)
         .eq('student_service_id', studentServiceId)
-        .order('progress_date', { ascending: false });
+        .order('progress_date', { ascending: false })
+        .order('created_at', { ascending: false });
 
       if (error) throw error;
-      return data as ServiceProgressHistory[];
+      return (data ?? []).map((record) => ({
+        ...record,
+        completed_items: normalizeJsonArray(record.completed_items),
+        next_steps: normalizeJsonArray(record.next_steps),
+        attachments: normalizeJsonArray(record.attachments),
+      })) as ServiceProgressLog[];
     } catch (error) {
       console.error('获取服务进度历史记录失败:', error);
       throw error;
@@ -568,7 +899,7 @@ const peopleService = {
   },
 
   // 获取所有服务类型
-  async getAllServiceTypes(): Promise<{id: number, name: string, description?: string, is_active: boolean}[]> {
+  async getAllServiceTypes(): Promise<{id: number, name: string, description?: string, is_active: boolean, category: string, education_level?: string | null, parent_id?: number | null}[]> {
     try {
       console.log('开始获取所有服务类型');
       const { data, error } = await supabase

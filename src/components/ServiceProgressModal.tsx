@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { X, TrendingUp, Calendar, MessageSquare, CheckSquare, ArrowRight } from 'lucide-react';
 import { peopleService } from '../services';
 import { formatDate } from '../utils/dateUtils';
@@ -10,6 +10,8 @@ interface ServiceProgressModalProps {
   serviceId: number;
   currentProgress: number;
   serviceName: string;
+  recorderId?: number;
+  employeeRefId?: number;
 }
 
 const ServiceProgressModal: React.FC<ServiceProgressModalProps> = ({
@@ -18,7 +20,9 @@ const ServiceProgressModal: React.FC<ServiceProgressModalProps> = ({
   onProgressUpdated,
   serviceId,
   currentProgress,
-  serviceName
+  serviceName,
+  recorderId,
+  employeeRefId,
 }) => {
   const [progress, setProgress] = useState(currentProgress);
   const [description, setDescription] = useState('');
@@ -27,8 +31,30 @@ const ServiceProgressModal: React.FC<ServiceProgressModalProps> = ({
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const effectiveRecorderId = useMemo(() => {
+    if (typeof recorderId === 'number') return recorderId;
+    if (typeof employeeRefId === 'number') return employeeRefId;
+    return null;
+  }, [recorderId, employeeRefId]);
+
+  useEffect(() => {
+    if (isOpen) {
+      setProgress(currentProgress);
+      setDescription('');
+      setCompletedItems('');
+      setNextSteps('');
+      setError('');
+    }
+  }, [isOpen, currentProgress]);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    if (effectiveRecorderId === null) {
+      setError('未检测到有效的记录人身份，请联系管理员。');
+      return;
+    }
+
     setSubmitting(true);
     setError('');
 
@@ -47,13 +73,13 @@ const ServiceProgressModal: React.FC<ServiceProgressModalProps> = ({
       await peopleService.addServiceProgress({
         student_service_id: serviceId,
         milestone: `${progress}%`,
-        progress_date: new Date().toISOString(),
+        progress_date: new Date().toISOString().split('T')[0],
         description: description,
         notes: '',
         completed_items: completedItemsArray.length > 0 ? completedItemsArray : undefined,
         next_steps: nextStepsArray.length > 0 ? nextStepsArray : undefined,
-        recorded_by: 1, // TODO: 使用实际的用户ID
-        employee_ref_id: 1 // TODO: 使用实际的员工ID
+        recorded_by: effectiveRecorderId,
+        employee_ref_id: employeeRefId ?? effectiveRecorderId ?? undefined,
       });
 
       onProgressUpdated();

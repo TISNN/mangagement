@@ -160,11 +160,12 @@ export interface ServiceProgress {
   id: number;
   student_service_id: number;
   recorded_by?: number;
+  employee_ref_id?: number;
   progress_date: string;
   milestone?: string;
   description?: string;
-  completed_items?: { [key: string]: boolean };
-  next_steps?: NextStep[];
+  completed_items?: Record<string, unknown>[] | null;
+  next_steps?: (NextStep | Record<string, unknown>)[] | null;
   notes?: string;
   attachments?: Attachment[];
   created_at: string;
@@ -174,8 +175,40 @@ export interface ServiceProgress {
   recorder?: EmployeeProfile;
 }
 
+export interface ServiceProjectOverview {
+  id: number;
+  student_id?: number | null;
+  student_ref_id?: number | null;
+  student_name: string;
+  student_avatar?: string | null;
+  service_type_id: number;
+  service_type_name: string;
+  service_category?: string | null;
+  service_education_level?: string | null;
+  status: StudentService['status'] | string;
+  enrollment_date: string;
+  end_date?: string | null;
+  progress?: number | null;
+  mentor_id?: number | null;
+  mentor_name?: string | null;
+  current_phase?: string | null;
+  mentor_team?: Record<string, unknown>[] | null;
+}
+
+export interface ServiceProgressLog extends ServiceProgress {
+  employee?: {
+    id?: number;
+    name?: string;
+    email?: string;
+    department?: string;
+    position?: string;
+  } | null;
+}
+
 export interface NextStep {
-  action: string;
+  action?: string;
+  content?: string;
+  description?: string;
   due_date?: string;
   assigned_to?: number;
 }

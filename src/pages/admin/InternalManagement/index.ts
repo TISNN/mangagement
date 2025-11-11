@@ -1,6 +1,5 @@
-export { OrganizationAndPermissionsPage } from './OrganizationAndPermissions';
 export { EmployeeAndSchedulingPage, StaffDetailPage } from './EmployeeAndScheduling';
-export { ProcessCenterPage } from './ProcessCenter';
-export { ComplianceGovernancePage } from './ComplianceGovernance';
+export { OnboardingOffboardingCenterPage } from './OnboardingHub';
+export { RecruitmentInterviewCenterPage } from './RecruitmentHub';
 export { SystemSettingsPage } from './SystemSettings';
 

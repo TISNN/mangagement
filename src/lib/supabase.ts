@@ -7,5 +7,25 @@ const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || 'eyJhbGciOiJIU
 // 创建Supabase客户端
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
+if (import.meta.env.DEV) {
+  console.info('[Supabase] 当前配置', {
+    url: supabaseUrl,
+    hasAnonKey: Boolean(supabaseAnonKey),
+  });
+  if (typeof window !== 'undefined') {
+    (window as typeof window & { __supabaseClient?: typeof supabase }).__supabaseClient = supabase;
+    console.info('[Supabase] 调试客户端已挂载到 window.__supabaseClient');
+    supabase
+      .from('student_services')
+      .select('id')
+      .limit(1)
+      .then((res) => {
+        console.info('[Supabase 测试查询]', { error: res.error, count: res.data?.length ?? 0 });
+      }, (err: unknown) => {
+        console.error('[Supabase 测试查询失败]', err);
+      });
+  }
+}
+
 // 同时保留默认导出，以兼容可能使用默认导入的代码
 export default supabase; 

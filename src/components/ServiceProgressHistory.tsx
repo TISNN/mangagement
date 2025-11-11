@@ -2,19 +2,33 @@ import React from 'react';
 import { TrendingUp, Calendar, MessageSquare, User, CheckSquare, ArrowRight } from 'lucide-react';
 import { formatDate } from '../utils/dateUtils';
 
+interface ServiceProgressLog {
+  id: number;
+  milestone: string;
+  progress_date: string;
+  description?: string | null;
+  notes?: string | null;
+  completed_items?: Record<string, unknown>[];
+  next_steps?: Record<string, unknown>[];
+  recorded_by?: number | null;
+  employee_ref_id?: number | null;
+  created_at: string;
+  employee?: {
+    id?: number;
+    name?: string;
+    email?: string;
+    department?: string;
+    position?: string;
+  } | null;
+  recorder?: {
+    id?: number;
+    name?: string;
+    email?: string;
+  } | null;
+}
+
 interface ServiceProgressHistoryProps {
-  history: {
-    id: number;
-    milestone: string;
-    progress_date: string;
-    description: string;
-    notes?: string;
-    completed_items?: Record<string, unknown>[];
-    next_steps?: Record<string, unknown>[];
-    recorded_by: number;
-    employee_ref_id?: number;
-    created_at: string;
-  }[];
+  history: ServiceProgressLog[];
 }
 
 const ServiceProgressHistory: React.FC<ServiceProgressHistoryProps> = ({ history }) => {
@@ -47,18 +61,18 @@ const ServiceProgressHistory: React.FC<ServiceProgressHistoryProps> = ({ history
               </div>
               <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
                 <Calendar className="w-4 h-4" />
-                <span>{formatDate(record.progress_date)}</span>
+                <span>{formatDate(record.progress_date || record.created_at)}</span>
               </div>
             </div>
             
-            {record.description && (
+            {record.description && record.description.trim().length > 0 && (
               <div className="flex items-start gap-2 text-gray-600 dark:text-gray-300">
                 <MessageSquare className="w-4 h-4 mt-1 text-gray-400" />
                 <p className="text-sm">{record.description}</p>
               </div>
             )}
             
-            {record.completed_items && record.completed_items.length > 0 && (
+            {Array.isArray(record.completed_items) && record.completed_items.length > 0 && (
               <div className="space-y-2">
                 <h5 className="text-sm font-medium flex items-center gap-2 text-gray-700 dark:text-gray-300">
                   <CheckSquare className="w-4 h-4 text-green-500" />
@@ -72,7 +86,7 @@ const ServiceProgressHistory: React.FC<ServiceProgressHistoryProps> = ({ history
               </div>
             )}
             
-            {record.next_steps && record.next_steps.length > 0 && (
+            {Array.isArray(record.next_steps) && record.next_steps.length > 0 && (
               <div className="space-y-2">
                 <h5 className="text-sm font-medium flex items-center gap-2 text-gray-700 dark:text-gray-300">
                   <ArrowRight className="w-4 h-4 text-blue-500" />
@@ -88,7 +102,12 @@ const ServiceProgressHistory: React.FC<ServiceProgressHistoryProps> = ({ history
             
             <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
               <User className="w-4 h-4" />
-              <span>记录人: ID-{record.recorded_by}</span>
+              <span>
+                记录人：
+                {record.employee?.name ||
+                  record.recorder?.name ||
+                  (record.recorded_by ? `ID-${record.recorded_by}` : '未知')}
+              </span>
             </div>
           </div>
         </div>

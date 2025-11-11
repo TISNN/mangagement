@@ -1,8 +1,10 @@
-import React, { useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
+  AlertTriangle,
   BookOpen,
   Calendar,
   CheckCircle2,
+  ChevronDown,
   ChevronRight,
   ClipboardList,
   Clock,
@@ -12,11 +14,13 @@ import {
   LayoutPanelLeft,
   Library,
   Lightbulb,
+  Loader2,
   MessageSquare,
   Pencil,
   Search,
   ShieldCheck,
   Sparkles,
+  Star,
   UploadCloud,
   Users,
   Workflow,
@@ -112,6 +116,90 @@ interface ResourceItem {
   updatedAt: string;
   usageCount: number;
 }
+
+type StudentPhase = '材料准备' | '文书冲刺' | '网申递交' | '补件跟进';
+
+interface StudentOption {
+  id: string;
+  name: string;
+  service: string;
+  phase: StudentPhase;
+  educationLevel: string;
+  mentors: string[];
+  riskTags?: string[];
+  deadlineLabel?: string;
+  countdown?: string;
+  serviceTags: string[];
+  isFavorite?: boolean;
+  allowAccess?: boolean;
+}
+
+const STUDENT_PHASE_BADGE: Record<StudentPhase, string> = {
+  材料准备: 'bg-slate-100 text-slate-600 dark:bg-slate-800/60 dark:text-slate-300',
+  文书冲刺: 'bg-blue-500/10 text-blue-600 dark:bg-blue-900/30 dark:text-blue-300',
+  网申递交: 'bg-emerald-500/10 text-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-300',
+  补件跟进: 'bg-amber-500/10 text-amber-600 dark:bg-amber-900/30 dark:text-amber-300',
+};
+
+const STUDENT_OPTIONS: StudentOption[] = [
+  {
+    id: 'stu-1',
+    name: '李敏',
+    service: '全包申请 · Stanford MSCS',
+    phase: '文书冲刺',
+    educationLevel: '硕士',
+    mentors: ['陈慧（顾问）', '刘洋（文书）', '王璐（文书）'],
+    riskTags: ['材料逾期 1', '待审核文书 2'],
+    deadlineLabel: 'Essay 终稿 · 2025-11-12',
+    countdown: 'D-12',
+    serviceTags: ['全包申请', 'CS 专业', '北美'],
+    isFavorite: true,
+    allowAccess: true,
+  },
+  {
+    id: 'stu-2',
+    name: '王晨',
+    service: '半 DIY · CMU ECE',
+    phase: '网申递交',
+    educationLevel: '硕士',
+    mentors: ['张晓（顾问）', '高原（网申）'],
+    riskTags: ['待补件提醒'],
+    deadlineLabel: '网申提交 · 2025-11-18',
+    countdown: 'D-18',
+    serviceTags: ['半 DIY', '工程', '美研'],
+    allowAccess: true,
+  },
+  {
+    id: 'stu-3',
+    name: '周恬',
+    service: '全包申请 · LSE MSc Finance',
+    phase: '材料准备',
+    educationLevel: '硕士',
+    mentors: ['赵琳（顾问）', '周航（文书）'],
+    riskTags: ['待学生反馈'],
+    deadlineLabel: '推荐信草稿 · 2025-11-09',
+    countdown: 'D-9',
+    serviceTags: ['金融', '英国', '全包申请'],
+    allowAccess: true,
+  },
+  {
+    id: 'stu-4',
+    name: '刘岚',
+    service: '语言培训 · IELTS',
+    phase: '补件跟进',
+    educationLevel: '本科',
+    mentors: ['李月（课程）'],
+    riskTags: ['成绩单待上传'],
+    deadlineLabel: '成绩上传 · 2025-11-06',
+    countdown: 'D-6',
+    serviceTags: ['语言培训', '雅思', '冲刺'],
+    allowAccess: false,
+  },
+];
+
+const DEFAULT_SELECTED_STUDENT_ID = STUDENT_OPTIONS.find((item) => item.allowAccess)?.id ?? '';
+
+const DEFAULT_FAVORITE_STUDENT_IDS = STUDENT_OPTIONS.filter((item) => item.isFavorite && item.allowAccess).map((item) => item.id);
 
 const SUMMARY_DATA: TaskSummary[] = [
   {
@@ -483,6 +571,220 @@ const RolePill: React.FC<{ owner: string; role: OwnerType }> = ({ owner, role })
     <span className={`ml-1 px-2 py-0.5 rounded-full text-xs ${ROLE_BADGE[role]}`}>{role}</span>
   </span>
 );
+
+const StudentContextBar: React.FC<{
+  students: StudentOption[];
+  selectedId: string;
+  onSelect: (id: string) => void;
+  favoriteIds: string[];
+  onToggleFavorite: (id: string) => void;
+  isLoading: boolean;
+}> = ({ students, selectedId, onSelect, favoriteIds, onToggleFavorite, isLoading }) => {
+  const [searchValue, setSearchValue] = useState('');
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const accessibleStudents = useMemo(() => students.filter((item) => item.allowAccess), [students]);
+  const selectedStudent = useMemo(
+    () => students.find((item) => item.id === selectedId) ?? accessibleStudents[0],
+    [students, selectedId, accessibleStudents],
+  );
+
+  const filteredStudents = useMemo(() => {
+    const keyword = searchValue.trim().toLowerCase();
+    if (!keyword) return accessibleStudents;
+    return accessibleStudents.filter((student) => {
+      const base = [student.name, student.service, student.educationLevel, ...student.serviceTags].join(' ');
+      return base.toLowerCase().includes(keyword);
+    });
+  }, [accessibleStudents, searchValue]);
+
+  const handleSelect = (id: string) => {
+    setIsDropdownOpen(false);
+    setSearchValue('');
+    onSelect(id);
+  };
+
+  if (!students.length) return null;
+
+  const disabledActionStyle =
+    'border border-slate-200 dark:border-slate-700 text-slate-400 dark:text-slate-600 cursor-not-allowed opacity-60';
+  const activeActionStyle =
+    'border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:border-blue-400 hover:text-blue-600';
+
+  return (
+    <div className="rounded-3xl border border-slate-200/70 dark:border-slate-700/50 bg-white dark:bg-slate-900/60 shadow-sm p-6 lg:p-8 space-y-6">
+      <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
+        <div className="flex-1 space-y-4">
+          <div className="flex flex-wrap items-center gap-2">
+            <button
+              onClick={() => setIsDropdownOpen((prev) => !prev)}
+              className="inline-flex items-center gap-2 rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 px-4 py-2.5 text-base font-semibold text-slate-900 dark:text-white shadow-sm hover:border-blue-400 hover:bg-blue-50/60 dark:hover:bg-blue-900/20 transition-colors"
+            >
+              {selectedStudent ? selectedStudent.name : '选择学生'}
+              <ChevronDown className="h-4 w-4 text-slate-400" />
+              {isLoading && <Loader2 className="h-4 w-4 animate-spin text-blue-500" />}
+            </button>
+            {selectedStudent ? (
+              <>
+                <span className={`inline-flex items-center rounded-full px-3 py-1 text-xs font-medium ${STUDENT_PHASE_BADGE[selectedStudent.phase]}`}>
+                  {selectedStudent.phase}
+                </span>
+                <span className="inline-flex items-center rounded-full bg-slate-100 dark:bg-slate-700/80 px-3 py-1 text-xs text-slate-600 dark:text-slate-300">
+                  {selectedStudent.educationLevel}
+                </span>
+                <span className="text-sm text-slate-500 dark:text-slate-400">{selectedStudent.service}</span>
+              </>
+            ) : (
+              <span className="text-sm text-slate-500 dark:text-slate-400">请选择要查看的学生</span>
+            )}
+            {selectedStudent?.countdown && (
+              <span className="inline-flex items-center gap-1 rounded-full bg-blue-500/10 text-blue-600 dark:text-blue-300 px-2.5 py-1 text-xs font-medium">
+                <Clock className="h-3.5 w-3.5" />
+                {selectedStudent.countdown}
+              </span>
+            )}
+          </div>
+
+          {selectedStudent?.allowAccess === false ? (
+            <div className="inline-flex items-center gap-2 rounded-2xl border border-amber-200 dark:border-amber-700 bg-amber-50 dark:bg-amber-900/20 px-4 py-3 text-sm text-amber-700 dark:text-amber-300">
+              <AlertTriangle className="h-4 w-4" />
+              暂无权限查看该学生，请联系管理员或主顾问开通访问。
+            </div>
+          ) : (
+            selectedStudent && (
+              <div className="grid gap-4 md:grid-cols-2">
+                <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 px-4 py-4">
+                  <p className="text-xs font-medium uppercase tracking-[0.2em] text-slate-400">服务焦点</p>
+                  <p className="mt-2 text-sm font-semibold text-slate-900 dark:text-white">{selectedStudent.service}</p>
+                  <div className="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-600 dark:text-slate-300">
+                    {selectedStudent.serviceTags.map((tag) => (
+                      <span key={`${selectedStudent.id}-${tag}`} className="inline-flex items-center rounded-full bg-white dark:bg-slate-800 px-3 py-1 border border-slate-200 dark:border-slate-700">
+                        #{tag}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 px-4 py-4">
+                  <p className="text-xs font-medium uppercase tracking-[0.2em] text-slate-400">导师团队</p>
+                  <div className="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-600 dark:text-slate-300">
+                    {selectedStudent.mentors.map((mentor) => (
+                      <span key={`${selectedStudent.id}-${mentor}`} className="inline-flex items-center gap-1 rounded-full bg-slate-100 dark:bg-slate-800 px-3 py-1 border border-slate-200 dark:border-slate-700">
+                        <Users className="h-3.5 w-3.5 text-slate-400" />
+                        {mentor}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                {selectedStudent.deadlineLabel && (
+                  <div className="md:col-span-2 rounded-2xl border border-blue-200 dark:border-blue-800 bg-blue-50 dark:bg-blue-900/20 px-4 py-4 flex flex-wrap items-center gap-3 text-sm text-blue-700 dark:text-blue-200">
+                    <Calendar className="h-4 w-4" />
+                    {selectedStudent.deadlineLabel}
+                    {selectedStudent.countdown && (
+                      <span className="inline-flex items-center gap-1 rounded-full bg-white/80 dark:bg-blue-900/40 px-3 py-0.5 text-xs font-medium">
+                        <Clock className="h-3 w-3" />
+                        {selectedStudent.countdown}
+                      </span>
+                    )}
+                  </div>
+                )}
+                {selectedStudent.riskTags && selectedStudent.riskTags.length > 0 && (
+                  <div className="md:col-span-2 rounded-2xl border border-rose-200 dark:border-rose-800 bg-rose-50 dark:bg-rose-950/40 px-4 py-4 flex flex-wrap items-center gap-2">
+                    {selectedStudent.riskTags.map((risk) => (
+                      <span key={`${selectedStudent.id}-${risk}`} className="inline-flex items-center gap-1 rounded-full bg-rose-500/10 text-rose-600 dark:text-rose-300 px-3 py-1 text-xs font-medium">
+                        <AlertTriangle className="h-3.5 w-3.5" />
+                        {risk}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )
+          )}
+        </div>
+
+        <div className="flex flex-wrap items-center gap-2">
+          <button
+            disabled={selectedStudent?.allowAccess === false}
+            className={`inline-flex items-center gap-2 rounded-2xl px-4 py-2.5 text-sm font-medium transition-colors ${
+              selectedStudent?.allowAccess === false ? disabledActionStyle : activeActionStyle
+            }`}
+          >
+            <Users className="h-4 w-4" />
+            管理服务
+          </button>
+          <button
+            disabled={selectedStudent?.allowAccess === false}
+            className={`inline-flex items-center gap-2 rounded-2xl px-4 py-2.5 text-sm font-medium transition-colors ${
+              selectedStudent?.allowAccess === false ? disabledActionStyle : activeActionStyle
+            }`}
+          >
+            <BookOpen className="h-4 w-4" />
+            打开学生详情
+          </button>
+          {selectedStudent && (
+            <button
+              onClick={() => onToggleFavorite(selectedStudent.id)}
+              className={`inline-flex items-center gap-2 rounded-2xl px-4 py-2.5 text-sm font-medium transition-colors ${
+                favoriteIds.includes(selectedStudent.id)
+                  ? 'border border-amber-300 bg-amber-50 text-amber-600 dark:border-amber-500/60 dark:bg-amber-900/20 dark:text-amber-300'
+                  : 'border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:border-amber-400 hover:text-amber-500'
+              }`}
+            >
+              <Star className={`h-4 w-4 ${favoriteIds.includes(selectedStudent.id) ? 'fill-current' : ''}`} />
+              {favoriteIds.includes(selectedStudent.id) ? '取消收藏' : '收藏'}
+            </button>
+          )}
+        </div>
+      </div>
+
+      <div>
+        <div className="text-xs font-medium text-slate-400 tracking-[0.2em] uppercase mb-3">搜索学生</div>
+        <div className="relative">
+          <div className="flex items-center gap-2 rounded-2xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 px-4 py-2.5 text-sm text-slate-600 dark:text-slate-300 focus-within:border-blue-400 focus-within:bg-white dark:focus-within:bg-slate-900 transition-colors">
+            <Search className="h-4 w-4 text-slate-400" />
+            <input
+              value={searchValue}
+              onChange={(event) => setSearchValue(event.target.value)}
+              onFocus={() => setIsDropdownOpen(true)}
+              onBlur={() => setTimeout(() => setIsDropdownOpen(false), 120)}
+              className="flex-1 bg-transparent outline-none placeholder:text-slate-400 dark:placeholder:text-slate-500"
+              placeholder="搜索学生姓名、服务类型、阶段或顾问…"
+            />
+          </div>
+          {isDropdownOpen && (
+            <div className="absolute z-20 mt-2 w-full rounded-2xl border border-slate-100 dark:border-slate-700 bg-white dark:bg-slate-900 shadow-xl max-h-72 overflow-y-auto">
+              {filteredStudents.length === 0 ? (
+                <div className="px-4 py-6 text-sm text-slate-500 dark:text-slate-400 text-center">未找到匹配的学生，可尝试调整搜索条件。</div>
+              ) : (
+                filteredStudents.map((student) => (
+                  <button
+                    key={student.id}
+                    onMouseDown={(event) => event.preventDefault()}
+                    onClick={() => handleSelect(student.id)}
+                    className={`w-full text-left px-4 py-3 text-sm transition-colors ${
+                      student.id === selectedId ? 'bg-blue-50 dark:bg-blue-900/20' : 'hover:bg-slate-50 dark:hover:bg-slate-800'
+                    }`}
+                  >
+                    <div className="flex items-center justify-between gap-4">
+                      <div>
+                        <div className="font-medium text-slate-900 dark:text-white">{student.name}</div>
+                        <div className="mt-1 text-xs text-slate-500 dark:text-slate-400">{student.service}</div>
+                      </div>
+                      <span className={`inline-flex items-center rounded-full px-2.5 py-1 text-[11px] font-medium ${STUDENT_PHASE_BADGE[student.phase]}`}>
+                        {student.phase}
+                      </span>
+                    </div>
+                  </button>
+                ))
+              )}
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
+
 
 const SummarySection: React.FC = () => (
   <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
@@ -961,6 +1263,40 @@ const TAB_CONFIG: Array<{
 
 const ApplicationWorkbenchPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<WorkbenchTab>('dashboard');
+  const [selectedStudentId, setSelectedStudentId] = useState<string>(DEFAULT_SELECTED_STUDENT_ID);
+  const [favoriteStudentIds, setFavoriteStudentIds] = useState<string[]>(DEFAULT_FAVORITE_STUDENT_IDS);
+  const [isSwitchingStudent, setIsSwitchingStudent] = useState(false);
+  const switchTimerRef = useRef<number | null>(null);
+
+  const handleSelectStudent = useCallback(
+    (id: string) => {
+      if (id === selectedStudentId) return;
+      const targetStudent = STUDENT_OPTIONS.find((student) => student.id === id && student.allowAccess);
+      if (!targetStudent) return;
+
+      if (switchTimerRef.current) {
+        window.clearTimeout(switchTimerRef.current);
+      }
+
+      setIsSwitchingStudent(true);
+      setSelectedStudentId(id);
+
+      switchTimerRef.current = window.setTimeout(() => setIsSwitchingStudent(false), 350);
+    },
+    [selectedStudentId],
+  );
+
+  const handleToggleFavorite = useCallback((id: string) => {
+    setFavoriteStudentIds((prev) => (prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id]));
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      if (switchTimerRef.current) {
+        window.clearTimeout(switchTimerRef.current);
+      }
+    };
+  }, []);
 
   return (
     <div className="space-y-6">
@@ -984,59 +1320,72 @@ const ApplicationWorkbenchPage: React.FC = () => {
         </div>
       </div>
 
-      <SummarySection />
+      <StudentContextBar
+        students={STUDENT_OPTIONS}
+        selectedId={selectedStudentId}
+        onSelect={handleSelectStudent}
+        favoriteIds={favoriteStudentIds}
+        onToggleFavorite={handleToggleFavorite}
+        isLoading={isSwitchingStudent}
+      />
 
-      <div className="rounded-2xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700/60 p-2">
-        <div className="flex flex-wrap gap-2">
-          {TAB_CONFIG.map((tab) => {
-            const isActive = activeTab === tab.id;
-            return (
-              <button
-                key={tab.id}
-                onClick={() => setActiveTab(tab.id)}
-                className={`inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-medium transition-all ${
-                  isActive
-                    ? 'bg-blue-600 text-white shadow-sm'
-                    : 'text-gray-600 bg-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700/60'
-                }`}
-              >
-                {tab.icon}
-                {tab.label}
-                {tab.badge && (
-                  <span
-                    className={`ml-1 inline-flex h-5 min-w-[1.25rem] items-center justify-center rounded-full text-[11px] ${
-                      isActive
-                        ? 'bg-white/20 text-white'
-                        : 'bg-gray-100 text-gray-600 dark:bg-gray-700 dark:text-gray-200'
-                    }`}
-                  >
-                    {tab.badge}
-                  </span>
-                )}
-              </button>
-            );
-          })}
-        </div>
-      </div>
+      <div
+        className={`space-y-6 transition-opacity duration-200 ${isSwitchingStudent ? 'opacity-60 pointer-events-none' : 'opacity-100'}`}
+      >
+        <SummarySection />
 
-      {activeTab === 'dashboard' && (
-        <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,520px)_1fr] gap-6">
-          <TimelineSection />
-          <div className="space-y-6">
-            <MaterialsTable />
+        <div className="rounded-2xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700/60 p-2">
+          <div className="flex flex-wrap gap-2">
+            {TAB_CONFIG.map((tab) => {
+              const isActive = activeTab === tab.id;
+              return (
+                <button
+                  key={tab.id}
+                  onClick={() => setActiveTab(tab.id)}
+                  className={`inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-medium transition-all ${
+                    isActive
+                      ? 'bg-blue-600 text-white shadow-sm'
+                      : 'text-gray-600 bg-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700/60'
+                  }`}
+                >
+                  {tab.icon}
+                  {tab.label}
+                  {tab.badge && (
+                    <span
+                      className={`ml-1 inline-flex h-5 min-w-[1.25rem] items-center justify-center rounded-full text-[11px] ${
+                        isActive
+                          ? 'bg-white/20 text-white'
+                          : 'bg-gray-100 text-gray-600 dark:bg-gray-700 dark:text-gray-200'
+                      }`}
+                    >
+                      {tab.badge}
+                    </span>
+                  )}
+                </button>
+              );
+            })}
           </div>
         </div>
-      )}
 
-      {activeTab === 'materials' && <MaterialsTable />}
+        {activeTab === 'dashboard' && (
+          <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,520px)_1fr] gap-6">
+            <TimelineSection />
+            <div className="space-y-6">
+              <MaterialsTable />
+            </div>
+          </div>
+        )}
 
-      {activeTab === 'documents' && <DocumentWorkspace />}
+        {activeTab === 'materials' && <MaterialsTable />}
 
-      {activeTab === 'submission' && <SubmissionTracker />}
+        {activeTab === 'documents' && <DocumentWorkspace />}
 
-      {activeTab === 'quality' && <QualityBoard />}
+        {activeTab === 'submission' && <SubmissionTracker />}
 
-      {activeTab === 'resources' && <ResourceGrid />}
+        {activeTab === 'quality' && <QualityBoard />}
+
+        {activeTab === 'resources' && <ResourceGrid />}
+      </div>
     </div>
   );
 };
