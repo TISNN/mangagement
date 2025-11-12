@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { 
-  Lock, 
+import {
+  Lock,
   QrCode,
   User,
   GraduationCap,
@@ -149,12 +149,15 @@ const LoginPage: React.FC = () => {
           {/* Logo */}
           <div className="mb-8">
             <div className="flex items-center gap-3 mb-4">
-              <div className="relative">
-                <GraduationCap className="h-10 w-10 text-blue-600 absolute" style={{ filter: 'blur(8px)' }} />
-                <GraduationCap className="h-10 w-10 text-blue-600 relative" />
+              <div className="relative h-12 w-12">
+                <img
+                  src="/public/logo.png"
+                  alt="StudyLandsEdu Workspace logo"
+                  className="h-12 w-12 object-contain"
+                />
               </div>
-              <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 text-transparent bg-clip-text font-['Orbitron']">
-                Infinite.ai
+              <h1 className="text-2xl font-bold text-black font-['Orbitron']">
+                StudyLandsEdu
               </h1>
             </div>
           </div>
@@ -264,7 +267,7 @@ const LoginPage: React.FC = () => {
                       type="checkbox"
                       checked={rememberMe}
                       onChange={(e) => setRememberMe(e.target.checked)}
-                      className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 cursor-pointer"
+                      className="w-4 h-4 rounded border-gray-300 text-black focus:ring-black dark:border-gray-600 dark:bg-gray-700 cursor-pointer"
                     />
                     <span className="text-sm text-gray-500 dark:text-gray-400">
                       记住我 (7天内自动登录)
@@ -273,7 +276,7 @@ const LoginPage: React.FC = () => {
                   <button
                     type="button"
                     onClick={() => navigate('/forgot-password')}
-                    className="text-sm text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
+                    className="text-sm text-black hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-300"
                   >
                     忘记密码？
                   </button>
@@ -282,7 +285,7 @@ const LoginPage: React.FC = () => {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl text-sm font-medium transition-colors flex items-center justify-center gap-2"
+                  className="w-full bg-black hover:bg-gray-800 text-white px-4 py-2 rounded-xl text-sm font-medium transition-colors flex items-center justify-center gap-2"
                 >
                   <span>{loading ? '登录中...' : '登录'}</span>
                   {!loading && <ArrowRight className="h-4 w-4" />}
@@ -311,7 +314,7 @@ const LoginPage: React.FC = () => {
                 还没有账号？
                 <button
                   onClick={() => navigate('/register')}
-                  className="text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 ml-1"
+                  className="text-black hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-300 ml-1"
                 >
                   立即注册
                 </button>

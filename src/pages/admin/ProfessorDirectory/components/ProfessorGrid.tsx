@@ -6,11 +6,18 @@ import ProfessorCard from './ProfessorCard';
 interface ProfessorGridProps {
   profiles: ProfessorProfile[];
   onViewDetail: (profile: ProfessorProfile) => void;
-  onAddToShortlist: (profile: ProfessorProfile) => void;
+  onToggleFavorite: (profile: ProfessorProfile, nextState: boolean) => void;
+  favoriteProfessorIds: Set<number>;
   onOpenMatch: (profile: ProfessorProfile) => void;
 }
 
-const ProfessorGrid: React.FC<ProfessorGridProps> = ({ profiles, onViewDetail, onAddToShortlist, onOpenMatch }) => {
+const ProfessorGrid: React.FC<ProfessorGridProps> = ({
+  profiles,
+  onViewDetail,
+  onToggleFavorite,
+  favoriteProfessorIds,
+  onOpenMatch,
+}) => {
   if (profiles.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center rounded-3xl border border-dashed border-gray-300 bg-white p-12 text-center dark:border-gray-700 dark:bg-gray-900/60">
@@ -30,7 +37,8 @@ const ProfessorGrid: React.FC<ProfessorGridProps> = ({ profiles, onViewDetail, o
           key={profile.id}
           profile={profile}
           onViewDetail={onViewDetail}
-          onAddToShortlist={onAddToShortlist}
+          onToggleFavorite={onToggleFavorite}
+          isFavorited={favoriteProfessorIds.has(profile.id)}
           onOpenMatch={onOpenMatch}
         />
       ))}

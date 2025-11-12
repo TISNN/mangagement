@@ -57,7 +57,7 @@ import ApplicationWorkbenchPage from './pages/admin/ApplicationWorkbench';
 import ProjectMissionBoardPage from './pages/admin/ProjectMissionBoard';
 import ServiceChronologyPage from './pages/admin/ServiceChronology';
 import { ProjectMarketplaceDetailPage, ProjectMarketplacePage } from './pages/admin/ProjectMarketplace';
-import { ProfessorDirectoryPage } from './pages/admin/ProfessorDirectory';
+import { ProfessorDirectoryPage, ProfessorDetailPage } from './pages/admin/ProfessorDirectory';
 import { CRMLeadOverviewPage } from './pages/admin/CRMLeadOverview';
 import { CRMEngagementDeskPage } from './pages/admin/CRMEngagementDesk';
 import { CRMContractDockPage } from './pages/admin/CRMContractDock';
@@ -97,6 +97,7 @@ import {
 
 // 导入路由保护组件
 import { PrivateRoute } from './components/PrivateRoute';
+import { AuthProvider } from './context/AuthContext';
 
 const AppRoutes: React.FC = () => {
   return (
@@ -115,7 +116,16 @@ const AppRoutes: React.FC = () => {
       <Route path="/forgot-password" element={<ForgotPasswordPage />} />
       
       {/* 管理系统路由 - 需要登录才能访问 */}
-      <Route path="/admin" element={<PrivateRoute><App /></PrivateRoute>}>
+      <Route
+        path="/admin"
+        element={
+          <AuthProvider>
+            <PrivateRoute>
+              <App />
+            </PrivateRoute>
+          </AuthProvider>
+        }
+      >
         {/* 默认重定向到控制台 */}
         <Route index element={<Navigate to="/admin/dashboard" replace />} />
         
@@ -140,6 +150,7 @@ const AppRoutes: React.FC = () => {
         <Route path="project-marketplace" element={<ProjectMarketplacePage />} />
         <Route path="project-marketplace/:projectId" element={<ProjectMarketplaceDetailPage />} />
         <Route path="professor-directory" element={<ProfessorDirectoryPage />} />
+        <Route path="professor-directory/:professorId" element={<ProfessorDetailPage />} />
         <Route path="crm-lead-overview" element={<CRMLeadOverviewPage />} />
         <Route path="crm-lead-list" element={<CRMLeadListPage />} />
         <Route path="crm-engagement-desk" element={<CRMEngagementDeskPage />} />
@@ -216,8 +227,12 @@ const AppRoutes: React.FC = () => {
         
         <Route path="settings" element={<SettingsPage />} />
       </Route>
+
+
+      {/* 404 路由 */}
+      <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );
 };
 
-export default AppRoutes; 
+export default AppRoutes;

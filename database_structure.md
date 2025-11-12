@@ -39,6 +39,9 @@
 | `employee_role_assignments` | 员工与角色绑定 | `employee_id`、`role_id` | → `employees`、`employee_roles` |
 | `permissions` | 权限点定义 | `code` 唯一、`description` | ← `role_permissions.permission_id` |
 | `role_permissions` | 角色-权限映射 | `role_id`、`permission_id` | → `employee_roles`、`permissions` |
+| `professors` | 海外教授主数据 | `name`、`country`、`university`、`research_tags[]`、`funding_options` JSONB、`match_score`、`intake` | ← `professor_favorites.professor_id`、`professor_match_records.professor_id` |
+| `professor_favorites` | 顾问收藏教授 | `employee_id`、`professor_id`、`created_at` | → `employees`、`professors` |
+| `professor_match_records` | 教授匹配记录 | `professor_id`、`student_id`、`employee_id`、`target_intake`、`status` | → `professors`、`students`、`employees` |
 
 ### 2.3 项目任务域
 

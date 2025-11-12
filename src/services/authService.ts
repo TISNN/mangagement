@@ -332,6 +332,13 @@ export async function signOut(): Promise<{ error: string | null }> {
   }
 }
 
+// 全局锁，防止并发调用 getCurrentUser 导致死锁
+let currentUserPromise: Promise<{
+  user: User | null;
+  profile: Employee | StudentProfile | null;
+  userType: 'admin' | 'student' | null;
+}> | null = null;
+
 /**
  * 获取当前登录用户
  */
@@ -340,44 +347,129 @@ export async function getCurrentUser(): Promise<{
   profile: Employee | StudentProfile | null;
   userType: 'admin' | 'student' | null;
 }> {
-  try {
-    // 1. 获取当前Supabase Auth用户
-    const {
-      data: { user },
-    } = await supabase.auth.getUser();
+  // 如果已经有正在执行的请求，直接返回同一个 Promise
+  if (currentUserPromise) {
+    console.log('[AuthService] getCurrentUser 已有进行中的请求，复用');
+    return currentUserPromise;
+  }
 
-    if (!user) {
+  currentUserPromise = (async () => {
+    try {
+      console.log('[AuthService] getCurrentUser 开始');
+    
+    // 1. 先从 localStorage 快速检查是否有会话
+    const storageKey = 'sb-swyajeiqqewyckzbfkid-auth-token';
+    const storedSession = localStorage.getItem(storageKey);
+    
+    if (!storedSession) {
+      console.log('[AuthService] localStorage 无会话数据');
       return { user: null, profile: null, userType: null };
     }
 
-    // 2. 尝试从员工表查找
-    const { data: employeeData } = await supabase
-      .from('employees')
-      .select('*')
-      .eq('auth_id', user.id)
-      .eq('is_active', true)
-      .single();
-
-    if (employeeData) {
-      return { user, profile: employeeData, userType: 'admin' };
+    let sessionData;
+    try {
+      sessionData = JSON.parse(storedSession);
+    } catch (e) {
+      console.error('[AuthService] 解析 session 失败:', e);
+      return { user: null, profile: null, userType: null };
     }
 
-    // 3. 尝试从学生表查找
-    const { data: studentData } = await supabase
-      .from('students')
-      .select('*')
-      .eq('auth_id', user.id)
-      .single();
-
-    if (studentData) {
-      return { user, profile: studentData, userType: 'student' };
+    const user = sessionData?.currentSession?.user ?? sessionData?.user ?? null;
+    const accessToken = sessionData?.currentSession?.access_token ?? sessionData?.access_token ?? null;
+    
+    if (!user || !user.id) {
+      console.log('[AuthService] localStorage session 中无有效用户');
+      return { user: null, profile: null, userType: null };
     }
 
+    if (!accessToken) {
+      console.log('[AuthService] localStorage session 中无 access_token，无法查询数据库');
+      return { user: null, profile: null, userType: null };
+    }
+
+    console.log('[AuthService] 从 localStorage 恢复用户ID:', user.id, 'token前10字符:', accessToken.substring(0, 10));
+
+    // 2. 使用原生 fetch 直接查询，完全绕过 Supabase SDK 可能的卡顿
+    console.log('[AuthService] 使用 REST API 查询员工表');
+    
+    const supabaseUrl = 'https://swyajeiqqewyckzbfkid.supabase.co';
+    const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN3eWFqZWlxcWV3eWNremJma2lkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzc0ODQxNDUsImV4cCI6MjA1MzA2MDE0NX0.Q3ayCcjYwGuWAPMNF_O98XQV7P4Q8rDx4P2mO3LW7Zs';
+
+    try {
+      const response = await fetch(
+        `${supabaseUrl}/rest/v1/employees?auth_id=eq.${user.id}&is_active=eq.true&select=*`,
+        {
+          headers: {
+            'apikey': supabaseAnonKey,
+            'Authorization': `Bearer ${accessToken}`,
+            'Content-Type': 'application/json',
+          },
+        }
+      );
+
+      console.log('[AuthService] 员工表 HTTP 响应:', response.status);
+
+      if (!response.ok) {
+        console.error('[AuthService] 员工表查询失败，HTTP状态:', response.status);
+        const errorText = await response.text();
+        console.error('[AuthService] 错误详情:', errorText);
+      }
+
+      const employeeData = await response.json();
+      const employeeRecord = Array.isArray(employeeData) && employeeData.length > 0 ? employeeData[0] : null;
+
+      console.log('[AuthService] 员工表查询完成:', { hasData: !!employeeRecord });
+
+      if (employeeRecord) {
+        console.log('[AuthService] 找到员工记录，返回 admin');
+        return { user, profile: employeeRecord, userType: 'admin' };
+      }
+    } catch (fetchError) {
+      console.error('[AuthService] fetch 员工表失败:', fetchError);
+    }
+
+    console.log('[AuthService] 未找到员工，查询学生表');
+
+    // 3. 同样用 fetch 查询学生表
+    try {
+      const response = await fetch(
+        `${supabaseUrl}/rest/v1/students?auth_id=eq.${user.id}&select=*`,
+        {
+          headers: {
+            'apikey': supabaseAnonKey,
+            'Authorization': `Bearer ${accessToken}`,
+            'Content-Type': 'application/json',
+          },
+        }
+      );
+
+      console.log('[AuthService] 学生表 HTTP 响应:', response.status);
+
+      const studentData = await response.json();
+      const studentRecord = Array.isArray(studentData) && studentData.length > 0 ? studentData[0] : null;
+
+      console.log('[AuthService] 学生表查询完成:', { hasData: !!studentRecord });
+
+      if (studentRecord) {
+        console.log('[AuthService] 找到学生记录，返回 student');
+        return { user, profile: studentRecord, userType: 'student' };
+      }
+    } catch (fetchError) {
+      console.error('[AuthService] fetch 学生表失败:', fetchError);
+    }
+
+    console.log('[AuthService] 未找到任何profile，返回空');
     return { user, profile: null, userType: null };
   } catch (error) {
     console.error('[AuthService] 获取当前用户失败:', error);
     return { user: null, profile: null, userType: null };
+  } finally {
+    // 清除锁，允许下次调用
+    currentUserPromise = null;
   }
+  })();
+
+  return currentUserPromise;
 }
 
 /**
@@ -462,17 +554,28 @@ export async function updatePassword(
  * 监听认证状态变化
  */
 export function onAuthStateChange(
-  callback: (user: User | null, userType: 'admin' | 'student' | null) => void
+  callback: (user: User | null, userType: 'admin' | 'student' | null) => void,
 ) {
   return supabase.auth.onAuthStateChange(async (event, session) => {
     console.log('[AuthService] Auth状态变化:', event);
 
-    if (event === 'SIGNED_IN' && session?.user) {
-      // 确定用户类型
-      const { userType } = await getCurrentUser();
-      callback(session.user, userType);
-    } else if (event === 'SIGNED_OUT') {
-      callback(null, null);
+    switch (event) {
+      case 'INITIAL_SESSION':
+      case 'SIGNED_IN':
+      case 'TOKEN_REFRESHED':
+      case 'PASSWORD_RECOVERY':
+        if (session?.user) {
+          const { userType } = await getCurrentUser();
+          callback(session.user, userType);
+          return;
+        }
+        callback(null, null);
+        return;
+      case 'SIGNED_OUT':
+        callback(null, null);
+        return;
+      default:
+        return;
     }
   });
 }

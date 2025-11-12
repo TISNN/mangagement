@@ -112,9 +112,12 @@ const DoctoralFiltersPanel: React.FC<DoctoralFiltersPanelProps> = ({
   researchTagsLimit = 12,
 }) => {
   const [showAllResearchTags, setShowAllResearchTags] = React.useState(false);
+  const [isExpanded, setIsExpanded] = React.useState(false);
+  
   React.useEffect(() => {
     setShowAllResearchTags(false);
   }, [researchTags]);
+  
   const limitedResearchTags = React.useMemo(() => {
     if (showAllResearchTags || researchTagsLimit === undefined) {
       return researchTags;
@@ -124,104 +127,126 @@ const DoctoralFiltersPanel: React.FC<DoctoralFiltersPanelProps> = ({
   const canToggleResearchTags = researchTagsLimit !== undefined && researchTags.length > researchTagsLimit;
 
   return (
-    <section className="space-y-6 rounded-3xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700/60 dark:bg-gray-900/60">
-      <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+    <section className="space-y-3 rounded-3xl border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700/60 dark:bg-gray-900/60">
+      <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
         <div className="flex items-center gap-2 text-sm font-medium text-gray-600 dark:text-gray-300">
           <Filter className="h-4 w-4 text-indigo-500" />
           <span>导师筛选器</span>
-          <span className="text-xs text-gray-400">（先选国家，再精确到院校与研究方向）</span>
         </div>
-        <Button variant="ghost" size="sm" onClick={onResetFilters} className="self-start text-gray-500 hover:text-indigo-600">
-          <RefreshCw className="mr-1.5 h-4 w-4" />
-          重置筛选
-        </Button>
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="text-xs font-medium text-indigo-500 transition hover:text-indigo-400"
+          >
+            {isExpanded ? '收起筛选' : '展开全部'}
+          </button>
+          <Button variant="ghost" size="sm" onClick={onResetFilters} className="text-xs text-gray-500 hover:text-indigo-600">
+            <RefreshCw className="mr-1 h-3.5 w-3.5" />
+            重置
+          </Button>
+        </div>
       </div>
 
-      <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_260px]">
-        <div className="space-y-4">
-          <div className="relative">
-            <Search className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
-            <Input
-              value={searchTerm}
-              onChange={(event) => onSearchChange(event.target.value)}
-              placeholder="搜索教授姓名、研究主题或代表项目"
-              className="h-11 rounded-2xl bg-gray-50 pl-10 pr-4 text-sm focus-visible:ring-2 focus-visible:ring-indigo-500 dark:bg-gray-800/80 dark:text-gray-200"
-            />
-          </div>
+      <div className="relative">
+        <Search className="absolute left-3 top-2.5 h-4 w-4 text-gray-400" />
+        <Input
+          value={searchTerm}
+          onChange={(event) => onSearchChange(event.target.value)}
+          placeholder="搜索教授姓名、研究主题或代表项目"
+          className="h-9 rounded-xl bg-gray-50 pl-9 pr-4 text-sm focus-visible:ring-2 focus-visible:ring-indigo-500 dark:bg-gray-800/80 dark:text-gray-200"
+        />
+      </div>
 
-          <div className="grid gap-4 md:grid-cols-2">
-            <ToggleGroup title="国家/地区" options={countries} selected={selectedCountries} onToggle={onCountryToggle} />
-            <ToggleGroup
-              title="院校"
-              options={universities}
-              selected={selectedUniversities}
-              onToggle={onUniversityToggle}
-              placeholder="请先选择至少一个国家，再展开对应院校"
-            />
-          </div>
+      {/* 主要筛选项：国家和院校 - 始终显示 */}
+      <div className="grid gap-3 md:grid-cols-2">
+        <ToggleGroup title="国家/地区" options={countries} selected={selectedCountries} onToggle={onCountryToggle} />
+        <ToggleGroup
+          title="院校"
+          options={universities}
+          selected={selectedUniversities}
+          onToggle={onUniversityToggle}
+          placeholder="请先选择国家"
+        />
+      </div>
 
+      {/* 展开时显示的其他筛选项 */}
+      {isExpanded && (
+        <div className="space-y-3 border-t border-gray-100 pt-3 dark:border-gray-800">
           <div className="space-y-2">
-            <ToggleGroup
-              title="研究方向标签"
-              options={limitedResearchTags}
-              selected={selectedResearchTags}
-              onToggle={onResearchTagToggle}
-              placeholder="请先选择国家，系统会推荐高频研究方向"
-            />
-            {canToggleResearchTags ? (
-              <button
-                type="button"
-                className="text-xs font-medium text-indigo-500 transition hover:text-indigo-400"
-                onClick={() => setShowAllResearchTags((prev) => !prev)}
-              >
-                {showAllResearchTags ? '收起研究方向' : '展开更多研究方向'}
-              </button>
-            ) : null}
+            <div className="flex items-center justify-between">
+              <p className="text-xs font-semibold uppercase tracking-wide text-gray-400">研究方向标签</p>
+              {canToggleResearchTags && (
+                <button
+                  type="button"
+                  className="text-xs font-medium text-indigo-500 transition hover:text-indigo-400"
+                  onClick={() => setShowAllResearchTags((prev) => !prev)}
+                >
+                  {showAllResearchTags ? '收起' : `显示全部 ${researchTags.length} 个`}
+                </button>
+              )}
+            </div>
+            {researchTags.length === 0 ? (
+              <p className="rounded-xl bg-gray-50 px-3 py-2 text-xs text-gray-400 dark:bg-gray-800/60 dark:text-gray-500">
+                请先选择国家，系统会推荐高频研究方向
+              </p>
+            ) : (
+              <div className="flex flex-wrap gap-1.5">
+                {limitedResearchTags.map((option) => (
+                  <TogglePill
+                    key={option.value}
+                    option={option}
+                    active={selectedResearchTags.includes(option.value)}
+                    onClick={onResearchTagToggle}
+                  />
+                ))}
+              </div>
+            )}
           </div>
-        </div>
 
-        <div className="space-y-4 rounded-2xl bg-gray-50 p-4 dark:bg-gray-800/60">
-          <ToggleGroup title="资助情况" options={fundingTypes} selected={selectedFundingTypes} onToggle={onFundingToggle} />
-          <ToggleGroup title="目标入学季" options={intakes} selected={selectedIntakes} onToggle={onIntakeToggle} />
+          <div className="grid gap-3 md:grid-cols-3">
+            <ToggleGroup title="资助情况" options={fundingTypes} selected={selectedFundingTypes} onToggle={onFundingToggle} />
+            <ToggleGroup title="目标入学季" options={intakes} selected={selectedIntakes} onToggle={onIntakeToggle} />
 
-          <div className="space-y-2">
-            <p className="text-xs font-semibold uppercase tracking-wide text-gray-400">国际学生</p>
-            <div className="flex gap-2">
-              <Button
-                variant={onlyInternational ? 'default' : 'outline'}
-                size="sm"
-                onClick={() => onInternationalToggle(true)}
-            className={`${onlyInternational ? 'bg-indigo-600 hover:bg-indigo-500 text-white' : ''}`}
-              >
-                接受国际学生
-              </Button>
-              <Button
-                variant={!onlyInternational ? 'default' : 'outline'}
-                size="sm"
-                onClick={() => onInternationalToggle(false)}
-            className={`${!onlyInternational ? 'bg-indigo-600 hover:bg-indigo-500 text-white' : ''}`}
-              >
-                全部教授
-              </Button>
+            <div className="space-y-2">
+              <p className="text-xs font-semibold uppercase tracking-wide text-gray-400">国际学生</p>
+              <div className="flex gap-1.5">
+                <Button
+                  variant={onlyInternational ? 'default' : 'outline'}
+                  size="sm"
+                  onClick={() => onInternationalToggle(true)}
+                  className={`h-7 text-xs ${onlyInternational ? 'bg-indigo-600 hover:bg-indigo-500 text-white' : ''}`}
+                >
+                  仅国际
+                </Button>
+                <Button
+                  variant={!onlyInternational ? 'default' : 'outline'}
+                  size="sm"
+                  onClick={() => onInternationalToggle(false)}
+                  className={`h-7 text-xs ${!onlyInternational ? 'bg-indigo-600 hover:bg-indigo-500 text-white' : ''}`}
+                >
+                  全部
+                </Button>
+              </div>
             </div>
           </div>
 
           <div className="space-y-2">
             <p className="text-xs font-semibold uppercase tracking-wide text-gray-400">排序方式</p>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-1.5">
               <Button
                 variant={sortMode === 'matchScore' ? 'default' : 'outline'}
                 size="sm"
                 onClick={() => onSortChange('matchScore')}
-                className={sortMode === 'matchScore' ? 'bg-indigo-600 hover:bg-indigo-500 text-white' : ''}
+                className={`h-7 text-xs ${sortMode === 'matchScore' ? 'bg-indigo-600 hover:bg-indigo-500 text-white' : ''}`}
               >
-                匹配度优先
+                匹配度
               </Button>
               <Button
                 variant={sortMode === 'recentlyReviewed' ? 'default' : 'outline'}
                 size="sm"
                 onClick={() => onSortChange('recentlyReviewed')}
-                className={sortMode === 'recentlyReviewed' ? 'bg-indigo-600 hover:bg-indigo-500 text-white' : ''}
+                className={`h-7 text-xs ${sortMode === 'recentlyReviewed' ? 'bg-indigo-600 hover:bg-indigo-500 text-white' : ''}`}
               >
                 最近审核
               </Button>
@@ -229,14 +254,14 @@ const DoctoralFiltersPanel: React.FC<DoctoralFiltersPanelProps> = ({
                 variant={sortMode === 'fundingPriority' ? 'default' : 'outline'}
                 size="sm"
                 onClick={() => onSortChange('fundingPriority')}
-                className={sortMode === 'fundingPriority' ? 'bg-indigo-600 hover:bg-indigo-500 text-white' : ''}
+                className={`h-7 text-xs ${sortMode === 'fundingPriority' ? 'bg-indigo-600 hover:bg-indigo-500 text-white' : ''}`}
               >
-                奖学金优先
+                奖学金
               </Button>
             </div>
           </div>
         </div>
-      </div>
+      )}
     </section>
   );
 };

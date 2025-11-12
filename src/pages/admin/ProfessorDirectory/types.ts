@@ -27,17 +27,47 @@ export interface FundingOption {
   description: string;
 }
 
-export interface ProfessorProfile {
+export interface ResearchProject {
+  title: string;
+  description?: string;
+  tags?: string[];
+}
+
+export interface SchoolInfo {
   id: string;
+  enName: string;
+  cnName?: string;
+  country: string;
+  city?: string;
+  qsRank2024?: number;
+  qsRank2025?: number;
+  logoUrl?: string;
+  websiteUrl?: string;
+}
+
+export interface ProfessorProfile {
+  id: number;
   name: string;
   avatar?: string;
-  university: string;
+  profileUrl?: string;
+  primaryTitle?: string;
+  additionalTitles?: string[];
+  biography?: string;
+  education?: string[];
+  researchInterests?: string[];
+  researchProjects?: ResearchProject[];
+  awards?: string[];
+  courses?: string[];
+  schoolId?: string;  // 新增：关联学校ID
+  school?: SchoolInfo; // 新增：关联的学校信息（JOIN查询时填充）
+  university: string;  // 保留：学校名称（用于显示和搜索）
   college: string;
   country: string;
   city?: string;
   researchTags: string[];
   signatureProjects: string[];
   contactEmail: string;
+  contactPhone?: string;
   personalPage?: string;
   publications: { title: string; year: number; link?: string }[];
   acceptsInternationalStudents: boolean;
@@ -45,6 +75,7 @@ export interface ProfessorProfile {
   phdRequirements: PhDRequirement;
   fundingOptions: FundingOption[];
   applicationWindow: ApplicationWindow;
+  intake: string;
   recentPlacements: PlacementRecord[];
   lastReviewedAt: string;
   internalNotes: string;
@@ -64,7 +95,7 @@ export interface ProfessorFilterOptions {
 export type SortMode = 'matchScore' | 'recentlyReviewed' | 'fundingPriority';
 
 export interface MatchCandidatePayload {
-  studentId: string;
+  studentId: number;
   targetIntake: string;
   customNote?: string;
 }

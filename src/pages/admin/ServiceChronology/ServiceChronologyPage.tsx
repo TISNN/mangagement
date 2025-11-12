@@ -24,8 +24,10 @@ import {
 import { format } from 'date-fns';
 import { peopleService } from '../../../services';
 import { useAuth } from '../../../context/AuthContext';
+import type { Employee, StudentProfile } from '../../../services/authService';
 import ServiceProgressModal from '../../../components/ServiceProgressModal';
-import type { ServiceProgressLog } from '../../../types/people';
+import type { Attachment, NextStep, ServiceProgressLog } from '../../../types/people';
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from '../../../components/ui/dialog';
 
 type ChronoTab = 'timeline' | 'milestone' | 'risk' | 'analytics' | 'archives';
 
@@ -62,6 +64,12 @@ interface TimelineEvent {
   tags?: string[];
   aiInsight?: string;
   status?: '完成' | '进行中' | '待处理' | '风险';
+  milestone?: string;
+  notes?: string;
+  completedItems?: Record<string, unknown>[];
+  nextSteps?: (Record<string, unknown> | NextStep)[];
+  attachmentsList?: Attachment[];
+  rawLog?: ServiceProgressLog;
 }
 
 interface MilestoneItem {
@@ -344,10 +352,77 @@ const SectionHeader: React.FC<{
   </div>
 );
 
+const readLocalAuthSnapshot = (): {
+  profile: Employee | StudentProfile | null;
+  userType: 'admin' | 'student' | null;
+} => {
+  if (typeof window === 'undefined') {
+    return { profile: null, userType: null };
+  }
+
+  const storedType = window.localStorage.getItem('userType');
+
+  const safeParse = <T,>(value: string | null): T | null => {
+    if (!value) {
+      return null;
+    }
+    try {
+      return JSON.parse(value) as T;
+    } catch (error) {
+      console.warn('[ServiceChronology] 解析本地认证信息失败:', error);
+      return null;
+    }
+  };
+
+  if (storedType === 'admin') {
+    return {
+      profile: safeParse<Employee>(window.localStorage.getItem('currentEmployee')),
+      userType: 'admin',
+    };
+  }
+
+  if (storedType === 'student') {
+    return {
+      profile: safeParse<StudentProfile>(window.localStorage.getItem('currentStudent')),
+      userType: 'student',
+    };
+  }
+
+  return { profile: null, userType: null };
+};
+
 const ServiceChronologyPage: React.FC = () => {
-  const { profile, userType } = useAuth();
-  const employeeProfile =
-    userType === 'admin' && profile && 'id' in profile ? (profile as typeof profile & { id: number }) : null;
+  let authProfile: Employee | StudentProfile | null = null;
+  let authUserType: 'admin' | 'student' | null = null;
+
+  try {
+    const auth = useAuth();
+    authProfile = auth.profile;
+    authUserType = auth.userType;
+  } catch (error) {
+    if (error instanceof Error && error.message.includes('AuthProvider')) {
+      console.warn('[ServiceChronology] 未检测到 AuthProvider，回退至 localStorage 获取认证信息。', error);
+    } else {
+      throw error;
+    }
+  }
+
+  const localAuthSnapshot = useMemo(() => {
+    if (authProfile || authUserType) {
+      return { profile: null, userType: null };
+    }
+    return readLocalAuthSnapshot();
+  }, [authProfile, authUserType]);
+
+  const profile = authProfile ?? localAuthSnapshot.profile;
+  const userType = authUserType ?? localAuthSnapshot.userType;
+
+  const employeeProfile = useMemo(() => {
+    if (userType === 'admin' && profile && 'id' in profile) {
+      return profile as Employee;
+    }
+    return null;
+  }, [profile, userType]);
 
   const [projects, setProjects] = useState<ServiceProject[]>([]);
   const [selectedProjectId, setSelectedProjectId] = useState<string>('');
@@ -358,6 +433,59 @@ const ServiceChronologyPage: React.FC = () => {
   const [logsError, setLogsError] = useState<string | null>(null);
   const [showProgressModal, setShowProgressModal] = useState(false);
   const [isLoadingProjects, setIsLoadingProjects] = useState(false);
+  const [selectedTimelineEvent, setSelectedTimelineEvent] = useState<TimelineEvent | null>(null);
+  const [isTimelineDetailOpen, setIsTimelineDetailOpen] = useState(false);
+
+  const getRecordContent = useCallback((record: Record<string, unknown>) => {
+    if (!record) return '';
+    const candidates = ['content', 'description', 'title', 'summary', 'note'];
+    for (const key of candidates) {
+      const value = (record as Record<string, unknown>)[key];
+      if (typeof value === 'string' && value.trim()) {
+        return value.trim();
+      }
+    }
+    return JSON.stringify(record);
+  }, []);
+
+  const getRecordAssignee = useCallback((record: Record<string, unknown>) => {
+    if (!record) return '';
+    const assigneeFields = ['assigned_to_name', 'owner', 'assigned_to', 'responsible', 'executor'];
+    for (const key of assigneeFields) {
+      const value = (record as Record<string, unknown>)[key];
+      if (typeof value === 'string' && value.trim()) {
+        return value.trim();
+      }
+      if (typeof value === 'number') {
+        return `成员 #${value}`;
+      }
+    }
+    return '';
+  }, []);
+
+  const getRecordDueDate = useCallback((record: Record<string, unknown>) => {
+    if (!record) return '';
+    const dueFields = ['due_date', 'deadline', 'plan_date', 'planned_date'];
+    for (const key of dueFields) {
+      const value = (record as Record<string, unknown>)[key];
+      if (typeof value === 'string' && value.trim()) {
+        return formatDateString(value.trim());
+      }
+    }
+    return '';
+  }, []);
+
+  const handleViewTimelineDetail = useCallback((event: TimelineEvent) => {
+    setSelectedTimelineEvent(event);
+    setIsTimelineDetailOpen(true);
+  }, []);
+
+  const handleTimelineDetailOpenChange = useCallback((open: boolean) => {
+    setIsTimelineDetailOpen(open);
+    if (!open) {
+      setSelectedTimelineEvent(null);
+    }
+  }, []);
 
   const selectedProject = useMemo(
     () => projects.find((project) => project.id === selectedProjectId) ?? null,
@@ -495,16 +623,22 @@ const ServiceChronologyPage: React.FC = () => {
     if (!progressLogs.length) return TIMELINE_EVENTS;
 
     return progressLogs.map((log) => {
-      const owner =
-        log.employee?.name ||
-        log.recorder?.name ||
-        (log.recorded_by ? `成员 #${log.recorded_by}` : '团队成员');
+    const recorderName =
+      typeof log.recorder?.person?.name === 'string' && log.recorder.person.name.trim().length
+        ? log.recorder.person.name.trim()
+        : undefined;
+    const owner = (
+      (typeof log.employee?.name === 'string' && log.employee.name.trim()) ||
+      recorderName ||
+      (log.recorded_by ? `成员 #${log.recorded_by}` : '团队成员')
+    ) as string;
 
       const completedCount = log.completed_items?.length ?? 0;
       const nextCount = log.next_steps?.length ?? 0;
       const hasRisk =
         (log.description ?? '').includes('风险') ||
         (log.next_steps ?? []).some((step) => (step as { risk?: boolean }).risk);
+    const attachmentsList = Array.isArray(log.attachments) ? log.attachments : undefined;
 
       return {
         id: `log-${log.id}`,
@@ -517,7 +651,7 @@ const ServiceChronologyPage: React.FC = () => {
           : '进度信息已更新。',
         owner,
         timestamp: formatDateTime(log.progress_date),
-        attachments: log.attachments?.length,
+      attachments: attachmentsList?.length,
         tags: [
           ...(completedCount ? ['已完成'] : []),
           ...(nextCount ? ['待办'] : []),
@@ -526,6 +660,12 @@ const ServiceChronologyPage: React.FC = () => {
           ? `AI 提示优先处理：${(log.next_steps?.[0] as { content?: string })?.content ?? '跟进行动'}.`
           : undefined,
         status: hasRisk ? '风险' : nextCount ? '进行中' : '完成',
+      milestone: log.milestone,
+      notes: log.notes ?? undefined,
+      completedItems: Array.isArray(log.completed_items) ? log.completed_items : undefined,
+      nextSteps: Array.isArray(log.next_steps) ? log.next_steps : undefined,
+      attachmentsList,
+      rawLog: log,
       };
     });
   }, [progressLogs]);
@@ -546,12 +686,14 @@ const ServiceChronologyPage: React.FC = () => {
         selectedProject?.primaryAdvisor ||
         '团队成员';
 
-      const status: MilestoneItem['status'] =
+      const statusRaw =
         due && new Date(`${due}T00:00:00`).getTime() < Date.now()
           ? '延迟'
           : index === 0
           ? '进行中'
           : '按计划';
+      const normalizedStatus: MilestoneItem['status'] =
+        statusRaw === '进行中' ? '按计划' : (statusRaw as MilestoneItem['status']);
 
       return {
         id: `dynamic-mil-${index}`,
@@ -560,8 +702,8 @@ const ServiceChronologyPage: React.FC = () => {
         owner: owner.toString(),
         plannedDate: planned || due || '—',
         dueDate: due || '—',
-        status: status === '进行中' ? '按计划' : status,
-        completion: status === '按计划' ? 40 : status === '延迟' ? 20 : 80,
+        status: normalizedStatus,
+        completion: normalizedStatus === '按计划' ? 40 : normalizedStatus === '延迟' ? 20 : 80,
         weight: 20,
       };
     });
@@ -573,7 +715,8 @@ const ServiceChronologyPage: React.FC = () => {
     const risks: RiskItem[] = [];
     progressLogs.forEach((log) => {
       const description = log.description ?? '';
-      const status = (log.status || '').toLowerCase();
+      const statusRaw = (log as { status?: string }).status;
+      const status = typeof statusRaw === 'string' ? statusRaw.toLowerCase() : '';
 
       if (description.includes('风险') || status.includes('risk')) {
         risks.push({
@@ -601,7 +744,11 @@ const ServiceChronologyPage: React.FC = () => {
     const avgIncrement = (() => {
       if (totalLogs < 2) return '—';
       const deltas = progressLogs
-        .map((log) => Number.parseInt(log.milestone, 10))
+        .map((log) =>
+          typeof log.milestone === 'string' && log.milestone.trim()
+            ? Number.parseInt(log.milestone, 10)
+            : Number.NaN,
+        )
         .filter((value) => Number.isFinite(value));
       if (deltas.length < 2) return '—';
       const increments = deltas.slice(0, deltas.length - 1).map((value, index) => value - deltas[index + 1]);
@@ -631,7 +778,10 @@ const ServiceChronologyPage: React.FC = () => {
         index === 0 ? '重点' : '阶段',
         ...(log.next_steps?.length ? ['行动项'] : []),
       ],
-      author: log.employee?.name || log.recorder?.name || '顾问团队',
+      author:
+        (typeof log.employee?.name === 'string' && log.employee.name.trim()) ||
+        (typeof log.recorder?.person?.name === 'string' && log.recorder.person.name.trim()) ||
+        '顾问团队',
     }));
   }, [progressLogs]);
 
@@ -897,7 +1047,11 @@ const ServiceChronologyPage: React.FC = () => {
                                     ))}
                                   </div>
                                 </div>
-                                <button className="inline-flex items-center gap-1 rounded-xl border border-gray-200 dark:border-gray-600 px-3 py-1.5 text-xs text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700/60">
+                                <button
+                                  type="button"
+                                  onClick={() => handleViewTimelineDetail(event)}
+                                  className="inline-flex items-center gap-1 rounded-xl border border-gray-200 dark:border-gray-600 px-3 py-1.5 text-xs text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700/60"
+                                >
                                   查看详情
                                   <ChevronRight className="h-3 w-3" />
                                 </button>
@@ -1120,6 +1274,214 @@ const ServiceChronologyPage: React.FC = () => {
           employeeRefId={employeeProfile?.id}
         />
       )}
+
+      <Dialog open={isTimelineDetailOpen} onOpenChange={handleTimelineDetailOpenChange}>
+        <DialogContent className="w-full max-w-3xl overflow-hidden rounded-3xl border border-gray-200 p-0 shadow-2xl dark:border-gray-700/70">
+          {selectedTimelineEvent ? (
+            <>
+              <DialogHeader className="space-y-3 rounded-t-3xl bg-blue-600 px-6 py-6 text-left text-white">
+                <div className="flex flex-wrap items-center gap-2 text-xs uppercase tracking-wide text-blue-100">
+                  <span>{selectedTimelineEvent.type}</span>
+                  {selectedTimelineEvent.status && (
+                    <span className="inline-flex items-center rounded-full bg-white/15 px-3 py-1 text-[11px] font-medium text-white">
+                      {selectedTimelineEvent.status}
+                    </span>
+                  )}
+                </div>
+                <DialogTitle className="text-xl font-semibold leading-7">
+                  {selectedTimelineEvent.title}
+                </DialogTitle>
+                <DialogDescription className="flex flex-wrap gap-3 text-xs text-blue-100/90">
+                  <span className="inline-flex items-center gap-1">
+                    <Clock className="h-3.5 w-3.5" />
+                    {selectedTimelineEvent.timestamp}
+                  </span>
+                  <span className="inline-flex items-center gap-1">
+                    <Users className="h-3.5 w-3.5" />
+                    {selectedTimelineEvent.owner}
+                  </span>
+                  {selectedTimelineEvent.milestone && (
+                    <span className="inline-flex items-center gap-1">
+                      <Target className="h-3.5 w-3.5" />
+                      关联里程碑：{selectedTimelineEvent.milestone}
+                    </span>
+                  )}
+                </DialogDescription>
+              </DialogHeader>
+
+              <div className="max-h-[70vh] space-y-6 overflow-y-auto px-6 py-6">
+                <div className="space-y-3">
+                  <p className="text-sm leading-relaxed text-gray-700 dark:text-gray-200">
+                    {selectedTimelineEvent.description}
+                  </p>
+                  {selectedTimelineEvent.notes && selectedTimelineEvent.notes.trim().length > 0 && (
+                    <div className="rounded-xl bg-gray-50 px-4 py-3 text-sm text-gray-600 dark:bg-gray-800/70 dark:text-gray-300">
+                      {selectedTimelineEvent.notes}
+                    </div>
+                  )}
+                  {selectedTimelineEvent.aiInsight && (
+                    <div className="flex items-start gap-3 rounded-xl bg-indigo-50 px-4 py-3 text-sm text-indigo-700 dark:bg-indigo-900/30 dark:text-indigo-200">
+                      <Sparkles className="mt-0.5 h-4 w-4 shrink-0" />
+                      <span>{selectedTimelineEvent.aiInsight}</span>
+                    </div>
+                  )}
+                  {selectedTimelineEvent.tags?.length ? (
+                    <div className="flex flex-wrap gap-2">
+                      {selectedTimelineEvent.tags.map((tag) => (
+                        <span
+                          key={tag}
+                          className="inline-flex items-center rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-600 dark:bg-gray-800/60 dark:text-gray-300"
+                        >
+                          #{tag}
+                        </span>
+                      ))}
+                    </div>
+                  ) : null}
+                </div>
+
+                <div className="grid gap-4 text-sm text-gray-600 dark:text-gray-300 sm:grid-cols-2">
+                  <div className="inline-flex items-center gap-2">
+                    <Calendar className="h-4 w-4 text-blue-500" />
+                    记录时间：{selectedTimelineEvent.rawLog?.progress_date
+                      ? formatDateTime(selectedTimelineEvent.rawLog.progress_date)
+                      : selectedTimelineEvent.timestamp}
+                  </div>
+                  <div className="inline-flex items-center gap-2">
+                    <Users className="h-4 w-4 text-blue-500" />
+                    记录人：
+                    {selectedTimelineEvent.rawLog?.employee?.name ||
+                      selectedTimelineEvent.rawLog?.recorder?.person?.name ||
+                      (selectedTimelineEvent.rawLog?.recorded_by
+                        ? `成员 #${selectedTimelineEvent.rawLog.recorded_by}`
+                        : selectedTimelineEvent.owner)}
+                  </div>
+                  {selectedTimelineEvent.rawLog?.milestone && (
+                    <div className="inline-flex items-center gap-2">
+                      <Target className="h-4 w-4 text-blue-500" />
+                      阶段进度：{selectedTimelineEvent.rawLog.milestone}
+                    </div>
+                  )}
+                </div>
+
+                {selectedTimelineEvent.completedItems?.length ? (
+                  <div className="space-y-3">
+                    <h3 className="flex items-center gap-2 text-sm font-semibold text-gray-900 dark:text-white">
+                      <CheckCircle2 className="h-4 w-4 text-emerald-500" />
+                      已完成项目
+                    </h3>
+                    <ul className="space-y-2">
+                      {selectedTimelineEvent.completedItems.map((item, index) => {
+                        const record = item as Record<string, unknown>;
+                        const content = getRecordContent(record);
+                        const owner = getRecordAssignee(record);
+                        return (
+                          <li
+                            key={`completed-${index}`}
+                            className="rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-gray-600 shadow-sm dark:border-gray-700/60 dark:bg-gray-900/40 dark:text-gray-300"
+                          >
+                            <div className="flex flex-col gap-2">
+                              <span className="font-medium text-gray-900 dark:text-white">{content}</span>
+                              {owner && (
+                                <span className="text-xs text-gray-500 dark:text-gray-400">负责人：{owner}</span>
+                              )}
+                            </div>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
+                ) : null}
+
+                {selectedTimelineEvent.nextSteps?.length ? (
+                  <div className="space-y-3">
+                    <h3 className="flex items-center gap-2 text-sm font-semibold text-gray-900 dark:text-white">
+                      <ListChecks className="h-4 w-4 text-blue-500" />
+                      下一步计划
+                    </h3>
+                    <ul className="space-y-2">
+                      {selectedTimelineEvent.nextSteps.map((item, index) => {
+                        const record = item as Record<string, unknown>;
+                        const content = getRecordContent(record);
+                        const owner = getRecordAssignee(record);
+                        const due = getRecordDueDate(record);
+                        return (
+                          <li
+                            key={`next-${index}`}
+                            className="rounded-xl border border-gray-200 bg-blue-50/60 px-4 py-3 text-sm text-gray-700 shadow-sm dark:border-blue-900/50 dark:bg-blue-900/20 dark:text-blue-100"
+                          >
+                            <div className="flex flex-col gap-1.5">
+                              <span className="font-medium text-gray-900 dark:text-white">{content}</span>
+                              <div className="flex flex-wrap items-center gap-3 text-xs text-gray-600 dark:text-blue-100/80">
+                                {owner && (
+                                  <span className="inline-flex items-center gap-1">
+                                    <Users className="h-3 w-3" />
+                                    负责人：{owner}
+                                  </span>
+                                )}
+                                {due && (
+                                  <span className="inline-flex items-center gap-1">
+                                    <Calendar className="h-3 w-3" />
+                                    截止：{due}
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
+                ) : null}
+
+                {selectedTimelineEvent.attachmentsList?.length ? (
+                  <div className="space-y-3">
+                    <h3 className="flex items-center gap-2 text-sm font-semibold text-gray-900 dark:text-white">
+                      <Archive className="h-4 w-4 text-blue-500" />
+                      相关附件
+                    </h3>
+                    <ul className="space-y-2">
+                      {selectedTimelineEvent.attachmentsList.map((file, index) => (
+                        <li
+                          key={`attachment-${file.url ?? file.name ?? index}`}
+                          className="flex items-center justify-between gap-4 rounded-xl border border-gray-200 bg-white px-4 py-2.5 text-sm text-gray-600 shadow-sm dark:border-gray-700/60 dark:bg-gray-900/40 dark:text-gray-300"
+                        >
+                          <div className="flex flex-col">
+                            <span className="font-medium text-gray-900 dark:text-white">
+                              {file.name || file.url || `附件 ${index + 1}`}
+                            </span>
+                            {file.type && (
+                              <span className="text-xs text-gray-500 dark:text-gray-400">类型：{file.type}</span>
+                            )}
+                          </div>
+                          {file.url ? (
+                            <a
+                              href={file.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-sm font-medium text-blue-600 hover:underline dark:text-blue-400"
+                            >
+                              打开
+                            </a>
+                          ) : null}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : selectedTimelineEvent.attachments ? (
+                  <div className="flex items-center gap-2 rounded-xl border border-dashed border-gray-200 bg-white px-4 py-3 text-sm text-gray-500 dark:border-gray-700/60 dark:bg-gray-900/40 dark:text-gray-400">
+                    <Archive className="h-4 w-4" />
+                    已上传 {selectedTimelineEvent.attachments} 个附件
+                  </div>
+                ) : null}
+              </div>
+            </>
+          ) : (
+            <div className="px-6 py-12 text-center text-sm text-gray-500 dark:text-gray-300">
+              暂无可查看的详细记录。
+            </div>
+          )}
+        </DialogContent>
+      </Dialog>
     </div>
   );
 };

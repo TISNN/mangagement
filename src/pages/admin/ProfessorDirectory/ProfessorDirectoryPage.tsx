@@ -1,28 +1,39 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Alert, AlertDescription } from '@/components/ui/alert';
-import { AlertCircle } from 'lucide-react';
+import { AlertCircle, Loader2 } from 'lucide-react';
 import DoctoralFiltersPanel from './components/DoctoralFiltersPanel';
 import ProfessorGrid from './components/ProfessorGrid';
-import ProfessorDetailDrawer from './components/ProfessorDetailDrawer';
 import MatchInsightsPanel from './components/MatchInsightsPanel';
 import ShortlistPanel from './components/ShortlistPanel';
 import ProfessorMatchDrawer from './components/ProfessorMatchDrawer';
-import { getProfessorFilterOptions, PROFESSOR_PROFILES } from './data';
-import { ProfessorProfile, SortMode } from './types';
+import {
+  fetchProfessorFilters,
+  fetchProfessors,
+  fetchProfessorFavorites,
+  addProfessorFavorite,
+  removeProfessorFavorite,
+  fetchProfessorDetail,
+  createProfessorMatchRecord,
+  fetchStudentsForMatching,
+  StudentMatchOption,
+} from '@/services/professorDirectoryService';
+import { FundingIntensity, ProfessorFilterOptions, ProfessorProfile, SortMode } from './types';
+import { useAuth } from '@/context/AuthContext';
 
 type FeedbackState = {
   message: string;
-  variant: 'success' | 'info';
+  variant: 'success' | 'info' | 'error';
 } | null;
 
-const STUDENT_OPTIONS = [
-  { id: 'stu-1001', name: '李晨', targetProgram: '计算机科学 PhD', targetIntake: '2026 Fall' },
-  { id: 'stu-1002', name: '王悦', targetProgram: '教育技术 PhD', targetIntake: '2026 Fall' },
-  { id: 'stu-1003', name: 'Zoe Chen', targetProgram: '金融科技 PhD', targetIntake: '2026 Fall' },
-];
-
 const ProfessorDirectoryPage: React.FC = () => {
-  const filterOptions = useMemo(() => getProfessorFilterOptions(), []);
+  const navigate = useNavigate();
+  const { userType, profile, loading: authLoading } = useAuth();
+  const employeeId = userType === 'admin' && profile ? Number(profile.id) : null;
+
+  const [filterOptions, setFilterOptions] = useState<ProfessorFilterOptions | null>(null);
+  const [filtersLoading, setFiltersLoading] = useState(true);
+  const [filtersError, setFiltersError] = useState<string | null>(null);
 
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCountries, setSelectedCountries] = useState<string[]>([]);
@@ -33,14 +44,176 @@ const ProfessorDirectoryPage: React.FC = () => {
   const [onlyInternational, setOnlyInternational] = useState(true);
   const [sortMode, setSortMode] = useState<SortMode>('matchScore');
 
-  const [selectedProfessor, setSelectedProfessor] = useState<ProfessorProfile | null>(null);
-  const [detailOpen, setDetailOpen] = useState(false);
+  const [professors, setProfessors] = useState<ProfessorProfile[]>([]);
+  const [listLoading, setListLoading] = useState(false);
+  const [listError, setListError] = useState<string | null>(null);
+
+  const [favoriteIds, setFavoriteIds] = useState<number[]>([]);
+  const [favoriteProfiles, setFavoriteProfiles] = useState<ProfessorProfile[]>([]);
+
+  const professorCacheRef = useRef<Map<number, ProfessorProfile>>(new Map());
 
   const [matchDrawerOpen, setMatchDrawerOpen] = useState(false);
   const [matchProfessor, setMatchProfessor] = useState<ProfessorProfile | null>(null);
+  const [studentOptions, setStudentOptions] = useState<StudentMatchOption[]>([]);
 
-  const [shortlist, setShortlist] = useState<ProfessorProfile[]>([]);
   const [feedback, setFeedback] = useState<FeedbackState>(null);
+
+  useEffect(() => {
+    if (authLoading) {
+      return;
+    }
+    let active = true;
+    setFiltersLoading(true);
+    setFiltersError(null);
+    fetchProfessorFilters()
+      .then((options) => {
+        if (!active) return;
+        setFilterOptions(options);
+      })
+      .catch((error) => {
+        console.error('[ProfessorDirectory] 获取筛选条件失败', error);
+        if (active) setFiltersError('获取筛选条件失败，请稍后重试。');
+      })
+      .finally(() => active && setFiltersLoading(false));
+    return () => {
+      active = false;
+    };
+  }, [authLoading]);
+
+  useEffect(() => {
+    if (authLoading) {
+      return;
+    }
+    let active = true;
+    fetchStudentsForMatching()
+      .then((options) => {
+        if (active) setStudentOptions(options);
+      })
+      .catch((error) => {
+        console.warn('[ProfessorDirectory] 获取学生列表失败', error);
+      });
+    return () => {
+      active = false;
+    };
+  }, [authLoading]);
+
+  useEffect(() => {
+    if (authLoading || !employeeId) {
+      setFavoriteIds([]);
+      setFavoriteProfiles([]);
+      return;
+    }
+    let active = true;
+    fetchProfessorFavorites(employeeId)
+      .then((ids) => {
+        if (active) setFavoriteIds(ids);
+      })
+      .catch((error) => {
+        console.error('[ProfessorDirectory] 获取收藏失败', error);
+        if (active) setFeedback({ message: '加载收藏列表失败，请稍后重试。', variant: 'error' });
+      });
+    return () => {
+      active = false;
+    };
+  }, [employeeId]);
+
+  const pruneSelections = useCallback(
+    (nextCountries: string[], options: ProfessorFilterOptions | null) => {
+      if (!options) return;
+      if (nextCountries.length === 0) {
+        setSelectedUniversities([]);
+        setSelectedResearchTags([]);
+        return;
+      }
+      const allowedUniversities = new Set<string>();
+      const allowedTags = new Set<string>();
+      nextCountries.forEach((country) => {
+        options.universitiesByCountry[country]?.forEach((item) => allowedUniversities.add(item));
+        options.researchTagsByCountry[country]?.forEach((item) => allowedTags.add(item));
+      });
+      setSelectedUniversities((prev) => prev.filter((item) => allowedUniversities.has(item)));
+      setSelectedResearchTags((prev) => prev.filter((item) => allowedTags.has(item)));
+    },
+    [],
+  );
+
+  useEffect(() => {
+    pruneSelections(selectedCountries, filterOptions);
+  }, [selectedCountries, filterOptions, pruneSelections]);
+
+  useEffect(() => {
+    if (authLoading) {
+      return;
+    }
+    let active = true;
+    setListLoading(true);
+    setListError(null);
+    fetchProfessors({
+      searchTerm,
+      countries: selectedCountries,
+      universities: selectedUniversities,
+      researchTags: selectedResearchTags,
+      fundingTypes: selectedFundingTypes as FundingIntensity[],
+      intakes: selectedIntakes,
+      onlyInternational,
+      sortMode,
+    })
+      .then((rows) => {
+        if (!active) return;
+        setProfessors(rows);
+        const cache = professorCacheRef.current;
+        rows.forEach((profile) => cache.set(profile.id, profile));
+      })
+      .catch((error) => {
+        console.error('[ProfessorDirectory] 获取教授列表失败', error);
+        if (active) setListError('获取教授列表失败，请稍后重试。');
+      })
+      .finally(() => active && setListLoading(false));
+    return () => {
+      active = false;
+    };
+  }, [authLoading, searchTerm, selectedCountries, selectedUniversities, selectedResearchTags, selectedFundingTypes, selectedIntakes, onlyInternational, sortMode]);
+
+  useEffect(() => {
+    if (authLoading) {
+      return;
+    }
+    let active = true;
+    const hydrateFavorites = async () => {
+      const ids = favoriteIds;
+      if (ids.length === 0) {
+        if (active) setFavoriteProfiles([]);
+        return;
+      }
+      const cache = professorCacheRef.current;
+      const missing: number[] = [];
+      ids.forEach((id) => {
+        if (!cache.has(id)) {
+          missing.push(id);
+        }
+      });
+      if (missing.length > 0) {
+        try {
+          const fetched = await Promise.all(missing.map((id) => fetchProfessorDetail(id)));
+          fetched
+            .filter((item): item is ProfessorProfile => item !== null)
+            .forEach((profile) => cache.set(profile.id, profile));
+        } catch (error) {
+          console.error('[ProfessorDirectory] 获取收藏教授详情失败', error);
+        }
+      }
+      if (!active) return;
+      const ordered = ids
+        .map((id) => professorCacheRef.current.get(id))
+        .filter((item): item is ProfessorProfile => Boolean(item));
+      setFavoriteProfiles(ordered);
+    };
+    hydrateFavorites();
+    return () => {
+      active = false;
+    };
+  }, [authLoading, favoriteIds, professors]);
 
   useEffect(() => {
     if (!feedback) return;
@@ -48,149 +221,117 @@ const ProfessorDirectoryPage: React.FC = () => {
     return () => window.clearTimeout(timer);
   }, [feedback]);
 
-  const handleToggle = (value: string, selected: string[], setter: (next: string[]) => void) => {
-    setter(selected.includes(value) ? selected.filter((item) => item !== value) : [...selected, value]);
-  };
+  const handleToggleSelection = useCallback(
+    (value: string, selected: string[], setter: (next: string[]) => void) => {
+      setter(selected.includes(value) ? selected.filter((item) => item !== value) : [...selected, value]);
+    },
+    [],
+  );
 
-  const filteredProfiles = useMemo(() => {
-    const normalizedSearch = searchTerm.trim().toLowerCase();
+  const handleCountryToggle = useCallback(
+    (value: string) => {
+      setSelectedCountries((prev) => {
+        const next = prev.includes(value) ? prev.filter((item) => item !== value) : [...prev, value];
+        pruneSelections(next, filterOptions ?? null);
+        return next;
+      });
+    },
+    [filterOptions, pruneSelections],
+  );
 
-    return PROFESSOR_PROFILES.filter((profile) => {
-      const matchesSearch =
-        normalizedSearch.length === 0 ||
-        [
-          profile.name,
-          profile.university,
-          profile.college,
-          profile.researchTags.join(' '),
-          profile.signatureProjects.join(' '),
-          profile.phdSupervisionStatus,
-        ]
-          .join(' ')
-          .toLowerCase()
-          .includes(normalizedSearch);
+  const handleViewDetail = useCallback((profile: ProfessorProfile) => {
+    navigate(`/admin/professor-directory/${profile.id}`);
+  }, [navigate]);
 
-      const matchesCountry = selectedCountries.length === 0 || selectedCountries.includes(profile.country);
-      const matchesUniversity = selectedUniversities.length === 0 || selectedUniversities.includes(profile.university);
-      const matchesTags =
-        selectedResearchTags.length === 0 ||
-        selectedResearchTags.every((tag) => profile.researchTags.includes(tag));
-      const matchesFunding =
-        selectedFundingTypes.length === 0 ||
-        profile.fundingOptions.some((option) => selectedFundingTypes.includes(option.type));
-      const matchesIntake =
-        selectedIntakes.length === 0 || selectedIntakes.includes(profile.applicationWindow.intake);
-      const matchesInternational = !onlyInternational || profile.acceptsInternationalStudents;
-
-      return (
-        matchesSearch &&
-        matchesCountry &&
-        matchesUniversity &&
-        matchesTags &&
-        matchesFunding &&
-        matchesIntake &&
-        matchesInternational
-      );
-    });
-  }, [
-    searchTerm,
-    selectedCountries,
-    selectedUniversities,
-    selectedResearchTags,
-    selectedFundingTypes,
-    selectedIntakes,
-    onlyInternational,
-  ]);
-
-  const sortedProfiles = useMemo(() => {
-    const list = [...filteredProfiles];
-
-    switch (sortMode) {
-      case 'recentlyReviewed':
-        return list.sort(
-          (a, b) => new Date(b.lastReviewedAt).getTime() - new Date(a.lastReviewedAt).getTime(),
-        );
-      case 'fundingPriority':
-        return list.sort((a, b) => {
-          const weight = (profile: ProfessorProfile) =>
-            profile.fundingOptions.some((option) => option.type === '全额奖学金') ? 1 : 0;
-          return weight(b) - weight(a) || b.matchScore - a.matchScore;
-        });
-      case 'matchScore':
-      default:
-        return list.sort((a, b) => b.matchScore - a.matchScore);
-    }
-  }, [filteredProfiles, sortMode]);
-
-  const insights = useMemo(() => {
-    const total = sortedProfiles.length;
-    if (total === 0) {
-      return {
-        total,
-        averageMatchScore: 0,
-        internationalRatio: 0,
-        fullFundingRatio: 0,
-        nearestDeadline: undefined as string | undefined,
-      };
-    }
-
-    const averageMatchScore = Math.round(
-      sortedProfiles.reduce((sum, profile) => sum + profile.matchScore, 0) / total,
-    );
-    const internationalRatio =
-      sortedProfiles.filter((profile) => profile.acceptsInternationalStudents).length / total;
-    const fullFundingRatio =
-      sortedProfiles.filter((profile) =>
-        profile.fundingOptions.some((option) => option.type === '全额奖学金'),
-      ).length / total;
-    const nearestDeadlineProfile = [...sortedProfiles].sort(
-      (a, b) => new Date(a.applicationWindow.end).getTime() - new Date(b.applicationWindow.end).getTime(),
-    )[0];
-
-    return {
-      total,
-      averageMatchScore,
-      internationalRatio,
-      fullFundingRatio,
-      nearestDeadline: nearestDeadlineProfile?.applicationWindow.end,
-    };
-  }, [sortedProfiles]);
-
-  const handleViewDetail = (profile: ProfessorProfile) => {
-    setSelectedProfessor(profile);
-    setDetailOpen(true);
-  };
-
-  const handleAddToShortlist = (profile: ProfessorProfile) => {
-    setShortlist((prev) => {
-      if (prev.some((item) => item.id === profile.id)) {
-        setFeedback({ message: '教授已在收藏清单中', variant: 'info' });
-        return prev;
+  const handleToggleFavorite = useCallback(
+    async (profile: ProfessorProfile, nextState: boolean) => {
+      if (!employeeId) {
+        setFeedback({ message: '当前账号未关联员工信息，无法收藏。', variant: 'error' });
+        return;
       }
-      setFeedback({ message: `已将 ${profile.name} 添加到收藏清单`, variant: 'success' });
-      return [...prev, profile];
-    });
-  };
+      try {
+        if (nextState) {
+          await addProfessorFavorite(profile.id, employeeId);
+          setFavoriteIds((prev) => (prev.includes(profile.id) ? prev : [...prev, profile.id]));
+          setFeedback({ message: `已收藏 ${profile.name}`, variant: 'success' });
+        } else {
+          await removeProfessorFavorite(profile.id, employeeId);
+          setFavoriteIds((prev) => prev.filter((id) => id !== profile.id));
+          setFeedback({ message: `已移除 ${profile.name} 收藏`, variant: 'info' });
+        }
+        professorCacheRef.current.set(profile.id, profile);
+      } catch (error) {
+        console.error('[ProfessorDirectory] 更新收藏失败', error);
+        setFeedback({ message: '更新收藏失败，请稍后再试。', variant: 'error' });
+      }
+    },
+    [employeeId],
+  );
 
-  const handleOpenMatch = (profile: ProfessorProfile) => {
+  const handleOpenMatch = useCallback((profile: ProfessorProfile) => {
     setMatchProfessor(profile);
     setMatchDrawerOpen(true);
-  };
+  }, []);
 
-  const handleRemoveFromShortlist = (id: string) => {
-    setShortlist((prev) => prev.filter((item) => item.id !== id));
-  };
+  const handleMatchSubmit = useCallback(
+    async (professor: ProfessorProfile, payload: { studentId: number; targetIntake: string; customNote?: string }) => {
+      if (!employeeId) {
+        setFeedback({ message: '当前账号未关联员工信息，无法生成匹配记录。', variant: 'error' });
+        return;
+      }
+      try {
+        await createProfessorMatchRecord({
+          professorId: professor.id,
+          studentId: payload.studentId,
+          employeeId,
+          targetIntake: payload.targetIntake,
+          customNote: payload.customNote,
+        });
+        setFeedback({
+          message: `已为 ${professor.name} 创建匹配记录，申请工作台会提醒跟进。`,
+          variant: 'success',
+        });
+      } catch (error) {
+        console.error('[ProfessorDirectory] 创建匹配记录失败', error);
+        setFeedback({ message: '生成匹配记录失败，请稍后重试。', variant: 'error' });
+        throw error;
+      }
+    },
+    [employeeId],
+  );
 
-  const handleExport = () => {
-    const rows = sortedProfiles.map((profile) => ({
+  const handleRemoveFavorite = useCallback(
+    async (id: number) => {
+      if (!employeeId) {
+        setFeedback({ message: '当前账号未关联员工信息，无法移除收藏。', variant: 'error' });
+        return;
+      }
+      try {
+        await removeProfessorFavorite(id, employeeId);
+        setFavoriteIds((prev) => prev.filter((existing) => existing !== id));
+        setFeedback({ message: '已从收藏清单移除', variant: 'info' });
+      } catch (error) {
+        console.error('[ProfessorDirectory] 移除收藏失败', error);
+        setFeedback({ message: '移除收藏失败，请稍后重试。', variant: 'error' });
+      }
+    },
+    [employeeId],
+  );
+
+  const handleExport = useCallback(() => {
+    if (professors.length === 0) {
+      setFeedback({ message: '当前筛选没有可导出的教授，请调整条件。', variant: 'info' });
+      return;
+    }
+    const rows = professors.map((profile) => ({
       名称: profile.name,
       院校: profile.university,
       招生状态: profile.phdSupervisionStatus,
-      入学季: profile.applicationWindow.intake,
+      入学季: profile.intake,
       研究方向: profile.researchTags.join(' / '),
       奖学金: profile.fundingOptions.map((option) => option.type).join(' / '),
     }));
-    const csvHeader = Object.keys(rows[0] ?? {}).join(',');
+    const csvHeader = Object.keys(rows[0]).join(',');
     const csvBody = rows
       .map((row) => Object.values(row).map((value) => `"${String(value).replace(/"/g, '""')}"`).join(','))
       .join('\n');
@@ -202,9 +343,9 @@ const ProfessorDirectoryPage: React.FC = () => {
     link.click();
     URL.revokeObjectURL(url);
     setFeedback({ message: '已导出当前筛选结果，文件下载成功。', variant: 'success' });
-  };
+  }, [professors]);
 
-  const handleSavePreset = () => {
+  const handleSavePreset = useCallback(() => {
     const presetName = `导师筛选-${new Date().toISOString().slice(0, 10)}`;
     localStorage.setItem(
       `professor-filter-${presetName}`,
@@ -220,26 +361,18 @@ const ProfessorDirectoryPage: React.FC = () => {
       }),
     );
     setFeedback({ message: '筛选条件已保存，可在申请工作台引用此方案。', variant: 'success' });
-  };
+  }, [
+    onlyInternational,
+    searchTerm,
+    selectedCountries,
+    selectedFundingTypes,
+    selectedIntakes,
+    selectedResearchTags,
+    selectedUniversities,
+    sortMode,
+  ]);
 
-  const handleMatchSubmit = async (professor: ProfessorProfile, payload: { studentId: string; targetIntake: string; customNote?: string }) => {
-    // 模拟写入成功
-    await new Promise((resolve) => setTimeout(resolve, 400));
-    setFeedback({
-      message: `已将 ${professor.name} 加入学生方案，并生成待沟通任务。`,
-      variant: 'success',
-    });
-  };
-
-  const toggleFunctions = {
-    countries: (value: string) => handleToggle(value, selectedCountries, setSelectedCountries),
-    universities: (value: string) => handleToggle(value, selectedUniversities, setSelectedUniversities),
-    researchTags: (value: string) => handleToggle(value, selectedResearchTags, setSelectedResearchTags),
-    fundingTypes: (value: string) => handleToggle(value, selectedFundingTypes, setSelectedFundingTypes),
-    intakes: (value: string) => handleToggle(value, selectedIntakes, setSelectedIntakes),
-  };
-
-  const resetFilters = () => {
+  const resetFilters = useCallback(() => {
     setSearchTerm('');
     setSelectedCountries([]);
     setSelectedUniversities([]);
@@ -248,26 +381,32 @@ const ProfessorDirectoryPage: React.FC = () => {
     setSelectedIntakes([]);
     setOnlyInternational(true);
     setSortMode('matchScore');
-  };
+  }, []);
 
-  const mapOptions = (items: string[]) =>
-    items.map((item) => ({
-      label: item,
-      value: item,
-    }));
+  const mapOptions = useCallback(
+    (items: string[]) =>
+      items.map((item) => ({
+        label: item,
+        value: item,
+      })),
+    [],
+  );
 
   const availableUniversities = useMemo(() => {
-    if (selectedCountries.length === 0) {
+    if (!filterOptions || selectedCountries.length === 0) {
       return [];
     }
     const combined = new Set<string>();
     selectedCountries.forEach((country) => {
       filterOptions.universitiesByCountry[country]?.forEach((university) => combined.add(university));
     });
-    return Array.from(combined).sort();
-  }, [selectedCountries, filterOptions.universitiesByCountry]);
+    return Array.from(combined).sort((a, b) => a.localeCompare(b));
+  }, [filterOptions, selectedCountries]);
 
   const availableResearchTags = useMemo(() => {
+    if (!filterOptions) {
+      return [];
+    }
     if (selectedCountries.length === 0) {
       return filterOptions.topResearchTags;
     }
@@ -275,8 +414,67 @@ const ProfessorDirectoryPage: React.FC = () => {
     selectedCountries.forEach((country) => {
       filterOptions.researchTagsByCountry[country]?.forEach((tag) => combined.add(tag));
     });
-    return Array.from(combined).sort();
-  }, [selectedCountries, filterOptions.researchTagsByCountry, filterOptions.topResearchTags]);
+    return Array.from(combined).sort((a, b) => a.localeCompare(b));
+  }, [filterOptions, selectedCountries]);
+
+  const favoriteIdSet = useMemo(() => new Set(favoriteIds), [favoriteIds]);
+
+  const insights = useMemo(() => {
+    const total = professors.length;
+    if (total === 0) {
+      return {
+        total,
+        averageMatchScore: 0,
+        internationalRatio: 0,
+        fullFundingRatio: 0,
+        nearestDeadline: undefined as string | undefined,
+      };
+    }
+
+    const averageMatchScore = Math.round(
+      professors.reduce((sum, profile) => sum + (profile.matchScore ?? 0), 0) / total,
+    );
+    const internationalRatio =
+      professors.filter((profile) => profile.acceptsInternationalStudents).length / total;
+    const fullFundingRatio =
+      professors.filter((profile) =>
+        profile.fundingOptions.some((option) => option.type === '全额奖学金'),
+      ).length / total;
+    const nearestDeadlineProfile = [...professors].sort(
+      (a, b) => new Date(a.applicationWindow.end).getTime() - new Date(b.applicationWindow.end).getTime(),
+    )[0];
+
+    return {
+      total,
+      averageMatchScore,
+      internationalRatio,
+      fullFundingRatio,
+      nearestDeadline: nearestDeadlineProfile?.applicationWindow.end,
+    };
+  }, [professors]);
+
+  if (authLoading) {
+    return (
+      <div className="flex min-h-[320px] items-center justify-center rounded-3xl border border-dashed border-gray-200 bg-white text-sm text-gray-500 dark:border-gray-700 dark:bg-gray-900/60 dark:text-gray-300">
+        正在同步账号信息，请稍候...
+      </div>
+    );
+  }
+
+  if (userType !== 'admin') {
+    return (
+      <div className="rounded-3xl border border-dashed border-gray-300 bg-white p-8 text-center dark:border-gray-700 dark:bg-gray-900/60">
+        <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-100">需要管理员权限</h2>
+        <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+          全球教授库仅对内部顾问开放，请使用管理员身份登录。
+        </p>
+      </div>
+    );
+  }
+
+  const countriesOptions = mapOptions(filterOptions?.countries ?? []);
+  const fundingOptions = mapOptions(filterOptions?.fundingTypes ?? []);
+  const intakeOptions = mapOptions(filterOptions?.intakes ?? []);
 
   return (
     <div className="space-y-8 pb-16">
@@ -304,7 +502,9 @@ const ProfessorDirectoryPage: React.FC = () => {
           className={`rounded-3xl border ${
             feedback.variant === 'success'
               ? 'border-emerald-200 bg-emerald-50 text-emerald-700 dark:border-emerald-500/40 dark:bg-emerald-500/10 dark:text-emerald-100'
-              : 'border-indigo-200 bg-indigo-50 text-indigo-700 dark:border-indigo-500/40 dark:bg-indigo-500/10 dark:text-indigo-100'
+              : feedback.variant === 'info'
+                ? 'border-indigo-200 bg-indigo-50 text-indigo-700 dark:border-indigo-500/40 dark:bg-indigo-500/10 dark:text-indigo-100'
+                : 'border-red-200 bg-red-50 text-red-700 dark:border-red-500/40 dark:bg-red-500/10 dark:text-red-100'
           }`}
         >
           <AlertCircle className="h-4 w-4" />
@@ -312,33 +512,46 @@ const ProfessorDirectoryPage: React.FC = () => {
         </Alert>
       ) : null}
 
+      {filtersError ? (
+        <Alert className="rounded-3xl border border-red-200 bg-red-50 text-red-700 dark:border-red-500/40 dark:bg-red-500/10 dark:text-red-100">
+          <AlertCircle className="h-4 w-4" />
+          <AlertDescription>{filtersError}</AlertDescription>
+        </Alert>
+      ) : null}
+
+      {filtersLoading && !filterOptions ? (
+        <div className="rounded-3xl border border-dashed border-gray-200 bg-white p-6 text-sm text-gray-500 dark:border-gray-700 dark:bg-gray-900/60 dark:text-gray-300">
+          正在加载最新筛选条件...
+        </div>
+      ) : null}
+
       <DoctoralFiltersPanel
         searchTerm={searchTerm}
         onSearchChange={setSearchTerm}
-        countries={mapOptions(filterOptions.countries)}
+        countries={countriesOptions}
         selectedCountries={selectedCountries}
-        onCountryToggle={toggleFunctions.countries}
+        onCountryToggle={handleCountryToggle}
         universities={mapOptions(availableUniversities)}
         selectedUniversities={selectedUniversities}
-        onUniversityToggle={toggleFunctions.universities}
+        onUniversityToggle={(value) => handleToggleSelection(value, selectedUniversities, setSelectedUniversities)}
         researchTags={mapOptions(availableResearchTags)}
         selectedResearchTags={selectedResearchTags}
-        onResearchTagToggle={toggleFunctions.researchTags}
-        fundingTypes={mapOptions(filterOptions.fundingTypes)}
+        onResearchTagToggle={(value) => handleToggleSelection(value, selectedResearchTags, setSelectedResearchTags)}
+        fundingTypes={fundingOptions}
         selectedFundingTypes={selectedFundingTypes}
-        onFundingToggle={toggleFunctions.fundingTypes}
-        intakes={mapOptions(filterOptions.intakes)}
+        onFundingToggle={(value) => handleToggleSelection(value, selectedFundingTypes, setSelectedFundingTypes)}
+        intakes={intakeOptions}
         selectedIntakes={selectedIntakes}
-        onIntakeToggle={toggleFunctions.intakes}
+        onIntakeToggle={(value) => handleToggleSelection(value, selectedIntakes, setSelectedIntakes)}
         onlyInternational={onlyInternational}
         onInternationalToggle={setOnlyInternational}
         sortMode={sortMode}
         onSortChange={setSortMode}
         onResetFilters={resetFilters}
-        researchTagsLimit={12}
+        researchTagsLimit={8}
       />
 
-  <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_320px]">
+      <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_320px]">
         <div className="space-y-6">
           <MatchInsightsPanel
             total={insights.total}
@@ -350,28 +563,39 @@ const ProfessorDirectoryPage: React.FC = () => {
             onSavePreset={handleSavePreset}
           />
 
-          <ProfessorGrid
-            profiles={sortedProfiles}
-            onViewDetail={handleViewDetail}
-            onAddToShortlist={handleAddToShortlist}
-            onOpenMatch={handleOpenMatch}
-          />
+          {listError ? (
+            <Alert className="rounded-3xl border border-red-200 bg-red-50 text-red-700 dark:border-red-500/40 dark:bg-red-500/10 dark:text-red-100">
+              <AlertCircle className="h-4 w-4" />
+              <AlertDescription>{listError}</AlertDescription>
+            </Alert>
+          ) : null}
+
+          {listLoading && professors.length === 0 ? (
+            <div className="flex min-h-[220px] items-center justify-center rounded-3xl border border-dashed border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900/60">
+              <div className="flex items-center gap-3 text-sm text-gray-500 dark:text-gray-300">
+                <Loader2 className="h-4 w-4 animate-spin" />
+                正在加载教授数据...
+              </div>
+            </div>
+          ) : (
+            <ProfessorGrid
+              profiles={professors}
+              onViewDetail={handleViewDetail}
+              onToggleFavorite={handleToggleFavorite}
+              favoriteProfessorIds={favoriteIdSet}
+              onOpenMatch={handleOpenMatch}
+            />
+          )}
         </div>
 
-        <ShortlistPanel
-          shortlist={shortlist}
-          onRemove={handleRemoveFromShortlist}
-          onOpenMatch={handleOpenMatch}
-        />
+        <ShortlistPanel shortlist={favoriteProfiles} onRemove={handleRemoveFavorite} onOpenMatch={handleOpenMatch} />
       </div>
-
-      <ProfessorDetailDrawer open={detailOpen} onOpenChange={setDetailOpen} profile={selectedProfessor} />
 
       <ProfessorMatchDrawer
         open={matchDrawerOpen}
         onOpenChange={setMatchDrawerOpen}
         professor={matchProfessor}
-        studentOptions={STUDENT_OPTIONS}
+        studentOptions={studentOptions}
         onSubmit={handleMatchSubmit}
       />
     </div>
@@ -379,4 +603,3 @@ const ProfessorDirectoryPage: React.FC = () => {
 };
 
 export default ProfessorDirectoryPage;
-

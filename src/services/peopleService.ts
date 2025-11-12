@@ -112,6 +112,8 @@ interface ServiceProjectsQueryRow {
     id: number;
     name: string;
     avatar_url?: string | null;
+    status?: string | null;
+    is_active?: boolean | null;
   } | null;
   mentor?: {
     id: number;
@@ -121,6 +123,14 @@ interface ServiceProjectsQueryRow {
     position?: string | null;
   } | null;
 }
+
+type StudentLite = {
+  id: number;
+  name: string;
+  avatar_url?: string | null;
+  status?: string | null;
+  is_active?: boolean | null;
+};
 
 const isRecord = (value: unknown): value is Record<string, unknown> =>
   value !== null && typeof value === 'object' && !Array.isArray(value);
@@ -159,6 +169,106 @@ const isInactiveStatus = (status: unknown): boolean => {
   if (!normalized) return false;
   if (INACTIVE_STATUS_VALUES.has(normalized)) return true;
   return INACTIVE_STATUS_KEYWORDS.some((keyword) => normalized.includes(keyword));
+};
+
+const STUDY_APPLICATION_CATEGORY_WHITELIST = new Set(
+  ['全包申请', '半DIY申请', '申请服务', '留学申请', '申请项目', '申请服务包', '升学申请', '申请规划'].map((item) =>
+    item.toLowerCase(),
+  ),
+);
+
+const STUDY_APPLICATION_KEYWORDS = ['申请', 'application', '网申', '文书', 'offer', '录取'];
+
+const normalizeString = (value: unknown): string => {
+  if (typeof value !== 'string') {
+    return '';
+  }
+  return value.trim();
+};
+
+const includesStudyApplicationKeyword = (value: string): boolean => {
+  if (!value) return false;
+  const normalizedLower = value.toLowerCase();
+  return STUDY_APPLICATION_KEYWORDS.some((keyword) => normalizedLower.includes(keyword.toLowerCase()));
+};
+
+const isStudyApplicationCategory = (category?: string | null): boolean => {
+  const normalized = normalizeString(category);
+  if (!normalized) return false;
+  if (STUDY_APPLICATION_CATEGORY_WHITELIST.has(normalized.toLowerCase())) {
+    return true;
+  }
+  return includesStudyApplicationKeyword(normalized);
+};
+
+const isStudyApplicationName = (name?: string | null): boolean => {
+  const normalized = normalizeString(name);
+  if (!normalized) return false;
+  return includesStudyApplicationKeyword(normalized);
+};
+
+const extractDetailString = (
+  detail: Record<string, unknown> | undefined,
+  keys: string[],
+): string | undefined => {
+  if (!detail) return undefined;
+  for (const key of keys) {
+    const value = detail[key];
+    if (typeof value === 'string' && value.trim()) {
+      return value;
+    }
+  }
+  return undefined;
+};
+
+const isStudyApplicationServiceRow = (service: ServiceProjectsQueryRow): boolean => {
+  const detail = isRecord(service.detail_data) ? service.detail_data : undefined;
+
+  const categoryCandidate =
+    service.service_type?.category ??
+    extractDetailString(detail, ['service_category', 'category', 'parent_category', 'group', 'primary_category']);
+
+  if (isStudyApplicationCategory(categoryCandidate)) {
+    return true;
+  }
+
+  const nameCandidate =
+    service.service_type?.name ??
+    extractDetailString(detail, [
+      'service_type_name',
+      'service_name',
+      'service',
+      'name',
+      'title',
+      'project_name',
+      'label',
+    ]);
+
+  if (isStudyApplicationName(nameCandidate)) {
+    return true;
+  }
+
+  return false;
+};
+
+const isActiveStudentRecord = (student?: StudentLite | null): boolean => {
+  if (!student) {
+    return false;
+  }
+  if (typeof student.is_active === 'boolean') {
+    return student.is_active;
+  }
+  if (typeof student.status === 'string') {
+    const statusNormalized = student.status.trim();
+    if (!statusNormalized) {
+      return false;
+    }
+    if (statusNormalized === '活跃') {
+      return true;
+    }
+    return statusNormalized.toLowerCase() === 'active';
+  }
+  return false;
 };
 
 interface MentorRolePayload {
@@ -436,7 +546,9 @@ const peopleService = {
           student:student_ref_id (
             id,
             name,
-            avatar_url
+            avatar_url,
+            status,
+            is_active
           ),
           mentor:mentor_ref_id (
             id,
@@ -448,42 +560,61 @@ const peopleService = {
         `)
         .order('updated_at', { ascending: false, nullsFirst: true })
         .order('created_at', { ascending: false })
-        .limit(200);
+        .limit(200)
+        .returns<ServiceProjectsQueryRow[]>();
 
-      const servicesRaw = (data ?? []) as ServiceProjectsQueryRow[];
-      const services = servicesRaw.filter((service) => !isInactiveStatus(service.status));
+      const servicesRaw = data ?? [];
+      const servicesWithTargetCategory = servicesRaw.filter((service) => {
+        if (isInactiveStatus(service.status)) {
+          return false;
+        }
+        if (!isStudyApplicationServiceRow(service)) {
+          return false;
+        }
+        return true;
+      });
 
       console.info('[peopleService] getServiceProjectsOverview 响应', {
         error,
         total: servicesRaw.length,
-        rows: services.length,
+        activeStudyApplication: servicesWithTargetCategory.length,
       });
 
       if (error) throw error;
 
-      const missingStudentIds = services
+      const missingStudentIds = servicesWithTargetCategory
         .filter((service) => !service.student && service.student_id)
         .map((service) => service.student_id as number);
 
-      let fallbackStudents: Record<number, { id: number; name: string; avatar_url?: string | null }> = {};
+      let fallbackStudents: Record<number, StudentLite> = {};
 
       if (missingStudentIds.length > 0) {
         const { data: fallbackData, error: fallbackError } = await supabase
           .from('students')
-          .select('id, name, avatar_url')
+          .select('id, name, avatar_url, status, is_active')
           .in('id', missingStudentIds);
 
         if (fallbackError) {
           console.error('获取学生补充信息失败:', fallbackError);
         } else {
-          fallbackStudents = (fallbackData ?? []).reduce((acc, student) => {
-            acc[student.id] = student;
+          fallbackStudents = (fallbackData ?? []).reduce<Record<number, StudentLite>>((acc, student) => {
+            acc[student.id] = student as StudentLite;
             return acc;
-          }, {} as Record<number, { id: number; name: string; avatar_url?: string | null }>);
+          }, {});
         }
       }
 
-      return services.map((service) => {
+      const visibleServices = servicesWithTargetCategory.filter((service) => {
+        const studentInfo =
+          service.student ?? (service.student_id ? fallbackStudents[service.student_id] : undefined);
+        return isActiveStudentRecord(studentInfo);
+      });
+
+      console.info('[peopleService] getServiceProjectsOverview 可见服务', {
+        rows: visibleServices.length,
+      });
+
+      return visibleServices.map((service) => {
         const studentInfo =
           service.student ??
           (service.student_id ? fallbackStudents[service.student_id] : undefined);
@@ -516,6 +647,8 @@ const peopleService = {
           student_ref_id: service.student_ref_id ?? service.student_id ?? null,
           student_name: studentInfo?.name ?? '未命名学生',
           student_avatar: studentInfo?.avatar_url ?? null,
+          student_status: studentInfo?.status ?? null,
+          student_is_active: isActiveStudentRecord(studentInfo),
           service_type_id: service.service_type?.id ?? service.service_type_id,
           service_type_name: service.service_type?.name ?? '未命名服务',
           service_category: service.service_type?.category ?? null,

@@ -35,8 +35,15 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
   // 刷新用户信息
   const refreshUser = async () => {
     try {
+      console.log('[AuthContext] 开始刷新用户信息');
       const { user: currentUser, profile: currentProfile, userType: currentType } =
         await getCurrentUser();
+      
+      console.log('[AuthContext] getCurrentUser 返回:', { 
+        hasUser: !!currentUser, 
+        hasProfile: !!currentProfile, 
+        userType: currentType 
+      });
       
       setUser(currentUser);
       setProfile(currentProfile);
@@ -52,11 +59,13 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
         } else if (currentType === 'student') {
           localStorage.setItem('currentStudent', JSON.stringify(currentProfile));
         }
+        console.log('[AuthContext] 用户信息已同步到 localStorage');
       } else {
         localStorage.removeItem('isAuthenticated');
         localStorage.removeItem('userType');
         localStorage.removeItem('currentEmployee');
         localStorage.removeItem('currentStudent');
+        console.log('[AuthContext] 已清除 localStorage 认证信息');
       }
     } catch (error) {
       console.error('[AuthContext] 刷新用户信息失败:', error);
@@ -80,24 +89,33 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
 
   // 初始化认证状态
   useEffect(() => {
+    let mounted = true;
+
     const initAuth = async () => {
       try {
         console.log('[AuthContext] 初始化认证状态');
         await refreshUser();
+        console.log('[AuthContext] refreshUser 完成');
       } catch (error) {
         console.error('[AuthContext] 初始化失败:', error);
       } finally {
-        setLoading(false);
+        if (mounted) {
+          console.log('[AuthContext] 设置 loading = false');
+          setLoading(false);
+        } else {
+          console.log('[AuthContext] 组件已卸载，跳过 setLoading');
+        }
       }
     };
 
     initAuth();
 
     // 监听认证状态变化
-    const { data } = onAuthStateChange((newUser, newUserType) => {
+    const { data } = onAuthStateChange(async (newUser, newUserType) => {
+      if (!mounted) return;
       console.log('[AuthContext] 认证状态变化:', newUser?.id, newUserType);
       if (newUser) {
-        refreshUser();
+        await refreshUser();
       } else {
         setUser(null);
         setProfile(null);
@@ -107,6 +125,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
 
     // 清理监听
     return () => {
+      mounted = false;
       data?.subscription?.unsubscribe();
     };
   }, []);

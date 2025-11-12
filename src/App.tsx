@@ -23,6 +23,7 @@ import {
   LogOut,
   School,
   UserRound,
+  UserCog,
   ListTodo,
   ChevronUp,
   ChevronDown,
@@ -41,7 +42,6 @@ import {
   MessageCircle,
   Layers,
   Globe2,
-  Shield,
   ShieldCheck,
 } from 'lucide-react';
 import { DataProvider } from './context/DataContext'; // 导入数据上下文提供者
@@ -134,7 +134,7 @@ function App() {
     { icon: ListTodo, text: '任务管理', id: 'tasks', color: 'blue' },
     { icon: Users, text: '学生管理', id: 'students-legacy', color: 'blue' },
     {
-      icon: Shield,
+      icon: UserCog,
       text: '团队管理',
       id: 'internal-management',
       color: 'blue',

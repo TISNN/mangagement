@@ -181,6 +181,8 @@ export interface ServiceProjectOverview {
   student_ref_id?: number | null;
   student_name: string;
   student_avatar?: string | null;
+  student_status?: string | null;
+  student_is_active?: boolean | null;
   service_type_id: number;
   service_type_name: string;
   service_category?: string | null;

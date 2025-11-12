@@ -3,19 +3,13 @@ import { GraduationCap, Loader2 } from 'lucide-react';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
 import { MatchCandidatePayload, ProfessorProfile } from '../types';
-
-interface StudentOption {
-  id: string;
-  name: string;
-  targetProgram: string;
-  targetIntake: string;
-}
+import { StudentMatchOption } from '@/services/professorDirectoryService';
 
 interface ProfessorMatchDrawerProps {
   open: boolean;
   onOpenChange: (open: boolean) => void;
   professor: ProfessorProfile | null;
-  studentOptions: StudentOption[];
+  studentOptions: StudentMatchOption[];
   onSubmit: (professor: ProfessorProfile, payload: MatchCandidatePayload) => Promise<void> | void;
 }
 
@@ -26,17 +20,17 @@ const ProfessorMatchDrawer: React.FC<ProfessorMatchDrawerProps> = ({
   studentOptions,
   onSubmit,
 }) => {
-  const [selectedStudentId, setSelectedStudentId] = useState<string>('');
+  const [selectedStudentId, setSelectedStudentId] = useState<number | ''>('');
   const [targetIntake, setTargetIntake] = useState<string>('');
   const [customNote, setCustomNote] = useState<string>('');
   const [submitting, setSubmitting] = useState(false);
 
-  const defaultIntake = useMemo(() => professor?.applicationWindow.intake ?? '', [professor]);
+  const defaultIntake = useMemo(() => professor?.intake ?? professor?.applicationWindow.intake ?? '', [professor]);
 
   React.useEffect(() => {
     if (open && professor) {
       setSelectedStudentId('');
-      setTargetIntake(professor.applicationWindow.intake);
+      setTargetIntake(professor.intake || professor.applicationWindow.intake);
       setCustomNote('');
       setSubmitting(false);
     }
@@ -47,14 +41,14 @@ const ProfessorMatchDrawer: React.FC<ProfessorMatchDrawerProps> = ({
   }
 
   const handleSubmit = async () => {
-    if (!selectedStudentId) {
+    if (selectedStudentId === '') {
       return;
     }
 
     try {
       setSubmitting(true);
       await onSubmit(professor, {
-        studentId: selectedStudentId,
+        studentId: Number(selectedStudentId),
         targetIntake: targetIntake || defaultIntake,
         customNote: customNote.trim() ? customNote.trim() : undefined,
       });
@@ -91,13 +85,18 @@ const ProfessorMatchDrawer: React.FC<ProfessorMatchDrawerProps> = ({
               选择学生
               <select
                 className="h-11 rounded-2xl border border-gray-200 bg-white px-3 text-sm outline-none transition focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 dark:border-gray-700 dark:bg-gray-900/70"
-                value={selectedStudentId}
-                onChange={(event) => setSelectedStudentId(event.target.value)}
+                value={selectedStudentId === '' ? '' : String(selectedStudentId)}
+                onChange={(event) => {
+                  const value = event.target.value;
+                  setSelectedStudentId(value ? Number(value) : '');
+                }}
               >
                 <option value="">请选择要匹配的学生</option>
                 {studentOptions.map((student) => (
                   <option key={student.id} value={student.id}>
-                    {student.name} · {student.targetProgram} · {student.targetIntake}
+                    {student.name}
+                    {student.educationLevel ? ` · ${student.educationLevel}` : ''}
+                    {student.status ? ` · ${student.status}` : ''}
                   </option>
                 ))}
               </select>

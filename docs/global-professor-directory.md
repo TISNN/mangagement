@@ -46,29 +46,40 @@
 
 | 字段 | 解释 | 说明 |
 | ---- | ---- | ---- |
-| professor_id | 教授唯一编号 | 主键 |
+| professor_id | 教授唯一编号 | 主键（bigint） |
 | name | 教授姓名 | 支持英文名与中文名 |
 | photo_url | 头像链接 | 可为空 |
 | university | 所在学校 | 例如 “MIT” |
 | college | 学院/系 | 例如 “工程学院” |
 | country | 国家/地区 | 例如 “美国” |
 | research_tags | 研究方向标签数组 | 例如 ["人工智能","教育技术"] |
-| current_projects | 当前可合作项目 | 文字说明或链接 |
+| signature_projects | 重点项目列表 | 用于展示教授近期研究方向 |
 | contact_email | 官方邮箱 | 用于联络 |
 | personal_page | 主页链接 | 网址 |
-| publications | 代表论文列表 | 包含标题、年份、链接 |
+| publications | 代表论文列表 | JSONB，包含标题、年份、链接 |
 | accepts_students | 是否接受国际学生 | 布尔值 |
 | phd_supervision_status | 博士招生状态 | 例如 “开放2026 Fall”“暂不招收博士” |
-| phd_requirements | 博士申请要求 | 结构化字段，包含语言、GRE、作品集、推荐信数量等 |
-| funding_options | 资助/奖学金情况 | 例如 “全额奖学金”“RA 名额有限” |
-| application_window | 申请窗口 | 包含开始/截止日期 |
-| recent_phd_placements | 最近毕业博士去向 | 列表，记录年份、去向院校/公司 |
+| phd_requirements | 博士申请要求 | JSONB，包含语言、GPA、科研经历、推荐信等 |
+| funding_options | 资助/奖学金情况 | JSONB，数组结构（type、description） |
+| funding_types | 资助类型数组 | 用于快速筛选（全额/部分/名额有限） |
+| intake | 招生入学季 | 例如 “2026 Fall” |
+| application_window | 申请窗口 | JSONB，包含开始/截止日期 |
+| recent_phd_placements | 最近博士去向 | JSONB 列表，记录年份、去向、亮点 |
+| match_score | 匹配度 | 0-100，供列表排序 |
+| response_time | 邮件回复速度 | 例如 “平均 6 天回复” |
 | last_reviewed_at | 最近审核日期 | 数据质量监控 |
 | notes_internal | 顾问内部备注 | 富文本 |
 
 同时配合以下两张关联表：
 - `professor_match_records`：记录某位教授被推荐给哪些学生、后续状态。  
-- `professor_collections`：顾问自定义清单及成员。
+- `professor_favorites`：顾问收藏关系（原“收藏清单”），支持去重和个人隔离。
+
+### Supabase 表结构落地
+
+- `public.professors`：承载上述字段的核心主表，使用 `bigserial` 主键，`research_tags`、`funding_types` 使用 GIN 索引，`trigger_set_timestamp` 负责维护 `updated_at`。  
+- `public.professor_favorites`：顾问收藏清单，字段 `professor_id`、`employee_id`、`created_at`，复合唯一约束防重复，RLS 限定“仅本人可读写”。  
+- `public.professor_match_records`：导师匹配记录，字段 `professor_id`、`student_id`、`employee_id`、`target_intake`、`custom_note`、`status`，RLS 同样限定创建者可见。  
+- 种子数据：迁移 `20251112_seed_professors` 已导入 10 位示例教授，方便页面开箱体验。
 
 ## 页面流程（文字示意）
 
@@ -82,17 +93,16 @@
 ## 技术实现建议
 
 - **前端**  
-  - 在 `src/pages/admin` 下新增 `ProfessorDirectoryPage` 与 `ProfessorDetailPage`。  
-  - 将筛选和列表拆成 `FiltersPanel`、`DoctoralFilterPanel`、`ProfessorCardGrid`、`MatchDrawer` 等组件，方便复用。  
-  - 在学生详情或申请工作台中，通过 `MatchDrawer` 打开教授库并回填“目标入学年份”“研究主题”，减少重复输入。  
-  - 使用 `SWR` 或 `React Query` 拉取 Supabase 数据，配合加载 skeleton、错误兜底。  
-  - 关键交互（收藏、导出、匹配）要弹出成功/失败提示，并写入埋点。
+  - `ProfessorDirectoryPage` 统一协调筛选、列表、收藏、详情、匹配弹窗，所有数据请求集中于 `professorDirectoryService`。  
+  - 通过 `DoctoralFiltersPanel`、`MatchInsightsPanel`、`ProfessorGrid`、`ShortlistPanel`、`ProfessorMatchDrawer` 等组件划分展示/操作逻辑，便于后续扩展。  
+  - 采用惰性加载 + 缓存：列表刷新会写入内存缓存，收藏面板缺失数据时按需拉取详情。  
+  - 所有重要操作（收藏、导出、匹配）统一反馈/错误处理，兼容暗色主题。
 
 - **后端 / 数据**  
-  - Supabase 新建 `professors`, `professor_collections`, `professor_match_records` 三张表，设置 RLS 只允许内部账号读写。  
-  - 定期爬取/导入教授数据，可使用后台 Excel 导入或 API 同步。  
-  - 创建数据库触发器，当 `last_reviewed_at` 超过 90 天自动写入提醒表。  
-  - 所有写操作记录在 `audit_logs`，便于追踪。
+  - 依赖 Supabase 托管 `professors`/`professor_favorites`/`professor_match_records`，使用迁移脚本维护结构、索引与 RLS 策略。  
+  - 建议定期从高校官网/合作渠道同步教授数据，可通过 Supabase Edge Function 或外部 ETL 实现。  
+  - 对关键字段（如 `last_reviewed_at`、`funding_options`）设置告警/提醒逻辑，保障数据时效性。  
+  - 结合 `audit_logs` 记录收藏、匹配等写操作，便于追踪与合规审计。
 
 - **监控与安全**  
   - 针对收藏、匹配等关键操作写入 `event_logs`，异常时发送告警。  
@@ -111,17 +121,23 @@
 
 如需开始开发，可先用 30 条示例数据在 Supabase 建表测试，再逐步接入真实信息。
 
-## 当前前端落地状态（2025-11-11）
+## 当前前端落地状态（2025-11-12）
 
-- 页面路径：`/admin/professor-directory`，在“留学服务”分组下新增导航入口。  
-- 组件拆分：  
-- `DoctoralFiltersPanel` 负责国家→院校→研究方向的分层筛选体验  
-  - `MatchInsightsPanel` 输出匹配概览指标与导出/保存操作  
-  - `ProfessorGrid` + `ProfessorCard` 展示教授列表卡片  
-  - `ProfessorDetailDrawer` 展示详情页，覆盖研究方向、博士要求、资助方案、去向和顾问备注  
-  - `ShortlistPanel` 维护收藏清单，与申请工作台后续联动  
-  - `ProfessorMatchDrawer` 支撑“加入学生方案”表单，预埋与任务中心的交互  
-- 数据来源：`data.ts` 提供 12 位教授的博士招生样例，字段覆盖招生状态、资助、入学季、科研方向、去向等。  
-- 交互：支持搜索、国家→院校→研究标签逐级筛选、入学季、资助类型选择，收藏、导出、保存筛选方案与生成任务等动作具备反馈提示。  
-- 下一步：落地 Supabase 数据表、和申请工作台 API 打通、接入真实学生列表，替换本地 mock 数据。
+- 页面路径：`/admin/professor-directory`，位于“留学服务”导航组。  
+- 主要组件：  
+  - `DoctoralFiltersPanel`：负责国家 → 院校 → 研究标签层级筛选，控制排序、资助、入学季、国际生切换。  
+  - `MatchInsightsPanel`：实时输出匹配概览（数量、匹配度、国际友好度、全奖占比），提供导出、保存方案按钮。  
+  - `ProfessorGrid` / `ProfessorCard`：渲染 Supabase 返回的教授卡片，支持收藏、详情、匹配。  
+  - `ProfessorDetailDrawer`：二次查询 `professors` 表刷新详情，展示研究方向、资助方案、去向与内部备注。  
+  - `ShortlistPanel`：读取 `professor_favorites`，展示个人收藏，可直接移除或跳转匹配。  
+  - `ProfessorMatchDrawer`：列出可用学生，插入 `professor_match_records` 生成匹配记录。  
+- 数据流：  
+  - 全部读取、写入基于 Supabase，包含筛选项聚合（distinct country/university/tags）、教授列表、详情、收藏、匹配记录。  
+  - 收藏按钮实时写入/删除 `professor_favorites`，RLS 保证仅本人可见。  
+  - 匹配提交成功后提示用户后续在申请工作台跟进。  
+- 初始数据：迁移脚本已导入 10 位示例教授，即使生产数据尚未接入也可完整演示。  
+- 后续规划：  
+  1. 与申请工作台任务流打通（生成待办、关联学生档案）。  
+  2. 支持收藏分组、共享清单。  
+  3. 引入 Supabase Edge Function，定期爬取/同步教授数据。  
 

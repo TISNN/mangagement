@@ -1,14 +1,14 @@
 import React from 'react';
-import { ArrowUpRight, Award, Calendar, Globe2, Mail, MapPin, Sparkles } from 'lucide-react';
+import { ArrowUpRight, Award, Calendar, Check, Globe2, Mail, MapPin, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ProfessorProfile } from '../types';
-import { getProfessorAvatar } from '../data';
 
 interface ProfessorCardProps {
   profile: ProfessorProfile;
   onViewDetail: (profile: ProfessorProfile) => void;
-  onAddToShortlist: (profile: ProfessorProfile) => void;
+  onToggleFavorite: (profile: ProfessorProfile, nextState: boolean) => void;
+  isFavorited: boolean;
   onOpenMatch: (profile: ProfessorProfile) => void;
 }
 
@@ -23,10 +23,21 @@ const formatDate = (date: string) => {
   }
 };
 
-const ProfessorCard: React.FC<ProfessorCardProps> = ({ profile, onViewDetail, onAddToShortlist, onOpenMatch }) => {
+const getProfessorAvatar = (profile: ProfessorProfile) => {
+  if (profile.avatar) return profile.avatar;
+  const seed = encodeURIComponent(profile.name || 'Professor');
+  return `https://api.dicebear.com/7.x/initials/svg?seed=${seed}&fontWeight=600&backgroundType=gradientLinear`;
+};
+
+const ProfessorCard: React.FC<ProfessorCardProps> = ({
+  profile,
+  onViewDetail,
+  onToggleFavorite,
+  isFavorited,
+  onOpenMatch,
+}) => {
   const avatar = getProfessorAvatar(profile);
   const fundingLabel = profile.fundingOptions[0]?.type ?? '资助信息';
-  const topPlacement = profile.recentPlacements[0];
 
   return (
     <div className="flex h-full flex-col overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg dark:border-gray-700/60 dark:bg-gray-900/70">
@@ -75,19 +86,6 @@ const ProfessorCard: React.FC<ProfessorCardProps> = ({ profile, onViewDetail, on
             <span className="font-medium text-gray-900 dark:text-white">研究方向：</span>
             {profile.researchTags.join(' · ')}
           </div>
-          <div className="line-clamp-2">
-            <span className="font-medium text-gray-900 dark:text-white">重点项目：</span>
-            {profile.signatureProjects.join(' | ')}
-          </div>
-          {topPlacement ? (
-            <div className="rounded-2xl bg-gray-50 p-3 text-xs text-gray-500 dark:bg-gray-800/60 dark:text-gray-300">
-              <p className="font-medium text-gray-700 dark:text-gray-100">近届去向亮点</p>
-              <p>
-                {topPlacement.year} · {topPlacement.student} → {topPlacement.destination}
-                {topPlacement.highlight ? ` · ${topPlacement.highlight}` : ''}
-              </p>
-            </div>
-          ) : null}
         </div>
       </div>
 
@@ -105,11 +103,22 @@ const ProfessorCard: React.FC<ProfessorCardProps> = ({ profile, onViewDetail, on
 
         <div className="flex w-full flex-col gap-2 md:w-auto md:flex-row">
           <Button
-            variant="outline"
-            className="w-full border-indigo-200 text-indigo-600 hover:bg-indigo-50 dark:border-indigo-500/50 dark:text-indigo-200 dark:hover:bg-indigo-500/10"
-            onClick={() => onAddToShortlist(profile)}
+            variant={isFavorited ? 'default' : 'outline'}
+            className={
+              isFavorited
+                ? 'w-full bg-indigo-600 text-white hover:bg-indigo-500'
+                : 'w-full border-indigo-200 text-indigo-600 hover:bg-indigo-50 dark:border-indigo-500/50 dark:text-indigo-200 dark:hover:bg-indigo-500/10'
+            }
+            onClick={() => onToggleFavorite(profile, !isFavorited)}
           >
-            收藏到清单
+            {isFavorited ? (
+              <span className="inline-flex items-center gap-1">
+                <Check className="h-4 w-4" />
+                已收藏
+              </span>
+            ) : (
+              '收藏到清单'
+            )}
           </Button>
           <Button
             variant="outline"
