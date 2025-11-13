@@ -81,6 +81,12 @@ Infinite.ai是一个专注于留学全周期服务的数字化平台，连接学
 - 🔄 推送前确认所有脚本与新资源已纳入提交，避免遗漏
 - 🔍 建议后续推送前通过 `npm run lint` 快速自检，保障线上稳定
 
+### 2025-11-13: 代码仓库同步到 GitHub（App Center & CRM 更新）
+
+- ✅ 同步推送 App Center 个性化导航、CRM 页面精简、导师市场体验升级等核心更新到 `origin/main`
+- 📦 新增脚本与数据文件（NUS CS/ECE 教授、App Center 配置）已随提交一并上传，确保团队可直接复用
+- 🛡️ 建议下次推送前执行 `npm run test` 与脚本自检，确认爬虫依赖齐备、CRM 数据迁移无遗漏
+
 - ✅ 爬虫新增对 `div.location` 模块的解析，精准识别办公室位置、电话与官网链接
 - ✅ 针对邮箱采用智能推断：优先读取页面文本，其次根据个人主页 `~username` 自动生成 `username@comp.nus.edu.sg`
 - ✅ 爬虫输出新增 `phone` 字段，导入脚本同步写入 Supabase `professors.contact_phone`
