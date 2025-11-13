@@ -35,7 +35,7 @@ Lead List & Detail
 ## 3. 核心流程
 
 ### 3.1 销售顾问日常处理
-1. 打开列表默认视图（“我的线索”），系统按“AI 热度”排序。
+1. 打开列表默认视图（“我的线索”），系统按热度排序。
 2. 顶部提示当日必办线索；顾问可批量选中执行任务（发送模板邮件、创建跟进）。
 3. 进入线索详情查看摘要、资料、沟通记录；点击“新增沟通”跳转至 Engagement Desk。
 4. 更新阶段或指派任务，线索状态即刻同步至漏斗和 SLA。
@@ -52,7 +52,7 @@ Lead List & Detail
 3. 将高质量线索列表同步到营销自动化工具进行二次触达。
 
 ## 4. 数据模型
-- `Lead`：线索主档（id、name、status、stage、owner_id、ai_score、source、campaign、created_at、last_touch、contact_info、tags[]、custom_fields jsonb）。
+- `Lead`：线索主档（id、name、status、stage、owner_id、source、campaign、created_at、last_touch、contact_info、tags[]、custom_fields jsonb）。
 - `LeadAssignment`：分配记录（lead_id、assigned_to、assigned_by、assigned_at）。
 - `LeadStageHistory`：阶段变更（lead_id、from_stage、to_stage、changed_by、timestamp、reason）。
 - `LeadReminder`：提醒（lead_id、type、trigger_time、channel、notes、status）。
@@ -79,7 +79,7 @@ Lead List & Detail
 - 看板列顶部显示：线索数量、平均停留时长、逾期数量；拖拽更新时弹确认并写入历史。
 - 详情页顶部为 Summary 卡（评分、阶段、负责人、来自渠道、最近跟进），侧边栏展示提醒/SLA 状态。
 - 自定义字段区域可折叠，展示与业务相关的附加信息（例如家庭背景、预算、竞争项目）。
-- 支持多标签快速编辑（点击标签弹出选择器），AI 热度以颜色/图标区分。
+- 支持多标签快速编辑（点击标签弹出选择器），热度等级以颜色/图标区分。
 
 ## 7. 自动化与规则
 - 保存视图可配置“自动提醒”：例如“热度高且 24h 未跟进”时提醒负责人。
@@ -106,7 +106,7 @@ Lead List & Detail
 1. **MVP**：表格视图、基础过滤、批量操作、线索详情概览 + 时间轴链接、保存视图。
 2. **阶段二**：看板视图、自动化规则、共享视图、批量导入/导出。
 3. **阶段三**：自定义字段管理、与营销自动化同步、AI 推荐下一步操作。
-4. **阶段四**：线索评分模型调优、预测转化率、跨模块协同（与合同/任务联动）。
+4. **阶段四**：优先级策略调优、预测转化率、跨模块协同（与合同/任务联动）。
 
 ---
 下一步可基于本设计在 UI 中实现列表与详情页骨架，并整合到 CRM 导航。

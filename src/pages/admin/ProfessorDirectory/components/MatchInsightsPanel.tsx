@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDownToLine, BarChart3, CalendarClock, Clock, Globe2, ShieldCheck } from 'lucide-react';
+import { BarChart3, CalendarClock, ClipboardList, Clock, Globe2, ShieldCheck } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 interface MatchInsightsPanelProps {
@@ -8,7 +8,8 @@ interface MatchInsightsPanelProps {
   internationalRatio: number;
   fullFundingRatio: number;
   nearestDeadline?: string;
-  onExport: () => void;
+  onToggleFavorites: () => void;
+  favoritesPanelOpen: boolean;
   onSavePreset: () => void;
 }
 
@@ -18,7 +19,8 @@ const MatchInsightsPanel: React.FC<MatchInsightsPanelProps> = ({
   internationalRatio,
   fullFundingRatio,
   nearestDeadline,
-  onExport,
+  onToggleFavorites,
+  favoritesPanelOpen,
   onSavePreset,
 }) => {
   return (
@@ -27,7 +29,7 @@ const MatchInsightsPanel: React.FC<MatchInsightsPanelProps> = ({
         <div>
           <h2 className="text-lg font-semibold text-gray-900 dark:text-white">匹配概览</h2>
           <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-            当前共有 {total} 位教授符合筛选条件，可随时保存方案或导出清单与学生共享。
+            当前共有 {total} 位教授符合筛选条件，可随时保存方案或快速调出收藏清单。
           </p>
         </div>
         <div className="flex flex-wrap gap-2">
@@ -39,9 +41,12 @@ const MatchInsightsPanel: React.FC<MatchInsightsPanelProps> = ({
             <ShieldCheck className="mr-2 h-4 w-4" />
             保存筛选方案
           </Button>
-          <Button className="bg-indigo-600 text-white hover:bg-indigo-500" onClick={onExport}>
-            <ArrowDownToLine className="mr-2 h-4 w-4" />
-            导出教授清单
+          <Button
+            className={`text-white ${favoritesPanelOpen ? 'bg-indigo-700 hover:bg-indigo-700' : 'bg-indigo-600 hover:bg-indigo-500'}`}
+            onClick={onToggleFavorites}
+          >
+            <ClipboardList className="mr-2 h-4 w-4" />
+            {favoritesPanelOpen ? '收起收藏清单' : '教授收藏清单'}
           </Button>
         </div>
       </div>

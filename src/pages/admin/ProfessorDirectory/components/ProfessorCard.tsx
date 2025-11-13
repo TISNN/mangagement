@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUpRight, Award, Calendar, Check, Globe2, Mail, MapPin, Sparkles } from 'lucide-react';
+import { ArrowUpRight, Award, Calendar, Mail, MapPin, Sparkles, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ProfessorProfile } from '../types';
@@ -18,7 +18,7 @@ const formatDate = (date: string) => {
       month: 'short',
       day: 'numeric',
     }).format(new Date(date));
-  } catch (error) {
+  } catch {
     return date;
   }
 };
@@ -27,6 +27,11 @@ const getProfessorAvatar = (profile: ProfessorProfile) => {
   if (profile.avatar) return profile.avatar;
   const seed = encodeURIComponent(profile.name || 'Professor');
   return `https://api.dicebear.com/7.x/initials/svg?seed=${seed}&fontWeight=600&backgroundType=gradientLinear`;
+};
+
+const getSchoolLogo = (profile: ProfessorProfile) => {
+  if (profile.school?.logoUrl) return profile.school.logoUrl;
+  return null;
 };
 
 const ProfessorCard: React.FC<ProfessorCardProps> = ({
@@ -38,10 +43,29 @@ const ProfessorCard: React.FC<ProfessorCardProps> = ({
 }) => {
   const avatar = getProfessorAvatar(profile);
   const fundingLabel = profile.fundingOptions[0]?.type ?? '资助信息';
+  const schoolLogo = getSchoolLogo(profile);
+  const emailDisplay = profile.contactEmail || '暂无邮箱信息';
+  const phdStatus = profile.phdSupervisionStatus?.trim();
+  const showPhdStatus = phdStatus && phdStatus !== '待确认';
 
   return (
     <div className="flex h-full flex-col overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg dark:border-gray-700/60 dark:bg-gray-900/70">
-      <div className="flex flex-1 flex-col gap-4 p-6">
+      <div className="relative flex flex-1 flex-col gap-4 p-6">
+        <button
+          type="button"
+          onClick={() => onToggleFavorite(profile, !isFavorited)}
+          className={`absolute right-4 top-3 flex h-9 w-9 items-center justify-center text-xs transition ${
+            isFavorited
+              ? 'border-amber-200 bg-amber-50 text-amber-500 hover:bg-amber-100 dark:border-amber-500/30 dark:bg-amber-500/10 dark:text-amber-300 dark:hover:bg-amber-500/20'
+              : 'border-gray-200 bg-white text-gray-400 hover:border-indigo-200 hover:text-indigo-500 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-500 dark:hover:border-indigo-500/40 dark:hover:text-indigo-300'
+          }`}
+          aria-label={isFavorited ? '移出收藏清单' : '收藏到清单'}
+        >
+          <Star
+            className={`h-4 w-4 ${isFavorited ? 'fill-current text-amber-500' : 'text-current'}`}
+            strokeWidth={isFavorited ? 0 : 1.5}
+          />
+        </button>
         <div className="flex items-start gap-4">
           <img
             src={avatar}
@@ -58,12 +82,17 @@ const ProfessorCard: React.FC<ProfessorCardProps> = ({
                 匹配度 {profile.matchScore}%
               </Badge>
             </div>
-            <p className="text-sm font-medium text-indigo-600 dark:text-indigo-300">{profile.university}</p>
+            {profile.primaryTitle && (
+              <p className="text-sm font-medium text-gray-700 dark:text-gray-200">{profile.primaryTitle}</p>
+            )}
+            <div className="inline-flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400">
+              <Mail className="h-3.5 w-3.5 text-indigo-500" />
+              <span className="break-all text-sm text-gray-700 dark:text-gray-200">{emailDisplay}</span>
+            </div>
             <div className="flex flex-wrap items-center gap-3 text-xs text-gray-500 dark:text-gray-400">
               <span className="inline-flex items-center gap-1">
                 <MapPin className="h-3.5 w-3.5" />
                 {profile.country}
-                {profile.city ? ` · ${profile.city}` : ''}
               </span>
               <span className="inline-flex items-center gap-1">
                 <Calendar className="h-3.5 w-3.5" />
@@ -73,10 +102,12 @@ const ProfessorCard: React.FC<ProfessorCardProps> = ({
                 <Award className="h-3.5 w-3.5 text-amber-500" />
                 {fundingLabel}
               </span>
-              <span className="inline-flex items-center gap-1">
-                <Sparkles className="h-3.5 w-3.5 text-pink-500" />
-                {profile.phdSupervisionStatus}
-              </span>
+              {showPhdStatus && (
+                <span className="inline-flex items-center gap-1">
+                  <Sparkles className="h-3.5 w-3.5 text-pink-500" />
+                  {phdStatus}
+                </span>
+              )}
             </div>
           </div>
         </div>
@@ -90,36 +121,32 @@ const ProfessorCard: React.FC<ProfessorCardProps> = ({
       </div>
 
       <div className="flex flex-col gap-2 border-t border-gray-200 bg-gray-50 p-4 dark:border-gray-700 dark:bg-gray-900/80 md:flex-row md:items-center md:justify-between">
-        <div className="flex flex-wrap items-center gap-2 text-xs text-gray-500 dark:text-gray-300">
-          <span className="inline-flex items-center gap-1 rounded-full bg-indigo-50 px-3 py-1 text-indigo-600 dark:bg-indigo-500/10 dark:text-indigo-200">
-            <Globe2 className="h-3.5 w-3.5" />
-            {profile.acceptsInternationalStudents ? '接受国际生' : '仅限本校/联合培养'}
-          </span>
-          <span className="inline-flex items-center gap-1 rounded-full bg-white px-3 py-1 text-gray-500 dark:bg-gray-900 dark:text-gray-300">
-            <Mail className="h-3.5 w-3.5" />
-            {profile.responseTime}
-          </span>
+        <div className="w-full text-xs text-gray-500 dark:text-gray-300">
+          <div className="flex items-center gap-3">
+            {schoolLogo && (
+              <img
+                src={schoolLogo}
+                alt={`${profile.university} logo`}
+                className="h-8 w-8 rounded bg-white object-contain p-0.5 shadow-sm dark:bg-gray-800"
+              />
+            )}
+            <div className="flex flex-col justify-center leading-tight">
+              <span
+                className="truncate text-sm font-semibold text-indigo-600 dark:text-indigo-200"
+                title={profile.university}
+              >
+                {profile.university}
+              </span>
+              {profile.college && (
+                <span className="text-xs text-gray-500 dark:text-gray-400" title={profile.college}>
+                  {profile.college}
+                </span>
+              )}
+            </div>
+          </div>
         </div>
 
         <div className="flex w-full flex-col gap-2 md:w-auto md:flex-row">
-          <Button
-            variant={isFavorited ? 'default' : 'outline'}
-            className={
-              isFavorited
-                ? 'w-full bg-indigo-600 text-white hover:bg-indigo-500'
-                : 'w-full border-indigo-200 text-indigo-600 hover:bg-indigo-50 dark:border-indigo-500/50 dark:text-indigo-200 dark:hover:bg-indigo-500/10'
-            }
-            onClick={() => onToggleFavorite(profile, !isFavorited)}
-          >
-            {isFavorited ? (
-              <span className="inline-flex items-center gap-1">
-                <Check className="h-4 w-4" />
-                已收藏
-              </span>
-            ) : (
-              '收藏到清单'
-            )}
-          </Button>
           <Button
             variant="outline"
             className="w-full border-gray-200 text-gray-600 hover:bg-gray-100 dark:border-gray-600 dark:text-gray-200 dark:hover:bg-gray-800"
@@ -128,7 +155,7 @@ const ProfessorCard: React.FC<ProfessorCardProps> = ({
             加入学生方案
           </Button>
           <Button className="w-full bg-indigo-600 text-white hover:bg-indigo-500" onClick={() => onViewDetail(profile)}>
-            查看详情
+            详情
             <ArrowUpRight className="ml-1.5 h-4 w-4" />
           </Button>
         </div>

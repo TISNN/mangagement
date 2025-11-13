@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
 NUS Computing Faculty Scraper
-爬取NUS Computing学院Department of Information Systems and Analytics的教授信息
+支持按部门（默认：Department of Information Systems and Analytics）爬取教授信息。
 分两步：1. 从列表页获取教授链接  2. 访问详情页获取完整信息
-过滤Part-Time教授
+过滤 Part-Time 教授
 """
 
+import argparse
 import json
 import time
 import re
@@ -20,13 +21,38 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from bs4 import BeautifulSoup, Tag
 
+DEPARTMENT_CONFIG = {
+    "disa": {
+        "name": "Department of Information Systems and Analytics",
+        "select_keyword": "Information Systems",
+        "link_substrings": ["/disa/people/"],
+        "output_prefix": "nus_isa",
+    },
+    "cs": {
+        "name": "Department of Computer Science",
+        "select_keyword": "Computer Science",
+        "link_substrings": ["/cs/people/"],
+        "output_prefix": "nus_cs",
+    },
+}
+
 
 class NUSProfessorScraper:
-    def __init__(self, headless=True, max_workers=3):
+    def __init__(self, department_key="disa", headless=True, max_workers=3):
         """初始化爬虫"""
+        if department_key not in DEPARTMENT_CONFIG:
+            raise ValueError(f"暂不支持的部门标识：{department_key}")
+
+        config = DEPARTMENT_CONFIG[department_key]
+
+        self.department_key = department_key
         self.list_url = "https://www.comp.nus.edu.sg/about/faculty/"
         self.base_url = "https://www.comp.nus.edu.sg"
-        self.target_department = "Department of Information Systems and Analytics"
+        self.target_department = config["name"]
+        self.select_keyword = config["select_keyword"]
+        self.link_substrings = config["link_substrings"]
+        self.output_prefix = config["output_prefix"]
+
         self.professor_links = []
         self.professors = []
         self.headless = headless
@@ -67,58 +93,67 @@ class NUSProfessorScraper:
             time.sleep(3)
             
             print(f"正在筛选系别: {self.target_department}")
-            
-            # 选择Department of Information Systems and Analytics
-            self.driver.execute_script("""
+
+            select_keyword = json.dumps(self.select_keyword)
+
+            select_js = """
                 var selects = document.querySelectorAll('select');
-                for(var i = 0; i < selects.length; i++) {
+                for(var i = 0; i < selects.length; i++) {{
                     var options = selects[i].options;
-                    for(var j = 0; j < options.length; j++) {
-                        if(options[j].text.includes('Information Systems')) {
+                    for(var j = 0; j < options.length; j++) {{
+                        if(options[j].text.includes({keyword})) {{
                             selects[i].selectedIndex = j;
                             selects[i].dispatchEvent(new Event('change'));
                             break;
-                        }
-                    }
-                }
-            """)
+                        }}
+                    }}
+                }}
+            """.format(keyword=select_keyword)
+
+            # 选择目标Department
+            self.driver.execute_script(select_js)
             
             time.sleep(5)
             
             # 提取教授链接 - 多种方式尝试
-            links = self.driver.execute_script("""
+            link_selectors = ", ".join([f"a[href*='{pattern}']" for pattern in self.link_substrings])
+            link_selectors = link_selectors or "a"
+
+            link_js = """
                 var links = [];
                 
                 // 方法1: 查找所有包含人员链接的元素
-                var allLinks = document.querySelectorAll('a[href*="/disa/people/"], a[href*="/cs/people/"]');
+                var allLinks = document.querySelectorAll("{selectors}");
                 console.log('找到链接数量:', allLinks.length);
                 
-                allLinks.forEach(function(linkElement) {
+                allLinks.forEach(function(linkElement) {{
                     var href = linkElement.getAttribute('href');
                     var name = linkElement.textContent.trim();
                     
                     // 检查父元素中是否包含Part-Time
                     var parent = linkElement.closest('tr, div, li');
-                    if (parent) {
+                    if (parent) {{
                         var parentText = parent.textContent || '';
                         if (parentText.toLowerCase().includes('part-time') || 
-                            parentText.toLowerCase().includes('part time')) {
+                            parentText.toLowerCase().includes('part time')) {{
                             console.log('跳过Part-Time:', name);
                             return;
-                        }
-                    }
+                        }}
+                    }}
                     
-                    if (href && name && name.length > 2) {
-                        links.push({
+                    if (href && name && name.length > 2) {{
+                        links.push({{
                             name: name,
                             url: href
-                        });
-                    }
-                });
+                        }});
+                    }}
+                }});
                 
                 console.log('最终链接数量:', links.length);
                 return links;
-            """)
+            """.format(selectors=link_selectors)
+
+            links = self.driver.execute_script(link_js)
             
             # 补全URL并去重
             seen_urls = set()
@@ -631,8 +666,10 @@ class NUSProfessorScraper:
         appointment = professor.get('appointment', '').lower()
         return 'part-time' in appointment or 'part time' in appointment
     
-    def save_to_json(self, filename='nus_isa_professors.json'):
+    def save_to_json(self, filename=None):
         """保存为JSON文件"""
+        if filename is None:
+            filename = f"{self.output_prefix}_professors.json"
         output_path = f"/Users/evanxu/Downloads/mangagement-d0918fc8ddf240e444778d69a1e8e3a08a6b2dbc/scripts/{filename}"
         
         with open(output_path, 'w', encoding='utf-8') as f:
@@ -644,9 +681,12 @@ class NUSProfessorScraper:
         
         print(f"✓ 数据已保存到: {output_path}")
     
-    def save_to_csv(self, filename='nus_isa_professors.csv'):
+    def save_to_csv(self, filename=None):
         """保存为CSV文件"""
         import csv
+
+        if filename is None:
+            filename = f"{self.output_prefix}_professors.csv"
         
         output_path = f"/Users/evanxu/Downloads/mangagement-d0918fc8ddf240e444778d69a1e8e3a08a6b2dbc/scripts/{filename}"
         
@@ -711,14 +751,39 @@ class NUSProfessorScraper:
 
 def main():
     """主函数"""
+    parser = argparse.ArgumentParser(description="NUS Computing Faculty Scraper")
+    parser.add_argument(
+        "--department",
+        choices=DEPARTMENT_CONFIG.keys(),
+        default="disa",
+        help="目标部门标识，默认爬取 Department of Information Systems and Analytics",
+    )
+    parser.add_argument(
+        "--show-browser",
+        action="store_true",
+        help="显示 Chrome 窗口（默认 headless 模式运行）",
+    )
+    parser.add_argument(
+        "--max-workers",
+        type=int,
+        default=3,
+        help="并行爬取线程数，默认 3",
+    )
+    args = parser.parse_args()
+
+    target_name = DEPARTMENT_CONFIG[args.department]["name"]
+
     print("="*60)
     print("NUS Computing Faculty Scraper")
-    print("目标: Department of Information Systems and Analytics")
+    print(f"目标: {target_name}")
     print("="*60)
     print()
     
-    # 可以设置headless=False来查看浏览器操作
-    scraper = NUSProfessorScraper(headless=True)
+    scraper = NUSProfessorScraper(
+        department_key=args.department,
+        headless=not args.show_browser,
+        max_workers=args.max_workers,
+    )
     
     try:
         # 步骤1: 获取教授列表链接

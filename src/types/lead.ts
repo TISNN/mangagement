@@ -22,6 +22,10 @@ export interface LeadDB {
   assigned_to: number | null;
   notes: string;
   priority: LeadPriority;
+  campaign?: string | null;
+  next_action?: string | null;
+  tags?: string[] | null;
+  risk_level?: string | null;
   created_at?: string;
   updated_at?: string;
   gender?: string; // 性别
@@ -42,6 +46,10 @@ export interface Lead {
   assignedTo: string;
   notes: string;
   priority: LeadPriority;
+  campaign?: string;
+  nextAction?: string;
+  tags?: string[];
+  riskLevel?: string;
   createdAt?: string;
   updatedAt?: string;
   gender?: string; // 性别
@@ -57,6 +65,10 @@ export interface LeadForm {
   assignedTo?: string;
   notes?: string;
   priority: LeadPriority;
+  campaign?: string;
+  nextAction?: string;
+  tags?: string[];
+  riskLevel?: string;
   gender?: string; // 性别
   date?: string; // 接入日期
 }

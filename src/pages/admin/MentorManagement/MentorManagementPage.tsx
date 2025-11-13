@@ -1,29 +1,25 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import { Download, Globe2, Sparkles, Users } from 'lucide-react';
 
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-} from '@/components/ui/dialog';
-
-import { MENTOR_MARKET, MENTOR_TEAM } from './data';
+import { MENTOR_TEAM } from './data';
 import type { MentorRecord, MentorView } from './types';
 import {
   AvailabilityView,
   FilterBar,
   InsightsView,
-  MentorMarketplace,
   MentorRoster,
   MissionPerformanceView,
   SharedResources,
   SkillMatrixView,
   SummaryCards,
 } from './components';
+import { filterMentors } from './utils';
+import {
+  getStoredMentorMarketplaceSelection,
+  MENTOR_MARKET_SELECTION_EVENT,
+} from './mentorMarketplaceStorage';
 
 const mentorTabs: { id: MentorView; label: string; icon: React.ReactNode }[] = [
   { id: 'roster', label: '导师名册', icon: <Users className="h-4 w-4" /> },
@@ -33,27 +29,16 @@ const mentorTabs: { id: MentorView; label: string; icon: React.ReactNode }[] = [
   { id: 'insights', label: '数据洞察', icon: <Sparkles className="h-4 w-4" /> },
 ];
 
-const filterMentors = (mentors: MentorRecord[], keyword: string) => {
-  const value = keyword.trim();
-  if (!value) return mentors;
-  return mentors.filter(
-    (mentor) =>
-      mentor.name.includes(value) ||
-      mentor.tags.some((tag) => tag.includes(value)) ||
-      mentor.languages.some((lang) => lang.includes(value)),
-  );
-};
-
 const MentorManagementPage: React.FC = () => {
   const navigate = useNavigate();
   const [view, setView] = useState<MentorView>('roster');
   const [search, setSearch] = useState('');
   const [selectedMentors, setSelectedMentors] = useState<Set<string>>(new Set(['mentor-1', 'mentor-2']));
-  const [selectedCandidates, setSelectedCandidates] = useState<Set<string>>(new Set());
-  const [marketOpen, setMarketOpen] = useState(false);
+  const [marketSelectionCount, setMarketSelectionCount] = useState(
+    () => getStoredMentorMarketplaceSelection().size,
+  );
 
   const filteredTeam = useMemo(() => filterMentors(MENTOR_TEAM, search), [search]);
-  const filteredMarket = useMemo(() => filterMentors(MENTOR_MARKET, search), [search]);
 
   const toggleTeamMentor = (mentorId: string) => {
     setSelectedMentors((prev) => {
@@ -67,22 +52,35 @@ const MentorManagementPage: React.FC = () => {
     });
   };
 
-  const toggleMarketMentor = (mentorId: string) => {
-    setSelectedCandidates((prev) => {
-      const next = new Set(prev);
-      if (next.has(mentorId)) {
-        next.delete(mentorId);
-      } else {
-        next.add(mentorId);
-      }
-      return next;
-    });
-  };
-
   const handleViewDetail = (mentorId: string) => {
-    setMarketOpen(false);
     navigate(`/admin/mentors/${mentorId}`);
   };
+
+  useEffect(() => {
+    const handleSelectionChange = (event: Event) => {
+      const detail = (event as CustomEvent<{ ids: string[] }>).detail;
+      if (detail?.ids) {
+        setMarketSelectionCount(detail.ids.length);
+      } else {
+        setMarketSelectionCount(getStoredMentorMarketplaceSelection().size);
+      }
+    };
+
+    const syncFromStorage = () => {
+      setMarketSelectionCount(getStoredMentorMarketplaceSelection().size);
+    };
+
+    window.addEventListener(MENTOR_MARKET_SELECTION_EVENT, handleSelectionChange as EventListener);
+    window.addEventListener('focus', syncFromStorage);
+
+    return () => {
+      window.removeEventListener(
+        MENTOR_MARKET_SELECTION_EVENT,
+        handleSelectionChange as EventListener,
+      );
+      window.removeEventListener('focus', syncFromStorage);
+    };
+  }, []);
 
   return (
     <div className="space-y-6">
@@ -105,13 +103,13 @@ const MentorManagementPage: React.FC = () => {
           </button>
           <button
             className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-500 px-4 py-2 text-sm font-semibold text-white shadow-md transition hover:from-purple-500 hover:via-indigo-500 hover:to-blue-500"
-            onClick={() => setMarketOpen(true)}
+            onClick={() => navigate('/admin/mentor-marketplace')}
           >
             <Globe2 className="h-4 w-4" />
             导师人才市场
-            {selectedCandidates.size > 0 && (
+            {marketSelectionCount > 0 && (
               <span className="rounded-full bg-white/20 px-2 py-0.5 text-[11px] font-medium">
-                {selectedCandidates.size}
+                {marketSelectionCount}
               </span>
             )}
           </button>
@@ -160,21 +158,6 @@ const MentorManagementPage: React.FC = () => {
       {view === 'insights' && <InsightsView />}
 
       <SharedResources />
-
-      <Dialog open={marketOpen} onOpenChange={setMarketOpen}>
-        <DialogContent className="max-w-[96vw] overflow-hidden border-0 p-0">
-          <DialogHeader className="sr-only">
-            <DialogTitle>导师人才市场</DialogTitle>
-            <DialogDescription>浏览外部导师资源，加入合作候选列表并共享内部资源。</DialogDescription>
-          </DialogHeader>
-          <MentorMarketplace
-            mentors={filteredMarket}
-            selectedMarketIds={selectedCandidates}
-            onToggleCandidate={toggleMarketMentor}
-            onViewDetail={handleViewDetail}
-          />
-        </DialogContent>
-      </Dialog>
     </div>
   );
 };

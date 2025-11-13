@@ -9,6 +9,7 @@ import {
   PhDRequirement,
   PlacementRecord,
   ResearchProject,
+  SchoolInfo,
 } from '@/pages/admin/ProfessorDirectory/types';
 
 export interface ProfessorQueryParams {
@@ -20,7 +21,8 @@ export interface ProfessorQueryParams {
   intakes?: string[];
   onlyInternational?: boolean;
   sortMode?: SortMode;
-  limit?: number;
+  page?: number;
+  pageSize?: number;
 }
 
 export interface ProfessorMatchPayload {
@@ -37,6 +39,21 @@ export interface StudentMatchOption {
   educationLevel?: string | null;
   status?: string | null;
   primaryService?: string | null;
+}
+
+export interface FetchProfessorsResult {
+  profiles: ProfessorProfile[];
+  total: number;
+}
+
+export interface ProfessorUpdatePayload {
+  primaryTitle?: string | null;
+  contactEmail?: string | null;
+  contactPhone?: string | null;
+  personalPage?: string | null;
+  phdSupervisionStatus?: string | null;
+  acceptsInternationalStudents?: boolean;
+  internalNotes?: string | null;
 }
 
 type SchoolRow = {
@@ -342,7 +359,7 @@ export const fetchProfessorFilters = async (): Promise<ProfessorFilterOptions> =
   };
 };
 
-export const fetchProfessors = async (params: ProfessorQueryParams): Promise<ProfessorProfile[]> => {
+export const fetchProfessors = async (params: ProfessorQueryParams): Promise<FetchProfessorsResult> => {
   const {
     searchTerm,
     countries = [],
@@ -352,8 +369,14 @@ export const fetchProfessors = async (params: ProfessorQueryParams): Promise<Pro
     intakes = [],
     onlyInternational = true,
     sortMode = 'matchScore',
-    limit = 100,
+    page = 1,
+    pageSize = 30,
   } = params;
+
+  const safePage = Math.max(1, page);
+  const safePageSize = Math.max(1, pageSize);
+  const from = (safePage - 1) * safePageSize;
+  const to = from + safePageSize - 1;
 
   let query = supabase
     .from('professors')
@@ -406,9 +429,10 @@ export const fetchProfessors = async (params: ProfessorQueryParams): Promise<Pro
         match_score,
         response_time
       `,
+      { count: 'exact' },
     )
     .eq('is_active', true)
-    .limit(limit);
+    .range(from, to);
 
   if (countries.length > 0) {
     query = query.in('country', countries);
@@ -448,14 +472,68 @@ export const fetchProfessors = async (params: ProfessorQueryParams): Promise<Pro
     );
   }
 
-  const { data, error } = await query;
+  const { data, error, count } = await query;
 
   if (error) {
     throw error;
   }
 
   const mapped = (data ?? []).map((row) => mapProfessorRow(row as ProfessorRow));
-  return sortProfessorsInMemory(mapped, sortMode);
+  const sorted = sortProfessorsInMemory(mapped, sortMode);
+  return {
+    profiles: sorted,
+    total: count ?? sorted.length,
+  };
+};
+
+const mapProfessorUpdatePayload = (payload: ProfessorUpdatePayload) => {
+  const update: Record<string, unknown> = {};
+  if (payload.primaryTitle !== undefined) {
+    update.primary_title = payload.primaryTitle ?? null;
+  }
+  if (payload.contactEmail !== undefined) {
+    update.contact_email = payload.contactEmail ?? null;
+  }
+  if (payload.contactPhone !== undefined) {
+    update.contact_phone = payload.contactPhone ?? null;
+  }
+  if (payload.personalPage !== undefined) {
+    update.personal_page = payload.personalPage ?? null;
+  }
+  if (payload.phdSupervisionStatus !== undefined) {
+    update.phd_supervision_status = payload.phdSupervisionStatus ?? null;
+  }
+  if (payload.acceptsInternationalStudents !== undefined) {
+    update.accepts_international_students = payload.acceptsInternationalStudents;
+  }
+  if (payload.internalNotes !== undefined) {
+    update.internal_notes = payload.internalNotes ?? null;
+  }
+  return update;
+};
+
+export const updateProfessorProfile = async (
+  id: number,
+  payload: ProfessorUpdatePayload,
+): Promise<void> => {
+  const update = mapProfessorUpdatePayload(payload);
+  if (Object.keys(update).length === 0) {
+    return;
+  }
+  const { error } = await supabase
+    .from('professors')
+    .update(update)
+    .eq('id', id);
+  if (error) {
+    throw error;
+  }
+};
+
+export const deleteProfessor = async (id: number): Promise<void> => {
+  const { error } = await supabase.from('professors').delete().eq('id', id);
+  if (error) {
+    throw error;
+  }
 };
 
 export const fetchProfessorDetail = async (id: number): Promise<ProfessorProfile | null> => {
@@ -533,6 +611,47 @@ export const fetchProfessorFavorites = async (employeeId: number): Promise<numbe
   }
 
   return (data ?? []).map((row) => Number(row.professor_id));
+};
+
+export const fetchSchoolById = async (schoolId: string): Promise<SchoolInfo | null> => {
+  const { data, error } = await supabase
+    .from('schools')
+    .select(
+      `
+        id,
+        en_name,
+        cn_name,
+        country,
+        city,
+        qs_rank_2024,
+        qs_rank_2025,
+        logo_url,
+        website_url
+      `,
+    )
+    .eq('id', schoolId)
+    .maybeSingle();
+
+  if (error) {
+    console.error('[fetchSchoolById] 查询学校信息失败', error);
+    return null;
+  }
+
+  if (!data) return null;
+
+  const school: SchoolInfo = {
+    id: data.id,
+    enName: data.en_name,
+    cnName: data.cn_name ?? undefined,
+    country: data.country,
+    city: data.city ?? undefined,
+    qsRank2024: data.qs_rank_2024 ?? undefined,
+    qsRank2025: data.qs_rank_2025 ?? undefined,
+    logoUrl: data.logo_url ?? undefined,
+    websiteUrl: data.website_url ?? undefined,
+  };
+
+  return school;
 };
 
 export const addProfessorFavorite = async (professorId: number, employeeId: number): Promise<void> => {

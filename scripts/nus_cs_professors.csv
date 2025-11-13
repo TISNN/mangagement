@@ -1,0 +1,136 @@
+﻿name,appointment,email,phone,office,research_areas
+Xiaokui XIAO,Professor,xiaoxk@comp.nus.edu.sg,651 61559,COM1-03-25,"Database, Algorithms & Theory"
+Seth Lewis GILBERT,Professor,gilbert@comp.nus.edu.sg,651 62729,COM2-03-23,"Algorithms & Theory, Systems & Networking"
+Weng-Fai WONG,Associate Professor,wongwf@comp.nus.edu.sg,651 66902,COM2-03-56,Systems & Networking
+Lisa NEW,N/A,lnew@comp.nus.edu.sg,,,
+LIANG Zhenkai,Associate Professor,liangzk@comp.nus.edu.sg,651 61226,COM1-03-16,"Security, Systems & Networking"
+Damith Chatura RAJAPAKSE,Associate Professor (Educator Track),damithch@comp.nus.edu.sg,651 64359,COM2-02-57,Programming Languages & Software Engineering
+Michael D. ADAMS,Assistant Professor,adams@comp.nus.edu.sg,660 17690,COM3-02-47,Programming Languages & Software Engineering
+Divesh AGGARWAL,Associate Professor,divesh@comp.nus.edu.sg,651 62911,COM3-02-09,Algorithms & Theory
+AI Xin,Lecturer (Educator Track),aixin@comp.nus.edu.sg,660 16657,COM3-B1-24,Artificial Intelligence
+Boyd ANDERSON,Senior Lecturer (Educator Track),boyd@comp.nus.edu.sg,660 17900,COM3-02-46,
+Anand BHOJAN,Associate Professor (Educator Track),bhojan@comp.nus.edu.sg,651 67351,COM3-02-49,"Systems & Networking, Media, Artificial Intelligence"
+BIAN Yatao,Assistant Professor,bianyt@comp.nus.edu.sg,660 16659,COM2-03-39,Artificial Intelligence
+Trevor E. CARLSON,Associate Professor,tcarlson@comp.nus.edu.sg,651 67997,COM3-02-10,Systems & Networking
+BRESSON Xavier,Associate Professor,xaviercs@comp.nus.edu.sg,660 17633,COM2-04-26,Artificial Intelligence
+Cristina CARBUNARU,Senior Lecturer (Educator Track),ccris@comp.nus.edu.sg,651 68850,COM2-02-05,
+CHAN Chee Yong,Associate Professor,chancy@comp.nus.edu.sg,651 66736,COM1-03-24,Database
+Diptarka CHAKRABORTY,Assistant Professor,diptarka@comp.nus.edu.sg,651 62829,COM3-02-55,Algorithms & Theory
+CHAN Mun Choon,Professor,chanmc@comp.nus.edu.sg,651 67372,COM3-02-15,Systems & Networking
+CHANG Ee-Chien,Associate Professor,changec@comp.nus.edu.sg,651 66168,COM2-04-30,Security
+Yi-Jun CHANG,NUS Presidential Young Professor,changyj@comp.nus.edu.sg,660 17595,COM3-02-24,Algorithms & Theory
+CHEN Tsuhan,Distinguished Professor,tsuhan@comp.nus.edu.sg,660 12508,COM2-04-34,"Media, Artificial Intelligence"
+CHEN Yu,NUS Presidential Young Professor,cheny@comp.nus.edu.sg,660 12921,COM2-02-58,Algorithms & Theory
+CHENG Holun,Senior Lecturer (Educator Track),hcheng@comp.nus.edu.sg,651 68732,AS6-05-03,Media
+"CHIA Wai Kit, Henry",Senior Lecturer (Educator Track),hchia@comp.nus.edu.sg,651 61556,COM2-03-10,
+CHIN Wei Ngan,Associate Professor,chinwn@comp.nus.edu.sg,651 66228,COM3-02-11,Programming Languages & Software Engineering
+CHONG Ket Fah,Senior Lecturer (Educator Track),chongket@comp.nus.edu.sg,660 11037,COM2-02-66,
+CHUA Tat Seng,Professor,chuats@comp.nus.edu.sg,651 62505,AS6-05-08,Media
+Ashish Deepak DANDEKAR,Lecturer (Educator Track),ashishd@comp.nus.edu.sg,660 17631,COM2-03-58,"Security, Data Science & Business Analytics"
+Olivier DANVY,Professor,olivier@comp.nus.edu.sg,651 62936,COM2-03-38,
+Eldon CHUNG,Lecturer (Educator Track),echu21@comp.nus.edu.sg,660 18804,COM2-03-28,
+DONG Jin Song,Professor,dongjs@comp.nus.edu.sg,651 64353,COM2-03-19,Programming Languages & Software Engineering
+E Jane Little,Assistant Professor,ejane@comp.nus.edu.sg,660 17889,AS6-05-04,
+Anandha GOPALAN,Associate Professor (Educator Track),axgopala@comp.nus.edu.sg,651 64426,COM2-03-21,
+Steven HALIM,Associate Professor (Educator Track),stevenha@comp.nus.edu.sg,651 67361,COM2-03-37,"Algorithms & Theory, Media"
+HAN Liang Wee Eric,Lecturer (Educator Track),ehan@comp.nus.edu.sg,660 17639,COM2-03-26,
+HE Bingsheng,Professor,hebs@comp.nus.edu.sg,651 67998,COM3-02-12,"Database, Systems & Networking"
+"HENZ, Martin J",Associate Professor,henz@comp.nus.edu.sg,651 66632,COM3-02-05,"Programming Languages & Software Engineering, Artificial Intelligence"
+Bryan HOOI Kuen-Yew,Assistant Professor,bhooi@comp.nus.edu.sg,660 12373,COM3-02-22,"Artificial Intelligence, Database"
+David HSU,Provost's Chair Professor,dyhsu@comp.nus.edu.sg,651 62978,COM3-02-07,Artificial Intelligence
+"HSU, Wynne",Provost's Chair Professor,whsu@comp.nus.edu.sg,651 67944,COM2-03-05,"Artificial Intelligence, Database"
+Conghui HU,Lecturer (Educator Track),huch@comp.nus.edu.sg,660 17578,COM2-03-07,
+HUANG Zhiyong,Associate Professor (Practice Track),huangzy@comp.nus.edu.sg,651 61170,AS6-05-11,"Media, Database"
+Joxan JAFFAR,Professor,joxan@comp.nus.edu.sg,651 67846,COM1-03-11,"Programming Languages & Software Engineering, Algorithms & Theory"
+Rahul JAIN,Professor,rahul@comp.nus.edu.sg,,COM2-03-53,"Security, Algorithms & Theory"
+"JAIN, Sanjay",Provost's Chair Professor,sanjay@comp.nus.edu.sg,651 67842,COM2-03-59,Algorithms & Theory
+JIANG KAN,Lecturer (Educator Track),jiangkan@comp.nus.edu.sg,660 17637,COM2-03-24,Programming Languages & Software Engineering
+KAN Min-Yen,Associate Professor,kanmy@comp.nus.edu.sg,651 61885,COM3-02-30,"Artificial Intelligence, Media"
+Mohan KANKANHALLI,Provost's Chair Professor,mohan@comp.nus.edu.sg,651 66738,AS6-05-06,"Media, Security"
+Kenji KAWAGUCHI,NUS Presidential Young Professor,kenji@comp.nus.edu.sg,,COM3-02-52,"Artificial Intelligence, Algorithms & Theory"
+KHOO Siau Cheng,Associate Professor,khoosc@comp.nus.edu.sg,651 66730,COM2-04-11,Programming Languages & Software Engineering
+Nitya.Lakshmanan,Lecturer (Educator Track),nityalak@comp.nus.edu.sg,660 17585,COM3-02-44,Security
+LEE Gim Hee,Associate Professor,leegh@comp.nus.edu.sg,651 62214,COM2-03-54,"Media, Artificial Intelligence"
+"LEE Mong Li, Janice",Professor,leeml@comp.nus.edu.sg,651 62905,COM2-03-06,"Computational Biology, Database"
+LEE Wee Sun,Professor,leews@comp.nus.edu.sg,651 64526,COM3-02-28,Artificial Intelligence
+LEE Yi-Chieh,Assistant Professor,yclee@comp.nus.edu.sg,651 68354,AS6-04-05,"Media, Artificial Intelligence, Healthcare Informatics"
+"LEONG Wing Lup, Ben",Associate Professor,bleong@comp.nus.edu.sg,651 64240,COM2-03-20,Systems & Networking
+LEONG Hon Wai,Honorary Fellow,leonghw@comp.nus.edu.sg,651 62903,COM1-03-17,"Algorithms & Theory, Computational Biology"
+LEONG Wai Kay,Senior Lecturer (Educator Track),leongwai@comp.nus.edu.sg,651 66795,COM2-02-11,
+LEONG Tze Yun,Professor (Practice Track),leongty@comp.nus.edu.sg,651 66519,COM3-02-06,Artificial Intelligence
+LEOW Wee Kheng,Associate Professor,leowwk@comp.nus.edu.sg,651 66540,AS6-05-07,"Media, Algorithms & Theory"
+Jialin LI,Sung Kah Kay Assistant Professor,lijl@comp.nus.edu.sg,660 17678,COM3-02-54,Systems & Networking
+Daren LER,Senior Lecturer (Educator Track),dler@comp.nus.edu.sg,651 63165,COM2-02-65,Artificial Intelligence
+Brian LIM Youliang,Associate Professor,brianlim@comp.nus.edu.sg,660 11084,COM2-03-49,Media
+LING Chun Kai,Assistant Professor,lingck@comp.nus.edu.sg,660 13851,COM2-03-27,"Artificial Intelligence, Algorithms & Theory"
+LING Tok Wang,Emeritus Professor,lingtw@comp.nus.edu.sg,651 62734,COM2-03-01,Database
+Anji LIU,NUS Presidential Young Professor,liuaj@comp.nus.edu.sg,651 61927,COM2-03-51,Artificial Intelligence
+LOW Kian Hsiang,Associate Professor,lowkh@comp.nus.edu.sg,651 64719,COM3-02-29,Artificial Intelligence
+LOW Kok Lim,Senior Lecturer (Educator Track),lowkl@comp.nus.edu.sg,651 66784,AS6-04-09,Media
+LU Yao,Assistant Professor,luyao@comp.nus.edu.sg,660 17891,COM2-03-42,"Database, Systems & Networking, Artificial Intelligence"
+"MA Tianbai, Richard",Associate Professor,tbma@comp.nus.edu.sg,651 64244,COM3-02-14,Systems & Networking
+Umang MATHUR,NUS Presidential Young Professor,umathur@comp.nus.edu.sg,651 65219,COM3-02-53,"Programming Languages & Software Engineering, Algorithms & Theory"
+Muhammad Rizki Aulia Rahman MAULANA,Lecturer (Educator Track),maulana@comp.nus.edu.sg,651 66773,COM2-02-06,Artificial Intelligence
+Tulika MITRA,Provost's Chair Professor,tulika@comp.nus.edu.sg,651 66839,COM3-02-13/COM1-03-33,Systems & Networking
+Amirhassan MONAJEMI,Senior Lecturer (Educator Track),amir@comp.nus.edu.sg,660 12934,COM3-B1-23,"Artificial Intelligence, Media, Digital Transformation, Platforms & Innovation"
+Niranjan NAGARAJAN,Associate Professor,niranjan@comp.nus.edu.sg,651 67362,COM2-03-15,
+Suranga NANAYAKKARA,Associate Professor,suranga@comp.nus.edu.sg,651 62797,COM3-02-40,"Intelligent Systems, Media"
+Akshay NARAYAN,Senior Lecturer (Educator Track),anarayan@comp.nus.edu.sg,651 64779,COM2-02-03,"Artificial Intelligence, Programming Languages & Software Engineering"
+Prabhu NATARAJAN,Senior Lecturer (Educator Track),prabhu@comp.nus.edu.sg,651 61105,COM3-02-34,"Artificial Intelligence, Media"
+Ganesh NEELAKANTA IYER,Lecturer (Educator Track),gni@comp.nus.edu.sg,660 17601,COM2-03-55,"Artificial Intelligence, Programming Languages & Software Engineering"
+NG Hwee Tou,Provost's Chair Professor,nght@comp.nus.edu.sg,651 68951,COM3-02-48,"Artificial Intelligence, Media"
+NG See Kiong,Professor (Practice Track),ngsk@comp.nus.edu.sg,660 15837,AS6-05-09,"Artificial Intelligence, Computational Biology"
+NG Teck Khim,Associate Professor (Practice Track),ngtk@comp.nus.edu.sg,651 66962/651 66962,COM3-02-08/ COM3-02-08,Media
+OOI Wei Tsang,Associate Professor,ooiwt@comp.nus.edu.sg,651 64463,AS6-05-14,"Media, Artificial Intelligence"
+PEH Li Shiuan,Provost's Chair Professor,peh@comp.nus.edu.sg,660 11734,COM3-02-27,Systems & Networking
+Adi Yoga Sidi PRABAWA,Senior Lecturer (Educator Track),adi-yoga@comp.nus.edu.sg,651 66520,COM2-02-55,
+QUEK Yihui,Assistant Professor,quekyh@comp.nus.edu.sg,,,
+Sanka RASNAYAKA,Lecturer (Educator Track),sanka@comp.nus.edu.sg,660 17710,AS6-05-13,Artificial Intelligence
+Patrick REBENTROST,Associate Professor,patrick@comp.nus.edu.sg,651 62878,COM2-04-29,
+Manuel RIGGER,Assistant Professor,rigger@comp.nus.edu.sg,660 17691,COM3-02-42,"Programming Languages & Software Engineering, Database, Systems & Networking"
+Abhik ROYCHOUDHURY,Provost's Chair Professor,abhik@comp.nus.edu.sg,651 68939,COM3-02-04,"Programming Languages & Software Engineering, Security"
+Sriram SAMI,Lecturer (Educator Track),srirams@comp.nus.edu.sg,660 17697,COM2-03-29,"Systems & Networking, Security"
+Prateek SAXENA,Associate Professor,prateeks@comp.nus.edu.sg,660 11898,COM3-02-03,"Systems & Networking, Security, Algorithms & Theory"
+Jonathan Mark SCARLETT,Associate Professor,scarlett@comp.nus.edu.sg,651 61179,COM3-02-57,"Artificial Intelligence, Algorithms & Theory"
+Ilya SERGEY,Associate Professor,ilya@comp.nus.edu.sg,660 11466,COM3-02-56,"Programming Languages & Software Engineering, Systems & Networking, Algorithms & Theory"
+Lin SHAO,Assistant Professor,shaol@comp.nus.edu.sg,651 62908,COM2-03-03,Artificial Intelligence
+Reza SHOKRI,Dean's Chair Associate Professor,reza@comp.nus.edu.sg,651 64464,COM2-03-60,"Security, Artificial Intelligence, Algorithms & Theory"
+Michael Shieh,Assistant Professor,mshieh@comp.nus.edu.sg,651 66581,COM2-03-34,Artificial Intelligence
+Mike SHOU,Assistant Professor,mikeshou@comp.nus.edu.sg,660 17716,COM2-02-16,"Media, Artificial Intelligence"
+Rajendra Prasad SIRIGINA,Lecturer (Educator Track),srprasad@comp.nus.edu.sg,660 11664,AS6-05-24,Artificial Intelligence
+"Mong Cheng, Terence SIM",Associate Professor,tsim@comp.nus.edu.sg,651 61180,COM3-02-50,"Security, Artificial Intelligence, Media"
+Harold SOH Soon Hong,Associate Professor,hsoh@comp.nus.edu.sg,651 67367,COM3-02-58,Artificial Intelligence
+SOO Yuen Jien,Associate Professor (Educator Track),sooyj@comp.nus.edu.sg,651 61345,COM2-02-61,Systems & Networking
+"STEPHAN, Frank Christian",Professor,fstephan@comp.nus.edu.sg,651 64246,COM2-03-11,Algorithms & Theory
+Vivy SUHENDRA,Associate Professor (Practice Track),vivy@comp.nus.edu.sg,660 12754,COM2-04-16,
+Warut SUKSOMPONG,Assistant Professor,warut@comp.nus.edu.sg,651 63393,COM2-03-35,"Algorithms & Theory, Artificial Intelligence"
+TAN Tuck Choy,Associate Professor (Educator Track),tantc@comp.nus.edu.sg,651 62906,COM1-03-12,
+"TAN Keng Yan, Colin",Associate Professor (Educator Track),ctank@comp.nus.edu.sg,651 67352,COM2-02-08,"Systems & Networking, Artificial Intelligence"
+"TAN Soon Huat, Gary",Associate Professor (Educator Track),gtan@comp.nus.edu.sg,651 66276,COM2-03-50,Systems & Networking
+TAN Kian Lee,Tan Sri Runme Shaw Senior Professor,tankl@comp.nus.edu.sg,651 62862,COM1-03-23,"Media, Computational Biology, Database"
+Robby TANtowi TAN,N/A,rttan@comp.nus.edu.sg,,,
+TAN Sun Teck,Associate Professor (Educator Track),tanst@comp.nus.edu.sg,651 62778,COM2-03-45,
+TAN Tiow Seng,Associate Professor,tants@comp.nus.edu.sg,651 66764,AS6-04-10,Media
+TAN Zhi Xuan,NUS Presidential Young Professor,tanzx@comp.nus.edu.sg,651 66737,COM2-03-25,"Artificial Intelligence, Programming Languages & Software Engineering"
+Y.C. TAY,Emeritus Professor,tayyc@comp.nus.edu.sg,651 68926,COM2-02-59,"Algorithms & Theory, Systems & Networking, Database"
+TUNG Kum Hoe Anthony,Professor,atung@comp.nus.edu.sg,651 66389,COM1-03-21,Database
+Jithin VACHERY,Lecturer (Educator Track),jithin@comp.nus.edu.sg,660 16656,COM3-02-38,"Computational Social Science, Database"
+Prasanna Karthik VAIRAM,Lecturer (Educator Track),prasanna@comp.nus.edu.sg,651 66122,AS6-04-20,"Security, Systems & Networking"
+Ambuj VARSHNEY,Assistant Professor,ambuj@comp.nus.edu.sg,651 67055,COM3-02-25,Systems & Networking
+Prashant Nalini VASUDEVAN,NUS Presidential Young Professor,prashant@comp.nus.edu.sg,660 16927,COM3-02-23,"Algorithms & Theory, Security"
+Bimlesh WADHWA,Associate Professor (Educator Track),bimlesh@comp.nus.edu.sg,651 62973,COM2-02-62,"Programming Languages & Software Engineering, Media"
+WANG Bohan,Assistant Professor,wangbh@comp.nus.edu.sg,651 66986,COM2-03-04,Media
+Jingxian WANG,NUS Presidential Young Professor,wangjx@comp.nus.edu.sg,651 65763,COM2-03-32,"Systems & Networking, Media, Artificial Intelligence"
+WANG Ye,Associate Professor,wangye@comp.nus.edu.sg,651 62980,AS6-04-08,Media
+Christian Von Der Weth,Senior Lecturer (Educator Track),chris@comp.nus.edu.sg,660 12414,COM3-02-45,Artificial Intelligence
+WONG Lim Soon,KITHCT Chair Professor,wongls@comp.nus.edu.sg,651 62902,COM2-03-57,"Computational Biology, Algorithms & Theory, Database"
+YAN Shuicheng,Distinguished Professor (Practice Track),yansc@comp.nus.edu.sg,651 63543,COM2-03-52,"Media, Artificial Intelligence"
+YAO Yingjie Angela,Dean's Chair Associate Professor,ayao@comp.nus.edu.sg,660 17948,COM3-02-26,"Artificial Intelligence, Media"
+"YAP Hock Chuan, Roland",Associate Professor,ryap@comp.nus.edu.sg,651 62972,COM2-03-09,"Artificial Intelligence, Security, Programming Languages & Software Engineering, Algorithms & Theory"
+Yang YOU,NUS Presidential Young Professor,youy@comp.nus.edu.sg,660 17698,COM3-02-51,"Artificial Intelligence, Systems & Networking"
+YU Haifeng,Dean's Chair Associate Professor,yuhf@comp.nus.edu.sg,651 66802,COM2-04-25,"Security, Algorithms & Theory, Systems & Networking"
+ZHANG Jiaheng,Assistant Professor,zhangjh@comp.nus.edu.sg,660 15482,COM2-03-08,"Security, Artificial Intelligence, Algorithms & Theory"
+Yang ZHANG,Professor,zhangy@comp.nus.edu.sg,660 11241,COM3-02-16,"Computational Biology, Artificial Intelligence"
+ZHAO Jin,Senior Lecturer (Educator Track),zhaojin@comp.nus.edu.sg,660 11083,COM2-02-10,
+ZHOU Lifeng,Senior Lecturer (Educator Track),zhoulife@comp.nus.edu.sg,651 64746,COM2-02-56,
+Roger ZIMMERMANN,Professor,rogerz@comp.nus.edu.sg,651 67949,AS6-05-05,Media

@@ -65,6 +65,14 @@ const priorityLabelMap: Record<LeadPriority, string> = {
   low: '低',
 };
 
+const stagePriorityMap: Record<LeadStage, LeadPriority> = {
+  新增: 'medium',
+  初次沟通: 'medium',
+  深度沟通: 'high',
+  合同拟定: 'high',
+  签约: 'high',
+};
+
 const channelAccentPalette: string[] = [
   'bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-300',
   'bg-indigo-100 text-indigo-600 dark:bg-indigo-900/30 dark:text-indigo-300',
@@ -81,6 +89,14 @@ const funnelStageDefinitions: Array<{ id: string; stage: LeadStage; name: string
   { id: 'stage-contract', stage: '合同拟定', name: '合同拟定', avgDuration: '4.1d' },
   { id: 'stage-sign', stage: '签约', name: '签约&收款', avgDuration: '6.4d' },
 ];
+
+const riskReminderMap: Record<string, LeadRecord['risk']> = {
+  high: '高风险',
+  medium_high: '需关注',
+  needs_attention: '需关注',
+  medium: '需关注',
+  low: undefined,
+};
 
 const formatDateTime = (isoString?: string | null) => {
   if (!isoString) return '暂无跟进记录';
@@ -101,13 +117,6 @@ const calculateDaysSince = (isoString?: string | null) => {
   }
   const diff = Date.now() - date.getTime();
   return Math.max(0, Math.floor(diff / (1000 * 60 * 60 * 24)));
-};
-
-const computeScore = (priority: LeadPriority, daysSinceLastContact: number, status: LeadStatus) => {
-  const base = priority === 'high' ? 88 : priority === 'medium' ? 76 : 62;
-  const recencyBonus = Number.isFinite(daysSinceLastContact) ? Math.max(0, 12 - daysSinceLastContact) : 4;
-  const statusBonus = status === 'converted' ? 6 : status === 'qualified' ? 3 : 0;
-  return Math.min(98, base + recencyBonus + statusBonus);
 };
 
 const resolveRisk = (daysSinceLastContact: number, priority: LeadPriority, status: LeadStatus): LeadRecord['risk'] => {
@@ -144,11 +153,14 @@ const transformLead = (
   const ownerName = Number.isFinite(ownerId) ? mentorNameById.get(ownerId) ?? `顾问 ${ownerId}` : '待分配';
   const daysSinceLastContact = calculateDaysSince(lead.lastContact);
   const stage = stageMapping[lead.status] ?? '新增';
-  const score = computeScore(lead.priority, daysSinceLastContact, lead.status);
-  const risk = resolveRisk(daysSinceLastContact, lead.priority, lead.status);
+  const inferredRisk = resolveRisk(daysSinceLastContact, lead.priority, lead.status);
+  const risk = lead.riskLevel ? riskReminderMap[lead.riskLevel] ?? inferredRisk : inferredRisk;
   const priorityTag = `优先级${priorityLabelMap[lead.priority]}`;
   const sourceTag = lead.source || '其他渠道';
   const notes = lead.notes?.trim() ?? '';
+  const nextAction = lead.nextAction?.trim() ?? '';
+  const campaignName = lead.campaign?.trim() || undefined;
+  const tagsFromLead = Array.isArray(lead.tags) ? lead.tags.map((tag) => tag.trim()).filter(Boolean) : [];
   const noteTags = notes
     ? notes
         .split(/[,，|｜；;、\n]/)
@@ -157,21 +169,24 @@ const transformLead = (
         .slice(0, 3)
     : [];
 
-  const tags = uniqueTags([serviceTypeName, priorityTag, sourceTag, ...noteTags]);
-  const projectName = serviceTypeName || (notes ? noteTags[0] : '') || '待确认项目';
+  const tagCandidates = [serviceTypeName, priorityTag, sourceTag, ...tagsFromLead, ...noteTags].filter(
+    (item): item is string => Boolean(item && item.trim().length > 0),
+  );
+  const tags = uniqueTags(tagCandidates);
+  const projectName = serviceTypeName || noteTags[0] || campaignName || '待确认项目';
 
   const record: LeadRecord = {
     id: lead.id,
     name: lead.name || '未命名线索',
+    avatar: lead.avatar,
     project: projectName,
     stage,
     owner: ownerName,
-    score,
     channel: lead.source || '其他渠道',
-    campaign: undefined,
+    campaign: campaignName,
     tags: tags.length ? tags : ['待整理'],
     lastTouch: formatDateTime(lead.lastContact),
-    nextAction: notes || '请在 24 小时内完成首次跟进。',
+    nextAction: nextAction || '待补充下一步动作',
     risk,
   };
 
@@ -329,26 +344,37 @@ const CRMLeadListPage: React.FC = () => {
     return metrics;
   }, [leadRows.length, quickFilterStats, funnelTotals.overallConversion]);
 
-  const hotLeads = useMemo<HotLead[]>(
-    () =>
-      leadRows.length === 0
-        ? []
-        : [...leadRows]
-            .sort((a, b) => b.score - a.score)
-            .slice(0, 3)
-            .map((lead) => ({
-              id: lead.id,
-              name: lead.name,
-              program: lead.project,
-              heatLevel: lead.score >= 85 ? '高' : lead.score >= 70 ? '中' : '低',
-              score: lead.score,
-              lastInteraction: lead.lastTouch,
-              owner: lead.owner,
-              recommendedAction: lead.nextAction,
-              tags: lead.tags.slice(0, 4),
-            })),
-    [leadRows],
-  );
+  const hotLeads = useMemo<HotLead[]>(() => {
+    if (!leadRows.length) return [];
+    const priorityWeight: Record<LeadPriority, number> = { high: 3, medium: 2, low: 1 };
+    return [...leadRows]
+      .sort((a, b) => {
+        const metaA = leadAnalytics[a.id];
+        const metaB = leadAnalytics[b.id];
+        const weightA = metaA ? priorityWeight[metaA.priority] ?? 0 : 0;
+        const weightB = metaB ? priorityWeight[metaB.priority] ?? 0 : 0;
+        if (weightA !== weightB) return weightB - weightA;
+        const daysA = metaA?.daysSinceLastContact ?? Number.POSITIVE_INFINITY;
+        const daysB = metaB?.daysSinceLastContact ?? Number.POSITIVE_INFINITY;
+        return daysA - daysB;
+      })
+      .slice(0, 3)
+      .map((lead) => {
+        const meta = leadAnalytics[lead.id];
+        const priority = meta?.priority ?? 'medium';
+        return {
+          id: lead.id,
+          name: lead.name,
+          program: lead.project,
+          heatLevel: priority === 'high' ? '高' : priority === 'medium' ? '中' : '低',
+          priorityLabel: `优先级${priorityLabelMap[priority]}`,
+          lastInteraction: lead.lastTouch,
+          owner: lead.owner,
+          recommendedAction: lead.nextAction && lead.nextAction.trim().length > 0 ? lead.nextAction : '待补充下一步动作',
+          tags: lead.tags.slice(0, 4),
+        };
+      });
+  }, [leadAnalytics, leadRows]);
 
   const channelShare = useMemo(() => {
     if (!leadRows.length) {
@@ -445,13 +471,17 @@ const CRMLeadListPage: React.FC = () => {
       projectValue.length > 0
         ? serviceTypes.find((type) => projectValue.includes(type.name) || type.name.includes(projectValue))
         : undefined;
-    const numericScore = Number(values.score);
-    const priority: LeadPriority = numericScore >= 85 ? 'high' : numericScore >= 70 ? 'medium' : 'low';
+    const priority: LeadPriority = stagePriorityMap[values.stage] ?? 'medium';
+    const trimmedNextAction = values.nextAction.trim();
+    const trimmedCampaign = values.campaign.trim();
+    const tags = values.tags
+      .split(/[,，\s]+/)
+      .map((tag) => tag.trim())
+      .filter(Boolean);
     const noteSegments: string[] = [];
     if (projectValue) noteSegments.push(`意向：${projectValue}`);
-    if (values.nextAction.trim()) noteSegments.push(values.nextAction.trim());
-    if (values.tags.trim()) noteSegments.push(`标签：${values.tags.trim()}`);
-    if (values.campaign.trim()) noteSegments.push(`活动：${values.campaign.trim()}`);
+    if (tags.length) noteSegments.push(`标签：${tags.join('、')}`);
+    if (trimmedCampaign) noteSegments.push(`活动：${trimmedCampaign}`);
     const notes = noteSegments.length ? noteSegments.join(' | ') : undefined;
 
     try {
@@ -462,6 +492,9 @@ const CRMLeadListPage: React.FC = () => {
         interest: matchedServiceType ? String(matchedServiceType.id) : undefined,
         assigned_to: matchedMentor ? String(matchedMentor.id) : undefined,
         notes,
+        nextAction: trimmedNextAction || undefined,
+        campaign: trimmedCampaign || undefined,
+        tags,
       });
 
       const targetStatus = stageToStatusMap[values.stage];

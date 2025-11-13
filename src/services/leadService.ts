@@ -15,6 +15,9 @@ const transformDbToFrontend = (dbLead: Record<string, unknown>): Lead => {
   // 意向项目ID和顾问ID直接转换为字符串，名称将在显示时通过查询确定
   const interestId = dbLead.interest as number;
   const assignedToId = dbLead.assigned_to as number;
+  const tagsArray = Array.isArray(dbLead.tags)
+    ? (dbLead.tags as unknown[]).map((tag) => String(tag ?? '')).filter((tag) => tag.trim().length > 0)
+    : [];
   
   return {
     id: String(dbLead.id || ''),
@@ -30,6 +33,10 @@ const transformDbToFrontend = (dbLead: Record<string, unknown>): Lead => {
     assignedTo: String(assignedToId || ''),  // 存储ID，显示时查询名称
     notes: String(dbLead.notes || ''),
     priority: priority as LeadPriority,
+    campaign: dbLead.campaign ? String(dbLead.campaign) : undefined,
+    nextAction: dbLead.next_action ? String(dbLead.next_action) : undefined,
+    tags: tagsArray.length ? tagsArray : undefined,
+    riskLevel: dbLead.risk_level ? (dbLead.risk_level as string) : undefined,
     createdAt: dbLead.created_at ? String(dbLead.created_at) : undefined,
     updatedAt: dbLead.updated_at ? String(dbLead.updated_at) : undefined,
     gender: dbLead.gender ? String(dbLead.gender) : undefined,  // 添加性别
@@ -269,6 +276,10 @@ export const leadService = {
     assignedTo?: string;
     priority: string | LeadPriority;
     notes?: string;
+    campaign?: string;
+    nextAction?: string;
+    tags?: string[];
+    riskLevel?: string;
     gender?: string;    // 性别
     date?: string;      // 接入日期 
   }): Promise<Lead> {
@@ -277,7 +288,7 @@ export const leadService = {
       const currentDate = new Date().toISOString().split('T')[0];
       
       // 转换前端表单数据为数据库格式
-      const { assigned_to, assignedTo, interest, priority, ...rest } = lead;
+      const { assigned_to, assignedTo, interest, priority, nextAction, campaign, tags, riskLevel, ...rest } = lead;
       
       // 确保priority是有效的LeadPriority
       let priorityValue = priority as string;
@@ -287,6 +298,10 @@ export const leadService = {
       
       // 处理兼容性：使用assigned_to或assignedTo
       const assignedToValue = assigned_to !== undefined ? assigned_to : assignedTo;
+      const tagsArray = Array.isArray(tags) ? tags.filter((tag) => tag && tag.trim().length > 0).map((tag) => tag.trim()) : undefined;
+      const riskLevelValue = riskLevel ? String(riskLevel) : undefined;
+      const nextActionValue = nextAction && nextAction.trim().length > 0 ? nextAction.trim() : undefined;
+      const campaignValue = campaign && campaign.trim().length > 0 ? campaign.trim() : undefined;
       
       const dbLeadData: Partial<LeadDB> = {
         ...rest,
@@ -296,7 +311,11 @@ export const leadService = {
         date: lead.date || currentDate,  // 使用传入的日期或当前日期
         last_contact: currentDate,
         status: 'new' as LeadStatus,
-        avatar_url: `https://api.dicebear.com/7.x/lorelei/svg?seed=${lead.name}`
+        avatar_url: `https://api.dicebear.com/7.x/lorelei/svg?seed=${lead.name}`,
+        next_action: nextActionValue,
+        campaign: campaignValue,
+        tags: tagsArray,
+        risk_level: riskLevelValue,
       };
       
       const { data, error } = await supabase
@@ -321,14 +340,19 @@ export const leadService = {
   async updateLead(id: string, lead: Partial<Lead>): Promise<Lead> {
     try {
       // 转换前端数据为数据库格式
-      const { assignedTo, interest, lastContact, avatar, ...rest } = lead;
+      const { assignedTo, interest, lastContact, avatar, nextAction, campaign, tags, riskLevel, ...rest } = lead;
+      const tagsArray = Array.isArray(tags) ? tags.filter((tag) => tag && tag.trim().length > 0).map((tag) => tag.trim()) : undefined;
       
       const dbUpdateData: Partial<LeadDB> = {
         ...rest,
         ...(assignedTo !== undefined ? { assigned_to: parseInt(assignedTo, 10) || null } : {}),
         ...(interest !== undefined ? { interest: parseInt(interest, 10) || null } : {}),
         ...(lastContact !== undefined ? { last_contact: lastContact } : {}),
-        ...(avatar !== undefined ? { avatar_url: avatar } : {})
+        ...(avatar !== undefined ? { avatar_url: avatar } : {}),
+        ...(nextAction !== undefined ? { next_action: nextAction } : {}),
+        ...(campaign !== undefined ? { campaign } : {}),
+        ...(tagsArray !== undefined ? { tags: tagsArray } : {}),
+        ...(riskLevel !== undefined ? { risk_level: riskLevel } : {}),
       };
       
       const { data, error } = await supabase

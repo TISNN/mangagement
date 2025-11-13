@@ -5,10 +5,10 @@ export type LeadStage = '新增' | '初次沟通' | '深度沟通' | '合同拟�
 export interface LeadRecord {
   id: string;
   name: string;
+  avatar?: string;
   project: string;
   stage: LeadStage;
   owner: string;
-  score: number;
   channel: string;
   campaign?: string;
   tags: string[];
@@ -66,11 +66,11 @@ export interface HotLead {
   name: string;
   program: string;
   heatLevel: '高' | '中' | '低';
-  score: number;
   lastInteraction: string;
   owner: string;
   recommendedAction: string;
   tags: string[];
+  priorityLabel: string;
 }
 
 export interface ActionItemGroup {
@@ -170,7 +170,6 @@ export interface LeadFormValues {
   project: string;
   stage: LeadStage;
   owner: string;
-  score: string;
   channel: string;
   campaign: string;
   tags: string;

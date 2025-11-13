@@ -61,7 +61,7 @@ const LeadOverviewTab: React.FC<LeadOverviewTabProps> = ({
 }) => {
   return (
     <>
-      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
         {kpiMetrics.map((item) => (
           <div key={item.id} className="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800/60">
             <div className="flex items-center justify-between text-sm text-gray-500 dark:text-gray-400">
@@ -269,11 +269,11 @@ const LeadOverviewTab: React.FC<LeadOverviewTabProps> = ({
         <div className={`${crmTheme.cardBase} xl:col-span-2`}>
           <div className="flex items-center justify-between">
             <div>
-              <h2 className={crmTheme.sectionTitle}>AI 热度优先级</h2>
-              <p className={crmTheme.sectionDescription}>结合互动频次、意向程度与财务能力生成热度与推荐动作。</p>
+              <h2 className={crmTheme.sectionTitle}>重点线索推荐</h2>
+              <p className={crmTheme.sectionDescription}>结合阶段、互动频次与风险等级，生成建议优先跟进的线索清单。</p>
             </div>
             <button className="inline-flex items-center gap-1 rounded-lg border border-gray-200 px-2.5 py-1 text-xs text-gray-600 hover:border-blue-200 hover:text-blue-600 dark:border-gray-600 dark:text-gray-300 dark:hover:border-blue-500 dark:hover:text-blue-300">
-              <Sparkles className="h-3.5 w-3.5" /> 查看评分模型
+              <Sparkles className="h-3.5 w-3.5" /> 优先级设置
             </button>
           </div>
 
@@ -285,7 +285,7 @@ const LeadOverviewTab: React.FC<LeadOverviewTabProps> = ({
                     <div className="flex items-center gap-2">
                       <span className="text-sm font-semibold text-gray-900 dark:text-white">{lead.name}</span>
                       <span className={`inline-flex items-center rounded-full px-2 py-0.5 text-[10px] font-semibold ${heatBadgeMap[lead.heatLevel]}`}>
-                        热度 {lead.heatLevel}
+                        关注度 {lead.heatLevel}
                       </span>
                     </div>
                     <div className="mt-1 text-xs text-gray-500 dark:text-gray-400">{lead.program}</div>
@@ -298,8 +298,9 @@ const LeadOverviewTab: React.FC<LeadOverviewTabProps> = ({
                     </div>
                   </div>
                   <div className="text-right">
-                    <div className="text-xl font-semibold text-blue-600 dark:text-blue-300">{lead.score}</div>
-                    <div className="mt-1 text-xs text-gray-400 dark:text-gray-500">AI LQA 评分</div>
+                    <span className="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-[11px] font-semibold text-blue-600 dark:bg-blue-900/30 dark:text-blue-200">
+                      {lead.priorityLabel || '优先级中'}
+                    </span>
                   </div>
                 </div>
                 <div className="mt-3 flex flex-wrap items-center gap-3 text-xs text-gray-500 dark:text-gray-400">

@@ -26,7 +26,6 @@ const INITIAL_VALUES: LeadFormValues = {
   project: '',
   stage: LEAD_STAGE_OPTIONS[0],
   owner: '',
-  score: '75',
   channel: '',
   campaign: '',
   tags: '',
@@ -118,19 +117,6 @@ const CreateLeadDialog: React.FC<CreateLeadDialogProps> = ({ open, onOpenChange,
                 value={formValues.owner}
                 onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
                   setFormValues((prev) => ({ ...prev, owner: event.target.value }))
-                }
-              />
-            </div>
-            <div className="space-y-2">
-              <Label htmlFor="lead-score">AI 评分</Label>
-              <Input
-                id="lead-score"
-                type="number"
-                min={0}
-                max={100}
-                value={formValues.score}
-                onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
-                  setFormValues((prev) => ({ ...prev, score: event.target.value }))
                 }
               />
             </div>

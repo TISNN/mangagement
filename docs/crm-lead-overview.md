@@ -63,7 +63,7 @@ Lead Overview
 | 获取漏斗摘要 | GET | `/api/crm/leads/funnel` | 返回各阶段数量、转化率、平均停留时长 |
 | 获取阶段明细 | GET | `/api/crm/leads?stage=...` | 支持过滤、排序、分页 |
 | 获取渠道分析 | GET | `/api/crm/leads/channels` | 渠道、活动、地域维度统计 |
-| 获取 AI 热度列表 | GET | `/api/crm/leads/priority` | 返回热度排序、推荐动作 |
+| 获取重点线索列表 | GET | `/api/crm/leads/priority` | 返回优先级排序、推荐动作 |
 | 批量指派线索 | POST | `/api/crm/leads/assign` | body 含 lead_ids、owner_id |
 | 创建批量动作 | POST | `/api/crm/leads/actions` | 批量发送邮件/短信/任务 |
 | 设置 SLA 规则 | POST | `/api/crm/leads/sla-config` | 定义响应时限、提醒策略 |

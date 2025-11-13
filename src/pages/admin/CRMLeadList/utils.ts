@@ -26,12 +26,6 @@ export const stageColorMap: Record<LeadRecord['stage'], string> = {
   签约: 'bg-emerald-100 text-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-300',
 };
 
-export const scoreColor = (score: number) => {
-  if (score >= 85) return 'text-emerald-600 dark:text-emerald-300';
-  if (score >= 70) return 'text-blue-600 dark:text-blue-300';
-  return 'text-gray-500 dark:text-gray-400';
-};
-
 export const trendIndicator = (type: 'up' | 'down' | 'stable') => {
   if (type === 'up') return React.createElement(ArrowUpRight, { className: 'h-4 w-4 text-emerald-500' });
   if (type === 'down') return React.createElement(ArrowDownRight, { className: 'h-4 w-4 text-red-500' });

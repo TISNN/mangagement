@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Alert, AlertDescription } from '@/components/ui/alert';
-import { AlertCircle, Loader2 } from 'lucide-react';
+import { AlertCircle, Loader2, UserPlus } from 'lucide-react';
 import DoctoralFiltersPanel from './components/DoctoralFiltersPanel';
 import ProfessorGrid from './components/ProfessorGrid';
 import MatchInsightsPanel from './components/MatchInsightsPanel';
@@ -20,11 +20,15 @@ import {
 } from '@/services/professorDirectoryService';
 import { FundingIntensity, ProfessorFilterOptions, ProfessorProfile, SortMode } from './types';
 import { useAuth } from '@/context/AuthContext';
+import { Button } from '@/components/ui/button';
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 
 type FeedbackState = {
   message: string;
   variant: 'success' | 'info' | 'error';
 } | null;
+
+const LAST_PROFESSOR_TOTAL_KEY = 'professor-directory:last-total-count';
 
 const ProfessorDirectoryPage: React.FC = () => {
   const navigate = useNavigate();
@@ -47,9 +51,13 @@ const ProfessorDirectoryPage: React.FC = () => {
   const [professors, setProfessors] = useState<ProfessorProfile[]>([]);
   const [listLoading, setListLoading] = useState(false);
   const [listError, setListError] = useState<string | null>(null);
+  const [totalCount, setTotalCount] = useState(0);
+  const [currentPage, setCurrentPage] = useState(1);
+  const PAGE_SIZE = 30;
 
   const [favoriteIds, setFavoriteIds] = useState<number[]>([]);
   const [favoriteProfiles, setFavoriteProfiles] = useState<ProfessorProfile[]>([]);
+  const [favoritesPanelOpen, setFavoritesPanelOpen] = useState(false);
 
   const professorCacheRef = useRef<Map<number, ProfessorProfile>>(new Map());
 
@@ -58,6 +66,8 @@ const ProfessorDirectoryPage: React.FC = () => {
   const [studentOptions, setStudentOptions] = useState<StudentMatchOption[]>([]);
 
   const [feedback, setFeedback] = useState<FeedbackState>(null);
+  const [updateDialogOpen, setUpdateDialogOpen] = useState(false);
+  const [newProfessorCount, setNewProfessorCount] = useState(0);
 
   useEffect(() => {
     if (authLoading) {
@@ -116,7 +126,7 @@ const ProfessorDirectoryPage: React.FC = () => {
     return () => {
       active = false;
     };
-  }, [employeeId]);
+  }, [authLoading, employeeId]);
 
   const pruneSelections = useCallback(
     (nextCountries: string[], options: ProfessorFilterOptions | null) => {
@@ -143,6 +153,19 @@ const ProfessorDirectoryPage: React.FC = () => {
   }, [selectedCountries, filterOptions, pruneSelections]);
 
   useEffect(() => {
+    setCurrentPage(1);
+  }, [
+    searchTerm,
+    selectedCountries,
+    selectedUniversities,
+    selectedResearchTags,
+    selectedFundingTypes,
+    selectedIntakes,
+    onlyInternational,
+    sortMode,
+  ]);
+
+  useEffect(() => {
     if (authLoading) {
       return;
     }
@@ -158,12 +181,15 @@ const ProfessorDirectoryPage: React.FC = () => {
       intakes: selectedIntakes,
       onlyInternational,
       sortMode,
+      page: currentPage,
+      pageSize: PAGE_SIZE,
     })
-      .then((rows) => {
+      .then(({ profiles, total }) => {
         if (!active) return;
-        setProfessors(rows);
+        setProfessors(profiles);
+        setTotalCount(total);
         const cache = professorCacheRef.current;
-        rows.forEach((profile) => cache.set(profile.id, profile));
+        profiles.forEach((profile) => cache.set(profile.id, profile));
       })
       .catch((error) => {
         console.error('[ProfessorDirectory] 获取教授列表失败', error);
@@ -173,7 +199,26 @@ const ProfessorDirectoryPage: React.FC = () => {
     return () => {
       active = false;
     };
-  }, [authLoading, searchTerm, selectedCountries, selectedUniversities, selectedResearchTags, selectedFundingTypes, selectedIntakes, onlyInternational, sortMode]);
+  }, [
+    authLoading,
+    searchTerm,
+    selectedCountries,
+    selectedUniversities,
+    selectedResearchTags,
+    selectedFundingTypes,
+    selectedIntakes,
+    onlyInternational,
+    sortMode,
+    currentPage,
+    PAGE_SIZE,
+  ]);
+
+  useEffect(() => {
+    const totalPages = Math.max(1, Math.ceil(totalCount / PAGE_SIZE));
+    if (currentPage > totalPages) {
+      setCurrentPage(totalPages);
+    }
+  }, [totalCount, currentPage, PAGE_SIZE]);
 
   useEffect(() => {
     if (authLoading) {
@@ -318,32 +363,9 @@ const ProfessorDirectoryPage: React.FC = () => {
     [employeeId],
   );
 
-  const handleExport = useCallback(() => {
-    if (professors.length === 0) {
-      setFeedback({ message: '当前筛选没有可导出的教授，请调整条件。', variant: 'info' });
-      return;
-    }
-    const rows = professors.map((profile) => ({
-      名称: profile.name,
-      院校: profile.university,
-      招生状态: profile.phdSupervisionStatus,
-      入学季: profile.intake,
-      研究方向: profile.researchTags.join(' / '),
-      奖学金: profile.fundingOptions.map((option) => option.type).join(' / '),
-    }));
-    const csvHeader = Object.keys(rows[0]).join(',');
-    const csvBody = rows
-      .map((row) => Object.values(row).map((value) => `"${String(value).replace(/"/g, '""')}"`).join(','))
-      .join('\n');
-    const blob = new Blob([`${csvHeader}\n${csvBody}`], { type: 'text/csv;charset=utf-8;' });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `教授筛选_${new Date().toISOString().slice(0, 10)}.csv`;
-    link.click();
-    URL.revokeObjectURL(url);
-    setFeedback({ message: '已导出当前筛选结果，文件下载成功。', variant: 'success' });
-  }, [professors]);
+  const handleToggleFavoritesPanel = useCallback(() => {
+    setFavoritesPanelOpen((prev) => !prev);
+  }, []);
 
   const handleSavePreset = useCallback(() => {
     const presetName = `导师筛选-${new Date().toISOString().slice(0, 10)}`;
@@ -417,11 +439,64 @@ const ProfessorDirectoryPage: React.FC = () => {
     return Array.from(combined).sort((a, b) => a.localeCompare(b));
   }, [filterOptions, selectedCountries]);
 
+  const isDefaultView = useMemo(() => {
+    return (
+      searchTerm.trim() === '' &&
+      selectedCountries.length === 0 &&
+      selectedUniversities.length === 0 &&
+      selectedResearchTags.length === 0 &&
+      selectedFundingTypes.length === 0 &&
+      selectedIntakes.length === 0 &&
+      onlyInternational === true &&
+      sortMode === 'matchScore' &&
+      currentPage === 1
+    );
+  }, [
+    searchTerm,
+    selectedCountries,
+    selectedUniversities,
+    selectedResearchTags,
+    selectedFundingTypes,
+    selectedIntakes,
+    onlyInternational,
+    sortMode,
+    currentPage,
+  ]);
+
   const favoriteIdSet = useMemo(() => new Set(favoriteIds), [favoriteIds]);
 
+  useEffect(() => {
+    if (authLoading || listLoading) return;
+    if (!isDefaultView) return;
+    if (typeof window === 'undefined') return;
+
+    const currentTotal = totalCount;
+    if (currentTotal <= 0) return;
+
+    const storedValue = window.localStorage.getItem(LAST_PROFESSOR_TOTAL_KEY);
+    if (storedValue === null) {
+      window.localStorage.setItem(LAST_PROFESSOR_TOTAL_KEY, String(currentTotal));
+      return;
+    }
+
+    const previousTotal = Number(storedValue);
+    if (Number.isNaN(previousTotal)) {
+      window.localStorage.setItem(LAST_PROFESSOR_TOTAL_KEY, String(currentTotal));
+      return;
+    }
+
+    if (currentTotal > previousTotal) {
+      setNewProfessorCount(currentTotal - previousTotal);
+      setUpdateDialogOpen(true);
+    }
+
+    window.localStorage.setItem(LAST_PROFESSOR_TOTAL_KEY, String(currentTotal));
+  }, [authLoading, listLoading, totalCount, isDefaultView]);
+
   const insights = useMemo(() => {
-    const total = professors.length;
-    if (total === 0) {
+    const total = totalCount;
+    const visibleCount = professors.length;
+    if (total === 0 || visibleCount === 0) {
       return {
         total,
         averageMatchScore: 0,
@@ -432,14 +507,14 @@ const ProfessorDirectoryPage: React.FC = () => {
     }
 
     const averageMatchScore = Math.round(
-      professors.reduce((sum, profile) => sum + (profile.matchScore ?? 0), 0) / total,
+      professors.reduce((sum, profile) => sum + (profile.matchScore ?? 0), 0) / visibleCount,
     );
     const internationalRatio =
-      professors.filter((profile) => profile.acceptsInternationalStudents).length / total;
+      professors.filter((profile) => profile.acceptsInternationalStudents).length / visibleCount;
     const fullFundingRatio =
       professors.filter((profile) =>
         profile.fundingOptions.some((option) => option.type === '全额奖学金'),
-      ).length / total;
+      ).length / visibleCount;
     const nearestDeadlineProfile = [...professors].sort(
       (a, b) => new Date(a.applicationWindow.end).getTime() - new Date(b.applicationWindow.end).getTime(),
     )[0];
@@ -451,7 +526,24 @@ const ProfessorDirectoryPage: React.FC = () => {
       fullFundingRatio,
       nearestDeadline: nearestDeadlineProfile?.applicationWindow.end,
     };
-  }, [professors]);
+  }, [professors, totalCount]);
+
+  const totalPages = Math.max(1, Math.ceil(totalCount / PAGE_SIZE));
+  const pageStart = totalCount === 0 ? 0 : (currentPage - 1) * PAGE_SIZE + 1;
+  const pageEnd = totalCount === 0 ? 0 : Math.min(totalCount, currentPage * PAGE_SIZE);
+
+  const handlePageChange = useCallback(
+    (delta: number) => {
+      setCurrentPage((prev) => {
+        const next = prev + delta;
+        if (next < 1 || next > totalPages) {
+          return prev;
+        }
+        return next;
+      });
+    },
+    [totalPages],
+  );
 
   if (authLoading) {
     return (
@@ -480,12 +572,12 @@ const ProfessorDirectoryPage: React.FC = () => {
     <div className="space-y-8 pb-16">
       <header className="relative overflow-hidden rounded-3xl text-white shadow-sm">
         <img
-          src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1600&q=80"
-          alt="International collaboration"
+          src="https://images.unsplash.com/photo-1531972111231-7482a960e109?auto=format&fit=crop&w=1600&q=80"
+          alt="Flowith 2025 春季招募"
           className="absolute inset-0 h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-indigo-900/85 via-indigo-900/65 to-indigo-800/70" />
-        <div className="relative flex flex-col gap-4 p-8 lg:flex-row lg:items-center lg:justify-between">
+        <div className="absolute inset-0 bg-gradient-to-br from-black/75 via-black/35 to-transparent" />
+        <div className="relative flex flex-col gap-4 p-14 lg:flex-row lg:items-center lg:justify-between">
           <div>
             <p className="text-xs uppercase tracking-wide text-indigo-200">博士申请 · 导师匹配中心</p>
             <h1 className="mt-2 text-2xl font-semibold">全球教授库</h1>
@@ -551,7 +643,7 @@ const ProfessorDirectoryPage: React.FC = () => {
         researchTagsLimit={8}
       />
 
-      <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_320px]">
+      <div className={`grid gap-6 ${favoritesPanelOpen ? 'lg:grid-cols-[minmax(0,1fr)_320px]' : ''}`}>
         <div className="space-y-6">
           <MatchInsightsPanel
             total={insights.total}
@@ -559,7 +651,8 @@ const ProfessorDirectoryPage: React.FC = () => {
             internationalRatio={insights.internationalRatio}
             fullFundingRatio={insights.fullFundingRatio}
             nearestDeadline={insights.nearestDeadline}
-            onExport={handleExport}
+            onToggleFavorites={handleToggleFavoritesPanel}
+            favoritesPanelOpen={favoritesPanelOpen}
             onSavePreset={handleSavePreset}
           />
 
@@ -586,10 +679,63 @@ const ProfessorDirectoryPage: React.FC = () => {
               onOpenMatch={handleOpenMatch}
             />
           )}
+
+        <div className="flex flex-col gap-3 rounded-2xl border border-gray-200 bg-white p-4 text-sm text-gray-600 dark:border-gray-700 dark:bg-gray-900/60 dark:text-gray-300 sm:flex-row sm:items-center sm:justify-between">
+          <span className="text-xs text-gray-500 dark:text-gray-400 sm:text-sm">
+            共 {totalCount} 位教授 · 当前显示 {pageStart}-{pageEnd}
+          </span>
+          <div className="flex flex-wrap items-center gap-2">
+            <Button
+              variant="outline"
+              size="sm"
+              disabled={currentPage === 1}
+              onClick={() => handlePageChange(-1)}
+              className="border-gray-200 text-gray-600 hover:bg-gray-100 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-800"
+            >
+              上一页
+            </Button>
+            <span className="min-w-[88px] text-center text-xs font-medium text-gray-500 dark:text-gray-400">
+              第 {totalCount === 0 ? 0 : currentPage} / {totalCount === 0 ? 0 : totalPages} 页
+            </span>
+            <Button
+              variant="outline"
+              size="sm"
+              disabled={currentPage >= totalPages || totalCount === 0}
+              onClick={() => handlePageChange(1)}
+              className="border-gray-200 text-gray-600 hover:bg-gray-100 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-800"
+            >
+              下一页
+            </Button>
+          </div>
+        </div>
         </div>
 
-        <ShortlistPanel shortlist={favoriteProfiles} onRemove={handleRemoveFavorite} onOpenMatch={handleOpenMatch} />
+        {favoritesPanelOpen && (
+          <ShortlistPanel shortlist={favoriteProfiles} onRemove={handleRemoveFavorite} onOpenMatch={handleOpenMatch} />
+        )}
       </div>
+
+      <Dialog open={updateDialogOpen && newProfessorCount > 0} onOpenChange={setUpdateDialogOpen}>
+        <DialogContent className="w-full max-w-lg rounded-2xl border border-indigo-100 bg-white p-0 shadow-xl dark:border-indigo-500/40 dark:bg-gray-900 sm:max-w-xl">
+          <DialogHeader className="space-y-3 px-6 pt-6 text-left">
+            <DialogTitle className="flex items-center gap-3 px-2 text-lg font-semibold text-gray-900 dark:text-white">
+              <span className="flex h-10 w-10 items-center justify-center rounded-full bg-indigo-100 text-indigo-600 dark:bg-indigo-500/20 dark:text-indigo-200">
+                <UserPlus className="h-5 w-5" />
+              </span>
+              教授库有新伙伴
+            </DialogTitle>
+            <DialogDescription className="px-1 text-sm leading-relaxed text-gray-500 dark:text-gray-300">
+              自上次访问以来，教授库里又新增了 <span className="font-semibold text-indigo-600 dark:text-indigo-200">{newProfessorCount}</span>{' '}
+              位教授。快去看看是否有适合当前学生的匹配人选。
+            </DialogDescription>
+          </DialogHeader>
+          <DialogFooter className="px-6 pb-6">
+            <Button className="w-full bg-indigo-600 text-white hover:bg-indigo-500 dark:bg-indigo-500 dark:hover:bg-indigo-400" onClick={() => setUpdateDialogOpen(false)}>
+              好的，马上查看
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
 
       <ProfessorMatchDrawer
         open={matchDrawerOpen}

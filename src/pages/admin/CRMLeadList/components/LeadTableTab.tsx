@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import {
   AlertTriangle,
   CheckCircle2,
@@ -13,11 +14,12 @@ import {
   Search,
   Sparkles,
   Tag,
+  UserCircle,
   UserPlus,
 } from 'lucide-react';
 
 import type { LeadRecord, LeadTableViewMode, QuickFilter } from '../types';
-import { scoreColor, stageColorMap } from '../utils';
+import { stageColorMap } from '../utils';
 import LeadStageKanban from './LeadStageKanban';
 
 interface LeadTableTabProps {
@@ -30,6 +32,7 @@ interface LeadTableTabProps {
 }
 
 const LeadTableTab: React.FC<LeadTableTabProps> = ({ quickFilters, leads, syncedLeads, onCreateStudent, viewMode, onChangeView }) => {
+  const navigate = useNavigate();
   const renderToolbar = () => (
     <div className="flex flex-wrap items-center justify-between gap-3">
       <div className="flex flex-wrap items-center gap-2">
@@ -122,7 +125,6 @@ const LeadTableTab: React.FC<LeadTableTabProps> = ({ quickFilters, leads, synced
                 <th className="px-5 py-3 text-left font-medium">意向项目</th>
                 <th className="px-5 py-3 text-left font-medium">阶段</th>
                 <th className="px-5 py-3 text-left font-medium">负责人</th>
-                <th className="px-5 py-3 text-left font-medium">AI 评分</th>
                 <th className="px-5 py-3 text-left font-medium">渠道</th>
                 <th className="px-5 py-3 text-left font-medium">最近跟进</th>
                 <th className="px-5 py-3 text-left font-medium">下一步动作</th>
@@ -131,18 +133,42 @@ const LeadTableTab: React.FC<LeadTableTabProps> = ({ quickFilters, leads, synced
             </thead>
             <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
               {leads.map((lead) => (
-                <tr key={lead.id} className="hover:bg-gray-50 dark:hover:bg-gray-800">
-                  <td className="px-5 py-4">
+                <tr
+                  key={lead.id}
+                  className="cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800"
+                  onClick={() => navigate(`/admin/leads/${lead.id}`)}
+                >
+                  <td className="px-5 py-4" onClick={(event) => event.stopPropagation()}>
                     <input type="checkbox" className="h-4 w-4 rounded border-gray-300" />
                   </td>
                   <td className="px-5 py-4">
-                    <div className="font-semibold text-gray-900 dark:text-white">{lead.name}</div>
-                    <div className="mt-1 flex flex-wrap gap-1 text-[11px] text-blue-500 dark:text-blue-300">
-                      {lead.tags.map((tag) => (
-                        <span key={tag} className="inline-flex items-center gap-1 rounded-full bg-blue-50 px-2 py-0.5 dark:bg-blue-900/30">
-                          <Tag className="h-3 w-3" /> {tag}
-                        </span>
-                      ))}
+                    <div className="flex items-start gap-3">
+                      <div className="relative h-10 w-10 flex-shrink-0 overflow-hidden rounded-lg border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-700">
+                        {lead.avatar ? (
+                          <img
+                            src={lead.avatar}
+                            alt={lead.name}
+                            className="h-full w-full object-cover"
+                            onError={(event) => {
+                              event.currentTarget.style.display = 'none';
+                            }}
+                          />
+                        ) : (
+                          <div className="flex h-full w-full items-center justify-center">
+                            <UserCircle className="h-6 w-6 text-gray-400 dark:text-gray-500" />
+                          </div>
+                        )}
+                      </div>
+                      <div>
+                        <div className="font-semibold text-gray-900 dark:text-white">{lead.name}</div>
+                        <div className="mt-1 flex flex-wrap gap-1 text-[11px] text-blue-500 dark:text-blue-300">
+                          {lead.tags.map((tag) => (
+                            <span key={tag} className="inline-flex items-center gap-1 rounded-full bg-blue-50 px-2 py-0.5 dark:bg-blue-900/30">
+                              <Tag className="h-3 w-3" /> {tag}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
                     </div>
                   </td>
                   <td className="px-5 py-4 text-xs text-gray-500 dark:text-gray-400">{lead.project}</td>
@@ -152,7 +178,6 @@ const LeadTableTab: React.FC<LeadTableTabProps> = ({ quickFilters, leads, synced
                     </span>
                   </td>
                   <td className="px-5 py-4 text-xs text-gray-500 dark:text-gray-400">{lead.owner}</td>
-                  <td className={`px-5 py-4 text-xs font-semibold ${scoreColor(lead.score)}`}>{lead.score}</td>
                   <td className="px-5 py-4 text-xs text-gray-500 dark:text-gray-400">
                     <div>{lead.channel}</div>
                     {lead.campaign && <div className="text-[11px] text-gray-400 dark:text-gray-500">{lead.campaign}</div>}
@@ -166,7 +191,10 @@ const LeadTableTab: React.FC<LeadTableTabProps> = ({ quickFilters, leads, synced
                       </div>
                     )}
                   </td>
-                  <td className="px-5 py-4 text-right text-xs text-gray-500 dark:text-gray-400">
+                  <td
+                    className="px-5 py-4 text-right text-xs text-gray-500 dark:text-gray-400"
+                    onClick={(event) => event.stopPropagation()}
+                  >
                     <button className="inline-flex items-center gap-1 rounded-lg border border-gray-200 px-2.5 py-1 hover:border-blue-200 hover:text-blue-600 dark:border-gray-600 dark:hover:border-blue-500 dark:hover:text-blue-300">
                       <PhoneCall className="h-3.5 w-3.5" /> 跟进
                     </button>

@@ -26,12 +26,19 @@ import {
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Alert, AlertDescription } from '@/components/ui/alert';
-import { ProfessorProfile } from './types';
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from '@/components/ui/dialog';
+import { Input } from '@/components/ui/input';
+import { Label } from '@/components/ui/label';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { ProfessorProfile, SchoolInfo } from './types';
 import {
   fetchProfessorDetail,
   fetchProfessorFavorites,
   addProfessorFavorite,
   removeProfessorFavorite,
+  fetchSchoolById,
+  updateProfessorProfile,
+  deleteProfessor,
 } from '@/services/professorDirectoryService';
 import { useAuth } from '@/context/AuthContext';
 import ProfessorMatchDrawer from './components/ProfessorMatchDrawer';
@@ -43,10 +50,25 @@ const getProfessorAvatar = (profile: ProfessorProfile) => {
   return `https://api.dicebear.com/7.x/initials/svg?seed=${seed}&fontWeight=600&backgroundType=gradientLinear`;
 };
 
+const getSchoolLogo = (profile: ProfessorProfile) => {
+  if (profile.school?.logoUrl) return profile.school.logoUrl;
+  return null;
+};
+
 type FeedbackState = {
   message: string;
   variant: 'success' | 'info' | 'error';
 } | null;
+
+type EditFormState = {
+  primaryTitle: string;
+  contactEmail: string;
+  contactPhone: string;
+  personalPage: string;
+  phdSupervisionStatus: string;
+  acceptsInternationalStudents: boolean;
+  internalNotes: string;
+};
 
 const ProfessorDetailPage: React.FC = () => {
   const { professorId } = useParams<{ professorId: string }>();
@@ -62,11 +84,38 @@ const ProfessorDetailPage: React.FC = () => {
   const [favoriteIds, setFavoriteIds] = useState<number[]>([]);
   const [favoritesLoading, setFavoritesLoading] = useState(true);
   const [favoriteProfiles, setFavoriteProfiles] = useState<ProfessorProfile[]>([]);
+  const [favoriteSchoolMap, setFavoriteSchoolMap] = useState<Record<number, SchoolInfo>>({});
 
   const [matchDrawerOpen, setMatchDrawerOpen] = useState(false);
   const [matchProfessor, setMatchProfessor] = useState<ProfessorProfile | null>(null);
   const [studentOptions] = useState<StudentMatchOption[]>([]);
   const [favoritesPanelOpen, setFavoritesPanelOpen] = useState(false);
+  const [editDialogOpen, setEditDialogOpen] = useState(false);
+  const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
+  const [editLoading, setEditLoading] = useState(false);
+  const [deleteLoading, setDeleteLoading] = useState(false);
+  const [editForm, setEditForm] = useState<EditFormState>({
+    primaryTitle: '',
+    contactEmail: '',
+    contactPhone: '',
+    personalPage: '',
+    phdSupervisionStatus: '',
+    acceptsInternationalStudents: false,
+    internalNotes: '',
+  });
+
+  useEffect(() => {
+    if (!professor) return;
+    setEditForm({
+      primaryTitle: professor.primaryTitle ?? '',
+      contactEmail: professor.contactEmail ?? '',
+      contactPhone: professor.contactPhone ?? '',
+      personalPage: professor.personalPage ?? '',
+      phdSupervisionStatus: professor.phdSupervisionStatus ?? '',
+      acceptsInternationalStudents: professor.acceptsInternationalStudents ?? false,
+      internalNotes: professor.internalNotes ?? '',
+    });
+  }, [professor]);
 
   // 加载教授详情
   useEffect(() => {
@@ -226,6 +275,129 @@ const ProfessorDetailPage: React.FC = () => {
     setFavoritesPanelOpen((prev) => !prev);
   }, []);
 
+  const handleSelectAcceptsInternational = (value: string) => {
+    setEditForm((prev) => ({
+      ...prev,
+      acceptsInternationalStudents: value === 'true',
+    }));
+  };
+
+  const handleEditInputChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = event.target;
+    setEditForm((prev) => ({
+      ...prev,
+      [name as keyof EditFormState]: value,
+    }));
+  };
+
+  const handleEditSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    if (!professor) return;
+
+    const toNullable = (value: string) => {
+      const trimmed = value.trim();
+      return trimmed.length > 0 ? trimmed : null;
+    };
+
+    setEditLoading(true);
+    try {
+      await updateProfessorProfile(professor.id, {
+        primaryTitle: toNullable(editForm.primaryTitle),
+        contactEmail: toNullable(editForm.contactEmail),
+        contactPhone: toNullable(editForm.contactPhone),
+        personalPage: toNullable(editForm.personalPage),
+        phdSupervisionStatus: toNullable(editForm.phdSupervisionStatus),
+        acceptsInternationalStudents: editForm.acceptsInternationalStudents,
+        internalNotes: toNullable(editForm.internalNotes),
+      });
+
+      const latest = await fetchProfessorDetail(professor.id);
+      if (latest) {
+        setProfessor(latest);
+      }
+
+      setFeedback({
+        message: '教授信息已更新',
+        variant: 'success',
+      });
+      setEditDialogOpen(false);
+    } catch (err) {
+      console.error('[ProfessorDetailPage] 更新教授信息失败', err);
+      setFeedback({
+        message: '保存失败，请稍后重试',
+        variant: 'error',
+      });
+    } finally {
+      setEditLoading(false);
+    }
+  };
+
+  const handleDeleteProfessor = async () => {
+    if (!professor) return;
+    setDeleteLoading(true);
+    try {
+      await deleteProfessor(professor.id);
+      setDeleteDialogOpen(false);
+      navigate('/admin/professor-directory');
+    } catch (err) {
+      console.error('[ProfessorDetailPage] 删除教授失败', err);
+      setFeedback({
+        message: '删除失败，请稍后重试',
+        variant: 'error',
+      });
+    } finally {
+      setDeleteLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    if (!favoriteProfiles.length) return;
+
+    const map: Record<number, SchoolInfo> = {};
+
+    favoriteProfiles.forEach((profile) => {
+      if (profile.school) {
+        map[profile.id] = profile.school;
+      }
+    });
+
+    const missing = favoriteProfiles.filter(
+      (profile) => !map[profile.id]?.logoUrl && profile.schoolId
+    );
+
+    if (missing.length === 0) {
+      setFavoriteSchoolMap(map);
+      return;
+    }
+
+    setFavoriteSchoolMap(map);
+
+    const load = async () => {
+      const results = await Promise.all(
+        missing.map(async (profile) => {
+          if (!profile.schoolId) return null;
+          try {
+            const school = await fetchSchoolById(profile.schoolId);
+            return school ? { id: profile.id, school } : null;
+          } catch (err) {
+            console.error('[ProfessorDetailPage] 加载收藏教授学校信息失败', err);
+            return null;
+          }
+        })
+      );
+
+      const updatedMap = { ...map };
+      results.forEach((entry) => {
+        if (entry) {
+          updatedMap[entry.id] = entry.school;
+        }
+      });
+      setFavoriteSchoolMap(updatedMap);
+    };
+
+    load();
+  }, [favoriteProfiles]);
+
   if (authLoading || loading) {
     return (
       <div className="flex min-h-screen items-center justify-center">
@@ -261,6 +433,8 @@ const ProfessorDetailPage: React.FC = () => {
   const awards = professor.awards ?? [];
   const publications = professor.publications ?? [];
   const placements = professor.recentPlacements ?? [];
+  const phdStatus = (professor.phdSupervisionStatus ?? '').trim();
+  const showPhdStatus = phdStatus.length > 0 && phdStatus !== '待确认';
 
   return (
     <div className="min-h-screen bg-gray-50 pb-8 dark:bg-gray-950">
@@ -276,7 +450,23 @@ const ProfessorDetailPage: React.FC = () => {
               <ArrowLeft className="h-4 w-4" />
               返回教授库
             </Button>
-            <div className="flex items-center gap-2">
+            <div className="flex flex-wrap items-center gap-2">
+              <Button
+                variant="ghost"
+                onClick={() => setEditDialogOpen(true)}
+                className="gap-2 rounded-full bg-indigo-500 px-4 py-2 text-white shadow-sm transition hover:bg-indigo-600"
+              >
+                <ClipboardPenLine className="h-4 w-4" />
+                编辑
+              </Button>
+              <Button
+                variant="ghost"
+                onClick={() => setDeleteDialogOpen(true)}
+                className="gap-2 rounded-full bg-rose-500/80 px-4 py-2 text-white shadow-sm transition hover:bg-rose-600"
+              >
+                <Trash2 className="h-4 w-4" />
+                删除
+              </Button>
               <Button
                 variant="ghost"
                 onClick={handleToggleFavoritesPanel}
@@ -349,42 +539,46 @@ const ProfessorDetailPage: React.FC = () => {
                   )}
                   <div className="mt-4 flex w-full flex-col items-center gap-1 text-xs text-indigo-100 sm:items-start sm:text-left">
                     <div className="inline-flex items-center gap-2">
-                      <Phone className="h-3.5 w-3.5" />
-                      <span>{professor.contactPhone || '暂无电话信息'}</span>
+                      <Phone className="h-3.5 w-3.5" strokeWidth={2.6} />
+                      <span className="font-semibold text-white">
+                        {professor.contactPhone || '暂无电话信息'}
+                      </span>
                     </div>
                     <div className="inline-flex items-center gap-2">
-                      <Mail className="h-3.5 w-3.5" />
-                      <span className="break-all">
+                      <Mail className="h-3.5 w-3.5" strokeWidth={2.6} />
+                      <span className="break-all font-semibold text-white">
                         {professor.contactEmail || '暂无邮箱信息'}
                       </span>
                     </div>
                     <div className="inline-flex items-center gap-2">
-                      <ExternalLink className="h-3.5 w-3.5" />
+                      <ExternalLink className="h-3.5 w-3.5" strokeWidth={2.6} />
                       {professor.profileUrl ? (
                         <a
                           href={professor.profileUrl}
                           target="_blank"
                           rel="noreferrer"
-                          className="text-indigo-100 underline decoration-indigo-200/60 underline-offset-2 transition hover:text-white hover:decoration-white"
+                          className="font-semibold text-indigo-100 underline decoration-indigo-200/60 underline-offset-2 transition hover:text-white hover:decoration-white"
                         >
                           官方介绍链接
                         </a>
                       ) : (
-                        <span>暂无官方介绍链接</span>
+                        <span className="font-semibold text-white">暂无官方介绍链接</span>
                       )}
                     </div>
                   </div>
-                  {professor.phdSupervisionStatus && (
+                  {showPhdStatus && (
                     <p className="mt-3 inline-flex items-center gap-1 rounded-full border border-indigo-300/50 bg-indigo-500/20 px-2 py-0.5 text-[11px] text-indigo-100">
                       <Sparkles className="h-3 w-3" />
-                      {professor.phdSupervisionStatus}
+                      {phdStatus}
                     </p>
                   )}
                 </div>
                 <div className="flex flex-col items-center text-center text-xs text-indigo-100 sm:items-end sm:text-right">
                   <p className="text-sm font-semibold text-white sm:text-base">{professor.university}</p>
-                  <p className="mt-1">{professor.college}</p>
-                  <p className="mt-1 inline-flex items-center gap-1 text-xs sm:justify-end">
+                  {professor.college && (
+                    <p className="mt-0.5 text-[11px] font-semibold text-indigo-50 sm:text-xs">{professor.college}</p>
+                  )}
+                  <p className="mt-2 inline-flex items-center gap-1 text-xs sm:justify-end">
                     <MapPin className="h-3 w-3" />
                     <span>
                       {professor.country}
@@ -685,35 +879,53 @@ const ProfessorDetailPage: React.FC = () => {
                     还没有收藏的教授。点击左上角的"收藏"按钮将此教授加入清单。
                   </p>
                 ) : (
-                  favoriteProfiles.map((profile) => (
-                    <div key={profile.id} className="flex items-start gap-3 rounded-xl border border-gray-100 p-3 dark:border-gray-700">
-                      <img src={getProfessorAvatar(profile)} alt={profile.name} className="h-10 w-10 rounded-lg object-cover" />
-                      <div className="flex-1 space-y-1">
-                        <p className="text-sm font-semibold text-gray-900 dark:text-gray-100">{profile.name}</p>
-                        <p className="text-xs text-gray-500 dark:text-gray-400">{profile.university}</p>
-                        <div className="flex gap-2 pt-1">
-                          <Button
-                            variant="outline"
-                            size="sm"
-                            className="h-6 border-indigo-200 px-2 text-xs text-indigo-600 hover:bg-indigo-50 dark:border-indigo-500/40 dark:text-indigo-200 dark:hover:bg-indigo-500/10"
-                            onClick={() => handleOpenMatch(profile)}
-                          >
-                            <ClipboardPenLine className="mr-1 h-3 w-3" />
-                            匹配
-                          </Button>
-                          <Button
-                            variant="ghost"
-                            size="sm"
-                            className="h-6 px-2 text-xs text-gray-500 hover:text-red-500"
-                            onClick={() => handleRemoveFavorite(profile.id)}
-                          >
-                            <Trash2 className="mr-1 h-3 w-3" />
-                            移除
-                          </Button>
+                  favoriteProfiles.map((profile) => {
+                    const profileSchool =
+                      favoriteSchoolMap[profile.id] ?? profile.school ?? null;
+                    const profileSchoolLogo =
+                      profileSchool?.logoUrl ?? getSchoolLogo(profile);
+                    return (
+                      <div key={profile.id} className="flex items-start gap-3 rounded-xl border border-gray-100 p-3 dark:border-gray-700">
+                        <img src={getProfessorAvatar(profile)} alt={profile.name} className="h-10 w-10 rounded-lg object-cover" />
+                        <div className="flex-1 space-y-1">
+                          <p className="text-sm font-semibold text-gray-900 dark:text-gray-100">{profile.name}</p>
+                          <div className="flex items-center gap-2">
+                            {profileSchoolLogo && (
+                              <img
+                                src={profileSchoolLogo}
+                                alt={`${profile.university} logo`}
+                                className="h-5 w-5 rounded bg-gray-50 object-contain p-0.5 shadow-sm dark:bg-gray-800"
+                              />
+                            )}
+                            <p className="text-xs text-gray-500 dark:text-gray-400">
+                              {profile.university}
+                              {profile.college ? ` · ${profile.college}` : ''}
+                            </p>
+                          </div>
+                          <div className="flex gap-2 pt-1">
+                            <Button
+                              variant="outline"
+                              size="sm"
+                              className="h-6 border-indigo-200 px-2 text-xs text-indigo-600 hover:bg-indigo-50 dark:border-indigo-500/40 dark:text-indigo-200 dark:hover:bg-indigo-500/10"
+                              onClick={() => handleOpenMatch(profile)}
+                            >
+                              <ClipboardPenLine className="mr-1 h-3 w-3" />
+                              匹配
+                            </Button>
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              className="h-6 px-2 text-xs text-gray-500 hover:text-red-500"
+                              onClick={() => handleRemoveFavorite(profile.id)}
+                            >
+                              <Trash2 className="mr-1 h-3 w-3" />
+                              移除
+                            </Button>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  ))
+                    );
+                  })
                 )}
               </div>
 
@@ -730,6 +942,141 @@ const ProfessorDetailPage: React.FC = () => {
           )}
         </div>
       </div>
+
+      <Dialog open={editDialogOpen} onOpenChange={setEditDialogOpen}>
+        <DialogContent className="max-w-2xl">
+          <DialogHeader>
+            <DialogTitle>编辑教授基础信息</DialogTitle>
+            <DialogDescription>更新教授的联系方式、招生状态以及内部备注，方便团队协同。</DialogDescription>
+          </DialogHeader>
+          <form onSubmit={handleEditSubmit} className="space-y-5">
+            <div className="grid gap-4 sm:grid-cols-2">
+              <div className="space-y-2">
+                <Label htmlFor="primaryTitle">主职称</Label>
+                <Input
+                  id="primaryTitle"
+                  name="primaryTitle"
+                  placeholder="例如：Associate Professor"
+                  value={editForm.primaryTitle}
+                  onChange={handleEditInputChange}
+                />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="phdSupervisionStatus">博士招生状态</Label>
+                <Input
+                  id="phdSupervisionStatus"
+                  name="phdSupervisionStatus"
+                  placeholder="例如：Accepting PhD students in 2026 intake"
+                  value={editForm.phdSupervisionStatus}
+                  onChange={handleEditInputChange}
+                />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="contactEmail">联系邮箱</Label>
+                <Input
+                  id="contactEmail"
+                  name="contactEmail"
+                  type="email"
+                  placeholder="name@university.edu"
+                  value={editForm.contactEmail}
+                  onChange={handleEditInputChange}
+                />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="contactPhone">联系电话</Label>
+                <Input
+                  id="contactPhone"
+                  name="contactPhone"
+                  placeholder="+65 ..."
+                  value={editForm.contactPhone}
+                  onChange={handleEditInputChange}
+                />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="personalPage">个人主页链接</Label>
+                <Input
+                  id="personalPage"
+                  name="personalPage"
+                  type="url"
+                  placeholder="https://..."
+                  value={editForm.personalPage}
+                  onChange={handleEditInputChange}
+                />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="acceptsInternationalStudents">是否接受国际学生</Label>
+                <Select
+                  value={editForm.acceptsInternationalStudents ? 'true' : 'false'}
+                  onValueChange={handleSelectAcceptsInternational}
+                >
+                  <SelectTrigger id="acceptsInternationalStudents" name="acceptsInternationalStudents">
+                    <SelectValue placeholder="请选择" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="true">接受国际学生</SelectItem>
+                    <SelectItem value="false">暂不接受</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+            </div>
+            <div className="space-y-2">
+              <Label htmlFor="internalNotes">内部备注</Label>
+              <textarea
+                id="internalNotes"
+                name="internalNotes"
+                placeholder="补充顾问对该教授的内部观察、跟进建议等..."
+                value={editForm.internalNotes}
+                onChange={handleEditInputChange}
+                className="min-h-[120px] w-full rounded-md border border-gray-200 bg-white p-3 text-sm text-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100 dark:focus:ring-indigo-400"
+              />
+            </div>
+            <DialogFooter>
+              <Button type="button" variant="ghost" onClick={() => setEditDialogOpen(false)} disabled={editLoading}>
+                取消
+              </Button>
+              <Button
+                type="submit"
+                className="bg-indigo-600 text-white hover:bg-indigo-500"
+                disabled={editLoading}
+              >
+                {editLoading ? '保存中...' : '保存修改'}
+              </Button>
+            </DialogFooter>
+          </form>
+        </DialogContent>
+      </Dialog>
+
+      <Dialog open={deleteDialogOpen} onOpenChange={setDeleteDialogOpen}>
+        <DialogContent className="max-w-md">
+          <DialogHeader>
+            <DialogTitle>确认删除教授资料</DialogTitle>
+            <DialogDescription>该操作不可恢复，请再次确认是否需要删除该教授的全部数据。</DialogDescription>
+          </DialogHeader>
+          <div className="space-y-3 text-sm text-gray-600 dark:text-gray-300">
+            <p>
+              将删除教授
+              <span className="mx-1 font-semibold text-gray-900 dark:text-gray-100">{professor?.name}</span>
+              的所有资料、收藏记录和匹配记录。
+            </p>
+            <p className="rounded-lg bg-rose-50 p-3 text-xs text-rose-500 dark:bg-rose-500/10 dark:text-rose-200">
+              删除后如需恢复，需要重新导入数据。请谨慎操作。
+            </p>
+          </div>
+          <DialogFooter>
+            <Button type="button" variant="ghost" onClick={() => setDeleteDialogOpen(false)} disabled={deleteLoading}>
+              取消
+            </Button>
+            <Button
+              type="button"
+              className="bg-rose-600 text-white hover:bg-rose-500"
+              onClick={handleDeleteProfessor}
+              disabled={deleteLoading}
+            >
+              {deleteLoading ? '删除中...' : '确认删除'}
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
 
       {/* 匹配学生抽屉 */}
       <ProfessorMatchDrawer

@@ -3,6 +3,7 @@
 将爬取的教授数据导入到Supabase数据库
 """
 
+import argparse
 import json
 import os
 from supabase import create_client, Client
@@ -25,6 +26,7 @@ class ProfessorImporter:
         self.skipped_count = 0
         self.error_count = 0
         self.profile_url_field = self.detect_profile_url_field()
+        self.department_name = "Department of Information Systems and Analytics"
     
     def detect_profile_url_field(self) -> str:
         """检测数据库中用于存储详情链接的字段"""
@@ -71,6 +73,12 @@ class ProfessorImporter:
         except Exception as e:
             print(f"检查教授是否存在时出错: {e}")
             return None
+
+    def format_college_label(self) -> str:
+        """根据部门名称返回学院描述"""
+        if self.department_name:
+            return f"School of Computing - {self.department_name}"
+        return "School of Computing"
     
     def import_professor(self, prof_data):
         """导入单个教授"""
@@ -151,7 +159,7 @@ class ProfessorImporter:
                 'courses': prof_data.get('courses') or [],
                 'university': 'National University of Singapore',
                 'school_id': self.nus_school_id,
-                'college': 'School of Computing - Department of Information Systems and Analytics',
+                'college': self.format_college_label(),
                 'country': '新加坡',
                 'city': '新加坡',
                 'contact_email': email if email else None,
@@ -161,7 +169,7 @@ class ProfessorImporter:
                 'research_tags': research_tags,
                 'signature_projects': signature_projects,
                 'funding_options': [],
-                'phd_supervision_status': '待确认',  # 默认状态
+                'phd_supervision_status': prof_data.get('phd_supervision_status') or None,
                 'accepts_international_students': True,  # 默认接受国际学生
                 'is_active': True,
                 'match_score': 0,
@@ -179,7 +187,7 @@ class ProfessorImporter:
                     'end': '2025-01-15',
                     'intake': '2025 Fall'
                 },
-                'internal_notes': f'从NUS官网导入，职位: {prof_data.get("appointment", "未知")}'
+                'internal_notes': f'从NUS官网导入（{self.department_name}），职位: {prof_data.get("appointment", "未知")}'
             }
             
             profile_url_value = prof_data.get('profile_url')
@@ -226,6 +234,7 @@ class ProfessorImporter:
             with open(json_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             
+            self.department_name = data.get('department', self.department_name)
             professors = data.get('professors', [])
             total = len(professors)
             
@@ -256,6 +265,14 @@ class ProfessorImporter:
 
 def main():
     """主函数"""
+    parser = argparse.ArgumentParser(description="导入爬虫抓取的教授数据至 Supabase")
+    parser.add_argument(
+        "--file",
+        default="/Users/evanxu/Downloads/mangagement-d0918fc8ddf240e444778d69a1e8e3a08a6b2dbc/scripts/nus_isa_professors.json",
+        help="教授数据 JSON 文件路径，默认导入 ISA 部门数据",
+    )
+    args = parser.parse_args()
+
     print("="*60)
     print("NUS Professor Data Importer")
     print("="*60)
@@ -267,7 +284,7 @@ def main():
         return
     
     # JSON文件路径
-    json_file = "/Users/evanxu/Downloads/mangagement-d0918fc8ddf240e444778d69a1e8e3a08a6b2dbc/scripts/nus_isa_professors.json"
+    json_file = args.file
     
     if not os.path.exists(json_file):
         print(f"✗ 文件不存在: {json_file}")

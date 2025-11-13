@@ -27,7 +27,7 @@ import ApplicationDetailPage from './pages/admin/ApplicationDetailPage';
 import PlanningDetailPage from './pages/admin/PlanningDetailPage';
 import LeadsPage from './pages/admin/LeadsPage';
 import LeadDetailPage from './pages/admin/LeadDetailPage';
-import MentorManagementPage from './pages/admin/MentorManagement';
+import MentorManagementPage, { MentorMarketplacePage } from './pages/admin/MentorManagement';
 import MentorsPage from './pages/admin/MentorsPage';
 import MentorDetailPage from './pages/admin/MentorDetailPage';
 import InterviewPage from './pages/admin/InterviewPage';
@@ -58,8 +58,6 @@ import ProjectMissionBoardPage from './pages/admin/ProjectMissionBoard';
 import ServiceChronologyPage from './pages/admin/ServiceChronology';
 import { ProjectMarketplaceDetailPage, ProjectMarketplacePage } from './pages/admin/ProjectMarketplace';
 import { ProfessorDirectoryPage, ProfessorDetailPage } from './pages/admin/ProfessorDirectory';
-import { CRMLeadOverviewPage } from './pages/admin/CRMLeadOverview';
-import { CRMEngagementDeskPage } from './pages/admin/CRMEngagementDesk';
 import { CRMContractDockPage } from './pages/admin/CRMContractDock';
 import { CRMLeadListPage } from './pages/admin/CRMLeadList';
 import { CRMClientInsightsPage } from './pages/admin/CRMClientInsights';
@@ -77,6 +75,7 @@ import { PlacementAssessmentPage } from './pages/admin/EducationTraining/Placeme
 import { SchedulingClassroomPage } from './pages/admin/EducationTraining/SchedulingClassroom';
 import { LearnerPortalPage } from './pages/admin/EducationTraining/LearnerPortal';
 import { TutorPortalPage } from './pages/admin/EducationTraining/TutorPortal';
+import AppCenterPage from './pages/admin/AppCenter/AppCenterPage';
 import { SchoolSelectionPlannerPage } from './pages/admin/SchoolSelectionPlanner';
 import {
   ServiceCenterAnalyticsPage,
@@ -151,9 +150,7 @@ const AppRoutes: React.FC = () => {
         <Route path="project-marketplace/:projectId" element={<ProjectMarketplaceDetailPage />} />
         <Route path="professor-directory" element={<ProfessorDirectoryPage />} />
         <Route path="professor-directory/:professorId" element={<ProfessorDetailPage />} />
-        <Route path="crm-lead-overview" element={<CRMLeadOverviewPage />} />
         <Route path="crm-lead-list" element={<CRMLeadListPage />} />
-        <Route path="crm-engagement-desk" element={<CRMEngagementDeskPage />} />
         <Route path="crm-contract-dock" element={<CRMContractDockPage />} />
         <Route path="crm-client-insights" element={<CRMClientInsightsPage />} />
         <Route path="crm-collaboration-hub" element={<CRMCollaborationHubPage />} />
@@ -185,6 +182,7 @@ const AppRoutes: React.FC = () => {
         <Route path="leads" element={<LeadsPage />} />
         <Route path="leads/:leadId" element={<LeadDetailPage />} />
         <Route path="mentors" element={<MentorManagementPage />} />
+        <Route path="mentor-marketplace" element={<MentorMarketplacePage />} />
         <Route path="mentors-legacy" element={<MentorsPage />} />
         <Route path="mentors/:id" element={<MentorDetailPage />} />
         <Route path="knowledge" element={<KnowledgeBase />} />
@@ -202,6 +200,7 @@ const AppRoutes: React.FC = () => {
         <Route path="services" element={<AdminServicesPage />} />
         <Route path="ai-chat-assistant" element={<AIChatAssistantPage />} />
         <Route path="sky-office" element={<SkyOfficePage />} />
+        <Route path="app-center" element={<AppCenterPage />} />
         
         {/* 会议管理 */}
         <Route path="meetings" element={<MeetingsPage />} />

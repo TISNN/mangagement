@@ -1,4 +1,5 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useMemo } from 'react';
+import type { ComponentType } from 'react';
 import { useLocation, Outlet, useNavigate } from 'react-router-dom';
 import {
   Users,
@@ -9,6 +10,7 @@ import {
   FileText,
   LayoutGrid,
   LayoutDashboard,
+  Grid3x3,
   Sun,
   Moon,
   Briefcase,
@@ -34,8 +36,6 @@ import {
   GraduationCap,
   Laptop,
   Compass,
-  BarChart3,
-  Headphones,
   Handshake,
   LayoutList,
   PieChart,
@@ -48,6 +48,32 @@ import { DataProvider } from './context/DataContext'; // 导入数据上下文�
 import AIChatAssistant from './components/AIChatAssistant';
 import ErrorBoundary from './components/ErrorBoundary';
 import './utils/cacheManager'; // 引入缓存管理器,使window.clearAppCache()可用
+
+const APP_CENTER_STORAGE_KEY = 'appCenter.favoriteFeatureIds';
+
+type NavigationItem = {
+  icon: ComponentType<{ className?: string }>;
+  text: string;
+  id: string;
+  color: string;
+  children?: NavigationItem[];
+  externalUrl?: string;
+};
+
+export type AppOutletContext = {
+  favoriteFeatureIds: string[];
+  setFavoriteFeatureIds: (ids: string[]) => void;
+  maxFavorites: number;
+  availableFeatures: AppFeature[];
+  userRole: AppCenterUserRole;
+};
+import {
+  APP_FEATURES,
+  getDefaultFavorites,
+  MAX_FAVORITES,
+  type AppFeature,
+  type AppCenterUserRole,
+} from './data/appFeatures';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('dashboard'); // 默认显示控制台
@@ -67,20 +93,14 @@ function App() {
     'study-services': true,
     'internal-management': true,
   });
+  const [favoriteFeatureIds, setFavoriteFeatureIds] = useState<string[]>([]);
+  const [hasInitializedFavorites, setHasInitializedFavorites] = useState(false);
+  const [userRole, setUserRole] = useState<AppCenterUserRole>('admin');
+  const [hasResolvedRole, setHasResolvedRole] = useState(false);
   const navRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
   const navigate = useNavigate(); // 添加导航函数
   
-  // 修改导航菜单项
-  type NavigationItem = {
-    icon: React.ComponentType<{ className?: string }>;
-    text: string;
-    id: string;
-    color: string;
-    children?: NavigationItem[];
-    externalUrl?: string;
-  };
-
   const colorMap: Record<string, string> = {
     blue: 'bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-400',
     green: 'bg-green-50 text-green-600 dark:bg-green-900/20 dark:text-green-400',
@@ -129,125 +149,164 @@ function App() {
     return `https://api.dicebear.com/7.x/avataaars/svg?seed=${encodeURIComponent(seed)}`;
   };
 
-  const navigationItems: NavigationItem[] = [
-    { icon: LayoutGrid, text: '控制台', id: 'dashboard', color: 'blue' },
-    { icon: ListTodo, text: '任务管理', id: 'tasks', color: 'blue' },
-    { icon: Users, text: '学生管理', id: 'students-legacy', color: 'blue' },
-    {
-      icon: UserCog,
-      text: '团队管理',
-      id: 'internal-management',
-      color: 'blue',
-      children: [
-        {
-          icon: Users2,
-          text: '团队成员',
-          id: 'internal-management/employee-and-scheduling',
-          color: 'blue',
-        },
-        {
-          icon: LogIn,
-          text: '入职与离职',
-          id: 'internal-management/onboarding',
-          color: 'blue',
-        },
-        {
-          icon: Briefcase,
-          text: '招聘中心',
-          id: 'internal-management/recruitment',
-          color: 'blue',
-        },
-        {
-          icon: Settings,
-          text: '系统设置',
-          id: 'internal-management/system-settings',
-          color: 'blue',
-        },
-      ],
-    },
-    {
-      icon: LayoutDashboard,
-      text: '留学服务',
-      id: 'study-services',
-      color: 'blue',
-      children: [
-        { icon: Users, text: '申请学生', id: 'students', color: 'blue' },
-        { icon: History, text: '服务进度', id: 'service-chronology', color: 'blue' },
-        { icon: Compass, text: '选校规划', id: 'school-selection-planner', color: 'blue' },
-        { icon: BookOpen, text: '文书工作台', id: 'application-workbench', color: 'blue' },
-        { icon: Globe2, text: '项目市场', id: 'project-marketplace', color: 'blue' },
-        { icon: GraduationCap, text: '全球教授库', id: 'professor-directory', color: 'blue' },
-        { icon: UserSquare2, text: '导师管理', id: 'mentors', color: 'blue' },
-        { icon: UserSquare2, text: '导师（旧版）', id: 'mentors-legacy', color: 'blue' },
-        { icon: ClipboardList, text: '留学案例库', id: 'cases', color: 'blue' },
-      ],
-    },
-    {
-      icon: GraduationCap,
-      text: '教育培训',
-      id: 'education-training',
-      color: 'blue',
-      children: [
-        { icon: ClipboardList, text: '测评中心', id: 'education-training/placement-assessment', color: 'blue' },
-        { icon: CalendarClock, text: '排课与教室', id: 'education-training/scheduling-classroom', color: 'blue' },
-        { icon: Laptop, text: '学习中心', id: 'education-training/learner-portal', color: 'blue' },
-        { icon: Users, text: '教师工作台', id: 'education-training/tutor-portal', color: 'blue' },
-      ],
-    },
-    {
-      icon: LayoutDashboard,
-      text: 'CRM 中心',
-      id: 'crm-center',
-      color: 'blue',
-      children: [
-        { icon: BarChart3, text: '线索总览', id: 'crm-lead-overview', color: 'blue' },
-        { icon: LayoutList, text: '线索列表', id: 'crm-lead-list', color: 'blue' },
-        { icon: Headphones, text: '跟进记录', id: 'crm-engagement-desk', color: 'blue' },
-        { icon: Handshake, text: '合同与签约', id: 'crm-contract-dock', color: 'blue' },
-        { icon: PieChart, text: '客户分群', id: 'crm-client-insights', color: 'blue' },
-        { icon: MessageCircle, text: '协同空间', id: 'crm-collaboration-hub', color: 'blue' },
-      ],
-    },
-    {
-      icon: Layers,
-      text: '知识中心',
-      id: 'knowledge-hub',
-      color: 'blue',
-      children: [
-        { icon: LayoutDashboard, text: '知识概览', id: 'knowledge-hub/dashboard', color: 'blue' },
-        { icon: UserRound, text: '个人空间', id: 'knowledge-hub/my-space', color: 'blue' },
-        { icon: Users, text: '团队空间', id: 'knowledge-hub/team-space', color: 'blue' },
-        { icon: LayoutGrid, text: '知识市场', id: 'knowledge-hub/market', color: 'blue' },
-        { icon: Globe2, text: '知识花园运营', id: 'knowledge-hub/garden', color: 'blue' },
-        { icon: ShieldCheck, text: '审核与风控', id: 'knowledge-hub/moderation', color: 'blue' },
-        { icon: Settings, text: '知识设置', id: 'knowledge-hub/settings', color: 'blue' },
-      ],
-    },
-    { icon: School, text: '院校库', id: 'school-library', color: 'blue' },
-    { icon: BookOpen, text: '专业库', id: 'program-library', color: 'blue' },
-    { icon: Brain, text: '智能选校', id: 'smart-selection', color: 'blue' },
-    { icon: Briefcase, text: '服务项目', id: 'projects', color: 'blue' },
-    { icon: FileCheck, text: '申请进度', id: 'applications', color: 'blue' },
-    { icon: MessagesSquare, text: '客户线索', id: 'leads', color: 'blue' },
-    { icon: Calendar, text: '会议管理', id: 'meetings', color: 'blue' },
-    {
-      icon: Globe2,
-      text: 'SkyOffice',
-      id: 'sky-office',
-      color: 'blue',
-      externalUrl: skyOfficeExternalUrl,
-    },
-    { icon: Library, text: '知识库', id: 'knowledge', color: 'blue' },
-    { icon: FileText, text: '合同管理', id: 'contracts', color: 'blue' },
-    { icon: PieChart, text: '财务中台', id: 'finance-suite', color: 'blue' },
-    { icon: Wallet, text: '财务管理（旧版）', id: 'finance', color: 'gray' },
-    { icon: Settings, text: '密码设置', id: 'settings', color: 'blue' },
-    { icon: Globe2, text: '服务项目', id: 'services', color: 'blue' },
-  ];
+  const navigationItems = useMemo<NavigationItem[]>(
+    () => [
+      { icon: LayoutGrid, text: '控制台', id: 'dashboard', color: 'blue' },
+      { icon: ListTodo, text: '任务管理', id: 'tasks', color: 'blue' },
+      { icon: Users, text: '学生管理', id: 'students-legacy', color: 'blue' },
+      { icon: GraduationCap, text: '全球教授库', id: 'professor-directory', color: 'blue' },
+      {
+        icon: UserCog,
+        text: '团队管理',
+        id: 'internal-management',
+        color: 'blue',
+        children: [
+          {
+            icon: Users2,
+            text: '团队成员',
+            id: 'internal-management/employee-and-scheduling',
+            color: 'blue',
+          },
+          {
+            icon: LogIn,
+            text: '入职与离职',
+            id: 'internal-management/onboarding',
+            color: 'blue',
+          },
+          {
+            icon: Briefcase,
+            text: '招聘中心',
+            id: 'internal-management/recruitment',
+            color: 'blue',
+          },
+          {
+            icon: Settings,
+            text: '系统设置',
+            id: 'internal-management/system-settings',
+            color: 'blue',
+          },
+        ],
+      },
+      {
+        icon: LayoutDashboard,
+        text: '留学服务',
+        id: 'study-services',
+        color: 'blue',
+        children: [
+          { icon: Users, text: '申请学生', id: 'students', color: 'blue' },
+          { icon: History, text: '服务进度', id: 'service-chronology', color: 'blue' },
+          { icon: Compass, text: '选校规划', id: 'school-selection-planner', color: 'blue' },
+          { icon: BookOpen, text: '文书工作台', id: 'application-workbench', color: 'blue' },
+          { icon: Globe2, text: '项目市场', id: 'project-marketplace', color: 'blue' },
+          { icon: UserSquare2, text: '导师管理', id: 'mentors', color: 'blue' },
+          { icon: UserSquare2, text: '导师（旧版）', id: 'mentors-legacy', color: 'blue' },
+          { icon: ClipboardList, text: '留学案例库', id: 'cases', color: 'blue' },
+        ],
+      },
+      {
+        icon: GraduationCap,
+        text: '教育培训',
+        id: 'education-training',
+        color: 'blue',
+        children: [
+          { icon: ClipboardList, text: '测评中心', id: 'education-training/placement-assessment', color: 'blue' },
+          { icon: CalendarClock, text: '排课与教室', id: 'education-training/scheduling-classroom', color: 'blue' },
+          { icon: Laptop, text: '学习中心', id: 'education-training/learner-portal', color: 'blue' },
+          { icon: Users, text: '教师工作台', id: 'education-training/tutor-portal', color: 'blue' },
+        ],
+      },
+      {
+        icon: LayoutDashboard,
+        text: 'CRM 中心',
+        id: 'crm-center',
+        color: 'blue',
+        children: [
+          { icon: LayoutList, text: '线索列表', id: 'crm-lead-list', color: 'blue' },
+          { icon: Handshake, text: '合同与签约', id: 'crm-contract-dock', color: 'blue' },
+          { icon: PieChart, text: '客户分群', id: 'crm-client-insights', color: 'blue' },
+          { icon: MessageCircle, text: '协同空间', id: 'crm-collaboration-hub', color: 'blue' },
+        ],
+      },
+      {
+        icon: Layers,
+        text: '知识中心',
+        id: 'knowledge-hub',
+        color: 'blue',
+        children: [
+          { icon: LayoutDashboard, text: '知识概览', id: 'knowledge-hub/dashboard', color: 'blue' },
+          { icon: UserRound, text: '个人空间', id: 'knowledge-hub/my-space', color: 'blue' },
+          { icon: Users, text: '团队空间', id: 'knowledge-hub/team-space', color: 'blue' },
+          { icon: LayoutGrid, text: '知识市场', id: 'knowledge-hub/market', color: 'blue' },
+          { icon: Globe2, text: '知识花园运营', id: 'knowledge-hub/garden', color: 'blue' },
+          { icon: ShieldCheck, text: '审核与风控', id: 'knowledge-hub/moderation', color: 'blue' },
+          { icon: Settings, text: '知识设置', id: 'knowledge-hub/settings', color: 'blue' },
+        ],
+      },
+      { icon: School, text: '院校库', id: 'school-library', color: 'blue' },
+      { icon: BookOpen, text: '专业库', id: 'program-library', color: 'blue' },
+      { icon: Brain, text: '智能选校', id: 'smart-selection', color: 'blue' },
+      { icon: Briefcase, text: '服务项目', id: 'projects', color: 'blue' },
+      { icon: FileCheck, text: '申请进度', id: 'applications', color: 'blue' },
+      { icon: MessagesSquare, text: '客户线索', id: 'leads', color: 'blue' },
+      { icon: Calendar, text: '会议管理', id: 'meetings', color: 'blue' },
+      {
+        icon: Globe2,
+        text: 'SkyOffice',
+        id: 'sky-office',
+        color: 'blue',
+        externalUrl: skyOfficeExternalUrl,
+      },
+      { icon: Library, text: '知识库', id: 'knowledge', color: 'blue' },
+      { icon: FileText, text: '合同管理', id: 'contracts', color: 'blue' },
+      { icon: PieChart, text: '财务中台', id: 'finance-suite', color: 'blue' },
+      { icon: Wallet, text: '财务管理（旧版）', id: 'finance', color: 'gray' },
+      { icon: Settings, text: '密码设置', id: 'settings', color: 'blue' },
+      { icon: Globe2, text: '服务项目', id: 'services', color: 'blue' },
+    ],
+    [skyOfficeExternalUrl],
+  );
 
-  const pinnedNavigationItems: NavigationItem[] = [
-    { icon: Globe2, text: '服务中心', id: 'service-center', color: 'blue' },
-  ];
+  const pinnedNavigationItems = useMemo<NavigationItem[]>(
+    () => [
+      { icon: Globe2, text: '服务中心', id: 'service-center', color: 'blue' },
+      { icon: Grid3x3, text: '应用中心', id: 'app-center', color: 'purple' },
+    ],
+    [],
+  );
+
+  const allowedFeatures = useMemo(
+    () =>
+      APP_FEATURES.filter(
+        (feature) => feature.rolesAllowed.includes(userRole) || feature.rolesAllowed.includes('guest'),
+      ),
+    [userRole],
+  );
+
+  const allowedFeatureIdSet = useMemo(() => new Set(allowedFeatures.map((feature) => feature.id)), [allowedFeatures]);
+
+  const navigationLookup = useMemo(() => {
+    const map = new Map<string, NavigationItem>();
+    const traverse = (items: NavigationItem[]) => {
+      items.forEach((item) => {
+        map.set(item.id, item);
+        if (item.children?.length) {
+          traverse(item.children);
+        }
+      });
+    };
+    traverse(navigationItems);
+    traverse(pinnedNavigationItems);
+    return map;
+  }, [navigationItems, pinnedNavigationItems]);
+
+  const favoriteNavItems = useMemo(
+    () =>
+      favoriteFeatureIds
+        .map((id) => navigationLookup.get(id))
+        .filter((item): item is NavigationItem => Boolean(item))
+        .map((item) => ({ ...item })),
+    [favoriteFeatureIds, navigationLookup],
+  );
   
   // 检查滚动状态
   const checkScrollPosition = () => {
@@ -280,17 +339,65 @@ function App() {
     // 从 localStorage 获取当前登录用户信息
     const userType = localStorage.getItem('userType');
     if (userType === 'admin') {
+      setUserRole('admin');
       const employeeData = localStorage.getItem('currentEmployee');
       if (employeeData) {
         setCurrentUser(JSON.parse(employeeData));
       }
     } else if (userType === 'student') {
+      setUserRole('student');
       const studentData = localStorage.getItem('currentStudent');
       if (studentData) {
         setCurrentUser(JSON.parse(studentData));
       }
+    } else {
+      setUserRole('admin');
     }
+    setHasResolvedRole(true);
   }, []);
+
+  useEffect(() => {
+    if (hasInitializedFavorites || !hasResolvedRole) {
+      return;
+    }
+    try {
+      const stored = localStorage.getItem(APP_CENTER_STORAGE_KEY);
+      let initialIds: unknown = null;
+      if (stored) {
+        initialIds = JSON.parse(stored);
+      }
+
+      const candidateIds = Array.isArray(initialIds)
+        ? (initialIds.filter((id): id is string => typeof id === 'string') as string[])
+        : getDefaultFavorites(userRole);
+
+      const sanitized = candidateIds.filter((id) => allowedFeatureIdSet.has(id)).slice(0, MAX_FAVORITES);
+      setFavoriteFeatureIds(sanitized);
+    } catch (error) {
+      console.error('加载导航偏好失败，将使用默认配置', error);
+      const fallback = getDefaultFavorites(userRole).filter((id) => allowedFeatureIdSet.has(id)).slice(0, MAX_FAVORITES);
+      setFavoriteFeatureIds(fallback);
+    } finally {
+      setHasInitializedFavorites(true);
+    }
+  }, [allowedFeatureIdSet, hasInitializedFavorites, hasResolvedRole, userRole]);
+
+  useEffect(() => {
+    if (!hasInitializedFavorites) {
+      return;
+    }
+    localStorage.setItem(APP_CENTER_STORAGE_KEY, JSON.stringify(favoriteFeatureIds));
+  }, [favoriteFeatureIds, hasInitializedFavorites]);
+
+  useEffect(() => {
+    if (!hasInitializedFavorites || !hasResolvedRole) {
+      return;
+    }
+    const filtered = favoriteFeatureIds.filter((id) => allowedFeatureIdSet.has(id));
+    if (filtered.length !== favoriteFeatureIds.length) {
+      setFavoriteFeatureIds(filtered);
+    }
+  }, [allowedFeatureIdSet, favoriteFeatureIds, hasInitializedFavorites, hasResolvedRole]);
 
   // 初始化检查滚动状态
   useEffect(() => {
@@ -317,14 +424,8 @@ function App() {
     if (path.includes('study-services')) {
       setCurrentPage('study-services');
       setExpandedGroups((prev) => ({ ...prev, 'study-services': true }));
-    } else if (path.includes('crm-lead-overview')) {
-      setCurrentPage('crm-lead-overview');
-      setExpandedGroups((prev) => ({ ...prev, 'crm-center': true }));
     } else if (path.includes('crm-lead-list')) {
       setCurrentPage('crm-lead-list');
-      setExpandedGroups((prev) => ({ ...prev, 'crm-center': true }));
-    } else if (path.includes('crm-engagement-desk')) {
-      setCurrentPage('crm-engagement-desk');
       setExpandedGroups((prev) => ({ ...prev, 'crm-center': true }));
     } else if (path.includes('crm-contract-dock')) {
       setCurrentPage('crm-contract-dock');
@@ -377,6 +478,8 @@ function App() {
     } else if (path.includes('internal-management/system-settings')) {
       setCurrentPage('internal-management/system-settings');
       setExpandedGroups((prev) => ({ ...prev, 'internal-management': true }));
+    } else if (path.includes('app-center')) {
+      setCurrentPage('app-center');
     } else if (path.includes('service-center')) {
       setCurrentPage('service-center');
     } else if (path.includes('dashboard')) {
@@ -459,7 +562,7 @@ function App() {
       setExpandedGroups((prev) => ({ ...prev, 'study-services': true }));
     }
 
-    if (['crm-lead-overview', 'crm-lead-list', 'crm-engagement-desk', 'crm-contract-dock', 'crm-client-insights', 'crm-collaboration-hub'].some((segment) => path.includes(segment))) {
+    if (['crm-lead-list', 'crm-contract-dock', 'crm-client-insights', 'crm-collaboration-hub'].some((segment) => path.includes(segment))) {
       setExpandedGroups((prev) => ({ ...prev, 'crm-center': true }));
     }
 
@@ -514,7 +617,7 @@ function App() {
     navigate(item.id === 'dashboard' ? '/admin/dashboard' : `/admin/${item.id}`);
   };
 
-  const renderNavItems = (items: NavigationItem[], depth = 0) =>
+  const renderNavItems = (items: NavigationItem[], depth = 0, keyPrefix = '') =>
     items.map((item) => {
       const isGroup = !!item.children?.length;
       const isExpanded = isGroup ? expandedGroups[item.id] ?? false : false;
@@ -544,7 +647,7 @@ function App() {
       }
 
       return (
-        <div key={item.id} className="w-full">
+        <div key={`${keyPrefix}${item.id}`} className="w-full">
           <button
             onClick={() => handleNavigation(item)}
             className={`${baseClasses.join(' ')} ${activeClass}`}
@@ -578,7 +681,7 @@ function App() {
           </button>
           {isGroup && isExpanded && !isNavCollapsed && (
             <div className="mt-1 space-y-1">
-              {renderNavItems(item.children!, depth + 1)}
+              {renderNavItems(item.children!, depth + 1, `${keyPrefix}${item.id}-`)}
             </div>
           )}
         </div>
@@ -617,11 +720,46 @@ function App() {
                     </button>
                   )}
                   
-                  <nav 
-                    ref={navRef} 
-                    className="space-y-2 max-h-[calc(100vh-230px)] overflow-y-auto pr-1 scrollbar-thin scrollbar-thumb-gray-300 dark:scrollbar-thumb-gray-600 scrollbar-track-transparent"
+                  <nav
+                    ref={navRef}
+                    className="space-y-6 max-h-[calc(100vh-230px)] overflow-y-auto pr-1 scrollbar-thin scrollbar-thumb-gray-300 dark:scrollbar-thumb-gray-600 scrollbar-track-transparent"
                   >
-                      {renderNavItems(navigationItems)}
+                    <div className="space-y-2">
+                      {!isNavCollapsed && (
+                        <div className="flex items-center justify-between px-1">
+                          <p className="text-xs font-semibold uppercase tracking-wide text-gray-400 dark:text-gray-500">
+                            我的导航
+                          </p>
+                          <button
+                            type="button"
+                            onClick={() => navigate('/admin/app-center')}
+                            className="text-xs font-medium text-indigo-500 hover:text-indigo-600 dark:text-indigo-400 dark:hover:text-indigo-300"
+                          >
+                            管理
+                          </button>
+                        </div>
+                      )}
+                      {favoriteNavItems.length > 0 ? (
+                        <div className="space-y-2">
+                          {renderNavItems(favoriteNavItems, 0, 'favorite-')}
+                        </div>
+                      ) : (
+                        !isNavCollapsed && (
+                          <div className="rounded-xl border border-dashed border-gray-200 bg-white/40 px-4 py-3 text-xs text-gray-500 dark:border-gray-700 dark:bg-gray-800/40 dark:text-gray-400">
+                            暂未添加常用功能，点击“管理”挑选常用入口
+                          </div>
+                        )
+                      )}
+                    </div>
+
+                    <div className="space-y-2">
+                      {!isNavCollapsed && (
+                        <p className="px-1 text-xs font-semibold uppercase tracking-wide text-gray-400 dark:text-gray-500">
+                          全部功能
+                        </p>
+                      )}
+                      {renderNavItems(navigationItems, 0, 'all-')}
+                    </div>
                   </nav>
 
                   <div className={`mt-4 space-y-2 border-t border-gray-200 pt-4 dark:border-gray-700 ${isNavCollapsed ? 'px-1' : ''}`}>
@@ -630,7 +768,7 @@ function App() {
                         固定入口
                       </p>
                     )}
-                    {renderNavItems(pinnedNavigationItems)}
+                    {renderNavItems(pinnedNavigationItems, 0, 'pinned-')}
                   </div>
                   
                   {/* 下滚动按钮 */}
@@ -721,7 +859,15 @@ function App() {
 
               {/* 主内容区域 - 使用Outlet代替pages[currentPage] */}
               <main className={`${isNavCollapsed ? 'ml-20' : 'ml-48'} mt-16 transition-all duration-300 p-8`}>
-                <Outlet />
+                <Outlet
+                  context={{
+                    favoriteFeatureIds,
+                    setFavoriteFeatureIds,
+                    maxFavorites: MAX_FAVORITES,
+                    availableFeatures: allowedFeatures,
+                    userRole,
+                  }}
+                />
               </main>
 
               {/* AI助手 */}
