@@ -111,6 +111,12 @@ Infinite.ai是一个专注于留学全周期服务的数字化平台，连接学
 - 🧑‍💼 本次包含 `StaffTable`、`StaffDetailPage`、`employeeAndScheduling` 数据源等文件的新增字段与表单校验，确保运营端可快速维护导师档案
 - 📋 建议下次推送前在团队管理页面回归“编辑资料”“跨地区筛选”流程，并执行 `npm run lint` 检查 Form 组件是否有遗漏依赖
 
+### 2025-11-15: 代码仓库同步到 GitHub（任务关联对象精简）
+
+- ✅ 推送任务管理列表“关联对象”标签精简、状态列对齐等交互优化到 `origin/main`
+- 📄 本次涉及 `TaskTable` 组件与 README 说明，移除了学生“活跃”标签的重复展示，保持列表信息聚焦
+- 🔁 建议下一次推送前回归“关联对象”筛选与详情抽屉，确保标签逻辑在看板/日历视图也保持一致，并执行 `npm run lint`
+
 - ✅ 爬虫新增对 `div.location` 模块的解析，精准识别办公室位置、电话与官网链接
 - ✅ 针对邮箱采用智能推断：优先读取页面文本，其次根据个人主页 `~username` 自动生成 `username@comp.nus.edu.sg`
 - ✅ 爬虫输出新增 `phone` 字段，导入脚本同步写入 Supabase `professors.contact_phone`
