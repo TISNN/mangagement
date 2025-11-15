@@ -93,6 +93,12 @@ Infinite.ai是一个专注于留学全周期服务的数字化平台，连接学
 - 🧰 新增脚本（AcademicTransfer API 抓取、博士岗位导入、中文摘要生成）与 Supabase Edge Function 已一并上传，确保数据链路可复现
 - 🔍 建议后续推送前运行 `npm run lint && npm run test`，并手动执行 `scripts/academictransfer_phd_sync.py --dry-run` 校验 API 凭证
 
+### 2025-11-15: 代码仓库同步到 GitHub（会议与仪表盘升级）
+
+- ✅ 将会议管理（MeetingManagement + MeetingsPage）与仪表盘 EventsPanel 的体验升级内容推送到 `origin/main`
+- 📅 新增的会议冲突校验、会议卡片状态、Lead Detail 会议摘要等逻辑已经随提交一并上线
+- 🕵️‍♀️ 建议下次推送前执行 `npm run lint` 并在 `MeetingManagement` 页面手动回归“创建会议”“冲突提示”“任务联动”，确保多端一致
+
 - ✅ 爬虫新增对 `div.location` 模块的解析，精准识别办公室位置、电话与官网链接
 - ✅ 针对邮箱采用智能推断：优先读取页面文本，其次根据个人主页 `~username` 自动生成 `username@comp.nus.edu.sg`
 - ✅ 爬虫输出新增 `phone` 字段，导入脚本同步写入 Supabase `professors.contact_phone`
