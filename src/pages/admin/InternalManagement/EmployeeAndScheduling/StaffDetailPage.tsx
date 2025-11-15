@@ -1,5 +1,6 @@
-import { Fragment, useEffect, useState, type ReactNode } from 'react';
+import { Fragment, useEffect, useMemo, useState, type ChangeEvent } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
+import toast from 'react-hot-toast';
 
 import {
   Activity,
@@ -8,6 +9,7 @@ import {
   BadgeCheck,
   ClipboardList,
   Clock3,
+  Edit3,
   MapPin,
   Mail,
   Sparkles,
@@ -18,7 +20,7 @@ import {
 import { Button } from '@/components/ui/button';
 
 import type { ShiftConflict, StaffProfile } from '../types';
-import { loadStaffProfileById } from './data';
+import { loadStaffProfileById, updateStaffProfile } from './data';
 
 const getAvatarUrl = (baseUrl: string | undefined, name: string) => {
   if (baseUrl && baseUrl.trim().length > 0) {
@@ -39,6 +41,18 @@ const InfoCard: React.FC<{ title: string; icon: React.ReactNode; children: React
   </section>
 );
 
+interface EditFormState {
+  role: string;
+  team: string;
+  email: string;
+  location: string;
+  timezone: string;
+  bio: string;
+  primaryFocus: string;
+  skills: string;
+  status: StaffProfile['status'];
+}
+
 export const StaffDetailPage: React.FC = () => {
   const { staffId } = useParams<{ staffId: string }>();
   const navigate = useNavigate();
@@ -47,6 +61,9 @@ export const StaffDetailPage: React.FC = () => {
   const [conflicts, setConflicts] = useState<ShiftConflict[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [isEditModalOpen, setIsEditModalOpen] = useState(false);
+  const [editForm, setEditForm] = useState<EditFormState | null>(null);
+  const [saving, setSaving] = useState(false);
 
   useEffect(() => {
     let mounted = true;
@@ -91,6 +108,86 @@ export const StaffDetailPage: React.FC = () => {
     };
   }, [staffId]);
 
+  const formPreset = useMemo<EditFormState | null>(() => {
+    if (!profile) return null;
+    return {
+      role: profile.role ?? '',
+      team: profile.team ?? '',
+      email: profile.email ?? '',
+      location: profile.location ?? '',
+      timezone: profile.timezone ?? '',
+      bio: profile.bio ?? '',
+      primaryFocus: profile.primaryFocus ?? '',
+      skills: profile.skills.join(', '),
+      status: profile.status,
+    };
+  }, [profile]);
+
+  const openEditModal = () => {
+    if (!formPreset) return;
+    setEditForm(formPreset);
+    setIsEditModalOpen(true);
+  };
+
+  const handleFormChange = (field: keyof EditFormState) => (
+    event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>,
+  ) => {
+    const value = event.target.value;
+    setEditForm((prev) => (prev ? { ...prev, [field]: value } : prev));
+  };
+
+  const handleSaveProfile = async () => {
+    if (!profile || !editForm || saving) return;
+    const nextSkills = editForm.skills
+      .split(',')
+      .map((skill) => skill.trim())
+      .filter((skill) => skill.length > 0);
+
+    setSaving(true);
+    try {
+      await updateStaffProfile(profile.id, {
+        role: editForm.role,
+        team: editForm.team,
+        email: editForm.email,
+        location: editForm.location,
+        bio: editForm.bio,
+        status: editForm.status,
+        skills: nextSkills,
+      });
+
+      const { profile: refreshedProfile, conflicts: refreshedConflicts } = await loadStaffProfileById(profile.id, {
+        forceRefresh: true,
+      });
+
+      if (refreshedProfile) {
+        setProfile(refreshedProfile);
+        setConflicts(refreshedConflicts);
+      } else {
+        setProfile({
+          ...profile,
+          role: editForm.role,
+          team: editForm.team,
+          email: editForm.email,
+          location: editForm.location,
+          timezone: editForm.timezone,
+          bio: editForm.bio,
+          primaryFocus: editForm.primaryFocus,
+          status: editForm.status,
+          skills: nextSkills,
+        });
+      }
+
+      toast.success('成员资料已更新');
+      setIsEditModalOpen(false);
+    } catch (err) {
+      console.error('[StaffDetailPage] 更新成员资料失败', err);
+      const message = err instanceof Error ? err.message : '保存失败，请稍后重试';
+      toast.error(message);
+    } finally {
+      setSaving(false);
+    }
+  };
+
   if (loading) {
     return (
       <div className="space-y-6 p-6">
@@ -117,7 +214,8 @@ export const StaffDetailPage: React.FC = () => {
   }
 
   return (
-    <div className="space-y-6 p-6">
+    <Fragment>
+      <div className="space-y-6 p-6">
       <section className="flex flex-wrap items-center justify-between gap-4 rounded-3xl bg-gradient-to-r from-blue-50 via-indigo-50 to-blue-100 p-6 shadow-inner dark:from-blue-950/80 dark:via-indigo-950/60 dark:to-blue-950/80">
         <div className="flex items-center gap-4">
           <button
@@ -170,6 +268,14 @@ export const StaffDetailPage: React.FC = () => {
           >
             <ClipboardList className="h-4 w-4" />
             分配任务
+          </Button>
+          <Button
+            variant="outline"
+            onClick={openEditModal}
+            className="inline-flex items-center gap-2 rounded-xl border-gray-200 px-4 py-2 text-sm font-medium text-gray-700 hover:border-blue-200 hover:text-blue-600 dark:border-gray-700 dark:text-gray-300 dark:hover:border-blue-500 dark:hover:text-blue-200"
+          >
+            <Edit3 className="h-4 w-4" />
+            编辑资料
           </Button>
           <Button
             variant="outline"
@@ -277,7 +383,7 @@ export const StaffDetailPage: React.FC = () => {
         </InfoCard>
       </div>
 
-      <InfoCard title="当前工作量" icon={<Activity className="h-4 w-4" />}>
+        <InfoCard title="当前工作量" icon={<Activity className="h-4 w-4" />}>
         <div className="flex items-baseline gap-2">
           <span className="text-2xl font-semibold text-gray-900 dark:text-gray-100">{profile.workload}%</span>
           <span className="text-xs text-gray-500 dark:text-gray-400">工作量指数</span>
@@ -299,8 +405,128 @@ export const StaffDetailPage: React.FC = () => {
         <p className="mt-3 text-xs text-gray-500 dark:text-gray-400">
           建议每周检查任务完成情况，关注高优先级事项，必要时协调团队支援。
         </p>
-      </InfoCard>
-    </div>
+        </InfoCard>
+      </div>
+
+      {isEditModalOpen && editForm ? (
+        <div className="fixed inset-0 z-30 flex items-center justify-center bg-gray-900/50 px-4 py-6 backdrop-blur-sm">
+          <div className="w-full max-w-3xl rounded-3xl bg-white p-6 shadow-2xl dark:bg-gray-900">
+          <header className="mb-6 flex items-center justify-between">
+            <div>
+              <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-50">编辑团队成员资料</h2>
+              <p className="text-sm text-gray-500 dark:text-gray-400">同步更新职位、地区、技能、简介等信息。</p>
+            </div>
+            <button
+              type="button"
+              className="rounded-full p-2 text-gray-400 transition hover:bg-gray-100 hover:text-gray-700 dark:hover:bg-gray-800 dark:hover:text-gray-100"
+              onClick={() => setIsEditModalOpen(false)}
+            >
+              ✕
+            </button>
+          </header>
+          <div className="grid gap-4 md:grid-cols-2">
+            <div className="space-y-1.5">
+              <label className="text-xs font-medium text-gray-500 dark:text-gray-400">职位</label>
+              <input
+                value={editForm.role}
+                onChange={handleFormChange('role')}
+                className="w-full rounded-2xl border border-gray-200 px-3 py-2 text-sm text-gray-900 outline-none ring-blue-100 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100"
+                placeholder="如：高级顾问"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <label className="text-xs font-medium text-gray-500 dark:text-gray-400">所属团队</label>
+              <input
+                value={editForm.team}
+                onChange={handleFormChange('team')}
+                className="w-full rounded-2xl border border-gray-200 px-3 py-2 text-sm text-gray-900 outline-none ring-blue-100 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100"
+                placeholder="如：北美规划组"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <label className="text-xs font-medium text-gray-500 dark:text-gray-400">邮箱</label>
+              <input
+                value={editForm.email}
+                onChange={handleFormChange('email')}
+                className="w-full rounded-2xl border border-gray-200 px-3 py-2 text-sm text-gray-900 outline-none ring-blue-100 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100"
+                placeholder="示例：mentor@infinite.ai"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <label className="text-xs font-medium text-gray-500 dark:text-gray-400">状态</label>
+              <select
+                value={editForm.status}
+                onChange={handleFormChange('status')}
+                className="w-full rounded-2xl border border-gray-200 px-3 py-2 text-sm text-gray-900 outline-none ring-blue-100 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100"
+              >
+                <option value="在岗">在岗</option>
+                <option value="请假">请假</option>
+                <option value="培训">培训</option>
+              </select>
+            </div>
+            <div className="space-y-1.5">
+              <label className="text-xs font-medium text-gray-500 dark:text-gray-400">地区 / 办公地点</label>
+              <input
+                value={editForm.location}
+                onChange={handleFormChange('location')}
+                className="w-full rounded-2xl border border-gray-200 px-3 py-2 text-sm text-gray-900 outline-none ring-blue-100 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100"
+                placeholder="如：上海 · 陆家嘴"
+              />
+            </div>
+            <div className="space-y-1.5">
+              <label className="text-xs font-medium text-gray-500 dark:text-gray-400">时区</label>
+              <input
+                value={editForm.timezone}
+                onChange={handleFormChange('timezone')}
+                className="w-full rounded-2xl border border-gray-200 px-3 py-2 text-sm text-gray-900 outline-none ring-blue-100 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100"
+                placeholder="如：Asia/Shanghai (UTC+8)"
+              />
+            </div>
+            <div className="space-y-1.5 md:col-span-2">
+              <label className="text-xs font-medium text-gray-500 dark:text-gray-400">关键技能（逗号分隔）</label>
+              <input
+                value={editForm.skills}
+                onChange={handleFormChange('skills')}
+                className="w-full rounded-2xl border border-gray-200 px-3 py-2 text-sm text-gray-900 outline-none ring-blue-100 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100"
+                placeholder="选校规划, 材料校对, CRM 建档"
+              />
+            </div>
+            <div className="space-y-1.5 md:col-span-2">
+              <label className="text-xs font-medium text-gray-500 dark:text-gray-400">重点工作方向</label>
+              <input
+                value={editForm.primaryFocus}
+                onChange={handleFormChange('primaryFocus')}
+                className="w-full rounded-2xl border border-gray-200 px-3 py-2 text-sm text-gray-900 outline-none ring-blue-100 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100"
+                placeholder="如：任务 · 加州系统选校方案复盘"
+              />
+            </div>
+            <div className="space-y-1.5 md:col-span-2">
+              <label className="text-xs font-medium text-gray-500 dark:text-gray-400">个人介绍</label>
+              <textarea
+                value={editForm.bio}
+                onChange={handleFormChange('bio')}
+                rows={4}
+                className="w-full rounded-2xl border border-gray-200 px-3 py-2 text-sm text-gray-900 outline-none ring-blue-100 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100"
+                placeholder="补充导师擅长领域、沟通风格与服务经验..."
+              />
+            </div>
+          </div>
+            <footer className="mt-6 flex justify-end gap-2">
+              <Button variant="outline" onClick={() => setIsEditModalOpen(false)} disabled={saving}>
+                取消
+              </Button>
+              <Button
+                onClick={handleSaveProfile}
+                disabled={saving}
+                className="bg-blue-600 text-white hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-60"
+              >
+                {saving ? '保存中…' : '保存修改'}
+              </Button>
+            </footer>
+          </div>
+        </div>
+      ) : null}
+    </Fragment>
   );
 };
 

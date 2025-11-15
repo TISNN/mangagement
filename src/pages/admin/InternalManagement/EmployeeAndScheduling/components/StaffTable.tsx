@@ -60,6 +60,7 @@ export const StaffTable: React.FC<StaffTableProps> = ({ profiles }) => {
               <th className="px-4 py-3">技能标签</th>
               <th className="px-4 py-3">重点工作</th>
               <th className="px-4 py-3">工作量</th>
+              <th className="px-4 py-3">地区</th>
               <th className="px-4 py-3 text-right">操作</th>
             </tr>
           </thead>
@@ -143,19 +144,18 @@ export const StaffTable: React.FC<StaffTableProps> = ({ profiles }) => {
                     >
                       {profile.workload}%
                     </span>
-                    {profile.status === '在岗' ? (
-                      <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-medium text-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-200">
-                        <BadgeCheck className="h-3 w-3" />
-                        在岗
-                      </span>
-                    ) : (
-                      <span className="text-[10px] text-gray-400 dark:text-gray-500">{profile.status}</span>
-                    )}
                   </div>
                   <div className="mt-1 flex flex-wrap gap-2 text-[11px] text-gray-400 dark:text-gray-500">
                     <span>任务 {profile.activeTaskCount}</span>
                     <span>会议 {profile.upcomingMeetingCount}</span>
-                    <span>{profile.timezone}</span>
+                  </div>
+                </td>
+                <td className="px-4 py-3 text-xs text-gray-500 dark:text-gray-400">
+                  <div className="flex flex-col gap-0.5">
+                    <span className="font-medium text-gray-900 dark:text-gray-100">
+                      {profile.location || '未填写'}
+                    </span>
+                    <span className="text-[11px] text-gray-400 dark:text-gray-500">{profile.timezone}</span>
                   </div>
                 </td>
                 <td className="px-4 py-3 text-right">

@@ -18,7 +18,7 @@ interface EmployeeRow {
   hire_date?: string | null;
   location?: string | null;
   is_active?: boolean | null;
-  skills?: unknown;
+  skills?: string | string[] | null;
   is_partner?: boolean | null;
   join_date?: string | null;
 }
@@ -767,5 +767,73 @@ export const loadStaffProfileById = async (
   const profile = dataset.profiles.find((item) => item.id === staffId) ?? null;
   const conflicts = profile ? dataset.conflicts.filter((conflict) => conflict.staff === profile.name) : [];
   return { profile, conflicts };
+};
+
+export interface StaffProfileUpdatePayload {
+  role: string;
+  team: string;
+  email: string;
+  location: string;
+  bio: string;
+  status: StaffProfile['status'];
+  skills: string[];
+}
+
+const STATUS_MAPPING: Record<StaffProfile['status'], boolean> = {
+  在岗: true,
+  请假: false,
+  培训: false,
+};
+
+export const updateStaffProfile = async (staffId: string, payload: StaffProfileUpdatePayload): Promise<void> => {
+  const employeeId = Number(staffId);
+  if (Number.isNaN(employeeId)) {
+    throw new Error('无效的团队成员 ID');
+  }
+
+  const normalizedSkills = payload.skills.filter((skill) => skill.trim().length > 0);
+  const { error: employeeError } = await supabase
+    .from('employees')
+    .update({
+      position: payload.role?.trim() || null,
+      department: payload.team?.trim() || null,
+      email: payload.email?.trim() || null,
+      location: payload.location?.trim() || null,
+      is_active: STATUS_MAPPING[payload.status] ?? true,
+      skills: normalizedSkills.length > 0 ? normalizedSkills : null,
+      updated_at: new Date().toISOString(),
+    })
+    .eq('id', employeeId);
+
+  if (employeeError) {
+    throw new Error(`更新员工档案失败：${employeeError.message}`);
+  }
+
+  const { data: mentorRecord, error: mentorLookupError } = await supabase
+    .from('mentors')
+    .select('id')
+    .eq('employee_id', employeeId)
+    .maybeSingle();
+
+  if (mentorLookupError) {
+    throw new Error(`查询导师资料失败：${mentorLookupError.message}`);
+  }
+
+  if (mentorRecord) {
+    const { error: mentorUpdateError } = await supabase
+      .from('mentors')
+      .update({
+        bio: payload.bio?.trim() || null,
+        location: payload.location?.trim() || null,
+      })
+      .eq('id', mentorRecord.id);
+
+    if (mentorUpdateError) {
+      throw new Error(`更新导师资料失败：${mentorUpdateError.message}`);
+    }
+  }
+
+  cache = null;
+  cacheGeneratedAt = 0;
 };
 
