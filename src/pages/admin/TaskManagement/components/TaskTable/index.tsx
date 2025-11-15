@@ -73,26 +73,6 @@ const TaskTable: React.FC<TaskTableProps> = ({
     return date.toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' });
   };
 
-  // 获取学生状态显示样式
-  const getStudentStatusStyle = (student: UITask['relatedStudent']) => {
-    if (!student) return null;
-    
-    const status = student.status || '';
-    const isActive = student.is_active;
-    
-    if (!isActive && status === '毕业') {
-      return { color: 'text-green-600 dark:text-green-400', bg: 'bg-green-50 dark:bg-green-900/20', label: '毕业' };
-    } else if (!isActive && status === '退学') {
-      return { color: 'text-red-600 dark:text-red-400', bg: 'bg-red-50 dark:bg-red-900/20', label: '退学' };
-    } else if (!isActive && status === '休学') {
-      return { color: 'text-yellow-600 dark:text-yellow-400', bg: 'bg-yellow-50 dark:bg-yellow-900/20', label: '休学' };
-    } else if (isActive && status === '活跃') {
-      return { color: 'text-blue-600 dark:text-blue-400', bg: 'bg-blue-50 dark:bg-blue-900/20', label: '活跃' };
-    } else {
-      return { color: 'text-gray-600 dark:text-gray-400', bg: 'bg-gray-50 dark:bg-gray-900/20', label: status || '未知' };
-    }
-  };
-
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
       <div className="overflow-x-auto overflow-y-visible">
@@ -229,18 +209,10 @@ const TaskTable: React.FC<TaskTableProps> = ({
                             {task.relatedStudent.name.charAt(0)}
                           </div>
                         )}
-                        <div className="flex items-center gap-2 max-w-[150px]">
+                        <div className="flex items-center max-w-[150px]">
                           <span className="text-sm text-gray-700 dark:text-gray-300 truncate">
                             {task.relatedStudent.name}
                           </span>
-                          {(() => {
-                            const statusStyle = getStudentStatusStyle(task.relatedStudent);
-                            return statusStyle ? (
-                              <span className={`px-2 py-0.5 rounded-full text-xs font-medium ${statusStyle.bg} ${statusStyle.color} flex-shrink-0`}>
-                                {statusStyle.label}
-                              </span>
-                            ) : null;
-                          })()}
                         </div>
                       </div>
                     ) : task.relatedLead ? (
