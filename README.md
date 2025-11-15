@@ -105,6 +105,12 @@ Infinite.ai是一个专注于留学全周期服务的数字化平台，连接学
 - 📌 本次提交包含 ActivityPanel/TaskStats/TaskTable 等核心组件与 `dashboardService` 数据结构更新，确保生产环境与文档保持同步
 - 🔎 建议下一次推送前执行 `npm run lint && npm run test` 并在 Dashboard 实际点击铃铛轮询、跳转学生详情，确认未读状态与路由联动正常
 
+### 2025-11-15: 代码仓库同步到 GitHub（团队成员编辑能力）
+
+- ✅ 完成团队成员工作量表“地区”列、详情页资料编辑弹窗与 Supabase 同步逻辑后，已推送至 `origin/main`
+- 🧑‍💼 本次包含 `StaffTable`、`StaffDetailPage`、`employeeAndScheduling` 数据源等文件的新增字段与表单校验，确保运营端可快速维护导师档案
+- 📋 建议下次推送前在团队管理页面回归“编辑资料”“跨地区筛选”流程，并执行 `npm run lint` 检查 Form 组件是否有遗漏依赖
+
 - ✅ 爬虫新增对 `div.location` 模块的解析，精准识别办公室位置、电话与官网链接
 - ✅ 针对邮箱采用智能推断：优先读取页面文本，其次根据个人主页 `~username` 自动生成 `username@comp.nus.edu.sg`
 - ✅ 爬虫输出新增 `phone` 字段，导入脚本同步写入 Supabase `professors.contact_phone`
