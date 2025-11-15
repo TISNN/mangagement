@@ -82,23 +82,20 @@ export async function getMeetingById(id: number): Promise<Meeting | null> {
 /**
  * 创建会议
  */
-export async function createMeeting(formData: MeetingFormData, userId: number): Promise<Meeting | null> {
+export async function createMeeting(formData: MeetingFormData, userId: number, leadId?: string): Promise<Meeting | null> {
   try {
+    const payload = serializeMeetingPayload(formData, true);
+
+    if (!payload.start_time) {
+      throw new Error('会议开始时间不能为空');
+    }
+
     const { data, error } = await supabase
       .from('meetings')
       .insert({
-        title: formData.title,
-        meeting_type: formData.meeting_type,
-        status: formData.status,
-        start_time: formData.start_time,
-        end_time: formData.end_time || null,
-        location: formData.location || null,
-        meeting_link: formData.meeting_link || null,
-        participants: formData.participants,
-        agenda: formData.agenda || null,
-        minutes: formData.minutes || null,
-        summary: formData.summary || null,
+        ...payload,
         attachments: formData.attachments || null,
+        lead_id: leadId || null,
         created_by: userId,
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString()
@@ -120,12 +117,18 @@ export async function createMeeting(formData: MeetingFormData, userId: number): 
 /**
  * 更新会议
  */
-export async function updateMeeting(id: number, formData: Partial<MeetingFormData>): Promise<Meeting | null> {
+export async function updateMeeting(id: number, formData: Partial<MeetingFormData>, leadId?: string): Promise<Meeting | null> {
   try {
+    const payload = serializeMeetingPayload(formData, false);
     const updateData: any = {
-      ...formData,
+      ...payload,
       updated_at: new Date().toISOString()
     };
+    
+    // 如果提供了 leadId，更新关联
+    if (leadId !== undefined) {
+      updateData.lead_id = leadId || null;
+    }
 
     const { data, error } = await supabase
       .from('meetings')
@@ -142,6 +145,70 @@ export async function updateMeeting(id: number, formData: Partial<MeetingFormDat
   } catch (error) {
     console.error('更新会议失败:', error);
     throw error;
+  }
+}
+
+/**
+ * 获取关联到指定线索的所有会议
+ */
+export async function getMeetingsByLeadId(leadId: string): Promise<Meeting[]> {
+  try {
+    const { data, error } = await supabase
+      .from('meetings')
+      .select(`
+        *,
+        employees:created_by(name)
+      `)
+      .eq('lead_id', leadId)
+      .order('start_time', { ascending: false });
+
+    if (error) throw error;
+    return (data || []).map(transformDbToFrontend);
+  } catch (error) {
+    console.error('获取线索关联会议失败:', error);
+    return [];
+  }
+}
+
+/**
+ * 关联会议到线索
+ */
+export async function associateMeetingToLead(meetingId: number, leadId: string): Promise<boolean> {
+  try {
+    const { error } = await supabase
+      .from('meetings')
+      .update({
+        lead_id: leadId,
+        updated_at: new Date().toISOString()
+      })
+      .eq('id', meetingId);
+
+    if (error) throw error;
+    return true;
+  } catch (error) {
+    console.error('关联会议到线索失败:', error);
+    return false;
+  }
+}
+
+/**
+ * 取消会议与线索的关联
+ */
+export async function disassociateMeetingFromLead(meetingId: number): Promise<boolean> {
+  try {
+    const { error } = await supabase
+      .from('meetings')
+      .update({
+        lead_id: null,
+        updated_at: new Date().toISOString()
+      })
+      .eq('id', meetingId);
+
+    if (error) throw error;
+    return true;
+  } catch (error) {
+    console.error('取消会议关联失败:', error);
+    return false;
   }
 }
 
@@ -270,11 +337,68 @@ function transformDbToFrontend(dbData: any): Meeting {
     minutes: dbData.minutes,
     summary: dbData.summary,
     attachments: dbData.attachments || [],
+    lead_id: dbData.lead_id,
     created_by: dbData.created_by,
     created_by_name: dbData.employees?.name,
     created_at: dbData.created_at,
     updated_at: dbData.updated_at
   };
+}
+
+function toISOStringOrNull(value?: string): string | null | undefined {
+  if (value === undefined) return undefined;
+  if (!value) return null;
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    console.warn('Invalid date value,忽略:', value);
+    return null;
+  }
+  return date.toISOString();
+}
+
+function nullableString(value?: string): string | null | undefined {
+  if (value === undefined) return undefined;
+  return value?.trim() ? value : null;
+}
+
+function serializeMeetingPayload(formData: Partial<MeetingFormData>, includeDefaults: boolean) {
+  const payload: any = {};
+
+  if (formData.title !== undefined) payload.title = formData.title;
+  if (formData.meeting_type !== undefined) payload.meeting_type = formData.meeting_type;
+  if (formData.status !== undefined) payload.status = formData.status;
+
+  const startTime = toISOStringOrNull(formData.start_time);
+  if (startTime !== undefined) payload.start_time = startTime;
+  const endTime = toISOStringOrNull(formData.end_time);
+  if (endTime !== undefined) payload.end_time = endTime;
+
+  const location = nullableString(formData.location);
+  if (location !== undefined) payload.location = location;
+  const meetingLink = nullableString(formData.meeting_link);
+  if (meetingLink !== undefined) payload.meeting_link = meetingLink;
+  const agenda = nullableString(formData.agenda);
+  if (agenda !== undefined) payload.agenda = agenda;
+  const summary = nullableString(formData.summary);
+  if (summary !== undefined) payload.summary = summary;
+  const minutes = nullableString(formData.minutes);
+  if (minutes !== undefined) payload.minutes = minutes;
+
+  if (formData.participants !== undefined) {
+    payload.participants = formData.participants;
+  } else if (includeDefaults) {
+    payload.participants = [];
+  }
+
+  if (includeDefaults) {
+    if (payload.location === undefined) payload.location = null;
+    if (payload.meeting_link === undefined) payload.meeting_link = null;
+    if (payload.agenda === undefined) payload.agenda = null;
+    if (payload.summary === undefined) payload.summary = null;
+    if (payload.minutes === undefined) payload.minutes = null;
+  }
+
+  return payload;
 }
 
 /**

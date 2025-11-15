@@ -3,7 +3,7 @@
  */
 
 import { useState, useEffect } from 'react';
-import { X, Calendar, Clock, MapPin, Link as LinkIcon, Users, Plus, Loader2 } from 'lucide-react';
+import { X, Calendar, Clock, MapPin, Link as LinkIcon, Users, Plus, Loader2, Save, Wand2 } from 'lucide-react';
 import { MeetingFormData, MeetingType, MeetingStatus, Participant } from '../types';
 import { getMentors, getStudents, getEmployees } from '../services/meetingService';
 
@@ -11,23 +11,32 @@ interface CreateMeetingModalProps {
   onClose: () => void;
   onSave: (data: MeetingFormData) => Promise<void>;
   initialData?: Partial<MeetingFormData>;
+  mode?: 'create' | 'edit';
 }
 
-export default function CreateMeetingModal({ onClose, onSave, initialData }: CreateMeetingModalProps) {
+const buildInitialFormData = (initialData?: Partial<MeetingFormData>): MeetingFormData => ({
+  title: initialData?.title || '',
+  meeting_type: initialData?.meeting_type || '日常进度沟通',
+  status: initialData?.status || '待举行',
+  start_time: initialData?.start_time || '',
+  end_time: initialData?.end_time || '',
+  location: initialData?.location || '',
+  meeting_link: initialData?.meeting_link || '',
+  participants: initialData?.participants || [],
+  agenda: initialData?.agenda || '',
+  summary: initialData?.summary || '',
+  minutes: initialData?.minutes || '',
+});
+
+export default function CreateMeetingModal({ onClose, onSave, initialData, mode = 'create' }: CreateMeetingModalProps) {
   const [saving, setSaving] = useState(false);
-  const [formData, setFormData] = useState<MeetingFormData>({
-    title: initialData?.title || '',
-    meeting_type: initialData?.meeting_type || '日常进度沟通',
-    status: initialData?.status || '待举行',
-    start_time: initialData?.start_time || '',
-    end_time: initialData?.end_time || '',
-    location: initialData?.location || '',
-    meeting_link: initialData?.meeting_link || '',
-    participants: initialData?.participants || [],
-    agenda: initialData?.agenda || '',
-    summary: initialData?.summary || '',
-    minutes: initialData?.minutes || '',
-  });
+  const [formData, setFormData] = useState<MeetingFormData>(buildInitialFormData(initialData));
+  const [parserInput, setParserInput] = useState('');
+  const [showParser, setShowParser] = useState(false);
+
+  useEffect(() => {
+    setFormData(buildInitialFormData(initialData));
+  }, [initialData]);
 
   // 参会人选择
   const [showParticipantSelect, setShowParticipantSelect] = useState(false);
@@ -91,7 +100,6 @@ export default function CreateMeetingModal({ onClose, onSave, initialData }: Cre
     if (!formData.participants.find(p => p.id === participant.id)) {
       updateField('participants', [...formData.participants, participant]);
     }
-    setShowParticipantSelect(false);
   };
 
   // 添加自定义参会人
@@ -122,13 +130,57 @@ export default function CreateMeetingModal({ onClose, onSave, initialData }: Cre
     '待举行', '进行中', '已完成', '已取消', '延期'
   ];
 
+  const parseInvitation = (raw: string) => {
+    const text = raw.trim();
+    if (!text) return null;
+
+    const titleMatch = text.match(/会议主题[：:]\s*(.+)/);
+    const timeMatch = text.match(/会议时间[：:]\s*([0-9]{4}[\\/.-][0-9]{1,2}[\\/.-][0-9]{1,2})\s+([0-9]{1,2}:[0-9]{2})-([0-9]{1,2}:[0-9]{2})/);
+    const tzMatch = text.match(/\(GMT([+|-]\d{2}):?(\d{2})?\)/);
+    const linkMatch = text.match(/https?:\/\/\S+/);
+
+    if (!timeMatch) return null;
+
+    const [, datePart, startPart, endPart] = timeMatch;
+    const normalizedDate = datePart.replace(/[.]/g, '/').replace(/-/g, '/');
+
+    const toLocalValue = (time: string) => {
+      const iso = new Date(`${normalizedDate} ${time}:00`);
+      if (Number.isNaN(iso.getTime())) return '';
+      const tzOffset = iso.getTimezoneOffset();
+      const local = new Date(iso.getTime() - tzOffset * 60000);
+      return local.toISOString().slice(0, 16);
+    };
+
+    return {
+      title: titleMatch?.[1]?.trim(),
+      start_time: toLocalValue(startPart),
+      end_time: toLocalValue(endPart),
+      meeting_link: linkMatch?.[0],
+    };
+  };
+
+  const handleParse = () => {
+    const parsed = parseInvitation(parserInput);
+    if (!parsed) {
+      alert('未能从文本中识别出有效的会议信息，请检查格式。');
+      return;
+    }
+    if (parsed.title) updateField('title', parsed.title);
+    if (parsed.start_time) updateField('start_time', parsed.start_time);
+    if (parsed.end_time) updateField('end_time', parsed.end_time);
+    if (parsed.meeting_link) updateField('meeting_link', parsed.meeting_link);
+    setParserInput('');
+    alert('已根据文本自动填充表单，请确认信息后保存。');
+  };
+
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
       <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl max-w-3xl w-full max-h-[90vh] overflow-hidden flex flex-col">
         {/* 标题栏 */}
         <div className="flex items-center justify-between p-6 border-b border-gray-200 dark:border-gray-700">
           <h2 className="text-xl font-semibold text-gray-900 dark:text-white">
-            {initialData ? '编辑会议' : '创建会议'}
+            {mode === 'edit' ? '编辑会议' : '创建会议'}
           </h2>
           <button
             onClick={onClose}
@@ -141,6 +193,41 @@ export default function CreateMeetingModal({ onClose, onSave, initialData }: Cre
         {/* 表单内容 */}
         <form onSubmit={handleSubmit} className="flex-1 overflow-y-auto p-6">
           <div className="space-y-6">
+            <div className="rounded-xl border border-dashed border-gray-200 dark:border-gray-700 p-4 bg-gray-50 dark:bg-gray-900/40">
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-sm font-medium text-gray-800 dark:text-gray-100">文本解析</p>
+                  <p className="text-xs text-gray-500 dark:text-gray-400">粘贴会议邀请文本，自动提取标题/时间/链接。</p>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setShowParser(!showParser)}
+                  className="text-sm text-blue-600 hover:underline dark:text-blue-400"
+                >
+                  {showParser ? '收起' : '展开'}
+                </button>
+              </div>
+              {showParser && (
+                <div className="mt-3 space-y-3">
+                  <textarea
+                    value={parserInput}
+                    onChange={(e) => setParserInput(e.target.value)}
+                    rows={4}
+                    placeholder="例如：\n会议主题：XXX\n会议时间：2025/11/16 17:00-18:00 (GMT+08:00)\nhttps://..."
+                    className="w-full rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-sm text-gray-700 dark:text-gray-200 px-3 py-2"
+                  />
+                  <button
+                    type="button"
+                    onClick={handleParse}
+                    className="inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700"
+                  >
+                    <Wand2 className="h-4 w-4" />
+                    一键填充
+                  </button>
+                </div>
+              )}
+            </div>
+
             {/* 会议标题 */}
             <div>
               <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
@@ -466,10 +553,15 @@ export default function CreateMeetingModal({ onClose, onSave, initialData }: Cre
                 <Loader2 className="h-4 w-4 animate-spin" />
                 保存中...
               </>
+            ) : mode === 'edit' ? (
+              <>
+                <Save className="h-4 w-4" />
+                保存修改
+              </>
             ) : (
               <>
                 <Plus className="h-4 w-4" />
-                {initialData ? '保存' : '创建'}
+                创建会议
               </>
             )}
           </button>

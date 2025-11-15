@@ -52,6 +52,7 @@ export interface DashboardEvent {
   type: 'meeting' | 'deadline' | 'event';
   color: 'blue' | 'red' | 'green' | 'purple' | 'orange';
   description?: string;
+  link?: string;
 }
 
 /**

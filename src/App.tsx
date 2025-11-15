@@ -180,6 +180,7 @@ function App() {
             id: 'internal-management/recruitment',
             color: 'blue',
           },
+          { icon: Briefcase, text: '服务项目', id: 'projects', color: 'blue' },
         ],
       },
       {
@@ -250,7 +251,6 @@ function App() {
       { icon: School, text: '院校库', id: 'school-library', color: 'blue' },
       { icon: BookOpen, text: '专业库', id: 'program-library', color: 'blue' },
       { icon: Brain, text: '智能选校', id: 'smart-selection', color: 'blue' },
-      { icon: Briefcase, text: '服务项目', id: 'projects', color: 'blue' },
       { icon: FileCheck, text: '申请进度', id: 'applications', color: 'blue' },
       { icon: MessagesSquare, text: '客户线索', id: 'leads', color: 'blue' },
       { icon: Calendar, text: '会议管理', id: 'meetings', color: 'blue' },
@@ -266,14 +266,14 @@ function App() {
       { icon: PieChart, text: '财务中台', id: 'finance-suite', color: 'blue' },
       { icon: Wallet, text: '财务管理（旧版）', id: 'finance', color: 'gray' },
       { icon: Settings, text: '密码设置', id: 'settings', color: 'blue' },
-      { icon: Globe2, text: '服务项目', id: 'services', color: 'blue' },
     ],
     [skyOfficeExternalUrl],
   );
 
   const pinnedNavigationItems = useMemo<NavigationItem[]>(
     () => [
-      { icon: Globe2, text: '服务中心', id: 'service-center', color: 'blue' },
+      // { icon: Globe2, text: '服务中心', id: 'service-center', color: 'blue' },
+      { icon: Globe2, text: '服务项目', id: 'services', color: 'blue' },
       { icon: Grid3x3, text: '应用中心', id: 'app-center', color: 'purple' },
     ],
     [],
@@ -772,11 +772,6 @@ function App() {
                   </nav>
 
                   <div className={`mt-4 space-y-2 border-t border-gray-200 pt-4 dark:border-gray-700 ${isNavCollapsed ? 'px-1' : ''}`}>
-                    {!isNavCollapsed && (
-                      <p className="text-xs font-semibold uppercase tracking-wide text-gray-400 dark:text-gray-500">
-                        固定入口
-                      </p>
-                    )}
                     {renderNavItems(pinnedNavigationItems, 0, 'pinned-')}
                   </div>
                   

@@ -25,6 +25,9 @@ export interface Meeting {
   // 关联文档
   attachments?: MeetingAttachment[];
   
+  // 关联线索
+  lead_id?: string;
+  
   // 元数据
   created_by: number;
   created_by_name?: string;

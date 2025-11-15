@@ -315,13 +315,17 @@ export async function getDashboardActivities(limit: number = 5): Promise<Dashboa
 /**
  * 获取即将到来的日程（从tasks表获取有截止日期的未完成任务）
  */
-export async function getDashboardEvents(): Promise<DashboardEvent[]> {
+export async function getDashboardEvents(limit: number = 6): Promise<DashboardEvent[]> {
   try {
+    type TimedEvent = DashboardEvent & { timestamp: number };
+
     // 获取今天和未来7天内有截止日期的任务
     const today = new Date();
     today.setHours(0, 0, 0, 0);
     const nextWeek = new Date(today);
     nextWeek.setDate(nextWeek.getDate() + 7);
+    const nextWeekEnd = new Date(nextWeek);
+    nextWeekEnd.setHours(23, 59, 59, 999);
 
     const { data: tasksData, error } = await supabase
       .from('tasks')
@@ -338,8 +342,20 @@ export async function getDashboardEvents(): Promise<DashboardEvent[]> {
       return [];
     }
 
-    if (!tasksData || tasksData.length === 0) {
-      return [];
+    const taskRecords = tasksData || [];
+
+    // 获取会议数据
+    const { data: meetingsData, error: meetingsError } = await supabase
+      .from('meetings')
+      .select('id, title, start_time, meeting_type, status, meeting_link')
+      .not('status', 'in', '(已取消,已完成)')
+      .gte('start_time', today.toISOString())
+      .lte('start_time', nextWeekEnd.toISOString())
+      .order('start_time', { ascending: true })
+      .limit(limit);
+
+    if (meetingsError) {
+      console.error('获取Dashboard会议失败:', meetingsError);
     }
 
     // 转换为日程格式
@@ -347,18 +363,18 @@ export async function getDashboardEvents(): Promise<DashboardEvent[]> {
     const tomorrow = new Date(today);
     tomorrow.setDate(tomorrow.getDate() + 1);
 
-    const events: DashboardEvent[] = tasksData.map((task: any) => {
-      const dueDate = new Date(task.due_date);
-      
-      // 确定日期显示文本
-      let dateText = '';
-      if (dueDate.toDateString() === today.toDateString()) {
-        dateText = '今天';
-      } else if (dueDate.toDateString() === tomorrow.toDateString()) {
-        dateText = '明天';
-      } else {
-        dateText = dueDate.toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' });
+    const formatDateText = (targetDate: Date) => {
+      if (targetDate.toDateString() === today.toDateString()) {
+        return '今天';
       }
+      if (targetDate.toDateString() === tomorrow.toDateString()) {
+        return '明天';
+      }
+      return targetDate.toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' });
+    };
+
+    const taskEvents: TimedEvent[] = taskRecords.map((task: any) => {
+      const dueDate = new Date(task.due_date);
 
       // 根据优先级确定颜色和类型
       let color: 'blue' | 'purple' | 'green' | 'orange' | 'red' = 'blue';
@@ -377,15 +393,50 @@ export async function getDashboardEvents(): Promise<DashboardEvent[]> {
 
       return {
         id: task.id,
-        date: dateText,
+        date: formatDateText(dueDate),
         time: '', // 任务没有具体时间，留空
         title: task.title,
         type,
         color,
+        timestamp: dueDate.getTime(),
       };
     });
 
-    return events;
+    const meetingEvents: TimedEvent[] = (meetingsData || []).map((meeting: any) => {
+      const startDate = new Date(meeting.start_time);
+
+      let color: 'blue' | 'purple' | 'green' | 'orange' | 'red' = 'green';
+      switch (meeting.status) {
+        case '进行中':
+          color = 'purple';
+          break;
+        case '延期':
+          color = 'orange';
+          break;
+        case '待举行':
+        default:
+          color = 'green';
+      }
+
+      return {
+        id: meeting.id,
+        date: formatDateText(startDate),
+        time: startDate.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' }),
+        title: meeting.title || '未命名会议',
+        type: 'meeting' as const,
+        color,
+        description: meeting.meeting_type || '会议',
+        link: meeting.meeting_link || undefined,
+        timestamp: startDate.getTime(),
+      };
+    });
+
+    const mergedEvents = [...taskEvents, ...meetingEvents]
+      .sort((a, b) => a.timestamp - b.timestamp)
+      .slice(0, limit)
+      .map(({ timestamp, ...event }) => event);
+
+    return mergedEvents;
   } catch (error) {
     console.error('获取Dashboard日程失败:', error);
     return [];

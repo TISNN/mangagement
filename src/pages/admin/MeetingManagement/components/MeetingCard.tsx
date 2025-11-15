@@ -2,7 +2,8 @@
  * 会议卡片组件
  */
 
-import { Calendar, Clock, Users, MapPin, Link as LinkIcon, FileText, Edit2 } from 'lucide-react';
+import { useState } from 'react';
+import { Calendar, Clock, Users, MapPin, Link as LinkIcon, FileText, Edit2, MoreVertical, Play } from 'lucide-react';
 import { Meeting } from '../types';
 import { formatDateTime } from '../../../../utils/dateUtils';
 
@@ -10,6 +11,9 @@ interface MeetingCardProps {
   meeting: Meeting;
   onClick: () => void;
   onEditDocument?: (e: React.MouseEvent) => void;
+  onEditMeeting?: (e: React.MouseEvent) => void;
+  onStartMeeting?: (e: React.MouseEvent) => void;
+  onDeleteMeeting?: (e: React.MouseEvent) => void;
 }
 
 const statusColors = {
@@ -35,7 +39,25 @@ const typeColors = {
   '其他': 'bg-gray-50 text-gray-700 dark:bg-gray-900/20 dark:text-gray-400',
 };
 
-export default function MeetingCard({ meeting, onClick, onEditDocument }: MeetingCardProps) {
+export default function MeetingCard({
+  meeting,
+  onClick,
+  onEditDocument,
+  onEditMeeting,
+  onStartMeeting,
+  onDeleteMeeting,
+}: MeetingCardProps) {
+  const [showActions, setShowActions] = useState(false);
+
+  const handleActionClick = (
+    event: React.MouseEvent,
+    callback?: (event: React.MouseEvent) => void
+  ) => {
+    event.stopPropagation();
+    setShowActions(false);
+    callback?.(event);
+  };
+
   return (
     <div
       onClick={onClick}
@@ -60,16 +82,62 @@ export default function MeetingCard({ meeting, onClick, onEditDocument }: Meetin
             </span>
           </div>
         </div>
-        {/* 编辑文档按钮 */}
-        {onEditDocument && (
-          <button
-            onClick={onEditDocument}
-            className="flex items-center gap-1 px-3 py-1.5 text-sm text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 rounded-lg transition-colors"
-            title="编辑会议文档"
-          >
-            <Edit2 className="h-4 w-4" />
-            <span className="hidden sm:inline">编辑文档</span>
-          </button>
+        {(onEditDocument || onEditMeeting || onDeleteMeeting) && (
+          <div className="flex items-center gap-2">
+            {onStartMeeting && (
+              <button
+                onClick={(event) => handleActionClick(event, onStartMeeting)}
+                className="rounded-full border border-emerald-500 px-3 py-1 text-xs font-medium text-emerald-600 hover:bg-emerald-50 dark:text-emerald-300 dark:hover:bg-emerald-900/20"
+              >
+                开始会议
+              </button>
+            )}
+            <div className="relative">
+              <button
+                onClick={(event) => {
+                  event.stopPropagation();
+                  setShowActions((prev) => !prev);
+                }}
+                className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-500 dark:text-gray-300"
+              >
+                <MoreVertical className="h-5 w-5" />
+              </button>
+              {showActions && (
+                <div
+                  className="absolute right-0 mt-2 w-40 rounded-xl border border-gray-200 bg-white shadow-lg dark:border-gray-700 dark:bg-gray-800 z-10"
+                  onMouseLeave={() => setShowActions(false)}
+                >
+                  {onEditMeeting && (
+                    <button
+                      onClick={(event) => handleActionClick(event, onEditMeeting)}
+                      className="flex w-full items-center gap-2 px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 dark:text-gray-200 dark:hover:bg-gray-700"
+                    >
+                      <Edit2 className="h-4 w-4 text-indigo-500" />
+                      编辑会议
+                    </button>
+                  )}
+                  {onEditDocument && (
+                    <button
+                      onClick={(event) => handleActionClick(event, onEditDocument)}
+                      className="flex w-full items-center gap-2 px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 dark:text-gray-200 dark:hover:bg-gray-700"
+                    >
+                      <FileText className="h-4 w-4 text-blue-500" />
+                      编辑文档
+                    </button>
+                  )}
+                  {onDeleteMeeting && (
+                    <button
+                      onClick={(event) => handleActionClick(event, onDeleteMeeting)}
+                      className="flex w-full items-center gap-2 px-3 py-2 text-sm text-red-600 hover:bg-red-50 dark:text-red-300 dark:hover:bg-red-900/30"
+                    >
+                      <MoreVertical className="h-4 w-4 rotate-90 text-red-500" />
+                      删除会议
+                    </button>
+                  )}
+                </div>
+              )}
+            </div>
+          </div>
         )}
       </div>
 

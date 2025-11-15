@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Edit, X, ArrowLeft, Clock, Calendar, AlertCircle, CheckCircle, Trash2, Send, UserPlus, Phone, RefreshCw, AlertTriangle } from 'lucide-react';
+import { Edit, X, ArrowLeft, Clock, Calendar, AlertCircle, CheckCircle, Trash2, Send, UserPlus, Phone, RefreshCw, AlertTriangle, Video, Plus, Link2, MapPin, Users } from 'lucide-react';
 import { toast } from 'react-hot-toast';
 import { Lead } from '../../types/lead';
 import { LeadLog } from '../../services/leadService';
@@ -9,6 +9,9 @@ import { Mentor } from '../../services/mentorService';
 import { leadService, serviceTypeService, mentorService } from '../../services';
 import LeadToStudentModal from '../../components/LeadToStudentModal';
 import { simplifyDateFormat } from '../../utils/dateUtils';
+import CreateMeetingModal from './MeetingManagement/components/CreateMeetingModal';
+import { createMeeting, getMeetingsByLeadId, associateMeetingToLead, getMeetings, type Meeting } from './MeetingManagement/services/meetingService';
+import type { MeetingFormData } from '../MeetingManagement/types';
 
 // 定义简单的Timeline组件
 interface TimelineItemProps {
@@ -93,6 +96,25 @@ function LeadDetailPage() {
   
   // 添加网络错误状态
   const [networkError, setNetworkError] = useState(false);
+  
+  // 会议相关状态
+  const [meetings, setMeetings] = useState<Meeting[]>([]);
+  const [loadingMeetings, setLoadingMeetings] = useState(false);
+  const [showCreateMeetingModal, setShowCreateMeetingModal] = useState(false);
+  const [showAssociateMeetingModal, setShowAssociateMeetingModal] = useState(false);
+  const [availableMeetings, setAvailableMeetings] = useState<Meeting[]>([]);
+  const [loadingAvailableMeetings, setLoadingAvailableMeetings] = useState(false);
+  const [meetingSearchTerm, setMeetingSearchTerm] = useState('');
+  const filteredAvailableMeetings = useMemo(() => {
+    const keyword = meetingSearchTerm.trim().toLowerCase();
+    if (!keyword) return availableMeetings;
+    return availableMeetings.filter(
+      (meeting) =>
+        meeting.title?.toLowerCase().includes(keyword) ||
+        meeting.meeting_type?.toLowerCase().includes(keyword) ||
+        meeting.summary?.toLowerCase().includes(keyword)
+    );
+  }, [availableMeetings, meetingSearchTerm]);
   
   // 状态标签颜色映射
   const statusColorMap: Record<string, string> = {
@@ -192,6 +214,14 @@ function LeadDetailPage() {
           console.error('获取线索日志失败 (可恢复错误):', error);
           // 不阻止主页面加载
         }
+        
+        // 加载关联的会议数据
+        try {
+          await fetchMeetings();
+        } catch (error) {
+          console.error('获取关联会议失败 (可恢复错误):', error);
+          // 不阻止主页面加载
+        }
       } catch (error) {
         console.error('获取数据失败:', error);
         
@@ -226,6 +256,12 @@ function LeadDetailPage() {
     
     fetchData();
   }, [leadId, navigate, retryCount, maxRetries]);
+
+  useEffect(() => {
+    if (showAssociateMeetingModal) {
+      fetchAvailableMeetings();
+    }
+  }, [showAssociateMeetingModal]);
   
   // 获取线索日志
   const fetchLeadLogs = async () => {
@@ -284,20 +320,20 @@ function LeadDetailPage() {
   
   // 获取当前用户信息
   useEffect(() => {
-    const fetchCurrentUser = async () => {
+    const fetchCurrentUser = () => {
       try {
-        // 这里可以从supabase或其他存储中获取当前用户
-        // 示例：从localStorage获取
-        const userStr = localStorage.getItem('currentUser');
-        if (userStr) {
-          setCurrentUser(JSON.parse(userStr));
-        } else {
-          // 如果没有找到用户，设置一个默认值
-          setCurrentUser({id: '1', name: '系统管理员'});
+        const employeeStr = localStorage.getItem('currentEmployee');
+        if (employeeStr) {
+          const employee = JSON.parse(employeeStr);
+          if (employee?.id) {
+            setCurrentUser({ id: String(employee.id), name: employee.name || '员工' });
+            return;
+          }
         }
+        setCurrentUser(null);
       } catch (error) {
-        console.error('获取当前用户失败', error);
-        setCurrentUser({id: '1', name: '系统管理员'});
+        console.error('获取当前员工失败', error);
+        setCurrentUser(null);
       }
     };
     
@@ -363,6 +399,87 @@ function LeadDetailPage() {
   const getMentorInfo = (mentorId: string) => {
     if (!mentorId) return null;
     return mentors.find(m => m.id === parseInt(mentorId)) || null;
+  };
+  
+  // 获取关联的会议
+  const fetchMeetings = async () => {
+    if (!leadId) return;
+    
+    setLoadingMeetings(true);
+    try {
+      const meetingsData = await getMeetingsByLeadId(leadId);
+      setMeetings(meetingsData);
+    } catch (error) {
+      console.error('获取关联会议失败:', error);
+      toast.error('获取关联会议失败');
+    } finally {
+      setLoadingMeetings(false);
+    }
+  };
+  
+  const fetchAvailableMeetings = async () => {
+    setLoadingAvailableMeetings(true);
+    try {
+      const list = await getMeetings();
+      setAvailableMeetings(list);
+    } catch (error) {
+      console.error('获取会议列表失败:', error);
+      toast.error('获取会议列表失败，请稍后再试');
+    } finally {
+      setLoadingAvailableMeetings(false);
+    }
+  };
+  
+  // 创建会议
+  const handleCreateMeeting = async (formData: MeetingFormData) => {
+    if (!leadId || !currentUser) {
+      toast.error('无法创建会议：缺少必要信息');
+      return;
+    }
+    
+    try {
+      const userId = parseInt(currentUser.id);
+      if (isNaN(userId)) {
+        toast.error('用户ID无效');
+        return;
+      }
+      
+      // 如果标题为空，使用线索名称作为默认标题
+      if (!formData.title.trim()) {
+        formData.title = `${lead?.name || '线索'} - 沟通会议`;
+      }
+      
+      await createMeeting(formData, userId, leadId);
+      toast.success('会议创建成功');
+      setShowCreateMeetingModal(false);
+      await fetchMeetings();
+    } catch (error) {
+      console.error('创建会议失败:', error);
+      toast.error('创建会议失败，请重试');
+      throw error;
+    }
+  };
+  
+  // 关联已有会议
+  const handleAssociateMeeting = async (meetingId: number) => {
+    if (!leadId) {
+      toast.error('线索ID不存在');
+      return;
+    }
+    
+    try {
+      const success = await associateMeetingToLead(meetingId, leadId);
+      if (success) {
+        toast.success('会议关联成功');
+        setShowAssociateMeetingModal(false);
+        await fetchMeetings();
+      } else {
+        toast.error('关联会议失败');
+      }
+    } catch (error) {
+      console.error('关联会议失败:', error);
+      toast.error('关联会议失败，请重试');
+    }
   };
   
   // 处理转换为学生完成
@@ -1545,8 +1662,239 @@ function LeadDetailPage() {
               </div>
             )}
           </div>
+          
+          {/* 关联会议区域 */}
+          <div className="bg-white rounded-2xl shadow-sm p-6 mb-6 dark:bg-gray-800 border border-gray-100 dark:border-gray-700">
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="font-medium dark:text-white flex items-center gap-2">
+                <Video className="h-5 w-5 text-blue-500" />
+                关联会议
+              </h3>
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={() => setShowAssociateMeetingModal(true)}
+                  className="px-3 py-1.5 text-sm border border-gray-300 rounded-lg hover:bg-gray-50 dark:border-gray-600 dark:hover:bg-gray-700 dark:text-gray-300 flex items-center gap-1"
+                >
+                  <Link2 className="h-4 w-4" />
+                  关联已有会议
+                </button>
+                <button
+                  onClick={() => setShowCreateMeetingModal(true)}
+                  className="px-3 py-1.5 text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700 flex items-center gap-1"
+                >
+                  <Plus className="h-4 w-4" />
+                  创建新会议
+                </button>
+              </div>
+            </div>
+            
+            {loadingMeetings ? (
+              <div className="flex justify-center items-center py-12">
+                <div className="animate-spin rounded-full h-10 w-10 border-4 border-gray-200 border-t-blue-500"></div>
+                <span className="ml-3 text-gray-500 dark:text-gray-400">加载会议中...</span>
+              </div>
+            ) : (
+              <div className="space-y-3">
+                {meetings && meetings.length > 0 ? (
+                  meetings.map((meeting) => (
+                    <div
+                      key={meeting.id}
+                      className="p-4 border border-gray-100 rounded-lg hover:border-blue-200 dark:border-gray-700 dark:hover:border-blue-500/40 transition cursor-pointer"
+                      onClick={() => navigate(`/admin/meetings/${meeting.id}`)}
+                    >
+                      <div className="flex items-start justify-between">
+                        <div className="flex-1">
+                          <div className="flex items-center gap-2 mb-2">
+                            <h4 className="font-medium dark:text-white">{meeting.title}</h4>
+                            <span className={`px-2 py-0.5 rounded-full text-xs ${
+                              meeting.status === '待举行' ? 'bg-blue-50 text-blue-600 dark:bg-blue-900/30 dark:text-blue-200' :
+                              meeting.status === '进行中' ? 'bg-green-50 text-green-600 dark:bg-green-900/30 dark:text-green-200' :
+                              meeting.status === '已完成' ? 'bg-gray-50 text-gray-600 dark:bg-gray-700 dark:text-gray-300' :
+                              meeting.status === '已取消' ? 'bg-red-50 text-red-600 dark:bg-red-900/30 dark:text-red-200' :
+                              'bg-yellow-50 text-yellow-600 dark:bg-yellow-900/30 dark:text-yellow-200'
+                            }`}>
+                              {meeting.status}
+                            </span>
+                            <span className="px-2 py-0.5 rounded-full text-xs bg-purple-50 text-purple-600 dark:bg-purple-900/30 dark:text-purple-200">
+                              {meeting.meeting_type}
+                            </span>
+                          </div>
+                          <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                            <div className="flex items-center gap-1">
+                              <Calendar className="h-4 w-4" />
+                              <span>{simplifyDateFormat(meeting.start_time)}</span>
+                            </div>
+                            {meeting.location && (
+                              <div className="flex items-center gap-1">
+                                <MapPin className="h-4 w-4" />
+                                <span>{meeting.location}</span>
+                              </div>
+                            )}
+                            {meeting.participants && meeting.participants.length > 0 && (
+                              <div className="flex items-center gap-1">
+                                <Users className="h-4 w-4" />
+                                <span>{meeting.participants.length} 位参会人</span>
+                              </div>
+                            )}
+                          </div>
+                          {meeting.summary && (
+                            <p className="mt-2 text-sm text-gray-600 dark:text-gray-300 line-clamp-2">
+                              {meeting.summary}
+                            </p>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  ))
+                ) : (
+                  <div className="text-center text-gray-500 py-8 dark:text-gray-400">
+                    <Video className="h-12 w-12 mx-auto mb-3 text-gray-300 dark:text-gray-600" />
+                    <p>暂无关联会议</p>
+                    <p className="text-sm mt-1">创建新会议或关联已有会议，记录与线索的沟通</p>
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
         </div>
       </div>
+      
+      {/* 创建会议模态框 */}
+      {showCreateMeetingModal && (
+        <CreateMeetingModal
+          onClose={() => setShowCreateMeetingModal(false)}
+          onSave={handleCreateMeeting}
+          initialData={{
+            title: lead ? `${lead.name} - 沟通会议` : '沟通会议',
+            meeting_type: '客户沟通',
+          }}
+        />
+      )}
+      
+      {/* 关联已有会议模态框 */}
+      {showAssociateMeetingModal && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-2xl p-6 max-w-2xl w-full dark:bg-gray-800 shadow-xl">
+            <div className="flex items-center justify-between mb-4">
+              <div>
+                <h3 className="text-lg font-semibold dark:text-white">关联已有会议</h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">选择一个已经创建的会议，关联到当前线索。</p>
+              </div>
+              <button
+                onClick={() => setShowAssociateMeetingModal(false)}
+                className="p-1 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700"
+              >
+                <X className="h-5 w-5 text-gray-500" />
+              </button>
+            </div>
+            <div className="mb-4">
+              <input
+                value={meetingSearchTerm}
+                onChange={(event) => setMeetingSearchTerm(event.target.value)}
+                placeholder="搜索会议标题 / 类型 / 摘要"
+                className="w-full rounded-xl border border-gray-200 px-4 py-2.5 text-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-100 outline-none dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100 dark:focus:border-blue-400"
+              />
+            </div>
+            <div className="max-h-[420px] overflow-y-auto space-y-3">
+              {loadingAvailableMeetings ? (
+                <div className="flex flex-col items-center justify-center py-10 text-sm text-gray-500 dark:text-gray-400">
+                  <div className="animate-spin rounded-full h-8 w-8 border-3 border-gray-200 border-t-blue-500 mb-3" />
+                  正在加载会议列表...
+                </div>
+              ) : filteredAvailableMeetings.length > 0 ? (
+                filteredAvailableMeetings.map((meeting) => {
+                  const linkedToCurrent = meeting.lead_id === leadId;
+                  const linkedToOther = Boolean(meeting.lead_id && meeting.lead_id !== leadId);
+                  return (
+                    <div key={meeting.id} className="rounded-xl border border-gray-200 p-4 dark:border-gray-700">
+                      <div className="flex items-start justify-between gap-4">
+                        <div className="flex-1">
+                          <div className="flex flex-wrap items-center gap-2">
+                            <h4 className="font-medium text-gray-900 dark:text-white">{meeting.title}</h4>
+                            <span className="rounded-full bg-blue-50 px-2 py-0.5 text-[11px] font-medium text-blue-600 dark:bg-blue-900/30 dark:text-blue-200">
+                              {meeting.meeting_type}
+                            </span>
+                            <span
+                              className={`rounded-full px-2 py-0.5 text-[11px] font-medium ${
+                                meeting.status === '待举行'
+                                  ? 'bg-blue-50 text-blue-600 dark:bg-blue-900/30 dark:text-blue-200'
+                                  : meeting.status === '进行中'
+                                  ? 'bg-green-50 text-green-600 dark:bg-green-900/30 dark:text-green-200'
+                                  : meeting.status === '已完成'
+                                  ? 'bg-gray-100 text-gray-600 dark:bg-gray-700 dark:text-gray-300'
+                                  : meeting.status === '已取消'
+                                  ? 'bg-red-50 text-red-600 dark:bg-red-900/30 dark:text-red-200'
+                                  : 'bg-yellow-50 text-yellow-600 dark:bg-yellow-900/30 dark:text-yellow-200'
+                              }`}
+                            >
+                              {meeting.status}
+                            </span>
+                            {linkedToCurrent && (
+                              <span className="rounded-full bg-emerald-50 px-2 py-0.5 text-[11px] font-medium text-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-200">
+                                已关联当前线索
+                              </span>
+                            )}
+                            {linkedToOther && (
+                              <span className="rounded-full bg-amber-50 px-2 py-0.5 text-[11px] font-medium text-amber-600 dark:bg-amber-900/30 dark:text-amber-200">
+                                已关联其他线索
+                              </span>
+                            )}
+                          </div>
+                          <div className="mt-2 flex flex-wrap items-center gap-4 text-xs text-gray-500 dark:text-gray-400">
+                            <span className="inline-flex items-center gap-1">
+                              <Calendar className="h-3.5 w-3.5" />
+                              {simplifyDateFormat(meeting.start_time)}
+                            </span>
+                            {meeting.location && (
+                              <span className="inline-flex items-center gap-1">
+                                <MapPin className="h-3.5 w-3.5" />
+                                {meeting.location}
+                              </span>
+                            )}
+                            {meeting.participants?.length ? (
+                              <span className="inline-flex items-center gap-1">
+                                <Users className="h-3.5 w-3.5" />
+                                {meeting.participants.length} 位参会人
+                              </span>
+                            ) : null}
+                          </div>
+                          {meeting.summary && (
+                            <p className="mt-2 line-clamp-2 text-sm text-gray-600 dark:text-gray-300">{meeting.summary}</p>
+                          )}
+                        </div>
+                        <button
+                          disabled={linkedToCurrent || linkedToOther}
+                          onClick={() => handleAssociateMeeting(meeting.id)}
+                          className={`whitespace-nowrap rounded-lg px-3 py-2 text-sm font-medium ${
+                            linkedToCurrent
+                              ? 'bg-gray-100 text-gray-500 cursor-not-allowed dark:bg-gray-700 dark:text-gray-300'
+                              : linkedToOther
+                              ? 'bg-gray-50 text-gray-400 cursor-not-allowed border border-dashed border-gray-300 dark:bg-gray-800 dark:text-gray-500'
+                              : 'bg-blue-600 text-white hover:bg-blue-700'
+                          }`}
+                        >
+                          {linkedToCurrent ? '已关联' : linkedToOther ? '已被占用' : '关联会议'}
+                        </button>
+                      </div>
+                    </div>
+                  );
+                })
+              ) : (
+                <div className="flex flex-col items-center justify-center py-16 text-sm text-gray-500 dark:text-gray-400">
+                  <Video className="h-10 w-10 text-gray-300 dark:text-gray-600 mb-3" />
+                  暂无符合条件的会议
+                  <button
+                    onClick={() => setShowCreateMeetingModal(true)}
+                    className="mt-3 text-blue-600 hover:underline text-xs"
+                  >
+                    创建一场新会议
+                  </button>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
       
       {/* 线索转学生模态框 */}
       <LeadToStudentModal 
