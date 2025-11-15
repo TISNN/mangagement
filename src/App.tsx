@@ -287,7 +287,7 @@ function App() {
       { icon: FileText, text: '合同管理', id: 'contracts', color: 'blue' },
       { icon: PieChart, text: '财务中台', id: 'finance-suite', color: 'blue' },
       { icon: Wallet, text: '财务管理（旧版）', id: 'finance', color: 'gray' },
-      { icon: Settings, text: '密码设置', id: 'settings', color: 'blue' },
+      { icon: Settings, text: '系统设置', id: 'settings', color: 'blue' },
     ],
     [skyOfficeExternalUrl],
   );

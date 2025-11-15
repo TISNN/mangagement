@@ -18,6 +18,8 @@ export interface Employee {
   auth_id?: string;
   created_at?: string;
   updated_at?: string;
+  avatar_url?: string | null;
+  avatarUrl?: string | null;
 }
 
 export interface StudentProfile {
@@ -34,6 +36,8 @@ export interface StudentProfile {
   auth_id?: string;
   created_at?: string;
   updated_at?: string;
+  avatar_url?: string | null;
+  avatarUrl?: string | null;
 }
 
 export interface AuthResult {
