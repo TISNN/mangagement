@@ -4,7 +4,51 @@
  */
 
 import { supabase } from '../../../../lib/supabase';
+import { getServiceStatusLabel, StudentServiceStatusValue } from '../../../../types/service';
 import { DashboardStats, DashboardTask, DashboardActivity, DashboardEvent } from '../types/dashboard.types';
+
+type StudentServiceRecord = {
+  id: number;
+  status: StudentServiceStatusValue;
+  updated_at: string;
+  students?: {
+    id?: number;
+    name?: string;
+    avatar_url?: string | null;
+  } | null;
+};
+
+type LeadRecord = {
+  id: number;
+  name: string;
+  created_at: string;
+  avatar_url?: string | null;
+  source?: string | null;
+};
+
+type TaskRecord = {
+  id: number;
+  title: string;
+  due_date: string;
+  priority: string | null;
+};
+
+type MeetingRecord = {
+  id: number;
+  title?: string | null;
+  start_time: string;
+  meeting_type?: string | null;
+  status?: string | null;
+  meeting_link?: string | null;
+};
+
+type AssignedTaskRecord = {
+  id: number;
+  title: string;
+  priority?: string | null;
+  due_date?: string | null;
+  status?: string | null;
+};
 
 /**
  * 获取Dashboard统计数据
@@ -192,7 +236,9 @@ export async function getDashboardTasks(userId?: string): Promise<DashboardTask[
     const nextWeek = new Date(today);
     nextWeek.setDate(nextWeek.getDate() + 7);
 
-    const tasks: DashboardTask[] = tasksData.map((task: any) => {
+    const assignedTaskRecords: AssignedTaskRecord[] = (tasksData as AssignedTaskRecord[]) || [];
+
+    const tasks: DashboardTask[] = assignedTaskRecords.map((task) => {
       // 确定任务图标
       let icon = '📋';
       if (task.priority === 'high' || task.priority === 'urgent') {
@@ -259,21 +305,29 @@ export async function getDashboardActivities(limit: number = 5): Promise<Dashboa
         id,
         updated_at,
         status,
-        students (name, avatar_url)
+        students (id, name, avatar_url)
       `)
       .order('updated_at', { ascending: false })
       .limit(3);
 
-    if (recentServices) {
-      recentServices.forEach((service: any, index) => {
+    const serviceRecords: StudentServiceRecord[] = (recentServices as StudentServiceRecord[]) || [];
+
+    if (serviceRecords.length > 0) {
+      serviceRecords.forEach((service) => {
+        const updatedAt = service.updated_at ? new Date(service.updated_at).getTime() : Date.now();
+        const serviceStatusValue = (service.status || 'not_started') as StudentServiceStatusValue;
+        const serviceStatusLabel = getServiceStatusLabel(serviceStatusValue);
         activities.push({
           id: `service-${service.id}`,
           user: service.students?.name || '未知学生',
           action: '更新了',
-          content: `服务状态: ${service.status}`,
+          content: `服务状态: ${serviceStatusLabel}`,
           time: formatTimeAgo(service.updated_at),
           avatar: service.students?.avatar_url || null,
           type: 'student',
+          timestamp: updatedAt,
+          detailPath: service.students?.id ? `/admin/students/${service.students.id}` : '/admin/service-chronology',
+          studentId: service.students?.id,
         });
       });
     }
@@ -285,8 +339,11 @@ export async function getDashboardActivities(limit: number = 5): Promise<Dashboa
       .order('created_at', { ascending: false })
       .limit(2);
 
-    if (recentLeads) {
-      recentLeads.forEach((lead: any) => {
+    const leadRecords: LeadRecord[] = (recentLeads as LeadRecord[]) || [];
+
+    if (leadRecords.length > 0) {
+      leadRecords.forEach((lead) => {
+        const createdAt = lead.created_at ? new Date(lead.created_at).getTime() : Date.now();
         activities.push({
           id: `lead-${lead.id}`,
           user: lead.name,
@@ -295,15 +352,14 @@ export async function getDashboardActivities(limit: number = 5): Promise<Dashboa
           time: formatTimeAgo(lead.created_at),
           avatar: lead.avatar_url || null,
           type: 'student',
+          timestamp: createdAt,
+          detailPath: `/admin/leads/${lead.id}`,
         });
       });
     }
 
     // 按时间排序
-    activities.sort((a, b) => {
-      // 简单排序，实际应该基于真实时间戳
-      return 0;
-    });
+    activities.sort((a, b) => b.timestamp - a.timestamp);
 
     return activities.slice(0, limit);
   } catch (error) {
@@ -342,7 +398,7 @@ export async function getDashboardEvents(limit: number = 6): Promise<DashboardEv
       return [];
     }
 
-    const taskRecords = tasksData || [];
+    const taskRecords: TaskRecord[] = (tasksData as TaskRecord[]) || [];
 
     // 获取会议数据
     const { data: meetingsData, error: meetingsError } = await supabase
@@ -359,7 +415,6 @@ export async function getDashboardEvents(limit: number = 6): Promise<DashboardEv
     }
 
     // 转换为日程格式
-    const now = new Date();
     const tomorrow = new Date(today);
     tomorrow.setDate(tomorrow.getDate() + 1);
 
@@ -373,7 +428,7 @@ export async function getDashboardEvents(limit: number = 6): Promise<DashboardEv
       return targetDate.toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' });
     };
 
-    const taskEvents: TimedEvent[] = taskRecords.map((task: any) => {
+    const taskEvents: TimedEvent[] = taskRecords.map((task) => {
       const dueDate = new Date(task.due_date);
 
       // 根据优先级确定颜色和类型
@@ -402,7 +457,8 @@ export async function getDashboardEvents(limit: number = 6): Promise<DashboardEv
       };
     });
 
-    const meetingEvents: TimedEvent[] = (meetingsData || []).map((meeting: any) => {
+    const meetingRecords: MeetingRecord[] = (meetingsData as MeetingRecord[]) || [];
+    const meetingEvents: TimedEvent[] = meetingRecords.map((meeting) => {
       const startDate = new Date(meeting.start_time);
 
       let color: 'blue' | 'purple' | 'green' | 'orange' | 'red' = 'green';
@@ -434,7 +490,11 @@ export async function getDashboardEvents(limit: number = 6): Promise<DashboardEv
     const mergedEvents = [...taskEvents, ...meetingEvents]
       .sort((a, b) => a.timestamp - b.timestamp)
       .slice(0, limit)
-      .map(({ timestamp, ...event }) => event);
+      .map((timedEvent) => {
+        const { timestamp: removedTimestamp, ...event } = timedEvent;
+        void removedTimestamp;
+        return event;
+      });
 
     return mergedEvents;
   } catch (error) {

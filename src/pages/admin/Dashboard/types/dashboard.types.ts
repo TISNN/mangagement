@@ -1,4 +1,5 @@
 // Dashboard 数据类型定义
+import type { ComponentType } from 'react';
 
 /**
  * 统计数据类型
@@ -32,13 +33,16 @@ export interface DashboardTask {
  * 动态活动类型
  */
 export interface DashboardActivity {
-  id: number;
+  id: string;
   user: string;
   action: string;
   content: string;
   time: string;
   avatar: string | null;
   type: 'student' | 'employee' | 'system';
+  timestamp: number;
+  detailPath?: string;
+  studentId?: number;
 }
 
 /**
@@ -60,7 +64,7 @@ export interface DashboardEvent {
  */
 export interface QuickAction {
   title: string;
-  icon: any;
+  icon: ComponentType<{ className?: string }>;
   color: 'blue' | 'purple' | 'orange' | 'green';
   onClick: () => void;
   description?: string;

@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect, useMemo } from 'react';
+import { useState, useRef, useEffect, useMemo, useCallback } from 'react';
 import type { ComponentType } from 'react';
 import { useLocation, Outlet, useNavigate } from 'react-router-dom';
 import {
@@ -52,6 +52,8 @@ import { DataProvider } from './context/DataContext'; // 导入数据上下文�
 import AIChatAssistant from './components/AIChatAssistant';
 import ErrorBoundary from './components/ErrorBoundary';
 import './utils/cacheManager'; // 引入缓存管理器,使window.clearAppCache()可用
+import { getDashboardActivities } from './pages/admin/Dashboard/services/dashboardService';
+import type { DashboardActivity } from './pages/admin/Dashboard/types/dashboard.types';
 
 const APP_CENTER_STORAGE_KEY = 'appCenter.favoriteFeatureIds';
 
@@ -78,6 +80,7 @@ import {
   type AppFeature,
   type AppCenterUserRole,
 } from './data/appFeatures';
+type NotificationItem = DashboardActivity & { read: boolean };
 
 function App() {
   const [currentPage, setCurrentPage] = useState('dashboard'); // 默认显示控制台
@@ -97,12 +100,18 @@ function App() {
     'study-services': true,
     'internal-management': true,
     'cloud-docs': true,
+    'global-academic-resources': true,
   });
   const [favoriteFeatureIds, setFavoriteFeatureIds] = useState<string[]>([]);
   const [hasInitializedFavorites, setHasInitializedFavorites] = useState(false);
   const [userRole, setUserRole] = useState<AppCenterUserRole>('admin');
   const [hasResolvedRole, setHasResolvedRole] = useState(false);
+  const [notifications, setNotifications] = useState<NotificationItem[]>([]);
+  const [notificationsLoading, setNotificationsLoading] = useState(false);
+  const [showNotificationsPanel, setShowNotificationsPanel] = useState(false);
   const navRef = useRef<HTMLDivElement>(null);
+  const notificationButtonRef = useRef<HTMLButtonElement | null>(null);
+  const notificationPanelRef = useRef<HTMLDivElement | null>(null);
   const location = useLocation();
   const navigate = useNavigate(); // 添加导航函数
   
@@ -139,6 +148,11 @@ function App() {
     import.meta.env.VITE_SKYOFFICE_URL
       ? import.meta.env.VITE_SKYOFFICE_URL
       : 'https://sky-office.co/';
+  const unreadNotificationCount = useMemo(
+    () => notifications.filter((item) => !item.read).length,
+    [notifications],
+  );
+  const hasUnreadNotifications = unreadNotificationCount > 0;
 
   const resolveAvatarUrl = (user: typeof currentUser) => {
     const avatarCandidate =
@@ -159,8 +173,18 @@ function App() {
       { icon: LayoutGrid, text: '控制台', id: 'dashboard', color: 'blue' },
       { icon: ListTodo, text: '任务管理', id: 'tasks', color: 'blue' },
       { icon: Users, text: '学生管理', id: 'students-legacy', color: 'blue' },
-      { icon: GraduationCap, text: '全球教授库', id: 'professor-directory', color: 'blue' },
-      { icon: Globe2, text: '全球博士岗位', id: 'phd-opportunities', color: 'blue' },
+      {
+        icon: Globe2,
+        text: '全球数据库',
+        id: 'global-academic-resources',
+        color: 'blue',
+        children: [
+          { icon: GraduationCap, text: '教授库', id: 'professor-directory', color: 'blue' },
+          { icon: Globe2, text: '博士岗位库', id: 'phd-opportunities', color: 'blue' },
+          { icon: School, text: '院校库', id: 'school-library', color: 'blue' },
+          { icon: BookOpen, text: '专业库', id: 'program-library', color: 'blue' },
+        ],
+      },
       { icon: Handshake, text: '合作方管理', id: 'partner-management', color: 'blue' },
       {
         icon: UserCog,
@@ -248,8 +272,6 @@ function App() {
           { icon: ShieldCheck, text: '审核与风控', id: 'knowledge-hub/moderation', color: 'blue' },
         ],
       },
-      { icon: School, text: '院校库', id: 'school-library', color: 'blue' },
-      { icon: BookOpen, text: '专业库', id: 'program-library', color: 'blue' },
       { icon: Brain, text: '智能选校', id: 'smart-selection', color: 'blue' },
       { icon: FileCheck, text: '申请进度', id: 'applications', color: 'blue' },
       { icon: MessagesSquare, text: '客户线索', id: 'leads', color: 'blue' },
@@ -601,6 +623,79 @@ function App() {
     }
   }, [location]);
 
+  const loadNotifications = useCallback(async () => {
+    try {
+      setNotificationsLoading(true);
+      const latestActivities = await getDashboardActivities(6);
+      setNotifications((prev) => {
+        const readStateMap = prev.reduce<Record<string, boolean>>((acc, item) => {
+          acc[item.id] = item.read;
+          return acc;
+        }, {});
+        return latestActivities.map((activity) => ({
+          ...activity,
+          read: readStateMap[activity.id] ?? false,
+        }));
+      });
+    } catch (error) {
+      console.error('加载通知失败:', error);
+    } finally {
+      setNotificationsLoading(false);
+    }
+  }, []);
+
+  const markAllNotificationsAsRead = useCallback(() => {
+    setNotifications((prev) => prev.map((item) => ({ ...item, read: true })));
+  }, []);
+
+  const toggleNotificationsPanel = () => {
+    setShowNotificationsPanel((prev) => !prev);
+  };
+
+  const handleNotificationClick = (item: NotificationItem) => {
+    setNotifications((prev) =>
+      prev.map((notification) =>
+        notification.id === item.id ? { ...notification, read: true } : notification,
+      ),
+    );
+    setShowNotificationsPanel(false);
+    if (item.detailPath) {
+      navigate(item.detailPath);
+    } else {
+      navigate(`/admin/dashboard#activity-${item.id}`);
+    }
+  };
+
+  useEffect(() => {
+    loadNotifications();
+    const interval = setInterval(loadNotifications, 60000);
+    return () => clearInterval(interval);
+  }, [loadNotifications]);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (!showNotificationsPanel) return;
+      const target = event.target as Node;
+      if (
+        notificationPanelRef.current &&
+        !notificationPanelRef.current.contains(target) &&
+        notificationButtonRef.current &&
+        !notificationButtonRef.current.contains(target)
+      ) {
+        setShowNotificationsPanel(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, [showNotificationsPanel]);
+
+  useEffect(() => {
+    if (showNotificationsPanel) {
+      markAllNotificationsAsRead();
+    }
+  }, [showNotificationsPanel, markAllNotificationsAsRead]);
+
   // 如果路径是 /login，不显示管理界面
   if (location.pathname === '/login') {
     return null;
@@ -697,6 +792,7 @@ function App() {
       );
     });
 
+
   // 处理登出
   const handleLogout = () => {
     // 清除所有登录信息
@@ -716,7 +812,7 @@ function App() {
       <DataProvider>
             <div className="min-h-screen bg-[#f8fafc] dark:bg-gray-900">
               {/* 左侧导航栏 */}
-              <header className={`fixed left-0 top-16 h-[calc(100vh-4rem)] ${isNavCollapsed ? 'w-20' : 'w-50'} transition-all duration-300 bg-white/80 backdrop-blur-xl dark:bg-gray-800/50 border-r border-gray-200 dark:border-gray-700 z-10`}>
+              <header className={`fixed left-0 top-16 h-[calc(100vh-4rem)] ${isNavCollapsed ? 'w-20' : 'w-[232px]'} transition-all duration-300 bg-white/80 backdrop-blur-xl dark:bg-gray-800/50 border-r border-gray-200 dark:border-gray-700 z-10`}>
                 {/* 导航菜单 - 添加滚动容器 */}
                 <div className="py-6 px-4 relative">
                   {/* 上滚动按钮 */}
@@ -828,10 +924,104 @@ function App() {
                     >
                       {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
                     </button>
-                    <button className="relative p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300">
-                      <Bell className="h-5 w-5" />
-                      <span className="absolute top-1 right-1 h-2 w-2 bg-red-500 rounded-full"></span>
-                    </button>
+                    <div className="relative">
+                      <button
+                        ref={notificationButtonRef}
+                        onClick={toggleNotificationsPanel}
+                        className="relative p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded-lg"
+                        aria-label="通知中心"
+                      >
+                        <Bell className="h-5 w-5" />
+                        {hasUnreadNotifications && (
+                          <span className="absolute top-0 right-0 inline-flex min-h-[1.25rem] min-w-[1.25rem] items-center justify-center rounded-full bg-red-500 px-1 text-[10px] font-semibold leading-none text-white">
+                            {unreadNotificationCount > 9 ? '9+' : unreadNotificationCount}
+                          </span>
+                        )}
+                      </button>
+
+                      {showNotificationsPanel && (
+                        <div
+                          ref={notificationPanelRef}
+                          className="absolute right-0 mt-3 w-80 rounded-2xl border border-gray-200 bg-white shadow-2xl dark:border-gray-700 dark:bg-gray-800"
+                        >
+                          <div className="flex items-start justify-between border-b border-gray-100 px-4 py-3 dark:border-gray-700">
+                            <div>
+                              <p className="text-sm font-semibold text-gray-900 dark:text-white">通知中心</p>
+                              <p className="text-xs text-gray-500 dark:text-gray-400">最近 6 条提醒</p>
+                            </div>
+                            <button
+                              onClick={markAllNotificationsAsRead}
+                              className="text-xs font-medium text-indigo-500 hover:text-indigo-600 dark:text-indigo-400"
+                            >
+                              全部已读
+                            </button>
+                          </div>
+                          <div className="max-h-80 overflow-y-auto px-4 py-3 space-y-2">
+                            {notificationsLoading ? (
+                              Array.from({ length: 3 }).map((_, idx) => (
+                                <div key={`notification-skeleton-${idx}`} className="animate-pulse rounded-xl border border-gray-100 bg-gray-50 p-3 dark:border-gray-700/60 dark:bg-gray-700/40">
+                                  <div className="h-3 w-24 rounded bg-gray-200 dark:bg-gray-600"></div>
+                                  <div className="mt-2 h-3 w-48 rounded bg-gray-200 dark:bg-gray-600"></div>
+                                </div>
+                              ))
+                            ) : notifications.length === 0 ? (
+                              <div className="py-6 text-center text-sm text-gray-500 dark:text-gray-400">
+                                暂无新的提醒
+                              </div>
+                            ) : (
+                              notifications.map((item) => {
+                                const badgeConfig =
+                                  item.type === 'employee'
+                                    ? { label: '团队', className: 'bg-purple-50 text-purple-600 dark:bg-purple-900/20 dark:text-purple-200' }
+                                    : item.type === 'system'
+                                      ? { label: '系统', className: 'bg-gray-100 text-gray-600 dark:bg-gray-800/60 dark:text-gray-300' }
+                                      : { label: '学生', className: 'bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-200' };
+
+                                return (
+                                  <button
+                                    key={item.id}
+                                    onClick={() => handleNotificationClick(item)}
+                                    className={`w-full rounded-xl border px-3 py-2.5 text-left text-sm transition-colors ${
+                                      item.read
+                                        ? 'border-gray-100 dark:border-gray-700'
+                                        : 'border-indigo-100 bg-indigo-50/60 dark:border-indigo-500/40 dark:bg-indigo-500/10'
+                                    }`}
+                                  >
+                                    <div className="flex items-start justify-between gap-3">
+                                      <div className="flex-1 space-y-1">
+                                        <div className="flex items-center gap-2">
+                                          <span className={`inline-flex items-center rounded-full px-2 py-0.5 text-[11px] font-medium ${badgeConfig.className}`}>
+                                            {badgeConfig.label}
+                                          </span>
+                                          <p className="text-gray-900 dark:text-white font-medium truncate">
+                                            {item.user} {item.action}
+                                          </p>
+                                        </div>
+                                        <p className="text-xs text-gray-500 dark:text-gray-400">{item.content}</p>
+                                      </div>
+                                      <span className="text-xs text-gray-400 dark:text-gray-500 whitespace-nowrap">
+                                        {item.time}
+                                      </span>
+                                    </div>
+                                  </button>
+                                );
+                              })
+                            )}
+                          </div>
+                          <div className="border-t border-gray-100 bg-gray-50 px-4 py-2.5 text-right dark:border-gray-700 dark:bg-gray-900/40">
+                            <button
+                              onClick={() => {
+                                setShowNotificationsPanel(false);
+                                navigate('/admin/dashboard');
+                              }}
+                              className="text-xs font-medium text-indigo-500 hover:text-indigo-600 dark:text-indigo-400"
+                            >
+                              查看最新动态
+                            </button>
+                          </div>
+                        </div>
+                      )}
+                    </div>
                     <div className="flex items-center gap-3">
                       <img
                         src={resolveAvatarUrl(currentUser)}
@@ -862,7 +1052,7 @@ function App() {
               </div>
 
               {/* 主内容区域 - 使用Outlet代替pages[currentPage] */}
-              <main className={`${isNavCollapsed ? 'ml-20' : 'ml-48'} mt-16 transition-all duration-300 p-8`}>
+              <main className={`${isNavCollapsed ? 'ml-20' : 'ml-[232px]'} mt-16 transition-all duration-300 p-8`}>
                 <Outlet
                   context={{
                     favoriteFeatureIds,

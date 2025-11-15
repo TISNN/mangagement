@@ -518,19 +518,6 @@ export default function CreateMeetingModal({ onClose, onSave, initialData, mode 
               />
             </div>
 
-            {/* 会议总结 */}
-            <div>
-              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                会议总结
-              </label>
-              <textarea
-                value={formData.summary}
-                onChange={(e) => updateField('summary', e.target.value)}
-                rows={3}
-                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
-                placeholder="会议总结..."
-              />
-            </div>
           </div>
         </form>
 

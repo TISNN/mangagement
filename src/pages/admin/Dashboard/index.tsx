@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useMemo } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { UserPlus, Briefcase, MessageSquare, CalendarPlus } from 'lucide-react';
 import toast from 'react-hot-toast';
 
@@ -13,6 +13,7 @@ import { useDashboardData } from './hooks/useDashboardData';
 import { useCurrentUser } from './hooks/useCurrentUser';
 
 // Components
+import { useDataContext } from '../../../context/DataContext';
 import { SearchHeader } from './components/SearchHeader';
 import { StatsCards } from './components/StatsCards';
 import { QuickActions } from './components/QuickActions';
@@ -31,6 +32,8 @@ import { QuickAction } from './types/dashboard.types';
 
 const DashboardPage: React.FC = () => {
   const navigate = useNavigate();
+  const location = useLocation();
+  const { students: studentDisplays } = useDataContext();
   const { currentUser } = useCurrentUser();
   const {
     stats,
@@ -162,6 +165,37 @@ const DashboardPage: React.FC = () => {
     );
   }
 
+  const focusedActivityId = useMemo(() => {
+    if (location.hash?.startsWith('#activity-')) {
+      return location.hash.replace('#activity-', '');
+    }
+    return undefined;
+  }, [location.hash]);
+
+  const studentAvatarMap = useMemo(() => {
+    const map = new Map<number, string>();
+    studentDisplays.forEach((student) => {
+      if (student.person_id) {
+        map.set(student.person_id, student.avatar);
+      }
+    });
+    return map;
+  }, [studentDisplays]);
+
+  const activitiesWithStudentAvatars = useMemo(
+    () =>
+      activities.map((activity) => {
+        if (activity.studentId && studentAvatarMap.has(activity.studentId)) {
+          const avatar = studentAvatarMap.get(activity.studentId) || activity.avatar;
+          if (avatar !== activity.avatar) {
+            return { ...activity, avatar };
+          }
+        }
+        return activity;
+      }),
+    [activities, studentAvatarMap],
+  );
+
   return (
     <div className="space-y-6">
       {/* 顶部欢迎语 + 全局搜索 */}
@@ -191,8 +225,16 @@ const DashboardPage: React.FC = () => {
         
         {/* 最新动态 */}
         <ActivityPanel
-          activities={activities}
+          activities={activitiesWithStudentAvatars}
           loading={loading}
+          focusedActivityId={focusedActivityId}
+          onActivityNavigate={(activity) => {
+            if (activity.detailPath) {
+              navigate(activity.detailPath);
+              return;
+            }
+            navigate(`/admin/dashboard#activity-${activity.id}`);
+          }}
         />
         
         {/* 即将到来的日程 */}

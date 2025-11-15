@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useRef, useEffect } from 'react';
-import { Flag, Calendar, MoreVertical, Trash2, Users, Building2, Megaphone, Briefcase } from 'lucide-react';
+import { Flag, Calendar, MoreVertical, Trash2 } from 'lucide-react';
 import { UITask } from '../../types/task.types';
 
 interface TaskTableProps {
@@ -93,17 +93,6 @@ const TaskTable: React.FC<TaskTableProps> = ({
     }
   };
 
-  // 获取任务域显示（新增）
-  const getDomainDisplay = (domain?: string) => {
-    const domainConfig = {
-      'general': { icon: Briefcase, color: 'text-gray-600', bg: 'bg-gray-100 dark:bg-gray-700', label: '通用' },
-      'student_success': { icon: Users, color: 'text-purple-600', bg: 'bg-purple-100 dark:bg-purple-900/30', label: '学生' },
-      'company_ops': { icon: Building2, color: 'text-orange-600', bg: 'bg-orange-100 dark:bg-orange-900/30', label: '运营' },
-      'marketing': { icon: Megaphone, color: 'text-pink-600', bg: 'bg-pink-100 dark:bg-pink-900/30', label: '市场' },
-    };
-    return domainConfig[domain as keyof typeof domainConfig] || domainConfig['general'];
-  };
-
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
       <div className="overflow-x-auto overflow-y-visible">
@@ -119,9 +108,6 @@ const TaskTable: React.FC<TaskTableProps> = ({
               </th>
               <th className="text-left px-4 py-3 text-xs font-medium text-gray-500 dark:text-gray-400 tracking-wider">
                 任务名称
-              </th>
-              <th className="text-left px-4 py-3 text-xs font-medium text-gray-500 dark:text-gray-400 tracking-wider">
-                任务域
               </th>
               <th className="text-left px-4 py-3 text-xs font-medium text-gray-500 dark:text-gray-400 tracking-wider">
                 负责人
@@ -201,22 +187,6 @@ const TaskTable: React.FC<TaskTableProps> = ({
                         </div>
                       )}
                     </div>
-                  </td>
-
-                  {/* Task Domain（新增） */}
-                  <td className="px-4 py-4">
-                    {(() => {
-                      const domainDisplay = getDomainDisplay(task.domain);
-                      const DomainIcon = domainDisplay.icon;
-                      return (
-                        <div className={`inline-flex items-center gap-1.5 px-2 py-1 rounded-md ${domainDisplay.bg}`}>
-                          <DomainIcon className={`w-3.5 h-3.5 ${domainDisplay.color}`} />
-                          <span className={`text-xs font-medium ${domainDisplay.color}`}>
-                            {domainDisplay.label}
-                          </span>
-                        </div>
-                      );
-                    })()}
                   </td>
 
                   {/* Assignees */}

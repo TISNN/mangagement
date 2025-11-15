@@ -3,17 +3,12 @@
  */
 
 import React, { useMemo } from 'react';
-import { 
-  CheckCircle2, 
-  Clock, 
-  Circle, 
+import {
+  CheckCircle2,
+  Clock,
+  Circle,
   AlertCircle,
-  TrendingUp,
   Calendar,
-  Users,
-  Building2,
-  Megaphone,
-  Briefcase
 } from 'lucide-react';
 import { TaskFilters, UITask } from '../../types/task.types';
 
@@ -61,14 +56,6 @@ const TaskStats: React.FC<TaskStatsProps> = ({
     // 计算完成率
     const completionRate = total > 0 ? Math.round((completed / total) * 100) : 0;
 
-    // 按任务域统计（新增）
-    const byDomain = {
-      general: tasks.filter(t => !t.domain || t.domain === 'general').length,
-      student_success: tasks.filter(t => t.domain === 'student_success').length,
-      company_ops: tasks.filter(t => t.domain === 'company_ops').length,
-      marketing: tasks.filter(t => t.domain === 'marketing').length,
-    };
-
     // 按关联类型统计（新增）
     const byEntityType = {
       student: tasks.filter(t => t.relatedEntityType === 'student').length,
@@ -86,7 +73,6 @@ const TaskStats: React.FC<TaskStatsProps> = ({
       overdue,
       dueToday,
       completionRate,
-      byDomain,
       byEntityType,
     };
   }, [tasks]);
@@ -157,38 +143,6 @@ const TaskStats: React.FC<TaskStatsProps> = ({
       textColor: 'text-red-900 dark:text-red-300',
       highlight: stats.overdue > 0,
       timeFilter: 'expired',
-    },
-  ];
-
-  // 任务域统计卡片（新增）
-  const domainCards = [
-    {
-      label: '通用任务',
-      value: stats.byDomain.general,
-      icon: Briefcase,
-      color: 'bg-gray-50 dark:bg-gray-800/50',
-      iconColor: 'text-gray-600 dark:text-gray-400',
-    },
-    {
-      label: '学生服务',
-      value: stats.byDomain.student_success,
-      icon: Users,
-      color: 'bg-purple-50 dark:bg-purple-900/20',
-      iconColor: 'text-purple-600 dark:text-purple-400',
-    },
-    {
-      label: '公司运营',
-      value: stats.byDomain.company_ops,
-      icon: Building2,
-      color: 'bg-orange-50 dark:bg-orange-900/20',
-      iconColor: 'text-orange-600 dark:text-orange-400',
-    },
-    {
-      label: '市场营销',
-      value: stats.byDomain.marketing,
-      icon: Megaphone,
-      color: 'bg-pink-50 dark:bg-pink-900/20',
-      iconColor: 'text-pink-600 dark:text-pink-400',
     },
   ];
 
@@ -279,37 +233,6 @@ const TaskStats: React.FC<TaskStatsProps> = ({
         })}
       </div>
 
-      {/* 任务域统计（新增） */}
-      <div className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-4">
-        <h3 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3 flex items-center gap-2">
-          <TrendingUp className="w-4 h-4" />
-          按任务域分布
-        </h3>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          {domainCards.map((card, index) => {
-            const Icon = card.icon;
-            return (
-              <div
-                key={index}
-                className={`${card.color} rounded-lg p-3 transition-all hover:shadow-sm`}
-              >
-                <div className="flex items-center gap-2 mb-1">
-                  <Icon className={`w-4 h-4 ${card.iconColor}`} />
-                  <span className="text-xs text-gray-600 dark:text-gray-400">
-                    {card.label}
-                  </span>
-                </div>
-                <div className="text-xl font-bold text-gray-900 dark:text-white">
-                  {card.value}
-                </div>
-                <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-                  {stats.total > 0 ? `${Math.round((card.value / stats.total) * 100)}%` : '0%'}
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </div>
     </div>
   );
 };
