@@ -99,6 +99,12 @@ Infinite.ai是一个专注于留学全周期服务的数字化平台，连接学
 - 📅 新增的会议冲突校验、会议卡片状态、Lead Detail 会议摘要等逻辑已经随提交一并上线
 - 🕵️‍♀️ 建议下次推送前执行 `npm run lint` 并在 `MeetingManagement` 页面手动回归“创建会议”“冲突提示”“任务联动”，确保多端一致
 
+### 2025-11-15: 代码仓库同步到 GitHub（铃铛通知 & 任务精简）
+
+- ✅ 已将 Dashboard 顶部铃铛通知中心、最新动态跳转、服务状态中文化，以及任务管理页面的精简改动推送到 `origin/main`
+- 📌 本次提交包含 ActivityPanel/TaskStats/TaskTable 等核心组件与 `dashboardService` 数据结构更新，确保生产环境与文档保持同步
+- 🔎 建议下一次推送前执行 `npm run lint && npm run test` 并在 Dashboard 实际点击铃铛轮询、跳转学生详情，确认未读状态与路由联动正常
+
 - ✅ 爬虫新增对 `div.location` 模块的解析，精准识别办公室位置、电话与官网链接
 - ✅ 针对邮箱采用智能推断：优先读取页面文本，其次根据个人主页 `~username` 自动生成 `username@comp.nus.edu.sg`
 - ✅ 爬虫输出新增 `phone` 字段，导入脚本同步写入 Supabase `professors.contact_phone`
