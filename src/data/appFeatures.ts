@@ -133,6 +133,15 @@ export const APP_FEATURES: AppFeature[] = [
     tags: ['资料'],
   },
   {
+    id: 'phd-opportunities',
+    title: '全球博士岗位',
+    description: '查看博士岗位、资助与申请流程示例',
+    category: '知识与资源',
+    icon: GraduationCap,
+    rolesAllowed: ['admin', 'student'],
+    tags: ['博士'],
+  },
+  {
     id: 'knowledge-hub/market',
     title: '知识市场',
     description: '从知识中心获取最新运营素材',
@@ -177,6 +186,16 @@ export const APP_FEATURES: AppFeature[] = [
     icon: Handshake,
     rolesAllowed: ['admin'],
     tags: ['CRM'],
+  },
+  {
+    id: 'partner-management',
+    title: '合作方管理',
+    description: '统一维护高校、导师与机构合作方档案',
+    category: '销售与运营',
+    icon: Handshake,
+    rolesAllowed: ['admin'],
+    badge: '新上线',
+    tags: ['合作'],
   },
   {
     id: 'crm-client-insights',

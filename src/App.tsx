@@ -14,7 +14,6 @@ import {
   Sun,
   Moon,
   Briefcase,
-  LogIn,
   UserSquare2,
   Library,
   ClipboardList,
@@ -24,7 +23,6 @@ import {
   History,
   LogOut,
   School,
-  UserRound,
   UserCog,
   ListTodo,
   ChevronUp,
@@ -38,11 +36,17 @@ import {
   Compass,
   Handshake,
   LayoutList,
+  LayoutPanelLeft,
   PieChart,
   MessageCircle,
   Layers,
   Globe2,
+  Network,
   ShieldCheck,
+  Home,
+  HardDrive,
+  BookMarked,
+  Building2,
 } from 'lucide-react';
 import { DataProvider } from './context/DataContext'; // 导入数据上下文提供者
 import AIChatAssistant from './components/AIChatAssistant';
@@ -92,6 +96,7 @@ function App() {
   const [expandedGroups, setExpandedGroups] = useState<Record<string, boolean>>({
     'study-services': true,
     'internal-management': true,
+    'cloud-docs': true,
   });
   const [favoriteFeatureIds, setFavoriteFeatureIds] = useState<string[]>([]);
   const [hasInitializedFavorites, setHasInitializedFavorites] = useState(false);
@@ -155,6 +160,8 @@ function App() {
       { icon: ListTodo, text: '任务管理', id: 'tasks', color: 'blue' },
       { icon: Users, text: '学生管理', id: 'students-legacy', color: 'blue' },
       { icon: GraduationCap, text: '全球教授库', id: 'professor-directory', color: 'blue' },
+      { icon: Globe2, text: '全球博士岗位', id: 'phd-opportunities', color: 'blue' },
+      { icon: Handshake, text: '合作方管理', id: 'partner-management', color: 'blue' },
       {
         icon: UserCog,
         text: '团队管理',
@@ -168,21 +175,9 @@ function App() {
             color: 'blue',
           },
           {
-            icon: LogIn,
-            text: '入职与离职',
-            id: 'internal-management/onboarding',
-            color: 'blue',
-          },
-          {
             icon: Briefcase,
             text: '招聘中心',
             id: 'internal-management/recruitment',
-            color: 'blue',
-          },
-          {
-            icon: Settings,
-            text: '系统设置',
-            id: 'internal-management/system-settings',
             color: 'blue',
           },
         ],
@@ -197,7 +192,9 @@ function App() {
           { icon: History, text: '服务进度', id: 'service-chronology', color: 'blue' },
           { icon: Compass, text: '选校规划', id: 'school-selection-planner', color: 'blue' },
           { icon: BookOpen, text: '文书工作台', id: 'application-workbench', color: 'blue' },
+          { icon: LayoutPanelLeft, text: '申请工作台', id: 'application-workstation', color: 'blue' },
           { icon: Globe2, text: '项目市场', id: 'project-marketplace', color: 'blue' },
+          { icon: Building2, text: '机构介绍', id: 'institution-introduction', color: 'blue' },
           { icon: UserSquare2, text: '导师管理', id: 'mentors', color: 'blue' },
           { icon: UserSquare2, text: '导师（旧版）', id: 'mentors-legacy', color: 'blue' },
           { icon: ClipboardList, text: '留学案例库', id: 'cases', color: 'blue' },
@@ -228,18 +225,26 @@ function App() {
         ],
       },
       {
+        icon: HardDrive,
+        text: '云文档',
+        id: 'cloud-docs',
+        color: 'blue',
+        children: [
+          { icon: Home, text: '主页', id: 'cloud-docs/home', color: 'blue' },
+          { icon: HardDrive, text: '云盘', id: 'cloud-docs/drive', color: 'blue' },
+          { icon: BookMarked, text: '知识库', id: 'cloud-docs/knowledge', color: 'blue' },
+        ],
+      },
+      {
         icon: Layers,
         text: '知识中心',
         id: 'knowledge-hub',
         color: 'blue',
         children: [
-          { icon: LayoutDashboard, text: '知识概览', id: 'knowledge-hub/dashboard', color: 'blue' },
-          { icon: UserRound, text: '个人空间', id: 'knowledge-hub/my-space', color: 'blue' },
-          { icon: Users, text: '团队空间', id: 'knowledge-hub/team-space', color: 'blue' },
+          { icon: Network, text: '协作空间', id: 'knowledge-hub/workspace', color: 'blue' },
           { icon: LayoutGrid, text: '知识市场', id: 'knowledge-hub/market', color: 'blue' },
           { icon: Globe2, text: '知识花园运营', id: 'knowledge-hub/garden', color: 'blue' },
           { icon: ShieldCheck, text: '审核与风控', id: 'knowledge-hub/moderation', color: 'blue' },
-          { icon: Settings, text: '知识设置', id: 'knowledge-hub/settings', color: 'blue' },
         ],
       },
       { icon: School, text: '院校库', id: 'school-library', color: 'blue' },
@@ -427,6 +432,9 @@ function App() {
     } else if (path.includes('crm-lead-list')) {
       setCurrentPage('crm-lead-list');
       setExpandedGroups((prev) => ({ ...prev, 'crm-center': true }));
+    } else if (path.includes('crm-template-library')) {
+      setCurrentPage('crm-template-library');
+      setExpandedGroups((prev) => ({ ...prev, 'crm-center': true }));
     } else if (path.includes('crm-contract-dock')) {
       setCurrentPage('crm-contract-dock');
       setExpandedGroups((prev) => ({ ...prev, 'crm-center': true }));
@@ -436,14 +444,8 @@ function App() {
     } else if (path.includes('crm-collaboration-hub')) {
       setCurrentPage('crm-collaboration-hub');
       setExpandedGroups((prev) => ({ ...prev, 'crm-center': true }));
-    } else if (path.includes('knowledge-hub/dashboard')) {
-      setCurrentPage('knowledge-hub/dashboard');
-      setExpandedGroups((prev) => ({ ...prev, 'knowledge-hub': true }));
-    } else if (path.includes('knowledge-hub/my-space')) {
-      setCurrentPage('knowledge-hub/my-space');
-      setExpandedGroups((prev) => ({ ...prev, 'knowledge-hub': true }));
-    } else if (path.includes('knowledge-hub/team-space')) {
-      setCurrentPage('knowledge-hub/team-space');
+    } else if (path.includes('knowledge-hub/workspace')) {
+      setCurrentPage('knowledge-hub/workspace');
       setExpandedGroups((prev) => ({ ...prev, 'knowledge-hub': true }));
     } else if (path.includes('knowledge-hub/market')) {
       setCurrentPage('knowledge-hub/market');
@@ -454,9 +456,15 @@ function App() {
     } else if (path.includes('knowledge-hub/moderation')) {
       setCurrentPage('knowledge-hub/moderation');
       setExpandedGroups((prev) => ({ ...prev, 'knowledge-hub': true }));
-    } else if (path.includes('knowledge-hub/settings')) {
-      setCurrentPage('knowledge-hub/settings');
-      setExpandedGroups((prev) => ({ ...prev, 'knowledge-hub': true }));
+    } else if (path.includes('cloud-docs/home')) {
+      setCurrentPage('cloud-docs/home');
+      setExpandedGroups((prev) => ({ ...prev, 'cloud-docs': true }));
+    } else if (path.includes('cloud-docs/drive')) {
+      setCurrentPage('cloud-docs/drive');
+      setExpandedGroups((prev) => ({ ...prev, 'cloud-docs': true }));
+    } else if (path.includes('cloud-docs/knowledge')) {
+      setCurrentPage('cloud-docs/knowledge');
+      setExpandedGroups((prev) => ({ ...prev, 'cloud-docs': true }));
     } else if (path.includes('education-training/placement-assessment')) {
       setCurrentPage('education-training/placement-assessment');
       setExpandedGroups((prev) => ({ ...prev, 'education-training': true }));
@@ -472,11 +480,8 @@ function App() {
     } else if (path.includes('internal-management/employee-and-scheduling')) {
       setCurrentPage('internal-management/employee-and-scheduling');
       setExpandedGroups((prev) => ({ ...prev, 'internal-management': true }));
-    } else if (path.includes('internal-management/onboarding')) {
-      setCurrentPage('internal-management/onboarding');
-      setExpandedGroups((prev) => ({ ...prev, 'internal-management': true }));
-    } else if (path.includes('internal-management/system-settings')) {
-      setCurrentPage('internal-management/system-settings');
+    } else if (path.includes('internal-management/recruitment')) {
+      setCurrentPage('internal-management/recruitment');
       setExpandedGroups((prev) => ({ ...prev, 'internal-management': true }));
     } else if (path.includes('app-center')) {
       setCurrentPage('app-center');
@@ -510,6 +515,10 @@ function App() {
       setCurrentPage('project-marketplace');
     } else if (path.includes('professor-directory')) {
       setCurrentPage('professor-directory');
+    } else if (path.includes('phd-opportunities')) {
+      setCurrentPage('phd-opportunities');
+    } else if (path.includes('partner-management')) {
+      setCurrentPage('partner-management');
     } else if (path.includes('school-selection-planner')) {
       setCurrentPage('school-selection-planner');
     } else if (path.includes('service-chronology')) {
@@ -554,6 +563,7 @@ function App() {
         'project-mission-board',
         'project-marketplace',
         'professor-directory',
+        'phd-opportunities',
         'mentors-legacy',
       ].some((segment) =>
         path.includes(segment)
@@ -562,23 +572,22 @@ function App() {
       setExpandedGroups((prev) => ({ ...prev, 'study-services': true }));
     }
 
-    if (['crm-lead-list', 'crm-contract-dock', 'crm-client-insights', 'crm-collaboration-hub'].some((segment) => path.includes(segment))) {
+    if (['crm-lead-list', 'crm-template-library', 'crm-contract-dock', 'crm-client-insights', 'crm-collaboration-hub'].some((segment) => path.includes(segment))) {
       setExpandedGroups((prev) => ({ ...prev, 'crm-center': true }));
     }
 
-    if (
-      ['knowledge-hub/dashboard', 'knowledge-hub/my-space', 'knowledge-hub/team-space', 'knowledge-hub/market', 'knowledge-hub/garden', 'knowledge-hub/moderation', 'knowledge-hub/settings'].some((segment) =>
-        path.includes(segment)
-      )
-    ) {
+    if (['knowledge-hub/workspace', 'knowledge-hub/market', 'knowledge-hub/garden', 'knowledge-hub/moderation'].some((segment) => path.includes(segment))) {
       setExpandedGroups((prev) => ({ ...prev, 'knowledge-hub': true }));
     }
 
+    if (['cloud-docs/home', 'cloud-docs/drive', 'cloud-docs/knowledge'].some((segment) => path.includes(segment))) {
+      setExpandedGroups((prev) => ({ ...prev, 'cloud-docs': true }));
+    }
+
     if (
-      [
-        'internal-management/employee-and-scheduling',
-        'internal-management/system-settings',
-      ].some((segment) => path.includes(segment))
+      ['internal-management/employee-and-scheduling', 'internal-management/recruitment'].some((segment) =>
+        path.includes(segment)
+      )
     ) {
       setExpandedGroups((prev) => ({ ...prev, 'internal-management': true }));
     }

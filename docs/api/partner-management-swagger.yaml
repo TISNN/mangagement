@@ -1,0 +1,624 @@
+openapi: 3.1.0
+info:
+  title: Partner Management API
+  version: 1.0.0
+  description: >
+    合作方管理模块接口定义。所有接口需要携带 Supabase
+    JWT，并根据角色进行权限控制。返回值统一使用 `application/json`。
+servers:
+  - url: https://api.infinite.ai/edge
+paths:
+  /partners:
+    get:
+      summary: 获取合作方列表
+      tags: [Partners]
+      parameters:
+        - in: query
+          name: search
+          schema:
+            type: string
+          description: 名称、联系人、标签模糊搜索
+        - in: query
+          name: type
+          schema:
+            $ref: '#/components/schemas/PartnerType'
+        - in: query
+          name: status
+          schema:
+            $ref: '#/components/schemas/PartnerStatus'
+        - in: query
+          name: country
+          schema:
+            type: string
+        - in: query
+          name: tags
+          schema:
+            type: array
+            items:
+              type: string
+          style: form
+          explode: false
+        - in: query
+          name: ownerId
+          schema:
+            type: string
+            format: uuid
+        - in: query
+          name: sort
+          schema:
+            type: string
+            enum: [updated_at_desc, updated_at_asc, level_desc, level_asc]
+          description: 默认 updated_at_desc
+        - in: query
+          name: page
+          schema:
+            type: integer
+            minimum: 1
+          default: 1
+        - in: query
+          name: pageSize
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+          default: 20
+      responses:
+        '200':
+          description: 列表数据
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Partner'
+                  page:
+                    type: integer
+                  pageSize:
+                    type: integer
+                  total:
+                    type: integer
+    post:
+      summary: 新建合作方
+      tags: [Partners]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PartnerCreatePayload'
+      responses:
+        '201':
+          description: 创建成功
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Partner'
+  /partners/{partnerId}:
+    get:
+      summary: 获取合作方详情
+      tags: [Partners]
+      parameters:
+        - $ref: '#/components/parameters/PartnerId'
+      responses:
+        '200':
+          description: 完整详情
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PartnerDetail'
+    patch:
+      summary: 更新合作方
+      tags: [Partners]
+      parameters:
+        - $ref: '#/components/parameters/PartnerId'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PartnerUpdatePayload'
+      responses:
+        '200':
+          description: 更新后的记录
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Partner'
+    delete:
+      summary: 删除合作方
+      tags: [Partners]
+      parameters:
+        - $ref: '#/components/parameters/PartnerId'
+      responses:
+        '204':
+          description: 删除成功
+  /partners/{partnerId}/contacts:
+    post:
+      summary: 添加联系人
+      tags: [PartnerContacts]
+      parameters:
+        - $ref: '#/components/parameters/PartnerId'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PartnerContactPayload'
+      responses:
+        '201':
+          description: 创建成功
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PartnerContact'
+  /partners/{partnerId}/contacts/{contactId}:
+    patch:
+      summary: 更新联系人
+      tags: [PartnerContacts]
+      parameters:
+        - $ref: '#/components/parameters/PartnerId'
+        - $ref: '#/components/parameters/ContactId'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PartnerContactPayload'
+      responses:
+        '200':
+          description: 更新后的联系人
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PartnerContact'
+    delete:
+      summary: 删除联系人
+      tags: [PartnerContacts]
+      parameters:
+        - $ref: '#/components/parameters/PartnerId'
+        - $ref: '#/components/parameters/ContactId'
+      responses:
+        '204':
+          description: 删除成功
+  /partners/{partnerId}/timeline:
+    get:
+      summary: 获取跟进记录
+      tags: [PartnerTimeline]
+      parameters:
+        - $ref: '#/components/parameters/PartnerId'
+        - in: query
+          name: limit
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+          default: 20
+    post:
+      summary: 添加跟进记录
+      tags: [PartnerTimeline]
+      parameters:
+        - $ref: '#/components/parameters/PartnerId'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PartnerTimelinePayload'
+      responses:
+        '201':
+          description: 创建成功
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PartnerTimelineEntry'
+  /partners/{partnerId}/favorite:
+    post:
+      summary: 收藏合作方
+      tags: [PartnerFavorites]
+      parameters:
+        - $ref: '#/components/parameters/PartnerId'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                isFavorite:
+                  type: boolean
+                  default: true
+      responses:
+        '200':
+          description: 成功
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  partnerId:
+                    type: string
+                    format: uuid
+                  isFavorite:
+                    type: boolean
+  /partners/{partnerId}/engagements:
+    post:
+      summary: 记录合作项目/合同
+      tags: [PartnerEngagements]
+      parameters:
+        - $ref: '#/components/parameters/PartnerId'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PartnerEngagementPayload'
+      responses:
+        '201':
+          description: 创建成功
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PartnerEngagement'
+components:
+  parameters:
+    PartnerId:
+      in: path
+      name: partnerId
+      required: true
+      schema:
+        type: string
+        format: uuid
+    ContactId:
+      in: path
+      name: contactId
+      required: true
+      schema:
+        type: string
+        format: uuid
+  schemas:
+    PartnerType:
+      type: string
+      enum: [university, professor, agency, company, other]
+    PartnerStatus:
+      type: string
+      enum: [prospecting, negotiating, active, on_hold, closed]
+    PartnerLevel:
+      type: string
+      enum: [strategic, key, regular, watch]
+    Partner:
+      type: object
+      required: [id, name, type, status, level, ownerId, updatedAt]
+      properties:
+        id:
+          type: string
+          format: uuid
+        name:
+          type: string
+        type:
+          $ref: '#/components/schemas/PartnerType'
+        logoUrl:
+          type: string
+          format: uri
+          nullable: true
+        country:
+          type: string
+          nullable: true
+        city:
+          type: string
+          nullable: true
+        website:
+          type: string
+          format: uri
+          nullable: true
+        summary:
+          type: string
+          nullable: true
+        rating:
+          type: integer
+          minimum: 1
+          maximum: 5
+          nullable: true
+        level:
+          $ref: '#/components/schemas/PartnerLevel'
+        status:
+          $ref: '#/components/schemas/PartnerStatus'
+        tags:
+          type: array
+          items:
+            type: string
+        ownerId:
+          type: string
+          format: uuid
+        isFavorite:
+          type: boolean
+          default: false
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+    PartnerDetail:
+      allOf:
+        - $ref: '#/components/schemas/Partner'
+        - type: object
+          properties:
+            contacts:
+              type: array
+              items:
+                $ref: '#/components/schemas/PartnerContact'
+            engagements:
+              type: array
+              items:
+                $ref: '#/components/schemas/PartnerEngagement'
+            timelines:
+              type: array
+              items:
+                $ref: '#/components/schemas/PartnerTimelineEntry'
+            risks:
+              type: array
+              items:
+                type: string
+            internalNotes:
+              type: string
+              nullable: true
+    PartnerCreatePayload:
+      type: object
+      required: [name, type, status, level, ownerId]
+      properties:
+        name:
+          type: string
+        type:
+          $ref: '#/components/schemas/PartnerType'
+        status:
+          $ref: '#/components/schemas/PartnerStatus'
+        level:
+          $ref: '#/components/schemas/PartnerLevel'
+        ownerId:
+          type: string
+          format: uuid
+        country:
+          type: string
+        city:
+          type: string
+        website:
+          type: string
+          format: uri
+        summary:
+          type: string
+        tags:
+          type: array
+          items:
+            type: string
+    PartnerUpdatePayload:
+      type: object
+      properties:
+        name:
+          type: string
+        type:
+          $ref: '#/components/schemas/PartnerType'
+        status:
+          $ref: '#/components/schemas/PartnerStatus'
+        level:
+          $ref: '#/components/schemas/PartnerLevel'
+        ownerId:
+          type: string
+          format: uuid
+        country:
+          type: string
+        city:
+          type: string
+        website:
+          type: string
+          format: uri
+        summary:
+          type: string
+        rating:
+          type: integer
+          minimum: 1
+          maximum: 5
+        tags:
+          type: array
+          items:
+            type: string
+        internalNotes:
+          type: string
+    PartnerContact:
+      type: object
+      required: [id, partnerId, name, isPrimary]
+      properties:
+        id:
+          type: string
+          format: uuid
+        partnerId:
+          type: string
+          format: uuid
+        name:
+          type: string
+        role:
+          type: string
+          nullable: true
+        email:
+          type: string
+          format: email
+          nullable: true
+        phone:
+          type: string
+          nullable: true
+        wechat:
+          type: string
+          nullable: true
+        linkedin:
+          type: string
+          format: uri
+          nullable: true
+        isPrimary:
+          type: boolean
+        createdAt:
+          type: string
+          format: date-time
+    PartnerContactPayload:
+      type: object
+      required: [name]
+      properties:
+        name:
+          type: string
+        role:
+          type: string
+        email:
+          type: string
+          format: email
+        phone:
+          type: string
+        wechat:
+          type: string
+        linkedin:
+          type: string
+          format: uri
+        isPrimary:
+          type: boolean
+          default: false
+    PartnerEngagement:
+      type: object
+      required: [id, partnerId, title, status]
+      properties:
+        id:
+          type: string
+          format: uuid
+        partnerId:
+          type: string
+          format: uuid
+        title:
+          type: string
+        category:
+          type: string
+          description: 如“联合招生”“科研合作”“课程开发”
+        relatedStudentId:
+          type: string
+          format: uuid
+          nullable: true
+        relatedProfessorId:
+          type: string
+          format: uuid
+          nullable: true
+        contractStatus:
+          type: string
+          enum: [draft, reviewing, signed, expired]
+          nullable: true
+        startDate:
+          type: string
+          format: date
+          nullable: true
+        endDate:
+          type: string
+          format: date
+          nullable: true
+        status:
+          type: string
+          enum: [planning, executing, completed, on_hold]
+        nextAction:
+          type: string
+          nullable: true
+        ownerId:
+          type: string
+          format: uuid
+        updatedAt:
+          type: string
+          format: date-time
+    PartnerEngagementPayload:
+      type: object
+      required: [title, status]
+      properties:
+        title:
+          type: string
+        category:
+          type: string
+        relatedStudentId:
+          type: string
+          format: uuid
+        relatedProfessorId:
+          type: string
+          format: uuid
+        contractStatus:
+          type: string
+          enum: [draft, reviewing, signed, expired]
+        startDate:
+          type: string
+          format: date
+        endDate:
+          type: string
+          format: date
+        status:
+          type: string
+          enum: [planning, executing, completed, on_hold]
+        nextAction:
+          type: string
+        ownerId:
+          type: string
+          format: uuid
+    PartnerTimelineEntry:
+      type: object
+      required: [id, partnerId, noteType, content, createdBy]
+      properties:
+        id:
+          type: string
+          format: uuid
+        partnerId:
+          type: string
+          format: uuid
+        noteType:
+          type: string
+          enum: [call, meeting, email, onsite, document, other]
+        content:
+          type: string
+        nextAction:
+          type: string
+          nullable: true
+        remindAt:
+          type: string
+          format: date-time
+          nullable: true
+        attachments:
+          type: array
+          items:
+            type: object
+            properties:
+              name:
+                type: string
+              url:
+                type: string
+                format: uri
+        createdBy:
+          type: string
+          format: uuid
+        createdAt:
+          type: string
+          format: date-time
+    PartnerTimelinePayload:
+      type: object
+      required: [noteType, content]
+      properties:
+        noteType:
+          type: string
+          enum: [call, meeting, email, onsite, document, other]
+        content:
+          type: string
+        nextAction:
+          type: string
+        remindAt:
+          type: string
+          format: date-time
+        attachments:
+          type: array
+          items:
+            type: object
+            properties:
+              name:
+                type: string
+              url:
+                type: string
+                format: uri
+

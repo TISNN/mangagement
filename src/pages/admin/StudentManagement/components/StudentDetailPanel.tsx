@@ -1,13 +1,33 @@
-import React from 'react';
-import { ChevronRight, GraduationCap, Mail, NotebookText, PenSquare, Phone, Users } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import {
+  ChevronDown,
+  ChevronRight,
+  GraduationCap,
+  Loader2,
+  Mail,
+  NotebookText,
+  PenSquare,
+  Phone,
+  Users,
+  Check,
+} from 'lucide-react';
 import { StudentRecord } from '../types';
 import { RISK_TAG_CLASS, STATUS_TAG_CLASS } from '../utils';
+import {
+  SERVICE_STATUS_OPTIONS,
+  getServiceStatusStyle,
+  getServiceStatusLabel,
+  getServiceStatusValue,
+  StudentServiceStatusValue,
+} from '../../../../types/service';
+import { peopleService } from '../../../../services';
 
 interface StudentDetailPanelProps {
   student: StudentRecord | null;
   onClose: () => void;
   onManageMentors: (student: StudentRecord) => void;
   onEdit: (student: StudentRecord) => void;
+  onStatusUpdated?: () => void;
 }
 
 const StudentDetailPanel: React.FC<StudentDetailPanelProps> = ({
@@ -15,8 +35,66 @@ const StudentDetailPanel: React.FC<StudentDetailPanelProps> = ({
   onClose,
   onManageMentors,
   onEdit,
+  onStatusUpdated,
 }) => {
   if (!student) return null;
+
+  const [statusMenuForService, setStatusMenuForService] = useState<string | null>(null);
+  const [updatingServiceId, setUpdatingServiceId] = useState<string | null>(null);
+  const [serviceStatuses, setServiceStatuses] = useState<Record<string, string>>({});
+
+  useEffect(() => {
+    if (!student) return;
+    const map = Object.fromEntries(student.services.map((service) => [service.id, service.status]));
+    setServiceStatuses(map);
+    setStatusMenuForService(null);
+    setUpdatingServiceId(null);
+  }, [student]);
+
+  useEffect(() => {
+    if (!statusMenuForService) return;
+    const handleClickOutside = () => setStatusMenuForService(null);
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [statusMenuForService]);
+
+  const handleToggleStatusMenu = (serviceId: string, event: React.MouseEvent) => {
+    event.stopPropagation();
+    setStatusMenuForService((prev) => (prev === serviceId ? null : serviceId));
+  };
+
+  const handleSelectStatus = async (serviceId: string, value: StudentServiceStatusValue) => {
+    const numericId = Number.parseInt(serviceId, 10);
+    if (Number.isNaN(numericId)) {
+      console.error('服务ID无效，无法更新状态:', serviceId);
+      setStatusMenuForService(null);
+      return;
+    }
+
+    setUpdatingServiceId(serviceId);
+    try {
+      await peopleService.updateStudentServiceStatus(numericId, value);
+      const nextLabel = getServiceStatusLabel(value);
+      setServiceStatuses((prev) => ({
+        ...prev,
+        [serviceId]: nextLabel,
+      }));
+      setStatusMenuForService(null);
+      if (onStatusUpdated) {
+        await onStatusUpdated();
+      }
+    } catch (error) {
+      console.error('更新服务状态失败:', error);
+      window.alert('状态更新失败，请稍后再试');
+    } finally {
+      setUpdatingServiceId(null);
+    }
+  };
+
+  const getServiceStatusDisplay = (serviceId: string, fallback: string) =>
+    serviceStatuses[serviceId] ?? fallback;
 
   return (
     <div className="fixed inset-0 z-50 flex items-end justify-end bg-black/30 backdrop-blur-sm">
@@ -125,12 +203,60 @@ const StudentDetailPanel: React.FC<StudentDetailPanelProps> = ({
                   key={service.id}
                   className="rounded-xl border border-gray-100 bg-white p-4 shadow-sm dark:border-gray-700/60 dark:bg-gray-800/80"
                 >
-                  <div className="flex items-center justify-between">
+                  <div className="flex items-center justify-between gap-3">
                     <div>
                       <p className="text-sm font-semibold text-gray-900 dark:text-white">{service.name}</p>
                       <p className="text-xs text-gray-500 dark:text-gray-400">负责人：{service.advisor}</p>
                     </div>
-                    <span className="text-xs text-gray-400 dark:text-gray-500">{service.status}</span>
+                    <div className="relative">
+                      <button
+                        type="button"
+                        onClick={(event) => handleToggleStatusMenu(service.id, event)}
+                        className="inline-flex items-center gap-1 rounded-full border border-transparent px-2 py-1 text-[11px] font-medium text-gray-600 hover:border-blue-300 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:text-gray-300"
+                        disabled={updatingServiceId === service.id}
+                      >
+                        <span
+                          className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-[11px] font-medium ${getServiceStatusStyle(
+                            getServiceStatusDisplay(service.id, service.status),
+                          )}`}
+                        >
+                          {getServiceStatusDisplay(service.id, service.status)}
+                        </span>
+                        {updatingServiceId === service.id ? (
+                          <Loader2 className="h-3.5 w-3.5 animate-spin text-blue-500" />
+                        ) : (
+                          <ChevronDown className="h-3.5 w-3.5 text-gray-400" />
+                        )}
+                      </button>
+                      {statusMenuForService === service.id ? (
+                        <div
+                          className="absolute right-0 top-8 z-30 w-36 overflow-hidden rounded-lg border border-gray-200 bg-white shadow-lg dark:border-gray-700 dark:bg-gray-800"
+                          onMouseDown={(event) => event.stopPropagation()}
+                          onClick={(event) => event.stopPropagation()}
+                        >
+                          {SERVICE_STATUS_OPTIONS.map((option) => {
+                            const active =
+                              option.value === getServiceStatusValue(getServiceStatusDisplay(service.id, service.status));
+                            return (
+                              <button
+                                key={option.value}
+                                type="button"
+                                onClick={() => handleSelectStatus(service.id, option.value)}
+                                disabled={updatingServiceId === service.id && !active}
+                                className={`flex w-full items-center justify-between px-3 py-2 text-xs transition-colors ${
+                                  active
+                                    ? 'bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-200'
+                                    : 'text-gray-600 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700/60'
+                                }`}
+                              >
+                                <span>{option.label}</span>
+                                {active && <Check className="h-4 w-4" />}
+                              </button>
+                            );
+                          })}
+                        </div>
+                      ) : null}
+                    </div>
                   </div>
                   <div className="mt-3 flex items-center gap-2">
                     <div className="h-1.5 w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700/60">

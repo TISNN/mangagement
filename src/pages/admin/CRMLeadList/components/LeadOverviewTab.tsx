@@ -289,13 +289,7 @@ const LeadOverviewTab: React.FC<LeadOverviewTabProps> = ({
                       </span>
                     </div>
                     <div className="mt-1 text-xs text-gray-500 dark:text-gray-400">{lead.program}</div>
-                    <div className="mt-2 flex flex-wrap items-center gap-2 text-[11px] text-blue-500 dark:text-blue-300">
-                      {lead.tags.map((tag) => (
-                        <span key={tag} className="inline-flex items-center gap-1 rounded-full bg-blue-50 px-2 py-0.5 dark:bg-blue-900/30">
-                          <Sparkles className="h-3 w-3" /> {tag}
-                        </span>
-                      ))}
-                    </div>
+                    <div className="mt-2 text-[11px] text-blue-500 dark:text-blue-300">优先级 {lead.priorityLabel || '中'}</div>
                   </div>
                   <div className="text-right">
                     <span className="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-[11px] font-semibold text-blue-600 dark:bg-blue-900/30 dark:text-blue-200">

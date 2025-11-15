@@ -54,23 +54,29 @@ import AdminServicesPage from './pages/admin/Services/ServicesPage';
 import AIChatAssistantPage from './pages/AIChatAssistant';
 import SkyOfficePage from './pages/admin/SkyOfficePage';
 import ApplicationWorkbenchPage from './pages/admin/ApplicationWorkbench';
+import ApplicationWorkstationPage from './pages/admin/ApplicationWorkstation';
 import ProjectMissionBoardPage from './pages/admin/ProjectMissionBoard';
 import ServiceChronologyPage from './pages/admin/ServiceChronology';
 import { ProjectMarketplaceDetailPage, ProjectMarketplacePage } from './pages/admin/ProjectMarketplace';
 import { ProfessorDirectoryPage, ProfessorDetailPage } from './pages/admin/ProfessorDirectory';
+import PhDOpportunitiesPage from './pages/admin/PhDOpportunities/PhDOpportunitiesPage';
+import PhDOpportunityDetailPage from './pages/admin/PhDOpportunities/PhDOpportunityDetailPage';
+import PartnerManagementPage from './pages/admin/PartnerManagement/PartnerManagementPage';
 import { CRMContractDockPage } from './pages/admin/CRMContractDock';
 import { CRMLeadListPage } from './pages/admin/CRMLeadList';
 import { CRMClientInsightsPage } from './pages/admin/CRMClientInsights';
 import { CRMCollaborationHubPage } from './pages/admin/CRMCollaborationHub';
-import { KnowledgeHubDashboardPage } from './pages/admin/KnowledgeHubDashboard';
-import { KnowledgeHubMySpacePage } from './pages/admin/KnowledgeHubMySpace';
-import { KnowledgeHubTeamSpacePage } from './pages/admin/KnowledgeHubTeamSpace';
+import { CRMTemplateLibraryPage, CRMTemplateDetailPage } from './pages/admin/CRMTemplateLibrary';
+import { KnowledgeHubWorkspacePage } from './pages/admin/KnowledgeHubWorkspace';
 import { KnowledgeHubMarketPage } from './pages/admin/KnowledgeHubMarket';
 import KnowledgeHubMarketDetailPage from './pages/admin/KnowledgeHubMarket/KnowledgeHubMarketDetailPage';
 import { KnowledgeGardenAdminPage } from './pages/admin/KnowledgeGardenAdmin';
 import { KnowledgeModerationPage } from './pages/admin/KnowledgeModeration';
-import { KnowledgeSettingsPage } from './pages/admin/KnowledgeSettings';
+import { CloudDocsHomePage } from './pages/admin/CloudDocsHome';
+import { CloudDocsDrivePage } from './pages/admin/CloudDocsDrive';
+import { CloudDocsKnowledgePage } from './pages/admin/CloudDocsKnowledge';
 import FinanceSuitePage from './pages/admin/FinanceSuite/FinanceSuitePage';
+import { InstitutionIntroductionPage } from './pages/admin/InstitutionIntroduction';
 import { PlacementAssessmentPage } from './pages/admin/EducationTraining/PlacementAssessment';
 import { SchedulingClassroomPage } from './pages/admin/EducationTraining/SchedulingClassroom';
 import { LearnerPortalPage } from './pages/admin/EducationTraining/LearnerPortal';
@@ -88,10 +94,8 @@ import {
 } from './pages/admin/ServiceCenter';
 import {
   EmployeeAndSchedulingPage,
-  OnboardingOffboardingCenterPage,
   RecruitmentInterviewCenterPage,
   StaffDetailPage,
-  SystemSettingsPage,
 } from './pages/admin/InternalManagement';
 
 // 导入路由保护组件
@@ -144,22 +148,27 @@ const AppRoutes: React.FC = () => {
         <Route path="applications/:id" element={<ApplicationDetailPage />} />
         <Route path="applications/:studentId/planning" element={<PlanningDetailPage />} />
         <Route path="application-workbench" element={<ApplicationWorkbenchPage />} />
+        <Route path="application-workstation" element={<ApplicationWorkstationPage />} />
         <Route path="project-mission-board" element={<ProjectMissionBoardPage />} />
         <Route path="service-chronology" element={<ServiceChronologyPage />} />
         <Route path="project-marketplace" element={<ProjectMarketplacePage />} />
         <Route path="project-marketplace/:projectId" element={<ProjectMarketplaceDetailPage />} />
+        <Route path="institution-introduction" element={<InstitutionIntroductionPage />} />
         <Route path="professor-directory" element={<ProfessorDirectoryPage />} />
         <Route path="professor-directory/:professorId" element={<ProfessorDetailPage />} />
+        <Route path="phd-opportunities" element={<PhDOpportunitiesPage />} />
+        <Route path="phd-opportunities/:positionId" element={<PhDOpportunityDetailPage />} />
+        <Route path="partner-management" element={<PartnerManagementPage />} />
         <Route path="crm-lead-list" element={<CRMLeadListPage />} />
+        <Route path="crm-template-library" element={<CRMTemplateLibraryPage />} />
+        <Route path="crm-template-library/:templateId" element={<CRMTemplateDetailPage />} />
         <Route path="crm-contract-dock" element={<CRMContractDockPage />} />
         <Route path="crm-client-insights" element={<CRMClientInsightsPage />} />
         <Route path="crm-collaboration-hub" element={<CRMCollaborationHubPage />} />
         <Route path="internal-management" element={<Navigate to="/admin/internal-management/employee-and-scheduling" replace />} />
         <Route path="internal-management/employee-and-scheduling" element={<EmployeeAndSchedulingPage />} />
         <Route path="internal-management/employee-and-scheduling/:staffId" element={<StaffDetailPage />} />
-        <Route path="internal-management/onboarding" element={<OnboardingOffboardingCenterPage />} />
         <Route path="internal-management/recruitment" element={<RecruitmentInterviewCenterPage />} />
-        <Route path="internal-management/system-settings" element={<SystemSettingsPage />} />
         <Route path="service-center" element={<ServiceCenterPage />}>
           <Route index element={<Navigate to="overview" replace />} />
           <Route path="overview" element={<ServiceCenterOverviewPage />} />
@@ -169,15 +178,16 @@ const AppRoutes: React.FC = () => {
           <Route path="client-portal" element={<ServiceCenterClientPortalPage />} />
           <Route path="analytics" element={<ServiceCenterAnalyticsPage />} />
         </Route>
-        <Route path="knowledge-hub" element={<Navigate to="/admin/knowledge-hub/dashboard" replace />} />
-        <Route path="knowledge-hub/dashboard" element={<KnowledgeHubDashboardPage />} />
-        <Route path="knowledge-hub/my-space" element={<KnowledgeHubMySpacePage />} />
-        <Route path="knowledge-hub/team-space" element={<KnowledgeHubTeamSpacePage />} />
+        <Route path="cloud-docs" element={<Navigate to="/admin/cloud-docs/home" replace />} />
+        <Route path="cloud-docs/home" element={<CloudDocsHomePage />} />
+        <Route path="cloud-docs/drive" element={<CloudDocsDrivePage />} />
+        <Route path="cloud-docs/knowledge" element={<CloudDocsKnowledgePage />} />
+        <Route path="knowledge-hub" element={<Navigate to="/admin/knowledge-hub/workspace" replace />} />
+        <Route path="knowledge-hub/workspace" element={<KnowledgeHubWorkspacePage />} />
         <Route path="knowledge-hub/market" element={<KnowledgeHubMarketPage />} />
         <Route path="knowledge-hub/market/:marketId" element={<KnowledgeHubMarketDetailPage />} />
         <Route path="knowledge-hub/garden" element={<KnowledgeGardenAdminPage />} />
         <Route path="knowledge-hub/moderation" element={<KnowledgeModerationPage />} />
-        <Route path="knowledge-hub/settings" element={<KnowledgeSettingsPage />} />
         <Route path="school-selection-planner" element={<SchoolSelectionPlannerPage />} />
         <Route path="leads" element={<LeadsPage />} />
         <Route path="leads/:leadId" element={<LeadDetailPage />} />

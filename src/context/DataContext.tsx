@@ -199,10 +199,18 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
                 serviceCategory: service.service_type?.category || getServiceCategory(service.service_type?.name || '未知服务'),
                 serviceEducationLevel: service.service_type?.education_level ?? null,
                 serviceParentId: service.service_type?.parent_id ?? null,
-                status: service.status === 'in_progress' ? '进行中' : 
-                        service.status === 'completed' ? '已完成' : 
-                        service.status === 'on_hold' ? '已暂停' : 
-                        service.status === 'cancelled' ? '已取消' : '未开始',
+                status:
+                  service.status === 'in_progress' || service.status === 'applying'
+                    ? '进行中'
+                    : service.status === 'completed'
+                    ? '已完成'
+                    : service.status === 'on_hold'
+                    ? '已暂停'
+                    : service.status === 'cancelled'
+                    ? '已取消'
+                    : service.status === 'not_started'
+                    ? '未开始'
+                    : '未开始',
                 enrollmentDate: service.enrollment_date,
                 endDate: service.end_date,
                 mentors: mentorList,

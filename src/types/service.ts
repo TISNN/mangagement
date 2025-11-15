@@ -23,6 +23,46 @@ export type ServiceStatusLegacy =
   | '已暂停'
   | '已取消';
 
+export type StudentServiceStatusValue =
+  | 'not_started'
+  | 'in_progress'
+  | 'applying'
+  | 'completed'
+  | 'on_hold'
+  | 'cancelled';
+
+export const SERVICE_STATUS_OPTIONS: Array<{ value: StudentServiceStatusValue; label: string }> = [
+  { value: 'not_started', label: '未开始' },
+  { value: 'in_progress', label: '进行中' },
+  { value: 'completed', label: '已完成' },
+  { value: 'on_hold', label: '已暂停' },
+  { value: 'cancelled', label: '已取消' },
+];
+
+const STATUS_VALUE_TO_LABEL: Record<StudentServiceStatusValue, string> = {
+  not_started: '未开始',
+  in_progress: '进行中',
+  applying: '进行中',
+  completed: '已完成',
+  on_hold: '已暂停',
+  cancelled: '已取消',
+};
+
+const STATUS_LABEL_TO_VALUE: Record<string, StudentServiceStatusValue> = {
+  未开始: 'not_started',
+  进行中: 'in_progress',
+  申请中: 'in_progress',
+  已完成: 'completed',
+  已暂停: 'on_hold',
+  已取消: 'cancelled',
+};
+
+export const getServiceStatusLabel = (value: StudentServiceStatusValue): string =>
+  STATUS_VALUE_TO_LABEL[value] ?? '未开始';
+
+export const getServiceStatusValue = (label: string): StudentServiceStatusValue =>
+  STATUS_LABEL_TO_VALUE[label] ?? 'not_started';
+
 // 根据服务名称推断所属分类
 export function getServiceCategory(serviceType: ServiceType): ServiceCategory {
   const categoryMap: Array<{ keywords: string[]; category: ServiceCategory }> = [
@@ -82,15 +122,15 @@ export function getServiceIcon(serviceType: ServiceType): string {
 export function getServiceStatusStyle(status: ServiceStatusLegacy | string): string {
   switch (status) {
     case '进行中':
-      return 'bg-green-50 text-green-700 dark:bg-green-900/20 dark:text-green-400';
+      return 'bg-blue-50 text-blue-600 dark:bg-blue-900/30 dark:text-blue-200';
     case '已暂停':
-      return 'bg-yellow-50 text-yellow-700 dark:bg-yellow-900/20 dark:text-yellow-400';
+      return 'bg-amber-50 text-amber-600 dark:bg-amber-900/30 dark:text-amber-200';
     case '已完成':
-      return 'bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400';
+      return 'bg-emerald-50 text-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-200';
     case '已取消':
-      return 'bg-red-50 text-red-700 dark:bg-red-900/20 dark:text-red-400';
+      return 'bg-rose-50 text-rose-600 dark:bg-rose-900/30 dark:text-rose-200';
     case '未开始':
     default:
-      return 'bg-gray-50 text-gray-700 dark:bg-gray-900/20 dark:text-gray-400';
+      return 'bg-gray-100 text-gray-700 dark:bg-gray-800/30 dark:text-gray-300';
   }
 }

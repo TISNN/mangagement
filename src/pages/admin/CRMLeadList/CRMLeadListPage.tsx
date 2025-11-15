@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { ReactNode } from 'react';
-import { Activity, ArrowRight, ClipboardCheck, LayoutList, Sparkles } from 'lucide-react';
+import { Activity, ArrowRight, ClipboardCheck, LayoutList, NotebookPen, Sparkles } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 import { Button } from '../../../components/ui/button';
 import { leadService, mentorService, serviceTypeService } from '../../../services';
@@ -23,7 +24,6 @@ import {
   SLA_OVERVIEW,
   STATUS_METRICS,
   TASK_LIST,
-  TEMPLATE_SNIPPETS,
   TREND_SUMMARY,
 } from './data';
 import type { HotLead, LeadFormValues, LeadRecord, LeadSection, LeadStage, LeadTableViewMode, QuickFilter } from './types';
@@ -59,18 +59,18 @@ const stageToStatusMap: Record<LeadStage, LeadStatus> = {
   签约: 'converted',
 };
 
-const priorityLabelMap: Record<LeadPriority, string> = {
-  high: '高',
-  medium: '中',
-  low: '低',
-};
-
 const stagePriorityMap: Record<LeadStage, LeadPriority> = {
   新增: 'medium',
   初次沟通: 'medium',
   深度沟通: 'high',
   合同拟定: 'high',
   签约: 'high',
+};
+
+const priorityLabelMap: Record<LeadPriority, string> = {
+  high: '高',
+  medium: '中',
+  low: '低',
 };
 
 const channelAccentPalette: string[] = [
@@ -135,8 +135,6 @@ const resolveRisk = (daysSinceLastContact: number, priority: LeadPriority, statu
   return undefined;
 };
 
-const uniqueTags = (items: string[]) => Array.from(new Set(items.filter((item) => item && item.trim().length > 0))).slice(0, 6);
-
 interface TransformResult {
   record: LeadRecord;
   meta: LeadAnalytics;
@@ -155,12 +153,10 @@ const transformLead = (
   const stage = stageMapping[lead.status] ?? '新增';
   const inferredRisk = resolveRisk(daysSinceLastContact, lead.priority, lead.status);
   const risk = lead.riskLevel ? riskReminderMap[lead.riskLevel] ?? inferredRisk : inferredRisk;
-  const priorityTag = `优先级${priorityLabelMap[lead.priority]}`;
   const sourceTag = lead.source || '其他渠道';
   const notes = lead.notes?.trim() ?? '';
   const nextAction = lead.nextAction?.trim() ?? '';
   const campaignName = lead.campaign?.trim() || undefined;
-  const tagsFromLead = Array.isArray(lead.tags) ? lead.tags.map((tag) => tag.trim()).filter(Boolean) : [];
   const noteTags = notes
     ? notes
         .split(/[,，|｜；;、\n]/)
@@ -169,10 +165,6 @@ const transformLead = (
         .slice(0, 3)
     : [];
 
-  const tagCandidates = [serviceTypeName, priorityTag, sourceTag, ...tagsFromLead, ...noteTags].filter(
-    (item): item is string => Boolean(item && item.trim().length > 0),
-  );
-  const tags = uniqueTags(tagCandidates);
   const projectName = serviceTypeName || noteTags[0] || campaignName || '待确认项目';
 
   const record: LeadRecord = {
@@ -182,9 +174,9 @@ const transformLead = (
     project: projectName,
     stage,
     owner: ownerName,
+    priority: lead.priority,
     channel: lead.source || '其他渠道',
     campaign: campaignName,
-    tags: tags.length ? tags : ['待整理'],
     lastTouch: formatDateTime(lead.lastContact),
     nextAction: nextAction || '待补充下一步动作',
     risk,
@@ -215,6 +207,7 @@ const CRMLeadListPage: React.FC = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [loadError, setLoadError] = useState<string | null>(null);
   const clearTimerRef = useRef<number | null>(null);
+  const navigate = useNavigate();
 
   const loadLeads = useCallback(async () => {
     setIsLoading(true);
@@ -273,7 +266,7 @@ const CRMLeadListPage: React.FC = () => {
     return {
       quickFilters: [
         { id: 'today', label: '今日必办', value: String(todayCount) },
-        { id: 'high', label: '高热度', value: String(highPriorityCount) },
+        { id: 'high', label: '高优先级', value: String(highPriorityCount) },
         { id: 'unassigned', label: '待分配', value: String(unassignedCount) },
         { id: 'overdue', label: '超时未跟进', value: String(overdueCount) },
       ],
@@ -371,7 +364,6 @@ const CRMLeadListPage: React.FC = () => {
           lastInteraction: lead.lastTouch,
           owner: lead.owner,
           recommendedAction: lead.nextAction && lead.nextAction.trim().length > 0 ? lead.nextAction : '待补充下一步动作',
-          tags: lead.tags.slice(0, 4),
         };
       });
   }, [leadAnalytics, leadRows]);
@@ -474,13 +466,8 @@ const CRMLeadListPage: React.FC = () => {
     const priority: LeadPriority = stagePriorityMap[values.stage] ?? 'medium';
     const trimmedNextAction = values.nextAction.trim();
     const trimmedCampaign = values.campaign.trim();
-    const tags = values.tags
-      .split(/[,，\s]+/)
-      .map((tag) => tag.trim())
-      .filter(Boolean);
     const noteSegments: string[] = [];
     if (projectValue) noteSegments.push(`意向：${projectValue}`);
-    if (tags.length) noteSegments.push(`标签：${tags.join('、')}`);
     if (trimmedCampaign) noteSegments.push(`活动：${trimmedCampaign}`);
     const notes = noteSegments.length ? noteSegments.join(' | ') : undefined;
 
@@ -494,7 +481,6 @@ const CRMLeadListPage: React.FC = () => {
         notes,
         nextAction: trimmedNextAction || undefined,
         campaign: trimmedCampaign || undefined,
-        tags,
       });
 
       const targetStatus = stageToStatusMap[values.stage];
@@ -528,6 +514,14 @@ const CRMLeadListPage: React.FC = () => {
           >
             <ClipboardCheck className="h-4 w-4" />
             批量导入
+          </Button>
+          <Button
+            variant="outline"
+            onClick={() => navigate('/admin/crm-template-library')}
+            className="gap-2 border-gray-200 text-gray-600 hover:border-blue-200 hover:text-blue-600 dark:border-gray-600 dark:text-gray-300 dark:hover:border-blue-500 dark:hover:text-blue-300"
+          >
+            <NotebookPen className="h-4 w-4" />
+            模板与话术库
           </Button>
           <Button onClick={() => setCreateOpen(true)} className="gap-2 bg-blue-600 text-white hover:bg-blue-700">
             <Sparkles className="h-4 w-4" />
@@ -634,7 +628,6 @@ const CRMLeadListPage: React.FC = () => {
           taskList={TASK_LIST}
           totalTasks={totalTasks}
           overdueTasks={overdueTasks}
-          templateSnippets={TEMPLATE_SNIPPETS}
           qualityChecks={QUALITY_CHECKS}
         />
       )}

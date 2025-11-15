@@ -3,15 +3,15 @@ import { useNavigate, useParams } from 'react-router-dom';
 
 import {
   Activity,
+  AlertTriangle,
   ArrowLeft,
   BadgeCheck,
-  Calendar,
-  CalendarDays,
-  CheckCircle,
+  ClipboardList,
   Clock3,
   MapPin,
   Mail,
   Sparkles,
+  Target,
   Users,
 } from 'lucide-react';
 
@@ -37,20 +37,6 @@ const InfoCard: React.FC<{ title: string; icon: React.ReactNode; children: React
     </header>
     <div className="text-sm leading-6 text-gray-600 dark:text-gray-300">{children}</div>
   </section>
-);
-
-const ShiftTimelineItem: React.FC<{ primary: string; secondary: string; meta: string }> = ({ primary, secondary, meta }) => (
-  <li className="relative flex flex-col gap-1 rounded-2xl border border-gray-100 bg-gray-50 px-4 py-3 text-sm dark:border-gray-800 dark:bg-gray-900/40 md:flex-row md:items-center md:justify-between">
-    <div className="flex items-center gap-2 text-gray-900 dark:text-gray-100">
-      <CheckCircle className="h-4 w-4 text-blue-500" />
-      <span className="font-medium">{primary}</span>
-    </div>
-    <div className="flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400">
-      <MapPin className="h-3.5 w-3.5" />
-      {secondary}
-    </div>
-    <span className="text-xs text-gray-400 dark:text-gray-500">{meta}</span>
-  </li>
 );
 
 export const StaffDetailPage: React.FC = () => {
@@ -179,19 +165,19 @@ export const StaffDetailPage: React.FC = () => {
         </div>
         <div className="flex flex-wrap gap-2">
           <Button
-            onClick={() => console.info('[StaffDetailPage] 发起排班调整', { staffId })}
+            onClick={() => console.info('[StaffDetailPage] 分配任务', { staffId })}
             className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-blue-700"
           >
-            <CalendarDays className="h-4 w-4" />
-            调整排班
+            <ClipboardList className="h-4 w-4" />
+            分配任务
           </Button>
           <Button
             variant="outline"
-            onClick={() => console.info('[StaffDetailPage] 发起绩效反馈', { staffId })}
+            onClick={() => console.info('[StaffDetailPage] 添加跟进提醒', { staffId })}
             className="inline-flex items-center gap-2 rounded-xl border-gray-200 px-4 py-2 text-sm font-medium text-gray-700 hover:border-blue-200 hover:text-blue-600 dark:border-gray-700 dark:text-gray-300 dark:hover:border-blue-500 dark:hover:text-blue-200"
           >
             <Sparkles className="h-4 w-4" />
-            绩效反馈
+            添加提醒
           </Button>
         </div>
       </section>
@@ -225,22 +211,48 @@ export const StaffDetailPage: React.FC = () => {
             ))}
           </div>
         </InfoCard>
-        <InfoCard title="班次安排" icon={<Calendar className="h-4 w-4" />}>
-          <ul className="space-y-2">
-            {profile.availability.map((slot, index) => (
-              <ShiftTimelineItem
-                key={`${profile.id}-${slot.day}-${slot.start}-${index}`}
-                primary={`${slot.day} · ${slot.start} - ${slot.end}`}
-                secondary={slot.location}
-                meta={`排班 #${index + 1}`}
-              />
-            ))}
-          </ul>
+        <InfoCard title="重点工作" icon={<ClipboardList className="h-4 w-4" />}>
+          {profile.responsibilityHighlights.length > 0 ? (
+            <ul className="space-y-3">
+              {profile.responsibilityHighlights.map((item) => (
+                <li
+                  key={item.id}
+                  className="rounded-2xl border border-gray-100 bg-gray-50 px-4 py-3 text-sm text-gray-600 dark:border-gray-800 dark:bg-gray-900/40 dark:text-gray-300"
+                >
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="font-medium text-gray-900 dark:text-gray-100">
+                      {item.type} · {item.title}
+                    </span>
+                    <span className="text-xs text-gray-400 dark:text-gray-500">{item.dueAt ?? '时间待定'}</span>
+                  </div>
+                  <div className="mt-1 flex items-center justify-between text-xs text-gray-500 dark:text-gray-400">
+                    <span>状态：{item.status}</span>
+                    <span
+                      className={
+                        item.importance === '高'
+                          ? 'text-rose-500 dark:text-rose-300'
+                          : item.importance === '低'
+                            ? 'text-emerald-500 dark:text-emerald-300'
+                            : 'text-amber-500 dark:text-amber-300'
+                      }
+                    >
+                      优先级 {item.importance}
+                    </span>
+                  </div>
+                  {item.description ? (
+                    <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">{item.description}</p>
+                  ) : null}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p className="text-sm text-gray-500 dark:text-gray-400">暂无重点工作，请在任务中心补充职责分配。</p>
+          )}
         </InfoCard>
       </div>
 
       <div className="grid gap-4 lg:grid-cols-[1.2fr,0.8fr]">
-        <InfoCard title="排班冲突" icon={<Clock3 className="h-4 w-4 text-amber-500" />}>
+        <InfoCard title="风险提醒" icon={<AlertTriangle className="h-4 w-4 text-amber-500" />}>
           {conflicts.length > 0 ? (
             <div className="space-y-2 text-sm">
               {conflicts.map((conflict) => (
@@ -265,14 +277,29 @@ export const StaffDetailPage: React.FC = () => {
         </InfoCard>
       </div>
 
-      <InfoCard title="当前负载" icon={<Activity className="h-4 w-4" />}>
+      <InfoCard title="当前工作量" icon={<Activity className="h-4 w-4" />}>
         <div className="flex items-baseline gap-2">
           <span className="text-2xl font-semibold text-gray-900 dark:text-gray-100">{profile.workload}%</span>
-          <span className="text-xs text-gray-500 dark:text-gray-400">本周排班占比</span>
+          <span className="text-xs text-gray-500 dark:text-gray-400">工作量指数</span>
         </div>
-        <p className="text-xs text-gray-500 dark:text-gray-400">保持适度工作量，可留出内容复盘与增量时间。</p>
+        <div className="mt-3 flex flex-wrap gap-2 text-xs text-gray-500 dark:text-gray-400">
+          <span className="inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5 dark:bg-gray-800/60">
+            <Target className="h-3.5 w-3.5 text-blue-500 dark:text-blue-300" />
+            重点：{profile.primaryFocus || '待分配'}
+          </span>
+          <span className="inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5 dark:bg-gray-800/60">
+            <ClipboardList className="h-3.5 w-3.5 text-emerald-500 dark:text-emerald-300" />
+            活跃任务 {profile.activeTaskCount}
+          </span>
+          <span className="inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5 dark:bg-gray-800/60">
+            <Clock3 className="h-3.5 w-3.5 text-amber-500 dark:text-amber-300" />
+            即将会议 {profile.upcomingMeetingCount}
+          </span>
+        </div>
+        <p className="mt-3 text-xs text-gray-500 dark:text-gray-400">
+          建议每周检查任务完成情况，关注高优先级事项，必要时协调团队支援。
+        </p>
       </InfoCard>
-
     </div>
   );
 };

@@ -1,8 +1,33 @@
-import React, { useState } from 'react';
-import { MoreHorizontal, Languages, BookOpen, Award, PenTool, Book, FileCheck, Layers, Briefcase, TrendingUp, AlertTriangle, Globe } from 'lucide-react';
-import { ServiceType, getServiceStatusStyle, getServiceCategory } from '../types/service';
+import React, { useEffect, useRef, useState } from 'react';
+import {
+  MoreHorizontal,
+  Languages,
+  BookOpen,
+  Award,
+  PenTool,
+  Book,
+  FileCheck,
+  Layers,
+  Briefcase,
+  TrendingUp,
+  AlertTriangle,
+  Globe,
+  ChevronDown,
+  Check,
+  Loader2,
+} from 'lucide-react';
+import {
+  ServiceType,
+  getServiceStatusStyle,
+  getServiceCategory,
+  SERVICE_STATUS_OPTIONS,
+  getServiceStatusValue,
+  getServiceStatusLabel,
+  StudentServiceStatusValue,
+} from '../types/service';
 import { formatDate } from '../utils/dateUtils';
 import ServiceProgressModal from './ServiceProgressModal';
+import { peopleService } from '../services';
 
 interface Mentor {
   id: string;
@@ -42,6 +67,28 @@ const StudentServiceCard: React.FC<StudentServiceProps> = ({
   onProgressUpdated
 }) => {
   const [showProgressModal, setShowProgressModal] = useState(false);
+  const [currentStatus, setCurrentStatus] = useState(status);
+  const [statusMenuOpen, setStatusMenuOpen] = useState(false);
+  const [updatingStatus, setUpdatingStatus] = useState(false);
+  const statusMenuRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    setCurrentStatus(status);
+  }, [status]);
+
+  useEffect(() => {
+    if (!statusMenuOpen) return;
+    const handleClickOutside = (event: MouseEvent) => {
+      if (!statusMenuRef.current) return;
+      if (!statusMenuRef.current.contains(event.target as Node)) {
+        setStatusMenuOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [statusMenuOpen]);
 
   // 服务类型图标
   const getServiceIcon = () => {
@@ -97,6 +144,44 @@ const StudentServiceCard: React.FC<StudentServiceProps> = ({
     setShowProgressModal(true);
   };
 
+  const handleToggleStatusMenu = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setStatusMenuOpen((prev) => !prev);
+  };
+
+  const handleSelectStatus = async (value: StudentServiceStatusValue) => {
+    const currentValue = getServiceStatusValue(currentStatus);
+    if (value === currentValue) {
+      setStatusMenuOpen(false);
+      return;
+    }
+
+    const numericId = Number.parseInt(id, 10);
+    if (Number.isNaN(numericId)) {
+      console.error('无法更新状态，服务ID无效:', id);
+      setStatusMenuOpen(false);
+      return;
+    }
+
+    setUpdatingStatus(true);
+    try {
+      await peopleService.updateStudentServiceStatus(numericId, value);
+      const nextLabel = getServiceStatusLabel(value);
+      setCurrentStatus(nextLabel);
+      setStatusMenuOpen(false);
+      if (onProgressUpdated) {
+        onProgressUpdated();
+      }
+    } catch (error) {
+      console.error('更新服务状态失败:', error);
+      window.alert('更新状态失败，请稍后再试');
+    } finally {
+      setUpdatingStatus(false);
+    }
+  };
+
+  const currentStatusValue = getServiceStatusValue(currentStatus);
+
   return (
     <div 
       className="bg-white border border-gray-200 rounded-xl overflow-hidden dark:bg-gray-800 dark:border-gray-700 transition-shadow hover:shadow-md"
@@ -121,13 +206,57 @@ const StudentServiceCard: React.FC<StudentServiceProps> = ({
               </p>
             </div>
           </div>
-          <div className="flex items-center gap-2">
-            <span className={`px-3 py-1 rounded-full text-sm font-medium ${getServiceStatusStyle(status)}`}>
-              {status}
-            </span>
-            <button className="p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300">
+          <div className="relative flex items-center gap-2">
+            <button
+              type="button"
+              onClick={handleToggleStatusMenu}
+              disabled={updatingStatus}
+              className="flex items-center gap-1 rounded-full border border-transparent px-0 py-0 text-sm font-medium text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:text-gray-200 disabled:opacity-60"
+            >
+              <span className={`px-3 py-1 rounded-full text-sm font-medium ${getServiceStatusStyle(currentStatus)}`}>
+                {currentStatus}
+              </span>
+              {updatingStatus ? (
+                <Loader2 className="h-4 w-4 animate-spin text-blue-500" />
+              ) : (
+                <ChevronDown className="h-4 w-4 text-gray-400" />
+              )}
+            </button>
+            <button
+              className="p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+              onClick={(event) => event.stopPropagation()}
+              type="button"
+            >
               <MoreHorizontal className="h-5 w-5" />
             </button>
+
+            {statusMenuOpen && (
+              <div
+                ref={statusMenuRef}
+                className="absolute right-0 top-10 z-20 w-36 overflow-hidden rounded-lg border border-gray-200 bg-white shadow-lg dark:border-gray-700 dark:bg-gray-800"
+                onClick={(event) => event.stopPropagation()}
+              >
+                {SERVICE_STATUS_OPTIONS.map((option) => {
+                  const active = option.value === currentStatusValue;
+                  return (
+                    <button
+                      key={option.value}
+                      type="button"
+                      onClick={() => handleSelectStatus(option.value)}
+                      disabled={updatingStatus && !active}
+                      className={`flex w-full items-center justify-between px-3 py-2 text-sm transition-colors ${
+                        active
+                          ? 'bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-200'
+                          : 'text-gray-600 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700/60'
+                      }`}
+                    >
+                      <span>{option.label}</span>
+                      {active && <Check className="h-4 w-4" />}
+                    </button>
+                  );
+                })}
+              </div>
+            )}
           </div>
         </div>
         

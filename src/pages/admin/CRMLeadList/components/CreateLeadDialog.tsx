@@ -28,7 +28,6 @@ const INITIAL_VALUES: LeadFormValues = {
   owner: '',
   channel: '',
   campaign: '',
-  tags: '',
   nextAction: '',
 };
 
@@ -139,17 +138,6 @@ const CreateLeadDialog: React.FC<CreateLeadDialogProps> = ({ open, onOpenChange,
                 value={formValues.campaign}
                 onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
                   setFormValues((prev) => ({ ...prev, campaign: event.target.value }))
-                }
-              />
-            </div>
-            <div className="space-y-2">
-              <Label htmlFor="lead-tags">标签</Label>
-              <Input
-                id="lead-tags"
-                placeholder="使用逗号或空格分隔，例如：高预算, TOEFL110"
-                value={formValues.tags}
-                onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
-                  setFormValues((prev) => ({ ...prev, tags: event.target.value }))
                 }
               />
             </div>

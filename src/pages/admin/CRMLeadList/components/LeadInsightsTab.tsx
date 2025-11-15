@@ -1,27 +1,7 @@
 import React from 'react';
-import {
-  BadgePercent,
-  Bookmark,
-  CalendarClock,
-  ClipboardCheck,
-  Filter,
-  Headphones,
-  NotebookPen,
-  PlayCircle,
-  ShieldCheck,
-  Sparkles,
-  Users,
-  FileText,
-} from 'lucide-react';
+import { BadgePercent, CalendarClock, ClipboardCheck, Filter, Headphones, NotebookPen, ShieldCheck, Sparkles, Users, FileText } from 'lucide-react';
 
-import type {
-  ChannelShare,
-  EngagementRecord,
-  QualityCheck,
-  StatusMetric,
-  TaskCard,
-  TemplateSnippet,
-} from '../types';
+import type { ChannelShare, EngagementRecord, QualityCheck, StatusMetric, TaskCard } from '../types';
 import { CHANNEL_ICON_MAP, calculateChannelWidth, crmTheme, getStatusTrendIcon, heatBadgeMap, sentimentTextMap, StatusBadge } from '../utils';
 
 interface LeadInsightsTabProps {
@@ -32,7 +12,6 @@ interface LeadInsightsTabProps {
   taskList: TaskCard[];
   totalTasks: number;
   overdueTasks: number;
-  templateSnippets: TemplateSnippet[];
   qualityChecks: QualityCheck[];
 }
 
@@ -44,7 +23,6 @@ const LeadInsightsTab: React.FC<LeadInsightsTabProps> = ({
   taskList,
   totalTasks,
   overdueTasks,
-  templateSnippets,
   qualityChecks,
 }) => {
   return (
@@ -134,11 +112,6 @@ const LeadInsightsTab: React.FC<LeadInsightsTabProps> = ({
                         <div className="mt-1 flex flex-wrap items-center gap-2 text-[11px] text-gray-500 dark:text-gray-400">
                           <span className="inline-flex items-center gap-1"><Users className="h-3.5 w-3.5" /> {record.owner}</span>
                           <span className={sentimentTextMap[record.sentiment].className}>{sentimentTextMap[record.sentiment].label}</span>
-                          {record.tags.map((tag) => (
-                            <span key={tag} className="inline-flex items-center gap-1 rounded-full bg-white px-2 py-0.5 text-[10px] text-blue-500 dark:bg-gray-700/50">
-                              <Bookmark className="h-3 w-3" /> {tag}
-                            </span>
-                          ))}
                         </div>
                       </div>
                       <div className="flex flex-col items-end gap-2">
@@ -219,47 +192,7 @@ const LeadInsightsTab: React.FC<LeadInsightsTabProps> = ({
         </div>
       </section>
 
-      <section className="grid gap-4 xl:grid-cols-2">
-        <div className={crmTheme.cardBase}>
-          <div className="flex items-center justify-between">
-            <div>
-              <h2 className={crmTheme.sectionTitle}>话术与模板库</h2>
-              <p className={crmTheme.sectionDescription}>沉淀高分话术与资料模板，支持一键引用。</p>
-            </div>
-            <button className="inline-flex items-center gap-1 rounded-lg border border-gray-200 px-2.5 py-1 text-xs text-gray-600 hover:border-blue-200 hover:text-blue-600 dark:border-gray-600 dark:text-gray-300 dark:hover:border-blue-500 dark:hover:text-blue-300">
-              <PlayCircle className="h-3.5 w-3.5" /> 浏览库
-            </button>
-          </div>
-
-          <div className="mt-4 space-y-3">
-            {templateSnippets.map((tpl) => (
-              <div key={tpl.id} className="rounded-xl border border-gray-200 p-4 transition hover:border-blue-200 dark:border-gray-700 dark:hover:border-blue-500/50">
-                <div className="flex flex-wrap items-center justify-between gap-3">
-                  <div>
-                    <div className="flex items-center gap-2">
-                      <span className="text-sm font-semibold text-gray-900 dark:text-white">{tpl.title}</span>
-                      <span className="inline-flex items-center gap-1 rounded-full bg-blue-50 px-2 py-0.5 text-[11px] font-semibold text-blue-600 dark:bg-blue-900/30 dark:text-blue-300">
-                        {tpl.channel}
-                      </span>
-                    </div>
-                    <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">{tpl.description}</p>
-                    <div className="mt-2 flex flex-wrap items-center gap-2 text-[11px] text-blue-500 dark:text-blue-300">
-                      {tpl.tags.map((tag) => (
-                        <span key={tag} className="inline-flex items-center gap-1 rounded-full bg-white px-2 py-0.5 dark:bg-gray-700/50">
-                          <Sparkles className="h-3 w-3" /> {tag}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                  <div className="text-right text-xs text-gray-500 dark:text-gray-400">
-                    <div className="font-semibold text-gray-900 dark:text-white">评分 {tpl.rating}</div>
-                    <div className="mt-1">使用 {tpl.usage} 次</div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+      <section className="grid gap-4">
         <div className={crmTheme.cardBase}>
           <div className="flex items-center justify-between">
             <div>

@@ -34,6 +34,16 @@ export interface PermissionAuditLog {
   riskLevel: '低' | '中' | '高';
 }
 
+export interface StaffResponsibility {
+  id: string;
+  title: string;
+  type: '任务' | '会议' | '项目';
+  status: string;
+  dueAt?: string;
+  importance: '高' | '中' | '低';
+  description?: string;
+}
+
 export interface StaffProfile {
   id: string;
   name: string;
@@ -41,6 +51,8 @@ export interface StaffProfile {
   team: string;
   email?: string;
   workload: number;
+  activeTaskCount: number;
+  upcomingMeetingCount: number;
   skills: string[];
   avatarUrl?: string;
   avatarColor?: string;
@@ -59,6 +71,8 @@ export interface StaffProfile {
     location: string;
   }>;
   status: '在岗' | '请假' | '培训';
+  responsibilityHighlights: StaffResponsibility[];
+  primaryFocus: string;
 }
 
 export interface ShiftConflict {
@@ -136,40 +150,6 @@ export interface ComplianceCaseLog {
   assignee: string;
   progress: number;
   evidenceRequired: boolean;
-}
-
-export interface IntegrationHealth {
-  id: string;
-  name: string;
-  type: string;
-  status: '正常' | '警告' | '失败';
-  lastCheck: string;
-  owner: string;
-  description: string;
-}
-
-export interface NotificationTemplate {
-  id: string;
-  channel: '邮件' | '短信' | '站内信';
-  name: string;
-  trigger: string;
-  lastUpdated: string;
-  enabled: boolean;
-  metrics: {
-    send: number;
-    click: number;
-  };
-}
-
-export interface MaintenanceTask {
-  id: string;
-  title: string;
-  scope: string;
-  schedule: string;
-  owner: string;
-  status: '计划中' | '进行中' | '已完成';
-  notes: string;
-  link?: string;
 }
 
 export interface TabDefinition {

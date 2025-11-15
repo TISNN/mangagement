@@ -29,7 +29,6 @@ import type {
   SlaMetric,
   StatusMetric,
   TaskCard,
-  TemplateSnippet,
   TrendInsight,
 } from './types';
 
@@ -50,68 +49,68 @@ export const LEADS_DATA: LeadRecord[] = [
   {
     id: 'lead-001',
     name: '赵思敏',
+    priority: 'high',
     project: '2025FALL 美国 CS 硕士',
     stage: '深度沟通',
     owner: '丁若楠',
     channel: '高校宣讲会',
     campaign: '2025 北美宣讲会',
-    tags: ['托福110', '高预算', '意向强', '优先级高'],
     lastTouch: '2025-11-08 09:40 电话',
     nextAction: '48 小时内安排 Demo 并发送案例资料',
   },
   {
     id: 'lead-002',
     name: '陈奕辰',
+    priority: 'high',
     project: '2025FALL 英国 商科硕士',
     stage: '合同拟定',
     owner: '赵婧怡',
     channel: '线上广告',
     campaign: 'LinkedIn 投放',
-    tags: ['奖学金意向', '说明会报名', '优先级高'],
     lastTouch: '2025-11-08 08:20 邮件',
     nextAction: '确认报名说明会并准备奖学金方案',
   },
   {
     id: 'lead-003',
     name: '李雨衡',
+    priority: 'medium',
     project: '2026FALL 加拿大 EE 硕士',
     stage: '初次沟通',
     owner: '张寒',
     channel: '学员转介绍',
-    tags: ['推荐人', '签证关注', '优先级中'],
     lastTouch: '2025-11-07 21:10 微信',
     nextAction: '推送签证 FAQ，预约顾问深聊',
   },
   {
     id: 'lead-004',
     name: '贾晨',
+    priority: 'medium',
     project: '2025FALL 新加坡 金融硕士',
     stage: '新增',
     owner: '待分配',
     channel: '官网表单',
-    tags: ['奖学金', '高潜', '优先级中'],
     lastTouch: '2025-11-08 07:45 表单提交',
     nextAction: '2 小时内安排首次电话沟通',
   },
   {
     id: 'lead-005',
     name: '董蕾',
+    priority: 'high',
     project: '2025FALL 美国 文书指导',
     stage: '深度沟通',
     owner: '赵婧怡',
     channel: '公众号咨询',
-    tags: ['文书顾问', '资料已提交', '优先级高'],
     lastTouch: '2025-11-07 19:15 邮件',
     nextAction: '发送文书顾问介绍，预约周三会议',
   },
   {
     id: 'lead-006',
     name: '王鑫',
+    priority: 'high',
     project: '2025FALL 加拿大 EE 快速通道',
     stage: '深度沟通',
     owner: '王磊',
     channel: '家长推荐',
-    tags: ['家长关注安全', '需要材料清单', '优先级高'],
     lastTouch: '2025-11-07 18:55 电话',
     nextAction: '补充安全保障方案，邀请家长参加说明会',
     risk: '高风险',
@@ -151,7 +150,6 @@ export const HOT_LEADS: HotLead[] = [
     lastInteraction: '2025-11-07 21:30 电话',
     owner: '丁若楠',
     recommendedAction: '安排 48 小时内 Demo，发送 MIT 案例资料',
-    tags: ['高预算', 'TOEFL 110', '父母支持'],
   },
   {
     id: 'lead-002',
@@ -162,7 +160,6 @@ export const HOT_LEADS: HotLead[] = [
     lastInteraction: '2025-11-07 09:10 邮件回复',
     owner: '赵婧怡',
     recommendedAction: '邀请参加周末商科说明会，准备奖学金方案',
-    tags: ['GPA3.8', '活动参与', '奖学金意向'],
   },
   {
     id: 'lead-003',
@@ -173,7 +170,6 @@ export const HOT_LEADS: HotLead[] = [
     lastInteraction: '2025-11-05 20:12 微信',
     owner: '张寒',
     recommendedAction: '发送高校资料包，预约下周顾问深聊',
-    tags: ['推荐人', '双非本科', '预算充足'],
   },
 ];
 
@@ -274,7 +270,6 @@ export const ENGAGEMENT_TIMELINE: EngagementRecord[] = [
     summary: '确认课程匹配度，并解答托福补习疑问。',
     owner: '丁若楠',
     sentiment: 'positive',
-    tags: ['首席顾问', '主动联系'],
     hasAttachment: true,
     aiSummary: {
       highlights: ['学生对北美 CS 项目兴趣高', '托福 110，GPA 3.7'],
@@ -289,7 +284,6 @@ export const ENGAGEMENT_TIMELINE: EngagementRecord[] = [
     summary: '发送奖学金方案与导师介绍，等待学生确认。',
     owner: '赵婧怡',
     sentiment: 'neutral',
-    tags: ['邮件模板', '奖学金'],
     hasAttachment: true,
     aiSummary: {
       highlights: ['学生关注英国项目奖学金', '计划报名周末说明会'],
@@ -304,7 +298,6 @@ export const ENGAGEMENT_TIMELINE: EngagementRecord[] = [
     summary: '发送院校资料，小程序浏览 6 次，学生希望了解签证流程。',
     owner: '张寒',
     sentiment: 'positive',
-    tags: ['微信', '高互动度'],
     hasAttachment: false,
     aiSummary: {
       highlights: ['学生关注加拿大签证政策', '家庭支持预算充足'],
@@ -319,7 +312,6 @@ export const ENGAGEMENT_TIMELINE: EngagementRecord[] = [
     summary: '家长反馈担忧疫情影响，需提供安全保障方案。',
     owner: '王鑫',
     sentiment: 'negative',
-    tags: ['家长沟通', '风险'],
     hasAttachment: false,
     aiSummary: {
       highlights: ['家长对安全问题敏感', '需展示学校防疫体系'],
@@ -334,36 +326,6 @@ export const TASK_LIST: TaskCard[] = [
   { id: 'task-02', title: '陈奕辰 - 确认商科说明会报名', owner: '赵婧怡', due: '今日 14:00', channel: '电话', status: 'info' },
   { id: 'task-03', title: '李雨衡 - 安排加拿大签证顾问沟通', owner: '张寒', due: '明日 09:30', channel: '微信', status: 'info' },
   { id: 'task-04', title: '王鑫 - 家长安全方案回访', owner: '王鑫', due: '今日 17:00', channel: '电话', status: 'warning' },
-];
-
-export const TEMPLATE_SNIPPETS: TemplateSnippet[] = [
-  {
-    id: 'tpl-01',
-    title: 'MIT CS 高完成度电话脚本',
-    description: '用于高水平理工背景学生的深度沟通，包含推荐信与科研点位提示。',
-    channel: '电话',
-    tags: ['高端', '北美', '冲刺'],
-    rating: 4.9,
-    usage: 126,
-  },
-  {
-    id: 'tpl-02',
-    title: '商科奖学金邮件模板',
-    description: '适用于英国/新加坡商科项目的奖学金说明与案例介绍。',
-    channel: '邮件',
-    tags: ['商科', '奖学金'],
-    rating: 4.7,
-    usage: 214,
-  },
-  {
-    id: 'tpl-03',
-    title: '家长安全保障 FAQ',
-    description: '针对家长常见疑虑的标准回答，覆盖防疫、安全、服务流程。',
-    channel: '会议',
-    tags: ['家长', '风险'],
-    rating: 4.5,
-    usage: 168,
-  },
 ];
 
 export const QUALITY_CHECKS: QualityCheck[] = [

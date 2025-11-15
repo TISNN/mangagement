@@ -19,7 +19,7 @@ import ViewTabs from './components/ViewTabs';
 import KanbanView from './components/KanbanView';
 import CalendarView from './components/CalendarView';
 import LegacyTaskBanner from './components/LegacyTaskBanner';
-import { UITask } from './types/task.types';
+import { UITask, TaskFilters as TaskFiltersType } from './types/task.types';
 
 const TaskManagementPage: React.FC = () => {
   // 数据层
@@ -67,6 +67,36 @@ const TaskManagementPage: React.FC = () => {
     const dismissed = localStorage.getItem('legacyTaskBannerDismissed');
     return dismissed !== 'true';
   });
+
+  const handleStatusFilterChange = (status: TaskFiltersType['status']) => {
+    if (status === null) {
+      if (filters.status !== null) {
+        updateFilter('status', null);
+      }
+      return;
+    }
+
+    if (filters.status === status) {
+      updateFilter('status', null);
+    } else {
+      updateFilter('status', status);
+    }
+  };
+
+  const handleTimeFilterChange = (timeView: TaskFiltersType['timeView']) => {
+    if (timeView === 'all') {
+      if (filters.timeView !== 'all') {
+        updateFilter('timeView', 'all');
+      }
+      return;
+    }
+
+    if (filters.timeView === timeView) {
+      updateFilter('timeView', 'all');
+    } else {
+      updateFilter('timeView', timeView);
+    }
+  };
 
   // 加载员工列表
   React.useEffect(() => {
@@ -483,7 +513,13 @@ const TaskManagementPage: React.FC = () => {
       )}
 
       {/* 统计面板 */}
-      <TaskStats tasks={tasks} />
+      <TaskStats 
+        tasks={tasks} 
+        currentStatusFilter={filters.status}
+        onStatusFilterChange={handleStatusFilterChange}
+        currentTimeFilter={filters.timeView}
+        onTimeFilterChange={handleTimeFilterChange}
+      />
 
       {/* 历史任务提示横幅（新增） */}
       {showLegacyBanner && (

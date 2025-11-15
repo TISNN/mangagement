@@ -10,6 +10,14 @@
 ## 2. 信息架构
 ```
 CRM Center
+├─ 线索列表与详情（Lead List & Detail）
+│  ├ 高级筛选与视图管理
+│  ├ 表格/看板视图
+│  └ 线索详情、任务与 SLA
+├─ 模板与话术库（Template Library）
+│  ├ 渠道/阶段筛选与搜索
+│  ├ 场景化模板与行动提示
+│  └ 使用频次与评分反馈
 ├─ 跟进记录（Engagement Desk）
 │  ├ 时间轴视图：电话、微信、邮件、会议纪要
 │  ├ 任务与提醒分配
@@ -18,10 +26,6 @@ CRM Center
 │  ├ 合同模板与版本管理
 │  ├ 审批与签署流程（电子签）
 │  └ 收款节点、发票与账单明细
-├─ 线索列表与详情（Lead List & Detail）
-│  ├ 高级筛选与视图管理
-│  ├ 表格/看板视图
-│  └ 线索详情、任务与 SLA
 ├─ 客户分群分析（Client Insights）
 │  ├ 画像标签与分群规则
 │  ├ 客户价值模型（RFM / CLV）
@@ -34,6 +38,7 @@ CRM Center
 
 > 子模块详设请参考：
 > - `crm-lead-list.md`
+> - `crm-template-library.md`（待补充）
 > - `crm-engagement-desk.md`
 > - `crm-contract-dock.md`
 > - `crm-client-insights.md`

@@ -1,23 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import {
-  AlertTriangle,
-  CheckCircle2,
-  ClipboardList,
-  Download,
-  Filter,
-  KanbanSquare,
-  LayoutList,
-  ListChecks,
-  Mail,
-  PhoneCall,
-  Search,
-  Sparkles,
-  Tag,
-  UserCircle,
-  UserPlus,
-} from 'lucide-react';
+import { AlertTriangle, CheckCircle2, ClipboardList, Download, Filter, KanbanSquare, LayoutList, ListChecks, Mail, PhoneCall, Search, Sparkles, UserCircle, UserPlus } from 'lucide-react';
 
+import type { LeadPriority } from '../../../../types/lead';
 import type { LeadRecord, LeadTableViewMode, QuickFilter } from '../types';
 import { stageColorMap } from '../utils';
 import LeadStageKanban from './LeadStageKanban';
@@ -33,6 +18,16 @@ interface LeadTableTabProps {
 
 const LeadTableTab: React.FC<LeadTableTabProps> = ({ quickFilters, leads, syncedLeads, onCreateStudent, viewMode, onChangeView }) => {
   const navigate = useNavigate();
+  const priorityStyleMap: Record<LeadPriority, string> = {
+    high: 'bg-red-100 text-red-600 dark:bg-red-900/30 dark:text-red-300',
+    medium: 'bg-amber-100 text-amber-600 dark:bg-amber-900/30 dark:text-amber-300',
+    low: 'bg-gray-100 text-gray-600 dark:bg-gray-700/60 dark:text-gray-300',
+  };
+  const priorityTextMap: Record<LeadPriority, string> = {
+    high: '高',
+    medium: '中',
+    low: '低',
+  };
   const renderToolbar = () => (
     <div className="flex flex-wrap items-center justify-between gap-3">
       <div className="flex flex-wrap items-center gap-2">
@@ -125,6 +120,7 @@ const LeadTableTab: React.FC<LeadTableTabProps> = ({ quickFilters, leads, synced
                 <th className="px-5 py-3 text-left font-medium">意向项目</th>
                 <th className="px-5 py-3 text-left font-medium">阶段</th>
                 <th className="px-5 py-3 text-left font-medium">负责人</th>
+                <th className="px-5 py-3 text-left font-medium">优先级</th>
                 <th className="px-5 py-3 text-left font-medium">渠道</th>
                 <th className="px-5 py-3 text-left font-medium">最近跟进</th>
                 <th className="px-5 py-3 text-left font-medium">下一步动作</th>
@@ -161,13 +157,6 @@ const LeadTableTab: React.FC<LeadTableTabProps> = ({ quickFilters, leads, synced
                       </div>
                       <div>
                         <div className="font-semibold text-gray-900 dark:text-white">{lead.name}</div>
-                        <div className="mt-1 flex flex-wrap gap-1 text-[11px] text-blue-500 dark:text-blue-300">
-                          {lead.tags.map((tag) => (
-                            <span key={tag} className="inline-flex items-center gap-1 rounded-full bg-blue-50 px-2 py-0.5 dark:bg-blue-900/30">
-                              <Tag className="h-3 w-3" /> {tag}
-                            </span>
-                          ))}
-                        </div>
                       </div>
                     </div>
                   </td>
@@ -178,6 +167,11 @@ const LeadTableTab: React.FC<LeadTableTabProps> = ({ quickFilters, leads, synced
                     </span>
                   </td>
                   <td className="px-5 py-4 text-xs text-gray-500 dark:text-gray-400">{lead.owner}</td>
+                  <td className="px-5 py-4">
+                    <span className={`inline-flex items-center rounded-full px-2 py-0.5 text-[11px] font-semibold ${priorityStyleMap[lead.priority]}`}>
+                      {priorityTextMap[lead.priority]}
+                    </span>
+                  </td>
                   <td className="px-5 py-4 text-xs text-gray-500 dark:text-gray-400">
                     <div>{lead.channel}</div>
                     {lead.campaign && <div className="text-[11px] text-gray-400 dark:text-gray-500">{lead.campaign}</div>}
@@ -233,9 +227,6 @@ const LeadTableTab: React.FC<LeadTableTabProps> = ({ quickFilters, leads, synced
             </button>
             <button className="inline-flex items-center gap-1 rounded-lg border border-gray-200 px-2.5 py-1 hover:border-blue-200 hover:text-blue-600 dark:border-gray-600 dark:hover:border-blue-500">
               <Sparkles className="h-3.5 w-3.5" /> 创建任务
-            </button>
-            <button className="inline-flex items-center gap-1 rounded-lg border border-gray-200 px-2.5 py-1 hover:border-blue-200 hover:text-blue-600 dark:border-gray-600 dark:hover:border-blue-500">
-              <Tag className="h-3.5 w-3.5" /> 打标签
             </button>
             <button className="inline-flex items-center gap-1 rounded-lg border border-gray-200 px-2.5 py-1 hover-border-blue-200 hover:text-blue-600 dark:border-gray-600 dark:hover:border-blue-500">
               <Download className="h-3.5 w-3.5" /> 导出

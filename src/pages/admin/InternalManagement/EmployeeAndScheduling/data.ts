@@ -1,4 +1,7 @@
 import { supabase } from '@/supabase';
+import { getAllTasks, type Task } from '@/services/taskService';
+import { getMeetings } from '@/pages/admin/MeetingManagement/services/meetingService';
+import type { Meeting } from '@/pages/admin/MeetingManagement/types';
 
 import type { AttendanceSummary, ShiftConflict, StaffProfile } from '../types';
 
@@ -86,6 +89,8 @@ const FALLBACK_PROFILES: StaffProfile[] = [
     team: '北美规划组',
     email: 'mentor@example.com',
     workload: 68,
+    activeTaskCount: 4,
+    upcomingMeetingCount: 2,
     skills: ['选校规划', '材料校审', 'CRM 建档'],
     avatarUrl: 'https://api.dicebear.com/7.x/bottts/svg?seed=NorthAmerica',
     timezone: 'Asia/Shanghai (UTC+8)',
@@ -97,6 +102,36 @@ const FALLBACK_PROFILES: StaffProfile[] = [
       { day: '周六', start: '09:30', end: '16:30', location: '线上' },
     ],
     status: '在岗',
+    responsibilityHighlights: [
+      {
+        id: 'fallback-task-1',
+        title: '加州系统选校方案复盘',
+        type: '任务',
+        status: '进行中',
+        dueAt: '11月15日 18:00',
+        importance: '高',
+        description: '优先处理高净值家庭的选校复盘',
+      },
+      {
+        id: 'fallback-meeting-1',
+        title: '家长沟通会',
+        type: '会议',
+        status: '已确认',
+        dueAt: '11月16日 20:00',
+        importance: '中',
+        description: '同步申请材料进度',
+      },
+      {
+        id: 'fallback-task-2',
+        title: '网申资料校对',
+        type: '任务',
+        status: '进行中',
+        dueAt: '11月18日 17:00',
+        importance: '中',
+        description: '完成学生 A 的材料校对',
+      },
+    ],
+    primaryFocus: '任务 · 加州系统选校方案复盘',
   },
 ];
 
@@ -163,7 +198,44 @@ const formatDateTime = (date: Date): string =>
 
 const formatMonth = (date: Date): string => `${date.getFullYear()}-${padNumber(date.getMonth() + 1)}`;
 
+const formatFriendlyDateLabel = (date: Date): string =>
+  `${date.getMonth() + 1}月${padNumber(date.getDate())}日 ${formatTime(date)}`;
+
 const addMinutes = (date: Date, minutes: number): Date => new Date(date.getTime() + minutes * 60 * 1000);
+
+const mapMeetingToRow = (meeting: Meeting): MeetingRow => ({
+  id: meeting.id,
+  title: meeting.title,
+  meeting_type: meeting.meeting_type,
+  status: meeting.status,
+  start_time: meeting.start_time,
+  end_time: meeting.end_time ?? null,
+  location: meeting.location ?? null,
+  meeting_link: meeting.meeting_link ?? null,
+  participants: Array.isArray(meeting.participants)
+    ? meeting.participants.map((participant) => ({
+        id: participant.id,
+        name: participant.name,
+        type: participant.type,
+        mentor_id: participant.mentor_id ?? null,
+        employee_id: participant.employee_id ?? null,
+      }))
+    : [],
+  created_at: meeting.created_at,
+  updated_at: meeting.updated_at,
+});
+
+const mapTaskToRow = (task: Task): TaskRow => ({
+  id: task.id,
+  title: task.title ?? `任务 #${task.id}`,
+  status: task.status ?? null,
+  priority: task.priority ?? null,
+  start_date: task.start_date ?? null,
+  due_date: task.due_date ?? null,
+  created_at: task.created_at ?? null,
+  updated_at: task.updated_at ?? null,
+  assigned_to: Array.isArray(task.assigned_to) ? task.assigned_to : null,
+});
 
 const deriveTimezoneLabel = (location?: string | null): string => {
   if (!location) return 'Asia/Shanghai (UTC+8)';
@@ -259,6 +331,68 @@ const computeWorkload = (tasks: TaskRow[], meetings: MeetingRow[], isPartner?: b
 
   const workloadRaw = activeTasks * 10 + upcomingMeetings * 12 + (isPartner ? 6 : 0);
   return Math.min(100, Math.max(30, Math.round(workloadRaw)));
+};
+
+const classifyTaskImportance = (priority?: string | null): '高' | '中' | '低' => {
+  if (!priority) return '中';
+  if (priority.includes('高')) return '高';
+  if (priority.includes('低')) return '低';
+  return '中';
+};
+
+const classifyMeetingImportance = (meetingType?: string | null): '高' | '中' | '低' => {
+  if (!meetingType) return '中';
+  if (/(答辩|家长|签约|面试|冲刺)/.test(meetingType)) return '高';
+  if (/(例会|周会|更新)/.test(meetingType)) return '低';
+  return '中';
+};
+
+const buildResponsibilityHighlights = (
+  tasks: TaskRow[],
+  meetings: MeetingRow[],
+): StaffProfile['responsibilityHighlights'] => {
+  const now = new Date();
+
+  const taskEntries = tasks
+    .filter((task) => task.status !== '已完成')
+    .map((task) => {
+      const dueDate = toDate(task.due_date ?? task.start_date ?? task.updated_at ?? task.created_at);
+      return {
+        id: `task-${task.id}`,
+        title: task.title?.trim() && task.title.trim().length > 0 ? task.title.trim() : `任务 #${task.id}`,
+        type: '任务' as const,
+        status: task.status ?? '进行中',
+        dueAt: dueDate ? formatFriendlyDateLabel(dueDate) : undefined,
+        importance: classifyTaskImportance(task.priority),
+        description: task.priority ? `${task.priority} 优先级` : undefined,
+        order: dueDate ? dueDate.getTime() : Number.MAX_SAFE_INTEGER,
+      };
+    });
+
+  const meetingEntries = meetings
+    .filter((meeting) => {
+      const start = toDate(meeting.start_time ?? meeting.created_at);
+      if (!start) return false;
+      return start.getTime() >= now.getTime() - 60 * 60 * 1000;
+    })
+    .map((meeting) => {
+      const start = toDate(meeting.start_time ?? meeting.created_at);
+      return {
+        id: `meeting-${meeting.id}`,
+        title: meeting.title?.trim() && meeting.title.trim().length > 0 ? meeting.title.trim() : `会议 #${meeting.id}`,
+        type: '会议' as const,
+        status: meeting.status ?? '已确认',
+        dueAt: start ? formatFriendlyDateLabel(start) : undefined,
+        importance: classifyMeetingImportance(meeting.meeting_type),
+        description: meeting.meeting_type ?? undefined,
+        order: start ? start.getTime() : Number.MAX_SAFE_INTEGER,
+      };
+    });
+
+  return [...taskEntries, ...meetingEntries]
+    .sort((a, b) => a.order - b.order)
+    .slice(0, 4)
+    .map(({ order: _order, ...item }) => item);
 };
 
 const detectConflicts = (
@@ -422,6 +556,12 @@ const composeProfiles = (
     const defaultLocation = mentor?.location?.trim() || employee.location?.trim() || '待填写';
     const timezone = deriveTimezoneLabel(defaultLocation);
     const availability = createAvailability(employeeMeetings, employeeTasks, defaultLocation);
+    const responsibilityHighlights = buildResponsibilityHighlights(employeeTasks, employeeMeetings);
+    const activeTaskCount = employeeTasks.filter((task) => task.status !== '已完成').length;
+    const upcomingMeetingCount = employeeMeetings.filter((meeting) => {
+      const start = toDate(meeting.start_time ?? meeting.created_at);
+      return Boolean(start && start.getTime() >= Date.now() - 60 * 60 * 1000);
+    }).length;
     const status = employee.is_active === false ? '请假' : '在岗';
     const avatarUrl =
       typeof employee.avatar_url === 'string' && employee.avatar_url.trim().length > 0
@@ -442,6 +582,13 @@ const composeProfiles = (
       bio: mentor?.bio ?? undefined,
       availability,
       status,
+      responsibilityHighlights,
+      activeTaskCount,
+      upcomingMeetingCount,
+      primaryFocus:
+        responsibilityHighlights.length > 0
+          ? `${responsibilityHighlights[0].type} · ${responsibilityHighlights[0].title}`
+          : '暂无重点任务',
     };
   });
 };
@@ -506,24 +653,38 @@ const buildMappings = (
 };
 
 const fetchDataset = async (): Promise<EmployeeSchedulingDataset> => {
-  const [employeeRes, mentorRes, meetingRes, taskRes] = await Promise.all([
+  const [employeeRes, mentorRes] = await Promise.all([
     supabase.from('employees').select('*').order('id', { ascending: true }),
     supabase.from('mentors').select('*'),
-    supabase.from('meetings').select('*').range(0, 199).order('start_time', { ascending: true }),
-    supabase.from('tasks').select('*').range(0, 199),
   ]);
-
-  const dataErrors = [employeeRes.error, mentorRes.error, meetingRes.error, taskRes.error].filter(Boolean);
-
-  if (dataErrors.length > 0) {
-    const messages = dataErrors.map((error) => error?.message ?? '未知错误').join('; ');
-    throw new Error(messages);
-  }
 
   const employees = (employeeRes.data ?? []) as EmployeeRow[];
   const mentors = (mentorRes.data ?? []) as MentorRow[];
-  const meetings = (meetingRes.data ?? []) as MeetingRow[];
-  const tasks = (taskRes.data ?? []) as TaskRow[];
+
+  const meetings: MeetingRow[] = [];
+  const tasks: TaskRow[] = [];
+
+  if (employeeRes.error || mentorRes.error) {
+    const messages = [employeeRes.error, mentorRes.error]
+      .filter(Boolean)
+      .map((error) => error?.message ?? '未知错误')
+      .join('; ');
+    throw new Error(messages);
+  }
+
+  try {
+    const meetingData = await getMeetings();
+    meetings.push(...meetingData.map(mapMeetingToRow));
+  } catch (error) {
+    console.error('[EmployeeScheduling] 获取会议数据失败', error);
+  }
+
+  try {
+    const taskData = await getAllTasks();
+    tasks.push(...taskData.map(mapTaskToRow));
+  } catch (error) {
+    console.error('[EmployeeScheduling] 获取任务数据失败', error);
+  }
 
   const employeesWithoutAvatar = employees.filter(
     (employee) => !employee.avatar_url || employee.avatar_url.trim().length === 0,

@@ -1,7 +1,7 @@
 import React from 'react';
 import { ChevronRight } from 'lucide-react';
 import { StudentRecord } from '../types';
-import { RISK_TAG_CLASS, STATUS_TAG_CLASS } from '../utils';
+import { RISK_TAG_CLASS, STATUS_TAG_CLASS, STAGE_TAG_CLASS } from '../utils';
 
 interface ListViewProps {
   students: StudentRecord[];
@@ -51,17 +51,22 @@ const ListView: React.FC<ListViewProps> = ({ students, onSelect }) => (
               <td className="px-6 py-4 text-sm text-gray-600 dark:text-gray-300">
                 <div className="space-y-1">
                   {student.services.map((service) => (
-                    <div key={service.id} className="flex items-center gap-2">
+                    <div key={service.id} className="flex items-center gap-2 text-gray-700 dark:text-gray-200">
                       <span>{service.name}</span>
-                      <span className="text-xs text-gray-400 dark:text-gray-500">
-                        {service.status} · {service.progress}%
-                      </span>
                     </div>
                   ))}
                 </div>
               </td>
               <td className="px-6 py-4 text-sm text-gray-600 dark:text-gray-300">{student.advisor}</td>
-              <td className="px-6 py-4 text-sm text-gray-600 dark:text-gray-300">{student.stage}</td>
+              <td className="px-6 py-4 text-sm text-gray-600 dark:text-gray-300">
+                <span
+                  className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-[11px] font-medium ${
+                    STAGE_TAG_CLASS[student.stageStatus]
+                  }`}
+                >
+                  {student.stage}
+                </span>
+              </td>
               <td className="px-6 py-4 text-sm text-gray-600 dark:text-gray-300">
                 <span className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-[11px] font-medium ${RISK_TAG_CLASS[student.risk]}`}>
                   {student.risk}风险

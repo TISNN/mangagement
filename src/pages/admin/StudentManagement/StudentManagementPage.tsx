@@ -281,6 +281,7 @@ const StudentManagementPage: React.FC = () => {
         onClose={() => setSelectedStudent(null)}
         onManageMentors={handleManageMentors}
         onEdit={handleEditStudent}
+        onStatusUpdated={refreshStudents}
       />
 
       <MentorAssignmentModal

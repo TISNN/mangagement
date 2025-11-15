@@ -6,6 +6,7 @@ import {
   ServiceProjectOverview,
   ServiceProgressLog,
 } from '../types/people';
+import { StudentServiceStatusValue } from '../types/service';
 import { getCurrentLocalISOString } from '../utils/dateUtils';
 
 // 学生数据视图类型
@@ -842,6 +843,41 @@ const peopleService = {
     ]);
   },
 
+  async updateStudentServiceStatus(
+    serviceId: number,
+    status: StudentServiceStatusValue,
+  ): Promise<StudentService> {
+    try {
+      const { data, error } = await supabase
+        .from('student_services')
+        .update({
+          status,
+        })
+        .eq('id', serviceId)
+        .select(
+          `
+            *,
+            service_type:service_type_id(*),
+            mentor:mentor_ref_id(*)
+          `,
+        )
+        .single();
+
+      if (error) {
+        console.error('更新学生服务状态失败:', error);
+        throw error;
+      }
+
+      return {
+        ...data,
+        mentor_id: data.mentor_ref_id,
+      } as StudentService;
+    } catch (error) {
+      console.error('更新学生服务状态失败', error);
+      throw error;
+    }
+  },
+
   // 获取所有学生（从student_view）
   async getAllStudentsFromView(): Promise<StudentData[]> {
     try {
@@ -1266,6 +1302,91 @@ const peopleService = {
       console.error('保存学生档案失败', error);
       throw error;
     }
+  },
+
+  async updateServiceProgressLog(
+    logId: number,
+    payload: Partial<ServiceProgressRecord & { status?: string; milestone?: string }>,
+  ): Promise<void> {
+    if (!logId) {
+      throw new Error('[peopleService] updateServiceProgressLog 缺少 logId');
+    }
+
+    const updatePayload: Record<string, unknown> = {
+      updated_at: getCurrentLocalISOString(),
+    };
+
+    if (payload.description !== undefined) updatePayload.description = payload.description;
+    if (payload.notes !== undefined) updatePayload.notes = payload.notes ?? null;
+    if (payload.milestone !== undefined) updatePayload.milestone = payload.milestone;
+    if (payload.status !== undefined) updatePayload.status = payload.status;
+    if (payload.completed_items !== undefined) updatePayload.completed_items = payload.completed_items ?? null;
+    if (payload.next_steps !== undefined) updatePayload.next_steps = payload.next_steps ?? null;
+    if (payload.attachments !== undefined) updatePayload.attachments = payload.attachments ?? null;
+    if (payload.progress_date !== undefined) updatePayload.progress_date = payload.progress_date;
+    if (payload.recorded_by !== undefined) updatePayload.recorded_by = payload.recorded_by;
+    if (payload.employee_ref_id !== undefined) updatePayload.employee_ref_id = payload.employee_ref_id;
+
+    const cleanPayload = Object.fromEntries(
+      Object.entries(updatePayload).filter(([, value]) => value !== undefined),
+    );
+
+    const { data, error } = await supabase
+      .from('service_progress')
+      .update(cleanPayload)
+      .eq('id', logId)
+      .select('student_service_id, milestone')
+      .single();
+
+    if (error) {
+      console.error('[peopleService] updateServiceProgressLog 失败', error);
+      throw error;
+    }
+
+    const milestoneValue = payload.milestone ?? data?.milestone;
+    const progressValue =
+      typeof milestoneValue === 'string'
+        ? Number.parseInt(milestoneValue.replace(/[^0-9]/g, ''), 10)
+        : Number.NaN;
+
+    if (!Number.isNaN(progressValue) && data?.student_service_id) {
+      const { error: updateServiceError } = await supabase
+        .from('student_services')
+        .update({
+          progress: progressValue,
+          updated_at: getCurrentLocalISOString(),
+        })
+        .eq('id', data.student_service_id);
+
+      if (updateServiceError) {
+        console.error('[peopleService] 同步 student_services 进度失败', updateServiceError);
+        throw updateServiceError;
+      }
+    }
+  },
+
+  async deleteServiceProgressLog(logId: number): Promise<void> {
+    if (!logId) {
+      throw new Error('[peopleService] deleteServiceProgressLog 缺少 logId');
+    }
+
+    const { data, error } = await supabase
+      .from('service_progress')
+      .delete()
+      .eq('id', logId)
+      .select('student_service_id')
+      .single();
+
+    if (error) {
+      console.error('[peopleService] deleteServiceProgressLog 失败', error);
+      throw error;
+    }
+
+    // 删除后暂不主动回写 student_services.progress，保持与后续最新记录同步
+    console.info('[peopleService] deleteServiceProgressLog 成功', {
+      logId,
+      studentServiceId: data?.student_service_id,
+    });
   },
 };
 

@@ -35,24 +35,24 @@ type MentorAssignmentRecord = {
 };
 
 const SERVICE_STATUS_MAP: Record<string, StudentServiceItem['status']> = {
-  未开始: '准备中',
-  准备中: '准备中',
+  未开始: '未开始',
   进行中: '进行中',
-  申请中: '申请中',
+  申请中: '进行中',
   已完成: '已完成',
-  已暂停: '申请中',
-  已取消: '申请中',
+  已暂停: '已暂停',
+  已取消: '已取消',
 };
 
-const STATUS_DISPLAY_MAP: Record<StudentServiceItem['status'], string> = {
-  准备中: '准备中',
+const STATUS_DISPLAY_MAP: Record<StudentServiceItem['status'], StudentServiceItem['status']> = {
+  未开始: '未开始',
   进行中: '进行中',
-  申请中: '申请中',
   已完成: '已完成',
+  已暂停: '已暂停',
+  已取消: '已取消',
 };
 
 const getServiceStatus = (status: string): StudentServiceItem['status'] =>
-  SERVICE_STATUS_MAP[status] ?? '准备中';
+  SERVICE_STATUS_MAP[status] ?? '未开始';
 
 const getServiceProgress = (status: string): number => {
   switch (status) {
@@ -60,11 +60,9 @@ const getServiceProgress = (status: string): number => {
       return 100;
     case '进行中':
       return 65;
-    case '申请中':
     case '已暂停':
     case '已取消':
-      return 45;
-    case '准备中':
+      return 40;
     case '未开始':
     default:
       return 20;
@@ -279,7 +277,10 @@ export const mapStudentRecord = (student: StudentDisplay): StudentRecord => {
      ? primaryServiceItem.status
      : primaryService
      ? getServiceStatus(primaryService.status)
-     : '准备中';
+     : '未开始';
+
+  const displayStageStatus: StudentServiceItem['status'] =
+    primaryServiceItem ? (STATUS_DISPLAY_MAP[stageStatus] ?? stageStatus) : '未开始';
  
   return {
     id: student.id,
@@ -289,8 +290,9 @@ export const mapStudentRecord = (student: StudentDisplay): StudentRecord => {
     businessLines,
     primaryBusinessLine,
     progress: averageProgress,
+    stageStatus: displayStageStatus,
     stage: primaryServiceItem
-      ? `${primaryServiceItem.name} · ${STATUS_DISPLAY_MAP[stageStatus]}`
+      ? STATUS_DISPLAY_MAP[stageStatus] ?? stageStatus
       : '暂无服务',
     services,
     advisor: aggregatedAdvisor,
@@ -357,11 +359,11 @@ export const buildSummaryMetrics = (students: StudentRecord[]): SummaryMetric[] 
 };
 
 export const KANBAN_COLUMNS: KanbanColumn[] = [
-  { id: '准备中', title: '准备中', color: 'border-slate-200' },
+  { id: '未开始', title: '未开始', color: 'border-slate-200' },
   { id: '进行中', title: '进行中', color: 'border-blue-200' },
-  { id: '申请中', title: '申请中', color: 'border-indigo-200' },
   { id: '已完成', title: '已完成', color: 'border-emerald-200' },
-  { id: '风险', title: '风险', color: 'border-rose-200' },
+  { id: '已暂停', title: '已暂停', color: 'border-amber-200' },
+  { id: '已取消', title: '已取消', color: 'border-rose-200' },
 ];
 
 export const STATUS_TAG_CLASS: Record<StudentStatus, string> = {
@@ -375,5 +377,13 @@ export const RISK_TAG_CLASS: Record<RiskLevel, string> = {
   低: 'bg-emerald-100 text-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-300',
   中: 'bg-amber-100 text-amber-600 dark:bg-amber-900/30 dark:text-amber-300',
   高: 'bg-rose-100 text-rose-600 dark:bg-rose-900/30 dark:text-rose-300',
+};
+
+export const STAGE_TAG_CLASS: Record<StudentServiceItem['status'], string> = {
+  未开始: 'bg-gray-100 text-gray-700 dark:bg-gray-800/40 dark:text-gray-200',
+  进行中: 'bg-blue-50 text-blue-600 dark:bg-blue-900/30 dark:text-blue-200',
+  已完成: 'bg-emerald-50 text-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-200',
+  已暂停: 'bg-amber-50 text-amber-600 dark:bg-amber-900/30 dark:text-amber-200',
+  已取消: 'bg-rose-50 text-rose-600 dark:bg-rose-900/30 dark:text-rose-200',
 };
 

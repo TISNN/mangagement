@@ -82,7 +82,7 @@ export const SkyOfficePage = () => {
             <code className="mx-1 rounded bg-slate-100 px-1 py-0.5 text-xs dark:bg-slate-800">
               VITE_SKYOFFICE_URL
             </code>
-            ，并在 `系统设置 → 线上会议` 中维护密钥与回调。
+            ，并在 `团队成员中心 → 配置抽屉 → 线上会议` 中维护密钥与回调。
           </p>
         </div>
       </div>

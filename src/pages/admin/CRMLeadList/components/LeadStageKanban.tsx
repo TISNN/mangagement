@@ -39,29 +39,30 @@ const LeadStageKanban: React.FC<LeadStageKanbanProps> = ({ leads }) => {
               <span>{column.items.length} 个</span>
             </div>
             <div className="mt-2 space-y-2">
-              {column.items.map((item) => {
-                const priorityBadge = item.tags.find((tag) => tag.startsWith('优先级'));
-                return (
-                  <div key={item.id} className="rounded-lg bg-white p-3 text-xs text-gray-600 shadow-sm dark:bg-gray-800 dark:text-gray-300">
-                    <div className="flex items-center justify-between">
-                      <div className="font-semibold text-gray-900 dark:text-white">{item.name}</div>
-                      {item.risk ? (
-                        <span className="inline-flex items-center rounded-full bg-rose-100 px-2 py-0.5 text-[11px] font-semibold text-rose-600 dark:bg-rose-900/30 dark:text-rose-300">
-                          {item.risk}
-                        </span>
-                      ) : priorityBadge ? (
-                        <span className="inline-flex items-center rounded-full bg-blue-50 px-2 py-0.5 text-[11px] font-semibold text-blue-600 dark:bg-blue-900/30 dark:text-blue-300">
-                          {priorityBadge}
-                        </span>
-                      ) : null}
-                    </div>
+              {column.items.map((item) => (
+                <div key={item.id} className="rounded-lg bg-white p-3 text-xs text-gray-600 shadow-sm dark:bg-gray-800 dark:text-gray-300">
+                  <div className="flex items-center justify-between">
+                    <div className="font-semibold text-gray-900 dark:text-white">{item.name}</div>
+                    <span
+                      className={`inline-flex items-center rounded-full px-2 py-0.5 text-[11px] font-semibold ${
+                        item.risk
+                          ? 'bg-rose-100 text-rose-600 dark:bg-rose-900/30 dark:text-rose-300'
+                          : item.priority === 'high'
+                            ? 'bg-red-100 text-red-600 dark:bg-red-900/30 dark:text-red-300'
+                            : item.priority === 'medium'
+                              ? 'bg-amber-100 text-amber-600 dark:bg-amber-900/30 dark:text-amber-300'
+                              : 'bg-gray-100 text-gray-600 dark:bg-gray-700/60 dark:text-gray-300'
+                      }`}
+                    >
+                      {item.risk ?? `优先级${item.priority === 'high' ? '高' : item.priority === 'medium' ? '中' : '低'}`}
+                    </span>
+                  </div>
                   <div className="mt-1 line-clamp-2 text-[11px] text-gray-500 dark:text-gray-400">{item.project}</div>
                   <div className="mt-1 flex items-center gap-2 text-[11px] text-gray-400 dark:text-gray-500">
                     <Users className="h-3 w-3" /> {item.owner}
                   </div>
-                  </div>
-                );
-              })}
+                </div>
+              ))}
               {column.items.length === 0 && (
                 <div className="rounded-lg border border-gray-200 p-3 text-center text-[11px] text-gray-400 dark:border-gray-700 dark:text-gray-500">
                   暂无线索

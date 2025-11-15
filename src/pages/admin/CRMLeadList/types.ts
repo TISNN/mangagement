@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react';
+import type { LeadPriority } from '../../../types/lead';
 
 export type LeadStage = '新增' | '初次沟通' | '深度沟通' | '合同拟定' | '签约';
 
@@ -9,9 +10,9 @@ export interface LeadRecord {
   project: string;
   stage: LeadStage;
   owner: string;
+  priority: LeadPriority;
   channel: string;
   campaign?: string;
-  tags: string[];
   lastTouch: string;
   nextAction: string;
   risk?: '高风险' | '需关注';
@@ -69,7 +70,6 @@ export interface HotLead {
   lastInteraction: string;
   owner: string;
   recommendedAction: string;
-  tags: string[];
   priorityLabel: string;
 }
 
@@ -127,7 +127,6 @@ export interface EngagementRecord {
   summary: string;
   owner: string;
   sentiment: Sentiment;
-  tags: string[];
   hasAttachment: boolean;
   aiSummary: {
     highlights: string[];
@@ -143,16 +142,6 @@ export interface TaskCard {
   due: string;
   channel?: EngagementChannel;
   status: 'warning' | 'info' | 'success';
-}
-
-export interface TemplateSnippet {
-  id: string;
-  title: string;
-  description: string;
-  channel: EngagementChannel;
-  tags: string[];
-  rating: number;
-  usage: number;
 }
 
 export interface QualityCheck {
@@ -172,7 +161,6 @@ export interface LeadFormValues {
   owner: string;
   channel: string;
   campaign: string;
-  tags: string;
   nextAction: string;
 }
 

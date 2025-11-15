@@ -25,7 +25,7 @@ export interface MentorRole {
 export interface StudentServiceItem {
   id: string;
   name: string;
-  status: '准备中' | '进行中' | '申请中' | '已完成';
+  status: '未开始' | '进行中' | '已完成' | '已暂停' | '已取消';
   progress: number;
   advisor: string;
   mentorId?: number | null;
@@ -42,6 +42,7 @@ export interface StudentRecord {
   businessLines: StudentBusinessLine[];
   primaryBusinessLine: StudentBusinessLine;
   progress: number;
+  stageStatus: '未开始' | '进行中' | '已完成' | '已暂停' | '已取消';
   stage: string;
   services: StudentServiceItem[];
   advisor: string;

@@ -621,7 +621,7 @@ const KnowledgeGardenPortalPage: React.FC = () => {
             <div>
               <h4 className="text-sm font-semibold text-gray-900 dark:text-white">For Creators</h4>
               <ul className="mt-2 space-y-2">
-                <li><Link to="/knowledge-hub/my-space" className="hover:text-indigo-600">Creator Studio</Link></li>
+                <li><Link to="/knowledge-hub/workspace" className="hover:text-indigo-600">Creator Studio</Link></li>
                 <li><Link to="/knowledge-hub/garden" className="hover:text-indigo-600">Publishing Guide</Link></li>
                 <li><Link to="/knowledge-hub/moderation" className="hover:text-indigo-600">Review Policy</Link></li>
               </ul>
