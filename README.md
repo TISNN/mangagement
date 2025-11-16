@@ -210,6 +210,13 @@ Infinite.ai是一个专注于留学全周期服务的数字化平台，连接学
 - 🛠️ 本次包含 `authService.ts` 重构与 `profileService.ts` 新增文件，确保员工资料更新、密码重置、头像上传流程都由统一服务层管理
 - 🧪 建议下次推送前执行 `npm run lint && npm run test` 并在设置页回归“编辑个人资料”“重置密码”“头像上传”流程，确认 Supabase 会话与缓存同步正常
 
+### 2025-11-15: 代码仓库同步到 GitHub（Cloud Docs & 学生门户）
+
+- ✅ 已将 Cloud Docs 文档编辑器、文档注释面板、学生门户功能（申请进度页、实时 Dashboard）以及知识库更新推送到 `origin/main`
+- 📚 本次包含数据库迁移文件（`cloud_documents`、`document_annotations` 表）、`cloudDocumentService`、`documentAnnotationService`、`studentDashboardService` 等服务层，以及 `DocumentEditor`、`DocumentAnnotationPanel`、`ApplicationProgressPage` 等组件
+- 🎓 学生门户新增申请进度跟踪、实时 Dashboard 数据订阅与知识库资源访问能力，为后续学生端功能扩展奠定基础
+- 💾 建议下次推送前执行数据库迁移、运行 `npm run lint` 并回归“文档编辑/注释/学生申请进度”等核心流程，确保 Supabase RLS 策略正确配置
+
 ### 2025-11-15: 学生账号接入 Supabase Auth（xm040521@163.com）
 
 - ✅ 使用 SQL 在 `auth.users` 中创建学生账号（`auth_user_id=45d91a8f-0fdb-4abd-9a50-202cc10be3d1`），密码依需求设置为 `Xiaoman$040401` 并即时完成邮箱确认
