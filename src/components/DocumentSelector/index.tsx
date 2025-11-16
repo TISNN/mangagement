@@ -7,12 +7,15 @@ import { useState, useEffect } from 'react';
 import { Search, FileText, Loader2, X, FilePlus } from 'lucide-react';
 import { getAllDocuments } from '../../services/cloudDocumentService';
 import type { CloudDocument } from '../../services/cloudDocumentService';
+import { getAllMeetingDocuments } from '../../services/meetingDocumentService';
+import type { MeetingDocument } from '../../services/meetingDocumentService';
 
 interface DocumentSelectorProps {
   isOpen: boolean;
   onClose: () => void;
   onSelect: (documentId: number | null) => void; // null 表示创建新文档
   excludeDocumentId?: number; // 排除当前正在编辑的文档
+  documentType?: 'cloud' | 'meeting'; // 文档类型：云文档或会议文档
 }
 
 export default function DocumentSelector({
@@ -20,8 +23,9 @@ export default function DocumentSelector({
   onClose,
   onSelect,
   excludeDocumentId,
+  documentType = 'cloud',
 }: DocumentSelectorProps) {
-  const [documents, setDocuments] = useState<CloudDocument[]>([]);
+  const [documents, setDocuments] = useState<(CloudDocument | MeetingDocument)[]>([]);
   const [loading, setLoading] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -29,12 +33,14 @@ export default function DocumentSelector({
     if (isOpen) {
       loadDocuments();
     }
-  }, [isOpen]);
+  }, [isOpen, documentType]);
 
   const loadDocuments = async () => {
     setLoading(true);
     try {
-      const docs = await getAllDocuments({ limit: 50 });
+      const docs = documentType === 'cloud'
+        ? await getAllDocuments({ limit: 50 })
+        : await getAllMeetingDocuments({ limit: 50 });
       // 排除当前文档
       const filtered = excludeDocumentId
         ? docs.filter(doc => doc.id !== excludeDocumentId)
@@ -142,7 +148,7 @@ export default function DocumentSelector({
                         {doc.title}
                       </div>
                       <div className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-                        {doc.location || '未分类'}
+                        {documentType === 'cloud' && 'location' in doc ? (doc.location || '未分类') : '会议文档'}
                       </div>
                     </div>
                   </div>

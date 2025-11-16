@@ -8,14 +8,17 @@
  * - 其他需要富文本编辑的场景
  */
 
-import { useState, useMemo, ReactNode } from 'react';
+import { useState, useMemo, ReactNode, useEffect } from 'react';
 import { 
   Save, 
   Loader2, 
   Clock,
   Type,
   FileCheck,
-  Maximize2
+  Maximize2,
+  Folder,
+  MessageSquare,
+  Columns,
 } from 'lucide-react';
 import SimpleEditorWrapper from '../SimpleEditorWrapper';
 import { formatDateTime } from '../../utils/dateUtils';
@@ -55,6 +58,26 @@ export interface DocumentEditorProps {
   showMetadata?: boolean;
   /** 自定义元信息内容 */
   customMetadata?: ReactNode;
+  /** 分类选择功能（可选） */
+  location?: {
+    value: string;
+    onChange: (location: string) => void;
+    options: string[];
+    loadOptions?: () => Promise<string[]>;
+  };
+  /** 批注功能（可选） */
+  annotation?: {
+    documentId: number;
+    currentUserId: number;
+    currentUserName: string;
+    isOpen: boolean;
+    onToggle: () => void;
+    AnnotationPanel?: React.ComponentType<any>;
+  };
+  /** 分屏编辑功能（可选） */
+  splitScreen?: {
+    onOpen: () => void;
+  };
 }
 
 export default function DocumentEditor({
@@ -75,6 +98,9 @@ export default function DocumentEditor({
   titleClassName = '',
   showMetadata = true,
   customMetadata,
+  location,
+  annotation,
+  splitScreen,
 }: DocumentEditorProps) {
   // 字数统计
   const wordCount = useMemo(() => {
@@ -82,19 +108,53 @@ export default function DocumentEditor({
     return text ? text.length : 0;
   }, [content]);
 
+  // 加载分类选项（如果提供了 loadOptions）
+  const [locationOptions, setLocationOptions] = useState<string[]>(location?.options || []);
+  useEffect(() => {
+    if (location?.loadOptions) {
+      location.loadOptions().then(options => {
+        setLocationOptions(options);
+      });
+    } else if (location?.options) {
+      setLocationOptions(location.options);
+    }
+  }, [location]);
+
   return (
     <div className="h-full flex flex-col bg-gray-50 dark:bg-gray-950">
       {/* 顶部工具栏 - 磨砂玻璃效果 */}
       <div className="flex-none bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-b border-gray-200/50 dark:border-gray-700 sticky top-0 z-50">
         <div className="h-14 px-4 flex items-center justify-between gap-4">
           {/* 左侧：自定义内容或默认内容 */}
-          {toolbarLeft || (
-            <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2">
+            {toolbarLeft || (
               <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
                 {isEditMode ? '编辑文档' : '新建文档'}
               </span>
-            </div>
-          )}
+            )}
+            
+            {/* 分类选择（如果启用） */}
+            {location && (
+              <>
+                <div className="h-6 w-px bg-gray-300 dark:bg-gray-700"></div>
+                <div className="flex items-center gap-2">
+                  <Folder className="h-4 w-4 text-gray-500 dark:text-gray-400" />
+                  <select
+                    value={location.value}
+                    onChange={(e) => location.onChange(e.target.value)}
+                    className="text-sm border border-gray-200 dark:border-gray-700 rounded-lg px-3 py-1.5 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all min-w-[120px]"
+                  >
+                    <option value="">选择分类</option>
+                    {locationOptions.map((loc) => (
+                      <option key={loc} value={loc}>
+                        {loc}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              </>
+            )}
+          </div>
           
           {/* 中间：状态信息 */}
           <div className="flex items-center gap-4 text-xs text-gray-500 dark:text-gray-400">
@@ -123,6 +183,36 @@ export default function DocumentEditor({
                 </button>
                 <div className="h-6 w-px bg-gray-300 dark:bg-gray-700"></div>
               </>
+            )}
+            
+            {/* 批注按钮 */}
+            {annotation && (
+              <>
+                <button
+                  onClick={annotation.onToggle}
+                  className={`flex items-center gap-2 px-3 py-2 rounded-lg transition-all text-sm font-medium ${
+                    annotation.isOpen
+                      ? 'bg-blue-600 text-white hover:bg-blue-700'
+                      : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+                  }`}
+                  title="批注"
+                >
+                  <MessageSquare className="h-4 w-4" />
+                  批注
+                </button>
+              </>
+            )}
+            
+            {/* 分屏编辑按钮 */}
+            {splitScreen && (
+              <button
+                onClick={splitScreen.onOpen}
+                className="flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-all text-sm font-medium"
+                title="分屏编辑另一个文档"
+              >
+                <Columns className="h-4 w-4" />
+                分屏编辑
+              </button>
             )}
             
             {toolbarRight}

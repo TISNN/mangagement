@@ -10,7 +10,7 @@
 - **主要 Schema**：`public`（业务数据）、`auth`、`storage`、`realtime`、`pgsodium`、`vault`（系统 Schema）
 - **行级安全 RLS**：部分表已启用 RLS 策略，详见第 4 节
 - **高级特性**：大量使用 `UUID`、`JSONB`、数组列、`now()` 默认时间戳与枚举约束，需配套类型定义/JSON Schema
-- **数据统计**：共 49 张业务表，数据行数从 0 到 195 不等
+- **数据统计**：共 51 张业务表，数据行数从 0 到 195 不等
 
 ---
 
@@ -102,8 +102,10 @@
 | `meetings` | 会议主表 | `title`、`meeting_type`、`status`（默认"待举行"）、`start_time`、`end_time`、`location`、`meeting_link`、`participants` JSONB、`agenda`、`minutes`（HTML格式）、`summary`、`attachments` JSONB、`created_by`、`lead_id` | → `employees`；← `tasks.meeting_id` | 5 |
 | `meeting_documents` | 会议文档 | `title`、`content`（富文本HTML）、`created_by` | → `employees` | 0 |
 | `student_meetings` | 学生会议 | 详见 2.1 | → `students` | 0 |
-| `cloud_documents` | 云文档 | `title`、`content`（富文本HTML）、`status`（draft/published/archived）、`category`、`tags[]`、`location`、`is_favorite`、`views`、`last_accessed_at`、`created_by` | → `employees`；← `document_annotations.document_id` | 0 |
+| `cloud_documents` | 云文档 | `title`、`content`（富文本HTML）、`status`（draft/published/archived）、`category`、`tags[]`、`location`、`is_favorite`、`views`、`last_accessed_at`、`created_by` | → `employees`；← `document_annotations.document_id`、`cloud_document_category_relations.document_id` | 0 |
 | `document_annotations` | 文档批注 | `document_id`、`created_by`、`content`、`selected_text`、`start_pos`、`end_pos`、`parent_id`（回复）、`is_resolved` | → `cloud_documents`、`employees`、`document_annotations`（自关联） | 0 |
+| `cloud_document_categories` | 云文档分类 | `name`（唯一）、`description`、`created_by`、`created_at`、`updated_at` | → `employees`；← `cloud_document_category_relations.category_id` | 0 |
+| `cloud_document_category_relations` | 文档分类关联（多对多） | `document_id`、`category_id`、`created_at` | → `cloud_documents`、`cloud_document_categories` | 0 |
 
 ### 2.10 消息与通知域（RLS 已启用）
 
@@ -153,6 +155,7 @@ employees ─┬─< service_progress
            ├─< meeting_documents (created_by)
            ├─< cloud_documents (created_by)
            ├─< document_annotations (created_by)
+           ├─< cloud_document_categories (created_by)
            ├─< professors (created_by / updated_by)
            ├─< professor_favorites
            ├─< professor_match_records
@@ -184,6 +187,9 @@ partners ─┬─< partner_contacts
          ├─< partner_engagements
          ├─< partner_timelines
          └─< partner_favorites
+
+cloud_documents ─┬─< document_annotations
+                  └─< cloud_document_category_relations >─ cloud_document_categories (created_by → employees)
 ```
 
 ---
@@ -235,7 +241,7 @@ partners ─┬─< partner_contacts
 - `schools`、`programs`、`success_cases`
 - `user_favorite_schools`、`user_favorite_programs`
 - `knowledge_resources`、`knowledge_comments`、`knowledge_comment_likes`、`knowledge_bookmarks`
-- `meetings`、`meeting_documents`、`cloud_documents`
+- `meetings`、`meeting_documents`、`cloud_documents`、`cloud_document_categories`、`cloud_document_category_relations`
 - `professors`
 - `phd_positions`
 - `partners`、`partner_contacts`、`partner_engagements`、`partner_timelines`、`partner_favorites`
@@ -315,6 +321,29 @@ partners ─┬─< partner_contacts
   - `raw_payload` (jsonb, 可空) - 原始数据 JSON
 - **外键**：← `phd_position_favorites.position_source_id`
 
+#### `cloud_document_categories` 表
+- **主键**：`id` (bigint, 自增)
+- **关键字段**：
+  - `name` (varchar(200), 唯一) - 分类名称
+  - `description` (text, 可空) - 分类描述
+  - `created_by` (integer) - 创建人 ID
+  - `created_at` (timestamptz, 默认 now()) - 创建时间
+  - `updated_at` (timestamptz, 默认 now()) - 更新时间
+- **外键**：→ `employees`（created_by）
+- **索引**：`name`、`created_by`
+- **触发器**：自动更新 `updated_at` 字段
+
+#### `cloud_document_category_relations` 表
+- **主键**：`id` (bigint, 自增)
+- **关键字段**：
+  - `document_id` (bigint) - 文档 ID
+  - `category_id` (bigint) - 分类 ID
+  - `created_at` (timestamptz, 默认 now()) - 创建时间
+- **外键**：→ `cloud_documents`（document_id）、`cloud_document_categories`（category_id）
+- **唯一约束**：`(document_id, category_id)` - 防止重复关联
+- **索引**：`document_id`、`category_id`
+- **级联删除**：删除文档或分类时自动删除关联关系
+
 ---
 
 ## 6. 维护与治理建议
@@ -334,6 +363,7 @@ partners ─┬─< partner_contacts
 
 - **2025-01-22**：新增 `cloud_documents` 云文档表，支持文档的创建、编辑、状态管理、分类标签等功能。
 - **2025-01-22**：新增 `document_annotations` 文档批注表，支持对文档内容进行批注、回复、标记已解决等功能。
+- **2025-01-22**：新增 `cloud_document_categories` 和 `cloud_document_category_relations` 表，实现独立的分类管理系统，支持文档与分类的多对多关系，分类可在侧边栏独立创建和删除，文档创建后可通过分类管理功能添加到分类中。
 - **2025-01-XX**：通过 Supabase MCP 实时查询更新，新增 `phd_positions`、`phd_position_favorites`、`partners` 及其相关表，更新 RLS 策略详情，补充字段说明。
 - **2025-11-11**：首次通过 Supabase MCP 自动获取元数据并重写文档，补充课程/班级、任务体系、知识库、会议等新表，更新 RLS 与维护建议。
 

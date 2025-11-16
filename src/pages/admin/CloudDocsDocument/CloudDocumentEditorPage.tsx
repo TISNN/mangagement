@@ -9,9 +9,7 @@ import {
   ChevronLeft, 
   Loader2, 
   FileText,
-  Columns,
   X,
-  MessageSquare,
 } from 'lucide-react';
 import { supabase } from '../../../lib/supabase';
 import DocumentEditor from '../../../components/DocumentEditor';
@@ -29,6 +27,7 @@ export default function CloudDocumentEditorPage() {
   const [loading, setLoading] = useState(isEditMode);
   const [lastSaved, setLastSaved] = useState<Date | null>(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const [documentId, setDocumentId] = useState<number | null>(isEditMode && id ? parseInt(id) : null);
 
   // 批注相关状态
   const [showAnnotationPanel, setShowAnnotationPanel] = useState(false);
@@ -88,6 +87,7 @@ export default function CloudDocumentEditorPage() {
       if (data) {
         setTitle(data.title);
         setContent(data.content || '');
+        setDocumentId(data.id);
         if (data.updated_at) {
           setLastSaved(new Date(data.updated_at));
         }
@@ -173,9 +173,11 @@ export default function CloudDocumentEditorPage() {
         if (error) throw error;
         setLastSaved(new Date());
         
-        // 创建成功后跳转到编辑模式
+        // 创建成功后设置文档ID，但不跳转，保持在同一页面
         if (data) {
-          navigate(`/admin/cloud-docs/documents/${data.id}`, { replace: true });
+          setDocumentId(data.id);
+          // 可选：更新URL但不刷新页面
+          window.history.replaceState({}, '', `/admin/cloud-docs/documents/${data.id}`);
         }
       }
     } catch (error) {
@@ -266,9 +268,9 @@ export default function CloudDocumentEditorPage() {
     setSecondLastSaved(null);
   };
   
-  // 自动保存（可选）
+  // 自动保存（新建和编辑模式都启用）
   useEffect(() => {
-    if (!title || !content || !isEditMode) return;
+    if (!title || !content) return;
     
     const timer = setTimeout(() => {
       // 静默保存（不显示提示）
@@ -277,7 +279,7 @@ export default function CloudDocumentEditorPage() {
     
     return () => clearTimeout(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [content, title, isEditMode]);
+  }, [content, title]);
 
   // 第二个文档自动保存
   useEffect(() => {
@@ -307,7 +309,8 @@ export default function CloudDocumentEditorPage() {
         isOpen={showDocumentSelector}
         onClose={() => setShowDocumentSelector(false)}
         onSelect={handleSelectSecondDocument}
-        excludeDocumentId={isEditMode && id ? parseInt(id) : undefined}
+        excludeDocumentId={documentId || undefined}
+        documentType="cloud"
       />
 
       {isSplitView ? (
@@ -323,7 +326,7 @@ export default function CloudDocumentEditorPage() {
               onSave={handleSave}
               saving={saving}
               lastSaved={lastSaved}
-              isEditMode={isEditMode}
+                isEditMode={!!documentId}
               placeholder='输入文本，按"空格"启用 AI，按"/"启用指令...'
               showFullscreen={false}
               toolbarLeft={
@@ -340,7 +343,7 @@ export default function CloudDocumentEditorPage() {
                   
                   <FileText className="h-4 w-4 text-blue-600" />
                   <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
-                    {isEditMode ? '编辑云文档' : '新建云文档'}
+                      {documentId ? '编辑云文档' : '新建云文档'}
                   </span>
                 </div>
               }
@@ -389,70 +392,56 @@ export default function CloudDocumentEditorPage() {
         </div>
       ) : (
         // 单文档编辑模式
-        <DocumentEditor
-          title={title}
-          onTitleChange={setTitle}
-          content={content}
-          onContentChange={setContent}
-          onSave={handleSave}
-          saving={saving}
-          lastSaved={lastSaved}
-          isEditMode={isEditMode}
-          placeholder='输入文本，按"空格"启用 AI，按"/"启用指令...'
-          showFullscreen={true}
-          isFullscreen={isFullscreen}
-          onFullscreenChange={setIsFullscreen}
-          toolbarLeft={
-            <div className="flex items-center gap-2">
-              <button
-                onClick={() => navigate('/admin/cloud-docs/home')}
-                className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-all"
-                title="返回云文档主页"
-              >
-                <ChevronLeft className="h-4 w-4 text-gray-600 dark:text-gray-400" />
-              </button>
-              
-              <div className="h-6 w-px bg-gray-300 dark:bg-gray-700"></div>
-              
-              <FileText className="h-4 w-4 text-blue-600" />
-              <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
-                {isEditMode ? '编辑云文档' : '新建云文档'}
-              </span>
-            </div>
-          }
-          toolbarRight={
-            isEditMode && (
+        <div className="h-screen">
+          <DocumentEditor
+            title={title}
+            onTitleChange={setTitle}
+            content={content}
+            onContentChange={setContent}
+            onSave={handleSave}
+            saving={saving}
+            lastSaved={lastSaved}
+            isEditMode={!!documentId}
+            placeholder='输入文本，按"空格"启用 AI，按"/"启用指令...'
+            showFullscreen={true}
+            isFullscreen={isFullscreen}
+            onFullscreenChange={setIsFullscreen}
+            toolbarLeft={
               <div className="flex items-center gap-2">
                 <button
-                  onClick={() => setShowAnnotationPanel(!showAnnotationPanel)}
-                  className={`flex items-center gap-2 px-3 py-2 rounded-lg transition-all text-sm font-medium ${
-                    showAnnotationPanel
-                      ? 'bg-blue-600 text-white hover:bg-blue-700'
-                      : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
-                  }`}
-                  title="批注"
+                  onClick={() => navigate('/admin/cloud-docs/home')}
+                  className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-all"
+                  title="返回云文档主页"
                 >
-                  <MessageSquare className="h-4 w-4" />
-                  批注
+                  <ChevronLeft className="h-4 w-4 text-gray-600 dark:text-gray-400" />
                 </button>
-                <button
-                  onClick={() => setShowDocumentSelector(true)}
-                  className="flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-all text-sm font-medium"
-                  title="分屏编辑另一个文档"
-                >
-                  <Columns className="h-4 w-4" />
-                  分屏编辑
-                </button>
+                
+                <div className="h-6 w-px bg-gray-300 dark:bg-gray-700"></div>
+                
+                <FileText className="h-4 w-4 text-blue-600" />
+                <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                  {documentId ? '编辑云文档' : '新建云文档'}
+                </span>
               </div>
-            )
-          }
-        />
+            }
+            annotation={documentId && currentUserId ? {
+              documentId,
+              currentUserId,
+              currentUserName,
+              isOpen: showAnnotationPanel,
+              onToggle: () => setShowAnnotationPanel(!showAnnotationPanel),
+            } : undefined}
+            splitScreen={{
+              onOpen: () => setShowDocumentSelector(true),
+            }}
+          />
+        </div>
       )}
 
       {/* 批注面板 */}
-      {isEditMode && id && currentUserId && (
+      {documentId && currentUserId && (
         <DocumentAnnotationPanel
-          documentId={parseInt(id)}
+          documentId={documentId}
           currentUserId={currentUserId}
           currentUserName={currentUserName}
           isOpen={showAnnotationPanel}

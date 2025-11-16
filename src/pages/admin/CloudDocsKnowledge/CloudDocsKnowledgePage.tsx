@@ -514,6 +514,37 @@ const CloudDocsKnowledgePage: React.FC = () => {
 
       console.log('✅ 资源创建成功:', data);
 
+      // 如果是文章类型，同步创建到云文档
+      if (formData.type === 'article' && data) {
+        try {
+          const { data: newCloudDoc } = await supabase
+            .from('cloud_documents')
+            .insert({
+              title: formData.title,
+              content: formData.content || '',
+              created_by: currentUser.id,
+              status: formData.status === 'published' ? 'published' : 'draft',
+              tags: ['KNOWLEDGE_RESOURCE', `KNOWLEDGE_${data.id}`, ...(formData.tags || [])],
+            })
+            .select()
+            .single();
+
+          // 自动添加到"知识库文章"分类
+          if (newCloudDoc) {
+            try {
+              const { getOrCreateCategory, addDocumentToCategory } = await import('../../../services/cloudDocumentService');
+              const knowledgeCategory = await getOrCreateCategory('知识库文章', '知识库中的文章类资源');
+              await addDocumentToCategory(newCloudDoc.id, knowledgeCategory.id);
+            } catch (error) {
+              console.error('添加到分类失败:', error);
+            }
+          }
+        } catch (cloudDocError) {
+          console.error('同步到云文档失败:', cloudDocError);
+          // 不阻止主流程，只记录错误
+        }
+      }
+
       // 刷新列表
       await loadResources();
       return true;
@@ -633,6 +664,69 @@ const CloudDocsKnowledgePage: React.FC = () => {
       if (updateError) throw updateError;
 
       console.log('✅ 资源更新成功:', data);
+
+      // 如果是文章类型，同步更新到云文档
+      if (formData.type === 'article' && editingResource) {
+        try {
+          // 查找对应的云文档
+          const { data: cloudDocsList } = await supabase
+            .from('cloud_documents')
+            .select('id')
+            .contains('tags', [`KNOWLEDGE_${editingResource.id}`]);
+          
+          const cloudDocs = cloudDocsList && cloudDocsList.length > 0 ? cloudDocsList[0] : null;
+
+          if (cloudDocs) {
+            // 如果找到对应的云文档，更新它
+            await supabase
+              .from('cloud_documents')
+              .update({
+                title: formData.title,
+                content: formData.content || '',
+                status: formData.status === 'published' ? 'published' : 'draft',
+                updated_at: new Date().toISOString(),
+                tags: ['KNOWLEDGE_RESOURCE', `KNOWLEDGE_${editingResource.id}`, ...(formData.tags || [])],
+              })
+              .eq('id', cloudDocs.id);
+
+            // 确保文档在"知识库文章"分类中
+            try {
+              const { getOrCreateCategory, addDocumentToCategory } = await import('../../../services/cloudDocumentService');
+              const knowledgeCategory = await getOrCreateCategory('知识库文章', '知识库中的文章类资源');
+              await addDocumentToCategory(cloudDocs.id, knowledgeCategory.id);
+            } catch (error) {
+              console.error('添加到分类失败:', error);
+            }
+          } else {
+            // 如果没找到，创建新的云文档记录
+            const { data: newCloudDoc } = await supabase
+              .from('cloud_documents')
+              .insert({
+                title: formData.title,
+                content: formData.content || '',
+                created_by: currentUser.id,
+                status: formData.status === 'published' ? 'published' : 'draft',
+                tags: ['KNOWLEDGE_RESOURCE', `KNOWLEDGE_${editingResource.id}`, ...(formData.tags || [])],
+              })
+              .select()
+              .single();
+
+            // 自动添加到"知识库文章"分类
+            if (newCloudDoc) {
+              try {
+                const { getOrCreateCategory, addDocumentToCategory } = await import('../../../services/cloudDocumentService');
+                const knowledgeCategory = await getOrCreateCategory('知识库文章', '知识库中的文章类资源');
+                await addDocumentToCategory(newCloudDoc.id, knowledgeCategory.id);
+              } catch (error) {
+                console.error('添加到分类失败:', error);
+              }
+            }
+          }
+        } catch (cloudDocError) {
+          console.error('同步到云文档失败:', cloudDocError);
+          // 不阻止主流程，只记录错误
+        }
+      }
 
       await loadResources();
       
