@@ -7,7 +7,6 @@ import {
   FileCheck,
   Settings,
   Bell,
-  FileText,
   LayoutGrid,
   LayoutDashboard,
   Grid3x3,
@@ -15,10 +14,8 @@ import {
   Moon,
   Briefcase,
   UserSquare2,
-  Library,
+  // Library, // 已迁移到知识库中心，不再使用
   ClipboardList,
-  Wallet,
-  MessagesSquare,
   ChevronLeft,
   History,
   LogOut,
@@ -39,10 +36,7 @@ import {
   LayoutPanelLeft,
   PieChart,
   MessageCircle,
-  Layers,
   Globe2,
-  Network,
-  ShieldCheck,
   Home,
   HardDrive,
   BookMarked,
@@ -54,6 +48,7 @@ import ErrorBoundary from './components/ErrorBoundary';
 import './utils/cacheManager'; // 引入缓存管理器,使window.clearAppCache()可用
 import { getDashboardActivities } from './pages/admin/Dashboard/services/dashboardService';
 import type { DashboardActivity } from './pages/admin/Dashboard/types/dashboard.types';
+import { getRouteFromNavId, isValidRoute } from './utils/routeValidator';
 
 const APP_CENTER_STORAGE_KEY = 'appCenter.favoriteFeatureIds';
 
@@ -115,6 +110,9 @@ function App() {
   const location = useLocation();
   const navigate = useNavigate(); // 添加导航函数
   
+  // 已读通知的持久化存储键
+  const READ_NOTIFICATIONS_KEY = 'readNotifications';
+  
   const colorMap: Record<string, string> = {
     blue: 'bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-400',
     green: 'bg-green-50 text-green-600 dark:bg-green-900/20 dark:text-green-400',
@@ -173,6 +171,8 @@ function App() {
       { icon: LayoutGrid, text: '控制台', id: 'dashboard', color: 'blue' },
       { icon: ListTodo, text: '任务管理', id: 'tasks', color: 'blue' },
       { icon: Users, text: '学生管理', id: 'students-legacy', color: 'blue' },
+      { icon: Calendar, text: '会议管理', id: 'meetings', color: 'blue' },
+      { icon: Globe2, text: 'SkyOffice', id: 'sky-office', color: 'blue', externalUrl: skyOfficeExternalUrl },
       {
         icon: Globe2,
         text: '全球数据库',
@@ -216,6 +216,7 @@ function App() {
           { icon: Users, text: '申请学生', id: 'students', color: 'blue' },
           { icon: History, text: '服务进度', id: 'service-chronology', color: 'blue' },
           { icon: Compass, text: '选校规划', id: 'school-selection-planner', color: 'blue' },
+          { icon: Brain, text: '智能选校', id: 'smart-selection', color: 'blue' },
           { icon: BookOpen, text: '文书工作台', id: 'application-workbench', color: 'blue' },
           { icon: LayoutPanelLeft, text: '申请工作台', id: 'application-workstation', color: 'blue' },
           { icon: Globe2, text: '项目市场', id: 'project-marketplace', color: 'blue' },
@@ -223,6 +224,8 @@ function App() {
           { icon: UserSquare2, text: '导师管理', id: 'mentors', color: 'blue' },
           { icon: UserSquare2, text: '导师（旧版）', id: 'mentors-legacy', color: 'blue' },
           { icon: ClipboardList, text: '留学案例库', id: 'cases', color: 'blue' },
+          { icon: FileCheck, text: '申请进度', id: 'applications', color: 'blue' },
+
         ],
       },
       {
@@ -260,33 +263,9 @@ function App() {
           { icon: BookMarked, text: '知识库', id: 'cloud-docs/knowledge', color: 'blue' },
         ],
       },
-      {
-        icon: Layers,
-        text: '知识中心',
-        id: 'knowledge-hub',
-        color: 'blue',
-        children: [
-          { icon: Network, text: '协作空间', id: 'knowledge-hub/workspace', color: 'blue' },
-          { icon: LayoutGrid, text: '知识市场', id: 'knowledge-hub/market', color: 'blue' },
-          { icon: Globe2, text: '知识花园运营', id: 'knowledge-hub/garden', color: 'blue' },
-          { icon: ShieldCheck, text: '审核与风控', id: 'knowledge-hub/moderation', color: 'blue' },
-        ],
-      },
-      { icon: Brain, text: '智能选校', id: 'smart-selection', color: 'blue' },
-      { icon: FileCheck, text: '申请进度', id: 'applications', color: 'blue' },
-      { icon: MessagesSquare, text: '客户线索', id: 'leads', color: 'blue' },
-      { icon: Calendar, text: '会议管理', id: 'meetings', color: 'blue' },
-      {
-        icon: Globe2,
-        text: 'SkyOffice',
-        id: 'sky-office',
-        color: 'blue',
-        externalUrl: skyOfficeExternalUrl,
-      },
-      { icon: Library, text: '知识库', id: 'knowledge', color: 'blue' },
-      { icon: FileText, text: '合同管理', id: 'contracts', color: 'blue' },
+      { icon: LayoutGrid, text: '知识花园', id: 'knowledge-hub/market', color: 'blue' },
+      // { icon: Library, text: '知识库', id: 'knowledge', color: 'blue' }, // 已迁移到知识库中心 (cloud-docs/knowledge)
       { icon: PieChart, text: '财务中台', id: 'finance-suite', color: 'blue' },
-      { icon: Wallet, text: '财务管理（旧版）', id: 'finance', color: 'gray' },
       { icon: Settings, text: '系统设置', id: 'settings', color: 'blue' },
     ],
     [skyOfficeExternalUrl],
@@ -466,18 +445,8 @@ function App() {
     } else if (path.includes('crm-collaboration-hub')) {
       setCurrentPage('crm-collaboration-hub');
       setExpandedGroups((prev) => ({ ...prev, 'crm-center': true }));
-    } else if (path.includes('knowledge-hub/workspace')) {
-      setCurrentPage('knowledge-hub/workspace');
-      setExpandedGroups((prev) => ({ ...prev, 'knowledge-hub': true }));
     } else if (path.includes('knowledge-hub/market')) {
       setCurrentPage('knowledge-hub/market');
-      setExpandedGroups((prev) => ({ ...prev, 'knowledge-hub': true }));
-    } else if (path.includes('knowledge-hub/garden')) {
-      setCurrentPage('knowledge-hub/garden');
-      setExpandedGroups((prev) => ({ ...prev, 'knowledge-hub': true }));
-    } else if (path.includes('knowledge-hub/moderation')) {
-      setCurrentPage('knowledge-hub/moderation');
-      setExpandedGroups((prev) => ({ ...prev, 'knowledge-hub': true }));
     } else if (path.includes('cloud-docs/home')) {
       setCurrentPage('cloud-docs/home');
       setExpandedGroups((prev) => ({ ...prev, 'cloud-docs': true }));
@@ -553,22 +522,19 @@ function App() {
       setCurrentPage('mentors');
     } else if (path.includes('sky-office')) {
       setCurrentPage('sky-office');
-    } else if (path.includes('knowledge') && !path.includes('knowledge-hub')) {
-      setCurrentPage('knowledge');
+    } else if (path.includes('knowledge') && !path.includes('knowledge-hub') && !path.includes('cloud-docs')) {
+      // 旧的知识库路径已重定向到 cloud-docs/knowledge
+      setCurrentPage('cloud-docs/knowledge');
     } else if (path.includes('interview')) {
       setCurrentPage('interview');
     } else if (path.includes('cases')) {
       setCurrentPage('cases');
-    } else if (path.includes('contracts')) {
-      setCurrentPage('contracts');
     } else if (path.includes('social')) {
       setCurrentPage('social');
     } else if (path.includes('aiModel')) {
       setCurrentPage('aiModel');
     } else if (path.includes('finance-suite')) {
       setCurrentPage('finance-suite');
-    } else if (path.includes('finance')) {
-      setCurrentPage('finance');
     } else if (path.includes('services')) {
       setCurrentPage('services');
     } else if (path.includes('settings')) {
@@ -598,9 +564,7 @@ function App() {
       setExpandedGroups((prev) => ({ ...prev, 'crm-center': true }));
     }
 
-    if (['knowledge-hub/workspace', 'knowledge-hub/market', 'knowledge-hub/garden', 'knowledge-hub/moderation'].some((segment) => path.includes(segment))) {
-      setExpandedGroups((prev) => ({ ...prev, 'knowledge-hub': true }));
-    }
+    // 知识花园作为独立主页面，不再需要展开组逻辑
 
     if (['cloud-docs/home', 'cloud-docs/drive', 'cloud-docs/knowledge'].some((segment) => path.includes(segment))) {
       setExpandedGroups((prev) => ({ ...prev, 'cloud-docs': true }));
@@ -623,18 +587,44 @@ function App() {
     }
   }, [location]);
 
+  // 从 localStorage 加载已读通知ID集合
+  const getReadNotificationIds = useCallback((): Set<string> => {
+    try {
+      const stored = localStorage.getItem(READ_NOTIFICATIONS_KEY);
+      if (stored) {
+        const ids = JSON.parse(stored) as string[];
+        return new Set(ids);
+      }
+    } catch (error) {
+      console.error('读取已读通知状态失败:', error);
+    }
+    return new Set<string>();
+  }, []);
+
+  // 保存已读通知ID到 localStorage
+  const saveReadNotificationIds = useCallback((readIds: Set<string>) => {
+    try {
+      localStorage.setItem(READ_NOTIFICATIONS_KEY, JSON.stringify(Array.from(readIds)));
+    } catch (error) {
+      console.error('保存已读通知状态失败:', error);
+    }
+  }, []);
+
   const loadNotifications = useCallback(async () => {
     try {
       setNotificationsLoading(true);
       const latestActivities = await getDashboardActivities(6);
+      const readIds = getReadNotificationIds();
       setNotifications((prev) => {
+        // 保留之前的已读状态，同时从 localStorage 恢复已读状态
         const readStateMap = prev.reduce<Record<string, boolean>>((acc, item) => {
           acc[item.id] = item.read;
           return acc;
         }, {});
         return latestActivities.map((activity) => ({
           ...activity,
-          read: readStateMap[activity.id] ?? false,
+          // 优先使用 localStorage 中的已读状态，如果没有则使用之前的已读状态
+          read: readIds.has(activity.id) || readStateMap[activity.id] || false,
         }));
       });
     } catch (error) {
@@ -642,22 +632,34 @@ function App() {
     } finally {
       setNotificationsLoading(false);
     }
-  }, []);
+  }, [getReadNotificationIds]);
 
   const markAllNotificationsAsRead = useCallback(() => {
-    setNotifications((prev) => prev.map((item) => ({ ...item, read: true })));
-  }, []);
+    setNotifications((prev) => {
+      const updated = prev.map((item) => ({ ...item, read: true }));
+      // 合并现有的已读通知ID和当前通知列表中的所有ID
+      const readIds = getReadNotificationIds();
+      prev.forEach((item) => readIds.add(item.id));
+      saveReadNotificationIds(readIds);
+      return updated;
+    });
+  }, [getReadNotificationIds, saveReadNotificationIds]);
 
   const toggleNotificationsPanel = () => {
     setShowNotificationsPanel((prev) => !prev);
   };
 
   const handleNotificationClick = (item: NotificationItem) => {
-    setNotifications((prev) =>
-      prev.map((notification) =>
+    setNotifications((prev) => {
+      const updated = prev.map((notification) =>
         notification.id === item.id ? { ...notification, read: true } : notification,
-      ),
-    );
+      );
+      // 保存已读状态到 localStorage
+      const readIds = getReadNotificationIds();
+      readIds.add(item.id);
+      saveReadNotificationIds(readIds);
+      return updated;
+    });
     setShowNotificationsPanel(false);
     if (item.detailPath) {
       navigate(item.detailPath);
@@ -690,11 +692,9 @@ function App() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, [showNotificationsPanel]);
 
-  useEffect(() => {
-    if (showNotificationsPanel) {
-      markAllNotificationsAsRead();
-    }
-  }, [showNotificationsPanel, markAllNotificationsAsRead]);
+  // 移除自动标记所有通知为已读的逻辑
+  // 只有当用户点击"全部已读"按钮或点击单个通知时，才标记为已读
+  // 这样用户可以真正查看通知内容后再决定是否标记为已读
 
   // 如果路径是 /login，不显示管理界面
   if (location.pathname === '/login') {
@@ -714,11 +714,21 @@ function App() {
       window.open(item.externalUrl, '_blank', 'noopener,noreferrer');
       return;
     }
+    
+    // 检查路由是否存在
+    const targetRoute = getRouteFromNavId(item.id);
+    if (!targetRoute || !isValidRoute(targetRoute)) {
+      // 如果路由不存在，阻止跳转并显示提示
+      console.warn(`路由不存在: ${item.id}，无法跳转`);
+      // 可以选择显示一个提示消息，但不跳转
+      return;
+    }
+    
     if (item.children?.length && !isNavCollapsed) {
       setExpandedGroups((prev) => ({ ...prev, [item.id]: true }));
     }
     setCurrentPage(item.id);
-    navigate(item.id === 'dashboard' ? '/admin/dashboard' : `/admin/${item.id}`);
+    navigate(targetRoute);
   };
 
   const renderNavItems = (items: NavigationItem[], depth = 0, keyPrefix = '') =>

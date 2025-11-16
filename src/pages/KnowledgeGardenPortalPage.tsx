@@ -621,9 +621,8 @@ const KnowledgeGardenPortalPage: React.FC = () => {
             <div>
               <h4 className="text-sm font-semibold text-gray-900 dark:text-white">For Creators</h4>
               <ul className="mt-2 space-y-2">
-                <li><Link to="/knowledge-hub/workspace" className="hover:text-indigo-600">Creator Studio</Link></li>
-                <li><Link to="/knowledge-hub/garden" className="hover:text-indigo-600">Publishing Guide</Link></li>
-                <li><Link to="/knowledge-hub/moderation" className="hover:text-indigo-600">Review Policy</Link></li>
+                <li><Link to="/admin/knowledge-hub/market/my-published" className="hover:text-indigo-600">Creator Studio</Link></li>
+                <li><Link to="/admin/knowledge-hub/market/my-published" className="hover:text-indigo-600">Publishing Guide</Link></li>
               </ul>
             </div>
             <div>
@@ -636,7 +635,7 @@ const KnowledgeGardenPortalPage: React.FC = () => {
             </div>
             <div>
               <h4 className="text-sm font-semibold text-gray-900 dark:text-white">Stay in touch</h4>
-              <p className="mt-2 text-sm">订阅我们的月度运营简报，获取知识市场动态。</p>
+              <p className="mt-2 text-sm">订阅我们的月度运营简报，获取知识花园动态。</p>
               <div className="mt-3 flex items-center overflow-hidden rounded-full border border-gray-200 bg-white shadow-sm dark:border-gray-700 dark:bg-gray-900">
                 <input className="flex-1 px-4 py-2 text-sm text-gray-600 outline-none dark:bg-transparent dark:text-gray-300" placeholder="you@example.com" />
                 <button className="px-4 py-2 text-sm font-semibold text-indigo-600 transition hover:text-indigo-500">Subscribe</button>

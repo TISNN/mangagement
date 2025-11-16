@@ -11,7 +11,6 @@ import {
   FileText,
   PieChart,
   Layers,
-  ShieldCheck,
   Brain,
   Calendar,
   LayoutDashboard,
@@ -143,7 +142,7 @@ export const APP_FEATURES: AppFeature[] = [
   },
   {
     id: 'knowledge-hub/market',
-    title: '知识市场',
+    title: '知识花园',
     description: '从知识中心获取最新运营素材',
     category: '知识与资源',
     icon: Layers,
@@ -207,15 +206,6 @@ export const APP_FEATURES: AppFeature[] = [
     tags: ['分析'],
   },
   {
-    id: 'contracts',
-    title: '合同管理',
-    description: '统一查看合同与审批进度',
-    category: '销售与运营',
-    icon: FileText,
-    rolesAllowed: ['admin'],
-    tags: ['合同'],
-  },
-  {
     id: 'meetings',
     title: '会议管理',
     description: '安排团队会议与重点纪要',
@@ -250,15 +240,6 @@ export const APP_FEATURES: AppFeature[] = [
     icon: Briefcase,
     rolesAllowed: ['admin'],
     tags: ['财务'],
-  },
-  {
-    id: 'knowledge-hub/moderation',
-    title: '审核与风控',
-    description: '保障知识内容合法合规',
-    category: '运营支持',
-    icon: ShieldCheck,
-    rolesAllowed: ['admin'],
-    tags: ['风控'],
   },
 ];
 

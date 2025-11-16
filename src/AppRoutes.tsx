@@ -25,16 +25,13 @@ import StudentDetailPage from './pages/admin/StudentsPage/StudentDetailPage';
 import ApplicationsPage from './pages/admin/ApplicationsPage';
 import ApplicationDetailPage from './pages/admin/ApplicationDetailPage';
 import PlanningDetailPage from './pages/admin/PlanningDetailPage';
-import LeadsPage from './pages/admin/LeadsPage';
 import LeadDetailPage from './pages/admin/LeadDetailPage';
 import MentorManagementPage, { MentorMarketplacePage } from './pages/admin/MentorManagement';
 import MentorsPage from './pages/admin/MentorsPage';
 import MentorDetailPage from './pages/admin/MentorDetailPage';
 import InterviewPage from './pages/admin/InterviewPage';
 import CaseStudiesPage from './pages/admin/CaseStudies';
-import ContractsPage from './pages/admin/ContractsPage';
 import SocialMediaPage from './pages/admin/SocialMediaPage';
-import FinancePage from './pages/admin/FinancePage';
 import SettingsPage from './pages/admin/SettingsPage';
 import SchoolLibraryPage from './pages/admin/SchoolLibraryPage';
 import ProgramLibraryPage from './pages/admin/ProgramLibraryPage';
@@ -44,7 +41,7 @@ import ProgramDetailPageNew from './pages/admin/ProgramDetailPageNew';
 import AddSchoolPage from './pages/admin/AddSchoolPage';
 import AddProgramPage from './pages/admin/AddProgramPage';
 import ProjectsPage from './pages/admin/ProjectsPage';
-import KnowledgeBase from './pages/admin/KnowledgeBase';
+// import KnowledgeBase from './pages/admin/KnowledgeBase'; // 已迁移到知识库中心，不再使用
 import KnowledgeDetailPage from './pages/admin/KnowledgeDetailPage';
 import KnowledgeGardenPortalPage from './pages/KnowledgeGardenPortalPage';
 import MeetingsPage from './pages/admin/MeetingsPage';
@@ -67,11 +64,9 @@ import { CRMLeadListPage } from './pages/admin/CRMLeadList';
 import { CRMClientInsightsPage } from './pages/admin/CRMClientInsights';
 import { CRMCollaborationHubPage } from './pages/admin/CRMCollaborationHub';
 import { CRMTemplateLibraryPage, CRMTemplateDetailPage } from './pages/admin/CRMTemplateLibrary';
-import { KnowledgeHubWorkspacePage } from './pages/admin/KnowledgeHubWorkspace';
 import { KnowledgeHubMarketPage } from './pages/admin/KnowledgeHubMarket';
 import KnowledgeHubMarketDetailPage from './pages/admin/KnowledgeHubMarket/KnowledgeHubMarketDetailPage';
-import { KnowledgeGardenAdminPage } from './pages/admin/KnowledgeGardenAdmin';
-import { KnowledgeModerationPage } from './pages/admin/KnowledgeModeration';
+import MyPublishedPage from './pages/admin/KnowledgeHubMarket/MyPublishedPage';
 import { CloudDocsHomePage } from './pages/admin/CloudDocsHome';
 import { CloudDocsDrivePage } from './pages/admin/CloudDocsDrive';
 import { CloudDocsKnowledgePage } from './pages/admin/CloudDocsKnowledge';
@@ -115,6 +110,7 @@ import LearningResources from './pages/student/LearningResources';
 // 导入路由保护组件
 import { PrivateRoute } from './components/PrivateRoute';
 import { AuthProvider } from './context/AuthContext';
+import NotFoundPage from './pages/NotFoundPage';
 
 const AppRoutes: React.FC = () => {
   return (
@@ -198,26 +194,23 @@ const AppRoutes: React.FC = () => {
         <Route path="cloud-docs/knowledge" element={<CloudDocsKnowledgePage />} />
         <Route path="cloud-docs/documents/new" element={<CloudDocumentEditorPage />} />
         <Route path="cloud-docs/documents/:id" element={<CloudDocumentEditorPage />} />
-        <Route path="knowledge-hub" element={<Navigate to="/admin/knowledge-hub/workspace" replace />} />
-        <Route path="knowledge-hub/workspace" element={<KnowledgeHubWorkspacePage />} />
+        <Route path="knowledge-hub" element={<Navigate to="/admin/knowledge-hub/market" replace />} />
         <Route path="knowledge-hub/market" element={<KnowledgeHubMarketPage />} />
+        <Route path="knowledge-hub/market/my-published" element={<MyPublishedPage />} />
         <Route path="knowledge-hub/market/:marketId" element={<KnowledgeHubMarketDetailPage />} />
-        <Route path="knowledge-hub/garden" element={<KnowledgeGardenAdminPage />} />
-        <Route path="knowledge-hub/moderation" element={<KnowledgeModerationPage />} />
+        <Route path="knowledge-hub/garden" element={<Navigate to="/admin/knowledge-hub/market/my-published" replace />} />
         <Route path="school-selection-planner" element={<SchoolSelectionPlannerPage />} />
-        <Route path="leads" element={<LeadsPage />} />
         <Route path="leads/:leadId" element={<LeadDetailPage />} />
         <Route path="mentors" element={<MentorManagementPage />} />
         <Route path="mentor-marketplace" element={<MentorMarketplacePage />} />
         <Route path="mentors-legacy" element={<MentorsPage />} />
         <Route path="mentors/:id" element={<MentorDetailPage />} />
-        <Route path="knowledge" element={<KnowledgeBase />} />
+        {/* 知识库页面已迁移到知识库中心 */}
+        <Route path="knowledge" element={<Navigate to="/admin/cloud-docs/knowledge" replace />} />
         <Route path="knowledge/detail/:id" element={<KnowledgeDetailPage />} />
         <Route path="interview" element={<InterviewPage />} />
         <Route path="cases" element={<CaseStudiesPage />} />
-        <Route path="contracts" element={<ContractsPage />} />
         <Route path="social" element={<SocialMediaPage />} />
-        <Route path="finance" element={<FinancePage />} />
         <Route path="finance-suite" element={<FinanceSuitePage />} />
         <Route path="education-training/placement-assessment" element={<PlacementAssessmentPage />} />
         <Route path="education-training/scheduling-classroom" element={<SchedulingClassroomPage />} />
@@ -279,8 +272,8 @@ const AppRoutes: React.FC = () => {
       </Route>
 
 
-      {/* 404 路由 */}
-      <Route path="*" element={<Navigate to="/" replace />} />
+      {/* 404 路由 - 显示 404 页面而不是重定向到首页 */}
+      <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
 };

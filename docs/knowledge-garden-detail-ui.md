@@ -1,6 +1,6 @@
  # 知识花园·知识详情页 UI 设计方案
 
-> 本方案参考截图所示的 Knowledge Base 详情页，严格复刻整体视觉结构与交互体验，面向知识市场中的单个花园内容展示。适用于 `/knowledge-hub/market/:id`（管理端预览）与 `/knowledge-garden/doc/:id`（对外门户）。
+> 本方案参考截图所示的 Knowledge Base 详情页，严格复刻整体视觉结构与交互体验，面向知识花园中的单个花园内容展示。适用于 `/knowledge-hub/market/:id`（管理端预览）与 `/knowledge-garden/doc/:id`（对外门户）。
 
 ## 1. 页面信息架构
 ```

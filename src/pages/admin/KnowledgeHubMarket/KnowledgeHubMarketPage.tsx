@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import {
   ArrowRight,
   CheckCircle2,
@@ -9,6 +9,7 @@ import {
   Sparkles,
   Star,
   Users,
+  FileText,
 } from 'lucide-react';
 
 interface GardenCard {
@@ -426,6 +427,7 @@ const LeaderboardColumn: React.FC<{ title: string; items: LeaderboardItem[] }> =
 const KnowledgeHubMarketPage: React.FC = () => {
   const [heroTab, setHeroTab] = React.useState(0);
   const [discoverTab, setDiscoverTab] = React.useState<'For Students' | 'For Advisors' | 'For Partners'>('For Students');
+  const navigate = useNavigate();
 
   return (
     <div className="space-y-10 pb-12">
@@ -442,8 +444,15 @@ const KnowledgeHubMarketPage: React.FC = () => {
             <button className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm transition hover:text-indigo-700">
               Start Publishing <ArrowRight className="h-4 w-4" />
             </button>
+            <button 
+              onClick={() => navigate('/admin/knowledge-hub/market/my-published')}
+              className="inline-flex items-center gap-2 rounded-full border border-white/50 bg-white/10 px-5 py-2.5 text-sm font-semibold text-white backdrop-blur transition hover:bg-white/20"
+            >
+              <FileText className="h-4 w-4" />
+              我发布的
+            </button>
             <button className="inline-flex items-center gap-2 rounded-full border border-white/50 px-5 py-2.5 text-sm font-semibold text-white/90 transition hover:bg-white/10">
-              浏览知识市场
+              浏览知识花园
             </button>
           </div>
         </div>
@@ -543,7 +552,7 @@ const KnowledgeHubMarketPage: React.FC = () => {
         <div className="grid gap-6 md:grid-cols-2">
           <div className="space-y-3">
             <p className="text-xs font-semibold uppercase tracking-widest text-white/70">Become a Creator</p>
-            <h3 className="text-2xl font-bold">在知识市场发布内容，持续获得收益</h3>
+            <h3 className="text-2xl font-bold">在知识花园发布内容，持续获得收益</h3>
             <p className="text-sm text-white/80">
               创作草稿 → 审核 → 上线 → 收益，完整流程在 24 小时内可完成。支持付费、订阅、企业授权，收益数据即时回传。
             </p>

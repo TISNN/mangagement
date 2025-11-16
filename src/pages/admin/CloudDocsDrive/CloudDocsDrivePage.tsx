@@ -53,7 +53,7 @@ const STORAGE_STATS: StorageStat[] = [
 ];
 
 const DRIVE_FOLDERS: DriveFolder[] = [
-  { id: 'f-001', name: '学鸢教育 · 顾问交付资料', owner: 'Evan Xu', updatedAt: '今天 17:29', items: 124, shared: true, tag: '跨团队' },
+  { id: 'f-001', name: '学屿教育 · 顾问交付资料', owner: 'Evan Xu', updatedAt: '今天 17:29', items: 124, shared: true, tag: '跨团队' },
   { id: 'f-002', name: '面试资料库', owner: '陈晓丹', updatedAt: '昨天 00:24', items: 98, shared: false },
   { id: 'f-003', name: '2025 项目执行模板', owner: '运营团队', updatedAt: '11月9日', items: 57, shared: true, tag: '项目共用' },
   { id: 'f-004', name: '导师培养计划', owner: 'Evan Xu', updatedAt: '11月6日', items: 23, shared: false, tag: '内部专用' },
@@ -69,8 +69,8 @@ const FILES: FileRecord[] = [
     owner: 'Evan Xu',
     updatedAt: '今天 19:00',
     size: '3.2 MB',
-    location: '学鸢教育 / 项目进度',
-    sharedWith: ['学鸢教育', '顾问团队'],
+    location: '学屿教育 / 项目进度',
+    sharedWith: ['学屿教育', '顾问团队'],
     status: '内部',
   },
   {

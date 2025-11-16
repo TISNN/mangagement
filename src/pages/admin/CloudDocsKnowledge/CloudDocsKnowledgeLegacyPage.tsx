@@ -40,12 +40,12 @@ type Announcement = {
 const FEATURED_LIBRARIES: KnowledgeLibrary[] = [
   {
     id: 'lib-001',
-    name: '学鸢教育',
+    name: '学屿教育',
     description: '顾问培训、流程手册、项目执行模板等核心资料，支持团队协同和对外交付。',
     icon: BookOpen,
     category: '旗舰知识库',
     updatedAt: '今天 09:30',
-    owner: '学鸢教育 PMO',
+    owner: '学屿教育 PMO',
     badge: '推荐',
   },
   {

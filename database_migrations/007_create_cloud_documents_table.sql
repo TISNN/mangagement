@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS cloud_documents (
   status VARCHAR(20) DEFAULT 'draft' CHECK (status IN ('draft', 'published', 'archived')),
   category VARCHAR(100),
   tags TEXT[],
-  location TEXT, -- 文档位置/路径，如 '学鸢教育 / 申研服务'
+  location TEXT, -- 文档位置/路径，如 '学屿教育 / 申研服务'
   is_favorite BOOLEAN DEFAULT false,
   views INTEGER DEFAULT 0,
   last_accessed_at TIMESTAMPTZ,

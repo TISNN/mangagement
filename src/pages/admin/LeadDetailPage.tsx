@@ -150,7 +150,7 @@ function LeadDetailPage() {
   
   useEffect(() => {
     if (!leadId) {
-      navigate('/admin/leads');
+      navigate('/admin/crm-lead-list');
       return;
     }
     
@@ -485,7 +485,7 @@ function LeadDetailPage() {
   // 处理转换为学生完成
   const handleStudentAdded = () => {
     setShowConvertModal(false);
-    navigate('/admin/leads');
+    navigate('/admin/crm-lead-list');
   };
   
   // 处理编辑
@@ -654,7 +654,7 @@ function LeadDetailPage() {
       setDeletingLead(true);
       await leadService.deleteLead(leadId);
       toast.success('线索已删除');
-      navigate('/admin/leads');
+      navigate('/admin/crm-lead-list');
     } catch (error) {
       console.error('删除线索失败:', error);
       toast.error('删除线索失败，请重试');
@@ -1036,7 +1036,7 @@ function LeadDetailPage() {
               重新加载
             </button>
             <button 
-              onClick={() => window.location.href = '/admin/leads'}
+              onClick={() => window.location.href = '/admin/crm-lead-list'}
               className="px-4 py-2 border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition"
             >
               返回列表
@@ -1066,7 +1066,7 @@ function LeadDetailPage() {
               重试加载
             </button>
             <button 
-              onClick={() => window.location.href = '/admin/leads'}
+              onClick={() => window.location.href = '/admin/crm-lead-list'}
               className="px-4 py-2 border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition"
             >
               返回列表
@@ -1091,7 +1091,7 @@ function LeadDetailPage() {
       <div className="flex flex-col items-center justify-center min-h-screen">
         <div className="text-xl font-medium mb-4">未找到线索信息</div>
         <button 
-          onClick={() => navigate('/admin/leads')}
+          onClick={() => navigate('/admin/crm-lead-list')}
           className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
         >
           返回线索列表
@@ -1106,7 +1106,7 @@ function LeadDetailPage() {
       <div className="mb-6 flex items-center justify-between">
         <div className="flex items-center gap-4">
           <button
-            onClick={() => navigate('/admin/leads')}
+            onClick={() => navigate('/admin/crm-lead-list')}
             className="p-2 rounded-lg text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800"
           >
             <ArrowLeft className="h-5 w-5" />
