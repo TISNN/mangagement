@@ -15,7 +15,7 @@ import {
   List,
   LayoutGrid,
 } from 'lucide-react';
-import { getMeetings, getMeetingStats, createMeeting, updateMeeting, deleteMeeting } from './MeetingManagement/services/meetingService';
+import { getMeetings, getMeetingStats, createMeeting, updateMeeting, deleteMeeting, updateMeetingStatus } from './MeetingManagement/services/meetingService';
 import { Meeting, MeetingStats, MeetingFilter, MeetingType, MeetingStatus, MeetingFormData } from './MeetingManagement/types';
 import MeetingCard from './MeetingManagement/components/MeetingCard';
 import MeetingStatsCard from './MeetingManagement/components/MeetingStatsCard';
@@ -146,6 +146,20 @@ const formatDateTimeForList = (value?: string | null) => {
     } catch (error) {
       console.error('删除会议失败:', error);
       alert('删除会议失败，请稍后重试。');
+    }
+  };
+
+  const handleCompleteMeeting = async (meeting: Meeting) => {
+    // 将会议状态切换为已完成
+    const confirmed = window.confirm(`确定要将会议「${meeting.title}」标记为已完成吗？`);
+    if (!confirmed) return;
+
+    try {
+      await updateMeetingStatus(meeting.id, '已完成');
+      await loadData();
+    } catch (error) {
+      console.error('更新会议状态失败:', error);
+      alert('更新会议状态失败，请稍后重试。');
     }
   };
 
@@ -343,6 +357,10 @@ const formatDateTimeForList = (value?: string | null) => {
                 e.stopPropagation();
                 handleDeleteMeeting(meeting);
               }}
+              onCompleteMeeting={(e) => {
+                e.stopPropagation();
+                handleCompleteMeeting(meeting);
+              }}
             />
           ))}
         </div>
@@ -394,6 +412,15 @@ const formatDateTimeForList = (value?: string | null) => {
                     </td>
                     <td className="px-4 py-3 text-right text-sm">
                       <div className="flex justify-end gap-2">
+                        {meeting.status !== '已完成' && (
+                          <button
+                            onClick={() => handleCompleteMeeting(meeting)}
+                            className="rounded-full border border-blue-500 px-3 py-1 text-xs font-medium text-blue-600 hover:bg-blue-50 dark:text-blue-300 dark:hover:bg-blue-900/20 flex items-center gap-1"
+                          >
+                            <CheckCircle className="h-3.5 w-3.5" />
+                            完成
+                          </button>
+                        )}
                         <button
                           onClick={() => handleStartMeeting(meeting)}
                           className="rounded-full border border-emerald-500 px-3 py-1 text-xs font-medium text-emerald-600 hover:bg-emerald-50 dark:text-emerald-300 dark:hover:bg-emerald-900/20"

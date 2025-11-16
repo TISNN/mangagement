@@ -6,6 +6,26 @@ Infinite.ai是一个专注于留学全周期服务的数字化平台，连接学
 
 ## 🎉 最新更新
 
+### 2025-01-22: 会议管理完成按钮功能
+
+**功能实现：**
+- ✅ 在会议列表的卡片视图和列表视图中添加"完成"按钮
+- ✅ 完成按钮仅在会议状态不是"已完成"时显示
+- ✅ 点击完成按钮可将会议状态切换为"已完成"
+- ✅ 使用 `updateMeetingStatus` 服务函数更新会议状态
+- ✅ 更新后自动刷新会议列表和统计数据
+
+**功能特性：**
+- 🎯 快速标记：一键将会议标记为已完成，无需进入详情页
+- 🎨 视觉反馈：完成按钮使用绿色主题，带 CheckCircle 图标
+- 🔄 自动刷新：状态更新后自动刷新列表和统计卡片
+- ✅ 确认提示：操作前显示确认对话框，防止误操作
+
+**文件位置：**
+- 会议卡片组件：`src/pages/admin/MeetingManagement/components/MeetingCard.tsx`
+- 会议列表页面：`src/pages/admin/MeetingsPage.tsx`
+- 会议服务：`src/pages/admin/MeetingManagement/services/meetingService.ts`
+
 ### 2025-01-22: Agent-S 集成方案设计
 
 **方案文档：**

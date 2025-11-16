@@ -3,7 +3,7 @@
  */
 
 import { useState } from 'react';
-import { Calendar, Clock, Users, MapPin, Link as LinkIcon, FileText, Edit2, MoreVertical, Play } from 'lucide-react';
+import { Calendar, Clock, Users, MapPin, Link as LinkIcon, FileText, Edit2, MoreVertical, Play, CheckCircle } from 'lucide-react';
 import { Meeting } from '../types';
 import { formatDateTime } from '../../../../utils/dateUtils';
 
@@ -14,6 +14,7 @@ interface MeetingCardProps {
   onEditMeeting?: (e: React.MouseEvent) => void;
   onStartMeeting?: (e: React.MouseEvent) => void;
   onDeleteMeeting?: (e: React.MouseEvent) => void;
+  onCompleteMeeting?: (e: React.MouseEvent) => void;
 }
 
 const statusColors = {
@@ -46,6 +47,7 @@ export default function MeetingCard({
   onEditMeeting,
   onStartMeeting,
   onDeleteMeeting,
+  onCompleteMeeting,
 }: MeetingCardProps) {
   const [showActions, setShowActions] = useState(false);
 
@@ -82,8 +84,17 @@ export default function MeetingCard({
             </span>
           </div>
         </div>
-        {(onEditDocument || onEditMeeting || onDeleteMeeting) && (
+        {(onEditDocument || onEditMeeting || onDeleteMeeting || onCompleteMeeting) && (
           <div className="flex items-center gap-2">
+            {onCompleteMeeting && meeting.status !== '已完成' && (
+              <button
+                onClick={(event) => handleActionClick(event, onCompleteMeeting)}
+                className="rounded-full border border-blue-500 px-3 py-1 text-xs font-medium text-blue-600 hover:bg-blue-50 dark:text-blue-300 dark:hover:bg-blue-900/20 flex items-center gap-1"
+              >
+                <CheckCircle className="h-3.5 w-3.5" />
+                完成
+              </button>
+            )}
             {onStartMeeting && (
               <button
                 onClick={(event) => handleActionClick(event, onStartMeeting)}
