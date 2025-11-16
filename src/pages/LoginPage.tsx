@@ -151,9 +151,14 @@ const LoginPage: React.FC = () => {
             <div className="flex items-center gap-3 mb-4">
               <div className="relative h-12 w-12">
                 <img
-                  src="/public/logo.png"
+                  src="/logo.png?v=1"
                   alt="StudyLandsEdu Workspace logo"
                   className="h-12 w-12 object-contain"
+                  onError={(e) => {
+                    console.error('Logo failed to load:', e);
+                    // 如果加载失败，可以设置一个默认的占位符
+                    (e.currentTarget as HTMLImageElement).src = '/logo.png';
+                  }}
                 />
               </div>
               <h1 className="text-2xl font-bold text-black font-['Orbitron']">

@@ -91,12 +91,7 @@ function App() {
     avatarUrl?: string;
     avatar?: string;
   } | null>(null); // 当前登录用户
-  const [expandedGroups, setExpandedGroups] = useState<Record<string, boolean>>({
-    'study-services': true,
-    'internal-management': true,
-    'cloud-docs': true,
-    'global-academic-resources': true,
-  });
+  const [expandedGroups, setExpandedGroups] = useState<Record<string, boolean>>({});
   const [favoriteFeatureIds, setFavoriteFeatureIds] = useState<string[]>([]);
   const [hasInitializedFavorites, setHasInitializedFavorites] = useState(false);
   const [userRole, setUserRole] = useState<AppCenterUserRole>('admin');
