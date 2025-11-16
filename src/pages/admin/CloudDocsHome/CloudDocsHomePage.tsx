@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import {
   FilePlus,
   UploadCloud,
   Users,
-  Star,
   Clock,
   MessageSquare,
   Share2,
@@ -12,7 +12,21 @@ import {
   FileText,
   Folder,
   Sparkles,
+  Loader2,
+  MoreVertical,
+  Trash2,
 } from 'lucide-react';
+import {
+  getRecentDocuments,
+  getFavoriteDocuments,
+  getCloudDocumentStats,
+  formatDocumentStatus,
+  formatDocumentUpdatedAt,
+  deleteDocument,
+  type CloudDocument,
+  type CloudDocumentStats,
+} from '../../../services/cloudDocumentService';
+import { formatDateTime } from '../../../utils/dateUtils';
 
 type QuickAction = {
   id: string;
@@ -22,22 +36,7 @@ type QuickAction = {
   actionLabel: string;
 };
 
-type RecentDocument = {
-  id: string;
-  name: string;
-  owner: string;
-  updatedAt: string;
-  location: string;
-  status: '草稿' | '进行中' | '已归档';
-};
-
-type WorkspaceShortcut = {
-  id: string;
-  name: string;
-  description: string;
-  members: number;
-  badge?: string;
-};
+// 类型定义已移至 cloudDocumentService.ts
 
 type FolderShortcut = {
   id: string;
@@ -79,63 +78,7 @@ const QUICK_ACTIONS: QuickAction[] = [
   },
 ];
 
-const RECENT_DOCS: RecentDocument[] = [
-  {
-    id: 'doc-001',
-    name: '小满申请档案汇总（终版）',
-    owner: 'Evan Xu',
-    updatedAt: '今天 19:00',
-    location: '学鸢教育 / 申研服务',
-    status: '进行中',
-  },
-  {
-    id: 'doc-002',
-    name: '2025 申请季项目执行总览',
-    owner: '学鸢教育运营组',
-    updatedAt: '今天 18:58',
-    location: '学鸢教育 / 项目运营',
-    status: '进行中',
-  },
-  {
-    id: 'doc-003',
-    name: 'ESSEC MIM 面试应对手册',
-    owner: '陈晓丹',
-    updatedAt: '昨天 00:24',
-    location: '面试准备 / 面试素材库',
-    status: '草稿',
-  },
-  {
-    id: 'doc-004',
-    name: '2025/09/07 申请季教练备课',
-    owner: 'Evan Xu',
-    updatedAt: '11月9日 20:58',
-    location: '备课脚本 / 语言提升',
-    status: '已归档',
-  },
-];
-
-const FAVORITE_SPACES: WorkspaceShortcut[] = [
-  {
-    id: 'ws-01',
-    name: '小满申请档案',
-    description: '包含个人信息、教育背景、文书素材等核心档案内容。',
-    members: 5,
-    badge: '置顶',
-  },
-  {
-    id: 'ws-02',
-    name: '申研服务总览（含甘特图）',
-    description: '同步顾问、教研与服务团队的联合执行计划。',
-    members: 12,
-  },
-  {
-    id: 'ws-03',
-    name: 'ESSEC MIM 面试攻坚',
-    description: '沉淀过往高分案例与面试复盘，便于快速复用。',
-    members: 8,
-    badge: '活跃',
-  },
-];
+// 最近文档和收藏文档将从数据库加载
 
 const FOLDER_SHORTCUTS: FolderShortcut[] = [
   {
@@ -168,31 +111,12 @@ const FOLDER_SHORTCUTS: FolderShortcut[] = [
   },
 ];
 
+// 协作动态暂时保留硬编码，后续可以扩展为活动日志表
 const ACTIVITY_FEED: FeedItem[] = [
-  {
-    id: 'feed-1',
-    type: 'comment',
-    detail: '评论了《小满申请档案汇总》文书素材章节',
-    actor: '李研',
-    time: '10 分钟前',
-  },
-  {
-    id: 'feed-2',
-    type: 'share',
-    detail: '向机构伙伴共享《申研服务执行总览》外部版本',
-    actor: '赵婧怡',
-    time: '1 小时前',
-  },
-  {
-    id: 'feed-3',
-    type: 'update',
-    detail: '在《ESSEC MIM 面试手册》中更新面试官提问模板',
-    actor: 'Evan Xu',
-    time: '昨天 20:45',
-  },
+  // TODO: 后续可以从数据库的活动日志表获取
 ];
 
-const statusBadgeMap: Record<RecentDocument['status'], string> = {
+const statusBadgeMap: Record<'草稿' | '进行中' | '已归档', string> = {
   草稿: 'bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-300',
   进行中: 'bg-blue-100 text-blue-600 dark:bg-blue-900/40 dark:text-blue-300',
   已归档: 'bg-emerald-100 text-emerald-600 dark:bg-emerald-900/40 dark:text-emerald-300',
@@ -205,6 +129,109 @@ const feedIconMap: Record<FeedItem['type'], React.ComponentType<{ className?: st
 };
 
 const CloudDocsHomePage: React.FC = () => {
+  const navigate = useNavigate();
+  
+  // 数据状态
+  const [recentDocs, setRecentDocs] = useState<CloudDocument[]>([]);
+  const [favoriteDocs, setFavoriteDocs] = useState<CloudDocument[]>([]);
+  const [stats, setStats] = useState<CloudDocumentStats>({
+    activeDocuments: 0,
+    draftDocuments: 0,
+    archivedDocuments: 0,
+    favoriteDocuments: 0,
+  });
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [openMenuId, setOpenMenuId] = useState<number | null>(null);
+  const menuRefs = useRef<{ [key: number]: HTMLDivElement | null }>({});
+
+  // 加载数据
+  useEffect(() => {
+    loadData();
+  }, []);
+
+  // 点击外部关闭菜单
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (!openMenuId) return;
+      const activeMenu = menuRefs.current[openMenuId];
+      if (activeMenu && !activeMenu.contains(event.target as Node)) {
+        setOpenMenuId(null);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [openMenuId]);
+
+  const loadData = async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      // 并行加载所有数据
+      const [recent, favorites, statistics] = await Promise.all([
+        getRecentDocuments(10),
+        getFavoriteDocuments(10),
+        getCloudDocumentStats(),
+      ]);
+
+      setRecentDocs(recent);
+      setFavoriteDocs(favorites);
+      setStats(statistics);
+    } catch (err) {
+      console.error('加载云文档数据失败:', err);
+      setError('加载数据失败，请刷新页面重试');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleQuickAction = (actionId: string) => {
+    switch (actionId) {
+      case 'qa-create-doc':
+        navigate('/admin/cloud-docs/documents/new');
+        break;
+      case 'qa-upload':
+        // TODO: 实现上传文件功能
+        alert('上传文件功能开发中...');
+        break;
+      case 'qa-invite':
+        // TODO: 实现邀请团队功能
+        alert('邀请团队功能开发中...');
+        break;
+      default:
+        break;
+    }
+  };
+
+  const handleDocumentClick = (docId: number) => {
+    navigate(`/admin/cloud-docs/documents/${docId}`);
+  };
+
+  const handleDeleteDocument = async (docId: number, e: React.MouseEvent) => {
+    e.stopPropagation(); // 阻止事件冒泡
+    if (!confirm('确定要删除这个文档吗？此操作不可恢复。')) {
+      return;
+    }
+
+    try {
+      await deleteDocument(docId);
+      // 重新加载数据
+      await loadData();
+      setOpenMenuId(null);
+    } catch (error) {
+      console.error('删除文档失败:', error);
+      alert('删除文档失败: ' + (error as Error).message);
+    }
+  };
+
+  const handleMenuToggle = (docId: number, e: React.MouseEvent) => {
+    e.stopPropagation(); // 阻止事件冒泡
+    setOpenMenuId(openMenuId === docId ? null : docId);
+  };
+
   return (
     <div className="space-y-6">
       <section className="overflow-hidden rounded-3xl border border-slate-200 bg-gradient-to-r from-slate-900 via-indigo-900 to-slate-900 text-white shadow-lg">
@@ -228,24 +255,30 @@ const CloudDocsHomePage: React.FC = () => {
           </div>
           <div className="flex flex-col gap-3 rounded-2xl bg-white/10 p-6 text-indigo-50">
             <div className="text-sm uppercase tracking-widest text-indigo-100/70">今日概览</div>
-            <div className="grid grid-cols-2 gap-4 text-center text-xl font-semibold">
-              <div>
-                <div>38</div>
-                <div className="mt-1 text-xs font-normal text-indigo-100/70">活跃协作文档</div>
+            {loading ? (
+              <div className="flex items-center justify-center py-8">
+                <Loader2 className="h-6 w-6 animate-spin text-indigo-200" />
               </div>
-              <div>
-                <div>12</div>
-                <div className="mt-1 text-xs font-normal text-indigo-100/70">待审批变更</div>
+            ) : (
+              <div className="grid grid-cols-2 gap-4 text-center text-xl font-semibold">
+                <div>
+                  <div>{stats.activeDocuments}</div>
+                  <div className="mt-1 text-xs font-normal text-indigo-100/70">活跃协作文档</div>
+                </div>
+                <div>
+                  <div>{stats.draftDocuments}</div>
+                  <div className="mt-1 text-xs font-normal text-indigo-100/70">草稿文档</div>
+                </div>
+                <div>
+                  <div>{stats.archivedDocuments}</div>
+                  <div className="mt-1 text-xs font-normal text-indigo-100/70">已归档文档</div>
+                </div>
+                <div>
+                  <div>{stats.favoriteDocuments}</div>
+                  <div className="mt-1 text-xs font-normal text-indigo-100/70">收藏文档</div>
+                </div>
               </div>
-              <div>
-                <div>8</div>
-                <div className="mt-1 text-xs font-normal text-indigo-100/70">机构共享文件</div>
-              </div>
-              <div>
-                <div>5</div>
-                <div className="mt-1 text-xs font-normal text-indigo-100/70">AI 生成草稿</div>
-              </div>
-            </div>
+            )}
           </div>
         </div>
       </section>
@@ -283,11 +316,18 @@ const CloudDocsHomePage: React.FC = () => {
                   </div>
                   <p className="mt-3 text-sm text-slate-600 dark:text-slate-300">{item.description}</p>
                 </div>
-                <button className="rounded-full border border-indigo-100 p-2 text-indigo-500 transition hover:border-indigo-200 hover:text-indigo-600 dark:border-indigo-500/40 dark:text-indigo-200 dark:hover:border-indigo-300 dark:hover:text-indigo-100" aria-label={item.actionLabel}>
+                <button 
+                  onClick={() => handleQuickAction(item.id)}
+                  className="rounded-full border border-indigo-100 p-2 text-indigo-500 transition hover:border-indigo-200 hover:text-indigo-600 dark:border-indigo-500/40 dark:text-indigo-200 dark:hover:border-indigo-300 dark:hover:text-indigo-100" 
+                  aria-label={item.actionLabel}
+                >
                   <Sparkles className="h-4 w-4" />
                 </button>
               </div>
-              <button className="mt-auto inline-flex items-center gap-2 text-sm font-medium text-indigo-600 hover:text-indigo-700 dark:text-indigo-200 dark:hover:text-indigo-100">
+              <button 
+                onClick={() => handleQuickAction(item.id)}
+                className="mt-auto inline-flex items-center gap-2 text-sm font-medium text-indigo-600 hover:text-indigo-700 dark:text-indigo-200 dark:hover:text-indigo-100"
+              >
                 {item.actionLabel}
               </button>
             </div>
@@ -295,72 +335,59 @@ const CloudDocsHomePage: React.FC = () => {
         })}
       </section>
 
-      <section className="grid gap-6 xl:grid-cols-[2fr,1fr]">
-        <div className="rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-700 dark:bg-slate-900/60">
-          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-200 px-6 py-4 dark:border-slate-700">
-            <div>
-              <h2 className="text-lg font-semibold text-slate-900 dark:text-white">最近打开</h2>
-              <p className="text-sm text-slate-500 dark:text-slate-400">跟进有变更或新增评论的文件，保持信息同步。</p>
-            </div>
-            <div className="flex items-center gap-2 text-sm text-slate-500 dark:text-slate-400">
-              <Search className="h-4 w-4" />
-              快速查找
-            </div>
+      <section className="grid gap-6 xl:grid-cols-[1fr,1fr]">
+        <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900/60">
+          <div className="flex items-center justify-between">
+            <h3 className="text-base font-semibold text-slate-900 dark:text-white">置顶空间</h3>
+            <button className="text-xs text-indigo-500 hover:text-indigo-600 dark:text-indigo-300 dark:hover:text-indigo-200">管理</button>
           </div>
-          <div className="divide-y divide-slate-200 dark:divide-slate-800">
-            {RECENT_DOCS.map((doc) => (
-              <div key={doc.id} className="flex flex-wrap items-center gap-3 px-6 py-4 text-sm text-slate-600 dark:text-slate-300">
-                <div className="flex min-w-[200px] flex-1 items-center gap-3">
-                  <FileText className="h-5 w-5 text-indigo-500" />
-                  <div>
-                    <div className="font-medium text-slate-900 dark:text-white">{doc.name}</div>
-                    <div className="text-xs text-slate-500 dark:text-slate-400">{doc.location}</div>
-                  </div>
-                </div>
-                <div className="hidden min-w-[140px] items-center gap-2 text-xs text-slate-500 dark:text-slate-400 md:flex">
-                  <Clock className="h-4 w-4" />
-                  {doc.updatedAt}
-                </div>
-                <div className="hidden min-w-[120px] text-xs text-slate-500 dark:text-slate-400 lg:block">{doc.owner}</div>
-                <span className={`rounded-full px-3 py-1 text-[11px] font-semibold ${statusBadgeMap[doc.status]}`}>{doc.status}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-        <div className="space-y-4">
-          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900/60">
-            <div className="flex items-center justify-between">
-              <h3 className="text-base font-semibold text-slate-900 dark:text-white">置顶空间</h3>
-              <button className="text-xs text-indigo-500 hover:text-indigo-600 dark:text-indigo-300 dark:hover:text-indigo-200">管理</button>
+          {loading ? (
+            <div className="flex items-center justify-center py-8">
+              <Loader2 className="h-5 w-5 animate-spin text-indigo-500" />
             </div>
+          ) : favoriteDocs.length === 0 ? (
+            <div className="py-8 text-center text-xs text-slate-500 dark:text-slate-400">
+              暂无收藏文档
+            </div>
+          ) : (
             <div className="mt-4 space-y-3">
-              {FAVORITE_SPACES.map((space) => (
-                <div key={space.id} className="rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm text-slate-600 dark:border-slate-700 dark:bg-slate-800/60 dark:text-slate-300">
+              {favoriteDocs.map((doc) => (
+                <div
+                  key={doc.id}
+                  onClick={() => handleDocumentClick(doc.id)}
+                  className="rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm text-slate-600 dark:border-slate-700 dark:bg-slate-800/60 dark:text-slate-300 cursor-pointer hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+                >
                   <div className="flex items-center justify-between gap-3">
-                    <div>
-                      <div className="font-semibold text-slate-900 dark:text-white">{space.name}</div>
-                      <p className="mt-1 text-xs leading-5 text-slate-500 dark:text-slate-400">{space.description}</p>
+                    <div className="flex-1">
+                      <div className="font-semibold text-slate-900 dark:text-white">{doc.title}</div>
+                      <p className="mt-1 text-xs leading-5 text-slate-500 dark:text-slate-400">
+                        {doc.location || '未分类'}
+                      </p>
                     </div>
-                    {space.badge && (
-                      <span className="rounded-full bg-indigo-100 px-2 py-1 text-[10px] font-semibold text-indigo-600 dark:bg-indigo-900/40 dark:text-indigo-200">
-                        {space.badge}
-                      </span>
-                    )}
+                    <span className="rounded-full bg-indigo-100 px-2 py-1 text-[10px] font-semibold text-indigo-600 dark:bg-indigo-900/40 dark:text-indigo-200">
+                      收藏
+                    </span>
                   </div>
                   <div className="mt-3 flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400">
-                    <Users className="h-3.5 w-3.5" />
-                    {space.members} 位成员协作中
+                    <Clock className="h-3.5 w-3.5" />
+                    {formatDocumentUpdatedAt(doc.updated_at)}
                   </div>
                 </div>
               ))}
             </div>
-          </div>
+          )}
+        </div>
 
-          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900/60">
-            <div className="flex items-center justify-between">
-              <h3 className="text-base font-semibold text-slate-900 dark:text-white">协作动态</h3>
-              <button className="text-xs text-indigo-500 hover:text-indigo-600 dark:text-indigo-300 dark:hover:text-indigo-200">查看全部</button>
+        <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900/60">
+          <div className="flex items-center justify-between">
+            <h3 className="text-base font-semibold text-slate-900 dark:text-white">协作动态</h3>
+            <button className="text-xs text-indigo-500 hover:text-indigo-600 dark:text-indigo-300 dark:hover:text-indigo-200">查看全部</button>
+          </div>
+          {ACTIVITY_FEED.length === 0 ? (
+            <div className="py-8 text-center text-xs text-slate-500 dark:text-slate-400">
+              暂无协作动态
             </div>
+          ) : (
             <div className="mt-4 space-y-3 text-sm text-slate-600 dark:text-slate-300">
               {ACTIVITY_FEED.map((item) => {
                 const Icon = feedIconMap[item.type];
@@ -376,10 +403,11 @@ const CloudDocsHomePage: React.FC = () => {
                 );
               })}
             </div>
-          </div>
+          )}
         </div>
       </section>
 
+      {/* 常用目录入口 */}
       <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-700 dark:bg-slate-900/60">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div>
@@ -399,6 +427,113 @@ const CloudDocsHomePage: React.FC = () => {
             </div>
           ))}
         </div>
+      </section>
+
+      {/* 最近打开列表 - 占据一整行 */}
+      <section className="rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-700 dark:bg-slate-900/60">
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-200 px-6 py-4 dark:border-slate-700">
+          <div>
+            <h2 className="text-lg font-semibold text-slate-900 dark:text-white">最近打开</h2>
+            <p className="text-sm text-slate-500 dark:text-slate-400">跟进有变更或新增评论的文件，保持信息同步。</p>
+          </div>
+          <div className="flex items-center gap-2 text-sm text-slate-500 dark:text-slate-400">
+            <Search className="h-4 w-4" />
+            快速查找
+          </div>
+        </div>
+        {loading ? (
+          <div className="flex items-center justify-center py-12">
+            <Loader2 className="h-6 w-6 animate-spin text-indigo-500" />
+          </div>
+        ) : error ? (
+          <div className="px-6 py-12 text-center text-sm text-red-600 dark:text-red-400">
+            {error}
+          </div>
+        ) : recentDocs.length === 0 ? (
+          <div className="px-6 py-12 text-center text-sm text-slate-500 dark:text-slate-400">
+            暂无文档，点击"新建云文档"开始创建
+          </div>
+        ) : (
+          <div className="divide-y divide-slate-200 dark:divide-slate-800">
+            {/* 表头 */}
+            <div className="px-6 py-3 bg-slate-50 dark:bg-slate-800/50 border-b border-slate-200 dark:border-slate-700">
+              <div className="grid grid-cols-[1fr_140px_120px_80px_40px] gap-3 items-center text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
+                <div className="flex items-center gap-3">
+                  <span>名称</span>
+                </div>
+                <div className="hidden md:flex items-center gap-2">
+                  <Clock className="h-3.5 w-3.5" />
+                  <span>修改时间</span>
+                </div>
+                <div className="hidden lg:block">
+                  <span>所有者</span>
+                </div>
+                <div className="text-center">
+                  <span>状态</span>
+                </div>
+                <div></div>
+              </div>
+            </div>
+            {/* 文档列表 */}
+            {recentDocs.map((doc) => {
+              const status = formatDocumentStatus(doc.status);
+              const isMenuOpen = openMenuId === doc.id;
+              return (
+                <div
+                  key={doc.id}
+                  onClick={() => handleDocumentClick(doc.id)}
+                  className="grid grid-cols-[1fr_140px_120px_80px_40px] gap-3 items-center px-6 py-4 text-sm text-slate-600 dark:text-slate-300 cursor-pointer hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-colors relative"
+                >
+                  <div className="flex items-center gap-3 min-w-0">
+                    <FileText className="h-5 w-5 text-indigo-500 flex-shrink-0" />
+                    <div className="min-w-0 flex-1">
+                      <div className="font-medium text-slate-900 dark:text-white truncate">{doc.title}</div>
+                      <div className="text-xs text-slate-500 dark:text-slate-400 truncate">
+                        {doc.location || '未分类'}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="hidden md:flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400">
+                    <Clock className="h-4 w-4 flex-shrink-0" />
+                    <span className="truncate">{formatDateTime(new Date(doc.updated_at))}</span>
+                  </div>
+                  <div className="hidden lg:block text-xs text-slate-500 dark:text-slate-400 truncate">
+                    {doc.creator?.name || '未知用户'}
+                  </div>
+                  <div className="flex justify-center">
+                    <span className={`rounded-full px-3 py-1 text-[11px] font-semibold ${statusBadgeMap[status]}`}>
+                      {status}
+                    </span>
+                  </div>
+                  {/* 更多选项按钮 */}
+                  <div className="flex justify-end">
+                    <div className="relative" ref={(el) => (menuRefs.current[doc.id] = el)}>
+                      <button
+                        onClick={(e) => handleMenuToggle(doc.id, e)}
+                        className="p-2 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-lg transition-colors"
+                        title="更多选项"
+                      >
+                        <MoreVertical className="h-4 w-4 text-slate-500 dark:text-slate-400" />
+                      </button>
+                      {/* 下拉菜单 */}
+                      {isMenuOpen && (
+                        <div className="absolute right-0 top-full mt-1 w-48 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 z-50 py-1">
+                          <button
+                            onClick={(e) => handleDeleteDocument(doc.id, e)}
+                            className="w-full px-4 py-2 text-left text-sm text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 flex items-center gap-2 transition-colors"
+                          >
+                            <Trash2 className="h-4 w-4" />
+                            删除文档
+                          </button>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        )}
       </section>
     </div>
   );

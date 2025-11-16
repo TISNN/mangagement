@@ -6,6 +6,93 @@ Infinite.ai是一个专注于留学全周期服务的数字化平台，连接学
 
 ## 🎉 最新更新
 
+### 2025-01-22: 文档批注功能实现
+
+**功能实现：**
+- ✅ 创建文档批注数据库表 `document_annotations`，支持批注、回复、标记已解决
+- ✅ 创建批注服务层 `documentAnnotationService.ts`，提供完整的批注 CRUD 操作
+- ✅ 创建批注侧边栏组件 `DocumentAnnotationPanel`，支持批注的查看、添加、回复、删除
+- ✅ 在云文档编辑页面集成批注功能，点击工具栏"批注"按钮打开侧边栏
+
+**数据库表结构：**
+- `document_annotations` 表包含：文档ID、创建人、批注内容、选中文本、位置信息、父批注ID（用于回复）、是否已解决等字段
+- 支持批注的树形结构（主批注和回复）
+- 完整的索引优化（文档ID、创建人、父批注ID、创建时间等）
+- 自动更新时间戳触发器
+
+**功能特性：**
+- 💬 添加批注：选中文本后点击"添加批注"按钮
+- 📝 批注列表：显示所有批注，包括选中文本预览
+- 💬 回复批注：支持对批注进行回复，形成对话
+- ✅ 标记已解决：可以标记批注为已解决/未解决
+- 🗑️ 删除批注：批注创建人可以删除自己的批注
+- ⏰ 时间显示：相对时间格式（如"5分钟前"）
+- 👤 用户信息：显示批注创建人姓名
+
+**文件位置：**
+- 数据库迁移：`database_migrations/008_create_document_annotations_table.sql`
+- 批注服务：`src/services/documentAnnotationService.ts`
+- 批注组件：`src/components/DocumentAnnotationPanel/index.tsx`
+- 编辑器页面：`src/pages/admin/CloudDocsDocument/CloudDocumentEditorPage.tsx`
+
+### 2025-01-22: 云文档创建功能实现
+
+**功能实现：**
+- ✅ 创建云文档数据库表 `cloud_documents`，支持文档的创建、编辑、状态管理
+- ✅ 创建云文档编辑页面 `CloudDocumentEditorPage`，使用 `DocumentEditor` 组件
+- ✅ 在云文档主页实现"新建云文档"功能，点击按钮跳转到编辑器
+- ✅ 添加路由配置：`/admin/cloud-docs/documents/new` 和 `/admin/cloud-docs/documents/:id`
+
+**数据库表结构：**
+- `cloud_documents` 表包含：标题、内容、状态、分类、标签、位置、收藏等字段
+- 支持草稿、已发布、已归档三种状态
+- 自动更新时间戳触发器
+- 完整的索引优化（创建人、创建时间、状态、分类、标签等）
+
+**功能特性：**
+- 📝 创建新文档：点击"新建云文档"按钮即可创建
+- ✏️ 编辑文档：支持富文本编辑，包含 AI 助手功能
+- 💾 自动保存：30秒自动保存（编辑模式）
+- 📊 字数统计：实时显示文档字数
+- ⏰ 保存状态：显示最后保存时间
+- 🔍 全屏编辑：支持全屏模式，专注编辑体验
+
+**文件位置：**
+- 数据库迁移：`database_migrations/007_create_cloud_documents_table.sql`
+- 编辑页面：`src/pages/admin/CloudDocsDocument/CloudDocumentEditorPage.tsx`
+- 主页：`src/pages/admin/CloudDocsHome/CloudDocsHomePage.tsx`
+
+### 2025-01-22: 通用文档编辑器组件提取
+
+**组件重构：**
+- ✅ 创建 `DocumentEditor` 通用文档编辑器组件，提取会议文档编辑页面的编辑器逻辑
+- ✅ 组件位置：`src/components/DocumentEditor/index.tsx`
+- ✅ 支持标题输入、富文本编辑、工具栏、字数统计、保存状态等功能
+- ✅ 高度可配置，支持自定义工具栏、元信息、全屏等功能
+- ✅ 更新 `MeetingDocumentEditorPage` 使用新的 `DocumentEditor` 组件
+
+**组件特性：**
+- 📝 标题输入框（可自定义样式）
+- ✏️ 富文本编辑器（基于 SimpleEditorWrapper，支持 AI 助手）
+- 💾 保存按钮和状态显示
+- 📊 字数统计
+- ⏰ 最后保存时间显示
+- 🎨 磨砂玻璃效果工具栏
+- 🔍 全屏编辑模式（可选）
+- 🎯 自定义工具栏内容（左侧/右侧）
+
+**使用场景：**
+- 会议文档编辑
+- 知识库文章编辑
+- 云文档编辑（新增）
+- 其他需要富文本编辑的场景
+
+**优势：**
+- 🔄 代码复用，减少重复
+- 🎨 统一的编辑体验
+- 🛠️ 易于维护和扩展
+- 📦 组件化设计，职责清晰
+
 ### 2025-11-12: 数据库优化 - Professors表关联Schools表
 
 **数据库改动：**
@@ -122,6 +209,93 @@ Infinite.ai是一个专注于留学全周期服务的数字化平台，连接学
 - ✅ 将 `AuthService` 权限校验、ProfileService 抽象、新版 Settings 页面与 `App.tsx` 路由保护调整推送到 `origin/main`
 - 🛠️ 本次包含 `authService.ts` 重构与 `profileService.ts` 新增文件，确保员工资料更新、密码重置、头像上传流程都由统一服务层管理
 - 🧪 建议下次推送前执行 `npm run lint && npm run test` 并在设置页回归“编辑个人资料”“重置密码”“头像上传”流程，确认 Supabase 会话与缓存同步正常
+
+### 2025-11-15: 学生账号接入 Supabase Auth（xm040521@163.com）
+
+- ✅ 使用 SQL 在 `auth.users` 中创建学生账号（`auth_user_id=45d91a8f-0fdb-4abd-9a50-202cc10be3d1`），密码依需求设置为 `Xiaoman$040401` 并即时完成邮箱确认
+- 🔗 将 `students` 表 `id=11`（汪子涵）的 `auth_id` 回填到上述 UUID，同时同步 `status`=`active`、`is_active`=true，保证登录后能够命中原有学生档案
+- 🔒 插入脚本采用 `crypt()` 生成 bcrypt 密文并预先校验邮箱唯一性，避免覆盖既有账号；登录报错后已补充 `confirmation_token`/`recovery_token` 等字段为空字符串，满足 Supabase Auth 对 schema 的扫描要求
+- 🔁 改进建议：新增“手动开户”后台工具/Edge Function，通过表单输入姓名+邮箱即可自动创建 Auth 用户、生成初始密码并推送通知，降低直接执行 SQL 的操作风险
+
+### 2025-11-15: 学生端登录跳转修复
+
+- ✅ 在 `AppRoutes.tsx` 中接入 `/student` 路由及其子路由（总览、数据分析、材料中心、实习/内推、选校、竞赛、社区、学习资源），统一挂载 `StudentLayout`
+- ✅ 登录页选择“学生”后将正确导航到学生工作台，不再因为缺少路由被 404 拦截并跳回官网首页
+- 🔐 学生端同样复用 `AuthProvider + PrivateRoute`，与管理员共享 Supabase 会话管理和权限校验逻辑
+
+### 2025-11-15: 学生端品牌对齐
+
+- ✅ `StudentLayout` 顶部导航改用与管理端一致的 `StudyLandsEdu` Logo（`/logo.png?v=1`）与中英文组合标题，避免学生与员工看到两套品牌
+- 🎨 折叠态保留 Logo 图标，展开态同步展示 "StudyLandsEdu / Student Workspace" 双行文案，并将侧边导航描述行移除，仅保留标题，确保品牌与信息更聚焦
+- 🧭 顶部栏沿用管理端结构：左侧 Logo + 系统名，右侧提供暗黑模式开关、消息通知按钮、学生头像/姓名与快速退出按钮，原左侧栏只保留折叠控制，整体层级更清晰
+- 🌅 `StudentDashboard` 顶部欢迎语读取本地 `currentStudent` 与当天日期生成动态问候，并提供"目标项目/服务状态/下一步动作"三个实时摘要，彻底移除"张同学"等硬编码文案
+- 🧲 左侧导航折叠按钮改为与管理端一致的"侧边悬浮"形式，固定在栏体中间，不再单独占据一行，保持视觉统一
+- 📏 学生侧边导航宽度从 280px 收窄到 232px，折叠态 80→72px，整体呼吸感与管理端一致并为内容区释放更多空间
+
+### 2025-01-22: 学生端功能规划文档
+
+- ✅ 创建《学生端功能规划 - 申请业务闭环设计》文档（`docs/student-portal-features.md`），详细规划学生端需要实现的 10 大功能模块
+- 📋 明确学生端与管理端的业务闭环流程：材料上传、文书协作、任务执行、选校确认等 4 大核心闭环
+- 🔄 定义数据同步机制：实时同步（Supabase Realtime）、定时同步、手动刷新
+- 🎯 制定实施优先级：Phase 1 MVP（总览、材料、任务、通知）→ Phase 2 协作增强 → Phase 3 体验优化
+- 📊 规划成功指标（KPI）：学生活跃度、任务完成率、材料上传及时率、文书反馈及时率、系统满意度
+- 🔗 相关文档：`application-workbench.md`、`APPLICATION_PROGRESS_IMPLEMENTATION.md`、`application-workstation-plan.md`
+
+### 2025-01-22: 学生端 Dashboard 优化实现
+
+- ✅ 创建 `studentDashboardService.ts` 数据服务层，实现仪表盘数据聚合和统计计算
+- ✅ 创建 `useDashboardRealtime.ts` Hook，实现 Supabase Realtime 实时同步（任务、材料、文书、选校、会议）
+- ✅ 重构 `StudentDashboard.tsx`，根据文档设计实现真实数据驱动的仪表盘
+- 📊 **申请进度可视化**：7 阶段进度条、当前阶段高亮、进度百分比、下一个截止日期提醒、阻塞原因提示
+- 📈 **统计卡片**：待办事项（今日/本周/逾期）、材料状态（完成度/待上传/待审核）、文书状态（待反馈/已定稿）、选校列表（冲刺/目标/保底分布）
+- 🔄 **实时同步**：任务/材料/文书/选校/会议数据变化自动更新，无需手动刷新
+- 🎨 **UI/UX 优化**：加载状态、错误处理、空状态提示、卡片点击跳转、快速操作按钮
+- 🔗 **数据来源**：`tasks`、`application_documents_checklist`、`application_document`、`final_university_choices`、`student_meetings` 表
+- 🚀 **性能优化**：并行查询、数据缓存、按需刷新、错误容错
+
+### 2025-01-22: 学生端 Dashboard 功能增强
+
+- ✅ **重新设计页面布局**：采用左右分栏布局，优化信息展示结构
+- ✅ **待办事项列表**：显示最近 5 个待办任务，按优先级和截止日期排序，支持快速跳转
+- ✅ **即将到来的截止日期**：显示未来 7 天的所有截止日期（任务/材料/选校），紧急项高亮提醒
+- ✅ **最近活动时间线**：展示最近 7 天的所有活动（任务/材料/文书/选校/会议），支持点击跳转
+- ✅ **最近上传的文件**：显示最近 5 个上传的文件，支持快速下载
+- ✅ **最近会议记录**：显示最近 5 次会议，包含会议链接、参会人、会议类型等信息
+- 📊 **数据扩展**：扩展 `DashboardData` 接口，新增 `upcomingTasks`、`upcomingDeadlines`、`recentActivities`、`recentFiles`、`recentMeetings` 字段
+- 🔄 **实时同步增强**：添加会议表实时订阅，优化数据更新策略（数据变化时重新加载全部数据以确保一致性）
+- 🎨 **UI 优化**：
+  - 待办事项：优先级标签、截止日期倒计时、状态标识
+  - 截止日期：类型标签（任务/材料/选校）、紧急标识、日期格式化
+  - 活动时间线：图标区分类型、时间格式化、点击跳转
+  - 最近文件：文件类型、上传时间、下载按钮
+  - 会议记录：会议类型、参会人、会议链接
+
+### 2025-01-22: 学生端申请进度中心实现
+
+- ✅ **创建申请进度服务层**：`studentApplicationProgressService.ts`，提供申请进度数据查询（只读）
+- ✅ **阶段进度可视化**：
+  - 7 个申请阶段的可视化进度条（背景评估→选校规划→材料准备→提交申请→面试阶段→录取决定→签证办理）
+  - 当前阶段高亮显示，已完成阶段渐变蓝色，未开始阶段灰色
+  - 阶段阻塞原因提示（如"材料完成度不足"、"尚未提交任何申请"等）
+  - 进度百分比计算和显示
+- ✅ **申请档案查看**：
+  - 基本信息：姓名、邮箱、电话、地址
+  - 教育背景：本科/硕士学校、专业、GPA
+  - 标化成绩：IELTS、TOEFL、GRE、GMAT、CET4、CET6 等，支持显示总分和小分
+  - 考试账号：支持显示/隐藏密码，保护敏感信息
+- ✅ **申请统计**：
+  - 总申请数量
+  - 申请状态分布：未投递/已投递/审核中/已录取/已拒绝/Waitlist
+  - 录取率计算（已出结果的申请中，已录取的比例）
+  - 申请类型分布：冲刺/目标/保底
+- ✅ **选校列表预览**：显示选校信息、申请类型、投递状态、申请账号（支持密码显示/隐藏）
+- 🔗 **数据来源**：`student_profile`、`final_university_choices`、`application_documents_checklist` 表
+- 🎨 **UI/UX 设计**：
+  - 响应式布局（左右分栏）
+  - 加载状态和错误处理
+  - 空状态友好提示
+  - 密码保护（默认隐藏，点击显示）
+- 🚀 **路由配置**：`/student/application-progress`
 
 - ✅ 爬虫新增对 `div.location` 模块的解析，精准识别办公室位置、电话与官网链接
 - ✅ 针对邮箱采用智能推断：优先读取页面文本，其次根据个人主页 `~username` 自动生成 `username@comp.nus.edu.sg`

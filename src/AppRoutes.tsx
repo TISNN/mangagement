@@ -75,6 +75,7 @@ import { KnowledgeModerationPage } from './pages/admin/KnowledgeModeration';
 import { CloudDocsHomePage } from './pages/admin/CloudDocsHome';
 import { CloudDocsDrivePage } from './pages/admin/CloudDocsDrive';
 import { CloudDocsKnowledgePage } from './pages/admin/CloudDocsKnowledge';
+import { CloudDocumentEditorPage } from './pages/admin/CloudDocsDocument';
 import FinanceSuitePage from './pages/admin/FinanceSuite/FinanceSuitePage';
 import { InstitutionIntroductionPage } from './pages/admin/InstitutionIntroduction';
 import { PlacementAssessmentPage } from './pages/admin/EducationTraining/PlacementAssessment';
@@ -97,6 +98,19 @@ import {
   RecruitmentInterviewCenterPage,
   StaffDetailPage,
 } from './pages/admin/InternalManagement';
+import StudentLayout from './pages/student/StudentLayout';
+import StudentDashboard from './pages/student/StudentDashboard';
+import DataAnalytics from './pages/student/DataAnalytics';
+import ApplicationProgressPage from './pages/student/ApplicationProgressPage';
+import MaterialsCenter from './pages/student/MaterialsCenter';
+import InternshipPage from './pages/student/InternshipPage';
+import InternshipDetailPage from './pages/student/InternshipDetailPage';
+import ReferralDetailPage from './pages/student/ReferralDetailPage';
+import SchoolSelectionPage from './pages/student/SchoolSelectionPage';
+import CompetitionPage from './pages/student/CompetitionPage';
+import CompetitionDetailPage from './pages/student/CompetitionDetailPage';
+import Community from './pages/student/Community';
+import LearningResources from './pages/student/LearningResources';
 
 // 导入路由保护组件
 import { PrivateRoute } from './components/PrivateRoute';
@@ -182,6 +196,8 @@ const AppRoutes: React.FC = () => {
         <Route path="cloud-docs/home" element={<CloudDocsHomePage />} />
         <Route path="cloud-docs/drive" element={<CloudDocsDrivePage />} />
         <Route path="cloud-docs/knowledge" element={<CloudDocsKnowledgePage />} />
+        <Route path="cloud-docs/documents/new" element={<CloudDocumentEditorPage />} />
+        <Route path="cloud-docs/documents/:id" element={<CloudDocumentEditorPage />} />
         <Route path="knowledge-hub" element={<Navigate to="/admin/knowledge-hub/workspace" replace />} />
         <Route path="knowledge-hub/workspace" element={<KnowledgeHubWorkspacePage />} />
         <Route path="knowledge-hub/market" element={<KnowledgeHubMarketPage />} />
@@ -235,6 +251,31 @@ const AppRoutes: React.FC = () => {
         <Route path="program-detail/:programId" element={<ProgramDetailPageNew />} />
         
         <Route path="settings" element={<SettingsPage />} />
+      </Route>
+
+      {/* 学生系统路由 */}
+      <Route
+        path="/student"
+        element={
+          <AuthProvider>
+            <PrivateRoute>
+              <StudentLayout />
+            </PrivateRoute>
+          </AuthProvider>
+        }
+      >
+        <Route index element={<StudentDashboard />} />
+        <Route path="analytics" element={<DataAnalytics />} />
+        <Route path="application-progress" element={<ApplicationProgressPage />} />
+        <Route path="materials" element={<MaterialsCenter />} />
+        <Route path="internships" element={<InternshipPage />} />
+        <Route path="internships/:id" element={<InternshipDetailPage />} />
+        <Route path="referrals/:id" element={<ReferralDetailPage />} />
+        <Route path="school-selection" element={<SchoolSelectionPage />} />
+        <Route path="competitions" element={<CompetitionPage />} />
+        <Route path="competitions/:id" element={<CompetitionDetailPage />} />
+        <Route path="community" element={<Community />} />
+        <Route path="resources" element={<LearningResources />} />
       </Route>
 
 

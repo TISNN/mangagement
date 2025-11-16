@@ -161,29 +161,27 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({
       className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden border border-gray-100 dark:border-gray-700 hover:shadow-lg transition-all cursor-pointer"
       onClick={() => onView(resource.id)}
     >
-      {/* 缩略图 */}
-      {resource.thumbnailUrl && (
-        <div className="h-40 relative">
-          <img 
-            src={resource.thumbnailUrl} 
-            alt={resource.title} 
-            className="w-full h-full object-cover"
-          />
-          {resource.type === 'video' && (
-            <div className="absolute inset-0 flex items-center justify-center bg-black/30">
-              <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
-                <Video className="h-6 w-6 text-blue-600" />
-              </div>
+      {/* 缩略图 - 始终显示，如果没有上传则显示自动生成的默认封面图 */}
+      <div className="h-40 relative">
+        <img 
+          src={resource.thumbnailUrl} 
+          alt={resource.title} 
+          className="w-full h-full object-cover"
+        />
+        {resource.type === 'video' && (
+          <div className="absolute inset-0 flex items-center justify-center bg-black/30">
+            <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
+              <Video className="h-6 w-6 text-blue-600" />
             </div>
-          )}
-          {resource.isFeatured && (
-            <div className="absolute top-3 left-3 bg-yellow-400 text-yellow-900 px-2 py-1 rounded-lg text-xs font-medium flex items-center gap-1">
-              <Star className="h-3 w-3 fill-current" />
-              精选资源
-            </div>
-          )}
-        </div>
-      )}
+          </div>
+        )}
+        {resource.isFeatured && (
+          <div className="absolute top-3 left-3 bg-yellow-400 text-yellow-900 px-2 py-1 rounded-lg text-xs font-medium flex items-center gap-1">
+            <Star className="h-3 w-3 fill-current" />
+            精选资源
+          </div>
+        )}
+      </div>
 
       {/* 内容 */}
       <div className="p-5">

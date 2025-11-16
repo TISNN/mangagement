@@ -3,12 +3,13 @@
  * 用于创建和编辑知识库资源
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { X, Upload, Plus, Tag as TagIcon, Image as ImageIcon, File as FileIcon } from 'lucide-react';
 import { KnowledgeResourceFormData, ResourceType, ResourceStatus } from '../../types/knowledge.types';
-import { RESOURCE_TYPE_CONFIG, RESOURCE_CATEGORIES, DEFAULT_THUMBNAILS } from '../../utils/knowledgeConstants';
+import { RESOURCE_TYPE_CONFIG, RESOURCE_CATEGORIES } from '../../utils/knowledgeConstants';
 import { uploadFile, uploadThumbnail, formatFileSize, validateFileSize } from '../../../../../services/storageService';
 import SimpleEditorWrapper from '../../../../../components/SimpleEditorWrapper';
+import { getDefaultThumbnail } from '../../utils/generateThumbnail';
 
 interface ResourceFormModalProps {
   isOpen: boolean;
@@ -43,13 +44,93 @@ export const ResourceFormModal: React.FC<ResourceFormModalProps> = ({
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [selectedThumbnail, setSelectedThumbnail] = useState<File | null>(null);
   const [thumbnailPreview, setThumbnailPreview] = useState<string>('');
+  
+  // 编辑模式下保留原有的文件URL和封面图URL
+  const [originalFileUrl, setOriginalFileUrl] = useState<string>('');
+  const [originalThumbnailUrl, setOriginalThumbnailUrl] = useState<string>('');
+  const [originalTitle, setOriginalTitle] = useState<string>(''); // 保存原始标题，用于判断标题是否变化
+  
+  // 从URL中提取文件名
+  const extractFileName = (url: string): string => {
+    if (!url) return '';
+    try {
+      // 尝试从URL中提取文件名
+      const urlObj = new URL(url);
+      const pathname = urlObj.pathname;
+      // 获取路径的最后一部分作为文件名
+      const fileName = pathname.split('/').pop() || '';
+      // 如果文件名包含查询参数，去掉
+      return fileName.split('?')[0] || '文件';
+    } catch {
+      // 如果不是有效的URL，尝试直接提取文件名
+      const parts = url.split('/');
+      const fileName = parts[parts.length - 1] || '文件';
+      return fileName.split('?')[0] || '文件';
+    }
+  };
+  
+  // 拖拽状态
+  const [isDraggingFile, setIsDraggingFile] = useState(false);
+  const [isDraggingThumbnail, setIsDraggingThumbnail] = useState(false);
+
+  // 重置表单函数
+  const resetForm = useCallback(() => {
+    setFormData({
+      title: '',
+      type: 'document',
+      category: '申请指南',
+      description: '',
+      content: '',
+      tags: [],
+      isFeatured: false,
+      status: 'published'
+    });
+    setTagInput('');
+    setSelectedFile(null);
+    setSelectedThumbnail(null);
+    setThumbnailPreview('');
+    setIsDraggingFile(false);
+    setIsDraggingThumbnail(false);
+    setUploadProgress('');
+    setOriginalFileUrl('');
+    setOriginalThumbnailUrl('');
+    setOriginalTitle('');
+  }, []);
 
   // 初始化表单数据
   useEffect(() => {
-    if (initialData) {
-      setFormData(prev => ({ ...prev, ...initialData }));
+    if (isOpen) {
+      if (initialData && mode === 'edit') {
+        // 编辑模式：使用传入的初始数据
+        setFormData(prev => ({ ...prev, ...initialData }));
+        // 保存原有的文件URL和封面图URL
+        setOriginalFileUrl((initialData as any).fileUrl || '');
+        setOriginalThumbnailUrl((initialData as any).thumbnailUrl || '');
+        // 保存原始标题，用于判断标题是否变化
+        setOriginalTitle(initialData.title || '');
+        // 编辑模式下不设置 thumbnailPreview，让系统根据标题生成默认封面图
+        // 如果用户想保留原有封面图，可以重新上传
+        setThumbnailPreview('');
+      } else if (mode === 'create') {
+        // 创建模式：重置表单
+        resetForm();
+        setOriginalFileUrl('');
+        setOriginalThumbnailUrl('');
+      }
     }
-  }, [initialData]);
+  }, [isOpen, initialData, mode, resetForm]);
+
+  // 当模态框关闭时重置拖拽状态和表单（仅创建模式）
+  useEffect(() => {
+    if (!isOpen && mode === 'create') {
+      // 创建模式下，关闭窗口时重置表单
+      resetForm();
+    } else if (!isOpen) {
+      // 其他情况下只重置拖拽状态
+      setIsDraggingFile(false);
+      setIsDraggingThumbnail(false);
+    }
+  }, [isOpen, mode, resetForm]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -60,7 +141,9 @@ export const ResourceFormModal: React.FC<ResourceFormModalProps> = ({
     }
 
     // 验证文件上传（非文章类型需要文件或链接）
-    if (formData.type !== 'article' && !selectedFile && !formData.content) {
+    // 在编辑模式下，如果没有重新上传文件，检查是否有原有文件URL
+    const hasFile = selectedFile || formData.content || (mode === 'edit' && originalFileUrl);
+    if (formData.type !== 'article' && !hasFile) {
       if (!confirm('没有上传文件，是否继续？资源将没有可下载的内容。')) {
         return;
       }
@@ -74,6 +157,7 @@ export const ResourceFormModal: React.FC<ResourceFormModalProps> = ({
       let fileSize = '';
       
       if (selectedFile) {
+        // 用户重新上传了文件
         setUploadProgress('正在上传文件...');
         const uploadedUrl = await uploadFile(selectedFile, `${formData.type}/`);
         
@@ -86,24 +170,39 @@ export const ResourceFormModal: React.FC<ResourceFormModalProps> = ({
         
         fileUrl = uploadedUrl;
         fileSize = formatFileSize(selectedFile.size);
+      } else if (mode === 'edit' && originalFileUrl) {
+        // 编辑模式：如果没有重新上传文件，保留原有文件URL
+        fileUrl = originalFileUrl;
+        fileSize = (formData as any).fileSize || '';
       }
 
       // 2. 上传缩略图
       let thumbnailUrl = '';
       
       if (selectedThumbnail) {
+        // 用户重新上传了封面图
         setUploadProgress('正在上传封面图...');
         const uploadedThumbnail = await uploadThumbnail(selectedThumbnail);
         
         if (uploadedThumbnail) {
           thumbnailUrl = uploadedThumbnail;
         }
+      } else if (mode === 'edit') {
+        // 编辑模式：检查标题是否变化
+        const titleChanged = formData.title.trim() !== originalTitle.trim();
+        
+        if (titleChanged) {
+          // 标题变化了，生成基于新标题的默认封面图
+          thumbnailUrl = getDefaultThumbnail(formData.title);
+        } else if (originalThumbnailUrl) {
+          // 标题没变化，保留原有封面图URL
+          thumbnailUrl = originalThumbnailUrl;
+        }
+        // 如果标题没变化且没有原有封面图，thumbnailUrl 保持为空，显示时会自动生成
       }
       
-      // 如果没有上传缩略图，使用默认图
-      if (!thumbnailUrl) {
-        thumbnailUrl = DEFAULT_THUMBNAILS[formData.type];
-      }
+      // 如果没有上传缩略图且不是编辑模式，不设置 thumbnailUrl（留空）
+      // 在显示时会自动生成黑色背景+白色标题文字的默认封面图
 
       setUploadProgress('正在保存资源...');
 
@@ -121,21 +220,11 @@ export const ResourceFormModal: React.FC<ResourceFormModalProps> = ({
       const success = await onSubmit(dataToSubmit);
       
       if (success) {
+        // 创建模式下，提交成功后重置表单
+        if (mode === 'create') {
+          resetForm();
+        }
         onClose();
-        // 重置表单
-        setFormData({
-          title: '',
-          type: 'document',
-          category: '申请指南',
-          description: '',
-          content: '',
-          tags: [],
-          isFeatured: false,
-          status: 'published'
-        });
-        setSelectedFile(null);
-        setSelectedThumbnail(null);
-        setThumbnailPreview('');
       }
     } catch (error) {
       console.error('提交失败:', error);
@@ -167,12 +256,36 @@ export const ResourceFormModal: React.FC<ResourceFormModalProps> = ({
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (file) {
-      // 验证文件大小（最大100MB）
-      if (!validateFileSize(file, 100)) {
-        alert('文件大小不能超过 100MB');
-        return;
-      }
-      setSelectedFile(file);
+      processFile(file);
+    }
+  };
+
+  // 处理文件（统一处理逻辑）
+  const processFile = (file: File) => {
+    // 验证文件大小（最大100MB）
+    if (!validateFileSize(file, 100)) {
+      alert('文件大小不能超过 100MB');
+      return;
+    }
+    setSelectedFile(file);
+    
+    // 如果标题为空，自动使用文件名（去掉扩展名）作为标题
+    const shouldUpdateTitle = !formData.title.trim();
+    if (shouldUpdateTitle) {
+      const fileName = file.name;
+      // 去掉文件扩展名
+      const nameWithoutExtension = fileName.replace(/\.[^/.]+$/, '');
+      setFormData(prev => ({
+        ...prev,
+        title: nameWithoutExtension
+      }));
+    }
+    
+    // 创建模式下，每次文件上传或重新上传时，清除封面图，让系统重新生成默认封面图
+    // 编辑模式下，保留原有的封面图，除非用户主动重新上传
+    if (mode === 'create') {
+      setSelectedThumbnail(null);
+      setThumbnailPreview('');
     }
   };
 
@@ -180,20 +293,82 @@ export const ResourceFormModal: React.FC<ResourceFormModalProps> = ({
   const handleThumbnailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (file) {
-      // 验证文件大小（最大5MB）
-      if (!validateFileSize(file, 5)) {
-        alert('封面图大小不能超过 5MB');
-        return;
-      }
-      
-      setSelectedThumbnail(file);
-      
-      // 生成预览
-      const reader = new FileReader();
-      reader.onloadend = () => {
-        setThumbnailPreview(reader.result as string);
-      };
-      reader.readAsDataURL(file);
+      processThumbnail(file);
+    }
+  };
+
+  // 处理封面图（统一处理逻辑）
+  const processThumbnail = (file: File) => {
+    // 验证文件大小（最大5MB）
+    if (!validateFileSize(file, 5)) {
+      alert('封面图大小不能超过 5MB');
+      return;
+    }
+    
+    // 验证文件类型
+    const validTypes = ['image/jpeg', 'image/png', 'image/gif', 'image/webp'];
+    if (!validTypes.includes(file.type)) {
+      alert('封面图格式不支持，请上传 JPEG、PNG、GIF 或 WebP 格式的图片');
+      return;
+    }
+    
+    setSelectedThumbnail(file);
+    
+    // 生成预览
+    const reader = new FileReader();
+    reader.onloadend = () => {
+      setThumbnailPreview(reader.result as string);
+    };
+    reader.readAsDataURL(file);
+  };
+
+  // 文件拖拽处理
+  const handleFileDragOver = (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDraggingFile(true);
+  };
+
+  const handleFileDragLeave = (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDraggingFile(false);
+  };
+
+  const handleFileDrop = (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDraggingFile(false);
+
+    const files = e.dataTransfer.files;
+    if (files.length > 0) {
+      const file = files[0];
+      processFile(file);
+    }
+  };
+
+  // 封面图拖拽处理
+  const handleThumbnailDragOver = (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDraggingThumbnail(true);
+  };
+
+  const handleThumbnailDragLeave = (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDraggingThumbnail(false);
+  };
+
+  const handleThumbnailDrop = (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDraggingThumbnail(false);
+
+    const files = e.dataTransfer.files;
+    if (files.length > 0) {
+      const file = files[0];
+      processThumbnail(file);
     }
   };
 
@@ -307,7 +482,16 @@ export const ResourceFormModal: React.FC<ResourceFormModalProps> = ({
                 <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                   上传文件 {RESOURCE_TYPE_CONFIG[formData.type].acceptFiles && `(支持格式: ${RESOURCE_TYPE_CONFIG[formData.type].acceptFiles})`}
                 </label>
-                <div className="border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-xl p-6 text-center hover:border-blue-500 dark:hover:border-blue-400 transition-colors">
+                <div 
+                  className={`border-2 border-dashed rounded-xl p-6 text-center transition-colors ${
+                    isDraggingFile 
+                      ? 'border-blue-500 dark:border-blue-400 bg-blue-50 dark:bg-blue-900/20' 
+                      : 'border-gray-300 dark:border-gray-600 hover:border-blue-500 dark:hover:border-blue-400'
+                  }`}
+                  onDragOver={handleFileDragOver}
+                  onDragLeave={handleFileDragLeave}
+                  onDrop={handleFileDrop}
+                >
                   <input
                     type="file"
                     id="file-upload"
@@ -324,10 +508,21 @@ export const ResourceFormModal: React.FC<ResourceFormModalProps> = ({
                         <div className="text-sm">
                           <p className="font-medium text-gray-900 dark:text-white">{selectedFile.name}</p>
                           <p className="text-gray-500 dark:text-gray-400">{formatFileSize(selectedFile.size)}</p>
+                          <p className="text-xs text-blue-600 dark:text-blue-400 mt-1">新上传的文件</p>
+                        </div>
+                      ) : originalFileUrl && mode === 'edit' ? (
+                        <div className="text-sm">
+                          <p className="font-medium text-gray-900 dark:text-white truncate max-w-[200px]" title={extractFileName(originalFileUrl)}>
+                            {extractFileName(originalFileUrl)}
+                          </p>
+                          <p className="text-gray-500 dark:text-gray-400">{(formData as any).fileSize || '文件已上传'}</p>
+                          <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">重新上传将替换现有文件</p>
                         </div>
                       ) : (
                         <div className="text-sm">
-                          <p className="font-medium text-gray-700 dark:text-gray-300">点击选择文件上传</p>
+                          <p className="font-medium text-gray-700 dark:text-gray-300">
+                            {isDraggingFile ? '松开鼠标以上传文件' : '点击选择或拖拽文件到此处上传'}
+                          </p>
                           <p className="text-gray-500 dark:text-gray-400">最大 100MB</p>
                         </div>
                       )}
@@ -347,7 +542,16 @@ export const ResourceFormModal: React.FC<ResourceFormModalProps> = ({
               </label>
               <div className="grid grid-cols-2 gap-4">
                 {/* 上传区域 */}
-                <div className="border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-xl p-4 text-center hover:border-purple-500 dark:hover:border-purple-400 transition-colors">
+                <div 
+                  className={`border-2 border-dashed rounded-xl p-4 text-center transition-colors ${
+                    isDraggingThumbnail 
+                      ? 'border-purple-500 dark:border-purple-400 bg-purple-50 dark:bg-purple-900/20' 
+                      : 'border-gray-300 dark:border-gray-600 hover:border-purple-500 dark:hover:border-purple-400'
+                  }`}
+                  onDragOver={handleThumbnailDragOver}
+                  onDragLeave={handleThumbnailDragLeave}
+                  onDrop={handleThumbnailDrop}
+                >
                   <input
                     type="file"
                     id="thumbnail-upload"
@@ -364,10 +568,18 @@ export const ResourceFormModal: React.FC<ResourceFormModalProps> = ({
                         <div className="text-xs">
                           <p className="font-medium text-gray-900 dark:text-white truncate max-w-[120px]">{selectedThumbnail.name}</p>
                           <p className="text-gray-500 dark:text-gray-400">{formatFileSize(selectedThumbnail.size)}</p>
+                          <p className="text-xs text-blue-600 dark:text-blue-400 mt-1">新上传的封面图</p>
+                        </div>
+                      ) : originalThumbnailUrl && mode === 'edit' ? (
+                        <div className="text-xs">
+                          <p className="font-medium text-gray-900 dark:text-white">已存在封面图</p>
+                          <p className="text-gray-500 dark:text-gray-400">重新上传将替换</p>
                         </div>
                       ) : (
                         <div className="text-xs">
-                          <p className="font-medium text-gray-700 dark:text-gray-300">点击上传</p>
+                          <p className="font-medium text-gray-700 dark:text-gray-300">
+                            {isDraggingThumbnail ? '松开鼠标以上传' : '点击或拖拽上传'}
+                          </p>
                           <p className="text-gray-500 dark:text-gray-400">最大 5MB</p>
                         </div>
                       )}
@@ -377,19 +589,38 @@ export const ResourceFormModal: React.FC<ResourceFormModalProps> = ({
 
                 {/* 预览区域 */}
                 <div className="border border-gray-300 dark:border-gray-600 rounded-xl p-2 flex items-center justify-center bg-gray-50 dark:bg-gray-700 min-h-[120px]">
-                  {(thumbnailPreview || DEFAULT_THUMBNAILS[formData.type]) ? (
+                  {thumbnailPreview ? (
+                    // 用户新上传的封面图预览
                     <img
-                      src={thumbnailPreview || DEFAULT_THUMBNAILS[formData.type]}
+                      src={thumbnailPreview}
                       alt="预览"
                       className="w-full h-full object-cover rounded-lg max-h-[110px]"
                     />
+                  ) : selectedThumbnail ? (
+                    // 用户选择了新封面图但预览还未生成（不应该出现，但作为备用）
+                    <p className="text-xs text-gray-500 dark:text-gray-400">正在生成预览...</p>
+                  ) : formData.title ? (
+                    // 根据当前标题生成默认封面图（标题变化时会自动更新）
+                    <img
+                      key={formData.title} // 使用标题作为 key，标题变化时会自动重新渲染
+                      src={getDefaultThumbnail(formData.title)}
+                      alt="默认封面预览"
+                      className="w-full h-full object-cover rounded-lg max-h-[110px]"
+                    />
+                  ) : originalThumbnailUrl && mode === 'edit' ? (
+                    // 编辑模式下，如果没有标题且没有上传封面图，显示原有封面图
+                    <img
+                      src={originalThumbnailUrl}
+                      alt="原有封面图"
+                      className="w-full h-full object-cover rounded-lg max-h-[110px]"
+                    />
                   ) : (
-                    <p className="text-xs text-gray-500 dark:text-gray-400">封面预览</p>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">请输入标题以预览默认封面图</p>
                   )}
                 </div>
               </div>
               <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-                💡 如果不上传，将使用{RESOURCE_TYPE_CONFIG[formData.type].label}类型的默认封面图
+                💡 如果不上传，将自动生成黑色背景+白色标题文字的默认封面图
               </p>
             </div>
 

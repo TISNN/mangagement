@@ -9,6 +9,7 @@ import {
   KnowledgeComment,
   UIKnowledgeComment 
 } from '../types/knowledge.types';
+import { getDefaultThumbnail } from './generateThumbnail';
 
 /**
  * 将数据库资源模型转换为 UI 资源模型
@@ -17,6 +18,9 @@ export function convertDbResourceToUiResource(
   dbResource: KnowledgeResource,
   isBookmarked: boolean = false
 ): UIKnowledgeResource {
+  // 如果没有封面图，自动生成默认封面图（黑色背景+白色标题文字）
+  const thumbnailUrl = dbResource.thumbnail_url || getDefaultThumbnail(dbResource.title);
+
   return {
     id: dbResource.id,
     title: dbResource.title,
@@ -26,7 +30,7 @@ export function convertDbResourceToUiResource(
     content: dbResource.content,
     fileUrl: dbResource.file_url,
     fileSize: dbResource.file_size,
-    thumbnailUrl: dbResource.thumbnail_url,
+    thumbnailUrl,
     authorId: dbResource.author_id,
     authorName: dbResource.author_name,
     tags: dbResource.tags || [],

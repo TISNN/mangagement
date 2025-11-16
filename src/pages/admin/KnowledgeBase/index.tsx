@@ -569,7 +569,10 @@ function KnowledgeBase() {
             content: editingResource.content,
             tags: editingResource.tags,
             isFeatured: editingResource.isFeatured,
-            status: editingResource.status
+            status: editingResource.status,
+            fileUrl: editingResource.fileUrl,
+            fileSize: editingResource.fileSize,
+            thumbnailUrl: editingResource.thumbnailUrl
           }}
           mode="edit"
         />
