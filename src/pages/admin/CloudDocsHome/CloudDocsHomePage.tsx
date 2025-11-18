@@ -28,6 +28,7 @@ import {
   removeDocumentFromCategory,
   getDocumentCategories,
   getOrCreateCategory,
+  updateDocumentStatus,
   type CloudDocument,
   type CloudDocumentStats,
   type CloudDocumentCategory,
@@ -316,6 +317,7 @@ const CloudDocsHomePage: React.FC = () => {
   const [showRemoveCategoryModal, setShowRemoveCategoryModal] = useState(false);
   const [documentToRemoveCategory, setDocumentToRemoveCategory] = useState<number | null>(null);
   const [isTemplateModalOpen, setTemplateModalOpen] = useState(false);
+  const [showStatusMenuId, setShowStatusMenuId] = useState<number | null>(null);
   const [showUploadModal, setShowUploadModal] = useState(false);
   const [uploading, setUploading] = useState(false);
   const [uploadProgress, setUploadProgress] = useState(0);
@@ -331,10 +333,15 @@ const CloudDocsHomePage: React.FC = () => {
   // 点击外部关闭菜单
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (!openMenuId) return;
-      const activeMenu = menuRefs.current[openMenuId];
-      if (activeMenu && !activeMenu.contains(event.target as Node)) {
-        setOpenMenuId(null);
+      if (!openMenuId && !showStatusMenuId) return;
+      
+      // 检查主菜单
+      if (openMenuId) {
+        const activeMenu = menuRefs.current[openMenuId];
+        if (activeMenu && !activeMenu.contains(event.target as Node)) {
+          setOpenMenuId(null);
+          setShowStatusMenuId(null);
+        }
       }
     };
 
@@ -342,7 +349,7 @@ const CloudDocsHomePage: React.FC = () => {
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, [openMenuId]);
+  }, [openMenuId, showStatusMenuId]);
 
   const loadData = async () => {
     setLoading(true);
@@ -424,8 +431,17 @@ const CloudDocsHomePage: React.FC = () => {
   const handleQuickAction = (actionId: string) => {
     switch (actionId) {
       case 'qa-create-doc': {
-        const studentIdParam = selectedStudentId ? `?studentId=${selectedStudentId}` : '';
-        navigate(`/admin/cloud-docs/documents/new${studentIdParam}`);
+        // 构建URL参数
+        const params = new URLSearchParams();
+        if (selectedStudentId) {
+          params.append('studentId', selectedStudentId.toString());
+        }
+        // 如果当前有选中的分类，传递分类ID
+        if (selectedCategoryId) {
+          params.append('categoryId', selectedCategoryId.toString());
+        }
+        const queryString = params.toString();
+        navigate(`/admin/cloud-docs/documents/new${queryString ? `?${queryString}` : ''}`);
         break;
       }
       case 'qa-upload':
@@ -517,6 +533,21 @@ const CloudDocsHomePage: React.FC = () => {
     } catch (error) {
       console.error('移除分类失败:', error);
       alert('移除分类失败: ' + (error as Error).message);
+    }
+  };
+
+  const handleUpdateStatus = async (docId: number, newStatus: 'draft' | 'published' | 'archived', e: React.MouseEvent) => {
+    e.stopPropagation();
+    setOpenMenuId(null);
+    setShowStatusMenuId(null);
+
+    try {
+      await updateDocumentStatus(docId, newStatus);
+      // 重新加载数据
+      await loadData();
+    } catch (error) {
+      console.error('更新文档状态失败:', error);
+      alert('更新文档状态失败: ' + (error as Error).message);
     }
   };
 
@@ -669,6 +700,17 @@ const CloudDocsHomePage: React.FC = () => {
 
       if (docError) {
         throw new Error(`创建文档记录失败: ${docError.message}`);
+      }
+
+      // 如果当前有选中的分类，自动将文档添加到该分类
+      if (documentData && selectedCategoryId) {
+        try {
+          await addDocumentToCategory(documentData.id, selectedCategoryId);
+          console.log('上传的文档已自动添加到分类:', selectedCategoryId);
+        } catch (categoryError) {
+          console.error('添加文档到分类失败:', categoryError);
+          // 不阻止主流程，只记录错误
+        }
       }
 
       setUploadProgress(100);
@@ -1443,8 +1485,57 @@ const CloudDocsHomePage: React.FC = () => {
                             <div className="absolute right-0 top-full mt-1 w-48 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 z-50 py-1">
                               {(() => {
                                 const docCategories = documentCategoriesMap.get(doc.id) || [];
+                                const currentStatus = doc.status;
                                 return (
                                   <>
+                                    {/* 修改状态选项 */}
+                                    <div className="relative">
+                                      <button
+                                        onClick={(e) => {
+                                          e.stopPropagation();
+                                          setShowStatusMenuId(showStatusMenuId === doc.id ? null : doc.id);
+                                        }}
+                                        className="w-full px-4 py-2 text-left text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700 flex items-center justify-between transition-colors"
+                                      >
+                                        <span className="flex items-center gap-2">
+                                          <FileText className="h-4 w-4" />
+                                          修改状态
+                                        </span>
+                                        <span className={`text-xs px-2 py-0.5 rounded-full ${statusBadgeMap[formatDocumentStatus(currentStatus)]}`}>
+                                          {formatDocumentStatus(currentStatus)}
+                                        </span>
+                                      </button>
+                                      {/* 状态子菜单 */}
+                                      {showStatusMenuId === doc.id && (
+                                        <div className="absolute left-full top-0 ml-1 w-40 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 z-50 py-1">
+                                          {currentStatus !== 'draft' && (
+                                            <button
+                                              onClick={(e) => handleUpdateStatus(doc.id, 'draft', e)}
+                                              className="w-full px-4 py-2 text-left text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors"
+                                            >
+                                              草稿
+                                            </button>
+                                          )}
+                                          {currentStatus !== 'published' && (
+                                            <button
+                                              onClick={(e) => handleUpdateStatus(doc.id, 'published', e)}
+                                              className="w-full px-4 py-2 text-left text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors"
+                                            >
+                                              进行中
+                                            </button>
+                                          )}
+                                          {currentStatus !== 'archived' && (
+                                            <button
+                                              onClick={(e) => handleUpdateStatus(doc.id, 'archived', e)}
+                                              className="w-full px-4 py-2 text-left text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors"
+                                            >
+                                              已归档
+                                            </button>
+                                          )}
+                                        </div>
+                                      )}
+                                    </div>
+                                    <div className="my-1 border-t border-gray-200 dark:border-gray-700"></div>
                                     {docCategories.length > 0 && (
                                       <button
                                         onClick={(e) => handleOpenRemoveCategoryModal(doc.id, e)}
@@ -1454,6 +1545,7 @@ const CloudDocsHomePage: React.FC = () => {
                                         移除分类
                                       </button>
                                     )}
+                                    <div className="my-1 border-t border-gray-200 dark:border-gray-700"></div>
                                     <button
                                       onClick={(e) => handleDeleteDocument(doc.id, e)}
                                       className="w-full px-4 py-2 text-left text-sm text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 flex items-center gap-2 transition-colors"

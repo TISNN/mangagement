@@ -217,7 +217,7 @@ const StudentManagementPage: React.FC = () => {
               onClick={() => navigate('/admin/students-legacy')}
               className="text-xs text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition-colors"
             >
-              ← 学生管理总览
+              ← 学生总览
             </button>
             <span className="text-xs text-gray-400 dark:text-gray-500">|</span>
             <button

@@ -538,6 +538,29 @@ export async function updateLastAccessedAt(id: number): Promise<void> {
 }
 
 /**
+ * 更新文档状态
+ */
+export async function updateDocumentStatus(
+  id: number,
+  status: 'draft' | 'published' | 'archived'
+): Promise<void> {
+  try {
+    const { error } = await supabase
+      .from('cloud_documents')
+      .update({ 
+        status,
+        updated_at: new Date().toISOString()
+      })
+      .eq('id', id);
+
+    if (error) throw error;
+  } catch (error) {
+    console.error('更新文档状态失败:', error);
+    throw error;
+  }
+}
+
+/**
  * 删除文档
  */
 export async function deleteDocument(id: number): Promise<void> {

@@ -20,7 +20,11 @@ import { supabase } from '../../../lib/supabase';
 import DocumentEditor from '../../../components/DocumentEditor';
 import DocumentSelector from '../../../components/DocumentSelector';
 import DocumentAnnotationPanel from '../../../components/DocumentAnnotationPanel';
-import { getAllDocuments, type CloudDocument } from '../../../services/cloudDocumentService';
+import { 
+  getAllDocuments, 
+  addDocumentToCategory,
+  type CloudDocument 
+} from '../../../services/cloudDocumentService';
 
 export default function CloudDocumentEditorPage() {
   const { id } = useParams<{ id: string }>();
@@ -40,6 +44,9 @@ export default function CloudDocumentEditorPage() {
   const [selectedStudentId, setSelectedStudentId] = useState<number | null>(null);
   const [students, setStudents] = useState<Array<{ id: number; name: string }>>([]);
   const [loadingStudents, setLoadingStudents] = useState(false);
+
+  // 分类关联（从URL参数获取）
+  const [defaultCategoryId, setDefaultCategoryId] = useState<number | null>(null);
 
   // 批注相关状态
   const [showAnnotationPanel, setShowAnnotationPanel] = useState(false);
@@ -75,11 +82,16 @@ export default function CloudDocumentEditorPage() {
     }
   }, []);
 
-  // 从URL参数获取studentId
+  // 从URL参数获取studentId和categoryId
   useEffect(() => {
     const studentIdParam = searchParams.get('studentId');
     if (studentIdParam) {
       setSelectedStudentId(parseInt(studentIdParam));
+    }
+    
+    const categoryIdParam = searchParams.get('categoryId');
+    if (categoryIdParam) {
+      setDefaultCategoryId(parseInt(categoryIdParam));
     }
   }, [searchParams]);
 
@@ -252,6 +264,17 @@ export default function CloudDocumentEditorPage() {
         setSecondTitle('无标题文档');
         setSecondContent('');
         setSecondLastSaved(new Date());
+        
+        // 如果指定了默认分类，自动将文档添加到该分类
+        if (defaultCategoryId) {
+          try {
+            await addDocumentToCategory(data.id, defaultCategoryId);
+            console.log('文档已自动添加到分类:', defaultCategoryId);
+          } catch (categoryError) {
+            console.error('添加文档到分类失败:', categoryError);
+            // 不阻止主流程，只记录错误
+          }
+        }
       }
     } catch (error) {
       console.error('创建新文档失败:', error);
@@ -356,6 +379,17 @@ export default function CloudDocumentEditorPage() {
           setDocumentId(data.id);
           // 更新URL但不刷新页面
           window.history.replaceState({}, '', `/admin/cloud-docs/documents/${data.id}`);
+          
+          // 如果指定了默认分类，自动将文档添加到该分类
+          if (defaultCategoryId) {
+            try {
+              await addDocumentToCategory(data.id, defaultCategoryId);
+              console.log('文档已自动添加到分类:', defaultCategoryId);
+            } catch (categoryError) {
+              console.error('添加文档到分类失败:', categoryError);
+              // 不阻止主流程，只记录错误
+            }
+          }
         }
       }
     } catch (error) {

@@ -29,11 +29,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-black text-white">
+    <div className="min-h-screen flex flex-col bg-white text-gray-900">
       {/* 导航栏 */}
       <header 
         className={`fixed w-full top-0 z-50 transition-all duration-300 ${
-          isScrolled ? 'bg-black/50 backdrop-blur-lg' : 'bg-transparent'
+          isScrolled ? 'bg-white/95 backdrop-blur-lg shadow-sm' : 'bg-transparent'
         }`}
       >
         <div className="container mx-auto px-4">
@@ -41,7 +41,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             {/* Logo */}
             <Link 
               to="/" 
-              className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent hover:opacity-80 transition-opacity font-['Orbitron']"
+              className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent hover:opacity-80 transition-opacity font-['Orbitron']"
             >
               Infinite.ai
             </Link>
@@ -59,14 +59,14 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                   key={item.path}
                   to={item.path}
                   className={`relative text-sm font-medium transition-colors ${
-                    isActive(item.path) ? 'text-white' : 'text-gray-400 hover:text-white'
+                    isActive(item.path) ? 'text-blue-600' : 'text-gray-600 hover:text-gray-900'
                   }`}
                 >
                   {item.text}
                   {isActive(item.path) && (
                     <motion.div
                       layoutId="underline"
-                      className="absolute left-0 right-0 h-0.5 bg-gradient-to-r from-blue-400 to-purple-400 bottom-0"
+                      className="absolute left-0 right-0 h-0.5 bg-gradient-to-r from-blue-600 to-blue-500 bottom-0"
                     />
                   )}
                 </Link>
@@ -79,7 +79,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleTryClick}
-                className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-6 py-2 rounded-full text-sm font-medium hover:from-blue-600 hover:to-purple-600 transition-all duration-300"
+                className="bg-gradient-to-r from-blue-600 to-blue-500 text-white px-6 py-2 rounded-full text-sm font-medium hover:from-blue-700 hover:to-blue-600 transition-all duration-300 shadow-md"
               >
                 免费试用
               </motion.button>
@@ -87,7 +87,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
             {/* 移动端菜单按钮 */}
             <motion.button 
-              className="md:hidden p-2 text-white"
+              className="md:hidden p-2 text-gray-900"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               whileTap={{ scale: 0.9 }}
             >
@@ -110,7 +110,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 animate={{ opacity: 1, height: 'auto' }}
                 exit={{ opacity: 0, height: 0 }}
                 transition={{ duration: 0.3 }}
-                className="md:hidden overflow-hidden bg-black/50 backdrop-blur-lg rounded-2xl mt-2"
+                className="md:hidden overflow-hidden bg-white shadow-lg rounded-2xl mt-2 border border-gray-200"
               >
                 <nav className="flex flex-col space-y-4 p-6">
                   {[
@@ -124,8 +124,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                       key={item.path}
                       to={item.path}
                       className={`${
-                        isActive(item.path) ? 'text-white' : 'text-gray-400'
-                      } font-medium hover:text-white transition-colors`}
+                        isActive(item.path) ? 'text-blue-600' : 'text-gray-600'
+                      } font-medium hover:text-gray-900 transition-colors`}
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
                       {item.text}
@@ -137,7 +137,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                       handleTryClick();
                       setIsMobileMenuOpen(false);
                     }}
-                    className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-6 py-3 rounded-full text-sm font-medium hover:from-blue-600 hover:to-purple-600 transition-all duration-300 w-full"
+                    className="bg-gradient-to-r from-blue-600 to-blue-500 text-white px-6 py-3 rounded-full text-sm font-medium hover:from-blue-700 hover:to-blue-600 transition-all duration-300 w-full shadow-md"
                   >
                     免费试用
                   </motion.button>
@@ -157,43 +157,43 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       </main>
 
       {/* 页脚 */}
-      <footer className="bg-black/50 backdrop-blur-lg text-white py-16 border-t border-white/5">
+      <footer className="bg-gray-50 text-gray-900 py-16 border-t border-gray-200">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
             {/* 公司信息 */}
             <div>
-              <h3 className="text-lg font-semibold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">关于Infinite.ai</h3>
-              <p className="text-gray-400 leading-relaxed">
+              <h3 className="text-lg font-semibold mb-6 bg-gradient-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent">关于Infinite.ai</h3>
+              <p className="text-gray-600 leading-relaxed">
                 AI驱动的留学全周期服务平台，让留学申请更智能、更高效。
               </p>
             </div>
 
             {/* 快速链接 */}
             <div>
-              <h3 className="text-lg font-semibold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">快速链接</h3>
+              <h3 className="text-lg font-semibold mb-6 bg-gradient-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent">快速链接</h3>
               <ul className="space-y-4">
                 <li>
-                  <Link to="/" className="text-gray-400 hover:text-white transition-colors">
+                  <Link to="/" className="text-gray-600 hover:text-gray-900 transition-colors">
                     主页
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about" className="text-gray-400 hover:text-white transition-colors">
+                  <Link to="/about" className="text-gray-600 hover:text-gray-900 transition-colors">
                     关于我们
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services" className="text-gray-400 hover:text-white transition-colors">
+                  <Link to="/services" className="text-gray-600 hover:text-gray-900 transition-colors">
                     服务项目
                   </Link>
                 </li>
                 <li>
-                  <Link to="/pricing" className="text-gray-400 hover:text-white transition-colors">
+                  <Link to="/pricing" className="text-gray-600 hover:text-gray-900 transition-colors">
                     价格
                   </Link>
                 </li>
                 <li>
-                  <Link to="/contact" className="text-gray-400 hover:text-white transition-colors">
+                  <Link to="/contact" className="text-gray-600 hover:text-gray-900 transition-colors">
                     联系我们
                   </Link>
                 </li>
@@ -202,8 +202,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
             {/* 联系方式 */}
             <div>
-              <h3 className="text-lg font-semibold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">联系方式</h3>
-              <ul className="space-y-4 text-gray-400">
+              <h3 className="text-lg font-semibold mb-6 bg-gradient-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent">联系方式</h3>
+              <ul className="space-y-4 text-gray-600">
                 <li className="flex items-center space-x-2">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -228,15 +228,15 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
             {/* 社交媒体 */}
             <div>
-              <h3 className="text-lg font-semibold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">关注我们</h3>
+              <h3 className="text-lg font-semibold mb-6 bg-gradient-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent">关注我们</h3>
               <div className="flex space-x-6">
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
                   <span className="sr-only">微信</span>
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M8.5,13.5A1.5,1.5 0 0,1 7,12A1.5,1.5 0 0,1 8.5,10.5A1.5,1.5 0 0,1 10,12A1.5,1.5 0 0,1 8.5,13.5M15.5,13.5A1.5,1.5 0 0,1 14,12A1.5,1.5 0 0,1 15.5,10.5A1.5,1.5 0 0,1 17,12A1.5,1.5 0 0,1 15.5,13.5M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
                   </svg>
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
                   <span className="sr-only">抖音</span>
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4" />
@@ -246,7 +246,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </div>
           </div>
 
-          <div className="mt-12 pt-8 border-t border-white/5 text-center text-gray-400">
+          <div className="mt-12 pt-8 border-t border-gray-200 text-center text-gray-500">
             <p>© 2025 Infinite.ai. All rights reserved.</p>
           </div>
         </div>

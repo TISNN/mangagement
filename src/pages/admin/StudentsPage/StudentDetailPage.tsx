@@ -260,7 +260,7 @@ const StudentDetailPage: React.FC = () => {
     };
   }, []);
 
-  // 返回上一页 - 跳转到学生管理总览
+  // 返回上一页 - 跳转到学生总览
   const handleGoBack = () => {
     navigate('/admin/students-legacy');
   };

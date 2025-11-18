@@ -464,7 +464,7 @@ const headlineMetrics = useMemo(
       {/* 顶部导航 */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
           <div className="flex flex-col">
-          <h1 className="text-2xl font-bold dark:text-white">学生管理总览</h1>
+          <h1 className="text-2xl font-bold dark:text-white">学生总览</h1>
           <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">汇总所有业务线学生，提供跨服务的全局视角</p>
           <div className="flex items-center gap-2 mt-2">
             <button

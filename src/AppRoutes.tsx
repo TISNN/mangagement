@@ -38,7 +38,7 @@ import SchoolDetailPageNew from './pages/admin/SchoolDetailPageNew';
 import ProgramDetailPageNew from './pages/admin/ProgramDetailPageNew';
 import AddSchoolPage from './pages/admin/AddSchoolPage';
 import AddProgramPage from './pages/admin/AddProgramPage';
-import ProjectsPage from './pages/admin/ProjectsPage';
+// import ProjectsPage from './pages/admin/ProjectsPage'; // 服务项目页面已删除
 // import KnowledgeBase from './pages/admin/KnowledgeBase'; // 已迁移到知识库中心，不再使用
 import KnowledgeDetailPage from './pages/admin/KnowledgeDetailPage';
 import KnowledgeGardenPortalPage from './pages/KnowledgeGardenPortalPage';
@@ -71,10 +71,11 @@ import { CloudDocsKnowledgePage } from './pages/admin/CloudDocsKnowledge';
 import { CloudDocumentEditorPage } from './pages/admin/CloudDocsDocument';
 import FinanceSuitePage from './pages/admin/FinanceSuite/FinanceSuitePage';
 import { InstitutionIntroductionPage } from './pages/admin/InstitutionIntroduction';
-import { PlacementAssessmentPage } from './pages/admin/EducationTraining/PlacementAssessment';
-import { SchedulingClassroomPage } from './pages/admin/EducationTraining/SchedulingClassroom';
-import { LearnerPortalPage } from './pages/admin/EducationTraining/LearnerPortal';
-import { TutorPortalPage } from './pages/admin/EducationTraining/TutorPortal';
+// 教育培训相关页面导入 - 暂时隐藏
+// import { PlacementAssessmentPage } from './pages/admin/EducationTraining/PlacementAssessment';
+// import { SchedulingClassroomPage } from './pages/admin/EducationTraining/SchedulingClassroom';
+// import { LearnerPortalPage } from './pages/admin/EducationTraining/LearnerPortal';
+// import { TutorPortalPage } from './pages/admin/EducationTraining/TutorPortal';
 import AppCenterPage from './pages/admin/AppCenter/AppCenterPage';
 import { SchoolSelectionPlannerPage } from './pages/admin/SchoolSelectionPlanner';
 import AIRecommendationPage from './pages/admin/SchoolSelectionPlanner/AIRecommendationPage';
@@ -164,7 +165,7 @@ const AppRoutes: React.FC = () => {
         <Route path="students" element={<StudentManagementPage />} />
         <Route path="students-legacy" element={<StudentsPage />} />
         <Route path="students/:studentId" element={<StudentDetailPage />} />
-        <Route path="projects" element={<ProjectsPage />} />
+        {/* <Route path="projects" element={<ProjectsPage />} /> 服务项目页面已删除 */}
         <Route path="applications" element={<ApplicationsPage />} />
         <Route path="applications/:id" element={<ApplicationDetailPage />} />
         <Route path="applications/:studentId/planning" element={<PlanningDetailPage />} />
@@ -223,10 +224,11 @@ const AppRoutes: React.FC = () => {
         <Route path="cases" element={<CaseStudiesPage />} />
         <Route path="social" element={<SocialMediaPage />} />
         <Route path="finance-suite" element={<FinanceSuitePage />} />
-        <Route path="education-training/placement-assessment" element={<PlacementAssessmentPage />} />
-        <Route path="education-training/scheduling-classroom" element={<SchedulingClassroomPage />} />
-        <Route path="education-training/learner-portal" element={<LearnerPortalPage />} />
-        <Route path="education-training/tutor-portal" element={<TutorPortalPage />} />
+        {/* 教育培训相关路由 - 暂时隐藏 */}
+        {/* <Route path="education-training/placement-assessment" element={<PlacementAssessmentPage />} /> */}
+        {/* <Route path="education-training/scheduling-classroom" element={<SchedulingClassroomPage />} /> */}
+        {/* <Route path="education-training/learner-portal" element={<LearnerPortalPage />} /> */}
+        {/* <Route path="education-training/tutor-portal" element={<TutorPortalPage />} /> */}
         <Route path="services" element={<AdminServicesPage />} />
         <Route path="ai-chat-assistant" element={<AIChatAssistantPage />} />
         <Route path="sky-office" element={<SkyOfficePage />} />

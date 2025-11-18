@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import type { ReactNode } from 'react';
+import type { ComponentType } from 'react';
 import { Activity, ArrowRight, ClipboardCheck, LayoutList, NotebookPen, Sparkles } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
@@ -28,10 +28,10 @@ import {
 } from './data';
 import type { HotLead, LeadFormValues, LeadRecord, LeadSection, LeadStage, LeadTableViewMode, QuickFilter } from './types';
 
-const PAGE_SECTIONS: Array<{ id: LeadSection; label: string; description: string; icon: ReactNode }> = [
-  { id: 'overview', label: '线索概览', description: '关键指标与快捷筛选', icon: <Sparkles className="h-4 w-4" /> },
-  { id: 'table', label: '线索列表', description: '表格/看板双模式管理线索', icon: <LayoutList className="h-4 w-4" /> },
-  { id: 'insights', label: '跟进洞察', description: '单条线索与 SLA 视图', icon: <Activity className="h-4 w-4" /> },
+const PAGE_SECTIONS: Array<{ id: LeadSection; label: string; description: string; icon: ComponentType<{ className?: string }> }> = [
+  { id: 'overview', label: '线索概览', description: '关键指标与快捷筛选', icon: Sparkles },
+  { id: 'table', label: '线索列表', description: '表格/看板双模式管理线索', icon: LayoutList },
+  { id: 'insights', label: '跟进洞察', description: '单条线索与 SLA 视图', icon: Activity },
 ];
 
 type LeadAnalytics = {
@@ -561,29 +561,40 @@ const CRMLeadListPage: React.FC = () => {
         </div>
       )}
 
-      <div className="rounded-2xl border border-gray-200 bg-white p-2 shadow-sm dark:border-gray-700 dark:bg-gray-800/60">
-        <div className="flex flex-wrap gap-2">
-          {PAGE_SECTIONS.map((section) => {
-            const isActive = activeSection === section.id;
-            return (
+      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+        {PAGE_SECTIONS.map((section) => {
+          const Icon = section.icon;
+          const isActive = activeSection === section.id;
+          return (
             <button
-                key={section.id}
-                onClick={() => setActiveSection(section.id)}
-                className={`group flex min-w-[180px] flex-col rounded-xl border px-4 py-3 text-left transition ${
-                  isActive
-                    ? 'border-indigo-500 bg-gradient-to-r from-indigo-600 via-purple-600 to-blue-500 text-white shadow-md'
-                    : 'border-gray-200 bg-white text-gray-600 hover:border-indigo-300 hover:text-indigo-600 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-indigo-400 dark:hover:text-indigo-200'
-                }`}
-              >
-                <span className={`flex items-center gap-2 text-sm font-semibold ${isActive ? 'text-white' : 'text-gray-700 dark:text-gray-200'}`}>
-                  {section.icon}
-                  {section.label}
-              </span>
-                <span className={`mt-1 text-xs ${isActive ? 'text-indigo-100' : 'text-gray-500 dark:text-gray-400'}`}>{section.description}</span>
+              key={section.id}
+              type="button"
+              onClick={() => setActiveSection(section.id)}
+              className={`flex flex-col gap-2 rounded-2xl border p-4 text-left transition focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 dark:bg-gray-800/60 ${
+                isActive
+                  ? 'border-blue-500 bg-blue-50 text-blue-600 dark:border-blue-500/60 dark:bg-blue-900/10 dark:text-blue-200'
+                  : 'border-gray-200 bg-white text-gray-600 hover:border-blue-200 hover:text-blue-600 dark:border-gray-700 dark:text-gray-300 dark:hover:border-blue-500'
+              }`}
+              aria-pressed={isActive}
+            >
+              <div className="flex items-center gap-2">
+                <span
+                  className={`inline-flex h-10 w-10 items-center justify-center rounded-xl ${
+                    isActive
+                      ? 'bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-200'
+                      : 'bg-gray-100 text-gray-500 dark:bg-gray-800 dark:text-gray-300'
+                  }`}
+                >
+                  <Icon className="h-5 w-5" />
+                </span>
+                <div>
+                  <div className="text-sm font-semibold">{section.label}</div>
+                  <div className="text-xs text-gray-500 dark:text-gray-400">{section.description}</div>
+                </div>
+              </div>
             </button>
-            );
-          })}
-        </div>
+          );
+        })}
       </div>
 
       {activeSection === 'overview' && (

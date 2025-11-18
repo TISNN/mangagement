@@ -204,24 +204,25 @@ export const APP_FEATURES: AppFeature[] = [
     rolesAllowed: ['admin', 'student'],
     tags: ['协作'],
   },
-  {
-    id: 'education-training/learner-portal',
-    title: '学习中心',
-    description: '学生课表、作业与课堂回放',
-    category: '学习服务',
-    icon: Laptop,
-    rolesAllowed: ['student', 'admin'],
-    tags: ['学习'],
-  },
-  {
-    id: 'education-training/scheduling-classroom',
-    title: '排课与教室',
-    description: '统一安排课程表与教室资源',
-    category: '学习服务',
-    icon: CalendarClock,
-    rolesAllowed: ['admin'],
-    tags: ['教学'],
-  },
+  // 教育培训相关功能 - 暂时隐藏
+  // {
+  //   id: 'education-training/learner-portal',
+  //   title: '学习中心',
+  //   description: '学生课表、作业与课堂回放',
+  //   category: '学习服务',
+  //   icon: Laptop,
+  //   rolesAllowed: ['student', 'admin'],
+  //   tags: ['学习'],
+  // },
+  // {
+  //   id: 'education-training/scheduling-classroom',
+  //   title: '排课与教室',
+  //   description: '统一安排课程表与教室资源',
+  //   category: '学习服务',
+  //   icon: CalendarClock,
+  //   rolesAllowed: ['admin'],
+  //   tags: ['教学'],
+  // },
   {
     id: 'finance-suite',
     title: '财务中台',
@@ -244,7 +245,7 @@ export const getDefaultFavorites = (role: AppCenterUserRole): string[] => {
       'tasks',
       'applications',
       'knowledge',
-      'education-training/learner-portal',
+      // 'education-training/learner-portal', // 暂时隐藏
       'meetings',
     ].filter((id) => APP_FEATURES.some((feature) => feature.id === id));
   }

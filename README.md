@@ -1151,6 +1151,7 @@ npm run preview
 - **[完整设置指南](.github/SETUP_GUIDE.md)** - 详细配置步骤
 - **[环境变量配置](.github/ENV_SETUP.md)** - 环境变量说明
 - **[文档索引](.github/INDEX.md)** - 所有文档导航
+- **[定价策略方案](docs/pricing-strategy.md)** - SaaS系统定价策略与盈利模型
 
 ### 部署工作流
 

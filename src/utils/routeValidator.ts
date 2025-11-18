@@ -13,7 +13,7 @@ const VALID_ADMIN_ROUTES = new Set([
   '/admin/tasks',
   '/admin/students',
   '/admin/students-legacy',
-  '/admin/projects',
+  // '/admin/projects', // 服务项目页面已删除
   '/admin/applications',
   '/admin/application-workbench',
   '/admin/application-workstation',
@@ -50,11 +50,11 @@ const VALID_ADMIN_ROUTES = new Set([
   '/admin/study-services',
   '/admin/school-selection-planner',
   
-  // 教育培训
-  '/admin/education-training/placement-assessment',
-  '/admin/education-training/scheduling-classroom',
-  '/admin/education-training/learner-portal',
-  '/admin/education-training/tutor-portal',
+  // 教育培训 - 暂时隐藏
+  // '/admin/education-training/placement-assessment',
+  // '/admin/education-training/scheduling-classroom',
+  // '/admin/education-training/learner-portal',
+  // '/admin/education-training/tutor-portal',
   
   // CRM 中心
   '/admin/crm-lead-list',

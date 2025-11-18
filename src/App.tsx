@@ -26,9 +26,9 @@ import {
   ChevronDown,
   BookOpen,
   Calendar,
-  CalendarClock,
+  // CalendarClock, // 教育培训暂时隐藏，暂时不使用
   GraduationCap,
-  Laptop,
+  // Laptop, // 教育培训暂时隐藏，暂时不使用
   Compass,
   Handshake,
   LayoutList,
@@ -173,7 +173,7 @@ function App() {
     () => [
       { icon: LayoutGrid, text: '控制台', id: 'dashboard', color: 'blue' },
       { icon: ListTodo, text: '任务管理', id: 'tasks', color: 'blue' },
-      { icon: Users, text: '学生管理', id: 'students-legacy', color: 'blue' },
+      { icon: Users, text: '学生总览', id: 'students-legacy', color: 'blue' },
       { icon: UserSquare2, text: '导师管理', id: 'mentors', color: 'blue' },
       { icon: Calendar, text: '会议管理', id: 'meetings', color: 'blue' },
       { icon: Globe2, text: 'SkyOffice', id: 'sky-office', color: 'blue', externalUrl: skyOfficeExternalUrl },
@@ -207,8 +207,8 @@ function App() {
             id: 'internal-management/recruitment',
             color: 'blue',
           },
-          { icon: Briefcase, text: '服务项目', id: 'projects', color: 'blue' },
           { icon: Handshake, text: '合作方管理', id: 'partner-management', color: 'blue' },
+          { icon: Building2, text: '机构介绍', id: 'institution-introduction', color: 'blue' },
         ],
       },
       {
@@ -223,24 +223,24 @@ function App() {
           { icon: BookOpen, text: '文书工作台', id: 'application-workbench', color: 'blue' },
           { icon: LayoutPanelLeft, text: '申请工作台', id: 'application-workstation', color: 'blue' },
           { icon: Globe2, text: '项目市场', id: 'project-marketplace', color: 'blue' },
-          { icon: Building2, text: '机构介绍', id: 'institution-introduction', color: 'blue' },
           { icon: ClipboardList, text: '留学案例库', id: 'cases', color: 'blue' },
           { icon: FileCheck, text: '申请进度', id: 'applications', color: 'blue' },
 
         ],
       },
-      {
-        icon: GraduationCap,
-        text: '教育培训',
-        id: 'education-training',
-        color: 'blue',
-        children: [
-          { icon: ClipboardList, text: '测评中心', id: 'education-training/placement-assessment', color: 'blue' },
-          { icon: CalendarClock, text: '排课与教室', id: 'education-training/scheduling-classroom', color: 'blue' },
-          { icon: Laptop, text: '学习中心', id: 'education-training/learner-portal', color: 'blue' },
-          { icon: Users, text: '教师工作台', id: 'education-training/tutor-portal', color: 'blue' },
-        ],
-      },
+      // 教育培训 - 暂时隐藏
+      // {
+      //   icon: GraduationCap,
+      //   text: '教育培训',
+      //   id: 'education-training',
+      //   color: 'blue',
+      //   children: [
+      //     { icon: ClipboardList, text: '测评中心', id: 'education-training/placement-assessment', color: 'blue' },
+      //     { icon: CalendarClock, text: '排课与教室', id: 'education-training/scheduling-classroom', color: 'blue' },
+      //     { icon: Laptop, text: '学习中心', id: 'education-training/learner-portal', color: 'blue' },
+      //     { icon: Users, text: '教师工作台', id: 'education-training/tutor-portal', color: 'blue' },
+      //   ],
+      // },
       {
         icon: LayoutDashboard,
         text: 'CRM 中心',
@@ -458,18 +458,19 @@ function App() {
     } else if (path.includes('cloud-docs/knowledge')) {
       setCurrentPage('cloud-docs/knowledge');
       setExpandedGroups((prev) => ({ ...prev, 'cloud-docs': true }));
-    } else if (path.includes('education-training/placement-assessment')) {
-      setCurrentPage('education-training/placement-assessment');
-      setExpandedGroups((prev) => ({ ...prev, 'education-training': true }));
-    } else if (path.includes('education-training/scheduling-classroom')) {
-      setCurrentPage('education-training/scheduling-classroom');
-      setExpandedGroups((prev) => ({ ...prev, 'education-training': true }));
-    } else if (path.includes('education-training/learner-portal')) {
-      setCurrentPage('education-training/learner-portal');
-      setExpandedGroups((prev) => ({ ...prev, 'education-training': true }));
-    } else if (path.includes('education-training/tutor-portal')) {
-      setCurrentPage('education-training/tutor-portal');
-      setExpandedGroups((prev) => ({ ...prev, 'education-training': true }));
+    // 教育培训相关路径处理 - 暂时隐藏
+    // } else if (path.includes('education-training/placement-assessment')) {
+    //   setCurrentPage('education-training/placement-assessment');
+    //   setExpandedGroups((prev) => ({ ...prev, 'education-training': true }));
+    // } else if (path.includes('education-training/scheduling-classroom')) {
+    //   setCurrentPage('education-training/scheduling-classroom');
+    //   setExpandedGroups((prev) => ({ ...prev, 'education-training': true }));
+    // } else if (path.includes('education-training/learner-portal')) {
+    //   setCurrentPage('education-training/learner-portal');
+    //   setExpandedGroups((prev) => ({ ...prev, 'education-training': true }));
+    // } else if (path.includes('education-training/tutor-portal')) {
+    //   setCurrentPage('education-training/tutor-portal');
+    //   setExpandedGroups((prev) => ({ ...prev, 'education-training': true }));
     } else if (path.includes('internal-management/employee-and-scheduling')) {
       setCurrentPage('internal-management/employee-and-scheduling');
       setExpandedGroups((prev) => ({ ...prev, 'internal-management': true }));
@@ -494,8 +495,6 @@ function App() {
       setCurrentPage('school-library');
     } else if (path.includes('program-library')) {
       setCurrentPage('program-library');
-    } else if (path.includes('projects')) {
-      setCurrentPage('projects');
     } else if (path.includes('applications')) {
       setCurrentPage('applications');
     } else if (path.includes('application-workbench')) {
@@ -510,6 +509,9 @@ function App() {
       setCurrentPage('phd-opportunities');
     } else if (path.includes('partner-management')) {
       setCurrentPage('partner-management');
+    } else if (path.includes('institution-introduction')) {
+      setCurrentPage('institution-introduction');
+      setExpandedGroups((prev) => ({ ...prev, 'internal-management': true }));
     } else if (path.includes('school-selection-planner')) {
       setCurrentPage('school-selection-planner');
     } else if (path.includes('service-chronology')) {
@@ -541,21 +543,21 @@ function App() {
       setCurrentPage('settings');
     }
 
-    if (
-      [
-        'students',
-        'mentors',
-        'school-selection-planner',
-        'service-chronology',
-        'application-workbench',
-        'project-mission-board',
-        'project-marketplace',
-        'professor-directory',
-        'phd-opportunities',
-      ].some((segment) =>
-        path.includes(segment)
-      )
-    ) {
+    // 检查是否应该展开"留学服务"子分类
+    // 注意：需要精确匹配，避免误匹配 students-legacy
+    const shouldExpandStudyServices = 
+      // 精确匹配 /admin/students 或 /admin/students/ 开头的路径（排除 students-legacy）
+      (path === '/admin/students' || path.startsWith('/admin/students/')) ||
+      // 其他留学服务相关的路径
+      path.includes('school-selection-planner') ||
+      path.includes('service-chronology') ||
+      path.includes('application-workbench') ||
+      path.includes('project-mission-board') ||
+      path.includes('project-marketplace') ||
+      path.includes('professor-directory') ||
+      path.includes('phd-opportunities');
+    
+    if (shouldExpandStudyServices) {
       setExpandedGroups((prev) => ({ ...prev, 'study-services': true }));
     }
 
@@ -569,21 +571,26 @@ function App() {
       setExpandedGroups((prev) => ({ ...prev, 'cloud-docs': true }));
     }
 
+    // 团队管理相关路径展开逻辑
     if (
-      ['internal-management/employee-and-scheduling', 'internal-management/recruitment'].some((segment) =>
-        path.includes(segment)
-      )
+      [
+        'internal-management/employee-and-scheduling',
+        'internal-management/recruitment',
+        'partner-management', // 合作方管理
+        'institution-introduction', // 机构介绍
+      ].some((segment) => path.includes(segment))
     ) {
       setExpandedGroups((prev) => ({ ...prev, 'internal-management': true }));
     }
 
-    if (
-      ['education-training/placement-assessment', 'education-training/scheduling-classroom', 'education-training/learner-portal'].some((segment) =>
-        path.includes(segment),
-      )
-    ) {
-      setExpandedGroups((prev) => ({ ...prev, 'education-training': true }));
-    }
+    // 教育培训相关路径展开逻辑 - 暂时隐藏
+    // if (
+    //   ['education-training/placement-assessment', 'education-training/scheduling-classroom', 'education-training/learner-portal'].some((segment) =>
+    //     path.includes(segment),
+    //   )
+    // ) {
+    //   setExpandedGroups((prev) => ({ ...prev, 'education-training': true }));
+    // }
   }, [location]);
 
   // 从 localStorage 加载已读通知ID集合
@@ -864,9 +871,9 @@ function App() {
       <DataProvider>
             <div className="min-h-screen bg-[#f8fafc] dark:bg-gray-900">
               {/* 左侧导航栏 */}
-              <header className={`fixed left-0 top-16 h-[calc(100vh-4rem)] ${isNavCollapsed ? 'w-20' : 'w-[232px]'} transition-all duration-300 bg-white/80 backdrop-blur-xl dark:bg-gray-800/50 border-r border-gray-200 dark:border-gray-700 z-10`}>
-                {/* 导航菜单 - 添加滚动容器 */}
-                <div className="py-6 px-4 relative">
+              <header className={`fixed left-0 top-16 h-[calc(100vh-4rem)] ${isNavCollapsed ? 'w-20' : 'w-[232px]'} transition-all duration-300 bg-white/80 backdrop-blur-xl dark:bg-gray-800/50 border-r border-gray-200 dark:border-gray-700 z-10 flex flex-col`}>
+                {/* 导航菜单 - 可滚动区域 */}
+                <div className="flex-1 overflow-hidden relative">
                   {/* 上滚动按钮 */}
                   {showScrollTop && (
                     <button 
@@ -879,49 +886,47 @@ function App() {
                   
                   <nav
                     ref={navRef}
-                    className="space-y-6 max-h-[calc(100vh-230px)] overflow-y-auto pr-1 scrollbar-thin scrollbar-thumb-gray-300 dark:scrollbar-thumb-gray-600 scrollbar-track-transparent"
+                    className="h-full py-6 px-4 overflow-y-auto pr-1 scrollbar-thin scrollbar-thumb-gray-300 dark:scrollbar-thumb-gray-600 scrollbar-track-transparent"
                   >
-                    <div className="space-y-2">
-                      {!isNavCollapsed && (
-                        <div className="flex items-center justify-between px-1">
-                          <p className="text-xs font-semibold uppercase tracking-wide text-gray-400 dark:text-gray-500">
-                            我的导航
-                          </p>
-                          <button
-                            type="button"
-                            onClick={() => navigate('/admin/app-center')}
-                            className="text-xs font-medium text-indigo-500 hover:text-indigo-600 dark:text-indigo-400 dark:hover:text-indigo-300"
-                          >
-                            管理
-                          </button>
-                        </div>
-                      )}
-                      {favoriteNavItems.length > 0 ? (
-                        <div className="space-y-2">
-                          {renderNavItems(favoriteNavItems, 0, 'favorite-')}
-                        </div>
-                      ) : (
-                        !isNavCollapsed && (
-                          <div className="rounded-xl border border-dashed border-gray-200 bg-white/40 px-4 py-3 text-xs text-gray-500 dark:border-gray-700 dark:bg-gray-800/40 dark:text-gray-400">
-                            暂未添加常用功能，点击“管理”挑选常用入口
+                    <div className="space-y-6">
+                      <div className="space-y-2">
+                        {!isNavCollapsed && (
+                          <div className="flex items-center justify-between px-1">
+                            <p className="text-xs font-semibold uppercase tracking-wide text-gray-400 dark:text-gray-500">
+                              我的导航
+                            </p>
+                            <button
+                              type="button"
+                              onClick={() => navigate('/admin/app-center')}
+                              className="text-xs font-medium text-indigo-500 hover:text-indigo-600 dark:text-indigo-400 dark:hover:text-indigo-300"
+                            >
+                              管理
+                            </button>
                           </div>
-                        )
-                      )}
-                    </div>
+                        )}
+                        {favoriteNavItems.length > 0 ? (
+                          <div className="space-y-2">
+                            {renderNavItems(favoriteNavItems, 0, 'favorite-')}
+                          </div>
+                        ) : (
+                          !isNavCollapsed && (
+                            <div className="rounded-xl border border-dashed border-gray-200 bg-white/40 px-4 py-3 text-xs text-gray-500 dark:border-gray-700 dark:bg-gray-800/40 dark:text-gray-400">
+                              暂未添加常用功能，点击"管理"挑选常用入口
+                            </div>
+                          )
+                        )}
+                      </div>
 
-                    <div className="space-y-2">
-                      {!isNavCollapsed && (
-                        <p className="px-1 text-xs font-semibold uppercase tracking-wide text-gray-400 dark:text-gray-500">
-                          全部功能
-                        </p>
-                      )}
-                      {renderNavItems(navigationItems, 0, 'all-')}
+                      <div className="space-y-2">
+                        {!isNavCollapsed && (
+                          <p className="px-1 text-xs font-semibold uppercase tracking-wide text-gray-400 dark:text-gray-500">
+                            全部功能
+                          </p>
+                        )}
+                        {renderNavItems(navigationItems, 0, 'all-')}
+                      </div>
                     </div>
                   </nav>
-
-                  <div className={`mt-4 space-y-2 border-t border-gray-200 pt-4 dark:border-gray-700 ${isNavCollapsed ? 'px-1' : ''}`}>
-                    {renderNavItems(pinnedNavigationItems, 0, 'pinned-')}
-                  </div>
                   
                   {/* 下滚动按钮 */}
                   {showScrollBottom && (
@@ -932,6 +937,11 @@ function App() {
                       <ChevronDown className="h-4 w-4 text-gray-500 dark:text-gray-400" />
                     </button>
                   )}
+                </div>
+
+                {/* 固定在底部的服务项目和应用中心 */}
+                <div className={`flex-shrink-0 py-6 px-4 space-y-2 border-t border-gray-200 dark:border-gray-700 ${isNavCollapsed ? 'px-1' : ''}`}>
+                  {renderNavItems(pinnedNavigationItems, 0, 'pinned-')}
                 </div>
 
                 {/* 折叠按钮 */}
