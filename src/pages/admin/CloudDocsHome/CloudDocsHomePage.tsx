@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import {
   FilePlus,
   UploadCloud,
@@ -14,6 +14,7 @@ import {
   Trash2,
   X,
   Plus,
+  User,
 } from 'lucide-react';
 import {
   getCloudDocumentStats,
@@ -72,7 +73,7 @@ const QUICK_ACTIONS: QuickAction[] = [
   {
     id: 'qa-invite',
     title: '邀请团队协作',
-    description: '通过链接或手机号邀请顾问、机构伙伴共用同一空间。',
+    description: '通过链接或手机号邀请团队成员共用同一空间。',
     icon: Users,
     actionLabel: '邀请成员',
   },
@@ -290,6 +291,7 @@ const TEMPLATE_ITEMS: TemplateItem[] = [
 
 const CloudDocsHomePage: React.FC = () => {
   const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
   
   // 数据状态
   const [allDocs, setAllDocs] = useState<CloudDocument[]>([]);
@@ -302,6 +304,9 @@ const CloudDocsHomePage: React.FC = () => {
   const [categories, setCategories] = useState<CloudDocumentCategory[]>([]);
   const [selectedCategoryId, setSelectedCategoryId] = useState<number | null>(null);
   const [searchTerm, setSearchTerm] = useState<string>('');
+  const [selectedStudentId, setSelectedStudentId] = useState<number | null>(null);
+  const [students, setStudents] = useState<Array<{ id: number; name: string }>>([]);
+  const [loadingStudents, setLoadingStudents] = useState(false);
   const [documentCategoriesMap, setDocumentCategoriesMap] = useState<Map<number, CloudDocumentCategory[]>>(new Map());
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -320,6 +325,7 @@ const CloudDocsHomePage: React.FC = () => {
   const [isDragOverDocumentList, setIsDragOverDocumentList] = useState(false);
   const [isDragOverUploadModal, setIsDragOverUploadModal] = useState(false);
   const [syncing, setSyncing] = useState(false);
+  const [syncingMeetings, setSyncingMeetings] = useState(false);
   const menuRefs = useRef<{ [key: number]: HTMLDivElement | null }>({});
 
   // 点击外部关闭菜单
@@ -347,6 +353,7 @@ const CloudDocsHomePage: React.FC = () => {
         getAllDocuments({ 
           categoryId: selectedCategoryId || undefined,
           search: searchTerm || undefined,
+          studentId: selectedStudentId || undefined,
         }),
         getCloudDocumentStats(),
         getAllDocumentCategories(),
@@ -378,17 +385,49 @@ const CloudDocsHomePage: React.FC = () => {
     }
   };
 
+  // 从URL参数获取studentId
+  useEffect(() => {
+    const studentIdParam = searchParams.get('studentId');
+    if (studentIdParam) {
+      setSelectedStudentId(parseInt(studentIdParam));
+    }
+  }, [searchParams]);
+
+  // 加载学生列表
+  useEffect(() => {
+    loadStudents();
+  }, []);
+
+  const loadStudents = async () => {
+    try {
+      setLoadingStudents(true);
+      const { data, error } = await supabase
+        .from('students')
+        .select('id, name')
+        .order('name');
+      
+      if (error) throw error;
+      setStudents(data || []);
+    } catch (error) {
+      console.error('加载学生列表失败:', error);
+    } finally {
+      setLoadingStudents(false);
+    }
+  };
+
   // 加载数据
   useEffect(() => {
     loadData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedCategoryId, searchTerm]);
+  }, [selectedCategoryId, searchTerm, selectedStudentId]);
 
   const handleQuickAction = (actionId: string) => {
     switch (actionId) {
-      case 'qa-create-doc':
-        navigate('/admin/cloud-docs/documents/new');
+      case 'qa-create-doc': {
+        const studentIdParam = selectedStudentId ? `?studentId=${selectedStudentId}` : '';
+        navigate(`/admin/cloud-docs/documents/new${studentIdParam}`);
         break;
+      }
       case 'qa-upload':
         setShowUploadModal(true);
         break;
@@ -409,7 +448,10 @@ const CloudDocsHomePage: React.FC = () => {
     if (isDragging) {
       return;
     }
-    navigate(`/admin/cloud-docs/documents/${docId}`);
+    // 默认在新标签页打开
+    const url = `/admin/cloud-docs/documents/${docId}`;
+    const fullUrl = window.location.origin + url;
+    window.open(fullUrl, '_blank', 'noopener,noreferrer');
   };
 
   const handleDeleteDocument = async (docId: number, e: React.MouseEvent) => {
@@ -620,6 +662,7 @@ const CloudDocsHomePage: React.FC = () => {
           created_by: employee.id,
           status: 'draft',
           tags: [fileExt?.toUpperCase() || 'FILE'],
+          student_id: selectedStudentId || null,
         })
         .select()
         .single();
@@ -639,7 +682,10 @@ const CloudDocsHomePage: React.FC = () => {
       
       // 可选：跳转到新创建的文档
       if (documentData) {
-        navigate(`/admin/cloud-docs/documents/${documentData.id}`);
+        // 在新标签页打开新创建的文档
+        const url = `/admin/cloud-docs/documents/${documentData.id}`;
+        const fullUrl = window.location.origin + url;
+        window.open(fullUrl, '_blank', 'noopener,noreferrer');
       }
     } catch (error) {
       console.error('上传文件失败:', error);
@@ -718,6 +764,97 @@ const CloudDocsHomePage: React.FC = () => {
 
     const file = files[0];
     await handleFileUpload(file);
+  };
+
+  // 同步会议文档到云文档
+  const handleSyncMeetingDocuments = async () => {
+    if (!confirm('确定要同步所有会议文档到云文档吗？这可能会创建重复的文档。')) {
+      return;
+    }
+
+    setSyncingMeetings(true);
+    try {
+      // 获取所有会议文档
+      const { data: meetingDocs, error: meetingDocsError } = await supabase
+        .from('meeting_documents')
+        .select('*');
+
+      if (meetingDocsError) {
+        console.error('查询会议文档失败:', meetingDocsError);
+        throw meetingDocsError;
+      }
+
+      if (!meetingDocs || meetingDocs.length === 0) {
+        alert('没有找到需要同步的会议文档。');
+        return;
+      }
+
+      // 获取或创建"会议纪要"分类
+      const meetingCategory = await getOrCreateCategory('会议纪要', '会议相关文档和纪要');
+
+      let syncedCount = 0;
+      let skippedCount = 0;
+      let errorCount = 0;
+
+      // 遍历每个会议文档
+      for (const meetingDoc of meetingDocs) {
+        try {
+          // 检查是否已经存在对应的云文档
+          const { data: existingDocs } = await supabase
+            .from('cloud_documents')
+            .select('id')
+            .contains('tags', [`MEETING_${meetingDoc.id}`]);
+
+          if (existingDocs && existingDocs.length > 0) {
+            skippedCount++;
+            continue; // 已存在，跳过
+          }
+
+          // 创建云文档记录
+          const { data: newCloudDoc, error: docError } = await supabase
+            .from('cloud_documents')
+            .insert({
+              title: meetingDoc.title,
+              content: meetingDoc.content || '',
+              created_by: meetingDoc.created_by || 1,
+              status: 'draft',
+              tags: ['MEETING_DOC', `MEETING_${meetingDoc.id}`],
+            })
+            .select()
+            .single();
+
+          if (docError) {
+            console.error(`同步会议文档 ${meetingDoc.id} 失败:`, docError);
+            errorCount++;
+            continue;
+          }
+
+          // 添加到"会议纪要"分类
+          if (newCloudDoc) {
+            try {
+              await addDocumentToCategory(newCloudDoc.id, meetingCategory.id);
+              syncedCount++;
+            } catch (categoryError) {
+              console.error(`添加分类失败:`, categoryError);
+              syncedCount++;
+            }
+          }
+        } catch (error) {
+          console.error(`处理会议文档 ${meetingDoc.id} 时出错:`, error);
+          errorCount++;
+        }
+      }
+
+      // 刷新数据
+      await loadData();
+
+      alert(`同步完成！\n成功: ${syncedCount} 个\n跳过: ${skippedCount} 个\n失败: ${errorCount} 个`);
+    } catch (error) {
+      console.error('同步会议文档失败:', error);
+      alert('同步失败: ' + (error as Error).message);
+    } finally {
+      setSyncingMeetings(false);
+    }
   };
 
   // 同步知识库资源到云文档（包括文章和文档）
@@ -927,11 +1064,11 @@ const CloudDocsHomePage: React.FC = () => {
             <div className="space-y-2">
               <h1 className="text-3xl font-semibold leading-tight">以项目为核心的文档协作控制台</h1>
               <p className="max-w-2xl text-sm text-indigo-100/80">
-                将申请服务、运营项目、机构合作的关键文档集中管理。支持多角色权限、实时协作与统一动态，让团队协作更自洽。
+                将服务文档和运营项目集中管理。支持多角色权限、实时协作与统一动态，让团队协作更高效。
               </p>
             </div>
             <div className="flex flex-wrap gap-3 text-xs text-indigo-100/80">
-              <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1">👥 顾问/机构联合使用</span>
+              <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1">👥 团队协作</span>
               <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1">🗂️ 多维度目录管理</span>
               <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1">🛡️ 版本与权限留痕</span>
             </div>
@@ -1086,12 +1223,41 @@ const CloudDocsHomePage: React.FC = () => {
                 </h2>
                 <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
                   {selectedCategoryId 
-                    ? `显示 ${categories.find(cat => cat.id === selectedCategoryId)?.name || ''} 分类下的所有文档${searchTerm ? '（已筛选）' : ''}` 
+                    ? `显示 ${categories.find(cat => cat.id === selectedCategoryId)?.name || ''} 分类下的所有文档${searchTerm || selectedStudentId ? '（已筛选）' : ''}` 
+                    : selectedStudentId
+                    ? `显示 ${students.find(s => s.id === selectedStudentId)?.name || ''} 的文档${searchTerm ? '（已筛选）' : ''}`
                     : '按最近修改时间排序的所有文档'}
                 </p>
                 </div>
-                <div className="relative w-full sm:w-auto">
+                <div className="flex gap-3 w-full sm:w-auto">
+                  {/* 学生筛选 */}
                   <div className="relative">
+                    <User className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-slate-400 pointer-events-none" />
+                    <select
+                      value={selectedStudentId || ''}
+                      onChange={(e) => {
+                        const studentId = e.target.value ? parseInt(e.target.value) : null;
+                        setSelectedStudentId(studentId);
+                        // 更新URL参数
+                        if (studentId) {
+                          searchParams.set('studentId', studentId.toString());
+                        } else {
+                          searchParams.delete('studentId');
+                        }
+                        setSearchParams(searchParams);
+                      }}
+                      className="pl-10 pr-8 py-2 text-sm border border-slate-200 rounded-lg bg-white dark:bg-slate-800 dark:border-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all appearance-none"
+                      disabled={loadingStudents}
+                    >
+                      <option value="">全部学生</option>
+                      {students.map(student => (
+                        <option key={student.id} value={student.id}>{student.name}</option>
+                      ))}
+                    </select>
+                  </div>
+                  
+                  {/* 搜索框 */}
+                  <div className="relative flex-1 sm:flex-initial">
                     <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-slate-400" />
                     <input
                       type="text"
@@ -1135,7 +1301,7 @@ const CloudDocsHomePage: React.FC = () => {
                   <Sparkles className="h-4 w-4 text-indigo-500" />
                   <span>模板库</span>
                 </button>
-                {/* 同步知识库文章按钮 */}
+                {/* 同步知识库资源按钮 */}
                 <button
                   onClick={handleSyncKnowledgeArticles}
                   disabled={syncing}
@@ -1147,6 +1313,19 @@ const CloudDocsHomePage: React.FC = () => {
                     <FileText className="h-4 w-4 text-indigo-500" />
                   )}
                   <span>{syncing ? '同步中...' : '同步知识库资源'}</span>
+                </button>
+                {/* 同步会议文档按钮 */}
+                <button
+                  onClick={handleSyncMeetingDocuments}
+                  disabled={syncingMeetings}
+                  className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-slate-700 dark:text-slate-300 bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 hover:border-indigo-200 dark:hover:border-indigo-500 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {syncingMeetings ? (
+                    <Loader2 className="h-4 w-4 text-indigo-500 animate-spin" />
+                  ) : (
+                    <FileText className="h-4 w-4 text-indigo-500" />
+                  )}
+                  <span>{syncingMeetings ? '同步中...' : '同步会议文档'}</span>
                 </button>
               </div>
             </div>

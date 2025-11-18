@@ -20,6 +20,7 @@ export interface CloudDocument {
   is_favorite: boolean;
   views: number;
   last_accessed_at: string | null;
+  student_id?: number | null; // 关联的学生ID
   // 关联的员工信息
   creator?: {
     id: number;
@@ -182,6 +183,7 @@ export async function getAllDocuments(filters?: {
   categoryId?: number; // 按分类ID筛选
   location?: string;
   search?: string;
+  studentId?: number; // 按学生ID筛选
   limit?: number;
 }): Promise<CloudDocument[]> {
   try {
@@ -199,6 +201,10 @@ export async function getAllDocuments(filters?: {
 
     if (filters?.location) {
       query = query.eq('location', filters.location);
+    }
+
+    if (filters?.studentId) {
+      query = query.eq('student_id', filters.studentId);
     }
 
     if (filters?.search) {
@@ -265,6 +271,18 @@ export async function getAllDocuments(filters?: {
     }));
   } catch (error) {
     console.error('获取文档列表失败:', error);
+    throw error;
+  }
+}
+
+/**
+ * 获取指定学生的所有文档
+ */
+export async function getDocumentsByStudentId(studentId: number): Promise<CloudDocument[]> {
+  try {
+    return await getAllDocuments({ studentId });
+  } catch (error) {
+    console.error('获取学生文档失败:', error);
     throw error;
   }
 }

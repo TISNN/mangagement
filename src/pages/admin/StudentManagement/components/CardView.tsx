@@ -1,5 +1,6 @@
 import React from 'react';
-import { ArrowRight, CheckCircle2, MapPin, Sparkles, Star, Users } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { ArrowRight, CheckCircle2, MapPin, Sparkles, Star, Users, ExternalLink, Briefcase } from 'lucide-react';
 import { StudentRecord } from '../types';
 import { STATUS_TAG_CLASS } from '../utils';
 
@@ -8,7 +9,10 @@ interface CardViewProps {
   onSelect: (student: StudentRecord) => void;
 }
 
-const CardView: React.FC<CardViewProps> = ({ students, onSelect }) => (
+const CardView: React.FC<CardViewProps> = ({ students, onSelect }) => {
+  const navigate = useNavigate();
+  
+  return (
   <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
     {students.map((student) => (
       <div
@@ -87,10 +91,30 @@ const CardView: React.FC<CardViewProps> = ({ students, onSelect }) => (
             满意度：{student.satisfaction}
           </div>
         </div>
-        <div className="mt-auto pt-4">
+        <div className="mt-auto pt-4 flex items-center gap-2">
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              navigate(`/admin/students/${student.id}`);
+            }}
+            className="inline-flex items-center gap-1 rounded-lg border border-gray-200 px-2 py-1.5 text-xs text-gray-600 transition-colors hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700/60"
+            title="查看完整档案"
+          >
+            <ExternalLink className="h-3.5 w-3.5" />
+          </button>
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              navigate(`/admin/application-workbench?studentId=${student.id}`);
+            }}
+            className="inline-flex items-center gap-1 rounded-lg border border-gray-200 px-2 py-1.5 text-xs text-gray-600 transition-colors hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700/60"
+            title="申请工作台"
+          >
+            <Briefcase className="h-3.5 w-3.5" />
+          </button>
           <button
             onClick={() => onSelect(student)}
-            className="inline-flex items-center gap-2 rounded-xl border border-gray-200 px-3 py-2 text-sm text-gray-600 transition-colors hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700/60"
+            className="flex-1 inline-flex items-center justify-center gap-2 rounded-xl border border-gray-200 px-3 py-2 text-sm text-gray-600 transition-colors hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700/60"
           >
             进入详情
             <ArrowRight className="h-4 w-4" />
@@ -99,7 +123,8 @@ const CardView: React.FC<CardViewProps> = ({ students, onSelect }) => (
       </div>
     ))}
   </div>
-);
+  );
+};
 
 export default CardView;
 

@@ -93,6 +93,7 @@ export interface MeetingFormData {
   minutes?: string;
   summary?: string;
   attachments?: MeetingAttachment[];
+  student_id?: number | null; // 关联学生ID，如果设置了，会同时创建student_meetings记录；如果为null，表示取消关联
 }
 
 export interface MeetingFilter {

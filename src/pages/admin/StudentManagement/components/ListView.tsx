@@ -1,5 +1,6 @@
 import React from 'react';
-import { ChevronRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { ChevronRight, ExternalLink, Briefcase } from 'lucide-react';
 import { StudentRecord } from '../types';
 import { RISK_TAG_CLASS, STATUS_TAG_CLASS, STAGE_TAG_CLASS } from '../utils';
 
@@ -8,7 +9,10 @@ interface ListViewProps {
   onSelect: (student: StudentRecord) => void;
 }
 
-const ListView: React.FC<ListViewProps> = ({ students, onSelect }) => (
+const ListView: React.FC<ListViewProps> = ({ students, onSelect }) => {
+  const navigate = useNavigate();
+  
+  return (
   <div className="rounded-2xl border border-gray-100 bg-white shadow-sm dark:border-gray-700/60 dark:bg-gray-800">
     <div className="overflow-x-auto">
       <table className="min-w-full divide-y divide-gray-100 text-sm dark:divide-gray-700">
@@ -81,13 +85,35 @@ const ListView: React.FC<ListViewProps> = ({ students, onSelect }) => (
                 </div>
               </td>
               <td className="px-6 py-4 text-right">
-                <button
-                  onClick={() => onSelect(student)}
-                  className="inline-flex items-center gap-2 rounded-xl border border-gray-200 px-3 py-1.5 text-xs text-gray-600 transition-colors hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700/60"
-                >
-                  查看详情
-                  <ChevronRight className="h-3 w-3" />
-                </button>
+                <div className="flex items-center justify-end gap-2">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      navigate(`/admin/students/${student.id}`);
+                    }}
+                    className="inline-flex items-center gap-1 rounded-lg border border-gray-200 px-2 py-1 text-xs text-gray-600 transition-colors hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700/60"
+                    title="查看完整档案"
+                  >
+                    <ExternalLink className="h-3 w-3" />
+                  </button>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      navigate(`/admin/application-workbench?studentId=${student.id}`);
+                    }}
+                    className="inline-flex items-center gap-1 rounded-lg border border-gray-200 px-2 py-1 text-xs text-gray-600 transition-colors hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700/60"
+                    title="申请工作台"
+                  >
+                    <Briefcase className="h-3 w-3" />
+                  </button>
+                  <button
+                    onClick={() => onSelect(student)}
+                    className="inline-flex items-center gap-2 rounded-xl border border-gray-200 px-3 py-1.5 text-xs text-gray-600 transition-colors hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700/60"
+                  >
+                    查看详情
+                    <ChevronRight className="h-3 w-3" />
+                  </button>
+                </div>
               </td>
             </tr>
           ))}
@@ -95,7 +121,8 @@ const ListView: React.FC<ListViewProps> = ({ students, onSelect }) => (
       </table>
     </div>
   </div>
-);
+  );
+};
 
 export default ListView;
 

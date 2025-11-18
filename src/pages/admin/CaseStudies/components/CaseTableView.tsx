@@ -1,5 +1,5 @@
 import React from 'react';
-import { Eye } from 'lucide-react';
+import { Eye, User, Users } from 'lucide-react';
 import { CaseStudy } from '../../../../types/case';
 
 interface CaseTableViewProps {
@@ -41,6 +41,12 @@ const CaseTableView: React.FC<CaseTableViewProps> = ({ cases, onCaseClick }) => 
               </th>
               <th className="px-6 py-4 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">
                 语言成绩
+              </th>
+              <th className="px-6 py-4 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+                负责导师
+              </th>
+              <th className="px-6 py-4 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+                关联学生
               </th>
               <th className="px-6 py-4 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">
                 录取结果
@@ -94,6 +100,30 @@ const CaseTableView: React.FC<CaseTableViewProps> = ({ cases, onCaseClick }) => 
                     <div className="text-sm text-gray-900 dark:text-white">
                       {caseStudy.language_scores || '-'}
                     </div>
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap">
+                    {caseStudy.mentor ? (
+                      <div className="flex items-center gap-1 text-sm text-gray-900 dark:text-white">
+                        <User className="w-4 h-4 text-blue-600 dark:text-blue-400" />
+                        <span className="truncate max-w-[100px]" title={caseStudy.mentor.name}>
+                          {caseStudy.mentor.name}
+                        </span>
+                      </div>
+                    ) : (
+                      <span className="text-sm text-gray-400 dark:text-gray-500">-</span>
+                    )}
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap">
+                    {caseStudy.student ? (
+                      <div className="flex items-center gap-1 text-sm text-gray-900 dark:text-white">
+                        <Users className="w-4 h-4 text-green-600 dark:text-green-400" />
+                        <span className="truncate max-w-[100px]" title={caseStudy.student.name}>
+                          {caseStudy.student.name}
+                        </span>
+                      </div>
+                    ) : (
+                      <span className="text-sm text-gray-400 dark:text-gray-500">-</span>
+                    )}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap">
                     <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300`}>

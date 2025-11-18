@@ -5,6 +5,52 @@ import { supabase } from '../lib/supabase';
 import { CaseStudy } from '../types/case';
 
 /**
+ * 加载案例的关联信息（导师和学生）
+ */
+async function loadCaseRelations(cases: CaseStudy[]): Promise<CaseStudy[]> {
+  try {
+    // 收集所有需要查询的ID
+    const mentorIds = [...new Set(cases.filter(c => c.mentor_id).map(c => c.mentor_id!))];
+    const studentIds = [...new Set(cases.filter(c => c.student_id).map(c => c.student_id!))];
+
+    // 并行查询导师和学生信息
+    const [mentorsResult, studentsResult] = await Promise.all([
+      mentorIds.length > 0
+        ? supabase
+            .from('mentors')
+            .select('id, name, avatar_url, specializations')
+            .in('id', mentorIds)
+        : { data: [], error: null },
+      studentIds.length > 0
+        ? supabase
+            .from('students')
+            .select('id, name, email, avatar_url, education_level')
+            .in('id', studentIds)
+        : { data: [], error: null },
+    ]);
+
+    // 构建ID到数据的映射
+    const mentorMap = new Map(
+      (mentorsResult.data || []).map(mentor => [mentor.id, mentor])
+    );
+    const studentMap = new Map(
+      (studentsResult.data || []).map(student => [student.id, student])
+    );
+
+    // 为每个案例添加关联信息
+    return cases.map(caseStudy => ({
+      ...caseStudy,
+      mentor: caseStudy.mentor_id ? mentorMap.get(caseStudy.mentor_id) : undefined,
+      student: caseStudy.student_id ? studentMap.get(caseStudy.student_id) : undefined,
+    }));
+  } catch (error) {
+    console.error('加载案例关联信息失败:', error);
+    // 即使关联信息加载失败，也返回原始案例数据
+    return cases;
+  }
+}
+
+/**
  * 获取所有案例
  */
 export async function getCaseStudies(): Promise<CaseStudy[]> {
@@ -19,7 +65,9 @@ export async function getCaseStudies(): Promise<CaseStudy[]> {
       throw error;
     }
 
-    return data || [];
+    const cases = data || [];
+    // 加载关联的导师和学生信息
+    return await loadCaseRelations(cases);
   } catch (error) {
     console.error('获取案例列表异常:', error);
     throw error;
@@ -42,7 +90,11 @@ export async function getCaseStudyById(id: string): Promise<CaseStudy | null> {
       throw error;
     }
 
-    return data;
+    if (!data) return null;
+
+    // 加载关联的导师和学生信息
+    const casesWithRelations = await loadCaseRelations([data]);
+    return casesWithRelations[0] || null;
   } catch (error) {
     console.error('获取案例详情异常:', error);
     throw error;
@@ -89,7 +141,11 @@ export async function updateCaseStudy(id: string, updates: Partial<CaseStudy>): 
       throw error;
     }
 
-    return data;
+    if (!data) throw new Error('更新后的数据为空');
+
+    // 加载关联的导师和学生信息
+    const casesWithRelations = await loadCaseRelations([data]);
+    return casesWithRelations[0] || data;
   } catch (error) {
     console.error('更新案例异常:', error);
     throw error;
@@ -132,7 +188,9 @@ export async function searchCaseStudies(searchTerm: string): Promise<CaseStudy[]
       throw error;
     }
 
-    return data || [];
+    const cases = data || [];
+    // 加载关联的导师和学生信息
+    return await loadCaseRelations(cases);
   } catch (error) {
     console.error('搜索案例异常:', error);
     throw error;

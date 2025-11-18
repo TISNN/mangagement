@@ -463,9 +463,24 @@ const headlineMetrics = useMemo(
     <div className="space-y-6">
       {/* 顶部导航 */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-        <div className="flex flex-col">
+          <div className="flex flex-col">
           <h1 className="text-2xl font-bold dark:text-white">学生管理总览</h1>
           <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">汇总所有业务线学生，提供跨服务的全局视角</p>
+          <div className="flex items-center gap-2 mt-2">
+            <button
+              onClick={() => navigate('/admin/students')}
+              className="text-xs text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition-colors"
+            >
+              申请学生中心 →
+            </button>
+            <span className="text-xs text-gray-400 dark:text-gray-500">|</span>
+            <button
+              onClick={() => navigate('/admin/service-chronology')}
+              className="text-xs text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition-colors"
+            >
+              服务进度中心 →
+            </button>
+          </div>
         </div>
         <div className="flex flex-wrap gap-3">
           <div className="relative">

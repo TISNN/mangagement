@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Download, List, Users, FileSpreadsheet, KanbanSquare, BarChart3 } from 'lucide-react';
 import { useDataContext } from '../../../context/DataContext';
 import SummaryCards from './components/SummaryCards';
@@ -27,6 +28,7 @@ const VIEW_TABS: Array<{ id: StudentView; label: string; icon: React.ElementType
 ];
 
 const StudentManagementPage: React.FC = () => {
+  const navigate = useNavigate();
   const {
     students: rawStudents,
     loadingStudents,
@@ -210,6 +212,21 @@ const StudentManagementPage: React.FC = () => {
           <p className="max-w-2xl text-sm leading-6 text-gray-500 dark:text-gray-400">
             聚焦留学申请业务的学生，提供列表、卡片、表格、看板与洞察多视图。结合 AI 洞察、风险预警与服务进度，为申请顾问与运营团队提供高密度协作闭环。
           </p>
+          <div className="flex items-center gap-2 mt-2">
+            <button
+              onClick={() => navigate('/admin/students-legacy')}
+              className="text-xs text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition-colors"
+            >
+              ← 学生管理总览
+            </button>
+            <span className="text-xs text-gray-400 dark:text-gray-500">|</span>
+            <button
+              onClick={() => navigate('/admin/service-chronology')}
+              className="text-xs text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition-colors"
+            >
+              服务进度中心 →
+            </button>
+          </div>
         </div>
         <div className="flex flex-wrap gap-2">
           <button

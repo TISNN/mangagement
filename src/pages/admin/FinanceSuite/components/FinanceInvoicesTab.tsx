@@ -1,8 +1,10 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 import {
   Download,
+  FileText,
   Filter,
+  Loader2,
   Sparkles,
 } from 'lucide-react';
 
@@ -14,20 +16,86 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 
+import { financeService } from '@/services/finance/financeService';
 import {
   INVOICE_FILTERS,
-  INVOICE_RECORDS,
-  INVOICE_SUMMARY,
 } from '../data';
 import type { InvoiceRecord } from '../types';
 
 export const FinanceInvoicesTab = () => {
   const [invoiceFilter, setInvoiceFilter] = useState<string>('all');
   const [selectedInvoice, setSelectedInvoice] = useState<InvoiceRecord | null>(null);
+  const [invoices, setInvoices] = useState<any[]>([]);
+  const [summary, setSummary] = useState<any[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // 加载发票数据
+  useEffect(() => {
+    const loadInvoices = async () => {
+      try {
+        setIsLoading(true);
+        const allInvoices = await financeService.getAllInvoices();
+        
+        // 转换为 InvoiceRecord 格式
+        const formattedInvoices: InvoiceRecord[] = allInvoices.map((inv: any) => ({
+          id: inv.invoice_number || `INV-${inv.id}`,
+          type: inv.type as '增值税专用' | '增值税普通' | '跨境电子',
+          client: inv.client_name,
+          project: inv.project_name || '未分类',
+          amount: Number(inv.amount),
+          taxRate: Number(inv.tax_rate) || 0,
+          issuedAt: inv.issued_at,
+          status: inv.status as '草稿' | '待审核' | '已开票' | '已寄出' | '作废',
+          approver: inv.approver,
+          logistics: inv.logistics_company ? {
+            company: inv.logistics_company,
+            trackingNo: inv.logistics_tracking_no || '',
+            shippedAt: inv.logistics_shipped_at || ''
+          } : undefined,
+          relatedTransaction: inv.related_transaction_id ? `TRX-${inv.related_transaction_id}` : ''
+        }));
+        
+        setInvoices(formattedInvoices);
+        
+        // 计算汇总数据
+        const pendingAmount = formattedInvoices
+          .filter(i => i.status === '待审核')
+          .reduce((sum, i) => sum + i.amount, 0);
+        
+        const thisMonth = new Date().getMonth();
+        const thisYear = new Date().getFullYear();
+        const thisMonthInvoices = formattedInvoices.filter(i => {
+          const date = new Date(i.issuedAt);
+          return date.getMonth() === thisMonth && date.getFullYear() === thisYear && i.status === '已开票';
+        });
+        const thisMonthAmount = thisMonthInvoices.reduce((sum, i) => sum + i.amount, 0);
+        
+        const overseasAmount = formattedInvoices
+          .filter(i => i.type === '跨境电子')
+          .reduce((sum, i) => sum + i.amount, 0);
+        
+        const invalidCount = formattedInvoices.filter(i => i.status === '作废').length;
+        const invalidRate = formattedInvoices.length > 0 ? (invalidCount / formattedInvoices.length * 100).toFixed(1) : '0';
+        
+        setSummary([
+          { label: '待开票金额', value: `¥ ${pendingAmount.toLocaleString()}`, tone: 'negative' as const, description: `涉及 ${formattedInvoices.filter(i => i.status === '待审核').length} 张待审核发票` },
+          { label: '本月已开票', value: `¥ ${thisMonthAmount.toLocaleString()}`, tone: 'positive' as const, description: '较上月 +16.8%' },
+          { label: '跨境发票', value: `¥ ${overseasAmount.toLocaleString()}`, tone: 'neutral' as const, description: '需额外合规复核' },
+          { label: '作废率', value: `${invalidRate}%`, tone: 'neutral' as const, description: '目标 ≤ 3%' },
+        ]);
+      } catch (error) {
+        console.error('加载发票数据失败', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    
+    loadInvoices();
+  }, []);
 
   const filteredInvoices = useMemo(
     () =>
-      INVOICE_RECORDS.filter((invoice) => {
+      invoices.filter((invoice) => {
         const matchFilter = (() => {
           switch (invoiceFilter) {
             case 'pending':
@@ -45,14 +113,14 @@ export const FinanceInvoicesTab = () => {
 
         return matchFilter;
       }),
-    [invoiceFilter],
+    [invoiceFilter, invoices],
   );
 
   return (
     <>
       <section className="space-y-6">
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-          {INVOICE_SUMMARY.map((card) => (
+          {summary.map((card) => (
             <div key={card.label} className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-700 dark:bg-gray-900/70">
               <p className="text-xs font-medium text-gray-500 dark:text-gray-400">{card.label}</p>
               <p
@@ -129,51 +197,74 @@ export const FinanceInvoicesTab = () => {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100 bg-white dark:divide-gray-800 dark:bg-gray-900/40">
-                {filteredInvoices.map((invoice) => (
-                  <tr key={invoice.id} className="hover:bg-gray-50/60 dark:hover:bg-gray-800/40">
-                    <td className="px-6 py-4 font-medium text-gray-900 dark:text-gray-100">{invoice.id}</td>
-                    <td className="px-6 py-4 text-gray-600 dark:text-gray-300">{invoice.type}</td>
-                    <td className="px-6 py-4">
-                      <div className="text-gray-900 dark:text-gray-100">{invoice.client}</div>
-                      <div className="mt-1 text-xs text-gray-500 dark:text-gray-400">{invoice.project}</div>
-                    </td>
-                    <td className="px-6 py-4 text-right text-gray-900 dark:text-gray-100">¥ {invoice.amount.toLocaleString()}</td>
-                    <td className="px-6 py-4 text-gray-600 dark:text-gray-300">{invoice.issuedAt}</td>
-                    <td className="px-6 py-4">
-                      <span
-                        className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-medium ${
-                          invoice.status === '已开票'
-                            ? 'bg-emerald-50 text-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-300'
-                            : invoice.status === '待审核'
-                              ? 'bg-amber-50 text-amber-600 dark:bg-amber-900/30 dark:text-amber-300'
-                              : invoice.status === '草稿'
-                                ? 'bg-gray-100 text-gray-500 dark:bg-gray-800 dark:text-gray-300'
-                                : invoice.status === '已寄出'
-                                  ? 'bg-blue-50 text-blue-600 dark:bg-blue-900/30 dark:text-blue-200'
-                                  : 'bg-rose-50 text-rose-600 dark:bg-rose-900/30 dark:text-rose-300'
-                        }`}
-                      >
-                        {invoice.status}
-                      </span>
-                    </td>
-                    <td className="px-6 py-4 text-right">
-                      <div className="flex justify-end gap-2 text-xs">
-                        <button
-                          className="rounded-lg border border-gray-200 px-3 py-1 text-gray-600 transition hover:border-blue-200 hover:text-blue-600 dark:border-gray-600 dark:text-gray-300 dark:hover:border-blue-500 dark:hover:text-blue-300"
-                          onClick={() => setSelectedInvoice(invoice)}
-                        >
-                          查看详情
-                        </button>
-                        <button
-                          className="rounded-lg border border-gray-200 px-3 py-1 text-gray-600 transition hover:border-blue-200 hover:text-blue-600 dark:border-gray-600 dark:text-gray-300 dark:hover:border-blue-500 dark:hover:text-blue-300"
-                          onClick={() => console.info('[FinanceSuite] 导出发票', invoice.id)}
-                        >
-                          导出 PDF
-                        </button>
+                {isLoading ? (
+                  <tr>
+                    <td colSpan={7} className="px-6 py-12 text-center text-sm text-gray-500 dark:text-gray-400">
+                      <div className="flex flex-col items-center gap-3">
+                        <Loader2 className="h-6 w-6 animate-spin" />
+                        正在加载发票数据...
                       </div>
                     </td>
                   </tr>
-                ))}
+                ) : filteredInvoices.length === 0 ? (
+                  <tr>
+                    <td colSpan={7} className="px-6 py-12 text-center text-sm text-gray-500 dark:text-gray-400">
+                      <div className="flex flex-col items-center gap-3">
+                        <FileText className="h-12 w-12 text-gray-300 dark:text-gray-600" />
+                        <p className="text-base font-medium text-gray-900 dark:text-white">暂无发票数据</p>
+                        <p className="text-sm text-gray-500 dark:text-gray-400">
+                          {invoiceFilter !== 'all' ? '当前筛选条件下没有发票记录' : '当前没有发票记录，请创建新发票'}
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
+                ) : (
+                  filteredInvoices.map((invoice) => (
+                    <tr key={invoice.id} className="hover:bg-gray-50/60 dark:hover:bg-gray-800/40">
+                      <td className="px-6 py-4 font-medium text-gray-900 dark:text-gray-100">{invoice.id}</td>
+                      <td className="px-6 py-4 text-gray-600 dark:text-gray-300">{invoice.type}</td>
+                      <td className="px-6 py-4">
+                        <div className="text-gray-900 dark:text-gray-100">{invoice.client}</div>
+                        <div className="mt-1 text-xs text-gray-500 dark:text-gray-400">{invoice.project}</div>
+                      </td>
+                      <td className="px-6 py-4 text-right text-gray-900 dark:text-gray-100">¥ {invoice.amount.toLocaleString()}</td>
+                      <td className="px-6 py-4 text-gray-600 dark:text-gray-300">{invoice.issuedAt}</td>
+                      <td className="px-6 py-4">
+                        <span
+                          className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-medium ${
+                            invoice.status === '已开票'
+                              ? 'bg-emerald-50 text-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-300'
+                              : invoice.status === '待审核'
+                                ? 'bg-amber-50 text-amber-600 dark:bg-amber-900/30 dark:text-amber-300'
+                                : invoice.status === '草稿'
+                                  ? 'bg-gray-100 text-gray-500 dark:bg-gray-800 dark:text-gray-300'
+                                  : invoice.status === '已寄出'
+                                    ? 'bg-blue-50 text-blue-600 dark:bg-blue-900/30 dark:text-blue-200'
+                                    : 'bg-rose-50 text-rose-600 dark:bg-rose-900/30 dark:text-rose-300'
+                          }`}
+                        >
+                          {invoice.status}
+                        </span>
+                      </td>
+                      <td className="px-6 py-4 text-right">
+                        <div className="flex justify-end gap-2 text-xs">
+                          <button
+                            className="rounded-lg border border-gray-200 px-3 py-1 text-gray-600 transition hover:border-blue-200 hover:text-blue-600 dark:border-gray-600 dark:text-gray-300 dark:hover:border-blue-500 dark:hover:text-blue-300"
+                            onClick={() => setSelectedInvoice(invoice)}
+                          >
+                            查看详情
+                          </button>
+                          <button
+                            className="rounded-lg border border-gray-200 px-3 py-1 text-gray-600 transition hover:border-blue-200 hover:text-blue-600 dark:border-gray-600 dark:text-gray-300 dark:hover:border-blue-500 dark:hover:text-blue-300"
+                            onClick={() => console.info('[FinanceSuite] 导出发票', invoice.id)}
+                          >
+                            导出 PDF
+                          </button>
+                        </div>
+                      </td>
+                    </tr>
+                  ))
+                )}
               </tbody>
             </table>
           </div>

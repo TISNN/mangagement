@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 import {
   AlertCircle,
@@ -12,6 +12,10 @@ import {
   Clock,
   Calendar,
   ShieldCheck,
+  ArrowDownToLine,
+  BarChart3,
+  TrendingUp,
+  Loader2,
 } from 'lucide-react';
 
 import {
@@ -22,16 +26,11 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 
+import { financeService } from '@/services/finance/financeService';
 import { KpiCard } from './KpiCard';
 import {
-  INVOICE_RECORDS,
   KPI_ALERTS,
-  KPI_CARDS,
-  KPI_VARIATIONS,
   PERIOD_OPTIONS,
-  REVENUE_BY_DIMENSION,
-  SPEND_STRUCTURE,
-  TAX_REMINDERS,
 } from '../data';
 import type { KpiCardConfig, PeriodOption, RevenueStream } from '../types';
 
@@ -44,25 +43,132 @@ export const FinanceOverviewTab = ({ onNavigateInvoices }: Props) => {
   const [revenueView, setRevenueView] = useState<'product' | 'channel' | 'region'>('product');
   const [selectedKpi, setSelectedKpi] = useState<KpiCardConfig | null>(null);
   const [selectedRevenue, setSelectedRevenue] = useState<RevenueStream | null>(null);
+  const [displayKpis, setDisplayKpis] = useState<KpiCardConfig[]>([]);
+  const [revenueStreams, setRevenueStreams] = useState<RevenueStream[]>([]);
+  const [spendStructure, setSpendStructure] = useState<any[]>([]);
+  const [recentInvoices, setRecentInvoices] = useState<any[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
 
-  const displayKpis = useMemo(
-    () =>
-      KPI_CARDS.map((card) => ({
-        ...card,
-        ...KPI_VARIATIONS[period][card.id],
-      })),
-    [period],
-  );
-
-  const revenueStreams = useMemo(() => REVENUE_BY_DIMENSION[revenueView], [revenueView]);
-
-  const recentInvoices = useMemo(
-    () =>
-      [...INVOICE_RECORDS]
-        .sort((a, b) => new Date(b.issuedAt).getTime() - new Date(a.issuedAt).getTime())
-        .slice(0, 5),
-    [],
-  );
+  // 加载数据
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        setIsLoading(true);
+        
+        // 并行加载所有数据
+        const [transactions, invoices, revenueData, spendData] = await Promise.all([
+          financeService.getAllTransactions(),
+          financeService.getAllInvoices(),
+          financeService.calculateRevenueStreams(),
+          financeService.calculateSpendStructure()
+        ]);
+        
+        // 计算 KPI
+        const now = new Date();
+        const currentMonthStart = new Date(now.getFullYear(), now.getMonth(), 1);
+        const currentMonthEnd = new Date(now.getFullYear(), now.getMonth() + 1, 0);
+        const lastMonthStart = new Date(now.getFullYear(), now.getMonth() - 1, 1);
+        const lastMonthEnd = new Date(now.getFullYear(), now.getMonth(), 0);
+        
+        const currentMonthIncome = transactions
+          .filter(t => {
+            const date = new Date(t.transaction_date);
+            return date >= currentMonthStart && date <= currentMonthEnd && t.direction === '收入' && t.status === '已完成';
+          })
+          .reduce((sum, t) => sum + Number(t.amount), 0);
+        
+        const lastMonthIncome = transactions
+          .filter(t => {
+            const date = new Date(t.transaction_date);
+            return date >= lastMonthStart && date <= lastMonthEnd && t.direction === '收入' && t.status === '已完成';
+          })
+          .reduce((sum, t) => sum + Number(t.amount), 0);
+        
+        const incomeDelta = lastMonthIncome > 0 ? ((currentMonthIncome - lastMonthIncome) / lastMonthIncome * 100).toFixed(1) : '0';
+        
+        const currentMonthExpense = transactions
+          .filter(t => {
+            const date = new Date(t.transaction_date);
+            return date >= currentMonthStart && date <= currentMonthEnd && t.direction === '支出' && t.status === '已完成';
+          })
+          .reduce((sum, t) => sum + Number(t.amount), 0);
+        
+        const grossMargin = currentMonthIncome > 0 ? ((currentMonthIncome - currentMonthExpense) / currentMonthIncome * 100).toFixed(1) : '0';
+        
+        const receivable = transactions
+          .filter(t => t.direction === '收入' && (t.status === '待收款' || t.status === '待支付'))
+          .reduce((sum, t) => sum + Number(t.amount), 0);
+        
+        const kpis: KpiCardConfig[] = [
+          {
+            id: 'revenue',
+            label: '本月收入',
+            value: `¥ ${currentMonthIncome.toLocaleString()}`,
+            delta: `${incomeDelta.startsWith('-') ? '' : '+'}${incomeDelta}%`,
+            tone: Number(incomeDelta) >= 0 ? 'positive' : 'negative',
+            caption: '较上月',
+            description: '课程服务、知识花园 GMV、企业授权等合计确认收入。',
+            icon: TrendingUp,
+          },
+          {
+            id: 'grossMargin',
+            label: '毛利率',
+            value: `${grossMargin}%`,
+            delta: '+0pp',
+            tone: 'positive',
+            caption: '目标线 55%',
+            description: '按产品线统计，扣除可变成本后的利润率。',
+            icon: BarChart3,
+          },
+          {
+            id: 'cashDays',
+            label: '现金储备天数',
+            value: '62 天',
+            delta: '-5 天',
+            tone: 'negative',
+            caption: '安全阈值 ≥ 45 天',
+            description: '可用现金对比日均运营支出所得的缓冲期。',
+            icon: Clock,
+          },
+          {
+            id: 'receivable',
+            label: '应收账款',
+            value: `¥ ${receivable.toLocaleString()}`,
+            delta: '+0%',
+            tone: 'negative',
+            caption: '较上期',
+            description: '已确认收入但尚未回款的总额，需要催收跟进。',
+            icon: ArrowDownToLine,
+          },
+        ];
+        
+        setDisplayKpis(kpis);
+        setRevenueStreams(revenueData);
+        setSpendStructure(spendData);
+        
+        // 格式化最近发票
+        const formattedInvoices = invoices
+          .sort((a, b) => new Date(b.issued_at).getTime() - new Date(a.issued_at).getTime())
+          .slice(0, 5)
+          .map((inv: any) => ({
+            id: inv.invoice_number || `INV-${inv.id}`,
+            client: inv.client_name,
+            project: inv.project_name || '未分类',
+            amount: Number(inv.amount),
+            issuedAt: inv.issued_at,
+            status: inv.status
+          }));
+        
+        setRecentInvoices(formattedInvoices);
+      } catch (error) {
+        console.error('加载财务概览数据失败', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    
+    loadData();
+  }, [period]);
 
   return (
     <section className="space-y-10">
@@ -198,7 +304,7 @@ export const FinanceOverviewTab = ({ onNavigateInvoices }: Props) => {
               <PieChart className="h-6 w-6 text-blue-500" />
             </div>
             <div className="mt-6 space-y-4">
-              {SPEND_STRUCTURE.map((slice) => (
+              {spendStructure.map((slice) => (
                 <div key={slice.name} className="space-y-2">
                   <div className="flex items-center justify-between text-sm text-gray-600 dark:text-gray-300">
                     <span>{slice.name}</span>
@@ -282,33 +388,10 @@ export const FinanceOverviewTab = ({ onNavigateInvoices }: Props) => {
           </button>
         </div>
         <div className="mt-6 grid gap-4 md:grid-cols-3">
-          {TAX_REMINDERS.map((item) => (
-            <div key={item.id} className="rounded-2xl border border-gray-100 bg-gray-50/70 p-5 dark:border-gray-700 dark:bg-gray-800/40">
-              <div className="flex items-center gap-2 text-sm font-semibold text-gray-900 dark:text-white">
-                <Calendar className="h-4 w-4 text-blue-500" />
-                {item.title}
-              </div>
-              <p className="mt-2 text-xs text-gray-500 dark:text-gray-400">截止：{item.dueDate}</p>
-              <p className="mt-3 text-sm text-gray-600 dark:text-gray-300">{item.description}</p>
-              <div className="mt-4 flex items-center justify-between text-xs">
-                <span className="inline-flex items-center gap-1 text-gray-500 dark:text-gray-400">
-                  <ShieldCheck className="h-3.5 w-3.5" />
-                  {item.owner}
-                </span>
-                <span
-                  className={`rounded-full px-2 py-0.5 font-medium ${
-                    item.severity === 'critical'
-                      ? 'bg-rose-50 text-rose-600 dark:bg-rose-900/40 dark:text-rose-300'
-                      : item.severity === 'warn'
-                        ? 'bg-amber-50 text-amber-600 dark:bg-amber-900/40 dark:text-amber-300'
-                        : 'bg-emerald-50 text-emerald-600 dark:bg-emerald-900/40 dark:text-emerald-300'
-                  }`}
-                >
-                  {item.severity === 'critical' ? '高风险' : item.severity === 'warn' ? '提醒' : '已跟进'}
-                </span>
-              </div>
-            </div>
-          ))}
+          {/* 税务提醒：可以从 finance_tax_calendar 表加载，暂时显示空状态 */}
+          <div className="col-span-3 rounded-2xl border border-gray-200 bg-gray-50/70 p-6 text-center text-sm text-gray-500 dark:border-gray-700 dark:bg-gray-800/40 dark:text-gray-400">
+            暂无税务提醒数据（可从 finance_tax_calendar 表加载）
+          </div>
         </div>
       </div>
 
@@ -326,8 +409,20 @@ export const FinanceOverviewTab = ({ onNavigateInvoices }: Props) => {
           </button>
         </div>
         <div className="mt-4 space-y-3">
-          {recentInvoices.map((invoice) => (
-            <div key={invoice.id} className="flex flex-wrap items-center justify-between gap-4 rounded-xl border border-gray-100 bg-gray-50/70 px-4 py-3 text-sm dark:border-gray-700 dark:bg-gray-800/40">
+          {isLoading ? (
+            <div className="flex items-center justify-center py-8 text-sm text-gray-500 dark:text-gray-400">
+              <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+              正在加载发票数据...
+            </div>
+          ) : recentInvoices.length === 0 ? (
+            <div className="flex flex-col items-center justify-center rounded-xl border border-gray-100 bg-gray-50/70 px-4 py-12 text-center dark:border-gray-700 dark:bg-gray-800/40">
+              <FileText className="h-12 w-12 text-gray-300 dark:text-gray-600" />
+              <p className="mt-3 text-sm font-medium text-gray-900 dark:text-white">暂无最近发票</p>
+              <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">当前没有发票记录</p>
+            </div>
+          ) : (
+            recentInvoices.map((invoice) => (
+              <div key={invoice.id} className="flex flex-wrap items-center justify-between gap-4 rounded-xl border border-gray-100 bg-gray-50/70 px-4 py-3 text-sm dark:border-gray-700 dark:bg-gray-800/40">
               <div className="min-w-[200px]">
                 <p className="font-medium text-gray-900 dark:text-white">{invoice.id}</p>
                 <p className="text-xs text-gray-500 dark:text-gray-400">{invoice.client}</p>
@@ -353,7 +448,8 @@ export const FinanceOverviewTab = ({ onNavigateInvoices }: Props) => {
                 {invoice.status}
               </span>
             </div>
-          ))}
+            ))
+          )}
         </div>
       </div>
 

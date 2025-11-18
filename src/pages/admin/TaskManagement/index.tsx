@@ -3,7 +3,8 @@
  * 重构版 - 结构清晰、易于维护
  */
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { Plus, AlertCircle, Search, X } from 'lucide-react';
 import { toast } from 'react-hot-toast';
 import { useTaskData } from './hooks/useTaskData';
@@ -22,6 +23,9 @@ import LegacyTaskBanner from './components/LegacyTaskBanner';
 import { UITask, TaskFilters as TaskFiltersType } from './types/task.types';
 
 const TaskManagementPage: React.FC = () => {
+  const location = useLocation();
+  const navigate = useNavigate();
+  
   // 数据层
   const { 
     tasks, 
@@ -173,6 +177,23 @@ const TaskManagementPage: React.FC = () => {
     };
     loadMeetings();
   }, []);
+
+  // 处理从 Dashboard 跳转过来的任务详情打开
+  useEffect(() => {
+    const state = location.state as { taskId?: number; openDetail?: boolean } | null;
+    if (state?.taskId && state?.openDetail && tasks.length > 0 && !loading) {
+      const task = tasks.find(t => t.id === String(state.taskId));
+      if (task) {
+        console.log('[TaskManagement] 从 Dashboard 跳转过来，自动打开任务详情:', task);
+        setSelectedTaskId(task.id);
+        setIsSidePanelOpen(true);
+        openDetailModal(task);
+        // 清除路由状态，避免刷新时重复打开
+        navigate(location.pathname, { replace: true, state: {} });
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [tasks, loading, location.state]);
 
   // 当tasks更新时,同步更新侧边面板的currentTask
   React.useEffect(() => {

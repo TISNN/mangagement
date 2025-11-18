@@ -30,11 +30,18 @@ const CreateCaseModal: React.FC<CreateCaseModalProps> = ({ isOpen, onClose, onSu
     offer_type: '',
     scholarship: '',
     notes: '',
+    // 关联字段
+    mentor_id: undefined as number | undefined,
+    student_id: undefined as number | undefined,
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [programs, setPrograms] = useState<{ id: string; school: string; program: string }[]>([]);
   const [loadingPrograms, setLoadingPrograms] = useState(false);
+  const [mentors, setMentors] = useState<{ id: number; name: string; specializations?: string[] }[]>([]);
+  const [students, setStudents] = useState<{ id: number; name: string; education_level?: string }[]>([]);
+  const [loadingMentors, setLoadingMentors] = useState(false);
+  const [loadingStudents, setLoadingStudents] = useState(false);
 
   // 加载可选的专业项目列表
   useEffect(() => {
@@ -82,6 +89,69 @@ const CreateCaseModal: React.FC<CreateCaseModalProps> = ({ isOpen, onClose, onSu
     }
   }, [isOpen]);
 
+  // 加载导师列表
+  useEffect(() => {
+    const loadMentors = async () => {
+      setLoadingMentors(true);
+      try {
+        const { data, error } = await supabase
+          .from('mentors')
+          .select('id, name, specializations')
+          .eq('is_active', true)
+          .order('name')
+          .limit(100);
+
+        if (error) {
+          console.error('加载导师列表失败:', error);
+          return;
+        }
+
+        if (data) {
+          setMentors(data);
+        }
+      } catch (error) {
+        console.error('加载导师列表异常:', error);
+      } finally {
+        setLoadingMentors(false);
+      }
+    };
+
+    if (isOpen) {
+      loadMentors();
+    }
+  }, [isOpen]);
+
+  // 加载学生列表
+  useEffect(() => {
+    const loadStudents = async () => {
+      setLoadingStudents(true);
+      try {
+        const { data, error } = await supabase
+          .from('students')
+          .select('id, name, education_level')
+          .order('name')
+          .limit(100);
+
+        if (error) {
+          console.error('加载学生列表失败:', error);
+          return;
+        }
+
+        if (data) {
+          setStudents(data);
+        }
+      } catch (error) {
+        console.error('加载学生列表异常:', error);
+      } finally {
+        setLoadingStudents(false);
+      }
+    };
+
+    if (isOpen) {
+      loadStudents();
+    }
+  }, [isOpen]);
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -109,6 +179,8 @@ const CreateCaseModal: React.FC<CreateCaseModalProps> = ({ isOpen, onClose, onSu
         offer_type: '',
         scholarship: '',
         notes: '',
+        mentor_id: undefined,
+        student_id: undefined,
       });
     } catch (error) {
       console.error('创建案例失败:', error);
@@ -232,6 +304,62 @@ const CreateCaseModal: React.FC<CreateCaseModalProps> = ({ isOpen, onClose, onSu
                   </select>
                   {loadingPrograms && (
                     <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">加载专业列表中...</p>
+                  )}
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                    负责导师
+                    <span className="text-xs text-gray-500 dark:text-gray-400 ml-2">（可选）</span>
+                  </label>
+                  <select
+                    value={formData.mentor_id || ''}
+                    onChange={(e) => setFormData({ 
+                      ...formData, 
+                      mentor_id: e.target.value ? parseInt(e.target.value) : undefined 
+                    })}
+                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+                    disabled={loadingMentors}
+                  >
+                    <option value="">不关联导师</option>
+                    {mentors.map((mentor) => (
+                      <option key={mentor.id} value={mentor.id}>
+                        {mentor.name}
+                      </option>
+                    ))}
+                  </select>
+                  {loadingMentors && (
+                    <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">加载导师列表中...</p>
+                  )}
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                    关联学生
+                    <span className="text-xs text-gray-500 dark:text-gray-400 ml-2">（可选）</span>
+                  </label>
+                  <select
+                    value={formData.student_id || ''}
+                    onChange={(e) => {
+                      const selectedStudentId = e.target.value ? parseInt(e.target.value) : undefined;
+                      const selectedStudent = students.find(s => s.id === selectedStudentId);
+                      setFormData({ 
+                        ...formData, 
+                        student_id: selectedStudentId,
+                        // 如果选择了学生，自动填充学生姓名
+                        student_name: selectedStudent?.name || formData.student_name
+                      });
+                    }}
+                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+                    disabled={loadingStudents}
+                  >
+                    <option value="">不关联学生</option>
+                    {students.map((student) => (
+                      <option key={student.id} value={student.id}>
+                        {student.name}
+                      </option>
+                    ))}
+                  </select>
+                  {loadingStudents && (
+                    <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">加载学生列表中...</p>
                   )}
                 </div>
                 <div className="col-span-2">

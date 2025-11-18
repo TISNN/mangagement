@@ -33,6 +33,10 @@ import { Selection } from "@tiptap/extensions"
 import { Placeholder } from "@tiptap/extension-placeholder"
 import { TextStyle } from "@tiptap/extension-text-style"
 import { Color } from "@tiptap/extension-color"
+import { Table } from "@tiptap/extension-table"
+import { TableRow } from "@tiptap/extension-table-row"
+import { TableCell } from "@tiptap/extension-table-cell"
+import { TableHeader } from "@tiptap/extension-table-header"
 
 // --- UI Primitives ---
 import { Spacer } from "@/components/tiptap-ui-primitive/spacer"
@@ -45,6 +49,7 @@ import {
 // --- Tiptap Node ---
 import { ImageUploadNode } from "@/components/tiptap-node/image-upload-node/image-upload-node-extension"
 import { HorizontalRule } from "@/components/tiptap-node/horizontal-rule-node/horizontal-rule-node-extension"
+import { Sparkles } from "lucide-react"
 import "@/components/tiptap-node/blockquote-node/blockquote-node.scss"
 import "@/components/tiptap-node/code-block-node/code-block-node.scss"
 import "@/components/tiptap-node/horizontal-rule-node/horizontal-rule-node.scss"
@@ -64,6 +69,7 @@ import { LinkPopover } from "@/components/tiptap-ui/link-popover"
 import { MarkButton } from "@/components/tiptap-ui/mark-button"
 import { TextAlignButton } from "@/components/tiptap-ui/text-align-button"
 import { UndoRedoButton } from "@/components/tiptap-ui/undo-redo-button"
+import { TableMenu } from "@/components/tiptap-ui/table-menu"
 
 // --- Hooks ---
 import { useIsMobile } from "@/hooks/use-mobile"
@@ -272,6 +278,15 @@ export default function SimpleEditorWrapper({
       Superscript,
       Subscript,
       Selection,
+      Table.configure({
+        resizable: true,
+        HTMLAttributes: {
+          class: 'tiptap-table',
+        },
+      }),
+      TableRow,
+      TableCell,
+      TableHeader,
       ImageUploadNode.configure({
         accept: "image/*",
         maxSize: MAX_FILE_SIZE,
@@ -483,6 +498,136 @@ export default function SimpleEditorWrapper({
     setAIGeneratedText('');
   }, []);
 
+  // 自动排版功能
+  const handleAutoFormat = useCallback(() => {
+    if (!editor) return;
+
+    // 获取当前内容
+    const html = editor.getHTML();
+    
+    // 创建临时 DOM 元素来解析和格式化 HTML
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = html;
+
+    // 1. 清理多余的空段落
+    const allParagraphs = tempDiv.querySelectorAll('p');
+    allParagraphs.forEach(p => {
+      // 检查段落是否为空（只有空白字符或只有 <br> 标签）
+      const text = p.textContent?.trim() || '';
+      const hasOnlyBr = p.children.length === 0 && p.querySelectorAll('br').length > 0 && text === '';
+      const isEmpty = text === '' && p.children.length === 0;
+      
+      if (isEmpty || hasOnlyBr) {
+        // 保留必要的空段落（用于间距），但删除连续的空段落
+        const prev = p.previousElementSibling;
+        const next = p.nextElementSibling;
+        const prevIsParagraph = prev && prev.tagName === 'P';
+        const nextIsParagraph = next && next.tagName === 'P';
+        
+        // 如果前后都是段落，删除这个空段落
+        if (prevIsParagraph || nextIsParagraph) {
+          p.remove();
+        }
+      }
+    });
+
+    // 2. 规范化段落内容（清理多余空格和换行）
+    const paragraphs = tempDiv.querySelectorAll('p');
+    paragraphs.forEach(p => {
+      // 获取文本内容并清理
+      let text = p.textContent || '';
+      // 清理多余空格（保留单个空格）
+      text = text.replace(/\s+/g, ' ').trim();
+      // 如果段落不为空，更新内容
+      if (text) {
+        // 保留原有的 HTML 结构（如粗体、斜体等），但清理文本
+        const walker = document.createTreeWalker(p, NodeFilter.SHOW_TEXT, null);
+        const textNodes: Text[] = [];
+        let node: Node | null;
+        while ((node = walker.nextNode())) {
+          textNodes.push(node as Text);
+        }
+        // 清理每个文本节点
+        textNodes.forEach(textNode => {
+          const cleaned = textNode.textContent?.replace(/\s+/g, ' ').trim() || '';
+          if (cleaned) {
+            textNode.textContent = cleaned;
+          } else {
+            textNode.remove();
+          }
+        });
+      }
+    });
+
+    // 3. 规范化列表格式
+    const lists = tempDiv.querySelectorAll('ul, ol');
+    lists.forEach(list => {
+      // 清理列表项中的空段落
+      const items = list.querySelectorAll('li');
+      items.forEach(item => {
+        const emptyPs = item.querySelectorAll('p:empty');
+        emptyPs.forEach(p => p.remove());
+        // 如果列表项只有空内容，删除它
+        if (!item.textContent?.trim() && item.children.length === 0) {
+          item.remove();
+        }
+      });
+    });
+
+    // 4. 规范化标题格式
+    const headings = tempDiv.querySelectorAll('h1, h2, h3, h4, h5, h6');
+    headings.forEach(heading => {
+      let text = heading.textContent || '';
+      text = text.replace(/\s+/g, ' ').trim();
+      if (!text) {
+        heading.remove();
+      }
+    });
+
+    // 5. 规范化引用格式
+    const blockquotes = tempDiv.querySelectorAll('blockquote');
+    blockquotes.forEach(blockquote => {
+      const emptyPs = blockquote.querySelectorAll('p:empty');
+      emptyPs.forEach(p => p.remove());
+    });
+
+    // 6. 清理连续的 <br> 标签（保留最多一个）
+    const allElements = tempDiv.querySelectorAll('*');
+    allElements.forEach(el => {
+      const children = Array.from(el.childNodes);
+      let lastWasBr = false;
+      children.forEach((child) => {
+        if (child.nodeType === Node.ELEMENT_NODE && (child as Element).tagName === 'BR') {
+          if (lastWasBr) {
+            child.remove();
+          } else {
+            lastWasBr = true;
+          }
+        } else {
+          lastWasBr = false;
+        }
+      });
+    });
+
+    // 7. 规范化代码块
+    const codeBlocks = tempDiv.querySelectorAll('pre code, code');
+    codeBlocks.forEach(code => {
+      // 代码块保持原样，只清理首尾空白
+      if (code.textContent) {
+        code.textContent = code.textContent.trim();
+      }
+    });
+
+    // 获取格式化后的 HTML
+    const formattedHtml = tempDiv.innerHTML;
+
+    // 更新编辑器内容
+    editor.commands.setContent(formattedHtml);
+
+    // 显示成功提示（使用更友好的方式）
+    console.log('✅ 文档已自动排版完成');
+  }, [editor]);
+
   // 同步 editor 到 ref
   useEffect(() => {
     if (editor) {
@@ -611,6 +756,20 @@ export default function SimpleEditorWrapper({
                 <LinkPopover />
                 <ColorHighlightPopover />
                 <ImageUploadButton />
+                <TableMenu editor={editor} />
+              </ToolbarGroup>
+
+              <ToolbarSeparator />
+
+              <ToolbarGroup>
+                <button
+                  onClick={handleAutoFormat}
+                  className="inline-flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 rounded transition-colors"
+                  title="自动排版（清理格式、规范化段落）"
+                >
+                  <Sparkles className="h-3.5 w-3.5" />
+                  <span>自动排版</span>
+                </button>
               </ToolbarGroup>
 
               <Spacer />
@@ -618,14 +777,14 @@ export default function SimpleEditorWrapper({
           )}
         </Toolbar>
 
-          {/* 自定义内容（例如标题） */}
+          {/* 自定义内容（例如标题）- 已移到 DocumentEditor 中 */}
           {renderBeforeEditor && renderBeforeEditor()}
 
-          {/* 编辑器内容区域 */}
-          <div className={`flex-1 overflow-y-auto p-8 ${showAIAssistant ? 'hide-placeholder' : ''}`}>
+          {/* 编辑器内容区域 - 延伸到页面底部，无底部边界 */}
+          <div className={`flex-1 overflow-y-auto px-8 pt-8 ${showAIAssistant ? 'hide-placeholder' : ''}`}>
             <EditorContent 
               editor={editor}
-              className="prose prose-lg dark:prose-invert max-w-none focus:outline-none min-h-full"
+              className="prose prose-lg dark:prose-invert max-w-none focus:outline-none min-h-full pb-[50vh]"
             />
           </div>
         </EditorContext.Provider>

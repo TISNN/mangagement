@@ -159,16 +159,6 @@ export const APP_FEATURES: AppFeature[] = [
     tags: ['学习'],
   },
   {
-    id: 'smart-selection',
-    title: '智能选校',
-    description: 'AI 帮你筛选匹配度最高的院校',
-    category: '智能助手',
-    icon: Brain,
-    rolesAllowed: ['admin', 'student'],
-    badge: '热门',
-    tags: ['AI'],
-  },
-  {
     id: 'crm-lead-list',
     title: '客户线索',
     description: '集中跟进顾问与市场线索',

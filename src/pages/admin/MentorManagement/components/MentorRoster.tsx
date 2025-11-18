@@ -1,4 +1,4 @@
-import { ArrowRight, MessageCircle, Sparkles, Users } from 'lucide-react';
+import { GraduationCap, Users } from 'lucide-react';
 
 import type { MentorRecord } from '../types';
 
@@ -23,7 +23,8 @@ export const MentorRoster = ({ mentors, selectedIds, onToggleSelect, selectLabel
         return (
           <div
             key={mentor.id}
-            className="group flex h-full flex-col rounded-2xl border border-gray-100 bg-white p-5 shadow-sm transition-shadow hover:shadow-xl dark:border-gray-700/60 dark:bg-gray-800"
+            onClick={() => onViewDetail?.(mentor.id)}
+            className="group flex h-full flex-col rounded-2xl border border-gray-100 bg-white p-5 shadow-sm transition-shadow hover:shadow-xl dark:border-gray-700/60 dark:bg-gray-800 cursor-pointer"
           >
             <div className="flex items-start justify-between gap-3">
               <div className="flex items-center gap-3">
@@ -49,6 +50,21 @@ export const MentorRoster = ({ mentors, selectedIds, onToggleSelect, selectLabel
                 {mentor.risk}
               </span>
             </div>
+
+            {/* 教育背景 */}
+            {mentor.education && mentor.education.length > 0 && (
+              <div className="mt-4 grid grid-cols-2 gap-2">
+                {mentor.education.slice(0, 2).map((edu, index) => (
+                  <div key={index} className="flex items-start gap-1.5 text-xs text-gray-600 dark:text-gray-300">
+                    <GraduationCap className="h-3 w-3 mt-0.5 text-indigo-500 flex-shrink-0" />
+                    <div className="flex-1 min-w-0">
+                      <p className="font-medium text-gray-900 dark:text-white truncate">{edu.school}</p>
+                      <p className="text-gray-500 dark:text-gray-400 truncate">{edu.degree}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
 
             <div className="mt-4 grid grid-cols-2 gap-3 text-xs text-gray-500 dark:text-gray-400">
               <div className="flex items-center gap-2">
@@ -83,8 +99,8 @@ export const MentorRoster = ({ mentors, selectedIds, onToggleSelect, selectLabel
               </span>
             </div>
 
-            <div className="mt-auto pt-4 flex flex-wrap gap-2">
-              {onToggleSelect && !hideSelectAction && (
+            {onToggleSelect && !hideSelectAction && (
+              <div className="mt-auto pt-4" onClick={(e) => e.stopPropagation()}>
                 <button
                   onClick={() => onToggleSelect(mentor.id)}
                   className={`inline-flex items-center gap-2 rounded-xl px-3 py-2 text-xs ${
@@ -93,21 +109,8 @@ export const MentorRoster = ({ mentors, selectedIds, onToggleSelect, selectLabel
                 >
                   {selectLabel ?? (isSelected ? '已加入我的导师' : '加入我的导师')}
                 </button>
-              )}
-              <button
-                className="inline-flex items-center gap-2 rounded-xl border border-gray-200 dark:border-gray-600 px-3 py-2 text-xs text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700/60"
-              >
-                <MessageCircle className="h-3.5 w-3.5" />
-                联系导师
-              </button>
-              <button
-                onClick={() => onViewDetail?.(mentor.id)}
-                className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-3 py-2 text-xs text-white hover:bg-blue-700"
-              >
-                查看详情
-                <ArrowRight className="h-3.5 w-3.5" />
-              </button>
-            </div>
+              </div>
+            )}
           </div>
         );
       })}

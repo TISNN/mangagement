@@ -2,8 +2,8 @@
  * 创建/编辑会议模态框
  */
 
-import { useState, useEffect } from 'react';
-import { X, Calendar, Clock, MapPin, Link as LinkIcon, Users, Plus, Loader2, Save, Wand2 } from 'lucide-react';
+import { useState, useEffect, useMemo } from 'react';
+import { X, Calendar, Clock, MapPin, Link as LinkIcon, Users, Plus, Loader2, Save, Wand2, User, Search } from 'lucide-react';
 import { MeetingFormData, MeetingType, MeetingStatus, Participant } from '../types';
 import { getMentors, getStudents, getEmployees } from '../services/meetingService';
 
@@ -26,6 +26,7 @@ const buildInitialFormData = (initialData?: Partial<MeetingFormData>): MeetingFo
   agenda: initialData?.agenda || '',
   summary: initialData?.summary || '',
   minutes: initialData?.minutes || '',
+  student_id: initialData?.student_id,
 });
 
 export default function CreateMeetingModal({ onClose, onSave, initialData, mode = 'create' }: CreateMeetingModalProps) {
@@ -35,7 +36,9 @@ export default function CreateMeetingModal({ onClose, onSave, initialData, mode 
   const [showParser, setShowParser] = useState(false);
 
   useEffect(() => {
-    setFormData(buildInitialFormData(initialData));
+    const newFormData = buildInitialFormData(initialData);
+    setFormData(newFormData);
+    setSelectedStudentId(newFormData.student_id ?? null);
   }, [initialData]);
 
   // 参会人选择
@@ -45,6 +48,12 @@ export default function CreateMeetingModal({ onClose, onSave, initialData, mode 
   const [students, setStudents] = useState<Array<{ id: number; name: string }>>([]);
   const [employees, setEmployees] = useState<Array<{ id: number; name: string; avatar?: string }>>([]);
   const [customParticipant, setCustomParticipant] = useState('');
+  
+  // 参会人搜索关键词
+  const [participantSearch, setParticipantSearch] = useState('');
+  
+  // 关联学生选择（与参会人选择分开）
+  const [selectedStudentId, setSelectedStudentId] = useState<number | null | undefined>(formData.student_id ?? null);
 
   // 加载参会人列表
   useEffect(() => {
@@ -81,7 +90,14 @@ export default function CreateMeetingModal({ onClose, onSave, initialData, mode 
 
     setSaving(true);
     try {
-      await onSave(formData);
+      // 将选中的学生ID添加到表单数据中
+      // 如果selectedStudentId是null，表示用户明确选择了"不关联学生"
+      // 如果selectedStudentId是undefined，表示用户没有修改（编辑模式下）
+      const submitData = {
+        ...formData,
+        student_id: selectedStudentId === null ? null : selectedStudentId
+      };
+      await onSave(submitData);
       onClose();
     } catch (error) {
       console.error('保存会议失败:', error);
@@ -119,6 +135,25 @@ export default function CreateMeetingModal({ onClose, onSave, initialData, mode 
   const removeParticipant = (id: string) => {
     updateField('participants', formData.participants.filter(p => p.id !== id));
   };
+
+  // 根据搜索关键词过滤参会人列表
+  const filteredMentors = useMemo(() => {
+    if (!participantSearch.trim()) return mentors;
+    const searchLower = participantSearch.toLowerCase();
+    return mentors.filter(mentor => mentor.name.toLowerCase().includes(searchLower));
+  }, [mentors, participantSearch]);
+
+  const filteredStudents = useMemo(() => {
+    if (!participantSearch.trim()) return students;
+    const searchLower = participantSearch.toLowerCase();
+    return students.filter(student => student.name.toLowerCase().includes(searchLower));
+  }, [students, participantSearch]);
+
+  const filteredEmployees = useMemo(() => {
+    if (!participantSearch.trim()) return employees;
+    const searchLower = participantSearch.toLowerCase();
+    return employees.filter(employee => employee.name.toLowerCase().includes(searchLower));
+  }, [employees, participantSearch]);
 
   const meetingTypes: MeetingType[] = [
     '初次咨询', '选校讨论', '文书指导', '面试辅导', '签证指导',
@@ -243,6 +278,30 @@ export default function CreateMeetingModal({ onClose, onSave, initialData, mode 
               />
             </div>
 
+            {/* 关联学生 */}
+            <div>
+              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <User className="h-4 w-4 inline mr-1" />
+                关联学生（可选）
+              </label>
+              <select
+                value={selectedStudentId ?? ''}
+                onChange={(e) => {
+                  const value = e.target.value;
+                  setSelectedStudentId(value === '' ? null : parseInt(value));
+                }}
+                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
+              >
+                <option value="">不关联学生</option>
+                {students.map(student => (
+                  <option key={student.id} value={student.id}>{student.name}</option>
+                ))}
+              </select>
+              <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">
+                选择学生后，会议将同时保存到学生会议记录中，可在学生详情页查看
+              </p>
+            </div>
+
             {/* 类型和状态 */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
@@ -359,105 +418,163 @@ export default function CreateMeetingModal({ onClose, onSave, initialData, mode 
               {/* 参会人选择面板 */}
               {showParticipantSelect && (
                 <div className="mb-4 p-4 border border-gray-200 dark:border-gray-700 rounded-lg bg-gray-50 dark:bg-gray-900">
-                  {/* 类型选择 */}
+                  {/* 类型选择和搜索 */}
                   <div className="flex gap-2 mb-3">
-                    <button
-                      type="button"
-                      onClick={() => setParticipantType('mentor')}
-                      className={`px-3 py-1 rounded-lg text-sm transition-colors ${
-                        participantType === 'mentor'
-                          ? 'bg-blue-600 text-white'
-                          : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300'
-                      }`}
-                    >
-                      导师
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => setParticipantType('student')}
-                      className={`px-3 py-1 rounded-lg text-sm transition-colors ${
-                        participantType === 'student'
-                          ? 'bg-blue-600 text-white'
-                          : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300'
-                      }`}
-                    >
-                      学生
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => setParticipantType('employee')}
-                      className={`px-3 py-1 rounded-lg text-sm transition-colors ${
-                        participantType === 'employee'
-                          ? 'bg-blue-600 text-white'
-                          : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300'
-                      }`}
-                    >
-                      员工
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => setParticipantType('other')}
-                      className={`px-3 py-1 rounded-lg text-sm transition-colors ${
-                        participantType === 'other'
-                          ? 'bg-blue-600 text-white'
-                          : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300'
-                      }`}
-                    >
-                      其他
-                    </button>
+                    <div className="flex gap-2 flex-1">
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setParticipantType('mentor');
+                          setParticipantSearch(''); // 切换类型时清空搜索
+                        }}
+                        className={`px-3 py-1 rounded-lg text-sm transition-colors ${
+                          participantType === 'mentor'
+                            ? 'bg-blue-600 text-white'
+                            : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300'
+                        }`}
+                      >
+                        导师
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setParticipantType('student');
+                          setParticipantSearch(''); // 切换类型时清空搜索
+                        }}
+                        className={`px-3 py-1 rounded-lg text-sm transition-colors ${
+                          participantType === 'student'
+                            ? 'bg-blue-600 text-white'
+                            : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300'
+                        }`}
+                      >
+                        学生
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setParticipantType('employee');
+                          setParticipantSearch(''); // 切换类型时清空搜索
+                        }}
+                        className={`px-3 py-1 rounded-lg text-sm transition-colors ${
+                          participantType === 'employee'
+                            ? 'bg-blue-600 text-white'
+                            : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300'
+                        }`}
+                      >
+                        员工
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setParticipantType('other');
+                          setParticipantSearch(''); // 切换类型时清空搜索
+                        }}
+                        className={`px-3 py-1 rounded-lg text-sm transition-colors ${
+                          participantType === 'other'
+                            ? 'bg-blue-600 text-white'
+                            : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300'
+                        }`}
+                      >
+                        其他
+                      </button>
+                    </div>
+                    {/* 搜索框 */}
+                    <div className="relative flex-1 max-w-xs">
+                      <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
+                      <input
+                        type="text"
+                        value={participantSearch}
+                        onChange={(e) => setParticipantSearch(e.target.value)}
+                        placeholder="搜索姓名..."
+                        className="w-full pl-10 pr-3 py-1.5 text-sm border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      />
+                    </div>
                   </div>
 
                   {/* 列表 */}
                   <div className="max-h-48 overflow-y-auto">
-                    {participantType === 'mentor' && mentors.map(mentor => (
-                      <button
-                        key={mentor.id}
-                        type="button"
-                        onClick={() => addParticipant({
-                          id: `mentor-${mentor.id}`,
-                          name: mentor.name,
-                          type: 'mentor',
-                          mentor_id: mentor.id,
-                          avatar: mentor.avatar_url
-                        })}
-                        className="w-full px-3 py-2 text-left text-sm hover:bg-gray-200 dark:hover:bg-gray-800 rounded transition-colors text-gray-700 dark:text-gray-300"
-                      >
-                        {mentor.name}
-                      </button>
-                    ))}
+                    {participantType === 'mentor' && (
+                      filteredMentors.length === 0 ? (
+                        <div className="text-center py-4 text-sm text-gray-500 dark:text-gray-400">
+                          {participantSearch.trim() ? '未找到匹配的导师' : '暂无导师'}
+                        </div>
+                      ) : (
+                        filteredMentors.map(mentor => (
+                          <button
+                            key={mentor.id}
+                            type="button"
+                            onClick={() => {
+                              addParticipant({
+                                id: `mentor-${mentor.id}`,
+                                name: mentor.name,
+                                type: 'mentor',
+                                mentor_id: mentor.id,
+                                avatar: mentor.avatar_url
+                              });
+                              setParticipantSearch(''); // 添加后清空搜索
+                            }}
+                            className="w-full px-3 py-2 text-left text-sm hover:bg-gray-200 dark:hover:bg-gray-800 rounded transition-colors text-gray-700 dark:text-gray-300"
+                          >
+                            {mentor.name}
+                          </button>
+                        ))
+                      )
+                    )}
                     
-                    {participantType === 'student' && students.map(student => (
-                      <button
-                        key={student.id}
-                        type="button"
-                        onClick={() => addParticipant({
-                          id: `student-${student.id}`,
-                          name: student.name,
-                          type: 'student',
-                          student_id: student.id
-                        })}
-                        className="w-full px-3 py-2 text-left text-sm hover:bg-gray-200 dark:hover:bg-gray-800 rounded transition-colors text-gray-700 dark:text-gray-300"
-                      >
-                        {student.name}
-                      </button>
-                    ))}
+                    {participantType === 'student' && (
+                      filteredStudents.length === 0 ? (
+                        <div className="text-center py-4 text-sm text-gray-500 dark:text-gray-400">
+                          {participantSearch.trim() ? '未找到匹配的学生' : '暂无学生'}
+                        </div>
+                      ) : (
+                        filteredStudents.map(student => (
+                          <button
+                            key={student.id}
+                            type="button"
+                            onClick={() => {
+                              addParticipant({
+                                id: `student-${student.id}`,
+                                name: student.name,
+                                type: 'student',
+                                student_id: student.id
+                              });
+                              setParticipantSearch(''); // 添加后清空搜索
+                            }}
+                            className="w-full px-3 py-2 text-left text-sm hover:bg-gray-200 dark:hover:bg-gray-800 rounded transition-colors text-gray-700 dark:text-gray-300"
+                          >
+                            {student.name}
+                          </button>
+                        ))
+                      )
+                    )}
                     
-                    {participantType === 'employee' && employees.map(employee => (
-                      <button
-                        key={employee.id}
-                        type="button"
-                        onClick={() => addParticipant({
-                          id: `employee-${employee.id}`,
-                          name: employee.name,
-                          type: 'employee',
-                          employee_id: employee.id,
-                          avatar: employee.avatar
-                        })}
-                        className="w-full px-3 py-2 text-left text-sm hover:bg-gray-200 dark:hover:bg-gray-800 rounded transition-colors text-gray-700 dark:text-gray-300"
-                      >
-                        {employee.name}
-                      </button>
-                    ))}
+                    {participantType === 'employee' && (
+                      filteredEmployees.length === 0 ? (
+                        <div className="text-center py-4 text-sm text-gray-500 dark:text-gray-400">
+                          {participantSearch.trim() ? '未找到匹配的员工' : '暂无员工'}
+                        </div>
+                      ) : (
+                        filteredEmployees.map(employee => (
+                          <button
+                            key={employee.id}
+                            type="button"
+                            onClick={() => {
+                              addParticipant({
+                                id: `employee-${employee.id}`,
+                                name: employee.name,
+                                type: 'employee',
+                                employee_id: employee.id,
+                                avatar: employee.avatar
+                              });
+                              setParticipantSearch(''); // 添加后清空搜索
+                            }}
+                            className="w-full px-3 py-2 text-left text-sm hover:bg-gray-200 dark:hover:bg-gray-800 rounded transition-colors text-gray-700 dark:text-gray-300"
+                          >
+                            {employee.name}
+                          </button>
+                        ))
+                      )
+                    )}
                     
                     {participantType === 'other' && (
                       <div className="flex gap-2">

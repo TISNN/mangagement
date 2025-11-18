@@ -1,5 +1,5 @@
 import React from 'react';
-import { GraduationCap, BookOpen, Award, Eye } from 'lucide-react';
+import { GraduationCap, BookOpen, Award, Eye, User, Users } from 'lucide-react';
 import { CaseStudy } from '../../../../types/case';
 
 interface CaseGridViewProps {
@@ -54,6 +54,24 @@ const CaseGridView: React.FC<CaseGridViewProps> = ({ cases, onCaseClick }) => {
                   </span>
                 )}
               </div>
+              
+              {/* 关联导师和学生 */}
+              {(caseStudy.mentor || caseStudy.student) && (
+                <div className="flex items-center gap-2 flex-wrap pt-2">
+                  {caseStudy.mentor && (
+                    <div className="flex items-center gap-1 px-2 py-1 rounded text-xs bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                      <User className="w-3 h-3" />
+                      <span className="truncate max-w-[80px]">{caseStudy.mentor.name}</span>
+                    </div>
+                  )}
+                  {caseStudy.student && (
+                    <div className="flex items-center gap-1 px-2 py-1 rounded text-xs bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300">
+                      <Users className="w-3 h-3" />
+                      <span className="truncate max-w-[80px]">{caseStudy.student.name}</span>
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
 
             {/* 背景信息 */}

@@ -25,7 +25,6 @@ import {
   ChevronUp,
   ChevronDown,
   BookOpen,
-  Brain,
   Calendar,
   CalendarClock,
   GraduationCap,
@@ -41,6 +40,8 @@ import {
   HardDrive,
   BookMarked,
   Building2,
+  Eye,
+  EyeOff,
 } from 'lucide-react';
 import { DataProvider } from './context/DataContext'; // 导入数据上下文提供者
 import AIChatAssistant from './components/AIChatAssistant';
@@ -51,6 +52,7 @@ import type { DashboardActivity } from './pages/admin/Dashboard/types/dashboard.
 import { getRouteFromNavId, isValidRoute } from './utils/routeValidator';
 
 const APP_CENTER_STORAGE_KEY = 'appCenter.favoriteFeatureIds';
+const SYSTEM_NAME_VISIBILITY_KEY = 'systemNameVisibility';
 
 type NavigationItem = {
   icon: ComponentType<{ className?: string }>;
@@ -59,6 +61,7 @@ type NavigationItem = {
   color: string;
   children?: NavigationItem[];
   externalUrl?: string;
+  openInNewTab?: boolean; // 是否在新标签页打开
 };
 
 export type AppOutletContext = {
@@ -99,6 +102,11 @@ function App() {
   const [notifications, setNotifications] = useState<NotificationItem[]>([]);
   const [notificationsLoading, setNotificationsLoading] = useState(false);
   const [showNotificationsPanel, setShowNotificationsPanel] = useState(false);
+  // 系统名显示/隐藏状态，默认显示
+  const [isSystemNameVisible, setIsSystemNameVisible] = useState(() => {
+    const saved = localStorage.getItem(SYSTEM_NAME_VISIBILITY_KEY);
+    return saved !== null ? saved === 'true' : true;
+  });
   const navRef = useRef<HTMLDivElement>(null);
   const notificationButtonRef = useRef<HTMLButtonElement | null>(null);
   const notificationPanelRef = useRef<HTMLDivElement | null>(null);
@@ -166,6 +174,7 @@ function App() {
       { icon: LayoutGrid, text: '控制台', id: 'dashboard', color: 'blue' },
       { icon: ListTodo, text: '任务管理', id: 'tasks', color: 'blue' },
       { icon: Users, text: '学生管理', id: 'students-legacy', color: 'blue' },
+      { icon: UserSquare2, text: '导师管理', id: 'mentors', color: 'blue' },
       { icon: Calendar, text: '会议管理', id: 'meetings', color: 'blue' },
       { icon: Globe2, text: 'SkyOffice', id: 'sky-office', color: 'blue', externalUrl: skyOfficeExternalUrl },
       {
@@ -180,7 +189,6 @@ function App() {
           { icon: BookOpen, text: '专业库', id: 'program-library', color: 'blue' },
         ],
       },
-      { icon: Handshake, text: '合作方管理', id: 'partner-management', color: 'blue' },
       {
         icon: UserCog,
         text: '团队管理',
@@ -200,6 +208,7 @@ function App() {
             color: 'blue',
           },
           { icon: Briefcase, text: '服务项目', id: 'projects', color: 'blue' },
+          { icon: Handshake, text: '合作方管理', id: 'partner-management', color: 'blue' },
         ],
       },
       {
@@ -211,13 +220,10 @@ function App() {
           { icon: Users, text: '申请学生', id: 'students', color: 'blue' },
           { icon: History, text: '服务进度', id: 'service-chronology', color: 'blue' },
           { icon: Compass, text: '选校规划', id: 'school-selection-planner', color: 'blue' },
-          { icon: Brain, text: '智能选校', id: 'smart-selection', color: 'blue' },
           { icon: BookOpen, text: '文书工作台', id: 'application-workbench', color: 'blue' },
           { icon: LayoutPanelLeft, text: '申请工作台', id: 'application-workstation', color: 'blue' },
           { icon: Globe2, text: '项目市场', id: 'project-marketplace', color: 'blue' },
           { icon: Building2, text: '机构介绍', id: 'institution-introduction', color: 'blue' },
-          { icon: UserSquare2, text: '导师管理', id: 'mentors', color: 'blue' },
-          { icon: UserSquare2, text: '导师（旧版）', id: 'mentors-legacy', color: 'blue' },
           { icon: ClipboardList, text: '留学案例库', id: 'cases', color: 'blue' },
           { icon: FileCheck, text: '申请进度', id: 'applications', color: 'blue' },
 
@@ -260,6 +266,7 @@ function App() {
       },
       { icon: LayoutGrid, text: '知识花园', id: 'knowledge-hub/market', color: 'blue' },
       // { icon: Library, text: '知识库', id: 'knowledge', color: 'blue' }, // 已迁移到知识库中心 (cloud-docs/knowledge)
+      { icon: Building2, text: '共享空间', id: 'shared-office', color: 'blue' },
       { icon: PieChart, text: '财务中台', id: 'finance-suite', color: 'blue' },
       { icon: Settings, text: '系统设置', id: 'settings', color: 'blue' },
     ],
@@ -487,8 +494,6 @@ function App() {
       setCurrentPage('school-library');
     } else if (path.includes('program-library')) {
       setCurrentPage('program-library');
-    } else if (path.includes('smart-selection')) {
-      setCurrentPage('smart-selection');
     } else if (path.includes('projects')) {
       setCurrentPage('projects');
     } else if (path.includes('applications')) {
@@ -509,8 +514,6 @@ function App() {
       setCurrentPage('school-selection-planner');
     } else if (path.includes('service-chronology')) {
       setCurrentPage('service-chronology');
-    } else if (path.includes('mentors-legacy')) {
-      setCurrentPage('mentors-legacy');
     } else if (path.includes('leads')) {
       setCurrentPage('leads');
     } else if (path.includes('mentors')) {
@@ -532,6 +535,8 @@ function App() {
       setCurrentPage('finance-suite');
     } else if (path.includes('services')) {
       setCurrentPage('services');
+    } else if (path.includes('shared-office')) {
+      setCurrentPage('shared-office');
     } else if (path.includes('settings')) {
       setCurrentPage('settings');
     }
@@ -547,7 +552,6 @@ function App() {
         'project-marketplace',
         'professor-directory',
         'phd-opportunities',
-        'mentors-legacy',
       ].some((segment) =>
         path.includes(segment)
       )
@@ -629,6 +633,15 @@ function App() {
     }
   }, [getReadNotificationIds]);
 
+  // 切换系统名显示/隐藏
+  const toggleSystemNameVisibility = useCallback(() => {
+    setIsSystemNameVisible((prev) => {
+      const newValue = !prev;
+      localStorage.setItem(SYSTEM_NAME_VISIBILITY_KEY, String(newValue));
+      return newValue;
+    });
+  }, []);
+
   const markAllNotificationsAsRead = useCallback(() => {
     setNotifications((prev) => {
       const updated = prev.map((item) => ({ ...item, read: true }));
@@ -703,7 +716,10 @@ function App() {
     }));
   };
 
-  const handleNavigation = (item: NavigationItem) => {
+  const handleNavigation = (item: NavigationItem, event?: React.MouseEvent) => {
+    // 检查是否按住 Ctrl/Cmd 键，或者配置了 openInNewTab
+    const shouldOpenInNewTab = event?.ctrlKey || event?.metaKey || item.openInNewTab;
+    
     if (item.externalUrl) {
       setCurrentPage(item.id);
       window.open(item.externalUrl, '_blank', 'noopener,noreferrer');
@@ -716,6 +732,13 @@ function App() {
       // 如果路由不存在，阻止跳转并显示提示
       console.warn(`路由不存在: ${item.id}，无法跳转`);
       // 可以选择显示一个提示消息，但不跳转
+      return;
+    }
+    
+    // 如果需要在 new tab 打开，使用 window.open
+    if (shouldOpenInNewTab) {
+      const fullUrl = window.location.origin + targetRoute;
+      window.open(fullUrl, '_blank', 'noopener,noreferrer');
       return;
     }
     
@@ -758,9 +781,9 @@ function App() {
       return (
         <div key={`${keyPrefix}${item.id}`} className="w-full">
           <button
-            onClick={() => handleNavigation(item)}
+            onClick={(e) => handleNavigation(item, e)}
             className={`${baseClasses.join(' ')} ${activeClass}`}
-            title={isNavCollapsed ? item.text : ''}
+            title={isNavCollapsed ? item.text : `${item.text} (Ctrl+点击在新标签页打开)`}
           >
             {isTopLevel && (isActive || isChildActive) && !isNavCollapsed && (
               <span className={`absolute left-0 top-1/2 -translate-y-1/2 h-8 w-1 rounded-r-full ${accentClass}`}></span>
@@ -810,6 +833,30 @@ function App() {
     // 导航到登录页
     navigate('/login');
   };
+
+  // 检查是否是云文档编辑页面（独立布局，不显示导航栏和顶部栏）
+  const isCloudDocumentEditor = location.pathname.includes('/admin/cloud-docs/documents');
+
+  // 如果是云文档编辑页面，只渲染内容，不显示导航栏和顶部栏
+  if (isCloudDocumentEditor) {
+    return (
+      <ErrorBoundary>
+        <DataProvider>
+          <div className="min-h-screen bg-white dark:bg-gray-900">
+            <Outlet
+              context={{
+                favoriteFeatureIds,
+                setFavoriteFeatureIds,
+                maxFavorites: MAX_FAVORITES,
+                availableFeatures: allowedFeatures,
+                userRole,
+              }}
+            />
+          </div>
+        </DataProvider>
+      </ErrorBoundary>
+    );
+  }
 
   // 其他页面显示完整布局
   return (
@@ -911,18 +958,33 @@ function App() {
                         onError={(e) => console.error('Logo failed to load:', e)}
                       />
                     </div>
-                    <div className="flex flex-col">
-                      <span className="text-sm font-bold text-gray-900 dark:text-white">
-                        StudyLandsEdu
-                      </span>
-                      <span className="text-xs text-gray-500 dark:text-gray-400">
-                        Workspace
-                      </span>
-                    </div>
+                    {isSystemNameVisible && (
+                      <div className="flex flex-col">
+                        <span className="text-sm font-bold text-gray-900 dark:text-white">
+                          StudyLandsEdu
+                        </span>
+                        <span className="text-xs text-gray-500 dark:text-gray-400">
+                          Workspace
+                        </span>
+                      </div>
+                    )}
                   </div>
 
                   {/* 右侧：用户信息和操作按钮 */}
                   <div className="flex items-center gap-6">
+                    {/* 隐身按钮 */}
+                    <button
+                      onClick={toggleSystemNameVisibility}
+                      className="p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+                      title={isSystemNameVisible ? '隐藏系统名' : '显示系统名'}
+                      aria-label={isSystemNameVisible ? '隐藏系统名' : '显示系统名'}
+                    >
+                      {isSystemNameVisible ? (
+                        <EyeOff className="h-5 w-5" />
+                      ) : (
+                        <Eye className="h-5 w-5" />
+                      )}
+                    </button>
                     <button 
                       onClick={() => setIsDark(!isDark)}
                       className="p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"

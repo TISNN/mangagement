@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import {
   ChevronDown,
   ChevronRight,
@@ -10,6 +11,9 @@ import {
   Phone,
   Users,
   Check,
+  ExternalLink,
+  Briefcase,
+  FileText,
 } from 'lucide-react';
 import { StudentRecord } from '../types';
 import { RISK_TAG_CLASS, STATUS_TAG_CLASS } from '../utils';
@@ -37,8 +41,9 @@ const StudentDetailPanel: React.FC<StudentDetailPanelProps> = ({
   onEdit,
   onStatusUpdated,
 }) => {
-  if (!student) return null;
-
+  const navigate = useNavigate();
+  
+  // 所有 hooks 必须在早期返回之前调用
   const [statusMenuForService, setStatusMenuForService] = useState<string | null>(null);
   const [updatingServiceId, setUpdatingServiceId] = useState<string | null>(null);
   const [serviceStatuses, setServiceStatuses] = useState<Record<string, string>>({});
@@ -59,6 +64,9 @@ const StudentDetailPanel: React.FC<StudentDetailPanelProps> = ({
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [statusMenuForService]);
+
+  // 早期返回必须在所有 hooks 之后
+  if (!student) return null;
 
   const handleToggleStatusMenu = (serviceId: string, event: React.MouseEvent) => {
     event.stopPropagation();
@@ -133,6 +141,28 @@ const StudentDetailPanel: React.FC<StudentDetailPanelProps> = ({
                 <PenSquare className="h-3.5 w-3.5" />
                 编辑资料
               </button>
+              <button
+                type="button"
+                onClick={() => {
+                  navigate(`/admin/students/${student.id}`);
+                  onClose();
+                }}
+                className="inline-flex items-center gap-1 rounded-xl border border-gray-200 px-3 py-1.5 text-xs font-medium text-gray-600 transition hover:border-blue-300 hover:text-blue-600 dark:border-gray-600 dark:text-gray-300 dark:hover:border-blue-400/60 dark:hover:text-blue-200"
+              >
+                <ExternalLink className="h-3.5 w-3.5" />
+                查看完整档案
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  navigate(`/admin/application-workbench?studentId=${student.id}`);
+                  onClose();
+                }}
+                className="inline-flex items-center gap-1 rounded-xl border border-gray-200 px-3 py-1.5 text-xs font-medium text-gray-600 transition hover:border-blue-300 hover:text-blue-600 dark:border-gray-600 dark:text-gray-300 dark:hover:border-blue-400/60 dark:hover:text-blue-200"
+              >
+                <Briefcase className="h-3.5 w-3.5" />
+                申请工作台
+              </button>
             </div>
             <div className="mt-4 grid grid-cols-1 gap-3 text-sm text-gray-600 dark:text-gray-300 sm:grid-cols-2">
               <div className="flex items-center gap-2">
@@ -195,7 +225,15 @@ const StudentDetailPanel: React.FC<StudentDetailPanelProps> = ({
           <div>
             <div className="flex items-center justify-between">
               <h3 className="text-base font-semibold text-gray-900 dark:text-white">服务摘要</h3>
-              <button className="text-sm text-blue-500 dark:text-blue-300">查看服务进度中心</button>
+              <button
+                onClick={() => {
+                  navigate(`/admin/service-chronology?studentId=${student.id}`);
+                  onClose();
+                }}
+                className="text-sm text-blue-500 transition hover:text-blue-600 dark:text-blue-300 dark:hover:text-blue-200"
+              >
+                查看服务进度中心
+              </button>
             </div>
             <div className="mt-3 grid grid-cols-1 gap-3 md:grid-cols-2">
               {student.services.map((service) => (

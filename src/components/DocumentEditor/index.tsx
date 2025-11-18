@@ -10,7 +10,6 @@
 
 import { useState, useMemo, ReactNode, useEffect } from 'react';
 import { 
-  Save, 
   Loader2, 
   Clock,
   Type,
@@ -19,9 +18,14 @@ import {
   Folder,
   MessageSquare,
   Columns,
+  Download,
+  FileText,
+  FileImage,
+  FileType,
 } from 'lucide-react';
 import SimpleEditorWrapper from '../SimpleEditorWrapper';
 import { formatDateTime } from '../../utils/dateUtils';
+import { exportToWord, exportToPDF, exportToImage } from '../../utils/documentExport';
 
 export interface DocumentEditorProps {
   /** 文档标题 */
@@ -32,8 +36,8 @@ export interface DocumentEditorProps {
   content: string;
   /** 内容变化回调 */
   onContentChange: (content: string) => void;
-  /** 保存回调函数 */
-  onSave: () => Promise<void>;
+  /** 保存回调函数（已废弃，使用自动保存） */
+  onSave?: () => Promise<void>;
   /** 是否正在保存 */
   saving?: boolean;
   /** 最后保存时间 */
@@ -72,7 +76,7 @@ export interface DocumentEditorProps {
     currentUserName: string;
     isOpen: boolean;
     onToggle: () => void;
-    AnnotationPanel?: React.ComponentType<any>;
+    AnnotationPanel?: React.ComponentType<Record<string, unknown>>;
   };
   /** 分屏编辑功能（可选） */
   splitScreen?: {
@@ -85,7 +89,6 @@ export default function DocumentEditor({
   onTitleChange,
   content,
   onContentChange,
-  onSave,
   saving = false,
   lastSaved = null,
   isEditMode = false,
@@ -121,9 +124,9 @@ export default function DocumentEditor({
   }, [location]);
 
   return (
-    <div className="h-full flex flex-col bg-gray-50 dark:bg-gray-950">
+    <div className="h-screen flex flex-col bg-white dark:bg-gray-950 overflow-hidden">
       {/* 顶部工具栏 - 磨砂玻璃效果 */}
-      <div className="flex-none bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-b border-gray-200/50 dark:border-gray-700 sticky top-0 z-50">
+      <div className="flex-none bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-b border-gray-200/50 dark:border-gray-700 z-50">
         <div className="h-14 px-4 flex items-center justify-between gap-4">
           {/* 左侧：自定义内容或默认内容 */}
           <div className="flex items-center gap-2">
@@ -156,19 +159,7 @@ export default function DocumentEditor({
             )}
           </div>
           
-          {/* 中间：状态信息 */}
-          <div className="flex items-center gap-4 text-xs text-gray-500 dark:text-gray-400">
-            {lastSaved && (
-              <div className="flex items-center gap-1.5">
-                <FileCheck className="h-3.5 w-3.5" />
-                <span>已保存于 {formatDateTime(lastSaved).split(' ')[1]}</span>
-              </div>
-            )}
-            <div className="flex items-center gap-1.5">
-              <Type className="h-3.5 w-3.5" />
-              <span>{wordCount} 字</span>
-            </div>
-          </div>
+          {/* 中间：状态信息（已移除，移到标题下方） */}
           
           {/* 右侧：操作按钮 */}
           <div className="flex items-center gap-2">
@@ -203,82 +194,112 @@ export default function DocumentEditor({
               </>
             )}
             
-            {/* 分屏编辑按钮 */}
+            {/* 分屏按钮 */}
             {splitScreen && (
               <button
                 onClick={splitScreen.onOpen}
-                className="flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-all text-sm font-medium"
+                className="flex items-center gap-2 px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all text-sm font-medium"
                 title="分屏编辑另一个文档"
               >
                 <Columns className="h-4 w-4" />
-                分屏编辑
+                分屏
               </button>
             )}
             
+            {/* 导出按钮 */}
+            <div className="relative group">
+              <button
+                className="flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-all text-sm font-medium"
+                title="导出文档"
+              >
+                <Download className="h-4 w-4" />
+                导出
+              </button>
+              {/* 导出下拉菜单 */}
+              <div className="absolute right-0 top-full mt-1 w-48 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+                <button
+                  onClick={() => exportToWord(title, content)}
+                  className="w-full flex items-center gap-3 px-4 py-2.5 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors first:rounded-t-lg"
+                >
+                  <FileType className="h-4 w-4 text-blue-600" />
+                  <span>导出为 Word</span>
+                </button>
+                <button
+                  onClick={() => exportToPDF(title, content)}
+                  className="w-full flex items-center gap-3 px-4 py-2.5 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+                >
+                  <FileText className="h-4 w-4 text-red-600" />
+                  <span>导出为 PDF</span>
+                </button>
+                <button
+                  onClick={() => exportToImage(title, content)}
+                  className="w-full flex items-center gap-3 px-4 py-2.5 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors last:rounded-b-lg"
+                >
+                  <FileImage className="h-4 w-4 text-green-600" />
+                  <span>导出为长图片</span>
+                </button>
+              </div>
+            </div>
+            
             {toolbarRight}
             
-            <button
-              onClick={onSave}
-              disabled={saving}
-              className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all disabled:opacity-50 disabled:cursor-not-allowed text-sm font-medium"
-            >
-              {saving ? (
-                <>
-                  <Loader2 className="h-3.5 w-3.5 animate-spin" />
-                  保存中
-                </>
-              ) : (
-                <>
-                  <Save className="h-3.5 w-3.5" />
-                  保存
-                </>
-              )}
-            </button>
+            {/* 自动保存状态显示 */}
+            {saving && (
+              <div className="flex items-center gap-2 px-3 py-2 text-xs text-gray-500 dark:text-gray-400">
+                <Loader2 className="h-3.5 w-3.5 animate-spin" />
+                <span>自动保存中...</span>
+              </div>
+            )}
           </div>
         </div>
       </div>
 
-      {/* 主编辑区域 - 白色背景 */}
-      <div className="flex-1 bg-white dark:bg-gray-900 flex flex-col overflow-hidden">
-        <div className="flex-1 max-w-4xl mx-auto w-full flex flex-col overflow-hidden">
+      {/* 主编辑区域 - 白色背景，可滚动 */}
+      <div className="flex-1 bg-white dark:bg-white flex flex-col overflow-hidden">
+        <div className="flex-1 max-w-4xl mx-auto w-full flex flex-col overflow-y-auto">
+          {/* 标题区域 - 随内容滚动 */}
+          <div className="flex-none px-8 pt-16 pb-6">
+            {/* 标题输入框 */}
+            <input
+              type="text"
+              value={title}
+              onChange={(e) => onTitleChange(e.target.value)}
+              placeholder="无标题文档"
+              className={`w-full text-3xl font-bold bg-transparent border-none focus:outline-none focus:ring-0 text-gray-900 dark:text-white placeholder-gray-300 dark:placeholder-gray-700 mb-4 ${titleClassName}`}
+            />
+            
+            {/* 文档元信息 */}
+            {showMetadata && (
+              <div className="flex items-center gap-6 text-sm text-gray-400 dark:text-gray-500">
+                {customMetadata || (
+                  <>
+                    <div className="flex items-center gap-2">
+                      <Clock className="h-4 w-4" />
+                      <span>
+                        {isEditMode ? '最后编辑' : '创建于'} {formatDateTime(lastSaved || new Date())}
+                      </span>
+                    </div>
+                    {lastSaved && (
+                      <div className="flex items-center gap-2">
+                        <FileCheck className="h-4 w-4" />
+                        <span>已保存</span>
+                      </div>
+                    )}
+                    <div className="flex items-center gap-2">
+                      <Type className="h-4 w-4" />
+                      <span>{wordCount} 字</span>
+                    </div>
+                  </>
+                )}
+              </div>
+            )}
+          </div>
+          
+          {/* 编辑器内容区域 */}
           <SimpleEditorWrapper
             content={content}
             onChange={onContentChange}
             placeholder={placeholder}
-            renderBeforeEditor={() => (
-              <div className="flex-none px-8 pt-8 pb-6">
-                {/* 标题输入框 */}
-                <input
-                  type="text"
-                  value={title}
-                  onChange={(e) => onTitleChange(e.target.value)}
-                  placeholder="无标题文档"
-                  className={`w-full text-5xl font-bold bg-transparent border-none focus:outline-none focus:ring-0 text-gray-900 dark:text-white placeholder-gray-300 dark:placeholder-gray-700 mb-4 ${titleClassName}`}
-                />
-                
-                {/* 文档元信息 */}
-                {showMetadata && (
-                  <div className="flex items-center gap-6 text-sm text-gray-400 dark:text-gray-500">
-                    {customMetadata || (
-                      <>
-                        <div className="flex items-center gap-2">
-                          <Clock className="h-4 w-4" />
-                          <span>
-                            {isEditMode ? '最后编辑' : '创建于'} {formatDateTime(lastSaved || new Date())}
-                          </span>
-                        </div>
-                        {lastSaved && (
-                          <div className="flex items-center gap-2">
-                            <FileCheck className="h-4 w-4" />
-                            <span>已保存</span>
-                          </div>
-                        )}
-                      </>
-                    )}
-                  </div>
-                )}
-              </div>
-            )}
           />
         </div>
       </div>

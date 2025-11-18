@@ -1,13 +1,14 @@
 import { useState } from 'react';
-import { Download, FileText, LineChart, RefreshCw, Save, ShieldCheck, Sparkles, Table2 } from 'lucide-react';
+import { Download, FileText, LineChart, RefreshCw, Save, ShieldCheck, Sparkles, Table2, Users } from 'lucide-react';
 
 import { FinanceInvoicesTab } from './components/FinanceInvoicesTab';
 import { FinanceLedgerTab } from './components/FinanceLedgerTab';
 import { FinanceOverviewTab } from './components/FinanceOverviewTab';
+import { FinanceSocialSecurityTab } from './components/FinanceSocialSecurityTab';
 import { FinanceTaxTab } from './components/FinanceTaxTab';
 
 const FinanceSuitePage: React.FC = () => {
-  const [activeView, setActiveView] = useState<'overview' | 'ledger' | 'invoices' | 'tax'>('overview');
+  const [activeView, setActiveView] = useState<'overview' | 'ledger' | 'invoices' | 'tax' | 'socialSecurity'>('overview');
 
   return (
     <div className="space-y-8">
@@ -80,6 +81,17 @@ const FinanceSuitePage: React.FC = () => {
             <ShieldCheck className="h-4 w-4" />
             税务中心
           </button>
+          <button
+            onClick={() => setActiveView('socialSecurity')}
+            className={`inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-medium transition ${
+              activeView === 'socialSecurity'
+                ? 'bg-blue-600 text-white shadow-sm'
+                : 'text-gray-600 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800'
+            }`}
+          >
+            <Users className="h-4 w-4" />
+            社保管理
+          </button>
         </div>
         <div className="flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400">
           <RefreshCw className="h-3.5 w-3.5" />
@@ -96,6 +108,8 @@ const FinanceSuitePage: React.FC = () => {
       {activeView === 'invoices' && <FinanceInvoicesTab />}
 
       {activeView === 'tax' && <FinanceTaxTab />}
+
+      {activeView === 'socialSecurity' && <FinanceSocialSecurityTab />}
     </div>
   );
 };

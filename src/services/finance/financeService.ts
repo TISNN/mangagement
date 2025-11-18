@@ -395,6 +395,512 @@ export const financeService = {
       console.error('获取学生财务数据失败', error);
       throw error;
     }
+  },
+
+  // ========== 发票相关方法 ==========
+  
+  // 获取所有发票
+  async getAllInvoices() {
+    try {
+      const { data, error } = await supabase
+        .from('finance_invoices')
+        .select('*')
+        .order('issued_at', { ascending: false });
+      
+      if (error) throw error;
+      return data || [];
+    } catch (error) {
+      console.error('获取发票列表失败', error);
+      throw error;
+    }
+  },
+
+  // 根据状态过滤发票
+  async getInvoicesByStatus(status?: string) {
+    try {
+      let query = supabase
+        .from('finance_invoices')
+        .select('*')
+        .order('issued_at', { ascending: false });
+      
+      if (status && status !== 'all') {
+        query = query.eq('status', status);
+      }
+      
+      const { data, error } = await query;
+      if (error) throw error;
+      return data || [];
+    } catch (error) {
+      console.error('获取发票失败', error);
+      throw error;
+    }
+  },
+
+  // 添加发票
+  async addInvoice(invoice: any) {
+    try {
+      const { data, error } = await supabase
+        .from('finance_invoices')
+        .insert([invoice])
+        .select()
+        .single();
+      
+      if (error) throw error;
+      return data;
+    } catch (error) {
+      console.error('添加发票失败', error);
+      throw error;
+    }
+  },
+
+  // 更新发票
+  async updateInvoice(id: number, invoice: any) {
+    try {
+      const { data, error } = await supabase
+        .from('finance_invoices')
+        .update({ ...invoice, updated_at: new Date().toISOString() })
+        .eq('id', id)
+        .select()
+        .single();
+      
+      if (error) throw error;
+      return data;
+    } catch (error) {
+      console.error('更新发票失败', error);
+      throw error;
+    }
+  },
+
+  // ========== 税务相关方法 ==========
+  
+  // 获取所有税务任务
+  async getAllTaxTasks() {
+    try {
+      const { data, error } = await supabase
+        .from('finance_tax_tasks')
+        .select('*')
+        .order('due_date', { ascending: true });
+      
+      if (error) throw error;
+      return data || [];
+    } catch (error) {
+      console.error('获取税务任务失败', error);
+      throw error;
+    }
+  },
+
+  // 获取税务日历
+  async getTaxCalendar() {
+    try {
+      const { data, error } = await supabase
+        .from('finance_tax_calendar')
+        .select('*')
+        .order('date', { ascending: true });
+      
+      if (error) throw error;
+      return data || [];
+    } catch (error) {
+      console.error('获取税务日历失败', error);
+      throw error;
+    }
+  },
+
+  // 添加税务任务
+  async addTaxTask(task: any) {
+    try {
+      const { data, error } = await supabase
+        .from('finance_tax_tasks')
+        .insert([task])
+        .select()
+        .single();
+      
+      if (error) throw error;
+      return data;
+    } catch (error) {
+      console.error('添加税务任务失败', error);
+      throw error;
+    }
+  },
+
+  // 添加税务日历项
+  async addTaxCalendarItem(item: any) {
+    try {
+      const { data, error } = await supabase
+        .from('finance_tax_calendar')
+        .insert([item])
+        .select()
+        .single();
+      
+      if (error) throw error;
+      return data;
+    } catch (error) {
+      console.error('添加税务日历项失败', error);
+      throw error;
+    }
+  },
+
+  // ========== KPI 和统计数据计算 ==========
+  
+  // 计算财务概览 KPI
+  async calculateOverviewKPIs(period: 'mom' | 'qoq' | 'yoy' = 'mom') {
+    try {
+      const transactions = await this.getAllTransactions();
+      
+      const now = new Date();
+      let startDate: Date;
+      let endDate: Date = new Date(now.getFullYear(), now.getMonth() + 1, 0); // 本月最后一天
+      
+      if (period === 'mom') {
+        // 本月 vs 上月
+        startDate = new Date(now.getFullYear(), now.getMonth(), 1);
+        const lastMonthEnd = new Date(now.getFullYear(), now.getMonth(), 0);
+        const lastMonthStart = new Date(now.getFullYear(), now.getMonth() - 1, 1);
+        
+        const currentMonthIncome = transactions
+          .filter(t => {
+            const date = new Date(t.transaction_date);
+            return date >= startDate && date <= endDate && t.direction === '收入' && t.status === '已完成';
+          })
+          .reduce((sum, t) => sum + Number(t.amount), 0);
+        
+        const lastMonthIncome = transactions
+          .filter(t => {
+            const date = new Date(t.transaction_date);
+            return date >= lastMonthStart && date <= lastMonthEnd && t.direction === '收入' && t.status === '已完成';
+          })
+          .reduce((sum, t) => sum + Number(t.amount), 0);
+        
+        const delta = lastMonthIncome > 0 ? ((currentMonthIncome - lastMonthIncome) / lastMonthIncome * 100).toFixed(1) : '0';
+        
+        return {
+          revenue: {
+            value: `¥ ${currentMonthIncome.toLocaleString()}`,
+            delta: `${delta.startsWith('-') ? '' : '+'}${delta}%`,
+            tone: Number(delta) >= 0 ? 'positive' : 'negative'
+          }
+        };
+      }
+      
+      // 简化版本，返回基础数据
+      const currentMonthIncome = transactions
+        .filter(t => {
+          const date = new Date(t.transaction_date);
+          return date.getMonth() === now.getMonth() && 
+                 date.getFullYear() === now.getFullYear() && 
+                 t.direction === '收入' && 
+                 t.status === '已完成';
+        })
+        .reduce((sum, t) => sum + Number(t.amount), 0);
+      
+      return {
+        revenue: {
+          value: `¥ ${currentMonthIncome.toLocaleString()}`,
+          delta: '+0%',
+          tone: 'neutral' as const
+        }
+      };
+    } catch (error) {
+      console.error('计算 KPI 失败', error);
+      throw error;
+    }
+  },
+
+  // 计算收入管道数据
+  async calculateRevenueStreams() {
+    try {
+      const transactions = await this.getAllTransactions();
+      const serviceTypes = await this.getServiceTypes();
+      
+      const now = new Date();
+      const currentMonthStart = new Date(now.getFullYear(), now.getMonth(), 1);
+      const currentMonthEnd = new Date(now.getFullYear(), now.getMonth() + 1, 0);
+      
+      // 按服务类型分组计算收入
+      const revenueByService = serviceTypes.map(service => {
+        const serviceTransactions = transactions.filter(t => 
+          t.service_type_id === service.id &&
+          t.direction === '收入' &&
+          t.status === '已完成' &&
+          new Date(t.transaction_date) >= currentMonthStart &&
+          new Date(t.transaction_date) <= currentMonthEnd
+        );
+        
+        const total = serviceTransactions.reduce((sum, t) => sum + Number(t.amount), 0);
+        return {
+          serviceId: service.id,
+          name: service.name || '未知服务',
+          value: total
+        };
+      });
+      
+      const totalRevenue = revenueByService.reduce((sum, r) => sum + r.value, 0);
+      
+      return revenueByService
+        .filter(r => r.value > 0)
+        .map(r => ({
+          name: r.name,
+          value: r.value,
+          proportion: totalRevenue > 0 ? r.value / totalRevenue : 0,
+          yoy: 0 // 需要历史数据才能计算
+        }))
+        .sort((a, b) => b.value - a.value);
+    } catch (error) {
+      console.error('计算收入管道失败', error);
+      throw error;
+    }
+  },
+
+  // 计算支出结构
+  async calculateSpendStructure() {
+    try {
+      const transactions = await this.getAllTransactions();
+      const relatedData = await this.getRelatedData();
+      
+      const now = new Date();
+      const currentMonthStart = new Date(now.getFullYear(), now.getMonth(), 1);
+      const currentMonthEnd = new Date(now.getFullYear(), now.getMonth() + 1, 0);
+      
+      const expenseTransactions = transactions.filter(t => 
+        t.direction === '支出' &&
+        new Date(t.transaction_date) >= currentMonthStart &&
+        new Date(t.transaction_date) <= currentMonthEnd
+      );
+      
+      const totalExpense = expenseTransactions.reduce((sum, t) => sum + Number(t.amount), 0);
+      
+      const spendByCategory = relatedData.categories
+        .filter(c => c.direction === '支出')
+        .map(category => {
+          const categoryTransactions = expenseTransactions.filter(t => t.category_id === category.id);
+          const total = categoryTransactions.reduce((sum, t) => sum + Number(t.amount), 0);
+          return {
+            name: category.name || '未知分类',
+            value: totalExpense > 0 ? Math.round((total / totalExpense) * 100) : 0
+          };
+        })
+        .filter(s => s.value > 0)
+        .sort((a, b) => b.value - a.value);
+      
+      return spendByCategory;
+    } catch (error) {
+      console.error('计算支出结构失败', error);
+      throw error;
+    }
+  },
+
+  // ========== 社保相关方法 ==========
+  
+  // 获取所有社保记录
+  async getAllSocialSecurityRecords() {
+    try {
+      const { data, error } = await supabase
+        .from('finance_social_security_records')
+        .select(`
+          *,
+          employee:employee_id(id, name, email)
+        `)
+        .order('period_start', { ascending: false })
+        .order('name', { ascending: true });
+      
+      if (error) throw error;
+      return data || [];
+    } catch (error) {
+      console.error('获取社保记录失败', error);
+      throw error;
+    }
+  },
+
+  // 根据期间获取社保记录
+  async getSocialSecurityRecordsByPeriod(periodStart?: string, periodEnd?: string) {
+    try {
+      let query = supabase
+        .from('finance_social_security_records')
+        .select(`
+          *,
+          employee:employee_id(id, name, email)
+        `)
+        .order('period_start', { ascending: false })
+        .order('name', { ascending: true });
+      
+      if (periodStart) {
+        query = query.gte('period_start', periodStart);
+      }
+      
+      if (periodEnd) {
+        query = query.lte('period_end', periodEnd);
+      }
+      
+      const { data, error } = await query;
+      if (error) throw error;
+      return data || [];
+    } catch (error) {
+      console.error('获取社保记录失败', error);
+      throw error;
+    }
+  },
+
+  // 根据员工ID获取社保记录
+  async getSocialSecurityRecordsByEmployee(employeeId: number) {
+    try {
+      const { data, error } = await supabase
+        .from('finance_social_security_records')
+        .select(`
+          *,
+          employee:employee_id(id, name, email)
+        `)
+        .eq('employee_id', employeeId)
+        .order('period_start', { ascending: false });
+      
+      if (error) throw error;
+      return data || [];
+    } catch (error) {
+      console.error('获取员工社保记录失败', error);
+      throw error;
+    }
+  },
+
+  // 添加社保记录
+  async addSocialSecurityRecord(record: any) {
+    try {
+      // 自动计算合计
+      const employerTotal = 
+        (Number(record.endowment_insurance_employer_amount) || 0) +
+        (Number(record.migrant_unemployment_employer_amount) || 0) +
+        (Number(record.urban_unemployment_employer_amount) || 0) +
+        (Number(record.medical_insurance_employer_amount) || 0) +
+        (Number(record.work_injury_amount) || 0);
+      
+      const individualTotal = 
+        (Number(record.endowment_insurance_individual_amount) || 0) +
+        (Number(record.migrant_unemployment_individual_amount) || 0) +
+        (Number(record.urban_unemployment_individual_amount) || 0) +
+        (Number(record.medical_insurance_individual_amount) || 0);
+      
+      const totalAmount = employerTotal + individualTotal;
+      
+      const recordWithTotals = {
+        ...record,
+        employer_total: employerTotal,
+        individual_total: individualTotal,
+        total_amount: totalAmount
+      };
+      
+      const { data, error } = await supabase
+        .from('finance_social_security_records')
+        .insert([recordWithTotals])
+        .select(`
+          *,
+          employee:employee_id(id, name, email)
+        `)
+        .single();
+      
+      if (error) throw error;
+      return data;
+    } catch (error) {
+      console.error('添加社保记录失败', error);
+      throw error;
+    }
+  },
+
+  // 更新社保记录
+  async updateSocialSecurityRecord(id: number, record: any) {
+    try {
+      // 自动计算合计
+      const employerTotal = 
+        (Number(record.endowment_insurance_employer_amount) || 0) +
+        (Number(record.migrant_unemployment_employer_amount) || 0) +
+        (Number(record.urban_unemployment_employer_amount) || 0) +
+        (Number(record.medical_insurance_employer_amount) || 0) +
+        (Number(record.work_injury_amount) || 0);
+      
+      const individualTotal = 
+        (Number(record.endowment_insurance_individual_amount) || 0) +
+        (Number(record.migrant_unemployment_individual_amount) || 0) +
+        (Number(record.urban_unemployment_individual_amount) || 0) +
+        (Number(record.medical_insurance_individual_amount) || 0);
+      
+      const totalAmount = employerTotal + individualTotal;
+      
+      const recordWithTotals = {
+        ...record,
+        employer_total: employerTotal,
+        individual_total: individualTotal,
+        total_amount: totalAmount,
+        updated_at: new Date().toISOString()
+      };
+      
+      const { data, error } = await supabase
+        .from('finance_social_security_records')
+        .update(recordWithTotals)
+        .eq('id', id)
+        .select(`
+          *,
+          employee:employee_id(id, name, email)
+        `)
+        .single();
+      
+      if (error) throw error;
+      return data;
+    } catch (error) {
+      console.error('更新社保记录失败', error);
+      throw error;
+    }
+  },
+
+  // 删除社保记录
+  async deleteSocialSecurityRecord(id: number) {
+    try {
+      const { error } = await supabase
+        .from('finance_social_security_records')
+        .delete()
+        .eq('id', id);
+      
+      if (error) throw error;
+    } catch (error) {
+      console.error('删除社保记录失败', error);
+      throw error;
+    }
+  },
+
+  // 获取社保统计汇总
+  async getSocialSecuritySummary(periodStart?: string, periodEnd?: string) {
+    try {
+      const records = await this.getSocialSecurityRecordsByPeriod(periodStart, periodEnd);
+      
+      const totalEmployer = records.reduce((sum, r) => sum + Number(r.employer_total || 0), 0);
+      const totalIndividual = records.reduce((sum, r) => sum + Number(r.individual_total || 0), 0);
+      const totalAmount = records.reduce((sum, r) => sum + Number(r.total_amount || 0), 0);
+      
+      // 按期间分组统计
+      const byPeriod: Record<string, any> = {};
+      records.forEach(record => {
+        const period = record.period_start;
+        if (!byPeriod[period]) {
+          byPeriod[period] = {
+            period,
+            count: 0,
+            employerTotal: 0,
+            individualTotal: 0,
+            totalAmount: 0
+          };
+        }
+        byPeriod[period].count++;
+        byPeriod[period].employerTotal += Number(record.employer_total || 0);
+        byPeriod[period].individualTotal += Number(record.individual_total || 0);
+        byPeriod[period].totalAmount += Number(record.total_amount || 0);
+      });
+      
+      return {
+        totalRecords: records.length,
+        totalEmployer,
+        totalIndividual,
+        totalAmount,
+        byPeriod: Object.values(byPeriod).sort((a: any, b: any) => b.period.localeCompare(a.period))
+      };
+    } catch (error) {
+      console.error('获取社保统计失败', error);
+      throw error;
+    }
   }
 };
 

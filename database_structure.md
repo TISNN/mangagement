@@ -20,7 +20,7 @@
 
 | 表名 | 作用 | 关键字段 | 关联 | 数据行数 |
 | --- | --- | --- | --- | --- |
-| `students` | 学生基础信息 | `name`、`education_level`、`target_countries[]`、`status`、`auth_id` | ← `student_services.student_ref_id`、`finance_transactions.student_ref_id`、`tasks.related_student_id`、`student_profile.student_id`、`professor_match_records.student_id` | 34 |
+| `students` | 学生基础信息 | `name`、`education_level`、`target_countries[]`、`status`、`auth_id` | ← `student_services.student_ref_id`、`finance_transactions.student_ref_id`、`tasks.related_student_id`、`student_profile.student_id`、`professor_match_records.student_id`、`success_cases.student_id` | 34 |
 | `student_profile` | 学生申请档案扩展 | `full_name`、`phone_number`、`application_email`、`undergraduate_*`、`graduate_*`、`document_files` JSONB、`work_experiences` JSONB、`standardized_tests` JSONB | → `students` | 3 |
 | `student_services` | 学生签约服务 | `service_type_id`、`status`、`progress`、`detail_data` JSONB、`mentor_team` JSONB、`mentor_ref_id`、`student_ref_id` | → `students`、`service_types`、`mentors`；← `service_progress`、`student_service_relations` | 21 |
 | `service_types` | 服务类型树 | `name`、`category`、`education_level`、`parent_id`（自关联） | ← `student_services`、`leads.interest`、`finance_transactions.service_type_id` | 16 |
@@ -34,7 +34,7 @@
 
 | 表名 | 作用 | 关键字段 | 关联 | 数据行数 |
 | --- | --- | --- | --- | --- |
-| `mentors` | 导师档案 | `name`、`specializations[]`、`service_scope[]`、`expertise_level`、`hourly_rate`、`employee_id`、`location` | ← `student_services.mentor_ref_id` | 0 |
+| `mentors` | 导师档案 | `name`、`specializations[]`、`service_scope[]`、`expertise_level`、`hourly_rate`、`employee_id`、`location`、`rating`、`service_count`、`education` JSONB、`tags[]`、`categories[]` | ← `student_services.mentor_ref_id`、`success_cases.mentor_id` | 0 |
 | `employees` | 员工/顾问/导师 | `name`、`email`、`department`、`position`、`skills[]`、`is_partner`、`is_mentor`、`auth_id` | 被任务、服务进度、财务、会议、知识库等大量引用 | 0 |
 | `employee_roles` | 角色定义 | `name`（唯一）、`description` | ← `employee_role_assignments.role_id`、`role_permissions.role_id` | 0 |
 | `employee_role_assignments` | 员工与角色绑定 | `employee_id`、`role_id` | → `employees`、`employee_roles` | 0 |
@@ -82,7 +82,7 @@
 | --- | --- | --- | --- | --- |
 | `schools` | 学校库 | `cn_name`、`en_name`、`country`、`city`、`region`、`qs_rank_2024`、`qs_rank_2025`、`ranking`、`tags`、`website_url`、`logo_url`、`description`、`is_verified` | ← `programs`、`user_favorite_schools`、`professors.school_id` | 2 |
 | `programs` | 院校项目 | `school_id`、`cn_name`、`en_name`、`duration`、`apply_requirements`、`language_requirements`、`category`、`tuition_fee`、`analysis`、`degree`、`career`、`entry_month`、`interview`、`url` | → `schools`；← `success_cases`、`user_favorite_programs` | 1 |
-| `success_cases` | 成功案例 | `student_name`、`program_id`、`admission_year`、`gpa`、`language_scores`、`experiecnce`、`bachelor_university`、`bachelor_major`、`applied_program`、`school` | → `programs` | 1 |
+| `success_cases` | 成功案例 | `student_name`、`program_id`、`admission_year`、`gpa`、`language_scores`、`experiecnce`、`bachelor_university`、`bachelor_major`、`applied_program`、`school`、`mentor_id`、`student_id`、`master_school`、`master_major`、`master_gpa`、`region`、`admission_result`、`offer_type`、`scholarship`、`notes` | → `programs`、`mentors`、`students` | 1 |
 | `user_favorite_schools` | 学校收藏 | `user_id`（UUID）、`school_id`、`created_at` | → `schools` | 0 |
 | `user_favorite_programs` | 项目收藏 | `user_id`（UUID）、`program_id`、`created_at` | → `programs` | 0 |
 
@@ -102,7 +102,7 @@
 | `meetings` | 会议主表 | `title`、`meeting_type`、`status`（默认"待举行"）、`start_time`、`end_time`、`location`、`meeting_link`、`participants` JSONB、`agenda`、`minutes`（HTML格式）、`summary`、`attachments` JSONB、`created_by`、`lead_id` | → `employees`；← `tasks.meeting_id` | 5 |
 | `meeting_documents` | 会议文档 | `title`、`content`（富文本HTML）、`created_by` | → `employees` | 0 |
 | `student_meetings` | 学生会议 | 详见 2.1 | → `students` | 0 |
-| `cloud_documents` | 云文档 | `title`、`content`（富文本HTML）、`status`（draft/published/archived）、`category`、`tags[]`、`location`、`is_favorite`、`views`、`last_accessed_at`、`created_by` | → `employees`；← `document_annotations.document_id`、`cloud_document_category_relations.document_id` | 0 |
+| `cloud_documents` | 云文档 | `title`、`content`（富文本HTML）、`status`（draft/published/archived）、`category`、`tags[]`、`location`、`is_favorite`、`views`、`last_accessed_at`、`created_by`、`student_id` | → `employees`、`students`；← `document_annotations.document_id`、`cloud_document_category_relations.document_id` | 0 |
 | `document_annotations` | 文档批注 | `document_id`、`created_by`、`content`、`selected_text`、`start_pos`、`end_pos`、`parent_id`（回复）、`is_resolved` | → `cloud_documents`、`employees`、`document_annotations`（自关联） | 0 |
 | `cloud_document_categories` | 云文档分类 | `name`（唯一）、`description`、`created_by`、`created_at`、`updated_at` | → `employees`；← `cloud_document_category_relations.category_id` | 0 |
 | `cloud_document_category_relations` | 文档分类关联（多对多） | `document_id`、`category_id`、`created_at` | → `cloud_documents`、`cloud_document_categories` | 0 |
@@ -141,7 +141,8 @@ students ─┬─< student_services >─┬─ service_types
           ├─< student_profile
           ├─< final_university_choices ─< application_documents_checklist
           ├─< student_meetings
-          └─< professor_match_records
+          ├─< professor_match_records
+          └─< success_cases (student_id)
 
 student_services ─< service_progress (employee_ref_id → employees)
 student_services ─< student_service_relations >─ students
@@ -165,14 +166,16 @@ employees ─┬─< service_progress
            ├─< classes (instructor_id)
            └─< employee_role_assignments >─ employee_roles ─< role_permissions >─ permissions
 
+mentors ──< success_cases (mentor_id)
+
 leads ─< lead_logs
 leads ─< tasks.related_lead_id
 leads ─< meetings.lead_id
 
 courses ─< classes (instructor_id → employees)
 
-schools ─┬─< programs ─< success_cases
-        ├─< user_favorite_schools
+schools ─┬─< programs ─< success_cases >─┬─ mentors (mentor_id)
+        ├─< user_favorite_schools        └─ students (student_id)
         └─< professors (school_id)
 
 programs ─< user_favorite_programs
@@ -189,7 +192,8 @@ partners ─┬─< partner_contacts
          └─< partner_favorites
 
 cloud_documents ─┬─< document_annotations
-                  └─< cloud_document_category_relations >─ cloud_document_categories (created_by → employees)
+                 ├─< cloud_document_category_relations >─ cloud_document_categories (created_by → employees)
+                 └─> students (student_id)
 ```
 
 ---
@@ -293,6 +297,30 @@ cloud_documents ─┬─< document_annotations
   - `linked_entity_id` (integer, 可空) - 关联实体 ID
 - **外键**：→ `employees`、`students`、`leads`、`meetings`
 
+#### `mentors` 表
+- **主键**：`id` (integer, 自增)
+- **关键字段**：
+  - `name` (text) - 导师姓名
+  - `email` (text, 可空) - 邮箱
+  - `contact` (text, 可空) - 联系方式
+  - `gender` (text, 可空) - 性别
+  - `avatar_url` (text, 可空) - 头像 URL
+  - `bio` (text, 可空) - 个人简介
+  - `specializations` (text[], 可空) - 专业方向数组
+  - `service_scope` (text[], 可空) - 服务范围数组（留学申请/课业辅导/科研/语言培训等）
+  - `expertise_level` (text, 可空) - 专业级别
+  - `hourly_rate` (numeric, 可空) - 时薪
+  - `employee_id` (integer, 可空) - 关联员工 ID
+  - `location` (varchar(255), 可空) - 地理位置
+  - `rating` (numeric(2,2), 可空) - 评分（范围：0.00-5.00）
+  - `service_count` (integer, 可空) - 服务学生数量
+  - `education` (jsonb, 可空) - 教育背景 JSON，格式：`[{school: string, university?: string, degree: string, major?: string, year?: string, period?: string, graduation_year?: string}]`
+  - `tags` (text[], 可空) - 标签数组（如：博士、招生官、学屿创始人等）
+  - `categories` (text[], 可空) - 分类数组（如：apply、subject、language）
+  - `is_active` (boolean, 默认 true) - 是否活跃
+- **外键**：→ `employees`（employee_id）
+- **时间戳**：`created_at`、`updated_at` (timestamptz, 默认 now())
+
 #### `professors` 表
 - **主键**：`id` (bigint, 自增)
 - **关键字段**：
@@ -344,13 +372,58 @@ cloud_documents ─┬─< document_annotations
 - **索引**：`document_id`、`category_id`
 - **级联删除**：删除文档或分类时自动删除关联关系
 
+#### `cloud_documents` 表（更新）
+- **主键**：`id` (bigint, 自增)
+- **关键字段**：
+  - `title` (varchar) - 文档标题
+  - `content` (text, 可空) - 文档内容（富文本HTML）
+  - `status` (varchar, 默认 'draft') - 文档状态：draft/published/archived
+  - `category` (varchar, 可空) - 分类（旧字段，建议使用分类关联表）
+  - `tags` (text[], 可空) - 标签数组
+  - `location` (varchar, 可空) - 位置
+  - `is_favorite` (boolean, 默认 false) - 是否收藏
+  - `views` (integer, 默认 0) - 查看次数
+  - `last_accessed_at` (timestamptz, 可空) - 最后访问时间
+  - `created_by` (integer) - 创建人 ID
+  - `student_id` (integer, 可空) - 关联学生 ID（2025-01-22 新增）
+- **外键**：→ `employees`（created_by）、`students`（student_id, ON DELETE SET NULL）
+- **索引**：`created_by`、`student_id`（`idx_cloud_documents_student_id`，部分索引，仅非空值）
+- **时间戳**：`created_at`、`updated_at` (timestamptz, 默认 now())
+
+#### `success_cases` 表
+- **主键**：`id` (uuid)
+- **关键字段**：
+  - `student_name` (text) - 学生姓名
+  - `school` (text, 可空) - 录取学校
+  - `applied_program` (text, 可空) - 申请专业
+  - `program_id` (uuid, 可空) - 关联到 `programs` 表的 UUID
+  - `admission_year` (integer, 可空) - 录取年份
+  - `bachelor_university` (text, 可空) - 本科院校
+  - `bachelor_major` (text, 可空) - 本科专业
+  - `master_school` (text, 可空) - 硕士院校（用于博士申请案例，2025-01-XX 新增）
+  - `master_major` (text, 可空) - 硕士专业（用于博士申请案例，2025-01-XX 新增）
+  - `master_gpa` (text, 可空) - 硕士GPA（用于博士申请案例，2025-01-XX 新增）
+  - `gpa` (text, 可空) - GPA 成绩
+  - `language_scores` (text, 可空) - 语言成绩
+  - `experiecnce` (text, 可空) - 相关经历（注意：数据库中拼写错误）
+  - `mentor_id` (integer, 可空) - 关联到 `mentors` 表的导师 ID（2025-01-XX 新增）
+  - `student_id` (integer, 可空) - 关联到 `students` 表的学生 ID（2025-01-XX 新增）
+  - `region` (text, 可空) - 地区分类（便于筛选，2025-01-XX 新增）
+  - `admission_result` (text, 可空, 默认 'accepted') - 录取结果（2025-01-XX 新增）
+  - `offer_type` (text, 可空) - 录取类型（unconditional/conditional，2025-01-XX 新增）
+  - `scholarship` (text, 可空) - 奖学金信息（2025-01-XX 新增）
+  - `notes` (text, 可空) - 备注说明（2025-01-XX 新增）
+- **外键**：→ `programs`（program_id）、`mentors`（mentor_id, ON DELETE SET NULL）、`students`（student_id, ON DELETE SET NULL）
+- **索引**：`idx_success_cases_mentor_id`、`idx_success_cases_student_id`
+- **时间戳**：`created_at`、`updated_at` (timestamptz, 默认 now())
+
 ---
 
 ## 6. 维护与治理建议
 
 1. **Schema 版本化**：结合 Supabase Migration/dbmate/Prisma Schema 做版本管理，避免环境漂移。
-2. **JSONB/数组字段规范**：为 `mentor_team`、`detail_data`、`attachments`、`publications`、`funding_options` 等建立统一数据字典，前后端共享 JSON Schema。
-3. **索引优化**：关注高频查询字段（如 `student_services.student_ref_id`、`tasks.status`、`leads.assigned_to`、`professors.school_id`、`phd_positions.source_id`），在 Supabase 控制台监控执行计划并按需加索引。
+2. **JSONB/数组字段规范**：为 `mentor_team`、`detail_data`、`attachments`、`publications`、`funding_options`、`mentors.education` 等建立统一数据字典，前后端共享 JSON Schema。`mentors.education` 字段应遵循统一格式：`[{school: string, university?: string, degree: string, major?: string, year?: string, period?: string, graduation_year?: string}]`。
+3. **索引优化**：关注高频查询字段（如 `student_services.student_ref_id`、`tasks.status`、`leads.assigned_to`、`professors.school_id`、`phd_positions.source_id`、`success_cases.mentor_id`、`success_cases.student_id`），在 Supabase 控制台监控执行计划并按需加索引。
 4. **RLS 策略规划**：面向学生端/顾问端开放能力前，需要梳理角色定义并设计策略函数。当前部分表已启用 RLS，但仍有大量表未启用。
 5. **数据模拟**：当前实际数据行数差异较大（0~195 行），建议补充 Seed 脚本支撑前端演示和测试。
 6. **监控与告警**：启用 Supabase Log Drains/APM，对慢查询、锁等待和 JSONB 大字段写入进行监控。
@@ -361,6 +434,10 @@ cloud_documents ─┬─< document_annotations
 
 ## 7. 更新日志
 
+- **2025-01-XX**：为 `success_cases` 表添加可选字段，包括 `master_school`、`master_major`、`master_gpa`（硕士背景字段，用于博士申请案例）和 `region`、`admission_result`、`offer_type`、`scholarship`、`notes`（前端辅助字段），支持完整的案例信息管理和展示功能。
+- **2025-01-XX**：为 `success_cases` 表添加 `mentor_id` 和 `student_id` 字段，支持案例关联到负责的导师和对应的学生。添加索引 `idx_success_cases_mentor_id` 和 `idx_success_cases_student_id` 以提高查询性能。外键约束设置为 ON DELETE SET NULL，确保删除导师或学生时不影响历史案例数据。
+- **2025-01-XX**：为 `mentors` 表添加导师档案扩展字段，包括 `rating`（评分）、`service_count`（服务学生数量）、`education`（教育背景 JSONB）、`tags`（标签数组）、`categories`（分类数组），支持导师管理页面的完整信息展示和数据筛选功能。
+- **2025-01-22**：为 `cloud_documents` 表添加 `student_id` 字段，支持将云文档关联到学生，实现学生详情页文档列表和云文档页面的数据同步。添加索引 `idx_cloud_documents_student_id` 以提高查询性能。
 - **2025-01-22**：新增 `cloud_documents` 云文档表，支持文档的创建、编辑、状态管理、分类标签等功能。
 - **2025-01-22**：新增 `document_annotations` 文档批注表，支持对文档内容进行批注、回复、标记已解决等功能。
 - **2025-01-22**：新增 `cloud_document_categories` 和 `cloud_document_category_relations` 表，实现独立的分类管理系统，支持文档与分类的多对多关系，分类可在侧边栏独立创建和删除，文档创建后可通过分类管理功能添加到分类中。

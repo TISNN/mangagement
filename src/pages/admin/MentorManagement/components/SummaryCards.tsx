@@ -1,10 +1,15 @@
 import { Sparkles } from 'lucide-react';
 
+import type { SummaryMetric } from '../types';
 import { SUMMARY_DATA } from '../data';
 
-export const SummaryCards = () => (
+interface SummaryCardsProps {
+  metrics?: SummaryMetric[];
+}
+
+export const SummaryCards = ({ metrics = SUMMARY_DATA }: SummaryCardsProps) => (
   <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
-    {SUMMARY_DATA.map((metric) => (
+    {metrics.map((metric) => (
       <div
         key={metric.title}
         className="relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-5 shadow-sm transition-shadow hover:shadow-lg dark:border-gray-700/60 dark:bg-gray-800"

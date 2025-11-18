@@ -1,4 +1,4 @@
-import { Calendar, Download, Filter, Search, Tag } from 'lucide-react';
+import { Calendar, Filter, Search, Tag } from 'lucide-react';
 
 interface FilterBarProps {
   search: string;
@@ -28,10 +28,6 @@ export const FilterBar = ({ search, setSearch }: FilterBarProps) => (
       <button className="inline-flex items-center gap-2 rounded-xl border border-gray-200 px-3 py-2 text-sm text-gray-600 hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700/60">
         <Calendar className="h-4 w-4" />
         排班
-      </button>
-      <button className="inline-flex items-center gap-2 rounded-xl bg-slate-900 px-3 py-2 text-sm text-white hover:bg-slate-800">
-        <Download className="h-4 w-4" />
-        导出导师数据
       </button>
     </div>
   </div>

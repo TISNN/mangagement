@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Plus, FileCheck, TrendingUp, Award, Target } from 'lucide-react';
+import { Plus, FileCheck, TrendingUp, Award } from 'lucide-react';
 import { CaseStudy, CaseStudyFilters, ViewMode } from '../../../types/case';
 import { useCaseData } from './hooks/useCaseData';
 import CaseFilters from './components/CaseFilters';
@@ -9,9 +9,10 @@ import CaseListView from './components/CaseListView';
 import CaseTableView from './components/CaseTableView';
 import CaseDetailPanel from './components/CaseDetailPanel';
 import CreateCaseModal from './components/CreateCaseModal';
+import EditCaseModal from './components/EditCaseModal';
 
 const CaseStudiesPage: React.FC = () => {
-  const { cases, loading, statistics, createCase } = useCaseData();
+  const { cases, loading, statistics, createCase, updateCase } = useCaseData();
   
   const [viewMode, setViewMode] = useState<ViewMode>('grid');
   const [filters, setFilters] = useState<CaseStudyFilters>({
@@ -22,7 +23,9 @@ const CaseStudiesPage: React.FC = () => {
     admission_result: '',
   });
   const [selectedCase, setSelectedCase] = useState<CaseStudy | null>(null);
+  const [editingCase, setEditingCase] = useState<CaseStudy | null>(null);
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
+  const [isEditModalOpen, setIsEditModalOpen] = useState(false);
 
   // 筛选逻辑
   const filteredCases = useMemo(() => {
@@ -90,6 +93,25 @@ const CaseStudiesPage: React.FC = () => {
     setIsCreateModalOpen(false);
   };
 
+  // 处理编辑案例
+  const handleEditCase = (caseStudy: CaseStudy) => {
+    setEditingCase(caseStudy);
+    setIsEditModalOpen(true);
+  };
+
+  // 处理更新案例
+  const handleUpdateCase = async (id: string, updates: Partial<CaseStudy>) => {
+    await updateCase(id, updates);
+    setIsEditModalOpen(false);
+    setEditingCase(null);
+    // 如果正在查看的案例被编辑，更新选中状态
+    if (selectedCase && selectedCase.id === id) {
+      // 重新加载案例列表以获取最新数据
+      // 这里可以优化为直接更新selectedCase，但为了确保数据同步，我们关闭面板
+      setSelectedCase(null);
+    }
+  };
+
   return (
     <div className="space-y-6">
       {/* 顶部标题和操作 */}
@@ -116,7 +138,7 @@ const CaseStudiesPage: React.FC = () => {
       </div>
 
       {/* 统计卡片 */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {[
           {
             title: '成功案例',
@@ -138,13 +160,6 @@ const CaseStudiesPage: React.FC = () => {
             change: '+5.2%',
             icon: TrendingUp,
             color: 'purple'
-          },
-          {
-            title: '本月新增',
-            value: '12',
-            change: '+25%',
-            icon: Target,
-            color: 'orange'
           }
         ].map((stat, index) => (
           <div key={index} className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-100 dark:border-gray-700">
@@ -196,6 +211,7 @@ const CaseStudiesPage: React.FC = () => {
         <CaseDetailPanel
           caseStudy={selectedCase}
           onClose={() => setSelectedCase(null)}
+          onEdit={handleEditCase}
         />
       )}
 
@@ -204,6 +220,17 @@ const CaseStudiesPage: React.FC = () => {
         isOpen={isCreateModalOpen}
         onClose={() => setIsCreateModalOpen(false)}
         onSubmit={handleCreateCase}
+      />
+
+      {/* 编辑案例模态框 */}
+      <EditCaseModal
+        isOpen={isEditModalOpen}
+        caseStudy={editingCase}
+        onClose={() => {
+          setIsEditModalOpen(false);
+          setEditingCase(null);
+        }}
+        onSubmit={handleUpdateCase}
       />
     </div>
   );

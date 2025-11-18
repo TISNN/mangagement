@@ -24,7 +24,6 @@ const VALID_ADMIN_ROUTES = new Set([
   '/admin/partner-management',
   '/admin/mentors',
   '/admin/mentor-marketplace',
-  '/admin/mentors-legacy',
   '/admin/cloud-docs/knowledge',
   '/admin/interview',
   '/admin/cases',
@@ -41,7 +40,6 @@ const VALID_ADMIN_ROUTES = new Set([
   '/admin/phd-opportunities',
   '/admin/school-library',
   '/admin/program-library',
-  '/admin/smart-selection',
   
   // 团队管理
   '/admin/internal-management',
@@ -88,6 +86,14 @@ const VALID_ADMIN_ROUTES = new Set([
   
   // 会议管理
   '/admin/meetings',
+  
+  // 共享办公空间
+  '/admin/shared-office',
+  '/admin/shared-office/overview',
+  '/admin/shared-office/my-spaces',
+  '/admin/shared-office/search',
+  '/admin/shared-office/my-requests',
+  '/admin/shared-office/my-bookings',
   
   // 员工管理（重定向路由）
   '/admin/employees',
@@ -138,6 +144,12 @@ export function isValidRoute(path: string): boolean {
     /^\/admin\/cloud-docs\/documents\/\d+$/,  // /admin/cloud-docs/documents/:id
     /^\/admin\/meeting-documents\/new$/,  // /admin/meeting-documents/new
     /^\/admin\/meeting-documents\/\d+$/,  // /admin/meeting-documents/:id
+    /^\/admin\/shared-office\/spaces\/\d+$/,  // /admin/shared-office/spaces/:id
+    /^\/admin\/shared-office\/my-spaces\/new$/,  // /admin/shared-office/my-spaces/new
+    /^\/admin\/shared-office\/my-spaces\/\d+\/edit$/,  // /admin/shared-office/my-spaces/:id/edit
+    /^\/admin\/shared-office\/requests\/\d+$/,  // /admin/shared-office/requests/:id
+    /^\/admin\/shared-office\/my-requests\/new$/,  // /admin/shared-office/my-requests/new
+    /^\/admin\/shared-office\/bookings\/\d+$/,  // /admin/shared-office/bookings/:id
   ];
   
   // 检查是否匹配任何动态路由模式

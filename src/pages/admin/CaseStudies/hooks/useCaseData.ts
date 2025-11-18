@@ -50,8 +50,22 @@ export const useCaseData = () => {
     }
   };
 
+  // 更新案例
+  const updateCase = async (id: string, updates: Partial<CaseStudy>) => {
+    try {
+      await caseService.updateCaseStudy(id, updates);
+      toast.success('案例更新成功');
+      await loadCases();
+      await loadStatistics();
+    } catch (error) {
+      console.error('更新案例失败:', error);
+      toast.error('更新案例失败');
+      throw error;
+    }
+  };
+
   // 删除案例
-  const deleteCase = async (id: number) => {
+  const deleteCase = async (id: string) => {
     try {
       await caseService.deleteCaseStudy(id);
       toast.success('案例删除成功');
@@ -76,6 +90,7 @@ export const useCaseData = () => {
     statistics,
     loadCases,
     createCase,
+    updateCase,
     deleteCase,
   };
 };

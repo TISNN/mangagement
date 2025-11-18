@@ -1,6 +1,6 @@
 // 导师详情页面
 
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { 
   ArrowLeft, 
@@ -22,6 +22,8 @@ import {
   Star,
   Target,
   Users,
+  Loader2,
+  AlertCircle,
 } from 'lucide-react';
 import {
   Dialog,
@@ -32,33 +34,24 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 
-import {
-  AVAILABILITY_DATA,
-  MENTOR_MARKET,
-  MENTOR_TASKS,
-  MENTOR_TEAM,
-  SHARED_RESOURCES,
-} from './MentorManagement/data';
 import type { MentorRecord } from './MentorManagement/types';
-
-const mergeMentorData = (id: string | undefined): MentorRecord | undefined => {
-  if (!id) return undefined;
-  return [...MENTOR_TEAM, ...MENTOR_MARKET].find((mentor) => mentor.id === id);
-};
+import {
+  fetchMentorById,
+  getMentorTasks,
+  type MentorTask,
+} from './MentorManagement/services/mentorManagementService';
 
 const MentorDetailPage: React.FC = () => {
   const navigate = useNavigate();
   const { id } = useParams<{ id: string }>();
 
-  const mentor = useMemo(() => mergeMentorData(id), [id]);
-  const availability = useMemo(
-    () => AVAILABILITY_DATA.filter((slot) => slot.mentorId === id),
-    [id],
-  );
-  const relatedTasks = useMemo(
-    () => (mentor ? MENTOR_TASKS.filter((task) => task.mentor === mentor.name) : []),
-    [mentor],
-  );
+  // 数据状态
+  const [mentor, setMentor] = useState<MentorRecord | null>(null);
+  const [relatedTasks, setRelatedTasks] = useState<MentorTask[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  // UI状态
   const [isAssignOpen, setAssignOpen] = useState(false);
   const [isContactOpen, setContactOpen] = useState(false);
   const [favorite, setFavorite] = useState(false);
@@ -76,6 +69,49 @@ const MentorDetailPage: React.FC = () => {
   const noteTimeoutRef = useRef<number | null>(null);
   const copyTimeoutRef = useRef<number | null>(null);
 
+  // 加载导师数据
+  useEffect(() => {
+    if (!id) {
+      setError('无效的导师ID');
+      setLoading(false);
+      return;
+    }
+
+    loadMentorData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [id]);
+
+  const loadMentorData = async () => {
+    try {
+      setLoading(true);
+      setError(null);
+
+      const mentorData = await fetchMentorById(id!);
+      
+      if (!mentorData) {
+        setError('未找到导师信息');
+        setLoading(false);
+        return;
+      }
+
+      setMentor(mentorData);
+
+      // 获取导师任务（需要提取数字ID）
+      const mentorId = typeof id === 'string' ? parseInt(id.replace('mentor-', '')) : parseInt(id || '');
+      if (!isNaN(mentorId) && id) {
+        // 如果导师关联了员工，可以通过员工ID查找任务
+        const employeeId = (mentorData as MentorRecord & { employeeId?: number }).employeeId;
+        const tasks = await getMentorTasks(mentorId, employeeId);
+        setRelatedTasks(tasks);
+      }
+    } catch (err) {
+      console.error('加载导师详情失败:', err);
+      setError(err instanceof Error ? err.message : '加载失败，请刷新页面重试');
+    } finally {
+      setLoading(false);
+    }
+  };
+
   useEffect(() => {
     if (!mentor) return;
     setTaskForm({
@@ -90,7 +126,7 @@ const MentorDetailPage: React.FC = () => {
     setNoteSaved(false);
     setCopiedField(null);
     setActionLog([]);
-  }, [mentor?.id, mentor?.name, mentor?.primaryRole]);
+  }, [mentor]);
 
   useEffect(
     () => () => {
@@ -184,12 +220,27 @@ const MentorDetailPage: React.FC = () => {
     }, 2000);
   };
 
-  if (!mentor) {
+  // 加载状态
+  if (loading) {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-gray-50 p-6 dark:bg-gray-900">
+        <div className="text-center">
+          <Loader2 className="mx-auto h-8 w-8 animate-spin text-blue-500" />
+          <p className="mt-4 text-sm text-gray-500 dark:text-gray-400">正在加载导师详情...</p>
+        </div>
+      </div>
+    );
+  }
+
+  // 错误状态
+  if (error || !mentor) {
     return (
       <div className="flex min-h-screen items-center justify-center bg-gray-50 p-6 dark:bg-gray-900">
         <div className="max-w-md space-y-4 rounded-2xl border border-gray-200 bg-white p-8 text-center shadow-sm dark:border-gray-700 dark:bg-gray-800">
-          <Sparkles className="mx-auto h-10 w-10 text-indigo-500" />
-          <p className="text-lg font-semibold text-gray-900 dark:text-white">未找到导师信息</p>
+          <AlertCircle className="mx-auto h-10 w-10 text-red-500" />
+          <p className="text-lg font-semibold text-gray-900 dark:text-white">
+            {error || '未找到导师信息'}
+          </p>
           <p className="text-sm text-gray-500 dark:text-gray-400">请返回导师管理中心重新选择导师。</p>
             <button
               onClick={() => navigate('/admin/mentors')}
@@ -230,7 +281,6 @@ const MentorDetailPage: React.FC = () => {
   ];
 
   const combinedMetrics = mentor.metrics ? [...mentor.metrics] : [];
-  const sharedResources = SHARED_RESOURCES.slice(0, 3);
   const canCopyPhone = mentor.phone !== '暂未共享';
 
   return (
@@ -299,14 +349,6 @@ const MentorDetailPage: React.FC = () => {
               >
                 <Heart className="h-4 w-4" fill={favorite ? 'currentColor' : 'none'} />
                 {favorite ? '已收藏导师' : '收藏导师'}
-              </button>
-              <button
-                onClick={() => {
-                  addActionLog('已导出导师档案（模拟）');
-                }}
-                className="inline-flex items-center gap-2 rounded-xl border border-white/40 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
-              >
-                <FileText className="h-4 w-4" /> 导出导师档案
               </button>
               <button
                 onClick={() => setContactOpen(true)}
@@ -457,9 +499,9 @@ const MentorDetailPage: React.FC = () => {
               </section>
             )}
 
-            {mentor.education && mentor.education.length > 0 && (
               <section className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/70 dark:bg-gray-800">
                 <h2 className="text-lg font-semibold text-gray-900 dark:text-white">教育背景</h2>
+              {mentor.education && mentor.education.length > 0 ? (
                 <ul className="space-y-3">
                   {mentor.education.map((edu) => (
                     <li key={`${edu.school}-${edu.period}`} className="rounded-xl bg-gray-50 p-4 text-sm text-gray-700 dark:bg-gray-700/40 dark:text-gray-200">
@@ -469,8 +511,10 @@ const MentorDetailPage: React.FC = () => {
                     </li>
                   ))}
                 </ul>
+              ) : (
+                <p className="text-sm text-gray-500 dark:text-gray-400">暂未补充教育背景信息</p>
+              )}
               </section>
-            )}
 
             <section className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/70 dark:bg-gray-800">
               <h2 className="text-lg font-semibold text-gray-900 dark:text-white">内部备忘</h2>
@@ -497,33 +541,10 @@ const MentorDetailPage: React.FC = () => {
               </div>
             </section>
 
-            {availability.length > 0 && (
+            {/* 可预约时段 - 暂时留空，后续可以从排班表获取 */}
+            {mentor.availabilityNotes && mentor.availabilityNotes.length > 0 && (
               <section className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/70 dark:bg-gray-800">
-                <h2 className="text-lg font-semibold text-gray-900 dark:text-white">可预约时段</h2>
-                <div className="space-y-3 text-sm text-gray-600 dark:text-gray-300">
-                  {availability.map((slot) => (
-                    <div key={slot.id} className="flex items-center justify-between rounded-xl bg-gray-50 px-4 py-3 dark:bg-gray-700/40">
-                      <div className="flex items-center gap-3">
-                        <CalendarClock className="h-4 w-4 text-blue-500" />
-                        <span>
-                          {slot.day} · {slot.startTime} — {slot.endTime}
-                        </span>
-                      </div>
-                      <span
-                        className={`rounded-full px-3 py-1 text-xs font-medium ${
-                          slot.status === '可用'
-                            ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-300'
-                            : slot.status === '忙碌'
-                            ? 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-300'
-                            : 'bg-gray-200 text-gray-600 dark:bg-gray-700 dark:text-gray-300'
-                        }`}
-                      >
-                        {slot.status}
-                      </span>
-                    </div>
-                  ))}
-            </div>
-                {mentor.availabilityNotes && mentor.availabilityNotes.length > 0 && (
+                <h2 className="text-lg font-semibold text-gray-900 dark:text-white">可用性说明</h2>
                   <ul className="space-y-2 rounded-xl bg-indigo-50/70 p-4 text-xs text-indigo-600 dark:bg-indigo-900/30 dark:text-indigo-200">
                     {mentor.availabilityNotes.map((note) => (
                       <li key={note} className="flex items-start gap-2">
@@ -532,18 +553,19 @@ const MentorDetailPage: React.FC = () => {
                       </li>
                     ))}
                   </ul>
-                )}
               </section>
             )}
           </div>
 
           <div className="space-y-8">
-            {mentor.bio && (
               <section className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/70 dark:bg-gray-800">
                 <h2 className="text-lg font-semibold text-gray-900 dark:text-white">导师简介</h2>
+              {mentor.bio ? (
                 <p className="leading-relaxed text-gray-700 dark:text-gray-200">{mentor.bio}</p>
+              ) : (
+                <p className="text-sm text-gray-500 dark:text-gray-400">暂未填写个人介绍</p>
+              )}
               </section>
-            )}
 
             {mentor.achievements && mentor.achievements.length > 0 && (
               <section className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/70 dark:bg-gray-800">
@@ -581,9 +603,9 @@ const MentorDetailPage: React.FC = () => {
               </section>
             )}
 
-            {relatedTasks.length > 0 && (
               <section className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/70 dark:bg-gray-800">
                 <h2 className="text-lg font-semibold text-gray-900 dark:text-white">当前任务</h2>
+              {relatedTasks.length > 0 ? (
                 <div className="overflow-hidden rounded-xl border border-gray-100 dark:border-gray-700/70">
                   <table className="min-w-full divide-y divide-gray-100 text-sm dark:divide-gray-700/70">
                     <thead className="bg-gray-50 text-left text-xs uppercase tracking-[0.2em] text-gray-400 dark:bg-gray-800/80 dark:text-gray-500">
@@ -599,9 +621,11 @@ const MentorDetailPage: React.FC = () => {
                       {relatedTasks.map((task) => (
                         <tr key={task.id}>
                           <td className="px-4 py-3 text-gray-700 dark:text-gray-200">{task.title}</td>
-                          <td className="px-4 py-3 text-gray-500 dark:text-gray-400">{task.student}</td>
-                          <td className="px-4 py-3 text-gray-500 dark:text-gray-400">{task.type}</td>
-                          <td className="px-4 py-3 text-gray-500 dark:text-gray-400">{task.deadline}</td>
+                          <td className="px-4 py-3 text-gray-500 dark:text-gray-400">{task.student || '-'}</td>
+                          <td className="px-4 py-3 text-gray-500 dark:text-gray-400">{task.type || '-'}</td>
+                          <td className="px-4 py-3 text-gray-500 dark:text-gray-400">
+                            {task.deadline ? new Date(task.deadline).toLocaleDateString('zh-CN') : '-'}
+                          </td>
                           <td className="px-4 py-3">
                             <span
                               className={`rounded-full px-3 py-1 text-xs font-medium ${
@@ -620,8 +644,13 @@ const MentorDetailPage: React.FC = () => {
                     </tbody>
                   </table>
               </div>
+              ) : (
+                <div className="rounded-xl border border-gray-200 bg-gray-50 p-8 text-center dark:border-gray-700 dark:bg-gray-900/40">
+                  <FileText className="mx-auto h-8 w-8 text-gray-400" />
+                  <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">暂无任务</p>
+                </div>
+              )}
               </section>
-            )}
 
             {mentor.testimonials && mentor.testimonials.length > 0 && (
               <section className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/70 dark:bg-gray-800">
@@ -635,29 +664,6 @@ const MentorDetailPage: React.FC = () => {
                       <p className="text-xs text-emerald-500 opacity-80">{testimonial.role}</p>
                       <p className="mt-3 leading-relaxed">“{testimonial.comment}”</p>
                     </div>
-                  ))}
-                </div>
-              </section>
-            )}
-
-            {sharedResources.length > 0 && (
-              <section className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-700/70 dark:bg-gray-800">
-                <h2 className="flex items-center gap-2 text-lg font-semibold text-gray-900 dark:text-white">
-                  <Sparkles className="h-5 w-5 text-indigo-500" /> 推荐资源
-                </h2>
-                <div className="grid gap-4 md:grid-cols-2">
-                  {sharedResources.map((resource) => (
-                    <a
-                      key={resource.id}
-                      href={resource.link}
-                      className="group flex flex-col gap-3 rounded-xl border border-gray-100 bg-white p-4 text-sm shadow-sm transition hover:-translate-y-1 hover:border-indigo-200 hover:shadow-lg dark:border-gray-700/70 dark:bg-gray-900/40"
-                    >
-                      <span className="inline-flex items-center gap-2 rounded-full bg-indigo-50 px-3 py-1 text-xs font-medium text-indigo-600 dark:bg-indigo-900/40 dark:text-indigo-200">
-                        {resource.type}
-                      </span>
-                      <p className="text-gray-900 transition group-hover:text-indigo-600 dark:text-white">{resource.title}</p>
-                      <p className="text-xs text-gray-500 dark:text-gray-400">{resource.description}</p>
-                    </a>
                   ))}
                 </div>
               </section>

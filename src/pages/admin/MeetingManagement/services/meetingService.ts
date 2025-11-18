@@ -72,7 +72,30 @@ export async function getMeetingById(id: number): Promise<Meeting | null> {
     if (error) throw error;
     if (!data) return null;
 
-    return transformDbToFrontend(data);
+    const meeting = transformDbToFrontend(data);
+    
+    // 尝试查找关联的学生会议记录，获取student_id
+    if (data.title && data.start_time) {
+      try {
+        const { data: studentMeeting } = await supabase
+          .from('student_meetings')
+          .select('student_id')
+          .eq('title', data.title)
+          .eq('start_time', data.start_time)
+          .limit(1)
+          .maybeSingle();
+        
+        if (studentMeeting?.student_id) {
+          // 将student_id添加到Meeting对象中（通过扩展类型）
+          (meeting as any).student_id = studentMeeting.student_id;
+        }
+      } catch (err) {
+        // 忽略查找错误
+        console.debug('查找关联学生失败:', err);
+      }
+    }
+
+    return meeting;
   } catch (error) {
     console.error('获取会议详情失败:', error);
     return null;
@@ -107,9 +130,58 @@ export async function createMeeting(formData: MeetingFormData, userId: number, l
       .single();
 
     if (error) throw error;
+    
+    // 如果指定了关联学生（且不为null），同时创建student_meetings记录
+    if (formData.student_id && formData.student_id !== null && data) {
+      try {
+        await createStudentMeeting(data.id, formData.student_id, formData);
+      } catch (studentMeetingError) {
+        console.error('创建学生会议记录失败:', studentMeetingError);
+        // 不抛出错误，因为主会议已经创建成功
+      }
+    }
+    
     return transformDbToFrontend(data);
   } catch (error) {
     console.error('创建会议失败:', error);
+    throw error;
+  }
+}
+
+/**
+ * 创建学生会议记录
+ */
+async function createStudentMeeting(meetingId: number, studentId: number, formData: MeetingFormData): Promise<void> {
+  try {
+    // 将participants数组转换为字符串数组
+    const participantsArray = formData.participants?.map(p => p.name) || [];
+    
+    const studentMeetingData = {
+      student_id: studentId,
+      title: formData.title,
+      summary: formData.summary || null,
+      start_time: formData.start_time ? new Date(formData.start_time).toISOString() : new Date().toISOString(),
+      end_time: formData.end_time ? new Date(formData.end_time).toISOString() : null,
+      participants: participantsArray.length > 0 ? participantsArray : null,
+      meeting_documents: null,
+      meeting_notes: formData.minutes || formData.agenda || null,
+      meeting_type: formData.meeting_type || null,
+      status: formData.status === '待举行' ? '已安排' : 
+              formData.status === '进行中' ? '进行中' :
+              formData.status === '已完成' ? '已完成' :
+              formData.status === '已取消' ? '已取消' : '已安排',
+      meeting_link: formData.meeting_link || null,
+      created_at: new Date().toISOString(),
+      updated_at: new Date().toISOString()
+    };
+
+    const { error } = await supabase
+      .from('student_meetings')
+      .insert(studentMeetingData);
+
+    if (error) throw error;
+  } catch (error) {
+    console.error('创建学生会议记录失败:', error);
     throw error;
   }
 }
@@ -141,9 +213,115 @@ export async function updateMeeting(id: number, formData: Partial<MeetingFormDat
       .single();
 
     if (error) throw error;
+    
+    // 处理学生关联
+    if (formData.student_id !== undefined && data) {
+      if (formData.student_id === null) {
+        // 如果student_id明确设置为null，表示取消关联，删除对应的student_meetings记录
+        try {
+          await deleteStudentMeetingsByMeetingInfo(data.title, data.start_time);
+        } catch (deleteError) {
+          console.error('删除学生会议记录失败:', deleteError);
+          // 不抛出错误，因为主会议已经更新成功
+        }
+      } else if (formData.student_id) {
+        // 如果指定了关联学生，更新或创建student_meetings记录
+        try {
+          await updateOrCreateStudentMeeting(id, formData.student_id, formData);
+        } catch (studentMeetingError) {
+          console.error('更新学生会议记录失败:', studentMeetingError);
+          // 不抛出错误，因为主会议已经更新成功
+        }
+      }
+    }
+    
     return transformDbToFrontend(data);
   } catch (error) {
     console.error('更新会议失败:', error);
+    throw error;
+  }
+}
+
+/**
+ * 删除与会议匹配的学生会议记录
+ */
+async function deleteStudentMeetingsByMeetingInfo(title: string, startTime: string): Promise<void> {
+  try {
+    const { error } = await supabase
+      .from('student_meetings')
+      .delete()
+      .eq('title', title)
+      .eq('start_time', startTime);
+
+    if (error) throw error;
+  } catch (error) {
+    console.error('删除学生会议记录失败:', error);
+    throw error;
+  }
+}
+
+/**
+ * 更新或创建学生会议记录
+ */
+async function updateOrCreateStudentMeeting(meetingId: number, studentId: number, formData: Partial<MeetingFormData>): Promise<void> {
+  try {
+    // 先查找是否已存在该学生和会议标题的学生会议记录
+    const { data: existing, error: findError } = await supabase
+      .from('student_meetings')
+      .select('id')
+      .eq('student_id', studentId)
+      .eq('title', formData.title || '')
+      .limit(1)
+      .maybeSingle();
+
+    if (findError && findError.code !== 'PGRST116') {
+      throw findError;
+    }
+
+    // 将participants数组转换为字符串数组
+    const participantsArray = formData.participants?.map(p => p.name) || [];
+    
+    const studentMeetingData: any = {
+      student_id: studentId,
+      updated_at: new Date().toISOString()
+    };
+
+    if (formData.title !== undefined) studentMeetingData.title = formData.title;
+    if (formData.summary !== undefined) studentMeetingData.summary = formData.summary || null;
+    if (formData.start_time) studentMeetingData.start_time = new Date(formData.start_time).toISOString();
+    if (formData.end_time !== undefined) studentMeetingData.end_time = formData.end_time ? new Date(formData.end_time).toISOString() : null;
+    if (formData.participants !== undefined) studentMeetingData.participants = participantsArray.length > 0 ? participantsArray : null;
+    if (formData.minutes !== undefined || formData.agenda !== undefined) {
+      studentMeetingData.meeting_notes = formData.minutes || formData.agenda || null;
+    }
+    if (formData.meeting_type !== undefined) studentMeetingData.meeting_type = formData.meeting_type || null;
+    if (formData.status !== undefined) {
+      studentMeetingData.status = formData.status === '待举行' ? '已安排' : 
+                                  formData.status === '进行中' ? '进行中' :
+                                  formData.status === '已完成' ? '已完成' :
+                                  formData.status === '已取消' ? '已取消' : '已安排';
+    }
+    if (formData.meeting_link !== undefined) studentMeetingData.meeting_link = formData.meeting_link || null;
+
+    if (existing) {
+      // 更新现有记录
+      const { error: updateError } = await supabase
+        .from('student_meetings')
+        .update(studentMeetingData)
+        .eq('id', existing.id);
+
+      if (updateError) throw updateError;
+    } else {
+      // 创建新记录
+      studentMeetingData.created_at = new Date().toISOString();
+      const { error: insertError } = await supabase
+        .from('student_meetings')
+        .insert(studentMeetingData);
+
+      if (insertError) throw insertError;
+    }
+  } catch (error) {
+    console.error('更新或创建学生会议记录失败:', error);
     throw error;
   }
 }
@@ -426,11 +604,11 @@ export async function getStudents(): Promise<Array<{ id: number; name: string }>
   try {
     const { data, error } = await supabase
       .from('students')
-      .select('id, full_name')
-      .order('full_name');
+      .select('id, name')
+      .order('name');
 
     if (error) throw error;
-    return (data || []).map(s => ({ id: s.id, name: s.full_name }));
+    return (data || []).map(s => ({ id: s.id, name: s.name || `学生${s.id}` }));
   } catch (error) {
     console.error('获取学生列表失败:', error);
     return [];

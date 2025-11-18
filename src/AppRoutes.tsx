@@ -27,7 +27,6 @@ import ApplicationDetailPage from './pages/admin/ApplicationDetailPage';
 import PlanningDetailPage from './pages/admin/PlanningDetailPage';
 import LeadDetailPage from './pages/admin/LeadDetailPage';
 import MentorManagementPage, { MentorMarketplacePage } from './pages/admin/MentorManagement';
-import MentorsPage from './pages/admin/MentorsPage';
 import MentorDetailPage from './pages/admin/MentorDetailPage';
 import InterviewPage from './pages/admin/InterviewPage';
 import CaseStudiesPage from './pages/admin/CaseStudies';
@@ -36,7 +35,6 @@ import SettingsPage from './pages/admin/SettingsPage';
 import SchoolLibraryPage from './pages/admin/SchoolLibraryPage';
 import ProgramLibraryPage from './pages/admin/ProgramLibraryPage';
 import SchoolDetailPageNew from './pages/admin/SchoolDetailPageNew';
-import SmartSchoolSelectionPage from './pages/admin/SmartSchoolSelection';
 import ProgramDetailPageNew from './pages/admin/ProgramDetailPageNew';
 import AddSchoolPage from './pages/admin/AddSchoolPage';
 import AddProgramPage from './pages/admin/AddProgramPage';
@@ -79,6 +77,7 @@ import { LearnerPortalPage } from './pages/admin/EducationTraining/LearnerPortal
 import { TutorPortalPage } from './pages/admin/EducationTraining/TutorPortal';
 import AppCenterPage from './pages/admin/AppCenter/AppCenterPage';
 import { SchoolSelectionPlannerPage } from './pages/admin/SchoolSelectionPlanner';
+import AIRecommendationPage from './pages/admin/SchoolSelectionPlanner/AIRecommendationPage';
 import {
   ServiceCenterAnalyticsPage,
   ServiceCenterCatalogPage,
@@ -93,6 +92,18 @@ import {
   RecruitmentInterviewCenterPage,
   StaffDetailPage,
 } from './pages/admin/InternalManagement';
+import {
+  SharedOfficeSpacePage,
+  OverviewPage,
+  MySpacesPage,
+  SearchSpacesPage,
+  MyRequestsPage,
+  MyBookingsPage,
+  SpaceDetailPage,
+  CreateSpacePage,
+  CreateRequestPage,
+  RequestDetailPage,
+} from './pages/admin/SharedOfficeSpace';
 import StudentLayout from './pages/student/StudentLayout';
 import StudentDashboard from './pages/student/StudentDashboard';
 import DataAnalytics from './pages/student/DataAnalytics';
@@ -200,10 +211,10 @@ const AppRoutes: React.FC = () => {
         <Route path="knowledge-hub/market/:marketId" element={<KnowledgeHubMarketDetailPage />} />
         <Route path="knowledge-hub/garden" element={<Navigate to="/admin/knowledge-hub/market/my-published" replace />} />
         <Route path="school-selection-planner" element={<SchoolSelectionPlannerPage />} />
+        <Route path="school-selection-planner/ai-recommendation/:studentId" element={<AIRecommendationPage />} />
         <Route path="leads/:leadId" element={<LeadDetailPage />} />
         <Route path="mentors" element={<MentorManagementPage />} />
         <Route path="mentor-marketplace" element={<MentorMarketplacePage />} />
-        <Route path="mentors-legacy" element={<MentorsPage />} />
         <Route path="mentors/:id" element={<MentorDetailPage />} />
         {/* 知识库页面已迁移到知识库中心 */}
         <Route path="knowledge" element={<Navigate to="/admin/cloud-docs/knowledge" replace />} />
@@ -227,14 +238,27 @@ const AppRoutes: React.FC = () => {
         <Route path="meeting-documents/new" element={<MeetingDocumentEditorPage />} />
         <Route path="meeting-documents/:id" element={<MeetingDocumentEditorPage />} />
         
+        {/* 共享办公空间 */}
+        <Route path="shared-office" element={<SharedOfficeSpacePage />}>
+          <Route index element={<Navigate to="overview" replace />} />
+          <Route path="overview" element={<OverviewPage />} />
+          <Route path="my-spaces" element={<MySpacesPage />} />
+          <Route path="my-spaces/new" element={<CreateSpacePage />} />
+          <Route path="my-spaces/:id/edit" element={<CreateSpacePage />} />
+          <Route path="search" element={<SearchSpacesPage />} />
+          <Route path="my-requests" element={<MyRequestsPage />} />
+          <Route path="my-requests/new" element={<CreateRequestPage />} />
+          <Route path="my-requests/:id/edit" element={<CreateRequestPage />} />
+          <Route path="my-bookings" element={<MyBookingsPage />} />
+        </Route>
+        <Route path="shared-office/spaces/:id" element={<SpaceDetailPage />} />
+        <Route path="shared-office/requests/:id" element={<RequestDetailPage />} />
+        
         {/* 院校和专业库 */}
         <Route path="school-library" element={<SchoolLibraryPage />} />
         <Route path="school-library/add" element={<AddSchoolPage />} />
         <Route path="program-library" element={<ProgramLibraryPage />} />
         <Route path="program-library/add" element={<AddProgramPage />} />
-        
-        {/* 智能选校Agent */}
-        <Route path="smart-selection" element={<SmartSchoolSelectionPage />} />
         
         {/* 详情页 */}
         <Route path="school/:schoolId" element={<SchoolDetailPageNew />} />

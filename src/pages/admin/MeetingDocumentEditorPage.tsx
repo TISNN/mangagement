@@ -109,6 +109,149 @@ export default function MeetingDocumentEditorPage() {
     }
   };
 
+  // 自动保存函数（静默保存，不显示错误提示）
+  const handleAutoSave = async () => {
+    // 如果标题为空，使用默认标题
+    const finalTitle = title.trim() || '无标题文档';
+    
+    // 如果正在保存，跳过
+    if (saving) return;
+
+    setSaving(true);
+    try {
+      // 从 localStorage 获取当前用户信息
+      const employeeData = localStorage.getItem('currentEmployee');
+      if (!employeeData) {
+        console.error('用户信息获取失败');
+        return;
+      }
+
+      const employee = JSON.parse(employeeData);
+
+      if (isEditMode && id && documentId) {
+        // 更新现有文档
+        const { error } = await supabase
+          .from('meeting_documents')
+          .update({
+            title: finalTitle,
+            content,
+            updated_at: new Date().toISOString(),
+          })
+          .eq('id', id);
+
+        if (error) {
+          console.error('自动保存失败:', error);
+          return;
+        }
+        setLastSaved(new Date());
+
+        // 同步更新到云文档
+        // 查找对应的云文档（通过 tags 中包含 MEETING_DOC 和 meeting_document_id）
+        const { data: cloudDocsList } = await supabase
+          .from('cloud_documents')
+          .select('id')
+          .contains('tags', [`MEETING_${id}`]);
+        
+        const cloudDocs = cloudDocsList && cloudDocsList.length > 0 ? cloudDocsList[0] : null;
+
+        if (cloudDocs) {
+          // 如果找到对应的云文档，更新它
+          await supabase
+            .from('cloud_documents')
+            .update({
+              title: finalTitle,
+              content,
+              updated_at: new Date().toISOString(),
+            })
+            .eq('id', cloudDocs.id);
+
+          // 确保文档在"会议纪要"分类中
+          try {
+            const meetingCategory = await getOrCreateCategory('会议纪要', '会议相关文档和纪要');
+            await addDocumentToCategory(cloudDocs.id, meetingCategory.id);
+          } catch (error) {
+            console.error('添加到分类失败:', error);
+          }
+        } else {
+          // 如果没找到，创建新的云文档记录
+          const { data: newCloudDoc } = await supabase
+            .from('cloud_documents')
+            .insert({
+              title: finalTitle,
+              content,
+              created_by: employee.id,
+              status: 'draft',
+              tags: [`MEETING_DOC`, `MEETING_${id}`],
+            })
+            .select()
+            .single();
+
+          // 自动添加到"会议纪要"分类
+          if (newCloudDoc) {
+            try {
+              const meetingCategory = await getOrCreateCategory('会议纪要', '会议相关文档和纪要');
+              await addDocumentToCategory(newCloudDoc.id, meetingCategory.id);
+            } catch (error) {
+              console.error('添加到分类失败:', error);
+            }
+          }
+        }
+      } else {
+        // 创建新文档
+        const { data, error } = await supabase
+          .from('meeting_documents')
+          .insert({
+            title: finalTitle,
+            content,
+            created_by: employee.id,
+          })
+          .select()
+          .single();
+
+        if (error) {
+          console.error('自动保存失败:', error);
+          return;
+        }
+        setLastSaved(new Date());
+        
+        // 创建成功后设置文档ID，但不跳转，保持在同一页面
+        if (data) {
+          setDocumentId(data.id);
+          // 可选：更新URL但不刷新页面
+          window.history.replaceState({}, '', `/admin/meeting-documents/${data.id}`);
+
+          // 同步创建到云文档
+          const { data: newCloudDoc } = await supabase
+            .from('cloud_documents')
+            .insert({
+              title: finalTitle,
+              content,
+              created_by: employee.id,
+              status: 'draft',
+              tags: [`MEETING_DOC`, `MEETING_${data.id}`],
+            })
+            .select()
+            .single();
+
+          // 自动添加到"会议纪要"分类
+          if (newCloudDoc) {
+            try {
+              const meetingCategory = await getOrCreateCategory('会议纪要', '会议相关文档和纪要');
+              await addDocumentToCategory(newCloudDoc.id, meetingCategory.id);
+            } catch (error) {
+              console.error('添加到分类失败:', error);
+            }
+          }
+        }
+      }
+    } catch (error) {
+      console.error('自动保存失败:', error);
+    } finally {
+      setSaving(false);
+    }
+  };
+
+  // 手动保存函数（保留用于手动保存按钮）
   const handleSave = async () => {
     if (!title.trim()) {
       alert('请输入文档标题');
@@ -141,7 +284,6 @@ export default function MeetingDocumentEditorPage() {
         setLastSaved(new Date());
 
         // 同步更新到云文档
-        // 查找对应的云文档（通过 tags 中包含 MEETING_DOC 和 meeting_document_id）
         const { data: cloudDocsList } = await supabase
           .from('cloud_documents')
           .select('id')
@@ -150,7 +292,6 @@ export default function MeetingDocumentEditorPage() {
         const cloudDocs = cloudDocsList && cloudDocsList.length > 0 ? cloudDocsList[0] : null;
 
         if (cloudDocs) {
-          // 如果找到对应的云文档，更新它
           await supabase
             .from('cloud_documents')
             .update({
@@ -160,7 +301,6 @@ export default function MeetingDocumentEditorPage() {
             })
             .eq('id', cloudDocs.id);
 
-          // 确保文档在"会议纪要"分类中
           try {
             const meetingCategory = await getOrCreateCategory('会议纪要', '会议相关文档和纪要');
             await addDocumentToCategory(cloudDocs.id, meetingCategory.id);
@@ -168,7 +308,6 @@ export default function MeetingDocumentEditorPage() {
             console.error('添加到分类失败:', error);
           }
         } else {
-          // 如果没找到，创建新的云文档记录
           const { data: newCloudDoc } = await supabase
             .from('cloud_documents')
             .insert({
@@ -181,7 +320,6 @@ export default function MeetingDocumentEditorPage() {
             .select()
             .single();
 
-          // 自动添加到"会议纪要"分类
           if (newCloudDoc) {
             try {
               const meetingCategory = await getOrCreateCategory('会议纪要', '会议相关文档和纪要');
@@ -206,13 +344,10 @@ export default function MeetingDocumentEditorPage() {
         if (error) throw error;
         setLastSaved(new Date());
         
-        // 创建成功后设置文档ID，但不跳转，保持在同一页面
         if (data) {
           setDocumentId(data.id);
-          // 可选：更新URL但不刷新页面
           window.history.replaceState({}, '', `/admin/meeting-documents/${data.id}`);
 
-          // 同步创建到云文档
           const { data: newCloudDoc } = await supabase
             .from('cloud_documents')
             .insert({
@@ -225,7 +360,6 @@ export default function MeetingDocumentEditorPage() {
             .select()
             .single();
 
-          // 自动添加到"会议纪要"分类
           if (newCloudDoc) {
             try {
               const meetingCategory = await getOrCreateCategory('会议纪要', '会议相关文档和纪要');
@@ -400,18 +534,22 @@ export default function MeetingDocumentEditorPage() {
     setSecondLastSaved(null);
   };
 
-  // 自动保存（新建和编辑模式都启用）
+  // 实时自动保存（使用防抖，2秒延迟，与云文档保持一致）
   useEffect(() => {
-    if (!title || !content) return;
+    // 如果是新建模式且标题和内容都为空，不保存
+    if (!isEditMode && !title.trim() && !content.trim()) return;
+    
+    // 如果是编辑模式但还没有文档ID，不保存（等待首次保存创建文档）
+    if (isEditMode && !documentId) return;
     
     const timer = setTimeout(() => {
-      // 静默保存（不显示提示）
-      handleSave();
-    }, 30000); // 30秒自动保存
+      // 静默自动保存
+      handleAutoSave();
+    }, 2000); // 2秒防抖延迟，与云文档保持一致
     
     return () => clearTimeout(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [content, title]);
+  }, [content, title, documentId, isEditMode]);
 
   // 第二个文档自动保存
   useEffect(() => {
@@ -447,7 +585,7 @@ export default function MeetingDocumentEditorPage() {
 
       {isSplitView ? (
         // 并排编辑模式
-        <div className="h-screen flex gap-4 bg-gray-100 dark:bg-gray-900 p-4">
+        <div className="h-screen flex gap-4 bg-white dark:bg-white p-4">
           {/* 左侧文档 */}
           <div className="flex-1 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950 overflow-hidden shadow-sm">
             <DocumentEditor

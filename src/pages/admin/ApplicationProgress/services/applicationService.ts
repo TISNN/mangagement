@@ -301,6 +301,26 @@ export const applicationDocumentService = {
   },
 
   /**
+   * 获取学生已上传的申请文件（只包括有file_url的文件）
+   */
+  async getUploadedDocumentsByStudentId(studentId: number): Promise<ApplicationDocument[]> {
+    try {
+      const { data, error } = await supabase
+        .from('application_documents_checklist')
+        .select('*')
+        .eq('student_id', studentId)
+        .not('file_url', 'is', null)
+        .order('completed_date', { ascending: false });
+
+      if (error) throw error;
+      return data || [];
+    } catch (error) {
+      console.error('获取已上传文件失败:', error);
+      return [];
+    }
+  },
+
+  /**
    * 按选校记录获取材料清单
    */
   async getDocumentsByChoiceId(choiceId: number): Promise<ApplicationDocument[]> {

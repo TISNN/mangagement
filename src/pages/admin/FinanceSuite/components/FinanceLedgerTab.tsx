@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 import {
   Download,
@@ -12,20 +12,78 @@ import {
   Upload,
 } from 'lucide-react';
 
+import { financeService } from '@/services/finance/financeService';
 import {
-  LEDGER_AGGREGATES,
   LEDGER_FILTERS,
-  LEDGER_TRANSACTIONS,
 } from '../data';
+import type { LedgerTransaction } from '../types';
 
 export const FinanceLedgerTab = () => {
   const [ledgerFilter, setLedgerFilter] = useState<string>('all');
   const [keyword, setKeyword] = useState<string>('');
-  const [isLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+  const [transactions, setTransactions] = useState<any[]>([]);
+  const [aggregates, setAggregates] = useState<any[]>([]);
+
+  // 加载数据
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        setIsLoading(true);
+        const allTransactions = await financeService.getAllTransactions();
+        
+        // 转换为 LedgerTransaction 格式
+        const formattedTransactions: LedgerTransaction[] = allTransactions.map((t: any) => ({
+          id: `TRX-${t.id}`,
+          date: t.transaction_date,
+          type: t.direction as '收入' | '支出' | '转账' | '退款' | '税费',
+          project: t.project?.name || t.service_type?.name || t.notes || '未分类',
+          amount: Number(t.amount) * (t.direction === '收入' ? 1 : -1),
+          channel: t.account?.name || '未知渠道',
+          counterparty: t.person?.name || t.student_ref_id || t.employee_ref_id || '未知',
+          status: t.status === '已完成' ? '已核销' : t.status === '待收款' || t.status === '待支付' ? '待确认' : '争议中',
+          approval: t.status === '已完成' ? '通过' : t.status === '待收款' || t.status === '待支付' ? '待审批' : '驳回',
+          tags: t.category?.name ? [t.category.name] : []
+        }));
+        
+        setTransactions(formattedTransactions);
+        
+        // 计算聚合数据
+        const now = new Date();
+        const weekStart = new Date(now.setDate(now.getDate() - now.getDay()));
+        const weekTransactions = formattedTransactions.filter(t => new Date(t.date) >= weekStart);
+        
+        const weekIncome = weekTransactions
+          .filter(t => t.type === '收入')
+          .reduce((sum, t) => sum + Math.abs(t.amount), 0);
+        
+        const pendingExpense = formattedTransactions
+          .filter(t => t.type === '支出' && t.approval === '待审批')
+          .reduce((sum, t) => sum + Math.abs(t.amount), 0);
+        
+        const gardenIncome = formattedTransactions
+          .filter(t => t.tags.includes('知识花园') || t.project.includes('知识花园'))
+          .reduce((sum, t) => sum + (t.type === '收入' ? Math.abs(t.amount) : 0), 0);
+        
+        setAggregates([
+          { label: '本周新增收入', value: `¥ ${weekIncome.toLocaleString()}`, tone: 'positive' as const },
+          { label: '待审批支出', value: `¥ ${pendingExpense.toLocaleString()}`, tone: 'negative' as const },
+          { label: '知识花园收入', value: `¥ ${gardenIncome.toLocaleString()}`, tone: 'positive' as const },
+          { label: '对账完成率', value: '86%', tone: 'neutral' as const },
+        ]);
+      } catch (error) {
+        console.error('加载财务流水数据失败', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    
+    loadData();
+  }, []);
 
   const filteredLedger = useMemo(() => {
     const lowerKeyword = keyword.trim().toLowerCase();
-    return LEDGER_TRANSACTIONS.filter((trx) => {
+    return transactions.filter((trx) => {
       const matchKeyword =
         !lowerKeyword ||
         trx.id.toLowerCase().includes(lowerKeyword) ||
@@ -43,7 +101,7 @@ export const FinanceLedgerTab = () => {
           case 'approval_pending':
             return trx.approval === '待审批';
           case 'garden':
-            return trx.tags.includes('知识花园');
+            return trx.tags.some((tag: string) => tag.includes('知识花园')) || trx.project.includes('知识花园');
           default:
             return true;
         }
@@ -51,7 +109,7 @@ export const FinanceLedgerTab = () => {
 
       return matchKeyword && matchFilter;
     });
-  }, [ledgerFilter, keyword]);
+  }, [ledgerFilter, keyword, transactions]);
 
   return (
     <section className="space-y-6">
@@ -100,7 +158,7 @@ export const FinanceLedgerTab = () => {
       </div>
 
       <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-        {LEDGER_AGGREGATES.map((item) => (
+        {aggregates.map((item) => (
           <div key={item.label} className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-700 dark:bg-gray-900/70">
             <p className="text-xs font-medium text-gray-500 dark:text-gray-400">{item.label}</p>
             <p className="mt-2 text-lg font-semibold text-gray-900 dark:text-white">{item.value}</p>
@@ -161,6 +219,18 @@ export const FinanceLedgerTab = () => {
                     <div className="flex flex-col items-center gap-3">
                       <Loader2 className="h-6 w-6 animate-spin" />
                       正在加载对账数据...
+                    </div>
+                  </td>
+                </tr>
+              ) : filteredLedger.length === 0 ? (
+                <tr>
+                  <td colSpan={8} className="px-6 py-12 text-center text-sm text-gray-500 dark:text-gray-400">
+                    <div className="flex flex-col items-center gap-3">
+                      <Table2 className="h-12 w-12 text-gray-300 dark:text-gray-600" />
+                      <p className="text-base font-medium text-gray-900 dark:text-white">暂无财务流水数据</p>
+                      <p className="text-sm text-gray-500 dark:text-gray-400">
+                        {keyword ? '没有找到匹配的交易记录' : '当前没有财务流水记录，请添加交易记录'}
+                      </p>
                     </div>
                   </td>
                 </tr>

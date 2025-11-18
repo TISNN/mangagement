@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { X, GraduationCap, BookOpen, Award, Briefcase, Trophy, FileText, Link2 } from 'lucide-react';
+import { X, GraduationCap, Award, Briefcase, FileText, Link2, User, Users, Edit2 } from 'lucide-react';
 import { CaseStudy } from '../../../../types/case';
 import { supabase } from '../../../../lib/supabase';
 
 interface CaseDetailPanelProps {
   caseStudy: CaseStudy | null;
   onClose: () => void;
+  onEdit?: (caseStudy: CaseStudy) => void;
 }
 
-const CaseDetailPanel: React.FC<CaseDetailPanelProps> = ({ caseStudy, onClose }) => {
+const CaseDetailPanel: React.FC<CaseDetailPanelProps> = ({ caseStudy, onClose, onEdit }) => {
   const [programInfo, setProgramInfo] = useState<{ school: string; program: string } | null>(null);
 
   // 加载关联的专业信息
@@ -79,17 +80,63 @@ const CaseDetailPanel: React.FC<CaseDetailPanelProps> = ({ caseStudy, onClose })
                 )}
               </div>
             </div>
-            <button
-              onClick={onClose}
-              className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors"
-            >
-              <X className="w-5 h-5 text-gray-500 dark:text-gray-400" />
-            </button>
+            <div className="flex items-center gap-2">
+              {onEdit && (
+                <button
+                  onClick={() => onEdit(caseStudy)}
+                  className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors"
+                  title="编辑案例"
+                >
+                  <Edit2 className="w-5 h-5 text-purple-600 dark:text-purple-400" />
+                </button>
+              )}
+              <button
+                onClick={onClose}
+                className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors"
+              >
+                <X className="w-5 h-5 text-gray-500 dark:text-gray-400" />
+              </button>
+            </div>
           </div>
         </div>
 
         {/* 内容 */}
         <div className="px-6 py-6 space-y-6">
+          {/* 关联导师和学生 */}
+          {(caseStudy.mentor || caseStudy.student) && (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {/* 负责导师 */}
+              {caseStudy.mentor && (
+                <div className="p-4 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg">
+                  <div className="flex items-start gap-3">
+                    <User className="w-5 h-5 text-blue-600 dark:text-blue-400 flex-shrink-0 mt-0.5" />
+                    <div className="flex-1">
+                      <div className="text-sm text-blue-700 dark:text-blue-400 mb-1">负责导师</div>
+                      <div className="text-base font-medium text-blue-900 dark:text-blue-300">
+                        {caseStudy.mentor.name}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* 关联学生 */}
+              {caseStudy.student && (
+                <div className="p-4 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg">
+                  <div className="flex items-start gap-3">
+                    <Users className="w-5 h-5 text-green-600 dark:text-green-400 flex-shrink-0 mt-0.5" />
+                    <div className="flex-1">
+                      <div className="text-sm text-green-700 dark:text-green-400 mb-1">关联学生</div>
+                      <div className="text-base font-medium text-green-900 dark:text-green-300">
+                        {caseStudy.student.name}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+
           {/* 关联专业项目 */}
           {caseStudy.program_id && programInfo && (
             <div className="p-4 bg-purple-50 dark:bg-purple-900/20 border border-purple-200 dark:border-purple-800 rounded-lg">

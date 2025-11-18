@@ -3,6 +3,7 @@
  */
 
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Clock, CheckCircle2, ChevronRight } from 'lucide-react';
 import { DashboardTask } from '../../types/dashboard.types';
 
@@ -19,6 +20,25 @@ export const TasksPanel: React.FC<TasksPanelProps> = ({
   onViewAll,
   loading
 }) => {
+  const navigate = useNavigate();
+
+  // 处理任务点击，跳转到任务详情页面
+  const handleTaskClick = (taskId: number) => {
+    // 跳转到任务管理页面，并自动打开该任务的详情
+    navigate(`/admin/tasks`, { 
+      state: { 
+        taskId: taskId,
+        openDetail: true 
+      } 
+    });
+  };
+
+  // 处理完成任务点击，阻止事件冒泡
+  const handleToggleClick = (e: React.MouseEvent, taskId: number) => {
+    e.stopPropagation();
+    onToggleTask(taskId);
+  };
+
   if (loading) {
     return (
       <div className="bg-white rounded-2xl p-6 dark:bg-gray-800 animate-pulse">
@@ -51,10 +71,11 @@ export const TasksPanel: React.FC<TasksPanelProps> = ({
           tasks.map((task) => (
             <div 
               key={task.id}
-              className="flex items-start gap-3 p-4 rounded-xl border border-gray-100 dark:border-gray-700 hover:border-purple-200 dark:hover:border-purple-800 hover:bg-purple-50/50 dark:hover:bg-purple-900/10 transition-all group"
+              onClick={() => handleTaskClick(task.id)}
+              className="flex items-start gap-3 p-4 rounded-xl border border-gray-100 dark:border-gray-700 hover:border-purple-200 dark:hover:border-purple-800 hover:bg-purple-50/50 dark:hover:bg-purple-900/10 transition-all group cursor-pointer"
             >
               <button
-                onClick={() => onToggleTask(task.id)}
+                onClick={(e) => handleToggleClick(e, task.id)}
                 className="mt-1 flex-shrink-0"
               >
                 <CheckCircle2 className={`w-5 h-5 ${

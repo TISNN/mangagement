@@ -20,6 +20,9 @@ import { Meeting, MeetingStats, MeetingFilter, MeetingType, MeetingStatus, Meeti
 import MeetingCard from './MeetingManagement/components/MeetingCard';
 import MeetingStatsCard from './MeetingManagement/components/MeetingStatsCard';
 import CreateMeetingModal from './MeetingManagement/components/CreateMeetingModal';
+import CreateRecurringMeetingModal from './MeetingManagement/components/CreateRecurringMeetingModal';
+import { createRecurringMeetingTemplate } from './MeetingManagement/services/recurringMeetingService';
+import { RecurringMeetingTemplateFormData } from './MeetingManagement/types/recurring';
 
 export default function MeetingsPage() {
   const navigate = useNavigate();
@@ -38,6 +41,7 @@ export default function MeetingsPage() {
   const [loading, setLoading] = useState(true);
   const [modalMode, setModalMode] = useState<'create' | 'edit' | null>(null);
   const [editingMeeting, setEditingMeeting] = useState<Meeting | null>(null);
+  const [showRecurringModal, setShowRecurringModal] = useState(false);
   const [filter, setFilter] = useState<MeetingFilter>({
     search: '',
     meeting_type: 'all',
@@ -67,6 +71,7 @@ export default function MeetingsPage() {
     agenda: meeting.agenda || '',
     summary: meeting.summary || '',
     minutes: meeting.minutes || '',
+    student_id: (meeting as Meeting & { student_id?: number }).student_id, // 从会议对象中获取student_id（如果存在）
   });
 
 const formatDateTimeForList = (value?: string | null) => {
@@ -79,6 +84,7 @@ const formatDateTimeForList = (value?: string | null) => {
   // 加载数据
   useEffect(() => {
     loadData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filter]);
 
   const loadData = async () => {
@@ -112,6 +118,27 @@ const formatDateTimeForList = (value?: string | null) => {
       alert('会议创建成功!');
     } catch (error) {
       console.error('创建会议失败:', error);
+      throw error;
+    }
+  };
+
+  const handleCreateRecurringMeeting = async (data: RecurringMeetingTemplateFormData) => {
+    try {
+      // 从 localStorage 获取当前用户信息
+      const employeeData = localStorage.getItem('currentEmployee');
+      if (!employeeData) {
+        alert('用户信息获取失败');
+        return;
+      }
+
+      const employee = JSON.parse(employeeData);
+      await createRecurringMeetingTemplate(data, employee.id);
+      await loadData();
+      alert('定期会议创建成功!系统将自动生成未来的会议实例。');
+      setShowRecurringModal(false);
+    } catch (error) {
+      console.error('创建定期会议失败:', error);
+      alert('创建定期会议失败，请重试');
       throw error;
     }
   };
@@ -219,6 +246,13 @@ const formatDateTimeForList = (value?: string | null) => {
           >
             <FileText className="h-5 w-5" />
             创建会议文档
+          </button>
+          <button
+            onClick={() => setShowRecurringModal(true)}
+            className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+          >
+            <Plus className="h-5 w-5" />
+            创建定期会议
           </button>
           <button
             onClick={openCreateModal}
@@ -470,6 +504,14 @@ const formatDateTimeForList = (value?: string | null) => {
               ? buildFormDataFromMeeting(editingMeeting)
               : undefined
           }
+        />
+      )}
+
+      {/* 创建定期会议模态框 */}
+      {showRecurringModal && (
+        <CreateRecurringMeetingModal
+          onClose={() => setShowRecurringModal(false)}
+          onSave={handleCreateRecurringMeeting}
         />
       )}
     </div>

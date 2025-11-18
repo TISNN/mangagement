@@ -49,3 +49,90 @@
   content: none !important;
   display: none !important;
 }
+
+/* 表格样式 */
+.simple-editor-wrapper .ProseMirror table,
+.simple-editor-wrapper .ProseMirror .tiptap-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+  table-layout: auto;
+  border: 1px solid #000000 !important;
+}
+
+.simple-editor-wrapper .ProseMirror table td,
+.simple-editor-wrapper .ProseMirror table th,
+.simple-editor-wrapper .ProseMirror .tiptap-table td,
+.simple-editor-wrapper .ProseMirror .tiptap-table th {
+  border: 1px solid #000000 !important;
+  padding: 0.5em 0.75em;
+  min-width: 100px;
+  position: relative;
+  color: #000000;
+}
+
+.dark .simple-editor-wrapper .ProseMirror table td,
+.dark .simple-editor-wrapper .ProseMirror table th,
+.dark .simple-editor-wrapper .ProseMirror .tiptap-table td,
+.dark .simple-editor-wrapper .ProseMirror .tiptap-table th {
+  border: 1px solid #000000 !important;
+  border-color: #000000 !important;
+  color: #000000;
+}
+
+.simple-editor-wrapper .ProseMirror table th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+  text-align: left;
+  color: #000000;
+}
+
+.dark .simple-editor-wrapper .ProseMirror table th {
+  background-color: #f3f4f6;
+  color: #000000;
+}
+
+.simple-editor-wrapper .ProseMirror table td {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark .simple-editor-wrapper .ProseMirror table td {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* 表格列宽调整手柄 */
+.simple-editor-wrapper .ProseMirror .column-resize-handle {
+  position: absolute;
+  right: -2px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: #3b82f6;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.simple-editor-wrapper .ProseMirror table:hover .column-resize-handle {
+  opacity: 1;
+}
+
+.simple-editor-wrapper .ProseMirror table .column-resize-handle:hover {
+  opacity: 1;
+  cursor: col-resize;
+  pointer-events: all;
+}
+
+/* 表格选中状态 */
+.simple-editor-wrapper .ProseMirror table.selectedCell {
+  outline: 2px solid #3b82f6;
+  outline-offset: -2px;
+}
+
+/* 表格包装器（用于响应式） */
+.simple-editor-wrapper .ProseMirror .tableWrapper {
+  overflow-x: auto;
+  margin: 1em 0;
+}
