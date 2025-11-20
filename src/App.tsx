@@ -25,6 +25,7 @@ import {
   ChevronUp,
   ChevronDown,
   BookOpen,
+  FileText,
   Calendar,
   // CalendarClock, // 教育培训暂时隐藏，暂时不使用
   GraduationCap,
@@ -221,6 +222,7 @@ function App() {
           { icon: History, text: '服务进度', id: 'service-chronology', color: 'blue' },
           { icon: Compass, text: '选校规划', id: 'school-selection-planner', color: 'blue' },
           { icon: BookOpen, text: '文书工作台', id: 'application-workbench', color: 'blue' },
+          { icon: FileText, text: '文书老师工作区', id: 'document-writer-workspace', color: 'blue' },
           { icon: LayoutPanelLeft, text: '申请工作台', id: 'application-workstation', color: 'blue' },
           { icon: Globe2, text: '项目市场', id: 'project-marketplace', color: 'blue' },
           { icon: ClipboardList, text: '留学案例库', id: 'cases', color: 'blue' },
@@ -499,6 +501,8 @@ function App() {
       setCurrentPage('applications');
     } else if (path.includes('application-workbench')) {
       setCurrentPage('application-workbench');
+    } else if (path.includes('document-writer-workspace')) {
+      setCurrentPage('document-writer-workspace');
     } else if (path.includes('project-mission-board')) {
       setCurrentPage('project-mission-board');
     } else if (path.includes('project-marketplace')) {
@@ -552,6 +556,7 @@ function App() {
       path.includes('school-selection-planner') ||
       path.includes('service-chronology') ||
       path.includes('application-workbench') ||
+      path.includes('document-writer-workspace') ||
       path.includes('project-mission-board') ||
       path.includes('project-marketplace') ||
       path.includes('professor-directory') ||

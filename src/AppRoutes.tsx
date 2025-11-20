@@ -50,6 +50,7 @@ import AIChatAssistantPage from './pages/AIChatAssistant';
 import SkyOfficePage from './pages/admin/SkyOfficePage';
 import ApplicationWorkbenchPage from './pages/admin/ApplicationWorkbench';
 import ApplicationWorkstationPage from './pages/admin/ApplicationWorkstation';
+import DocumentWriterWorkspacePage from './pages/admin/DocumentWriterWorkspace';
 import ProjectMissionBoardPage from './pages/admin/ProjectMissionBoard';
 import ServiceChronologyPage from './pages/admin/ServiceChronology';
 import { ProjectMarketplaceDetailPage, ProjectMarketplacePage } from './pages/admin/ProjectMarketplace';
@@ -171,6 +172,7 @@ const AppRoutes: React.FC = () => {
         <Route path="applications/:studentId/planning" element={<PlanningDetailPage />} />
         <Route path="application-workbench" element={<ApplicationWorkbenchPage />} />
         <Route path="application-workstation" element={<ApplicationWorkstationPage />} />
+        <Route path="document-writer-workspace" element={<DocumentWriterWorkspacePage />} />
         <Route path="project-mission-board" element={<ProjectMissionBoardPage />} />
         <Route path="service-chronology" element={<ServiceChronologyPage />} />
         <Route path="project-marketplace" element={<ProjectMarketplacePage />} />

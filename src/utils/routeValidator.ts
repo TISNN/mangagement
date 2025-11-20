@@ -17,6 +17,7 @@ const VALID_ADMIN_ROUTES = new Set([
   '/admin/applications',
   '/admin/application-workbench',
   '/admin/application-workstation',
+  '/admin/document-writer-workspace',
   '/admin/project-mission-board',
   '/admin/service-chronology',
   '/admin/project-marketplace',

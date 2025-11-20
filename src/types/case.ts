@@ -49,9 +49,21 @@ export interface CaseStudy {
   notes?: string; // 备注（前端添加）
   created_at?: string;
   updated_at?: string;
+  // 隐私和共享字段
+  case_type?: 'private' | 'public'; // 案例类型：private（我的案例）或 public（公共案例库）
+  created_by?: number; // 创建者ID（关联到employees表）
+  is_anonymized?: boolean; // 是否已去敏处理
+  shared_to_public_at?: string; // 分享到公共库的时间
+  anonymization_consent?: boolean; // 用户是否同意去敏上传
   // 关联信息（通过查询获取）
   mentor?: CaseMentor;
   student?: CaseStudent;
+  // 创建者信息（通过查询获取）
+  creator?: {
+    id: number;
+    name: string;
+    avatar_url?: string;
+  };
 }
 
 export interface CaseStudyFilters {
@@ -63,4 +75,7 @@ export interface CaseStudyFilters {
 }
 
 export type ViewMode = 'grid' | 'list' | 'table';
+
+// 案例库类型
+export type CaseLibraryType = 'my' | 'public';
 

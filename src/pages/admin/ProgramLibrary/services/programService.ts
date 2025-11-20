@@ -30,7 +30,7 @@ export const fetchAllPrograms = async (): Promise<Program[]> => {
     // 分页加载所有数据
     const limit = 1000;
     const totalPages = Math.ceil(totalCount / limit);
-    let allProgramsData: Record<string, any>[] = [];
+    let allProgramsData: Record<string, unknown>[] = [];
 
     for (let page = 0; page < totalPages; page++) {
       const { data, error } = await supabase
@@ -58,28 +58,46 @@ export const fetchAllPrograms = async (): Promise<Program[]> => {
     }
 
     // 处理数据转换
-    const processedPrograms: Program[] = allProgramsData.map((dbProgram) => ({
-      id: dbProgram.id || '',
-      school_id: dbProgram.school_id || '',
-      name: dbProgram.cn_name || dbProgram.en_name || '',
-      cn_name: dbProgram.cn_name || '',
-      en_name: dbProgram.en_name || '',
-      degree: dbProgram.degree || '',
-      duration: dbProgram.duration || '',
-      tuition_fee: dbProgram.tuition_fee || '',
-      faculty: dbProgram.faculty || '',
-      category: dbProgram.category || '',
-      subCategory: dbProgram.subCategory || '',
-      tags: Array.isArray(dbProgram.tags) ? dbProgram.tags :
-            typeof dbProgram.tags === 'string' ? dbProgram.tags.split(',') : [],
-      apply_requirements: dbProgram.apply_requirements || '',
-      language_requirements: dbProgram.language_requirements || '',
-      curriculum: dbProgram.curriculum || '',
-      analysis: dbProgram.analysis || '',
-      url: dbProgram.url || '',
-      interview: dbProgram.interview || '',
-      objectives: dbProgram.objectives || '',
-    }));
+    const processedPrograms: Program[] = allProgramsData.map((dbProgram) => {
+      const getString = (value: unknown): string => {
+        return typeof value === 'string' ? value : '';
+      };
+      
+      return {
+        id: getString(dbProgram.id),
+        school_id: getString(dbProgram.school_id),
+        name: getString(dbProgram.cn_name) || getString(dbProgram.en_name),
+        cn_name: getString(dbProgram.cn_name),
+        en_name: getString(dbProgram.en_name),
+        degree: getString(dbProgram.degree),
+        duration: getString(dbProgram.duration),
+        tuition_fee: getString(dbProgram.tuition_fee),
+        faculty: getString(dbProgram.faculty),
+        category: getString(dbProgram.category),
+        subCategory: getString(dbProgram.subCategory),
+        tags: Array.isArray(dbProgram.tags) ? dbProgram.tags as string[] :
+              typeof dbProgram.tags === 'string' ? dbProgram.tags.split(',') : [],
+        apply_requirements: getString(dbProgram.apply_requirements),
+        language_requirements: getString(dbProgram.language_requirements),
+        curriculum: getString(dbProgram.curriculum),
+        analysis: getString(dbProgram.analysis),
+        url: getString(dbProgram.url),
+        interview: getString(dbProgram.interview),
+        objectives: getString(dbProgram.objectives),
+        // 新增字段
+        credit_requirements: getString(dbProgram.credit_requirements),
+        teaching_mode: getString(dbProgram.teaching_mode),
+        study_mode: getString(dbProgram.study_mode),
+        program_positioning: getString(dbProgram.program_positioning),
+        course_structure: dbProgram.course_structure as Program['course_structure'] | undefined,
+        application_timeline: dbProgram.application_timeline as Program['application_timeline'] | undefined,
+        application_materials: dbProgram.application_materials as Program['application_materials'] | undefined,
+        career_info: dbProgram.career_info as Program['career_info'] | undefined,
+        program_features: Array.isArray(dbProgram.program_features) ? dbProgram.program_features as string[] : undefined,
+        interview_guide: dbProgram.interview_guide as Program['interview_guide'] | undefined,
+        application_guide: dbProgram.application_guide as Program['application_guide'] | undefined,
+      };
+    });
 
     console.log(`✅ 成功加载 ${processedPrograms.length} 个专业数据`);
     return processedPrograms;
@@ -155,7 +173,7 @@ export const cacheProgramsData = (programs: Program[]): void => {
     try {
       localStorage.removeItem('cachedPrograms');
       localStorage.removeItem('cachedProgramsTimestamp');
-    } catch (e) {
+    } catch {
       // 忽略清除错误
     }
   }
@@ -211,13 +229,139 @@ export const fetchProgramById = async (programId: string): Promise<Program | nul
       url: data.url || '',
       interview: data.interview || '',
       objectives: data.objectives || '',
-      rawData: data
+      rawData: data,
+      // 新增字段
+      credit_requirements: data.credit_requirements || undefined,
+      teaching_mode: data.teaching_mode || undefined,
+      study_mode: data.study_mode || undefined,
+      program_positioning: data.program_positioning || undefined,
+      course_structure: data.course_structure as Program['course_structure'] | undefined,
+      application_timeline: data.application_timeline as Program['application_timeline'] | undefined,
+      application_materials: data.application_materials as Program['application_materials'] | undefined,
+      career_info: data.career_info as Program['career_info'] | undefined,
+      program_features: Array.isArray(data.program_features) ? data.program_features : undefined,
+      interview_guide: data.interview_guide as Program['interview_guide'] | undefined,
+      application_guide: data.application_guide as Program['application_guide'] | undefined,
     };
 
     return program;
   } catch (err) {
     console.error('获取专业详情出错:', err);
     return null;
+  }
+};
+
+/**
+ * 更新专业信息
+ */
+export const updateProgram = async (programId: string, programData: Partial<Program>): Promise<Program | null> => {
+  try {
+    // 准备更新数据
+    const updateData: Record<string, unknown> = {};
+
+    if (programData.school_id !== undefined) updateData.school_id = programData.school_id;
+    if (programData.en_name !== undefined) updateData.en_name = programData.en_name.trim() || null;
+    if (programData.cn_name !== undefined) updateData.cn_name = programData.cn_name.trim() || null;
+    if (programData.degree !== undefined) updateData.degree = programData.degree.trim() || null;
+    if (programData.category !== undefined) updateData.category = programData.category.trim() || null;
+    if (programData.subCategory !== undefined) updateData.subCategory = programData.subCategory.trim() || null;
+    if (programData.faculty !== undefined) updateData.faculty = programData.faculty.trim() || null;
+    if (programData.duration !== undefined) updateData.duration = programData.duration.trim() || null;
+    if (programData.tuition_fee !== undefined) updateData.tuition_fee = programData.tuition_fee.trim() || null;
+    if (programData.language_requirements !== undefined) updateData.language_requirements = programData.language_requirements.trim() || null;
+    if (programData.apply_requirements !== undefined) updateData.apply_requirements = programData.apply_requirements.trim() || null;
+    if (programData.curriculum !== undefined) updateData.curriculum = programData.curriculum.trim() || null;
+    if (programData.objectives !== undefined) updateData.objectives = programData.objectives.trim() || null;
+    if (programData.analysis !== undefined) updateData.analysis = programData.analysis.trim() || null;
+    if (programData.url !== undefined) updateData.url = programData.url.trim() || null;
+    if (programData.interview !== undefined) updateData.interview = programData.interview.trim() || null;
+    if (programData.tags !== undefined) {
+      updateData.tags = Array.isArray(programData.tags) && programData.tags.length > 0 
+        ? programData.tags 
+        : null;
+    }
+    
+    // 新增字段 - 基础信息扩展
+    if (programData.credit_requirements !== undefined) updateData.credit_requirements = programData.credit_requirements.trim() || null;
+    if (programData.teaching_mode !== undefined) updateData.teaching_mode = programData.teaching_mode.trim() || null;
+    if (programData.study_mode !== undefined) updateData.study_mode = programData.study_mode.trim() || null;
+    if (programData.program_positioning !== undefined) updateData.program_positioning = programData.program_positioning.trim() || null;
+    
+    // JSONB结构化字段
+    if (programData.course_structure !== undefined) updateData.course_structure = programData.course_structure || null;
+    if (programData.application_timeline !== undefined) updateData.application_timeline = programData.application_timeline || null;
+    if (programData.application_materials !== undefined) updateData.application_materials = programData.application_materials || null;
+    if (programData.career_info !== undefined) updateData.career_info = programData.career_info || null;
+    if (programData.program_features !== undefined) {
+      updateData.program_features = Array.isArray(programData.program_features) && programData.program_features.length > 0
+        ? programData.program_features
+        : null;
+    }
+    if (programData.interview_guide !== undefined) updateData.interview_guide = programData.interview_guide || null;
+    if (programData.application_guide !== undefined) updateData.application_guide = programData.application_guide || null;
+
+    // 执行更新
+    const { data, error } = await supabase
+      .from('programs')
+      .update(updateData)
+      .eq('id', programId)
+      .select()
+      .single();
+
+    if (error) {
+      console.error('更新专业失败:', error);
+      throw new Error(error.message || '更新专业失败');
+    }
+
+    if (!data) {
+      return null;
+    }
+
+    // 转换返回数据
+    const updatedProgram: Program = {
+      id: data.id || '',
+      school_id: data.school_id || '',
+      name: data.cn_name || data.en_name || '',
+      cn_name: data.cn_name || '',
+      en_name: data.en_name || '',
+      degree: data.degree || '',
+      duration: data.duration || '',
+      tuition_fee: data.tuition_fee || '',
+      faculty: data.faculty || '',
+      category: data.category || '',
+      subCategory: data.subCategory || '',
+      tags: Array.isArray(data.tags) ? data.tags :
+            typeof data.tags === 'string' ? data.tags.split(',') : [],
+      apply_requirements: data.apply_requirements || '',
+      language_requirements: data.language_requirements || '',
+      curriculum: data.curriculum || '',
+      analysis: data.analysis || '',
+      url: data.url || '',
+      interview: data.interview || '',
+      objectives: data.objectives || '',
+      rawData: data,
+      // 新增字段
+      credit_requirements: data.credit_requirements || undefined,
+      teaching_mode: data.teaching_mode || undefined,
+      study_mode: data.study_mode || undefined,
+      program_positioning: data.program_positioning || undefined,
+      course_structure: data.course_structure as Program['course_structure'] | undefined,
+      application_timeline: data.application_timeline as Program['application_timeline'] | undefined,
+      application_materials: data.application_materials as Program['application_materials'] | undefined,
+      career_info: data.career_info as Program['career_info'] | undefined,
+      program_features: Array.isArray(data.program_features) ? data.program_features : undefined,
+      interview_guide: data.interview_guide as Program['interview_guide'] | undefined,
+      application_guide: data.application_guide as Program['application_guide'] | undefined,
+    };
+
+    console.log('✅ 专业更新成功:', updatedProgram.id);
+    return updatedProgram;
+  } catch (err) {
+    console.error('更新专业出错:', err);
+    if (err instanceof Error) {
+      throw err;
+    }
+    throw new Error('更新专业时发生未知错误');
   }
 };
 

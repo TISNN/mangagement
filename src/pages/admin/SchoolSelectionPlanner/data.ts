@@ -90,26 +90,7 @@ const lmyVersions: RecommendationVersion[] = [
   },
 ];
 
-const lmyManualPresets: ManualFilterPreset[] = [
-  {
-    id: 'us-top50',
-    name: '美国 Top 50 计算机',
-    description: '限定 US News Top 50 + CS GRE 320 以上门槛。',
-    tags: ['美国', 'CS', '排名'],
-  },
-  {
-    id: 'coop-friendly',
-    name: 'Co-op 实习友好',
-    description: '注重实习机会、地理位置与就业资源。',
-    tags: ['实习', '就业导向'],
-  },
-  {
-    id: 'scholarship',
-    name: '含奖学金项目',
-    description: '筛选提供奖学金或助研岗位的项目，满足预算要求。',
-    tags: ['奖学金', '预算控制'],
-  },
-];
+const lmyManualPresets: ManualFilterPreset[] = [];
 
 const lmyCandidates: CandidateProgram[] = [
   {

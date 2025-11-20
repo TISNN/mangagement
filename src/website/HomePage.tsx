@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
-import { Brain, Sparkles, Rocket, Users, Target, Award, BookOpen, Zap, TrendingUp, Gift, DollarSign } from 'lucide-react';
+import { Brain, Sparkles, Rocket, Users, Target, Award, BookOpen, Zap, TrendingUp, Gift, DollarSign, LayoutGrid, ListTodo, FileCheck, ClipboardList, Compass, Globe2, UserSquare2, GraduationCap, Library, MessageCircle, Handshake, PieChart, Calendar, Briefcase, Layers } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const HomePage: React.FC = () => {
@@ -206,6 +206,198 @@ const HomePage: React.FC = () => {
               </ul>
             </motion.div>
           </div>
+        </div>
+      </section>
+
+      {/* All in One 平台功能展示 */}
+      <section className="py-24 relative bg-white">
+        <div className="container mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-500">
+              一站式 All in One 留学平台
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              从申请规划到服务交付，从客户管理到财务分析，一个平台覆盖留学服务的全链路需求
+            </p>
+          </motion.div>
+
+          {/* 功能分类展示 */}
+          <div className="space-y-12">
+            {/* 核心工作台 */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="bg-gray-50 border border-gray-200 rounded-2xl p-8 shadow-sm"
+            >
+              <div className="flex items-center gap-3 mb-6">
+                <LayoutGrid className="w-6 h-6 text-blue-600" />
+                <h3 className="text-2xl font-semibold text-gray-900">核心工作台</h3>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {[
+                  { icon: LayoutGrid, title: '控制台', desc: '一眼掌握团队进展和关键提醒' },
+                  { icon: ListTodo, title: '任务管理', desc: '跟进个人与团队待办事项' },
+                  { icon: FileCheck, title: '申请进度', desc: '随时检查申请状态与剩余事项' },
+                ].map((item, idx) => (
+                  <div key={idx} className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-md transition-shadow">
+                    <item.icon className="w-8 h-8 text-blue-600 mb-3" />
+                    <h4 className="font-semibold text-gray-900 mb-2">{item.title}</h4>
+                    <p className="text-sm text-gray-600">{item.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+
+            {/* 客户与项目管理 */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.1 }}
+              className="bg-gray-50 border border-gray-200 rounded-2xl p-8 shadow-sm"
+            >
+              <div className="flex items-center gap-3 mb-6">
+                <Users className="w-6 h-6 text-blue-600" />
+                <h3 className="text-2xl font-semibold text-gray-900">客户与项目管理</h3>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                {[
+                  { icon: Users, title: '学生管理', desc: '快速查看学生档案与进度' },
+                  { icon: LayoutGrid, title: '服务进度', desc: '用时间轴记录服务里程碑' },
+                  { icon: ClipboardList, title: '文书工作台', desc: '协作撰写和管理申请文书' },
+                  { icon: Compass, title: '选校规划', desc: '梳理申请策略与选校组合' },
+                  { icon: Globe2, title: '项目市场', desc: '浏览可向学生推荐的项目资源' },
+                  { icon: UserSquare2, title: '导师人才市场', desc: '挑选行业导师并同步团队协作' },
+                ].map((item, idx) => (
+                  <div key={idx} className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-md transition-shadow">
+                    <item.icon className="w-8 h-8 text-blue-600 mb-3" />
+                    <h4 className="font-semibold text-gray-900 mb-2">{item.title}</h4>
+                    <p className="text-sm text-gray-600">{item.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+
+            {/* 知识与资源库 */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="bg-gray-50 border border-gray-200 rounded-2xl p-8 shadow-sm"
+            >
+              <div className="flex items-center gap-3 mb-6">
+                <Library className="w-6 h-6 text-blue-600" />
+                <h3 className="text-2xl font-semibold text-gray-900">知识与资源库</h3>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                {[
+                  { icon: GraduationCap, title: '全球教授库', desc: '按学校与研究方向筛选教授' },
+                  { icon: GraduationCap, title: '全球博士岗位', desc: '查看博士岗位、资助与申请流程' },
+                  { icon: Layers, title: '知识花园', desc: '从知识中心获取最新运营素材' },
+                  { icon: Library, title: '知识库', desc: '速览精选攻略与模版合集' },
+                ].map((item, idx) => (
+                  <div key={idx} className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-md transition-shadow">
+                    <item.icon className="w-8 h-8 text-blue-600 mb-3" />
+                    <h4 className="font-semibold text-gray-900 mb-2">{item.title}</h4>
+                    <p className="text-sm text-gray-600">{item.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+
+            {/* 销售与运营 */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="bg-gray-50 border border-gray-200 rounded-2xl p-8 shadow-sm"
+            >
+              <div className="flex items-center gap-3 mb-6">
+                <MessageCircle className="w-6 h-6 text-blue-600" />
+                <h3 className="text-2xl font-semibold text-gray-900">销售与运营</h3>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                {[
+                  { icon: MessageCircle, title: '客户线索', desc: '集中跟进顾问与市场线索' },
+                  { icon: Handshake, title: '合同与签约', desc: '管理签约流程与合同状态' },
+                  { icon: Handshake, title: '合作方管理', desc: '统一维护高校、导师与机构合作方档案' },
+                  { icon: PieChart, title: '客户分群', desc: '用数据洞察不同客户群体' },
+                ].map((item, idx) => (
+                  <div key={idx} className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-md transition-shadow">
+                    <item.icon className="w-8 h-8 text-blue-600 mb-3" />
+                    <h4 className="font-semibold text-gray-900 mb-2">{item.title}</h4>
+                    <p className="text-sm text-gray-600">{item.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+
+            {/* 团队协作与运营支持 */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              className="bg-gray-50 border border-gray-200 rounded-2xl p-8 shadow-sm"
+            >
+              <div className="flex items-center gap-3 mb-6">
+                <Calendar className="w-6 h-6 text-blue-600" />
+                <h3 className="text-2xl font-semibold text-gray-900">团队协作与运营支持</h3>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {[
+                  { icon: Calendar, title: '会议管理', desc: '安排团队会议与重点纪要' },
+                  { icon: Briefcase, title: '财务中台', desc: '实时掌握营收与费用结构' },
+                ].map((item, idx) => (
+                  <div key={idx} className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-md transition-shadow">
+                    <item.icon className="w-8 h-8 text-blue-600 mb-3" />
+                    <h4 className="font-semibold text-gray-900 mb-2">{item.title}</h4>
+                    <p className="text-sm text-gray-600">{item.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+          </div>
+
+          {/* 平台优势总结 */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.5 }}
+            className="mt-16 bg-gradient-to-r from-blue-50 to-blue-100 border border-blue-200 rounded-2xl p-8 text-center"
+          >
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              为什么选择 All in One 平台？
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+              <div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">20+</div>
+                <p className="text-gray-600">核心功能模块</p>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">100%</div>
+                <p className="text-gray-600">数据互通互联</p>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">0</div>
+                <p className="text-gray-600">系统切换成本</p>
+              </div>
+            </div>
+            <p className="text-gray-700 mt-6 text-lg">
+              一个账号，一套系统，覆盖从客户获取到服务交付，从团队协作到财务分析的全流程
+            </p>
+          </motion.div>
         </div>
       </section>
 

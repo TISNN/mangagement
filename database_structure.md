@@ -82,7 +82,7 @@
 | --- | --- | --- | --- | --- |
 | `schools` | 学校库 | `cn_name`、`en_name`、`country`、`city`、`region`、`qs_rank_2024`、`qs_rank_2025`、`ranking`、`tags`、`website_url`、`logo_url`、`description`、`is_verified` | ← `programs`、`user_favorite_schools`、`professors.school_id` | 2 |
 | `programs` | 院校项目 | `school_id`、`cn_name`、`en_name`、`duration`、`apply_requirements`、`language_requirements`、`category`、`tuition_fee`、`analysis`、`degree`、`career`、`entry_month`、`interview`、`url` | → `schools`；← `success_cases`、`user_favorite_programs` | 1 |
-| `success_cases` | 成功案例 | `student_name`、`program_id`、`admission_year`、`gpa`、`language_scores`、`experiecnce`、`bachelor_university`、`bachelor_major`、`applied_program`、`school`、`mentor_id`、`student_id`、`master_school`、`master_major`、`master_gpa`、`region`、`admission_result`、`offer_type`、`scholarship`、`notes` | → `programs`、`mentors`、`students` | 1 |
+| `success_cases` | 成功案例 | `student_name`、`program_id`、`admission_year`、`gpa`、`language_scores`、`experiecnce`、`bachelor_university`、`bachelor_major`、`applied_program`、`school`、`mentor_id`、`student_id`、`master_school`、`master_major`、`master_gpa`、`region`、`admission_result`、`offer_type`、`scholarship`、`notes`、`case_type`、`created_by`、`is_anonymized`、`shared_to_public_at`、`anonymization_consent` | → `programs`、`mentors`、`students`、`employees`（created_by） | 1 |
 | `user_favorite_schools` | 学校收藏 | `user_id`（UUID）、`school_id`、`created_at` | → `schools` | 0 |
 | `user_favorite_programs` | 项目收藏 | `user_id`（UUID）、`program_id`、`created_at` | → `programs` | 0 |
 
@@ -413,8 +413,13 @@ cloud_documents ─┬─< document_annotations
   - `offer_type` (text, 可空) - 录取类型（unconditional/conditional，2025-01-XX 新增）
   - `scholarship` (text, 可空) - 奖学金信息（2025-01-XX 新增）
   - `notes` (text, 可空) - 备注说明（2025-01-XX 新增）
-- **外键**：→ `programs`（program_id）、`mentors`（mentor_id, ON DELETE SET NULL）、`students`（student_id, ON DELETE SET NULL）
-- **索引**：`idx_success_cases_mentor_id`、`idx_success_cases_student_id`
+  - `case_type` (text, 默认 'private') - 案例类型：'private'（我的案例）或 'public'（公共案例库，2025-01-XX 新增）
+  - `created_by` (integer, 可空) - 创建者ID（关联到employees表，2025-01-XX 新增）
+  - `is_anonymized` (boolean, 默认 false) - 是否已去敏处理（2025-01-XX 新增）
+  - `shared_to_public_at` (timestamptz, 可空) - 分享到公共库的时间（2025-01-XX 新增）
+  - `anonymization_consent` (boolean, 默认 false) - 用户是否同意去敏上传（2025-01-XX 新增）
+- **外键**：→ `programs`（program_id）、`mentors`（mentor_id, ON DELETE SET NULL）、`students`（student_id, ON DELETE SET NULL）、`employees`（created_by, ON DELETE SET NULL）
+- **索引**：`idx_success_cases_mentor_id`、`idx_success_cases_student_id`、`idx_success_cases_case_type`、`idx_success_cases_created_by`、`idx_success_cases_is_anonymized`
 - **时间戳**：`created_at`、`updated_at` (timestamptz, 默认 now())
 
 ---
@@ -434,6 +439,7 @@ cloud_documents ─┬─< document_annotations
 
 ## 7. 更新日志
 
+- **2025-01-XX**：为 `success_cases` 表添加隐私和共享功能字段，包括 `case_type`（案例类型：private/public）、`created_by`（创建者ID）、`is_anonymized`（是否已去敏）、`shared_to_public_at`（分享时间）、`anonymization_consent`（去敏同意），支持案例库分为"我的案例"和"公共案例库"两个部分，用户可以将私有案例去敏后分享到公共库，也可以撤回分享。
 - **2025-01-XX**：为 `success_cases` 表添加可选字段，包括 `master_school`、`master_major`、`master_gpa`（硕士背景字段，用于博士申请案例）和 `region`、`admission_result`、`offer_type`、`scholarship`、`notes`（前端辅助字段），支持完整的案例信息管理和展示功能。
 - **2025-01-XX**：为 `success_cases` 表添加 `mentor_id` 和 `student_id` 字段，支持案例关联到负责的导师和对应的学生。添加索引 `idx_success_cases_mentor_id` 和 `idx_success_cases_student_id` 以提高查询性能。外键约束设置为 ON DELETE SET NULL，确保删除导师或学生时不影响历史案例数据。
 - **2025-01-XX**：为 `mentors` 表添加导师档案扩展字段，包括 `rating`（评分）、`service_count`（服务学生数量）、`education`（教育背景 JSONB）、`tags`（标签数组）、`categories`（分类数组），支持导师管理页面的完整信息展示和数据筛选功能。

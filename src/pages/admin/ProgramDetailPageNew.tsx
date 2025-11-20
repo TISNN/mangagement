@@ -9,7 +9,13 @@ import { useProgramDetail, ProgramDetailView } from './ProgramLibrary';
 const ProgramDetailPageNew: React.FC = () => {
   const { programId } = useParams<{ programId: string }>();
   const navigate = useNavigate();
-  const { program, school, loading, error } = useProgramDetail(programId);
+  const { program, school, loading, error, refresh } = useProgramDetail(programId);
+
+  // 处理专业更新后的回调
+  const handleProgramUpdate = () => {
+    // 刷新数据
+    refresh();
+  };
 
   if (loading) {
     return (
@@ -39,6 +45,7 @@ const ProgramDetailPageNew: React.FC = () => {
     <ProgramDetailView 
       program={program}
       school={school}
+      onProgramUpdate={handleProgramUpdate}
     />
   );
 };

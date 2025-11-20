@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, GraduationCap, Award, Briefcase, FileText, Link2, User, Users, Edit2 } from 'lucide-react';
+import { X, GraduationCap, Award, Briefcase, FileText, Link2, User, Users, Edit2, Share2, Lock } from 'lucide-react';
 import { CaseStudy } from '../../../../types/case';
 import { supabase } from '../../../../lib/supabase';
 
@@ -7,9 +7,11 @@ interface CaseDetailPanelProps {
   caseStudy: CaseStudy | null;
   onClose: () => void;
   onEdit?: (caseStudy: CaseStudy) => void;
+  onShare?: (caseStudy: CaseStudy) => void;
+  onUnshare?: (caseStudy: CaseStudy) => void;
 }
 
-const CaseDetailPanel: React.FC<CaseDetailPanelProps> = ({ caseStudy, onClose, onEdit }) => {
+const CaseDetailPanel: React.FC<CaseDetailPanelProps> = ({ caseStudy, onClose, onEdit, onShare, onUnshare }) => {
   const [programInfo, setProgramInfo] = useState<{ school: string; program: string } | null>(null);
 
   // 加载关联的专业信息
@@ -78,9 +80,37 @@ const CaseDetailPanel: React.FC<CaseDetailPanelProps> = ({ caseStudy, onClose, o
                     {caseStudy.student_name}
                   </span>
                 )}
+                {caseStudy.case_type === 'public' && (
+                  <span className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300">
+                    公共案例
+                  </span>
+                )}
+                {caseStudy.is_anonymized && (
+                  <span className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300">
+                    已去敏
+                  </span>
+                )}
               </div>
             </div>
             <div className="flex items-center gap-2">
+              {onShare && (
+                <button
+                  onClick={() => onShare(caseStudy)}
+                  className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors"
+                  title="分享到公共库"
+                >
+                  <Share2 className="w-5 h-5 text-blue-600 dark:text-blue-400" />
+                </button>
+              )}
+              {onUnshare && (
+                <button
+                  onClick={() => onUnshare(caseStudy)}
+                  className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors"
+                  title="撤回分享"
+                >
+                  <Lock className="w-5 h-5 text-orange-600 dark:text-orange-400" />
+                </button>
+              )}
               {onEdit && (
                 <button
                   onClick={() => onEdit(caseStudy)}

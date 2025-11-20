@@ -1,18 +1,21 @@
 import React, { useState, useMemo } from 'react';
 import { Plus, FileCheck, TrendingUp, Award } from 'lucide-react';
-import { CaseStudy, CaseStudyFilters, ViewMode } from '../../../types/case';
+import { CaseStudy, CaseStudyFilters, ViewMode, CaseLibraryType } from '../../../types/case';
 import { useCaseData } from './hooks/useCaseData';
 import CaseFilters from './components/CaseFilters';
 import ViewTabs from './components/ViewTabs';
+import CaseLibraryTabs from './components/CaseLibraryTabs';
 import CaseGridView from './components/CaseGridView';
 import CaseListView from './components/CaseListView';
 import CaseTableView from './components/CaseTableView';
 import CaseDetailPanel from './components/CaseDetailPanel';
 import CreateCaseModal from './components/CreateCaseModal';
 import EditCaseModal from './components/EditCaseModal';
+import AnonymizationConfirmDialog from './components/AnonymizationConfirmDialog';
 
 const CaseStudiesPage: React.FC = () => {
-  const { cases, loading, statistics, createCase, updateCase } = useCaseData();
+  const [libraryType, setLibraryType] = useState<CaseLibraryType>('my');
+  const { cases, loading, statistics, currentUserId, createCase, updateCase, shareCase, unshareCase } = useCaseData(libraryType);
   
   const [viewMode, setViewMode] = useState<ViewMode>('grid');
   const [filters, setFilters] = useState<CaseStudyFilters>({
@@ -26,6 +29,8 @@ const CaseStudiesPage: React.FC = () => {
   const [editingCase, setEditingCase] = useState<CaseStudy | null>(null);
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
   const [isEditModalOpen, setIsEditModalOpen] = useState(false);
+  const [sharingCase, setSharingCase] = useState<CaseStudy | null>(null);
+  const [isAnonymizationDialogOpen, setIsAnonymizationDialogOpen] = useState(false);
 
   // 筛选逻辑
   const filteredCases = useMemo(() => {
@@ -112,6 +117,44 @@ const CaseStudiesPage: React.FC = () => {
     }
   };
 
+  // 处理分享案例
+  const handleShareCase = (caseStudy: CaseStudy) => {
+    setSharingCase(caseStudy);
+    setIsAnonymizationDialogOpen(true);
+  };
+
+  // 确认分享
+  const handleConfirmShare = async () => {
+    if (!sharingCase) return;
+    try {
+      await shareCase(sharingCase.id);
+      setIsAnonymizationDialogOpen(false);
+      setSharingCase(null);
+      setSelectedCase(null); // 关闭详情面板
+    } catch (error) {
+      // 错误已在shareCase中处理
+    }
+  };
+
+  // 处理撤回分享
+  const handleUnshareCase = async (caseStudy: CaseStudy) => {
+    if (!window.confirm('确定要撤回案例分享吗？撤回后案例将恢复为私有状态。')) {
+      return;
+    }
+    try {
+      await unshareCase(caseStudy.id);
+      setSelectedCase(null); // 关闭详情面板
+    } catch (error) {
+      // 错误已在unshareCase中处理
+    }
+  };
+
+  // 处理标签切换
+  const handleLibraryTypeChange = (type: CaseLibraryType) => {
+    setLibraryType(type);
+    setSelectedCase(null); // 切换时关闭详情面板
+  };
+
   return (
     <div className="space-y-6">
       {/* 顶部标题和操作 */}
@@ -121,43 +164,53 @@ const CaseStudiesPage: React.FC = () => {
             案例库
           </h1>
           <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-            管理和查看所有成功案例
+            {libraryType === 'my' ? '管理和查看我的私有案例' : '浏览所有用户共享的公共案例'}
           </p>
         </div>
         
         <div className="flex items-center gap-3">
           <ViewTabs activeView={viewMode} onViewChange={setViewMode} />
-          <button
-            onClick={() => setIsCreateModalOpen(true)}
-            className="flex items-center gap-2 px-5 py-2.5 bg-purple-600 hover:bg-purple-700 dark:bg-purple-700 dark:hover:bg-purple-800 text-white rounded-lg transition-colors shadow-sm hover:shadow-md font-medium"
-          >
-            <Plus className="w-5 h-5" />
-            新建案例
-          </button>
+          {libraryType === 'my' && (
+            <button
+              onClick={() => setIsCreateModalOpen(true)}
+              className="flex items-center gap-2 px-5 py-2.5 bg-purple-600 hover:bg-purple-700 dark:bg-purple-700 dark:hover:bg-purple-800 text-white rounded-lg transition-colors shadow-sm hover:shadow-md font-medium"
+            >
+              <Plus className="w-5 h-5" />
+              新建案例
+            </button>
+          )}
         </div>
       </div>
+
+      {/* 案例库类型切换标签 */}
+      <CaseLibraryTabs
+        activeTab={libraryType}
+        onTabChange={handleLibraryTypeChange}
+        myCasesCount={statistics.myCases}
+        publicCasesCount={statistics.publicCases}
+      />
 
       {/* 统计卡片 */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {[
           {
-            title: '成功案例',
-            value: statistics.totalCases.toString(),
-            change: '+12.5%',
+            title: libraryType === 'my' ? '我的案例' : '公共案例',
+            value: libraryType === 'my' ? statistics.myCases.toString() : statistics.publicCases.toString(),
+            change: '',
             icon: FileCheck,
             color: 'green'
           },
           {
-            title: '已录取',
-            value: statistics.acceptedCases.toString(),
-            change: '+8.3%',
+            title: '总案例数',
+            value: statistics.totalCases.toString(),
+            change: '',
             icon: Award,
             color: 'blue'
           },
           {
             title: '录取率',
             value: statistics.acceptanceRate,
-            change: '+5.2%',
+            change: '',
             icon: TrendingUp,
             color: 'purple'
           }
@@ -167,7 +220,9 @@ const CaseStudiesPage: React.FC = () => {
               <div className={`p-3 bg-${stat.color}-50 dark:bg-${stat.color}-900/20 rounded-xl`}>
                 <stat.icon className={`h-6 w-6 text-${stat.color}-600 dark:text-${stat.color}-400`} />
               </div>
-              <span className="text-sm text-green-600 dark:text-green-400">{stat.change}</span>
+              {stat.change && (
+                <span className="text-sm text-green-600 dark:text-green-400">{stat.change}</span>
+              )}
             </div>
             <div className="space-y-1">
               <p className="text-sm text-gray-500 dark:text-gray-400">{stat.title}</p>
@@ -211,9 +266,22 @@ const CaseStudiesPage: React.FC = () => {
         <CaseDetailPanel
           caseStudy={selectedCase}
           onClose={() => setSelectedCase(null)}
-          onEdit={handleEditCase}
+          onEdit={libraryType === 'my' && selectedCase.created_by === currentUserId ? handleEditCase : undefined}
+          onShare={libraryType === 'my' && selectedCase.created_by === currentUserId && selectedCase.case_type === 'private' ? handleShareCase : undefined}
+          onUnshare={libraryType === 'my' && selectedCase.created_by === currentUserId && selectedCase.case_type === 'public' ? handleUnshareCase : undefined}
         />
       )}
+
+      {/* 去敏确认对话框 */}
+      <AnonymizationConfirmDialog
+        isOpen={isAnonymizationDialogOpen}
+        onClose={() => {
+          setIsAnonymizationDialogOpen(false);
+          setSharingCase(null);
+        }}
+        onConfirm={handleConfirmShare}
+        caseStudyName={sharingCase ? `${sharingCase.school || '未知学校'} - ${sharingCase.applied_program || '未知专业'}` : undefined}
+      />
 
       {/* 创建案例模态框 */}
       <CreateCaseModal

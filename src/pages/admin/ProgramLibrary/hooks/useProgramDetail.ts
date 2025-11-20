@@ -14,48 +14,54 @@ export const useProgramDetail = (programId: string | undefined) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  useEffect(() => {
+  const fetchData = async () => {
     if (!programId) {
       setLoading(false);
       return;
     }
 
-    const fetchData = async () => {
-      setLoading(true);
-      setError(null);
+    setLoading(true);
+    setError(null);
 
-      try {
-        // 获取专业详情
-        const programData = await fetchProgramById(programId);
+    try {
+      // 获取专业详情
+      const programData = await fetchProgramById(programId);
 
-        if (!programData) {
-          setError('未找到专业信息');
-          return;
-        }
-
-        setProgram(programData);
-
-        // 获取学校信息
-        if (programData.school_id) {
-          const schoolData = await fetchSchoolById(programData.school_id);
-          setSchool(schoolData);
-        }
-      } catch (err) {
-        console.error('获取专业详情失败:', err);
-        setError('获取专业详情失败');
-      } finally {
-        setLoading(false);
+      if (!programData) {
+        setError('未找到专业信息');
+        return;
       }
-    };
 
+      setProgram(programData);
+
+      // 获取学校信息
+      if (programData.school_id) {
+        const schoolData = await fetchSchoolById(programData.school_id);
+        setSchool(schoolData);
+      }
+    } catch (err) {
+      console.error('获取专业详情失败:', err);
+      setError('获取专业详情失败');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
     fetchData();
   }, [programId]);
+
+  // 刷新数据
+  const refresh = () => {
+    fetchData();
+  };
 
   return {
     program,
     school,
     loading,
-    error
+    error,
+    refresh
   };
 };
 

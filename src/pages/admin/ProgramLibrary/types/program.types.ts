@@ -2,7 +2,13 @@
  * 专业库类型定义
  */
 
-import { Program } from '../../SchoolLibrary/types/school.types';
+import { 
+  Program, 
+  CourseInfo, 
+  ExperientialLearningInfo, 
+  ApplicationTimelineEvent, 
+  ApplicationMaterial 
+} from '../../SchoolLibrary/types/school.types';
 
 // 专业分类枚举
 export enum ProgramCategory {
@@ -23,6 +29,12 @@ export interface ProgramFilters {
   duration: string;
 }
 
-// 导出Program类型以便使用
-export type { Program };
+// 导出Program类型和所有辅助类型以便使用
+export type { 
+  Program, 
+  CourseInfo, 
+  ExperientialLearningInfo, 
+  ApplicationTimelineEvent, 
+  ApplicationMaterial 
+};
 

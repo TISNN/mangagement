@@ -95,6 +95,16 @@ export const APP_FEATURES: AppFeature[] = [
     tags: ['文书'],
   },
   {
+    id: 'document-writer-workspace',
+    title: '文书老师工作区',
+    description: '专为文书老师设计的集成化工作平台，整合文档编辑、知识库、AI助手等功能',
+    category: '客户与项目',
+    icon: FileText,
+    rolesAllowed: ['admin'],
+    badge: '新上线',
+    tags: ['文书', 'AI'],
+  },
+  {
     id: 'school-selection-planner',
     title: '选校规划',
     description: '梳理申请策略与选校组合',
